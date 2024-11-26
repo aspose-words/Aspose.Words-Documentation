@@ -1,4 +1,4 @@
-﻿---
+---
 title: Crearea unui aspect de pagină în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Crearea unui aspect de pagină
@@ -7,6 +7,7 @@ description: "Crearea unui aspect de pagină poate fi o procedură costisitoare.
 type: docs
 weight: 10
 url: /ro/cpp/creating-a-page-layout/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Crearea unui aspect de pagină poate fi o procedură costisitoare, atât din punct de vedere al vitezei, cât și al memoriei. Acest lucru se datorează mai multor motive:

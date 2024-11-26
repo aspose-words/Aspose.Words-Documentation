@@ -7,6 +7,7 @@ type: docs
 description: "قم بنقل مستند Markdown إلى Document Object Model وإعادته باستخدام Python. حتى تتمكن من العمل مع Markdown المعقد الموجود وإنشاء مستند Markdown برمجيًا من البداية."
 weight: 20
 url: /ar/python-net/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 لقراءة محتوى المستند وتنسيقه ومعالجته وتعديله برمجيًا، تحتاج إلى ترجمته إلى Aspose.Words Document Object Model (DOM).
@@ -124,9 +125,9 @@ builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.image_examp
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br /> `-----` |  هذه فقرة بسيطة ذات شكل HorizontalRule المطابق:<br /> [DocumentBuilder.insert_horizontal_rule()](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_horizontal_rule/) |
 |   {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_markdown-HorizontalRule.py" >}}  |                                                                |
-|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.style_name = "Heading N"`، حيث (1&lt;= N &lt;= 9).<br /> تتم ترجمة هذا إلى نمط مدمج ويجب أن يكون بالضبط من النمط المحدد (لا يُسمح باللاحقات أو البادئات).<br /> وإلا فستكون مجرد فقرة عادية ذات نمط مناسب |
+|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.style_name = "Heading N"`، حيث (1&le; N &le; 9).<br /> تتم ترجمة هذا إلى نمط مدمج ويجب أن يكون بالضبط من النمط المحدد (لا يُسمح باللاحقات أو البادئات).<br /> وإلا فستكون مجرد فقرة عادية ذات نمط مناسب |
 |   {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_markdown-Headings.py" >}}  |                                                                |
-|  **Setext Heading**<br /> `===` (إذا كان مستوى العنوان 1)،<br /> `---` (إذا كان مستوى العنوان 2) |  `ParagraphFormat.style_name = "SetextHeading[some suffix]"`، استنادًا إلى أسلوب `"Heading N"`.<br /> إذا كان (N &gt;= 2)، فسيتم استخدام `"Heading 2"`، وإلا `"Heading 1"`.<br /> يُسمح بأي لاحقة، لكن مستورد Aspose.Words يستخدم الأرقام "1" و"2" على التوالي |
+|  **Setext Heading**<br /> `===` (إذا كان مستوى العنوان 1)،<br /> `---` (إذا كان مستوى العنوان 2) |  `ParagraphFormat.style_name = "SetextHeading[some suffix]"`، استنادًا إلى أسلوب `"Heading N"`.<br /> إذا كان (N &ge; 2)، فسيتم استخدام `"Heading 2"`، وإلا `"Heading 1"`.<br /> يُسمح بأي لاحقة، لكن مستورد Aspose.Words يستخدم الأرقام "1" و"2" على التوالي |
 |  {{< highlight python >}}# Use a document builder to add content to the document.
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)

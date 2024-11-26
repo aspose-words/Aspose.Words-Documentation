@@ -7,6 +7,7 @@ description: "Een document omzetten naar een TIFF met meerdere pagina's C#. Om t
 type: docs
 weight: 30
 url: /nl/net/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Wanneer u met documenten werkt, moet u vaak uw document converteren naar een rasterbestand(s). Dit is vooral relevant als u uw document moet presenteren in een leesbaar en afdrukbaar formaat, maar niet bewerkbaar. U kunt bijvoorbeeld een rasterafbeelding van de eerste pagina van uw document als voorbeeld gebruiken. Dit artikel beschrijft hoe u een document naar een rasterafbeelding kunt converteren met behulp van het voorbeeld van het TIFF-formaat.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: テーブル内のテキストを操作する
 second_title: C++の場合Aspose.Words
 articleTitle: テーブル内のテキストを操作する
@@ -7,6 +7,7 @@ description: "C++でテーブル内のテキストを置き換えます。 C++�
 type: docs
 weight: 60
 url: /ja/cpp/work-with-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 以前の記事で述べたように、テーブルには通常プレーンテキストが含まれますが、画像や他のテーブルなどの他のコンテンツはテーブルセルに配置できま

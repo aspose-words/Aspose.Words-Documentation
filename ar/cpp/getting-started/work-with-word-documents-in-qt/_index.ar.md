@@ -1,4 +1,4 @@
-﻿---
+---
 title: العمل مع وثائق وورد في Qt
 second_title: Aspose.Words ل C++
 articleTitle: العمل مع وثائق وورد في Qt
@@ -8,6 +8,7 @@ description: "Aspose.Words ل C++ يمكن دمجها في Qt لإنشاء وم�
 keywords: "create a document Qt Creator, load a document Qt Creator, use Aspose C++ with Qt creator, load a document Aspose C++, load formats supported by Aspose.Words C++"
 weight: 120
 url: /ar/cpp/work-with-word-documents-in-qt/
+timestamp: 2024-07-11-16-13-28
 ---
 
 Qt هو C++ إطار تطوير التطبيقات عبر الأنظمة الأساسية والذي يستخدم على نطاق واسع لتطوير مجموعة متنوعة من تطبيقات سطح المكتب والجوال والنظام المضمن. Aspose.Words ل C++ يمكن دمجها في Qt من أجل إنشاء ومعالجة مستندات ورد في تطبيقاتك Qt.

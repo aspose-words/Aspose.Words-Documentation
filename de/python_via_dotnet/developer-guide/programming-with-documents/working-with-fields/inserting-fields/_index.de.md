@@ -7,6 +7,7 @@ description: "Fügen Sie Felder auf unterschiedliche Weise in ein Dokument in Py
 type: docs
 weight: 20
 url: /de/python-net/inserting-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Es gibt verschiedene Möglichkeiten, Felder in ein Dokument einzufügen:

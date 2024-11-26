@@ -1,4 +1,4 @@
-﻿---
+---
 title: Markdownをドキュメントオブジェクトモデル(DOM)に変換する
 second_title: C++の場合Aspose.Words
 articleTitle: Markdownをドキュメントオブジェクトモデル(DOM)に変換する
@@ -7,6 +7,7 @@ type: docs
 description: "C++を使用してオブジェクトモデルを文書化し、戻すためにMarkdown文書をTarnslateします。 したがって、複雑な既存のMarkdownを操作し、プログラムでMarkdown文書を最初から作成することができます。"
 weight: 20
 url: /ja/cpp/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 文書の内容と書式をプログラムで読み取り、操作し、変更するには、それをAspose.Wordsドキュメントオブジェクトモデル(DOM)に変換する必要があります。

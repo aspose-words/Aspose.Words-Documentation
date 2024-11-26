@@ -7,6 +7,7 @@ type: docs
 description: "Giới thiệu về tính năng Office Math trong Aspose.Words dành cho Java."
 weight: 320
 url: /vi/java/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bây giờ nó còn tiện lợi hơn khi làm việc với đối tượng OfficeMath Type. Trong Aspose.Words người dùng có thể dễ dàng biện minh và cũng có thể quản lý xem một phương trình được hiển thị inline hay trên một dòng riêng. "Hơn nữa với sự sẵn có của **MathObjectType** các công cụ điều khiển hữu ích có thể được thực hiện bằng việc sử dụng đối tượng ma trận này."

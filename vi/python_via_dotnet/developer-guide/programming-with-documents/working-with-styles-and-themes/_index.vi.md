@@ -7,6 +7,7 @@ description: "Truy cập và quản lý các kiểu và chủ đề trong tài l
 type: docs
 weight: 110
 url: /vi/python-net/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Lớp [StyleCollection](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/) được sử dụng để quản lý tích hợp sẵn và áp dụng các cài đặt do người dùng xác định cho kiểu.

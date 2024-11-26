@@ -1,19 +1,20 @@
----
-title: Android ผ่าน Java แพลตฟอร์มที่รองรับ
-second_title: Aspose.Words สําหรับ Java
-articleTitle: Aspose.Words สําหรับ Android ผ่าน Java แพลตฟอร์มที่รองรับ
-linktitle: Aspose.Words สําหรับ Android ผ่าน Java แพลตฟอร์มที่รองรับ
-description: "Aspose.Words สําหรับ Android ผ่าน Java แพลตฟอร์ม"
+﻿---
+title: Androidผ่านทางJavaแพลตฟอร์มที่รองรับ
+second_title: Aspose.WordsสำหรับJava
+articleTitle: Aspose.WordsสำหรับAndroidผ่านทางJavaแพลตฟอร์มที่รองรับ
+linktitle: Aspose.WordsสำหรับAndroidผ่านทางJavaแพลตฟอร์มที่รองรับ
+description: "Aspose.WordsสำหรับAndroidผ่านทางJavaแพลตฟอร์มที่รองรับ."
 type: docs
 weight: 40
 url: /th/java/aspose-words-for-android-via-java-supported-platforms/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words สําหรับ Android ผ่าน Java เขียนลงไปทั้งหมด Javaก็ขึ้นอยู่กับมาตรฐานเท่านั้น Java ห้องสมุด และสามารถใช้ได้ในใด ๆ Java โปรแกรมบนแพลตฟอร์มใด ๆ ที่รองรับ Java. Aspose.Words สําหรับ Android ผ่าน Java ถูกกําหนดให้เป็นการดาวน์โหลด ZIP และบรรจุต่อไปนี้:
+Aspose.WordsสำหรับAndroidผ่านทางJavaถูกเขียนทั้งหมดในJava,ขึ้นอยู่กับมาตรฐานJavaไลบรารี,และสามารถใช้ในโปรแกรมประยุกต์ใดๆJavaบนแพลตฟอร์มใดๆที่สนับสนุนโดยJava. Aspose.WordsสำหรับAndroidผ่านทางJavaให้เป็นZIPดาวน์โหลดและประกอบด้วยต่อไปนี้:
 
-- Aspose.Words สําหรับ Android ผ่าน Java ห้องสมุดโหล
-- ตัวอย่างโครงการ
-- Aspose.Words เอกสารในรูปแบบ HTML
+- Aspose.WordsสำหรับAndroidผ่านทางJavaไลบรารีขวด.
+- ตัวอย่างโครงการ.
+- Aspose.WordsเอกสารในHTMLรูปแบบ.
 
 
 

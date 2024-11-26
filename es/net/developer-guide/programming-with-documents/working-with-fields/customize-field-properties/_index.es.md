@@ -7,6 +7,7 @@ description: "Aprenda a personalizar las propiedades de los campos en C#. Cambie
 type: docs
 weight: 27
 url: /es/net/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words brinda la capacidad de interactuar mediante programación con varias propiedades de campo. En este artículo, veremos un par de ejemplos para que comprenda el principio básico de trabajar con propiedades de campo. Puede ver la lista completa de propiedades para cada tipo de campo en la clase correspondiente en el [Espacio de nombres de campos](https://reference.aspose.com/words/es/net/aspose.words.fields/).

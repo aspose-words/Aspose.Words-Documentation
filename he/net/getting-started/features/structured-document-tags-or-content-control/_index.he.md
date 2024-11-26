@@ -7,6 +7,7 @@ description: "עבודה עם הגדרות מסמכים או בקרת תוכן �
 type: docs
 weight: 50
 url: /he/net/structured-document-tags-or-content-control/
+timestamp: 2024-01-31-14-23-37
 ---
 
 

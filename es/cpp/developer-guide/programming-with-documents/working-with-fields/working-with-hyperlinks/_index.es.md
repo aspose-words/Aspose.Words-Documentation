@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabajar con hipervínculos en C++
 second_title: Aspose.Words para C++
 articleTitle: Agregar o Modificar Hipervínculos
@@ -7,6 +7,7 @@ description: "Cómo agregar un hipervínculo a su documento usando Aspose.Words 
 type: docs
 weight: 180
 url: /es/cpp/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un hipervínculo en documentos de Microsoft Word es el campo `HYPERLINK`. En Aspose.Words, los hipervínculos se implementan a través de la clase [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/).

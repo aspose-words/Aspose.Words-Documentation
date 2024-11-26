@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Lettertipes in Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Werk Met Lettertipes
@@ -7,6 +7,7 @@ description: "Pas font instellings met behulp van Python."
 type: docs
 weight: 230
 url: /af/python-net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 'n lettertipe is'n stel karakters met'n sekere grootte, kleur en ontwerp. Aspose.Words laat jou toe om met lettertipes te werk deur die [fonts](https://reference.aspose.com/words/python-net/aspose.words.fonts/) module en die [Font](https://reference.aspose.com/words/python-net/aspose.words/font/) klas te gebruik.

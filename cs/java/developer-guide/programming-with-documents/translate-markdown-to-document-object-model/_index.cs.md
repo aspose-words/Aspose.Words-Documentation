@@ -7,6 +7,7 @@ type: docs
 description: "Tarnslát a Markdown dokument k Document Object Model a zpátky. Takže můžete pracovat se složitými existujícími Markdown a programově vytvořit Markdown dokument od nuly pomocí Java."
 weight: 20
 url: /cs/java/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Chcete-li programově číst, manipulovat a upravovat obsah a formátování dokumentu, musíte jej přeložit do Aspose.Words Document Object Model (DOM).
@@ -42,7 +43,7 @@ Používáme [Font](https://reference.aspose.com/words/java/com.aspose.words/fon
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}}  |  |
 
-Používáme styl postavy se jménem, který začíná od slova <span notrans="<span notrans=" `InlineCode`"=""></span>, následuje volitelná tečka `(.)` a řada odplat ```(`)``` pro `InlineCode` bonus. Pokud se vynechá řada backticks, pak jeden backtick bude použit ve výchozím nastavení.
+Používáme styl postavy se jménem, který začíná od slova `InlineCode`, následuje volitelná tečka `(.)` a řada odplat ```(`)``` pro `InlineCode` bonus. Pokud se vynechá řada backticks, pak jeden backtick bude použit ve výchozím nastavení.
 
 |  Markdown funkce |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
@@ -67,9 +68,9 @@ Níže uvedená tabulka uvádí příklady použití Markdown Listové bloky v A
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br/>`-----` |  Jedná se o jednoduchý odstavec s odpovídajícím tvarem horizontálního pravidla:<br/>`DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-HorizontalRule.java" >}}  |                                                                |
-|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, 1 písm. c) nařízení o kapitálových požadavcích.<br/>To je přeloženo do vestavěného stylu a mělo by být přesně zadaného vzoru (nejsou povoleny žádné přípony nebo předpony).<br/>Jinak to bude jen pravidelný odstavec s odpovídajícím stylem |
+|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`, 1 písm. c) nařízení o kapitálových požadavcích.<br/>To je přeloženo do vestavěného stylu a mělo by být přesně zadaného vzoru (nejsou povoleny žádné přípony nebo předpony).<br/>Jinak to bude jen pravidelný odstavec s odpovídajícím stylem |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Heading.java" >}}  |                                                                |
-|  **Setext Heading**<br/>`===` (pokud úroveň názvu 1),<br/>`---` (je-li položka úrovně 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, na základě `“Heading N”` Styl.<br/>Pokud (N < 2), pak `“Heading 2”` bude použito jinak `“Heading 1”`.<br/>Každá přípona je povolena, ale Aspose.Words dovozce používá čísla 1,0% a 2,0% |
+|  **Setext Heading**<br/>`===` (pokud úroveň názvu 1),<br/>`---` (je-li položka úrovně 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, na základě 'Heading N' Styl.<br/>Pokud (N < 2), pak 'Heading 2' bude použito jinak 'Heading 1'.<br/>Každá přípona je povolena, ale Aspose.Words dovozce používá čísla 1,0% a 2,0% |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SetextHeading.java" >}}  |                                                                |
 |   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-IndentedCode.java" >}}  |                                                                |

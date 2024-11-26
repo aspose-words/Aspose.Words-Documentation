@@ -1,80 +1,81 @@
----
-title: 文書のプロパティで作業 Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: 文書のプロパティで作業
-linktitle: 文書のプロパティで作業
-description: "Aspose.Words お問い合わせ Java ドキュメントに関する有用な情報を保存することができます。 API バージョン番号または認証 Date, 組み込みまたはカスタムドキュメントプロパティ。"
+﻿---
+title: Javaでのドキュメントプロパティの操作
+second_title: Aspose.WordsのためのJava
+articleTitle: ドキュメントプロパティの操作
+linktitle: ドキュメントプロパティの操作
+description: "Aspose.WordsforJavaを使用すると、APIやバージョン番号、承認された日付など、ドキュメントに関する有用な情報を組み込みまたはカスタムドキュメントプロパティ"
 type: docs
 weight: 10
 url: /ja/java/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
-ドキュメントプロパティでは、ドキュメントに関する有用な情報を保存できます。 これらのプロパティは2つのグループに分けることができます。
+ドキュメントプロパティを使用すると、ドキュメントに関する有用な情報を格納できます。 これらのプロパティは、2つのグループに分けることができます:
 
-* 文書のタイトル、著者名、文書の統計などを含む値を含むシステムまたはビルトイン
-* 必須 user-defined または custom は name-value のペアとして提供され、ユーザーは名前と値の両方を定義できます。
+* 文書のタイトル、作成者名、文書の統計情報などの値を含むシステムまたは組み込み。
+* ユーザーが名前と値の両方を定義できる名前と値のペアとして提供されます。
 
-情報を知ることは有用である API そして版番号は直接文書を出力するために書かれます。 たとえば、ドキュメントをPDFに変換すると、 Aspose.Words "Application" フィールドに "Aspose.Words「PDF プロデューサー」と「PDF プロデューサー」のフィールドAspose.Words お問い合わせ Java YY.M.N, ここで *YY.M.N* バージョンです。 Aspose.Words 変換に使用されます。 詳しくはこちらをご覧ください。 [出力文書に含まれるジェネレータまたはプロデューサー名](/words/ja/java/generator-or-producer-name-included-in-output-documents/)お問い合わせ
+APIとバージョン番号に関する情報が出力文書に直接書き込まれることを知っておくと便利です。 たとえば、ドキュメントをPDFに変換すると、Aspose.Wordsは"Application"フィールドに"Aspose.Words"を入力し、"PDFProducer"フィールドに"Aspose.WordsforJavaYYを入力します。ここで、*YY.M.N*は変換に使用されるAspose.Wordsのバージョンです。 詳細については、以下を参照してください [出力文書に含まれるジェネレータ名またはプロデューサー名](/words/java/generator-or-producer-name-included-in-output-documents/).
 
 {{% alert color="primary" %}}
 
-お問い合わせ **指示できない** Aspose.Words この情報を出力文書から変更または削除する。
+出力文書からこの情報を変更または削除するには、**cannot direct**Aspose.Wordsに注意してください。
 
 {{% /alert %}}
 
-## アクセス文書のプロパティ
+## ドキュメントのプロパティへのアクセス
 
-ドキュメントプロパティへのアクセス Aspose.Words 使用:
+Aspose.Wordsのドキュメントプロパティにアクセスするには、次を使用します:
 
-* 必須 [BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/document/#getBuiltInDocumentProperties) ビルトインプロパティを取得する
+* [BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/document/#getBuiltInDocumentProperties)組み込みプロパティを取得します。
 
-* 必須 [CustomDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/document/#getCustomDocumentProperties) カスタムプロパティを取得する
+* [CustomDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/document/#getCustomDocumentProperties)カスタムプロパティを取得します。
 
-**BuiltInDocumentProperties** そして、 **CustomDocumentProperties** コレクション [DocumentProperty](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/) オブジェクト。 これらのオブジェクトは、名前またはインデックスによってインデックスプロパティを介して取得できます。
+**BuiltInDocumentProperties**
 
-**BuiltInDocumentProperties** さらに、適切なタイプの値を返す入力されたプロパティのセットを介してドキュメントプロパティへのアクセスを提供します。 **CustomDocumentProperties** ドキュメントプロパティを追加または削除することができます。
+**BuiltInDocumentProperties**
 
-ザ・オブ・ザ・ [DocumentProperty](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/) class では、ドキュメントプロパティの名前、値、種類を取得できます。 [値]https://reference.aspose.com/words/java/com.aspose.words/documentproperty#Value????????????? {0} お問い合わせ {1}[フルーツ]](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toString) そして、 **DocumentProperty.**[ToInt](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toInt), 適切なタイプの値を取得する
+[DocumentProperty](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/)クラスを使用すると、ドキュメントプロパティの名前、値、および型を取得できます。 [値]https://reference.aspose.com/words/java/com.aspose.words/documentproperty#Value）はオブジェクトを返しますが、プロパティ値を特定の型に変換できるメソッドのセットがあります。 プロパティの型がわかったら、**DocumentProperty.**[ToString]のような**DocumentProperty.ToXXX**メソッドのいずれかを使用できます](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toString)と**DocumentProperty.**[ToInt](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toInt)は、適切な型の値を取得します。
 
-次のコードの例では、すべての組み込みおよびカスタムプロパティをドキュメントに列挙する方法を示します。
+次のコード例は、ドキュメント内のすべての組み込みプロパティとカスタムプロパティを列挙する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocProperties-EnumerateProperties.java" >}}
 
 {{% alert color="primary" %}}
 
-この例のテンプレートファイルをダウンロードできます。 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Properties.docx)お問い合わせ
+この例のテンプレートファイルは、次の場所からダウンロードできます [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Properties.docx).
 
 {{% /alert %}}
 
-インスタグラム Microsoft Word, 「ファイル→プロパティ」メニューを使用してドキュメントプロパティにアクセスすることができます。
+Microsoft Wordでは、"ファイル→プロパティ"メニューを使用して文書のプロパティにアクセスできます。
 
 <img src="/words/java/work-with-document-properties/work-with-document-properties-1.png" alt="work-with-document-properties-aspose-words-java.png" style="width:400px"/>
 
-## 文書のプロパティの追加または削除
+## ドキュメントプロパティの追加または削除
 
-組み込みのドキュメントプロパティを追加または削除することはできません。 Aspose.Wordsお問い合わせ 値を変更したり更新したりすることができます。
+Aspose.Wordsを使用して組み込みのドキュメントプロパティを追加または削除することはできません。 値を変更または更新できるのは、その値のみです。
 
-カスタムドキュメントプロパティを追加するには Aspose.Words, 使用して下さい [Add](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#add-java.lang.String-boolean) メソッドは、新しいプロパティ名と適切なタイプの値を渡します。 メソッドは新しく作成されたメソッドを返します。 **DocumentProperty** オブジェクト。
+Aspose.Wordsを使用してカスタムドキュメントプロパティを追加するには、[Add](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#add-java.lang.String-boolean)メソッドを使用して、新しいプロパティ名と適切な型の値を渡します。 このメソッドは、新しく作成された**DocumentProperty**オブジェクトを返します。
 
-カスタムプロパティを削除するには、 [Remove](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#remove-java.lang.String) メソッドは、削除するプロパティ名を渡します。 [RemoveAt](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#removeAt-int) インデックスでプロパティを削除する方法。 また、すべてのプロパティーを削除することもできます。 [Clear](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#clear) メソッド。
+カスタムプロパティを削除するには、[Remove](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#remove-java.lang.String)メソッドを使用して削除するプロパティ名を渡すか、[RemoveAt](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#removeAt-int)メソッドを使用してインデックスごとにプロパティを削除します。 [Clear](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#clear)メソッドを使用してすべてのプロパティを削除することもできます。
 
-以下のコードの例では、特定の名前を持つカスタムプロパティがドキュメントに存在し、いくつかのカスタムドキュメントプロパティを追加します。
+次のコード例では、指定された名前のカスタムプロパティがドキュメントに存在するかどうかを確認し、さらにいくつかのカスタムドキュメントプ:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocProperties-CustomAdd.java" >}}
 
 {{% alert color="primary" %}}
 
-この例のテンプレートファイルをダウンロードできます。 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Properties.docx)お問い合わせ
+この例のテンプレートファイルは、次の場所からダウンロードできます [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Properties.docx).
 
 {{% /alert %}}
 
-以下のコードの例では、カスタムドキュメントプロパティを削除する方法を示します。
+カスタムドキュメントプロパティを削除する方法を次のコード例に示します:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocProperties-CustomRemove.java" >}}
 
-## 組み込み文書のプロパティを更新する
+## 組み込みのドキュメントのプロパティを更新する
 
-Aspose.Words ドキュメントプロパティを自動的に更新しません。 Microsoft Word いくつかのプロパティで行いますが、統計的な組み込みのドキュメントプロパティを更新する方法を提供します。 お問い合わせ [UpdateWordCount](https://reference.aspose.com/words/java/com.aspose.words/document/#updateWordCount) 次のプロパティを再計算し、更新する方法:
+Aspose.Wordsは、Microsoft Wordのようにドキュメントプロパティを自動的に更新しませんが、一部の統計的な組み込みドキュメントプロパティを更新する方法を提供します。 次のプロパティを再計算して更新するには、[UpdateWordCount](https://reference.aspose.com/words/java/com.aspose.words/document/#updateWordCount)メソッドを呼び出します:
 
 * [Characters](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties#Characters)
 * [CharactersWithSpaces](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties#CharactersWithSpaces)
@@ -84,32 +85,32 @@ Aspose.Words ドキュメントプロパティを自動的に更新しません�
 
 ## コンテンツにリンクされた新しいカスタムプロパティを作成する
 
-Aspose.Words 提供して下さい [AddLinkToContent](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#addLinkToContent-java.lang.String-java.lang.String) コンテンツにリンクされた新しいカスタムドキュメントプロパティを作成する方法。 このプロパティは新しく作成されたプロパティオブジェクトまたはnullを返します。 [LinkSource](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#isLinkToContent) 無効です。
+Aspose.Wordsは、コンテンツにリンクされた新しいカスタムドキュメントプロパティを作成するための[AddLinkToContent](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#addLinkToContent-java.lang.String-java.lang.String)メソッドを提供します。 このプロパティは、新しく作成されたpropertyオブジェクトを返します。[LinkSource](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#isLinkToContent)が無効な場合はnullを返します。
 
-以下のコードの例では、カスタムプロパティへのリンクを設定する方法を示します。
+次のコード例は、カスタムプロパティへのリンクを構成する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocProperties-ConfiguringLinkToContent.java" >}}
 
-## ドキュメント変数を取得する
+## ドキュメント変数の取得
 
-ドキュメント変数のコレクションは、 [Variables](https://reference.aspose.com/words/java/com.aspose.words/document/#getVariables) プロパティ. 変数名と値は文字列です。
+[Variables](https://reference.aspose.com/words/java/com.aspose.words/document/#getVariables)プロパティを使用してドキュメント変数のコレクションを取得できます。 変数名と値は文字列です。
 
-次のコードの例では、ドキュメント変数を列挙する方法を示します。
+次のコード例は、ドキュメント変数を列挙する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-GetDocumentVariables-GetDocumentVariables.java" >}}
 
 {{% alert color="primary" %}}
 
-この例のテンプレートファイルをダウンロードできます。 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Properties.docx)お問い合わせ
+この例のテンプレートファイルは、次の場所からダウンロードできます [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Properties.docx).
 
 {{% /alert %}}
 
 ## 文書から個人情報を削除する
 
-他の人とWord文書を共有したい場合は、作者名や会社などの個人情報を削除します。 これを行うには、 [RemovePersonalInformation](https://reference.aspose.com/words/java/com.aspose.words/document/#getRemovePersonalInformation) プロパティは、そのフラグを示すフラグを設定する Microsoft Word 文書を保存することで、コメント、リビジョン、文書のプロパティからすべてのユーザー情報を削除します。
+Word文書を他の人と共有する場合は、作成者名や会社などの個人情報を削除することをお勧めします。 これを行うには、[RemovePersonalInformation](https://reference.aspose.com/words/java/com.aspose.words/document/#getRemovePersonalInformation)プロパティを使用して、文書の保存時にMicrosoft Wordがコメント、リビジョン、および文書のプロパティからすべてのユーザー情報を削除することを示すフラグを設定します。
 
 {{% alert color="primary" %}}
 
-このオプションを設定すると、実際には個人情報を削除し、文書を処理します。 Aspose.Words そして影響だけ Microsoft Word 行動。
+このオプションを設定しても、Aspose.Words内のドキュメントの処理中に個人情報が実際に削除されることはなく、Microsoft Wordの動作にのみ影響します。
 
 {{% /alert %}}

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中使用书签
 second_title: Aspose.Words对于C++
 articleTitle: 使用书签
@@ -7,6 +7,7 @@ description: "了解书签概念以及如何使用 C++ 在程序中使用书签�
 type: docs
 weight: 180
 url: /zh/cpp/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 书签在Microsoft Word文档中标识您命名并标识以供将来参考的位置或片段。 例如，您可以使用书签来标识要稍后修改的文本。 您可以使用"书签"对话框转到文档，而不是滚动文档以查找文本。

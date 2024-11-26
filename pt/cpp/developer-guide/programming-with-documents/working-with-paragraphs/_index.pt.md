@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabalhar com parágrafos em C++
 second_title: Aspose.Words para C++
 articleTitle: Trabalhar com parágrafos
@@ -7,6 +7,7 @@ description: "Práticas de manipulação de nós de parágrafo usando C++."
 type: docs
 weight: 210
 url: /pt/cpp/working-with-paragraphs/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Um parágrafo é um conjunto de caracteres combinados em um bloco lógico e terminando com um caractere especial – a *paragraph break*. Em Aspose.Words, um parágrafo é representado pela classe [Paragraph](https://reference.aspose.com/words/cpp/aspose.words/paragraph/).

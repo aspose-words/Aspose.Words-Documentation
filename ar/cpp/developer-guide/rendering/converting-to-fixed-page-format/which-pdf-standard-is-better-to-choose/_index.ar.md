@@ -1,4 +1,4 @@
-﻿---
+---
 title: أي معيار PDF هو الأفضل للاختيار
 second_title: Aspose.Words ل C++
 articleTitle: أي معيار PDF هو الأفضل للاختيار
@@ -7,6 +7,7 @@ description: "اختر أفضل معيار PDF لتصدير نتيجة مهمة 
 type: docs
 weight: 37
 url: /ar/cpp/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 بالنسبة لبعض المهام، ستتناسب معايير PDF معينة بشكل أفضل أو العكس بالعكس. في هذه المقالة، سنحاول تحديد أي معايير PDF للحالات التي يكون من المنطقي اختيارها.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Opdateer Velde Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Opdateer Velde
@@ -7,6 +7,7 @@ description: "Werk velde in'n dokument op verskillende maniere op en gebruik ver
 type: docs
 weight: 30
 url: /af/python-net/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tipies, 'n veld ingevoeg in Microsoft Word bevat reeds'n up-to-date waarde. Byvoorbeeld, as die veld'n formule of'n bladsy nommer is, sal dit die korrekte berekende waarde vir die gegewe weergawe van die dokument bevat. Maar as jy'n aansoek wat genereer of verander'n dokument met velde soos die samesmelting van twee dokumente of vul dit met data, dan ideaal alle velde moet opgedateer word vir die dokument nuttig te wees.
@@ -18,7 +19,7 @@ Wanneer'n dokument gelaai word, naboots Aspose.Words die gedrag van Microsoft Wo
 - as u'n dokument oopmaak/stoor, bly die velde ongeskonde
 - u kan alle velde in'n dokument eksplisiet opdateer (bv. herbou TOC) wanneer u moet
 - wanneer jy druk / weergee na PDF of XPS word die velde wat verband hou met bladsynommering in koptekste/voetskrifte opgedateer
-- as u mail merge uitvoer, word alle velde outomaties opgedateer
+- as u Mail Merge uitvoer, word alle velde outomaties opgedateer
 
 ### Dateer Velde Programmaties Op
 
@@ -42,7 +43,7 @@ U kan die voorbeeldlêer van hierdie voorbeeld aflaai van [Aspose.Words GitHub](
 
 ### Outomatiese Veldopdatering Gedurende Mail Merge
 
-Wanneer jy'n mail merge uitvoer, sal alle velde in die dokument outomaties opgedateer word. Dit is omdat die mail merge is'n geval van'n veld update. Die program ontmoet'n mail merge veld en moet sy resultaat op te dateer, wat behels gryp die waarde van die data bron en voeg dit in die veld. Die logika is natuurlik meer ingewikkeld, byvoorbeeld wanneer die einde van die dokument/mail merge streek bereik word, maar daar is nog verdere data wat saamgesmelt moet word, dan moet die streek gedupliseer word en die nuwe stel velde opgedateer word.
+Wanneer jy'n Mail Merge uitvoer, sal alle velde in die dokument outomaties opgedateer word. Dit is omdat die Mail Merge is'n geval van'n veld update. Die program ontmoet'n Mail Merge veld en moet sy resultaat op te dateer, wat behels gryp die waarde van die data bron en voeg dit in die veld. Die logika is natuurlik meer ingewikkeld, byvoorbeeld wanneer die einde van die dokument/mail merge streek bereik word, maar daar is nog verdere data wat saamgesmelt moet word, dan moet die streek gedupliseer word en die nuwe stel velde opgedateer word.
 
 ## Dateer Velde Met Vuil Kenmerk Op
 

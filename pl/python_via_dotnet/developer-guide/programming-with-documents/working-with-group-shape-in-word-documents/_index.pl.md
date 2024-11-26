@@ -7,6 +7,7 @@ description: "Dodaj group shape do dokumentu za pomocą Python."
 type: docs
 weight: 290
 url: /pl/python-net/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Czasami trzeba dodać plik group shape do dokumentu programu Word. Taki group shape składa się z wielu kształtów.

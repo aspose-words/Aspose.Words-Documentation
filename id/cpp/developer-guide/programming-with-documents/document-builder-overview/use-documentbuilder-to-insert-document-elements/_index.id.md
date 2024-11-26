@@ -1,12 +1,13 @@
-﻿---
-title: Gunakan `DocumentBuilder` untuk Menyisipkan Elemen Dokumen
+---
+title: Gunakan DocumentBuilder untuk Menyisipkan Elemen Dokumen
 second_title: Aspose.Words untuk C++
-articleTitle: Gunakan `DocumentBuilder` untuk Menyisipkan Elemen Dokumen
-linktitle: Gunakan `DocumentBuilder` untuk Menyisipkan Elemen Dokumen
+articleTitle: Gunakan DocumentBuilder untuk Menyisipkan Elemen Dokumen
+linktitle: Gunakan DocumentBuilder untuk Menyisipkan Elemen Dokumen
 type: docs
 description: "Sisipkan elemen dokumen menggunakan pembuat dokumen di C++."
 weight: 80
 url: /id/cpp/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 `DocumentBuilder` digunakan untuk memodifikasi dokumen. Artikel ini menjelaskan dan menjelaskan cara melakukan sejumlah tugas:
@@ -155,7 +156,7 @@ Paket OLE adalah cara lama dan "tidak berdokumen" untuk menyimpan objek yang dis
 
 ## Menyisipkan HTML
 
-Anda dapat dengan mudah menyisipkan string HTML yang berisi fragmen HTML atau seluruh dokumen HTML ke dalam dokumen Word. Cukup berikan string ini ke metode `DocumentBuilder->InsertHtml`. Salah satu implementasi yang berguna dari metode ini adalah menyimpan string HTML dalam database dan memasukkannya ke dalam dokumen selama mail merge untuk menambahkan konten berformat alih-alih membuatnya menggunakan berbagai metode pembuat dokumen. Contoh di bawah ini menunjukkan menyisipkan HTML ke dalam dokumen menggunakan DocumentBuilder.
+Anda dapat dengan mudah menyisipkan string HTML yang berisi fragmen HTML atau seluruh dokumen HTML ke dalam dokumen Word. Cukup berikan string ini ke metode `DocumentBuilder->InsertHtml`. Salah satu implementasi yang berguna dari metode ini adalah menyimpan string HTML dalam database dan memasukkannya ke dalam dokumen selama Mail Merge untuk menambahkan konten berformat alih-alih membuatnya menggunakan berbagai metode pembuat dokumen. Contoh di bawah ini menunjukkan menyisipkan HTML ke dalam dokumen menggunakan DocumentBuilder.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHtml.cpp" >}}
 

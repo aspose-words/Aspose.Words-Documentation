@@ -7,6 +7,7 @@ description: "מיקום שולחן ספציפי C#. קבל היערכות שו�
 type: docs
 weight: 50
 url: /he/net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 יש שולחנות צפים וטבלאות Inline:

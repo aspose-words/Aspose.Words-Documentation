@@ -7,6 +7,7 @@ description: "Aspose.Words עבור Android באמצעות Java הוא `Java` ס
 type: docs
 weight: 10
 url: /he/java/android-product-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}
@@ -40,7 +41,7 @@ Aspose.Words עבור Android באמצעות Java הוא רב-קריאה בטו�
 
 ### לימוד מינימלי
 
-למרות שיש יותר מ-150 כיתות ציבוריות והערכות Aspose.Words עבור Android באמצעות <span notrans="<span notrans=" Java"=""></span>" עקומת הלמידה היא מינימלית כי Aspose.Words עבור Android באמצעות Java API תוכנן בקפידה עם המטרות הבאות:
+למרות שיש יותר מ-150 כיתות ציבוריות והערכות Aspose.Words עבור Android באמצעות Java עקומת הלמידה היא מינימלית כי Aspose.Words עבור Android באמצעות Java API תוכנן בקפידה עם המטרות הבאות:
 
 - Borrow Best Practice from Anotherידוע APIכמו Microsoft Word אוטומציה
 - Borrow Best Practices from the Industry Accepted Java ו Android הוראות עיצוב

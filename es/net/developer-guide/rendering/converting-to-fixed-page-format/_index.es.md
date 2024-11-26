@@ -7,6 +7,7 @@ description: "Guarde documentos en formatos PDF, XPS, HTML, XAML, PostScript y P
 type: docs
 weight: 10
 url: /es/net/converting-to-fixed-page-format/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Aspose.Words implementa su propio motor de diseño de páginas. Antes de profundizar en sus especificaciones, vale la pena discutir primero el documento a alto nivel. Cuando piensan en un documento, los usuarios suelen imaginar varias hojas de papel que contienen palabras, imágenes, tablas y gráficos. Los documentos pueden ser de varios tipos, como texto, hojas de cálculo, diapositivas, dibujos CAD, diagramas de flujo y, por lo tanto, pueden tener diseños esencialmente diferentes. La mayoría de las aplicaciones permiten enviar documentos a una impresora; aquí es cuando un usuario puede ver realmente la apariencia final prevista del documento.

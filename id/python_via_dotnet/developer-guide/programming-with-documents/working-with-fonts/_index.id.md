@@ -7,6 +7,7 @@ description: "Sesuaikan pengaturan font menggunakan Python."
 type: docs
 weight: 230
 url: /id/python-net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Font adalah sekumpulan karakter dengan ukuran, warna, dan desain tertentu. Aspose.Words memungkinkan Anda bekerja dengan font menggunakan modul [fonts](https://reference.aspose.com/words/python-net/aspose.words.fonts/) dan kelas [Font](https://reference.aspose.com/words/python-net/aspose.words/font/).

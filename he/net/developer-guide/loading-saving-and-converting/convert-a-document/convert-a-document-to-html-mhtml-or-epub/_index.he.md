@@ -7,6 +7,7 @@ description: "להמיר מסמך כמעט מכל פורמט ל- HTML או MHTML
 type: docs
 weight: 20
 url: /he/net/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-07-09-19-00-42
 ---
 
 מסמכים ב- HTML ו- MHTML Flow-layout הם גם מאוד פופולריים וניתן להשתמש בהם בכל פלטפורמה באינטרנט. מסיבה זו, המרת מסמכים ל- HTML ו- MHTML היא תכונה חשובה. Aspose.Words.

@@ -7,6 +7,7 @@ description: "Aspose.Words pour Python via .NET permet la lecture seule, le chif
 type: docs
 weight: 50
 url: /fr/python-net/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 La principale raison de protéger ou de chiffrer un document est d’appliquer davantage de contrôle sur qui peut accéder au document ou qui peut le modifier. En appliquant une protection à vos documents, vous évitez les risques courants tels que la copie ou la modification de documents sans autorisation, ainsi que les fuites de données.

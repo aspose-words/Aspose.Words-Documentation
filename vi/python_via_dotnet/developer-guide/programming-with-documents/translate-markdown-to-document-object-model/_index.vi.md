@@ -7,6 +7,7 @@ type: docs
 description: "Chuyển tài liệu Markdown sang Document Object Model và quay lại bằng Python. Vì vậy, bạn có thể làm việc với Markdown phức tạp hiện có và tạo tài liệu Markdown theo chương trình từ đầu."
 weight: 20
 url: /vi/python-net/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Để đọc, thao tác và sửa đổi nội dung cũng như định dạng của tài liệu theo chương trình, bạn cần dịch tài liệu đó sang Aspose.Words Document Object Model (DOM).
@@ -124,9 +125,9 @@ Bảng bên dưới hiển thị các ví dụ về cách sử dụng khối Lá
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br /> `-----` |  Đây là một đoạn văn đơn giản có hình dạng Quy tắc ngang tương ứng:<br /> [DocumentBuilder.insert_horizontal_rule()](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_horizontal_rule/) |
 |   {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_markdown-HorizontalRule.py" >}}  |                                                                |
-|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.style_name = "Heading N"`, trong đó (1&lt;= N &lt;= 9).<br /> Điều này được dịch sang kiểu có sẵn và phải chính xác theo mẫu đã chỉ định (không cho phép hậu tố hoặc tiền tố).<br /> Nếu không, nó sẽ chỉ là một đoạn văn thông thường có kiểu dáng tương ứng |
+|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.style_name = "Heading N"`, trong đó (1&le; N &le; 9).<br /> Điều này được dịch sang kiểu có sẵn và phải chính xác theo mẫu đã chỉ định (không cho phép hậu tố hoặc tiền tố).<br /> Nếu không, nó sẽ chỉ là một đoạn văn thông thường có kiểu dáng tương ứng |
 |   {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_markdown-Headings.py" >}}  |                                                                |
-|  **Setext Heading**<br /> `===` (nếu là Heading cấp 1),<br /> `---` (nếu Tiêu đề cấp 2) |  `ParagraphFormat.style_name = "SetextHeading[some suffix]"`, dựa trên phong cách `"Heading N"`.<br /> Nếu (N &gt;= 2) thì `"Heading 2"` sẽ được sử dụng, nếu không thì `"Heading 1"`.<br /> Cho phép bất kỳ hậu tố nào, nhưng trình nhập Aspose.Words sử dụng các số "1" và "2" tương ứng |
+|  **Setext Heading**<br /> `===` (nếu là Heading cấp 1),<br /> `---` (nếu Tiêu đề cấp 2) |  `ParagraphFormat.style_name = "SetextHeading[some suffix]"`, dựa trên phong cách `"Heading N"`.<br /> Nếu (N &ge; 2) thì `"Heading 2"` sẽ được sử dụng, nếu không thì `"Heading 1"`.<br /> Cho phép bất kỳ hậu tố nào, nhưng trình nhập Aspose.Words sử dụng các số "1" và "2" tương ứng |
 |  {{< highlight python >}}# Use a document builder to add content to the document.
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)

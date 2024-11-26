@@ -1,12 +1,13 @@
-﻿---
-title: Folosind `DocumentBuilder` pentru a modifica un Document
+---
+title: Folosind DocumentBuilder pentru a modifica un Document
 second_title: Aspose.Words pentru Java
-articleTitle: Folosind `DocumentBuilder` pentru a modifica un Document
-linktitle: Folosind `DocumentBuilder` pentru a modifica un Document
+articleTitle: Folosind DocumentBuilder pentru a modifica un Document
+linktitle: Folosind DocumentBuilder pentru a modifica un Document
 type: docs
 description: "Utilizați document builder pentru a modifica un document cu ușurință în Java."
 weight: 20
 url: /ro/java/using-documentbuilder-to-modify-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Specificarea Formatării
@@ -203,7 +204,7 @@ Introducerea unui text nou în acest mod nu înlocuiește textul existent al mar
 
 ### Trecerea la un câmp `Merge`
 
-Uneori poate fi necesar să efectuați un" manual " mail merge folosind `DocumentBuilder` sau să completați un câmp de îmbinare într-un mod special în interiorul unui manipulator de evenimente mail merge. Atunci [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) ar putea fi util. Metoda acceptă numele câmpului de îmbinare. Mută cursorul într-o poziție chiar dincolo de câmpul de îmbinare specificat și elimină câmpul de îmbinare. Următorul exemplu de cod arată cum să mutați cursorul într-o poziție chiar dincolo de câmpul de îmbinare specificat.
+Uneori poate fi necesar să efectuați un" manual " Mail Merge folosind `DocumentBuilder` sau să completați un câmp de îmbinare într-un mod special în interiorul unui manipulator de evenimente mail merge. Atunci [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) ar putea fi util. Metoda acceptă numele câmpului de îmbinare. Mută cursorul într-o poziție chiar dincolo de câmpul de îmbinare specificat și elimină câmpul de îmbinare. Următorul exemplu de cod arată cum să mutați cursorul într-o poziție chiar dincolo de câmpul de îmbinare specificat.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 

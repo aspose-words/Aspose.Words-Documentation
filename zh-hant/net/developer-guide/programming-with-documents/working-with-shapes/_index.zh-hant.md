@@ -7,6 +7,7 @@ description: "shape markup language 之介紹，如何透過 C# 來創造不同�
 type: docs
 weight: 280
 url: /zh-hant/net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 本篇文章討論如何使用 Aspose.Words 程式化地與形状一起工作。

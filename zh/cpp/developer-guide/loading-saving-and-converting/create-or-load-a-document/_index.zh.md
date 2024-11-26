@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中创建或加载文档
 second_title: Aspose.Words对于C++
 articleTitle: 创建或加载文档
@@ -8,6 +8,7 @@ description: "创建空白文档或使用C++从文件或流中加载它。"
 keywords: "create a document c++, load a document c++, create a blank document c++, load a document from file c++, load a document from stream c++, create a document Aspose C++, load a document Aspose C++, load formats supported by Aspose.Words C++"
 weight: 10
 url: /zh/cpp/create-or-load-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 几乎任何要使用Aspose.Words执行的任务都涉及加载文档。 `Document`类表示加载到内存中的文档。 该文档具有多个重载构造函数，允许您创建空白文档或从文件或流中加载它。 文档可以以Aspose.Words支持的任何加载格式加载。 有关所有支持的加载格式的列表，请参阅[LoadFormat](https://reference.aspose.com/words/cpp/aspose.words/loadformat/)枚举。

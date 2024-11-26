@@ -1,4 +1,4 @@
-﻿---
+---
 title: Font FallBack Pengaturan untuk Font Google Noto di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Pengaturan FallBack Font yang telah Ditentukan Sebelumnya untuk Google Noto Font
@@ -7,6 +7,7 @@ description: "Aspose.Words menyediakan pengaturan fallback font yang telah diten
 type: docs
 weight: 15
 url: /id/cpp/predefined-font-fallback-settings-for-google-noto-fonts/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words menyediakan pengaturan fallback font yang telah ditentukan sebelumnya untuk Google Noto font. Ini adalah font gratis yang dilisensikan di bawah SIL Open Font License, yang dapat diunduh dari Google Noto Font. Kelas **FontFallbackSettings** menyediakan metode [LoadNotoFallbackSettings](https://reference.aspose.com/words/cpp/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/). Ini memuat pengaturan fallback yang telah ditentukan sebelumnya, yang menggunakan font Google Noto seperti yang ditunjukkan pada contoh kode di bawah ini:

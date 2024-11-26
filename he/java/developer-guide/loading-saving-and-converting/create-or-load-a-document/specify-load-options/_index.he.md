@@ -7,6 +7,7 @@ description: "הגדר תכונות מתקדמות בעת טעינת מסמך ב
 type: docs
 weight: 10
 url: /he/java/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 בעת טעינת מסמך, אתה יכול להגדיר כמה תכונות מתקדמות. Aspose.Words מספק לך את [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) מעמד, המאפשר שליטה מדויקת יותר של תהליך העומס. כמה פורמטי עומס יש מעמד מתאים המחזיק אפשרויות עומס עבור פורמט עומס זה, למשל, יש. [PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) טעינה לתבנית PDF או [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) טעינה ל- TXT. מאמר זה מספק דוגמאות לעבודה עם אפשרויות של **LoadOptions** מעמד.

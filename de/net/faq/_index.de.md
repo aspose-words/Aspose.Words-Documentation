@@ -9,6 +9,7 @@ type: docs
 description: "Aspose.Words für .NET beantwortet die am häufigsten gestellten Fragen. Lernen Sie diese Seite kennen, um Ihr Problem bei allgemeinen Fragen oder spezifischen Themen schnell zu lösen."
 weight: 75
 url: /de/net/faq/
+timestamp: 2024-11-18-12-56-02
 ---
 
 Auf dieser Seite finden Sie Antworten auf die am häufigsten gestellten Fragen. Bitte informieren Sie sich auf der aktuellen Seite – vielleicht können Sie so Ihr Problem schnell lösen.
@@ -128,7 +129,7 @@ Ja, das tust du. Beachten Sie daher beim Kopieren von Schriftarten, dass die mei
 
 {{% alert color="primary" %}}
 
-Ausführlichere Informationen zu mail merge finden Sie im Abschnitt [Mail Merge und Berichterstattung](/words/net/mail-merge-and-reporting/)-Dokumentation.
+Ausführlichere Informationen zu Mail Merge finden Sie im Abschnitt [Mail Merge und Berichterstattung](/words/net/mail-merge-and-reporting/)-Dokumentation.
 
 {{% /alert %}}
 
@@ -156,7 +157,7 @@ Dies liegt daran, dass die Beziehungen zwischen den übergeordneten und untergeo
 
 ------
 
-**F: Warum gibt es beim Ausführen von verschachteltem mail merge eine Ausnahme: "System.ArgumentException: Diese Einschränkung kann nicht aktiviert werden, da nicht alle Werte entsprechende übergeordnete Werte haben"?**
+**F: Warum gibt es beim Ausführen von verschachteltem Mail Merge eine Ausnahme: "System.ArgumentException: Diese Einschränkung kann nicht aktiviert werden, da nicht alle Werte entsprechende übergeordnete Werte haben"?**
 
 Dies liegt daran, dass nicht jeder übergeordnete Datensatz über einen untergeordneten Datensatz verfügt und Ihre Datenquelle daher nicht den folgenden Kriterien entspricht: *Jede Zeile in der übergeordneten Tabelle sollte eine Eins-zu-eins-Beziehung zu den Zeilen der untergeordneten Tabelle haben, basierend auf dem primären und fremde Schlüssel*.
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ファイル形式と変換
 second_title: C++の場合Aspose.Words
 articleTitle: 変換がAspose.Wordsの主力機能であるのはなぜですか？
@@ -7,6 +7,7 @@ description: "C++コードのわずか二行でフォーマットを保存する
 type: docs
 weight: 50
 url: /ja/cpp/file-formats-and-conversions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 {{% alert color="primary" %}}

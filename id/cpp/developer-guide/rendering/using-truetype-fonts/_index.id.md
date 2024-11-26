@@ -1,4 +1,4 @@
-﻿---
+---
 title: Menggunakan Font TrueType dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Menggunakan Font TrueType
@@ -7,6 +7,7 @@ description: "Aspose.Words untuk C++ dapat menemukan font yang tepat atau pengga
 type: docs
 weight: 20
 url: /id/cpp/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Saat bekerja dengan dokumen, Anda sering kali harus menggunakan font, gaya, dan ukuran yang berbeda. Dokumen dapat berisi sejumlah font, yang tidak terbatas pada font yang diinstal di sistem operasi. Font bisa sangat berbeda, seperti font yang diambil dari sistem operasi lain, dibeli, atau dibuat oleh pengguna itu sendiri.

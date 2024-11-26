@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中处理图像
 second_title: Aspose.Words对于C++
 articleTitle: 使用图像
@@ -7,6 +7,7 @@ type: docs
 description: "介绍图像特性,如何使用C++创建和操作图像."
 weight: 300
 url: /zh/cpp/working-with-images/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words允许用户以非常灵活的方式处理图像。 在本文中，您只能探索使用图像的一些可能性。

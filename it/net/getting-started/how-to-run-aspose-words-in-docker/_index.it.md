@@ -7,6 +7,7 @@ type: docs
 description: "Integra la funzionalità Aspose.Words nella tua applicazione utilizzando Docker indipendentemente dalla tecnologia presente nel tuo stack di sviluppo. Scopri come utilizzare Aspose .Words in un contenitore Docker in C#."
 weight: 120
 url: /it/net/how-to-run-aspose-words-in-docker/
+timestamp: 2024-08-19-11-05-36
 ---
 
 I microservizi, insieme alla containerizzazione, consentono di combinare facilmente le tecnologie. Docker ti consente di integrare facilmente la funzionalità Aspose.Words nella tua applicazione, indipendentemente dalla tecnologia presente nel tuo stack di sviluppo.
@@ -32,7 +33,7 @@ Per creare il programma Hello World, attenersi alla seguente procedura:
 ![net-console-application](https://lh5.googleusercontent.com/PArWoC8_leOnhtaF-5BMb3b4jHwI3G03WoyMK3bXZpsQKN50YzvEQBwoRniyCWKIcdR0EZGuwn3S8Z0ZK6FQ4cjMSWgH3CwSqReW4bMt-3OjZjrdt9yuWbkMdhyNjwwaaYPC5Ylr)<br>
 1. Installa l'ultima versione Aspose.Words da NuGet. SkiaSharp verrà installato come dipendenza di Aspose.Words.<br>
 ![skiasharp-dependency](https://lh3.googleusercontent.com/zWpvB5TLahC_OpJrHDML2131Vj_VK1vryTZBd_C3ZeOBdoUOc2vF_axEvwu9tytaL1maJv3qA2KoyP5fn7ae4_3cL23sXyoLoVysjgu8XEp6l0B2w5hgR9teh95_9mFd9X-4DGNN)<br>
-1. Poiché l'applicazione verrà eseguita su Linux, è necessario installare le risorse Linux native appropriate. Inizia con l'immagine di base Debian e installa `SkiaSharp.NativeAssets`.Linux.
+1. Poiché l'applicazione verrà eseguita su Linux, è necessario installare le risorse Linux native appropriate. Inizia con l'immagine di base Debian e installa `SkiaSharp.NativeAssets.Linux`.
 1. Una volta aggiunte tutte le dipendenze richieste, scrivere un semplice programma che crei un messaggio "Hello World!" documento e lo salva in tutti i formati di salvataggio supportati:<br>
 
 {{< gist "aspose-words-gists" "47e15ad749897be465deebc2ff3e76dd" "aspose-words-docker.cs" >}}

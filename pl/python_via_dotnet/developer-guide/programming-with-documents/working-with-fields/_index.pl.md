@@ -7,6 +7,7 @@ description: "Jak pracować z polami w dokumentach przy użyciu Python."
 type: docs
 weight: 370
 url: /pl/python-net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** w dokumencie przypominają elementy zastępcze, w których można wstawić przydatne dane. Polem może być na przykład odwołanie do strony, formuła lub pole mail merge.

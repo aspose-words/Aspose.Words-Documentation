@@ -7,6 +7,7 @@ description: "รวมตารางในเอกสารโดยใช้
 type: docs
 weight: 90
 url: /th/python-net/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ตารางที่แสดงใน Aspose.Words Document Object Model ประกอบด้วยแถวและเซลล์ที่เป็นอิสระ ทำให้ง่ายต่อการรวมตาราง

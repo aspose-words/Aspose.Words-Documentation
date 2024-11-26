@@ -7,6 +7,7 @@ description: "Aspose.Words için Java kendi sayfa düzen motoru uygulamasını m
 type: docs
 weight: 10
 url: /tr/java/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words kendi sayfa düzen motorunu uygular. Onun spesifikasyonlarına dalmadan önce, daha yüksek bir düzeyde belgeyi tartışmak faydalı olacaktır. Bir belgeyi düşünürken kullanıcılar tipik olarak kelimeler, resimler, tablolar ve grafikler içeren bir dizi kağıt sayfasını hayal ederler. Belgeleri metin, elektronik tablolar, slaytlar, CAD çizimleri, akış şemaları gibi çeşitli türlerde olabilir ve bu nedenle esasen farklı düzenlere sahip olabilirler. Çoğu uygulama belgeleri bir yazıcıya göndermeyi sağlar; bu, bir kullanıcının gerçekte bir belgenin son amaçlanan görünümünü görebileceği zamandır.

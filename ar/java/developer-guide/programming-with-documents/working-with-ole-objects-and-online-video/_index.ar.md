@@ -1,74 +1,75 @@
----
-title: العمل مع الأجسام المطلقة
-second_title: Aspose.Words for Java
-articleTitle: العمل مع الأجسام المطلقة
-linktitle: العمل مع الأجسام المطلقة
-description: "إنشاء وتعديل دمج أولي في وثيقتكم باستخدام Java."
+﻿---
+title: العمل مع Ole الكائنات
+second_title: Aspose.Words ل Java
+articleTitle: العمل مع Ole الكائنات
+linktitle: العمل مع Ole الكائنات
+description: "إنشاء وتعديل OLE التضمين في المستند باستخدام Java."
 type: docs
 weight: 360
 url: /ar/java/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
-(أولي) يرمز إلى "الربط بين الحقن والإمتياز" هذه هي التكنولوجيا التي يستطيع المستعملون من خلالها العمل مع الوثائق التي تحتوي على "أجسام" التي صنعت أو حررت بواسطة تطبيقات طرف ثالث. ذلك، OLE يَسْمحُ a طلب لتصدير هذه "الاعتراضات" إلى طلب آخر للتحرير، وبعد ذلك يُستوردُهم مَع بَعْض المحتوىِ الإضافيِ.
+OLE تعني "ربط الكائن وتضمينه". هذه هي التقنية التي يمكن للمستخدمين من خلالها العمل مع المستندات التي تحتوي على "كائنات" تم إنشاؤها أو تحريرها بواسطة تطبيقات الطرف الثالث. أي أن OLE يسمح للتطبيق بتصدير هذه "الكائنات" إلى تطبيق آخر للتحرير، ثم استيرادها مرة أخرى مع بعض المحتوى الإضافي.
 
-وفي هذه المادة، سنتحدث عن إدراج موضوع أولي ووضع ممتلكاته في وثيقة.
+في هذه المقالة، سنتحدث عن إدراج كائن OLE وتعيين خصائصه في مستند.
 
-## الهدف الأول
+## إدراج Ole كائن
 
-إذا كنت تريد اعتراضاً، اتصل [InsertOleObject](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOleObject-java.io.InputStream-java.lang.String-boolean-java.io.InputStream) طريقة و تمريرها **ProgId** صراحة مع معايير أخرى
+إذا كنت تريد OLE كائن، استدعاء طريقة [InsertOleObject](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOleObject-java.io.InputStream-java.lang.String-boolean-java.io.InputStream) وتمريرها **ProgId** صراحة مع غيرها من المعالم.
 
-The following code example shows how to insert OLE اعتراض على وثيقة:
+يوضح مثال التعليمات البرمجية التالية كيفية إدراج كائن OLE في مستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertOleObject-DocumentBuilderInsertOleObject.java" >}}
 
-### تحديد اسم السفينة وتمديدها عند إدراج اعتراض أولي
+### تعيين اسم الملف والامتداد عند إدراج OLE كائن
 
-حزمة الـ(أولي) هي إرث وطريقة "غير موثقة" لتخزين الأشياء المدمجة إذا كان معالج (أول) غير معروف
+حزمة OLE هي طريقة قديمة و" غير موثقة " لتخزين الكائنات المضمنة إذا كان معالج OLE غير معروف.
 
-مرحلة مبكرة Windows صيغ مثل Windows 3.1, 95, and 98 had a Packager. تطبيق يمكن استخدامه لإدراج أي نوع من البيانات في الوثيقة. هذا الطلب مستبعد الآن Windowsلكن Microsoft Word والتطبيقات الأخرى لا تزال تستخدمها في تضمين البيانات إذا كان معالج OLE مفقودا أو غير معروف. The `OlePackage` ويسمح الفصل للمستعملين بالوصول إلى ممتلكات التعبئة الشاملة.
+كانت الإصدارات المبكرة Windows مثل Windows 3.1 و 95 و 98 تحتوي على تطبيق Packager.exe يمكن استخدامه لتضمين أي نوع من البيانات في المستند. تم استبعاد هذا التطبيق الآن من Windows، ولكن Microsoft Word والتطبيقات الأخرى لا تزال تستخدمه لتضمين البيانات إذا كان معالج OLE مفقودا أو غير معروف. تتيح فئة `OlePackage` للمستخدمين الوصول إلى خصائص OLE Package.
 
-The following code example shows how to set the file name, extension, and display name for OLE Package:
+يوضح مثال الكود التالي كيفية تعيين اسم الملف والملحق واسم العرض لـ OLE Package:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertElements-InsertOleObjectwithOlePackage.java" >}}
 
-### الحصول على الوصول إلى بيانات الجسم OLE
+### الحصول على OLE كائن البيانات الخام
 
-يمكن للمستعملين الوصول إلى بيانات الأجسام الموجودة على سطح الأرض باستخدام مختلف خصائصها وأساليبها `OleFormat` الصف على سبيل المثال، من الممكن الحصول على `OLE` الجسم البيانات الخام أو طريق واسم ملف المصدر للجسم ذو الصلة OLE.
+يمكن للمستخدمين الوصول إلى OLE بيانات الكائن باستخدام خصائص وطرق مختلفة لفئة `OleFormat`. على سبيل المثال، من الممكن الحصول على البيانات الأولية للكائن `OLE` أو مسار واسم الملف المصدر للكائن OLE المرتبط.
 
-المثال الرمزي التالي يُظهر كيف يُصبحُ OLE البيانات الخام المعترضة باستخدام [GetRawData](https://reference.aspose.com/words/java/com.aspose.words/oleformat/#getRawData) الطريقة:
+يوضح مثال التعليمات البرمجية التالية كيفية الحصول على OLE كائن البيانات الخام باستخدام طريقة [GetRawData](https://reference.aspose.com/words/java/com.aspose.words/oleformat/#getRawData):
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertElements-GetAccessToOLEObjectRawData.java" >}}
 
-### يضاف OLE إعتراض كa Icon
+### إدراج OLE كائن كرمز
 
-ويمكن أيضا إدراج الأجسام المطلقة في الوثائق كصور.
+OLE يمكن أيضا إدراج الكائنات في المستندات كصور.
 
-ويوضح المثال الرمزي التالي كيفية إدراج هدف أولي كإيكون. لهذا الغرض **DocumentBuilder** الفصل يفضح [InsertOleObjectAsIcon](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOleObjectAsIcon-java.io.InputStream-java.lang.String-java.lang.String-java.lang.String) طريقة
+يوضح مثال الكود التالي كيفية إدراج كائن OLE كرمز. لهذا الغرض، تعرض فئة **DocumentBuilder** طريقة [InsertOleObjectAsIcon](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOleObjectAsIcon-java.io.InputStream-java.lang.String-java.lang.String-java.lang.String).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-InsertOLEObjectAsIcon.java" >}}
 
-The following code example shows how to inserts an embedded OLE object as an icon from a stream into the document:
+يوضح مثال التعليمات البرمجية التالية كيفية إدراج كائن OLE مضمن كرمز من دفق في المستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-InsertOLEObjectAsIconUsingStream.java" >}}
 
-## Insert Online Video
+## إدراج الفيديو على الانترنت
 
-يمكن ادخال الفيديو على الانترنت في الوثيقة الوردية يمكنك إدخال فيديو على الإنترنت في وثيقة في الموقع الحالي عن طريق الاتصال [InsertOnlineVideo](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOnlineVideo-java.lang.String-double-double) الطريقة:
+يمكن إدراج الفيديو عبر الإنترنت في مستند ورد من علامة التبويب *"Insert" > "Online Video"*. يمكنك إدراج مقطع فيديو عبر الإنترنت في مستند في الموقع الحالي عن طريق استدعاء طريقة [InsertOnlineVideo](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOnlineVideo-java.lang.String-double-double):
 
-The [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) ويقدم الفصل أربعة تحميلات زائدة من هذه الطريقة. الأول يعمل مع أكثر موارد الفيديو شعبية ويأخذ `URL` مِنْ الفيديوِ كa بارامتر. فعلى سبيل المثال، تدعم الحمولة الأولى الإضافة البسيطة للفيديو على شبكة الإنترنت من [YouTube](https://www.youtube.com/) و [Vimeo](https://vimeo.com/) موارد
+تقدم فئة [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) أربعة أحمال زائدة من هذه الطريقة. أول واحد يعمل مع موارد الفيديو الأكثر شعبية ويأخذ `URL` من الفيديو كمعلمة. على سبيل المثال، يدعم الحمل الزائد الأول الإدراج البسيط لمقاطع الفيديو عبر الإنترنت من [YouTube](https://www.youtube.com/) و [فيميو](https://vimeo.com/) الموارد.
 
-ويبين المثال الرمزي التالي كيفية إدخال شريط فيديو إلكتروني من *Vimeo* في وثيقة:
+يوضح مثال الكود التالي كيفية إدراج مقطع فيديو عبر الإنترنت من *Vimeo* في مستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Video-InsertOnlineVideo-InsertOnlineVideo.java" >}}
 
-أما الحمولة الإضافية الثانية فهي تعمل مع جميع موارد الفيديو الأخرى وتأخذ رمز HTML المدمج كمقياس. ويمكن أن تختلف مدونة HTML لتضمين شريط فيديو تبعاً للمقدم، بحيث تتصل بمقدم الطلب المعني للحصول على التفاصيل.
+يعمل الحمل الزائد الثاني مع جميع موارد الفيديو الأخرى ويأخذ رمز HTML مضمن كمعلمة. قد يختلف رمز HTML لتضمين مقطع فيديو اعتمادا على الموفر، لذا اتصل بالموفر المعني للحصول على التفاصيل.
 
 {{% alert color="primary" %}}
 
-يُرجى ملاحظة أن الوثيقة ستُحدَّد آلياً على النحو الأمثل لإذاعة MS Word 2013 لعرض الفيديو.
+يرجى ملاحظة أنه سيتم تحسين المستند تلقائيا لـ MS كلمة 2013 لعرض الفيديو.
 
 {{% /alert %}}
 
-ويبين المثال الرمزي التالي كيفية إدخال شريط فيديو على شبكة الإنترنت في وثيقة تستخدم هذه المدونة:
+يوضح مثال الكود التالي كيفية إدراج مقطع فيديو عبر الإنترنت في مستند باستخدام رمز HTML هذا:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Video-InsertOnlineVideo-InsertOnlineVideoWithEmbedHtml.java" >}}

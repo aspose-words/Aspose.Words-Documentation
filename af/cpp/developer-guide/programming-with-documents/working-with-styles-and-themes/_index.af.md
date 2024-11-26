@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Style in C++
 second_title: Aspose.Words vir C++
 articleTitle: Werk Met Style
@@ -7,6 +7,7 @@ description: "Verbeterde Microsoft Word formatering funksies, werk met style en 
 type: docs
 weight: 110
 url: /af/cpp/working-with-styles-and-themes/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Die [StyleCollection](https://reference.aspose.com/words/cpp/aspose.words/stylecollection/) klas word gebruik om ingeboude te bestuur en gebruiker-gedefinieerde instellings toe te pas op style.
@@ -33,7 +34,7 @@ In hierdie voorbeelddokument is die teks geformateer met Die'opskrif 1 'paragraa
 
 ### Die Kode
 
-Die implementering van'n styl-gebaseerde navraag is redelik eenvoudig in die Aspose.Words document object model, aangesien dit eenvoudig gereedskap gebruik wat reeds in plek is. Twee klasmetodes word geïmplementeer vir hierdie oplossing:# **ParagraphsByStyleName** – Hierdie metode haal'n verskeidenheid van die paragrawe in die dokument wat'n spesifieke stylnaam het.# **RunsByStyleName** – hierdie metode haal'n verskeidenheid van die lopies in die dokument wat'n spesifieke stylnaam het. Beide hierdie metodes is baie soortgelyk, die enigste verskille is die node tipes en die voorstelling van die styl inligting binne die paragraaf en run nodes. Hier is'n implementering van ParagraphsByStyleName. Hieronder voorbeeld vind al die paragrawe geformateer met die gespesifiseerde styl.
+Die implementering van'n styl-gebaseerde navraag is redelik eenvoudig in die Aspose.Words document object model, aangesien dit eenvoudig gereedskap gebruik wat reeds in plek is. Twee klasmetodes word geïmplementeer vir hierdie oplossing: **ParagraphsByStyleName** – Hierdie metode haal'n verskeidenheid van die paragrawe in die dokument wat'n spesifieke stylnaam het. **RunsByStyleName** – hierdie metode haal'n verskeidenheid van die lopies in die dokument wat'n spesifieke stylnaam het. Beide hierdie metodes is baie soortgelyk, die enigste verskille is die node tipes en die voorstelling van die styl inligting binne die paragraaf en run nodes. Hier is'n implementering van ParagraphsByStyleName. Hieronder voorbeeld vind al die paragrawe geformateer met die gespesifiseerde styl.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.cpp" >}}
 

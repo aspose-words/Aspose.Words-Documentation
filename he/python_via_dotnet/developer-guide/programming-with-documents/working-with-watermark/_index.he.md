@@ -7,6 +7,7 @@ description: "ליצור ולנהל סימני מים במסמך באמצעות 
 type: docs
 weight: 340
 url: /he/python-net/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 נושא זה דן כיצד לעבוד באופן יזום עם סימן מים באמצעות סימן מים Aspose.Words. סימן מים הוא תמונת רקע המציגה מאחורי הטקסט במסמך. סימן מים יכול להכיל טקסט או תמונה המיוצגת על ידי [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/) מעמד.

@@ -7,6 +7,7 @@ description: "Dowiedz się, jak dostosować właściwości pól w C#. Zmień naz
 type: docs
 weight: 27
 url: /pl/net/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words zapewnia możliwość programowej interakcji z różnymi właściwościami pól. W tym artykule przyjrzymy się kilku przykładom, abyś mógł zrozumieć podstawową zasadę pracy z właściwościami pól. Pełną listę właściwości każdego typu pola w odpowiedniej klasie możesz zobaczyć w pliku [Przestrzeń nazw pól](https://reference.aspose.com/words/net/aspose.words.fields/).

@@ -1,21 +1,22 @@
----
-title: WordをExcelに変換する Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: ドキュメントをExcelに変換する
-linktitle: ドキュメントをExcelに変換する
-description: "PDFをExcel、XML、Excel、DOCX、Excelに変換する Javaお問い合わせ さまざまな形式のドキュメントをXLSXに保存する Javaお問い合わせ"
+﻿---
+title: JavaでWordをExcelに変換する
+second_title: Aspose.WordsのためのJava
+articleTitle: 文書をExcelに変換する
+linktitle: 文書をExcelに変換する
+description: "PDFをExcelに、XMLをExcelに、DOCXをExcelJavaに変換します。 Javaを使用して、さまざまな形式の文書をXLSXに保存します。"
 type: docs
 weight: 15
 url: /ja/java/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
-1つの形式から別の形式への文書の変換は、 Aspose.Wordsお問い合わせ 利用可能な文書を変換することができます [ロード形式](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) XLSX 形式にも対応
+ドキュメントをある形式から別の形式に変換することは、Aspose.Wordsの主要な機能です。 利用可能な任意の[ロード形式](https://reference.aspose.com/words/java/com.aspose.words/loadformat/)形式の文書をXLSX形式に変換することもできます。
 
-## ドキュメントをXLSXに変換する
+## 文書をXLSXに変換する
 
-XLSX にドキュメントを変換するのは、かなり複雑なプロセスです。 ドキュメントをXLSX形式に保存するには、 <span notrans="<span notrans=" Aspose.Words"=""></span>????? 使用して下さい [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) クラスと新しい `Xlsx` 要素の [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) パンフレット 上記のように、サポートされている任意のロードフォーマットでドキュメントを保存することができます Aspose.Words XLSX に。
+文書をXLSXに変換するのはかなり複雑なプロセスです。 Aspose.Wordsを使用して文書をXLSX形式で保存するには、[XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/)クラスと[SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)列挙体の新しい`Xlsx`要素を使用します。 上記のように、Aspose.WordsからXLSXでサポートされている任意の読み込み形式でドキュメントを保存できます。
 
-次のコードの例では、PDFをXLSXに保存する方法を示します。
+次のコード例は、PDFをXLSXに保存する方法を示しています:
 
 {{< highlight java >}}
 Document doc = new Document(getMyDir() + "Pdf Document.pdf");
@@ -24,15 +25,15 @@ doc.save(getArtifactsDir() + "BaseConversions.PdfToXlsx.xlsx");
 
 {{% alert color="primary" %}}
 
-時々追加のオプションを指定する必要があります。これは、XLSXとして文書を保存した結果に影響を与えることができます。 これらのオプションは、使用によって指定することができます [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) XLSX の出力方法を決定するプロパティを含むクラス。
+ドキュメントをXLSXとして保存した結果に影響を与える追加のオプションを指定する必要がある場合があります。 これらのオプションは、XLSX出力の表示方法を決定するプロパティを含む[XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/)クラスを使用して指定できます。
 
 {{% /alert %}}
 
-## XLSX に保存するときの検索と置換
+## XLSXに保存するときの検索と置換
 
-ご利用にあたって Aspose.Words, ドキュメントに特定の文字列や正規表現を見つけ、必要に応じて一致する文字列に置き換えることができます。 その後、結果をXLSX形式に保存することもできます。
+また、Aspose.Wordsを使用すると、文書内の特定の文字列または正規表現を見つけて、必要な一致する文字列に置き換えることができます。 その後、結果をXLSX形式で保存することもできます。
 
-次のコードの例では、検索を実行し、操作を交換し、結果をXLSXに保存する方法を示します。
+次のコード例は、検索および置換操作を実行し、結果をXLSXに保存する方法を示しています:
 
 {{< highlight java >}}
 Document doc = new Document();
@@ -50,11 +51,11 @@ doc.getRange().replace("Ruby", "Jade", options);
 doc.save(getArtifactsDir() + "BaseConversions.FindReplaceXlsx.xlsx");
 {{< /highlight >}}
 
-## XLSXに保存するときの圧縮レベルを指定する
+## XLSXに保存するときの圧縮レベルの指定
 
-保存時に圧縮レベルを指定することもできます。 [CompressionLevel](https://reference.aspose.com/words/java/com.aspose.words/compressionlevel/) プロパティ.
+また、[CompressionLevel](https://reference.aspose.com/words/java/com.aspose.words/compressionlevel/)プロパティを使用して保存時に圧縮レベルを指定することもできます。
 
-次のコードの例では、XLSX 形式に保存する際に圧縮レベルを指定する方法を示します。
+次のコード例は、XLSX形式で保存するときに圧縮レベルを指定する方法を示しています:
 
 {{< highlight java >}}
 Document doc = new Document(getMyDir() + "Document.docx");
@@ -64,7 +65,7 @@ saveOptions.setCompressionLevel(CompressionLevel.MAXIMUM);
 doc.save(getArtifactsDir() + "BaseConversions.CompressXlsx.xlsx", saveOptions);
 {{< /highlight >}}
 
-## お問い合わせ
+## また見て下さい
 
-- ドキュメントセクション [ドキュメントの保護または暗号化](/words/ja/java/protect-or-encrypt-a-document/) ドキュメントの保護と暗号化に関する詳細情報
-- 記事 [見つけ、取り替えて下さい](/words/ja/java/find-and-replace/) あなたが望むコンテンツを見つけて置き換えることについての詳細情報
+- ドキュメントセクション [文書の保護または暗号化](/words/java/protect-or-encrypt-a-document/) 文書の保護と暗号化の詳細については
+- この記事は、 [検索と置換](/words/java/find-and-replace/) 必要なコンテンツの検索と置換の詳細については、次の手順を参照してください

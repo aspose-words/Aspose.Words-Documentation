@@ -7,6 +7,7 @@ description: "Python を使用して保存プロセスをより正確に制御�
 type: docs
 weight: 10
 url: /ja/python-net/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ドキュメントを保存するときに、いくつかの詳細プロパティを設定できます。 Aspose.Words は、保存プロセスをより正確に制御できる [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) クラスを提供します。 [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) オブジェクトを受け入れる [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) メソッドのオーバーロードがあります。これは、[SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) クラスから派生したクラスのオブジェクトである必要があります。各保存形式には、この保存形式の保存オプションを保持する対応するクラスがあります。たとえば、PDF 形式に保存する場合は [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/)、画像に保存する場合は [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/) があります。この記事では、[SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) から派生したいくつかのオプション クラスの操作例を示します。

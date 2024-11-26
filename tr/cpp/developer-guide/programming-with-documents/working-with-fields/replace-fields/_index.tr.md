@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ Alanlarını Değiştir
 second_title: Aspose.Words için C++
 articleTitle: Alanları Statik Metinle Değiştirin
@@ -7,6 +7,7 @@ description: "C++ içindeki alanları metinle nasıl değiştireceğinizi öğre
 type: docs
 weight: 37
 url: /tr/cpp/replace-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Belgenizi statik kopya olarak kaydetmek istediğinizde alanların değiştirilmesi genellikle gereklidir. Örneğin, bir e-postada ek olarak gönderirken. `DATE` veya `TIME` gibi alanları statik metne dönüştürmek, belgenin gönderildiği tarihle aynı tarihi görüntülemesini sağlar. Ayrıca, bazı durumlarda, koşullu `IF` alanlarını belgenizden kaldırmanız ve bunun yerine bunları en son metin sonucuyla değiştirmeniz gerekebilir. Örneğin, `IF` alanının sonucunu statik metne dönüştürmek, böylece belgedeki alanlar güncellendiğinde artık değerini dinamik olarak değiştirmeyecektir.

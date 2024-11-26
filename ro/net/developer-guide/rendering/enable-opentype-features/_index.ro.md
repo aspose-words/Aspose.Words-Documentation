@@ -7,6 +7,7 @@ description: "Caracteristici avansate de tipografie folosind C#."
 type: docs
 weight: 25
 url: /ro/net/enable-opentype-features/
+timestamp: 2024-07-10-14-38-57
 ---
 
 OpenType este un format de font care a fost introdus pentru a oferi o mai bună suport pentru limbile și sistemele de scriere internaționale comparativ cu PostScript și TrueType. Caracteristicile de dispunere din OpenType sunt cunoscute comun ca caracteristici OpenType. Aspose.Words.Pachetul Shaping.HarfBuzz oferă suport pentru caracteristicile OpenType în Aspose.Words folosind motorul de modelare a textului HarfBuzz.

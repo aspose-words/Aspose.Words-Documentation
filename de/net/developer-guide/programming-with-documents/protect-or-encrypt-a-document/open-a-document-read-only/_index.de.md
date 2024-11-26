@@ -7,6 +7,7 @@ description: "Machen Sie Ihr Dokument schreibgeschützt, damit der Inhalt mit C#
 type: docs
 weight: 10
 url: /de/net/open-a-document-read-only/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal haben Sie vielleicht ein Dokument, das einer Überprüfung bedarf, aber Sie möchten nicht, dass Prüfer Ihren Inhalt willkürlich ändern. Mit Aspose.Words können Sie die Berechtigung Ihres Dokuments schreibgeschützt festlegen, sodass der Inhalt kopiert oder gelesen, aber nicht geändert werden kann. Dadurch wird verhindert, dass Inhalte aus Ihrem Dokument entfernt oder hinzugefügt werden.

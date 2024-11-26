@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu câmpurile de formular în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Lucrul cu câmpurile de formular
@@ -7,6 +7,7 @@ description: "Înțelegerea câmpurilor de formular caracteristică, lucrul cu c
 type: docs
 weight: 380
 url: /ro/java/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un document care conține spații libere de completare (câmpuri) este cunoscut sub numele de formular. De exemplu, puteți crea un formular de înregistrare în Microsoft Word care utilizează liste derulante din care utilizatorii pot selecta intrări. Câmpul `Form` este o locație în care este stocat un anumit tip de date, cum ar fi un nume sau o adresă. Câmpurile de formular din Microsoft Word includ introducerea textului, combobox și checkbox.

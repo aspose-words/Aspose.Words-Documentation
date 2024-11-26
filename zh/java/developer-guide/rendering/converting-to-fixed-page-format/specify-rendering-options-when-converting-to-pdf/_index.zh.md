@@ -7,6 +7,7 @@ description: "将带有高级选项的文档转换为 PDF 。 使用 PdfSave 选
 type: docs
 weight: 20
 url: /zh/java/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 PDF格式是一种固定的页面格式,在用户中非常流行,并得到广泛各种应用程序的支持,因为PDF文档在任何设备上看起来都是一样的. 为此原因,转换为PDF是: Aspose.Words。 。 。 。
@@ -31,7 +32,7 @@ Aspose.Words 布局引擎仿制方式 Microsoft Word页面布局引擎工作. �
 
 还有可能从下列表格中导出可填表: Microsoft Word 文档输入输出 PDF,它有可填充的表格而不是纯文本。 使用 [PreserveFormFields](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getPreserveFormFields) 属性将文档保存为带有可填充表格的PDF。
 
-请注意,与 <span notrans="<span notrans=" Microsoft Word"=""></span>",> PDF 格式的可编辑格式选项数量有限,例如文本框、组合框和复选框。 Microsoft Word 拥有更多类型的形式,例如日历日期采集器。 一般来说,不可能完全模仿 Microsoft Word 行为在PDF中. 因此,在一些复杂的情况下,PDF产出可能不同于你所看到的 Microsoft Word。 。 。 。
+请注意,与 Microsoft Word PDF 格式的可编辑格式选项数量有限,例如文本框、组合框和复选框。 Microsoft Word 拥有更多类型的形式,例如日历日期采集器。 一般来说,不可能完全模仿 Microsoft Word 行为在PDF中. 因此,在一些复杂的情况下,PDF产出可能不同于你所看到的 Microsoft Word。 。 。 。
 
 下面的代码示例显示如何将文档保存为带有可填充表单的具有指定Jpeg压缩和质量的PDF:
 

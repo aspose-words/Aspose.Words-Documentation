@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu stiluri și teme
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Lucrul cu stiluri și teme
@@ -7,6 +7,7 @@ description: "Accesați și gestionați stiluri și teme într-un document folos
 type: docs
 weight: 110
 url: /ro/python-net/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Clasa [StyleCollection](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/) este utilizată pentru a gestiona setările încorporate și pentru a aplica setările definite de utilizator stilurilor.

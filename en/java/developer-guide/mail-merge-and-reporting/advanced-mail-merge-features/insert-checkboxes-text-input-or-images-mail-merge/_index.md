@@ -8,18 +8,19 @@ type: docs
 weight: 20
 url: /java/insert-checkboxes-text-input-or-images-mail-merge/
 aliases: [/java/insert-checkboxes-html-or-images-during-mail-merge/]
+timestamp: 2024-01-27-14-07-04
 ---
 
-The merge engine takes a document as input, looks for `MERGEFIELD` fields in it, and replaces them with the data obtained from the data source. Typically, plain text and HTML are inserted, but Aspose.Words users can also generate a document that handles more unusual scenarios for mail merge fields.
+The merge engine takes a document as input, looks for `MERGEFIELD` fields in it, and replaces them with the data obtained from the data source. Typically, plain text and HTML are inserted, but Aspose.Words users can also generate a document that handles more unusual scenarios for Mail Merge fields.
 
-Powerful Aspose.Words functionality allows you to extend the mail merge process:
+Powerful Aspose.Words functionality allows you to extend the Mail Merge process:
 
 - insert checkboxes and text input form fields into the document during a mail merge
 - insert images from any custom storage (files, BLOB fields, etc.)
 
 ## Insert Checkboxes and Text Input during Mail Merge
 
-Sometimes it is necessary to perform a mail merge operation so that not text is substituted in the merge field, but a checkbox or text input field. Even though this is not the most common scenario, it is very handy for some tasks.
+Sometimes it is necessary to perform a Mail Merge operation so that not text is substituted in the merge field, but a checkbox or text input field. Even though this is not the most common scenario, it is very handy for some tasks.
 
 The following screenshot of a Word document shows a template with merge fields:
 
@@ -43,11 +44,11 @@ The following code example shows how to insert checkboxes and input text fields 
 
 ## Insert Images during Mail Merge
 
-When performing a mail merge operation, you can insert images from the database into the document using special image mail merge fields. The image mail merge field is a merge field named Image:MyFieldName.
+When performing a Mail Merge operation, you can insert images from the database into the document using special image Mail Merge fields. The image Mail Merge field is a merge field named Image:MyFieldName.
 
 ### Insert Images from a Database
 
-During a mail merge, when an image mail merge field is encountered in a document, the [FieldMergingCallback](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldMergingCallback) event is fired. You can respond to this event to return a filename, stream, or image object to the mail merge engine so it can be inserted into the document.
+During a mail merge, when an image Mail Merge field is encountered in a document, the [FieldMergingCallback](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldMergingCallback) event is fired. You can respond to this event to return a filename, stream, or image object to the Mail Merge engine so it can be inserted into the document.
 
 The following code example shows how to insert images stored in a database BLOB field into a report:
 

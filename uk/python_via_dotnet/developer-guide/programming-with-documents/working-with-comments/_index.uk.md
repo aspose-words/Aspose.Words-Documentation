@@ -7,6 +7,7 @@ description: "Як додати, видалити або маніпулюват�
 type: docs
 weight: 260
 url: /uk/python-net/working-with-comments/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

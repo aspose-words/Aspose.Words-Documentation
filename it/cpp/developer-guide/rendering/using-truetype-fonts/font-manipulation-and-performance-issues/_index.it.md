@@ -1,4 +1,4 @@
-﻿---
+---
 title: Manipolazione dei font e problemi di prestazioni in C++
 second_title: Aspose.Words per C++
 articleTitle: Manipolazione dei font e problemi di prestazioni
@@ -7,6 +7,7 @@ description: "Aspose.Words per C++ utilizza il nome completo del font, il nome d
 type: docs
 weight: 11
 url: /it/cpp/font-manipulation-and-performance-issues/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Tutti i meccanismi di manipolazione dei font disponibili sono contenuti nella classe [FontSettings](https://reference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings). Questa classe è responsabile del recupero dei font all'interno di sorgenti di font definite e del processo di sostituzione dei font, come descritto di seguito.

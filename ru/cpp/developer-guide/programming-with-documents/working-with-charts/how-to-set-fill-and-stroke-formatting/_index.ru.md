@@ -1,4 +1,4 @@
-﻿---
+---
 title: Работа с диаграммами на C++
 second_title: Aspose.Words для C++
 articleTitle: Работа с графиками
@@ -7,6 +7,7 @@ description: "Введение в функцию построения диагр
 type: docs
 weight: 170
 url: /ru/cpp/how-to-set-fill-and-stroke-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Для рядов диаграмм, точек данных и маркеров можно задать форматирование заливки и обводки. Для этого вам необходимо использовать свойства типа **ChartFormat** в классах **ChartSeries**, **ChartDataPoint** и **ChartMarker**, а также псевдонимы для некоторых свойств, таких как ForeColor, BackColor, Visible и Transparency в классе `Stroke`.

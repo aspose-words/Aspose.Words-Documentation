@@ -1,4 +1,4 @@
-﻿---
+---
 title: Druk'n Dokument in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Druk'n Dokument Programmaties of Gebruik Dialoog
@@ -7,6 +7,7 @@ description: "Druk'n dokument op'n Bediener met behulp van die onbeheerde XpsPri
 type: docs
 weight: 55
 url: /af/net/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Hierdie artikel beskryf hoe om'n woordverwerkingsdokument uit'n ASP.NET Of Windows Diensprogram te druk met behulp van Aspose.Words en die `XpsPrint` API. Dit demonstreer ook die metodes van die druk van'n dokument met Instellings, Druk voorskou, en Druk vordering dialoog, en verduidelik hoe om die tyd van die eerste oproep om'n dokument te druk te verminder.

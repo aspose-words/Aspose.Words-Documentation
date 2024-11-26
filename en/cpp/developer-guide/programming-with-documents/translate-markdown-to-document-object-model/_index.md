@@ -7,6 +7,7 @@ type: docs
 description: "Tarnslate a Markdown document to Document Object Model and back using C++. So you can work with complex existing Markdown and programmatically create a Markdown document from scratch."
 weight: 20
 url: /cpp/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 To programmatically read, manipulate, and modify the content and formatting of a document, you need to translate it to the Aspose.Words Document Object Model (DOM).
@@ -69,7 +70,7 @@ The table below shows examples of using Markdown Leaf blocks in Aspose.Words:
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-HorizontalRule.h" >}} |                                                              |
 | **ATX Heading**<br />`# H1, ## H2, ### H3…`                  | `get_ParagraphFormat()->set_StyleName(u"Heading N")`, where (1<= N <= 9).<br />This is translated into a built-in style and should be exactly of the specified pattern (no suffixes or prefixes are allowed).<br />Otherwise, it will be just a regular paragraph with a corresponding style. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-Heading.h" >}} |                                                              |
-| **Setext Heading**<br />`===` (if Heading level 1),<br />`---` (if Heading level 2) | `get_ParagraphFormat->set_StyleName(u"SetextHeading[some suffix]")`, based on `“Heading N”` style.<br />If (N >= 2), then `“Heading 2”` will be used, otherwise `“Heading 1”`.<br />Any suffix is allowed, but Aspose.Words importer uses numbers “1” and “2” respectively. |
+| **Setext Heading**<br />`===` (if Heading level 1),<br />`---` (if Heading level 2) | `get_ParagraphFormat->set_StyleName(u"SetextHeading[some suffix]")`, based on 'Heading N' style.<br />If (N >= 2), then 'Heading 2' will be used, otherwise 'Heading 1'.<br />Any suffix is allowed, but Aspose.Words importer uses numbers “1” and “2” respectively. |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-SetextHeading.h" >}} |                                                              |
 | **Indented Code**                                            | `get_ParagraphFormat->set_StyleName(u"IndentedCode[some suffix]")`    |
 | {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Markdown-IndentedCode.h" >}} |                                                              |

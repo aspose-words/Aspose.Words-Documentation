@@ -1,4 +1,4 @@
-﻿---
+---
 title: Merhaba Dünya!
 second_title: Nasıl kullanılacağına dair basit bir örnek Aspose.Words için C++
 articleTitle: Merhaba Dünya!
@@ -7,6 +7,7 @@ description: "İlk belgenizi kullanarak desteklenen herhangi bir biçimde oluşt
 type: docs
 weight: 15
 url: /tr/cpp/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A "Merhaba Dünya!" kod genellikle uısng yazmak için ilk basit örnektir "Aspose.Words için C++" ve kaynak kodunu derlemek veya çalıştırmak için tasarlanan yazılımın doğru şekilde kurulduğundan emin olmak için bir akıl sağlığı testi olarak da kullanılabilir.

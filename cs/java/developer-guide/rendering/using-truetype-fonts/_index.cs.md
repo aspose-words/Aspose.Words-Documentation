@@ -7,6 +7,7 @@ description: "Jak najít správné písmo nebo jeho vhodnou výměnu, pokud nelz
 type: docs
 weight: 20
 url: /cs/java/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Při práci s dokumenty musíte často používat různá písma, styly a velikosti. Dokumenty mohou obsahovat libovolný počet písem, které nejsou nutně omezeny na písma, která jsou instalována v operačním systému. Písmo může být zcela odlišné, jako jsou písma převzatá z jiných operačních systémů, zakoupená nebo vytvořená samotnými uživateli.

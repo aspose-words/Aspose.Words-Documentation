@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++での開発者ガイド
 second_title: C++の場合Aspose.Words
 articleTitle: 開発者ガイド
@@ -7,6 +7,7 @@ description: "この開発者ガイドでは、具体的な使用に役立つ実
 type: docs
 weight: 20
 url: /ja/cpp/developer-guide/
+timestamp: 2024-09-25-11-08-55
 ---
 
 この開発者ガイドでは、使用に関する情報を提供します C++の場合Aspose.Words さまざまな実用的なシナリオで。 その記事は、特定の機能を使用したり、特定の文書の外観を実現したり、ユースケースを可能にしたりするのに役立つ提案やヒントを提供します。

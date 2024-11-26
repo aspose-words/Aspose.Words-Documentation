@@ -1,4 +1,4 @@
-﻿---
+---
 title: Remove Field in Ruby
 second_title: Aspose.Words for Java
 articleTitle: Remove Field in Ruby
@@ -7,6 +7,7 @@ description: "Remove a Field from MS Word Document using Ruby."
 type: docs
 weight: 20
 url: /java/remove-field-in-ruby/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Remove Field

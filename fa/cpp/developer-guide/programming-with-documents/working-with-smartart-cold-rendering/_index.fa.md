@@ -1,4 +1,4 @@
-﻿---
+---
 title: کار با SmartArt رندر سرد در C++
 second_title: Aspose.Words برای C++
 articleTitle: کار با SmartArt رندر سرد
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words برای C++ انجام SmartArt رندر سرد، به این معنی که آن را قرار می دهد و رندر SmartArt اشیاء اگر پیش از رندر SmartArt نقاشی از دست رفته یا نادرست است."
 weight: 330
 url: /fa/cpp/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 SmartArt گرافیک برای ایجاد سریع و آسان نمایش بصری اطلاعات استفاده می شود. شما به سادگی از تعداد زیادی طرح بندی انتخاب می کنید که به بهترین وجه با وضعیت شما مطابقت دارد. این سهولت استفاده باعث می شود گرافیک SmartArt برای برخی اهداف بسیار محبوب باشد.

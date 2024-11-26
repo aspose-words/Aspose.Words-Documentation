@@ -7,6 +7,7 @@ description: "Nâng cao Microsoft Word các tính năng định dạng, làm vi�
 type: docs
 weight: 110
 url: /vi/java/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Lớp [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) được sử dụng để quản lý các cài đặt mặc định và áp dụng các cài đặt do người dùng xác định cho các kiểu.

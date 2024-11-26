@@ -1,5 +1,5 @@
 ---
-title: Làm việc với `Bookmarks` trong Java
+title: Làm việc với Bookmarks trong Java
 second_title: Aspose.Words cho Java
 articleTitle: Làm việc với Bookmark
 linktitle: Làm việc với Bookmark
@@ -7,6 +7,7 @@ description: "Hiểu các khái niệm về dấu trang và cách sử dụng d�
 type: docs
 weight: 180
 url: /vi/java/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đánh dấu xác định trong một Microsoft Word tài liệu những vị trí hoặc đoạn văn mà bạn đặt tên và xác định cho tham khảo sau này. Ví dụ, bạn có thể dùng dấu đánh dấu để xác định văn bản mà bạn muốn chỉnh sửa sau. Thay vì cuộn qua tài liệu để tìm văn bản, bạn có thể đến đó bằng cách sử dụng hộp thoại đánh dấu trang.

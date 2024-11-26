@@ -7,6 +7,7 @@ description: "Învață cum să personalizezi proprietățile câmpurilor în C#
 type: docs
 weight: 27
 url: /ro/net/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words oferă capacitatea de a interacționa programatic cu diverse proprietăți ale câmpului. În acest articol vom privi un cuplu de exemple astfel încât să înțelegeți principiul de bază al lucrului cu proprietățile câmpului. Poți vedea lista completă de proprietăți pentru fiecare tip de câmp în clasa corespunzătoare din [Fields namespace](https://reference.aspose.com/words/net/aspose.words.fields/).

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Enregistrement au format de page fixe en C++
 second_title: Aspose.Words pour C++
 articleTitle: Enregistrement d'un document au format de page fixe
@@ -7,6 +7,7 @@ description: "Comment enregistrer un document dans un format de page fixe - PDF,
 type: docs
 weight: 15
 url: /fr/cpp/saving-a-document-to-fixed-page-format/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Une fois la mise en page créée et la géométrie des objets et leur position sur la page calculées, le document peut être enregistré dans un format de page fixe pris en charge par Aspose.Words.

@@ -7,6 +7,7 @@ type: docs
 description: "Kloning dokumen untuk mendapatkan salinan identik menggunakan C#. Saat membuat salinan, node dan properti dokumen asli dikloning."
 weight: 70
 url: /id/net/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Mengkloning dokumen adalah proses membuat salinan identik dari dokumen asli, yang dapat meningkatkan kinerja dan menyelamatkan Anda dari potensi kebocoran memori.

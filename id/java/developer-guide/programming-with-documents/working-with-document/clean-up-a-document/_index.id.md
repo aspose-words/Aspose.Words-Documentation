@@ -7,6 +7,7 @@ description: "Hapus informasi yang tidak digunakan atau duplikat untuk mengurang
 type: docs
 weight: 30
 url: /id/java/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Kadang-kadang Anda mungkin perlu menghapus informasi yang tidak digunakan atau digandakan untuk mengurangi ukuran dokumen output dan waktu pemrosesan.

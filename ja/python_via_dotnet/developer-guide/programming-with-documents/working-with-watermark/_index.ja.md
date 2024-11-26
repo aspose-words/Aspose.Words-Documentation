@@ -7,6 +7,7 @@ description: "Python を使用してドキュメント内のウォーターマ�
 type: docs
 weight: 340
 url: /ja/python-net/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 このトピックでは、Aspose.Words を使用してプログラムでウォーターマークを操作する方法について説明します。ウォーターマークは、文書内のテキストの背後に表示される背景画像です。ウォーターマークには、[Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/) クラスで表されるテキストまたはイメージを含めることができます。

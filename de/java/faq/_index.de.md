@@ -1,184 +1,185 @@
----
+﻿---
 title: FAQ
 second_title: Aspose.Words für Java
 articleTitle: FAQ
 linktitle: FAQ
 type: docs
-description: "Aspose.Words für Java die am häufigsten gestellten Fragen beantwortet. Erfahren Sie diese Seite, um Ihr Problem bei allgemeinen Fragen oder bestimmten Themen schnell zu lösen."
+description: "Aspose.Words für Java beantwortet die am häufigsten gestellten Fragen. Lernen Sie diese Seite kennen, um Ihr Problem bei allgemeinen Fragen oder bestimmten Themen schnell zu lösen."
 weight: 75
 url: /de/java/faq/
+timestamp: 2024-01-31-14-23-37
 ---
 
-Diese Seite enthält Antworten auf die am häufigsten gestellten Fragen. Bitte lernen Sie die aktuelle Seite – vielleicht können Sie Ihr Problem schnell lösen.
+Auf dieser Seite finden Sie Antworten auf die am häufigsten gestellten Fragen. Bitte lernen Sie die aktuelle Seite kennen – vielleicht können Sie so Ihr Problem schnell lösen.
 
-Wenn Sie die Antwort auf Ihre Frage nicht gefunden haben, können Sie im Support-Forum fragen. Für Informationen, wie Sie Ihre Frage oder Problem richtig melden, siehe die [Technische Unterstützung](/words/de/java/technical-support/) Seite.
+Wenn Sie die Antwort auf Ihre Frage nicht gefunden haben, können Sie im Support-Forum nachfragen. Informationen darüber, wie Sie Ihre Frage oder Ihr Problem ordnungsgemäß melden können, finden Sie im [Technischer Support](/words/java/technical-support/) Seite.
 
 {{% alert color="primary" %}}
 
-Häufig gestellte Fragen werden nach Thema für Ihren Komfort gruppiert.
+Häufig gestellte Fragen sind zur Vereinfachung nach Themen gruppiert.
 
 {{% /alert %}}
 
-## Allgemeines
+## Allgemein
 
-**Q: Was ist los? Aspose.Words?**
+**F: Was ist Aspose.Words?**
 
-Aspose.Words für Java ist eine Klasse-Bibliothek, mit der Ihre Anwendungen eine Vielzahl von Dokumentenverarbeitungsaufgaben ausführen können. mit Aspose.Words für Java, Sie können Dokumente ohne Drittanbieter-Anwendungen generieren, modifizieren, konvertieren, rendern und drucken.
+Aspose.Words für Java ist eine Klassenbibliothek, mit der Ihre Anwendungen eine Vielzahl von Dokumentenverarbeitungsaufgaben ausführen können. Mit Aspose.Words für Java können Sie Dokumente ohne Anwendungen von Drittanbietern generieren, ändern, konvertieren, rendern und drucken.
 
 Details finden Sie in unserer Dokumentation.
 
 ------
 
-**Q: Was bedeutet das?Aspose.Words erfordert keine Drittanbieter-Anwendungen?**
+**F: Was bedeutet "Aspose.Words erfordert keine Anwendungen von Drittanbietern"?**
 
-Aspose.Words für Java muss keine Drittanbieter-Anwendungen oder zusätzliche Softwarepakete zur Arbeit installieren. Einfach herunterladen und installieren Aspose.Words wie in der [Installation](/words/de/java/installation/) Artikel und starten.
-
-------
-
-**Q: Welche Plattformen tut Aspose.Words Unterstützung?**
-
-Aspose.Words für Java umfasst die meisten beliebten Entwicklungsumgebungen und Bereitstellungsplattformen. Sie API zur Entwicklung von Anwendungen für eine breite Palette von Betriebssystemen wie Windows, Linux, und Mac OS, und verschiedene Plattformen.
-
-Für Details siehe die [Was ist das?](/words/de/java/product-overview/) Seite und [Das ist nicht alles. InteropErneuerbarkeit](/words/java/platforms-and-interoperability/) Abschnitt.
+Aspose.Words für Java muss keine Anwendungen von Drittanbietern oder zusätzliche Softwarepakete installieren, um zu funktionieren. Laden Sie einfach Aspose.Words herunter und installieren Sie es wie in der [Installation](/words/java/installation/) artikel und loslegen.
 
 ------
 
-**Q: Welche Dokumentformate macht Aspose.Words Unterstützung?**
+**F: Welche Plattformen werden von Aspose.Words unterstützt?**
 
-Aspose.Words für Java unterstützt die meisten der beliebten Dokumentformate wie DOC, DOCX, HTML, Markdown, PDF, XML und andere.
+Aspose.Words für Java deckt die meisten gängigen Entwicklungsumgebungen und Bereitstellungsplattformen ab. Mit API können Anwendungen für eine Vielzahl von Betriebssystemen wie Windows, Linux und Mac OS sowie für verschiedene Plattformen entwickelt werden.
 
-Sie können die vollständige Liste der unterstützten Formate auf der [Ich bin nicht da](/words/de/java/supported-document-formats/) Seite.
+Einzelheiten finden Sie in der [Produktübersicht](/words/java/product-overview/) seite und die [Plattformen und InteropErabilität](/words/java/platforms-and-interoperability/) Abschnitt.
 
 ------
 
-**Q: Wie kann ich es versuchen? Aspose.Words frei?**
+**F: Welche Dokumentformate werden von Aspose.Words unterstützt?**
 
-Sie können dies auf zwei Arten tun – mit der Trial-Version oder einer 30-tägigen temporären Lizenz. Die Trial-Version ist die gleiche wie die gekaufte, es bietet volle Produkt-Funktionalität, fügt aber ein evaluatives Wasserzeichen an der Spitze des Dokuments beim Laden und Speichern und begrenzt die maximale Dokumentengröße auf einige hundert Absätze. Eine vorübergehende Lizenz ermöglicht es Ihnen zu testen Aspose.Words ohne Trial-Einschränkungen für 30 Tage.
+Aspose.Words für Java unterstützt die meisten gängigen Dokumentenformate wie DOC, DOCX, HTML, Markdown, PDF, XML, und andere.
 
-Siehe [Lizenzierung und Abonnement](/words/de/java/licensing/) Seite für weitere Informationen.
+Die vollständige Liste der unterstützten Formate finden Sie auf der [Unterstützte Dokumentenformate](/words/java/supported-document-formats/) Seite.
+
+------
+
+**F: Wie kann ich Aspose.Words kostenlos testen?**
+
+Sie können dies auf zwei Arten tun – mit der Testversion oder einer temporären 30-Tage-Lizenz. Die Testversion ist die gleiche wie die gekaufte, sie bietet die volle Produktfunktionalität, fügt jedoch beim Laden und Speichern oben im Dokument ein bewertendes Wasserzeichen hinzu und begrenzt die maximale Dokumentgröße auf einige hundert Absätze. Mit einer temporären Lizenz können Sie Aspose.Words 30 Tage lang ohne Testbeschränkungen testen.
+
+Sehen Sie die [Lizenzierung und Abonnement](/words/java/licensing/) seite für weitere Informationen.
 
 {{% alert color="primary" %}}
 
-Sie können auch versuchen einige der beliebtesten Aspose.Words Merkmale durch die [Aspose.Words kostenlos online kaufen Apps](https://products.aspose.app/words).
+Sie können auch einige der beliebtesten Aspose.Words Funktionen über die [Aspose.Words kostenlose Online Apps](https://products.aspose.app/words).
 
 {{% /alert %}}
 
 ------
 
-**Q: Wie kann ich kaufen Aspose.Words?**
+**F: Wie kann ich Aspose.Words kaufen?**
 
-Um eine Aspose.Words Lizenz, Sie müssen in die [Wie geht's?](https://purchase.aspose.com/buy) Seite, wählen Sie "Aspose.Words" Produkt und die Art der Lizenz, die zu Ihnen passt. Dann fügen Sie die Lizenz in Ihren Warenkorb und folgen Sie den Einkaufswagen Anweisungen.
+Um eine Aspose.Words-Lizenz zu kaufen, müssen Sie zum gehen [Kauf](https://purchase.aspose.com/buy) seite, wählen Sie das Produkt "Aspose.Words" und den Lizenztyp aus, der zu Ihnen passt. Legen Sie dann die Lizenz in Ihren Warenkorb und folgen Sie den Anweisungen im Warenkorb.
 
-Nach dem Kauf gilt für die Lizenz wie in der [Erworbene Lizenz](/words/java/licensing/#purchased-license) Abschnitt.
+Beantragen Sie nach dem Kauf die Lizenz wie in der beschrieben [Gekaufte Lizenz](/words/java/licensing/#purchased-license) Abschnitt.
 
-Details zur Installation Aspose.Words kann auf der [Installation](/words/de/java/installation/) Seite.
+Einzelheiten zur Installation von Aspose.Words finden Sie auf der [Installation](/words/java/installation/) Seite.
 
 ------
 
-**Q: Wie kann ich Unterstützung bekommen?**
+**F: Wie kann ich Unterstützung erhalten?**
 
-Nutzen Sie das kostenlose technische Support-Forum. Für Details, wie man ein Problem richtig meldet und was getan werden muss, bevor man das Forum kontaktiert, siehe [Technische Unterstützung](/words/de/java/technical-support/) Seite.
+Nutzen Sie das kostenlose Forum für technischen Support. Einzelheiten dazu, wie Sie ein Problem ordnungsgemäß melden und was zu tun ist, bevor Sie das Forum kontaktieren, finden Sie im [Technischer Support](/words/java/technical-support/) Seite.
 
-## Erstellung eines Dokuments
+## Rendern eines Dokuments
 
 {{% alert color="primary" %}}
 
-Weitere Informationen zum Rendern finden Sie in der [Rendering](/words/de/java/rendering/) Abteilung Dokumentation.
+Detailliertere Informationen zum Rendern finden Sie in der [Rendering](/words/java/rendering/) abschnitt Dokumentation.
 
 {{% /alert %}}
 
-**Q: Warum unterscheiden sich die Layouts und Schriftarten im Ausgabedokument vom Original?**
+**F: Warum unterscheiden sich Layout und Schriftarten im Ausgabedokument vom Original?**
 
-Die Schriftart kann nicht verfügbar sein oder das Schriftformat wird von Microsoft Word aber nicht unterstützt Aspose.Words. Aspose.Words wird ausführen [Manipulate und Substitute TrueType Fonts](/words/de/java/manipulate-and-substitute-truetype-fonts/).
+Die Schriftart ist möglicherweise nicht verfügbar oder das Schriftformat wird von Microsoft Word, aber nicht von Aspose.Words unterstützt. Aspose.Words wird ausgeführt [schriftartenersetzung](/words/java/manipulate-and-substitute-truetype-fonts/).
 
-Um zu überprüfen, ob die Schrift fehlt:
+Um zu überprüfen, ob die Schriftart fehlt:
 
-- In Aspose.Words Verwenden Sie die Font-Substitutionswarnungen (für Details, siehe die "Wie zu erkennen, dass der Font wurde ersetzt" Abschnitt der [Manipulate und Substitute TrueType Fonts](/words/de/java/manipulate-and-substitute-truetype-fonts/) Artikel
-- In Microsoft Word Öffnen Sie das Dialogfeld "Font Substitution" (Datei → Optionen → Fortgeschrittene → Schriftsubstitution).
-
-------
-
-**Q: Warum funktioniert die Schrift nicht auf Nicht-Windows Plattformen und Unicode Zeichen werden durch die .notdef ersetzt glyph?**
-
-Wir können oft sehen `.notdef` glyph anstatt eines Unicode-Zeichens. Dies ist in der Regel eine Box oder eine Frage glyph.
-
-Das ist, weil Microsoft Die Einstellungen für die Office-Abfallsicherung werden standardmäßig ausgewählt und Microsoft Office Schriftarten sind nicht verfügbar. Benutzer müssen installieren Microsoft Office-Fonts oder ändern Fallback-Einstellungen.
+- Verwenden Sie in Aspose.Words die Warnungen zum Ersetzen von Schriftarten (Einzelheiten finden Sie im Abschnitt "Erkennen, dass die Schriftart ersetzt wurde" des [TrueType -Schriften bearbeiten und ersetzen](/words/java/manipulate-and-substitute-truetype-fonts/) Beitrag).
+- Öffnen Sie in Microsoft Word das Dialogfeld "Schriftartenersetzung" (Datei → Optionen → Erweitert → Schriftartenersetzung).
 
 ------
 
-**Q: Warum können komplexe Skripttexte, wie Thai oder Hebräisch, aus irgendeinem Grund ungenau angezeigt werden, wie die falsche Position für Diakritik oder ungenaue Ligaturen?**
+**F: Warum funktioniert das Font-Fallback nicht auf Nicht-Windows -Plattformen und Unicode-Zeichen werden durch das ersetzt.keine defg-Glyphe?**
 
-Einige komplexe Schriftarten erfordern, dass die Advanced Typography-Funktionen verarbeitet werden, um sie korrekt anzuzeigen. Fortgeschrittene Typografie ist behindert Aspose.Words Standardmäßig. Benutzer müssen Advanced Typography mit [TextShaperFactory](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getTextShaperFactory).
+Wir können oft die `.notdef` Glyphe anstelle eines Unicode-Zeichens sehen. Dies ist normalerweise ein Kästchen oder eine Fragenglyphe.
+
+Dies liegt daran, dass standardmäßig Microsoft Office-Fallback-Einstellungen ausgewählt sind und Microsoft Office-Schriftarten nicht verfügbar sind. Benutzer müssen Microsoft Office-Schriftarten installieren oder Fallback-Einstellungen ändern.
 
 ------
 
-**Q: Brauche ich Lizenzdateien für die Schriftarten, die ich benutze?**
+**F: Warum könnte komplexer Schrifttext, wie Thai oder Hebräisch, aus irgendeinem Grund ungenau angezeigt werden, z. B. die falsche Position für diakritische Zeichen oder ungenaue Ligaturen?**
 
-Ja. Beachten Sie daher beim Kopieren von Schriften, dass die meisten Schriftarten urheberrechtlich geschützt sind. Suchen Sie Schriftartenlizenzen vorher und überprüfen Sie, ob sie frei auf eine andere Maschine übertragen werden können.
+Einige komplexe Skriptschriften erfordern die Verarbeitung der erweiterten Typografiefunktionen, um sie korrekt anzuzeigen. Erweiterte Typografie ist in Aspose.Words standardmäßig deaktiviert. Benutzer müssen erweiterte Typografie mit [TextShaperFactory](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getTextShaperFactory) aktivieren.
 
-## Eingefügt Mail Merge
+------
+
+**F: Benötige ich Lizenzdateien für die von mir verwendeten Schriftarten?**
+
+Ja, das tust du. Beachten Sie daher beim Kopieren von Schriftarten, dass die meisten Schriftarten urheberrechtlich geschützt sind. Suchen Sie vorher nach Schriftlizenzen und stellen Sie sicher, dass sie frei auf einen anderen Computer übertragen werden können.
+
+## Verschachtelt Mail Merge
 
 {{% alert color="primary" %}}
 
-Weitere Informationen finden Sie hier mail merge in der [Mail Merge und Reporting](/words/java/mail-merge-and-reporting/) Abteilung Dokumentation.
+Nähere Informationen zu Mail Merge finden Sie in der [Mail Merge und Berichterstattung](/words/java/mail-merge-and-reporting/) abschnitt Dokumentation.
 
 {{% /alert %}}
 
-**Q: Warum gibt es keine zusammengeführten Felder in der generierten Ausgabe?**
+**F: Warum gibt es in der generierten Ausgabe keine zusammengeführten Felder?**
 
-Der ursprüngliche Name des Zusammenführungsfeldes bleibt gleich, ohne durch die benötigten Daten aus der Datenquelle ersetzt zu werden, dann:
+Der ursprüngliche Name des Seriendruckfelds bleibt unverändert, ohne durch die erforderlichen Daten aus der Datenquelle ersetzt zu werden.dann:
 
-- Überprüfen Sie, ob die Daten richtig in Tabellen geladen werden: [TableName](https://reference.aspose.com/words/java/com.aspose.words/imailmergedatasource/#getTableName) korrekt mit allen erforderlichen Primärschlüsseln und Beziehungen.
-- Überprüfen Sie, ob die Zusammenführungsfelder richtig benannt sind. Verwenden Sie die [GetFieldNames](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldNames) Methode, um alle Zusammenführungsfelder Namen zu erhalten und sicherzustellen, dass der Name der Zusammenführungsfelder in Ihrer Vorlage demjenigen in Ihrer Datenquelle entspricht.
-
-------
-
-**Q: Warum zeigt die Ausgabe der verschachtelten Verschmelzung nicht Daten aus der Kindertabelle für den ersten Eintrag in der Elterntabelle, sondern zeigt alle Elemente für den letzten Eintrag in der Elterntabelle, auch diejenigen, die nicht tatsächlich mit ihr verbunden sind?**
-
-Dies liegt daran, dass die Zusammenführungsbereiche in der Vorlage nicht richtig ausgebildet sind, was alles verschachtelt machen kann mail merge Regionen, um überhaupt nichts zu zeigen. Die [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) öffnen tag und die [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) Schließen Tag muss übereinstimmen und in der gleichen Zeile oder Zelle sein. Wenn Sie z.B. beginnen, zusammenführende Regionen in einer Zelle einer Tabelle zu verschachteln, müssen Sie den Zusammenschlussbereich in der gleichen Zeile wie die erste Zelle beenden.
+- Überprüfen Sie, ob die Daten ordnungsgemäß in Tabellen geladen werden: Setzen Sie die [TableName](https://reference.aspose.com/words/java/com.aspose.words/imailmergedatasource/#getTableName) mit allen erforderlichen Primärschlüsseln und Beziehungen korrekt.
+- Überprüfen Sie, ob die Seriendruckfelder richtig benannt sind. Verwenden Sie die Methode [GetFieldNames](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldNames), um alle Namen der Seriendruckfelder abzurufen und sicherzustellen, dass der Name der Seriendruckfelder in Ihrer Vorlage mit dem Namen in Ihrer Datenquelle übereinstimmt.
 
 ------
 
-**Q: Warum zeigt jeder Eintrag aus der Elterntabelle jeden Artikel in der Kindertabelle, auch diejenigen, die nicht mit ihm verbunden sind?**
+**F: Warum zeigt die Ausgabe der verschachtelten Zusammenführung keine Daten aus der untergeordneten Tabelle für den ersten Eintrag in der übergeordneten Tabelle an, sondern alle Elemente für den letzten Eintrag in der übergeordneten Tabelle, auch solche, die nicht tatsächlich damit verknüpft sind?**
 
-Dies liegt daran, dass die Beziehung zwischen Eltern- und Kindertabellen nicht aufgebaut oder falsch aufgebaut ist. Es ist notwendig:
-
-- Sicherstellung der Datenintegrität in Ihrem **DataSet** und die **DataRelation** die Eltern-Kind-Beziehung zwischen verwandten Datentabellen darzustellen.
-- Überprüfen Sie den Abschnitt "Wie Sie Datenbeziehungen in eingelagert einrichten Mail Merge mit Regionen" im Artikel [Das ist ein Tag Mail Merge mit den Regionen](/words/java/nested-mail-merge-with-regions/).
+Dies liegt daran, dass die Zusammenführungsbereiche in der Vorlage nicht korrekt gebildet sind, wodurch alle verschachtelten Mail Merge -Bereiche überhaupt nichts mehr anzeigen können. Das öffnende Tag [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) und das schließende Tag [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) müssen übereinstimmen und sich in derselben Zeile oder Zelle befinden. Wenn Sie beispielsweise mit dem Verschachteln von Zusammenführungsbereichen in einer Zelle einer Tabelle beginnen, müssen Sie den Zusammenführungsbereich in derselben Zeile wie die erste Zelle beenden.
 
 ------
 
-**Q: Warum ist eine Ausnahme: "System. ArgumentException: Diese Beschränkung kann nicht aktiviert werden, da nicht alle Werte entsprechende Elternwerte haben" während der Ausführung verschachtelt mail merge?**
+**F: Warum zeigt jeder Eintrag aus der übergeordneten Tabelle jedes Element in der untergeordneten Tabelle an, auch solche, die nicht tatsächlich damit verknüpft sind?**
 
-Dies geschieht, weil nicht jeder Elternrekord einen Kinderrekord hat, so dass Ihre Datenquelle nicht den folgenden Kriterien entspricht: * jede Zeile in der Elterntabelle sollte eine ein-zu-ein Beziehung zu den Zeilen der Kindertabelle auf Basis der Primär- und Fremdschlüssel* haben.
+Dies liegt daran, dass die Beziehung zwischen den übergeordneten und untergeordneten Tabellen nicht oder falsch eingerichtet ist. Es ist notwendig:
 
-Deaktivieren Sie fremde Schlüsselzwänge, wenn Sie eine **DataRelation**.
+- Stellen Sie die Datenintegrität in Ihrem **DataSet** sicher und verwenden Sie das **DataRelation**-Objekt, um die Eltern-Kind-Beziehung zwischen verwandten Datentabellen darzustellen.
+- Lesen Sie den Abschnitt "Einrichten von Datenbeziehungen in verschachtelten Mail Merge mit Regionen" im Artikel [Verschüttelt Mail Merge mit Regionen](/words/java/nested-mail-merge-with-regions/).
+
+------
+
+**F: Warum ist eine Ausnahme: "System.ArgumentException: Diese Einschränkung kann nicht aktiviert werden, da nicht alle Werte entsprechende übergeordnete Werte haben" beim Ausführen von nested mail merge?**
+
+Dies geschieht, weil nicht jeder übergeordnete Datensatz einen untergeordneten Datensatz hat, sodass Ihre Datenquelle nicht den folgenden Kriterien entspricht: *every row in the parent table should have a one-to-one relationship with the rows of the child table based on the primary and foreign keys*.
+
+Deaktivieren Sie Fremdschlüsseleinschränkungen, wenn Sie eine **DataRelation** erstellen.
 
 ## Dokument anhängen oder einfügen
 
 {{% alert color="primary" %}}
 
-Weitere Informationen zur Programmierung mit Dokumenten finden Sie in der [Programmierung mit Dokumenten](/words/de/java/programming-with-documents/) Abteilung Dokumentation.
+Nähere Informationen zur Programmierung mit Dokumenten finden Sie in der [Programmieren mit Dokumenten](/words/java/programming-with-documents/) abschnitt Dokumentation.
 
 {{% /alert %}}
 
-**Q: Warum erscheint auf derselben Seite kein Inhalt an ein Dokument?**
+**F: Warum werden an ein Dokument angehängte Inhalte nicht auf derselben Seite angezeigt?**
 
-Das Append-Ergebnis erscheint auf einer separaten Seite aufgrund eines Unterschieds in [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/) Einstellungen für die Abschnitte, in denen die Dokumente zusammengefügt werden. identisch machen **PageSetup** Einstellungen für die Abschnitte, in denen die Dokumente zusammengefügt werden.
+Das Anhängeergebnis wird auf einer separaten Seite angezeigt, da die [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/)-Einstellungen für die Abschnitte, in denen die Dokumente angehängt werden, unterschiedlich sind. Nehmen Sie identische **PageSetup**-Einstellungen für die Abschnitte vor, in denen die Dokumente angehängt werden.
 
-## Dokument umrechnen
+## Ein Dokument konvertieren
 
 {{% alert color="primary" %}}
 
-Weitere Informationen zur Umwandlung eines Dokuments in der [Dokument umrechnen](/words/de/java/convert-a-document/) Abteilung Dokumentation.
+Detailliertere Informationen zum Konvertieren eines Dokuments finden Sie in der [Ein Dokument konvertieren](/words/java/convert-a-document/) abschnitt Dokumentation.
 
 {{% /alert %}}
 
-**Q: Wie konvertiert man DOCX in PDF?**
+**F: Wie konvertiere ich DOCX in PDF?**
 
-Es ist auch sehr einfach, laden Sie einfach ein Dokument an das Modell und speichern Sie es in jedes unterstützte Format.
+Es ist auch sehr einfach, laden Sie einfach ein Dokument in das Modell und speichern Sie es in einem beliebigen unterstützten Format.
 
-Das folgende Codebeispiel zeigt den Prozess der Konvertierung der Datei DOCX in PDF:
+Das folgende Codebeispiel zeigt den Prozess der Konvertierung einer DOCX -Datei in PDF:
 
 {{< highlight java >}}
 // Open the source DOCX document.
@@ -188,19 +189,19 @@ Document doc = new Document(dataDir + "Input.docx");
 doc.save(dataDir + "output.pdf", SaveFormat.Pdf);
 {{< /highlight >}}
 
-## Manipula mit einem Dokument
+## Mit einem Dokument manipulieren
 
 {{% alert color="primary" %}}
 
-Weitere Informationen zur Programmierung mit Dokumenten finden Sie in der [Programmierung mit Dokumenten](/words/de/java/programming-with-documents/) Abteilung Dokumentation.
+Nähere Informationen zur Programmierung mit Dokumenten finden Sie in der [Programmieren mit Dokumenten](/words/java/programming-with-documents/) abschnitt Dokumentation.
 
 {{% /alert %}}
 
-**Q: Wie spaltet man eine Dokumentseite nach Seite?**
+**F: Wie teilt man ein Dokument Seite für Seite auf?**
 
-Aspose.Words ermöglicht es Ihnen, eine mehrseitige Dokumentseite per Seite zu teilen.
+Mit Aspose.Words können Sie ein mehrseitiges Dokument Seite für Seite aufteilen.
 
-Das folgende Codebeispiel zeigt, wie man ein Dokument teilt und jede Seite als separates Dokument speichert:
+Das folgende Codebeispiel zeigt, wie Sie ein Dokument teilen und jede Seite als separates Dokument speichern:
 
 {{< highlight java >}}
 Document doc = new Document(dataDir + "TestFile (Split).docx");
@@ -217,11 +218,11 @@ for (int page = 0; page <= pageCount; page++)
 
 ------
 
-**Q: Wie man eine verschlüsselte** **Dokument?**
+**F: So öffnen Sie eine verschlüsselte**
 
-Sie können versuchen, ein verschlüsseltes Dokument ohne Passwort zu öffnen, was zu einer Ausnahme führen sollte.
+Sie können versuchen, ein verschlüsseltes Dokument ohne Kennwort zu öffnen, was zu einer Ausnahme führen sollte.
 
-Das folgende Codebeispiel zeigt, wie ein verschlüsseltes Dokument mit einem Passwort geöffnet werden kann:
+Das folgende Codebeispiel zeigt, wie Sie ein verschlüsseltes Dokument mit einem Kennwort öffnen:
 
 {{< highlight java >}}
 // Create a document.
@@ -250,6 +251,6 @@ catch (Exception e)
 
 ------
 
-**Q: Wie druckt man ein Dokument?**
+**F: Wie drucke ich ein Dokument?**
 
-Für eine ausführliche Antwort, lernen Sie den Artikel [Drucken eines der Dokumente Programmierung oder Verwendung von Dialogen](/words/de/java/print-a-document-programmatically-or-using-dialogs/).
+Für eine ausführliche Antwort lesen Sie den Artikel [Drucken eines Dokuments programmgesteuert oder mithilfe von Dialogen](/words/java/print-a-document-programmatically-or-using-dialogs/).

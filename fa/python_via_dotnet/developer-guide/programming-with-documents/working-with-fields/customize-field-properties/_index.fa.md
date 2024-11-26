@@ -7,6 +7,7 @@ description: "با نحوه سفارشی کردن خصوصیات فیلد در P
 type: docs
 weight: 27
 url: /fa/python-net/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words توانایی تعامل برنامه‌ای با ویژگی‌های میدان مختلف را فراهم می‌کند. در این مقاله به چند نمونه نگاه می کنیم تا اصول اولیه کار با خواص فیلد را درک کنید. شما می توانید لیست کامل ویژگی ها را برای هر نوع فیلد در کلاس مربوطه در [ماژول فیلدها](https://reference.aspose.com/words/python-net/aspose.words.fields/) مشاهده کنید.

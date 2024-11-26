@@ -7,6 +7,7 @@ description: "Aspose.Words עבור Python via .NET מספק למשתמשים מ
 type: docs
 weight: 30
 url: /he/python-net/features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words מספק למשתמשים מגוון רחב של תכונות. משתמשים יכולים לבצע כמות עצומה של משימות הקשורות למסמכים - החל להמיר מסמכים מפורמט נתמך אחד למשנהו ולשנות את המסמכים במהלך תהליך ההמרה למשימות עסקיות, כגון יצירת מסמכים מובנים ומושכים מבחינה ויזואלית או דיווח אוטומטי.
@@ -108,16 +109,16 @@ Aspose.Words מספק גישה מתודולוגית מפורטת למאפיינ�
 
 |  תכונות | Python via .NET |
 |  :-  |  :-  |
-| השתמש בכל הסטנדרט Microsoft Word mail merge שדות בדוחות שלך כולל `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, טיול. | {{< emoticons/tick >}} |
-| הוצאה להורג mail merge עבור מסמכים המכילים אפילו את המורכב ביותר ונוקן `IF` שדות ונוסחאות | {{< emoticons/tick >}} |
-| פופלוט ולהגדיל דינמי טבלאות או שברים במסמך ממקור הנתונים שלך באמצעות שימוש mail merge אזורים. | {{< emoticons/cross >}} |
+| השתמש בכל הסטנדרט Microsoft Word Mail Merge שדות בדוחות שלך כולל `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, טיול. | {{< emoticons/tick >}} |
+| הוצאה להורג Mail Merge עבור מסמכים המכילים אפילו את המורכב ביותר ונוקן `IF` שדות ונוסחאות | {{< emoticons/tick >}} |
+| פופלוט ולהגדיל דינמי טבלאות או שברים במסמך ממקור הנתונים שלך באמצעות שימוש Mail Merge אזורים. | {{< emoticons/cross >}} |
 | בקלות ליצור דוחות המכילים נתונים של Master-detail (סבא-ילד) כגון הזמנה / הזמנות. | {{< emoticons/cross >}} |
 | מסמכים עם נתונים מכל .NET מקור נתונים כגון DataSet, DataTable, DataView, DataReader או ADO Recordset. | {{< emoticons/cross >}} |
 | מסמכים בולטים מכל מקור נתונים כגון שאילתה של LINQ, קובץ XML או אובייקטים עסקיים על ידי יישום [IMailMergeDataSource](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/imailmergedatasource/) ממשק. | {{< emoticons/cross >}} |
 | קח שליטה מדויקת, כגון עיצוב מספר, על איך הנתונים שלך ממוזגים באמצעות אירועים. | {{< emoticons/cross >}} |
 | הכניסו תמונות במהלך mail merge. | {{< emoticons/tick >}} |
-| ליצור או לשנות Microsoft Word mail merge מקור נתונים עבור מסמך. שמירה mail merge הגדרות ומקורות נתונים | {{< emoticons/tick >}} |
-| Retrieve mail merge שמות שדה | {{< emoticons/tick >}} |
+| ליצור או לשנות Microsoft Word Mail Merge מקור נתונים עבור מסמך. שמירה Mail Merge הגדרות ומקורות נתונים | {{< emoticons/tick >}} |
+| Retrieve Mail Merge שמות שדה | {{< emoticons/tick >}} |
 
 ## דוחות
 

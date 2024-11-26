@@ -7,6 +7,7 @@ description: "לפני שתתחיל לעבוד עם Aspose.Words עבור Java, 
 type: docs
 weight: 80
 url: /he/java/system-requirements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words עבור Java אין צורך במוצר צד שלישי כגון Microsoft Word להיות מותקן. Aspose.Words עצמו הוא מנוע ליצירת, שינוי, המרת ועריכת מסמכים בפורמטים שונים, כולל Microsoft Word פורמטי מסמך

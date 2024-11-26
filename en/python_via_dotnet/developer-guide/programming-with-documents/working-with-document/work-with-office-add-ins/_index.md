@@ -1,4 +1,4 @@
-﻿---
+---
 title: Work with Office Add-ins in Python
 second_title: Aspose.Words for Python via .NET
 articleTitle: Work with Office Add-ins
@@ -10,6 +10,7 @@ url: /python-net/work-with-office-add-ins/
 aliases:
  - /python/work-with-web-extensions/
  - /python/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sometimes you might want to give access to interface controls that run code to modify documents. Aspose.Words API provides the [webextensions](https://reference.aspose.com/words/python-net/aspose.words.webextensions/) module, which grants various classes to customize elements and attributes extending the XML vocabulary for representing Office Add-ins.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中使用OLE对象
 second_title: Aspose.Words对于C++
 articleTitle: 使用OLE对象
@@ -7,6 +7,7 @@ description: "使用C++在文档中创建和修改OLE嵌入。"
 type: docs
 weight: 360
 url: /zh/cpp/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE（对象链接和嵌入）是一种技术，用户可以使用包含由第三方应用程序创建或编辑的"对象"的文档。 也就是说，OLE允许编辑应用程序将这些"对象"导出到另一个编辑应用程序，然后将它们与附加内容一起导入。

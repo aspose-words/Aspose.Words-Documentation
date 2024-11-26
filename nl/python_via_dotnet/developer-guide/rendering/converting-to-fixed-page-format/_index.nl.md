@@ -7,6 +7,7 @@ description: "Documenten opslaan naar PDF, XPS, HTML, XAML, PostScript en PCL-fo
 type: docs
 weight: 10
 url: /nl/python-net/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words implementeert zijn eigen pagina layout engine. Alvorens in zijn specificaties te komen, is het de moeite waard om eerst het document op hoog niveau te bespreken. Bij het denken over een document, gebruikers meestal voorstellen een aantal papieren bladen met woorden, afbeeldingen, tabellen en grafieken. Documenten kunnen van verschillende soorten zijn, zoals tekst, spreadsheets, dia's, CAD tekeningen, stroomschema's, en kunnen daarom in wezen verschillende indelingen hebben. De meeste toepassingen laten toe om documenten naar een printer te sturen; dit is wanneer een gebruiker het document daadwerkelijk kan bekijken.
@@ -49,7 +50,7 @@ Pagina-indeling berekent waar de tekst zal verschijnen en welke inhoud erachter 
 
 ![converting-to-fixed-page-format_2](/words/python-net/converting-to-fixed-page-format/converting-to-fixed-page-format-2.png)
 
-In <span notrans="<span notrans=" Aspose.Words"=""></span>,"> Een gebruiker kan vragen of hij een nieuwe pagina-indeling wil bouwen of een bestaande kan bijwerken. Beide kunnen worden uitgevoerd door de [update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) methode, verstrekt door de [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) Klasse. Als een paginaindeling niet bestaat, maar er is behoefte aan (bijvoorbeeld wanneer het document wordt geëxporteerd naar een vaste paginaformaat), Aspose.Words zal deze methode automatisch aanroepen. Echter, als een pagina-indeling al bestaat, Aspose.Words zal de bestaande gebruiken om te voorkomen dat de middelen die nodig zijn om het bij te werken worden verbruikt. In dit geval moet de gebruiker de [update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) methode, om ervoor te zorgen dat de pagina-indeling is bijgewerkt met het document model.
+In Aspose.Words Een gebruiker kan vragen of hij een nieuwe pagina-indeling wil bouwen of een bestaande kan bijwerken. Beide kunnen worden uitgevoerd door de [update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) methode, verstrekt door de [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) Klasse. Als een paginaindeling niet bestaat, maar er is behoefte aan (bijvoorbeeld wanneer het document wordt geëxporteerd naar een vaste paginaformaat), Aspose.Words zal deze methode automatisch aanroepen. Echter, als een pagina-indeling al bestaat, Aspose.Words zal de bestaande gebruiken om te voorkomen dat de middelen die nodig zijn om het bij te werken worden verbruikt. In dit geval moet de gebruiker de [update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) methode, om ervoor te zorgen dat de pagina-indeling is bijgewerkt met het document model.
 
 ### Dynamische structuur
 

@@ -7,6 +7,7 @@ description: "Reemplazar texto en una tabla en C#. Extraiga texto sin formato de
 type: docs
 weight: 60
 url: /es/net/work-with-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Como se mencionó en artículos anteriores, una tabla generalmente contiene texto sin formato, aunque se pueden colocar otros contenidos como imágenes o incluso otras tablas en las celdas de la tabla.

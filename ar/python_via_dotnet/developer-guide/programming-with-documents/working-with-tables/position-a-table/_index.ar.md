@@ -7,6 +7,7 @@ description: "تحديد موضع الجدول في Python. احصل على مح
 type: docs
 weight: 50
 url: /ar/python-net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 هناك جداول عائمة وجداول مضمنة:

@@ -7,6 +7,7 @@ description: "Szczegóły formatowania czcionek przy użyciu C#. Znak podkreśle
 type: docs
 weight: 230
 url: /pl/net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Czcionka to zestaw znaków o określonym rozmiarze, kolorze i wyglądzie. Aspose.Words umożliwia pracę z czcionkami przy użyciu przestrzeni nazw [Fonts](https://reference.aspose.com/words/net/aspose.words.fonts/) i klasy [Font](https://reference.aspose.com/words/net/aspose.words/font/).

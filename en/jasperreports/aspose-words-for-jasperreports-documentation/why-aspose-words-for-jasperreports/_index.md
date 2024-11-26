@@ -7,6 +7,7 @@ description: "Aspose.Words for JasperReports allows exporting reports as DOC and
 type: docs
 weight: 30
 url: /jasperreports/why-aspose-words-for-jasperreports/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Support for Popular Microsoft Word Formats

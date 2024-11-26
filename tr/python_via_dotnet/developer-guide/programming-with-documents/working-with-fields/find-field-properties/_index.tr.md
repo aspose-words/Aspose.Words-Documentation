@@ -7,6 +7,7 @@ description: "Python'te alan kodu ve alan sonucu gibi bazı alan özellikleri na
 type: docs
 weight: 25
 url: /tr/python-net/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/).[insert_field](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_field/) kullanılarak eklenen alan bir [Field](https://reference.aspose.com/words/python-net/aspose.words.fields/field/) nesnesi döndürür. Bu, bir alanın bazı özelliklerini hızla bulmak için kullanışlı yöntemler sağlayan bir cephe sınıfıdır.

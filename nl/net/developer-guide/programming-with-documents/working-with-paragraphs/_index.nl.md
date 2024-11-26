@@ -7,6 +7,7 @@ description: "Een paragraaf toevoegen aan een document C#. Paragraafstijlen inst
 type: docs
 weight: 210
 url: /nl/net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Een alinea is een verzameling tekens die worden gecombineerd tot een logisch blok en eindigend met een speciaal karakter, een *paragraf break*. In Aspose.Words, een lid wordt vertegenwoordigd door de [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) Klasse.

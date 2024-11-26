@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Tabelle in Java
 second_title: Aspose.Words vir Java
 articleTitle: Werk Met Tafels
@@ -7,6 +7,7 @@ description: "Hoe om te werk met tabelle in Java. Inleiding Tot Tabel knoop kons
 type: docs
 weight: 190
 url: /af/java/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A **table** in'n dokument is'n goeie manier om soortgelyke data te struktureer. Daarom is tabelle'n algemene inhoud formatering element en word ondersteun deur die meeste formate in die een of ander vorm.

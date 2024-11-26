@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++で文書をPDFに変換する
 second_title: C++の場合Aspose.Words
 articleTitle: 文書をPDFに変換する
@@ -7,6 +7,7 @@ description: "C++を使用して文書をPDFに変換します。 Word、OpenOff
 type: docs
 weight: 10
 url: /ja/cpp/convert-a-document-to-pdf/
+timestamp: 2024-10-21-08-52-03
 ---
 
 文書をある形式から別の形式に簡単かつ確実に変換する機能は、Aspose.Wordsの重要な機能です。 変換のための最も一般的な形式の一つはPDFです–さまざまなプラットフォーム上でのレンダリング中にドキュメントの元の外観を維持する固定レイアウ Aspose.Wordsで"レンダリング"という用語は、ドキュメントをページ分割されたファイル形式またはページの概念を持つファイル形式に変換するプロセスを記述する

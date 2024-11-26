@@ -7,6 +7,7 @@ description: "Velden functie in details, veldcodes en veldresultaten uitgelegd i
 type: docs
 weight: 10
 url: /nl/java/introduction-to-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words is een klasse bibliotheek ontworpen voor server-side verwerking van Microsoft Word documenteert en ondersteunt velden op de volgende manieren:
@@ -36,7 +37,7 @@ Hier ziet u hoe een veld wordt opgeslagen in Aspose.Words door gebruik te maken 
 
 ## Velden Aspose.Words Document Object Model (DOM)
 
-Wanneer een document geladen wordt <span notrans="<span notrans=" Aspose.Words"=""></span>,"> de velden van het document in de Aspose.Words Document Object Model als een reeks afzonderlijke componenten (nodes). Een enkel veld wordt geladen als een verzameling van **FieldStart**, **FieldSeparator** en **FieldEnd** knooppunten samen met de inhoud tussen deze knooppunten. Als een veld geen veldresultaat heeft dan is er geen **FieldSeparator** Node. Al deze knooppunten zijn altijd inline (als kinderen van [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) of [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/).
+Wanneer een document geladen wordt Aspose.Words de velden van het document in de Aspose.Words Document Object Model als een reeks afzonderlijke componenten (nodes). Een enkel veld wordt geladen als een verzameling van **FieldStart**, **FieldSeparator** en **FieldEnd** knooppunten samen met de inhoud tussen deze knooppunten. Als een veld geen veldresultaat heeft dan is er geen **FieldSeparator** Node. Al deze knooppunten zijn altijd inline (als kinderen van [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) of [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/).
 
 In Aspose.Words elk van de **FieldXXX** nodes afkomstig van [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/). Deze klasse biedt een eigenschap om het type veld dat wordt weergegeven door de opgegeven knooppunt te controleren via de [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) eigendom. Bijvoorbeeld `FieldType.FieldMergeField` vertegenwoordigt een merge-veld in het document.
 
@@ -173,9 +174,9 @@ Aspose.Words ondersteunt alle datum en tijd formattering switches beschikbaar in
 
 ### Mail Merge Velden
 
-Aspose.Words stelt geen beperking van de complexiteit van mail merge velden in uw documenten en ondersteunt geneste `IF` en formule velden en kan zelfs de merge veld te berekenen met behulp van een formule.
+Aspose.Words stelt geen beperking van de complexiteit van Mail Merge velden in uw documenten en ondersteunt geneste `IF` en formule velden en kan zelfs de merge veld te berekenen met behulp van een formule.
 
-Enkele voorbeelden van mail merge velden die Aspose.Words ondersteunt:
+Enkele voorbeelden van Mail Merge velden die Aspose.Words ondersteunt:
 
 - Mail merge veldschakelaars:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -222,6 +223,6 @@ Aan de andere kant, Microsoft Word formatteert elk individueel veld op basis van
 
 De [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) klasse geeft a [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/document/#getFieldOptions) eigenschap die leden bevat die kunnen worden gebruikt om te controleren hoe velden worden bijgewerkt in het document.
 
-Het volgende voorbeeld van code laat zien hoe te specificeren waar de cultuur gebruikt voor datumopmaak tijdens veldupdate en mail merge wordt gekozen uit:
+Het volgende voorbeeld van code laat zien hoe te specificeren waar de cultuur gebruikt voor datumopmaak tijdens veldupdate en Mail Merge wordt gekozen uit:
 
 VOORBEELD

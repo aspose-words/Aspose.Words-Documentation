@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu obiecte Ole
 second_title: Aspose.Words pentru Java
 articleTitle: Lucrul cu obiecte Ole
@@ -7,6 +7,7 @@ description: "Creați și modificați OLE încorporarea în documentul dvs. folo
 type: docs
 weight: 360
 url: /ro/java/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE înseamnă"legarea și încorporarea obiectelor". Aceasta este tehnologia prin care utilizatorii pot lucra cu documente care conțin "obiecte" create sau Editate de aplicații terțe. Adică, OLE permite unei aplicații să exporte aceste" obiecte " într-o altă aplicație pentru editare și apoi să le importe înapoi cu un conținut suplimentar.

@@ -1,40 +1,41 @@
----
-title: ドキュメント保存のサポート機能
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: ドキュメント保存のサポート機能
-linktitle: ドキュメント保存のサポート機能
-description: "ほとんどの一般的なフォーマットでドキュメントを保存し、たくさんのサポート Microsoft Word 機能。"
+﻿---
+title: ドキュメントの保存でサポートされている機能
+second_title: Aspose.WordsのためのJava
+articleTitle: ドキュメントの保存でサポートされている機能
+linktitle: ドキュメントの保存でサポートされている機能
+description: "一般的な形式のほとんどで文書を保存し、多くのMicrosoft Word機能をサポートしています。"
 type: docs
 weight: 30
 url: /ja/java/supported-features-on-document-save/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words さまざまなフォーマットで文書を操作し、さまざまな機能を提供できます。 たとえば、ユーザーはスクラッチからドキュメントを作成したり、それをロードしたり、いくつかの変更を加えたり、出力ファイル内の変更を保存したりすることができます。 [サポートされているドキュメントフォーマット](/words/ja/java/supported-document-formats/)お問い合わせ 選択した形式で文書を保存している間、ユーザーはさまざまな保存オプションを適用できます。
+Aspose.Wordsを使用すると、ユーザーはさまざまな形式のドキュメントを操作でき、このための幅広い機能を提供します。 たとえば、ユーザーは最初から文書を作成したり、文書をロードしたり、変更を加えたりしてから、それらの変更を出力ファイルに保存したりすることができ [サポートされているエクスポート形式](/words/java/supported-document-formats/). 選択した形式で文書を保存している間、ユーザーはさまざまな保存オプションを適用できます。
 
 {{% alert color="primary" %}}
 
-多くの保存オプションがすべてのサポートされているフォーマットに共通していることを知っておくことが重要です。また、PDF、DOCX、HTMLなどのフォーマット固有のオプションもあります。
+多くの保存オプションはサポートされているすべての形式に共通であり、次のような形式固有のオプションのみがあることを知っておくことが重PDF, DOCX, HTML, と他の人。
 
 {{% /alert %}}
 
-機能の完全なリストについては、 API 参考:
+関数の完全なリストについては、API referenceを参照してください:
 
-- [すべてのフォーマットのオプションを保存](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/)
-- - - [固定ページ保存オプション](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/) お問い合わせ [固定ページ形式に変換する](/words/ja/java/converting-to-fixed-page-format/): PDF, XPS, 画像・その他
-- - - [PDF 保存オプション](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) PDF形式
-- - - [OOXML 保存オプション](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/) DOCX、DOCM のため、 DOTX、 DOTM、またはFlatOpcのフォーマット
-- - - [DOCはオプションを保存します](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) DOCおよびDOCのため DOT フォーマット
-- - - [画像保存オプション](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) TIFF、PNG、BMP、EMF、JPEG、SVGフォーマット
-- - - [SVG 保存オプション](https://reference.aspose.com/words/java/com.aspose.words/svgsaveoptions/) SVGフォーマット用
-- - - [HTML保存オプション](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/) HTML、MHTML、EPUB、またはAzw3フォーマット
-- - - [Markdown 保存オプション](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) お問い合わせ Markdown フォーマット
-- - - [RTF 保存オプション](https://reference.aspose.com/words/java/com.aspose.words/rtfsaveoptions/) RTF フォーマット用
-- - - [TXT 保存オプション](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/) TXTフォーマット用
-- - - [ODT 保存オプション](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/) ODT および OTT のフォーマットのため
-- - - [PCL 保存オプション](https://reference.aspose.com/words/java/com.aspose.words/pclsaveoptions/) PCLフォーマット用
-- - - [PS 保存オプション](https://reference.aspose.com/words/java/com.aspose.words/pssaveoptions/) PSフォーマット用
-- - - [WordML 2003 保存オプション](https://reference.aspose.com/words/java/com.aspose.words/wordml2003saveoptions/) WordML フォーマット用
-- - - [HtmlFixed 保存オプション](https://reference.aspose.com/words/java/com.aspose.words/htmlfixedsaveoptions/) HtmlFixedフォーマット用
-- - - [XamlFixed 保存オプション](https://reference.aspose.com/words/java/com.aspose.words/xamlfixedsaveoptions/) XamlFixedフォーマット用
-- - - [XamlFlow 保存オプション](https://reference.aspose.com/words/java/com.aspose.words/xamlflowsaveoptions/) XamlFlow または XamlFlowPack フォーマット
-- - - [XPS 保存オプション](https://reference.aspose.com/words/java/com.aspose.words/xpssaveoptions/) お問い合わせ XPS フォーマット
+- [すべての形式の保存オプション](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/)
+- [固定ページ保存オプション](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/)の場合 [固定ページ形式](/words/java/converting-to-fixed-page-format/):PDF,XPS,画像およびその他
+- PDF形式の[PDF保存オプション](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/)
+- [OOXML保存オプション](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/)の場合DOCX, DOCM, DOTX, DOTM, またはFlatOpc形式
+- DOCおよびDOT形式の[DOC保存オプション](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/)
+- [画像保存オプション](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/)の場合TIFF, PNG, BMP, EMF, JPEG, またはSVG形式
+- SVG形式の[SVG保存オプション](https://reference.aspose.com/words/java/com.aspose.words/svgsaveoptions/)
+- [HTML保存オプション](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/)の場合HTML, MHTML, EPUB, またはAzw3形式
+- Markdown形式の[Markdown保存オプション](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/)
+- RTF形式の[RTF保存オプション](https://reference.aspose.com/words/java/com.aspose.words/rtfsaveoptions/)
+- TXT形式の[TXT保存オプション](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/)
+- ODTおよびOTT形式の[ODT保存オプション](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/)
+- PCL形式の[PCL保存オプション](https://reference.aspose.com/words/java/com.aspose.words/pclsaveoptions/)
+- PS形式の[PS保存オプション](https://reference.aspose.com/words/java/com.aspose.words/pssaveoptions/)
+- [WordML2003保存オプション](https://reference.aspose.com/words/java/com.aspose.words/wordml2003saveoptions/)はWordML形式の場合
+- HtmlFixed形式の[HtmlFixed保存オプション](https://reference.aspose.com/words/java/com.aspose.words/htmlfixedsaveoptions/)
+- XamlFixed形式の[XamlFixed保存オプション](https://reference.aspose.com/words/java/com.aspose.words/xamlfixedsaveoptions/)
+- XamlFlowまたはXamlFlowPack形式の[XamlFlow保存オプション](https://reference.aspose.com/words/java/com.aspose.words/xamlflowsaveoptions/)
+- XPS形式の[XPS保存オプション](https://reference.aspose.com/words/java/com.aspose.words/xpssaveoptions/)

@@ -7,6 +7,7 @@ description: " Aspose.Words for .NET 提供用 C# 保護文件的只讀、加密
 type: docs
 weight: 50
 url: /zh-hant/net/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 保護或加密文件的主要原因是要更加控制誰能訪問該文件，或是誰能編輯它。 透過對你的文件施加保護，你可避免一般性的風險，例如未经許可就複製或修改文件以及數據洩漏。

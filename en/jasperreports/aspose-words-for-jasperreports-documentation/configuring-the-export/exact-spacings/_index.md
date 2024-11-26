@@ -1,4 +1,4 @@
-﻿---
+---
 title: Exact Spacings
 second_title: Aspose.Words for JasperReports
 articleTitle: Exact Spacings
@@ -7,6 +7,7 @@ description: "Aspose Words for JasperReports will try to optimize adding of whit
 type: docs
 weight: 100
 url: /jasperreports/exact-spacings/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

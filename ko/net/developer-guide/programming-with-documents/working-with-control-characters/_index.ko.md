@@ -7,6 +7,7 @@ description: ".NET용 Aspose.Words의 제어 문자 작업을 소개합니다."
 type: docs
 weight: 400
 url: /ko/net/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word 문서에는 특별한 의미를 갖는 다양한 문자가 포함될 수 있습니다. 일반적으로 형식 지정 목적으로 사용되며 일반 모드에서는 그려지지 않습니다. 표준 도구 모음에 있는 서식 표시 표시/숨기기 버튼을 클릭하면 표시되도록 할 수 있습니다.

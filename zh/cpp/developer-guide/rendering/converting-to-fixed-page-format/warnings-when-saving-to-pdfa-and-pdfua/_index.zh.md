@@ -1,4 +1,4 @@
-﻿---
+---
 title: 保存到PDF/A和PDF/UA时的警告
 second_title: Aspose.Words对于C++
 articleTitle: 可访问性在保存到PDF/A和PDF/UA时发出警告
@@ -7,6 +7,7 @@ description: "PDF/A 和 PDF/UA 规定了与文档内容相关的可访问性要�
 type: docs
 weight: 39
 url: /zh/cpp/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/A和PDF/UA格式施加了许多与文档内容相关的可访问性要求，这些要求在从Word自动转换为PDF期间无法满足。 在前一篇文章*"Working with PDF/A or PDF/UA"*中描述了这些要求。 现在对其中一些问题发出警告。

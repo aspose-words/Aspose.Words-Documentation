@@ -7,6 +7,7 @@ description: "Formátovat a vyhodnocovat výsledky polí pomocí Java."
 type: docs
 weight: 40
 url: /cs/java/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uživatelé někdy musí aplikovat vlastní formátování na pole. V tomto článku se podíváme na několik příkladů toho, jak se to dá dělat.

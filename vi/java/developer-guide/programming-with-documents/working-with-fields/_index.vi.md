@@ -7,9 +7,10 @@ description: "`Giới thiệu về tính năng trường trong Aspose.Words cho 
 type: docs
 weight: 370
 url: /vi/java/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Những **Fields** trong một tài liệu giống như chỗ giữ mà dữ liệu hữu ích có thể được chèn vào. Ví dụ, một trường có thể là một tham chiếu trang, công thức hoặc một mail merge trường.
+Những **Fields** trong một tài liệu giống như chỗ giữ mà dữ liệu hữu ích có thể được chèn vào. Ví dụ, một trường có thể là một tham chiếu trang, công thức hoặc một Mail Merge trường.
 
 Trong một tài liệu được tạo ra hoặc chỉnh sửa bằng Aspose.Words, cũng như trong một Microsoft Word tài liệu, một trường bao gồm mã trường và kết quả trường. Mã lĩnh vực là một chỉ thị về cách thức kết quả lĩnh vực cần được cập nhật hoặc tính toán. Một ứng dụng xử lý một tài liệu và gặp phải một trường nên giải thích các chỉ thị được chứa trong mã trường và cập nhật kết quả trường với một giá trị mới.
 

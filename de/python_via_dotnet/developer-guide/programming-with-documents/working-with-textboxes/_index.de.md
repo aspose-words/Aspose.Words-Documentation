@@ -7,6 +7,7 @@ description: "Arbeiten Sie mit Textfeldern in einem Dokument mit Python."
 type: docs
 weight: 250
 url: /de/python-net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In Aspose.Words wird die [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/)-Klasse verwendet, um anzugeben, wie ein Text in einer Form angezeigt wird. Es stellt eine öffentliche Eigenschaft namens [parent](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/parent/) bereit, um die übergeordnete Form für das Textfeld abzurufen, damit der Kunde verknüpfte [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/)-Dateien aus verknüpften [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/)-Dateien finden kann.

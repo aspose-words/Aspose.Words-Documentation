@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Lyste in Java
 second_title: Aspose.Words vir Java
 articleTitle: Werk met Lyste
@@ -7,6 +7,7 @@ description: "Inleiding tot nommering formatering funksie in Aspose.Words vir Ja
 type: docs
 weight: 200
 url: /af/java/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 'n lys in'n Microsoft Word dokument is'n stel lys formatering eienskappe. Lyste kan in u dokumente gebruik word om teks te formateer, te rangskik en te beklemtoon. Lyste is'n goeie manier om data in dokumente te organiseer, en dit maak dit makliker vir lesers om sleutelpunte te verstaan.

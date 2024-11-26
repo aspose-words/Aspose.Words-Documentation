@@ -7,6 +7,7 @@ description: "Controle a aparência dos documentos do Word levando em considera�
 type: docs
 weight: 40
 url: /pt/python-net/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Às vezes você pode precisar alterar a aparência de um documento, por exemplo, definir preferências de idioma ou o número de linhas por página. Aspose.Words oferece a capacidade de controlar como o documento será exibido, bem como algumas opções adicionais. Este artigo descreve essas possibilidades.

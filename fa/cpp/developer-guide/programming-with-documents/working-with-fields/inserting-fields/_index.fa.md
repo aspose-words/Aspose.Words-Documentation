@@ -1,4 +1,4 @@
-﻿---
+---
 title: فیلد ها را در C++وارد کنید
 second_title: Aspose.Words برای C++
 articleTitle: فیلد ها را وارد کنید
@@ -7,6 +7,7 @@ description: "روش های مختلف برای وارد کردن فیلد ها 
 type: docs
 weight: 20
 url: /fa/cpp/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 روش های مختلفی برای وارد کردن فیلد ها به یک سند وجود دارد:
@@ -93,7 +94,7 @@ url: /fa/cpp/inserting-fields/
 
 ### وارد کردن فیلد بلوک آدرس Mail Merge به یک سند با استفاده از DOM
 
-فیلد `ADDRESSBLOCK` برای وارد کردن یک بلوک آدرس mail merge در یک سند ورد استفاده می شود. `ADDRESSBLOCK` فیلد در سند ورد می تواند توسط کلاس [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldaddressblock/) نشان داده شود. شما می توانید از کلاس **FieldAddressBlock** برای انجام عملیات زیر استفاده کنید:
+فیلد `ADDRESSBLOCK` برای وارد کردن یک بلوک آدرس Mail Merge در یک سند ورد استفاده می شود. `ADDRESSBLOCK` فیلد در سند ورد می تواند توسط کلاس [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldaddressblock/) نشان داده شود. شما می توانید از کلاس **FieldAddressBlock** برای انجام عملیات زیر استفاده کنید:
 
 - مشخص کنید که آیا نام کشور/منطقه را در این زمینه قرار دهید یا خیر
 - مشخص کنید که آیا آدرس را با توجه به کشور/منطقه گیرنده به عنوان تعریف شده توسط POST*CODE قالب بندی کنید (اتحادیه جهانی پست 2006)
@@ -147,7 +148,7 @@ url: /fa/cpp/inserting-fields/
 
 - نام نشانک را مشخص کنید
 - مشخص کردن پاسخ پیش فرض کاربر (ارزش اولیه موجود در پنجره prompt)
-- مشخص کنید که آیا پاسخ کاربر باید یک بار در هر عملیات mail merge دریافت شود
+- مشخص کنید که آیا پاسخ کاربر باید یک بار در هر عملیات Mail Merge دریافت شود
 - متن prompt (عنوان پنجره prompt) را مشخص کنید
 
 {{% alert color="primary" %}}

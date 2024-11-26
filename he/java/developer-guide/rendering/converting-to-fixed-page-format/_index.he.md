@@ -7,6 +7,7 @@ description: "Aspose.Words עבור Java ליישם את מנוע הפריסה �
 type: docs
 weight: 10
 url: /he/java/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words ליישם את מנוע הפריסה של הדף שלו. לפני להעמיק את המפרט שלה, כדאי לדון תחילה מסמך ברמה גבוהה. כאשר חושבים על מסמך, משתמשים בדרך כלל לדמיין מספר של דפי נייר המכילים מילים, תמונות, טבלאות ו charts. מסמכים יכולים להיות מסוגים שונים, כגון טקסט, גליונות התפשטות, שקופיות, רישומים CAD, זרימות, ולכן, יכולים להיות פריסות שונות לחלוטין. רוב היישומים מאפשרים לשלוח מסמכים למדפסת; זה כאשר משתמש יכול באמת להציג את המראה הסופי של המסמך המיועד.
@@ -49,7 +50,7 @@ Aspose.Words יישום פריסת דף פונקציונליות פנימית ה
 
 ![non_geometric_properties_aspose-words-java](/words/java/converting-to-fixed-page-format/converting-to-fixed-page-format-2.png)
 
-In In In <span notrans="<span notrans=" Aspose.Words"=""></span>" משתמש יכול לבקש אם לבנות פריסת דף חדשה, או לעדכן קיים. שניהם יכולים להתבצע על ידי [UpdatePageLayout](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout\(\)שיטה, המסופקת על ידי [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) מעמד. אם פריסת דף אינה קיימת, אך יש צורך בה (לדוגמה, כאשר המסמך ייצוא לתבנית דפית קבועה), Aspose.Words באופן אוטומטי נקרא שיטה זו. עם זאת, אם קיימת כבר פריסת דף, Aspose.Words ישתמשו במשאבים הקיימים כדי להימנע מצריכת המשאבים הדרושים כדי לעדכן אותם. במקרה זה, המשתמש צריך להתקשר `UpdatePageLayout` שיטה, כדי להבטיח כי פריסת העמוד היא עד תאריך עם מודל המסמך.
+In In In Aspose.Words משתמש יכול לבקש אם לבנות פריסת דף חדשה, או לעדכן קיים. שניהם יכולים להתבצע על ידי [UpdatePageLayout](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout\(\)שיטה, המסופקת על ידי [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) מעמד. אם פריסת דף אינה קיימת, אך יש צורך בה (לדוגמה, כאשר המסמך ייצוא לתבנית דפית קבועה), Aspose.Words באופן אוטומטי נקרא שיטה זו. עם זאת, אם קיימת כבר פריסת דף, Aspose.Words ישתמשו במשאבים הקיימים כדי להימנע מצריכת המשאבים הדרושים כדי לעדכן אותם. במקרה זה, המשתמש צריך להתקשר `UpdatePageLayout` שיטה, כדי להבטיח כי פריסת העמוד היא עד תאריך עם מודל המסמך.
 
 ### מבנה דינמי
 

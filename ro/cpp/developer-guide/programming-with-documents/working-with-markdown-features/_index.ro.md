@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu Markdown caracteristici în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Lucrul cu Markdown caracteristici
@@ -7,6 +7,7 @@ description: "Cum se implementează Markdown caracteristici folosind C++. Toate 
 type: docs
 weight: 420
 url: /ro/cpp/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Acest subiect discută despre modul de implementare a Markdown Caracteristici folosind Aspose.Words. Markdown este o modalitate simplă de a formata text simplu care poate fi ușor convertit în HTML. Aspose.Words acceptă următoarele Markdown Caracteristici:

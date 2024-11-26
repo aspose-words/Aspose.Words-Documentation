@@ -7,6 +7,7 @@ description: "C# を使用してドキュメントにフィールドを挿入す
 type: docs
 weight: 20
 url: /ja/net/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ドキュメントにフィールドを挿入するには、いくつかの方法があります。
@@ -86,7 +87,7 @@ Word 文書の `MERGEFIELD` フィールドは、[FieldMergeField](https://refer
 
 ### DOM を使用したドキュメントへの Mail Merge `ADDRESSBLOCK` フィールドの挿入
 
-`ADDRESSBLOCK` フィールドは、Word 文書に mail merge アドレス ブロックを挿入するために使用されます。 Word 文書の `ADDRESSBLOCK` フィールドは [FieldAddressBlock](https://reference.aspose.com/words/net/aspose.words.fields/fieldaddressblock/) クラスで表現できます。 **FieldAddressBlock** クラスを使用して、次の操作を実行できます。
+`ADDRESSBLOCK` フィールドは、Word 文書に Mail Merge アドレス ブロックを挿入するために使用されます。 Word 文書の `ADDRESSBLOCK` フィールドは [FieldAddressBlock](https://reference.aspose.com/words/net/aspose.words.fields/fieldaddressblock/) クラスで表現できます。 **FieldAddressBlock** クラスを使用して、次の操作を実行できます。
 
 - フィールドに国/地域の名前を含めるかどうかを指定します
 - POST*CODE (万国郵便連合 2006) で定義されている受信者の国/地域に従って住所をフォーマットするかどうかを指定します。
@@ -128,7 +129,7 @@ Word 文書の `MERGEFIELD` フィールドは、[FieldMergeField](https://refer
 
 - ブックマークの名前を指定します
 - デフォルトのユーザー応答を指定します (プロンプト ウィンドウに含まれる初期値)
-- ユーザー応答を mail merge 操作ごとに 1 回受信するかどうかを指定します
+- ユーザー応答を Mail Merge 操作ごとに 1 回受信するかどうかを指定します
 - プロンプトテキスト (プロンプトウィンドウのタイトル) を指定します。
 
 {{% alert color="primary" %}}

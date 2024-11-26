@@ -7,6 +7,7 @@ description: "Buat, edit, dan simpan dokumen pertama Anda dalam format apa pun y
 type: docs
 weight: 20
 url: /id/net/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A "Halo, Dunia!" kode sering kali merupakan contoh sederhana pertama untuk menulis uisng "Aspose.Words untuk .NET", dan ini juga dapat digunakan sebagai uji kewarasan untuk memastikan perangkat lunak yang dimaksudkan untuk mengkompilasi atau menjalankan kode sumber telah diinstal dengan benar.

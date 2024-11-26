@@ -7,6 +7,7 @@ description: "Erfahren Sie, wie Sie Felder in Python durch Text ersetzen. Ersetz
 type: docs
 weight: 37
 url: /de/python-net/replace-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Das Ersetzen von Feldern ist häufig erforderlich, wenn Sie Ihr Dokument als statische Kopie speichern möchten. Zum Beispiel beim Versenden als Anhang in einer E-Mail. Durch die Konvertierung von Feldern wie `DATE` oder `TIME` in statischen Text wird im Dokument das gleiche Datum angezeigt, an dem es gesendet wurde. In manchen Situationen müssen Sie möglicherweise auch die bedingten `IF`-Felder aus Ihrem Dokument entfernen und sie stattdessen durch das aktuellste Textergebnis ersetzen. Konvertieren Sie beispielsweise das Ergebnis des `IF`-Felds in statischen Text, damit es seinen Wert nicht mehr dynamisch ändert, wenn Felder im Dokument aktualisiert werden.

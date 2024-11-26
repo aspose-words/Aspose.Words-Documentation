@@ -7,6 +7,7 @@ description: "Nawiguj między różnymi węzłami w dokumencie, np. paragrafem, 
 type: docs
 weight: 5
 url: /pl/java/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Podczas pracy z dokumentem, nawet jeśli jest krótki lub długi, trzeba będzie przejść przez dokument. Nawigacja z wirtualnym kursorem reprezentuje zdolność do nawigacji między różnymi węzłami w dokumencie.

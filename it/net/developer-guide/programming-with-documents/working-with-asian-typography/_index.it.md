@@ -7,6 +7,7 @@ description: "Lavora con la tipografia asiatica utilizzando C#. Regola lo spazio
 type: docs
 weight: 240
 url: /it/net/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 La tipografia asiatica è un insieme di opzioni per i paragrafi di testo nei documenti scritti in lingue asiatiche.

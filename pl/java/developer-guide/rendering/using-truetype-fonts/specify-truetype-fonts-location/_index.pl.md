@@ -7,6 +7,7 @@ description: "Określić różne Prawda. Źródła czcionek typu: folder systemo
 type: docs
 weight: 30
 url: /pl/java/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Ten temat opisuje domyślne zachowanie Aspose.Words gdy szuka czcionek TrueType, w tym różnic specyficznych dla systemu operacyjnego, i pokazuje, jak określić źródła czcionki użytkownika.
@@ -35,7 +36,7 @@ Przykłady per- document są potrzebne tylko wtedy, gdy jest wymagane użycie r�
 
 W większości przypadków Windows użytkownicy nie napotykają znaczących problemów z pominiętymi czcionkami lub niepoprawnymi układami. Zazwyczaj, Aspose.Words przechodzi przez dokument, a kiedy napotyka odnośnik czcionki, pomyślnie pobiera dane czcionki z folderu systemowego.
 
-On <span notrans="<span notrans=" Windows"=""></span>", > Aspose.Words najpierw bierze wszystkie dostępne czcionki z _ _%windir%\Fonts folder. To ustawienie będzie działać dla Ciebie przez większość czasu. Określasz własne foldery czcionek tylko wtedy, gdy musisz. Aspose.Words również szuka dodatkowych czcionek zarejestrowanych w HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts klucz rejestracyjny. Ponadto, Windows 10 umożliwia instalację czcionek dla bieżącego użytkownika. Czcionki są umieszczone w %userprofile%\AppData\Local\Microsoft\Windows\Fonts folder i również określone w HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts rejestr, w którym Aspose.Words będzie szukać tych czcionek.
+On Windows, > Aspose.Words najpierw bierze wszystkie dostępne czcionki z _ _%windir%\Fonts folder. To ustawienie będzie działać dla Ciebie przez większość czasu. Określasz własne foldery czcionek tylko wtedy, gdy musisz. Aspose.Words również szuka dodatkowych czcionek zarejestrowanych w HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts klucz rejestracyjny. Ponadto, Windows 10 umożliwia instalację czcionek dla bieżącego użytkownika. Czcionki są umieszczone w %userprofile%\AppData\Local\Microsoft\Windows\Fonts folder i również określone w HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts rejestr, w którym Aspose.Words będzie szukać tych czcionek.
 
 Jeśli dokument zawiera wbudowane czcionki, Aspose.Words może odczytywać odpowiednie dane czcionek z dokumentu i używać go do tworzenia układu dokumentu. Dokumenty mogą również zawierać linki do czcionek, które nie znajdują się w folderach systemowych, w którym to przypadku do działania wchodzą następujące scenariusze:
 

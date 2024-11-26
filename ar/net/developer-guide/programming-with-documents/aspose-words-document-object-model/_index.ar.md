@@ -7,6 +7,7 @@ type: docs
 description: "Document Object Model (DOM) هو تمثيل في الذاكرة لمستند Word. قراءة ومعالجة وتعديل محتوى وتنسيق مستند Word باستخدام C#."
 weight: 10
 url: /ar/net/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 يعد Aspose.Words Document Object Model (DOM) تمثيلاً في الذاكرة لمستند Word. يسمح لك Aspose.Words DOM بقراءة محتوى وتنسيق مستند Word ومعالجته وتعديله برمجيًا.

@@ -1,12 +1,13 @@
 ---
-title: Travailler avec un document stocké dans un `SharePoint` Online
+title: Travailler avec un document stocké dans un SharePoint Online
 second_title: Aspose.Words pour .NET
-articleTitle: Travailler avec un document stocké dans un `SharePoint` Online
-linktitle: Travailler avec un document stocké dans un `SharePoint` Online
+articleTitle: Travailler avec un document stocké dans un SharePoint Online
+linktitle: Travailler avec un document stocké dans un SharePoint Online
 description: "Convertissez Word partagé dans SharePoint en PDF à l'aide de C#. Travaillez avec des documents stockés au format SharePoint – différents formats d'entrée, notamment Word, OpenOffice, Image et eBook."
 type: docs
 weight: 20
 url: /fr/net/work-with-document-stored-in-sharepoint/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Microsoft SharePoint Online est un ensemble de technologies Web qui permettent aux organisations de stocker, partager et gérer facilement des informations numériques. Vous pouvez travailler avec des documents stockés dans le dossier "Documents partagés" dans SharePoint en utilisant notre puissant Aspose.Words pour .NET.

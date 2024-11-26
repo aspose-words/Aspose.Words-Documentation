@@ -8,6 +8,7 @@ description: "Save a document in any supported format using C++."
 keywords: "save a document c++, save a document to file c++, save a document to stream c++, save a document Aspose C++, save formats supported by Aspose.Words C++"
 weight: 20
 url: /cpp/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Most of the tasks you need to perform with Aspose.Words involve saving a document. To save a document Aspose.Words provides the [Save](https://reference.aspose.com/words/cpp/aspose.words/document/save/) method of the [Document](https://reference.aspose.com/words/cpp/aspose.words/document/) class. The document can be saved in any save format supported by Aspose.Words. For the list of all supported save formats, see the [SaveFormat](https://reference.aspose.com/words/cpp/aspose.words/saveformat/) enumeration.

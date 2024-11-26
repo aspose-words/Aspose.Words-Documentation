@@ -7,6 +7,7 @@ description: "Inhoudsopgave veld in details. Aanmaken en wijzigen `TOC` veld geb
 type: docs
 weight: 170
 url: /nl/java/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Vaak werk je met documenten die een inhoudsopgave bevatten (TOC). Gebruik Aspose.Words U kunt uw eigen inhoudsopgave invoegen of de bestaande inhoudsopgave volledig herbouwen met slechts enkele regels code.
@@ -60,7 +61,7 @@ Het volgende voorbeeld van code laat zien hoe je volledig herbouwt `TOC` velden 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-UpdateTableOfContents.java" >}}
 
-De eerste oproep naar [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) zal de <span notrans="<span notrans=" `TOC`"=""></span>,"> alle tekstvermeldingen worden ingevuld en de `TOC` lijkt bijna compleet. Het enige wat ontbreekt is de pagina nummers die voor nu worden weergegeven met???.
+De eerste oproep naar [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) zal de `TOC` alle tekstvermeldingen worden ingevuld en de `TOC` lijkt bijna compleet. Het enige wat ontbreekt is de pagina nummers die voor nu worden weergegeven met???.
 
 De tweede oproep tot [Document.updatePageLayout()](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout) zal de lay-out van het document in het geheugen. Dit moet worden gedaan om de paginanummers van de items te verzamelen. De juiste paginanummers berekend uit deze oproep worden dan ingevoegd in de TOC.
 
@@ -124,7 +125,7 @@ Als een schakelaar hier niet wordt vermeld dan is deze momenteel niet ondersteun
 
 <p>![table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-6.png)</p>
 
-<p><br/><br/>De `TC` velden zelf kunnen ook {several, `multiple`, a few, `many`, numerous} Wissels ingesteld. Dit zijn:</p>
+<p><br/><br/>De `TC` velden zelf kunnen ook `{several, multiple, a few, many, numerous}` Wissels ingesteld. Dit zijn:</p>
 
 <p>- \F *</p>
 

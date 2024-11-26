@@ -8,6 +8,7 @@ description: "Python'i kullanarak bir belgeyi desteklenen herhangi bir formatta 
 keywords: "save a document python, save a document to file python, save a document to stream python, save a document Aspose python, save formats supported by Aspose.Words python"
 weight: 20
 url: /tr/python-net/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words ile gerçekleştirmeniz gereken görevlerin çoğu bir belgenin kaydedilmesini içerir. Bir belgeyi kaydetmek için Aspose.Words, [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) sınıfının [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) yöntemini sağlar. Bir belgenin bir dosyaya veya akışa kaydedilmesine olanak tanıyan aşırı yüklemeler vardır. Belge, Aspose.Words tarafından desteklenen herhangi bir kaydetme biçiminde kaydedilebilir. Desteklenen tüm kaydetme biçimlerinin listesi için [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/) numaralandırmasına bakın.

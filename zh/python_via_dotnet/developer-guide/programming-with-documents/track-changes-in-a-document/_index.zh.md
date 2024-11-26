@@ -7,6 +7,7 @@ description: "跟踪您或其他人使用 Python 对内容和格式所做的更�
 type: docs
 weight: 270
 url: /zh/python-net/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 跟踪更改功能（也称为审阅）允许您跟踪您或其他用户对内容和格式所做的更改。 Aspose.Words 的跟踪更改功能支持 Microsoft Word 中的跟踪更改。通过此功能，您可以访问文档中的各个修订版本并对它们应用不同的属性。

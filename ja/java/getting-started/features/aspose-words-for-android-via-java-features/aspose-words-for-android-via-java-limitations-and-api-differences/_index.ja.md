@@ -1,90 +1,91 @@
----
-title: Android お問い合わせ Java よくある質問
+﻿---
+title: AndroidからJavaの違い
 second_title: Aspose.Words
-articleTitle: Aspose.Words お問い合わせ Android お問い合わせ Java 制限と制限 API よくある質問
-linktitle: Aspose.Words お問い合わせ Android お問い合わせ Java 制限と制限 API よくある質問
-description: "Aspose.Words お問い合わせ Android お問い合わせ Java 特徴および API 定期的に比較する違い Aspose.Words お問い合わせ Java バージョン。"
+articleTitle: Javaの制限とAPIの違いによるAndroidのAspose.Words
+linktitle: Javaの制限とAPIの違いによるAndroidのAspose.Words
+description: "AndroidのAspose.WordsとJavaの機能とAPIの違いは、Javaバージョンの通常のAspose.Wordsと比較しています。"
 type: docs
 weight: 50
 url: /ja/java/aspose-words-for-android-via-java-limitations-and-api-differences/
+timestamp: 2024-01-27-14-07-04
 ---
 
-## 制限事項 Aspose.Words お問い合わせ Android お問い合わせ Java API 比較する Aspose.Words お問い合わせ Java API
+## JavaAPIのAspose.WordsとJavaAPIのAspose.Wordsとの比較で、AndroidのAspose.Wordsの制限がJavaAPIのAspose.Wordsと比較されました
 
-1。 *Document.print *メソッドは使用できません。
-1。 保存する **TIFF** そして、 **BMP** フォーマットはサポートされていませんが、 *SaveFormat.TIFF* そして、 *SaveFormat.BMP* 公共施設 Aspose.Words お問い合わせ Android お問い合わせ Java API, しかし、 *UnsupportedOperationException* これらの保存形式が使用されるときに投げられます。
-1。 読書 **TIFF** 画像はサポートされていません。
-1。 サインイン **ODT** ドキュメントはまだサポートされていません。
-1。 バーコードは対応しておりません。
-1。 曲線に沿って勾配がサポートされていない
-1。 印刷はサポートされていません
+1. *Document.print *メソッドは使用できません。
+1. **TIFF**と**BMP**形式での保存はサポートされていませんが、*SaveFormat.TIFF*と*SaveFormat.BMP*はAndroidのパブリックAspose.WordsでJavaAPI経由で利用できますが、これらの保存形式が使用されると*UnsupportedOperationException*がスローされます。
+1. **TIFF**画像の読み取りはサポートされていません。
+1. **ODT**文書への署名はまだサポートされていません。
+1. バーコードはサポートされていません。
+1. 曲線に沿ったグラデーションはサポートされていません
+1. 印刷はサポートされていません
 
-## パブリック API の違い
+## パブリックAPIの違い
 
-- android.graphics。 Bitmap は java.awt.image.Buffered の代わりに使用されます イメージ;
-- android.graphics。 キャンバスは、java.awt.image.Graphics2Dの代わりに使用されます。
-- android.graphics。 ログイン F は java.awt.geom.Rectangle2D の代わりに使用されます。 フロート;
-- android.graphics.Point(アンドロイド) F は java.awt.geom.Point2D の代わりに使用されます。 フロート;
-- android.graphics。 Rect は java.awt の代わりに使用されます。 長方形;
-- android.graphics。 ポイントは java.awt の代わりに使用されます。 ポイント。
+- アンドロイド。グラフィック。Javaの代わりにBitmapが使用されます。awt。イメージ。BufferedImage;
+- アンドロイド。グラフィック。Javaの代わりにCanvasが使用されます。awt。イメージ。Graphics2d;
+- アンドロイド。グラフィック。Javaの代わりにRectFが使用されます。awt。ゲオムRectangle2D.Float;
+- アンドロイド。グラフィック。Javaの代わりにPointFが使用されます。awt。ゲオムPoint2D.Float;
+- アンドロイド。グラフィック。Javaの代わりにRectが使用されます。awt。長方形;
+- アンドロイド。グラフィック。Javaの代わりにPointが使用されます。awt。ポイント。
 
-下記パブリックをご覧ください API メソッド:
+次のパブリックAPIメソッドを参照してください:
 
-1。 com.aspose.words.DocumentBuilder:
-   1. インサートイメージ(ビットマップ)
-   1. インサートイメージ(ビットマップ、ダブル、ダブル)
-   1。 インサートイメージ(ビットマップ、int、ダブル、int、ダブル、ダブル、ダブル、int)
-   1. インサートOleImage(Bitmap)
-   1. insertOleObject(InputStream, String, boolean, Bitmap)
-   1. insertOleObject(String, boolean, boolean, Bitmap)
-   1. insertOleObject(String, String, boolean, boolean, Bitmap)
-1。 com.aspose.words.IBarcodeGenerator:
-   1. ビットマップのgetBarcode 画像(バーコードパラメータ)
-   1. ビットマップのgetOldBarcode 画像(バーコードパラメータ)
-1。 com.aspose.words.ImageData:
+1. コム...アスポーズ言葉だDocumentBuilder:
+   1. insertImage(ビットマップ)
+   1. insertImage(ビットマップ,ダブル,ダブル)
+   1. insertImage(Bitmap,int,double,int,double,double,double,int)
+   1. insertOleImage(ビットマップ)
+   1. insertOleObject(InputStream,文字列,ブール値,ビットマップ)
+   1. insertOleObject(文字列,ブール値,ブール値,ビットマップ)
+   1. insertOleObject(文字列,文字列,ブール値,ブール値,ビットマップ)
+1. コム...アスポーズ言葉だIBarcodeGenerator:
+   1. ビットマップgetBarcodeImage(BarcodeParameters)
+   1. ビットマップgetOldBarcodeImage(BarcodeParameters)
+1. コム...アスポーズ言葉だImageData:
    1. setImage(ビットマップ)
-   1. ビットマップ toImage()
-1。 com.aspose.words.ImageFieldMergingArgs:
-   1. ビットマップ getImage()
+   1. ビットマップtoImage()
+1. コム...アスポーズ言葉だImageFieldMergingArgs:
+   1. ビットマップgetImage()
    1. setImage(ビットマップ)
-1. com.aspose.words.Document:
-   1. android.graphics.Point(アンドロイド) F renderToScale(int, Canvas, float, float, float) は例外を投げます
-   1. 浮遊するrenderToSize (int、キャンバス、浮遊物、浮遊物、浮遊物)は例外を投げます
-1。 com.aspose.words.LayoutEnumerator:
-   1. android.graphics。 RectF getRectangle() は例外を投げます
-1。 com.aspose.words.NodeRendererBase:
-   1. android.graphics.PointFのgetSizeInPoints()
-   1. android.graphics。 RectF の getOpaqueBoundsInPoints()
-   1。 パブリックandroid.graphics.PointF getSizeInPixels(フロート、フロート)
-   1. android.graphics。 Rect getBoundsInPixels(フロート、フロート)
-   1. android.graphics。 Rect getOpaqueBoundsInPixels(フロート、フロート)
-   1. android.graphics.Point(アンドロイド) F renderToScale(キャンバス、フロート、フロート、フロート)
-   1. フロートレンダーToSize(キャンバス、フロート、フロート、フロート、フロート)
-1。 com.aspose.words.PageInfo:
-   1. android.graphics.PointF getSizeInPixels(フロート、フロート)
-   1. android.graphics.PointFのgetSizeInPoints()
-1. com.aspose.words. 形状: ベース:
-   1. android.graphics。 RectF の調節効果(android.graphics.RectF)
-   1. android.graphics。 RectFのgetBounds()
-   1. android.graphics。 RectF の getBoundsInPoints()
-   1. android.graphics。 RectF の getBoundsWithEffects()
-   1. android.graphics。 ポイント getCoordOrigin()
-   1. android.graphics.PointFはCoordSize()を得ます
-   1. android.graphics.PointFのgetSizeInPoints()
-   1。 android.graphics.PointF localToParent(android.graphics.PointF)
-   1. setBounds(android.graphics.RectF)
-   1. セットCoordOrigin (android.graphics.Point)
-   1. セットCoordSize (android.graphics.PointF)
-1。 com.aspose.words.ThumbnailGeneratingOptions:
-   1. android.graphics.PointFのgetThumbnailSize()
-   1。 setThumbnailSize(android.graphics.PointF)
+1. コム...アスポーズ言葉だ文書:
+   1. アンドロイド。グラフィック。PointFrenderToScale(int,Canvas,float,float,float)は例外をスローします
+   1. floatrenderToSize(int,Canvas,float,float,float,float)例外をスローします
+1. コム...アスポーズ言葉だLayoutEnumerator:
+   1. アンドロイド。グラフィック。RectFgetRectangle()は例外をスローします
+1. コム...アスポーズ言葉だNodeRendererBase:
+   1. アンドロイド。グラフィック。PointFgetSizeInPoints()
+   1. アンドロイド。グラフィック。RectFgetOpaqueBoundsInPoints()
+   1. パブリックアンドロイド。グラフィック。PointFgetSizeInPixels(float,float)
+   1. アンドロイド。グラフィック。RectgetBoundsInPixels(float,float)
+   1. アンドロイド。グラフィック。RectgetOpaqueBoundsInPixels(float,float)
+   1. アンドロイド。グラフィック。PointFrenderToScale(Canvas,float,float,float)
+   1. floatrenderToSize(Canvas,float,float,float,float)
+1. コム...アスポーズ言葉だPageInfo:
+   1. アンドロイド。グラフィック。PointFgetSizeInPixels(float,float)
+   1. アンドロイド。グラフィック。PointFgetSizeInPoints()
+1. コム...アスポーズ言葉だShapeBase:
+   1. アンドロイド。グラフィック。RectFadjustWithEffects(アンドロイド.グラフィック。RectF）
+   1. アンドロイド。グラフィック。RectFgetBounds()
+   1. アンドロイド。グラフィック。RectFgetBoundsInPoints()
+   1. アンドロイド。グラフィック。RectFgetBoundsWithEffects()
+   1. アンドロイド。グラフィック。ポイントgetCoordOrigin()
+   1. アンドロイド。グラフィック。PointFgetCoordSize()
+   1. アンドロイド。グラフィック。PointFgetSizeInPoints()
+   1. アンドロイド。グラフィック。PointFlocalToParent(アンドロイド.グラフィック。ポイントf）
+   1. setBounds(アンドロイド.グラフィック。RectF）
+   1. setCoordOrigin(アンドロイド.グラフィック。ポイント）
+   1. setCoordSize(アンドロイド.グラフィック。ポイントf）
+1. コム...アスポーズ言葉だThumbnailGeneratingOptions:
+   1. アンドロイド。グラフィック。PointFgetThumbnailSize()
+   1. setThumbnailSize(アンドロイド.グラフィック。ポイントf）
 
-## Aspose.Words お問い合わせ Android お問い合わせ Java 追加の要件
+## Aspose.WordsのAndroidviaJava追加要件
 
-メーター化されたライセンス機能を使用して、http/ftp プロトコルのユーザーによる文書や画像をロードするには、アプリケーションに次の権限を追加する必要があります。
-*<uses-permission android:name="android.permission.INTERNET"/>*
+従量制ライセンス機能を使用し、http/ftpプロトコルによるドキュメントや画像をロードするには、ユーザーはアプリケーションに次の権限を追加する必要が
+`<uses-permission android:name="android.permission.INTERNET" />`
 
-## パブリック API 事例紹介
+## パブリックAPIの例
 
 {{< highlight csharp >}}
 public void testPublicAPI1() throws Exception

@@ -7,6 +7,7 @@ description: "با استفاده از Aspose.Words for Python via .NET اولی
 type: docs
 weight: 20
 url: /fa/python-net/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 یک "سلام، جهان!" کد اغلب اولین مثال ساده برای نوشتن با استفاده از "Aspose.Words برای Python via .NET" است، و همچنین می تواند به عنوان یک تست سلامت عقل برای اطمینان از نصب صحیح نرم افزار مورد نظر برای کامپایل یا اجرای کد منبع استفاده شود.

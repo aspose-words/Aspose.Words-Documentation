@@ -7,6 +7,7 @@ description: "Formatarea fontului în detalii folosind C#. Marcă de accent în 
 type: docs
 weight: 230
 url: /ro/net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Fontul este un set de caractere cu o anumită dimensiune, culoare și model. Aspose.Words îți permite să lucrezi cu fonturi folosind spațiul de nume [Fonts](https://reference.aspose.com/words/net/aspose.words.fonts/) și clasa [Font](https://reference.aspose.com/words/net/aspose.words/font/).

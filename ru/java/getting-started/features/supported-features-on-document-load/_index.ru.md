@@ -1,27 +1,28 @@
----
-title: Поддерживаемые функции в Document Load
+﻿---
+title: Поддерживаемые функции при загрузке документа
 second_title: Aspose.Words для Java
-articleTitle: Поддерживаемые функции в Document Load
-linktitle: Поддерживаемые функции в Document Load
-description: "Загружайте и конвертируйте документ в большинстве популярных форматов и поддерживает множество различных форматов. Microsoft Word особенности."
+articleTitle: Поддерживаемые функции при загрузке документа
+linktitle: Поддерживаемые функции при загрузке документа
+description: "Загружайте и конвертируйте документы в большинстве популярных форматов и поддерживайте множество функций Microsoft Word."
 type: docs
 weight: 20
 url: /ru/java/supported-features-on-document-load/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words Позволяет пользователям работать с документами в различных форматах и предоставляет широкий спектр возможностей для этого. Например, пользователи могут создать документ с нуля или загрузить существующий файл в любой файл. [Поддерживаемые форматы документов](/words/ru/java/supported-document-formats/), Внесите некоторые изменения в этот документ, а затем сохраните результат. При импорте документа в выбранном формате пользователь может применить различные варианты загрузки.
+Aspose.Words позволяет пользователям работать с документами в различных форматах и предоставляет широкий спектр возможностей для этого. Например, пользователи могут создать документ с нуля или загрузить существующий файл в любом [поддерживаемом формате импорта](/words/java/supported-document-formats/), внести некоторые изменения в этот документ и затем сохранить результат. При импорте документа в выбранном формате пользователь может применять различные параметры загрузки.
 
 {{% alert color="primary" %}}
 
-Важно знать, что многие параметры загрузки являются общими для всех поддерживаемых форматов, и только некоторые из них специфичны для формата, такие как PDF, HTML, RTF и другие.
+Важно знать, что многие параметры загрузки являются общими для всех поддерживаемых форматов, и только некоторые из них зависят от конкретного формата, например PDF, HTML, RTF, и другие.
 
 {{% /alert %}}
 
-Полный список функций см. API ссылка:
+Полный список функций приведен в разделе API reference:
 
-- [Опции загрузки для всех форматов](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/)
-- [Варианты загрузки CHM](https://reference.aspose.com/words/java/com.aspose.words/chmloadoptions/) Для формата CHM
-- [HTML загрузки опции](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/) для HTML формата
-- [PDF загрузки опции](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) Формат PDF
-- [Нагрузка RTF](https://reference.aspose.com/words/java/com.aspose.words/rtfloadoptions/) Формат RTF
-- [Варианты загрузки TXT](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) Формат TXT
+- [параметры загрузки для всех форматов](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/)
+- [CHM параметры загрузки](https://reference.aspose.com/words/java/com.aspose.words/chmloadoptions/) для формата CHM
+- [HTML параметры загрузки](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/) для формата HTML
+- [PDF параметры загрузки](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) для формата PDF
+- [RTF параметры загрузки](https://reference.aspose.com/words/java/com.aspose.words/rtfloadoptions/) для формата RTF
+- [TXT параметры загрузки](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) для формата TXT

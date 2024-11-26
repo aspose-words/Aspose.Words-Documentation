@@ -7,6 +7,7 @@ description: "Detaylarda yazı tipi biçimlendirmesi Java'u kullanarak yapılır
 type: docs
 weight: 230
 url: /tr/java/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir yazı tipi belirli bir boyut, renk ve tasarıma sahip karakterlerin bir kümesidir. Aspose.Words yazı tipleriyle çalışmanıza izin verir çeşitli yazı tipi ile ilgili sınıfları kullanarak, [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) sınıfı dahil.

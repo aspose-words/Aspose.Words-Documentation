@@ -7,6 +7,7 @@ description: ".NET için Aspose.Words'te ayrıntılı olarak açıklanan alanlar
 type: docs
 weight: 10
 url: /tr/net/fields-overview/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words, Microsoft Word belgelerinin sunucu tarafında işlenmesi için tasarlanmış bir sınıf kitaplığıdır ve alanları aşağıdaki şekillerde destekler:
@@ -173,9 +174,9 @@ Aspose.Words, Microsoft Word'de bulunan tüm tarih ve saat biçimlendirme anahta
 
 ### Mail Merge Alanları
 
-Aspose.Words, belgelerinizdeki mail merge alanlarının karmaşıklığına herhangi bir sınırlama getirmez ve iç içe `IF` ve formül alanlarını destekler ve hatta bir formül kullanarak birleştirme alanının adını hesaplayabilir.
+Aspose.Words, belgelerinizdeki Mail Merge alanlarının karmaşıklığına herhangi bir sınırlama getirmez ve iç içe `IF` ve formül alanlarını destekler ve hatta bir formül kullanarak birleştirme alanının adını hesaplayabilir.
 
-Aspose.Words'nin desteklediği mail merge alanlarına bazı örnekler:
+Aspose.Words'nin desteklediği Mail Merge alanlarına bazı örnekler:
 
 - Mail merge alan anahtarları:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`

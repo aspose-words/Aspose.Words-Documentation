@@ -7,6 +7,7 @@ description: "Formattazione della tabella in dettaglio utilizzando Python. Utili
 type: docs
 weight: 70
 url: /it/python-net/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A ogni elemento di una tabella può essere applicata una formattazione diversa. Ad esempio, la formattazione della tabella verrà applicata all'intera tabella, la formattazione delle righe solo a determinate righe e la formattazione delle celle solo a determinate celle.

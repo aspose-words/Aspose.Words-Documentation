@@ -7,6 +7,7 @@ type: docs
 description: "Şekil işaretleme diline giriş, farklı türlerde şekiller oluşturma Java ile."
 weight: 280
 url: /tr/java/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bu konu, şekillerle programatik çalışmayı nasıl yapacağınızı tartışır Aspose.Words.

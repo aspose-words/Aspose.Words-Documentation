@@ -1,4 +1,4 @@
-﻿---
+---
 title: Modifier le style de tableau dans les documents Word
 second_title: Aspose.Words pour C++
 articleTitle: Appliquer un Style de Tableau
@@ -7,6 +7,7 @@ description: "Formatage de table avancé C++. Créez un style de tableau en util
 type: docs
 weight: 80
 url: /fr/cpp/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un style de tableau définit un ensemble de formatage qui peut être facilement appliqué à un tableau. La mise en forme telle que les bordures, l'ombrage, l'alignement et la police peut être définie dans un style de tableau et appliquée à de nombreux tableaux pour une apparence cohérente.

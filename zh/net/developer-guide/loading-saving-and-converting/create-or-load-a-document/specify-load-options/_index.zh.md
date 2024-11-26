@@ -7,6 +7,7 @@ description: "使用C#更准确地控制加载过程。"
 type: docs
 weight: 10
 url: /zh/net/specify-load-options/
+timestamp: 2024-07-09-19-00-42
 ---
 
 加载文档时，您可以设置一些高级属性。 Aspose.Words 为您提供了 [LoadOptions](https://reference.aspose.com/words/zh/net/aspose.words.loading/loadoptions/) 类，它允许更精确地控制加载过程。某些加载格式具有相应的类，用于保存该加载格式的加载选项，例如，有 [PdfLoadOptions](https://reference.aspose.com/words/zh/net/aspose.words.loading/pdfloadoptions/) 用于加载到 PDF 格式或 [TxtLoadOptions](https://reference.aspose.com/words/zh/net/aspose.words.loading/txtloadoptions/) 用于加载到 TXT。本文提供了使用 **LoadOptions** 类选项的示例。

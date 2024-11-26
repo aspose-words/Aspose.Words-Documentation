@@ -7,6 +7,7 @@ description: "مقدمه ای بر ویژگی Office Math در Aspose.Words for 
 type: docs
 weight: 320
 url: /fa/net/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
 اکنون کار با OfficeMath Type Objects حتی راحت تر است. در Aspose.Words، مشتری به راحتی می تواند توجیه کند و همچنین می تواند مدیریت کند که آیا معادله به صورت خطی یا در یک خط جداگانه نمایش داده می شود. بیشتر، با در دسترس بودن **MathObjectType**. کنترل های مفید را می توان با استفاده از این شی ماتریس پیاده سازی کرد.

@@ -8,6 +8,7 @@ description: "Lưu tài liệu ở bất kỳ định dạng được hỗ trợ
 keywords: "save a document python, save a document to file python, save a document to stream python, save a document Aspose python, save formats supported by Aspose.Words python"
 weight: 20
 url: /vi/python-net/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hầu hết các tác vụ bạn cần thực hiện với Aspose.Words đều liên quan đến việc lưu tài liệu. Để lưu tài liệu, Aspose.Words cung cấp phương thức [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) của lớp [Document](https://reference.aspose.com/words/python-net/aspose.words/document/). Có những tình trạng quá tải cho phép lưu tài liệu vào một tệp hoặc luồng. Tài liệu có thể được lưu ở bất kỳ định dạng lưu nào được Aspose.Words hỗ trợ. Để biết danh sách tất cả các định dạng lưu được hỗ trợ, hãy xem bảng liệt kê [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/).

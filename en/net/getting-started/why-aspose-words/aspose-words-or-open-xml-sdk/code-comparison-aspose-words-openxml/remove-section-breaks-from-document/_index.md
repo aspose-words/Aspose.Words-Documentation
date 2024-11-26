@@ -7,6 +7,7 @@ description: "Remove section breaks from a document easily and fast instead of u
 type: docs
 weight: 170
 url: /net/remove-section-breaks-from-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 On this page we will look at how to remove section breaks from a document using Aspose.Words or Open XML SDK.

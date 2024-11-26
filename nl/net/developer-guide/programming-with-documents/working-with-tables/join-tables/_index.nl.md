@@ -7,6 +7,7 @@ description: "Tabellen invoegen C#. Hoe twee tabellen samenvoegen in één C#."
 type: docs
 weight: 90
 url: /nl/net/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Een tabel in de Aspose.Words Document Object Model, is samengesteld uit onafhankelijke rijen en cellen, waardoor het gemakkelijk is om tafels te sluiten.

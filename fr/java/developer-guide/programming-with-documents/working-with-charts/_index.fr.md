@@ -1,24 +1,25 @@
----
-title: Travailler avec les graphiques en Java
+﻿---
+title: Utilisation de graphiques dans Java
 second_title: Aspose.Words pour Java
-articleTitle: Travailler avec les graphiques
-linktitle: Travailler avec les graphiques
-description: "Introduction à la fonction graphique, comment créer et manipuler des graphiques en utilisant Java."
+articleTitle: Travailler avec des graphiques
+linktitle: Travailler avec des graphiques
+description: "Introduction à la fonction Graphique, comment créer et manipuler des graphiques à l'aide de Java."
 type: docs
 weight: 310
 url: /fr/java/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
-La nouvelle [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) la méthode a été ajoutée à la [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) En cours. Donc, voyons comment insérer un simple diagramme de colonnes dans le document en utilisant **insérer Graphique** méthode.
+La nouvelle méthode [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) a été ajoutée à la classe [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/). Voyons donc comment insérer un simple histogramme dans le document en utilisant la méthode **insertChart**.
 
 
-## Comment insérer un graphique depuis Scratch en utilisant Aspose.Words
+## Comment insérer un graphique à partir de zéro en utilisant Aspose.Words
 
-Dans cette section, nous apprendrons comment insérer un graphique dans un document.
+Dans cette section, nous allons apprendre à insérer un graphique dans un document.
 
-###  Insérer le tableau des colonnes
+###  Insérer Un Graphique à Colonnes
 
-L'exemple de code suivant montre comment insérer un tableau de colonnes:
+L'exemple de code suivant montre comment insérer un histogramme:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertColumnChart1.java" >}}
 
@@ -26,7 +27,7 @@ Le code produit le résultat suivant:
 
 ![column-chart-aspose-words-java-1](/words/java/working-with-charts/working-with-charts-7.png)
 
-Il y a quatre surcharges différentes pour la série Ajouter une méthode qui a été exposée pour couvrir toutes les variantes possibles des sources de données pour tous les types de cartes:
+Il existe quatre surcharges différentes pour la méthode d'ajout de séries, qui ont été exposées pour couvrir toutes les variantes possibles de sources de données pour tous les types de graphiques:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertColumnChart2.java" >}}
 
@@ -34,9 +35,9 @@ Le code produit le résultat suivant:
 
 ![column-chart-aspose-words-java-2](/words/java/working-with-charts/working-with-charts-8.png)
 
-### Insérer Scatter Graphique
+### Insérer un Graphique en Nuage de Points
 
-L'exemple de code suivant montre comment insérer un graphique de dispersion:
+L'exemple de code suivant montre comment insérer un nuage de points:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertScatterChart.java" >}}
 
@@ -44,9 +45,9 @@ Le code produit le résultat suivant:
 
 ![scutter-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-9.png)
 
-### Insérer une zone Graphique
+### Insérer un Graphique en Aires
 
-L'exemple de code suivant montre comment insérer un graphique régional:
+L'exemple de code suivant montre comment insérer un graphique en aires:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertAreaChart.java" >}}
 
@@ -54,7 +55,7 @@ Le code produit le résultat suivant:
 
 ![area-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-10.png)
 
-### Insérer le graphique des bulles
+### Insérer un Graphique à Bulles
 
 L'exemple de code suivant montre comment insérer un graphique à bulles:
 
@@ -64,11 +65,11 @@ Le code produit le résultat suivant:
 
 ![bubble-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-11.png)
 
-## Travailler avec les graphiques à travers `Shape.Chart` Objet
+## Utilisation de graphiques via `Shape.Chart` Objet
 
-Une fois le graphique inséré et rempli de données, vous pouvez changer son apparence. [Shape.Chart](https://reference.aspose.com/words/java/com.aspose.words/shape/#getChart) propriété contient toutes les options liées au graphique disponibles par l'intermédiaire du public API.
+Une fois le graphique inséré et rempli de données, vous pouvez modifier son apparence. la propriété [Shape.Chart](https://reference.aspose.com/words/java/com.aspose.words/shape/#getChart) contient toutes les options liées au graphique disponibles via le public API.
 
-Par exemple, changeons Titre du graphique ou comportement de la légende:
+Par exemple, modifions le comportement du titre ou de la légende du graphique:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-changeChartAppearanceUsingShapeChartObject.java" >}}
 
@@ -76,127 +77,127 @@ Le code génère les résultats suivants:
 
 ![line-chart-aspose-words-java-1](/words/java/working-with-charts/working-with-charts-1.png)
 
-## Comment travailler avec ChartSeriesCollection de Chart
+## Comment travailler avec ChartSeriesCollection du graphique
 
-Laissez voir [ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/) recouvrement. Toutes les séries de graphiques sont disponibles dans le [chart.getSeries()](https://reference.aspose.com/words/java/com.aspose.words/chart/#getSeries) la collecte, qui est **Iterable**:
+Examinons la collection [ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/). Toutes les séries de graphiques sont disponibles via la collection [chart.getSeries()](https://reference.aspose.com/words/java/com.aspose.words/chart/#getSeries), qui est **Iterable**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithChartSeriesCollectionOfChart-WorkWithChartSeriesCollectionOfChart.java" >}}
 
-Vous pouvez supprimer la série un par un ou effacer tous les ainsi que d'ajouter un nouveau si nécessaire. Le graphique nouvellement inséré a quelques séries par défaut ajoutées à cette collection. Pour les supprimer, vous devez appeler le **chart.getSeries().clear()** méthode.
+Vous pouvez supprimer les séries une par une ou les effacer toutes ainsi qu'en ajouter une nouvelle si nécessaire. Le graphique nouvellement inséré a des séries par défaut ajoutées à cette collection. Pour les supprimer, vous devez appeler la méthode **chart.getSeries().clear()**.
 
-## Travailler avec une seule classe de séries graphiques
+## Travailler avec une seule classe ChartSeries
 
 Voici comment travailler avec une série particulière.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-workingWithSingleChartSeries.java" >}}
 
-Veuillez consulter le résultat ci-dessous:
+Veuillez voir le résultat ci-dessous:
 
 ![line-chart-aspose-words-java-2](/words/java/working-with-charts/working-with-charts-2.png)
 
-Tous simples [ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/) ont par défaut [ChartDataPoint](https://reference.aspose.com/words/java/com.aspose.words/chartdatapoint/) options, veuillez essayer en utilisant le code suivant pour les modifier:
+Tous les [ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/) simples ont des options [ChartDataPoint](https://reference.aspose.com/words/java/com.aspose.words/chartdatapoint/) par défaut, veuillez essayer d'utiliser le code suivant pour les modifier:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-changeDefaultChartDataPointOptions.java" >}}
 
 ![line-chart-aspose-words-java3](/words/java/working-with-charts/working-with-charts-3.png)
 
-## Comment travailler avec un seul graphiqueDataPoint d'un `ChartSeries`
+## Comment travailler avec un seul ChartDataPoint d'un `ChartSeries`
 
-Utilisation [ChartDataPoint](https://reference.aspose.com/words/java/com.aspose.words/chartdatapoint/) vous pouvez personnaliser le formatage d'un seul point de données de la série de cartes:
+En utilisant [ChartDataPoint](https://reference.aspose.com/words/java/com.aspose.words/chartdatapoint/), vous pouvez personnaliser la mise en forme d'un seul point de données de la série de graphiques:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithSingleChartDataPointOfAChartSeries-WorkWithSingleChartDataPointOfAChartSeries.java" >}}
 
-Veuillez consulter le résultat ci-dessous:
+Veuillez voir le résultat ci-dessous:
 
 ![line-chart-aspose-words-java-4](/words/java/working-with-charts/working-with-charts-4.png)
 
-## Comment travailler avec ChartDataLabel d'une série de cartes uniques
+## Comment travailler avec ChartDataLabel d'un seul ChartSeries
 
-Utilisation [ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/) vous êtes en mesure de spécifier le formatage d'une seule étiquette de données de la série de graphiques, comme show/hid LegendKey, CategoryName, SeriesName, Valeur, etc.:
+En utilisant [ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/), vous pouvez spécifier le formatage d'une seule étiquette de données de la série de graphiques, comme afficher / masquer LegendKey, CategoryName, SeriesName, Valeur etc.:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithChartDataLabelOfASingleChartSeries-WorkWithChartDataLabelOfASingleChartSeries.java" >}}
 
-Veuillez consulter le résultat ci-dessous:
+Veuillez voir le résultat ci-dessous:
 
 ![bar-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-5.png)
 
-## Comment définir les options par défaut pour ChartDataLabels de ChartSeries
+## Comment définir les Options par défaut pour ChartDataLabels de ChartSeries
 
-Les [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/) class définit les propriétés qui peuvent être utilisées pour définir les options par défaut pour **ChartDataLabels** pour le graphique **Series**. Ces propriétés incluent setShowCategoryName, setShowBubbleSize, setShowPourcentage, setSeriesName, setShow Valeur, etc.:
+La classe [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/) définit des propriétés qui peuvent être utilisées pour définir les options par défaut pour **ChartDataLabels** pour le graphique **Series**. Ces propriétés comprennent setShowCategoryName, setShowBubbleSize, setShowPercentage, setShowSeriesName, setShowValue etc:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-DefaultOptionsForDataLabels-DefaultOptionsForDataLabels.java" >}}
 
-Veuillez consulter le résultat ci-dessous:
+Veuillez voir le résultat ci-dessous:
 
 ![pie-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-6.png)
 
-## Comment formater le nombre d'étiquettes de données graphiques
+## Comment Formater le Nombre d'étiquettes de données de graphique
 
-Utilisation [NumberFormat](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/#getNumberFormat) propriété, vous pouvez spécifier le formatage numéro d'une seule étiquette de données du graphique.
+À l'aide de la propriété [NumberFormat](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/#getNumberFormat), vous pouvez spécifier la mise en forme numérique d'une seule étiquette de données du graphique.
 
 L'exemple de code suivant montre comment formater un certain nombre d'étiquettes de données:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartNumberFormat-ChartNumberFormat.java" >}}
 
-## Comment définir les propriétés du graphique Axis
+## Comment définir les Propriétés de l'Axe du Graphique
 
-Si vous voulez travailler avec l'axe des cartes, l'échelle et les unités d'affichage pour l'axe des valeurs, veuillez utiliser [ChartAxis](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/), [AxisDisplayUnit](https://reference.aspose.com/words/java/com.aspose.words/axisdisplayunit/), et [AxisScaling](https://reference.aspose.com/words/java/com.aspose.words/axisscaling/) les cours.
+Si vous souhaitez utiliser l'axe du graphique, la mise à l'échelle et les unités d'affichage pour l'axe des valeurs, veuillez utiliser les classes [ChartAxis](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/), [AxisDisplayUnit](https://reference.aspose.com/words/java/com.aspose.words/axisdisplayunit/) et [AxisScaling](https://reference.aspose.com/words/java/com.aspose.words/axisscaling/).
 
 L'exemple de code suivant montre comment définir les propriétés des axes X et Y:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-DefineXYAxisProperties.java" >}}
 
-### Comment définir DateValeur temporelle de l'axe
+### Comment définir la valeur DateTime de l'axe
 
-L'exemple de code suivant montre comment définir les valeurs date/heure pour les propriétés de l'axe:
+L'exemple de code suivant montre comment définir des valeurs de date/heure sur les propriétés de l'axe:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetDateTimeValuesToAxis.java" >}}
 
-### Comment formater la valeur numérique de l'axe
+### Comment formater la Valeur Numérique de l'Axe
 
 L'exemple de code suivant montre comment modifier le format des nombres sur l'axe des valeurs:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetNumberFormatForAxis.java" >}}
 
-### Comment définir les limites de l'axe
+### Comment définir les limites de l'Axe
 
-Les `AxisBound` classe représente une limite minimale ou maximale des valeurs de l'axe. Bound peut être spécifié comme une valeur numérique, date-heure ou spéciale "auto".
+La classe `AxisBound` représente une limite minimale ou maximale de valeurs d'axe. Bound peut être spécifié sous forme numérique, date-heure ou une valeur spéciale "auto".
 
 L'exemple de code suivant montre comment définir les limites d'un axe:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetboundsOfAxis.java" >}}
 
-### Comment définir l'unité d'intervalle entre les étiquettes
+### Comment Définir l'Unité d'Intervalle Entre les Étiquettes
 
-L'exemple de code suivant montre comment régler l'unité d'intervalle entre les étiquettes sur un axe:
+L'exemple de code suivant montre comment définir l'unité d'intervalle entre les étiquettes sur un axe:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetIntervalUnitBetweenLabelsOnAxis.java" >}}
 
-### Comment cacher l'axe des cartes
+### Comment masquer l'Axe du graphique
 
-Si vous voulez afficher ou masquer l'axe du graphique, vous pouvez simplement atteindre ceci en définissant la valeur de `ChartAxis.Hidden` propriété.
+Si vous souhaitez afficher ou masquer l'axe du graphique, vous pouvez simplement y parvenir en définissant la valeur de la propriété `ChartAxis.Hidden`.
 
-L'exemple de code suivant montre comment masquer l'axe Y du graphique:
+L'exemple de code suivant montre comment masquer l'axe des ordonnées du graphique:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-HideChartAxis.java" >}}
 
-### Comment aligner l'étiquette des cartes
+### Comment Aligner l'Étiquette du Graphique
 
-Si vous voulez définir un alignement de texte pour les étiquettes multilignes, vous pouvez simplement y arriver en définissant la valeur de [setTickLabelAlignment()](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/#setTickLabelAlignment-int) propriété.
+Si vous souhaitez définir un alignement de texte pour les étiquettes multilignes,vous pouvez simplement y parvenir en définissant la valeur de la propriété [setTickLabelAlignment()](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/#setTickLabelAlignment-int).
 
-L'exemple de code suivant montre comment cocher l'alignement de l'étiquette:
+L'exemple de code suivant montre comment cocher l'alignement des étiquettes:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.java" >}}
 
 {{% alert color="primary" %}}
 
-Microsoft Word alignement Étiquette graphique au centre par défaut.
+Microsoft Word aligne l'étiquette du graphique au centre par défaut.
 
 {{% /alert %}}
 
-## Comment définir le formatage de remplissage et d'attaque
+## Comment définir le Remplissage et le formatage des traits
 
-Le formatage de remplissage et de course peut être défini pour les séries de cartes, les points de données et les marqueurs. Pour cela, vous devez utiliser les propriétés de la `ChartFormat` type dans les classes ChartSeries, ChartDataPoint et ChartMarker, ainsi que des alias pour certaines propriétés, comme ForeColor, BackColor, Visible, et Transparence dans le `Stroke` En cours.
+La mise en forme de remplissage et de trait peut être définie pour les séries de graphiques, les points de données et les marqueurs. Pour ce faire, vous devez utiliser les propriétés du type `ChartFormat` dans les classes ChartSeries, ChartDataPoint et ChartMarker, ainsi que des alias pour certaines propriétés, telles que ForeColor, BackColor, Visible et Transparence dans la classe `Stroke`.
 
 L'exemple de code suivant montre comment définir la couleur de la série:
 

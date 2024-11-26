@@ -7,6 +7,7 @@ description: "Aspose.Words voor Python via .NET kan de juiste TrueType lettertyp
 type: docs
 weight: 10
 url: /nl/python-net/manipulating-and-substitution-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words vereist waar Type lettertypen voor verschillende taken, waaronder het renderen van documenten naar vaste paginaformaten, bijvoorbeeld PDF of XPS. Wanneer Aspose.Words maakt een document, het moet uitvoeren inbedding en subset inbedding van TrueType lettertypen in het resulterende document, dat is een normale praktijk tijdens een document generatie, inclusief populaire PDF of XPS formaat. Dit zorgt ervoor dat het document hetzelfde zal verschijnen voor elke kijker. Bovendien heeft de XPS specificatie vereist dat lettertypen altijd in het document worden ingebed.

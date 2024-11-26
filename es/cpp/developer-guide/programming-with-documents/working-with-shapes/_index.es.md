@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabajar con formas en C++
 second_title: Aspose.Words para C++
 articleTitle: Trabajar con Formas
@@ -7,6 +7,7 @@ type: docs
 description: "Introducción al lenguaje de marcado de formas, creando formas de diferentes tipos usando C++."
 weight: 280
 url: /es/cpp/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 En este tema se analiza cómo trabajar programáticamente con formas usando Aspose.Words.

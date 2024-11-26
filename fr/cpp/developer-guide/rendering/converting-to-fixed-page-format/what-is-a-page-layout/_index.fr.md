@@ -1,4 +1,4 @@
-﻿---
+---
 title: Qu'est-ce qu'une mise en page en C++
 second_title: Aspose.Words pour C++
 articleTitle: Qu'est-ce qu'une mise en page
@@ -7,6 +7,7 @@ description: "Voyons ce qu'est une mise en page. Une mise en page décrit la gé
 type: docs
 weight: 5
 url: /fr/cpp/what-is-a-page-layout/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Un **document page layout** est une structure de données décrivant l'emplacement d'un objet particulier sur les pages de tous les objets du document. De plus, étant donné que les objets ont des propriétés qui affectent leur apparence, telles que la taille de la police, l'ombrage ou les effets de dessin, vous devez non seulement savoir où se trouve l'objet, mais également quelle (s) zone (s) de la page il occupe et s'il s'appliquera à plusieurs pages afin que d'autres objets ne chevauchent pas la ou les mêmes zones.

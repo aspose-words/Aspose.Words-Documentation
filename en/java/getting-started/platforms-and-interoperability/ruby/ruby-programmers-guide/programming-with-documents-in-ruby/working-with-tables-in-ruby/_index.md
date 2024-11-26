@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working With Tables in Ruby
 second_title: Aspose.Words for Java
 articleTitle: Working With Tables in Ruby
@@ -7,6 +7,7 @@ description: "Working With Tables using Ruby."
 type: docs
 weight: 80
 url: /java/working-with-tables-in-ruby/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Auto Fit Tables

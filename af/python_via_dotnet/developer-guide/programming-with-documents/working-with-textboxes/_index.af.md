@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk met TextBoxes in Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Werk met TextBoxes
@@ -7,6 +7,7 @@ description: "Werk met teksbokse in'n dokument met Python."
 type: docs
 weight: 250
 url: /af/python-net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In Aspose.Words word [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) klas gebruik om te spesifiseer hoe'n teks binne'n vorm vertoon word. Dit bied'n openbare eiendom met die naam [parent](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/parent/) om die ouervorm vir die tekskassie te kry om die kliënt in staat te stel om gekoppelde [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) van gekoppelde [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) te vind.

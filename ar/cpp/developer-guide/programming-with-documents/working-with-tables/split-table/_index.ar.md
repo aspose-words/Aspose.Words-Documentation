@@ -1,4 +1,4 @@
-﻿---
+---
 title: تقسيم الجدول في C++
 second_title: Aspose.Words ل C++
 articleTitle: تقسيم الجدول
@@ -7,6 +7,7 @@ description: "تقسيم الجدول في C++. كيفية تقسيم جدول �
 type: docs
 weight: 100
 url: /ar/cpp/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 يتكون الجدول، الممثل في نموذج كائن المستند Aspose.Words، من صفوف وخلايا مستقلة، مما يسهل تقسيم الجدول.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Overlapping Items
 second_title: Aspose.Words for JasperReports
 articleTitle: Overlapping Items
@@ -7,6 +7,7 @@ description: "JasperReports often contain overlapping items. Faithfully converti
 type: docs
 weight: 30
 url: /jasperreports/overlapping-items/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

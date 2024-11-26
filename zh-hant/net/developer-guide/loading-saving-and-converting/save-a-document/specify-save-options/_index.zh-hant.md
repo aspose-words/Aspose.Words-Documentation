@@ -7,6 +7,7 @@ description: "更準確地控制使用C#的儲存過程。"
 type: docs
 weight: 10
 url: /zh-hant/net/specify-save-options/
+timestamp: 2024-07-09-19-00-42
 ---
 
 當儲存文件時，您可以設定一些進階屬性。 Aspose.Words 提供給您類別 [SaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/)，允許更精確的儲存過程控制。 有過載的 **Save** 方法可以接受 **SaveOptions** 物件，他應該是從 **SaveOptions** 類別派生的物件。 每個儲存格式都有對應的類別，該類別會儲存儲存格式的選項。例如，有 [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) 用於儲存到 PDF 格式，[MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) 用於儲存到 Markdown 格式，或 [ImageSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/) 用於儲存到圖像。 本文示例說明如何處理一些從 **SaveOptions** 導出的選項類別。

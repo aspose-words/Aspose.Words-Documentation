@@ -1,4 +1,4 @@
-﻿---
+---
 title: Supported Document Formats
 second_title: Aspose.Words for Reporting Services
 articleTitle: Supported Document Formats
@@ -7,6 +7,7 @@ description: "Supported formats by the Aspose.Words for Reporting Services."
 type: docs
 weight: 20
 url: /reportingservices/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 The following table indicates the input and output file formats supported by Aspose.Words for Reporting Services.

@@ -7,6 +7,7 @@ description: "Masukkan catatan kaki atau catatan akhir ke dalam dokumen dan tent
 type: docs
 weight: 160
 url: /id/python-net/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words juga menyediakan beberapa kelas, metode, dan properti untuk bekerja dengan catatan kaki dan catatan akhir.

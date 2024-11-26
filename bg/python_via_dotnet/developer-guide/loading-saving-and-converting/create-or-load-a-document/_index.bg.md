@@ -8,6 +8,7 @@ url: /bg/python-net/create-or-load-a-document/
 description: "Създаване на празен документ или за зареждане от файл или поток с помощта на Python."
 keywords: "create a document python, load a document python, create a blank document python, load a document from file python, load a document from stream python, create a document Aspose python, load a document Aspose python, load formats supported by Aspose.Words python"
 weight: 10
+timestamp: 2024-01-27-14-07-04
 ---
 
 Почти всяка задача, която искате да изпълните с Aspose.Words включва зареждане на документ. На [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) Класът представлява документ, зареден в паметта. Документът има няколко претоварени конструктори, които ви позволяват да създадете празен документ или да го заредите от файл или поток. Документът може да бъде зареден във всеки формат на натоварване, поддържан от Aspose.Words. За списъка на всички поддържани формати на натоварване, вж. [LoadFormat](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) Изброяване.

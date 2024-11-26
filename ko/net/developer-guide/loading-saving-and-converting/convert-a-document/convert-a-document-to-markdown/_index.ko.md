@@ -8,6 +8,7 @@ description: "C#를 사용하여 지원되는 로드 형식의 문서를 Markdow
 keywords: how to convert a document to markdown c#
 weight: 40
 url: /ko/net/convert-a-document-to-markdown/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Markdown는 텍스트를 마크업하고 HTML, PDF, DOCX 또는 기타 형식으로 추가 변환하는 데 사용되는 널리 사용되는 형식입니다. 많은 개발자가 문서 작성, 블로그 게시용 기사 준비, 프로젝트 설명 등을 위해 이 형식을 선택합니다.

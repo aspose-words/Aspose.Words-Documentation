@@ -7,6 +7,7 @@ description: "Tạo và quản lý Đối tượng loại OfficeMath trong tài 
 type: docs
 weight: 320
 url: /vi/python-net/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Giờ đây, việc làm việc với Đối tượng Loại OfficeMath thậm chí còn thuận tiện hơn. Trong Aspose.Words, khách hàng có thể dễ dàng Căn chỉnh và cũng có thể quản lý xem phương trình được hiển thị nội tuyến hay trong một dòng riêng biệt. Hơn thế nữa, với sự sẵn có của [MathObjectType](https://reference.aspose.com/words/python-net/aspose.words.math/mathobjecttype/); các điều khiển hữu ích có thể được thực hiện bằng cách sử dụng đối tượng ma trận này.

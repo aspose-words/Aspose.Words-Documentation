@@ -7,6 +7,7 @@ description: "הוסף, להחליף או לשנות היפר-קישור במס�
 type: docs
 weight: 50
 url: /he/python-net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 היפר-קישור Microsoft Word המסמכים הם `HYPERLINK` שדה. In In In Aspose.Words, הקישורים יושמו באמצעות [FieldHyperlink](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldhyperlink/) מעמד.

@@ -7,6 +7,7 @@ description: "How to install Aspose.Words for SharePoint license."
 type: docs
 weight: 10
 url: /sharepoint/installing-aspose-words-for-sharepoint-license/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Once you are happy with your evaluation, you can [purchase a license](https://purchase.aspose.com/pricing/words/family/). Before purchasing make sure you understand and agree to the license subscription terms. The license is emailed to you when the order has been paid. The license is a ZIP archive containing a regular SharePoint solution package. The archive contains:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++で文書をクリーンアップする
 second_title: C++の場合Aspose.Words
 articleTitle: 文書のクリーンアップ
@@ -7,6 +7,7 @@ description: "未使用または重複した情報を削除して、c++を使用
 type: docs
 weight: 30
 url: /ja/cpp/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 出力文書のサイズと処理時間を短縮するために、未使用または重複した情報を削除する必要がある場合があります。

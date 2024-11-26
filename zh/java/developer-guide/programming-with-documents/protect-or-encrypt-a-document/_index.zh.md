@@ -7,6 +7,7 @@ description: "加密文档,限制编辑,使用数字签名进行文档保护. As
 type: docs
 weight: 50
 url: /zh/java/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 保护或加密文档的主要原因是对谁可以访问文档或谁可以编辑文档施加更多的控制. 在对您的文档实施保护时,您避免了常见的风险,比如未经许可复制或修改文档,以及数据泄漏.

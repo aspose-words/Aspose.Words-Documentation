@@ -1,14 +1,15 @@
----
-title: Notes de sécurité
+﻿---
+title: Notes de Sécurité
 second_title: Aspose.Words pour Java
-articleTitle: Notes de sécurité
-linktitle: Notes de sécurité
+articleTitle: Notes de Sécurité
+linktitle: Notes de Sécurité
 type: docs
-description: "Aspose.Words pour Java reconnaît et respecte les normes de sécurité communes pour assurer un niveau élevé de sécurité des données. Examiner les questions de sécurité possibles et les recommandations sur la façon de les éviter."
+description: "Aspose.Words pour Java reconnaît et adhère aux normes de sécurité communes pour garantir un niveau élevé de sécurité des données. Examinez les problèmes de sécurité possibles et les recommandations sur la façon de les éviter."
 weight: 120
 url: /fr/java/security/
+timestamp: 2024-01-27-14-07-04
 ---
 
-La sécurité aide à protéger les données contre l'accès non autorisé, ainsi que les changements malveillants ou accidentels. Aspose.Words est extrêmement attentif à la sécurité des données client, donc, il reconnaît et respecte les normes de sécurité communes.
+La sécurité aide à protéger les données contre les accès non autorisés, ainsi que les modifications malveillantes ou accidentelles. Aspose.Words est extrêmement attentif à la sécurité des données des clients, par conséquent, il reconnaît et adhère aux normes de sécurité communes.
 
-Dans la présente section, nous examinons certaines des questions de sécurité possibles et nous formulons des recommandations sur la façon de les éviter lorsqu'on travaille avec Aspose.Words.
+Dans cette section, nous examinons certains des problèmes de sécurité possibles et donnons des recommandations sur la façon de les éviter lorsque vous travaillez avec Aspose.Words.

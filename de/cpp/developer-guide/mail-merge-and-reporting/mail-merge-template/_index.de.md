@@ -1,18 +1,19 @@
-﻿---
+---
 title: Mail Merge Vorlage in C++
 second_title: Aspose.Words für C++
 articleTitle: Mail Merge Vorlage
 linktitle: Mail Merge Vorlage
 type: docs
 description: "Erstellen Sie eine mail merge-Vorlage, um festen Inhalt in Ausgabedokumenten zu definieren, und generieren Sie dann Seriendruckdokumente mithilfe der Seriendruckfelder."
-keywords: "create mail merge template с++"
+keywords: "create Mail Merge template с++"
 weight: 10
 url: /de/cpp/mail-merge-template/
+timestamp: 2024-01-31-14-23-37
 ---
 
-Es ist üblich, eine Zusammenführungsvorlage als Basisdokument für eine mail merge-Operation zu verwenden, entweder wenn es sich um eine einfache mail merge oder mail merge mit Regionen handelt. Mail merge mit Regionen ist leistungsfähiger und beliebter als das einfache mail merge. Einfaches mail merge wird als ein besonderer Fall von mail merge mit Regionen betrachtet, in denen die Region das gesamte Dokument ist. Alles wird im nächsten Artikel "Arten von Mail Merge Operationen" ausführlicher erläutert.
+Es ist üblich, eine Zusammenführungsvorlage als Basisdokument für eine mail merge-Operation zu verwenden, entweder wenn es sich um eine einfache Mail Merge oder Mail Merge mit Regionen handelt. Mail merge mit Regionen ist leistungsfähiger und beliebter als das einfache mail merge. Einfaches Mail Merge wird als ein besonderer Fall von Mail Merge mit Regionen betrachtet, in denen die Region das gesamte Dokument ist. Alles wird im nächsten Artikel "Arten von Mail Merge Operationen" ausführlicher erläutert.
 
-Die Vorlage stellt sicher, dass der Text im Seriendruckdokument korrekt formatiert ist, und die Operation mail merge garantiert, dass der Text aus der Datenquelle korrekt in die Seriendruckvorlage eingegeben wird.
+Die Vorlage stellt sicher, dass der Text im Seriendruckdokument korrekt formatiert ist, und die Operation Mail Merge garantiert, dass der Text aus der Datenquelle korrekt in die Seriendruckvorlage eingegeben wird.
 
 Aspose.Words bietet die Möglichkeit, eine mail merge-Vorlage zu erstellen, um festen Inhalt zu definieren und dann Seriendruckdokumente mithilfe der Seriendruckfelder zu generieren. Somit enthält die Seriendruckvorlage den erforderlichen Text, der in allen Ausgabedokumenten gleich ist, und die Seriendruckfelder, um den sich ändernden Inhalt auszufüllen. Infolgedessen werden Informationen aus der angegebenen Datenquelle während der Generierung des Seriendruckdokuments über diese Felder zur Seriendruckvorlage hinzugefügt.
 
@@ -22,7 +23,7 @@ Eine mail merge-Vorlage ist ein personalisiertes Dokument, das die festen Daten 
 
 Sie können eine Seriendruckvorlage als Vorlage für neue Dokumente erstellen und sie sollte den Haupttext enthalten, der für jede Version des Seriendruckdokuments gleich sein muss. Durch das Hinzufügen von Seriendruckfeldern in der Vorlage werden die Personalisierungsdaten wie Namen oder Adressen dargestellt, die aus einer Datenquelle abgerufen werden. Ein mail merge-Vorgang fügt automatisch die Personalisierungsdaten aus Ihrer Datenquelle in Ihr Seriendruckvorlagendokument ein.
 
-Darüber hinaus können Sie Ihrer Vorlage einen mail merge -Bereich hinzufügen, indem Sie zwei mail merge -Felder einfügen, um den Anfang und das Ende des E-Mail-Bereichs zu markieren. Der nächste Artikel "Arten von Mail Merge Operationen" erklärt das genauer.
+Darüber hinaus können Sie Ihrer Vorlage einen Mail Merge -Bereich hinzufügen, indem Sie zwei Mail Merge -Felder einfügen, um den Anfang und das Ende des E-Mail-Bereichs zu markieren. Der nächste Artikel "Arten von Mail Merge Operationen" erklärt das genauer.
 
 ## Mail Merge-Vorlage erstellen
 
@@ -54,7 +55,7 @@ Das folgende Codebeispiel zeigt, wie Sie den Namen und die Größe der Bilddatei
 
 Sie können die Eigenschaft [Text](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/fieldmergingargs/get_text/) verwenden, um Text für das aktuelle Seriendruckfeld in das Dokument einzufügen. Außerdem können Sie die Formatierung von Texten und Absätzen in Ihrer Vorlage mithilfe der Klassen [Font](https://reference.aspose.com/words/cpp/aspose.words/font/) und [ParagraphFormat](https://reference.aspose.com/words/cpp/aspose.words/paragraphformat/) ändern. Sie können den Text, der vor oder nach dem Seriendruckfeld eingefügt werden soll, mithilfe der Eigenschaften [TextBefore](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldmergefield/get_textbefore/) und [TextAfter](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldmergefield/get_textafter/) behandeln, die in der Klasse [FieldMergeField](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldmergefield/) enthalten sind.
 
-Das folgende Codebeispiel zeigt, wie Kontrollkästchen oder HTML während des mail merge -Vorgangs eingefügt werden:
+Das folgende Codebeispiel zeigt, wie Kontrollkästchen oder HTML während des Mail Merge -Vorgangs eingefügt werden:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Mail-Merge-MailMergeFormFields-MailMergeFormFields.cpp" >}}
 

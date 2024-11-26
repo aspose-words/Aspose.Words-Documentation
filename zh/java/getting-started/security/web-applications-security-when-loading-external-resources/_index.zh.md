@@ -7,6 +7,7 @@ type: docs
 description: "装入远程资源,这可能是安全风险的原因. 研究共同安全问题及其解决办法 Java。 。 。 。"
 weight: 120
 url: /zh/java/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 默认 Aspose.Words (单位:千美元) Java 可以在导入文档或使用文档构建器插入图像时装入远程资源,如图像,CSS样式,或外部 HTML 文档. 这种行为允许您对文档进行详细处理,但如果库是网络应用程序的一部分,则可能是一个安全风险的原因.

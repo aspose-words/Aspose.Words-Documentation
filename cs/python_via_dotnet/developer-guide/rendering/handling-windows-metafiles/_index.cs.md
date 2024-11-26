@@ -7,6 +7,7 @@ description: "Aspose.Words místo Python via .NET provádí vlastní Windows Met
 type: docs
 weight: 30
 url: /cs/python-net/handling-windows-metafiles/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Windows Formát Metafile je formát souboru s obrázkem, který může obsahovat grafiku vektoru i rastru. Tento formát slouží k ukládání grafických dat v paměti nebo na diskových souborech. Metafile ukládá seznam volání funkcí v Windows Grafické rozhraní zařízení (GDI), které musí být provedeno pro zobrazení obrázku na obrazovce. Systém interpretuje a provádí tyto příkazy v kontextu zobrazení.

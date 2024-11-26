@@ -7,6 +7,7 @@ description: "了解如何在 C# 中自定义字段属性。重命名合并字�
 type: docs
 weight: 27
 url: /zh/net/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 提供了以编程方式与各种字段属性进行交互的能力。在本文中，我们将查看几个示例，以便您了解使用字段属性的基本原理。您可以在 [字段命名空间](https://reference.aspose.com/words/zh/net/aspose.words.fields/) 中查看相应类中每种字段类型的属性的完整列表。

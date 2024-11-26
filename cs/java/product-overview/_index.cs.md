@@ -7,6 +7,7 @@ description: "Aspose.Words místo Java je softwarová knihovna určená k vytvá
 type: docs
 weight: 5
 url: /cs/java/product-overview/
+timestamp: 2024-01-31-14-23-37
 ---
 
 <img src="/words/java/product-overview/home_1" alt="aspose-words-product" align="left" style="width:64px; margin: 0 30px 30px 0"/>
@@ -65,7 +66,7 @@ Generovat dokumenty nebo zprávy od nuly nebo vyplněním šablon dat z datovýc
 
 Aspose.Words místo Java pokrývá všechny Java vývojová prostředí a nástupiště. Naše API lze použít k vývoji aplikací pro širokou škálu operačních systémů, jako je Windows, Linux, Mac OS, Android, a různé platformy.
 
-Jednoduše řečeno, pokud vaše platforma může spustit standard <span notrans="<span notrans=" Java"=""></span>, Může běžet. Aspose.Words místo Java. Pokud vaše aplikace může volat standard Java <span notrans="<span notrans=" API"=""></span>, nebudete mít žádné problémy volat Aspose.Words místo Java API z vaší přihlášky.
+Jednoduše řečeno, pokud vaše platforma může spustit standard Java, Může běžet. Aspose.Words místo Java. Pokud vaše aplikace může volat standard Java API, nebudete mít žádné problémy volat Aspose.Words místo Java API z vaší přihlášky.
 
 V současné době je naše výchozí hodnota JDK1.7 a novější. Ale stále podporujeme JDK1.6.
 
@@ -91,7 +92,7 @@ Aspose.Words je vícevláken bezpečný, pokud pouze jedno vlákno pracuje na do
 
 ### Minimální křivka učení
 
-I když existuje více než 150 veřejných tříd a výčty v <span notrans="<span notrans=" Aspose.Words"=""></span>, křivka učení je minimální, protože Aspose.Words API byl pečlivě navržen s těmito cíli:
+I když existuje více než 150 veřejných tříd a výčty v Aspose.Words, křivka učení je minimální, protože Aspose.Words API byl pečlivě navržen s těmito cíli:
 
 * Půjčit si osvědčené postupy od jiných známých APIs jako např. Microsoft Word Automatizace
 * Půjčit osvědčené postupy od Java Rámcové pokyny pro návrh

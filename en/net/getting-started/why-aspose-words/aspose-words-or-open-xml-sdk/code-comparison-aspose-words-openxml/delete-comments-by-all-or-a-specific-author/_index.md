@@ -7,6 +7,7 @@ description: "Remove comments of all or a specific author easily and fast instea
 type: docs
 weight: 200
 url: /net/delete-comments-by-all-or-a-specific-author/
+timestamp: 2024-01-27-14-07-04
 ---
 
 On this page we will look at how to remove comments of all or a specific author using Aspose.Words or Open XML SDK.

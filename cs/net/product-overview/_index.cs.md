@@ -7,6 +7,7 @@ description: "Aspose.Words místo .NET je softwarová knihovna určená k vytvá
 type: docs
 weight: 15
 url: /cs/net/product-overview/
+timestamp: 2024-01-31-14-23-37
 ---
 
 <img src="/words/net/product-overview/product-overview_1" alt="aspose-words-product" align="left" style="width:64px; margin: 0 30px 30px 0"/>
@@ -79,7 +80,7 @@ Aspose.Words je vícevláken bezpečný, pokud pouze jedno vlákno pracuje na do
 
 ### Minimální křivka učení
 
-I když existuje více než 150 veřejných tříd a výčty v <span notrans="<span notrans=" Aspose.Words"=""></span>,? křivka učení je minimální, protože Aspose.Words API byl pečlivě navržen s těmito cíli:
+I když existuje více než 150 veřejných tříd a výčty v Aspose.Words,? křivka učení je minimální, protože Aspose.Words API byl pečlivě navržen s těmito cíli:
 
 - Půjčit osvědčené postupy od jiných známých APIs jako např. Microsoft Word Automatizace
 - Půjčit osvědčené postupy od .NET Framework Pokyny k návrhu

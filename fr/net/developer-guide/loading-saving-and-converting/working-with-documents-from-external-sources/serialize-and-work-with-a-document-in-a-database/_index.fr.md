@@ -7,6 +7,7 @@ description: "Convertissez un document en tableau d'octets pour travailler avec 
 type: docs
 weight: 10
 url: /fr/net/serialize-and-work-with-a-document-in-a-database/
+timestamp: 2024-07-09-19-00-42
 ---
 
 L'une des tâches que vous devrez peut-être effectuer lorsque vous travaillez avec des documents consiste à stocker et à récupérer des objets **Document** vers et depuis une base de données. Par exemple, cela serait nécessaire si vous mettiez en œuvre tout type de système de gestion de contenu. Toutes les versions précédentes des documents doivent être stockées dans le système de base de données. La possibilité de stocker des documents dans la base de données est également extrêmement utile lorsque votre application fournit un service Web.

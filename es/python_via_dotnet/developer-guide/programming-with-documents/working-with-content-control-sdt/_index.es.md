@@ -7,6 +7,7 @@ description: "Al utilizar Python, puede incorporar en un documento la semántica
 type: docs
 weight: 390
 url: /es/python-net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 En Microsoft Word, puede crear un formulario comenzando con una plantilla y agregando controles de contenido, incluidas casillas de verificación, cuadros de texto, selectores de fechas y listas desplegables. En Aspose.Words, una etiqueta de documento estructurado o un control de contenido de cualquier documento cargado en Aspose.Words se importa como un nodo [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/). Las etiquetas de documentos estructuradas (SDT o control de contenido) permiten incorporar en un documento la semántica definida por el cliente, así como su comportamiento y apariencia. [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) puede aparecer en un documento en los siguientes lugares:

@@ -1,91 +1,92 @@
----
-title: Lavorare con Hyphenation in Java
+﻿---
+title: Utilizzo della sillabazione in Java
 second_title: Aspose.Words per Java
-articleTitle: Lavorare con Hyphenation
-linktitle: Lavorare con Hyphenation
-description: "Utilizzare l'ifenazione per una disposizione più compatta del testo. Esso fornisce algoritmi avanzati per lavorare con dizionari di trattinamento, usa dizionari OpenOffice utilizzando Java."
+articleTitle: Lavorare con la sillabazione
+linktitle: Lavorare con la sillabazione
+description: "Utilizzare la sillabazione per una disposizione più compatta del testo. Fornisce algoritmi avanzati per lavorare con dizionari di sillabazione, utilizza dizionari OpenOffice usando Java."
 type: docs
 weight: 220
 url: /it/java/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
-A volte è necessario usare l'ifenazione per una disposizione più compatta del testo in un documento. Allo stesso tempo, è importante capire che le specifiche di parola trattino possono differire per ogni lingua.
+A volte è necessario utilizzare la sillabazione per una disposizione più compatta del testo in un documento. Allo stesso tempo, è importante capire che le specifiche della sillabazione delle parole possono differire per ogni lingua.
 
-Al momento, l'ifenazione non è usata tanto spesso come era, soprattutto nei testi inglesi. Tuttavia, l'uso di questa funzione può avere un impatto serio sui documenti dell'utente – l'ifenazione colpisce il layout e, di conseguenza, l'aspetto dei file di output, per esempio, in formato PDF.
+Al momento attuale, la sillabazione non è usata così spesso come una volta, specialmente nei testi inglesi. Tuttavia, l'uso di questa funzione può avere un grave impatto sui documenti dell'utente: la sillabazione influisce sul layout e, di conseguenza, sull'aspetto dei file di output, ad esempio nel formato PDF.
 
-Per una corretta scissione di parole, vengono utilizzati dizionari di trattinamento linguistico-specifico. Aspose.Words utilizza algoritmi avanzati per lavorare con tali dizionari e consente di ottenere la stessa trattina come in Microsoft Word.
+Per una corretta suddivisione delle parole, vengono utilizzati dizionari di sillabazione specifici della lingua. Aspose.Words utilizza algoritmi avanzati per lavorare con tali dizionari e consente di ottenere la stessa sillabazione di Microsoft Word.
 
-## Dizionari di Hyphenation
+## Dizionari di sillabazione
 
-Poiché diverse lingue usano norme e regole diverse per l'enfeazione delle parole, la soluzione ottimale per una corretta effusione è quella di usare dizionari speciali. Aspose.Words usa dizionari OpenOffice.
+Poiché lingue diverse utilizzano norme e regole diverse per la sillabazione delle parole, la soluzione ottimale per la corretta sillabazione è utilizzare dizionari speciali. Aspose.Words utilizza dizionari OpenOffice.
 
-Per il controllo ortografico, OpenOffice utilizza il [Hunspell biblioteca](https://hunspell.github.io/), che è una generalizzazione dell'algoritmo di trattino di TeX. Questo algoritmo consente l'enfanazione automatica non standard utilizzando modelli di trattinamento standard e personalizzati concorrenti. Hunspell utilizza il [Hyphen](https://github.com/hunspell/hyphen) per l'ansia.
+Per il controllo ortografico, OpenOffice utilizza [Hunspell biblioteca](https://hunspell.github.io/), che è una generalizzazione dell'algoritmo di sillabazione di TeX. Questo algoritmo consente la sillabazione automatica non standard utilizzando modelli di sillabazione standard e personalizzati concorrenti. Hunspell utilizza il [Trattino](https://github.com/hunspell/hyphen) per la sillabazione.
 
 {{% alert color="primary" %}}
 
-I dizionari di Hyphenation possono essere presi dai [LibreOffice Segnalazioni GitHub](https://github.com/LibreOffice/dictionaries). Per esempio, [en-US hyphenation dizionario](https://github.com/LibreOffice/dictionaries/blob/master/en/hyph_en_US.dic).
+I dizionari di sillabazione possono essere presi dal [LibreOfficedizionari GitHub](https://github.com/LibreOffice/dictionaries). Biru, [it - US dizionario di sillabazione](https://github.com/LibreOffice/dictionaries/blob/master/en/hyph_en_US.dic).
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-Come? Microsoft Word dizionari usa diversi dai dizionari di OpenOffice per eseguire l'ifenazione, l'ifenazione di alcune parole definite dai dizionari di OpenOffice può differire da Microsoft Word ifenazione. Per questo motivo, a volte dobbiamo consigliare ai clienti di aggiungere i modelli necessari ai loro dizionari al fine di fissare l'ifenazione di parole particolari.
+Poiché Microsoft Word utilizza dizionari diversi dai dizionari OpenOffice per eseguire la sillabazione, la sillabazione di alcune parole definite dai dizionari OpenOffice può differire dalla sillabazione Microsoft Word. Per questo motivo, a volte dobbiamo consigliare ai clienti di aggiungere i modelli necessari ai loro dizionari per correggere la sillabazione di parole particolari.
 
 {{% /alert %}}
 
-## Algoritmo di Hyphenation
+## Algoritmo di sillabazione
 
-Aspose.Words strumenti [L'Europa Isofferenza di TeX](https://github.com/hunspell/hyphen/blob/master/README.hyphen) e può riutilizzare i dizionari di ansia OpenOffice.
+Aspose.Words implementa [l'algoritmo di sillabazione TeX](https://github.com/hunspell/hyphen/blob/master/README.hyphen) e può riutilizzare i dizionari di sillabazione OpenOffice.
 
-Le seguenti caratteristiche Aspose.Words dovrebbero essere presi in considerazione gli algoritmi:
+Le seguenti caratteristiche degli algoritmi Aspose.Words dovrebbero essere prese in considerazione:
 
-* Parametri di distanza dell'iphenation (LEFTHYPHENMIN, RIGHTHYPHENMIN, COMPOUNDLEFTHYPHENMIN, COMPOUNDRIGHTHYPHENMIN) specificato nel dizionario di trattinamento sono ignorati. Aspose.Words utilizza il proprio set di parametri di distanza a seconda della modalità di compatibilità del documento.
-* # L'algoritmo di trattino Aspose.Words Supporti [Trasferimenti](https://github.com/hunspell/hyphen/blob/master/README.compound). Tuttavia, Aspose.Words divide le sequenze di caratteri contenenti caratteri alfabetici e non alfabetici misti in parti solo alfabetico (parole) e le trattiene separatamente.
-  Nota: Microsoft Word logica di trattino di parole composte dipende dalla modalità di compatibilità dei documenti.
-* # L'algoritmo di trattino Aspose.Words non implementare [non standard](https://github.com/hunspell/hyphen/blob/master/doc/tb87nemeth.pdf). I modelli non standard sono ignorati.
+* Parametri distanza sillabazione (LEFTHYPHENMIN, RIGHTHYPHENMIN, COMPOUNDLEFTHYPHENMIN, COMPOUNDRIGHTHYPHENMIN) specificati nel dizionario di sillabazione vengono ignorati. Aspose.Words utilizza un proprio set di parametri di distanza a seconda della modalità di compatibilità del documento.
+* L'algoritmo di sillabazione in Aspose.Words supporta [sillabazione composita](https://github.com/hunspell/hyphen/blob/master/README.compound). Tuttavia, Aspose.Words suddivide sequenze di caratteri contenenti caratteri misti alfabetici e non alfabetici in parti solo alfabetiche (parole) e le sillabano separatamente.
+  Si noti che la logica Microsoft Word della sillabazione delle parole composte dipende dalla modalità di compatibilità del documento.
+* L'algoritmo di sillabazione in Aspose.Words non implementa [sillabazione non standard](https://github.com/hunspell/hyphen/blob/master/doc/tb87nemeth.pdf). I modelli non standard vengono ignorati.
 
-## Caricamento dei dittari di Hyphenation
+## Caricamento dizionari di sillabazione
 
-Per utilizzare la funzione di trattinamento, prima registrare un dizionario di trattinamento. Il seguente esempio di codice mostra come caricare dizionari di trattinamento per le lingue specificate da un file:
+Per utilizzare la funzione di sillabazione, prima registrare un dizionario di sillabazione.L'esempio di codice seguente mostra come caricare dizionari di sillabazione per le lingue specificate da un file:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HyphenateWords-LoadHyphenationDictionaryFromFile.java" >}}
 
 {{% alert color="primary" %}}
 
-È possibile scaricare il file template di questo esempio da [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
+È possibile scaricare il file modello di questo esempio da [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-Il seguente esempio di codice mostra come caricare dizionari di trattinamento per la lingua specificata da un flusso:
+L'esempio di codice seguente mostra come caricare dizionari di sillabazione per la lingua specificata da un flusso:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HyphenateWords-LoadHyphenationDictionaryFromStream.java" >}}
 
 {{% alert color="primary" %}}
 
-È possibile scaricare il file template di questo esempio da [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
+È possibile scaricare il file modello di questo esempio da [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-Come alternativa ai dizionari pre-registranti dell'ifenazione, è possibile registrare solo i dizionari di anfeazione richiesti "per richiesta". Per raggiungere questo obiettivo, implementare [IHyphenationCallback](https://reference.aspose.com/words/java/com.aspose.words/ihyphenationcallback/) interfaccia e utilizzare il callback statico [Callback](https://reference.aspose.com/words/java/com.aspose.words/hyphenation/#getCallback).
+In alternativa alla pre-registrazione dei dizionari di sillabazione, è possibile registrare solo i dizionari di sillabazione richiesti "su richiesta". Per ottenere ciò, implementare l'interfaccia [IHyphenationCallback](https://reference.aspose.com/words/java/com.aspose.words/ihyphenationcallback/) e utilizzare il callback statico [Callback](https://reference.aspose.com/words/java/com.aspose.words/hyphenation/#getCallback).
 
-Il seguente esempio di codice mostra come implementare il **IHyphenationCallback** interfaccia:
+Il seguente esempio di codice mostra come implementare l'interfaccia **IHyphenationCallback**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HyphenateWords-HyphenationCallback.java" >}}
 
-## Impatto di Hyphenation su Layout
+## Impatto della sillabazione sul layout
 
-Quando si rompe il testo in righe, Aspose.Words controlla ogni parola se si inserisce completamente nella linea corrente. Se un'altra parola è troppo lunga per adattarsi alla fine della riga, per impostazione predefinita Aspose.Words lo sposta all'inizio della linea successiva invece di annusarla.
+Quando si suddivide il testo in righe, Aspose.Words controlla che ogni parola si adatti completamente alla riga corrente. Se un'altra parola è troppo lunga per essere inserita alla fine della riga, per impostazione predefinita Aspose.Words la sposta all'inizio della riga successiva invece di sillabarla.
 
-Tuttavia, la funzione di trattinamento può essere utilizzata in Aspose.Words inserire i trattini in parole per eliminare le lacune nel testo giustificato o per mantenere una lunghezza uniforme della linea in colonne strette. Questo può ovviamente influenzare il numero di righe e quindi il numero di pagine. In altre parole, utilizzando la funzione di trattinamento influisce sul layout del documento.
+Tuttavia, la funzione di sillabazione può essere utilizzata in Aspose.Words per inserire trattini in parole per eliminare le lacune nel testo giustificato o per mantenere una lunghezza di riga uniforme in colonne strette. Questo può ovviamente influenzare il numero di righe e quindi il numero di pagine. In altre parole, l'utilizzo della funzione di sillabazione influisce sul layout del documento.
 
-## Hyphenation and Justification (H&J)
+## Sillabazione e giustificazione (H & J)
 
-Microsoft Word ha una logica complessa per la scelta di un punto di rottura se il testo è giustificato e l'ansia è abilitata. In breve, Microsoft Word può preferire a restringere o allungare gli spazi per evitare l'ifenazione della linea. Molto probabilmente questa logica si basa su [L'articolo di Knuth](https://www.eprg.org/G53DOC/pdfs/knuth-plass-breaking.pdf).
+Microsoft Word ha una logica complessa per la scelta di un punto di interruzione se il testo è giustificato e la sillabazione è abilitata. In breve, Microsoft Word potrebbe preferire ridurre o allungare gli spazi per evitare la sillabazione della linea. Molto probabilmente questa logica si basa su [Articolo di Knuth](https://www.eprg.org/G53DOC/pdfs/knuth-plass-breaking.pdf).
 
-Aspose.Words implementa il proprio algoritmo H&J che dà lo stesso risultato di Microsoft Word e fornisce la rottura della riga identica nel documento di uscita.
+Aspose.Words implementa il proprio algoritmo H & J che fornisce lo stesso risultato di Microsoft Word e fornisce un'interruzione di riga identica nel documento di output.
 
 ## Vedi anche
 
-* [Hyphen libreria – di tratti](https://github.com/hunspell/hyphen/blob/master/README)
-* [Isofferenza non standard](https://github.com/hunspell/hyphen/blob/master/README.nonstandard)
-* [Ifenazione automatica non standard in Ufficio aperto](https://github.com/hunspell/hyphen/blob/master/doc/tb87nemeth.pdf)
+* [Trattino-libreria di sillabazione](https://github.com/hunspell/hyphen/blob/master/README)
+* [Sillabazione non standard](https://github.com/hunspell/hyphen/blob/master/README.nonstandard)
+* [Sillabazione automatica non standard in Open Office](https://github.com/hunspell/hyphen/blob/master/doc/tb87nemeth.pdf)

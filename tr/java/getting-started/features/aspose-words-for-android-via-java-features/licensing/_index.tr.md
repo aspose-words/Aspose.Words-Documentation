@@ -7,6 +7,7 @@ description: "Lisanslama Aspose.Words için Android ile Java'e."
 type: docs
 weight: 60
 url: /tr/java/licensing-android/
+timestamp: 2024-02-02-12-07-36
 ---
 
 Bazen sistem hakkında daha iyi bir şekilde çalışmak istiyorsunuz, bu nedenle kodun içine dalmak için mümkün olduğunca hızlı olmak istersiniz. Daha kolay yapmak için, Aspose.Words satın alma için farklı planlar sunar veya bir deneme sürümü ve değerlendirme için 30 günlük geçici lisans sunar.

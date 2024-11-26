@@ -7,6 +7,7 @@ type: docs
 description: "اسناد منبع را در بسیاری از فرمت‌های محبوب ویرایش کنید، و همچنین فایل‌ها را آزادانه از یک فرمت به فرمت دیگر با استفاده از C# تبدیل کنید."
 weight: 20
 url: /fa/net/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

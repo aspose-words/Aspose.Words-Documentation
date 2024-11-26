@@ -1,4 +1,4 @@
-﻿---
+---
 title: Ontdek Lêerformaat en Kontroleer Formaatversoenbaarheid
 second_title: Aspose.Words vir C++
 articleTitle: Ontdek Lêerformaat en Kontroleer Formaatversoenbaarheid
@@ -7,6 +7,7 @@ description: "Bepaal die lêerformaat in C++ as u nie seker is wat die werklike 
 type: docs
 weight: 20
 url: /af/cpp/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Soms is dit nodig om die formaat van'n dokument te bepaal voordat dit oopgemaak word omdat die lêer uitbreiding nie waarborg dat die inhoud van die lêer toepaslik is nie. Byvoorbeeld, dit is bekend dat Kristal Verslae dikwels uitsette dokumente in RTF formaat, maar gee hulle die .doc uitbreiding.

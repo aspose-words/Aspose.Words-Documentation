@@ -7,6 +7,7 @@ description: "C#를 사용하여 텍스트를 보다 간결하게 배열하려�
 type: docs
 weight: 220
 url: /ko/net/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 때로는 문서에서 텍스트를 보다 간결하게 배열하기 위해 하이픈을 사용해야 하는 경우도 있습니다. 동시에, 단어 하이픈 넣기의 세부 사항이 언어마다 다를 수 있음을 이해하는 것이 중요합니다.

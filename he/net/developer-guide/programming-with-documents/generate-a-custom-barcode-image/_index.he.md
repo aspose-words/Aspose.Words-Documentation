@@ -7,6 +7,7 @@ description: "דוגמה של יצירת צורת ברקוד באמצעות C#."
 type: docs
 weight: 350
 url: /he/net/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
 ברקוד הוא ייצוג חזותי של נתונים בצורה של קווים מקבילים או דפוסים. ברקודים נמצאים בשימוש נרחב בענפים שונים כמו קמעונאות, לוגיסטיקה, בריאות, בנקאות ועוד רבים אחרים.

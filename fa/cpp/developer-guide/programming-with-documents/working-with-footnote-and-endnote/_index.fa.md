@@ -1,4 +1,4 @@
-﻿---
+---
 title: کار با Footnote و Endnote در C++
 second_title: Aspose.Words برای C++
 articleTitle: کار با Footnote و Endnote
@@ -7,6 +7,7 @@ description: "چگونه با استفاده از C++ حاشیه ها و حاش�
 type: docs
 weight: 160
 url: /fa/cpp/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words همچنین برخی از کلاس ها، روش ها و خواص را برای کار با حاشیه ها و حاشیه ها فراهم می کند.

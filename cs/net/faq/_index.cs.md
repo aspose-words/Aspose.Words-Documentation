@@ -9,6 +9,7 @@ type: docs
 description: "Aspose.Words místo .NET odpovídá na nejčastěji kladené otázky. Naučte se tuto stránku rychle řešit svůj problém na obecné otázky nebo konkrétní témata."
 weight: 75
 url: /cs/net/faq/
+timestamp: 2024-11-18-12-56-02
 ---
 
 Tato stránka obsahuje odpovědi na nejčastěji kladené otázky. Prosím, naučte se aktuální stránku? snad to vám umožní vyřešit váš problém rychle.
@@ -128,7 +129,7 @@ Ano, máš. Proto při kopírování písem mějte na paměti, že většina pí
 
 {{% alert color="primary" %}}
 
-Podrobnější informace o mail merge v [Mail Merge a podávání zpráv](/words/net/mail-merge-and-reporting/) sekce dokumentace.
+Podrobnější informace o Mail Merge v [Mail Merge a podávání zpráv](/words/net/mail-merge-and-reporting/) sekce dokumentace.
 
 {{% /alert %}}
 
@@ -143,7 +144,7 @@ Původní název pole sloučení zůstává stejný, aniž by byly nahrazeny po�
 
 **Q: Proč výstup vnořeného sloučení nezobrazuje data z dětské tabulky pro první položku v základní tabulce, ale zobrazí všechny položky pro poslední položku v základní tabulce, ani ty, které s ní nejsou ve skutečnosti spojeny?**
 
-To proto, že regiony sloučení v šabloně nejsou správně vytvořeny, které mohou všechny hnízdit mail merge Regiony, které přestanou nic vystavovat. • [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) otevírací značka a [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) zavírací značka musí odpovídat a musí být ve stejné řadě nebo buňce. Pokud například začnete hnízdit regiony sloučení v buňce tabulky, musíte oblast sloučení ukončit ve stejném řádku jako první buňka.
+To proto, že regiony sloučení v šabloně nejsou správně vytvořeny, které mohou všechny hnízdit Mail Merge Regiony, které přestanou nic vystavovat. • [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) otevírací značka a [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) zavírací značka musí odpovídat a musí být ve stejné řadě nebo buňce. Pokud například začnete hnízdit regiony sloučení v buňce tabulky, musíte oblast sloučení ukončit ve stejném řádku jako první buňka.
 
 ------
 

@@ -7,6 +7,7 @@ description: "Formátování písma v detailech pomocí C#. Zdůraznění v C#. 
 type: docs
 weight: 230
 url: /cs/net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Písmo je soubor znaků s určitou velikostí, barvou a designem. Aspose.Words umožňuje pracovat s písmy pomocí [Fonts](https://reference.aspose.com/words/net/aspose.words.fonts/) jmenný prostor a [Font](https://reference.aspose.com/words/net/aspose.words/font/) třída.

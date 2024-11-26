@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mit Spalten und Zeilen in C++ arbeiten
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit Spalten und Zeilen
@@ -7,6 +7,7 @@ description: "Arbeiten mit Teilen einer Tabelle – Zeilen, Spalten und Zellen m
 type: docs
 weight: 30
 url: /de/cpp/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Erfahren Sie, wie Sie Spalten und Zeilen bearbeiten, um mehr Kontrolle über die Funktionsweise von Tabellen zu erhalten.

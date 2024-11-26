@@ -7,6 +7,7 @@ description: "In một tài liệu bằng cách sử dụng Java thông qua Sett
 type: docs
 weight: 55
 url: /vi/java/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bài viết này mô tả cách in một tài liệu xử lý văn bản bằng Aspose.Words API. Nó cũng chứng minh các phương pháp in một tài liệu với Settings, Print Preview và Print tiến trình thoại.

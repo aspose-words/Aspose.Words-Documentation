@@ -7,6 +7,7 @@ description: "Bir belgeyi popüler formatların çoğunda yükleyin ve dönüşt
 type: docs
 weight: 20
 url: /tr/net/supported-features-on-document-load/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words, kullanıcıların çeşitli formatlardaki belgelerle çalışmasına olanak tanır ve bunun için çok çeşitli seçenekler sunar. Örneğin kullanıcılar sıfırdan bir belge oluşturabilir veya mevcut bir dosyayı herhangi bir [Desteklenen Belge Formatları](/words/tr/net/supported-document-formats/)'ye yükleyebilir, o belgede bazı değişiklikler yapabilir ve ardından sonucu kaydedebilir. Bir belgeyi seçilen formatta içe aktarırken kullanıcı çeşitli yükleme seçeneklerini uygulayabilir.

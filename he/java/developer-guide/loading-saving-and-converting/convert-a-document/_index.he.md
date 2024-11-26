@@ -7,6 +7,7 @@ type: docs
 weight: 30
 url: /he/java/convert-a-document/
 description: "להמיר בקלות מסמכים מתבנית אחת לאחרת. אתה יכול לעבוד עם כל הפורמטים הפופולריים ביותר כמו Microsoft Word פורמטים כגון DOCX או DOC, OpenDocument פורמטים כגון ODT או OTT, פורמטי אינטרנט כגון HTML או XHTML, פורמטים כגון MarkDown או TXT ואחרים באמצעות שימוש ב- ODT או OTT, פורמטי אינטרנט כגון HTML או XHTML, פורמטי טקסט כגון MarkDown או TXT, ואחרים המשתמשים ב-ExT. Java."
+timestamp: 2024-09-25-11-08-55
 ---
 
 היכולת להמיר בקלות וביעילות מסמכים מתבנית אחת לאחרת היא אחד התחומים העיקריים של תכונה. Aspose.Words. המרה כזו אינה אלא שילוב של עומס והצלת פעולות.

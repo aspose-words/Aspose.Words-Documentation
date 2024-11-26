@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cum să rulați exemplele
 second_title: Aspose.Words pentru Java
 articleTitle: Cum să rulați exemplele
@@ -7,6 +7,7 @@ type: docs
 description: "Descărcare Aspose.Words pentru Java exemple din depozitul nostru GitHub și aflați cum să le rulați pentru a vă familiariza cu posibilitățile și caracteristicile Aspose.Words."
 weight: 130
 url: /ro/java/how-to-run-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Descărcați de la GitHub

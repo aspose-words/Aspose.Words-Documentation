@@ -1,16 +1,17 @@
----
+﻿---
 title: API Reference
-second_title: Aspose.Words สําหรับ Java
+second_title: Aspose.WordsสำหรับJava
 articleTitle: API Reference
 linktitle: API Reference
 type: docs
 weight: 30
-description: "เรียน รู้ คํา อธิบาย และ ตัว อย่าง ของ Aspose.Words สําหรับ Java คลาสและวิธีการในการสร้าง, แปลง, แก้ไข, แปล, และพิมพ์เอกสารโดยไม่ต้องใช้ Microsoft Word."
+description: "เรียนรู้คำอธิบายและตัวอย่างของAspose.WordsสำหรับJavaชั้นเรียนและวิธีการสร้าง,แปลง,แก้ไข,แสดงผล,และพิมพ์เอกสารโดยไม่ต้องใช้Microsoft Word."
 url: /th/java/api-reference/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words สําหรับ Java เป็นไลบรารีสําหรับคลาสที่ช่วยให้โปรแกรมของคุณ สามารถทําการประมวลผลเอกสารได้เป็นอย่างดี ด้วย Aspose.Words คุณสามารถสร้าง, แก้ไข, แปลง, แปล, และพิมพ์เอกสารได้โดยไม่ต้องแก้ไข <span notrans="<span notrans=" Microsoft Word"=""></span>'"> นั่นคือ Microsoft Word ไม่จําเป็นในการใช้ Aspose.Words.
+Aspose.WordsสำหรับJavaเป็นไลบรารีชั้นที่ช่วยให้การใช้งานของคุณที่จะดำเนินการช่วงที่ดีของงานการป ด้วยAspose.Wordsคุณสามารถสร้าง,แก้ไข,แปลง,แสดงผล,และพิมพ์เอกสารโดยไม่ต้องใช้Microsoft Wordนั่นคือMicrosoft Wordไม่จำเป็นเพื่อที่จะใช้Aspose.Words.
 
-Aspose.Words สําหรับ Java เขียนลงไปหมด Java
+Aspose.WordsสำหรับJavaถูกเขียนอย่างสมบูรณ์ในJava
 
-ล่าสุด API Reference พบที่ [Aspose.Words สําหรับ Java API Reference](https://reference.aspose.com/words/java/).
+ล่าสุดAPI Referenceสามารถพบได้ที่[Aspose.WordsสำหรับJavaAPI Reference](https://reference.aspose.com/words/java/).

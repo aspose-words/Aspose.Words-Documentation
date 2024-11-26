@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit Office-Add-Ins in C++
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit Office-Add-Ins
@@ -7,6 +7,7 @@ description: "Aspose.Words für C++ bietet verschiedene Klassen für die Arbeit 
 type: docs
 weight: 50
 url: /de/cpp/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal möchten Sie möglicherweise Zugriff auf Schnittstellensteuerelemente gewähren, die Code zum Ändern von Dokumenten ausführen. Aspose.Words API stellt den `WebExtensions`-Namespace bereit, der verschiedene Klassen zum Anpassen von Elementen und Attributen zuweist, die das XML-Vokabular für die Darstellung von Office-Add-Ins erweitern.

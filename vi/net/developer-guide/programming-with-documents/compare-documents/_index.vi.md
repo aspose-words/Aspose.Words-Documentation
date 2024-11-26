@@ -7,6 +7,7 @@ description: "So sánh hai tài liệu ở bất kỳ định dạng được h�
 type: docs
 weight: 60
 url: /vi/net/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 So sánh tài liệu là một quá trình xác định các thay đổi giữa hai tài liệu và chứa các thay đổi đó dưới dạng bản sửa đổi. Quá trình này so sánh hai tài liệu bất kỳ, bao gồm các phiên bản của một tài liệu cụ thể, sau đó những thay đổi giữa cả hai tài liệu sẽ được hiển thị dưới dạng bản sửa đổi trong tài liệu đầu tiên.

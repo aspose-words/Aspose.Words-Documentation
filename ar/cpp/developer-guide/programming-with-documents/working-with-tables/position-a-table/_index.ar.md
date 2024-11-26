@@ -1,4 +1,4 @@
-﻿---
+---
 title: موضع الجدول في C++
 second_title: Aspose.Words ل C++
 articleTitle: ضع طاولة
@@ -7,6 +7,7 @@ description: "حدد موضع الجدول في C++. الحصول على محا�
 type: docs
 weight: 50
 url: /ar/cpp/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 هناك جداول عائمة وجداول مضمنة:

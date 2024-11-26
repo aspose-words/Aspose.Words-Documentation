@@ -7,6 +7,7 @@ description: "Inserisci e gestisci il `Sommario` in un documento utilizzando Pyt
 type: docs
 weight: 170
 url: /it/python-net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Spesso lavorerai con documenti contenenti un sommario (TOC). Utilizzando Aspose.Words puoi inserire il tuo sommario o ricostruire completamente il sommario esistente nel documento utilizzando solo poche righe di codice. Questo articolo descrive come utilizzare il campo del sommario e dimostra:
@@ -107,7 +108,7 @@ Per impostazione predefinita, queste opzioni sopra sono incluse quando si inseri
 
 <p>- *\L – Definisce in quale livello del `TOC` apparirà questo campo TC. Un `TOC` che utilizza questo stesso interruttore includerà questo campo TC solo se rientra nell'intervallo specificato.*</p>
 
-<p>- _\N – La numerazione delle pagine per questa voce `TOC` non viene visualizzata. Un codice di esempio su come inserire i campi TC è disponibile nella sezione successiva.</p> |
+<p>- `_\N` – La numerazione delle pagine per questa voce `TOC` non viene visualizzata. Un codice di esempio su come inserire i campi TC è disponibile nella sezione successiva.</p> |
 
 ### Interruttori relativi all'aspetto
 

@@ -9,6 +9,7 @@ type: docs
 description: "Aspose.Words pentru .NET oferă asistență tehnică gratuită disponibilă tuturor utilizatorilor. Vă rugăm să raportați întrebarea, problema sau cererea de caracteristică folosind Forumul de asistență Aspose Free."
 weight: 80
 url: /ro/net/technical-support/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose oferă asistență tehnică nelimitată pentru toate produsele sale. Suportul este disponibil tuturor utilizatorilor, inclusiv evaluării. Axa principală de sprijin este [Aspose.Forums](https://forum.aspose.com/c/words/8).

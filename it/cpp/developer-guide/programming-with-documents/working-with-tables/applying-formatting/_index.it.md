@@ -1,4 +1,4 @@
-﻿---
+---
 title: Formattazione della tabella in C++
 second_title: Aspose.Words per C++
 articleTitle: Applica formattazione
@@ -7,6 +7,7 @@ description: "Formattazione della tabella in dettaglio utilizzando C++. Utilizzo
 type: docs
 weight: 70
 url: /it/cpp/applying-formatting/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Ogni elemento di una tabella può essere applicato con una formattazione diversa. Ad esempio, la formattazione della tabella verrà applicata all'intera tabella, la formattazione delle righe solo a righe particolari, la formattazione delle celle solo a determinate celle.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Formen getrennt von einem Dokument rendern
 second_title: Aspose.Words für C++
 articleTitle: Formen getrennt von einem Dokument rendern
@@ -7,6 +7,7 @@ description: "Extrahieren Sie bei der Verarbeitung eines Dokuments verschiedene 
 type: docs
 weight: 40
 url: /de/cpp/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bei der Verarbeitung von Dokumenten besteht eine häufige Aufgabe darin, alle im Dokument gefundenen Bilder zu extrahieren und an einen externen Speicherort zu exportieren. Diese Aufgabe wird mit Aspose.Words API einfach, das bereits die Funktionalität zum Extrahieren und Speichern von Bilddaten bietet. Manchmal möchten Sie jedoch möglicherweise auch andere Arten von Grafikinhalten extrahieren, die durch einen anderen Typ von Zeichenobjekt dargestellt werden, z. B. ein Textfeld mit Absätzen, Pfeilformen und einem kleinen Bild. Es gibt keine einfache Möglichkeit, dieses Objekt zu rendern, da es sich um eine Kombination einzelner Inhaltselemente handelt. Es kann auch vorkommen, dass der Inhalt zu einem Objekt gruppiert wurde, das wie ein einzelnes Bild aussieht.

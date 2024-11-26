@@ -1,4 +1,4 @@
-﻿---
+---
 title: API Reference
 second_title: Aspose.Words ل C++
 articleTitle: API Reference
@@ -7,6 +7,7 @@ type: docs
 weight: 30
 description: "تعلم شرحا وأمثلة من Aspose.Words ل C++ فئات وطرق إنشاء المستندات وتحويلها وتعديلها وعرضها وطباعتها دون استخدام Microsoft Word."
 url: /ar/cpp/api-reference/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Aspose.Words ل C++ هي مكتبة فئة أصلية تمكن تطبيقاتك من أداء مجموعة كبيرة من مهام معالجة المستندات. باستخدام Aspose.Words، يمكنك إنشاء المستندات وتعديلها وتحويلها دون استخدام Microsoft Word، أي Microsoft Word غير مطلوب لاستخدام `Aspose.Word`.

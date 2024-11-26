@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tabel Oorsig
 second_title: Aspose.Words vir C++
 articleTitle: Tabel Oorsig
@@ -7,6 +7,7 @@ description: "Werk met tabelle en hul komponente soos selle, rye, kolomme in Asp
 type: docs
 weight: 10
 url: /af/cpp/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words is'n klas biblioteek ontwerp vir bediener-kant verwerking van dokumente in verskillende formate PDF, HTML, verskillende Microsoft Word formate en ander en ondersteun tabelle in die volgende maniere:

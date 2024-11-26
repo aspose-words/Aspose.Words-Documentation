@@ -7,6 +7,7 @@ description: "Zapisz swój dokument w dowolnym obsługiwanym formacie za pomocą
 type: docs
 weight: 30
 url: /pl/python-net/supported-features-on-document-save/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words oferuje jedną z najbardziej zaawansowanych funkcji konwersji popularnych formatów przetwarzania tekstu.

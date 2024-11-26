@@ -7,6 +7,7 @@ type: docs
 description: "Kopyalama belgeden onun identik bir kopyasını elde etmek. Kopyalamayı yaparken, Java'i kullanarak orijinal belgesindeki düğümler ve özellikler klonlanır."
 weight: 70
 url: /tr/java/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir belgeyi kopyalamak, orijinal bir belgeden tam olarak aynı kopyanın oluşturulması işlemidir ve bu performans iyileştirmeleri sağlar ve potansiyel bellek sızıntılarından kurtarır.

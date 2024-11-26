@@ -1,62 +1,63 @@
----
-title: 문서 변환 Markdown 내 계정 Java
-second_title: Aspose.Words 제품정보 Java
-articleTitle: 문서 변환 Markdown
-linktitle: 문서 변환 Markdown
+﻿---
+title: Java에서 문서를Markdown으로 변환
+second_title: Aspose.WordsJava
+articleTitle: 문서를Markdown로 변환
+linktitle: 문서를Markdown로 변환
 type: docs
-description: "지원된 로드 형식으로 문서를 변환 Markdown 그리고 vice versa 사용 Java·"
+description: "지원되는 로드 형식의 문서를Markdown으로 변환하거나Java을 사용하여 그 반대로 변환합니다."
 keywords: how to convert a document to markdown Java, save as MD, DOCX to MD
 weight: 33
 url: /ko/java/convert-a-document-to-markdown/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Markdown 텍스트를 표시하는 데 사용되는 인기있는 형식이며 HTML, PDF, DOCX 또는 다른 형식으로 변환됩니다. 많은 개발자들은 문서 작성을위한이 형식을 선택하여 블로그에 게시 된 기사를 준비하고 프로젝트를 설명합니다.
+Markdown은 텍스트를 마크업하는 데 사용되는 인기있는 형식이며 추가로HTML, PDF, DOCX, 또는 다른 형식. 많은 개발자가 문서 작성,블로그 게시 기사 준비,프로젝트 설명 등을 위해이 형식을 선택합니다.
 
-Markdown 이 형식을 쉽게 작업하기 때문에 너무 인기가 있지만 다른 형식으로 변환 할 수 있습니다. 이 이유 Aspose.Words 문서 변환 기능을 제공합니다 [지원되는 짐 체재](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) 이름 * Markdown 그리고 부 versa – Aspose.Words 또한 가장 인기있는 지원 [파일 형식](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)·
+Markdown은 이 형식으로 작업하기 쉽고 다른 형식으로도 간단히 변환할 수 있기 때문에 인기가 많습니다. 이러한 이유로 Aspose.Words는 [지원되는 모든 부하 형식](https://reference.aspose.com/words/java/com.aspose.words/loadformat/)의 문서를 Markdown으로 변환하고 그 반대로도 변환할 수 있는 기능을 제공합니다. Aspose.Words는 가장 인기 있는 [형식 저장](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)도 지원합니다.
 
-이제 작업을위한 기능 Markdown 형식은 적극적으로 문서와 편리하고 편안한 작업을 위해 더 많은 기회를 제공하기 위해 개발되었습니다.
+이제Markdown형식으로 작업하기 위한 기능이 활발히 개발되어 문서를 편리하고 편안하게 작업할 수 있는 더 많은 기회를 제공하고 있습니다.
 
-## 문서 변환 Markdown
+## 문서를Markdown로 변환
 
-문서 변환 <span notrans="<span notrans=" Markdown"=""></span>· 지원되는 형식의 문서를로드하거나 새로운 프로그래밍을 만들 필요가 있습니다. 그런 다음 문서를 저장해야합니다. Markdown 파일 형식.
+문서를Markdown으로 변환하려면 지원되는 형식으로 문서를 로드하거나 프로그래밍 방식으로 새 문서를 만들기만 하면 됩니다. 그럼 당신은Markdown형식으로 문서를 저장해야합니다.
 
-다음 코드 예제는 DOCX를 변환하는 방법을 보여줍니다. Markdown::
+다음 코드 예제에서는DOCX을Markdown으로 변환하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SaveAsMD.java" >}}
 
 
-## 변환 할 때 저장 옵션을 지정 Markdown
+## Markdown으로 변환할 때 저장 옵션을 지정합니다
 
-Aspose.Words 사용 능력 [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) 문서를 저장할 때 고급 옵션으로 작업 할 수있는 클래스 Markdown 파일 형식. 다른 상속 또는 과부하 재산 이외에, 특정한 재산의 수 Markdown 형식도 추가되었습니다. 예를 들어, [TableContentAlignment](https://reference.aspose.com/words/java/com.aspose.words/tablecontentalignment/) 테이블의 내용의 정렬을 제어하는 속성, 또는 [ImageSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageSavingCallback) · [ImagesFolder](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImagesFolder) 문서 변환에 이미지가 저장된 방법을 제어하기 위해 Markdown 파일 형식.
+Aspose.Words는Markdown형식으로 문서를 저장할 때[MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/)클래스를 사용하여 고급 옵션을 사용할 수 있는 기능을 제공합니다. 다른 상속 또는 오버로드 속성 외에도Markdown형식에 대한 특정 속성도 추가되었습니다. 예를 들어[TableContentAlignment](https://reference.aspose.com/words/java/com.aspose.words/tablecontentalignment/)속성은 테이블의 콘텐츠 정렬을 제어하거나[ImageSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageSavingCallback)및[ImagesFolder](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImagesFolder)속성은 문서를Markdown형식으로 변환할 때 이미지가 저장되는 방법을 제어합니다.
 
-## 지원되는 Markdown 제품 정보
+## 지원되는Markdown기능
 
-Aspose.Words 현재 다음을 지원합니다. Markdown 주로 따르는 특징 `CommonMark` 명세서에 Aspose.Words API 그리고 적당한 작풍 또는 직접적인 체재로 대표됩니다:
+Aspose.Words은 현재Aspose.WordsAPI의`CommonMark`사양을 주로 따르고 적절한 스타일 또는 직접 서식으로 표시되는 다음Markdown기능을 지원합니다:
 
-* 제목은 제목 1 - 제목 6 스타일
-* Blockquotes는 스타일 이름에서 "Quote"와 단락입니다
-* IndentedCode는 스타일 이름에서 "IndentedCode"와 단락입니다
-* 담근 코드는 스타일 이름에서 "FencedCode"와 단락입니다
-* InlineCode는 "InlineCode"로 실행됩니다. `Font` 스타일 이름
-* 수평 규칙은 단락과 `HorizontalRule` 이름 *
-* Bold 강조
-* Italic 강조
-* StrikeThrough 형식
-* 목록은 번호 또는 총격 단락
-* 테이블은 표현됩니다. `Table` 수업시간
-* 이름 링크는 `FieldHyperlink` 수업시간
+* 제목은Heading 1–Heading 6스타일의 단락입니다
+* 인용문은 스타일 이름에"인용문"이 있는 단락입니다
+* IndentedCode은 스타일 이름에"IndentedCode"이 있는 단락입니다
+* FencedCode은 스타일 이름에"FencedCode"이 있는 단락입니다
+* InlineCode은`Font`스타일 이름에"InlineCode"이 있는 실행입니다
+* 가로 규칙은`HorizontalRule`모양의 단락입니다
+* 대담한 강조
+* 기울임 꼴 강조
+* StrikeThrough서식 지정
+* 목록은 번호가 매겨 지거나 글 머리 기호로 된 단락입니다
+* 테이블은`Table`클래스로 표시됩니다
+* 링크는`FieldHyperlink`클래스로 표시됩니다
 
-다음 예제는 몇 가지 스타일로 문서를 만들고 저장하는 방법을 보여줍니다. Markdown::
+다음 예제에서는 일부 스타일을 사용하여 문서를 만들고Markdown에 저장하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SupportedMarkdownFeatures.java" >}}
 
-이 코드 예의 결과는 아래와 같습니다.
+이 코드 예제의 결과는 아래에 나와 있습니다.
 
 ![markdown-example-aspose-words-java](/words/java/convert-a-document-to-markdown/markdown-example.png)
 
 ## 유용한 팁
 
-몇 가지 nuances와 흥미로운 사례가 있습니다. Markdown 파일 더 유연하고 편리하게. 예를 들어, 사용할 수있는 능력이 있습니다
+Markdown파일로 더 유연하고 편리하게 작업 할 수있는 것을 배운 몇 가지 뉘앙스와 흥미로운 경우가 있습니다. 예를 들어,:
 
-* SetextHeading은 멀티 라인 헤드를 만들 수 있습니다. <span notrans="<span notrans=" Markdown"=""></span>· 자주 묻는 질문 Markdown 단 하나 선일 수 있습니다. SetextHeading은 "Heading N"스타일을 기반으로하며 레벨은 1 또는 2일만 가능합니다. N이 "Heading N"보다 크거나 2와 동일하면 해당 SetextHeading은 "Heading 2", 그렇지 않으면 "Heading 1"을 기반으로합니다.
-* 총알 목록 ( "-", "+"또는 "*", 기본 마커는 "-".) 및 주문 목록에 대한 번호의 다른 유형 (". "또는 ")", 기본 마커는 ".").
+* SetextHeading을 사용하면Markdown에서 여러 줄 머리글을 만들 수 있지만Markdown의 일반 머리글은 한 줄만 만들 수 있습니다. SetextHeading은"제목 엔"스타일을 기반으로하며 레벨은 1 또는 2 일 수 있습니다. 만약 엔"제목 엔"이 2 보다 크거나 같다면,해당SetextHeading은"Heading 2"을 기반으로 하고,그렇지 않으면"Heading 1"을 기반으로 합니다.
+* 글머리 기호 목록의 첫 번째 수준에 대한 다른 마커("-","+"또는"*",기본 마커는"-"입니다.)및 순서 목록에 대한 다양한 유형의 번호 매기기("."또는")",기본 마커는".").

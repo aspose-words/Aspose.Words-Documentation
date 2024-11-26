@@ -1,4 +1,4 @@
-﻿---
+---
 title: Eliminați Câmpurile C++
 second_title: Aspose.Words pentru C++
 articleTitle: Eliminați Câmpurile
@@ -7,6 +7,7 @@ description: "Aflați cum să eliminați câmpurile din C++. Eliminați câmpuri
 type: docs
 weight: 35
 url: /ro/cpp/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uneori este necesar să eliminați un câmp dintr-un document. Acest lucru poate apărea atunci când trebuie înlocuit cu un alt tip de câmp sau când câmpul nu mai este necesar în document. De exemplu, câmpul `TOC` când salvați în HTML.

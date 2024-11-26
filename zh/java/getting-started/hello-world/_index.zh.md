@@ -7,6 +7,7 @@ description: "使用任何支持的格式创建、编辑和保存您的第一个
 type: docs
 weight: 20
 url: /zh/java/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 "Hello, World!" 代码常常是第一个写 uisng 的简单例子Aspose.Words (单位:千美元) Java",它也可以用作一种理智测试,以确保旨在编译或运行源代码的软件被正确安装.

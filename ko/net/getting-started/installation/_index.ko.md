@@ -7,6 +7,7 @@ description: "Manage NuGet Packages 또는 Package Manager Console과 같은 Vis
 type: docs
 weight: 10
 url: /ko/net/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 시작하기 전에 귀하의 기계가 [시스템 요구 사항](/words/ko/net/system-requirements/)를 충족하는지 확인하십시오.
@@ -55,7 +56,7 @@ NuGet는 [.NET용 Aspose.Words](https://www.nuget.org/packages/Aspose.Words/) AP
 
 .NET용 Aspose.Words를 설치하려면 다음 단계를 따르세요
 
-1. [다운로드 섹션](https://releases.aspose.com/words/)에서 `Aspose.Words_`{LatestVersion}.msi를 다운로드합니다
+1. [다운로드 섹션](https://releases.aspose.com/words/)에서 `Aspose.Words_{LatestVersion}.msi`를 다운로드합니다
 2. 다운로드한 파일을 두 번 클릭하여 설정 마법사를 시작하고 설정 마법사 지침을 따릅니다.<br>
    <img src="/words/net/installation/aspose-words-setup-1.png" alt="aspose-단어-설정-1" style="width:500px"/>
 3. 설치 마법사가 설치를 완료하면 제공된 폴더 경로의 폴더에서 필요한 파일을 사용할 수 있습니다.<br>

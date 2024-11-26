@@ -7,6 +7,7 @@ description: "Python を使用して、さまざまなドキュメント レイ�
 type: docs
 weight: 10
 url: /ja/python-net/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words を使用すると、[LayoutOptions](https://reference.aspose.com/words/python-net/aspose.words.layout/layoutoptions/) クラスのプロパティで指定されたパラメーターに応じて、さまざまなレイアウトで出力ドキュメントを作成できます。これらのプロパティの一部は、Microsoft Word ユーザー インターフェイス メニュー オプションの一部に似ています。これらについては、この記事で説明します。

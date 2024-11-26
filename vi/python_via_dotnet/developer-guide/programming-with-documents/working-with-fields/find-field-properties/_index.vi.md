@@ -7,6 +7,7 @@ description: "Cách tìm một số thuộc tính trường như mã trường v
 type: docs
 weight: 25
 url: /vi/python-net/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Trường được chèn bằng [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/).[insert_field](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_field/) sẽ trả về một đối tượng [Field](https://reference.aspose.com/words/python-net/aspose.words.fields/field/). Đây là lớp mặt tiền cung cấp các phương thức hữu ích để nhanh chóng tìm thấy một số thuộc tính của một trường.

@@ -7,6 +7,7 @@ description: "Cách tìm các thuộc tính trường như mã trường và k�
 type: docs
 weight: 25
 url: /vi/java/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Một trường được chèn bằng cách sử dụng [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) trả về một đối tượng [Field](https://reference.aspose.com/words/java/com.aspose.words/field/). Đây là lớp giả mặt cung cấp các phương pháp hữu ích để nhanh chóng tìm những thuộc tính của một trường.

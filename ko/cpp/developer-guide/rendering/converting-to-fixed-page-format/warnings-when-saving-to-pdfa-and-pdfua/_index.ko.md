@@ -1,4 +1,4 @@
-﻿---
+---
 title: 저장 시 경고 PDF/A 그리고 PDF/UA
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 에 저장할 때 접근성 문제 경고 PDF/A 그리고 PDF/UA
@@ -7,6 +7,7 @@ description: "PDF/A 그리고 PDF/UA 문서 내용과 관련된 접근성 요구
 type: docs
 weight: 39
 url: /ko/cpp/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/A 그리고 PDF/UA 형식은 워드에서 워드로 자동 변환하는 동안 충족할 수 없는 문서 내용과 관련된 여러 가지 접근성 요구 사항을 부과합니다. PDF. 이러한 요구 사항은 이전 문서에서 설명합니다 *"Working with PDF/A or PDF/UA"*. 이제 이러한 문제 중 일부에 대한 경고가 발급됩니다.

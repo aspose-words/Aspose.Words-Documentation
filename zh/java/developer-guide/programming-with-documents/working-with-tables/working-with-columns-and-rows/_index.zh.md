@@ -7,6 +7,7 @@ description: "使用表格中的部分 - 行、列和单元格 Java。 。 。 �
 type: docs
 weight: 30
 url: /zh/java/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 对于表格如何工作的更多控制,学习如何操纵列和行.

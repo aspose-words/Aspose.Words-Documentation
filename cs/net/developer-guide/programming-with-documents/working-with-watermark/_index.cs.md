@@ -7,6 +7,7 @@ description: "Dokument vodoznak manipulace pomocí C#."
 type: docs
 weight: 340
 url: /cs/net/working-with-watermark/
+timestamp: 2024-05-02-11-51-44
 ---
 
 Toto téma pojednává o tom, jak pracovat programově s vodoznakem pomocí Aspose.Words. Vodoznak je obrázek pozadí, který se zobrazí za textem v dokumentu. Vodoznak může obsahovat text nebo obraz reprezentovaný [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) třída.

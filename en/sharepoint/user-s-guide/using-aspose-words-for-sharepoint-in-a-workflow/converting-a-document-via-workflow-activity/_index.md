@@ -7,6 +7,7 @@ description: "This article explains how to use SharePoint Designer to create a w
 type: docs
 weight: 20
 url: /sharepoint/converting-a-document-via-workflow-activity/
+timestamp: 2024-01-27-14-07-04
 ---
 
 This article explains how to use SharePoint Designer to create a workflow for converting new documents to PDF and storing the results in another document library.

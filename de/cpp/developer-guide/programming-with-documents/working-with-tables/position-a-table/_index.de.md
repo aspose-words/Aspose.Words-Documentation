@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tabellenposition in C++
 second_title: Aspose.Words für C++
 articleTitle: Einen Tisch positionieren
@@ -7,6 +7,7 @@ description: "Geben Sie die Tabellenposition in C++ an. Holen Sie sich eine Tabe
 type: docs
 weight: 50
 url: /de/cpp/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Es gibt schwebende Tabellen und Inline-Tabellen:

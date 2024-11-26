@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk met Boekmerke in Java
 second_title: Aspose.Words vir Java
 articleTitle: Werk met Boekmerke
@@ -7,6 +7,7 @@ description: "Verstaan boekmerk konsepte en hoe boekmerk gebruik kan word in jou
 type: docs
 weight: 180
 url: /af/java/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Boekmerke identifiseer in'n Microsoft Word dokument die liggings of fragmente wat jy noem en identifiseer vir toekomstige verwysing. U kan byvoorbeeld'n boekmerk gebruik om teks te identifiseer wat u later wil hersien. In plaas daarvan om deur die dokument te blaai om die teks te vind, kan jy daarheen gaan deur Die Boekmerk-dialoogkassie te gebruik.

@@ -7,6 +7,7 @@ description: "Utilisez la césure pour une disposition plus compacte du texte à
 type: docs
 weight: 220
 url: /fr/net/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Parfois, il est nécessaire d'utiliser la césure pour une disposition plus compacte du texte dans un document. Dans le même temps, il est important de comprendre que les spécificités de la césure des mots peuvent différer pour chaque langue.

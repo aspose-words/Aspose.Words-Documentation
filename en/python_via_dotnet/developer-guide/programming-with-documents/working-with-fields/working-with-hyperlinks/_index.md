@@ -10,6 +10,7 @@ url: /python-net/working-with-hyperlinks/
 aliases:
 - /python/working-with-hyperlinks-and-html/
 - /python-net/working-with-hyperlinks-and-html/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A hyperlink in Microsoft Word documents is the `HYPERLINK` field. In Aspose.Words, hyperlinks are implemented through the [FieldHyperlink](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldhyperlink/) class.

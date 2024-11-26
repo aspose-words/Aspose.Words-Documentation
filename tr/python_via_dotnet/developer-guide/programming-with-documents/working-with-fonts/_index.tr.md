@@ -7,6 +7,7 @@ description: "Python'i kullanarak yazı tipi ayarlarını özelleştirin."
 type: docs
 weight: 230
 url: /tr/python-net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Yazı tipi, belirli bir boyuta, renge ve tasarıma sahip bir karakter kümesidir. Aspose.Words, [fonts](https://reference.aspose.com/words/python-net/aspose.words.fonts/) modülünü ve [Font](https://reference.aspose.com/words/python-net/aspose.words/font/) sınıfını kullanarak yazı tipleriyle çalışmanıza olanak tanır.

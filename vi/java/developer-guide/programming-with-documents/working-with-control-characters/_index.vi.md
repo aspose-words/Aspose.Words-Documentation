@@ -7,6 +7,7 @@ description: "Giới thiệu về việc làm việc với các ký tự điều
 type: docs
 weight: 400
 url: /vi/java/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word tài liệu có thể chứa các ký tự khác nhau mà có ý nghĩa đặc biệt. Chúng thường dùng cho mục đích định dạng và không được vẽ trong chế độ thông thường. Bạn có thể hiển thị chúng nếu nhấn nút Show/Hide Formatting Marks nằm trên thanh công cụ chuẩn.

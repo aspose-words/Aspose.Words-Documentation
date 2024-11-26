@@ -7,6 +7,7 @@ description: "Aspose.Words per .NET può incorporare i caratteri TrueType corret
 type: docs
 weight: 10
 url: /it/net/manipulating-and-substitution-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words richiede caratteri TrueType per una varietà di attività, incluso il rendering di documenti in formati a pagina fissa, ad esempio PDF o XPS. Quando Aspose.Words esegue il rendering di un documento, deve eseguire l'incorporamento e l'incorporamento di sottoinsiemi di caratteri TrueType nel documento risultante, che è una pratica normale durante la generazione di un documento, inclusi i formati PDF o XPS più diffusi. Ciò garantisce che il documento apparirà uguale a qualsiasi visualizzatore. Inoltre, la specifica XPS richiede che i caratteri siano sempre incorporati nel documento.
@@ -58,7 +59,7 @@ Tuttavia, ci sono situazioni in cui non è possibile trovare il carattere esatto
 1. Se Aspose.Words non è in grado di individuare il carattere richiesto con la corrispondenza esatta del nome e la proprietà [AltName](https://reference.aspose.com/words/it/net/aspose.words.fonts/fontinfo/altname/) definita per questo carattere, Aspose.Words troverà il carattere definito con **AltName** dalla classe [FontInfo](https://reference.aspose.com/words/it/net/aspose.words.fonts/fontinfo/), che specifica le informazioni sul carattere.
 1. Se Aspose.Words non è in grado di individuare il carattere definito e anche **AltName** non è definito, le regole di sostituzione dei caratteri vengono applicate una per una, come descritto di seguito (quando viene trovata la sostituzione appropriata, il processo di sostituzione dei caratteri si interrompe e il il passaggio successivo non viene eseguito):
    1. Innanzitutto, Aspose.Words tenta di elaborare il nome del carattere per ottenere la sostituzione, in particolare tenta di rimuovere i suffissi con separatori "-" e ",".<br>
-      Se viene applicata questa regola di sostituzione, "Il font '&lt;OriginalFont&gt;' non è stato trovato. Si utilizza invece il font '&lt;SubstitutionFont&gt;'. Motivo: sostituzione del nome del font." viene visualizzato l'avviso.<br>
+      Se viene applicata questa regola di sostituzione, "Il font '<OriginalFont>' non è stato trovato. Si utilizza invece il font '<SubstitutionFont>'. Motivo: sostituzione del nome del font." viene visualizzato l'avviso.<br>
             {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontsFoldersSystemAndCustomFolder-GetSubstitutionWithoutSuffixes.cs" >}}
    1. Quindi Aspose.Words tenta di applicare le impostazioni dei caratteri del sistema operativo, se disponibili, utilizzando l'utilità **FontConfig**. Questa funzionalità non Windows deve essere utilizzata con un sistema operativo compatibile con FontConfig. Quasi tutti i sistemi operativi basati su Unix dispongono già di una libreria `FontConfig` progettata per fornire configurazione dei caratteri, personalizzazione e accesso alle applicazioni a livello di sistema. Altrimenti, questa libreria può essere facilmente installata dall'utente.
       Aspose.Words sa come interrogare i dati e interpretare i risultati FontConfig per i propri scopi. Per impostazione predefinita, l'utilità `FontConfig` è disabilitata. Puoi abilitarlo come segue:<br>

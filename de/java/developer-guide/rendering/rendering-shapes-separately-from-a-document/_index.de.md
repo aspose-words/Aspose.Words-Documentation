@@ -1,92 +1,93 @@
----
-title: Rendering Formen Getrennt von einem Dokument
+﻿---
+title: Formen getrennt von einem Dokument rendern
 second_title: Aspose.Words für Java
-articleTitle: Rendering Formen Getrennt von einem Dokument
-linktitle: Rendering Formen Getrennt von einem Dokument
-description: "Extrahieren Sie verschiedene grafische Objekte, wie Bilder, Textfeld mit Absätzen oder Pfeilformen, wenn Sie ein Dokument bearbeiten, und exportieren Sie sie an einen externen Standort mit Java."
+articleTitle: Formen getrennt von einem Dokument rendern
+linktitle: Formen getrennt von einem Dokument rendern
+description: "Extrahieren Sie bei der Verarbeitung eines Dokuments verschiedene Grafikobjekte, z. B. Bilder, Textfelder mit Absätzen oder Pfeilformen, und exportieren Sie sie mit Java an einen externen Speicherort."
 type: docs
 weight: 40
 url: /de/java/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Bei der Verarbeitung von Dokumenten besteht die gemeinsame Aufgabe darin, alle im Dokument gefundenen Bilder zu extrahieren und an einen externen Standort zu exportieren. Diese Aufgabe wird einfach mit Aspose.Words API, die bereits die Funktionalität zum Extrahieren und Speichern von Bilddaten bietet. Manchmal möchten Sie jedoch ähnlich andere Arten von grafischen Inhalten extrahieren, die durch eine andere Art von Zeichnungsobjekt dargestellt sind, beispielsweise ein Textfeld mit Absätzen, Pfeilformen und ein kleines Bild. Es gibt keinen einfachen Weg, dieses Objekt zu machen, da es sich um eine Kombination von einzelnen Inhaltselementen handelt. Sie können auch einen Fall auftreten, wenn die Inhalte zusammen in das Objekt gruppiert wurden, das wie ein einziges Bild aussieht.
+Bei der Verarbeitung von Dokumenten besteht eine häufige Aufgabe darin, alle im Dokument gefundenen Bilder zu extrahieren und an einen externen Speicherort zu exportieren. Diese Aufgabe wird mit Aspose.Words API einfach, das bereits die Funktionalität zum Extrahieren und Speichern von Bilddaten bietet. Manchmal möchten Sie jedoch möglicherweise auch andere Arten von Grafikinhalten extrahieren, die durch einen anderen Typ von Zeichenobjekt dargestellt werden, z. B. ein Textfeld mit Absätzen, Pfeilformen und einem kleinen Bild. Es gibt keine einfache Möglichkeit, dieses Objekt zu rendern, da es sich um eine Kombination einzelner Inhaltselemente handelt. Es kann auch vorkommen, dass der Inhalt zu einem Objekt gruppiert wurde, das wie ein einzelnes Bild aussieht.
 
-Aspose.Words bietet Funktionalität, um diese Art von Inhalten in der gleichen Weise zu extrahieren, können Sie ein einfaches Bild aus der Form herausziehen, wie der erzeugte Inhalt. Dieser Artikel beschreibt, wie diese Funktionalität verwendet wird, um Formen unabhängig vom Dokument zu machen.
+Aspose.Words bietet Funktionen zum Extrahieren dieses Inhaltstyps auf die gleiche Weise, wie Sie ein einfaches Bild aus einer Form als gerenderten Inhalt extrahieren können. In diesem Artikel wird beschrieben, wie Sie diese Funktionalität verwenden, um Formen unabhängig vom Dokument zu rendern.
 
-## Formen in Aspose.Words
+## Formtypen in Aspose.Words
 
-Alle Inhalte in einer Belegzeichnungsschicht sind durch die [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) oder [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) Knoten in der Aspose.Words Dokument Objektmodul (DOM) Solche Inhalte können Textfelder, Bilder, AutoShapes, OLE-Objekte usw. sein. Einige Felder werden auch als Formen importiert, zum Beispiel, `INCLUDEPICTURE` Feld.
+Der gesamte Inhalt einer Dokumentzeichnungsebene wird durch den Knoten [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) oder [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) im Dokumentobjektmodul Aspose.Words (DOM) dargestellt. Solche Inhalte können Textfelder, Bilder, AutoShapes, OLE Objekte usw. sein. Einige Felder werden auch als Formen importiert, z. B. das Feld `INCLUDEPICTURE`.
 
-Ein einfaches Bild wird durch eine **Shape** Knoten [ShapeType.Image](https://reference.aspose.com/words/java/com.aspose.words/shapetype/#IMAGE). Dieser Formknoten hat keine Kinderknoten, aber die innerhalb dieses Formknotens enthaltenen Bilddaten können von der [Shape.ImageData](https://reference.aspose.com/words/java/com.aspose.words/shape/#getImageData) Eigentum. Andererseits kann auch eine Form aus vielen Kinderknoten gebildet werden. Zum Beispiel eine Textfeldform, die durch die [ShapeType.TextBox](https://reference.aspose.com/words/java/com.aspose.words/shapetype/#TEXT-BOX) Eigenschaft, kann aus vielen Knoten, wie [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) und [Table](https://reference.aspose.com/words/java/com.aspose.words/table/). Die meisten Formen können die **Paragraph** und **Table** Block-Level-Knoten. Dies sind die gleichen Knoten wie die im Hauptkörper erscheinen. Formen sind immer Teile eines Absatzes, entweder direkt inline enthalten oder an den **Absatz** aber "auslöschen" überall auf der Dokumentseite.
+Ein einfaches Bild wird durch einen **Shape** -Knoten von [ShapeType.Image](https://reference.aspose.com/words/java/com.aspose.words/shapetype/#IMAGE) dargestellt. Dieser Formknoten hat keine untergeordneten Knoten, aber auf die in diesem Formknoten enthaltenen Bilddaten kann mit der Eigenschaft [Shape.ImageData](https://reference.aspose.com/words/java/com.aspose.words/shape/#getImageData) zugegriffen werden. Andererseits kann eine Form auch aus vielen untergeordneten Knoten bestehen. Beispielsweise kann eine Textfeldform, die durch die Eigenschaft [ShapeType.TextBox](https://reference.aspose.com/words/java/com.aspose.words/shapetype/#TEXT-BOX) dargestellt wird, aus vielen Knoten bestehen, z. B. [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) und [Table](https://reference.aspose.com/words/java/com.aspose.words/table/). Die meisten Formen können die Knoten **Paragraph** und **Table** auf Blockebene enthalten. Dies sind die gleichen Knoten wie die, die im Hauptteil erscheinen. Formen sind immer Teile eines Absatzes, entweder direkt inline enthalten oder an **Paragraph,** verankert, aber an einer beliebigen Stelle auf der Dokumentseite "schwebend".
 
 ![rendering-shapes-separately-from-a-document-aspose-words-java-1](/words/java/rendering-shapes-separately-from-a-document/rendering-shapes-separately-from-a-document-1.png)
 
-Ein Dokument kann auch Formen enthalten, die zusammen gruppiert werden. Grouping kann eingeschaltet werden Microsoft Word indem Sie mehrere Objekte auswählen und auf "Group" im Kontextmenü.
+Ein Dokument kann auch Formen enthalten, die gruppiert sind. Die Gruppierung kann in Microsoft Word aktiviert werden, indem mehrere Objekte ausgewählt und im Kontextmenü auf "Gruppieren" geklickt wird.
 
 ![rendering-shapes-separately-from-a-document-aspose-words-java-2](/words/java/rendering-shapes-separately-from-a-document/rendering-shapes-separately-from-a-document-2.png)
 
-In Aspose.Words, Diese Formengruppen sind durch die [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) Knoten. Diese können auch in gleicher Weise aufgerufen werden, um die gesamte Gruppe zum Bild zu machen.
+In Aspose.Words werden diese Gruppen von Formen durch den Knoten [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) dargestellt. Diese können auch auf die gleiche Weise aufgerufen werden, um die gesamte Gruppe für das Bild zu rendern.
 
 ![rendering-shapes-separately-from-a-document-aspose-words-java-3](/words/java/rendering-shapes-separately-from-a-document/rendering-shapes-separately-from-a-document-3.png)
 
-Das DOCX-Format kann spezielle Arten von Bildern, wie Diagramme oder Diagramme enthalten. Diese Formen sind auch durch die **Shape** Knoten in Aspose.Words, die auch ein ähnliches Verfahren zur Darstellung als Bilder bietet. Eine Form kann nicht als Kind eine andere Form enthalten, es sei denn, diese Form ist ein Bild (**ShapeType.Image**) Zum Beispiel Microsoft Word erlaubt es Ihnen nicht, ein Textfeld in ein anderes Textfeld einzufügen.
+Das Format DOCX kann spezielle Bildtypen enthalten, z. B. Diagramme oder Diagramme. Diese Formen werden auch durch den Knoten **Shape** in Aspose.Words dargestellt, der auch eine ähnliche Methode zum Rendern als Bilder bereitstellt. Konstruktionsbedingt kann eine Form als Kind keine andere Form enthalten, es sei denn, diese Form ist ein Bild (**ShapeType.Image**). Mit Microsoft Word können Sie beispielsweise kein Textfeld in ein anderes Textfeld einfügen.
 
-Die oben beschriebenen Formtypen liefern ein spezielles Verfahren, um die Formen durch die [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/) Klasse. Ein Beispiel der **ShapeRenderer** Klasse wird für eine **Shape** oder **GroupShape** durch die **GetShapeRenderer** Verfahren oder durch Passieren **Shape** zum Konstruktor der **ShapeRenderer** Klasse. Diese Klasse bietet Zugang zu Mitgliedern, die eine Form wie folgt zulassen:
+Die oben beschriebenen Formtypen bieten eine spezielle Methode zum Rendern der Formen über die Klasse [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/). Eine Instanz der **ShapeRenderer** -Klasse wird für eine **Shape** oder **GroupShape** durch die **GetShapeRenderer** -Methode oder durch Übergeben der **Shape** an den Konstruktor der **ShapeRenderer** -Klasse abgerufen. Diese Klasse bietet Zugriff auf Elemente, mit denen eine Form wie folgt gerendert werden kann:
 
-- Datei auf der Festplatte mit der [Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.lang.String-com.aspose.words.ImageSaveOptions) Prozessüberlastung
-- Stream mit der [Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.io.OutputStream-com.aspose.words.ImageSaveOptions) Prozessüberlastung
-- Grafiken Objekt mit Hilfe der [RenderToSize](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToSize-java.awt.Graphics2D-float-float-float-float) und [RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float) Methoden
+- Datei auf der Festplatte mit der [Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.lang.String-com.aspose.words.ImageSaveOptions)-Methodenüberladung
+- Stream mit der [Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.io.OutputStream-com.aspose.words.ImageSaveOptions) -Methodenüberladung
+- Grafikobjekt mit den Methoden [RenderToSize](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToSize-java.awt.Graphics2D-float-float-float-float) und [RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float)
 
 {{% alert color="primary" %}}
 
-Beim Rendern eines <span notrans="<span notrans=" **Shape**"=""></span>,"> Es muss Teil der Dokumentenhierarchie sein. Wenn **Shape** ist kein Teil des Dokumentbaums, dann wird die ausgegebene Ausgabe nach dem Aufruf leer sein **ShapeRenderer** Methoden.
+Beim Rendern einer **Shape** muss sie Teil der Dokumenthierarchie sein. Wenn **Shape** nicht Teil des Dokumentbaums ist, ist die gerenderte Ausgabe nach dem Aufrufen von **ShapeRenderer** -Methoden leer.
 
 {{% /alert %}}
 
-## Rendering to File oder Stream
+## Rendern in Datei oder Stream
 
-Die [Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.lang.String-com.aspose.words.ImageSaveOptions) Verfahren bietet Überlastungen, die eine Form direkt zu einer Datei oder einem Stream machen. Beide Überlastungen nehmen eine Instanz der [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) Klasse, die Optionen zur Gestaltung der Form definieren lässt. Dies funktioniert in der gleichen Weise wie die [Document.Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-com.aspose.words.SaveOptions) Methode. Auch wenn dieser Parameter erforderlich ist, können Sie einen Null-Wert übergeben, indem Sie angeben, dass es keine benutzerdefinierten Optionen gibt.
+Die [Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.lang.String-com.aspose.words.ImageSaveOptions) -Methode stellt Überladungen bereit, die eine Form direkt in eine Datei oder einen Stream rendern. Beide Überladungen akzeptieren eine Instanz der Klasse [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/), mit der Optionen zum Rendern der Form definiert werden können. Dies funktioniert genauso wie die [Document.Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-com.aspose.words.SaveOptions) -Methode. Obwohl dieser Parameter erforderlich ist, können Sie einen Nullwert übergeben, der angibt, dass keine benutzerdefinierten Optionen vorhanden sind.
 
-Die Form kann in jedem Bildformat exportiert werden, das im [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) Aufzählung. Beispielsweise kann das Bild als Rasterbild wie JPEG durch Angabe der [SaveFormat.Jpeg](https://reference.aspose.com/words/java/com.aspose.words/saveformat/#JPEG) Aufzählung oder als Vektorbild, wie EMF durch Angabe der [SaveFormat.Emf](https://reference.aspose.com/words/java/com.aspose.words/saveformat/#EMF).
+Die Form kann in ein beliebiges Bildformat exportiert werden, das in der [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)-Aufzählung angegeben ist. Beispielsweise kann das Bild als Rasterbild gerendert werden, z. B. JPEG durch Angabe der [SaveFormat.Jpeg](https://reference.aspose.com/words/java/com.aspose.words/saveformat/#JPEG)-Aufzählung, oder als Vektorbild, z. B. EMF durch Angabe von [SaveFormat.Emf](https://reference.aspose.com/words/java/com.aspose.words/saveformat/#EMF).
 
-Das nachfolgende Codebeispiel illustriert die Darstellung einer Form auf ein EMF-Bild getrennt von Dokument und das Speichern auf Festplatte:
+Das folgende Codebeispiel zeigt das Rendern einer Form in ein EMF -Bild getrennt vom Dokument und das Speichern auf der Festplatte:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-RenderShapeToDisk.java" >}}
 
-Das nachfolgende Codebeispiel illustriert die Form eines JPEG-Bildes getrennt vom Dokument und die Speicherung in einen Stream:
+Das folgende Codebeispiel zeigt das Rendern einer Form in ein JPEG -Bild getrennt vom Dokument und das Speichern in einem Stream:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-RenderShapeToStream.java" >}}
 
-Die **ImageSaveOptions** class ermöglicht es Ihnen, eine Vielzahl von Optionen anzugeben, die steuern, wie das Bild dargestellt wird. Die oben beschriebene Funktionalität kann in gleicher Weise auf die **GroupShape** und **Shape** Knoten.
+Mit der Klasse **ImageSaveOptions** können Sie eine Vielzahl von Optionen angeben, die steuern, wie das Bild gerendert wird. Die oben beschriebene Funktionalität kann in gleicher Weise auf die Knoten **GroupShape** und **Shape** angewendet werden.
 
-## Rendering to a `Graphics` Gegenstand
+## Rendern in ein `Graphics` -Objekt
 
-Direkt an eine **Graphics** Objekt ermöglicht es Ihnen, Ihre eigenen Einstellungen und den Zustand für die **Graphics** Objekt. Ein gemeinsames Szenario bedeutet, eine Form direkt in eine **Graphics** aus einem Windows Formular oder eine Bitmap. Wenn **Shape** node wird eingestellt, die Einstellungen beeinflussen die Form Aussehen. Beispielsweise können Sie die Form drehen oder skalieren, indem Sie die **RotateTransform** oder **ScaleTransform** Methoden für die **Graphics** Objekt.
+Durch direktes Rendern in ein **Graphics** -Objekt können Sie Ihre eigenen Einstellungen und den Status für das **Graphics** -Objekt definieren. Ein häufiges Szenario besteht darin, eine Form direkt in ein **Graphics**-Objekt zu rendern, das aus einem Windows-Formular oder einer Bitmap abgerufen wurde. Wenn der **Shape** -Knoten gerendert wird, wirken sich die Einstellungen auf das Erscheinungsbild der Form aus. Sie können die Form beispielsweise drehen oder skalieren, indem Sie die Methoden **RotateTransform** oder **ScaleTransform** für das Objekt **Graphics** verwenden.
 
-Das folgende Beispiel zeigt, wie eine Form an eine **Graphics** Objekt getrennt vom Dokument und Anwendung Rotation auf das Rendered-Bild:
+Das folgende Beispiel zeigt, wie Sie eine Form separat vom Dokument auf ein **Graphics** -Objekt rendern und das gerenderte Bild drehen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-RenderShapeToGraphics.java" >}}
 
-In ähnlicher Weise [RenderToSize](https://reference.aspose.com/words/java/com.aspose.words/document/#renderToSize-int-java.awt.Graphics2D-float-float-float-float) Verfahren, [RenderToSize](https://reference.aspose.com/words/java/com.aspose.words/document/#renderToSize-int-java.awt.Graphics2D-float-float-float-float)von der [NodeRendererBase](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/) ist nützlich für die Erstellung von Miniaturansichten von Dokumenteninhalten. Die Formgröße wird durch den Konstruktor vorgegeben. Die **RenderToSize** die Methode akzeptiert **Graphics** Objekt, die X- und Y-Koordinaten der Bildposition und die Größe des Bildes (Breite und Höhe), das auf die **Graphics** Objekt.
+Ähnlich wie bei der [RenderToSize](https://reference.aspose.com/words/java/com.aspose.words/document/#renderToSize-int-java.awt.Graphics2D-float-float-float-float)-Methode ist die von [NodeRendererBase](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/) geerbte [RenderToSize](https://reference.aspose.com/words/java/com.aspose.words/document/#renderToSize-int-java.awt.Graphics2D-float-float-float-float)-Methode nützlich, um Miniaturansichten des Dokumentinhalts zu erstellen. Die Formgröße wird durch den Konstruktor angegeben. Die **RenderToSize** -Methode akzeptiert das **Graphics** -Objekt, die X- und Y-Koordinaten der Bildposition und die Größe des Bildes (Breite und Höhe), das auf das **Graphics** -Objekt gezeichnet wird.
 
-Die **Shape** mit Hilfe der [ShapeRenderer.RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float) von der [NodeRendererBase](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/) Klasse. Dies ist ähnlich wie die [Document.RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float) Methode, die die gleichen großen Parameter akzeptiert. Der Unterschied zwischen diesen beiden Methoden ist, daß **ShapeRenderer.RenderToScale** Methode, statt einer wörtlichen Größe, wählen Sie einen Float-Wert, der die Form während seiner Rendering skaliert. Wenn der Schwimmerwert gleich 1,0 ist, wird die Form bei 100% ihrer ursprünglichen Größe wiedergegeben. Ein Schwimmerwert von 0,5 reduziert die Bildgröße um die Hälfte.
+Die **Shape** kann mit der von der [NodeRendererBase](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/) -Klasse geerbten [ShapeRenderer.RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float) -Methode in einem bestimmten Maßstab gerendert werden. Dies ähnelt der [Document.RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float) -Methode, die dieselben Hauptparameter akzeptiert. Der Unterschied zwischen diesen beiden Methoden besteht darin, dass Sie bei der **ShapeRenderer.RenderToScale** -Methode anstelle einer Literalgröße einen Gleitkommawert auswählen, der die Form während des Renderns skaliert. Wenn der Gleitkommawert gleich 1.0 ist, wird die Form mit 100% ihrer ursprünglichen Größe gerendert. Ein Gleitkommawert von 0.5 reduziert die Bildgröße um die Hälfte.
 
-## Rendern eines Formbildes
+## Rendern eines Formbilds
 
-Die [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) Klasse stellt Objekte in der Zeichenschicht dar, wie ein AutoShape, Textfeld, Freeform, OLE-Objekt, ActiveX-Steuerung oder ein Bild. Verwendung von **Shape** Klasse, können Sie Formen in einer Microsoft Word Dokument. Eine wichtige Eigenschaft einer Form ist ihre [ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/). Formen verschiedener Typen können in einem Word-Dokument unterschiedliche Fähigkeiten haben. Zum Beispiel können nur Bilder und OLE-Formen Bilder in ihnen haben, während die meisten Formen nur Text haben können.
+Die Klasse [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) repräsentiert Objekte in der Zeichnungsebene, z. B. ein AutoShape-, Textfeld-, Freiform-, OLE-Objekt, ActiveX-Steuerelement oder ein Bild. Mit der Klasse **Shape** können Sie Formen in einem Microsoft Word-Dokument erstellen oder ändern. Eine wichtige Eigenschaft einer Form ist ihre [ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/). Formen verschiedener Typen können in einem Word-Dokument unterschiedliche Funktionen aufweisen. Beispielsweise können nur Bilder und OLE -Formen Bilder enthalten, während die meisten Formen nur Text enthalten können.
 
-Das folgende Beispiel zeigt, wie man ein Shape-Bild zu einem JPEG-Bild getrennt vom Dokument macht und auf die Festplatte speichert:
+Das folgende Beispiel zeigt, wie Sie ein Formbild separat vom Dokument in ein JPEG-Bild rendern und auf der Festplatte speichern:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-RenderShapeImage.java" >}}
 
 ## Abrufen einer Formgröße
 
-Die [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/) Klasse bietet auch Funktionalität, um die Größe der Form in Pixeln durch die [GetSizeInPixels](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#getSizeInPixels-float-float) Methode. Diese Methode akzeptiert zwei Float- (Single)-Parameter – die Skala und DPI, die bei der Berechnung der Formgröße beim Rendern der Form verwendet werden. Das Verfahren gibt die [Size](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#getSizeInPixels-float-float) ein Objekt, das die Breite und Höhe der berechneten Größe enthält. Dies ist nützlich, wenn man die Größe der Rendered-Form im Voraus kennen muss, beispielsweise beim Erstellen einer neuen Bitmap aus dem Rendered-Ausgang.
+Die [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/) -Klasse bietet auch Funktionen zum Abrufen der Größe der Form in Pixeln über die [GetSizeInPixels](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#getSizeInPixels-float-float) -Methode. Diese Methode akzeptiert zwei float (Einzel–) Parameter - die Skalierung und DPI, die bei der Berechnung der Formgröße beim Rendern der Form verwendet werden. Die Methode gibt das [Size](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#getSizeInPixels-float-float) -Objekt zurück, das die Breite und Höhe der berechneten Größe enthält. Dies ist nützlich, wenn die Größe der gerenderten Form im Voraus bekannt sein muss, z. B. beim Erstellen einer neuen Bitmap aus der gerenderten Ausgabe.
 
-Das folgende Beispiel zeigt, wie man ein neues Bitmap- und Grafikobjekt mit der Breite und Höhe der darzustellenden Form erstellt:
+Das folgende Beispiel zeigt, wie Sie ein neues Bitmap- und Grafikobjekt mit der Breite und Höhe der zu rendernden Form erstellen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-FindShapeSizes.java" >}}
 
-Bei Verwendung der **RenderToSize** oder **RenderToScale** Verfahren, wobei die Bildgröße auch in der [SizeF](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#renderToScale-java.awt.Graphics2D-float-float-float) Objekt. Dies kann einer Variable zugeordnet und bei Bedarf verwendet werden.
+Bei Verwendung der Methoden **RenderToSize** oder **RenderToScale** wird die gerenderte Bildgröße auch im Objekt [SizeF](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#renderToScale-java.awt.Graphics2D-float-float-float) zurückgegeben. Dies kann einer Variablen zugewiesen und bei Bedarf verwendet werden.
 
-Die **SizeInPoints** Eigenschaft gibt die in Punkten gemessene Formgröße zurück (siehe [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/)) Das Ergebnis ist `SizeF` Objekt mit Breite und Höhe.
+Die Eigenschaft **SizeInPoints** gibt die in Punkten gemessene Formgröße zurück (siehe [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/)). Das Ergebnis ist ein `SizeF` -Objekt, das die Breite und Höhe enthält.

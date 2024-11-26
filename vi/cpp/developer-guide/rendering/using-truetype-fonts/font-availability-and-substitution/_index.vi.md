@@ -1,4 +1,4 @@
-﻿---
+---
 title: MFont Tính Khả dụng và Thay thế trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Tính khả dụng và Thay thế phông chữ
@@ -7,6 +7,7 @@ description: "Khi không thể tìm thấy phông chữ thay thế chính xác, 
 type: docs
 weight: 12
 url: /vi/cpp/font-availability-and-substitution/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Một văn bản trong tài liệu có thể được định dạng với nhiều phông chữ khác nhau, chẳng hạn như Arial, Times New Roman, Verdana và các phông chữ khác. Khi Aspose.Words hiển thị tài liệu, nó sẽ cố gắng chọn các phông chữ được chỉ định trong tài liệu.

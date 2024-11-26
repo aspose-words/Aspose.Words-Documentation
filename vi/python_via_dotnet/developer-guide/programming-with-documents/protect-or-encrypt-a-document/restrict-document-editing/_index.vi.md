@@ -7,6 +7,7 @@ description: "Hạn chế chỉnh sửa tài liệu bằng cách đặt loại h
 type: docs
 weight: 30
 url: /vi/python-net/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi bạn có thể cần giới hạn khả năng chỉnh sửa tài liệu và chỉ cho phép một số hành động nhất định với tài liệu đó. Điều này có thể hữu ích để ngăn người khác chỉnh sửa thông tin nhạy cảm và bí mật trong tài liệu của bạn.

@@ -7,6 +7,7 @@ description: "Python via .NET için Aspose.Words, Office Eklentileriyle çalış
 type: docs
 weight: 50
 url: /tr/python-net/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen belgeleri değiştirmek için kod çalıştıran arayüz kontrollerine erişim vermek isteyebilirsiniz. Aspose.Words API, Office Eklentilerini temsil etmek için XML kelime dağarcığını genişleten öğeleri ve nitelikleri özelleştirmek için çeşitli sınıflar sağlayan [webextensions](https://reference.aspose.com/words/python-net/aspose.words.webextensions/) modülünü sağlar.

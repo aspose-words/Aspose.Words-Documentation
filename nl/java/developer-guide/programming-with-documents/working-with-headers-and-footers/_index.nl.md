@@ -7,6 +7,7 @@ description: "Hoe headers en voetteksten te manipuleren Java."
 type: docs
 weight: 150
 url: /nl/java/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words stelt gebruikers in staat om te werken met headers en voetteksten in een document. Een header is tekst die bovenaan een pagina wordt geplaatst, en een voettekst is tekst onderaan een pagina. Typisch worden deze gebieden gebruikt om informatie in te voegen die moet worden herhaald op alle of sommige pagina's van het document, zoals paginanummers, aanmaakdatum, bedrijfsinformatie, enzovoort.

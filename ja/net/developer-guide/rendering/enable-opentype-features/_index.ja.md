@@ -7,6 +7,7 @@ description: "C# を使用した高度なタイポグラフィ機能。"
 type: docs
 weight: 25
 url: /ja/net/enable-opentype-features/
+timestamp: 2024-07-10-14-38-57
 ---
 
 OpenType は、PostScript や TrueType と比較して、国際言語および書記体系のサポートを向上させるために導入されたフォント形式です。 OpenType のレイアウト機能は、一般に OpenType 機能として知られています。 Aspose.Words.Shaping.HarfBuzz パッケージは、HarfBuzz テキスト整形エンジンを使用して Aspose.Words の OpenType 機能のサポートを提供します。

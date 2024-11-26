@@ -7,6 +7,7 @@ description: "Dokładniej kontroluj proces ładowania za pomocą C#."
 type: docs
 weight: 10
 url: /pl/net/specify-load-options/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Podczas ładowania dokumentu możesz ustawić pewne zaawansowane właściwości. Aspose.Words udostępnia klasę [LoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/), która pozwala na bardziej precyzyjną kontrolę procesu ładowania. Niektóre formaty ładowania mają odpowiednią klasę, która przechowuje opcje ładowania dla tego formatu ładowania, na przykład istnieje [PdfLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/) do ładowania do formatu PDF lub [TxtLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/) do ładowania do TXT. W tym artykule przedstawiono przykłady pracy z opcjami klasy **LoadOptions**.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中加载、保存和转换
 second_title: Aspose.Words对于C++
 articleTitle: 加载、保存和转换
@@ -7,6 +7,7 @@ description: "如何将文档从一种格式转换为另一种格式，例如Wor
 type: docs
 weight: 10
 url: /zh/cpp/loading-saving-and-converting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 本节提供有关加载和保存文档时的功能的信息，以及将文档从一种格式转换为另一种格式时的可能性的数据。

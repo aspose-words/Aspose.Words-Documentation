@@ -7,6 +7,7 @@ description: "Вставте в документ і вкажіть його па
 type: docs
 weight: 160
 url: /uk/python-net/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words також надає деякі класи, методи та властивості для роботи з ногами та ендонотами.

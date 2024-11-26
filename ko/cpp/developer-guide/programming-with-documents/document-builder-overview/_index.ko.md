@@ -1,4 +1,4 @@
-﻿---
+---
 title: 문서 작성기 개요 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 문서 작성기 개요
@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilder 동적 문서를 처음부터 작성하거나 다음을 사용하여 기존 문서에 새 요소를 추가할 수 있습니다 C++. DocumentBuilder 텍스트,확인란,표,이미지 및 기타 콘텐츠 요소를 삽입하는 방법을 제공합니다 C++."
 weight: 30
 url: /ko/cpp/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/) 강력한 계급입니다. [Document](https://reference.aspose.com/words/cpp/aspose.words/document/) 동적 문서를 처음부터 작성하거나 기존 문서에 새 요소를 추가할 수 있습니다.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: العمل مع VBA وحدات الماكرو في C++
 second_title: Aspose.Words ل C++
 articleTitle: العمل مع VBA وحدات الماكرو
@@ -7,6 +7,7 @@ description: "العمل مع مشاريع الوثيقة VBA باستخدام C
 type: docs
 weight: 410
 url: /ar/cpp/working-with-vba-macros/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Visual Basic للتطبيقات (VBA) ل Microsoft Word هي لغة برمجة بسيطة ولكنها قوية يمكن استخدامها لتوسيع الوظائف. Aspose.Words API يوفر ثلاث فئات للوصول إلى VBA شفرة مصدر المشروع:

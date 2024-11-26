@@ -8,6 +8,7 @@ type: docs
 weight: 70
 url: /net/find-and-replace-text-in-documents/
 aliases: [/net/using-find-and-replace-in-npoi/]
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

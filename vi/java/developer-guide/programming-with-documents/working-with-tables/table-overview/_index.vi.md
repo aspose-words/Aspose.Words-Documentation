@@ -7,6 +7,7 @@ description: "Làm việc với các bảng và các thành phần của chúng 
 type: docs
 weight: 10
 url: /vi/java/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words là thư viện lớp được thiết kế cho xử lý phía máy chủ của các tài liệu ở nhiều định dạng – PDF, HTML, nhiều định dạng Microsoft Word và các định dạng khác – và hỗ trợ bảng theo những cách sau:

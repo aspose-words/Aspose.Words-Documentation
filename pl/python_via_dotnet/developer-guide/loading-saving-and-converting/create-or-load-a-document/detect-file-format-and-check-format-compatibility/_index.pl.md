@@ -7,6 +7,7 @@ description: "Określ format pliku w Python, jeśli nie jesteś pewien, jaka jes
 type: docs
 weight: 20
 url: /pl/python-net/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Czasami konieczne jest określenie formatu dokumentu przed otwarciem, ponieważ rozszerzenie pliku nie gwarantuje, że zawartość pliku jest odpowiednia. Wiadomo na przykład, że Crystal Reports często generuje dokumenty w formacie RTF, ale nadaje im rozszerzenie .doc.

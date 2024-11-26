@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++文档中节点的逻辑级别
 second_title: Aspose.Words对于C++
 articleTitle: 文档中节点的逻辑级别
@@ -7,6 +7,7 @@ type: docs
 description: "在 Aspose.Words对于C++ 文档中提到了节点的逻辑级别-块级别、内联级别或行级别。 节点级别用于描述文档树中节点通常出现的位置。"
 weight: 10
 url: /zh/cpp/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 本文档有时将一组节点类称为属于文档中的"级别"，例如"块级别"、"内联级别"（也称为"内联"）或"行级别"节点。 文档中的这些级别纯粹是在逻辑上区分的，并且没有通过继承或其他Aspose.WordsDOM表示。 节点级别用于描述文档树中节点通常出现的位置。

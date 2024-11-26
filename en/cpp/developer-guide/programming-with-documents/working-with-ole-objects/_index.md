@@ -9,6 +9,7 @@ aliases:
  - /cpp/working-with-ole-objects-and-online-video/
 weight: 360
 url: /cpp/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE (Object Linking and Embedding) is a technology by which users can work with documents containing "objects" created or edited by third-party applications. That is, OLE allows an editing application to export these "objects" to another editing application and then import them with additional content.

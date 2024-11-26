@@ -7,6 +7,7 @@ description: "Zamień tekst w tabeli w Python. Wyodrębnij zwykły tekst z tabel
 type: docs
 weight: 60
 url: /pl/python-net/work-with-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Jak wspomniano w poprzednich artykułach, tabela zwykle zawiera zwykły tekst, chociaż w komórkach tabeli można umieścić inną zawartość, taką jak obrazy lub nawet inne tabele.

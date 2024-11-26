@@ -1,4 +1,4 @@
-﻿---
+---
 title: Manipulation des polices et Problèmes de performances en C++
 second_title: Aspose.Words pour C++
 articleTitle: Problèmes de Manipulation et de Performances des Polices
@@ -7,6 +7,7 @@ description: "Aspose.Words pour C++ utilise le nom complet de la police, le nom 
 type: docs
 weight: 11
 url: /fr/cpp/font-manipulation-and-performance-issues/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Tous les mécanismes de manipulation de polices disponibles sont contenus dans la classe [FontSettings](https://reference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings). Cette classe est responsable de la récupération des polices dans les sources de polices définies ainsi que du processus de substitution de polices, comme décrit ci-dessous.

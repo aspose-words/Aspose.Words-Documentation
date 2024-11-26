@@ -1,4 +1,4 @@
-﻿---
+---
 title: Ürünü CMake Projesinde yapılandırın
 second_title: Aspose.Words için C++
 articleTitle: Yapılandır Aspose.Words için C++ CMake Projesinde
@@ -7,6 +7,7 @@ description: "Yapılandır Aspose.Words için C++ CMake 'inizde ve uygulamanız�
 type: docs
 weight: 90
 url: /tr/cpp/configure-aspose-words-for-cpp-in-cmake-project/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Aspose.Words için C++ API herhangi bir GNU / Linux işletim sistemi için CMake ile çalışır. Olabilir [resmi web sitesinden indirildi](https://cmake.org/download/).

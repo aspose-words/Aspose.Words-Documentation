@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++での文書の挿入と追加
 second_title: C++の場合Aspose.Words
 articleTitle: 文書の挿入と追加
@@ -7,6 +7,7 @@ description: "ドキュメントを1つに結合する:検索と置換、差し�
 type: docs
 weight: 80
 url: /ja/cpp/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 複数のドキュメントを1つに結合する必要がある場合があります。 これは手動で行うことも、Aspose.Words挿入または追加機能を使用することもできます。

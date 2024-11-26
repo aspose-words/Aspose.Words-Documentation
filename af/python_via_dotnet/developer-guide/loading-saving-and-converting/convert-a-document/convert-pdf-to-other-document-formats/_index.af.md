@@ -1,4 +1,4 @@
-﻿---
+---
 title: Omskep PDF Na Ander Dokumentformate
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Omskep PDF Na Ander Dokumentformate
@@ -8,6 +8,7 @@ description: "Skakel PDF om Na Woordformate soos DOCX, DOC, beeldformate soos JP
 keywords: convert pdf to other formats python
 weight: 45
 url: /af/python-net/convert-pdf-to-other-document-formats/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words kan selfs so'n komplekse formaat soos PDF laai. Dit bied nuwe geleenthede: dit is moontlik om PDF om te skakel na Word of ander formate wat gebruikers ver vooruit bring in die oplossing van baie toegepaste probleme.

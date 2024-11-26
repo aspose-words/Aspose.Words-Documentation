@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm việc với Các Cột và Hàng trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm việc với Các Cột và Hàng
@@ -7,6 +7,7 @@ description: "Làm việc với các phần của bảng-hàng, cột và ô b�
 type: docs
 weight: 30
 url: /vi/cpp/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Để kiểm soát nhiều hơn cách các bảng hoạt động, hãy học cách thao tác các cột và hàng.

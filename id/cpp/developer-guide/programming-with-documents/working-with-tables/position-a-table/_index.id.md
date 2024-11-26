@@ -1,4 +1,4 @@
-﻿---
+---
 title: Posisi Tabel dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Posisikan Tabel
@@ -7,6 +7,7 @@ description: "Tentukan posisi tabel di C++. Dapatkan perataan tabel, dapatkan, d
 type: docs
 weight: 50
 url: /id/cpp/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ada tabel mengambang dan tabel sebaris:

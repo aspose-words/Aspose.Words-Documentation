@@ -7,6 +7,7 @@ description: "在打开文档格式之前获取关于文档格式的信息, 以�
 type: docs
 weight: 20
 url: /zh/java/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 有时需要在打开文件前确定文件的格式,因为文件扩展名不能保证文件的内容是适当的. 例如,人们知道,Crystal Reports经常以RTF格式输出文档,但给了它们.doc扩展.

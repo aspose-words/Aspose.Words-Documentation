@@ -7,6 +7,7 @@ description: "Laden Sie Aspose.Words für .NET-Beispiele aus unserem GitHub-Repo
 type: docs
 weight: 110
 url: /de/net/how-to-run-the-examples/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Um sich mit den Aspose.Words-Möglichkeiten und -Funktionen besser vertraut zu machen, stellen wir Beispiele zur Verfügung, die Sie aus unserem GitHub-Repository herunterladen, ausführen und im Detail lernen können.

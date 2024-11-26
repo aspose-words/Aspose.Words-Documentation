@@ -7,6 +7,7 @@ description: "Erweiterte Microsoft Word-Formatierungsfunktionen, Arbeiten mit St
 type: docs
 weight: 110
 url: /de/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Die [StyleCollection](https://reference.aspose.com/words/de/net/aspose.words/stylecollection/)-Klasse wird zum Verwalten integrierter Stile und zum Anwenden benutzerdefinierter Einstellungen auf Stile verwendet.
@@ -36,7 +37,7 @@ In diesem Beispieldokument ist der mit dem Absatzstil "Überschrift 1" formatier
 
 ### Der Code
 
-Die Implementierung einer stilbasierten Abfrage ist im Aspose.Words-Dokumentobjektmodell recht einfach, da einfach bereits vorhandene Tools verwendet werden. Für diese Lösung werden zwei Klassenmethoden implementiert:# **ParagraphsByStyleName** – Diese Methode ruft ein Array dieser Absätze in ab das Dokument, das einen bestimmten Stilnamen hat.# **RunsByStyleName** – Diese Methode ruft ein Array der Läufe im Dokument ab, die einen bestimmten Stilnamen haben. Beide Methoden sind sehr ähnlich, die einzigen Unterschiede bestehen in den Knotentypen und der Darstellung des Stils Informationen innerhalb des Absatzes und der Ausführungsknoten. Hier ist eine Implementierung von ParagraphsByStyleName: Im folgenden Beispiel finden Sie alle Absätze, die mit dem angegebenen Stil formatiert sind.
+Die Implementierung einer stilbasierten Abfrage ist im Aspose.Words-Dokumentobjektmodell recht einfach, da einfach bereits vorhandene Tools verwendet werden. Für diese Lösung werden zwei Klassenmethoden implementiert: **ParagraphsByStyleName** – Diese Methode ruft ein Array dieser Absätze in ab das Dokument, das einen bestimmten Stilnamen hat. **RunsByStyleName** – Diese Methode ruft ein Array der Läufe im Dokument ab, die einen bestimmten Stilnamen haben. Beide Methoden sind sehr ähnlich, die einzigen Unterschiede bestehen in den Knotentypen und der Darstellung des Stils Informationen innerhalb des Absatzes und der Ausführungsknoten. Hier ist eine Implementierung von ParagraphsByStyleName: Im folgenden Beispiel finden Sie alle Absätze, die mit dem angegebenen Stil formatiert sind.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.cs" >}}
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tablo Hücrelerini C++ içinde Birleştir
 second_title: Aspose.Words için C++
 articleTitle: Tablo Hücrelerini Birleştir
@@ -7,6 +7,7 @@ description: "Tablo hücreleri C++ içinde nasıl birleştirilir. Tablodaki hüc
 type: docs
 weight: 40
 url: /tr/cpp/merge-table-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen bir tablodaki belirli satırlar, tablonun tüm genişliğini kaplayan bir başlık veya büyük metin blokları gerektirir. Tablonun doğru tasarımı için, kullanıcı birkaç tablo hücresini bir araya getirebilir. Aspose.Words HTML içeriğin içe aktarılması da dahil olmak üzere tüm giriş biçimleriyle çalışırken birleştirilmiş hücreleri destekler.

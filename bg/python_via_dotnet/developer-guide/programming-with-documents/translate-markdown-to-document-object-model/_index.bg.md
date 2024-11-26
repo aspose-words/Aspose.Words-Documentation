@@ -7,6 +7,7 @@ type: docs
 description: "Тарнслат а Markdown документ към Document Object Model и обратно използване Python. Така че можете да работите със сложни съществуващи Markdown и програмно създаване на Markdown документ от нулата."
 weight: 20
 url: /bg/python-net/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 За да се чете, манипулира и променя съдържанието и форматирането на документ, трябва да го преведете на Aspose.Words Document Object Model (DOM).
@@ -63,7 +64,7 @@ builder.writeln("This text will be Strikethrough")
 
 builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.strikethrough_text_example.md"){{< /highlight >}} |  |
 
-Използваме стил на героя с име, което започва от думата <span notrans="<span notrans=" `InlineCode`"=""></span>,"> последвано от незадължителна точка `(.)` и редица подпори ```(`)``` за `InlineCode` функция. Ако се пропусне определен брой backticks, тогава един backtick ще се използва по подразбиране.
+Използваме стил на героя с име, което започва от думата `InlineCode` последвано от незадължителна точка `(.)` и редица подпори ```(`)``` за `InlineCode` функция. Ако се пропусне определен брой backticks, тогава един backtick ще се използва по подразбиране.
 
 |  Markdown функция |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |

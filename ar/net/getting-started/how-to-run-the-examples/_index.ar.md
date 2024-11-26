@@ -7,6 +7,7 @@ description: "قم بتنزيل أمثلة Aspose.Words for .NET من مستود
 type: docs
 weight: 110
 url: /ar/net/how-to-run-the-examples/
+timestamp: 2024-10-24-11-44-28
 ---
 
 لكي نصبح أكثر دراية بإمكانيات وميزات Aspose.Words، نقدم أمثلة يمكن تنزيلها من مستودع GitHub الخاص بنا وتشغيلها والتعلم بالتفصيل.

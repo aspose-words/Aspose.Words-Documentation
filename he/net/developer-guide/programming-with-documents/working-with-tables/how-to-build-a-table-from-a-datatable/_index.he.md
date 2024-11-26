@@ -1,12 +1,13 @@
 ---
-title: איך לבנות שולחן משולחן `DataTable` פנימה C#
+title: איך לבנות שולחן משולחן DataTable פנימה C#
 second_title: Aspose.Words עבור .NET
-articleTitle: לבנות שולחן מ `DataTable`
-linktitle: לבנות שולחן מ `DataTable`
+articleTitle: לבנות שולחן מ DataTable
+linktitle: לבנות שולחן מ DataTable
 description: "דוגמה לטבלת מסמכים מילוי ממסד נתונים חיצוני C#."
 type: docs
 weight: 120
 url: /he/net/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-09-25-11-08-55
 ---
 
 לעתים קרובות היישום שלך ימשוך נתונים ממסד נתונים ולאחסן אותו בצורה של **DataTable**. אתה יכול בקלות להוסיף נתונים אלה לתוך המסמך שלך כשולחן חדש וליישם במהירות פורמט לכל השולחן.

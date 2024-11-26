@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words Sitemap Java melakukan Smart Art Cold Rendering, yang berarti bahwa itu berbaring dan render benda SmartArt jika gambar SmartArt yang telah ditentukan hilang atau salah."
 weight: 330
 url: /id/java/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Grafik SmartArt digunakan untuk dengan cepat dan mudah membuat representasi informasi visual. Anda hanya memilih dari sejumlah besar tata letak yang paling sesuai dengan situasi Anda. Kemudahan penggunaan ini membuat grafis SmartArt cukup populer untuk beberapa tujuan.

@@ -7,6 +7,7 @@ type: docs
 description: "Vergelijk twee documenten in ondersteunde formaten en toont wijzigingen in de inhoud. U kunt geavanceerde opties toepassen bij het vergelijken van het gebruik Java."
 weight: 60
 url: /nl/java/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Het vergelijken van documenten is een proces dat veranderingen tussen twee documenten identificeert en de wijzigingen als herzieningen bevat. Dit proces vergelijkt twee documenten, waaronder versies van één specifiek document, dan worden de wijzigingen tussen beide documenten getoond als herzieningen in het eerste document.

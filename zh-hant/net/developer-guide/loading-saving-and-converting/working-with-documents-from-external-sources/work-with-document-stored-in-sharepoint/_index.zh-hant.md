@@ -7,6 +7,7 @@ description: "用C#將Word共享在SharePoint中的檔案轉換為PDF。 與儲�
 type: docs
 weight: 20
 url: /zh-hant/net/work-with-document-stored-in-sharepoint/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Microsoft SharePoint 在線是一組以網路為基礎的技術，讓組織能夠輕鬆地儲存、分享和管理數位資訊。 您可以使用我們強大的 Aspose.Words for .NET 在 SharePoint 中的共享文件夹中儲存的文件上工作。

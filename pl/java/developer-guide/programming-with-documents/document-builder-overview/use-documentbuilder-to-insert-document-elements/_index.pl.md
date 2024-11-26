@@ -1,12 +1,13 @@
 ---
-title: Stosowanie `DocumentBuilder` wstawić elementy dokumentu
+title: Stosowanie DocumentBuilder wstawić elementy dokumentu
 second_title: Aspose.Words zamiast Java
-articleTitle: Stosowanie `DocumentBuilder` wstawić elementy dokumentu
-linktitle: Stosowanie `DocumentBuilder` wstawić elementy dokumentu
+articleTitle: Stosowanie DocumentBuilder wstawić elementy dokumentu
+linktitle: Stosowanie DocumentBuilder wstawić elementy dokumentu
 type: docs
 description: "Wstaw elementy dokumentu przy użyciu konstruktora dokumentu w Java."
 weight: 10
 url: /pl/java/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 W [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) jest używany do modyfikacji dokumentów. Ten artykuł wyjaśnia i opisuje, jak wykonać wiele zadań.
@@ -152,7 +153,7 @@ Klienci mogą określić Locale na poziomie pola teraz i może osiągnąć lepsz
 
 ## Wstawianie HTML
 
-Możesz łatwo umieścić łańcuch HTML zawierający fragment HTML lub cały dokument HTML w dokumencie Word. Po prostu przekaż ten sznurek DocumentBuilderowi. wstawić Metoda Html. Jedną z przydatnych implementacji metody jest przechowywanie łańcucha HTML w bazie danych i umieszczanie go w dokumencie podczas mail merge aby dodać sformatowaną zawartość zamiast budować ją przy użyciu różnych metod konstruktora dokumentów. Poniższy przykład kodu pokazuje wstawianie HTML do dokumentu przy użyciu DocumentBuilder.
+Możesz łatwo umieścić łańcuch HTML zawierający fragment HTML lub cały dokument HTML w dokumencie Word. Po prostu przekaż ten sznurek DocumentBuilderowi. wstawić Metoda Html. Jedną z przydatnych implementacji metody jest przechowywanie łańcucha HTML w bazie danych i umieszczanie go w dokumencie podczas Mail Merge aby dodać sformatowaną zawartość zamiast budować ją przy użyciu różnych metod konstruktora dokumentów. Poniższy przykład kodu pokazuje wstawianie HTML do dokumentu przy użyciu DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHtml-DocumentBuilderInsertHtml.java" >}}
 

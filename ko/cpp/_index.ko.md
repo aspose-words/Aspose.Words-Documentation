@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words 에 대한 C++
 articleTitle: Aspose.Words 에 대한 C++
 linktitle: Aspose.Words 에 대한 C++
@@ -7,6 +7,7 @@ type: docs
 weight: 30
 url: /ko/cpp/
 is_root: true
+timestamp: 2024-09-25-11-08-55
 ---
 
 <img src="home_1" alt="aspose-words-cpp-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>

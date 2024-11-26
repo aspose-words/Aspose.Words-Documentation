@@ -1,4 +1,4 @@
-﻿---
+---
 title: Kết xuất trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Kết xuất
@@ -7,6 +7,7 @@ description: "Sử dụng Aspose.Words cho C++ tính năng kết xuất để đ
 type: docs
 weight: 20
 url: /vi/cpp/rendering/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Chúng tôi sử dụng thuật ngữ "kết xuất" trong Aspose.Words để mô tả quá trình chuyển đổi tài liệu thành định dạng tệp hoặc phương tiện được phân trang hoặc có khái niệm trang. Chúng ta đang nói về việc hiển thị một tài liệu thành các trang. Sơ đồ sau đây cho thấy kết xuất là gì trong Aspose.Words.

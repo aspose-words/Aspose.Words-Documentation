@@ -7,6 +7,7 @@ description: "Bagaimana cara memanipulasi catatan kaki dan catatan akhir menggun
 type: docs
 weight: 160
 url: /id/java/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words juga menyediakan beberapa kelas, metode dan sifat untuk bekerja dengan catatan kaki dan catatan akhir.

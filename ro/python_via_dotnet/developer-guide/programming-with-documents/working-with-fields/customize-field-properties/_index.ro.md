@@ -1,4 +1,4 @@
-﻿---
+---
 title: Personalizați proprietățile câmpului în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Personalizați Proprietățile Câmpului
@@ -7,6 +7,7 @@ description: "Aflați cum să personalizați proprietățile câmpului în Pytho
 type: docs
 weight: 27
 url: /ro/python-net/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words oferă posibilitatea de a interacționa programatic cu diferite proprietăți de câmp. În acest articol, vom analiza câteva exemple, astfel încât să înțelegeți principiul de bază al lucrului cu proprietățile câmpului. Puteți vedea lista completă de proprietăți pentru fiecare tip de câmp din clasa corespunzătoare în [Fields module](https://reference.aspose.com/words/python-net/aspose.words.fields/).

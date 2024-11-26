@@ -7,6 +7,7 @@ description: "Extrage diverse obiecte grafice, cum ar fi imagini, casete de text
 type: docs
 weight: 40
 url: /ro/net/rendering-shapes-separately-from-a-document/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Când procesăm documente, o sarcină comună este să extragem toate imaginile găsite în document și să le exportăm într-o locație externă. Această sarcină devine simplă cu Aspose.Words API, care oferă deja funcționalitatea pentru extragerea și salvarea datelor imaginii. "Cu toate acestea, uneori veți dori să extrageți alte tipuri de conținut grafic reprezentat de un tip diferit de obiect desenat, de exemplu o cutie de text care conține paragrafe, forme de săgeată și o mică imagine." Nu există un mod simplu de a redarea acestui obiect, deoarece este o combinație de elemente de conținut individuale. De asemenea, puteți întâlni un caz în care conținutul este grupat împreună într-un obiect care arată ca o singură imagine.

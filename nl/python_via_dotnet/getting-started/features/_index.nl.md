@@ -7,6 +7,7 @@ description: "Aspose.Words voor Python via .NET biedt gebruikers een breed scala
 type: docs
 weight: 30
 url: /nl/python-net/features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words biedt gebruikers een breed scala aan functies. Gebruikers kunnen een enorme hoeveelheid document-gerelateerde taken uit te voeren van het eenvoudig omzetten van documenten van het ene ondersteunde formaat naar het andere en het wijzigen van die documenten tijdens het conversieproces om zakelijke taken, zoals het creëren van gestructureerde en visueel aantrekkelijke documenten of het automatiseren van rapportage.
@@ -108,16 +109,16 @@ U kunt Aspose.Words als een eigen rapportageoplossing. Ontwerp uw rapporten in M
 
 |  Functie | Python via .NET |
 |  :-  |  :-  |
-| Alle standaard gebruiken Microsoft Word mail merge velden in uw rapporten inclusief `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, Groeten. | {{< emoticons/tick >}} |
-| Uitvoeren mail merge voor documenten die zelfs de meest complexe en geneste bevatten `IF` velden en formules. | {{< emoticons/tick >}} |
-| Populeer en verbouw dynamisch tabellen of fragmenten in het document met behulp van uw gegevensbron mail merge regio's. | {{< emoticons/cross >}} |
+| Alle standaard gebruiken Microsoft Word Mail Merge velden in uw rapporten inclusief `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, Groeten. | {{< emoticons/tick >}} |
+| Uitvoeren Mail Merge voor documenten die zelfs de meest complexe en geneste bevatten `IF` velden en formules. | {{< emoticons/tick >}} |
+| Populeer en verbouw dynamisch tabellen of fragmenten in het document met behulp van uw gegevensbron Mail Merge regio's. | {{< emoticons/cross >}} |
 | Gemakkelijk rapporten genereren die master-detail gegevens bevatten zoals Order/OrderDetails. | {{< emoticons/cross >}} |
 | Documenten met gegevens van alle .NET gegevensbron zoals DataSet, DataTable, DataView, DataReader of ADO Recordset. | {{< emoticons/cross >}} |
 | Populeer documenten van een gegevensbron zoals een LINQ query, XML-bestand of zakelijke objecten door het implementeren van de [IMailMergeDataSource](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/imailmergedatasource/) interface. | {{< emoticons/cross >}} |
 | Neem nauwkeurige controle, zoals nummeropmaak, over hoe uw gegevens worden samengevoegd met behulp van gebeurtenissen. | {{< emoticons/cross >}} |
 | Afbeeldingen invoegen tijdens mail merge. | {{< emoticons/tick >}} |
-| Programmatisch een Microsoft Word mail merge gegevensbron voor een document. Behoud mail merge instellingen en gegevensbronnen. | {{< emoticons/tick >}} |
-| Ophalen mail merge veldnamen. | {{< emoticons/tick >}} |
+| Programmatisch een Microsoft Word Mail Merge gegevensbron voor een document. Behoud Mail Merge instellingen en gegevensbronnen. | {{< emoticons/tick >}} |
+| Ophalen Mail Merge veldnamen. | {{< emoticons/tick >}} |
 
 ## Rapportagefuncties
 

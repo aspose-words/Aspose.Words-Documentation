@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm Việc với Các Bảng trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm Việc Với Các Bảng
@@ -7,6 +7,7 @@ description: "Làm thế nào để làm việc với các bảng trong C++. Gi�
 type: docs
 weight: 190
 url: /vi/cpp/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A **table** trong một tài liệu là một cách tuyệt vời để cấu trúc dữ liệu tương tự. Đó là lý do tại sao các bảng là một phần tử định dạng nội dung phổ biến và được hầu hết các định dạng hỗ trợ ở dạng này hay dạng khác.

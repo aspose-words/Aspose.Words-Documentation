@@ -7,6 +7,7 @@ type: docs
 description: "Encontre uma string ou padrão de expressão regular em seu documento e substitua-o pelo texto desejado usando Python."
 weight: 100
 url: /pt/python-net/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Você pode navegar facilmente em seu documento usando teclado e mouse, mas se tiver muitas páginas para percorrer, demorará um pouco para encontrar um texto específico em um documento longo. Será mais demorado quando você quiser substituir determinados caracteres ou palavras que usou em seu documento. A funcionalidade "Localizar e substituir" permite localizar uma sequência de caracteres em um documento e substituí-la por outra sequência de caracteres.

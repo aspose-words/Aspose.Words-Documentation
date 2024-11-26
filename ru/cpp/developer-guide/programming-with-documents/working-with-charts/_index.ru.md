@@ -1,4 +1,4 @@
-﻿---
+---
 title: Работа с диаграммами на C++
 second_title: Aspose.Words для C++
 articleTitle: Работа с графиками
@@ -7,6 +7,7 @@ description: "Введение в функцию построения диагр
 type: docs
 weight: 310
 url: /ru/cpp/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 В класс [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/) был добавлен новый метод [InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/). Итак, давайте посмотрим, как вставить простую столбчатую диаграмму в документ, используя метод [InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/).

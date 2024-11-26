@@ -7,6 +7,7 @@ description: "Memahami fitur Fields Form, bekerja dengan Form Fields menggunakan
 type: docs
 weight: 380
 url: /id/java/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dokumen yang berisi blanks isi (bidang) dikenal sebagai bentuk. Misalnya, Anda dapat membuat formulir pendaftaran dalam Microsoft Word yang menggunakan daftar drop-down dari pengguna mana yang dapat memilih entri. Login `Form` bidang adalah lokasi di mana jenis data tertentu, seperti nama atau alamat, disimpan. Bidang bentuk dalam Microsoft Word termasuk input teks, combobox dan kotak centang.

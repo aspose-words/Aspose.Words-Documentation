@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中跟踪文档中的更改
 second_title: Aspose.Words对于C++
 articleTitle: 跟踪文档中的更改
@@ -7,6 +7,7 @@ description: "跟踪您或其他人使用C++对内容和格式所做的更改。
 type: docs
 weight: 270
 url: /zh/cpp/track-changes-in-a-document/
+timestamp: 2024-01-30-16-22-34
 ---
 
 跟踪更改（也称为审阅）的功能允许您跟踪您或其他用户对内容和格式所做的更改。 此带有Aspose.Words的跟踪更改功能支持Microsoft Word中的跟踪更改。 使用此功能，您可以访问文档中的各个修订版并对其应用不同的属性。

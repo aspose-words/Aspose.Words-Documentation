@@ -7,6 +7,7 @@ description: "Python でテーブルの位置を指定します。 Python を使
 type: docs
 weight: 50
 url: /ja/python-net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 フローティング テーブルとインライン テーブルがあります。

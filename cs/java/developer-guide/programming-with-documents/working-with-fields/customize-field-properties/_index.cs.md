@@ -7,6 +7,7 @@ description: "Naučte se přizpůsobit vlastnosti pole v Java. Přejmenovat pole
 type: docs
 weight: 27
 url: /cs/java/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words poskytuje schopnost programově komunikovat s různými vlastnostmi pole. V tomto článku se podíváme na několik příkladů, abyste pochopili základní princip práce s vlastnostmi oboru. Úplný seznam vlastností pro každý typ pole můžete vidět v odpovídající třídě.

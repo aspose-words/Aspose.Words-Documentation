@@ -7,6 +7,7 @@ description: "قم بإنشاء الأشكال والكائنات ole وإدار
 type: docs
 weight: 280
 url: /ar/python-net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 يناقش هذا الموضوع كيفية العمل برمجيًا مع الأشكال باستخدام Aspose.Words.

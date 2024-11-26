@@ -8,6 +8,7 @@ type: docs
 weight: 380
 url: /python-net/working-with-form-fields/
 aliases: [/python/working-with-form-fields/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 A document that contains fill-in blanks (fields) is known as a form. For example, you can create a registration form in Microsoft Word that uses drop-down lists from which users can select entries. The `Form` field is a location where a particular type of data, such as a name or address, is stored. Form fields in Microsoft Word include text input, combobox and checkbox.

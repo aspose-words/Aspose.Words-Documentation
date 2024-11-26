@@ -1,4 +1,4 @@
-﻿---
+---
 title: Conversia Între Unitățile De Măsură
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Conversia Între Unitățile De Măsură
@@ -7,6 +7,7 @@ description: "Aspose.Words pentru Python via .NET vă poate ajuta cu modul de a 
 type: docs
 weight: 20
 url: /ro/python-net/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Majoritatea proprietăților obiectului furnizate în Aspose.Words API care reprezintă unele măsurători, cum ar fi lățimea sau înălțimea, marginile și diferite distanțe, acceptă valori în puncte, unde 1 inch este egal cu 72 puncte. Uneori acest lucru nu este convenabil și punctele trebuie convertite în alte unități.

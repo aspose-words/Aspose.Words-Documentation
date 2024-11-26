@@ -7,6 +7,7 @@ type: docs
 description: "Login Aspose.Words Sitemap Java contoh dari kami GitHub repositori dan belajar cara menjalankannya menjadi lebih akrab dengan Aspose.Words kemungkinan dan fitur."
 weight: 130
 url: /id/java/how-to-run-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Sitemap GitHub

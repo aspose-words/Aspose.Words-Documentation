@@ -1,4 +1,4 @@
-﻿---
+---
 title: 技術サポート
 second_title: C++の場合Aspose.Words
 articleTitle: 技術サポート
@@ -7,6 +7,7 @@ type: docs
 description: "C++の場合Aspose.Words すべてのユーザーが利用できる無料の技術サポートを提供します。 Aspose Free Support Forumを使用して、質問、問題、または機能要求を報告してください。"
 weight: 80
 url: /ja/cpp/technical-support/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Asposeは、すべての製品に無制限の無料テクニカルサポートを提供しています。 評価を含むすべてのユーザーがサポートを利用できます。 サポートの主な手段は次のとおりです [アスポーズフォーラム](https://forum.aspose.com/c/words/8).

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words Features Missing in NPOI
 second_title: Aspose.Words for .NET
 articleTitle: Aspose.Words Features Missing in NPOI
@@ -36,6 +36,7 @@ aliases:
   - /net/split-tables-in-npoi/
   - /net/working-with-text-in-aspose-words/
   - /net/insert-comments/
+timestamp: 2024-01-31-14-23-37
 ---
 
 As already described in previous articles, there are operations with documents that are faster and more conveniently to perform using Aspose.Words than NPOI. But there are also operations that are not provided by NPOI (HWPF and XWPF). You can try to achieve the desired result using auxiliary tools and options, but even if successful, it will be quite expensive.

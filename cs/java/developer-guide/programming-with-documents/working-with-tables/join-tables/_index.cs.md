@@ -7,6 +7,7 @@ description: "Připojit tabulky Java. Pokročilé manipulace s tabulkami, připo
 type: docs
 weight: 90
 url: /cs/java/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tabulka zastoupená v Aspose.Words Document Object Model, se skládá z nezávislých řad a buněk, takže je snadné spojit stoly.

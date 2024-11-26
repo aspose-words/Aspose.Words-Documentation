@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中使用水印
 second_title: Aspose.Words对于C++
 articleTitle: 使用水印
@@ -7,6 +7,7 @@ type: docs
 description: "使用C++进行文档水印操作。"
 weight: 340
 url: /zh/cpp/working-with-watermark/
+timestamp: 2024-01-30-16-22-34
 ---
 
 本主题讨论如何使用Aspose.Words以编程方式处理水印。 水印是在文档中的文本后面显示的背景图像。 水印可以包含由[Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/)类表示的文本或图像。

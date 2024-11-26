@@ -7,6 +7,7 @@ description: "Работа с коментари, използвайки Java."
 type: docs
 weight: 260
 url: /bg/java/working-with-comments/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

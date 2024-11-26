@@ -7,6 +7,7 @@ description: "Aspose.Words voor Java biedt u een efficiënte manier om een docum
 type: docs
 weight: 90
 url: /nl/java/split-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 *Splitting* of *split een document* is het proces van het breken van een groot document in een groter aantal kleinere bestanden. Er zijn verschillende redenen om een bestand te splitsen. Je hebt bijvoorbeeld alleen enkele pagina's nodig uit een specifiek document en niet de hele. Of om redenen van privacy, u wilt alleen delen sommige delen van een document met anderen. Met de splitsingsfunctie kunt u alleen de vereiste delen van het document krijgen en de nodige acties met ze doen, bijvoorbeeld om op te merken, op te slaan of te verzenden.

@@ -7,6 +7,7 @@ description: "Funciones avanzadas de formato Microsoft Word, trabajando con esti
 type: docs
 weight: 110
 url: /es/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 La clase [StyleCollection](https://reference.aspose.com/words/es/net/aspose.words/stylecollection/) se utiliza para administrar configuraciones integradas y aplicar configuraciones definidas por el usuario a los estilos.
@@ -36,7 +37,7 @@ En este documento de muestra, el texto formateado con el estilo de párrafo 'Tí
 
 ### El código
 
-La implementación de una consulta basada en estilos es bastante simple en el modelo de objetos de documento Aspose.Words, ya que simplemente utiliza herramientas que ya están implementadas. Se implementan dos métodos de clase para esta solución: # **ParagraphsByStyleName**: este método recupera una matriz de esos párrafos en el documento que tiene un nombre de estilo específico. # **RunsByStyleName**: este método recupera una matriz de aquellas ejecuciones en el documento que tienen un nombre de estilo específico. Ambos métodos son muy similares, las únicas diferencias son los tipos de nodos y la representación del estilo. información dentro del párrafo y ejecute nodos. Aquí hay una implementación de ParagraphsByStyleName: el siguiente ejemplo encontrará todos los párrafos formateados con el estilo especificado.
+La implementación de una consulta basada en estilos es bastante simple en el modelo de objetos de documento Aspose.Words, ya que simplemente utiliza herramientas que ya están implementadas. Se implementan dos métodos de clase para esta solución: **ParagraphsByStyleName**: este método recupera una matriz de esos párrafos en el documento que tiene un nombre de estilo específico. **RunsByStyleName**: este método recupera una matriz de aquellas ejecuciones en el documento que tienen un nombre de estilo específico. Ambos métodos son muy similares, las únicas diferencias son los tipos de nodos y la representación del estilo. información dentro del párrafo y ejecute nodos. Aquí hay una implementación de ParagraphsByStyleName: el siguiente ejemplo encontrará todos los párrafos formateados con el estilo especificado.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.cs" >}}
 

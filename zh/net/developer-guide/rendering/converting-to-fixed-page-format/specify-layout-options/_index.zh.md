@@ -7,6 +7,7 @@ description: "使用 C# 指定各种文档布局的布局选项。"
 type: docs
 weight: 10
 url: /zh/net/specify-layout-options/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Aspose.Words 使您能够根据 [LayoutOptions](https://reference.aspose.com/words/zh/net/aspose.words.layout/layoutoptions/) 类的属性中指定的参数创建具有各种布局的输出文档。其中一些属性类似于一些 Microsoft Word 用户界面菜单选项 – 它们将在本文中进行描述。

@@ -7,6 +7,7 @@ description: "Inserare paragraf într-un document în C#. Stabilește stiluri de
 type: docs
 weight: 210
 url: /ro/net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un paragraf este o serie de caractere combinate într-un bloc logic și care se termină cu un caracter special - o *întrerupere de paragraf*. În Aspose.Words, un paragraf este reprezentat de clasa [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/).

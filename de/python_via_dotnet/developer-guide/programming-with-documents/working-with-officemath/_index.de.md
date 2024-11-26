@@ -7,6 +7,7 @@ description: "Erstellen und verwalten Sie OfficeMath-Typobjekte in einem Dokumen
 type: docs
 weight: 320
 url: /de/python-net/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Jetzt ist es noch komfortabler, mit OfficeMath-Typobjekten zu arbeiten. In Aspose.Words kann der Kunde einfach begründen und auch verwalten, ob eine Gleichung inline oder in einer separaten Zeile angezeigt wird. Mehr noch, mit der Verfügbarkeit von [MathObjectType](https://reference.aspose.com/words/python-net/aspose.words.math/mathobjecttype/); Mithilfe dieses Matrixobjekts können nützliche Steuerelemente implementiert werden.

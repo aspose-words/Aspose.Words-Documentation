@@ -1,4 +1,4 @@
-﻿---
+---
 title: کار با ماکروهای VBA در C++
 second_title: Aspose.Words برای C++
 articleTitle: کار با ماکروهای VBA
@@ -7,6 +7,7 @@ description: "کار با پروژه های سند VBA با استفاده از 
 type: docs
 weight: 410
 url: /fa/cpp/working-with-vba-macros/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Visual Basic برای برنامه ها (VBA) برای Microsoft Word یک زبان برنامه نویسی ساده اما قدرتمند است که می تواند برای گسترش قابلیت استفاده شود. Aspose.Words API سه کلاس برای دسترسی به کد منبع پروژه VBA فراهم می کند:

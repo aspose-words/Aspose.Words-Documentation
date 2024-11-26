@@ -7,6 +7,7 @@ description: "Sitemap Aspose.Words Sitemap Java fitur rendering untuk memformat 
 type: docs
 weight: 30
 url: /id/java/rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Kami menggunakan istilah "rendering" dalam Aspose.Words untuk menggambarkan proses mengkonversi dokumen ke format file atau media yang dipesan atau memiliki konsep halaman. Kami berbicara tentang rendering dokumen ke halaman. Diagram berikut menunjukkan apa rendering dalam Aspose.WordsSitemap

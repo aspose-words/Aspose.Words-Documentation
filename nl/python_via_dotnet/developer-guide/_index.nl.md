@@ -7,6 +7,7 @@ description: "Deze ontwikkelaar Gids beschrijft praktische scenario's en tips om
 type: docs
 weight: 30
 url: /nl/python-net/developer-guide/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Deze ontwikkelaar Gids geeft informatie over het gebruik Aspose.Words voor Python via .NET in verschillende praktische scenario's. De artikelen bieden suggesties en tips die zullen helpen met het gebruik van specifieke functies, het bereiken van een bepaald document uiterlijk of maak een use case mogelijk.
@@ -15,7 +16,7 @@ Meer weten over Aspose.Words functies, selecteer de bijbehorende sectie:
 
 - [Laden, opslaan en omzetten](/words/nl/python-net/loading-saving-and-converting/)
 - [Renderen](/words/nl/python-net/rendering/)
-- [Mail Merge en rapportage](/words/python-net/mail-merge-and-reporting/) De informatie over het genereren van documenten, zoals rapporten, catalogi, inventarissen en facturen, van templates met mail merge Velden.
+- [Mail Merge en rapportage](/words/python-net/mail-merge-and-reporting/) De informatie over het genereren van documenten, zoals rapporten, catalogi, inventarissen en facturen, van templates met Mail Merge Velden.
 - [LINQ Rapportagemotor](/words/python-net/linq-reporting-engine/) Er wordt informatie verstrekt over bouwverslagen met uitgebreide rapportagefuncties.
 - [Programmering met documenten](/words/nl/python-net/programming-with-documents/)
 

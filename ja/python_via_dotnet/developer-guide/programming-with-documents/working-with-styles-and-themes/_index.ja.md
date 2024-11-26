@@ -7,6 +7,7 @@ description: "Python を使用して、ドキュメント内のスタイルと�
 type: docs
 weight: 110
 url: /ja/python-net/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [StyleCollection](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/) クラスは、組み込みの設定を管理し、スタイルにユーザー定義の設定を適用するために使用されます。

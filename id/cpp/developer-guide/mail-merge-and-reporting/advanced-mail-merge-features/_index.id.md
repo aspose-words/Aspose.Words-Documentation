@@ -1,26 +1,27 @@
-﻿---
+---
 title: Fitur Mail Merge Lanjutan dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Fitur Mail Merge Tingkat lanjut
 linktitle: Fitur Mail Merge Tingkat lanjut
 type: docs
-description: "Aspose.Words untuk C++ menyediakan beberapa fitur mail merge lanjutan yang memungkinkan Anda melakukan penyesuaian mail merge lebih lanjut. Misalnya, memperoleh informasi tentang struktur templat, menetapkan aturan, membersihkan setelah operasi mail merge, dan lainnya."
-keywords: "use advanced mail merge features c++"
+description: "Aspose.Words untuk C++ menyediakan beberapa fitur Mail Merge lanjutan yang memungkinkan Anda melakukan penyesuaian Mail Merge lebih lanjut. Misalnya, memperoleh informasi tentang struktur templat, menetapkan aturan, membersihkan setelah operasi mail merge, dan lainnya."
+keywords: "use advanced Mail Merge features c++"
 weight: 50
 url: /id/cpp/advanced-mail-merge-features/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words menyediakan beberapa properti dan metode mail merge tambahan yang memungkinkan Anda melakukan penyesuaian lebih lanjut dari proses mail merge baik dalam mail merge sederhana atau mail merge dengan wilayah.
+Aspose.Words menyediakan beberapa properti dan metode Mail Merge tambahan yang memungkinkan Anda melakukan penyesuaian lebih lanjut dari proses Mail Merge baik dalam Mail Merge sederhana atau Mail Merge dengan wilayah.
 
-Fitur mail merge lanjutan termasuk, namun tidak terbatas pada, memperoleh informasi tentang struktur templat sebelum melakukan operasi mail merge, menetapkan aturan untuk operasi mail merge, dan membersihkan selama operasi mail merge. Artikel ini hanya akan membahas beberapa properti dan contoh untuk menunjukkan cara menggunakan fitur lanjutan.
+Fitur Mail Merge lanjutan termasuk, namun tidak terbatas pada, memperoleh informasi tentang struktur templat sebelum melakukan operasi mail merge, menetapkan aturan untuk operasi mail merge, dan membersihkan selama operasi mail merge. Artikel ini hanya akan membahas beberapa properti dan contoh untuk menunjukkan cara menggunakan fitur lanjutan.
 
 ## Tetapkan Aturan untuk Operasi Mail Merge
 
 Menambahkan aturan ke templat memungkinkan Anda membuat proses alur kerja lebih efektif dan fleksibel. Dengan menggunakan aturan mail merge, Anda dapat menyiapkan konten yang dapat diubah dengan cepat dan menghindari kebutuhan untuk membuat banyak dokumen.
 
-Aspose.Words memungkinkan Anda untuk menyesuaikan mail merge berdasarkan aturan yang dijalankan saat Anda melakukan operasi mail merge dan mengontrol penggabungan informasi. Misalnya, saat Anda membuat email atau surat untuk dikirim ke semua pelanggan Anda. Anda dapat mengatur aturan sehingga surat tersebut dapat berisi berbagai data berdasarkan nilai yang berbeda di bidang tertentu dari sumber data Anda.
+Aspose.Words memungkinkan Anda untuk menyesuaikan Mail Merge berdasarkan aturan yang dijalankan saat Anda melakukan operasi Mail Merge dan mengontrol penggabungan informasi. Misalnya, saat Anda membuat email atau surat untuk dikirim ke semua pelanggan Anda. Anda dapat mengatur aturan sehingga surat tersebut dapat berisi berbagai data berdasarkan nilai yang berbeda di bidang tertentu dari sumber data Anda.
 
-Lihatlah beberapa aturan mail merge yang dapat Anda terapkan.
+Lihatlah beberapa aturan Mail Merge yang dapat Anda terapkan.
 
 ### Terapkan bidang Berikutnya untuk Menggabungkan Catatan Data dalam Dokumen Saat Ini
 
@@ -68,7 +69,7 @@ Anda dapat mengunduh file contoh contoh ini dari [Aspose.Words GitHub](https://g
 
 ### Tambahkan Bidang yang Dipetakan
 
-Aspose.Words memungkinkan Anda memetakan nama bidang secara otomatis di sumber data Anda dan nama bidang mail merge di templat menggunakan properti [MappedDataFields](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_mappeddatafields/). Misalnya, jika Anda memiliki nama bidang yang disebut" Nama Belakang " di templat Anda, dan di sumber data Anda memiliki nama bidang "Nama Belakang" atau variasi lain seperti "Last_Name" atau " LastName", maka bidang di sumber data akan secara otomatis memetakan ke bidang yang dipetakan terkait. Jika templat gabungan akan digabungkan dengan banyak sumber data, bidang yang dipetakan membuatnya tidak perlu memasukkan kembali bidang ke dalam templat agar sesuai dengan nama bidang dalam database.
+Aspose.Words memungkinkan Anda memetakan nama bidang secara otomatis di sumber data Anda dan nama bidang Mail Merge di templat menggunakan properti [MappedDataFields](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_mappeddatafields/). Misalnya, jika Anda memiliki nama bidang yang disebut" Nama Belakang " di templat Anda, dan di sumber data Anda memiliki nama bidang "Nama Belakang" atau variasi lain seperti "Last_Name" atau " LastName", maka bidang di sumber data akan secara otomatis memetakan ke bidang yang dipetakan terkait. Jika templat gabungan akan digabungkan dengan banyak sumber data, bidang yang dipetakan membuatnya tidak perlu memasukkan kembali bidang ke dalam templat agar sesuai dengan nama bidang dalam database.
 
 Contoh kode berikut menunjukkan cara menambahkan bidang yang dipetakan menggunakan metode [Add](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mappeddatafieldcollection/add/) ketika bidang gabungan dalam templat dan bidang data dalam sumber data memiliki nama yang berbeda:
 

@@ -7,6 +7,7 @@ description: "Aspose.Words pentru .NET oferă utilizatorilor o gamă largă de c
 type: docs
 weight: 40
 url: /ro/net/features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words oferă utilizatorilor o gamă largă de caracteristici. Utilizatorii pot efectua o cantitate uriașă de sarcini legate de documente – de la simpla conversie a documentelor dintr-un format acceptat în altul și modificarea documentelor în timpul procesului de conversie la sarcini profesionale, cum ar fi crearea unor documente structurate și atrăgătoare vizual sau automatizarea raportării.
@@ -113,16 +114,16 @@ Puteți folosi Aspose.Words ca o soluție de raportare pe cont propriu. Proiecta
 
 | Caracteristică | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Xamarin. Mac |
 | :- | :- | :- | :- | :- | :- |
-| Foloseşte toate câmpurile standard Microsoft Word mail merge în rapoartele tale inclusiv `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Executați mail merge pentru documente care conțin chiar și cele mai complexe și încastrate `IF` câmpuri și formule. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Populează și crește în mod dinamic tabelele sau fragmente din document din sursa de date utilizând mail merge regiuni. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Foloseşte toate câmpurile standard Microsoft Word Mail Merge în rapoartele tale inclusiv `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Executați Mail Merge pentru documente care conțin chiar și cele mai complexe și încastrate `IF` câmpuri și formule. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Populează și crește în mod dinamic tabelele sau fragmente din document din sursa de date utilizând Mail Merge regiuni. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Generați ușor rapoarte care conțin date master-detail (parente-copil), cum ar fi Ordine/DetaliiOrdonante. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Populaţi documentele cu date din orice sursă de date .NET, cum ar fi DataSet, DataTable, DataView, DataReader sau ADO Recordset. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Populaţi documente de orice sursă de date precum o interogare LINQ, un fişier XML sau obiecte de afaceri prin implementarea interfeţei **IMailMergeDataSource**. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Luați controlul precis, cum ar fi formatarea numărului, asupra modului în care datele dvs. sunt fuzionate folosind evenimente. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Introduce imagini în timpul mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Creare programatică sau modificare a unui Microsoft Word mail merge sursa de date pentru un document. Păstrează mail merge setările și sursele de date. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Recuperează mail merge nume de câmpuri. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Creare programatică sau modificare a unui Microsoft Word Mail Merge sursa de date pentru un document. Păstrează Mail Merge setările și sursele de date. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Recuperează Mail Merge nume de câmpuri. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ## Caracteristici de raportare
 

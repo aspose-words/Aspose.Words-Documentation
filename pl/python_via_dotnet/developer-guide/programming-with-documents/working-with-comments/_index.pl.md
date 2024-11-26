@@ -7,6 +7,7 @@ description: "Jak dodawać, usuwać i manipulować komentarzami w dokumencie za 
 type: docs
 weight: 260
 url: /pl/python-net/working-with-comments/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

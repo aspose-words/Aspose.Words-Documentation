@@ -7,6 +7,7 @@ description: "להפיק אובייקטים גרפיים שונים, כגון ת
 type: docs
 weight: 40
 url: /he/python-net/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 בעת עיבוד מסמכים, משימה נפוצה היא לחלץ את כל התמונות שנמצאו במסמך ולייצא אותם למיקום חיצוני. משימה זו הופכת פשוטה עם Aspose.Words API, אשר כבר מספק את הפונקציונליות של תמצית והצלת נתוני תמונה. עם זאת, לפעמים ייתכן שתרצה גם לחלץ סוגים אחרים של תוכן גרפי מיוצג על ידי סוג אחר של אובייקט ציור, למשל, תיבת טקסט המכיל פסקאות, צורות חץ, ותמונה קטנה. אין דרך פשוטה להפוך את האובייקט הזה מכיוון שהוא שילוב של רכיבי תוכן בודדים. אתה יכול גם להיתקל במקרה כאשר התוכן נאסף יחד לתוך האובייקט שנראה כמו תמונה אחת.
@@ -38,7 +39,7 @@ In In In Aspose.Words, קבוצות אלה של צורות מיוצגות על �
 
 {{% alert color="primary" %}}
 
-מתי להפוך <span notrans="<span notrans=" [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/)"=""></span>" זה חייב להיות חלק מההיררכיה של המסמך. אם [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) אינו חלק מעץ המסמכים, אזי הפלט המתקבל יהיה ריק לאחר שהוא מעורר השראה. [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) שיטות.
+מתי להפוך [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) זה חייב להיות חלק מההיררכיה של המסמך. אם [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) אינו חלק מעץ המסמכים, אזי הפלט המתקבל יהיה ריק לאחר שהוא מעורר השראה. [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) שיטות.
 
 {{% /alert %}}
 

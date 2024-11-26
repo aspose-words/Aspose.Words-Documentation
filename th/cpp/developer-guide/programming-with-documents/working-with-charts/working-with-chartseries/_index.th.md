@@ -1,4 +1,4 @@
-﻿---
+---
 title: การทำงานกับChartSeriesในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: การทำงานกับChartSeries
@@ -7,6 +7,7 @@ description: "การปรับแต่งชุดแผนภูมิโ
 type: docs
 weight: 40
 url: /th/cpp/working-with-chartseries/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Wordsอนุญาตให้ผู้ใช้สามารถทำงานกับChartSeriesCollectionในไม่กี่วิธี.

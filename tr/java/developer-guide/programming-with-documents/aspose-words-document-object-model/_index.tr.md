@@ -7,6 +7,7 @@ type: docs
 description: "(Document Object Model) (DOM) bir Word belgesi bellek içi temsilidir. Java'i kullanarak bir Word belgesinin içeriğini ve biçimlendirmesini oku, manipüle et ve değiştir."
 weight: 10
 url: /tr/java/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words Document Object Model (DOM), bir Word belgesi bellekteki gösterimidir. Aspose.Words DOM, programlı olarak bir Word belgesinin içeriğini ve biçimlendirilmesini okumanızı, manipüle etmenizi ve değiştirmenizi sağlar.

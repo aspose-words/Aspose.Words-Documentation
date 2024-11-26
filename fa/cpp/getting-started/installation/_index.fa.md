@@ -1,4 +1,4 @@
-﻿---
+---
 title: نحوه نصب Aspose.Words برای C++
 second_title: Aspose.Words برای C++
 articleTitle: نصب و راه اندازی
@@ -7,6 +7,7 @@ description: "نصب کنید Aspose.Words برای C++ با استفاده از
 type: docs
 weight: 10
 url: /fa/cpp/installation/
+timestamp: 2024-09-24-14-35-44
 ---
 
 مطمئن شو که ماشينت با [الزامات سیستم](/words/cpp/system-requirements/) قبل از شروع

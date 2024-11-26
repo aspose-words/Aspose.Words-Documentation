@@ -1,4 +1,4 @@
-﻿---
+---
 title: Prima dvs. cerere pentru Android prin Java
 second_title: Aspose.Words pentru Java
 articleTitle: Prima Ta Cerere
@@ -7,6 +7,7 @@ description: "Instalarea Aspose.Words pentru Android prin Java."
 type: docs
 weight: 30
 url: /ro/java/your-first-application/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Acest articol vă oferă o idee de a începe cu Aspose.Words pentru Android prin Java. Acesta va demonstra cum să configurați un nou proiect Android de la zero, să adăugați o referință la Aspose.Words JAR și să creați un nou document care este salvat pe disc în format DOCX. Acest exemplu utilizează [Android Studio](https://developer.android.com/studio/index.html) pentru dezvoltare și aplicația este rulată pe Android Emulator. Pentru a începe cu Aspose.Words pentru Android prin Java, urmați acest tutorial pas cu pas pentru a crea o aplicație care utilizează Aspose.Words pentru Android prin Java:

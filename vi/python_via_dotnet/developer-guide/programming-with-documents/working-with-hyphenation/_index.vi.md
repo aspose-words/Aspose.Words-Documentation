@@ -7,6 +7,7 @@ description: "Sử dụng dấu gạch nối để sắp xếp văn bản gọn 
 type: docs
 weight: 220
 url: /vi/python-net/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi cần sử dụng dấu gạch nối để sắp xếp văn bản trong tài liệu gọn hơn. Đồng thời, điều quan trọng là phải hiểu rằng các chi tiết cụ thể của việc gạch nối từ có thể khác nhau đối với mỗi ngôn ngữ.

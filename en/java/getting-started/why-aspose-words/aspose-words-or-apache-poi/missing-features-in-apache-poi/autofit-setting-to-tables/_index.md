@@ -1,4 +1,4 @@
-﻿---
+---
 title: Autofit Setting to Tables
 second_title: Aspose.Words for Java
 articleTitle: Autofit Setting to Tables
@@ -7,6 +7,7 @@ description: "Autofit settings to tables. Apache POI does not provide an opportu
 type: docs
 weight: 60
 url: /java/autofit-setting-to-tables/
+timestamp: 2024-01-31-14-23-37
 ---
 
 {{% alert color="primary" %}}

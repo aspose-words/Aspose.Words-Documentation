@@ -7,6 +7,7 @@ description: "有多少记忆 Aspose.Words (单位:千美元) Java 是否需要�
 type: docs
 weight: 10
 url: /zh/java/memory-requirements/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words 提供多种特点,与不同格式的文件合作。 必须指出,对文档文件的最大大小没有限制。 Aspose.Words 可以处理或渲染。 唯一的限制是您一方可用的RAM( 记忆) 数量 。

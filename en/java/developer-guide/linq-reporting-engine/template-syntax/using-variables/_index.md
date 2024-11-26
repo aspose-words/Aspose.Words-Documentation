@@ -1,4 +1,4 @@
-﻿---
+---
 title: Using Variables in Java
 second_title: Aspose.Words for Java
 articleTitle: Using Variables
@@ -7,6 +7,7 @@ description: "Use variables to calculate an expensive value just once and access
 type: docs
 weight: 130
 url: /java/using-variables/
+timestamp: 2024-10-21-11-17-44
 ---
 
 LINQ Reporting Engine enables you to use variables in template documents. Variables are useful when you need to calculate an expensive value just once and access it multiple times in a template. Also, calculation of complex values such as running (progressive) totals may require variables, see “Appendix C. Typical Templates” to get an example.

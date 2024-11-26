@@ -7,6 +7,7 @@ description: "Work with Asian typography using C#. Adjust Space between Asian an
 type: docs
 weight: 240
 url: /net/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Asian Typography is a set of options for text paragraphs in documents written in Asian languages.

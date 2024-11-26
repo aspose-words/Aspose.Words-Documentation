@@ -7,6 +7,7 @@ description: "Save documents to PDF, XPS, HTML, XAML, PostScript, and PCL format
 type: docs
 weight: 10
 url: /cpp/converting-to-fixed-page-format/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words implements its own page layout engine. Prior to delving into its specifications, it is worthwhile to first discuss document at a high level.

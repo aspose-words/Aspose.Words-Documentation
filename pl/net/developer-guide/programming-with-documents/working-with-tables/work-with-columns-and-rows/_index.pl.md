@@ -7,6 +7,7 @@ description: "Praca z częściami tabeli – wierszami, kolumnami i komórkami p
 type: docs
 weight: 30
 url: /pl/net/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aby uzyskać większą kontrolę nad działaniem tabel, dowiedz się, jak manipulować kolumnami i wierszami.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cerințe De Sistem
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Cerințe De Sistem
@@ -7,6 +7,7 @@ description: "Înainte de a începe să lucrați cu Aspose.Words pentru Python v
 type: docs
 weight: 50
 url: /ro/python-net/system-requirements/
+timestamp: 2024-04-27-18-03-32
 ---
 
 Aspose.Words pentru Python via .NET nu necesită instalarea unui produs terță parte, cum ar fi Microsoft Word. Aspose.Words în sine este un motor pentru crearea, modificarea, conversia și redarea documentelor în diferite formate, inclusiv Microsoft Word formate de documente.

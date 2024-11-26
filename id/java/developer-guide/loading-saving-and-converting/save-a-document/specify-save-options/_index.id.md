@@ -7,6 +7,7 @@ description: "Mengatur sifat canggih ketika menyimpan dokumen menggunakan Java u
 type: docs
 weight: 20
 url: /id/java/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Saat menyimpan dokumen, Anda dapat mengatur beberapa properti canggih. Aspose.Words memberikan Anda [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) kelas, yang memungkinkan kontrol proses yang lebih tepat. Ada kelebihan beban **Save** metode yang menerima **SaveOptions** objek - itu harus menjadi objek dari kelas yang berasal dari **SaveOptions** Sitemap Setiap format menyimpan memiliki kelas yang sesuai yang menyimpan opsi untuk format menyimpan ini, misalnya, ada [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) untuk menyimpan format PDF, [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) untuk menghemat Markdown format, atau [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) untuk menyimpan gambar. Artikel ini memberikan contoh kerja dengan beberapa kelas pilihan yang berasal dari **SaveOptions**Sitemap

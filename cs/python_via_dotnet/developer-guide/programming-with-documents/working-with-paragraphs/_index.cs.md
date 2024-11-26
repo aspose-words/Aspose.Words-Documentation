@@ -7,6 +7,7 @@ description: "Vložit odstavec a uvést jeho formátování v dokumentu s použi
 type: docs
 weight: 210
 url: /cs/python-net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Odstavec je soubor znaků v kombinaci s logickým blokem a končí speciálním znakem a *bod zlom*. In Aspose.Words, odstavec je zastoupen [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) třída.

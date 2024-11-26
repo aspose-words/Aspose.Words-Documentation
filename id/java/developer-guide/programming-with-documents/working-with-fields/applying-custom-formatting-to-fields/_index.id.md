@@ -7,6 +7,7 @@ description: "Format dan mengevaluasi hasil bidang menggunakan JavaSitemap"
 type: docs
 weight: 40
 url: /id/java/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Terkadang pengguna perlu menerapkan format kustom ke bidang. Dalam artikel ini, kita akan melihat beberapa contoh bagaimana ini dapat dilakukan.

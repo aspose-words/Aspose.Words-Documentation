@@ -7,6 +7,7 @@ description: "Determine el formato del archivo en Python si no está seguro de c
 type: docs
 weight: 20
 url: /es/python-net/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 A veces es necesario determinar el formato de un documento antes de abrirlo porque la extensión del archivo no garantiza que el contenido del archivo sea apropiado. Por ejemplo, se sabe que Crystal Reports a menudo genera documentos en formato RTF, pero les da la extensión .doc.

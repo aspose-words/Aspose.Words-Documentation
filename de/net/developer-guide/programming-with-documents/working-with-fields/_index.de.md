@@ -7,6 +7,7 @@ description: "Einführung in die Feldfunktion in Aspose.Words für .NET."
 type: docs
 weight: 370
 url: /de/net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** in einem Dokument sind wie Platzhalter, in die nützliche Daten eingefügt werden können. Ein Feld kann beispielsweise ein Seitenverweis, eine Formel oder ein mail merge-Feld sein.

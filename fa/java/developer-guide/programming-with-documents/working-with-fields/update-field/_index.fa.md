@@ -1,55 +1,56 @@
----
+﻿---
 title: به روز رسانی فیلد ها در Java
 second_title: Aspose.Words برای Java
-articleTitle: Update Fields
-linktitle: Update Fields
-description: "یاد بگیرید چگونه به روز رسانی زمینه ها در Java... به روز رسانی فیلدهای برنامه ریزی شده یا استفاده از به روز رسانی میدان اتوماتیک با استفاده از Java API"
+articleTitle: زمینه های به روز رسانی
+linktitle: زمینه های به روز رسانی
+description: "یاد بگیرید که چگونه فیلد ها را در Java به روز کنید. به روز رسانی فیلد ها به صورت برنامه نویسی یا استفاده از به روز رسانی خودکار فیلد با استفاده از Java API"
 type: docs
 weight: 30
 url: /fa/java/update-field/
+timestamp: 2024-01-27-14-07-04
 ---
 
-به طور معمول، یک فیلد وارد شده به Microsoft Word در حال حاضر دارای ارزش تا به امروز است. به عنوان مثال، اگر این زمینه یک فرمول یا یک شماره صفحه باشد، حاوی مقدار محاسبه شده صحیح برای نسخه داده شده سند خواهد بود. اما اگر شما یک برنامه دارید که یک سند را با زمینه هایی مانند ادغام دو سند یا ارسال آن با داده ها ایجاد یا اصلاح می کند، سپس همه زمینه ها باید به روز شوند تا سند مفید باشد.
+به طور معمول، یک فیلد وارد شده به Microsoft Word در حال حاضر حاوی یک مقدار به روز است. به عنوان مثال، اگر فیلد یک فرمول یا یک شماره صفحه باشد، حاوی مقدار محاسبه شده صحیح برای نسخه داده شده سند خواهد بود. اما اگر برنامه ای دارید که یک سند را با زمینه هایی مانند ادغام دو سند یا پر کردن آن با داده ها تولید یا اصلاح می کند، در حالت ایده آل همه زمینه ها باید به روز شوند تا سند مفید باشد.
 
-## چگونه به روز رسانی فیلد ها
+## چگونه فیلد ها را به روز کنیم
 
-هنگامی که یک سند بارگذاری می شود، Aspose.Words تقلید رفتار Microsoft Word با گزینه به روز رسانی به طور خودکار فیلدهای خاموش می شوند. رفتار را می توان به صورت زیر خلاصه کرد:
+هنگامی که یک سند بارگذاری می شود، Aspose.Words رفتار Microsoft Word را با گزینه به طور خودکار به روز رسانی فیلد ها خاموش می شود. رفتار را می توان به شرح زیر خلاصه کرد:
 
-- هنگامی که شما یک سند را باز می کنید، زمینه ها دست نخورده باقی می مانند
-- شما می توانید به طور واضح تمام زمینه ها را در یک سند به روز کنید، مثلا بازسازی کنید. `TOC` وقتی نیاز دارید
-- هنگامی که شما چاپ می کنید / به PDF یا XPS زمینه های مربوط به تعداد صفحات در هدر / پا به روز می شوند
-- هنگامی که شما اجرای mail merge تمام زمینه ها به طور خودکار به روز می شوند
+- وقتی یک سند را باز می کنید/ذخیره می کنید، فیلد ها دست نخورده باقی می مانند
+- شما می توانید به طور صریح تمام فیلد های یک سند را به روز کنید، به عنوان مثال، `TOC` را بازسازی کنید وقتی که نیاز دارید
+- هنگامی که شما چاپ / رندر به PDF یا XPS زمینه های مربوط به شماره گذاری صفحه در سرصفحه / پای صفحه به روز می شوند
+- وقتی Mail Merge را اجرا می کنید، تمام فیلد ها به طور خودکار به روز می شوند
 
-### به روز رسانی زمین های برنامه ای
+### به روز رسانی فیلد ها به صورت برنامه نویسی
 
-برای به روز رسانی دقیق زمینه ها در کل سند، به سادگی تماس بگیرید [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) روش برای به روز رسانی زمینه های موجود در بخشی از یک سند، به دست آوردن یک [Range](https://reference.aspose.com/words/java/com.aspose.words/range/) جسم و تماس [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/range/#updateFields) روش In In In Aspose.Words, شما می توانید یک **Range** برای هر گره در درخت سند، مانند [Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), استفاده از [GetRange](https://reference.aspose.com/words/java/com.aspose.words/node/#getRange) مالکیت شما می توانید نتیجه یک زمینه را با فراخوان به روز کنید [Update](https://reference.aspose.com/words/java/com.aspose.words/field/#update) روش
+برای به روز رسانی صریح فیلد ها در کل سند، به سادگی روش [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) را فراخوانی کنید. برای به روز رسانی فیلد های موجود در بخشی از یک سند، یک شی [Range](https://reference.aspose.com/words/java/com.aspose.words/range/) را بدست آورید و روش [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/range/#updateFields) را فراخوانی کنید. در Aspose.Words، شما می توانید یک **Range** برای هر گره در درخت سند، مانند[Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), و غیره با استفاده از خاصیت [GetRange](https://reference.aspose.com/words/java/com.aspose.words/node/#getRange) شما می توانید نتیجه یک فیلد را با فراخوانی روش [Update](https://reference.aspose.com/words/java/com.aspose.words/field/#update) به روز کنید.
 
-### به روز رسانی خودکار از زمینه های Page-Related در هنگام ارائه
+### به روز رسانی خودکار فیلد های مرتبط با صفحه در هنگام رندر
 
-هنگامی که شما تبدیل یک سند را به یک فرمت ثابت صفحه ای به عنوان مثال به PDF یا PDF اجرا می کنید. XPS, سپس سپس Aspose.Words به طور خودکار فیلدهای مربوط به صفحه را به روز می کند `PAGE`, `PAGEREF` پیدا شده در هدر / پا از سند. این رفتار رفتار را تقلید می کند Microsoft Word هنگام چاپ یک سند
+هنگامی که شما تبدیل یک سند به یک فرمت صفحه ثابت را اجرا می کنید، به عنوان مثال به PDF یا XPS، سپس Aspose.Words به طور خودکار زمینه های مربوط به طرح بندی صفحه `PAGE`، `PAGEREF` را که در سرصفحه ها/پای صفحه سند یافت می شود، به روز می کند. این رفتار رفتار Microsoft Word را هنگام چاپ یک سند تقلید می کند.
 
-اگر می خواهید تمام زمینه های دیگر را در سند به روز کنید، باید تماس بگیرید. [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) قبل از ارائه سند
+اگر می خواهید تمام زمینه های دیگر سند را به روز کنید، قبل از ارائه سند باید با [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) تماس بگیرید.
 
-مثال زیر نشان می دهد که چگونه تمام زمینه ها را قبل از ارائه یک سند به روز رسانی کنیم:
+مثال زیر نشان می دهد که چگونه تمام زمینه ها را قبل از ارائه یک سند به روز کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UpdateFields-UpdateFields.java" >}}
 
-### خودکار فیلد به روز رسانی در طول Mail Merge
+### به روز رسانی خودکار میدان در طول Mail Merge
 
-هنگامی که شما یک <span notrans="<span notrans=" mail merge"=""></span>"> تمام زمینه های موجود در سند به صورت خودکار به روز می شوند. این به این دلیل است که mail merge یک مورد از به روز رسانی میدانی است. برنامه با یک mail merge زمینه و نیاز به به به روز رسانی نتیجه آن، که شامل گرفتن ارزش از منبع داده و قرار دادن آن در زمینه است. البته منطق پیچیده تر است، به عنوان مثال، زمانی که پایان سند /mail merge منطقه به دست آمده است، اما هنوز داده های بیشتری برای ادغام وجود دارد، سپس منطقه باید تکرار شود و مجموعه جدید از زمینه ها به روز شده است.
+وقتی یک mail merge را اجرا می کنید، تمام فیلد های سند به طور خودکار به روز می شوند. این به این دلیل است که Mail Merge یک مورد از یک به روز رسانی میدان است. این برنامه با یک فیلد Mail Merge مواجه می شود و باید نتیجه خود را به روز کند، که شامل گرفتن مقدار از منبع داده و قرار دادن آن در فیلد است. منطق، البته، پیچیده تر است، به عنوان مثال، زمانی که پایان سند/mail merge منطقه به دست آمده است اما هنوز داده های بیشتری برای ادغام وجود دارد، سپس منطقه باید تکرار شود و مجموعه جدید از زمینه ها به روز شود.
 
-## به روز رسانی فیلد هایی که دارای ویژگی های کثیف هستند
+## به روز رسانی زمینه های داشتن ویژگی کثیف
 
-W:dirty یک ویژگی سطح زمینه است که تنها زمینه ای را که شما مشخص می کنید زمانی که سند باز می شود، تازه می کند. این به MS Word می گوید که فقط این زمینه را در دفعه بعد که سند باز می شود، تازه کند. شما می توانید از Loadاختیاری.set UpdateDirty Fields() برای مشخص کردن اینکه آیا به روز رسانی زمینه ها با ویژگی کثیف استفاده کنید. هنگامی که مقدار Loadاختیاری.set UpdateDirty Fields تعیین می شود <span notrans="<span notrans=" *true*"=""></span>"> همه زمینه ها *true* ارزش برای `Field.IsDirty` یا `FieldChar.IsDirty` اموال در بار سند به روز می شود
+W: dirty یک ویژگی در سطح فیلد است که فقط فیلدی را که هنگام باز شدن سند مشخص می کنید تازه می کند. این به MS Word می گوید که فقط دفعه بعد که سند باز می شود این فیلد را تازه کند. می توانید از LoadOptions استفاده کنید.setUpdateDirtyFields() خاصیت برای مشخص کردن اینکه آیا فیلد ها را با ویژگی کثیف به روز کنیم. وقتی ارزش LoadOptionssetUpdateDirtyFields() به *true* تنظیم شده است، تمام فیلد هایی که دارای *true* ارزش برای `Field.IsDirty` یا `FieldChar.IsDirty` خاصیت هستند، در بارگذاری سند به روز می شوند.
 
-مثال کد زیر نشان می دهد که چگونه فیلدهای را با داشتن ویژگی کثیف به روز کنیم:
+مثال کد زیر نشان می دهد که چگونه فیلد هایی را که دارای ویژگی کثیف هستند به روز کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-LoadOptionsUpdateDirtyFields-LoadOptionsUpdateDirtyFields.java" >}}
 
-## به روز رسانی LastSavedTime property قبل از پس انداز
+## به روز رسانی LastSavedTime اموال قبل از صرفه جویی
 
-می توانید از آن استفاده کنید [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateLastSavedTimeProperty) اموال چه برای به روز رسانی اموال سند داخلی مربوطه [LastSavedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getLastSavedTime) هنگام صرفه جویی در سند
+شما می توانید از ویژگی [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateLastSavedTimeProperty) برای به روز رسانی ویژگی سند داخلی مربوطه [LastSavedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getLastSavedTime) هنگام ذخیره سند استفاده کنید.
 
-مثال کد زیر نشان می دهد که چگونه این ملک را به روز کنید:
+مثال کد زیر نشان می دهد که چگونه این ویژگی را به روز کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UpdateLastSavedTimeProperty-UpdateLastSavedTimeProperty.java" >}}

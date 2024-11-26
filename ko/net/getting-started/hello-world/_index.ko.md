@@ -7,6 +7,7 @@ description: ".NET용 Aspose.Words를 사용하여 지원되는 형식으로 첫
 type: docs
 weight: 20
 url: /ko/net/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 "안녕하세요, 세계!" 코드는 "Aspose.Words for .NET"를 작성하는 첫 번째 간단한 예인 경우가 많으며, 소스 코드를 컴파일하거나 실행하려는 소프트웨어가 올바르게 설치되었는지 확인하기 위한 온전성 테스트로도 사용할 수 있습니다.

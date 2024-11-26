@@ -1,4 +1,4 @@
-﻿---
+---
 title: Vergelyk Dokumente in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Vergelyk Dokumente
@@ -7,6 +7,7 @@ description: "Vergelyk twee dokumente in enige ondersteun formate en toon inhoud
 type: docs
 weight: 60
 url: /af/net/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Die vergelyking van dokumente is'n proses wat veranderinge tussen twee dokumente identifiseer en die veranderinge as hersienings bevat. Hierdie proses vergelyk enige twee dokumente, insluitend weergawes van een spesifieke dokument, dan sal die veranderinge tussen beide dokumente as hersienings in die eerste dokument vertoon word.

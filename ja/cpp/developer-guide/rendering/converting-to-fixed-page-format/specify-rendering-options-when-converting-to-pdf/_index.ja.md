@@ -1,4 +1,4 @@
-﻿---
+---
 title: PDFに変換するときのレンダリングオプションの指定
 second_title: C++の場合Aspose.Words
 articleTitle: PDFに変換するときのレンダリングオプションの指定
@@ -7,6 +7,7 @@ description: "C++を使用して高度なオプションを使用して文書を
 type: docs
 weight: 30
 url: /ja/cpp/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 PDF形式は固定ページ形式であり、ユーザーの間で非常に人気があり、PDF文書はどのデバイスでも同じように見えるため、さまざまなアプリケーションで広くサポー そのため、PDFへの変換はAspose.Wordsの重要な機能です。

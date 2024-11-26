@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのハイパーリンクの操作
 second_title: C++の場合Aspose.Words
 articleTitle: ハイパーリンクの追加または変更
@@ -7,6 +7,7 @@ description: "を使用して文書にハイパーリンクを追加する方法
 type: docs
 weight: 180
 url: /ja/cpp/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Wordドキュメント内のハイパーリンクは`HYPERLINK`フィールドです。 Aspose.Wordsでは、ハイパーリンクは[FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/)クラスを介して実装されます。

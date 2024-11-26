@@ -7,6 +7,7 @@ type: docs
 description: "Python via .NET için Aspose.Words, tüm kullanıcılara ücretsiz teknik destek sağlar. Lütfen sorunuzu, sorununuzu veya özellik isteğinizi Aspose Ücretsiz Destek Forumunu kullanarak bildirin."
 weight: 80
 url: /tr/python-net/technical-support/
+timestamp: 2024-11-18-12-56-02
 ---
 
 Aspose, tüm ürünleri için sınırsız ve ücretsiz teknik destek sağlamaktadır. Destek, değerlendirme de dahil olmak üzere tüm kullanıcılara açıktır. Desteğin ana yolu [Aspose.Forums](https://forum.aspose.com/c/words/8)'tir.

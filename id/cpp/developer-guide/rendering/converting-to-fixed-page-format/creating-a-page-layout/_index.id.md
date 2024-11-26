@@ -1,4 +1,4 @@
-﻿---
+---
 title: Membuat Tata Letak Halaman di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Membuat Tata Letak Halaman
@@ -7,6 +7,7 @@ description: "Membuat tata letak halaman bisa menjadi prosedur yang mahal. Aspos
 type: docs
 weight: 10
 url: /id/cpp/creating-a-page-layout/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Membuat tata letak halaman bisa menjadi prosedur yang mahal, baik dari segi kecepatan maupun memori. Ini karena beberapa alasan:

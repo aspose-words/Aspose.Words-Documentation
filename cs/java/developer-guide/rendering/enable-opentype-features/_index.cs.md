@@ -7,6 +7,7 @@ description: "Pokročilé typografie funkce v Aspose.Words místo Java."
 type: docs
 weight: 25
 url: /cs/java/enable-opentype-features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 

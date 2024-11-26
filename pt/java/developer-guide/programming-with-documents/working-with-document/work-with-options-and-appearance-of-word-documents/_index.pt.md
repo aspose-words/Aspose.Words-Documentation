@@ -1,63 +1,64 @@
----
-title: Opções e Aparência de Documentos do Word
+﻿---
+title: Opções e aparência de documentos do Word
 second_title: Aspose.Words para Java
-articleTitle: Trabalho com Opções e Aparência de Documentos do Word
-linktitle: Trabalho com Opções e Aparência de Documentos do Word
-description: "Controlar a aparência de documentos do Word levando em conta a diferença entre vários Microsoft Word versões usando Java."
+articleTitle: Trabalhar com opções e aparência de documentos do Word
+linktitle: Trabalhar com opções e aparência de documentos do Word
+description: "Controlar a aparência dos documentos do Word, levando em consideração a diferença entre as várias versões Microsoft Word usando Java."
 type: docs
 weight: 40
 url: /pt/java/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Às vezes você pode precisar alterar a aparência de um documento, por exemplo, definir preferências de idioma ou o número de linhas por página.Aspose.Words fornece a capacidade de controlar como o documento será exibido, bem como algumas opções adicionais. Este artigo descreve tais possibilidades.
+Às vezes, pode ser necessário alterar a aparência de um documento, por exemplo, definir preferências de idioma ou o número de linhas por página.Aspose.Words fornece a capacidade de controlar como o documento será exibido, bem como algumas opções adicionais. Este artigo descreve essas possibilidades.
 
-## Definir opções de exibição de documentos
+## Definir Opções De Apresentação Do Documento
 
-Você pode controlar como um documento será exibido em Microsoft Word usando o [ViewOptions](https://reference.aspose.com/words/java/com.aspose.words/viewoptions/) classe. Por exemplo, você pode definir um valor de zoom de documento usando o [ZoomPercent](https://reference.aspose.com/words/java/com.aspose.words/viewoptions/#getZoomPercent) propriedade ou o modo de exibição usando [ViewType](https://reference.aspose.com/words/java/com.aspose.words/viewoptions/#getViewType) propriedade.
+Você pode controlar como um documento será exibido em Microsoft Word usando a classe [ViewOptions](https://reference.aspose.com/words/java/com.aspose.words/viewoptions/). Por exemplo, pode definir um valor de zoom do documento utilizando a propriedade [ZoomPercent](https://reference.aspose.com/words/java/com.aspose.words/viewoptions/#getZoomPercent) ou o modo de visualização utilizando a propriedade [ViewType](https://reference.aspose.com/words/java/com.aspose.words/viewoptions/#getViewType).
 
-O exemplo a seguir mostra como garantir que um documento seja exibido em 50% quando aberto Microsoft Word:
+O exemplo de código a seguir mostra como garantir que um documento seja exibido em 50% quando aberto em Microsoft Word:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SetViewOptions-SetViewOptions.java" >}}
 
 {{% alert color="primary" %}}
 
-Você pode baixar o arquivo de modelo para este exemplo de [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/Document/TestFile.doc).
+Você pode baixar o arquivo de modelo para este exemplo em [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/Document/TestFile.doc).
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-Microsoft Word 2013 não escreve nenhum fator de zoom para um documento e não define mais o zoom padrão do valor escrito para o documento, em vez disso, parece usar o fator de zoom do último documento aberto.
+Microsoft Word 2013 não grava nenhum fator de zoom em um documento e não define mais o zoom padrão do valor gravado no documento; em vez disso, parece usar o Fator de zoom do último documento aberto.
 
 {{% /alert %}}
 
-## Definir opções de exibição de página
+## Definir Opções De Apresentação Da Página
 
-Se você quiser definir o número de caracteres por linha, use o [CharactersPerLine](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getCharactersPerLine) propriedade. Você também pode definir o número de linhas por página para um documento do Word – use o [LinesPerPage](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getLinesPerPage) propriedade para obter ou definir o número de linhas por página na grade do documento.
+Se pretender definir o número de caracteres por linha, utilize a propriedade [CharactersPerLine](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getCharactersPerLine). Você também pode definir o número de linhas por página para um documento do Word – use a propriedade [LinesPerPage](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getLinesPerPage) para obter ou definir o número de linhas por página na grade do documento.
 
 {{% alert color="primary" %}}
 
-Em Microsoft Word, você pode definir os mesmos parâmetros usando a aba "Doument Grid" na caixa de diálogo "Page Setup" somente quando o suporte de idioma asiático é instalado.
+Em Microsoft Word, você pode definir os mesmos parâmetros usando a guia " Grade do documento "na caixa de diálogo" Configuração da Página " somente quando o Suporte ao Idioma Asiático estiver instalado.
 
 {{% /alert %}}
 
-O exemplo de código a seguir mostra como definir o número de caracteres por linha e o número de linhas por página para uma Microsoft Word documento:
+O exemplo de código a seguir mostra como definir o número de caracteres por linha e o número de linhas por página para um documento Microsoft Word:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentPageSetup-DocumentPageSetup.java" >}}
 
-## Definir preferências de idioma
+## Definir Preferências De Idioma
 
-Exibindo um documento em Microsoft Word depende de quais idiomas são definidos como padrão para este documento. Se nenhum idioma for definido como padrão, Microsoft Word leva informações da caixa de diálogo "Set Office Language Preferences", que, por exemplo, pode ser encontrado em "File → Opções → Idioma" em Microsoft Word 2019.
+Exibir um documento em Microsoft Word depende de quais idiomas são definidos como padrão para este documento. Se nenhum idioma for definido como predefinido, Microsoft Word obtém informações da caixa de diálogo" Definir preferências de idioma do Office", que, por exemplo, pode ser encontrada em" Ficheiro de Opções de arquivo de Opções de idioma " em Microsoft Word 2019.
 
-Com Aspose.Words, você também pode configurar preferências de idioma usando [LanguagePreferences](https://reference.aspose.com/words/java/com.aspose.words/languagepreferences/) classe. Observe também que para a exibição correta do seu documento é necessário definir o Microsoft Word versão que o processo de carregamento do documento deve corresponder – isso pode ser feito usando o [MswVersion](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getMswVersion) propriedade.
+Com Aspose.Words, Você também pode configurar preferências de idioma usando a classe [LanguagePreferences](https://reference.aspose.com/words/java/com.aspose.words/languagepreferences/). Observe também que, para a exibição correta do seu documento, é necessário definir a versão Microsoft Word que o processo de carregamento do documento deve corresponder – isso pode ser feito usando a propriedade [MswVersion](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getMswVersion).
 
 {{% alert color="primary" %}}
 
-Se você Aspose.Words documento gerado não parece como esperado, verifique o **LanguagePreferences** e **MswVersion** valores e ajuste-os se necessário para combinar as configurações para o seu Microsoft Word versão.
+Se o seu documento gerado Aspose.Words não tiver o aspeto esperado, verifique os valores **LanguagePreferences** e **MswVersion** e ajuste-os, se necessário, para corresponder às definições da sua versão Microsoft Word.
 
 {{% /alert %}}
 
-O exemplo de código a seguir mostra como adicionar japonês a linguagens de edição:
+O exemplo de código a seguir mostra como adicionar Japonês aos idiomas de edição:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SetupLanguagePreferences-AddJapaneseAsEditinglanguages.java" >}}
 
@@ -65,11 +66,11 @@ O exemplo de código a seguir mostra como definir o russo como o idioma de ediç
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SetupLanguagePreferences-SetRussianAsDefaultEditingLanguage.java" >}}
 
-## Otimizar um documento para um particular Versão do Word
+## Otimizar um documento para uma versão específica do Word
 
-O [OptimizeFor](https://reference.aspose.com/words/java/com.aspose.words/compatibilityoptions/#optimizeFor-int) método permite otimizar o conteúdo do documento, bem como o padrão Aspose.Words comportamento para uma versão específica Microsoft Word. Você pode usar este método para evitar Microsoft Word de exibir a fita "modo de compatibilidade" no carregamento de documentos. Note que você também pode precisar definir o `Compliance` propriedade para Iso29500_2008_Transitional ou superior.
+O método [OptimizeFor](https://reference.aspose.com/words/java/com.aspose.words/compatibilityoptions/#optimizeFor-int) permite otimizar o conteúdo do documento, bem como o comportamento padrão Aspose.Words para uma versão específica de Microsoft Word. Pode utilizar este método para evitar que Microsoft Word exiba a faixa de opções "Modo de compatibilidade" aquando do Carregamento do documento. Observe que também pode ser necessário definir a propriedade `Compliance` como Iso29500_2008_Transitional ou superior.
 
-O exemplo a seguir mostra como otimizar o conteúdo do documento para Microsoft Word 2016:
+O exemplo de código a seguir mostra como otimizar o conteúdo do documento para Microsoft Word 2016:
 
 {{< highlight csharp >}}
 Document doc = new Document(dataDir + "Document.docx");

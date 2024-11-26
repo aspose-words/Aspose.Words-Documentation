@@ -1,4 +1,4 @@
-﻿---
+---
 title: Belge Oluşturucuya Genel Bakış C++
 second_title: Aspose.Words için C++
 articleTitle: Belge Oluşturucuya Genel Bakış
@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilder sıfırdan dinamik belgeler oluşturmanıza veya C++ kullanarak mevcut belgelere yeni öğeler eklemenize olanak tanır. DocumentBuilder C++'e metin, onay kutuları, tablolar, resimler ve diğer içerik öğeleri eklemek için yöntemler sağlar."
 weight: 30
 url: /tr/cpp/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/), [Document](https://reference.aspose.com/words/cpp/aspose.words/document/) ile ilişkilendirilen ve sıfırdan dinamik belgeler oluşturmanıza veya mevcut bir belgeye yeni öğeler eklemenize olanak tanıyan güçlü bir sınıftır.

@@ -7,6 +7,7 @@ description: "example of barcode shape generation using C#."
 type: docs
 weight: 350
 url: /tr/net/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
 Bir barkod, paralel çizgiler veya desenler biçiminde verilerin görsel bir temsilidir. Barkodlar perakende, lojistik, sağlık, bankacılık ve birçok diğer sektör dahil olmak üzere çeşitli endüstrilerde yaygın olarak kullanılmaktadır.

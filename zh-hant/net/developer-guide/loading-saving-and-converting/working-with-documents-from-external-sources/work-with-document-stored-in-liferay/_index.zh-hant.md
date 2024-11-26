@@ -7,6 +7,7 @@ description: "透過 C# 比較在 Liferay 分享的 Word 文檔。 與儲存在 
 type: docs
 weight: 20
 url: /zh-hant/net/work-with-document-stored-in-liferay/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Liferay Portal 是一個開放原始碼的企業入口網站軟體平台，旨在開發網路入口網站和網站。 Liferay 在其入口網站平台中提供文件管理系統，讓使用者能夠以合作和有效的方式建立、組織、儲存及管理文件。 常常被稱為Liferay 文檔圖書館的文檔管理功能。

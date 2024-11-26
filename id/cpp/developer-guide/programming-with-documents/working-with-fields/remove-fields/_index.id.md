@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hapus Bidang C++
 second_title: Aspose.Words untuk C++
 articleTitle: Hapus Bidang
@@ -7,6 +7,7 @@ description: "Pelajari cara menghapus bidang di C++. Hapus bidang secara terprog
 type: docs
 weight: 35
 url: /id/cpp/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Terkadang perlu untuk menghapus bidang dari dokumen. Hal ini dapat terjadi saat perlu diganti dengan jenis bidang yang berbeda atau saat bidang tersebut tidak lagi diperlukan dalam dokumen. Misalnya bidang `TOC` saat menyimpan ke HTML.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu SmartArt redare la rece
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Lucrul cu SmartArt redare la rece
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words pentru Python via .NET efectuează SmartArt Redare la rece, ceea ce înseamnă că stabilește și redă obiecte SmartArt dacă desenul SmartArt pre-randat lipsește sau este incorect."
 weight: 330
 url: /ro/python-net/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 SmartArt grafica este utilizată pentru a crea rapid și ușor o reprezentare vizuală a informațiilor. Pur și simplu Alegeți dintr-un număr mare de machete care se potrivesc cel mai bine situației dvs. Această ușurință de utilizare face ca grafica SmartArt să fie destul de populară în anumite scopuri.

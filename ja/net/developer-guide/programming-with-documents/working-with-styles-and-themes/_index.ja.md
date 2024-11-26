@@ -7,6 +7,7 @@ description: "高度な Microsoft Word フォーマット機能。C# を使用�
 type: docs
 weight: 110
 url: /ja/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) クラスは、組み込みの設定を管理し、スタイルにユーザー定義の設定を適用するために使用されます。
@@ -36,7 +37,7 @@ Aspose.Words がスタイルに基づいてコンテンツの取得をどのよ�
 
 ### コード
 
-スタイルベースのクエリの実装は、Aspose.Words ドキュメント オブジェクト モデルでは、すでに存在するツールを使用するだけなので非常に簡単です。このソリューションには 2 つのクラス メソッドが実装されています。 # **ParagraphsByStyleName** – このメソッドは、次の段落の配列を取得します。特定のスタイル名を持つドキュメント。# **RunsByStyleName** – このメソッドは、特定のスタイル名を持つドキュメント内の実行の配列を取得します。これらのメソッドはどちらも非常に似ており、唯一の違いはノード タイプとスタイルの表現です。段落内の情報を取得してノードを実行します。これは、ParagraphsByStyleName の実装です。以下の例では、指定されたスタイルで書式設定されたすべての段落を検索します。
+スタイルベースのクエリの実装は、Aspose.Words ドキュメント オブジェクト モデルでは、すでに存在するツールを使用するだけなので非常に簡単です。このソリューションには 2 つのクラス メソッドが実装されています。 **ParagraphsByStyleName** – このメソッドは、次の段落の配列を取得します。特定のスタイル名を持つドキュメント。**RunsByStyleName** – このメソッドは、特定のスタイル名を持つドキュメント内の実行の配列を取得します。これらのメソッドはどちらも非常に似ており、唯一の違いはノード タイプとスタイルの表現です。段落内の情報を取得してノードを実行します。これは、ParagraphsByStyleName の実装です。以下の例では、指定されたスタイルで書式設定されたすべての段落を検索します。
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.cs" >}}
 

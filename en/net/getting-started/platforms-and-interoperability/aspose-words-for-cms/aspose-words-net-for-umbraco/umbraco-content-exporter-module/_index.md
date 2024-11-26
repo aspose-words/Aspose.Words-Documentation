@@ -7,6 +7,7 @@ description: "Export online content into Word Processing or PDF document using A
 type: docs
 weight: 10
 url: /net/umbraco-content-exporter-module/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Export to Word

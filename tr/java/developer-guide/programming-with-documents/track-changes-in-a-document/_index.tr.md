@@ -7,6 +7,7 @@ description: "İçerik ve biçimlendirme değişikliklerini sen veya başkaları
 type: docs
 weight: 270
 url: /tr/java/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Track değişiklikleri işlevselliği veya gözden geçirme özelliği, size içerik ve biçimlendirme üzerinde yaptığınız ya da diğer kullanıcılar tarafından yapılan değişiklikleri takip etmenizi sağlar. Bu Aspose.Words ile desteklenen track değişiklikleri özelliği, Microsoft Word'de değişiklikleri takip etmenize olanak tanır. Bu işlevsellik sayesinde belgenizdeki bireysel revizyonlara erişebilir ve farklı özellikleri onlara uygulayabilirsiniz.

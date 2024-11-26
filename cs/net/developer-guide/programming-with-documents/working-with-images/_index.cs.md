@@ -7,6 +7,7 @@ description: "Obrázek tvary v detailech a pokročilé funkce poskytované Aspos
 type: docs
 weight: 300
 url: /cs/net/working-with-images/
+timestamp: 2024-05-02-11-51-44
 ---
 
 Aspose.Words umožňuje uživatelům pracovat s obrazy velmi flexibilním způsobem. V tomto článku můžete prozkoumat pouze některé možnosti práce s obrázky.

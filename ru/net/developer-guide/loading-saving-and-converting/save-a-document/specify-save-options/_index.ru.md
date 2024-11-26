@@ -7,6 +7,7 @@ description: "Более точно контролировать процесс 
 type: docs
 weight: 10
 url: /ru/net/specify-save-options/
+timestamp: 2024-07-09-19-00-42
 ---
 
 При сохранении документа вы можете установить некоторые расширенные свойства. Aspose.Words Предоставляет вам [SaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/) Класс, который позволяет более точно контролировать процесс сохранения. Есть перегрузки со стороны **Save** Метод, который принимает **SaveOptions** объект - это должен быть объект класса, полученного из **SaveOptions** класс. Каждый формат сохранения имеет соответствующий класс, который содержит параметры сохранения для этого формата сохранения, например, есть [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) для сохранения в формате PDF, [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) Чтобы сэкономить на Markdown формат, или [ImageSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/) Чтобы сохранить изображение. В этой статье приведены примеры работы с некоторыми классами опций, полученными из **SaveOptions**.

@@ -7,6 +7,7 @@ description: "Aspose.Words für Python via .NET bietet Benutzern eine Vielzahl v
 type: docs
 weight: 30
 url: /de/python-net/features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words bietet Benutzern eine breite Palette von Funktionen. Benutzer können eine Vielzahl dokumentbezogener Aufgaben ausführen – von der einfachen Konvertierung von Dokumenten von einem unterstützten Format in ein anderes und der Änderung dieser Dokumente während des Konvertierungsprozesses bis hin zu Geschäftsaufgaben wie der Erstellung strukturierter und optisch ansprechender Dokumente oder der Automatisierung von Berichten.
@@ -109,13 +110,13 @@ Sie können Aspose.Words als eigenständige Berichtslösung verwenden. Entwerfen
 |  Besonderheit | Python via .NET |
 |  :-  |  :-  |
 | Verwenden Sie in Ihren Berichten alle Standard-Microsoft Word-mail merge-Felder, einschließlich `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK` und GREETINGLINE. | {{< emoticons/tick >}} |
-| Führen Sie mail merge für Dokumente aus, die selbst die komplexesten und verschachteltesten `IF`-Felder und Formeln enthalten. | {{< emoticons/tick >}} |
+| Führen Sie Mail Merge für Dokumente aus, die selbst die komplexesten und verschachteltesten `IF`-Felder und Formeln enthalten. | {{< emoticons/tick >}} |
 | Füllen Sie mithilfe von mail merge-Regionen Tabellen oder Fragmente im Dokument aus Ihrer Datenquelle und vergrößern Sie diese dynamisch. | {{< emoticons/cross >}} |
 | Erstellen Sie ganz einfach Berichte, die Master-Detail-Daten (übergeordnete/untergeordnete Daten) wie "Order/OrderDetails" enthalten. | {{< emoticons/cross >}} |
 | Füllen Sie Dokumente mit Daten aus einer beliebigen .NET-Datenquelle wie DataSet, DataTable, DataView, DataReader oder ADO Recordset. | {{< emoticons/cross >}} |
 | Füllen Sie Dokumente aus beliebigen Datenquellen wie einer LINQ-Abfrage, einer XML-Datei oder Geschäftsobjekten durch die Implementierung der [IMailMergeDataSource](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/imailmergedatasource/)-Schnittstelle. | {{< emoticons/cross >}} |
 | Übernehmen Sie präzise Kontrolle darüber, wie Ihre Daten mithilfe von Ereignissen zusammengeführt werden, beispielsweise durch Zahlenformatierung. | {{< emoticons/cross >}} |
-| Fügen Sie Bilder während mail merge ein. | {{< emoticons/tick >}} |
+| Fügen Sie Bilder während Mail Merge ein. | {{< emoticons/tick >}} |
 | Erstellen oder ändern Sie programmgesteuert eine Microsoft Word-mail merge-Datenquelle für ein Dokument. mail merge-Einstellungen und Datenquellen beibehalten. | {{< emoticons/tick >}} |
 | Rufen Sie mail merge-Feldnamen ab. | {{< emoticons/tick >}} |
 

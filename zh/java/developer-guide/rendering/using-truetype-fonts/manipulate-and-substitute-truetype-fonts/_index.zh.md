@@ -7,6 +7,7 @@ description: "Aspose.Words (单位:千美元) Java 可以将正确的TrueType字
 type: docs
 weight: 10
 url: /zh/java/manipulate-and-substitute-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words 需要真 为各种任务打字字体,包括将文档渲染成固定的页面格式,例如PDF或 XPS。 。 。 。 何时 Aspose.Words 生成文档,它需要执行 TrueType 字体的嵌入和子集嵌入到生成的文档中,这是文档生成过程中的通常做法,包括流行的 PDF 或 XPS 格式。 这保证了文档会在任何查看者面前显示相同. 此外, XPS 规格要求字体总是嵌入到文档中。

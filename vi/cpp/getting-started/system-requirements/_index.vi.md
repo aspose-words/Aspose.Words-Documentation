@@ -1,4 +1,4 @@
-﻿---
+---
 title: Yêu Cầu Hệ Thống
 second_title: Aspose.Words cho C++
 articleTitle: Yêu Cầu Hệ Thống
@@ -7,6 +7,7 @@ description: "Trước khi bạn bắt đầu làm việc với Aspose.Words cho
 type: docs
 weight: 70
 url: /vi/cpp/system-requirements/
+timestamp: 2024-07-11-16-13-28
 ---
 
 Aspose.Words cho C++ không yêu cầu bất kỳ sản phẩm của bên thứ ba nào như Microsoft Word được cài đặt. Bản thân Aspose.Words là một công cụ để tạo, sửa đổi, chuyển đổi và hiển thị các tài liệu ở nhiều định dạng khác nhau, bao gồm các định dạng tài liệu Microsoft Word.

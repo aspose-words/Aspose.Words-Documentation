@@ -7,6 +7,7 @@ description: "PDF/A en PDF/UA stellen toegankelijkheidseisen met betrekking tot 
 type: docs
 weight: 29
 url: /nl/python-net/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/A en PDF/UA-formaten leggen een aantal toegankelijkheidseisen op met betrekking tot documentinhoud waaraan niet kan worden voldaan tijdens automatische conversie van Word naar PDF. Deze eisen worden beschreven in het vorige artikel *"Werken met PDF/A of PDF/UA"*. Voor sommige van deze problemen worden nu waarschuwingen gegeven.

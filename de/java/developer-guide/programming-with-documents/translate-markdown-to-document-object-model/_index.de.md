@@ -1,108 +1,102 @@
----
-title: Übersetzung Markdown bis DOM
+﻿---
+title: Markdown in DOM übersetzen
 second_title: Aspose.Words für Java
-articleTitle: Übersetzung Markdown bis Document Object Model (DOM)
-linktitle: Übersetzung Markdown bis Document Object Model (DOM)
+articleTitle: Markdown in Dokumentobjektmodell übersetzen (DOM)
+linktitle: Markdown in Dokumentobjektmodell übersetzen (DOM)
 type: docs
-description: "Tarnslate a Markdown Dokument Document Object Model und zurück. So können Sie mit komplexen bestehenden Markdown und programmatisch eine Markdown Dokument von Kratzern mit Java."
+description: "Tarnen Sie ein Markdown -Dokument in das Dokumentobjektmodell und zurück. So können Sie mit komplexen vorhandenen Markdown arbeiten und mit Java programmgesteuert ein Markdown -Dokument von Grund auf neu erstellen."
 weight: 20
 url: /de/java/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
-Um den Inhalt und die Formatierung eines Dokuments programmatisch zu lesen, zu manipulieren und zu modifizieren, müssen Sie es in die Aspose.Words Document Object Model (DOM)
+Um den Inhalt und die Formatierung eines Dokuments programmgesteuert zu lesen, zu bearbeiten und zu ändern, müssen Sie es in das Aspose.Words-Dokumentobjektmodell (DOM) übersetzen.
 
-Im Gegensatz zu Word-Dokumenten, Markdown nicht mit der DOM in der [Aspose.Words Document Object Model (DOM)](/words/de/java/aspose-words-document-object-model/) Artikel. Allerdings Aspose.Words einen eigenen Mechanismus zur Übersetzung Markdown Dokumente DOM und zurück, so dass wir mit ihren Elementen wie Textformatierung, Tabellen, Header und andere erfolgreich arbeiten können.
+Im Gegensatz zu Word-Dokumenten entspricht Markdown nicht den DOM, die in der [Aspose.Words Dokumentenobjektmodell (DOM)](/words/java/aspose-words-document-object-model/) Beitrag. Aspose.Words bietet jedoch einen eigenen Mechanismus zum Übersetzen von Markdown -Dokumenten nach DOM und zurück, sodass wir erfolgreich mit ihren Elementen wie Textformatierung, Tabellen, Überschriften und anderen arbeiten können.
 
-Dieser Artikel erklärt, wie die verschiedenen markdown Funktionen können in Aspose.Words DOM und zurück zu Markdown Format.
+In diesem Artikel wird erläutert, wie die verschiedenen markdown-Funktionen in das Aspose.Words DOM- und zurück in das Markdown-Format übersetzt werden können.
 
 ## Komplexität der Übersetzung Markdown – DOM – Markdown
 
-Die Hauptschwierigkeit dieses Mechanismus ist nicht nur zu übersetzen Markdown bis DOM, aber auch die umgekehrte Transformation zu tun – das Dokument zurück zu speichern Markdown Format mit minimalem Verlust. Es gibt Elemente, wie mehrstufige Zitate, für die die umgekehrte Transformation nicht trivial ist.
+Die Hauptschwierigkeit dieses Mechanismus besteht nicht nur darin, Markdown in DOM zu übersetzen, sondern auch die umgekehrte Transformation durchzuführen – das Dokument mit minimalem Verlust wieder im Markdown -Format zu speichern. Es gibt Elemente wie mehrstufige Anführungszeichen, für die die umgekehrte Transformation nicht trivial ist.
 
-Unsere Übersetzungsmaschine ermöglicht es Benutzern nicht nur, mit komplexen Elementen in einem bestehenden zu arbeiten Markdown dokument, aber auch um ein eigenes Dokument zu erstellen Markdown Format mit der ursprünglichen Struktur von Grund auf. Um verschiedene Elemente zu erstellen, müssen Sie Stile mit bestimmten Namen nach bestimmten Regeln verwenden, die später in diesem Artikel beschrieben werden. Solche Stile können programmatisch erstellt werden.
+Mit unserer Übersetzungsengine können Benutzer nicht nur mit komplexen Elementen in einem vorhandenen Markdown -Dokument arbeiten, sondern auch ihr eigenes Dokument im Markdown -Format mit der ursprünglichen Struktur von Grund auf neu erstellen. Um verschiedene Elemente zu erstellen, müssen Sie Stile mit bestimmten Namen gemäß bestimmten Regeln verwenden, die später in diesem Artikel beschrieben werden. Solche Stile können programmgesteuert erstellt werden.
 
-## Englische Übersetzung Grundsätze
+## Gemeinsame Übersetzungsprinzipien
 
-Wir verwenden [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) Formatierung für Inline-Blöcke. Wenn es keine direkte Korrespondenz für eine Markdown Funktion in Aspose.Words DOM, wir verwenden einen Charakterstil mit einem Namen, der von einigen speziellen Wörtern beginnt.
+Wir verwenden [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) Formatierung für Inline-Blöcke. Wenn es keine direkte Entsprechung für ein Markdown-Feature in Aspose.Words DOM gibt, verwenden wir einen Zeichenstil mit einem Namen, der mit einigen speziellen Wörtern beginnt.
 
-Für Containerblöcke verwenden wir Stilerbung, um geschachtelt zu bezeichnen Markdown Merkmale. In diesem Fall, auch wenn es keine geschachtelten Funktionen gibt, verwenden wir auch Paragraph-Stile mit einem Namen, der von einigen speziellen Wörtern beginnt.
+Für Containerblöcke verwenden wir die Stilvererbung, um verschachtelte Markdown -Features zu bezeichnen. In diesem Fall verwenden wir auch Absatzformate mit einem Namen, der mit einigen speziellen Wörtern beginnt, auch wenn keine verschachtelten Features vorhanden sind.
 
-Geprägte und bestellte Listen sind Containerblöcke in Markdown auch. Ihr Nest ist in DOM die gleiche Weise wie für alle anderen Containerblöcke mit Stil Erbe. Jedoch zusätzlich Listen in DOM haben die Nummernformatierung in entweder Listenstil oder Absatzformatierung entsprechen.
+Aufzählungslisten und geordnete Listen sind ebenfalls Containerblöcke in Markdown. Ihre Verschachtelung wird in DOM genauso dargestellt wie bei allen anderen Containerblöcken, die Stilvererbung verwenden. Zusätzlich haben Listen in DOM jedoch eine entsprechende Zahlenformatierung entweder im Listenstil oder in der Absatzformatierung.
 
 ## Inline-Blöcke
 
-Wir verwenden [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) Formatierung beim Übersetzen **Bold**, *Italic* oder markdown Merkmale.
+Wir verwenden die [Font](https://reference.aspose.com/words/java/com.aspose.words/font/)-Formatierung bei der Übersetzung von **Bold**-, *Italic*- oder ~~Strikethrough~~-Inline-markdown-Funktionen.
 
-|  Markdown Funktion |   Aspose.Words        |
-|  -----------------------------  |  ------------------  |
-|  **Bold**<br/>`{1}` |  `Font.Bold = true`  |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-BoldText.java" >}}  |  |
-|  **Italic**<br/>`*italic text*` |  `Font.Italic = true`  |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-ItalicText.java" >}}  |  |
-|  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}}  |  |
+| Markdown Funktion | Aspose.Words |
+| ----------------------------- | ------------------ |
+| **Bold**<br />`**bold text**` | `Font.Bold = true` |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-BoldText.java" >}} |  |
+| **Italic**<br />`*italic text*` | `Font.Italic = true` |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-ItalicText.java" >}} |  |
+| **Strikethrough**<br />`~Strikethrough text~` | `Font.StrikeThrough = true` |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}} |  |
 
-Wir verwenden einen Charakterstil mit einem Namen, der von dem Wort abgeht <span notrans="<span notrans=" `InlineCode`"=""></span>,"> gefolgt von einem optionalen Punkt `(.)` und eine Reihe von Backticks ```(`)``` für die `InlineCode` Funktion. Wird eine Anzahl von Backticks verpasst, wird standardmäßig ein Backtick verwendet.
+Wir verwenden einen Zeichenstil mit einem Namen, der mit dem Wort `InlineCode` beginnt, gefolgt von einem optionalen Punkt `(.)` und einer Anzahl von Backticks ```(`)``` für die `InlineCode` -Funktion. Wenn eine Anzahl von Backticks fehlt, wird standardmäßig ein Backtick verwendet.
 
-|  Markdown Funktion |   Aspose.Words        |
-|  -----------------------------  |  ------------------  |
-|  **InlineCode**<br/>`{1}` |  `Font.StyleName = “InlineCode[.][N]”`  |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-InlineCode.java" >}}  |  |
-|  **Autolink**<br/>`<scheme://domain.com>`<br/>`<email@domain.com>` |  Die [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) Klasse |
-|     {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Autolink.java" >}}  |  |
-|  **Link**<br/>`{1}`<br/>`{2}`<br/>`{3}`<br/>`{4})` |  Die [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) Klasse |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Link.java" >}}  |  |
-|  **Image**<br/>`{1}`<br/>`{2}`<br/>`{3}`<br/>`{4})` |  Die [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) Klasse |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Image.java" >}}  |  |
+| Markdown Funktion | Aspose.Words |
+| ----------------------------- | ------------------ |
+| **InlineCode**<br />`**inline code**` | `Font.StyleName = "InlineCode[.][N]"` |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-InlineCode.java" >}} |  |
+| **Autolink**<br />`<scheme://domain.com>`<br />`<email@domain.com>` | Die [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) -Klasse. |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Autolink.java" >}} |  |
+| **Link**<br />`[Linktext](url)`<br />`[Linktext](<url>"title")`<br />`[Linktext](url 'title')`<br />`[Linktext](url (title))` | Die [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) -Klasse. |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Link.java" >}} |  |
+| **Image**<br />`![](/words/java/translate-markdown-to-document-object-model/url)`<br />`![alternativer Text](/words/java/translate-markdown-to-document-object-model/<url>"title")`<br />`![alternativer Text](/words/java/translate-markdown-to-document-object-model/url ‘title’)`<br />`![alternativer Text](/words/java/translate-markdown-to-document-object-model/url (title))` | Die [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) -Klasse. |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Image.java" >}} |  |
 
 ## Containerblöcke
 
-Ein Dokument ist eine Folge von Containerblöcken wie Überschriften, Absätze, Listen, Zitate und andere. Containerblöcke können in 2 Klassen unterteilt werden: Blattblöcke und komplexe Container. Blattblöcke können nur Inline-Inhalte enthalten. Komplexe Behälter können wiederum andere Containerblöcke enthalten, einschließlich Blattblöcke.
+Ein Dokument ist eine Folge von Containerblöcken wie Überschriften, Absätzen, Listen, Anführungszeichen und anderen. Containerblöcke können in 2 Klassen unterteilt werden: Blattblöcke und komplexe Container. Blattblöcke können nur Inline-Inhalte enthalten. Komplexe Container können wiederum andere Containerblöcke enthalten, einschließlich Blattblöcke.
 
 ### Blattblöcke
 
-Die folgende Tabelle zeigt Beispiele für die Verwendung Markdown Blattblöcke Aspose.Words:
+Die folgende Tabelle zeigt Beispiele für die Verwendung von Markdown-Blattblöcken in Aspose.Words:
 
-|  Markdown Funktion |   Aspose.Words                                                  |
-|  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  **HorizontalRule**<br/>`-----` |  Dies ist ein einfacher Absatz mit einer entsprechenden HorizontalRule-Form:<br/>`DocumentBuilder.InsertHorizontalRule()` |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-HorizontalRule.java" >}}  |                                                                |
-|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, wobei (1<= N <= 9)<br/>Dies wird in einen eingebauten Stil übersetzt und sollte genau vom angegebenen Muster sein (keine Suffixes oder Präfixe sind erlaubt).<br/>Andernfalls wird es nur ein regelmäßiger Absatz mit einem entsprechenden Stil sein |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Heading.java" >}}  |                                                                |
-|  **Setext Heading**<br/>`===` (wenn Rubrik 1)<br/>`---` (wenn Rubrik 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, basierend auf `“Heading N”` Stil.<br/>Wenn (N >= 2), dann `“Heading 2”` wird verwendet, ansonsten `“Heading 1”`.<br/>Jeder Suffix ist erlaubt, aber Aspose.Words Einführer verwendet die Nummern "1" bzw. "2" |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SetextHeading.java" >}}  |                                                                |
-|   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-IndentedCode.java" >}}  |                                                                |
-|  **Fenced Code**<br/>{{< highlight java >}}``` java
-if ()
-then
-else
-```{{< /highlight >}} |  `ParagraphFormat.StyleName = “FencedCode[.][info string]”`<br/>Die `[.]` und `[info string]` sind optional |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-FencedCode.java" >}}   |                                                                |
+| Markdown Funktion | Aspose.Words |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **HorizontalRule**<br />`-----` | Dies ist ein einfacher Absatz mit einer entsprechenden HorizontalRule -Form:<br />`DocumentBuilder.InsertHorizontalRule()` |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-HorizontalRule.java" >}} |  |
+| **ATX Heading**<br />`# H1, ## H2, ### H3…` | `ParagraphFormat.StyleName = "Heading N"`, wobei (1<= Und <= 9).<br />Dies wird in einen integrierten Stil übersetzt und sollte genau dem angegebenen Muster entsprechen (keine Suffixe oder Präfixe sind erlaubt).<br />Andernfalls handelt es sich nur um einen regulären Absatz mit einem entsprechenden Stil. |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Heading.java" >}} |  |
+| **Setext Heading**<br />`===` (if Heading level 1),<br />`---` (if Heading level 2) | `ParagraphFormat.StyleName = "SetextHeading[some suffix]"`, basierend auf dem Stil 'Überschrift N'.<br />Wenn (N >= 2), dann wird 'Heading 2' verwendet, sonst 'Heading 1'.<br />Jedes Suffix ist erlaubt, aber Aspose.Words Importer verwendet die Nummern "1" und "2". |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SetextHeading.java" >}} |  |
+| **Indented Code**<br>{{< highlight java >}}<br/>if ()<br/>then<br/>else<br/>```{{< /highlight >}} | `ParagraphFormat.StyleName = "IndentedCode[some suffix]"` |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-FencedCode.java" >}} |  |
+### Komplexe Behälter
 
-### Komplexe Container
+Die folgende Tabelle zeigt Beispiele für die Verwendung von Markdown komplexen Containern in Aspose.Words:
 
-Die folgende Tabelle zeigt Beispiele für die Verwendung Markdown Komplexe Container in Aspose.Words:
+| Markdown Funktion | Aspose.Words |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Quote**<br />`> quote,`<br />`>> nested quote` | `ParagraphFormat.StyleName = "Quote[some suffix]"`<br />Das Suffix im Stilnamen ist optional, aber Aspose.Words Importer verwendet die sortierten Nummern 1, 2, 3, .... bei verschachtelten Anführungszeichen.<br />Die Verschachtelung wird über die geerbten Stile definiert. |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Quote.java" >}} |  |
+| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Aufzählungen werden mit Absatznummerierung dargestellt:<br />`ListFormat.ApplyBulletDefault()`<br />Es kann 3 Arten von Aufzählungslisten geben. Sie unterscheiden sich nur in einem Nummerierungsformat der allerersten Ebene. Dies sind: `‘-’`, `‘+’` oder `‘*’`. |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-BulletedList.java" >}} |  |
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Geordnete Listen werden mit Absatznummerierung dargestellt:<br />`ListFormat.ApplyNumberDefault()`<br />Es können 2 Zahlenformatmarkierungen vorhanden sein: ‘.’ und ‘)’. Der Standardmarker ist ‘.’. |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-OrderedList.java" >}} |  |
 
-|  Markdown Funktion |   Aspose.Words                                                  |
-|  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  **Quote**<br/>`> quote,`<br/>`>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br/>Der Suffix im Stil ist optional, aber Aspose.Words Einführer verwendet die bestellten Nummern 1, 2, 3, ... bei geschachtelten Angeboten.<br/>Das Nesting wird über die geerbten Stile definiert |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Quote.java" >}}  |                                                                |
-|  **BulletedList**<br/>`- Item 1`<br/>`- Item 2`<br/> `   - Item 2a`<br/> `   - Item 2b` |  Geringe Listen werden mit Absatznummerierung dargestellt:<br/>`ListFormat.ApplyBulletDefault()`<br/>Es gibt 3 Arten von geschossenen Listen. Sie sind nur in einem nummerierenden Format der ersten Ebene diff. Das sind: `‘-’`, `‘+’` oder `‘*’` bzw |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-BulletedList.java" >}}  |                                                                |
-|  **OrderedList**<br/>`1. Item 1`<br/>`2. Item 2`<br/> `1) Item 2a`<br/> `2) Item 2b` |  Die bestellten Listen werden mit Absatznummerierung dargestellt:<br/>`ListFormat.ApplyNumberDefault()`<br/>Es können 2 Nummernformatmarker vorhanden sein: "." und "). Der Standardmarker ist "." |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-OrderedList.java" >}}  |                                                                |
+### Tables
 
-### Tabellen
+Aspose.Words ermöglicht auch die Übersetzung von Tabellen in DOM, wie unten gezeigt:
 
-Aspose.Words ermöglicht auch Tabellen in DOM, wie unten gezeigt:
-
-|  Markdown Funktion |   Aspose.Words                                                  |
-|  ----------------------------------------  |  ------------------------------------------------------------  |
-|  `Table`<br/>`a|B.`<br />`- Ja | - Ja.`<br />`c) | dgl. ` |  [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) und [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) Klassen |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Table.java" >}}  |                                                                |
+| Markdown Funktion | Aspose.Words |
+| ---------------------------------------- | ------------------------------------------------------------ |
+| `Table`<br />`a|b`<br />`-|-`<br />`c|d` | [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) und [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) Klassen. |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Table.java" >}} |  |
 
 ## Siehe auch
 
-* [Arbeiten mit Markdown Eigenschaften](/words/de/java/working-with-markdown-features/)
+* [Arbeiten mit Markdown-Funktionen](/words/java/working-with-markdown-features/)
 

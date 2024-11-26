@@ -1,13 +1,14 @@
-﻿---
+---
 title: C++の単純なMail Merge操作
 second_title: Aspose.WordsのためのC++
 articleTitle: 単純なMail Merge操作
 linktitle: 単純なMail Merge操作
 type: docs
 description: "テンプレート内のmail mergeフィールドにデータソースから必要なデータを入力するには、単純なmail mergeを使用します。Microsoft Wordの古典的なmail mergeに似ています。 テンプレートに1つ以上の差し込み項目を追加し、単純なmail merge操作を実行します。"
-keywords: "how to execute mail merge c++"
+keywords: "how to execute Mail Merge c++"
 weight: 10
 url: /ja/cpp/simple-mail-merge-operation/
+timestamp: 2024-09-24-14-35-44
 ---
 
 単純なmail mergeは、テンプレート内のmail mergeフィールドにデータソースから必要なデータ(単一のテーブル表現)を入力するために使用されます。 したがって、Microsoft Wordの古典的なmail mergeに似ています。

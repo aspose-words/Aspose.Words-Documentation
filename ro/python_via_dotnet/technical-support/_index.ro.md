@@ -1,4 +1,4 @@
-﻿---
+---
 title: Suport Tehnic
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Suport Tehnic
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words pentru Python via .NET oferă suport tehnic gratuit disponibil tuturor utilizatorilor. Vă rugăm să raportați întrebarea, problema, sau cererea caracteristică folosind Aspose Forum Suport gratuit."
 weight: 80
 url: /ro/python-net/technical-support/
+timestamp: 2024-11-18-12-56-02
 ---
 
 Aspose oferă suport tehnic gratuit nelimitat pentru toate produsele sale. Suportul este disponibil pentru toți utilizatorii, inclusiv evaluarea. Principala cale de sprijin este [Aspose.Forum](https://forum.aspose.com/c/words/8).

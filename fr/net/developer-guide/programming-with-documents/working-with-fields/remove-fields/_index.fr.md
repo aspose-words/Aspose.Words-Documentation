@@ -7,6 +7,7 @@ description: "Découvrez comment supprimer des champs dans C#. Supprimez les cha
 type: docs
 weight: 35
 url: /fr/net/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Il est parfois nécessaire de supprimer un champ d'un document. Cela peut se produire lorsqu'il doit être remplacé par un type de champ différent ou lorsque le champ n'est plus nécessaire dans le document. Par exemple le champ `TOC` lors de l'enregistrement au format HTML.

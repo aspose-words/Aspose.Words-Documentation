@@ -7,6 +7,7 @@ description: "使用连字符对文本进行更紧凑的安排. 它提供高级�
 type: docs
 weight: 220
 url: /zh/java/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时需要使用连字符来对文件中的文字作出更紧凑的安排. 同时,必须明白,每个语言的连字符字的特异性可能有所不同.

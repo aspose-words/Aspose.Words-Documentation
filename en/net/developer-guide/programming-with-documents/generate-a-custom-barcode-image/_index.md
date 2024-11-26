@@ -7,6 +7,7 @@ description: "Example of barcode shape generation using C#."
 type: docs
 weight: 350
 url: /net/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
 A barcode is a visual representation of data in the form of parallel lines or patterns. Barcodes are widely used in various industries such as retail, logistics, healthcare, banking, and many others.

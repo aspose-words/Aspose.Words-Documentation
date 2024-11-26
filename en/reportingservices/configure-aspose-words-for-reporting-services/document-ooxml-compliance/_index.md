@@ -7,6 +7,7 @@ description: "Document Ooxml Compliance setting of the Aspose.Words for Reportin
 type: docs
 weight: 150
 url: /reportingservices/document-ooxml-compliance/
+timestamp: 2024-02-27-07-01-11
 ---
 
 {{% alert color="primary" %}}

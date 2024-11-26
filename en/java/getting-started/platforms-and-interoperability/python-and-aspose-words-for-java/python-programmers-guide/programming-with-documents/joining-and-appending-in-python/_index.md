@@ -1,4 +1,4 @@
-﻿---
+---
 title: Joining And Appending in Python
 second_title: Aspose.Words for Java
 articleTitle: Joining And Appending in Python
@@ -7,6 +7,7 @@ description: "Joining and appending Document using Python."
 type: docs
 weight: 10
 url: /java/joining-and-appending-in-python/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Joining And Appending

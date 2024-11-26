@@ -7,6 +7,7 @@ type: docs
 description: "Про нас `Document` Клас надає різні властивості документів і способи використання Pythonй Ви використовуєте `Document` клас як початкова точка для того, що ви хочете виконати з Aspose.Words для Pythonй Про нас `Document` об'єкт може бути збережений в файлі або потоковому режимі, а також відправлений в браузер."
 weight: 40
 url: /uk/python-net/working-with-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Про нас [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) клас центральний Aspose.Wordsй Він являє собою документ і надає різні властивості документів і методи, такі як збереження або захист документа. Ви використовуєте [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) клас як початкова точка для того, що ви хочете виконати з Aspose.Words: створити новий документ з нуля, відкрити шаблон для mail merge, або отримати різні частини з документа.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Add Bookmarks
 second_title: Aspose.Words for Java
 articleTitle: Add Bookmarks
@@ -7,6 +7,7 @@ description: "Add bookmarks to a document easily and fast instead of using docx4
 type: docs
 weight: 10
 url: /java/add-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Add Bookmarks

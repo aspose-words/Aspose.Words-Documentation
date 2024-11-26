@@ -7,6 +7,7 @@ description: "اختر أفضل معيار PDF لتصدير نتيجة مهمة 
 type: docs
 weight: 27
 url: /ar/python-net/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 بالنسبة لبعض المهام، قد تكون بعض معايير PDF مناسبة بشكل أفضل أو العكس أسوأ. في هذه المقالة، سنحاول تحديد معايير PDF التي يكون من المنطقي اختيارها.

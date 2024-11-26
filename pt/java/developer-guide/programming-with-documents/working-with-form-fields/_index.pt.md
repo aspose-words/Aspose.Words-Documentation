@@ -1,57 +1,58 @@
----
-title: Trabalhando com campos de formulário em Java
+﻿---
+title: Trabalhar com campos de formulário em Java
 second_title: Aspose.Words para Java
-articleTitle: Trabalhando com campos de formulário
-linktitle: Trabalhando com campos de formulário
-description: "Compreendendo o recurso Form Fields, trabalhando com Form Fields usando Java."
+articleTitle: Trabalhar com campos de formulário
+linktitle: Trabalhar com campos de formulário
+description: "Entendendo o recurso de campos de formulário, trabalhando com campos de formulário usando Java."
 type: docs
 weight: 380
 url: /pt/java/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Um documento que contém espaços de preenchimento (campos) é conhecido como um formulário. Por exemplo, você pode criar um formulário de registro em Microsoft Word que usa listas suspensas das quais os usuários podem selecionar entradas. O `Form` campo é um local onde um determinado tipo de dados, como um nome ou endereço, é armazenado. Campos de formulário Microsoft Word incluem entrada de texto, combobox e caixa de seleção.
+Um documento que contém espaços em branco (campos) é conhecido como formulário. Por exemplo, você pode criar um formulário de registro em Microsoft Word que usa listas suspensas nas quais os usuários podem selecionar entradas. O campo `Form` é um local onde um determinado tipo de dados, como um nome ou endereço, é armazenado. Os campos de formulário em Microsoft Word incluem entrada de texto, combobox e checkbox.
 
-Você pode usar campos de formulário em seu projeto para "comunicar" com seus usuários. Por exemplo, você cria um documento cujo conteúdo é protegido, mas apenas campos de formulário são editáveis. Os usuários podem inserir os dados nos campos do formulário e enviar o documento. Sua aplicação que usa Aspose.Words pode recuperar dados dos campos do formulário e processá-lo.
+Você pode usar campos de formulário em seu projeto para "se comunicar" com seus usuários. Por exemplo, cria um documento cujo conteúdo está protegido, mas apenas os campos de formulário são editáveis. Os usuários podem inserir os dados nos campos do formulário e enviar o documento. Seu aplicativo que usa Aspose.Words pode recuperar dados dos campos do formulário e processá-los.
 
-Colocar campos de formulário no documento através do código é fácil. [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) tem métodos especiais para inseri-los, um para cada tipo de campo de formulário. Cada um dos métodos aceita um parâmetro de string representando o nome do campo de formulário. O nome pode ser uma string vazia. Se no entanto você especificar um nome para o campo de formulário, então um marcador de livro é criado automaticamente com o mesmo nome.
+Colocar campos de formulário no documento através de código é fácil. [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) possui métodos especiais para inseri-los, um para cada tipo de campo de formulário. Cada um dos métodos aceita um parâmetro string que representa o nome do campo do formulário. O nome pode ser uma string vazia. No entanto, se especificar um nome para o campo do formulário, será criado automaticamente um marcador com o mesmo nome.
 
-## Inserir campos de formulário
+## Inserir Campos Do Formulário
 
-Campos de formulário são um caso particular de campos do Word que permite "interação" com o usuário. Campos de formulário Microsoft Word incluem caixa de texto, caixa de combinação e caixa de seleção.
+Os campos de formulário são um caso particular de campos de palavras que permitem "interacção" com o utilizador. Os campos de formulário em Microsoft Word incluem textbox, combo box e checkbox.
 
-**DocumentBuilder** fornece métodos especiais para inserir cada tipo de campo de formulário no documento: [insertTextInput](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCheckBox-java.lang.String-boolean-boolean-int), [insertCheckBox](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCheckBox-java.lang.String-boolean-boolean-int) ou [insertComboBox](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCheckBox-java.lang.String-boolean-int).
+**DocumentBuilder**
 
-O exemplo a seguir mostra como inserir um campo de formulário de combinação em um documento:
+O exemplo de código a seguir mostra como inserir um campo de formulário combobox em um documento:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertFormFields-InsertFormFields.java" >}}
 
-### Insira uma entrada de texto
+### Inserir uma entrada de texto
 
-Use o **inserção Entrada de texto** método para inserir uma caixa de texto no documento.
+Use o método **insertTextInput** para inserir uma caixa de texto no documento.
 
-O exemplo a seguir mostra como inserir um campo de formulário de entrada de texto em um documento:
+O exemplo de código a seguir mostra como inserir um campo de formulário de entrada de texto em um documento:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertTextInputFormField-DocumentBuilderInsertTextInputFormField.java" >}}
 
-### Insira uma caixa de verificação
+### Inserir uma caixa de verificação
 
-Chamada **caixa de entrada** para inserir uma caixa de seleção no documento.
+Chame **insertCheckBox** para inserir um checkbox no documento.
 
-O exemplo a seguir mostra como inserir um campo de formulário de caixa de seleção em um documento:
+O exemplo de código a seguir mostra como inserir um campo de formulário checkbox em um documento:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertCheckBoxFormField-DocumentBuilderInsertCheckBoxFormField.java" >}}
 
-### Insira uma caixa de combinação
+### Inserir uma caixa de combinação
 
-Chamada **inserçãoComboBox** para inserir uma combinação no documento.
+Chame **insertComboBox** para inserir um combobox no documento.
 
-O exemplo a seguir mostra como inserir um campo de formulário Combobox em um documento:
+O exemplo de código a seguir mostra como inserir um campo de formulário Combobox em um documento:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertComboBoxFormField-DocumentBuilderInsertComboBoxFormField.java" >}}
 
-## Obter campos de formulário
+## Obter Campos Do Formulário
 
-Uma coleção de campos de forma é representada pelo [FormFieldCollection](https://reference.aspose.com/words/java/com.aspose.words/formfieldcollection/) classe que pode ser recuperado usando o [Range.getFormFields](https://reference.aspose.com/words/java/com.aspose.words/range/#getFormFields) propriedade. Isso significa que você pode obter campos de formulário contidos em qualquer nó de documento, incluindo o próprio documento.
+Uma coleção de campos de formulário é representada pela classe [FormFieldCollection](https://reference.aspose.com/words/java/com.aspose.words/formfieldcollection/) que pode ser recuperada usando a propriedade [Range.getFormFields](https://reference.aspose.com/words/java/com.aspose.words/range/#getFormFields). Isso significa que você pode obter campos de formulário contidos em qualquer nó de documento, incluindo o próprio documento.
 
 O exemplo de código a seguir mostra como obter uma coleção de campos de formulário:
 
@@ -59,18 +60,18 @@ O exemplo de código a seguir mostra como obter uma coleção de campos de formu
 
 {{% alert color="primary" %}}
 
-Você pode baixar o arquivo de amostra dos seguintes exemplos a partir de [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Form%20fields.docx).
+Pode transferir o ficheiro de exemplo dos seguintes exemplos a partir de [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Form%20fields.docx).
 
 {{% /alert %}}
 
-Você pode obter um campo de formulário particular por seu índice ou nome.
+Você pode obter um campo de formulário específico por seu índice ou nome.
 
-O exemplo a seguir mostra como acessar campos de formulários:
+O exemplo de código a seguir mostra como acessar campos de formulário:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormFieldsGetByName-FormFieldsGetByName.java" >}}
 
-O **FormField** propriedades permitem que você trabalhe com nome de campo de formulário, tipo e resultado.
+As propriedades **FormField** permitem trabalhar com nome, tipo e resultado do campo de formulário.
 
-O exemplo de código a seguir mostra como trabalhar com nome de campo de formulário, tipo e resultado:
+O exemplo de código a seguir mostra como trabalhar com nome, tipo e resultado do campo de formulário:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormFieldsWorkWithProperties-FormFieldsWorkWithProperties.java" >}}

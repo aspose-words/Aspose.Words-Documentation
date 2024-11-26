@@ -1,4 +1,4 @@
-﻿---
+---
 title: 如何在C++中设置图表轴属性
 second_title: Aspose.Words对于C++
 articleTitle: 如何设置图表轴属性
@@ -7,6 +7,7 @@ description: "图表轴调整使用C++."
 type: docs
 weight: 20
 url: /zh/cpp/how-to-set-chart-axis-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 如果要为值轴处理图表轴、缩放和显示单位，请使用[ChartAxis](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.chart_axis)、[AxisDisplayUnit](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_display_unit)和[AxisScaling](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_scaling)类。

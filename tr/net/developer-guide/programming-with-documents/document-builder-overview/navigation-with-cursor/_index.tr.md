@@ -7,6 +7,7 @@ description: "C#'i kullanarak bir belge içindeki paragraf, yer imi veya belirli
 type: docs
 weight: 10
 url: /tr/net/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir belgeyle çalışırken, ister kısa ister uzun olsun, belgenizin içinde gezinmeniz gerekecektir. Sanal imleçle gezinme, bir belgedeki farklı düğümler arasında gezinme yeteneğini temsil eder.

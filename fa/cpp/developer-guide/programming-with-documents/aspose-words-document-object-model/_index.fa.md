@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words مدل شیء سند (DOM) در C++
 second_title: Aspose.Words برای C++
 articleTitle: Aspose.Words مدل شیء سند (DOM)
@@ -7,6 +7,7 @@ type: docs
 description: "مدل شیء سند (DOM) یک نمایش در حافظه یک سند ورد است. خواندن، دستکاری و تغییر محتوا و قالب بندی یک سند ورد با استفاده از C++."
 weight: 10
 url: /fa/cpp/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 مدل Aspose.Words Document Object (DOM) یک نمایش در حافظه یک سند ورد است. Aspose.Words DOM به شما اجازه می دهد تا محتوای و قالب بندی یک سند ورد را به صورت برنامه ریزی شده بخوانید، دستکاری کنید و تغییر دهید.

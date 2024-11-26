@@ -7,6 +7,7 @@ description: "C# でのプログラミング タスクの結果をエクスポ�
 type: docs
 weight: 27
 url: /ja/net/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 タスクによっては、特定の PDF 標準の方が適合する場合もあれば、その逆の場合もあります。この記事では、どのような場合にどの PDF 標準を選択するのが理にかなっているかを判断していきます。

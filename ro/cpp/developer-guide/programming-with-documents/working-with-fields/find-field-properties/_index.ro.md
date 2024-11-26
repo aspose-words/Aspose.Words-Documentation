@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cum să găsiți proprietățile câmpului
 second_title: Aspose.Words pentru C++
 articleTitle: Găsiți Proprietățile Câmpului
@@ -7,6 +7,7 @@ description: "Cum să găsiți unele proprietăți de câmp, cum ar fi codul de 
 type: docs
 weight: 25
 url: /ro/cpp/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un câmp care este inserat folosind [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertfield/) returnează un obiect [Field](https://reference.aspose.com/words/cpp/aspose.words.fields/field/). Aceasta este o clasă de fațadă care oferă metode utile pentru a găsi rapid unele proprietăți ale unui câmp.

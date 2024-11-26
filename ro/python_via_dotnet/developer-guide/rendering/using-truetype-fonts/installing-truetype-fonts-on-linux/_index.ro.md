@@ -1,4 +1,4 @@
-﻿---
+---
 title: Instalați TrueType fonturi pe Linux
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Instalați TrueType fonturi pe Linux
@@ -7,6 +7,7 @@ description: "Aspose.Words pentru Python permite redarea unui document creat fol
 type: docs
 weight: 20
 url: /ro/python-net/installing-truetype-fonts-on-linux/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Cel mai adesea, veți folosi Aspose.Words pentru a converti documentele DOC sau DOCX în format PDF. Dacă trebuie să faceți acest lucru pe o mașină Linux, acest subiect vă va ajuta să aflați cum să vă asigurați că Aspose.Words vă redă documentele cu cea mai bună precizie.

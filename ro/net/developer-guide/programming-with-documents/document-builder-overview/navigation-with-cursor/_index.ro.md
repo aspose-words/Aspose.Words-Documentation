@@ -7,6 +7,7 @@ description: "Navigaţi între noduri diferite în cadrul unui document, cum ar 
 type: docs
 weight: 10
 url: /ro/net/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Când lucrezi cu un document, chiar dacă este scurt sau lung, va trebui să navighezi prin documentul tău. Navigarea cu un cursor virtual reprezintă capacitatea de a naviga între noduri diferite dintr-un document.

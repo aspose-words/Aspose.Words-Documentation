@@ -7,6 +7,7 @@ description: "Aspose.Words cho .NET có thể tìm thấy phông chữ phù hợ
 type: docs
 weight: 20
 url: /vi/net/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Khi làm việc với các tài liệu, bạn thường phải sử dụng các phông chữ, kiểu dáng và kích cỡ khác nhau. Tài liệu có thể chứa bất kỳ số lượng phông chữ nào, không nhất thiết phải giới hạn ở các phông chữ được cài đặt trong hệ điều hành. Các phông chữ có thể khác hoàn toàn, chẳng hạn như phông chữ lấy từ hệ điều hành khác, do người dùng mua hoặc tự tạo.

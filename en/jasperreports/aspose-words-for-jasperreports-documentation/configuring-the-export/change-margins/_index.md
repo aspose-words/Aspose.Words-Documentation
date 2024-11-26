@@ -1,4 +1,4 @@
-﻿---
+---
 title: Change Margins
 second_title: Aspose.Words for JasperReports
 articleTitle: Change Margins
@@ -7,6 +7,7 @@ description: "Change Margins option allows to decrease/increase page margins in 
 type: docs
 weight: 220
 url: /jasperreports/change-margins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

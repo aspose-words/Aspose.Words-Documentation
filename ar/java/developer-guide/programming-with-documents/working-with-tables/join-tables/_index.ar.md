@@ -1,18 +1,19 @@
----
-title: طاولات الانضمام Java
-second_title: Aspose.Words for Java
-articleTitle: طاولات الانضمام
-linktitle: طاولات الانضمام
-description: "طاولات الانضمام Java. التلاعب بالطاولة المتقدمة، والإنضمام والانقسام باستخدام Java."
+﻿---
+title: انضم إلى الجداول في Java
+second_title: Aspose.Words ل Java
+articleTitle: انضم إلى الجداول
+linktitle: انضم إلى الجداول
+description: "انضم إلى الجداول في Java. التلاعب الجدول المتقدمة، والانضمام والانقسام باستخدام Java."
 type: docs
 weight: 90
 url: /ar/java/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
-A table, represented in the Aspose.Words Document Object Model, وتتكون من صفات وخلايا مستقلة، مما يجعل من السهل الانضمام إلى الجداول.
+يتكون الجدول، الممثل في نموذج كائن المستند Aspose.Words، من صفوف وخلايا مستقلة، مما يسهل ربط الجداول.
 
-للتلاعب بطاولة للإنضمام إلى طاولة أخرى، علينا فقط أن ننقل الصفوف من الطاولة الثانية إلى نهاية الأولى ونزيل حاوية الطاولة الثانية.
+لمعالجة جدول للانضمام إلى جدول آخر، نحتاج فقط إلى نقل الصفوف من الجدول الثاني إلى نهاية الجدول الأول وإزالة حاوية الجدول الثاني.
 
-The following code example shows how to merge rows from two tables into one:
+يوضح مثال الكود التالي كيفية دمج الصفوف من جدولين في جدول واحد:
 
 {{< gist "aspose-words-gists" "89807559333317718ba2e6084fdcb3e2" "combine-rows.java" >}}

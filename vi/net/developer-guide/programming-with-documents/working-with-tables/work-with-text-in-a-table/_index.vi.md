@@ -7,6 +7,7 @@ description: "Thay thế văn bản trong bảng trong C#. Trích xuất văn b�
 type: docs
 weight: 60
 url: /vi/net/work-with-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Như đã đề cập trong các bài viết trước, một bảng thường chứa văn bản thuần túy, mặc dù các nội dung khác như hình ảnh hoặc thậm chí các bảng khác có thể được đặt trong các ô của bảng.

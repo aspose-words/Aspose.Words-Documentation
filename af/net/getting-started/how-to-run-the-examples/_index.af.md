@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hoe Om Voorbeelde Uit Te voer
 second_title: Aspose.Words vir .NET
 articleTitle: Hoe Om Voorbeelde Uit Te voer
@@ -7,6 +7,7 @@ description: "Aflaai Aspose.Words vir .NET voorbeelde van ons GitHub bewaarplek 
 type: docs
 weight: 110
 url: /af/net/how-to-run-the-examples/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Om meer vertroud te raak met die Aspose.Words moontlikhede en funksies bied ons voorbeelde wat afgelaai kan word van ons GitHub bewaarplek, hardloop, en leer in detail.

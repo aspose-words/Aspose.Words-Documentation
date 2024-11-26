@@ -10,6 +10,7 @@ description: "Aspose.Words for .NET answers the most frequently asked questions.
 doc_version: 2024-11-18-19-55
 weight: 75
 url: /net/faq/
+timestamp: 2024-11-18-12-56-02
 ---
 
 This page contains answers to the most frequently asked questions. Please learn the current page – perhaps this will allow you to solve your problem quickly.
@@ -129,7 +130,7 @@ Yes, you do. Therefore, when copying fonts, keep in mind that most fonts are cop
 
 {{% alert color="primary" %}}
 
-You can find more detailed information about mail merge in the [Mail Merge and Reporting](/words/net/mail-merge-and-reporting/) documentation section.
+You can find more detailed information about Mail Merge in the [Mail Merge and Reporting](/words/net/mail-merge-and-reporting/) documentation section.
 
 {{% /alert %}}
 
@@ -144,7 +145,7 @@ The original name of the merge field stays the same without being replaced by th
 
 **Q: Why does the output of nested merging not display data from the child table for the first entry in the parent table but display all items for the last entry in the parent table, even ones that are not actually linked to it?**
 
-This is because the merge regions in the template are not correctly formed, which can make all nested mail merge regions to stop displaying anything at all. The [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) opening tag and the [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) closing tag must match and be in the same row or cell. For example, if you start nesting merge regions in a cell of a table, you must end the merge region in the same row as the first cell.
+This is because the merge regions in the template are not correctly formed, which can make all nested Mail Merge regions to stop displaying anything at all. The [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) opening tag and the [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) closing tag must match and be in the same row or cell. For example, if you start nesting merge regions in a cell of a table, you must end the merge region in the same row as the first cell.
 
 ------
 

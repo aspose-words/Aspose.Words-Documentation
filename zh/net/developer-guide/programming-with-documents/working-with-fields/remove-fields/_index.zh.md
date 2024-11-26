@@ -7,6 +7,7 @@ description: "了解如何删除 C# 中的字段。使用 .NET API 以编程方�
 type: docs
 weight: 35
 url: /zh/net/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时需要从文档中删除字段。当需要用不同的字段类型替换该字段或文档中不再需要该字段时，可能会发生这种情况。例如保存为 HTML 时的 `TOC` 字段。

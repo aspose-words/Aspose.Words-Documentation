@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lavorare con le liste in C++
 second_title: Aspose.Words per C++
 articleTitle: Lavorare con le liste
@@ -7,6 +7,7 @@ description: "Introduzione alla funzione di formattazione della numerazione in A
 type: docs
 weight: 200
 url: /it/cpp/working-with-lists/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Un elenco in un documento Microsoft Word è un insieme di proprietà di formattazione dell'elenco. Gli elenchi possono essere utilizzati nei documenti per formattare, organizzare e enfatizzare il testo. Gli elenchi sono un ottimo modo per organizzare i dati nei documenti e rendono più facile per i lettori comprendere i punti chiave.

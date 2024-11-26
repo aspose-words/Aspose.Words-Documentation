@@ -7,6 +7,7 @@ description: "Group使用 Java。 。 。 。"
 type: docs
 weight: 290
 url: /zh/java/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时你需要添加一个 group shape 输入 Word 文档。 这样 group shape 由多个形状组成。

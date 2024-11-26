@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのページレイアウトの作成
 second_title: C++の場合Aspose.Words
 articleTitle: ページレイアウトの作成
@@ -7,6 +7,7 @@ description: "ページレイアウトを作成すると、コストのかかる
 type: docs
 weight: 10
 url: /ja/cpp/creating-a-page-layout/
+timestamp: 2024-09-24-14-35-44
 ---
 
 ページレイアウトの作成は、速度とメモリの両方の点でコストのかかる手順になる可能性があります。 これはいくつかの理由によるものです:

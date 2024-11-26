@@ -1,4 +1,4 @@
-﻿---
+---
 title: 표 서식 지정 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 서식 적용
@@ -7,6 +7,7 @@ description: "다음을 사용하여 세부 사항의 표 서식 지정 C++. 사
 type: docs
 weight: 70
 url: /ko/cpp/applying-formatting/
+timestamp: 2024-10-21-11-17-44
 ---
 
 테이블의 각 요소는 다른 형식으로 적용 할 수 있습니다. 예를 들어 테이블 서식은 전체 테이블에 적용되고 행 서식은 특정 행에만 적용되며 셀 서식은 특정 셀에만 적용됩니다.

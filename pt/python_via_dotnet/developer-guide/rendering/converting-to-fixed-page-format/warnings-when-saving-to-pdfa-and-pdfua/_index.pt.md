@@ -7,6 +7,7 @@ description: "PDF/A e PDF/UA impõem requisitos de acessibilidade relacionados a
 type: docs
 weight: 29
 url: /pt/python-net/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Os formatos PDF/A e PDF/UA impõem uma série de requisitos de acessibilidade relacionados ao conteúdo do documento que não podem ser atendidos durante a conversão automática de Word para PDF. Esses requisitos estão descritos no artigo anterior *"Trabalhar com PDF/A ou PDF/UA"*. Agora são emitidos avisos para alguns destes problemas.

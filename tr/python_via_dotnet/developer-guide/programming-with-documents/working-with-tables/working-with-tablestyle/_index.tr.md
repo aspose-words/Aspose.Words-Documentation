@@ -7,6 +7,7 @@ description: "Gelişmiş tablo biçimlendirme C#. Python kullanarak bir tablo st
 type: docs
 weight: 80
 url: /tr/python-net/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tablo stili, bir tabloya kolayca uygulanabilecek bir dizi biçimlendirmeyi tanımlar. Kenarlıklar, gölgeleme, hizalama ve yazı tipi gibi biçimlendirmeler tablo stilinde ayarlanabilir ve tutarlı bir görünüm için birçok tabloya uygulanabilir.

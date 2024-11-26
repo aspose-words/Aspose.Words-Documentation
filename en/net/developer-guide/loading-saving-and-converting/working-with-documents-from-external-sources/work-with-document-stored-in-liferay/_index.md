@@ -7,6 +7,7 @@ description: "Compare Word documents shared in Liferay using C#. Work with docum
 type: docs
 weight: 20
 url: /net/work-with-document-stored-in-liferay/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Liferay Portal is an open source enterprise portal software platform designed for developing web portals and websites. Liferay provides a document management system as part of its portal platform, allowing users to create, organize, store, and manage documents in a collaborative and efficient manner. This document management functionality is often referred to as Liferay Document Library.

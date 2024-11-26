@@ -7,6 +7,7 @@ description: "ข้อมูลเบื้องต้นเกี่ยวก
 type: docs
 weight: 280
 url: /th/net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 หัวข้อนี้อธิบายวิธีการทำงานโดยทางโปรแกรมกับรูปร่างโดยใช้ Aspose.Words

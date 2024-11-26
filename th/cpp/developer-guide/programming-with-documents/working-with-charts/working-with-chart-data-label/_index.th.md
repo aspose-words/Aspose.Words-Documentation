@@ -1,4 +1,4 @@
-﻿---
+---
 title: การทำงานกับฉลากข้อมูลแผนภูมิในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: การทำงานกับฉลากข้อมูลแผนภูมิ
@@ -7,6 +7,7 @@ description: "การปรับแต่งฉลากข้อมูลแ
 type: docs
 weight: 30
 url: /th/cpp/working-with-chart-data-label/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Wordsอนุญาตให้ผู้ใช้สามารถทำงานกับChartDataLabelวิธีการต่างๆ.

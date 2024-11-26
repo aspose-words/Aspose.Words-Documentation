@@ -7,6 +7,7 @@ description: "Tabellen samenvoegen in een document met behulp van Python. Hoe tw
 type: docs
 weight: 90
 url: /nl/python-net/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Een tabel in de Aspose.Words Document Object Model, is samengesteld uit onafhankelijke rijen en cellen, waardoor het gemakkelijk is om tafels te sluiten.

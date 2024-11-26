@@ -7,6 +7,7 @@ description: "Een document omzetten van bijna elk formaat naar HTML of MHTML, ev
 type: docs
 weight: 20
 url: /nl/python-net/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Documenten in HTML en MHTML flow-layout formaten zijn ook erg populair en kunnen worden gebruikt op elk webplatform. Daarom is het omzetten van documenten naar HTML en MHTML een belangrijk kenmerk van Aspose.Words.

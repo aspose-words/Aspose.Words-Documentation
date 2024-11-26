@@ -7,6 +7,7 @@ description: "Een document omzetten naar PDF met geavanceerde opties. Gebruik Pd
 type: docs
 weight: 20
 url: /nl/java/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Het PDF-formaat is een fixed-page-formaat dat zeer populair is bij gebruikers en breed wordt ondersteund door verschillende toepassingen omdat een PDF-document er hetzelfde uitziet op elk apparaat. Om die reden is het omzetten naar PDF een belangrijk kenmerk van Aspose.Words.
@@ -31,7 +32,7 @@ Voor meer informatie over PDF/A, zie het volgende artikel, "Leer functies van co
 
 Het is ook mogelijk om vulbare formulieren uit een Microsoft Word document in uitvoer PDF, die vulbare formulieren heeft in plaats van een platte tekst. Gebruik de [PreserveFormFields](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getPreserveFormFields) eigenschap om een document op te slaan als PDF met vulbare formulieren.
 
-Merk op dat in tegenstelling tot <span notrans="<span notrans=" Microsoft Word"=""></span>,"> het PDF-formaat heeft een beperkt aantal opties voor bewerkbare formulieren, zoals tekstvak, combinatievak en selectievakje. Microsoft Word heeft meer soorten formulieren, bijvoorbeeld kalender datum picker. Over het algemeen is het niet mogelijk om volledig na te bootsen Microsoft Word gedrag in PDF. Daarom, in sommige complexe gevallen, PDF output kan verschillen van wat je ziet in Microsoft Word.
+Merk op dat in tegenstelling tot Microsoft Word,"> het PDF-formaat heeft een beperkt aantal opties voor bewerkbare formulieren, zoals tekstvak, combinatievak en selectievakje. Microsoft Word heeft meer soorten formulieren, bijvoorbeeld kalender datum picker. Over het algemeen is het niet mogelijk om volledig na te bootsen Microsoft Word gedrag in PDF. Daarom, in sommige complexe gevallen, PDF output kan verschillen van wat je ziet in Microsoft Word.
 
 Het onderstaande codevoorbeeld laat zien hoe u een document als PDF kunt opslaan met vulbare formulieren met gespecificeerde Jpeg compressie en kwaliteit:
 

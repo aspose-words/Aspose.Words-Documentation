@@ -1,4 +1,4 @@
-﻿---
+---
 title: العمل مع TextBoxes في C++
 second_title: Aspose.Words ل C++
 articleTitle: العمل مع TextBoxes
@@ -7,6 +7,7 @@ description: "مقدمة إلى ميزة مربعات النص المرتبطة 
 type: docs
 weight: 250
 url: /ar/cpp/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 في Aspose.Words، يتم استخدام فئة [TextBox](https://reference.aspose.com/words/cpp/aspose.words.drawing/textbox/) لتحديد كيفية عرض النص داخل الشكل. يعرض خاصية عامة تسمى **Parent** للحصول على الشكل الأصلي لمربع النص بحيث يمكن للعميل العثور على [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) المرتبط من **TextBox** المرتبط.

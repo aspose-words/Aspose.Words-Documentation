@@ -7,6 +7,7 @@ description: "Buat, tentukan pemformatan, dan mulai ulang daftar dalam dokumen m
 type: docs
 weight: 200
 url: /id/python-net/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Daftar dalam dokumen Microsoft Word adalah sekumpulan properti pemformatan daftar. Daftar dapat digunakan dalam dokumen Anda untuk memformat, mengatur, dan menekankan teks. Daftar adalah cara terbaik untuk mengatur data dalam dokumen, dan memudahkan pembaca untuk memahami poin-poin penting

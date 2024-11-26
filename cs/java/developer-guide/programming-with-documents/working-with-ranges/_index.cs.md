@@ -7,6 +7,7 @@ description: "Úvod do rozsahu funkce v Aspose.Words místo Java."
 type: docs
 weight: 130
 url: /cs/java/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

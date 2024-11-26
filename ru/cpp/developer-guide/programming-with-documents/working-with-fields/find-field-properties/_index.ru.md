@@ -1,4 +1,4 @@
-﻿---
+---
 title: Как найти свойства поля
 second_title: Aspose.Words для C++
 articleTitle: Поиск свойств поля
@@ -7,6 +7,7 @@ description: "Как найти некоторые свойства поля, т
 type: docs
 weight: 25
 url: /ru/cpp/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Поле, которое вставляется с помощью [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertfield/) возвращает объект [Field](https://reference.aspose.com/words/cpp/aspose.words.fields/field/). Это фасадный класс, который предоставляет полезные методы для быстрого поиска некоторых свойств поля.

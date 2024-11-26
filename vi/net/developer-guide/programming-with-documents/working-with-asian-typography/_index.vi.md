@@ -7,6 +7,7 @@ description: "Làm việc với kiểu chữ châu Á bằng C#. Điều chỉnh
 type: docs
 weight: 240
 url: /vi/net/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Kiểu chữ Châu Á là một tập hợp các tùy chọn cho các đoạn văn bản trong tài liệu được viết bằng ngôn ngữ Châu Á.

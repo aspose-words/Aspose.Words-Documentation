@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lines and Rectangles
 second_title: Aspose.Words for JasperReports
 articleTitle: Lines and Rectangles
@@ -7,6 +7,7 @@ description: "Lines and rectangles are not exported by default. Aspose.Words for
 type: docs
 weight: 10
 url: /jasperreports/lines-and-rectangles/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 필드 개요 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 필드 개요
@@ -7,6 +7,7 @@ description: "필드는 세부 사항,필드 코드 및 필드 결과에 설명�
 type: docs
 weight: 10
 url: /ko/cpp/fields-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 서버 측 처리를 위해 설계된 클래스 라이브러리입니다. Microsoft Word 다음과 같은 방법으로 문서 및 지원 필드:
@@ -173,9 +174,9 @@ Aspose.Words 에서 사용할 수있는 모든 날짜 및 시간 서식 스위�
 
 ### Mail Merge 필드
 
-Aspose.Words 의 복잡성에 제한을 부과하지 않습니다 mail merge 문서의 필드 및 중첩 지원 `IF` 수식을 사용하여 병합 필드의 이름을 계산할 수도 있습니다.
+Aspose.Words 의 복잡성에 제한을 부과하지 않습니다 Mail Merge 문서의 필드 및 중첩 지원 `IF` 수식을 사용하여 병합 필드의 이름을 계산할 수도 있습니다.
 
-몇 가지 예 mail merge 그 분야 Aspose.Words 지원:
+몇 가지 예 Mail Merge 그 분야 Aspose.Words 지원:
 
 - Mail merge 필드 스위치:
 `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -222,6 +223,6 @@ EXAMPLE
 
 그 [Document](https://reference.aspose.com/words/cpp/class/aspose.words.document) 클래스는 [FieldOptions](https://reference.aspose.com/words/cpp/aspose.words/document/get_fieldoptions/) 문서 내에서 필드가 업데이트되는 방법을 제어하는 데 사용할 수 있는 멤버가 포함된 속성입니다.
 
-다음 코드 예제에서는 필드 업데이트 중 날짜 서식 지정에 사용되는 문화권을 지정하는 방법을 보여 줍니다. mail merge 에서 선택됩니다.:
+다음 코드 예제에서는 필드 업데이트 중 날짜 서식 지정에 사용되는 문화권을 지정하는 방법을 보여 줍니다. Mail Merge 에서 선택됩니다.:
 
 EXAMPLE

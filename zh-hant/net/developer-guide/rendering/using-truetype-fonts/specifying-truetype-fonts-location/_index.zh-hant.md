@@ -7,6 +7,7 @@ description: "指定各種 TrueType 字型來源：系統資料夾、使用者�
 type: docs
 weight: 30
 url: /zh-hant/net/specifying-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 本主題描述在查詢 TrueType 字型時 Aspose.Words 的預設動作，包括作業系統的特定差異，並示範如何指定使用者字型來源。
@@ -56,7 +57,7 @@ Aspose.Words 會在系統字體資料夹中尋找字體。 這些資料夾的清
 
 #### Where Aspose.Words Looks for TrueType Fonts on Linux
 
-不同 Linux 分發商可能會將字體儲存在不同的資料夾中。 Aspose.Words 在多個位置尋找字體。 預設 Aspose.Words 在所有以下位置中搜尋字型：* /usr/share/fonts* /usr/local/share/fonts* /usr/X11R6/lib/X11/fonts這個預設動作會在大多數 Linux 版本上有效，但並非保證會每次都有效；在這種情況下，你可能需要指定 true 字型的位置。 要做到這一點，您必須知道您的 Linux 分發版中 TrueType 字體是安裝在哪裡。
+不同 Linux 分發商可能會將字體儲存在不同的資料夾中。 Aspose.Words 在多個位置尋找字體。 預設 Aspose.Words 在所有以下位置中搜尋字型：* /usr/share/fonts* `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts`這個預設動作會在大多數 Linux 版本上有效，但並非保證會每次都有效；在這種情況下，你可能需要指定 true 字型的位置。 要做到這一點，您必須知道您的 Linux 分發版中 TrueType 字體是安裝在哪裡。
 
 #### 在 Mac OS X 中，Where Aspose.Words Looks for TrueType Fonts
 

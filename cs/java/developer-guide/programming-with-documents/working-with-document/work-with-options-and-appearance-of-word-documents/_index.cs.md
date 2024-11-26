@@ -7,6 +7,7 @@ description: "Kontrola vzhledu dokumentů Word s přihlédnutím k rozdílu mezi
 type: docs
 weight: 40
 url: /cs/java/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Někdy je třeba změnit vzhled dokumentu, například nastavení jazykových preferencí nebo počet řádků na stránku.Aspose.Words poskytuje schopnost kontrolovat, jak bude dokument zobrazen, a také některé další možnosti. Tento článek popisuje takové možnosti.

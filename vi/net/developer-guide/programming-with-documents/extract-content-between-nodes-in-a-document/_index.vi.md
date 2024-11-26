@@ -7,6 +7,7 @@ description: "Trích xuất nội dung tài liệu khác nhau bằng C#."
 type: docs
 weight: 140
 url: /vi/net/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Khi làm việc với tài liệu, điều quan trọng là có thể dễ dàng trích xuất nội dung từ một phạm vi cụ thể trong tài liệu. Tuy nhiên, nội dung có thể bao gồm các yếu tố phức tạp như đoạn văn, bảng biểu, hình ảnh, v.v.

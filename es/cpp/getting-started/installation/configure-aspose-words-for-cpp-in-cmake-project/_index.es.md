@@ -1,4 +1,4 @@
-﻿---
+---
 title: Configurar el producto en el proyecto CMake
 second_title: Aspose.Words para C++
 articleTitle: Configurar Aspose.Words para C++ en CMake Proyecto
@@ -7,6 +7,7 @@ description: "Configurar Aspose.Words para C++ en su CMake y cree su aplicación
 type: docs
 weight: 90
 url: /es/cpp/configure-aspose-words-for-cpp-in-cmake-project/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Aspose.Words para C++ La API funciona con CMake para cualquier sistema operativo GNU / Linux. Puede ser [descargado desde el sitio web oficial](https://cmake.org/download/).
@@ -36,7 +37,7 @@ Siga las instrucciones a continuación para configurar manualmente Aspose.Words 
 
 1. [Descargue la última versión Aspose.Words para C++ paquete](https://releases.aspose.com/words/cpp/)
 
-2. Copiar Aspose.Words.Cpp y `CodePorting.Native`.Cs2Cpp_api_*.* carpetas donde tenga CMakeLists.txt
+2. Copiar Aspose.Words.Cpp y `CodePorting.Native.Cs2Cpp_api_*.*` carpetas donde tenga CMakeLists.txt
 
 3. Agregue las siguientes líneas a usted CMakeLists.txt:
 	{{< highlight cpp >}}

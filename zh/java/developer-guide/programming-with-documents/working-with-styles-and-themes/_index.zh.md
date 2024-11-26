@@ -7,6 +7,7 @@ description: "增强 Microsoft Word 格式化特性,使用样式和主题 Java�
 type: docs
 weight: 110
 url: /zh/java/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 那个 [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) 类用于管理内置,并将用户定义的设置应用于样式。

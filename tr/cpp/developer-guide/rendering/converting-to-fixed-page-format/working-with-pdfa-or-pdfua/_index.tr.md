@@ -1,4 +1,4 @@
-﻿---
+---
 title: PDF/A veya PDF/UA ile çalışmak
 second_title: Aspose.Words için C++
 articleTitle: PDF/A veya PDF/UA ile çalışmak
@@ -7,6 +7,7 @@ description: "Dönüştür PDF/A-1, PDF/A-2, PDF/A-4 ve PDF/UA C++ kullanarak. P
 type: docs
 weight: 38
 url: /tr/cpp/working-with-pdfa-or-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/A ve PDF/UA biçimi, Word biçimindeki bir belgeden PDF biçimine otomatik dönüştürme sırasında yerine getirilemeyen belge içeriğiyle ilgili çeşitli gereksinimler getirir. Bu gereksinimler, tam olarak PDF/A ve PDF/UA uyumlu bir belge oluşturmak için dönüşümden önce bir Word belgesinde veya dönüşümden sonra bir PDF belgesinde doğrulanmalı ve düzeltilmelidir.

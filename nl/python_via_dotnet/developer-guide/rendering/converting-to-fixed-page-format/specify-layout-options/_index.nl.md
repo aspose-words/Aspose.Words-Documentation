@@ -7,6 +7,7 @@ description: "Opmaak opgeven Opties voor verschillende documentindelingen Python
 type: docs
 weight: 10
 url: /nl/python-net/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words kunt u uitvoerdocumenten maken met verschillende lay-outs, afhankelijk van de parameters gespecificeerd in eigenschappen van de [LayoutOptions](https://reference.aspose.com/words/python-net/aspose.words.layout/layoutoptions/) Klasse. Sommige van deze eigenschappen lijken op enkele van de Microsoft Word user interface menu opties

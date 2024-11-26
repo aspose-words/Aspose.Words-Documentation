@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET can embed the correct TrueType fonts into th
 type: docs
 weight: 10
 url: /net/manipulating-and-substitution-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words requires TrueType fonts for a variety of tasks, including rendering documents to fixed-page formats, for example, PDF or XPS. When Aspose.Words renders a document, it needs to perform embedding and subset embedding of TrueType fonts into the resulting document, which is a normal practice during a document generation, including popular PDF or XPS formats. This ensures that the document will appear the same to any viewer. Moreover, the XPS specification requires fonts to always be embedded in the document.
@@ -58,7 +59,7 @@ However, there are situations when the exact font cannot be found and Aspose.Wor
 1. If Aspose.Words is unable to locate the required font with the exact name match, and the [AltName](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/altname/) property defined for this font, then Aspose.Words will find the font defined with **AltName** from the [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) class, which specifies the font information.
 1. If Aspose.Words is unable to locate the defined font, and **AltName** is not also defined, then the font substitution rules are applied one-by-one, as described below (when the appropriate replacement is found, the Font Substitution Process stops and the next step is not executed):
    1. First, Aspose.Words tries to process the font name to get the substitution, particularly it tries to remove suffixes with "-" and "," separators.<br>
-      If this substitution rule takes place, a "Font '&lt;OriginalFont&gt;' has not been found. Using '&lt;SubstitutionFont&gt;' font instead. Reason: font name substitution." warning appears.<br>
+      If this substitution rule takes place, a "Font '<OriginalFont>' has not been found. Using '<SubstitutionFont>' font instead. Reason: font name substitution." warning appears.<br>
 {{< gist "aspose-words-gists" "a08698f540d47082b4e2dbb1cb67fc1b" "get-substitution-without-suffixes.cs" >}}
    1. Then Aspose.Words attempts to apply OS font settings, if they are available, by using the **FontConfig** utility. This Non-Windows feature must be used with a FontConfig-compatible OS. Almost any Unix-based OS already has a `FontConfig` library that is designed to provide system-wide font configuration, customization, and access to applications. Otherwise, this library can be easily installed by the user.
       Aspose.Words knows how to query data and interpret FontConfig results for its own purposes. By default, the `FontConfig` utility is disabled. You can enable it as follows:<br>

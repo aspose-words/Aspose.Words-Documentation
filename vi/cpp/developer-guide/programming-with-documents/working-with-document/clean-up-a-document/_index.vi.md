@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm sạch Một Tài liệu trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Dọn Dẹp Tài liệu
@@ -7,6 +7,7 @@ description: "Xóa thông tin không sử dụng hoặc trùng lặp để giả
 type: docs
 weight: 30
 url: /vi/cpp/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi bạn có thể cần xóa thông tin không sử dụng hoặc trùng lặp để giảm kích thước của tài liệu đầu ra và thời gian xử lý.

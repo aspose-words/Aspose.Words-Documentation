@@ -1,88 +1,89 @@
----
-title: Укажите варианты загрузки в Java
+﻿---
+title: Укажите параметры загрузки в Java
 second_title: Aspose.Words для Java
-articleTitle: Укажите варианты загрузки
-linktitle: Укажите варианты загрузки
-description: "Установите расширенные свойства при загрузке документа с использованием Java Чтобы получить более точный контроль над процессом."
+articleTitle: Укажите параметры загрузки
+linktitle: Укажите параметры загрузки
+description: "Установите дополнительные свойства при загрузке документа с помощью Java, чтобы получить более точный контроль над процессом."
 type: docs
 weight: 10
 url: /ru/java/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
-При загрузке документа вы можете установить некоторые расширенные свойства. Aspose.Words Предоставляет вам [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) класс, что позволяет более точно контролировать процесс нагрузки. Некоторые форматы нагрузки имеют соответствующий класс, который содержит параметры нагрузки для этого формата нагрузки, например, есть [PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) для загрузки в формат PDF или [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) для загрузки в TXT. В этой статье приведены примеры работы с вариантами **LoadOptions** класс.
+При загрузке документа вы можете задать некоторые дополнительные свойства. Aspose.Words предоставляет вам класс [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/), который позволяет более точно управлять процессом загрузки. У некоторых форматов загрузки есть соответствующий класс, который содержит параметры загрузки для этого формата загрузки, например, есть [PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) для загрузки в формат PDF или [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) для загрузки в формат TXT. В этой статье приведены примеры работы с параметрами класса **LoadOptions**.
 
-## Настройка Microsoft Word Версия для изменения внешнего вида
+## Установите версию Microsoft Word, чтобы изменить внешний вид
 
-Различные версии этого Microsoft Word Приложение может отображать документы по-разному. Например, существует хорошо известная проблема с документами OOXML, такими как DOCX. DOTX производится с использованием WPS Office. В таких случаях существенные элементы разметки документа могут отсутствовать или могут интерпретироваться по-разному. Microsoft Word 2019 год покажет такой документ по-другому Microsoft Word 2010.
+В разных версиях приложения Microsoft Word документы могут отображаться по-разному. Например, существует хорошо известная проблема с документами OOXML, такими как DOCX или DOTX, созданными с помощью WPS Office. В таких случаях важные элементы разметки документа могут отсутствовать или интерпретироваться по-другому, что приводит к тому, что в Microsoft Word 2019 такой документ отображается иначе, чем в Microsoft Word 2010.
 
-По умолчанию Aspose.Words Открытие документов с использованием Microsoft Word Правила 2019 года. Если вам нужно сделать загрузку документа такой, как это произошло бы в одном из предыдущих Microsoft Word версии приложения, вы должны явно указать желаемую версию, используя [MswVersion](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getMswVersion) имуществом, **LoadOptions** класс.
+По умолчанию Aspose.Words открывает документы по правилам Microsoft Word 2019 года. Если вам нужно, чтобы загрузка документов происходила так, как это происходило бы в одной из предыдущих версий приложения Microsoft Word, вам следует явно указать желаемую версию, используя свойство [MswVersion](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getMswVersion) класса **LoadOptions**.
 
-Следующий пример кода показывает, как установить Microsoft Word Версия с опциями загрузки:
+В следующем примере кода показано, как установить версию Microsoft Word с параметрами загрузки:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-SetMSWordVersion.java" >}}
 
-## Установите языковые предпочтения для изменения внешнего вида
+## Установите языковые настройки, чтобы изменить внешний вид
 
-Подробности отображения документа в Microsoft Word зависит не только от версии приложения, но и от **MswVersion** стоимость недвижимости, а также языковые настройки. Microsoft Word Документы могут отображаться по-разному в зависимости от настроек диалога "Офисные языковые предпочтения", которые можно найти в "Файл → Варианты → Лангуаге". Используя этот диалог, пользователь может выбрать, например, основной язык, языки проверки, языки отображения и так далее. Aspose.Words обеспечивает [LanguagePreferences](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getLanguagePreferences) Свойство как эквивалент этого диалога. Если Aspose.Words выход отличается от Microsoft Word на выходе, установить соответствующее значение для **EditingLanguage** Это может улучшить выходной документ.
+Особенности отображения документа в Microsoft Word зависят не только от версии приложения и значения свойства **MswVersion**, но и от языковых настроек. Microsoft Word документы могут отображаться по-разному в зависимости от настроек диалогового окна "Языковые настройки Office", которые можно найти в разделе "Файл → Параметры → Язык". С помощью этого диалогового окна пользователь может выбрать, например, основной язык, языки проверки подлинности, языки отображения и так далее. Aspose.Words предоставляет свойство [LanguagePreferences](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getLanguagePreferences) в качестве эквивалента этого диалогового окна. Если выходные данные Aspose.Words отличаются от выходных данных Microsoft Word, установите соответствующее значение для **EditingLanguage** – это может улучшить качество выходного документа.
 
-Следующий пример кода показывает, как установить японский язык как **EditingLanguage**:
+В следующем примере кода показано, как задать японский язык как **EditingLanguage**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SetupLanguagePreferences-AddJapaneseAsEditinglanguages.java" >}}
 
-## Использовать WarningCallback Чтобы контролировать проблемы При загрузке документа
+## Используйте WarningCallback для устранения проблем при загрузке документа
 
-Некоторые документы могут быть повреждены, содержать недействительные записи или иметь функции, которые в настоящее время не поддерживаются. Aspose.Words. Если вы хотите знать о проблемах, возникших при загрузке документа, Aspose.Words обеспечивает [IWarningCallback](https://reference.aspose.com/words/java/com.aspose.words/iwarningcallback/) интерфейс.
+Некоторые документы могут быть повреждены, содержать недопустимые записи или содержать функции, которые в настоящее время не поддерживаются Aspose.Words. Если вы хотите узнать о проблемах, возникших при загрузке документа, Aspose.Words предоставляет интерфейс [IWarningCallback](https://reference.aspose.com/words/java/com.aspose.words/iwarningcallback/).
 
-Следующий пример кода показывает реализацию **IWarningCallback** интерфейс:
+В следующем примере кода показана реализация интерфейса **IWarningCallback**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadOptionsCallbacks-DocumentLoadingWarningCallback.java" >}}
 
-Чтобы получить информацию обо всех проблемах в течение всего времени загрузки, используйте [WarningCallback](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getWarningCallback) собственность.
+Чтобы получить информацию обо всех проблемах во время загрузки, используйте свойство [WarningCallback](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getWarningCallback).
 
-Следующий пример кода показывает, как использовать это свойство:
+В следующем примере кода показано, как использовать это свойство:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadOptionsCallbacks-LoadOptionsWarningCallback.java" >}}
 
-## Используйте ResourceLoading Обратная связь для контроля загрузки внешних ресурсов
+## Используйте ResourceLoadingCallback для управления загрузкой внешних ресурсов
 
-Документ может содержать внешние ссылки на изображения, расположенные где-то на локальном диске, сети или в Интернете. Aspose.Words Такие изображения автоматически загружаются в документ, но бывают ситуации, когда этот процесс необходимо контролировать. Например, чтобы решить, действительно ли нам нужно загрузить определенное изображение или, возможно, пропустить его. The [ResourceLoadingCallback](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getResourceLoadingCallback) Опция загрузки позволяет контролировать это.
+Документ может содержать внешние ссылки на изображения, расположенные где-либо на локальном диске, в сети или в Интернете. Aspose.Words такие изображения автоматически загружаются в документ, но бывают ситуации, когда этот процесс необходимо контролировать. Например, чтобы решить, действительно ли нам нужно загружать определенное изображение или, возможно, пропустить его. Параметр загрузки [ResourceLoadingCallback](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getResourceLoadingCallback) позволяет вам управлять этим.
 
-Следующий пример кода показывает реализацию [IResourceLoadingCallback](https://reference.aspose.com/words/java/com.aspose.words/iresourceloadingcallback/) интерфейс:
+В следующем примере кода показана реализация интерфейса [IResourceLoadingCallback](https://reference.aspose.com/words/java/com.aspose.words/iresourceloadingcallback/):
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadOptionsCallbacks-HtmlLinkedResourceLoadingCallback.java" >}}
 
-Следующий пример показывает, как использовать **ResourceLoadingCallback** имущество:
+В следующем примере кода показано, как использовать свойство **ResourceLoadingCallback**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadOptionsCallbacks-LoadOptionsResourceLoadingCallback.java" >}}
 
-## Используйте TempFolder, чтобы избежать исключения памяти
+## Используйте TempFolder, чтобы избежать исключения из памяти
 
-Aspose.Words Поддерживает очень большие документы, которые имеют тысячи страниц с богатым содержанием. Загрузка таких документов может потребовать много оперативной памяти. В процессе загрузки, Aspose.Words Для хранения временных структур, используемых для разбора документа, требуется еще больше памяти.
+Aspose.Words поддерживает чрезвычайно большие документы, содержащие тысячи страниц с богатым содержанием. Загрузка таких документов может потребовать значительных затрат RAM. В процессе загрузки Aspose.Words требуется еще больше памяти для хранения временных структур, используемых для синтаксического анализа документа.
 
-Если у вас есть проблема с исключением из памяти при загрузке документа, попробуйте использовать [TempFolder](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getTempFolder) собственность. В данном случае, Aspose.Words Некоторые данные будут храниться во временных файлах вместо памяти, и это может помочь избежать такого исключения.
+Если при загрузке документа у вас возникла проблема с исключением "Нехватка памяти", попробуйте использовать свойство [TempFolder](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getTempFolder). В этом случае Aspose.Words сохранит некоторые данные во временных файлах вместо памяти, и это может помочь избежать такого исключения.
 
-Следующий пример кода показывает, как установить **TempFolder**:
+В следующем примере кода показано, как установить **TempFolder**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-SetTempFolder.java" >}}
 
-## Настройка кодирования эксплицитно
+## Задайте кодировку явно
 
-Большинство современных форматов документов хранят свой контент в Unicode и не требуют специальной обработки. С другой стороны, есть еще много документов, которые используют некоторое предварительное кодирование Unicode и иногда либо пропускают информацию кодирования, либо даже не поддерживают информацию кодирования по своей природе. Aspose.Words Он пытается автоматически обнаружить соответствующее кодирование по умолчанию, но в редких случаях вам может потребоваться использовать кодирование, отличное от того, которое обнаружено нашим алгоритмом распознавания кодирования. В этом случае используйте [Encoding](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getEncoding) свойство получать или устанавливать кодировку.
+Большинство современных форматов документов хранят свое содержимое в Юникоде и не требуют специальной обработки. С другой стороны, все еще существует множество документов, в которых используется некоторая кодировка, предшествовавшая Юникоду, и иногда либо отсутствует информация о кодировке, либо она даже не поддерживается по своей природе. Aspose.Words пытается автоматически определить соответствующую кодировку по умолчанию, но в редких случаях вам может потребоваться использовать кодировку, отличную от той, которая определяется нашим алгоритмом распознавания кодировок. В этом случае используйте свойство [Encoding](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getEncoding), чтобы получить или задать кодировку.
 
-Следующий пример кода показывает, как установить кодирование, чтобы переопределить автоматически выбранное кодирование:
+В следующем примере кода показано, как настроить кодировку таким образом, чтобы она переопределяла автоматически выбранную кодировку:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-LoadOptionsEncoding.java" >}}
 
-## Зашифрованные документы Load
+## Загружайте зашифрованные документы
 
-Вы можете загрузить Документы Word зашифрованы паролем. Для этого используют специальный конструктор перегрузки, который принимает [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) объект. Этот объект содержит [Password](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getPassword) свойство, которое определяет строку пароля.
+Вы можете загружать документы Word, зашифрованные паролем. Для этого используйте специальный конструктор overload, который принимает объект [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/). Этот объект содержит свойство [Password](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getPassword), которое определяет строку пароля.
 
-Следующий пример кода показывает, как загрузить документ, зашифрованный паролем:
+В следующем примере кода показано, как загрузить документ, зашифрованный паролем:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-OpenDocument-OpenEncryptedDocument.java" >}}
 
-Если вы заранее не знаете, зашифрован ли файл, вы можете использовать [FileFormatUtil](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/) класс, который предоставляет утилиты для работы с форматами файлов, такими как обнаружение формата файла или преобразование расширений файла в/из перечислений формата файла. Чтобы определить, зашифрован ли документ и требуется ли пароль для его открытия, воспользуйтесь [IsEncrypted](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#isEncrypted) собственность.
+Если вы заранее не знаете, зашифрован ли файл, вы можете использовать класс [FileFormatUtil](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/), который предоставляет служебные методы для работы с форматами файлов, такие как определение формата файла или преобразование расширений файлов в/из перечислений форматов файлов. Чтобы определить, зашифрован ли документ и требуется ли пароль для его открытия, используйте свойство [IsEncrypted](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#isEncrypted).
 
-Следующий пример кода показывает, как проверить OpenDocument:
+В следующем примере кода показано, как проверить, зашифрован OpenDocument или нет:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-VerifyODTdocument.java" >}}

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working With Comments in Jython
 second_title: Aspose.Words for Java
 articleTitle: Working With Comments in Jython
@@ -7,6 +7,7 @@ description: "Working with comments using Jython."
 type: docs
 weight: 30
 url: /java/working-with-comments-in-jython/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Working With Comments

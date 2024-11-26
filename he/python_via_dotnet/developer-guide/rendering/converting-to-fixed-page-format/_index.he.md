@@ -7,6 +7,7 @@ description: "שמור מסמכים ל- PDF XPS, HTML, XAML, PostScript ופור
 type: docs
 weight: 10
 url: /he/python-net/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words ליישם את מנוע הפריסה של הדף שלו. לפני להעמיק את המפרט שלה, כדאי לדון תחילה מסמך ברמה גבוהה. כאשר חושבים על מסמך, משתמשים בדרך כלל לדמיין מספר של דפי נייר המכילים מילים, תמונות, טבלאות ו charts. מסמכים יכולים להיות מסוגים שונים, כגון טקסט, גליונות התפשטות, שקופיות, רישומים CAD, זרימות, ולכן, יכולים להיות פריסות שונות לחלוטין. רוב היישומים מאפשרים לשלוח מסמכים למדפסת; זה כאשר משתמש יכול באמת להציג את המראה הסופי של המסמך המיועד.
@@ -49,7 +50,7 @@ Aspose.Words יישום פריסת דף פונקציונליות פנימית ה
 
 ![converting-to-fixed-page-format_2](/words/python-net/converting-to-fixed-page-format/converting-to-fixed-page-format-2.png)
 
-In In In <span notrans="<span notrans=" Aspose.Words"=""></span>" משתמש יכול לבקש אם לבנות פריסת דף חדשה, או לעדכן קיים. שניהם יכולים להתבצע על ידי [update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) שיטה, המסופקת על ידי [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) מעמד. אם פריסת דף אינה קיימת, אך יש צורך בה (לדוגמה, כאשר המסמך יושק לתבנית דפית קבועה), Aspose.Words באופן אוטומטי נקרא שיטה זו. עם זאת, אם קיימת כבר פריסת דף, Aspose.Words תשתמשו במשאבים הקיימים כדי להימנע מצריכת המשאבים הדרושים כדי לעדכן אותם. במקרה זה, המשתמש צריך להתקשר [update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) שיטה, על מנת להבטיח כי פריסת העמוד היא עדכנית עם מודל המסמך.
+In In In Aspose.Words משתמש יכול לבקש אם לבנות פריסת דף חדשה, או לעדכן קיים. שניהם יכולים להתבצע על ידי [update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) שיטה, המסופקת על ידי [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) מעמד. אם פריסת דף אינה קיימת, אך יש צורך בה (לדוגמה, כאשר המסמך יושק לתבנית דפית קבועה), Aspose.Words באופן אוטומטי נקרא שיטה זו. עם זאת, אם קיימת כבר פריסת דף, Aspose.Words תשתמשו במשאבים הקיימים כדי להימנע מצריכת המשאבים הדרושים כדי לעדכן אותם. במקרה זה, המשתמש צריך להתקשר [update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) שיטה, על מנת להבטיח כי פריסת העמוד היא עדכנית עם מודל המסמך.
 
 ### מבנה דינמי
 

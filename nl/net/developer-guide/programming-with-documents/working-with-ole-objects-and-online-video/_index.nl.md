@@ -7,6 +7,7 @@ description: "OLE-inbedding in uw document aanmaken en wijzigen met behulp van C
 type: docs
 weight: 360
 url: /nl/net/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE (Object Linking and Embedding) is een technologie waarmee gebruikers kunnen werken met documenten met "objecten" gemaakt of bewerkt door toepassingen van derden. Dat wil zeggen, OLE staat een bewerkingstoepassing toe om deze "objecten" naar een andere bewerkingsapplicatie te exporteren en ze vervolgens te importeren met extra inhoud.

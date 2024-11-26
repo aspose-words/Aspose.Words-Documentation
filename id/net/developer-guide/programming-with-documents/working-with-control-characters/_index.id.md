@@ -7,6 +7,7 @@ description: "Pengantar cara bekerja dengan karakter kontrol di Aspose.Words unt
 type: docs
 weight: 400
 url: /id/net/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dokumen Microsoft Word mungkin berisi berbagai karakter yang memiliki arti khusus. Biasanya mereka digunakan untuk tujuan pemformatan dan tidak digambar dalam mode normal. Anda dapat membuatnya terlihat jika Anda mengklik tombol Tampilkan/Sembunyikan Tanda Pemformatan yang terletak pada toolbar Standar.

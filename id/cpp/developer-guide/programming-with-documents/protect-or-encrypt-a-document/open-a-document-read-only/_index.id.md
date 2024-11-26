@@ -1,4 +1,4 @@
-﻿---
+---
 title: Buka Dokumen Hanya-Baca di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Buka Dokumen Hanya-Baca
@@ -7,6 +7,7 @@ description: "Jadikan dokumen Anda hanya-baca sehingga konten dapat disalin atau
 type: docs
 weight: 10
 url: /id/cpp/open-a-document-read-only/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Terkadang, Anda mungkin memiliki dokumen yang perlu ditinjau, tetapi Anda tidak ingin pengulas mengubah konten Anda secara acak. Aspose.Words memungkinkan Anda membuat izin dokumen Anda hanya-baca sehingga konten dapat disalin atau dibaca, tetapi tidak dimodifikasi. Ini akan mencegah konten dihapus atau ditambahkan ke dokumen Anda.

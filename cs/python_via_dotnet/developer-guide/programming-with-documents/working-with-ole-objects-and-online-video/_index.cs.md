@@ -7,6 +7,7 @@ description: "Vložit ole objekty nebo onlin vodo do dokumentu pomocí Python."
 type: docs
 weight: 360
 url: /cs/python-net/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE (Object Linking and Embedding) je technologie, pomocí které mohou uživatelé pracovat s dokumenty obsahujícími "objekty" vytvořené nebo editované aplikacemi třetích stran. To znamená, že OLE umožňuje editační aplikaci exportovat tyto "objekty" do jiné editační aplikace a pak je importovat s dodatečným obsahem.

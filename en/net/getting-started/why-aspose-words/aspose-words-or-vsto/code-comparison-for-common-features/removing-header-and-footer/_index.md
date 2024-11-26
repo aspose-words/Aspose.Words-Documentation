@@ -7,6 +7,7 @@ description: "Remove headers or footers from a document easily and fast instead 
 type: docs
 weight: 60
 url: /net/removing-header-and-footer/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## VSTO

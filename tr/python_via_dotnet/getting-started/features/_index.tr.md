@@ -7,6 +7,7 @@ description: "Python via .NET için Aspose.Words, kullanıcılara belgeleri basi
 type: docs
 weight: 30
 url: /tr/python-net/features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words kullanıcılara çok çeşitli özellikler sunar. Kullanıcılar, belgeleri desteklenen bir formattan diğerine dönüştürmek ve dönüştürme süreci sırasında bu belgeleri değiştirmekten, yapılandırılmış ve görsel olarak çekici belgeler oluşturmak veya raporlamayı otomatikleştirmek gibi iş görevlerine kadar belgeyle ilgili çok sayıda görevi gerçekleştirebilir.
@@ -108,16 +109,16 @@ Aspose.Words'i başlı başına bir raporlama çözümü olarak kullanabilirsini
 
 |  Özellik | Python via .NET |
 |  :-  |  :-  |
-| Raporlarınızda `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE dahil tüm standart Microsoft Word mail merge alanlarını kullanın. | {{< emoticons/tick >}} |
+| Raporlarınızda `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE dahil tüm standart Microsoft Word Mail Merge alanlarını kullanın. | {{< emoticons/tick >}} |
 | En karmaşık ve iç içe geçmiş `IF` alanlarını ve formüllerini bile içeren belgeler için mail merge'i yürütün. | {{< emoticons/tick >}} |
-| mail merge bölgelerini kullanarak belgedeki tabloları veya parçaları veri kaynağınızdan doldurun ve dinamik olarak büyütün. | {{< emoticons/cross >}} |
+| Mail Merge bölgelerini kullanarak belgedeki tabloları veya parçaları veri kaynağınızdan doldurun ve dinamik olarak büyütün. | {{< emoticons/cross >}} |
 | Order/OrderDetails gibi ana detay (üst-alt) verilerini içeren raporları kolayca oluşturun. | {{< emoticons/cross >}} |
 | Belgeleri DataSet, DataTable, DataView, DataReader veya ADO Recordset gibi herhangi bir .NET veri kaynağından gelen verilerle doldurun. | {{< emoticons/cross >}} |
 | [IMailMergeDataSource](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/imailmergedatasource/) arayüzünü uygulayarak LINQ sorgusu, XML dosyası veya iş nesneleri gibi herhangi bir veri kaynağından belgeleri doldurun. | {{< emoticons/cross >}} |
 | Verilerinizin olaylar kullanılarak nasıl birleştirileceği konusunda sayı biçimlendirmesi gibi hassas kontrolü elinize alın. | {{< emoticons/cross >}} |
-| mail merge sırasında görüntüleri ekleyin. | {{< emoticons/tick >}} |
-| Bir belge için Microsoft Word mail merge veri kaynağını programlı olarak oluşturun veya değiştirin. mail merge ayarlarını ve veri kaynaklarını koruyun. | {{< emoticons/tick >}} |
-| mail merge alan adlarını alın. | {{< emoticons/tick >}} |
+| Mail Merge sırasında görüntüleri ekleyin. | {{< emoticons/tick >}} |
+| Bir belge için Microsoft Word Mail Merge veri kaynağını programlı olarak oluşturun veya değiştirin. Mail Merge ayarlarını ve veri kaynaklarını koruyun. | {{< emoticons/tick >}} |
+| Mail Merge alan adlarını alın. | {{< emoticons/tick >}} |
 
 ## Raporlama Özellikleri
 

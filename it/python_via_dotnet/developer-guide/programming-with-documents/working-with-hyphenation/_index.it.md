@@ -7,6 +7,7 @@ description: "Utilizza la sillabazione per una disposizione più compatta del te
 type: docs
 weight: 220
 url: /it/python-net/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A volte è necessario utilizzare la sillabazione per una disposizione più compatta del testo in un documento. Allo stesso tempo, è importante capire che le specifiche della sillabazione delle parole possono differire per ciascuna lingua.

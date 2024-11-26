@@ -7,6 +7,7 @@ description: "C# kullanarak gelişmiş TXT belge işleme, listeler, BiDi, üstbi
 type: docs
 weight: 430
 url: /tr/net/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bu yazıda Aspose.Words aracılığıyla bir metin belgesiyle çalışmak için hangi seçeneklerin yararlı olabileceğini öğreneceğiz. Lütfen bunun mevcut seçeneklerin tam bir listesi olmadığını, yalnızca bazılarıyla çalışmanın bir örneği olduğunu unutmayın.

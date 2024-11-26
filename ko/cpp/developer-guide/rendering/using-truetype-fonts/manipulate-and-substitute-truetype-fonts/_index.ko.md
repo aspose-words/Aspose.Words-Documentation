@@ -1,4 +1,4 @@
-﻿---
+---
 title: 조작 및 대체 TrueType 글꼴 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 조작 및 대체 TrueType 글꼴
@@ -7,6 +7,7 @@ description: "Aspose.Words 에 대한 C++ 올바른 것을 포함 할 수 있습
 type: docs
 weight: 10
 url: /ko/cpp/manipulate-and-substitute-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words 요구 사항 TrueType 예를 들어 문서를 고정 페이지 형식으로 렌더링하는 등 다양한 작업을 위한 글꼴, PDF 또는 XPS. 언제 Aspose.Words 문서를 렌더링하려면 다음을 포함 및 하위 집합 임베딩을 수행해야합니다 TrueType 문서 생성 중에 일반적인 관행인 결과 문서에 글꼴을 입력합니다. PDF 또는 XPS 형식 이렇게 하면 문서가 모든 뷰어에게 동일하게 표시됩니다. 또한, XPS 사양에는 글꼴이 항상 문서에 포함되어야 합니다.

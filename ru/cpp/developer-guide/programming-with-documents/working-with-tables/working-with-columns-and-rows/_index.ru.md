@@ -1,4 +1,4 @@
-﻿---
+---
 title: Работа со столбцами и строками в C++
 second_title: Aspose.Words для C++
 articleTitle: Работа со столбцами и строками
@@ -7,6 +7,7 @@ description: "Работа с частями таблицы – строками
 type: docs
 weight: 30
 url: /ru/cpp/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Чтобы лучше контролировать работу таблиц, узнайте, как манипулировать столбцами и строками.

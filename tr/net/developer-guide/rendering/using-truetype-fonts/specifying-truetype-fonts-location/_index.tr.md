@@ -7,6 +7,7 @@ description: "Çeşitli TrueType yazı tipi kaynaklarını belirtin: sistem klas
 type: docs
 weight: 30
 url: /tr/net/specifying-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Bu konu, işletim sistemine özgü farklılıklar da dahil olmak üzere TrueType yazı tiplerini ararken Aspose.Words'in varsayılan davranışını açıklar ve kullanıcı yazı tipi kaynaklarının nasıl belirtileceğini gösterir.
@@ -56,7 +57,7 @@ Windows ve Windows olmayan işletim sistemlerinin yazı tipi ölçümleri farkl�
 
 #### Aspose.Words'in Linux'de TrueType Yazı Tiplerini Aradığı Yer
 
-Farklı Linux dağıtımları yazı tiplerini farklı klasörlerde saklayabilir. Aspose.Words çeşitli konumlardaki yazı tiplerini arar. Varsayılan olarak, Aspose.Words aşağıdaki konumların tümünde yazı tiplerini arar: * /usr/share/fonts* /usr/local/share/fonts* /usr/X11R6/lib/X11/fontsBu varsayılan davranış çoğu Linux dağıtımında işe yarayacaktır., ancak her zaman çalışacağı garanti edilmez; bu durumda true türü yazı tiplerinin konumunu açıkça belirtmeniz gerekebilir. Bunu yapmak için TrueType yazı tiplerinin Linux dağıtımınızda nereye yüklendiğini bilmeniz gerekir.
+Farklı Linux dağıtımları yazı tiplerini farklı klasörlerde saklayabilir. Aspose.Words çeşitli konumlardaki yazı tiplerini arar. Varsayılan olarak, Aspose.Words aşağıdaki konumların tümünde yazı tiplerini arar: `/usr/share/fonts` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts`Bu varsayılan davranış çoğu Linux dağıtımında işe yarayacaktır., ancak her zaman çalışacağı garanti edilmez; bu durumda true türü yazı tiplerinin konumunu açıkça belirtmeniz gerekebilir. Bunu yapmak için TrueType yazı tiplerinin Linux dağıtımınızda nereye yüklendiğini bilmeniz gerekir.
 
 #### Aspose.Words'in Mac OS X'te TrueType Yazı Tiplerini Aradığı Yer
 

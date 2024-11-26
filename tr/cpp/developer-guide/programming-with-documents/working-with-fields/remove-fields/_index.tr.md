@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ Alanlarını Kaldır
 second_title: Aspose.Words için C++
 articleTitle: Alanları Kaldır
@@ -7,6 +7,7 @@ description: "C++ içindeki alanları nasıl kaldıracağınızı öğrenin. C++
 type: docs
 weight: 35
 url: /tr/cpp/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen bir alanı bir belgeden kaldırmak gerekir. Bu, farklı bir alan türüyle değiştirilmesi gerektiğinde veya alan belgede artık gerekmediğinde ortaya çıkabilir. Örneğin, HTML 'e kaydederken `TOC` alanı.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: إدراج Checkbox إس، إدخال النص أو الصور خلال Mail Merge
 second_title: Aspose.Words ل C++
 articleTitle: إدراج Checkbox إس، إدخال النص، أو الصور
@@ -7,6 +7,7 @@ description: "أدخل مربعات الاختيار أو حقول إدخال ا
 type: docs
 weight: 40
 url: /ar/cpp/insert-checkboxes-text-input-or-images-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 يأخذ محرك الدمج مستندا كمدخل، ويبحث عن `MERGEFIELD` الحقول فيه، ويستبدلها بالبيانات التي تم الحصول عليها من مصدر البيانات. عادة، يتم إدراج نص عادي و HTML، ولكن يمكن للمستخدمين Aspose.Words أيضا إنشاء مستند يتعامل مع سيناريوهات أكثر غرابة لحقول mail merge.
@@ -18,7 +19,7 @@ url: /ar/cpp/insert-checkboxes-text-input-or-images-mail-merge/
 
 ## إدراج Checkbox إس وإدخال النص خلال Mail Merge
 
-في بعض الأحيان يكون من الضروري إجراء عملية mail merge بحيث لا يتم استبدال النص في حقل الدمج، ولكن يتم استبدال مربع الاختيار أو حقل إدخال النص. على الرغم من أن هذا ليس السيناريو الأكثر شيوعا، إلا أنه مفيد جدا لبعض المهام.
+في بعض الأحيان يكون من الضروري إجراء عملية Mail Merge بحيث لا يتم استبدال النص في حقل الدمج، ولكن يتم استبدال مربع الاختيار أو حقل إدخال النص. على الرغم من أن هذا ليس السيناريو الأكثر شيوعا، إلا أنه مفيد جدا لبعض المهام.
 
 تظهر لقطة الشاشة التالية لمستند ورد نموذجا يحتوي على حقول دمج:
 
@@ -42,11 +43,11 @@ url: /ar/cpp/insert-checkboxes-text-input-or-images-mail-merge/
 
 ## إدراج الصور خلال Mail Merge
 
-عند إجراء عملية mail merge، يمكنك إدراج صور من قاعدة البيانات في المستند باستخدام حقول صورة خاصة mail merge. حقل الصورة mail merge هو حقل دمج اسمه صورة: MyFieldName.
+عند إجراء عملية mail merge، يمكنك إدراج صور من قاعدة البيانات في المستند باستخدام حقول صورة خاصة mail merge. حقل الصورة Mail Merge هو حقل دمج اسمه صورة: MyFieldName.
 
 ### إدراج الصور من قاعدة بيانات
 
-أثناء mail merge، عند مصادفة حقل صورة mail merge في مستند، يتم تشغيل الحدث [FieldMergingCallback](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_fieldmergingcallback/). يمكنك الرد على هذا الحدث لإرجاع اسم ملف أو دفق أو كائن صورة إلى محرك mail merge بحيث يمكن إدراجه في المستند.
+أثناء mail merge، عند مصادفة حقل صورة Mail Merge في مستند، يتم تشغيل الحدث [FieldMergingCallback](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_fieldmergingcallback/). يمكنك الرد على هذا الحدث لإرجاع اسم ملف أو دفق أو كائن صورة إلى محرك Mail Merge بحيث يمكن إدراجه في المستند.
 
 يوضح مثال التعليمات البرمجية التالية كيفية إدراج الصور المخزنة في حقل BLOB قاعدة بيانات في تقرير:
 

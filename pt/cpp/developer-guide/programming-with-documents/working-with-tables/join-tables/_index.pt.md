@@ -1,4 +1,4 @@
-﻿---
+---
 title: Juntar tabelas em C++
 second_title: Aspose.Words para C++
 articleTitle: Juntar Tabelas
@@ -7,6 +7,7 @@ description: "Manipulações avançadas de tabelas. Como mesclar duas tabelas em
 type: docs
 weight: 90
 url: /pt/cpp/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uma tabela, representada no modelo de objeto de documento Aspose.Words, é composta por linhas e células independentes, facilitando a junção de tabelas.

@@ -7,6 +7,7 @@ description: "Bagaimana cara memanipulasi header dan footer menggunakan JavaSite
 type: docs
 weight: 150
 url: /id/java/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words memungkinkan pengguna untuk bekerja dengan header dan footer dalam dokumen. Judul adalah teks yang ditempatkan di bagian atas halaman, dan footer adalah teks di bagian bawah halaman. Biasanya, daerah ini digunakan untuk memasukkan informasi yang harus diulang pada semua atau beberapa halaman dokumen, seperti nomor halaman, tanggal pembuatan, informasi perusahaan, dan sebagainya.

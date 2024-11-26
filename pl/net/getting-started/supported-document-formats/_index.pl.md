@@ -7,6 +7,7 @@ type: docs
 description: "Edytuj dokumenty źródłowe w wielu popularnych formatach, a także swobodnie konwertuj pliki z jednego formatu na inny za pomocą C#."
 weight: 20
 url: /pl/net/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

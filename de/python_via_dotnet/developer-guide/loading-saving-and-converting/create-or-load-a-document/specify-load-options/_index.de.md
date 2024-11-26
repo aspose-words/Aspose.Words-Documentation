@@ -7,6 +7,7 @@ description: "Steuern Sie den Ladevorgang mithilfe von Python genauer."
 type: docs
 weight: 10
 url: /de/python-net/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Beim Laden eines Dokuments können Sie einige erweiterte Eigenschaften festlegen. Aspose.Words stellt Ihnen die [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/)-Klasse zur Verfügung, die eine genauere Steuerung des Ladevorgangs ermöglicht. Einige Ladeformate verfügen über eine entsprechende Klasse, die Ladeoptionen für dieses Ladeformat enthält. Beispielsweise gibt es [PdfLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/pdfloadoptions/) zum Laden in das PDF-Format oder [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/) zum Laden in TXT. Dieser Artikel enthält Beispiele für die Arbeit mit Optionen der [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/)-Klasse.

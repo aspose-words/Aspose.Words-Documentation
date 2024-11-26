@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit digitalen Signaturen in C++
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit digitalen Signaturen
@@ -7,6 +7,7 @@ description: "Dokumente digital signieren und vorhandene digitale Signaturen erk
 type: docs
 weight: 160
 url: /de/cpp/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Eine digitale Signatur ist eine technologische Implementierung elektronischer Signaturen zum Signieren von Dokumenten und zur Authentifizierung des Unterzeichners, um sicherzustellen, dass ein Dokument seit seiner Unterzeichnung nicht geändert wurde. Jede digitale Signatur ist für jeden Unterzeichner eindeutig, da das PKI -Protokoll befolgt wird, um sowohl öffentliche als auch private Schlüssel zu generieren. Ein Dokument digital signieren bedeutet, eine Signatur mit dem privaten Schlüssel des Unterzeichners zu erstellen, wobei ein mathematischer Algorithmus verwendet wird, um den generierten Hash zu verschlüsseln.

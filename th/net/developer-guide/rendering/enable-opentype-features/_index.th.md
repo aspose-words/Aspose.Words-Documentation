@@ -7,6 +7,7 @@ description: "คุณสมบัติการพิมพ์ขั้นส
 type: docs
 weight: 25
 url: /th/net/enable-opentype-features/
+timestamp: 2024-07-10-14-38-57
 ---
 
 OpenType เป็นรูปแบบฟอนต์ที่นำมาใช้เพื่อให้การสนับสนุนภาษาต่างประเทศและระบบการเขียนที่ดีกว่าเมื่อเทียบกับ PostScript และ TrueType คุณสมบัติเค้าโครงของ OpenType เป็นที่รู้จักกันทั่วไปว่าเป็นคุณสมบัติ OpenType แพ็คเกจ Aspose.Words.Shaping.HarfBuzz ให้การสนับสนุนคุณสมบัติ OpenType ใน Aspose.Words โดยใช้กลไกการสร้างข้อความ HarfBuzz

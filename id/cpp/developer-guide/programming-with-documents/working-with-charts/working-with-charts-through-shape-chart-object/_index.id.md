@@ -1,12 +1,13 @@
-﻿---
-title: Bekerja dengan Bagan melalui Objek `Shape.Chart`
+---
+title: Bekerja dengan Bagan melalui Objek Shape.Chart
 second_title: Aspose.Words untuk C++
-articleTitle: Bekerja dengan Bagan melalui Objek `Shape.Chart`
-linktitle: Bekerja dengan Bagan melalui Objek `Shape.Chart`
+articleTitle: Bekerja dengan Bagan melalui Objek Shape.Chart
+linktitle: Bekerja dengan Bagan melalui Objek Shape.Chart
 description: "Bagan secara detail, bagaimana bagan ditautkan dengan simpul Bentuk di Aspose.Words untuk C++."
 type: docs
 weight: 10
 url: /id/cpp/working-with-charts-through-shape-chart-object/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Setelah bagan disisipkan dan diisi dengan data, Anda dapat mengubah tampilannya. properti `Shape.Chart` berisi semua opsi terkait bagan yang tersedia melalui publik API.

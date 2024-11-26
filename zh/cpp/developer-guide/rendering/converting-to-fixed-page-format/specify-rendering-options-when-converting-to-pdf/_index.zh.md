@@ -1,4 +1,4 @@
-﻿---
+---
 title: 转换为PDF时指定渲染选项
 second_title: Aspose.Words对于C++
 articleTitle: 转换为PDF时指定渲染选项
@@ -7,6 +7,7 @@ description: "使用 C++ 的高级选项将文档转换为 PDF。使用 PdfSaveO
 type: docs
 weight: 30
 url: /zh/cpp/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 PDF格式是一种固定页面格式，在用户中非常流行，并受到各种应用程序的广泛支持，因为PDF文档在任何设备上看起来都是一样的。 因此，转换为PDF是Aspose.Words的一个重要特性。

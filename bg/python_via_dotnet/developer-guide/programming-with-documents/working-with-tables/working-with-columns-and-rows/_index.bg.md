@@ -7,6 +7,7 @@ description: "Работейки с части от таблица, колони
 type: docs
 weight: 30
 url: /bg/python-net/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 За повече контрол върху това как работят таблиците, научете се как да манипулирате колони и редове.

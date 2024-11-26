@@ -7,6 +7,7 @@ description: "Watermerken aanmaken en beheren in een document met Python."
 type: docs
 weight: 340
 url: /nl/python-net/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dit onderwerp bespreekt hoe je programmatisch met watermerk met behulp van Aspose.Words. Een watermerk is een achtergrondafbeelding die achter de tekst in een document wordt weergegeven. Een watermerk kan een tekst of een afbeelding bevatten die door de [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/) Klasse.

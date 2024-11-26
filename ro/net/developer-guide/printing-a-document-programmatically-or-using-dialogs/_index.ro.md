@@ -7,6 +7,7 @@ description: "Imprimă un document pe o Server folosind XpsPrint necontrolat API
 type: docs
 weight: 55
 url: /ro/net/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Acest articol descrie cum să imprimi un document de procesare de text dintr-o aplicație ASP.NET sau Windows folosind Aspose.Words și `XpsPrint` API. De asemenea demonstrează metodele de imprimare a unui document cu setările, previzualizarea imprimării și dialogurile de progres al imprimării, și explică cum se poate reduce timpul primei apeluri pentru imprimarea unui document.

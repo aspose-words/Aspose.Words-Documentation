@@ -8,6 +8,7 @@ description: "Перетворення PDF у формати Word, такі як
 keywords: convert pdf to other formats c#
 weight: 45
 url: /uk/net/convert-pdf-to-other-document-formats/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Aspose.Words може завантажити навіть такий комплексний формат як PDF. Це відкриває нові можливості: можливість конвертувати PDF в Word або інші формати, які доводять користувачів перед вирішенням багатьох прикладних задач.

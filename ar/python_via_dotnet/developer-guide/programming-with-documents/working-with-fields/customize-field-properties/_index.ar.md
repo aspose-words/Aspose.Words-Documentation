@@ -7,6 +7,7 @@ description: "تعرف على كيفية تخصيص خصائص الحقل في P
 type: docs
 weight: 27
 url: /ar/python-net/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 يوفر Aspose.Words القدرة على التفاعل برمجيًا مع خصائص الحقول المختلفة. في هذه المقالة، سنلقي نظرة على بعض الأمثلة حتى تتمكن من فهم المبدأ الأساسي للعمل مع خصائص الحقل. يمكنك الاطلاع على القائمة الكاملة للخصائص لكل نوع حقل في الفئة المقابلة في [وحدة الحقول](https://reference.aspose.com/words/python-net/aspose.words.fields/).

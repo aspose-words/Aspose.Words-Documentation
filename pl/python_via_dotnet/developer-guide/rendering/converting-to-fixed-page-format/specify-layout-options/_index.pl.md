@@ -7,6 +7,7 @@ description: "Określ opcje układu dla różnych układów dokumentów za pomoc
 type: docs
 weight: 10
 url: /pl/python-net/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words umożliwia tworzenie dokumentów wyjściowych o różnych układach, w zależności od parametrów określonych we właściwościach klasy [LayoutOptions](https://reference.aspose.com/words/python-net/aspose.words.layout/layoutoptions/). Niektóre z tych właściwości przypominają niektóre opcje menu interfejsu użytkownika Microsoft Word – zostaną one opisane w tym artykule.

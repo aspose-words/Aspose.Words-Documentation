@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lavorare con colonne e righe in C++
 second_title: Aspose.Words per C++
 articleTitle: Lavorare con colonne e righe
@@ -7,6 +7,7 @@ description: "Lavorare con parti di una tabella-righe, colonne e celle utilizzan
 type: docs
 weight: 30
 url: /it/cpp/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Per un maggiore controllo sul funzionamento delle tabelle, scopri come manipolare colonne e righe.

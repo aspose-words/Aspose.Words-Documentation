@@ -7,6 +7,7 @@ description: "Cara mengimplementasikan fitur Markdown menggunakan C#. Semua fitu
 type: docs
 weight: 420
 url: /id/net/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Topik ini membahas cara mengimplementasikan fitur Markdown menggunakan Aspose.Words. Markdown adalah cara sederhana untuk memformat teks biasa yang dapat dengan mudah dikonversi ke HTML. Aspose.Words mendukung fitur Markdown berikut:

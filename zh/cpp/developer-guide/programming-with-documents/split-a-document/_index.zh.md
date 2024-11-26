@@ -1,4 +1,4 @@
-﻿---
+---
 title: 用C++拆分文档
 second_title: Aspose.Words对于C++
 articleTitle: 拆分文档
@@ -7,6 +7,7 @@ description: "使用C++将文档拆分为多个文件。 使用拆分功能可�
 type: docs
 weight: 90
 url: /zh/cpp/split-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 *Splitting*或*split a document*是将大型文档分解为更多较小文件的过程。 分割文件有多种原因。 例如，您只需要特定文档中的某些页面，而不是整个页面。 或者出于隐私原因，您只希望与其他人共享文档的某些部分。 使用拆分功能，您可以只获取文档的所需部分，并对它们执行必要的操作，例如标记、保存或发送。

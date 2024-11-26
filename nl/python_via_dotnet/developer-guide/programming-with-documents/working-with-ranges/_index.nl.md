@@ -7,6 +7,7 @@ description: "Werk met bereik in een document met behulp van Python."
 type: docs
 weight: 130
 url: /nl/python-net/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

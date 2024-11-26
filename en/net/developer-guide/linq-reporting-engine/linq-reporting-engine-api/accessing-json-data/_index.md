@@ -7,6 +7,7 @@ description: "Learn how to access JSON data while building a report using LINQ i
 type: docs
 weight: 30
 url: /net/accessing-json-data/
+timestamp: 2024-01-27-14-07-04
 ---
 
 To access JSON data while building a report, you can pass a `JsonDataSource` instance to the engine as a data source.

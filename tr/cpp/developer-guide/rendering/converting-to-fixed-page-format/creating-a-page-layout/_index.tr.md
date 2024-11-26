@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içinde Sayfa Düzeni Oluşturma
 second_title: Aspose.Words için C++
 articleTitle: Sayfa Düzeni Oluşturma
@@ -7,6 +7,7 @@ description: "Sayfa düzeni oluşturmak maliyetli bir prosedür olabilir. Aspose
 type: docs
 weight: 10
 url: /tr/cpp/creating-a-page-layout/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Sayfa düzeni oluşturmak hem hız hem de bellek açısından maliyetli bir prosedür olabilir. Bunun birkaç nedeni vardır:

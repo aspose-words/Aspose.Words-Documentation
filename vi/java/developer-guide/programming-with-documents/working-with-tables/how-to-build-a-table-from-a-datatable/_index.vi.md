@@ -1,12 +1,13 @@
 ---
-title: Làm sao để dựng một bàn từ một `DataTable` trong Java
+title: Làm sao để dựng một bàn từ một DataTable trong Java
 second_title: Aspose.Words cho Java
-articleTitle: Xây dựng một Bảng từ `DataTable`
-linktitle: Xây dựng một Bảng từ `DataTable`
+articleTitle: Xây dựng một Bảng từ DataTable
+linktitle: Xây dựng một Bảng từ DataTable
 description: "Ví dụ về việc điền vào bảng tài liệu từ cơ sở dữ liệu bên ngoài bằng Java."
 type: docs
 weight: 130
 url: /vi/java/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hầu hết các ứng dụng sẽ lấy dữ liệu từ một cơ sở dữ liệu và lưu trữ chúng trong hình thức của một **DataTable**. Bạn có thể muốn dễ dàng chèn dữ liệu này vào tài liệu của bạn dưới dạng một bảng mới và nhanh chóng áp dụng định dạng cho toàn bộ bảng.

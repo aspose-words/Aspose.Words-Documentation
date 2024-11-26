@@ -7,6 +7,7 @@ description: "フィールド機能の詳細、フィールド コード、お�
 type: docs
 weight: 10
 url: /ja/net/fields-overview/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words は、Microsoft Word ドキュメントのサーバー側処理用に設計されたクラス ライブラリであり、次の方法でフィールドをサポートします。
@@ -173,9 +174,9 @@ Aspose.Words は、Microsoft Word で使用可能なすべての日付と時刻�
 
 ### Mail Mergeフィールド
 
-Aspose.Words は、ドキュメント内の mail merge フィールドの複雑さに制限を設けず、ネストされた `IF` フィールドと数式フィールドをサポートし、数式を使用して差し込みフィールドの名前を計算することもできます。
+Aspose.Words は、ドキュメント内の Mail Merge フィールドの複雑さに制限を設けず、ネストされた `IF` フィールドと数式フィールドをサポートし、数式を使用して差し込みフィールドの名前を計算することもできます。
 
-Aspose.Words がサポートする mail merge フィールドの例をいくつか示します。
+Aspose.Words がサポートする Mail Merge フィールドの例をいくつか示します。
 
 - Mail merge フィールド スイッチ:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -222,6 +223,6 @@ Aspose.Words がフィールド結果を計算する場合、多くの場合、�
 
 [Document](https://reference.aspose.com/words/net/aspose.words/document/) クラスは、ドキュメント内でフィールドを更新する方法を制御するために使用できるメンバーを含む [FieldOptions](https://reference.aspose.com/words/net/aspose.words/document/fieldoptions/) プロパティを提供します。
 
-次のコード例は、フィールド更新および mail merge 中に日付の書式設定に使用されるカルチャがどこから選択されるかを指定する方法を示しています。
+次のコード例は、フィールド更新および Mail Merge 中に日付の書式設定に使用されるカルチャがどこから選択されるかを指定する方法を示しています。
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-ChangeFieldUpdateCultureSource-ChangeFieldUpdateCultureSource.cs" >}}

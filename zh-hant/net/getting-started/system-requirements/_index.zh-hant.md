@@ -7,6 +7,7 @@ description: "在開始使用 Aspose.Words for .NET 之前，請確保您已滿�
 type: docs
 weight: 70
 url: /zh-hant/net/system-requirements/
+timestamp: 2024-02-01-16-17-05
 ---
 
 為 .NET 的 Aspose.Words 不需要任何第三方產品，例如 Microsoft Word 來安裝。 Aspose.Words 本身是一個引擎，用於建立、修改、轉換及在各種格式的文件中呈现文件，包括 Microsoft Word 文檔。

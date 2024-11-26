@@ -7,6 +7,7 @@ description: "По-точно управление на процеса на на
 type: docs
 weight: 10
 url: /bg/python-net/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 При зареждане на документ, можете да зададете някои напреднали свойства. Aspose.Words Ви осигурява [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/) клас, който позволява по-точен контрол на процеса на натоварване. Някои формати на натоварване имат съответен клас, който държи опции за натоварване за този формат на натоварване, например, има [PdfLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/pdfloadoptions/) за зареждане във формат PDF или [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/) за зареждане на TXT. Тази статия дава примери за работа с опции на [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/) Клас.

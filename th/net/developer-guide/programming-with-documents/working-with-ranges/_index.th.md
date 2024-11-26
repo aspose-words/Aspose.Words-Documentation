@@ -7,6 +7,7 @@ description: "รู้เบื้องต้นเกี่ยวกับค
 type: docs
 weight: 130
 url: /th/net/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

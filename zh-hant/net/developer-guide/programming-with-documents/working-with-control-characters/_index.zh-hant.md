@@ -7,6 +7,7 @@ description: "使用控制字元於 Aspose.Words 中工作之入門導覽。"
 type: docs
 weight: 400
 url: /zh-hant/net/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word 文檔可能包含各種特殊含義的字符。 通常它們是用來做格式化的，在正常模式下不會被繪製。 你可以透過標準工具列上的顯示/隱藏格式標記按鈕來使它們顯露。

@@ -7,6 +7,7 @@ description: "Python でフィールド コードやフィールド結果など�
 type: docs
 weight: 25
 url: /ja/python-net/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/).[insert_field](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_field/) を使用して挿入されたフィールドは [Field](https://reference.aspose.com/words/python-net/aspose.words.fields/field/) オブジェクトを返します。これは、フィールドのいくつかのプロパティをすばやく検索するための便利なメソッドを提供するファサード クラスです。

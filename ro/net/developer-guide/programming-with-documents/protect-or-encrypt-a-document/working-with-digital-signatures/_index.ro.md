@@ -7,6 +7,7 @@ description: "Semnaţi documentele digital şi detectaţi, număraţi, verifica�
 type: docs
 weight: 40
 url: /ro/net/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 O semnătură digitală este o implementare tehnologică a semnăturilor electronice pentru a semna documente și a autentifica semnatarul pentru a garanta că un document nu a fost modificat de când a fost semnat. Fiecare semnătură digitală este unică pentru fiecare semnatar datorită faptului că urmează protocolul PKI pentru a genera atât cheile publice cât și pe cele private. A semna o semnătură digitală înseamnă crearea unei semnături folosind cheia privată a semnatarului, unde un algoritm matematic este utilizat pentru a cripta hash-ul generat.

@@ -7,6 +7,7 @@ description: "Daha kompakt bir metin düzeni için noktalama kullanın. Noktalam
 type: docs
 weight: 220
 url: /tr/java/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen metin bir belge içinde daha sıkı düzen için imla bölünmesi gereklidir. Aynı zamanda, sözcük imla spesifikasyonlarının her dil için farklı olabileceği gerçeğini anlamak önemlidir.

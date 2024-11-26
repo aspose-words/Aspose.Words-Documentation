@@ -7,6 +7,7 @@ description: "Bir akış düzenlemesi belgesi sayfaları biçimlendirmek için A
 type: docs
 weight: 30
 url: /tr/java/rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Biz Aspose.Words'da bir belgeyi sayfalama veya sayfaların kavramsal bir fikrine sahip bir dosya biçimine veya ortama dönüştürme işlemini tanımlamak için "render etme" terimini kullanırız. Bir belgeyi sayfalara dönüştürme hakkında konuşuyoruz. Aşağıdaki diyagram, Aspose.Words'te ne gibi bir işleme olduğunu göstermektedir.

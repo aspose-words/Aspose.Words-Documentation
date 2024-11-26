@@ -1,4 +1,4 @@
-﻿---
+---
 title: Travailler avec des paragraphes en C++
 second_title: Aspose.Words pour C++
 articleTitle: Travailler avec des paragraphes
@@ -7,6 +7,7 @@ description: "Pratiques de manipulation des nœuds de paragraphe en utilisant C+
 type: docs
 weight: 210
 url: /fr/cpp/working-with-paragraphs/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Un paragraphe est un ensemble de caractères combinés en un bloc logique et se terminant par un caractère spécial-a *paragraph break*. Dans Aspose.Words, un paragraphe est représenté par la classe [Paragraph](https://reference.aspose.com/words/cpp/aspose.words/paragraph/).

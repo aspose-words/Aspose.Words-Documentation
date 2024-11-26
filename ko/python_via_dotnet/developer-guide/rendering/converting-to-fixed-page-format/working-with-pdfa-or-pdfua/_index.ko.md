@@ -7,6 +7,7 @@ description: "Python를 사용하여 PDF/A-1, PDF/A-2, PDF/A-4 및 PDF/UA로 변
 type: docs
 weight: 28
 url: /ko/python-net/working-with-pdfa-or-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/A 및 PDF/UA 형식은 Word 형식의 문서를 PDF로 자동 변환하는 동안 충족할 수 없는 문서 내용과 관련된 몇 가지 요구 사항을 부과합니다. 완벽한 PDF/A 및 PDF/UA 호환 문서를 생성하려면 변환 전 Word 문서 또는 변환 후 PDF 문서에서 이러한 요구 사항을 확인하고 수정해야 합니다.

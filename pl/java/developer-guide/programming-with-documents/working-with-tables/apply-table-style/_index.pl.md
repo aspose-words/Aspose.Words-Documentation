@@ -7,6 +7,7 @@ description: "Zaawansowane formatowanie tabeli Java. Utwórz styl tabeli za pomo
 type: docs
 weight: 80
 url: /pl/java/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Styl tabeli definiuje zestaw formatowania, który można łatwo zastosować do tabeli. Formatowanie takie jak granice, cieniowanie, wyrównanie i czcionka mogą być ustawione w stylu tabeli i stosowane do wielu tabel dla spójnego wyglądu.

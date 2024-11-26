@@ -7,6 +7,7 @@ description: "Imprimez un document sur un Server à l'aide du XpsPrint API non g
 type: docs
 weight: 55
 url: /fr/net/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Cet article décrit comment imprimer un document de traitement de texte à partir d'une application de service ASP.NET ou Windows à l'aide de Aspose.Words et `XpsPrint` API. Il montre également les méthodes d'impression d'un document avec les boîtes de dialogue Paramètres, Aperçu avant impression et Progression de l'impression, et explique comment réduire le temps du premier appel pour imprimer un document.

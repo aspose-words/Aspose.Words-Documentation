@@ -7,6 +7,7 @@ type: docs
 description: "Načíst vzdálené zdroje, to může být příčinou bezpečnostních rizik. Podívejte se na společné bezpečnostní problémy a jejich řešení pomocí C#."
 weight: 100
 url: /cs/net/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ve výchozím nastavení Aspose.Words místo .NET mohou při importu dokumentů nebo vložení obrázků pomocí nástroje DokumentBuilder načíst vzdálené zdroje, jako jsou obrázky, styly CSS nebo externí HTML dokumenty. Toto chování vám umožní zpracovávat své dokumenty v plném rozsahu, ale může být příčinou některých bezpečnostních rizik, pokud knihovna je součástí webové aplikace.

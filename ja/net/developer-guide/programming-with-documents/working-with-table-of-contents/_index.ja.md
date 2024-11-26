@@ -7,6 +7,7 @@ description: "詳細の「目次」フィールド。 C#を使用して`TOC`フ�
 type: docs
 weight: 170
 url: /ja/net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 多くの場合、目次 (TOC) を含むドキュメントを操作することがあります。 Aspose.Words を使用すると、わずか数行のコードを使用して、独自の目次を挿入したり、ドキュメント内の既存の目次を完全に再構築したりできます。この記事では、目次フィールドの操作方法の概要を説明し、次のことを示します。
@@ -107,13 +108,13 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 <p>![todo:image_alt_text](/words/net/working-with-table-of-contents/working-with-table-of-contents-5.png)</p>
 
-<p>`TC` フィールド自体にも {several, `multiple`, a few, `many`, numerous} スイッチを設定することができます。これらは：</p>
+<p>`TC` フィールド自体にも `{several, multiple, a few, many, numerous}` スイッチを設定することができます。これらは：</p>
 
 <p>- *\F – 上で説明しました。*</p>
 
 <p>- *\L – この TC フィールドが `TOC` のどのレベルに表示されるかを定義します。これと同じスイッチを使用する `TOC` には、指定された範囲内にある場合にのみ、この TC フィールドが含まれます。*</p>
 
-<p>- _\N – この `TOC` エントリのページ番号は表示されません。TC フィールドを挿入する方法のサンプル コードは、次のセクションにあります。</p> |
+<p>- `_\N` – この `TOC` エントリのページ番号は表示されません。TC フィールドを挿入する方法のサンプル コードは、次のセクションにあります。</p> |
 
 ### 外観関連のスイッチ
 

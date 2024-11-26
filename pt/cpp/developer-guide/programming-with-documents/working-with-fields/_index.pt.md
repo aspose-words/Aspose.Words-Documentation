@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabalhar com campos Em C++
 second_title: Aspose.Words para C++
 articleTitle: Trabalhar com campos
@@ -7,6 +7,7 @@ description: "Introdução ao recurso de campo em Aspose.Words para C++."
 type: docs
 weight: 370
 url: /pt/cpp/working-with-fields/
+timestamp: 2024-01-30-16-22-34
 ---
 
 **Campos**

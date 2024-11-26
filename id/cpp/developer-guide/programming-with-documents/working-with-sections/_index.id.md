@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Bagian dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Bagian
@@ -7,6 +7,7 @@ description: "Memahami konsep bagian dokumen dan praktik manipulasi menggunakan 
 type: docs
 weight: 120
 url: /id/cpp/working-with-sections/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Terkadang Anda menginginkan dokumen yang tidak memiliki pemformatan yang sama di semua halaman. Misalnya, Anda mungkin perlu mengubah format nomor halaman, memiliki ukuran dan orientasi halaman yang berbeda, atau memiliki halaman dokumen pertama sebagai halaman sampul tanpa penomoran apa pun. Anda dapat mencapainya dengan bagian.

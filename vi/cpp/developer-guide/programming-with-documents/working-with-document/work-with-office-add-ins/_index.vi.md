@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm Việc Với Văn Phòng Add-in C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm việc Với Các Tiện Ích Bổ Sung Văn Phòng
@@ -7,6 +7,7 @@ description: "Aspose.Words cho C++ cung cấp các lớp học khác nhau để 
 type: docs
 weight: 50
 url: /vi/cpp/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi bạn có thể muốn cấp quyền truy cập vào các điều khiển giao diện chạy mã để sửa đổi tài liệu. Aspose.Words API cung cấp không gian tên `WebExtensions`, cấp các lớp khác nhau để tùy chỉnh các phần tử và thuộc tính mở rộng từ vựng XML để đại diện Cho Các Bổ Trợ Văn phòng.

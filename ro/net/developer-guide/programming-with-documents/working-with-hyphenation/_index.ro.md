@@ -7,6 +7,7 @@ description: "Folosiţi iperenitarea pentru o mai compactă aranjare a textului 
 type: docs
 weight: 220
 url: /ro/net/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uneori este necesar să folosești punctuația pentru un aranjament mai compact al textului într-un document. În același timp, este important să înțelegem că specificul separării cuvintelor poate diferi pentru fiecare limbă.

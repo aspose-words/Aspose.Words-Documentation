@@ -1,4 +1,4 @@
-﻿---
+---
 title: Force Line Breaks
 second_title: Aspose.Words for JasperReports
 articleTitle: Force Line Breaks
@@ -7,6 +7,7 @@ description: "Aspose Words for JasperReports allow changing Force Line Breaks pa
 type: docs
 weight: 190
 url: /jasperreports/force-line-breaks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

@@ -1,64 +1,65 @@
----
-title: Lavorare con Watermark in Java
+﻿---
+title: Utilizzo della filigrana in Java
 second_title: Aspose.Words per Java
 articleTitle: Lavorare con Watermark
 linktitle: Lavorare con Watermark
 type: docs
-description: "La manipolazione dei fili del documento utilizzando Java."
+description: "Manipolazione filigrana documento utilizzando Java."
 weight: 70
 url: /it/java/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Questo argomento parla di come lavorare programmaticamente con una filigrana utilizzando Aspose.Words. Un watermark è un'immagine di sfondo che mostra dietro il testo in un documento. Una filigrana può contenere un testo o un'immagine rappresentata dal [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) classe.
+In questo argomento viene illustrato come lavorare a livello di programmazione con una filigrana utilizzando Aspose.Words. Una filigrana è un'immagine di sfondo che viene visualizzata dietro il testo di un documento. Una filigrana può contenere un testo o un'immagine rappresentata dalla classe [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/).
 
 {{% alert color="primary" %}}
 
 **Prova online**
 
-Puoi provare questa funzionalità con la nostra [Documento online gratuito watermark](https://products.aspose.app/words/watermark).
+Puoi provare questa funzionalità con il nostro [Filigrana di documenti online gratuita](https://products.aspose.app/words/watermark).
 
 {{% /alert %}}
 
-## Aggiungi una filigrana a un documento
+## Aggiungere una filigrana a un documento
 
-In Microsoft Word, una filigrana può essere facilmente inserita in un documento utilizzando il comando Inserisci filigrana. Aspose.Words fornisce [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) classe per aggiungere o rimuovere filigrana in documenti. Aspose.Words fornisce [Osservazioni](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)enumerazione che definisce tre possibili tipi di filigrane (Testo, Immagine e Nessuno) per lavorare con
+In Microsoft Word, una filigrana può essere facilmente inserita in un documento utilizzando il comando Inserisci filigrana. Aspose.Words fornisce la classe [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) per aggiungere o rimuovere la filigrana nei documenti. Aspose.Words fornisce l'enumerazione [WatermarkType](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/) che definisce tre possibili tipi di filigrane (Testo, Immagine e Nessuna) con cui lavorare.
 
-### Aggiungi testo Watermark
+### Aggiungi filigrana di testo
 
-L'esempio seguente del codice dimostra come inserire una filigrana di testo in un documento definendo [TextWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/textwatermarkoptions/) usando [SetText](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setText-java.lang.String) metodo:
+Nell'esempio di codice seguente viene illustrato come inserire una filigrana di testo in un documento definendo [TextWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/textwatermarkoptions/) utilizzando il metodo [SetText](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setText-java.lang.String):
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddTextWatermarkWithSpecificOptions.java" >}}
 
-### Aggiungi immagine Watermark
+### Aggiungi Filigrana immagine
 
-Il seguente esempio di codice dimostra come inserire un'immagine filigrana in un documento definendo [ImageWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/imagewatermarkoptions/) usando [SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.awt.image.BufferedImage) metodo:
+Nell'esempio di codice seguente viene illustrato come inserire una filigrana di immagine in un documento definendo [ImageWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/imagewatermarkoptions/) utilizzando il metodo [SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.awt.image.BufferedImage):
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.java" >}}
 
-La filigrana può anche essere inserita con classe di forma pure. È molto facile inserire qualsiasi forma o immagine in un'intestazione o piè di pagina e quindi creare una filigrana di qualsiasi tipo immaginabile.
+La filigrana può anche essere inserita usando la classe shape. È molto facile inserire qualsiasi forma o immagine in un'intestazione o piè di pagina e quindi creare una filigrana di qualsiasi tipo immaginabile.
 
-Il seguente esempio di codice inserisce una filigrana in un documento di Word:
+L'esempio di codice seguente inserisce una filigrana in un documento di Word:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-AddWatermarkToADocument-AddWatermarkToADocument.java" >}}
 
 {{% alert color="primary" %}}
 
-È possibile scaricare il file campione di questo esempio da [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
+È possibile scaricare il file di esempio di questo esempio da [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
 
 {{% /alert %}}
 
 
 ## Rimuovere la filigrana da un documento
 
-The [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) la classe fornisce `Remove` metodo per rimuovere la filigrana da un documento.
+La classe [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) fornisce il metodo `Remove` per rimuovere la filigrana da un documento.
 
-I seguenti esempi di codice mostrano come rimuovere una filigrana dai documenti:
+Gli esempi di codice seguenti mostrano come rimuovere una filigrana dai documenti:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-RemoveWatermarkFromDocument.java" >}}
 
-Per rimuovere la filigrana da un documento è necessario impostare solo il nome della forma del watermark durante l'inserimento e quindi rimuovere la forma del watermark da un nome assegnato.
+Per rimuovere la filigrana da un documento è necessario impostare solo il nome della forma filigrana durante l'inserimento e quindi rimuovere la forma filigrana con un nome assegnato.
 
-Il seguente esempio di codice mostra come impostare il nome della forma del watermark e rimuoverlo dal documento:
+L'esempio di codice seguente mostra come impostare il nome della forma della filigrana e rimuoverla dal documento:
 
 {{< highlight csharp >}}
 
@@ -68,9 +69,9 @@ watermark.Name("WaterMark");
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-RemoveWatermark-RemoveWatermark.java" >}}
 
-## Aggiungere una filigrana in una cella da tavolo
+## Aggiungere una filigrana in una cella di tabella
 
-A volte è necessario inserire una filigrana/immagine nella cella di una tabella e visualizzarla fuori dalla tabella, è possibile utilizzare [IsLayoutInCell](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#isLayoutInCell-boolean) proprieta'. Questa proprietà ottiene o imposta una bandiera che indica se la forma viene visualizzata all'interno di un tavolo o all'esterno di esso. Si noti che questa proprietà funziona solo quando si ottimizza il documento per Microsoft Word 2010 utilizzando [OptimizeFor](https://reference.aspose.com/words/java/com.aspose.words/compatibilityoptions/#optimizeFor-int) metodo
+A volte è necessario inserire una filigrana/immagine nella cella di una tabella e visualizzarla all'esterno della tabella, è possibile utilizzare la proprietà [IsLayoutInCell](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#isLayoutInCell-boolean). Questa proprietà ottiene o imposta un flag che indica se la forma viene visualizzata all'interno di una tabella o all'esterno di essa. Si noti che questa proprietà funziona solo quando si ottimizza il documento per Microsoft Word 2010 utilizzando il metodo [OptimizeFor](https://reference.aspose.com/words/java/com.aspose.words/compatibilityoptions/#optimizeFor-int).
 
 Il seguente esempio di codice mostra come utilizzare questa proprietà:
 

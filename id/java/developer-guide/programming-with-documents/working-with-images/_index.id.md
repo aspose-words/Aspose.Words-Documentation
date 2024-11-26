@@ -7,6 +7,7 @@ type: docs
 description: "Bentuk gambar dalam detail dan fitur canggih yang disediakan oleh Aspose.Words Sitemap JavaSitemap"
 weight: 300
 url: /id/java/working-with-images/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words memungkinkan pengguna untuk bekerja dengan gambar dengan cara yang sangat fleksibel. Dalam artikel ini, Anda dapat menjelajahi hanya beberapa kemungkinan bekerja dengan gambar.

@@ -7,6 +7,7 @@ description: "Installing and Using Aspose.Words Java for Eclipse."
 type: docs
 weight: 10
 url: /java/installing-and-using-aspose-words-java-for-eclipse-maven/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Installing

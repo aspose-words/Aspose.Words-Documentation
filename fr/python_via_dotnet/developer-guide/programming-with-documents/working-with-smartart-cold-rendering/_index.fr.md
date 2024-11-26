@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words pour Python via .NET effectue le rendu à froid SmartArt, ce qui signifie qu'il présente et restitue les objets SmartArt si le dessin SmartArt pré-rendu est manquant ou incorrect."
 weight: 330
 url: /fr/python-net/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Les graphiques SmartArt sont utilisés pour créer rapidement et facilement une représentation visuelle des informations. Vous choisissez simplement parmi un grand nombre d’agencements celui qui convient le mieux à votre situation. Cette facilité d'utilisation rend les graphiques SmartArt très populaires à certaines fins.

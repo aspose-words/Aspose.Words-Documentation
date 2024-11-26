@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit OLE Objekten in C++
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit OLE-Objekten
@@ -7,6 +7,7 @@ description: "Erstellen und ändern Sie die OLE -Einbettung in Ihr Dokument mit 
 type: docs
 weight: 360
 url: /de/cpp/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE (Objektverknüpfung und -einbettung) ist eine Technologie, mit der Benutzer mit Dokumenten arbeiten können, die "Objekte" enthalten, die von Anwendungen von Drittanbietern erstellt oder bearbeitet wurden. Das heißt, OLE ermöglicht einer Bearbeitungsanwendung, diese "Objekte" in eine andere Bearbeitungsanwendung zu exportieren und sie dann mit zusätzlichem Inhalt zu importieren.

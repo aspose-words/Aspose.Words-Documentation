@@ -7,6 +7,7 @@ description: "Naučte se přizpůsobit vlastnosti pole v Python. Přejmenovat po
 type: docs
 weight: 27
 url: /cs/python-net/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words poskytuje schopnost programově komunikovat s různými vlastnostmi pole. V tomto článku se podíváme na několik příkladů, abyste pochopili základní princip práce s vlastnostmi terénu. Úplný seznam vlastností pro každý typ pole můžete vidět v odpovídající třídě v [Modul polí](https://reference.aspose.com/words/python-net/aspose.words.fields/).

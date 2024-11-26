@@ -1,4 +1,4 @@
-﻿---
+---
 title: การทำงานกับมาโครVBAในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: การทำงานกับมาโครVBA
@@ -7,6 +7,7 @@ description: "การทำงานกับเอกสารVBAโครง
 type: docs
 weight: 410
 url: /th/cpp/working-with-vba-macros/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Visual Basicสำหรับการใช้งาน(VBA)สำหรับMicrosoft Wordเป็นภาษาการเขียนโปรแกรมที่เรียบง่ายแต่มีประสิทธิภาพที่ส Aspose.WordsAPIให้สามชั้นเรียนที่จะได้รับการเข้าถึงVBAรหัสแหล่งที่มาของโครงการ:

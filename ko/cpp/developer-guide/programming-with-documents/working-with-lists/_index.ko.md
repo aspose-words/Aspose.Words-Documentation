@@ -1,4 +1,4 @@
-﻿---
+---
 title: 목록 작업 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 목록 작업
@@ -7,6 +7,7 @@ description: "번호 매기기 서식 지정 기능 소개 Aspose.Words 에 대�
 type: docs
 weight: 200
 url: /ko/cpp/working-with-lists/
+timestamp: 2024-01-30-16-22-34
 ---
 
 목록 Microsoft Word 문서 목록 서식 속성 집합입니다. 문서에서 목록을 사용하여 텍스트의 서식을 지정,정렬 및 강조 할 수 있습니다. 목록은 문서에서 데이터를 구성하는 좋은 방법이며 독자가 핵심 사항을 더 쉽게 이해할 수 있도록 합니다.

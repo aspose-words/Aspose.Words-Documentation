@@ -7,6 +7,7 @@ description: "Aspose.Words สำหรับ Python ช่วยให้สา
 type: docs
 weight: 10
 url: /th/python-net/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 คุณสมบัติเอกสารช่วยให้สามารถจัดเก็บข้อมูลที่เป็นประโยชน์เกี่ยวกับเอกสารของคุณได้ คุณสมบัติเหล่านี้สามารถแบ่งออกเป็นสองกลุ่ม:

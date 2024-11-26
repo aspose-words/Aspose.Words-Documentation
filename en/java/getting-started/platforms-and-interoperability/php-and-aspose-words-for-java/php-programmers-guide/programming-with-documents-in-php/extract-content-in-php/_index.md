@@ -1,4 +1,4 @@
-﻿---
+---
 title: Extract Content in PHP
 second_title: Aspose.Words for Java
 articleTitle: Extract Content in PHP
@@ -7,6 +7,7 @@ description: "Extract Content from Document using PHP."
 type: docs
 weight: 30
 url: /java/extract-content-in-php/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Aspose.Words - Extract Content

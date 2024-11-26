@@ -1,4 +1,4 @@
-﻿---
+---
 title: نمای کلی جدول
 second_title: Aspose.Words برای C++
 articleTitle: نمای کلی جدول
@@ -7,6 +7,7 @@ description: "با جداول و اجزای آنها مانند سلول ها، 
 type: docs
 weight: 10
 url: /fa/cpp/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words یک کتابخانه کلاس است که برای پردازش اسناد در سمت سرور در فرمت های مختلف طراحی شده است-PDF، HTML، فرمت های مختلف Microsoft Word و دیگران-و از جداول به روش های زیر پشتیبانی می کند:

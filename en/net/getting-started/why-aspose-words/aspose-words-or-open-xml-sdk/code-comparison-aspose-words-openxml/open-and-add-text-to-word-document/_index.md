@@ -7,6 +7,7 @@ description: "Open and modify an existing Word document easily and fast instead 
 type: docs
 weight: 40
 url: /net/open-and-add-text-to-word-document/
+timestamp: 2024-01-30-16-22-34
 ---
 
 On this page we will look at how to open an existing document and add text into it using Aspose.Words or Open XML SDK.

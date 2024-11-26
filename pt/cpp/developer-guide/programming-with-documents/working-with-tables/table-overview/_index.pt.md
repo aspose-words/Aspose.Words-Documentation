@@ -1,4 +1,4 @@
-﻿---
+---
 title: Visão Geral Da Tabela
 second_title: Aspose.Words para C++
 articleTitle: Visão Geral Da Tabela
@@ -7,6 +7,7 @@ description: "Trabalhar com tabelas e seus componentes, como células, linhas, c
 type: docs
 weight: 10
 url: /pt/cpp/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words é uma biblioteca de classes concebida para o processamento do lado do servidor de documentos em vários formatos - PDF, HTML, diferentes Microsoft Word formatos e outros-e suporta tabelas das seguintes formas:

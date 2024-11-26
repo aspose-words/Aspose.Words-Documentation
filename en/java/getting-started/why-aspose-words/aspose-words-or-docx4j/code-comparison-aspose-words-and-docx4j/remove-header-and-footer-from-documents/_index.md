@@ -1,4 +1,4 @@
-﻿---
+---
 title: Remove Header and Footer from Documents
 second_title: Aspose.Words for Java
 articleTitle: Remove Header and Footer from Documents
@@ -7,6 +7,7 @@ description: "Remove headers or footers in a document easily and fast instead of
 type: docs
 weight: 30
 url: /java/remove-header-and-footer-from-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Aspose.Words - Remove Header Footer from Documents

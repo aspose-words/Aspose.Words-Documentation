@@ -7,6 +7,7 @@ description: "Convierta un documento a TIFF de varias páginas usando Python. Pa
 type: docs
 weight: 30
 url: /es/python-net/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Cuando trabaja con documentos, a menudo necesita convertir su documento en un archivo de imagen rasterizada. Esto es especialmente relevante si tiene que presentar su documento en un formato legible e imprimible, pero no editable. Por ejemplo, puede utilizar una imagen rasterizada de la primera página de su documento como vista previa. Este artículo describe cómo convertir un documento a una imagen rasterizada utilizando el ejemplo del formato TIFF, uno de los formatos de imagen más populares.

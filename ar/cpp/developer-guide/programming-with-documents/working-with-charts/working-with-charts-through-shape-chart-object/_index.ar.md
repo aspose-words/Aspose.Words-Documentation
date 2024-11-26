@@ -1,12 +1,13 @@
-﻿---
-title: العمل مع المخططات من خلال `Shape.Chart` كائن
+---
+title: العمل مع المخططات من خلال Shape.Chart كائن
 second_title: Aspose.Words ل C++
-articleTitle: العمل مع المخططات من خلال `Shape.Chart` كائن
-linktitle: العمل مع المخططات من خلال `Shape.Chart` كائن
+articleTitle: العمل مع المخططات من خلال Shape.Chart كائن
+linktitle: العمل مع المخططات من خلال Shape.Chart كائن
 description: "الرسوم البيانية في التفاصيل، كيف يرتبط الرسم البياني مع عقدة الشكل في Aspose.Words ل C++."
 type: docs
 weight: 10
 url: /ar/cpp/working-with-charts-through-shape-chart-object/
+timestamp: 2024-01-27-14-07-04
 ---
 
 مرة واحدة تم إدراج الرسم البياني ومليئة البيانات، كنت قادرا على تغيير مظهره. `Shape.Chart` تحتوي الخاصية على جميع الخيارات المتعلقة بالمخطط المتاحة من خلال الجمهور API.

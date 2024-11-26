@@ -7,6 +7,7 @@ description: "가장 널리 사용되는 형식으로 문서를 저장하고 C#�
 type: docs
 weight: 30
 url: /ko/net/supported-features-on-document-save/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words를 사용하면 사용자는 다양한 형식의 문서로 작업할 수 있으며 이를 위한 다양한 기능을 제공합니다. 예를 들어 사용자는 문서를 처음부터 만들거나 로드하고 일부 변경한 다음 해당 변경 사항을 [지원되는 문서 형식](/words/ko/net/supported-document-formats/)의 출력 파일에 저장할 수 있습니다. 선택한 형식으로 문서를 저장하는 동안 사용자는 다양한 저장 옵션을 적용할 수 있습니다.

@@ -1,39 +1,40 @@
----
-title: Trabalhar com Markdown Características em Java
+﻿---
+title: Trabalhando com Markdown recursos em Java
 second_title: Aspose.Words para Java
-articleTitle: Trabalhar com Markdown Características
-linktitle: Trabalhar com Markdown Características
-description: "Como implementar Markdown recursos usando Java. Todas as características são representadas como estilos correspondentes ou formatação direta."
+articleTitle: Trabalhando com Markdown recursos
+linktitle: Trabalhando com Markdown recursos
+description: "Como implementar Markdown recursos usando Java. Todos os recursos são representados como estilos correspondentes ou formatação direta."
 type: docs
 weight: 420
 url: /pt/java/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
-Este tópico discute como implementar Markdown recursos usando Aspose.Words. Markdown é uma maneira simples de formatar texto simples que pode ser facilmente convertido em HTML. Aspose.Words suporta o seguinte Markdown características:
+Este tópico discute como implementar Markdown recursos usando Aspose.Words. Markdown é uma forma simples de formatar texto sem formatação que pode ser facilmente convertido para HTML. Aspose.Words suporta os seguintes recursos Markdown:
 
-- Categoria
+- Posições
 - Blockquotes
 - Regras horizontais
-- ênfase negrito
-- ênfase itálica
+- Ênfase ousada
+- Ênfase em itálico
 
-O Markdown implementação de recursos principalmente segue a `CommonMark` especificação em Aspose.Words API e todas as características são representadas como estilos correspondentes ou formatação direta. O que significa que
+A implementação do recurso Markdown segue principalmente a especificação `CommonMark` em Aspose.Words API e todos os recursos são representados como estilos correspondentes ou formatação direta. O que significa que
 
-- Bold e Itálico são representados como `Font.Bold` e `Font.Italic`
-- Categoria são parágrafos com cabeçalho 1 - cabeçalho 6 estilos
-- As citações são parágrafos com "Quote" no nome de estilo
-- HorizontalRule é um parágrafo com um `HorizontalRule` forma.
+- Negrito e itálico são representados como `Font.Bold` e `Font.Italic`.
+- Os títulos são parágrafos com estilos Heading 1 - Heading 6.
+- Aspas são parágrafos com "aspas" no nome do estilo.
+- HorizontalRule é um parágrafo com uma forma `HorizontalRule`.
 
 {{% alert color="primary" %}}
 
-Há nuances de tradução Markdown ao Aspose.Words Document Object Model (DOM), descrito no artigo [Traduzir comentário Markdown para Document Object Model (DOM)](/words/pt/java/translate-markdown-to-document-object-model/).
+Existem nuances de traduzir Markdown para o modelo de objeto de Documento Aspose.Words (DOM), descrito no artigo [Traduzir Markdown para Document Object Model (DOM)](/words/java/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 
 
-## Markdown Documento com ênfases
+## Markdown documento com ênfase
 
-Esta seção mostra como produzir uma markdown documento com ênfases como indicado abaixo:
+Esta secção demonstra - lhe como produzir um documento markdown com ênfases conforme indicado abaixo:
 
 {{< highlight csharp >}}
 Markdown treats asterisks (*) and underscores (_) as indicators of emphasis.
@@ -41,14 +42,14 @@ You can write **bold** or *italic* text.
 You can also write ***BoldItalic***text.
 {{< /highlight >}}
 
-O seguinte snippet de código pode ser usado para produzir o markdown documento.
+O trecho de código a seguir pode ser usado para produzir o documento markdown fornecido acima.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-MarkdownDocumentWithEmphases.java" >}}
 
 
-## Markdown Documento com Categoria
+## Markdown documento com rubricas
 
-Esta seção mostra como produzir uma markdown documento com cabeçalhos como indicado abaixo:
+Esta secção demonstra - lhe como produzir um documento markdown com os títulos indicados abaixo:
 
 {{< highlight csharp >}}
 The following produces headings:
@@ -61,13 +62,13 @@ The following produces headings:
 # **Bold Heading1**
 {{< /highlight >}}
 
-O seguinte snippet de código pode ser usado para produzir o acima dado markdown documento.
+O trecho de código a seguir pode ser usado para produzir o documento markdown fornecido acima.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-MarkdownDocumentWithHeadings.java" >}}
 
-## Markdown Documento com citações de bloco
+## Markdown documento com aspas em bloco
 
-Esta seção mostra como produzir uma markdown documento com citações de bloco como dado abaixo:
+Esta secção demonstra - lhe como produzir um documento markdown com aspas em bloco, conforme indicado abaixo:
 
 {{< highlight csharp >}}
 We support blockquotes in Markdown:
@@ -82,13 +83,13 @@ We support blockquotes in Markdown:
 >### Headings are allowed inside Quotes
 >{{< /highlight >}}
 
-O seguinte snippet de código pode ser usado para produzir o acima dado markdown documento.
+O trecho de código a seguir pode ser usado para produzir o documento markdown fornecido acima.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-MarkdownDocumentWithBlockQuotes.java" >}}
 
-## Markdown Documento com Regra Horizontal
+## Markdown documento com Regra Horizontal
 
-Esta seção mostra como produzir uma markdown documento com Horizontal Regra como indicado abaixo:
+Esta secção demonstra - lhe como produzir um documento markdown com uma regra Horizontal, conforme indicado abaixo:
 
 {{< highlight csharp >}}
 We support Horizontal rules (Thematic breaks) in Markdown:
@@ -96,26 +97,26 @@ We support Horizontal rules (Thematic breaks) in Markdown:
 
 {{< /highlight >}}
 
-O seguinte snippet de código pode ser usado para produzir o markdown documento.
+O trecho de código a seguir pode ser usado para produzir o documento markdown fornecido acima.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-MarkdownDocumentWithHorizontalRule.java" >}}
 
-## Ler um Markdown Documento
+## Leitura de um documento Markdown
 
-O seguinte snippet de código mostra como ler um markdown documento.
+O snippet de código a seguir mostra como ler um documento markdown.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-ReadMarkdownDocument.java" >}}
 
-## Especificar Markdown Salvar opções
+## Especificar Markdown Opções De Gravação
 
-Aspose.Words API fornece [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) classe para especificar opções adicionais ao salvar um documento no Markdown formato.
+Aspose.Words API fornece a classe [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) para especificar opções adicionais ao salvar um documento no formato Markdown.
 
-O seguinte exemplo de código demonstrou como especificar vários Markdown salvar opções.
+O exemplo de código a seguir demonstrou como especificar várias opções de salvamento Markdown.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-SaveAsMD.java" >}}
 
-## Como Alinhar conteúdo dentro da tabela enquanto exporta para Markdown
+## Como alinhar o conteúdo dentro da tabela ao exportar para Markdown
 
-Aspose.Words API fornece [TableContentAlignment](https://reference.aspose.com/words/java/com.aspose.words/tablecontentalignment/) enumeração que define direções de alinhamento para alinhar conteúdo em tabelas ao exportar para o Markdown documento. O exemplo de código a seguir demonstra como alinhar conteúdo dentro da tabela.
+Aspose.Words API fornece [TableContentAlignment](https://reference.aspose.com/words/java/com.aspose.words/tablecontentalignment/) enumeração que define as direções de alinhamento para alinhar o conteúdo em tabelas durante a exportação para o documento Markdown. O exemplo de código a seguir demonstra como alinhar o conteúdo dentro da tabela.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-ExportIntoMarkdownWithTableContentAlignment.java" >}}

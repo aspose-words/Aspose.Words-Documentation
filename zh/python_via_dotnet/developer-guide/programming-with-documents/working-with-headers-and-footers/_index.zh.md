@@ -7,6 +7,7 @@ description: "使用 Python 创建、管理和删除文档中的页眉和页脚�
 type: docs
 weight: 150
 url: /zh/python-net/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 允许用户在文档中使用页眉和页脚。页眉是放置在页面顶部的文本，页脚是放置在页面底部的文本。通常，这些区域用于插入应在文档的所有页面或某些页面上重复的信息，例如页码、创建日期、公司信息等。

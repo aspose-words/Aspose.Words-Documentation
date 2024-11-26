@@ -7,6 +7,7 @@ description: "Sisipkan kolom ke dalam dokumen di Python dengan berbagai cara: me
 type: docs
 weight: 20
 url: /id/python-net/inserting-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Ada beberapa cara berbeda untuk menyisipkan kolom ke dalam dokumen:
@@ -85,7 +86,7 @@ Contoh kode berikut menunjukkan cara menambahkan Bidang `Merge` menggunakan DOM 
 
 ### Memasukkan bidang Mail Merge `ADDRESSBLOCK` ke dalam Dokumen menggunakan DOM
 
-Bidang `ADDRESSBLOCK` digunakan untuk memasukkan blok alamat mail merge ke dalam dokumen Word. Bidang `ADDRESSBLOCK` di dokumen Word dapat diwakili oleh kelas [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/). Anda dapat menggunakan kelas [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) untuk melakukan operasi berikut:
+Bidang `ADDRESSBLOCK` digunakan untuk memasukkan blok alamat Mail Merge ke dalam dokumen Word. Bidang `ADDRESSBLOCK` di dokumen Word dapat diwakili oleh kelas [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/). Anda dapat menggunakan kelas [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) untuk melakukan operasi berikut:
 
 - tentukan apakah akan mencantumkan nama negara/wilayah pada kolom tersebut
 - tentukan apakah akan memformat alamat sesuai dengan negara/wilayah penerima sebagaimana ditentukan oleh POST*CODE (Universal Postal Union 2006)

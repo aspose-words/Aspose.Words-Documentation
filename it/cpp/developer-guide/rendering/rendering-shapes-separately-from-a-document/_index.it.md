@@ -1,4 +1,4 @@
-﻿---
+---
 title: Rendering di forme separatamente da un documento
 second_title: Aspose.Words per C++
 articleTitle: Rendering di forme separatamente da un documento
@@ -7,6 +7,7 @@ description: "Estrarre vari oggetti grafici, ad esempio immagini, caselle di tes
 type: docs
 weight: 40
 url: /it/cpp/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Durante l'elaborazione dei documenti, un'attività comune consiste nell'estrarre tutte le immagini presenti nel documento ed esportarle in una posizione esterna. Questa attività diventa semplice con l'API Aspose.Words, che fornisce già la funzionalità per l'estrazione e il salvataggio dei dati dell'immagine. Tuttavia, a volte è possibile estrarre in modo simile altri tipi di contenuto grafico rappresentati da un diverso tipo di oggetto di disegno, ad esempio una casella di testo contenente paragrafi, forme di freccia e una piccola immagine. Non esiste un modo semplice per rendere questo oggetto poiché è una combinazione di singoli elementi di contenuto. È anche possibile che si verifichi un caso in cui i contenuti sono stati raggruppati nell'oggetto che assomiglia a una singola immagine.

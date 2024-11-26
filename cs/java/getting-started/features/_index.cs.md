@@ -7,6 +7,7 @@ description: "Aspose.Words místo Java poskytuje uživatelům širokou škálu f
 type: docs
 weight: 40
 url: /cs/java/features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words poskytuje uživatelům širokou škálu funkcí. Uživatelé mohou provádět obrovské množství úkolů souvisejících s dokumentem od pouhé přeměny dokumentů z jednoho podporovaného formátu do druhého a úpravy těchto dokumentů během procesu přeměny na obchodní úkoly, jako je vytváření strukturovaných a vizuálně přitažlivých dokumentů nebo automatické podávání zpráv.
@@ -121,16 +122,16 @@ Můžete použít Aspose.Words jako vlastní reportingové řešení. Navrhněte
 
 |  Funkce |
 |  :-  |
-| Použít všechny normy Microsoft Word mail merge pole ve vašich zprávách včetně `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, Greetingline. |
-| Provést mail merge pro dokumenty, které obsahují i nejsložitější a hnízdit `IF` Pole a vzorce. |
-| Populovat a dynamicky růst tabulky nebo fragmenty v dokumentu ze zdroje dat pomocí mail merge regiony. |
+| Použít všechny normy Microsoft Word Mail Merge pole ve vašich zprávách včetně `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, Greetingline. |
+| Provést Mail Merge pro dokumenty, které obsahují i nejsložitější a hnízdit `IF` Pole a vzorce. |
+| Populovat a dynamicky růst tabulky nebo fragmenty v dokumentu ze zdroje dat pomocí Mail Merge regiony. |
 | Snadno generovat zprávy, které obsahují údaje o "master-detail" (rodič-dítě) jako například Order/OrderDetails. |
 | Populovat dokumenty s daty z jakéhokoliv Java zdroj údajů, který provádí `ResultSet` rozhraní. |
 | Populovat dokumenty z jakéhokoli zdroje dat, jako je XML soubor nebo obchodní objekty zavedením **IMailMergeDataSource** rozhraní. |
 | Převezměte přesnou kontrolu, jako je formátování čísel, nad tím, jak jsou vaše data sloučena pomocí událostí. |
 | Vložit obrázky během mail merge. |
-| Programově vytvořit nebo upravit a Microsoft Word mail merge zdroj dat pro dokument. Zachovat mail merge nastavení a zdroje dat. |
-| Návrat mail merge jména polí. |
+| Programově vytvořit nebo upravit a Microsoft Word Mail Merge zdroj dat pro dokument. Zachovat Mail Merge nastavení a zdroje dat. |
+| Návrat Mail Merge jména polí. |
 
 ## Funkce hlášení
 

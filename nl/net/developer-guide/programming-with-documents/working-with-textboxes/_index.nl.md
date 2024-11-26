@@ -7,6 +7,7 @@ description: "Inleiding tot gekoppelde tekstvakken in Aspose.Words voor .NET."
 type: docs
 weight: 250
 url: /nl/net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In Aspose.Words, de [TextBox](https://reference.aspose.com/words/net/aspose.words.drawing/textbox/) klasse wordt gebruikt om aan te geven hoe tekst in een vorm wordt weergegeven. Het onthult een openbaar eigendom genaamd **Parent** om de oudervorm voor het tekstvak te krijgen zodat de klant de gekoppelde [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) van de geassocieerde **TextBox**.

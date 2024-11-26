@@ -7,6 +7,7 @@ description: "Erstellen und verwalten Sie Wasserzeichen in einem Dokument mit Py
 type: docs
 weight: 340
 url: /de/python-net/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In diesem Thema wird erläutert, wie Sie mithilfe von Aspose.Words programmgesteuert mit Wasserzeichen arbeiten. Ein Wasserzeichen ist ein Hintergrundbild, das hinter dem Text in einem Dokument angezeigt wird. Ein Wasserzeichen kann einen Text oder ein Bild enthalten, das durch die [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/)-Klasse dargestellt wird.

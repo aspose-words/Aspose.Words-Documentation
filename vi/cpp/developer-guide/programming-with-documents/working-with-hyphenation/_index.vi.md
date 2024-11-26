@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm Việc Với Dấu Gạch Nối trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm việc Với Gạch Nối
@@ -7,6 +7,7 @@ description: "Sử dụng dấu gạch nối để sắp xếp văn bản nhỏ 
 type: docs
 weight: 220
 url: /vi/cpp/working-with-hyphenation/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Đôi khi cần phải sử dụng dấu gạch nối để sắp xếp văn bản nhỏ gọn hơn trong tài liệu. Đồng thời, điều quan trọng là phải hiểu rằng các chi tiết cụ thể của gạch nối từ có thể khác nhau đối với mỗi ngôn ngữ.

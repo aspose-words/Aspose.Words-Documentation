@@ -7,6 +7,7 @@ type: docs
 description: "ドキュメントを画像形式 (JPG、PNG など) に変換します。 Python を使用して請求書を送信するには、ドキュメント プレビューを作成するか、ドキュメント スキャンを作成します。"
 weight: 43
 url: /ja/python-net/convert-a-document-to-an-image/
+timestamp: 2024-01-27-14-07-04
 ---
 
 場合によっては、DOCX や PDF などの他の形式のドキュメントの代わりに画像を取得する必要があります。たとえば、ドキュメント ページのプレビューを Web サイトやアプリケーションに追加したり、請求書を送信するためにドキュメントの「スキャン」を作成したりする必要があります。この場合、[サポートされているロード形式](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) のドキュメントを [サポートされている保存形式](https://reference.aspose.com/words/python-net/aspose.words/saveformat/) の画像に変換する必要がある場合があります。

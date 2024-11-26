@@ -7,6 +7,7 @@ description: "Aspose.Words (单位:千美元) Java 在文档中添加用于创�
 type: docs
 weight: 70
 url: /zh/java/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 您很容易知道文档是否通过使用 Aspose.Words (单位:千美元) Java。 。 。 。 您也可以找到 Aspose.Words (单位:千美元) Java 用于创建特定输出文档。 Aspose.Words 直接将这些信息写入生成的文档。

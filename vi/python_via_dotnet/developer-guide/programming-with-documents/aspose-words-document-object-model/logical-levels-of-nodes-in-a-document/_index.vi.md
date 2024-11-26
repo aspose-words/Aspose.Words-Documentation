@@ -7,6 +7,7 @@ type: docs
 description: "Trong tài liệu Aspose.Words dành cho Python via .NET đã đề cập đến các mức logic của nút – cấp khối, cấp nội tuyến hoặc cấp hàng. Cấp độ nút được sử dụng để mô tả vị trí trong cây tài liệu nơi nút thường xuất hiện."
 weight: 10
 url: /vi/python-net/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tài liệu này đôi khi đề cập đến một nhóm các lớp nút thuộc về một "cấp" trong tài liệu, chẳng hạn như các nút "cấp khối", "cấp nội tuyến" (còn được gọi là nút "nội tuyến") hoặc nút "cấp hàng".. Các cấp độ này trong tài liệu được phân biệt hoàn toàn về mặt logic và không được thể hiện rõ ràng bằng tính kế thừa hoặc các phương tiện Aspose.Words DOM khác. Cấp độ nút được sử dụng để mô tả vị trí trong cây tài liệu nơi nút thường xuất hiện.

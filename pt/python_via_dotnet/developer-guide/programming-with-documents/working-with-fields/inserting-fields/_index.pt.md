@@ -7,6 +7,7 @@ description: "Insira campos em um documento Python de diferentes maneiras: usand
 type: docs
 weight: 20
 url: /pt/python-net/inserting-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Existem várias maneiras diferentes de inserir campos em um documento:
@@ -85,7 +86,7 @@ O exemplo de código a seguir mostra como adicionar um campo `Merge` usando DOM 
 
 ### Inserindo campo Mail Merge `ADDRESSBLOCK` em um documento usando DOM
 
-O campo `ADDRESSBLOCK` é usado para inserir um bloco de endereço mail merge em um documento Word. O campo `ADDRESSBLOCK` em um documento Word pode ser representado pela classe [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/). Você pode usar a classe [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) para realizar as seguintes operações:
+O campo `ADDRESSBLOCK` é usado para inserir um bloco de endereço Mail Merge em um documento Word. O campo `ADDRESSBLOCK` em um documento Word pode ser representado pela classe [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/). Você pode usar a classe [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) para realizar as seguintes operações:
 
 - especifique se deseja incluir o nome do país/região no campo
 - especifique se deseja formatar o endereço de acordo com o país/região do destinatário conforme definido por POST*CODE (União Postal Universal 2006)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Обзор конструктора документов на C++
 second_title: Aspose.Words для C++
 articleTitle: Обзор конструктора документов
@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilder позволяет создавать динамические документы с нуля или добавлять новые элементы к существующим с помощью C++. DocumentBuilder предоставляет методы для вставки текста, флажков, таблиц, изображений и других элементов содержимого на C++."
 weight: 30
 url: /ru/cpp/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/) - это мощный класс, который ассоциируется с [Document](https://reference.aspose.com/words/cpp/aspose.words/document/) и позволяет создавать динамические документы с нуля или добавлять новые элементы к существующим.

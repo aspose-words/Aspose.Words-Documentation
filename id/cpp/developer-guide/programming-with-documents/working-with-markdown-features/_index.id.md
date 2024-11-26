@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Fitur Markdown di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Fitur Markdown
@@ -7,6 +7,7 @@ description: "Cara mengimplementasikan fitur Markdown menggunakan C++. Semua fit
 type: docs
 weight: 420
 url: /id/cpp/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Topik ini membahas cara mengimplementasikan fitur Markdown menggunakan Aspose.Words. Markdown adalah cara sederhana untuk memformat teks biasa yang dapat dengan mudah dikonversi menjadi HTML. Aspose.Words mendukung fitur Markdown berikut:

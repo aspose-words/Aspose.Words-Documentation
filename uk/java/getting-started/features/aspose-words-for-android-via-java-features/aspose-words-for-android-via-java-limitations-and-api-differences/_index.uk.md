@@ -7,6 +7,7 @@ description: "Aspose.Words для Android Зареєструватися Java о
 type: docs
 weight: 50
 url: /uk/java/aspose-words-for-android-via-java-limitations-and-api-differences/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Обмеження Aspose.Words для Android Зареєструватися Java API до Aspose.Words для Java API

@@ -7,6 +7,7 @@ description: "Aspose.Words עבור Python via .NET מספק תוכניות שו
 type: docs
 weight: 40
 url: /he/python-net/licensing/
+timestamp: 2024-01-31-14-23-37
 ---
 
 לפעמים, כדי ללמוד את המערכת בצורה טובה יותר, אתה רוצה לצלול לתוך הקוד מהר ככל האפשר. כדי להקל על זה, Aspose.Words מספק תוכניות שונות לרכישת או מציע משפט חינם ורישיון זמני של 30 יום להערכה.

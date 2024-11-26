@@ -7,6 +7,7 @@ description: "Carica il tuo documento in qualsiasi formato supportato utilizzand
 type: docs
 weight: 20
 url: /it/python-net/supported-features-on-document-load/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words si impegna a supportare tutte le funzionalità per tutti i formati supportati. Quasi tutte le funzionalità dei documenti Microsoft Word sono supportate e vengono conservate fedelmente durante la conversione. Utilizzando Aspose.Words puoi caricare e convertire un documento di qualsiasi dimensione e gestire facilmente la conversione di un documento composto da migliaia di pagine in pochi secondi. L'unica limitazione è la quantità di memoria di lavoro disponibile sulla macchina.

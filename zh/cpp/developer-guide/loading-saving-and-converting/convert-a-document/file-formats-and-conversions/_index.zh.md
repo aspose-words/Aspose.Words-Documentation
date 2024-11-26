@@ -1,4 +1,4 @@
-﻿---
+---
 title: 文件格式和转换
 second_title: Aspose.Words对于C++
 articleTitle: 为什么转换是Aspose.Words的旗舰功能？
@@ -7,6 +7,7 @@ description: "只需两行C++代码即可从任何支持的负载转换文档以
 type: docs
 weight: 50
 url: /zh/cpp/file-formats-and-conversions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 {{% alert color="primary" %}}

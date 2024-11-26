@@ -7,6 +7,7 @@ description: "Travaillez avec des tableaux et leurs composants tels que des cell
 type: docs
 weight: 10
 url: /fr/net/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words est une bibliothèque de classes conçue pour le traitement côté serveur de documents dans différents formats – PDF, HTML, différents formats Microsoft Word et autres – et prend en charge les tableaux des manières suivantes:

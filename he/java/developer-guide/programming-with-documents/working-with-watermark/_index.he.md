@@ -7,6 +7,7 @@ type: docs
 description: "מניפולציות סימן מים באמצעות Java."
 weight: 70
 url: /he/java/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 נושא זה דן כיצד לעבוד באופן יזום עם סימן מים באמצעות סימן מים Aspose.Words. סימן מים הוא תמונת רקע המציגה מאחורי הטקסט במסמך. סימן מים יכול להכיל טקסט או תמונה המיוצגת על ידי [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) מעמד.

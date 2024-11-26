@@ -1,36 +1,37 @@
----
-title: アジア タイポグラフィ Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: アジアのタイポグラフィで働く
-linktitle: アジアのタイポグラフィで働く
-description: "アジアのタイポグラフィで働く Javaお問い合わせ アジアとラテンのテキスト間のスペースを調整する Javaお問い合わせ"
+﻿---
+title: アジアのタイポグラフィJava
+second_title: Aspose.WordsのためのJava
+articleTitle: アジアのタイポグラフィを扱う
+linktitle: アジアのタイポグラフィを扱う
+description: "Javaを使用してアジアのタイポグラフィを操作します。 Javaでアジア語とラテン語のテキストの間のスペースを調整します。"
 type: docs
 weight: 240
 url: /ja/java/working-with-asian-typography/
+timestamp: 2024-01-27-14-07-04
 ---
 
-アジアのタイポグラフィは、アジアの言語で書かれた文書のテキスト段落のためのオプションのセットです。
+アジアのタイポグラフィは、アジアの言語で書かれた文書のテキスト段落のオプションのセットです。
 
-Aspose.Words アジアタイポグラフィをサポート [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat/) クラスとそのプロパティの一部。
+Aspose.Wordsは、[ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat/)クラスとそのプロパティの一部を使用したアジアのタイポグラフィをサポートします。
 
-## アジアとラテンのテキストと数字のスペースを自動的に調整
+## アジア語とラテン語のテキストまたは数字の間のスペースを自動的に調整します
 
-イーストアジアとラテンのテキストの両方でテンプレートを設計し、両方のタイプのテキスト間のスペースを制御することによって、フォームテンプレートの外観を強化したい場合は、フォームテンプレートを構成して、これらの2つのタイプのテキスト間のスペースを自動的に調整できます。 これを実現するためには、 [AddSpaceBetweenFarEastAndAlpha](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#getAddSpaceBetweenFarEastAndAlpha) そして、 [AddSpaceBetweenFarEastAndDigit](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#getAddSpaceBetweenFarEastAndDigit) のプロパティ `ParagraphFormat` クラス。
+東アジア語とラテン語の両方のテキストを含むテンプレートを設計していて、両方のタイプのテキスト間のスペースを制御してフォームテンプレートの外観を向上させたい場合は、これらの2つのタイプのテキスト間のスペースを自動的に調整するようにフォームテンプレートを構成できます。 これを実現するには、`ParagraphFormat`クラスの[AddSpaceBetweenFarEastAndAlpha](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#getAddSpaceBetweenFarEastAndAlpha)プロパティと[AddSpaceBetweenFarEastAndDigit](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#getAddSpaceBetweenFarEastAndDigit)プロパティを使用できます。
 
-以下のコード例では、使い方を示します。 **AddSpaceBetweenFarEastAndAlpha** そして、 **AddSpaceBetweenFarEastAndDigit** プロパティ:
+次のコード例は、**AddSpaceBetweenFarEastAndAlpha**プロパティと**AddSpaceBetweenFarEastAndDigit**プロパティの使用方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderSetSpaceBetweenAsianAndLatinText.java" >}}
 
-## セットラインブレイクオプション
+## 改行オプションの設定
 
-段落のプロパティダイアログ ボックスのアジアのタイポグラフィタブ Microsoft Word ラインブレイクグループを持っています。 このグループのオプションは、 [FarEastLineBreakControl](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#getFarEastLineBreakControl), [WordWrap](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#getWordWrap), [HangingPunctuation](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#getHangingPunctuation) のプロパティ **ParagraphFormat** クラス。
+Microsoft Wordの段落プロパティダイアログボックスのアジアのタイポグラフィタブには改行グループがあります。 このグループのオプションは、以下を使用して設定できます。[FarEastLineBreakControl](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#getFarEastLineBreakControl), [WordWrap](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#getWordWrap), [HangingPunctuation](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#getHangingPunctuation) **ParagraphFormat**クラスのプロパティ。
 
-次のコードの例では、これらのプロパティを使用する方法を示します。
+次のコード例は、これらのプロパティを使用する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-SetAsianTypographyLinebreakGroupProp.java" >}}
 
-## アジアパラグラフのスパッシングとインデントの変更
+## アジアの段落の間隔とインデントを変更する
 
-次のコードの例では、アジアの段落間隔とインデントの変更方法を示します。
+次のコード例は、アジアの段落の間隔とインデントを変更する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-ChangeAsianParagraphSpacingandIndents.java" >}}

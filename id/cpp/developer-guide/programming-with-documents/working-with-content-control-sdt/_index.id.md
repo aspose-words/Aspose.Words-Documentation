@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Kontrol Konten SDT
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Kontrol Konten SDT
@@ -7,6 +7,7 @@ type: docs
 description: "Manajemen konten dokumen tingkat lanjut, cara membuat dan memanipulasi kontrol konten (Tag Dokumen Terstruktur) menggunakan C++."
 weight: 390
 url: /id/cpp/structured-document-tags-or-content-control/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Di Microsoft Word, Anda dapat membuat formulir dengan memulai dengan templat dan menambahkan kontrol konten, termasuk kotak centang, kotak teks, pemilih tanggal, dan daftar tarik-turun. Di Aspose.Words, Tag Dokumen Terstruktur atau kontrol konten dari dokumen apa pun yang dimuat ke Aspose.Words diimpor sebagai simpul StructuredDocumentTag. Tag dokumen terstruktur (SDT atau kontrol konten) memungkinkan untuk menyematkan semantik yang ditentukan pelanggan serta perilaku dan tampilannya ke dalam dokumen. StructuredDocumentTag dapat muncul dalam dokumen di tempat-tempat berikut:

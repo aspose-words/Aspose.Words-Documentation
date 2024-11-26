@@ -7,6 +7,7 @@ type: docs
 description: "Document Object Model (单位:千美元)DOM)是Word文档的内在代表. 使用 Java。 。 。 。"
 weight: 10
 url: /zh/java/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 那个 Aspose.Words Document Object Model (单位:千美元)DOM)是Word文档的内在代表. 那个 Aspose.Words DOM 允许您在程序上读取、操作和修改Word文档的内容和格式。
@@ -15,7 +16,7 @@ url: /zh/java/aspose-words-document-object-model/
 
 ## 创建文档 对象树 {#create-a-document-objects-tree}
 
-当文档读入 Aspose.Words <span notrans="<span notrans=" DOM"=""></span>",> 然后构建对象树,源文档的不同类型元素有自己的 DOM 具有各种属性的树形对象。
+当文档读入 Aspose.Words DOM 然后构建对象树,源文档的不同类型元素有自己的 DOM 具有各种属性的树形对象。
 
 ### 构建文档节点树 {#build-document-nodes-tree}
 

@@ -7,6 +7,7 @@ description: "ก่อนที่คุณจะเริ่มทำงาน
 type: docs
 weight: 50
 url: /th/python-net/system-requirements/
+timestamp: 2024-04-27-18-03-32
 ---
 
 Aspose.Words สำหรับ Python via .NET ไม่จำเป็นต้องติดตั้งผลิตภัณฑ์ของบุคคลที่สาม เช่น Microsoft Word Aspose.Words เองเป็นเครื่องมือสำหรับการสร้าง แก้ไข แปลง และเรนเดอร์เอกสารในรูปแบบต่างๆ รวมถึงรูปแบบเอกสาร Microsoft Word

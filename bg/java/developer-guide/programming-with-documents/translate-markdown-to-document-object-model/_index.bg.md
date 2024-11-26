@@ -7,6 +7,7 @@ type: docs
 description: "Тарнслат а Markdown документ към Document Object Model и обратно. Така че можете да работите със сложни съществуващи Markdown и programmically създаване на Markdown документ от нулата използване Java."
 weight: 20
 url: /bg/java/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 За да четете, манипулирате и променяте съдържанието и форматирането на документ, трябва да го преведете на Aspose.Words Document Object Model (DOM).
@@ -42,7 +43,7 @@ url: /bg/java/translate-markdown-to-document-object-model/
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}}  |  |
 
-Използваме стил на героя с име, което започва от думата <span notrans="<span notrans=" `InlineCode`"=""></span>,"> последвано от незадължителна точка `(.)` и редица подпори ```(`)``` за `InlineCode` функция. Ако се пропусне редица backticks, тогава един backtick ще се използва по подразбиране.
+Използваме стил на героя с име, което започва от думата `InlineCode` последвано от незадължителна точка `(.)` и редица подпори ```(`)``` за `InlineCode` функция. Ако се пропусне редица backticks, тогава един backtick ще се използва по подразбиране.
 
 |  Markdown функция |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
@@ -67,9 +68,9 @@ url: /bg/java/translate-markdown-to-document-object-model/
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br/>`-----` |  Това е прост параграф със съответстваща хоризонтална форма на правило:<br/>`DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-HorizontalRule.java" >}}  |                                                                |
-|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, където (1 <= N <= 9).<br/>Това се превежда в вграден стил и трябва да бъде точно на посочения модел (не са позволени наставки или представки).<br/>В противен случай това ще бъде просто обикновен параграф със съответния стил |
+|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`, където (1 <= N <= 9).<br/>Това се превежда в вграден стил и трябва да бъде точно на посочения модел (не са позволени наставки или представки).<br/>В противен случай това ще бъде просто обикновен параграф със съответния стил |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Heading.java" >}}  |                                                                |
-|  **Setext Heading**<br/>`===` (ако е посочено ниво 1),<br/>`---` (ако е определено ниво 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, въз основа на `“Heading N”` стил.<br/>Ако (N >= 2) тогава `“Heading 2”` ще се използва, в противен случай `“Heading 1”`.<br/>Всяка наставка е позволена, но Aspose.Words Вносителят използва съответно номерата год |
+|  **Setext Heading**<br/>`===` (ако е посочено ниво 1),<br/>`---` (ако е определено ниво 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, въз основа на 'Heading N' стил.<br/>Ако (N >= 2) тогава 'Heading 2' ще се използва, в противен случай 'Heading 1'.<br/>Всяка наставка е позволена, но Aspose.Words Вносителят използва съответно номерата год |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SetextHeading.java" >}}  |                                                                |
 |   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-IndentedCode.java" >}}  |                                                                |

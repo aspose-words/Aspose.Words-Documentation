@@ -1,4 +1,4 @@
-﻿---
+---
 title: System Requirements
 second_title: Aspose.Words for Java
 articleTitle: System Requirements
@@ -7,6 +7,7 @@ description: "Before you start working with Aspose.Words for Java, ensure that y
 type: docs
 weight: 80
 url: /java/system-requirements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words for Java does not require third party product such as Microsoft Word to be installed. Aspose.Words itself is an engine for creating, modifying, converting, and rendering of documents in various formats, including Microsoft Word document formats.

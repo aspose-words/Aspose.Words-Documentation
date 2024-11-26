@@ -8,6 +8,7 @@ url: /zh-hant/net/convert-a-document/
 weight: 30
 description: "用C#輕鬆將檔案從一個格式轉為另一個格式。 您可以工作於所有最受歡迎的格式，包括 Microsoft Word 的格式，如 DOCX 或 DOC、OpenDocument 格式，如 ODT 或 OTT、網路格式，如 HTML 或 XHTML、文字格式，如 Markdown 或 TXT 等。"
 keywords: "convert a document c#, convert documents from one format to another c#, convert to markdown c#, convert pdf to docx C#, convert docx to pdf C#, convert doc to pdf C#, convert a document Aspose for .NET"
+timestamp: 2024-01-27-14-07-04
 ---
 
 輕鬆且可靠地將文件從一種格式轉換為另一種格式的能力，是 Aspose.Words 主要功能領域之一。 這樣的轉換只不過是加載和儲存的組合動作。

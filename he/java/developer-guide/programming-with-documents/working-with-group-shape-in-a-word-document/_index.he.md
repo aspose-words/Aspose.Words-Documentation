@@ -7,6 +7,7 @@ description: "Groupצורות ing ו ungrouping באמצעות Java."
 type: docs
 weight: 290
 url: /he/java/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 לפעמים צריך להוסיף group shape לתוך מסמך Word. כזה group shape מורכב ממספר צורות

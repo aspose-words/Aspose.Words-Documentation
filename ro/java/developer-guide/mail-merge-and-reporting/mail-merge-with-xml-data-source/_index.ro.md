@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge cu XML sursa de date în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Mail Merge cu XML sursă de date
@@ -8,6 +8,7 @@ description: "Utilizați o varietate de surse de date atunci când efectuați o 
 keywords: "mail merge XML data source Java, Mail Merge Java"
 weight: 30
 url: /ro/java/mail-merge-with-xml-data-source/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Puteți utiliza o varietate de surse de date atunci când efectuați o operație mail merge, inclusiv un fișier XML. Principalul avantaj al utilizării XML este capacitatea de a defini o ierarhie chiar în document și apoi de a o transmite pur și simplu la Aspose.Words.
@@ -24,9 +25,9 @@ Deoarece XML stochează date în format text simplu, stocarea este independentă
 
 ## Completarea unui șablon de îmbinare cu date din XML Folosind DataSet
 
-XML este standardul universal pentru schimbul de date, iar formatele de documente Microsoft Word sunt cele mai populare formate pentru șabloanele mail merge. Prin urmare, capacitatea de a rula un mail merge dintr-un fișier XML într-un document șablon Word a devenit o cerință comună.
+XML este standardul universal pentru schimbul de date, iar formatele de documente Microsoft Word sunt cele mai populare formate pentru șabloanele mail merge. Prin urmare, capacitatea de a rula un Mail Merge dintr-un fișier XML într-un document șablon Word a devenit o cerință comună.
 
-Microsoft Word nu oferă o metodă directă de a lucra cu XML date ca sursă de date pentru o operație mail merge, în timp ce Aspose.Words vă permite să efectuați o operație mail merge cu date dintr-o sursă de date XML. Rețineți că structura documentului XML poate fi, de asemenea, variată și datele vor fi citite corect. Acest lucru permite îmbinarea cu ușurință a diferitelor tipuri de documente XML.
+Microsoft Word nu oferă o metodă directă de a lucra cu XML date ca sursă de date pentru o operație mail merge, în timp ce Aspose.Words vă permite să efectuați o operație Mail Merge cu date dintr-o sursă de date XML. Rețineți că structura documentului XML poate fi, de asemenea, variată și datele vor fi citite corect. Acest lucru permite îmbinarea cu ușurință a diferitelor tipuri de documente XML.
 
 Utilizați metoda `ReadXML` pentru a citi schema XML și datele în obiectul `DataSet`. Acest obiect este apoi folosit ca sursă de date pentru un mail merge.
 

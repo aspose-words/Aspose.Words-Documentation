@@ -9,6 +9,7 @@ type: docs
 description: "Aspose.Words cho .NET trả lời các câu hỏi thường gặp nhất. Tìm hiểu trang này để nhanh chóng giải quyết vấn đề của bạn về các câu hỏi chung hoặc chủ đề cụ thể."
 weight: 75
 url: /vi/net/faq/
+timestamp: 2024-11-18-12-56-02
 ---
 
 Trang này chứa câu trả lời cho các câu hỏi thường gặp nhất. Vui lòng tìm hiểu trang hiện tại – có lẽ điều này sẽ cho phép bạn giải quyết vấn đề của mình một cách nhanh chóng.
@@ -128,7 +129,7 @@ Có, bạn biết. Do đó, khi sao chép phông chữ, hãy nhớ rằng hầu 
 
 {{% alert color="primary" %}}
 
-Bạn có thể tìm thêm thông tin chi tiết về mail merge trong phần tài liệu [Mail Merge và báo cáo](/words/net/mail-merge-and-reporting/).
+Bạn có thể tìm thêm thông tin chi tiết về Mail Merge trong phần tài liệu [Mail Merge và báo cáo](/words/net/mail-merge-and-reporting/).
 
 {{% /alert %}}
 
@@ -143,7 +144,7 @@ Tên ban đầu của trường hợp nhất vẫn giữ nguyên mà không bị
 
 **Câu hỏi: Tại sao đầu ra của việc hợp nhất lồng nhau không hiển thị dữ liệu từ bảng con cho mục nhập đầu tiên trong bảng cha nhưng lại hiển thị tất cả các mục cho mục nhập cuối cùng trong bảng cha, ngay cả những mục không thực sự được liên kết với nó?**
 
-Điều này là do các vùng hợp nhất trong mẫu không được định dạng chính xác, điều này có thể khiến tất cả các vùng mail merge lồng nhau ngừng hiển thị bất kỳ thứ gì. Thẻ mở [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) và thẻ đóng [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) phải khớp nhau và nằm trong cùng một hàng hoặc ô. Ví dụ: nếu bạn bắt đầu lồng các vùng hợp nhất vào một ô của bảng, bạn phải kết thúc vùng hợp nhất trong cùng hàng với ô đầu tiên.
+Điều này là do các vùng hợp nhất trong mẫu không được định dạng chính xác, điều này có thể khiến tất cả các vùng Mail Merge lồng nhau ngừng hiển thị bất kỳ thứ gì. Thẻ mở [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) và thẻ đóng [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) phải khớp nhau và nằm trong cùng một hàng hoặc ô. Ví dụ: nếu bạn bắt đầu lồng các vùng hợp nhất vào một ô của bảng, bạn phải kết thúc vùng hợp nhất trong cùng hàng với ô đầu tiên.
 
 ------
 
@@ -156,7 +157,7 @@ Tên ban đầu của trường hợp nhất vẫn giữ nguyên mà không bị
 
 ------
 
-**Câu hỏi: Tại sao lại có ngoại lệ: "System.ArgumentException: Không thể bật ràng buộc này vì không phải tất cả các giá trị đều có giá trị gốc tương ứng" trong khi thực thi mail merge lồng nhau?**
+**Câu hỏi: Tại sao lại có ngoại lệ: "System.ArgumentException: Không thể bật ràng buộc này vì không phải tất cả các giá trị đều có giá trị gốc tương ứng" trong khi thực thi Mail Merge lồng nhau?**
 
 Điều này xảy ra vì không phải mọi bản ghi cha đều có bản ghi con nên nguồn dữ liệu của bạn không đáp ứng các tiêu chí sau: *mọi hàng trong bảng cha phải có mối quan hệ một-một với các hàng của bảng con dựa trên bản ghi chính và khóa ngoại*.
 

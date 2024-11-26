@@ -7,6 +7,7 @@ type: docs
 description: "使用不同的文档内容 Java。 。 。 。"
 weight: 140
 url: /zh/java/extract-selected-content-between-nodes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 在处理文件时,必须能够很容易地从文件中的特定范围提取内容。 然而,内容可能包括段落,表格,图像等复杂内容.

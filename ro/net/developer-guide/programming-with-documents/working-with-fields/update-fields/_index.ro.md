@@ -7,6 +7,7 @@ description: "Învață cum să actualizezi câmpuri în C#. Actualizați câmpu
 type: docs
 weight: 30
 url: /ro/net/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tipic, un câmp introdus în Microsoft Word conține deja o valoare actualizată. Spre exemplu, dacă câmpul este o formulă sau un număr de pagină, acesta va conține valoarea corect calculată pentru versiunea dată a documentului. Dar dacă ai o aplicație care generează sau modifică un document cu câmpuri ca fuzionarea a două documente sau completarea acestuia cu date, atunci ideal ar fi să se actualizeze toate câmpurile pentru ca documentul să fie util.
@@ -18,7 +19,7 @@ Când un document este încărcat, Aspose.Words imită comportamentul de Microso
 - când deschideți/salvați un document, câmpurile rămân intacte
 - puteți actualiza în mod explicit toate câmpurile dintr-un document, de exemplu, reconstruiește `TOC` atunci când aveți nevoie
 "- când imprimați/redă în PDF sau XPS câmpurile legate de numerotarea paginilor din antet/subsol sunt actualizate"
-"- când executați mail merge toate câmpurile sunt actualizate automat"
+"- când executați Mail Merge toate câmpurile sunt actualizate automat"
 
 ### Actualizează câmpurile programatic
 
@@ -42,7 +43,7 @@ Puteți descărca fișierul de exemplu al acestui exemplu de la [Aspose.Words Gi
 
 ### Actualizare automată a câmpului în timpul Mail Merge
 
-Când executați o mail merge toate câmpurile din document vor fi actualizate automat. Acest lucru se datorează faptului că mail merge este o actualizare de câmp. Programul întâlnește un câmp mail merge și trebuie să actualizeze rezultatul său, ceea ce implică luarea valorii din sursa de date și inserarea acesteia în câmp. Logica este desigur mai complicată, pentru exemplu, atunci când se atinge sfârșitul regiunii/documentului mail merge, dar există încă date suplimentare care trebuie fuzionate, atunci regiunea trebuie duplicată și noul set de câmpuri actualizat.
+Când executați o Mail Merge toate câmpurile din document vor fi actualizate automat. Acest lucru se datorează faptului că Mail Merge este o actualizare de câmp. Programul întâlnește un câmp Mail Merge și trebuie să actualizeze rezultatul său, ceea ce implică luarea valorii din sursa de date și inserarea acesteia în câmp. Logica este desigur mai complicată, pentru exemplu, atunci când se atinge sfârșitul regiunii/documentului mail merge, dar există încă date suplimentare care trebuie fuzionate, atunci regiunea trebuie duplicată și noul set de câmpuri actualizat.
 
 ## Actualizare câmpuri cu atribut murdar
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Găsiți și înlocuiți în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Găsiți și înlocuiți
@@ -7,6 +7,7 @@ type: docs
 description: "Găsiți un șir sau un model de expresie regulată în documentul dvs. și înlocuiți-l cu textul dorit folosind C++."
 weight: 100
 url: /ro/cpp/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Puteți naviga cu ușurință în documentul dvs. folosind o tastatură și un mouse, dar dacă aveți multe pagini de parcurs, va dura destul de mult timp pentru a găsi un anumit text într-un document lung. Va consuma mai mult timp atunci când doriți să înlocuiți anumite caractere sau cuvinte pe care le-ați folosit în documentul dvs. Funcționalitatea "găsiți și înlocuiți" vă permite să găsiți o secvență de caractere într-un document și să o înlocuiți cu o altă secvență de caractere.

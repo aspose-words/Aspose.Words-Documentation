@@ -1,4 +1,4 @@
-﻿---
+---
 title: System Requirements
 second_title: Aspose.Words for JasperReports
 articleTitle: System Requirements
@@ -7,6 +7,7 @@ description: "System Requirements of Aspose.Words for JasperReports."
 type: docs
 weight: 90
 url: /jasperreports/system-requirements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

@@ -1,4 +1,4 @@
-﻿---
+---
 title: How to Use Aspose.Words Instead of NPOI
 second_title: Aspose.Words for .NET
 articleTitle: How to Use Aspose.Words Instead of NPOI
@@ -7,6 +7,7 @@ description: "How to download and install Aspose.Words for .NET and what prerequ
 type: docs
 weight: 5
 url: /net/aspose-words-instead-of-npoi
+timestamp: 2024-01-31-14-23-37
 ---
 
 When a user needs to programmatically create, modify, and manage documents, it is always important to choose the right tool that suits the specific document development needs. This article aims to help developers make the right decision when comparing Aspose.Words and NPOI.

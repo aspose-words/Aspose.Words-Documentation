@@ -7,6 +7,7 @@ description: "Dokładniej kontroluj proces zapisywania za pomocą C#."
 type: docs
 weight: 10
 url: /pl/net/specify-save-options/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Podczas zapisywania dokumentu możesz ustawić pewne zaawansowane właściwości. Aspose.Words udostępnia klasę [SaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/), która pozwala na bardziej precyzyjną kontrolę procesu zapisu. Istnieją przeciążenia metody **Save** akceptujące obiekt **SaveOptions** – powinien to być obiekt klasy wywodzącej się z klasy **SaveOptions**. Każdy format zapisu ma odpowiednią klasę, która przechowuje opcje zapisu dla tego formatu zapisu, na przykład istnieje [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) do zapisywania w formacie PDF, [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) do zapisywania w formacie Markdown lub [ImageSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/) do zapisywania do obrazu. W tym artykule przedstawiono przykłady pracy z niektórymi klasami opcji pochodzącymi z formatu **SaveOptions**.

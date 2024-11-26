@@ -7,6 +7,7 @@ description: "Как да се манипулират бележки под ли
 type: docs
 weight: 160
 url: /bg/net/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words Също така предоставя някои класове, методи и свойства за работа с бележки под линия и крайни бележки.

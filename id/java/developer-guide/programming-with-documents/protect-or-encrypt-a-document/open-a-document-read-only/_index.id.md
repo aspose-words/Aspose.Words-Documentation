@@ -7,6 +7,7 @@ description: "Membuat dokumen Anda read-only sehingga konten dapat disalin atau 
 type: docs
 weight: 10
 url: /id/java/open-a-document-read-only/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Kadang-kadang, Anda mungkin memiliki dokumen yang membutuhkan ulasan, tetapi Anda tidak ingin meninjau secara acak memodifikasi konten Anda. Aspose.Words memungkinkan Anda untuk membuat izin dokumen Anda read-only sehingga konten dapat disalin atau membaca, tetapi tidak dimodifikasi. Ini akan mencegah konten dihapus atau ditambahkan ke dokumen Anda.

@@ -7,6 +7,7 @@ description: ".NET 렌더링 기능에 Aspose.Words를 사용하여 흐름 레�
 type: docs
 weight: 20
 url: /ko/net/rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words에서는 "렌더링"이라는 용어를 사용하여 문서를 파일 형식으로 변환하거나 페이지가 지정되거나 페이지 개념을 갖는 매체로 변환하는 과정을 설명합니다. 우리는 문서를 페이지로 렌더링하는 것에 대해 이야기하고 있습니다. 다음 다이어그램은 Aspose.Words의 렌더링이 무엇인지 보여줍니다.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: LINQ Reporting Engine Features in Java
 second_title: Aspose.Words for Java
 articleTitle: LINQ Reporting Engine Features
@@ -7,6 +7,7 @@ description: "Learn the powerful LINQ Reporting Engine features to build a repor
 type: docs
 weight: 20
 url: /java/linq-reporting-engine-features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 LINQ Reporting Engine enables you to build reports in a similar way as Aspose.Words Mail Merge does. The engine provides the API that enables you to populate template documents with data that comes from various sources.

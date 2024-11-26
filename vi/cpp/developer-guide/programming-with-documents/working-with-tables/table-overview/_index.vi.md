@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tổng Quan Về Bảng
 second_title: Aspose.Words cho C++
 articleTitle: Tổng Quan Về Bảng
@@ -7,6 +7,7 @@ description: "Làm việc với các bảng và các thành phần của chúng 
 type: docs
 weight: 10
 url: /vi/cpp/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words là một thư viện lớp được thiết kế để xử lý tài liệu phía máy chủ ở nhiều định dạng khác nhau – PDF, HTML, các định dạng Microsoft Word khác nhau và các định dạng khác – và hỗ trợ các bảng theo các cách sau:

@@ -7,6 +7,7 @@ description: ".NET için Aspose.Words'te tablolarla ve hücreler, satırlar, sü
 type: docs
 weight: 10
 url: /tr/net/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words, çeşitli formatlardaki (PDF, HTML, farklı Microsoft Word formatları ve diğerleri) belgelerin sunucu tarafında işlenmesi için tasarlanmış bir sınıf kitaplığıdır ve tabloları aşağıdaki şekillerde destekler:

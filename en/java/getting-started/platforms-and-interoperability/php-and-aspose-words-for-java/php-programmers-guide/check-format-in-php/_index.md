@@ -7,6 +7,7 @@ description: "Check Document Format using PHP."
 type: docs
 weight: 30
 url: /java/check-format-in-php/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Check Format

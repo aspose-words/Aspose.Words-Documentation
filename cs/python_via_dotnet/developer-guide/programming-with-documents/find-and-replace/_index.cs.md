@@ -7,6 +7,7 @@ type: docs
 description: "Najděte řetězec nebo regulární vzor výrazu ve vašem dokumentu a nahraďte jej textem, který chcete použít Python."
 weight: 100
 url: /cs/python-net/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Můžete snadno procházet ve vašem dokumentu pomocí klávesnice a myši, ale pokud máte mnoho stránek procházet, bude to chvíli trvat najít konkrétní text v dlouhém dokumentu. Bude to více časově náročné, pokud chcete nahradit určité znaky nebo slova, která jste použili ve svém dokumentu. Najít a nahradit funkce vám umožní najít posloupnost znaků v dokumentu a nahradit jej jinou posloupnost znaků.

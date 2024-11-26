@@ -1,16 +1,17 @@
----
-title: العمل مع الوثيقة Java
-second_title: Aspose.Words for Java
+﻿---
+title: العمل مع المستند في Java
+second_title: Aspose.Words ل Java
 articleTitle: العمل مع الوثيقة
 linktitle: العمل مع الوثيقة
 type: docs
-description: "The `Document` ويقدم الفصل مختلف خصائص الوثائق وأساليبها. أنت تستخدم `Document` كنقطة انطلاق لكل ما تريد القيام به Aspose.Words for Java. The `Document` الجسم يمكن أن يُنقذ إلى ملف أو مجرى ويُرسل أيضاً إلى منظف."
+description: "توفر فئة `Document` خصائص وطرق مختلفة للمستند. يمكنك استخدام فئة `Document` كنقطة انطلاق لكل ما تريد تنفيذه باستخدام Aspose.Words لـ Java. يمكن حفظ الكائن `Document` في ملف أو دفق وإرساله أيضا إلى متصفح."
 weight: 40
 url: /ar/java/working-with-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
-The [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) الطبقة المركزية Aspose.Words. وهي تمثل وثيقة وتقدم مختلف خصائص الوثائق وأساليبها، مثل توفير الوثيقة أو حمايةها. أنت تستخدم **Document** كنقطة انطلاق لكل ما تريد القيام به Aspose.Words: إنشاء وثيقة جديدة من الصفر وفتح نموذج mail merge, أو الحصول على أجزاء مختلفة من وثيقة.
+فئة [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) مركزية في Aspose.Words. إنه يمثل مستندا ويوفر خصائص وطرق مختلفة للمستند، مثل حفظ المستند أو حمايته. يمكنك استخدام فئة **Document** كنقطة انطلاق لكل ما تريد تنفيذه باستخدام Aspose.Words: إنشاء مستند جديد من البداية، أو فتح قالب لـ mail merge، أو الحصول على أجزاء مختلفة من مستند.
 
-The **Document** الجسم يحتوي على جميع المحتوى والشكل، والأساليب، والخصائص المبنيّة والعادية، [MailMerge](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/) مادة تستخدم في mail merge. **Document** يُمكِّنكم من استرجاع النص، والعلامات الكتابية، وتشكيل حقول لوثيقة كاملة أو أجزاء منفصلة.
+يحتوي الكائن **Document** على كل المحتوى والتنسيق والأنماط والخصائص المضمنة والمخصصة والكائن [MailMerge](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/) المستخدم لـ mail merge. **Document** تمكنك من استرداد النص والإشارات المرجعية وحقول النموذج للمستند بأكمله أو الأقسام المنفصلة.
 
-**Document** يحتوي على مجموعة من [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) أشياء تمكنك من الحصول على قسم معين أو القيام ببعض التلاعبات مثل النسخ أو الأقسام المتحركة. The **Document** ويمكن إنقاذ الجسم في أي وقت من الأوقات إلى ملف أو تيار، كما يمكن إرساله إلى منظف زبون.
+**الوثيقة**

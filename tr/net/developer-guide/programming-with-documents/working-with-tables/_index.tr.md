@@ -7,6 +7,7 @@ description: "C#'te tablolarla nasıl çalışılır? .NET için Aspose.Words'de
 type: docs
 weight: 190
 url: /tr/net/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir belgedeki **masa**, benzer verileri yapılandırmanın harika bir yoludur. Tabloların yaygın bir içerik biçimlendirme öğesi olmasının ve çoğu biçim tarafından şu veya bu şekilde desteklenmesinin nedeni budur.

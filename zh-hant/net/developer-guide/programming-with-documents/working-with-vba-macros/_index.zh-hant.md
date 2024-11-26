@@ -7,6 +7,7 @@ description: "使用 C# 在 문서 VBA 專案中工作。"
 type: docs
 weight: 410
 url: /zh-hant/net/working-with-vba-macros/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Visual Basic for Applications (VBA) Aspose.Words for Microsoft Word是一個簡單但強大的編程語言，可以用來擴展功能。API提供三個類別來獲取對VBA項目源代碼的訪問:

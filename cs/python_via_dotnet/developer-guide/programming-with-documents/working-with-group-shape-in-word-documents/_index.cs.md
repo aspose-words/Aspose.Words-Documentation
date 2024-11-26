@@ -7,6 +7,7 @@ description: "Přidat group shape do dokumentu používajícího Python."
 type: docs
 weight: 290
 url: /cs/python-net/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Někdy musíte přidat group shape do dokumentu Word. Takový group shape sestává z více tvarů.

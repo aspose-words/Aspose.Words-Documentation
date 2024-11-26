@@ -7,6 +7,7 @@ description: "Kolik vzpomínek Aspose.Words místo .NET vyžadovat práci s doku
 type: docs
 weight: 10
 url: /cs/net/memory-requirements/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words poskytuje širokou škálu funkcí pro práci s dokumenty v různých formátech. Je důležité poznamenat, že neexistuje žádný limit maximální velikosti dokumentu souboru, který Aspose.Words může zpracovat nebo renderovat. Jediné omezení je množství RAM (paměti) dostupné na vaší straně.

@@ -7,6 +7,7 @@ description: "הצטרפו לשולחן Java. מניפולציות שולחן מ
 type: docs
 weight: 90
 url: /he/java/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 שולחן, מיוצג ב Aspose.Words Document Object Model, מורכב שורות ותאים עצמאיים, מה שהופך את זה קל להצטרף לטבלאות.

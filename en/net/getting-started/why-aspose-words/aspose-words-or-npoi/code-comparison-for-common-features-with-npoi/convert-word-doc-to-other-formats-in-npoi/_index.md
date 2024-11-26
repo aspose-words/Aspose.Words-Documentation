@@ -1,4 +1,4 @@
-﻿---
+---
 title: Convert Word Doc to Other Formats in NPOI
 second_title: Aspose.Words for .NET
 articleTitle: Convert Word Doc to Other Formats in NPOI
@@ -7,6 +7,7 @@ description: "Convert DOC to other document formats easily and fast instead of u
 type: docs
 weight: 20
 url: /net/convert-word-doc-to-other-formats-in-npoi/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Microsoft Word - Conversion to Other Formats

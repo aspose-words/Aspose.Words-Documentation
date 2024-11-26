@@ -1,4 +1,4 @@
-﻿---
+---
 title: การสร้างแผนภูมิOOXMLจากรอยขีดข่วน
 second_title: Aspose.WordsสำหรับC++
 articleTitle: การสร้างแผนภูมิOOXMLจากรอยขีดข่วน
@@ -7,6 +7,7 @@ description: "วิธีการสร้างแผนภูมิที่
 type: docs
 weight: 10
 url: /th/cpp/creating-ooxml-charts-from-scratch-using-aspose-words/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## การสร้างOOXMLแผนภูมิจากรอยขีดข่วนโดยใช้Aspose.Words

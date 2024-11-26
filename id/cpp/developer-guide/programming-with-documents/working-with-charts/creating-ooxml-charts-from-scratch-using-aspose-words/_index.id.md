@@ -1,4 +1,4 @@
-﻿---
+---
 title: Membuat Bagan OOXML dari Awal
 second_title: Aspose.Words untuk C++
 articleTitle: Membuat Bagan OOXML dari Awal
@@ -7,6 +7,7 @@ description: "Cara membuat bagan berbeda di dokumen Anda menggunakan C++."
 type: docs
 weight: 10
 url: /id/cpp/creating-ooxml-charts-from-scratch-using-aspose-words/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Membuat Bagan OOXML dari Awal menggunakan Aspose.Words

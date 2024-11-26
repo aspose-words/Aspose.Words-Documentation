@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Lyste in Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Werk met Lyste
@@ -7,6 +7,7 @@ description: "Skep, spesifiseer formatering en herbegin lyste in'n dokument met 
 type: docs
 weight: 200
 url: /af/python-net/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 'n lys in'n Microsoft Word dokument is'n stel lys formatering eienskappe. Lyste kan in u dokumente gebruik word om teks te formateer, te rangskik en te beklemtoon. Lyste is'n goeie manier om data in dokumente te organiseer, en dit maak dit makliker vir lesers om sleutelpunte te verstaan.

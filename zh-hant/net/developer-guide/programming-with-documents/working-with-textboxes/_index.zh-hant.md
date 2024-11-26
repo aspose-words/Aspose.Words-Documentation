@@ -7,6 +7,7 @@ description: "有關於 Aspose.Words 中連結文字方塊功能的介紹。"
 type: docs
 weight: 250
 url: /zh-hant/net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 在 Aspose.Words 中，[TextBox](https://reference.aspose.com/words/net/aspose.words.drawing/textbox/) 類別用於指定文字如何顯示於形狀內。 它會將名為 **Parent** 的公共屬性公開，以取得文字方塊的父體，以便客戶可以從關聯的 **TextBox** 中找到連結的 [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/)。

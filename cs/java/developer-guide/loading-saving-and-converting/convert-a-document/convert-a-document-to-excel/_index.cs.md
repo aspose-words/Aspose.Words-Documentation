@@ -7,13 +7,14 @@ description: "Převést PDF na Excel, XML na Excel, DOCX na Excel Java. Uložit 
 type: docs
 weight: 15
 url: /cs/java/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Převod dokumentů z jednoho formátu do druhého je vlajkový prvek Aspose.Words. Dokumenty můžete převést v jakémkoliv dostupném [formát zatížení](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) také do formátu XLSX.
 
 ## Převést dokument na XLSX
 
-Převod dokumentu na XLSX je poměrně složitý proces. Pro uložení dokumentu do formátu XLSX pomocí <span notrans="<span notrans=" Aspose.Words"=""></span>, použijte [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) třída a nová `Xlsx` prvek [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) výčtu. Jak bylo uvedeno výše, dokument můžete uložit v jakémkoli formátu zatížení podporovaném Aspose.Words na XLSX.
+Převod dokumentu na XLSX je poměrně složitý proces. Pro uložení dokumentu do formátu XLSX pomocí Aspose.Words, použijte [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) třída a nová `Xlsx` prvek [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) výčtu. Jak bylo uvedeno výše, dokument můžete uložit v jakémkoli formátu zatížení podporovaném Aspose.Words na XLSX.
 
 Následující příklad kódu ukazuje, jak uložit PDF do XLSX:
 

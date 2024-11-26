@@ -1,4 +1,4 @@
-﻿---
+---
 title: MFont Verfügbarkeit und Ersetzung in C++
 second_title: Aspose.Words für C++
 articleTitle: Verfügbarkeit und Ersetzung von Schriftarten
@@ -7,6 +7,7 @@ description: "Wenn die genaue Ersetzungsschriftart nicht gefunden werden kann, m
 type: docs
 weight: 12
 url: /de/cpp/font-availability-and-substitution/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Ein Text in einem Dokument kann mit verschiedenen Schriftarten formatiert werden, z. B. Arial, Times New Roman, Verdana und anderen. Wenn Aspose.Words ein Dokument rendert, versucht es, die im Dokument angegebenen Schriftarten auszuwählen.

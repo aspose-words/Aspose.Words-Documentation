@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bir Belgedeki Değişiklikleri C++ içinde İzleme
 second_title: Aspose.Words için C++
 articleTitle: Belgedeki Değişiklikleri İzleme
@@ -7,6 +7,7 @@ description: "Siz veya başkaları tarafından C++ kullanılarak yapılan içeri
 type: docs
 weight: 270
 url: /tr/cpp/track-changes-in-a-document/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Değişiklikleri izle işlevi, gözden geçirme olarak da bilinir, sizin veya diğer kullanıcılar tarafından yapılan içerik ve biçimlendirmedeki değişiklikleri izlemenize olanak tanır. Aspose.Words ile yapılan bu değişiklik izleme özelliği, Microsoft Word içindeki değişiklikleri izlemeyi destekler. Bu işlevle, belgenizdeki tek tek revizyonlara erişebilir ve bunlara farklı özellikler uygulayabilirsiniz.

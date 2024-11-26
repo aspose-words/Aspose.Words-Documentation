@@ -7,6 +7,7 @@ type: docs
 description: "整合 Aspose.Words 的功能到您的應用程式中，請使用 Docker 來完成，無論開發堆疊中的技術是什麼。 在 C# 中學習如何在 Docker 容器中使用 Aspose。Words。"
 weight: 120
 url: /zh-hant/net/how-to-run-aspose-words-in-docker/
+timestamp: 2024-08-19-11-05-36
 ---
 
 微服務、容器化能讓技術結合。Docker 可以讓你將 Aspose.Words 的功能輕鬆整合到你的應用程式中，無論在開發堆疊中的技術是什麼。
@@ -32,7 +33,7 @@ url: /zh-hant/net/how-to-run-aspose-words-in-docker/
 ![net-console-application](https://lh5.googleusercontent.com/PArWoC8_leOnhtaF-5BMb3b4jHwI3G03WoyMK3bXZpsQKN50YzvEQBwoRniyCWKIcdR0EZGuwn3S8Z0ZK6FQ4cjMSWgH3CwSqReW4bMt-3OjZjrdt9yuWbkMdhyNjwwaaYPC5Ylr)<br>
 1. 從 NuGet 安裝最新 Aspose.Words 版本。 SkiaSharp 將會被建立為 Aspose.Words 的依賴項。<br>
 ![skiasharp-dependency](https://lh3.googleusercontent.com/zWpvB5TLahC_OpJrHDML2131Vj_VK1vryTZBd_C3ZeOBdoUOc2vF_axEvwu9tytaL1maJv3qA2KoyP5fn7ae4_3cL23sXyoLoVysjgu8XEp6l0B2w5hgR9teh95_9mFd9X-4DGNN)<br>
-1. 由於該應用程式將在 Linux 上執行，必須安裝適當的原生 Linux 資產。 從 Debian 基底圖像開始，然後安裝 `SkiaSharp.NativeAssets`.Linux。
+1. 由於該應用程式將在 Linux 上執行，必須安裝適當的原生 Linux 資產。 從 Debian 基底圖像開始，然後安裝 `SkiaSharp.NativeAssets.Linux`。
 1. 當所有所需的依賴項被加進去後，寫一篇簡單的程式來建立一個你好世界！的文件並將其儲存於所有支援的儲存格式中：<br>
 
 {{< gist "aspose-words-gists" "47e15ad749897be465deebc2ff3e76dd" "aspose-words-docker.cs" >}}

@@ -7,6 +7,7 @@ description: "Tentukan posisi tabel di Python. Dapatkan perataan tabel, dapatkan
 type: docs
 weight: 50
 url: /id/python-net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ada tabel mengambang dan tabel inline:

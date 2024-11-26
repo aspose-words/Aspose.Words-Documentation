@@ -1,4 +1,4 @@
-﻿---
+---
 title: Formatage des tableaux en C++
 second_title: Aspose.Words pour C++
 articleTitle: Appliquer la mise en forme
@@ -7,6 +7,7 @@ description: "Formatage des tableaux en détails en utilisant C++. Utilisation d
 type: docs
 weight: 70
 url: /fr/cpp/applying-formatting/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Chaque élément d'un tableau peut être appliqué avec une mise en forme différente. Par exemple, la mise en forme du tableau sera appliquée à l'ensemble du tableau, la mise en forme des lignes uniquement à des lignes particulières, la mise en forme des cellules uniquement à certaines cellules.

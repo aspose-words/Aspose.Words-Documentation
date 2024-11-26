@@ -1,4 +1,4 @@
-﻿---
+---
 title: Livelli logici di nodi in un documento in C++
 second_title: Aspose.Words per C++
 articleTitle: Livelli logici di nodi in un documento
@@ -7,6 +7,7 @@ type: docs
 description: "In Aspose.Words per C++ la documentazione menzionava i livelli logici dei nodi: livello di blocco, livello in linea o livello di riga. Il livello di nodo viene utilizzato per descrivere la posizione nella struttura del documento in cui il nodo è in genere si verificano."
 weight: 10
 url: /it/cpp/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Questa documentazione a volte si riferisce a un gruppo di classi di nodi come appartenenti a un" livello "in un documento, come" livello di blocco"," livello inline "(noto anche come" inline") o nodi" livello di riga". Questi livelli in un documento sono differenziati puramente logicamente e non sono esplicitamente espressi dall'ereditarietà o da altri mezzi DOM Aspose.Words. Il livello di nodo viene utilizzato per descrivere la posizione nell'albero del documento in cui si verificherebbe in genere il nodo.

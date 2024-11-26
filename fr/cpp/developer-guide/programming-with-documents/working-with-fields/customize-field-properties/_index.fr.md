@@ -1,4 +1,4 @@
-﻿---
+---
 title: Personnaliser les propriétés des champs en C++
 second_title: Aspose.Words pour C++
 articleTitle: Personnaliser les Propriétés du Champ
@@ -7,6 +7,7 @@ description: "Apprenez à personnaliser les propriétés des champs en C++. Reno
 type: docs
 weight: 27
 url: /fr/cpp/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words offre la possibilité d'interagir par programmation avec diverses propriétés de champ. Dans cet article, nous examinerons quelques exemples afin que vous compreniez le principe de base de l'utilisation des propriétés de champ. Vous pouvez voir la liste complète des propriétés pour chaque type de champ dans la classe correspondante dans le [Fields namespace](https://reference.aspose.com/words/cpp/namespace/aspose.words.fields).

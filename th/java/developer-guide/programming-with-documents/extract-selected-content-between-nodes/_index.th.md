@@ -1,134 +1,135 @@
----
-title: คลายเนื้อหาที่เลือกระหว่างโหนดใน Java
-second_title: Aspose.Words สําหรับ Java
-articleTitle: คลายเนื้อหาระหว่างโหนดในเอกสาร
-linktitle: คลายเนื้อหาระหว่างโหนด
+﻿---
+title: แยกเนื้อหาที่เลือกระหว่างโหนดในJava
+second_title: Aspose.WordsสำหรับJava
+articleTitle: แยกเนื้อหาระหว่างโหนดในเอกสาร
+linktitle: แยกเนื้อหาระหว่างโหนด
 type: docs
-description: "คลายเนื้อหาของเอกสารโดยใช้ต่างกัน Java."
+description: "การแยกเนื้อหาของเอกสารที่แตกต่างกันโดยใช้Java."
 weight: 140
 url: /th/java/extract-selected-content-between-nodes/
+timestamp: 2024-01-27-14-07-04
 ---
 
-เมื่อ ทํา งาน เกี่ยว กับ เอกสาร ต่าง ๆ นับ ว่า สําคัญ ที่ จะ สามารถ แยก เนื้อหา ออก มา ได้ อย่าง ง่าย ดาย จาก ขอบ เขต เฉพาะ ภาย ใน เอกสาร. อย่าง ไร ก็ ตาม เนื้อหา อาจ ประกอบ ด้วย ธาตุ ที่ ซับ ซ้อน เช่น วรรค, ตาราง, ภาพ, อื่น ๆ.
+เมื่อทำงานกับเอกสารมันเป็นสิ่งสำคัญที่จะสามารถแยกเนื้อหาจากช่วงเฉพาะภายในเอก อย่างไรก็ตามเนื้อหาอาจประกอบด้วยองค์ประกอบที่ซับซ้อนเช่นย่อหน้าตารางรูปภาพฯลฯ.
 
-ไม่ ว่า จะ ต้อง สกัด เนื้อหา อะไร ก็ ตาม วิธี ที่ จะ ดึง เอา เนื้อหา นั้น ออก มา จะ ต้อง กําหนด อยู่ เสมอ ว่า จะ เลือก โหนด ชนิด ไหน เพื่อ สกัด เนื้อหา ที่ อยู่ ระหว่าง กัน. นี่เป็นทั้งตัวข้อความ หรือข้อความธรรมดา
+โดยไม่คำนึงถึงสิ่งที่เนื้อหาจะต้องถูกแยกเมธอดในการแยกเนื้อหานั้นจะถูกกำหนดโดยที่โห เหล่านี้สามารถเป็นเนื้อหาข้อความทั้งหมดหรือข้อความที่เรียบง่ายทำงาน.
 
-มี สถานการณ์ หลาย อย่าง ที่ อาจ เป็น ไป ได้ และ ดัง นั้น จึง มี หลาย ชนิด ที่ จะ พิจารณา เมื่อ ค้น พบ ข้อมูล. ตัวอย่างเช่น คุณอาจต้องการที่จะแยกเนื้อหาระหว่าง
+มีหลายสถานการณ์ที่เป็นไปได้และดังนั้นจึงมีหลายชนิดโหนดที่แตกต่างกันที่จะต้องพิจารณา ตัวอย่างเช่นคุณอาจต้องการแยกเนื้อหาระหว่าง:
 
-- สองย่อหน้าพิเศษ
-- ข้อความที่เรียกใช้โดยเฉพาะ
-- สาขาต่าง ๆ เช่น การรวมสนาม
-- เริ่มและจบช่วงของคั่นหน้าหรือหมายเหตุ
-- สําเนาหลายฉบับบรรจุอยู่ในส่วนต่าง ๆ
+- สองย่อหน้าที่
+- รันข้อความที่เฉพาะเจาะจง
+- ฟิลด์ประเภทต่างๆเช่นฟิลด์ผสาน
+- ช่วงเริ่มต้นและสิ้นสุดของบุ๊กมาร์กหรือแสดงความคิดเห็น
+- เนื้อหาต่างๆของข้อความที่มีอยู่ในส่วนที่แยกต่างหาก
 
-ใน บาง กรณี คุณ อาจ ถึง กับ ต้อง รวม โหนด ชนิด ต่าง ๆ เข้า ด้วย กัน เช่น การ สกัด เอา เนื้อ เรื่อง ระหว่าง วรรค หนึ่ง กับ สนาม หรือ ระหว่าง การ วิ่ง กับ การ ทํา ที่คั่นหน้า.
+ในบางสถานการณ์คุณอาจจำเป็นต้องรวมชนิดโหนดต่างๆเช่นการแยกเนื้อหาระหว่างย่อหน้า.
 
-บทความ นี้ จัด ให้ มี การ ใช้ รหัส เพื่อ แยก ข้อ ความ ระหว่าง โหนด ต่าง ๆ และ เป็น ตัว อย่าง ของ สถานการณ์ ทั่ว ไป.
+บทความนี้จัดเตรียมการติดตั้งโค้ดสำหรับการแยกข้อความระหว่างโหนดต่างๆรวมทั้งตัวอย่.
 
 {{% alert color="primary" %}}
 
-ตัวอย่างเหล่านี้เป็นเพียงการสาธิตไม่กี่ ของความเป็นไปได้มากมาย เราวางแผนการดึงข้อความออกมา เพื่อเป็นส่วนหนึ่งของสาธารณชน API ในอนาคต และไม่มีรหัสเพิ่มเติมที่ต้องการ ใน ระหว่าง นี้ ขอ ให้ เขียน คํา ขอ ของ คุณ เกี่ยว กับ การ ทํา งาน นี้ ด้วย ความ สมัคร ใจ [Aspose.Words Forum](https://forum.aspose.com/c/words/8).
+ตัวอย่างเหล่านี้เป็นเพียงการสาธิตไม่กี่ของความเป็นไปได้มากมาย เราวางแผนสำหรับการทำงานการสกัดข้อความที่จะเป็นส่วนหนึ่งของประชาชนAPIในอนาค ในขณะเดียวกันอย่าลังเลที่จะโพสต์คำขอของคุณเกี่ยวกับฟังก์ชันการทำงานนี้ใน [Aspose.Wordsฟอรั่ม](https://forum.aspose.com/c/words/8).
 
 {{% /alert %}}
 
-## เหตุ ใด จึง ช่วย คลาย เนื้อหา
+## ทำไมสารสกัดจากเนื้อหา
 
-บ่อย ครั้ง เป้า หมาย ใน การ คัด เอา เนื้อหา ออก มา คือ เพื่อ ลอก หรือ เก็บ ไว้ ต่าง หาก ใน เอกสาร ใหม่. ยกตัวอย่างเช่น คุณสามารถแยกเนื้อหาและ
+บ่อยครั้งที่เป้าหมายของการแยกเนื้อหาคือการทำซ้ำหรือบันทึกแยกต่างหากในเอกสารให ตัวอย่างเช่นคุณสามารถแยกเนื้อหาและ:
 
-- คัดลอกเป็นเอกสารแยก
-- แปลงส่วนเฉพาะของเอกสารไปยัง PDF หรือภาพ
-- ทําซ้ําเนื้อหาในเอกสารหลายครั้ง
-- ทํางานโดยแยกเนื้อหาจากเอกสารที่เหลือ
+- คัดลอกลงในเอกสารแยกต่างหาก
+- แปลงส่วนเฉพาะของเอกสารเป็นPDFหรือรูปภาพ
+- ทำซ้ำเนื้อหาในเอกสารหลายครั้ง
+- ทำงานกับเนื้อหาที่แยกออกจากส่วนที่เหลือของเอกสาร
 
-สามารถทําได้อย่างง่ายดายโดยใช้ Aspose.Words และใช้รหัสข้างล่าง
+นี้สามารถทำได้ง่ายโดยใช้Aspose.Wordsและการดำเนินการรหัสด้านล่าง.
 
-## คลายเนื้อหา:
+## การแยกอัลกอริทึมเนื้อหา
 
-รหัสในส่วนนี้ จะบอกถึงสถานการณ์ทั้งหมดที่เป็นไปได้ ดังที่บรรยายไว้ ข้างต้น ด้วยวิธีการทั่วไป และสามารถแก้ไขได้ โครง สร้าง โดย ทั่ว ไป ของ เทคนิค นี้ เกี่ยว ข้อง กับ:
+รหัสในส่วนนี้อยู่ทั้งหมดของสถานการณ์ที่เป็นไปได้ที่อธิบายไว้ข้างต้นด้วยวิธีการทั่วไปและ โครงร่างทั่วไปของเทคนิคนี้เกี่ยวข้องกับ:
 
-1 การรวบรวมโหนดซึ่งกําหนดพื้นที่ของเนื้อหาที่จะสกัดออกมาจากเอกสารของคุณ การรับโหนดเหล่านี้ จะควบคุมโดยผู้ใช้ในรหัสของพวกเขา ตามสิ่งที่พวกเขาต้องการ
-1 ส่งโหนดเหล่านี้ไปที่ **ExtractContent** วิธี ที่ มี อยู่ ข้าง ล่าง นี้. คุณต้องผ่านพารามิเตอร์บูเลอันด้วย ซึ่งระบุว่าโหนดพวกนี้ ที่ทําหน้าที่เป็นเครื่องหมาย ควรถูกรวมอยู่ในการสกัดหรือไม่
-1 กําลังรับรายการของเนื้อหาที่โคลนไว้ (โหนดที่คัดลอกอยู่) ที่ระบุไว้ให้ดึงออกมา คุณสามารถใช้รายการของโหนดนี้ ในวิธีใด ๆ ก็ได้ ตัวอย่างเช่น สร้างเอกสารใหม่ที่มีเฉพาะเนื้อหาที่เลือกไว้
+1. รวบรวมโหนดซึ่งกำหนดพื้นที่ของเนื้อหาที่จะสกัดจากเอกสารของคุณ การดึงโหนดเหล่านี้ถูกจัดการโดยผู้ใช้ในโค้ดตามสิ่งที่พวกเขาต้องการถูกดึงออก.
+1. การส่งผ่านโหนดเหล่านี้ไปยังวิธีการ**ExtractContent**ที่ให้ไว้ด้านล่าง นอกจากนี้คุณยังต้องผ่านพารามิเตอร์บูลีนซึ่งระบุว่าโหนดเหล่านี้ทำหน้าที่เป็นเครื่องหมาย.
+1. การเรียกดูรายการของเนื้อหาที่โคลน(โหนดที่คัดลอก)ที่ระบุให้แยก คุณสามารถใช้รายการโหนดนี้ในลักษณะใดๆที่เกี่ยวข้องตัวอย่างเช่นการสร้างเอกสารใหม่.
 
-## วิธี ขจัด เนื้อหา
+## วิธีการแยกเนื้อหา
 
-เรา จะ ทํา งาน กับ เอกสาร ข้าง ล่าง นี้. อย่างที่คุณเห็น มันมีเนื้อหาหลากหลาย โปรด สังเกต ด้วย ว่า เอกสาร นี้ มี ส่วน ที่ สอง ซึ่ง เริ่ม ตั้ง แต่ กลาง หน้า แรก. คั่นหน้าและหมายเหตุมีอยู่ในเอกสารด้วย แต่ไม่สามารถมองเห็นได้ในภาพที่จับได้ด้านล่าง
+เราจะทำงานกับเอกสารด้านล่างในบทความนี้ ที่คุณสามารถเห็นมันมีความหลากหลายของเนื้อหา นอกจากนี้หมายเหตุเอกสารประกอบด้วยส่วนที่สองเริ่มต้นตรงกลางของหน้าแรก บุ๊กมาร์กและข้อคิดเห็นมีอยู่ในเอกสารด้วยแต่ไม่สามารถมองเห็นได้ในภาพหน้าจอด้านล่าง.
 
 ![extract-content-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-1.png)
 
-เพื่อดึงเนื้อหาจากเอกสารของคุณ คุณต้องเรียก `ExtractContent` วิธีการด้านล่างและผ่านพารามิเตอร์ที่เหมาะสม
+ในการดึงเนื้อหาจากเอกสารของคุณคุณต้องเรียกวิธีการ`ExtractContent`ด้านล่างและส่งผ่านพารามิเตอร์ที่เหมาะสม.
 
-พื้น ฐาน พื้น ฐาน ของ วิธี นี้ เกี่ยว ข้อง กับ การ ค้น หา โหนด ระดับ บล็อก (หลัก เกณฑ์ และ ตาราง) และ ทํา สําเนา แบบ เดียว กัน. ถ้าโหนดเครื่องหมายผ่านเป็นบล็อกระดับ แล้ววิธีการสามารถเพียงแค่คัดลอกเนื้อหาในระดับที่ และเพิ่มเข้าไปในอาร์เรย์
+พื้นฐานพื้นฐานของวิธีนี้เกี่ยวข้องกับการค้นหาโหนดระดับบล็อก(ย่อหน้าและตาราง)และโคลน ถ้าโหนดเครื่องหมายผ่านเป็นระดับบล็อกแล้ววิธีการที่จะสามารถที่จะเพียงแค่คัดลอกเนื้อ.
 
-อย่าง ไร ก็ ตาม หาก โหนด เครื่องหมาย อยู่ ใน บรรทัด (ลูก ของ วรรค หนึ่ง) สภาพ การณ์ ก็ จะ ยุ่ง ยาก ยิ่ง ขึ้น เนื่อง จาก จําเป็น ต้อง แยก วรรค ที่ โหนด ใน บรรทัด ก็ จะ เป็น แบบ วิ่ง และ ทํา งาน ใน ขอบ เขต ของ กรอบ และ อื่น ๆ. เนื้อหาในโหนดแม่แบบโคลน ไม่ปรากฏระหว่างตัวระบุจะถูกลบออกไป กระบวนการนี้จะใช้ในการตรวจสอบว่า โหนดในบรรทัดนี้ยังคงคงการฟอร์แมตของย่อหน้าแม่อยู่
+แต่ถ้าโหนดเครื่องหมายเป็นแบบอินไลน์(ลูกของย่อหน้า)แล้วสถานการณ์จะซับซ้อนมากขึ้นเนื่ เนื้อหาในโหนดพาเรนต์ที่โคลนไม่อยู่ระหว่างเครื่องหมายจะถูกลบออก โพรเซสนี้ถูกใช้เพื่อให้แน่ใจว่าโหนดอินไลน์จะยังคงเก็บการจัดรูปแบบของย่อหน้าพาเรนต์.
 
-วิธีการนี้จะเรียกใช้การตรวจสอบโหนด ที่ผ่านรูปแบบพารามิเตอร์และแสดงข้อยกเว้นหากโหนดใด ๆ ใช้งานไม่ได้ พารามิเตอร์ที่จะส่งต่อไปยังวิธีการนี้ คือ:
+เมธอดจะรันการตรวจสอบบนโหนดที่ผ่านเป็นพารามิเตอร์และโยนข้อยกเว้นถ้าโหนดใดไม่ พารามิเตอร์ที่จะส่งผ่านไปยังวิธีนี้คือ:
 
-1 **StartNode** ถึง **EndNode**. สองตัวแปรแรกคือโหนด ซึ่งกําหนดที่ดึงเนื้อหาออกมา คือการเริ่มต้นและสิ้นสุดตามขั้นตอน โหนดเหล่านี้สามารถเป็นทั้งระดับบล็อก (ค.ศ.[Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/). [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) หรือระดับในบรรทัด (E.g. [Run](https://reference.aspose.com/words/java/com.aspose.words/run/). [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/). [BookmarkStart](https://reference.aspose.com/words/java/com.aspose.words/bookmarkstart/) เป็นต้น
-   1. เพื่อผ่านสนาม คุณควรจะผ่าน **FieldStart** วัตถุ
-   1. เพื่อผ่านที่คั่นหน้า, **BookmarkStart** ถึง [BookmarkEnd](https://reference.aspose.com/words/java/com.aspose.words/bookmarkend/) โหนดควรจะผ่าน
-   1. เพื่อส่งความคิดเห็น, [CommentRangeStart](https://reference.aspose.com/words/java/com.aspose.words/commentrangestart/) ถึง [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/) ควรใช้โหนด
-1 **IsInclusive**. กําหนดว่าเครื่องหมายจะรวมอยู่ในการสกัดหรือไม่ หากตั้งค่าตัวเลือกนี้เป็น false และโหนดหรือโหนดติดต่อกันจะผ่าน จากนั้นรายการว่างจะถูกคืน:
+1. **StartNode**และ**EndNode** สองพารามิเตอร์แรกคือโหนดที่กำหนดที่การสกัดของเนื้อหาคือการเริ่มต้นและสิ้นสุดตามลำ โหนดเหล่านี้สามารถเป็นได้ทั้งระดับบล็อก([Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/),[Table](https://reference.aspose.com/words/java/com.aspose.words/table/))หรือระดับอินไลน์(เช่น[Run](https://reference.aspose.com/words/java/com.aspose.words/run/), [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/), [BookmarkStart](https://reference.aspose.com/words/java/com.aspose.words/bookmarkstart/) ฯลฯ):
+   1. ที่จะผ่านเขตข้อมูลที่คุณควรผ่านวัตถุ**FieldStart**ที่สอดคล้องกัน.
+   1. เมื่อต้องการส่งบุ๊กมาร์กโหนด**BookmarkStart**และ[BookmarkEnd](https://reference.aspose.com/words/java/com.aspose.words/bookmarkend/)ควรส่งผ่าน.
+   1. เมื่อต้องการส่งข้อคิดเห็นควรใช้โหนด[CommentRangeStart](https://reference.aspose.com/words/java/com.aspose.words/commentrangestart/)และ[CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/).
+1. **IsInclusive**. กำหนดว่าเครื่องหมายจะรวมอยู่ในการสกัดหรือไม่ นูป๊อปอัปที่จะให้เลือกความช่วยเหลือหากต้องการทดสอบให้คลิกเมาส์ปุ่มขวาบนที่ใดๆของข้:
 
-      1. ถ้า **FieldStart** ผ่านโหนดแล้วตัวเลือกนี้กําหนดว่าสนามทั้งหมดจะถูกรวมหรือตัดออก
-      1. ถ้า **BookmarkStart** หรือ **BookmarkEnd** ผ่านโหนดแล้ว ตัวเลือกนี้จะกําหนดว่าคั่นหน้าถูกรวมไว้หรือไม่ หรือเป็นเพียงเนื้อหาระหว่างช่วงของคั่นหน้า
-      1. ถ้า **CommentRangeStart** หรือ **CommentRangeEnd** ผ่านโหนดแล้ว ตัวเลือกนี้จะกําหนดว่าหมายเหตุนั้น จะรวมเข้าไปด้วยหรือไม่ หรือแค่เนื้อหาในส่วนหมายเหตุ
+      1. ถ้าโหนด**FieldStart**ถูกส่งผ่านแล้วตัวเลือกนี้จะกำหนดว่าฟิลด์ทั้งหมดจะถูกรวมหรือยกเว้น.
+      1. ถ้าโหนด**BookmarkStart**หรือ**BookmarkEnd**ถูกส่งผ่านตัวเลือกนี้จะกำหนดว่าบุ๊กมาร์กถูกรวมหรือเพียงเนื้อหาระหว่างช่.
+      1. ถ้าโหนด**CommentRangeStart**หรือ**CommentRangeEnd**ถูกส่งผ่านอ็อพชันนี้จะกำหนดว่าต้องการรวมความคิดเห็นหรือเฉพาะเนื้อหาใ.
 
-การปฏิบัติของ **ExtractContent** วิธีการต่าง ๆ ที่คุณสามารถหา [ที่นี่](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/DocsExamples/Java/src/main/java/DocsExamples/Programming_with_documents/Contents_management/ExtractContentHelper.java). จะ มี การ กล่าว ถึง วิธี การ นี้ ใน บทความ นี้.
+การดำเนินการของ**ExtractContent**วิธีที่คุณสามารถหา [ที่นี่](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/DocsExamples/Java/src/main/java/DocsExamples/Programming_with_documents/Contents_management/ExtractContentHelper.java). วิธีการนี้จะถูกอ้างถึงในสถานการณ์ในบทความนี้.
 
-เราจะนิยามวิธีการตั้งเอง เพื่อสร้างเอกสารได้อย่างง่ายดาย จากโหนดที่สกัดออกมา วิธี นี้ ใช้ ใน หลาย ฉาก เหตุ การณ์ ข้าง ล่าง นี้ และ เพียง แต่ สร้าง เอกสาร ใหม่ และ นํา ข้อ ความ ที่ สกัด ออก มา เข้า ไป.
+นอกจากนี้เรายังจะกำหนดวิธีการที่กำหนดเองเพื่อให้ง่ายต่อการสร้างเอกสารจากโหนด วิธีนี้ถูกใช้ในหลายสถานการณ์ด้านล่างและเพียงแค่สร้างเอกสารใหม่และนำเข้าเนื้อหาที่.
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีการนํารายการของโหนด และแทรกมันเข้าไปในเอกสารใหม่:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีใช้รายการของโหนดและแทรกลงในเอกสารใหม่:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "generate-document.java" >}}
 
-## คลายเนื้อหาระหว่างย่อหน้า
+## แยกเนื้อหาระหว่างย่อหน้า
 
-นี่ แสดง ให้ เห็น วิธี ใช้ วิธี การ ต่าง ๆ ที่ กล่าว ข้าง บน เพื่อ สกัด เอา เนื้อหา ระหว่าง วรรค เฉพาะ. ใน กรณี นี้ เรา ต้องการ ดึง เอา ตัว อักษร ที่ พบ ใน ครึ่ง แรก ของ เอกสาร นั้น ออก มา. เราบอกได้ว่ามันอยู่ระหว่าง 7 กับ 11 ข้อ.
+นี้แสดงให้เห็นถึงวิธีการใช้วิธีการข้างต้นเพื่อดึงเนื้อหาระหว่างย่อหน้าที่ ในกรณีนี้เราต้องการที่จะดึงร่างกายของตัวอักษรที่พบในช่วงครึ่งแรกของเอกสาร เราสามารถบอกได้ว่านี่คือระหว่าง 7 และ 11 ย่อหน้า.
 
-รหัสข้างล่างทําให้งานนี้สําเร็จ มี การ สกัด วรรค ที่ เหมาะ สม โดย ใช้ [getChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChild-int-int-boolean) วิธีการบนเอกสารและผ่านการระบุ จากนั้นเราส่งโหนดเหล่านี้ไปยัง **ExtractContent** วิธีการและสถานะเหล่านี้ จะรวมอยู่ในการสกัด วิธีการนี้จะคืนค่าเนื้อหาที่คัดลอกมาระหว่างโหนดเหล่านี้ ซึ่งจะแทรกเข้าไปในเอกสารใหม่
+รหัสด้านล่างทำงานนี้สำเร็จ ย่อหน้าที่เหมาะสมจะถูกแยกออกโดยใช้วิธีการ[getChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChild-int-int-boolean)บนเอกสารและส่งผ่านดัชนีที่ระบุ จากนั้นเราจะส่งผ่านโหนดเหล่านี้ไปยัง**ExtractContent**วิธีการและรัฐที่เหล่านี้จะรวมอยู่ในการสกัด. เมธอดนี้จะส่งคืนเนื้อหาที่คัดลอกระหว่างโหนดเหล่านี้ซึ่งถูกแทรกลงในเอกสารใหม่.
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแยกเนื้อหาระหว่างย่อหน้าเฉพาะโดยใช้ `ExtractContent` วิธีการด้านบน:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแยกเนื้อหาระหว่างย่อหน้าที่โดยใช้วิธีการ`ExtractContent`ด้านบน:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-paragraphs.java" >}}
 
 {{% alert color="primary" %}}
 
-คุณสามารถดาวน์โหลดแฟ้มตัวอย่างของตัวอย่างนี้ได้ [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
+คุณสามารถดาวน์โหลดไฟล์ตัวอย่างของตัวอย่างนี้ได้จาก [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
-เอกสาร ที่ ส่ง ออก มี สอง วรรค ที่ สกัด ได้.
+เอกสารผลลัพธ์ประกอบด้วยสองย่อหน้าที่ถูกแยกออก.
 
 ![extract-content-result-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-2.png)
 
-## คลายเนื้อหาระหว่างประเภทต่างๆ ของโหนด
+## แยกเนื้อหาระหว่างโหนดประเภทต่างๆ
 
-เราสามารถแยกเนื้อหา ระหว่างการผสมใด ๆ ของระดับบล็อกหรือในบรรทัดโหนด ในสถานการณ์ด้านล่างนี้ เราจะแยกเนื้อหาระหว่างย่อหน้าแรกกับส่วนที่สองอย่างไม่รวม เราได้โหนดเครื่องหมายด้วยการโทร [getFirstParagraph](https://reference.aspose.com/words/java/com.aspose.words/body/#getFirstParagraph) ถึง [getChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChild-int-int-boolean) วิธีการในส่วนที่สองของเอกสารเพื่อเรียกค่าที่เหมาะสม **Paragraph** ถึง **Table** โหนด สําหรับ ความ แตก ต่าง เล็ก น้อย ให้ เรา เลียน แบบ เนื้อหา แล้ว สอด ไว้ ใต้ ต้น ฉบับ.
+เราสามารถแยกเนื้อหาระหว่างชุดใดๆของโหนดระดับบล็อกหรือแบบอินไลน์ ในสถานการณ์สมมตินี้ด้านล่างเราจะแยกเนื้อหาระหว่างย่อหน้าแรกและตารางในส่วนที่ส เราได้รับโหนดเครื่องหมายโดยการเรียก[getFirstParagraph](https://reference.aspose.com/words/java/com.aspose.words/body/#getFirstParagraph)และ[getChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChild-int-int-boolean)วิธีการในส่วนที่สองของเอกสารที่จะดึงที่เหมาะสม**Paragraph**และ**Table**โหนด สำหรับรูปแบบเล็กน้อยให้แทนซ้ำเนื้อหาและแทรกไว้ด้านล่างเดิม.
 
-ตัวอย่างโค้ดต่อไปนี้แสดงวิธีการแยกเนื้อหาระหว่างย่อหน้าและตารางโดยใช้ **ExtractContent** วิธีการ:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแยกเนื้อหาระหว่างย่อหน้าและตารางโดยใช้วิธีการ**ExtractContent**:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-block-level-nodes.java" >}}
 
 {{% alert color="primary" %}}
 
-คุณสามารถดาวน์โหลดแฟ้มตัวอย่างของตัวอย่างนี้ได้ [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
+คุณสามารถดาวน์โหลดไฟล์ตัวอย่างของตัวอย่างนี้ได้จาก [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
-ผล ก็ คือ เนื้อ ความ ระหว่าง วรรค และ ตาราง ได้ รับ การ เลียน แบบ.
+เนื้อหาระหว่างย่อหน้าและตารางได้รับการทำซ้ำด้านล่างเป็นผล.
 
 ![extract-content-between-paragraphs-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-3.png)
 
-## คลายเนื้อหาระหว่างย่อหน้า มาจากรูปแบบ
+## สารสกัดจากเนื้อหาระหว่างย่อหน้าขึ้นอยู่กับรูปแบบ
 
-คุณ อาจ จําเป็น ต้อง ดึง เอา เนื้อ ความ ระหว่าง วรรค ต่าง ๆ ที่ มี ลักษณะ อย่าง เดียว กัน หรือ ต่าง ๆ กัน ออก มา เช่น ระหว่าง วรรค ที่ มี เครื่องหมาย หัว เรื่อง.
+คุณอาจต้องแยกเนื้อหาระหว่างย่อหน้าของสไตล์เดียวกันหรือแตกต่างกันเช่นระหว่างย่อห.
 
-รหัสข้างล่างแสดงให้เห็นว่าจะทําสําเร็จได้อย่างไร เป็นตัวอย่างง่ายๆ ที่จะสกัดเอาเนื้อหาจากตัวอย่างแรกของ "Hading 1" และ "hader 3" แบบโดยไม่ต้องดึงหัวกระดาษออกมาเช่นกัน ในการทําอย่างนี้ เราตั้งพารามิเตอร์สุดท้าย false, ซึ่งกําหนดว่า ห้ามรวมโหนดที่ทําเครื่องหมายไว้
+นล่างแสดงให้เห็นถึงวิธีการเพื่อให้บรรลุนี้. มันเป็นตัวอย่างง่ายๆที่จะดึงเนื้อหาระหว่างตัวอย่างแรกของ"Heading 1"และ"ส่วนหัว 3"รูปแบบโดยไม่ต้องแยกส่วนหัวเช่นกัน การทำเช่นนี้เราตั้งค่าพารามิเตอร์ที่ผ่านมาเป็นเท็จซึ่งระบุว่าโหนดเครื่องหมายไม่ควรรว.
 
-ในการจัดรูปแบบที่เหมาะสม ตัวเลือกนี้ควรจะทํางานเป็นวนรอบเพื่อแยกเนื้อหาระหว่างแต่ละย่อหน้าของรูปแบบเหล่านี้ออกจากเอกสาร เนื้อหาที่สกัดออกมาจะถูกคัดลอกเป็นเอกสารใหม่
+ในการใช้งานที่เหมาะสมนี้ควรจะรันในวงเพื่อแยกเนื้อหาระหว่างย่อหน้าทั้งหมดของลักษณ เนื้อหาที่แยกจะถูกคัดลอกลงในเอกสารใหม่.
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแยกเนื้อหาระหว่างย่อหน้าที่มีรูปแบบเฉพาะโดยใช้ **ExtractContent** วิธีการ:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแยกเนื้อหาระหว่างย่อหน้าที่มีลักษณะเฉพาะโดยใช้วิธีการ**ExtractContent**:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-paragraph-styles.java" >}}
 
@@ -136,169 +137,169 @@ url: /th/java/extract-selected-content-between-nodes/
 
 {{% alert color="primary" %}}
 
-คุณสามารถดาวน์โหลดแฟ้มตัวอย่างของตัวอย่างนี้ได้ [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
+คุณสามารถดาวน์โหลดไฟล์ตัวอย่างของตัวอย่างนี้ได้จาก [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
-ข้าง ล่าง นี้ เป็น ผล จาก การ ผ่าตัด ครั้ง ก่อน.
+ด้านล่างเป็นผลมาจากการดำเนินการก่อนหน้านี้.
 
 ![extract-content-between-paragraph-style-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-4.png)
 
-## คลายเนื้อหาระหว่างการทํางานเฉพาะ
+## แยกเนื้อหาระหว่างการทำงานที่เฉพาะเจาะจง
 
-คุณสามารถแยกเนื้อหาระหว่างโหนดในบรรทัด เช่น **Run** เช่นกัน **Runs** จาก วรรค ต่าง ๆ สามารถ ผ่าน ออก มา เป็น เครื่องหมาย. รหัสด้านล่างนี้แสดงวิธีแยกข้อความเฉพาะระหว่างตัวเดียวกัน **Paragraph** โหนด
+คุณสามารถแยกเนื้อหาระหว่างโหนดอินไลน์เช่น**Run**ได้เป็นอย่างดี **Runs**จากย่อหน้าต่างๆสามารถส่งผ่านเป็นเครื่องหมาย รหัสด้านล่างแสดงวิธีการแยกข้อความเฉพาะในระหว่างโหนด**Paragraph**เดียวกัน.
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแยกเนื้อหาระหว่างแต่ละการทํางานเฉพาะของย่อหน้าเดียวกันโดยใช้ **ExtractContent** วิธีการ:
+ตัวอย่างโค้ดต่อไปนี้แสดงวิธีแยกเนื้อหาระหว่างการทำงานเฉพาะของย่อหน้าเดียวกันโดยใช้เมธอด **ExtractContent**:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-runs.java" >}}
 
 {{% alert color="primary" %}}
 
-คุณสามารถดาวน์โหลดแฟ้มตัวอย่างของตัวอย่างนี้ได้ [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
+คุณสามารถดาวน์โหลดไฟล์ตัวอย่างของตัวอย่างนี้ได้จาก [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
-ข้อความที่ถูกสกัดออกมาจะถูกแสดงบนคอนโซล
+ข้อความที่แยกจะแสดงบนคอนโซล
 
 ![extract-content-between-runs-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-5.png)
 
-## คลายเนื้อหาโดยใช้ช่องข้อมูล
+## แยกเนื้อหาโดยใช้ฟิลด์
 
-ใช้สนามเป็นเครื่องหมาย `FieldStart` โหนดควรจะผ่าน พารามิเตอร์สุดท้าย `ExtractContent` วิธีการจะกําหนดว่าสนามทั้งหมดจะรวมหรือไม่ ให้ เรา ดึง เอา เนื้อ ความ ระหว่าง "ชื่อ เสียง " มา รวม ทั้ง วรรค ใน เอกสาร. เราใช้ [moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField(java.lang.String)วิธีของ [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) ชั้นเรียน. นี่จะคืน **FieldStart** โหนดจากชื่อของสนามรวมที่ส่งต่อไป
+เมื่อต้องการใช้ฟิลด์เป็นเครื่องหมายโหนด`FieldStart`ควรส่งผ่าน พารามิเตอร์สุดท้ายของวิธีการ`ExtractContent`จะกำหนดว่าฟิลด์ทั้งหมดจะรวมหรือไม่ ลองดึงเนื้อหาระหว่างฟิลด์"FullName"ผสานและย่อหน้าในเอกสาร เราใช้วิธีการ[moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField(java.lang.String))ของ[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)ชั้น นี้จะส่งคืนโหนด**FieldStart**จากชื่อของฟิลด์ผสานที่ส่งผ่านไปยังโหนดนั้น.
 
-ในกรณีของเรา ให้ตั้งพารามิเตอร์สุดท้ายผ่าน **ExtractContent** วิธีการ false เพื่อป้องกันการสกัดกั้น เราจะส่งเนื้อหาที่สกัดมาจาก PDF
+ในกรณีของเราให้ตั้งค่าพารามิเตอร์ที่ผ่านมาผ่านไป**ExtractContent**วิธีการที่จะเป็นเท็จที่จะไม่รวมสนาม เราจะแสดงเนื้อหาที่สกัดเป็นPDF.
 
-ตัวอย่างโค้ดต่อไปนี้แสดงวิธีการแยกเนื้อหาระหว่างสนามและย่อหน้าเฉพาะในเอกสาร **ExtractContent** วิธีการ:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแยกเนื้อหาระหว่างฟิลด์ที่เฉพาะเจาะจงและย่อหน้าในเอกสารโดยใช้วิธีการ**ExtractContent**:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-using-field.java" >}}
 
 {{% alert color="primary" %}}
 
-คุณสามารถดาวน์โหลดแฟ้มตัวอย่างของตัวอย่างนี้ได้ [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
+คุณสามารถดาวน์โหลดไฟล์ตัวอย่างของตัวอย่างนี้ได้จาก [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
-เนื้อหาที่สกัดได้ระหว่างสนามและย่อหน้า โดยไม่ต้องมีโหนดของช่องและย่อหน้าที่ถูกแปลเป็น PDF
+เนื้อหาที่แยกระหว่างฟิลด์และย่อหน้าโดยไม่มีโหนดเครื่องหมายฟิลด์และย่อหน้าแสดงผลเป็นPDF.
 
 ![extract-content-using-field-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-6.png)
 
-## คลายเนื้อหาออกจากที่คั่นหน้า
+## แยกเนื้อหาจากบุ๊กมาร์ก
 
-ในเอกสาร เนื้อหาที่ถูกนิยามภายในที่คั่นหน้า ถูกบรรจุโดย `BookmarkStart` และโหนดของที่คั่นหน้า เนื้อหาที่พบระหว่างโหนดทั้งสองนี้ ประกอบกันเป็นที่คั่นหน้า คุณสามารถผ่านโหนดใด ๆ เหล่านี้เป็นเครื่องหมายใด ๆ แม้แต่จากที่คั่นหน้าที่แตกต่างกัน ตราบใดที่เครื่องหมายเริ่มต้นปรากฏก่อนที่เครื่องหมายสิ้นสุดในเอกสาร
+ในเอกสารเนื้อหาที่กำหนดภายในบุ๊กมาร์กถูกห่อหุ้มโดยโหนด`BookmarkStart`และBookmarkEnd เนื้อหาที่พบระหว่างทั้งสองโหนดทำขึ้นที่คั่นหน้าเว็บ คุณสามารถส่งผ่านโหนดใดๆเหล่านี้เป็นเครื่องหมายใดๆแม้แต่คนจากบุ๊กมาร์กที่แตกต่างกันต.
 
-ในเอกสารตัวอย่างของเรา เรามีที่คั่นหน้า 1 เล่ม ชื่อ "Bookmarks1". เนื้อหาของที่คั่นหน้านี้ ถูกเน้นเนื้อหาในเอกสารของเรา:
+ในเอกสารตัวอย่างของเราเรามีบุ๊คมาร์คหนึ่งชื่อ"บุ๊คมาร์ค 1" เนื้อหาของบุ๊กมาร์กนี้จะถูกเน้นเนื้อหาในเอกสารของเรา:
 
 ![extract-content-from-bookmark-aspose-words-java-1](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-7.png)
 
-เราจะแยกเนื้อหาออกเป็นเอกสารใหม่ โดยใช้รหัสด้านล่างนี้ เดอะ **IsInclusive** ตัวเลือกของพารามิเตอร์ จะแสดงวิธีการรักษาหรือละทิ้งคั่นหน้า
+เราจะดึงเนื้อหานี้ลงในเอกสารใหม่โดยใช้รหัสด้านล่าง ตัวเลือกพารามิเตอร์**IsInclusive**จะแสดงวิธีเก็บรักษาหรือยกเลิกบุ๊กมาร์ก.
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีการแยกเนื้อหาที่อ้างถึงที่คั่นหน้าโดยใช้ **ExtractContent** วิธีการ:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแยกเนื้อหาที่อ้างอิงบุ๊กมาร์กโดยใช้วิธีการ**ExtractContent**:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-bookmark.java" >}}
 
 {{% alert color="primary" %}}
 
-คุณสามารถดาวน์โหลดแฟ้มตัวอย่างของตัวอย่างนี้ได้ [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
+คุณสามารถดาวน์โหลดไฟล์ตัวอย่างของตัวอย่างนี้ได้จาก [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
-การแสดงผลที่สกัดมาจาก `IsInclusive` พารามิเตอร์ต่าง ๆ ที่ตั้งไว้ true. สําเนานี้จะเก็บที่คั่นหน้าไว้ด้วย
+เอาต์พุตที่แยกกับพารามิเตอร์`IsInclusive`ตั้งค่าเป็นจริง สำเนาจะเก็บบุ๊กมาร์กไว้เช่นกัน.
 
 ![extract-content-from-bookmark-aspose-words-java-2](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-8.png)
 
-การแสดงผลที่สกัดมาจาก **IsInclusive** พารามิเตอร์ต่าง ๆ ที่ตั้งไว้ false. สําเนานี้มีเนื้อหา แต่ไม่มีคั่นหน้า
+เอาต์พุตที่แยกกับพารามิเตอร์**IsInclusive**ตั้งค่าเป็นเท็จ สำเนาประกอบด้วยเนื้อหาแต่ไม่มีบุ๊กมาร์ก.
 
 ![extract-content-from-bookmark-aspose-words-java-3](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-9.png)
 
-## คลายเนื้อหาออกจากหมายเหตุ
+## แยกเนื้อหาจากความคิดเห็น
 
-ความคิดเห็นประกอบด้วย หมายเหตุ Rangge Staret, หมายเหตุ Rangeend and complex โหนด. โหนดทั้งหมดอยู่ในสาย สอง โหนด แรก จะ รวม เนื้อหา ไว้ ใน เอกสาร ซึ่ง มี การ อ้าง ถึง โดย คํา อธิบาย ดัง ที่ เห็น ใน ภาพ ช็อต ภาพ ข้าง ล่าง.
+ความคิดเห็นถูกสร้างขึ้นจากCommentRangeStart,CommentRangeEndและโหนดความคิดเห็น ทั้งหมดของโหนดเหล่านี้เป็นแบบอินไลน์ สองโหนดแรกแคปซูลเนื้อหาในเอกสารที่มีการอ้างอิงโดยความคิดเห็น,เท่าที่เห็นในภาพหน้าจอด้านล่าง.
 
-เดอะ **Comment** โหนดเองก็คือ [InlineStory](https://reference.aspose.com/words/java/com.aspose.words/inlinestory/) ซึ่งสามารถบรรจุ paragraph และทํางาน คํา นี้ แสดง ถึง ข่าวสาร ของ ความ คิด เห็น ดัง ที่ เห็น เป็น ฟอง เสียง ที่ อยู่ ใน ช่อง ทบทวน. และลูกหลานของร่างกาย คุณสามารถดึงเนื้อหาจากภายในข้อความนี้ได้เช่นกัน
+โหนด**Comment**ตัวเองเป็น[InlineStory](https://reference.aspose.com/words/java/com.aspose.words/inlinestory/)ที่สามารถประกอบด้วยย่อหน้าและรัน มันหมายถึงข้อความของความคิดเห็นที่เห็นเป็นฟองความคิดเห็นในบานหน้าต่างการตรวจ เป็นโหนดนี้เป็นแบบอินไลน์และลูกหลานของร่างกายคุณยังสามารถดึงเนื้อหาจากภายในข้.
 
-ในเอกสารของเราเรามีหนึ่งความคิดเห็น ให้ เรา แสดง ความ รัก โดย แสดง เครื่องหมาย ใน แท็บ ทบทวน:
+ในเอกสารของเราเรามีหนึ่งความคิดเห็น ลองแสดงโดยการแสดงมาร์กอัปในแท็บรีวิว:
 
 ![extract-content-from-comment-aspose-words-java-1](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-10.png)
 
-คํา อธิบาย นี้ รวม จุด หัว เรื่อง ข้อ แรก และ ตาราง ใน ตอน ที่ สอง. ให้ เรา ดึง ความ เห็น นี้ ออก มา เป็น เอกสาร ใหม่. เดอะ **IsInclusive** ตัวเลือกต่าง ๆ จะกําหนดว่า ส่วนหมายเหตุนั้นจะถูกคงไว้หรือไม่
+ความคิดเห็นที่ห่อหุ้มหัวข้อ,ย่อหน้าแรกและตารางในส่วนที่สอง. ลองดึงความคิดเห็นนี้ลงในเอกสารใหม่ อ็อพชัน**IsInclusive**จะบอกถ้าความคิดเห็นถูกเก็บไว้หรือถูกยกเลิก.
 
-ตัวอย่างรหัสต่อไปนี้ แสดงให้เห็นว่าจะทําอย่างไร
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการทำเช่นนี้อยู่ด้านล่าง:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-comment-range.java" >}}
 
 {{% alert color="primary" %}}
 
-คุณสามารถดาวน์โหลดแฟ้มตัวอย่างของตัวอย่างนี้ได้ [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
+คุณสามารถดาวน์โหลดไฟล์ตัวอย่างของตัวอย่างนี้ได้จาก [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
-ผลที่สกัดมาจาก `IsInclusive` พารามิเตอร์ต่าง ๆ ที่ตั้งไว้ true. สําเนา นี้ จะ บรรจุ คํา อธิบาย ไว้ ด้วย.
+ประการแรกผลลัพธ์ที่สกัดด้วยพารามิเตอร์`IsInclusive`ตั้งเป็นจริง สำเนาจะมีความคิดเห็นเช่นกัน.
 
 ![extract-content-from-comment-aspose-words-java-2](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-11.png)
 
-ผล งาน ที่ สกัด ออก มา เป็น ประการ ที่ สอง **ไม่รวม** ตั้งเป็น false. สําเนา นี้ บรรจุ เนื้อหา แต่ ไม่ มี คํา อธิบาย.
+ประการที่สองเอาต์พุตสกัดด้วย**isInclusive**ตั้งเป็นเท็จ สำเนาประกอบด้วยเนื้อหาแต่ไม่มีความคิดเห็น.
 
 ![extract-content-from-comment-aspose-words-java-12](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-12.png)
 
-## คลายเนื้อหาโดยใช้ตัวจัดการเอกสาร
+## แยกเนื้อหาโดยใช้DocumentVisitor
 
-Aspose.Words ไม่เพียงสามารถใช้ในการสร้าง Microsoft Word เอกสาร โดย การ สร้าง สําเนา ต้น แบบ แบบ ที่ มี ความ สลับ ซับ ซ้อน หรือ รวม เข้า ด้วย กัน ด้วย ข้อมูล แต่ ก็ เป็น เอกสาร ต่าง ๆ เพื่อ แยก ชิ้น ส่วน ต่าง ๆ ของ เอกสาร เช่น headers, footers, para, ตาราง, ภาพ, และ อื่น ๆ. ภารกิจอื่นที่เป็นไปได้ คือค้นหาข้อความทั้งหมดของการฟอร์แมตหรือรูปแบบเฉพาะ
+Aspose.Wordsสามารถใช้ได้ไม่เพียงแต่สำหรับการสร้างเอกสารMicrosoft Wordโดยการสร้างเอกสารแบบไดนามิกหรื อีกงานที่เป็นไปได้คือการหาข้อความทั้งหมดของการจัดรูปแบบที่เฉพาะเจาะจงหรือรูปแบ.
 
-ใช้ [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) คลาสที่จะใช้สถานการณ์การใช้งานนี้ คลาสนี้ตรงกับรูปแบบการออกแบบผู้เข้าชมที่มีชื่อเสียง ด้วย [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/)คุณสามารถกําหนดและดําเนินการดําเนินการตามธรรมเนียมได้ ซึ่งต้องการการเผาผลาญเหนือต้นไม้
+ใช้คลาส[DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/)เพื่อใช้สถานการณ์การใช้งานนี้ ชั้นนี้สอดคล้องกับรูปแบบการออกแบบของผู้เข้าชมที่รู้จักกันดี ด้วย[DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/)คุณสามารถกำหนดและดำเนินการการดำเนินงานแบบกำหนดเองที่ต้องการการแจง.
 
-[DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) ให้ชุดของ **VisitXXX** วิธีการที่จะเรียกดู เมื่อมีการพบธาตุของเอกสารเฉพาะ (node) ยกตัวอย่างเช่น [VisitParagraphStart](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphStart-com.aspose.words.Paragraph) จะเรียกเมื่อเริ่มต้นของย่อหน้าข้อความและ [VisitParagraphEnd](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphEnd-com.aspose.words.Paragraph) จะ เรียก ได้ เมื่อ พบ ตอน ท้าย ของ ข้อ ความ. แต่ละ **DocumentVisitor.VisitXXX** วิธีการยอมรับวัตถุที่ตรงกับความเป็นจริง ที่มันพบเพื่อให้คุณสามารถใช้มันได้ตามต้องการ (เช่น เรียกรูปแบบ), เช่น ทั้งคู่ [VisitParagraphStart](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphStart-com.aspose.words.Paragraph) ถึง [VisitParagraphEnd](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphEnd-com.aspose.words.Paragraph) ยอมรับ [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) วัตถุ
+[DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/)ให้ชุดของ**VisitXXX**เมธอดที่ถูกเรียกใช้เมื่อพบองค์ประกอบของเอกสาร(โหนด)โดยเฉพาะอย่างยิ่ง ตัวอย่างเช่น[VisitParagraphStart](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphStart-com.aspose.words.Paragraph)ถูกเรียกเมื่อพบจุดเริ่มต้นของย่อหน้าข้อความและ[VisitParagraphEnd](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphEnd-com.aspose.words.Paragraph)ถูกเรียกเมื่อพบจุดสิ้นสุดของย่อหน้าข้อความ แต่ละวิธี**DocumentVisitor.VisitXXX**จะยอมรับวัตถุที่สอดคล้องกันซึ่งพบเพื่อให้คุณสามารถใช้ได้ตามต้องการ(พูดเรียกการจัดรูปแบบ)เช่นทั้ง[VisitParagraphStart](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphStart-com.aspose.words.Paragraph)และ[VisitParagraphEnd](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphEnd-com.aspose.words.Paragraph)acceptวัตถุ[Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/).
 
-แต่ละ **DocumentVisitor.VisitXXX** วิธีการคืนค่ากลับมาเป็น a **VisitorAction** ค่าที่ควบคุมการเผาผลาญของโหนด คุณสามารถร้องขอต่อได้ทั้งการดูดซึม, ข้ามโหนดปัจจุบัน (แต่ยังคงเติมเชื้อเพลิงอยู่) หรือหยุดการเผาผลาญของโหนด
+แต่ละเมธอด**DocumentVisitor.VisitXXX**จะส่งคืนค่า**VisitorAction**ที่ควบคุมการแจงนับของโหนด คุณสามารถร้องขออย่างใดอย่างหนึ่งเพื่อดำเนินการต่อการนับข้ามโหนดปัจจุบัน(แต่ยังคง.
 
-ขั้น ตอน เหล่า นี้ เป็น สิ่ง ที่ คุณ ควร ทํา เพื่อ ทํา การ ตัดสิน อย่าง เป็น ระบบ และ สกัด ส่วน ต่าง ๆ ของ เอกสาร:
+เหล่านี้เป็นขั้นตอนที่คุณควรปฏิบัติตามเพื่อตรวจสอบและแยกส่วนต่างๆของเอกสาร:
 
-- สร้างคลาสที่ได้มาจาก [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/).
-- โอเวอร์ไรด์และจัดหาอุปกรณ์สําหรับบางคนหรือทั้งหมด **DocumentVisitor.VisitXXX** วิธีการในการดําเนินการที่กําหนดเอง
-- เรียก [Node.accept](https://reference.aspose.com/words/java/com.aspose.words/node/#accept-com.aspose.words.DocumentVisitor) บนโหนดจากที่ที่คุณต้องการ เริ่มการเผาผลาญ ตัวอย่างเช่น ถ้าคุณอยากนับเอกสารทั้งหมด ใช้ [accept(DocumentVisitor)](https://reference.aspose.com/words/java/com.aspose.words/document/#accept-com.aspose.words.DocumentVisitor).
+- สร้างคลาสที่ได้มาจาก[DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/).
+- แทนที่และจัดเตรียมการนำไปใช้สำหรับวิธีการ**DocumentVisitor.VisitXXX**บางอย่างหรือทั้งหมดเพื่อดำเนินการดำเนิ.
+- โทร[Node.accept](https://reference.aspose.com/words/java/com.aspose.words/node/#accept-com.aspose.words.DocumentVisitor)บนโหนดจากตำแหน่งที่คุณต้องการเริ่มต้นการแจงนับ ตัวอย่างเช่นถ้าคุณต้องการระบุเอกสารทั้งหมดให้ใช้[accept(DocumentVisitor)](https://reference.aspose.com/words/java/com.aspose.words/document/#accept-com.aspose.words.DocumentVisitor).
 
-[DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) แสดงผลปริยายสําหรับทั้งหมด **DocumentVisitor.VisitXXX** วิธี การ ทํา เช่น นี้ ทํา ให้ ง่าย ขึ้น ที่ จะ สร้าง เอกสาร ฉบับ ใหม่ ซึ่ง เป็น วิธี เฉพาะ สําหรับ ผู้ มา เยือน ที่ จําเป็น ต้อง ทํา มาก เกิน ไป. ไม่ จําเป็น ต้อง เปลี่ยน วิธี การ เข้า ชม ทุก อย่าง.
+[DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/)จัดเตรียมการติดตั้งดีฟอลต์สำหรับเมธอด**DocumentVisitor.VisitXXX**ทั้งหมด นี้ทำให้ง่ายต่อการสร้างผู้เข้าชมเอกสารใหม่เป็นเพียงวิธีการที่จำเป็นสำหรับผู้เข้าชมเฉ ไม่จำเป็นต้องแทนที่ทั้งหมดของวิธีการเข้าชม.
 
-ตัวอย่างต่อไปนี้แสดงวิธีการใช้รูปแบบการเข้าชมเพื่อเพิ่มการดําเนินการใหม่ Aspose.Words โมเดลวัตถุ ในกรณีนี้ เราสร้างตัวแปลงเอกสารแบบง่ายๆ ให้เป็นรูปแบบข้อความ
+ตัวอย่างต่อไปนี้แสดงวิธีการใช้รูปแบบผู้เยี่ยมชมเพื่อเพิ่มการดำเนินงานใหม่กับรุ่นออบเจกต์Aspose.Words ในกรณีนี้เราสร้างแปลงเอกสารที่เรียบง่ายในรูปแบบข้อความ:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-using-document-visitor.java" >}}
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "convert-doc-to-txt.java" >}}
 
-## คลายข้อความ เท่านั้น
+## แยกข้อความเท่านั้น
 
-วิธีการรับข้อความจากเอกสารคือ:
+วิธีการดึงข้อความจากเอกสารมีดังนี้:
 
-- ใช้ [Document.save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-com.aspose.words.SaveOptions) ด้วย [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) เพื่อบันทึกข้อความธรรมดาลงในแฟ้มหรือสายข้อมูล
-- ใช้ [Node.toString](https://reference.aspose.com/words/java/com.aspose.words/node/#toString-com.aspose.words.SaveOptions) และผ่าน `SaveFormat.Text` พารามิเตอร์ ภายในนั้น จะทําการเรียกข้อความให้บันทึกเป็นข้อความไปยังสายหน่วยความจํา และตอบกลับข้อความผลลัพธ์
-- ใช้ [Node.getText](https://reference.aspose.com/words/java/com.aspose.words/node/#getText) เพื่อรับข้อความที่มีทั้งหมด Microsoft Word อักขระควบคุม รวมถึงรหัสช่องข้อมูลด้วย
-- ทําทานตามธรรมเนียม [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) เพื่อทําการคลายแฟ้มเอง
+- ใช้[Document.save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-com.aspose.words.SaveOptions)ด้วย[SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)เพื่อบันทึกเป็นข้อความธรรมดาลงในแฟ้มหรือสตรีม
+- ใช้[Node.toString](https://reference.aspose.com/words/java/com.aspose.words/node/#toString-com.aspose.words.SaveOptions)และส่งพารามิเตอร์`SaveFormat.Text` ภายในนี้เรียกบันทึกเป็นข้อความลงในกระแสหน่วยความจำและส่งกลับสตริงผลลัพธ์
+- ใช้[Node.getText](https://reference.aspose.com/words/java/com.aspose.words/node/#getText)เพื่อดึงข้อความที่มีอักขระควบคุมทั้งหมดMicrosoft Wordรวมทั้งรหัสฟิลด์
+- ใช้แบบกำหนดเอง[DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/)เพื่อทำการสกัดแบบกำหนดเอง
 
-### ใช้ `Node.GetText` ถึง `Node.ToString`
+### ใช้`Node.GetText`และ`Node.ToString`
 
-A เอกสารคําสามารถบรรจุอักขระที่ใช้ระบุองค์ประกอบพิเศษ เช่น สนาม, ปลายเซลล์, ปลายส่วน เป็นต้น รายการอักขระที่จะใช้ควบคุมคําเต็ม **ControlChar** ชั้นเรียน. เดอะ [GetText](https://reference.aspose.com/words/java/com.aspose.words/node/#getText) ฟังก์ชัน CHAR () จะคืนค่าเป็นอักขระที่มีรหัสตัวเลขตรงกับที่กําหนด
+เอกสารคำสามารถประกอบด้วยอักขระควบคุมที่กำหนดองค์ประกอบพิเศษเช่นฟิลด์สิ้นสุดข รายการอักขระตัวควบคุมคำที่เป็นไปได้ทั้งหมดจะถูกกำหนดในคลาสของ**ControlChar** เมธอด[GetText](https://reference.aspose.com/words/java/com.aspose.words/node/#getText)จะส่งคืนข้อความที่มีอักขระตัวควบคุมทั้งหมดที่อยู่ในโหนด.
 
-การเรียกกลับค่าข้อความธรรมดาของเอกสารโดยไม่มีการควบคุม สําหรับข้อมูลเพิ่มเติมเกี่ยวกับการส่งออกเป็นข้อความธรรมดา **Using SaveFormat.Text**.
+การโทรToStringจะส่งคืนการแสดงข้อความธรรมดาของเอกสารโดยไม่มีอักขระควบคุมเท่านั้น สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการส่งออกเป็นข้อความธรรมดาโปรดดูที่**Using SaveFormat.Text**.
 
-ตัวอย่างรหัสต่อไปนี้แสดงความแตกต่างระหว่างการเรียก **GetText** ถึง [ToString](https://reference.aspose.com/words/java/com.aspose.words/node/#toString) วิธีการบนโหนด:
+ตัวอย่างรหัสต่อไปนี้แสดงความแตกต่างระหว่างการโทร**GetText**และ[ToString](https://reference.aspose.com/words/java/com.aspose.words/node/#toString)เมธอดบนโหนด:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "simple-extract-text.java" >}}
 
-### ใช้ `SaveFormat.Text`
+### ใช้`SaveFormat.Text`
 
-ตัวอย่างนี้ จะบันทึกเอกสารดังต่อไปนี้:
+ตัวอย่างนี้บันทึกเอกสารดังนี้:
 
-- กรองอักขระและรหัสช่องข้อมูล, รูปแบบ, หมายเหตุ, จุดสิ้นสุดและหมายเหตุต่าง ๆ ที่อ้างถึง
-- แทนที่ท้ายย่อหน้า [ControlChar.Cr](https://reference.aspose.com/words/java/com.aspose.words/controlchar/) ตัวอักษรที่มี [ControlChar.CrLf](https://reference.aspose.com/words/java/com.aspose.words/controlchar/) รูปแบบ
-- ใช้การเข้ารหัสแบบ UTF8
+- กรองอักขระฟิลด์และรหัสฟิลด์,รูปร่าง,เชิงอรรถ,จุดสิ้นสุดและการอ้างอิงแสดงความคิดเห็น
+- แทนที่จุดสิ้นสุดของย่อหน้า[ControlChar.Cr](https://reference.aspose.com/words/java/com.aspose.words/controlchar/)อักขระด้วยชุดค่าผสม[ControlChar.CrLf](https://reference.aspose.com/words/java/com.aspose.words/controlchar/)
+- ใช้UTF8การเข้ารหัส
 
-ตัวอย่างโค้ดต่อไปนี้ จะแสดงวิธีการบันทึกเอกสารในรูปแบบ TXT:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการบันทึกเอกสารในรูปแบบTXT:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "docx-to-txt.java" >}}
 
-## คลายภาพจากรูปทรง
+## แยกภาพจากรูปร่าง
 
-คุณอาจจะจําเป็นต้องแยกเอกสารภาพต่าง ๆ เพื่อใช้ในการทําบางงาน Aspose.Words ให้คุณได้ทํามันเช่นกัน
+คุณอาจต้องดึงรูปภาพเอกสารเพื่อดำเนินการบางอย่าง Aspose.Wordsช่วยให้คุณสามารถทำเช่นนี้ได้เช่นกัน.
 
-ตัวอย่างรหัสต่อไปนี้ แสดงวิธีดึงภาพออกมาจากเอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแยกภาพจากเอกสาร:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-images.java" >}}

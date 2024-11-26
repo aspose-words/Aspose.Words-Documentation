@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET が提供する詳細な画像形状と高�
 type: docs
 weight: 300
 url: /ja/net/working-with-images/
+timestamp: 2024-05-02-11-51-44
 ---
 
 Aspose.Words を使用すると、ユーザーは非常に柔軟な方法で画像を操作できます。この記事では、画像を操作する可能性の一部のみを紹介します。

@@ -7,6 +7,7 @@ description: "Aspose.Words zamiast Java wdraża własny silnik układu stron umo
 type: docs
 weight: 10
 url: /pl/java/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words wdraża własny układ strony silnika. Przed zagłębieniem się w jego specyfikacje warto najpierw omówić dokument na wysokim szczeblu. Myśląc o dokumencie, użytkownicy zazwyczaj wyobrażają sobie wiele arkuszy papieru zawierających słowa, obrazy, tabele i wykresy. Dokumenty mogą być różnych typów, takich jak tekst, arkusze kalkulacyjne, slajdy, rysunki CAD, wykresy, a zatem mogą mieć zasadniczo różne układy. Większość aplikacji pozwala na wysyłanie dokumentów do drukarki; jest to moment, w którym użytkownik może rzeczywiście zobaczyć końcowy zamierzony wygląd dokumentu.
@@ -49,7 +50,7 @@ Układ strony oblicza, gdzie pojawi się tekst i jaka zawartość będzie za nim
 
 ![non_geometric_properties_aspose-words-java](/words/java/converting-to-fixed-page-format/converting-to-fixed-page-format-2.png)
 
-W <span notrans="<span notrans=" Aspose.Words"=""></span>", > użytkownik może poprosić o zbudowanie nowego układu strony lub aktualizację istniejącej. Oba te mogą być wykonywane przez [UpdatePageLayout](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout\(\)) metody dostarczonej przez [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) Klasa. Jeżeli układ strony nie istnieje, ale istnieje taka potrzeba (na przykład, gdy dokument jest eksportowany do formatu strony fixed), Aspose.Words automatycznie wywołają tę metodę. Jeśli jednak układ strony już istnieje, Aspose.Words będzie korzystać z istniejącego, aby uniknąć zużycia zasobów niezbędnych do jego aktualizacji. W tym przypadku, użytkownik musi zadzwonić `UpdatePageLayout` metoda, w celu zapewnienia aktualności układu strony z modelem dokumentu.
+W Aspose.Words, > użytkownik może poprosić o zbudowanie nowego układu strony lub aktualizację istniejącej. Oba te mogą być wykonywane przez [UpdatePageLayout](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout\(\)) metody dostarczonej przez [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) Klasa. Jeżeli układ strony nie istnieje, ale istnieje taka potrzeba (na przykład, gdy dokument jest eksportowany do formatu strony fixed), Aspose.Words automatycznie wywołają tę metodę. Jeśli jednak układ strony już istnieje, Aspose.Words będzie korzystać z istniejącego, aby uniknąć zużycia zasobów niezbędnych do jego aktualizacji. W tym przypadku, użytkownik musi zadzwonić `UpdatePageLayout` metoda, w celu zapewnienia aktualności układu strony z modelem dokumentu.
 
 ### Struktura dynamiczna
 

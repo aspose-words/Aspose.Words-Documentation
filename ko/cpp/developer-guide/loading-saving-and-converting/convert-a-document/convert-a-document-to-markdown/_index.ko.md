@@ -1,4 +1,4 @@
-﻿---
+---
 title: 문서를 다음으로 변환 Markdown 그 안에 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 문서를 다음으로 변환 Markdown
@@ -8,6 +8,7 @@ description: "지원되는 로드 형식의 문서를 다음과 같이 변환합
 keywords: how to convert a document to markdown c++, Convert doc to MD C++, convert DOCX to Markdown C++
 weight: 40
 url: /ko/cpp/convert-a-document-to-markdown/
+timestamp: 2024-10-21-08-52-03
 ---
 
 Markdown 텍스트를 마크업하고 추가로 변환하는 데 사용되는 인기있는 형식입니다. HTML, PDF, DOCX,또는 다른 형식. 많은 개발자가 문서 작성,블로그 게시 기사 준비,프로젝트 설명 등을 위해이 형식을 선택합니다.

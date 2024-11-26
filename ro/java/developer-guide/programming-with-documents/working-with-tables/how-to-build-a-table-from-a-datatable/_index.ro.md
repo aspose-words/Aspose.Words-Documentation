@@ -1,12 +1,13 @@
-﻿---
-title: Cum se construiește un tabel dintr-un `DataTable` în Java
+---
+title: Cum se construiește un tabel dintr-un DataTable în Java
 second_title: Aspose.Words pentru Java
-articleTitle: Construiți un tabel dintr-un `DataTable`
-linktitle: Construiți un tabel dintr-un `DataTable`
+articleTitle: Construiți un tabel dintr-un DataTable
+linktitle: Construiți un tabel dintr-un DataTable
 description: "Exemplu de completare a tabelului de documente din Baza de date externă folosind Java."
 type: docs
 weight: 130
 url: /ro/java/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Adesea, aplicația dvs. va extrage date dintr-o bază de date și le va stoca sub forma unui **DataTable**. Poate doriți să inserați cu ușurință aceste date în documentul dvs. ca un tabel nou și să aplicați rapid formatarea întregului tabel.

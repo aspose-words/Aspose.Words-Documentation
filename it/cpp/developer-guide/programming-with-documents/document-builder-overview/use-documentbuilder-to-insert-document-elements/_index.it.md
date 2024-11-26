@@ -1,12 +1,13 @@
-﻿---
-title: Utilizzare `DocumentBuilder` per inserire elementi del documento
+---
+title: Utilizzare DocumentBuilder per inserire elementi del documento
 second_title: Aspose.Words per C++
-articleTitle: Utilizzare `DocumentBuilder` per inserire elementi del documento
-linktitle: Utilizzare `DocumentBuilder` per inserire elementi del documento
+articleTitle: Utilizzare DocumentBuilder per inserire elementi del documento
+linktitle: Utilizzare DocumentBuilder per inserire elementi del documento
 type: docs
 description: "Inserire elementi del documento utilizzando il generatore di documenti in C++."
 weight: 80
 url: /it/cpp/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Il `DocumentBuilder` viene utilizzato per modificare i documenti. Questo articolo spiega e descrive come eseguire una serie di attività:
@@ -155,7 +156,7 @@ Il pacchetto OLE è un modo legacy e" non documentato " per archiviare l'oggetto
 
 ## Inserimento HTML
 
-È possibile inserire facilmente una stringa HTML che contiene un frammento HTML o un intero documento HTML nel documento Word. Basta passare questa stringa al metodo `DocumentBuilder->InsertHtml`. Una delle implementazioni utili del metodo è la memorizzazione di una stringa HTML in un database e l'inserimento nel documento durante mail merge per ottenere il contenuto formattato aggiunto invece di costruirlo utilizzando vari metodi del generatore di documenti. Sotto esempio mostra inserisce HTML in un documento utilizzando DocumentBuilder.
+È possibile inserire facilmente una stringa HTML che contiene un frammento HTML o un intero documento HTML nel documento Word. Basta passare questa stringa al metodo `DocumentBuilder->InsertHtml`. Una delle implementazioni utili del metodo è la memorizzazione di una stringa HTML in un database e l'inserimento nel documento durante Mail Merge per ottenere il contenuto formattato aggiunto invece di costruirlo utilizzando vari metodi del generatore di documenti. Sotto esempio mostra inserisce HTML in un documento utilizzando DocumentBuilder.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHtml.cpp" >}}
 

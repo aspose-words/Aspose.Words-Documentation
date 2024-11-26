@@ -1,4 +1,4 @@
-﻿---
+---
 title: OLE obiecte și Video Online
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Lucrul cu obiecte OLE și Video Online
@@ -7,6 +7,7 @@ description: "Introduceți obiecte ole sau vodeo onlin într-un document folosin
 type: docs
 weight: 360
 url: /ro/python-net/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE (Object Linking and Embedding) este o tehnologie prin care utilizatorii pot lucra cu documente care conțin "obiecte" create sau Editate de aplicații terțe. Adică, OLE permite unei aplicații de editare să exporte aceste" obiecte " într-o altă aplicație de editare și apoi să le importe cu conținut suplimentar.

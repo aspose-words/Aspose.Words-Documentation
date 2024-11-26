@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cerințe De Memorie
 second_title: Aspose.Words pentru Java
 articleTitle: Cerințe De Memorie
@@ -7,6 +7,7 @@ description: "Câtă memorie face Aspose.Words pentru Java solicitați să lucra
 type: docs
 weight: 10
 url: /ro/java/memory-requirements/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words oferă o gamă largă de caracteristici pentru a lucra cu documente în diferite formate. Este important să rețineți că nu există nicio limită pentru dimensiunea maximă a unui fișier document pe care Aspose.Words îl poate procesa sau reda. Singura limitare este cantitatea de RAM (memorie) disponibilă de partea dvs.

@@ -7,6 +7,7 @@ description: "Elimină informațiile nefolosite sau duplicate pentru a reduce di
 type: docs
 weight: 30
 url: /ro/net/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uneori s-ar putea să aveți nevoie de a elimina informații nefolosite sau duplicate pentru a reduce dimensiunea documentului rezultat și timpul de procesare.

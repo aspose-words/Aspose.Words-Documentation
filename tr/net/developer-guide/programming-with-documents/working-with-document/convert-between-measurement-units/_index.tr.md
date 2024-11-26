@@ -7,6 +7,7 @@ description: ".NET için Aspose.Words, ölçü birimleri arasında nasıl dönü
 type: docs
 weight: 20
 url: /tr/net/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words API'de sağlanan ve genişlik veya yükseklik, kenar boşlukları ve çeşitli mesafeler gibi bazı ölçümleri temsil eden nesne özelliklerinin çoğu, 1 inç'in 72 noktaya eşit olduğu nokta cinsinden değerleri kabul eder. Bazen bu uygun olmayabilir ve puanların başka birimlere dönüştürülmesi gerekebilir.

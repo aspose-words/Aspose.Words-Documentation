@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lavorare con i campi modulo in C++
 second_title: Aspose.Words per C++
 articleTitle: Lavorare con i campi modulo
@@ -7,6 +7,7 @@ description: "Comprendere la funzionalità Campi modulo, lavorare con i campi mo
 type: docs
 weight: 380
 url: /it/cpp/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un documento che contiene spazi vuoti di riempimento (campi) è noto come modulo. Ad esempio, è possibile creare un modulo di registrazione in Microsoft Word che utilizza elenchi a discesa da cui gli utenti possono selezionare le voci. Un campo modulo è un percorso in cui viene memorizzato un particolare tipo di dati, ad esempio un nome o un indirizzo. I campi modulo in Microsoft Word includono input di testo, Casella combinata e casella di controllo.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 함께 작업 TextBoxes 그 안에 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 함께 작업 TextBoxes
@@ -7,6 +7,7 @@ description: "링크된 텍스트 상자 기능 소개 Aspose.Words 에 대한 C
 type: docs
 weight: 250
 url: /ko/cpp/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 그 안에 Aspose.Words, [TextBox](https://reference.aspose.com/words/cpp/aspose.words.drawing/textbox/) 클래스는 도형 안에 텍스트가 표시되는 방법을 지정하는 데 사용됩니다. 그것은 명명 된 공공 재산을 노출합니다 **Parent** 고객이 링크를 찾을 수 있도록 텍스트 상자의 부모 모양을 가져오려면 [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) 연관된 **TextBox**.

@@ -7,6 +7,7 @@ description: "מבוא לעבוד עם דמויות שליטה Aspose.Words עב
 type: docs
 weight: 400
 url: /he/java/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word מסמכים עשויים להכיל דמויות שונות שיש להן משמעות מיוחדת. בדרך כלל הם משמשים לפורמט מטרות ואינם נמשכים במצב הרגיל. אתה יכול להפוך אותם גלויים אם אתה לוחץ על לחצן Show / Hide Formatting Marks הממוקם על הסימון הסטנדרטי.

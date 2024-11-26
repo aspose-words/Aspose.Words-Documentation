@@ -1,67 +1,68 @@
----
-title: يستعاض عن الحقول بالنص Java
-second_title: Aspose.Words for Java
-articleTitle: يستعاض عن الحقول بالنص الثابت
-linktitle: يستعاض عن الحقول بالنص الثابت
-description: "تعلم كيفية استبدال الحقول بالنص Java. يستعاض عن الحقول ببيانات ثابتة باستخدام Java API."
+﻿---
+title: استبدال الحقول بالنص Java
+second_title: Aspose.Words ل Java
+articleTitle: استبدال الحقول بنص ثابت
+linktitle: استبدال الحقول بنص ثابت
+description: "تعرف على كيفية استبدال الحقول بنص في Java. استبدل الحقول ببيانات ثابتة باستخدام Java API."
 type: docs
 weight: 37
 url: /ar/java/replace-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
-فغالبا ما تكون هناك حاجة لرد الحقول عندما ترغب في حفظ وثيقتك كنسخة ثابتة. على سبيل المثال، عند إرسالها كملحق في رسالة إلكترونية. مجالات من قبيل `DATE` أو `TIME` وسيتيح النص الثابت لهذه الوثيقة أن تعرض نفس التاريخ الذي أرسلت فيه. أيضا، في بعض الحالات، قد تحتاج إلى إزالة المشروط `IF` الحقول من وثيقتكم والاستعاضة عنها بأحدث نتيجة النص بدلا من ذلك. على سبيل المثال، تحويل نتيجة `IF` من الميدان إلى النص الثابت حتى لا يعد يغير ديناميا من قيمته عندما تستكمل الميادين الواردة في الوثيقة.
+غالبا ما يكون استبدال الحقول مطلوبا عندما ترغب في حفظ المستند كنسخة ثابتة. على سبيل المثال، عند الإرسال كمرفق في رسالة بريد إلكتروني. سيسمح تحويل الحقول مثل `DATE` أو `TIME` إلى نص ثابت للمستند بعرض نفس تاريخ إرساله. أيضا، في بعض الحالات، قد تحتاج إلى إزالة الحقول الشرطية `IF` من المستند واستبدالها بأحدث نتيجة نصية بدلا من ذلك. على سبيل المثال، تحويل نتيجة الحقل `IF` إلى نص ثابت بحيث لن يغير قيمته ديناميكيا عند تحديث الحقول في المستند.
 
-الرسم البياني أدناه يوضح كيف `IF` ويخزن الميدان في وثيقة:
+يوضح الرسم البياني أدناه كيفية تخزين حقل `IF` في مستند:
 
-* يُحاط النص بالعقد الميدانية الخاصة - [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/) و [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/)
-* [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/) يفصل العقد النص في الميدان إلى الرمز الميداني والنتيجة الميدانية
-* يحدد القانون الميداني السلوك العام للميدان، في حين أن النتيجة الميدانية تحافظ على آخر نتيجة عندما يتم تحديث هذا المجال باستخدام Microsoft Word أو Aspose.Words
-* النتيجة الميدانية هي ما يخزن في الميدان ويظهر في الوثيقة عند النظر إليها
+* النص محاط بعقد الحقل الخاصة - [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/) و [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/)
+* تفصل العقدة [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/) النص داخل الحقل إلى رمز الحقل والنتيجة الميدانية
+* يحدد رمز الحقل السلوك العام للحقل، بينما تحتفظ نتيجة الحقل بأحدث نتيجة عند تحديث هذا الحقل باستخدام Microsoft Word أو Aspose.Words
+* نتيجة الحقل هي ما يتم تخزينه في الحقل وعرضه في المستند عند عرضه
 
 ![update-remove-a-field-aspose-words](/words/java/replace-fields/updating-and-removing-a-field-1.png)
 
-ويمكن أيضا النظر إلى الهيكل في شكل هرمي باستخدام المشروع المسرحي **“DocumentExplorer”**, الذي يركب مع **Aspose.Words** (سالر)
+يمكن أيضا رؤية الهيكل أدناه في شكل هرمي باستخدام المشروع التجريبي **"DocumentExplorer"**، الذي يأتي مع **Aspose.Words** المثبت.
 
 ![update-remove-a-field-aspose-words-2](/words/java/replace-fields/updating-and-removing-a-field-2.png)
 
-## المجالات التي لا يمكن استبدالها بالنص
+## الحقول التي لا يمكن استبدالها بالنص
 
-ولا يعمل الرد على حقل ذي نص ثابت على نحو سليم بالنسبة لبعض الحقول في رأس أو قدم.
+استبدال حقل مع نص ثابت لا يعمل بشكل صحيح لبعض الحقول في رأس أو تذييل الصفحة.
 
-على سبيل المثال، محاولة تحويل `PAGE` وسيؤدي الحقل في رأس أو قدم إلى نص ثابت إلى عرض نفس القيمة على جميع الصفحات. ويرجع ذلك إلى أن الرعاة والأقدام يتكررون عبر صفحات متعددة، وعندما يظلون في الميدان، يتم التعامل معهم على وجه الخصوص حتى يظهروا النتيجة الصحيحة لكل صفحة.
+على سبيل المثال، ستؤدي محاولة تحويل الحقل `PAGE` في رأس أو تذييل إلى نص ثابت إلى عرض نفس القيمة في جميع الصفحات. وذلك لأن الرؤوس والتذييلات تتكرر عبر صفحات متعددة، وعندما تظل كحقول، يتم التعامل معها بشكل خاص بحيث تعرض النتيجة الصحيحة لكل صفحة.
 
-على أية حال، في الرأس، `PAGE` الميدان يترجم بشكل جيد إلى حرف ثابت من النص. وسيقيَّم هذا النص كما لو كان آخر صفحة في القسم، مما سيسبب أي `PAGE` الحقل في الرأس لعرض آخر صفحة على جميع الصفحات
+ومع ذلك، في الرأس، يترجم الحقل `PAGE` جيدا إلى تشغيل ثابت للنص. سيتم تقييم تشغيل النص هذا كما لو كان الصفحة الأخيرة في القسم، مما سيؤدي إلى عرض أي حقل `PAGE` في الرأس للصفحة الأخيرة على جميع الصفحات.
 
-ويبين المثال الرمزي التالي كيفية استبدال الحقل بآخر نتيجة له:
+يوضح مثال الكود التالي كيفية استبدال الحقل بأحدث نتيجة له:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UnlinkFields-UnlinkFields.java" >}}
 
-## Convert Certain Field Types in Specific Document Parts
+## تحويل أنواع حقول معينة في أجزاء وثيقة محددة
 
-منذ **ConvertFieldsToStaticText** الطريقة تقبل بارامترين - [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) الخواص [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) ومن الممكن، في جملة أمور، أن تجتاز هذه الطريقة أي شعار مركب. وهذا لا يسمح بتحويل الحقول إلى نص ثابت إلا في أجزاء محددة من الوثيقة.
+نظرا لأن طريقة **ConvertFieldsToStaticText** تقبل معلمتين - خصائص [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) والتعداد [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/)، فمن الممكن تمرير أي عقدة مركبة إلى هذه الطريقة. يسمح هذا بتحويل الحقول إلى نص ثابت فقط في أجزاء محددة من المستند.
 
-على سبيل المثال، يمكنك تمرير [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) الجسم وتحويل الحقول من النوع المحدد من كامل الوثيقة إلى نص ثابت، أو يمكنك تمرير [Body](https://reference.aspose.com/words/java/com.aspose.words/body/) هدف من قسم وفقط تحويل الحقول التي وجدت في ذلك الجسم.
+على سبيل المثال، يمكنك تمرير كائن [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) وتحويل حقول من النوع المحدد من المستند بأكمله إلى نص ثابت، أو يمكنك تمرير كائن [Body](https://reference.aspose.com/words/java/com.aspose.words/body/) من قسم وتحويل الحقول الموجودة في هذا النص فقط.
 
 {{% alert color="primary" %}}
 
-عندما يمرّ عقد على مستوى كتلة مثل [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), أن تكون على علم بأن الحقول يمكن أن تمتد في بعض الحالات عبر فقرات متعددة. وإذا حدث ذلك، يوصى بإعطاء والد المركبة بدلا من ذلك لتجنب ذلك.
+عند تمرير عقدة على مستوى الكتلة مثل [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/)، يجب أن تدرك أنه في بعض الحالات، يمكن أن تمتد الحقول عبر فقرات متعددة. إذا حدث هذا فمن المستحسن تمرير الوالد من المركب بدلا من ذلك لتجنب هذا.
 
 {{% /alert %}}
 
-The [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) عُدّم إلى **ConvertFieldsToStaticText** وتحدد الطريقة نوع الحقول التي ينبغي تحويلها إلى نص ثابت. وأي نوع ميداني آخر يرد في الوثيقة سيظل دون تغيير.
+يحدد التعداد [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) الذي تم تمريره إلى طريقة **ConvertFieldsToStaticText** نوع الحقول التي يجب تحويلها إلى نص ثابت. سيبقى أي نوع حقل آخر موجود في المستند دون تغيير.
 
-ويبين المثال الرمزي التالي كيفية اختيار ميادين من نوع محدد - *targetFieldType* في عقد محدد *compositeNode* ثم تحويلها إلى نص ثابت:
+يوضح مثال الكود التالي كيفية تحديد حقول من نوع معين - *targetFieldType* في عقدة معينة - *compositeNode* ثم تحويلها إلى نص ثابت:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FieldHelper-FieldsHelper.java" >}}
 
-المثال الرمزي التالي يبين كيف يمكن تحويل كل `IF` الميادين الواردة في وثيقة لنص ثابت:
+يوضح مثال التعليمات البرمجية التالية كيفية تحويل كافة الحقول `IF` في مستند إلى نص ثابت:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-ConvertFieldsInDocument-ConvertFieldsInDocument.java" >}}
 
-المثال الرمزي التالي يبين كيف يمكن تحويل كل `PAGE` حقول في مجموعة من وثائق النص الثابت:
+يوضح مثال التعليمات البرمجية التالية كيفية تحويل كافة الحقول `PAGE` في نص مستند إلى نص ثابت:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-ConvertFieldsInBody-ConvertFieldsInBody.java" >}}
 
-المثال الرمزي التالي يبين كيف يمكن تحويل كل `IF` المجالات الواردة في الفقرة الأخيرة إلى النص الثابت:
+يوضح مثال التعليمات البرمجية التالية كيفية تحويل كافة الحقول `IF` في الفقرة الأخيرة إلى نص ثابت:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-ConvertFieldsInParagraph-ConvertFieldsInParagraph.java" >}}

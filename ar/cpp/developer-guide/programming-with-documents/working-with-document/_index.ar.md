@@ -1,4 +1,4 @@
-﻿---
+---
 title: العمل مع المستند في C++
 second_title: Aspose.Words ل C++
 articleTitle: العمل مع الوثيقة
@@ -7,6 +7,7 @@ type: docs
 description: "توفر فئة `Document` خصائص وطرق مختلفة للمستند باستخدام C++. يمكنك استخدام فئة `Document` كنقطة انطلاق لكل ما تريد القيام به مع Aspose.Words ل C++. يمكن حفظ الكائن `Document` في ملف أو دفق وإرساله أيضا إلى متصفح."
 weight: 40
 url: /ar/cpp/working-with-document/
+timestamp: 2024-01-30-16-22-34
 ---
 
 فئة [Document](https://reference.aspose.com/words/cpp/aspose.words/document/) مركزية في Aspose.Words. إنه يمثل مستندا ويوفر خصائص وطرق مختلفة للمستند، مثل حفظ المستند أو حمايته. يمكنك استخدام فئة **Document** كنقطة انطلاق لكل ما تريد تنفيذه باستخدام Aspose.Words: إنشاء مستند جديد من البداية، أو فتح قالب لـ mail merge، أو الحصول على أجزاء مختلفة من مستند.

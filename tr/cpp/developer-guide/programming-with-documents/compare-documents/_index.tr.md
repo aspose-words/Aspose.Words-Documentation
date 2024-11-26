@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki Belgeleri Karşılaştır
 second_title: Aspose.Words için C++
 articleTitle: Belgeleri Karşılaştır
@@ -7,6 +7,7 @@ type: docs
 description: "Desteklenen formatlardaki iki belgeyi karşılaştırın ve C++ kullanarak içerik değişikliklerini gösterir. Karşılaştırma yaparken gelişmiş seçenekler uygulayabilirsiniz."
 weight: 60
 url: /tr/cpp/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Belgeleri karşılaştırmak, iki belge arasındaki değişiklikleri tanımlayan ve değişiklikleri düzeltme olarak içeren bir işlemdir. Bu işlem, belirli bir belgenin sürümleri de dahil olmak üzere iki belgeyi karşılaştırır, ardından her iki belge arasındaki değişiklikler ilk belgede revizyon olarak gösterilir.

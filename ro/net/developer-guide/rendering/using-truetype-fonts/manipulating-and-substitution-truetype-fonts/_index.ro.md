@@ -7,6 +7,7 @@ description: "Aspose.Words pentru .NET poate insera fonturile corecte TrueType �
 type: docs
 weight: 10
 url: /ro/net/manipulating-and-substitution-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words necesită fonturi TrueType pentru o varietate de sarcini, inclusiv redarea documentelor la format fix pagină, de exemplu, PDF sau XPS. Când Aspose.Words redă un document, acesta trebuie să efectueze inserarea și inserarea subconjuctelor de fonturi TrueType în documentul rezultat, care este o practică obișnuită în timpul generării unui document, inclusiv în formate populare PDF sau XPS. Aceasta asigură ca documentul să apară la fel pentru orice vizualizator. În plus, specificația XPS impune ca fonturile să fie întotdeauna încorporate în document.
@@ -58,7 +59,7 @@ Cu toate acestea există situații în care nu se poate găsi fontul exact și A
 1. Dacă Aspose.Words nu este capabil să găsească fontul necesar cu potrivirea exactă a numelui și proprietatea [AltName](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/altname/) definită pentru acest font, atunci Aspose.Words va găsi fontul definit cu **AltName** din clasa [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/), care specifică informațiile despre font.
 1. Dacă Aspose.Words nu poate găsi fontul definit, și **AltName** nu este nici el definit, atunci regulile de substituție a fonturilor sunt aplicate unul câte unul, după cum se descrie mai jos (când înlocuirea corespunzătoare este găsită, procesul de substituție a fontului se oprește și următorul pas nu este executat):
    1. În primul rând, Aspose.Words încearcă să proceseze numele fontului pentru a obține substituția, mai exact încearcă să elimine sufixele cu separatoare "- " și ", ". <br>
-      Dacă această regulă de substituție are loc, o "Font ’&lt;OriginalFont&gt;’ nu a fost găsită. Folosind fontul " &lt;SubstitutionFont&gt; " în schimb. Motivul: înlocuirea numelui de font." apare avertizare.<br/>
+      Dacă această regulă de substituție are loc, o "Font ’<OriginalFont>’ nu a fost găsită. Folosind fontul " <SubstitutionFont> " în schimb. Motivul: înlocuirea numelui de font." apare avertizare.<br/>
 {{< gist "aspose-words-gists" "a08698f540d47082b4e2dbb1cb67fc1b" "get-substitution-without-suffixes.cs" >}}
    1. Apoi Aspose.Words încearcă să aplice setările de font al sistemului de operare, dacă sunt disponibile, folosind utilitarul **FontConfig**. Această caracteristică non-Windows trebuie folosită cu un sistem de operare compatibil FontConfig. Mai aproape orice sistem de operare bazat pe Unix are deja o `FontConfig` bibliotecă care este proiectată să furnizeze configurarea și personalizarea fonturilor la nivel de sistem și accesul la aplicații. În caz contrar această bibliotecă poate fi instalată cu ușurință de către utilizator.
       Aspose.Words știe cum să interogheze date și să interpreteze rezultatele pentru propriile sale scopuri. În mod implicit, utilitarul `FontConfig` este dezactivat. Poţi să o activezi după cum urmează:<br>

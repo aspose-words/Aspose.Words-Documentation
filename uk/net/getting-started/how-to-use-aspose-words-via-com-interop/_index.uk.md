@@ -7,6 +7,7 @@ type: docs
 description: "Зареєструватися Aspose.Words для .NET Зареєструватися COM Interop в Python, PHP, VBScript, JScript та інші мови програмування."
 weight: 130
 url: /uk/net/how-to-use-aspose-words-via-com-interop/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Інформація в цій темі стосується сценаріїв, де ви хочете використовувати Aspose.Words для .NET Зареєструватися COM Interop в будь-якій з наступних мов програмування:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Insert Image using Apache POI and Aspose.Words
 second_title: Aspose.Words for Java
 articleTitle: Insert Image using Apache POI and Aspose.Words
@@ -7,6 +7,7 @@ description: "Add image into a document easily and fast instead of using Apache 
 type: docs
 weight: 40
 url: /java/insert-image-using-apache-poi-and-aspose-words/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Insert Image

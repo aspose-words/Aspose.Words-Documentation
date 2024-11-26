@@ -7,6 +7,7 @@ description: "Załaduj i przekonwertuj dokument w większości popularnych forma
 type: docs
 weight: 20
 url: /pl/net/supported-features-on-document-load/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words umożliwia użytkownikom pracę z dokumentami w różnych formatach i zapewnia w tym celu szeroką gamę opcji. Na przykład użytkownicy mogą utworzyć dokument od zera lub załadować istniejący plik w dowolnym formacie [Obsługiwane formaty dokumentów](/words/pl/net/supported-document-formats/), wprowadzić pewne zmiany w tym dokumencie, a następnie zapisać wynik. Importując dokument w wybranym formacie, użytkownik może zastosować różne opcje ładowania.

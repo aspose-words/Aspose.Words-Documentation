@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Vorms in Java
 second_title: Aspose.Words vir Java
 articleTitle: Werk Met Vorms
@@ -7,6 +7,7 @@ type: docs
 description: "Inleiding tot vorm opmerkings taal, die skep van vorms van verskillende tipes met behulp van Java."
 weight: 280
 url: /af/java/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hierdie onderwerp bespreek hoe om programmaties te werk met vorms met behulp van Aspose.Words.

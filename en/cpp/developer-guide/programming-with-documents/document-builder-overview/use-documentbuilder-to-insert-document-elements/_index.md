@@ -1,12 +1,13 @@
 ---
-title: Use `DocumentBuilder` to Insert Document Elements
+title: Use DocumentBuilder to Insert Document Elements
 second_title: Aspose.Words for C++
-articleTitle: Use `DocumentBuilder` to Insert Document Elements
-linktitle: Use `DocumentBuilder` to Insert Document Elements
+articleTitle: Use DocumentBuilder to Insert Document Elements
+linktitle: Use DocumentBuilder to Insert Document Elements
 type: docs
 description: "Insert document elements using the document builder in C++."
 weight: 80
 url: /cpp/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The `DocumentBuilder` is used to modify documents. This article explains and describes how to perform a number of tasks:
@@ -22,7 +23,8 @@ Below example Inserts formatted text using DocumentBuilder.
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-WriteAndFont-WriteAndFont.cpp" >}}
 
 ## Inserting a Paragraph
- `DocumentBuilder.Writeln` inserts a string of text into the document as well but in addition, it adds a paragraph break. Current font formatting is also specified by the `DocumentBuilder.Font` property and current paragraph formatting is determined by the `DocumentBuilder.ParagraphFormat` property. Below example shows how to insert a paragraph into the document.
+
+ `DocumentBuilder.Writeln` inserts a string of text into the document as well but in addition, it adds a paragraph break. Current font formatting is also specified by the `DocumentBuilder.Font` property and current paragraph formatting is determined by the `DocumentBuilder.ParagraphFormat` property. Below example shows how to insert a paragraph into the document.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertParagraph-DocumentBuilderInsertParagraph.cpp" >}}
 
@@ -111,7 +113,8 @@ Below example shows how to insert a bookmark into a document using a document bu
 Form fields are a particular case of Word fields that allows "interaction" with the user. Form fields in Microsoft Word include textbox, combo box and checkbox.DocumentBuilder provides special methods to insert each type of form field into the document: `DocumentBuilder.InsertTextInput` , `DocumentBuilder->InsertCheckBox`, and `DocumentBuilder.InsertComboBox`. Note that if you specify a name for the form field, then a bookmark is automatically created with the same name.
 
 ### Inserting a Text Input
- `DocumentBuilder.InsertTextInput` to insert a textbox into the document. Below example shows how to insert a text input form field into a document.
+
+ `DocumentBuilder.InsertTextInput` to insert a textbox into the document. Below example shows how to insert a text input form field into a document.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertTextInputFormField.cpp" >}}
 
@@ -153,7 +156,7 @@ OLE package is a legacy and "undocumented" way to store embedded object if OLE h
 
 ## Inserting HTML
 
-You can easily insert an HTML string that contains an HTML fragment or whole HTML document into the Word document. Just pass this string to the `DocumentBuilder->InsertHtml` method. One of the useful implementations of the method is storing an HTML string in a database and inserting it into the document during mail merge to get the formatted content added instead of building it using various methods of the document builder. Below example shows inserts HTML into a document using DocumentBuilder.
+You can easily insert an HTML string that contains an HTML fragment or whole HTML document into the Word document. Just pass this string to the `DocumentBuilder->InsertHtml` method. One of the useful implementations of the method is storing an HTML string in a database and inserting it into the document during Mail Merge to get the formatted content added instead of building it using various methods of the document builder. Below example shows inserts HTML into a document using DocumentBuilder.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHtml.cpp" >}}
 

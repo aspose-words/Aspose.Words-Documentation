@@ -7,6 +7,7 @@ description: "Exemplu de generare a formei codului de bare folosind C#."
 type: docs
 weight: 350
 url: /ro/net/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
 Un cod de bare este o reprezentare vizuală a datelor sub formă de linii sau modele paralele. Codurile de bare sunt utilizate pe scară largă în diverse domenii precum retailul, logistica, sănătatea, banca și multe altele.

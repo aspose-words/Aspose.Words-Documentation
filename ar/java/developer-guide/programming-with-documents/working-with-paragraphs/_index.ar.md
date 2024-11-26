@@ -1,70 +1,71 @@
----
-title: العمل مع الفقرات Java
-second_title: Aspose.Words for Java
+﻿---
+title: العمل مع الفقرات في Java
+second_title: Aspose.Words ل Java
 articleTitle: العمل مع الفقرات
 linktitle: العمل مع الفقرات
-description: "ممارسات التلاعب في الفقرة المعينة باستخدام Java."
+description: "ممارسات معالجة عقدة الفقرة باستخدام Java."
 type: docs
 weight: 210
 url: /ar/java/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
-فالفقرة عبارة عن مجموعة من الشخصيات مجتمعة في كتلة منطقية وتنتهي بطابع خاص - وهو " استراحة فقرة ". In Aspose.Words, a paragraph is represented by the [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) الصف
+الفقرة عبارة عن مجموعة من الأحرف مجتمعة في كتلة منطقية وتنتهي بحرف خاص – *paragraph break*. في Aspose.Words، يتم تمثيل الفقرة بفئة [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/).
 
 ## إدراج فقرة
 
-إدراج فقرة جديدة في الوثيقة، في الواقع، يجب أن تُدرَج فيها فقرة تكسر فيها. [DocumentBuilder.Writeln](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#writeln) لا تُدرج في الوثيقة فحسب سلسلة من النصوص، بل تضيف أيضاً استراحة فقرة.
+لإدراج فقرة جديدة في المستند، في الواقع، تحتاج إلى إدراج حرف فاصل فقرة فيه. [DocumentBuilder.Writeln](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#writeln) إدراج ليس فقط سلسلة من النص في المستند، ولكن أيضا يضيف فاصل فقرة.
 
-ويحدّد الشكل البياني الحالي أيضاً [Font](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getFont) الممتلكات، وتُحدَّد صيغة الفقرة الحالية من خلال [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getParagraphFormat) ملكية وفي الفرع التالي، سنخوض في مزيد من التفاصيل بشأن صياغة الفقرة.
+يتم تحديد تنسيق الخط الحالي أيضا بواسطة خاصية [Font](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getFont)، ويتم تحديد تنسيق الفقرة الحالي بواسطة خاصية [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getParagraphFormat). في القسم التالي، سنذهب إلى مزيد من التفاصيل حول تنسيق الفقرة.
 
-ويبين المثال الرمزي التالي كيفية إدراج فقرة في وثيقة:
+يوضح مثال التعليمات البرمجية التالية كيفية إدراج فقرة في مستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderInsertParagraph.java" >}}
 
 
-## الصيغة
+## شكل الفقرة
 
-تُمثّل صيغة الفقرة الحالية بصيغة [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/) الجسم الذي يعيده [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getParagraphFormat) ملكية هذا الجسم يلخص مختلف الفقرات التي تشكل الممتلكات المتاحة في Microsoft Word. يمكنك بسهولة إعادة صياغة فقرة إلى تخلفها... نمط عادي، يسار، لا هوية، [ClearFormatting](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#clearFormatting).
+يتم تمثيل تنسيق الفقرة الحالي بواسطة [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/) الكائن الذي يتم إرجاعه بواسطة [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getParagraphFormat) خاصية. هذا الكائن بتغليف مختلف خصائص تنسيق الفقرة المتاحة في Microsoft Word. يمكنك بسهولة إعادة تعيين تنسيق الفقرة إلى النمط الافتراضي – النمط العادي، المحاذاة لليسار، بدون مسافة بادئة، بدون تباعد، بدون حدود، بدون تظليل – عن طريق الاتصال [ClearFormatting](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#clearFormatting).
 
-The following code example shows how to set paragraph formatting:
+يوضح مثال التعليمات البرمجية التالية كيفية تعيين تنسيق الفقرة:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderSetParagraphFormatting.java" >}}
 
-## تطبيق الفقرة Style
+## تطبيق نمط الفقرة
 
-بعض الأشياء المشكله مثل أسلوب الدعم A single built-in or user-defined method is represented by a [Style](https://reference.aspose.com/words/java/com.aspose.words/style/) الجسم الذي يحتوي على خصائص النمط المناظرة مثل الاسم، وأسلوب القاعدة، ونسخة وصيغة الفقرة من الأسلوب، وهكذا.
+بعض كائنات التنسيق مثل الخط أو ParagraphFormat أنماط الدعم. يتم تمثيل نمط واحد مدمج أو معرف من قبل المستخدم بواسطة كائن [Style](https://reference.aspose.com/words/java/com.aspose.words/style/) يحتوي على خصائص النمط المقابلة مثل الاسم والنمط الأساسي والخط وتنسيق الفقرة للنمط وما إلى ذلك.
 
-(أ) **Style** الجسم ينص على [StyleIdentifier](https://reference.aspose.com/words/java/com.aspose.words/style/#getStyleIdentifier) الممتلكات التي تُعيد مُحدِّد للأسلوب المحلي المعتمد **StyleIdentifier** قيمة العد المغزى هو أن اسماء الموضة في Microsoft Word تُحَوَّل لمختلف اللغات. وباستخدام جهاز تحديد هويّة، يمكنك إيجاد الأسلوب الصحيح بغض النظر عن لغة الوثيقة. قيم التعداد متطابقة مع Microsoft Word أساليب البناء مثل *Normal*, * الرعاية ١*، * الرعاية ٢*، الخ. تم تعيين جميع الأساليب المحددة للمستعملين **مُحدّد هوية. قيمة المستعملين**.
+علاوة على ذلك، يوفر كائن **Style** خاصية [StyleIdentifier](https://reference.aspose.com/words/java/com.aspose.words/style/#getStyleIdentifier) التي ترجع معرف نمط مستقل عن اللغة يمثله قيمة تعداد **StyleIdentifier**. النقطة المهمة هي أن أسماء الأنماط المضمنة في Microsoft Word مترجمة للغات مختلفة. باستخدام معرف النمط، يمكنك العثور على النمط الصحيح بغض النظر عن لغة المستند. تتوافق قيم التعداد مع الأنماط المضمنة Microsoft Word مثل *Normal*, *Heading 1*, *Heading 2*, الخ. يتم تعيين كافة الأنماط المعرفة من قبل المستخدم **StyleIdentifier.User value**.
 
-ويبين المثال الرمزي التالي كيفية تطبيق أسلوب الفقرة:
+يوضح مثال التعليمات البرمجية التالية كيفية تطبيق نمط فقرة:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderApplyParagraphStyle.java" >}}
 
-## Insert Style Separator to Put Different Paragraph Styles
+## إدراج نمط فاصل لوضع أنماط الفقرة المختلفة
 
-ويمكن إضافة فصل عن الأسلوب إلى نهاية فقرة تستخدم طريق " Ctrl + Alt + Enter Keyboard Shortcut into MS Word ". وتتيح هذه السمة استخدام أسلوبين مختلفين في فقرة مطبوعة منطقية واحدة. إذا كنت ترغب في بعض النص من بداية عنوان معين أن تظهر في جدول المحتويات ولكن لا تريد كامل العنوان في جدول المحتويات، يمكنك استخدام هذه الميزة.
+يمكن إضافة فاصل النمط إلى نهاية الفقرة باستخدام كترل + ألت + أدخل اختصار لوحة المفاتيح في MS كلمة. تسمح هذه الميزة لنمطين مختلفين للفقرة المستخدمة في فقرة مطبوعة منطقية واحدة. إذا كنت تريد ظهور بعض النصوص من بداية عنوان معين في جدول المحتويات ولكنك لا تريد العنوان بأكمله في جدول المحتويات، فيمكنك استخدام هذه الميزة.
 
-ويبيّن المثال الرمزي التالي كيف يُدرَج مُناظر نمطي لاستيعاب مختلف أساليب الفقرات:
+يوضح مثال التعليمات البرمجية التالية كيفية إدراج فاصل نمط لاستيعاب أنماط فقرة مختلفة:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-ParagraphInsertStyleSeparator.java" >}}
 
 
-## تطبيق الحدود والتقاسم على فقرة
+## تطبيق الحدود والتظليل على فقرة
 
-الحدود Aspose.Words ممثلة في الدورة [BorderCollection](https://reference.aspose.com/words/java/com.aspose.words/bordercollection/) هذه مجموعة [Border](https://reference.aspose.com/words/java/com.aspose.words/border/) الأجسام التي يتم الوصول إليها حسب الرقم القياسي أو حسب نوع الحدود. The `Border` النوع مُمثَّل من قِبل [BorderType](https://reference.aspose.com/words/java/com.aspose.words/bordertype/) العد وتنطبق بعض قيم التعداد على عدد من عناصر الوثيقة أو على عنصر واحد فقط. على سبيل المثال، **BorderType.Bottom** ينطبق على فقرة أو زنزانة طاولة في حين **BorderType.DiagonalDown** يحدد الحدود التشخيصية في خلية طاولة فقط
+يتم تمثيل الحدود في Aspose.Words بواسطة فئة [BorderCollection](https://reference.aspose.com/words/java/com.aspose.words/bordercollection/) - هذه مجموعة من [Border](https://reference.aspose.com/words/java/com.aspose.words/border/) الكائنات التي يتم الوصول إليها بواسطة الفهرس أو حسب نوع الحدود. يتم تمثيل نوع `Border` بواسطة [BorderType](https://reference.aspose.com/words/java/com.aspose.words/bordertype/) تعداد. بعض قيم التعداد قابلة للتطبيق على عدة أو عنصر مستند واحد فقط. على سبيل المثال، **BorderType.Bottom** ينطبق على فقرة أو خلية جدول بينما **BorderType.DiagonalDown** يحدد الحد القطري في خلية جدول فقط.
 
-ولكل من مجموعة الحدود وكل حدود منفصلة خصائص مماثلة مثل اللون، وأسلوب الخط، واتباع خط، وبعد عن النص، والظل الاختياري. وهي ممثَّلة بممتلكات ذات الاسم. يمكنك تحقيق أنواع مختلفة من الحدود عن طريق الجمع بين قيم الملكية بالإضافة إلى ذلك، كلاهما **BorderCollection** و **Border** الأشياء تسمح لك بإعادة هذه القيم إلى التقصير عن طريق الاتصال [ClearFormatting](https://reference.aspose.com/words/java/com.aspose.words/border/#clearFormatting) طريقة
+تحتوي كل من مجموعة الحدود وكل حد منفصل على سمات متشابهة مثل اللون ونمط الخط وعرض الخط والمسافة من النص والظل الاختياري. يتم تمثيلهم بخصائص تحمل نفس الاسم. يمكنك تحقيق أنواع مختلفة من الحدود من خلال الجمع بين قيم الخصائص. بالإضافة إلى ذلك، يسمح لك كل من **BorderCollection** و **Border** بإعادة تعيين هذه القيم إلى الوضع الافتراضي عن طريق استدعاء طريقة [ClearFormatting](https://reference.aspose.com/words/java/com.aspose.words/border/#clearFormatting).
 
 {{% alert color="primary" %}}
 
-ويلاحظ أنه عندما تعاد ملكية الحدود إلى القيم الافتراضية، فإن الحدود غير مرئية.
+لاحظ أنه عند إعادة تعيين خصائص الحدود إلى القيم الافتراضية، يكون الحد غير مرئي.
 
 {{% /alert %}}
 
-Aspose.Words أيضاً [Shading](https://reference.aspose.com/words/java/com.aspose.words/shading/) ويتضمن الفصل سمات مظلة لعناصر الوثائق. يمكنك وضع النسيج المظلي المرغوب والألوان التي تُطبق على خلفية العنصر
+يحتوي Aspose.Words أيضا على فئة [Shading](https://reference.aspose.com/words/java/com.aspose.words/shading/) التي تحتوي على سمات تظليل لعناصر المستند. يمكنك تعيين نسيج التظليل المطلوب والألوان التي يتم تطبيقها على الخلفية ومقدمة العنصر.
 
-النسيج المظل مع [TextureIndex](https://reference.aspose.com/words/java/com.aspose.words/textureindex/) قيمة التعداد التي تسمح بتطبيق أنماط مختلفة على **Shading** هدف For example, to set a background color for a document element, use the `TextureIndex.TextureSolid` القيمة ووضع لون المظلة الأمامية حسب الاقتضاء ويبين المثال الرمزي الوارد أدناه كيفية تطبيق الحدود والظل على فقرة.
+يتم تعيين نسيج التظليل بقيمة التعداد [TextureIndex](https://reference.aspose.com/words/java/com.aspose.words/textureindex/) التي تسمح بتطبيق أنماط مختلفة على الكائن **Shading**. على سبيل المثال، لتعيين لون خلفية لعنصر مستند، استخدم القيمة `TextureIndex.TextureSolid` وقم بتعيين لون تظليل المقدمة حسب الاقتضاء. يوضح مثال الكود الموضح أدناه كيفية تطبيق الحدود والتظليل على فقرة.
 
-ويبين المثال الرمزي التالي كيفية تطبيق الحدود والظل على فقرة:
+يوضح مثال الكود التالي كيفية تطبيق الحدود والتظليل على فقرة:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderApplyBordersAndShadingToParagraph.java" >}}

@@ -1,4 +1,4 @@
-﻿---
+---
 title: الشروع في العمل
 second_title: Aspose.Words ل C++
 articleTitle: الشروع في العمل
@@ -7,6 +7,7 @@ type: docs
 description: "استخدم هذه المقدمة إلى Aspose.Words ل C++ أساسيات لبدء تحقيق قيمة Aspose.Words لعملك."
 weight: 10
 url: /ar/cpp/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 يوفر هذا البدء مقدمة لأساسيات Aspose.Words. بالنسبة للمستخدمين الجدد على Aspose.Words، هذه هي أسرع طريقة لتعلم المتطلبات والقدرات الأساسية.

@@ -1,124 +1,125 @@
----
-title: Insert and Append Files Java
+﻿---
+title: وارد کردن و اضافه کردن اسناد در Java
 second_title: Aspose.Words برای Java
-articleTitle: Insert and Append Files
-linktitle: Insert and Append Files
-description: "ترکیب اسناد به یک: قرار دادن یا قرار دادن یک سند به یک سند جدید یا موجود با استفاده از پیدا کردن و جایگزینی، فیلد ادغام، نشانه یا به سادگی در پایان سند در پایان Java..."
+articleTitle: اسناد را وارد و اضافه کنید
+linktitle: اسناد را وارد و اضافه کنید
+description: "اسناد را به یک ترکیب کنید: یک سند را به یک سند جدید یا موجود با استفاده از find and replace، merge field، bookmark یا به سادگی در انتهای سند در Java وارد یا اضافه کنید."
 type: docs
 weight: 80
 url: /fa/java/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
-گاهی اوقات لازم است چندین سند را به یک ترکیب کنید. شما می توانید این کار را به صورت دستی انجام دهید یا می توانید از آن استفاده کنید. Aspose.Words وارد کردن یا قابلیت append
+گاهی اوقات لازم است چندین سند را در یک ترکیب کنید. شما می توانید این کار را به صورت دستی انجام دهید یا می توانید از ویژگی Aspose.Words insert یا append استفاده کنید.
 
-عملیات ورودی به شما اجازه می دهد تا محتوای اسناد قبلا ایجاد شده را به یک جدید یا موجود وارد کنید.
+عملیات insert به شما امکان می دهد محتوای اسناد ایجاد شده قبلی را در یک سند جدید یا موجود وارد کنید.
 
-به نوبه خود، ویژگی Append به شما اجازه می دهد تا یک سند را فقط در پایان یک سند دیگر اضافه کنید.
+به نوبه خود، ویژگی append به شما امکان می دهد فقط در انتهای سند دیگری یک سند اضافه کنید.
 
-این مقاله توضیح می دهد که چگونه یک سند را به روش های مختلف به یکدیگر وارد کنید و ویژگی های مشترکی را که می توانید در هنگام قرار دادن یا ارسال اسناد درخواست دهید، توصیف کنید.
+در این مقاله نحوه درج یا الحاق سند به سند دیگر به روش های مختلف توضیح داده شده و خصوصیات مشترکی که می توانید هنگام درج یا الحاق اسناد اعمال کنید شرح داده شده است.
 
-## اضافه کردن یک سند
+## یک سند وارد کنید
 
-همانطور که در بالا ذکر شد، در Aspose.Words یک سند به عنوان یک درخت گره ها نشان داده می شود و عملکرد قرار دادن یک سند به یک دیگر، کپی کردن گره ها از درخت سند اول به درخت دوم است.
+همانطور که در بالا ذکر شد، در Aspose.Words یک سند به عنوان یک درخت گره نشان داده می شود و عملیات وارد کردن یک سند به سند دیگر کپی کردن گره ها از درخت سند اول به درخت دوم است.
 
-شما می توانید اسناد را به روش های مختلف وارد کنید. به عنوان مثال، شما می توانید یک سند را از طریق یک عملیات جایگزین، یک میدان ادغام در طول یک عملیات ادغام شده یا از طریق یک نشانه وارد کنید.
+شما می توانید اسناد را در مکان های مختلف به روش های مختلف وارد کنید. به عنوان مثال، شما می توانید یک سند را از طریق یک عملیات جایگزینی، یک فیلد ادغام در طول یک عملیات ادغام، یا از طریق یک نشانه قرار دهید.
 
-شما همچنین می توانید از [InsertDocument](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocument-com.aspose.words.Document-int) یا [InsertDocumentInline](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocumentInline-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions) روش، که شبیه به قرار دادن یک سند در Microsoft Word, برای قرار دادن یک سند کامل در موقعیت مکانی فعلی بدون واردات قبلی.
+همچنین می توانید از روش [InsertDocument](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocument-com.aspose.words.Document-int) یا [InsertDocumentInline](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocumentInline-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions) که شبیه به قرار دادن یک سند در Microsoft Word است، برای قرار دادن یک سند کامل در موقعیت فعلی نشانگر بدون وارد کردن قبلی استفاده کنید.
 
-مثال کد زیر نشان می دهد که چگونه یک سند را با استفاده از **InsertDocument** روش:
+مثال کد زیر نشان می دهد که چگونه یک سند را با استفاده از روش **InsertDocument** وارد کنید:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-with-builder.java" >}}
 
-مثال کد زیر نشان می دهد که چگونه یک سند را با استفاده از **InsertDocumentInline** روش:
+مثال کد زیر نشان می دهد که چگونه یک سند را با استفاده از روش **InsertDocumentInline** وارد کنید:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-inline-with-builder.java" >}}
 
-زیربخش ها گزینه هایی را توصیف می کنند که در آن می توانید یک سند را به یک دیگر وارد کنید.
+زیربخش های زیر گزینه هایی را توصیف می کنند که در طی آن می توانید یک سند را در سند دیگر قرار دهید.
 
-### یک سند را در طول عملیات پیدا و جایگزین کنید {#insert-a-document-during-find-and-replace-operation}
+### وارد کردن یک سند در طول عملیات Find and Replace {#insert-a-document-during-find-and-replace-operation}
 
-شما می توانید اسناد را هنگام انجام عملیات پیدا و جایگزین کنید. به عنوان مثال، یک سند می تواند حاوی پاراگراف هایی با متن (INTRODUCTION) و [CONUSION] باشد. اما در سند نهایی، شما باید این پاراگراف ها را با محتوایی که از یک سند خارجی دیگر به دست آمده جایگزین کنید. برای رسیدن به آن، شما باید یک کارگزار برای جایگزینی رویداد ایجاد کنید.
+شما می توانید اسناد را در حین انجام عملیات find and replace وارد کنید. به عنوان مثال، یک سند می تواند شامل پاراگراف هایی با متن [INTRODUCTION] و [CONCLUSION] باشد. اما در سند نهایی، شما باید آن پاراگراف ها را با محتوای بدست آمده از سند خارجی دیگر جایگزین کنید. برای رسیدن به این هدف، باید یک کنترل کننده برای رویداد replace ایجاد کنید.
 
-مثال کد زیر نشان می دهد که چگونه برای ایجاد یک مسئول برای جایگزینی رویداد برای استفاده بعد از آن در فرآیند قرار دادن:
+مثال کد زیر نشان می دهد که چگونه یک کنترل کننده برای رویداد جایگزین ایجاد کنید تا بعدا در فرآیند وارد کردن از آن استفاده کنید:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-replace-handler.java" >}}
 
-مثال کد زیر نشان می دهد که چگونه محتوای یک سند را در یک عمل پیدا و جایگزین به دیگری وارد کنید:
+مثال کد زیر نشان می دهد که چگونه محتوای یک سند را در طول عملیات find and replace وارد دیگری کنید:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-replace.java" >}}
 
-### اضافه کردن یک سند در طول Mail Merge عملیات {#insert-a-document-during-mail-merge-operation}
+### یک سند را در طول Mail Merge عملیات {#insert-a-document-during-mail-merge-operation}وارد کنید
 
-شما می توانید یک سند را در یک زمینه ادغام شده در طول یک mail merge عملیات برای مثال، mail merge قالب می تواند شامل یک میدان ادغام مانند [Summary] باشد. اما در سند نهایی، شما باید محتوای به دست آمده از یک سند خارجی دیگر را در این زمینه ادغام کنید. برای رسیدن به این هدف، شما باید یک کارگزار برای رویداد ادغام ایجاد کنید.
+شما می توانید یک سند را در یک فیلد ادغام در طول یک عملیات Mail Merge وارد کنید. به عنوان مثال، یک قالب Mail Merge می تواند شامل یک فیلد ادغام مانند [Summary] باشد. اما در سند نهایی، شما باید محتوای بدست آمده از یک سند خارجی دیگر را در این فیلد ادغام قرار دهید. برای رسیدن به این هدف، شما باید یک کنترل کننده برای رویداد ادغام ایجاد کنید.
 
-مثال کد زیر نشان می دهد که چگونه برای ایجاد یک مسئول برای ادغام رویداد برای استفاده بعد از آن در فرآیند قرار دادن:
+مثال کد زیر نشان می دهد که چگونه یک کنترل کننده برای رویداد ادغام ایجاد کنیم تا بعدا در فرآیند وارد کردن از آن استفاده کنیم:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-mail-merge-handler.java" >}}
 
-مثال کد زیر نشان می دهد که چگونه یک سند را در زمینه ادغام با استفاده از کارگزار ایجاد شده وارد کنید:
+مثال کد زیر نشان می دهد که چگونه یک سند را با استفاده از کنترل کننده ایجاد شده در فیلد ادغام وارد کنید:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-mail-merge.java" >}}
 
-### اضافه کردن یک سند در Bookmark
+### یک سند را در نشانک قرار دهید
 
-شما می توانید یک فایل متنی را به یک سند وارد کنید و بلافاصله پس از یک نشانه که در سند تعریف کرده اید، آن را وارد کنید. برای انجام این کار، یک پاراگراف مشخص ایجاد کنید که می خواهید سند وارد شود.
+شما می توانید یک فایل متنی را به یک سند وارد کنید و بلافاصله پس از یک نشانه که در سند تعریف کرده اید، آن را وارد کنید. برای انجام این کار، یک پاراگراف نشانه گذاری شده ایجاد کنید که در آن می خواهید سند وارد شود.
 
-مثال زیر نشان می دهد که چگونه محتوای یک سند را به یک نشانه در یک سند دیگر وارد کنید:
+مثال کدگذاری زیر نشان می دهد که چگونه محتویات یک سند را در یک سند دیگر به یک نشانه گذاری وارد کنید:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-bookmark.java" >}}
 
 {{% alert color="primary" %}}
 
-توجه داشته باشید که نشانه نباید چندین پاراگراف یا متن را که می خواهید در سند نهایی شما ظاهر شود، بسته بندی کند.
+توجه داشته باشید که علامت گذاری نباید چندین پاراگراف یا متن را که می خواهید در سند نهایی شما ظاهر شود، شامل شود.
 
 {{% /alert %}}
 
-## Append a Document
+## اضافه کردن یک سند
 
-شما ممکن است یک مورد استفاده داشته باشید که در آن شما باید صفحات اضافی را از یک سند به انتهای یک سند موجود اضافه کنید. برای انجام این کار، شما فقط باید تماس بگیرید [AppendDocument](https://reference.aspose.com/words/java/com.aspose.words/document/#appendDocument-com.aspose.words.Document-int) روش اضافه کردن یک سند به انتهای یک دیگر
+شما ممکن است یک مورد استفاده داشته باشید که در آن شما باید صفحات اضافی از یک سند تا پایان یک سند موجود را شامل شوید. برای انجام این کار، فقط باید روش [AppendDocument](https://reference.aspose.com/words/java/com.aspose.words/document/#appendDocument-com.aspose.words.Document-int) را فراخوانی کنید تا یک سند به پایان یک سند دیگر اضافه شود.
 
 {{% alert color="primary" %}}
 
-توجه داشته باشید که [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/document/#appendChild-com.aspose.words.Node) یک روش سطح گره در یک سند است. به عنوان مثال، شما می توانید یک پاراگراف ایجاد کنید، ویژگی های قالب بندی را تنظیم کنید و سپس آن را به عنوان یک کودک به بدن با استفاده از آن قرار دهید. **AppendChild** روش
+توجه داشته باشید که [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/document/#appendChild-com.aspose.words.Node) یک روش سطح گره در یک سند است. برای مثال، شما می توانید یک پاراگراف ایجاد کنید، ویژگی های قالب بندی را تنظیم کنید، و سپس آن را به عنوان یک کودک به بدن با استفاده از روش **AppendChild** اضافه کنید.
 
 {{% /alert %}}
 
-مثال کد زیر نشان می دهد که چگونه یک سند را به انتهای یک سند دیگر ارسال کنیم:
+مثال کد زیر نشان می دهد که چگونه یک سند را به پایان یک سند دیگر اضافه کنید:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "keep-source-formatting.java" >}}
 
-## واردات و Insert Nodes Manual {#import-and-insert-nodes-manually}
+## وارد کردن و وارد کردن گره ها به صورت دستی {#import-and-insert-nodes-manually}
 
-Aspose.Words به شما اجازه می دهد تا اسناد را به طور خودکار بدون هیچ گونه الزامات واردات قبلی وارد و ارسال کنید. با این حال، اگر شما باید یک گره خاص از سند خود، مانند یک بخش یا یک پاراگراف را وارد کنید، ابتدا باید این گره را به صورت دستی وارد کنید.
+Aspose.Words به شما اجازه می دهد تا اسناد را به طور خودکار بدون نیاز به واردات قبلی وارد و اضافه کنید. با این حال، اگر شما نیاز به وارد کردن یا اضافه کردن یک گره خاص از سند خود، مانند یک بخش یا یک پاراگراف، سپس ابتدا شما نیاز به وارد کردن این گره به صورت دستی.
 
-هنگامی که شما نیاز به قرار دادن یا قرار دادن یک بخش یا پاراگراف به بخش دیگر دارید، اساسا باید گره های درخت گره اول را با استفاده از لایه دوم وارد کنید. [ImportNode](https://reference.aspose.com/words/java/com.aspose.words/document/#importNode-com.aspose.words.Node-boolean) روش پس از وارد کردن گره ها، باید از آن استفاده کنید. [InsertAfter](https://reference.aspose.com/words/java/com.aspose.words/document/#insertBefore-com.aspose.words.Node-com.aspose.words.Node) روش برای قرار دادن یک گره جدید پس از / قبل از گره مرجع. این اجازه می دهد تا شما را به سفارشی سازی فرایند ورود با واردات گره ها از یک سند و قرار دادن آن در موقعیت های معین.
+هنگامی که شما نیاز به وارد کردن یا اضافه کردن یک بخش یا پاراگراف به دیگری دارید، اساسا باید گره های درخت گره سند اول را با استفاده از روش [ImportNode](https://reference.aspose.com/words/java/com.aspose.words/document/#importNode-com.aspose.words.Node-boolean) به دومین وارد کنید. پس از وارد کردن گره های خود، باید از روش [InsertAfter](https://reference.aspose.com/words/java/com.aspose.words/document/#insertBefore-com.aspose.words.Node-com.aspose.words.Node) برای وارد کردن یک گره جدید پس از/قبل از گره مرجع استفاده کنید. این به شما اجازه می دهد تا فرآیند وارد کردن را با وارد کردن گره ها از یک سند و وارد کردن آن در موقعیت های داده شده سفارشی کنید.
 
-شما همچنین می توانید از [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/document/#appendChild-com.aspose.words.Node) روش اضافه کردن یک گره مشخص جدید به انتهای لیست گره های کودک، به عنوان مثال، اگر می خواهید به جای سطح بخش، محتوای را در سطح پاراگراف قرار دهید.
+شما همچنین می توانید از روش [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/document/#appendChild-com.aspose.words.Node) برای اضافه کردن یک گره مشخص شده جدید به پایان لیست گره های کودک استفاده کنید، به عنوان مثال، اگر می خواهید محتوا را در سطح پاراگراف به جای سطح بخش اضافه کنید.
 
-مثال کد زیر نشان می دهد که چگونه گره های وارد دستی را وارد کنید و آنها را پس از یک گره خاص با استفاده از گره خاص قرار دهید. **InsertAfter** روش:
+مثال کد زیر نشان می دهد که چگونه گره ها را به صورت دستی وارد کنید و آنها را پس از یک گره خاص با استفاده از روش **InsertAfter** وارد کنید:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-as-nodes.java" >}}
 
 {{% alert color="primary" %}}
 
-واردات یک گره جدید ایجاد می کند که یک کپی از گره اصلی و مناسب برای قرار دادن در سند مقصد است.
+واردات یک گره جدید ایجاد می کند که یک کپی از گره اصلی است و برای قرار دادن در سند مقصد مناسب است.
 
 {{% /alert %}}
 
-محتوا به بخش سند مقصد توسط بخش وارد می شود، به این معنی که تنظیمات، مانند تنظیمات صفحه و هدر یا پا، در طول واردات حفظ می شوند. همچنین مفید است که توجه داشته باشید که شما می توانید تنظیمات قالب بندی را زمانی که یک سند را وارد می کنید یا ارسال می کنید، تعریف کنید تا مشخص کنید که چگونه دو سند به هم پیوسته اند.
+محتوا به صورت بخش به بخش وارد سند مقصد می شود، به این معنی که تنظیمات، مانند تنظیم صفحه و سرصفحه ها یا پاورقی ها، در هنگام وارد کردن حفظ می شوند. همچنین مفید است که توجه داشته باشید که شما می توانید تنظیمات قالب بندی را هنگام وارد کردن یا اضافه کردن یک سند برای مشخص کردن چگونگی پیوستن دو سند به هم تعریف کنید.
 
-## ویژگی های مشترک برای Insert و Append Files {#common-properties-for-insert-and-append-documents}
+## خواص مشترک برای وارد کردن و اضافه کردن اسناد {#common-properties-for-insert-and-append-documents}
 
-هر دو [InsertDocument](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocument-com.aspose.words.Document-int) و [AppendDocument](https://reference.aspose.com/words/java/com.aspose.words/document/#appendDocument-com.aspose.words.Document-int) روش های پذیرش [ImportFormatMode](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/) و [ImportFormatOptions](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/) به عنوان پارامترهای ورودی The The The The The The **ImportFormatMode** اجازه می دهد تا شما را به کنترل چگونه قالب بندی سند ادغام زمانی که شما واردات محتوا از یک سند به یک دیگر با انتخاب حالت های مختلف فرمت مانند مانند انتخاب حالت های مختلف فرمت مانند [UseDestinationStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#USE-DESTINATION-STYLES), [KeepSourceFormatting](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#KEEP-SOURCE-FORMATTING), و [KeepDifferentStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#KEEP-DIFFERENT-STYLES)... The The The The The The **ImportFormatOptions** اجازه می دهد گزینه های مختلف واردات مانند [IgnoreHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getIgnoreHeaderFooter), [IgnoreTextBoxes](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getIgnoreTextBoxes), [KeepSourceNumbering](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getKeepSourceNumbering), [MergePastedLists](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getMergePastedLists), و [SmartStyleBehavior](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getSmartStyleBehavior)...
+هر دو روش [InsertDocument](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocument-com.aspose.words.Document-int) و [AppendDocument](https://reference.aspose.com/words/java/com.aspose.words/document/#appendDocument-com.aspose.words.Document-int) [ImportFormatMode](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/) و [ImportFormatOptions](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/) را به عنوان پارامترهای ورودی قبول می کنند. **ImportFormatMode** به شما اجازه می دهد تا کنترل کنید که چگونه قالب بندی سند در هنگام وارد کردن محتوا از یک سند به سند دیگر با انتخاب حالت های مختلف فرمت مانند [UseDestinationStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#USE-DESTINATION-STYLES)، [KeepSourceFormatting](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#KEEP-SOURCE-FORMATTING) و [KeepDifferentStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#KEEP-DIFFERENT-STYLES) ادغام می شود. **ImportFormatOptions** به شما اجازه می دهد گزینه های مختلف واردات مانند [IgnoreHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getIgnoreHeaderFooter), [IgnoreTextBoxes](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getIgnoreTextBoxes), [KeepSourceNumbering](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getKeepSourceNumbering), [MergePastedLists](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getMergePastedLists), و [SmartStyleBehavior](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getSmartStyleBehavior).
 
-Aspose.Words به شما اجازه می دهد تا تجسم یک سند نتیجه را تنظیم کنید زمانی که دو سند با هم در یک عملیات ورودی یا Append با استفاده از آن اضافه می شوند. [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) و [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/) خواص The The The The The The **PageSetup** مالکیت شامل تمام ویژگی های یک بخش مانند [SectionStart](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getSectionStart), [RestartPageNumbering](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getRestartPageNumbering), [PageStartingNumber](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getPageStartingNumber), [Orientation](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getOrientation), و دیگران. رایج ترین مورد استفاده این است که تنظیم کنید **SectionStart** ملک برای تعریف اینکه آیا محتوای اضافه شده در یک صفحه ظاهر می شود یا به یک صفحه جدید تقسیم می شود.
+Aspose.Words به شما اجازه می دهد تا تجسم یک سند حاصل را با استفاده از ویژگی های [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) و [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/) تنظیم کنید. ویژگی **PageSetup** شامل تمام ویژگی های یک بخش مانند [SectionStart](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getSectionStart), [RestartPageNumbering](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getRestartPageNumbering), [PageStartingNumber](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getPageStartingNumber), [Orientation](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getOrientation), و دیگران. رایج ترین مورد استفاده این است که ویژگی **SectionStart** را برای تعریف اینکه آیا محتوای اضافه شده در همان صفحه ظاهر می شود یا به یک صفحه جدید تقسیم می شود، تنظیم کنید.
 
 {{% alert color="primary" %}}
 
-توجه داشته باشید که **Section** و **PageSetup** خواص کنترل نمی کنند که چگونه دو سند در کنار هم قرار می گیرند. آنها فقط به شما اجازه می دهند ظاهر سند نتیجه خود را تغییر دهید.
+توجه داشته باشید که ویژگی های **Section** و **PageSetup** کنترل نمی کنند که چگونه دو سند با هم وارد/اضافه می شوند. آنها فقط به شما امکان می دهند ظاهر سند نتیجه خود را تغییر دهید.
 
 {{% /alert %}}
 
-مثال کد زیر نشان می دهد که چگونه یک سند را به یک دیگر اضافه کنید در حالی که محتوا را از دو صفحه جدا نگه دارید:
+مثال کد زیر نشان می دهد که چگونه یک سند را به سند دیگر اضافه کنیم در حالی که محتوای آن را از تقسیم در دو صفحه جلوگیری می کنیم:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "different-page-setup.java" >}}

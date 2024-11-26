@@ -1,33 +1,34 @@
----
+﻿---
 title: Limpiar un documento en Java
-second_title: Aspose.Words para Java
-articleTitle: Limpiar un documento
-linktitle: Limpiar un documento
-description: "Eliminar información no utilizada o duplicada para reducir el tamaño de la salida y el tiempo de procesamiento. Eliminar estilos no utilizados, estilos incorporados no utilizados, estilos duplicados o listas no utilizadas usando Java."
+second_title: Aspose.Words por Java
+articleTitle: Limpiar un Documento
+linktitle: Limpiar un Documento
+description: "Elimine la información no utilizada o duplicada para reducir el tamaño de salida y el tiempo de procesamiento. Elimine estilos no utilizados, estilos integrados no utilizados, estilos duplicados o listas no utilizadas con Java."
 type: docs
 weight: 30
 url: /es/java/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
-A veces es posible que necesite eliminar información no utilizada o duplicada para reducir el tamaño del documento de salida y el tiempo de procesamiento.
+A veces, es posible que deba eliminar información no utilizada o duplicada para reducir el tamaño del documento de salida y el tiempo de procesamiento.
 
-Si bien puede encontrar y eliminar datos no utilizados, tales como estilos o listas, o duplicar la información manualmente, será mucho más conveniente hacerlo utilizando características y capacidades proporcionadas por Aspose.Words.
+Si bien puede encontrar y eliminar datos no utilizados, como estilos o listas, o duplicar información manualmente, será mucho más conveniente hacerlo utilizando las funciones y capacidades proporcionadas por Aspose.Words.
 
-El [CleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/cleanupoptions/) clase le permite especificar opciones para la limpieza de documentos. Para eliminar estilos duplicados o simplemente estilos o listas no utilizados del documento, puede utilizar el [Cleanup](https://reference.aspose.com/words/java/com.aspose.words/document/#cleanup) método.
+La clase [CleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/cleanupoptions/) le permite especificar opciones para la limpieza de documentos. Para eliminar estilos duplicados o simplemente estilos o listas no utilizados del documento, puede usar el método [Cleanup](https://reference.aspose.com/words/java/com.aspose.words/document/#cleanup).
 
-## Eliminar la información no utilizada de un documento
+## Eliminar Información no Utilizada de un Documento
 
-Puedes usar el [UnusedStyles](https://reference.aspose.com/words/java/com.aspose.words/cleanupoptions/#getUnusedStyles) y [UnusedBuiltinStyles](https://reference.aspose.com/words/java/com.aspose.words/cleanupoptions/#getUnusedBuiltinStyles) propiedades para detectar y eliminar estilos marcados como "no utilizados".
+Puede utilizar las propiedades [UnusedStyles](https://reference.aspose.com/words/java/com.aspose.words/cleanupoptions/#getUnusedStyles) y [UnusedBuiltinStyles](https://reference.aspose.com/words/java/com.aspose.words/cleanupoptions/#getUnusedBuiltinStyles) para detectar y eliminar estilos marcados como "no utilizados".
 
-Puedes usar el [UnusedLists](https://reference.aspose.com/words/java/com.aspose.words/cleanupoptions/#getUnusedLists) propiedad para detectar y eliminar listas y definiciones de lista que están marcadas como "no utilizadas".
+Puede utilizar la propiedad [UnusedLists](https://reference.aspose.com/words/java/com.aspose.words/cleanupoptions/#getUnusedLists) para detectar y eliminar listas y definiciones de listas marcadas como "no utilizadas".
 
-El siguiente ejemplo de código muestra cómo eliminar sólo estilos no utilizados de un documento:
+El siguiente ejemplo de código muestra cómo eliminar solo los estilos no utilizados de un documento:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithStyle-CleansUnusedStylesandLists.java" >}}
 
-## Eliminar la información duplicada de un documento
+## Eliminar Información Duplicada de un Documento
 
-También puede utilizar el [DuplicateStyle](https://reference.aspose.com/words/java/com.aspose.words/cleanupoptions/#getDuplicateStyle) propiedad para sustituir todos los estilos duplicados con el original y eliminar duplicados de un documento.
+También puede usar la propiedad [DuplicateStyle](https://reference.aspose.com/words/java/com.aspose.words/cleanupoptions/#getDuplicateStyle) para sustituir todos los estilos duplicados por el original y eliminar duplicados de un documento.
 
 El siguiente ejemplo de código muestra cómo eliminar estilos duplicados de un documento:
 

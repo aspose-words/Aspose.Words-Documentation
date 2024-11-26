@@ -7,6 +7,7 @@ description: "Aspose.Words для .NET предоставляет пользов
 type: docs
 weight: 40
 url: /ru/net/features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words предоставляет пользователям широкий спектр функций. Пользователи могут выполнять огромное количество задач, связанных с документами - от простого преобразования документов из одного поддерживаемого формата в другой и изменения этих документов в процессе преобразования до бизнес-задач, таких как создание структурированных и визуально привлекательных документов или автоматизация отчетности.
@@ -113,16 +114,16 @@ Aspose.Words обеспечивает детальный программный 
 
 |  Особенность | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Xamarin. Мак |
 |  :-  |  :-  |  :-  |  :-  |  :-  |  :-  |
-| Используйте все стандартные Microsoft Word mail merge в своих отчетах, в том числе `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, Приветствую. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Казнить mail merge для документов, содержащих даже самые сложные и вложенные `IF` Поля и формулы. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Населяйте и динамически выращивайте таблицы или фрагменты в документе из вашего источника данных с помощью mail merge регионов. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Используйте все стандартные Microsoft Word Mail Merge в своих отчетах, в том числе `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, Приветствую. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Казнить Mail Merge для документов, содержащих даже самые сложные и вложенные `IF` Поля и формулы. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Населяйте и динамически выращивайте таблицы или фрагменты в документе из вашего источника данных с помощью Mail Merge регионов. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Легко генерировать отчеты, которые содержат основные данные (родитель-ребенок), такие как Заказ / Детали заказа. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Населенные документы с данными из любых .NET Источник данных, такой как DataSet, DataTable, DataView, DataReader или ADO Recordset. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Заполните документы из любого источника данных, такого как запрос LINQ, XML-файл или бизнес-объекты, реализуя **IMailMergeDataSource** интерфейс. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Возьмите точный контроль, такой как форматирование чисел, над тем, как ваши данные объединяются с помощью событий. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Вставить изображения во время mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Программно создавать или изменять Microsoft Word mail merge Источник данных для документа. сохранять mail merge Настройки и источники данных. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Ретрив mail merge Названия полей. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Программно создавать или изменять Microsoft Word Mail Merge Источник данных для документа. сохранять Mail Merge Настройки и источники данных. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Ретрив Mail Merge Названия полей. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ## Особенности отчетности
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: งคุณ
 second_title: Aspose.WordsสำหรับC++
 articleTitle: คุณสมบัติที่รองรับ
@@ -7,6 +7,7 @@ description: "Aspose.WordsสำหรับC++ ให้ผู้ใช้ท�
 type: docs
 weight: 40
 url: /th/cpp/features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Wordsให้ผู้ใช้ที่มีความหลากหลายของคุณสมบัติ. ผู้ใช้สามารถดำเนินการเป็นจำนวนมากของงานที่เกี่ยวข้องกับเอกสาร-จากเพียงแค่การแ.

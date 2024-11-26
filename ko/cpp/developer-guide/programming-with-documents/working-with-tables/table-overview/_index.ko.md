@@ -1,4 +1,4 @@
-﻿---
+---
 title: 테이블 개요
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 테이블 개요
@@ -7,6 +7,7 @@ description: "셀,행,열과 같은 테이블 및 해당 구성 요소로 작업
 type: docs
 weight: 10
 url: /ko/cpp/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 이 라이브러리는 그러한 문제를 표준화된 프로그래밍 인터페이스를 제공함으로써 해결합니다. – PDF, HTML,다른 Microsoft Word 형식 및 기타-다음과 같은 방법으로 테이블을 지원합니다:

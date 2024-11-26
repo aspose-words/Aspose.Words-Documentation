@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabalhando com controle de Conteúdo SDT
 second_title: Aspose.Words para C++
 articleTitle: Trabalhando com controle de Conteúdo SDT
@@ -7,6 +7,7 @@ type: docs
 description: "Gerenciamento avançado de conteúdo de documentos, como criar e manipular controles de conteúdo (Tags de documentos estruturados) usando C++."
 weight: 390
 url: /pt/cpp/structured-document-tags-or-content-control/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Em Microsoft Word, você pode criar um formulário começando com um modelo e adicionando controles de conteúdo, incluindo caixas de seleção, caixas de texto, selecionadores de data e listas suspensas. Em Aspose.Words, uma Tag de documento estruturado ou controle de conteúdo de qualquer documento carregado em Aspose.Words é importado como um nó StructuredDocumentTag. As etiquetas de documentos estruturados (SDT ou controlo de conteúdo) permitem incorporar a semântica definida pelo cliente, bem como o seu comportamento e aparência num documento. StructuredDocumentTag pode ocorrer num documento nos seguintes locais:

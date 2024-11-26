@@ -7,6 +7,7 @@ description: "Chọn tiêu chuẩn PDF tốt nhất để xuất kết quả tá
 type: docs
 weight: 27
 url: /vi/python-net/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đối với một số tác vụ, một số tiêu chuẩn PDF nhất định sẽ phù hợp hơn hoặc ngược lại sẽ kém hơn. Trong bài viết này, chúng tôi sẽ cố gắng xác định tiêu chuẩn PDF nào cho trường hợp nào nên chọn.

@@ -7,6 +7,7 @@ description: "Aspose.Words for Python via .NET طیف وسیعی از ویژگی
 type: docs
 weight: 30
 url: /fa/python-net/features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words طیف گسترده ای از ویژگی ها را در اختیار کاربران قرار می دهد. کاربران می توانند حجم عظیمی از وظایف مرتبط با سند را انجام دهند - از تبدیل ساده اسناد از یک قالب پشتیبانی شده به فرمت دیگر و تغییر آن اسناد در طول فرآیند تبدیل به کارهای تجاری، مانند ایجاد اسناد ساختار یافته و جذاب از نظر بصری یا گزارش خودکار.
@@ -108,16 +109,16 @@ Aspose.Words دسترسی برنامه‌ای دقیق به ویژگی‌های 
 
 |  ویژگی | Python via .NET |
 |  :-  |  :-  |
-| از تمام فیلدهای استاندارد Microsoft Word mail merge در گزارش های خود از جمله `MERGEFIELD`، `NEXT`، `NEXTIF`، `ADDRESSBLOCK`، GREETINGLINE استفاده کنید. | {{< emoticons/tick >}} |
-| mail merge را برای اسنادی که حاوی پیچیده ترین و تودرتوترین فیلدها و فرمول های `IF` هستند، اجرا کنید. | {{< emoticons/tick >}} |
-| جداول یا قطعات را در سند از منبع داده خود با استفاده از مناطق mail merge پر کنید و به صورت پویا رشد دهید. | {{< emoticons/cross >}} |
+| از تمام فیلدهای استاندارد Microsoft Word Mail Merge در گزارش های خود از جمله `MERGEFIELD`، `NEXT`، `NEXTIF`، `ADDRESSBLOCK`، GREETINGLINE استفاده کنید. | {{< emoticons/tick >}} |
+| Mail Merge را برای اسنادی که حاوی پیچیده ترین و تودرتوترین فیلدها و فرمول های `IF` هستند، اجرا کنید. | {{< emoticons/tick >}} |
+| جداول یا قطعات را در سند از منبع داده خود با استفاده از مناطق Mail Merge پر کنید و به صورت پویا رشد دهید. | {{< emoticons/cross >}} |
 | به راحتی گزارش هایی تولید کنید که حاوی داده های اصلی جزئیات (والد-فرزند) مانند Order/OrderDetails هستند. | {{< emoticons/cross >}} |
 | اسناد را با داده های هر منبع داده .NET مانند DataSet، DataTable، DataView، DataReader یا ADO Recordset پر کنید. | {{< emoticons/cross >}} |
 | با پیاده سازی رابط [IMailMergeDataSource](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/imailmergedatasource/)، اسناد را از هر منبع داده مانند پرس و جوی LINQ، فایل XML یا اشیاء تجاری پر کنید. | {{< emoticons/cross >}} |
 | کنترل دقیقی مانند قالب بندی اعداد را بر نحوه ادغام داده های خود با استفاده از رویدادها در دست بگیرید. | {{< emoticons/cross >}} |
 | درج تصاویر در طول mail merge. | {{< emoticons/tick >}} |
-| یک منبع داده Microsoft Word mail merge را به صورت برنامه ریزی شده برای یک سند ایجاد یا تغییر دهید. تنظیمات mail merge و منابع داده را حفظ کنید. | {{< emoticons/tick >}} |
-| نام فیلدهای mail merge را بازیابی کنید. | {{< emoticons/tick >}} |
+| یک منبع داده Microsoft Word Mail Merge را به صورت برنامه ریزی شده برای یک سند ایجاد یا تغییر دهید. تنظیمات Mail Merge و منابع داده را حفظ کنید. | {{< emoticons/tick >}} |
+| نام فیلدهای Mail Merge را بازیابی کنید. | {{< emoticons/tick >}} |
 
 ## ویژگی های گزارش
 

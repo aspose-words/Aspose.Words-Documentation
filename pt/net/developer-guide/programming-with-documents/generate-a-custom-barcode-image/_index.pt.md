@@ -7,6 +7,7 @@ description: "Um exemplo de geração de forma de código de barras usando C#."
 type: docs
 weight: 350
 url: /pt/net/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
 Um código de barras é uma representação visual dos dados na forma de linhas paralelas ou padrões. Os códigos de barras são amplamente utilizados em vários setores, como varejo, logística, saúde, bancos e muitos outros.

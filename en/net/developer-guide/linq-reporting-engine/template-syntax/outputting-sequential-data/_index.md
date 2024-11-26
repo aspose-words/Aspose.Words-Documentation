@@ -8,6 +8,7 @@ type: docs
 weight: 30
 url: /net/outputting-sequential-data/
 aliases: [/net/template-syntax/#outputting-sequential-data]
+timestamp: 2024-01-27-14-07-04
 ---
 
 You can output a sequence of elements of the same type to your report using a data band. A *data band* has a body that represents a template for a single element of such a sequence. While building a report, sequence elements are enumerated, and the following procedure takes place for each of the elements:

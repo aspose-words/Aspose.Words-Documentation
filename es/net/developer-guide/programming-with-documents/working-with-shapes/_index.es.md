@@ -7,6 +7,7 @@ description: "Introducción al lenguaje de marcado de formas, creando formas de 
 type: docs
 weight: 280
 url: /es/net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Este tema analiza cómo trabajar mediante programación con formas usando Aspose.Words.

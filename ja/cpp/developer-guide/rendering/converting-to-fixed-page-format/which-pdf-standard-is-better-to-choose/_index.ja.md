@@ -1,4 +1,4 @@
-﻿---
+---
 title: どのPDF標準を選択するのが良いですか
 second_title: C++の場合Aspose.Words
 articleTitle: どのPDF標準を選択するのが良いですか
@@ -7,6 +7,7 @@ description: "プログラミングタスクの結果をC++でエクスポート
 type: docs
 weight: 37
 url: /ja/cpp/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 一部のタスクでは、特定のPDF標準がより適切に適合するか、またはその逆が悪くなります。 この記事では、どのケースに対してどのPDF基準を選択するのが理にかなっているかを判断しようとします。

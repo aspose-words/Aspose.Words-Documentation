@@ -7,6 +7,7 @@ description: "Cum să manipulezi note de subsol și note finale folosind C#."
 type: docs
 weight: 160
 url: /ro/net/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words oferă de asemenea câteva clase, metode și proprietăți pentru lucrul cu note de subsol și note finale.

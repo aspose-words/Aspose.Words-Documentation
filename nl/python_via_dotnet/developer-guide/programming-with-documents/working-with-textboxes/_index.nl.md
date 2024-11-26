@@ -7,6 +7,7 @@ description: "Werk met tekstvakken in een document met Python."
 type: docs
 weight: 250
 url: /nl/python-net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In Aspose.Words, [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) klasse wordt gebruikt om aan te geven hoe een tekst in een vorm wordt weergegeven. Het biedt een openbare eigendom genoemd als [parent](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/parent/) om de oudervorm van het tekstvak te krijgen zodat de klant de koppeling kan vinden [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) van verbonden [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/).

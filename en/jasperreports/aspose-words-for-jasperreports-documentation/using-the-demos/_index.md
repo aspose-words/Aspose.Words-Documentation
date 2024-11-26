@@ -1,4 +1,4 @@
-﻿---
+---
 title: Using the Demos
 second_title: Aspose.Words for JasperReports
 articleTitle: Using the Demos
@@ -7,6 +7,7 @@ description: "Aspose.Words for JasperReports includes a number of demo projects 
 type: docs
 weight: 100
 url: /jasperreports/using-the-demos/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

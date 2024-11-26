@@ -1,4 +1,4 @@
-﻿---
+---
 title: HTML Formatting
 second_title: Aspose.Words for Reporting Services
 articleTitle: HTML Formatting
@@ -7,6 +7,7 @@ description: "HTML Formatting setting of the Aspose.Words for Reporting Services
 type: docs
 weight: 90
 url: /reportingservices/html-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

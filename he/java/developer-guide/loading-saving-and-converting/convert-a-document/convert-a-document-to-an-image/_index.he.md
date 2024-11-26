@@ -7,6 +7,7 @@ type: docs
 description: "להמיר מסמך לתבנית תמונה (JPG, PNG וכו '). צור מסמך תצוגה מקדימה או ליצור סריקת מסמך כדי לשלוח חשבונית באמצעות Java."
 weight: 35
 url: /he/java/convert-a-document-to-an-image/
+timestamp: 2024-01-27-14-07-04
 ---
 
 לפעמים נדרש לקבל תמונה במקום מסמכים בפורמטים אחרים, כגון DOCX או PDF. לדוגמה, אתה צריך להוסיף תצוגה מקדימה של כל דף מסמך לאתר או היישום שלך או ליצור "scan" של מסמך לשלוח חשבונית. זה כאשר ייתכן שיהיה עליך להמיר מסמך בכל עת. [פורמט עומס נתמך](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) תמונה, שוב, בכל [פורמט Save](https://reference.aspose.com/words/java/com.aspose.words/saveformat/).

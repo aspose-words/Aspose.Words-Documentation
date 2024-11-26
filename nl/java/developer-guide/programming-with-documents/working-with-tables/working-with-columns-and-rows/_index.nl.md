@@ -7,6 +7,7 @@ description: "Werken met delen van een tabel Java. Koprij opgeven Java."
 type: docs
 weight: 30
 url: /nl/java/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Voor meer controle over hoe tabellen werken, leer hoe kolommen en rijen te manipuleren.

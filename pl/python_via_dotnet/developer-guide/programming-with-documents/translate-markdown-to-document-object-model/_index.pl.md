@@ -7,6 +7,7 @@ type: docs
 description: "Przekształć dokument Markdown do formatu Document Object Model i z powrotem, używając formatu Python. Możesz więc pracować ze złożonym istniejącym Markdown i programowo tworzyć dokument Markdown od zera."
 weight: 20
 url: /pl/python-net/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aby programowo czytać, manipulować i modyfikować zawartość i formatowanie dokumentu, musisz przetłumaczyć go na format Aspose.Words Document Object Model (DOM).
@@ -124,9 +125,9 @@ Poniższa tabela pokazuje przykłady użycia bloków Markdown Leaf w Aspose.Word
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br /> `-----` |  To jest prosty akapit z odpowiadającym mu kształtem HorizontalRule:<br /> [DocumentBuilder.insert_horizontal_rule()](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_horizontal_rule/) |
 |   {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_markdown-HorizontalRule.py" >}}  |                                                                |
-|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.style_name = "Heading N"`, gdzie (1&lt;= N &lt;= 9).<br /> Jest to tłumaczone na styl wbudowany i powinno być dokładnie zgodne z określonym wzorcem (nie są dozwolone żadne przyrostki ani przedrostki).<br /> W przeciwnym razie będzie to zwykły akapit z odpowiednim stylem |
+|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.style_name = "Heading N"`, gdzie (1&le; N &le; 9).<br /> Jest to tłumaczone na styl wbudowany i powinno być dokładnie zgodne z określonym wzorcem (nie są dozwolone żadne przyrostki ani przedrostki).<br /> W przeciwnym razie będzie to zwykły akapit z odpowiednim stylem |
 |   {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_markdown-Headings.py" >}}  |                                                                |
-|  **Setext Heading**<br /> `===` (jeśli poziom nagłówka 1),<br /> `---` (jeśli poziom nagłówka 2) |  `ParagraphFormat.style_name = "SetextHeading[some suffix]"`, oparty na stylu `"Heading N"`.<br /> Jeśli (N &gt;= 2), wówczas zostanie użyty format `"Heading 2"`, w przeciwnym razie `"Heading 1"`.<br /> Dozwolony jest dowolny przyrostek, ale importer Aspose.Words używa odpowiednio cyfr "1" i "2" |
+|  **Setext Heading**<br /> `===` (jeśli poziom nagłówka 1),<br /> `---` (jeśli poziom nagłówka 2) |  `ParagraphFormat.style_name = "SetextHeading[some suffix]"`, oparty na stylu `"Heading N"`.<br /> Jeśli (N &ge; 2), wówczas zostanie użyty format `"Heading 2"`, w przeciwnym razie `"Heading 1"`.<br /> Dozwolony jest dowolny przyrostek, ale importer Aspose.Words używa odpowiednio cyfr "1" i "2" |
 |  {{< highlight python >}}# Use a document builder to add content to the document.
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)

@@ -1,12 +1,13 @@
-﻿---
-title: Use `DocumentBuilder` para Inserir Elementos do documento
+---
+title: Use DocumentBuilder para Inserir Elementos do documento
 second_title: Aspose.Words para C++
-articleTitle: Use `DocumentBuilder` para Inserir Elementos do documento
-linktitle: Use `DocumentBuilder` para Inserir Elementos do documento
+articleTitle: Use DocumentBuilder para Inserir Elementos do documento
+linktitle: Use DocumentBuilder para Inserir Elementos do documento
 type: docs
 description: "Insira elementos do documento usando o document builder em C++."
 weight: 80
 url: /pt/cpp/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 O `DocumentBuilder` é utilizado para modificar documentos. Este artigo explica e descreve como executar uma série de Tarefas:
@@ -155,7 +156,7 @@ OLE package é uma maneira legada e" não documentada " de armazenar objetos inc
 
 ## Inserir HTML
 
-Você pode inserir facilmente uma string HTML que contenha um fragmento HTML ou um documento HTML inteiro no documento do Word. Basta passar esta string para o método `DocumentBuilder->InsertHtml`. Uma das implementações úteis do método é armazenar uma string HTML em um banco de dados e inseri-la no documento durante mail merge para obter o conteúdo formatado adicionado em vez de construí-lo usando vários métodos do construtor de documentos. O exemplo abaixo mostra inserções HTML em um documento usando DocumentBuilder.
+Você pode inserir facilmente uma string HTML que contenha um fragmento HTML ou um documento HTML inteiro no documento do Word. Basta passar esta string para o método `DocumentBuilder->InsertHtml`. Uma das implementações úteis do método é armazenar uma string HTML em um banco de dados e inseri-la no documento durante Mail Merge para obter o conteúdo formatado adicionado em vez de construí-lo usando vários métodos do construtor de documentos. O exemplo abaixo mostra inserções HTML em um documento usando DocumentBuilder.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHtml.cpp" >}}
 

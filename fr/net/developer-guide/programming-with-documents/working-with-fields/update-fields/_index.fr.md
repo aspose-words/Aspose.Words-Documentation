@@ -7,6 +7,7 @@ description: "Découvrez comment mettre à jour les champs dans C#. Mettez à jo
 type: docs
 weight: 30
 url: /fr/net/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Généralement, un champ inséré dans Microsoft Word contient déjà une valeur à jour. Par exemple, si le champ est une formule ou un numéro de page, il contiendra la valeur calculée correcte pour la version donnée du document. Mais si vous disposez d'une application qui génère ou modifie un document avec des champs comme la fusion de deux documents ou le remplissage de données, alors idéalement, tous les champs doivent être mis à jour pour que le document soit utile.
@@ -42,7 +43,7 @@ Vous pouvez télécharger le fichier exemple de cet exemple à partir de [Aspose
 
 ### Mise à jour automatique des champs pendant Mail Merge
 
-Lorsque vous exécutez un mail merge, tous les champs du document seront automatiquement mis à jour. En effet, le mail merge est un cas de mise à jour de champ. Le programme rencontre un champ mail merge et doit mettre à jour son résultat, ce qui implique de récupérer la valeur de la source de données et de l'insérer dans le champ. La logique est bien sûr plus compliquée, par exemple, lorsque la fin de la région du document/mail merge est atteinte mais qu'il reste encore des données à fusionner, la région doit alors être dupliquée et le nouvel ensemble de champs mis à jour.
+Lorsque vous exécutez un mail merge, tous les champs du document seront automatiquement mis à jour. En effet, le Mail Merge est un cas de mise à jour de champ. Le programme rencontre un champ Mail Merge et doit mettre à jour son résultat, ce qui implique de récupérer la valeur de la source de données et de l'insérer dans le champ. La logique est bien sûr plus compliquée, par exemple, lorsque la fin de la région du document/mail merge est atteinte mais qu'il reste encore des données à fusionner, la région doit alors être dupliquée et le nouvel ensemble de champs mis à jour.
 
 ## Mettre à jour les champs ayant un attribut sale
 

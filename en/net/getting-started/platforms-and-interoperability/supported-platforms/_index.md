@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET supports a wide range of platforms to work w
 type: docs
 weight: 5
 url: /net/supported-platforms/
+timestamp: 2024-10-24-11-44-28
 ---
 
 ## .NET Framework
@@ -30,7 +31,8 @@ Xamarin.Android makes it possible to do native Android development in C#, with e
 Xamarin.iOS makes it possible to do native iOS development in C#, with either Visual Studio or Xamarin Studio. You can use Aspose.Words API to perform a wide range of Word document processing tasks directly within your native iOS applications.
 
 ## `Xamarin.Mac`
- `Xamarin.Mac` gives C# developers the ability to build fully native Cocoa apps for Mac OS X and allows for native apps that can be put into the Mac App Store. You can use Aspose.Words API to perform a wide range of Word document processing tasks directly within your native Mac applications.
+
+ `Xamarin.Mac` gives C# developers the ability to build fully native Cocoa apps for Mac OS X and allows for native apps that can be put into the Mac App Store. You can use Aspose.Words API to perform a wide range of Word document processing tasks directly within your native Mac applications.
 
 ## COM
 

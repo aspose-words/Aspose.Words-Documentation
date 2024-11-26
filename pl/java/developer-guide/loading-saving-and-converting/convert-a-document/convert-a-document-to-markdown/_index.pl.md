@@ -8,6 +8,7 @@ description: "Konwersja dokumentu w dowolnym obsługiwanym formacie obciążenia
 keywords: how to convert a document to markdown Java, save as MD, DOCX to MD
 weight: 33
 url: /pl/java/convert-a-document-to-markdown/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Markdown jest popularnym formatem używanym do znakowania tekstu i jest to dalsze przekształcenie do HTML, PDF, DOCX lub innych formatów. Wielu deweloperów wybiera ten format do pisania dokumentacji, przygotowywania artykułów do publikacji na blogach, opisywania projektów itp.
@@ -18,7 +19,7 @@ Teraz funkcjonalność do pracy z Markdown Format jest aktywnie rozwijany, aby z
 
 ## Konwertuj dokument do Markdown
 
-Aby przekonwertować dokument <span notrans="<span notrans=" Markdown"=""></span>", > wystarczy załadować dokument w dowolnym obsługiwanym formacie lub utworzyć nowy program. Następnie należy zapisać dokument do Markdown format.
+Aby przekonwertować dokument Markdown, > wystarczy załadować dokument w dowolnym obsługiwanym formacie lub utworzyć nowy program. Następnie należy zapisać dokument do Markdown format.
 
 Poniższy przykład kodu pokazuje jak przekonwertować DOCX do Markdown:
 
@@ -58,5 +59,5 @@ Wynik tego przykładu kodu przedstawiono poniżej.
 
 Istnieje kilka niuansów i ciekawych przypadków, po dowiedział się, które można pracować z Markdown pliki bardziej elastyczne i wygodne. Na przykład istnieje możliwość użycia:
 
-* SetextNagłówek, który pozwala na tworzenie wielu linii nagłówków w <span notrans="<span notrans=" Markdown"=""></span>", > podczas gdy regularne pozycje w Markdown może być tylko pojedyncza linia. SetextNagłówek jest oparty na stylu "Nagłówek N", a jego poziom może wynosić tylko 1 lub 2. Jeżeli N w "Nagłówek N" jest większy lub równy 2, to odpowiedni SetextNagłówek jest oparty na "Nagłówek 2", inaczej na "Nagłówek 1".
+* SetextNagłówek, który pozwala na tworzenie wielu linii nagłówków w Markdown, > podczas gdy regularne pozycje w Markdown może być tylko pojedyncza linia. SetextNagłówek jest oparty na stylu "Nagłówek N", a jego poziom może wynosić tylko 1 lub 2. Jeżeli N w "Nagłówek N" jest większy lub równy 2, to odpowiedni SetextNagłówek jest oparty na "Nagłówek 2", inaczej na "Nagłówek 1".
 * Różne znaczniki dla pierwszego poziomu list zbulletowanych ("-", "+" lub "*", domyślny znacznik to "-".) oraz różne typy numeracji dla list zamówionych (". lub"), domyślny znacznik to ".").

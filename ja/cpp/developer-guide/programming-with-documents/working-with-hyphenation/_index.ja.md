@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのハイフネーションの操作
 second_title: C++の場合Aspose.Words
 articleTitle: ハイフネーションの操作
@@ -7,6 +7,7 @@ description: "C++を使用してテキストをよりコンパクトに配置す
 type: docs
 weight: 220
 url: /ja/cpp/working-with-hyphenation/
+timestamp: 2024-01-30-16-22-34
 ---
 
 ドキュメント内のテキストをよりコンパクトに配置するためにハイフネーションを使用する必要がある場合があります。 同時に、単語ハイフネーションの詳細は言語ごとに異なる可能性があることを理解することが重要です。

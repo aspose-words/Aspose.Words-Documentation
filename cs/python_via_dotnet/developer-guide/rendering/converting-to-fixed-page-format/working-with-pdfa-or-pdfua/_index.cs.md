@@ -7,6 +7,7 @@ description: "Převést na PDF/A-1, PDF/A-2, PDF/A-4 a PDF/UA pomocí Python. Ex
 type: docs
 weight: 28
 url: /cs/python-net/working-with-pdfa-or-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Formát PDF/A a PDF/UA ukládá několik požadavků týkajících se obsahu dokumentu, které nelze splnit při automatické konverzi z dokumentu ve formátu Word do PDF. Tyto požadavky by měly být ověřeny a opraveny buď v dokumentu Word před přeměnou, nebo v dokumentu PDF po převodu, aby byl vytvořen plně vyhovující dokument PDF/A a PDF/UA.

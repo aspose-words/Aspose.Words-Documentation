@@ -7,6 +7,7 @@ description: "Memuat dan mengonversi dokumen dalam sebagian besar format populer
 type: docs
 weight: 20
 url: /id/net/supported-features-on-document-load/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words memungkinkan pengguna untuk bekerja dengan dokumen dalam berbagai format dan menyediakan berbagai pilihan untuk ini. Misalnya, pengguna dapat membuat dokumen dari awal atau memuat file yang ada di [Format Dokumen yang Didukung](/words/id/net/supported-document-formats/) mana pun, membuat beberapa perubahan pada dokumen tersebut, lalu menyimpan hasilnya. Saat mengimpor dokumen dalam format yang dipilih, pengguna dapat menerapkan berbagai opsi pemuatan.

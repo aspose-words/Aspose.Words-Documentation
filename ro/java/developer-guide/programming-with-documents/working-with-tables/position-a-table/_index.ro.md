@@ -1,4 +1,4 @@
-﻿---
+---
 title: Poziția tabelului în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Poziționați o masă
@@ -7,6 +7,7 @@ description: "Specificați poziția tabelului în Java. Obțineți o aliniere a 
 type: docs
 weight: 50
 url: /ro/java/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Există mese plutitoare și mese inline:

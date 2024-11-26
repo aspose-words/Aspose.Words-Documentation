@@ -7,6 +7,7 @@ description: "Naučte se aktualizovat pole v C#. Aktualizovat pole programově n
 type: docs
 weight: 30
 url: /cs/net/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Typicky, pole vložené do Microsoft Word již obsahuje aktuální hodnotu. Například pokud je pole vzorec nebo číslo stránky, bude obsahovat správnou vypočtenou hodnotu pro danou verzi dokumentu. Ale pokud máte aplikaci, která vytváří nebo modifikuje dokument s poli, jako je sloučení dvou dokumentů nebo jeho zalidnění s daty, pak musí být ideálně všechna pole aktualizována, aby byl dokument užitečný.
@@ -18,7 +19,7 @@ Když je dokument naložen, Aspose.Words napodobuje chování Microsoft Word s m
 - když otevřete/zachráníte dokument, pole zůstanou neporušená
 - můžete explicitně aktualizovat všechna pole v dokumentu, například obnovit `TOC`, když potřebujete
 - při tisku/předložení do PDF nebo XPS jsou aktualizována pole týkající se počtu stránek v hlavičkách/nozích
-- při popravě mail merge všechna pole jsou automaticky aktualizována
+- při popravě Mail Merge všechna pole jsou automaticky aktualizována
 
 ### Aktualizovat pole programově
 
@@ -42,11 +43,11 @@ Soubor vzorku tohoto příkladu si můžete stáhnout z [Aspose.Words GitHub](ht
 
 ### Automatická aktualizace pole v průběhu Mail Merge
 
-Když provedete <span notrans="<span notrans=" mail merge"=""></span>,? všechna pole v dokumentu budou automaticky aktualizována. To proto, že mail merge je případ aktualizace pole. Program potká mail merge pole a potřebuje aktualizovat svůj výsledek, který zahrnuje uchopení hodnoty ze zdroje dat a její vložení do pole. Logika je samozřejmě složitější, například když končí dokument/mail merge Oblast je dosažena, ale ještě existují další údaje, které je třeba sloučit, pak je třeba region duplikovat a aktualizovat nový soubor polí.
+Když provedete mail merge,? všechna pole v dokumentu budou automaticky aktualizována. To proto, že Mail Merge je případ aktualizace pole. Program potká Mail Merge pole a potřebuje aktualizovat svůj výsledek, který zahrnuje uchopení hodnoty ze zdroje dat a její vložení do pole. Logika je samozřejmě složitější, například když končí dokument/mail merge Oblast je dosažena, ale ještě existují další údaje, které je třeba sloučit, pak je třeba region duplikovat a aktualizovat nový soubor polí.
 
 ## Aktualizovat pole mající špinavý atribut
 
-W:dirty je atribut úrovně pole, který obnoví pouze pole, které určíte při otevření dokumentu. Říká MS Word pouze obnovit toto pole, až se dokument otevře příště. Můžete použít [UpdateDirtyFields](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/updatedirtyfields/) vlastnost určit, zda aktualizovat pole se špinavým atributem. Pokud hodnota **UpdateDirtyFields** je nastavena na <span notrans="<span notrans=" *true*"=""></span>,? všechna pole *true* hodnota [Field.IsDirty](https://reference.aspose.com/words/net/aspose.words.fields/field/isdirty/) nebo [FieldChar.IsDirty](https://reference.aspose.com/words/net/aspose.words.fields/fieldchar/isdirty/) vlastnost je aktualizována při zatížení dokumentu.
+W:dirty je atribut úrovně pole, který obnoví pouze pole, které určíte při otevření dokumentu. Říká MS Word pouze obnovit toto pole, až se dokument otevře příště. Můžete použít [UpdateDirtyFields](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/updatedirtyfields/) vlastnost určit, zda aktualizovat pole se špinavým atributem. Pokud hodnota **UpdateDirtyFields** je nastavena na *true*? všechna pole *true* hodnota [Field.IsDirty](https://reference.aspose.com/words/net/aspose.words.fields/field/isdirty/) nebo [FieldChar.IsDirty](https://reference.aspose.com/words/net/aspose.words.fields/fieldchar/isdirty/) vlastnost je aktualizována při zatížení dokumentu.
 
 Následující příklad kódu ukazuje, jak aktualizovat pole se špinavým atributem:
 

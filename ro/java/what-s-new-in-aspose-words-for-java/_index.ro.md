@@ -1,4 +1,4 @@
-﻿---
+---
 title: Ce este nou
 second_title: Aspose.Words pentru Java
 articleTitle: Ce este nou în Aspose.Words pentru Java
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words pentru Java extinde și îmbunătățește zilnic. Pe această pagină, puteți afla despre caracteristicile uriașe și cele mai interesante ale produsului."
 weight: 2
 url: /ro/java/what-s-new-in-aspose-words-for-java/
+timestamp: 2024-10-14-12-53-06
 ---
 
 Această pagină descrie cele mai interesante caracteristici noi Aspose.Words introduse în versiunile recente.

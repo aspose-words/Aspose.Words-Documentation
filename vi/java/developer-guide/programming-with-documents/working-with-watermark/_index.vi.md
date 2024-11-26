@@ -7,6 +7,7 @@ type: docs
 description: "Chỉnh sửa dấu nước tài liệu sử dụng Java."
 weight: 70
 url: /vi/java/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Chủ đề này thảo luận về cách làm việc lập trình với một dấu nước sử dụng Aspose.Words. Một hình nước là một hình ảnh nền hiển thị đằng sau văn bản trong tài liệu. Một dấu nước có thể chứa một văn bản hay một hình ảnh được đại diện bởi lớp [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/).

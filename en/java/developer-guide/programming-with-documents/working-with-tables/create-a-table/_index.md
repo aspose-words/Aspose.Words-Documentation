@@ -11,6 +11,7 @@ aliases:
  - /java/introduction-and-creating-tables/
 weight: 20
 url: /java/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words allows users to create tables in a document from scratch and provides several different methods for doing so. This article presents details on how to add formatted tables to your document using each method, as well as a comparison of each method at the end of the article.

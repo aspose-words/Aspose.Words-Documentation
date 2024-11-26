@@ -7,6 +7,7 @@ type: docs
 description: "Tải tài nguyên từ xa, đó có thể là một lý do dẫn đến các rủi ro an ninh. Hãy xem qua những vấn đề an ninh phổ biến và giải pháp của chúng trong Java."
 weight: 120
 url: /vi/java/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Theo mặc định, Aspose.Words cho Java có thể tải các tài nguyên từ xa như hình ảnh, các kiểu CSS hoặc các tài liệu HTML bên ngoài khi nhập tài liệu hoặc chèn hình ảnh sử dụng DocumentBuilder. Hành vi này cho phép bạn xử lý các tài liệu của bạn với chi tiết đầy đủ nhưng có thể là một lý do cho một số rủi ro bảo mật nếu thư viện là một phần của ứng dụng web.

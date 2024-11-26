@@ -7,6 +7,7 @@ description: "תכונות מתקדמות של Aspose.Words עבור Java."
 type: docs
 weight: 25
 url: /he/java/enable-opentype-features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 

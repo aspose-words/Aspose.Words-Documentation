@@ -7,6 +7,7 @@ description: "Instale Aspose.Words para Python usando ferramentas Visual Studio 
 type: docs
 weight: 10
 url: /pt/python-net/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Certifique-se de que sua máquina atenda ao [Requisitos de sistema](/words/pt/python-net/system-requirements/) antes de começar.

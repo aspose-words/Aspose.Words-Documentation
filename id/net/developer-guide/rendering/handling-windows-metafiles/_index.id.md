@@ -7,6 +7,7 @@ description: "Aspose.Words untuk .NET mengimplementasikan pemutar Metafile Windo
 type: docs
 weight: 30
 url: /id/net/handling-windows-metafiles/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Format Windows Metafile adalah format file gambar yang dapat berisi grafik vektor dan raster. Format ini digunakan untuk menyimpan data grafik dalam memori atau file pada disk. Metafile menyimpan daftar pemanggilan fungsi di Windows Graphics Device Interface (GDI) yang harus dijalankan untuk menampilkan gambar di layar. Sistem menafsirkan dan menjalankan perintah ini dalam konteks tampilan.

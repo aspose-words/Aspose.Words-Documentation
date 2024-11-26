@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Voetnoot en Eindnoot in C++
 second_title: Aspose.Words vir C++
 articleTitle: Werk met Voetnoot en Eindnoot
@@ -7,6 +7,7 @@ description: "Hoe om voetnotas en eindnotas te manipuleer met behulp van C++."
 type: docs
 weight: 160
 url: /af/cpp/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words bied ook'n paar klasse, metodes en eienskappe vir die werk met voetnotas en eindnotas.

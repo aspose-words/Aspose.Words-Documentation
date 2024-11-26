@@ -8,6 +8,7 @@ description: "להמיר PDF לפורמטים Word כגון DOCX, DOC, פורמ�
 keywords: convert pdf to other formats python
 weight: 45
 url: /he/python-net/convert-pdf-to-other-document-formats/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words ניתן לטעון אפילו פורמט מורכב כמו PDF. זה פותח הזדמנויות חדשות: ניתן להמיר PDF ל- Word או פורמטים אחרים שמביאים את המשתמשים רחוק יותר לפתרון בעיות רבות.

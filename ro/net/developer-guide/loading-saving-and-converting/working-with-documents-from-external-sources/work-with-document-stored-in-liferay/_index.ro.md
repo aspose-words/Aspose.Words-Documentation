@@ -7,6 +7,7 @@ description: "Comparaţi documentele Word partajate în Liferay folosind C#. Luc
 type: docs
 weight: 20
 url: /ro/net/work-with-document-stored-in-liferay/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Liferay Portal este o platformă software de portal pentru întreprinderi cu sursă deschisă concepută pentru dezvoltarea de portale web și site-uri web. Liferay oferă un sistem de gestionare a documentelor ca parte a platformei sale de portal, permițând utilizatorilor să creeze, să organizeze, să stocheze și să gestioneze documente într-un mod colaborativ și eficient. Această funcționalitate de gestionare a documentelor este adesea denumită Liferay Biblioteca Documentelor".

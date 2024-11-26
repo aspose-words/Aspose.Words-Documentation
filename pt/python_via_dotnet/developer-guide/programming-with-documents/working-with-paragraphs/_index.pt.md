@@ -7,6 +7,7 @@ description: "Insira um parágrafo e especifique sua formatação em um document
 type: docs
 weight: 210
 url: /pt/python-net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Um parágrafo é um conjunto de caracteres combinados em um bloco lógico e terminando com um caractere especial – uma *quebra de parágrafo*. No Aspose.Words, um parágrafo é representado pela classe [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/).

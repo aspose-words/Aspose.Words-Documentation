@@ -7,6 +7,7 @@ description: "Aspose.Words untuk Python memungkinkan penyimpanan beberapa inform
 type: docs
 weight: 10
 url: /id/python-net/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Properti dokumen memungkinkan penyimpanan beberapa informasi berguna tentang dokumen Anda. Properti ini dapat dibagi menjadi dua kelompok:

@@ -7,6 +7,7 @@ description: "Форматування шрифтів у деталях Javaй"
 type: docs
 weight: 230
 url: /uk/java/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Шрифт є набором символів з певним розміром, кольором та дизайном. Aspose.Words дозволяє працювати з шрифтами за допомогою різних класів шрифтів, в тому числі [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) клас.

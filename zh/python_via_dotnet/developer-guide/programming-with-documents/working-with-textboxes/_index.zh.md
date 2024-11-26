@@ -7,6 +7,7 @@ description: "使用 Python 处理文档中的文本框。"
 type: docs
 weight: 250
 url: /zh/python-net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 在 Aspose.Words 中，[TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) 类用于指定文本在形状内的显示方式。它提供了一个名为 [parent](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/parent/) 的公共属性来获取文本框的父形状，以允许客户从链接的 [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) 中查找链接的 [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/)。

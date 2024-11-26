@@ -7,6 +7,7 @@ description: "Aspose.Words вместо Android през Java е `Java` Клас
 type: docs
 weight: 10
 url: /bg/java/android-product-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}
@@ -40,7 +41,7 @@ Aspose.Words вместо Android през Java е многосфера безо
 
 ### Минимален курс на обучение
 
-Въпреки че има над 150 обществени класа и изброявания в Aspose.Words вместо Android през <span notrans="<span notrans=" Java"=""></span>,"> кривата на обучение е минимална, тъй като Aspose.Words вместо Android през Java API е внимателно проектирана със следните цели:
+Въпреки че има над 150 обществени класа и изброявания в Aspose.Words вместо Android през Java кривата на обучение е минимална, тъй като Aspose.Words вместо Android през Java API е внимателно проектирана със следните цели:
 
 - Заеми най-добрите практики от други известни APIт като Microsoft Word Автоматизация.
 - Най-добри практики на заем от приетата индустрия Java както и Android насоки за проектиране.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Requisiti di sistema
 second_title: Aspose.Words per C++
 articleTitle: Requisiti di sistema
@@ -7,6 +7,7 @@ description: "Prima di iniziare a lavorare con Aspose.Words per C++, assicurarsi
 type: docs
 weight: 70
 url: /it/cpp/system-requirements/
+timestamp: 2024-07-11-16-13-28
 ---
 
 Aspose.Words per C++ non richiede l'installazione di alcun prodotto di terze parti come Microsoft Word. Aspose.Words stesso è un motore per la creazione, la modifica, la conversione e il rendering di documenti in vari formati, inclusi i formati di documenti Microsoft Word.

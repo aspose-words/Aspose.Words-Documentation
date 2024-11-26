@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içinde Belge Oluşturma veya Yükleme
 second_title: Aspose.Words için C++
 articleTitle: Belge Oluşturma veya Yükleme
@@ -8,6 +8,7 @@ description: "Boş bir belge oluşturun veya C++ kullanarak bir dosyadan veya ak
 keywords: "create a document c++, load a document c++, create a blank document c++, load a document from file c++, load a document from stream c++, create a document Aspose C++, load a document Aspose C++, load formats supported by Aspose.Words C++"
 weight: 10
 url: /tr/cpp/create-or-load-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words ile gerçekleştirmek istediğiniz hemen hemen her görev, bir belgenin yüklenmesini içerir. `Document` sınıfı belleğe yüklenen bir belgeyi temsil eder. Belge, boş bir belge oluşturmanıza veya bir dosyadan veya akıştan yüklemenize izin veren aşırı yüklenmiş birkaç kurucuya sahiptir. Belge, Aspose.Words tarafından desteklenen herhangi bir yükleme biçiminde yüklenebilir. Desteklenen tüm yükleme biçimlerinin listesi için [LoadFormat](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) numaralandırmasına bakın.

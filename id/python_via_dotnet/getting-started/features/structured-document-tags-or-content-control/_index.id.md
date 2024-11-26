@@ -7,6 +7,7 @@ description: "Sematkan semantik yang ditentukan pelanggan serta perilaku dan tam
 type: docs
 weight: 50
 url: /id/python-net/structured-document-tags-or-content-control/
+timestamp: 2024-01-31-14-23-37
 ---
 
 

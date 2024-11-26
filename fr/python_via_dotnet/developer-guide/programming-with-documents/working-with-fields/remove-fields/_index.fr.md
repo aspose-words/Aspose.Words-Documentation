@@ -7,6 +7,7 @@ description: "Découvrez comment supprimer des champs dans Python. Supprimez les
 type: docs
 weight: 35
 url: /fr/python-net/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Il est parfois nécessaire de supprimer un champ du document. Cela peut se produire lorsqu'il doit être remplacé par un type de champ différent ou lorsque le champ n'est plus nécessaire dans le document. Par exemple un champ `TOC` lors de l'enregistrement au format HTML.

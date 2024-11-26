@@ -7,6 +7,7 @@ description: "Tekst vervangen in een tabel in Java. Gewoonte tekst uit tabel of 
 type: docs
 weight: 60
 url: /nl/java/extract-text-from-and-replace-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Zoals vermeld in voorgaande artikelen, bevat een tabel meestal platte tekst, hoewel andere inhoud zoals afbeeldingen of zelfs andere tabellen in tabelcellen kunnen worden geplaatst.

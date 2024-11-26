@@ -7,6 +7,7 @@ description: "如何找到字段属性, 如字段代码和字段结果 Java"
 type: docs
 weight: 25
 url: /zh/java/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 使用 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)。 。 。 。[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) 返回 a [Field](https://reference.aspose.com/words/java/com.aspose.words/field/) 对象。 这是一个表面类,它为迅速找到一个字段的这种属性提供了有用的方法.

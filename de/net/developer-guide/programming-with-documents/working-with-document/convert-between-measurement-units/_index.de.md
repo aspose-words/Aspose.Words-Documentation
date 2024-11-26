@@ -7,6 +7,7 @@ description: "Aspose.Words für .NET kann Ihnen bei der Umrechnung zwischen Maß
 type: docs
 weight: 20
 url: /de/net/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Die meisten im Aspose.Words API bereitgestellten Objekteigenschaften, die bestimmte Maße darstellen, z. B. Breite oder Höhe, Ränder und verschiedene Abstände, akzeptieren Werte in Punkten, wobei 1 Zoll 72 Punkten entspricht. Manchmal ist dies nicht praktisch und Punkte müssen in andere Einheiten umgerechnet werden.

@@ -7,6 +7,7 @@ description: "Aspose.Words for Python via .NET oferece aos usuários uma ampla g
 type: docs
 weight: 30
 url: /pt/python-net/features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words oferece aos usuários uma ampla gama de recursos. Os usuários podem realizar uma grande quantidade de tarefas relacionadas a documentos – desde a simples conversão de documentos de um formato compatível para outro e a modificação desses documentos durante o processo de conversão até tarefas de negócios, como a criação de documentos estruturados e visualmente atraentes ou a automatização de relatórios.
@@ -108,15 +109,15 @@ Você pode usar o Aspose.Words como uma solução de relatórios por conta próp
 
 |  Recurso | Python via .NET |
 |  :-  |  :-  |
-| Use todos os campos Microsoft Word mail merge padrão em seus relatórios, incluindo `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} |
-| Execute mail merge para documentos que contenham até mesmo os campos e fórmulas `IF` mais complexos e aninhados. | {{< emoticons/tick >}} |
+| Use todos os campos Microsoft Word Mail Merge padrão em seus relatórios, incluindo `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} |
+| Execute Mail Merge para documentos que contenham até mesmo os campos e fórmulas `IF` mais complexos e aninhados. | {{< emoticons/tick >}} |
 | Preencha e aumente dinamicamente tabelas ou fragmentos no documento a partir de sua fonte de dados usando regiões mail merge. | {{< emoticons/cross >}} |
 | Gere facilmente relatórios que contenham dados mestre-detalhados (pai-filho), como Order/OrderDetails. | {{< emoticons/cross >}} |
 | Preencha documentos com dados de qualquer fonte de dados .NET, como DataSet, DataTable, DataView, DataReader ou ADO Recordset. | {{< emoticons/cross >}} |
 | Preencha documentos de qualquer fonte de dados, como consulta LINQ, arquivo XML ou objetos de negócios, implementando a interface [IMailMergeDataSource](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/imailmergedatasource/). | {{< emoticons/cross >}} |
 | Assuma o controle preciso, como a formatação de números, sobre como seus dados são mesclados usando eventos. | {{< emoticons/cross >}} |
 | Insira imagens durante mail merge. | {{< emoticons/tick >}} |
-| Crie ou modifique programaticamente uma fonte de dados Microsoft Word mail merge para um documento. Preservar configurações mail merge e fontes de dados. | {{< emoticons/tick >}} |
+| Crie ou modifique programaticamente uma fonte de dados Microsoft Word Mail Merge para um documento. Preservar configurações Mail Merge e fontes de dados. | {{< emoticons/tick >}} |
 | Recuperar nomes de campos mail merge. | {{< emoticons/tick >}} |
 
 ## Recursos de relatórios

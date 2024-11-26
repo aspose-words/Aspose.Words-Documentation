@@ -1,4 +1,4 @@
-﻿---
+---
 title: Untangle Row Bookmarks in Jython
 second_title: Aspose.Words for Java
 articleTitle: Untangle Row Bookmarks in Jython
@@ -7,6 +7,7 @@ description: "Untangle Row Bookmarks using Jython."
 type: docs
 weight: 17
 url: /java/untangle-row-bookmarks-in-jython/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Untangle Row Bookmarks

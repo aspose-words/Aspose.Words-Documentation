@@ -7,6 +7,7 @@ description: "Zadejte pozici tabulky v C#. Získat nastavení tabulky, dostat a 
 type: docs
 weight: 50
 url: /cs/net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Existují plovoucí stoly a inline tabulky:

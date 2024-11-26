@@ -7,6 +7,7 @@ description: "Introduzione alla funzione Grafico, come creare e manipolare grafi
 type: docs
 weight: 310
 url: /it/net/working-with-charts/
+timestamp: 2024-02-05-15-07-18
 ---
 
 Il nuovo metodo [InsertChart](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/insertchart/) è stato aggiunto alla classe [DocumentBuilder](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/). Vediamo quindi come inserire un semplice istogramma all'interno del documento utilizzando il metodo [InsertChart](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/insertchart/).

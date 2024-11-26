@@ -7,6 +7,7 @@ description: "使用 Python 将文档转换为多页 TIFF。要确定文档在�
 type: docs
 weight: 30
 url: /zh/python-net/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-01-27-14-07-04
 ---
 
 处理文档时，您经常需要将文档转换为光栅图像文件。如果您必须以可读和可打印但不可编辑的格式呈现文档，这一点尤其重要。例如，您可以使用文档第一页的光栅图像作为预览。本文以 TIFF 格式（一种更流行的图像格式）为例介绍如何将文档转换为光栅图像。

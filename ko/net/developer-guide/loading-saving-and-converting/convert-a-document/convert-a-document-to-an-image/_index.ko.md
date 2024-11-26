@@ -7,6 +7,7 @@ type: docs
 description: "문서를 이미지 형식(JPG, PNG 등)으로 변환합니다. C#를 사용하여 송장을 보내려면 문서 미리보기를 생성하거나 문서 스캔을 생성하세요."
 weight: 43
 url: /ko/net/convert-a-document-to-an-image/
+timestamp: 2024-07-09-19-00-42
 ---
 
 때로는 DOCX나 PDF와 같은 다른 형식의 문서 대신 이미지를 가져와야 하는 경우도 있습니다. 예를 들어 웹사이트나 애플리케이션에 문서 페이지의 미리보기를 추가하거나 송장을 보내기 위해 문서의 "스캔"을 생성해야 합니다. 이는 [지원되는 로드 형식](https://reference.aspose.com/words/net/aspose.words/loadformat/)의 문서를 다시 [지원되는 저장 형식](https://reference.aspose.com/words/net/aspose.words/saveformat/)의 이미지로 변환해야 할 때입니다.

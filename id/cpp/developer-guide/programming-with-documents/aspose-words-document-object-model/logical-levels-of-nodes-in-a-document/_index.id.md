@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tingkat Logis dari Node dalam Dokumen di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Tingkat Logis dari Node dalam Dokumen
@@ -7,6 +7,7 @@ type: docs
 description: "Dalam Aspose.Words untuk C++ dokumentasi menyebutkan level logis dari node-level blok, level sebaris, atau level baris. Tingkat simpul digunakan untuk menggambarkan lokasi di pohon dokumen tempat simpul biasanya muncul."
 weight: 10
 url: /id/cpp/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dokumentasi ini terkadang merujuk ke sekelompok kelas simpul yang termasuk dalam "level "dalam dokumen, seperti" block-level"," inline-level "(juga dikenal sebagai" inline"), atau" row-level " node. Level-level ini dalam sebuah dokumen dibedakan secara logis dan tidak secara eksplisit dinyatakan dengan pewarisan atau cara Aspose.Words DOM lainnya. Tingkat simpul digunakan untuk menggambarkan tempat di pohon dokumen di mana simpul biasanya akan muncul.

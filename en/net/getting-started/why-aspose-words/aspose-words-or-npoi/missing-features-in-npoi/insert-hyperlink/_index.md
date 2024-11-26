@@ -7,6 +7,7 @@ description: "Insert a hyperlink into a document. NPOI does not provide an oppor
 type: docs
 weight: 110
 url: /net/insert-hyperlink/
+timestamp: 2024-09-25-11-08-55
 ---
 
 {{% alert color="primary" %}}

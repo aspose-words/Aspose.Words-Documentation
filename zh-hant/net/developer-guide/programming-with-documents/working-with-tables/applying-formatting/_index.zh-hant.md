@@ -7,6 +7,7 @@ description: "使用 C# 在詳細資料中格式化表格。 使用 C# 來格式
 type: docs
 weight: 70
 url: /zh-hant/net/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 每個表格元素都可以應用不同的格式化處理。 例如，表格格式將適用於整個表格，而行格式僅適用於特定行，而單元格格式僅適用於某些單元格。

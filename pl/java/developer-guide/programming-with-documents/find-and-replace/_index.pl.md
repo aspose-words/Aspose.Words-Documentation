@@ -7,6 +7,7 @@ type: docs
 description: "Znajdź ciąg znaków lub wzorzec wyrażenia regularnego w dokumencie i zastąp go tekstem, którego używasz Java."
 weight: 100
 url: /pl/java/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Można łatwo poruszać się w obrębie dokumentu za pomocą klawiatury i myszy, ale jeśli masz wiele stron do przewinięcia, to zajmie sporo czasu, aby znaleźć określony tekst w długim dokumencie. Będzie to bardziej czasochłonne, gdy chcesz zastąpić niektóre znaki lub słowa, które zostały użyte w dokumencie. Funkcja "Znajdź i zastąp" pozwala znaleźć sekwencję znaków w dokumencie i zastąpić ją inną sekwencją znaków.

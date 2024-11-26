@@ -7,6 +7,7 @@ description: "כיצד למצוא כמה תכונות שדה כמו קוד שד�
 type: docs
 weight: 25
 url: /he/java/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 שדה אשר מוכנס באמצעות [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) חוזר [Field](https://reference.aspose.com/words/java/com.aspose.words/field/) אובייקט זוהי מחלקה חזיתית המספקת שיטות שימושיות כדי למצוא במהירות תכונות כאלה של שדה.

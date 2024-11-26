@@ -7,6 +7,7 @@ description: "Giới thiệu về tính năng hộp văn bản liên kết trong
 type: docs
 weight: 250
 url: /vi/java/working-with-linked-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Trong Aspose.Words, lớp [TextBox](https://reference.aspose.com/words/java/com.aspose.words/textbox/) được dùng để chỉ định cách hiển thị một văn bản bên trong một hình dạng. Nó cung cấp một thuộc tính công cộng có tên là cha mẹ để lấy hình dạng cha mẹ cho hộp văn bản cho phép khách hàng tìm liên kết [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) từ liên kết **TextBox**.

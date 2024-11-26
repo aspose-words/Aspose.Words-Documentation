@@ -1,4 +1,4 @@
-﻿---
+---
 title: ระบุตำแหน่งแบบอักษรTrueTypeในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: ระบุตำแหน่งแบบอักษรTrueType
@@ -7,6 +7,7 @@ description: "ระบุแหล่งที่มาแบบอักษร
 type: docs
 weight: 30
 url: /th/cpp/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 หัวข้อนี้อธิบายลักษณะการทำงานดีฟอลต์ของAspose.Wordsเมื่อค้นหาแบบอักษรTrueTypeซึ่งรวมถึงความแตกต่าง.

@@ -7,6 +7,7 @@ description: "Naučte se, jak odstranit pole C#. Odstranit pole programově pomo
 type: docs
 weight: 35
 url: /cs/net/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Někdy je nutné odstranit pole z dokumentu. K tomu může dojít, pokud je třeba jej nahradit jiným typem pole nebo pokud již není pole v dokumentu potřebné. Například `TOC` pole při ukládání do HTML.

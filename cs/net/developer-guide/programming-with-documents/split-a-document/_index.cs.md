@@ -7,6 +7,7 @@ description: "Rozdělit dokument do několika souborů pomocí C#. Pomocí split
 type: docs
 weight: 90
 url: /cs/net/split-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 *Splitting* nebo *split dokument* je proces rozbití velkého dokumentu do většího počtu menších souborů. Existují různé důvody, proč rozdělit složku. Například, potřebujete jen některé stránky z konkrétního dokumentu a ne celý. Nebo z důvodu soukromí, chcete sdílet pouze některé části dokumentu s ostatními. S funkcí rozdělení můžete získat pouze požadované části dokumentu a provádět s nimi potřebné kroky, například k opsání, uložení nebo odeslání.

@@ -7,6 +7,7 @@ description: "Định dạng bảng chi tiết bằng Python. Sử dụng Python
 type: docs
 weight: 70
 url: /vi/python-net/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Mỗi phần tử của bảng có thể được áp dụng với các định dạng khác nhau. Ví dụ: định dạng bảng sẽ được áp dụng cho toàn bộ bảng, định dạng hàng cho chỉ các hàng cụ thể, định dạng ô chỉ cho một số ô nhất định.

@@ -7,6 +7,7 @@ description: "Python kullanan çeşitli Microsoft Word sürümleri arasındaki f
 type: docs
 weight: 40
 url: /tr/python-net/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen bir belgenin görünümünü değiştirmeniz, örneğin dil tercihlerini veya sayfa başına satır sayısını ayarlamanız gerekebilir. Aspose.Words, bazı ek seçeneklerin yanı sıra belgenin nasıl görüntüleneceğini kontrol etme olanağı da sağlar. Bu makalede bu tür olasılıklar açıklanmaktadır.

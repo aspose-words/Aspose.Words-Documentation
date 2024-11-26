@@ -1,4 +1,4 @@
-﻿---
+---
 title: Format Table in Document
 second_title: Aspose.Words for Java
 articleTitle: Format Table in Document
@@ -7,6 +7,7 @@ description: "Format table inside a document easily and fast instead of using Ap
 type: docs
 weight: 20
 url: /java/format-table-in-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Format Table in Document

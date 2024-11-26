@@ -1,4 +1,4 @@
-﻿---
+---
 title: 使用控制字符
 second_title: Aspose.Words对于C++
 articleTitle: 使用控制字符
@@ -7,6 +7,7 @@ description: "使用控制字符的介绍 Aspose.Words对于C++."
 type: docs
 weight: 400
 url: /zh/cpp/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word文档可能包含具有特殊含义的各种字符。 通常它们用于格式化目的，而不是在正常模式下绘制。 如果单击位于标准工具栏上的显示/隐藏格式标记按钮，则可以使它们可见。

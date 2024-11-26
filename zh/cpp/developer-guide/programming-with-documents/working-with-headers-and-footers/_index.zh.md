@@ -1,4 +1,4 @@
-﻿---
+---
 title: 使用C++中的页眉和页脚
 second_title: Aspose.Words对于C++
 articleTitle: 使用页眉和页脚
@@ -7,6 +7,7 @@ description: "如何使用C++操作页眉和页脚。"
 type: docs
 weight: 150
 url: /zh/cpp/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words允许用户在文档中使用页眉和页脚。 页眉是放置在页面顶部的文本，页脚是页面底部的文本。 通常，这些区域用于插入应该在文档的所有或某些页面上重复的信息，例如页码、创建日期、公司信息等等。

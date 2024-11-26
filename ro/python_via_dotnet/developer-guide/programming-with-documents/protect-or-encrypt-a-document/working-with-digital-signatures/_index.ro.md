@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu semnături digitale
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Lucrul cu semnături digitale
@@ -7,6 +7,7 @@ description: "Semnați digital documente și detectați, numărați, verificați
 type: docs
 weight: 40
 url: /ro/python-net/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 O semnătură digitală este utilizată pentru autentificarea unui document pentru a stabili că expeditorul documentului este cine spune că este și că conținutul documentului nu a fost modificat.

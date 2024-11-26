@@ -7,6 +7,7 @@ type: docs
 description: "Document Object Model SitemapDOM) adalah representasi dalam dokumen Word. Baca, manipulasi, dan memodifikasi konten dan format dokumen Word menggunakan JavaSitemap"
 weight: 10
 url: /id/java/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Login Aspose.Words Document Object Model SitemapDOM) adalah representasi dalam dokumen Word. Login Aspose.Words DOM memungkinkan Anda untuk membaca secara programmatik, memanipulasi, dan memodifikasi konten dan memformat dokumen Word.
@@ -15,7 +16,7 @@ Bagian ini menjelaskan kelas utama dari Aspose.Words DOM dan hubungan mereka. De
 
 ## Buat Dokumen Pohon objek {#create-a-document-objects-tree}
 
-Ketika dokumen dibaca ke dalam Meme it Aspose.Words <span notrans="<span notrans=" DOM"=""></span>Sitemap kemudian pohon objek dibangun dan berbagai jenis elemen dokumen sumber memiliki mereka sendiri DOM objek pohon dengan berbagai properti.
+Ketika dokumen dibaca ke dalam Meme it Aspose.Words DOMSitemap kemudian pohon objek dibangun dan berbagai jenis elemen dokumen sumber memiliki mereka sendiri DOM objek pohon dengan berbagai properti.
 
 ### Membangun Dokumen Nodes Pohon {#build-document-nodes-tree}
 

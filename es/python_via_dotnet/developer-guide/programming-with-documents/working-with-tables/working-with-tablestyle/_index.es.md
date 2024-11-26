@@ -7,6 +7,7 @@ description: "Formato avanzado de tablas C#. Crea un estilo de tabla usando Pyth
 type: docs
 weight: 80
 url: /es/python-net/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un estilo de tabla define un conjunto de formatos que se pueden aplicar fácilmente a una tabla. Los formatos como bordes, sombreado, alineación y fuente se pueden establecer en un estilo de tabla y aplicarse a muchas tablas para lograr una apariencia consistente.

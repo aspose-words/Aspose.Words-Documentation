@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm Việc với Danh sách trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm Việc Với Danh Sách
@@ -7,6 +7,7 @@ description: "Giới thiệu về tính năng định dạng đánh số trong A
 type: docs
 weight: 200
 url: /vi/cpp/working-with-lists/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Danh sách trong tài liệu Microsoft Word là một tập hợp các thuộc tính định dạng danh sách. Danh sách có thể được sử dụng trong tài liệu của bạn để định dạng, sắp xếp và nhấn mạnh văn bản. Danh sách là một cách tuyệt vời để sắp xếp dữ liệu trong tài liệu và chúng giúp người đọc hiểu các điểm chính dễ dàng hơn.

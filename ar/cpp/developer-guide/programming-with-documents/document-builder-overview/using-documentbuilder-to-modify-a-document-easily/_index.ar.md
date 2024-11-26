@@ -1,12 +1,13 @@
-﻿---
-title: استخدام `DocumentBuilder` لتعديل مستند بسهولة
+---
+title: استخدام DocumentBuilder لتعديل مستند بسهولة
 second_title: Aspose.Words ل C++
-articleTitle: استخدام `DocumentBuilder` لتعديل مستند بسهولة
-linktitle: استخدام `DocumentBuilder` لتعديل مستند بسهولة
+articleTitle: استخدام DocumentBuilder لتعديل مستند بسهولة
+linktitle: استخدام DocumentBuilder لتعديل مستند بسهولة
 type: docs
 description: "استخدم منشئ المستندات لتعديل مستند بسهولة في C++."
 weight: 190
 url: /ar/cpp/using-documentbuilder-to-modify-a-document-easily/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## تحديد التنسيق

@@ -7,6 +7,7 @@ description: "Aspose.Words místo Java přidat do dokumentu jméno generátoru a
 type: docs
 weight: 70
 url: /cs/java/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Můžete snadno vědět, zda dokument je vyroben pomocí Aspose.Words místo Java. Můžete také najít číslo verze Aspose.Words místo Java který byl použit k vytvoření konkrétního výstupního dokumentu. Aspose.Words přímo zapíše tyto informace do vytvořeného dokumentu.

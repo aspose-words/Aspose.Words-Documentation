@@ -7,6 +7,7 @@ description: "Dowiedz się więcej Aspose.Words zamiast Java funkcje podczas wcz
 type: docs
 weight: 20
 url: /pl/java/loading-saving-and-converting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Niniejsza sekcja zawiera informacje o funkcjach podczas wczytywania i zapisywania dokumentu, a także dane dotyczące możliwości konwersji dokumentu z jednego formatu na inny.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Positioning Tables
 second_title: Aspose.Words for JasperReports
 articleTitle: Positioning Tables
@@ -7,6 +7,7 @@ description: "Aspose Words for JasperReports will never use positioning tables b
 type: docs
 weight: 160
 url: /jasperreports/positioning-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

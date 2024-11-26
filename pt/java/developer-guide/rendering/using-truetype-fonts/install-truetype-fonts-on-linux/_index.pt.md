@@ -1,46 +1,47 @@
----
-title: Instalar True Tipo Fontes sobre Linux em Java
+﻿---
+title: Instalar TrueType fontes em Linux em Java
 second_title: Aspose.Words para Java
-articleTitle: Instalar True Tipo Fontes sobre Linux
-linktitle: Instalar True Tipo Fontes sobre Linux
-description: "Aspose.Words para Java permite renderizar um documento criado usando Microsoft Word em um Linux máquina com a melhor precisão."
+articleTitle: Instalar TrueType fontes em Linux
+linktitle: Instalar TrueType fontes em Linux
+description: "Aspose.Words para Java permite renderizar um documento criado usando Microsoft Word em uma máquina Linux com a melhor precisão."
 type: docs
 weight: 20
 url: /pt/java/install-truetype-fonts-on-linux/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Na maioria das vezes, você vai usar Aspose.Words converter documentos DOC ou DOCX para formato PDF. Se você precisa fazer isso em um Linux máquina, este tópico irá ajudá-lo a aprender a garantir Aspose.Words está renderizando seus documentos com a melhor precisão.
+Na maioria das vezes, você usará Aspose.Words para converter DOC ou DOCX documentos para o formato PDF. Se você precisar fazer isso em uma máquina Linux, este tópico o ajudará a aprender como garantir que Aspose.Words esteja renderizando seus documentos com a melhor precisão.
 
-Na maioria das vezes, os documentos DOC e DOCX, que precisam ser convertidos foram criados usando Microsoft Word, em um Windows ou sistema operacional Mac OS. Portanto, a maioria das fontes utilizadas nos documentos DOC e DOCX são "Windows fontes" ou "Office fonts", que são as fontes instaladas com Microsoft Windows ou Microsoft Escritório. Estas fontes incluem Arial, Calibri, Cambria, Century Gothic, Courier New, Garamond, Tahoma, Verdana, Wingdings, e muitos outros.
+Na maioria das vezes, os documentos DOC e DOCX, que precisam ser convertidos, foram criados usando Microsoft Word, em um sistema operacional Windows ou Mac OS. Portanto, a maioria das fontes usadas em documentos DOC e DOCX são "Windows fonts" ou "Office fonts", que são as fontes instaladas com Microsoft Windows ou Microsoft Office. Essas fontes incluem Arial, Calibri, Cambria, Century Gothic, Courier New, Garamond, Tahoma, Verdana, Wingdings e muitos outros.
 
-O problema é que o `TrueType` fontes listadas acima não são instaladas por padrão em Linux distribuições. Se você tomar um documento DOCX típico que é formatado com a fonte Cambria e tentar convertê-lo para o formato PDF em Linux, Aspose.Words usará uma fonte diferente porque Cambria não está disponível. Como resultado, o documento PDF será diferente, em comparação com o documento original DOCX. Para garantir que os documentos convertidos Aspose.Words aparecer o mais próximo possível para o original, você precisa instalar "Windows fonts" no seu Linux sistema.
+O problema é que as fontes `TrueType` listadas acima não são instaladas por padrão em distribuições Linux. Se você pegar um documento DOCX típico formatado com a Fonte Cambria e tentar convertê-lo para o formato PDF em Linux, Aspose.Words usará uma fonte diferente porque Cambria não está disponível. Como resultado, o documento PDF terá uma aparência diferente, em comparação com o documento DOCX original. Para garantir que os documentos convertidos por Aspose.Words aparecem o mais próximo possível do original, é necessário instalar "Windows fonts" no seu sistema Linux.
 
-Existem duas maneiras principais de obter fontes TrueType em uma Linux sistema:
+Existem duas maneiras principais de obter TrueType fontes em um sistema Linux:
 
-- Entendido. Arquivos TTC de um Windows máquina em seu Linux máquina
-- Instalar um `TrueType` pacote de fonte, como *msttcorefonts*
+- Entendido .TTF e.TTC ficheiros de uma máquina Windows para a sua máquina Linux
+- Instale um pacote de fontes `TrueType`, como *msttcorefonts*
 
-## Copiar fontes de um Windows Máquina
+## Copiar Fontes de uma máquina Windows
 
-Uma maneira fácil e rápida de obter fontes TrueType em uma Linux sistema é copiar. TTF e. Arquivos TTC do `C:\Windows\Fonts` Google - Agências alfandegárias Windows máquina para algum diretório em seu Linux Máquina. Você não precisa instalar ou registrar essas fontes no Linux de qualquer forma; você só precisa especificar a localização das fontes usando o [FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/) classe em Aspose.Words.
+Uma maneira fácil e rápida de obter TrueType fontes em um sistema Linux é copiar .TTF E.TTC arquivos do Diretório `C:\Windows\Fonts` em uma máquina Windows para algum diretório em sua máquina Linux. Você não precisa instalar ou registrar essas fontes em Linux de forma alguma; você só precisa especificar a localização das fontes usando a classe [FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/) em Aspose.Words.
 
 {{% alert color="primary" %}}
 
-Verifique se o licenciamento de fonte é necessário e leia o EULA cuidadosamente antes de instalar MS Fonts em qualquer Linux sistema operacional.
+Verifique se o Licenciamento de fontes é necessário e leia o EULA cuidadosamente antes de instalar as fontes MS em qualquer sistema operacional Linux.
 
 {{% /alert %}}
 
-## Instalar um `TrueType` Pacote de fontes
+## Instalar um pacote de fontes `TrueType`
 
-Há um número de Linux pacotes, contendo Microsoft Fontes TrueType, que você pode baixar e instalar em seu Linux Máquina. Os passos exatos podem ser diferentes em vários Linux distribuições.
+Existem vários pacotes Linux, contendo fontes Microsoft TrueType, que pode descarregar e instalar na sua máquina Linux. As etapas exatas podem ser diferentes em várias distribuições Linux.
 
-- Em Ubuntu, use Synaptic Package Manager para encontrar e instalar o pacote *ttf-mscorefonts-installer*.
-- No openSUSE, use Yast2 → Gestão de Software para encontrar e instalar o *fetchmsttfonts* pacote.
-- Use Fontes de Libertação licenciadas sob OFL, como uma alternativa ao padrão Windows fontes: Arial, Times New Roman e Courier New.
-- Para pacotes de fontes adequados a outros Linux distribuições, pesquisa documentação disponível na internet.
+- Em Ubuntu, use o Synaptic Package Manager para localizar e instalar o pacote *ttf-mscorefonts-installer*.
+- Em openSUSE, utilize a gestão de Software do Yast2 para localizar e instalar o pacote *fetchmsttfonts*.
+- Use fontes Liberation licenciadas sob OFL, como uma alternativa às fontes padrão Windows: Arial, Times New Roman e Courier New.
+- Para pacotes de fontes adequados a outras distribuições Linux, procure a documentação disponível na internet.
 
-Depois de instalar o pacote, Aspose.Words vai encontrar essas fontes nas pastas em seu sistema e usá-las ao trabalhar com documentos.
+Depois de instalar o pacote, Aspose.Words encontrará essas fontes nas pastas do seu sistema e as usará ao trabalhar com documentos.
 
-## Ver também
+## Ver Também
 
-- Não. [Fontes de Libertação](https://github.com/liberationfonts) como uma alternativa ao padrão Windows fontes
+- [Fontes Liberation](https://github.com/liberationfonts) como alternativa às fontes padrão Windows

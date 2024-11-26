@@ -7,6 +7,7 @@ description: "Bandingkan dokumen Word yang dibagikan di Liferay menggunakan C#. 
 type: docs
 weight: 20
 url: /id/net/work-with-document-stored-in-liferay/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Liferay Portal adalah platform perangkat lunak portal perusahaan sumber terbuka yang dirancang untuk mengembangkan portal web dan situs web. Liferay menyediakan sistem manajemen dokumen sebagai bagian dari platform portalnya, memungkinkan pengguna untuk membuat, mengatur, menyimpan, dan mengelola dokumen secara kolaboratif dan efisien. Fungsi manajemen dokumen ini sering disebut sebagai Perpustakaan Dokumen Liferay.

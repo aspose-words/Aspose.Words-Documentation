@@ -1,4 +1,4 @@
-﻿---
+---
 title: Înlocuiți câmpurile cu Text Java
 second_title: Aspose.Words pentru Java
 articleTitle: Înlocuiți câmpurile cu Text Static
@@ -7,6 +7,7 @@ description: "Aflați cum să înlocuiți câmpurile cu text în Java. Înlocui�
 type: docs
 weight: 37
 url: /ro/java/replace-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Înlocuirea câmpurilor este adesea necesară atunci când doriți să salvați documentul ca o copie statică. De exemplu, atunci când trimiteți ca atașament într-un e-mail. Conversia câmpurilor precum `DATE` sau `TIME` în text static va permite documentului să afișeze aceeași dată ca atunci când a fost trimis. De asemenea, în unele situații, poate fi necesar să eliminați câmpurile condiționale `IF` din documentul dvs. și să le înlocuiți cu cel mai recent rezultat text. De exemplu, conversia rezultatului câmpului `IF` în text static, astfel încât acesta să nu-și mai schimbe dinamic valoarea atunci când câmpurile din document sunt actualizate.

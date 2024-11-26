@@ -7,6 +7,7 @@ description: "Utilice separación de palabras para una disposición más compact
 type: docs
 weight: 220
 url: /es/net/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A veces es necesario utilizar la separación de palabras para lograr una disposición más compacta del texto en un documento. Al mismo tiempo, es importante comprender que las características específicas de la separación de palabras pueden diferir en cada idioma.

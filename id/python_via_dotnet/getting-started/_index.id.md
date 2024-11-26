@@ -7,6 +7,7 @@ type: docs
 description: "Gunakan pengenalan dasar-dasar Aspose.Words untuk Python via .NET ini untuk mulai menyadari nilai Aspose.Words bagi bisnis Anda."
 weight: 20
 url: /id/python-net/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Memulai ini memberikan pengenalan dasar-dasar Aspose.Words. Bagi pengguna yang baru mengenal Aspose.Words, ini adalah cara tercepat untuk mempelajari persyaratan dan kemampuan dasar.

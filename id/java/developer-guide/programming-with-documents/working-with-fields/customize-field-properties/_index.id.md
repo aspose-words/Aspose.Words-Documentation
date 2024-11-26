@@ -7,6 +7,7 @@ description: "Pelajari cara menyesuaikan sifat lapangan dalam JavaSitemap Rename
 type: docs
 weight: 27
 url: /id/java/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words memberikan kemampuan untuk berinteraksi secara programmatik dengan berbagai properti lapangan. Dalam artikel ini, kita akan melihat beberapa contoh sehingga Anda memahami prinsip dasar bekerja dengan sifat lapangan. Anda dapat melihat daftar lengkap properti untuk setiap jenis lapangan dalam kelas yang sesuai.

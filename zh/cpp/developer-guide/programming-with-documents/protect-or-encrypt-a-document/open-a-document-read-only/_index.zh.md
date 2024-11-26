@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中只读打开文档
 second_title: Aspose.Words对于C++
 articleTitle: 以只读方式打开文档
@@ -7,6 +7,7 @@ description: "使您的文档只读，以便内容可以复制或读取，但不
 type: docs
 weight: 10
 url: /zh/cpp/open-a-document-read-only/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时，您可能有一个文档需要审阅，但您不希望审阅者随机修改您的内容。 Aspose.Words允许您将文档的权限设置为只读，以便可以复制或读取内容，但不能修改内容。 这将防止内容被删除或添加到您的文档中。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 파일 형식 및 변환
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 변환이 주력 기능 인 이유 Aspose.Words?
@@ -7,6 +7,7 @@ description: "두 줄의 형식을 저장하기 위해 지원되는 부하에서
 type: docs
 weight: 50
 url: /ko/cpp/file-formats-and-conversions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 {{% alert color="primary" %}}

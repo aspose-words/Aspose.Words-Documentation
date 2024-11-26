@@ -1,4 +1,4 @@
-﻿---
+---
 title: Suport Tehnic
 second_title: Aspose.Words pentru C++
 articleTitle: Suport Tehnic
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words pentru C++ oferă suport tehnic gratuit disponibil tuturor utilizatorilor. Vă rugăm să raportați întrebarea, problema, sau cererea caracteristică folosind Aspose Forum Suport gratuit."
 weight: 80
 url: /ro/cpp/technical-support/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose oferă suport tehnic gratuit nelimitat pentru toate produsele sale. Suportul este disponibil pentru toți utilizatorii, inclusiv evaluarea. Principala cale de sprijin este [Aspose.Forum](https://forum.aspose.com/c/words/8).

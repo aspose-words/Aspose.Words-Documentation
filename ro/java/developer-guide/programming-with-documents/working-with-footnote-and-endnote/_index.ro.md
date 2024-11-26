@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu nota de subsol și nota de final în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Lucrul cu nota de subsol și nota de final
@@ -7,6 +7,7 @@ description: "Cum se manipulează notele de subsol și notele de final folosind 
 type: docs
 weight: 160
 url: /ro/java/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words oferă, de asemenea, unele clase, metode și proprietăți pentru lucrul cu notele de subsol și notele de final.

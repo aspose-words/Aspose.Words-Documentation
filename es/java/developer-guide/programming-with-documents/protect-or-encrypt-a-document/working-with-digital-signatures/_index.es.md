@@ -1,114 +1,115 @@
----
-title: Trabajar con las firmas digitales en Java
-second_title: Aspose.Words para Java
+﻿---
+title: Trabajar con Firmas Digitales en Java
+second_title: Aspose.Words por Java
 articleTitle: Trabajar con Firmas Digitales
 linktitle: Trabajar con Firmas Digitales
-description: "Firme digitalmente documentos y detectar, contar, verificar y eliminar las firmas digitales existentes utilizando Java."
+description: "Firme documentos digitalmente y detecte, cuente, verifique y elimine las firmas digitales existentes con Java."
 type: docs
 weight: 30
 url: /es/java/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Una firma digital es una implementación tecnológica de firmas electrónicas para firmar documentos y autenticar al firmante para garantizar que un documento no ha sido modificado desde su firma. Cada firma digital es única para cada firmante debido a seguir el protocolo PKI para generar tanto claves públicas como privadas. Firmar un documento digital significa crear una firma usando la clave privada del firmante donde se utiliza un algoritmo matemático para cifrar el hash generado.
+Una firma digital es una implementación tecnológica de firmas electrónicas para firmar documentos y autenticar al firmante para garantizar que un documento no haya sido modificado desde que se firmó. Cada firma digital es única para cada firmante porque sigue el protocolo PKI para generar claves públicas y privadas. Firmar un documento digitalmente significa crear una firma utilizando la clave privada del firmante, donde se utiliza un algoritmo matemático para cifrar el hash generado.
 
-Aspose.Words le permite detectar, contar o verificar las firmas digitales existentes, y también añadir una nueva firma a su documento para averiguar cualquier manipulación en él. También puede eliminar todas las firmas digitales de un documento. Usar el [DigitalSignatureUtil](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/) clase para trabajar con firmas digitales.
+Aspose.Words le permite detectar, contar o verificar firmas digitales existentes, y también agregar una nueva firma a su documento para detectar cualquier manipulación en él. También puede eliminar todas las firmas digitales de un documento. Utilice la clase [DigitalSignatureUtil](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/) para trabajar con firmas digitales.
 
 Este artículo explica cómo hacer todo lo anterior para validar la autenticidad e integridad de un documento digital.
 
 {{% alert color="primary" %}}
 
-Tenga en cuenta que puede acceder a las firmas digitales de su documento sólo al ejecutar el Java 6 versión y superior.
+Tenga en cuenta que puede acceder a las firmas digitales de su documento solo cuando ejecute la versión Java 6 y superior.
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-**Pruebe en línea**
+**Pruébalo en línea**
 
-Puede probar esta funcionalidad con nuestra [Firma gratuita en línea](https://products.aspose.app/words/signature).
+Puede probar esta funcionalidad con nuestro [Firma en línea gratuita](https://products.aspose.app/words/signature).
 
 {{% /alert %}}
 
-## Formatos compatibles
+## Formatos Admitidos
 
-Aspose.Words permite trabajar con firmas digitales en documentos DOC, OOXML y ODT y firmar el documento generado en PDF o XPS formato.
+Aspose.Words le permite trabajar con firmas digitales en documentos DOC, OOXML y ODT y firmar el documento generado en formato PDF o XPS.
 
-## Limitaciones de las firmas digitales
+## Limitaciones de las Firmas Digitales
 
-La tabla de abajo describe algunas limitaciones que puede enfrentar mientras trabaja con firmas digitales a través de Aspose.Words, así como algunas opciones alternativas.
+La siguiente tabla describe algunas limitaciones que puede enfrentar al trabajar con firmas digitales a través de Aspose.Words, así como algunas opciones alternativas.
 
-|  Limitación |  Opción alternativa |
-|  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  Pérdida de firmas digitales en un documento después de cargar y guardarlo. Por lo tanto, procesar un documento a un servidor puede causar la pérdida de todas las firmas digitales sin previo aviso |  Compruebe si un documento tiene firmas digitales y tome la acción adecuada si se encuentra alguno. Por ejemplo, envía una alerta a los clientes informándoles que el documento que están subiendo contiene firmas digitales que se perderán si se procesa |
-|  Aspose.Words soporta trabajar con macros en un documento. Pero... Aspose.Words todavía no admite firmas digitales en macros |  Exportar el documento de nuevo a cualquier formato de Word, y utilizar Microsoft Word añadir una firma digital a macros |
+| Limitación | Opción alternativa |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Pérdida de firmas digitales en un documento después de cargarlo y guardarlo. Por lo tanto, procesar un documento en un servidor puede provocar la pérdida de todas las firmas digitales sin previo aviso. | Verifique si un documento tiene firmas digitales y tome las medidas adecuadas si se encuentran. Por ejemplo, envíe una alerta a los clientes informándoles de que el documento que están cargando contiene firmas digitales que se perderán si se procesan. |
+| Aspose.Words admite el trabajo con macros en un documento. Pero Aspose.Words aún no admite firmas digitales en macros. | Exporte el documento de nuevo a cualquier formato de Word y use Microsoft Word para agregar una firma digital a las macros. |
 
-## Detectar, Contar y Verificar Firmas Digitales
+## Detecte, Cuente y Verifique Firmas Digitales
 
-Aspose.Words permite detectar la firma digital en un documento usando el [DetectFileFormat](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/#detectFileFormat-java.io.InputStream) método y el [HasDigitalSignature](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasDigitalSignature) propiedad. Vale la pena señalar que tal cheque solo detectará el hecho de la firma, pero no su validez.
+Aspose.Words le permite detectar firmas digitales en un documento utilizando el método [DetectFileFormat](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/#detectFileFormat-java.io.InputStream) y la propiedad [HasDigitalSignature](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasDigitalSignature). Vale la pena señalar que dicha verificación solo detectará el hecho de la firma, pero no su validez.
 
-Un documento puede ser firmado más de una vez, y esto puede ser hecho por diferentes usuarios. Para comprobar la validez de las firmas digitales, es necesario cargarlas del documento utilizando el [LoadSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#loadSignatures-java.io.InputStream) método y utilizar el [IsValid](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection/#isValid) propiedad. También Aspose.Words le permite contar un conjunto de todas las firmas digitales dentro de un documento usando el [Count](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection/#getCount) propiedad.
+Un documento puede firmarse más de una vez, y esto lo pueden hacer diferentes usuarios. Para verificar la validez de las firmas digitales, debe cargarlas desde el documento utilizando el método [LoadSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#loadSignatures-java.io.InputStream) y usar la propiedad [IsValid](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection/#isValid). Además, Aspose.Words le permite contar un conjunto de todas las firmas digitales dentro de un documento utilizando la propiedad [Count](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection/#getCount).
 
-Todo esto proporciona una manera eficiente y segura de comprobar un documento para las firmas antes de procesarlo.
+Todo esto proporciona una forma eficiente y segura de verificar las firmas de un documento antes de procesarlo.
 
 El siguiente ejemplo de código muestra cómo detectar la presencia de firmas digitales y verificarlas:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "detect-document-signatures.java" >}}
 
-## Crear una firma digital {#create-a-digital-signature}
+## Crear una Firma Digital {#create-a-digital-signature}
 
-Para crear una firma digital, necesitará cargar un certificado de firma que confirme identidad. Cuando envía un documento firmado digitalmente, también envía su certificado y clave pública.
+Para crear una firma digital, deberá cargar un certificado de firma que confirme la identidad. Cuando envía un documento firmado digitalmente, también envía su certificado y clave pública.
 
-Aspose.Words le permite crear certificado X.509, un certificado digital que utiliza el estándar X.509 PKI aceptado internacionalmente para verificar que una clave pública pertenece al firmante incluido dentro del certificado. Para hacer esto, utilice el [Create](https://reference.aspose.com/words/java/com.aspose.words/certificateholder/#create-byte---java.lang.String) método dentro del [CertificateHolder](https://reference.aspose.com/words/java/com.aspose.words/certificateholder/) clase.
+Aspose.Words le permite crear un certificado X. 509, un certificado digital que utiliza el estándar X. 509 PKI aceptado internacionalmente para verificar que una clave pública pertenece al firmante incluido en el certificado. Para hacer esto, use el método [Create](https://reference.aspose.com/words/java/com.aspose.words/certificateholder/#create-byte---java.lang.String) dentro de la clase [CertificateHolder](https://reference.aspose.com/words/java/com.aspose.words/certificateholder/).
 
-Las siguientes secciones explican cómo añadir una firma digital, una línea de firma y cómo firmar un documento PDF generado.
+Las siguientes secciones explican cómo agregar una firma digital, una línea de firma y cómo firmar un documento PDF generado.
 
-### Sign a Document
+### Firmar un Documento
 
-Aspose.Words permite firmar un documento DOC, DOCX o ODT digitalmente utilizando el [Sign](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#sign-java.io.InputStream-java.io.OutputStream-com.aspose.words.CertificateHolder) método y [SignOptions](https://reference.aspose.com/words/java/com.aspose.words/signoptions/) propiedades.
+Aspose.Words le permite firmar digitalmente un documento DOC, DOCX o ODT utilizando el método [Sign](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#sign-java.io.InputStream-java.io.OutputStream-com.aspose.words.CertificateHolder) y las propiedades [SignOptions](https://reference.aspose.com/words/java/com.aspose.words/signoptions/).
 
-El siguiente ejemplo de código muestra cómo firmar documentos usando un titular de certificado y opciones de firma:
+El siguiente ejemplo de código muestra cómo firmar documentos utilizando un titular de certificado y las opciones de firma:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "sign-document.java" >}}
 
-### Añadir una línea de señalización
+### Agregar una Línea de Firma
 
-Una línea de firma es una representación visual de una firma digital en un documento. Aspose.Words permite insertar una línea de firma usando la [DocumentBuilder.InsertSignatureLine](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertSignatureLine-com.aspose.words.SignatureLineOptions) método. También puede configurar los parámetros para esta representación usando el [SignatureLineOptions](https://reference.aspose.com/words/java/com.aspose.words/signaturelineoptions/) clase.
+Una línea de firma es una representación visual de una firma digital en un documento. Aspose.Words le permite insertar una línea de firma utilizando el método [DocumentBuilder.InsertSignatureLine](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertSignatureLine-com.aspose.words.SignatureLineOptions). También puede establecer los parámetros para esta representación utilizando la clase [SignatureLineOptions](https://reference.aspose.com/words/java/com.aspose.words/signaturelineoptions/).
 
-Por ejemplo, la imagen siguiente muestra cómo se pueden mostrar firmas válidas e inválidas.
+Por ejemplo, la siguiente imagen muestra cómo se pueden mostrar las firmas válidas y no válidas.
 
 <img src="/words/java/working-with-digital-signatures/valid.png" alt="valid-digital-signature" style="width:300px"/>
 
 <img src="/words/java/working-with-digital-signatures/invalid.png" alt="invalid-digital-signature" style="width:300px"/>
 
-Además, si un documento contiene una línea de firma y ninguna firma digital, hay una característica para pedir al usuario que agregue una firma.
+Además, si un documento contiene una línea de firma y no una firma digital, existe una función para pedirle al usuario que agregue una firma.
 
 El siguiente ejemplo de código muestra cómo firmar un documento con un certificado personal y una línea de firma específica:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "create-new-signature-line-and-set-provider-id.java" >}}
 
-### Firme un documento PDF generado {#sign-a-generated-pdf-document}
+### Firmar un PDF Documento Generado {#sign-a-generated-pdf-document}
 
-Aspose.Words le permite firmar y obtener todos los detalles de un documento PDF usando el [PdfDigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/pdfdigitalsignaturedetails/) propiedades.
+Aspose.Words le permite firmar y obtener todos los detalles de un documento PDF utilizando las propiedades [PdfDigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/pdfdigitalsignaturedetails/).
 
-El siguiente ejemplo de código muestra cómo firmar un PDF generado:
+El siguiente ejemplo de código muestra cómo firmar un PDFgenerado:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "digitally-signed-pdf-using-certificate-holder.java" >}}
 
-La imagen siguiente demuestra que el documento PDF generado se abre en Adobe Acrobat y la firma digital se verifica como presente y válida.
+La siguiente imagen demuestra que el documento PDF generado se abre en Adobe Acrobat y se verifica que la firma digital está presente y es válida.
 
 ![create-digital-signed-pdf-aspose-words-java](/words/java/working-with-digital-signatures/signed-pdf-aspose-words-java.png)
 
-## Recuperar el valor de la firma digital
+## Recuperar el Valor de la Firma Digital
 
-Aspose.Words también proporciona la capacidad de recuperar el valor de firma digital de un documento firmado digitalmente como matriz de byte utilizando el [SignatureValue](https://reference.aspose.com/words/java/com.aspose.words/digitalsignature/#getSignatureValue) propiedad.
+Aspose.Words también proporciona la capacidad de recuperar el valor de la firma digital de un documento firmado digitalmente como una matriz de bytes utilizando la propiedad [SignatureValue](https://reference.aspose.com/words/java/com.aspose.words/digitalsignature/#getSignatureValue).
 
-El siguiente ejemplo de código muestra cómo obtener el valor de firma digital como matriz de byte de un documento:
+El siguiente ejemplo de código muestra cómo obtener el valor de la firma digital como una matriz de bytes de un documento:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "signature-value.java" >}}
 
-## Quitar las firmas digitales
+## Eliminar Firmas Digitales
 
-Aspose.Words permite eliminar todas las firmas digitales de un documento firmado usando el [RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream) método.
+Aspose.Words le permite eliminar todas las firmas digitales de un documento firmado utilizando el método [RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream).
 
 El siguiente ejemplo de código muestra cómo cargar y eliminar firmas digitales de un documento:
 
@@ -116,6 +117,6 @@ El siguiente ejemplo de código muestra cómo cargar y eliminar firmas digitales
 
 {{% alert color="primary" %}}
 
-Tenga en cuenta que no puede eliminar sólo una firma digital dentro de su documento.
+Tenga en cuenta que no puede eliminar solo una firma digital dentro de su documento.
 
 {{% /alert %}}

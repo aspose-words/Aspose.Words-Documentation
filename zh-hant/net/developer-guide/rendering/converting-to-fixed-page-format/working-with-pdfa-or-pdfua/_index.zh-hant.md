@@ -7,6 +7,7 @@ description: "透過 C# 將檔案轉換為 PDF/A-1、PDF/A-2、PDF/A-4 和 PDF/U
 type: docs
 weight: 28
 url: /zh-hant/net/working-with-pdfa-or-pdfua/
+timestamp: 2024-07-10-14-38-57
 ---
 
 PDF/A 和 PDF/UA 格式對文件內容有幾個要求，無法在自動將 Word 格式的檔案轉換成 PDF 時滿足。 這些要求應在轉換前於Word文件中驗證並更正，或在轉換後於PDF文件中驗證並更正，以生產一個符合PDF/A和PDF/UA的文件。

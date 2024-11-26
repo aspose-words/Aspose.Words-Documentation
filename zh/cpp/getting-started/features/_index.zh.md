@@ -1,4 +1,4 @@
-﻿---
+---
 title: 特征
 second_title: Aspose.Words为C++
 articleTitle: 支持的功能
@@ -7,6 +7,7 @@ description: "Aspose.Words为C++ 为用户提供了广泛的功能，从简单�
 type: docs
 weight: 40
 url: /zh/cpp/features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words为用户提供了广泛的功能。 用户可以执行大量与文档相关的任务-从简单地将文档从一种支持的格式转换为另一种格式，并在转换过程中修改这些文档到业务任务，例如创建结构化和视觉上吸引人的文档或自动化报告。

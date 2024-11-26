@@ -7,6 +7,7 @@ description: "Úvod do připojené funkce textboxů v Aspose.Words místo .NET."
 type: docs
 weight: 250
 url: /cs/net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In Aspose.Words, vá [TextBox](https://reference.aspose.com/words/net/aspose.words.drawing/textbox/) třída se používá k určení, jak je text zobrazen uvnitř tvaru. Odhaluje veřejný majetek pojmenovaný **Parent** získat mateřský tvar textového pole tak, aby zákazník mohl najít odkazovaný [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) od přidruženého **TextBox**.

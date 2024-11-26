@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit Lesezeichen in C++
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit Lesezeichen
@@ -7,6 +7,7 @@ description: "Lesezeichenkonzepte verstehen und wie Lesezeichen in Ihrem Program
 type: docs
 weight: 180
 url: /de/cpp/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Lesezeichen identifizieren in einem Microsoft Word-Dokument die Orte oder Fragmente, die Sie benennen und für zukünftige Referenzzwecke identifizieren. Sie können beispielsweise ein Lesezeichen verwenden, um Text zu identifizieren, den Sie später überarbeiten möchten. Anstatt durch das Dokument zu scrollen, um den Text zu finden, können Sie ihn über das Dialogfeld Lesezeichen aufrufen.

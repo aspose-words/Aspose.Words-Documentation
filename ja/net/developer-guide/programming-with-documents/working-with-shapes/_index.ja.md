@@ -7,6 +7,7 @@ description: "C# を使用してさまざまなタイプのシェイプを作成
 type: docs
 weight: 280
 url: /ja/net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 このトピックでは、Aspose.Words を使用してプログラムでシェイプを操作する方法について説明します。

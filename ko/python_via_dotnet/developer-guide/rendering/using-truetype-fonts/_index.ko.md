@@ -7,6 +7,7 @@ description: "Python via .NET용 Aspose.Words는 올바른 문서 렌더링을 �
 type: docs
 weight: 20
 url: /ko/python-net/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 문서 작업을 하다 보면 다양한 글꼴, 스타일, 크기를 사용해야 하는 경우가 많습니다. 문서에는 운영 체제에 설치된 글꼴에 반드시 제한되지 않는 글꼴이 얼마든지 포함될 수 있습니다. 글꼴은 다른 운영 체제에서 가져온 글꼴, 구매한 글꼴, 사용자가 직접 만든 글꼴 등 완전히 다를 수 있습니다.

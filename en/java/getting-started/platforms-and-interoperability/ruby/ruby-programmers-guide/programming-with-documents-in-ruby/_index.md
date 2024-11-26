@@ -1,4 +1,4 @@
-﻿---
+---
 title: Programming With Documents in Ruby
 second_title: Aspose.Words for Java
 articleTitle: Programming With Documents in Ruby
@@ -7,6 +7,7 @@ description: "Working With Documents using Ruby."
 type: docs
 weight: 20
 url: /java/programming-with-documents-in-ruby/
+timestamp: 2024-01-27-14-07-04
 ---
 
 This section includes the following topics:

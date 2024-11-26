@@ -1,76 +1,77 @@
----
-title: العمل مع (فورم فيلد) Java
-second_title: Aspose.Words for Java
-articleTitle: العمل مع حقول الاستمارة
-linktitle: العمل مع حقول الاستمارة
-description: "Understanding Form Fields feature, working with Form Fields using Java."
+﻿---
+title: العمل مع حقول النموذج في Java
+second_title: Aspose.Words ل Java
+articleTitle: العمل مع حقول النموذج
+linktitle: العمل مع حقول النموذج
+description: "ميزة فهم حقول النموذج، والعمل مع حقول النموذج باستخدام Java."
 type: docs
 weight: 380
 url: /ar/java/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
-A document that contains fill-in blanks (fields) is known as a form. على سبيل المثال، يمكنك إنشاء استمارة تسجيل في Microsoft Word التي تستخدم قوائم الهبوط التي يمكن للمستعملين أن يختاروا منها القيود. The `Form` الميدان هو موقع يخزن فيه نوع معين من البيانات، مثل الاسم أو العنوان. حقول الاستمارة Microsoft Word وتشمل مدخلات النص، والجمعيات، وصناديق التحقق.
+يعرف المستند الذي يحتوي على فراغات تعبئة (حقول) بالنموذج. على سبيل المثال، يمكنك إنشاء نموذج تسجيل في Microsoft Word يستخدم قوائم منسدلة يمكن للمستخدمين من خلالها تحديد الإدخالات. الحقل `Form` هو موقع يتم فيه تخزين نوع معين من البيانات، مثل الاسم أو العنوان. تتضمن حقول النموذج في Microsoft Word إدخال النص و combobox و checkbox.
 
-يمكنك استخدام حقول الاستمارة في مشروعك إلى "التواصل" مع مستخدميك. على سبيل المثال، تخلقين وثيقة محمية محتواها لكن فقط شكل الحقول قابل للتجزئة ويمكن للمستعملين أن يدخلوا البيانات في مجالات الشكل وأن يقدموا الوثيقة. تطبيقك الذي يستخدم Aspose.Words يمكن استرجاع البيانات من حقول الشكل ومعالجتها
+يمكنك استخدام حقول النموذج في مشروعك "للتواصل"مع المستخدمين. على سبيل المثال، يمكنك إنشاء مستند يكون محتواه محميا، ولكن حقول النموذج فقط قابلة للتحرير. يمكن للمستخدمين إدخال البيانات في حقول النموذج وإرسال المستند. يمكن للتطبيق الذي يستخدم Aspose.Words استرداد البيانات من حقول النموذج ومعالجتها.
 
-وضع الحقول في الوثيقة عن طريق الشفرة أمر سهل. [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) لديها طرق خاصة لإدراجها، واحدة لكل شكل ميداني. ويقبل كل من هذه الأساليب بارامتر خيط يمثل اسم ميدان الشكل. الاسم يمكن أن يكون خيط فارغ. إذا حددتم اسماً لميدان الاستمارة، فإن علامة كتابية تُنشأ تلقائياً بنفس الاسم.
+من السهل وضع حقول النموذج في المستند عبر الكود. [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) لديها طرق خاصة لإدراجها، واحدة لكل نوع حقل نموذج. تقبل كل طريقة معلمة سلسلة تمثل اسم حقل النموذج. يمكن أن يكون الاسم سلسلة فارغة. ومع ذلك، إذا قمت بتحديد اسم لحقل النموذج، فسيتم إنشاء إشارة مرجعية تلقائيا بنفس الاسم.
 
-## Insert Form Fields
+## إدراج حقول النموذج
 
-حقول الاستمارة هي حالة معينة من حقول الكلمات التي تسمح "التفاعل" مع المستخدم. حقول الاستمارة Microsoft Word بما في ذلك صندوق النسيج و صندوق الدمج و صندوق الشيكات
+حقول النموذج هي حالة معينة من حقول الكلمات التي تسمح "بالتفاعل" مع المستخدم. تتضمن حقول النموذج في Microsoft Word مربع النص ومربع التحرير والسرد و checkbox.
 
-**DocumentBuilder** يوفّر طرائق خاصة لإدراج كل نوع من أنواع مجالات الاستمارة في الوثيقة: [insertTextInput](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCheckBox-java.lang.String-boolean-boolean-int), [insertCheckBox](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCheckBox-java.lang.String-boolean-boolean-int) أو [insertComboBox](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCheckBox-java.lang.String-boolean-int).
+**DocumentBuilder**
 
-ويبيّن المثال الرمزي التالي كيف يُدرَج حقل نموذجي في وثيقة:
+يوضح مثال التعليمات البرمجية التالية كيفية إدراج حقل نموذج combobox في مستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertFormFields-InsertFormFields.java" >}}
 
-### يدرج النص
+### أدخل إدخال نص
 
-استخدام **يدرج ما يلي: النص** طريقة لإدراج نص في الوثيقة.
+استخدم طريقة **insertTextInput** لإدراج مربع نص في المستند.
 
-ويبيّن المثال الرمزي التالي كيفية إدراج شكل مدخلات نصية في وثيقة:
+يوضح مثال التعليمات البرمجية التالية كيفية إدراج حقل نموذج إدخال نص في مستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertTextInputFormField-DocumentBuilderInsertTextInputFormField.java" >}}
 
-### ضع صندوق الشيكات
+### أدخل خانة اختيار
 
-اتصل **يدرج الرمز** لإدراج صندوق شيك في الوثيقة.
+اتصل **insertCheckBox** لإدراج checkbox في المستند.
 
-ويبيّن المثال الرمزي التالي كيف يُدرَج حقل نموذجي في وثيقة:
+يوضح مثال التعليمات البرمجية التالية كيفية إدراج حقل نموذج checkbox في مستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertCheckBoxFormField-DocumentBuilderInsertCheckBoxFormField.java" >}}
 
-### ضع صندوق كومبو
+### أدخل مربع التحرير والسرد
 
-اتصل **يدرج ما يلي:ComboBox** لإدراج صندوق في الوثيقة.
+اتصل **insertComboBox** لإدراج combobox في المستند.
 
-ويبيّن المثال الرمزي التالي كيفية إدخال شكل كومبو بوكس في وثيقة:
+يوضح مثال التعليمات البرمجية التالية كيفية إدراج حقل نموذج Combobox في مستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertComboBoxFormField-DocumentBuilderInsertComboBoxFormField.java" >}}
 
-## حقول الاستمارة
+## الحصول على حقول النموذج
 
-A collection of form fields is represented by the [FormFieldCollection](https://reference.aspose.com/words/java/com.aspose.words/formfieldcollection/) الطبقة التي يمكن استرجاعها باستخدام [Range.getFormFields](https://reference.aspose.com/words/java/com.aspose.words/range/#getFormFields) ملكية وهذا يعني أنه يمكنك الحصول على حقول الاستمارة الواردة في أي وثيقة تتضمن الوثيقة نفسها.
+يتم تمثيل مجموعة من حقول النموذج بواسطة فئة [FormFieldCollection](https://reference.aspose.com/words/java/com.aspose.words/formfieldcollection/) التي يمكن استرجاعها باستخدام خاصية [Range.getFormFields](https://reference.aspose.com/words/java/com.aspose.words/range/#getFormFields). هذا يعني أنه يمكنك الحصول على حقول النموذج الواردة في أي عقدة وثيقة بما في ذلك المستند نفسه.
 
-ويبين المثال الرمزي التالي كيفية الحصول على مجموعة من مجالات الشكل:
+يوضح مثال التعليمات البرمجية التالية كيفية الحصول على مجموعة من حقول النموذج:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormFieldsGetFormFieldsCollection-FormFieldsGetFormFieldsCollection.java" >}}
 
 {{% alert color="primary" %}}
 
-يمكنك تحميل ملف العينة من الأمثلة التالية [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Form%20fields.docx).
+يمكنك تحميل ملف عينة من الأمثلة التالية من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Form%20fields.docx).
 
 {{% /alert %}}
 
-يمكنك الحصول على حقل شكلي معين بمؤشره أو إسمه
+يمكنك الحصول على حقل نموذج معين من خلال فهرسه أو اسمه.
 
-ويبين المثال الرمزي التالي كيفية الوصول إلى الحقول:
+يوضح مثال التعليمات البرمجية التالية كيفية الوصول إلى حقول النموذج:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormFieldsGetByName-FormFieldsGetByName.java" >}}
 
-The **FormField** الخواص تسمح لك بالعمل بإسم ميداني، نوع، ونتيجة
+تتيح لك خصائص **FormField** العمل مع اسم حقل النموذج ونوعه والنتيجة.
 
-ويبين المثال الرمزي التالي كيفية العمل بإسم ميداني من نوع إلى آخر، ونتيجة لذلك:
+يوضح مثال التعليمات البرمجية التالية كيفية العمل مع اسم حقل النموذج ونوعه والنتيجة:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormFieldsWorkWithProperties-FormFieldsWorkWithProperties.java" >}}

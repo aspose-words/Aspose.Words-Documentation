@@ -7,6 +7,7 @@ description: "שולחן התוכן בפרטים כיצד ליצור ולשנו�
 type: docs
 weight: 170
 url: /he/net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 לעתים קרובות תעבוד עם מסמכים המכילים שולחן תוכן (TOC). שימוש Aspose.Words באפשרותך להוסיף את שולחן התוכן שלך או לבנות מחדש לחלוטין את שולחן התוכן הקיים במסמך באמצעות רק כמה שורות קוד. מאמר זה מתאר כיצד לעבוד עם השולחן של שדה התוכן ומדגים:
@@ -52,7 +53,7 @@ Aspose.Words מאפשר לך לעדכן לחלוטין `TOC` עם רק כמה ש
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertTOC-UpdateFields.cs" >}}
 
-הקריאה הראשונה **UpdateFields** נבנה את <span notrans="<span notrans=" `TOC`"=""></span>" כל הודעות הטקסט מאוכלסות וה `TOC` נראה כמעט שלם. הדבר היחיד שחסר לו הוא מספרי העמוד שכרגע מוצגים ב"? הקריאה השניה **UpdatePageLayout** נבנה את הפריסה של המסמך בזיכרון. זה צריך להיעשות כדי לאסוף את מספרי העמוד של הערכים. מספרי העמוד הנכונים המחושבים מהקריאה זו מוכנסים ל- TOC.
+הקריאה הראשונה **UpdateFields** נבנה את `TOC`" כל הודעות הטקסט מאוכלסות וה `TOC` נראה כמעט שלם. הדבר היחיד שחסר לו הוא מספרי העמוד שכרגע מוצגים ב"? הקריאה השניה **UpdatePageLayout** נבנה את הפריסה של המסמך בזיכרון. זה צריך להיעשות כדי לאסוף את מספרי העמוד של הערכים. מספרי העמוד הנכונים המחושבים מהקריאה זו מוכנסים ל- TOC.
 
 ## השתמש ב-Switches to Control Table of Contents Behavior
 
@@ -108,7 +109,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 <p>![todo:image_alt_text](/words/net/working-with-table-of-contents/working-with-table-of-contents-5.png)</p>
 
-<p>The The The `TC` גם לשדות עצמם יש {several, `multiple`, a few, `many`, numerous} מתגים להגדיר. אלה הם:</p>
+<p>The The The `TC` גם לשדות עצמם יש `{several, multiple, a few, many, numerous}` מתגים להגדיר. אלה הם:</p>
 
 <p>*\F – הסבר למעלה. *</p>
 

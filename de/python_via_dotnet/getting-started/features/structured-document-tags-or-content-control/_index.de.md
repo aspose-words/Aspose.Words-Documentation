@@ -7,6 +7,7 @@ description: "Betten Sie kundenspezifische Semantik sowie deren Verhalten und Er
 type: docs
 weight: 50
 url: /de/python-net/structured-document-tags-or-content-control/
+timestamp: 2024-01-31-14-23-37
 ---
 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中将文档转换为图像
 second_title: Aspose.Words对于C++
 articleTitle: 将文档转换为图像
@@ -7,6 +7,7 @@ type: docs
 description: "将文档转换为图像格式（JPG，PNG等）。 创建文档预览或创建文档扫描以发送发票。"
 weight: 43
 url: /zh/cpp/convert-a-document-to-an-image/
+timestamp: 2024-01-30-16-22-34
 ---
 
 有时需要获取图像而不是其他格式的文档，例如DOCX或PDF。 例如，您需要将任何文档页面的预览添加到您的网站或应用程序，或创建文档的"扫描"以发送发票。 这是您可能需要将任何[supported load format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/)中的文档转换为任何[supported save format](https://reference.aspose.com/words/cpp/aspose.words/saveformat/)中的图像的时候。

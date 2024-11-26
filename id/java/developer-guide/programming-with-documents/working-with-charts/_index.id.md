@@ -7,6 +7,7 @@ description: "Pengantar fitur Chart, cara membuat dan memanipulasi grafik menggu
 type: docs
 weight: 310
 url: /id/java/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Login [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) metode ditambahkan ke dalam [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) Sitemap Jadi, mari kita lihat cara memasukkan grafik kolom sederhana ke dalam dokumen menggunakan **Login Login** Login

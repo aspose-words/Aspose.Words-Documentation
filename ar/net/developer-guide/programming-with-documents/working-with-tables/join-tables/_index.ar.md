@@ -7,6 +7,7 @@ description: "ربط الجداول في C#. كيفية دمج جدولين في
 type: docs
 weight: 90
 url: /ar/net/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 يتكون الجدول، الممثل في Aspose.Words Document Object Model، من صفوف وخلايا مستقلة، مما يجعل من السهل الانضمام إلى الجداول.

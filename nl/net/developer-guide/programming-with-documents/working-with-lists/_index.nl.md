@@ -7,6 +7,7 @@ description: "Inleiding tot nummering formattering functie in Aspose.Words voor 
 type: docs
 weight: 200
 url: /nl/net/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Een lijst in een Microsoft Word document is een verzameling van alinea-opmaakeigenschappen. Lijsten kunnen worden gebruikt in documenten om tekst te structureren, ordenen en markeren. Lijsten zijn een geweldige manier om gegevens in documenten te organiseren op een manier die het gemakkelijk maakt voor lezers om belangrijke punten te absorberen en te begrijpen.

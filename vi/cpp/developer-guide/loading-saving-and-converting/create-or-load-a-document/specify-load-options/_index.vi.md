@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chỉ Định Tùy chọn Tải trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Chỉ Định Tùy Chọn Tải
@@ -7,6 +7,7 @@ description: "Kiểm soát chính xác hơn quá trình tải."
 type: docs
 weight: 10
 url: /vi/cpp/specify-load-options/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Khi tải tài liệu, bạn có thể đặt một số thuộc tính nâng cao. Aspose.Words cung cấp cho bạn lớp [LoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/loadoptions/), cho phép kiểm soát chính xác hơn quá trình tải. Một số định dạng tải có một lớp tương ứng chứa các tùy chọn tải cho định dạng tải này, ví dụ: có [PdfLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/pdfloadoptions/) để tải đến PDF định dạng hoặc [TxtLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/txtloadoptions/) để tải đến TXT. Bài viết này cung cấp các ví dụ về làm việc với các tùy chọn của lớp **LoadOptions**.

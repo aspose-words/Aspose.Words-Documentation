@@ -7,6 +7,7 @@ description: "Merge table cells with equal textual contents when building a repo
 type: docs
 weight: 100
 url: /java/merging-table-cells-dynamically/
+timestamp: 2024-01-27-14-07-04
 ---
 
 You can merge table cells with equal textual contents within your reports dynamically using `cellMerge` tags. Syntax of a `cellMerge` tag is defined as follows.

@@ -7,6 +7,7 @@ description: "PDF/A ו- PDF/UA כופים דרישות נגישות הקשורו
 type: docs
 weight: 29
 url: /he/java/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 פורמטי PDF/A ו- PDF/UA כופים מספר דרישות נגישות הקשורות לתוכן מסמך שלא ניתן להשלים במהלך המרה אוטומטית מ- Word ל- PDF. דרישות אלה מתוארות במאמר הקודם * עבודה עם PDF/A או PDF/UA *. האזהרות ניתנות לחלק מהבעיות הללו.

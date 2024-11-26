@@ -7,6 +7,7 @@ type: docs
 description: "Document Object Model ()DOM) הוא ייצוג פנימי של מסמך Word. קרא, מניפולציות ולשנות את התוכן והפורמט של מסמך Word באמצעות שימוש Python."
 weight: 10
 url: /he/python-net/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The The The Aspose.Words Document Object Model ()DOM) הוא ייצוג פנימי של מסמך Word. The The The Aspose.Words DOM מאפשר לך לקרוא, לתמרן ולשנות את התוכן והפורמט של מסמך Word.
@@ -15,7 +16,7 @@ The The The Aspose.Words Document Object Model ()DOM) הוא ייצוג פנימ
 
 ## ליצור `Document` אובייקטים עץ {#create-a-document-objects-tree}
 
-כאשר מסמך קורא לתוך Aspose.Words <span notrans="<span notrans=" DOM"=""></span>" לאחר מכן עץ אובייקט בנוי וסוגים שונים של אלמנטים של המסמך המקור יש משלהם. DOM חפצי עץ עם תכונות שונות.
+כאשר מסמך קורא לתוך Aspose.Words DOM לאחר מכן עץ אובייקט בנוי וסוגים שונים של אלמנטים של המסמך המקור יש משלהם. DOM חפצי עץ עם תכונות שונות.
 
 ### בניית עץ Nodes {#build-document-nodes-tree}
 

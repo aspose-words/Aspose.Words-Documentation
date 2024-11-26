@@ -7,6 +7,7 @@ description: "Vložit odstavec do dokumentu C#. Nastavit styl odstavce C#. Prác
 type: docs
 weight: 210
 url: /cs/net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Odstavec je soubor znaků v kombinaci s logickým blokem a končí speciálním znakem a *bod zlom*. In Aspose.Words, odstavec je zastoupen [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) třída.

@@ -7,6 +7,7 @@ description: "Giới thiệu tính năng trường trong Aspose.Words cho .NET."
 type: docs
 weight: 370
 url: /vi/net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** trong tài liệu giống như phần giữ chỗ nơi có thể chèn dữ liệu hữu ích. Ví dụ: một trường có thể là tham chiếu trang, công thức hoặc trường mail merge.

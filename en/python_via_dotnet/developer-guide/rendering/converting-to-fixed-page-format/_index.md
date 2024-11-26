@@ -8,6 +8,7 @@ type: docs
 weight: 10
 url: /python-net/converting-to-fixed-page-format/
 aliases: [/python/converting-to-fixed-page-format/]
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words implements its own page layout engine. Prior to delving into its specifications, it is worthwhile to first discuss document at a high level. When thinking about a document, users typically imagine a number of paper sheets containing words, images, tables, and charts. Documents can be of various types, such as text, spreadsheets, slides, CAD drawings, flowcharts, and, therefore, can have essentially different layouts. Most applications allow sending documents to a printer; this is when a user can actually view the document’s final intended appearance.

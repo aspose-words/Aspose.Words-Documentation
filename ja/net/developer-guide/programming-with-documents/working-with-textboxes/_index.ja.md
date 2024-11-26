@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET のリンクされたテキストボック�
 type: docs
 weight: 250
 url: /ja/net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words では、[TextBox](https://reference.aspose.com/words/net/aspose.words.drawing/textbox/) クラスを使用して、図形内にテキストを表示する方法を指定します。 **Parent** という名前のパブリック プロパティを公開してテキスト ボックスの親図形を取得し、顧客が関連付けられた **TextBox** からリンクされた [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) を見つけられるようにします。

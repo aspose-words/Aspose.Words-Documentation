@@ -7,6 +7,7 @@ description: "Úvod do funkce formátování číslování v Aspose.Words místo
 type: docs
 weight: 200
 url: /cs/net/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Seznam Microsoft Word dokument je soubor vlastností formátu odstavce. Seznamy lze použít v dokumentech ke struktuře, uspořádání a zvýraznění textu. Seznamy jsou skvělým způsobem, jak zorganizovat data v dokumentech způsobem, který usnadňuje čtenářům vstřebávat a chápat klíčové body.

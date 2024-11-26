@@ -7,6 +7,7 @@ description: "עבודה עם שולחנות ורכיביהם כגון תאים,
 type: docs
 weight: 10
 url: /he/python-net/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words היא ספריית כיתה המיועדת לעיבוד לצד השרת של מסמכים בפורמטים שונים - PDF, HTML, שונה Microsoft Word פורמטים ואחרים - ותומכים בטבלאות בדרכים הבאות:

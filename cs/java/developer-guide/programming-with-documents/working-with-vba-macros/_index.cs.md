@@ -7,6 +7,7 @@ description: "Práce s dokumentem VBA projekty využívající Java."
 type: docs
 weight: 410
 url: /cs/java/working-with-vba-macros/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Visual Basic pro aplikace (VBA) pro Microsoft Word je jednoduchý, ale výkonný programovací jazyk, který lze použít k rozšíření funkčnosti. Aspose.Words API poskytuje tři třídy pro přístup ke zdrojovému kódu projektu VBA:

@@ -7,6 +7,7 @@ description: "Zrozumienie pojęć sekcji dokumentów i praktyk manipulacji przy 
 type: docs
 weight: 120
 url: /pl/java/working-with-sections/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Czasami chcesz dokument, który nie ma tego samego formatowania na wszystkich stronach. Na przykład, może być konieczne zmodyfikowanie formatów numerów stron, mieć inny rozmiar strony i orientację, lub mieć pierwszą stronę dokumentu jako okładkę strony bez żadnej numeracji. Można to osiągnąć dzięki sekcjom.

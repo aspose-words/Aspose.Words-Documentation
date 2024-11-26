@@ -7,6 +7,7 @@ description: "Zaawansowane funkcje typograficzne wykorzystujące C#."
 type: docs
 weight: 25
 url: /pl/net/enable-opentype-features/
+timestamp: 2024-07-10-14-38-57
 ---
 
 OpenType to format czcionki wprowadzony w celu zapewnienia lepszej obsługi międzynarodowych języków i systemów pisma w porównaniu z PostScript i TrueType. Funkcje układu OpenType są powszechnie znane jako funkcje OpenType. Pakiet Aspose.Words.Shaping.HarfBuzz zapewnia obsługę funkcji OpenType w Aspose.Words przy użyciu silnika kształtowania tekstu HarfBuzz.

@@ -1,16 +1,17 @@
----
-title: 事例の使い方
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: 事例の使い方
-linktitle: 事例の使い方
-description: "実行方法 Aspose.Words お問い合わせ Android お問い合わせ Java 例)"
+﻿---
+title: 例を使用する方法
+second_title: Aspose.WordsのためのJava
+articleTitle: 例を使用する方法
+linktitle: 例を使用する方法
+description: "Javaの例を介してAndroidに対してAspose.Wordsを実行する方法。"
 type: docs
 weight: 70
 url: /ja/java/how-to-use-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
-まず、ADT バンドルがインストールされていることを確認し、最新バージョンをダウンロードして抽出したことを確認してください。 [Aspose.Words お問い合わせ Android お問い合わせ Java](https://releases.aspose.com/words/androidjava/)お問い合わせ
+まず、ADTバンドルがインストールされていること、および最新バージョンのダウンロードと抽出が完了していることを確認してください [アスポーズWordsはAndroidのためにJavaを経由してAspose.言葉の意味-意味-意味-意味-意味-意味](https://releases.aspose.com/words/androidjava/).
 
-- インストール Aspose.Words お問い合わせ Android お問い合わせ Java 指示に従って [導入事例](/words/ja/java/installation/)
-- ワークスペースでプロジェクトを開く Eclipse ADT を使って。
-- クリック **Run** パッケージを実行するために、適切なエミュレータを起動し、選択します。
+- 次の手順に従って、Java経由でAndroidのAspose.Wordsをインストールします [ここに](/words/java/installation/)
+- EclipseとADTを使用して、ワークスペースでプロジェクトを開きます。
+- **Run**をクリックして起動し、パッケージを実行する適切なエミュレータを選択します。

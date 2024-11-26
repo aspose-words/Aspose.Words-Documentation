@@ -8,6 +8,7 @@ type: docs
 weight: 10
 url: /sharepoint/aspose-words-for-sharepoint-documentation/
 aliases: [/sharepoint/aspose-words-for-sharepoint-api-reference/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## This section includes the following topics:

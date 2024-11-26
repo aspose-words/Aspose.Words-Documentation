@@ -7,6 +7,7 @@ description: "Inhoudsopgave in details. Aanmaken en wijzigen `TOC` veld gebruike
 type: docs
 weight: 170
 url: /nl/net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Vaak werk je met documenten die een inhoudsopgave bevatten (TOC). Gebruik Aspose.Words U kunt uw eigen inhoudsopgave invoegen of bestaande inhoudsopgave volledig herbouwen in het document met slechts een paar regels code. Dit artikel beschrijft hoe te werken met de inhoudsopgave en toont:
@@ -52,7 +53,7 @@ Het volgende voorbeeld van code laat zien hoe je volledig kunt herbouwen `TOC` v
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertTOC-UpdateFields.cs" >}}
 
-De eerste oproep aan **UpdateFields** zal de <span notrans="<span notrans=" `TOC`"=""></span>,"> alle tekstvermeldingen worden ingevuld en de `TOC` lijkt bijna compleet. Het enige wat ontbreekt is de pagina nummers die voor nu worden weergegeven met???. De tweede oproep tot **UpdatePageLayout** zal de lay-out van het document in het geheugen. Dit moet worden gedaan om de paginanummers van de items te verzamelen. De juiste paginanummers berekend op basis van deze oproep worden vervolgens ingevoegd in de TOC.
+De eerste oproep aan **UpdateFields** zal de `TOC` alle tekstvermeldingen worden ingevuld en de `TOC` lijkt bijna compleet. Het enige wat ontbreekt is de pagina nummers die voor nu worden weergegeven met???. De tweede oproep tot **UpdatePageLayout** zal de lay-out van het document in het geheugen. Dit moet worden gedaan om de paginanummers van de items te verzamelen. De juiste paginanummers berekend op basis van deze oproep worden vervolgens ingevoegd in de TOC.
 
 ## Gebruik Schakelen naar Inhoudsopgavetabel Gedrag
 
@@ -108,7 +109,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 <p>![todo:image_alt_text](/words/net/working-with-table-of-contents/working-with-table-of-contents-5.png)</p>
 
-<p>De `TC` velden zelf kunnen ook {several, `multiple`, a few, `many`, numerous} Wissels ingesteld. Dit zijn:</p>
+<p>De `TC` velden zelf kunnen ook `{several, multiple, a few, many, numerous}` Wissels ingesteld. Dit zijn:</p>
 
 <p>- Verklaart hierboven. *</p>
 

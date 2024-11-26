@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Objek OLE di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Objek OLE
@@ -7,6 +7,7 @@ description: "Buat dan modifikasi penyematan OLE di dokumen Anda menggunakan C++
 type: docs
 weight: 360
 url: /id/cpp/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE (Penautan dan Penyematan Objek) adalah teknologi di mana pengguna dapat bekerja dengan dokumen yang berisi "objek" yang dibuat atau diedit oleh aplikasi pihak ketiga. Artinya, OLE memungkinkan aplikasi pengeditan untuk mengekspor "objek" ini ke aplikasi pengeditan lain dan kemudian mengimpornya dengan konten tambahan.

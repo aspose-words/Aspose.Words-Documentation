@@ -7,6 +7,7 @@ description: "Unisci tabelle in C#. Come unire due tabelle in un unico C#."
 type: docs
 weight: 90
 url: /it/net/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Una tabella, rappresentata nel Aspose.Words Document Object Model, è composta da righe e celle indipendenti, facilitando l'unione delle tabelle.

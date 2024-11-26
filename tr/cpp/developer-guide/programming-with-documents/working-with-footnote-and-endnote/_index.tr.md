@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içinde Dipnot ve Sonnot ile Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Dipnot ve Sonnot ile Çalışma
@@ -7,6 +7,7 @@ description: "C++ kullanarak dipnotlar ve sonnotlar nasıl değiştirilir."
 type: docs
 weight: 160
 url: /tr/cpp/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words ayrıca dipnotlar ve sonnotlarla çalışmak için bazı sınıflar, yöntemler ve özellikler sağlar.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu controlul conținutului SDT în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Lucrul cu controlul conținutului SDT
@@ -7,6 +7,7 @@ type: docs
 description: "Gestionarea avansată a conținutului documentelor, modul de creare și manipulare a controalelor de conținut (etichete de documente structurate) folosind Java."
 weight: 390
 url: /ro/java/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 În Microsoft Word, puteți crea un formular începând cu un șablon și adăugând controale de conținut, inclusiv checkboxes, casete de text, Selectoare de date și liste derulante. În Aspose.Words, o etichetă de Document structurată sau un control de conținut din orice document încărcat în Aspose.Words este importat ca nod StructuredDocumentTag. Etichetele structurate ale documentelor (SDT sau controlul conținutului) permit încorporarea semanticii definite de client, precum și a comportamentului și aspectului acesteia într-un document.

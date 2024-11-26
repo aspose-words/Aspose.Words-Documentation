@@ -1,28 +1,29 @@
-﻿---
+---
 title: Plantilla Mail Merge en C++
 second_title: Aspose.Words para C++
 articleTitle: Mail Merge Plantilla
 linktitle: Mail Merge Plantilla
 type: docs
-description: "Cree una plantilla mail merge para definir contenido fijo en los documentos de salida y, a continuación, genere documentos de combinación utilizando los campos de combinación."
-keywords: "create mail merge template с++"
+description: "Cree una plantilla Mail Merge para definir contenido fijo en los documentos de salida y, a continuación, genere documentos de combinación utilizando los campos de combinación."
+keywords: "create Mail Merge template с++"
 weight: 10
 url: /es/cpp/mail-merge-template/
+timestamp: 2024-01-31-14-23-37
 ---
 
-Es común usar una plantilla de combinación como documento base para una operación mail merge, ya sea si es un mail merge simple o mail merge con regiones. Mail merge con regiones es más poderoso y popular que el simple mail merge. Simple mail merge se considera como un caso particular de mail merge con regiones donde la región es todo el documento. Todo se explica en el siguiente artículo "Tipos de Mail Merge Operaciones" con más detalle.
+Es común usar una plantilla de combinación como documento base para una operación mail merge, ya sea si es un Mail Merge simple o Mail Merge con regiones. Mail merge con regiones es más poderoso y popular que el simple mail merge. Simple Mail Merge se considera como un caso particular de Mail Merge con regiones donde la región es todo el documento. Todo se explica en el siguiente artículo "Tipos de Mail Merge Operaciones" con más detalle.
 
-La plantilla garantiza que el texto del documento combinado de salida tenga el formato correcto y la operación mail merge garantiza que el texto del origen de datos se ingrese correctamente en la plantilla de combinación.
+La plantilla garantiza que el texto del documento combinado de salida tenga el formato correcto y la operación Mail Merge garantiza que el texto del origen de datos se ingrese correctamente en la plantilla de combinación.
 
-Aspose.Words proporciona la capacidad de crear una plantilla mail merge para definir contenido fijo y luego generar documentos combinados utilizando los campos combinados. Por lo tanto, la plantilla de combinación tendrá el texto necesario, que es el mismo en todos los documentos de salida, y los campos de combinación para completar el contenido cambiante. Como resultado, la información de la fuente de datos especificada se agregará a la plantilla de combinación a través de estos campos durante la generación del documento combinado.
+Aspose.Words proporciona la capacidad de crear una plantilla Mail Merge para definir contenido fijo y luego generar documentos combinados utilizando los campos combinados. Por lo tanto, la plantilla de combinación tendrá el texto necesario, que es el mismo en todos los documentos de salida, y los campos de combinación para completar el contenido cambiante. Como resultado, la información de la fuente de datos especificada se agregará a la plantilla de combinación a través de estos campos durante la generación del documento combinado.
 
 ## Qué es una plantilla Mail Merge
 
-Una plantilla mail merge es un documento personalizado que contiene los datos fijos y los campos combinados donde desea que esté el texto variable. Una plantilla de combinación puede tener cualquier formato que admita campos, por ejemplo, DOC, DOCX, DOT, DOTX, RTF. Además, también puede utilizar la plantilla mustache que se explica en el artículo "Sintaxis de la plantillaMustache" con más detalle.
+Una plantilla Mail Merge es un documento personalizado que contiene los datos fijos y los campos combinados donde desea que esté el texto variable. Una plantilla de combinación puede tener cualquier formato que admita campos, por ejemplo, DOC, DOCX, DOT, DOTX, RTF. Además, también puede utilizar la plantilla mustache que se explica en el artículo "Sintaxis de la plantillaMustache" con más detalle.
 
-Puede crear una plantilla de combinación para que sea un modelo para nuevos documentos, y debe incluir el texto principal que debe ser el mismo para cada versión del documento combinado. Agregar campos de combinación dentro de la plantilla representará los datos de personalización, como nombres o direcciones, que se obtienen de una fuente de datos. Una operación mail merge insertará automáticamente los datos de personalización de su fuente de datos en su documento de plantilla de combinación.
+Puede crear una plantilla de combinación para que sea un modelo para nuevos documentos, y debe incluir el texto principal que debe ser el mismo para cada versión del documento combinado. Agregar campos de combinación dentro de la plantilla representará los datos de personalización, como nombres o direcciones, que se obtienen de una fuente de datos. Una operación Mail Merge insertará automáticamente los datos de personalización de su fuente de datos en su documento de plantilla de combinación.
 
-Además, puede agregar una región mail merge en su plantilla insertando dos campos mail merge para marcar el comienzo y el final de la región de correo. El siguiente artículo "Tipos de operación Mail Merge" explica eso con más detalle.
+Además, puede agregar una región Mail Merge en su plantilla insertando dos campos Mail Merge para marcar el comienzo y el final de la región de correo. El siguiente artículo "Tipos de operación Mail Merge" explica eso con más detalle.
 
 ## Crear una plantilla Mail Merge
 

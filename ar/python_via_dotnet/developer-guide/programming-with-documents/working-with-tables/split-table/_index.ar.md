@@ -7,6 +7,7 @@ description: "تقسيم الجدول في Python. كيفية تقسيم جدو�
 type: docs
 weight: 100
 url: /ar/python-net/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 يتكون الجدول، الممثل في Aspose.Words Document Object Model، من صفوف وخلايا مستقلة، مما يجعل من السهل تقسيم الجدول.

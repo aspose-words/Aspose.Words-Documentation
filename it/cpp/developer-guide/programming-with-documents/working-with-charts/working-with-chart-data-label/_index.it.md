@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lavorare con l'etichetta dei dati del grafico in C++
 second_title: Aspose.Words per C++
 articleTitle: Lavorare con l'etichetta dei dati del grafico
@@ -7,6 +7,7 @@ description: "Sintonizzazione delle etichette dei dati del grafico utilizzando C
 type: docs
 weight: 30
 url: /it/cpp/working-with-chart-data-label/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words consente agli utenti di lavorare con ChartDataLabel in vari modi.

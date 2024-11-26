@@ -7,6 +7,7 @@ description: "Chia bảng trong C#. Cách chia một bảng thành hai bảng ri
 type: docs
 weight: 100
 url: /vi/net/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Một bảng, được thể hiện trong Aspose.Words Document Object Model, được tạo thành từ các hàng và ô độc lập, giúp việc chia bảng trở nên dễ dàng.

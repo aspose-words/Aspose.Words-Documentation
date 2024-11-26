@@ -1,4 +1,4 @@
-﻿---
+---
 title: Nama Produser dalam Keluaran
 second_title: Aspose.Words untuk C++
 articleTitle: Generator atau Nama Produsen dalam Dokumen Keluaran
@@ -7,6 +7,7 @@ description: "Aspose.Words untuk C++ tambahkan ke dokumen nama generator dan nom
 type: docs
 weight: 90
 url: /id/cpp/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Anda dapat dengan mudah mengetahui apakah sebuah dokumen dibuat dengan menggunakan Aspose.Words untuk C++. Anda juga dapat menemukan nomor versi Aspose.Words untuk C++ yang digunakan untuk membuat dokumen keluaran tertentu. Aspose.Words langsung menulis informasi ini ke dalam dokumen yang dihasilkan.

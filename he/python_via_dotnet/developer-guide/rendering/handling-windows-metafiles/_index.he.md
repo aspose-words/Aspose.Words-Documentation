@@ -7,6 +7,7 @@ description: "Aspose.Words עבור Python via .NET ליישם את עצמו Win
 type: docs
 weight: 30
 url: /he/python-net/handling-windows-metafiles/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Windows פורמט metafile הוא פורמט קובץ תמונה שיכול להכיל הן וקטור גרפיקה. פורמט זה משמש לאחסון נתונים גרפיים בזיכרון או בקבצים על-דיסק. metafile שומרת רשימה של שיחות פונקציה Windows Graphics Device Interface (GDI) יש לבצע כדי להציג את התמונה על המסך. המערכת מפרשת ומוציאה פקודות אלה בהקשר התצוגה.

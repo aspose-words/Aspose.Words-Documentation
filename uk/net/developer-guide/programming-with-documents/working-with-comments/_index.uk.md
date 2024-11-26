@@ -7,6 +7,7 @@ description: "Робота з коментарями C#й"
 type: docs
 weight: 260
 url: /uk/net/working-with-comments/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

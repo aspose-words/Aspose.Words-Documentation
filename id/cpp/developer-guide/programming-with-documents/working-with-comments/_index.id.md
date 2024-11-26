@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Komentar di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Komentar
@@ -7,6 +7,7 @@ description: "Bekerja dengan komentar menggunakan C++."
 type: docs
 weight: 260
 url: /id/cpp/working-with-comments/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

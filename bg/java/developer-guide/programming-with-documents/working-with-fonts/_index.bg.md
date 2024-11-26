@@ -7,6 +7,7 @@ description: "Форматиране на шрифта в детайли, кат
 type: docs
 weight: 230
 url: /bg/java/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Шрифт е набор от символи с определен размер, цвят и дизайн. Aspose.Words ви позволява да работите с шрифтове, използващи различни класове, свързани с шрифта, включително [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) Клас.

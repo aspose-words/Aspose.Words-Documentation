@@ -1,213 +1,214 @@
----
-title: ใช้ `DocumentBuilder` แทรกธาตุของเอกสาร
-second_title: Aspose.Words สําหรับ Java
-articleTitle: ใช้ `DocumentBuilder` แทรกธาตุของเอกสาร
-linktitle: ใช้ `DocumentBuilder` แทรกธาตุของเอกสาร
+﻿---
+title: ใช้DocumentBuilderเพื่อแทรกองค์ประกอบของเอกสาร
+second_title: Aspose.WordsสำหรับJava
+articleTitle: ใช้DocumentBuilderเพื่อแทรกองค์ประกอบของเอกสาร
+linktitle: ใช้DocumentBuilderเพื่อแทรกองค์ประกอบของเอกสาร
 type: docs
-description: "แทรกองค์ประกอบของเอกสารโดยใช้การสร้างเอกสาร Java."
+description: "แทรกอิลิเมนต์เอกสารโดยใช้ตัวสร้างเอกสารในJava."
 weight: 10
 url: /th/java/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
-เดอะ [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) ใช้ในการแก้ไขเอกสาร บทความ นี้ อธิบาย และ อธิบาย วิธี ทํา งาน หลาย อย่าง.
+[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)ถูกใช้เพื่อแก้ไขเอกสาร บทความนี้อธิบายและอธิบายวิธีการดำเนินการจำนวนของงาน.
 
-## แทรกข้อความ
+## การแทรกสตริงข้อความ
 
-ผ่านข้อความที่คุณต้องการจะแทรกเข้าไปในเอกสาร [DocumentBuilder.write](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#write(java.lang.String)วิธี การฟอร์แมตข้อความถูกกําหนดโดย `Font` ทรัพย์สินออบเจกต์นี้จะบรรจุคุณสมบัติของแบบอักษรที่แตกต่างกัน (ชื่อเต็ม, ขนาดตัวอักษร, สี เป็นต้น) คุณสมบัติบางอย่างที่สําคัญของแบบอักษรนี้ แสดงด้วย [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) คุณสมบัติที่ช่วยให้คุณเข้าถึงมันโดยตรง นี่คือคุณสมบัติของบูเลอัน [Font.getBold](https://reference.aspose.com/words/java/com.aspose.words/font/#getBold), [Font.getItalic](https://reference.aspose.com/words/java/com.aspose.words/font/#getItalic), ถึง [Font.getUnderline](https://reference.aspose.com/words/java/com.aspose.words/font/#getUnderline).
+เพียงแค่ผ่านสตริงข้อความที่คุณต้องแทรกลงในเอกสารไปยังวิธีการ[DocumentBuilder.write](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#write(java.lang.String)) การจัดรูปแบบข้อความจะถูกกำหนดโดยคุณสมบัติ`Font` วัตถุนี้มีแอตทริบิวต์แบบอักษรที่แตกต่างกัน(ชื่อแบบอักษรขนาดตัวอักษรสีและอื่นๆ) คุณลักษณะฟอนต์ที่สำคัญบางอย่างจะแสดงด้วยคุณสมบัติ[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)เพื่อให้คุณสามารถเข้าถึงได้โดยต เหล่านี้เป็นคุณสมบัติบูลีน[Font.getBold](https://reference.aspose.com/words/java/com.aspose.words/font/#getBold),[Font.getItalic](https://reference.aspose.com/words/java/com.aspose.words/font/#getItalic)และ[Font.getUnderline](https://reference.aspose.com/words/java/com.aspose.words/font/#getUnderline).
 
 {{% alert color="primary" %}}
 
-หมายเหตุว่า การฟอร์แมตตัวอักษรที่คุณตั้งไว้จะถูกนําไปใช้กับข้อความทั้งหมดที่แทรกมาจากตําแหน่งปัจจุบันในเอกสาร เป็นต้น
+โปรดทราบว่าการจัดรูปแบบอักขระที่คุณตั้งค่าจะมีผลกับข้อความทั้งหมดที่แทรกจากตำแหน่.
 
 {{% /alert %}}
 
-ตัวอย่างรหัสต่อไปนี้ แทรกข้อความแบบสมบูรณ์โดยใช้ตัวสร้างเอกสาร
+ตัวอย่างรหัสต่อไปนี้จะแทรกข้อความที่จัดรูปแบบโดยใช้DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WriteAndFont-WriteAndFont.java" >}}
 
-## กําลังแทรกย่อหน้า
+## การแทรกย่อหน้า
 
-ตัวสร้างเอกสาร. เขียนลงเนื้อความ จะแทรกข้อความเข้าไปในเอกสารเช่นกัน แต่นอกจากนี้ มันจะเพิ่มการหยุดย่อหน้า การฟอร์แมตแบบอักษรในปัจจุบันนี้ยังเป็นการกําหนดโดยตัวสร้างเอกสารด้วย รับ คุณสมบัติของแบบอักษรและรูปแบบย่อหน้าปัจจุบัน ถูกกําหนดโดยตัวสร้างเอกสาร GetPraphormat
+DocumentBuilder.เขียนแทรกสตริงของข้อความลงในเอกสารเช่นกันแต่นอกจากนี้จะเพิ่มตัวแบ่งย่อหน้า การฟอร์แมตแบบอักษรปัจจุบันจะถูกระบุโดยDocumentBuildergetFontคุณสมบัติและการจัดรูปแบบย่อหน้าปัจจุบันจะถูกกำหนดโดยDocumentBuildergetParagraphFormatทรัพย์สิน.
 
-ตัว อย่าง รหัส ต่อ ไป นี้ แสดง ให้ เห็น วิธี สอด วรรค หนึ่ง ลง ใน เอกสาร.
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกย่อหน้าลงในเอกสาร.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderInsertParagraph.java" >}}
 
-## กําลังแทรกตาราง
+## การใส่ตาราง
 
-อัลกอริทึมพื้นฐานที่จะสร้างตารางที่ใช้ `DocumentBuilder` เรียบง่าย:
+อัลกอริทึมพื้นฐานในการสร้างตารางโดยใช้`DocumentBuilder`เป็นเรื่องง่าย:
 
-1 เริ่มตารางโดยใช้ [DocumentBuilder.startTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable).
-1 แทรกเซลล์โดยใช้ [DocumentBuilder.insertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell). นี่จะเริ่มใหม่โดยอัตโนมัติ ถ้าจําเป็น ใช้ [DocumentBuilder.getCellFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCellFormat) คุณสมบัติที่จะกําหนดการฟอร์แมตเซลล์
-1 แทรกเนื้อหาเซลล์โดยใช้ `DocumentBuilder` วิธี
-1 ทําซ้ําขั้นตอนที่ 2 และ 3 จนกว่าแถวจะสมบูรณ์
-1 เรียก [DocumentBuilder.endRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) เพื่อจบแถวปัจจุบัน ถ้า จําเป็น ก็ ใช้ [DocumentBuilder.RowFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getRowFormat) คุณสมบัติที่จะระบุการฟอร์แมตแถว
-1 ทําซ้ําขั้นตอนที่ 2 - 5 จนกว่าตารางจะเสร็จ
-1 เรียก [DocumentBuilder.endTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) เพื่อก่อสร้างโต๊ะให้เสร็จ วิธี การ สร้าง ตาราง
+1. เริ่มต้นตารางด้วย[DocumentBuilder.startTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable).
+1. แทรกเซลล์โดยใช้[DocumentBuilder.insertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell) นี้จะเริ่มต้นแถวใหม่โดยอัตโนมัติ หากจำเป็นให้ใช้คุณสมบัติ[DocumentBuilder.getCellFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCellFormat)เพื่อระบุการจัดรูปแบบเซลล์.
+1. แทรกเนื้อหาของเซลล์โดยใช้วิธีการ`DocumentBuilder`.
+1. ทำซ้ำขั้นตอนที่ 2 และ 3 จนกว่าแถวจะเสร็จสมบูรณ์.
+1. โทร[DocumentBuilder.endRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow)เพื่อสิ้นสุดแถวปัจจุบัน หากจำเป็นให้ใช้คุณสมบัติ[DocumentBuilder.RowFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getRowFormat)เพื่อระบุการจัดรูปแบบแถว.
+1. ทำซ้ำขั้นตอนที่ 2-5 จนกว่าตารางจะเสร็จสมบูรณ์.
+1. โทร[DocumentBuilder.endTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable)เพื่อเสร็จสิ้นการสร้างโต๊ะ วิธีการสร้างตารางDocumentBuilderที่เหมาะสมอธิบายไว้ด้านล่าง.
 
-### กําลังเริ่มตาราง
+### การเริ่มต้นตาราง
 
-เรียกตัวสร้างเอกสารก่อน เริ่ม ตารางเป็นก้าวแรกในการสร้างโต๊ะ มันยังสามารถเรียกว่าภายในเซลล์ ในกรณีนี้ มันเริ่มต้นโต๊ะทํารัง วิธีต่อไปที่จะเรียกคือ ตัวสร้างเอกสาร. intserent accesselp.
+โทรDocumentBuilderstartTableเป็นขั้นตอนแรกในการสร้างโต๊ะ มันสามารถเรียกว่าภายในเซลล์ในกรณีนี้มันเริ่มต้นตารางที่ซ้อนกัน วิธีต่อไปในการโทรคือDocumentBuilderinsertCell.
 
-### แทรกเซลล์
+### การใส่เซลล์
 
-หลังจากที่คุณโทรหานักสร้างเอกสาร แทรก เซลล์, เซลล์ใหม่ถูกสร้างขึ้น และเนื้อหาใดๆ ที่คุณเพิ่มโดยใช้วิธีการอื่น ๆ `DocumentBuilder` คลาสจะถูกเพิ่มไปยังเซลล์ปัจจุบัน เพื่อเริ่มต้นห้องขังใหม่ในแถวเดียวกัน โทรหาผู้สร้างเอกสาร แทรก ห้องขังอีกแล้ว ใช้ตัวสร้างเอกสาร ฟอร์แมตคุณสมบัติเพื่อระบุการฟอร์แมตเซลล์ มันจะคืนค่าเป็น [getCellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) วัตถุที่เป็นตัวแทนของการฟอร์แมตทั้งหมด สําหรับเซลล์ตาราง
+หลังจากที่คุณโทรDocumentBuilderinsertCell,เซลล์ใหม่จะถูกสร้างขึ้นและเนื้อหาใดๆที่คุณเพิ่มโดยใช้วิธีการอื่นๆของชั้นเรียน`DocumentBuilder`จะถูกเพิ่มลงในเซลล์ปัจจุบัน ในการเริ่มเซลล์ใหม่ในแถวเดียวกันให้โทรDocumentBuilderinsertCellอีกครั้ง ใช้DocumentBuildergetCellFormatคุณสมบัติเพื่อระบุการจัดรูปแบบเซลล์ ออบเจกต์[getCellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/)ที่แสดงการจัดรูปแบบทั้งหมดสำหรับเซลล์ตาราง.
 
-### จบแถว
+### สิ้นสุดแถว
 
-เรียกตัวสร้างเอกสารล่าสุด แถวเพื่อจบแถวปัจจุบัน ถ้าคุณโทรหานักสร้างเอกสาร แทรก ห้องขังทันทีหลังจากนั้น ตารางที่ต่อเนื่องในแถวใหม่ ใช้ `DocumentBuilder.RowFormat` คุณสมบัติที่จะระบุการฟอร์แมตแถว มันจะคืนค่าเป็น [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/) วัตถุที่แสดงถึงการฟอร์แมตทั้งหมด สําหรับแถวตาราง
+โทรDocumentBuilder.endRowเพื่อจบแถวปัจจุบัน ถ้าคุณโทรDocumentBuilderinsertCellทันทีหลังจากนั้นตารางยังคงอยู่ในแถวใหม่ ใช้คุณสมบัติ`DocumentBuilder.RowFormat`เพื่อระบุการจัดรูปแบบแถว ออบเจกต์[RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/)ที่แสดงการจัดรูปแบบทั้งหมดสำหรับแถวตาราง.
 
-### จบตาราง
+### สิ้นสุดตาราง
 
-เรียกตัวสร้างเอกสารล่าสุด ตารางที่จะเสร็จสิ้นตารางปัจจุบัน วิธี นี้ ควร เรียก ว่า หลัง จาก สร้าง เอกสาร เพียง ครั้ง เดียว. จุดจบถูกเรียก เมื่อเรียกตัวสร้างเอกสารจบ ตารางย้ายเคอร์เซอร์ออกจากเซลล์ปัจจุบันไปยังตําแหน่งหลังจากที่ตาราง ตัว อย่าง ต่อ ไป นี้ แสดง ให้ เห็น วิธี สร้าง ตาราง ที่ มี 2 แถว และ 2 คอลัมน์.
+โทรDocumentBuilderendTableเพื่อจบตารางปัจจุบัน วิธีนี้ควรจะเรียกว่าเพียงครั้งเดียวหลังจากDocumentBuilderendRowถูกเรียก เมื่อเรียกDocumentBuilderendTableเลื่อนเคอร์เซอร์ออกจากเซลล์ปัจจุบันไปยังตำแหน่งหลังตาราง ตัวอย่างต่อไปนี้แสดงให้เห็นถึงวิธีการสร้างตารางที่จัดรูปแบบที่มี 2 แถวและ 2 คอลัมน์.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderBuildTable-DocumentBuilderBuildTable.java" >}}
 
-## แทรกตัวหยุด
+## การใส่ตัวหยุดพัก
 
-หากคุณต้องการเริ่มบรรทัด, ย่อหน้า, คอลัมน์, ส่วน, หรือหน้าโดยตรง เรียกตัวสร้างเอกสาร ใส่แทรกเตอร์ ผ่านวิธีการนี้ ชนิดของเบรคที่คุณต้องการจะใส่ที่แสดงด้วย `BreakType` การเผาศพ
-ตัว อย่าง รหัส ต่อ ไป นี้ แสดง ให้ เห็น วิธี ที่ จะ สอด หน้า เข้า ไป ใน เอกสาร.
+หากคุณต้องการเริ่มต้นบรรทัดใหม่อย่างชัดเจนย่อหน้าคอลัมน์ส่วนหรือหน้าให้โทรDocumentBuilderinsertBreak. ส่งผ่านไปยังวิธีการนี้ชนิดของการหยุดพักที่คุณจำเป็นต้องแทรกที่จะแสดงโดยการแจงนับ`BreakType`
+ตัวอย่างโค้ดต่อไปนี้แสดงวิธีการแทรกตัวแบ่งหน้าในเอกสาร.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertBreak-DocumentBuilderInsertBreak.java" >}}
 
-## แทรกรูปภาพ
+## การแทรกรูปภาพ
 
-ผู้สร้างเอกสาร ให้ข้อมูลมากเกินไป [DocumentBuilder.insertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte) วิธีการต่าง ๆ ที่จะช่วยให้คุณสามารถแทรกข้อมูลเข้าหรือภาพลอยได้ หากภาพเป็น menufile ของ EMF หรือแฟ้มประเภท WMF ภาพจะถูกแทรกเข้าไปในเอกสารในรูปแบบ metafile ภาพอื่น ๆ จะถูกจัดเก็บในรูปแบบ PNG ตัวสร้างเอกสาร. int วิธีการถ่ายภาพสามารถใช้ภาพจากแหล่งต่าง ๆ ได้:
+DocumentBuilderให้การโอเวอร์โหลดหลายวิธีของ[DocumentBuilder.insertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte)ที่ช่วยให้คุณสามารถแทรกรูปภาพแบบอินไลน์หรือแบบลอ หากรูปภาพเป็นEMFหรือWMFเมตาไฟล์จะถูกแทรกลงในเอกสารในรูปแบบเมตาไฟล์ ภาพอื่นๆทั้งหมดจะถูกเก็บไว้ในรูปแบบPNG DocumentBuilderinsertImageวิธีการสามารถใช้ภาพจากแหล่งที่มาที่แตกต่างกัน:
 
-- จากแฟ้มหรือ `URL` ผ่านพารามิเตอร์ของข้อความ
-- จากลําธารที่ผ่าน `Stream` พารามิเตอร์
-- ลบวัตถุ
-- จากอาร์เรย์ไบต์โดยผ่านพารามิเตอร์
-- และคนอื่นๆ
+- จากแฟ้มหรือ`URL`โดยการส่งผ่านพารามิเตอร์สตริง
+- จากสตรีมโดยผ่านพารามิเตอร์`Stream`
+- จากอ็อบเจ็กต์รูปภาพโดยผ่านพารามิเตอร์รูปภาพ
+- จากอาร์เรย์ไบต์โดยผ่านพารามิเตอร์อาร์เรย์ไบต์
+- และอื่นๆ
 
-สําหรับนักสร้างเอกสารแต่ละคน แทรก วิธีการต่าง ๆ ของภาพ มีส่วนที่มากเกินไป ซึ่งจะช่วยให้คุณสามารถแทรกภาพโดยใช้ตัวเลือกต่อไปนี้ได้:
+แต่ละDocumentBuilderinsertImageวิธีการ,มีการโอเวอร์โหลดเพิ่มเติมซึ่งช่วยให้คุณสามารถแทรกภาพที่มีตัวเลือกต่อไปนี้:
 
-- ในบรรทัดหรือลอยในตําแหน่งเฉพาะ
-- ขนาดร้อยละหรือขนาดกําหนดเอง
+- อินไลน์หรือลอยตัวในตำแหน่งที่เฉพาะเจาะจง
+- ขนาดเปอร์เซ็นต์หรือขนาดที่กำหนดเอง
 
-ยิ่ง กว่า นั้น ผู้ สร้าง เอกสาร. วิธีการมองภาพกลับเป็น [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) วัตถุที่เพิ่งถูกสร้างขึ้นและแทรกเข้าไป เพื่อที่คุณจะได้ปรับเปลี่ยนคุณสมบัติของรูปร่าง
+นอกจากนี้DocumentBuilderinsertImageวิธีส่งกลับวัตถุ[Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/)ที่เพิ่งสร้างและแทรกเพื่อให้คุณสามารถปรับเปลี่ยนคุณสมบัติของรูปร่าง.
 
-### แทรกรูปภาพในบรรทัด
+### การแทรกรูปภาพแบบอินไลน์
 
-ส่งข้อความเดี่ยวแทนแฟ้มที่บรรจุอิมเมจไปยังตัวสร้างเอกสาร แทรก รูปภาพที่จะแทรกภาพเข้าไปในเอกสารเป็นกราฟิกแบบข้อความ ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีการแทรกภาพในตําแหน่งเคอร์เซอร์ไปยังเอกสาร
+ส่งสตริงเดียวที่แสดงถึงไฟล์ที่มีรูปภาพเป็นDocumentBuilderinsertImageเพื่อแทรกรูปภาพลงในเอกสารเป็นกราฟิกแบบอินไลน์ ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกรูปภาพอินไลน์ที่ตำแหน่งเคอร์เซอร์ลงในเอกสาร.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertInlineImage-DocumentBuilderInsertInlineImage.java" >}}
 
-### แทรกรูปภาพแบบฟลอต (ตําแหน่งเฉพาะ)
+### การแทรกรูปภาพแบบลอยตัว(ตำแหน่งที่แน่นอน)
 
-ตัวอย่างนี้ จะทําการแทรกภาพลอยจากแฟ้มหรือ `URL` ที่ตําแหน่งและขนาดที่ระบุ
+ตัวอย่างนี้แทรกรูปภาพที่ลอยจากแฟ้มหรือ`URL`ที่ตำแหน่งและขนาดที่ระบุ.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertFloatingImage-DocumentBuilderInsertFloatingImage.java" >}}
 
-## แทรกที่คั่นหน้า
+## การใส่บุ๊กมาร์ก
 
-ในการแทรกที่คั่นหน้าเข้าไปในเอกสาร คุณควรจะทําต่อไปนี้:
+เมื่อต้องการแทรกบุ๊กมาร์กลงในเอกสาร,คุณควรทำต่อไปนี้:
 
-1 เรียก [DocumentBuilder.startBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startBookmark-java.lang.String) ส่งชื่อที่ต้องการของที่คั่นหน้าไป
-1 แทรกข้อความที่คั่นหน้าโดยใช้ `DocumentBuilder` วิธี
-1 เรียก [DocumentBuilder.endBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endBookmark-java.lang.String) ผ่านมันชื่อเดียวกับที่คุณใช้ในการสร้างเอกสาร. เริ่มทําสมุด
+1. โทร[DocumentBuilder.startBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startBookmark-java.lang.String)ผ่านชื่อที่ต้องการของบุ๊กมาร์ก.
+1. แทรกข้อความที่คั่นหน้าด้วยวิธีการ`DocumentBuilder`.
+1. โทร[DocumentBuilder.endBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endBookmark-java.lang.String)ผ่านมันชื่อเดียวกันกับที่คุณใช้กับDocumentBuilderstartBookmark.
 
-ที่คั่นหน้าสามารถซ้อนทับและสแปนช่วงใด ๆ ได้ ในการสร้างที่คั่นหน้าที่ถูกต้อง คุณจะต้องเรียกทั้งโปรแกรมสร้างเอกสาร เริ่มสร้างและสร้างเอกสาร. dendbookmark ด้วยชื่อที่คั่นหน้าเดียวกัน
+ที่คั่นหน้าสามารถทับซ้อนกันและขยายช่วงใดๆ ในการสร้างบุ๊กมาร์กที่ถูกต้องคุณจะต้องเรียกทั้งสองDocumentBuilderstartBookmarkและDocumentBuilderendBookmarkที่มีชื่อบุ๊กมาร์กเดียวกัน.
 
-จะไม่สนใจการสร้างที่คั่นหน้าหรือที่คั่นหน้าที่ซ้ํากันเมื่อบันทึกเอกสาร
+บุ๊คมาร์คที่เกิดขึ้นไม่ดีหรือบุ๊คมาร์คที่มีชื่อที่ซ้ำกันจะถูกละเว้นเมื่อเอกสารจะถูกบันทึกไว้.
 
-ตัวอย่างโค้ดต่อไปนี้ จะแสดงวิธีแทรกที่คั่นหน้าเข้าไปในเอกสารโดยใช้ตัวสร้างเอกสาร
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกบุ๊กมาร์กลงในเอกสารโดยใช้โปรแกรมสร้างเอกส.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertBookmark-DocumentBuilderInsertBookmark.java" >}}
 
-## แทรกช่องข้อมูล
+## การใส่ฟิลด์
 
-ช่องข้อมูลใน Microsoft Word เอกสาร ประกอบ ด้วย รหัส สนาม และ ผล งาน. รหัสสนามก็เหมือนกับสูตร และผลของสนาม คือมูลค่าที่สูตรผลิต นอก จาก นี้ รหัส สนาม อาจ มี การ เปลี่ยน แปลง สนาม ซึ่ง เป็น คํา สั่ง เพิ่ม เติม ให้ ทํา การ กระทํา บาง อย่าง โดย เฉพาะ. คุณสามารถสลับไปมาระหว่างการแสดงรหัสในช่องข้อมูลและผลลัพธ์ในเอกสารของคุณ Microsoft Word ใช้ปุ่มพิมพ์ลัด Alt+F9. รหัสในช่องข้อมูลปรากฏระหว่างการวางเงื่อนปีก (Shelp) { } ) ใช้ [DocumentBuilder.insertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) เพื่อสร้างช่องข้อมูลในเอกสาร คุณต้องระบุชนิดของสนาม, รหัส สนาม และค่าของสนาม หากคุณไม่แน่ใจว่าเกี่ยวกับรหัสสนามเฉพาะ สร้างสนามใน Microsoft Word ก่อนและสลับกันดูรหัสสนาม
-ตัวอย่างโค้ดต่อไปนี้ จะแทรกช่องรวมเข้าไปในเอกสารโดยใช้ตัวสร้างเอกสาร
+ฟิลด์ในMicrosoft Wordเอกสารประกอบด้วยรหัสฟิลด์และผลลัพธ์ฟิลด์ รหัสฟิลด์เป็นเหมือนสูตรและผลลัพธ์ฟิลด์คือค่าที่สูตรผลิต รหัสฟิลด์อาจประกอบด้วยสวิตช์ฟิลด์ที่มีคำแนะนำเพิ่มเติมเพื่อดำเนินการดำเนินการเฉพา คุณสามารถสลับไปมาระหว่างการแสดงรหัสฟิลด์และผลลัพธ์ในเอกสารของคุณในMicrosoft Wordโดยใช้แป้นพิมพ์ลัด+F9 รหัสฟิลด์จะปรากฏระหว่างวงเล็บปีกกา(`{ }`)ใช้[DocumentBuilder.insertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean)เพื่อสร้างฟิลด์ในเอกสาร คุณต้องระบุชนิดฟิลด์รหัสฟิลด์และค่าฟิลด์ หากคุณไม่แน่ใจเกี่ยวกับไวยากรณ์รหัสฟิลด์เฉพาะ,สร้างฟิลด์ในMicrosoft Wordก่อนและสลับเพื่อดูรหัสฟิลด์.
+ตัวอย่างรหัสต่อไปนี้แทรกฟิลด์ผสานลงในเอกสารโดยใช้DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertField-DocumentBuilderInsertField.java" >}}
 
-## แทรก `Form` ช่องข้อมูล
+## การแทรกฟิลด์`Form`
 
-ช่องข้อมูล Form เป็นกรณีเฉพาะของสนามคํา ที่อนุญาตให้ใช้ "โต้ตอบ" กับผู้ใช้ สนามในแบบฟอร์ม Microsoft Word รวมถึงข้อความ, คอมโบบ็อกซ์ และกล่องเช็ค ผู้สร้างเอกสารมีวิธีการพิเศษในการแทรกช่องรูปแบบแต่ละประเภทเข้าไปในเอกสาร: [DocumentBuilder.insertTextInput](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertTextInput-java.lang.String-int-java.lang.String-java.lang.String-int). [DocumentBuilder.insertCheckBox](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCheckBox-java.lang.String-boolean-boolean-int), ถึง [DocumentBuilder.insertComboBox](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertComboBox-java.lang.String-java.lang.String---int). โปรดสังเกตว่า หากคุณกําหนดชื่อสําหรับช่องข้อมูลในแบบฟอร์ม แล้วคั่นหน้าจะถูกสร้างโดยอัตโนมัติโดยใช้ชื่อเดียวกัน
+เขตข้อมูลฟอร์มเป็นกรณีเฉพาะของเขตข้อมูลคำที่ช่วยให้"โต้ตอบ"กับผู้ใช้ ฟิลด์แบบฟอร์มในMicrosoft Wordรวมถึงกล่องข้อความComboboxและcheckboxDocumentBuilderมีวิธีการพิเศษในการแทรกฟิลด์แบบฟอร์มแต่ละชนิดลงในเอกสาร:[DocumentBuilder.insertTextInput](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertTextInput-java.lang.String-int-java.lang.String-java.lang.String-int),[DocumentBuilder.insertCheckBox](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCheckBox-java.lang.String-boolean-boolean-int)และ[DocumentBuilder.insertComboBox](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertComboBox-java.lang.String-java.lang.String---int) โปรดทราบว่าถ้าคุณระบุชื่อสำหรับฟิลด์ฟอร์มบุ๊กมาร์กจะถูกสร้างขึ้นโดยอัตโนมัติด้วยชื่อเดีย.
 
-### กําลังแทรกข้อความเข้า
+### การใส่การป้อนข้อความ
 
-ตัวสร้างเอกสาร. intertText input เพื่อแทรกเครื่องหมายแทรกไปยังเอกสาร ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกช่องป้อนข้อความ ในเอกสาร
+DocumentBuilder.insertTextInputเพื่อแทรกกล่องข้อความลงในเอกสาร ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกฟิลด์ฟอร์มการป้อนข้อความลงในเอกสาร.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertTextInputFormField-DocumentBuilderInsertTextInputFormField.java" >}}
 
-### แทรก `CheckBox`
+### การใส่`CheckBox`
 
-เรียกตัวสร้างเอกสาร Check Box เพื่อแทรกกล่องตรวจสอบเข้าไปในเอกสาร ตัวอย่างโค้ดต่อไปนี้ จะแสดงวิธีใส่ช่อง checkbox ในเอกสาร
+โทรDocumentBuilderinsertCheckBoxเพื่อแทรกcheckboxลงในเอกสาร ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกฟิลด์ฟอร์มcheckboxลงในเอกสาร.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertCheckBoxFormField-DocumentBuilderInsertCheckBoxFormField.java" >}}
 
-### แทรกกล่องคอมโบ
+### การใส่กล่องคำสั่งผสม
 
-เรียกตัวสร้างเอกสารComboBox เพื่อแทรกกล่องคอมโบเข้าไปในเอกสาร ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกช่องกล่องคอมโบในเอกสาร
+โทรDocumentBuilderinsertComboBoxเพื่อใส่กล่องคำสั่งผสมลงในเอกสาร ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกฟิลด์ฟอร์มกล่องคำสั่งผสมลงในเอกสาร.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertComboBoxFormField-DocumentBuilderInsertComboBoxFormField.java" >}}
 
-## การแทรกภาษาท้องถิ่นที่ระดับสนาม
+## การแทรกโลแคลที่ระดับฟิลด์
 
-ระบุรายการได้ ในท้องที่ระดับภาคสนามตอนนี้ และสามารถควบคุมได้ดีขึ้น ภาษาท้องถิ่นName ID สามารถเชื่อมโยงกับแต่ละสนาม ในเครื่องสร้างเอกสาร ตัว อย่าง ข้าง ล่าง แสดง ให้ เห็น วิธี ใช้ ทาง เลือก นี้.
+ลูกค้าสามารถระบุสถานที่ที่ระดับสนามในขณะนี้และสามารถบรรลุการควบคุมที่ดีขึ้น รหัสโลแคลสามารถเชื่อมโยงกับแต่ละฟิลด์ภายในDocumentBuilder ตัวอย่างด้านล่างแสดงให้เห็นถึงวิธีการใช้ตัวเลือกนี้.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-SpecifylocaleAtFieldlevel-SpecifylocaleAtFieldlevel.java" >}}
 
-## กําลังแทรก HTML
+## การแทรกHTML
 
-คุณสามารถแทรกข้อความ HTML ที่บรรจุเอกสาร HTML หรือเอกสาร HTML ทั้งชุดได้อย่างง่ายดาย ส่งสายนี้ไปที่ตัวสร้างเอกสาร แทรก วิธี Html หนึ่งในแนวทางการใช้งานที่มีประโยชน์ของวิธีการนี้ คือการจัดเก็บข้อความ HTML ไว้ในฐานข้อมูล และแทรกมันเข้าไปในเอกสารในระหว่าง mail merge เพื่อ จะ ได้ ข้อมูล ที่ ถูก เพิ่ม เข้า มา แทน ที่ จะ สร้าง โดย ใช้ วิธี การ ต่าง ๆ ของ ผู้ สร้าง เอกสาร. ตัวอย่างรหัสต่อไปนี้ จะแสดงการแทรก HTML ไปยังเอกสารโดยใช้ตัวสร้างเอกสาร
+คุณสามารถแทรกสตริงHTMLที่มีส่วนHTMLหรือเอกสารทั้งหมดHTMLลงในเอกสารคำ เพียงแค่ผ่านสตริงนี้ไปDocumentBuilderinsertHtmlวิธี. หนึ่งในการใช้งานที่มีประโยชน์ของวิธีนี้คือการจัดเก็บสตริงของHTMLในฐานข้อมูลและแทรกลงในเอกสารระหว่างMail Mergeเพื่อรับเนื้อหาที่จัดรูปแบบเพิ่มขึ้นแทนที่จะสร้างโดยใช้วิธีการต่างๆของตัวสร้างเอกสาร ตัวอย่างรหัสต่อไปนี้แสดงแทรกHTMLลงในเอกสารโดยใช้DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHtml-DocumentBuilderInsertHtml.java" >}}
 
-## กําลังแทรกลิงก์ไฮเปอร์ลิงก์
+## การแทรกการเชื่อมโยงหลายมิติ
 
-ใช้ตัวสร้างเอกสาร. intertHyperlink เพื่อแทรกไฮเปอร์ลิงก์เข้าไปในเอกสาร วิธีการนี้ยอมรับพารามิเตอร์สามตัว: ข้อความของลิงก์ที่จะแสดงในเอกสาร, เชื่อมโยงไปยังที่อยู่เชื่อมโยง (URL หรือชื่อของที่คั่นหน้าภายในเอกสาร), และพารามิเตอร์ บูเลียนที่ควรจะแสดง true ถ้า `URL` ชื่อของที่คั่นหน้าภายในเอกสาร ผู้สร้างเอกสาร. intertHyperlink. internal เรียกข้อมูลภายในว่า Magnature.inserfailed. วิธีการมักเพิ่ม postrophes ที่จุดเริ่มต้นและจุดสิ้นสุดของที่อยู่ URL หมายเหตุว่า คุณต้องกําหนดรูปแบบแบบอักษรสําหรับข้อความการแสดงผลแบบไฮเปอร์ลิงก์โดยตรงโดยใช้ `Font` ทรัพย์สิน ตัวอย่างโค้ดต่อไปนี้ จะแทรกไฮเปอร์ลิงก์เข้าไปในเอกสารโดยใช้ตัวสร้างเอกสาร
+ใช้DocumentBuilderinsertHyperlinkเพื่อแทรกการเชื่อมโยงหลายมิติในเอกสาร (URLหรือชื่อของบุ๊กมาร์กภายในเอกสาร)และพารามิเตอร์บูลีนที่ควรเป็นจริงถ้า`URL`เป็นชื่อของบุ๊กมDocumentBuilder.insertHyperlinkภายในโทรDocumentBuilder.insertField. วิธีการเพิ่มเครื่องหมายวรรคตอนที่จุดเริ่มต้นและจุดสิ้นสุดของURLเสมอ โปรดทราบว่าคุณต้องระบุการจัดรูปแบบแบบอักษรสำหรับข้อความแสดงการเชื่อมโยงหลายมิติอย่างชัดเจนโดยใช้คุณสมบัติ`Font` ตัวอย่างรหัสต่อไปนี้แทรกการเชื่อมโยงหลายมิติลงในเอกสารโดยใช้DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHyperlink-DocumentBuilderInsertHyperlink.java" >}}
 
-## แทรก สารบัญ
+## การแทรกสารบัญ
 
-คุณสามารถใส่ `TOC` ช่องข้อมูลข้อความเข้าเอกสารในตําแหน่งปัจจุบัน [DocumentBuilder.insertTableOfContents](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertTableOfContents-java.lang.String) วิธี วิธีการสร้างเอกสาร. intertTableOfftents จะทําการแทรกเท่านั้น `TOC` เปิดเอกสาร เพื่อที่จะสร้างตารางของเนื้อหาและแสดงตามหมายเลขหน้าทั้งสอง **Document.UpdateFields**ต้องเรียกวิธีการหลังจากการแทรกข้อมูลในช่องข้อมูล ตัว อย่าง รหัส ต่อ ไป นี้ แสดง ให้ เห็น วิธี ที่ จะ สอด แผ่น เนื้อหา เข้า ไป ใน เอกสาร.
+คุณสามารถแทรกฟิลด์`TOC`(สารบัญ)ลงในเอกสารที่ตำแหน่งปัจจุบันโดยการเรียกวิธีการ[DocumentBuilder.insertTableOfContents](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertTableOfContents-java.lang.String) DocumentBuilderวิธีinsertTableOfContentsจะแทรกช่องข้อมูล`TOC`ลงในเอกสารเท่านั้น เพื่อที่จะสร้างสารบัญและแสดงตามหมายเลขหน้า,ทั้งสองวิธี**Document.UpdateFields**ต้องเรียกว่าหลังจากการแทรกของฟิลด์. ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกตารางของฟิลด์เนื้อหาลงในเอกสาร.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertTableOfContents-DocumentBuilderInsertTableOfContents.java" >}}
 
-## แทรกวัตถุ
+## การแทรกวัตถุOle
 
-ถ้าคุณต้องการเรียก Ole Abject [DocumentBuilder.insertOleObjectAsIcon](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOleObjectAsIcon-java.lang.String-boolean-java.lang.String-java.lang.String).
+ถ้าคุณต้องการOleโทรวัตถุ[DocumentBuilder.insertOleObjectAsIcon](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOleObjectAsIcon-java.lang.String-boolean-java.lang.String-java.lang.String).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertOleObject-DocumentBuilderInsertOleObject.java" >}}
 
-## ตั้งค่าชื่อแฟ้มและส่วนขยายเมื่อแทรกวัตถุ Ole
+## ตั้งชื่อไฟล์และนามสกุลเมื่อใส่วัตถุOle
 
-แพกเกจ OLE เป็นมรดก และ "ไม่ต้องเก็บเอกสาร" จะใช้เก็บวัตถุที่ฝังอยู่ หากไม่รู้จักตัวจัดการ OLE เร็ว Windows รุ่นต่าง ๆ เช่น Windows 3.1, 95 และ 98 มีแพ็คเกจ โปรแกรมตัวอย่างที่จะใช้ฝังข้อมูลประเภทใด ๆ ไว้ในเอกสาร ตอนนี้ โปรแกรมนี้ถูกกันออกจาก Windows แต่ MSS คําและโปรแกรมอื่น ๆ ยังคงใช้มันเพื่อฝังข้อมูลหากตัวจัดการ OLE หายไปหรือไม่รู้จัก คลาสของ OlePackage อนุญาตให้เข้าถึงคุณสมบัติของแพกเกจ OLE ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีตั้งค่าชื่อแฟ้ม, ส่วนขยาย และแสดงชื่อของแพกเกจ OLE
+OLEแพคเกจเป็นมรดกและ"ไม่มีเอกสาร"วิธีการจัดเก็บวัตถุที่ฝังตัวถ้าไม่เป็นที่รู้จักOLEตัวจัดการ ต้นWindowsรุ่นเช่นWindows 3.1,95 และ 98 มีPackager.exeแอพลิเคชันซึ่งสามารถใช้ในการฝังชนิดของข้อมูลใดๆลงในเอกสาร ตอนนี้,โปรแกรมนี้ถูกแยกออกจากWindowsแต่MSคำและโปรแกรมประยุกต์อื่นๆยังคงใช้มันเพื่อฝังข้อมูลหากOLEตัวจัดการหายไปหรือไม่ทราบ. OlePackageชั้นอนุญาตให้เข้าถึงOLE Packageคุณสมบัติตัวอย่างรหัสต่อไปนี้แสดงวิธีการตั้งค่าชื่อไฟล์ส่วนขยายและชื่อที่แสดงสำหรับOLE Package.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertElements-InsertOleObjectwithOlePackage.java" >}}
 
-## รับข้อมูล OLLL
+## เข้าถึงข้อมูลดิบของวัตถุOLE
 
-ตัว อย่าง รหัส ต่อ ไป นี้ แสดง ให้ เห็น วิธี ได้ โอเล วัตถุข้อมูลดิบที่ใช้ `OleFormat.GetRawData`() วิธี
+ตัวอย่างรหัสต่อไปนี้แสดงให้เห็นถึงวิธีการรับOLEวัตถุข้อมูลดิบโดยใช้วิธีการ`OleFormat.GetRawData`().
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertElements-GetAccessToOLEObjectRawData.java" >}}
 
-## แทรกทางแนวนอน กฎในเอกสาร
+## แทรกกฎแนวนอนลงในเอกสาร
 
-ตัวอย่างโค้ดต่อไปนี้แสดงวิธีใส่กฎทางแนวนอนเป็นเอกสารโดยใช้ `DocumentBuilder.InsertHorizontalRule` วิธี
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกรูปร่างกฎแนวนอนลงในเอกสารโดยใช้วิธีการ`DocumentBuilder.InsertHorizontalRule`.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHorizontalRule-DocumentBuilderInsertHorizontalRule.java" >}}
 
-## ทํางานกับรูปร่าง
+## การทำงานกับรูปร่าง
 
-### แทรกอินไลน์และเส้นประอิสระ
+### การใส่รูปร่างแบบอินไลน์และแบบลอยตัวฟรี
 
-คุณสามารถแทรกรูปอินไลน์ด้วยชนิดและขนาดที่ระบุ และเปลี่ยนรูปร่างได้อย่างอิสระ โดยมีตําแหน่ง, ขนาด, และตัวตัดข้อความเป็นเอกสารที่ใช้ `DocumentBuilder.InsertShape` วิธี เดอะ `DocumentBuilder.InsertShape` วิธีการสามารถแทรกรูปร่าง DML ไปยังโมเดลเอกสารได้ เอกสารจะต้องถูกจัดเก็บในรูปแบบแฟ้ม ซึ่งรองรับรูปแบบ DML ไม่เช่นนั้นโหนดจะถูกแปลงเป็นรูป VML ขณะบันทึกเอกสาร ตัว อย่าง รหัส ต่อ ไป นี้ แสดง ให้ เห็น วิธี สอด รูป แบบ เหล่า นี้ เข้า ไป ใน เอกสาร.
+คุณสามารถแทรกรูปร่างแบบอินไลน์ที่มีชนิดและขนาดที่ระบุและรูปร่างแบบลอยตัวได้โดยมีตำแหน่งขนาดและชนิดการตัดข้อความที่ระบุลงในเอกสารโดยใช้วิธีการ`DocumentBuilder.InsertShape` วิธีการ`DocumentBuilder.InsertShape`ช่วยให้แทรกรูปร่างDMLลงในรูปแบบเอกสาร เอกสารต้องถูกบันทึกในรูปแบบที่รองรับDMLรูปร่างมิฉะนั้นโหนดดังกล่าวจะถูกแปลงเป็นVMLรูปร่าง ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกรูปร่างชนิดนี้ลงในเอกสาร.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-InsertShapeUsingDocumentBuilder.java" >}}
 
-### สร้างสี่เหลี่ยมมุม Snipp
+### สร้างมุมตัดสี่เหลี่ยมผืนผ้า
 
-คุณสามารถสร้างสี่เหลี่ยมมุมได้โดยใช้ Aspose.Words. รูปทรงชนิดคือซิงเกิลคอร์เนอร์สนิพเพิร์ด ท็อปคอร์เนอร์สสสนิพเพิร์ด, PythCorners Snipped, TopCorners One Rounded One Snipped, One CornerRounded, TopCorners Rounded, และ PythCorners Rounded. สร้างรูปทรง DML โดยใช้ `DocumentBuilder.InsertShape` วิธีการที่มีรูปร่างเหล่านี้ ชนิดเหล่านี้ไม่สามารถใช้ในการสร้างรูปร่างแบบ VML ได้ ความพยายามที่จะสร้างรูปร่างโดยการใช้ผู้สร้างสาธารณะของคลาส "Shape" เพิ่มข้อยกเว้น "NotSupported Exception" ตัว อย่าง รหัส ต่อ ไป นี้ แสดง ให้ เห็น วิธี สอด รูป แบบ เหล่า นี้ เข้า ไป ใน เอกสาร.
+คุณสามารถสร้างสี่เหลี่ยมมุมตัดด้วยAspose.Words ประเภทรูปร่างคือSingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped, TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, และDiagonalCornersRounded รูปร่างDMLถูกสร้างขึ้นโดยใช้วิธีการ`DocumentBuilder.InsertShape`กับประเภทรูปร่างเหล่านี้ ชนิดเหล่านี้ไม่สามารถใช้เพื่อสร้างVMLรูปร่าง พยายามที่จะสร้างรูปร่างโดยใช้ตัวสร้างสาธารณะของชั้นเรียน"รูปร่าง"ยก"NotSupportedException"ข้อยกเว้น ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกรูปร่างชนิดนี้ลงในเอกสาร.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-AddCornersSnipped.java" >}}
 
-### นําเข้ารูปร่างและคณิตศาสตร์ XML เป็นรูปร่าง DOM
+### นำเข้ารูปร่างด้วยคณิตศาสตร์XMLเป็นรูปร่างเป็นDOM
 
-คุณสามารถใช้ `LoadOptions.ConvertShapeToOfficeMath` คุณสมบัติในการแปลงรูปทรงด้วย EquationXML เป็นวัตถุคณิตศาสตร์สํานักงาน ค่าปริยายของคุณสมบัตินี้ ตรงกับพฤติกรรมแบบ MSW แบบ I. รูปทรงกับสมการ XML ไม่ได้แปลงเป็นวัตถุคณิตศาสตร์ในสํานักงาน
+คุณสามารถใช้คุณสมบัติ`LoadOptions.ConvertShapeToOfficeMath`เพื่อแปลงรูปร่างด้วยEquationXMLไปยังวัตถุทางคณิตศาสตร์สำนักงาน ค่าเริ่มต้นของคุณสมบัตินี้สอดคล้องกับMSลักษณะการทำงานของคำเช่นรูปร่างที่มีสมการXMLจะไม่.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-ConvertShapeToOfficeMath.java" >}}

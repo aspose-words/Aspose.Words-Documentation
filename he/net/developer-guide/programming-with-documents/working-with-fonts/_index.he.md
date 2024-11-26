@@ -7,6 +7,7 @@ description: "עיצוב עיניים בפרטים באמצעות C#. סימן �
 type: docs
 weight: 230
 url: /he/net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 גופן הוא קבוצה של דמויות עם גודל מסוים, צבע ועיצוב. Aspose.Words מאפשר לך לעבוד עם גופנים באמצעות [Fonts](https://reference.aspose.com/words/net/aspose.words.fonts/) המונחים: [Font](https://reference.aspose.com/words/net/aspose.words/font/) מעמד.

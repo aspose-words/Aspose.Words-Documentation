@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lavorare con i segnalibri in C++
 second_title: Aspose.Words per C++
 articleTitle: Lavorare con i segnalibri
@@ -7,6 +7,7 @@ description: "Comprensione dei concetti di segnalibro e come segnalibro può ess
 type: docs
 weight: 180
 url: /it/cpp/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 I segnalibri identificano in un documento Microsoft Word le posizioni o i frammenti che si nominano e identificano per riferimento futuro. Ad esempio, è possibile utilizzare un segnalibro per identificare il testo che si desidera rivedere in seguito. Invece di scorrere il documento per individuare il testo, è possibile accedervi utilizzando la finestra di dialogo Segnalibro.

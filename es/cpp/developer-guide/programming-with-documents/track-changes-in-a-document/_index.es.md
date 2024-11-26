@@ -1,4 +1,4 @@
-﻿---
+---
 title: Realizar un seguimiento de los cambios en un documento en C++
 second_title: Aspose.Words para C++
 articleTitle: Realizar un seguimiento de los Cambios en un Documento
@@ -7,6 +7,7 @@ description: "Realice un seguimiento de los cambios en el contenido y el formato
 type: docs
 weight: 270
 url: /es/cpp/track-changes-in-a-document/
+timestamp: 2024-01-30-16-22-34
 ---
 
 La funcionalidad de seguimiento de cambios, también conocida como revisión, le permite realizar un seguimiento de los cambios en el contenido y el formato realizados por usted u otros usuarios. Esta función de seguimiento de cambios con Aspose.Words admite el seguimiento de cambios en Microsoft Word. Con esta funcionalidad, puede acceder a revisiones individuales en su documento y aplicarles diferentes propiedades.

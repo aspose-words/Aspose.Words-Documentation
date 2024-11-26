@@ -1,104 +1,105 @@
----
+﻿---
 title: کار با نظرات در Java
 second_title: Aspose.Words برای Java
 articleTitle: کار با نظرات
 linktitle: کار با نظرات
-description: "کار با نظرات با استفاده از Java..."
+description: "کار با نظرات با استفاده از Java."
 type: docs
 weight: 260
 url: /fa/java/working-with-comments/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}
 
 **سعی کنید آنلاین**
 
-شما می توانید این قابلیت را با ما امتحان کنید [دانلود زیرنویس فارسی فیلم Anotations](https://products.aspose.app/words/annotation)...
+شما می توانید این قابلیت را با ما امتحان کنید [رایگان آنلاین حذف حاشیه نویسی](https://products.aspose.app/words/annotation).
 
 {{% /alert %}}
 
-Aspose.Words اجازه می دهد تا کاربران با نظرات کار کنند – نظرات در یک سند Aspose.Words نمایندگی توسط [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/) کلاس همچنین استفاده از [CommentRangeStart](https://reference.aspose.com/words/java/com.aspose.words/commentrangestart/) و [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/) کلاس ها برای مشخص کردن منطقه متن که باید با یک نظر مرتبط باشد.
+Aspose.Words به کاربران اجازه می دهد تا با نظرات کار کنند – نظرات در یک سند در Aspose.Words توسط کلاس [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/) نشان داده می شود. همچنین از کلاس های [CommentRangeStart](https://reference.aspose.com/words/java/com.aspose.words/commentrangestart/) و [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/) برای مشخص کردن منطقه متن که باید با یک نظر مرتبط باشد استفاده کنید.
 
-## Add a comment
+## افزودن نظر
 
-Aspose.Words به شما اجازه می دهد نظرات را به روش های مختلف اضافه کنید:
+Aspose.Words به شما اجازه می دهد تا نظرات را به روش های مختلفی اضافه کنید:
 
-1. استفاده از [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/) کلاس
-2. استفاده از [CommentRangeStart](https://reference.aspose.com/words/java/com.aspose.words/commentrangestart/) و [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/) کلاس های کلاس
+1. با استفاده از کلاس [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/)
+2. با استفاده از کلاس های [CommentRangeStart](https://reference.aspose.com/words/java/com.aspose.words/commentrangestart/) و [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/)
 
-مثال کد زیر نشان می دهد که چگونه یک نظر را به یک پاراگراف اضافه کنید. **Comment** کلاس:
+مثال کد زیر نشان می دهد که چگونه یک نظر را به یک پاراگراف با استفاده از کلاس **Comment** اضافه کنید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-AddComments-AddComments.java" >}}
 
-مثال کد زیر نشان می دهد که چگونه یک نظر را به یک پاراگراف با استفاده از یک منطقه متن و متن اضافه کنیم. **CommentRangeStart** و **CommentRangeEnd** کلاس ها:
+مثال کد زیر نشان می دهد که چگونه یک نظر را به یک پاراگراف با استفاده از یک منطقه از متن و کلاس های **CommentRangeStart** و **CommentRangeEnd** اضافه کنید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-AnchorComment-AnchorComment.java" >}}
 
 ## استخراج یا حذف نظرات
 
-استفاده از نظرات در یک سند Word (علاوه بر تغییرات پیگیری) یک عمل مشترک در هنگام بررسی اسناد است، به ویژه هنگامی که چندین بررسی کننده وجود دارد. ممکن است شرایطی وجود داشته باشد که تنها چیزی که شما از یک سند نیاز دارید، نظرات است. فرض کنید می خواهید یک لیست از یافته های بررسی تهیه کنید، یا شاید تمام اطلاعات مفید را از سند جمع آوری کرده اید و به سادگی می خواهید نظرات غیر ضروری را حذف کنید. شما ممکن است بخواهید نظرات یک بررسی خاص را مشاهده یا حذف کنید.
+استفاده از نظرات در یک سند ورد (علاوه بر ردیابی تغییرات) یک عمل رایج در هنگام بررسی اسناد است، به ویژه هنگامی که چندین بازبینی کننده وجود دارد. ممکن است شرایطی وجود داشته باشد که تنها چیزی که از یک سند نیاز دارید نظرات باشد. فرض کنید می خواهید لیستی از یافته های بررسی را ایجاد کنید، یا شاید تمام اطلاعات مفید را از سند جمع آوری کرده اید و فقط می خواهید نظرات غیر ضروری را حذف کنید. ممکن است بخواهید نظرات یک منتقد خاص را مشاهده یا حذف کنید.
 
-در این نمونه، ما به برخی از روش های ساده برای جمع آوری اطلاعات از نظرات در داخل یک سند و برای حذف نظرات از یک سند نگاه می کنیم. به طور خاص، ما چگونگی:
+در این نمونه قصد داریم چند روش ساده را هم برای جمع آوری اطلاعات از نظرات درون یک سند و هم برای حذف نظرات از یک سند بررسی کنیم. به طور خاص، ما در مورد چگونگی:
 
-- همه نظرات را از یک سند یا تنها نظراتی که توسط یک نویسنده خاص ساخته شده است، استخراج کنید.
+- تمام نظرات را از یک سند یا فقط نظرات یک نویسنده خاص استخراج کنید.
 - تمام نظرات را از یک سند یا فقط از یک نویسنده خاص حذف کنید.
 
-### چگونگی استخراج یا حذف نظرات
+### نحوه استخراج یا حذف نظرات
 
-کد موجود در این نمونه کاملا ساده است و همه روش ها بر اساس همان روش است. یک نظر در یک سند Word توسط یک `Comment` جسم در Aspose.Words مدل شیء سند برای جمع آوری تمام نظرات در یک سند استفاده از [getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/document/#getChildNodes) روش با پارامتر اول `NodeType.Comment`... اطمینان حاصل کنید که پارامتر دوم **دانلود فیلم KidldNodes** روش برای trueاین نیرو ها **دانلود فیلم KidldNodes** برای انتخاب از تمام گره های کودک، به جای جمع آوری فرزندان فوری، به طور چشمگیری تکرار می شود.
+کد در این نمونه کاملا ساده است و همه روش ها بر اساس یک رویکرد هستند. یک نظر در یک سند ورد توسط یک شیء `Comment` در مدل شیء سند Aspose.Words نشان داده می شود. برای جمع آوری تمام نظرات در یک سند از روش [getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/document/#getChildNodes) با پارامتر اول تنظیم شده به `NodeType.Comment` استفاده کنید. اطمینان حاصل کنید که پارامتر دوم روش **getChildNodes** به true تنظیم شده است: این باعث می شود که **getChildNodes** به جای جمع آوری کودکان نزدیک، به طور تکراری از تمام گره های کودک انتخاب کند.
 
-برای نشان دادن چگونگی استخراج و حذف نظرات از یک سند، مراحل زیر را طی خواهیم کرد:
+برای نشان دادن نحوه استخراج و حذف نظرات از یک سند، مراحل زیر را طی خواهیم کرد:
 
-1. باز کردن یک سند Word با استفاده از [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) کلاس
-1. همه نظرات را از سند به یک مجموعه دریافت کنید
+1. یک سند ورد را با استفاده از کلاس [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) باز کنید
+1. تمام نظرات را از سند به مجموعه ای تبدیل کنید
 1. برای استخراج نظرات:
-   1- از طریق مجموعه با استفاده از اپراتور
-   1- استخراج و فهرست نام نویسنده، تاریخ و زمان و متن تمام نظرات
-   1- استخراج و فهرست نام نویسنده، تاریخ و زمان و متن نظرات نوشته شده توسط یک نویسنده خاص، در این مورد، نویسنده "ks"
+   1. از طریق مجموعه با استفاده از برای اپراتور
+   1. استخراج و لیست نام نویسنده، تاریخ و زمان و متن تمام نظرات
+   1. استخراج و فهرست نام نویسنده، تاریخ و زمان و متن نظرات نوشته شده توسط یک نویسنده خاص، در این مورد، نویسنده "ks"
 1. برای حذف نظرات:
-   ۱- از طریق مجموعه با استفاده از عملگر به عقب بروید
-   1- حذف نظرات
-1. تغییرات را نجات دهید.
+   1. با استفاده از for the operator به عقب از طریق مجموعه بروید
+   1. حذف نظرات
+1. تغییرات را ذخیره کنید.
 
-ما قصد داریم از سند کلمه زیر برای این تمرین استفاده کنیم:
+ما از سند کلمه زیر برای این تمرین استفاده خواهیم کرد:
 
 ![extract-remove-comments-aspose-words-java-1](/words/java/working-with-comments/extract-remove-comments-aspose-words-java-1.png)
 
-همانطور که می بینید، این شامل چندین نظر از دو نویسنده با اولین "pm" و "ks" است.
+همانطور که می بینید، شامل چندین نظر از دو نویسنده با حروف اول "pm" و "ks"است.
 
-### چگونه همه نظرات را استخراج کنیم
+### چگونه تمام نظرات را استخراج کنیم
 
-The The The The The The [getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/document/#getChildNodes) روش بسیار مفید است و شما می توانید هر بار که نیاز به لیستی از گره های سند از هر نوع. جمع آوری نتیجه یک سربار فوری ایجاد نمی کند، زیرا گره ها تنها زمانی که شما اقلام را در آن قرار می دهید یا به آن دسترسی دارید، انتخاب می شوند.
+روش [getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/document/#getChildNodes) بسیار مفید است و شما می توانید هر بار که نیاز به دریافت لیست گره های سند از هر نوع دارید از آن استفاده کنید. مجموعه حاصل یک سربار فوری ایجاد نمی کند زیرا گره ها فقط زمانی در این مجموعه انتخاب می شوند که موارد موجود در آن را شمارش یا دسترسی داشته باشید.
 
-مثال کد زیر نشان می دهد که چگونه نام نویسنده، تاریخ و زمان و متن تمام نظرات را در سند استخراج کنیم:
+مثال کد زیر نشان می دهد که چگونه نام نویسنده، تاریخ و زمان و متن تمام نظرات در سند را استخراج کنید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-ProcessComments-extractComments.java" >}}
 
-### چگونه برای استخراج نظرات یک نویسنده مشخص
+### چگونه نظرات یک نویسنده مشخص شده را استخراج کنیم
 
-پس از اینکه گره های نظر را به یک مجموعه انتخاب کردید، تنها کاری که باید انجام دهید این است که اطلاعات مورد نیاز خود را استخراج کنید. در این نمونه، اولین نویسنده، تاریخ، زمان و متن ساده از نظر به یک رشته ترکیب شده است؛ شما می توانید آن را به روش های دیگر ذخیره کنید.
+بعد از اینکه گره های نظر را به مجموعه ای انتخاب کردید، تنها کاری که باید انجام دهید استخراج اطلاعات مورد نیاز است. در این نمونه، حروف اول، تاریخ، زمان نویسنده و متن ساده نظر در یک رشته ترکیب شده است ؛ شما می توانید آن را به برخی از راه های دیگر ذخیره کنید.
 
-روش اضافه بار که نظرات یک نویسنده خاص را استخراج می کند تقریبا یکسان است، فقط نام نویسنده را قبل از اضافه کردن اطلاعات به آرایه بررسی می کند.
+روش اضافه بار که نظرات را از یک نویسنده خاص استخراج می کند تقریبا یکسان است، فقط نام نویسنده را قبل از اضافه کردن اطلاعات به آرایه بررسی می کند.
 
-مثال کد زیر نشان می دهد که چگونه نام نویسنده، تاریخ و زمان و متن نظرات را توسط نویسنده مشخص شده استخراج کنید:
+مثال کد زیر نشان می دهد که چگونه نام نویسنده، تاریخ و زمان و متن نظرات نویسنده مشخص شده را استخراج کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-ProcessComments-extractComments_Author.java" >}}
 
-### چگونه برای حذف نظرات
+### چگونه نظرات را حذف کنیم
 
-اگر شما تمام نظرات را حذف می کنید، نیازی به حرکت از طریق جمع آوری حذف نظرات یک به یک وجود ندارد؛ شما می توانید آنها را با تماس با تماس با تماس گرفتن از آنها حذف کنید. [clear](https://reference.aspose.com/words/java/com.aspose.words/nodecollection/#clear) در مجموعه نظرات
+اگر شما در حال حذف تمام نظرات هستید، نیازی به حرکت از طریق مجموعه حذف نظرات یک به یک نیست ؛ شما می توانید آنها را با تماس با [clear](https://reference.aspose.com/words/java/com.aspose.words/nodecollection/#clear) در مجموعه نظرات حذف کنید.
 
 مثال کد زیر نشان می دهد که چگونه تمام نظرات را در سند حذف کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-ProcessComments-removeComments.java" >}}
 
-هنگامی که شما نیاز به انتخاب نظرات دارید، روند بیشتر شبیه به کد مورد استفاده برای استخراج نظر می شود.
+وقتی شما نیاز به حذف انتخابی نظرات دارید، این فرآیند بیشتر شبیه کد است که ما برای استخراج نظرات استفاده کردیم.
 
-مثال کد زیر نشان می دهد که چگونه نظرات را توسط نویسنده مشخص حذف کنیم:
+مثال کد زیر نشان می دهد که چگونه نظرات نویسنده مشخص شده را حذف کنید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-ProcessComments-removeComments_Author.java" >}}
 
-نکته اصلی برجسته کردن در اینجا استفاده از اپراتور است. بر خلاف استخراج ساده، در اینجا شما می خواهید یک نظر را حذف کنید. یک ترفند مناسب این است که مجموعه را به عقب از آخرین نظر به یکی از اولین ها تبدیل کنید. دلیل این امر اگر شما از پایان شروع کنید و به عقب حرکت کنید، شاخص اقلام قبلی بدون تغییر باقی می ماند و شما می توانید راه خود را به اولین مورد در مجموعه کار کنید.
+نکته اصلی که باید در اینجا برجسته شود استفاده از عامل for است. برخلاف استخراج ساده، در اینجا می خواهید یک نظر را حذف کنید. یک ترفند مناسب این است که مجموعه را از آخرین نظر به اولین نظر به عقب تکرار کنید. دلیل این امر اگر از انتها شروع کنید و به عقب حرکت کنید، شاخص موارد قبلی بدون تغییر باقی می ماند و می توانید راه خود را به اولین مورد در مجموعه برگردانید.
 
 مثال کد زیر روش های استخراج و حذف نظرات را نشان می دهد:
 
@@ -106,40 +107,40 @@ The The The The The The [getChildNodes](https://reference.aspose.com/words/java/
 
 {{% alert color="primary" %}}
 
-شما می توانید فایل نمونه را از این مثال دانلود کنید. [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/comments/ProcessComments/TestFile.doc)...
+شما می توانید فایل نمونه این مثال را از [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/comments/ProcessComments/TestFile.doc).
 
 {{% /alert %}}
 
-هنگامی که راه اندازی شد، نمونه نتایج زیر را نشان می دهد. اول، همه نظرات توسط همه نویسندگان را فهرست می کند، سپس نظرات توسط نویسنده انتخاب شده را فهرست می کند. در نهایت، کد تمام نظرات را حذف می کند.
+هنگام راه اندازی، نمونه نتایج زیر را نمایش می دهد. اول، تمام نظرات همه نویسندگان را فهرست می کند، سپس فقط نظرات نویسنده انتخاب شده را فهرست می کند. در آخر، کد حذف تمام نظرات.
 
 ![extract-remove-comments-aspose-words-java-2](/words/java/working-with-comments/extract-remove-comments-aspose-words-java-2.png)
 
-سند Word خروجی در حال حاضر نظرات حذف شده از آن:
+سند ورد خروجی اکنون نظرات را از آن حذف کرده است:
 
 ![extract-remove-comments-aspose-words-java-3](/words/java/working-with-comments/extract-remove-comments-aspose-words-java-3.png)
 
-### چگونه برای حذف متن بین فریمورک و پایان متن
+### نحوه حذف متن بین CommentRangeStart و CommentRangeEnd
 
-استفاده از Aspose.Words شما همچنین می توانید نظرات بین گره های TrackStart و commentmount End را حذف کنید.
+با استفاده از Aspose.Words می توانید نظرات بین گره های CommentRangeStart و CommentRangeEnd را نیز حذف کنید.
 
-مثال کد زیر نشان می دهد که چگونه متن را بین عبارت CommentframeStart و commentmount: End حذف کنیم:
+مثال کد زیر نشان می دهد که چگونه متن بین CommentRangeStart و CommentRangeEndرا حذف کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-RemoveCommentRegionText-RemoveCommentRegionText.java" >}}
 
-## اضافه کردن یا حذف پاسخ
+## اضافه کردن یا حذف پاسخ نظر
 
-The The The The The The [addReply](https://reference.aspose.com/words/java/com.aspose.words/comment/#addReply-java.lang.String-java.lang.String-java.util.Date-java.lang.String) روش یک پاسخ به این نظر اضافه می کند. لطفا توجه داشته باشید که به دلیل محدودیت های موجود MS Office تنها یک (1) سطح پاسخ در سند مجاز است. به غیر از نوع InvalidOperation Exception اگر این روش در نظر پاسخ موجود نامیده می شود، مطرح خواهد شد.
+روش [addReply](https://reference.aspose.com/words/java/com.aspose.words/comment/#addReply-java.lang.String-java.lang.String-java.util.Date-java.lang.String) پاسخ به این نظر را اضافه می کند. لطفا توجه داشته باشید که به دلیل محدودیت های موجود MS Office تنها یک (1) سطح پاسخ در سند مجاز است. یک استثنا از نوع InvalidOperationException مطرح خواهد شد اگر این روش در نظر پاسخ موجود فراخوانده شود.
 
-می توانید از آن استفاده کنید [removeReply](https://reference.aspose.com/words/java/com.aspose.words/comment/#removeReply-com.aspose.words.Comment) روش حذف پاسخ مشخص به این نظر
+شما می توانید از روش [removeReply](https://reference.aspose.com/words/java/com.aspose.words/comment/#removeReply-com.aspose.words.Comment) برای حذف پاسخ مشخص شده به این نظر استفاده کنید.
 
-مثال کد زیر نشان می دهد که چگونه یک پاسخ را به یک نظر اضافه کنید و پاسخ یک نظر را حذف کنید:
+مثال کد زیر نشان می دهد که چگونه یک پاسخ به یک نظر اضافه کنید و پاسخ یک نظر را حذف کنید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-AddRemoveCommentReply-AddRemoveCommentReply.java" >}}
 
-## Read comment
+## پاسخ نظر را بخوانید
 
-Aspose.Words پشتیبانی از خواندن پاسخ یک نظر The The The The The The [Replies](https://reference.aspose.com/words/java/com.aspose.words/comment/#getReplies) املاک مجموعه ای از [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/) اشیایی که فرزندان فوری نظر مشخص شده هستند.
+Aspose.Words پشتیبانی برای خواندن پاسخ یک نظر. ویژگی [Replies](https://reference.aspose.com/words/java/com.aspose.words/comment/#getReplies) مجموعه ای از اشیاء [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/) را که فرزندان فوری نظر مشخص شده هستند، باز می گرداند.
 
-مثال کد زیر نشان می دهد که چگونه از طریق پاسخ های یک نظر و حل آنها:
+مثال کد زیر نشان می دهد که چگونه از طریق پاسخ های یک نظر تکرار و حل آنها:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-ProcessComments-CommentResolvedandReplies.java" >}}

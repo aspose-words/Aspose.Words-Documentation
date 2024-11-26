@@ -1,4 +1,4 @@
-﻿---
+---
 title: Font FallBack Setări din XML în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Font FallBack Setări din XML
@@ -7,6 +7,7 @@ description: "Mecanismul de rezervă a fontului este utilizat atunci când fontu
 type: docs
 weight: 14
 url: /ro/cpp/font-fallback-settings-from-xml/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Există două mecanisme diferite utilizate în Aspose.Words - substituirea fontului și rezerva fontului. Substituirea fontului este utilizată atunci când fontul specificat în document nu a putut fi găsit printre sursele de font așa cum a fost descris în secțiunile de mai sus. Mecanismul de rezervă a fontului este utilizat atunci când fontul este rezolvat, dar nu conține un caracter specific. În acest caz, Aspose.Words încearcă să utilizeze unul dintre fonturile de rezervă pentru personaj.

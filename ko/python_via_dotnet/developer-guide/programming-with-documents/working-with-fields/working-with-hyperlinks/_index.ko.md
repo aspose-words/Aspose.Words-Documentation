@@ -7,6 +7,7 @@ description: "Python를 사용하여 문서의 하이퍼링크를 추가, 교체
 type: docs
 weight: 50
 url: /ko/python-net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word 문서의 하이퍼링크는 `HYPERLINK` 필드입니다. Aspose.Words에서 하이퍼링크는 [FieldHyperlink](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldhyperlink/) 클래스를 통해 구현됩니다.

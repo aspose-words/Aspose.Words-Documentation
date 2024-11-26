@@ -7,6 +7,7 @@ description: "Thay thế văn bản trong một bảng ở Java. Chiết xuất 
 type: docs
 weight: 60
 url: /vi/java/extract-text-from-and-replace-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Như đã đề cập ở các bài trước, bảng thường chứa văn bản đơn giản mặc dù nội dung khác như hình ảnh hoặc thậm chí là bảng khác cũng có thể được đặt trong các ô.

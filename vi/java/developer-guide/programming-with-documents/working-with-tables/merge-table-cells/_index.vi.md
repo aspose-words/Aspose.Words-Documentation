@@ -7,6 +7,7 @@ description: "Cách kết hợp các ô trong Java. Kiểm tra xem các ô trong
 type: docs
 weight: 40
 url: /vi/java/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi một số hàng trong bảng cần tiêu đề hoặc các khối văn bản lớn chiếm đầy chiều rộng của bảng. Để thiết kế bảng đúng cách, người dùng có thể hợp nhất nhiều ô vào một. Aspose.Words hỗ trợ các ô được hợp nhất khi làm việc với tất cả các định dạng nhập, bao gồm nhập nội dung HTML.

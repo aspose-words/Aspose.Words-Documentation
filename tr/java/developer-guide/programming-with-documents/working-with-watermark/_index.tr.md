@@ -7,6 +7,7 @@ type: docs
 description: "Belge su damgası manipülasyonu Java kullanarak yapılır."
 weight: 70
 url: /tr/java/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bu konu bir su damgası ile programatik olarak nasıl çalışılacağını tartışır Aspose.Words. Su damgası bir belgedeki metnin arkasından görünen arka plan görüntüsüdür. Bir filigran bir [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) sınıfı tarafından temsil edilen bir metin veya bir resim içerebilir.

@@ -7,6 +7,7 @@ description: "با استفاده از Python با محدوده های موجو�
 type: docs
 weight: 130
 url: /fa/python-net/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

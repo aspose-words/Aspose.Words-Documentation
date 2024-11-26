@@ -7,6 +7,7 @@ description: "The evaluation version of Aspose.Words for JasperReports (without 
 type: docs
 weight: 120
 url: /jasperreports/evaluate-aspose-words/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

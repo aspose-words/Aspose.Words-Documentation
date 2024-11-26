@@ -1,4 +1,4 @@
-﻿---
+---
 title: Как задать свойства оси диаграммы в C++
 second_title: Aspose.Words для C++
 articleTitle: Как задать свойства оси диаграммы
@@ -7,6 +7,7 @@ description: "Настройка оси диаграммы с помощью C++
 type: docs
 weight: 20
 url: /ru/cpp/how-to-set-chart-axis-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Если вы хотите работать с осью диаграммы, масштабированием и единицами отображения для оси значений, пожалуйста, используйте классы [ChartAxis](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.chart_axis), [AxisDisplayUnit](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_display_unit) и [AxisScaling](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_scaling).

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MFontC++中的可用性和替换
 second_title: Aspose.Words对于C++
 articleTitle: 字体可用性和替代性
@@ -7,6 +7,7 @@ description: "当找不到确切的替换字体时，Aspose.Words必须将其替
 type: docs
 weight: 12
 url: /zh/cpp/font-availability-and-substitution/
+timestamp: 2024-09-24-14-35-44
 ---
 
 文档中的文本可以使用各种字体进行格式化，例如Arial，Times New Roman，Verdana等。 当Aspose.Words呈现文档时，它会尝试选择文档中指定的字体。

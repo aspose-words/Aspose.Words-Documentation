@@ -7,6 +7,7 @@ description: "Specify various TrueType font sources: system folder, user sources
 type: docs
 weight: 30
 url: /java/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 This topic describes the default behavior of Aspose.Words when it looks for TrueType fonts, including operating system specific differences, and demonstrates how to specify user font sources.

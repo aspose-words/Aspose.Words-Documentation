@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Beelde in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Werk Met Beelde
@@ -7,6 +7,7 @@ description: "Beeldvorms in besonderhede en gevorderde funksies wat deur Aspose.
 type: docs
 weight: 300
 url: /af/net/working-with-images/
+timestamp: 2024-05-02-11-51-44
 ---
 
 Aspose.Words laat gebruikers toe om op'n baie buigsame manier met beelde te werk. In hierdie artikel kan jy slegs sommige van die moontlikhede van werk met beelde verken.

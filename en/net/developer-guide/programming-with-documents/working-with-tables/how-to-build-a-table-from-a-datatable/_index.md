@@ -1,12 +1,13 @@
 ---
-title: How to Build a Table from a `DataTable` in C#
+title: How to Build a Table from a DataTable in C#
 second_title: Aspose.Words for .NET
-articleTitle: Build a Table from a `DataTable` 
-linktitle: Build a Table from a `DataTable` 
+articleTitle: Build a Table from a DataTable 
+linktitle: Build a Table from a DataTable 
 description: "Example of filling document table from external database using C#."
 type: docs
 weight: 120
 url: /net/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Often your application will pull data from a database and store it in the form of a **DataTable**. You can easily insert this data into your document as a new table and quickly apply formatting to the whole table.

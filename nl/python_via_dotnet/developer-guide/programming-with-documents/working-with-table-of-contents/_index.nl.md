@@ -7,6 +7,7 @@ description: "'Inhoudsopgave' in een document invoegen en beheren met Python."
 type: docs
 weight: 170
 url: /nl/python-net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Vaak werk je met documenten die een inhoudsopgave bevatten (TOC). Gebruik Aspose.Words U kunt uw eigen inhoudsopgave invoegen of bestaande inhoudsopgave volledig herbouwen in het document met slechts een paar regels code. Dit artikel beschrijft hoe te werken met de inhoudsopgave en toont:
@@ -50,7 +51,7 @@ Het volgende voorbeeld van code laat zien hoe je volledig kunt herbouwen `TOC` v
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-add_content_using_document_builder-UpdateFields.py" >}}
 
-De eerste oproep aan [Document.update_fields](https://reference.aspose.com/words/python-net/aspose.words/document/update_fields/) zal de <span notrans="<span notrans=" `TOC`"=""></span>,"> alle tekstvermeldingen worden ingevuld en de `TOC` lijkt bijna compleet. Het enige wat ontbreekt is de pagina nummers die voor nu worden weergegeven met???. De tweede oproep tot [Document.update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) zal de lay-out van het document in het geheugen. Dit moet worden gedaan om de paginanummers van de items te verzamelen. De juiste paginanummers berekend op basis van deze oproep worden vervolgens ingevoegd in de TOC.
+De eerste oproep aan [Document.update_fields](https://reference.aspose.com/words/python-net/aspose.words/document/update_fields/) zal de `TOC` alle tekstvermeldingen worden ingevuld en de `TOC` lijkt bijna compleet. Het enige wat ontbreekt is de pagina nummers die voor nu worden weergegeven met???. De tweede oproep tot [Document.update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) zal de lay-out van het document in het geheugen. Dit moet worden gedaan om de paginanummers van de items te verzamelen. De juiste paginanummers berekend op basis van deze oproep worden vervolgens ingevoegd in de TOC.
 
 ## Gebruik Schakelen om het gedrag van de Inhoudsopgave te controleren.
 

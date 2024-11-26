@@ -7,6 +7,7 @@ description: "将文档从几乎任何格式转换为 HTML 或 MHTML，以及使
 type: docs
 weight: 20
 url: /zh/python-net/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-01-27-14-07-04
 ---
 
 HTML 和 MHTML 流式布局格式的文档也非常流行，并且可以在任何 Web 平台上使用。因此，将文档转换为 HTML 和 MHTML 是 Aspose.Words 的一个重要功能。

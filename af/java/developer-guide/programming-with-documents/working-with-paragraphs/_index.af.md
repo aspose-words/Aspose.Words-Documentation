@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Paragrawe in Java
 second_title: Aspose.Words vir Java
 articleTitle: Werk Met Paragrawe
@@ -7,6 +7,7 @@ description: "Paragraaf knoop manipulasie praktyke met behulp van Java."
 type: docs
 weight: 210
 url: /af/java/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 'n paragraaf is'n stel karakters wat in'n logiese blok gekombineer word en eindig met'n spesiale karakter – a *paragraph break*. In Aspose.Words word'n paragraaf verteenwoordig deur die [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) klas.

@@ -7,6 +7,7 @@ description: "Bewerken van een document beperken door een beperkingstype in te s
 type: docs
 weight: 30
 url: /nl/python-net/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Soms moet je de mogelijkheid om een document te bewerken beperken en alleen bepaalde acties ermee toestaan. Dit kan nuttig zijn om te voorkomen dat andere mensen gevoelige en vertrouwelijke informatie in uw document bewerken.

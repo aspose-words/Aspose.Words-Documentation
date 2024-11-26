@@ -1,68 +1,69 @@
----
-title: العمل مع الصور Java
-second_title: Aspose.Words for Java
+﻿---
+title: العمل مع الصور في Java
+second_title: Aspose.Words ل Java
 articleTitle: العمل مع الصور
 linktitle: العمل مع الصور
 type: docs
-description: "الأشكال الصورية في التفاصيل والسمات المتقدمة المقدمة من Aspose.Words for Java."
+description: "الأشكال صورة في التفاصيل والميزات المتقدمة التي تقدمها Aspose.Words ل Java."
 weight: 300
 url: /ar/java/working-with-images/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words ويتيح للمستعملين العمل مع الصور بطريقة مرنة للغاية. في هذه المادة، يمكنك استكشاف بعض إمكانيات العمل مع الصور
+Aspose.Words يسمح للمستخدمين بالعمل مع الصور بطريقة مرنة للغاية. في هذه المقالة، يمكنك استكشاف بعض إمكانيات العمل مع الصور فقط.
 
-## How to Extract Images from a Document {#how-to-extract-images-from-a-document}
+## كيفية استخراج الصور من مستند {#how-to-extract-images-from-a-document}
 
-جميع الصور مخزنة في الداخل **Shape** ملصقات في وثيقة ولإستخراج جميع الصور أو الصور التي لها نوع محدد من الوثيقة، تتبع هذه الخطوات:
+يتم تخزين جميع الصور داخل **Shape** العقد في مستند. لاستخراج جميع الصور أو الصور التي لها نوع معين من المستند، اتبع الخطوات التالية:
 
--استخدم [getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/shape/#getChildNodes) طريقة لاختيار كل ندوات الشيب
-- يَتكررُ مِنْ خلال مجموعاتِ العقدِ الناتجةِ.
-- تفقد [hasImage](https://reference.aspose.com/words/java/com.aspose.words/shape/#hasImage) ممتلكات بوليان
-- بيانات الصور المستقطعة باستخدام [ImageData](https://reference.aspose.com/words/java/com.aspose.words/shape/#getImageData) ملكية
--احتفظي ببيانات الصور للملف
+- استخدم طريقة [getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/shape/#getChildNodes) لتحديد جميع عقد الشكل.
+- كرر من خلال مجموعات العقدة الناتجة.
+- تحقق من خاصية [hasImage](https://reference.aspose.com/words/java/com.aspose.words/shape/#hasImage) المنطقية.
+- استخراج بيانات الصورة باستخدام خاصية [ImageData](https://reference.aspose.com/words/java/com.aspose.words/shape/#getImageData).
+- حفظ بيانات الصورة إلى ملف.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-ExtractImagesToFiles-ExtractImagesToFiles.java" >}}
 
-## How to Insert Barcode on each Document Page {#how-to-insert-barcode-on-each-documen-page}
+## كيفية إدراج الباركود في كل صفحة وثيقة {#how-to-insert-barcode-on-each-documen-page}
 
-وهذا المثال يسمح لكم بإضافة نفس أو مختلف رموز الأعمدة على جميع أو صفحات محددة من وثيقة كلمة. لا توجد طريقة مباشرة لإضافة رموز الأعمدة على جميع صفحات الوثيقة ولكن يمكنك استخدام [moveToSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToSection-int), [moveToHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToHeaderFooter-int) و [insertImage](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertImage(byte[])() طرق الانتقال إلى أي قسم أو رؤساء/قدماء وإدراج صور الشوكودية كما ترى في الرمز التالي
+يتيح لك هذا المثال إضافة نفس الرموز الشريطية أو مختلفة على كل الصفحات أو صفحات معينة من مستند ورد. لا توجد طريقة مباشرة لإضافة الرموز الشريطية على جميع صفحات المستند ولكن يمكنك استخدام طرق [moveToSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToSection-int) و [moveToHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToHeaderFooter-int) و [insertImage](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertImage(byte[])) للانتقال إلى أي قسم أو رؤوس/تذييلات وإدراج صور الباركود كما ترى في الكود التالي.
 
-ويبيّن المثال الرمزي التالي كيفية إدخال صورة من رموز الأعمدة في كل صفحة من صفحات الوثيقة:
+يوضح مثال الكود التالي كيفية إدراج صورة رمز شريطي في كل صفحة من المستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-InsertBarcodeImage-InsertBarcodeImage.java" >}}
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-InsertBarcodeImage-InsertBarcodeIntoFooter.java" >}}
 
-## نسبة الصور {#lock-aspect-ratio-of-image}
+## قفل نسبة العرض إلى الارتفاع للصورة {#lock-aspect-ratio-of-image}
 
-والنسبة الجانبية للشكل الأرضي هي نسبة أحجامه بأبعاد مختلفة. يمكنك قفل النسبة الجانبية للصورة باستخدام [AspectRatioLocked](https://reference.aspose.com/words/java/com.aspose.words/shape/#getAspectRatioLocked). القيمة الافتراضية لنسبة الشكل تعتمد على [ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/). هو true for `ShapeType.Image` و false لأشكال أخرى
+نسبة العرض إلى الارتفاع للشكل الهندسي هي نسبة أحجامه بأبعاد مختلفة. يمكنك قفل نسبة العرض إلى الارتفاع للصورة باستخدام [AspectRatioLocked](https://reference.aspose.com/words/java/com.aspose.words/shape/#getAspectRatioLocked). تعتمد القيمة الافتراضية لنسبة العرض إلى الارتفاع للشكل على [ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/). هذا صحيح بالنسبة لـ `ShapeType.Image` وخطأ لأنواع الأشكال الأخرى.
 
-ويبين المثال الرمزي التالي كيفية العمل مع نسبة الجانب:
+يوضح مثال الكود التالي كيفية العمل مع نسبة العرض إلى الارتفاع:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetImageAspectRatioLocked-DocumentBuilderSetImageAspectRatioLocked.java" >}}
 
-## كيف تحصل على باوند من الشيب في النقاط {#how-to-get-actual-bounds-of-shape-in-points}
+## كيفية الحصول على الحدود الفعلية للشكل بالنقاط {#how-to-get-actual-bounds-of-shape-in-points}
 
-إذا كنت تريد الصندوق المقيد الفعلي للشكل كما هو مقدم على الصفحة، يمكنك تحقيق هذا باستخدام [BoundsInPoints](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#getBoundsInPoints) ملكية
+إذا كنت تريد المربع المحيط الفعلي للشكل كما تم عرضه على الصفحة، فيمكنك تحقيق ذلك باستخدام خاصية [BoundsInPoints](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#getBoundsInPoints).
 
-The following code example shows how to use this property:
+يوضح مثال التعليمات البرمجية التالية كيفية استخدام هذه الخاصية:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-GetActualShapeBoundsPoints.java" >}}
 
-## صور المحاصيل
+## اقتصاص الصور
 
-The cropping of an image usually refers to the removal of the unwanted outer parts of an image to help improve the framing. وهي تستخدم أيضا في إزالة بعض أجزاء الصورة لزيادة التركيز على مجال معين.
+يشير اقتصاص الصورة عادة إلى إزالة الأجزاء الخارجية غير المرغوب فيها من الصورة للمساعدة في تحسين الإطار. كما أنها تستخدم لإزالة بعض أجزاء الصورة لزيادة التركيز على منطقة معينة.
 
-ويبين المثال الرمزي التالي كيفية تحقيق ذلك باستخدام Aspose.Words API:
+يوضح مثال الكود التالي كيفية تحقيق ذلك باستخدام Aspose.Words API:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-CropImages-CropImageCall.java" >}}
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-CropImages-CropImage.java" >}}
 
-## الصور المنقذة
+## حفظ الصور باسم WMF
 
-Aspose.Words توفير القدرة على العمل من أجل توفير جميع الصور المتاحة في وثيقة ما [WMF](https://docs.fileformat.com/image/wmf/)في الوقت الذي يحوّل فيه ( DOCX) إلى فرقة العمل.
+Aspose.Words يوفر وظيفة لحفظ جميع الصور المتاحة في مستند إلى [WMF](https://docs.fileformat.com/image/wmf/)التنسيق أثناء التحويل DOCX إلى RTF.
 
-The following code example shows how to save images as WMF with RTF save options:
+يوضح مثال الكود التالي كيفية حفظ الصور باسم WMF مع RTF خيارات الحفظ:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithRtfSaveOptions-SavingImagesAsWmf.java" >}}

@@ -7,6 +7,7 @@ description: "Aspose.Words (单位:千美元) Java 执行自己的页面布局�
 type: docs
 weight: 10
 url: /zh/java/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words 执行自己的页面布局引擎。 在探讨其规格之前,值得首先在高级别讨论文件。 在思考一个文档时,用户一般会想象出一些包含文字,图像,表格和图表的纸页. 文档可以是各种类型,如文本,电子表格,幻灯片,CAD绘图,流程图,因此可以有本质上不同的布局. 大多数应用程序允许将文档发送到打印机;这时用户可以实际查看文档的最终意图外观.
@@ -49,7 +50,7 @@ Aspose.Words 内部执行页面布局功能,使其能够生产所有固定的页
 
 ![non_geometric_properties_aspose-words-java](/words/java/converting-to-fixed-page-format/converting-to-fixed-page-format-2.png)
 
-内 <span notrans="<span notrans=" Aspose.Words"=""></span>",> 用户可以要求是构建新的页面布局,还是更新现有的页面布局。 两者都可以由 [UpdatePageLayout](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout\(\)方法,由 [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) 课。 如果不存在页面布局,但需要(例如,当文档导出为固定页格式时), Aspose.Words 将自动调用此方法。 然而,如果一个页面布局已经存在, Aspose.Words 将使用现有的系统,以避免耗尽更新系统所需的资源。 在这种情况下,用户需要拨打 `UpdatePageLayout` 方法,以确保页面布局与文档模式保持一致。
+内 Aspose.Words 用户可以要求是构建新的页面布局,还是更新现有的页面布局。 两者都可以由 [UpdatePageLayout](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout\(\)方法,由 [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) 课。 如果不存在页面布局,但需要(例如,当文档导出为固定页格式时), Aspose.Words 将自动调用此方法。 然而,如果一个页面布局已经存在, Aspose.Words 将使用现有的系统,以避免耗尽更新系统所需的资源。 在这种情况下,用户需要拨打 `UpdatePageLayout` 方法,以确保页面布局与文档模式保持一致。
 
 ### 动态结构
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Find and Replace in Python
 second_title: Aspose.Words for Python via .NET
 articleTitle: Find and Replace
@@ -8,6 +8,7 @@ description: "Find a string or regular expression pattern in your document and r
 weight: 100
 url: /python-net/find-and-replace/
 aliases: [/python/find-and-replace/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 You can easily navigate within your document using a keyboard and mouse, but if you have many pages to scroll through, it will take quite a while to find specific text in a long document. It will be more time consuming when you want to replace certain characters or words that you have used in your document. The “Find and replace” functionality enables you to find a sequence of characters in a document and replace it with another sequence of characters.

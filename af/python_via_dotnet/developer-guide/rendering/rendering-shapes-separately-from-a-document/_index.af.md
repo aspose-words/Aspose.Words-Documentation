@@ -1,4 +1,4 @@
-﻿---
+---
 title: Vorms Afsonderlik Van Dokument
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Vertoon Vorms Afsonderlik van'n Dokument
@@ -7,6 +7,7 @@ description: "Onttrek verskeie grafiese voorwerpe, soos beelde, tekskassie met p
 type: docs
 weight: 40
 url: /af/python-net/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Wanneer dokumente verwerk word, is'n algemene taak om al die beelde wat in die dokument gevind word, te onttrek en na'n eksterne plek uit te voer. Hierdie taak word eenvoudig met die Aspose.Words API, wat reeds die funksionaliteit bied vir die onttrekking en stoor van beelddata. Soms wil u egter ook ander soorte grafiese inhoud onttrek wat deur'n ander tipe tekenvoorwerp voorgestel word, byvoorbeeld'n tekskassie met paragrawe, pylvorms en'n klein prent. Daar is geen eenvoudige manier om hierdie voorwerp te lewer nie, aangesien dit'n kombinasie van individuele inhoudelemente is. Jy kan ook'n geval teëkom wanneer die inhoud saam gegroepeer is in die voorwerp wat soos'n enkele prent lyk.

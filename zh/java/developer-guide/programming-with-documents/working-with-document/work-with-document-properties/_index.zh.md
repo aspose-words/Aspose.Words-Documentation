@@ -7,6 +7,7 @@ description: "Aspose.Words (单位:千美元) Java 允许存储文档中一些�
 type: docs
 weight: 10
 url: /zh/java/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 文档属性允许存储您文档的一些有用信息 。 这些属性可分为两类:

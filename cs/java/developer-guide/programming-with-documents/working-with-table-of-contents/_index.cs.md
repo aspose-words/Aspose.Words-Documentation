@@ -7,6 +7,7 @@ description: "Obsah pole v detailech. Jak vytvořit a upravit `TOC` použití po
 type: docs
 weight: 170
 url: /cs/java/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Často budete pracovat s dokumenty obsahujícími obsah (TOC). Použití Aspose.Words můžete vložit vlastní tabulku obsahu nebo kompletně obnovit stávající tabulku obsahu v dokumentu pomocí několika řádků kódu.
@@ -60,7 +61,7 @@ Následující příklad kódu ukazuje, jak kompletně obnovit `TOC` pole v doku
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-UpdateTableOfContents.java" >}}
 
-První hovor [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) bude stavět <span notrans="<span notrans=" `TOC`"=""></span>, všechny textové záznamy jsou obsazeny a `TOC` Vypadá to skoro kompletní. Jediné, co chybí, jsou čísla stránek, které jsou nyní zobrazeny s??
+První hovor [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) bude stavět `TOC`, všechny textové záznamy jsou obsazeny a `TOC` Vypadá to skoro kompletní. Jediné, co chybí, jsou čísla stránek, které jsou nyní zobrazeny s??
 
 Druhý hovor [Document.updatePageLayout()](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout) vytvoří uspořádání dokumentu v paměti. To je třeba udělat pro shromažďování čísel stránek záznamů. Správná čísla stránky vypočtená z tohoto hovoru se pak vloží do TOC.
 
@@ -124,7 +125,7 @@ Pokud zde není uveden spínač, není v současné době podporován. Všechny 
 
 <p>![table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-6.png)</p>
 
-<p><br/><br/>The `TC` Pole sama o sobě mohou mít {several, `multiple`, a few, `many`, numerous} přepínače nastaveny. Jedná se o:</p>
+<p><br/><br/>The `TC` Pole sama o sobě mohou mít `{several, multiple, a few, many, numerous}` přepínače nastaveny. Jedná se o:</p>
 
 <p>- Vysvětlováno výše. *</p>
 

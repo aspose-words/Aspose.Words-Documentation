@@ -1,4 +1,4 @@
-﻿---
+---
 title: Creați sau încărcați un Document în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Crearea sau încărcarea unui Document
@@ -8,6 +8,7 @@ description: "Creați un document gol sau pentru a-l încărca dintr-un fișier 
 keywords: "create a document c++, load a document c++, create a blank document c++, load a document from file c++, load a document from stream c++, create a document Aspose C++, load a document Aspose C++, load formats supported by Aspose.Words C++"
 weight: 10
 url: /ro/cpp/create-or-load-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aproape orice sarcină pe care doriți să o efectuați cu Aspose.Words implică încărcarea unui document. Clasa `Document` reprezintă un document încărcat în memorie. Documentul are mai mulți constructori supraîncărcați, permițându-vă să creați un document gol sau să îl încărcați dintr-un fișier sau flux. Documentul poate fi încărcat în orice format de încărcare acceptat de Aspose.Words. Pentru lista tuturor formatelor de încărcare acceptate, consultați enumerarea [LoadFormat](https://reference.aspose.com/words/cpp/aspose.words/loadformat/).

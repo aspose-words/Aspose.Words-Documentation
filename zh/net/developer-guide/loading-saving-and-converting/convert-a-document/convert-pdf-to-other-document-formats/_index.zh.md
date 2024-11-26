@@ -8,6 +8,7 @@ description: "使用 C# 将 PDF 转换为 Word 格式（例如 DOCX、DOC）、�
 keywords: convert pdf to other formats c#
 weight: 45
 url: /zh/net/convert-pdf-to-other-document-formats/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Aspose.Words 甚至可以加载 PDF 等复杂格式。这开辟了新的机会：可以将 PDF 转换为 Word 或其他格式，从而使用户在解决许多应用问题方面遥遥领先。

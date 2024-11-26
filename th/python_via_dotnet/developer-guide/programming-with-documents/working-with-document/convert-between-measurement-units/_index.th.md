@@ -7,6 +7,7 @@ description: "Aspose.Words สำหรับ Python via .NET สามารถ
 type: docs
 weight: 20
 url: /th/python-net/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 คุณสมบัติวัตถุส่วนใหญ่ที่ให้ไว้ใน Aspose.Words API ที่แสดงการวัดบางอย่าง เช่น ความกว้างหรือความสูง ระยะขอบ และระยะทางต่างๆ ยอมรับค่าเป็นจุด โดยที่ 1 นิ้วเท่ากับ 72 จุด บางครั้งไม่สะดวกและต้องแปลงคะแนนเป็นหน่วยอื่น

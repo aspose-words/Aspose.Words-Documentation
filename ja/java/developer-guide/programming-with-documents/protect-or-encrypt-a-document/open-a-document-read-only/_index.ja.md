@@ -1,67 +1,68 @@
----
-title: ドキュメントの読み取り専用を開く Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: ドキュメント読み取り専用を開く
-linktitle: ドキュメント読み取り専用を開く
-description: "コンテンツがコピーまたは読み取れることができるように、ドキュメントを読み取り専用にしますが、使用して変更することはできません Javaお問い合わせ"
+﻿---
+title: Javaで読み取り専用の文書を開く
+second_title: Aspose.WordsのためのJava
+articleTitle: ドキュメントを読み取り専用で開く
+linktitle: ドキュメントを読み取り専用で開く
+description: "ドキュメントを読み取り専用にして、コンテンツをコピーまたは読み取ることができますが、Javaを使用して変更しないようにします。"
 type: docs
 weight: 10
 url: /ja/java/open-a-document-read-only/
+timestamp: 2024-01-27-14-07-04
 ---
 
-時々、レビューが必要な文書がある場合がありますが、レビュー担当者がコンテンツをランダムに変更する必要はありません。 Aspose.Words コンテンツがコピーまたは読み取れることができるように、ドキュメントの読み取り専用の許可を作成することができますが、変更することはできません。 これにより、コンテンツが削除されるか、文書に追加されるのを防ぐことができます。
+場合によっては、レビューが必要なドキュメントがありますが、レビュー担当者がコンテンツをランダムに変更しないようにすることがあります。 Aspose.Wordsドキュメントのアクセス許可を読み取り専用にすることで、コンテンツをコピーまたは読み取りできますが、変更はできません。Aspose.Wordsを使用すると、ドキ これにより、コンテンツが削除されたり、ドキュメントに追加されたりするのを防ぐことができます。
 
 {{% alert color="primary" %}}
 
-ドキュメントに読み取り専用のオプションを適用しても、新しいコピーを作成して別の名前で保存することを防ぐことはできません。
+ドキュメントに読み取り専用オプションを適用しても、誰かが新しいコピーを作成して別の名前で保存することはできません。
 
 {{% /alert %}}
 
-この記事では、ドキュメントの読み込み専用を作成する方法について説明します。
+この記事では、ドキュメントを読み取り専用にする方法について説明します。
 
 ## ドキュメントを読み取り専用にする
 
-Aspose.Words パブリッククラス [WriteProtection](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/) 文書の書き込み保護設定を指定します。 このクラスのインスタンスを直接作成しません。
+Aspose.Wordsには、文書の書き込み保護設定を指定するパブリッククラス[WriteProtection](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/)があります。 このクラスのインスタンスは直接作成しません。
 
-保護書は、著者が文書を読み取り専用として開封することを推奨しているか、文書を修正するためにパスワードを必要とするかを示します。
+書き込み保護は、作成者が文書を読み取り専用として開くことを推奨しているか、文書を変更するためにパスワードを必要としているかを示します。
 
-Aspose.Words ドキュメントを読み取り専用にすることで編集を制限することができます [ReadOnlyRecommended](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/#getReadOnlyRecommended) プロパティとプロパティ [SetPassword](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/#setPassword-java.lang.String) メソッド。
+Aspose.Wordsは、[ReadOnlyRecommended](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/#getReadOnlyRecommended)プロパティと[SetPassword](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/#setPassword-java.lang.String)メソッドを使用して、編集を制限するために文書を読み取り専用にすることができます。
 
 {{% alert color="primary" %}}
 
-インスタグラム Microsoft Word, 両方の方法でRead-Onlyドキュメントを作成できます。
+Microsoft Wordでは、両方を使用して同様の方法で読み取り専用ドキュメントを作成できます:
 
-* ※「常に読み取り専用」(ファイル→情報→ドキュメントの保護)
-*「変更するパスワード」(→ツール→一般オプション→パスワードとして保存)
+* 「常に読み取り専用で開く」（ファイル→情報→文書の保護）
+* "変更するパスワード"（名前を付けて保存→ツール→一般オプション→パスワード）
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-ユーザーが選択して文書編集を制限することもできます [ProtectionType](https://reference.aspose.com/words/java/com.aspose.words/protectiontype/) として **ReadOnly**, しかし、これはより高度な保護機能を提供する別の機能です。 こんな機能があります Microsoft Word, それぞれに実装されている Aspose.Wordsお問い合わせ
+ユーザーは[ProtectionType](https://reference.aspose.com/words/java/com.aspose.words/protectiontype/)を**ReadOnly**として選択することで文書の編集を制限することもできますが、これはより高度な保護機能を提供する別の機能です。 それぞれMicrosoft Wordにはそのような関数があり、Aspose.Wordsに実装されています。
 
-**ProtectionType** 次の記事の1つに「ドキュメントの編集を制限する」と記載します。
+**ProtectionType**
 
 {{% /alert %}}
 
-ザ・オブ・ザ・ **ReadOnlyRecommended** プロパティはパスワードで保護されますので、申請する前にパスワードを設定しない場合 **ReadOnlyRecommended** プロパティは、保護されていないかのように、他のユーザーは単に文書を開くことができます。 ドキュメント保護設定にアクセスし、書き込み保護パスワードを設定 **SetPassword** メソッド。
+**ReadOnlyRecommended**プロパティはパスワードで保護されているため、**ReadOnlyRecommended**プロパティを適用する前にパスワードを設定しないと、他のユーザーは保護されていないかのように 文書保護設定にアクセスし、書き込み保護パスワードを設定するには、**SetPassword**メソッドを使用します。
 
 {{% alert color="primary" %}}
 
-パスワードが設定されているのは、ドキュメントプロパティがアクセスされている場合に削除できるドキュメントのプロパティだけです。 したがって、そのようなパスワードは文書のセキュリティの保証ではありません。
+設定されているパスワードは、ドキュメントのプロパティにアクセスした場合に削除できるドキュメント内のプロパティにすぎないことに注意してください。 したがって、そのようなパスワードは文書のセキュリティを保証するものではありません。
 
 {{% /alert %}}
 
-ドキュメントが編集から制限する書き込み保護パスワードを持っているかどうかをチェックする必要がある場合は、 [IsWriteProtected](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/#isWriteProtected) プロパティ.
+文書が編集を制限する書き込み保護パスワードを持っているかどうかを確認する必要がある場合は、[IsWriteProtected](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/#isWriteProtected)プロパティを使用できます。
 
-次のコードの例では、ドキュメントの読み込み専用を作成する方法を示します。
+次のコード例は、ドキュメントを読み取り専用にする方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-ReadOnlyProtection.java" >}}
 
-## 読み取り制限を解除
+## 読み取り専用の制限を削除する
 
-ユーザーがドキュメントを読み取り専用として開いたくない場合は、単に設定できます。 **ReadOnlyRecommened** プロパティ *false* または選択 **ProtectionType** として **NoProtection**お問い合わせ
+ユーザーがドキュメントを読み取り専用として開かないようにするには、**ReadOnlyRecommened**プロパティを*false*に設定するか、**ProtectionType**を**NoProtection**として選択します。
 
-次のコードの例では、ドキュメントの読み取り専用のアクセスを削除する方法を示します。
+次のコード例は、ドキュメントの読み取り専用アクセスを削除する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-RemoveReadOnlyRestriction.java" >}}

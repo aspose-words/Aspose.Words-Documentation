@@ -7,6 +7,7 @@ description: "Aspose.Words untuk Python via .NET dapat menyematkan font TrueType
 type: docs
 weight: 10
 url: /id/python-net/manipulating-and-substitution-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words memerlukan font TrueType untuk berbagai tugas, termasuk merender dokumen ke format halaman tetap, misalnya PDF atau XPS. Saat Aspose.Words merender dokumen, Aspose.Words perlu melakukan penyematan dan penyematan subset font TrueType ke dalam dokumen yang dihasilkan, yang merupakan praktik normal selama pembuatan dokumen, termasuk format PDF atau XPS yang populer. Hal ini memastikan bahwa dokumen akan tampak sama bagi siapa pun yang melihatnya. Selain itu, spesifikasi XPS mengharuskan font untuk selalu disematkan pada dokumen.
@@ -58,7 +59,7 @@ Namun, ada situasi ketika font yang tepat tidak dapat ditemukan dan Aspose.Words
 1. Jika Aspose.Words tidak dapat menemukan font yang diperlukan dengan nama yang sama persis, dan properti [alt_name](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/alt_name/) yang ditentukan untuk font ini, maka Aspose.Words akan menemukan font yang ditentukan dengan [alt_name](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/alt_name/) dari kelas [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/), yang menentukan informasi font.
 1. Jika Aspose.Words tidak dapat menemukan font yang ditentukan, dan [alt_name](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/alt_name/) juga tidak ditentukan, maka aturan penggantian font diterapkan satu per satu, seperti dijelaskan di bawah (bila pengganti yang sesuai ditemukan, Proses Substitusi Font berhenti dan langkah selanjutnya tidak dijalankan):
    1. Pertama, Aspose.Words mencoba memproses nama font untuk mendapatkan substitusi, khususnya mencoba menghilangkan sufiks dengan pemisah "-" dan ",".<br>
-      Jika aturan substitusi ini diterapkan, "Font '&lt;OriginalFont&gt;' tidak ditemukan. Sebagai gantinya menggunakan font '&lt;SubstitutionFont&gt;'. Alasan: penggantian nama font." peringatan muncul.<br>
+      Jika aturan substitusi ini diterapkan, "Font '<OriginalFont>' tidak ditemukan. Sebagai gantinya menggunakan font '<SubstitutionFont>'. Alasan: penggantian nama font." peringatan muncul.<br>
    1. Kemudian Aspose.Words mencoba menerapkan pengaturan font OS, jika tersedia, dengan menggunakan utilitas **FontConfig**. Fitur Non-Windows ini harus digunakan dengan OS yang kompatibel dengan FontConfig. Hampir semua OS berbasis Unix sudah memiliki perpustakaan `FontConfig` yang dirancang untuk menyediakan konfigurasi font, penyesuaian, dan akses ke aplikasi di seluruh sistem. Jika tidak, perpustakaan ini dapat dengan mudah diinstal oleh pengguna.
       Aspose.Words mengetahui cara menanyakan data dan menafsirkan hasil FontConfig untuk tujuannya sendiri. Secara default, utilitas `FontConfig` dinonaktifkan. Anda dapat mengaktifkannya sebagai berikut:<br>
 {{< highlight python >}}

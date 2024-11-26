@@ -1,37 +1,38 @@
----
-title: Cómo añadir Group Forma en un documento de Word
-second_title: Aspose.Words para Java
-articleTitle: Trabajando con Group Formas en documentos de palabras
-linktitle: Trabajando con Group Formas en documentos de palabras
-description: "Groupformas de ing y sin agrupación usando Java."
+﻿---
+title: Cómo Agregar Group Shape a un documento de Word
+second_title: Aspose.Words por Java
+articleTitle: Trabajar con Group Shapes en Documentos de Word
+linktitle: Trabajar con Group Shapes en Documentos de Word
+description: "Agrupar y desagrupar formas usando Java."
 type: docs
 weight: 290
 url: /es/java/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
-A veces necesitas añadir un group shape en un documento de Word. Tal group shape consiste en múltiples formas
+A veces es necesario agregar un group shape en un documento de Word. Tal group shape consta de múltiples formas.
 
-In Microsoft Word, puede agregar rápidamente group shape usando el Group comando/button. Las formas individuales en un grupo se pueden mover por separado.
+En Microsoft Word, puede agregar rápidamente un group shape usando el comando/botón de Grupo. Las formas individuales de un grupo se pueden mover por separado.
 
-In Aspose.Words es muy fácil añadir un group shape utilizando [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) clase. **Shape** se crea por separado [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) clase y luego agregado [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) objeto utilizando [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/groupshape/#appendChild-com.aspose.words.Node) método.
+En Aspose.Words es muy fácil agregar un group shape usando la clase [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/). **Shape** se crea por separado usando la clase [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) y luego se agrega en el objeto [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) usando el método [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/groupshape/#appendChild-com.aspose.words.Node).
 
-A continuación, algunos de los `Shape` tipos apoyados en Aspose.Words. Para lista completa, visite [ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/):
+A continuación se muestran algunos de los `Shape` tipos admitidos en Aspose.Words. Para ver la lista completa, visite [ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/):
 
 - Rectángulo
 - RoundRectangle
 - RoundRectangle
-- Ellipse
+- Elipse
 - Diamante
 - Triángulo
-- RightTriángulo
-- Parallelograma
-- Trapezoide
-- Hexagon
-- Octagon
+- RightTriangle
+- Paralelogramo
+- Trapecio
+- Hexágono
+- Octágono
 
-**Example**
+**Ejemplo**
 
-*Add a group shape en un documento de Word. *
+*Add a group shape into a Word document.*
 
 
 {{< highlight csharp >}}

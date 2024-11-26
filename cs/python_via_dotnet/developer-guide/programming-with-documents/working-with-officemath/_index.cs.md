@@ -7,6 +7,7 @@ description: "Vytvořit a spravovat objekty typu OfficeMath v dokumentu pomocí 
 type: docs
 weight: 320
 url: /cs/python-net/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Nyní je ještě pohodlnější pracovat s OfficeMath Type Objekty. In Aspose.Words, zákazník může snadno Justify a může také zvládnout, zda je rovnice zobrazena inline nebo v samostatném řádku. Více tak, s dostupností [MathObjectType](https://reference.aspose.com/words/python-net/aspose.words.math/mathobjecttype/); užitečné ovládání lze implementovat pomocí tohoto maticového objektu.

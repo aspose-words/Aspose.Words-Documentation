@@ -7,6 +7,7 @@ description: "Hoe voetnoten en eindnoten te manipuleren met behulp van C#."
 type: docs
 weight: 160
 url: /nl/net/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words bevat ook enkele klassen, methoden en eigenschappen voor het werken met voetnoten en eindnoten.

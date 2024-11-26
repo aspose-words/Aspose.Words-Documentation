@@ -1,36 +1,37 @@
----
-title: الرسم البياني الآسيوي Java
-second_title: Aspose.Words for Java
-articleTitle: العمل مع رسم الخرائط الآسيوية
-linktitle: العمل مع رسم الخرائط الآسيوية
-description: "العمل مع الطب الشرعي الآسيوي باستخدام Java. الفضاء العادل بين النصين الآسيوي واللاتيني Java."
+﻿---
+title: الطباعة الآسيوية في Java
+second_title: Aspose.Words ل Java
+articleTitle: العمل مع الطباعة الآسيوية
+linktitle: العمل مع الطباعة الآسيوية
+description: "العمل مع الطباعة الآسيوية باستخدام Java. ضبط المسافة بين النص الآسيوي واللاتيني في Java."
 type: docs
 weight: 240
 url: /ar/java/working-with-asian-typography/
+timestamp: 2024-01-27-14-07-04
 ---
 
-والرسم البياني الآسيوي هو مجموعة من الخيارات المتعلقة بفقرات النصوص في الوثائق المكتوبة باللغات الآسيوية.
+الطباعة الآسيوية هي مجموعة من الخيارات للفقرات النصية في المستندات المكتوبة باللغات الآسيوية.
 
-Aspose.Words Support Asian Typography using the [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat/) الطبقة وبعض ممتلكاتها
+Aspose.Words يدعم الطباعة الآسيوية باستخدام فئة [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat/) وبعض خصائصها.
 
-## الفضاء التلقائي بين النص أو الأرقام الآسيوية واللاتينية
+## ضبط المسافة تلقائيا بين النص أو الأرقام الآسيوية واللاتينية
 
-إذا كنت تصمم نموذجا مع كل من شرق آسيا واللاتينية وترغب في تعزيز مظهر نموذج الشكل الخاص بك عن طريق التحكم في الأماكن بين كلا النوعين من النص، يمكنك أن ترسم نموذجا لشكلك لكي تعدل تلقائيا الأماكن بين هذين النوعين من النص. لتحقيق هذا، يمكنك استخدام [AddSpaceBetweenFarEastAndAlpha](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#getAddSpaceBetweenFarEastAndAlpha) و [AddSpaceBetweenFarEastAndDigit](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#getAddSpaceBetweenFarEastAndDigit) ممتلكات `ParagraphFormat` الصف
+إذا كنت تقوم بتصميم قالب مع كل من نص شرق آسيا واللاتينية وترغب في تحسين مظهر قالب النموذج الخاص بك عن طريق التحكم في المسافات بين كلا النوعين من النص، يمكنك تكوين قالب النموذج الخاص بك لضبط المسافات بين هذين النوعين من النص تلقائيا. لتحقيق ذلك، يمكنك استخدام خصائص [AddSpaceBetweenFarEastAndAlpha](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#getAddSpaceBetweenFarEastAndAlpha) و [AddSpaceBetweenFarEastAndDigit](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#getAddSpaceBetweenFarEastAndDigit) لفئة `ParagraphFormat`.
 
-The following code example shows how to use **AddSpaceBetweenFarEastAndAlpha** و **AddSpaceBetweenFarEastAndDigit** الممتلكات:
+يوضح مثال الكود التالي كيفية استخدام خصائص **AddSpaceBetweenFarEastAndAlpha** و **AddSpaceBetweenFarEastAndDigit**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderSetSpaceBetweenAsianAndLatinText.java" >}}
 
-## مجموعة الخيارات
+## تعيين خيارات فاصل الأسطر
 
-الجدول البياني الآسيوي للرقم القياسي في الفقرة Microsoft Word لديه مجموعة إستراحة ويمكن تحديد خيارات هذه المجموعة باستخدام [FarEastLineBreakControl](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#getFarEastLineBreakControl), [WordWrap](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#getWordWrap), [HangingPunctuation](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#getHangingPunctuation) ممتلكات **ParagraphFormat** الصف
+علامة التبويب الطباعة الآسيوية من مربع الحوار خصائص الفقرة في Microsoft Word لديها مجموعة فاصل الأسطر. يمكن تعيين خيارات هذه المجموعة باستخدام [FarEastLineBreakControl](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#getFarEastLineBreakControl), [WordWrap](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#getWordWrap), [HangingPunctuation](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#getHangingPunctuation) خصائص فئة **ParagraphFormat**.
 
-ويبين المثال الرمزي التالي كيفية استخدام هذه الممتلكات:
+يوضح مثال التعليمات البرمجية التالية كيفية استخدام هذه الخصائص:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-SetAsianTypographyLinebreakGroupProp.java" >}}
 
-## تغيير الفقرة الآسيوية
+## تغيير تباعد الفقرات الآسيوية والمسافات البادئة
 
-ويبيّن المثال الرمزي التالي كيف يغيّر المباعدة بين فترات المباعدة والحوادث الآسيوية:
+يوضح مثال الكود التالي كيفية تغيير تباعد الفقرات الآسيوية والمسافات البادئة:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-ChangeAsianParagraphSpacingandIndents.java" >}}

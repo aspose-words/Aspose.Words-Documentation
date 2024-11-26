@@ -1,4 +1,4 @@
-﻿---
+---
 title: Extract Content in Python
 second_title: Aspose.Words for Java
 articleTitle: Extract Content in Python
@@ -7,6 +7,7 @@ description: "Extract Document's Content using Python."
 type: docs
 weight: 50
 url: /java/extract-content-in-python/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Extract Content

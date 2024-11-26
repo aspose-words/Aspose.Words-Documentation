@@ -7,6 +7,7 @@ description: "Zrozumienie koncepcji zakładek i jak zakładki mogą być używan
 type: docs
 weight: 180
 url: /pl/java/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Zakładki identyfikują się w Microsoft Word dokumentuj miejsca lub fragmenty, które wymieniasz i identyfikujesz dla przyszłych odniesień. Na przykład, możesz użyć zakładki do identyfikacji tekstu, który chcesz zmienić później. Zamiast przewijania dokumentu w celu zlokalizowania tekstu, możesz do niego przejść używając okna dialogowego zakładki.

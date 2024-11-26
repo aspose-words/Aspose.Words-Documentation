@@ -7,6 +7,7 @@ description: "將文件合並至一個檔案中：透過尋找與替換、合併
 type: docs
 weight: 80
 url: /zh-hant/net/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有時需要將多個文件合併為一個。 您可以手動完成此操作，或使用 Aspose.Words 插入或附加功能。
@@ -49,7 +50,7 @@ url: /zh-hant/net/insert-and-append-documents/
 
 ### 在 Mail Merge 操作中插入文件 {#insert-a-document-during-mail-merge-operation}
 
-您可以在 mail merge 操作期間將一份文件插入到一個合并欄位中。 例如，一個 mail merge 模板可以包含像 [總結] 這樣的合併欄位。 但在最終的文件中，您需要將從另一份外部文件中取得的內容插入此合併欄位。 達到這個目標，您將需要為合併事件建立一個處理器。
+您可以在 Mail Merge 操作期間將一份文件插入到一個合并欄位中。 例如，一個 Mail Merge 模板可以包含像 [總結] 這樣的合併欄位。 但在最終的文件中，您需要將從另一份外部文件中取得的內容插入此合併欄位。 達到這個目標，您將需要為合併事件建立一個處理器。
 
 以下程式碼範例示範了如何建立併合事件處理常式，以便稍後在插入過程中使用：
 

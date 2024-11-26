@@ -7,6 +7,7 @@ description: "Inserte notas al pie o al final en un documento y especifique sus 
 type: docs
 weight: 160
 url: /es/python-net/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words también proporciona algunas clases, métodos y propiedades para trabajar con notas al pie y notas al final.

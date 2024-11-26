@@ -1,4 +1,4 @@
-﻿---
+---
 title: Opțiuni și aspect document Word
 second_title: Aspose.Words pentru Python
 articleTitle: Lucrați cu opțiuni și aspectul documentelor Word
@@ -7,6 +7,7 @@ description: "Controlați aspectul documentelor Word ținând cont de diferența
 type: docs
 weight: 40
 url: /ro/python-net/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uneori poate fi necesar să modificați aspectul unui document, de exemplu, să setați preferințele de limbă sau numărul de linii pe pagină.Aspose.Words oferă posibilitatea de a controla modul în care va fi afișat documentul, precum și câteva opțiuni suplimentare. Acest articol descrie astfel de posibilități.

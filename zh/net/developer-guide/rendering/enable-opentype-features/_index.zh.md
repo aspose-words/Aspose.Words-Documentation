@@ -7,6 +7,7 @@ description: "使用 C# 的高级排版功能。"
 type: docs
 weight: 25
 url: /zh/net/enable-opentype-features/
+timestamp: 2024-07-10-14-38-57
 ---
 
 OpenType 是一种字体格式，旨在为国际语言和书写系统提供比 PostScript 和 TrueType 更好的支持。 OpenType 的布局功能通常称为 OpenType 功能。 Aspose.Words.Shaping.HarfBuzz 包使用 HarfBuzz 文本整形引擎为 Aspose.Words 中的 OpenType 功能提供支持。

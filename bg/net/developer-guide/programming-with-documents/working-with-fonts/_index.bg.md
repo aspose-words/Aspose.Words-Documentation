@@ -7,6 +7,7 @@ description: "Форматиране на шрифта в детайли, изп
 type: docs
 weight: 230
 url: /bg/net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Шрифт е набор от символи с определен размер, цвят и дизайн. Aspose.Words ви позволява да работите с шрифтове с помощта на [Fonts](https://reference.aspose.com/words/net/aspose.words.fonts/) пространство за име и [Font](https://reference.aspose.com/words/net/aspose.words/font/) Клас.

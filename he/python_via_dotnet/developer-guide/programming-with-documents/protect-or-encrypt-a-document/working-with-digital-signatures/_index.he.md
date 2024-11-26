@@ -7,6 +7,7 @@ description: "באופן דיגיטלי לחתום על מסמכים וזיהו�
 type: docs
 weight: 40
 url: /he/python-net/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 חתימה דיגיטלית משמשת כדי לאמת מסמך כדי לקבוע כי השולח של המסמך הוא מי הם אומרים שהם ואת התוכן של המסמך לא נחטף.

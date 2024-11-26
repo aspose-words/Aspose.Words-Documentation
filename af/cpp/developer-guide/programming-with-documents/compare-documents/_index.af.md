@@ -1,4 +1,4 @@
-﻿---
+---
 title: Vergelyk Dokumente in C++
 second_title: Aspose.Words vir C++
 articleTitle: Vergelyk Dokumente
@@ -7,6 +7,7 @@ type: docs
 description: "Vergelyk twee dokumente in enige ondersteun formate en toon inhoud veranderinge met behulp van C++. U kan gevorderde opsies toepas wanneer u vergelyk."
 weight: 60
 url: /af/cpp/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Die vergelyking van dokumente is'n proses wat veranderinge tussen twee dokumente identifiseer en die veranderinge as hersienings bevat. Hierdie proses vergelyk enige twee dokumente, insluitend weergawes van een spesifieke dokument, dan sal die veranderinge tussen beide dokumente as hersienings in die eerste dokument vertoon word.

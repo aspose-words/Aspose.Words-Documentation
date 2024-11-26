@@ -7,6 +7,7 @@ description: "Aspose.Words for Python via .NET는 단순한 문서 변환 및 �
 type: docs
 weight: 30
 url: /ko/python-net/features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words는 사용자에게 다양한 기능을 제공합니다. 사용자는 단순히 문서를 지원되는 형식에서 다른 형식으로 변환하고 변환 프로세스 중에 해당 문서를 수정하는 것부터 체계적이고 시각적으로 매력적인 문서 생성 또는 보고 자동화와 같은 비즈니스 작업에 이르기까지 엄청난 양의 문서 관련 작업을 수행할 수 있습니다.
@@ -108,16 +109,16 @@ Aspose.Words를 자체적으로 보고 솔루션으로 사용할 수 있습니�
 
 |  특징 | Python via .NET |
 |  :-  |  :-  |
-| `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE을 포함한 모든 표준 Microsoft Word mail merge 필드를 보고서에 사용하세요. | {{< emoticons/tick >}} |
+| `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE을 포함한 모든 표준 Microsoft Word Mail Merge 필드를 보고서에 사용하세요. | {{< emoticons/tick >}} |
 | 가장 복잡하고 중첩된 `IF` 필드와 수식이 포함된 문서에 대해 mail merge를 실행하세요. | {{< emoticons/tick >}} |
-| mail merge 영역을 사용하여 데이터 소스에서 문서의 테이블이나 조각을 채우고 동적으로 확장합니다. | {{< emoticons/cross >}} |
+| Mail Merge 영역을 사용하여 데이터 소스에서 문서의 테이블이나 조각을 채우고 동적으로 확장합니다. | {{< emoticons/cross >}} |
 | Order/OrderDetails와 같은 마스터-세부 사항(상위-하위) 데이터가 포함된 보고서를 쉽게 생성할 수 있습니다. | {{< emoticons/cross >}} |
 | DataSet, DataTable, DataView, DataReader 또는 ADO Recordset과 같은 .NET 데이터 소스의 데이터로 문서를 채웁니다. | {{< emoticons/cross >}} |
 | [IMailMergeDataSource](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/imailmergedatasource/) 인터페이스를 구현하여 LINQ 쿼리, XML 파일 또는 비즈니스 개체와 같은 모든 데이터 소스에서 문서를 채웁니다. | {{< emoticons/cross >}} |
 | 이벤트를 사용하여 데이터가 병합되는 방식을 숫자 형식과 같이 정밀하게 제어하세요. | {{< emoticons/cross >}} |
-| mail merge 중에 이미지를 삽입합니다. | {{< emoticons/tick >}} |
-| 문서의 Microsoft Word mail merge 데이터 소스를 프로그래밍 방식으로 생성하거나 수정합니다. mail merge 설정 및 데이터 소스를 보존합니다. | {{< emoticons/tick >}} |
-| mail merge 필드 이름을 검색합니다. | {{< emoticons/tick >}} |
+| Mail Merge 중에 이미지를 삽입합니다. | {{< emoticons/tick >}} |
+| 문서의 Microsoft Word Mail Merge 데이터 소스를 프로그래밍 방식으로 생성하거나 수정합니다. Mail Merge 설정 및 데이터 소스를 보존합니다. | {{< emoticons/tick >}} |
+| Mail Merge 필드 이름을 검색합니다. | {{< emoticons/tick >}} |
 
 ## 보고 기능
 

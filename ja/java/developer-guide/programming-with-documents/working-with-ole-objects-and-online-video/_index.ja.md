@@ -1,74 +1,75 @@
----
-title: Ole オブジェクトを扱う
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: Ole オブジェクトを扱う
-linktitle: Ole オブジェクトを扱う
-description: "ドキュメントで埋め込む OLE の作成と変更 Javaお問い合わせ"
+﻿---
+title: Oleオブジェクトの操作
+second_title: Aspose.WordsのためのJava
+articleTitle: Oleオブジェクトの操作
+linktitle: Oleオブジェクトの操作
+description: "Javaを使用して文書へのOLE埋め込みを作成および変更します。"
 type: docs
 weight: 360
 url: /ja/java/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
-OLEは「オブジェクトリンクとエンベディング」を意味します。 これは、ユーザーがサードパーティのアプリケーションによって作成または編集された「オブジェクト」を含む文書を扱うことができる技術です。 つまり、OLE では、この "objects" を別のアプリケーションにエクスポートし、追加コンテンツにインポートすることができます。
+OLEは"オブジェクトのリンクと埋め込み"を表します。 これは、ユーザーがサードパーティのアプリケーションによって作成または編集された「オブジェクト」を含むドキュメントを操作できるテクノロジです。 つまり、OLEを使用すると、アプリケーションはこれらの"オブジェクト"を別のアプリケーションにエクスポートして編集し、追加のコンテンツと一緒にイン
 
-この記事では、OLEオブジェクトをインサートし、そのプロパティをドキュメントに設定することについて説明します。
+この記事では、OLEオブジェクトを挿入し、そのプロパティをドキュメントに設定する方法について説明します。
 
-## インサート Ole オブジェクト
+## Oleオブジェクトを挿入
 
-OLE オブジェクトが必要な場合は、 [InsertOleObject](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOleObject-java.io.InputStream-java.lang.String-boolean-java.io.InputStream) メソッドを渡すと、 **ProgId** 他のパラメータで明示的に。
+OLEオブジェクトが必要な場合は、[InsertOleObject](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOleObject-java.io.InputStream-java.lang.String-boolean-java.io.InputStream)メソッドを呼び出し、他のパラメータで明示的に**ProgId**を渡します。
 
-次のコードの例では、OLE をインサートする方法を示します。 ドキュメントへのオブジェクト:
+次のコード例は、OLEオブジェクトをドキュメントに挿入する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertOleObject-DocumentBuilderInsertOleObject.java" >}}
 
-### OLEオブジェクトをインサートするときにファイル名と拡張子を設定します
+### OLEオブジェクトを挿入するときにファイル名と拡張子を設定する
 
-OLEパッケージは、OLEハンドラが不明な場合、埋め込まれたオブジェクトを格納するレガシーで「unocumented」方法です。
+OLEパッケージは、OLEハンドラが不明な場合に埋め込まれたオブジェクトを格納するためのレガシーで"文書化されていない"方法です。
 
-早割 Windows などのバージョン Windows 3.1、95、98 は Packager を持っていた。 あらゆる種類のデータを文書に埋め込むために使用できるアプリケーションを実行します。 このアプリケーションは、今から除外されます Windows, しかし Microsoft Word OLEハンドラが欠落しているか、不明な場合は、他のアプリケーションでもデータを埋め込むために使用されます。 ザ・オブ・ザ・ `OlePackage` ユーザーは OLE Package プロパティにアクセスすることができます。
+Windows 3.1、95、98などの初期のWindowsバージョンには、任意のタイプのデータをドキュメントに埋め込むために使用できるPackager.exeアプリケーションがありました。 このアプリケーションはWindowsから除外されましたが、Microsoft Wordや他のアプリケーションはOLEハンドラーがないか不明な場合でもデータを埋め込むために使用します。 `OlePackage`クラスを使用すると、ユーザーはOLE Packageプロパティにアクセスできます。
 
-次のコードの例では、 OLE Package のファイル名、拡張子、表示名を設定する方法を示します。
+次のコード例は、OLE Packageのファイル名、拡張子、および表示名を設定する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertElements-InsertOleObjectwithOlePackage.java" >}}
 
-### OLE オブジェクトの未加工データにアクセスする
+### OLEオブジェクトの生データへのアクセスを取得する
 
-ユーザーは、さまざまなプロパティとメソッドを使用して OLE オブジェクトのデータにアクセスすることができます。 `OleFormat` クラス。 例えば、 `OLE` オブジェクトの生データまたはリンクされた OLE オブジェクトのソースファイルのパスと名前。
+ユーザーは`OleFormat`クラスのさまざまなプロパティとメソッドを使用してOLEオブジェクトデータにアクセスできます。 たとえば、`OLE`オブジェクトの生データ、またはリンクされたOLEオブジェクトのソースファイルのパスと名前を取得することができます。
 
-次のコードの例では、OLEを取得する方法を示します オブジェクトの生データを使用して [GetRawData](https://reference.aspose.com/words/java/com.aspose.words/oleformat/#getRawData) メソッド:
+次のコード例は、[GetRawData](https://reference.aspose.com/words/java/com.aspose.words/oleformat/#getRawData)メソッドを使用してOLEオブジェクトの生データを取得する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertElements-GetAccessToOLEObjectRawData.java" >}}
 
-### インサート OLE Iconとしてのオブジェクト
+### OLEオブジェクトをアイコンとして挿入する
 
-OLEオブジェクトは、画像として文書に挿すこともできます。
+OLEオブジェクトは画像として文書に挿入することもできます。
 
-以下のコード例では、OLE Object をアイコンとしてインサートする方法を示します。 この目的のために、 **DocumentBuilder** クラスは [InsertOleObjectAsIcon](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOleObjectAsIcon-java.io.InputStream-java.lang.String-java.lang.String-java.lang.String) メソッド。
+次のコード例は、OLEオブジェクトをアイコンとして挿入する方法を示しています。 この目的のために、**DocumentBuilder**クラスは[InsertOleObjectAsIcon](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOleObjectAsIcon-java.io.InputStream-java.lang.String-java.lang.String-java.lang.String)メソッドを公開します。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-InsertOLEObjectAsIcon.java" >}}
 
-次のコードの例では、埋め込まれた OLE オブジェクトをストリームからドキュメントに差し込む方法を示します。
+次のコード例は、埋め込みOLEオブジェクトをストリームからドキュメントにアイコンとして挿入する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-InsertOLEObjectAsIconUsingStream.java" >}}
 
-## インサートオンラインビデオ
+## 挿入オンラインビデオ
 
-オンライン動画は、*「インサート」>「オンライン動画」*タブからWord文書に差し込むことができます。 オンラインビデオを現在の場所にあるドキュメントに電話をかけることで、 [InsertOnlineVideo](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOnlineVideo-java.lang.String-double-double) メソッド:
+オンラインビデオは、*"Insert" > "Online Video"*タブからWord文書に挿入できます。 [InsertOnlineVideo](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOnlineVideo-java.lang.String-double-double)メソッドを呼び出すことで、現在の場所にあるドキュメントにオンラインビデオを挿入できます:
 
-ザ・オブ・ザ・ [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) このメソッドの4つのオーバーロードを紹介します。 最も人気のあるビデオリソースで最初の1作品は、 `URL` パラメータとしてビデオの。 例えば、最初のオーバーロードは、オンライン動画の簡単なインサートをサポートしています。 [ツイート](https://www.youtube.com/) そして、 [ヴィメオ](https://vimeo.com/) リソース。
+[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)クラスには、このメソッドの4つのオーバーロードが導入されています。 最初のものは最も人気のあるビデオリソースで動作し、ビデオの`URL`をパラメータとして取ります。 例えば、最初の過負荷は、オンラインビデオの簡単な挿入をサポートしています [YouTube](https://www.youtube.com/) と [Vimeo](https://vimeo.com/) リソース。
 
-次のコードの例では、オンライン動画をインサートする方法を示します。 *Vimeo* ドキュメントへ:
+次のコード例は、*Vimeo*のオンラインビデオをドキュメントに挿入する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Video-InsertOnlineVideo-InsertOnlineVideo.java" >}}
 
-2つ目のオーバーロードは、他のすべてのビデオリソースと連携し、埋め込まれたHTMLコードをパラメーターとして処理します。 動画を埋め込むためのHTMLコードは、プロバイダによって異なる場合がありますので、それぞれのプロバイダに詳細についてはお問い合わせください。
+2番目のオーバーロードは、他のすべてのビデオリソースで動作し、埋め込みHTMLコードをパラメータとして受け取ります。 ビデオを埋め込むためのHTMLコードはプロバイダーによって異なる場合がありますので、詳細については各プロバイダーにお問い合わせください。
 
 {{% alert color="primary" %}}
 
-なお、MS Word 2013 では、動画をご覧いただけます。
+ドキュメントは自動的にビデオを表示するためにMSWord2013用に最適化されることに注意してください。
 
 {{% /alert %}}
 
-次のコードの例では、このようなHTMLコードを使用して、オンラインビデオを文書に書き込む方法を示します。
+次のコード例は、このようなHTMLコードを使用してオンラインビデオをドキュメントに挿入する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Video-InsertOnlineVideo-InsertOnlineVideoWithEmbedHtml.java" >}}

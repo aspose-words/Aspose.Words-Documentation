@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit SmartArt Kaltrendern in C++
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit SmartArt Kaltrendern
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words für C++ führt SmartArt -Kaltrendering durch, was bedeutet, dass SmartArt -Objekte angelegt und gerendert werden, wenn die vorgerenderte SmartArt -Zeichnung fehlt oder falsch ist."
 weight: 330
 url: /de/cpp/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 SmartArt Grafiken werden verwendet, um schnell und einfach eine visuelle Darstellung von Informationen zu erstellen. Sie wählen einfach aus einer Vielzahl von Layouts, die am besten zu Ihrer Situation passen. Diese Benutzerfreundlichkeit macht SmartArt -Grafiken für einige Zwecke sehr beliebt.

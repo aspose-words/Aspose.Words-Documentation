@@ -7,6 +7,7 @@ description: "Remove page breaks from a document easily and fast instead of usin
 type: docs
 weight: 160
 url: /net/remove-page-breaks-from-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 On this page we will look at how to remove page breaks from a document using Aspose.Words or Open XML SDK.

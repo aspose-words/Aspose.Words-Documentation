@@ -7,6 +7,7 @@ description: "以 C# 将一份文件轉換為多頁的 TIFF。 要決定文件�
 type: docs
 weight: 30
 url: /zh-hant/net/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-07-10-14-38-57
 ---
 
 在處理文件時，你常常需要將你的文書轉換成一張或多張位圖檔案。 這尤其重要，如果你必須以可讀性與可列印但不是可編輯的格式來呈現你的文件。 舉例來說，您可以將文件第一頁的Raster圖像用作預覽。 這篇文章描述了如何使用蒂芙格式為例，將文件轉換成栅格圖像。它是最受歡迎的圖像格式之一。

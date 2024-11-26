@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET は、ドキュメントの作成に使用�
 type: docs
 weight: 60
 url: /ja/net/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ドキュメントが Aspose.Words for .NET を使用して作成されたかどうかを簡単に知ることができます。特定の出力ドキュメントの作成に使用された Aspose.Words for .NET のバージョン番号も確認できます。 Aspose.Words は、生成されたドキュメントにこの情報を直接書き込みます。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中合并表单元格
 second_title: Aspose.Words对于C++
 articleTitle: 合并表格单元格
@@ -7,6 +7,7 @@ description: "如何在C++中合并表单元格。 检查表中的单元格是�
 type: docs
 weight: 40
 url: /zh/cpp/merge-table-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时，表中的某些行需要标题或占用表全宽的大文本块。 为了正确设计表格，用户可以将几个表格单元格合并为一个。 Aspose.Words在处理所有输入格式（包括导入HTML内容）时支持合并单元格。

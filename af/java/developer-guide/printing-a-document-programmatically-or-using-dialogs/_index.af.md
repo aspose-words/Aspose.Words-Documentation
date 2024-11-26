@@ -1,4 +1,4 @@
-﻿---
+---
 title: Druk'n Dokument
 second_title: Aspose.Words vir Java
 articleTitle: Druk'n Dokument Programmaties of Gebruik Dialoog
@@ -7,6 +7,7 @@ description: "Druk'n dokument met Java deur Instellings, Drukvoorskou En Druk vo
 type: docs
 weight: 55
 url: /af/java/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hierdie artikel beskryf hoe om'n teksverwerkingsdokument te druk met behulp van Aspose.Words API. Dit demonstreer ook die metodes van die druk van'n dokument met Instellings, Druk Voorskou, en Druk vordering dialoog.

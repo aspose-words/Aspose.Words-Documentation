@@ -7,6 +7,7 @@ description: "Werken met Aziatische typografie gebruiken Java. De ruimte tussen 
 type: docs
 weight: 240
 url: /nl/java/working-with-asian-typography/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Asian Typografie is een set van opties voor tekst paragrafen in documenten geschreven in Aziatische talen.

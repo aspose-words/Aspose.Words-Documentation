@@ -7,6 +7,7 @@ description: "Spécifiez diverses sources de polices TrueType: dossier système,
 type: docs
 weight: 30
 url: /fr/python-net/specifying-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Cette rubrique décrit le comportement par défaut de Aspose.Words lors de la recherche de polices TrueType, y compris les différences spécifiques au système d'exploitation, et montre comment spécifier les sources de polices utilisateur.
@@ -51,7 +52,7 @@ Aspose.Words recherchera les polices dans les dossiers de polices système. Une 
 
 #### Où Aspose.Words recherche les polices TrueType sur Linux
 
-Différentes distributions Linux peuvent stocker les polices dans différents dossiers. Aspose.Words recherche les polices à plusieurs emplacements. Par défaut, Aspose.Words recherche les polices dans tous les emplacements suivants: */usr/share/fonts* */usr/local/share/fonts* */usr/X11R6/lib/X11/fonts*. Ce comportement par défaut fonctionnera pour la plupart des distributions Linux, mais il n'est pas garanti qu'il fonctionnera tout le temps, auquel cas vous devrez peut-être spécifier explicitement l'emplacement des polices de type true. Pour ce faire, vous devez savoir où les polices TrueType sont installées sur votre distribution Linux.
+Différentes distributions Linux peuvent stocker les polices dans différents dossiers. Aspose.Words recherche les polices à plusieurs emplacements. Par défaut, Aspose.Words recherche les polices dans tous les emplacements suivants: `/usr/share/fonts` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts`. Ce comportement par défaut fonctionnera pour la plupart des distributions Linux, mais il n'est pas garanti qu'il fonctionnera tout le temps, auquel cas vous devrez peut-être spécifier explicitement l'emplacement des polices de type true. Pour ce faire, vous devez savoir où les polices TrueType sont installées sur votre distribution Linux.
 
 #### Où Aspose.Words recherche les polices TrueType sur Mac OS X
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: コンテンツコントロールSDTの操作
 second_title: C++の場合Aspose.Words
 articleTitle: コンテンツコントロールSDTの操作
@@ -7,6 +7,7 @@ type: docs
 description: "高度な文書コンテンツ管理、C++を使用してコンテンツコントロール（構造化文書タグ）を作成および操作する方法。"
 weight: 390
 url: /ja/cpp/structured-document-tags-or-content-control/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Wordでは、テンプレートから始めて、チェックボックス、テキストボックス、日付ピッカー、ドロップダウンリストなどのコンテンツコントロールを追加して、フォームを作成できます。 Aspose.Wordsでは、Aspose.Wordsにロードされたドキュメントの構造化ドキュメントタグまたはコンテンツコントロールがStructuredDocumentTagノードとしてインポートされます。 構造化ドキュメントタグ（SDTまたはコンテンツコントロール）は、顧客定義のセマンティクスだけでなく、その動作と外観を文書に埋め込むことがで StructuredDocumentTagは、次の場所の文書で発生する可能性があります:

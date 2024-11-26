@@ -7,6 +7,7 @@ description: "Aspose.Words místo .NET přidat do dokumentu jméno generátoru a
 type: docs
 weight: 60
 url: /cs/net/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Můžete snadno vědět, zda je dokument vyroben pomocí Aspose.Words místo .NET. Můžete také najít číslo verze Aspose.Words místo .NET který byl použit k vytvoření konkrétního výstupního dokumentu. Aspose.Words přímo zapíše tyto informace do vytvořeného dokumentu.

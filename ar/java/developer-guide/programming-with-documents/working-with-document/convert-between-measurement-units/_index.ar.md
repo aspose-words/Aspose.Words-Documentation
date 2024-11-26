@@ -1,20 +1,21 @@
----
-title: Convert Between Measurement Unit in Java
-second_title: Aspose.Words for Java
-articleTitle: تحويل بين وحدات القياس
-linktitle: تحويل بين وحدات القياس
-description: "Aspose.Words for Java يمكن أن تساعدك في كيفية التحول بين وحدات القياس، على سبيل المثال، بوصات إلى نقاط ونقاط إلى بوصات، بيكسلز إلى نقاط، نقاط إلى بيكسلز."
+﻿---
+title: تحويل بين وحدات القياس في Java
+second_title: Aspose.Words ل Java
+articleTitle: التحويل بين وحدات القياس
+linktitle: التحويل بين وحدات القياس
+description: "Aspose.Words ل Java يمكن أن تساعدك مع كيفية تحويل بين وحدات القياس، على سبيل المثال، بوصة إلى نقطة ونقطة إلى بوصة، بكسل إلى نقطة، يشير إلى بكسل."
 type: docs
 weight: 20
 url: /ar/java/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
-معظم ممتلكات الجسم المنصوص عليها في Aspose.Words API وهذا يمثل بعض القياسات، مثل البارود أو الطول، والهامش، والمسافات المختلفة، يقبل القيم في نقاط، حيث تبلغ بوصة واحدة 72 نقطة. وأحياناً لا يكون هذا ملائماً وينبغي تحويل النقاط إلى وحدات أخرى.
+معظم خصائص الكائن المقدمة في Aspose.Words API التي تمثل بعض القياس، مثل العرض أو الارتفاع والهوامش والمسافات المختلفة، تقبل القيم بالنقاط، حيث يساوي 1 بوصة 72 نقطة. في بعض الأحيان لا يكون هذا مناسبا ويجب تحويل النقاط إلى وحدات أخرى.
 
-Aspose.Words يوفر [ConvertUtil](https://reference.aspose.com/words/java/com.aspose.words/convertutil/) درجة توفر وظائف المساعدين للتحول بين مختلف وحدات القياس. وهو يمكّن من تحويل البوصات والبكسات والمليمترات إلى نقاط، ونقاط إلى بوصات وبكسلات، وتحويل البكسل من قرار إلى آخر. ويمكن أن يتم تحويل البيكسات إلى نقاط والعكس بالعكس في 96 قراراً من قرارات البابا (الجرعة لكل بوصة) أو قرار محدد من قرارات الباب.
+Aspose.Words يوفر فئة [ConvertUtil](https://reference.aspose.com/words/java/com.aspose.words/convertutil/) التي توفر وظائف مساعد للتحويل بين وحدات القياس المختلفة. إنه يتيح تحويل البوصات والبكسل والمليمترات إلى نقاط، والنقاط إلى البوصات والبكسل، وتحويل وحدات البكسل من دقة إلى أخرى.يمكن إجراء تحويل وحدات البكسل إلى نقاط والعكس بالعكس بدقة 96 نقطة في البوصة (نقطة في البوصة) أو دقة نقطة في البوصة المحددة.
 
-The **ConvertUtil** والفصل مفيد بصفة خاصة عند تحديد مختلف خصائص الصفحات، لأن الشطرنج، على سبيل المثال، هي وحدات قياس أكثر شيوعا من النقاط.
+تعتبر فئة **ConvertUtil** مفيدة بشكل خاص عند تعيين خصائص صفحة مختلفة لأن البوصات، على سبيل المثال، هي وحدات قياس أكثر شيوعا من النقاط.
 
-The following code example shows how to specify page properties inches:
+يوضح مثال التعليمات البرمجية التالية كيفية تحديد خصائص الصفحة بالبوصة:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ConvertBetweenMeasurementUnits-ConvertBetweenMeasurementUnits.java" >}}

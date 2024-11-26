@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilder cho phép bạn tạo tài liệu động từ đầu hoặc thêm các phần tử mới vào tài liệu hiện có bằng Python. DocumentBuilder cung cấp các phương thức để chèn văn bản, hộp kiểm, bảng, hình ảnh và các thành phần nội dung khác trong Python."
 weight: 30
 url: /vi/python-net/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) là một lớp mạnh mẽ liên kết với [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) và cho phép bạn xây dựng các tài liệu động từ đầu hoặc thêm các phần tử mới vào tài liệu hiện có.

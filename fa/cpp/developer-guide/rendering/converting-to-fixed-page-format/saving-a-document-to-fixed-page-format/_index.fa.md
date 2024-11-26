@@ -1,4 +1,4 @@
-﻿---
+---
 title: ذخیره به فرمت صفحه ثابت در C++
 second_title: Aspose.Words برای C++
 articleTitle: ذخیره یک سند به فرمت صفحه ثابت
@@ -7,6 +7,7 @@ description: "چگونه یک سند را به فرمت صفحه ثابت ذخی
 type: docs
 weight: 15
 url: /fa/cpp/saving-a-document-to-fixed-page-format/
+timestamp: 2024-09-24-14-35-44
 ---
 
 پس از ساخت طرح صفحه و محاسبه هندسه اشیاء و موقعیت آنها در صفحه، سند را می توان در قالب صفحه ثابت با پشتیبانی Aspose.Words ذخیره کرد.

@@ -7,6 +7,7 @@ description: "Crea e modifica grafici di vario tipo in un documento utilizzando 
 type: docs
 weight: 310
 url: /it/python-net/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Il nuovo metodo [insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) è stato aggiunto alla classe [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/). Vediamo quindi come inserire un semplice istogramma nel documento utilizzando il metodo [DocumentBuilder.insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/):

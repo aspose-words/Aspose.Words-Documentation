@@ -1,4 +1,4 @@
-﻿---
+---
 title: 테이블 위치 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 테이블 위치 지정
@@ -7,6 +7,7 @@ description: "테이블 위치 지정 C++. 테이블 정렬 가져오기,다음�
 type: docs
 weight: 50
 url: /ko/cpp/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 부동 테이블과 인라인 테이블이 있습니다:

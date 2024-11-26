@@ -1,4 +1,4 @@
-﻿---
+---
 title: 许可和订阅
 second_title: Aspose.Words为C++
 articleTitle: 许可和订阅
@@ -7,6 +7,7 @@ description: "Aspose.Words对于С++提供不同的购买计划或提供免费�
 type: docs
 weight: 60
 url: /zh/cpp/licensing/
+timestamp: 2024-10-24-11-44-28
 ---
 
 有时，为了更好地研究系统，您希望尽可能快地深入研究代码。 为了使这更容易，Aspose.Words提供不同的购买计划或提供免费试用和30天的临时许可证进行评估。

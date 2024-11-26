@@ -7,6 +7,7 @@ description: "Aspose.Words עבור Python via .NET היא ספריית תוכנ
 type: docs
 weight: 15
 url: /he/python-net/product-overview/
+timestamp: 2024-01-31-14-23-37
 ---
 
 <img src="/words/python-net/product-overview/product-overview_1" alt="aspose-words-product" align="left" style="width:64px; margin: 0 30px 30px 0"/>
@@ -77,7 +78,7 @@ Aspose.Words הוא רב-תקרא בטוח כל עוד חוט אחד עובד ע
 
 ### למידה מינימלית
 
-למרות שיש יותר מ-150 כיתות ציבוריות והערכות <span notrans="<span notrans=" Aspose.Words"=""></span>" עקומת הלמידה היא מינימלית כי Aspose.Words API תוכנן בקפידה עם המטרות הבאות:
+למרות שיש יותר מ-150 כיתות ציבוריות והערכות Aspose.Words עקומת הלמידה היא מינימלית כי Aspose.Words API תוכנן בקפידה עם המטרות הבאות:
 
 - Borrow Best Practice from Anotherידוע APIכמו Microsoft Word אוטומציה אוטומציה
 - לספק איזון של קלות שימוש ומניפולציה מפורטת של רכיבי מסמך

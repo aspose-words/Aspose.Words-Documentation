@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cách cài đặt Aspose.Words cho C++
 second_title: Aspose.Words cho C++
 articleTitle: Cài đặt
@@ -7,6 +7,7 @@ description: "Cài đặt Aspose.Words cho C++ sử dụng Quản lý NuGet Gói
 type: docs
 weight: 10
 url: /vi/cpp/installation/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Đảm bảo máy của bạn đáp ứng [yêu cầu hệ thống](/words/cpp/system-requirements/) trước khi bạn bắt đầu.

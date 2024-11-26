@@ -7,6 +7,7 @@ description: "Paragraaf invoegen en de opmaak specificeren in een document dat P
 type: docs
 weight: 210
 url: /nl/python-net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Een alinea is een verzameling tekens die worden gecombineerd tot een logisch blok en eindigend met een speciaal karakter, een *paragraf break*. In Aspose.Words, een lid wordt vertegenwoordigd door de [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) Klasse.

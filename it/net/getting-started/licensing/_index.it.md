@@ -7,6 +7,7 @@ description: "Aspose.Words per .NET fornisce diversi piani di acquisto o offre u
 type: docs
 weight: 55
 url: /it/net/licensing/
+timestamp: 2024-10-24-11-44-28
 ---
 
 A volte, per studiare meglio il sistema, vuoi immergerti nel codice il più velocemente possibile. Per semplificare tutto ciò, Aspose.Words fornisce diversi piani di acquisto o offre una prova gratuita e una licenza temporanea di 30 giorni per la valutazione.
@@ -60,13 +61,13 @@ Dopo aver acquistato una licenza, è necessario leggere attentamente le informaz
 Le licenze possono essere applicate da varie località:
 
 * Percorso esplicito
-* La cartella contenente il file *Aspose.Words.dll*
-* La cartella contenente l'assembly chiamato *Aspose.Words.dll*
-* La cartella contenente l'assembly della voce (il tuo *.exe*)
-* Una risorsa incorporata nell'assembly è denominata *Aspose.Words.dll*
+* La cartella contenente il file `Aspose.Words.dll`
+* La cartella contenente l'assembly chiamato `Aspose.Words.dll`
+* La cartella contenente l'assembly della voce (il tuo `.exe`)
+* Una risorsa incorporata nell'assembly è denominata `Aspose.Words.dll`
 * Come licenza misurata: un nuovo meccanismo di licenza
 
-Quando si fa riferimento a *Aspose.Words.dll* nell'applicazione, la libreria viene copiata nella directory di output (a meno che *Copia locale* nelle proprietà per quella voce non sia impostato su false). Spesso il modo più semplice per impostare una licenza è posizionare il file di licenza nella stessa cartella di *Aspose.Words.dll* e specificare solo il nome del file senza il percorso.
+Quando si fa riferimento a `Aspose.Words.dll` nell'applicazione, la libreria viene copiata nella directory di output (a meno che *Copia locale* nelle proprietà per quella voce non sia impostato su false). Spesso il modo più semplice per impostare una licenza è posizionare il file di licenza nella stessa cartella di `Aspose.Words.dll` e specificare solo il nome del file senza il percorso.
 
 {{% alert color="primary" %}}
 

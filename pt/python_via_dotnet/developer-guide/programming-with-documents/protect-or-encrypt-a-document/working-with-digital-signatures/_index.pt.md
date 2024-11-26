@@ -7,6 +7,7 @@ description: "Assine documentos digitalmente e detecte, conte, verifique e remov
 type: docs
 weight: 40
 url: /pt/python-net/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uma assinatura digital é usada para autenticar um documento para estabelecer que o remetente do documento é quem diz ser e que o conteúdo do documento não foi adulterado.

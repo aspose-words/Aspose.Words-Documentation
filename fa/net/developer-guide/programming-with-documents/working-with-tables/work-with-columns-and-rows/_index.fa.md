@@ -7,6 +7,7 @@ description: "کار با بخش هایی از جدول - ردیف ها، ستو
 type: docs
 weight: 30
 url: /fa/net/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 برای کنترل بیشتر بر نحوه کار جداول، نحوه دستکاری ستون ها و ردیف ها را بیاموزید.

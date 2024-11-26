@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのフィールドの挿入
 second_title: C++の場合Aspose.Words
 articleTitle: フィールドの挿入
@@ -7,6 +7,7 @@ description: "C++を使用してドキュメントにフィールドを挿入す
 type: docs
 weight: 20
 url: /ja/cpp/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 文書にフィールドを挿入するには、いくつかの方法があります:

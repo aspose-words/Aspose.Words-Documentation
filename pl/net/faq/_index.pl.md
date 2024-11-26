@@ -9,6 +9,7 @@ type: docs
 description: "Aspose.Words dla .NET odpowiada na najczęściej zadawane pytania. Zapoznaj się z tą stroną, aby szybko rozwiązać swój problem w zakresie ogólnych pytań lub konkretnych tematów."
 weight: 75
 url: /pl/net/faq/
+timestamp: 2024-11-18-12-56-02
 ---
 
 Na tej stronie znajdują się odpowiedzi na najczęściej zadawane pytania. Zapoznaj się proszę z aktualną stroną – być może pozwoli to szybko rozwiązać Twój problem.
@@ -128,7 +129,7 @@ Tak, robisz to. Dlatego kopiując czcionki, należy pamiętać, że większość
 
 {{% alert color="primary" %}}
 
-Bardziej szczegółowe informacje na temat mail merge można znaleźć w sekcji dokumentacji [Mail Merge i raportowanie](/words/net/mail-merge-and-reporting/).
+Bardziej szczegółowe informacje na temat Mail Merge można znaleźć w sekcji dokumentacji [Mail Merge i raportowanie](/words/net/mail-merge-and-reporting/).
 
 {{% /alert %}}
 
@@ -143,7 +144,7 @@ Oryginalna nazwa pola scalania pozostaje taka sama i nie jest zastępowana wymag
 
 **P: Dlaczego w wyniku scalania zagnieżdżonego nie są wyświetlane dane z tabeli podrzędnej dla pierwszego wpisu w tabeli nadrzędnej, ale wyświetlane są wszystkie elementy ostatniego wpisu w tabeli nadrzędnej, nawet te, które w rzeczywistości nie są z nią połączone?**
 
-Dzieje się tak dlatego, że regiony scalania w szablonie nie są poprawnie utworzone, co może spowodować, że wszystkie zagnieżdżone regiony mail merge przestaną w ogóle cokolwiek wyświetlać. Znacznik otwierający [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) i znacznik zamykający [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) muszą być zgodne i znajdować się w tym samym wierszu lub komórce. Na przykład, jeśli rozpoczniesz zagnieżdżanie regionów scalania w komórce tabeli, musisz zakończyć region scalania w tym samym wierszu, co pierwsza komórka.
+Dzieje się tak dlatego, że regiony scalania w szablonie nie są poprawnie utworzone, co może spowodować, że wszystkie zagnieżdżone regiony Mail Merge przestaną w ogóle cokolwiek wyświetlać. Znacznik otwierający [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) i znacznik zamykający [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) muszą być zgodne i znajdować się w tym samym wierszu lub komórce. Na przykład, jeśli rozpoczniesz zagnieżdżanie regionów scalania w komórce tabeli, musisz zakończyć region scalania w tym samym wierszu, co pierwsza komórka.
 
 ------
 

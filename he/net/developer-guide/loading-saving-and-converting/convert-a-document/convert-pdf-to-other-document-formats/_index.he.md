@@ -8,6 +8,7 @@ description: "להמיר PDF לפורמטי Word כגון DOCX, DOC, פורמט�
 keywords: convert pdf to other formats c#
 weight: 45
 url: /he/net/convert-pdf-to-other-document-formats/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Aspose.Words ניתן לטעון אפילו פורמט מורכב כמו PDF. זה פותח הזדמנויות חדשות: ניתן להמיר PDF ל- Word או פורמטים אחרים שמביאים את המשתמשים רחוק יותר לפתרון בעיות רבות.

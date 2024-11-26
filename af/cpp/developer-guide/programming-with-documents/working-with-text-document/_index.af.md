@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Teks Dokument in C++
 second_title: Aspose.Words vir C++
 articleTitle: Werk Met Teksdokument
@@ -7,6 +7,7 @@ description: "Gevorderde TXT dokumentverwerking, lyste, BiDi, koptekste/voetskri
 type: docs
 weight: 430
 url: /af/cpp/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In hierdie artikel sal ons leer watter opsies nuttig kan wees vir die werk met'n teksdokument via Aspose.Words. Let asseblief daarop dat dit nie'n volledige lys van beskikbare opsies is nie, maar slegs'n voorbeeld van werk met sommige van hulle.

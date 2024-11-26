@@ -7,6 +7,7 @@ description: "C# を使用して、テーブルの一部 (行、列、セル) �
 type: docs
 weight: 30
 url: /ja/net/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 テーブルの動作をより詳細に制御するには、列と行を操作する方法を学習してください。

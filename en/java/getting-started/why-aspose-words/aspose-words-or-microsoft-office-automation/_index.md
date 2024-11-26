@@ -8,6 +8,7 @@ type: docs
 weight: 10
 url: /java/aspose-words-or-microsoft-office-automation/
 aliases: [/java/why-not-automation/]
+timestamp: 2024-01-30-16-22-34
 ---
 
 Often, users need not only to do some single operation with a document, for example, to convert it from one format to another, but also to complete a full cycle of work with this document, dictated by some workflow. In this case, a tool is required that provides powerful functionality for working with documents in popular formats and allows users to solve a wide range of applied problems.
@@ -83,7 +84,7 @@ All the Aspose components offer a risk-free, no-obligation [evaluation version](
 
 Aspose components provide everything you need to manage Office files, plus much, much more. They are designed with the philosophy of allowing developers to accomplish the greatest results with the least amount of work.
 
-Unlike Office Automation, Aspose components provide many powerful time-saving functions. For example, Aspose.Words offers a feature that allows developers to populate a Word mail merge document from [any data source supported by Aspose.Words for Java](/words/java/mail-merge-and-reporting/#data-source-types-for-a-mail-merge-operation). It is worth noting that every component in the Aspose family offers its own set of unique and powerful features.
+Unlike Office Automation, Aspose components provide many powerful time-saving functions. For example, Aspose.Words offers a feature that allows developers to populate a Word Mail Merge document from [any data source supported by Aspose.Words for Java](/words/java/mail-merge-and-reporting/#data-source-types-for-a-mail-merge-operation). It is worth noting that every component in the Aspose family offers its own set of unique and powerful features.
 
 The best part of purchasing an Aspose component or a component suite is accessing our development teams. Our development teams realize that if there is a feature that your company needs, more than likely other companies will need it as well. While not every feature request can be added, our teams try to be very open-minded and flexible when providing assistance. That mindset has made Aspose components as powerful as they are. However, if there are additional features that you need from Office Automation objects, your chances of having them added are very low.
 

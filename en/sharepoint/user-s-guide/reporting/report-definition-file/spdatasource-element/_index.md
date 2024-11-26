@@ -1,4 +1,4 @@
-﻿---
+---
 title: SPDataSource Element
 second_title: Aspose.Words for SharePoint
 articleTitle: SPDataSource Element
@@ -7,6 +7,7 @@ description: "SPDataSource element meaning and structure which may be used while
 type: docs
 weight: 80
 url: /sharepoint/spdatasource-element/
+timestamp: 2024-10-21-11-17-44
 ---
 
 This element contains information about a connection to a SharePoint server. You can use it with [SPListQuery](/words/sharepoint/splistquery-element/) or [SPXmlQuery](/words/sharepoint/spxmlquery-element/) to get data from a SharePoint server.

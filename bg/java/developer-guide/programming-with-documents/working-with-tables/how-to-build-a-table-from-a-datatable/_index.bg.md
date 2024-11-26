@@ -1,12 +1,13 @@
 ---
-title: Как да се изгради таблица от `DataTable` в Java
+title: Как да се изгради таблица от DataTable в Java
 second_title: Aspose.Words вместо Java
-articleTitle: Изграждане на таблица от `DataTable`
-linktitle: Изграждане на таблица от `DataTable`
+articleTitle: Изграждане на таблица от DataTable
+linktitle: Изграждане на таблица от DataTable
 description: "Пример за попълване на таблица с документи от външна база данни, като се използва Java."
 type: docs
 weight: 130
 url: /bg/java/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Често вашето приложение ще изтегли данни от база данни и ще го съхранява под формата на **DataTable**. Можете лесно да въведете тези данни в документа си като нова таблица и бързо да приложите форматиране на цялата таблица.

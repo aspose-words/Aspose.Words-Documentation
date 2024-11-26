@@ -7,6 +7,7 @@ description: "Aspose.Words (单位:千美元) Java 提供各种课程,与办公�
 type: docs
 weight: 50
 url: /zh/java/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时,您可能想要给操作代码来修改文档的接口控制器的访问权限. Aspose.Words API 提供 `WebExtensions` namespace,它授予各种类自定义元素和属性,用于扩展XML词汇来代表 Office Add-ins.

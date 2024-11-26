@@ -7,6 +7,7 @@ description: "So konvertieren Sie ein Dokument von einem Format in ein anderes, 
 type: docs
 weight: 10
 url: /de/net/loading-saving-and-converting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In diesem Abschnitt finden Sie Informationen zu den Funktionen beim Laden und Speichern eines Dokuments sowie Daten zu den Möglichkeiten beim Konvertieren eines Dokuments von einem Format in ein anderes.

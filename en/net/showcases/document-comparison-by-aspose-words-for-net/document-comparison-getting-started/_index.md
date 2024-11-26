@@ -7,6 +7,7 @@ description: "To get started with Document Comparison by Aspose.Words for .NET l
 type: docs
 weight: 10
 url: /net/document-comparison-getting-started/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words for .NET compares two Microsoft Word documents and shows the differences between them. You can see what text has been added, removed, or unchanged.

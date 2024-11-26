@@ -1,12 +1,13 @@
-﻿---
-title: Utiliser `DocumentBuilder` pour Modifier facilement un Document
+---
+title: Utiliser DocumentBuilder pour Modifier facilement un Document
 second_title: Aspose.Words pour C++
-articleTitle: Utiliser `DocumentBuilder` pour Modifier facilement un Document
-linktitle: Utiliser `DocumentBuilder` pour Modifier facilement un Document
+articleTitle: Utiliser DocumentBuilder pour Modifier facilement un Document
+linktitle: Utiliser DocumentBuilder pour Modifier facilement un Document
 type: docs
 description: "Utilisez le générateur de documents pour modifier facilement un document en C++."
 weight: 190
 url: /fr/cpp/using-documentbuilder-to-modify-a-document-easily/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Spécification du Formatage

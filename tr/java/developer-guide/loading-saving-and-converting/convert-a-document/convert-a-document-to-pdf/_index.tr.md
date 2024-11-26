@@ -7,6 +7,7 @@ description: "Bir belgeyi Word veya herhangi bir desteklenen biçimde PDF olarak
 type: docs
 weight: 10
 url: /tr/java/convert-a-document-to-pdf/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Bir belgeyi bir formattan başka bir formata kolayca ve güvenilir bir şekilde dönüştürme yeteneği Aspose.Words'ın temel özelliklerindendir. Dönüştürmede en popüler formatlardan biri PDF'dir; bir sabit düzen formatıdır, bu da bir belgenin çeşitli platformlarda görüntülenmesinin orijinal görünümünü korur. "Rendering" terimi Aspose.Words 'da bir belgeyi sayfalama veya sayfaların kavramına sahip olacak şekilde bir dosya formatına dönüştürme sürecini tanımlamak için kullanılır.

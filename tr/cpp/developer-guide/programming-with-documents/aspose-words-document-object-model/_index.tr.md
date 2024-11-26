@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words Belge Nesne Modeli (DOM) C++ içinde
 second_title: Aspose.Words için C++
 articleTitle: Aspose.Words Belge Nesne Modeli (DOM)
@@ -7,6 +7,7 @@ type: docs
 description: "Belge Nesne Modeli (DOM), bir Word belgesinin bellek içi temsilidir. C++ kullanarak bir Word belgesinin içeriğini ve biçimlendirmesini okuyun, değiştirin ve değiştirin."
 weight: 10
 url: /tr/cpp/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words Belge Nesne Modeli (DOM), bir Word belgesinin bellek içi temsilidir. Aspose.Words DOM, bir Word belgesinin içeriğini ve biçimlendirmesini programlı olarak okumanıza, değiştirmenize ve değiştirmenize olanak tanır.

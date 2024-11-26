@@ -7,6 +7,7 @@ type: docs
 description: "แปลเอกสาร Markdown เป็น Document Object Model และย้อนกลับโดยใช้ C# คุณจึงสามารถทำงานกับ Markdown ที่มีอยู่ที่ซับซ้อนและสร้างเอกสาร Markdown โดยทางโปรแกรมตั้งแต่เริ่มต้นได้"
 weight: 20
 url: /th/net/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 หากต้องการอ่าน จัดการ และแก้ไขเนื้อหาและการจัดรูปแบบของเอกสารโดยทางโปรแกรม คุณต้องแปลเป็น Aspose.Words Document Object Model (DOM)
@@ -40,12 +41,12 @@ url: /th/net/translate-markdown-to-document-object-model/
 |  **Italic**<br /> `*italic text*` |  `Font.Italic = true`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br /> `~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
-builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
+builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
 
 เราใช้ลักษณะอักขระที่มีชื่อที่ขึ้นต้นด้วยคำว่า `InlineCode` ตามด้วย dot `(.)` ที่เป็นตัวเลือก และ backticks ```(`)``` จำนวนหนึ่งสำหรับฟีเจอร์ `InlineCode` หากพลาด backtick ไปจำนวนหนึ่ง ระบบจะใช้ backtick หนึ่งอันเป็นค่าเริ่มต้น
 
@@ -72,10 +73,10 @@ builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br /> `-----` |  นี่คือย่อหน้าธรรมดาที่มีรูปร่างตามแนวนอน:<br /> `DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}}  |                                                                |
-|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”` โดยที่ (1&lt;= N &lt;= 9)<br /> ข้อมูลนี้ได้รับการแปลเป็นรูปแบบบิวท์อินและควรเป็นรูปแบบที่ระบุทุกประการ (ไม่อนุญาตให้ใช้ส่วนต่อท้ายหรือคำนำหน้า)<br /> มิฉะนั้นจะเป็นเพียงย่อหน้าธรรมดาที่มีสไตล์สอดคล้องกัน |
+|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"` โดยที่ (1&le; N &le; 9)<br /> ข้อมูลนี้ได้รับการแปลเป็นรูปแบบบิวท์อินและควรเป็นรูปแบบที่ระบุทุกประการ (ไม่อนุญาตให้ใช้ส่วนต่อท้ายหรือคำนำหน้า)<br /> มิฉะนั้นจะเป็นเพียงย่อหน้าธรรมดาที่มีสไตล์สอดคล้องกัน |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
-|  **Setext Heading**<br /> `===` (ถ้าระดับหัวเรื่อง 1)<br /> `---` (หากส่วนหัวระดับ 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”` ตามรูปแบบ `“Heading N”`<br /> ถ้า (N &gt;= 2) จะใช้ `“Heading 2”` มิฉะนั้นจะใช้ `“Heading 1”`<br /> อนุญาตให้ใช้ส่วนต่อท้ายใดก็ได้ แต่ผู้นำเข้า Aspose.Words ใช้ตัวเลข "1" และ "2" ตามลำดับ |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  **Setext Heading**<br /> `===` (ถ้าระดับหัวเรื่อง 1)<br /> `---` (หากส่วนหัวระดับ 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”` ตามรูปแบบ 'Heading N'<br /> ถ้า (N &ge; 2) จะใช้ 'Heading 2' มิฉะนั้นจะใช้ 'Heading 1'<br /> อนุญาตให้ใช้ส่วนต่อท้ายใดก็ได้ แต่ผู้นำเข้า Aspose.Words ใช้ตัวเลข "1" และ "2" ตามลำดับ |
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -102,7 +103,7 @@ builder.ParagraphFormat.Style = setexHeading2;
 builder.Document.Styles["SetextHeading2"].BaseStyleName = "Heading 3";
 
 // Setex heading level will be reset to 2 if the base paragraph has a Heading level greater than 2.
-builder.Writeln("Setext Heading level 2");{{< /highlight >}} |
+builder.Writeln("Setext Heading level 2"); {{< /highlight >}} |
 |   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-IndentedCode.cs" >}}  |                                                                |
 |  **Fenced Code**<br /> {{< highlight csharp >}}``` c#
@@ -119,7 +120,7 @@ else
 |  คุณสมบัติ Markdown |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **Quote**<br /> `> quote,`<br /> `>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br /> ส่วนต่อท้ายในชื่อลักษณะเป็นทางเลือก แต่ตัวนำเข้า Aspose.Words ใช้หมายเลขลำดับ 1, 2, 3, …. ในกรณีที่มีเครื่องหมายคำพูดซ้อนกัน<br /> การซ้อนถูกกำหนดผ่านสไตล์ที่สืบทอดมา |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -130,7 +131,7 @@ builder.Writeln("Blockquote");
 Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
-builder.Writeln("1. Nested blockquote");{{< /highlight >}} |
+builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
 |  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  รายการสัญลักษณ์แสดงหัวข้อย่อยจะแสดงโดยใช้หมายเลขย่อหน้า:<br /> `ListFormat.ApplyBulletDefault()`<br /> รายการสัญลักษณ์แสดงหัวข้อย่อยสามารถมีได้ 3 ประเภท ต่างกันเพียงรูปแบบการกำหนดหมายเลขของระดับแรกเท่านั้น เหล่านี้คือ: `‘-’`, `‘+’` หรือ `‘*’` ตามลำดับ |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}}  |                                                                |
 |  **OrderedList**<br /> `1. Item 1`<br /> `2. Item 2`<br /> `1) Item 2a`<br /> `2) Item 2b` |  รายการที่เรียงลำดับจะแสดงโดยใช้หมายเลขย่อหน้า:<br /> `ListFormat.ApplyNumberDefault()`<br /> เครื่องหมายรูปแบบตัวเลขมีได้ 2 แบบ: '." และ ')'. เครื่องหมายเริ่มต้นคือ '.' |
@@ -147,7 +148,7 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent();
 
 builder.Writeln("Item 2a");
-builder.Writeln("Item 2b");{{< /highlight >}} |                                                                |
+builder.Writeln("Item 2b"); {{< /highlight >}} |                                                                |
 
 ### ตาราง
 
@@ -156,7 +157,7 @@ Aspose.Words ยังอนุญาตให้แปลตารางเป�
 |  คุณสมบัติ Markdown |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  `Table`<br /> `ก | b`<br />`-|-`<br />`c | ด` |  คลาส [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) และ [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.
@@ -169,7 +170,7 @@ builder.Writeln("b");
 builder.InsertCell();
 builder.Writeln("c");
 builder.InsertCell();
-builder.Writeln("d");{{< /highlight >}} |                                                                |
+builder.Writeln("d"); {{< /highlight >}} |                                                                |
 
 ## ดูสิ่งนี้ด้วย
 

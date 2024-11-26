@@ -7,6 +7,7 @@ description: "Belge bölüm kavramlarını ve manipülasyon uygulamalarını Jav
 type: docs
 weight: 120
 url: /tr/java/working-with-sections/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Bazen tüm sayfalarda aynı biçimlendirme olmayan bir belge istiyorsunuz. Örneğin, sayfa numaralarını değiştirmek, farklı sayfa boyutları ve yönlendirmeleri veya herhangi bir numaralandırma olmadan ilk belgeyi kapak sayfası olarak kullanmak gibi ihtiyaçlarınız olabilir. Bölümler aracılığıyla bunu başarabilirsiniz.

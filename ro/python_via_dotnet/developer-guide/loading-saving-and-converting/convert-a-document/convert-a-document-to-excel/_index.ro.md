@@ -1,4 +1,4 @@
-﻿---
+---
 title: Convertiți Word în Excel în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Conversia unui Document în Excel
@@ -7,6 +7,7 @@ description: "Convertiți PDF în Excel, XML în Excel, DOCX în Excel Python. S
 type: docs
 weight: 15
 url: /ro/python-net/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Conversia documentelor dintr-un format în altul este caracteristica emblematică a Aspose.Words. Puteți converti documente în orice [load format](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) disponibil, de asemenea, în format XLSX.

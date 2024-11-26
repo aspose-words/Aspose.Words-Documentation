@@ -1,26 +1,27 @@
----
-title: العمل مع أجهزة التحكم
-second_title: Aspose.Words for Java
-articleTitle: العمل مع أجهزة التحكم
-linktitle: العمل مع أجهزة التحكم
-description: "مقدمة للعمل مع الشخصيات الرقابية Aspose.Words for Java."
+﻿---
+title: العمل مع شخصيات التحكم
+second_title: Aspose.Words ل Java
+articleTitle: العمل مع شخصيات التحكم
+linktitle: العمل مع شخصيات التحكم
+description: "مقدمة للعمل مع أحرف التحكم في Aspose.Words لـ Java."
 type: docs
 weight: 400
 url: /ar/java/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Microsoft Word وقد تحتوي الوثائق على مختلف الشخصيات التي لها معنى خاص. وتُستخدم عادة لأغراض التكوين ولا تُرسم بطريقة طبيعية. يمكنك أن تجعلهم مرئيين إذا ضغطت على زر "العرض/الوضع اليدي" الذي يقع على مقياس الأدوات القياسية
+Microsoft Word قد تحتوي المستندات على أحرف مختلفة لها معنى خاص. عادة ما يتم استخدامها لأغراض التنسيق ولا يتم رسمها في الوضع العادي. يمكنك جعلها مرئية إذا قمت بالنقر فوق الزر إظهار / إخفاء علامات التنسيق الموجود على شريط الأدوات القياسي.
 
-في بعض الأحيان قد تحتاج إلى إضافة أو إزالة الشخصيات من النص. على سبيل المثال، عند الحصول على النص من الوثيقة بصورة برنامجية، Aspose.Words تحافظ على معظم شخصيات التحكم لذا إذا أردت العمل مع هذا النص يجب أن تزيل أو تحل محل الشخصيات
+في بعض الأحيان قد تحتاج إلى إضافة أو إزالة الأحرف إلى/من النص. على سبيل المثال، عند الحصول على نص برمجيا من المستند، يحتفظ Aspose.Words بمعظم أحرف التحكم، لذلك إذا كنت بحاجة إلى العمل مع هذا النص، فمن المحتمل أن تقوم بإزالة الأحرف أو استبدالها.
 
-The [ControlChar](https://reference.aspose.com/words/java/com.aspose.words/controlchar/) والفصل هو مستودع للثبات التي تمثل خصائص السيطرة التي كثيرا ما تصادف في الوثائق. وهو يقدم نسخاً من نفس الثبات. For example, string [LineBreak](https://reference.aspose.com/words/java/com.aspose.words/controlchar/#LINE-BREAK) and char [LineBreakChar](https://reference.aspose.com/words/java/com.aspose.words/controlchar/#LINE-BREAK_CHAR) لها نفس القيمة
+فئة [ControlChar](https://reference.aspose.com/words/java/com.aspose.words/controlchar/) هي مستودع للثوابت التي تمثل أحرف التحكم التي تتم مواجهتها غالبا في المستندات. يوفر كلا من إصدارات شار وسلسلة من نفس الثوابت. على سبيل المثال، سلسلة [LineBreak](https://reference.aspose.com/words/java/com.aspose.words/controlchar/#LINE-BREAK) و شار [LineBreakChar](https://reference.aspose.com/words/java/com.aspose.words/controlchar/#LINE-BREAK_CHAR) له نفس القيمة.
 
 {{% alert color="primary" %}}
 
-استخدم هذا الفصل عندما تريد التعامل مع شخصيات التحكم
+استخدم هذه الفئة كلما أردت التعامل مع أحرف التحكم.
 
 {{% /alert %}}
 
-The following code example shows how to use control characters:
+يوضح مثال التعليمات البرمجية التالية كيفية استخدام أحرف التحكم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-UseControlCharacters-UseControlCharacters.java" >}}

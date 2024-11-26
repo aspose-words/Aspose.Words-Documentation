@@ -1,4 +1,4 @@
-﻿---
+---
 title: Omskep Lêer aan MHTML en Stuur Dit per E-pos
 second_title: Aspose.Words vir .NET
 articleTitle: Skakel'n Dokument om na MHTML En Stuur Dit Per E-Pos
@@ -7,6 +7,7 @@ description: "Skakel'n dokument van byna enige formaat na die MHTML formaat en s
 type: docs
 weight: 30
 url: /af/net/convert-a-document-to-mhtml-and-send-it-by-email/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Aspose.Words kan enige dokument omskakel na die MHTML (Web Argief) formaat. Dit maak dit gerieflik om Aspose.Words en `Aspose.Email` saam te gebruik. Jy kan'n vooraf gedefinieerde dokument in enige ondersteunde formaat, soos DOC, OOXML, of RTF, in Aspose.Words laai, dit met data vul, die resulterende dokument as MHTML stoor en dit dan per e-pos stuur met `Aspose.Email`.

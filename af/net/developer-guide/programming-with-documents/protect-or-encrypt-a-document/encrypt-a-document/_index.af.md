@@ -1,4 +1,4 @@
-﻿---
+---
 title: Enkripteer'n Dokument in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Enkripteer'n Dokument
@@ -7,6 +7,7 @@ description: "Enkripteer jou dokument met toepaslike enkripsie-algoritmes vir sp
 type: docs
 weight: 20
 url: /af/net/encrypt-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Enkripsie is die proses wat leesbare teks vertaal na betekenislose volgorde van grepe sodat dit net gelees kan word deur die persoon wat die dekripsie sleutel of die geheime kode het. Hierdie proses speel'n belangrike rol in die beveiliging van u inhoud. Dit help om die inhoud te kodeer, die oorsprong van'n dokument te verifieer, te bewys dat die inhoud nie verander is nadat dit gestuur is nie, en te verseker dat die data van die dokument veilig is.

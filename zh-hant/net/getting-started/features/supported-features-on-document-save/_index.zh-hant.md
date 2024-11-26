@@ -7,6 +7,7 @@ description: "使用 C# 儲存大部分熱門格式的文件並支援許多 Micr
 type: docs
 weight: 30
 url: /zh-hant/net/supported-features-on-document-save/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words 讓使用者可以在各種格式下處理文件，並為這些功能提供廣泛的選項。 例如，使用者可以從頭開始建立文件或載入文件、進行一些修改，然後將這些修改儲存到任何 [supported export format](/words/net/supported-document-formats/) 中。 當以選定的格式儲存該文件時，使用者可以應用各種儲存選項。

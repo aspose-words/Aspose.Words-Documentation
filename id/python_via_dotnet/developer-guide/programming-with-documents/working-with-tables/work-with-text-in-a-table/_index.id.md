@@ -7,6 +7,7 @@ description: "Ganti teks dalam tabel di Python. Ekstrak Teks Biasa dari Tabel at
 type: docs
 weight: 60
 url: /id/python-net/work-with-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Seperti yang telah disebutkan pada artikel sebelumnya, sebuah tabel biasanya berisi teks biasa, meskipun konten lain seperti gambar atau bahkan tabel lainnya dapat ditempatkan di sel tabel.

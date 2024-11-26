@@ -8,6 +8,7 @@ type: docs
 weight: 200
 url: /python-net/working-with-lists/
 aliases: [/python/working-with-lists/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 A list in a Microsoft Word document is a set of list formatting properties. Lists can be used in your documents to format, arrange, and emphasize text. Lists are a great way to organize data in documents, and they make it easier for readers to understand key points. 

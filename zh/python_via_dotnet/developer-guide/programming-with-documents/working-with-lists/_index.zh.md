@@ -7,6 +7,7 @@ description: "使用 Python 在文档中创建、指定格式和重新启动列�
 type: docs
 weight: 200
 url: /zh/python-net/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word 文档中的列表是一组列表格式属性。列表可在文档中用于格式化、排列和强调文本。列表是组织文档中数据的好方法，它们使读者更容易理解要点。

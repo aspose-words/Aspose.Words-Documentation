@@ -7,6 +7,7 @@ description: "C#를 사용하여 외부 데이터베이스에서 문서 테이�
 type: docs
 weight: 120
 url: /ko/net/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-09-25-11-08-55
 ---
 
 애플리케이션이 데이터베이스에서 데이터를 가져와 **DataTable** 형식으로 저장하는 경우가 많습니다. 이 데이터를 문서에 새 표로 쉽게 삽입하고 전체 표에 서식을 빠르게 적용할 수 있습니다.

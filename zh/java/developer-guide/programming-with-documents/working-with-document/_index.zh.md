@@ -7,6 +7,7 @@ type: docs
 description: "那个 `Document` 类提供了各种文档属性和方法。 你用那个 `Document` 类作为您想要表演的起点 Aspose.Words (单位:千美元) Java。 。 。 。 那个 `Document` 对象可以保存到文件或流中,也可以发送到浏览器中。"
 weight: 40
 url: /zh/java/working-with-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 那个 [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) 类在 Aspose.Words。 。 。 它代表一个文档,并提供各种文档属性和方法,例如保存或保护文档. 你用那个 **Document** 类作为您想要表演的起点 Aspose.Words: 从头创建新文档, 打开一个模板 mail merge, 或从文档中获取不同的部分。

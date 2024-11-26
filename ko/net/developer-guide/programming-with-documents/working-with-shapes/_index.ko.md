@@ -7,6 +7,7 @@ description: "C#를 사용하여 다양한 유형의 모양을 생성하는 모�
 type: docs
 weight: 280
 url: /ko/net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 이 항목에서는 Aspose.Words를 사용하여 셰이프를 프로그래밍 방식으로 작업하는 방법에 대해 설명합니다.

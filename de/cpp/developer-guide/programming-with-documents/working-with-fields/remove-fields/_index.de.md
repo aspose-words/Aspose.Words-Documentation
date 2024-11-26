@@ -1,4 +1,4 @@
-﻿---
+---
 title: Felder entfernen C++
 second_title: Aspose.Words für C++
 articleTitle: Felder entfernen
@@ -7,6 +7,7 @@ description: "Erfahren Sie, wie Sie Felder in C++ entfernen. Entfernen Sie Felde
 type: docs
 weight: 35
 url: /de/cpp/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal ist es notwendig, ein Feld aus einem Dokument zu entfernen. Dies kann auftreten, wenn es durch einen anderen Feldtyp ersetzt werden muss oder wenn das Feld im Dokument nicht mehr benötigt wird. Zum Beispiel das Feld `TOC` beim Speichern in HTML.

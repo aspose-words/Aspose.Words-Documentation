@@ -7,6 +7,7 @@ description: "قم بتثبيت Aspose.Words لـ Python باستخدام أدو
 type: docs
 weight: 10
 url: /ar/python-net/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 تأكد من أن جهازك يتوافق مع [متطلبات النظام](/words/ar/python-net/system-requirements/) قبل البدء.

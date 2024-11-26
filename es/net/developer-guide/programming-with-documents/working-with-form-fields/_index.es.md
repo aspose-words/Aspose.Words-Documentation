@@ -7,6 +7,7 @@ description: "Comprender la función Campos de formulario y trabajar con campos 
 type: docs
 weight: 380
 url: /es/net/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un documento que contiene espacios en blanco (campos) para completar se conoce como formulario. Por ejemplo, puede crear un formulario de registro en Microsoft Word que utilice listas desplegables desde las cuales los usuarios pueden seleccionar entradas. El campo `Form` es una ubicación donde se almacena un tipo particular de datos, como un nombre o una dirección. Los campos de formulario en Microsoft Word incluyen entrada de texto, cuadro combinado y casilla de verificación.

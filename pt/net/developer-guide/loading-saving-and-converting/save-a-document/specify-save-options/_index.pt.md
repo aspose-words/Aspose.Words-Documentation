@@ -7,6 +7,7 @@ description: "Controle com mais precisão o processo de salvamento usando C#."
 type: docs
 weight: 10
 url: /pt/net/specify-save-options/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Ao salvar um documento, você pode definir algumas propriedades avançadas. Aspose.Words fornece a classe [SaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/), que permite um controle mais preciso do processo de salvamento. Existem sobrecargas do método **Save** que aceita um objeto **SaveOptions** – ele deve ser um objeto de uma classe derivada da classe **SaveOptions**. Cada formato de salvamento possui uma classe correspondente que contém opções de salvamento para esse formato de salvamento, por exemplo, há [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) para salvar no formato PDF, [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) para salvar no formato Markdown ou [ImageSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/) para salvar em uma imagem. Este artigo fornece exemplos de como trabalhar com algumas classes de opções derivadas de **SaveOptions**.

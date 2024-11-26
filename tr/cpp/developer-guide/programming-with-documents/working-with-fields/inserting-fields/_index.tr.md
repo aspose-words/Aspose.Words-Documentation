@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içine Alan Ekle
 second_title: Aspose.Words için C++
 articleTitle: Alanları Ekle
@@ -7,6 +7,7 @@ description: "C++ kullanarak belgenize alan eklemenin farklı yolları."
 type: docs
 weight: 20
 url: /tr/cpp/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir belgeye alan eklemenin birkaç farklı yolu vardır:
@@ -93,7 +94,7 @@ Bu örneğin örnek dosyasını şu adresten indirebilirsiniz [Aspose.Words GitH
 
 ### DOM kullanarak bir Belgeye Mail Merge Adres Bloğu alanı ekleme
 
-`ADDRESSBLOCK` alanı, bir Word belgesine mail merge adres bloğu eklemek için kullanılır. Word belgesindeki `ADDRESSBLOCK` alanı [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldaddressblock/) sınıfı ile gösterilebilir. Aşağıdaki işlemleri gerçekleştirmek için **FieldAddressBlock** sınıfını kullanabilirsiniz:
+`ADDRESSBLOCK` alanı, bir Word belgesine Mail Merge adres bloğu eklemek için kullanılır. Word belgesindeki `ADDRESSBLOCK` alanı [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldaddressblock/) sınıfı ile gösterilebilir. Aşağıdaki işlemleri gerçekleştirmek için **FieldAddressBlock** sınıfını kullanabilirsiniz:
 
 - alana ülke/bölge adının eklenip eklenmeyeceğini belirtin
 - adresin alıcının ülkesine/bölgesine göre POST*CODE ile tanımlandığı şekilde biçimlendirilip biçimlendirilmeyeceğini belirtin (Evrensel Posta Birliği 2006)
@@ -147,7 +148,7 @@ Bu örneğin örnek dosyasını şu adresten indirebilirsiniz [Aspose.Words GitH
 
 - yer iminin adını belirtin
 - varsayılan kullanıcı yanıtını belirtin (bilgi istemi penceresinde bulunan başlangıç değeri)
-- mail merge işlemi başına kullanıcı yanıtının bir kez alınıp alınmayacağını belirtin
+- Mail Merge işlemi başına kullanıcı yanıtının bir kez alınıp alınmayacağını belirtin
 - bilgi istemi metnini belirtin (bilgi istemi penceresinin başlığı)
 
 {{% alert color="primary" %}}

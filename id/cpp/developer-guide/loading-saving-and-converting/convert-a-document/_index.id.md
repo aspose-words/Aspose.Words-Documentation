@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mengonversi Dokumen dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Konversikan Dokumen
@@ -8,6 +8,7 @@ description: "Konversi dokumen dengan mudah dari satu format ke format lainnya m
 keywords: "convert a document c++, convert documents from one format to another c++, convert to markdown c++, convert pdf to docx C++, convert docx to pdf C++, convert doc to pdf C++, convert a document Aspose for C++"
 weight: 30
 url: /id/cpp/convert-a-document/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Kemampuan untuk mengonversi dokumen dengan mudah dan andal dari satu format ke format lainnya adalah salah satu area fitur utama Aspose.Words. Konversi semacam itu tidak lebih dari kombinasi operasi pemuatan dan penyimpanan.

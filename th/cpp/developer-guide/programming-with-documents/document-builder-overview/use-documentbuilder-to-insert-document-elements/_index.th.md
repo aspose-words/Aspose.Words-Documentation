@@ -1,12 +1,13 @@
-﻿---
-title: ใช้`DocumentBuilder`เพื่อแทรกองค์ประกอบของเอกสาร
+---
+title: ใช้DocumentBuilderเพื่อแทรกองค์ประกอบของเอกสาร
 second_title: Aspose.WordsสำหรับC++
-articleTitle: ใช้`DocumentBuilder`เพื่อแทรกองค์ประกอบของเอกสาร
-linktitle: ใช้`DocumentBuilder`เพื่อแทรกองค์ประกอบของเอกสาร
+articleTitle: ใช้DocumentBuilderเพื่อแทรกองค์ประกอบของเอกสาร
+linktitle: ใช้DocumentBuilderเพื่อแทรกองค์ประกอบของเอกสาร
 type: docs
 description: "แทรกอิลิเมนต์เอกสารโดยใช้ตัวสร้างเอกสารในC++."
 weight: 80
 url: /th/cpp/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 `DocumentBuilder`ถูกใช้เพื่อแก้ไขเอกสาร บทความนี้อธิบายและอธิบายวิธีการดำเนินการจำนวนของงาน:

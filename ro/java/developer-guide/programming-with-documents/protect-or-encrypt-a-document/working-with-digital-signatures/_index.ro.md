@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrați cu semnături digitale în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Lucrați cu semnături digitale
@@ -7,6 +7,7 @@ description: "Semnați digital documente și detectați, numărați, verificați
 type: docs
 weight: 30
 url: /ro/java/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 O semnătură digitală este o implementare tehnologică a semnăturilor electronice pentru semnarea documentelor și autentificarea semnatarului pentru a garanta că un document nu a fost modificat de la semnarea acestuia. Fiecare semnătură digitală este unică pentru fiecare semnatar datorită respectării protocolului PKI pentru a genera atât chei publice, cât și private. Semnarea digitală a unui document înseamnă crearea unei semnături folosind cheia privată a semnatarului, unde un algoritm matematic este utilizat pentru a cripta hash-ul generat.

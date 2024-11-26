@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中插入字段
 second_title: Aspose.Words对于C++
 articleTitle: 插入字段
@@ -7,6 +7,7 @@ description: "使用C++将字段插入文档的不同方法。"
 type: docs
 weight: 20
 url: /zh/cpp/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有几种不同的方法可以将字段插入到文档中:

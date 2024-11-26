@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET 透過 C# 在內建或自訂的文件屬性�
 type: docs
 weight: 10
 url: /zh-hant/net/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 文件屬性可以儲存您的文書中一些有用的資訊。 這些特性可以分成兩組。

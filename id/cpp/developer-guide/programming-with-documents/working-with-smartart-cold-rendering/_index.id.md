@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Rendering Dingin SmartArt di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Rendering Dingin SmartArt
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words untuk C++ melakukan Rendering Dingin SmartArt, artinya ia menjabarkan dan merender objek SmartArt jika gambar SmartArt yang dirender sebelumnya hilang atau salah."
 weight: 330
 url: /id/cpp/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 SmartArt grafik digunakan untuk membuat representasi visual informasi dengan cepat dan mudah. Anda cukup memilih dari sejumlah besar tata letak yang paling sesuai dengan situasi Anda. Kemudahan penggunaan ini membuat grafik SmartArt cukup populer untuk beberapa tujuan.

@@ -7,6 +7,7 @@ description: "Uzyskaj informacje o formacie dokumentu przed jego otwarciem, aby 
 type: docs
 weight: 20
 url: /pl/java/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Czasami konieczne jest określenie formatu dokumentu przed otwarciem, ponieważ rozszerzenie pliku nie gwarantuje, że zawartość pliku jest odpowiednia. Na przykład wiadomo, że Crystal Reports często wysyła dokumenty w formacie RTF, ale daje im rozszerzenie .doc.

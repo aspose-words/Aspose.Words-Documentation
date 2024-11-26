@@ -7,6 +7,7 @@ description: "Aspose.Words pour Python via .NET peut vous aider à convertir ent
 type: docs
 weight: 20
 url: /fr/python-net/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 La plupart des propriétés d'objet fournies dans le Aspose.Words API qui représentent certaines mesures, telles que la largeur ou la hauteur, les marges et diverses distances, acceptent des valeurs en points, où 1 pouce équivaut à 72 points. Parfois, cela n’est pas pratique et les points doivent être convertis en d’autres unités.

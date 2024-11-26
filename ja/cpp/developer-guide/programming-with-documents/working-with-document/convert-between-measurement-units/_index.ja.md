@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++での測定単位間の変換
 second_title: C++の場合Aspose.Words
 articleTitle: 測定単位間の変換
@@ -7,6 +7,7 @@ description: "C++の場合Aspose.Words たとえば、インチからポイン�
 type: docs
 weight: 20
 url: /ja/cpp/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 幅や高さ、余白、さまざまな距離などの測定値を表すAspose.WordsAPIで提供されるオブジェクトプロパティのほとんどは、点単位の値を受け入れます。1インチは72点に等しくなります。 これは便利ではなく、ポイントを他の単位に変換する必要がある場合があります。

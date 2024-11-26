@@ -1,4 +1,4 @@
-﻿---
+---
 title: Spécifier les options de chargement en C++
 second_title: Aspose.Words pour C++
 articleTitle: Spécifier Les Options De Chargement
@@ -7,6 +7,7 @@ description: "Contrôlez plus précisément le processus de charge."
 type: docs
 weight: 10
 url: /fr/cpp/specify-load-options/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Lors du chargement d'un document, vous pouvez définir certaines propriétés avancées. Aspose.Words vous fournit la classe [LoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/loadoptions/), qui permet un contrôle plus précis du processus de chargement. Certains formats de chargement ont une classe correspondante qui contient des options de chargement pour ce format de chargement, par exemple, il y a [PdfLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/pdfloadoptions/) pour le chargement au format PDF ou [TxtLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/txtloadoptions/) pour le chargement au format TXT. Cet article fournit des exemples d'utilisation des options de la classe **LoadOptions**.

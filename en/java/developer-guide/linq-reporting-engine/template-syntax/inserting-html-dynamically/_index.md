@@ -7,6 +7,7 @@ description: "Insert HTML into your document dynamically when building a report 
 type: docs
 weight: 55
 url: /java/inserting-html-dynamically/
+timestamp: 2024-01-27-14-07-04
 ---
 
 You can insert HTML to your reports dynamically by using one of the following two options.

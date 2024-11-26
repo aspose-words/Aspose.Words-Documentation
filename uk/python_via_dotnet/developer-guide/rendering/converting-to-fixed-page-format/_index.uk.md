@@ -7,6 +7,7 @@ description: "Зберегти документи в PDF, XPS, JavaScript licens
 type: docs
 weight: 10
 url: /uk/python-net/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words здійснює власний макет сторінки двигуна. Перед тим, як продемонструвати свої технічні характеристики, варто спочатку обговорити документ на високому рівні. Коли мислити про документ, користувачі зазвичай уявляють ряд аркушів паперу, що містять слова, зображення, таблиці та діаграми. Документи можуть бути різними типами, такими як текст, таблиці, слайди, малюнки САД, витратні матеріали та, отже, можуть мати істотно різні макети. Більшість додатків дозволяють надсилати документи на принтер; це коли користувач може фактично переглядати кінцевий вигляд документа.
@@ -49,7 +50,7 @@ Aspose.Words реалізовує функцію макетування стор
 
 ![converting-to-fixed-page-format_2](/words/python-net/converting-to-fixed-page-format/converting-to-fixed-page-format-2.png)
 
-У <span notrans="<span notrans=" Aspose.Words"=""></span>, > Користувач може запитати, чи побудувати нову версію сторінки або оновити існуючу. І з них можна виконувати [update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) метод, що надається методом [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) клас. Якщо макет сторінки не існує, але потрібно для нього (наприклад, коли документ вивозиться до фіксованого формату сторінки), Aspose.Words автоматично зателефонуйте цей метод. Однак якщо вже існує макет сторінки, Aspose.Words використовувати наявний, щоб уникнути споживання ресурсів, необхідних для його оновлення. У цьому випадку користувач повинен викликати [update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) метод, для того, щоб переконатися, що макет сторінки додано до дати з моделлю документа.
+У Aspose.Words, > Користувач може запитати, чи побудувати нову версію сторінки або оновити існуючу. І з них можна виконувати [update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) метод, що надається методом [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) клас. Якщо макет сторінки не існує, але потрібно для нього (наприклад, коли документ вивозиться до фіксованого формату сторінки), Aspose.Words автоматично зателефонуйте цей метод. Однак якщо вже існує макет сторінки, Aspose.Words використовувати наявний, щоб уникнути споживання ресурсів, необхідних для його оновлення. У цьому випадку користувач повинен викликати [update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) метод, для того, щоб переконатися, що макет сторінки додано до дати з моделлю документа.
 
 ### Динамічна структура
 

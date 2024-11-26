@@ -7,6 +7,7 @@ description: "Python'te tabloyu bölme. Bir tabloyu iki ayrı tabloya nasıl bö
 type: docs
 weight: 100
 url: /tr/python-net/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words Document Object Model'de temsil edilen bir tablo, bağımsız satırlardan ve hücrelerden oluşur ve bu da tabloyu bölmeyi kolaylaştırır.

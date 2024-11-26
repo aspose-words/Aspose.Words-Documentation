@@ -1,208 +1,209 @@
----
-title: Insert Fields in Java
-second_title: Aspose.Words for Java
-articleTitle: حقول الإرسال
-linktitle: حقول الإرسال
-description: "طرق مختلفة لإدراج الحقول في وثيقتكم باستخدام Java."
+﻿---
+title: أدخل الحقول في Java
+second_title: Aspose.Words ل Java
+articleTitle: أدخل الحقول
+linktitle: أدخل الحقول
+description: "طرق مختلفة لإدراج الحقول في المستند باستخدام Java."
 type: docs
 weight: 20
 url: /ar/java/insert-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
-وهناك عدة طرق مختلفة لإدراج الحقول في وثيقة:
+هناك عدة طرق مختلفة لإدراج الحقول في مستند:
 
-- استخدام [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)
-- استخدام [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/)
-- استخدام [Aspose.Words Document Object Model (DOM)](/words/ar/java/aspose-words-document-object-model/)
+- باستخدام [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)
+- باستخدام [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/)
+- باستخدام [Aspose.Words نموذج كائن المستند (DOM)](/words/java/aspose-words-document-object-model/)
 
-وفي هذه المادة، سننظر في كل طريق بمزيد من التفصيل، ونحلل كيفية إدخال بعض الميادين باستخدام هذه الخيارات.
+في هذه المقالة، سنلقي نظرة على كل طريقة بمزيد من التفصيل ونحلل كيفية إدراج حقول معينة باستخدام هذه الخيارات.
 
-## Inserting Fields into a Document using DocumentBuilder
+## إدراج الحقول في مستند باستخدام DocumentBuilder
 
-In Aspose.Words the [InsertField](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertField(int,boolean)() تستخدم طريقة لإدراج حقول جديدة في وثيقة. ويقبل البارامترات الأولى الرمز الميداني الكامل للميدان الذي سيدرج. أما البارامتر الثاني فهو اختياري ويسمح بتحديد النتيجة الميدانية للميدان يدويا. وإذا لم يتم توفير ذلك، يجري تحديث الميدان تلقائيا. يمكنك أن تمرر باطلة أو فارغة إلى هذا البارامترات لتدخل حقل ذو قيمة ميدانية فارغة إن لم تكن واثقاً بشأن (سينتاكس) المُحدد، فخلق الحقل Microsoft Word أولاً وبدلاً لرؤية رمزها الميداني
+في Aspose.Words يتم استخدام طريقة [InsertField](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertField(int,boolean)) لإدراج حقول جديدة في مستند. تقبل المعلمة الأولى رمز الحقل الكامل للحقل المراد إدراجه. المعلمة الثانية اختيارية وتسمح بتعيين نتيجة الحقل للحقل يدويا. إذا لم يتم توفير هذا، فسيتم تحديث الحقل تلقائيا. يمكنك تمرير فارغة أو فارغة إلى هذه المعلمة لإدراج حقل بقيمة حقل فارغ. إذا لم تكن متأكدا من بناء جملة رمز الحقل المحدد، فقم بإنشاء الحقل في Microsoft Word أولا وقم بالتبديل لرؤية رمز الحقل الخاص به.
 
 {{% alert color="primary" %}}
 
-إذا كان شفرة الحقل لديك بارامتر يحتوي على مساحة... ... ثم يجب أن تكون مغلقة في علامات الخطاب. و إلا في الميدان Microsoft Word و Aspose.Words قد لا يعمل كما هو متوقع حيث أن البارامترات تعالج من قبل كل منهما على أنه يجري تهكمها.
+إذا كان رمز الحقل الخاص بك يحتوي على معلمة تحتوي على مسافة، فيجب أن يكون محاطا بعلامات الكلام. وإلا فإن الحقل في كل من Microsoft Word و Aspose.Words قد لا يعمل كما هو متوقع حيث يتم التعامل مع المعلمة من قبل كليهما على أنها مقطوعة.
 
 {{% /alert %}}
 
-ويبين المثال الرمزي التالي كيفية إدراج حقل مدمج في وثيقة باستخدام **DocumentBuilder**:
+يوضح مثال التعليمات البرمجية التالية كيفية إدراج حقل دمج في مستند باستخدام **DocumentBuilder**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-InsertField.java" >}}
 
-وتُستخدم هذه التقنية نفسها لإدراج حقول محفورة في ميادين أخرى.
+يتم استخدام نفس الأسلوب لإدراج الحقول المتداخلة داخل الحقول الأخرى.
 
-ويدل المثال الرمزي التالي على كيفية إدراج الحقول المحجوبة في ميدان آخر باستخدام **DocumentBuilder**:
+يوضح مثال التعليمات البرمجية التالية كيفية إدراج الحقول المتداخلة داخل حقل آخر باستخدام **DocumentBuilder**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertNestedFields-InsertNestedFields.java" >}}
 
-### تحديد الرتبة المحلية على المستوى الميداني
+### تحديد اللغة على المستوى الميداني
 
-A language identifier is a standard international numeric abbreviation for the language in a country or geographical region. مع Aspose.Words, يمكنك تحديد المحلي على المستوى الميداني باستخدام [LocaleId](https://reference.aspose.com/words/java/com.aspose.words/field/#getLocaleId) الملكية التي تحصل أو تحدد هوية الميدان المحلية
+معرف اللغة هو اختصار رقمي دولي قياسي للغة في بلد أو منطقة جغرافية. باستخدام Aspose.Words، يمكنك تحديد اللغة على مستوى الحقل باستخدام خاصية [LocaleId](https://reference.aspose.com/words/java/com.aspose.words/field/#getLocaleId)، التي تحصل على لغة الحقل ID أو تضبطها.
 
-ويبين المثال الرمزي التالي كيفية استخدام هذا الخيار:
+يوضح مثال التعليمات البرمجية التالية كيفية استخدام هذا الخيار:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-SpecifylocaleAtFieldlevel-SpecifylocaleAtFieldlevel.java" >}}
 
-### Insert Untyped/Empty Field
+### أدخل حقل غير مكتوب / فارغ
 
-إذا كنت ترغب في إدخال حقول غير نمطية/ فارغة{}تماما مثل Microsoft Word يسمح، يمكنك استخدام [InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) طريقة مع [FieldType.FieldNone](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) البارامترات ولإدراج حقل في وثيقة كلمة، يمكنك أن تضغط على مجموعة مفاتيح " Ctrl + F9 ".
+إذا كنت تريد إدراج حقول غير مكتوبة / فارغة ({}) تماما مثل Microsoft Word يسمح، يمكنك استخدام طريقة [InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) مع المعلمة [FieldType.FieldNone](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/). لإدراج حقل في مستند ورد، يمكنك الضغط على" كترل + F9 " تركيبة المفاتيح.
 
-ويبين المثال الرمزي التالي كيفية إدراج حقل فارغ في الوثيقة:
+يوضح مثال التعليمات البرمجية التالية كيفية إدراج حقل فارغ في المستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertFieldNone-InsertFieldNone.java" >}}
 
-### Insert `COMPARE` الميدان
+### أدخل حقل `COMPARE`
 
-The `COMPARE` المجال يقارن قيمتين ويعيد القيمة العددية 1 إذا كانت المقارنة true أو صفر إذا كانت المقارنة false.
+يقارن الحقل `COMPARE` قيمتين ويعيد القيمة الرقمية 1 إذا كانت المقارنة صحيحة أو 0 إذا كانت المقارنة خاطئة.
 
-ويبين المثال الرمزي التالي كيفية إضافة `COMPARE` الحقول التي تستخدم الوثيقة:
+يوضح مثال الكود التالي كيفية إضافة `COMPARE` الحقول باستخدام DocumentBuilder:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldCompare.java" >}}
 
-### Insert `IF` الميدان
+### أدخل حقل `IF`
 
-The `IF` ويمكن استخدام الحقل لتقييم الحجج بصورة مشروطة.
+يمكن استخدام الحقل `IF` لتقييم الوسيطات بشكل مشروط.
 
-ويبين المثال الرمزي التالي كيفية إضافة `IF` الحقول التي تستخدم الوثيقة:
+يوضح مثال الكود التالي كيفية إضافة `IF` الحقول باستخدام DocumentBuilder:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldIf.java" >}}
 
-## Inserting Fields into a Document using FieldBuilder
+## إدراج الحقول في مستند باستخدام FieldBuilder
 
-الطريقة البديلة لإدراج الحقول في Aspose.Words هو [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/) صف وهي توفر واجهة مؤثرة لتحديد التبديلات الميدانية وقيم الحجج بوصفها نصوصاً أو مواصفاً أو حتى حقول محفورة.
+الطريقة البديلة لإدراج الحقول في Aspose.Words هي فئة [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/). يوفر واجهة بطلاقة لتحديد مفاتيح الحقول وقيم الوسيطة كنص أو عقد أو حتى حقول متداخلة.
 
-ويبين المثال الرمزي التالي كيفية إدراج حقل في وثيقة باستخدام **FieldBuilder**:
+يوضح مثال التعليمات البرمجية التالية كيفية إدراج حقل في مستند باستخدام **FieldBuilder**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-FieldBuilder.java" >}}
 
-## Inserting Fields using DOM
+## إدراج الحقول باستخدام DOM
 
-يمكنك أيضا إدخال مختلف أنواع الحقول باستخدام [Aspose.Words Document Object Model (DOM)](/words/ar/java/aspose-words-document-object-model/). وفي هذا الفرع، سننظر في بضعة أمثلة.
+يمكنك أيضا إدراج أنواع مختلفة من الحقول باستخدام [Aspose.Words نموذج كائن المستند (DOM)](/words/java/aspose-words-document-object-model/). في هذا القسم، سنلقي نظرة على بعض الأمثلة.
 
-### Inserting Merge حقل في وثيقة باستخدام DOM
+### إدراج حقل دمج في مستند باستخدام DOM
 
-`MERGEFIELD` الميدان في الوثيقة الوردية يمكن أن يمثلها [FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/) الصف يمكنك استخدام **FieldMergeField** درجة أداء العمليات التالية:
+`MERGEFIELD` field in Word document can be represented by the [FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/) class. You can use **FieldMergeField** class to perform the following operations:
 
-- تحديد اسم الحقل المدمج
-- تحديد شكل المجال المدمج
-- تحديد النص الذي يوجد بين الفصل الميداني والنهاية الميدانية للميدان المدمج
-- تحديد النص الذي سيدرج بعد دمج الحقل إذا لم يكن الميدان فارغا
-- تحديد النص الذي سيدرج قبل الميدان المدمج إذا لم يكن الميدان فارغا
+- حدد اسم حقل الدمج
+- حدد تنسيق حقل الدمج
+- حدد النص الموجود بين فاصل الحقل ونهاية الحقل لحقل الدمج
+- حدد النص المراد إدراجه بعد حقل الدمج إذا لم يكن الحقل فارغا
+- حدد النص المراد إدراجه قبل حقل الدمج إذا لم يكن الحقل فارغا
 
 {{% alert color="primary" %}}
 
-لمزيد من التفاصيل، انظر [FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/) الصف API.
+لمزيد من التفاصيل، راجع فئة [FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/) API.
 
 {{% /alert %}}
 
-ويبين المثال الرمزي التالي كيفية إضافة `MERGE` استخدام الحقل DOM فقرة في وثيقة:
+يوضح مثال التعليمات البرمجية التالية كيفية إضافة الحقل `MERGE` باستخدام DOM إلى فقرة في مستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertMergeFieldUsingDOM-InsertMergeFieldUsingDOM.java" >}}
 
-### Inserting Mail Merge `ADDRESSBLOCK` الحقل في وثيقة باستخدام DOM
+### إدراج حقل Mail Merge `ADDRESSBLOCK` في مستند باستخدام DOM
 
-The `ADDRESSBLOCK` يُستخدم الحقل لإدخال mail merge عنوان في وثيقة كلمة. `ADDRESSBLOCK` الميدان في الوثيقة الوردية يمكن أن يمثلها [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) الصف يمكنك استخدام **FieldAddressBlock** درجة أداء العمليات التالية:
+يتم استخدام الحقل `ADDRESSBLOCK` لإدراج كتلة عنوان Mail Merge في مستند ورد. `ADDRESSBLOCK` الحقل في وثيقة كلمة يمكن أن يمثله فئة [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/). يمكنك استخدام فئة **FieldAddressBlock** لإجراء العمليات التالية:
 
-- تحديد ما إذا كان ينبغي إدراج اسم البلد/الإقليم في الميدان
-- تحديد ما إذا كان ينبغي وضع العنوان حسب البلد/إقليم المتلقي على النحو المحدد في POST*CODE (الاتحاد البريدي العالمي 2006)
-- تحديد اسم البلد/الإقليم المستبعد
-- تحديد الاسم وشكل العنوان
-- تحديد الهوية اللغوية المستخدمة في صياغة العنوان
+- حدد ما إذا كنت تريد تضمين اسم البلد / المنطقة في الحقل
+- حدد ما إذا كنت تريد تنسيق العنوان وفقا لبلد / منطقة المستلم على النحو المحدد في POST * CODE (الاتحاد البريدي العالمي 2006)
+- حدد اسم البلد/المنطقة المستبعدة
+- حدد تنسيق الاسم والعنوان
+- حدد اللغة ID المستخدمة لتنسيق العنوان
 
 {{% alert color="primary" %}}
 
-لمزيد من التفاصيل، انظر [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) الصف API.
+لمزيد من التفاصيل، راجع فئة [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) API.
 
 {{% /alert %}}
 
-ويبين المثال الرمزي التالي كيفية إضافة Mail Merge `ADDRESSBLOCK` الاستخدام الميداني DOM فقرة في وثيقة:
+يوضح مثال التعليمات البرمجية التالية كيفية إضافة الحقل Mail Merge `ADDRESSBLOCK` باستخدام DOM إلى فقرة في مستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertMailMergeAddressBlockFieldUsingDOM-InsertMailMergeAddressBlockFieldUsingDOM.java" >}}
 
-### Inserting `ADVANCE` الميدان في وثيقة دون استخدام الوثيقة
+### إدراج حقل `ADVANCE` في مستند بدون استخدام DocumentBuilder
 
-The `ADVANCE` ويُستخدم الحقل لتعويض النص اللاحق ضمن خط إلى اليسار أو اليمين أو الصعود أو الهبوط. `ADVANCE` الميدان في الوثيقة الوردية يمكن أن يمثلها [FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/fieldadvance/) الصف يمكنك استخدام **FieldAdvance** درجة الأداء:
+يتم استخدام الحقل `ADVANCE` لتعويض النص اللاحق داخل سطر إلى اليسار أو اليمين أو لأعلى أو لأسفل. `ADVANCE` الحقل في وثيقة كلمة يمكن أن يمثله فئة [FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/fieldadvance/). يمكنك استخدام فئة **FieldAdvance** لتنفيذ العمليات التالية:
 
-- تحديد عدد النقاط التي ينبغي بواسطتها نقل النص التالي للميدان عمودياً من أعلى الصفحة
-- تحديد عدد النقاط التي ينبغي بواسطتها نقل النص التالي للميدان أفقيا من الطرف الأيسر من العمود أو الإطار أو الإطار النصي
-- تحديد عدد النقاط التي ينبغي بواسطتها نقل النص التالي للميدان إلى اليسار أو اليمين أو إلى الأعلى أو إلى أسفل
+- حدد عدد النقاط التي يجب من خلالها نقل النص الذي يلي الحقل عموديا من الحافة العلوية للصفحة
+- حدد عدد النقاط التي يجب من خلالها نقل النص الذي يلي الحقل أفقيا من الحافة اليسرى للعمود أو الإطار أو مربع النص
+- حدد عدد النقاط التي يجب من خلالها تحريك النص الذي يلي الحقل إلى اليسار أو اليمين أو لأعلى أو لأسفل
 
 {{% alert color="primary" %}}
 
-لمزيد من التفاصيل، انظر [FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/fieldadvance/) الصف API.
+لمزيد من التفاصيل، راجع فئة [FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/fieldadvance/) API.
 
 {{% /alert %}}
 
-ويبين المثال الرمزي التالي كيفية إضافة `ADVANCE` الاستخدام الميداني DOM فقرة في وثيقة:
+يوضح مثال التعليمات البرمجية التالية كيفية إضافة الحقل `ADVANCE` باستخدام DOM إلى فقرة في مستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldAdvance.java" >}}
 
-### Inserting `ASK` الميدان في وثيقة دون استخدام الوثيقة
+### إدراج حقل `ASK` في مستند بدون استخدام DocumentBuilder
 
-The `ASK` ويُستخدم المجال لحفز المستعمل على النص على تخصيص علامة كتاب في وثيقة وورد. `ASK` الميدان في الوثيقة الوردية يمكن أن يمثلها [FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/fieldask/) الصف يمكنك استخدام **FieldAsk** درجة الأداء:
+يتم استخدام الحقل `ASK` لمطالبة المستخدم للنص لتعيين إشارة مرجعية في مستند ورد. `ASK` الحقل في وثيقة كلمة يمكن أن يمثله فئة [FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/fieldask/). يمكنك استخدام فئة **FieldAsk** لإجراء العمليات التالية:
 
-- تحديد اسم علامة الكتاب
-- تحديد استجابة المستخدمين غير الافتراضيين (القيمة الأولية الواردة في النافذة السريعة)
-- تحديد ما إذا كان ينبغي تلقي رد المستعملين مرة واحدة لكل فرد mail merge العملية
-- تحديد النص الفوري (عنوان النافذة السريعة)
+- حدد اسم الإشارة المرجعية
+- حدد استجابة المستخدم الافتراضية (القيمة الأولية الواردة في نافذة المطالبة)
+- حدد ما إذا كان يجب تلقي استجابة المستخدم مرة واحدة لكل عملية Mail Merge
+- حدد نص المطالبة (عنوان نافذة المطالبة)
 
 {{% alert color="primary" %}}
 
-لمزيد من التفاصيل، انظر [FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/fieldask/) الصف API.
+لمزيد من التفاصيل، راجع فئة [FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/fieldask/) API.
 
 {{% /alert %}}
 
-ويبين المثال الرمزي التالي كيفية إضافة `ASK` الاستخدام الميداني DOM فقرة في وثيقة:
+يوضح مثال التعليمات البرمجية التالية كيفية إضافة الحقل `ASK` باستخدام DOM إلى فقرة في مستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldAsk.java" >}}
 
-### Inserting `AUTHOR` الميدان في وثيقة دون استخدام الوثيقة
+### إدراج حقل `AUTHOR` في مستند بدون استخدام DocumentBuilder
 
-The `AUTHOR` الحقل مستعمل لتحديد اسم مؤلف الوثائق من `Document` الممتلكات. `AUTHOR` الميدان في الوثيقة الوردية يمكن أن يمثلها [FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/) الصف يمكنك استخدام **FieldAuthor** درجة الأداء:
+يتم استخدام الحقل `AUTHOR` لتحديد اسم مؤلف المستند من خصائص `Document`. `AUTHOR` الحقل في وثيقة كلمة يمكن أن يمثله فئة [FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/). يمكنك استخدام فئة **FieldAuthor** لإجراء العمليات التالية:
 
-- تحديد اسم المؤلف
+- حدد اسم مؤلف المستند
 
 {{% alert color="primary" %}}
 
-لمزيد من التفاصيل، انظر [FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/) الصف API.
+لمزيد من التفاصيل، راجع فئة [FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/) API.
 
 {{% /alert %}}
 
-ويبين المثال الرمزي التالي كيفية إضافة `AUTHOR` الاستخدام الميداني DOM فقرة في وثيقة:
+يوضح مثال التعليمات البرمجية التالية كيفية إضافة الحقل `AUTHOR` باستخدام DOM إلى فقرة في مستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertAuthorField-InsertAuthorField.java" >}}
 
-### Inserting `INCLUDETEXT` الميدان في وثيقة دون استخدام الوثيقة
+### إدراج حقل `INCLUDETEXT` في مستند بدون استخدام DocumentBuilder
 
-The `INCLUDETEXT` يُدرج في الميدان النص والرسوم البيانية الواردة في الوثيقة المذكورة في القانون الميداني. ويمكنكم أن تدرجوا الوثيقة بأكملها أو جزء من الوثيقة المشار إليها بعلامة كتابية. ويمثل هذا المجال في الوثيقة الوردية INCLUDETEXT. يمكنك استخدام [FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/) درجة الأداء:
+يدرج الحقل `INCLUDETEXT` النص والرسومات الموجودة في المستند المسمى في رمز الحقل. يمكنك إدراج المستند بأكمله أو جزء من المستند المشار إليه بواسطة إشارة مرجعية. يتم تمثيل هذا الحقل في مستند ورد بواسطة INCLUDETEXT. يمكنك استخدام فئة [FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/) لإجراء العمليات التالية:
 
--حدد اسم الكتاب المتضمن
-- تحديد موقع الوثيقة
+- حدد اسم الإشارة المرجعية للمستند المضمن
+- حدد موقع المستند
 
 {{% alert color="primary" %}}
 
-لمزيد من التفاصيل، انظر [FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/) الصف API.
+لمزيد من التفاصيل، راجع فئة [FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/) API.
 
 {{% /alert %}}
 
-ويبين المثال الرمزي التالي كيفية إضافة `INCLUDETEXT` استخدام الحقل DOM فقرة في وثيقة:
+يوضح مثال التعليمات البرمجية التالية كيفية إضافة الحقل `INCLUDETEXT` باستخدام DOM إلى فقرة في مستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldIncludeText.java" >}}
 
-### Inserting `TOA` الميدان في وثيقة دون استخدام الوثيقة
+### إدراج حقل `TOA` في مستند بدون استخدام DocumentBuilder
 
-The `TOA` (*Table of Authorities*) field builds and inserts a table of authorities. The `TOA` الحقل يجمع القيود التي تميزت بها `TA` (*Table of Authorities Entry*) fields. Microsoft تُدرج كلمة المكتب `TOA` الحقل الذي تضغط فيه* **Table of Authorities** المجموعة المعنية **References** تاب. عندما ترى `TOA` الحقل في وثيقتك، النسيج يبدو مثل هذا:
+ال `TOA` (*Table of Authorities*) يبني الحقل ويدرج جدول السلطات. يجمع الحقل `TOA` الإدخالات المميزة بحقول `TA` (*Table of Authorities Entry*). Microsoft كلمة مكتب إدراج الحقل `TOA` عند النقر فوق *Insert Table of Authorities* في المجموعة **Table of Authorities** على علامة التبويب **References**. عند عرض الحقل `TOA` في المستند الخاص بك، يبدو بناء الجملة كما يلي:
 
 { `TOA` [Switches ] }
 
 {{% alert color="primary" %}}
 
-لمزيد من التفاصيل، انظر [FieldToa](https://reference.aspose.com/words/java/com.aspose.words/fieldtoa/) الصف API.
+لمزيد من التفاصيل، راجع فئة [FieldToa](https://reference.aspose.com/words/java/com.aspose.words/fieldtoa/) API.
 
 {{% /alert %}}
 
-ويبين المثال الرمزي التالي كيفية إضافة `TOA` استخدام الحقل DOM إلى فقرة في وثيقة.
+يوضح مثال التعليمات البرمجية التالية كيفية إضافة الحقل `TOA` باستخدام DOM إلى فقرة في مستند.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertTOAField-InsertTOAField.java" >}}

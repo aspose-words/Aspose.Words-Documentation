@@ -7,6 +7,7 @@ type: docs
 description: "Načíst vzdálené zdroje, to může být příčinou bezpečnostních rizik. Podívejte se na společné bezpečnostní otázky a jejich řešení Java."
 weight: 120
 url: /cs/java/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ve výchozím nastavení Aspose.Words místo Java mohou při importu dokumentů nebo vložení obrázků pomocí DocumentBuilder načíst vzdálené zdroje, jako jsou obrázky, CSS styly nebo externí HTML dokumenty. Toto chování vám umožňuje zpracovávat dokumenty v plném rozsahu, ale může být důvodem některých bezpečnostních rizik, pokud je knihovna součástí webové aplikace.

@@ -7,6 +7,7 @@ description: "Tworzenie dokumentów wyjściowych z różnymi układami, w zależ
 type: docs
 weight: 10
 url: /pl/java/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words umożliwia tworzenie dokumentów wyjściowych z różnymi układami, w zależności od parametrów podanych w [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/) Własność **Document**. Ta nieruchomość przypomina niektóre z Microsoft Word opcje menu interfejsu użytkownika opisane w tym artykule.

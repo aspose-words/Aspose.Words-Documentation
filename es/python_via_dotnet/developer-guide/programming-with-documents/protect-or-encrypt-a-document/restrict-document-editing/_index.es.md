@@ -7,6 +7,7 @@ description: "Restrinja la edición de un documento estableciendo un tipo de res
 type: docs
 weight: 30
 url: /es/python-net/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A veces es posible que necesites limitar la capacidad de editar un documento y permitir solo ciertas acciones con él. Esto puede resultar útil para evitar que otras personas editen información sensible y confidencial en su documento.

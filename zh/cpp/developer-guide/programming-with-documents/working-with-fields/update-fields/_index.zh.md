@@ -1,4 +1,4 @@
-﻿---
+---
 title: 更新C++中的字段
 second_title: Aspose.Words对于C++
 articleTitle: 更新字段
@@ -7,6 +7,7 @@ description: "了解如何使用 C++ 更新字段。以编程方式更新字段�
 type: docs
 weight: 30
 url: /zh/cpp/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 通常，插入Microsoft Word的字段已包含最新值。 例如，如果字段是公式或页码，则它将包含给定文档版本的正确计算值。 但是，如果您有一个应用程序生成或修改具有字段（如合并两个文档或用数据填充它）的文档，那么理想情况下，必须更新所有字段才能使文档有用。

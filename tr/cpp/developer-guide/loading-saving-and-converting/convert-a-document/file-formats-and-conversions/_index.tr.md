@@ -1,4 +1,4 @@
-﻿---
+---
 title: Dosya Biçimleri ve Dönüşümler
 second_title: Aspose.Words için C++
 articleTitle: Dönüşüm neden Aspose.Words 'ın Amiral Gemisi Özelliğidir?
@@ -7,6 +7,7 @@ description: "Desteklenen herhangi bir yükten belgeleri yalnızca iki satırlı
 type: docs
 weight: 50
 url: /tr/cpp/file-formats-and-conversions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 {{% alert color="primary" %}}

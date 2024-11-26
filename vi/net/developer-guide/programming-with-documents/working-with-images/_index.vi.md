@@ -7,6 +7,7 @@ description: "Hình ảnh chi tiết và các tính năng nâng cao được Asp
 type: docs
 weight: 300
 url: /vi/net/working-with-images/
+timestamp: 2024-05-02-11-51-44
 ---
 
 Aspose.Words cho phép người dùng làm việc với hình ảnh một cách rất linh hoạt. Trong bài viết này, bạn chỉ có thể khám phá một số khả năng làm việc với hình ảnh.

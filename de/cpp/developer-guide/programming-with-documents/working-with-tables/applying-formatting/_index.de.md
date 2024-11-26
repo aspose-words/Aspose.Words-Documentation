@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tabellenformatierung in C++
 second_title: Aspose.Words für C++
 articleTitle: Formatierung anwenden
@@ -7,6 +7,7 @@ description: "Tabellenformatierung in Details mit C++. Verwenden Sie C++, um jed
 type: docs
 weight: 70
 url: /de/cpp/applying-formatting/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Jedes Element einer Tabelle kann mit unterschiedlichen Formatierungen angewendet werden. Beispielsweise wird die Tabellenformatierung auf die gesamte Tabelle angewendet, die Zeilenformatierung nur auf bestimmte Zeilen und die Zellenformatierung nur auf bestimmte Zellen.

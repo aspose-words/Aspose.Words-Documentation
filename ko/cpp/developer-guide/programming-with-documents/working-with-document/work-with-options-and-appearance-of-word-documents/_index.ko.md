@@ -1,4 +1,4 @@
-﻿---
+---
 title: 워드 문서의 옵션 및 모양
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 워드 문서의 옵션 및 모양 작업
@@ -7,6 +7,7 @@ description: "계정에 다양한 사이의 차이를 복용 워드 문서의 �
 type: docs
 weight: 40
 url: /ko/cpp/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 때로는 문서의 모양을 변경해야 할 수도 있습니다(예:언어 기본 설정 또는 페이지 당 줄 수 설정).Aspose.Words 문서 표시 방법과 몇 가지 추가 옵션을 제어하는 기능을 제공합니다. 이 기사에서는 이러한 가능성을 설명합니다.

@@ -8,6 +8,7 @@ url: /ar/python-net/create-or-load-a-document/
 description: "قم بإنشاء مستند فارغ أو تحميله من ملف أو دفق باستخدام Python."
 keywords: "create a document python, load a document python, create a blank document python, load a document from file python, load a document from stream python, create a document Aspose python, load a document Aspose python, load formats supported by Aspose.Words python"
 weight: 10
+timestamp: 2024-01-27-14-07-04
 ---
 
 تقريبًا أي مهمة تريد تنفيذها باستخدام Aspose.Words تتضمن تحميل مستند. تمثل فئة [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) مستندًا تم تحميله في الذاكرة. يحتوي المستند على العديد من المُنشئات المحملة بشكل زائد مما يسمح لك بإنشاء مستند فارغ أو تحميله من ملف أو دفق. يمكن تحميل المستند بأي تنسيق تحميل يدعمه Aspose.Words. للحصول على قائمة بجميع تنسيقات التحميل المدعومة، راجع تعداد [LoadFormat](https://reference.aspose.com/words/python-net/aspose.words/loadformat/).

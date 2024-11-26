@@ -7,6 +7,7 @@ description: "Bộ nhớ Aspose.Words cần bao nhiêu để làm việc với c
 type: docs
 weight: 10
 url: /vi/java/memory-requirements/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words cung cấp một loạt các tính năng để làm việc với các tài liệu ở nhiều định dạng khác nhau. Quan trọng là phải ghi nhận rằng không có giới hạn kích thước tối đa của tệp tài liệu mà Aspose.Words có thể xử lý hoặc hiển thị. Giới hạn duy nhất là số lượng RAM (độ nhớ) có sẵn ở phía bạn.

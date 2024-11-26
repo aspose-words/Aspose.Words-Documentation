@@ -7,6 +7,7 @@ description: "Jak najít některé vlastnosti pole, jako je kód pole a výslede
 type: docs
 weight: 25
 url: /cs/net/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Pole, které se vkládá pomocí [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) vrací a [Field](https://reference.aspose.com/words/net/aspose.words.fields/field/) objekt. Jedná se o třídu faсade, která poskytuje užitečné metody rychle najít některé vlastnosti pole.

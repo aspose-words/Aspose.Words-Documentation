@@ -7,6 +7,7 @@ type: docs
 description: "Trova una stringa o un modello di espressione regolare nel tuo documento e sostituiscilo con il testo che desideri utilizzando Python."
 weight: 100
 url: /it/python-net/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Puoi navigare facilmente all'interno del documento utilizzando tastiera e mouse, ma se hai molte pagine da scorrere, ci vorrà un po' di tempo per trovare il testo specifico in un documento lungo. Richiederà più tempo quando desideri sostituire determinati caratteri o parole che hai utilizzato nel tuo documento. La funzionalità "Trova e sostituisci" ti consente di trovare una sequenza di caratteri in un documento e sostituirla con un'altra sequenza di caratteri.

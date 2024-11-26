@@ -1,4 +1,4 @@
-﻿---
+---
 title: Panoramica della tabella
 second_title: Aspose.Words per C++
 articleTitle: Panoramica della tabella
@@ -7,6 +7,7 @@ description: "Lavorare con le tabelle e i loro componenti come celle, righe, col
 type: docs
 weight: 10
 url: /it/cpp/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words è una libreria di classi progettata per l'elaborazione lato server di documenti in vari formati - PDF, HTML, diversi formati Microsoft Word e altri-e supporta le tabelle nei seguenti modi:

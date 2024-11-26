@@ -1,13 +1,14 @@
-﻿---
+---
 title: Mail MergeのテンプレートC++
 second_title: Aspose.WordsのためのC++
 articleTitle: Mail Mergeテンプレート
 linktitle: Mail Mergeテンプレート
 type: docs
 description: "出力ドキュメント内の固定コンテンツを定義するmail mergeテンプレートを作成し、差し込み項目を使用して差し込み文書を生成します。"
-keywords: "create mail merge template с++"
+keywords: "create Mail Merge template с++"
 weight: 10
 url: /ja/cpp/mail-merge-template/
+timestamp: 2024-01-31-14-23-37
 ---
 
 マージテンプレートをmail merge操作のベースドキュメントとして使用するのは、単純なmail mergeまたはリージョンを持つmail mergeのいずれかである場合が一般的です。 地域を持つMail mergeは、単純なmail mergeよりも強力で人気があります。 単純なmail mergeは、領域が文書全体である領域を持つmail mergeの特定のケースと見なされます。 すべてについては、次の記事「Mail Merge操作の種類」で詳しく説明します。

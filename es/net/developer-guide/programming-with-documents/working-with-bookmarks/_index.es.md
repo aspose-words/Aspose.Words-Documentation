@@ -7,6 +7,7 @@ description: "Comprender los conceptos de marcadores y cómo se pueden utilizar 
 type: docs
 weight: 180
 url: /es/net/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Los marcadores identifican en un documento Microsoft Word las ubicaciones o fragmentos que usted nombra e identifica para referencia futura. Por ejemplo, puede utilizar un marcador para identificar el texto que desea revisar más adelante. En lugar de desplazarse por el documento para localizar el texto, puede acceder a él utilizando el cuadro de diálogo Marcador.

@@ -7,6 +7,7 @@ description: "Zapisuj dokumenty w formatach PDF, XPS, HTML, XAML, PostScript i P
 type: docs
 weight: 10
 url: /pl/python-net/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words wdraża własny silnik układu strony. Zanim zagłębimy się w jego specyfikację warto najpierw omówić dokument na wysokim poziomie. Myśląc o dokumencie, użytkownicy zazwyczaj wyobrażają sobie kilka arkuszy papieru zawierających słowa, obrazy, tabele i wykresy. Dokumenty mogą być różnego typu, np. tekst, arkusze kalkulacyjne, slajdy, rysunki CAD, schematy blokowe, dlatego też mogą mieć zasadniczo różne układy. Większość aplikacji umożliwia wysyłanie dokumentów do drukarki; wtedy użytkownik może faktycznie zobaczyć ostateczny zamierzony wygląd dokumentu.

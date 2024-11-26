@@ -7,6 +7,7 @@ description: "指定 Python 中的表格位置。使用 Python 获取表格对�
 type: docs
 weight: 50
 url: /zh/python-net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有浮动表和内联表：

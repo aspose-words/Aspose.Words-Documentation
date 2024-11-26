@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with comments in docx4j and Aspose.Words
 second_title: Aspose.Words for Java
 articleTitle: Working with comments in docx4j and Aspose.Words
@@ -7,6 +7,7 @@ description: "Work with comments within a document easily and fast instead of us
 type: docs
 weight: 100
 url: /java/working-with-comments-in-docx4j-and-aspose-words/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Working with comments

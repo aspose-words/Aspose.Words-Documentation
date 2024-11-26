@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++で文書を作成またはロードする
 second_title: C++の場合Aspose.Words
 articleTitle: 文書の作成または読み込み
@@ -8,6 +8,7 @@ description: "空の文書を作成するか、c++を使用してファイルま
 keywords: "create a document c++, load a document c++, create a blank document c++, load a document from file c++, load a document from stream c++, create a document Aspose C++, load a document Aspose C++, load formats supported by Aspose.Words C++"
 weight: 10
 url: /ja/cpp/create-or-load-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Wordsを使用して実行するほとんどのタスクには、文書の読み込みが含まれます。 `Document`クラスは、メモリにロードされたドキュメントを表します。 ドキュメントには複数のオーバーロードされたコンストラクターがあり、空のドキュメントを作成したり、ファイルやストリームからロードしたりできます。 文書はAspose.Wordsでサポートされている任意の読み込み形式で読み込むことができます。 サポートされているすべてのロード形式の一覧については、[LoadFormat](https://reference.aspose.com/words/cpp/aspose.words/loadformat/)列挙体を参照してください。

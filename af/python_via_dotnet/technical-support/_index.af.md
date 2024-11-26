@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tegniese Ondersteuning
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Tegniese Ondersteuning
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words vir Python via .NET bied gratis tegniese ondersteuning beskikbaar vir alle gebruikers. Rapporteer asseblief jou vraag, kwessie of funksie versoek Met Behulp Van Aspose Free Support Forum."
 weight: 80
 url: /af/python-net/technical-support/
+timestamp: 2024-11-18-12-56-02
 ---
 
 Aspose bied onbeperkte gratis tegniese ondersteuning vir al sy produkte. Ondersteuning is beskikbaar vir alle gebruikers, insluitend evaluering. Die belangrikste manier van ondersteuning is [Aspose.Forums](https://forum.aspose.com/c/words/8).

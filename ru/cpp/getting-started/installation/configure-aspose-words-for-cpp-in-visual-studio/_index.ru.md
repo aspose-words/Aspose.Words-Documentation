@@ -1,4 +1,4 @@
-﻿---
+---
 title: Настройте продукт в Visual Studio
 second_title: Aspose.Words для C++
 articleTitle: Конфигурировать Aspose.Words для C++ в Visual Studio
@@ -7,6 +7,7 @@ description: "Вручную сконфигурируйте Aspose.Words для 
 type: docs
 weight: 90
 url: /ru/cpp/configure-aspose-words-for-cpp-in-visual-studio/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words для C++ API работает с Visual Studio 2022 или более поздней версии. Для работы с Visual Studio, вам, возможно, потребуется установить Visual C++ по-доступен на [Официальный сайт Microsoft ](https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170).

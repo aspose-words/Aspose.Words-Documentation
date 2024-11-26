@@ -7,6 +7,7 @@ description: "Como inserir, obter, mover, mostrar ou ocultar favoritos usando Py
 type: docs
 weight: 180
 url: /pt/python-net/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Os marcadores identificam em um documento Microsoft Word os locais ou fragmentos que você nomeia e identifica para referência futura. Por exemplo, você pode usar um marcador para identificar o texto que deseja revisar posteriormente. Em vez de percorrer o documento para localizar o texto, você pode acessá-lo usando a caixa de diálogo Marcador.

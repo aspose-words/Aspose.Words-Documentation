@@ -1,4 +1,4 @@
-﻿---
+---
 title: 저장 옵션 지정 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 저장 옵션 지정
@@ -7,6 +7,7 @@ description: "더 정확하게 저장 프로세스를 제어 할 수 있습니�
 type: docs
 weight: 10
 url: /ko/cpp/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 문서를 저장할 때 일부 고급 속성을 설정할 수 있습니다. Aspose.Words 당신을 제공합니다 [SaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/) 저장 프로세스를보다 정확하게 제어 할 수있는 클래스. 의 과부하가 있습니다 **Save** 수락하는 방법 **SaveOptions** 객체-그것은에서 파생 된 클래스의 객체해야합니다 **SaveOptions** 수업 각 저장 형식에는 이 저장 형식에 대한 저장 옵션을 보유하는 해당 클래스가 있습니다. [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) 에 저장을 위해 PDF 형식, [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions) 에 저장을 위해 Markdown 형식 또는 [ImageSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/imagesaveoptions/) 이미지에 저장. 이 문서에서는 다음에서 파생된 일부 옵션 클래스로 작업하는 예를 제공합니다 **SaveOptions**.

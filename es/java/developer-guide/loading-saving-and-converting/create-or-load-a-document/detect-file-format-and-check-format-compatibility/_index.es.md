@@ -1,67 +1,68 @@
----
-title: Detectar formato de archivo
-second_title: Aspose.Words para Java
-articleTitle: Detectar formato de archivo y verificar formato Compatibilidad
-linktitle: Detectar formato de archivo y verificar formato Compatibilidad
-description: "Obtenga información sobre el formato de documento antes de abrirlo para evitar una excepción si no está seguro de qué contenido real del archivo está utilizando Java."
+﻿---
+title: Detectar Formato de Archivo
+second_title: Aspose.Words por Java
+articleTitle: Detecte el Formato de Archivo y Verifique la Compatibilidad del Formato
+linktitle: Detecte el Formato de Archivo y Verifique la Compatibilidad del Formato
+description: "Obtenga información sobre el formato del documento antes de abrirlo para evitar una excepción si no está seguro de cuál es el contenido real del archivo que usa Java."
 type: docs
 weight: 20
 url: /es/java/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
-A veces es necesario determinar el formato de un documento antes de abrir porque la extensión de archivo no garantiza que los contenidos del archivo sean apropiados. Por ejemplo, se sabe que Crystal Reports suele producir documentos en formato RTF, pero les da la extensión .doc.
+A veces es necesario determinar el formato de un documento antes de abrirlo porque la extensión del archivo no garantiza que el contenido del archivo sea el adecuado. Por ejemplo, se sabe que Crystal Reports a menudo genera documentos en formato RTF, pero les da el .extensión doc.
 
-Aspose.Words proporciona una capacidad para obtener información sobre el tipo de archivo para evitar una excepción si no está seguro de cuál es el contenido real del archivo.
+Aspose.Words proporciona la capacidad de obtener información sobre el tipo de archivo para evitar una excepción si no está seguro de cuál es el contenido real del archivo.
 
-## Detectar formato de archivo sin una excepción
+## Detecte el Formato de Archivo sin excepción
 
-Cuando usted está tratando con múltiples documentos en varios formatos de archivo, es posible que necesite separar los archivos que pueden ser procesados por Aspose.Words de aquellos que no pueden. También puede querer saber por qué algunos de los documentos no pueden ser procesados.
+Cuando se trata de varios documentos en varios formatos de archivo, es posible que deba separar los archivos que pueden procesarse con Aspose.Words de los que no pueden. También es posible que desee saber por qué no se pueden procesar algunos de los documentos.
 
-Si intenta cargar un archivo en un archivo [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) objeto y Aspose.Words no puede reconocer el formato de archivo o el formato no es compatible, Aspose.Words lanzará una excepción. Usted puede atrapar esas excepciones y analizarlas, pero Aspose.Words también proporciona el [DetectFileFormat](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/#detectFileFormat-java.lang.String) método que nos permite determinar rápidamente el formato de archivo sin cargar un documento con posibles excepciones. Este método devuelve a [FileFormatInfo](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/) objeto que contiene la información detectada sobre el tipo de archivo.
+Si intenta cargar un archivo en un objeto [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) y Aspose.Words no puede reconocer el formato de archivo o el formato no es compatible, Aspose.Words generará una excepción. Puede detectar esas excepciones y analizarlas, pero Aspose.Words también proporciona el método [DetectFileFormat](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/#detectFileFormat-java.lang.String) que nos permite determinar rápidamente el formato de archivo sin cargar un documento con posibles excepciones. Este método devuelve un objeto [FileFormatInfo](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/) que contiene la información detectada sobre el tipo de archivo.
 
 {{% alert color="primary" %}}
 
-DetectarFile El formato sólo comprueba el formato de archivo pero no valida el formato de archivo. No hay garantía de que el archivo se abra con éxito, incluso si **DetectFileFormat** devuelve que es uno de los formatos soportados. Esto es debido a **DetectFileFormat** método sólo lee datos parciales de formato de archivo, suficientes para comprobar el formato de archivo, pero no lo suficiente para la validación completa.
+DetectFileFormat solo comprueba el formato de archivo, pero no valida el formato de archivo. No hay garantía de que el archivo se abra correctamente, incluso si **DetectFileFormat** devuelve que es uno de los formatos admitidos. Esto se debe a que el método **DetectFileFormat** lee solo datos parciales del formato del archivo, suficientes para verificar el formato del archivo, pero no lo suficiente para una validación completa.
 
 {{% /alert %}}
 
-## Verificación de archivos Formato Compatibilidad
+## Comprobar la Compatibilidad de Formatos de Archivos
 
-Podemos comprobar la compatibilidad de formato de todos los archivos en la carpeta seleccionada y clasificarlos por formato en subcarpetas correspondientes.
+Podemos verificar la compatibilidad de formato de todos los archivos en la carpeta seleccionada y ordenarlos por formato en las subcarpetas correspondientes.
 
-Ya que estamos tratando con contenidos en una carpeta, lo primero que tenemos que hacer es conseguir una colección de todos los archivos en esta carpeta usando la **GetFiles** método del `Directory` clase (de la `System.IO` namespace).
+Dado que estamos tratando con el contenido de una carpeta, lo primero que debemos hacer es obtener una colección de todos los archivos de esta carpeta utilizando el método **GetFiles** de la clase `Directory` (del espacio de nombres `System.IO`).
 
 El siguiente ejemplo de código muestra cómo obtener una lista de todos los archivos en la carpeta:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-CheckFormatCompatibility-GetListOfFilesInFolder.java" >}}
 
-Cuando todos los archivos se recogen, el resto del trabajo es hecho por el **DetectFileFormat** método, que comprueba el formato de archivo.
+Cuando se recopilan todos los archivos, el resto del trabajo se realiza mediante el método **DetectFileFormat**, que verifica el formato del archivo.
 
-El siguiente ejemplo de código muestra cómo se iteran sobre la lista recolectada de archivos, verifique el formato de cada archivo y mueva cada archivo a la carpeta apropiada:
+El siguiente ejemplo de código muestra cómo iterar sobre la lista recopilada de archivos, verificar el formato de cada archivo y mover cada archivo a la carpeta correspondiente:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-CheckFormatCompatibility-CheckFormatCompatibility.java" >}}
 
-Los archivos se mueven en subcarpetas apropiadas utilizando `Move` método del `File` clase, de la misma `System.IO` Namespace.
+Los archivos se mueven a las subcarpetas apropiadas utilizando el método `Move` de la clase `File`, desde el mismo espacio de nombres `System.IO`.
 
-Los siguientes archivos se utilizan en el ejemplo anterior. El nombre del archivo está a la izquierda y su descripción está a la derecha:
+Los siguientes archivos se utilizan en el ejemplo anterior. El nombre del archivo está a la izquierda y su descripción a la derecha:
 
-| Group de Archivos | Documento de entrada | Tipo |
-|  :-  |  :-  |  :-  |
-| Formatos de archivo compatibles | Archivo de prueba (Doc).doc | Microsoft Word 95/6.0 o Microsoft Word Documento 97-2003. |
-|  | Archivo de prueba (Dot).dot | Microsoft Word 95/6.0 o Microsoft Word Plantilla 97-2003. |
-|  | Archivo de prueba (Docx).docx | Procesamiento de Word XML de Office Open ML documento sin macros. |
-|  | Archivo de prueba (Docm).docm | Procesamiento de Word XML de Office Open Documento ML con macros. |
-|  | Archivo de prueba (Dotx).dotx | Procesamiento de Word XML de Office Open Plantilla ML. |
-|  | Archivo de prueba (Dotm).dotm | Procesamiento de Word XML de Office Open Plantilla ML con macros. |
-|  | Archivo de prueba (XML).xml | FlatOPC OOXML Document. |
-|  | Archivo de prueba (RTF).rtf | Documento de formato de texto rico. |
-|  | Archivo de prueba (WordML).xml | Microsoft Word 2003 Wordprocessing ML document. |
-|  | Archivo de prueba (HTML).html | Documento HTML. |
-|  | Archivo de prueba (MHTML).mhtml | MHTML (archivo web) documento. |
-|  | Archivo de prueba (Odt).odt | Texto OpenDocument (OpenOffice Writer). |
-|  | Archivo de prueba (Ott).ott | Plantilla de documentos OpenDocument. |
-|  | Archivo de prueba (DocPreWord60).doc | Microsoft Word Documento 2.0. |
-| Documentos cifrados | Archivo de prueba (Enc).doc | Encriptado Microsoft Word 95/6.0 o Microsoft Word Documento 97-2003. |
-|  | Archivo de prueba (Enc).docx | Procesamiento de Word XML encriptado ML document. |
-| Formatos de archivo no compatibles | Archivo de prueba (JPG). jpg | Archivo de imagen JPEG. |
+| Grupo de Archivos | Documento de Entrada | Tipo |
+| :- | :- | :- |
+| Formatos de archivo admitidos | Test File (Doc).doc | Microsoft Word 95/6.0 o Microsoft Word 97 – documento de 2003. |
+|  | Test File (Dot).dot | Plantilla Microsoft Word 95 / 6.0 o Microsoft Word 97 – 2003. |
+|  | Test File (Docx).docx | Office Abre XML WordprocessingML documento sin macros. |
+|  | Test File (Docm).docm | Office Abre XML WordprocessingML documento con macros. |
+|  | Test File (Dotx).dotx | Plantilla de oficina abierta XML WordprocessingML. |
+|  | Test File (Dotm).dotm | Plantilla Office Open XML WordprocessingML con macros. |
+|  | Test File (XML).xml | FlatOPC OOXML Documento. |
+|  | Test File (RTF).rtf | Documento de Formato de Texto Enriquecido. |
+|  | Test File (WordML).xml | Microsoft Word documento de 2003 WordprocessingML. |
+|  | Test File (HTML).html | HTML documento. |
+|  | Test File (MHTML).mhtml | Documento MHTML (Archivo web). |
+|  | Test File (Odt).odt | OpenDocument Texto (OpenOffice Escritor). |
+|  | Test File (Ott).ott | Plantilla de documento OpenDocument. |
+|  | Test File (DocPreWord60).doc | Microsoft Word 2.0 documento. |
+| Documentos cifrados | Test File (Enc).doc | Documento cifrado Microsoft Word 95 / 6.0 o Microsoft Word 97 – 2003. |
+|  | Test File (Enc).docx | Documento Office Open XML WordprocessingML cifrado. |
+| Formatos de archivo no compatibles | Test File (JPG).jpg | JPEG archivo de imagen. |
 

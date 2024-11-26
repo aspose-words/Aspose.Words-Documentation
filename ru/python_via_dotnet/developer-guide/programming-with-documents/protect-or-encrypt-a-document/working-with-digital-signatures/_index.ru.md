@@ -1,95 +1,96 @@
----
+﻿---
 title: Работа с цифровыми подписями
 second_title: Aspose.Words для Python via .NET
 articleTitle: Работа с цифровыми подписями
 linktitle: Работа с цифровыми подписями
-description: "Цифровая подпись документов и обнаружение, подсчет, проверка и удаление существующих цифровых подписей с использованием Python."
+description: "Ставьте цифровую подпись на документах и обнаруживайте, подсчитывайте, проверяйте и удаляйте существующие цифровые подписи, используя Python."
 type: docs
 weight: 40
 url: /ru/python-net/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Цифровая подпись используется для аутентификации документа, чтобы установить, что отправитель документа является тем, кем он является, и содержание документа не было подделано.
+Цифровая подпись используется для проверки подлинности документа, чтобы установить, что отправитель документа является тем, за кого себя выдает, и содержание документа не было изменено.
 
-Aspose.Words Поддерживает документы с цифровыми подписями и предоставляет доступ к ним, позволяя обнаруживать и проверять цифровые подписи на документе и подписывать сгенерированный документ PDF с предоставленным сертификатом. В настоящее время цифровые подписи поддерживаются на документах DOC, OOXML и ODT. Подписание сгенерированных документов поддерживается в формате PDF.
+Aspose.Words поддерживает документы с цифровыми подписями и предоставляет к ним доступ, позволяющий обнаруживать и проверять цифровые подписи в документе и подписывать сгенерированный документ PDF с помощью предоставленного сертификата. В настоящее время цифровые подписи поддерживаются в документах DOC, OOXML и ODT. Поддерживается подписание сгенерированных документов в формате PDF.
 
 {{% alert color="primary" %}}
 
 **Попробуйте онлайн**
 
-Вы можете попробовать эту функцию с нашей [Бесплатная онлайн подпись](https://products.aspose.app/words/signature).
+Вы можете опробовать эту функцию с нашим [Бесплатный онлайн-подпись](https://products.aspose.app/words/signature).
 
 {{% /alert %}}
 
-## Цифровые подписи не хранятся в открытом и сохраненном виде
+## Цифровые подписи не сохраняются при открытии и сохранении
 
-Важно отметить, что документ загружается, а затем сохраняется с помощью Aspose.Words Вы потеряете все цифровые подписи, подписанные на документе. Это по дизайну, поскольку цифровая подпись гарантирует, что контент не был изменен, и, кроме того, удостоверяет личность подписавшего документ. Эти принципы были бы признаны недействительными, если бы первоначальные подписи были перенесены на итоговый документ.
+Важно отметить, что при загрузке и последующем сохранении документа с использованием Aspose.Words все цифровые подписи, подписанные на документе, будут утеряны. Это сделано специально, поскольку цифровая подпись гарантирует, что содержимое не было изменено, и, кроме того, подтверждает подлинность подписи того, кто подписал документ. Эти принципы были бы признаны недействительными, если бы первоначальные подписи были перенесены в итоговый документ.
 
-В связи с этим, если вы обрабатываете документы, загруженные на сервер, это может потенциально означать, что вы можете повредить документ, загруженный на ваш сервер таким образом, не зная об этом. Поэтому лучше всего проверить наличие цифровых подписей на документе и предпринять соответствующие действия, если они найдены, например, клиенту может быть отправлено предупреждение о том, что документ, который они передают, содержит цифровые подписи, которые будут потеряны, если он будет обработан. Вы можете скачать файл шаблона этого примера из [здесь](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Digitally%20signed.docx).
+В связи с этим, если вы обрабатываете документы, загруженные на сервер, это может означать, что вы можете повредить документ, загруженный на ваш сервер таким образом, не зная об этом. Поэтому лучше всего проверить наличие цифровых подписей в документе и предпринять соответствующие действия, если таковые будут обнаружены, например, клиенту может быть отправлено оповещение, информирующее его о том, что передаваемый им документ содержит цифровые подписи, которые будут потеряны при его обработке. Вы можете загрузить файл шаблона этого примера с[ здесь](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Digitally%20signed.docx).
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-working_with_file_format-DetectDocumentSignatures.py" >}}
 
-Приведенный выше код использует [FileFormatUtil.detect_file_format](https://reference.aspose.com/words/python-net/aspose.words/fileformatutil/detect_file_format/) Способ определения того, содержит ли документ цифровые подписи без предварительной загрузки документа. Это обеспечивает эффективный и безопасный способ проверки документа на наличие подписей перед их обработкой. При выполнении способ возвращает a [FileFormatInfo](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/) Объект, который предоставляет собственность [FileFormatInfo.has_digital_signature](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/has_digital_signature/). Это свойство возвращает true документ содержит одну или несколько цифровых подписей. Важно отметить, что этот метод не проверяет подлинность подписей, он только определяет, присутствуют ли подписи. Проверка цифровых подписей рассматривается в следующем разделе.
+В приведенном выше коде используется метод [FileFormatUtil.detect_file_format](https://reference.aspose.com/words/python-net/aspose.words/fileformatutil/detect_file_format/) для определения наличия цифровых подписей в документе без предварительной загрузки документа. Это обеспечивает эффективный и безопасный способ проверки документа на наличие подписей перед их обработкой. При выполнении метод возвращает объект [FileFormatInfo](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/), который предоставляет свойство [FileFormatInfo.has_digital_signature](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/has_digital_signature/). Это свойство возвращает значение true, если документ содержит одну или несколько цифровых подписей. Важно отметить, что этот метод не проверяет подписи, он только определяет, присутствуют ли подписи. Проверка цифровых подписей рассматривается в следующем разделе.
 
 {{% alert color="primary" %}}
 
-Вы также можете проверить, есть ли у документа цифровые подписи после загрузки, проверив его. `Count` имуществом, [Document.digital_signatures](https://reference.aspose.com/words/python-net/aspose.words/document/digital_signatures/) Коллекция.
+Вы также можете проверить, есть ли у документа цифровые подписи после загрузки, проверив свойство `Count` коллекции [Document.digital_signatures](https://reference.aspose.com/words/python-net/aspose.words/document/digital_signatures/).
 
 {{% /alert %}}
 
-## Цифровые подписи на Macros (VBA Projects)
+## Цифровые подписи в макросах (VBA Проектов)
 
-Цифровые подписи на макросах не могут быть доступны или подписаны. Это потому, что Aspose.Words Не имеет прямого отношения к макросам в документе. Однако цифровые подписи на макросах сохраняются при экспорте документа обратно в любой формат слов. Эти подписи могут сохраняться на коде VBA, поскольку двоичное содержимое макросов не изменяется, даже если изменяется сам документ.
+К цифровым подписям в макросах невозможно получить доступ или подписать их. Это связано с тем, что Aspose.Words не имеет прямого отношения к макросам в документе. Однако цифровые подписи в макросах сохраняются при обратном экспорте документа в любой формат word. Эти подписи могут быть сохранены в коде VBA, поскольку двоичное содержимое макросов не изменяется, даже если изменяется сам документ.
 
-### Доступ и проверка цифровых подписей
+### Доступ к цифровым подписям и их проверка
 
-Документ может иметь несколько цифровых подписей. Все эти подписи можно получить через [Document.digital_signatures](https://reference.aspose.com/words/python-net/aspose.words/document/digital_signatures/) Коллекция. Каждый возвращенный объект является [DigitalSignature](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignature/) представляет собой единую цифровую подпись, принадлежащую документу. Это дает участникам возможность проверить действительность подписи.
+Документ может иметь несколько цифровых подписей. Доступ ко всем этим подписям можно получить через коллекцию [Document.digital_signatures](https://reference.aspose.com/words/python-net/aspose.words/document/digital_signatures/). Каждый возвращаемый объект представляет собой [DigitalSignature](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignature/), который представляет одну цифровую подпись, принадлежащую документу. Это предоставляет элементы, которые позволяют вам проверить действительность подписи.
 
-Наиболее важным свойством для проверки с помощью цифровых подписей является действительность каждой подписи в документе. Все подписи в документе могут быть подтверждены сразу, позвонив по адресу: [DigitalSignatureCollection.is_valid](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignaturecollection/is_valid/) собственность. Это вернется true если все подписи в документе действительны или если документ не имеет подписей и false Если хотя бы одна цифровая подпись недействительна.
+Наиболее важным свойством для проверки с помощью цифровых подписей является достоверность каждой подписи в документе. Все подписи в документе можно проверить сразу, вызвав свойство [DigitalSignatureCollection.is_valid](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignaturecollection/is_valid/). Это вернет значение true, если все подписи в документе действительны или если в документе нет подписей, и значение false, если хотя бы одна цифровая подпись недействительна.
 
-Каждая подпись также может быть индивидуально подтверждена путем вызова. [DigitalSignature.is_valid](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignature/is_valid/). Подпись может быть возвращена недействительной по нескольким причинам, например, документ был изменен с момента подписания или срок действия сертификата истек. Также можно получить дополнительную информацию о подписи. Образец кода ниже показывает, как проверить каждую подпись в документе и отображать основную информацию о подписи. Вы можете скачать файл шаблона этого примера из [здесь](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Digitally%20signed.docx).
+Каждую подпись также можно проверить по отдельности, вызвав команду [DigitalSignature.is_valid](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignature/is_valid/). Подпись может оказаться недействительной по нескольким причинам, например, в документе произошли изменения с момента подписания или истек срок действия сертификата. Кроме того, можно получить доступ к дополнительным сведениям о подписи. В приведенном ниже примере кода показано, как проверить каждую подпись в документе и отобразить основную информацию о подписи. Вы можете скачать файл шаблона для этого примера с [здесь](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Digitally%20signed.docx).
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Protect or Encrypt Document-working_with_digital_sinatures-AccessAndVerifySignature.py" >}}
 
 ## Подписание документов Word
 
-[DigitalSignatureUtil](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignatureutil/) Класс предоставляет способы подписания документа. [DigitalSignatureUtil.sign](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignatureutil/sign/) метод вывески исходного документа с использованием данного [CertificateHolder](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/certificateholder/) с цифровой подписью и записывает подписанный документ в поток назначения
+[DigitalSignatureUtil](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignatureutil/) класс предоставляет методы для подписания документа. [DigitalSignatureUtil.sign](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignatureutil/sign/) метод подписывает исходный документ, используя заданную [CertificateHolder](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/certificateholder/) цифровую подпись, и записывает подписанный документ в целевой поток.
 
-Ниже приведен пример, как подписать простой документ
+В приведенном ниже примере показано, как подписать простой документ.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Protect or Encrypt Document-working_with_digital_sinatures-SingDocument.py" >}}
 
-Ниже приведен пример, как подписать зашифрованный документ
+В приведенном ниже примере показано, как подписать зашифрованный документ.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Protect or Encrypt Document-working_with_digital_sinatures-SigningEncryptedDocument.py" >}}
 
-### Подписание документа Word с помощью строки подписи
+### Подписание документа Word строкой подписи
 
-Вы можете подписать исходный документ, используя [CertificateHolder](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/certificateholder/) и [SignOptions](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/signoptions/) с цифровой подписью и записывает подписанный документ в файл назначения. использовать [SignOptions](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/signoptions/) В классе можно указать варианты подписания документов. Ниже пример показывает, как создать новую линию подписи и подписать документ
+Вы можете подписать исходный документ, используя заданные [CertificateHolder](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/certificateholder/) и [SignOptions](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/signoptions/) цифровой подписью, и записать подписанный документ в целевой файл. Используя класс [SignOptions](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/signoptions/), вы можете указать параметры подписи документа. В приведенном ниже примере показано, как создать новую строку подписи и подписать документ.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Protect or Encrypt Document-working_with_digital_sinatures-CreatingAndSigningNewSignatureLine.py" >}}
 
-Ниже приведен пример, как изменить существующую линию подписи и подписать документ
+В приведенном ниже примере показано, как изменить существующую строку подписи и подписать документ.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Protect or Encrypt Document-working_with_digital_sinatures-SigningExistingSignatureLine.py" >}}
 
-### Подписание документа Word с помощью идентификатора поставщика подписи
+### Подписание документа Word с использованием идентификатора поставщика подписи
 
-Ниже пример показывает, как подписать документ Word с помощью идентификатора поставщика подписи. Поставщик криптографических услуг (CSP) является независимым программным модулем, который фактически выполняет криптографические алгоритмы для аутентификации, кодирования и шифрования. MS Office сохраняет значение {00000000-0000-0000-0000-000000000} для своего поставщика подписей по умолчанию.
+В приведенном ниже примере показано, как подписать документ Word, используя идентификатор поставщика подписи. Поставщик криптографических услуг (CSP) - это независимый программный модуль, который фактически выполняет криптографические алгоритмы для аутентификации, кодирования и зашифровывания. MS Office резервирует значение {00000000-0000-0000-0000-0000-000000000000} для своего поставщика подписи по умолчанию.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Protect or Encrypt Document-working_with_digital_sinatures-SetSignatureProviderID.py" >}}
 
-### Создайте новую подпись Line Sign Word Document с помощью идентификатора провайдера
+### Создайте новую строку подписи, подпишите документ Word, используя идентификатор поставщика
 
-Ниже приведен пример, как создать линию подписи и знак Документ Word с использованием идентификатора поставщика подписи.
+В приведенном ниже примере показано, как создать строку подписи и подписать документ Word, используя идентификатор поставщика подписи.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Protect or Encrypt Document-working_with_digital_sinatures-CreateNewSignatureLineAndSetProviderID.py" >}}
 
-## Восстановление ценности цифровой подписи
+## Извлеките значение цифровой подписи
 
-Aspose.Words также обеспечивает возможность извлечения значения цифровой подписи из документа с цифровой подписью в виде байтового массива с использованием [SignatureValue](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignature/signature_value/) собственность.
+Aspose.Words также предоставляет возможность извлекать значение цифровой подписи из документа с цифровой подписью в виде массива байт, используя свойство [SignatureValue](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignature/signature_value/).
 
-Следующий пример кода показывает, как получить значение цифровой подписи в виде байтового массива из документа:
+В следующем примере кода показано, как получить значение цифровой подписи в виде массива байтов из документа:
 
 {{< highlight csharp >}}
 doc = aw.Document(MY_DIR + "Digitally signed.docx")

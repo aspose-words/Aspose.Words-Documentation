@@ -7,6 +7,7 @@ description: "Meja terpisah di JavaSitemap Bagaimana membagi satu meja menjadi d
 type: docs
 weight: 100
 url: /id/java/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Meja, diwakili dalam Aspose.Words Document Object Model, terdiri dari baris dan sel independen, sehingga mudah untuk membagi meja.

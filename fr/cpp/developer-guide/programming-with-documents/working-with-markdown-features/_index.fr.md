@@ -1,4 +1,4 @@
-﻿---
+---
 title: Travailler avec Markdown fonctionnalités en C++
 second_title: Aspose.Words pour C++
 articleTitle: Travailler avec Markdown Fonctionnalités
@@ -7,6 +7,7 @@ description: "Comment implémenter les fonctionnalités Markdown en utilisant C+
 type: docs
 weight: 420
 url: /fr/cpp/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Cette rubrique explique comment implémenter Markdown fonctionnalités à l'aide de Aspose.Words. Markdown est un moyen simple de formater du texte brut qui peut facilement être converti en HTML. Aspose.Words prend en charge les fonctionnalités Markdown suivantes:

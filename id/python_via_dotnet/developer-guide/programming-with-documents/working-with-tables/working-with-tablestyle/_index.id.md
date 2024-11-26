@@ -7,6 +7,7 @@ description: "Pemformatan tabel tingkat lanjut C#. Buat gaya tabel menggunakan P
 type: docs
 weight: 80
 url: /id/python-net/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Gaya tabel mendefinisikan sekumpulan pemformatan yang dapat dengan mudah diterapkan ke tabel. Pemformatan seperti batas, bayangan, perataan, dan font dapat diatur dalam gaya tabel dan diterapkan ke banyak tabel untuk tampilan yang konsisten.

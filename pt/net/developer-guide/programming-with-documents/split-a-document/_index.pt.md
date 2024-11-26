@@ -7,6 +7,7 @@ description: "Divida um documento em vários arquivos usando C#. Use o recurso d
 type: docs
 weight: 90
 url: /pt/net/split-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 *Splitting* ou *dividir um documento* é o processo de dividir um documento grande em um número maior de arquivos menores. Existem vários motivos para dividir um arquivo. Por exemplo, você só precisa de algumas páginas de um documento específico e não do documento inteiro. Ou, por motivos de privacidade, você deseja compartilhar apenas algumas partes de um documento com outras pessoas. Com o recurso de divisão, você pode obter apenas as partes necessárias do documento e realizar as ações necessárias com elas, por exemplo, marcar, salvar ou enviar.

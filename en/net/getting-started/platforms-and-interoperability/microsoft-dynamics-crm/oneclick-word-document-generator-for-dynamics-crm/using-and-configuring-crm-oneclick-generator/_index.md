@@ -8,6 +8,7 @@ type: docs
 weight: 20
 url: /net/using-and-configuring-crm-oneclick-generator/
 aliases: [/net/using-and-configuring-crm-oneclick-word-document-generator/]
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Create Template and Add in CRM

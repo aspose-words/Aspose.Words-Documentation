@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki yer imleriyle Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Yer imleriyle Çalışma
@@ -7,6 +7,7 @@ description: "Yer imi kavramlarını ve yer iminin C++ kullanarak programınızd
 type: docs
 weight: 180
 url: /tr/cpp/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Yer imleri, ileride başvurmak üzere adlandırdığınız ve tanımladığınız konumları veya parçaları Microsoft Word belgesinde tanımlar. Örneğin, daha sonra gözden geçirmek istediğiniz metni tanımlamak için bir yer imi kullanabilirsiniz. Metni bulmak için belgede gezinmek yerine, Yer İmi iletişim kutusunu kullanarak belgeye gidebilirsiniz.

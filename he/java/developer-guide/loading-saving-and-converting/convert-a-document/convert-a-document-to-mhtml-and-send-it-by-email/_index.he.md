@@ -7,6 +7,7 @@ description: "להמיר כל מסמך לתבנית MHTML ולאחר מכן לש
 type: docs
 weight: 30
 url: /he/java/convert-a-document-to-mhtml-and-send-it-by-email/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words ניתן להמיר כל מסמך לתבנית MHTML (ארכיון אינטרנט) זה הופך את זה נוח לשימוש Aspose.Words ו `Aspose.Email` יחד. ניתן לטעון מסמך מוגדר מראש בכל פורמט נתמך, כגון DOC, OOXML, או RTF, לתוך Aspose.Wordsלמלא אותו בנתונים, שמור את המסמך המתקבל כ- MHTML ולאחר מכן שלח אותו בדואר אלקטרוני באמצעות דואר אלקטרוני. `Aspose.Email`.

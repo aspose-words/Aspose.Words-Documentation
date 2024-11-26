@@ -7,6 +7,7 @@ description: "Tekst vervangen in een tabel in Python. Verwijder platte tekst uit
 type: docs
 weight: 60
 url: /nl/python-net/work-with-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Zoals vermeld in eerdere artikelen, bevat een tabel meestal platte tekst, hoewel andere inhoud zoals afbeeldingen of zelfs andere tabellen in tabelcellen kunnen worden geplaatst.

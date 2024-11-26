@@ -7,6 +7,7 @@ description: "Specifica diferite surse de fonturi TrueType: folderul sistemului,
 type: docs
 weight: 30
 url: /ro/net/specifying-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Acest subiect descrie comportamentul implicit al Aspose.Words atunci când caută fonturi TrueType, inclusiv diferențele specifice sistemului de operare, și demonstrează cum se pot specifica surse de font ale utilizatorului.
@@ -56,7 +57,7 @@ Din moment ce metricele de tipărire ale sistemelor de operare Windows și non-W
 
 #### Unde Aspose.Words caută fonturi TrueType pe Linux
 
-Diferite Linux distribuții pot depozita fonturi în foldere diferite. Aspose.Words caută fonturi în mai multe locații. În mod implicit, Aspose.Words caută fonturile în toate locațiile următoare: * /usr/share/fonts* /usr/local/share/fonts* /usr/X11R6/lib/X11/fontsAcest comportament implicit va funcționa pentru majoritatea distribuțiilor de tip Linux, dar nu este garantat să funcționeze în orice moment, caz în care ar trebui să specificați locația fonturilor de tip true explicit. Pentru asta trebuie să știi unde sunt instalate fonturile TrueType pe distribuția ta Linux
+Diferite Linux distribuții pot depozita fonturi în foldere diferite. Aspose.Words caută fonturi în mai multe locații. În mod implicit, Aspose.Words caută fonturile în toate locațiile următoare: `/usr/share/fonts` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts`Acest comportament implicit va funcționa pentru majoritatea distribuțiilor de tip Linux, dar nu este garantat să funcționeze în orice moment, caz în care ar trebui să specificați locația fonturilor de tip true explicit. Pentru asta trebuie să știi unde sunt instalate fonturile TrueType pe distribuția ta Linux
 
 #### Unde Aspose.Words Caută Fonturi TrueType pe Mac OS X
 

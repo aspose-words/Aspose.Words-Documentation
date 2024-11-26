@@ -7,6 +7,7 @@ description: "Crea e gestisci forme e oggetti oleosi in un documento utilizzando
 type: docs
 weight: 280
 url: /it/python-net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In questo argomento viene illustrato come lavorare a livello di codice con le forme utilizzando Aspose.Words.

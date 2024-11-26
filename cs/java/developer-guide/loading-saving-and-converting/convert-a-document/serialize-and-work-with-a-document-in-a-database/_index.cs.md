@@ -7,6 +7,7 @@ description: "Převést dokument do byte pole pro práci s tímto dokumentem v d
 type: docs
 weight: 40
 url: /cs/java/serialize-and-work-with-a-document-in-a-database/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Jedním z úkolů, které budete muset udělat při práci s dokumenty, je ukládání a získávání **Document** objekty do a z databáze. To by bylo například nutné, kdybyste prováděli jakýkoliv typ systému řízení obsahu. Všechny předchozí verze dokumentů musí být uloženy v databázovém systému. Schopnost ukládat dokumenty do databáze je také velmi užitečná, když vaše aplikace poskytuje webovou službu.

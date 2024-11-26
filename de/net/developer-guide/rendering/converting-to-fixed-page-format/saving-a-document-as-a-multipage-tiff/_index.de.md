@@ -7,6 +7,7 @@ description: "Konvertieren Sie ein Dokument mit C# in ein mehrseitiges TIFF. Um 
 type: docs
 weight: 30
 url: /de/net/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Wenn Sie mit Dokumenten arbeiten, müssen Sie Ihr Dokument häufig in eine oder mehrere Rasterbilddateien konvertieren. Dies ist insbesondere dann relevant, wenn Sie Ihr Dokument in einem lesbaren und druckbaren, aber nicht bearbeitbaren Format präsentieren müssen. Sie können beispielsweise ein Rasterbild der ersten Seite Ihres Dokuments als Vorschau verwenden. In diesem Artikel wird am Beispiel des TIFF-Formats – einem der beliebtesten Bildformate – beschrieben, wie Sie ein Dokument in ein Rasterbild konvertieren.

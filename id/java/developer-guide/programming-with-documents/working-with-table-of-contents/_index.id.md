@@ -7,6 +7,7 @@ description: "Tabel kolom Konten dalam rincian. Cara membuat dan memodifikasi `T
 type: docs
 weight: 170
 url: /id/java/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Seringkali Anda akan bekerja dengan dokumen yang mengandung tabel konten (TOC). Sitemap Aspose.Words Anda dapat memasukkan tabel konten Anda sendiri atau sepenuhnya membangun kembali tabel konten yang ada dalam dokumen hanya menggunakan beberapa baris kode.
@@ -60,7 +61,7 @@ Contoh kode berikut menunjukkan cara membangun kembali sepenuhnya `TOC` bidang d
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-UpdateTableOfContents.java" >}}
 
-Panggilan pertama [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) akan membangun <span notrans="<span notrans=" `TOC`"=""></span>Sitemap semua entri teks diisi dan Meme it `TOC` muncul hampir lengkap. Satu-satunya hal yang hilang adalah nomor halaman yang sekarang ditampilkan dengan "?".
+Panggilan pertama [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) akan membangun `TOC`Sitemap semua entri teks diisi dan Meme it `TOC` muncul hampir lengkap. Satu-satunya hal yang hilang adalah nomor halaman yang sekarang ditampilkan dengan "?".
 
 Panggilan kedua [Document.updatePageLayout()](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout) akan membangun tata letak dokumen dalam memori. Perlu dilakukan untuk mengumpulkan nomor halaman entri. Jumlah halaman yang benar dihitung dari panggilan ini kemudian dimasukkan ke dalam TOC.
 
@@ -124,7 +125,7 @@ Jika switch tidak terdaftar di sini maka saat ini tidak didukung. Semua switch a
 
 <p>![table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-6.png)</p>
 
-<p><br/><br/>Login `TC` ladang sendiri juga bisa {several, `multiple`, a few, `many`, numerous} beralih set. Sitemap</p>
+<p><br/><br/>Login `TC` ladang sendiri juga bisa `{several, multiple, a few, many, numerous}` beralih set. Sitemap</p>
 
 <p>- \F - Dijelaskan di atas. Sitemap</p>
 

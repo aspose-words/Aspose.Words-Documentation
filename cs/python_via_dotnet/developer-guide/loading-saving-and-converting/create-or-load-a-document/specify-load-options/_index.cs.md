@@ -7,6 +7,7 @@ description: "Přesnější řízení procesu zatížení pomocí Python."
 type: docs
 weight: 10
 url: /cs/python-net/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Při načítání dokumentu můžete nastavit některé pokročilé vlastnosti. Aspose.Words poskytuje vám [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/) třída, která umožňuje přesnější řízení procesu zatížení. Některé formáty zatížení mají odpovídající třídu, která drží možnosti zatížení pro tento formát zatížení, například [PdfLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/pdfloadoptions/) pro načtení do formátu PDF nebo [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/) pro načtení do TXT. Tento článek uvádí příklady práce s možnostmi [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/) třída.

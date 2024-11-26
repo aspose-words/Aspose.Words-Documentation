@@ -7,6 +7,7 @@ description: "C#를 사용하여 행, 열, 셀 등 표의 일부 작업을 수�
 type: docs
 weight: 30
 url: /ko/net/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 테이블 작동 방식을 더 세부적으로 제어하려면 열과 행을 조작하는 방법을 알아보세요.

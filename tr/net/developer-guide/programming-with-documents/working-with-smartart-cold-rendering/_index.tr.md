@@ -8,6 +8,7 @@ type: docs
 description: ".NET için Aspose.Words, SmartArt Soğuk İşleme gerçekleştirir; bu, önceden oluşturulmuş SmartArt çiziminin C# kullanılarak eksik veya yanlış olması durumunda SmartArt nesnelerini yerleştirip oluşturduğu anlamına gelir."
 weight: 330
 url: /tr/net/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 SmartArt grafikleri, bilgilerin görsel temsilini hızlı ve kolay bir şekilde oluşturmak için kullanılır. Çok sayıda düzen arasından durumunuza en uygun olanı seçmeniz yeterlidir. Bu kullanım kolaylığı SmartArt grafiklerini bazı amaçlar için oldukça popüler hale getiriyor.

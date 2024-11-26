@@ -7,6 +7,7 @@ description: "Installieren Sie Aspose.Words für .NET mit Visual Studio-Tools wi
 type: docs
 weight: 10
 url: /de/net/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Stellen Sie sicher, dass Ihre Maschine die [System Anforderungen](/words/de/net/system-requirements/)-Anforderungen erfüllt, bevor Sie beginnen.
@@ -55,7 +56,7 @@ Sie müssen angemeldet sein, um das Installationsprogramm herunterzuladen. Wenn 
 
 Um Aspose.Words für .NET zu installieren, befolgen Sie diese Schritte:
 
-1. Laden Sie `Aspose.Words_`{LatestVersion}.msi aus dem [Downloadbereich](https://releases.aspose.com/words/) herunter
+1. Laden Sie `Aspose.Words_{LatestVersion}.msi` aus dem [Downloadbereich](https://releases.aspose.com/words/) herunter
 2. Doppelklicken Sie auf die heruntergeladene Datei, um den Setup-Assistenten zu starten. Befolgen Sie die Anweisungen des Setup-Assistenten<br>
    <img src="/words/net/installation/aspose-words-setup-1.png" alt="aspose-words-setup-1" style="width:500px"/>
 3. Wenn der Setup-Assistent die Installation abschließt, sind die erforderlichen Dateien im Ordner unter dem angegebenen Ordnerpfad verfügbar<br>

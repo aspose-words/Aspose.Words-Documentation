@@ -7,6 +7,7 @@ description: "Vergunning Aspose.Words voor Android via Java."
 type: docs
 weight: 60
 url: /nl/java/licensing-android/
+timestamp: 2024-02-02-12-07-36
 ---
 
 Soms, om het systeem beter te bestuderen, wil je zo snel mogelijk in de code duiken. Om dit makkelijker te maken, Aspose.Words biedt verschillende plannen voor aankoop of biedt een gratis proefperiode en een 30-daagse tijdelijke licentie voor evaluatie.

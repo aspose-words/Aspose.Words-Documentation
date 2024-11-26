@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Watermerk in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Werk Met Watermerk
@@ -7,6 +7,7 @@ description: "Dokument watermerk manipulasie met behulp van C#."
 type: docs
 weight: 340
 url: /af/net/working-with-watermark/
+timestamp: 2024-05-02-11-51-44
 ---
 
 Hierdie onderwerp bespreek hoe om programmaties te werk met watermerk met behulp van Aspose.Words. 'n watermerk is'n agtergrondbeeld wat agter die teks in'n dokument vertoon word. 'n watermerk kan'n teks of'n beeld bevat wat deur die [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) klas verteenwoordig word.

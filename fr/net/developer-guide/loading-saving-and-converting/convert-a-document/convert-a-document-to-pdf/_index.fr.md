@@ -7,6 +7,7 @@ description: "Convertissez un document en PDF à l'aide de C#. Convertissez DOCX
 type: docs
 weight: 10
 url: /fr/net/convert-a-document-to-pdf/
+timestamp: 2024-09-25-11-08-55
 ---
 
 La possibilité de convertir facilement et de manière fiable des documents d'un format à un autre est une fonctionnalité clé de Aspose.Words. L'un des formats de conversion les plus populaires est le PDF, un format à mise en page fixe qui préserve l'apparence originale d'un document lors de son rendu sur diverses plates-formes. Le terme "rendu" est utilisé dans Aspose.Words pour décrire le processus de conversion d'un document dans un format de fichier paginé ou ayant le concept de pages.

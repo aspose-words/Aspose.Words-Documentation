@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tabellenübersicht
 second_title: Aspose.Words für C++
 articleTitle: Tabellenübersicht
@@ -7,6 +7,7 @@ description: "Arbeiten Sie mit Tabellen und ihren Komponenten wie Zellen, Zeilen
 type: docs
 weight: 10
 url: /de/cpp/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words ist eine Klassenbibliothek, die für die serverseitige Verarbeitung von Dokumenten in verschiedenen Formaten - PDF, HTML, verschiedenen Microsoft Word –Formaten und anderen - entwickelt wurde und Tabellen auf folgende Weise unterstützt:

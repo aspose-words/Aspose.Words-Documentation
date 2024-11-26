@@ -1,4 +1,4 @@
-﻿---
+---
 title: Criptarea unui Document în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Criptarea unui Document
@@ -7,6 +7,7 @@ description: "Criptați documentul utilizând algoritmi de criptare adecvați pe
 type: docs
 weight: 20
 url: /ro/java/encrypt-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Criptarea este procesul care traduce textul lizibil în secvențe de octeți fără sens, astfel încât să poată fi citit numai de persoana care are cheia de decriptare sau codul secret. Acest proces joacă un rol important în securizarea conținutului dvs. Vă ajută să codificați conținutul, să verificați originea unui document, să dovediți că conținutul nu a fost modificat după ce a fost trimis și să vă asigurați că datele din document sunt sigure.

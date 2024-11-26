@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit Bereichen in C++
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit Bereichen
@@ -7,6 +7,7 @@ description: "Einführung in die Bereichsfunktion in Aspose.Words für C++."
 type: docs
 weight: 130
 url: /de/cpp/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

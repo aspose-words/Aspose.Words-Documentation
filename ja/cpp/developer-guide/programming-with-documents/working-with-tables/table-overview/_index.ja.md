@@ -1,4 +1,4 @@
-﻿---
+---
 title: 表の概要
 second_title: C++の場合Aspose.Words
 articleTitle: 表の概要
@@ -7,6 +7,7 @@ description: "セル、行、列などのテーブルとそのコンポーネン
 type: docs
 weight: 10
 url: /ja/cpp/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Wordsは、さまざまな形式(PDF、HTML、さまざまなMicrosoft Word形式など)のドキュメントをサーバー側で処理するために設計されたクラスライブラリで、次の方法でテーブルをサ:

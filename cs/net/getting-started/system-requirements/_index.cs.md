@@ -7,6 +7,7 @@ description: "Než začnete pracovat s Aspose.Words místo .NET, zajistit, abyst
 type: docs
 weight: 70
 url: /cs/net/system-requirements/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Aspose.Words místo .NET nevyžaduje žádný produkt třetí strany, jako je Microsoft Word k instalaci. Aspose.Words sám o sobě je motorem pro tvorbu, úpravu, konverzi a vydávání dokumentů v různých formátech, včetně Microsoft Word formáty dokumentů.

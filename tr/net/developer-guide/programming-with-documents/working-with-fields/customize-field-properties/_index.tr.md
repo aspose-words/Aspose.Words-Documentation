@@ -7,6 +7,7 @@ description: "C#'te alan özelliklerini nasıl özelleştireceğinizi öğrenin.
 type: docs
 weight: 27
 url: /tr/net/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words, çeşitli alan özellikleriyle programlı olarak etkileşim kurma yeteneği sağlar. Bu makalede, alan özellikleriyle çalışmanın temel prensibini anlamanız için birkaç örneğe bakacağız. [Fields ad alanı](https://reference.aspose.com/words/tr/net/aspose.words.fields/)'de ilgili sınıfta her alan türüne ilişkin özelliklerin tam listesini görebilirsiniz.

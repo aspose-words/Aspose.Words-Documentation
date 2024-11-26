@@ -7,6 +7,7 @@ description: "以考慮不同 Microsoft Word 版本之間的差異，使用 C# �
 type: docs
 weight: 40
 url: /zh-hant/net/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有時你可能需要更改文件的外觀，例如設定語言偏好或每頁的行數。Aspose.Words 提供控制文件如何顯示的能力以及一些額外的選項。 本文描述這些可能的情況。

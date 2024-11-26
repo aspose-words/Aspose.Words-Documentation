@@ -1,4 +1,4 @@
-﻿---
+---
 title: Convert Document to Other Formats
 second_title: Aspose.Words for Java
 articleTitle: Convert Document to Other Formats
@@ -7,6 +7,7 @@ description: "Convert a document from one format to another and fast instead of 
 type: docs
 weight: 30
 url: /java/convert-document-to-other-formats/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Microsoft Word - Conversion to Other Formats

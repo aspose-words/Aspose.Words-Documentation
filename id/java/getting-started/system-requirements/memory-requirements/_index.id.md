@@ -7,6 +7,7 @@ description: "Berapa banyak memori Aspose.Words Sitemap Java perlu bekerja denga
 type: docs
 weight: 10
 url: /id/java/memory-requirements/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words menyediakan berbagai fitur untuk bekerja dengan dokumen dalam berbagai format. Penting untuk dicatat bahwa tidak ada batasan pada ukuran file dokumen maksimum Aspose.Words dapat memproses atau membuat. Satu-satunya batasan adalah jumlah RAM yang tersedia di sisi Anda.

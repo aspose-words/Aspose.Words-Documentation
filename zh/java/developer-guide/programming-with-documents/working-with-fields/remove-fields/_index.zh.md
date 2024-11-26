@@ -7,6 +7,7 @@ description: "学习如何删除字段 Java。 。 。 。 使用程序删除字
 type: docs
 weight: 35
 url: /zh/java/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时需要从文档中删除一个字段。 当它将被替换为不同的字段类型或当文档中不再需要字段时,就可能发生这种情况. 例如,a `TOC` 字段保存到 HTML 时。

@@ -8,6 +8,7 @@ description: "Lưu tài liệu ở bất kỳ định dạng được hỗ trợ
 keywords: "save a document c#, save a document to file c#, save a document to stream c#, save a document Aspose .NET, save formats supported by Aspose.Words .NET"
 weight: 20
 url: /vi/net/save-a-document/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Hầu hết các tác vụ bạn cần thực hiện với Aspose.Words đều liên quan đến việc lưu tài liệu. Để lưu tài liệu, Aspose.Words cung cấp phương thức [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) của lớp [Document](https://reference.aspose.com/words/net/aspose.words/document/). Có những trường hợp quá tải cho phép lưu tài liệu vào một tệp, luồng hoặc đối tượng ASP.NET HttpResponse để gửi tới trình duyệt máy khách. Tài liệu có thể được lưu ở bất kỳ định dạng lưu nào được Aspose.Words hỗ trợ. Để biết danh sách tất cả các định dạng lưu được hỗ trợ, hãy xem bảng liệt kê [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/).

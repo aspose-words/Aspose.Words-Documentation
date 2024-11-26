@@ -7,6 +7,7 @@ description: "Aspose.Words вместо Python via .NET Добавете към 
 type: docs
 weight: 60
 url: /bg/python-net/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Можете лесно да знаете дали документ се произвежда чрез използване Aspose.Words вместо Python via .NET. Можете също така да намерите номера на версията на Aspose.Words вместо Python via .NET който е използван за създаване на конкретен изходен документ. Aspose.Words директно пише тази информация в генерирания документ.

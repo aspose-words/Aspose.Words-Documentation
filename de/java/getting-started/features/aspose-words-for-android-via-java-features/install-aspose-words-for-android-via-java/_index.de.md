@@ -1,17 +1,18 @@
----
-title: Installieren Aspose.Words für Android über Java
+﻿---
+title: Installiere Aspose.Words für Android über Java
 second_title: Aspose.Words für Java
-articleTitle: Installieren Aspose.Words für Android über Java
-linktitle: Installieren Aspose.Words für Android über Java
-description: "Installation Aspose.Words für Android über Java."
+articleTitle: Installiere Aspose.Words für Android über Java
+linktitle: Installiere Aspose.Words für Android über Java
+description: "Installation von Aspose.Words für Android über Java."
 type: docs
 weight: 20
 url: /de/java/install-aspose-words-for-android-via-java/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}
 
-Seit 2017 die Versionierung von Aspose.Words für Android über Java entspricht Aspose.Words für Java
+Seit 2017 entspricht die Versionierung von Aspose.Words für Android über Java Aspose.Words für Java.
 
 [aspose-words-20.2-android.via.java.jar](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/20.2/aspose-words-20.2-android.via.java.jar)
 
@@ -19,29 +20,29 @@ Seit 2017 die Versionierung von Aspose.Words für Android über Java entspricht 
 
 ## Installation
 
-Zuvor, Aspose.Words für Android über Java wurde als einzige ZIP-Datei verteilt, die die JAR Datei, Demos und Dokumentation Aspose.Words für Android über Java.
+Zuvor wurde Aspose.Words für Android über Java als einzelne ZIP-Datei verteilt, die die JAR-Datei, Demos und Dokumentation von Aspose.Words für Android über Java enthielt.
 
-ANHANG Wenn Sie eine Version verwenden möchten, bevor Aspose.Words für Android über Java 1.11, Sie müssen einfach jede Version entpacken Aspose.Words.Android.zip in ein Verzeichnis Ihrer Wahl.
-ANHANG Fügen Sie die extrahierte Jar-Datei in Ihrer Anwendung mit der Build Path-Konfiguration für ihre Anwendung ein.
+1. Wenn Sie eine Version vor Aspose.Words für Android über Java 1.11 verwenden möchten, müssen Sie nur eine beliebige Version von Aspose.Words.Android.zip in ein Verzeichnis Ihrer Wahl entpacken.
+1. Fügen Sie die extrahierte JAR-Datei mithilfe der Erstellungspfadkonfiguration für die Anwendung in Ihre Anwendung ein.
 
-Die Versionen 1.11 und 1.12 wurden manuell in zwei Teile unterteilt: JAR und APK, um die Anzahl der Verfahren in der DEX-Datei zu begrenzen. In diesen Versionen haben wir unseren eigenen APK-Lader zur Initiierung der korrekten Beladung der zusätzlichen Klassen.dex-Datei bereitgestellt. Ab Version 17.2.0 unterstützen wir den beschriebenen offiziellen Workflow [Hier](https://developer.android.com/studio/build/multidex.html).
+Die Versionen 1.11 und 1.12 wurden manuell in zwei Teile unterteilt: JAR und APK, um die Anzahl der Methoden in der DEX -Datei zu begrenzen. In diesen Versionen haben wir unseren eigenen APK Loader bereitgestellt, um das korrekte Laden der zusätzlichen Klassen zu initiieren.dex-Datei. Ab Version 17.2.0 unterstützen wir den offiziell beschriebenen Workflow [hier](https://developer.android.com/studio/build/multidex.html).
 
-### Wie zu benutzen Aspose.Words für Android über Java von 1.11 Weiter
+### Verwendung von Aspose.Words für Android über Java ab 1.11
 
-Bisher eine Single JAR von Aspose.Words für Android über Java enthielt 47+mila Methoden, die ältere Versionen ein wenig unpraktisch gemacht, um in riesigen Android-Anwendungen zu verwenden. Jetzt beginnend von dieser Veröffentlichung, haben wir begonnen, die Größe zu reduzieren Aspose.Words für Android über Java Bibliothek. Unser Hauptanliegen besteht nun darin, die Anzahl der Methoden ohne Funktionsverlust zu reduzieren. Wir arbeiten ständig an der Verbesserung der Qualität und Usability Aspose.Words für Android über Java.
+Zuvor enthielt eine einzelne JAR von Aspose.Words für Android über Java mehr als 47 Tausend Methoden, was die Verwendung älterer Versionen in riesigen Android-Anwendungen etwas unpraktisch machte. Ab dieser Version haben wir begonnen, die Größe von Aspose.Words für Android über die Java -Bibliothek zu reduzieren. Unser Hauptanliegen ist es nun, die Anzahl der Methoden ohne Funktionalitätsverlust zu reduzieren. Wir arbeiten ständig daran, die Qualität und Benutzerfreundlichkeit von Aspose.Words für Android über Java zu verbessern.
 
-### Aspose.Words für Android über Java Bibliothek in zwei Teile unterteilt
+### Aspose.Words für Android über Java Bibliothek in zwei Teile geteilt
 
-Wir hatten die Bibliothek in zwei Archive unterteilt:
+Wir hatten die Bibliothek in folgende zwei Archive unterteilt:
 
-- Aspose-words-1.11-android-jdk15.jar: Die erste umfasst die Öffentlichkeit API und deren Hilfsmethoden. Derzeit hat es 32395 Methoden.
-- Aspose-words-1.11-libs-android-jdk15.apk: Die zweite besteht aus Drittparteien, Grundklassen und Ressourcen. Derzeit hat es 18296 Methoden.
+- aspose-words-1.11-android-jdk15.jar: Die erste enthält public API und seine Hilfsmethoden. Derzeit hat es 32395 Methoden.
+- aspose-words-1.11-libs-android-jdk15.apk: Die zweite enthält 3rd-Party-Gläser, Grundklassen und Ressourcen. Derzeit hat es 18296 Methoden.
 
-### Verwenden von Aspose Words für Android über Java seit 1.11
+### Verwenden von Aspose-Wörtern für Android über Java seit 1.11
 
-Einschließlich Aspose.Words für Android über Java in das Projekt können Sie eine der folgenden Methoden verwenden:
+Um Aspose.Words für Android über Java in das Projekt aufzunehmen, können Sie eine der folgenden Methoden verwenden:
 
-- Um "aspose-words-1.11-android-jdk15.jar" in den Ordner "libs" Ihres Projekts zu platzieren, und das Archiv "aspose-words-1.11-libs-android-jdk15.apk" in den Ordner "Attenten". Geben Sie an, dass Sie AsposeWordsApplication als grundlegende verwenden werden.
+- Legen Sie "aspose-words-1.11-android-jdk15.jar" in den Ordner "libs" Ihres Projekts und das Archiv "aspose-words-1.11-libs-android-jdk15.apk" in den Ordner "assets". Geben Sie an, dass Sie AsposeWordsApplication als Basis verwenden werden.
 
 **AndroidManifest.xml**
 
@@ -59,9 +60,9 @@ Einschließlich Aspose.Words für Android über Java in das Projekt können Sie 
 ...
 {{< /highlight >}}
 
-Um eine Belastung der .apk-Datei in der onCreate()-Methode einzuleiten und wenn Sie nicht wollen Android:name="com.aspose.words.AsposeWordsApplication" in AndroidManifest.xml
+Um eine Ladung von zu initiieren .apk-Datei in der onCreate() -Methode und wenn Sie Android nicht verwenden möchten:name ="com.posieren.Wort.AsposeWordsApplication" nach AndroidManifest.xml
 
-**Tätigkeit Java Datei**
+**Aktivitäts- Java-Datei**
 
 {{< highlight csharp >}}
 @Override
@@ -93,11 +94,11 @@ public static boolean checkIfAWSetUpCorrectly()
 }
 {{< /highlight >}}
 
-### Verwendung Aspose.Words für Android über Java in Android Testanwendungen
+### Verwenden von Aspose.Words für Android über Java in Android Testanwendungen
 
-Zur Verwendung Aspose.Words für Android über Java bei Testprojekten kann der gleiche Ansatz angewandt werden:
+Um Aspose.Words für Android über Java in Testprojekten zu verwenden, kann derselbe Ansatz angewendet werden:
 
-- AsposeWordsTestRunner in AndroidManifest.xml des Testprojekts.
+- Geben Sie AsposeWordsTestRunner in AndroidManifest.xml des Testprojekts an.
 
 **AndroidManifest.xml**
 
@@ -111,11 +112,11 @@ Zur Verwendung Aspose.Words für Android über Java bei Testprojekten kann der g
 ...
 {{< /highlight >}}
 
-In IDE kann es notwendig sein, AsposeWordsTestRunner im Konfigurationsfenster wie folgt anzuzeigen:
+In IDE muss möglicherweise AsposeWordsTestRunner im Konfigurationsfenster wie folgt angegeben werden:
 
 ![install-aspose-words-for-android-via-java-1](/words/java/install-aspose-words-for-android-via-java/install-aspose-words-for-android-via-java-1.png)
 
-- Oder die Ladung von .apk mit der getTargetContext() Methode zu initiieren.
+- Oder um die Ladung von zu initiieren.apk mit der getTargetContext () -Methode.
 
 {{< highlight csharp >}}
 @Override
@@ -126,16 +127,16 @@ public void onStart() {
 }
 {{< /highlight >}}
 
-## Wie zu benutzen Aspose.Words für Android über Java von 17.2.0 Weiter
+## Verwendung von Aspose.Words für Android über Java ab 17.2.0
 
-ANHANG Die neueste Version herunterladen [Aspose.Words für Android Über uns Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/)
-1. Kopieren Sie Aspose-words-18.3-android.via.java.jar in Ihr Projekt *libs/*folder
+1. Laden Sie die neueste Version von herunter [Aspose.Words für Android über Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/)
+1. Kopiere aspose-words-18.3-android.via.java.jar in den Ordner *libs/* deines Projekts
 ![install-aspose-words-for-android-via-java-2](/words/java/install-aspose-words-for-android-via-java/install-aspose-words-for-android-via-java-2.jpg)
 
-### Installieren Aspose.Words für Android über Java von Maven Repository
+### Installiere Aspose.Words für Android über Java aus Maven Repository
 
-ANHANG Hinzufügen maven Repository in Ihren Build. Grad
-ANHANG 'Aspose.Words für Android über Java' JAR als Abhängigkeit
+1. Fügen Sie Ihrem Build das maven -Repository hinzu.gradle
+1. Füge 'Aspose.Words für Android über Java' JAR als Abhängigkeit hinzu
 {{< highlight csharp >}}
 
 // 1. Add maven repository into your build.gradle 

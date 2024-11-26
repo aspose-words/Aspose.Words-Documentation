@@ -1,4 +1,4 @@
-﻿---
+---
 title: การทำงานกับแผนภูมิในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: การทำงานกับแผนภูมิ
@@ -7,6 +7,7 @@ description: "บทนำเกี่ยวกับคุณลักษณะ
 type: docs
 weight: 310
 url: /th/cpp/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 วิธีการใหม่[InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/)ถูกเพิ่มเข้าไปในชั้นเรียน[DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/) ดังนั้น,เรามาดูวิธีการแทรกแผนภูมิคอลัมน์ง่ายๆลงในเอกสารโดยใช้วิธีการ[InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/).

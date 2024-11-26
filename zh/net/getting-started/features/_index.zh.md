@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET 为用户提供了广泛的功能，从简�
 type: docs
 weight: 40
 url: /zh/net/features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words 为用户提供了广泛的功能。用户可以执行大量与文档相关的任务 - 从简单地将文档从一种支持的格式转换为另一种支持的格式并在转换过程中修改这些文档到业务任务，例如创建结构化且具有视觉吸引力的文档或自动生成报告。
@@ -113,16 +114,16 @@ Aspose.Words 提供对所有文档元素的格式属性的详细编程访问。
 
 |  特征 | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Mac版Xamarin |
 |  :-  |  :-  |  :-  |  :-  |  :-  |  :-  |
-| 在报告中使用所有标准 Microsoft Word mail merge 字段，包括 `MERGEFIELD`、`NEXT`、`NEXTIF`、`ADDRESSBLOCK`、GREETINGLINE。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| 在报告中使用所有标准 Microsoft Word Mail Merge 字段，包括 `MERGEFIELD`、`NEXT`、`NEXTIF`、`ADDRESSBLOCK`、GREETINGLINE。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | 对包含最复杂和嵌套的 `IF` 字段和公式的文档执行 mail merge。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| 使用 mail merge 区域从数据源填充并动态增长文档中的表或片段。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| 使用 Mail Merge 区域从数据源填充并动态增长文档中的表或片段。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | 轻松生成包含主从（父子）数据（例如订单/订单详细信息）的报告。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | 使用来自任何 .NET 数据源（例如 DataSet、DataTable、DataView、DataReader 或 ADO Recordset）的数据填充文档。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | 通过实现 **IMailMergeDataSource** 接口，从任何数据源（例如 LINQ 查询、XML 文件或业务对象）填充文档。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | 使用事件对数据合并方式进行精确控制，例如数字格式。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| 在 mail merge 期间插入图像。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| 以编程方式创建或修改文档的 Microsoft Word mail merge 数据源。保留 mail merge 设置和数据源。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| 检索 mail merge 字段名称。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| 在 Mail Merge 期间插入图像。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| 以编程方式创建或修改文档的 Microsoft Word Mail Merge 数据源。保留 Mail Merge 设置和数据源。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| 检索 Mail Merge 字段名称。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ## 报告功能
 

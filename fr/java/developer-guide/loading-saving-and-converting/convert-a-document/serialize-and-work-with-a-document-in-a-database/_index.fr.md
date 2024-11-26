@@ -1,36 +1,37 @@
----
-title: Sérialiser et travailler avec un document dans une base de données
+﻿---
+title: Sérialiser et travailler avec un Document dans une base de données
 second_title: Aspose.Words pour Java
-articleTitle: Sérialiser et travailler avec un document dans une base de données
-linktitle: Sérialiser et travailler avec un document dans une base de données
-description: "Convertir un document en un tableau d'octets pour travailler avec ce document dans une base de données. Vous pouvez stocker et récupérer un document dans la base de données en utilisant Java."
+articleTitle: Sérialiser et travailler avec un Document dans une base de données
+linktitle: Sérialiser et travailler avec un Document dans une base de données
+description: "Convertir un document en un tableau d'octets pour travailler avec ce document dans une base de données. Vous pouvez stocker et récupérer un document vers et depuis la base de données à l'aide de Java."
 type: docs
 weight: 40
 url: /fr/java/serialize-and-work-with-a-document-in-a-database/
+timestamp: 2024-01-27-14-07-04
 ---
 
-L'une des tâches que vous pourriez devoir accomplir lorsque vous travaillez avec des documents est de stocker et de récupérer **Document** objets vers et depuis une base de données. Par exemple, cela serait nécessaire si vous mettiez en œuvre tout type de système de gestion du contenu. Toutes les versions antérieures des documents doivent être stockées dans le système de base de données. La possibilité de stocker des documents dans la base de données est également extrêmement utile lorsque votre application fournit un service en ligne.
+L'une des tâches que vous devrez peut-être effectuer lorsque vous travaillez avec des documents consiste à stocker et à récupérer **Document** objets vers et depuis une base de données. Par exemple, cela serait nécessaire si vous implémentiez n'importe quel type de système de gestion de contenu. Toutes les versions précédentes des documents doivent être stockées dans le système de base de données. La possibilité de stocker des documents dans la base de données est également extrêmement utile lorsque votre application fournit un service Web.
 
-Aspose.Words fournit la possibilité de convertir un document en un tableau d'octets pour les travaux ultérieurs avec ce document dans une base de données.
+Aspose.Words permet de convertir un document en un tableau d'octets pour un travail ultérieur avec ce document dans une base de données.
 
-## Convertir un document en Byte Array
+## Convertir un Document en tableau d'octets
 
-Pour stocker un document dans une base de données ou pour préparer un document à transmettre sur le Web, il est souvent nécessaire de sérialiser le document pour obtenir un tableau d'octets.
+Pour stocker un document dans une base de données ou pour préparer un document en vue de sa transmission sur le Web, il est souvent nécessaire de sérialiser le document pour obtenir un tableau d'octets.
 
-Pour sérialiser une [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) objet dans Aspose.Words:
+Pour sérialiser un objet [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) dans Aspose.Words:
 
-1. Enregistrez-le à une **MemoryStream** utilisant les [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-int) surcharge de la méthode **Document** En cours.
-1. Appelez le **ToArray** méthode, qui renvoie un tableau d'octets représentant le document sous forme d'octets.
+1. Enregistrez-le dans un **MemoryStream** en utilisant la surcharge de méthode [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-int) de la classe **Document**.
+1. Appelez la méthode **ToArray**, qui renvoie un tableau d'octets représentant le document sous forme d'octets.
 
-Les étapes ci-dessus peuvent alors être inversées pour charger les octets de nouveau dans un **Document** objet.
+Les étapes ci-dessus peuvent ensuite être inversées pour charger à nouveau les octets dans un objet **Document**.
 
 {{% alert color="primary" %}}
 
-Le format d'enregistrement sélectionné est important pour s'assurer que la plus grande fidélité est conservée lors de l'enregistrement et du rechargement **Document** objet. Pour cette raison, il est suggéré d'utiliser une série de formats de fichiers OOXML.
+Le format d'enregistrement sélectionné est important pour garantir la plus grande fidélité lors de l'enregistrement et du rechargement dans l'objet **Document**. Pour cette raison, il est suggéré d'utiliser une série de formats de fichiers OOXML.
 
 {{% /alert %}}
 
-L'exemple ci-dessous montre comment sérialiser un **Document** objet pour obtenir un tableau d'octets, puis comment déssérialiser le tableau d'octets pour obtenir un **Document** objet à nouveau:
+L'exemple ci-dessous montre comment sérialiser un objet **Document** pour obtenir un tableau d'octets, puis comment désérialiser le tableau d'octets pour obtenir à nouveau un objet **Document**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToByte-ConvertDocumentToByte.java" >}}
 
@@ -40,9 +41,9 @@ Vous pouvez télécharger le fichier modèle de cet exemple à partir de [Aspose
 
 {{% /alert %}}
 
-## Entreposer, lire et supprimer un document dans une base de données
+## Stocker, Lire et Supprimer un Document dans une base de données
 
-Cette section montre comment enregistrer un document dans une base de données, puis le charger dans une `Document` objet pour travailler avec elle. Pour plus de simplicité, le nom du fichier est la clé utilisée pour stocker et récupérer les documents dans la base de données. La base de données contient deux colonnes. La première colonne, "FileName" est stockée comme une chaîne et sert à identifier les documents. La deuxième colonne, "FileContent" `BLOB` objet qui stocke l'objet document sous forme d'octet.
+Cette section montre comment enregistrer un document dans une base de données, puis le charger à nouveau dans un objet `Document` pour l'utiliser. Pour simplifier, le nom de fichier est la clé utilisée pour stocker et extraire des documents de la base de données. La base de données contient deux colonnes. La première colonne "FileName " est stockée sous forme de chaîne et est utilisée pour identifier les documents. La deuxième colonne "FileContent " est stockée en tant qu'objet `BLOB` qui stocke l'objet document sous forme d'octet.
 
 L'exemple de code suivant montre comment configurer une connexion à une base de données et exécuter des commandes:
 
@@ -50,11 +51,11 @@ L'exemple de code suivant montre comment configurer une connexion à une base de
 
 {{% alert color="primary" %}}
 
-Dans cet exemple, nous utilisons la base de données MySQL Aspose.Words document.
+Dans cet exemple, nous utilisons la base de données MySQL pour stocker un document Aspose.Words.
 
 {{% /alert %}}
 
-L'exemple de code suivant montre comment enregistrer un document dans la base de données, puis lire le même document, et finalement supprimer l'enregistrement contenant le document de la base de données:
+L'exemple de code suivant montre comment enregistrer un document dans la base de données, puis relire le même document et enfin supprimer l'enregistrement contenant le document de la base de données:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadAndSaveFromDatabase-OpenRetrieveAndDelete.java" >}}
 
@@ -66,29 +67,29 @@ L'exemple de code suivant montre comment enregistrer un document dans la base de
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadAndSaveFromDatabase-StoreToDatabase.java" >}}
 
-Spécifiez la commandeString, qui est une expression SQL qui effectue tout le travail:
+Spécifiez commandString, qui est une expression SQL qui fait tout le travail:
 
-- Oui. Pour enregistrer un document dans la base de données, on utilise la commande "INSERT INTO" et une table spécifiée avec les valeurs de deux champs d'enregistrement – FileName et FileContent. Pour éviter des paramètres supplémentaires, le nom du fichier est pris de la **Document** Object lui-même. Les `FileContent` field value est assigné octets du flux de mémoire, qui contient une représentation binaire du document stocké.
-- Oui. La ligne de code restante exécute la commande qui stocke la Aspose.Words document dans la base de données.
+- Pour enregistrer un document dans la base de données, la commande "INSERT INTO" est utilisée et une table est spécifiée avec les valeurs de deux champs d'enregistrement – FileName et FileContent. Pour éviter des paramètres supplémentaires, le nom de fichier est tiré de l'objet **Document** lui-même. La valeur du champ `FileContent` se voit attribuer des octets du flux mémoire, qui contient une représentation binaire du document stocké.
+- La ligne de code restante exécute la commande qui stocke le document Aspose.Words dans la base de données.
 
-### Récupérer un document à partir d'une base de données
+### Récupérer un Document à partir d'une base de données
 
-Pour récupérer un document dans la base de données, sélectionnez l'enregistrement qui contient les données du document comme un tableau d'octets. Ensuite charger le tableau d'octets de l'enregistrement dans **MemoryStream** et créer un **Document** objet qui chargera le document à partir du **MemoryStream**.
+Pour extraire un document de la base de données, sélectionnez l'enregistrement qui contient les données du document sous la forme d'un tableau d'octets. Chargez ensuite le tableau d'octets de l'enregistrement dans **MemoryStream** et créez un objet **Document** qui chargera le document à partir du **MemoryStream**.
 
-L'exemple de code suivant montre comment récupérer et renvoyer un document de la base de données spécifiée en utilisant le nom de fichier comme clé pour récupérer ce document:
+L'exemple de code suivant montre comment récupérer et renvoyer un document à partir de la base de données spécifiée en utilisant le nom de fichier comme clé pour récupérer ce document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadAndSaveFromDatabase-ReadFromDatabase.java" >}}
 
 {{% alert color="primary" %}}
 
-La commande SQL "SELECT * FROM" est utilisée pour récupérer l'enregistrement approprié basé sur le nom du fichier.
+La commande SQL "SELECT * FROM " est utilisée pour récupérer l'enregistrement approprié en fonction du nom de fichier.
 
 {{% /alert %}}
 
 ### Supprimer un document d'une base de données
 
-Pour supprimer un document de la base de données, utilisez la commande SQL appropriée sans manipulation sur le **Document** objet.
+Pour supprimer un document de la base de données, utilisez la commande SQL appropriée sans aucune manipulation sur l'objet **Document**.
 
-L'exemple de code suivant montre comment supprimer un document de la base de données, en utilisant le nom du fichier pour récupérer l'enregistrement:
+L'exemple de code suivant montre comment supprimer un document de la base de données, en utilisant le nom de fichier pour récupérer l'enregistrement:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadAndSaveFromDatabase-DeleteFromDatabase.java" >}}

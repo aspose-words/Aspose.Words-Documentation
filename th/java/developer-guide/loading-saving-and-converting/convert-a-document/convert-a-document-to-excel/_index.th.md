@@ -1,21 +1,22 @@
----
-title: แปลงคําเป็นเอกเซล Java
-second_title: Aspose.Words สําหรับ Java
-articleTitle: แปลงเอกสารเป็นเอกเซล
-linktitle: แปลงเอกสารเป็นเอกเซล
-description: "แปลง PDF เป็น Excel, XML เป็น Excel, DOCX ไปยัง Excel Java. บันทึกเอกสารในรูปแบบต่าง ๆ ไปยัง XLSX โดยใช้ Java."
+﻿---
+title: แปลงคำให้เก่งในJava
+second_title: Aspose.WordsสำหรับJava
+articleTitle: การประมวลผลข้อมูล,คีย์ข้อมูล
+linktitle: การประมวลผลข้อมูล,คีย์ข้อมูล
+description: "แปลงPDFเป็นเอกเซล,XMLเป็นเอกเซล,DOCXเป็นเอกเซลJava บันทึกเอกสารในรูปแบบต่างๆไปที่XLSXโดยใช้Java."
 type: docs
 weight: 15
 url: /th/java/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
-การแปลงเอกสารจากรูปแบบหนึ่งไปเป็นอีกรูปแบบหนึ่ง คือคุณสมบัติของเรือธง Aspose.Words. คุณสามารถแปลงเอกสารใด ๆ ได้ [ฟอร์แมตการโหลด](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) ไปยังรูปแบบ XLSX
+การแปลงเอกสารจากรูปแบบหนึ่งไปยังอีกรูปแบบหนึ่งคือคุณลักษณะเรือธงของAspose.Words คุณสามารถแปลงเอกสารในรูปแบบใดก็ได้ที่มีอยู่[รูปแบบการโหลด](https://reference.aspose.com/words/java/com.aspose.words/loadformat/)ไปยังXLSX.
 
-## แปลงเอกสารเป็น XLSX
+## แปลงเอกสารเป็นXLSX
 
-การแปลงเอกสารเป็น XLSX เป็นกระบวนการที่ซับซ้อน เพื่อบันทึกเอกสารของคุณไปเป็นรูปแบบ XLSX โดยใช้ <span notrans="<span notrans=" Aspose.Words"=""></span>'"> ใช้ [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) ชั้นเรียนและใหม่ `Xlsx` องค์ประกอบใน [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) ปลดปล่อย ดังที่กล่าวไปด้านบน คุณสามารถบันทึกเอกสารในรูปแบบที่โหลดได้ที่รองรับ Aspose.Words ถึง XLSX
+การแปลงเอกสารเป็นXLSXเป็นกระบวนการที่ค่อนข้างซับซ้อน เมื่อต้องการบันทึกเอกสารของคุณลงในรูปแบบXLSXโดยใช้Aspose.Wordsใช้[XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/)คลาสและองค์ประกอบ`Xlsx`ใหม่ใน[SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)การแจงนับ ดังกล่าวข้างต้นคุณสามารถบันทึกเอกสารในรูปแบบโหลดใดๆที่ได้รับการสนับสนุนโดยAspose.WordsถึงXLSX.
 
-ตัวอย่างโค้ดต่อไปนี้ แสดงวิธีบันทึก PDF ถึง XLSX:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการบันทึกPDFถึงXLSX:
 
 {{< highlight java >}}
 Document doc = new Document(getMyDir() + "Pdf Document.pdf");
@@ -24,15 +25,15 @@ doc.save(getArtifactsDir() + "BaseConversions.PdfToXlsx.xlsx");
 
 {{% alert color="primary" %}}
 
-บางครั้งมันจําเป็นต้องกําหนดตัวเลือกเพิ่มเติม ซึ่งอาจมีผลกระทบต่อการบันทึกเอกสารเป็น XLSX ตัวเลือกเหล่านี้สามารถกําหนดได้โดยการใช้ [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) คลาสนี้ จะบรรจุคุณสมบัติที่จะใช้กําหนดว่าจะให้การแสดงผล XLSX อย่างไร
+บางครั้งจำเป็นต้องระบุตัวเลือกเพิ่มเติมซึ่งอาจส่งผลต่อผลลัพธ์ของการบันทึกเอกสารเป็นXLSX อ็อพชันนี้สามารถระบุได้โดยใช้คลาสของ[XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/)ซึ่งประกอบด้วยคุณสมบัติที่กำหนดวิธีแสดงผลลัพธ์XLSX.
 
 {{% /alert %}}
 
-## ค้นหาและแทนที่เมื่อมีการบันทึกไปยัง XLSX
+## ค้นหาและแทนที่เมื่อบันทึกเป็นXLSX
 
-ใช้ด้วย Aspose.Words, คุณสามารถค้นหาข้อความหรือเงื่อนไขการค้นหาได้ในเอกสารของคุณ และแทนที่ด้วยข้อความที่ตรงกับที่คุณต้องการ แล้วคุณก็สามารถบันทึกผลสําหรับรูปแบบ XLSX ได้ด้วย
+นอกจากนี้ยังใช้Aspose.Wordsคุณสามารถค้นหาสตริงหรือนิพจน์ปกติในเอกสารของคุณและแทนที่ด้วยสตริงที่ตรงกันที่คุณต้องการ จากนั้นคุณยังสามารถบันทึกผลลัพธ์ไปยังรูปแบบXLSX.
 
-ตัวอย่างโค้ดต่อไปนี้ จะแสดงวิธีการค้นหาและแทนที่ปฏิบัติการ และบันทึกผลลัพธ์ไปยัง XLSX:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการดำเนินการค้นหาและแทนที่การดำเนินงานและบันทึกผลลัพธ์เป็นXLSX:
 
 {{< highlight java >}}
 Document doc = new Document();
@@ -50,11 +51,11 @@ doc.getRange().replace("Ruby", "Jade", options);
 doc.save(getArtifactsDir() + "BaseConversions.FindReplaceXlsx.xlsx");
 {{< /highlight >}}
 
-## กําหนดระดับการบีบอัดเมื่อบันทึกไปยัง XLSX
+## ระบุระดับการบีบอัดเมื่อบันทึกเป็นXLSX
 
-คุณสามารถกําหนดระดับการบีบข้อมูลได้เมื่อทําการบันทึกโดยใช้ [CompressionLevel](https://reference.aspose.com/words/java/com.aspose.words/compressionlevel/) ทรัพย์สิน
+คุณยังสามารถระบุระดับการบีบอัดเมื่อบันทึกโดยใช้คุณสมบัติ[CompressionLevel](https://reference.aspose.com/words/java/com.aspose.words/compressionlevel/).
 
-ตัวอย่างรหัสต่อไปนี้ แสดงให้เห็นว่าจะกําหนดระดับการบีบข้อมูลอย่างไร เมื่อมีการบันทึกในรูปแบบ XLSX:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการระบุระดับการบีบอัดเมื่อบันทึกลงในรูปแบบXLSX:
 
 {{< highlight java >}}
 Document doc = new Document(getMyDir() + "Document.docx");
@@ -64,7 +65,7 @@ saveOptions.setCompressionLevel(CompressionLevel.MAXIMUM);
 doc.save(getArtifactsDir() + "BaseConversions.CompressXlsx.xlsx", saveOptions);
 {{< /highlight >}}
 
-## ดูด้วย
+## ดูเพิ่มเติม
 
-- ส่วนเอกสาร [ป้องกันหรือเข้ารหัสเอกสาร](/words/th/java/protect-or-encrypt-a-document/) สําหรับข้อมูลเกี่ยวกับการป้องกันและการเข้ารหัสเอกสาร
-- บทความ [ค้นหาและแทนที่](/words/th/java/find-and-replace/) สําหรับข้อมูลเพิ่มเติมเกี่ยวกับการค้นหาและแทนที่เนื้อหาที่คุณต้องการ
+- ส่วนเอกสาร [ปกป้องหรือเข้ารหัสเอกสาร](/words/java/protect-or-encrypt-a-document/) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการปกป้องและการเข้ารหัสเอกสาร
+- บทความ [ค้นหาและแทนที่](/words/java/find-and-replace/) สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการค้นหาและแทนที่เนื้อหาที่คุณต้องการ

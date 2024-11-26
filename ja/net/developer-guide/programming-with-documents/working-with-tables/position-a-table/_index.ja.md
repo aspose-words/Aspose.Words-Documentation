@@ -7,6 +7,7 @@ description: "C# でテーブルの位置を指定します。 C# を使用し�
 type: docs
 weight: 50
 url: /ja/net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 フローティング テーブルとインライン テーブルがあります。

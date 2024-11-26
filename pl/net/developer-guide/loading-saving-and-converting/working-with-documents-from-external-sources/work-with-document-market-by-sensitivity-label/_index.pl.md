@@ -7,6 +7,7 @@ description: "Konwertuj program Word z zastosowaną etykietą czułości na form
 type: docs
 weight: 30
 url: /pl/net/work-with-document-market-by-sensitivity-label/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Etykiety poufności z Microsoft Purview Information Protection pozwalają klasyfikować i chronić dane organizacji, jednocześnie zapewniając, że produktywność użytkowników i ich zdolność do współpracy nie zostaną zakłócone. Po zastosowaniu etykiety poufności do dokumentu wszystkie skonfigurowane ustawienia ochrony tej etykiety są wymuszane na zawartości.

@@ -7,6 +7,7 @@ description: "با استفاده از C# فرآیند ذخیره را با دق
 type: docs
 weight: 10
 url: /fa/net/specify-save-options/
+timestamp: 2024-07-09-19-00-42
 ---
 
 هنگام ذخیره یک سند، می توانید برخی از ویژگی های پیشرفته را تنظیم کنید. Aspose.Words کلاس [SaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/) را در اختیار شما قرار می دهد که امکان کنترل دقیق تر فرآیند ذخیره را فراهم می کند. روش **Save** اضافه بارهایی وجود دارد که یک شی **SaveOptions** را می پذیرد - این باید یک شی از یک کلاس مشتق شده از کلاس **SaveOptions** باشد. هر فرمت ذخیره یک کلاس مربوطه دارد که گزینه های ذخیره را برای این فرمت ذخیره نگه می دارد، به عنوان مثال، [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) برای ذخیره در فرمت PDF، [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) برای ذخیره در فرمت Markdown یا [ImageSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/) برای ذخیره در یک تصویر وجود دارد. این مقاله نمونه هایی از کار با برخی از کلاس های گزینه های مشتق شده از **SaveOptions** را ارائه می دهد.

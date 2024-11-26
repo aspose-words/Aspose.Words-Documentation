@@ -7,6 +7,7 @@ description: "Cách thao tác với header và footer bằng Java."
 type: docs
 weight: 150
 url: /vi/java/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words cho phép người dùng làm việc với tiêu đề và chân trang trong một tài liệu. Đệm là văn bản được đặt ở đầu trang, còn chân trang là văn bản ở cuối trang. Thông thường, những khu vực này được dùng để chèn thông tin cần được lặp lại trên tất cả hoặc một số trang của văn bản, như số trang, ngày tạo, thông tin công ty và v.v.

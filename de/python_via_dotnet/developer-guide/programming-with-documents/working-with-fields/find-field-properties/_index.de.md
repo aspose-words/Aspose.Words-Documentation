@@ -7,6 +7,7 @@ description: "So finden Sie einige Feldeigenschaften wie Feldcode und Feldergebn
 type: docs
 weight: 25
 url: /de/python-net/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ein mit [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/).[insert_field](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_field/) eingefügtes Feld gibt ein [Field](https://reference.aspose.com/words/python-net/aspose.words.fields/field/)-Objekt zurück. Dies ist eine Fassadenklasse, die nützliche Methoden bereitstellt, um schnell einige Eigenschaften eines Feldes zu finden.

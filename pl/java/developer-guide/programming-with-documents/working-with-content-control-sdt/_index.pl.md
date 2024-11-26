@@ -7,9 +7,10 @@ type: docs
 description: "Zaawansowane zarządzanie treścią dokumentu, jak tworzyć i manipulować sterowaniem treścią (Structured Document Tags) za pomocą Java."
 weight: 390
 url: /pl/java/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
-W Microsoft Word, Możesz utworzyć formularz, zaczynając od szablonu i dodając kontrolę zawartości, w tym pola wyboru, pola tekstowe, znaczniki daty i listy rozwijane. W <span notrans="<span notrans=" Aspose.Words"=""></span>", > Strukturalny znacznik dokumentu lub kontrola zawartości z dowolnego dokumentu załadowanego do Aspose.Words jest importowany jako węzeł StructuredDocumentTag. Strukturalne znaczniki dokumentów (SDT lub control content) umożliwiają osadzanie semantyki zdefiniowanej przez użytkownika, jak również jej zachowania i wygląd w dokumencie.
+W Microsoft Word, Możesz utworzyć formularz, zaczynając od szablonu i dodając kontrolę zawartości, w tym pola wyboru, pola tekstowe, znaczniki daty i listy rozwijane. W Aspose.Words, > Strukturalny znacznik dokumentu lub kontrola zawartości z dowolnego dokumentu załadowanego do Aspose.Words jest importowany jako węzeł StructuredDocumentTag. Strukturalne znaczniki dokumentów (SDT lub control content) umożliwiają osadzanie semantyki zdefiniowanej przez użytkownika, jak również jej zachowania i wygląd w dokumencie.
 
 StructuredDocument Znacznik może wystąpić w dokumencie w następujących miejscach:
 

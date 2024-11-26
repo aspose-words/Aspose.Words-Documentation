@@ -7,6 +7,7 @@ description: "Pole obsahují detaily, kódy polí a výsledky polí vysvětlené
 type: docs
 weight: 10
 url: /cs/java/introduction-to-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words je třídní knihovna určená pro zpracování na straně serveru Microsoft Word dokumenty a podporuje pole těmito způsoby:
@@ -36,7 +37,7 @@ Zde je pohled na to, jak je pole uloženo v Aspose.Words pomocí příkladu [Git
 
 ## Pole Aspose.Words Document Object Model (DOM)
 
-Při načtení dokumentu <span notrans="<span notrans=" Aspose.Words"=""></span>, pole dokumentu jsou naložena do Aspose.Words Document Object Model jako sada samostatných součástí (nod). Jedno pole je naloženo jako sbírka **FieldStart**, **FieldSeparator** a **FieldEnd** uzly spolu s obsahem mezi těmito uzly. Pokud pole nemá výsledek pole, pak nebude **FieldSeparator** Uzel. Všechny tyto uzly jsou vždy nalezeny inline (jako děti [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) nebo [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/).
+Při načtení dokumentu Aspose.Words, pole dokumentu jsou naložena do Aspose.Words Document Object Model jako sada samostatných součástí (nod). Jedno pole je naloženo jako sbírka **FieldStart**, **FieldSeparator** a **FieldEnd** uzly spolu s obsahem mezi těmito uzly. Pokud pole nemá výsledek pole, pak nebude **FieldSeparator** Uzel. Všechny tyto uzly jsou vždy nalezeny inline (jako děti [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) nebo [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/).
 
 In Aspose.Words každý z **FieldXXX** uzly pocházejí z [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/). Tato třída poskytuje vlastnost pro kontrolu typu pole zastoupeného daným uzlem prostřednictvím [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) majetek. Například `FieldType.FieldMergeField` představuje pole sloučení v dokumentu.
 
@@ -173,9 +174,9 @@ Aspose.Words podporuje všechny přepínače pro formátování dat a času dost
 
 ### Mail Merge Pole
 
-Aspose.Words neukládá žádné omezení složitosti mail merge pole ve vašich dokumentech a podporuje vnořené `IF` a pole vzorce a může dokonce vypočítat název pole sloučení pomocí vzorce.
+Aspose.Words neukládá žádné omezení složitosti Mail Merge pole ve vašich dokumentech a podporuje vnořené `IF` a pole vzorce a může dokonce vypočítat název pole sloučení pomocí vzorce.
 
-Některé příklady mail merge pole, která Aspose.Words podpora:
+Některé příklady Mail Merge pole, která Aspose.Words podpora:
 
 - Mail merge přepínače polí:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -222,6 +223,6 @@ Na druhou stranu, Microsoft Word formátuje každé jednotlivé pole založené 
 
 The [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) třída [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/document/#getFieldOptions) vlastnost, která obsahuje členy, které lze použít pro kontrolu toho, jak jsou pole aktualizována v dokumentu.
 
-Následující příklad kódu ukazuje, jak určit, kde kultura použitá pro formátování dat během aktualizace pole a mail merge je vybrán z:
+Následující příklad kódu ukazuje, jak určit, kde kultura použitá pro formátování dat během aktualizace pole a Mail Merge je vybrán z:
 
 PŘÍKLAD

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Formate de fișiere și conversii
 second_title: Aspose.Words pentru Java
 articleTitle: Formate de fișiere și conversii
@@ -7,6 +7,7 @@ description: "Convertiți documente din orice încărcare acceptată pentru a sa
 type: docs
 weight: 40
 url: /ro/java/file-formats-and-conversions/
+timestamp: 2024-01-31-14-23-37
 ---
 
 {{% alert color="primary" %}}

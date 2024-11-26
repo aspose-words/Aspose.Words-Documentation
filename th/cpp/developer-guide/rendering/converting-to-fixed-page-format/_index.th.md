@@ -1,4 +1,4 @@
-﻿---
+---
 title: การแปลงเป็นรูปแบบหน้าถาวรในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: แปลงเป็นรูปแบบหน้าถาวร
@@ -7,6 +7,7 @@ description: "บันทึกเอกสารPDF, XPS, HTML, XAML, PostScri
 type: docs
 weight: 10
 url: /th/cpp/converting-to-fixed-page-format/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Wordsใช้โปรแกรมเค้าโครงหน้าของตัวเอง ก่อนที่จะขุดคุ้ยข้อมูลจำเพาะของมันจะคุ้มค่าที่จะหารือเกี่ยวกับเอกสารในระดับสูงครั้งแรก.

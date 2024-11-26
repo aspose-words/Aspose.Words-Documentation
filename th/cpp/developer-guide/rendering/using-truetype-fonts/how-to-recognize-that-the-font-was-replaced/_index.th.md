@@ -1,4 +1,4 @@
-﻿---
+---
 title: วิธีการรับรู้ว่าแบบอักษรถูกแทนที่ในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: วิธีการรับรู้ว่าตัวอักษรที่ถูกแทนที่
@@ -7,6 +7,7 @@ description: "หากคุณไม่แน่ใจว่าทำไมเ
 type: docs
 weight: 13
 url: /th/cpp/how-to-recognize-that-the-font-was-replaced/
+timestamp: 2024-09-24-14-35-44
 ---
 
 บางครั้งอาจไม่ชัดเจนว่าทำไมเค้าโครงเอกสารมีการเปลี่ยนแปลงหรือทำไมแบบอักษรบ ในกรณีดังกล่าวข้อความเตือนการทดแทนแบบอักษรที่ดำเนินการโดยอินเทอร์เฟซIWarningCallbackมาช่วย พวกเขามี[FontSubstitution](https://reference.aspose.com/words/cpp/aspose.words/warningtype/)ชนิดคำเตือนและรูปแบบข้อความคำอธิบายมาตรฐาน"แบบอักษร'<OriginalFont>'ไม่พบ ใช้แบบอักษร'<SubstitutionFont>'แทน เหตุผล:<Reason>"ด้วยเหตุผลต่อไปนี้:

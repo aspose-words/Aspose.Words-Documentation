@@ -7,6 +7,7 @@ description: "Aspose.Words para .NET pode incorporar as fontes TrueType corretas
 type: docs
 weight: 10
 url: /pt/net/manipulating-and-substitution-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words requer fontes TrueType para diversas tarefas, incluindo renderização de documentos em formatos de página fixa, por exemplo, PDF ou XPS. Quando Aspose.Words renderiza um documento, ele precisa realizar a incorporação e subconjunto de fontes TrueType no documento resultante, o que é uma prática normal durante a geração de um documento, incluindo formatos populares PDF ou XPS. Isso garante que o documento terá a mesma aparência para qualquer visualizador. Além disso, a especificação XPS exige que as fontes sejam sempre incorporadas ao documento.
@@ -58,7 +59,7 @@ No entanto, há situações em que a fonte exata não pode ser encontrada e o As
 1. Se o Aspose.Words não conseguir localizar a fonte necessária com a correspondência exata de nome e a propriedade [AltName](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/altname/) definida para esta fonte, o Aspose.Words encontrará a fonte definida com **AltName** da classe [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/), que especifica as informações da fonte.
 1. Se Aspose.Words não conseguir localizar a fonte definida e **AltName** também não estiver definido, as regras de substituição de fonte serão aplicadas uma por uma, conforme descrito abaixo (quando a substituição apropriada for encontrada, o Processo de Substituição de Fonte será interrompido e o próximo passo não é executado):
    1. Primeiro, Aspose.Words tenta processar o nome da fonte para obter a substituição, principalmente tenta remover sufixos com separadores "-" e ",".<br>
-      Se esta regra de substituição ocorrer, uma "Fonte '&lt;OriginalFont&gt;' não foi encontrada. Usando a fonte '&lt;SubstitutionFont&gt;'. Motivo: substituição do nome da fonte." aviso aparece.<br>
+      Se esta regra de substituição ocorrer, uma "Fonte '<OriginalFont>' não foi encontrada. Usando a fonte '<SubstitutionFont>'. Motivo: substituição do nome da fonte." aviso aparece.<br>
             {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontsFoldersSystemAndCustomFolder-GetSubstitutionWithoutSuffixes.cs" >}}
    1. Em seguida, o Aspose.Words tenta aplicar as configurações de fonte do sistema operacional, se estiverem disponíveis, usando o utilitário **FontConfig**. Este recurso não Windows deve ser usado com um sistema operacional compatível com FontConfig. Quase todos os sistemas operacionais baseados em Unix já possuem uma biblioteca `FontConfig` projetada para fornecer configuração de fontes em todo o sistema, personalização e acesso a aplicativos. Caso contrário, esta biblioteca pode ser facilmente instalada pelo usuário.
       Aspose.Words sabe como consultar dados e interpretar os resultados do FontConfig para seus próprios fins. Por padrão, o utilitário `FontConfig` está desabilitado. Você pode habilitá-lo da seguinte maneira:<br>

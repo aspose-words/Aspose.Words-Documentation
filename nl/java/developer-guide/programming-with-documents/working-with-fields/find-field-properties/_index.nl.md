@@ -7,6 +7,7 @@ description: "Hoe vind ik een aantal veldeigenschappen zoals veldcode en veld re
 type: docs
 weight: 25
 url: /nl/java/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Een veld dat wordt ingevoegd met behulp van [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) geeft a [Field](https://reference.aspose.com/words/java/com.aspose.words/field/) object. Dit is een gevelklasse die handige methoden biedt om snel dergelijke eigenschappen van een veld te vinden.

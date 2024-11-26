@@ -1,38 +1,39 @@
----
-title: Работа с Footnote и Endnote
+﻿---
+title: Работа со сносками и заключением
 second_title: Aspose.Words для Python via .NET
-articleTitle: Работа с Footnote и Endnote
-linktitle: Работа с Footnote и Endnote
-description: "Вставить сноски или эндноты в документ и указать его варианты с использованием Python."
+articleTitle: Работа со сносками и заключением
+linktitle: Работа со сносками и заключением
+description: "Вставьте сноски в конце документа и укажите их параметры, используя Python."
 type: docs
 weight: 160
 url: /ru/python-net/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words Также предусмотрены некоторые классы, методы и свойства для работы со сносками и энднотами.
+Aspose.Words также предоставляет некоторые классы, методы и свойства для работы со сносками и концевыми примечаниями.
 
-## Включить Endnote и Set Numbering Options
+## Вставьте сноску в конце и задайте параметры нумерации
 
-Если вы хотите вставить сноску или примечание в документ Word, пожалуйста, используйте [insert_footnote](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_footnote/) метод. Этот метод вставляет сноску или сноску в документ.
+Если вы хотите вставить сноску или концевое примечание в документ Word, пожалуйста, используйте метод [insert_footnote](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_footnote/). Этот метод позволяет вставить сноску или концевое примечание в документ.
 
-[EndnoteOptions](https://reference.aspose.com/words/python-net/aspose.words.notes/endnoteoptions/) и [FootnoteOptions](https://reference.aspose.com/words/python-net/aspose.words.notes/footnoteoptions/) Классы представляют собой варианты нумерации для сноски и сноски.
+Классы [EndnoteOptions](https://reference.aspose.com/words/python-net/aspose.words.notes/endnoteoptions/) и [FootnoteOptions](https://reference.aspose.com/words/python-net/aspose.words.notes/footnoteoptions/) представляют варианты нумерации для сноски и концевой сноски.
 
-Следующий пример кода показывает, как вставить примечание в документ и установить его параметры нумерации:
+В следующем примере кода показано, как вставить концевую сноску в документ и задать параметры ее нумерации:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_footnote_and_endnote-SetEndnoteOptions.py" >}}
 
-## Установить количество колонок сносок
+## Установите количество столбцов макета сносок
 
-Вы можете установить количество колонок макета сноски, используя [columns](https://reference.aspose.com/words/python-net/aspose.words.notes/footnoteoptions/columns/) собственность. Если это свойство имеет значение 0, область сносок отформатирована рядом столбцов на основе количества столбцов на отображаемой странице.
+Вы можете задать количество столбцов разметки сносок, используя свойство [columns](https://reference.aspose.com/words/python-net/aspose.words.notes/footnoteoptions/columns/). Если это свойство имеет значение 0, область сносок будет отформатирована с количеством столбцов, основанным на количестве столбцов на отображаемой странице.
 
-Следующий пример кода показывает, как установить количество столбцов для макета сноски:
+В следующем примере кода показано, как задать количество столбцов для оформления сносок:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_footnote_and_endnote-SetFootNoteColumns.py" >}}
 
-## Установите позицию сноски и конечного примечания
+## Установите положение сноски и EndNote
 
-Положение сноски может быть в нижней части каждой страницы или под текстом на каждой странице. Положение примечания может быть в конце раздела или в конце документа.
+Сноска может располагаться внизу каждой страницы или под текстом на каждой странице. Сноска может располагаться в конце раздела или в конце документа.
 
-Следующий пример кода показывает, как установить положение сноски и сноски:
+В следующем примере кода показано, как задать положение сноски и концевой сноски:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_footnote_and_endnote-SetFootnoteAndEndNotePosition.py" >}}

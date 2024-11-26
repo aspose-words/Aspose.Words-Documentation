@@ -1,12 +1,13 @@
-﻿---
-title: Bir Belgeyi Kolayca Değiştirmek için `DocumentBuilder` kullanma
+---
+title: Bir Belgeyi Kolayca Değiştirmek için DocumentBuilder kullanma
 second_title: Aspose.Words için C++
-articleTitle: Bir Belgeyi Kolayca Değiştirmek için `DocumentBuilder` kullanma
-linktitle: Bir Belgeyi Kolayca Değiştirmek için `DocumentBuilder` kullanma
+articleTitle: Bir Belgeyi Kolayca Değiştirmek için DocumentBuilder kullanma
+linktitle: Bir Belgeyi Kolayca Değiştirmek için DocumentBuilder kullanma
 type: docs
 description: "Bir belgeyi C++ içinde kolayca değiştirmek için belge oluşturucuyu kullanın."
 weight: 190
 url: /tr/cpp/using-documentbuilder-to-modify-a-document-easily/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Biçimlendirme Belirtme

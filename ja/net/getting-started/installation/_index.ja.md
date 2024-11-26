@@ -7,6 +7,7 @@ description: "Manage NuGet Packages や Package Manager Console などの Visual
 type: docs
 weight: 10
 url: /ja/net/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 始める前に、お使いのマシンが [システム要求](/words/ja/net/system-requirements/) を満たしていることを確認してください。
@@ -55,7 +56,7 @@ Aspose.Words for .NET は、[ダウンロードセクション](https://releases
 
 .NET 用 Aspose.Words をインストールするには、次の手順に従います。
 
-1. [ダウンロードセクション](https://releases.aspose.com/words/) から `Aspose.Words_`{LatestVersion}.msi をダウンロードします。
+1. [ダウンロードセクション](https://releases.aspose.com/words/) から `Aspose.Words_{LatestVersion}.msi` をダウンロードします。
 2. ダウンロードしたファイルをダブルクリックするとセットアップ ウィザードが開始され、セットアップ ウィザードの指示に従います。<br>
    <img src="/words/net/installation/aspose-words-setup-1.png" alt="aspose-words-setup-1" style="width:500px"/>
 3. セットアップ ウィザードがインストールを完了すると、指定されたフォルダー パスのフォルダーに必要なファイルが存在します。<br>

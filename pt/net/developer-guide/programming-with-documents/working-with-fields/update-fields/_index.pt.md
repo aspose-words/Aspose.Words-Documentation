@@ -7,6 +7,7 @@ description: "Aprenda como atualizar campos em C#. Atualize os campos programati
 type: docs
 weight: 30
 url: /pt/net/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Normalmente, um campo inserido no Microsoft Word já contém um valor atualizado. Por exemplo, se o campo for uma fórmula ou um número de página, ele conterá o valor calculado correto para determinada versão do documento. Mas se você tiver um aplicativo que gera ou modifica um documento com campos como mesclar dois documentos ou preenchê-lo com dados, o ideal é que todos os campos sejam atualizados para que o documento seja útil.
@@ -18,7 +19,7 @@ Quando um documento é carregado, o Aspose.Words imita o comportamento do Micros
 - quando você abre/salva um documento, os campos permanecem intactos
 - você pode atualizar explicitamente todos os campos de um documento, por exemplo, reconstruir `TOC`, quando precisar
 - quando você imprime/renderiza em PDF ou XPS, os campos relacionados à numeração de páginas em cabeçalhos/rodapés são atualizados
-- quando você executa mail merge todos os campos são atualizados automaticamente
+- quando você executa Mail Merge todos os campos são atualizados automaticamente
 
 ### Atualizar campos programaticamente
 
@@ -42,7 +43,7 @@ Você pode baixar o arquivo de amostra deste exemplo em [Aspose.Words GitHub](ht
 
 ### Atualização automática de campo durante Mail Merge
 
-Ao executar um mail merge, todos os campos do documento serão atualizados automaticamente. Isso ocorre porque o mail merge é um caso de atualização de campo. O programa encontra um campo mail merge e precisa atualizar seu resultado, o que envolve pegar o valor da fonte de dados e inseri-lo no campo. A lógica é obviamente mais complicada, por exemplo, quando o final da região do documento/mail merge é atingido, mas ainda há mais dados a serem mesclados, então a região precisa ser duplicada e o novo conjunto de campos atualizado.
+Ao executar um mail merge, todos os campos do documento serão atualizados automaticamente. Isso ocorre porque o Mail Merge é um caso de atualização de campo. O programa encontra um campo Mail Merge e precisa atualizar seu resultado, o que envolve pegar o valor da fonte de dados e inseri-lo no campo. A lógica é obviamente mais complicada, por exemplo, quando o final da região do documento/mail merge é atingido, mas ainda há mais dados a serem mesclados, então a região precisa ser duplicada e o novo conjunto de campos atualizado.
 
 ## Atualizar campos com atributos sujos
 

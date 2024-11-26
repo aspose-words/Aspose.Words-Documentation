@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu liste în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Lucrul cu liste
@@ -7,6 +7,7 @@ description: "Creați, specificați formatarea și reporniți listele într-un d
 type: docs
 weight: 200
 url: /ro/python-net/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 O listă dintr-un document Microsoft Word este un set de proprietăți de formatare a listei. Listele pot fi utilizate în documentele dvs. pentru a formata, aranja și sublinia textul. Listele sunt o modalitate excelentă de a organiza datele în documente și facilitează cititorilor să înțeleagă punctele cheie.

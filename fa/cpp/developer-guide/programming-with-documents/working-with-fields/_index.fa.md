@@ -1,4 +1,4 @@
-﻿---
+---
 title: کار با فیلد ها در C++
 second_title: Aspose.Words برای C++
 articleTitle: کار با فیلد ها
@@ -7,6 +7,7 @@ description: "معرفی ویژگی فیلد در Aspose.Words برای C++."
 type: docs
 weight: 370
 url: /fa/cpp/working-with-fields/
+timestamp: 2024-01-30-16-22-34
 ---
 
 **رشته ها**

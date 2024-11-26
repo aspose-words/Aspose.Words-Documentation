@@ -1,4 +1,4 @@
-﻿---
+---
 title: Comparați documentele în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Comparați Documentele
@@ -7,6 +7,7 @@ type: docs
 description: "Comparați două documente în orice format acceptat și afișează modificările de conținut folosind C++. Puteți aplica Opțiuni avansate atunci când comparați."
 weight: 60
 url: /ro/cpp/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Compararea documentelor este un proces care identifică modificările între două documente și conține modificările ca revizuiri. Acest proces compară oricare două documente, inclusiv versiunile unui document specific, apoi modificările dintre ambele documente vor fi afișate ca revizuiri în primul document.

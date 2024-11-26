@@ -7,6 +7,7 @@ description: "Change or replace header or footer easily and fast instead of usin
 type: docs
 weight: 60
 url: /net/change-or-replace-header-and-footer/
+timestamp: 2024-01-27-14-07-04
 ---
 
 On this page we will look at how to change or replace header or footer using Aspose.Words or Open XML SDK.

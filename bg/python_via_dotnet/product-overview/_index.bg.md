@@ -7,6 +7,7 @@ description: "Aspose.Words вместо Python via .NET е софтуерна б
 type: docs
 weight: 15
 url: /bg/python-net/product-overview/
+timestamp: 2024-01-31-14-23-37
 ---
 
 <img src="/words/python-net/product-overview/product-overview_1" alt="aspose-words-product" align="left" style="width:64px; margin: 0 30px 30px 0"/>
@@ -77,7 +78,7 @@ Aspose.Words е с много нишки безопасно, докато сам
 
 ### Минимален курс на обучение
 
-Въпреки че има над 150 обществени класа и изброявания в <span notrans="<span notrans=" Aspose.Words"=""></span>,"> кривата на обучение е минимална, тъй като Aspose.Words API е внимателно проектирана със следните цели:
+Въпреки че има над 150 обществени класа и изброявания в Aspose.Words кривата на обучение е минимална, тъй като Aspose.Words API е внимателно проектирана със следните цели:
 
 - Заеми най-добрите практики от други известни APIт като Microsoft Word Автоматизация
 - Осигуряване на баланс на лекота на използване и подробна манипулация на документи елементи

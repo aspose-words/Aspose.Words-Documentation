@@ -1,4 +1,4 @@
-﻿---
+---
 title: Configurați produsul în Visual Studio
 second_title: Aspose.Words pentru C++
 articleTitle: Configurează Aspose.Words pentru C++ în Visual Studio
@@ -7,6 +7,7 @@ description: "Configurați manual Aspose.Words pentru C++ în Visual Studio."
 type: docs
 weight: 90
 url: /ro/cpp/configure-aspose-words-for-cpp-in-visual-studio/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words pentru C++ API funcționează cu Visual Studio 2022 sau mai târziu. Pentru a lucra cu Visual Studio, poate fi necesar să instalați Visual C++ Redistributable disponibil pe [Site-ul oficial Microsoft](https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170).

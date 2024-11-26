@@ -7,6 +7,7 @@ description: "Tentukan Opsi Tata Letak untuk berbagai tata letak dokumen menggun
 type: docs
 weight: 10
 url: /id/net/specify-layout-options/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Aspose.Words memungkinkan Anda membuat dokumen keluaran dengan berbagai tata letak, bergantung pada parameter yang ditentukan dalam properti kelas [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/). Beberapa properti ini menyerupai beberapa opsi menu antarmuka pengguna Microsoft Word – properti tersebut akan dijelaskan dalam artikel ini.

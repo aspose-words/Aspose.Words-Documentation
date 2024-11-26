@@ -1,38 +1,39 @@
----
-title: العمل مع الحاشية والتاريخ Java
-second_title: Aspose.Words for Java
-articleTitle: العمل مع الحاشية والخانة
-linktitle: العمل مع الحاشية والخانة
-description: "كيفية التلاعب بالحواشي والمذكرات الختامية باستخدام Java."
+﻿---
+title: العمل مع الحاشية السفلية والحاشية الختامية في Java
+second_title: Aspose.Words ل Java
+articleTitle: العمل مع الحاشية السفلية والحاشية الختامية
+linktitle: العمل مع الحاشية السفلية والحاشية الختامية
+description: "كيفية التعامل مع الحواشي السفلية والتعليقات الختامية باستخدام Java."
 type: docs
 weight: 160
 url: /ar/java/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words كما توفر بعض الصفوف والأساليب والخصائص من أجل العمل في حواشي وحاشي نهاية.
+Aspose.Words يوفر أيضا بعض الفئات والأساليب والخصائص للعمل مع الحواشي السفلية والتعليقات الختامية.
 
-## Insert Endnote and Set Numbering Options
+## إدراج تعليق ختامي وتعيين خيارات الترقيم
 
-إذا أردت إدراج حاشية أو حاشية نهائية في وثيقة كلمة، يرجى استخدام [InsertFootnote](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertFootnote-int-java.lang.String) طريقة وتدرج هذه الطريقة حاشية أو حاشية نهاية في الوثيقة.
+إذا كنت تريد إدراج حاشية سفلية أو حاشية ختامية في مستند ورد، فيرجى استخدام طريقة [InsertFootnote](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertFootnote-int-java.lang.String). تدرج هذه الطريقة حاشية سفلية أو حاشية ختامية في المستند.
 
-[EndnoteOptions](https://reference.aspose.com/words/java/com.aspose.words/endnoteoptions/) و [FootnoteOptions](https://reference.aspose.com/words/java/com.aspose.words/footnoteoptions/) وتمثل الفصول خيارات الترقيم للحاشية والحاشية الختامية.
+[EndnoteOptions](https://reference.aspose.com/words/java/com.aspose.words/endnoteoptions/) و [FootnoteOptions](https://reference.aspose.com/words/java/com.aspose.words/footnoteoptions/) تمثل الفئات خيارات الترقيم للحاشية السفلية والحاشية الختامية.
 
-ويبين المثال الرمزي التالي كيفية إدراج الحاشية النهائية في الوثيقة وتحديد خيارات الترقيم:
+يوضح مثال الكود التالي كيفية إدراج تعليق ختامي في المستند وتعيين خيارات الترقيم الخاصة به:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithFootnote-SetEndnoteOptions.java" >}}
 
-## عدد الكولومين
+## تعيين عدد أعمدة تخطيط الحاشية السفلية
 
-يمكنك تحديد عدد أعمدة تحديد الحاشية باستخدام [Columns](https://reference.aspose.com/words/java/com.aspose.words/footnoteoptions/#getColumns) ملكية وإذا كانت قيمة هذه الممتلكات تبلغ صفرا، فإن مساحة الحواشي مهيأة بعدد من الأعمدة استنادا إلى عدد الأعمدة في الصفحة المعروضة.
+يمكنك تعيين عدد أعمدة تخطيط الحاشية السفلية باستخدام خاصية [Columns](https://reference.aspose.com/words/java/com.aspose.words/footnoteoptions/#getColumns). إذا كانت قيمة هذه الخاصية 0، يتم تنسيق منطقة الحواشي السفلية بعدد من الأعمدة بناء على عدد الأعمدة في الصفحة المعروضة.
 
-ويبيّن المثال الرمزي التالي كيفية تحديد عدد الأعمدة المتعلقة بوضع الحاشية:
+يوضح مثال التعليمات البرمجية التالية كيفية تعيين عدد الأعمدة لتخطيط الحاشية السفلية:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithFootnote-SetFootNoteColumns.java" >}}
 
-## تحديد موقف الحاشية والنقطة النهائية
+## تعيين موضع الحاشية السفلية و EndNote
 
-ويمكن أن يكون موقف الحاشية في قاع كل صفحة أو تحت النص في كل صفحة. ويمكن أن يكون الموقف النهائي في نهاية الفرع أو في نهاية الوثيقة.
+يمكن أن يكون موضع الحاشية السفلية في أسفل كل صفحة أو أسفل النص في كل صفحة. يمكن أن يكون موضع التعليق الختامي في نهاية القسم أو في نهاية المستند.
 
-ويبين المثال الرمزي التالي كيفية تحديد موقف الحاشية والحاشية:
+يوضح مثال الكود التالي كيفية تعيين موضع الحاشية السفلية والحاشية الختامية:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithFootnote-SetFootnoteAndEndNotePosition.java" >}}

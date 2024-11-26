@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tạo biểu đồ OOXML Từ Đầu
 second_title: Aspose.Words cho C++
 articleTitle: Tạo biểu đồ OOXML Từ Đầu
@@ -7,6 +7,7 @@ description: "Cách tạo các biểu đồ khác nhau trong tài liệu của b
 type: docs
 weight: 10
 url: /vi/cpp/creating-ooxml-charts-from-scratch-using-aspose-words/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Tạo biểu đồ OOXML Từ Đầu bằng Aspose.Words

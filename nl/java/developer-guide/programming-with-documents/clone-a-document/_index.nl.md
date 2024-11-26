@@ -7,6 +7,7 @@ type: docs
 description: "Kloon een document om zijn identieke kopie te krijgen. Bij het maken van een kopie worden knooppunten en eigenschappen van het originele document gekloond met behulp van Java."
 weight: 70
 url: /nl/java/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Een document klonen is het proces van het maken van een identieke kopie van een origineel document, dat de prestaties kan verbeteren en u kan redden van potentiële geheugenlekken.

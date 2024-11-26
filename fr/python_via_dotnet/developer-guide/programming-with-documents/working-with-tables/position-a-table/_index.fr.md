@@ -7,6 +7,7 @@ description: "Spécifiez la position du tableau dans Python. Obtenez un aligneme
 type: docs
 weight: 50
 url: /fr/python-net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Il existe des tables flottantes et des tables en ligne:

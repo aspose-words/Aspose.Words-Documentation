@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mettre à jour les champs en C++
 second_title: Aspose.Words pour C++
 articleTitle: Mettre à Jour les Champs
@@ -7,6 +7,7 @@ description: "Apprenez à mettre à jour les champs en C++. Mettez à jour les c
 type: docs
 weight: 30
 url: /fr/cpp/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 En règle générale, un champ inséré dans Microsoft Word contient déjà une valeur à jour. Par exemple, si le champ est une formule ou un numéro de page, il contiendra la valeur calculée correcte pour la version donnée du document. Mais si vous avez une application qui génère ou modifie un document avec des champs tels que la fusion de deux documents ou le remplissage de données, idéalement, tous les champs doivent être mis à jour pour que le document soit utile.
@@ -36,7 +37,7 @@ L'exemple de code suivant montre comment mettre à jour tous les champs avant de
 
 ### Mise À Jour Automatique Des Champs Pendant Mail Merge
 
-Lorsque vous exécutez un mail merge, tous les champs du document seront automatiquement mis à jour. C'est parce que le mail merge est un cas de mise à jour de champ. Le programme rencontre un champ mail merge et doit mettre à jour son résultat, ce qui implique de récupérer la valeur de la source de données et de l'insérer dans le champ. La logique est bien sûr plus compliquée, par exemple, lorsque la fin de la région document/mail merge est atteinte mais qu'il reste encore d'autres données à fusionner, la région doit être dupliquée et le nouvel ensemble de champs mis à jour.
+Lorsque vous exécutez un mail merge, tous les champs du document seront automatiquement mis à jour. C'est parce que le Mail Merge est un cas de mise à jour de champ. Le programme rencontre un champ Mail Merge et doit mettre à jour son résultat, ce qui implique de récupérer la valeur de la source de données et de l'insérer dans le champ. La logique est bien sûr plus compliquée, par exemple, lorsque la fin de la région document/mail merge est atteinte mais qu'il reste encore d'autres données à fusionner, la région doit être dupliquée et le nouvel ensemble de champs mis à jour.
 
 ## Mettre À Jour La Propriété LastSavedTime Avant d'Enregistrer
 

@@ -7,6 +7,7 @@ description: "Use charts to represent your sequential data when building a repor
 type: docs
 weight: 30
 url: /java/using-charts-to-represent-sequential-data/
+timestamp: 2024-02-21-06-29-57
 ---
 
 LINQ Reporting Engine enables you to use charts to represent your sequential data. To declare a chart that is going to be populated with data dynamically within your template, do the following steps:

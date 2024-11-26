@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words or VSTO
 second_title: Aspose.Words for .NET
 articleTitle: Aspose.Words or VSTO
@@ -8,6 +8,7 @@ type: docs
 weight: 30
 url: /net/aspose-words-or-vsto/
 aliases: [/net/aspose-words-net-for-vsto/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 When you need to compare which product is best for your solution, there are many criteria to evaluate, but the main focus will often be the functionality and effort required to use the product.

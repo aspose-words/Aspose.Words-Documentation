@@ -7,6 +7,7 @@ description: "使用 Python 在文档中创建、读取、写入、克隆和管�
 type: docs
 weight: 410
 url: /zh/python-net/working-with-vba-macros/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Visual Basic for Applications (VBA) for Microsoft Word 是一种简单但功能强大的编程语言，可用于扩展功能。 Aspose.Words API 提供了三个类来访问 VBA 项目源代码：

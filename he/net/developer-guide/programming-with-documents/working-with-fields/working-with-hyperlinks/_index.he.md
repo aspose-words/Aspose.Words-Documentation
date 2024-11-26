@@ -7,6 +7,7 @@ description: "כיצד להוסיף היפר-קישור במסמך שלך C# ב�
 type: docs
 weight: 50
 url: /he/net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 היפר-קישור Microsoft Word המסמכים הם `HYPERLINK` שדה. In In In Aspose.Words, הקישורים יושמו באמצעות [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) מעמד.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tùy chọn Và Sự Xuất hiện Của Tài liệu Word
 second_title: Aspose.Words cho C++
 articleTitle: Làm việc Với Các Tùy chọn Và Sự Xuất hiện Của Tài liệu Word
@@ -7,6 +7,7 @@ description: "Kiểm soát sự xuất hiện của Các Tài liệu Word có t�
 type: docs
 weight: 40
 url: /vi/cpp/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi bạn có thể cần thay đổi giao diện của tài liệu, ví dụ: đặt tùy chọn ngôn ngữ hoặc số dòng trên mỗi trang.Aspose.Words cung cấp khả năng kiểm soát cách tài liệu sẽ được hiển thị, cũng như một số tùy chọn bổ sung. Bài viết này mô tả những khả năng như vậy.

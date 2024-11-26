@@ -7,6 +7,7 @@ description: "Đặt tài liệu của bạn ở chế độ chỉ đọc để 
 type: docs
 weight: 10
 url: /vi/net/open-a-document-read-only/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi, bạn có thể có một tài liệu cần được xem xét lại nhưng bạn không muốn người đánh giá sửa đổi nội dung của bạn một cách ngẫu nhiên. Aspose.Words cho phép bạn đặt quyền cho tài liệu của mình ở chế độ chỉ đọc để có thể sao chép hoặc đọc nội dung nhưng không được sửa đổi. Điều này sẽ ngăn nội dung bị xóa hoặc thêm vào tài liệu của bạn.

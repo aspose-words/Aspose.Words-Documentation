@@ -1,4 +1,4 @@
-﻿---
+---
 title: Quale standard PDF è meglio scegliere
 second_title: Aspose.Words per C++
 articleTitle: Quale standard PDF è meglio scegliere
@@ -7,6 +7,7 @@ description: "Scegli lo standard PDF migliore per esportare il risultato della t
 type: docs
 weight: 37
 url: /it/cpp/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Per alcune attività, alcuni standard PDF si adatteranno meglio o viceversa peggio. In questo articolo, cercheremo di determinare quali standard PDF per quali casi ha senso scegliere.

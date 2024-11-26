@@ -1,4 +1,4 @@
-﻿---
+---
 title: ドキュメントノード間でコンテンツを抽出する方法
 second_title: C++の場合Aspose.Words
 articleTitle: ドキュメント内のノード間でコンテンツを抽出する
@@ -7,6 +7,7 @@ type: docs
 description: "C++を使用して異なるドキュメントコンテンツを抽出します。"
 weight: 140
 url: /ja/cpp/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ドキュメントを操作するときは、ドキュメント内の特定の範囲からコンテンツを簡単に抽出できることが重要です。 ただし、コンテンツは、段落、表、画像などの複雑な要素で構成されている場合があります。

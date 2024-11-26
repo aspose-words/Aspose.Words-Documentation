@@ -7,6 +7,7 @@ type: docs
 description: "Markdown 문서를 Document Object Model로 변환하고 Python을 사용하여 다시 변환합니다. 따라서 복잡한 기존 Markdown로 작업하고 처음부터 프로그래밍 방식으로 Markdown 문서를 만들 수 있습니다."
 weight: 20
 url: /ko/python-net/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 문서의 내용과 서식을 프로그래밍 방식으로 읽고, 조작하고, 수정하려면 문서를 Aspose.Words Document Object Model(DOM)로 변환해야 합니다.
@@ -124,9 +125,9 @@ builder.document.save(docs_base.artifacts_dir + "WorkingWithMarkdown.image_examp
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br /> `-----` |  다음은 해당 수평 규칙 모양이 있는 간단한 단락입니다.<br /> [DocumentBuilder.insert_horizontal_rule()](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_horizontal_rule/) |
 |   {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_markdown-HorizontalRule.py" >}}  |                                                                |
-|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.style_name = "Heading N"`, 여기서 (1&lt;= N &lt;= 9).<br /> 이는 내장 스타일로 변환되며 정확히 지정된 패턴이어야 합니다(접미사 또는 접두사는 허용되지 않음).<br /> 그렇지 않으면 해당 스타일이 있는 일반 단락일 뿐입니다 |
+|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.style_name = "Heading N"`, 여기서 (1&le; N &le; 9).<br /> 이는 내장 스타일로 변환되며 정확히 지정된 패턴이어야 합니다(접미사 또는 접두사는 허용되지 않음).<br /> 그렇지 않으면 해당 스타일이 있는 일반 단락일 뿐입니다 |
 |   {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_markdown-Headings.py" >}}  |                                                                |
-|  **Setext Heading**<br /> `===`(제목 수준 1인 경우),<br /> `---`(제목 수준 2인 경우) |  `"Heading N"` 스타일을 기반으로 하는 `ParagraphFormat.style_name = "SetextHeading[some suffix]"`.<br /> (N &gt;= 2)이면 `"Heading 2"`이 사용되고, 그렇지 않으면 `"Heading 1"`가 사용됩니다.<br /> 모든 접미사가 허용되지만 Aspose.Words 가져오기에서는 숫자 "1"과 "2"를 각각 사용합니다 |
+|  **Setext Heading**<br /> `===`(제목 수준 1인 경우),<br /> `---`(제목 수준 2인 경우) |  `"Heading N"` 스타일을 기반으로 하는 `ParagraphFormat.style_name = "SetextHeading[some suffix]"`.<br /> (N &ge; 2)이면 `"Heading 2"`이 사용되고, 그렇지 않으면 `"Heading 1"`가 사용됩니다.<br /> 모든 접미사가 허용되지만 Aspose.Words 가져오기에서는 숫자 "1"과 "2"를 각각 사용합니다 |
 |  {{< highlight python >}}# Use a document builder to add content to the document.
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)

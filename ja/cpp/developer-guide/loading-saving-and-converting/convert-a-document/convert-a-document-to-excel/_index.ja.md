@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でWordをExcelに変換する
 second_title: C++の場合Aspose.Words
 articleTitle: 文書をExcelに変換する
@@ -7,6 +7,7 @@ description: "PDFをExcelに変換し、XMLをExcelに変換し、DOCXをExcel C
 type: docs
 weight: 15
 url: /ja/cpp/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 ドキュメントをある形式から別の形式に変換することは、Aspose.Wordsの主要な機能です。 使用可能な任意の[load format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/)の文書をXLSX形式に変換することもできます。

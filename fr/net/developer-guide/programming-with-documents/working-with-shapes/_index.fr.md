@@ -7,6 +7,7 @@ description: "Introduction au langage de balisage de forme, création de formes 
 type: docs
 weight: 280
 url: /fr/net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Cette rubrique explique comment travailler par programmation avec des formes à l'aide de Aspose.Words.

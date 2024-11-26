@@ -8,6 +8,7 @@ type: docs
 weight: 10
 url: /python-net/work-with-document-properties/
 aliases: [/python/work-with-document-properties/]
+timestamp: 2024-01-31-14-23-37
 ---
 
 Document properties allow storing some useful information about your document. These properties can be divided into two groups:

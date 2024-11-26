@@ -1,4 +1,4 @@
-﻿---
+---
 title: Report Template and Merge Fields
 second_title: Aspose.Words for SharePoint
 articleTitle: Report Template and Merge Fields
@@ -7,6 +7,7 @@ description: "How to create report template for the Aspose.Words for SharePoint.
 type: docs
 weight: 20
 url: /sharepoint/report-template-and-merge-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 You need a template document before you can generate a report. A template is a Microsoft Word document with placeholders defining where to insert external data. It does not have to be a Microsoft Word template (.dot or .dotx) file. A regular .doc or .docx document will work.

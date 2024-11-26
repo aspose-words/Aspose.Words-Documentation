@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrați cu proprietățile documentului în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Lucrați cu proprietățile documentului
@@ -7,6 +7,7 @@ description: "Aspose.Words pentru C++ permite stocarea unor informații utile de
 type: docs
 weight: 10
 url: /ro/cpp/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Proprietățile documentului permit stocarea unor informații utile despre documentul dvs. Aceste proprietăți pot fi împărțite în două grupe:

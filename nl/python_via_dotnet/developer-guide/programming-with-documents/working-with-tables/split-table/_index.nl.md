@@ -7,6 +7,7 @@ description: "Tabel in splitsen Python. Hoe een tabel in twee afzonderlijke tabe
 type: docs
 weight: 100
 url: /nl/python-net/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Een tabel in de Aspose.Words Document Object Model, is opgebouwd uit onafhankelijke rijen en cellen, waardoor het gemakkelijk is om een tabel te splitsen.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 폰트 FallBack 에서 설정 XML 그 안에 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 폰트 FallBack 에서 설정 XML
@@ -7,6 +7,7 @@ description: "글꼴 대체 메커니즘은 글꼴이 확인될 때 사용되지
 type: docs
 weight: 14
 url: /ko/cpp/font-fallback-settings-from-xml/
+timestamp: 2024-09-24-14-35-44
 ---
 
 두 가지 다른 메커니즘이 사용되고 있습니다. Aspose.Words -글꼴 대체 및 글꼴 대체. 글꼴 대체는 문서에 지정된 글꼴이 위의 섹션에서 설명한 것처럼 글꼴 소스에서 찾을 수 없을 때 사용됩니다. 글꼴 대체 메커니즘은 글꼴이 확인될 때 사용되지만 특정 문자를 포함하지 않습니다. 이 경우, Aspose.Words 문자에 대 한 대체 글꼴 중 하나를 사용 하려고 합니다.

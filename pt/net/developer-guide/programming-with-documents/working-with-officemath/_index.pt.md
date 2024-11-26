@@ -7,6 +7,7 @@ description: "Introdução ao recurso Office Math em Aspose.Words para .NET."
 type: docs
 weight: 320
 url: /pt/net/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Agora é ainda mais conveniente trabalhar com objetos do tipo OfficeMath. No Aspose.Words, o cliente pode justificar facilmente e também gerenciar se uma equação é exibida em linha ou em uma linha separada. Mais ainda, com a disponibilidade do **MathObjectType**; controles úteis podem ser implementados usando este objeto de matriz.

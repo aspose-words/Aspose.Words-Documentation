@@ -7,6 +7,7 @@ description: "Alege cel mai bun standard PDF pentru exportul rezultatului muncii
 type: docs
 weight: 27
 url: /ro/net/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Pentru unele sarcini, anumite standarde PDF se vor potrivi mai bine sau invers, mai rău. În acest articol, vom încerca să determinăm care standarde PDF se potrivesc pentru care cazuri face sens să alegi.

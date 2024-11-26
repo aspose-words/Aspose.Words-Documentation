@@ -7,6 +7,7 @@ type: docs
 description: "Verwenden Sie die Aspose.Words-Document Object Model-Klassen, um Dokumente mit .NET mithilfe von C# programmgesteuert zu erstellen, zu ändern und zu verwalten. Arbeiten Sie mit Dokumenteigenschaften, -einstellungen und -inhalten sowie mit dem Erscheinungsbild des Dokuments durch die Verwaltung von Farben, Formen, Schriftarten und anderen Grafiken."
 weight: 60
 url: /de/net/programming-with-documents/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Dieser Abschnitt enthält Informationen zum programmgesteuerten Erstellen, Ändern und Verwalten von Dokumenten mit den Aspose.Words-Document Object Model-Klassen. In den Artikeln in diesem Abschnitt wird ein breites Spektrum an Dokumentbearbeitungsaufgaben beschrieben, mit denen Sie mit Dokumenteigenschaften, Einstellungen, Inhalten und seinen Elementen arbeiten können.

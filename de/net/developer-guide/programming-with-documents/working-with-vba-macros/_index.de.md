@@ -7,6 +7,7 @@ description: "Arbeiten mit Dokument-VBA-Projekten unter Verwendung von C#."
 type: docs
 weight: 410
 url: /de/net/working-with-vba-macros/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Visual Basic for Applications (VBA) für Microsoft Word ist eine einfache, aber leistungsstarke Programmiersprache, mit der die Funktionalität erweitert werden kann. Aspose.Words API bietet drei Klassen, um Zugriff auf den Quellcode des VBA-Projekts zu erhalten:

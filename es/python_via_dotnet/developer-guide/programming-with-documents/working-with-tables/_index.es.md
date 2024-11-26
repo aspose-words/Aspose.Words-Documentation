@@ -7,6 +7,7 @@ description: "Trabajar con tablas en un documento usando Python. Introducción a
 type: docs
 weight: 190
 url: /es/python-net/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un **mesa** en un documento es una excelente manera de estructurar datos similares. Es por eso que las tablas son un elemento de formato de contenido común y son compatibles con la mayoría de los formatos de una forma u otra.

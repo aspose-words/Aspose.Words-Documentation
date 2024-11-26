@@ -7,6 +7,7 @@ description: "Ścieżka zmiany treści i formatowania dokonane przez Ciebie lub 
 type: docs
 weight: 270
 url: /pl/java/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Funkcjonalność zmian toru, znany również jako przegląd, pozwala śledzić zmiany treści i formatowania dokonane przez użytkownika lub innych użytkowników. Ta funkcja zmiany toru Aspose.Words obsługuje zmiany toru w Microsoft Word. Dzięki tej funkcjonalności można uzyskać dostęp do indywidualnych zmian w dokumencie i zastosować do nich różne właściwości.

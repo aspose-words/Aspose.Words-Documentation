@@ -7,6 +7,7 @@ description: "Especifique varias fuentes de fuentes TrueType: carpeta del sistem
 type: docs
 weight: 30
 url: /es/python-net/specifying-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Este tema describe el comportamiento predeterminado de Aspose.Words cuando busca fuentes TrueType, incluidas las diferencias específicas del sistema operativo, y demuestra cómo especificar fuentes de fuentes del usuario.
@@ -51,7 +52,7 @@ Dado que las métricas de fuente de los sistemas operativos Windows y no Windows
 
 #### Dónde Aspose.Words busca fuentes TrueType en Linux
 
-Diferentes distribuciones de Linux pueden almacenar fuentes en diferentes carpetas. Aspose.Words busca fuentes en varias ubicaciones. De forma predeterminada, Aspose.Words busca las fuentes en todas las ubicaciones siguientes: */usr/share/fonts* */usr/local/share/fonts* */usr/X11R6/lib/X11/fonts*. Este comportamiento predeterminado funcionará para la mayoría de las distribuciones Linux, pero no se garantiza que funcione todo el tiempo, en cuyo caso es posible que deba especificar explícitamente la ubicación de las fuentes True Type. Para hacer esto, necesita saber dónde están instaladas las fuentes TrueType en su distribución Linux.
+Diferentes distribuciones de Linux pueden almacenar fuentes en diferentes carpetas. Aspose.Words busca fuentes en varias ubicaciones. De forma predeterminada, Aspose.Words busca las fuentes en todas las ubicaciones siguientes: `/usr/share/fonts` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts`. Este comportamiento predeterminado funcionará para la mayoría de las distribuciones Linux, pero no se garantiza que funcione todo el tiempo, en cuyo caso es posible que deba especificar explícitamente la ubicación de las fuentes True Type. Para hacer esto, necesita saber dónde están instaladas las fuentes TrueType en su distribución Linux.
 
 #### Dónde busca Aspose.Words fuentes TrueType en Mac OS X
 

@@ -1,60 +1,61 @@
----
-title: العمل مع النص في الجدول
-second_title: Aspose.Words for Java
-articleTitle: العمل مع النص في الجدول
-linktitle: العمل مع النص في الجدول
-description: "يستعاض عن النص في جدول Java. Extract Plain Text from Table or Cell using Java."
+﻿---
+title: العمل مع النص في جدول
+second_title: Aspose.Words ل Java
+articleTitle: العمل مع النص في جدول
+linktitle: العمل مع النص في جدول
+description: "استبدال النص في جدول في Java. استخراج نص عادي من الجدول أو الخلية باستخدام Java."
 type: docs
 weight: 60
 url: /ar/java/extract-text-from-and-replace-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
-وكما ذُكر في المواد السابقة، يتضمّن الجدول عادة نصاً واضحاً، وإن كان يمكن وضع محتوى آخر مثل الصور أو حتى الجداول الأخرى في زنزانات المائدة.
+كما هو مذكور في المقالات السابقة، يحتوي الجدول عادة على نص عادي، على الرغم من أنه يمكن وضع محتوى آخر مثل الصور أو حتى الجداول الأخرى في خلايا الجدول.
 
-يُضاف النص أو أي محتوى آخر إلى الجدول باستخدام الأساليب المناسبة [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) الفئة التي يرد وصفها في **"أعد طاولة"** مقال وفي هذه المادة، سنتحدث عن كيفية العمل مع النص في جدول قائم بالفعل.
+تتم إضافة نص أو محتوى آخر إلى الجدول باستخدام الطرق المناسبة لفئة [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) ويتم وصفها في مقالة **"Create a Table"**. في هذه المقالة، سنتحدث عن كيفية العمل مع النص في جدول موجود بالفعل.
 
-## يستعاض عن النص في الجدول
+## استبدال النص في جدول
 
-المنضدة، مثل أي موكب آخر Aspose.Words, لديه إمكانية الوصول إلى [Range](https://reference.aspose.com/words/java/com.aspose.words/range/) هدف بإستعمال الجسم المنضدي يمكنك استبدال النص في طاولة
+الجدول، مثل أي عقدة أخرى في Aspose.Words، لديه حق الوصول إلى الكائن [Range](https://reference.aspose.com/words/java/com.aspose.words/range/). باستخدام كائن نطاق الجدول، يمكنك استبدال النص في جدول.
 
-وتحظى القدرة على استخدام شخصيات خاصة عند الاستعاضة عنها بالدعم حاليا، ولذلك يمكن الاستعاضة عن النص الحالي بنص متعدد الفقرات. للقيام بذلك، تحتاج إلى استخدام المفاعلات الخاصة الموصوفة في المقابل [Replace](https://reference.aspose.com/words/java/com.aspose.words/range/#replace-java.lang.String-java.lang.String) طريقة
+القدرة على استخدام أحرف خاصة عند الاستبدال مدعومة حاليا، لذلك من الممكن استبدال النص الحالي بنص متعدد الفقرات. للقيام بذلك، تحتاج إلى استخدام الأحرف الأولية الخاصة الموضحة في طريقة [Replace](https://reference.aspose.com/words/java/com.aspose.words/range/#replace-java.lang.String-java.lang.String) المقابلة.
 
 {{% alert color="primary" %}}
 
-وعادة ما ينبغي الاستعاضة عن النصوص على مستوى الخلايا (كل خلية) أو على مستوى الفقرة.
+عادة، يجب أن يتم استبدال النص على مستوى الخلية (لكل خلية) أو على مستوى الفقرة.
 
 {{% /alert %}}
 
-The following code example shows how to replace all instances of a string of text in the cells of an entire table:
+يوضح مثال التعليمات البرمجية التالية كيفية استبدال كافة مثيلات سلسلة من النص في خلايا جدول بأكمله:
 
 {{< gist "aspose-words-gists" "7855fd2588b90f4640bf0540285b5277" "replace-text.java" >}}
 
-## Extract Plain Text from a Table
+## استخراج نص عادي من جدول
 
-استخدام **Range** الجسم، يمكنك أيضا دعوة الأساليب على كامل نطاق الجدول واستخراج الطاولة كنص عادي. للقيام بذلك، استخدام [Text](https://reference.aspose.com/words/java/com.aspose.words/range/#Text) ملكية
+باستخدام الكائن **Range**، يمكنك أيضا استدعاء الأساليب على نطاق الجدول بأكمله واستخراج الجدول كنص عادي. للقيام بذلك، استخدم خاصية [Text](https://reference.aspose.com/words/java/com.aspose.words/range/#Text).
 
-ويبين المثال الرمزي التالي كيفية طباعة مجموعة النصوص من الجدول:
+يوضح مثال التعليمات البرمجية التالية كيفية طباعة نطاق النص لجدول:
 
 {{< gist "aspose-words-gists" "7855fd2588b90f4640bf0540285b5277" "extract-text.java" >}}
 
 {{% alert color="primary" %}}
 
-The same technique is used to extract content from individual table cells only.
+يتم استخدام نفس التقنية لاستخراج المحتوى من خلايا الجدول الفردية فقط.
 
-ويبين المثال الرمزي التالي كيفية طباعة مجموعة من عناصر الصف والجداول:
+يوضح مثال التعليمات البرمجية التالية كيفية طباعة نطاق نص من عناصر الصف والجدول:
 
 {{% /alert %}}
 
-ويبين المثال الرمزي التالي كيفية طباعة مجموعة النصوص من عناصر الصف والجداول.
+يوضح مثال الكود التالي كيفية طباعة نطاق النص لعناصر الصف والجدول.
 
 {{< gist "aspose-words-gists" "7855fd2588b90f4640bf0540285b5277" "print-text-range-row-and-table.java" >}}
 
-## العمل مع الجدول البديل
+## العمل مع نص جدول بديل
 
-Microsoft Word الجداول لها `table title` و `table description` التي توفر تمثيلاً نصياً بديلاً للمعلومات الواردة في الجدول.
+Microsoft Word تحتوي الجداول على `table title` و `table description` التي توفر تمثيلا نصيا بديلا للمعلومات الواردة في الجدول.
 
-In Aspose.Words, يمكنك أيضاً إضافة عنوان ووصف للطاولة باستخدام [Title](https://reference.aspose.com/words/java/com.aspose.words/table/#getTitle) و [Description](https://reference.aspose.com/words/java/com.aspose.words/table/#getDescription) الممتلكات. وهذه الممتلكات ذات مغزى بالنسبة لوثائق شركة DOCX التي تتفق مع ISO/ IEC 29500. عندما يكون الادخار في أشكال قبل ISO/ IEC 29500, these properties are ignored.
+في Aspose.Words، يمكنك أيضا إضافة عنوان الجدول والوصف باستخدام خصائص [Title](https://reference.aspose.com/words/java/com.aspose.words/table/#getTitle) و [Description](https://reference.aspose.com/words/java/com.aspose.words/table/#getDescription). هذه الخصائص ذات مغزى لـ DOCX المستندات المطابقة لـ ISO / IEC 29500. عند الحفظ بتنسيقات أقدم من ISO / IEC 29500، يتم تجاهل هذه الخصائص.
 
-ويبيّن المثال الرمزي التالي كيفية تحديد ملكية ووصف الجدول:
+يوضح مثال التعليمات البرمجية التالية كيفية تعيين خصائص العنوان والوصف لجدول:
 
 {{< gist "aspose-words-gists" "7855fd2588b90f4640bf0540285b5277" "table-title-and-description.java" >}}

@@ -9,6 +9,7 @@ aliases:
  - /cpp/how-to-add-a-watermark-to-a-document/
 weight: 340
 url: /cpp/working-with-watermark/
+timestamp: 2024-01-30-16-22-34
 ---
 
 This topic discusses how to work programmatically with watermark using Aspose.Words. A watermark is a background image that displays behind the text in a document. A watermark can contain a text or an image represented by the [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/) class.

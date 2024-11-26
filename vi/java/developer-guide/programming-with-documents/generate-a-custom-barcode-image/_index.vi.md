@@ -7,6 +7,7 @@ description: "Ví dụ về việc tạo hình mã vạch sử dụng Java."
 type: docs
 weight: 350
 url: /vi/java/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
 Mã vạch là sự thể hiện thị giác của dữ liệu dưới dạng các đường song song hoặc mô hình. Mã vạch được sử dụng phổ biến trong nhiều ngành công nghiệp khác nhau như bán lẻ, hậu cần, y tế, ngân hàng và nhiều ngành khác.

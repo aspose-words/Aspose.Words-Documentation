@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit Listen in C++
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit Listen
@@ -7,6 +7,7 @@ description: "Einführung in die Nummerierungsformatierungsfunktion in Aspose.Wo
 type: docs
 weight: 200
 url: /de/cpp/working-with-lists/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Eine Liste in einem Microsoft Word-Dokument besteht aus einer Reihe von Listenformatierungseigenschaften. Listen können in Ihren Dokumenten verwendet werden, um Text zu formatieren, anzuordnen und hervorzuheben. Listen sind eine großartige Möglichkeit, Daten in Dokumenten zu organisieren, und sie erleichtern es den Lesern, wichtige Punkte zu verstehen.

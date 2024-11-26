@@ -7,6 +7,7 @@ description: "Uložit dokumenty do PDF, XPS, HTML, XAML, PostScript a PCL formá
 type: docs
 weight: 10
 url: /cs/python-net/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words implementuje svůj vlastní motor rozložení stránek. Před tím, než se dostaneme do jeho specifikací, stojí za to nejprve diskutovat o dokumentu na vysoké úrovni. Při přemýšlení o dokumentu si uživatelé obvykle představí řadu papírových listů obsahujících slova, obrázky, tabulky a grafy. Dokumenty mohou být různé typy, jako je text, tabulky, diapozitivy, CAD výkresy, diagramy, a proto mohou mít v podstatě různé rozvržení. Většina aplikací umožňuje posílat dokumenty do tiskárny; to je doba, kdy uživatel může skutečně zobrazit dokument.
@@ -49,7 +50,7 @@ Dispozice stránky počítá, kde se objeví text a jaký obsah bude za ním př
 
 ![converting-to-fixed-page-format_2](/words/python-net/converting-to-fixed-page-format/converting-to-fixed-page-format-2.png)
 
-In <span notrans="<span notrans=" Aspose.Words"=""></span>,? uživatel může požádat o vytvoření nového rozvržení stránky, nebo aktualizovat existující. Obojí může být provedeno [update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) metoda podle [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) třída. Pokud návrh stránky neexistuje, ale je třeba (například při vývozu dokumentu do pevného formátu), Aspose.Words automaticky volá tuto metodu. Pokud však již existuje rozložení stránky, Aspose.Words použije stávající, aby se zabránilo spotřebě zdrojů nezbytných k jeho aktualizaci. V tomto případě musí uživatel zavolat [update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) metoda, aby bylo zajištěno, že rozložení stránky je aktuální s modelem dokumentu.
+In Aspose.Words,? uživatel může požádat o vytvoření nového rozvržení stránky, nebo aktualizovat existující. Obojí může být provedeno [update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) metoda podle [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) třída. Pokud návrh stránky neexistuje, ale je třeba (například při vývozu dokumentu do pevného formátu), Aspose.Words automaticky volá tuto metodu. Pokud však již existuje rozložení stránky, Aspose.Words použije stávající, aby se zabránilo spotřebě zdrojů nezbytných k jeho aktualizaci. V tomto případě musí uživatel zavolat [update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) metoda, aby bylo zajištěno, že rozložení stránky je aktuální s modelem dokumentu.
 
 ### Dynamická struktura
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tabel Posisie in Python
 second_title: Aspose.Words vir Python
 articleTitle: Plaas'n Tabel
@@ -7,6 +7,7 @@ description: "Spesifiseer tabel posisie in Python. Kry'n tabel belyning, kry en 
 type: docs
 weight: 50
 url: /af/python-net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Daar is drywende tafels en inline tafels:

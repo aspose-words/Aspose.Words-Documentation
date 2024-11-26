@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Properti Dokumen di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Properti Dokumen
@@ -7,6 +7,7 @@ description: "Aspose.Words untuk C++ mengizinkan penyimpanan beberapa informasi 
 type: docs
 weight: 10
 url: /id/cpp/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Properti dokumen memungkinkan penyimpanan beberapa informasi berguna tentang dokumen Anda. Properti ini dapat dibagi menjadi dua kelompok:

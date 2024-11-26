@@ -7,6 +7,7 @@ description: "Aspose.Words untuk .NET dapat menemukan font yang tepat atau pengg
 type: docs
 weight: 20
 url: /id/net/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Saat bekerja dengan dokumen, Anda sering kali harus menggunakan font, gaya, dan ukuran yang berbeda. Dokumen dapat berisi sejumlah font, yang tidak terbatas pada font yang diinstal di sistem operasi. Fontnya bisa sangat berbeda, seperti font yang diambil dari sistem operasi lain, dibeli, atau dibuat oleh pengguna sendiri.

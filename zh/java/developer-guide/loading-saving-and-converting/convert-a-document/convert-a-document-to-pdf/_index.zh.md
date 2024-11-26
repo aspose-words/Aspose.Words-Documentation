@@ -7,6 +7,7 @@ description: "将 Word 或其他任何支持格式的文档转换为 PDF, 它保
 type: docs
 weight: 10
 url: /zh/java/convert-a-document-to-pdf/
+timestamp: 2024-01-31-14-23-37
 ---
 
 将文档从一种格式简单可靠地转换到另一种格式的能力是: Aspose.Words。 。 。 最受欢迎的转换格式之一是PDF – 一种固定放行格式,它保留了文档在各种平台渲染时的原始外观. "放弃"一词用于: Aspose.Words 来描述将文档转换成一个文件格式的过程,该格式是加成的或具有页面概念的。

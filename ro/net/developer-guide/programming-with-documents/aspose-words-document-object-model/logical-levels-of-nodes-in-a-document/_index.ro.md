@@ -7,6 +7,7 @@ type: docs
 description: "În Aspose.Words pentru documentația .NET a menționat niveluri logice ale nodurilor – nivel bloc, nivel în linie sau nivel rând folosind C#. Nivelul nodului este utilizat pentru a descrie locația în arborele de documente unde nodul apare în mod tipic."
 weight: 10
 url: /ro/net/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Această documentație se referă uneori la un grup de clase de noduri ca aparținând unei "niveluri" într-un document, cum ar fi "blocare nivel", "nivel în linie" (de asemenea cunoscut sub numele de "în linie") sau "rândul nivelului". Aceste niveluri într-un document sunt diferențiate pur logic și nu sunt exprimate în mod explicit prin moștenire sau alte Aspose.Words DOM mijloace. Nivelul nodului se foloseşte pentru a descrie locul din arborele de documente unde ar apărea în mod tipic nodul.

@@ -7,6 +7,7 @@ description: "Tạo và sửa đổi đính kèm OLE trong tài liệu của b�
 type: docs
 weight: 360
 url: /vi/java/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE nghĩa là "Liên kết và nhúng đối tượng. Đây là công nghệ mà người dùng có thể làm việc với các tài liệu chứa "đối tượng" được tạo ra hoặc chỉnh sửa bởi các ứng dụng của bên thứ ba. Đó là, OLE cho phép một ứng dụng xuất các "đối tượng" sang một ứng dụng khác để chỉnh sửa, và sau đó nhập chúng lại với một số nội dung bổ sung.

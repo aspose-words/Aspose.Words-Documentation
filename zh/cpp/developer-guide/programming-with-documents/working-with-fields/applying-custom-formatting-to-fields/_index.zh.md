@@ -1,4 +1,4 @@
-﻿---
+---
 title: 将自定义格式应用于C++中的字段
 second_title: Aspose.Words对于C++
 articleTitle: 将自定义格式应用于字段
@@ -7,6 +7,7 @@ description: "使用C++格式化和评估字段结果。"
 type: docs
 weight: 40
 url: /zh/cpp/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时用户需要将自定义格式应用于字段。 在这篇文章中，我们将看看如何做到这一点的几个例子。

@@ -7,6 +7,7 @@ description: "Aspose.Words zamiast Java pozwala na przechowywanie pewnych przyda
 type: docs
 weight: 10
 url: /pl/java/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Właściwości dokumentu pozwalają na przechowywanie pewnych przydatnych informacji o dokumencie. Właściwości te można podzielić na dwie grupy:

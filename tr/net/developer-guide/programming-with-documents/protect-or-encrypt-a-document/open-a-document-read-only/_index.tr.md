@@ -7,6 +7,7 @@ description: "İçeriğin kopyalanabilmesi veya okunabilmesi, ancak C# kullanıl
 type: docs
 weight: 10
 url: /tr/net/open-a-document-read-only/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen, incelenmesi gereken bir belgeniz olabilir ancak inceleyenlerin içeriğinizi rastgele değiştirmesini istemezsiniz. Aspose.Words, içeriğin kopyalanabilmesi veya okunabilmesi ancak değiştirilmemesi için belgenizin iznini salt okunur yapmanıza olanak tanır. Bu, içeriğin kaldırılmasını veya belgenize eklenmesini önleyecektir.

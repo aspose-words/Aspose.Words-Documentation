@@ -1,4 +1,4 @@
-﻿---
+---
 title: Voeg By Tabelle
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Voeg By Tabelle
@@ -7,6 +7,7 @@ description: "Sluit tabelle in'n dokument met behulp van Python. Hoe om twee tab
 type: docs
 weight: 90
 url: /af/python-net/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 'n tabel, verteenwoordig in die Aspose.Words Document Object Model, bestaan uit onafhanklike rye en selle, wat dit maklik maak om tabelle saam te voeg.

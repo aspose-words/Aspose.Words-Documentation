@@ -7,6 +7,7 @@ description: "Aspose.Words para .NET ofrece a los usuarios una amplia gama de fu
 type: docs
 weight: 40
 url: /es/net/features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words ofrece a los usuarios una amplia gama de funciones. Los usuarios pueden realizar una gran cantidad de tareas relacionadas con documentos, desde simplemente convertir documentos de un formato compatible a otro y modificarlos durante el proceso de conversión hasta tareas comerciales, como crear documentos estructurados y visualmente atractivos o automatizar informes.
@@ -113,15 +114,15 @@ Puede utilizar Aspose.Words como solución de informes por sí sola. Diseñe sus
 
 |  Característica | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Xamarin.Mac |
 |  :-  |  :-  |  :-  |  :-  |  :-  |  :-  |
-| Utilice todos los campos Microsoft Word mail merge estándar en sus informes, incluidos `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK` y GREETINGLINE. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Ejecute mail merge para documentos que contengan incluso los campos y fórmulas `IF` más complejos y anidados. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Utilice todos los campos Microsoft Word Mail Merge estándar en sus informes, incluidos `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK` y GREETINGLINE. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Ejecute Mail Merge para documentos que contengan incluso los campos y fórmulas `IF` más complejos y anidados. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Complete y haga crecer dinámicamente tablas o fragmentos en el documento desde su fuente de datos utilizando regiones mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Genere fácilmente informes que contengan datos principales y detallados (principal-secundario), como Pedido/Detalles del pedido. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Complete documentos con datos de cualquier fuente de datos .NET, como DataSet, DataTable, DataView, DataReader o ADO Recordset. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Complete documentos desde cualquier fuente de datos, como una consulta LINQ, un archivo XML u objetos comerciales, mediante la implementación de la interfaz **IMailMergeDataSource**. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Tome un control preciso, como el formato de los números, sobre cómo se combinan sus datos mediante eventos. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Insertar imágenes durante mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Cree o modifique mediante programación una fuente de datos Microsoft Word mail merge para un documento. Preservar la configuración de mail merge y las fuentes de datos. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Cree o modifique mediante programación una fuente de datos Microsoft Word Mail Merge para un documento. Preservar la configuración de Mail Merge y las fuentes de datos. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Recuperar nombres de campos mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ## Funciones de informes

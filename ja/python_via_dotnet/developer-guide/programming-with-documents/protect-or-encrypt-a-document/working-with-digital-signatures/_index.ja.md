@@ -7,6 +7,7 @@ description: "Python を使用して、ドキュメントにデジタル署名�
 type: docs
 weight: 40
 url: /ja/python-net/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 デジタル署名は、文書の送信者が本人であること、および文書の内容が改ざんされていないことを証明するために文書を認証するために使用されます。

@@ -7,6 +7,7 @@ description: "Aspose.Words cho Java thực hiện công cụ bố cục riêng c
 type: docs
 weight: 10
 url: /vi/java/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words thực hiện động cơ bố cục trang của riêng mình. Trước khi đi sâu vào đặc tả của nó, đáng để trước tiên thảo luận tài liệu ở mức cao cấp. Khi nghĩ về một tài liệu, người dùng thường hình dung một số trang giấy chứa từ, hình ảnh, bảng và biểu đồ. Các tài liệu có thể thuộc nhiều loại khác nhau, như văn bản, bảng tính, slide, bản vẽ CAD, sơ đồ dòng công việc và do đó có thể có bố cục khác nhau đáng kể. Hầu hết các ứng dụng cho phép gửi tài liệu đến máy in; đây là lúc một người dùng có thể thực sự xem ngoại hình cuối cùng dự định của tài liệu.

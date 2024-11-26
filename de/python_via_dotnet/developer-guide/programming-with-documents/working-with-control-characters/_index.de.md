@@ -7,6 +7,7 @@ description: "Einführung in die Arbeit mit Steuerzeichen in Aspose.Words für P
 type: docs
 weight: 400
 url: /de/python-net/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word-Dokumente können verschiedene Zeichen enthalten, die eine besondere Bedeutung haben. Normalerweise dienen sie der Formatierung und werden im Normalmodus nicht gezeichnet. Sie können sie sichtbar machen, indem Sie in der Standardsymbolleiste auf die Schaltfläche "Formatierungsmarkierungen anzeigen/ausblenden" klicken.

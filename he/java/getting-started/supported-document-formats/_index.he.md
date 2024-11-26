@@ -7,6 +7,7 @@ type: docs
 description: "Edit Source מסמכים בפורמטים פופולריים רבים, כמו גם להמיר קבצים באופן חופשי מפורמט אחד למשנהו באמצעות שימוש Java."
 weight: 30
 url: /he/java/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

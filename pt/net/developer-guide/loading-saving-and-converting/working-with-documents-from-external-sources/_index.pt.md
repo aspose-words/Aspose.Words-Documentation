@@ -7,6 +7,7 @@ description: "Como carregar documentos de fontes externas em C#. Carregue PDF, D
 type: docs
 weight: 40
 url: /pt/net/working-with-documents-from-external-sources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Esta seção fornece informações sobre como carregar documentos de fontes externas, como armazenamento de documentos SharePoint ou bancos de dados. Depois de receber tal documento, você pode não apenas fazer todas as alterações necessárias nele, disponíveis usando a poderosa funcionalidade do Aspose.Words, mas também carregar esse documento de volta na fonte de dados.

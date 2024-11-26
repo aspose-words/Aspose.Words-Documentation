@@ -1,4 +1,4 @@
-﻿---
+---
 title: Untangle Row Bookmarks in Ruby
 second_title: Aspose.Words for Java
 articleTitle: Untangle Row Bookmarks in Ruby
@@ -7,6 +7,7 @@ description: "Untangle row bookmarks using Ruby."
 type: docs
 weight: 20
 url: /java/untangle-row-bookmarks-in-ruby/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Untangle Row Bookmarks

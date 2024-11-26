@@ -7,6 +7,7 @@ description: "Navigeren tussen verschillende knooppunten binnen een document, zo
 type: docs
 weight: 10
 url: /nl/net/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tijdens het werken met een document, zelfs als het een korte of lange, moet u navigeren door uw document. Navigatie met een virtuele cursor is de mogelijkheid om te navigeren tussen verschillende knooppunten in een document.

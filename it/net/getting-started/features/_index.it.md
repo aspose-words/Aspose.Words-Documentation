@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET offre agli utenti un'ampia gamma di funziona
 type: docs
 weight: 40
 url: /it/net/features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words offre agli utenti un'ampia gamma di funzionalità. Gli utenti possono eseguire un'enorme quantità di attività relative ai documenti, dalla semplice conversione di documenti da un formato supportato a un altro e la modifica di tali documenti durante il processo di conversione ad attività aziendali, come la creazione di documenti strutturati e visivamente accattivanti o l'automazione del reporting.
@@ -113,15 +114,15 @@ Puoi utilizzare Aspose.Words come soluzione di reporting autonoma. Progetta i tu
 
 |  Caratteristica | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Xamarin.Mac |
 |  :-  |  :-  |  :-  |  :-  |  :-  |  :-  |
-| Utilizza tutti i campi mail merge Microsoft Word standard nei tuoi report, inclusi `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Esegui mail merge per documenti che contengono anche i campi e le formule `IF` più complessi e nidificati. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Utilizza tutti i campi Mail Merge Microsoft Word standard nei tuoi report, inclusi `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Esegui Mail Merge per documenti che contengono anche i campi e le formule `IF` più complessi e nidificati. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Compila e amplia dinamicamente tabelle o frammenti nel documento dalla tua origine dati utilizzando le regioni mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Genera facilmente report che contengono dati master-detail (parent-child) come Order/OrderDetails. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Compila i documenti con dati provenienti da qualsiasi origine dati .NET come DataSet, DataTable, DataView, DataReader o ADO Recordset. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Popola documenti da qualsiasi origine dati come una query LINQ, un file XML o oggetti business implementando l'interfaccia **IMailMergeDataSource**. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Assumi un controllo preciso, ad esempio sulla formattazione dei numeri, sul modo in cui i tuoi dati vengono uniti utilizzando gli eventi. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Inserisci immagini durante mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Creare o modificare a livello di codice un'origine dati Microsoft Word mail merge per un documento. Conserva le impostazioni mail merge e le origini dati. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Creare o modificare a livello di codice un'origine dati Microsoft Word Mail Merge per un documento. Conserva le impostazioni Mail Merge e le origini dati. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Recupera i nomi dei campi mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ## Funzionalità di reporting

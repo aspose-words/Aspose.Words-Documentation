@@ -7,6 +7,7 @@ description: "שולחן מפוצל Java. כיצד לחלק שולחן אחד ל
 type: docs
 weight: 100
 url: /he/java/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 שולחן, מיוצג ב Aspose.Words Document Object Model, מורכב שורות ותאים עצמאיים, מה שהופך את זה קל לפצל שולחן.

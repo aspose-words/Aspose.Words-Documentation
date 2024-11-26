@@ -1,4 +1,4 @@
-﻿---
+---
 title: Enkripsi Dokumen dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Mengenkripsi Dokumen
@@ -7,6 +7,7 @@ description: "Enkripsi dokumen Anda menggunakan algoritma enkripsi yang sesuai u
 type: docs
 weight: 20
 url: /id/cpp/encrypt-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Enkripsi adalah proses yang menerjemahkan teks yang dapat dibaca menjadi urutan byte yang tidak berarti sehingga hanya dapat dibaca oleh orang yang memiliki kunci dekripsi atau kode rahasia. Proses ini memainkan peran penting dalam mengamankan konten Anda. Ini membantu untuk menyandikan konten, memverifikasi asal dokumen, membuktikan bahwa konten belum diubah setelah dikirim, dan memastikan bahwa data dari dokumen tersebut aman.

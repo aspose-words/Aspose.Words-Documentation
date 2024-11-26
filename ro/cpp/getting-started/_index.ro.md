@@ -1,4 +1,4 @@
-﻿---
+---
 title: Noțiuni De Bază
 second_title: Aspose.Words pentru C++
 articleTitle: Noțiuni De Bază
@@ -7,6 +7,7 @@ type: docs
 description: "Utilizați această introducere pentru Aspose.Words pentru C++ fundamente pentru a începe realizarea valorii Aspose.Words pentru afacerea dvs."
 weight: 10
 url: /ro/cpp/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Acest Noțiuni de bază oferă o introducere la Aspose.Words fundamentele. Pentru utilizatorii noi la Aspose.Words, Acesta este cel mai rapid mod de a învăța cerințele și capacitățile de bază.

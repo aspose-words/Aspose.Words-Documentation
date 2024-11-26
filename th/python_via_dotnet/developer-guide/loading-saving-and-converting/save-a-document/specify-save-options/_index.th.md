@@ -7,6 +7,7 @@ description: "ควบคุมกระบวนการบันทึกไ
 type: docs
 weight: 10
 url: /th/python-net/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 เมื่อบันทึกเอกสาร คุณสามารถตั้งค่าคุณสมบัติขั้นสูงบางอย่างได้ Aspose.Words มีคลาส [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) ซึ่งช่วยให้สามารถควบคุมกระบวนการบันทึกได้แม่นยำยิ่งขึ้น มีวิธีการ [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) มากเกินไปที่ยอมรับวัตถุ [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) ซึ่งควรเป็นวัตถุของคลาสที่ได้มาจากคลาส [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) รูปแบบการบันทึกแต่ละรูปแบบมีคลาสที่สอดคล้องกันซึ่งมีตัวเลือกการบันทึกสำหรับรูปแบบการบันทึกนี้ เช่น มี [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) สำหรับการบันทึกเป็นรูปแบบ PDF หรือ [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/) สำหรับการบันทึกลงในรูปภาพ บทความนี้แสดงตัวอย่างการทำงานกับคลาสตัวเลือกบางคลาสที่ได้มาจาก [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/)

@@ -7,6 +7,7 @@ description: "使用 Python 连接文档中的表格。如何在 Python 中将�
 type: docs
 weight: 90
 url: /zh/python-net/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words Document Object Model 中表示的表格由独立的行和单元格组成，因此可以轻松连接表格。

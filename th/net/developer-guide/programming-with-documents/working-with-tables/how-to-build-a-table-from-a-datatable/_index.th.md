@@ -1,12 +1,13 @@
 ---
-title: วิธีสร้างตารางจาก `DataTable` ในรูปแบบ C#
+title: วิธีสร้างตารางจาก DataTable ในรูปแบบ C#
 second_title: Aspose.Words สำหรับ .NET
-articleTitle: สร้างตารางจาก `DataTable`
-linktitle: สร้างตารางจาก `DataTable`
+articleTitle: สร้างตารางจาก DataTable
+linktitle: สร้างตารางจาก DataTable
 description: "ตัวอย่างการกรอกตารางเอกสารจากฐานข้อมูลภายนอกโดยใช้ C#"
 type: docs
 weight: 120
 url: /th/net/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-09-25-11-08-55
 ---
 
 บ่อยครั้งที่แอปพลิเคชันของคุณจะดึงข้อมูลจากฐานข้อมูลและจัดเก็บไว้ในรูปแบบ **DataTable** คุณสามารถแทรกข้อมูลนี้ลงในเอกสารของคุณเป็นตารางใหม่ได้อย่างง่ายดาย และใช้การจัดรูปแบบกับทั้งตารางได้อย่างรวดเร็ว

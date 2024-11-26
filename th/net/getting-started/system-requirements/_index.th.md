@@ -7,6 +7,7 @@ description: "ก่อนที่คุณจะเริ่มทำงาน
 type: docs
 weight: 70
 url: /th/net/system-requirements/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Aspose.Words สำหรับ .NET ไม่จำเป็นต้องติดตั้งผลิตภัณฑ์ของบุคคลที่สาม เช่น Microsoft Word Aspose.Words เองเป็นเครื่องมือสำหรับการสร้าง แก้ไข แปลง และเรนเดอร์เอกสารในรูปแบบต่างๆ รวมถึงรูปแบบเอกสาร Microsoft Word

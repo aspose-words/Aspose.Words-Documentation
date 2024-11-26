@@ -1,4 +1,4 @@
-﻿---
+---
 title: تحميل وحفظ وتحويل في C++
 second_title: Aspose.Words ل C++
 articleTitle: تحميل وحفظ وتحويل
@@ -7,6 +7,7 @@ description: "كيفية تحويل مستند من تنسيق إلى آخر، �
 type: docs
 weight: 10
 url: /ar/cpp/loading-saving-and-converting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 يوفر هذا القسم معلومات حول الميزات عند تحميل مستند وحفظه، بالإضافة إلى بيانات حول الاحتمالات عند تحويل مستند من تنسيق إلى آخر.

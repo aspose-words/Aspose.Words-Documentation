@@ -1,4 +1,4 @@
-﻿---
+---
 title: Licențiere
 second_title: Aspose.Words pentru Java
 articleTitle: Licențiere
@@ -7,6 +7,7 @@ description: "Licențiere Aspose.Words pentru Android prin Java."
 type: docs
 weight: 60
 url: /ro/java/licensing-android/
+timestamp: 2024-02-02-12-07-36
 ---
 
 Uneori, pentru a studia mai bine sistemul, doriți să vă scufundați în cod cât mai repede posibil. Pentru a face acest lucru mai ușor, Aspose.Words oferă diferite planuri de cumpărare sau oferă o încercare gratuită și o licență temporară de 30 pentru evaluare.

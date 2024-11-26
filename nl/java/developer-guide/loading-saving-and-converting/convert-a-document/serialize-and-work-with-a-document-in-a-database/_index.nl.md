@@ -7,6 +7,7 @@ description: "Een document omzetten in een byte-array voor werk met dit document
 type: docs
 weight: 40
 url: /nl/java/serialize-and-work-with-a-document-in-a-database/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Een van de taken die je nodig hebt om gedaan te krijgen wanneer het werken met documenten is opslaan en ophalen **Document** objecten van en naar een database. Dit zou bijvoorbeeld nodig zijn als u een type content management systeem zou implementeren. Alle vorige versies van documenten moeten in het databasesysteem worden opgeslagen. De mogelijkheid om documenten op te slaan in de database is ook zeer nuttig wanneer uw applicatie biedt een web-based service.

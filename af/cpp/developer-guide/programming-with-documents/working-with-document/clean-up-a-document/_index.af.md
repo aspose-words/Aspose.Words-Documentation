@@ -1,4 +1,4 @@
-﻿---
+---
 title: Maak'n Dokument skoon in C++
 second_title: Aspose.Words vir C++
 articleTitle: Maak'n Dokument skoon
@@ -7,6 +7,7 @@ description: "Verwyder ongebruikte of duplikaat inligting om uitset grootte en v
 type: docs
 weight: 30
 url: /af/cpp/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Soms moet jy dalk ongebruikte of duplikaat inligting verwyder om die grootte van die uitsetdokument en verwerkingstyd te verminder.

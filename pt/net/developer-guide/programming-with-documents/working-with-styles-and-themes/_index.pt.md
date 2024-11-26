@@ -7,6 +7,7 @@ description: "Recursos avançados de formatação Microsoft Word, trabalhando co
 type: docs
 weight: 110
 url: /pt/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 A classe [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) é usada para gerenciar configurações integradas e aplicar configurações definidas pelo usuário a estilos.
@@ -36,7 +37,7 @@ Neste documento de amostra, o texto formatado com o estilo de parágrafo 'Títul
 
 ### O código
 
-A implementação de uma consulta baseada em estilo é bastante simples no modelo de objeto de documento Aspose.Words, pois simplesmente usa ferramentas que já estão instaladas. Dois métodos de classe são implementados para esta solução:# **ParagraphsByStyleName** – Este método recupera uma matriz desses parágrafos em o documento que possui um nome de estilo específico.# **RunsByStyleName** – Este método recupera uma matriz daquelas execuções no documento que possuem um nome de estilo específico.Ambos os métodos são muito semelhantes, as únicas diferenças são os tipos de nós e a representação do estilo informações dentro do parágrafo e nós de execução. Aqui está uma implementação de ParagraphsByStyleName: Abaixo do exemplo, encontre todos os parágrafos formatados com o estilo especificado.
+A implementação de uma consulta baseada em estilo é bastante simples no modelo de objeto de documento Aspose.Words, pois simplesmente usa ferramentas que já estão instaladas. Dois métodos de classe são implementados para esta solução: **ParagraphsByStyleName** – Este método recupera uma matriz desses parágrafos em o documento que possui um nome de estilo específico. **RunsByStyleName** – Este método recupera uma matriz daquelas execuções no documento que possuem um nome de estilo específico.Ambos os métodos são muito semelhantes, as únicas diferenças são os tipos de nós e a representação do estilo informações dentro do parágrafo e nós de execução. Aqui está uma implementação de ParagraphsByStyleName: Abaixo do exemplo, encontre todos os parágrafos formatados com o estilo especificado.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.cs" >}}
 

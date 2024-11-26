@@ -1,42 +1,43 @@
----
-title: العمل مع هيبرلينك في Java
-second_title: Aspose.Words for Java
-articleTitle: إضافة أو تعديل هيبرلينكات
-linktitle: إضافة أو تعديل هيبرلينكات
-description: "كَيفَ يَضْفعُ وصلةَ فائقةَ إلى وثيقتِكَ باستخدام Java."
+﻿---
+title: العمل مع الارتباطات التشعبية في Java
+second_title: Aspose.Words ل Java
+articleTitle: إضافة أو تعديل الارتباطات التشعبية
+linktitle: إضافة أو تعديل الارتباطات التشعبية
+description: "كيفية إضافة ارتباط تشعبي إلى المستند باستخدام Java."
 type: docs
 weight: 50
 url: /ar/java/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
-وصلة فائقة Microsoft Word الوثائق هي `HYPERLINK` الحقل In Aspose.Words, يتم تنفيذ وصلات الكهرباء عن طريق [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) الصف
+الارتباط التشعبي في Microsoft Word المستندات هو `HYPERLINK` حقل. في Aspose.Words، يتم تنفيذ الارتباطات التشعبية من خلال فئة [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/).
 
-## Insert a Hyperlink
+## إدراج ارتباط تشعبي
 
-استخدام [InsertHyperlink](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHyperlink-java.lang.String-java.lang.String-boolean) طريقة لإدراج وصلة فائقة في الوثيقة. تقبل هذه الطريقة ثلاثة بارامترات:
+استخدم طريقة [InsertHyperlink](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHyperlink-java.lang.String-java.lang.String-boolean) لإدراج ارتباط تشعبي في المستند. تقبل هذه الطريقة ثلاث معلمات:
 
-1 نص الصلة التي ستُعرض في الوثيقة
-2. جهة الوصول (أو اسم علامة كتاب داخل الوثيقة)
-3 بارامتر بوليان true إذا `URL` هو اسم علامة كتاب داخل وثيقة
+1. نص الرابط المراد عرضه في المستند
+2. وجهة الارتباط (URL أو اسم إشارة مرجعية داخل المستند)
+3. المعلمة المنطقية التي يجب أن تكون صحيحة إذا كان `URL` هو اسم إشارة مرجعية داخل مستند
 
-The **InsertHyperlink** والطريقة التي تضيف دائماً الكوارث في بداية ونهاية الثورة الثورية
+تضيف طريقة **InsertHyperlink** دائما الفواصل العليا في بداية ونهاية URL.
 
 {{% alert color="primary" %}}
 
-ملاحظة أن عليك أن تحدد الشكل الخطي لنص عرض الوصلة الفائقة `Font` ملكية
+لاحظ أنك تحتاج إلى تحديد تنسيق الخط لنص عرض الارتباط التشعبي بشكل صريح باستخدام خاصية `Font`.
 
 {{% /alert %}}
 
-ويبين المثال الرمزي التالي كيفية إدخال وصلة إلكترونية في وثيقة باستخدام [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/):
+يوضح مثال التعليمات البرمجية التالية كيفية إدراج ارتباط تشعبي في مستند باستخدام [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/):
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHyperlink-DocumentBuilderInsertHyperlink.java" >}}
 
-## يستعاض عن عبارة " هيبرلينك " أو تعديلها
+## استبدال أو تعديل الارتباطات التشعبية
 
-Hyperlink in Microsoft Word الوثائق حقل وميدان في وثيقة وورد، كما قلنا من قبل، هو هيكل معقد يتألف من عقدات متعددة تشمل البدء الميداني، والمدونة الميدانية، والفصل الميداني، والنتيجة الميدانية، والنهاية الميدانية. ويمكن استخلاص الحقول، واحتواء المحتوى الغني، والتوسع في فقرات أو فروع متعددة في وثيقة ما.
+الارتباط التشعبي في Microsoft Word المستندات هو حقل. حقل في مستند ورد، كما قلنا سابقا، هو بنية معقدة تتكون من عقد متعددة تتضمن بداية الحقل ورمز الحقل وفاصل الحقل والنتيجة الميدانية ونهاية الحقل. يمكن أن تتداخل الحقول وتحتوي على محتوى غني وتمتد إلى عدة فقرات أو أقسام في مستند.
 
-ولاستبدال أو تعديل الوصلات الفائقة، من الضروري العثور على الوصلات الفائقة في الوثيقة والاستعاضة عن نصها أو نصوصها أو كليهما.
+لاستبدال الارتباطات التشعبية أو تعديلها، تحتاج إلى العثور على الارتباطات التشعبية في المستند واستبدال نصها، URLs، أو كليهما.
 
-The following code example shows how to find all hyperlinks in Word document and changes their `URL` واسم العرض:
+يوضح مثال الكود التالي كيفية العثور على جميع الارتباطات التشعبية في مستند ورد وتغيير `URL` واسم العرض:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Hyperlink-ReplaceHyperlinks-ReplaceHyperlinks.java" >}}

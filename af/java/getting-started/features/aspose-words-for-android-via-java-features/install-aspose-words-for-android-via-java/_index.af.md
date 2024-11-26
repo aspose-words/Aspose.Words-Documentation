@@ -1,4 +1,4 @@
-﻿---
+---
 title: Installeer Aspose.Words vir Android via Java
 second_title: Aspose.Words vir Java
 articleTitle: Installeer Aspose.Words vir Android via Java
@@ -7,6 +7,7 @@ description: "Installeer Aspose.Words vir Android via Java."
 type: docs
 weight: 20
 url: /af/java/install-aspose-words-for-android-via-java/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

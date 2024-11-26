@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hantering van Windows Meta Lêers in C++
 second_title: Aspose.Words vir C++
 articleTitle: Hantering Van Windows Meta Lêers
@@ -7,6 +7,7 @@ description: "Aspose.Words vir C++ implementeer sy eie Windows Metafile-speler O
 type: docs
 weight: 30
 url: /af/cpp/handling-windows-metafiles/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Windows Metafile format is'n beeld lêer formaat wat beide vektor en raster grafiese kan bevat. Hierdie formaat word gebruik om grafiese data in geheue of op-skyf lêers te stoor. 'n meta-lêer stoor'n lys van funksie oproepe in die Windows Grafiese Toestel Koppelvlak (GDI) wat uitgevoer moet word om die beeld op die skerm te vertoon. Die stelsel interpreteer en voer hierdie opdragte in die vertoning konteks.

@@ -7,6 +7,7 @@ description: "Tính năng kiểu chữ nâng cao sử dụng C#."
 type: docs
 weight: 25
 url: /vi/net/enable-opentype-features/
+timestamp: 2024-07-10-14-38-57
 ---
 
 OpenType là một định dạng phông chữ, được giới thiệu để hỗ trợ tốt hơn cho các ngôn ngữ và hệ thống chữ viết quốc tế so với PostScript và TrueType. Các tính năng bố cục của OpenType thường được gọi là tính năng OpenType. Gói Aspose.Words.Shaping.HarfBuzz cung cấp hỗ trợ cho các tính năng OpenType trong Aspose.Words bằng công cụ định hình văn bản HarfBuzz.

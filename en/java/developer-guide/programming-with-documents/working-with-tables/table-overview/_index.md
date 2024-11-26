@@ -7,6 +7,7 @@ description: "Work with tables and their components such as cells, rows, columns
 type: docs
 weight: 10
 url: /java/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words is a class library designed for server-side processing of documents in various formats – PDF, HTML, different Microsoft Word formats and others – and supports tables in the following ways:

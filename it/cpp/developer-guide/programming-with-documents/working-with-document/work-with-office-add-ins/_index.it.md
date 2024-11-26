@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lavorare con i componenti aggiuntivi di Office in C++
 second_title: Aspose.Words per C++
 articleTitle: Lavorare con i componenti aggiuntivi di Office
@@ -7,6 +7,7 @@ description: "Aspose.Words per C++ fornisce varie classi per lavorare con i comp
 type: docs
 weight: 50
 url: /it/cpp/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A volte potresti voler dare accesso ai controlli dell'interfaccia che eseguono codice per modificare i documenti. Aspose.Words API fornisce lo spazio dei nomi `WebExtensions`, che consente a varie classi di personalizzare elementi e attributi estendendo il vocabolario XML per rappresentare i componenti aggiuntivi di Office.

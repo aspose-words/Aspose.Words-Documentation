@@ -7,6 +7,7 @@ description: "Memahami konsep bookmark dan bagaimana bookmark dapat digunakan da
 type: docs
 weight: 180
 url: /id/java/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bookmark mengidentifikasi dalam sebuah Microsoft Word dokumen lokasi atau fragmen yang Anda nama dan mengidentifikasi referensi masa depan. Misalnya, Anda mungkin menggunakan bookmark untuk mengidentifikasi teks yang ingin Anda revise nanti. Alih-alih menggulir melalui dokumen untuk menemukan teks, Anda dapat pergi kenya dengan menggunakan kotak dialog Bookmark.

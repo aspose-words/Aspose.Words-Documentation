@@ -7,6 +7,7 @@ description: "Alanları formatlayıp değerlendirin Java kullanarak."
 type: docs
 weight: 40
 url: /tr/java/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen kullanıcılar alanları özel biçimlendirmeye uygulamak isterler. Bu makalede, bunun nasıl yapılabileceğine dair birkaç örnek inceleyeceğiz.
@@ -25,7 +26,7 @@ Aşağıdaki kod örneği, alan sonucuna özel biçimlendirme uygulamak için na
 
 ## Nasıl `IF` koşulunu değerlendirirsin?
 
-Eğer bir `IF` koşulunu mail merge sonrası değerlendirmek istiyorsan, ifadeyi değerlendirmenin sonucunu hemen döndüren [EvaluateCondition](https://reference.aspose.com/words/java/com.aspose.words/fieldif/#evaluateCondition) metodunu kullanabilirsin.
+Eğer bir `IF` koşulunu Mail Merge sonrası değerlendirmek istiyorsan, ifadeyi değerlendirmenin sonucunu hemen döndüren [EvaluateCondition](https://reference.aspose.com/words/java/com.aspose.words/fieldif/#evaluateCondition) metodunu kullanabilirsin.
 
 Aşağıdaki kod örneği bu yöntemin nasıl kullanılacağını göstermektedir:
 

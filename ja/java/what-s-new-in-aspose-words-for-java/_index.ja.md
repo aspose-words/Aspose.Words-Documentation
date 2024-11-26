@@ -1,498 +1,498 @@
----
+﻿---
 title: 新着情報
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: 新着情報 Aspose.Words お問い合わせ Java
-linktitle: 新着情報 Aspose.Words お問い合わせ Java
+second_title: Aspose.WordsのためのJava
+articleTitle: What's new inAspose.WordsのためのJava
+linktitle: What's new inAspose.WordsのためのJava
 type: docs
-description: "Aspose.Words お問い合わせ Java 日々の拡大と充実。 このページでは、製品の巨大で最も興味深い機能について学ぶことができます。"
+description: "Aspose.WordsはJavaのために毎日拡大し、強化します。 このページでは、製品の巨大で最も興味深い機能について学ぶことができます。"
 weight: 2
 url: /ja/java/what-s-new-in-aspose-words-for-java/
+timestamp: 2024-10-14-12-53-06
 ---
 
-このページでは、最も興味深い新しいものについて説明します Aspose.Words 最近のリリースで導入された機能。
+このページでは、最近のリリースで導入された最も興味深い新しいAspose.Words機能について説明します。
 
-## Aspose.Words for Java 24.9、24.10
+## Aspose.WordsのためにJava 24.9, 24.10
 
-Aspose.Words 24.9 では、DocumentBuilder 経由のグループ シェイプの挿入と StructuredDocumentTag の挿入が導入され、目盛り付きの放射状グラフのレンダリングが強化され、XAdES-EPES サポートによるデジタル署名が改善され、Markdown の下線認識が追加され、脚注/文末脚注のセパレーターへのアクセスが提供されます。
+Aspose.Words24.9はDocumentBuilderを介してgroup shape挿入とStructuredDocumentTag挿入を導入し、目盛りによる放射状チャートレンダリングを強化し、XAdES-EPESサポートによるデジタル署名を改善し、Markdown下線認識を追加し、脚注/文末脚注セパレータへのアクセスを提供します。
 
-Aspose.Words 24.10 では、コマンド ボタンの作成、新しい図形の表示コントロール、図形のグループ化機能、表の Markdown エクスポートの改善、円グラフとドーナツ グラフのグラフ書式設定、Big5 エンコード処理の改善、古い台湾フォントのサポートなど、ActiveX コントロールのサポートが強化されています。
+Aspose.Words24.10は、CommandButtonの作成、新しい形状の可視性コントロール、group shapesへの機能、テーブルの改善されたMarkdownエクスポート、PieとDoughnutチャートのチャートフォーマット、より良いBig5エンコーディング処理、古い台湾のフォントのサポートにより、ActiveXコントロールのサポートが強化されています。
 
 ### レンダリングと印刷
 
-#### 放射状グラフの目盛り <sup>24.9</sup>
+#### ラジアルチャート上の目盛り <sup>24.9</sup>
 
-放射状グラフの目盛りのレンダリングが実装されました。
+放射状チャート上の目盛りのレンダリングが実装されています。
 
-#### コマンド ボタン ActiveX コントロール <sup>24.10</sup>
+#### CommandButtonActiveXコントロール <sup>24.10</sup>
 
-新しいパブリック メソッド [InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl) と新しいパブリック クラス [Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/) を追加することで、コマンド ボタン ActiveX コントロールを作成する機能が導入されました。
+新しいパブリックメソッド[InsertForms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertForms2OleControl-com.aspose.words.Forms2OleControl)と新しいパブリッククラス[Forms2OleControl](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/)を追加することにより、CommandButtonActiveXコントロールを作成する機能が導入されました。
 
-#### 図形の表示のコントロール <sup>24.10</sup>
+#### 形状の可視性を制御する <sup>24.10</sup>
 
-図形の表示を制御するための新しいパブリック プロパティ [Hidden](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getHidden) が追加されました。
+図形の可視性を制御するために、新しいパブリックプロパティ[Hidden](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getHidden)が追加されました。
 
-#### 円グラフとドーナツ グラフの変更 <sup>24.10</sup>
+#### PieチャートとDoughnutチャートの変更点 <sup>24.10</sup>
 
-円グラフとドーナツ グラフの書式設定のために、いくつかの新しいパブリック プロパティが追加されました。
+書式PieおよびDoughnutチャートにいくつかの新しいパブリックプロパティが追加されました。
 
-### ドキュメントの変換、読み込み、および保存
+### 文書の変換、読み込み、保存
 
-#### Markdown ファイルの読み込み時の下線書式設定 <sup>24.9</sup>
+#### Markdownファイルを読み込むときの書式設定に下線を引きます <sup>24.9</sup>
 
-Markdown ドキュメントの読み込み時に下線書式設定を認識するオプションが、新しいパブリック プロパティ [ImportUnderlineFormatting](https://reference.aspose.com/words/java/com.aspose.words/markdownloadoptions/#getImportUnderlineFormatting) の追加によって組み込まれました。
+新しいパブリックプロパティ[ImportUnderlineFormatting](https://reference.aspose.com/words/java/com.aspose.words/markdownloadoptions/#getImportUnderlineFormatting)を追加することにより、Markdown文書を読み込むときに下線の書式を認識するオプションが組み込まれました。
 
-#### Markdown に保存するときにテーブルを HTML としてエクスポートする <sup>24.10</sup>
+#### Markdownに保存するときにテーブルをHTMLとしてエクスポートする <sup>24.10</sup>
 
-ドキュメントを Markdown 形式で保存するときにテーブルを HTML としてエクスポートするオプションが、新しいパブリック プロパティ [ExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportAsHtml) と列挙 [MarkdownExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownexportashtml/) を追加することで実装されました。
+文書をMarkdown形式で保存するときにテーブルをHTMLとしてエクスポートするオプションは、新しいパブリックプロパティ[ExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportAsHtml)と列挙[MarkdownExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownexportashtml/)を追加することによ
 
 ### デジタル署名
 
-#### XAdES-EPES でドキュメントに署名 <sup>24.9</sup>
+#### XAdES-EPESで文書に署名する <sup>24.9</sup>
 
-新しいパブリック プロパティ [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/signoptions/#getXmlDsigLevel) と新しいパブリック列挙 [XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/xmldsiglevel/) を追加することで、XAdES-EPES レベルの XML-DSig 署名でドキュメントに署名する機能が導入されました。
+新しいパブリックプロパティ[XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/signoptions/#getXmlDsigLevel)と新しいパブリック列挙[XmlDsigLevel](https://reference.aspose.com/words/java/com.aspose.words/xmldsiglevel/)を追加することにより、XAdES-EPESレベルXML-DSig署名で文書に署名する機能が導入されました
 
 ### その他
 
-* 図形をグループ化するための新しいパブリック メソッド [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...) が追加されました。 <sup>24.9</sup>
-* **StructuredDocumentTags** をドキュメントに挿入するための新しいパブリック メソッド [InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int) が追加されました。 <sup>24.9</sup>
-* いくつかのパブリック クラスとプロパティを追加することで、脚注/文末脚注セパレーターへのパブリック アクセスが提供されています。 <sup>24.9</sup>
-* [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...) メソッドを追加することで、個々の図形をグループ化する機能、図形をまとめてグループ化する機能、図形の両方を直接グループ化する機能、図形をグループ化する機能が導入されました。 <sup>24.10</sup>
-* TrueType cmap テーブルの Big5 エンコーディング処理が改善されました。 <sup>24.10</sup>
+* 新しいパブリックメソッド[InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-com.aspose.words.Shape...)がgroup shapesに追加されました。 <sup>24.9</sup>
+* ドキュメントに**StructuredDocumentTags**を挿入するための新しいパブリックメソッド[InsertStructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertStructuredDocumentTag-int)が追加されました。 <sup>24.9</sup>
+* 脚注/文末脚注の区切り文字へのパブリックアクセスは、いくつかのパブリッククラスとプロパティを追加することによって提供されています。 <sup>24.9</sup>
+* [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...)メソッドを追加することにより、個々の図形group shapesをグループ化し、図形とgroup shapesの両方を直接グループ化する機能が導入されました。 <sup>24.10</sup>
+* TrueTypecmapテーブルのbig5エンコード処理が改善されました。 <sup>24.10</sup>
 * 古い台湾語フォントのサポートが強化されました。 <sup>24.10</sup>
 
 {{% alert color="primary" %}}
 
-[Aspose.Words for Java 24.9 リリース ノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/) の詳細をご覧ください。
+詳細については、こちらをご覧ください [アスポーズWordsForJava24.9リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
 
-[Aspose.Words for Java 24.10 リリース ノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/) の詳細をご覧ください。
+詳細については、こちらをご覧ください [アスポーズWordsForJava24.10リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Words for Java 24.5、24.6、24.7、24.8
+## Aspose.Wordsの場合Java 24.5, 24.6, 24.7, 24.8
 
-Aspose.Words 24.5 では、アセンブリのオプションが拡張され、レンダリング機能が向上し、その他のオプションも拡張されています。
+Aspose.Words24.5アセンブリのオプションを展開し、レンダリング機能を向上させ、その他のオプションを展開します。
 
-Aspose.Words 24.6 では、レンダリング オプションが向上し、検索および比較機能が強化され、その他の機能が拡張されています。
+Aspose.Words24.6レンダリングオプションが改善され、検索と比較機能が強化され、他のいくつかの機能が拡張されました。
 
-Aspose.Words 24.7 では、ActiveX の操作方法が変更され、レンダリング機能が拡張され、Markdown および XLSX 形式へのエクスポートも可能になりました。
+Aspose.Words24.7ActiveXの操作方法を変更し、レンダリング機能を拡張し、Markdown形式とXLSX形式にエクスポートします。
 
-Aspose.Words 24.8 では、軸ラベルを正確に制御してグラフのカスタマイズを強化し、フォント管理を拡張し、ドキュメント構造の処理を改善し、HTML/XAML エクスポート、PDF 機能、ドキュメント変換、デジタル署名の新しい機能を追加しました。
+Aspose.Words24.8軸ラベルを正確に制御してグラフのカスタマイズを強化し、フォント管理を拡張し、文書構造の処理を改善し、HTML/XAMLエクスポート、PDF機能、文書変換、デジタ
 
 ### サポートされている形式
 
-バージョン 24.7 以降では、障害を持つユーザーのアクセシビリティを確保するために、PDF/UA-2 へのエクスポートがサポートされています。
+バージョン24.7からは、障害を持つユーザーのアクセシビリティを確保するためにPDF/UA-2へのエクスポートがサポートされています。
 
 ### レンダリングと印刷
 
-#### Charts、Shapes、DrawingML の変更 <sup>24.5</sup>
+#### チャート、図形、およびDrawingMLの変更 <sup>24.5</sup>
 
-- 画像に限定されていた以前の機能を拡張する、SVG グラフィックの DrawingML 効果レンダリングが実装されました。
-- [ChartSeriesGroup](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroup/) および [ChartSeriesGroupCollection](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroupcollection/) クラスと [SeriesGroups](https://reference.aspose.com/words/java/com.aspose.words/chart/#getSeriesGroups) プロパティを追加することで、コンボ グラフの作成と、シリーズ グループ内のギャップ幅、オーバーラップ、バブル スケールなどのプロパティの調整のサポートが導入されました。
-- [SoftEdgeFormat](https://reference.aspose.com/words/java/com.aspose.words/softedgeformat/) クラスを追加することで、図形の SoftEdge 効果を操作する機能が実装されました。
-- [AdjustmentCollection](https://reference.aspose.com/words/java/com.aspose.words/adjustmentcollection/) および [Adjustment](https://reference.aspose.com/words/java/com.aspose.words/adjustment/) パブリック クラスと [Adjustments](https://reference.aspose.com/words/java/com.aspose.words/shape/#getAdjustments) プロパティを追加することで、図形の調整値を変更する機能が実装されました。
+- DrawingMLエフェクトSVGグラフィックスのレンダリングが実装されており、これまでの機能は画像に限定されていました。
+- コンボチャートを作成し、系列グループ内のギャップ幅、オーバーラップ、バブルスケールなどのプロパティを調整するためのサポートは、[ChartSeriesGroup](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroup/)クラスと[ChartSeriesGroupCollection](https://reference.aspose.com/words/java/com.aspose.words/chartseriesgroupcollection/)クラスと[SeriesGroups](https://reference.aspose.com/words/java/com.aspose.words/chart/#getSeriesGroups)
+- 図形のSoftEdge効果を操作する機能は、[SoftEdgeFormat](https://reference.aspose.com/words/java/com.aspose.words/softedgeformat/)クラスを追加することによって実装されています。
+- 図形の調整値を変更する機能は、[AdjustmentCollection](https://reference.aspose.com/words/java/com.aspose.words/adjustmentcollection/)と[Adjustment](https://reference.aspose.com/words/java/com.aspose.words/adjustment/)パブリッククラスと[Adjustments](https://reference.aspose.com/words/java/com.aspose.words/shape/#getAdjustments)プロパティを追加することによって実装されています。
 
-#### グラフ、図形、描画の変更 <sup>24.6</sup>
+#### チャート、図形、図面の変更 <sup>24.6</sup>
 
-* グラフ作成機能が強化されました。*ツリーマップ*、*サンバースト*、*ヒストグラム*、*パレート* グラフ、*箱ひげ図*、*ウォーターフォール*、*ファネル* など、より多様なグラフを作成できるようになりました。これにより、データをより多様で有益な方法で視覚化できます。
+- グラフ作成機能が強化されました。 これで、次のようなさまざまなグラフを作成できます*Treemaps*, *Sunbursts*, *Histograms*, *Pareto* チャート、*Box & Whisker*チャート、*Waterfalls*、および*Funnels*。 これにより、より多様で有益な方法でデータを視覚化することができます。
+- 影の書式設定のカラーコントロールが改善されました。 影の色にアクセスすることで、ドキュメントの外観をより正確に制御できます。
+- バックグラウンドレンダリングのパフォーマンス向上が改善されました。 ネイティブのタイル技術のおかげで、小さな要素を含む背景のレンダリングを大幅に高速化できます。
+- 形状のための現実的なグラデーションが追加されました。 非線形グラデーションを持つDML図形を作成し、Microsoft Wordの視覚スタイルを模倣して、より洗練された外観にすることができます。
 
-* 影の書式設定の色制御が強化されました。影の色にアクセスすることで、ドキュメントの外観をより正確に制御できます。
+#### チャートデータラベルのカスタマイズ <sup>24.7</sup>
 
-* バックグラウンド レンダリングのパフォーマンスが向上しました。ネイティブのタイリング テクノロジにより、小さな要素を含む背景のレンダリングを大幅に高速化できます。
-* 図形のリアルなグラデーションが追加されました。非線形グラデーションの DML 図形を作成できるようになりました。これにより、Microsoft Word のビジュアル スタイルを模倣して、より洗練された外観を実現できます。
+**Orientation**や**Rotation**などのチャートデータラベルをカスタマイズする機能が追加されました。
 
-#### グラフ データ ラベルのカスタマイズ <sup>24.7</sup>
+#### リストレベルのカスタム番号スタイル <sup>24.7</sup>
 
-**Orientation** や **Rotation** などのグラフ データ ラベルをカスタマイズする機能が追加されました。
+パブリックプロパティ[CustomNumberStyleFormat](https://reference.aspose.com/words/java/com.aspose.words/listlevel/#getCustomNumberStyleFormat)のセッターが追加されました。 リストレベルのカスタム番号スタイルを定義できるようになりました。
 
-#### リスト レベルのカスタム数値スタイル <sup>24.7</sup>
+#### ActiveXでの作業の変更点 <sup>24.7</sup>
 
-パブリック プロパティ [CustomNumberStyleFormat](https://reference.aspose.com/words/java/com.aspose.words/listlevel/#getCustomNumberStyleFormat) のセッターが追加されました。リスト レベルのカスタム数値スタイルを定義できるようになりました。
+* ActiveXオブジェクトのプロパティを変更できるようになり、その動作をより詳細に制御できるようになりました。
+* 動的相互作用を有効にするために、ラジオボタンのActiveXコントロールの値を変更する機能が追加されました。
+* ActiveXcheckboxを"checked"または"unchecked"に切り替える機能が追加されました。
 
-#### ActiveX の操作に関する変更 <sup>24.7</sup>
+#### チャート軸の目盛りラベルの向きと回転の制御 <sup>24.8</sup>
 
-* ActiveX オブジェクトのプロパティを変更できるようになり、その動作をより細かく制御できるようになりました。
-* ラジオ ボタン ActiveX コントロールの値を変更して動的な操作を有効にする機能が追加されました。
-* ActiveX チェックボックスを「オン」または「オフ」に切り替える機能が追加されました。
+グラフのカスタマイズをより便利にするために、グラフ軸の目盛りラベルの向きと回転を正確に制御できるようになりました。[AxisTickLabels](https://reference.aspose.com/words/java/com.aspose.words/axisticklabels/)クラスは新しい**Orientation**および**Rotation**プロパティで拡張されました。
 
-#### グラフ軸目盛りラベルの方向と回転の制御 <sup>24.8</sup>
+#### 円記号を円記号に置き換える <sup>24.8</sup>
 
-グラフ軸目盛りラベルの方向と回転を正確に制御できるようになり、グラフのカスタマイズがさらに便利になりました。[AxisTickLabels](https://reference.aspose.com/words/java/com.aspose.words/axisticklabels/) クラスが新しい **Orientation** プロパティと **Rotation** プロパティで拡張されました。
+バックスラッシュ文字を円記号に置き換えるための後方互換性のあるHTMLとXAMLエクスポートが改善されました。 これを実現するために、**ReplaceBackslashWithYenSign**プロパティが[HtmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/)クラスと[XamlFlowSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/)クラスに追加されました。
 
-#### 円記号へのバックスラッシュの置き換え <sup>24.8</sup>
+#### PDFにエクスポートするときにSDTタグをフォームフィールド名として使用する <sup>24.8</sup>
 
-バックスラッシュ文字を円記号に置き換えるための下位互換性のある HTML および XAML エクスポートが改善されました。これを実現するために、**ReplaceBackslashWithYenSign** プロパティが [HtmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/) クラスと [XamlFlowSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) クラスに追加されました。
+[PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/)クラスに新しい**UseSdtTagAsFormFieldName**プロパティを追加することで、SDTタグをフォームフィールド名として使用することをサポートしたPDFエクスポートが強化されました。
 
-#### PDF へのエクスポート時に SDT タグをフォーム フィールド名として使用する <sup>24.8</sup>
+### 文書の変換、読み込み、保存
 
-SDT タグをフォーム フィールド名として使用するサポートを備えた PDF エクスポートが、 [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) クラスに新しい **UseSdtTagAsFormFieldName** プロパティを追加することで強化されました。
+#### Markdown形式へのリンクのエクスポート <sup>24.7</sup>
 
-### ドキュメントの変換、読み込み、保存
+[LinkExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getLinkExportMode)プロパティの実装により、Markdown形式のリンクのエクスポートを制御する機能が追加されました。
 
-#### リンクを Markdown 形式にエクスポート <sup>24.7</sup>
+#### LowCode 24.8 <sup>24.8</sup>
 
-[LinkExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getLinkExportMode) プロパティの実装により、Markdown 形式でのリンクのエクスポートを制御する機能が追加されました。
-
-#### LowCode <sup>24.8</sup>
-
-1 行のコードでさまざまなドキュメント タイプを変換するための一連のメソッドを提供するように設計された新しい **LowCode.Converter** クラスが導入されました。
+さまざまなドキュメントタイプを1行のコードで変換するための一連のメソッドを提供するように設計された新しい**LowCode.Converter**クラスが導入されました。
 
 ### 検索と比較
 
 #### 高度な比較オプション <sup>24.6</sup>
-比較機能が向上し、データ分析ワークフローを効率化できるようになりました。これには、新しい [IgnoreStoreItemId](https://reference.aspose.com/words/java/com.aspose.words/advancedcompareoptions/#getIgnoreStoreItemId) オプションと、高度な比較用に再設計されたインターフェイスが含まれます。
+
+改善された比較機能を備えたデータ分析ワークフローを合理化する機能が追加されました。 これには、新しい[IgnoreStoreItemId](https://reference.aspose.com/words/java/com.aspose.words/advancedcompareoptions/#getIgnoreStoreItemId)オプションと、高度な比較のための再設計されたインターフェイスが含まれます。
 
 ### その他
 
-* [RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages) メソッドを追加することで、ドキュメントから空のページを削除する機能が実装されました。<sup>24.5</sup>
-* [HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros) プロパティを追加することで、ドキュメントをロードせずに VBA マクロの存在を確認する機能が提供されています。<sup>24.5</sup>
-* LINQ レポート エンジンを使用してドキュメントを挿入する際にソース番号を維持する機能がサポートされるようになりました。 <sup>24.5</sup>
-* 新しい [DateTimeUtc](https://reference.aspose.com/words/java/com.aspose.words/comment/#getDateTimeUtc) プロパティが追加されました。これにより、コメントのタイムスタンプがより正確になり、整理と追跡可能性が向上します。 <sup>24.6</sup>
-* LINQ レポート エンジンが改良されました。空の段落を選択的に削除し、欠落しているオブジェクト メンバーのカスタム メッセージを定義することで、よりわかりやすく、より情報量の多いレポートを実現しました。<sup>24.6</sup>
-* XLSX 形式へのシームレスなエクスポートのために、日時形式が自動的に検出されるようになりました。 <sup>24.7</sup>
-* VBA プロジェクトが保護されているかどうかを確認できるパブリック プロパティ [IsProtected](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/#isProtected) が追加されました。<sup>24.7</sup>
-* [FontInfo](https://reference.aspose.com/words/java/com.aspose.words/fontinfo/) クラスと [PhysicalFontInfo](https://reference.aspose.com/words/java/com.aspose.words/physicalfontinfo/) クラスに **EmbeddingLicensingRights** プロパティが追加されました。 <sup>24.8</sup>
-* ドキュメント構造をより正確に処理するために、透かしを保持しながらセクション ヘッダーとフッターを効率的にクリアする方法が追加されました。セクション ヘッダーとフッターをクリアするには、新しいパブリック メソッド **ClearHeadersFooters** を使用します。 <sup>24.8</sup>
-* [XpsSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xpssaveoptions/) を使用した XPS ドキュメントのデジタル署名が有効になりました。この目的のために、新しいプロパティ **DigitalSignatureDetails** が追加されました。<sup>24.8</sup>
+* ドキュメントから空のページを削除する関数は、[RemoveBlankPages](https://reference.aspose.com/words/java/com.aspose.words/document/#removeBlankPages)メソッドを追加することによって実装されています。 <sup>24.5</sup>
+* ドキュメントをロードせずにVBAマクロの存在をチェックする機能は、[HasMacros](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasMacros)プロパティを追加することによって提供されています。 <sup>24.5</sup>
+* LINQレポートエンジンを使用して文書を挿入する際にソース番号を保持することがサポートされるようになりました。 <sup>24.5</sup>
+* 新しい[DateTimeUtc](https://reference.aspose.com/words/java/com.aspose.words/comment/#getDateTimeUtc)プロパティが追加されました–これにより、コメントのより正確なタイムスタンプが提供され、組織とトレーサビ <sup>24.6</sup>
+* LINQレポートエンジンが改善されました。 空の段落を選択的に削除し、欠落しているオブジェクトメンバーのカスタムメッセージを定義することで、よりクリーンで有益なレポートが作成されました。 <sup>24.6</sup>
+* XLSX形式へのシームレスなエクスポートのために、datetime形式が自動的に検出されるようになりました。 <sup>24.7</sup>
+* VBAプロジェクトが保護されているかどうかを確認できるパブリックプロパティ[IsProtected](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/#isProtected)が追加されました。 <sup>24.7</sup>
+* フォント情報は、[FontInfo](https://reference.aspose.com/words/java/com.aspose.words/fontinfo/)クラスと[PhysicalFontInfo](https://reference.aspose.com/words/java/com.aspose.words/physicalfontinfo/)クラスに**EmbeddingLicensingRights**プロパティが追加されて拡張されました。 <sup>24.8</sup>
+* 透かしを保持しながら、効率的にセクションのヘッダーとフッターをクリアする方法は、より正確に文書構造を操作するために追加されました。 セクションヘッダーとフッターをクリアするには、新しいpublicメソッド**ClearHeadersFooters**を使用します。 <sup>24.8</sup>
+* [XpsSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xpssaveoptions/)を使用したXPS文書のデジタル署名が有効になりました–この目的のために新しいプロパティ**DigitalSignatureDetails**が追加されました。 <sup>24.8</sup>
 
 {{% alert color="primary" %}}
 
-[Aspose.Words for Java 24.5 リリース ノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/) の詳細をご覧ください。
+詳細については、こちらをご覧ください [アスポーズWordsForJava24.5リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-5-release-notes/).
 
-[Aspose.Words for Java 24.6 リリース ノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/) の詳細をご覧ください。
+詳細については、こちらをご覧ください [アスポーズWordsForJava24.6リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-6-release-notes/).
 
-[Aspose.Words for Java 24.7 リリース ノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-7-release-notes/) の詳細をご覧ください。
+詳細については、こちらをご覧ください [アスポーズWordsForJava24.7リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-7-release-notes/).
 
-[Aspose.Words for Java 24.8 リリース ノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-8-release-notes/) の詳細をご覧ください。
+詳細については、こちらをご覧ください [アスポーズWordsForJava24.8リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-8-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Words お問い合わせ Java 24.1、24.2、24.3、24.4
+## Aspose.Wordsの場合Java 24.1, 24.2, 24.3, 24.4
 
-Aspose.Words 24.1は、脳卒中の色を管理し、OLEオブジェクトとLINQレポートを強化し、新しいBibliography Sourcesパブリックを導入する経験を改善します。 APIお問い合わせ
+Aspose.Words24.1は、ストロークの色の管理に関する経験を向上させ、OLEオブジェクトとLINQレポートを強化し、新しい参考文献ソースpublicAPIを導入します。
 
-Aspose.Words 24.2 拡大チャート API, スタイル管理、LINQオプション このバージョン Aspose.Words また、レンダリング中にSvgSaveOptionsを指定する機能、より柔軟な制御読み込み Markdown ファイル、およびフットノートおよびエンドノートのための参照のテキストを使用。
+Aspose.Words24.2展開されたグラフAPI、スタイル管理、およびLINQオプション。 このバージョンのAspose.Wordsでは、レンダリング中にSvgSaveOptionsを指定する機能、Markdownファイルを読み込む柔軟な制御、脚注と文末脚注の参照テキストを操作する機能も導入されました。
 
-Aspose.Words 24.3は、WMFメタファイル用のバイナリラスター操作の新しいTIFFリーダー/ライターとエミュレーションを紹介します。 Aspose.Words 24.3はまたチャートを拡大し続けます APIお問い合わせ
+Aspose.Words24.3は新しいTIFFリーダー/ライターを導入し、WMFメタファイルのバイナリラスタ演算のエミュレーションを導入しました。 Aspose.Words24.3もチャートAPIを拡大し続けます。
 
-Aspose.Words 24.4は、保存形式、一部のレンダリングオプション、デジタル署名の処理を改善します。
+Aspose.Words24.4保存形式、いくつかのレンダリングオプションを強化し、デジタル署名の作業を改善します。
 
-### サポートされる形式 <sup>24.4</sup>
+### サポートされている形式 <sup>24.4</sup>
 
-最新の **WebP** 画像形式が Aspose.Words でサポートされるようになりました。 WebP 画像を読み取ってドキュメントに挿入したり、画像を WebP 形式で保存したりできるようになりました。
+最新の**WebP**イメージ形式がAspose.Wordsでサポートされるようになりました。 WebP画像を読み込んでドキュメントに挿入したり、WebP形式で画像を保存したりできるようになりました。
 
-### レンダリングおよび印刷
+### レンダリングと印刷
 
-#### 打撃色の制御 <sup>24.1マイル</sup>
+#### ストロークカラーコントロール <sup>24.1</sup>
 
-ザ・オブ・ザ・ [Stroke](https://reference.aspose.com/words/java/com.aspose.words/stroke/) クラスは、ストローク色の管理に関連する新しいパブリックプロパティのセットで拡張されています。 [ForeThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeThemeColor) そして、 [BackThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackThemeColor), [ForeTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeTintAndShade) そして、 [BackTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackTintAndShade)お問い合わせ
+[Stroke](https://reference.aspose.com/words/java/com.aspose.words/stroke/)クラスは、ストロークの色の管理に関連する一連の新しいパブリックプロパティ[ForeThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeThemeColor)と[BackThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackThemeColor)、[ForeTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeTintAndShade)と[BackTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackTintAndShade)で拡張されました。
 
-#### DrawingML チャート API エクステンション <sup>24.2 / 24.3 / 24.4</sup>
+#### DrawingMLチャートAPI拡張 <sup>24.2 / 24.3 / 24.4</sup>
 
-ザ・オブ・ザ・ **DrawingML Charts API** 今後も拡大していきます。
+**DrawingML Charts API**は引き続き展開されます。
 
-#### @font-faceルールで宣言されたフォントの埋め込み <sup>24.4</sup>
+#### @font-faceルールで宣言された埋め込みフォント <sup>24.4</sup>
 
-新しい[SupportFontFaceRules](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/#getSupportFontFaceRules)プロパティを追加することで、生成されるドキュメントのフォント定義に@font-faceルールで宣言されたフォントを埋め込む機能が追加されました。
+新しい[SupportFontFaceRules](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/#getSupportFontFaceRules)プロパティを追加することで、@font-faceルールで宣言されたフォントを結果のドキュメントのフォント定義に埋め込む機能が導入されました。
 
-#### グローおよび反射の書式設定の操作 <sup>24.4</sup>
+#### グローとリフレクションの書式設定を使用する <sup>24.4</sup>
 
-描画オブジェクトのグローおよび反射の書式設定を操作する機能が実装されました。
+描画オブジェクトのグローとリフレクションの書式設定を操作する機能が実装されました。
 
 ### 文書の読み込みと保存
 
-#### レンダリング中にSvgSaveOptionsを指定する <sup>24.2マイル</sup>
+#### レンダリング中にSvgSaveOptionsを指定します <sup>24.2</sup>
 
-指定する機能 [SvgSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/svgsaveoptions/) レンダリング中にレンダリングを追加 [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/)お問い合わせ[Save](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#save-java.io.OutputStream-com.aspose.words.SvgSaveOptions) そして、 [OfficeMathRenderer](https://reference.aspose.com/words/java/com.aspose.words/officemathrenderer/)お問い合わせ[Save](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#save-java.io.OutputStream-com.aspose.words.SvgSaveOptions) メソッド。
+レンダリング中に[SvgSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/svgsaveoptions/)を指定する機能が[ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/)を使用して追加されました。[Save](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#save-java.io.OutputStream-com.aspose.words.SvgSaveOptions)と[OfficeMathRenderer](https://reference.aspose.com/words/java/com.aspose.words/officemathrenderer/)。[Save](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#save-java.io.OutputStream-com.aspose.words.SvgSaveOptions)メソッド。
 
-#### ローディング時に空の行を保存 Markdown ファイル <sup>24.2マイル</sup>
+#### Markdownファイルの読み込み時に空の行を保持する <sup>24.2</sup>
 
-ローディング時に空の線を保存する機能 Markdown ファイルを追加しました。
+Markdownファイルの読み込み時に空行を保持する機能が追加されました。
 
-#### 新しいTIFFリーダー/ライター <sup>24.3の</sup>
+#### 新しいTIFFリーダー/ライター <sup>24.3</sup>
 
-新しいTIFFリーダー/ライター Aspose.Words お問い合わせ .NET Standard, .NET 6 以降を開発 Aspose.Words お問い合わせ .NET 24.3では、JPEGと旧JPEGの圧縮タイプでTIFF画像を読み込み、読み書き作業の質を大幅に向上させました。
+.NET Standard、.NET6以降のAspose.Words用の新しいTIFFリーダ/ライタが開発されました。 Aspose.Wordsfor.NET 24.3は、JPEGおよび古いJPEG圧縮タイプのTIFFイメージの読み取りのサポートを追加し、読み取りおよび書き込み操作の品質も大幅に改善しました。
 
 ### その他
 
-* 必須 テキストを変更する機能 `TextBox` OLEコントロールを導入し、新規追加 [Text](https://reference.aspose.com/words/java/com.aspose.words/textboxcontrol/#getText) 新規物件 [TextBoxControl](https://reference.aspose.com/words/java/com.aspose.words/textboxcontrol/) クラス。 24.1マイル <sup>24.1マイル</sup>
-* バイブリグラフィーソース公開 API いくつか新規を追加することで実装 [Bibliography](https://reference.aspose.com/words/java/com.aspose.words/bibliography/), [Source](https://reference.aspose.com/words/java/com.aspose.words/source/), [ContributorCollection](https://reference.aspose.com/words/java/com.aspose.words/contributorcollection/), [Contributor](https://reference.aspose.com/words/java/com.aspose.words/contributor/), [Corporate](https://reference.aspose.com/words/java/com.aspose.words/corporate/), [PersonCollection](https://reference.aspose.com/words/java/com.aspose.words/personcollection/) そして、 [Person](https://reference.aspose.com/words/java/com.aspose.words/person/) クラスとクラス [SourceType](https://reference.aspose.com/words/java/com.aspose.words/sourcetype/) 列挙、また新しい加えることによる [Bibliography](https://reference.aspose.com/words/java/com.aspose.words/document/#getBibliography) プロパティへ [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) クラス。 <sup>24.1マイル</sup>
-* 内容 API LINQ Reporting Engine のテンプレート構文を使用して、タイプメンバーへのアクセスを制限します。 <sup>24.1マイル</sup>
-* 新しい公共施設 [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/), [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/), そして、 [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/) スタイルマネジメントの強化のために追加されました [Style](https://reference.aspose.com/words/net/aspose.words/style/) クラス。 <sup>24.2マイル</sup>
-* 必須 実際の参照マークテキストをフットノートとエンドノートに取得する機能は、 [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) プロパティとプロパティ [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) メソッド。 <sup>24.2マイル</sup>
-*との互換性 `Word 2016` チャート `LINQ Reporting Engine` 有効になっています。 <sup>24.2マイル</sup>
-* ※WMFメタファイルのバイナリラスター操作のエミュレーションを実施しました。 <sup>24.3の</sup>
-* [DigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturedetails/)クラスを追加し、[OoxmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/)、[DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/)、[OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/)クラスに新しいパブリックメンバーを追加することで、**SaveOptions**内でドキュメントの署名オプションを定義する機能が有効になりました。 <sup>24.4</sup>
+* `TextBox`OLEコントロールのテキストを変更する機能は、新しい[Text](https://reference.aspose.com/words/java/com.aspose.words/textboxcontrol/#getText)プロパティを新しい[TextBoxControl](https://reference.aspose.com/words/java/com.aspose.words/textboxcontrol/)クラスに追加することによって導入されました。 24.1 <sup>24.1</sup>
+* 参考文献ソースpublicAPIは、いくつかの新しいを追加することによって実装されました[Bibliography](https://reference.aspose.com/words/java/com.aspose.words/bibliography/), [Source](https://reference.aspose.com/words/java/com.aspose.words/source/), [ContributorCollection](https://reference.aspose.com/words/java/com.aspose.words/contributorcollection/), [Contributor](https://reference.aspose.com/words/java/com.aspose.words/contributor/), [Corporate](https://reference.aspose.com/words/java/com.aspose.words/corporate/), [PersonCollection](https://reference.aspose.com/words/java/com.aspose.words/personcollection/) [Document](https://reference.aspose.com/words/java/com.aspose.words/document/)クラスに新しい[Bibliography](https://reference.aspose.com/words/java/com.aspose.words/document/#getBibliography)プロパティを追加することによって、[Person](https://reference.aspose.com/words/java/com.aspose.words/person/)クラスと[SourceType](https://reference.aspose.com/words/java/com.aspose.words/sourcetype/)列挙体を追加することができます。 <sup>24.1</sup>
+* LINQレポートエンジンのテンプレート構文を使用して型メンバーへのアクセスを制限するAPIが提供されています。 <sup>24.1</sup>
+* スタイル管理を強化するための新しいパブリックプロパティ[Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/)、[UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/)、[SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/)が[Style](https://reference.aspose.com/words/net/aspose.words/style/)クラスに追加されました。 <sup>24.2</sup>
+* 脚注と文末脚注の実際の参照マークテキストを取得する機能は、[ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/)プロパティと[UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/)メソッドで強化されました。 <sup>24.2</sup>
+* `LINQ Reporting Engine`の`Word 2016`チャートとの互換性が有効になりました。 <sup>24.2</sup>
+* WMFメタファイルのバイナリラスタ演算のエミュレーションが実装されました。 <sup>24.3</sup>
+* **SaveOptions**内の文書の署名オプションを定義する機能は、新しいパブリックメンバーを持つ新しい[DigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturedetails/)クラスを追加することと、[OoxmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/)、[DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/)、[OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/)クラスに新しいプロパテ <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
-詳しくはこちら [Aspose.Words お問い合わせ Java 24.1リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-1-release-notes/)お問い合わせ
+詳細については、こちらをご覧ください [アスポーズWordsForJava24.1リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-1-release-notes/).
 
-詳しくはこちら [Aspose.Words お問い合わせ Java 24.2 リリースノート。](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-2-release-notes/)
+詳細については、こちらをご覧ください [アスポーズWordsForJava24.2リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-2-release-notes/).
 
-詳しくはこちら [Aspose.Words お問い合わせ Java 24.3リリースノート。](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-3-release-notes/)
+詳細については、こちらをご覧ください [アスポーズWordsForJava24.3リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-3-release-notes/).
 
-詳しくはこちら [Aspose.Words お問い合わせ Java 24.4リリースノート。](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-4-release-notes/)
+詳細については、こちらをご覧ください [アスポーズWordsForJava24.4リリースノート](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-4-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Words お問い合わせ Java 23.9、23.10、23.11、23.12
+## Aspose.WordsのためのJava 23.9, 23.10, 23.11, 23.12
 
-Aspose.Words 23.9 は、レンダリングオプション、メタファイルレンダリングエミュレーション、および markdown オプションを保存します。
+Aspose.Words23.9レンダリングオプション、メタファイルレンダリングエミュレーション、およびmarkdown保存オプションを展開します。
 
-Aspose.Words 23.10 は、レンダリングを改善し、文書の読み込みと保存のオプションを拡大し、ユーザーは新しい方法で文書をマージすることができます。
+Aspose.Words23.10レンダリングが改善され、文書の読み込みと保存のオプションが拡張され、ユーザーが新しい方法で文書をマージできるようになりました。Aspose.Words23.10
 
-Aspose.Words 23.11は、修正、XLSX形式、および追加のオプションでチャートの凡例のフォントで作業を強化します。
+Aspose.Words23.11は、追加オプションを使用して、チャート凡例のリビジョン、XLSX形式、フォントを使用して作業を強化します。
 
-Aspose.Words 23.12 PDF文書を扱うための新しいプロパティと列挙の紹介、サポート WebP 画像、および更新された弾力性城ライブラリ。
+Aspose.Words23.12では、PDFドキュメントを操作するための新しいプロパティと列挙、WebPイメージのサポート、更新されたBouncy Castleライブラリが導入されました。
 
-### レンダリングおよび印刷
+### レンダリングと印刷
 
-#### DrawingML で Axes のタイトルをカスタマイズ チャート <sup>23.9マイル</sup>
+#### DrawingMLチャートでの座標軸タイトルのカスタマイズ <sup>23.9</sup>
 
-新規公開クラスの実装により、DrawML チャートで軸のタイトルをカスタマイズする機能が導入されました。 [ChartAxisTitle](https://reference.aspose.com/words/java/com.aspose.words/chartaxistitle/) そして、 [Title](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/#getTitle) プロパティ.
+DrawingMLチャートの軸タイトルをカスタマイズする機能は、新しいパブリッククラス[ChartAxisTitle](https://reference.aspose.com/words/java/com.aspose.words/chartaxistitle/)および[Title](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/#getTitle)プロパティの実装によって導入されました。
 
-#### パラグラフ内のフォントの縦位置を決める <sup>23.9マイル</sup>
+#### 段落内のフォントの垂直位置の決定 <sup>23.9</sup>
 
-新しいパブリックを使って段落内のフォントの縦位置を定義できるようになりました。 [BaselineAlignment](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#getBaselineAlignment) プロパティと新しい [BaselineAlignment](https://reference.aspose.com/words/java/com.aspose.words/baselinealignment/) パンフレット
+新しいpublic[BaselineAlignment](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#getBaselineAlignment)プロパティと新しい[BaselineAlignment](https://reference.aspose.com/words/java/com.aspose.words/baselinealignment/)列挙体を使用して、段落内のフォントの垂直位置を定義できるようになりました。
 
-#### フォアグラウンド色の制御 <sup>10月23日</sup>
+#### 前景色制御 <sup>23.10</sup>
 
-修飾子なしでフォアグラウンド色を取除く能力はに加えられました [Fill](https://reference.aspose.com/words/java/com.aspose.words/fill/) そして、 [Stroke](https://reference.aspose.com/words/java/com.aspose.words/stroke/) クラスを経由して **BaseForeColor** プロパティ.
+修飾子なしで前景色を取得する機能が**BaseForeColor**プロパティを介して[Fill](https://reference.aspose.com/words/java/com.aspose.words/fill/)クラスと[Stroke](https://reference.aspose.com/words/java/com.aspose.words/stroke/)クラスに追加されました。
 
-#### チャートの機能拡張 <sup>10月23日</sup>
+#### チャートの機能を拡張する <sup>23.10</sup>
 
-機能性の特長 [ChartDataPointCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatapointcollection/), [ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/), そして、 [ChartFormat](https://reference.aspose.com/words/java/com.aspose.words/chartformat/) クラスは、新しいメソッドとプロパティで拡張されています。
+[ChartDataPointCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatapointcollection/)、[ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/)、[ChartFormat](https://reference.aspose.com/words/java/com.aspose.words/chartformat/)クラスの機能は、新しいメソッドとプロパティで拡張されました。
 
-#### 自動的にイメージを形に調節し、合います <sup>10月23日</sup>
+#### 画像を自動的に調整して図形に合わせる <sup>23.10</sup>
 
-特定の形状内で自動的に調整し、収まる簡単な方法は、新しい方法で提供されています [FitImageToShape](https://reference.aspose.com/words/java/com.aspose.words/imagedata/#fitImageToShape) メソッド。
+新しい[FitImageToShape](https://reference.aspose.com/words/java/com.aspose.words/imagedata/#fitImageToShape)メソッドを使用して、画像を特定の形状に自動的に調整して合わせる簡単な方法が提供されています。
 
-#### デッサンのためのデフォルトのフォントのフォーマット ログイン チャートの伝説のエントリ <sup>11月23日</sup>
+#### DrawingMLグラフの凡例エントリの既定のフォント書式設定 <sup>23.11</sup>
 
-図面ML チャートの凡例エントリのデフォルトフォントの書式設定を指定する機能は、 **Font** 宿泊施設 この機能は、より合理化され、チャート要素の一貫した外観を容易にし、全体的な文書の美学を改善します。
+DrawingMLチャートの凡例エントリのデフォルトのフォント書式を指定する機能が**Font**プロパティを介して追加されました。 この機能により、グラフ要素のより合理化された一貫した外観が容易になり、文書全体の美しさが向上します。
 
-#### リーダーでPDFを開くときにページレイアウトを指定する <sup>2018年12月23日</sup>
+#### ReaderでPDFを開くときのページレイアウトの指定 <sup>23.12</sup>
 
-PDFリーダーにドキュメントを開いたときに使用するページレイアウトを指定する機能が、新しい導入により追加されました。 [PageLayout](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getPageLayout) プロパティへ [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) クラスと新しい導入 [PdfPageLayout](https://reference.aspose.com/words/java/com.aspose.words/pdfpagelayout/) パンフレット
+PDFリーダーで文書を開くときに使用するページレイアウトを指定する機能は、[PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/)クラスに新しい[PageLayout](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getPageLayout)プロパティを導入し、新しい[PdfPageLayout](https://reference.aspose.com/words/java/com.aspose.words/pdfpagelayout/)列挙体を導入することによ
 
 ### 文書の読み込みと保存
 
-#### フォルダ名を指定して、画像のURIを構成 Markdown <sup>23.9マイル</sup>
+#### イメージURIsをMarkdownに構築するフォルダ名の指定 <sup>23.9</sup>
 
-ザ・オブ・ザ・ [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) クラスは、クラスを含めて展開しています。 [ImagesFolderAlias](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImagesFolderAlias) プロパティ。これにより、画像の URI を作成するために使用されるフォルダの名前を指定します。 Markdown ドキュメント。
+[MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/)クラスは[ImagesFolderAlias](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImagesFolderAlias)プロパティを含めることで拡張され、Markdown文書に書き込まれたイメージURIsを構築するために使用されるフォルダの名前を指定できます。
 
-#### PDFを削減 出力サイズ <sup>10月23日</sup>
+#### PDF出力サイズを減らす <sup>23.10</sup>
 
-さまざまなPDFレンダリングの最適化により、出力サイズを削減 [OptimizeOutput](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/#getOptimizeOutput) 設定を実装しました。
+[OptimizeOutput](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/#getOptimizeOutput)設定を使用するときに出力サイズを小さくするためのさまざまなPDFレンダリング最適化が実装されています。
 
-#### TXT 文書をロードする際にハイパーリンクを認識 <sup>10月23日</sup>
+#### TXT文書を読み込むときにハイパーリンクを認識する <sup>23.10</sup>
 
-TXT ドキュメントをロードする際にハイパーリンクを認識する機能は、新しい追加で実装されています。 [DetectHyperlinks](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getDetectHyperlinks) プロパティ.
+TXT文書の読み込み時にハイパーリンクを認識する機能は、新しい[DetectHyperlinks](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getDetectHyperlinks)プロパティを追加することによって実装されています。
 
 ### その他
 
-- 特にWMFのペンの幅およびEMFの化粧品のペンの幅のためのrasterizationのサイズを定めるMetafileのレンダリングのエミュレーションは、実施されました。 これを実現するため、 **ScaleWmfFontsToMetafileSize** プロパティは置換されました [EmulateRenderingToSizeOnPage](https://reference.aspose.com/words/java/com.aspose.words/metafilerenderingoptions/#getEmulateRenderingToSizeOnPage) プロパティとプロパティ [EmulateRenderingToSizeOnPageResolution](https://reference.aspose.com/words/java/com.aspose.words/metafilerenderingoptions/#getEmulateRenderingToSizeOnPageResolution) プロパティを追加しました。 <sup>23.9マイル</sup>
-- 現在のカーソル位置で一つの文書を別の文書に差し込むための単純化された方法が導入されました [InsertDocumentInline](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocumentInline-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions) メソッド。 <sup>10月23日</sup>
-- - - スタイルプロパティへのアクセスと変更の機能は、新しい導入によって追加されました [Locked](https://reference.aspose.com/words/java/com.aspose.words/style/#getLocked) プロパティ. <sup>10月23日</sup>
-- 遺伝子型パラメータをメソッドに追加しました [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) クラス。 <sup>10月23日</sup>
-- 特定のリビジョンが受け入れられる/拒否されるか、または使用することによって実装されていない場合を制御する方法 [Accept](https://reference.aspose.com/words/java/com.aspose.words/revisioncollection/#accept-com.aspose.words.IRevisionCriteria) そして、 [Reject](https://reference.aspose.com/words/java/com.aspose.words/revisioncollection/#reject-com.aspose.words.IRevisionCriteria) メソッド。 この拡張機能により、ユーザーはリビジョンプロセスを適切に制御できます。 <sup>11月23日</sup>
-- - - 文書のすべてのセクションを同じXLSXワークシートに書き込む能力は、新しい方法で提供されます [XlsxSectionMode](https://reference.aspose.com/words/java/com.aspose.words/xlsxsectionmode/) 列挙型と新しい [SectionMode](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/#getSectionMode) プロパティ. <sup>11月23日</sup>
-- サポート WebP 画像が紹介されました。 この機能はご利用いただけません。 .Netスタンドアートと .NET6 以上のバージョン <sup>2018年12月23日</sup>
+- ラスタライズサイズを決定するためのメタファイルレンダリングエミュレーションが実装されました,特にWMFペン幅とEMF化粧ペン幅のために. これを実現するために、**ScaleWmfFontsToMetafileSize**プロパティは[EmulateRenderingToSizeOnPage](https://reference.aspose.com/words/java/com.aspose.words/metafilerenderingoptions/#getEmulateRenderingToSizeOnPage)プロパティに置き換えられ、[EmulateRenderingToSizeOnPageResolution](https://reference.aspose.com/words/java/com.aspose.words/metafilerenderingoptions/#getEmulateRenderingToSizeOnPageResolution)プロパティが追加されました。 <sup>23.9</sup>
+- 現在のカーソル位置にある文書を別の文書に挿入するための簡略化された方法が[InsertDocumentInline](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocumentInline-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions)メソッドを使用して導入されました。 <sup>23.10</sup>
+- 新しい[Locked](https://reference.aspose.com/words/java/com.aspose.words/style/#getLocked)プロパティの導入により、スタイルプロパティにアクセスして変更する機能が追加されました。 <sup>23.10</sup>
+- ジェネリック型パラメーターが[CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/)クラスのメソッドに追加されました。 <sup>23.10</sup>
+- 特定のリビジョンを受け入れる/拒否するかどうかを制御する方法は、[Accept](https://reference.aspose.com/words/java/com.aspose.words/revisioncollection/#accept-com.aspose.words.IRevisionCriteria)メソッドと[Reject](https://reference.aspose.com/words/java/com.aspose.words/revisioncollection/#reject-com.aspose.words.IRevisionCriteria)メソッドを使用して実装されています。 この機能強化により、ユーザーは改訂プロセスをより細かく制御できます。 <sup>23.11</sup>
+- ドキュメントのすべてのセクションを同じXLSXワークシートに書き込む機能は、新しい[XlsxSectionMode](https://reference.aspose.com/words/java/com.aspose.words/xlsxsectionmode/)列挙型と新しい[SectionMode](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/#getSectionMode)プロパティによって提供されています。 <sup>23.11</sup>
+- WebPイメージのサポートが導入されました。 この機能は以下のためにのみ利用可能ですのでご注意ください。NetStandartおよび.NET6+バージョン。 <sup>23.12</sup>
 
 {{% alert color="primary" %}}
 
-詳しくはこちら [Aspose.Words お問い合わせ Java 23.9リリースノート](/words/java/aspose-words-for-java-23-9-release-notes/)お問い合わせ
+詳細については、こちらをご覧ください [アスポーズWordsForJava23.9リリースノート](/words/java/aspose-words-for-java-23-9-release-notes/).
 
-詳しくはこちら [Aspose.Words お問い合わせ Java 23.10 リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/)お問い合わせ
+詳細については、こちらをご覧ください [アスポーズWordsForJava23.10リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 
-詳しくはこちら [Aspose.Words お問い合わせ Java 23.11 リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-11-release-notes/)お問い合わせ
+詳細については、こちらをご覧ください [アスポーズWordsForJava23.11リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-11-release-notes/).
 
-詳しくはこちら [Aspose.Words お問い合わせ Java 23.12 リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-12-release-notes/)お問い合わせ
+詳細については、こちらをご覧ください [アスポーズWordsForJava23.12リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-12-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Words お問い合わせ Java 23.5、23.6、23.7、23.8
+## Aspose.Wordsの場合Java 23.5, 23.6, 23.7, 23.8
 
-Aspose.Words 23.5は、チャートシリーズのデータとODT文書で動作する機能を強化し、ヘッダ/フッターとテキストラッピングを改善します。
+Aspose.Words23.5は、グラフ系列データを操作する機能とODTドキュメントを操作する機能を強化し、ヘッダー/フッターとそのテキストの折り返しを改善します。Aspose.Words23.5は、グラフ系列データを操作する機能とODTドキュメントを操作する機能を強化します。
 
-Aspose.Words 23.6 はレンダリングオプションを拡大し、新しいエクスポート形式を追加し、LINQ レポートを改善し、 LowCode ツール。
+Aspose.Words23.6レンダリングオプションを展開し、新しいエクスポート形式を追加し、LINQレポートとLowCodeツールを改善します。
 
-Aspose.Words 23.7は、レポート機能を強化し、新しいエクスポートフォーマットを追加し、テーブルとデジタル署名で作業する変更を導入します。
+Aspose.Words23.7レポート機能が強化され、新しいエクスポート形式が追加され、テーブルとデジタル署名の操作に変更が加えられました。
 
-Aspose.Words 23.8は、異なるフォーマットの機能を拡大し、レンダリングを改善し、フィールドで作業するための新しいオプションを追加します。
+Aspose.Words23.8は、さまざまな形式の機能を拡張し、レンダリングを改善し、フィールドを操作するための新しいオプションを追加します。
 
 ### サポートされている形式
 
-* ※バージョン23.6以降では、XLSX形式で文書を保存することができます。 ドキュメントをExcel形式に変換できるようになりました。 <sup>23.6の</sup>
+* バージョン23.6以降では、文書をXLSX形式で保存することができます。 今、あなたはExcel形式に文書を変換することができます。 <sup>23.6</sup>
 
-* ※バージョン23.7以降では、EPS形式のドキュメントページや形状を保存することができます。 <sup>23.7マイル</sup>
+* バージョン23.7以降では、文書ページまたは図形をEPS形式で保存することができます。 <sup>23.7</sup>
 
-* 必須 ### 新しいフォーマットの特徴
+* ##＃新しいフォーマット機能
 
-  - MOBI文書のコンテンツ(TOC)を自動的に生成する機能が導入されました。 <sup>23.8</sup>
-  - ザ・ [PdfEncryptionDetails](https://reference.aspose.com/words/java/com.aspose.words/pdfencryptiondetails/#PdfEncryptionDetails-java.lang.String-java.lang.String) コンストラクタが拡張されました [PdfPermissions](https://reference.aspose.com/words/java/com.aspose.words/pdfpermissions/)お問い合わせ <sup>23.8</sup>
-  - EMFメタファイル用の縦テキストの形成が実装されました。 <sup>23.8</sup>
+  - MOBI文書の目次(TOC)を自動的に生成する機能が導入されました。 <sup>23.8</sup>
+  - [PdfEncryptionDetails](https://reference.aspose.com/words/java/com.aspose.words/pdfencryptiondetails/#PdfEncryptionDetails-java.lang.String-java.lang.String)コンストラクタは[PdfPermissions](https://reference.aspose.com/words/java/com.aspose.words/pdfpermissions/)で展開されています。 <sup>23.8</sup>
+  - EMFメタファイルの垂直テキストの整形が実装されました。 <sup>23.8</sup>
 
 ### レンダリング
 
-#### 取得と修正 チャートシリーズデータ <sup>23.5の</sup>
+#### グラフ系列データの取得と変更 <sup>23.5</sup>
 
-チャートシリーズのデータの取得と変更の機能は、追加によって提供されました。
+グラフ系列データを取得および変更する機能は、以下を追加することによって提供されました:
 
 - 新しいクラス: [ChartXValue](https://reference.aspose.com/words/java/com.aspose.words/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/java/com.aspose.words/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/java/com.aspose.words/chartmultilevelvalue/)
-- 新しい列のタイプ: [ChartXValueType](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluetype/)
+- 新しい列挙型:[ChartXValueType](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluetype/),[ChartYValueType](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluetype/)
 
-#### 高度なタイポグラフィをサポート <sup>23.6の</sup>
+#### 高度なタイポグラフィのサポート <sup>23.6</sup>
 
-WMF、EMF、EMF+のレンダリングの高度のタイポグラフィーのためのサポートは加えられました。
+WMF、EMF、EMF+レンダリングにおける高度なタイポグラフィのサポートが追加されました。
 
-#### ページ上の着色コンテンツ <sup>23.6の</sup>
+#### ページ上の色付きのコンテンツ <sup>23.6</sup>
 
-公共施設 [PageInfo.Colored](https://reference.aspose.com/words/java/com.aspose.words/pageinfo/#getColored), ページが色付けされているか否か、追加されているかを示します。
+ページが色付けされているかどうかを示すパブリックプロパティ[PageInfo.Colored](https://reference.aspose.com/words/java/com.aspose.words/pageinfo/#getColored)が追加されました。
 
-#### チャートデータラベルのフォーマット <sup>23.6の</sup>
+#### チャートデータラベルの書式設定 <sup>23.6</sup>
 
-グラフデータラベルの塗りつぶし、ストローク、コールアウトのフォーマットを設定できる機能が実装されています。
+チャートデータラベルの塗りつぶし、ストローク、および吹き出しの書式設定を設定する機能が実装されました。
 
-### Mail Merge そして報告
+### Mail Mergeと報告
 
-#### LINQ レポートエンジンの動的 HTML インサート <sup>23.6の</sup>
+#### LINQレポートエンジンの動的HTML挿入 <sup>23.6</sup>
 
-LINQ Reporting Engine の動的 HTML インサートが追加されました。
+LINQReporting Engineの動的HTML挿入の新しい方法が追加されました。
 
-#### Mustache タグ サポート <sup>23.7マイル</sup>
+#### Mustacheタグのサポート <sup>23.7</sup>
 
-Mustache タグがサポートされています [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getRegionsHierarchy) そして、 [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldNamesForRegion-java.lang.String) メソッド。
+Mustacheタグは[MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getRegionsHierarchy)メソッドと[MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldNamesForRegion-java.lang.String)メソッドでサポートされるようになりました。
 
-#### LINQ レポートエンジンテンプレートの構文更新 <sup>23.7マイル</sup>
+#### LINQレポートエンジンテンプレート構文の更新 <sup>23.7</sup>
 
-LINQ Reporting Engineテンプレートの構文は、現在サポートしています。 `ElementAt` ElementAtOrDefault 拡張メソッド。
+LINQReporting Engineテンプレート構文で、`ElementAt`およびElementAtOrDefault拡張メソッドがサポートされるようになりました。
 
-#### レンダリングされた画像のサイズを指定する <sup>23.8</sup>
+#### レンダリングされた画像のサイズの指定 <sup>23.8</sup>
 
-新しい公共施設 **ImageSize** ピクセル内のレンダリングされた画像のサイズが導入されました。
+レンダリングされた画像のサイズをピクセル単位で指定するための新しいパブリックプロパティ**ImageSize**が導入されました。
 
-#### JSON 文字列値の空白を保存します。 – LINQ <sup>23.8</sup>
+#### JSON文字列値の空白を保持する-LINQ <sup>23.8</sup>
 
-JSON 文字列の値の空白を保存するために、LINQ Reporting Engine にオプションを追加しました。
+LINQレポートエンジンに、JSON文字列値の空白を保持するオプションが追加されました。
 
-### LowCode <sup>23.6の</sup>
+### LowCode <sup>23.6</sup>
 
-ニュース LowCode 異なる種類の文書を単一の出力文書にマージするためのメソッドを追加しました。
+異なる種類の文書を単一の出力文書にマージするための新しいLowCodeメソッドが追加されました。
 
 ### その他
 
-- ヘッダ/フッターでテキストをラップするサポートを実施しました。 <sup>23.5の</sup>
-- - - ODT 文書からのデジタル署名を削除する機能が追加されました [RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream) メソッド。 <sup>23.5の</sup>
-- - - 公共施設 [PhoneticGuide](https://reference.aspose.com/words/java/com.aspose.words/run/#getPhoneticGuide) 電話ガイドのベースとルビーテキストを取得する [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) を追加しました。 <sup>23.5の</sup>
-- - - 新規導入により、デジタル署名された文書からバイト配列としてデジタル署名値を取得する機能が追加されました。 [SignatureValue](https://reference.aspose.com/words/java/com.aspose.words/digitalsignature/#getSignatureValue) プロパティ. <sup>23.7マイル</sup>
-- ザ・ [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) そして、 [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) 新規公開メンバーとクラスを拡張しました。 [Row.NextRow](https://reference.aspose.com/words/java/com.aspose.words/row/#getNextRow), [Row.PreviousRow](https://reference.aspose.com/words/java/com.aspose.words/row/#getPreviousRow), [Cell.NextCell](https://reference.aspose.com/words/java/com.aspose.words/cell/#getNextCell), そして、 [Cell.PreviousCell](https://reference.aspose.com/words/java/com.aspose.words/cell/#getPreviousCell)お問い合わせ <sup>23.7マイル</sup>
-- ・CITATION、BIBLIOGRAPHYフィールドのサポートを追加しました。 <sup>23.8</sup>
+- ヘッダー/フッターでのテキスト折り返しのサポートが実装されました。 <sup>23.5</sup>
+- ODT文書からデジタル署名を削除する機能が[RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream)メソッドによって追加されました。 <sup>23.5</sup>
+- 音声ガイド[Run](https://reference.aspose.com/words/java/com.aspose.words/run/)のベーステキストとルビテキストを取得するためのパブリックプロパティ[PhoneticGuide](https://reference.aspose.com/words/java/com.aspose.words/run/#getPhoneticGuide)が追加されました。 <sup>23.5</sup>
+- 新しい[SignatureValue](https://reference.aspose.com/words/java/com.aspose.words/digitalsignature/#getSignatureValue)プロパティを導入することで、デジタル署名された文書からデジタル署名値をバイト配列として取得する機能が追加されました。 <sup>23.7</sup>
+- [Row](https://reference.aspose.com/words/java/com.aspose.words/row/)クラスと[Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/)クラスは新しいパブリックメンバーで拡張されました– [Row.NextRow](https://reference.aspose.com/words/java/com.aspose.words/row/#getNextRow), [Row.PreviousRow](https://reference.aspose.com/words/java/com.aspose.words/row/#getPreviousRow), [Cell.NextCell](https://reference.aspose.com/words/java/com.aspose.words/cell/#getNextCell), と[Cell.PreviousCell](https://reference.aspose.com/words/java/com.aspose.words/cell/#getPreviousCell)。 <sup>23.7</sup>
+- CITATIONフィールドとBIBLIOGRAPHYフィールドのサポートが追加されました。 <sup>23.8</sup>
 
 {{% alert color="primary" %}}
 
-詳しくはこちら [Aspose.Words お問い合わせ Java 23.5 リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/)お問い合わせ
+詳細については、こちらをご覧ください [アスポーズWordsForJava23.5リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-5-release-notes/).
 
-詳しくはこちら [Aspose.Words お問い合わせ Java 23.6リリースノート](/words/java/aspose-words-for-java-23-6-release-notes/)お問い合わせ
+詳細については、こちらをご覧ください [アスポーズWordsForJava23.6リリースノート](/words/java/aspose-words-for-java-23-6-release-notes/).
 
-詳しくはこちら [Aspose.Words お問い合わせ Java 23.7リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/)お問い合わせ
+詳細については、こちらをご覧ください [アスポーズWordsForJava23.7リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-7-release-notes/).
 
-詳しくはこちら [Aspose.Words お問い合わせ Java 23.8 リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/)お問い合わせ
+詳細については、こちらをご覧ください [アスポーズWordsForJava23.8リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-8-release-notes/).
 
 {{% /alert %}}
 
-## Aspose.Words お問い合わせ Java 23.1、23.2、23.3、23.4
+## Aspose.Wordsの場合Java 23.1, 23.2, 23.3, 23.4
 
-Aspose.Words 23.1はraster操作のエミュレーションの性能を改善し、文書の輸出およびレンダリングの質を高めます。
+Aspose.Words23.1ラスタ操作エミュレーションのパフォーマンスが向上し、ドキュメントのエクスポートとレンダリングの品質が向上します。
 
-Aspose.Words 23.2は、MOBI形式で文書を保存し、チャートのレンダリングを改善し、文書の外観の詳細に著名な変更を加えます。
+Aspose.Words23.2は、MOBI形式で文書を保存することを導入し、チャートレンダリングを改善し、文書の外観の詳細に顕著な変更を加えます。
 
-Aspose.Words 23.3は文書の輸入を高め、新しい特性と保存し、また背景および地上色および放射状勾配の仕事の質を改善します。
+Aspose.Words23.3新しいプロパティでドキュメントのインポートと保存が強化され、背景色と前景色と放射状のグラデーションでの作業の品質も向上します。Aspose.Words23.3
 
-Aspose.Words 23.4は、いくつかのパラメータの計算とテーブルと周囲のテキストの位置を改善します。
+Aspose.Words23.4は、いくつかのパラメータの計算と、テーブルと周囲のテキストの位置を改善します。
 
-### パフォーマンス改善
+### パフォーマンスの向上
 
-#### ラスターオペレーションのエミュレーション <sup>23.1 の</sup>
+#### ラスター操作のエミュレーション <sup>23.1</sup>
 
-メタファイルによるラスター操作のパフォーマンスと品質が大幅に向上しました。
+メタファイルを使用したラスタ操作のエミュレーションのパフォーマンスと品質が大幅に改善されました。
 
 ### サポートされている形式
 
-#### MOBIへの輸出 <sup>23.2の</sup>
+#### MOBIにエクスポート <sup>23.2</sup>
 
-バージョン23.2以降では、MOBI形式のドキュメントを保存することができます(PRC、AZWとも呼ばれます)。 Amazon Kindle独自の電子書籍ファイル形式)。 MOBI文書をロードするだけでなく、ファイルをMOBI形式にエクスポートすることもできます。
+バージョン23.2以降では、文書をMOBI形式で保存することができます(別名:PRC, AZW – Amazon Kindle独自の電子書籍ファイル形式）。 これで、MOBIドキュメントを読み込むだけでなく、ファイルをMOBI形式にエクスポートすることもできます。
 
 ### レンダリング
 
-#### テーマカラーをシェーディングする作業 <sup>23.1 の</sup>
+#### シェーディングテーマの色を使用する <sup>23.1</sup>
 
-テーマカラーのシェーディングで動作する能力を実装しました。
+シェーディングテーマの色で作業する機能が実装されています。
 
-#### DMLチャートでのR字型係数のサポート <sup>23.1 の</sup>
+#### DMLチャートでのR二乗係数のサポート <sup>23.1</sup>
 
-レンダリングが加えられたときDMLのグラフの傾向にあるラベルのR字型係数のサポート。
+レンダリングが追加されたときのDMLチャートトレンドラインラベルのR二乗係数のサポート。
 
-#### チャートのレンダリング改善 <sup>23.2の</sup>
+#### チャートレンダリングの改善 <sup>23.2</sup>
 
-23.2以降、チャートのレンダリングが大幅に改善されました。
+23.2以降、チャートレンダリングが大幅に改善されました。
 
-#### 背景とフォアグラウンドカラーコントロール <sup>23.3の</sup>
+#### 背景色と前景色のコントロール <sup>23.3</sup>
 
-ザ・オブ・ザ・ [Fill](https://reference.aspose.com/words/java/com.aspose.words/fill/) 背景と背景色に関する新しいパブリックプロパティのセットでクラスを拡張しました。 **ForeThemeColor** そして、 **BackThemeColor**, **ForeTintAndShade** そして、 **BackTintAndShade**お問い合わせ
+[Fill](https://reference.aspose.com/words/java/com.aspose.words/fill/)クラスは、背景色と前景色に関連する一連の新しいパブリックプロパティ**ForeThemeColor**と**BackThemeColor**、**ForeTintAndShade**と**BackTintAndShade**で拡張されました。
 
-#### 放射状の勾配と `SkiaSharp` ネイティブシェーダー <sup>23.3の</sup>
+#### `SkiaSharp`ネイティブシェーダーを使用したラジアルグラディエント <sup>23.3</sup>
 
-放射性勾配のレンダリング `SkiaSharp` ネイティブシェーダー .NET Standard 導入しました。
+.NET Standardの`SkiaSharp`ネイティブシェーダーを使用した放射状グラデーションのレンダリングが実装されています。
 
-#### テーブルとテキストを囲む距離 <sup>23.4円</sup>
+#### 表と周囲のテキスト間の距離 <sup>23.4</sup>
 
-表と周囲のテキストの間隔を設定する機能が、新しいプロパティを導入することで追加されました。 [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) クラス: [DistanceLeft](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceLeft), [DistanceRight](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceRight), [DistanceTop](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceTop), そして、 [DistanceBottom](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceBottom)お問い合わせ
+[Table](https://reference.aspose.com/words/java/com.aspose.words/table/)クラスに新しいプロパティを導入することで、テーブルと周囲のテキスト間の距離を設定する機能が追加されました: [DistanceLeft](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceLeft), [DistanceRight](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceRight), [DistanceTop](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceTop), と[DistanceBottom](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceBottom)。
 
 ### 文書の読み込みと保存
 
-#### 生成する `TOC` AZW3 ドキュメント <sup>23.1 の</sup>
+#### AZW3文書に対して`TOC`を生成する <sup>23.1</sup>
 
-生成する能力 `TOC` AZW3 ドキュメントのコンテンツ(コンテンツの表)は、使用により追加されました。 [EpubNavigationMapLevel](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getEpubNavigationMapLevel) プロパティ.
+[EpubNavigationMapLevel](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getEpubNavigationMapLevel)プロパティを使用して、AZW3文書の`TOC`(目次)を生成する機能が追加されました。[EpubNavigationMapLevel](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getEpubNavigationMapLevel)プロパティを使用して、AZW3文書の`TOC`(目次)を生成する機能が追加されました。
 
-#### リストアイテムをエクスポートする Markdown <sup>23.1 の</sup>
+#### リスト項目をMarkdownにエクスポートする <sup>23.1</sup>
 
-リスト項目のエクスポートを制御する方法 Markdown フォーマットは追加によって提供されます [ListExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getListExportMode) プロパティへ [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) クラス。
+リスト項目のMarkdown形式へのエクスポートを制御する方法は、[ListExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getListExportMode)プロパティを[MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/)クラスに追加することによって提供されています。
 
-#### 文書保存進捗通知 <sup>23.3の</sup>
+#### 文書保存の進行状況通知 <sup>23.3</sup>
 
-MOBIおよびAZW3フォーマットの進捗通知を保存しました。
+MOBIおよびAZW3形式の進行状況通知の保存が実装されました。
 
-#### 文章と単語の間隔調整 <sup>23.3の</sup>
+#### 文と単語の間隔の調整 <sup>23.3</sup>
 
-ドキュメントのインポート時に自動的に文と単語の間隔を調整するかどうかを指定する機能を追加しました。 **AdjustSentenceAndWordSpacing** プロパティ.
+**AdjustSentenceAndWordSpacing**プロパティを導入することにより、文書のインポート時に文と単語の間隔を自動的に調整するかどうかを指定する機能が追加されました。
 
 ### その他
 
-- - - ドキュメントの文字の間隔調整を指定する能力は、 [JustificationMode](https://reference.aspose.com/words/java/com.aspose.words/document/#getJustificationMode) プロパティの実装 <sup>23.2の</sup>
-- 指示する方法 Aspose.Words テキストボックス、フットノート、単語数統計のエンドポイントを含むかどうかは、追加で提供されている [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/java/com.aspose.words/document/#getIncludeTextboxesFootnotesEndnotesInStat) プロパティ <sup>23.2の</sup>
-- 適切な値に基づいてスタイルが自動的に再定義されるかどうかを指定することができるドキュメントスタイルの新しいオプションは、 [AutomaticallyUpdate](https://reference.aspose.com/words/java/com.aspose.words/style/#getAutomaticallyUpdate) プロパティ <sup>23.2の</sup>
-- - - かどうかを決定する能力 [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) 電話でのガイドランを追加 **IsPhoneticGuide** プロパティ <sup>23.4円</sup>
-- 導入によるコンボチャートのシリーズと軸の操作が簡単な方法 **ChartAxisCollection** クラスと追加 **Chart.Axes** プロパティ <sup>23.4円</sup>
-- 形状の相対的な位置およびサイジングに接続された新しい公共のプロパティがに追加されました [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) レッスン <sup>23.4円</sup>
-- 自動テキスト色の決断のための色の明るさの計算の正確さそして性能は最も最近の版に従って改善されました Microsoft Word <sup>23.4円</sup>
+- ドキュメントの文字間隔の調整を指定する機能は、[JustificationMode](https://reference.aspose.com/words/java/com.aspose.words/document/#getJustificationMode)プロパティの実装によって追加されました <sup>23.2</sup>
+- 単語数統計にテキストボックス、脚注、文末脚注を含めるかどうかをAspose.Wordsに指示する方法は、[IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/java/com.aspose.words/document/#getIncludeTextboxesFootnotesEndnotesInStat)プロパティを追加することによって提供されています <sup>23.2</sup>
+- 適切な値に基づいてスタイルを自動的に再定義するかどうかを指定できるドキュメントスタイルの新しいオプションが、[AutomaticallyUpdate](https://reference.aspose.com/words/java/com.aspose.words/style/#getAutomaticallyUpdate)プロパティを介して導入 <sup>23.2</sup>
+- [Run](https://reference.aspose.com/words/java/com.aspose.words/run/)が音声ガイド実行であるかどうかを判断する機能が**IsPhoneticGuide**プロパティを使用して追加されました <sup>23.4</sup>
+- コンボチャートの系列と軸を操作する簡単な方法は、**ChartAxisCollection**クラスを導入し、**Chart.Axes**プロパティを追加することによって実装されています <sup>23.4</sup>
+- Shape relative positioningとsizingに接続された新しいパブリックプロパティが[Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/)クラスに追加されました <sup>23.4</sup>
+- 自動テキストの色の解像度のための色の明るさの計算の正確さとパフォーマンスは、Microsoft Wordの最新バージョンに応じて改善されました <sup>23.4</sup>
 
 {{% alert color="primary" %}}
 
-詳しくはこちら [Aspose.Words お問い合わせ Java 23.1リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-1-release-notes/)お問い合わせ
+詳細については、こちらをご覧ください [アスポーズWordsForJava23.1リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-1-release-notes/).
 
-詳しくはこちら [Aspose.Words お問い合わせ Java 23.2リリースノート](/words/java/aspose-words-for-java-23-2-release-notes/)お問い合わせ
+詳細については、こちらをご覧ください [アスポーズWordsForJava23.2リリースノート](/words/java/aspose-words-for-java-23-2-release-notes/).
 
-詳しくはこちら [Aspose.Words お問い合わせ Java 23.3リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-3-release-notes/)お問い合わせ
+詳細については、こちらをご覧ください [アスポーズWordsForJava23.3リリースノート](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-3-release-notes/).
 
-詳しくはこちら [Aspose.Words お問い合わせ Java 23.4 リリースノート](/words/java/aspose-words-for-java-23-4-release-notes/)お問い合わせ
+詳細については、こちらをご覧ください [アスポーズWordsForJava23.4リリースノート](/words/java/aspose-words-for-java-23-4-release-notes/).
 
 {{% /alert %}}
 
-## お問い合わせ
+## また見て下さい
 
 {{% alert color="primary" %}}
 
-このページには、過去2年間に最新のリリースニュースが掲載されています。 以前のリリースの詳細については、 [リリースノート お問い合わせ](https://releases.aspose.com/words/java/release-notes/) 関連するセクションのページ。
+このページには、過去2年間の最新リリースニュースが含まれています。 以前のリリースの詳細については、以下を参照してください [リリースノート'](https://releases.aspose.com/words/java/release-notes/) 関連するセクションのページ。
 
 {{% /alert %}}

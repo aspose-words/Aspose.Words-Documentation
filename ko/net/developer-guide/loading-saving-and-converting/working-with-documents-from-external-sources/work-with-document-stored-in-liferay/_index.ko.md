@@ -7,6 +7,7 @@ description: "C#를 사용하여 Liferay에서 공유된 Word 문서를 비교�
 type: docs
 weight: 20
 url: /ko/net/work-with-document-stored-in-liferay/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Liferay Portal은 웹 포털 및 웹 사이트 개발을 위해 설계된 오픈 소스 엔터프라이즈 포털 소프트웨어 플랫폼입니다. Liferay는 포털 플랫폼의 일부로 문서 관리 시스템을 제공하여 사용자가 협업적이고 효율적인 방식으로 문서를 생성, 구성, 저장 및 관리할 수 있도록 합니다. 이 문서 관리 기능을 Liferay 문서 라이브러리라고도 합니다.

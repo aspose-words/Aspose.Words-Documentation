@@ -1,55 +1,56 @@
----
-title: Aggiornare i campi in Java
+﻿---
+title: Aggiorna i campi in Java
 second_title: Aspose.Words per Java
-articleTitle: Campi di aggiornamento
-linktitle: Campi di aggiornamento
-description: "Scopri come aggiornare i campi in Java. Aggiornare i campi programmaticamente o utilizzare l'aggiornamento automatico del campo utilizzando Java API"
+articleTitle: Aggiorna campi
+linktitle: Aggiorna campi
+description: "Scopri come aggiornare i campi in Java. Aggiornare i campi a livello di programmazione o utilizzare l'aggiornamento automatico dei campi utilizzando Java API"
 type: docs
 weight: 30
 url: /it/java/update-field/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Tipicamente, un campo inserito in Microsoft Word già contiene un valore aggiornato. Ad esempio, se il campo è una formula o un numero di pagina, conterrà il valore calcolato corretto per la versione data del documento. Ma se si dispone di un'applicazione che genera o modifica un documento con campi come la fusione di due documenti o la populazione con i dati, allora idealmente tutti i campi devono essere aggiornati per il documento da essere utili.
+In genere, un campo inserito in Microsoft Word contiene già un valore aggiornato. Ad esempio, se il campo è una formula o un numero di pagina, conterrà il valore calcolato corretto per la versione specificata del documento. Ma se si dispone di un'applicazione che genera o modifica un documento con campi come l'unione di due documenti o la compilazione di dati, idealmente tutti i campi devono essere aggiornati affinché il documento sia utile.
 
-## Come Aggiornare i Campi
+## Come aggiornare i campi
 
-Quando un documento viene caricato, Aspose.Words imita il comportamento del Microsoft Word con l'opzione di aggiornare automaticamente i campi è spento. Il comportamento può essere riassunto come segue:
+Quando un documento viene caricato, Aspose.Words imita il comportamento di Microsoft Word con l'opzione per aggiornare automaticamente i campi è disattivata. Il comportamento può essere riassunto come segue:
 
-- quando si apre/salva un documento i campi rimangono intatti
-- è possibile aggiornare esplicitamente tutti i campi in un documento, ad esempio, ricostruire `TOC` quando hai bisogno di
-- quando si stampa/render in PDF o XPS i campi relativi alla pagina-numero in intestazioni / piè di pagina sono aggiornati
-- quando si esegue mail merge tutti i campi vengono aggiornati automaticamente
+- quando si apre / salva un documento i campi rimangono intatti
+- è possibile aggiornare esplicitamente tutti i campi in un documento, ad esempio, ricostruire `TOC` quando è necessario
+- quando si stampa / esegue il rendering su PDF o XPS i campi relativi alla numerazione delle pagine nelle intestazioni/piè di pagina vengono aggiornati
+- quando si esegue Mail Merge tutti i campi vengono aggiornati automaticamente
 
-### Aggiornare i campi programmaticamente
+### Aggiorna i campi a livello di codice
 
-Per aggiornare esplicitamente i campi nell'intero documento, basta chiamare il [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) metodo. Per aggiornare i campi contenuti in una parte di un documento, ottenere un [Range](https://reference.aspose.com/words/java/com.aspose.words/range/) oggetto e chiamare [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/range/#updateFields) metodo. In Aspose.Words, si può ottenere **Range** per qualsiasi nodo nell'albero del documento, come [Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), ecc. utilizzando [GetRange](https://reference.aspose.com/words/java/com.aspose.words/node/#getRange) proprieta'. È possibile aggiornare il risultato di un singolo campo chiamando il [Update](https://reference.aspose.com/words/java/com.aspose.words/field/#update) metodo.
+Per aggiornare esplicitamente i campi nell'intero documento, è sufficiente chiamare il metodo [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields). Per aggiornare i campi contenuti in una parte di un documento, ottenere un oggetto [Range](https://reference.aspose.com/words/java/com.aspose.words/range/) e chiamare il metodo [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/range/#updateFields). In Aspose.Words, è possibile ottenere un **Range** per qualsiasi nodo nell'albero del documento, ad esempio[Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), ecc. utilizzo della proprietà [GetRange](https://reference.aspose.com/words/java/com.aspose.words/node/#getRange). È possibile aggiornare il risultato di un singolo campo chiamando il metodo [Update](https://reference.aspose.com/words/java/com.aspose.words/field/#update).
 
-### Aggiornamento automatico dei campi di pagina-relati durante il rendering
+### Aggiornamento automatico dei campi relativi alla pagina durante il rendering
 
-Quando si esegue la conversione di un documento in un formato di pagina fissa, ad esempio in PDF o XPS, allora Aspose.Words aggiornerà automaticamente i campi relativi al layout della pagina `PAGE`, `PAGEREF` trovato in intestazioni/piedi del documento. Questo comportamento imita il comportamento di Microsoft Word quando si stampa un documento.
+Quando si esegue la conversione di un documento in un formato a pagina fissa, ad esempio in PDF o XPS, Aspose.Words aggiornerà automaticamente i campi relativi al layout di pagina `PAGE`, `PAGEREF` trovati nelle intestazioni/piè di pagina del documento. Questo comportamento imita il comportamento di Microsoft Word durante la stampa di un documento.
 
-Se si desidera aggiornare tutti gli altri campi del documento, è necessario chiamare [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) prima di rendere il documento.
+Se si desidera aggiornare tutti gli altri campi del documento, è necessario chiamare [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) prima di eseguire il rendering del documento.
 
-L'esempio seguente mostra come aggiornare tutti i campi prima di rendere un documento:
+L'esempio seguente mostra come aggiornare tutti i campi prima di eseguire il rendering di un documento:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UpdateFields-UpdateFields.java" >}}
 
 ### Aggiornamento automatico del campo durante Mail Merge
 
-Quando si esegue un <span notrans="<span notrans=" mail merge"=""></span>> tutti i campi del documento verranno automaticamente aggiornati. Questo è perché mail merge è un caso di aggiornamento del campo. Il programma incontra un mail merge campo e ha bisogno di aggiornare il suo risultato, che comporta afferrare il valore dalla fonte di dati e inserendolo nel campo. La logica è, naturalmente, più complicata, per esempio, quando la fine del documento/mail merge la regione è raggiunta ma ci sono ancora ulteriori dati da fondere, quindi la regione deve essere duplicata e il nuovo insieme di campi aggiornati.
+Quando si esegue un mail merge, tutti i campi del documento verranno aggiornati automaticamente. Questo perché Mail Merge è un caso di aggiornamento del campo. Il programma incontra un campo Mail Merge e deve aggiornare il suo risultato, il che comporta l'acquisizione del valore dall'origine dati e l'inserimento nel campo. La logica è, ovviamente, più complicata, ad esempio, quando viene raggiunta la fine della regione document/mail merge ma ci sono ancora altri dati da unire, quindi la regione deve essere duplicata e il nuovo set di campi aggiornato.
 
-## Campi di aggiornamento con Dirty Attribute
+## Aggiorna i campi con attributo Dirty
 
-Il w:dirty è un attributo a livello di campo che aggiornerà solo il campo specificato quando il documento è aperto. Dice a MS Word di aggiornare solo questo campo la prossima volta che il documento è aperto. È possibile utilizzare la proprietà LoadOptions.setUpdateDirtyFields() per specificare se aggiornare i campi con l'attributo sporco. Quando il valore di LoadOptions.setUpdateDirtyFields() è impostato su <span notrans="<span notrans=" *true*"=""></span>> tutti i campi *true* valore per `Field.IsDirty` o `FieldChar.IsDirty` la proprietà viene aggiornata sul carico del documento
+W: dirty è un attributo a livello di campo che aggiorna solo il campo specificato quando il documento viene aperto. Indica a MS Word di aggiornare questo campo solo la prossima volta che il documento viene aperto. È possibile utilizzare LoadOptions.setUpdateDirtyFields () proprietà per specificare se aggiornare i campi con l'attributo dirty. Quando il valore di LoadOptions.setUpdateDirtyFields () è impostato su *true*, tutti i campi con valore *true* per la proprietà `Field.IsDirty` o `FieldChar.IsDirty` vengono aggiornati al caricamento del documento.
 
-Il seguente esempio di codice mostra come aggiornare i campi con l'attributo sporco:
+L'esempio di codice seguente mostra come aggiornare i campi con l'attributo dirty:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-LoadOptionsUpdateDirtyFields-LoadOptionsUpdateDirtyFields.java" >}}
 
-## Aggiornamento LastSavedTime Proprietà prima di salvare
+## Aggiorna LastSavedTime Proprietà prima di salvare
 
-È possibile utilizzare [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateLastSavedTimeProperty) proprietà se aggiornare la proprietà del documento incorporato corrispondente [LastSavedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getLastSavedTime) quando si salva il documento.
+È possibile utilizzare la proprietà [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateLastSavedTimeProperty) se aggiornare la corrispondente proprietà predefinita del documento [LastSavedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getLastSavedTime) durante il salvataggio del documento.
 
-Il seguente esempio di codice mostra come aggiornare questa proprietà:
+L'esempio di codice seguente mostra come aggiornare questa proprietà:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UpdateLastSavedTimeProperty-UpdateLastSavedTimeProperty.java" >}}

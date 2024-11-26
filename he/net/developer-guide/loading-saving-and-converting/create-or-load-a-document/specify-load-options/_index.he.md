@@ -7,6 +7,7 @@ description: "בקרה מדויקת יותר על תהליך העומס באמצ
 type: docs
 weight: 10
 url: /he/net/specify-load-options/
+timestamp: 2024-07-09-19-00-42
 ---
 
 בעת טעינת מסמך, אתה יכול להגדיר כמה תכונות מתקדמות. Aspose.Words מספק לך את [LoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/) שיעור, המאפשר שליטה מדויקת יותר של תהליך העומס. כמה פורמטים של עומס יש מעמד מתאים המחזיק אפשרויות עומס עבור פורמט עומס זה, למשל, יש. [PdfLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/) טעינה לתבנית PDF או [TxtLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/) טעינה ל- TXT. מאמר זה מספק דוגמאות לעבודה עם אפשרויות של **LoadOptions** מעמד.

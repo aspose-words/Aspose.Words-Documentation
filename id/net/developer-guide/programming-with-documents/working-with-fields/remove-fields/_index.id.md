@@ -7,6 +7,7 @@ description: "Pelajari cara menghapus kolom di C#. Hapus bidang secara terprogra
 type: docs
 weight: 35
 url: /id/net/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Terkadang perlu untuk menghapus bidang dari dokumen. Hal ini mungkin terjadi bila perlu diganti dengan jenis bidang yang berbeda atau bila bidang tersebut tidak lagi diperlukan dalam dokumen. Misalnya kolom `TOC` saat menyimpan ke HTML.

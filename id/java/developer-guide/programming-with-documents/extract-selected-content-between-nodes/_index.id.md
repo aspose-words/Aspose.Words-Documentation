@@ -7,6 +7,7 @@ type: docs
 description: "Ekstrak konten dokumen dalam penggunaan yang berbeda JavaSitemap"
 weight: 140
 url: /id/java/extract-selected-content-between-nodes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ketika bekerja dengan dokumen, penting untuk dapat dengan mudah mengekstrak konten dari rentang tertentu dalam dokumen. Namun, konten dapat terdiri dari elemen kompleks seperti paragraf, tabel, gambar, dll.

@@ -1,104 +1,105 @@
----
-title: Lavorare con Headers e Footers in Java
+﻿---
+title: Utilizzo di intestazioni e piè di pagina in Java
 second_title: Aspose.Words per Java
-articleTitle: Lavorare con Headers e Footers
-linktitle: Lavorare con Headers e Footers
-description: "Come manipolare intestazioni e piè di pagina utilizzando Java."
+articleTitle: Lavorare con intestazioni e piè di pagina
+linktitle: Lavorare con intestazioni e piè di pagina
+description: "Come manipolare intestazioni e piè di pagina usando Java."
 type: docs
 weight: 150
 url: /it/java/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words consente agli utenti di lavorare con intestazioni e piè di pagina in un documento. Un'intestazione è il testo che viene posizionato nella parte superiore di una pagina, e un piè di pagina è il testo nella parte inferiore di una pagina. Tipicamente, queste aree sono utilizzate per inserire informazioni che devono essere ripetute su tutte o alcune pagine del documento, come numeri di pagina, data di creazione, informazioni aziendali e così via.
+Aspose.Words consente agli utenti di lavorare con intestazioni e piè di pagina in un documento. Un'intestazione è un testo posizionato nella parte superiore di una pagina e un piè di pagina è testo nella parte inferiore di una pagina. In genere, queste aree vengono utilizzate per inserire informazioni che devono essere ripetute su tutte o alcune pagine del documento, ad esempio numeri di pagina, data di creazione, informazioni sulla società e così via.
 
-## Crea intestazioni o piè di pagina utilizzando DocumentBuilder
+## Creare intestazioni o piè di pagina usando DocumentBuilder
 
-Se si desidera aggiungere un intestazione del documento o un piè di pagina programmaticamente, il modo più semplice è quello di utilizzare [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) classe per farlo.
+Se si desidera aggiungere un'intestazione o un piè di pagina del documento a livello di codice, il modo più semplice è utilizzare la classe [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) per farlo.
 
-Il seguente esempio di codice mostra come aggiungere un intestazione e un piè di pagina per le pagine dei documenti:
+L'esempio di codice seguente mostra come aggiungere un'intestazione e un piè di pagina per le pagine del documento:
 
 {{< gist "aspose-words-gists" "58431f54e34e5597f8cbaf97481d5321" "create-header-footer.java" >}}
 
 ## Specificare le opzioni di intestazione o piè di pagina
 
-Quando si aggiunge un'intestazione o un piè di pagina a un documento, è possibile impostare alcune proprietà avanzate. Aspose.Words fornisce agli utenti [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/) e [HeaderFooterCollection](https://reference.aspose.com/words/java/com.aspose.words/headerfootercollection/) classi, così come [HeaderFooterType](https://reference.aspose.com/words/java/com.aspose.words/headerfootertype/) enumerazione che dà più controllo sul processo di personalizzazione intestazione e piè di pagina.
+Quando si aggiunge un'intestazione o un piè di pagina a un documento, è possibile impostare alcune proprietà avanzate. Aspose.Words fornisce agli utenti le classi [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/) e [HeaderFooterCollection](https://reference.aspose.com/words/java/com.aspose.words/headerfootercollection/), nonché l'enumerazione [HeaderFooterType](https://reference.aspose.com/words/java/com.aspose.words/headerfootertype/) che offre un maggiore controllo sul processo di personalizzazione dell'intestazione e del piè di pagina.
 
 ### Specificare il tipo di intestazione o piè di pagina
 
 È possibile specificare tre diversi tipi di intestazione e tre diversi tipi di piè di pagina per un documento:
 
-1. Intestazione e/o piè di pagina per la prima pagina
-2. Intestazione e/o piè di pagina per pagine pari
-3. Intestazione e/o piè di pagina per pagine dispari
+1. Intestazione e / o piè di pagina della prima pagina
+2. Intestazione e / o piè di pagina per pagine pari
+3. Intestazione e / o piè di pagina per le pagine dispari
 
-Il seguente esempio di codice mostra come aggiungere un'intestazione per pagine di documenti dispari:
+Il seguente esempio di codice mostra come aggiungere un'intestazione per le pagine del documento dispari:
 
 {{< gist "aspose-words-gists" "58431f54e34e5597f8cbaf97481d5321" "header-footer-type.java" >}}
 
-### Specificare se visualizzare diverse intestazioni o piè di pagina per la prima pagina
+### Specificare se visualizzare intestazioni o piè di pagina diversi per la prima pagina
 
-Come detto sopra, è anche possibile impostare una diversa intestazione o piè di pagina per la prima pagina. Per fare questo, è necessario impostare il [DifferentFirstPageHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getDifferentFirstPageHeaderFooter) da vedere `true` e poi specyfy il **HeaderFirst** o **FooterFirst** valore.
+Come detto sopra, puoi anche impostare un'intestazione o un piè di pagina diverso per la prima pagina. Per fare ciò, è necessario impostare il flag [DifferentFirstPageHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getDifferentFirstPageHeaderFooter) su `true` e quindi specificare il valore **HeaderFirst** o **FooterFirst**.
 
 Il seguente esempio di codice mostra come impostare l'intestazione solo per la prima pagina:
 
 {{< gist "aspose-words-gists" "58431f54e34e5597f8cbaf97481d5321" "different-first-page.java" >}}
 
-### Specificare Se visualizzare diverse intestazioni o piè di pagina per pagine Odd o anche
+### Specificare se visualizzare intestazioni o piè di pagina diversi per le pagine pari o dispari
 
- Successivamente, si desidera impostare diverse intestazioni o piè di pagina per pagine dispari e anche in un documento. Per fare questo, è necessario impostare il [OddAndEvenPagesHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getOddAndEvenPagesHeaderFooter) da vedere `true` e poi specyfy i valori **HeaderPrimary** e **HeaderEven**, o **FooterPrimary** e **FooterEven**.
+ Successivamente, dovrai impostare intestazioni o piè di pagina diversi per le pagine pari e dispari in un documento. Per fare ciò, è necessario impostare il flag [OddAndEvenPagesHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getOddAndEvenPagesHeaderFooter) su `true` e quindi specificare i valori **HeaderPrimary** e **HeaderEven** o **FooterPrimary** e **FooterEven**.
 
 {{< gist "aspose-words-gists" "58431f54e34e5597f8cbaf97481d5321" "odd-even-pages.java" >}}
 
-### Inserisci un Assolutamente posizionato Immagine nell'intestazione
+### Inserire un'immagine assolutamente posizionata nell'intestazione
 
-Per posizionare un'immagine in un'intestazione o un piè di pagina, utilizzare il **HeaderPrimary** tipo di intestazione o **FooterPrimary** tipo di piè di pagina e [InsertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte) metodo.
+Per inserire un'immagine in un'intestazione o in un piè di pagina, utilizzare il tipo di intestazione **HeaderPrimary** o il tipo di piè di pagina **FooterPrimary** e il metodo [InsertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte).
 
-Il seguente esempio di codice mostra come aggiungere un'immagine a un'intestazione:
+L'esempio di codice seguente mostra come aggiungere un'immagine a un'intestazione:
 
 {{< gist "aspose-words-gists" "58431f54e34e5597f8cbaf97481d5321" "insert-image.java" >}}
 
-### Impostare le proprietà del carattere e del paragrafo per l'intestazione o il testo del piè di pagina
+### Imposta le proprietà del carattere e del paragrafo per il testo dell'intestazione o del piè di pagina
 
-Con Aspose.Words è possibile impostare le proprietà del carattere e del paragrafo, utilizzare **HeaderPrimary** tipo di intestazione o **FooterPrimary** tipo di piè di pagina, così come metodi e proprietà per lavorare con i font e i paragrafi che si utilizza per l'organismo del documento.
+Con Aspose.Words è possibile impostare le proprietà font e paragrafo, utilizzare il tipo di intestazione **HeaderPrimary** o il tipo di piè di pagina **FooterPrimary**, nonché i metodi e le proprietà per lavorare con i font e i paragrafi utilizzati per il corpo del documento.
 
-Il seguente esempio di codice mostra come impostare il testo nell'intestazione ad Arial, grassetto, dimensione 14 e allineamento centrale:
+L'esempio di codice seguente mostra come impostare il testo nell'intestazione su Arial, grassetto, dimensione 14 e allineamento centrale:
 
 {{< gist "aspose-words-gists" "58431f54e34e5597f8cbaf97481d5321" "font-props.java" >}}
 
-### Inserisci numeri di pagina nell'intestazione o nel piè di pagina
+### Inserire i numeri di pagina nell'intestazione o nel piè di pagina
 
-Se necessario, è possibile aggiungere numeri di pagina all'intestazione o piè di pagina. Per fare questo, usare il **HeaderPrimary** tipo di intestazione o **FooterPrimary** tipo di piè di pagina e [InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) metodo per aggiungere il campo richiesto.
+Se necessario, è possibile aggiungere numeri di pagina all'intestazione o al piè di pagina. A tale scopo, utilizzare il tipo di intestazione **HeaderPrimary** o il tipo di piè di pagina **FooterPrimary** e il metodo [InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) per aggiungere il campo richiesto.
 
-Il seguente esempio di codice mostra come aggiungere i numeri di pagina al piè di pagina sulla destra:
+Il seguente esempio di codice mostra come aggiungere numeri di pagina al piè di pagina a destra:
 
 {{< gist "aspose-words-gists" "58431f54e34e5597f8cbaf97481d5321" "page-numbers.java" >}}
 
-### Utilizzare intestazioni o piè di pagina definiti nella sezione precedente
+### Utilizzare Intestazioni o piè di pagina definiti nella sezione precedente
 
-Se è necessario copiare l'intestazione o il piè di pagina dalla sezione precedente, è possibile farlo anche.
+Se hai bisogno di copiare l'intestazione o il piè di pagina dalla sezione precedente, puoi farlo anche tu.
 
 Il seguente esempio di codice mostra come copiare l'intestazione o il piè di pagina dalla sezione precedente:
 
 {{< gist "aspose-words-gists" "58431f54e34e5597f8cbaf97481d5321" "copy-headers-footers-from-previous-section.java" >}}
 
-### Assicurare l'aspetto intestazione o piè di pagina quando si utilizzano diverse Orientamenti di pagina e dimensione della pagina
+### Garantire l'aspetto dell'intestazione o del piè di pagina quando si utilizzano orientamenti e dimensioni della pagina diversi
 
-Aspose.Words consente di fornire l'aspetto di un intestazione o piè di pagina quando si utilizzano diversi orientamenti e dimensioni pagina.
+Aspose.Words consente di fornire l'aspetto di un'intestazione o di un piè di pagina quando si utilizzano orientamenti e dimensioni di pagina diverse.
 
-L'esempio seguente mostra come farlo:
+L'esempio seguente mostra come eseguire questa operazione:
 
 {{< gist "aspose-words-gists" "58431f54e34e5597f8cbaf97481d5321" "link-to-previous-header-footer.java" >}}
 
-## Come Rimuovere Solo Intestazioni o Solo Piedi
+## Come rimuovere solo intestazioni o solo piè di pagina
 
-Ogni sezione in un documento può avere fino a tre intestazioni e fino a tre piè di pagina (per prima, anche e pagine dispari). Se si desidera rimuovere tutte le intestazioni o tutti i piè di pagina in un documento, è necessario passare attraverso tutte le sezioni e rimuovere ogni nodo intestazione corrispondente o nodo piè di pagina.
+Ogni sezione di un documento può avere fino a tre intestazioni e fino a tre piè di pagina (per le pagine prime, pari e dispari). Se si desidera rimuovere tutte le intestazioni o tutti i piè di pagina in un documento, è necessario scorrere tutte le sezioni e rimuovere ogni nodo di intestazione o piè di pagina corrispondente.
 
-Il seguente esempio di codice mostra come rimuovere tutti i piè di pagina da tutte le sezioni, ma lasciare intatte le intestazioni. È possibile rimuovere solo intestazioni in modo simile:
+L'esempio di codice seguente mostra come rimuovere tutti i piè di pagina da tutte le sezioni ma lasciare intatte le intestazioni. È possibile rimuovere solo le intestazioni in modo simile:
 
 {{< gist "aspose-words-gists" "58431f54e34e5597f8cbaf97481d5321" "remove-footers.java" >}}
 
 {{% alert color="primary" %}}
 
-È possibile scaricare il file campione di questo esempio da [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Footer.docx).
+È possibile scaricare il file di esempio di questo esempio da [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Footer.docx).
 
 {{% /alert %}}

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Teks In'n Tabel
 second_title: Aspose.Words vir C++
 articleTitle: Werk Met Teks In'n Tabel
@@ -7,6 +7,7 @@ description: "Vervang teks in'n tabel in C++. Onttrek Gewone Teks Uit Tabel of S
 type: docs
 weight: 60
 url: /af/cpp/work-with-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Soos in vorige artikels genoem, bevat'n tabel gewoonlik gewone teks, hoewel ander inhoud soos beelde of selfs ander tabelle in tabel selle geplaas kan word.

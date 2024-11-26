@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk met'n Dokument Gemerk met'n Sensitiwiteitsetiket
 second_title: Aspose.Words vir .NET
 articleTitle: Werk met'n Dokument Gemerk met'n Sensitiwiteitsetiket
@@ -7,6 +7,7 @@ description: "Skakel Woord met toegepaste sensitiwiteitsetiket om na PDF met C#.
 type: docs
 weight: 30
 url: /af/net/work-with-document-market-by-sensitivity-label/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Sensitiwiteitsetikette van Microsoft Inligtingbeskerming Laat jou toe om jou organisasie se data te klassifiseer en te beskerm, terwyl jy seker maak dat gebruikersproduktiwiteit en hul vermoë om saam te werk nie belemmer word nie. Nadat'n sensitiwiteitsetiket op'n dokument aangebring is, word enige gekonfigureerde beskerminginstellings vir daardie etiket op die inhoud afgedwing.

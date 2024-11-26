@@ -1,4 +1,4 @@
-﻿---
+---
 title: Optionen und Aussehen von Word-Dokumenten
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit Optionen und Aussehen von Word-Dokumenten
@@ -7,6 +7,7 @@ description: "Steuern Sie das Erscheinungsbild von Word-Dokumenten unter Berück
 type: docs
 weight: 40
 url: /de/cpp/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal müssen Sie möglicherweise das Erscheinungsbild eines Dokuments ändern, z. B. Spracheinstellungen oder die Anzahl der Zeilen pro Seite festlegen.Aspose.Words bietet die Möglichkeit zu steuern, wie das Dokument angezeigt wird, sowie einige zusätzliche Optionen. Dieser Artikel beschreibt solche Möglichkeiten.

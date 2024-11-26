@@ -1,56 +1,57 @@
----
-title: VBA マクロでの作業 Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: VBA マクロを扱う
-linktitle: VBA マクロを扱う
-description: "ドキュメントVBAプロジェクトと連携 Javaお問い合わせ"
+﻿---
+title: Java内のVBAマクロの操作
+second_title: Aspose.WordsのためのJava
+articleTitle: VBAマクロの操作
+linktitle: VBAマクロの操作
+description: "Javaを使用してドキュメントVBAプロジェクトを操作します。"
 type: docs
 weight: 410
 url: /ja/java/working-with-vba-macros/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Visual Basic アプリケーション(VBA)用 Microsoft Word 機能性を拡張するために使用できるシンプルで強力なプログラミング言語です。 Aspose.Words API VBAプロジェクトソースコードにアクセスするための3つのクラスを提供しています。
+Visual BasicFor Applications(VBA)forMicrosoft Wordは、機能を拡張するために使用できるシンプルで強力なプログラミング言語です。 Aspose.WordsAPIは、VBAプロジェクトのソースコードにアクセスするための三つのクラスを提供します:
 
-- ザ・ [VBAProject](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/) VBAプロジェクト情報にアクセスできるクラス
-- ザ・ [VBAModulesCollection](https://reference.aspose.com/words/java/com.aspose.words/vbamodulecollection/) クラスは VBA プロジェクト モジュールのコレクションを返します
-- ザ・ [VbaModule](https://reference.aspose.com/words/java/com.aspose.words/vbamodule/) クラスは VBA プロジェクト モジュールへのアクセスを提供します
+- [VBAProject](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/)クラスはVBAプロジェクト情報へのアクセスを提供します
+- [VBAModulesCollection](https://reference.aspose.com/words/java/com.aspose.words/vbamodulecollection/)クラスはVBAプロジェクトモジュールのコレクションを返します
+- [VbaModule](https://reference.aspose.com/words/java/com.aspose.words/vbamodule/)クラスはVBAプロジェクトモジュールへのアクセスを提供します
 
-## VBAプロジェクトの作成
+## VBAプロジェクトを作成する
 
-Aspose.Words API 提供して下さい [VbaProject](https://reference.aspose.com/words/java/com.aspose.words/document/#getVbaProject) ドキュメントでVbaProjectを取得または設定するプロパティ。
+Aspose.WordsAPIは、文書内でVbaProjectを取得または設定する[VbaProject](https://reference.aspose.com/words/java/com.aspose.words/document/#getVbaProject)プロパティを提供します。
 
-以下のコード例では、VBAプロジェクトとVBAモジュールの基本的なプロパティー(例:VBAモジュール)を作成する方法を説明します。 名前およびタイプ:
+次のコード例は、VBAプロジェクトとVBAモジュールを、名前や型などの基本的なプロパティとともに作成する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithVbaMacros-CreateVbaProject.java" >}}
 
-## マクロを読む
+## マクロの読み取り
 
-Aspose.Words また、VBA マクロを読み込む機能もユーザーに提供します。
+Aspose.Wordsはまた、VBAマクロを読み取る機能をユーザーに提供します。
 
-次のコードの例では、VBA マクロをドキュメントから読み込む方法を示します。
+次のコード例は、ドキュメントからVBAマクロを読み取る方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithVbaMacros-ReadVbaMacros.java" >}}
 
-## マクロを修正
+## マクロの変更
 
-使用方法 Aspose.Words, ユーザーはVBAマクロを変更できます。
+Aspose.Wordsを使用すると、ユーザーはVBAマクロを変更できます。
 
-次のコード例では、VBA マクロの修正方法を示します。 [SourceCode](https://reference.aspose.com/words/java/com.aspose.words/vbamodule/#getSourceCode) プロパティ:
+次のコード例は、[SourceCode](https://reference.aspose.com/words/java/com.aspose.words/vbamodule/#getSourceCode)プロパティを使用してVBAマクロを変更する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithVbaMacros-ModifyVbaMacros.java" >}}
 
-## クローンVBA プロジェクト
+## クローンVBAプロジェクト
 
-と Aspose.Words VBAプロジェクトをクローンすることも可能です。
+Aspose.Wordsを使用すると、VBAプロジェクトを複製することもできます。
 
-次のコード例では、VBAプロジェクトをクローンする方法を説明します。 [Clone](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/#deepClone) 既存のプロジェクトのコピーを作成するプロパティ:
+次のコード例は、既存のプロジェクトのコピーを作成する[Clone](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/#deepClone)プロパティを使用してVBAプロジェクトを複製する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithVbaMacros-CloneVbaProject.java" >}}
 
-## クローンVBA モジュール
+## VBAモジュールのクローン
 
-必要に応じてVBAモジュールをクローンすることもできます。
+必要に応じてVBAモジュールを複製することもできます。
 
-次のコード例では、VBA モジュールのクローンを作成する方法を示します。 [Clone](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/#deepClone) 既存のプロジェクトのコピーを作成するプロパティ。
+次のコード例は、既存のプロジェクトのコピーを作成する[Clone](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/#deepClone)プロパティを使用してVBAモジュールを複製する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithVbaMacros-CloneVbaModule.java" >}}

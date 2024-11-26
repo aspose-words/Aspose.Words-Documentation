@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working With Tables in Python
 second_title: Aspose.Words for Java
 articleTitle: Working With Tables in Python
@@ -7,6 +7,7 @@ description: "Working With Tables using Python."
 type: docs
 weight: 100
 url: /java/working-with-tables-in-python/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Auto Fit Tables

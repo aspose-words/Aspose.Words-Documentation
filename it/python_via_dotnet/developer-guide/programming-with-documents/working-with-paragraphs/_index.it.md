@@ -7,6 +7,7 @@ description: "Inserisci il paragrafo e specifica la sua formattazione in un docu
 type: docs
 weight: 210
 url: /it/python-net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un paragrafo è un insieme di caratteri combinati in un blocco logico e che termina con un carattere speciale: un'*interruzione di paragrafo*. In Aspose.Words, un paragrafo è rappresentato dalla classe [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/).

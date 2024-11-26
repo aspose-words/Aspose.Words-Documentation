@@ -1,4 +1,4 @@
-﻿---
+---
 title: Voeg Velde in Java
 second_title: Aspose.Words vir Java
 articleTitle: Voeg By Velde
@@ -7,6 +7,7 @@ description: "Verskillende maniere om velde in u dokument in te voeg met Java."
 type: docs
 weight: 20
 url: /af/java/insert-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Daar is verskeie verskillende maniere om velde in'n dokument in te voeg:
@@ -103,7 +104,7 @@ Die volgende kode voorbeeld toon hoe om die `MERGE` veld te voeg met behulp van 
 
 ### Voeg Mail Merge `ADDRESSBLOCK` veld in'n Dokument met DOM
 
-Die `ADDRESSBLOCK` veld word gebruik om'n mail merge adres blok in'n Word dokument in te voeg. `ADDRESSBLOCK` veld in Word dokument kan verteenwoordig word deur die [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) klas. Jy kan **FieldAddressBlock** klas gebruik om die volgende bewerkings uit te voer:
+Die `ADDRESSBLOCK` veld word gebruik om'n Mail Merge adres blok in'n Word dokument in te voeg. `ADDRESSBLOCK` veld in Word dokument kan verteenwoordig word deur die [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) klas. Jy kan **FieldAddressBlock** klas gebruik om die volgende bewerkings uit te voer:
 
 - spesifiseer of die naam van die land/streek in die veld ingesluit moet word
 - spesifiseer of die adres geformateer moet word volgens die land/streek van die ontvanger soos gedefinieer deur POST*CODE (Universal Postal Union 2006)
@@ -145,7 +146,7 @@ Die `ASK` veld word gebruik om die gebruiker te vra vir teks om aan'n Boekmerk i
 
 - spesifiseer die naam van die boekmerk
 - spesifiseer verstek gebruiker reaksie (aanvanklike waarde vervat in die vinnige venster)
-- spesifiseer of die gebruiker se reaksie een keer per mail merge bewerking ontvang moet word
+- spesifiseer of die gebruiker se reaksie een keer per Mail Merge bewerking ontvang moet word
 - spesifiseer die vinnige teks (die titel van die vinnige venster)
 
 {{% alert color="primary" %}}

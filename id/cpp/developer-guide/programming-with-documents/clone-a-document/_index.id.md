@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mengkloning Dokumen dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Mengkloning Dokumen
@@ -7,6 +7,7 @@ type: docs
 description: "Kloning dokumen untuk mendapatkan salinannya yang identik menggunakan C++. Saat membuat salinan, simpul dan properti dari dokumen asli dikloning."
 weight: 70
 url: /id/cpp/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Mengkloning dokumen adalah proses membuat salinan identik dari dokumen asli, yang dapat meningkatkan kinerja dan menyelamatkan Anda dari potensi kebocoran memori.

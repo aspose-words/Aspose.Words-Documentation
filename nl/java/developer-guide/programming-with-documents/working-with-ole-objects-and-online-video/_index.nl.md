@@ -7,6 +7,7 @@ description: "OLE-inbedding in uw document aanmaken en wijzigen met Java."
 type: docs
 weight: 360
 url: /nl/java/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE staat voor "Object Linking and Embedding." Dit is de technologie waarmee gebruikers kunnen werken met documenten met "objecten" gemaakt of bewerkt door toepassingen van derden. Dat wil zeggen, OLE staat een applicatie toe om deze "objecten" te exporteren naar een andere applicatie voor het bewerken, en ze vervolgens terug te importeren met wat extra inhoud.

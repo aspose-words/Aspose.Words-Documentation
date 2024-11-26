@@ -1,67 +1,68 @@
----
-title: افتح الوثيقة Java
-second_title: Aspose.Words for Java
-articleTitle: افتح الوثيقة
-linktitle: افتح الوثيقة
-description: "اجعل وثيقتك تقرأ فقط حتى يمكن نسخ المحتوى أو قراءته، ولكن لا تعدل باستخدام Java."
+﻿---
+title: افتح مستندا للقراءة فقط في Java
+second_title: Aspose.Words ل Java
+articleTitle: افتح مستندا للقراءة فقط
+linktitle: افتح مستندا للقراءة فقط
+description: "اجعل المستند للقراءة فقط بحيث يمكن نسخ المحتوى أو قراءته، ولكن لا يمكن تعديله باستخدام Java."
 type: docs
 weight: 10
 url: /ar/java/open-a-document-read-only/
+timestamp: 2024-01-27-14-07-04
 ---
 
-في بعض الأحيان، قد يكون لديك وثيقة تحتاج إلى مراجعة، ولكن لا تريد أن يقوم المستعرضون بتعديل مضمونك عشوائيا. Aspose.Words يُمكِنُك أَنْ تَصْرفَ الأذنَ مِنْ وثيقتِكَ فقط لكي يَكُونَ المحتوىَ مُتَنسخَ أَو يَقْرأُ، لكن لَيسَ معدَّلَ. This will prevent content from being removed or added to your document.
+في بعض الأحيان، قد يكون لديك مستند يحتاج إلى مراجعة، لكنك لا تريد أن يقوم المراجعون بتعديل المحتوى الخاص بك بشكل عشوائي. Aspose.Words يسمح لك بإجراء إذن المستند للقراءة فقط بحيث يمكن نسخ المحتوى أو قراءته، ولكن لا يمكن تعديله. سيؤدي هذا إلى منع إزالة المحتوى أو إضافته إلى المستند الخاص بك.
 
 {{% alert color="primary" %}}
 
-إن تطبيق خيار القراءة فقط على وثيقتكم لا يحول دون قيام شخص ما بصنع نسخة جديدة منه وإنقاذه بإسم آخر.
+لا يمنع تطبيق خيار القراءة فقط على المستند الخاص بك أي شخص من إنشاء نسخة جديدة منه وحفظه باسم آخر.
 
 {{% /alert %}}
 
-وتوضح هذه المادة كيفية قراءة الوثيقة فقط.
+تشرح هذه المقالة كيفية جعل المستند للقراءة فقط.
 
-## قم بقراءة الوثيقة فقط
+## جعل وثيقة للقراءة فقط
 
-Aspose.Words لديه الطبقة العامة [WriteProtection](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/) الذي يُحدّدُ يَكْتبُ بيئاتَ حمايةِ لa وثيقة. أنت لا تخلق حالات من هذا الفصل مباشرة
+Aspose.Words يحتوي على الفئة العامة [WriteProtection](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/) التي تحدد إعدادات الحماية ضد الكتابة للمستند. لا تقم بإنشاء مثيلات من هذه الفئة مباشرة.
 
-وتبيّن الحماية من الكتابة ما إذا كان صاحب البلاغ قد أوصى بفتح وثيقة قراءتها فقط و/أو اشتراط كلمة سر لتعديل الوثيقة.
+تظهر الحماية ضد الكتابة ما إذا كان المؤلف قد أوصى بفتح مستند للقراءة فقط و/أو طلب كلمة مرور لتعديل المستند.
 
-Aspose.Words يسمح لك بكتابة وثيقة فقط لتقييد التحرير باستخدام [ReadOnlyRecommended](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/#getReadOnlyRecommended) الممتلكات والممتلكات [SetPassword](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/#setPassword-java.lang.String) طريقة
+Aspose.Words يسمح لك لجعل وثيقة للقراءة فقط لتقييد التحرير باستخدام الخاصية [ReadOnlyRecommended](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/#getReadOnlyRecommended) وطريقة [SetPassword](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/#setPassword-java.lang.String).
 
 {{% alert color="primary" %}}
 
-In Microsoft Word, يمكنك أن تخلق وثيقة (ريد أونلي) بطريقة مشابهة باستخدام كلاهما:
+في Microsoft Word، يمكنك إنشاء مستند للقراءة فقط بطريقة مماثلة باستخدام كليهما:
 
-* " Always Open Read-Only " (File ) Info ) Protect Document)
-* "كلمة للتعديل" (ستيف كويس)
+* "افتح دائما للقراءة فقط" (ملف Info معلومات Protect حماية المستند)
+* "كلمة المرور للتعديل" (حفظ باسم Tools أدوات Options خيارات عامة Password كلمة المرور)
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-ويمكن للمستعملين أيضا أن يقيدوا تحرير الوثائق باختيارهم [ProtectionType](https://reference.aspose.com/words/java/com.aspose.words/protectiontype/) as **ReadOnly**, ولكن هذه ميزة أخرى توفر قدرات حماية أكثر تقدما. هناك مثل هذه الوظيفة Microsoft Word, على التوالي، يتم تنفيذه Aspose.Words.
+يمكن للمستخدمين أيضا تقييد تحرير المستندات عن طريق تحديد [ProtectionType](https://reference.aspose.com/words/java/com.aspose.words/protectiontype/) كـ **ReadOnly**، ولكن هذه ميزة أخرى توفر إمكانات حماية أكثر تقدما. توجد مثل هذه الوظيفة في Microsoft Word، على التوالي، يتم تنفيذها في Aspose.Words.
 
-**ProtectionType** وسوف يوصف بالتفصيل في إحدى المواد التالية - " الوثيقة الصارمة ".
+**ProtectionType**
 
 {{% /alert %}}
 
-The **ReadOnlyRecommended** الملكية مؤمنة بكلمة سر لذا إذا لم تضع كلمة سر قبل تطبيق **ReadOnlyRecommended** ويمكن للمستعملين الآخرين أن يفتحوا الوثيقة ببساطة كما لو كانت غير محمية. تَصِلُ إلى أماكنِ حمايةِ الوثائقِ وتَضِعُ كلمةَ مرور حمايةِ مكتوبةِ عبر **SetPassword** طريقة
+الخاصية **ReadOnlyRecommended** مؤمنة بكلمة مرور، لذلك إذا لم تقم بتعيين كلمة مرور قبل تطبيق الخاصية **ReadOnlyRecommended**، فيمكن للمستخدمين الآخرين ببساطة فتح المستند كما لو كان غير محمي. يمكنك الوصول إلى إعدادات حماية المستند وتعيين كلمة مرور حماية الكتابة عبر طريقة **SetPassword**.
 
 {{% alert color="primary" %}}
 
-Note that the password being set is just a property in a document that can be removed if the document properties are accessed. وعليه، فإن كلمة السر هذه ليست ضمانا لأمن الوثيقة.
+لاحظ أن كلمة المرور التي يتم تعيينها هي مجرد خاصية في مستند يمكن إزالتها إذا تم الوصول إلى خصائص المستند. وفقا لذلك، فإن كلمة المرور هذه ليست ضمانا لأمن المستند.
 
 {{% /alert %}}
 
-إذا كنت بحاجة إلى التحقق إذا كان المستند له كلمة مرور حماية مكتوبة التي تقيده من التحرير، يمكنك استخدام [IsWriteProtected](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/#isWriteProtected) ملكية
+إذا كنت بحاجة إلى التحقق مما إذا كان المستند يحتوي على كلمة مرور حماية ضد الكتابة تمنعه من التحرير، فيمكنك استخدام خاصية [IsWriteProtected](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/#isWriteProtected).
 
-ويبين المثال الرمزي التالي كيفية قراءة الوثيقة فقط:
+يوضح مثال الكود التالي كيفية جعل المستند للقراءة فقط:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-ReadOnlyProtection.java" >}}
 
-## Remove Read-Only Restriction
+## إزالة قيود القراءة فقط
 
-إذا كنت لا تريد مستعمل لفتح وثيقتك فقط، يمكنك ببساطة وضع **ReadOnlyRecommened** الممتلكات إلى *false* أو اختيار **ProtectionType** as **NoProtection**.
+إذا كنت لا تريد أن يفتح المستخدم المستند الخاص بك للقراءة فقط، فيمكنك ببساطة تعيين الخاصية **ReadOnlyRecommened** إلى *false* أو تحديد **ProtectionType** باسم **NoProtection**.
 
-ويبيّن المثال الرمزي التالي كيفية إزالة الاطلاع فقط على الوثيقة:
+يوضح مثال التعليمات البرمجية التالية كيفية إزالة الوصول للقراءة فقط للمستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-RemoveReadOnlyRestriction.java" >}}

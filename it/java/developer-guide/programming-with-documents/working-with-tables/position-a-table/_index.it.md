@@ -1,78 +1,79 @@
----
-title: Posizione della tabella Java
+﻿---
+title: Posizione della tabella in Java
 second_title: Aspose.Words per Java
 articleTitle: Posizionare una tabella
 linktitle: Posizionare una tabella
-description: "Specificare la posizione della tabella in Java. Ottieni un allineamento della tabella, ottieni e imposta la posizione della tabella galleggiante utilizzando Java."
+description: "Specificare la posizione della tabella in Java. Ottenere un allineamento della tabella, ottenere e impostare la posizione della tabella mobile utilizzando Java."
 type: docs
 weight: 50
 url: /it/java/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ci sono tavoli galleggianti e tavoli in linea:
 
-* # **Tabelle in linea** sono posizionati sullo stesso strato del testo e sono collocati in un flusso di testo che circonda solo la tabella sopra e sotto. Le tabelle in linea compariranno sempre tra i paragrafi in cui le hai poste.
-* # **Tavoli galleggianti** sono sovrapposti al testo, e la posizione della tabella relativa al paragrafo è determinata dall'ancoraggio della tabella. A causa di questo, la posizione della tabella galleggiante nel documento è influenzata dalle impostazioni di posizionamento verticali e orizzontali.
+* **Inline tables** sono posizionati sullo stesso livello del testo e sono collocati in un flusso di testo che circonda solo la tabella sopra e sotto. Le tabelle in linea verranno sempre visualizzate tra i paragrafi in cui sono state inserite.
+* **Floating tables** sono sovrapposti sul testo e la posizione della tabella rispetto al paragrafo è determinata dall'ancoraggio della tabella. Per questo motivo, la posizione della tabella mobile nel documento è influenzata dalle impostazioni di posizionamento verticale e orizzontale.
 
-A volte è necessario posizionare una tabella in un documento in un certo modo. Per fare questo, è necessario utilizzare gli strumenti di allineamento e impostare i rientri tra la tabella e il testo circostante.
+A volte è necessario posizionare una tabella in un documento in un certo modo. Per fare ciò, è necessario utilizzare gli strumenti di allineamento e impostare i rientri tra la tabella e il testo circostante.
 
-In questo articolo, discuteremo quali opzioni Aspose.Words fornisce il posizionamento.
+In questo articolo, discuteremo quali opzioni Aspose.Words fornisce per il posizionamento.
 
-## Specificare posizione tabella in linea
+## Specificare la posizione della tabella in linea
 
-È possibile impostare la posizione di una tabella in linea utilizzando il Aspose.Words API e il [Alignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getAlignment) proprieta'. Così, è possibile regolare l'allineamento della tabella rispetto alla pagina del documento.
+È possibile impostare la posizione di una tabella in linea utilizzando le proprietà Aspose.Words API e [Alignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getAlignment). Pertanto, è possibile regolare l'allineamento della tabella rispetto alla pagina del documento.
 
-Il seguente esempio di codice mostra come impostare la posizione di una tabella inline:
+L'esempio di codice seguente mostra come impostare la posizione di una tabella in linea:
 
 {{< gist "aspose-words-gists" "0f235c484e5edae70a542ebdaae40fd8" "inline-table-position.java" >}}
 
-## Ottenere Allineamento Tabella Floating
+## Ottieni l'allineamento della tabella mobile
 
-Se l'involucro del testo della tabella è impostato su **Around**, è possibile ottenere l'allineamento orizzontale e verticale del tavolo utilizzando il [RelativeHorizontalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeHorizontalAlignment) e [RelativeVerticalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeVerticalAlignment) proprietà.
+Se il testo della tabella è impostato su **Around**, è possibile ottenere l'allineamento orizzontale e verticale della tabella utilizzando le proprietà [RelativeHorizontalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeHorizontalAlignment) e [RelativeVerticalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeVerticalAlignment).
 
-Con **altri tipi di imballaggio di testo**, è possibile ottenere allineamento tabella in linea utilizzando **Alignment** proprieta'.
+Con **other types of text wrapping**, è possibile ottenere l'allineamento della tabella in linea utilizzando la proprietà **Alignment**.
 
 Il seguente esempio di codice mostra come ottenere l'allineamento della tabella:
 
 {{< gist "aspose-words-gists" "0f235c484e5edae70a542ebdaae40fd8" "get-table-position.java" >}}
 
-## Ottenere Posizione Tabella Floating
+## Ottieni la posizione della tabella mobile
 
- La posizione di un tavolo galleggiante è determinata utilizzando le seguenti proprietà:
+ La posizione di una tabella mobile viene determinata utilizzando le seguenti proprietà:
 
-* # [HorizontalAnchor](https://reference.aspose.com/words/java/com.aspose.words/table/#getHorizontalAnchor) – un oggetto per il calcolo del posizionamento orizzontale di un tavolo galleggiante
-* # [VerticalAnchor](https://reference.aspose.com/words/java/com.aspose.words/table/#getVerticalAnchor) – un oggetto per il calcolo del posizionamento verticale di un tavolo galleggiante
-* # [AbsoluteHorizontalDistance](https://reference.aspose.com/words/java/com.aspose.words/table/#getAbsoluteHorizontalDistance) – posizione tavolo galleggiante orizzontale assoluta
-* # [AbsoluteVerticalDistance](https://reference.aspose.com/words/java/com.aspose.words/table/#getAbsoluteVerticalDistance) – posizione tavolo galleggiante verticale assoluta
-* # [AllowOverlap](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowOverlap) – opzione per abilitare/disattivare la sovrapposizione con altri oggetti galleggianti
-* # [RelativeHorizontalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeHorizontalAlignment) – tavolo galleggiante relativo allineamento orizzontale.
-* # [RelativeVerticalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeVerticalAlignment) – tavolo galleggiante relativo allineamento verticale.
+* [HorizontalAnchor](https://reference.aspose.com/words/java/com.aspose.words/table/#getHorizontalAnchor) - un oggetto per calcolare il posizionamento orizzontale di una tabella mobile
+* [VerticalAnchor](https://reference.aspose.com/words/java/com.aspose.words/table/#getVerticalAnchor) - un oggetto per calcolare il posizionamento verticale di una tavola mobile
+* [AbsoluteHorizontalDistance](https://reference.aspose.com/words/java/com.aspose.words/table/#getAbsoluteHorizontalDistance) - posizione assoluta della tavola mobile orizzontale
+* [AbsoluteVerticalDistance](https://reference.aspose.com/words/java/com.aspose.words/table/#getAbsoluteVerticalDistance) - posizione assoluta della tavola mobile verticale
+* [AllowOverlap](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowOverlap) - opzione per abilitare / disabilitare la sovrapposizione con altri oggetti mobili
+* [RelativeHorizontalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeHorizontalAlignment) – allineamento orizzontale relativo della tabella mobile.
+* [RelativeVerticalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeVerticalAlignment) – allineamento verticale relativo della tabella mobile.
 
-Il seguente esempio di codice mostra come ottenere la posizione di un tavolo galleggiante:
+Il seguente esempio di codice mostra come ottenere la posizione di una tabella mobile:
 
 {{< gist "aspose-words-gists" "0f235c484e5edae70a542ebdaae40fd8" "get-floating-table-position.java" >}}
 
-## Set Posizione tavola galleggiante
+## Imposta la posizione della tavola mobile
 
-Proprio come ottenere, è possibile impostare la posizione di un tavolo galleggiante utilizzando lo stesso Aspose.Words API.
+Proprio come ottenere, puoi impostare la posizione di una tabella mobile usando lo stesso Aspose.Words API.
 
-È importante sapere che l'allineamento e la distanza orizzontale e verticale sono proprietà combinate e si può resettare l'altro. Ad esempio, impostare il **RelativeHorizontalAlignment** resetterà il **AbsoluteHorizontalDistance** al suo valore predefinito e viceversa. Lo stesso è true per la disposizione verticale.
+È importante sapere che l'allineamento e la distanza orizzontale e verticale sono proprietà combinate e una può reimpostare l'altra. Ad esempio, l'impostazione di **RelativeHorizontalAlignment** ripristinerà il valore predefinito di **AbsoluteHorizontalDistance** e viceversa. Lo stesso vale per la disposizione verticale.
 
-Il seguente esempio di codice mostra come impostare la posizione di una tabella galleggiante:
+Il seguente esempio di codice mostra come impostare la posizione di una tabella mobile:
 
 {{< gist "aspose-words-gists" "0f235c484e5edae70a542ebdaae40fd8" "floating-table-position.java" >}}
 
 {{< gist "aspose-words-gists" "0f235c484e5edae70a542ebdaae40fd8" "relative-horizontal-or-vertical-position.java" >}}
 
-## Ottenere Distanza tra tabella e testo circostante
+## Ottieni la distanza tra la tabella e il testo circostante
 
-Aspose.Words offre anche l'opportunità di scoprire le distanze tra tavoli e testi circostanti:
+Aspose.Words offre anche l'opportunità di scoprire le distanze tra le tabelle e i testi circostanti:
 
-- No. [DistanceTop](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceTop) – il valore della distanza dall'alto
-- No. [DistanceBottom](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceBottom) – il valore della distanza della percezione
-- No. [DistanceRight](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceRight) – valore della distanza a destra
-- No. [DistanceLeft](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceLeft) – valore della distanza a sinistra
+- [DistanceTop](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceTop) - il valore della distanza dall'alto
+- [DistanceBottom](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceBottom) - il valore della distanza di percezione
+- [DistanceRight](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceRight) - valore della distanza a destra
+- [DistanceLeft](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceLeft) - valore della distanza a sinistra
 
-Il seguente esempio di codice mostra come ottenere la distanza tra una tabella e il suo testo circostante:
+L'esempio di codice seguente mostra come ottenere la distanza tra una tabella e il testo circostante:
 
 {{< gist "aspose-words-gists" "0f235c484e5edae70a542ebdaae40fd8" "distance-between-table-surrounding-text.java" >}}

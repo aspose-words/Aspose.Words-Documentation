@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中使用Markdown特性
 second_title: Aspose.Words对于C++
 articleTitle: 使用Markdown功能
@@ -7,6 +7,7 @@ description: "如何使用C++实现Markdown功能。 所有功能都表示为相
 type: docs
 weight: 420
 url: /zh/cpp/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 本主题讨论如何使用Aspose.Words实现Markdown功能。 Markdown是格式化纯文本的简单方法，可以轻松转换为HTML。 Aspose.Words支持以下Markdown功能:

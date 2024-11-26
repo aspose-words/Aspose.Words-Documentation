@@ -7,6 +7,7 @@ description: "Verfolgen Sie mithilfe von Python Änderungen an Inhalten und Form
 type: docs
 weight: 270
 url: /de/python-net/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Mit der Funktion zum Verfolgen von Änderungen, auch Überprüfung genannt, können Sie von Ihnen oder anderen Benutzern vorgenommene Änderungen an Inhalten und Formatierungen nachverfolgen. Diese Funktion zum Verfolgen von Änderungen mit Aspose.Words unterstützt das Verfolgen von Änderungen in Microsoft Word. Mit dieser Funktionalität können Sie auf einzelne Revisionen in Ihrem Dokument zugreifen und ihnen verschiedene Eigenschaften zuweisen.

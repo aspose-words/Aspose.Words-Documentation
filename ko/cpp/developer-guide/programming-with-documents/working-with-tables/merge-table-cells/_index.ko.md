@@ -1,4 +1,4 @@
-﻿---
+---
 title: 테이블 셀 병합 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 테이블 셀 병합
@@ -7,6 +7,7 @@ description: "테이블 셀을 병합하는 방법 C++. 테이블의 셀이 다�
 type: docs
 weight: 40
 url: /ko/cpp/merge-table-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 때때로 테이블의 특정 행에는 표의 전체 너비를 차지하는 제목이나 큰 텍스트 블록이 필요합니다. 테이블의 적절한 디자인을 위해 사용자는 여러 테이블 셀을 하나로 병합 할 수 있습니다. Aspose.Words 가져오기를 포함한 모든 입력 형식으로 작업할 때 병합된 셀 지원 HTML 내용

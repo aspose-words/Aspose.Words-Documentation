@@ -7,6 +7,7 @@ type: docs
 description: "Gunakan Aspose.Words Document Object Model kelas untuk membuat programmatically, memodifikasi, dan mengelola dokumen dengan JavaSitemap Bekerja dengan sifat dokumen, pengaturan, dan konten, serta dengan tampilan dokumen melalui manajemen warna, bentuk, font dan grafik lainnya."
 weight: 340
 url: /id/java/programming-with-documents/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Bagian ini memberikan informasi tentang cara membuat programmatically, memodifikasi, dan mengelola dokumen dengan Aspose.Words Document Object Model kelas. Artikel di bagian ini menjelaskan berbagai tugas manipulasi dokumen yang memungkinkan Anda untuk bekerja dengan sifat dokumen, pengaturan, konten, dan elemennya.

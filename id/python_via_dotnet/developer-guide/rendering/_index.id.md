@@ -7,6 +7,7 @@ description: "Gunakan fitur rendering Aspose.Words untuk Python via .NET untuk m
 type: docs
 weight: 20
 url: /id/python-net/rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Kami menggunakan istilah "rendering" di Aspose.Words untuk menggambarkan proses konversi dokumen ke dalam format file atau media yang diberi halaman atau memiliki konsep halaman. Kita berbicara tentang rendering dokumen menjadi beberapa halaman. Diagram berikut menunjukkan rendering apa yang ada di Aspose.Words.

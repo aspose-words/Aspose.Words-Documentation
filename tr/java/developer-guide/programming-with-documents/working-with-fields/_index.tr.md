@@ -7,9 +7,10 @@ description: "Alan özelliğine giriş Aspose.Words için Java."
 type: docs
 weight: 370
 url: /tr/java/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
-**Fields** bir belgedeki boşluklar, yararlı verilerin yerleştirilebileceği yerlerdir. Örneğin, bir alan sayfa referansı, formül veya bir mail merge alanı olabilir.
+**Fields** bir belgedeki boşluklar, yararlı verilerin yerleştirilebileceği yerlerdir. Örneğin, bir alan sayfa referansı, formül veya bir Mail Merge alanı olabilir.
 
 Bir belge Aspose.Words kullanılarak oluşturulmuş ya da düzenlenmişse, örneğin bir Microsoft Word belgesinde, bir alan bir alan kodu ve alan sonucundan oluşur. Alan kodu, alan sonucunun nasıl güncellenmesi veya hesaplanması gerektiği konusunda bir talimattır. Bir belgeyi işleyen bir uygulama, bir alanda karşılaşırsa, alan kodundaki talimatları yorumlamalı ve alan sonucunu yeni bir değerle güncellemelidir.
 

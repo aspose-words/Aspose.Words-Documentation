@@ -1,4 +1,4 @@
-﻿---
+---
 title: Gestruktureerde Dokument Etikette
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Gestruktureerde Dokument Etikette of Inhoud Beheer
@@ -7,6 +7,7 @@ description: "Insluit kliënt-gedefinieerde semantiek sowel as sy gedrag en voor
 type: docs
 weight: 50
 url: /af/python-net/structured-document-tags-or-content-control/
+timestamp: 2024-01-31-14-23-37
 ---
 
 

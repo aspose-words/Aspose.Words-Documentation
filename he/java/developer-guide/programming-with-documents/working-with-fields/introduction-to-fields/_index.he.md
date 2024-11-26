@@ -7,6 +7,7 @@ description: "שדות תכונה בפרטים, קודי שדה ותוצאות �
 type: docs
 weight: 10
 url: /he/java/introduction-to-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words היא ספריית כיתה המיועדת לעיבוד לצד השרת של Microsoft Word מסמכים ותומכים בתחומים בדרכים הבאות:
@@ -36,7 +37,7 @@ Aspose.Words היא ספריית כיתה המיועדת לעיבוד לצד ה�
 
 ## שדות Aspose.Words Document Object Model ()DOM)
 
-כאשר מסמך טעון <span notrans="<span notrans=" Aspose.Words"=""></span>" שדות המסמך טעונים לתוך Aspose.Words Document Object Model קבוצה של רכיבים נפרדים (nodes). שדה אחד טעון כאוסף של **FieldStart**, **FieldSeparator** ו **FieldEnd** יחד עם התוכן בין נקודות אלה. אם לשדה אין תוצאה של שדה אז לא יהיה **FieldSeparator** צומת. כל הצמתים האלה תמיד נמצאים בקו הפנימי (כילדים של [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) או [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/).
+כאשר מסמך טעון Aspose.Words שדות המסמך טעונים לתוך Aspose.Words Document Object Model קבוצה של רכיבים נפרדים (nodes). שדה אחד טעון כאוסף של **FieldStart**, **FieldSeparator** ו **FieldEnd** יחד עם התוכן בין נקודות אלה. אם לשדה אין תוצאה של שדה אז לא יהיה **FieldSeparator** צומת. כל הצמתים האלה תמיד נמצאים בקו הפנימי (כילדים של [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) או [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/).
 
 In In In Aspose.Words כל אחד **FieldXXX** צמתים נובעים [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/). מעמד זה מספק נכס לבדוק את סוג השדה המיוצג על ידי הצומת שצוין דרך הצומת שצוין. [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) רכוש. לדוגמא `FieldType.FieldMergeField` מייצג שדה מיזוג במסמך.
 
@@ -173,9 +174,9 @@ Aspose.Words תומך בכל מתגי התאריך והשעה הזמינים Mic
 
 ### Mail Merge שדות תעופה
 
-Aspose.Words אין הגבלה על המורכבות של mail merge שדות במסמכים שלך ותומכת קינון `IF` שדות פורמולה ואפילו יכולים לחשב את שם השדה המיזוג באמצעות נוסחה.
+Aspose.Words אין הגבלה על המורכבות של Mail Merge שדות במסמכים שלך ותומכת קינון `IF` שדות פורמולה ואפילו יכולים לחשב את שם השדה המיזוג באמצעות נוסחה.
 
-כמה דוגמאות mail merge שדות Aspose.Words תמיכה:
+כמה דוגמאות Mail Merge שדות Aspose.Words תמיכה:
 
 - - Mail merge מתגי שדה:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -222,6 +223,6 @@ ExAMPLE (שימוש בחתלתף הציבורי הנוכחי של ה-ThreadSetti
 
 The The The [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) הכיתה מספקת [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/document/#getFieldOptions) רכוש המכיל חברים אשר ניתן להשתמש כדי לשלוט כיצד שדות מעודכנים בתוך המסמך.
 
-הדוגמה הבאה של הקוד מראה כיצד לציין היכן התרבות המשמשת לפורמט תאריך במהלך עדכון שדה ועדכונים. mail merge נבחר מתוך:
+הדוגמה הבאה של הקוד מראה כיצד לציין היכן התרבות המשמשת לפורמט תאריך במהלך עדכון שדה ועדכונים. Mail Merge נבחר מתוך:
 
 ExAMPLE

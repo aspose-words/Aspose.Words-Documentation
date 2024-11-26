@@ -7,6 +7,7 @@ description: "Créez et gérez des tableaux dans un document à l'aide de Python
 type: docs
 weight: 10
 url: /fr/python-net/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words permet aux utilisateurs de créer des tableaux dans un document à partir de zéro et propose plusieurs méthodes différentes pour ce faire. Cet article présente des détails sur la façon d'ajouter des tableaux formatés à votre document à l'aide de chaque méthode, ainsi qu'une comparaison de chaque méthode à la fin de l'article.

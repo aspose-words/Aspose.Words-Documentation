@@ -7,6 +7,7 @@ description: "C#'te alan kodu ve alan sonucu gibi bazı alan özellikleri nasıl
 type: docs
 weight: 25
 url: /tr/net/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/insertfield/) kullanılarak eklenen alan bir [Field](https://reference.aspose.com/words/tr/net/aspose.words.fields/field/) nesnesi döndürür. Bu, bir alanın bazı özelliklerini hızla bulmak için kullanışlı yöntemler sağlayan bir cephe sınıfıdır.

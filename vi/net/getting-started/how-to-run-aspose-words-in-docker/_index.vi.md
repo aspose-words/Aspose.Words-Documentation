@@ -7,6 +7,7 @@ type: docs
 description: "Tích hợp chức năng Aspose.Words vào ứng dụng của bạn bằng Docker bất kể công nghệ nào trong nhóm phát triển của bạn. Tìm hiểu cách sử dụng Aspose .Words trong vùng chứa Docker trong C#."
 weight: 120
 url: /vi/net/how-to-run-aspose-words-in-docker/
+timestamp: 2024-08-19-11-05-36
 ---
 
 Microservice kết hợp với container hóa giúp dễ dàng kết hợp các công nghệ. Docker cho phép bạn dễ dàng tích hợp chức năng Aspose.Words vào ứng dụng của mình, bất kể công nghệ nào trong nhóm phát triển của bạn.
@@ -32,7 +33,7 @@ Trong ví dụ này, bạn tạo một ứng dụng bảng điều khiển Hello
 ![net-console-application](https://lh5.googleusercontent.com/PArWoC8_leOnhtaF-5BMb3b4jHwI3G03WoyMK3bXZpsQKN50YzvEQBwoRniyCWKIcdR0EZGuwn3S8Z0ZK6FQ4cjMSWgH3CwSqReW4bMt-3OjZjrdt9yuWbkMdhyNjwwaaYPC5Ylr)<br>
 1. Cài đặt phiên bản Aspose.Words mới nhất từ NuGet. SkiaSharp sẽ được cài đặt dưới dạng phần phụ thuộc của Aspose.Words.<br>
 ![skiasharp-dependency](https://lh3.googleusercontent.com/zWpvB5TLahC_OpJrHDML2131Vj_VK1vryTZBd_C3ZeOBdoUOc2vF_axEvwu9tytaL1maJv3qA2KoyP5fn7ae4_3cL23sXyoLoVysjgu8XEp6l0B2w5hgR9teh95_9mFd9X-4DGNN)<br>
-1. Vì ứng dụng sẽ chạy trên Linux nên nội dung Linux gốc thích hợp phải được cài đặt. Bắt đầu với hình ảnh cơ sở Debian và cài đặt `SkiaSharp.NativeAssets`.Linux.
+1. Vì ứng dụng sẽ chạy trên Linux nên nội dung Linux gốc thích hợp phải được cài đặt. Bắt đầu với hình ảnh cơ sở Debian và cài đặt `SkiaSharp.NativeAssets.Linux`.
 1. Khi tất cả các phần phụ thuộc cần thiết đã được thêm vào, hãy viết một chương trình đơn giản tạo ra câu "Xin chào thế giới!" tài liệu và lưu nó ở tất cả các định dạng lưu được hỗ trợ:<br>
 
 {{< gist "aspose-words-gists" "47e15ad749897be465deebc2ff3e76dd" "aspose-words-docker.cs" >}}

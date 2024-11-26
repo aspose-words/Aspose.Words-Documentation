@@ -1,4 +1,4 @@
-﻿---
+---
 title: Sesuaikan Properti Bidang di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Sesuaikan Properti Bidang
@@ -7,6 +7,7 @@ description: "Pelajari cara menyesuaikan properti bidang di C++. Ganti nama bida
 type: docs
 weight: 27
 url: /id/cpp/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words menyediakan kemampuan untuk berinteraksi secara terprogram dengan berbagai properti bidang. Pada artikel ini, kita akan melihat beberapa contoh sehingga Anda memahami prinsip dasar bekerja dengan properti bidang. Anda dapat melihat daftar lengkap properti untuk setiap jenis bidang di kelas terkait di [Fields namespace](https://reference.aspose.com/words/cpp/namespace/aspose.words.fields).

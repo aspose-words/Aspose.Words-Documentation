@@ -1,4 +1,4 @@
-﻿---
+---
 title: Работа со сносками и концевыми примечаниями в C++
 second_title: Aspose.Words для C++
 articleTitle: Работа со сносками и заключением
@@ -7,6 +7,7 @@ description: "Как манипулировать сносками и конце
 type: docs
 weight: 160
 url: /ru/cpp/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words также предоставляет некоторые классы, методы и свойства для работы со сносками и концевыми примечаниями.

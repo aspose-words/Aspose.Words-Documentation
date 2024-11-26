@@ -1,19 +1,20 @@
----
-title: Compare Documentos em Java
+﻿---
+title: Comparar documentos em Java
 second_title: Aspose.Words para Java
-articleTitle: Comparar documentos
-linktitle: Comparar documentos
+articleTitle: Comparar Documentos
+linktitle: Comparar Documentos
 type: docs
-description: "Compare dois documentos em qualquer formato suportado e mostre alterações de conteúdo. Você pode aplicar opções avançadas ao comparar usando Java."
+description: "Compare dois documentos em qualquer formato suportado e mostre as alterações de conteúdo. Você pode aplicar opções avançadas ao comparar usando Java."
 weight: 60
 url: /pt/java/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Comparar documentos é um processo que identifica mudanças entre dois documentos e contém as mudanças como revisões. Este processo compara quaisquer dois documentos, incluindo versões de um documento específico, então as alterações entre ambos os documentos serão mostradas como revisões no primeiro documento.
+A comparação de documentos é um processo que identifica as alterações entre dois documentos e contém as alterações como revisões. Este processo compara quaisquer dois documentos, incluindo versões de um documento específico, e as alterações entre ambos os documentos serão apresentadas como revisões no primeiro documento.
 
-O método de comparação é alcançado comparando palavras no nível do personagem ou no nível da palavra. Se uma palavra contém uma mudança de pelo menos um caractere, no resultado, a diferença será exibida como uma mudança de toda a palavra, não um caracter. Este processo de comparação é uma tarefa habitual nas indústrias jurídicas e financeiras.
+O método de comparação é obtido comparando palavras no nível do caractere ou no nível da palavra. Se uma palavra contiver uma mudança de pelo menos um caractere, no resultado, a diferença será exibida como uma mudança da palavra inteira, não como um caractere. Este processo de comparação é uma tarefa habitual nos sectores jurídico e financeiro.
 
-Em vez de procurar manualmente diferenças entre documentos ou entre diferentes versões deles, você pode usar Aspose.Words para comparar documentos e obter alterações de conteúdo na formatação, cabeçalho / rodapé, tabelas e muito mais.
+Em vez de procurar manualmente diferenças entre documentos ou entre diferentes versões deles, pode utilizar Aspose.Words para comparar documentos e obter alterações de conteúdo na formatação, cabeçalho/rodapé, tabelas e muito mais.
 
 Este artigo explica como comparar documentos e como especificar propriedades de comparação avançadas.
 
@@ -21,49 +22,49 @@ Este artigo explica como comparar documentos e como especificar propriedades de 
 
 **Experimente online**
 
-Você pode comparar dois documentos online usando o [Comparação de documentos online](https://products.aspose.app/words/comparison) ferramenta.
+Você pode comparar dois documentos on-line usando o [Comparação de documentos online](https://products.aspose.app/words/comparison) ferramenta.
 
-Note que o método de comparação, descrito abaixo, é usado nesta ferramenta para garantir a obtenção de resultados iguais. Então você terá os mesmos resultados, mesmo usando a ferramenta de comparação on-line ou usando o método de comparação em Aspose.Words.
+Note-se que o método de comparação, descrito a seguir, é utilizado nesta ferramenta para garantir a obtenção de resultados iguais. Assim, você obterá os mesmos resultados, mesmo usando a ferramenta de comparação on-line ou usando o método de comparação em Aspose.Words.
 
 {{% /alert %}}
 
-## Limitações e formatos de arquivo suportados {#limitations-and-supported-file-formats}
+## Limitações e formatos de ficheiro suportados {#limitations-and-supported-file-formats}
 
-Comparar documentos é uma característica muito complexa. Existem várias partes da combinação de conteúdo que precisam ser analisadas para reconhecer todas as diferenças. A razão para esta complexidade é porque Aspose.Words visa obter os mesmos resultados de comparação como o Microsoft Word algoritmo de comparação.
+A comparação de documentos é uma característica muito complexa. Existem várias partes da combinação de conteúdo que precisam ser analisadas para reconhecer todas as diferenças. A razão para esta complexidade é porque Aspose.Words visa obter os mesmos resultados de comparação que o algoritmo de comparação Microsoft Word.
 
-A limitação geral para dois documentos que estão sendo comparados é que eles não devem ter revisões antes de chamar o método de comparação como essa limitação existe em Microsoft Word.
+A limitação geral para dois documentos que estão a ser comparados é que eles não devem ter revisões antes de chamar o método compare, uma vez que esta limitação existe em Microsoft Word.
 
 {{% alert color="primary" %}}
 
-Note que você pode comparar qualquer dois documentos dentro do [Formatos de suporte](/words/pt/java/supported-document-formats/). Basicamente, você pode comparar objetos de documento e até mesmo você pode criar esses objetos do zero sem ter qualquer formato específico.
+Observe que você pode comparar quaisquer dois documentos dentro do [formatos de arquivo suportados](/words/java/supported-document-formats/). Basicamente, você pode comparar objetos de documento e até mesmo criar esses objetos do zero sem ter nenhum formato específico.
 
 {{% /alert %}}
 
-## Compare dois documentos {#compare-two-documents}
+## Comparar Dois Documentos {#compare-two-documents}
 
-Quando você compara documentos, as diferenças do último documento do antigo aparecem como revisões para o primeiro. Quando você modificar um documento, cada edição terá sua própria revisão após executar o método de comparação.
+Quando se compara documentos, as diferenças entre o último documento e o primeiro aparecem como revisões do primeiro. Ao modificar um documento, cada edição terá a sua própria revisão depois de executar o método de comparação.
 
-Aspose.Words permite identificar diferenças de documentos usando o [Compare](https://reference.aspose.com/words/java/com.aspose.words/document/#compare-com.aspose.words.Document-java.lang.String-java.util.Date) método – isso é semelhante ao Microsoft Word recurso de comparação de documentos. Ele permite que você verifique documentos ou versões de documentos para encontrar diferenças e mudanças, incluindo modificações de formatação, como alterações de fonte, alterações de espaçamento, a adição de palavras e parágrafos.
+Aspose.Words permite identificar diferenças de documentos utilizando o método [Compare](https://reference.aspose.com/words/java/com.aspose.words/document/#compare-com.aspose.words.Document-java.lang.String-java.util.Date) – isto é semelhante à funcionalidade de comparação de documentos Microsoft Word. Ele permite que você verifique documentos ou versões de documentos para encontrar diferenças e alterações, incluindo modificações de formatação, como alterações de fonte, alterações de espaçamento, adição de palavras e parágrafos.
 
-Como resultado da comparação, os documentos podem ser determinados como iguais ou não iguais. O termo "igual" documentos significa que o método de comparação não é capaz de representar mudanças como revisões. Isso significa que tanto o texto de documento quanto a formatação de texto são os mesmos. Mas pode haver outras diferenças entre documentos. Por exemplo, Microsoft Word suporta apenas revisões de formato para estilos, e você não pode representar inserção de estilo / exclusão. Então os documentos podem ter um conjunto diferente de estilos, e o **Compare** método ainda não produz revisões.
+Como resultado da comparação, os documentos podem ser determinados como iguais ou não iguais. O termo documentos "iguais" significa que o método de comparação não é capaz de representar alterações como revisões. Isso significa que tanto o texto do documento quanto a formatação do texto são iguais. Mas pode haver outras diferenças entre os documentos. Por exemplo, Microsoft Word suporta apenas revisões de formato para estilos e não pode representar a inserção/eliminação de estilos. Portanto, os documentos podem ter um conjunto diferente de estilos e o método **Compare** ainda não produz revisões.
 
-O exemplo a seguir mostra como verificar se dois documentos são iguais ou não:
+O exemplo de código a seguir mostra como verificar se dois documentos são iguais ou não:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CompareTwoWordDocuments-wordDocumentsAreEqual.java" >}}
 
-O seguinte exemplo de código mostra como simplesmente aplicar o `Compare` método para dois documentos:
+O exemplo de código a seguir mostra como simplesmente aplicar o método `Compare` a dois documentos:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CompareTwoWordDocuments-caseWhenDocumentHasRevisions.java" >}}
 
-## Especificar Opções de Comparação Avançadas {#specify-advanced-comparing-properties}
+## Especificar Opções Avançadas De Comparação {#specify-advanced-comparing-properties}
 
-Há muitas propriedades diferentes do [CompareOptions](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/) classe que você pode aplicar quando você quer comparar documentos.
+Existem muitas propriedades diferentes da classe [CompareOptions](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/) que pode aplicar quando pretender comparar documentos.
 
-Por exemplo, Aspose.Words permite que você ignore as alterações feitas durante uma operação de comparação para certos tipos de objetos dentro do documento original. Você pode selecionar a propriedade apropriada para o tipo de objeto, como [IgnoreHeadersAndFooters](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getIgnoreHeadersAndFooters), [IgnoreFormatting](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getIgnoreFormatting), [IgnoreComments](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getIgnoreComments), e outros, definindo-os para "true".
+Por exemplo, Aspose.Words permite ignorar alterações feitas durante uma operação de comparação para determinados tipos de objetos no documento original. Você pode selecionar a propriedade apropriada para o tipo de objeto, como [IgnoreHeadersAndFooters](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getIgnoreHeadersAndFooters), [IgnoreFormatting](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getIgnoreFormatting), [IgnoreComments](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getIgnoreComments), e outros, definindo-os como"verdadeiros".
 
-Além disso, Aspose.Words fornece o [Granularity](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getGranularity) propriedade com a qual você pode especificar se rastrear alterações por caracter ou por palavra.
+Além disso, Aspose.Words fornece a propriedade [Granularity](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getGranularity) com a qual você pode especificar se deseja rastrear alterações por caractere ou por palavra.
 
-Outra propriedade comum é uma escolha em que documento para mostrar alterações de comparação. Por exemplo, a caixa de diálogo "Compare documentos" em Microsoft Word tem a opção "Show changes in" – isso também afeta os resultados de comparação. Aspose.Words fornece o [Target](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getTarget) propriedade que serve este propósito.
+Outra propriedade comum é a escolha de qual documento mostrar as alterações de comparação. Por exemplo, a caixa de diálogo "comparar documentos" em Microsoft Word tem a opção "Mostrar alterações em" – isso também afeta os resultados da comparação. Aspose.Words fornece a propriedade [Target](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getTarget) que serve a esse propósito.
 
-O exemplo a seguir mostra como definir as propriedades de comparação avançadas:
+O exemplo de código a seguir mostra como definir as propriedades de comparação avançadas:
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CompareTwoWordDocuments-AdvancedComparingProperties.java" >}}

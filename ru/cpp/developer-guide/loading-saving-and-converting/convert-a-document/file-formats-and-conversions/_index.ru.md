@@ -1,4 +1,4 @@
-﻿---
+---
 title: Форматы файлов и их преобразования
 second_title: Aspose.Words для C++
 articleTitle: Почему конверсия является основной функцией Aspose.Words?
@@ -7,6 +7,7 @@ description: "Конвертируйте документы из любого п
 type: docs
 weight: 50
 url: /ru/cpp/file-formats-and-conversions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 {{% alert color="primary" %}}

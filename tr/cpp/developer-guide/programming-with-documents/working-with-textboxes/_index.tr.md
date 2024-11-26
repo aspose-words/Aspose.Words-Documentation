@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içinde TextBoxes ile çalışmak
 second_title: Aspose.Words için C++
 articleTitle: TextBoxes ile çalışmak
@@ -7,6 +7,7 @@ description: "Bağlantılı metin kutularına giriş özelliği Aspose.Words iç
 type: docs
 weight: 250
 url: /tr/cpp/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words'te [TextBox](https://reference.aspose.com/words/cpp/aspose.words.drawing/textbox/) sınıfı, metnin bir şeklin içinde nasıl görüntüleneceğini belirtmek için kullanılır. Metin kutusunun üst şeklini almak için **Parent** adlı bir ortak özelliği gösterir, böylece müşteri ilişkili [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) 'i ilişkili **TextBox**'den bulabilir.

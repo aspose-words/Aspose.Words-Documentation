@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中将文档转换为PDF
 second_title: Aspose.Words对于C++
 articleTitle: 将文档转换为PDF
@@ -7,6 +7,7 @@ description: "使用C++将文档转换为PDF。 支持各种输入格式，包�
 type: docs
 weight: 10
 url: /zh/cpp/convert-a-document-to-pdf/
+timestamp: 2024-10-21-08-52-03
 ---
 
 能够轻松可靠地将文档从一种格式转换为另一种格式是Aspose.Words的一个关键特性。 最流行的转换格式之一是PDF–一种固定布局格式，它在各种平台上呈现时保留文档的原始外观。 在Aspose.Words中使用"呈现"术语来描述将文档转换为分页或具有页面概念的文件格式的过程。

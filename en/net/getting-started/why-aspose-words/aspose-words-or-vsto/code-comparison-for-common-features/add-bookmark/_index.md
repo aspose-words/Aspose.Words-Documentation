@@ -7,6 +7,7 @@ description: "Add a bookmark into a document easily and fast instead of using VS
 type: docs
 weight: 70
 url: /net/add-bookmark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## VSTO

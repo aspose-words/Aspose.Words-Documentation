@@ -1,4 +1,4 @@
-﻿---
+---
 title: TrueType Yazı Tipi Konumunu C++ içinde belirtin
 second_title: Aspose.Words için C++
 articleTitle: TrueType Yazı Tipi Konumunu Belirtin
@@ -7,6 +7,7 @@ description: "Çeşitli TrueType font kaynaklarını belirtin: sistem klasörü,
 type: docs
 weight: 30
 url: /tr/cpp/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Bu konu, işletim sistemine özgü farklılıklar da dahil olmak üzere TrueType yazı tiplerini ararken Aspose.Words'in varsayılan davranışını açıklar ve kullanıcı yazı tipi kaynaklarının nasıl belirtileceğini gösterir.

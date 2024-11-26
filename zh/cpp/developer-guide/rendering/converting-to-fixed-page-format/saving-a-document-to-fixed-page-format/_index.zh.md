@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中保存为固定页面格式
 second_title: Aspose.Words对于C++
 articleTitle: 将文档保存为固定页面格式
@@ -7,6 +7,7 @@ description: "如何将文档保存为固定页面格式– PDF, XPS, HTML, XAML
 type: docs
 weight: 15
 url: /zh/cpp/saving-a-document-to-fixed-page-format/
+timestamp: 2024-09-24-14-35-44
 ---
 
 在构建页面布局并计算对象的几何形状及其在页面上的位置后，文档可以以Aspose.Words支持的固定页面格式保存。

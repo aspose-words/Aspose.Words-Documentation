@@ -8,6 +8,7 @@ description: "You might be interested in using Aspose.Words in AWS Lambda if you
 keywords: "use Aspose.Words in AWS Lambda c#"
 weight: 120
 url: /net/integration-in-aws-lambda/
+timestamp: 2024-10-21-11-17-44
 ---
 
 In case you are targeting to create an application in the cloud, and you need Aspose.Words functionality and probably integration with other Amazon services, you may be interested in using Aspose.Words in AWS Lambda.

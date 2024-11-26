@@ -7,6 +7,7 @@ description: "Konvertieren Sie Word mit angewendeter Vertraulichkeitsbezeichnung
 type: docs
 weight: 30
 url: /de/net/work-with-document-market-by-sensitivity-label/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Mit Vertraulichkeitsetiketten von Microsoft Purview Information Protection können Sie die Daten Ihres Unternehmens klassifizieren und schützen und gleichzeitig sicherstellen, dass die Produktivität der Benutzer und ihre Fähigkeit zur Zusammenarbeit nicht beeinträchtigt werden. Nachdem eine Vertraulichkeitsbezeichnung auf ein Dokument angewendet wurde, werden alle für diese Bezeichnung konfigurierten Schutzeinstellungen für den Inhalt erzwungen.

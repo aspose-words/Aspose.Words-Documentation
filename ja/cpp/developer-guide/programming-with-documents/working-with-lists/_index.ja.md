@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのリストの操作
 second_title: C++の場合Aspose.Words
 articleTitle: リストの操作
@@ -7,6 +7,7 @@ description: "のナンバリング書式設定機能の紹介 C++の場合Aspos
 type: docs
 weight: 200
 url: /ja/cpp/working-with-lists/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Microsoft Wordドキュメント内のリストは、リストの書式設定プロパティのセットです。 リストは、書式設定、配置、およびテキストを強調するためにあなたの文書で使用することができます。 リストは、ドキュメント内のデータを整理するための優れた方法であり、読者が重要なポイントを理解しやすくします。

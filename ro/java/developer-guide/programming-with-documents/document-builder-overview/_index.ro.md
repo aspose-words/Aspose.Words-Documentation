@@ -1,4 +1,4 @@
-﻿---
+---
 title: Document Builder Prezentare generală în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Document Builder Prezentare Generală
@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilder vă permite să construiți documente dinamice de la zero sau să adăugați elemente noi la cele existente. DocumentBuilder oferă metode de inserare a textului, checkboxes, tabele, imagini și alte elemente de conținut în Java."
 weight: 30
 url: /ro/java/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) este o clasă puternică care se asociază cu [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) și vă permite să construiți documente dinamice de la zero sau să adăugați elemente noi la unul existent.

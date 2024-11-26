@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Kolomme en Rye in Java
 second_title: Aspose.Words vir Java
 articleTitle: Werk Met Kolomme en Rye
@@ -7,6 +7,7 @@ description: "Werk met dele van'n tabel rye, kolomme en selle met behulp van Jav
 type: docs
 weight: 30
 url: /af/java/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Vir meer beheer oor hoe tabelle werk, leer hoe om kolomme en rye te manipuleer.

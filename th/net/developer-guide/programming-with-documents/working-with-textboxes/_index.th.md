@@ -7,6 +7,7 @@ description: "ข้อมูลเบื้องต้นเกี่ยวก
 type: docs
 weight: 250
 url: /th/net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ใน Aspose.Words คลาส [TextBox](https://reference.aspose.com/words/net/aspose.words.drawing/textbox/) ใช้เพื่อระบุวิธีแสดงข้อความภายในรูปร่าง โดยเปิดเผยทรัพย์สินสาธารณะชื่อ **Parent** เพื่อรับรูปร่างหลักสำหรับกล่องข้อความ เพื่อให้ลูกค้าสามารถค้นหา [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) ที่เชื่อมโยงจาก **TextBox** ที่เกี่ยวข้อง

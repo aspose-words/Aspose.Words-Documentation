@@ -1,4 +1,4 @@
-﻿---
+---
 title: Protejarea sau criptarea unui Document în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Protejarea sau criptarea unui Document
@@ -7,6 +7,7 @@ description: "Criptați un document, restricționați editarea, utilizați semn�
 type: docs
 weight: 50
 url: /ro/java/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Principalul motiv pentru a proteja sau cripta un document este de a aplica mai mult control asupra cine poate accesa documentul sau cine îl poate edita. Aplicând protecție documentelor dvs., evitați riscurile comune, cum ar fi copierea sau modificarea documentelor fără permisiune, precum și scurgerile de date.

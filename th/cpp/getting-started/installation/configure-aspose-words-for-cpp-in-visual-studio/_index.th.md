@@ -1,4 +1,4 @@
-﻿---
+---
 title: ปรับแต่งผลิตภัณฑ์ในVisual Studio
 second_title: Aspose.WordsสำหรับC++
 articleTitle: กำหนดค่า Aspose.WordsสำหรับC++ ในVisual Studio
@@ -7,6 +7,7 @@ description: "กำหนดค่าด้วยตนเอง Aspose.Words�
 type: docs
 weight: 90
 url: /th/cpp/configure-aspose-words-for-cpp-in-visual-studio/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.WordsสำหรับC++ APIทำงานร่วมกับVisual Studio 2022หรือสูงกว่า ในการทำงานกับVisual Studioคุณอาจจำเป็นต้องติดตั้งVisual C++ Redistributableที่มีอยู่บน [Microsoftเว็บไซต์อย่างเป็นทางการ](https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170).

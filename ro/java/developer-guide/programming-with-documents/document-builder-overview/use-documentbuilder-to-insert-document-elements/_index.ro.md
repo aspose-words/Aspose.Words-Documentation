@@ -1,12 +1,13 @@
-﻿---
-title: Utilizați `DocumentBuilder` pentru a insera elemente de Document
+---
+title: Utilizați DocumentBuilder pentru a insera elemente de Document
 second_title: Aspose.Words pentru Java
-articleTitle: Utilizați `DocumentBuilder` pentru a insera elemente de Document
-linktitle: Utilizați `DocumentBuilder` pentru a insera elemente de Document
+articleTitle: Utilizați DocumentBuilder pentru a insera elemente de Document
+linktitle: Utilizați DocumentBuilder pentru a insera elemente de Document
 type: docs
 description: "Introduceți elemente de document utilizând constructorul de documente în Java."
 weight: 10
 url: /ro/java/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) este folosit pentru a modifica documente. Acest articol explică și descrie cum să efectuați o serie de sarcini.
@@ -152,7 +153,7 @@ Clienții pot specifica acum Locale la nivel de câmp și pot obține un control
 
 ## Inserarea HTML
 
-Puteți introduce cu ușurință un șir HTML care conține un fragment HTML sau un document întreg HTML în documentul Word. Doar treceți acest șir la DocumentBuilder.insertHtml metodă. Una dintre implementările utile ale metodei este stocarea unui șir HTML într-o bază de date și inserarea acestuia în document în timpul mail merge pentru a adăuga conținutul formatat în loc să-l construiască folosind diferite metode ale constructorului de documente. Următorul exemplu de cod prezintă inserturi HTML într-un document folosind DocumentBuilder.
+Puteți introduce cu ușurință un șir HTML care conține un fragment HTML sau un document întreg HTML în documentul Word. Doar treceți acest șir la DocumentBuilder.insertHtml metodă. Una dintre implementările utile ale metodei este stocarea unui șir HTML într-o bază de date și inserarea acestuia în document în timpul Mail Merge pentru a adăuga conținutul formatat în loc să-l construiască folosind diferite metode ale constructorului de documente. Următorul exemplu de cod prezintă inserturi HTML într-un document folosind DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHtml-DocumentBuilderInsertHtml.java" >}}
 

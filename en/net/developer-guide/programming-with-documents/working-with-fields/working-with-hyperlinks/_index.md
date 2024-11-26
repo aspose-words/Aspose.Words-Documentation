@@ -7,6 +7,7 @@ description: "How to add a hyperlink into your document in C# using Aspose.Words
 type: docs
 weight: 50
 url: /net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A hyperlink in Microsoft Word documents is the `HYPERLINK` field. In Aspose.Words, hyperlinks are implemented through the [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) class.

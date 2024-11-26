@@ -1,4 +1,4 @@
-﻿---
+---
 title: Sisipkan Bidang dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Sisipkan Bidang
@@ -7,6 +7,7 @@ description: "Berbagai cara untuk menyisipkan bidang ke dalam dokumen Anda mengg
 type: docs
 weight: 20
 url: /id/cpp/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ada beberapa cara berbeda untuk menyisipkan bidang ke dalam dokumen:
@@ -93,7 +94,7 @@ Anda dapat mengunduh file contoh contoh ini dari [Aspose.Words GitHub](https://g
 
 ### Menyisipkan kolom Blok Alamat Mail Mergeke dalam Dokumen menggunakan DOM
 
-Bidang `ADDRESSBLOCK` digunakan untuk menyisipkan blok alamat mail merge dalam dokumen Word. bidang `ADDRESSBLOCK` dalam dokumen Word dapat diwakili oleh kelas [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldaddressblock/). Anda dapat menggunakan kelas **FieldAddressBlock** untuk melakukan operasi berikut:
+Bidang `ADDRESSBLOCK` digunakan untuk menyisipkan blok alamat Mail Merge dalam dokumen Word. bidang `ADDRESSBLOCK` dalam dokumen Word dapat diwakili oleh kelas [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldaddressblock/). Anda dapat menggunakan kelas **FieldAddressBlock** untuk melakukan operasi berikut:
 
 - tentukan apakah akan mencantumkan nama negara / wilayah di bidang tersebut
 - tentukan apakah akan memformat alamat sesuai dengan negara / wilayah penerima seperti yang didefinisikan oleh POST*CODE (Universal Postal Union 2006)

@@ -7,6 +7,7 @@ description: "Použití Aspose.Words místo Java funkce renderování pro formá
 type: docs
 weight: 30
 url: /cs/java/rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Používáme termín "rendering" v Aspose.Words popis procesu přeměny dokumentu na formát souboru nebo médium, které je paginováno nebo má koncept stránek. Mluvíme o vykreslení dokumentu na stránky. Následující schéma ukazuje, co je vykreslování v Aspose.Words.

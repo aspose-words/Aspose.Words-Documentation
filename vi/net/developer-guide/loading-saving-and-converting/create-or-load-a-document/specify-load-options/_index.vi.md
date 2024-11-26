@@ -7,6 +7,7 @@ description: "Kiểm soát quá trình tải chính xác hơn bằng C#."
 type: docs
 weight: 10
 url: /vi/net/specify-load-options/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Khi tải tài liệu, bạn có thể đặt một số thuộc tính nâng cao. Aspose.Words cung cấp cho bạn lớp [LoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/), cho phép kiểm soát quá trình tải chính xác hơn. Một số định dạng tải có lớp tương ứng chứa các tùy chọn tải cho định dạng tải này, ví dụ: có [PdfLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/) để tải sang định dạng PDF hoặc [TxtLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/) để tải sang TXT. Bài viết này cung cấp các ví dụ về cách làm việc với các tùy chọn của lớp **LoadOptions**.

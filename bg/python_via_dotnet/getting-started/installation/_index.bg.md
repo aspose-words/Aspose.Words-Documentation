@@ -7,6 +7,7 @@ description: "Инсталиране Aspose.Words вместо Python прило
 type: docs
 weight: 10
 url: /bg/python-net/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Уверете се, че машината ви отговаря на [Системни изисквания](/words/bg/python-net/system-requirements/) Преди да започнете.

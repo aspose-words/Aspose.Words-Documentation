@@ -9,15 +9,16 @@ keywords: "mail merge template mustache syntax python"
 weight: 40
 url: /python-net/mail-merge-template-from-mustache-syntax/
 aliases: [/python/mail-merge-template-from-mustache-syntax/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words allows you to create templates with mustache syntax in addition to the familiar templates. A Mustache is an alternative variant of template syntax that consists of tag names enclosed by `{{ }}` and is backed by a model object that contains the data for the template.
 
 The Mustache syntax is the only option to use with templates that do not contain fields, such as HTML and TXT templates. With Word templates, you have two options either to use fields or Mustache syntax.
 
-The Mustache syntax supports *foreach* tag, which is an alternative for using mail merge with regions. So the benefit is that you can use mustache syntax if for some reason you are not able or simply you do not want to use merge fields and merge regions.
+The Mustache syntax supports *foreach* tag, which is an alternative for using Mail Merge with regions. So the benefit is that you can use mustache syntax if for some reason you are not able or simply you do not want to use merge fields and merge regions.
 
-You can also combine mail merge fields with some additional fields using the *foreach* tag as shown in the picture below.
+You can also combine Mail Merge fields with some additional fields using the *foreach* tag as shown in the picture below.
 
 <img src="mustache-syntax.png" alt="mustache_syntax" style="width:800px"/>
 
@@ -31,7 +32,7 @@ Let's suppose that you need to send the same email to 50 recipients to personali
 >
 > I hereby...
 
-The question here: how you can create 50 emails from 1 single Mustache template? To answer that, you need to perform a mail merge with regions to fill the curly braces for placeholders in the template with actual data and generate an output document.
+The question here: how you can create 50 emails from 1 single Mustache template? To answer that, you need to perform a Mail Merge with regions to fill the curly braces for placeholders in the template with actual data and generate an output document.
 
 <img src="mustache-template.png" alt="mustache_template" style="width:650px"/>
 
@@ -43,11 +44,11 @@ As you notice from the example above, in Mustache you need to use curly braces f
 
 ## Work with Mustache Syntax
 
-Mustache is represented as a logic-less order as it lacks any specific control flow statements such as *for* loops and *if* and *else* conditions. But you can use the section tags processing lists and lambdas to achieve conditional evaluation and looping. So to include the Mustache syntax within the mail merge operation, you will need to use the [use_non_merge_fields](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/use_non_merge_fields/) property and set its value to *True*.
+Mustache is represented as a logic-less order as it lacks any specific control flow statements such as *for* loops and *if* and *else* conditions. But you can use the section tags processing lists and lambdas to achieve conditional evaluation and looping. So to include the Mustache syntax within the Mail Merge operation, you will need to use the [use_non_merge_fields](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/use_non_merge_fields/) property and set its value to *True*.
 
 ## Use `IF` Fields to Make a Mail Merge Intelligent
 
-Aspose.Words allows you to use mail merge fields and Mustache tags with the `IF` statement. The `IF` fields can be used in any mail merge document to suppress undesired spaces and commas if a field is blank.
+Aspose.Words allows you to use Mail Merge fields and Mustache tags with the `IF` statement. The `IF` fields can be used in any Mail Merge document to suppress undesired spaces and commas if a field is blank.
 
 The `IF` field formula is shown below:
 
@@ -61,7 +62,7 @@ For example, you can use `IF` fields if you need to insert “his”, “her”,
 
 **{ IF “{{ GENDER }}” = “MALE” “true text” “false text” }**
 
-The following code example shows how to perform a mail merge operation with Mustache tags and `IF` fields:
+The following code example shows how to perform a Mail Merge operation with Mustache tags and `IF` fields:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Mail Merge and Reporting-base_operations-UseOfifelseMustacheSyntax.py" >}}
 

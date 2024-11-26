@@ -1,4 +1,4 @@
-﻿---
+---
 title: O que é um Layout de Página Em C++
 second_title: Aspose.Words para C++
 articleTitle: O que é um Layout de página
@@ -7,6 +7,7 @@ description: "Vamos descobrir o que é um layout de página. Um layout de págin
 type: docs
 weight: 5
 url: /pt/cpp/what-is-a-page-layout/
+timestamp: 2024-09-24-14-35-44
 ---
 
 A **document page layout** é uma estrutura de dados, descrevendo onde um determinado objeto está localizado nas páginas para todos os objetos do documento. Além disso, como os objetos têm propriedades que afetam sua aparência, como tamanho da fonte, efeitos de sombreamento ou desenho, você precisa não apenas saber onde o objeto está, mas também qual (is) área (s) da página que ocupa e se se aplicará a várias páginas para que outros objetos não se sobreponham à (s) mesma (s) Área (s).

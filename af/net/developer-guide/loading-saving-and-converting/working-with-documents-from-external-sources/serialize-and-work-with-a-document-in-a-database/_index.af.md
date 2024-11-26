@@ -1,4 +1,4 @@
-﻿---
+---
 title: Serialiseer Dokument In'n Databasis
 second_title: Aspose.Words vir .NET
 articleTitle: Serialiseer en Werk met'n Dokument In'n Databasis
@@ -7,6 +7,7 @@ description: "Omskep'n dokument in'n byte skikking vir werk met hierdie dokument
 type: docs
 weight: 10
 url: /af/net/serialize-and-work-with-a-document-in-a-database/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Een van die take wat jy dalk moet doen wanneer jy met dokumente werk, is om **Document** voorwerpe na en van'n databasis te stoor en te haal. Dit sou byvoorbeeld nodig wees as u enige tipe inhoudbestuurstelsel implementeer. Alle vorige weergawes van dokumente moet in die databasisstelsel gestoor word. Die vermoë om dokumente in die databasis te stoor is ook uiters nuttig wanneer u aansoek'n webgebaseerde diens lewer.

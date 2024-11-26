@@ -7,6 +7,7 @@ description: "Java` kullanarak nasıl alıntı notları ve sonnotlar manipüle e
 type: docs
 weight: 160
 url: /tr/java/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words ayrıca alt yazılar ve son notlar ile çalışma için bazı sınıflar, yöntemler ve özellikler sağlar.

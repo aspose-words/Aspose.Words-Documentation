@@ -1,4 +1,4 @@
-﻿---
+---
 title: 使用C++中的列表
 second_title: Aspose.Words对于C++
 articleTitle: 使用列表
@@ -7,6 +7,7 @@ description: "编号格式化功能简介 Aspose.Words对于C++."
 type: docs
 weight: 200
 url: /zh/cpp/working-with-lists/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Microsoft Word文档中的列表是一组列表格式属性。 列表可以在文档中用于格式化、排列和强调文本。 列表是在文档中组织数据的好方法，它们使读者更容易理解关键点。

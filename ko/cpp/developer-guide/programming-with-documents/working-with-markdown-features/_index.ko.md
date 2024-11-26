@@ -1,4 +1,4 @@
-﻿---
+---
 title: 함께 작업 Markdown 기능 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 함께 작업 Markdown 특징
@@ -7,6 +7,7 @@ description: "구현 방법 Markdown 기능 사용 C++. 모든 기능은 해당 
 type: docs
 weight: 420
 url: /ko/cpp/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 이 항목에서는 구현 방법에 대해 설명합니다 Markdown 기능 사용 Aspose.Words. Markdown 쉽게 변환 할 수있는 일반 텍스트의 서식을 지정하는 간단한 방법입니다 HTML. Aspose.Words 다음을 지원합니다 Markdown 특징:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Document Conversion
 second_title: Aspose.Words for SharePoint
 articleTitle: Document Conversion
@@ -7,6 +7,7 @@ description: "Conversion feature details of the Aspose.Words for SharePoint."
 type: docs
 weight: 20
 url: /sharepoint/document-conversion/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## This section includes the following topics:

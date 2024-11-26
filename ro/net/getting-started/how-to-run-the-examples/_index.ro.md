@@ -7,6 +7,7 @@ description: "Descarcă Aspose.Words pentru exemple .NET din depozitul nostru Gi
 type: docs
 weight: 110
 url: /ro/net/how-to-run-the-examples/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Pentru a deveni mai familiarizați cu posibilitățile și caracteristicile Aspose.Words oferim exemple care pot fi descărcate din depozitul nostru GitHub, executați și învățați în detaliu.

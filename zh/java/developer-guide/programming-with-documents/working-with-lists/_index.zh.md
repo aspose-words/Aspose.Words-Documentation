@@ -7,6 +7,7 @@ description: "编号格式特性介绍 Aspose.Words (单位:千美元) Java。 �
 type: docs
 weight: 200
 url: /zh/java/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 列表 a Microsoft Word 文档是一组列表格式化属性。 列表可以在文档中用于格式化、安排和强调文本。 列表是将数据组织在文档中的一个大方法,它们使读者更容易理解关键点.

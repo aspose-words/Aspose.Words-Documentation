@@ -7,6 +7,7 @@ description: "Bekerja dengan tabel dalam dokumen menggunakan Python. Memperkenal
 type: docs
 weight: 190
 url: /id/python-net/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **meja** dalam dokumen adalah cara terbaik untuk menyusun data serupa. Itulah sebabnya tabel adalah elemen pemformatan konten yang umum dan didukung oleh sebagian besar format dalam satu bentuk atau lainnya.

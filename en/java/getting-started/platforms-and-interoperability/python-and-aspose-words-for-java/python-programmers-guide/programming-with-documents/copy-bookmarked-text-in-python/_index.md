@@ -1,4 +1,4 @@
-﻿---
+---
 title: Copy Bookmarked Text in Python
 second_title: Aspose.Words for Java
 articleTitle: Copy Bookmarked Text in Python
@@ -7,6 +7,7 @@ description: "Copy Bookmarked Text using Python."
 type: docs
 weight: 30
 url: /java/copy-bookmarked-text-in-python/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Copy Bookmarked Text

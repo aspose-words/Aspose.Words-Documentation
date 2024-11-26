@@ -7,6 +7,7 @@ description: "Aspose.Words dla .NET może osadzić prawidłowe czcionki TrueType
 type: docs
 weight: 10
 url: /pl/net/manipulating-and-substitution-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words wymaga czcionek TrueType do różnych zadań, w tym renderowania dokumentów do formatów o stałej stronie, na przykład PDF lub XPS. Kiedy Aspose.Words renderuje dokument, musi wykonać osadzanie i osadzanie podzbiorów czcionek TrueType w dokumencie wynikowym, co jest normalną praktyką podczas generowania dokumentu, w tym popularnych formatów PDF lub XPS. Dzięki temu dokument będzie wyglądał tak samo dla każdego przeglądającego. Co więcej, specyfikacja XPS wymaga, aby czcionki zawsze były osadzone w dokumencie.
@@ -58,7 +59,7 @@ Zdarzają się jednak sytuacje, gdy nie można znaleźć dokładnej czcionki i A
 1. Jeżeli Aspose.Words nie jest w stanie zlokalizować wymaganej czcionki o dokładnie takiej samej nazwie i zdefiniowanej dla tej czcionki właściwości [AltName](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/altname/), wówczas Aspose.Words znajdzie czcionkę zdefiniowaną za pomocą **AltName** z klasy [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/), która określa informacje o czcionce.
 1. Jeżeli Aspose.Words nie jest w stanie zlokalizować zdefiniowanej czcionki i nie zdefiniowano również **AltName**, wówczas stosowane są zasady podmiany czcionek jedna po drugiej, jak opisano poniżej (po znalezieniu odpowiedniego zamiennika, Proces Podstawiania Czcionek zostaje zatrzymany, a następny krok nie jest wykonywany):
    1. Najpierw Aspose.Words próbuje przetworzyć nazwę czcionki w celu uzyskania podstawienia, w szczególności próbuje usunąć przyrostki zawierające separatory "-" i ",".<br>
-      Jeśli ta reguła zastępowania ma zastosowanie, nie znaleziono "Czcionki "&lt;OriginalFont&gt;". Zamiast tego użyto czcionki "&lt;SubstitutionFont&gt;". Powód: zamiana nazwy czcionki". pojawia się ostrzeżenie.<br>
+      Jeśli ta reguła zastępowania ma zastosowanie, nie znaleziono "Czcionki "<OriginalFont>". Zamiast tego użyto czcionki "<SubstitutionFont>". Powód: zamiana nazwy czcionki". pojawia się ostrzeżenie.<br>
             {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontsFoldersSystemAndCustomFolder-GetSubstitutionWithoutSuffixes.cs" >}}
    1. Następnie Aspose.Words próbuje zastosować ustawienia czcionek systemu operacyjnego, jeśli są dostępne, za pomocą narzędzia **FontConfig**. Tej funkcji innej niż Windows należy używać w systemie operacyjnym zgodnym z FontConfig. Prawie każdy system operacyjny oparty na uniksie ma już bibliotekę `FontConfig` zaprojektowaną w celu zapewnienia ogólnosystemowej konfiguracji czcionek, dostosowywania i dostępu do aplikacji. W przeciwnym razie użytkownik może łatwo zainstalować tę bibliotekę.
       Aspose.Words wie, jak wysyłać zapytania do danych i interpretować wyniki FontConfig do własnych celów. Domyślnie narzędzie `FontConfig` jest wyłączone. Możesz to włączyć w następujący sposób:<br>

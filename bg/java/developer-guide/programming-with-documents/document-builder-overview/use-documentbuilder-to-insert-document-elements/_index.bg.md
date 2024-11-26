@@ -1,12 +1,13 @@
 ---
-title: Използване `DocumentBuilder` Вмъкване на елементи на документа
+title: Използване DocumentBuilder Вмъкване на елементи на документа
 second_title: Aspose.Words вместо Java
-articleTitle: Използване `DocumentBuilder` Вмъкване на елементи на документа
-linktitle: Използване `DocumentBuilder` Вмъкване на елементи на документа
+articleTitle: Използване DocumentBuilder Вмъкване на елементи на документа
+linktitle: Използване DocumentBuilder Вмъкване на елементи на документа
 type: docs
 description: "Вмъкване на елементи на документа с помощта на създателя на документа в Java."
 weight: 10
 url: /bg/java/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 На [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) се използва за промяна на документите. Тази статия обяснява и описва как да се изпълняват редица задачи.
@@ -152,7 +153,7 @@ DocumentBuilder осигурява няколко претоварване на 
 
 ## Вмъкване на HTML
 
-Можете лесно да въведете HTML низ, който съдържа HTML фрагмент или цял HTML документ в документа на Word. Просто предайте този низ на документния строител. вмъкване Html метод. Едно от полезните приложения на метода е съхраняване на HTML низ в база данни и въвеждане му в документа по време на mail merge да се добави форматираното съдържание, вместо да се строи с помощта на различни методи на създателя на документи. Следният пример с код показва HTML в документ, използвайки DocumentBuilder.
+Можете лесно да въведете HTML низ, който съдържа HTML фрагмент или цял HTML документ в документа на Word. Просто предайте този низ на документния строител. вмъкване Html метод. Едно от полезните приложения на метода е съхраняване на HTML низ в база данни и въвеждане му в документа по време на Mail Merge да се добави форматираното съдържание, вместо да се строи с помощта на различни методи на създателя на документи. Следният пример с код показва HTML в документ, използвайки DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHtml-DocumentBuilderInsertHtml.java" >}}
 

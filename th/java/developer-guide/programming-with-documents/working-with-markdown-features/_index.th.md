@@ -1,39 +1,40 @@
----
-title: ทํางานกับ Markdown คุณสมบัติใน Java
-second_title: Aspose.Words สําหรับ Java
-articleTitle: ทํางานกับ Markdown คุณสมบัติต่าง ๆ
-linktitle: ทํางานกับ Markdown คุณสมบัติต่าง ๆ
-description: "วิธี ใช้ งาน Markdown คุณสมบัติที่ใช้ Java. ลักษณะ เหล่า นี้ ทุก อย่าง มี การ แสดง ให้ เห็น ว่า เป็น แบบ หรือ แบบ ที่ ตรง กัน."
+﻿---
+title: การทำงานกับMarkdownคุณสมบัติในJava
+second_title: Aspose.WordsสำหรับJava
+articleTitle: การทำงานกับMarkdownคุณสมบัติ
+linktitle: การทำงานกับMarkdownคุณสมบัติ
+description: "วิธีการใช้คุณลักษณะMarkdownโดยใช้Java นรูปแบบที่สอดคล้องกันหรือการจัดรูปแบบโดยตรง."
 type: docs
 weight: 420
 url: /th/java/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
-บทความ นี้ พิจารณา วิธี ที่ จะ ใช้ Markdown คุณสมบัติที่ใช้ Aspose.Words. Markdown เป็นวิธีง่ายๆ ในการฟอร์แมตข้อความธรรมดา ที่สามารถแปลงเป็น HTML ได้ Aspose.Words รองรับรายการต่อไปนี้ Markdown คุณสมบัติ:
+หัวข้อนี้อธิบายวิธีใช้คุณลักษณะMarkdownโดยใช้Aspose.Words Markdownเป็นวิธีง่ายๆในการจัดรูปแบบข้อความธรรมดาที่สามารถแปลงเป็นHTML Aspose.Wordsรองรับคุณลักษณะต่อไปนี้Markdown:
 
-- มุ่งหน้า
-- กล่องข้อความ
-- กฎทางแนวนอน
-- การเน้นตัวหนา
+- หัวข้อ
+- บล็อกคำพูด
+- กฎแนวนอน
+- เน้นตัวหนา
 - เน้นตัวเอียง
 
-เดอะ Markdown การใช้งานคุณสมบัติส่วนใหญ่ต่อไปนี้ `CommonMark` สัดส่วนใน Aspose.Words API และ ลักษณะ ทุก อย่าง ก็ ถูก แทน ด้วย แบบ หรือ แบบ ที่ ตรง กัน. ซึ่งหมายความว่า
+การใช้งานคุณลักษณะMarkdownส่วนใหญ่จะเป็นไปตามข้อกำหนด`CommonMark`ในAspose.WordsAPIและคุณลักษณะทั้งหมดจะแสดงเป็นรูปแบบที่สอดคล้องกันหรือการจัดรูปแบบโดยตรง ซึ่งหมายความว่า
 
-- ตัวหนาและตัวตั้งตัวแทน `Font.Bold` ถึง `Font.Italic`
-- มุ่งหน้าไปเป็นวรรคที่ 1 มุ่งหน้า 6 รูปแบบ
-- การอ้างถึงคือ paragraphy with " Quoto" ในชื่อสไตล์
-- แนวนอนคือย่อหน้าที่มี `HorizontalRule` รูปร่าง
+- ตัวหนาและตัวเอียงจะแสดงเป็น`Font.Bold`และ`Font.Italic`
+- ส่วนหัวเป็นย่อหน้าที่มีลักษณะHeading 1-Heading 6
+- คำพูดเป็นย่อหน้าที่มี"อ้าง"ในชื่อสไตล์
+- HorizontalRuleเป็นย่อหน้าที่มีรูปร่าง`HorizontalRule`.
 
 {{% alert color="primary" %}}
 
-มีความแตกต่างของการแปล Markdown ถึง Aspose.Words Document Object Model (DOM) อธิบายในบทความ [แปล Markdown ถึง Document Object Model (DOM)](/words/th/java/translate-markdown-to-document-object-model/).
+มีความแตกต่างของการแปลMarkdownไปยังAspose.Wordsรูปแบบวัตถุเอกสาร(DOM)ที่อธิบายไว้ในบทความ [แปลMarkdownไปยังรูปแบบวัตถุเอกสาร(DOM)](/words/java/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 
 
-## Markdown เอกสารต่าง ๆ ที่มีเครื่องหมาย (imphases)
+## Markdownเอกสารที่มีการเน้น
 
-ส่วนนี้แสดงให้เห็นวิธีผลิต markdown เอกสารที่มีหัวเรื่องอยู่ด้านล่าง:
+ส่วนนี้จะแสดงวิธีการสร้างเอกสารmarkdownโดยเน้นตามที่ระบุไว้ด้านล่าง:
 
 {{< highlight csharp >}}
 Markdown treats asterisks (*) and underscores (_) as indicators of emphasis.
@@ -41,14 +42,14 @@ You can write **bold** or *italic* text.
 You can also write ***BoldItalic***text.
 {{< /highlight >}}
 
-ส่วนต่าง ๆ ของโค้ดต่อไปนี้สามารถใช้ในการสร้างส่วนต่าง ๆ ด้านบนได้ markdown เอกสาร
+ข้อมูลโค้ดต่อไปนี้สามารถใช้ในการผลิตเอกสารที่ให้ไว้ข้างต้นmarkdown.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-MarkdownDocumentWithEmphases.java" >}}
 
 
-## Markdown เอกสารที่มีหัวเรื่อง
+## Markdownเอกสารที่มีส่วนหัว
 
-ส่วนนี้แสดงให้เห็นวิธีผลิต markdown เอกสารที่มีหัวเรื่องอยู่ด้านล่าง:
+ส่วนนี้จะแสดงวิธีการสร้างเอกสารmarkdownด้วยส่วนหัวตามที่ระบุไว้ด้านล่าง:
 
 {{< highlight csharp >}}
 The following produces headings:
@@ -61,13 +62,13 @@ The following produces headings:
 # **Bold Heading1**
 {{< /highlight >}}
 
-ส่วน ต่าง ๆ ของ รหัส ต่อ ไป นี้ สามารถ ใช้ เพื่อ ผลิต ส่วน ที่ อยู่ ข้าง บน ได้ markdown เอกสาร
+ข้อมูลโค้ดต่อไปนี้สามารถใช้ในการผลิตเอกสารที่ระบุไว้ข้างต้นmarkdown.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-MarkdownDocumentWithHeadings.java" >}}
 
-## Markdown เอกสารที่มีส่วนที่อ้างถึงบล็อก
+## Markdownเอกสารที่มีคำพูดที่ถูกบล็อก
 
-ส่วนนี้แสดงให้เห็นวิธีผลิต markdown เอกสารที่มีการอ้างถึงบล็อกตามที่กําหนดด้านล่างนี้:
+ส่วนนี้จะแสดงวิธีการสร้างเอกสารmarkdownด้วยใบเสนอราคาที่ถูกบล็อกตามที่ระบุไว้ด้านล่าง:
 
 {{< highlight csharp >}}
 We support blockquotes in Markdown:
@@ -82,13 +83,13 @@ We support blockquotes in Markdown:
 >### Headings are allowed inside Quotes
 >{{< /highlight >}}
 
-ส่วน ต่าง ๆ ของ รหัส ต่อ ไป นี้ สามารถ ใช้ เพื่อ ผลิต ส่วน ที่ อยู่ ข้าง บน ได้ markdown เอกสาร
+ข้อมูลโค้ดต่อไปนี้สามารถใช้ในการผลิตเอกสารที่ระบุไว้ข้างต้นmarkdown.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-MarkdownDocumentWithBlockQuotes.java" >}}
 
-## Markdown เอกสารมีกฏทางแนวนอน
+## Markdownเอกสารที่มีกฎแนวนอน
 
-ส่วนนี้แสดงให้เห็นวิธีผลิต markdown เอกสารทางแนวนอน กฎที่กําหนดให้:
+ส่วนนี้จะแสดงวิธีการสร้างเอกสารmarkdownด้วยกฎแนวนอนตามที่ระบุไว้ด้านล่าง:
 
 {{< highlight csharp >}}
 We support Horizontal rules (Thematic breaks) in Markdown:
@@ -96,26 +97,26 @@ We support Horizontal rules (Thematic breaks) in Markdown:
 
 {{< /highlight >}}
 
-ส่วนต่าง ๆ ของโค้ดต่อไปนี้สามารถใช้ในการสร้างส่วนต่าง ๆ ด้านบนได้ markdown เอกสาร
+ข้อมูลโค้ดต่อไปนี้สามารถใช้ในการผลิตเอกสารที่ให้ไว้ข้างต้นmarkdown.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-MarkdownDocumentWithHorizontalRule.java" >}}
 
-## กําลังอ่าน Markdown เอกสาร
+## การอ่านเอกสารMarkdown
 
-รหัสต่อไปนี้แสดงวิธีการอ่าน markdown เอกสาร
+ข้อมูลโค้ดต่อไปนี้จะแสดงวิธีการอ่านเอกสารmarkdown.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-ReadMarkdownDocument.java" >}}
 
-## ระบุ Markdown บันทึกตัวเลือก
+## ระบุตัวเลือกMarkdownบันทึก
 
-Aspose.Words API ให้ [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) คลาสที่จะกําหนดตัวเลือกเพิ่มเติมขณะบันทึกเอกสาร Markdown รูปแบบ
+Aspose.WordsAPIให้[MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/)คลาสที่จะระบุตัวเลือกเพิ่มเติมในขณะที่บันทึกเอกสารลงในรูปแบบMarkdown.
 
-ตัว อย่าง รหัส ต่อ ไป นี้ แสดง ให้ เห็น วิธี ระบุ ข้อ แตก ต่าง Markdown บันทึกทางเลือก
+ตัวอย่างรหัสต่อไปนี้แสดงให้เห็นถึงวิธีการระบุตัวเลือกการบันทึกต่างๆMarkdown.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-SaveAsMD.java" >}}
 
-## วิธี จัด เนื้อหา ภาย ใน โต๊ะ ขณะ ส่ง ออก ไป Markdown
+## วิธีการจัดเนื้อหาภายในตารางขณะส่งออกเป็นMarkdown
 
-Aspose.Words API ให้ [TableContentAlignment](https://reference.aspose.com/words/java/com.aspose.words/tablecontentalignment/) การเรียงรวมซึ่งกําหนดทิศทางการจัดตําแหน่งที่จะจัดเรียงเนื้อหาในตารางระหว่างการส่งออกไปยัง Markdown เอกสาร ตัว อย่าง รหัส ต่อ ไป นี้ แสดง ให้ เห็น วิธี จัด เรียง เนื้อหา ภาย ใน โต๊ะ.
+Aspose.WordsAPIให้[TableContentAlignment](https://reference.aspose.com/words/java/com.aspose.words/tablecontentalignment/)การแจงนับซึ่งกำหนดทิศทางการจัดตำแหน่งเพื่อจัดตำแหน่งเนื้อหาในตารางในขณะที่ส่งออกไปยังเอกสารMarkdown ตัวอย่างรหัสต่อไปนี้แสดงให้เห็นถึงวิธีการจัดตำแหน่งเนื้อหาภายในตาราง.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-ExportIntoMarkdownWithTableContentAlignment.java" >}}

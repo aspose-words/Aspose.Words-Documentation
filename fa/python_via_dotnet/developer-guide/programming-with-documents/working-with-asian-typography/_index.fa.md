@@ -7,6 +7,7 @@ description: "با تایپوگرافی آسیایی با استفاده از Py
 type: docs
 weight: 240
 url: /fa/python-net/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 تایپوگرافی آسیایی مجموعه ای از گزینه ها برای پاراگراف های متنی در اسناد نوشته شده به زبان های آسیایی است.

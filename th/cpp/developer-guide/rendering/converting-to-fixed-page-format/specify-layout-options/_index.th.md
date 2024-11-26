@@ -1,4 +1,4 @@
-﻿---
+---
 title: ระบุตัวเลือกเค้าโครงในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: ระบุตัวเลือกเค้าโครง
@@ -7,6 +7,7 @@ description: "ระบุตัวเลือกเค้าโครงสำ
 type: docs
 weight: 20
 url: /th/cpp/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Wordsช่วยให้คุณสามารถสร้างเอกสารที่ส่งออกด้วยรูปแบบต่างๆ,ขึ้นอยู่กับพารามิเตอร์ที่ระบุไว้ในคุณสมบัติ[LayoutOptions](https://reference.aspose.com/words/cpp/class/aspose.words.layout.layout_options)ของ**Document**. คุณสมบัตินี้คล้ายกับตัวเลือกเมนูส่วนติดต่อผู้ใช้Microsoft Wordที่อธิบายไว้ในบทความนี้.

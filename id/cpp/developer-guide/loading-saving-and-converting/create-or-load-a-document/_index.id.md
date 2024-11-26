@@ -1,4 +1,4 @@
-﻿---
+---
 title: Membuat atau Memuat Dokumen dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Membuat atau Memuat Dokumen
@@ -8,6 +8,7 @@ description: "Buat dokumen kosong atau untuk memuatnya dari file atau streaming 
 keywords: "create a document c++, load a document c++, create a blank document c++, load a document from file c++, load a document from stream c++, create a document Aspose C++, load a document Aspose C++, load formats supported by Aspose.Words C++"
 weight: 10
 url: /id/cpp/create-or-load-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hampir semua tugas yang ingin Anda lakukan dengan Aspose.Words melibatkan pemuatan dokumen. Kelas `Document` mewakili dokumen yang dimuat ke dalam memori. Dokumen memiliki beberapa konstruktor kelebihan beban yang memungkinkan Anda membuat dokumen kosong atau memuatnya dari file atau aliran. Dokumen dapat dimuat dalam format pemuatan apa pun yang didukung oleh Aspose.Words. Untuk daftar semua format pemuatan yang didukung, lihat pencacahan [LoadFormat](https://reference.aspose.com/words/cpp/aspose.words/loadformat/).

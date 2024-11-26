@@ -1,4 +1,4 @@
-﻿---
+---
 title: Преобразовать документ в Markdown на C++
 second_title: Aspose.Words для C++
 articleTitle: Преобразовать документ в Markdown
@@ -8,6 +8,7 @@ description: "Преобразуйте документ в любом подде
 keywords: how to convert a document to markdown c++, Convert doc to MD C++, convert DOCX to Markdown C++
 weight: 40
 url: /ru/cpp/convert-a-document-to-markdown/
+timestamp: 2024-10-21-08-52-03
 ---
 
 Markdown - популярный формат, используемый для разметки текста и его дальнейшего преобразования в HTML, PDF, DOCX или другие форматы. Многие разработчики выбирают этот формат для написания документации, подготовки статей для публикации в блогах, описания проектов и так далее.

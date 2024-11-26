@@ -1,15 +1,16 @@
----
+﻿---
 title: Trabajando con OfficeMath en Java
-second_title: Aspose.Words para Java
+second_title: Aspose.Words por Java
 articleTitle: Trabajando con OfficeMath
 linktitle: Trabajando con OfficeMath
 type: docs
-description: "Introducción a la característica de Office Math en Aspose.Words para Java."
+description: "Introducción a la función Matemática de Office en Aspose.Words para Java."
 weight: 320
 url: /es/java/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Ahora es aún más conveniente trabajar con objetos tipo OfficeMath. In Aspose.Words, el cliente puede Justificar fácilmente y también puede gestionar si una ecuación se muestra en línea o en una línea separada. Más aún, con la disponibilidad de **MathObjectType**; controles útiles se pueden implementar utilizando este objeto matriz.
+Ahora es aún más conveniente trabajar con objetos de tipo OfficeMath. En Aspose.Words, el cliente puede justificar fácilmente y también puede administrar si una ecuación se muestra en línea o en una línea separada. Más aún, con la disponibilidad de **MathObjectType**; se pueden implementar controles útiles mediante el uso de este objeto matrix.
 
 Los siguientes ejemplos de código muestran cómo hacer uso de estas propiedades:
 

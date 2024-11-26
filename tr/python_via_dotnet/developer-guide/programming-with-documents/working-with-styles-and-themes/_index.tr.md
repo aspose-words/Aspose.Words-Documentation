@@ -7,6 +7,7 @@ description: "Python'i kullanarak bir belgedeki stillere ve temalara erişin ve 
 type: docs
 weight: 110
 url: /tr/python-net/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [StyleCollection](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/) sınıfı, yerleşik yönetimi yönetmek ve kullanıcı tanımlı ayarları stillere uygulamak için kullanılır.

@@ -7,6 +7,7 @@ description: "Add bullets or numbers to a list within a document easily and fast
 type: docs
 weight: 10
 url: /net/add-bullets-or-numbers-to-a-list-in-npoi/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Add bullets or numbers to a list

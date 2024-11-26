@@ -7,6 +7,7 @@ description: "将文档转换成字节数组,用于数据库中此文档的工�
 type: docs
 weight: 40
 url: /zh/java/serialize-and-work-with-a-document-in-a-database/
+timestamp: 2024-01-27-14-07-04
 ---
 
 在处理文档时可能需要完成的任务之一是存储和检索 **Document** 用于数据库的对象。 例如,如果实施任何类型的内容管理系统,就有必要这样做。 所有先前版本的文档必须存储在数据库系统中. 当您的应用程序提供网络服务时,在数据库中存储文档的能力也极为有用.

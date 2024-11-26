@@ -7,6 +7,7 @@ description: "如何使用 C# 操作脚注和尾注。"
 type: docs
 weight: 160
 url: /zh/net/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 还提供了一些用于处理脚注和尾注的类、方法和属性。

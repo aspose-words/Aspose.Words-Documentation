@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lavorare con il testo in una tabella
 second_title: Aspose.Words per C++
 articleTitle: Lavorare con il testo in una tabella
@@ -7,6 +7,7 @@ description: "Sostituire il testo in una tabella in C++. Estrarre testo normale 
 type: docs
 weight: 60
 url: /it/cpp/work-with-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Come accennato negli articoli precedenti, una tabella di solito contiene testo normale, anche se altri contenuti come immagini o anche altre tabelle possono essere inseriti nelle celle della tabella.

@@ -7,6 +7,7 @@ description: "Aspose.Words for C++ add to the document the generator name and ve
 type: docs
 weight: 90
 url: /cpp/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 You can easily know if a document is produced by using Aspose.Words for C++. You can also find the version number of Aspose.Words for C++ that was used to create a particular output document. Aspose.Words directly writes this information into the generated document.

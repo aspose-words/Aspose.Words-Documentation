@@ -7,6 +7,7 @@ description: "הבנת שדות טפסים, עבודה עם שדות טפסים 
 type: docs
 weight: 380
 url: /he/java/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 מסמך המכיל ריקות מלא (שדות) ידוע כצורה. לדוגמה, באפשרותך ליצור טופס רישום Microsoft Word זה משתמש ברשימות נפילה שממנו משתמשים יכולים לבחור ערכים. The The The `Form` שדה הוא מיקום שבו סוג מסוים של נתונים, כגון שם או כתובת, נשמר. שדות טופס Microsoft Word כולל קלט טקסט, combobox ו Checkbox.

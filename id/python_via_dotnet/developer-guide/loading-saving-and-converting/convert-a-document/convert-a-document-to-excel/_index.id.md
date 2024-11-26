@@ -7,6 +7,7 @@ description: "Konversi PDF ke Excel, XML ke Excel, DOCX ke Excel Python. Simpan 
 type: docs
 weight: 15
 url: /id/python-net/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Mengonversi dokumen dari satu format ke format lainnya merupakan fitur andalan Aspose.Words. Anda dapat mengonversi dokumen dalam format [memuat format](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) apa pun yang tersedia juga ke format XLSX.

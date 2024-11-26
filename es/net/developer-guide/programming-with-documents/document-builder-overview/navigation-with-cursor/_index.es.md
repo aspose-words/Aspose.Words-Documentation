@@ -7,6 +7,7 @@ description: "Navegue entre diferentes nodos dentro de un documento, como un pá
 type: docs
 weight: 10
 url: /es/net/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Mientras trabaja con un documento, incluso si es corto o largo, deberá navegar por él. La navegación con un cursor virtual representa la capacidad de navegar entre diferentes nodos de un documento.

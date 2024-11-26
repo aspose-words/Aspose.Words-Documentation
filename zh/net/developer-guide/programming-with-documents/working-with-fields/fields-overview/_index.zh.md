@@ -7,6 +7,7 @@ description: "字段的详细信息、字段代码和字段结果在 Aspose.Word
 type: docs
 weight: 10
 url: /zh/net/fields-overview/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words是一个为Microsoft Word文档的服务器端处理而设计的类库，支持以下方式的字段：
@@ -173,9 +174,9 @@ Aspose.Words 支持 Microsoft Word 中提供的所有日期和时间格式开关
 
 ### Mail Merge 字段
 
-Aspose.Words 对文档中 mail merge 字段的复杂性没有限制，支持嵌套 `IF` 和公式字段，甚至可以使用公式计算合并字段的名称。
+Aspose.Words 对文档中 Mail Merge 字段的复杂性没有限制，支持嵌套 `IF` 和公式字段，甚至可以使用公式计算合并字段的名称。
 
-Aspose.Words 支持的 mail merge 字段的一些示例：
+Aspose.Words 支持的 Mail Merge 字段的一些示例：
 
 - Mail merge 现场开关：
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -222,6 +223,6 @@ Aspose.Words计算字段结果时，经常需要将字符串解析为数字或�
 
 [Document](https://reference.aspose.com/words/zh/net/aspose.words/document/) 类提供了一个 [FieldOptions](https://reference.aspose.com/words/zh/net/aspose.words/document/fieldoptions/) 属性，其中包含可用于控制文档中字段更新方式的成员。
 
-以下代码示例演示如何指定在字段更新和 mail merge 期间选择用于日期格式的区域性：
+以下代码示例演示如何指定在字段更新和 Mail Merge 期间选择用于日期格式的区域性：
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-ChangeFieldUpdateCultureSource-ChangeFieldUpdateCultureSource.cs" >}}

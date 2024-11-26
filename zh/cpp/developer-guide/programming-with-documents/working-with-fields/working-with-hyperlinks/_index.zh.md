@@ -1,4 +1,4 @@
-﻿---
+---
 title: 使用C++中的超链接
 second_title: Aspose.Words对于C++
 articleTitle: 添加或修改超链接
@@ -7,6 +7,7 @@ description: "如何使用以下方法将超链接添加到文档中 Aspose.Word
 type: docs
 weight: 180
 url: /zh/cpp/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word文档中的超链接是`HYPERLINK`字段。 在Aspose.Words中，超链接是通过[FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/)类实现的。

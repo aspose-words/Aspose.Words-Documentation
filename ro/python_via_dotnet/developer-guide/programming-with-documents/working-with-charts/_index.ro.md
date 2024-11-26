@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu diagrame în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Lucrul cu diagrame
@@ -7,6 +7,7 @@ description: "Creați și modificați diagrame de diferite tipuri într-un docum
 type: docs
 weight: 310
 url: /ro/python-net/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Noua metodă [insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) a fost adăugată în clasa [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/). Deci, să vedem cum să inserați o diagramă coloană simplă în document folosind metoda [DocumentBuilder.insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/):

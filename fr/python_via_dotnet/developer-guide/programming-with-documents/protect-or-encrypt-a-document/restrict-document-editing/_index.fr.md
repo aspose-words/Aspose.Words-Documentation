@@ -7,6 +7,7 @@ description: "Restreindre la modification d'un document en définissant un type 
 type: docs
 weight: 30
 url: /fr/python-net/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Parfois, vous devrez peut-être limiter la possibilité de modifier un document et autoriser uniquement certaines actions. Cela peut être utile pour empêcher d'autres personnes de modifier des informations sensibles et confidentielles dans votre document.

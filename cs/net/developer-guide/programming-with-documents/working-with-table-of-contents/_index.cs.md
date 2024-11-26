@@ -7,6 +7,7 @@ description: "Obsah pole v detailech. Jak vytvořit a upravit `TOC` použití po
 type: docs
 weight: 170
 url: /cs/net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Často budete pracovat s dokumenty obsahujícími obsah (TOC). Použití Aspose.Words můžete vložit svůj vlastní obsah nebo zcela obnovit stávající obsah v dokumentu pomocí několika řádků kódu. Tento článek nastiňuje, jak pracovat s obsahem pole a ukazuje:
@@ -52,7 +53,7 @@ Následující příklad kódu ukazuje, jak kompletně obnovit `TOC` pole v doku
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertTOC-UpdateFields.cs" >}}
 
-První výzva **UpdateFields** bude stavět <span notrans="<span notrans=" `TOC`"=""></span>,? všechny textové záznamy jsou obsazeny a `TOC` Vypadá to skoro kompletní. Jediné, co chybí, jsou čísla stránek, které jsou nyní zobrazeny s?? Druhý hovor **UpdatePageLayout** vytvoří uspořádání dokumentu v paměti. To je třeba udělat pro shromažďování čísel stránek položek. Správná čísla stránek vypočtená z tohoto hovoru se pak vkládají do TOC.
+První výzva **UpdateFields** bude stavět `TOC`,? všechny textové záznamy jsou obsazeny a `TOC` Vypadá to skoro kompletní. Jediné, co chybí, jsou čísla stránek, které jsou nyní zobrazeny s?? Druhý hovor **UpdatePageLayout** vytvoří uspořádání dokumentu v paměti. To je třeba udělat pro shromažďování čísel stránek položek. Správná čísla stránek vypočtená z tohoto hovoru se pak vkládají do TOC.
 
 ## Použít přepínače k ovládání obsahu Chování
 
@@ -108,7 +109,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 <p>![todo:image_alt_text](/words/net/working-with-table-of-contents/working-with-table-of-contents-5.png)</p>
 
-<p>• `TC` pole sama o sobě mohou mít {several, `multiple`, a few, `many`, numerous} přepínače nastaveny. Jedná se o:</p>
+<p>• `TC` pole sama o sobě mohou mít `{several, multiple, a few, many, numerous}` přepínače nastaveny. Jedná se o:</p>
 
 <p>- Vysvětlováno výše. *</p>
 

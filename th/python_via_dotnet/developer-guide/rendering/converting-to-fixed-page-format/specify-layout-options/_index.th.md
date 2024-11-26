@@ -7,6 +7,7 @@ description: "ระบุตัวเลือกเค้าโครงสำ
 type: docs
 weight: 10
 url: /th/python-net/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words ช่วยให้คุณสร้างเอกสารเอาต์พุตที่มีเค้าโครงต่างๆ ขึ้นอยู่กับพารามิเตอร์ที่ระบุในคุณสมบัติของคลาส [LayoutOptions](https://reference.aspose.com/words/python-net/aspose.words.layout/layoutoptions/) คุณสมบัติเหล่านี้บางส่วนมีลักษณะคล้ายกับตัวเลือกเมนูอินเทอร์เฟซผู้ใช้ Microsoft Word บางส่วน ซึ่งจะอธิบายไว้ในบทความนี้

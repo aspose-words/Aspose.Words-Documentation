@@ -7,6 +7,7 @@ description: "使用 VBA 文件项目 Java。 。 。 。"
 type: docs
 weight: 410
 url: /zh/java/working-with-vba-macros/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Visual Basic 申请(VBA) Microsoft Word 是一种简单但强大的编程语言,可用于扩展功能. Aspose.Words API 提供三个类,以获取 VBA 项目源代码:

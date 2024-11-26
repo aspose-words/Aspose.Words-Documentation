@@ -7,6 +7,7 @@ description: "將PDF轉換為Excel、XML轉換為Excel、DOCX轉換為Excel C#�
 type: docs
 weight: 15
 url: /zh-hant/net/convert-a-document-to-excel/
+timestamp: 2024-07-09-19-00-42
 ---
 
 將文件從一種格式轉換為另一種格式是 Aspose.Words 的旗艦功能。 您可以將任何可用之 [load format](https://reference.aspose.com/words/net/aspose.words/loadformat/) 文件轉換為 XLSX 格式。

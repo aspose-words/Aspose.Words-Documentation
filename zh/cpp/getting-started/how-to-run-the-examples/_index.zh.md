@@ -1,4 +1,4 @@
-﻿---
+---
 title: 如何运行示例
 second_title: Aspose.Words为C++
 articleTitle: 如何运行示例
@@ -7,6 +7,7 @@ description: "下载 Aspose.Words为C++ 来自我们的GitHub存储库的示例�
 type: docs
 weight: 110
 url: /zh/cpp/how-to-run-the-examples/
+timestamp: 2024-07-11-16-13-28
 ---
 
 为了更熟悉Aspose.Words的可能性和特性，我们提供了可以从我们的GitHub存储库下载、运行和详细学习的示例。

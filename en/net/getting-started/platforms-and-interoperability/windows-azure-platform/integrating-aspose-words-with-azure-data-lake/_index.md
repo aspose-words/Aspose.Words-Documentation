@@ -8,6 +8,7 @@ description: "Aspose.Words can be integrated with Azure Data Lake Analytics and 
 keywords: "Aspose.Words to create a user-defined outputter, outputs data from ADLS in MS Word and other formats, Aspose.Words with Azure Data Lake"
 weight: 30
 url: /net/integrating-aspose-words-with-azure-data-lake/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words can be integrated with the Microsoft Azure Data Lake services: Azure Data Lake Analytics (ADLA) and Azure Data Lake Storage (ADLS). This allows you to combine the big data analytics capabilities of the Azure Data Lake cloud storage solution with the power of Aspose.Words, which enables your applications to programmatically perform various document processing tasks, such as generating, modifying, rendering, reading, or converting documents between different formats.

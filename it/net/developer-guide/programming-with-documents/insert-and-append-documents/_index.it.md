@@ -7,6 +7,7 @@ description: "Combina documenti in uno solo: inserisci o aggiungi un documento i
 type: docs
 weight: 80
 url: /it/net/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A volte è necessario combinare più documenti in uno solo. Puoi farlo manualmente oppure puoi utilizzare la funzione di inserimento o aggiunta Aspose.Words.
@@ -49,7 +50,7 @@ Il seguente esempio di codice mostra come inserire il contenuto di un documento 
 
 ### Inserisci un documento durante l'operazione Mail Merge {#insert-a-document-during-mail-merge-operation}
 
-È possibile inserire un documento in un campo unione durante un'operazione mail merge. Ad esempio, un modello mail merge può contenere un campo di unione come [Riepilogo]. Ma nel documento finale, è necessario inserire in questo campo di unione il contenuto ottenuto da un altro documento esterno. Per raggiungere questo obiettivo, dovrai creare un gestore per l'evento di unione.
+È possibile inserire un documento in un campo unione durante un'operazione mail merge. Ad esempio, un modello Mail Merge può contenere un campo di unione come [Riepilogo]. Ma nel documento finale, è necessario inserire in questo campo di unione il contenuto ottenuto da un altro documento esterno. Per raggiungere questo obiettivo, dovrai creare un gestore per l'evento di unione.
 
 L'esempio di codice seguente mostra come creare un gestore per l'evento di unione per utilizzarlo successivamente nel processo di inserimento:
 

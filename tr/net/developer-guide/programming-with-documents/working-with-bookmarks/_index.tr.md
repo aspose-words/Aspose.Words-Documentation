@@ -7,6 +7,7 @@ description: "Yer imi kavramlarını ve C# kullanarak programınızda yer iminin
 type: docs
 weight: 180
 url: /tr/net/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Yer imleri, bir Microsoft Word belgesinde, ileride başvurmak üzere adlandırdığınız ve tanımladığınız konumları veya parçaları tanımlar. Örneğin, daha sonra düzeltmek istediğiniz metni tanımlamak için yer imini kullanabilirsiniz. Metni bulmak için belgeyi kaydırmak yerine Yer İşareti iletişim kutusunu kullanarak metne gidebilirsiniz.

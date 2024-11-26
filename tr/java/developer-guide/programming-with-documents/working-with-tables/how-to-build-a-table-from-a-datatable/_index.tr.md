@@ -1,12 +1,13 @@
 ---
-title: Bir `DataTable` Java'den nasıl bir masa inşa edilir?
+title: Bir DataTable Java'den nasıl bir masa inşa edilir?
 second_title: Aspose.Words için Java
-articleTitle: Bir tablo `DataTable` inşa et
-linktitle: Bir tablo `DataTable` inşa et
+articleTitle: Bir tablo DataTable inşa et
+linktitle: Bir tablo DataTable inşa et
 description: "Dış veritabanından belge tablosunu doldurmanın bir örneği Java kullanarak."
 type: docs
 weight: 130
 url: /tr/java/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Çok sık, uygulamanız veritabanından veri çekecek ve onu bir **DataTable** biçiminde depolayacak. Bu veriyi belgenize yeni bir tablo olarak kolayca eklemek ve tüm tabloya hızlıca bir biçimlendirme uygulamak isteyebilirsiniz.

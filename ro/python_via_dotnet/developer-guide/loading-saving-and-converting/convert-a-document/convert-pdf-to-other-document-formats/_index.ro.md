@@ -1,4 +1,4 @@
-﻿---
+---
 title: Convertiți PDF în alte formate de documente
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Convertiți PDF în alte formate de documente
@@ -8,6 +8,7 @@ description: "Convertiți PDF în formate Word precum DOCX, DOC, formate de imag
 keywords: convert pdf to other formats python
 weight: 45
 url: /ro/python-net/convert-pdf-to-other-document-formats/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words poate încărca chiar și un format atât de complex ca PDF. Acest lucru deschide noi oportunități: este posibil să convertiți PDF în Word sau în alte formate care aduc utilizatorii cu mult înainte în rezolvarea multor probleme aplicate.

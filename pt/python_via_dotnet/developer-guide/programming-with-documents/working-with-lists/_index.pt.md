@@ -7,6 +7,7 @@ description: "Crie, especifique a formatação e reinicie listas em um documento
 type: docs
 weight: 200
 url: /pt/python-net/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uma lista em um documento Microsoft Word é um conjunto de propriedades de formatação de lista. As listas podem ser usadas em seus documentos para formatar, organizar e enfatizar o texto. As listas são uma ótima maneira de organizar dados em documentos e facilitam a compreensão dos pontos principais pelos leitores

@@ -7,6 +7,7 @@ description: "Praktyki manipulacji węzłami paragrafowymi Java."
 type: docs
 weight: 210
 url: /pl/java/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Akapit jest zbiorem znaków połączonych w blok logiczny i kończących się znakiem specjalnym - a * przerwa paragrafu *. W Aspose.Words, ustęp jest reprezentowany przez [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) Klasa.

@@ -7,6 +7,7 @@ description: "Téléchargez des exemples Aspose.Words pour Python via .NET à pa
 type: docs
 weight: 110
 url: /fr/python-net/how-to-run-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Pour vous familiariser davantage avec les possibilités et fonctionnalités de Aspose.Words, nous fournissons des exemples qui peuvent être téléchargés depuis notre référentiel GitHub, exécutés et appris en détail.

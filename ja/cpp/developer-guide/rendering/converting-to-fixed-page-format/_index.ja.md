@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++での固定ページ形式への変換
 second_title: C++の場合Aspose.Words
 articleTitle: 固定ページ形式への変換
@@ -7,6 +7,7 @@ description: "ドキュメントをPDF、XPS、HTML、XAML、PostScript、およ
 type: docs
 weight: 10
 url: /ja/cpp/converting-to-fixed-page-format/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Wordsは独自のページレイアウトエンジンを実装します。 その仕様を掘り下げる前に、まず文書を高いレベルで議論することは価値があります。

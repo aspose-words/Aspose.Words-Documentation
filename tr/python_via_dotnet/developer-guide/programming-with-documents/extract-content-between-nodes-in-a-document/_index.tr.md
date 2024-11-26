@@ -7,6 +7,7 @@ description: "Python kullanarak belge içindeki bir aralıktan belirli içerikle
 type: docs
 weight: 140
 url: /tr/python-net/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Belgelerle çalışırken, belge içindeki belirli bir aralıktan içeriği kolayca çıkarabilmek önemlidir. Ancak içerik paragraf, tablo, resim vb. gibi karmaşık unsurlardan oluşabilir.

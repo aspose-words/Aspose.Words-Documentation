@@ -7,6 +7,7 @@ description: "دمج المستندات في مستند واحد: قم بإدر�
 type: docs
 weight: 80
 url: /ar/python-net/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 في بعض الأحيان يكون من الضروري دمج عدة مستندات في وثيقة واحدة. يمكنك القيام بذلك يدويًا أو يمكنك استخدام ميزة إدراج أو إلحاق Aspose.Words.

@@ -7,6 +7,7 @@ type: docs
 description: "Chuyển đổi một tài liệu sang định dạng hình ảnh (JPG, PNG, v.v.). Tạo bản xem tài liệu hoặc tạo bản quét tài liệu để gửi hóa đơn bằng cách sử dụng Java."
 weight: 35
 url: /vi/java/convert-a-document-to-an-image/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi nó được yêu cầu để lấy một hình ảnh thay cho các tài liệu ở định dạng khác như DOCX hoặc PDF. Ví dụ, bạn cần thêm một bản xem trước của bất kỳ trang tài liệu nào vào trang web hoặc ứng dụng của mình hoặc tạo một "hình quét" của một tài liệu để gửi hóa đơn. Đây là khi bạn có thể cần chuyển đổi một tài liệu trong bất kỳ [supported load format](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) thành một hình ảnh, lần nữa, trong bất kỳ [supported save format](https://reference.aspose.com/words/java/com.aspose.words/saveformat/).

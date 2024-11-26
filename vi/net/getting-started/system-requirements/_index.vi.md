@@ -7,6 +7,7 @@ description: "Trước khi bạn bắt đầu làm việc với Aspose.Words cho
 type: docs
 weight: 70
 url: /vi/net/system-requirements/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Aspose.Words cho .NET không yêu cầu cài đặt bất kỳ sản phẩm của bên thứ ba nào như Microsoft Word. Bản thân Aspose.Words là một công cụ để tạo, sửa đổi, chuyển đổi và hiển thị tài liệu ở nhiều định dạng khác nhau, bao gồm cả định dạng tài liệu Microsoft Word.

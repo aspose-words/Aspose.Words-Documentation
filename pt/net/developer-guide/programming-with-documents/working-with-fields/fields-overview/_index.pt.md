@@ -7,6 +7,7 @@ description: "Os campos são apresentados em detalhes, códigos de campo e resul
 type: docs
 weight: 10
 url: /pt/net/fields-overview/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words é uma biblioteca de classes projetada para processamento de documentos Microsoft Word no servidor e oferece suporte a campos das seguintes maneiras:
@@ -173,9 +174,9 @@ Aspose.Words suporta todas as opções de formatação de data e hora disponíve
 
 ### Campos Mail Merge
 
-Aspose.Words não impõe limites à complexidade dos campos mail merge em seus documentos e oferece suporte a campos `IF` e de fórmula aninhados e pode até calcular o nome do campo de mesclagem usando uma fórmula.
+Aspose.Words não impõe limites à complexidade dos campos Mail Merge em seus documentos e oferece suporte a campos `IF` e de fórmula aninhados e pode até calcular o nome do campo de mesclagem usando uma fórmula.
 
-Alguns exemplos de campos mail merge compatíveis com Aspose.Words:
+Alguns exemplos de campos Mail Merge compatíveis com Aspose.Words:
 
 - Alternadores de campo Mail merge:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -222,6 +223,6 @@ Por outro lado, o Microsoft Word formata cada campo individual com base no idiom
 
 A classe [Document](https://reference.aspose.com/words/net/aspose.words/document/) fornece uma propriedade [FieldOptions](https://reference.aspose.com/words/net/aspose.words/document/fieldoptions/) que contém membros que podem ser usados para controlar como os campos são atualizados no documento.
 
-O exemplo de código a seguir mostra como especificar onde a cultura usada para formatação de data durante a atualização do campo e mail merge é escolhida:
+O exemplo de código a seguir mostra como especificar onde a cultura usada para formatação de data durante a atualização do campo e Mail Merge é escolhida:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-ChangeFieldUpdateCultureSource-ChangeFieldUpdateCultureSource.cs" >}}

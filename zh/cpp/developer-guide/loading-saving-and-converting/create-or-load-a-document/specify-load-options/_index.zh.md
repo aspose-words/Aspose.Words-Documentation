@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中指定加载选项
 second_title: Aspose.Words对于C++
 articleTitle: 指定加载选项
@@ -7,6 +7,7 @@ description: "更精确地控制负载过程。"
 type: docs
 weight: 10
 url: /zh/cpp/specify-load-options/
+timestamp: 2024-01-30-16-22-34
 ---
 
 加载文档时，可以设置一些高级属性。 Aspose.Words为您提供[LoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/loadoptions/)类，它允许更精确地控制加载过程。 一些加载格式有一个相应的类，用于保存此加载格式的加载选项，例如，有[PdfLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/pdfloadoptions/)用于加载到PDF格式或[TxtLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/txtloadoptions/)用于加载到TXT。 本文提供了使用**LoadOptions**类的选项的示例。

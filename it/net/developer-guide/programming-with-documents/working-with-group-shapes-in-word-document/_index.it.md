@@ -7,6 +7,7 @@ description: "Grouping e separazione di forme utilizzando C#."
 type: docs
 weight: 290
 url: /it/net/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A volte è necessario aggiungere un group shape in un documento Word. Tale group shape è costituito da più forme.

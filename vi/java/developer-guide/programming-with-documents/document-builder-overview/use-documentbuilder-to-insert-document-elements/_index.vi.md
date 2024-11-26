@@ -1,12 +1,13 @@
 ---
-title: Hãy dùng `DocumentBuilder` để chèn các phần tử tài liệu
+title: Hãy dùng DocumentBuilder để chèn các phần tử tài liệu
 second_title: Aspose.Words cho Java
-articleTitle: Hãy dùng `DocumentBuilder` để chèn các phần tử tài liệu
-linktitle: Hãy dùng `DocumentBuilder` để chèn các phần tử tài liệu
+articleTitle: Hãy dùng DocumentBuilder để chèn các phần tử tài liệu
+linktitle: Hãy dùng DocumentBuilder để chèn các phần tử tài liệu
 type: docs
 description: "Chèn các thành phần tài liệu bằng trình tạo tài liệu trong Java."
 weight: 10
 url: /vi/java/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)" dùng để sửa đổi tài liệu. Bài viết này giải thích và miêu tả cách thực hiện một số nhiệm vụ.
@@ -152,7 +153,7 @@ Khách hàng có thể chỉ định Locale tại cấp trường hiện nay và
 
 ## Chèn vào HTML
 
-Bạn có thể dễ dàng chèn một chuỗi HTML chứa một phần của tài liệu HTML hoặc toàn bộ tài liệu HTML vào tài liệu Word. Chỉ cần truyền chuỗi này vào phương thức insertHtml của DocumentBuilder. Một trong những thực hiện hữu ích của phương pháp là lưu trữ một chuỗi HTML trong cơ sở dữ liệu và chèn nó vào tài liệu trong mail merge để nhận được nội dung đã định dạng thêm thay vì xây dựng nó bằng các phương pháp khác nhau của trình tạo tài liệu. Mã ví dụ sau cho thấy chèn HTML vào một tài liệu sử dụng DocumentBuilder.
+Bạn có thể dễ dàng chèn một chuỗi HTML chứa một phần của tài liệu HTML hoặc toàn bộ tài liệu HTML vào tài liệu Word. Chỉ cần truyền chuỗi này vào phương thức insertHtml của DocumentBuilder. Một trong những thực hiện hữu ích của phương pháp là lưu trữ một chuỗi HTML trong cơ sở dữ liệu và chèn nó vào tài liệu trong Mail Merge để nhận được nội dung đã định dạng thêm thay vì xây dựng nó bằng các phương pháp khác nhau của trình tạo tài liệu. Mã ví dụ sau cho thấy chèn HTML vào một tài liệu sử dụng DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHtml-DocumentBuilderInsertHtml.java" >}}
 

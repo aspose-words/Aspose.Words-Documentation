@@ -7,6 +7,7 @@ description: "Jak znaleźć niektóre właściwości pola, takie jak kod pola i 
 type: docs
 weight: 25
 url: /pl/net/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Pole wstawione za pomocą [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) zwraca obiekt [Field](https://reference.aspose.com/words/net/aspose.words.fields/field/). Jest to klasa fasadowa, która udostępnia przydatne metody szybkiego znajdowania niektórych właściwości pola.

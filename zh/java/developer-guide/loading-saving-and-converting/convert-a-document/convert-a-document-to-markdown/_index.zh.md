@@ -8,6 +8,7 @@ description: "用任何支持的负载格式将文档转换为 Markdown 而反�
 keywords: how to convert a document to markdown Java, save as MD, DOCX to MD
 weight: 33
 url: /zh/java/convert-a-document-to-markdown/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Markdown 是一种用于标记文本的流行格式,它正在进一步转换到HTML、PDF、DOCX或其他格式。 许多开发者选择这种格式来编写文档,编写文章在博客上发表,描述项目等等.
@@ -18,7 +19,7 @@ Markdown 之所以如此流行,是因为使用这种格式很容易,而且可以
 
 ## 将文档转换为 Markdown
 
-将文档转换为 <span notrans="<span notrans=" Markdown"=""></span>",> 您只需要以任何支持的格式加载文档,或者在程序上创建新的文档。 您需要保存文档到 Markdown 格式。
+将文档转换为 Markdown 您只需要以任何支持的格式加载文档,或者在程序上创建新的文档。 您需要保存文档到 Markdown 格式。
 
 以下代码示例显示如何将 DOCX 转换为 Markdown编号:
 
@@ -58,5 +59,5 @@ Aspose.Words 目前支持以下内容: Markdown 特性,主要遵循 `CommonMark`
 
 有一些细微的和有趣的案例, 已经学会了,你可以与 Markdown 文档更加灵活和方便。 例如,可以使用:
 
-* 允许您在其中创建多行标题的设置 <span notrans="<span notrans=" Markdown"=""></span>",> 在正则标题中 Markdown 只能是单行。 Setextheading是基于"Heading N"风格,其级别只能是1或2. 如果"头N"中的N大于或等于2,那么相应的Setextheading是基于"头2",否则就是"头1".
+* 允许您在其中创建多行标题的设置 Markdown 在正则标题中 Markdown 只能是单行。 Setextheading是基于"Heading N"风格,其级别只能是1或2. 如果"头N"中的N大于或等于2,那么相应的Setextheading是基于"头2",否则就是"头1".
 * 第一级子弹列表("-","+"或"*")的不同标记,默认标记为"-",命令列表的不同编号类型(""或"),默认标记为".

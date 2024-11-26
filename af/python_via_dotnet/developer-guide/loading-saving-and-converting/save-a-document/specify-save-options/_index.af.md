@@ -1,4 +1,4 @@
-﻿---
+---
 title: Spesifiseer Stoorkeuses in Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Spesifiseer Stoorkeuses
@@ -7,6 +7,7 @@ description: "Meer akkuraat beheer die stoor proses met behulp van Python."
 type: docs
 weight: 10
 url: /af/python-net/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Wanneer jy'n dokument stoor, kan jy'n paar gevorderde eienskappe stel. Aspose.Words bied u die [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) klas, wat meer presiese beheer van die stoorproses moontlik maak. Daar is oorladings van die [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) metode wat'n [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) voorwerp aanvaar dit moet'n voorwerp van'n klas afgelei van die [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) klas wees. Elke stoor formaat het'n ooreenstemmende klas wat stoor opsies vir hierdie stoor formaat hou, byvoorbeeld, daar is [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) vir die stoor na PDF formaat of [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/) vir die stoor na'n beeld. Hierdie artikel bied voorbeelde van die werk met'n paar opsies klasse afgelei van [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/).

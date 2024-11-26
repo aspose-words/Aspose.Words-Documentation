@@ -7,6 +7,7 @@ description: "Python에서 필드 코드 및 필드 결과와 같은 일부 필�
 type: docs
 weight: 25
 url: /ko/python-net/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/).[insert_field](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_field/)를 사용하여 삽입된 필드는 [Field](https://reference.aspose.com/words/python-net/aspose.words.fields/field/) 객체를 반환합니다. 이는 필드의 일부 속성을 빠르게 찾는 데 유용한 메서드를 제공하는 faсade 클래스입니다.

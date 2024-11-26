@@ -7,6 +7,7 @@ description: "Aspose.Words (单位:千美元) Android 通过 Java 特性和 API 
 type: docs
 weight: 50
 url: /zh/java/aspose-words-for-android-via-java-limitations-and-api-differences/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## 限制 Aspose.Words (单位:千美元) Android 通过 Java API 比较 Aspose.Words (单位:千美元) Java API

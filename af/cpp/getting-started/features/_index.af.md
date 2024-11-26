@@ -1,4 +1,4 @@
-﻿---
+---
 title: Kenmerke
 second_title: Aspose.Words vir C++
 articleTitle: Ondersteunde Funksies
@@ -7,6 +7,7 @@ description: "Aspose.Words vir C++ bied gebruikers'n wye verskeidenheid funksies
 type: docs
 weight: 40
 url: /af/cpp/features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words bied gebruikers'n wye verskeidenheid funksies. Gebruikers kan'n groot hoeveelheid dokumentverwante take uitvoer-van bloot die omskakeling van dokumente van een ondersteunde formaat na'n ander en die wysiging van daardie dokumente tydens die omskakelingsproses na besigheidstake, soos die skep van gestruktureerde en visueel aantreklike dokumente of die outomatisering van verslagdoening.

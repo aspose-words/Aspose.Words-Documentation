@@ -1,4 +1,4 @@
-﻿---
+---
 title: Renderizado en C++
 second_title: Aspose.Words para C++
 articleTitle: Renderizado
@@ -7,6 +7,7 @@ description: "Uso Aspose.Words para C++ función de representación para formate
 type: docs
 weight: 20
 url: /es/cpp/rendering/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Usamos el término "representación" en Aspose.Words para describir el proceso de conversión de un documento a un formato de archivo o un medio paginado o que tiene el concepto de páginas. Estamos hablando de la representación de un documento en páginas. El siguiente diagrama muestra qué representación hay en Aspose.Words.

@@ -1,17 +1,18 @@
----
-title: التحديد الحقيقي الموقع Java
-second_title: Aspose.Words for Java
-articleTitle: التحديد الحقيقي الموقع
-linktitle: التحديد الحقيقي الموقع
-description: "تحديد مختلف True المصادر الفوتوغرافية من النوع: مجلدات النظام، مصادر المستخدمين، حمولات من المجرى، نظام الملفات، أو الذاكرة باستخدام Java."
+﻿---
+title: حدد TrueType موقع الخطوط في Java
+second_title: Aspose.Words ل Java
+articleTitle: حدد TrueType موقع الخطوط
+linktitle: حدد TrueType موقع الخطوط
+description: "حدد مصادر خطوط TrueType المختلفة: مجلد النظام أو مصادر المستخدم أو تحميل الخطوط من دفق أو نظام ملفات أو ذاكرة باستخدام Java."
 type: docs
 weight: 30
 url: /ar/java/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
-هذا الموضوع يصف السلوك الافتراضي Aspose.Words وعندما تبحث عن فونتات " ترايب "، بما في ذلك اختلافات محددة في نظام التشغيل، وتبيّن كيفية تحديد المصادر الفوتوغرافية للمستعملين.
+يصف هذا الموضوع السلوك الافتراضي لـ Aspose.Words عندما يبحث عن TrueType الخطوط، بما في ذلك الاختلافات الخاصة بنظام التشغيل، ويوضح كيفية تحديد مصادر خطوط المستخدم.
 
-The [FontSourceBase](https://reference.aspose.com/words/java/com.aspose.words/fontsourcebase/) ويُستخدم الفصل لتحديد مصادر مختلفة. هناك عدة تنفيذات **FontSourceBase** الفصل:
+يتم استخدام فئة [FontSourceBase](https://reference.aspose.com/words/java/com.aspose.words/fontsourcebase/) لتحديد مصادر الخطوط المختلفة. هناك العديد من تطبيقات فئة **FontSourceBase**:
 
 - [SystemFontSource](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/)
 - [FolderFontSource](https://reference.aspose.com/words/java/com.aspose.words/folderfontsource/)
@@ -19,55 +20,55 @@ The [FontSourceBase](https://reference.aspose.com/words/java/com.aspose.words/fo
 - [FileFontSource](https://reference.aspose.com/words/java/com.aspose.words/filefontsource/)
 - [MemoryFontSource](https://reference.aspose.com/words/java/com.aspose.words/memoryfontsource/)
 
-وترد أدناه تفاصيل تنفيذ بعض الفصول.
+يتم شرح تفاصيل التنفيذ لبعض الفئات أدناه.
 
-## Load Fonts from System {#loading-fonts-from-system}
+## تحميل الخطوط من النظام {#loading-fonts-from-system}
 
-هناك خاص [SystemFontSource](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/) الطبقة التي تستخدم دائما عن طريق التقصير. إنها تمثل جميع ملصقات (ترو تايب) على النظام لذلك، من الممكن وضع قائمة مرجعية مع **SystemFontSource** وأي مصادر أخرى مطلوبة:
+هناك فئة [SystemFontSource](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/) خاصة يتم استخدامها دائما بشكل افتراضي. وهو يمثل جميع TrueType الخطوط المثبتة على النظام. لذلك، من الممكن إنشاء قائمة مصدر باستخدام **SystemFontSource** وأي مصادر أخرى مطلوبة:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetFontsFolder.java" >}}
 
-حالة واحدة **SystemFontSource** يُعرّف الفصل حسب التخلف [FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/). وفي مختلف نظم التشغيل، يمكن تحديد مواقع الفواكه في أماكن مختلفة. مع ذلك، باستخدام **FontSettings** والمثال على كل وثيقة ليس حلاً أمثل. في غالبية الحالات، باستخدام [DefaultInstance](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/#getDefaultInstance) يجب أن يكون كافيا.
+يتم تعريف مثيل واحد من فئة **SystemFontSource** افتراضيا في [FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/). في أنظمة التشغيل المختلفة، قد توجد الخطوط في أماكن مختلفة. ومع ذلك، فإن استخدام مثيل **FontSettings** لكل مستند ليس حلا مثاليا. في معظم الحالات، يجب أن يكون استخدام [DefaultInstance](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/#getDefaultInstance) كافيا.
 
-ولا توجد حاجة إلى حالات ما بين الوثائق إلا إذا طُلب منها استخدام مصادر مختلفة لوثائق مختلفة، وهي حالة نادرة. استخدام عدة **FontSettings** وتخفض الحالات الأداء لأنها لا تتقاسم المخبأ.
+هناك حاجة إلى مثيلات لكل مستند فقط إذا كان مطلوبا استخدام مصادر خطوط مختلفة لمستندات مختلفة، وهي حالة نادرة. يؤدي استخدام عدة حالات **FontSettings** إلى تقليل الأداء لأنها لا تشارك ذاكرة التخزين المؤقت.
 
-### أين Aspose.Words يبدو أن (ترايب فونت) على Windows
+### حيث Aspose.Words يبحث عن TrueType الخطوط على Windows
 
-في معظم الحالات Windows ولا يواجه المستعملون مشاكل كبيرة مع المخطّطات المفقودة أو المخططات غير الصحيحة. عادة Aspose.Words ويمر بوثيقة، وعندما يصادف حلقة وصل، يجلب بنجاح البيانات الفوتوغرافية من ملف النظام.
+في معظم الحالات، لا يواجه المستخدمون Windows مشاكل كبيرة مع الخطوط المفقودة أو التخطيطات غير الصحيحة. عادة، Aspose.Words يمر عبر مستند، وعندما يواجه رابط الخط، فإنه يجلب بيانات الخط بنجاح من مجلد النظام.
 
-على <span notrans="<span notrans=" Windows"=""></span>" Aspose.Words أولاً يأخذ كل العناوين المتاحة من%windir%\Fonts ملف هذا المكان سينجح بالنسبة لك معظم الوقت أنت تحدد ملفاتك فقط إذا أردت ذلك Aspose.Words ويبحث أيضا عن أرقام إضافية مسجلة في HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts مفتاح التسجيل وبالإضافة إلى ذلك، Windows (10) تمكّن من تركيب اللوحات للمستعمل الحالي. الصمامات توضع في %userprofile%\AppData\Local\Microsoft\Windows\Fonts folder and also specified in the HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts السجل، حيثما Aspose.Words سوف تبحث عن هذه العواطف.
+في Windows، Aspose.Words يأخذ أولا جميع الخطوط المتاحة من المجلد _%windir%\Fonts. سيعمل هذا الإعداد من أجلك معظم الوقت. يمكنك فقط تحديد مجلدات الخطوط الخاصة بك إذا كنت بحاجة إلى ذلك. Aspose.Words يبحث أيضا عن خطوط إضافية مسجلة في مفتاح التسجيل HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts. بالإضافة إلى ذلك، Windows 10 يتيح تثبيت الخطوط للمستخدم الحالي. يتم وضع الخطوط في مجلد %userprofile%\AppData\Local\Microsoft\Windows\Fonts ويتم تحديدها أيضا في سجل HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts، حيث سيبحث Aspose.Words عن هذه الخطوط.
 
-إذا كانت الوثيقة تحتوي على ملصقات Aspose.Words ويمكن قراءة البيانات المكتوبة ذات الصلة من الوثيقة واستخدامها لوضع مخطط الوثيقة. ويمكن أن تتضمن الوثائق أيضاً وصلات باللافتات التي لا توجد في مجلدات النظام، وفي هذه الحالة تأتي السيناريوهات التالية إلى العمل:
+إذا كان المستند يحتوي على خطوط مضمنة، فيمكن Aspose.Words قراءة بيانات الخط ذات الصلة من المستند واستخدامها لإنشاء تخطيط المستند. قد تحتوي المستندات أيضا على روابط لخطوط غير موجودة في مجلدات النظام، وفي هذه الحالة تعمل السيناريوهات التالية:
 
-- يمكن للمستعملين إنشاء مصادر جديدة من خلال **FontSettings** الصف
-- Aspose.Words يُمْكِنُ أَنْ يُحاولَ إستبدال الخطّ المفقودة مَع واحد مماثل
+- يمكن للمستخدمين إعداد مصادر خطوط جديدة من خلال فئة **FontSettings**
+- Aspose.Words يمكن محاولة استبدال الخط غاب مع واحد مماثل
 
-### مساهمون في غيرWindows النظم
+### الخطوط على الأنظمة غيرWindows
 
-Aspose.Words سيبحثون عن الملصقات في مجلدات النظام قائمة بهذه الملفات قد يراها [GetSystemFontFolders](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/#getSystemFontFolders) طريقة إذا لم يعثر على أيّ مؤيدين Aspose.Words سيستخدم "فانوود" المزيف
+Aspose.Words سيبحث عن الخطوط في مجلدات خطوط النظام. يمكن رؤية قائمة بهذه المجلدات بواسطة طريقة [GetSystemFontFolders](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/#getSystemFontFolders). إذا لم يتم العثور على الخطوط المعتمدة، Aspose.Words سوف تستخدم المدمج في الخط الافتراضي فانوود.الصندوق.
 
-منذ القياسات النافعة Windows وغيرWindows OS مختلف، Aspose.Words هل كل شيء ممكن للعثور على خط مماثل وبناء مخطط مشابه للأصلي. غير أن هذا ليس ممكنا دائما. In these cases, the **FontSettings** وينبغي أن يُستخدم هذا الفصل لإضافة رسوم أو قواعد للاستبدال.
+منذ مقاييس الخط من Windows وغيرWindows OS مختلفة، Aspose.Words يفعل كل شيء ممكن للعثور على خط مماثل وبناء تخطيط مماثل للأصل. ومع ذلك، هذا ليس ممكنا دائما. في هذه الحالات، يجب استخدام فئة **FontSettings** لإضافة خطوط مخصصة أو قواعد الاستبدال.
 
-#### أين Aspose.Words يبدو أن (ترايب فونت) على Linux
+#### حيث Aspose.Words يبحث عن TrueType الخطوط على Linux
 
-مختلفة Linux والتوزيع قد يخزن اللوحات في ملفات مختلفة. Aspose.Words يبحث عن ملصقات في عدة مواقع بالخطأ Aspose.Words يتطلع إلى العواطف في جميع المواقع التالية: * /usr/share/fonts*/usr/local/share/fonts* /usr/X11R6/lib/X11/fonts* هذا السلوك الافتراضي سيعمل لصالح معظم الناس Linux التوزيعات، ولكن ليس مضموناً للعمل طوال الوقت، في هذه الحالة قد تحتاج إلى تحديد موقع true من النوع الذي يكتب بشكل صريح لتفعل هذا، عليك أن تعرف أين تُركّب (ترو تايب) على Linux التوزيع
+قد تخزن التوزيعات Linux المختلفة الخطوط في مجلدات مختلفة. Aspose.Words يبحث عن الخطوط في عدة مواقع. بشكل افتراضي، يبحث Aspose.Words عن الخطوط في جميع المواقع التالية: `/usr/share/fonts`, `/usr/local/share/fonts`, `/usr/X11R6/lib/X11/fonts`. سيعمل هذا السلوك الافتراضي لمعظم التوزيعات Linux، ولكن ليس مضمونا العمل طوال الوقت، وفي هذه الحالة قد تحتاج إلى تحديد موقع خطوط النوع الحقيقي بشكل صريح. للقيام بذلك،تحتاج إلى معرفة مكان تثبيت TrueType الخطوط على التوزيع Linux.
 
-#### أين Aspose.Words يبدو أن (ترو تايب فونت) على (ماك أوكس)
+#### حيث Aspose.Words يبحث عن TrueType الخطوط على Mac OS X
 
-Aspose.Words يبحث عن ملصقات في مطوّر (Library/Fonts)، وهو الموقع الموحّد لفنادق ( TrueType) على ( Mac OS X). في حين أن هذا الإطار سينجح بالنسبة لك معظم الوقت، قد تحتاج إلى تحديد ملفاتك الخاصة في الحالة التي تحتاج إليها.
+Aspose.Words يبحث عن الخطوط في المجلد `/Library/Fonts`، وهو الموقع القياسي للخطوط TrueType على Mac OS X. بينما سيعمل هذا الإعداد من أجلك معظم الوقت، قد تحتاج إلى تحديد مجلدات الخطوط الخاصة بك في الحالة التي تحتاج فيها إلى ذلك.
 
-#### (تريب) Android
+#### TrueType الخطوط على Android
 
-على Android, تدفق العمل مغطى في صف الوجوه
-وهناك خمسة أنواع من أنواع الأوجه، يمثل كل نوع من أنواع الأوجه مجموعة من الأسر المشابهة:
+في Android، يتم تغليف سير عمل الخطوط في فئة المحرف.
+هناك خمسة أنواع من المحارف، يمثل كل محرف مجموعة من عائلات الخطوط المتشابهة:
 
 - DEFAULT
-- DEFAULT BOLD
-- مونسباكس
-- SANSERIF
+- DEFAULT_BOLD
+- MONOSPACE
+- SANS_SERIF
 - SERIF
 
-For instance, according to Android’ [فونتات](https://androidxref.com/9.0.0_r3/xref/frameworks/base/data/fonts/fonts.xml) " الوقت " ملك " الأسرة " السائلة "، بحيث يُستخدم نوتو سريف - ريادي(و) عندما يُطلب " الوقت ":
+على سبيل المثال، وفقا لـ Android [fonts.xml](https://androidxref.com/9.0.0_r3/xref/frameworks/base/data/fonts/fonts.xml) ملف التكوين، " تايمز "ينتمي إلى عائلة" الرقيق " حتى NotoSerif-العادية.سيتم استخدام الصناديق عند طلب " الأوقات:
 
 **Fonts.xml**
 
@@ -82,19 +83,19 @@ For instance, according to Android’ [فونتات](https://androidxref.com/9.0
 <alias name="times new roman" to="serif" />
 {{< /highlight >}}
 
-وللبحث عن مؤشرات مماثلة، تُستخدم الاستراتيجيات التي سبق وصفها
+للبحث عن خطوط مماثلة، يتم استخدام الاستراتيجيات الموضحة سابقا.
 
-بالإضافة إليهم Aspose.Words لها قائمتها الخاصة بالاستبدال Android منصة
+بالإضافة إلى ذلك، Aspose.Words لديها قائمة البدائل الخاصة بها لمنصة Android.
 
-دعنا نقول أن الوثيقة تحتوي على لوحة PMingLiU-ExtB، أولا، Aspose.Words يبحث عن الضباب المطلوب داخل مصادر النظام
+لنفترض أن المستند يحتوي على PMingLiU-إكستب الخط، أولا وقبل كل شيء، Aspose.Words تبحث عن الخط المطلوب داخل مصادر النظام.
 
-القائمة الافتراضية Android مجلدات الخط هي:
+القائمة الافتراضية لمجلدات الخط Android هي:
 
-- النظام/النظام
-- النظام/النظام
-- البيانات/الفوائد
+- / النظام / الخطوط
+- / النظام / الخط
+- / البيانات / الخطوط
 
-The Aspose.Words (ب) النظر في المصادر المحددة للمستعملين التي وضعت بالأسلوب:
+ال Aspose.Words يبحث من خلال المصادر المعرفة من قبل المستخدم والتي تم تعيينها باستخدام الطريقة:
 
 **Java**
 
@@ -102,7 +103,7 @@ The Aspose.Words (ب) النظر في المصادر المحددة للمستع
 fontSettings.setFontsFolder("/home/user/MyFonts", true);
 {{< /highlight >}}
 
-وفي حالة تحديد بديل صريح، Aspose.Words يستبدل الخط المفقود باقتراح المستخدم:
+في حالة تحديد بديل صريح، يستبدل Aspose.Words الخط المفقود باقتراح المستخدم:
 
 **Java**
 
@@ -110,12 +111,12 @@ fontSettings.setFontsFolder("/home/user/MyFonts", true);
 fontSettings.getSubstitutionSettings().getTableSubstitution().setSubstitutes("PMingLiU-ExtB", "Liberation Serif");
 {{< /highlight >}}
 
-إذا لم ينجح أي من القواعد Aspose.Words تحقق من طاولة الاستبدال الداخلية إذا كانت الطاوله تحتوي على معلومات عن نوبة جيدة ثم يُستبدل الخط في حالتنا Aspose.Words سيختار `Typeface.SERIF`. ولكن إذا كان الجدول لا يعرف شيئا عن الخط المطلوب عندئذ Aspose.Words يلتقط لوحة مستندة على قواعد (إم إس وورد) الخاصة أو أقرب مسافة في (بانوس)
+إذا لم تنجح أي من القواعد، Aspose.Words تحقق من جدول الاستبدال الداخلي. إذا كان الجدول يحتوي على معلومات حول ملاءمة جيدة، فسيتم استبدال الخط. في حالتنا Aspose.Words سوف حدد `Typeface.SERIF`. ولكن إذا كان الجدول لا يعرف أي شيء عن الخط المطلوب ثم Aspose.Words تلتقط الخط على أساس خاص MS قواعد كلمة أو أقرب مسافة في الفضاء بانوز.
 
-#### (تريب) .NET Core و Xamarin
+#### TrueType الخطوط على .NET Core و Xamarin
 
-For .NET Core و Xamarin تنطبق نفس القاعدة على Aspose.Words for Java نسخة. وفي حالة التقصير، تتاح جميع أرقام النظام التي يُستخدم فيها الطلب.
-ويمكن الاطلاع على قائمة الملفات التي سيجري فيها البحث عن طريق تسمية الطريقة:
+بالنسبة إلى .NET Core و Xamarin، تنطبق نفس القاعدة على Aspose.Words للإصدار Java. بشكل افتراضي، تتوفر جميع خطوط النظام في النظام الأساسي الذي يتم تشغيل التطبيق عليه.
+يمكن العثور على قائمة المجلدات التي سيتم إجراء البحث فيها عن طريق استدعاء الطريقة:
 
 **Java**
 
@@ -123,37 +124,37 @@ For .NET Core و Xamarin تنطبق نفس القاعدة على Aspose.Words fo
 SystemFontSource().getAvailableFonts()
 {{< /highlight >}}
 
-## لود فولدر {#loading-fonts-from-folder}
+## تحميل الخطوط من المجلد {#loading-fonts-from-folder}
 
-إذا كانت الوثيقة التي يتم تجهيزها تحتوي على وصلات لللافتات التي ليست على النظام، أو لا تريد أن تضيفها إلى ملف النظام، `SetFontsSources` طريقة وسيتيح ذلك الاستعاضة عن مصدر النظام بمصدر مستعمل. Aspose.Words لن يبحث بعد الآن عن أرقام في السجل أو Windows\Font folder and instead only scan for fonts within the specified folder(s). The `GetFontSources` الطريقة ستعيد القيم المقابلة
+إذا كان المستند الذي تتم معالجته يحتوي على روابط لخطوط غير موجودة على النظام، أو كنت لا تريد إضافتها إلى مجلد النظام، أو كنت تفتقر إلى الأذونات، فإن أفضل حل هو إضافة مجلد بخطوطك الخاصة باستخدام طريقة `SetFontsSources`. سيسمح ذلك باستبدال مصدر النظام بمصدر مستخدم. Aspose.Words لم تعد تبحث عن الخطوط في التسجيل أوWindows \Fمجلد ونط وبدلا من ذلك مسح فقط للخطوط داخل المجلد المحدد(ق). ستعيد طريقة `GetFontSources` القيم المقابلة.
 
-### يُرجى تحديد واحد أو متعدد المجندين
+### حدد مجلد خط واحد أو عدة مجلدات
 
-The [SetFontsFolder](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/#setFontsFolder-java.lang.String-boolean) وطرق (سيفونتس فولدرز) هي طريق مختصر **SetFontSources** طريقة واحدة أو عدة [FolderFontSource](https://reference.aspose.com/words/java/com.aspose.words/folderfontsource/) حالات وتستخدم هذه الأساليب للإشارة إلى أين Aspose.Words يجب أن نبحث عن ملصقات إذا لم يكن هناك ملف أو لم يكن متاحاً، Aspose.Words فقط يتجاهل هذا الملف إذا تم تجاهل جميع الملفات، بما في ذلك المصادر من أجل استبدالها Aspose.Words سيستخدم "فانوود" كخطأ
+الطرق [SetFontsFolder](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/#setFontsFolder-java.lang.String-boolean) و SetFontsFolders هي اختصارات لطريقة **SetFontSources** مع واحد أو أكثر [FolderFontSource](https://reference.aspose.com/words/java/com.aspose.words/folderfontsource/) مثيلات. تستخدم هذه الطرق للإشارة إلى المكان Aspose.Words يجب أن تبحث عن الخطوط. إذا كان المجلد غير موجود أو لا يمكن الوصول إليه، Aspose.Words يتجاهل هذا المجلد فقط. إذا تم تجاهل جميع المجلدات، بما في ذلك مصادر استبدال الخط، Aspose.Words سيستخدم خط فانوود كافتراضي.
 
-ويبين المثال التالي كيفية وضع الملف أو المصدر، الذي Aspose.Words وسيستخدم فيما بعد للبحث عن فونتات " تروتيب " أثناء إصدارها أو دمجها:
+يوضح المثال التالي كيفية تعيين المجلد أو المصدر، والذي سيستخدمه Aspose.Words لاحقا للبحث عن TrueType الخطوط أثناء عرض الخطوط أو تضمينها:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetTrueTypeFontsFolder.java" >}}
 
 {{% alert color="primary" %}}
 
-يمكنك تحميل ملف النموذج من هذا المثال [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
+يمكنك تنزيل ملف القالب لهذا المثال من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-وتحكم بارامتر بوليان إضافي في ما إذا كانت الطلاءات مسحوبة من خلال جميع الملفات، مما يفحص جميع ملفات الأطفال في ملف محدد. ويبين المثال التالي كيفية تحديد Aspose.Words (لإلقاء نظرة على العديد من الملفات لـ (تراي تايب فونتات عندما تصدر أو تُدمج
+تتحكم معلمة منطقية إضافية في ما إذا كان يتم فحص الخطوط بشكل متكرر من خلال جميع المجلدات، وبالتالي مسح جميع المجلدات الفرعية لمجلد محدد. يوضح المثال التالي كيفية تعيين Aspose.Words للبحث في مجلدات متعددة للخطوط TrueType عند عرض الخطوط أو تضمينها:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetMultipleFontsFolder.java" >}}
 
-يمكنك تحميل ملف النموذج من هذا المثال [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
+يمكنك تنزيل ملف القالب لهذا المثال من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{% alert color="primary" %}}
 
-ملاحظة الأولويات. إذا كان هناك ملصقات بنفس اسم العائلة وأسلوبها في مصادر مختلفة Aspose.Words سوف تختار الخط من المصدر مع أولوية أعلى. انظر وصف حقل "الخصوصية" أدناه.
+لاحظ الأولويات. إذا كانت هناك خطوط بنفس اسم العائلة والنمط في مصادر خطوط مختلفة، فسيقوم Aspose.Words بتحديد الخط من المصدر بأولوية أعلى. انظر وصف حقل "الأولوية" أدناه.
 
 {{% /alert %}}
 
-إذا كنت لا ترغب في استخدام أرقام النظام على الإطلاق، Aspose.Words يُمكِنُك أَنْ تَتجاهلَهم و تَستعملَ مُلَكَ الخاصَ فقط:
+إذا كنت لا ترغب في استخدام خطوط النظام على الإطلاق، Aspose.Words يسمح لك بتجاهلها واستخدام الخطوط الخاصة بك فقط:
 
 **Java**
 
@@ -162,41 +163,41 @@ FontSettings.getDefaultInstance().setFontsFolder("C:\\MyFonts\\", true);
 {{< /highlight >}}
 
 
-### الأولوية
+### الملكية ذات الأولوية
 
-The [Priority](https://reference.aspose.com/words/net/aspose.words.fonts/fontsourcebase/priority/) وتُستخدم الممتلكات عندما تكون هناك ملامح تحمل نفس اسم الأسرة وأسلوبها في مصادر مختلفة. في هذه الحالة Aspose.Words يَختارُ العنوانَ مِنْ المصدرِ بالقيمةِ العاليةِ الأولويةِ. فعلى سبيل المثال، هناك نسخة قديمة من ملف النظام، وأضاف الزبون نسخة جديدة من نفس اللوحة في ملف العرف.
+يتم استخدام الخاصية [Priority](https://reference.aspose.com/words/net/aspose.words.fonts/fontsourcebase/priority/) عندما تكون هناك خطوط بنفس اسم العائلة والنمط في مصادر خطوط مختلفة. في هذه الحالة Aspose.Words يحدد الخط من المصدر بقيمة أولوية أعلى. على سبيل المثال، يوجد إصدار قديم من الخط في مجلد النظام وأضاف العميل إصدارا جديدا من نفس الخط في مجلد مخصص.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetFontsFolderWithPriority.java" >}}
 
-## Load Fonts from Stream {#loading-fonts-from-stream}
+## تحميل الخطوط من تيار {#loading-fonts-from-stream}
 
-Aspose.Words يوفر [StreamFontSource](https://reference.aspose.com/words/java/com.aspose.words/streamfontsource/) الفصل الذي يسمح بتحميل النوافذ من المجرى لاستعمال مصدر التدفق يحتاج المستعمل لخلق فصل مستمد من **StreamFontSource** وإتاحة تنفيذ [OpenFontDataStream](https://reference.aspose.com/words/java/com.aspose.words/streamfontsource/#openFontDataStream) طريقة The **OpenFontDataStream** يمكن تسمية الطريقة عدة مرات لأول مرة، سيطلق عليه عندما Aspose.Words يمسح المصادر الضبابية المزودة للحصول على قائمة من النوافذ المتاحة. ويمكن في وقت لاحق أن يُسمَى إذا استخدم هذا الخط في الوثيقة لمسح البيانات الفوتوغرافية وإدراج البيانات الفونتية في بعض أشكال النواتج. **StreamFontSource** قد يكون مفيداً لأنه لا يسمح بتحميل البيانات الوهمية إلا عندما يكون مطلوباً وليس تخزينها في ذاكرة `FontSettings` الحياة
+Aspose.Words يوفر فئة [StreamFontSource](https://reference.aspose.com/words/java/com.aspose.words/streamfontsource/)، والتي تسمح بتحميل الخطوط من الدفق. لاستخدام مصدر خط الدفق، يحتاج المستخدم إلى إنشاء فئة مشتقة من **StreamFontSource** وتوفير تنفيذ لطريقة [OpenFontDataStream](https://reference.aspose.com/words/java/com.aspose.words/streamfontsource/#openFontDataStream). يمكن استدعاء طريقة **OpenFontDataStream** عدة مرات. لأول مرة، سيتم استدعاؤه عندما يقوم Aspose.Words بمسح مصادر الخطوط المتوفرة للحصول على قائمة بالخطوط المتاحة. في وقت لاحق قد يتم استدعاؤه إذا تم استخدام الخط في المستند لتحليل بيانات الخط ولتضمين بيانات الخط في بعض تنسيقات الإخراج. **StreamFontSource** قد يكون مفيدا لأنه يسمح بتحميل بيانات الخط فقط عندما يكون مطلوبا، وليس لتخزينه في الذاكرة لعمر `FontSettings`.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-SpecifyTrueTypeFontsLocation-loadingFontsStream.java" >}}
 
-**StreamFontSource** هو بديل [MemoryFontSource](https://reference.aspose.com/words/java/com.aspose.words/memoryfontsource/) بما أنه من الممكن دائماً تحميل مجرى للذاكرة و تمريره **MemoryFontSource**. الفرق هو **MemoryFontSource** يتم تخزينها في الذاكرة طوال الوقت **StreamFontSource** يتم تحميله على الطلب والتخلّص منه في الحال. ولكن يمكن تحميلها عدة مرات، على النحو المبين أعلاه. في بعض الحالات **MemoryFontSource** هو أفضل، وفي غيره، **StreamFontSource**.
+**StreamFontSource**
 
-## انقذوا و احملوا شارب
+## حفظ وتحميل ذاكرة التخزين المؤقت للبحث عن الخط
 
-عندما تبحث عن ملصق لأول مرة Aspose.Words يُكرّر على المصادر الفوتوغرافية التي يحددها المستعمل، ويشكّل مخبأ بحث مطلّب يستند إلى بيانات من هذه المصادر. ومن ثم، فإن المخبأ سيجمع المعلومات عن العناوين المتاحة: الأسرة الضبابية، والأسلوب، والاسم الكامل، وغيرها. بناء على المكالمات اللاحقة Aspose.Words ويبحث عن معلومات عن العناوين المنشودة بإسمه في مخبأ البحث الفوني، الذي يطابق بعد ذلك الملفات المحددة لاستخدام الخط.
+عند البحث عن خط لأول مرة، Aspose.Words يتكرر على مصادر الخط المحددة من قبل المستخدم ويشكل ذاكرة تخزين مؤقت للبحث عن الخط استنادا إلى البيانات من هذه المصادر. وبالتالي، ستجمع ذاكرة التخزين المؤقت معلومات حول الخطوط المتاحة: عائلة الخطوط والنمط واسم الخط الكامل وغيرها. في المكالمات اللاحقة، يبحث Aspose.Words عن معلومات حول الخط المطلوب باسمه في ذاكرة التخزين المؤقت للبحث عن الخطوط، وبعد ذلك يوزع الملفات المحددة لاستخدام الخط.
 
-إن إجراء فرز جميع الملفات الفوتوغرافية المتاحة لاستهلال المخبأ يستغرق وقتا طويلا. Aspose.Words يُمكِنُك أَنْ تُوفّرَ وتُحمّلُ المخبأَ باستخدام **FontSettings.SaveSearchCache** طريقة لحل مسألة الأداء هذا هو، يمكن للمستعمل أن يحمّل مخبأ منقذ من قبل من ملف وتجاوز خطوة فرز جميع الملفات المتاحة.
+يستغرق إجراء تحليل جميع ملفات الخطوط المتاحة لتهيئة ذاكرة التخزين المؤقت وقتا طويلا. Aspose.Words يسمح لك بحفظ وتحميل ذاكرة التخزين المؤقت باستخدام طريقة **FontSettings.SaveSearchCache** لحل مشكلة الأداء. بمعنى، يمكن للمستخدم تحميل ذاكرة تخزين مؤقت محفوظة مسبقا من ملف وتخطي خطوة تحليل جميع ملفات الخطوط المتاحة.
 
 {{% alert color="primary" %}}
 
-استخدم نفس الشيء **SaveSearchCache** طريقة لتحديث المخبأ
+استخدم نفس طريقة **SaveSearchCache** لتحديث ذاكرة التخزين المؤقت.
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-والمخبأ مناسب أيضاً لسيناريوهات أخرى عندما يتم تحميل اللوحات على الشبكة. أو للسيناريوهات عندما لا توجد طريقة لتخزين `FontSettings` كمثال مع مخبأ
+ذاكرة التخزين المؤقت مناسبة أيضا للسيناريوهات الأخرى عند تحميل الخطوط عبر الشبكة. أو للسيناريوهات عندما لا تكون هناك طريقة لتخزين مثيل `FontSettings` مع ذاكرة تخزين مؤقت محملة.
 
 {{% /alert %}}
 
 
-## الحصول على قائمة الفواكه المتاحة {#get-a-list-of-available-fonts}
+## احصل على قائمة بالخطوط المتاحة {#get-a-list-of-available-fonts}
 
-إذا كنت ترغب في الحصول على قائمة الفونتات المتاحة، والتي، على سبيل المثال، يمكن استخدامها لإصدار وثيقة PDF، يمكنك استخدام [GetAvailableFonts](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/#getAvailableFonts) الطريقة، كما هو مبين في المثال الرمزي التالي. The [PhysicalFontInfo](https://reference.aspose.com/words/java/com.aspose.words/physicalfontinfo/) تُحدّدُ الدرجةُ معلوماتَ حول الخطّ الماديِ المتاح Aspose.Words محرك فونت:
+إذا كنت ترغب في الحصول على قائمة الخطوط المتاحة، والتي، على سبيل المثال، يمكن استخدامها لعرض مستند PDF، يمكنك استخدام طريقة [GetAvailableFonts](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/#getAvailableFonts)، كما هو موضح في مثال الكود التالي. تحدد فئة [PhysicalFontInfo](https://reference.aspose.com/words/java/com.aspose.words/physicalfontinfo/) معلومات حول الخط الفعلي المتاح لمحرك الخط Aspose.Words:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-GetAllAvailableFonts.java" >}}

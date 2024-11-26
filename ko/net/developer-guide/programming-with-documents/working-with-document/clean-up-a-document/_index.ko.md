@@ -7,6 +7,7 @@ description: "C#를 사용하여 사용되지 않거나 중복된 정보를 제�
 type: docs
 weight: 30
 url: /ko/net/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 때로는 출력 문서의 크기와 처리 시간을 줄이기 위해 사용되지 않거나 중복된 정보를 제거해야 할 수도 있습니다.

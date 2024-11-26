@@ -7,6 +7,7 @@ description: "Python を使用してロード プロセスをより正確に制�
 type: docs
 weight: 10
 url: /ja/python-net/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ドキュメントをロードするときに、いくつかの詳細プロパティを設定できます。 Aspose.Words は、ロード プロセスをより正確に制御できる [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/) クラスを提供します。一部のロード形式には、このロード形式のロード オプションを保持する対応するクラスがあります。たとえば、PDF 形式にロードする場合は [PdfLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/pdfloadoptions/)、TXT にロードする場合は [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/) があります。この記事では、[LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/) クラスのオプションを使用する例を示します。

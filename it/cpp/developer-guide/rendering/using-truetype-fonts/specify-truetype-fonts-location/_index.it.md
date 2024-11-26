@@ -1,4 +1,4 @@
-﻿---
+---
 title: Specificare la posizione dei caratteri TrueType in C++
 second_title: Aspose.Words per C++
 articleTitle: Specificare la posizione dei caratteri TrueType
@@ -7,6 +7,7 @@ description: "Specificare varie fonti di font TrueType: cartella di sistema, ori
 type: docs
 weight: 30
 url: /it/cpp/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 In questo argomento viene descritto il comportamento predefinito di Aspose.Words quando cerca i font TrueType, incluse le differenze specifiche del sistema operativo, e viene illustrato come specificare le origini dei font utente.
@@ -56,7 +57,7 @@ Poiché le metriche dei font di Windows e non - Windows OS sono diverse, Aspose.
 
 #### Dove Aspose.Words Cerca i caratteri TrueType su Linux
 
-Diverse distribuzioni Linux possono memorizzare font in cartelle diverse. Aspose.Words cerca i font in più posizioni. Per impostazione predefinita, Aspose.Words cerca i font in tutte le seguenti posizioni: * /usr/share/fonts* /usr/local/share/fonts* /usr/X11R6/lib/X11/fontsThis il comportamento predefinito funzionerà per la maggior parte delle distribuzioni Linux, ma non è garantito che funzioni tutto il tempo, nel qual caso potrebbe essere necessario specificare esplicitamente la posizione dei font true type. Per fare ciò, è necessario sapere dove sono installati i font TrueType nella distribuzione Linux.
+Diverse distribuzioni Linux possono memorizzare font in cartelle diverse. Aspose.Words cerca i font in più posizioni. Per impostazione predefinita, Aspose.Words cerca i font in tutte le seguenti posizioni: `/usr/share/fonts` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts`. This il comportamento predefinito funzionerà per la maggior parte delle distribuzioni Linux, ma non è garantito che funzioni tutto il tempo, nel qual caso potrebbe essere necessario specificare esplicitamente la posizione dei font true type. Per fare ciò, è necessario sapere dove sono installati i font TrueType nella distribuzione Linux.
 
 #### Dove Aspose.Words Cerca i caratteri TrueType su Mac OS X
 

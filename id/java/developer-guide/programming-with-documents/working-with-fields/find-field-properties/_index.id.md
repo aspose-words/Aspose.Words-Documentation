@@ -7,6 +7,7 @@ description: "Bagaimana menemukan beberapa properti lapangan seperti kode lapang
 type: docs
 weight: 25
 url: /id/java/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bidang yang dimasukkan menggunakan [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)Sitemap[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) kembali [Field](https://reference.aspose.com/words/java/com.aspose.words/field/) Sitemap Ini adalah kelas fasad yang menyediakan metode yang berguna untuk dengan cepat menemukan sifat-sifat lapangan.

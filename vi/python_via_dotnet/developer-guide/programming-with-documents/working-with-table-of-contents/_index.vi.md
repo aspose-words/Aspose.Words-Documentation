@@ -7,6 +7,7 @@ description: "Chèn và quản lý 'Mục lục' trong tài liệu bằng Python
 type: docs
 weight: 170
 url: /vi/python-net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Thông thường bạn sẽ làm việc với các tài liệu có chứa mục lục (TOC). Sử dụng Aspose.Words, bạn có thể chèn mục lục của riêng mình hoặc xây dựng lại hoàn toàn mục lục hiện có trong tài liệu chỉ bằng một vài dòng mã. Bài viết này phác thảo cách làm việc với trường mục lục và trình bày:
@@ -107,7 +108,7 @@ Theo mặc định, các công tắc ở trên được bao gồm khi chèn `TOC
 
 <p>- *\L – Xác định cấp độ nào trong `TOC` mà trường TC này sẽ xuất hiện. Một `TOC` sử dụng cùng một công tắc này sẽ chỉ bao gồm trường TC này nếu nó nằm trong phạm vi được chỉ định.*</p>
 
-<p>- _\N – Việc đánh số trang cho mục nhập `TOC` này không được hiển thị. Bạn có thể tìm thấy mã mẫu về cách chèn trường TC trong phần tiếp theo.</p> |
+<p>- `_\N` – Việc đánh số trang cho mục nhập `TOC` này không được hiển thị. Bạn có thể tìm thấy mã mẫu về cách chèn trường TC trong phần tiếp theo.</p> |
 
 ### Công tắc liên quan đến ngoại hình
 

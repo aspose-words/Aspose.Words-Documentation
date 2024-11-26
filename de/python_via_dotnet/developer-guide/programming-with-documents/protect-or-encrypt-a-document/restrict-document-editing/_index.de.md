@@ -7,6 +7,7 @@ description: "Beschränken Sie die Bearbeitung eines Dokuments, indem Sie mithil
 type: docs
 weight: 30
 url: /de/python-net/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal müssen Sie möglicherweise die Möglichkeit zum Bearbeiten eines Dokuments einschränken und nur bestimmte Aktionen damit zulassen. Dies kann nützlich sein, um zu verhindern, dass andere Personen sensible und vertrauliche Informationen in Ihrem Dokument bearbeiten.

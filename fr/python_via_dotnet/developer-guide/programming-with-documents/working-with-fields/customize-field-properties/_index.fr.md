@@ -7,6 +7,7 @@ description: "Découvrez comment personnaliser les propriétés des champs dans 
 type: docs
 weight: 27
 url: /fr/python-net/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words offre la possibilité d'interagir par programmation avec diverses propriétés de champ. Dans cet article, nous examinerons quelques exemples afin que vous compreniez le principe de base du travail avec les propriétés de champ. Vous pouvez voir la liste complète des propriétés pour chaque type de champ dans la classe correspondante dans le [Module Champs](https://reference.aspose.com/words/python-net/aspose.words.fields/).

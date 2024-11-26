@@ -7,6 +7,7 @@ description: "Bir alan kodu ve bir alan sonucu gibi bazı alan özelliklerini Ja
 type: docs
 weight: 25
 url: /tr/java/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir alan [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) kullanarak eklenir, bir [Field](https://reference.aspose.com/words/java/com.aspose.words/field/) nesnesi döndürür. Bu, böyle bir özelliğin hızlı bir şekilde bulunmasını sağlamak için yararlı yöntemler sağlayan bir fasad sınıfıdır.

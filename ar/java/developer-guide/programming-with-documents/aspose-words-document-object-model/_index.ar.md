@@ -1,153 +1,154 @@
----
-title: Aspose.Words Document Object Model (DOM)
-second_title: Aspose.Words for Java
-articleTitle: Aspose.Words Document Object Model (DOM)
-linktitle: Aspose.Words Document Object Model (DOM)
+﻿---
+title: Aspose.Words نموذج كائن المستند (DOM)
+second_title: Aspose.Words ل Java
+articleTitle: Aspose.Words نموذج كائن المستند (DOM)
+linktitle: Aspose.Words نموذج كائن المستند (DOM)
 type: docs
-description: "Document Object Model )أ(DOM() هو تمثيل داخلي لوثيقة كلمة. قراءة وتلاعب وتعديل محتوى وشكل وثيقة كلمة باستخدام Java."
+description: "نموذج كائن المستند (DOM) هو تمثيل في الذاكرة لمستند ورد. قراءة ومعالجة وتعديل محتوى وتنسيق مستند ورد باستخدام Java."
 weight: 10
 url: /ar/java/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
-The Aspose.Words Document Object Model )أ(DOM() هو تمثيل داخلي لوثيقة كلمة. The Aspose.Words DOM يُمكّنكم من القراءة والتلاعب وتعديل محتوى وشكل وثيقة الكلمات.
+نموذج كائن المستند Aspose.Words (DOM) هو تمثيل في الذاكرة لمستند ورد. و Aspose.Words DOM يسمح لك لقراءة برمجيا، والتلاعب، وتعديل المحتوى والتنسيق من وثيقة ورد.
 
-يصف هذا الفرع الفصول الرئيسية من Aspose.Words DOM وعلاقاتهم باستخدام Aspose.Words DOM فصول، يمكنك الحصول على وصول برنامجي إلى عناصر الوثائق والتشكيل.
+يصف هذا القسم الفئات الرئيسية لـ Aspose.Words DOM وعلاقاتهم. باستخدام فئات Aspose.Words DOM، يمكنك الحصول على وصول برمجي إلى عناصر المستند والتنسيق.
 
-## وثيقة الإنشاء شجرة الوجه {#create-a-document-objects-tree}
+## إنشاء شجرة كائن المستند {#create-a-document-objects-tree}
 
-عند قراءة الوثيقة Aspose.Words <span notrans="<span notrans=" DOM"=""></span>" وبعد ذلك تُبنى شجرة الجسم وأنواع مختلفة من عناصر وثيقة المصدر لها DOM أجسام الأشجار ذات خصائص مختلفة
+عند قراءة مستند في Aspose.Words DOM، يتم إنشاء شجرة كائن وأنواع مختلفة من عناصر المستند المصدر لها كائنات شجرة DOM الخاصة بها بخصائص مختلفة.
 
-### Build Document Nodes Tree {#build-document-nodes-tree}
+### بناء شجرة العقد وثيقة {#build-document-nodes-tree}
 
-عندما Aspose.Words يقرأ وثيقة وورد في الذاكرة، ويخلق أجساما من أنواع مختلفة تمثل مختلف عناصر الوثائق. وكل حرف من النص أو الفقرة أو الجدول أو القسم هو رمز، وحتى الوثيقة ذاتها هي رمز. Aspose.Words يُعرّفُ a فصل لكلّ نوع رمز الوثيقةِ.
+عندما يقرأ Aspose.Words مستند كلمة في الذاكرة، فإنه ينشئ كائنات من أنواع مختلفة تمثل عناصر مستند مختلفة. كل تشغيل لنص أو فقرة أو جدول أو قسم هو عقدة، وحتى المستند نفسه هو عقدة. Aspose.Words يحدد فئة لكل نوع عقدة المستند.
 
-شجرة الوثيقة في Aspose.Words يلي خطة التصميم المركبة:
+تتبع شجرة المستندات في Aspose.Words نمط التصميم المركب:
 
-- كل أصناف العقد مستمدة في نهاية المطاف من [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) الدرجة، التي هي درجة القاعدة في Aspose.Words Document Object Model.
--الأنواد التي يمكن أن تحتوي على رموز أخرى، على سبيل المثال **Section** أو **Paragraph**, مستمد من [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) الدرجة التي تستمد بدورها من **Node** الصف
+- تستمد جميع فئات العقدة في النهاية من فئة [Node](https://reference.aspose.com/words/java/com.aspose.words/node/)، وهي الفئة الأساسية في نموذج كائن المستند Aspose.Words.
+- العقد التي يمكن أن تحتوي على عقد أخرى، على سبيل المثال، **Section** أو **Paragraph**، مشتقة من فئة [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/)، والتي بدورها مشتقة من فئة **Node**.
 
-ويبين الرسم البياني الوارد أدناه الميراث بين فئات العقيدة من Aspose.Words Document Object Model )أ(DOM) (أسماء الطبقات المجردة في (إيتاليكس
+يوضح الرسم البياني الموضح أدناه الوراثة بين فئات العقدة لنموذج كائن المستند Aspose.Words (DOM). أسماء الفئات المجردة مكتوبة بخط مائل.
 
 <img src="/words/java/aspose-words-document-object-model/aspose-words-dom.png" alt="aspose-words-dom" style="width:700px"/>
 
 {{% alert color="primary" %}}
 
-The Aspose.Words DOM ويتضمن أيضاً الصفوف غير المخصصة، مثل [Style](https://reference.aspose.com/words/java/com.aspose.words/style/) أو [Font](https://reference.aspose.com/words/java/com.aspose.words/font/), التي تستخدم لتكييف المظهر والأساليب في وثيقة ما. هذه الصفوف لم تظهر في هذا الرسم البياني على أنها لم ترث من `Node` الصف
+يحتوي Aspose.Words DOM أيضا على الفئات غير العقدة، مثل [Style](https://reference.aspose.com/words/java/com.aspose.words/style/) أو [Font](https://reference.aspose.com/words/java/com.aspose.words/font/)، والتي تستخدم لتخصيص المظهر والأنماط داخل المستند. لا تظهر هذه الفئات في هذا الرسم البياني على أنها غير موروثة من فئة `Node`.
 
 {{% /alert %}}
 
-دعونا ننظر إلى مثال. الصورة التالية تظهر Microsoft Word وثيقة ذات أنواع مختلفة من المحتوى.
+دعونا ننظر إلى مثال. تعرض الصورة التالية مستندا Microsoft Word يحتوي على أنواع مختلفة من المحتوى.
 
 <img src="/words/java/aspose-words-document-object-model/document-example.png" alt="document-example" style="width:700px"/>
 
-عند قراءة الوثيقة المذكورة أعلاه في Aspose.Words DOM, وتُنشأ شجرة الأجسام، على النحو المبين في الشكل أدناه.
+عند قراءة المستند أعلاه في Aspose.Words DOM، يتم إنشاء شجرة الكائنات، كما هو موضح في المخطط أدناه.
 
 <img src="/words/java/aspose-words-document-object-model/document-example-dom.png" alt="document-example-dom" style="width:700px"/>
 
-[Document](https://reference.aspose.com/words/java/com.aspose.words/document/), [Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/), [Run](https://reference.aspose.com/words/java/com.aspose.words/run/), وجميع الشظايا الأخرى على الرسم البياني Aspose.Words الأجسام التي تمثل عناصر من وثيقة الكلمات.
+[Document](https://reference.aspose.com/words/java/com.aspose.words/document/), [Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/), [Run](https://reference.aspose.com/words/java/com.aspose.words/run/), وجميع علامات الحذف الأخرى في الرسم التخطيطي هي Aspose.Words كائنات تمثل عناصر مستند الكلمة.
 
-### الحصول على `Node` النوع {#get-a-node-type}
+### الحصول على `Node` نوع {#get-a-node-type}
 
-على الرغم من [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) الطبقة كافية لتمييز مختلف عن بعضها البعض Aspose.Words يوفر [NodeType](https://reference.aspose.com/words/java/com.aspose.words/nodetype/) العد لتبسيط بعض API مهام من قبيل اختيار عقد من نوع محدد.
+على الرغم من أن فئة [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) كافية بما يكفي لتمييز العقد المختلفة عن بعضها البعض، فإن Aspose.Words يوفر [NodeType](https://reference.aspose.com/words/java/com.aspose.words/nodetype/) التعداد لتبسيط بعض API المهام، مثل تحديد العقد من نوع معين.
 
-يمكن الحصول على نوع كل عقدة باستخدام [NodeType](https://reference.aspose.com/words/java/com.aspose.words/node/#getNodeType) ملكية هذه الملكية تعود **NodeType** قيمة العد على سبيل المثال، صيغة فقرة ممثّلة من قبل **Paragraph** عوائد الصف **NodeType**.**Paragraph**وموعد جدول يمثله **Table** عوائد الصف **NodeType**.**Table**.
+يمكن الحصول على نوع كل عقدة باستخدام خاصية [NodeType](https://reference.aspose.com/words/java/com.aspose.words/node/#getNodeType). ترجع هذه الخاصية قيمة تعداد **NodeType**. على سبيل المثال، ترجع عقدة فقرة ممثلة بفئة **Paragraph** **NodeType**.**Paragraph**، وعقدة جدول ممثلة بفئة **Table** ترجع **NodeType**.**Table**.
 
-المثال التالي يبين كيفية الحصول على نوع العقد باستخدام **NodeType** العد:
+يوضح المثال التالي كيفية الحصول على نوع عقدة باستخدام **NodeType** تعداد:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-GetNodeType-.java" >}}
 
-## Document Tree Navigation {#document-tree-navigation}
+## التنقل في شجرة المستندات {#document-tree-navigation}
 
-Aspose.Words يُمثّلُ a وثيقة كشجرةِ العقدِ، الذي يُمْكِنُك أَنْ تُبحرَ بين العقدِ. يصف هذا القسم كيفية استكشاف ونقل شجرة الوثائق في Aspose.Words.
+Aspose.Words يمثل وثيقة كشجرة عقدة، والتي تمكنك من التنقل بين العقد. يصف هذا القسم كيفية استكشاف شجرة المستندات والتنقل فيها في Aspose.Words.
 
-عندما تَفْتحُ وثيقةَ العينةَ، قُدّمتْ في وقت سابق، في مستكشفِ الوثيقةِ، شجرةِ العقدِ تَظْهرُ بالضبط كما هو ممثّلُ في Aspose.Words.
+عند فتح نموذج المستند، الذي تم تقديمه مسبقا، في مستكشف المستندات، تظهر شجرة العقدة تماما كما يتم تمثيلها في Aspose.Words.
 
 <img src="/words/java/aspose-words-document-object-model/document-in-document-explorer.png" alt="document-in-document-explorer" style="width:680px"/>
 
 {{% alert color="primary" %}}
 
-يمكنك تعلم مشروع العينة "مستكشف الوثائق" على [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/DocsExamples/Java/src/main/java/DocsExamples/Document_explorer).
+يمكنك معرفة نموذج المشروع "مستكشف المستندات" على [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/DocsExamples/Java/src/main/java/DocsExamples/Document_explorer).
 
 {{% /alert %}}
 
-### الوثيقة Node Relationships {#document-nodes-relationships}
+### علاقات عقدة المستند {#document-nodes-relationships}
 
-الأنهار في الشجرة لها علاقات بينهما
+العقد في الشجرة لها علاقات بينهما:
 
-- العقد الذي يحتوي على عقد آخر هو *parent.*
-- الشعار الوارد في العقد الأبوي هو *child.* ندوات الأطفال من نفس الوالد *sibling* المشنقة
-- *root* المعبد دائماً [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) موكب
+- العقدة التي تحتوي على عقدة أخرى هي *parent.*
+- العقدة الموجودة في العقدة الأم هي *child.* العقد الفرعية لنفس الأصل هي *sibling* العقد.
+- العقدة *root* هي دائما عقدة [Document](https://reference.aspose.com/words/java/com.aspose.words/document/).
 
-العقد الذي يمكن أن يحتوي على عقد آخر مستمد من [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) الطبقة، وجميع العقد مستمدة في نهاية المطاف من [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) صف ويوفر هذان الصفان الأساسيان أساليب وممتلكات مشتركة للملاحة والتعديل في هيكل الأشجار.
+العقد التي يمكن أن تحتوي على عقد أخرى مشتقة من فئة [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/)، وجميع العقد مشتقة في النهاية من فئة [Node](https://reference.aspose.com/words/java/com.aspose.words/node/). توفر هاتان الفئتان الأساسيتان طرقا وخصائص شائعة للملاحة والتعديل في بنية الشجرة.
 
-ويبين الرسم البياني للجسم التالي " إم إل " عدة رموز من وثيقة العينة وعلاقتها ببعضها البعض عن طريق الأم والطفل والممتلكات الشقيقة:
+يوضح مخطط الكائن UML التالي عدة عقد من نموذج المستند وعلاقاتها ببعضها البعض عبر خصائص الوالد والطفل والأخوة:
 
 <img src="/words/java/aspose-words-document-object-model/document-nodes-relationships.png" alt="document-nodes-relationships" style="width:370px"/>
 
-#### (الوثيقة هي ملكية (نود
+#### المستند هو مالك العقدة
 
-وينتمي العقد دائما إلى وثيقة معينة، حتى لو كان قد أنشئ للتو أو أزيل من الشجرة، لأن الهياكل الحيوية على نطاق الوثائق مثل المواثيق والقوائم مخزنة في **Document** موكب على سبيل المثال، لا يمكن أن يكون هناك **Paragraph** بدون **Document** لأن لكل فقرة أسلوب معين معرّف عالمياً في الوثيقة. وتستخدم هذه القاعدة عند إنشاء أي عقد جديد. إضافة جديدة **Paragraph** مباشرة إلى DOM يتطلّب أن يُسلّم إلى المُنشئ غرضاً من الوثائق.
+تنتمي العقدة دائما إلى مستند معين، حتى لو تم إنشاؤه للتو أو إزالته من الشجرة، لأنه يتم تخزين الهياكل الحيوية على مستوى المستند مثل الأنماط والقوائم في عقدة **Document**. على سبيل المثال، لا يمكن أن يكون لديك **Paragraph** بدون **Document** لأن كل فقرة لها نمط معين يتم تعريفه عالميا للمستند. يتم استخدام هذه القاعدة عند إنشاء أي عقد جديدة. تتطلب إضافة **Paragraph** جديد مباشرة إلى DOM تمرير كائن مستند إلى المنشئ.
 
 {{% alert color="primary" %}}
 
-The [Node.Document](https://reference.aspose.com/words/java/com.aspose.words/node/#getDocument) وتعيد الممتلكات الوثيقة التي ينتمي إليها العقد.
+تقوم الخاصية [Node.Document](https://reference.aspose.com/words/java/com.aspose.words/node/#getDocument) بإرجاع المستند الذي تنتمي إليه العقدة.
 
 {{% /alert %}}
 
-عند وضع فقرة جديدة باستخدام [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/), البنّاء دائماً لديه **Document** صنف مرتبط به من خلال [DocumentBuilder.Document](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#Document) ملكية
+عند إنشاء فقرة جديدة باستخدام [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)، يكون لدى المنشئ دائما فئة **Document** مرتبطة بها من خلال خاصية [DocumentBuilder.Document](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#Document).
 
-ويوضح المثال الرمزي التالي أنه عند إنشاء أي عقد، فإن الوثيقة التي ستمتلك العقد تحدد دائما:
+يوضح مثال الكود التالي أنه عند إنشاء أي عقدة، يتم دائما تعريف المستند الذي سيمتلك العقدة:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-OwnerDocument-.java" >}}
 
-#### الوالدين
+#### العقدة الأم
 
-لكل عقدة والد يحدده [ParentNode](https://reference.aspose.com/words/java/com.aspose.words/node/#getParentNode) ملكية أي عقدة ليس لها عُقد أبوي، ذلك، **ParentNode** لاغي في الحالات التالية:
+كل عقدة لها أصل محدد بواسطة [ParentNode](https://reference.aspose.com/words/java/com.aspose.words/node/#getParentNode) خاصية. لا تحتوي العقدة على عقدة أصل، أي **ParentNode** فارغ، في الحالات التالية:
 
-- لقد تم إنشاء العقد ولم يضاف بعد إلى الشجرة
-- تم إزالة العقد من الشجرة
-- هذا هو الجذر **Document** الشعار الذي يكون دائماً لاغياً
+- تم إنشاء العقدة للتو ولم تتم إضافتها بعد إلى الشجرة.
+- تمت إزالة العقدة من الشجرة.
+- هذه هي عقدة الجذر **Document** التي تحتوي دائما على عقدة أصل فارغة.
 
-يمكنك أن تزيل عقدة من والدها عن طريق الاتصال [Remove](https://reference.aspose.com/words/java/com.aspose.words/node/#remove) طريقة The following code example shows how to access the parent node:
+يمكنك إزالة عقدة من الأصل عن طريق استدعاء طريقة [Remove](https://reference.aspose.com/words/java/com.aspose.words/node/#remove).يوضح مثال التعليمات البرمجية التالية كيفية الوصول إلى العقدة الأصل:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-AccessParentNode-.java" >}}
 
-#### أطفال
+#### العقد الفرعية
 
-أكفأ طريقة للوصول إلى الأطفال [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) هو عبر [FirstChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#FirstChild) و [LastChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#LastChild) الخواص التي تُعيد الندوتين الأولى والأخيرة للطفل، على التوالي. إذا لم يكن هناك أطفال، تعود هذه الممتلكات *null*.
+الطريقة الأكثر فعالية للوصول إلى العقد الفرعية لـ [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) هي عبر [FirstChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#FirstChild) و [LastChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#LastChild) الخصائص التي تعيد العقد الفرعية الأولى والأخيرة، على التوالي. إذا لم تكن هناك عقد فرعية، فستعود هذه الخصائص *null*.
 
-**CompositeNode** يوفر أيضا [ChildNodes](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChildNodes) (ج) جمع مواد تمكّن من الوصول المفهرس أو المعدّد إلى عقد الأطفال. The **ChildNodes** فالملكية عبارة عن مجموعة حية من العقيدات، مما يعني أنه كلما تغيرت الوثيقة، مثل عندما تُزال أو تُضاف العقيدات، **ChildNodes** ويتم التحديث تلقائيا للجمع.
+**CompositeNode**
 
-إذا لم يكن هناك طفل **ChildNodes** تُعيد الممتلكات مجموعة فارغة يمكنك التحقق ما إذا كان **CompositeNode** يتضمّن أيّ ندوات للأطفال تستخدم [HasChildNodes](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#hasChildNodes) ملكية
+إذا لم يكن للعقدة طفل، فستقوم الخاصية **ChildNodes** بإرجاع مجموعة فارغة. يمكنك التحقق مما إذا كان **CompositeNode** يحتوي على أي عقد فرعية باستخدام خاصية [HasChildNodes](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#hasChildNodes).
 
-ويبيّن المثال الرمزي التالي كيف يُعدّد الأكواد المخصصة للطفل مباشرة `CompositeNode` استخدام العدادات المقدمة من `ChildNodes` المجموعة:
+يوضح مثال الكود التالي كيفية تعداد العقد الفرعية الفورية لـ `CompositeNode` باستخدام العداد الذي توفره مجموعة `ChildNodes`:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-ChildNodes-enumerateChildrenOfACompositeNodeUsingEnumeratorProvidedByChildNodesCollection.java" >}}
 
-ويبيّن المثال الرمزي التالي كيف يُعدّد الأكواد المخصصة للطفل مباشرة `CompositeNode` استخدام الوصول المفهرس:
+يوضح مثال الكود التالي كيفية تعداد العقد الفرعية الفورية لـ `CompositeNode` باستخدام الوصول المفهرس:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-ChildNodes-enumerateChildrenOfACompositeNodeUsingIndexedAccess.java" >}}
 
-#### Sibling Nodes
+#### عقد الأخوة
 
-يمكنك الحصول على العقد الذي يسبق أو يتبع عقد معين باستخدام [PreviousSibling](https://reference.aspose.com/words/java/com.aspose.words/node/#getPreviousSibling) و [NextSibling](https://reference.aspose.com/words/java/com.aspose.words/node/#getNextSibling) الممتلكات، على التوالي. إذا كان الموكب هو آخر طفل لوالده، ثم **NextSibling** الممتلكات *null*. وعلى العكس من ذلك، إذا كان المعبد أول طفل من والديه، **PreviousSibling** الممتلكات *null*.
+يمكنك الحصول على العقدة التي تسبق أو تتبع عقدة معينة مباشرة باستخدام خصائص [PreviousSibling](https://reference.aspose.com/words/java/com.aspose.words/node/#getPreviousSibling) و [NextSibling](https://reference.aspose.com/words/java/com.aspose.words/node/#getNextSibling)، على التوالي. إذا كانت العقدة هي آخر طفل في الأصل، فإن الخاصية **NextSibling** هي *null*. على العكس من ذلك، إذا كانت العقدة هي الطفل الأول لوالدها، فإن **PreviousSibling** الخاصية هي *null*.
 
-The following code example shows how to efficiently visit all direct and indirect child nodes of a composite node:
+يوضح مثال الكود التالي كيفية زيارة جميع العقد الفرعية المباشرة وغير المباشرة للعقدة المركبة بكفاءة:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-SiblingNodes-.java" >}}
 
-### Typed Access to Child and Parent Nodes
+### الوصول المكتوب إلى العقد الفرعية والوالدية
 
-لقد ناقشنا حتى الآن الممتلكات التي تعيد أحد أنواع القاعدة **Node** أو **CompositeNode**. ولكن في بعض الأحيان هناك حالات قد تحتاج فيها إلى إعطاء القيم لفصل معين، مثل **Run** أو **Paragraph**. هذا هو، لا يمكنك تماما الابتعاد عن القذف عندما العمل مع Aspose.Words DOM, وهو مركب.
+حتى الآن، ناقشنا الخصائص التي تعيد أحد الأنواع الأساسية – **Node** أو **CompositeNode**. ولكن في بعض الأحيان توجد مواقف قد تحتاج فيها إلى إرسال قيم إلى فئة عقدة معينة، مثل **Run** أو **Paragraph**. أي أنه لا يمكنك الابتعاد تماما عن الإرسال عند العمل باستخدام Aspose.Words DOM، وهو مركب.
 
-للحد من الحاجة إلى التلقيح Aspose.Words وتوفر الصفوف الخواص والتحصيلات التي توفر إمكانية الوصول على شكل قوي. وهناك ثلاثة أنماط أساسية من الوصول المطبعي:
+لتقليل الحاجة إلى الإرسال، توفر معظم فئات Aspose.Words خصائص ومجموعات توفر وصولا مكتوبا بشدة. هناك ثلاثة أنماط أساسية للوصول المكتوب:
 
--عميد الوالدين يفضح من نوعه **FirstXXX** و **LastXXX** الممتلكات. على سبيل المثال، **Document** لديه [FirstSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getFirstSection) و [LastSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getLastSection) الممتلكات. وبالمثل، **Table** لها خصائص مثل [FirstRow](https://reference.aspose.com/words/java/com.aspose.words/table/#getFirstRow), [LastRow](https://reference.aspose.com/words/java/com.aspose.words/table/#getLastRow), والآخرون
-- عقيدة الوالدين تكشف عن مجموعة من فصيلات الأطفال، مثل [Document.Sections](https://reference.aspose.com/words/java/com.aspose.words/document/#getSections), [Body.Paragraphs](https://reference.aspose.com/words/java/com.aspose.words/story/#getParagraphs), والآخرون
-- يُتيح عقد الطفل إمكانية الوصول إلى والديه من نوع ما، مثل [Run.ParentParagraph](https://reference.aspose.com/words/java/com.aspose.words/inline/#getParentParagraph), [Paragraph.ParentSection](https://reference.aspose.com/words/java/com.aspose.words/paragraph/#getParentSection), والآخرون
+- تعرض العقدة الأم خصائص **FirstXXX** و **LastXXX** المكتوبة. على سبيل المثال، **Document** له خصائص [FirstSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getFirstSection) و [LastSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getLastSection). وبالمثل، **Table** له خصائص مثل [FirstRow](https://reference.aspose.com/words/java/com.aspose.words/table/#getFirstRow)، [LastRow](https://reference.aspose.com/words/java/com.aspose.words/table/#getLastRow)، وغيرها.
+- تعرض العقدة الأم مجموعة مكتوبة من العقد الفرعية، مثل [Document.Sections](https://reference.aspose.com/words/java/com.aspose.words/document/#getSections)، [Body.Paragraphs](https://reference.aspose.com/words/java/com.aspose.words/story/#getParagraphs)، وغيرها.
+- توفر العقدة الفرعية وصولا مكتوبا إلى الأصل، مثل [Run.ParentParagraph](https://reference.aspose.com/words/java/com.aspose.words/inline/#getParentParagraph)، [Paragraph.ParentSection](https://reference.aspose.com/words/java/com.aspose.words/paragraph/#getParentSection)، وغيرها.
 
-إن الممتلكات المصنَّفة هي مجرد اختصارات مفيدة توفر في بعض الأحيان سهولة الحصول على الممتلكات العامة الموروثة من الممتلكات العامة [Node.ParentNode](https://reference.aspose.com/words/java/com.aspose.words/node/#getParentNode) و [CompositeNode.FirstChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getFirstChild).
+الخصائص المكتوبة هي مجرد اختصارات مفيدة توفر أحيانا وصولا أسهل من الخصائص العامة الموروثة من [Node.ParentNode](https://reference.aspose.com/words/java/com.aspose.words/node/#getParentNode) و [CompositeNode.FirstChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getFirstChild).
 
-The following code example shows how to use typed properties to access nodes of the document tree:
+يوضح مثال التعليمات البرمجية التالية كيفية استخدام الخصائص المكتوبة للوصول إلى عقد شجرة المستندات:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-TypedAccessToChildrenAndParent-.java" >}}

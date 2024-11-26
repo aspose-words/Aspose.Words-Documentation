@@ -1,4 +1,4 @@
-﻿---
+---
 title: ทำงานกับคอลัมน์และแถวในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: ทำงานกับคอลัมน์และแถว
@@ -7,6 +7,7 @@ description: "การทำงานกับส่วนของตารา
 type: docs
 weight: 30
 url: /th/cpp/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 สำหรับการควบคุมการทำงานของตารางให้เรียนรู้วิธีจัดการคอลัมน์และแถว.

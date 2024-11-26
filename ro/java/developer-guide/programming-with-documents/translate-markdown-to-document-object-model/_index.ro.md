@@ -1,4 +1,4 @@
-﻿---
+---
 title: Traduceți Markdown în DOM
 second_title: Aspose.Words pentru Java
 articleTitle: Traduceți Markdown în Document Object Model (DOM)
@@ -7,6 +7,7 @@ type: docs
 description: "Tarnslate un document Markdown pentru a documenta Modelul obiect și înapoi. Deci, puteți lucra cu Markdown existent complex și puteți crea programatic un document Markdown de la zero folosind Java."
 weight: 20
 url: /ro/java/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Pentru a citi, manipula și modifica în mod programatic conținutul și formatarea unui document, trebuie să îl traduceți în Aspose.Words Document Object Model (DOM).

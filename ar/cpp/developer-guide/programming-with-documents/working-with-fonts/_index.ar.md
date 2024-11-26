@@ -1,4 +1,4 @@
-﻿---
+---
 title: العمل مع الخطوط في C++
 second_title: Aspose.Words ل C++
 articleTitle: العمل مع الخطوط
@@ -7,6 +7,7 @@ description: "تنسيق الخط في التفاصيل باستخدام C++."
 type: docs
 weight: 230
 url: /ar/cpp/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 الخط عبارة عن مجموعة من الأحرف ذات حجم ولون وتصميم معين. Aspose.Words يسمح لك بالعمل مع الخطوط باستخدام [Fonts](https://reference.aspose.com/words/cpp/aspose.words.fonts/) مساحة الاسم و [Font](https://reference.aspose.com/words/cpp/aspose.words/font/) صف دراسي.

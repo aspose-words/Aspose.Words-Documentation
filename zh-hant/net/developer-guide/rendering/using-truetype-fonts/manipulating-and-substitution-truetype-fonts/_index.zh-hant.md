@@ -7,6 +7,7 @@ description: "`.NET 的 Aspose.Words 可以將正確的 TrueType 字體嵌入到
 type: docs
 weight: 10
 url: /zh-hant/net/manipulating-and-substitution-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words 需要 TrueType 字體來執行各種任務，包括以固定頁面格式 render 文檔，例如 PDF 或 XPS。 當 Aspose.Words 渲染一篇文件時，它必須將 TrueType 字體嵌入成最終的文件中，或對這些字體進行子集嵌入，這是一種常見於文件生成過程中的做法，其中包括熱門的 PDF 或 XPS 格式。 這可保證該文件在任何閲覧者眼中會相同。 此外，XPS 規格也要求字體必須總是嵌入在文件中。
@@ -58,7 +59,7 @@ Aspose.Words 需要 TrueType 字體來執行各種任務，包括以固定頁面
 1. 如果 Aspose.Words 無法使用正確的名稱匹配來定位所需的字體，且此字體中定義的 [AltName](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/altname/) 屬性， Aspose.Words 將從 [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) 類別中定位以 **AltName** 定義的字體，此字體會指定字體資訊。
 1. 如果Aspose.Words無法找到定義的字體，而**AltName**也未定義，則字體替換規則將逐一應用，如下所述（當找到合適的替換時，字體替換過程停止，接下來的一步不會執行）：
    1. 首先，Aspose.Words嘗試處理字型名稱來取得替代，尤其是它嘗試去除以-及,為分隔符的尾接。<br>
-      若此替換規則發生，字型 ' &lt;OriginalFont&gt;' 尚未找到。 使用 'SubstitutionFont' 字體替代。 警告會顯示：<br>理由：字型名稱替代。
+      若此替換規則發生，字型 ' <OriginalFont>' 尚未找到。 使用 'SubstitutionFont' 字體替代。 警告會顯示：<br>理由：字型名稱替代。
 {{< gist "aspose-words-gists" "a08698f540d47082b4e2dbb1cb67fc1b" "get-substitution-without-suffixes.cs" >}}
    1. 接著，Aspose.Words會試圖使用 **FontConfig** 工具來應用可用 operating system 的字體設定。 此非 Windows 功能必須與能相容於 FontConfig 的作業系統一起使用。 幾乎所有以Unix為基礎的作業系統，都已經有一個 `FontConfig` 程式庫，它設計用於提供系統全體的字型設定、客製化及讓應用軟體存取。 不然，這本書庫可以很容易地由使用者安裝。
       Aspose.Words 知道如何檢索資料並解讀 FontConfig 的結果，以作為自己目的使用。 預設中，`FontConfig` 這個工具是禁用的。 您可以按照以下方式啟用："<br>

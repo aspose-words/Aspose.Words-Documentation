@@ -7,6 +7,7 @@ description: "Documenten digitaal ondertekenen en bestaande digitale handtekenin
 type: docs
 weight: 30
 url: /nl/java/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Een digitale handtekening is een technologische implementatie van elektronische handtekeningen om documenten te ondertekenen en de ondertekening te authenticeren om te garanderen dat een document sinds de ondertekening niet is gewijzigd. Elke digitale handtekening is uniek voor elke tekenaar vanwege het volgen van het PKI protocol om zowel publieke als private sleutels te genereren. Het digitaal ondertekenen van een document betekent een handtekening maken met behulp van de private sleutel van de ondertekening waar een wiskundig algoritme wordt gebruikt om de gegenereerde hash te versleutelen.

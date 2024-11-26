@@ -1,4 +1,4 @@
-﻿---
+---
 title: Using Lexical Tokens in Java
 second_title: Aspose.Words for Java
 articleTitle: Using Lexical Tokens
@@ -7,6 +7,7 @@ description: "Use lexical tokens in template expressions when building a report 
 type: docs
 weight: 10
 url: /java/using-lexical-tokens/
+timestamp: 2024-10-21-11-17-44
 ---
 
 The following table describes lexical tokens that you can use in template expressions and restrictions on these tokens’ usage comparing with C# Language Specification 5.0.

@@ -7,6 +7,7 @@ description: "PHP: how to use Aspose.Words for Java."
 type: docs
 weight: 40
 url: /java/php-and-aspose-words-for-java/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words for Java is an advanced class library for Java that enables you to perform a great range of document processing tasks directly within your Java applications.

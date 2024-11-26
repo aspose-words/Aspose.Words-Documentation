@@ -7,6 +7,7 @@ description: "Ignore Design Row Height and Allow Auto Fit settings of the Aspose
 type: docs
 weight: 120
 url: /reportingservices/ignore-design-row-height-and-allow-auto-fit/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

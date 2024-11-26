@@ -1,4 +1,4 @@
-﻿---
+---
 title: Travailler avec PDF/A ou PDF/UA
 second_title: Aspose.Words pour C++
 articleTitle: Travailler avec PDF/A ou PDF/UA
@@ -7,6 +7,7 @@ description: "Convertir en PDF/A-1, PDF/A-2, PDF/A-4 et PDF/UA en utilisant C++.
 type: docs
 weight: 38
 url: /fr/cpp/working-with-pdfa-or-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Les formats PDF/A et PDF/UA imposent plusieurs exigences liées au contenu du document qui ne peuvent pas être remplies lors de la conversion automatique d'un document au format Word en PDF. Ces exigences doivent être vérifiées et corrigées soit dans un document Word avant la conversion, soit dans un document PDF après la conversion afin de produire un document entièrement conforme PDF/A et PDF/UA.

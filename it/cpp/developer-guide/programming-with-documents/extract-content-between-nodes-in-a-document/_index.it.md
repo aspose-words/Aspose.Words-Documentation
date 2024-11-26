@@ -1,4 +1,4 @@
-﻿---
+---
 title: Come estrarre il contenuto tra i nodi del documento
 second_title: Aspose.Words per C++
 articleTitle: Estrarre il contenuto tra i nodi di un documento
@@ -7,6 +7,7 @@ type: docs
 description: "Estrazione del contenuto del documento in diversi utilizzando C++."
 weight: 140
 url: /it/cpp/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Quando si lavora con i documenti, è importante essere in grado di estrarre facilmente il contenuto da un intervallo specifico all'interno di un documento. Tuttavia, il contenuto può essere costituito da elementi complessi come paragrafi, tabelle, immagini, ecc.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cum se setează proprietățile axei diagramei în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Cum să setați proprietățile axei diagramei
@@ -7,6 +7,7 @@ description: "Reglarea axei diagramei folosind C++."
 type: docs
 weight: 20
 url: /ro/cpp/how-to-set-chart-axis-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dacă doriți să lucrați cu axa diagramei, scalarea și unitățile de afișare pentru axa valorii, vă rugăm să utilizați clasele [ChartAxis](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.chart_axis), [AxisDisplayUnit](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_display_unit) și [AxisScaling](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_scaling).

@@ -7,6 +7,7 @@ description: "Jak znaleźć odpowiednią czcionkę lub jej odpowiednie zastąpie
 type: docs
 weight: 20
 url: /pl/java/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Podczas pracy z dokumentami, często trzeba używać różnych czcionek, stylów i rozmiarów. Dokumenty mogą zawierać dowolną liczbę czcionek, które niekoniecznie są ograniczone do czcionek zainstalowanych w systemie operacyjnym. Czcionki mogą być zupełnie różne, takie jak czcionki pobrane z innych systemów operacyjnych, zakupione lub stworzone przez samych użytkowników.

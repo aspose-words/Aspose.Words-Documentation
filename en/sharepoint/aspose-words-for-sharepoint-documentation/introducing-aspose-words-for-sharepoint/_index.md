@@ -7,6 +7,7 @@ description: "Common overview of the Aspose.Words for SharePoint functionality."
 type: docs
 weight: 10
 url: /sharepoint/introducing-aspose-words-for-sharepoint/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ![todo:image_alt_text](introducing-aspose-words-for-sharepoint_1)

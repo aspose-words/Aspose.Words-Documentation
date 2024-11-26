@@ -7,6 +7,7 @@ description: "Read contents of Word documents using Aspose.Words DNN Word Import
 type: docs
 weight: 30
 url: /net/dnn-word-import-module/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Aspose .NET Word Import for DNN Module allows developers to get/read contents of Word document without requiring any other software such as Microsoft Word or OpenOffice. This module demonstrates the powerful import feature provided by [Aspose.Word](https://products.aspose.com/words/net/). It adds a simple file browser control, Content Pane selection and **Import from Word** button on the page where the module is added. When clicking on the button, the document contents are displayed on the screen immediately.

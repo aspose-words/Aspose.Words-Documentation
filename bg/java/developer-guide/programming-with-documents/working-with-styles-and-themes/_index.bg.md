@@ -7,6 +7,7 @@ description: "Засилено Microsoft Word форматиране на фун
 type: docs
 weight: 110
 url: /bg/java/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 На [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) класът се използва за управление на вградени и прилагане на потребителски настройки в стилове.

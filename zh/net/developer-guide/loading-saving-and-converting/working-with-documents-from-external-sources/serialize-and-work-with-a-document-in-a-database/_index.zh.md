@@ -7,6 +7,7 @@ description: "将文档转换为字节数组，以便使用 C# 在数据库中�
 type: docs
 weight: 10
 url: /zh/net/serialize-and-work-with-a-document-in-a-database/
+timestamp: 2024-07-09-19-00-42
 ---
 
 处理文档时可能需要完成的任务之一是在数据库中存储和检索 **Document** 对象。例如，如果您正在实施任何类型的内容管理系统，则这是必要的。所有以前版本的文档都必须存储在数据库系统中。当您的应用程序提供基于 Web 的服务时，在数据库中存储文档的能力也非常有用。

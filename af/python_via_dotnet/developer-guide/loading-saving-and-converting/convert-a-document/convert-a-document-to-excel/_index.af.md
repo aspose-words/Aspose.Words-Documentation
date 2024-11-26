@@ -1,4 +1,4 @@
-﻿---
+---
 title: Skakel Word Na Excel in Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Skakel'n Dokument Om Na Excel
@@ -7,6 +7,7 @@ description: "Omskep PDF Na Excel, XML Na Excel, DOCX na Excel Python. Stoor'n d
 type: docs
 weight: 15
 url: /af/python-net/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Die omskakeling van dokumente van een formaat na'n ander is die vlagskip kenmerk van Aspose.Words. U kan dokumente in enige beskikbare [load format](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) ook omskakel na XLSX formaat.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Sử dụng phông chữ TrueType trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Sử Dụng Phông Chữ TrueType
@@ -7,6 +7,7 @@ description: "Aspose.Words cho C++ có thể tìm thấy phông chữ phù hợp
 type: docs
 weight: 20
 url: /vi/cpp/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Khi làm việc với tài liệu, bạn thường phải sử dụng các phông chữ, kiểu dáng và kích cỡ khác nhau. Tài liệu có thể chứa bất kỳ số lượng phông chữ nào, không nhất thiết chỉ giới hạn ở các phông chữ được cài đặt trong hệ điều hành. Các phông chữ có thể hoàn toàn khác nhau, chẳng hạn như phông chữ lấy từ các hệ điều hành khác, được mua hoặc do chính người dùng tạo.

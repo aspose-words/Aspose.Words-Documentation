@@ -1,4 +1,4 @@
-﻿---
+---
 title: Spesifiseer Laadkeuses in Java
 second_title: Aspose.Words vir Java
 articleTitle: Spesifiseer Laai Opsies
@@ -7,6 +7,7 @@ description: "Stel gevorderde eienskappe wanneer'n dokument gelaai word met Java
 type: docs
 weight: 10
 url: /af/java/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Wanneer jy'n dokument laai, kan jy'n paar gevorderde eienskappe stel. Aspose.Words bied u die [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) klas, wat meer presiese beheer van die lasproses moontlik maak. Sommige laai formate het'n ooreenstemmende klas wat laai opsies vir hierdie laai formaat hou, byvoorbeeld, daar is [PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) vir laai na PDF formaat of [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) vir laai na TXT. Hierdie artikel bied voorbeelde van die werk met opsies van die **LoadOptions** klas.

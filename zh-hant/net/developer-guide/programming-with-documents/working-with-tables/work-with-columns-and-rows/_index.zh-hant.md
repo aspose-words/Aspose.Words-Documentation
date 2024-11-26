@@ -7,6 +7,7 @@ description: "使用 C# 處理表格中的部分元素 – 行、欄位和單元
 type: docs
 weight: 30
 url: /zh-hant/net/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 為了對表格工作有更多控制權，學習如何操作欄位和列。

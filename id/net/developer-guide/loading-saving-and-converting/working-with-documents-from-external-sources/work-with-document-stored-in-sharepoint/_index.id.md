@@ -1,12 +1,13 @@
 ---
-title: Bekerja dengan Dokumen yang Disimpan di `SharePoint` Online
+title: Bekerja dengan Dokumen yang Disimpan di SharePoint Online
 second_title: Aspose.Words untuk .NET
-articleTitle: Bekerja dengan Dokumen yang Disimpan di `SharePoint` Online
-linktitle: Bekerja dengan Dokumen yang Disimpan di `SharePoint` Online
+articleTitle: Bekerja dengan Dokumen yang Disimpan di SharePoint Online
+linktitle: Bekerja dengan Dokumen yang Disimpan di SharePoint Online
 description: "Konversikan Word yang dibagikan di SharePoint ke PDF menggunakan C#. Bekerja dengan dokumen yang disimpan di SharePoint – berbagai format input, termasuk Word, OpenOffice, Image, dan eBook."
 type: docs
 weight: 20
 url: /id/net/work-with-document-stored-in-sharepoint/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Microsoft SharePoint Online adalah kumpulan teknologi berbasis web yang memudahkan organisasi untuk menyimpan, berbagi, dan mengelola informasi digital. Anda dapat bekerja dengan dokumen yang disimpan di folder "Dokumen Bersama" di SharePoint menggunakan Aspose.Words kami yang canggih untuk .NET.

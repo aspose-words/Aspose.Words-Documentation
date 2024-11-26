@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cấp phép Và Đăng ký
 second_title: Aspose.Words cho C++
 articleTitle: Cấp phép Và Đăng ký
@@ -7,6 +7,7 @@ description: "Aspose.Words Đối Với С Cung cấp các gói khác nhau để
 type: docs
 weight: 60
 url: /vi/cpp/licensing/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Đôi khi, để nghiên cứu hệ thống tốt hơn, bạn muốn đi sâu vào mã càng nhanh càng tốt. Để làm cho điều này dễ dàng hơn, Aspose.Words cung cấp các gói khác nhau để mua hoặc Cung cấp Bản Dùng Thử miễn phí và Giấy phép Tạm thời 30 ngày để đánh giá.

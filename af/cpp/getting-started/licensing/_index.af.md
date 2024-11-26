@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lisensie en Inskrywing
 second_title: Aspose.Words vir C++
 articleTitle: Lisensie en Inskrywing
@@ -7,6 +7,7 @@ description: "Aspose.Words vir Argentia++ bied verskillende planne vir die aanko
 type: docs
 weight: 60
 url: /af/cpp/licensing/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Soms, om die stelsel beter te bestudeer, wil jy so vinnig as moontlik in die kode duik. Om dit makliker te maak, bied Aspose.Words verskillende planne vir aankoop of bied'n Gratis Proeflopie en'n 30-dag Tydelike Lisensie vir evaluering.

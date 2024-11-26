@@ -7,6 +7,7 @@ description: "Přesnější řízení procesu ukládání pomocí Python."
 type: docs
 weight: 10
 url: /cs/python-net/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Při ukládání dokumentu můžete nastavit některé pokročilé vlastnosti. Aspose.Words poskytuje vám [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) třída, která umožňuje přesnější řízení procesu uložení. Jsou tu přetížení. [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) metoda, která přijímá [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) Objekt: [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) třída. Každý formát uložení má odpovídající třídu, která drží možnosti uložení pro tento formát uložení, například, tam je [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) pro uložení do formátu PDF nebo [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/) za záchranu obrazu. Tento článek uvádí příklady práce s některými třídami možností odvozenými z [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/).

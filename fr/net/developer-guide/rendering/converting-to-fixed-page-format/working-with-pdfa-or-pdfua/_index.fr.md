@@ -7,6 +7,7 @@ description: "Convertissez en PDF/A-1, PDF/A-2, PDF/A-4 et PDF/UA à l'aide de C
 type: docs
 weight: 28
 url: /fr/net/working-with-pdfa-or-pdfua/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Les formats PDF/A et PDF/UA imposent plusieurs exigences liées au contenu du document qui ne peuvent être remplies lors de la conversion automatique d'un document au format Word vers PDF. Ces exigences doivent être vérifiées et corrigées soit dans un document Word avant la conversion, soit dans un document PDF après la conversion afin de produire un document entièrement conforme aux formats PDF/A et PDF/UA.

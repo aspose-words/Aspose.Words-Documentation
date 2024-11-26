@@ -7,6 +7,7 @@ description: "Chart series tuning using C++."
 type: docs
 weight: 40
 url: /cpp/working-with-chartseries/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words allows users to work with ChartSeriesCollection in a few ways.

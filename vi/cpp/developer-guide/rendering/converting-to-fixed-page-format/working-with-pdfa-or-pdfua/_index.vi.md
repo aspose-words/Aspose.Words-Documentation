@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm việc với PDF/A hoặc PDF/UA
 second_title: Aspose.Words cho C++
 articleTitle: Làm việc với PDF/A hoặc PDF/UA
@@ -7,6 +7,7 @@ description: "Chuyển đổi sang PDF/A-1, PDF/A-2, PDF/A-4 và PDF/UA sử d�
 type: docs
 weight: 38
 url: /vi/cpp/working-with-pdfa-or-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Định dạng PDF/A và PDF/UA áp đặt một số yêu cầu liên quan đến nội dung tài liệu không thể đáp ứng trong quá trình chuyển đổi tự động từ tài liệu ở Định dạng Word sang PDF. Các yêu cầu này cần được xác minh và sửa chữa trong Tài liệu Word trước khi chuyển đổi hoặc trong tài liệu PDF sau khi chuyển đổi để tạo ra tài liệu tuân thủ đầy đủ PDF/A và PDF/UA.

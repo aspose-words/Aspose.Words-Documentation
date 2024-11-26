@@ -1,4 +1,4 @@
-﻿---
+---
 title: Feature Tour
 second_title: Aspose.Words for JasperReports
 articleTitle: Feature Tour
@@ -7,6 +7,7 @@ description: "This section provides a page with a list of features."
 type: docs
 weight: 40
 url: /jasperreports/feature-tour/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## This section includes the following topics: 

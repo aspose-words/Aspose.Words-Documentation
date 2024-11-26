@@ -7,6 +7,7 @@ description: "ปรับแต่งการตั้งค่าแบบอ
 type: docs
 weight: 230
 url: /th/python-net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 แบบอักษรคือชุดอักขระที่มีขนาด สี และการออกแบบที่แน่นอน Aspose.Words ช่วยให้คุณทำงานกับแบบอักษรโดยใช้โมดูล [fonts](https://reference.aspose.com/words/python-net/aspose.words.fonts/) และคลาส [Font](https://reference.aspose.com/words/python-net/aspose.words/font/)

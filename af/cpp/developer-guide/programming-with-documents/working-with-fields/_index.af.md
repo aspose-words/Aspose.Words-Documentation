@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Velde in C++
 second_title: Aspose.Words vir C++
 articleTitle: Werk Met Velde
@@ -7,6 +7,7 @@ description: "Inleiding tot veldfunksie in Aspose.Words vir C++."
 type: docs
 weight: 370
 url: /af/cpp/working-with-fields/
+timestamp: 2024-01-30-16-22-34
 ---
 
 **Velde**

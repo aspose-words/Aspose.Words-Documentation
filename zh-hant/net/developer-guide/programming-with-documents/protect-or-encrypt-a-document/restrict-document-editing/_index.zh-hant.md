@@ -7,6 +7,7 @@ description: "透過使用C#設定限制類型來限制編輯文件。 您也可
 type: docs
 weight: 30
 url: /zh-hant/net/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有時你可能需要限制編輯文件的能力，只允許某些動作。 這可以有效地防止其他人編輯您的文件中的敏感或機密資訊。

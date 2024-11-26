@@ -7,6 +7,7 @@ description: "Aspose.Words עבור .NET יכול לעזור לך עם איך ל
 type: docs
 weight: 20
 url: /he/net/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 רוב נכסי האובייקט הניתנים ב Aspose.Words API זה מייצג מידה מסוימת, כגון רוחב או גובה, שולי ומרחקים שונים, לקבל ערכים בנקודות, שבו 1 אינץ ' שווה 72 נקודות. לפעמים זה לא נוח ונקודות צריך להיות מומר ליחידות אחרות.

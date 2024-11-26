@@ -9,6 +9,7 @@ type: docs
 description: "Aspose.Words para .NET responde às perguntas mais frequentes. Aprenda esta página para resolver rapidamente seu problema em questões gerais ou tópicos específicos."
 weight: 75
 url: /pt/net/faq/
+timestamp: 2024-11-18-12-56-02
 ---
 
 Esta página contém respostas às perguntas mais frequentes. Por favor, leia a página atual – talvez isso permita que você resolva seu problema rapidamente.
@@ -128,7 +129,7 @@ Sim, você quer. Portanto, ao copiar fontes, lembre-se de que a maioria das font
 
 {{% alert color="primary" %}}
 
-Você pode encontrar informações mais detalhadas sobre mail merge na seção de documentação [Mail Merge e relatórios](/words/net/mail-merge-and-reporting/).
+Você pode encontrar informações mais detalhadas sobre Mail Merge na seção de documentação [Mail Merge e relatórios](/words/net/mail-merge-and-reporting/).
 
 {{% /alert %}}
 
@@ -143,7 +144,7 @@ O nome original do campo de mesclagem permanece o mesmo sem ser substituído pel
 
 **P: Por que a saída da mesclagem aninhada não exibe dados da tabela filho para a primeira entrada na tabela pai, mas exibe todos os itens da última entrada na tabela pai, mesmo aqueles que não estão realmente vinculados a ela?**
 
-Isso ocorre porque as regiões de mesclagem no modelo não estão formadas corretamente, o que pode fazer com que todas as regiões mail merge aninhadas parem de exibir qualquer coisa. A tag de abertura [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) e a tag de fechamento [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) devem corresponder e estar na mesma linha ou célula. Por exemplo, se você começar a aninhar regiões de mesclagem em uma célula de uma tabela, deverá encerrar a região de mesclagem na mesma linha da primeira célula.
+Isso ocorre porque as regiões de mesclagem no modelo não estão formadas corretamente, o que pode fazer com que todas as regiões Mail Merge aninhadas parem de exibir qualquer coisa. A tag de abertura [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) e a tag de fechamento [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) devem corresponder e estar na mesma linha ou célula. Por exemplo, se você começar a aninhar regiões de mesclagem em uma célula de uma tabela, deverá encerrar a região de mesclagem na mesma linha da primeira célula.
 
 ------
 
@@ -156,7 +157,7 @@ Isso ocorre porque o relacionamento entre as tabelas pai e filho não está conf
 
 ------
 
-**P: Por que há uma exceção: "System.ArgumentException: Esta restrição não pode ser habilitada porque nem todos os valores têm valores pai correspondentes" durante a execução de mail merge aninhado?**
+**P: Por que há uma exceção: "System.ArgumentException: Esta restrição não pode ser habilitada porque nem todos os valores têm valores pai correspondentes" durante a execução de Mail Merge aninhado?**
 
 Isso acontece porque nem todo registro pai tem um registro filho, então sua fonte de dados não atende aos seguintes critérios: *cada linha na tabela pai deve ter um relacionamento um-para-um com as linhas da tabela filho com base no primário e chaves estrangeiras*.
 

@@ -7,6 +7,7 @@ description: "Gabungkan tabel dalam dokumen menggunakan Python. Cara menggabungk
 type: docs
 weight: 90
 url: /id/python-net/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sebuah tabel, yang direpresentasikan dalam Aspose.Words Document Object Model, terdiri dari baris dan sel independen, sehingga memudahkan untuk menggabungkan tabel.

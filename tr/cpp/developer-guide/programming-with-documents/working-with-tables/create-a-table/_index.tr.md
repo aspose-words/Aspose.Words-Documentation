@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içinde bir Tablo Nasıl Oluşturulur
 second_title: Aspose.Words için C++
 articleTitle: Tablo Oluşturma
@@ -7,6 +7,7 @@ description: "C++ kullanarak tablo oluşturmanın farklı yolları. Belgeniz iç
 type: docs
 weight: 20
 url: /tr/cpp/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words kullanıcıların bir belgede sıfırdan tablolar oluşturmasına izin verir ve bunu yapmak için birkaç farklı yöntem sağlar. Bu makalede, her yöntemi kullanarak belgenize biçimlendirilmiş tabloların nasıl ekleneceğine ilişkin ayrıntılar ve makalenin sonunda her yöntemin karşılaştırması sunulmaktadır.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ภาพรวมของตัวสร้างเอกสารในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: ภาพรวมสร้างเอกสาร
@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilderช่วยให้คุณสามารถสร้างเอกสารแบบไดนามิกจากรอยขีดข่วนหรือเพิ่มองค์ประกอบใหม่ใ DocumentBuilderมีวิธีการแทรกข้อความกล่องกาเครื่องหมายตารางภาพและองค์ประกอบเนื้อหาอื่นๆในC++."
 weight: 30
 url: /th/cpp/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/)เป็นคลาสที่มีประสิทธิภาพที่เชื่อมโยงกับ[Document](https://reference.aspose.com/words/cpp/aspose.words/document/)และช่วยให้คุณสามารถสร้างเอกสารแบบไดนามิ.

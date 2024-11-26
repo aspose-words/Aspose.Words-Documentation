@@ -1,4 +1,4 @@
-﻿---
+---
 title: كيفية إضافة Group Shape إلى مستند ورد
 second_title: Aspose.Words ل C++
 articleTitle: العمل مع Group Shapes في مستندات ورد
@@ -7,6 +7,7 @@ description: "تجميع وفك تجميع الأشكال باستخدام C++."
 type: docs
 weight: 290
 url: /ar/cpp/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 في بعض الأحيان تحتاج إلى إضافة group shape إلى مستند ورد. يتكون هذا group shape من أشكال متعددة.

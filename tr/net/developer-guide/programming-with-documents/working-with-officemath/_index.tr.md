@@ -7,6 +7,7 @@ description: ".NET için Aspose.Words'teki Office Math özelliğine giriş."
 type: docs
 weight: 320
 url: /tr/net/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Artık OfficeMath Tipi Nesnelerle çalışmak daha da kolay. Aspose.Words'te müşteri kolayca Gerekçelendirebilir ve ayrıca bir denklemin satır içinde mi yoksa ayrı bir satırda mı görüntüleneceğini yönetebilir. Dahası, **MathObjectType**'nin kullanıma sunulmasıyla; Bu matris nesnesi kullanılarak faydalı kontroller uygulanabilir.

@@ -8,6 +8,7 @@ description: "Een document opslaan in elk ondersteund formaat C#."
 keywords: "save a document c#, save a document to file c#, save a document to stream c#, save a document Aspose .NET, save formats supported by Aspose.Words .NET"
 weight: 20
 url: /nl/net/save-a-document/
+timestamp: 2024-07-09-19-00-42
 ---
 
 De meeste taken die u moet uitvoeren met Aspose.Words een document opslaan. Een document opslaan Aspose.Words levert de [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) methode van de [Document](https://reference.aspose.com/words/net/aspose.words/document/) Klasse. Er zijn overbelastingen die het opslaan van een document in een bestand, stream, of ASP.NET HttpResrespons object voor het verzenden naar een client browser. Het document kan worden opgeslagen in elk formaat dat wordt ondersteund door Aspose.Words. Voor de lijst van alle ondersteunde opslagformaten, zie de [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/) Lijst.

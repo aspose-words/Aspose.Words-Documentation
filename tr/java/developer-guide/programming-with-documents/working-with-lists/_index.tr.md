@@ -7,6 +7,7 @@ description: "Sayılandırma biçimlendirme özelliğine giriş Aspose.Words iç
 type: docs
 weight: 200
 url: /tr/java/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir Microsoft Word belgesindeki liste bir dizi liste biçimlendirme özelliğidir. Listeler belgenizde metin biçimlendirmek, düzenlemek ve vurgulamak için kullanılabilir. Listeler, belgelerinizdeki verileri düzenlemenin harika bir yoludur ve okuyucuların önemli noktaları daha kolay anlamasını sağlar.

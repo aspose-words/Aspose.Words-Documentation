@@ -1,4 +1,4 @@
-﻿---
+---
 title: Ürüne Genel Bakış
 second_title: Aspose.Words için C++
 articleTitle: Ürüne Genel Bakış
@@ -7,6 +7,7 @@ description: "Aspose.Words için C++ başka bir yazılıma güvenmeden belgeler 
 type: docs
 weight: 5
 url: /tr/cpp/product-overview/
+timestamp: 2024-06-05-14-43-57
 ---
 
 <img src="product-overview_1" alt="aspose-words-product_cpp" align="left" style="width:64px; margin: 0 30px 30px 0"/>

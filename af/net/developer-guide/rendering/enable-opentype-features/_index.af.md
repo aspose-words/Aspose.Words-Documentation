@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aktiveer OpenType Kenmerke in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Aktiveer OpenType Kenmerke
@@ -7,6 +7,7 @@ description: "Gevorderde tipografie funksies met behulp van C#."
 type: docs
 weight: 25
 url: /af/net/enable-opentype-features/
+timestamp: 2024-07-10-14-38-57
 ---
 
 OpenType is'n lettertipe formaat, bekendgestel om beter ondersteuning vir internasionale tale en skryfstelsels te bied in vergelyking met PostScript en TrueType. Die uitleg kenmerke van OpenType is algemeen bekend as OpenType kenmerke. Aspose.Words.Vorming.HarfBuzz pakket bied ondersteuning vir OpenType funksies in Aspose.Words met behulp van HarfBuzz teks vorm enjin.

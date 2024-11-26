@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabalhar com estilos em C++
 second_title: Aspose.Words para C++
 articleTitle: Trabalhar com estilos
@@ -7,6 +7,7 @@ description: "Recursos de formatação Microsoft Word aprimorados, trabalhando c
 type: docs
 weight: 110
 url: /pt/cpp/working-with-styles-and-themes/
+timestamp: 2024-01-30-16-22-34
 ---
 
 A classe [StyleCollection](https://reference.aspose.com/words/cpp/aspose.words/stylecollection/) é usada para gerenciar configurações internas e aplicar configurações definidas pelo usuário a estilos.
@@ -33,7 +34,7 @@ Neste documento de exemplo, o texto formatado com o estilo de parágrafo 'Títul
 
 ### O Código
 
-A implementação de uma consulta baseada em estilo é bastante simples no modelo de objeto de Documento Aspose.Words, pois simplesmente usa ferramentas que já estão em vigor. Dois métodos de classe são implementados para esta solução: # **ParagraphsByStyleName** - este método recupera uma matriz dos parágrafos no documento que têm um nome de estilo específico.# **RunsByStyleName** - este método recupera uma matriz dessas execuções no documento que têm um nome de estilo específico. Ambos os métodos são muito semelhantes, sendo as únicas diferenças os tipos de nós e a representação das informações de estilo nos nós de parágrafo e de execução. Aqui está uma implementação de ParagraphsByStyleName. Abaixo exemplo encontrar todos os parágrafos formatados com o estilo especificado.
+A implementação de uma consulta baseada em estilo é bastante simples no modelo de objeto de Documento Aspose.Words, pois simplesmente usa ferramentas que já estão em vigor. Dois métodos de classe são implementados para esta solução: **ParagraphsByStyleName** - este método recupera uma matriz dos parágrafos no documento que têm um nome de estilo específico. **RunsByStyleName** - este método recupera uma matriz dessas execuções no documento que têm um nome de estilo específico. Ambos os métodos são muito semelhantes, sendo as únicas diferenças os tipos de nós e a representação das informações de estilo nos nós de parágrafo e de execução. Aqui está uma implementação de ParagraphsByStyleName. Abaixo exemplo encontrar todos os parágrafos formatados com o estilo especificado.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.cpp" >}}
 

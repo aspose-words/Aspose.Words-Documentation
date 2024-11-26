@@ -1,4 +1,4 @@
-﻿---
+---
 title: Inserisci Checkboxes, Testo o Immagini durante Mail Merge
 second_title: Aspose.Words per C++
 articleTitle: Inserisci Checkboxes, Testo o immagini
@@ -7,6 +7,7 @@ description: "Inserisci caselle di controllo o campi di input di testo durante M
 type: docs
 weight: 40
 url: /it/cpp/insert-checkboxes-text-input-or-images-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Il motore di unione prende un documento come input, cerca i campi `MERGEFIELD` e li sostituisce con i dati ottenuti dall'origine dati. In genere vengono inseriti testo normale e HTML, ma gli utenti di Aspose.Words possono anche generare un documento che gestisce scenari più insoliti per i campi mail merge.
@@ -18,7 +19,7 @@ La potente funzionalità Aspose.Words consente di estendere il processo mail mer
 
 ## Inserisci Checkbox es e Input di testo durante Mail Merge
 
-A volte è necessario eseguire un'operazione mail merge in modo che non venga sostituito il testo nel campo Unione, ma una casella di controllo o un campo di immissione del testo. Anche se questo non è lo scenario più comune, è molto utile per alcune attività.
+A volte è necessario eseguire un'operazione Mail Merge in modo che non venga sostituito il testo nel campo Unione, ma una casella di controllo o un campo di immissione del testo. Anche se questo non è lo scenario più comune, è molto utile per alcune attività.
 
 La seguente schermata di un documento Word mostra un modello con campi di unione:
 
@@ -42,11 +43,11 @@ L'esempio di codice seguente mostra come inserire caselle di controllo e campi d
 
 ## Inserire immagini durante Mail Merge
 
-Quando si esegue un'operazione mail merge, è possibile inserire immagini dal database nel documento utilizzando campi immagine speciali mail merge. Il campo image mail merge è un campo di unione denominato Image: MyFieldName.
+Quando si esegue un'operazione mail merge, è possibile inserire immagini dal database nel documento utilizzando campi immagine speciali mail merge. Il campo image Mail Merge è un campo di unione denominato Image: MyFieldName.
 
 ### Inserire immagini da un database
 
-Durante un mail merge, quando viene rilevato un campo immagine mail merge in un documento, viene attivato l'evento [FieldMergingCallback](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_fieldmergingcallback/). È possibile rispondere a questo evento per restituire un nome file, un flusso o un oggetto immagine al motore mail merge in modo che possa essere inserito nel documento.
+Durante un mail merge, quando viene rilevato un campo immagine Mail Merge in un documento, viene attivato l'evento [FieldMergingCallback](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_fieldmergingcallback/). È possibile rispondere a questo evento per restituire un nome file, un flusso o un oggetto immagine al motore Mail Merge in modo che possa essere inserito nel documento.
 
 L'esempio di codice seguente mostra come inserire le immagini memorizzate in un campo database BLOB in un report:
 

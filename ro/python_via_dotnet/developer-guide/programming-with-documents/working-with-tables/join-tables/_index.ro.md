@@ -1,4 +1,4 @@
-﻿---
+---
 title: Alăturați-Vă Tabelelor
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Alăturați-Vă Tabelelor
@@ -7,6 +7,7 @@ description: "Alăturați tabele într-un document folosind Python. Cum să îmb
 type: docs
 weight: 90
 url: /ro/python-net/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un tabel, reprezentat în modelul de obiect Document Aspose.Words, este alcătuit din rânduri și celule independente, facilitând unirea tabelelor.

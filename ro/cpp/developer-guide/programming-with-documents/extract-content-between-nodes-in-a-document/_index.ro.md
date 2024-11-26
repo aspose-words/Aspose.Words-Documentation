@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cum se extrage conținutul între nodurile documentului
 second_title: Aspose.Words pentru C++
 articleTitle: Extrageți conținutul între nodurile dintr-un Document
@@ -7,6 +7,7 @@ type: docs
 description: "Extragerea conținutului documentului în diferite folosind C++."
 weight: 140
 url: /ro/cpp/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Când lucrați cu documente, este important să puteți extrage cu ușurință conținut dintr-un anumit interval dintr-un document. Cu toate acestea, conținutul poate consta din elemente complexe, cum ar fi paragrafe, tabele, imagini etc.

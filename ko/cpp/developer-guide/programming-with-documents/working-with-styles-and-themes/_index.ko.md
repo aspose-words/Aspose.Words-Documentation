@@ -1,4 +1,4 @@
-﻿---
+---
 title: 스타일 작업 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 스타일 작업
@@ -7,6 +7,7 @@ description: "향상된 Microsoft Word 서식 지정 기능,스타일 및 테마
 type: docs
 weight: 110
 url: /ko/cpp/working-with-styles-and-themes/
+timestamp: 2024-01-30-16-22-34
 ---
 
 그 [StyleCollection](https://reference.aspose.com/words/cpp/aspose.words/stylecollection/) 클래스는 기본 제공 관리 및 스타일에 사용자 정의 설정을 적용하는 데 사용됩니다.
@@ -33,7 +34,7 @@ url: /ko/cpp/working-with-styles-and-themes/
 
 ### 코드
 
-스타일 기반 쿼리의 구현은 매우 간단합니다. Aspose.Words 문서 개체 모델,그것은 단순히 장소에 이미 도구를 사용합니다. 이 솔루션에 대해 두 가지 클래스 메서드가 구현됩니다:# **ParagraphsByStyleName** -이 메서드는 특정 스타일 이름이 있는 문서의 해당 단락 배열을 검색합니다.# **RunsByStyleName** -이 메서드는 특정 스타일 이름이 있는 문서의 실행 배열을 검색합니다. 이 두 가지 방법은 매우 유사하며,유일한 차이점은 노드 유형과 단락 및 실행 노드 내의 스타일 정보의 표현입니다. 여기 구현이 있습니다. ParagraphsByStyleName. 아래 예에서는 지정된 스타일로 서식이 지정된 모든 단락을 찾습니다.
+스타일 기반 쿼리의 구현은 매우 간단합니다. Aspose.Words 문서 개체 모델,그것은 단순히 장소에 이미 도구를 사용합니다. 이 솔루션에 대해 두 가지 클래스 메서드가 구현됩니다: **ParagraphsByStyleName** -이 메서드는 특정 스타일 이름이 있는 문서의 해당 단락 배열을 검색합니다. **RunsByStyleName** -이 메서드는 특정 스타일 이름이 있는 문서의 실행 배열을 검색합니다. 이 두 가지 방법은 매우 유사하며,유일한 차이점은 노드 유형과 단락 및 실행 노드 내의 스타일 정보의 표현입니다. 여기 구현이 있습니다. ParagraphsByStyleName. 아래 예에서는 지정된 스타일로 서식이 지정된 모든 단락을 찾습니다.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.cpp" >}}
 

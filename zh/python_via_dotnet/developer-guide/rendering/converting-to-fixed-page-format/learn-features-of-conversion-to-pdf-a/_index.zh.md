@@ -7,6 +7,7 @@ description: "使用 Python 转换为 PDF/A-1、PDF/A-2、PDF/A-4 和 PDF/UA。�
 type: docs
 weight: 25
 url: /zh/python-net/learn-features-of-conversion-to-pdf-a/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF 是一种固定页面格式，深受用户欢迎，并受到各种应用程序的广泛支持，因为 PDF 文档在任何设备上看起来都是一样的。因此，转换为 PDF 是 Aspose.Words 的一个重要功能。

@@ -7,6 +7,7 @@ description: "Een gids over hoe je een tafel te maken in C# op verschillende man
 type: docs
 weight: 20
 url: /nl/net/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words stelt gebruikers in staat om tabellen te maken in een document vanaf nul en biedt verschillende methoden om dit te doen. Dit artikel geeft details over hoe u geformatteerde tabellen toe te voegen aan uw document met behulp van elke methode, evenals een vergelijking van elke methode aan het einde van het artikel.

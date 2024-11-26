@@ -1,4 +1,4 @@
-﻿---
+---
 title: Gestione di metafile Windows in C++
 second_title: Aspose.Words per C++
 articleTitle: Gestione dei metafile Windows
@@ -7,6 +7,7 @@ description: "Aspose.Words per C++ implementa il proprio lettore Metafile Window
 type: docs
 weight: 30
 url: /it/cpp/handling-windows-metafiles/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Windows Metafile format è un formato di file immagine che può contenere sia grafica vettoriale che raster. Questo formato viene utilizzato per memorizzare i dati grafici in memoria o file su disco. Un metafile memorizza un elenco di chiamate di funzione nel GDI (Graphics Device Interface) Windows che devono essere eseguite per visualizzare l'immagine sullo schermo. Il sistema interpreta ed esegue questi comandi nel contesto di visualizzazione.

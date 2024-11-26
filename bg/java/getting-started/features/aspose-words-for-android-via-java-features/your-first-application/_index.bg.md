@@ -7,6 +7,7 @@ description: "Инсталиране Aspose.Words вместо Android през 
 type: docs
 weight: 30
 url: /bg/java/your-first-application/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Тази статия ви дава идея за започване с Aspose.Words вместо Android през Java. Тя ще покаже как да се създаде нов Android проект от нулата, добавете препратка към Aspose.Words JAR и създаване на нов документ, който се записва на диск в DOCX формат. Този пример се използва [Android Студио](https://developer.android.com/studio/index.html) за разработване и прилагането се извършва на Android Емулатор. Да започнем с Aspose.Words вместо Android през JavaМоля, следвайте този урок стъпка по стъпка, за да създадете приложение, което използва Aspose.Words вместо Android през Java:

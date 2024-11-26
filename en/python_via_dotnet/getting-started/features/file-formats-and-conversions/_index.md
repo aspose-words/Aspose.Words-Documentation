@@ -1,4 +1,4 @@
-﻿---
+---
 title: File Formats and Conversions
 second_title: Aspose.Words for Python via .NET
 articleTitle: File Formats and Conversions
@@ -22,6 +22,7 @@ aliases:
  - /python/digital-publishing-epub/
  - /python/adobe-portable-document-format-pdf/
  - /python/file-formats-and-conversions/
+timestamp: 2024-01-31-14-23-37
 ---
 
 {{% alert color="primary" %}}

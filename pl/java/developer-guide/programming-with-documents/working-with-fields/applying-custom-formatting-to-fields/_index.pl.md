@@ -7,6 +7,7 @@ description: "Format i ocena wyników pól za pomocą Java."
 type: docs
 weight: 40
 url: /pl/java/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Czasami użytkownicy muszą stosować niestandardowe formatowanie do pól. W tym artykule przyjrzymy się kilku przykładom, jak można to zrobić.

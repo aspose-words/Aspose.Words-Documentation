@@ -7,6 +7,7 @@ description: "تحويل PDF إلى Excel، XML إلى Excel، DOCX إلى Excel
 type: docs
 weight: 15
 url: /ar/python-net/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 يعد تحويل المستندات من تنسيق إلى آخر الميزة الرئيسية لـ Aspose.Words. يمكنك تحويل المستندات بأي تنسيق [تنسيق التحميل](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) متاح أيضًا إلى تنسيق XLSX.

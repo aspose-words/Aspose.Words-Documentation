@@ -7,6 +7,7 @@ type: docs
 description: "Document Object Model (DOM) е в памет представяне на Word документ. Прочетете, манипулирайте и модифицирайте съдържанието и форматирането на Word документ, използвайки Java."
 weight: 10
 url: /bg/java/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 На Aspose.Words Document Object Model (DOM) е в памет представяне на документ Word. На Aspose.Words DOM ви позволява да програмно четене, манипулация и промяна на съдържанието и форматиране на Word документ.
@@ -15,7 +16,7 @@ url: /bg/java/aspose-words-document-object-model/
 
 ## Създаване на документ Дърво на обекта {#create-a-document-objects-tree}
 
-Когато документ се чете в Aspose.Words <span notrans="<span notrans=" DOM"=""></span>,"> тогава е построен обект дърво и различни видове елементи на изходния документ имат своя собствена DOM дървесни предмети с различни свойства.
+Когато документ се чете в Aspose.Words DOM тогава е построен обект дърво и различни видове елементи на изходния документ имат своя собствена DOM дървесни предмети с различни свойства.
 
 ### Построяване на дърво с възли {#build-document-nodes-tree}
 

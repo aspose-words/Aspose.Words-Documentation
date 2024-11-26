@@ -9,6 +9,7 @@ type: docs
 description: "Aspose.Words for .NET 回答了最常见的问题。了解此页面可快速解决您的一般问题或特定主题的问题。"
 weight: 75
 url: /zh/net/faq/
+timestamp: 2024-11-18-12-56-02
 ---
 
 此页面包含最常见问题的解答。请了解当前页面--也许这能让您快速解决问题。
@@ -128,7 +129,7 @@ Aspose.Words for .NET 支持大多数流行的文档格式，例如 DOC、DOCX�
 
 {{% alert color="primary" %}}
 
-您可以在 [Mail Merge 和报告](/words/net/mail-merge-and-reporting/) 文档部分找到有关 mail merge 的更多详细信息。
+您可以在 [Mail Merge 和报告](/words/net/mail-merge-and-reporting/) 文档部分找到有关 Mail Merge 的更多详细信息。
 
 {{% /alert %}}
 
@@ -143,7 +144,7 @@ Aspose.Words for .NET 支持大多数流行的文档格式，例如 DOC、DOCX�
 
 **问：为什么嵌套合并的输出不显示父表中第一个条目的子表数据，而是显示父表中最后一个条目的所有项目，甚至是那些实际上未链接到它的项目？**
 
-这是因为模板中的合并区域的格式不正确，这可能会使所有嵌套的 mail merge 区域完全停止显示任何内容。 [StartTable](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/starttable/) 开始标记和 [EndTable](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/endtable/) 结束标记必须匹配并且位于同一行或单元格中。例如，如果您在表的单元格中开始嵌套合并区域，则必须在与第一个单元格相同的行中结束合并区域。
+这是因为模板中的合并区域的格式不正确，这可能会使所有嵌套的 Mail Merge 区域完全停止显示任何内容。 [StartTable](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/starttable/) 开始标记和 [EndTable](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/endtable/) 结束标记必须匹配并且位于同一行或单元格中。例如，如果您在表的单元格中开始嵌套合并区域，则必须在与第一个单元格相同的行中结束合并区域。
 
 ------
 
@@ -156,7 +157,7 @@ Aspose.Words for .NET 支持大多数流行的文档格式，例如 DOC、DOCX�
 
 ------
 
-**问：执行嵌套 mail merge 时，为什么会出现异常："System.ArgumentException：无法启用此约束，因为并非所有值都有相应的父值"？**
+**问：执行嵌套 Mail Merge 时，为什么会出现异常："System.ArgumentException：无法启用此约束，因为并非所有值都有相应的父值"？**
 
 发生这种情况的原因是，并非每个父记录都有子记录，因此您的数据源不符合以下条件： *父表中的每一行都应根据主表和子表的行具有一对一的关系。外键*。
 

@@ -7,6 +7,7 @@ description: "Escolha o melhor padrão PDF para exportar o resultado da sua tare
 type: docs
 weight: 27
 url: /pt/net/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Para algumas tarefas, certos padrões de PDF serão mais adequados ou vice-versa, piores. Neste artigo, tentaremos determinar quais padrões PDF para quais casos faz sentido escolher.

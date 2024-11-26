@@ -1,4 +1,4 @@
-﻿---
+---
 title: Insert Hyperlink to Document
 second_title: Aspose.Words for Java
 articleTitle: Insert Hyperlink to Document
@@ -7,6 +7,7 @@ description: "Insert a hyperlink to a document easily and fast instead of using 
 type: docs
 weight: 60
 url: /java/insert-hyperlink-to-document/
+timestamp: 2024-09-25-11-08-55
 ---
 
 ## Aspose.Words - Insert Hyperlink to Document

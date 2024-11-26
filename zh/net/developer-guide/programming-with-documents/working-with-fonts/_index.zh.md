@@ -7,6 +7,7 @@ description: "使用 C# 详细说明字体格式。 C# 中的强调标记。使�
 type: docs
 weight: 230
 url: /zh/net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 字体是一组具有一定大小、颜色和设计的字符。 Aspose.Words 允许您使用 [Fonts](https://reference.aspose.com/words/zh/net/aspose.words.fonts/) 命名空间和 [Font](https://reference.aspose.com/words/zh/net/aspose.words/font/) 类来处理字体。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ทำความสะอาดเอกสารในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: ทำความสะอาดเอกสาร
@@ -7,6 +7,7 @@ description: "ลบข้อมูลที่ไม่ได้ใช้หร
 type: docs
 weight: 30
 url: /th/cpp/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 บางครั้งคุณอาจต้องลบข้อมูลที่ไม่ได้ใช้หรือซ้ำกันเพื่อลดขนาดของเอกสารที่ส่งออกและเว.

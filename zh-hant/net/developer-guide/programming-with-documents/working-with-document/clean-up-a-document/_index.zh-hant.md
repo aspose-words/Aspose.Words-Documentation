@@ -7,6 +7,7 @@ description: "使用 C# 移除未使用的或重複的信息，以減少輸出�
 type: docs
 weight: 30
 url: /zh-hant/net/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有時你可能需要移除沒有使用的或重複的資訊，以降低輸出文件的大小和處理時間。

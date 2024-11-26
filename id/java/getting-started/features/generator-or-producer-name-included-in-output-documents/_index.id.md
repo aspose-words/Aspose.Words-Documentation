@@ -7,6 +7,7 @@ description: "Aspose.Words Sitemap Java tambahkan ke dokumen nama generator dan 
 type: docs
 weight: 70
 url: /id/java/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Anda dapat dengan mudah mengetahui apakah dokumen diproduksi dengan menggunakan Aspose.Words Sitemap JavaSitemap Anda juga dapat menemukan jumlah versi Aspose.Words Sitemap Java yang digunakan untuk membuat dokumen output tertentu. Aspose.Words secara langsung menulis informasi ini ke dokumen yang dihasilkan.

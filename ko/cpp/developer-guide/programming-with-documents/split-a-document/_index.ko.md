@@ -1,4 +1,4 @@
-﻿---
+---
 title: 문서 분할 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 문서 분할
@@ -7,6 +7,7 @@ description: "다음을 사용하여 문서를 여러 파일로 분할 C++. 분�
 type: docs
 weight: 90
 url: /ko/cpp/split-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 *Splitting* 또는 *split a document* 큰 문서를 더 많은 수의 작은 파일로 나누는 과정입니다. 파일을 분할하는 데는 여러 가지 이유가 있습니다. 예를 들어 전체 문서가 아닌 특정 문서의 일부 페이지 만 필요합니다. 또는 개인 정보 보호를 위해 문서의 일부만 다른 사용자와 공유하려는 경우 분할 기능을 사용하면 문서의 필요한 부분 만 가져 와서 필요한 작업을 수행 할 수 있습니다(예:마크 업,저장 또는 보내기).

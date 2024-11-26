@@ -7,6 +7,7 @@ description: "Dowiedz się, jak zastąpić pola tekstem w Java. Zastąp pola dan
 type: docs
 weight: 37
 url: /pl/java/replace-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Zastąpienie pól jest często wymagane, gdy chcesz zapisać swój dokument jako kopię statyczną. Na przykład, wysyłając jako załącznik w e- mailu. Konwersja pól, takich jak `DATE` lub `TIME` tekst statyczny pozwoli dokumentowi na wyświetlenie tej samej daty co w momencie wysłania dokumentu. Ponadto, w niektórych sytuacjach, może wymagać usunięcia warunkowego `IF` pola z dokumentu i zastąpić je najnowszym wynikiem tekstu zamiast. Na przykład, konwersji wyniku `IF` pole do tekstu statycznego, więc nie będzie już dynamicznie zmieniać jego wartości podczas aktualizacji pól w dokumencie.

@@ -7,6 +7,7 @@ description: "Documenten digitaal ondertekenen en bestaande digitale handtekenin
 type: docs
 weight: 40
 url: /nl/python-net/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Een digitale handtekening wordt gebruikt om een document te authenticeren om vast te stellen dat de afzender van het document is wie ze zeggen te zijn en de inhoud van het document niet is geknoeid.

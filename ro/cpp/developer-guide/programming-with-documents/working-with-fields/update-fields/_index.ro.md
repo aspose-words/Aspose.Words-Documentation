@@ -1,4 +1,4 @@
-﻿---
+---
 title: Actualizați câmpurile în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Actualizați Câmpurile
@@ -7,6 +7,7 @@ description: "Aflați cum să actualizați câmpurile în C++. Actualizați câm
 type: docs
 weight: 30
 url: /ro/cpp/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 De obicei, un câmp inserat în Microsoft Word conține deja o valoare actualizată. De exemplu, dacă câmpul este o formulă sau un număr de pagină, acesta va conține valoarea calculată corectă pentru versiunea dată a documentului. Dar dacă aveți o aplicație care generează sau Modifică un document cu câmpuri precum îmbinarea a două documente sau popularea acestuia cu date, atunci în mod ideal toate câmpurile trebuie actualizate pentru ca documentul să fie util.
@@ -18,7 +19,7 @@ Când un document este încărcat, Aspose.Words imită comportamentul Microsoft 
 - când deschideți/salvați un document, câmpurile rămân intacte
 - puteți actualiza în mod explicit toate câmpurile dintr-un document, de exemplu, reconstrui `TOC`, atunci când trebuie să
 - când redați la PDF sau XPS câmpurile legate de numerotarea paginilor în anteturi / subsoluri sunt actualizate
-- când executați mail merge toate câmpurile sunt actualizate automat
+- când executați Mail Merge toate câmpurile sunt actualizate automat
 
 ### Actualizați Câmpurile Programatic
 
@@ -36,7 +37,7 @@ Următorul exemplu de cod arată cum să actualizați toate câmpurile înainte 
 
 ### Actualizare Automată A Câmpului În Timpul Mail Merge
 
-Când executați un mail merge, toate câmpurile din document vor fi actualizate automat. Acest lucru se datorează faptului că mail merge este un caz de actualizare a câmpului. Programul întâlnește un câmp mail merge și trebuie să-și actualizeze rezultatul, ceea ce implică preluarea valorii din sursa de date și introducerea acesteia în câmp. Logica este, desigur, mai complicată, de exemplu, atunci când se ajunge la sfârșitul regiunii document/mail merge, dar mai sunt încă date de îmbinat, atunci Regiunea trebuie duplicată și Noul set de câmpuri actualizat.
+Când executați un mail merge, toate câmpurile din document vor fi actualizate automat. Acest lucru se datorează faptului că Mail Merge este un caz de actualizare a câmpului. Programul întâlnește un câmp Mail Merge și trebuie să-și actualizeze rezultatul, ceea ce implică preluarea valorii din sursa de date și introducerea acesteia în câmp. Logica este, desigur, mai complicată, de exemplu, atunci când se ajunge la sfârșitul regiunii document/mail merge, dar mai sunt încă date de îmbinat, atunci Regiunea trebuie duplicată și Noul set de câmpuri actualizat.
 
 ## Actualizați Proprietatea LastSavedTime Înainte De Salvare
 

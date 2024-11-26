@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words DOM
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Aspose.Words Model Obiect Document (DOM)
@@ -7,6 +7,7 @@ type: docs
 description: "Document Object Model (DOM) este o reprezentare în memorie a unui document Word. Citiți, manipulați și modificați conținutul și formatarea unui document Word folosind Python."
 weight: 10
 url: /ro/python-net/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Modelul de obiect Document Aspose.Words (DOM) este o reprezentare în memorie a unui document Word. Aspose.Words DOM vă permite să citiți, să manipulați și să modificați în mod programatic conținutul și formatarea unui document Word.

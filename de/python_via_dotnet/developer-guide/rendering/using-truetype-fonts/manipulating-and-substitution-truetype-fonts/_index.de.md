@@ -7,6 +7,7 @@ description: "Aspose.Words für Python via .NET kann die richtigen TrueType-Schr
 type: docs
 weight: 10
 url: /de/python-net/manipulating-and-substitution-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words erfordert TrueType-Schriftarten für eine Vielzahl von Aufgaben, einschließlich der Darstellung von Dokumenten in feste Seitenformate, beispielsweise PDF oder XPS. Wenn Aspose.Words ein Dokument rendert, muss es die Einbettung und Teileinbettung von TrueType-Schriftarten in das resultierende Dokument durchführen, was bei der Dokumentgenerierung üblich ist, einschließlich gängiger PDF- oder XPS-Formate. Dadurch wird sichergestellt, dass das Dokument für jeden Betrachter gleich aussieht. Darüber hinaus verlangt die XPS-Spezifikation, dass Schriftarten immer in das Dokument eingebettet sind.
@@ -58,7 +59,7 @@ Es gibt jedoch Situationen, in denen die genaue Schriftart nicht gefunden werden
 1. Wenn Aspose.Words die erforderliche Schriftart mit der genauen Namensübereinstimmung und der für diese Schriftart definierten [alt_name](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/alt_name/)-Eigenschaft nicht finden kann, findet Aspose.Words die mit [alt_name](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/alt_name/) definierte Schriftart aus der [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/)-Klasse, die die Schriftartinformationen angibt.
 1. Wenn Aspose.Words die definierte Schriftart nicht finden kann und [alt_name](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/alt_name/) nicht ebenfalls definiert ist, werden die Schriftartenersetzungsregeln nacheinander wie unten beschrieben angewendet (wenn die entsprechende Ersetzung gefunden wird, stoppt der Schriftartenersetzungsprozess und die nächster Schritt wird nicht ausgeführt):
    1. Zunächst versucht Aspose.Words, den Schriftartnamen zu verarbeiten, um die Ersetzung zu erhalten, insbesondere versucht es, Suffixe mit den Trennzeichen "-" und "" zu entfernen.<br>
-      Wenn diese Ersetzungsregel eintritt, wird die Schriftart "&lt;OriginalFont&gt;" nicht gefunden. Stattdessen wird die Schriftart "&lt;SubstitutionFont&gt;" verwendet. Grund: Ersetzung des Schriftartnamens." Warnung erscheint.<br>
+      Wenn diese Ersetzungsregel eintritt, wird die Schriftart "<OriginalFont>" nicht gefunden. Stattdessen wird die Schriftart "<SubstitutionFont>" verwendet. Grund: Ersetzung des Schriftartnamens." Warnung erscheint.<br>
    1. Anschließend versucht Aspose.Words, mithilfe des **FontConfig**-Dienstprogramms die Schriftarteinstellungen des Betriebssystems anzuwenden, sofern diese verfügbar sind. Diese Nicht-Windows-Funktion muss mit einem FontConfig-kompatiblen Betriebssystem verwendet werden. Fast jedes Unix-basierte Betriebssystem verfügt bereits über eine `FontConfig`-Bibliothek, die eine systemweite Schriftartenkonfiguration, Anpassung und Zugriff auf Anwendungen ermöglicht. Ansonsten kann diese Bibliothek einfach vom Benutzer installiert werden.
       Aspose.Words weiß, wie man Daten abfragt und FontConfig-Ergebnisse für seine eigenen Zwecke interpretiert. Standardmäßig ist das `FontConfig`-Dienstprogramm deaktiviert. Sie können es wie folgt aktivieren:<br>
 {{< highlight python >}}

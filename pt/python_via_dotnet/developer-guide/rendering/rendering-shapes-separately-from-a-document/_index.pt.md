@@ -7,6 +7,7 @@ description: "Extraia vários objetos gráficos, como imagens, caixas de texto c
 type: docs
 weight: 40
 url: /pt/python-net/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ao processar documentos, uma tarefa comum é extrair todas as imagens encontradas no documento e exportá-las para um local externo. Essa tarefa fica simples com o Aspose.Words API, que já oferece a funcionalidade de extração e salvamento de dados de imagens. No entanto, às vezes você pode querer extrair de forma semelhante outros tipos de conteúdo gráfico representados por um tipo diferente de objeto de desenho, por exemplo, uma caixa de texto contendo parágrafos, formas de seta e uma imagem pequena. Não existe uma maneira simples de renderizar esse objeto, pois ele é uma combinação de elementos de conteúdo individuais. Você também pode encontrar um caso em que o conteúdo foi agrupado em um objeto que se parece com uma única imagem.

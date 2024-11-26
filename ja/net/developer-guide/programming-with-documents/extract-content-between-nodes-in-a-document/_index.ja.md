@@ -7,6 +7,7 @@ description: "C# を使用してドキュメントのコンテンツを別の形
 type: docs
 weight: 140
 url: /ja/net/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ドキュメントを操作する場合、ドキュメント内の特定の範囲からコンテンツを簡単に抽出できることが重要です。ただし、コンテンツは段落、表、画像などの複雑な要素で構成される場合があります。

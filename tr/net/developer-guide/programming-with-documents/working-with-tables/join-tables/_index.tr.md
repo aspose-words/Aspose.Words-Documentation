@@ -7,6 +7,7 @@ description: "C#'teki tabloları birleştirin. İki tablo tek bir C#'te nasıl b
 type: docs
 weight: 90
 url: /tr/net/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words Document Object Model'de temsil edilen bir tablo, bağımsız satırlardan ve hücrelerden oluşur ve bu da tabloların birleştirilmesini kolaylaştırır.

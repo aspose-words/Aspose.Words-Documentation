@@ -7,6 +7,7 @@ description: "C#'teki bir tablodaki metni değiştirin. C#'i kullanarak Tablodan
 type: docs
 weight: 60
 url: /tr/net/work-with-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Önceki makalelerde de belirtildiği gibi, bir tablo genellikle düz metin içerir, ancak resimler ve hatta başka tablolar gibi diğer içerikler de tablo hücrelerine yerleştirilebilir.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: کار با هایپر لینک ها در C++
 second_title: Aspose.Words برای C++
 articleTitle: افزودن یا تغییر پیوندها
@@ -7,6 +7,7 @@ description: "چگونه با استفاده از Aspose.Words برای C++."
 type: docs
 weight: 180
 url: /fa/cpp/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 یک لینک در Microsoft Word documents فیلد `HYPERLINK` است. در Aspose.Words، پیوندها از طریق کلاس [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/) اجرا می شوند.

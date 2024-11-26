@@ -1,4 +1,4 @@
-﻿---
+---
 title: Phát hiện Định dạng Tệp Và Kiểm Tra Khả năng Tương Thích Định dạng
 second_title: Aspose.Words cho C++
 articleTitle: Phát hiện Định dạng Tệp Và Kiểm Tra Khả năng Tương Thích Định dạng
@@ -7,6 +7,7 @@ description: "Xác định định dạng tệp trong C++ nếu bạn không ch�
 type: docs
 weight: 20
 url: /vi/cpp/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Đôi khi cần xác định định dạng của tài liệu trước khi mở vì phần mở rộng tệp không đảm bảo rằng nội dung của tệp là phù hợp. Ví dụ, người ta biết Rằng Crystal Reports thường xuất tài liệu ở định dạng RTF, nhưng cung cấp cho họ .phần mở rộng doc.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: تعیین مکان TrueType فونت در C++
 second_title: Aspose.Words برای C++
 articleTitle: مکان فونت ها را مشخص کنید TrueType
@@ -7,6 +7,7 @@ description: "منابع مختلف فونت TrueType را مشخص کنید: پ
 type: docs
 weight: 30
 url: /fa/cpp/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 این موضوع رفتار پیش فرض Aspose.Words را هنگام جستجوی فونت های TrueType، از جمله تفاوت های خاص سیستم عامل، توصیف می کند و نشان می دهد که چگونه منابع فونت کاربر را مشخص کنید.

@@ -7,6 +7,7 @@ description: "Creați, editați și salvați primul document în orice format ac
 type: docs
 weight: 20
 url: /ro/net/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un cod "Bună lume!" este adesea primul exemplu simplu de scris folosind Aspose.Words pentru .NET, și poate fi folosit și ca un test de validare pentru a asigura că software-ul destinat compilării sau rulării codului sursă este instalat corect.

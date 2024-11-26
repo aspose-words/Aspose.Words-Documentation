@@ -7,6 +7,7 @@ description: "Hoe om specifieke inhoud uit een bereik binnen het document gemakk
 type: docs
 weight: 140
 url: /nl/python-net/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bij het werken met documenten is het belangrijk om inhoud binnen een document gemakkelijk uit een specifiek bereik te halen. De inhoud kan echter bestaan uit complexe elementen zoals paragrafen, tabellen, afbeeldingen, enz.

@@ -7,6 +7,7 @@ description: "Chèn chú thích hoặc chú thích cuối vào tài liệu và c
 type: docs
 weight: 160
 url: /vi/python-net/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words cũng cung cấp một số lớp, phương thức và thuộc tính để làm việc với chú thích cuối trang và chú thích cuối trang.

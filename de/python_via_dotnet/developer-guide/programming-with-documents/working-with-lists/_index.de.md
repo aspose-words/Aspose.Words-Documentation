@@ -7,6 +7,7 @@ description: "Erstellen Sie mithilfe von Python Listen in einem Dokument, geben 
 type: docs
 weight: 200
 url: /de/python-net/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Eine Liste in einem Microsoft Word-Dokument ist eine Reihe von Listenformatierungseigenschaften. Listen können in Ihren Dokumenten verwendet werden, um Text zu formatieren, anzuordnen und hervorzuheben. Listen sind eine hervorragende Möglichkeit, Daten in Dokumenten zu organisieren und erleichtern es den Lesern, wichtige Punkte zu verstehen

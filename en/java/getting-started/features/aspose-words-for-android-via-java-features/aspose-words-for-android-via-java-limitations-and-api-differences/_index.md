@@ -8,6 +8,7 @@ type: docs
 weight: 50
 url: /java/aspose-words-for-android-via-java-limitations-and-api-differences/
 aliases: [/java/aspose-words-for-android-via-java-api-differences-and-limitations/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Limitations of Aspose.Words for Android via Java API compared to Aspose.Words for Java API
@@ -83,7 +84,7 @@ See the following Public API methods:
 ## Aspose.Words for Android via Java additional requirements
 
 In order to use metered licensing feature and load documents or images by http/ftp protocols users should add following permission to their applications
-*&lt;uses-permission android:name="android.permission.INTERNET" /&gt;*
+`<uses-permission android:name="android.permission.INTERNET" />`
 
 ## Public API Examples
 

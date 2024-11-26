@@ -7,6 +7,7 @@ description: "Înțelegerea conceptelor de marcaje de carte și modul în care u
 type: docs
 weight: 180
 url: /ro/net/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Semnele de carte identifică în Microsoft Word documente locațiile sau fragmente pe care le numiți și identificați pentru referințe ulterioare. Spre exemplu, ai putea folosi un semn de carte pentru a identifica textul pe care vrei să-l revii mai târziu. În loc să derulezi prin document pentru a găsi textul, poți ajunge la el folosind caseta de dialog marcaj.

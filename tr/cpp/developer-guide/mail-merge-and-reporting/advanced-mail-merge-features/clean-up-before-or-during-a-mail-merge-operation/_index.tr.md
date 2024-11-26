@@ -1,28 +1,29 @@
-﻿---
+---
 title: Önce veya Sırasında Temizleyin Mail Merge Operasyon
 second_title: Aspose.Words için C++
 articleTitle: Önce veya Sırasında Temizleyin Mail Merge Operasyon
 linktitle: Önce veya Sırasında Temizleyin Mail Merge Operasyon
 type: docs
-description: "Birleştirme alanlarını gerçekleştirmeden önce silme gibi farklı temizleme ve kaldırma seçenekleri uygulayın. mail merge bir işlem sırasında kullanılmayan bölgelerin çalıştırılması veya çıkarılması mail merge operasyon."
-keywords: "cleanup options mail merge c#"
+description: "Birleştirme alanlarını gerçekleştirmeden önce silme gibi farklı temizleme ve kaldırma seçenekleri uygulayın. Mail Merge bir işlem sırasında kullanılmayan bölgelerin çalıştırılması veya çıkarılması Mail Merge operasyon."
+keywords: "cleanup options Mail Merge c#"
 weight: 10
 url: /tr/cpp/clean-up-before-or-during-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words birleştirme alanlarını silme gibi farklı temizleme ve kaldırma seçeneklerini uygulamadan önce uygulamanıza olanak tanır. mail merge bir işlem sırasında kullanılmayan bölgelerin çalıştırılması veya çıkarılması mail merge operasyon. Bu bölümde birleştirilmiş alanların nasıl silineceği ve bir kaldırma seçeneğinin nasıl kurulacağı açıklanacaktır.
+Aspose.Words birleştirme alanlarını silme gibi farklı temizleme ve kaldırma seçeneklerini uygulamadan önce uygulamanıza olanak tanır. Mail Merge bir işlem sırasında kullanılmayan bölgelerin çalıştırılması veya çıkarılması Mail Merge operasyon. Bu bölümde birleştirilmiş alanların nasıl silineceği ve bir kaldırma seçeneğinin nasıl kurulacağı açıklanacaktır.
 
 ## Birleştirilmiş Alanları Sil
 
-Başka biri tarafından oluşturulan uzun bir şablon kullanırken, bir şablon oluşturmadan önce o şablonda zaten var olan tüm birleştirme alanlarını silmek isteyebilirsiniz. mail merge operasyon. Kullanabilirsiniz [DeleteFields](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/deletefields/) bir belgedeki tüm birleştirme alanlarını yürütmeden silmek istiyorsanız yöntem mail merge operasyon. Bu yöntem, kaldırma seçeneklerinden etkilenmez. [CleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_cleanupoptions/) özellik ve yürütme, yalnızca birleştirilmiş alanları kaldırır, içeren alanları veya boş paragrafları kaldırmaz.
+Başka biri tarafından oluşturulan uzun bir şablon kullanırken, bir şablon oluşturmadan önce o şablonda zaten var olan tüm birleştirme alanlarını silmek isteyebilirsiniz. Mail Merge operasyon. Kullanabilirsiniz [DeleteFields](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/deletefields/) bir belgedeki tüm birleştirme alanlarını yürütmeden silmek istiyorsanız yöntem Mail Merge operasyon. Bu yöntem, kaldırma seçeneklerinden etkilenmez. [CleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_cleanupoptions/) özellik ve yürütme, yalnızca birleştirilmiş alanları kaldırır, içeren alanları veya boş paragrafları kaldırmaz.
 
-Aşağıdaki kod örneği, tüm birleştirme alanlarını şablonunuzdan bir birleştirme yürütmeden nasıl sileceğinizi gösterir. mail merge operasyon:
+Aşağıdaki kod örneği, tüm birleştirme alanlarını şablonunuzdan bir birleştirme yürütmeden nasıl sileceğinizi gösterir. Mail Merge operasyon:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Fields-DeleteFields.h" >}}
 
 ## Bir tane ayarla `Removing` Seçenek
 
-Aspose.Words birleştirilmemiş alanları, bölgeleri ve paragrafları bir şablondan kaldırmanızı sağlar. mail merge kaldırma seçeneklerini kullanarak işlem.
+Aspose.Words birleştirilmemiş alanları, bölgeleri ve paragrafları bir şablondan kaldırmanızı sağlar. Mail Merge kaldırma seçeneklerini kullanarak işlem.
 
 Kullan... **CleanupOptions** mülkiyet ile birlikte [MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/) kaldırma seçeneğini ayarlamak için numaralandırma. Aşağıdaki seçenekleri seçerek hangi öğeleri kaldırmak istediğinizi belirtin (birden fazla öğeyi birleştirebilirsiniz):
 
@@ -40,15 +41,15 @@ Birleştirme alanını aşağıdaki koşullardan birinde birleştirilmemiş olar
 
 {{% alert color="primary" %}}
 
-Verileri ayrı veri kaynakları kullanarak birleştiriyorsanız, bu kaldırma seçenekleri yalnızca son çağrıyla etkinleştirilir. mail merge yürütme yöntemi.
+Verileri ayrı veri kaynakları kullanarak birleştiriyorsanız, bu kaldırma seçenekleri yalnızca son çağrıyla etkinleştirilir. Mail Merge yürütme yöntemi.
 
 {{% /alert %}}
 
 ### Boş Paragrafları Kaldır
 
-Yalnızca birleştirme alanlarını içeren bir paragraf boş olduğunda mail merge işlem, tüm birleştirme alanlarını birleştirilmemiş olarak kaldırır. Bu boş paragraflar istenmeyen alan ekleyebilir ve oluşturulan raporun nasıl görüneceğini değiştirebilir. Bir paragraf sırasında iki durumla karşılaşabilirsiniz mail merge operasyon:
+Yalnızca birleştirme alanlarını içeren bir paragraf boş olduğunda Mail Merge işlem, tüm birleştirme alanlarını birleştirilmemiş olarak kaldırır. Bu boş paragraflar istenmeyen alan ekleyebilir ve oluşturulan raporun nasıl görüneceğini değiştirebilir. Bir paragraf sırasında iki durumla karşılaşabilirsiniz Mail Merge operasyon:
 
-1. Bu mail merge alan boş verilerle birleştirilecektir.
+1. Bu Mail Merge alan boş verilerle birleştirilecektir.
 2. Birleştirme alanı kullanılmaz ve kaldırılır.
 
 Her iki durumda da **RemoveEmptyParagraphs** seçenek, boş paragrafları belgeden otomatik olarak kaldıracaktır. Ayrıca, kaldıracaktır `TableStart` ve TableEnd paragrafın geri kalanı boşsa alanları birleştirin.
@@ -65,9 +66,9 @@ Bu örneğin örnek dosyasını şu adresten indirebilirsiniz [Aspose.Words GitH
 
 ### Kullanılmayan Alanları Kaldır
 
-Aspose.Words kullanılmayan herhangi bir şeyi kaldırmanıza izin verir mail merge alanları atayarak **RemoveUnusedFields** için işaretle **CleanupOptions**. Bu seçenek, veri kaynağında karşılık gelen verilere sahip olmayan birleştirme alanlarını kaldıracaktır.
+Aspose.Words kullanılmayan herhangi bir şeyi kaldırmanıza izin verir Mail Merge alanları atayarak **RemoveUnusedFields** için işaretle **CleanupOptions**. Bu seçenek, veri kaynağında karşılık gelen verilere sahip olmayan birleştirme alanlarını kaldıracaktır.
 
-Aşağıdaki kod örneği, kullanılmayan birleştirme alanlarının bir belgeden otomatik olarak nasıl kaldırılacağını gösterir. mail merge operasyon:
+Aşağıdaki kod örneği, kullanılmayan birleştirme alanlarının bir belgeden otomatik olarak nasıl kaldırılacağını gösterir. Mail Merge operasyon:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Mail-Merge-MailMergeCleanUp-RemoveUnusedFields.cpp" >}}
 
@@ -85,6 +86,6 @@ Aşağıdaki kod örneği, belgeden birleştirme alanları içeren alanların na
 
 Aspose.Words boş tablo satırlarını atayarak kaldırmanızı sağlar **RemoveEmptyTableRows** için işaretle **CleanupOptions**. Bu seçenek, boş birleştirme alanları içeren tablo satırlarını kaldıracaktır.
 
-Aşağıdaki kod örneği, aşağıdakileri içeren boş tablo satırlarının nasıl kaldırılacağını gösterir mail merge bir belgedeki bölgeler:
+Aşağıdaki kod örneği, aşağıdakileri içeren boş tablo satırlarının nasıl kaldırılacağını gösterir Mail Merge bir belgedeki bölgeler:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Mail-Merge-MailMergeCleanUp-RemoveEmptyTableRows.cpp" >}}

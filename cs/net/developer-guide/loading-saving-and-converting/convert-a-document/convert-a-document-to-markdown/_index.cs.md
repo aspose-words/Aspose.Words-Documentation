@@ -8,6 +8,7 @@ description: "Převést dokument v jakémkoli podporovaném formátu zatížení
 keywords: how to convert a document to markdown c#
 weight: 40
 url: /cs/net/convert-a-document-to-markdown/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Markdown je populární formát používaný k připsání textu a jeho další konverzi na HTML, PDF, DOCX nebo jiné formáty. Mnoho vývojářů si tento formát vybere pro psaní dokumentace, přípravu článků pro publikaci na blogech, popis projektů a tak dále.
@@ -18,7 +19,7 @@ Nyní funkce pro práci s Markdown formát je aktivně vyvíjen tak, aby vám v�
 
 ## Převést dokument
 
-Převést dokument na <span notrans="<span notrans=" Markdown"=""></span>,? stačí načíst dokument v jakémkoli podporovaném formátu nebo vytvořit nový programově. Pak musíte uložit dokument do Markdown formát.
+Převést dokument na Markdown,? stačí načíst dokument v jakémkoli podporovaném formátu nebo vytvořit nový programově. Pak musíte uložit dokument do Markdown formát.
 
 Následující příklad kódu ukazuje, jak převést DOCX na Markdown:
 
@@ -70,5 +71,5 @@ Výsledek tohoto příkladu kódu je uveden níže.
 
 Existuje několik nuance a zajímavé případy, poté, co se naučil, které můžete pracovat s Markdown soubory flexibilnější a pohodlnější. Existuje například schopnost používat:
 
-* SetextHeading, který vám umožní vytvořit víceřádkové okruhy v <span notrans="<span notrans=" Markdown"=""></span>,? zatímco pravidelné okruhy v Markdown může být jen jednořádka. SetextHeading je založen na stylu "Heading N" a jeho úroveň může být pouze 1 nebo 2. Je-li N v položce "hlava N" větší nebo rovno 2, je odpovídající SetextHeading založen na "hlavě 2," jinak na "hlavě 1."
+* SetextHeading, který vám umožní vytvořit víceřádkové okruhy v Markdown,? zatímco pravidelné okruhy v Markdown může být jen jednořádka. SetextHeading je založen na stylu "Heading N" a jeho úroveň může být pouze 1 nebo 2. Je-li N v položce "hlava N" větší nebo rovno 2, je odpovídající SetextHeading založen na "hlavě 2," jinak na "hlavě 1."
 * Různé značky pro první úroveň kulkovaných seznamů ("-", "+" nebo "*," výchozí značka je 'a' - 'a'.) a různé typy číslování pro objednané seznamy ("." nebo ") ," výchozí značka je ".").

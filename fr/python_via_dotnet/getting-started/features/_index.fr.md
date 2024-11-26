@@ -7,6 +7,7 @@ description: "Aspose.Words pour Python via .NET offre aux utilisateurs un large 
 type: docs
 weight: 30
 url: /fr/python-net/features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words offre aux utilisateurs un large éventail de fonctionnalités. Les utilisateurs peuvent effectuer un grand nombre de tâches liées aux documents – depuis la simple conversion de documents d'un format pris en charge à un autre et la modification de ces documents pendant le processus de conversion jusqu'aux tâches commerciales, telles que la création de documents structurés et visuellement attrayants ou l'automatisation des rapports.
@@ -108,15 +109,15 @@ Vous pouvez utiliser Aspose.Words comme solution de reporting à part entière. 
 
 |  Fonctionnalité | Python via .NET |
 |  :-  |  :-  |
-| Utilisez tous les champs Microsoft Word mail merge standard dans vos rapports, notamment `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} |
-| Exécutez mail merge pour les documents contenant même les champs et formules `IF` les plus complexes et imbriqués. | {{< emoticons/tick >}} |
+| Utilisez tous les champs Microsoft Word Mail Merge standard dans vos rapports, notamment `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} |
+| Exécutez Mail Merge pour les documents contenant même les champs et formules `IF` les plus complexes et imbriqués. | {{< emoticons/tick >}} |
 | Remplissez et développez dynamiquement des tables ou des fragments dans le document à partir de votre source de données à l'aide des régions mail merge. | {{< emoticons/cross >}} |
 | Générez facilement des rapports contenant des données maître-détails (parent-enfant), telles que Order/OrderDetails. | {{< emoticons/cross >}} |
 | Remplissez les documents avec des données provenant de n'importe quelle source de données .NET telle que DataSet, DataTable, DataView, DataReader ou ADO Recordset. | {{< emoticons/cross >}} |
 | Remplissez des documents à partir de n'importe quelle source de données telle qu'une requête LINQ, un fichier XML ou des objets métier en implémentant l'interface [IMailMergeDataSource](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/imailmergedatasource/). | {{< emoticons/cross >}} |
 | Prenez un contrôle précis, comme le formatage des nombres, sur la façon dont vos données sont fusionnées à l'aide d'événements. | {{< emoticons/cross >}} |
 | Insérez des images pendant mail merge. | {{< emoticons/tick >}} |
-| Créez ou modifiez par programme une source de données Microsoft Word mail merge pour un document. Conservez les paramètres mail merge et les sources de données. | {{< emoticons/tick >}} |
+| Créez ou modifiez par programme une source de données Microsoft Word Mail Merge pour un document. Conservez les paramètres Mail Merge et les sources de données. | {{< emoticons/tick >}} |
 | Récupérez les noms de champs mail merge. | {{< emoticons/tick >}} |
 
 ## Fonctionnalités de création de rapports

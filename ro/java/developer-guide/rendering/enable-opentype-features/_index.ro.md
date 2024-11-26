@@ -1,4 +1,4 @@
-﻿---
+---
 title: Activați OpenType caracteristici în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Activare OpenType Caracteristici
@@ -7,6 +7,7 @@ description: "Caracteristici avansate de tipografie în Aspose.Words pentru Java
 type: docs
 weight: 25
 url: /ro/java/enable-opentype-features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 

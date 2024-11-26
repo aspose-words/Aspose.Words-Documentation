@@ -7,6 +7,7 @@ description: "使用非托管 XpsPrint API 或通过具有 C# 格式的设置和
 type: docs
 weight: 55
 url: /zh/net/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-31-14-23-37
 ---
 
 本文介绍如何使用 Aspose.Words 和 `XpsPrint` API 从 ASP.NET 或 Windows 服务应用程序打印字处理文档。它还演示了使用"设置"、"打印预览"和"打印进度"对话框打印文档的方法，并解释了如何减少首次调用打印文档的时间。

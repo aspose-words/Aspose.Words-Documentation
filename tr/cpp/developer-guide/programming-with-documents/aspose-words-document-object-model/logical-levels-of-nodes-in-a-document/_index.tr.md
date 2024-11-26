@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bir Belgedeki Düğümlerin Mantıksal Düzeyleri C++
 second_title: Aspose.Words için C++
 articleTitle: Bir Belgedeki Düğümlerin Mantıksal Düzeyleri
@@ -7,6 +7,7 @@ type: docs
 description: "İçinde Aspose.Words için C++ dokümantasyon, düğümlerin mantıksal düzeylerinden bahsetti - blok düzeyi, satır içi düzeyi veya satır düzeyi. Düğüm düzeyi, düğümün tipik olarak oluştuğu belge ağacındaki konumu tanımlamak için kullanılır."
 weight: 10
 url: /tr/cpp/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bu dokümantasyon bazen bir belgedeki "blok seviyesi", "satır içi seviye" ("satır içi" olarak da bilinir) veya "satır seviyesi" gibi bir "seviyeye" ait bir düğüm sınıfı grubuna atıfta bulunur. düğümler. Bir belgedeki bu seviyeler tamamen mantıksal olarak ayırt edilir ve kalıtım veya diğer Aspose.Words DOM araçlarla açıkça ifade edilmez. Düğüm düzeyi, belge ağacında düğümün tipik olarak oluşacağı yeri tanımlamak için kullanılır.

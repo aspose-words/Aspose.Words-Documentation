@@ -7,6 +7,7 @@ description: "הדפסה מסמך באמצעות Java באמצעות הגדרו�
 type: docs
 weight: 55
 url: /he/java/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 מאמר זה מתאר כיצד להדפיס מסמך עיבוד מילים באמצעות Aspose.Words API. זה גם מדגים את השיטות של הדפסה מסמך עם הגדרות, הדפסה Preview, ודיאלוגי התקדמות הדפסה.

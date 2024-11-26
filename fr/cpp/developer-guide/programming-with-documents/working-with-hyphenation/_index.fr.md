@@ -1,4 +1,4 @@
-﻿---
+---
 title: Travailler avec la césure en C++
 second_title: Aspose.Words pour C++
 articleTitle: Travailler avec la césure
@@ -7,6 +7,7 @@ description: "Utilisez la césure pour un arrangement plus compact du texte en u
 type: docs
 weight: 220
 url: /fr/cpp/working-with-hyphenation/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Parfois, il est nécessaire d'utiliser une césure pour un arrangement plus compact du texte dans un document. En même temps, il est important de comprendre que les spécificités de la césure des mots peuvent différer pour chaque langue.

@@ -7,6 +7,7 @@ description: "Aspose.Words cho .NET cung cấp cho người dùng nhiều tính 
 type: docs
 weight: 40
 url: /vi/net/features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words cung cấp cho người dùng nhiều tính năng. Người dùng có thể thực hiện một lượng lớn tác vụ liên quan đến tài liệu – từ việc chuyển đổi tài liệu đơn giản từ định dạng được hỗ trợ này sang định dạng khác và sửa đổi các tài liệu đó trong quá trình chuyển đổi sang các tác vụ kinh doanh, chẳng hạn như tạo tài liệu có cấu trúc và hấp dẫn trực quan hoặc tự động hóa báo cáo.
@@ -113,15 +114,15 @@ Bạn có thể sử dụng Aspose.Words làm giải pháp báo cáo riêng. Thi
 
 |  Tính năng | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Xamarin.Mac |
 |  :-  |  :-  |  :-  |  :-  |  :-  |  :-  |
-| Sử dụng tất cả các trường Microsoft Word mail merge tiêu chuẩn trong báo cáo của bạn bao gồm `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Thực thi mail merge cho các tài liệu có chứa cả các trường và công thức `IF` lồng nhau và phức tạp nhất. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Sử dụng tất cả các trường Microsoft Word Mail Merge tiêu chuẩn trong báo cáo của bạn bao gồm `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Thực thi Mail Merge cho các tài liệu có chứa cả các trường và công thức `IF` lồng nhau và phức tạp nhất. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Điền và phát triển linh hoạt các bảng hoặc đoạn trong tài liệu từ nguồn dữ liệu của bạn bằng cách sử dụng các vùng mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Dễ dàng tạo các báo cáo chứa dữ liệu chi tiết chính (cha-con), chẳng hạn như Đơn hàng/Chi tiết đơn hàng. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Điền vào tài liệu dữ liệu từ bất kỳ nguồn dữ liệu .NET nào, chẳng hạn như DataSet, DataTable, DataView, DataReader hoặc ADO Recordset. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Điền tài liệu từ bất kỳ nguồn dữ liệu nào, chẳng hạn như truy vấn LINQ, tệp XML hoặc đối tượng kinh doanh bằng cách triển khai giao diện **IMailMergeDataSource**. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Kiểm soát chính xác, chẳng hạn như định dạng số, về cách hợp nhất dữ liệu của bạn bằng sự kiện. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Chèn hình ảnh trong mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Lập trình tạo hoặc sửa đổi nguồn dữ liệu Microsoft Word mail merge cho tài liệu. Giữ nguyên cài đặt mail merge và nguồn dữ liệu. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Lập trình tạo hoặc sửa đổi nguồn dữ liệu Microsoft Word Mail Merge cho tài liệu. Giữ nguyên cài đặt Mail Merge và nguồn dữ liệu. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Truy xuất tên trường mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ## Tính năng báo cáo

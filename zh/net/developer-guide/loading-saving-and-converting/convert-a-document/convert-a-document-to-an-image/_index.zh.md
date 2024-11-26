@@ -7,6 +7,7 @@ type: docs
 description: "将文档转换为图像格式（JPG、PNG 等）。创建文档预览或创建文档扫描以使用 C# 发送发票。"
 weight: 43
 url: /zh/net/convert-a-document-to-an-image/
+timestamp: 2024-07-09-19-00-42
 ---
 
 有时需要获取图像而不是其他格式的文档，例如 DOCX 或 PDF。例如，您需要将任何文档页面的预览添加到您的网站或应用程序，或者创建文档的"扫描"以发送发票。此时您可能需要将任何 [支持的加载格式](https://reference.aspose.com/words/zh/net/aspose.words/loadformat/) 格式的文档转换为任何 [支持的保存格式](https://reference.aspose.com/words/zh/net/aspose.words/saveformat/) 格式的图像。

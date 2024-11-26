@@ -1,92 +1,93 @@
----
-title: Convert a Document to HTML, MHTML or EPUB
-second_title: Aspose.Words for Java
-articleTitle: Convert a Document to HTML, MHTML or EPUB
-linktitle: Convert a Document to HTML, MHTML or EPUB
-description: "الاستخدام Aspose.Words for Java (ب) تحويل الوثائق من ` وورد ` أو أي أشكال أخرى مدعومة إلى ` HTML `، أو MHTML، أو EPUB."
+﻿---
+title: تحويل مستند إلى HTML أو MHTML أو EPUB
+second_title: Aspose.Words ل Java
+articleTitle: تحويل مستند إلى HTML أو MHTML أو EPUB
+linktitle: تحويل مستند إلى HTML أو MHTML أو EPUB
+description: "استخدم Aspose.Words لـ Java لتحويل المستندات من ورد أو أي تنسيقات أخرى مدعومة إلى HTML أو MHTML أو EPUB."
 type: docs
 weight: 20
 url: /ar/java/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-10-21-08-52-03
 ---
 
-كما أن الوثائق الواردة في صيغتي " HTML " و " MHTML " المتعلقة بالتدفقات شائعة جدا ويمكن استخدامها على أي منصة على شبكة الإنترنت. ولهذا السبب، يشكل تحويل الوثائق إلى نظام HTML و MHTML سمة هامة من سمات هذا النظام. Aspose.Words.
+المستندات بتنسيقات تخطيط التدفق HTML و MHTML تحظى أيضا بشعبية كبيرة ويمكن استخدامها على أي منصة ويب. لهذا السبب، يعد تحويل المستندات إلى HTML و MHTML ميزة مهمة في Aspose.Words.
 
-EPUB (short for "Electronic Publication" is an HTML-based format commonly used for electronic book distribution. هذا الشكل مدعم بالكامل Aspose.Words لتصدير الكتب الإلكترونية المتوافقة مع معظم أجهزة القراءة.
+EPUB (اختصار لـ" النشر الإلكتروني") هو تنسيق قائم على HTML شائع الاستخدام لتوزيع الكتب الإلكترونية. هذا التنسيق مدعوم بالكامل في Aspose.Words لتصدير الكتب الإلكترونية المتوافقة مع معظم أجهزة القراءة.
 
-## Convert a Document
+## تحويل مستند
 
-For simple conversion to HTML, MHTML, or EPUB, one of the [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String-int) تستخدم الحمولات الزائدة على الطريقة. ويمكنكم أن تنقذوا الوثيقة إلى ملف أو تيار، وأن تحددوا بشكل صريح وثيقة الإنتاج، أو أن تحددوها من تمديد اسم الملف.
+للتحويل البسيط إلى HTML أو MHTML أو EPUB، يتم استخدام أحد الأحمال الزائدة لطريقة [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String-int). يمكنك حفظ المستند في ملف أو دفق وتعيين تنسيق حفظ مستند الإخراج بشكل صريح أو تعريفه من امتداد اسم الملف.
 
-ويبيّن المثال التالي كيفية تحويل مادة الـ دي سيكس إلى HTML مع تحديد شكل الادخار:
+يوضح المثال التالي كيفية تحويل DOCX إلى HTML مع تحديد تنسيق حفظ:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ConvertDocxToHtml.java" >}}
 
-لتحويل وثيقة إلى MHTML أو EPUB، استخدام `SaveFormat.MHTML` أو `SaveFormat.EPUB` على التوالي.
+لتحويل مستند إلى MHTML أو EPUB، استخدم `SaveFormat.MHTML` أو `SaveFormat.EPUB` على التوالي.
 
-## Convert a Document with Round-trip Information
+## تحويل مستند بمعلومات ذهابا وإيابا
 
-The HTML format does not support many Microsoft Word سمات، وإذا كنا بحاجة إلى استعادة نموذج الوثيقة على مقربة من الأصل قدر الإمكان، فإننا بحاجة إلى توفير بعض المعلومات الإضافية في ملف HTML. هذه المعلومات تُدعى أيضاً "معلومات عن الطريق" لهذا الغرض Aspose.Words:: توفير القدرة على تصدير المعلومات المتعلقة بالرحلات المستديرة عند الادخار إلى HTML أو MHTML أو EPUB باستخدام [ExportRoundtripInformation](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getExportRoundtripInformation) ملكية ويتيح توفير المعلومات المتعلقة بالرحلات المستديرة استعادة ممتلكات الوثائق من قبيل الملصقات، والتعليقات، والرعاة، والأقدام خلال وثائق تحميل الأشكال المدرجة في القائمة إلى مرة أخرى **Document** هدف
+لا يدعم تنسيق HTML العديد من ميزات Microsoft Word، وإذا احتجنا إلى استعادة نموذج مستند بالقرب من الأصل قدر الإمكان، فنحن بحاجة إلى حفظ بعض المعلومات الإضافية داخل ملف HTML. وتسمى هذه المعلومات أيضا "معلومات ذهابا وإيابا". لهذا الغرض، يوفر Aspose.Words القدرة على تصدير معلومات ذهابا وإيابا عند الحفظ إلى HTML أو MHTML أو EPUB باستخدام خاصية [ExportRoundtripInformation](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getExportRoundtripInformation). يسمح حفظ معلومات الرحلة ذهابا وإيابا باستعادة خصائص المستند مثل علامات التبويب والتعليقات والرؤوس والتذييلات أثناء تحميل مستندات التنسيقات المدرجة مرة أخرى في كائن **Document**.
 
-القيمة الافتراضية هي **true** HTML and **false** عن MHTML و EPUB:
+القيمة الافتراضية هي **true** لـ HTML و **false** لـ MHTML و EPUB:
 
-- **true**, تُصدَّر المعلومات المتعلقة بالرحلات المستديرة على أنها - خ م - * خواص برمجيات موحَّدة المصدر من العناصر المناظرة في نظام HTML
-- **false**, لا توجد معلومات عن المرحلتين ذهابا وإيابا تُنتج في الملفات المنتجة
+- عندما **true**، يتم تصدير المعلومات ذهابا وإيابا كما-فصيل عبد الواحد - * CSS خصائص HTML العناصر المقابلة
+- عندما **false**، لا توجد معلومات ذهابا وإيابا ليتم إخراجها في الملفات المنتجة
 
-The following code example shows how to export round-trip information when converting a document from DOCX into HTML:
+يوضح مثال الكود التالي كيفية تصدير معلومات ذهابا وإيابا عند تحويل مستند من DOCX إلى HTML:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ConvertDocumentToHtmlWithRoundtrip.java" >}}
 
 {{% alert color="primary" %}}
 
-يمكنك تحميل ملف النموذج من هذا المثال [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/com/aspose/words/examples/loading_saving/ConvertDocumentToHtmlWithRoundtrip/Test%20File%20\(doc\)(دوك).
+يمكنك تنزيل ملف القالب لهذا المثال من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-## تحديد خيارات الإنقاذ عند تحويلها إلى HTML
+## حدد خيارات الحفظ عند التحويل إلى HTML
 
-Aspose.Words ويسمح بتحويل وثيقة كلمة إلى HTML باستخدام خيارات التخلف أو العرف. ويرد أدناه وصف لقلة من الأمثلة على خيارات الادخار العرفي.
+Aspose.Words يسمح بتحويل مستند ورد إلى HTML باستخدام خيارات الحفظ الافتراضية أو المخصصة. يتم وصف بعض الأمثلة على خيارات الحفظ المخصصة أدناه.
 
-### تَكْشفُ a فولدر للمواردِ المنقذةِ
+### حدد مجلدا لحفظ الموارد
 
-استخدام Aspose.Words ويمكننا أن نحدد ملفاً مادياً حيث يتم توفير جميع الموارد، مثل الصور، واللافتات، والبرمجيات الخارجية، عندما يتم تحويل الوثيقة إلى HTML. هذا خيط فارغ
+باستخدام Aspose.Words يمكننا تحديد مجلد فعلي حيث يتم حفظ جميع الموارد، مثل الصور والخطوط والخارجية CSS، عند تحويل مستند إلى HTML. بشكل افتراضي، هذه سلسلة فارغة.
 
-تحديد [ResourceFolder](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getResourceFolder) فالملكية هي أبسط طريقة لوضع الملف الذي ينبغي فيه كتابة جميع الموارد. يمكننا استخدام ممتلكات فردية مثل [FontsFolder](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getFontsFolder) التي تُوفّر ملصقات للمجلد المحدد [ImagesFolder](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getImagesFolder) الذي يحفظ الصور لملف محدد عندما يحدد مسار نسبي **FontsFolder** و **ImagesFolder** يشير إلى الملف الذي يوجد فيه التجمع الرمزي **ResourceFolder** و [CssStyleSheetFileName](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getCssStyleSheetFileName) يرجى الرجوع إلى ملف النواتج الذي توجد فيه وثيقة HTML.
+تحديد الخاصية [ResourceFolder](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getResourceFolder) هو أبسط طريقة لتعيين المجلد حيث يجب كتابة جميع الموارد. يمكننا استخدام الخصائص الفردية، مثل [FontsFolder](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getFontsFolder) الذي يحفظ الخطوط إلى المجلد المحدد و [ImagesFolder](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getImagesFolder) الذي يحفظ الصور إلى مجلد محدد. عند تحديد مسار نسبي، **FontsFolder** و **ImagesFolder** الرجوع إلى المجلد حيث يوجد تجميع التعليمات البرمجية، **ResourceFolder** و [CssStyleSheetFileName](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getCssStyleSheetFileName) الرجوع إلى مجلد الإخراج حيث يوجد المستند HTML.
 
-في هذا المثال **ResourceFolder** يحدد الطريق النسبي This path refers to the output folder where the HTML document is save. قيمة **ResourceFolderAlias** وتُستخدم الممتلكات لإنشاء وحدات خفض الانبعاثات لجميع الموارد.
+في هذا المثال، **ResourceFolder** يحدد المسار النسبي. يشير هذا المسار إلى مجلد الإخراج حيث يتم حفظ المستند HTML. يتم استخدام قيمة الخاصية **ResourceFolderAlias** لإنشاء URLs لجميع الموارد.
 
-ويبين المثال الرمزي التالي كيفية العمل مع هذه الممتلكات:
+يوضح مثال التعليمات البرمجية التالية كيفية العمل مع هذه الخصائص:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ExportResourcesUsingHtmlSaveOptions.java" >}}
 
-استخدام [ResourceFolderAlias](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getResourceFolderAlias) ويمكننا أيضاً أن نحدد اسم الملف المستخدم في بناء وحدات خفض الانبعاثات من جميع الموارد المحررة في وثيقة HTML. This is the simplest way to specify how URIs should be generated for all resource files. ويمكن تحديد نفس المعلومات للصور واللافتات بصورة منفصلة عن طريق [ImagesFolderAlias](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getImagesFolderAlias) و [FontsFolderAlias](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getFontsFolderAlias) الممتلكات، على التوالي.
+باستخدام خاصية [ResourceFolderAlias](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getResourceFolderAlias)، يمكننا أيضا تحديد اسم المجلد المستخدم لإنشاء URIs من جميع الموارد المكتوبة في مستند HTML. هذه هي أبسط طريقة لتحديد كيفية إنشاء URIs لجميع ملفات الموارد. يمكن تحديد نفس المعلومات للصور والخطوط بشكل منفصل عبر خصائص [ImagesFolderAlias](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getImagesFolderAlias) و [FontsFolderAlias](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getFontsFolderAlias)، على التوالي.
 
-However, there is no individual property for CSS. سلوك **FontsFolder**, **FontsFolderAlias**, **ImagesFolder**, **ImagesFolderAlias** و **CssStyleSheetFileName** الممتلكات لم تتغير ملاحظة: **CssStyleSheetFileName** وتُستخدم الممتلكات لتحديد اسم الملف واسم الملف.
+ومع ذلك، لا توجد خاصية فردية لـ CSS. سلوك **FontsFolder**, **FontsFolderAlias**, **ImagesFolder**, **ImagesFolderAlias** و **CssStyleSheetFileName** لا يتم تغيير الخصائص. لاحظ أنه يتم استخدام الخاصية **CssStyleSheetFileName** لتحديد اسم المجلد واسم الملف.
 
-- **ResourceFolder** له أولوية أقل من الملفات المحددة عن طريق **FontsFolder**, **ImagesFolder**, و **CssStyleSheetFileName**. إذا كان الملف محددا في **ResourceFolder** لا وجود لها، وسوف يتم إنشاؤها تلقائيا.
-- **ResourceFolderAlias** لها أولوية أقل من **FontsFolderAlias** و **ImagesFolderAlias**. إذا **ResourceFolderAlias** فارغة، قيمة **ResourceFolder** وسوف تُستخدم الممتلكات في إنشاء مفاعلات للموارد. إذا **ResourceFolderAlias** مُحددة لـ (دوت)، مُراجعي الحسابات المُورديّة ستحتوي فقط على أسماء ملفّات دون تحديد مسار.
+- **ResourceFolder** له أولوية أقل من المجلدات المحددة عبر **FontsFolder** و **ImagesFolder** و **CssStyleSheetFileName**. إذا كان المجلد المحدد في **ResourceFolder** غير موجود، فسيتم إنشاؤه تلقائيا.
+- **ResourceFolderAlias** له أولوية أقل من **FontsFolderAlias** و **ImagesFolderAlias**. إذا كانت **ResourceFolderAlias** فارغة، فسيتم استخدام قيمة الخاصية **ResourceFolder** لإنشاء مورد URIs. إذا تم تعيين **ResourceFolderAlias** إلى "." (نقطة)، فسيحتوي المورد URIs على أسماء الملفات فقط دون تحديد مسار.
 
-### قاعدة التصدير(64)
+### موارد تصدير خطوط الترميز Base64
 
-Aspose.Words وتوفر القدرة على تحديد ما إذا كان ينبغي إدماج الموارد المخصصة في نظام HTML في رموز القاعدة 64. لتأدية هذا، استخدم [ExportFontsAsBase64](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getExportFontsAsBase64) - هذا تمديد [ExportFontResources](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getExportFontResources) ملكية حسب التقصير، قيمتها **false**, وتُكتب اللوحات في ملفات منفصلة. ولكن إذا كان هذا الخيار جاهزاً **true**, ستُضمّن الفواكه في مُجمّع المُستندات في "قاعدة الـ64". The **ExportFontsAsBase64** فالممتلكات لا تؤثر إلا على شكل نظام HTML ولا تؤثر على EPUB و MHTML.
+يوفر الخيار Aspose.Words إمكانية تحديد ما إذا كان يجب تضمين موارد الخطوط في HTML بترميزات Base64. للقيام بذلك، استخدم الخاصية [ExportFontsAsBase64](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getExportFontsAsBase64) - وهي امتداد للخاصية [ExportFontResources](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getExportFontResources). بشكل افتراضي، تكون قيمتها **false**، ويتم كتابة الخطوط في ملفات منفصلة. ولكن إذا تم تعيين هذا الخيار على **true**، فسيتم تضمين الخطوط في CSS المستند بترميز Base64. تؤثر الخاصية **ExportFontsAsBase64** فقط على تنسيق HTML ولا تؤثر على EPUB وMHTML.
 
-The following code example shows how to export Base64-encoded fonts to HTML:
+يوضح مثال التعليمات البرمجية التالي كيفية تصدير الخطوط المشفرة بتنسيق Base64 إلى HTML:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ExportFontsAsBase64.java" >}}
 
-## تحديد خيارات الإنقاذ عند تحويلها إلى EPUB
+## حدد خيارات الحفظ عند التحويل إلى EPUB
 
-Aspose.Words ويسمح بتحويل وثيقة وورد إلى صيغة EPUB باستخدام خيارات التخلف أو العرف. يمكنك تحديد عدد من الخيارات عن طريق إصدار حالة [HtmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/) إلى [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String-com.aspose.words.SaveOptions) طريقة
+Aspose.Words يسمح بتحويل مستند ورد إلى تنسيق EPUB باستخدام خيارات الحفظ الافتراضية أو المخصصة. يمكنك تحديد عدد من الخيارات عن طريق تمرير مثيل [HtmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/) إلى طريقة [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String-com.aspose.words.SaveOptions).
 
-ويبيّن المثال الرمزي التالي كيفية تحويل وثيقة ورود إلى EPUB مع تحديد بعض خيارات الحفظ المعتادة:
+يوضح مثال الكود التالي كيفية تحويل مستند ورد إلى EPUB مع تحديد بعض خيارات الحفظ المخصصة:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ConvertDocumentToEPUB.java" >}}
 
 {{% alert color="primary" %}}
 
-يمكنك تحميل ملف النموذج من هذا المثال [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/com/aspose/words/examples/loading_saving/ExportResourcesUsingHtmlSaveOptions/Document.EpubConversion.doc).
+يمكنك تنزيل ملف القالب لهذا المثال من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/com/aspose/words/examples/loading_saving/ExportResourcesUsingHtmlSaveOptions/Document.EpubConversion.doc).
 
 {{% /alert %}}
 
-## انظر أيضا
+## أنظر أيضا
 
-- [How to export round-trip information whenving to HTML](/words/java/custom-styles-used-for-proper-aspose-words-html-roundtrip/)
+- [كيفية تصدير معلومات ذهابا وإيابا عند الحفظ إلى HTML](/words/java/custom-styles-used-for-proper-aspose-words-html-roundtrip/)

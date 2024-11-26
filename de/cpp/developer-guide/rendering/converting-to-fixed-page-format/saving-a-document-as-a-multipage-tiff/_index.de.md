@@ -1,4 +1,4 @@
-﻿---
+---
 title: Speichern eines Dokuments als mehrseitiges TIFF in C++
 second_title: Aspose.Words für C++
 articleTitle: Speichern eines Dokuments als mehrseitiges TIFF
@@ -7,6 +7,7 @@ description: "Konvertieren Sie ein Dokument mit C++ in ein mehrseitiges TIFF. Um
 type: docs
 weight: 40
 url: /de/cpp/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Wenn Sie mit Dokumenten arbeiten, müssen Sie Ihr Dokument häufig in eine oder mehrere Rasterbilddateien konvertieren. Dies ist besonders relevant, wenn Sie Ihr Dokument in einem lesbaren und druckbaren, aber nicht bearbeitbaren Format präsentieren müssen. Sie können beispielsweise ein Rasterbild der ersten Seite Ihres Dokuments als Vorschau verwenden. In diesem Artikel wird beschrieben, wie Sie ein Dokument am Beispiel des TIFF –Formats - eines der beliebtesten Bildformate - in ein Rasterbild konvertieren.

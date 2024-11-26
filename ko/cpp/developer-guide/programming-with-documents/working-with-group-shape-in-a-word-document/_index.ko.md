@@ -1,4 +1,4 @@
-﻿---
+---
 title: 추가 방법 Group Shape 단어 문서로
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 함께 작업 Group Shapes 워드 문서
@@ -7,6 +7,7 @@ description: "다음을 사용하여 모양 그룹화 및 그룹 해제 C++."
 type: docs
 weight: 290
 url: /ko/cpp/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 때때로 당신은 추가 할 필요가 group shape 단어 문서로 그런 group shape 여러 모양으로 구성됩니다.

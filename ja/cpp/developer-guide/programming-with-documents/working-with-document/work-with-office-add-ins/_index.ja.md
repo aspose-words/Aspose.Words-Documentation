@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのOfficeアドインの操作
 second_title: C++の場合Aspose.Words
 articleTitle: Officeアドインの操作
@@ -7,6 +7,7 @@ description: "C++の場合Aspose.Words Officeアドインを操作するため�
 type: docs
 weight: 50
 url: /ja/cpp/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 場合によっては、ドキュメントを変更するコードを実行するインターフェイスコントロールへのアクセスを許可することができます。 Aspose.WordsAPIは`WebExtensions`名前空間を提供し、Officeアドインを表すためのXMLボキャブラリーを拡張する要素と属性をカスタマイズするためのさまざまなクラスを付与します。

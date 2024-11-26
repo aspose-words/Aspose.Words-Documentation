@@ -7,6 +7,7 @@ description: "گزینه های Layout را برای طرح بندی اسناد 
 type: docs
 weight: 10
 url: /fa/net/specify-layout-options/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Aspose.Words به شما امکان می دهد اسناد خروجی را با طرح بندی های مختلف، بسته به پارامترهای مشخص شده در ویژگی های کلاس [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/) ایجاد کنید. برخی از این ویژگی ها شبیه به برخی از گزینه های منوی رابط کاربری Microsoft Word هستند - آنها در این مقاله توضیح داده خواهند شد.

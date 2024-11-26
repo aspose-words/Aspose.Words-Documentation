@@ -7,6 +7,7 @@ description: "Tính năng chi tiết của các trường, mã trường và k�
 type: docs
 weight: 10
 url: /vi/net/fields-overview/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words là thư viện lớp được thiết kế để xử lý tài liệu Microsoft Word phía máy chủ và hỗ trợ các trường theo các cách sau:
@@ -173,9 +174,9 @@ Aspose.Words hỗ trợ tất cả các công tắc định dạng ngày và gi�
 
 ### Trường Mail Merge
 
-Aspose.Words không áp đặt giới hạn nào về độ phức tạp của các trường mail merge trong tài liệu của bạn và hỗ trợ các trường công thức và `IF` lồng nhau, đồng thời thậm chí có thể tính toán tên của trường hợp nhất bằng công thức.
+Aspose.Words không áp đặt giới hạn nào về độ phức tạp của các trường Mail Merge trong tài liệu của bạn và hỗ trợ các trường công thức và `IF` lồng nhau, đồng thời thậm chí có thể tính toán tên của trường hợp nhất bằng công thức.
 
-Một số ví dụ về trường mail merge mà Aspose.Words hỗ trợ:
+Một số ví dụ về trường Mail Merge mà Aspose.Words hỗ trợ:
 
 - Công tắc trường Mail merge:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -222,6 +223,6 @@ Mặt khác, Microsoft Word định dạng từng trường riêng lẻ dựa tr
 
 Lớp [Document](https://reference.aspose.com/words/net/aspose.words/document/) cung cấp thuộc tính [FieldOptions](https://reference.aspose.com/words/net/aspose.words/document/fieldoptions/) chứa các thành viên có thể được sử dụng để kiểm soát cách cập nhật các trường trong tài liệu.
 
-Ví dụ về mã sau đây cho biết cách chỉ định vị trí văn hóa được sử dụng để định dạng ngày trong quá trình cập nhật trường và mail merge được chọn từ đó:
+Ví dụ về mã sau đây cho biết cách chỉ định vị trí văn hóa được sử dụng để định dạng ngày trong quá trình cập nhật trường và Mail Merge được chọn từ đó:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-ChangeFieldUpdateCultureSource-ChangeFieldUpdateCultureSource.cs" >}}

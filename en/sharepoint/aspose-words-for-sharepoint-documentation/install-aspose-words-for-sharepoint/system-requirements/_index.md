@@ -1,4 +1,4 @@
-﻿---
+---
 title: System Requirements
 second_title: Aspose.Words for SharePoint
 articleTitle: System Requirements
@@ -7,6 +7,7 @@ description: "System requirements for the Aspose.Words for SharePoint."
 type: docs
 weight: 10
 url: /sharepoint/system-requirements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Server Requirements

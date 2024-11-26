@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aktiveer OpenType Kenmerke in Java
 second_title: Aspose.Words vir Java
 articleTitle: Aktiveer OpenType Kenmerke
@@ -7,6 +7,7 @@ description: "Gevorderde tipografie funksies in Aspose.Words vir Java."
 type: docs
 weight: 25
 url: /af/java/enable-opentype-features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 

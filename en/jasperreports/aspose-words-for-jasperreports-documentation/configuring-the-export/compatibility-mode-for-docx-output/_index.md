@@ -1,4 +1,4 @@
-﻿---
+---
 title: Compatibility Mode for DOCX output
 second_title: Aspose.Words for JasperReports
 articleTitle: Compatibility Mode for DOCX output
@@ -7,6 +7,7 @@ description: "Aspose Words for JasperReports allow changing Compatibility Mode f
 type: docs
 weight: 150
 url: /jasperreports/compatibility-mode-for-docx-output/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

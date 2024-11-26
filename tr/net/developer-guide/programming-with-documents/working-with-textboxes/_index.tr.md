@@ -7,6 +7,7 @@ description: ".NET için Aspose.Words'teki bağlantılı metin kutuları özelli
 type: docs
 weight: 250
 url: /tr/net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words'te [TextBox](https://reference.aspose.com/words/tr/net/aspose.words.drawing/textbox/) sınıfı, metnin bir şeklin içinde nasıl görüntüleneceğini belirtmek için kullanılır. Müşterinin ilişkili **TextBox**'dan bağlantılı [Shape](https://reference.aspose.com/words/tr/net/aspose.words.drawing/shape/)'i bulabilmesi için metin kutusunun ana şeklini almak üzere **Parent** adlı bir ortak özelliği ortaya çıkarır.

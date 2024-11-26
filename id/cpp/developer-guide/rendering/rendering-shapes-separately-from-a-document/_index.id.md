@@ -1,4 +1,4 @@
-﻿---
+---
 title: Merender Bentuk Secara Terpisah dari Dokumen
 second_title: Aspose.Words untuk C++
 articleTitle: Merender Bentuk Secara Terpisah dari Dokumen
@@ -7,6 +7,7 @@ description: "Ekstrak berbagai objek grafik, seperti gambar, kotak teks yang ber
 type: docs
 weight: 40
 url: /id/cpp/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Saat memproses dokumen, tugas umum adalah mengekstrak semua gambar yang ditemukan dalam dokumen dan mengekspornya ke lokasi eksternal. Tugas ini menjadi sederhana dengan Aspose.Words API, yang sudah menyediakan fungsionalitas untuk mengekstrak dan menyimpan data gambar. Namun, terkadang Anda mungkin ingin mengekstrak jenis konten grafik lain yang diwakili oleh jenis objek gambar yang berbeda, misalnya, kotak teks yang berisi paragraf, bentuk panah, dan gambar kecil. Tidak ada cara langsung untuk merender objek ini karena ini adalah kombinasi dari elemen konten individual. Anda juga dapat menemukan kasus ketika konten telah dikelompokkan bersama ke dalam objek yang terlihat seperti satu gambar.

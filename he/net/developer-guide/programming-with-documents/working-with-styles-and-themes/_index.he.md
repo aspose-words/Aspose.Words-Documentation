@@ -7,6 +7,7 @@ description: "מתקדם Microsoft Word עיצוב תכונות, עבודה עם
 type: docs
 weight: 110
 url: /he/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 The The The [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) הכיתה משמשת לניהול הגדרות בנויות וליישם הגדרות מוגדרות למשתמש לסגנונות.
@@ -36,7 +37,7 @@ The The The [StyleCollection](https://reference.aspose.com/words/net/aspose.word
 
 ### הקוד
 
-יישום של שאילתה המבוססת על סגנון הוא פשוט למדי. Aspose.Words מסמך מודל אובייקט, כפי שהוא פשוט משתמש בכלים שכבר נמצאים במקום. שתי שיטות ייצוגיות יושמו לפתרון זה: # **ParagraphsByStyleName** - - - שיטה זו משחזרת מערך של פסקאות אלה במסמך שיש לו שם סגנון מסוים. # # # **RunsByStyleName** - - - שיטה זו משחזרת מערך של אלה רצים במסמך שיש להם שם סגנון מסוים. שתי השיטות הללו דומות מאוד, ההבדלים היחידים הם סוגי הצומת והייצוג של פרטי הסגנון בתוך הסעיף ועושים צמתים. הנה יישום של Paragraphs על ידיStylename: להלן דוגמה למצוא את כל פסקאות מעוצבות בסגנון שצוין.
+יישום של שאילתה המבוססת על סגנון הוא פשוט למדי. Aspose.Words מסמך מודל אובייקט, כפי שהוא פשוט משתמש בכלים שכבר נמצאים במקום. שתי שיטות ייצוגיות יושמו לפתרון זה: **ParagraphsByStyleName** - - - שיטה זו משחזרת מערך של פסקאות אלה במסמך שיש לו שם סגנון מסוים. # # **RunsByStyleName** - - - שיטה זו משחזרת מערך של אלה רצים במסמך שיש להם שם סגנון מסוים. שתי השיטות הללו דומות מאוד, ההבדלים היחידים הם סוגי הצומת והייצוג של פרטי הסגנון בתוך הסעיף ועושים צמתים. הנה יישום של Paragraphs על ידיStylename: להלן דוגמה למצוא את כל פסקאות מעוצבות בסגנון שצוין.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.cs" >}}
 

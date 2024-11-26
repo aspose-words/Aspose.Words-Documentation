@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hoe om te Hardloop Aspose.Words In Docker
 second_title: Aspose.Words vir .NET
 articleTitle: Hoe om te Hardloop Aspose.Words In Docker
@@ -7,6 +7,7 @@ type: docs
 description: "Integreer Aspose.Words funksionaliteit in jou aansoek met Docker, ongeag watter tegnologie in jou ontwikkelingstapel is. Leer Hoe Om Aspose te gebruik .Woorde in'n Docker houer in C#."
 weight: 120
 url: /af/net/how-to-run-aspose-words-in-docker/
+timestamp: 2024-08-19-11-05-36
 ---
 
 Mikroservices, in samewerking met containerisering maak dit moontlik om tegnologieë maklik te kombineer. Docker laat jou toe om Aspose.Words funksionaliteit maklik in jou aansoek te integreer, ongeag watter tegnologie in jou ontwikkelingstapel is.

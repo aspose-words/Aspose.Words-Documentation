@@ -1,4 +1,4 @@
-﻿---
+---
 title: Unire le tabelle in C++
 second_title: Aspose.Words per C++
 articleTitle: Join Tables
@@ -7,6 +7,7 @@ description: "Manipolazioni avanzate della tabella. Come unire due tabelle in un
 type: docs
 weight: 90
 url: /it/cpp/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Una tabella, rappresentata nel modello a oggetti del documento Aspose.Words, è composta da righe e celle indipendenti, semplificando l'unione delle tabelle.

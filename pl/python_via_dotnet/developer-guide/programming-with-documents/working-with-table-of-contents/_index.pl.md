@@ -7,6 +7,7 @@ description: "Wstawiaj i zarządzaj `spisem treści` w dokumencie za pomocą Pyt
 type: docs
 weight: 170
 url: /pl/python-net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Często będziesz pracować z dokumentami zawierającymi spis treści (TOC). Za pomocą Aspose.Words możesz wstawić własny spis treści lub całkowicie przebudować istniejący spis treści w dokumencie za pomocą zaledwie kilku linijek kodu. W tym artykule opisano sposób pracy z polem spisu treści i przedstawiono:
@@ -107,7 +108,7 @@ Domyślnie powyższe przełączniki są uwzględniane podczas wstawiania domyśl
 
 <p>- *\L – Określa, na którym poziomie w modelu `TOC` pojawi się to pole TC. Model `TOC`, który korzysta z tego samego przełącznika, będzie uwzględniał to pole TC tylko wtedy, gdy będzie się ono mieścić w określonym zakresie.*</p>
 
-<p>- _\N – Numeracja stron dla tego wpisu `TOC` nie jest wyświetlana. Przykładowy kod wstawiania pól TC można znaleźć w następnej sekcji.</p> |
+<p>- `_\N` – Numeracja stron dla tego wpisu `TOC` nie jest wyświetlana. Przykładowy kod wstawiania pól TC można znaleźć w następnej sekcji.</p> |
 
 ### Przełączniki związane z wyglądem
 

@@ -7,6 +7,7 @@ description: "Chèn đoạn văn và chỉ định định dạng của nó tron
 type: docs
 weight: 210
 url: /vi/python-net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đoạn văn là một tập hợp các ký tự được kết hợp thành một khối logic và kết thúc bằng một ký tự đặc biệt – *ngắt đoạn*. Trong Aspose.Words, một đoạn văn được thể hiện bằng lớp [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/).

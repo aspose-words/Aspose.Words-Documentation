@@ -7,6 +7,7 @@ description: "הכניסו שדות למסמך Python בדרכים שונות: �
 type: docs
 weight: 20
 url: /he/python-net/inserting-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 ישנן מספר דרכים שונות להכניס שדות למסמך:
@@ -85,7 +86,7 @@ The The The `MERGEFIELD` שדה במסמך Word יכול להיות מיוצג �
 
 ### הכנסת Mail Merge `ADDRESSBLOCK` שדה לתוך מסמך באמצעות DOM
 
-The The The `ADDRESSBLOCK` שדה משמש כדי להוסיף mail merge כתובת בלוק במסמך Word `ADDRESSBLOCK` שדה במסמך Word יכול להיות מיוצג על ידי [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) מעמד. אתה יכול להשתמש [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) לבצע את הפעולות הבאות:
+The The The `ADDRESSBLOCK` שדה משמש כדי להוסיף Mail Merge כתובת בלוק במסמך Word `ADDRESSBLOCK` שדה במסמך Word יכול להיות מיוצג על ידי [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) מעמד. אתה יכול להשתמש [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) לבצע את הפעולות הבאות:
 
 - ציין האם לכלול את שם המדינה/אזור בשדה
 - ציין אם לעצב את הכתובת לפי המדינה / הרגולציה של המקבל כפי שהוגדר על ידי POST*CODE (Universal Postal Union 2006)
@@ -115,7 +116,7 @@ The The The `ASK` שדה משמש כדי להניע את המשתמש לטקסט
 
 - שם הספר
 - ציין תגובה למשתמש ברירת מחדל (ערך חיוני הכלול בחלון המהיר)
-- ציין האם יש לקבל את תגובת המשתמש פעם אחת לכל mail merge המבצע
+- ציין האם יש לקבל את תגובת המשתמש פעם אחת לכל Mail Merge המבצע
 - ציין את הטקסט המהיר (שם החלון המהיר)
 
 הדוגמה הבאה מציגה כיצד להוסיף `ASK` שדה באמצעות DOM לפסקה במסמך:

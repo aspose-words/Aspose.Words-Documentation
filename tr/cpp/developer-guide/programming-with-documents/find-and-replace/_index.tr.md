@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içinde Bul ve Değiştir
 second_title: Aspose.Words için C++
 articleTitle: Bul ve Değiştir
@@ -7,6 +7,7 @@ type: docs
 description: "Belgenizde bir dize veya normal ifade deseni bulun ve onu C++ kullanarak istediğiniz metinle değiştirin."
 weight: 100
 url: /tr/cpp/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir klavye ve fare kullanarak belgenizde kolayca gezinebilirsiniz, ancak kaydırmanız gereken çok sayfanız varsa, uzun bir belgede belirli bir metni bulmak oldukça zaman alacaktır. Belgenizde kullandığınız belirli karakterleri veya sözcükleri değiştirmek istediğinizde daha fazla zaman alacaktır. "Bul ve değiştir" işlevi, bir belgede bir karakter dizisi bulmanızı ve onu başka bir karakter dizisiyle değiştirmenizi sağlar.

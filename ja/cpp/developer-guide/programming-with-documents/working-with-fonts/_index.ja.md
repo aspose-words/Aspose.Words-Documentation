@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのフォントの操作
 second_title: C++の場合Aspose.Words
 articleTitle: フォントの操作
@@ -7,6 +7,7 @@ description: "C++を使用して詳細にフォントの書式設定。"
 type: docs
 weight: 230
 url: /ja/cpp/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 フォントは、特定のサイズ、色、およびデザインを持つ文字のセットです。 Aspose.Wordsを使用すると、[Fonts](https://reference.aspose.com/words/cpp/aspose.words.fonts/)名前空間と[Font](https://reference.aspose.com/words/cpp/aspose.words/font/)クラスを使用してフォントを操作できます。

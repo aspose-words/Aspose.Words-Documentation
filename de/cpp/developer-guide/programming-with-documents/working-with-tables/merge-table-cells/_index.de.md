@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tabellenzellen in C++ zusammenführen
 second_title: Aspose.Words für C++
 articleTitle: Tabellenzellen zusammenführen
@@ -7,6 +7,7 @@ description: "So führen Sie Tabellenzellen in C++ zusammen. Überprüfen Sie, o
 type: docs
 weight: 40
 url: /de/cpp/merge-table-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal erfordern bestimmte Zeilen in einer Tabelle eine Überschrift oder große Textblöcke, die die gesamte Breite der Tabelle einnehmen. Für die ordnungsgemäße Gestaltung der Tabelle kann der Benutzer mehrere Tabellenzellen zu einer zusammenführen. Aspose.Words unterstützt verbundene Zellen bei der Arbeit mit allen Eingabeformaten, einschließlich des Imports von HTML-Inhalten.

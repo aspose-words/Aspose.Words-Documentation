@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu stiluri de masă în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Aplicați Stilul Tabelului
@@ -7,6 +7,7 @@ description: "Formatare avansată a tabelului Java. Creați un stil de tabel fol
 type: docs
 weight: 80
 url: /ro/java/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un stil de tabel definește un set de formatare care poate fi aplicat cu ușurință unui tabel. Formatarea, cum ar fi marginile, umbrirea, alinierea și fontul, poate fi setată într-un stil de tabel și aplicată la multe tabele pentru un aspect consistent.

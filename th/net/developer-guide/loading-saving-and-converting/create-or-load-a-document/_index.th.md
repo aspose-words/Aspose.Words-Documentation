@@ -8,6 +8,7 @@ url: /th/net/create-or-load-a-document/
 description: "สร้างเอกสารเปล่าหรือโหลดจากไฟล์หรือสตรีมโดยใช้ C#"
 keywords: "create a document c#, load a document c#, create a blank document c#, load a document from file c#, load a document from stream c#, create a document Aspose .NET, load a document Aspose .NET, load formats supported by Aspose.Words .NET"
 weight: 10
+timestamp: 2024-07-09-19-00-42
 ---
 
 เกือบทุกงานที่คุณต้องการดำเนินการด้วย Aspose.Words เกี่ยวข้องกับการโหลดเอกสาร คลาส `Document` แสดงถึงเอกสารที่โหลดลงในหน่วยความจำ เอกสารมีตัวสร้างที่โอเวอร์โหลดหลายตัว ซึ่งช่วยให้คุณสร้างเอกสารเปล่าหรือโหลดจากไฟล์หรือสตรีมได้ สามารถโหลดเอกสารในรูปแบบการโหลดใดก็ได้ที่ Aspose.Words รองรับ สำหรับรายการรูปแบบการโหลดที่รองรับทั้งหมด โปรดดูการแจงนับ [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/)

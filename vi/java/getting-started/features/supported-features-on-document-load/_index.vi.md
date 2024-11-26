@@ -7,6 +7,7 @@ description: "Tải và chuyển đổi tài liệu ở hầu hết các định
 type: docs
 weight: 20
 url: /vi/java/supported-features-on-document-load/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words cho phép người dùng làm việc với các tài liệu ở các định dạng khác nhau và cung cấp một loạt các tùy chọn cho việc này. Ví dụ người dùng có thể tạo một tài liệu từ con số không hoặc tải một tập tin hiện hữu trong bất kỳ [hình thức nhập hỗ trợ](/words/java/supported-document-formats/) nào, thực hiện một vài thay đổi cho tài liệu đó và sau đó lưu kết quả. Khi nhập một tài liệu ở định dạng đã chọn thì người dùng có thể áp dụng nhiều tùy chọn tải.

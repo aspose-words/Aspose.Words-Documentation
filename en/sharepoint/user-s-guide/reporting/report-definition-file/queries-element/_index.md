@@ -1,4 +1,4 @@
-﻿---
+---
 title: Queries Element
 second_title: Aspose.Words for SharePoint
 articleTitle: Queries Element
@@ -7,6 +7,7 @@ description: "Queries element meaning and structure which may be used while conf
 type: docs
 weight: 100
 url: /sharepoint/queries-element/
+timestamp: 2024-10-21-11-17-44
 ---
 
 The Queries element contains information about queries for retrieving report data from the data source. It must contain at least one of the elements from the table below. Use SqlQuery with [SqlDataSource](/words/sharepoint/sqldatasource-element/) or [OleDbDataSource](/words/sharepoint/oledbdatasource-element/). Use SPListQuery or SPXmlQuery with [SPDataSource](/words/sharepoint/spdatasource-element/). Other combinations are not supported. At least one of the child elements should be present.

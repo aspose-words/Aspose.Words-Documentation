@@ -1,4 +1,4 @@
-﻿---
+---
 title: Şekilleri Belgeden Ayrı Oluşturma
 second_title: Aspose.Words için C++
 articleTitle: Şekilleri Belgeden Ayrı Oluşturma
@@ -7,6 +7,7 @@ description: "Bir belgeyi işlerken resimler, paragraflar içeren metin kutusu v
 type: docs
 weight: 40
 url: /tr/cpp/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Belgeleri işlerken ortak bir görev, belgede bulunan tüm görüntüleri ayıklamak ve bunları harici bir konuma dışa aktarmaktır. Bu görev, görüntü verilerini ayıklamak ve kaydetmek için zaten işlevsellik sağlayan Aspose.Words API ile basitleşir. Bununla birlikte, bazen paragraflar, ok şekilleri ve küçük bir resim içeren bir metin kutusu gibi farklı türde bir çizim nesnesiyle temsil edilen diğer grafik içerik türlerini de benzer şekilde çıkarmak isteyebilirsiniz. Tek tek içerik öğelerinin bir birleşimi olduğu için bu nesneyi oluşturmanın basit bir yolu yoktur. Ayrıca, içeriğin tek bir görüntüye benzeyen nesneye gruplandırıldığı bir durumla da karşılaşabilirsiniz.

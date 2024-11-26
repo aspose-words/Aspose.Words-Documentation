@@ -1,4 +1,4 @@
-﻿---
+---
 title: Вставляйте Checkbox файлы, вводите текст или изображения во время Mail Merge
 second_title: Aspose.Words для C++
 articleTitle: Вставка Checkbox файлов, ввод текста или изображений
@@ -7,6 +7,7 @@ description: "Вставляйте флажки или текстовые пол
 type: docs
 weight: 40
 url: /ru/cpp/insert-checkboxes-text-input-or-images-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Механизм слияния принимает документ в качестве входных данных, ищет в нем поля `MERGEFIELD` и заменяет их данными, полученными из источника данных. Обычно вставляется обычный текст и HTML, но пользователи Aspose.Words также могут создать документ, который обрабатывает более необычные сценарии для полей mail merge.
@@ -42,7 +43,7 @@ url: /ru/cpp/insert-checkboxes-text-input-or-images-mail-merge/
 
 ## Вставлять изображения во время Mail Merge
 
-При выполнении операции mail merge вы можете вставлять изображения из базы данных в документ, используя специальные поля image mail merge. Поле image mail merge является полем объединения с именем Image:MyFieldName.
+При выполнении операции Mail Merge вы можете вставлять изображения из базы данных в документ, используя специальные поля image mail merge. Поле image Mail Merge является полем объединения с именем Image:MyFieldName.
 
 ### Вставка изображений из базы данных
 

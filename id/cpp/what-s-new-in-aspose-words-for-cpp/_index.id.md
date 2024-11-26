@@ -1,4 +1,4 @@
-﻿---
+---
 title: Apa yang baru
 second_title: Aspose.Words untuk C++
 articleTitle: Apa yang baru di Aspose.Words untuk C++
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words untuk C++ memperluas dan meningkatkan setiap hari. Di halaman ini, Anda dapat mempelajari tentang fitur produk yang sangat besar dan paling menarik."
 weight: 2
 url: /id/cpp/what-s-new-in-aspose-words-for-cpp/
+timestamp: 2024-10-28-11-53-45
 ---
 
 Halaman ini menjelaskan fitur Aspose.Words baru yang paling menarik yang diperkenalkan dalam rilis terbaru.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Kolom dan Baris di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Kolom dan Baris
@@ -7,6 +7,7 @@ description: "Bekerja dengan bagian tabel-baris, kolom, dan sel menggunakan C++.
 type: docs
 weight: 30
 url: /id/cpp/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Untuk kontrol lebih besar atas cara kerja tabel, pelajari cara memanipulasi kolom dan baris.

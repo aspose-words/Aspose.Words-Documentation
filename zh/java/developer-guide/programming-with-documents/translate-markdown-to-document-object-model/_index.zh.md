@@ -7,6 +7,7 @@ type: docs
 description: "粉碎一个 Markdown 文档到 Document Object Model 回来 所以,你可以工作 复杂的现有 Markdown 在方案上建立一个 Markdown 使用 Java。 。 。 。"
 weight: 20
 url: /zh/java/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 要在程序上读取、操纵和修改文件的内容和格式,需要将其翻译为 Aspose.Words Document Object Model (单位:千美元)DOM) (中文(简体) ).
@@ -42,7 +43,7 @@ url: /zh/java/translate-markdown-to-document-object-model/
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}}  |  |
 
-我们使用一个字符风格,名字从词开始 <span notrans="<span notrans=" `InlineCode`"=""></span>",> 然后是可选点 `(.)` 和一些反键 ```(`)``` 联 合 国 `InlineCode` 特性。 如果缺少一些回击,则默认会使用一个回击.
+我们使用一个字符风格,名字从词开始 `InlineCode`,> 然后是可选点 `(.)` 和一些反键 ```(`)``` 联 合 国 `InlineCode` 特性。 如果缺少一些回击,则默认会使用一个回击.
 
 |  Markdown 特性 |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
@@ -67,9 +68,9 @@ url: /zh/java/translate-markdown-to-document-object-model/
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br/>`-----` |  这是一个简单的段落,具有相应的水平规则形状:<br/>`DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-HorizontalRule.java" >}}  |                                                                |
-|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, 地点(1<=N<=9).<br/>这被翻译为内置样式,应该与指定的模式完全一致(不允许后缀或前缀).<br/>否则,它将只是具有相应风格的普通段落 |
+|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`, 地点(1<=N<=9).<br/>这被翻译为内置样式,应该与指定的模式完全一致(不允许后缀或前缀).<br/>否则,它将只是具有相应风格的普通段落 |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Heading.java" >}}  |                                                                |
-|  **Setext Heading**<br/>`===` (如果标题1),<br/>`---` (如果标题2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, 基于 `“Heading N”` 样式。<br/>如果(N >= 2),则 `“Heading 2”` 将被使用,否则 `“Heading 1”`。 。 。 。<br/>任何后缀都是允许的 但是 Aspose.Words 进口商分别使用"1"号和"2"号。 |
+|  **Setext Heading**<br/>`===` (如果标题1),<br/>`---` (如果标题2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, 基于 'Heading N' 样式。<br/>如果(N >= 2),则 'Heading 2' 将被使用,否则 'Heading 1'。 。 。 。<br/>任何后缀都是允许的 但是 Aspose.Words 进口商分别使用"1"号和"2"号。 |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SetextHeading.java" >}}  |                                                                |
 |   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-IndentedCode.java" >}}  |                                                                |

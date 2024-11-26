@@ -7,6 +7,7 @@ description: "Aspose.Words cho Java cung cấp cho bạn một cách hiệu qu�
 type: docs
 weight: 90
 url: /vi/java/split-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 *Splitting* hoặc *chia một tài liệu* là quá trình chia một tài liệu lớn thành nhiều tập tin nhỏ hơn. Có nhiều lý do để chia một tập tin. Ví dụ, bạn chỉ cần một số trang từ một tài liệu cụ thể và không phải toàn bộ tài liệu. Hoặc vì lý do riêng tư bạn muốn chia sẻ chỉ một số phần của tài liệu với người khác. Với tính năng chia tách, bạn có thể chỉ lấy những phần cần thiết của tài liệu và thực hiện các hành động cần thiết với chúng, ví dụ đánh dấu, lưu hoặc gửi.

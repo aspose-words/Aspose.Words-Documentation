@@ -1,4 +1,4 @@
-﻿---
+---
 title: Protect Documents and Parts of Documents
 second_title: Aspose.Words for .NET
 articleTitle: Protect Documents and Parts of Documents
@@ -7,6 +7,7 @@ description: "Protect a document or parts of a document easily and fast instead 
 type: docs
 weight: 120
 url: /net/protect-documents-and-parts-of-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 You can add protection to Word documents to prevent users from making any edits to the document.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içinde oluşturma
 second_title: Aspose.Words için C++
 articleTitle: İşleme
@@ -7,6 +7,7 @@ description: "Kullanmak Aspose.Words için C++ bir akış düzeni belgesini sayf
 type: docs
 weight: 20
 url: /tr/cpp/rendering/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Bir belgeyi sayfalandırılan veya sayfa kavramına sahip bir dosya biçimine veya ortama dönüştürme işlemini tanımlamak için Aspose.Words 'da "oluşturma" terimini kullanıyoruz. Bir belgenin sayfalara dönüştürülmesinden bahsediyoruz. Aşağıdaki diyagram, Aspose.Words 'da işlemenin ne olduğunu gösterir.

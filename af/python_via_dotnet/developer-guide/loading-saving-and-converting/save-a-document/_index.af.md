@@ -1,4 +1,4 @@
-﻿---
+---
 title: Stoor'n Dokument in Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Stoor'n Dokument
@@ -8,6 +8,7 @@ description: "Stoor'n dokument in enige ondersteun formaat met behulp van Python
 keywords: "save a document python, save a document to file python, save a document to stream python, save a document Aspose python, save formats supported by Aspose.Words python"
 weight: 20
 url: /af/python-net/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Die meeste van die take wat u met Aspose.Words moet uitvoer, behels die stoor van'n dokument. Om'n dokument te stoor Aspose.Words bied die [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) metode van die [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) klas. Daar is oorladings wat dit moontlik maak om'n dokument in'n lêer of stroom te stoor. Die dokument kan gestoor word in enige stoor formaat ondersteun deur Aspose.Words. Vir die lys van alle ondersteunde stoor formate, sien die [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/) opsomming.

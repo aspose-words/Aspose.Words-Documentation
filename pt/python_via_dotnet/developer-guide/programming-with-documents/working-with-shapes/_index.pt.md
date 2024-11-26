@@ -7,6 +7,7 @@ description: "Crie e gerencie formas e objetos antigos em um documento usando Py
 type: docs
 weight: 280
 url: /pt/python-net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Este tópico discute como trabalhar programaticamente com formas usando Aspose.Words.

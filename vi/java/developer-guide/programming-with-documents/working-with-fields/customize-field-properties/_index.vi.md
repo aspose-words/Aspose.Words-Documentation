@@ -7,6 +7,7 @@ description: "Học cách tùy biến thuộc tính trường trong Java. Đổi
 type: docs
 weight: 27
 url: /vi/java/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words cung cấp khả năng tương tác với các thuộc tính trường khác nhau một cách lập trình. Trong bài viết này, chúng ta sẽ xem xét một vài ví dụ để bạn hiểu nguyên tắc cơ bản khi làm việc với các thuộc tính của trường. Bạn có thể xem danh sách đầy đủ thuộc tính cho mỗi kiểu trường trong lớp tương ứng.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 如何在Word文档中添加Group Shape
 second_title: Aspose.Words对于C++
 articleTitle: 在Word文档中使用Group Shapes
@@ -7,6 +7,7 @@ description: "使用C++对形状进行分组和取消分组。"
 type: docs
 weight: 290
 url: /zh/cpp/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时您需要在Word文档中添加group shape。 这样的group shape由多个形状组成。

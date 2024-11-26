@@ -7,6 +7,7 @@ description: "Aspose.Words voor Java voeg aan het document de naam van de genera
 type: docs
 weight: 70
 url: /nl/java/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 U kunt gemakkelijk weten of een document wordt geproduceerd met behulp van Aspose.Words voor Java. U kunt ook het versienummer van Aspose.Words voor Java dat werd gebruikt om een bepaald uitvoerdocument aan te maken. Aspose.Words schrijft deze informatie rechtstreeks in het gegenereerde document.

@@ -7,6 +7,7 @@ description: "Mengkonversi dokumen apa pun ke format MHTML dan kemudian mengirim
 type: docs
 weight: 30
 url: /id/java/convert-a-document-to-mhtml-and-send-it-by-email/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words dapat mengkonversi dokumen ke format MHTML (Web Archive). Ini membuatnya mudah digunakan Aspose.Words Login `Aspose.Email` Sitemap Anda dapat memuat dokumen yang telah ditentukan dalam format yang didukung, seperti DOC, OOXML, atau RTF, ke Aspose.WordsMengisinya dengan data, simpan dokumen yang dihasilkan sebagai MHTML, dan kemudian kirim melalui e-mail menggunakan `Aspose.Email`Sitemap

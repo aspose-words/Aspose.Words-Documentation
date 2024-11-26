@@ -1,4 +1,4 @@
-﻿---
+---
 title: Spesifiseer Uitlegkeuses in C++
 second_title: Aspose.Words vir C++
 articleTitle: Spesifiseer Uitleg Opsies
@@ -7,6 +7,7 @@ description: "Spesifiseer Uitlegopsies vir verskeie dokumentuitlegte."
 type: docs
 weight: 20
 url: /af/cpp/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words stel u in staat om uitsetdokumente met verskillende uitlegte te skep, afhangende van die parameters wat in die [LayoutOptions](https://reference.aspose.com/words/cpp/class/aspose.words.layout.layout_options) eienskap van die **Document** gespesifiseer word. Hierdie eienskap lyk soos sommige van die Microsoft Word gebruikerskoppelvlak menu opsies wat in hierdie artikel beskryf word.

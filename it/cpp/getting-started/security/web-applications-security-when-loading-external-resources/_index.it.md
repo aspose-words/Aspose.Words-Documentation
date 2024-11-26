@@ -1,4 +1,4 @@
-﻿---
+---
 title: Sicurezza delle app Web durante il caricamento delle risorse
 second_title: Aspose.Words per C++
 articleTitle: Sicurezza delle applicazioni Web durante il caricamento di risorse esterne
@@ -7,6 +7,7 @@ type: docs
 description: "Caricare risorse remote, che può essere un motivo di rischi per la sicurezza. Dai un'occhiata ai problemi di sicurezza comuni e alle loro soluzioni in C++."
 weight: 50
 url: /it/cpp/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Default, Aspose.Words per C++ può caricare risorse remote come immagini, stili CSS o documenti HTML esterni durante l'importazione di documenti o l'inserimento di immagini utilizzando DocumentBuilder. Questo comportamento consente di elaborare i documenti in modo completo, ma può essere un motivo di alcuni rischi per la sicurezza se la libreria fa parte di un'applicazione Web.

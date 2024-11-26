@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words for Python via .NET 执行 SmartArt 冷渲染，这意味着如果预渲染的 SmartArt 绘图丢失或不正确，它会布置并渲染 SmartArt 对象。"
 weight: 330
 url: /zh/python-net/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 SmartArt 图形用于快速、轻松地创建信息的视觉表示。您只需从大量布局中选择最适合您的情况即可。这种易用性使得 SmartArt 图形在某些用途上非常受欢迎。

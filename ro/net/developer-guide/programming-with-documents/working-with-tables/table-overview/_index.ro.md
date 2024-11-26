@@ -7,6 +7,7 @@ description: "Lucraţi cu tabele şi componentele lor cum ar fi celule, rânduri
 type: docs
 weight: 10
 url: /ro/net/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words este o bibliotecă de clase proiectată pentru procesarea serverului-side a documentelor în diferite formate - PDF, HTML, diferite Microsoft Word formate și altele, și suportă tabele în felul următor:

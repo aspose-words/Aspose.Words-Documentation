@@ -7,6 +7,7 @@ description: "Rozdělit stůl v Java. Jak rozdělit jednu tabulku do dvou samost
 type: docs
 weight: 100
 url: /cs/java/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tabulka zastoupená v Aspose.Words Document Object Model, se skládá z nezávislých řad a buněk, takže je snadné rozdělit stůl.

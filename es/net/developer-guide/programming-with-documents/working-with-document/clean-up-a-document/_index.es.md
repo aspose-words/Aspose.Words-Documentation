@@ -7,6 +7,7 @@ description: "Elimine la información no utilizada o duplicada para reducir el t
 type: docs
 weight: 30
 url: /es/net/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 En ocasiones, es posible que necesite eliminar información no utilizada o duplicada para reducir el tamaño del documento de salida y el tiempo de procesamiento.

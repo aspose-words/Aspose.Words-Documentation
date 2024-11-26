@@ -1,4 +1,4 @@
-﻿---
+---
 title: SqlQuery Element
 second_title: Aspose.Words for SharePoint
 articleTitle: SqlQuery Element
@@ -7,6 +7,7 @@ description: "SqlQuery element meaning and structure which may be used while con
 type: docs
 weight: 110
 url: /sharepoint/sqlquery-element/
+timestamp: 2024-10-21-11-17-44
 ---
 
 The SqlQuery element contains information about an SQL query for retrieving report data from a relational database. Use it with [SqlDataSource](/words/sharepoint/sqldatasource-element/) or [OleDbDataSource](/words/sharepoint/oledbdatasource-element/). Command can include parameter placeholders. However, the placeholder syntax is different for SqlDataSource and OleDbDataSource. For SqlDataSource query, use parameter names starting with “ @”. Parameter values are substituted by name. Parameter names must match report parameters described in the [Parameters](/words/sharepoint/parameters-element/) element. See how to use parameter placeholders for SqlDataSource on [MSDN](https://docs.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqlcommand.parameters?view=dotnet-plat-ext-6.0).

@@ -7,6 +7,7 @@ description: "Python için Aspose.Words'te kontrol karakterleriyle çalışmaya 
 type: docs
 weight: 400
 url: /tr/python-net/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word belgeleri özel anlamı olan çeşitli karakterler içerebilir. Normalde biçimlendirme amacıyla kullanılırlar ve normal modda çizilmezler. Standart araç çubuğunda bulunan Biçimlendirme İşaretlerini Göster/Gizle düğmesini tıklatırsanız bunları görünür hale getirebilirsiniz.

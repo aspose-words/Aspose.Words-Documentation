@@ -1,38 +1,39 @@
----
-title: Trabajando con Fonts en Java
-second_title: Aspose.Words para Java
-articleTitle: Trabajando con Fonts
-linktitle: Trabajando con Fonts
-description: "Formato de fuente en detalles Java."
+﻿---
+title: Trabajar con fuentes en Java
+second_title: Aspose.Words por Java
+articleTitle: Trabajar con Fuentes
+linktitle: Trabajar con Fuentes
+description: "Formato de fuente en detalles usando Java."
 type: docs
 weight: 230
 url: /es/java/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Una fuente es un conjunto de caracteres con cierto tamaño, color y diseño. Aspose.Words permite trabajar con fuentes utilizando varias clases relacionadas con fuentes, incluyendo [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) clase.
+Una fuente es un conjunto de caracteres con un tamaño, color y diseño determinados. Aspose.Words le permite trabajar con fuentes utilizando varias clases relacionadas con fuentes, incluida la clase [Font](https://reference.aspose.com/words/java/com.aspose.words/font/).
 
-## Formato de fuente
+## Formato de Fuente
 
-Formato de fuente actual está representado por un **Font** objeto devuelto por el [Font](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getFont) propiedad. El **Font** clase contiene una amplia variedad de propiedades de fuentes posibles en Microsoft Word.
+El formato de fuente actual está representado por un objeto **Font** devuelto por la propiedad [Font](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getFont). La clase **Font** contiene una amplia variedad de propiedades de fuente posibles en Microsoft Word.
 
 El siguiente ejemplo de código muestra cómo configurar el formato de fuente:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithDocumentBuilder-SetFontFormatting.java" >}}
 
-Las propiedades de relleno ahora también están disponibles para las fuentes para configurar el formato de relleno del texto. Da la capacidad de cambiar, por ejemplo, el color del primer plano o la transparencia del relleno de texto.
+Las propiedades de relleno ahora también están disponibles para que las fuentes establezcan el formato de relleno del texto. Da la posibilidad de cambiar, por ejemplo, el color de primer plano o la transparencia del relleno del texto.
 
-## Conseguir el espacio de la línea de fuente
+## Obtener Espaciado de Línea de Fuente
 
-La línea de espaciamiento de una fuente es la distancia vertical entre las líneas de base de dos líneas de texto consecutivas. Así, el espaciamiento de la línea incluye el espacio en blanco entre líneas junto con la altura del personaje mismo.
+El interlineado de una fuente es la distancia vertical entre las líneas de base de dos líneas de texto consecutivas. Por lo tanto, el interlineado incluye el espacio en blanco entre líneas junto con la altura del carácter en sí.
 
-El [LineSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/#getLineSpacing) bienes introducidos en el **Font** clase para obtener este valor como se muestra en el ejemplo dado a continuación:
+La propiedad [LineSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/#getLineSpacing) se introdujo en la clase **Font** para obtener este valor como se muestra en el ejemplo a continuación:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-GetFontLineSpacing-GetFontLineSpacing.java" >}}
 
-## Font EmphasisMark
+## Fuente EmphasisMark
 
-El **Font** clase proporciona [EmphasisMark](https://reference.aspose.com/words/java/com.aspose.words/font/#getEmphasisMark) propiedad para obtener o establecer valores de enumeración de EmphasisMark para ser aplicado en el formato.
+La clase **Font** proporciona la propiedad [EmphasisMark](https://reference.aspose.com/words/java/com.aspose.words/font/#getEmphasisMark) para obtener o establecer los valores de enumeración EmphasisMark que se aplicarán en el formato.
 
-El siguiente ejemplo de código muestra cómo establecer el **EphasisMark** propiedad:
+El siguiente ejemplo de código muestra cómo establecer la propiedad **EphasisMark**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithDocumentBuilder-SetFontEmphasisMark.java" >}}

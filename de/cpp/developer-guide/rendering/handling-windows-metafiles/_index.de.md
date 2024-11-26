@@ -1,4 +1,4 @@
-﻿---
+---
 title: Behandlung von Windows Metadateien in C++
 second_title: Aspose.Words für C++
 articleTitle: Umgang mit Windows Metadateien
@@ -7,6 +7,7 @@ description: "Aspose.Words für C++ implementiert einen eigenen Windows Metadate
 type: docs
 weight: 30
 url: /de/cpp/handling-windows-metafiles/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Das Metadateiformat Windows ist ein Bilddateiformat, das sowohl Vektor- als auch Rastergrafiken enthalten kann. Dieses Format wird zum Speichern von Grafikdaten im Speicher oder in Dateien auf der Festplatte verwendet. Eine Metadatei speichert eine Liste von Funktionsaufrufen in der Windows -Grafikgeräteschnittstelle (GDI), die ausgeführt werden müssen, um das Bild auf dem Bildschirm anzuzeigen. Das System interpretiert und führt diese Befehle im Anzeigekontext aus.

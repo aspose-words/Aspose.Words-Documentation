@@ -7,6 +7,7 @@ description: "Zaszyfruj swój dokument za pomocą odpowiednich algorytmów szyfr
 type: docs
 weight: 20
 url: /pl/python-net/encrypt-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Szyfrowanie to proces, który tłumaczy czytelny tekst na bezsensowne sekwencje bajtów, dzięki czemu może go odczytać tylko osoba posiadająca klucz odszyfrowujący lub tajny kod. Proces ten odgrywa ważną rolę w zabezpieczeniu treści. Pomaga zakodować treść, zweryfikować pochodzenie dokumentu, wykazać, że treść nie uległa zmianie po wysłaniu, a także zapewnić bezpieczeństwo danych zawartych w dokumencie.

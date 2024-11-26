@@ -7,6 +7,7 @@ description: "Python を使用して、ドキュメント内のリストを作�
 type: docs
 weight: 200
 url: /ja/python-net/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word ドキュメント内のリストは、リストの書式設定プロパティのセットです。リストを文書内で使用して、テキストの書式設定、配置、強調を行うことができます。リストは文書内のデータを整理するための優れた方法であり、読者が重要なポイントを理解しやすくなります。

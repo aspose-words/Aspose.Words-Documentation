@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++中的表格格式
 second_title: Aspose.Words对于C++
 articleTitle: 应用格式
@@ -7,6 +7,7 @@ description: "使用C++的详细表格格式。 使用C++格式化表的每个�
 type: docs
 weight: 70
 url: /zh/cpp/applying-formatting/
+timestamp: 2024-10-21-11-17-44
 ---
 
 表的每个元素都可以应用不同的格式。 例如，表格格式将应用于整个表格，行格式仅应用于特定行，单元格格式仅应用于某些单元格。

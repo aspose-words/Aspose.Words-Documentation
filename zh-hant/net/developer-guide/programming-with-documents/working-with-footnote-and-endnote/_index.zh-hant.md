@@ -7,6 +7,7 @@ description: "使用 C# 如何處理腳注和尾注。"
 type: docs
 weight: 160
 url: /zh-hant/net/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 也提供了一些用於處理底 Footnote 和 Endnote 的類別、方法和屬性。

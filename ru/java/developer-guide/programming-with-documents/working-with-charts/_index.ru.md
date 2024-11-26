@@ -1,74 +1,75 @@
----
-title: Работа с картами в Java
+﻿---
+title: Работа с графиками в Java
 second_title: Aspose.Words для Java
-articleTitle: Работа с диаграммами
-linktitle: Работа с диаграммами
-description: "Введение в функцию Chart, как создавать и манипулировать диаграммами с помощью Java."
+articleTitle: Работа с графиками
+linktitle: Работа с графиками
+description: "Введение в функцию построения диаграмм, как создавать диаграммы и манипулировать ими с помощью Java."
 type: docs
 weight: 310
 url: /ru/java/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Новый [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) Метод был добавлен в [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) класс. Итак, давайте посмотрим, как вставить простую таблицу столбцов в документ с помощью **вставить Чарт** метод.
+В класс [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) был добавлен новый метод [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double). Итак, давайте посмотрим, как вставить простую столбчатую диаграмму в документ, используя метод **insertChart**.
 
 
-## Как вставить диаграмму из Scratch Aspose.Words
+## Как вставить диаграмму с нуля, используя Aspose.Words
 
-В этом разделе мы узнаем, как вставить карту в документ.
+В этом разделе мы узнаем, как вставить диаграмму в документ.
 
-###  Включить диаграмму колонок
+###  Вставить столбчатую диаграмму
 
-Следующий пример кода показывает, как вставить столбцовую диаграмму:
+В следующем примере кода показано, как вставить столбчатую диаграмму:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertColumnChart1.java" >}}
 
-Код дает следующий результат:
+Код выдает следующий результат:
 
 ![column-chart-aspose-words-java-1](/words/java/working-with-charts/working-with-charts-7.png)
 
-Есть четыре различных перегрузки для серии. Добавить метод, который был подвержен охвату всех возможных вариантов источников данных для всех типов диаграмм:
+Для метода добавления рядов существует четыре различных режима перегрузки, которые были применены для охвата всех возможных вариантов источников данных для всех типов диаграмм:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertColumnChart2.java" >}}
 
-Код дает следующий результат:
+Код выдает следующий результат:
 
 ![column-chart-aspose-words-java-2](/words/java/working-with-charts/working-with-charts-8.png)
 
-### Включить рассеяние Чарт
+### Вставить точечную диаграмму
 
-Следующий пример кода показывает, как вставить диаграмму рассеяния:
+В следующем примере кода показано, как вставить точечную диаграмму:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertScatterChart.java" >}}
 
-Код дает следующий результат:
+Код выдает следующий результат:
 
 ![scutter-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-9.png)
 
-### Включить зону Чарт
+### Вставка диаграммы области
 
-Следующий пример кода показывает, как вставить диаграмму области:
+В следующем примере кода показано, как вставить областную диаграмму:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertAreaChart.java" >}}
 
-Код дает следующий результат:
+Код выдает следующий результат:
 
 ![area-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-10.png)
 
-### Включить Bubble Chart
+### Вставить пузырьковую диаграмму
 
-Следующий пример кода показывает, как вставить пузырьковую диаграмму:
+В следующем примере кода показано, как вставить пузырьковую диаграмму:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertBubbleChart.java" >}}
 
-Код дает следующий результат:
+Код выдает следующий результат:
 
 ![bubble-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-11.png)
 
-## Работа с картами через `Shape.Chart` Объект
+## Работа с графиками через объект `Shape.Chart`
 
-После того, как график был вставлен и заполнен данными, вы можете изменить его внешний вид. [Shape.Chart](https://reference.aspose.com/words/java/com.aspose.words/shape/#getChart) собственность содержит все варианты, связанные с диаграммами, доступные через общественность API.
+После того, как диаграмма была вставлена и заполнена данными, вы можете изменить ее внешний вид. [Shape.Chart](https://reference.aspose.com/words/java/com.aspose.words/shape/#getChart) свойство содержит все связанные с диаграммой параметры, доступные через общедоступный API.
 
-Например, давайте изменим Название диаграммы или поведение легенды:
+Например, давайте изменим название диаграммы или поведение условных обозначений:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-changeChartAppearanceUsingShapeChartObject.java" >}}
 
@@ -76,129 +77,129 @@ url: /ru/java/working-with-charts/
 
 ![line-chart-aspose-words-java-1](/words/java/working-with-charts/working-with-charts-1.png)
 
-## Как работать с ChartSeriesСборник диаграмм
+## Как работать с ChartSeriesCollection диаграммы
 
-Давайте посмотрим на [ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/) Коллекция. Все серии карт доступны через [chart.getSeries()](https://reference.aspose.com/words/java/com.aspose.words/chart/#getSeries) Коллекция, которая является **Iterable**:
+Давайте заглянем в коллекцию [ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/). Все серии диаграмм доступны в коллекции [chart.getSeries()](https://reference.aspose.com/words/java/com.aspose.words/chart/#getSeries), которая называется **Iterable**.:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithChartSeriesCollectionOfChart-WorkWithChartSeriesCollectionOfChart.java" >}}
 
-Вы можете удалить серию по одной или очистить все из них, а также добавить новую, если это необходимо. Недавно вставленный график имеет некоторые серии по умолчанию, добавленные в эту коллекцию. Чтобы удалить их, вам нужно позвонить в **chart.getSeries().clear()** метод.
+Вы можете удалять ряды по одному или очистить их все, а также добавить новый, если это необходимо. Во вновь вставленной диаграмме в эту коллекцию добавлены некоторые ряды по умолчанию. Чтобы удалить их, вам нужно вызвать метод **chart.getSeries().clear()**.
 
-## Работа с Single ChartSeries Class
+## Работа с одним классом ChartSeries
 
-Вот как работать с определенной серией.
+Вот как работать с конкретной серией.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-workingWithSingleChartSeries.java" >}}
 
-Пожалуйста, смотрите результат ниже:
+Пожалуйста, ознакомьтесь с результатом ниже:
 
 ![line-chart-aspose-words-java-2](/words/java/working-with-charts/working-with-charts-2.png)
 
-Все одинокие [ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/) иметь дефолт [ChartDataPoint](https://reference.aspose.com/words/java/com.aspose.words/chartdatapoint/) Пожалуйста, попробуйте использовать следующий код, чтобы изменить их:
+Все одиночные [ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/) имеют параметры по умолчанию [ChartDataPoint](https://reference.aspose.com/words/java/com.aspose.words/chartdatapoint/), пожалуйста, попробуйте изменить их с помощью следующего кода:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-changeDefaultChartDataPointOptions.java" >}}
 
 ![line-chart-aspose-words-java3](/words/java/working-with-charts/working-with-charts-3.png)
 
-## Как работать с Single ChartDataPoint `ChartSeries`
+## Как работать с одним ChartDataPoint из `ChartSeries`
 
-Использовать [ChartDataPoint](https://reference.aspose.com/words/java/com.aspose.words/chartdatapoint/) Вы можете настроить форматирование одной точки данных серии диаграмм:
+Используя [ChartDataPoint](https://reference.aspose.com/words/java/com.aspose.words/chartdatapoint/), вы можете настроить форматирование отдельной точки данных в ряду диаграмм:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithSingleChartDataPointOfAChartSeries-WorkWithSingleChartDataPointOfAChartSeries.java" >}}
 
-Пожалуйста, смотрите результат ниже:
+Пожалуйста, ознакомьтесь с результатом ниже:
 
 ![line-chart-aspose-words-java-4](/words/java/working-with-charts/working-with-charts-4.png)
 
-## Как работать с ChartDataLabel одной серии
+## Как работать с ChartDataLabel из одного ChartSeries
 
-Использовать [ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/) Вы можете указать форматирование одной метки данных серии диаграмм, такой как show/hide LegendKey, CategoryName, SeriesName, Стоимость и т.д
+Используя [ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/), вы можете задать форматирование отдельной метки данных в серии диаграмм, например, показать/скрыть LegendKey, CategoryName, SeriesName, Значение и т.д:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithChartDataLabelOfASingleChartSeries-WorkWithChartDataLabelOfASingleChartSeries.java" >}}
 
-Пожалуйста, смотрите результат ниже:
+Пожалуйста, ознакомьтесь с результатом ниже:
 
 ![bar-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-5.png)
 
-## Как определить параметры по умолчанию для ChartDataLabels ChartSeries
+## Как определить параметры по умолчанию для ChartDataLabels из ChartSeries
 
-The [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/) класс определяет свойства, которые могут использоваться для установки опций по умолчанию для **ChartDataLabels** для карты **Series**. Эти свойства включают setShowCategoryName, setShowBubbleSize, setShowPercentage, setShowSeriesName, setShowShow Стоимость и т.д
+Класс [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/) определяет свойства, которые можно использовать для установки параметров по умолчанию для **ChartDataLabels** для диаграммы **Series**. Эти свойства включают в себя setShowCategoryName, setShowBubbleSize, setShowPercentage, setShowSeriesName, setShowValue и т.д:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-DefaultOptionsForDataLabels-DefaultOptionsForDataLabels.java" >}}
 
-Пожалуйста, смотрите результат ниже:
+Пожалуйста, ознакомьтесь с результатом ниже:
 
 ![pie-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-6.png)
 
-## Как форматировать номер таблички с данными
+## Как отформатировать номер метки данных диаграммы
 
-Используя [NumberFormat](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/#getNumberFormat) свойство, можно указать номер форматирования одной метки данных диаграммы.
+Используя свойство [NumberFormat](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/#getNumberFormat), вы можете задать числовое оформление отдельной метки данных диаграммы.
 
-Следующий пример кода показывает, как форматировать номер метки данных:
+В следующем примере кода показано, как отформатировать номер метки данных:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartNumberFormat-ChartNumberFormat.java" >}}
 
-## Как установить свойства Chart Axis
+## Как задать свойства оси диаграммы
 
-Если вы хотите работать с осью диаграмм, масштабированием и отображением блоков для оси значений, пожалуйста, используйте [ChartAxis](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/), [AxisDisplayUnit](https://reference.aspose.com/words/java/com.aspose.words/axisdisplayunit/), и [AxisScaling](https://reference.aspose.com/words/java/com.aspose.words/axisscaling/) классы.
+Если вы хотите работать с осью диаграммы, масштабированием и единицами отображения для оси значений, пожалуйста, используйте классы [ChartAxis](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/), [AxisDisplayUnit](https://reference.aspose.com/words/java/com.aspose.words/axisdisplayunit/) и [AxisScaling](https://reference.aspose.com/words/java/com.aspose.words/axisscaling/).
 
-Следующий пример кода показывает, как определить свойства оси X и Y:
+В следующем примере кода показано, как определить свойства осей X и Y:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-DefineXYAxisProperties.java" >}}
 
-### Как установить DateВременное значение оси
+### Как установить значение DateTime для оси
 
-Следующий пример кода показывает, как установить значения даты/времени на свойства оси:
+В следующем примере кода показано, как задать значения даты и времени для свойств оси:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetDateTimeValuesToAxis.java" >}}
 
-### Как определить значение числа оси
+### Как отформатировать числовое значение оси
 
-Следующий пример кода показывает, как изменить формат чисел на оси значений:
+В следующем примере кода показано, как изменить формат чисел на оси значений:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetNumberFormatForAxis.java" >}}
 
 ### Как установить границы оси
 
-The `AxisBound` Класс представляет собой минимальную или максимальную границу значений оси. Связь может быть указана как цифровое, дата-время или специальное "авто" значение.
+Класс `AxisBound` представляет минимальную или максимальную границу значений оси. Граница может быть задана в виде числа, даты и времени или специального "автоматического" значения.
 
-Следующий пример кода показывает, как установить границы оси:
+В следующем примере кода показано, как задать границы оси:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetboundsOfAxis.java" >}}
 
-### Как установить интервал между ярлыками
+### Как установить единицу измерения интервала между надписями
 
-Следующий пример кода показывает, как установить интервал между ярлыками на оси:
+В следующем примере кода показано, как задать единицу измерения интервала между метками на оси:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetIntervalUnitBetweenLabelsOnAxis.java" >}}
 
 ### Как скрыть ось диаграммы
 
-Если вы хотите показать или скрыть ось диаграммы, вы можете просто достичь этого, установив значение `ChartAxis.Hidden` собственность.
+Если вы хотите отобразить или скрыть ось диаграммы, вы можете просто добиться этого, установив значение свойства `ChartAxis.Hidden`.
 
-Следующий пример кода показывает, как скрыть Y-ось диаграммы:
+В следующем примере кода показано, как скрыть ось Y на диаграмме:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-HideChartAxis.java" >}}
 
-### Как подключить Chart Label
+### Как выровнять метку диаграммы
 
-Если вы хотите установить текстовое выравнивание для многострочных меток, вы можете просто достичь этого, установив значение [setTickLabelAlignment()](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/#setTickLabelAlignment-int) собственность.
+Если вы хотите задать выравнивание текста для многострочных надписей, вы можете просто добиться этого, установив значение свойства [setTickLabelAlignment()](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/#setTickLabelAlignment-int).
 
-Следующий пример кода показывает, как выравнивать этикетку:
+В следующем примере кода показано, как установить флажок для выравнивания меток:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.java" >}}
 
 {{% alert color="primary" %}}
 
-Microsoft Word выравнивание Графическая этикетка в центр по умолчанию.
+Microsoft Word по умолчанию выравнивает метку диаграммы по центру.
 
 {{% /alert %}}
 
-## Как установить наполнение и форматирование инсульта
+## Как настроить форматирование заливки и обводки
 
-Форматирование заполнения и хода может быть установлено для серий диаграмм, точек данных и маркеров. Для этого нужно использовать свойства `ChartFormat` тип в классах ChartSeries, ChartDataPoint и ChartMarker, а также псевдонимы для некоторых свойств, таких как ForeColor, BackColor, Visible и Transparency in the `Stroke` класс.
+Для рядов диаграмм, точек данных и маркеров можно задать форматирование заливки и обводки. Для этого вам необходимо использовать свойства типа `ChartFormat` в классах ChartSeries, ChartDataPoint и ChartMarker, а также псевдонимы для некоторых свойств, таких как ForeColor, BackColor, Visible и Transparency в классе `Stroke`.
 
-Следующий пример кода показывает, как установить цвет серии:
+В следующем примере кода показано, как задать цвет серии:
 
 {{< highlight csharp >}}
 Document doc = new Document();
@@ -228,7 +229,7 @@ series3.Format.Fill.ForeColor = Color.Blue;
 doc.Save("ColumnColor.docx");
 {{< /highlight >}}
 
-Следующий пример кода показывает, как установить цвет линии и вес:
+В следующем примере кода показано, как задать цвет и вес линии:
 
 {{< highlight csharp >}}
 Document doc = new Document();

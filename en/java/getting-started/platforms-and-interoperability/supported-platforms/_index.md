@@ -8,6 +8,7 @@ type: docs
 weight: 5
 url: /java/supported-platforms/
 aliases: [/java/java/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words for Java supports the following Java versions:

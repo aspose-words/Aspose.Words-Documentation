@@ -7,6 +7,7 @@ description: "Python için Aspose.Words, belgenizle ilgili API ve Sürüm Numara
 type: docs
 weight: 10
 url: /tr/python-net/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Belge özellikleri, belgeniz hakkında bazı yararlı bilgilerin saklanmasına olanak tanır. Bu özellikler iki gruba ayrılabilir:

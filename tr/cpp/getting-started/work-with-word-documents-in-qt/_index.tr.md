@@ -1,4 +1,4 @@
-﻿---
+---
 title: Word Belgeleriyle Qt içinde Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Word Belgeleriyle Qt içinde Çalışma
@@ -8,6 +8,7 @@ description: "Aspose.Words için C++ Qt uygulamalarında Word belgeleri oluştur
 keywords: "create a document Qt Creator, load a document Qt Creator, use Aspose C++ with Qt creator, load a document Aspose C++, load formats supported by Aspose.Words C++"
 weight: 120
 url: /tr/cpp/work-with-word-documents-in-qt/
+timestamp: 2024-07-11-16-13-28
 ---
 
 Qt, çeşitli masaüstü, mobil ve gömülü sistem uygulamaları geliştirmek için yaygın olarak kullanılan C++ tabanlı bir platformlar arası uygulama geliştirme çerçevesidir. Aspose.Words için C++ Qt uygulamalarınızda Word belgeleri oluşturmak ve işlemek için Qt içine entegre edilebilir.

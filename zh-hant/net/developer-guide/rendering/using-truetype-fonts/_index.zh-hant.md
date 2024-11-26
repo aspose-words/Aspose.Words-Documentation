@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET能用 C# 找到正確的字體或其適當�
 type: docs
 weight: 20
 url: /zh-hant/net/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 在處理文書時，你經常必須使用不同的字體、風格和字體大小。 文件可以包含任意數量的字體，不一定受限於操作系統所安裝的字體。 字體可以完全不同，例如從其他作業系統中取得的字體、購買或由使用者自己創造。

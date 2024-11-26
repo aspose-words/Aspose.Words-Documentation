@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words için, Java en çok sorulan sorulara cevap verir. Bu sayfayı genel soru veya özel konular hakkında hızlı bir şekilde probleminizi çözmek için öğrenin."
 weight: 75
 url: /tr/java/faq/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Bu sayfada en sık sorulan soruların cevapları vardır. Lütfen şu anki sayfayı öğren – belki bu, sizin probleminizi hızlıca çözmenize olanak sağlayacaktır.
@@ -135,7 +136,7 @@ Birleştirme alanlarının doğru şekilde adlandırıldığından emin olun. T�
 
 **Q: Nadir bir birleştirme çıkışı neden üst tablodaki ilk giriş için çocuk tablodan veri görüntülemezken üst tablodaki son giriş için tüm öğeleri görüntüler, hatta bunlar aslında ona bağlı değildir?**
 
-Bunun nedeni şablonlardaki birleştirme bölgelerinin doğru şekilde oluşturulmamış olmasıdır, bu da tüm iç içe geçmiş mail merge bölgelerinin tamamen bir şey görüntülemeyi bırakmasına neden olabilir. The [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) açılış etiketi ve [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) kapanış etiketinin eşleşmesi ve aynı satırda ya da hücrede olması gerekir. Örneğin, bir tablodaki bir hücrenin içinde birleştirme bölgelerini iç içe geçmeye başlarsanız, birleştirme bölgesini ilk hücre ile aynı satırda bitirmelisiniz.
+Bunun nedeni şablonlardaki birleştirme bölgelerinin doğru şekilde oluşturulmamış olmasıdır, bu da tüm iç içe geçmiş Mail Merge bölgelerinin tamamen bir şey görüntülemeyi bırakmasına neden olabilir. The [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) açılış etiketi ve [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) kapanış etiketinin eşleşmesi ve aynı satırda ya da hücrede olması gerekir. Örneğin, bir tablodaki bir hücrenin içinde birleştirme bölgelerini iç içe geçmeye başlarsanız, birleştirme bölgesini ilk hücre ile aynı satırda bitirmelisiniz.
 
 ------
 

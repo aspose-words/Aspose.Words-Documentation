@@ -1,4 +1,4 @@
-﻿---
+---
 title: Navigasi dengan Kursor di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Navigasi dengan Kursor
@@ -7,6 +7,7 @@ description: "Bernavigasi di antara node yang berbeda dalam dokumen, seperti par
 type: docs
 weight: 10
 url: /id/cpp/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Saat bekerja dengan dokumen, meskipun dokumen itu pendek atau panjang, Anda perlu menavigasi dokumen Anda. Navigasi dengan kursor virtual mewakili kemampuan untuk bernavigasi di antara node yang berbeda dalam sebuah dokumen.

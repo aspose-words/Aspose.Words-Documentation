@@ -1,64 +1,65 @@
----
-title: 透かしの作業 Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: 透かしのある作業
-linktitle: 透かしのある作業
+﻿---
+title: Javaでの透かしの操作
+second_title: Aspose.WordsのためのJava
+articleTitle: 透かしの操作
+linktitle: 透かしの操作
 type: docs
-description: "ドキュメント透かし操作を使用して Javaお問い合わせ"
+description: "Javaを使用した文書の透かし操作。"
 weight: 70
 url: /ja/java/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
-このトピックでは、透かしを使ってプログラム的に作業する方法について説明します Aspose.Wordsお問い合わせ 透かしは文書のテキストの後ろに表示する背景画像です。 透かしは、テキストやイメージを表わすことができます。 [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) クラス。
+このトピックでは、Aspose.Wordsを使用して透かしをプログラムで操作する方法について説明します。 透かしは、ドキュメント内のテキストの後ろに表示される背景画像です。 透かしには、[Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/)クラスで表されるテキストまたは画像を含めることができます。
 
 {{% alert color="primary" %}}
 
 **オンラインで試す**
 
-この機能を試してみる [無料オンライン文書透かし](https://products.aspose.app/words/watermark)お問い合わせ
+あなたは私たちのこの機能を試すことができます [無料のオンライン文書透かし](https://products.aspose.app/words/watermark).
 
 {{% /alert %}}
 
-## ドキュメントに透かしを追加する
+## 文書に透かしを追加する
 
-インスタグラム Microsoft Word, Insert Watermark コマンドを使用してドキュメントに透かしを簡単に差し込むことができます。 Aspose.Words 提供して下さい [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) 文書に透かしを追加または削除するクラス。 Aspose.Words 提供して下さい [ウォーターマーク タイプ:](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)3種類の透かし(テキスト、画像、およびなし)を定義する列挙。
+Microsoft Wordでは、[透かしの挿入]コマンドを使用して、文書に透かしを簡単に挿入できます。 Aspose.Wordsは、ドキュメント内の透かしを追加または削除するための[watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/)クラスを提供します。 Aspose.Wordsは[WatermarkType](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)列挙体を提供し、使用する透かしの3つのタイプ(テキスト、イメージ、およびなし)を定義します。
 
 ### テキスト透かしを追加
 
-次のコードの例では、ドキュメントにテキスト透かしを記述する方法を示します。 [TextWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/textwatermarkoptions/) 利用する [SetText](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setText-java.lang.String) メソッド:
+次のコード例は、[SetText](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setText-java.lang.String)メソッドを使用して[TextWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/textwatermarkoptions/)を定義して、ドキュメントにテキスト透かしを挿入する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddTextWatermarkWithSpecificOptions.java" >}}
 
-### 画像透かしを追加
+### 画像の透かしを追加
 
-次のコードの例では、ドキュメントにイメージ透かしを入れる方法を示します。 [ImageWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/imagewatermarkoptions/) 利用する [SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.awt.image.BufferedImage) メソッド:
+次のコード例は、[SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.awt.image.BufferedImage)メソッドを使用して[ImageWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/imagewatermarkoptions/)を定義して、ドキュメントに画像透かしを挿入する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.java" >}}
 
-形状クラスでも透かしを出すこともできます。 形状やイメージをヘッダやフッターに挿しやすく、想像力のあるタイプの透かしを作成します。
+透かしは、shapeクラスを使用して挿入することもできます。 ヘッダーやフッターに任意の形状や画像を挿入し、したがって、任意の想像できるタイプの透かしを作成することは非常に簡単です。
 
-次のコードは、ウォーターマークをWord文書に差し込みます。
+Word文書に透かしを挿入するコード例を次に示します:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-AddWatermarkToADocument-AddWatermarkToADocument.java" >}}
 
 {{% alert color="primary" %}}
 
-この例のサンプルファイルをダウンロードできます。 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc)お問い合わせ
+この例のサンプルファイルは、次の場所からダウンロードできます [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
 
 {{% /alert %}}
 
 
-## ドキュメントから透かしを取り除く
+## 文書から透かしを削除する
 
-ザ・オブ・ザ・ [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) クラスは `Remove` ドキュメントから透かしを取り除く方法。
+[Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/)クラスは、文書から透かしを削除するための`Remove`メソッドを提供します。
 
-次のコードの例では、文書から透かしを削除する方法を示します。
+次のコード例は、ドキュメントから透かしを削除する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-RemoveWatermarkFromDocument.java" >}}
 
-インサート時に透かし形状の名前だけを設定し、割り当てられた名前で透かし形状を削除しなければならない文書から透かしを削除する。
+ドキュメントから透かしを削除するには、挿入中に透かし図形の名前のみを設定し、割り当てられた名前で透かし図形を削除する必要があります。
 
-次のコードの例では、透かしの形の名前を設定し、文書から削除する方法を示します。
+次のコード例は、透かし図形の名前を設定してドキュメントから削除する方法を示しています:
 
 {{< highlight csharp >}}
 
@@ -68,10 +69,10 @@ watermark.Name("WaterMark");
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-RemoveWatermark-RemoveWatermark.java" >}}
 
-## ウォーターマークをテーブルセルに追加する
+## 表のセルに透かしを追加する
 
-時々、テーブルのセルに透かし/画像を入れ、テーブルの外に表示する必要があります。 [IsLayoutInCell](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#isLayoutInCell-boolean) 宿泊施設 このプロパティは、形状がテーブルまたは外側に表示されているかどうかを示すフラグを取得します。 このプロパティはドキュメントを最適化する際にのみ機能します Microsoft Word 2010年 使用 [OptimizeFor](https://reference.aspose.com/words/java/com.aspose.words/compatibilityoptions/#optimizeFor-int) メソッド。
+テーブルのセルに透かし/画像を挿入してテーブルの外に表示する必要がある場合は、[IsLayoutInCell](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#isLayoutInCell-boolean)プロパティを使用できます。 このプロパティは、図形がテーブルの内側に表示されるか、テーブルの外側に表示されるかを示すフラグを取得または設定します。 このプロパティは、[OptimizeFor](https://reference.aspose.com/words/java/com.aspose.words/compatibilityoptions/#optimizeFor-int)メソッドを使用してMicrosoft Word2010のドキュメントを最適化する場合にのみ機能することに注意してください。
 
-以下のコードの例では、このプロパティを使用する方法を示します。
+次のコード例は、このプロパティを使用する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-SetShapeLayoutInCell.java" >}}

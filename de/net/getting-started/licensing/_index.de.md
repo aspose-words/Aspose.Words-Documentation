@@ -7,6 +7,7 @@ description: "Aspose.Words für .NET bietet verschiedene Kaufpläne oder eine ko
 type: docs
 weight: 55
 url: /de/net/licensing/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Um das System besser zu studieren, möchte man manchmal so schnell wie möglich in den Code eintauchen. Um dies zu vereinfachen, bietet Aspose.Words verschiedene Kaufpläne oder eine kostenlose Testversion und eine 30-tägige temporäre Lizenz zur Evaluierung an.
@@ -60,13 +61,13 @@ Nach dem Kauf einer Lizenz müssen Sie die Informationen auf Seite [Schutz Ihrer
 Lizenzen können von verschiedenen Standorten aus beantragt werden:
 
 * Expliziter Pfad
-* Der Ordner, der die *Aspose.Words.dll*-Datei enthält
-* Der Ordner, der die Assembly enthält, die *Aspose.Words.dll* aufgerufen hat
-* Der Ordner, der die Eintragsassembly enthält (Ihr *.exe*)
-* Eine eingebettete Ressource in der Assembly heißt *Aspose.Words.dll*
+* Der Ordner, der die `Aspose.Words.dll`-Datei enthält
+* Der Ordner, der die Assembly enthält, die `Aspose.Words.dll` aufgerufen hat
+* Der Ordner, der die Eintragsassembly enthält (Ihr `.exe`)
+* Eine eingebettete Ressource in der Assembly heißt `Aspose.Words.dll`
 * Als Metered License – ein neuer Lizenzierungsmechanismus
 
-Wenn Sie in der Anwendung auf *Aspose.Words.dll* verweisen, wird die Bibliothek in Ihr Ausgabeverzeichnis kopiert (es sei denn, *Copy Local* in den Eigenschaften für diesen Eintrag ist auf false gesetzt). Der einfachste Weg, eine Lizenz festzulegen, besteht häufig darin, die Lizenzdatei im selben Ordner wie *Aspose.Words.dll* abzulegen und nur den Dateinamen ohne Pfad anzugeben.
+Wenn Sie in der Anwendung auf `Aspose.Words.dll` verweisen, wird die Bibliothek in Ihr Ausgabeverzeichnis kopiert (es sei denn, *Copy Local* in den Eigenschaften für diesen Eintrag ist auf false gesetzt). Der einfachste Weg, eine Lizenz festzulegen, besteht häufig darin, die Lizenzdatei im selben Ordner wie `Aspose.Words.dll` abzulegen und nur den Dateinamen ohne Pfad anzugeben.
 
 {{% alert color="primary" %}}
 

@@ -7,6 +7,7 @@ description: "Vergleichen Sie zwei Dokumente in allen unterstützten Formaten un
 type: docs
 weight: 60
 url: /de/net/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Der Vergleich von Dokumenten ist ein Prozess, der Änderungen zwischen zwei Dokumenten identifiziert und die Änderungen als Revisionen enthält. Bei diesem Vorgang werden zwei beliebige Dokumente verglichen, einschließlich Versionen eines bestimmten Dokuments. Anschließend werden die Änderungen zwischen beiden Dokumenten als Überarbeitungen im ersten Dokument angezeigt.

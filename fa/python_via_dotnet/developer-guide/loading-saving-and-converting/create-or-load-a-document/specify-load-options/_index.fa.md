@@ -7,6 +7,7 @@ description: "با استفاده از Python، فرآیند بارگذاری ر
 type: docs
 weight: 10
 url: /fa/python-net/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 هنگام بارگیری یک سند، می توانید برخی از ویژگی های پیشرفته را تنظیم کنید. Aspose.Words کلاس [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/) را در اختیار شما قرار می دهد که امکان کنترل دقیق تر فرآیند بارگذاری را فراهم می کند. برخی از فرمت‌های بارگذاری یک کلاس مربوطه دارند که گزینه‌های بارگذاری را برای این فرمت بارگذاری نگه می‌دارد، به عنوان مثال، [PdfLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/pdfloadoptions/) برای بارگیری در قالب PDF یا [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/) برای بارگیری در TXT وجود دارد. این مقاله نمونه هایی از کار با گزینه های کلاس [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/) را ارائه می دهد.

@@ -7,6 +7,7 @@ description: "Określ pozycję tabeli w C#. Uzyskaj wyrównanie stołu, uzyskaj 
 type: docs
 weight: 50
 url: /pl/net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Istnieją tabele pływające i tabele wbudowane:

@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET を使用して C# のドキュメントに�
 type: docs
 weight: 50
 url: /ja/net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word ドキュメントのハイパーリンクは `HYPERLINK` フィールドです。 Aspose.Words では、ハイパーリンクは [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) クラスを通じて実装されます。

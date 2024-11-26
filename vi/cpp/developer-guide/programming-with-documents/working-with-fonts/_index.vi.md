@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm việc với Phông chữ trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm việc Với Phông Chữ
@@ -7,6 +7,7 @@ description: "Định dạng phông chữ chi tiết bằng cách sử dụng C+
 type: docs
 weight: 230
 url: /vi/cpp/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Phông chữ là một tập hợp các ký tự có kích thước, màu sắc và thiết kế nhất định. Aspose.Words cho phép bạn làm việc với các phông chữ bằng cách sử dụng không gian tên [Fonts](https://reference.aspose.com/words/cpp/aspose.words.fonts/) và lớp [Font](https://reference.aspose.com/words/cpp/aspose.words/font/).

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit Silbentrennung in C++
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit Silbentrennung
@@ -7,6 +7,7 @@ description: "Verwenden Sie die Silbentrennung für eine kompaktere Textanordnun
 type: docs
 weight: 220
 url: /de/cpp/working-with-hyphenation/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Manchmal ist es notwendig, Silbentrennung für eine kompaktere Anordnung von Text in einem Dokument zu verwenden. Gleichzeitig ist es wichtig zu verstehen, dass die Besonderheiten der Worttrennung für jede Sprache unterschiedlich sein können.

@@ -7,6 +7,7 @@ type: docs
 description: "Chuyển đổi tài liệu sang định dạng hình ảnh (JPG, PNG, v.v.). Tạo bản xem trước tài liệu hoặc tạo bản quét tài liệu để gửi hóa đơn bằng Python."
 weight: 43
 url: /vi/python-net/convert-a-document-to-an-image/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi cần phải lấy hình ảnh thay vì tài liệu ở các định dạng khác, chẳng hạn như DOCX hoặc PDF. Ví dụ: bạn cần thêm bản xem trước của bất kỳ trang tài liệu nào vào trang web hoặc ứng dụng của mình hoặc tạo bản "quét" tài liệu để gửi hóa đơn. Đây là lúc bạn có thể cần chuyển đổi lại một tài liệu ở bất kỳ định dạng [định dạng tải được hỗ trợ](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) nào thành hình ảnh ở bất kỳ định dạng [định dạng lưu được hỗ trợ](https://reference.aspose.com/words/python-net/aspose.words/saveformat/) nào.

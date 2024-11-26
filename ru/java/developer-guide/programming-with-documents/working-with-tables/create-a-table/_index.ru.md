@@ -1,138 +1,139 @@
----
-title: Как создать стол в Java
+﻿---
+title: Как создать таблицу в Java
 second_title: Aspose.Words для Java
-articleTitle: Создайте стол
-linktitle: Создайте стол
-description: "Различные способы создания таблиц в вашем документе с использованием Java."
+articleTitle: Создайте таблицу
+linktitle: Создайте таблицу
+description: "Различные способы создания таблиц в вашем документе с помощью Java."
 type: docs
 weight: 20
 url: /ru/java/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
-Aspose.Words Это позволяет пользователям создавать таблицы в документе с нуля и предоставляет несколько различных методов для этого. В этой статье представлена подробная информация о том, как добавить отформатированные таблицы в ваш документ с использованием каждого метода, а также сравнение каждого метода в конце статьи.
+Aspose.Words позволяет пользователям создавать таблицы в документе с нуля и предоставляет несколько различных методов для этого. В этой статье представлены подробные сведения о том, как добавлять отформатированные таблицы в документ, используя каждый из методов, а также сравнение каждого метода в конце статьи.
 
-## По умолчанию Table Styles
+## Стили таблиц по умолчанию
 
-Вновь созданной таблице приведены значения по умолчанию, аналогичные тем, которые используются в Microsoft Word:
+Вновь созданной таблице присваиваются значения по умолчанию, аналогичные тем, которые используются в Microsoft Word:
 
-| Настольная собственность | Дефолт в Aspose.Words |
-|  :-  |  :-  |
-| `Border Style` |  `Single`  |
+| Свойство таблицы | Значение по умолчанию в Aspose.Words |
+| :- | :- |
+| `Border Style` | `Single` |
 | `Border Width` | `1/2 pt` |
-| Цвет границы |  `Black`  |
+| Цвет границы | `Black` |
 | `Left and Right Padding` | `5.4 pts` |
 | `AutoFit Mode` | `AutoFit to Window` |
-| `Allow AutoFit` |  `True`  |
+| `Allow AutoFit` | `True` |
 {{% alert color="primary" %}}
 
-Таблица может быть встроенной, если она плотно расположена, или плавающей, если она может быть размещена в любом месте на странице. По умолчанию, Aspose.Words Всегда создает таблицы.
+Таблица может быть встроенной, если она расположена плотно, или плавающей, если ее можно разместить в любом месте страницы. По умолчанию Aspose.Words всегда создает встроенные таблицы.
 
 {{% /alert %}}
 
-## Создайте таблицу с документостроителем
+## Создайте таблицу с DocumentBuilder
 
-В Aspose.Words, Пользователи могут создать таблицу в документе, используя [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/). Основной алгоритм создания таблицы выглядит следующим образом:
+В Aspose.Words пользователи могут создать таблицу в документе, используя [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/). Основной алгоритм создания таблицы следующий:
 
-1. Начните стол с [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable)
-2. Добавьте ячейку к столу, используя [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell) Это автоматически запускает новый ряд
-3. По желанию, используйте [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCellFormat) свойство определять форматирование ячеек
-4. Вставьте содержимое ячейки с использованием соответствующего **DocumentBuilder** Такие методы, как [Writeln](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#writeln), [InsertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte), и другие
-5. Повторять шаги 2-4 до завершения строки
-6. Звони. [EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) Чтобы закончить текущий ряд
-7. По желанию, используйте [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getRowFormat) свойство указывать форматирование строк
-8. Повторите шаги 2-7, пока таблица не будет завершена
-9. Звони. [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) Чтобы закончить строительство стола
+1. Начните таблицу с [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable)
+2. Добавьте ячейку в таблицу, используя [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell) – при этом автоматически начнется новая строка
+3. При необходимости используйте свойство [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCellFormat), чтобы задать форматирование ячеек
+4. Вставьте содержимое ячейки, используя соответствующие методы **DocumentBuilder**, такие как [Writeln](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#writeln), [InsertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte) и другие
+5. Повторяйте шаги 2-4, пока строка не будет завершена
+6. Вызовите [EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow), чтобы завершить текущую строку
+7. При необходимости используйте свойство [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getRowFormat), чтобы задать форматирование строк
+8. Повторяйте шаги 2-7 до тех пор, пока таблица не будет заполнена
+9. Вызовите [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable), чтобы завершить построение таблицы
 
 {{% alert color="primary" %}}
 
 Важные детали:
 
-- [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) Его также можно назвать внутри клетки, и в этом случае он начинает создание вложенного стола внутри клетки.
-- После звонка [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell), создается новая ячейка и любой контент, который вы добавляете, используя другие методы [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) Класс будет добавлен к текущей ячейке. Чтобы создать новую ячейку в том же ряду, позвоните **InsertCell** Опять.
-- Если **InsertCell** Называется сразу после [EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) В конце строки стол продолжится на новой строке.
-- [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) Способ окончания таблицы следует вызывать только один раз после вызова **EndRow**. Звонок **EndTable** перемещает курсор из текущей ячейки в положение сразу после стола.
+- [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) также может быть вызван внутри ячейки, и в этом случае он запускает создание вложенной таблицы внутри ячейки.
+- После вызова [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell) создается новая ячейка, и любое содержимое, добавленное с помощью других методов класса [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/), будет добавлено в текущую ячейку. Чтобы создать новую ячейку в той же строке, снова вызовите **InsertCell**.
+- Если **InsertCell** вызывается сразу после [EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) и в конце строки, таблица будет продолжена в новой строке.
+- Метод [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) для завершения работы с таблицей следует вызывать только один раз после вызова **EndRow**. Вызов **EndTable** перемещает курсор из текущей ячейки в позицию, расположенную сразу за таблицей.
 
 {{% /alert %}}
 
-Процесс создания таблицы можно четко увидеть на следующей картинке:
+Процесс создания таблицы можно наглядно увидеть на следующем рисунке:
 
 ![creating-table-process](/words/java/create-a-table/creating-table-process.jpg)
 
-Следующий пример кода показывает, как создать простую таблицу **DocumentBuilder** с форматированием по умолчанию:
+В следующем примере кода показано, как создать простую таблицу, используя **DocumentBuilder** с форматированием по умолчанию:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "create-simple-table.java" >}}
 
-Следующий пример кода показывает, как создать отформатированную таблицу с помощью DocumentBuilder:
+В следующем примере кода показано, как создать отформатированную таблицу, используя DocumentBuilder:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "formatted-table.java" >}}
 
-Следующий пример кода показывает, как вставить вложенную таблицу с помощью DocumentBuilder:
+В следующем примере кода показано, как вставить вложенную таблицу, используя DocumentBuilder:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "nested-table.java" >}}
 
-## Создайте стол через DOM ()Document Object Model)
+## Создайте таблицу с помощью DOM (объектная модель документа)
 
-Вы можете вставлять таблицы непосредственно в DOM Добавляя новый [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) Узел в определенной позиции.
+Вы можете вставить таблицы непосредственно в DOM, добавив новый узел [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) в определенном месте.
 
-Обратите внимание, что сразу после создания столового узла сам стол будет полностью пустым, то есть он еще не содержит строк и ячеек. Чтобы вставить строки и ячейки в таблицу, добавьте соответствующие [Row](https://reference.aspose.com/words/java/com.aspose.words/run/) и [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) Детские узлы в DOM.
+Обратите внимание, что сразу после создания узла таблицы сама таблица будет полностью пустой, то есть в ней еще не будет строк и ячеек. Чтобы вставить строки и ячейки в таблицу, добавьте соответствующие дочерние узлы [Row](https://reference.aspose.com/words/java/com.aspose.words/run/) и [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) в DOM.
 
 {{% alert color="primary" %}}
 
-Этот метод создания таблицы использует те же по умолчанию таблицы, что и при использовании таблицы. **DocumentBuilder**.
+При этом методе создания таблицы используются те же значения по умолчанию, что и при использовании параметра **DocumentBuilder**.
 
 {{% /alert %}}
 
-Следующий пример кода показывает, как построить новую таблицу с нуля, добавив соответствующие узлы ребенка в дерево документов:
+В следующем примере кода показано, как создать новую таблицу с нуля, добавив соответствующие дочерние узлы в дерево документа:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "insert-table-directly.java" >}}
 
 ## Создайте таблицу из HTML
 
-Aspose.Words поддерживает вставку контента в документ из источника HTML с использованием [InsertHtml](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHtml-java.lang.String) метод. Ввод может быть полной HTML-страницей или просто частичным фрагментом.
+Aspose.Words поддерживает вставку содержимого в документ из источника HTML с использованием метода [InsertHtml](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHtml-java.lang.String). Входными данными могут быть полная страница HTML или только частичный фрагмент.
 
-Используя это **InsertHtml** метод, пользователи могут вставлять таблицы в документ с помощью тегов таблицы, таких как `<table>`, `<tr>`, `<td>`.
+Используя этот метод **InsertHtml**, пользователи могут вставлять таблицы в документ с помощью тегов таблиц, таких как `<table>`, `<tr>`, `<td>`.
 
-Следующий пример кода показывает, как вставить таблицу в документ из строки, содержащей теги HTML:
+В следующем примере кода показано, как вставить таблицу в документ из строки, содержащей теги HTML:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "insert-table-from-html.java" >}}
 
-## Вставить копию существующего стола
+## Вставьте копию существующей таблицы
 
-Нередко возникает необходимость создания таблицы на основе уже существующей таблицы в документе. Самый простой способ дублировать таблицу, сохраняя при этом все форматирование, - это клонировать узел таблицы с помощью [deepClone](https://reference.aspose.com/words/java/com.aspose.words/node/#deepClone-boolean) метод.
+Часто возникает необходимость создать таблицу на основе уже существующей таблицы в документе. Самый простой способ скопировать таблицу с сохранением всего форматирования - это клонировать узел таблицы, используя метод [deepClone](https://reference.aspose.com/words/java/com.aspose.words/node/#deepClone-boolean).
 
-Этот же метод можно использовать для добавления копий существующей строки или ячейки в таблицу.
+Тот же метод можно использовать для добавления копий существующей строки или ячейки в таблицу.
 
-Следующий пример кода показывает, как дублировать таблицу с помощью конструкторов узлов:
+В следующем примере кода показано, как дублировать таблицу с помощью конструкторов узлов:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "clone-complete-table.java" >}}
 
 {{% alert color="primary" %}}
 
-Вы можете скачать образец файла этого примера из [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
+Вы можете скачать примерный файл этого примера с сайта [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
 
 {{% /alert %}}
 
-Следующий пример кода показывает, как клонировать последнюю строку таблицы и добавить ее к таблице:
+В следующем примере кода показано, как клонировать последнюю строку таблицы и добавить ее в таблицу:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "clone-last-row.java" >}}
 
 {{% alert color="primary" %}}
 
-Вы можете скачать образец файла этого примера из [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
+Вы можете скачать примерный файл этого примера с сайта [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
 
 {{% /alert %}}
 
-Если вы смотрите на создание таблиц в документе, которые динамически растут с каждой записью из вашего источника данных, то вышеупомянутый метод не рекомендуется. Вместо этого желаемый результат легче достигается с помощью Mail merge с регионами. Вы можете узнать больше об этой технике в [Mail Merge с регионами](/words/java/types-of-mail-merge-operations/) Раздел.
+Если вы планируете создавать таблицы в документе, которые динамически увеличиваются с каждой записью из вашего источника данных, то описанный выше метод не рекомендуется. Вместо этого желаемый результат проще получить, используя Mail merge с регионами. Вы можете узнать больше об этом методе в [Mail Merge с регионами](/words/java/types-of-mail-merge-operations/) раздел.
 
 ## Сравните способы создания таблицы
 
-Aspose.Words Предоставляет несколько способов создания новых таблиц в документе. Каждый метод имеет свои преимущества и недостатки, поэтому выбор того, какой из них использовать, часто зависит от конкретной ситуации.
+Aspose.Words предоставляет несколько методов для создания новых таблиц в документе. Каждый метод имеет свои преимущества и недостатки, поэтому выбор того, какой из них использовать, часто зависит от конкретной ситуации.
 
 Давайте подробнее рассмотрим эти способы создания таблиц и сравним их плюсы и минусы:
 
-|  метод | Преимущества |  Недостатки |
-|  :-  |  :-  |  :-  |
-| Виа `DocumentBuilder` | Стандартный метод вставки таблиц и другого содержания документов | Иногда трудно создать много разновидностей таблиц одновременно с одним и тем же экземпляром конструктора |
-| Виа DOM |  Лучше подходит с окружающим кодом, который создает и вставляет узлы непосредственно в DOM Без использования a **DocumentBuilder** | Таблица создается "пустой": перед выполнением большинства операций необходимо позвонить [EnsureMinimum](https://reference.aspose.com/words/java/com.aspose.words/table/#ensureMinimum) Создание любых недостающих узлов ребенка |
-| Из HTML | Можно создать новую таблицу из HTML-источника с помощью тегов `<table>`, `<tr>`, `<td>` | Не все возможно Microsoft Word Форматы таблиц могут быть применены к HTML |
-| Клонирование существующего стола | Вы можете создать копию существующей таблицы, сохраняя при этом форматирование всех строк и ячеек | Соответствующие детские узлы должны быть удалены до того, как стол будет готов к использованию |
+| Метод | Преимущества | Недостатки |
+| :- | :- | :- |
+| Через `DocumentBuilder` | Стандартный метод вставки таблиц и другого содержимого документа | Иногда бывает сложно создать множество разновидностей таблиц одновременно с помощью одного и того же экземпляра конструктора |
+| Через DOM | Лучше вписывается в окружающий код, который создает и вставляет узлы непосредственно в DOM без использования **DocumentBuilder** | Таблица создается "пустой": перед выполнением большинства операций вы должны вызвать [EnsureMinimum](https://reference.aspose.com/words/java/com.aspose.words/table/#ensureMinimum), чтобы создать все отсутствующие дочерние узлы |
+| Из HTML | Можно создать новую таблицу из источника HTML, используя такие теги, как `<table>`, `<tr>`, `<td>` | Не все возможные форматы таблиц Microsoft Word могут быть применены к HTML |
+| Клонирование существующей таблицы | Вы можете создать копию существующей таблицы, сохранив все форматирование строк и ячеек | Соответствующие дочерние узлы должны быть удалены, прежде чем таблица будет готова к использованию |

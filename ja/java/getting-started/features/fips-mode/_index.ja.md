@@ -1,33 +1,34 @@
----
+﻿---
 title: FIPSモード
-second_title: Aspose.Words お問い合わせ Java
+second_title: Aspose.WordsのためのJava
 articleTitle: FIPSモード
 linktitle: FIPSモード
-description: "Aspose.Words お問い合わせ Java FIPS規格に準拠するために文書を処理するときに、複数の暗号化とハッシュアルゴリズムを使用します。"
+description: "JavaのAspose.Wordsは、FIPS標準に準拠する文書を処理するときにいくつかの暗号化アルゴリズムとハッシュアルゴリズムを使用します。"
 type: docs
 weight: 80
 url: /ja/java/fips-mode/
+timestamp: 2024-05-08-10-19-58
 ---
 
-Aspose.Words 文書やこの記事を処理するときに、いくつかの暗号化とハッシュアルゴリズムを使用して、FIPS規格に関連する方法について説明します。
+Aspose.Wordsは文書を処理するときにいくつかの暗号化とハッシュアルゴリズムを使用し、この記事ではFIPS規格とどのように関連しているかを説明します。
 
-連邦情報処理規格(FIPS)は、米国連邦政府が開発した公正な公表基準の1組で、コンピュータのセキュリティと相互運用性を確保するなど、さまざまな目的のために要件を確立しています。
+連邦情報処理標準(FIPS)は、コンピュータのセキュリティや相互運用性の確保など、さまざまな目的のための要件を確立するために米国連邦政府が開発した公然と公表された標準のセットです。
 
-## BouncyCastle へ 救助
+## 救助へのBouncyCastle
 
-Aspose.Words お問い合わせ Java そして、 Aspose.Words お問い合わせ Android ボウンシー城FIPSを使用する JAR 暗号化、復号化、文書署名のため。 ザ・オブ・ザ・ JAR FIPS 140-2、レベル1の要件を満たすように設計され、実装されています。
+JavaのAspose.WordsとAndroidのAspose.Wordsは、文書の暗号化、復号化、署名に弾む城FIPSJARを使用します。 JARはFIPS140-2,レベル1の要件を満たすように設計および実装されています。
 
-FIPS 140-2は、暗号化モジュールを承認するために使用される米国政府のコンピュータセキュリティ規格です。 この規格は、暗号化モジュールによって満たされるセキュリティ要件を規定し、幅広い用途や環境をカバーするために設計された高レベルのセキュリティを提供します。 FIPS 140-2の詳細は、 [NIST出版](https://www.nist.gov/publications/security-requirements-cryptographic-modules-includes-change-notices-1232002?pub_id=902003)お問い合わせ
+FIPS140-2は、暗号モジュールを承認するために使用される米国政府のコンピュータセキュリティ標準です。 この規格は、暗号モジュールによって満たされるセキュリティ要件を指定し、潜在的なアプリケーションと環境の広い範囲をカバーすることを意図した高レベルのセキュリティを提供します。 FIPS140-2の詳細については、FIPS140-2を参照してください。 [NIST出版物](https://www.nist.gov/publications/security-requirements-cryptographic-modules-includes-change-notices-1232002?pub_id=902003).
 
-Aspose.Words お問い合わせ .NET FIPSをサポートすることなく、一般の弾力性城バージョンを使用しています。
+Aspose.Wordsの.NETは、FIPSをサポートしていない一般的な弾む城のバージョンを使用します。
 
-## FIPSモードの活発化
+## FIPSモードの有効化
 
-バージョン18.10から始まる Aspose.Words 一般とFIPSの2つのモードで動作します。
+バージョン18.10Aspose.Wordsからは、GeneralとFIPSの二つのモードで動作することができます。
 
-デフォルトで Aspose.Words 一般モードで動作しますので、この場合のアルゴリズムとキーの使用に制限はありません。
+デフォルトでは、Aspose.Wordsは一般モードで動作するため、この場合のアルゴリズムとキーの使用に制限はありません。
 
-スイッチできます Aspose.Words 一般的なモードから FIPS モードまで、次のメソッドを使用します。
+次の方法を使用して、Aspose.Wordsを一般モードからFIPSモードに切り替えることができます:
 
 **Java**
 
@@ -35,11 +36,11 @@ Aspose.Words お問い合わせ .NET FIPSをサポートすることなく、一
 SecuritySettings.startFipsMode();
 {{< /highlight >}}
 
-セキュリティ上の理由で、ランタイムでモードを全般に変更することはできません。
+セキュリティ上の理由から、実行時にモードを一般に戻すことはできません。
 
-また、ご注意 Aspose.Words お使いのオペレーティングシステムがFIPSモードにあるかどうかを自動的に認識できないため、切り替える必要があります。 Aspose.Words FIPSモードに明示的に。
+また、Aspose.WordsはオペレーティングシステムがFIPSモードであるかどうかを自動的に認識できないため、Aspose.WordsをFIPSモードに明示的に切り替える必要があります。
 
-以下の方法を使用して、必ず確認してください Aspose.Words お問い合わせ Java FIPSモード:
+JavaのAspose.WordsがFIPSモードになっていることを確認するには、次の方法を使用します:
 
 **Java**
 
@@ -47,22 +48,22 @@ SecuritySettings.startFipsMode();
 SecuritySettings.isInFipsMode();
 {{< /highlight >}}
 
-FIPS モードがオンの場合、Aspose Word は、非承認された長さの暗号化アルゴリズムとキーの使用を防ぐことができます。
+FIPSモードがオンの場合、Aspose Wordsを使用すると、承認されていない長さの暗号化アルゴリズムやキーを使用できなくなります。
 
-たとえば、FIPS モードがアクティブであるときに ODT 暗号化されたドキュメントを開きようとすると、次の例外が表示されます。
+たとえば、FIPSモードがアクティブなときにODT暗号化された文書を開こうとすると、次の例外が表示されることがあります:
 
 {{% alert color="primary" %}}
 
-Unapprovedセキュリティオペレーション 例外: ブローフィッシュアルゴリズムを使用するODTファイルを開く試み このアルゴリズムは、FIPS 承認されたアルゴリズムリストには含まれていません。
+UnapprovedSecurityOperationException:Blowfishアルゴリズムを使用するODTファイルを開こうとしました。 このアルゴリズムはFIPS承認アルゴリズムのリストにはありません。
 
 {{% /alert %}}
 
-これは、FIPS承認されたアルゴリズムのリストにブローフィッシュアルゴリズムがないので起こります。
+これは、BlowfishアルゴリズムがFIPS承認されたアルゴリズムのリストにないために発生します。
 
-不適切な長さのキーが使用されている場合、同様の例外が発生することがあります。
+不適切な長さのキーが使用されている場合、同様の例外が発生する可能性があります:
 
-非承認されたセキュリティ操作 例外: FIPS モードの RSA では 1024 のサイズのキーを使用できません。
+UnapprovedSecurityOperationException:FIPSモードのRSAにサイズ1024のキーを使用することはできません。
 
-承認されたアルゴリズムリストの詳細は、 [バウンシー 城ユーザーガイド](https://downloads.bouncycastle.org/fips-java/docs/BC-FJA-UserGuide-1.0.1.pdf), 「暗号アルゴリズム(Symmetric)」。
+承認されたアルゴリズムのリストの詳細については、次を参照してください [BouncyCastleユーザー・ガイド](https://downloads.bouncycastle.org/fips-java/docs/BC-FJA-UserGuide-1.0.1.pdf)、"暗号アルゴリズム（対称）"。
 
 

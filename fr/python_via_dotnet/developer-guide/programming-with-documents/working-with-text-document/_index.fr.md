@@ -7,6 +7,7 @@ description: "Travaillez avec un document texte et modifiez ses objets à l'aide
 type: docs
 weight: 430
 url: /fr/python-net/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dans cet article, nous apprendrons quelles options peuvent être utiles pour travailler avec un document texte via Aspose.Words. Veuillez noter qu'il ne s'agit pas d'une liste complète des options disponibles, mais seulement d'un exemple de travail avec certaines d'entre elles.

@@ -1,153 +1,154 @@
----
-title: Aspose.Words Document Object Model (DOM)
+﻿---
+title: Aspose.Words Dokumentobjektmodell (DOM)
 second_title: Aspose.Words für Java
-articleTitle: Aspose.Words Document Object Model (DOM)
-linktitle: Aspose.Words Document Object Model (DOM)
+articleTitle: Aspose.Words Dokumentobjektmodell (DOM)
+linktitle: Aspose.Words Dokumentobjektmodell (DOM)
 type: docs
-description: "Document Object Model (DOM) ist eine in-memory Darstellung eines Word-Dokuments. Lesen, manipulieren und modifizieren Sie den Inhalt und die Formatierung eines Word-Dokuments mithilfe Java."
+description: "Das Dokumentobjektmodell (DOM) ist eine speicherinterne Darstellung eines Word-Dokuments. Lesen, Bearbeiten und ändern Sie den Inhalt und die Formatierung eines Word-Dokuments mit Java."
 weight: 10
 url: /de/java/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Die Aspose.Words Document Object Model (DOM) ist eine in-memory Darstellung eines Word-Dokuments. Die Aspose.Words DOM ermöglicht es Ihnen, den Inhalt und die Formatierung eines Word-Dokuments programmatisch zu lesen, zu manipulieren und zu modifizieren.
+Das Aspose.Words -Dokumentobjektmodell (DOM) ist eine speicherinterne Darstellung eines Word-Dokuments. Mit Aspose.Words DOM können Sie den Inhalt und die Formatierung eines Word-Dokuments programmgesteuert lesen, bearbeiten und ändern.
 
-Dieser Abschnitt beschreibt die Hauptklassen der Aspose.Words DOM und ihre Beziehungen. Durch die Verwendung Aspose.Words DOM Klassen, können Sie programmatischen Zugriff auf Dokumentelemente und Formatierung erhalten.
+Dieser Abschnitt beschreibt die Hauptklassen der Aspose.Words DOM und ihre Beziehungen. Mithilfe der Aspose.Words DOM-Klassen können Sie programmgesteuerten Zugriff auf Dokumentelemente und Formatierungen erhalten.
 
-## Dokument erstellen Objekt Baum {#create-a-document-objects-tree}
+## Dokumentobjektbaum erstellen {#create-a-document-objects-tree}
 
-Wenn ein Dokument in die Aspose.Words <span notrans="<span notrans=" DOM"=""></span>,"> dann wird ein Objektbaum gebaut und verschiedene Arten von Elementen des Quelldokuments haben ihre eigenen DOM Baumobjekte mit verschiedenen Eigenschaften.
+Wenn ein Dokument in die Aspose.Words DOM eingelesen wird, wird ein Objektbaum erstellt und verschiedene Arten von Elementen des Quelldokuments haben ihre eigenen DOM Baumobjekte mit verschiedenen Eigenschaften.
 
-### Dokument Nodes Tree erstellen {#build-document-nodes-tree}
+### Dokumentknotenbaum erstellen {#build-document-nodes-tree}
 
-Wann Aspose.Words liest ein Word-Dokument in den Speicher, es erstellt Objekte verschiedener Typen, die verschiedene Dokumentelemente darstellen. Jeder Ablauf eines Textes, Absatz, Tabelle oder Abschnitts ist ein Knoten und sogar das Dokument selbst ist ein Knoten. Aspose.Words definiert eine Klasse für jeden Dokumentknotentyp.
+Wenn Aspose.Words ein Word-Dokument in den Speicher liest, werden Objekte unterschiedlichen Typs erstellt, die verschiedene Dokumentelemente darstellen. Jeder Durchlauf eines Textes, Absatzes, einer Tabelle oder eines Abschnitts ist ein Knoten, und sogar das Dokument selbst ist ein Knoten. Aspose.Words definiert eine Klasse für jeden Dokumentknotentyp.
 
-Der Dokumentbaum in Aspose.Words folgt dem Composite Design Muster:
+Der Dokumentbaum in Aspose.Words folgt dem zusammengesetzten Entwurfsmuster:
 
-- Alle Knotenklassen stammen letztlich von [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) Klasse, die die Basisklasse in der Aspose.Words Document Object Model.
-- Knoten, die zum Beispiel andere Knoten enthalten können **Section** oder **Paragraph**, von der [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) Klasse, die wiederum von der **Node** Klasse.
+- Alle Knotenklassen leiten sich letztendlich von der [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) -Klasse ab, die die Basisklasse im Aspose.Words -Dokumentobjektmodell ist.
+- Knoten, die andere Knoten enthalten können, z. B. **Section** oder **Paragraph**, leiten sich von der Klasse [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) ab, die wiederum von der Klasse **Node** abgeleitet ist.
 
-Das nachfolgende Diagramm zeigt die Erbschaft zwischen Knotenklassen der Aspose.Words Document Object Model (DOM) Die Namen der abstrakten Klassen sind in Italics.
+Das folgende Diagramm zeigt die Vererbung zwischen Knotenklassen des Aspose.Words-Dokumentobjektmodells (DOM). Die Namen der abstrakten Klassen sind kursiv gedruckt.
 
 <img src="/words/java/aspose-words-document-object-model/aspose-words-dom.png" alt="aspose-words-dom" style="width:700px"/>
 
 {{% alert color="primary" %}}
 
-Die Aspose.Words DOM enthält auch die Nicht-Node-Klassen, wie [Style](https://reference.aspose.com/words/java/com.aspose.words/style/) oder [Font](https://reference.aspose.com/words/java/com.aspose.words/font/), die verwendet werden, um das Aussehen und die Stile innerhalb eines Dokuments anzupassen. Diese Klassen sind in diesem Diagramm nicht dargestellt, wie nicht von der `Node` Klasse.
+Aspose.Words DOM enthält auch die Nicht-Knotenklassen, z. B. [Style](https://reference.aspose.com/words/java/com.aspose.words/style/) oder [Font](https://reference.aspose.com/words/java/com.aspose.words/font/), mit denen das Erscheinungsbild und die Stile in einem Dokument angepasst werden. Diese Klassen werden in diesem Diagramm nicht angezeigt, da sie nicht von der Klasse `Node` geerbt wurden.
 
 {{% /alert %}}
 
-Schauen wir uns ein Beispiel an. Das folgende Bild zeigt a Microsoft Word Dokument mit verschiedenen Arten von Inhalten.
+Schauen wir uns ein Beispiel an. Das folgende Bild zeigt ein Microsoft Word-Dokument mit verschiedenen Inhaltstypen.
 
 <img src="/words/java/aspose-words-document-object-model/document-example.png" alt="document-example" style="width:700px"/>
 
-Beim Lesen des obigen Dokuments in das Aspose.Words DOM, der Baum der Objekte wird erstellt, wie im Schema unten gezeigt.
+Beim Einlesen des obigen Dokuments in Aspose.Words DOM wird der Objektbaum erstellt, wie im folgenden Schema gezeigt.
 
 <img src="/words/java/aspose-words-document-object-model/document-example-dom.png" alt="document-example-dom" style="width:700px"/>
 
-[Document](https://reference.aspose.com/words/java/com.aspose.words/document/), [Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/), [Run](https://reference.aspose.com/words/java/com.aspose.words/run/), und alle anderen Ellipsen auf dem Diagramm sind Aspose.Words Objekte, die Elemente des Word-Dokuments darstellen.
+[Document](https://reference.aspose.com/words/java/com.aspose.words/document/), [Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/), [Run](https://reference.aspose.com/words/java/com.aspose.words/run/), und alle anderen Ellipsen im Diagramm sind Aspose.Words -Objekte, die Elemente des Word-Dokuments darstellen.
 
-### Holt euch! `Node` Typ {#get-a-node-type}
+### Holen Sie sich einen `Node` Typ {#get-a-node-type}
 
-Obwohl [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) Klasse ausreichend ist, um verschiedene Knoten voneinander zu unterscheiden, Aspose.Words bietet [NodeType](https://reference.aspose.com/words/java/com.aspose.words/nodetype/) Aufzählung, um einige zu vereinfachen API Aufgaben, wie die Auswahl von Knoten eines bestimmten Typs.
+Obwohl die Klasse [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) ausreicht, um verschiedene Knoten voneinander zu unterscheiden, stellt Aspose.Words die [NodeType](https://reference.aspose.com/words/java/com.aspose.words/nodetype/) -Aufzählung bereit, um einige API -Aufgaben zu vereinfachen, z. B. die Auswahl von Knoten eines bestimmten Typs.
 
-Die Art jedes Knotens kann mit der [NodeType](https://reference.aspose.com/words/java/com.aspose.words/node/#getNodeType) Eigentum. Diese Eigenschaft gibt eine **NodeType** Aufzählungswert. Ein beispielsweise durch die **Paragraph** Klassenrückgänge **NodeType**.**Paragraph**, und einem durch die **Table** Klassenrückgänge **NodeType**.**Table**.
+Der Typ jedes Knotens kann mit der Eigenschaft [NodeType](https://reference.aspose.com/words/java/com.aspose.words/node/#getNodeType) ermittelt werden. Diese Eigenschaft gibt einen **NodeType**-Aufzählungswert zurück. Beispielsweise gibt ein Absatzknoten, der durch die Klasse **Paragraph** dargestellt wird, **NodeType**.**Paragraph** zurück, und ein Tabellenknoten, der durch die Klasse **Table** dargestellt wird, gibt **NodeType**.**Table** zurück.
 
-Das folgende Beispiel zeigt, wie man einen Knotentyp mit dem **NodeType** Aufzählung:
+Das folgende Beispiel zeigt, wie Sie einen Knotentyp mithilfe der **NodeType**-Aufzählung abrufen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-GetNodeType-.java" >}}
 
-## Dokument Baum Navigation {#document-tree-navigation}
+## Dokumentenbaumnavigation {#document-tree-navigation}
 
-Aspose.Words stellt ein Dokument als Knotenbaum dar, mit dem Sie zwischen Knoten navigieren können. In diesem Abschnitt wird beschrieben, wie der Dokumentbaum in Aspose.Words.
+Aspose.Words stellt ein Dokument als Knotenbaum dar, mit dem Sie zwischen Knoten navigieren können. In diesem Abschnitt wird beschrieben, wie Sie den Dokumentbaum in Aspose.Words durchsuchen und navigieren.
 
-Wenn Sie das früher vorgestellte Musterdokument im Document Explorer öffnen, erscheint der Knotenbaum genau so, wie er in Aspose.Words.
+Wenn Sie das zuvor dargestellte Beispieldokument im Dokument-Explorer öffnen, wird der Knotenbaum genau so angezeigt, wie er in Aspose.Words dargestellt ist.
 
 <img src="/words/java/aspose-words-document-object-model/document-in-document-explorer.png" alt="document-in-document-explorer" style="width:680px"/>
 
 {{% alert color="primary" %}}
 
-Sie können das Beispielprojekt "Document Explorer" auf der [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/DocsExamples/Java/src/main/java/DocsExamples/Document_explorer).
+Sie können das Beispielprojekt "Document Explorer" auf dem lernen [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/DocsExamples/Java/src/main/java/DocsExamples/Document_explorer).
 
 {{% /alert %}}
 
-### Dokumente Node Relationships {#document-nodes-relationships}
+### Dokumentknotenbeziehungen {#document-nodes-relationships}
 
 Die Knoten im Baum haben Beziehungen zwischen ihnen:
 
-- Ein Knoten mit einem anderen Knoten ist ein *parent.*
-- Ja. Der im Stammknoten enthaltene Knoten ist ein *child.* Kinderknoten desselben Elternteils sind *sibling* Knoten.
-- Die *root* Der Knoten ist immer [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) Knoten.
+- Ein Knoten, der einen anderen Knoten enthält, ist eine *parent.*
+- Der im übergeordneten Knoten enthaltene Knoten ist ein *child.* Untergeordneter Knoten desselben übergeordneten Knotens sind *sibling* Knoten.
+- Der *root* -Knoten ist immer der [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) -Knoten.
 
-Die Knoten, die andere Knoten enthalten können, stammen aus dem [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) Klasse, und alle Knoten letztlich von der [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) Klasse. Diese beiden Basisklassen bieten gemeinsame Methoden und Eigenschaften für die Baumstrukturnavigation und Modifikation.
+Die Knoten, die andere Knoten enthalten können, stammen von der Klasse [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/), und alle Knoten stammen letztendlich von der Klasse [Node](https://reference.aspose.com/words/java/com.aspose.words/node/). Diese beiden Basisklassen stellen gemeinsame Methoden und Eigenschaften für die Navigation und Änderung der Baumstruktur bereit.
 
-Das folgende UML-Objektdiagramm zeigt mehrere Knoten des Musterdokuments und deren Beziehungen zueinander über die Eltern-, Kind- und Geschwistereigenschaften:
+Das folgende UML-Objektdiagramm zeigt mehrere Knoten des Beispieldokuments und ihre Beziehungen zueinander über die Eigenschaften parent, child und sibling:
 
 <img src="/words/java/aspose-words-document-object-model/document-nodes-relationships.png" alt="document-nodes-relationships" style="width:370px"/>
 
-#### Dokument ist Node Owner
+#### Dokument ist Knotenbesitzer
 
-Ein Knoten gehört immer zu einem bestimmten Dokument, auch wenn er gerade erstellt oder aus dem Baum entfernt wurde, weil in den **Document** Knoten. Beispielsweise ist es nicht möglich, eine **Paragraph** ohne **Document** weil jeder Absatz einen zugewiesenen Stil hat, der global für das Dokument definiert ist. Diese Regel wird verwendet, wenn Sie neue Knoten erstellen. Ein neues hinzufügen **Paragraph** direkt zum DOM erfordert ein an den Konstrukteur übergebenes Dokumentobjekt.
+Ein Knoten gehört immer zu einem bestimmten Dokument, auch wenn er gerade erstellt oder aus dem Baum entfernt wurde, da wichtige dokumentweite Strukturen wie Stile und Listen im Knoten **Document** gespeichert sind. Beispielsweise ist es nicht möglich, eine **Paragraph** ohne eine **Document** zu haben, da jedem Absatz ein Stil zugewiesen ist, der global für das Dokument definiert ist. Diese Regel wird beim Erstellen neuer Knoten verwendet. Das direkte Hinzufügen einer neuen **Paragraph** zu DOM erfordert ein Dokumentobjekt, das an den Konstruktor übergeben wird.
 
 {{% alert color="primary" %}}
 
-Die [Node.Document](https://reference.aspose.com/words/java/com.aspose.words/node/#getDocument) Eigenschaft gibt das Dokument zurück, zu dem der Knoten gehört.
+Die Eigenschaft [Node.Document](https://reference.aspose.com/words/java/com.aspose.words/node/#getDocument) gibt das Dokument zurück, zu dem der Knoten gehört.
 
 {{% /alert %}}
 
-Bei der Erstellung eines neuen Absatzes [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/), der Bauer hat immer **Document** Klasse, die durch die [DocumentBuilder.Document](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#Document) Eigentum.
+Beim Erstellen eines neuen Absatzes mit [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) ist dem Builder immer eine **Document** -Klasse über die Eigenschaft [DocumentBuilder.Document](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#Document) zugeordnet.
 
-Das folgende Codebeispiel zeigt, dass beim Erstellen eines beliebigen Knotens immer ein Dokument definiert wird, das den Knoten besitzt:
+Das folgende Codebeispiel zeigt, dass beim Erstellen eines Knotens immer ein Dokument definiert wird, dem der Knoten gehört:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-OwnerDocument-.java" >}}
 
-#### Parent Node
+#### Elternknoten
 
-Jeder Knoten hat einen von der [ParentNode](https://reference.aspose.com/words/java/com.aspose.words/node/#getParentNode) Eigentum. Ein Knoten hat keinen Elternknoten, das heißt, **ParentNode** ist in folgenden Fällen null:
+Jeder Knoten hat ein übergeordnetes Element, das durch die Eigenschaft [ParentNode](https://reference.aspose.com/words/java/com.aspose.words/node/#getParentNode) angegeben wird. Ein Knoten hat in den folgenden Fällen keinen übergeordneten Knoten, dh **ParentNode** ist null:
 
-- Ja. Der Knoten wurde gerade erstellt und noch nicht dem Baum hinzugefügt.
-- Ja. Der Knoten wurde vom Baum entfernt.
-- Ja. Das ist die Wurzel **Document** Knoten, der immer einen Null-Mutterknoten aufweist.
+- Der Knoten wurde gerade erstellt und noch nicht zum Baum hinzugefügt.
+- Der Knoten wurde aus dem Baum entfernt.
+- Dies ist der Stammknoten **Document**, der immer einen übergeordneten Nullknoten hat.
 
-Sie können einen Knoten aus seinem Elternteil entfernen, indem Sie die [Remove](https://reference.aspose.com/words/java/com.aspose.words/node/#remove) Methode. Das folgende Codebeispiel zeigt, wie man auf den Stammknoten zugreift:
+Sie können einen Knoten von seinem übergeordneten Knoten entfernen, indem Sie die [Remove](https://reference.aspose.com/words/java/com.aspose.words/node/#remove) -Methode aufrufen.Das folgende Codebeispiel zeigt, wie auf den übergeordneten Knoten zugegriffen wird:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-AccessParentNode-.java" >}}
 
-#### Kinder Nodes
+#### Childknoten
 
-Der effizienteste Weg, um Kinderknoten eines [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) über die [FirstChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#FirstChild) und [LastChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#LastChild) Eigenschaften, die die ersten bzw. letzten Kinderknoten zurückgeben. Wenn es keine Kinderknoten gibt, kehren diese Eigenschaften zurück *null*.
+Der effizienteste Weg, auf untergeordnete Knoten von [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) zuzugreifen, ist über die Eigenschaften [FirstChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#FirstChild) und [LastChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#LastChild), die den ersten bzw. den letzten untergeordneten Knoten zurückgeben. Wenn keine untergeordneten Knoten vorhanden sind, geben diese Eigenschaften *null* zurück.
 
-**CompositeNode** stellt auch die [ChildNodes](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChildNodes) Erfassung, die den Zugriff auf die Kinderknoten ermöglicht. Die **ChildNodes** Eigenschaft ist eine Live-Kollektion von Knoten, was bedeutet, dass, wenn das Dokument geändert wird, wie wenn Knoten entfernt oder hinzugefügt werden, die **ChildNodes** Die Sammlung wird automatisch aktualisiert.
+**CompositeNode**
 
-Wenn ein Knoten kein Kind hat, dann **ChildNodes** Eigentum gibt eine leere Sammlung zurück. Sie können überprüfen, ob **CompositeNode** enthält alle Kinderknoten mit der [HasChildNodes](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#hasChildNodes) Eigentum.
+Wenn ein Knoten kein untergeordnetes Element hat, gibt die Eigenschaft **ChildNodes** eine leere Auflistung zurück. Mit der Eigenschaft [HasChildNodes](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#hasChildNodes) können Sie überprüfen, ob **CompositeNode** untergeordnete Knoten enthält.
 
-Das folgende Codebeispiel zeigt, wie sofortige Kinderknoten einer `CompositeNode` Verwendung des von der `ChildNodes` Sammlung:
+Das folgende Codebeispiel zeigt, wie unmittelbare untergeordnete Knoten einer `CompositeNode` mit dem von der `ChildNodes`-Auflistung bereitgestellten Enumerator aufgelistet werden:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-ChildNodes-enumerateChildrenOfACompositeNodeUsingEnumeratorProvidedByChildNodesCollection.java" >}}
 
-Das folgende Codebeispiel zeigt, wie sofortige Kinderknoten einer `CompositeNode` mit indiziertem Zugriff:
+Das folgende Codebeispiel zeigt, wie unmittelbare untergeordnete Knoten einer `CompositeNode` mit indiziertem Zugriff aufgelistet werden:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-ChildNodes-enumerateChildrenOfACompositeNodeUsingIndexedAccess.java" >}}
 
-#### Geschwister Nodes
+#### Geschwisterknoten
 
-Sie können den Knoten erhalten, der einem bestimmten Knoten unmittelbar vorangeht oder folgt, indem [PreviousSibling](https://reference.aspose.com/words/java/com.aspose.words/node/#getPreviousSibling) und [NextSibling](https://reference.aspose.com/words/java/com.aspose.words/node/#getNextSibling) Eigenschaften. Wenn ein Knoten das letzte Kind seines Elternteils ist, dann **NextSibling** Eigentum ist *null*. Umgekehrt, wenn der Knoten das erste Kind seines Elternteils ist, die **PreviousSibling** Eigentum ist *null*.
+Sie können den Knoten erhalten, der einem bestimmten Knoten unmittelbar vorausgeht oder folgt, indem Sie die Eigenschaften [PreviousSibling](https://reference.aspose.com/words/java/com.aspose.words/node/#getPreviousSibling) bzw. [NextSibling](https://reference.aspose.com/words/java/com.aspose.words/node/#getNextSibling) verwenden. Wenn ein Knoten das letzte untergeordnete Element seines übergeordneten Knotens ist, ist die Eigenschaft **NextSibling** *null*. Umgekehrt, wenn der Knoten das erste Kind seines Elternteils ist, ist die **PreviousSibling** -Eigenschaft *null*.
 
-Das folgende Codebeispiel zeigt, wie man alle direkten und indirekten Kinderknoten eines Kompositknotens effizient besucht:
+Das folgende Codebeispiel zeigt, wie Sie alle direkten und indirekten untergeordneten Knoten eines zusammengesetzten Knotens effizient besuchen können:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-SiblingNodes-.java" >}}
 
-### Typischer Zugang zu Kinder- und Elternknoten
+### Typisierter Zugriff auf untergeordnete und übergeordnete Knoten
 
-Bisher haben wir die Eigenschaften diskutiert, die einen der Basistypen zurückgeben – **Node** oder **CompositeNode**. Aber manchmal gibt es Situationen, in denen Sie Werte auf eine bestimmte Knotenklasse werfen müssen, wie zum Beispiel **Run** oder **Paragraph**. Das heißt, man kann beim Arbeiten mit dem Casting nicht völlig vom Casting wegkommen Aspose.Words DOM, die zusammengesetzt ist.
+Bisher haben wir die Eigenschaften besprochen, die einen der Basistypen zurückgeben – **Node** oder **CompositeNode**. Manchmal gibt es jedoch Situationen, in denen Sie möglicherweise Werte in eine bestimmte Knotenklasse umwandeln müssen, z. B. **Run** oder **Paragraph**. Das heißt, Sie können nicht vollständig vom Casting wegkommen, wenn Sie mit Aspose.Words DOM arbeiten, das zusammengesetzt ist.
 
-Um die Notwendigkeit des Gießens zu reduzieren, die meisten Aspose.Words Klassen bieten Eigenschaften und Sammlungen, die einen starken Zugriff bieten. Es gibt drei Grundmuster des Typzugriffs:
+Um die Umwandlung zu reduzieren, stellen die meisten Aspose.Words -Klassen Eigenschaften und Auflistungen bereit, die einen stark typisierten Zugriff ermöglichen. Es gibt drei grundlegende Muster für den typisierten Zugriff:
 
-- Ein Elternknoten entlarvt **FirstXXX** und **LastXXX** Eigenschaften. Zum Beispiel die **Document** hat [FirstSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getFirstSection) und [LastSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getLastSection) Eigenschaften. Ebenso wie **Table** Eigenschaften wie [FirstRow](https://reference.aspose.com/words/java/com.aspose.words/table/#getFirstRow), [LastRow](https://reference.aspose.com/words/java/com.aspose.words/table/#getLastRow), und andere.
-- Ein Elternknoten enthüllt eine typisierte Sammlung von Kinderknoten, wie [Document.Sections](https://reference.aspose.com/words/java/com.aspose.words/document/#getSections), [Body.Paragraphs](https://reference.aspose.com/words/java/com.aspose.words/story/#getParagraphs), und andere.
-- Ein Kinderknoten bietet einen eingegebenen Zugriff auf seine Eltern, wie [Run.ParentParagraph](https://reference.aspose.com/words/java/com.aspose.words/inline/#getParentParagraph), [Paragraph.ParentSection](https://reference.aspose.com/words/java/com.aspose.words/paragraph/#getParentSection), und andere.
+- Ein übergeordneter Knoten macht typisierte **FirstXXX** - und **LastXXX** -Eigenschaften verfügbar. Zum Beispiel hat die **Document** die Eigenschaften [FirstSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getFirstSection) und [LastSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getLastSection). Ebenso hat **Table** Eigenschaften wie [FirstRow](https://reference.aspose.com/words/java/com.aspose.words/table/#getFirstRow), [LastRow](https://reference.aspose.com/words/java/com.aspose.words/table/#getLastRow) und andere.
+- Ein übergeordneter Knoten macht eine typisierte Sammlung von untergeordneten Knoten verfügbar, z. B. [Document.Sections](https://reference.aspose.com/words/java/com.aspose.words/document/#getSections), [Body.Paragraphs](https://reference.aspose.com/words/java/com.aspose.words/story/#getParagraphs) und andere.
+- Ein untergeordneter Knoten bietet typisierten Zugriff auf seinen übergeordneten Knoten, z. B. [Run.ParentParagraph](https://reference.aspose.com/words/java/com.aspose.words/inline/#getParentParagraph), [Paragraph.ParentSection](https://reference.aspose.com/words/java/com.aspose.words/paragraph/#getParentSection) und andere.
 
-Typierte Eigenschaften sind nur nützliche Verknüpfungen, die manchmal einen leichteren Zugriff bieten als generische Eigenschaften, die von [Node.ParentNode](https://reference.aspose.com/words/java/com.aspose.words/node/#getParentNode) und [CompositeNode.FirstChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getFirstChild).
+Typisierte Eigenschaften sind lediglich nützliche Verknüpfungen, die manchmal einen einfacheren Zugriff bieten als generische Eigenschaften, die von [Node.ParentNode](https://reference.aspose.com/words/java/com.aspose.words/node/#getParentNode) und [CompositeNode.FirstChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getFirstChild) geerbt wurden.
 
-Das folgende Codebeispiel zeigt, wie man eingegebene Eigenschaften für Zugriffsknoten des Dokumentbaums verwendet:
+Das folgende Codebeispiel zeigt, wie typisierte Eigenschaften verwendet werden, um auf Knoten des Dokumentbaums zuzugreifen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-TypedAccessToChildrenAndParent-.java" >}}

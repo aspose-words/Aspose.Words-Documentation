@@ -7,6 +7,7 @@ description: "Toegang tot en beheer van stijlen en thema's in een document met b
 type: docs
 weight: 110
 url: /nl/python-net/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 De [StyleCollection](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/) klasse wordt gebruikt om ingebouwde instellingen te beheren en gebruikersinstellingen toe te passen op stijlen.

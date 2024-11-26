@@ -7,6 +7,7 @@ description: "Digitální podpis dokumentů a zjištění, počet, ověření a 
 type: docs
 weight: 40
 url: /cs/python-net/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 K ověření dokladu se používá digitální podpis, který prokazuje, že odesílatelem dokladu je, kdo tvrdí, že je a s obsahem dokumentu nebylo manipulováno.

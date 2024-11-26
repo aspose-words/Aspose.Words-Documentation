@@ -7,6 +7,7 @@ description: "Aspose.Words Sitemap Java menggunakan beberapa algoritma kriptogra
 type: docs
 weight: 80
 url: /id/java/fips-mode/
+timestamp: 2024-05-08-10-19-58
 ---
 
 Aspose.Words menggunakan beberapa algoritma kriptografi dan hash ketika memproses dokumen dan artikel ini menjelaskan bagaimana hal ini terkait dengan standar FIPS.

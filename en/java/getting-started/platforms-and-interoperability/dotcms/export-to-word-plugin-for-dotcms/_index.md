@@ -7,6 +7,7 @@ description: "Export to Word Plugin for dotCMS using Java."
 type: docs
 weight: 10
 url: /java/export-to-word-plugin-for-dotcms/
+timestamp: 2024-05-02-11-51-44
 ---
 
 Export to Word Plugin for dotCMS allow users to export online content into Word Processing document using [Aspose.Words for Java](https://products.aspose.com/words/java/). It dynamically exports the content of the Web page to a Word Processing document and then automatically downloads the file to the disk location selected by the user in just couple of seconds. The generated Word processing document can then be opened using any Word Processing Application such as Microsoft Word or Apache OpenOffice etc.

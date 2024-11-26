@@ -7,6 +7,7 @@ description: "`使用Java生成的条形码形状的例子。`"
 type: docs
 weight: 350
 url: /zh/java/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
 条形码是一种以平行线或图案的形式呈现的数据的视觉表示。条形码在零售、物流、医疗保健、银行业等各个行业得到了广泛应用。

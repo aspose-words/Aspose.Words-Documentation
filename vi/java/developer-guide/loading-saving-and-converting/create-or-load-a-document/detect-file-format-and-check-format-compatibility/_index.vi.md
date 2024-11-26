@@ -7,6 +7,7 @@ description: "Nhận thông tin về định dạng tài liệu trước khi m�
 type: docs
 weight: 20
 url: /vi/java/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Đôi khi cần xác định định dạng của một tài liệu trước khi mở vì phần mở rộng của tệp không đảm bảo rằng nội dung của tệp là phù hợp. Ví dụ, người ta biết rằng Crystal Report thường đưa ra các tài liệu ở định dạng RTF nhưng cho chúng phần mở rộng .doc.

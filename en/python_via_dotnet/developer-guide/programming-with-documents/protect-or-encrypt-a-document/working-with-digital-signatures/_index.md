@@ -8,6 +8,7 @@ type: docs
 weight: 40
 url: /python-net/working-with-digital-signatures/
 aliases: [/python/working-with-digital-signatures/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 A digital signature is used to authenticate a document to establish that the sender of the document is who they say they are and the content of the document has not been tampered with.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Caractéristiques
 second_title: Aspose.Words pour C++
 articleTitle: Fonctionnalités Prises En Charge
@@ -7,6 +7,7 @@ description: "Aspose.Words pour C++ fournit aux utilisateurs un large éventail 
 type: docs
 weight: 40
 url: /fr/cpp/features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words offre aux utilisateurs un large éventail de fonctionnalités. Les utilisateurs peuvent effectuer une énorme quantité de tâches liées aux documents-de la simple conversion de documents d'un format pris en charge à un autre et de la modification de ces documents pendant le processus de conversion en tâches commerciales, telles que la création de documents structurés et visuellement attrayants ou l'automatisation des rapports.

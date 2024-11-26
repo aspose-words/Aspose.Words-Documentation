@@ -1,42 +1,43 @@
----
-title: Работа с Hyperlinks в Java
+﻿---
+title: Работа с гиперссылками в Java
 second_title: Aspose.Words для Java
-articleTitle: Добавить или изменить гиперссылки
-linktitle: Добавить или изменить гиперссылки
-description: "Как добавить гиперссылку в документ с помощью Java."
+articleTitle: Добавление или изменение гиперссылок
+linktitle: Добавление или изменение гиперссылок
+description: "Как добавить гиперссылку в свой документ с помощью Java."
 type: docs
 weight: 50
 url: /ru/java/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Гиперссылка в Microsoft Word Документы являются `HYPERLINK` поле. в Aspose.Words, гиперссылки реализуются через [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) класс.
+Гиперссылкой в документах Microsoft Word является поле `HYPERLINK`. В документе Aspose.Words гиперссылки реализуются с помощью класса [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/).
 
-## Включить гиперссылку
+## Вставить гиперссылку
 
-Используйте [InsertHyperlink](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHyperlink-java.lang.String-java.lang.String-boolean) Способ вставки гиперссылки в документ. Этот метод принимает три параметра:
+Используйте метод [InsertHyperlink](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHyperlink-java.lang.String-java.lang.String-boolean), чтобы вставить гиперссылку в документ. Этот метод принимает три параметра:
 
-1. Текст ссылки для отображения в документе
-2. Пункт назначения ссылки (URL или название закладки внутри документа)
-3. Булевой параметр, который должен быть true если `URL` Название закладки внутри документа
+1. Текст ссылки, которая будет отображаться в документе
+2. Место назначения ссылки (URL или название закладки внутри документа)
+3. Логический параметр, который должен иметь значение true, если `URL` является именем закладки внутри документа
 
-The **InsertHyperlink** Способ всегда добавляет апострофы в начале и конце URL
+Метод **InsertHyperlink** всегда добавляет апострофы в начале и конце URL.
 
 {{% alert color="primary" %}}
 
-Обратите внимание, что вам нужно указать форматирование шрифта для текста отображения гиперссылки явно с использованием `Font` собственность.
+Обратите внимание, что вам необходимо явно указать форматирование шрифта для отображаемого текста гиперссылки, используя свойство `Font`.
 
 {{% /alert %}}
 
-Следующий пример кода показывает, как вставить гиперссылку в документ, используя [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/):
+В следующем примере кода показано, как вставить гиперссылку в документ с помощью [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/):
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHyperlink-DocumentBuilderInsertHyperlink.java" >}}
 
-## Заменить или изменить гиперссылки
+## Заменять или модифицировать гиперссылки
 
-Гиперссылка Microsoft Word Документы – это поле. Поле в документе Word, как мы говорили ранее, представляет собой сложную структуру, состоящую из нескольких узлов, которые включают начало поля, код поля, разделитель поля, результат поля и конец поля. Поля могут быть вложены, содержать богатое содержание и охватывать несколько абзацев или разделов в документе.
+Гиперссылка в документах Microsoft Word - это поле. Поле в документе Word, как мы говорили ранее, представляет собой сложную структуру, состоящую из множества узлов, которые включают начало поля, код поля, разделитель полей, результат поля и конец поля. Поля могут быть вложенными, содержать обширное содержимое и охватывать несколько абзацев или разделов документа.
 
-Чтобы заменить или изменить гиперссылки, необходимо найти гиперссылки в документе и заменить их текст, URL-адреса или оба.
+Чтобы заменить или модифицировать гиперссылки, необходимо найти гиперссылки в документе и заменить либо их текст, либо URLs, либо и то, и другое.
 
-Следующий пример кода показывает, как найти все гиперссылки в документе Word и изменить их. `URL` и отображаемое имя:
+В следующем примере кода показано, как найти все гиперссылки в документе Word и изменить их `URL` и отображаемое название:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Hyperlink-ReplaceHyperlinks-ReplaceHyperlinks.java" >}}

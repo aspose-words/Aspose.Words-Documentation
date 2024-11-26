@@ -7,6 +7,7 @@ description: "Gestión avanzada del contenido de los documentos, cómo crear y m
 type: docs
 weight: 390
 url: /es/net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 En Microsoft Word, puede crear un formulario comenzando con una plantilla y agregando controles de contenido, incluidas casillas de verificación, cuadros de texto, selectores de fechas y listas desplegables. En Aspose.Words, una etiqueta de documento estructurado o un control de contenido de cualquier documento cargado en Aspose.Words se importa como un nodo StructuredDocumentTag. Las etiquetas de documentos estructuradas (SDT o control de contenido) permiten incorporar en un documento la semántica definida por el cliente, así como su comportamiento y apariencia.

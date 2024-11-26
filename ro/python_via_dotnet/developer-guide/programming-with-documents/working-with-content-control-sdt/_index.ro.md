@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu controlul conținutului SDT
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Lucrul cu controlul conținutului SDT
@@ -7,6 +7,7 @@ description: "Folosind python puteți încorpora semantica definită de client, 
 type: docs
 weight: 390
 url: /ro/python-net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 În Microsoft Word, puteți crea un formular începând cu un șablon și adăugând controale de conținut, inclusiv checkboxes, casete de text, Selectoare de date și liste derulante. În Aspose.Words, o etichetă de Document structurată sau un control de conținut din orice document încărcat în Aspose.Words este importat ca nod [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/). Etichetele structurate ale documentelor (SDT sau controlul conținutului) permit încorporarea semanticii definite de client, precum și a comportamentului și aspectului acesteia într-un document. [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) poate apărea într-un document în următoarele locuri:

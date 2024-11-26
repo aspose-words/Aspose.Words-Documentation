@@ -7,6 +7,7 @@ description: "C#'i kullanarak PDF/A-1, PDF/A-2, PDF/A-4 ve PDF/UA'ya dönüştü
 type: docs
 weight: 25
 url: /tr/net/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF, kullanıcılar arasında çok popüler olan ve çeşitli uygulamalar tarafından yaygın olarak desteklenen sabit sayfa formatıdır, çünkü PDF belgesi her cihazda aynı görünür. Bu nedenle PDF'ye dönüştürmek Aspose.Words'in önemli bir özelliğidir.

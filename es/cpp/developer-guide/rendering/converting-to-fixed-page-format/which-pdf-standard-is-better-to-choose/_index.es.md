@@ -1,4 +1,4 @@
-﻿---
+---
 title: Qué Estándar PDF Es Mejor Elegir
 second_title: Aspose.Words para C++
 articleTitle: Qué Estándar PDF Es Mejor Elegir
@@ -7,6 +7,7 @@ description: "Elija el mejor estándar PDF para exportar el resultado de su tare
 type: docs
 weight: 37
 url: /es/cpp/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Para algunas tareas, ciertos estándares PDF se ajustarán mejor o viceversa peor. En este artículo, intentaremos determinar qué estándares PDF para qué casos tiene sentido elegir.

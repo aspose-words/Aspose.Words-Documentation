@@ -8,6 +8,7 @@ type: docs
 description: "Aspose.Words dành cho .NET thực hiện Kết xuất nguội SmartArt, nghĩa là nó sắp xếp và hiển thị các đối tượng SmartArt nếu bản vẽ SmartArt được kết xuất trước bị thiếu hoặc không chính xác khi sử dụng C#."
 weight: 330
 url: /vi/net/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đồ họa SmartArt được sử dụng để tạo ra sự trình bày thông tin trực quan một cách nhanh chóng và dễ dàng. Bạn chỉ cần chọn từ một số lượng lớn các bố cục phù hợp nhất với tình huống của bạn. Tính dễ sử dụng này khiến đồ họa SmartArt khá phổ biến cho một số mục đích.

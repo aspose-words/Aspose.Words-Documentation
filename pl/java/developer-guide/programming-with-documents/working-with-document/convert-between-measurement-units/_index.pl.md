@@ -7,6 +7,7 @@ description: "Aspose.Words zamiast Java może pomóc w konwersji między jednost
 type: docs
 weight: 20
 url: /pl/java/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Większość właściwości obiektu dostarczonych w Aspose.Words API które reprezentują pewne pomiary, takie jak szerokość lub wysokość, marginesy i różne odległości, akceptują wartości w punktach, gdzie 1 cal równa się 72 punkty. Czasami nie jest to wygodne i punkty należy przeliczyć na inne jednostki.

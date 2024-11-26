@@ -7,6 +7,7 @@ type: docs
 description: "加載遠端資源，可能會是安全風險的來源。 使用C#看看常見的安全問題及其解決方案。"
 weight: 100
 url: /zh-hant/net/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 以預設方式， Aspose.Words for .NET 在進口文件或插入圖像時，可以載入遠端資源，例如圖片、CSS 風格表或外部 HTML 文檔。 這種行為可以讓您在不失去細節的情況下處理文件，但在該圖書館是網路應用程式的一部分的時候，可能會造成一些安全風險。

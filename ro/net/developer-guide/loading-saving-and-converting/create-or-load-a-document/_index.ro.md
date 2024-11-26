@@ -8,6 +8,7 @@ url: /ro/net/create-or-load-a-document/
 description: "Creați un document gol sau încărcați-l dintr-un fișier sau flux folosind C#."
 keywords: "create a document c#, load a document c#, create a blank document c#, load a document from file c#, load a document from stream c#, create a document Aspose .NET, load a document Aspose .NET, load formats supported by Aspose.Words .NET"
 weight: 10
+timestamp: 2024-07-09-19-00-42
 ---
 
 Măcar orice sarcină pe care vrei s-o faci cu Aspose.Words implică încărcarea unui document. Clasa `Document` reprezintă un document încărcat în memorie. Documentul are mai mulți constructori suprascrieți care îți permit să creezi un document gol sau să îl încarci dintr-un fișier sau dintr-un flux. Documentul poate fi încărcat în orice format de încărcare suportat de Aspose.Words. Pentru lista tuturor formatelor de încărcare acceptate, vedeți enumerarea [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/).

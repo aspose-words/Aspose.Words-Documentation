@@ -7,6 +7,7 @@ description: "יצירת תוכן מסמך שונה באמצעות C#."
 type: docs
 weight: 140
 url: /he/net/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 בעת עבודה עם מסמכים, חשוב להיות מסוגל בקלות להפיק תוכן מטווח מסוים בתוך מסמך. עם זאת, התוכן עשוי לכלול אלמנטים מורכבים כגון פסקאות, טבלאות, תמונות וכו '.

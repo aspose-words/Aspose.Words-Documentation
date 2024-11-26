@@ -8,6 +8,7 @@ type: docs
 weight: 20
 url: /python-net/inserting-fields/
 aliases: [/python/inserting-fields/]
+timestamp: 2024-09-25-11-08-55
 ---
 
 There are several different ways to insert fields into a document:
@@ -86,7 +87,7 @@ The following code example shows how to add a `Merge` Field using DOM to a parag
 
 ### Inserting Mail Merge `ADDRESSBLOCK` field into a Document using DOM
 
-The `ADDRESSBLOCK` field is used to insert a mail merge address block in Word document. `ADDRESSBLOCK` field in Word document can be represented by the [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) class. You can use [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) class to perform the following operations:
+The `ADDRESSBLOCK` field is used to insert a Mail Merge address block in Word document. `ADDRESSBLOCK` field in Word document can be represented by the [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) class. You can use [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) class to perform the following operations:
 
 - specify whether to include the name of the country/region in the field
 - specify whether to format the address according to the country/region of the recipient as defined by POST*CODE (Universal Postal Union 2006)
@@ -116,7 +117,7 @@ The `ASK` field is used to prompt the user for text to assign to a Bookmark in W
 
 - specify the name of the bookmark
 - specify default user response (initial value contained in the prompt window)
-- specify whether the user response should be received once per a mail merge operation
+- specify whether the user response should be received once per a Mail Merge operation
 - specify the prompt text (the title of the prompt window)
 
 The following code example shows how to add the `ASK` Field using DOM to a paragraph in a document:

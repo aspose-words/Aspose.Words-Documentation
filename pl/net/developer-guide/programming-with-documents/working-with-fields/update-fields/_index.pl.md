@@ -7,6 +7,7 @@ description: "Dowiedz się, jak aktualizować pola w C#. Aktualizuj pola program
 type: docs
 weight: 30
 url: /pl/net/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Zazwyczaj pole wstawione do Microsoft Word zawiera już aktualną wartość. Przykładowo, jeśli polem jest formuła lub numer strony, będzie ona zawierać poprawną wyliczoną wartość dla danej wersji dokumentu. Jeśli jednak masz aplikację, która generuje lub modyfikuje dokument za pomocą pól, na przykład łącząc dwa dokumenty lub wypełniając go danymi, w idealnym przypadku wszystkie pola muszą zostać zaktualizowane, aby dokument był użyteczny.
@@ -18,7 +19,7 @@ Po załadowaniu dokumentu Aspose.Words naśladuje zachowanie Microsoft Word z wy
 - po otwarciu/zapisaniu dokumentu pola pozostają nienaruszone
 - możesz jawnie zaktualizować wszystkie pola w dokumencie, na przykład przebudować `TOC`, kiedy zajdzie taka potrzeba
 - podczas drukowania/renderowania do formatu PDF lub XPS, pola związane z numeracją stron w nagłówkach/stopkach są aktualizowane
-- po uruchomieniu mail merge wszystkie pola są aktualizowane automatycznie
+- po uruchomieniu Mail Merge wszystkie pola są aktualizowane automatycznie
 
 ### Aktualizuj pola programowo
 
@@ -42,7 +43,7 @@ Możesz pobrać przykładowy plik tego przykładu z [Aspose.Words GitHub](https:
 
 ### Automatyczna aktualizacja pola podczas Mail Merge
 
-Po wykonaniu mail merge wszystkie pola w dokumencie zostaną automatycznie zaktualizowane. Dzieje się tak, ponieważ mail merge jest przypadkiem aktualizacji w terenie. Program natrafia na pole mail merge i musi zaktualizować jego wynik, co polega na pobraniu wartości ze źródła danych i wstawieniu jej do pola. Logika jest oczywiście bardziej skomplikowana, np. gdy osiągnięty zostanie koniec dokumentu/regionu mail merge, ale nadal pozostają dalsze dane do połączenia, wówczas region należy zduplikować i zaktualizować nowy zestaw pól.
+Po wykonaniu Mail Merge wszystkie pola w dokumencie zostaną automatycznie zaktualizowane. Dzieje się tak, ponieważ Mail Merge jest przypadkiem aktualizacji w terenie. Program natrafia na pole Mail Merge i musi zaktualizować jego wynik, co polega na pobraniu wartości ze źródła danych i wstawieniu jej do pola. Logika jest oczywiście bardziej skomplikowana, np. gdy osiągnięty zostanie koniec dokumentu/regionu mail merge, ale nadal pozostają dalsze dane do połączenia, wówczas region należy zduplikować i zaktualizować nowy zestaw pól.
 
 ## Zaktualizuj pola mające brudny atrybut
 

@@ -7,6 +7,7 @@ description: "Задаване на напреднали свойства при
 type: docs
 weight: 20
 url: /bg/java/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Когато записвате документ, можете да зададете някои напреднали свойства. Aspose.Words Ви осигурява [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) клас, който позволява по-точен контрол на процеса на спасяване. Има претоварване на **Save** метод, който приема **SaveOptions** обект го трябва да бъде обект на клас, получен от **SaveOptions** Клас. Всеки save формат има съответен клас, който притежава опции за запис за този save формат, например, има [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) за запис във формат PDF, [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) за спестяване Markdown формат, или [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) за запазване на образ. Тази статия дава примери за работа с някои опции класове, получени от **SaveOptions**.

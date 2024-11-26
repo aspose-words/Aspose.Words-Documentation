@@ -1,4 +1,4 @@
-﻿---
+---
 title: User's Guide
 second_title: Aspose.Words for SharePoint
 articleTitle: User's Guide
@@ -7,6 +7,7 @@ description: "This User's Guide describes practical scenarios and tips to help y
 type: docs
 weight: 20
 url: /sharepoint/user-s-guide/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## This section includes the following topics:

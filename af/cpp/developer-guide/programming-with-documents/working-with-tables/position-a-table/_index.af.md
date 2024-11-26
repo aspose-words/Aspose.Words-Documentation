@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tabel Posisie in C++
 second_title: Aspose.Words vir C++
 articleTitle: Plaas'n Tabel
@@ -7,6 +7,7 @@ description: "Spesifiseer tabel posisie in C++. Kry'n tabel belyning, kry en ste
 type: docs
 weight: 50
 url: /af/cpp/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Daar is drywende tafels en inline tafels:

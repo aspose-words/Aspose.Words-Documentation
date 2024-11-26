@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tạo Bố Cục Trang trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Tạo Bố Cục Trang
@@ -7,6 +7,7 @@ description: "Tạo bố cục trang có thể là một thủ tục tốn kém.
 type: docs
 weight: 10
 url: /vi/cpp/creating-a-page-layout/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Tạo bố cục trang có thể là một thủ tục tốn kém, cả về tốc độ và bộ nhớ. Điều này là do một số lý do:

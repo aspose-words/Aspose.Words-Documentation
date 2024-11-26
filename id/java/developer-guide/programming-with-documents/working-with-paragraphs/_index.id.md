@@ -7,6 +7,7 @@ description: "Praktik manipulasi node paragraf menggunakan JavaSitemap"
 type: docs
 weight: 210
 url: /id/java/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Paragraf adalah set karakter yang dikombinasikan menjadi blok logis dan berakhir dengan karakter khusus - istirahat * paragraf *. Sitemap Aspose.Words, paragraf diwakili oleh [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) Sitemap

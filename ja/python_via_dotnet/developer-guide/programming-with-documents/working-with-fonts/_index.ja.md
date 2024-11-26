@@ -7,6 +7,7 @@ description: "Python を使用してフォント設定をカスタマイズし�
 type: docs
 weight: 230
 url: /ja/python-net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 フォントとは、特定のサイズ、色、デザインを持つ文字のセットです。 Aspose.Words では、[fonts](https://reference.aspose.com/words/python-net/aspose.words.fonts/) モジュールと [Font](https://reference.aspose.com/words/python-net/aspose.words/font/) クラスを使用してフォントを操作できます。

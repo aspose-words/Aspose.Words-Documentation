@@ -1,4 +1,4 @@
-﻿---
+---
 title: ترجمة Markdown لتوثيق نموذج الكائن (DOM)
 second_title: Aspose.Words ل C++
 articleTitle: ترجمة Markdown لتوثيق نموذج الكائن (DOM)
@@ -7,6 +7,7 @@ type: docs
 description: "تارنسلات Markdown وثيقة لتوثيق نموذج الكائن والعودة باستخدام C++. حتى تتمكن من العمل مع مجمع موجود Markdown وإنشاء مستند Markdown برمجيا من البداية."
 weight: 20
 url: /ar/cpp/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 لقراءة محتوى المستند وتنسيقه ومعالجتها وتعديله برمجيا، تحتاج إلى ترجمته إلى نموذج كائن المستند Aspose.Words (DOM).

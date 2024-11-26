@@ -1,4 +1,4 @@
-﻿---
+---
 title: İmleç ile C++ içinde gezinme
 second_title: Aspose.Words için C++
 articleTitle: İmleç ile Gezinme
@@ -7,6 +7,7 @@ description: "C++ kullanarak bir belgedeki paragraf, yer imi veya belirli bir ka
 type: docs
 weight: 10
 url: /tr/cpp/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir belgeyle çalışırken, kısa veya uzun olsa bile, belgenizde gezinmeniz gerekir. Sanal imleçle gezinme, bir belgedeki farklı düğümler arasında gezinme yeteneğini temsil eder.

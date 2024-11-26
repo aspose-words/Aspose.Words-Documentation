@@ -7,6 +7,7 @@ type: docs
 description: "使用 C# 克隆文档以获取其相同的副本。创建副本时，将克隆原始文档的节点和属性。"
 weight: 70
 url: /zh/net/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 克隆文档是创建原始文档的相同副本的过程，这可以提高性能并避免潜在的内存泄漏。

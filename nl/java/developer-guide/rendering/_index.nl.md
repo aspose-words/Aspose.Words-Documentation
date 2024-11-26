@@ -7,6 +7,7 @@ description: "Gebruik Aspose.Words voor Java rendering feature om een flow-layou
 type: docs
 weight: 30
 url: /nl/java/rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 We gebruiken de term "rendering" in Aspose.Words beschrijven van het proces van het omzetten van een document in een bestandsformaat of een medium dat wordt gepagineerd of heeft het concept van pagina's. We hebben het over de weergave van een document in bladzijden. Het volgende diagram laat zien wat de weergave is in Aspose.Words.

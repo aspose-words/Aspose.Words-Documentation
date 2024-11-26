@@ -7,6 +7,7 @@ type: docs
 description: "Tìm một chuỗi hoặc mẫu biểu thức chính quy trong tài liệu của bạn và thay thế nó bằng văn bản bạn muốn sử dụng Java."
 weight: 100
 url: /vi/java/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bạn có thể dễ dàng điều hướng trong tài liệu của mình bằng bàn phím và chuột nhưng nếu bạn có nhiều trang để cuộn qua, nó sẽ mất khá lâu để tìm văn bản cụ thể trong một tài liệu dài. Sẽ mất nhiều thời gian hơn khi bạn muốn thay thế những ký tự hoặc từ cụ thể mà bạn đã sử dụng trong tài liệu của mình. Tính năng "Tìm và thay thế" cho phép bạn tìm một chuỗi ký tự trong tài liệu và thay thế nó bằng một chuỗi ký tự khác.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Persyaratan Sistem
 second_title: Aspose.Words untuk C++
 articleTitle: Persyaratan Sistem
@@ -7,6 +7,7 @@ description: "Sebelum Anda mulai bekerja dengan Aspose.Words untuk C++, pastikan
 type: docs
 weight: 70
 url: /id/cpp/system-requirements/
+timestamp: 2024-07-11-16-13-28
 ---
 
 Aspose.Words untuk C++ tidak memerlukan produk pihak ketiga seperti Microsoft Word untuk diinstal. Aspose.Words sendiri merupakan mesin untuk membuat, memodifikasi, mengonversi, dan merender dokumen dalam berbagai format, termasuk format dokumen Microsoft Word.

@@ -7,6 +7,7 @@ description: "Lavora con tabelle e i loro componenti come celle, righe, colonne 
 type: docs
 weight: 10
 url: /it/python-net/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words è una libreria di classi progettata per l'elaborazione lato server di documenti in vari formati – PDF, HTML, diversi formati Microsoft Word e altri – e supporta le tabelle nei seguenti modi:

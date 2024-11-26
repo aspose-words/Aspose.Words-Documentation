@@ -1,4 +1,4 @@
-﻿---
+---
 title: ファイル形式の検出と形式の互換性の確認
 second_title: C++の場合Aspose.Words
 articleTitle: ファイル形式の検出と形式の互換性の確認
@@ -7,6 +7,7 @@ description: "ファイルの実際の内容がわからない場合、または
 type: docs
 weight: 20
 url: /ja/cpp/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ファイル拡張子がファイルの内容が適切であることを保証するものではないため、開く前に文書の形式を決定する必要がある場合があります。 例えば、Crystal ReportsはしばしばRTF形式で文書を出力することが知られていますが、それらを与えます。doc拡張子。

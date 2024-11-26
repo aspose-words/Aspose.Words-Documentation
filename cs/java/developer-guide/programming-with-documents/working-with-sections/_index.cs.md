@@ -7,6 +7,7 @@ description: "Porozumění pojmům a praktikám v oblasti dokumentů a manipulac
 type: docs
 weight: 120
 url: /cs/java/working-with-sections/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Někdy chcete dokument, který nemá stejný formát na všech stránkách. Například můžete potřebovat upravit formáty čísel stránek, mít jinou velikost stránky a orientaci nebo mít první stránku dokumentu jako titulní stránku bez číslování. Toho můžete dosáhnout sekcemi.

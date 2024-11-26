@@ -1,58 +1,59 @@
----
+﻿---
 title: Introducción a los campos en Java
-second_title: Aspose.Words para Java
-articleTitle: Introducción a los campos
-linktitle: Introducción a los campos
-description: "Campo característica en detalles, códigos de campo y resultados de campo explicados en Aspose.Words para Java."
+second_title: Aspose.Words por Java
+articleTitle: Introducción a los Campos
+linktitle: Introducción a los Campos
+description: "Los campos aparecen en detalles, códigos de campo y resultados de campo explicados en Aspose.Words para Java."
 type: docs
 weight: 10
 url: /es/java/introduction-to-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
-Aspose.Words es una biblioteca de clase diseñada para el procesamiento del lado servidor Microsoft Word documentos y soporte campos de la siguiente manera:
+Aspose.Words es una biblioteca de clases diseñada para el procesamiento del lado del servidor de Microsoft Word documentos y admite campos de las siguientes maneras:
 
-- todos los campos de un documento se conservan durante la apertura/salida y conversiones
+- todos los campos de un documento se conservan durante la apertura / guardado y las conversiones
 - es posible actualizar los resultados de la mayoría de los campos
 
-En este artículo aprenderemos más sobre la estructura de campo, los campos apoyados en Aspose.Words, y detalles de trabajar con tales campos.
+En este artículo, aprenderemos más sobre la estructura de los campos, los campos admitidos en Aspose.Words y los detalles sobre cómo trabajar con dichos campos.
 
-## Estructura de campo
+## Estructura de Campo
 
-Un campo consiste en:
+Un campo consta de:
 
-- Los nodos de inicio de campo y separador se utilizan para abarcar el contenido que compone el código de campo (normalmente como texto plano).
-- El separador de campo y el extremo de campo abarcan el resultado de campo. Esto se puede componer de varios tipos de contenidos que van desde las series de texto a párrafos a tablas.
-- Algunos campos pueden no tener un separador que significa que todo el contenido compone el código de campo.
-- El código de campo define el comportamiento del campo y está compuesto por el identificador de campo y a menudo otros parámetros como el nombre de campo y los interruptores.
-- El resultado sobre el terreno contiene la evaluación más reciente del terreno. Este valor se almacena en el resultado del campo y es lo que se muestra al usuario. Algunos campos pueden no tener ningún resultado de campo por lo tanto no mostrará nada en el documento. Del mismo modo, algunos campos pueden no ser actualizados, por lo que tampoco tendrán ningún resultado de campo.
+- Los nodos de inicio de campo y separador se utilizan para abarcar el contenido que compone el código de campo (normalmente como texto sin formato).
+- El separador de campo y el final del campo abarcan el resultado del campo. Esto puede estar compuesto por varios tipos de contenido que van desde series de texto hasta párrafos y tablas.
+- Es posible que algunos campos no tengan un separador, lo que significa que todo el contenido constituye el código del campo.
+- El código de campo define el comportamiento del campo y está compuesto por el identificador de campo y, a menudo, otros parámetros, como el nombre del campo y los conmutadores.
+- El resultado del campo contiene la evaluación más reciente del campo. Este valor se almacena en el campo resultado y es el que se muestra al usuario. Es posible que algunos campos no tengan ningún resultado de campo, por lo que no mostrarán nada en el documento. Del mismo modo, es posible que algunos campos no se actualicen, por lo que tampoco tendrán resultados de campo.
 
 ![fields-aspose-words-java](/words/java/introduction-to-fields/introduction-to-fields-1.png)
 
-El contenido que compone el código de campo se almacena como [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) nodos entre los [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/) y [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/). El resultado del campo se almacena entre el **FieldSeparator** y [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/) nodos y se pueden componer de varios tipos de contenidos. Normalmente el resultado del campo contiene sólo texto compuesto de los nodos Run, sin embargo es posible que el nodo FieldEnd esté situado en un párrafo completamente diferente, y por lo tanto hacer el resultado del campo compuesto de [Niveles lógicos de los ganglios en un documento](/words/es/java/logical-levels-of-nodes-in-a-document/) tales como **Table** y **Paragraph** nodos también.
+El contenido que compone el código de campo se almacena como [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) nodos entre [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/) y [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/). El resultado del campo se almacena entre los nodos **FieldSeparator** y [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/) y puede estar formado por varios tipos de contenido. Normalmente, el resultado del campo contiene solo texto compuesto por nodos de ejecución, sin embargo, es posible que el nodo FieldEnd se ubique en un párrafo completamente diferente y, por lo tanto, el resultado del campo esté compuesto por [nodos a nivel de bloque](/words/java/logical-levels-of-nodes-in-a-document/) como **Table** y **Paragraph** nodos también.
 
-Aquí está la vista de cómo se almacena un campo Aspose.Words utilizando el ejemplo "*DocumentExplorer"* que se puede encontrar [Github](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/java/com/aspose/words/examples/viewers_visualizers/document_explorer).
+Aquí hay una vista de cómo se almacena un campo en Aspose.Words usando el ejemplo " *DocumentExplorer"* que se puede encontrar en [Github](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/java/com/aspose/words/examples/viewers_visualizers/document_explorer).
 
 ![document-explorer-aspose-words-java](/words/java/introduction-to-fields/introduction-to-fields-2.png)
 
-## Campos en Aspose.Words Document Object Model (G)DOM)
+## Campos en Aspose.Words Modelo de Objetos de documento (DOM)
 
-Cuando un documento se carga en <span notrans="<span notrans=" Aspose.Words"=""></span>," los campos del documento se cargan en Aspose.Words Document Object Model como un conjunto de componentes separados (nodos). Un solo campo se carga como una colección de **FieldStart**, **FieldSeparator** y **FieldEnd** nodos junto con el contenido entre estos nodos. Si un campo no tiene un resultado de campo entonces no habrá **FieldSeparator** Nodo. Todos estos nodos siempre se encuentran inline (como hijos de [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) o [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/).
+Cuando un documento se carga en Aspose.Words, los campos del documento se cargan en el Modelo de Objetos del documento Aspose.Words como un conjunto de componentes separados(nodos). Un solo campo se carga como una colección de **FieldStart**, **FieldSeparator** y **FieldEnd** nodos junto con el contenido entre estos nodos. Si un campo no tiene un resultado de campo, entonces no habrá un nodo **FieldSeparator**. Todos estos nodos siempre se encuentran en línea (como hijos de [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) o [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/).
 
-In Aspose.Words cada uno de los **FieldXXX** nodos deriva de [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/). Esta clase proporciona una propiedad para comprobar el tipo de campo representado por el nodo especificado a través del [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) propiedad. Por ejemplo `FieldType.FieldMergeField` representa un campo de fusión en el documento.
+En Aspose.Words cada uno de los **FieldXXX** nodos deriva de [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/). Esta clase proporciona una propiedad para verificar el tipo de campo representado por el nodo especificado a través de la propiedad [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/). Por ejemplo, `FieldType.FieldMergeField` representa un campo de combinación en el documento.
 
 {{% alert color="primary" %}}
 
-Hay algunos campos particulares que existen en un documento de Word que no se importan en Aspose.Words como colección de **FieldXXX** nodos. Por ejemplo, `LINK` sobre el terreno y `INCLUDEPICTURE` sobre el terreno se importa Aspose.Words como [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) objeto. Este objeto proporciona propiedades para trabajar con los datos de imagen normalmente almacenados en estos campos. Importar `INCLUDEPICTURE` sobre el terreno **FieldXXX** nodos [PreserveIncludePictureField](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getPreserveIncludePictureField) opción debe especificarse como **true**.
+Hay algunos campos particulares que existen en un documento de Word que no se importan a Aspose.Words como una colección de **FieldXXX** nodos. Por ejemplo, el campo `LINK` y el campo `INCLUDEPICTURE` se importan en Aspose.Words como un objeto [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/). Este objeto proporciona propiedades para trabajar con los datos de imagen normalmente almacenados en estos campos. Para importar el campo `INCLUDEPICTURE` como **FieldXXX** nodos, la opción [PreserveIncludePictureField](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getPreserveIncludePictureField) debe especificarse como **true**.
 
-Los campos de formularios también se importan Aspose.Words como su propia clase especial. El [FormField](https://reference.aspose.com/words/java/com.aspose.words/formfield/) clase representa un campo de forma en un documento de Word y proporciona métodos adicionales que son particulares a un campo de forma.
+Los campos de formulario también se importan en Aspose.Words como su propia clase especial. La clase [FormField](https://reference.aspose.com/words/java/com.aspose.words/formfield/) representa un campo de formulario en un documento de Word y proporciona métodos adicionales que son particulares de un campo de formulario.
 
 {{% /alert %}}
 
-## Campos de apoyo
+## Campos Admitidos
 
-Cálculo de los siguientes campos es compatible en la versión actual de Aspose.Words:
+El cálculo de los siguientes campos es compatible con la versión actual de Aspose.Words:
 
-- = (formula)
+- = (fórmula)
 - `ADDRESSBLOCK`
 - `ASK`
 - `AUTHOR`
@@ -122,26 +123,26 @@ Cálculo de los siguientes campos es compatible en la versión actual de Aspose.
 - `TIME`
 - `TITLE`
 - `TOA`
-- `TOC` (incluyendo TOT y TOF)
+- `TOC` (including TOT and TOF)
 - `USERADDRESS`
 - `USERINITIALS`
 - `USERNAME`
 
-## Pase de campo sofisticado
+## Análisis Sofisticado de Campos
 
-Aspose.Words sigue el camino Microsoft Word procesos campos y como resultado maneja correctamente:
+Aspose.Words sigue la forma en que Microsoft Word procesa los campos y, como resultado, los maneja correctamente:
 
 - campos anidados:
   `IF { =OR({ `COMPARE` { =2.5 +PRODUCT(3,5 ,8.4) } > 4}, { =2/2 }) } = 1 "Credit not acceptable" "Credit acceptable"`
 - el argumento de campo puede ser el resultado de un campo anidado
-- los campos pueden ser anidados dentro de un código de campo, así como en el resultado del campo
-- espacios/no espacios, citas/no citas, personajes de escape en campos, etc.:
+- los campos se pueden anidar dentro de un código de campo, así como en el resultado del campo
+- espacios / sin espacios, comillas / sin comillas, caracteres de escape en los campos, etc.:
   `MERGEFIELD \f"Text after""Field \n\ame with \" and \\\ and \\\*"\bTextBefor\e`
 - campos que abarcan varios párrafos
 
-### Fórmula Fields
+### Campos de Fórmula
 
-Aspose.Words proporciona una aplicación muy seria del motor de fórmula y apoya lo siguiente:
+Aspose.Words proporciona una implementación muy seria del motor de fórmulas y admite lo siguiente:
 
 - operadores aritméticos y lógicos:
   `=(54+4*(6-77)-(5))+(-6-5)/4/5`
@@ -149,14 +150,14 @@ Aspose.Words proporciona una aplicación muy seria del motor de fórmula y apoya
   `=ABS(-01.4)+2.645/(5.6^3.5)+776457 \\\# "#,##0"`
 - referencias a marcadores:
   `=IF(C>4, 5,ABS(A)*.76) +3.85`
-- conmutadores de formato número:
+- modificadores de formato de números:
   `=00000000 \\\# "$#,##0.00;($#,##0.00)"`
 
-Se apoyan las siguientes funciones en las expresiones: `ABS`, `AND`, `AVERAGE`, `COUNT`, `DEFINED`, `FALSE`, `IF`, `INT`, `MAX`, `MIN`, `MOD`, `NOT`, `OR`, `PRODUCT`, `ROUND`, `SIGN`, `SUM`, TRUE.
+Se admiten las siguientes funciones en expresiones: `ABS`, `AND`, `AVERAGE`, `COUNT`, `DEFINED`, `FALSE`, `IF`, `INT`, `MAX`, `MIN`, `MOD`, `NOT`, `OR`, `PRODUCT`, `ROUND`, `SIGN`, `SUM`, TRUE.
 
-### `IF` y `COMPARE` Campos
+### `IF` and `COMPARE` Fields
 
-Sólo algunos de los `IF` expresiones que Aspose.Words puede calcular fácilmente debe darle una idea de lo poderoso que es esta característica:
+Solo algunas de las `IF` expresiones que Aspose.Words puede calcular fácilmente deberían darle una idea de cuán poderosa es esta característica:
 
 - `IF 3 > 5.7^4+MAX(4,3) True False`
 - `IF "abcd" > "abc" True False`
@@ -164,64 +165,64 @@ Sólo algunos de los `IF` expresiones que Aspose.Words puede calcular fácilment
 - `IF 4 = "2*2" True False`
 - `COMPARE 3+5/34 < 4.6/3/2`
 
-### `DATE` y `TIME` Campos
+### `DATE` and `TIME` Fields
 
-Aspose.Words soporta todos los conmutadores de formato de fecha y hora disponibles en Microsoft Word, algunos ejemplos son:
+Aspose.Words admite todos los modificadores de formato de fecha y hora disponibles en Microsoft Word, algunos ejemplos son:
 
 - `DATE @ "d-MMM-yy"`
 - `DATE @ "d/MM/yyyy h:mm am/pm`
 
 ### Mail Merge Campos
 
-Aspose.Words no impone límite a la complejidad mail merge campos en sus documentos y soportes anidados `IF` y campos de fórmula e incluso puede calcular el nombre del campo de fusión usando una fórmula.
+Aspose.Words no impone ningún límite a la complejidad de los campos Mail Merge en sus documentos y admite campos anidados `IF` y de fórmula e incluso puede calcular el nombre del campo de combinación utilizando una fórmula.
 
-Algunos ejemplos de mail merge campos que Aspose.Words soportes:
+Algunos ejemplos de Mail Merge campos que Aspose.Words admite:
 
 - Mail merge interruptores de campo:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
-- campos de fusión anidados en una fórmula:
+- combinar campos anidados en una fórmula:
   `IF { `MERGEFIELD` Value1 } >= { `MERGEFIELD` Value2 } True False`
-- calcular el nombre del campo de fusión en tiempo de ejecución:
+- calcule el nombre del campo de combinación en tiempo de ejecución:
   `MERGEFIELD { `IF` { `MERGEFIELD` Value1 } >= { `MERGEFIELD` Value2 } FirstName"LastName" }`
-- movimiento condicional al siguiente registro en la fuente de datos:
+- paso condicional al siguiente registro en el origen de datos:
   `NEXTIF { `MERGEFIELD` Value1 } <= { =IF(-2.45 >= 6*{ `MERGEFIELD` Value2 }, 2, -.45) }`
 
-### Switches de formato
+### Conmutadores de Formato
 
-Un campo en un documento puede tener interruptores de formato que especifican cómo debe formatear el valor resultante. Aspose.Words soporta los siguientes conmutadores de formato:
+Un campo de un documento puede tener modificadores de formato que especifiquen cómo se debe formatear el valor resultante. Aspose.Words admite los siguientes modificadores de formato:
 
 - @ - formato de fecha y hora
-- \\\# - formato número
-- ¿Qué? Caps
-- Primera Cap
-- ¿Qué? Bajo
-- ¿Qué? Alto
-- \\\\\\\\\\* CHARFORMAT - resultado de formato según el primer carácter del código de campo
-- \\\\\\\\\\\* MERGEFORMAT - resultado de formato según el formato del viejo resultado
+- \\\# - formateo de números
+- \\\\\\\\* Caps
+- \\\\\\\\* FirstCap
+- \\\\\\\\* Lower
+- \\\\\\\\* Upper
+- \\\\\\\\* CHARFORMAT - formatee el resultado de acuerdo con el primer carácter del código del campo
+- \\\\\\\\* MERGEFORMAT - formatee el resultado de acuerdo con cómo se formatea el resultado anterior
 
-### Date and Number Formatting in Fields
+### Formato de Fecha y Número en los Campos
 
-Cuando Aspose.Words calcula un resultado de campo, que a menudo necesita parse una cadena en un valor número o fecha y también para formatearla de nuevo a una cadena. Por defecto Aspose.Words utiliza la actual cultura de hilo para realizar el análisis y el formato al calcular los valores de campo durante la actualización de campo y mail merge. También hay opciones proporcionadas en forma de [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions/) clase que permite un control adicional sobre qué cultura se utiliza durante la actualización de campo%
+Cuando Aspose.Words calcula el resultado de un campo, a menudo necesita analizar una cadena en un valor numérico o de fecha y también formatearla de nuevo a string.By default Aspose.Words usa la cultura de subprocesos actual para realizar análisis sintáctico y formateo al calcular los valores de campo durante field update y mail merge. También se proporcionan opciones en forma de la clase [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions/) que permite un mayor control sobre qué cultivo se usa durante la actualización de campo%
 
-* por defecto [FieldUpdateCultureSource](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions/#getFieldUpdateCultureSource) propiedad se establece [CurrentThread](https://reference.aspose.com/words/java/com.aspose.words/fieldupdateculturesource/#CURRENT-THREAD) que formatos campos utilizando la actual cultura del hilo
-* esta propiedad se puede configurar [FieldCode](https://reference.aspose.com/words/java/com.aspose.words/fieldupdateculturesource/#FIELD-CODE) por lo que el lenguaje establecido en el código de campo del campo se utiliza para formatear en su lugar
+* de forma predeterminada, la propiedad [FieldUpdateCultureSource](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions/#getFieldUpdateCultureSource) se establece en [CurrentThread](https://reference.aspose.com/words/java/com.aspose.words/fieldupdateculturesource/#CURRENT-THREAD), que formatea los campos utilizando la cultura de subprocesos actual
+* esta propiedad se puede establecer en [FieldCode](https://reference.aspose.com/words/java/com.aspose.words/fieldupdateculturesource/#FIELD-CODE), por lo que el idioma establecido en el código de campo del campo se usa para formatear en su lugar
 
-### Formato utilizando la cultura actual del pan
+### Formateo usando la Cultura del Hilo actual
 
-Para controlar la cultura utilizada durante el cálculo del campo, simplemente establecer el **CurrentCulture** propiedad a una cultura de su elección antes de invocar cálculo de campo.
+Para controlar la cultura utilizada durante el cálculo del campo, simplemente establezca la propiedad **CurrentCulture** en una cultura de su elección antes de invocar el cálculo del campo.
 
 El siguiente ejemplo de código muestra cómo cambiar la cultura utilizada en los campos de formato durante la actualización:
 
-EXAMPLE (utiliza el envoltorio público ActualThreadSettings.getLocale() y setLocale() en lugar de la privada `Thread.CurrentThread`.CurrentCulture)
+EXAMPLE (use el contenedor público CurrentThreadSettings.getLocale () y setLocale () en lugar del privado `Thread.CurrentThread`.CurrentCulture)
 
-Utilizar la cultura actual para formatear campos permite que un sistema controle de forma fácil y consistente cómo todos los campos del documento se formatean durante la actualización de campo.
+El uso de la cultura actual para formatear campos permite que un sistema controle de manera fácil y consistente cómo se formatean todos los campos del documento durante la actualización de campos.
 
-### Formato utilizando la Cultura en el Documento
+### Formateo usando la cultura en el documento
 
-Por otro lado, Microsoft Word formatos cada campo individual basado en el lenguaje del texto encontrado en el campo (específicamente, las carreras del código de campo). A veces durante la actualización de campo puede ser el comportamiento deseado, por ejemplo si usted tiene documentos globalizados que contienen contenido compuesto de muchos idiomas diferentes y quisiera que cada campo honrara al local utilizado del texto. Aspose.Words también soporta esta funcionalidad.
+Por otro lado, Microsoft Word formatea cada campo individual en función del idioma del texto que se encuentra en el campo (específicamente, se ejecuta desde el código del campo). A veces, durante la actualización de campos, este puede ser el comportamiento deseado, por ejemplo, si tiene documentos globalizados que contienen contenido compuesto por muchos idiomas diferentes y desea que cada campo respete la configuración regional utilizada en el texto. Aspose.Words también admite esta funcionalidad.
 
-El [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) clase proporciona una [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/document/#getFieldOptions) propiedad que contiene miembros que pueden utilizarse para controlar cómo se actualizan los campos dentro del documento.
+La clase [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) proporciona una propiedad [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/document/#getFieldOptions) que contiene miembros que se pueden usar para controlar cómo se actualizan los campos dentro del documento.
 
-El siguiente ejemplo de código muestra cómo especificar dónde se utiliza la cultura para el formato de fecha durante la actualización del campo y mail merge es elegido de:
+El siguiente ejemplo de código muestra cómo especificar dónde se elige la cultura utilizada para el formato de fecha durante la actualización de campo y Mail Merge:
 
-EXAMPLEO
+EXAMPLE

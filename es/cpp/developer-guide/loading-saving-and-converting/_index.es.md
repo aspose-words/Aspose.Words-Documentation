@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cargar, Guardar y Convertir en C++
 second_title: Aspose.Words para C++
 articleTitle: Cargar, Guardar y Convertir
@@ -7,6 +7,7 @@ description: "Cómo convertir un documento de un formato a otro, como Word a PDF
 type: docs
 weight: 10
 url: /es/cpp/loading-saving-and-converting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Esta sección proporciona información sobre las funciones al cargar y guardar un documento, así como datos sobre las posibilidades al convertir un documento de un formato a otro.

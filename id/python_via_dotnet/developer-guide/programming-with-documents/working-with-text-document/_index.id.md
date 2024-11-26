@@ -7,6 +7,7 @@ description: "Bekerja dengan dokumen teks dan memodifikasi objeknya menggunakan 
 type: docs
 weight: 430
 url: /id/python-net/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Pada artikel ini, kita akan mempelajari opsi apa saja yang berguna untuk bekerja dengan dokumen teks melalui Aspose.Words. Harap dicatat bahwa ini bukan daftar lengkap opsi yang tersedia, tetapi hanya contoh penggunaan beberapa di antaranya.

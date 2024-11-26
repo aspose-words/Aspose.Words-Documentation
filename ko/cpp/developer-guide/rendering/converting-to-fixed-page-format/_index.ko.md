@@ -1,4 +1,4 @@
-﻿---
+---
 title: 고정 페이지 형식으로 변환 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 고정 페이지 형식으로 변환
@@ -7,6 +7,7 @@ description: "문서 저장 PDF, XPS, HTML, XAML, PostScript,그리고 PCL 형�
 type: docs
 weight: 10
 url: /ko/cpp/converting-to-fixed-page-format/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words 자체 페이지 레이아웃 엔진을 구현합니다. 사양을 탐구하기 전에 먼저 높은 수준의 문서를 논의하는 것이 좋습니다.

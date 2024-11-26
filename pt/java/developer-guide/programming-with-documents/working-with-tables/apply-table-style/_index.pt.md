@@ -1,35 +1,36 @@
----
-title: Trabalhando com estilos de mesa em Java
+﻿---
+title: Trabalhando com estilos de tabela em Java
 second_title: Aspose.Words para Java
-articleTitle: Aplicar estilo de tabela
-linktitle: Aplicar estilo de tabela
-description: "Formatação de tabela avançada Java. Criar um estilo de mesa usando Java. Introdução à formatação avançada da tabela, estilos de tabela usando Java."
+articleTitle: Aplicar Estilo De Tabela
+linktitle: Aplicar Estilo De Tabela
+description: "Formatação avançada da tabela Java. Crie um estilo de tabela usando Java. Introdução à formatação avançada de tabelas, estilos de tabelas utilizando Java."
 type: docs
 weight: 80
 url: /pt/java/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Um estilo de tabela define um conjunto de formatação que pode ser facilmente aplicado a uma tabela. Formatação como fronteiras, sombreamento, alinhamento e fonte pode ser definida em um estilo de tabela e aplicada a muitas tabelas para uma aparência consistente.
+Um estilo de tabela define um conjunto de formatação que pode ser facilmente aplicado a uma tabela. A formatação, como bordas, sombreamento, alinhamento e fonte, pode ser definida em um estilo de tabela e aplicada a muitas tabelas para uma aparência consistente.
 
-Aspose.Words suportes aplicar um estilo de mesa a uma mesa e também ler propriedades de qualquer estilo de mesa. Os estilos de tabela são preservados durante o carregamento e a poupança das seguintes formas:
+Aspose.Words suporta a aplicação de um estilo de tabela a uma tabela e também a leitura de propriedades de qualquer estilo de tabela. Os estilos de tabela são preservados durante o carregamento e o salvamento das seguintes maneiras:
 
-- Estilos de tabela em formatos DOCX e WordML são preservados ao carregar e salvar a estes formatos
-- Estilos de tabela são preservados ao carregar e salvar no formato DOC (mas não a qualquer outro formato)
-- Não. Ao exportar para outros formatos, renderização ou impressão, os estilos de tabela são expandidos para a formatação direta na tabela, de modo que toda formatação é preservada
+- Os estilos de tabela nos formatos DOCX e WordML são preservados ao carregar e salvar nesses formatos
+- Os estilos de tabela são preservados ao carregar e salvar no formato DOC (mas não em qualquer outro formato)
+- Ao exportar para outros formatos, renderização ou impressão, os estilos de tabela são expandidos para formatação direta na tabela, para que toda a formatação seja preservada
 
 ## Criar um estilo de tabela
 
-O usuário pode criar um novo estilo e adicioná-lo à coleção de estilo. O [Add](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) método é usado para criar um novo estilo de tabela.
+O usuário pode criar um novo estilo e adicioná-lo à coleção de estilos. O método [Add](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) é usado para criar um novo estilo de tabela.
 
-O exemplo a seguir mostra como criar um novo estilo de tabela definido pelo usuário:
+O exemplo de código a seguir mostra como criar um novo estilo de tabela definido pelo Usuário:
 
 {{< gist "aspose-words-gists" "f1d06175603c48e6dabf5a2eea01207c" "create-table-style.java" >}}
 
-## Copie um estilo de tabela existente
+## Copiar um estilo de tabela existente
 
-Se necessário, você pode copiar um estilo de tabela que já existe em um determinado documento em sua coleção de estilo usando o `AddCopy` método.
+Se necessário, você pode copiar um estilo de tabela que já existe em um determinado documento para sua coleção de estilos usando o método `AddCopy`.
 
-É importante saber que com esta cópia, os estilos vinculados também são copiados.
+É importante saber que, com essa cópia, os estilos vinculados também são copiados.
 
 O exemplo de código a seguir mostra como importar um estilo de um documento para outro documento:
 
@@ -37,19 +38,19 @@ O exemplo de código a seguir mostra como importar um estilo de um documento par
 
 ## Aplicar um estilo de tabela existente
 
-Aspose.Words fornece um [TableStyle](https://reference.aspose.com/words/java/com.aspose.words/tablestyle/) herdado do [Style](https://reference.aspose.com/words/java/com.aspose.words/style/) classe. **TableStyle** facilita o usuário a aplicar diferentes opções de estilo como shading, padding, indentation, [CellSpacing](https://reference.aspose.com/words/java/com.aspose.words/tablestyle/#getCellSpacing) e [Font](https://reference.aspose.com/words/java/com.aspose.words/tablestyle/#getFont), etc.
+Aspose.Words fornece um [TableStyle](https://reference.aspose.com/words/java/com.aspose.words/tablestyle/) herdado da classe [Style](https://reference.aspose.com/words/java/com.aspose.words/style/). **TableStyle** facilita o usuário a aplicar diferentes opções de estilo, como sombreamento, preenchimento, recuo, [CellSpacing](https://reference.aspose.com/words/java/com.aspose.words/tablestyle/#getCellSpacing) e [Font](https://reference.aspose.com/words/java/com.aspose.words/tablestyle/#getFont), etc.
 
-Além disso, Aspose.Words fornece o [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) classe e algumas propriedades do `Table` classe para especificar qual estilo de tabela vamos trabalhar com: [Style](https://reference.aspose.com/words/java/com.aspose.words/table/#getStyle), [StyleIdentifier](https://reference.aspose.com/words/java/com.aspose.words/table/#setStyleIdentifier-int), [StyleName](https://reference.aspose.com/words/java/com.aspose.words/table/#getStyleName), e [StyleOptions](https://reference.aspose.com/words/java/com.aspose.words/table/#setStyleOptions-int).
+Além disso, Aspose.Words fornece a classe [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) e algumas propriedades da classe `Table` para especificar com qual estilo de tabela trabalharemos: [Style](https://reference.aspose.com/words/java/com.aspose.words/table/#getStyle), [StyleIdentifier](https://reference.aspose.com/words/java/com.aspose.words/table/#setStyleIdentifier-int), [StyleName](https://reference.aspose.com/words/java/com.aspose.words/table/#getStyleName), e [StyleOptions](https://reference.aspose.com/words/java/com.aspose.words/table/#setStyleOptions-int).
 
-Aspose.Words também fornece [ConditionalStyle](https://reference.aspose.com/words/java/com.aspose.words/conditionalstyle/) classe que representa formatação especial aplicada a alguma área de uma tabela com um estilo de tabela atribuído, e o [ConditionalStyleCollection](https://reference.aspose.com/words/java/com.aspose.words/conditionalstylecollection/) que representa uma coleção de **ConditionalStyle** objetos. Esta coleção contém um conjunto permanente de itens que representam um item para cada valor do [ConditionalStyleType](https://reference.aspose.com/words/java/com.aspose.words/conditionalstyletype/) tipo de enumeração. O **ConditionalStyleType** enumeração define todas as áreas de tabela possíveis para as quais a formatação condicional pode ser definida em um estilo de tabela.
+Aspose.Words também fornece [ConditionalStyle](https://reference.aspose.com/words/java/com.aspose.words/conditionalstyle/) classe que representa formatação especial aplicada a alguma área de uma tabela com um estilo de tabela atribuído e [ConditionalStyleCollection](https://reference.aspose.com/words/java/com.aspose.words/conditionalstylecollection/) que representa uma coleção de **ConditionalStyle** objetos. Esta coleção contém um conjunto permanente de itens que representam um item para cada valor do tipo de enumeração [ConditionalStyleType](https://reference.aspose.com/words/java/com.aspose.words/conditionalstyletype/). A enumeração **ConditionalStyleType** define todas as áreas de tabela possíveis para as quais a formatação condicional pode ser definida em um estilo de tabela.
 
-Neste caso, a formatação condicional pode ser definida para toda a área de tabela possível definida sob o tipo de enumeração ConditionalStyleType.
+Neste caso, a formatação condicional pode ser definida para todas as áreas de tabela possíveis definidas sob o tipo de enumeração ConditionalStyleType.
 
-O exemplo de código a seguir mostra como definir formatação condicional para a linha de cabeçalho da tabela:
+O exemplo de código a seguir mostra como definir a formatação condicional para a linha de cabeçalho da tabela:
 
 {{< gist "aspose-words-gists" "f1d06175603c48e6dabf5a2eea01207c" "define-conditional-formatting.java" >}}
 
-Você também pode escolher as peças de tabela para aplicar estilos, como primeira coluna, última coluna, linhas de banda. Eles estão listados no [TableStyleOptions](https://reference.aspose.com/words/java/com.aspose.words/tablestyleoptions/) enumeração e são aplicados através do [StyleOptions](https://reference.aspose.com/words/java/com.aspose.words/table/#getStyleOptions) propriedade. O **TableStyleOptions** enumeração permite uma combinação bitwise destes recursos.
+Você também pode escolher a quais partes da tabela aplicar estilos, como primeira coluna, última coluna, linhas em faixas. Eles são listados na enumeração [TableStyleOptions](https://reference.aspose.com/words/java/com.aspose.words/tablestyleoptions/) e são aplicados através da propriedade [StyleOptions](https://reference.aspose.com/words/java/com.aspose.words/table/#getStyleOptions). A enumeração **TableStyleOptions** permite uma combinação bit a bit dessas características.
 
 O exemplo de código a seguir mostra como criar uma nova tabela com um estilo de tabela aplicado:
 
@@ -59,16 +60,16 @@ As imagens abaixo mostram uma representação do **Table Styles** em Microsoft W
 
 ![table-style-aspose-words-java](/words/java/working-with-tablestyle/working-with-table-styles-1.png)
 
-## Tomar formatação do estilo da tabela e aplicá-lo como formatação direta
+## Pegue a formatação do estilo da tabela e aplique-a como formatação direta
 
-Aspose.Words também fornece o [ExpandTableStylesToDirectFormatting](https://reference.aspose.com/words/java/com.aspose.words/document/#expandTableStylesToDirectFormatting) método para tomar a formatação encontrada em um estilo de tabela e expande-a para as linhas e células da tabela como formatação direta. Tente combinar a formatação com estilo de mesa e estilo de célula.
+Aspose.Words também fornece o método [ExpandTableStylesToDirectFormatting](https://reference.aspose.com/words/java/com.aspose.words/document/#expandTableStylesToDirectFormatting) para obter a formatação encontrada em um estilo de tabela e expandi-la para as linhas e células da tabela como formatação direta. Tente combinar formatação com estilo de tabela e estilo de célula.
 
 {{% alert color="primary" %}}
 
-Este método não substituirá qualquer outra formatação já aplicada à tabela através de uma linha ou formato de célula.
+Este método não substituirá qualquer outra formatação já aplicada à tabela através de um formato de linha ou célula.
 
 {{% /alert %}}
 
-O exemplo de código a seguir mostra como expandir a formatação de estilos em linhas de tabela e células como formatação direta:
+O exemplo de código a seguir mostra como expandir a formatação de estilos para linhas e células da tabela como formatação direta:
 
 {{< gist "aspose-words-gists" "f1d06175603c48e6dabf5a2eea01207c" "expand-formatting-on-cells-and-row-from-style.java" >}}

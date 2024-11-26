@@ -7,6 +7,7 @@ description: "Trước khi bắt đầu làm việc với Aspose.Words trên Jav
 type: docs
 weight: 80
 url: /vi/java/system-requirements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words cho Java không yêu cầu các sản phẩm của bên thứ ba như Microsoft Word phải được cài đặt. Aspose.Words tự nó là một động cơ để tạo ra, sửa đổi, chuyển đổi và hiển thị tài liệu ở nhiều định dạng, bao gồm cả Microsoft Word định dạng tài liệu.

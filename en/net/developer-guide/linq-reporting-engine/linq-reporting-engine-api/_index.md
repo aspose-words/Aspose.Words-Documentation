@@ -7,6 +7,7 @@ description: "Learn LINQ Reporting Engine API to build a report in C#."
 type: docs
 weight: 40
 url: /net/linq-reporting-engine-api/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

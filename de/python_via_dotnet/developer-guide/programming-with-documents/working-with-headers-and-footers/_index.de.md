@@ -7,6 +7,7 @@ description: "Erstellen, verwalten und entfernen Sie Kopf- und Fußzeilen in ein
 type: docs
 weight: 150
 url: /de/python-net/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Mit Aspose.Words können Benutzer mit Kopf- und Fußzeilen in einem Dokument arbeiten. Eine Kopfzeile ist Text, der oben auf einer Seite platziert wird, und eine Fußzeile ist Text, der unten auf einer Seite platziert wird. In der Regel werden diese Bereiche zum Einfügen von Informationen verwendet, die auf allen oder einigen Seiten des Dokuments wiederholt werden sollen, z. B. Seitenzahlen, Erstellungsdatum, Unternehmensinformationen usw.

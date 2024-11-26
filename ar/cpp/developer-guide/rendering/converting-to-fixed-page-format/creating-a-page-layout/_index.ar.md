@@ -1,4 +1,4 @@
-﻿---
+---
 title: إنشاء تخطيط الصفحة في C++
 second_title: Aspose.Words ل C++
 articleTitle: إنشاء تخطيط الصفحة
@@ -7,6 +7,7 @@ description: "يمكن أن يكون إنشاء تخطيط الصفحة إجرا
 type: docs
 weight: 10
 url: /ar/cpp/creating-a-page-layout/
+timestamp: 2024-09-24-14-35-44
 ---
 
 يمكن أن يكون إنشاء تخطيط الصفحة إجراء مكلفا، سواء من حيث السرعة أو الذاكرة. هذا يرجع إلى عدة أسباب:

@@ -7,6 +7,7 @@ description: "Fonctionnalités avancées de formatage Microsoft Word, travaillan
 type: docs
 weight: 110
 url: /fr/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 La classe [StyleCollection](https://reference.aspose.com/words/fr/net/aspose.words/stylecollection/) est utilisée pour gérer les paramètres intégrés et appliquer les paramètres définis par l'utilisateur aux styles.
@@ -36,7 +37,7 @@ Dans cet exemple de document, le texte formaté avec le style de paragraphe "Tit
 
 ### Le code
 
-L'implémentation d'une requête basée sur le style est assez simple dans le modèle objet du document Aspose.Words, car elle utilise simplement des outils déjà en place. Deux méthodes de classe sont implémentées pour cette solution:# **ParagraphsByStyleName** – Cette méthode récupère un tableau de ces paragraphes dans le document qui a un nom de style spécifique.# **RunsByStyleName** – Cette méthode récupère un tableau des exécutions dans le document qui ont un nom de style spécifique. Ces deux méthodes sont très similaires, les seules différences étant les types de nœuds et la représentation du style. informations dans le paragraphe et exécuter les nœuds. Voici une implémentation de ParagraphsByStyleName: l'exemple ci-dessous recherche tous les paragraphes formatés avec le style spécifié.
+L'implémentation d'une requête basée sur le style est assez simple dans le modèle objet du document Aspose.Words, car elle utilise simplement des outils déjà en place. Deux méthodes de classe sont implémentées pour cette solution: **ParagraphsByStyleName** – Cette méthode récupère un tableau de ces paragraphes dans le document qui a un nom de style spécifique. **RunsByStyleName** – Cette méthode récupère un tableau des exécutions dans le document qui ont un nom de style spécifique. Ces deux méthodes sont très similaires, les seules différences étant les types de nœuds et la représentation du style. informations dans le paragraphe et exécuter les nœuds. Voici une implémentation de ParagraphsByStyleName: l'exemple ci-dessous recherche tous les paragraphes formatés avec le style spécifié.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.cs" >}}
 

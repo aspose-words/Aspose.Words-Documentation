@@ -1,4 +1,4 @@
-﻿---
+---
 title: Dokumentbearbeitung einschränken in C++
 second_title: Aspose.Words für C++
 articleTitle: Dokumentbearbeitung einschränken
@@ -7,6 +7,7 @@ description: "Beschränken Sie die Bearbeitung eines Dokuments, indem Sie einen 
 type: docs
 weight: 30
 url: /de/cpp/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal müssen Sie möglicherweise die Möglichkeit zum Bearbeiten eines Dokuments einschränken und nur bestimmte Aktionen damit zulassen. Dies kann nützlich sein, um zu verhindern, dass andere Personen vertrauliche und vertrauliche Informationen in Ihrem Dokument bearbeiten.

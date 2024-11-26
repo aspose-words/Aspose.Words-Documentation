@@ -7,6 +7,7 @@ type: docs
 description: "Převést dokument do formátu obrázku (JPG, PNG, atd.). Vytvořit náhled dokumentu nebo vytvořit sken dokumentu pro zaslání faktury pomocí Python."
 weight: 43
 url: /cs/python-net/convert-a-document-to-an-image/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Někdy je nutné získat obraz místo dokumentů v jiných formátech, jako je DOCX nebo PDF. Například je třeba přidat náhled jakékoli stránky dokumentu na vaše webové stránky nebo aplikaci, nebo vytvořit "scan" dokumentu pro odeslání faktury. To je, kdy můžete potřebovat převést dokument v každém [podporovaný formát zatížení](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) k obrazu, opět, v každém [podporovaný formát uložení](https://reference.aspose.com/words/python-net/aspose.words/saveformat/).

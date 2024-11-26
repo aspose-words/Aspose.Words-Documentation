@@ -1,4 +1,4 @@
-﻿---
+---
 title: Ondersteunde Dokumentformate
 second_title: Aspose.Words vir Java
 articleTitle: Ondersteunde Dokumentformate
@@ -7,6 +7,7 @@ type: docs
 description: "Wysig brondokumente in baie gewilde formate, sowel as lêers vrylik omskep van een formaat na'n ander met behulp van Java."
 weight: 30
 url: /af/java/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

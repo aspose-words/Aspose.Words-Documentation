@@ -9,6 +9,7 @@ type: docs
 description: "Aspose.Words voor .NET beantwoordt de meest gestelde vragen. Leer deze pagina om snel uw probleem op te lossen over algemene vragen of specifieke onderwerpen."
 weight: 75
 url: /nl/net/faq/
+timestamp: 2024-11-18-12-56-02
 ---
 
 Deze pagina bevat antwoorden op de meest gestelde vragen. Gelieve de huidige pagina te leren, misschien kunt u hiermee snel uw probleem oplossen.
@@ -128,7 +129,7 @@ Jawel. Houd daarom bij het kopiëren van lettertypen in gedachten dat de meeste 
 
 {{% alert color="primary" %}}
 
-Meer gedetailleerde informatie over mail merge in de [Mail Merge en rapportage](/words/net/mail-merge-and-reporting/) documentatiesectie.
+Meer gedetailleerde informatie over Mail Merge in de [Mail Merge en rapportage](/words/net/mail-merge-and-reporting/) documentatiesectie.
 
 {{% /alert %}}
 
@@ -143,7 +144,7 @@ De oorspronkelijke naam van het merge-veld blijft hetzelfde zonder vervangen te 
 
 **Q: Waarom toont de uitvoer van geneste samenvoegen geen gegevens uit de dochtertabel voor de eerste regel in de oudertabel, maar toont alle items voor de laatste regel in de oudertabel, zelfs die welke er eigenlijk niet aan gekoppeld zijn?**
 
-Dit komt omdat de merge regio's in het sjabloon niet correct gevormd zijn, waardoor alle geneste mail merge De Commissie is van mening dat het niet nodig is om te stoppen met iets te tonen. De [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) openingstag en de [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) sluit tag moet overeenkomen en in dezelfde rij of cel. Als je bijvoorbeeld regio's in een cel van een tabel begint te broeden, moet je de mergeregio eindigen in dezelfde rij als de eerste cel.
+Dit komt omdat de merge regio's in het sjabloon niet correct gevormd zijn, waardoor alle geneste Mail Merge De Commissie is van mening dat het niet nodig is om te stoppen met iets te tonen. De [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) openingstag en de [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) sluit tag moet overeenkomen en in dezelfde rij of cel. Als je bijvoorbeeld regio's in een cel van een tabel begint te broeden, moet je de mergeregio eindigen in dezelfde rij als de eerste cel.
 
 ------
 

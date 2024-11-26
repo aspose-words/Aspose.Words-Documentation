@@ -1,4 +1,4 @@
-﻿---
+---
 title: Android via Java Verskille
 second_title: Aspose.Words
 articleTitle: Aspose.Words vir Android via Java Beperkings En API Verskille
@@ -7,6 +7,7 @@ description: "Aspose.Words vir Android via Java kenmerke en API verskille in ver
 type: docs
 weight: 50
 url: /af/java/aspose-words-for-android-via-java-limitations-and-api-differences/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Beperkings van Aspose.Words vir Android via Java API in vergelyking met Aspose.Words vir Java API

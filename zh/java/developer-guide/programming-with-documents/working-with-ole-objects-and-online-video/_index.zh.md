@@ -7,6 +7,7 @@ description: "使用 Java。 。 。 。"
 type: docs
 weight: 360
 url: /zh/java/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE代表"对象链接和嵌入". 这是用户可以与包含第三方应用程序创建或编辑的"对象"文档合作的技术. 也就是说,OLE允许一个应用程序将这些"对象"导出到另一个应用程序进行编辑,然后以一些附加内容导入回来.

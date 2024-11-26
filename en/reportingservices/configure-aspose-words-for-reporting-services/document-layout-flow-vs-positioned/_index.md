@@ -7,6 +7,7 @@ description: "Layout Flow vs. Positioned setting of the Aspose.Words for Reporti
 type: docs
 weight: 20
 url: /reportingservices/document-layout-flow-vs-positioned/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

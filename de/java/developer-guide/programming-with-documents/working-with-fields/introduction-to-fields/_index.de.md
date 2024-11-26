@@ -1,56 +1,57 @@
----
+﻿---
 title: Einführung in die Felder in Java
 second_title: Aspose.Words für Java
 articleTitle: Einführung in die Felder
 linktitle: Einführung in die Felder
-description: "Felder Feature in Details, Feldcodes und Feldergebnisse erklärt in Aspose.Words für Java."
+description: "Felder sind in Details, Feldcodes und Feldergebnissen enthalten, die in Aspose.Words für Java erläutert werden."
 type: docs
 weight: 10
 url: /de/java/introduction-to-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
-Aspose.Words ist eine Klassenbibliothek, die für die serverseitige Verarbeitung von Microsoft Word Dokumente und unterstützt Felder auf folgende Weise:
+Aspose.Words ist eine Klassenbibliothek, die für die serverseitige Verarbeitung von Microsoft Word -Dokumenten entwickelt wurde und Felder auf folgende Weise unterstützt:
 
-- alle Felder in einem Dokument werden während der offenen/save und Konvertierungen erhalten
+- alle Felder in einem Dokument bleiben beim Öffnen/Speichern und bei Konvertierungen erhalten
 - es ist möglich, die Ergebnisse der meisten Felder zu aktualisieren
 
-In diesem Artikel erfahren wir mehr über die Feldstruktur, die in Aspose.Words, und Einzelheiten der Arbeit mit solchen Feldern.
+In diesem Artikel erfahren Sie mehr über die Feldstruktur, die in Aspose.Words unterstützten Felder und Einzelheiten zum Arbeiten mit solchen Feldern.
 
 ## Feldstruktur
 
 Ein Feld besteht aus:
 
-- Ja. Die Feldstart- und Separatorknoten werden verwendet, um den Inhalt zu umfassen, der den Feldcode (normalerweise als Klartext) erstellt.
-- Der Feldabscheider und das Feldende umfassen das Feldergebnis. Dies kann aus verschiedenen Arten von Inhalten bestehen, die von Textläufen bis zu Textabsätzen bis zu Tabellen reichen.
-- Einige Felder haben möglicherweise keinen Separator, was bedeutet, dass der gesamte Inhalt den Feldcode erstellt.
-- Ja. Der Feldcode definiert das Verhalten des Feldes und besteht aus der Feldkennung und oft anderen Parametern wie Feldname und Schalter.
-- Ja. Das Feldergebnis enthält die jüngste Auswertung des Feldes. Dieser Wert wird im Feldergebnis gespeichert und wird dem Benutzer angezeigt. Einige Felder haben möglicherweise kein Feldergebnis so wird nichts im Dokument angezeigt. Ebenso können einige Felder noch nicht aktualisiert werden, daher wird auch kein Feldergebnis haben.
+- Die Feldanfangs- und Trennknoten werden verwendet, um den Inhalt zu umfassen, aus dem der Feldcode besteht (normalerweise als Klartext).
+- Feldtrenner und Feldende umfassen das Feldergebnis. Dies kann aus verschiedenen Arten von Inhalten bestehen, die von Textläufen über Absätze bis hin zu Tabellen reichen.
+- Einige Felder haben möglicherweise kein Trennzeichen, was bedeutet, dass der gesamte Inhalt den Feldcode ausmacht.
+- Der Feldcode definiert das Verhalten des Felds und besteht aus der Feldkennung und häufig anderen Parametern wie Feldname und Schaltern.
+- Das Feldergebnis enthält die letzte Auswertung des Feldes. Dieser Wert wird im Feld Ergebnis gespeichert und dem Benutzer angezeigt. Einige Felder haben möglicherweise kein Feldergebnis, daher wird im Dokument nichts angezeigt. Ebenso werden einige Felder möglicherweise noch nicht aktualisiert, daher wird auch kein Feldergebnis angezeigt.
 
 ![fields-aspose-words-java](/words/java/introduction-to-fields/introduction-to-fields-1.png)
 
-Der Inhalt, der den Feldcode erstellt, wird als [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) Knoten zwischen den [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/) und [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/). Das Feldergebnis wird zwischen dem **FieldSeparator** und [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/) Knoten und kann aus verschiedenen Arten von Inhalten bestehen. Normalerweise enthält das Feldergebnis nur Text aus Run-Knoten, es ist jedoch möglich, dass sich der FieldEnd-Knoten in einem völlig anderen Absatz befindet und so das Feldergebnis aus [Logische Ebenen von Nodes in einem Dokument](/words/de/java/logical-levels-of-nodes-in-a-document/) wie folgt: **Table** und **Paragraph** auch Knoten.
+Der Inhalt, aus dem der Feldcode besteht, wird als [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) Knoten zwischen [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/) und [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/) gespeichert. Das Feldergebnis wird zwischen den Knoten **FieldSeparator** und [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/) gespeichert und kann aus verschiedenen Inhaltstypen bestehen. Normalerweise enthält das Feldergebnis nur Text, der aus Ausführungsknoten besteht, es ist jedoch möglich, dass sich der FieldEnd -Knoten in einem völlig anderen Absatz befindet und somit das Feldergebnis besteht aus [knoten auf Blockebene](/words/java/logical-levels-of-nodes-in-a-document/) wie auch **Table** und **Paragraph** Knoten.
 
-Hier eine Ansicht, wie ein Feld in Aspose.Words unter Verwendung des Beispiels "*DocumentExplorer"*, das auf [Github](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/java/com/aspose/words/examples/viewers_visualizers/document_explorer).
+Hier sehen Sie, wie ein Feld in Aspose.Words gespeichert wird, indem Sie das "*DocumentExplorer"* -Beispiel" verwenden, das Sie unter finden [Github](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/java/com/aspose/words/examples/viewers_visualizers/document_explorer).
 
 ![document-explorer-aspose-words-java](/words/java/introduction-to-fields/introduction-to-fields-2.png)
 
-## Felder in Aspose.Words Document Object Model (DOM)
+## Felder im Aspose.Words -Dokumentobjektmodell (DOM)
 
-Wenn ein Dokument geladen wird <span notrans="<span notrans=" Aspose.Words"=""></span>,"> die Felder des Dokuments in die Aspose.Words Document Object Model als Set von separaten Komponenten (Nodes). Ein einzelnes Feld wird als Sammlung geladen **FieldStart**, **FieldSeparator** und **FieldEnd** Knoten zusammen mit dem Inhalt zwischen diesen Knoten. Wenn ein Feld kein Feldergebnis hat, dann gibt es keine **FieldSeparator** Knoten. Alle diese Knoten finden sich immer inline (als Kinder von [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) oder [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/).
+Wenn ein Dokument in Aspose.Words geladen wird, werden die Felder des Dokuments als Satz separater Komponenten (Knoten) in das Aspose.Words-Dokumentobjektmodell geladen. Ein einzelnes Feld wird als Sammlung von **FieldStart** -, **FieldSeparator** - und **FieldEnd** -Knoten zusammen mit dem Inhalt zwischen diesen Knoten geladen. Wenn ein Feld kein Feldergebnis enthält, gibt es keinen **FieldSeparator** -Knoten. Alle diese Knoten werden immer inline gefunden (als Kinder von [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) oder [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/).
 
-In Aspose.Words jeder der **FieldXXX** Nodes ergibt sich aus [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/). Diese Klasse bietet eine Eigenschaft, um die Art des Feldes, das durch den angegebenen Knoten durch die [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) Eigentum. Zum Beispiel `FieldType.FieldMergeField` stellt ein Zusammenführungsfeld im Dokument dar.
+In Aspose.Words leitet sich jeder der **FieldXXX** Knoten von [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/) ab. Diese Klasse stellt eine Eigenschaft bereit, um den Feldtyp zu überprüfen, der vom angegebenen Knoten durch die Eigenschaft [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) dargestellt wird. Beispiel: `FieldType.FieldMergeField` steht für ein Seriendruckfeld im Dokument.
 
 {{% alert color="primary" %}}
 
-Es gibt einige bestimmte Felder, die in einem Word-Dokument existieren, die nicht in Aspose.Words als Sammlung **FieldXXX** Knoten. Zum Beispiel `LINK` Feld und `INCLUDEPICTURE` Feld wird in Aspose.Words als [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) Objekt. Dieses Objekt bietet Eigenschaften, mit den in diesen Feldern normalerweise gespeicherten Bilddaten zu arbeiten. Zur Einfuhr `INCLUDEPICTURE` Feld als **FieldXXX** die [PreserveIncludePictureField](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getPreserveIncludePictureField) Option muss als **true**.
+Es gibt einige bestimmte Felder in einem Word-Dokument, die nicht als Sammlung von **FieldXXX** -Knoten in Aspose.Words importiert werden. Beispielsweise werden die Felder `LINK` und `INCLUDEPICTURE` als [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/)-Objekt in Aspose.Words importiert. Dieses Objekt bietet Eigenschaften zum Arbeiten mit den normalerweise in diesen Feldern gespeicherten Bilddaten. Um `INCLUDEPICTURE`-Felder als **FieldXXX**-Knoten zu importieren, muss die Option [PreserveIncludePictureField](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getPreserveIncludePictureField) als **true** angegeben werden.
 
-Formularfelder werden ebenfalls in Aspose.Words als eigene Spezialklasse. Die [FormField](https://reference.aspose.com/words/java/com.aspose.words/formfield/) Klasse stellt ein Formularfeld in einem Word-Dokument dar und bietet zusätzliche Methoden, die insbesondere zu einem Formularfeld gehören.
+Formularfelder werden auch als eigene spezielle Klasse in Aspose.Words importiert. Die [FormField](https://reference.aspose.com/words/java/com.aspose.words/formfield/) -Klasse repräsentiert ein Formularfeld in einem Word-Dokument und stellt zusätzliche Methoden bereit, die für ein Formularfeld spezifisch sind.
 
 {{% /alert %}}
 
 ## Unterstützte Felder
 
-Berechnung der folgenden Felder wird in der aktuellen Version unterstützt Aspose.Words:
+Die Berechnung der folgenden Felder wird in der aktuellen Version von Aspose.Words unterstützt:
 
 - = (Formel)
 - `ADDRESSBLOCK`
@@ -122,41 +123,41 @@ Berechnung der folgenden Felder wird in der aktuellen Version unterstützt Aspos
 - `TIME`
 - `TITLE`
 - `TOA`
-- Ja. `TOC` (einschließlich TOT und TOF)
+- `TOC` (including TOT and TOF)
 - `USERADDRESS`
 - `USERINITIALS`
 - `USERNAME`
 
-## Ausgeglichenes Feld Paring
+## Ausgeklügeltes Feld-Parsing
 
-Aspose.Words folgt der Weg Microsoft Word Prozesse Felder und damit richtig handhabt:
+Aspose.Words folgt der Art und Weise, wie Microsoft Word Felder verarbeitet und daher korrekt verarbeitet:
 
-- geschachtelte Felder:
+- verschachtelte Felder:
   `IF { =OR({ `COMPARE` { =2.5 +PRODUCT(3,5 ,8.4) } > 4}, { =2/2 }) } = 1 "Credit not acceptable" "Credit acceptable"`
-- Feldargument kann ein Ergebnis eines geschachtelten Feldes sein
-- Felder können sowohl innerhalb eines Feldcodes als auch im Feldergebnis geschachtelt werden
-- Leerzeichen/keine Leerzeichen, Zitate/keine Zitate, Fluchtzeichen in Feldern usw.:
+- Feldargument kann das Ergebnis eines verschachtelten Felds sein
+- Felder können sowohl innerhalb eines Feldcodes als auch im Feldergebnis verschachtelt werden
+- leerzeichen / keine Leerzeichen, Anführungszeichen / keine Anführungszeichen, Escape-Zeichen in Feldern usw.:
   `MERGEFIELD \f"Text after""Field \n\ame with \" and \\\ and \\\*"\bTextBefor\e`
 - Felder, die sich über mehrere Absätze erstrecken
 
 ### Formelfelder
 
-Aspose.Words eine sehr ernste Implementierung der Formel-Engine und unterstützt folgende:
+Aspose.Words bietet eine sehr seriöse Implementierung der Formel-Engine und unterstützt Folgendes:
 
 - arithmetische und logische Operatoren:
   `=(54+4*(6-77)-(5))+(-6-5)/4/5`
-- Funktionen:
+- Funktion:
   `=ABS(-01.4)+2.645/(5.6^3.5)+776457 \\\# "#,##0"`
-- Hinweise auf Lesezeichen:
+- verweise auf Lesezeichen:
   `=IF(C>4, 5,ABS(A)*.76) +3.85`
-- Nummernformatierungsschalter:
+- schalter für die Zahlenformatierung:
   `=00000000 \\\# "$#,##0.00;($#,##0.00)"`
 
-Folgende Funktionen in Ausdrücken werden unterstützt: `ABS`, `AND`, `AVERAGE`, `COUNT`, `DEFINED`, `FALSE`, `IF`, `INT`, `MAX`, `MIN`, `MOD`, `NOT`, `OR`, `PRODUCT`, `ROUND`, `SIGN`, `SUM`, TRUE.
+Die folgenden Funktionen in Ausdrücken werden unterstützt: `ABS`, `AND`, `AVERAGE`, `COUNT`, `DEFINED`, `FALSE`, `IF`, `INT`, `MAX`, `MIN`, `MOD`, `NOT`, `OR`, `PRODUCT`, `ROUND`, `SIGN`, `SUM`, TRUE.
 
-### `IF` und `COMPARE` Felder
+### `IF` and `COMPARE` Fields
 
-Nur einige von `IF` Ausdrucke, die Aspose.Words kann leicht berechnen sollte Ihnen eine Idee, wie mächtig diese Funktion ist:
+Nur einige der `IF` -Ausdrücke, die Aspose.Words leicht berechnen kann, sollten Ihnen eine Vorstellung davon geben, wie leistungsfähig diese Funktion ist:
 
 - `IF 3 > 5.7^4+MAX(4,3) True False`
 - `IF "abcd" > "abc" True False`
@@ -164,64 +165,64 @@ Nur einige von `IF` Ausdrucke, die Aspose.Words kann leicht berechnen sollte Ihn
 - `IF 4 = "2*2" True False`
 - `COMPARE 3+5/34 < 4.6/3/2`
 
-### `DATE` und `TIME` Felder
+### `DATE` and `TIME` Fields
 
-Aspose.Words unterstützt alle verfügbaren Datums- und Zeitformatierungsschalter Microsoft Word, Einige Beispiele sind:
+Aspose.Words unterstützt alle Datums- und Uhrzeitformatierungsschalter, die in Microsoft Word verfügbar sind, einige Beispiele sind:
 
 - `DATE @ "d-MMM-yy"`
 - `DATE @ "d/MM/yyyy h:mm am/pm`
 
 ### Mail Merge Felder
 
-Aspose.Words die Komplexität der mail merge Felder in Ihren Dokumenten und Supports geschachtelt `IF` und Formelfelder und kann sogar den Namen des Zusammenschlussfelds mit einer Formel berechnen.
+Aspose.Words schränkt die Komplexität von Mail Merge -Feldern in Ihren Dokumenten nicht ein, unterstützt verschachtelte `IF` - und Formelfelder und kann sogar den Namen des Seriendruckfelds mithilfe einer Formel berechnen.
 
-Einige Beispiele mail merge Felder, die Aspose.Words unterstützt:
+Einige Beispiele für Mail Merge-Felder, die Aspose.Words unterstützt:
 
-- Ja. Mail merge Feldschalter:
+- Mail merge Feldschalter:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
-- geschachtelte Zusammenführungsfelder in einer Formel:
+- verschachtelte Seriendruckfelder in einer Formel:
   `IF { `MERGEFIELD` Value1 } >= { `MERGEFIELD` Value2 } True False`
-- den Namen des Zusammenführungsfeldes zu Laufzeit berechnen:
-  `MERGEFIELD { `F` { `MERGEFIELD` Value1 } >= { `MERGEFIELD` Value2 } FirstName"LastName" }`
-- bedingter Wechsel zum nächsten Datensatz in der Datenquelle:
+- berechnen Sie den Namen des Seriendruckfelds zur Laufzeit:
+  `MERGEFIELD { `IF` { `MERGEFIELD` Value1 } >= { `MERGEFIELD` Value2 } FirstName"LastName" }`
+- bedingtes Verschieben zum nächsten Datensatz in der Datenquelle:
   `NEXTIF { `MERGEFIELD` Value1 } <= { =IF(-2.45 >= 6*{ `MERGEFIELD` Value2 }, 2, -.45) }`
 
-### Format Schalter
+### Format-Schalter
 
-Ein Feld in einem Dokument kann Formatierungsschalter haben, die festlegen, wie der resultierende Wert formatiert werden soll. Aspose.Words unterstützt die folgenden Formatschalter:
+Ein Feld in einem Dokument kann Formatierungsschalter haben, die angeben, wie der resultierende Wert formatiert werden soll. Aspose.Words unterstützt die folgenden Formatwechsel:
 
-- @ – Datums- und Zeitformatierung
-- \\\# – Zahlenformatierung
-- Ja. Caps
-- Erste Karte
-- Ja. Tief
-- Ja. Oberteil
-- \\\\\\\\\\* CHARFORMAT – Formatergebnis nach dem ersten Zeichen des Feldcodes
-- \\\\\\\\\\* MERGEFORMAT – Formatergebnis nach der Formatierung des alten Ergebnisses
+- @ - Formatierung von Datum und Uhrzeit
+- \\\# - Formatierung von Zahlen
+- \\\\\\\\* Caps
+- \\\\\\\\* FirstCap
+- \\\\\\\\* Lower
+- \\\\\\\\* Upper
+- \\\\\\\\* CHARFORMAT - formatiert das Ergebnis entsprechend dem ersten Zeichen des Feldcodes
+- \\\\\\\\* MERGEFORMAT - formatiert das Ergebnis entsprechend der Formatierung des alten Ergebnisses
 
-### Date und Nummer Formatierung in Feldern
+### Datums- und Zahlenformatierung in Feldern
 
-Wann Aspose.Words berechnet ein Feldergebnis, es muss oft einen String in einen Zahlen- oder Datumswert parsieren und auch auf einen String zurück formatieren. Standardmäßig Aspose.Words verwendet die aktuelle Fadenkultur zur Parsierung und Formatierung bei der Berechnung von Feldwerten während des Feldupdates und mail merge. Es gibt auch Optionen in Form der [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions/) Klasse, die eine weitere Kontrolle über welche Kultur während des Feldupdates verwendet wird%
+Wenn Aspose.Words ein Feldergebnis berechnet, muss es häufig eine Zeichenfolge in einen Zahlen- oder Datumswert analysieren und sie auch wieder in einen formatieren string.By standard Aspose.Words verwendet die aktuelle Thread-Kultur zum Parsen und Formatieren bei der Berechnung von Feldwerten während der Feldaktualisierung und mail merge. Es gibt auch Optionen in Form der Klasse [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions/), die eine weitere Kontrolle darüber ermöglichen, welche Kultur während der Feldaktualisierung verwendet wird%
 
-* standardmäßig [FieldUpdateCultureSource](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions/#getFieldUpdateCultureSource) Eigentum wird eingestellt [CurrentThread](https://reference.aspose.com/words/java/com.aspose.words/fieldupdateculturesource/#CURRENT-THREAD) welche Felder mit der aktuellen Fadenkultur formatiert
-* diese Eigenschaft kann eingestellt werden [FieldCode](https://reference.aspose.com/words/java/com.aspose.words/fieldupdateculturesource/#FIELD-CODE) so wird die aus dem Feldcode des Feldes gesetzte Sprache stattdessen für die Formatierung verwendet
+* standardmäßig ist die Eigenschaft [FieldUpdateCultureSource](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions/#getFieldUpdateCultureSource) auf [CurrentThread](https://reference.aspose.com/words/java/com.aspose.words/fieldupdateculturesource/#CURRENT-THREAD) gesetzt, wodurch Felder mit der aktuellen Thread-Kultur formatiert werden
+* diese Eigenschaft kann auf [FieldCode](https://reference.aspose.com/words/java/com.aspose.words/fieldupdateculturesource/#FIELD-CODE) gesetzt werden, sodass stattdessen die aus dem Feldcode des Felds festgelegte Sprache für die Formatierung verwendet wird
 
-### Formatierung mit der aktuellen Thread’s Culture
+### Formatierung mit der Kultur des aktuellen Threads
 
-Um die Kultur während der Feldberechnung zu steuern, stellen Sie einfach die **CurrentCulture** Eigentum an einer Kultur Ihrer Wahl, bevor Sie Feldberechnung.
+Um die bei der Feldberechnung verwendete Kultur zu steuern, setzen Sie einfach die Eigenschaft **CurrentCulture** auf eine Kultur Ihrer Wahl, bevor Sie die Feldberechnung aufrufen.
 
-Das folgende Codebeispiel zeigt, wie die in Formatierungsfeldern verwendete Kultur während des Updates verändert werden kann:
+Das folgende Codebeispiel zeigt, wie Sie die Kultur ändern, die beim Formatieren von Feldern während der Aktualisierung verwendet wird:
 
-Beispiel (verwenden Sie den öffentlichen Wrapper CurrentThreadSettings.getLocale() und setLocale() anstelle des privaten `Thread.CurrentThread`.CurrentCulture
+EXAMPLE (Verwenden Sie den öffentlichen Wrapper CurrentThreadSettings.getLocale() und setLocale() anstelle der privaten `Thread.CurrentThread` .CurrentCulture)
 
-Durch die Verwendung der aktuellen Kultur zu Formatfeldern kann ein System einfach und konsequent steuern, wie alle Felder im Dokument während des Feldupdates formatiert werden.
+Die Verwendung der aktuellen Kultur zum Formatieren von Feldern ermöglicht es einem System, einfach und konsistent zu steuern, wie alle Felder im Dokument während der Feldaktualisierung formatiert werden.
 
-### Formatierung mit der Kultur im Dokument
+### Formatieren mit der Kultur im Dokument
 
-Auf der anderen Seite, Microsoft Word formatiert jedes einzelne Feld basierend auf der Sprache des im Feld gefundenen Textes (spezifisch die Ausläufe aus dem Feldcode). Manchmal während der Feldaktualisierung kann dies das gewünschte Verhalten sein, zum Beispiel, wenn Sie globalisierte Dokumente mit Inhalten aus vielen verschiedenen Sprachen haben und möchten, dass jede Felder den aus dem Text verwendeten Ort ehren. Aspose.Words unterstützt auch diese Funktionalität.
+Andererseits formatiert Microsoft Word jedes einzelne Feld basierend auf der Sprache des im Feld gefundenen Textes (insbesondere die Läufe aus dem Feldcode). Manchmal kann dies während der Feldaktualisierung das gewünschte Verhalten sein, z. B. wenn Sie globalisierte Dokumente haben, die Inhalte enthalten, die aus vielen verschiedenen Sprachen bestehen, und möchten, dass jedes Feld das im Text verwendete Gebietsschema berücksichtigt. Aspose.Words unterstützt diese Funktionalität ebenfalls.
 
-Die [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) Klasse bietet [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/document/#getFieldOptions) eine Eigenschaft, die Mitglieder enthält, die verwendet werden können, um zu kontrollieren, wie Felder innerhalb des Dokuments aktualisiert werden.
+Die [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) -Klasse stellt eine [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/document/#getFieldOptions) -Eigenschaft bereit, die Elemente enthält, mit denen gesteuert werden kann, wie Felder im Dokument aktualisiert werden.
 
-Das folgende Codebeispiel zeigt, wie die für die Datumsformatierung verwendete Kultur während des Feldupdates angegeben wird und mail merge wird gewählt aus:
+Das folgende Codebeispiel zeigt, wie angegeben wird, wo die Kultur für die Datumsformatierung während der Feldaktualisierung und Mail Merge ausgewählt wird:
 
-Beispiel
+EXAMPLE

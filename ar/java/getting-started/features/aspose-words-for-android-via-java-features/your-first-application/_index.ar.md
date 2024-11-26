@@ -1,43 +1,44 @@
----
-title: طلبك الأول Android عبر Java
-second_title: Aspose.Words for Java
+﻿---
+title: طلبك الأول لـ Android عبر Java
+second_title: Aspose.Words ل Java
 articleTitle: طلبك الأول
 linktitle: طلبك الأول
-description: "التركيب Aspose.Words for Android عبر Java."
+description: "تثبيت Aspose.Words ل Android عبر Java."
 type: docs
 weight: 30
 url: /ar/java/your-first-application/
+timestamp: 2024-01-27-14-07-04
 ---
 
-هذه المقالة تعطيك فكرة البدء بها Aspose.Words for Android عبر Java. سيُظهر كيف يُنشئ Android مشروع من الصفر، إضافة إشارة إلى Aspose.Words JAR (و) إنشاء وثيقة جديدة يُحتفظ بها لتقريرها في شكل شركة DOCX. This example uses [Android Studio](https://developer.android.com/studio/index.html) من أجل التنمية والتطبيق يجري Android مرشد لتبدأ Aspose.Words for Android عبر Javaرجاءً إتبعوا هذا التعليم التدريجي لخلق تطبيق يستخدم Aspose.Words for Android عبر Java:
+تمنحك هذه المقالة فكرة عن البدء بـ Aspose.Words إلى عن على Android عبر Java. سيوضح كيفية إعداد مشروع Android جديد من البداية، وإضافة مرجع إلى Aspose.Words JAR وإنشاء مستند جديد يتم حفظه على القرص بتنسيق DOCX. يستخدم هذا المثال [Android ستوديو](https://developer.android.com/studio/index.html) للتنمية ويتم تشغيل التطبيق على Android المحاكي. للبدء بـ Aspose.Words لـ Android عبر Java، يرجى اتباع هذا البرنامج التعليمي خطوة بخطوة لإنشاء تطبيق يستخدم Aspose.Words لـ Android عبر Java:
 
-1 تحميل [Android Studio](https://developer.android.com/studio/index.html) و ضعه في أي مكان
-1 اركض Android استوديو
-1 إنشاء جديد Android مشروع التطبيق.<br/>
+1. تحميل و [Android ستوديو](https://developer.android.com/studio/index.html) وتثبيته إلى أي مكان.
+1. تشغيل Android الاستوديو.
+1. إنشاء مشروع تطبيق Android جديد.<br>
 ![install-aspose-words-for-android-via-java-3](/words/java/your-first-application/install-aspose-words-for-android-via-java-3.jpg)<br>
 ![install-aspose-words-for-android-via-java-4](/words/java/your-first-application/install-aspose-words-for-android-via-java-4.png)<br>
 ![install-aspose-words-for-android-via-java-5](/words/java/your-first-application/install-aspose-words-for-android-via-java-5.jpg)<br>
 ![install-aspose-words-for-android-via-java-6](/words/java/your-first-application/install-aspose-words-for-android-via-java-6.jpg)<br>
 ![install-aspose-words-for-android-via-java-7](/words/java/your-first-application/install-aspose-words-for-android-via-java-7.jpg)<br>
-١ - الكلمات المستنسخة ١٧-٥ والستيرويد.via.java.jar into your project’s libs/folder<br/>
+1. نسخ aspose-words-17.5-android.via.java.jar في ليبس المشروع الخاص بك / مجلد<br>
 ![install-aspose-words-for-android-via-java-8](/words/java/your-first-application/install-aspose-words-for-android-via-java-8.jpg)
-1 اختيار قسم المشاريع (من قائمة الملفات ونقر على حساب الأقاليم.
-   1 - اضغط على زر "+" واختار خيار إعالة الملفات
-   1. Select Aspose.Words مكتبة من ملف العيار ونقر على ما يرام<br/>
-      ![install-aspose-words-for-android-via-java-9](/words/java/your-first-application/install-aspose-words-for-android-via-java-9.png)
-1 ترجمة:<br/>
+1. حدد قسم المشروع (من القائمة ملف وانقر فوق علامة التبويب التبعيات.
+   1. انقر فوق الزر "+"، وحدد خيار تبعية الملف.
+   1. حدد Aspose.Words مكتبة من مجلد ليبس وانقر على OK.<br>
+   ![install-aspose-words-for-android-via-java-9](/words/java/your-first-application/install-aspose-words-for-android-via-java-9.png)
+1. مزامنة المشروع مع ملفات غرادل إذا لزم الأمر<br>
 ![install-aspose-words-for-android-via-java-10](/words/java/your-first-application/install-aspose-words-for-android-via-java-10.png)
-1 In order to access the SDcard special permissions must be added. اضغط على Androidملف (مانيفيست) و اختر وجهة نظر (إكس إم إل) يضاف السطر التالي إلى الملف <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission> <br/>
+1. من أجل الوصول إلى SDcard يجب إضافة أذونات خاصة. انقر فوق ملف AndroidManifest.xml واختر عرض XML. أضف السطر التالي إلى الملف <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <br>
 ![install-aspose-words-for-android-via-java-11](/words/java/your-first-application/install-aspose-words-for-android-via-java-11.jpg)
-1 عاود الاتصال بقسم الشفرة في التطبيق واضافة الواردات التالية:<br/>
+1. انتقل مرة أخرى إلى قسم التعليمات البرمجية في التطبيق وأضف الواردات التالية:<br>
 {{< highlight csharp >}}
 import java.io.File;
 import com.aspose.words.Document;
 import com.aspose.words.DocumentBuilder;
 import android.os.Environment; 
-{{< /highlight >}}<br/>
-وبعد ذلك يُدرج الرمز التالي في جسم طريقة (أوبرايت) لخلق وثيقة جديدة من الصفر باستخدام Aspose.Words,
-يدرج بعض النص ويحتفظ به في استمارة DOCX.<br/>
+{{< /highlight >}}<br>
+ثم أدخل الكود التالي في نص طريقة onCreate لإنشاء مستند جديد من البداية باستخدام Aspose.Words,
+أدخل بعض النص واحفظه في SDCard بتنسيق DOCX.<br>
 {{< highlight csharp >}}
 try
 {
@@ -51,13 +52,13 @@ catch (Exception e)
 {
    e.printStackTrace();
 }
-{{< /highlight >}}<br/>
-الرمز الكامل يجب أن يبدو مثل هذا:<br/>
+{{< /highlight >}}<br>
+يجب أن يبدو الرمز الكامل كما يلي:<br>
 ![install-aspose-words-for-android-via-java-12](/words/java/your-first-application/install-aspose-words-for-android-via-java-12.png)
-1 الآن تشغيل الطلب مرة أخرى. هذه المرة Aspose.Words سيعمل الرمز في الخلفية ويولد وثيقة يتم توفيرها للسجل<br/>
+1. الآن قم بتشغيل التطبيق مرة أخرى. هذه المرة سيتم تشغيل رمز Aspose.Words في الخلفية وإنشاء مستند يتم حفظه في SDcard.<br>
 ![install-aspose-words-for-android-via-java-13](/words/java/your-first-application/install-aspose-words-for-android-via-java-13.jpg)
-1 لمشاهدة الوثيقة المستحدثة تبحر إلى قائمة الأدوات ثم تختار Android والاختيار Android مرصد الأجهزة<br/>
+1. لعرض المستند الذي تم إنشاؤه، انتقل إلى قائمة الأدوات ثم اختر Android واختر Android مراقب الجهاز<br>
 ![install-aspose-words-for-android-via-java-14](/words/java/your-first-application/install-aspose-words-for-android-via-java-14.jpg)<br>
 ![install-aspose-words-for-android-via-java-15](/words/java/your-first-application/install-aspose-words-for-android-via-java-15.jpg)
-1 استخدم المشاهد الافتراضي لفتح الوثيقة الناتج الذي ينتجه التطبيق مع بعض خطوط الشفرة يبدو هذا<br/>
+1. استخدم العارض الافتراضي لفتح المستند. يبدو الإخراج الناتج عن التطبيق ببضعة أسطر من التعليمات البرمجية كما يلي:<br>
 ![install-aspose-words-for-android-via-java-16](/words/java/your-first-application/install-aspose-words-for-android-via-java-16.jpg)

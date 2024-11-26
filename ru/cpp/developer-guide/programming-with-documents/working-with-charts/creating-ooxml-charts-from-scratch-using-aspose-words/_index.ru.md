@@ -1,4 +1,4 @@
-﻿---
+---
 title: Создание OOXML-диаграмм с нуля
 second_title: Aspose.Words для C++
 articleTitle: Создание OOXML-диаграмм с нуля
@@ -7,6 +7,7 @@ description: "Как создавать различные диаграммы в
 type: docs
 weight: 10
 url: /ru/cpp/creating-ooxml-charts-from-scratch-using-aspose-words/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Создание OOXML-диаграмм с нуля с помощью Aspose.Words

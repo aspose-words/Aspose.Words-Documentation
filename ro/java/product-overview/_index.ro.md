@@ -1,4 +1,4 @@
-﻿---
+---
 title: Prezentare Generală A Produsului
 second_title: Aspose.Words pentru Java
 articleTitle: Prezentare Generală A Produsului
@@ -7,6 +7,7 @@ description: "Aspose.Words pentru Java este o bibliotecă software concepută pe
 type: docs
 weight: 5
 url: /ro/java/product-overview/
+timestamp: 2024-01-31-14-23-37
 ---
 
 <img src="home_1" alt="aspose-words-product" align="left" style="width:64px; margin: 0 30px 30px 0"/>

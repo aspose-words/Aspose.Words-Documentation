@@ -1,12 +1,13 @@
 ---
-title: العمل مع مستند مخزّن في `SharePoint` Online
+title: العمل مع مستند مخزّن في SharePoint Online
 second_title: Aspose.Words لـ .NET
-articleTitle: العمل مع مستند مخزّن في `SharePoint` Online
-linktitle: العمل مع مستند مخزّن في `SharePoint` Online
+articleTitle: العمل مع مستند مخزّن في SharePoint Online
+linktitle: العمل مع مستند مخزّن في SharePoint Online
 description: "تحويل Word المشترك في SharePoint إلى PDF باستخدام C#. العمل مع المستندات المخزنة في SharePoint – تنسيقات إدخال مختلفة، بما في ذلك Word وOpenOffice وImage وeBook."
 type: docs
 weight: 20
 url: /ar/net/work-with-document-stored-in-sharepoint/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Microsoft SharePoint Online عبارة عن مجموعة من التقنيات المستندة إلى الويب والتي تسهل على المؤسسات تخزين المعلومات الرقمية ومشاركتها وإدارتها. يمكنك العمل مع المستندات المخزنة في مجلد "المستندات المشتركة" في SharePoint باستخدام Aspose.Words القوي الخاص بنا لـ .NET.

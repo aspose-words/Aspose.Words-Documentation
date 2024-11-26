@@ -1,4 +1,4 @@
-﻿---
+---
 title: Autofit Setting for Tables
 second_title: Aspose.Words for Java
 articleTitle: Autofit Setting for Tables
@@ -7,6 +7,7 @@ description: "Autofit settings to tables. Docx4j does not provide an opportunity
 type: docs
 weight: 20
 url: /java/autofit-setting-for-tables/
+timestamp: 2024-01-31-14-23-37
 ---
 
 {{% alert color="primary" %}}

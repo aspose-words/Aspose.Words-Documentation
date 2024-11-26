@@ -8,6 +8,7 @@ url: /th/python-net/convert-a-document/
 weight: 30
 description: "แปลงเอกสารจากรูปแบบหนึ่งไปเป็นอีกรูปแบบหนึ่งได้อย่างง่ายดายโดยใช้ Python คุณสามารถทำงานกับรูปแบบยอดนิยมทั้งหมด เช่น รูปแบบ Microsoft Word เช่น DOCX หรือ DOC, รูปแบบ OpenDocument เช่น ODT หรือ OTT, รูปแบบเว็บ เช่น HTML หรือ XHTML, รูปแบบข้อความ เช่น MarkDown หรือ TXT และอื่นๆ"
 keywords: "convert a document python, convert documents from one format to another python, convert to markdown python, convert pdf to docx python, convert docx to pdf python, convert doc to pdf python, convert a document Aspose for Python"
+timestamp: 2024-01-27-14-07-04
 ---
 
 ความสามารถในการแปลงเอกสารจากรูปแบบหนึ่งไปเป็นอีกรูปแบบหนึ่งได้อย่างง่ายดายและเชื่อถือได้ถือเป็นหนึ่งในคุณสมบัติหลักของ Aspose.Words การแปลงดังกล่าวไม่มีอะไรมากไปกว่าการผสมผสานระหว่างการโหลดและการบันทึก

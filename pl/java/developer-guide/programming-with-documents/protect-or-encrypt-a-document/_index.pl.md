@@ -7,6 +7,7 @@ description: "Szyfruj dokument, ogranicz edycję, użyj podpisów cyfrowych do o
 type: docs
 weight: 50
 url: /pl/java/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Głównym powodem ochrony lub szyfrowania dokumentu jest zastosowanie większej kontroli nad tym, kto może uzyskać dostęp do dokumentu lub kto może go edytować. Stosując ochronę do swoich dokumentów, unikasz wspólnych zagrożeń, takich jak kopiowanie lub modyfikacja dokumentów bez pozwolenia, jak również wyciek danych.

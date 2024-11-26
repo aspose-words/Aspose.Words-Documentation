@@ -7,6 +7,7 @@ type: docs
 description: "Clona un documento para obtener su copia idéntica usando C#. Al crear una copia, se clonan nodos y propiedades del documento original."
 weight: 70
 url: /es/net/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Clonar un documento es el proceso de crear una copia idéntica de un documento original, lo que puede mejorar el rendimiento y evitar posibles pérdidas de memoria.

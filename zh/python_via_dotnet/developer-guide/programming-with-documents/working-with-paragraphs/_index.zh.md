@@ -7,6 +7,7 @@ description: "使用 Python 在文档中插入段落并指定其格式。"
 type: docs
 weight: 210
 url: /zh/python-net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 段落是组合成逻辑块的一组字符，并以特殊字符（*段落分隔符*）结尾。在 Aspose.Words 中，段落由 [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) 类表示。

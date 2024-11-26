@@ -7,6 +7,7 @@ description: "使用 Python 创建和管理文档中的形状、ole 对象。"
 type: docs
 weight: 280
 url: /zh/python-net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 本主题讨论如何使用 Aspose.Words 以编程方式处理形状。

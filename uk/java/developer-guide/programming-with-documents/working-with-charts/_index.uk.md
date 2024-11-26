@@ -7,6 +7,7 @@ description: "Вступ до діаграми функції, як створи
 type: docs
 weight: 310
 url: /uk/java/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Новий [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) метод додано в [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) клас. Отже, побачимо, як вставити просту таблицю стовпців у документ, використовуючи **Увійти Графік** метод.

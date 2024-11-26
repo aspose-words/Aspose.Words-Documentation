@@ -7,6 +7,7 @@ description: "Lưu tài liệu ở hầu hết các định dạng phổ biến 
 type: docs
 weight: 30
 url: /vi/net/supported-features-on-document-save/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words cho phép người dùng làm việc với các tài liệu ở nhiều định dạng khác nhau và cung cấp nhiều tính năng cho việc này. Ví dụ: người dùng có thể tạo tài liệu từ đầu hoặc tải tài liệu đó, thực hiện một số thay đổi và sau đó lưu những thay đổi đó vào tệp đầu ra ở bất kỳ [Định dạng tài liệu được hỗ trợ](/words/vi/net/supported-document-formats/) nào. Trong khi lưu tài liệu ở định dạng đã chọn, người dùng có thể áp dụng nhiều tùy chọn lưu khác nhau.

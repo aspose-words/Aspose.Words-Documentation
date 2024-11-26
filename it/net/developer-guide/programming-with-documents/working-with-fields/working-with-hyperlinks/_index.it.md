@@ -7,6 +7,7 @@ description: "Come aggiungere un collegamento ipertestuale al tuo documento in C
 type: docs
 weight: 50
 url: /it/net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un collegamento ipertestuale nei documenti Microsoft Word è il campo `HYPERLINK`. In Aspose.Words, i collegamenti ipertestuali vengono implementati tramite la classe [FieldHyperlink](https://reference.aspose.com/words/it/net/aspose.words.fields/fieldhyperlink/).

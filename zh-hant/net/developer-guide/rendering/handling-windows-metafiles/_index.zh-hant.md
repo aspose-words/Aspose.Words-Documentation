@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET 實作了自己的 Windows Metafile 播放�
 type: docs
 weight: 30
 url: /zh-hant/net/handling-windows-metafiles/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Windows Metafile格式是一種能包含向量圖與陣列圖的圖像檔格式。 此格式用於在記憶體或磁碟檔案中儲存圖形資料。 元檔案儲存了顯示圖片中必須執行的 Windows 圖形裝置介面 (GDI) 中的函數呼叫清單。 系統在顯示語境下解釋並執行這些指令。

@@ -8,6 +8,7 @@ description: "Converta PDF para formatos Word como DOCX, DOC, formatos de imagem
 keywords: convert pdf to other formats python
 weight: 45
 url: /pt/python-net/convert-pdf-to-other-document-formats/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words pode carregar até mesmo um formato tão complexo como PDF. Isso abre novas oportunidades: é possível converter PDF para Word ou outros formatos que levam os usuários à frente na solução de muitos problemas aplicados.

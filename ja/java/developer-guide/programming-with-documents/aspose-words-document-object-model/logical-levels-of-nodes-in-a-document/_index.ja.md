@@ -1,77 +1,78 @@
----
-title: ドキュメント内のノードの論理レベル Java
-second_title: Aspose.Words お問い合わせ Java
+﻿---
+title: Java内の文書内のノードの論理レベル
+second_title: Aspose.WordsのためのJava
 articleTitle: ドキュメント内のノードの論理レベル
 linktitle: ドキュメント内のノードの論理レベル
 type: docs
-description: "インスタグラム Aspose.Words お問い合わせ Java 記述された 論理レベル ノード – ブロックレベル、インラインレベル、または行レベル。 ノードレベルは、ノードが通常発生しているドキュメントツリーの場所を記述するために使用されます。"
+description: "Aspose.WordsforJavaのドキュメントでは、ノードの論理レベル（ブロックレベル、インラインレベル、または行レベル）について説明しました。 ノードレベルは、ノードが通常発生するドキュメントツリー内の場所を記述するために使用されます。"
 weight: 10
 url: /ja/java/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
-このドキュメンテーションでは、「block-level」や「inline-level」、または「row-level」ノードなど、ドキュメント内の「level」に属するノードクラスのグループを参照する場合があります。 文書のこれらのレベルは純粋に論理的に区別され、継承または他の方法で明示的に表現されていない Aspose.Words DOM つまり。 ノードレベルは、ノードが通常発生するドキュメントツリーの場所を記述するために使われます。
+このドキュメントでは、「ブロックレベル」、「インラインレベル」（「インライン」とも呼ばれます）、「行レベル」ノードなど、ドキュメント内の「レベル」に属するノードクラスのグループを参照することがあります。 文書内のこれらのレベルは純粋に論理的に区別され、継承または他のAspose.WordsDOM手段によって明示的に表現されません。 ノードレベルは、ドキュメントツリー内でノードが通常発生する場所を記述するために使用されます。
 
-前回の記事では、既にノードとすべてのノードがどのノードの子であることが許されていないという事実の関係について話しました。 たとえば、セルは列の子だけになり、列はテーブルの子だけになることができます。 これらの関係は、ドキュメントのレベルのノードの論理分割にも適用されます。
+前の記事では、ノード間の関係と、すべてのノードがノードの子になることが許可されているわけではないという事実についてすでに説明しました。 たとえば、Cellは行の子のみにすることができ、Rowはテーブルの子のみにすることができます。 これらの関係は、ドキュメント内のノードをレベルに論理的に分割する場合にも適用されます。
 
-次のセクションでは、ノードの論理レベルを記述します。 Aspose.Words 各レベルに属するクラス
+次のセクションでは、Aspose.Words内のノードの論理レベルと各レベルに属するクラスについて説明します。
 
-## 文書およびセクション論理レベル
+## 文書およびセクションの論理レベル
 
-ツイート ワード文書は、1つ以上のセクションで構成され、 [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) セクションで区切られたクラス。 セクションでは、独自のページサイズ、マージン、オリエンテーション、テキスト列数、ヘッダーとフッターを定義できます。
+Word文書は、[Section](https://reference.aspose.com/words/java/com.aspose.words/section/)クラスで表され、セクション区切りで区切られた一つ以上のセクションで構成されています。 セクションは、独自のページサイズ、余白、向き、テキスト列の数、およびヘッダーとフッターを定義できます。
 
-[Document](https://reference.aspose.com/words/java/com.aspose.words/document/) そして、 [セクション](https://www.aspose.com/api/words/java/com.aspose.words/section) レベルノードには、次の図に示す構造があります。
+[Document](https://reference.aspose.com/words/java/com.aspose.words/document/)と [セクション](https://www.aspose.com/api/words/java/com.aspose.words/section) レベルノードは、次の図に示すような構造を持っています。
 
 <img src="/words/java/logical-levels-of-nodes-in-a-document/document-and-section-level.png" alt="document-and-section-level-aspose-words-java" style="width:700px"/>
 
-セクションには、メインテキスト、ヘッダーとフッターが最初のページ、さらに、オッズページに表示されます。 テキストの「流れ」は *stories*お問い合わせ
+セクションには、最初のページ、偶数ページ、奇数ページのヘッダーとフッターだけでなく、メインテキストが含まれます。 これらの異なるテキストの「フロー」は*stories*と呼ばれます。
 
-インスタグラム Aspose.Words, お問い合わせ **Section** ノードには、 [Body](https://reference.aspose.com/words/java/com.aspose.words/body/) そして、 [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/) ストーリーノード。 ザ・オブ・ザ・ **Body** オブジェクトはメインテキストを保存します。 ザ・オブ・ザ・ **HeaderFooter** オブジェクトは各ヘッダーとフッターのテキストを保存します。 どの物語のテキストは、それぞれ、段落と表で構成され、 **Paragraph** そして、 **Table** ブロックレベルのオブジェクト。
+Aspose.Wordsでは、**Section**ノードには[Body](https://reference.aspose.com/words/java/com.aspose.words/body/)と[HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/)ストーリーノードが含まれています。 **Body**オブジェクトには、メインテキストが格納されます。 **HeaderFooter**オブジェクトは、各ヘッダーとフッターのテキストを格納します。 ストーリーのテキストは、それぞれブロックレベルの**Paragraph**オブジェクトと**Table**オブジェクトで表される段落と表で構成されています。
 
-その他、 単語文書は、用語集を含むことができます。これは、 [GlossaryDocument](https://reference.aspose.com/words/java/com.aspose.words/glossarydocument/) ノード Aspose.Wordsお問い合わせ 用語集文書には、 [BuildingBlocks](https://reference.aspose.com/words/java/com.aspose.words/buildingblock/), [AutoText](https://reference.aspose.com/words/java/com.aspose.words/buildingblocktype/#AUTO-TEXT), そして、 [AutoCorrect](https://reference.aspose.com/words/java/com.aspose.words/buildingblocktype/#AUTO-CORRECT) エントリー
+さらに、各Word文書には、Aspose.Wordsの[GlossaryDocument](https://reference.aspose.com/words/java/com.aspose.words/glossarydocument/)ノードで表される用語集を含めることができます。 用語集ドキュメントには、[BuildingBlocks](https://reference.aspose.com/words/java/com.aspose.words/buildingblock/)、[AutoText](https://reference.aspose.com/words/java/com.aspose.words/buildingblocktype/#AUTO-TEXT)、および[AutoCorrect](https://reference.aspose.com/words/java/com.aspose.words/buildingblocktype/#AUTO-CORRECT)のエントリが含まれています。
 
-**GlossaryDocument** 含まれるもの [BuildingBlock](https://reference.aspose.com/words/java/com.aspose.words/buildingblock/) 異なる種類の用語集文書エントリを表すノード。 詳しくはこちら **BuildingBlock** 文書にインサート、削除、コピーできるセクションが含まれています。
+**GlossaryDocument**
 
-## 論理レベルをブロックする
+## ブロック論理レベル
 
-Block-level ノードは、コンテンツとコンテンツコントロール用のコンテナを表し、次のノードでドキュメントツリーの子ノードで発生します。
+ブロックレベルのノードは、コンテンツおよびコンテンツコントロールのコンテナを表し、次のノードのドキュメントツリーの子ノードに配置できます:
 
 - ボディ
 - ヘッダー
-- フッター
-- フットノート
+- フッタ
+- 脚注
 - コメント
-- 形状
-- - - Group形状:
+- 形
+- GroupShape
 - セル
-- 構造文書タグ
+- StructuredDocumentTag
 
-Block-level ノードは、次のクラスで表されます。
+ブロックレベルのノードは、次のクラスで表されます:
 
-- - - [Tables](https://reference.aspose.com/words/java/com.aspose.words/table/) そして、 [Paragraphs](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), 最も重要なブロックレベルのノードです。
+- 最も重要なブロックレベルのノードである[Tables](https://reference.aspose.com/words/java/com.aspose.words/table/)と[Paragraphs](https://reference.aspose.com/words/java/com.aspose.words/paragraph/)
 - ブロックレベルとインラインレベルの両方で発生するブックマーク
-- - - [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/), これはカスタムマークアップを表し、コンテンツとコンテンツの両方のコントロールを含むことができます。
+- [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/)はカスタムマークアップを表し、コンテンツコントロールとコンテンツコントロールの両方を含めることができます
 
-以下の図はブロックレベルの要素を示しています。
+次の図は、ブロックレベルの要素を示しています。
 
 <img src="/words/java/logical-levels-of-nodes-in-a-document/block-level.png" alt="block-level-aspose-words-java" style="width:550px"/>
 
 ## インライン論理レベル
 
-インラインレベルのノードは、ドキュメントの実際のコンテンツを表し、次のコンテナに含めることができます。
+インラインレベルのノードは、ドキュメントの実際のコンテンツを表し、次のコンテナーに含めることができます:
 
-- パラグラフ - 最も一般的な容器
+- 段落-最も一般的なコンテナ
 - [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/)
-- 構造文書タグ
+- StructuredDocumentTag
 
-インラインレベルの要素は、次のクラスで表されます。
+インラインレベルの要素は、次のクラスで表されます:
 
-- - - [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) – 異なる形式のテキストの実行
-- - - [BookmarkStart](https://reference.aspose.com/words/java/com.aspose.words/bookmarkstart/) そして、 [BookmarkEnd](https://reference.aspose.com/words/java/com.aspose.words/bookmarkend/) ブックマークを表す
-- - - [コメントRangeStart:https://reference.aspose.com/words/java/com.aspose.words/comment/RangeStart, [コメント]](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/), [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/) そして、 [Footnote](https://reference.aspose.com/words/java/com.aspose.words/footnote/) アノテーションを表す
-- - - [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/), [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/), [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/) そして、 [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/) フィールド文字を表し、 [FormField](https://reference.aspose.com/words/java/com.aspose.words/formfield/) プロフィール ワードフィールド
-- - - [SpecialChar](https://reference.aspose.com/words/java/com.aspose.words/specialchar/) ドキュメントの特別な文字を表す
-- - - [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) そして、 [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) 形状、図面、画像などを表します。
-- SmartTagと構造文書 タグはカスタムマークアップを表します
+- [Run](https://reference.aspose.com/words/java/com.aspose.words/run/)-異なる書式のテキストの実行
+- [BookmarkStart](https://reference.aspose.com/words/java/com.aspose.words/bookmarkstart/)と[BookmarkEnd](https://reference.aspose.com/words/java/com.aspose.words/bookmarkend/)はブックマークを表します
+- [CommentRangeStart]https://reference.aspose.com/words/java/com.aspose.words/comment/RangeStart), [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/)、[Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/)、[Footnote](https://reference.aspose.com/words/java/com.aspose.words/footnote/)は注釈を表します
+- [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/), [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/), [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/) そして[FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/)はフィールド文字を表し、[FormField](https://reference.aspose.com/words/java/com.aspose.words/formfield/)は単語フィールドを表します
+- [SpecialChar](https://reference.aspose.com/words/java/com.aspose.words/specialchar/)は文書内の特殊文字を表します
+- [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/)と[GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/)は、図形、図面、画像などを表します。
+- SmartTagとStructuredDocumentTagはカスタムマークアップを表します
 
 次の図は、インラインレベルのノード構造を示しています。
 
@@ -79,26 +80,26 @@ Block-level ノードは、次のクラスで表されます。
 
 {{% alert color="primary" %}}
 
-形状の Microsoft Word Office Art AutoShapes、テキストボックス、画像、OLEオブジェクト、およびActiveXコントロールが含まれます。 `Shape` クラス。 一部の図形はテキストも含まれているので、シェイプノードは Aspose.Words ブロックレベルのノードを含むことができます。
+Microsoft Wordの図形には、OfficeアートAutoShapes、テキストボックス、画像、OLEオブジェクト、およびActiveXコントロールが含まれ、これらはすべて`Shape`クラスを使用して表されます。 一部の図形にはテキストを含めることもできるため、Aspose.Wordsの図形ノードにはブロックレベルのノードを含めることができます。
 
-形状は、それぞれの用途でグループ化できます Groupノードを形づけます。
+図形はGroupShapeノードを使用して互いにグループ化できます。
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-フットノートとコメントはテキストを含むことができます。したがって、フットノートとコメントノードは Aspose.Words ブロックレベルのノードを含むことができます。
+脚注とコメントにはテキストを含めることができるため、Aspose.Wordsの脚注とコメントノードにはブロックレベルのノードを含めることができます。
 
 {{% /alert %}}
 
-## 表、列、およびセルノードレベル
+## 表、行、およびセルのノード・レベル
 
-テーブルは行とセルのノードで構成されます。 表要素は、次のクラスで表されます。
+テーブルは、行とセルのノードで構成されています。 テーブル要素は、次のクラスで表されます:
 
-- - - [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) テーブル行を表す
-- - - [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) テーブルセルを表す
-- 構造文書 タグはカスタムマークアップを表します
+- [Row](https://reference.aspose.com/words/java/com.aspose.words/row/)はテーブルの行を表します
+- [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/)は表のセルを表します
+- StructuredDocumentTagはカスタムマークアップを表します
 
-次の図は、テーブル、列、およびセルレベルのノード構造を示しています。
+次の図は、テーブル、行、およびセルレベルのノード構造を示しています。
 
 <img src="/words/java/logical-levels-of-nodes-in-a-document/table-row-cell.png" alt="table-row-cell-aspose-words-java" style="width:910px"/>

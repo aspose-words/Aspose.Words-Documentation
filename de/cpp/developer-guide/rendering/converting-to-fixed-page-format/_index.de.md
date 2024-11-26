@@ -1,4 +1,4 @@
-﻿---
+---
 title: Konvertierung in das Festseitenformat in C++
 second_title: Aspose.Words für C++
 articleTitle: Konvertierung in das Festseitenformat
@@ -7,6 +7,7 @@ description: "Dokumente speichern unter PDF, XPS, HTML, XAML, PostScript, und PC
 type: docs
 weight: 10
 url: /de/cpp/converting-to-fixed-page-format/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words implementiert eine eigene Seitenlayout-Engine. Bevor wir uns mit den Spezifikationen befassen, lohnt es sich, das Dokument zunächst auf hohem Niveau zu diskutieren.

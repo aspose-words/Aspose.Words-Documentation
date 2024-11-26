@@ -7,6 +7,7 @@ description: "Aspose.Words para Python permite renderizar um documento criado us
 type: docs
 weight: 20
 url: /pt/python-net/installing-truetype-fonts-on-linux/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Na maioria das vezes, você usará Aspose.Words para converter documentos DOC ou DOCX para o formato PDF. Se você precisar fazer isso em uma máquina Linux, este tópico o ajudará a aprender como garantir que o Aspose.Words renderize seus documentos com a melhor precisão.

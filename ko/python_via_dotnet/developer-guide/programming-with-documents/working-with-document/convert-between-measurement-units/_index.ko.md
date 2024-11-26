@@ -7,6 +7,7 @@ description: "Python via .NET용 Aspose.Words는 측정 단위(예: 인치에서
 type: docs
 weight: 20
 url: /ko/python-net/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 너비나 높이, 여백, 다양한 거리 등 일부 측정값을 나타내는 Aspose.Words API에서 제공되는 대부분의 개체 속성은 포인트 값을 허용합니다. 여기서 1인치는 72포인트와 같습니다. 때로는 이것이 편리하지 않아 포인트를 다른 단위로 변환해야 할 때도 있습니다.

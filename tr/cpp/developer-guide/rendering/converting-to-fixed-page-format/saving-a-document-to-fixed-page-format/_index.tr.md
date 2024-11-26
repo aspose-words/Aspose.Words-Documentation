@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ biçiminde Sabit sayfa Biçimine Kaydetme
 second_title: Aspose.Words için C++
 articleTitle: Belgeyi Sabit Sayfa Biçimine Kaydetme
@@ -7,6 +7,7 @@ description: "Bir belgeyi sabit sayfa biçimine kaydetme – PDF, XPS, HTML, XAM
 type: docs
 weight: 15
 url: /tr/cpp/saving-a-document-to-fixed-page-format/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Sayfa düzeni oluşturulduktan ve nesnelerin geometrisi ve sayfadaki konumları hesaplandıktan sonra, belge Aspose.Words tarafından desteklenen sabit sayfa biçiminde kaydedilebilir.

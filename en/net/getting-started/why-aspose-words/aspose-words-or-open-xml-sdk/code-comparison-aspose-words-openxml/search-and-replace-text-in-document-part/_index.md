@@ -7,6 +7,7 @@ description: "Find and replace text from a document part easily and fast instead
 type: docs
 weight: 140
 url: /net/search-and-replace-text-in-document-part/
+timestamp: 2024-01-27-14-07-04
 ---
 
 On this page we will look at how to find and replace text from a document part using Aspose.Words or Open XML SDK.

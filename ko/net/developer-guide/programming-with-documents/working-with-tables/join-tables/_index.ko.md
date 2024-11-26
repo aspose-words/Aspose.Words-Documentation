@@ -7,6 +7,7 @@ description: "C#에서 테이블을 조인합니다. 두 테이블을 하나의 
 type: docs
 weight: 90
 url: /ko/net/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words Document Object Model로 표현되는 테이블은 독립적인 행과 셀로 구성되어 있어 테이블 조인이 쉽습니다.

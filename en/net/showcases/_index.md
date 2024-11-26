@@ -1,4 +1,4 @@
-﻿---
+---
 title: Showcases
 second_title: Aspose.Words for .NET
 articleTitle: Showcases
@@ -7,6 +7,7 @@ description: "We show you examples of projects that use some of the Aspose.Words
 type: docs
 weight: 60
 url: /net/showcases/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In the Showcases section, we show you examples of projects using some Aspose.Words features in addition to the code snippets described in the documentation above. These projects differ from most snippets in that they demonstrate many functions of Aspose.Words working together.

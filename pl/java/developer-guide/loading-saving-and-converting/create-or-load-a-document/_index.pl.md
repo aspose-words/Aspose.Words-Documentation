@@ -7,6 +7,7 @@ type: docs
 weight: 10
 url: /pl/java/create-or-load-a-document/
 description: "Aspose.Words umożliwia utworzenie pustego dokumentu lub wczytanie go z pliku lub strumienia za pomocą Java."
+timestamp: 2024-01-27-14-07-04
 ---
 
 Prawie każde zadanie, które chcesz wykonać z Aspose.Words wymaga wczytania dokumentu. W `Document` klasa reprezentuje dokument załadowany do pamięci. Dokument posiada kilka przeciążonych konstruktorów, które pozwalają na utworzenie pustego dokumentu lub załadowanie go z pliku lub strumienia. Dokument może być wczytany w dowolnym formacie obciążenia obsługiwanym przez Aspose.Words. Lista wszystkich obsługiwanych formatów obciążenia znajduje się na stronie [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) wyliczenie.

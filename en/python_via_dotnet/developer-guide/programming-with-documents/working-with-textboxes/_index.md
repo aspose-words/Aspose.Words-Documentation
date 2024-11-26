@@ -8,6 +8,7 @@ type: docs
 weight: 250
 url: /python-net/working-with-textboxes/
 aliases: [/python/working-with-textboxes/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 In Aspose.Words, [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) class is used to specify how a text is displayed inside a shape. It provides a public property named as [parent](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/parent/) to get the parent shape for the text box to allow customer to find linked [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) from linked [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/).

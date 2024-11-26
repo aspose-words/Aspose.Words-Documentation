@@ -7,6 +7,7 @@ description: "Aspose.Words עבור Java מאפשר אחסון מידע שימו
 type: docs
 weight: 10
 url: /he/java/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 תכונות המסמכים מאפשרות אחסון מידע שימושי על המסמך שלך. תכונות אלה ניתן לחלק לשתי קבוצות:

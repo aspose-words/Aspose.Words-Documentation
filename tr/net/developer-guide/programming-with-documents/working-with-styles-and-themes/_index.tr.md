@@ -7,6 +7,7 @@ description: "Gelişmiş Microsoft Word biçimlendirme özellikleri, C# kullanar
 type: docs
 weight: 110
 url: /tr/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 [StyleCollection](https://reference.aspose.com/words/tr/net/aspose.words/stylecollection/) sınıfı, yerleşik yönetimi yönetmek ve kullanıcı tanımlı ayarları stillere uygulamak için kullanılır.
@@ -36,7 +37,7 @@ Bu örnek belgede, 'Başlık 1' paragraf stiliyle biçimlendirilmiş metin, 'Sek
 
 ### Kod
 
-Aspose.Words belge nesne modelinde stil tabanlı bir sorgunun uygulanması oldukça basittir, çünkü halihazırda mevcut olan araçları kullanır. Bu çözüm için iki sınıf yöntemi uygulanır:# **ParagraphsByStyleName** – Bu yöntem, söz konusu paragrafların bir dizisini alır. belirli bir stil adına sahip olan belge.# **RunsByStyleName** – Bu yöntem, belgede belirli bir stil adına sahip olan çalıştırmaların bir dizisini alır. Bu yöntemlerin her ikisi de çok benzerdir; tek fark, düğüm türleri ve stilin temsilidir. paragraf içindeki bilgileri ve düğümleri çalıştırın. Burada ParagraphsByStyleName'in bir uygulaması verilmiştir: Aşağıdaki örnekte, belirtilen stille biçimlendirilmiş tüm paragrafları bulabilirsiniz.
+Aspose.Words belge nesne modelinde stil tabanlı bir sorgunun uygulanması oldukça basittir, çünkü halihazırda mevcut olan araçları kullanır. Bu çözüm için iki sınıf yöntemi uygulanır: **ParagraphsByStyleName** – Bu yöntem, söz konusu paragrafların bir dizisini alır. belirli bir stil adına sahip olan belge. **RunsByStyleName** – Bu yöntem, belgede belirli bir stil adına sahip olan çalıştırmaların bir dizisini alır. Bu yöntemlerin her ikisi de çok benzerdir; tek fark, düğüm türleri ve stilin temsilidir. paragraf içindeki bilgileri ve düğümleri çalıştırın. Burada ParagraphsByStyleName'in bir uygulaması verilmiştir: Aşağıdaki örnekte, belirtilen stille biçimlendirilmiş tüm paragrafları bulabilirsiniz.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.cs" >}}
 

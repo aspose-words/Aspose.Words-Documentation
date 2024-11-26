@@ -7,6 +7,7 @@ description: "Trabaje con etiquetas de documentos estructurados o controles de c
 type: docs
 weight: 50
 url: /es/net/structured-document-tags-or-content-control/
+timestamp: 2024-01-31-14-23-37
 ---
 
 

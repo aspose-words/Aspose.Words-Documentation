@@ -1,4 +1,4 @@
-﻿---
+---
 title: Introducerea câmpurilor în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Introduceți Câmpuri
@@ -7,6 +7,7 @@ description: "Introduceți câmpuri într-un document în Python în moduri dife
 type: docs
 weight: 20
 url: /ro/python-net/inserting-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Există mai multe moduri diferite de a insera câmpuri într-un document:
@@ -85,7 +86,7 @@ Următorul exemplu de cod arată cum să adăugați un câmp `Merge` folosind DO
 
 ### Inserarea câmpului Mail Merge `ADDRESSBLOCK` într-un Document folosind DOM
 
-Câmpul `ADDRESSBLOCK` este folosit pentru a insera un bloc de adrese mail merge în documentul Word. `ADDRESSBLOCK` câmpul din documentul Word poate fi reprezentat de clasa [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/). Puteți utiliza clasa [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) pentru a efectua următoarele operații:
+Câmpul `ADDRESSBLOCK` este folosit pentru a insera un bloc de adrese Mail Merge în documentul Word. `ADDRESSBLOCK` câmpul din documentul Word poate fi reprezentat de clasa [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/). Puteți utiliza clasa [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) pentru a efectua următoarele operații:
 
 - specificați dacă să includeți numele țării/regiunii în câmp
 - specificați dacă să formatați adresa în funcție de țara / regiunea destinatarului, astfel cum este definită de POST * CODE (Uniunea Poștală Universală 2006)

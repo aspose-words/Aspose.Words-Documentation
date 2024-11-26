@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan karakter kontrol
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan karakter kontrol
@@ -7,6 +7,7 @@ description: "Pengantar bekerja dengan karakter kontrol di Aspose.Words untuk C+
 type: docs
 weight: 400
 url: /id/cpp/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word dokumen dapat berisi berbagai karakter yang memiliki arti khusus. Biasanya mereka digunakan untuk tujuan pemformatan dan tidak digambar dalam mode normal. Anda dapat membuatnya terlihat jika Anda mengklik tombol Tampilkan / Sembunyikan Tanda Pemformatan yang terletak di bilah alat Standar.

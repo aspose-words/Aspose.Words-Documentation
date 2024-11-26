@@ -1,4 +1,4 @@
-﻿---
+---
 title: MFont در دسترس بودن و جایگزینی در C++
 second_title: Aspose.Words برای C++
 articleTitle: دسترسی به فونت و جایگزینی آن
@@ -7,6 +7,7 @@ description: "وقتی فونت جایگزین دقیق پیدا نشد، Aspose
 type: docs
 weight: 12
 url: /fa/cpp/font-availability-and-substitution/
+timestamp: 2024-09-24-14-35-44
 ---
 
 یک متن در یک سند را می توان با فونت های مختلف مانند Arial، Times New Roman، Verdana و دیگران فرمت کرد. هنگامی که Aspose.Words یک سند را ارائه می دهد، سعی می کند فونت هایی را که در سند مشخص شده اند انتخاب کند.

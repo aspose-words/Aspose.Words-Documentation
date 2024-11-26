@@ -7,6 +7,7 @@ description: "详细内容栏表. 如何创建和修改 `TOC` 使用 Java。 。
 type: docs
 weight: 170
 url: /zh/java/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 您通常会使用包含目录(TOC)的文件。 使用 Aspose.Words 您可以插入自己的目录,或者仅使用几行代码完全重建文档中现有的目录。
@@ -60,7 +61,7 @@ Aspose.Words 允许您完全更新一个 `TOC` 只有几行代码。 用于插�
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-UpdateTableOfContents.java" >}}
 
-第一个呼叫 [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) 将建立 <span notrans="<span notrans=" `TOC`"=""></span>",> 所有文本条目都包含在内, `TOC` 似乎几乎完成了。 唯一缺少的是目前用"?" 显示的页码。
+第一个呼叫 [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) 将建立 `TOC`",> 所有文本条目都包含在内, `TOC` 似乎几乎完成了。 唯一缺少的是目前用"?" 显示的页码。
 
 第二次通话 [Document.updatePageLayout()](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout) 将构建内存中的文档布局。 这项工作需要收集条目的页码。 从这个呼叫中计算出的正确的页码随后插入到TOC中.
 
@@ -124,7 +125,7 @@ Aspose.Words 允许您完全更新一个 `TOC` 只有几行代码。 用于插�
 
 <p>![table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-6.png)</p>
 
-<p><br/><br/>那个 `TC` 字段本身也可以有 {several, `multiple`, a few, `many`, numerous} 开关设定 。 它们是:</p>
+<p><br/><br/>那个 `TC` 字段本身也可以有 `{several, multiple, a few, many, numerous}` 开关设定 。 它们是:</p>
 
 <p>- 上面已经解释过了 * 《大会正式记录,第五十八届会议,补编第5号》(A/C.6/61/Rev.1)。</p>
 

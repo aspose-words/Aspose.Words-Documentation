@@ -7,6 +7,7 @@ description: "This section provides a list with links to the Aspose.Words for Ja
 type: docs
 weight: 10
 url: /jasperreports/aspose-words-for-jasperreports-documentation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## This section includes the following topics: 

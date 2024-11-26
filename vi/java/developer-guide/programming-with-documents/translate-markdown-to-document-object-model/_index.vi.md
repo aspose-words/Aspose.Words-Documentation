@@ -7,6 +7,7 @@ type: docs
 description: "Tarn Slate một Markdown tài liệu để Document Object Model và trở lại. Như vậy bạn có thể làm việc với các tập tin hiện hữu phức tạp Markdown và lập trình để tạo một Markdown tài liệu từ đầu bằng cách sử dụng Java."
 weight: 20
 url: /vi/java/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Để đọc, thao tác và sửa đổi nội dung và định dạng của một tài liệu theo lập trình, bạn cần dịch nó thành "Aspose.Words Document Object Model (DOM)".
@@ -67,9 +68,9 @@ Bảng bên dưới cho thấy ví dụ sử dụng các Markdown khối lá tro
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **HorizontalRule** <br /> `-----` | Đây là một đoạn văn đơn giản với hình HorizontalRule tương ứng: <br /> `DocumentBuilder.InsertHorizontalRule()` |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-HorizontalRule.java" >}} |  |
-| **ATX Heading**<br /> `# H1, ## H2, ### H3…` | `ParagraphFormat.StyleName = “Heading N”`, nơi (1 <= n <= 9). < br /> Đây là một kiểu được xây dựng sẵn và nên chính xác giống như mẫu đã chỉ định (không có hậu tố hoặc tiền tố nào được phép). < br /> Vậy thì, nó sẽ chỉ là một đoạn văn thường với kiểu tương ứng. |
+| **ATX Heading**<br /> `# H1, ## H2, ### H3…` | `ParagraphFormat.StyleName = "Heading N"`, nơi (1 <= n <= 9). < br /> Đây là một kiểu được xây dựng sẵn và nên chính xác giống như mẫu đã chỉ định (không có hậu tố hoặc tiền tố nào được phép). < br /> Vậy thì, nó sẽ chỉ là một đoạn văn thường với kiểu tương ứng. |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Heading.java" >}} |  |
-| **Setext Heading** <br /> `===` (nếu Heading cấp 1), <br /> `---` (nếu Heading cấp 2) | `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, dựa theo `“Heading N”` kiểu.<br />Nếu (N >= 2), sau đó `“Heading 2”` sẽ được sử dụng, nếu không `“Heading 1”`.<br />Bất kỳ hậu tố nào cũng được phép, nhưng Aspose.Words nhập khẩu sử dụng số "1" và "2" tương ứng. |
+| **Setext Heading** <br /> `===` (nếu Heading cấp 1), <br /> `---` (nếu Heading cấp 2) | `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, dựa theo 'Heading N' kiểu.<br />Nếu (N >= 2), sau đó 'Heading 2' sẽ được sử dụng, nếu không 'Heading 1'.<br />Bất kỳ hậu tố nào cũng được phép, nhưng Aspose.Words nhập khẩu sử dụng số "1" và "2" tương ứng. |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SetextHeading.java" >}} |  |
 | **Indented Code**<br>{{< highlight java >}}<br/>if ()<br/>then<br/>else<br/>```{{< /highlight >}}":13 | `ParagraphFormat.StyleName = “IndentedCode[some suffix]”` |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-FencedCode.java" >}} |  |

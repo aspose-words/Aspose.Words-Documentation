@@ -7,6 +7,7 @@ description: "So arbeiten Sie mit Feldern in einem Dokument mithilfe von Python.
 type: docs
 weight: 370
 url: /de/python-net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** in einem Dokument sind wie Platzhalter, in die nützliche Daten eingefügt werden können. Ein Feld kann beispielsweise ein Seitenverweis, eine Formel oder ein mail merge-Feld sein.

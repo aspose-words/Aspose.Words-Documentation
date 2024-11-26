@@ -1,4 +1,4 @@
-﻿---
+---
 title: Modificare lo stile della tabella nei documenti di Word
 second_title: Aspose.Words per C++
 articleTitle: Applica stile tabella
@@ -7,6 +7,7 @@ description: "Formattazione avanzata della tabella C++. Creare uno stile di tabe
 type: docs
 weight: 80
 url: /it/cpp/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uno stile di tabella definisce un insieme di formattazione che può essere facilmente applicato a una tabella. La formattazione come bordi, ombreggiatura, allineamento e font può essere impostata in uno stile di tabella e applicata a molte tabelle per un aspetto coerente.

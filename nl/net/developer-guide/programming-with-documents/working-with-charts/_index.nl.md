@@ -7,6 +7,7 @@ description: "Inleiding tot grafiek functie, hoe te maken en te manipuleren graf
 type: docs
 weight: 310
 url: /nl/net/working-with-charts/
+timestamp: 2024-02-05-15-07-18
 ---
 
 Nieuw [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) de methode is toegevoegd aan de [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) Klasse. Dus, laten we eens kijken hoe je een eenvoudige kolom grafiek in het document met behulp van de [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) methode.

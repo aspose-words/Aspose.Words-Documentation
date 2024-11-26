@@ -7,6 +7,7 @@ description: "使用 C# 提取不同格式的文档内容。"
 type: docs
 weight: 140
 url: /zh/net/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 处理文档时，能够轻松地从文档中的特定范围中提取内容非常重要。然而，内容可能由复杂的元素组成，例如段落、表格、图像等。

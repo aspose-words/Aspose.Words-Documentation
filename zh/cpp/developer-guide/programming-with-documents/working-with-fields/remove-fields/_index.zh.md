@@ -1,4 +1,4 @@
-﻿---
+---
 title: 删除字段C++
 second_title: Aspose.Words对于C++
 articleTitle: 删除字段
@@ -7,6 +7,7 @@ description: "了解如何在 C++ 中移除字段。使用 C++ API 以编程方�
 type: docs
 weight: 35
 url: /zh/cpp/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时需要从文档中删除字段。 当需要替换为不同的字段类型或文档中不再需要该字段时，可能会发生这种情况。 例如保存到HTML时的`TOC`字段。

@@ -7,6 +7,7 @@ description: "Ví dụ về tạo hình mã vạch sử dụng C#."
 type: docs
 weight: 350
 url: /vi/net/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
 Mã vạch là biểu hiện trực quan của dữ liệu dưới dạng đường song song hoặc hình mẫu. Mã vạch được sử dụng rộng rãi trong nhiều ngành công nghiệp khác nhau như bán lẻ, hậu cần, y tế, ngân hàng và nhiều ngành khác.

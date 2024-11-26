@@ -7,6 +7,7 @@ description: "Python'i kullanarak bir belgede çeşitli türlerde grafikler olu�
 type: docs
 weight: 310
 url: /tr/python-net/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) sınıfına yeni [insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) yöntemi eklendi. Şimdi [DocumentBuilder.insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) yöntemini kullanarak belgeye basit bir sütun grafiğinin nasıl ekleneceğini görelim:

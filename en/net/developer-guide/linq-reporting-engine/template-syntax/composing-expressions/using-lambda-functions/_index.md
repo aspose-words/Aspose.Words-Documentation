@@ -7,6 +7,7 @@ description: "Use lambda functions in template expressions when building a repor
 type: docs
 weight: 60
 url: /net/using-lambda-functions/
+timestamp: 2024-01-27-14-07-04
 ---
 
 LINQ Reporting Engine enables you to use lambda functions only as arguments of built-in enumeration extension methods in template expressions. See "Appendix A. Enumeration Extension Methods" for more information.

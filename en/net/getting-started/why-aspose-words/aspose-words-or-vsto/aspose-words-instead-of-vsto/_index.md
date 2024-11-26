@@ -1,4 +1,4 @@
-﻿---
+---
 title: How to Use Aspose.Words Instead of VSTO
 second_title: Aspose.Words for .NET
 articleTitle: How to Use Aspose.Words Instead of VSTO
@@ -10,6 +10,7 @@ url: /net/aspose-words-instead-of-vsto
 aliases: 
 - /net/aspose-words-net-for-vsto/
 - /net/aspose-words-for-vsto/
+timestamp: 2024-01-31-14-23-37
 ---
 
 When a user needs to programmatically create, modify and manage documents, it is always important to choose the right tool that suits the specific document development needs. This article aims to help developers make the right decision when comparing Aspose.Words and VSTO.

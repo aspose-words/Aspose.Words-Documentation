@@ -7,6 +7,7 @@ description: "Aspose.Words Sitemap Java menerapkan mesin tata letak halaman send
 type: docs
 weight: 10
 url: /id/java/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words menerapkan mesin tata letak halaman sendiri. Sebelum menelusuri spesifikasinya, ada baiknya dokumen diskusi pertama di tingkat tinggi. Ketika berpikir tentang dokumen, pengguna biasanya membayangkan sejumlah lembar kertas yang mengandung kata-kata, gambar, tabel, dan grafik. Dokumen dapat berbagai jenis, seperti teks, spreadsheet, slide, gambar CAD, flowcharts, dan, oleh karena itu, dapat memiliki tata letak yang berbeda pada dasarnya. Sebagian besar aplikasi memungkinkan mengirim dokumen ke printer; ini adalah ketika pengguna benar-benar dapat melihat tampilan akhir dokumen.
@@ -49,7 +50,7 @@ Pengaturan tata letak halaman di mana teks akan muncul dan konten apa yang akan 
 
 ![non_geometric_properties_aspose-words-java](/words/java/converting-to-fixed-page-format/converting-to-fixed-page-format-2.png)
 
-Sitemap <span notrans="<span notrans=" Aspose.Words"=""></span>Sitemap pengguna dapat meminta apakah untuk membangun tata letak halaman baru, atau memperbarui yang ada. Kedua ini dapat dilakukan oleh Meme it [UpdatePageLayout](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout\(\)) metode, disediakan oleh [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) Sitemap Jika tata letak halaman tidak ada, tetapi ada kebutuhan untuk itu (misalnya, ketika dokumen diekspor ke format halaman tetap), Aspose.Words akan secara otomatis memanggil metode ini. Namun, jika tata letak halaman sudah ada, Aspose.Words akan menggunakan yang ada, untuk menghindari mengkonsumsi sumber daya yang diperlukan untuk memperbaruinya. Dalam hal ini, pengguna perlu memanggil Meme it `UpdatePageLayout` metode, untuk memastikan bahwa tata letak halaman hingga tanggal dengan model dokumen.
+Sitemap Aspose.WordsSitemap pengguna dapat meminta apakah untuk membangun tata letak halaman baru, atau memperbarui yang ada. Kedua ini dapat dilakukan oleh Meme it [UpdatePageLayout](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout\(\)) metode, disediakan oleh [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) Sitemap Jika tata letak halaman tidak ada, tetapi ada kebutuhan untuk itu (misalnya, ketika dokumen diekspor ke format halaman tetap), Aspose.Words akan secara otomatis memanggil metode ini. Namun, jika tata letak halaman sudah ada, Aspose.Words akan menggunakan yang ada, untuk menghindari mengkonsumsi sumber daya yang diperlukan untuk memperbaruinya. Dalam hal ini, pengguna perlu memanggil Meme it `UpdatePageLayout` metode, untuk memastikan bahwa tata letak halaman hingga tanggal dengan model dokumen.
 
 ### Struktur dinamis
 

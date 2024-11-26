@@ -7,6 +7,7 @@ description: "Usando python você pode incorporar a semântica definida pelo cli
 type: docs
 weight: 390
 url: /pt/python-net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 No Microsoft Word, você pode criar um formulário começando com um modelo e adicionando controles de conteúdo, incluindo caixas de seleção, caixas de texto, seletores de data e listas suspensas. No Aspose.Words, uma tag de documento estruturado ou controle de conteúdo de qualquer documento carregado no Aspose.Words é importado como um nó [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/). Tags estruturadas de documentos (SDT ou controle de conteúdo) permitem incorporar a semântica definida pelo cliente, bem como seu comportamento e aparência em um documento. [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) pode ocorrer em um documento nos seguintes locais:

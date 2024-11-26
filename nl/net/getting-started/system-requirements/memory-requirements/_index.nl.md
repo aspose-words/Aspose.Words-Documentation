@@ -7,6 +7,7 @@ description: "Hoeveel geheugen doet Aspose.Words voor .NET moeten werken met doc
 type: docs
 weight: 10
 url: /nl/net/memory-requirements/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words biedt een breed scala aan functies om te werken met documenten in verschillende formaten. Het is belangrijk op te merken dat er geen limiet is op de maximale grootte van een documentbestand dat Aspose.Words kan verwerken of renderen. De enige beperking is de hoeveelheid RAM (geheugen) die beschikbaar is aan uw zijde.

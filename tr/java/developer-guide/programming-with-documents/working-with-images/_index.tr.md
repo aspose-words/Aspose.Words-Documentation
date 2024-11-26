@@ -7,6 +7,7 @@ type: docs
 description: "Detaylarda ve Aspose.Words tarafından sağlanan gelişmiş özelliklerde resim şekilleri için Java."
 weight: 300
 url: /tr/java/working-with-images/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words kullanıcılara görüntüleri çok esnek bir şekilde çalışmak için izin verir. Bu makalede, yalnızca görüntülerle çalışmanın bazı olasılıklarını keşfedebilirsiniz.

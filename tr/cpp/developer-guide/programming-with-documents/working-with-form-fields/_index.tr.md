@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki Form Alanlarıyla Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Form Alanları ile Çalışma
@@ -7,6 +7,7 @@ description: "Form Alanlarını Anlama özelliği, C++ kullanarak Form Alanları
 type: docs
 weight: 380
 url: /tr/cpp/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Doldurma boşlukları (alanlar) içeren bir belge form olarak bilinir. Örneğin, kullanıcıların girdileri seçebileceği açılır listeleri kullanan Microsoft Word biçiminde bir kayıt formu oluşturabilirsiniz. Form alanı, ad veya adres gibi belirli bir veri türünün depolandığı konumdur. Microsoft Word içindeki form alanları arasında metin girişi, Combobox ve onay kutusu bulunur.

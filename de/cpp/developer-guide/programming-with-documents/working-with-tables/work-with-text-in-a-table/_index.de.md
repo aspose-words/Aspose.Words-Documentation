@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit Text in einer Tabelle
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit Text in einer Tabelle
@@ -7,6 +7,7 @@ description: "Ersetzen Sie Text in einer Tabelle in C++. Extrahieren Sie einfach
 type: docs
 weight: 60
 url: /de/cpp/work-with-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Wie in früheren Artikeln erwähnt, enthält eine Tabelle normalerweise einfachen Text, obwohl andere Inhalte wie Bilder oder sogar andere Tabellen in Tabellenzellen platziert werden können.

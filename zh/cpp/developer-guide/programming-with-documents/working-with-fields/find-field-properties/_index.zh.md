@@ -1,4 +1,4 @@
-﻿---
+---
 title: 如何查找字段属性
 second_title: Aspose.Words对于C++
 articleTitle: 查找字段属性
@@ -7,6 +7,7 @@ description: "如何在C++中找到一些字段属性，如字段代码和字段
 type: docs
 weight: 25
 url: /zh/cpp/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 使用[DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/)插入的字段。[InsertField](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertfield/)返回[Field](https://reference.aspose.com/words/cpp/aspose.words.fields/field/)对象。 这是一个facade类，它提供了有用的方法来快速查找字段的某些属性。

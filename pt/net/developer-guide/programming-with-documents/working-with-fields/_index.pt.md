@@ -7,6 +7,7 @@ description: "Introdução ao recurso de campo em Aspose.Words para .NET."
 type: docs
 weight: 370
 url: /pt/net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Fields** em um documento são como espaços reservados onde dados úteis podem ser inseridos. Por exemplo, um campo pode ser uma referência de página, uma fórmula ou um campo mail merge.

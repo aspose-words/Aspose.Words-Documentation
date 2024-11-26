@@ -7,6 +7,7 @@ description: "Định dạng bảng trong chi tiết. Sử dụng Java để đ�
 type: docs
 weight: 70
 url: /vi/java/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Mỗi phần tử của bảng có thể được áp dụng với định dạng khác nhau. Ví dụ, định dạng bảng sẽ được áp dụng vào toàn bộ bảng, định dạng hàng chỉ áp dụng cho các hàng cụ thể và định dạng ô chỉ áp dụng cho một số ô nhất định.

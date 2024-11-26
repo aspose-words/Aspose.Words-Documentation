@@ -7,6 +7,7 @@ description: "Convierta a PDF/A-1, PDF/A-2, PDF/A-4 y PDF/UA usando C#. Hay algu
 type: docs
 weight: 28
 url: /es/net/working-with-pdfa-or-pdfua/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Los formatos PDF/A y PDF/UA imponen varios requisitos relacionados con el contenido del documento que no se pueden cumplir durante la conversión automática de un documento en formato Word a PDF. Estos requisitos deben verificarse y corregirse en un documento de Word antes de la conversión o en un documento PDF después de la conversión para producir un documento totalmente compatible con PDF/A y PDF/UA.

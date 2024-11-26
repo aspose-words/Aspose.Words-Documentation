@@ -7,6 +7,7 @@ description: "Các tính năng định dạng Microsoft Word nâng cao, làm vi�
 type: docs
 weight: 110
 url: /vi/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Lớp [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) được sử dụng để quản lý tích hợp sẵn và áp dụng các cài đặt do người dùng xác định cho kiểu.
@@ -36,7 +37,7 @@ Trong tài liệu mẫu này, văn bản được định dạng bằng kiểu �
 
 ### Mật mã
 
-Việc triển khai truy vấn dựa trên kiểu khá đơn giản trong mô hình đối tượng tài liệu Aspose.Words, vì nó chỉ sử dụng các công cụ đã có sẵn. Hai phương thức lớp được triển khai cho giải pháp này:# **ParagraphsByStyleName** – Phương thức này truy xuất một mảng các đoạn văn đó trong tài liệu có tên kiểu cụ thể.# **RunsByStyleName** – Phương thức này truy xuất một mảng gồm các lần chạy trong tài liệu có tên kiểu cụ thể. Cả hai phương thức này đều rất giống nhau, điểm khác biệt duy nhất là các loại nút và cách thể hiện kiểu đó thông tin trong đoạn văn và chạy các nút. Đây là cách triển khai ParagraphsByStyleName: Ví dụ dưới đây tìm tất cả các đoạn văn được định dạng với kiểu đã chỉ định.
+Việc triển khai truy vấn dựa trên kiểu khá đơn giản trong mô hình đối tượng tài liệu Aspose.Words, vì nó chỉ sử dụng các công cụ đã có sẵn. Hai phương thức lớp được triển khai cho giải pháp này: **ParagraphsByStyleName** – Phương thức này truy xuất một mảng các đoạn văn đó trong tài liệu có tên kiểu cụ thể. **RunsByStyleName** – Phương thức này truy xuất một mảng gồm các lần chạy trong tài liệu có tên kiểu cụ thể. Cả hai phương thức này đều rất giống nhau, điểm khác biệt duy nhất là các loại nút và cách thể hiện kiểu đó thông tin trong đoạn văn và chạy các nút. Đây là cách triển khai ParagraphsByStyleName: Ví dụ dưới đây tìm tất cả các đoạn văn được định dạng với kiểu đã chỉ định.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.cs" >}}
 

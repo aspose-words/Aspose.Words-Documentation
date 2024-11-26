@@ -7,6 +7,7 @@ description: "שיפור Microsoft Word עיצוב תכונות, עבודה עם
 type: docs
 weight: 110
 url: /he/java/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The The The [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) הכיתה משמשת לניהול הגדרות בנויות וליישם הגדרות מוגדרות למשתמש לסגנונות.

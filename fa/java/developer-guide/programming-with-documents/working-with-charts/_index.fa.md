@@ -1,22 +1,23 @@
----
-title: کار با چارت ها در Java
+﻿---
+title: کار با نمودارها در Java
 second_title: Aspose.Words برای Java
-articleTitle: کار با چارت ها
-linktitle: کار با چارت ها
-description: "مقدمه ای بر ویژگی چارت، چگونه برای ایجاد و دستکاری نمودار با استفاده از Java..."
+articleTitle: کار با نمودارها
+linktitle: کار با نمودارها
+description: "مقدمه ای به ویژگی نمودار، نحوه ایجاد و دستکاری نمودارها با استفاده از Java."
 type: docs
 weight: 310
 url: /fa/java/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
-جدید [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) روش اضافه شده به [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) کلاس بنابراین، بیایید ببینیم که چگونه یک نمودار ستون ساده را با استفاده از سند وارد کنیم. **Insert نمودار** روش
+روش جدید [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) به کلاس [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) اضافه شد. پس بیایید ببینیم که چگونه یک نمودار ستون ساده را با استفاده از روش **insertChart** وارد سند کنیم.
 
 
-## چگونه یک نمودار را از Scratch با استفاده از Aspose.Words
+## چگونه یک نمودار را از ابتدا با استفاده از Aspose.Wordsوارد کنیم
 
-در این بخش ما یاد خواهیم گرفت که چگونه یک نمودار را به یک سند وارد کنیم.
+در این بخش ما یاد خواهیم گرفت که چگونه یک نمودار را در یک سند قرار دهیم.
 
-###  Insert Column Chart
+###  وارد نمودار ستون
 
 مثال کد زیر نشان می دهد که چگونه نمودار ستون را وارد کنید:
 
@@ -26,7 +27,7 @@ url: /fa/java/working-with-charts/
 
 ![column-chart-aspose-words-java-1](/words/java/working-with-charts/working-with-charts-7.png)
 
-چهار بار اضافی مختلف برای سری وجود دارد اضافه کردن روش، که در معرض پوشش تمام انواع ممکن از منابع داده برای همه انواع نمودار قرار دارد:
+چهار بار اضافی مختلف برای روش اضافه کردن سری وجود دارد که در معرض پوشش تمام انواع ممکن منابع داده برای همه انواع نمودار قرار گرفته است:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertColumnChart2.java" >}}
 
@@ -34,9 +35,9 @@ url: /fa/java/working-with-charts/
 
 ![column-chart-aspose-words-java-2](/words/java/working-with-charts/working-with-charts-8.png)
 
-### Insert Scatter نمودار
+### نمودار پراکندگی را وارد کنید
 
-مثال کد زیر نشان می دهد که چگونه یک نمودار پراکنده را وارد کنید:
+مثال کد زیر نشان می دهد که چگونه یک نمودار پراکندگی را وارد کنید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertScatterChart.java" >}}
 
@@ -44,9 +45,9 @@ url: /fa/java/working-with-charts/
 
 ![scutter-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-9.png)
 
-### Insert Area نمودار
+### وارد نمودار منطقه
 
-مثال کد زیر نشان می دهد که چگونه یک نمودار منطقه ای را وارد کنید:
+مثال کد زیر نشان می دهد که چگونه یک نمودار منطقه را وارد کنید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertAreaChart.java" >}}
 
@@ -54,9 +55,9 @@ url: /fa/java/working-with-charts/
 
 ![area-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-10.png)
 
-### بازی Bubble Chart
+### درج نمودار حباب
 
-مثال کد زیر نشان می دهد که چگونه یک نمودار حبابی را وارد کنید:
+مثال کد زیر نشان می دهد که چگونه یک نمودار حباب را وارد کنید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertBubbleChart.java" >}}
 
@@ -64,125 +65,125 @@ url: /fa/java/working-with-charts/
 
 ![bubble-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-11.png)
 
-## کار با چارت ها از طریق `Shape.Chart` Object Object Object
+## کار با نمودارها از طریق `Shape.Chart` Object
 
-هنگامی که نمودار وارد و پر از داده ها شد، می توانید ظاهر آن را تغییر دهید. [Shape.Chart](https://reference.aspose.com/words/java/com.aspose.words/shape/#getChart) مالکیت شامل تمام گزینه های مربوط به نمودار موجود از طریق عموم مردم است. API...
+هنگامی که نمودار وارد شد و با داده ها پر شد، شما قادر به تغییر ظاهر آن هستید. [Shape.Chart](https://reference.aspose.com/words/java/com.aspose.words/shape/#getChart) property شامل تمام گزینه های مربوط به نمودار است که از طریق public API در دسترس است.
 
-برای مثال، بیایید تغییر کنیم عنوان یا رفتار افسانه ای:
+به عنوان مثال، بیایید عنوان نمودار یا رفتار افسانه ای را تغییر دهیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-changeChartAppearanceUsingShapeChartObject.java" >}}
 
-کد نتایج زیر را ایجاد می کند:
+کد نتایج زیر را تولید می کند:
 
 ![line-chart-aspose-words-java-1](/words/java/working-with-charts/working-with-charts-1.png)
 
-## چگونه با Chart SeriesCollection کار کنیم
+## نحوه کار با ChartSeriesCollection نمودار
 
-نگاهی به [ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/) مجموعه تمام سریال ها از طریق [chart.getSeries()](https://reference.aspose.com/words/java/com.aspose.words/chart/#getSeries) مجموعه، که است **Iterable**:
+بیایید به مجموعه [ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/) نگاه کنیم. تمام سری های نمودار از طریق مجموعه [chart.getSeries()](https://reference.aspose.com/words/java/com.aspose.words/chart/#getSeries) که **Iterable**است در دسترس هستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithChartSeriesCollectionOfChart-WorkWithChartSeriesCollectionOfChart.java" >}}
 
-شما می توانید سری اول را به یک یا روشن همه آنها و همچنین اضافه کردن یک جدید در صورت نیاز. نمودار تازه وارد دارای برخی از سری های پیش فرض اضافه شده به این مجموعه است. برای حذف آنها باید تماس بگیرید **نمودار.get Series()** روش
+شما می توانید سری را یک به یک حذف کنید یا همه آنها را پاک کنید و همچنین در صورت نیاز یک سری جدید اضافه کنید. نمودار تازه وارد شده دارای مجموعه ای پیش فرض است که به این مجموعه اضافه شده است. برای حذف آنها باید روش **chart.getSeries().clear()** را فراخوانی کنید.
 
-## کار با کلاس تک چارت
+## کار با کلاس Single ChartSeries
 
-در اینجا چگونگی کار با یک سری خاص است.
+در اینجا نحوه کار با یک سری خاص آورده شده است.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-workingWithSingleChartSeries.java" >}}
 
-نتیجه زیر را ببینید:
+لطفا نتیجه را در زیر ببینید:
 
 ![line-chart-aspose-words-java-2](/words/java/working-with-charts/working-with-charts-2.png)
 
-تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک تک [ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/) پیش فرض [ChartDataPoint](https://reference.aspose.com/words/java/com.aspose.words/chartdatapoint/) گزینه ها، لطفا سعی کنید از کد زیر برای تغییر آنها استفاده کنید:
+همه گزینه های تک [ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/) دارای گزینه های پیش فرض [ChartDataPoint](https://reference.aspose.com/words/java/com.aspose.words/chartdatapoint/) هستند، لطفا از کد زیر برای تغییر آنها استفاده کنید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-changeDefaultChartDataPointOptions.java" >}}
 
 ![line-chart-aspose-words-java3](/words/java/working-with-charts/working-with-charts-3.png)
 
-## چگونه با یک نمودار واحد کار کنیم `ChartSeries`
+## چگونه با تک ChartDataPoint از `ChartSeries`کار کنیم
 
-استفاده از [ChartDataPoint](https://reference.aspose.com/words/java/com.aspose.words/chartdatapoint/) شما قادر به سفارشی سازی قالب بندی یک نقطه داده واحد از سری نمودار:
+با استفاده از [ChartDataPoint](https://reference.aspose.com/words/java/com.aspose.words/chartdatapoint/) شما قادر به سفارشی کردن قالب بندی یک نقطه داده واحد از سری نمودار هستید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithSingleChartDataPointOfAChartSeries-WorkWithSingleChartDataPointOfAChartSeries.java" >}}
 
-نتیجه زیر را ببینید:
+لطفا نتیجه را در زیر ببینید:
 
 ![line-chart-aspose-words-java-4](/words/java/working-with-charts/working-with-charts-4.png)
 
-## چگونه با ChartdataLabel کار کنیم
+## چگونه با ChartDataLabel از یک ChartSeriesکار کنیم
 
-استفاده از [ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/) شما قادر به تعیین قالب بندی یک برچسب داده واحد از سری نمودار، مانند Show / Hide LegendKey، CategoryName، SeriesName، ارزش و غیره:
+با استفاده از [ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/) شما می توانید قالب بندی یک برچسب داده واحد از سری نمودار را مشخص کنید، مانند show / hide LegendKey, CategoryName, SeriesName, ارزش و غیره:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithChartDataLabelOfASingleChartSeries-WorkWithChartDataLabelOfASingleChartSeries.java" >}}
 
-نتیجه زیر را ببینید:
+لطفا نتیجه را در زیر ببینید:
 
 ![bar-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-5.png)
 
-## چگونه گزینه های پیش فرض را برای ChartDataLabels از Chart Series تعریف کنیم
+## چگونه گزینه های پیش فرض را برای ChartDataLabels از ChartSeriesتعریف کنیم
 
-The The The The The The [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/) کلاس ویژگی هایی را تعریف می کند که می تواند برای تنظیم گزینه های پیش فرض برای **ChartDataLabels** نمودار **Series**... این ویژگی ها شامل SetShowCategoryName، setShowBubbleSize، setshowPercentage، setshow SeriesName، Setshow ارزش و غیره:
+کلاس [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/) ویژگی هایی را تعریف می کند که می تواند برای تنظیم گزینه های پیش فرض برای **ChartDataLabels** برای نمودار **Series** استفاده شود. این خواص عبارتند ازsetShowCategoryName, setShowBubbleSize, setShowPercentage, setShowSeriesName, setShowValue و غیره:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-DefaultOptionsForDataLabels-DefaultOptionsForDataLabels.java" >}}
 
-نتیجه زیر را ببینید:
+لطفا نتیجه را در زیر ببینید:
 
 ![pie-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-6.png)
 
-## چگونه به فرمت تعداد برچسب داده های چارت
+## نحوه قالب بندی تعداد برچسب داده نمودار
 
-استفاده از [NumberFormat](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/#getNumberFormat) اموال، شما می توانید قالب بندی شماره یک برچسب داده واحد از نمودار را مشخص کنید.
+با استفاده از ویژگی [NumberFormat](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/#getNumberFormat)، می توانید قالب بندی شماره یک برچسب داده واحد نمودار را مشخص کنید.
 
 مثال کد زیر نشان می دهد که چگونه تعدادی از برچسب داده ها را فرمت کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartNumberFormat-ChartNumberFormat.java" >}}
 
-## چگونه برای تنظیم Chart Properties
+## نحوه تنظیم ویژگی های محور نمودار
 
-اگر می خواهید با محور نمودار، مقیاس و واحدهای نمایش برای محور ارزش کار کنید، لطفا از آن استفاده کنید. [ChartAxis](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/), [AxisDisplayUnit](https://reference.aspose.com/words/java/com.aspose.words/axisdisplayunit/), و [AxisScaling](https://reference.aspose.com/words/java/com.aspose.words/axisscaling/) کلاس ها
+اگر می خواهید با محور نمودار، مقیاس بندی و واحدهای نمایش برای محور ارزش کار کنید، لطفا از کلاس های [ChartAxis](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/)، [AxisDisplayUnit](https://reference.aspose.com/words/java/com.aspose.words/axisdisplayunit/) و [AxisScaling](https://reference.aspose.com/words/java/com.aspose.words/axisscaling/) استفاده کنید.
 
-مثال کد زیر نشان می دهد که چگونه خواص X و Y را تعریف کنیم:
+مثال کد زیر نشان می دهد که چگونه ویژگی های محور X و Y را تعریف کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-DefineXYAxisProperties.java" >}}
 
-### چگونه تنظیم کنیم Dateارزش زمان محور
+### چگونه مقدار DateTime محور را تنظیم کنیم
 
-مثال کد زیر نشان می دهد که چگونه مقادیر تاریخ / زمان را به خواص محور تنظیم کنیم:
+مثال کد زیر نشان می دهد که چگونه مقادیر تاریخ/زمان را به ویژگی های محور تنظیم کنید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetDateTimeValuesToAxis.java" >}}
 
-### چگونه مقدار شماره محور را تنظیم کنیم
+### نحوه قالب بندی تعداد ارزش محور
 
 مثال کد زیر نشان می دهد که چگونه فرمت اعداد را در محور ارزش تغییر دهید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetNumberFormatForAxis.java" >}}
 
-### چگونه Bounds of Axis را تنظیم کنیم
+### نحوه تنظیم مرزهای محور
 
-The The The The The The `AxisBound` کلاس نشان دهنده حداقل یا حداکثر مقدار محور است. Bound را می توان به عنوان یک عددی، تاریخ و یا یک ارزش ویژه " خودکار" مشخص کرد.
+کلاس `AxisBound` حداقل یا حداکثر مرز مقادیر محور را نشان می دهد. Bound را می توان به عنوان یک مقدار عددی، تاریخ و زمان یا یک مقدار ویژه "خودکار" مشخص کرد.
 
-مثال کد زیر نشان می دهد که چگونه مرزهای یک محور را تنظیم کنیم:
+مثال کد زیر نشان می دهد که چگونه مرزهای یک محور را تنظیم کنید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetboundsOfAxis.java" >}}
 
-### چگونه واحد Interval را بین برچسب ها تنظیم کنیم
+### نحوه تنظیم واحد فاصله بین برچسب ها
 
-مثال کد زیر نشان می دهد که چگونه واحد فاصله بین برچسب ها را بر روی محور تنظیم کنیم:
+مثال کد زیر نشان می دهد که چگونه واحد فاصله بین برچسب ها را در یک محور تنظیم کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetIntervalUnitBetweenLabelsOnAxis.java" >}}
 
-### چگونه به Hide Chart Axis
+### چگونه برای پنهان کردن محور نمودار
 
-اگر می خواهید محور نمودار را نشان دهید یا پنهان کنید، می توانید به سادگی با تنظیم ارزش آن به این هدف برسید. `ChartAxis.Hidden` مالکیت
+اگر می خواهید محور نمودار را نشان دهید یا پنهان کنید، می توانید به سادگی با تنظیم مقدار `ChartAxis.Hidden` خاصیت به این هدف برسید.
 
-مثال کد زیر نشان می دهد که چگونه Y-axis نمودار را پنهان کنیم:
+مثال کد زیر نشان می دهد که چگونه محور Y نمودار را پنهان کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-HideChartAxis.java" >}}
 
-### چگونه برچسب Align Chart
+### چگونه برچسب نمودار را تراز کنیم
 
-اگر می خواهید یک تراز متنی را برای برچسب های چند خطی تنظیم کنید، می توانید به سادگی با تنظیم ارزش برچسب های چند خط به آن دست یابید. [setTickLabelAlignment()](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/#setTickLabelAlignment-int) مالکیت
+اگر می خواهید یک تراز متن برای برچسب های چند خطی تنظیم کنید، می توانید به سادگی با تنظیم مقدار [setTickLabelAlignment()](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/#setTickLabelAlignment-int) property به این هدف برسید.
 
 مثال کد زیر نشان می دهد که چگونه تراز برچسب را تیک بزنید:
 
@@ -190,15 +191,15 @@ The The The The The The `AxisBound` کلاس نشان دهنده حداقل یا
 
 {{% alert color="primary" %}}
 
-Microsoft Word ترازها برچسب چارت به طور پیش فرض به مرکز
+Microsoft Word برچسب نمودار را به طور پیش فرض به مرکز تراز می کند.
 
 {{% /alert %}}
 
-## چگونه تنظیم و دستکاری کنیم
+## نحوه تنظیم قالب بندی پر کردن و سکته مغزی
 
-قالب بندی پر و سکته می تواند برای سری نمودار، نقاط داده و نشانگرها تنظیم شود. برای انجام این کار، باید از خواص آن استفاده کنید. `ChartFormat` نوع در نمودار سری، ChartDataPoint و ChartMarker کلاس، و همچنین alias برای برخی از خواص، مانند ForeColor، BackColor، Visible و Transparency در `Stroke` کلاس
+قالب بندی Fill و stroke را می توان برای سری های نمودار، نقاط داده و نشانگرها تنظیم کرد. برای انجام این کار، باید از ویژگی های نوع `ChartFormat` در کلاس های ChartSeries، ChartDataPoint و ChartMarker و همچنین نام مستعار برای برخی از ویژگی ها مانند ForeColor، BackColor، قابل مشاهده و شفافیت در کلاس `Stroke` استفاده کنید.
 
-مثال کد زیر نشان می دهد که چگونه رنگ سری را تنظیم کنیم:
+مثال کد زیر نشان می دهد که چگونه رنگ سری را تنظیم کنید:
 
 {{< highlight csharp >}}
 Document doc = new Document();
@@ -228,7 +229,7 @@ series3.Format.Fill.ForeColor = Color.Blue;
 doc.Save("ColumnColor.docx");
 {{< /highlight >}}
 
-مثال کد زیر نشان می دهد که چگونه رنگ و وزن خط را تنظیم کنیم:
+مثال کد زیر نشان می دهد که چگونه رنگ و وزن خط را تنظیم کنید:
 
 {{< highlight csharp >}}
 Document doc = new Document();

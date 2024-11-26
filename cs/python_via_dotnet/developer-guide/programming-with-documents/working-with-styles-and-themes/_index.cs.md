@@ -7,6 +7,7 @@ description: "Přístup a řízení stylů a témat v dokumentu pomocí Python."
 type: docs
 weight: 110
 url: /cs/python-net/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 • [StyleCollection](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/) třída se používá pro správu vestavěných a aplikaci uživatelsky definovaných nastavení na styly.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Pengaturan font FallBack dari XML di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Pengaturan Fonta FallBack dari XML
@@ -7,6 +7,7 @@ description: "Mekanisme fallback Font digunakan saat font diselesaikan, tetapi t
 type: docs
 weight: 14
 url: /id/cpp/font-fallback-settings-from-xml/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Ada dua mekanisme berbeda yang digunakan dalam Aspose.Words - Substitusi font dan fallback Font. Penggantian font digunakan ketika font yang ditentukan dalam dokumen tidak dapat ditemukan di antara sumber font seperti yang dijelaskan di bagian di atas. Mekanisme fallback Font digunakan saat font diselesaikan, tetapi tidak berisi karakter tertentu. Dalam hal ini, Aspose.Words mencoba menggunakan salah satu font fallback untuk karakter tersebut.

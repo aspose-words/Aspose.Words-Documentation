@@ -7,6 +7,7 @@ description: "Aspose.Words zamiast Java zapewnia użytkownikom szeroki wachlarz 
 type: docs
 weight: 40
 url: /pl/java/features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words zapewnia użytkownikom szeroki zakres funkcji. Użytkownicy mogą wykonywać ogromną ilość zadań związanych z dokumentacją - od konwersji dokumentów z jednego obsługiwanego formatu na inny oraz modyfikacji tych dokumentów podczas procesu konwersji na zadania biznesowe, takie jak tworzenie ustrukturyzowanych i wizualnie atrakcyjnych dokumentów lub automatyzacja sprawozdawczości.
@@ -121,16 +122,16 @@ Możesz użyć Aspose.Words jako samodzielne rozwiązanie sprawozdawcze. Zaproje
 
 |  Cecha |
 |  :-  |
-| Użyj wszystkich standardów Microsoft Word mail merge pola w raportach, w tym `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINA. |
-| Wykonaj mail merge dla dokumentów, które zawierają nawet najbardziej złożone i zagnieżdżone `IF` pola i wzory. |
-| Dynamicznie wyhodować tabele lub fragmenty dokumentu ze źródła danych mail merge regionów. |
+| Użyj wszystkich standardów Microsoft Word Mail Merge pola w raportach, w tym `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINA. |
+| Wykonaj Mail Merge dla dokumentów, które zawierają nawet najbardziej złożone i zagnieżdżone `IF` pola i wzory. |
+| Dynamicznie wyhodować tabele lub fragmenty dokumentu ze źródła danych Mail Merge regionów. |
 | Łatwo generować raporty zawierające dane master- detal (parent- child), takie jak Order / OrderSzczegóły. |
 | Populacja dokumentów z danymi z dowolnego Java źródło danych, które wdraża `ResultSet` interfejs. |
 | Populacja dokumentów z dowolnego źródła danych, takich jak plik XML lub obiekty biznesowe poprzez wdrożenie **IMailMergeDataSource** interfejs. |
 | Przejmij precyzyjną kontrolę, taką jak formatowanie liczb, nad tym, w jaki sposób dane są łączone za pomocą zdarzeń. |
 | Wstaw obrazy podczas mail merge. |
-| Programatycznie tworzyć lub modyfikować Microsoft Word mail merge źródło danych dla dokumentu. Zachowaj mail merge ustawienia i źródła danych. |
-| Pobieranie mail merge nazwy pól. |
+| Programatycznie tworzyć lub modyfikować Microsoft Word Mail Merge źródło danych dla dokumentu. Zachowaj Mail Merge ustawienia i źródła danych. |
+| Pobieranie Mail Merge nazwy pól. |
 
 ## Funkcje sprawozdawczości
 

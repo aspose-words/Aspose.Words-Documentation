@@ -1,16 +1,17 @@
----
-title: تحويل وثيقة إلى MHTML وإرسال بواسطة البريد الإلكتروني
-second_title: Aspose.Words for Java
-articleTitle: تحويل وثيقة إلى MHTML وإرسال بواسطة البريد الإلكتروني
-linktitle: تحويل وثيقة إلى MHTML وإرسال بواسطة البريد الإلكتروني
-description: "تحويل أي وثيقة إلى استمارة MHTML ثم إرسالها بالبريد الإلكتروني باستخدام منتج عائلي آخر Java."
+﻿---
+title: تحويل مستند إلى MHTML وإرساله عبر البريد الإلكتروني
+second_title: Aspose.Words ل Java
+articleTitle: تحويل مستند إلى MHTML وإرساله عبر البريد الإلكتروني
+linktitle: تحويل مستند إلى MHTML وإرساله عبر البريد الإلكتروني
+description: "قم بتحويل أي مستند إلى تنسيق MHTML ثم أرسله عبر البريد الإلكتروني باستخدام منتج عائلي آخر في Java."
 type: docs
 weight: 30
 url: /ar/java/convert-a-document-to-mhtml-and-send-it-by-email/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words ويمكن تحويل أي وثيقة إلى استمارة MHTML (محفوظات الشبكة العالمية). هذا يجعل من المناسب استخدامها Aspose.Words و `Aspose.Email` معاً يمكنك تحميل وثيقة محددة مسبقا في أي شكل من أشكال الدعم، مثل DOC، OOXML، أو RTF، إلى Aspose.Wordsاملأها بالبيانات، واحتفظ بالوثيقة الناتجة عن ذلك باعتبارها MHTML، ثم أرسلها بالبريد الإلكتروني باستخدام `Aspose.Email`.
+Aspose.Words يمكن تحويل أي مستند إلى تنسيق MHTML (أرشيف الويب). هذا يجعلها ملائمة للاستخدام Aspose.Words و `Aspose.Email` معا. يمكنك تحميل مستند محدد مسبقا بأي تنسيق مدعوم، مثل DOC أو OOXML أو RTF، إلى Aspose.Words، وتعبئته بالبيانات، وحفظ المستند الناتج باسم MHTML، ثم إرساله عبر البريد الإلكتروني باستخدام `Aspose.Email`.
 
-The following code example shows how to convert any document to MHTML and send it by email:
+يوضح مثال الكود التالي كيفية تحويل أي مستند إلى MHTML وإرساله عبر البريد الإلكتروني:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ConvertDocumentToMHTMLAndEmail.java" >}}

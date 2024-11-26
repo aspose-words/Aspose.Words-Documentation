@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu TextBoxes în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Lucrul cu TextBoxes
@@ -7,6 +7,7 @@ description: "Lucrul cu textboxes într-un document folosind Python."
 type: docs
 weight: 250
 url: /ro/python-net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 În Aspose.Words, clasa [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) este utilizată pentru a specifica modul în care un text este afișat în interiorul unei forme. Acesta oferă o proprietate publică numită [parent](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/parent/) pentru a obține forma părinte pentru caseta de text pentru a permite clientului să găsească linked [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) din linked [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/).

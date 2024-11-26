@@ -1,4 +1,4 @@
-﻿---
+---
 title: Asya Tipografisi C++
 second_title: Aspose.Words için C++
 articleTitle: Asya Tipografisi ile Çalışmak
@@ -7,6 +7,7 @@ description: "C++ kullanarak Asya tipografisi ile çalışın. Asya ve Latin met
 type: docs
 weight: 240
 url: /tr/cpp/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Asya Tipografisi, Asya dillerinde yazılmış belgelerdeki metin paragrafları için bir dizi seçenektir.

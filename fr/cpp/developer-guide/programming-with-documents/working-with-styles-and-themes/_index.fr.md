@@ -1,4 +1,4 @@
-﻿---
+---
 title: Travailler avec des styles en C++
 second_title: Aspose.Words pour C++
 articleTitle: Travailler avec des Styles
@@ -7,6 +7,7 @@ description: "Fonctionnalités de formatage Microsoft Word améliorées, travail
 type: docs
 weight: 110
 url: /fr/cpp/working-with-styles-and-themes/
+timestamp: 2024-01-30-16-22-34
 ---
 
 La classe [StyleCollection](https://reference.aspose.com/words/cpp/aspose.words/stylecollection/) est utilisée pour gérer les paramètres intégrés et appliquer les paramètres définis par l'utilisateur aux styles.
@@ -33,7 +34,7 @@ Dans cet exemple de document, le texte formaté avec le style de paragraphe "En-
 
 ### Le Code
 
-L'implémentation d'une requête basée sur le style est assez simple dans le modèle d'objet de document Aspose.Words, car elle utilise simplement des outils déjà en place. Deux méthodes de classe sont implémentées pour cette solution:# **ParagraphsByStyleName** – Cette méthode récupère un tableau des paragraphes du document qui ont un nom de style spécifique.# **RunsByStyleName** - Cette méthode récupère un tableau de ces exécutions dans le document qui ont un nom de style spécifique. Ces deux méthodes sont très similaires, les seules différences étant les types de nœuds et la représentation des informations de style dans les nœuds de paragraphe et d'exécution. Voici une implémentation de ParagraphsByStyleName. Ci-dessous, l'exemple trouve tous les paragraphes formatés avec le style spécifié.
+L'implémentation d'une requête basée sur le style est assez simple dans le modèle d'objet de document Aspose.Words, car elle utilise simplement des outils déjà en place. Deux méthodes de classe sont implémentées pour cette solution: **ParagraphsByStyleName** – Cette méthode récupère un tableau des paragraphes du document qui ont un nom de style spécifique. **RunsByStyleName** - Cette méthode récupère un tableau de ces exécutions dans le document qui ont un nom de style spécifique. Ces deux méthodes sont très similaires, les seules différences étant les types de nœuds et la représentation des informations de style dans les nœuds de paragraphe et d'exécution. Voici une implémentation de ParagraphsByStyleName. Ci-dessous, l'exemple trouve tous les paragraphes formatés avec le style spécifié.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.cpp" >}}
 

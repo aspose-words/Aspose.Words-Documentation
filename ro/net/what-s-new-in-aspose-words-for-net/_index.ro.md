@@ -1,4 +1,4 @@
-﻿---
+---
 title: Ce este nou
 second_title: Aspose.Words pentru .NET
 articleTitle: What ' s new in Aspose.Words pentru .NET
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words pentru .NET se extinde și îmbunătățește zilnic. Pe această pagină, puteți afla despre caracteristicile uriașe și cele mai interesante ale produsului."
 weight: 10
 url: /ro/net/what-s-new-in-aspose-words-for-net/
+timestamp: 2024-11-18-12-56-02
 ---
 
 Această pagină descrie cele mai interesante caracteristici noi Aspose.Words introduse în versiunile recente.

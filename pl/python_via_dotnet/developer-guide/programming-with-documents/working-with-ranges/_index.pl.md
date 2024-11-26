@@ -7,6 +7,7 @@ description: "Pracuj z zakresami w dokumencie za pomocą Python."
 type: docs
 weight: 130
 url: /pl/python-net/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

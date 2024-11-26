@@ -1,4 +1,4 @@
-﻿---
+---
 title: 製品概要
 second_title: C++の場合Aspose.Words
 articleTitle: 製品概要
@@ -7,6 +7,7 @@ description: "C++の場合Aspose.Words 他のソフトウェアに依存せず�
 type: docs
 weight: 5
 url: /ja/cpp/product-overview/
+timestamp: 2024-06-05-14-43-57
 ---
 
 <img src="product-overview_1" alt="aspose-words-product_cpp" align="left" style="width:64px; margin: 0 30px 30px 0"/>

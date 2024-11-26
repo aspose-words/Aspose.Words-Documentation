@@ -8,6 +8,7 @@ type: docs
 weight: 10
 url: /net/composing-expressions/
 aliases: [/net/template-syntax/#composing-expressions]
+timestamp: 2024-09-25-11-08-55
 ---
 
 *Expression* is a central concept of the template syntax. Every tag is bound with an expression that is evaluated during runtime, and its result is used by LINQ Reporting Engine according to the tag's role.

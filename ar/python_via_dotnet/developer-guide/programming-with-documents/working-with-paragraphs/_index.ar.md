@@ -7,6 +7,7 @@ description: "إدراج فقرة وتحديد تنسيقها في مستند ب
 type: docs
 weight: 210
 url: /ar/python-net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 الفقرة عبارة عن مجموعة من الأحرف المدمجة في كتلة منطقية وتنتهي بحرف خاص - *فاصل الفقرة*. في Aspose.Words، يتم تمثيل الفقرة بواسطة فئة [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/).

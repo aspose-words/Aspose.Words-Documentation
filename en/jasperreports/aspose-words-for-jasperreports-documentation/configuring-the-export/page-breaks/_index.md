@@ -1,4 +1,4 @@
-﻿---
+---
 title: Page Breaks
 second_title: Aspose.Words for JasperReports
 articleTitle: Page Breaks
@@ -7,6 +7,7 @@ description: "Aspose.Words for JasperReports supports three ways page breaks are
 type: docs
 weight: 50
 url: /jasperreports/page-breaks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

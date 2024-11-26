@@ -7,6 +7,7 @@ description: "Trabalhar com partes de uma tabela – linhas, colunas e células 
 type: docs
 weight: 30
 url: /pt/python-net/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Para ter mais controle sobre o funcionamento das tabelas, aprenda como manipular colunas e linhas.

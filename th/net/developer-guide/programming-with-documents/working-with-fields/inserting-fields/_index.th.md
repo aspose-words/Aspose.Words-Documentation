@@ -7,6 +7,7 @@ description: "วิธีแทรกช่องลงในเอกสาร
 type: docs
 weight: 20
 url: /th/net/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 มีหลายวิธีในการแทรกฟิลด์ลงในเอกสาร:
@@ -86,7 +87,7 @@ url: /th/net/inserting-fields/
 
 ### การแทรกฟิลด์ Mail Merge `ADDRESSBLOCK` ลงในเอกสารโดยใช้ DOM
 
-ช่อง `ADDRESSBLOCK` ใช้เพื่อแทรกบล็อกที่อยู่ mail merge ในเอกสาร Word ฟิลด์ `ADDRESSBLOCK` ในเอกสาร Word สามารถแสดงด้วยคลาส [FieldAddressBlock](https://reference.aspose.com/words/net/aspose.words.fields/fieldaddressblock/) คุณสามารถใช้คลาส **FieldAddressBlock** เพื่อดำเนินการต่อไปนี้:
+ช่อง `ADDRESSBLOCK` ใช้เพื่อแทรกบล็อกที่อยู่ Mail Merge ในเอกสาร Word ฟิลด์ `ADDRESSBLOCK` ในเอกสาร Word สามารถแสดงด้วยคลาส [FieldAddressBlock](https://reference.aspose.com/words/net/aspose.words.fields/fieldaddressblock/) คุณสามารถใช้คลาส **FieldAddressBlock** เพื่อดำเนินการต่อไปนี้:
 
 - ระบุว่าจะรวมชื่อประเทศ/ภูมิภาคในช่องหรือไม่
 - ระบุว่าจะจัดรูปแบบที่อยู่ตามประเทศ/ภูมิภาคของผู้รับตามที่กำหนดโดย POST*CODE (Universal Postal Union 2006)
@@ -128,7 +129,7 @@ url: /th/net/inserting-fields/
 
 - ระบุชื่อบุ๊คมาร์ค
 - ระบุการตอบสนองของผู้ใช้เริ่มต้น (ค่าเริ่มต้นที่มีอยู่ในหน้าต่างแจ้ง)
-- ระบุว่าควรได้รับการตอบสนองของผู้ใช้หนึ่งครั้งต่อการดำเนินการ mail merge หรือไม่
+- ระบุว่าควรได้รับการตอบสนองของผู้ใช้หนึ่งครั้งต่อการดำเนินการ Mail Merge หรือไม่
 - ระบุข้อความพร้อมท์ (ชื่อของหน้าต่างพร้อมท์)
 
 {{% alert color="primary" %}}

@@ -7,6 +7,7 @@ description: "Gerenciamento avançado de conteúdo de documentos, como criar e m
 type: docs
 weight: 390
 url: /pt/net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 No Microsoft Word, você pode criar um formulário começando com um modelo e adicionando controles de conteúdo, incluindo caixas de seleção, caixas de texto, seletores de data e listas suspensas. No Aspose.Words, uma tag de documento estruturado ou controle de conteúdo de qualquer documento carregado no Aspose.Words é importado como um nó StructuredDocumentTag. Tags estruturadas de documentos (SDT ou controle de conteúdo) permitem incorporar a semântica definida pelo cliente, bem como seu comportamento e aparência em um documento.

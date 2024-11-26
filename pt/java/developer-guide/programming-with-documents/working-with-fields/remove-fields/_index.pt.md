@@ -1,17 +1,18 @@
----
-title: Remover Campos em Java
+﻿---
+title: Remover campos em Java
 second_title: Aspose.Words para Java
-articleTitle: Remover campos
-linktitle: Remover campos
-description: "Saiba como remover campos em Java. Remover campos programaticamente usando Java API."
+articleTitle: Remover Campos
+linktitle: Remover Campos
+description: "Saiba como remover campos em Java. Remova os campos programaticamente usando Java API."
 type: docs
 weight: 35
 url: /pt/java/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Às vezes é necessário remover um campo do documento. Isso pode ocorrer quando deve ser substituído por um tipo de campo diferente ou quando o campo não é mais necessário no documento. Por exemplo, `TOC` campo ao salvar para HTML.
+Às vezes, é necessário remover um campo do documento. Isso pode ocorrer quando for substituído por um tipo de campo diferente ou quando o campo não for mais necessário no documento. Por exemplo, um campo `TOC` ao salvar em HTML.
 
-Para remover um campo inserido em um documento usando [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean), usar o retornado [Field](https://reference.aspose.com/words/java/com.aspose.words/field/) objeto, que fornece um conveniente [Remove](https://reference.aspose.com/words/java/com.aspose.words/field/#remove) método para remover facilmente o campo do documento.
+Para remover um campo inserido num documento utilizando [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean), use o objeto [Field](https://reference.aspose.com/words/java/com.aspose.words/field/) retornado, que fornece um método [Remove](https://reference.aspose.com/words/java/com.aspose.words/field/#remove) conveniente para remover facilmente o campo do documento.
 
 O exemplo de código a seguir mostra como remover um campo do documento:
 
@@ -19,6 +20,6 @@ O exemplo de código a seguir mostra como remover um campo do documento:
 
 {{% alert color="primary" %}}
 
-Você pode baixar o arquivo de amostra deste exemplo a partir de [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Various%20fields.docx).
+Você pode baixar o arquivo de exemplo deste exemplo em [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Various%20fields.docx).
 
 {{% /alert %}}

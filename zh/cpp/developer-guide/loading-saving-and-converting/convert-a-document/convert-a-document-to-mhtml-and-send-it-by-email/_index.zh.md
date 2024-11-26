@@ -1,4 +1,4 @@
-﻿---
+---
 title: 将文档转换为MHTML并通过电子邮件发送
 second_title: Aspose.Words对于C++
 articleTitle: 将文档转换为MHTML并通过电子邮件发送
@@ -7,6 +7,7 @@ description: "将文档从几乎任何格式转换为MHTML格式，并通过电�
 type: docs
 weight: 30
 url: /zh/cpp/convert-a-document-to-mhtml-and-send-it-by-email/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words可以将任何文档转换为MHTML（Web存档）格式。 这使得Aspose.Words和`Aspose.Email`一起使用很方便。 您可以将任何支持的格式（如DOC、OOXML或RTF）的预定义文档加载到Aspose.Words中，用数据填充它，将生成的文档保存为MHTML，然后使用`Aspose.Email`通过电子邮件发送。

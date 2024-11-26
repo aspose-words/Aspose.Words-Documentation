@@ -1,4 +1,4 @@
-﻿---
+---
 title: Loading, Saving and Converting in Java
 second_title: Aspose.Words for Java
 articleTitle: Loading, Saving and Converting
@@ -7,6 +7,7 @@ description: "Learn about Aspose.Words for Java features when loading, saving, o
 type: docs
 weight: 20
 url: /java/loading-saving-and-converting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 This section provides information about the features when loading and saving a document, as well as data about the possibilities when converting a document from one format to another.

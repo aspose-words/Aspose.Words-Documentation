@@ -1,4 +1,4 @@
-﻿---
+---
 title: 테이블의 텍스트 작업
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 테이블의 텍스트 작업
@@ -7,6 +7,7 @@ description: "테이블의 텍스트 바꾸기 C++. 다음을 사용하여 테�
 type: docs
 weight: 60
 url: /ko/cpp/work-with-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 이전 기사에서 언급했듯이 테이블에는 일반적으로 일반 텍스트가 포함되어 있지만 이미지 또는 다른 테이블과 같은 다른 내용은 테이블 셀에 배치 할 수 있습니다.

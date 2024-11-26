@@ -7,6 +7,7 @@ description: "使用亚洲打字法工作 Java。 。 。 。 调整亚洲文本
 type: docs
 weight: 240
 url: /zh/java/working-with-asian-typography/
+timestamp: 2024-01-27-14-07-04
 ---
 
 亚洲打字法(Asian Typtography)是以亚洲语言书写的文件中的文本段落的一组选项.

@@ -7,6 +7,7 @@ description: "Podziel dokument na kilka plików za pomocą Python. Użyj funkcji
 type: docs
 weight: 90
 url: /pl/python-net/split-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 *Splitting* lub *dzielenie dokumentu* to proces dzielenia dużego dokumentu na większą liczbę mniejszych plików. Istnieje wiele powodów, dla których warto podzielić plik. Na przykład potrzebujesz tylko niektórych stron z konkretnego dokumentu, a nie całego. Lub ze względu na prywatność chcesz udostępnić innym tylko niektóre części dokumentu. Dzięki funkcji podziału możesz uzyskać tylko potrzebne części dokumentu i wykonać z nimi niezbędne czynności, na przykład oznaczyć, zapisać lub wysłać.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Felder in C++ aktualisieren
 second_title: Aspose.Words für C++
 articleTitle: Felder aktualisieren
@@ -7,6 +7,7 @@ description: "Erfahren Sie, wie Sie Felder in C++ aktualisieren. Aktualisieren S
 type: docs
 weight: 30
 url: /de/cpp/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Normalerweise enthält ein in Microsoft Word eingefügtes Feld bereits einen aktuellen Wert. Wenn das Feld beispielsweise eine Formel oder eine Seitenzahl ist, enthält es den korrekten berechneten Wert für die angegebene Version des Dokuments. Wenn Sie jedoch eine Anwendung haben, die ein Dokument mit Feldern generiert oder ändert, z. B. das Zusammenführen von zwei Dokumenten oder das Auffüllen mit Daten, müssen im Idealfall alle Felder aktualisiert werden, damit das Dokument nützlich ist.
@@ -18,7 +19,7 @@ Wenn ein Dokument geladen wird, ahmt Aspose.Words das Verhalten von Microsoft Wo
 - wenn Sie ein Dokument öffnen / speichern, bleiben die Felder intakt
 - Sie können bei Bedarf alle Felder in einem Dokument explizit aktualisieren, z. B. `TOC` neu erstellen
 - wenn Sie auf PDF oder XPS rendern, werden die Felder für die Seitennummerierung in Kopf- / Fußzeilen aktualisiert
-- wenn Sie mail merge ausführen, werden alle Felder automatisch aktualisiert
+- wenn Sie Mail Merge ausführen, werden alle Felder automatisch aktualisiert
 
 ### Felder programmgesteuert aktualisieren
 
@@ -36,7 +37,7 @@ Das folgende Codebeispiel zeigt, wie alle Felder vor dem Rendern eines Dokuments
 
 ### Automatische Feldaktualisierung während Mail Merge
 
-Wenn Sie eine mail merge ausführen, werden alle Felder im Dokument automatisch aktualisiert. Dies liegt daran, dass mail merge ein Fall einer Feldaktualisierung ist. Das Programm stößt auf ein mail merge -Feld und muss sein Ergebnis aktualisieren, wobei der Wert aus der Datenquelle abgerufen und in das Feld eingefügt wird. Die Logik ist natürlich komplizierter, zum Beispiel wenn das Ende des Bereichs Dokument / mail merge erreicht ist, aber noch weitere Daten zusammengeführt werden müssen, dann muss der Bereich dupliziert und der neue Satz von Feldern aktualisiert werden.
+Wenn Sie eine Mail Merge ausführen, werden alle Felder im Dokument automatisch aktualisiert. Dies liegt daran, dass Mail Merge ein Fall einer Feldaktualisierung ist. Das Programm stößt auf ein Mail Merge -Feld und muss sein Ergebnis aktualisieren, wobei der Wert aus der Datenquelle abgerufen und in das Feld eingefügt wird. Die Logik ist natürlich komplizierter, zum Beispiel wenn das Ende des Bereichs Dokument / Mail Merge erreicht ist, aber noch weitere Daten zusammengeführt werden müssen, dann muss der Bereich dupliziert und der neue Satz von Feldern aktualisiert werden.
 
 ## LastSavedTime -Eigenschaft vor dem Speichern aktualisieren
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Print Documents
 second_title: Aspose.Words for .NET
 articleTitle: Print Documents
@@ -7,6 +7,7 @@ description: "Print a document easily and fast instead of using VSTO in C#."
 type: docs
 weight: 100
 url: /net/print-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## VSTO Words

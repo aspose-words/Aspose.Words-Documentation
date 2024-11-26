@@ -7,6 +7,7 @@ description: "Tambahkan, ganti, atau ubah hyperlink dalam dokumen menggunakan Py
 type: docs
 weight: 50
 url: /id/python-net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hyperlink dalam dokumen Microsoft Word adalah bidang `HYPERLINK`. Dalam Aspose.Words, hyperlink diimplementasikan melalui kelas [FieldHyperlink](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldhyperlink/).

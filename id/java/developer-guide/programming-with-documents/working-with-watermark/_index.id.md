@@ -7,6 +7,7 @@ type: docs
 description: "Dokumen manipulasi watermark menggunakan JavaSitemap"
 weight: 70
 url: /id/java/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Topik ini membahas cara bekerja secara programmatik dengan tanda air menggunakan Aspose.WordsSitemap Tanda air adalah gambar latar belakang yang menampilkan teks dalam dokumen. Tanda air dapat berisi teks atau gambar yang diwakili oleh [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) Sitemap

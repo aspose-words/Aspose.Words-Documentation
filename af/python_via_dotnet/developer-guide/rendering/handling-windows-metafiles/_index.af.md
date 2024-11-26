@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hantering Van Windows Meta Lêers
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Hantering Van Windows Meta Lêers
@@ -7,6 +7,7 @@ description: "Aspose.Words vir Python via .NET implementeer sy eie Windows Metaf
 type: docs
 weight: 30
 url: /af/python-net/handling-windows-metafiles/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Windows Metafile format is'n beeld lêer formaat wat beide vektor en raster grafiese kan bevat. Hierdie formaat word gebruik om grafiese data in geheue of op-skyf lêers te stoor. 'n meta-lêer stoor'n lys van funksie oproepe in die Windows Grafiese Toestel Koppelvlak (GDI) wat uitgevoer moet word om die beeld op die skerm te vertoon. Die stelsel interpreteer en voer hierdie opdragte in die vertoning konteks.

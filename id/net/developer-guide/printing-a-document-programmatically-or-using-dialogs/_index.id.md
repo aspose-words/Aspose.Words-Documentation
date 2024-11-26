@@ -7,6 +7,7 @@ description: "Cetak dokumen di Server menggunakan XpsPrint API yang tidak dikelo
 type: docs
 weight: 55
 url: /id/net/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Artikel ini menjelaskan cara mencetak dokumen pengolah kata dari aplikasi Layanan ASP.NET atau Windows menggunakan Aspose.Words dan `XpsPrint` API. Ini juga menunjukkan metode pencetakan dokumen dengan Pengaturan, Pratinjau cetak, dan dialog Kemajuan pencetakan, dan menjelaskan cara mengurangi waktu panggilan pertama untuk mencetak dokumen.

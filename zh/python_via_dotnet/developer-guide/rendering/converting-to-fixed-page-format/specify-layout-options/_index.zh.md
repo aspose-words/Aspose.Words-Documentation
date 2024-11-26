@@ -7,6 +7,7 @@ description: "使用 Python 指定各种文档布局的布局选项。"
 type: docs
 weight: 10
 url: /zh/python-net/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 使您能够创建具有各种布局的输出文档，具体取决于 [LayoutOptions](https://reference.aspose.com/words/python-net/aspose.words.layout/layoutoptions/) 类的属性中指定的参数。其中一些属性类似于一些 Microsoft Word 用户界面菜单选项 – 它们将在本文中进行描述。

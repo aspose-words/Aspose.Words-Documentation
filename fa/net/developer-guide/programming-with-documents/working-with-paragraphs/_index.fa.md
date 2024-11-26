@@ -7,6 +7,7 @@ description: "درج یک پاراگراف در یک سند C#. سبک های پ
 type: docs
 weight: 210
 url: /fa/net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 یک پاراگراف مجموعه ای از کاراکترها است که در یک بلوک منطقی ترکیب شده و با یک کاراکتر خاص پایان می یابد - یک *پاراگراف شکست*. در Aspose.Words، یک پاراگراف با کلاس [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) نمایش داده می شود.

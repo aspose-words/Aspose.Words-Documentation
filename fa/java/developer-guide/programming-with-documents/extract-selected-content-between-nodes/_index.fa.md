@@ -1,134 +1,135 @@
----
-title: محتوای انتخاب شده بین گره ها Java
+﻿---
+title: استخراج مطالب منتخب بین گره ها در Java
 second_title: Aspose.Words برای Java
 articleTitle: استخراج محتوا بین گره ها در یک سند
 linktitle: استخراج محتوا بین گره ها
 type: docs
-description: "استخراج محتوای سند در موارد مختلف Java..."
+description: "استخراج محتوای سند در متفاوت با استفاده از Java."
 weight: 140
 url: /fa/java/extract-selected-content-between-nodes/
+timestamp: 2024-01-27-14-07-04
 ---
 
-هنگام کار با اسناد، مهم است که به راحتی بتوانید محتوا را از محدوده خاصی در یک سند استخراج کنید. با این حال، محتوا ممکن است شامل عناصر پیچیده مانند پاراگراف ها، جداول، تصاویر و غیره باشد.
+هنگام کار با اسناد، مهم است که بتوانید به راحتی محتوای یک محدوده خاص را در یک سند استخراج کنید. با این حال، محتوا ممکن است شامل عناصر پیچیده ای مانند پاراگراف ها، جداول، تصاویر و غیره باشد.
 
-صرف نظر از آنچه محتوا باید استخراج شود، روش استخراج این محتوا همیشه مشخص خواهد شد که کدام گره ها برای استخراج محتوا انتخاب می شوند. این ها می توانند تمام بدنه های متن یا اجرای متن ساده باشند.
+صرف نظر از اینکه چه محتوایی باید استخراج شود، روش استخراج آن محتوا همیشه تعیین می شود که کدام گره ها برای استخراج محتوا بین آنها انتخاب می شوند. این می تواند کل متن بدن و یا متن ساده اجرا می شود.
 
-بسیاری از موقعیت های احتمالی وجود دارد و بنابراین بسیاری از انواع مختلف گره هنگام استخراج محتوا در نظر گرفته می شوند. به عنوان مثال، ممکن است بخواهید محتوا را بین موارد زیر استخراج کنید:
+موقعیت های احتمالی زیادی وجود دارد و بنابراین انواع گره های مختلفی برای استخراج محتوا وجود دارد. برای مثال، ممکن است بخواهید محتوای بین:
 
 - دو پاراگراف خاص
-- اجرای خاص متن
-- زمینه های انواع مختلف، مانند فیلدهای ادغام
-- شروع و پایان محدوده یک نشانه یا نظر
-- بدنه های مختلف متن در بخش های جداگانه
+- اجراهای خاص متن
+- زمینه های مختلف مانند زمینه های ادغام
+- محدوده شروع و پایان یک نشانه یا نظر
+- مجموعه های مختلف متن موجود در بخش های جداگانه
 
-در برخی شرایط، شما حتی ممکن است نیاز به ترکیب انواع مختلف گره مانند استخراج محتوا بین یک پاراگراف و یک زمینه، و یا بین یک اجرا و یک نشانه.
+در برخی شرایط، حتی ممکن است لازم باشد انواع گره های مختلف مانند استخراج محتوا بین یک پاراگراف و یک فیلد یا بین یک اجرا و یک نشانه را ترکیب کنید.
 
-این مقاله پیاده سازی کد را برای استخراج متن بین گره های مختلف و همچنین نمونه هایی از سناریوهای مشترک فراهم می کند.
+این مقاله پیاده سازی کد برای استخراج متن بین گره های مختلف و همچنین نمونه هایی از سناریوهای رایج را ارائه می دهد.
 
 {{% alert color="primary" %}}
 
-این نمونه ها فقط چند تظاهرات از احتمالات مختلف هستند. ما قصد داریم تا قابلیت های استخراج متن بخشی از عموم باشد. API در آینده نیازی به کد اضافی نیست. در عین حال، احساس رایگان برای ارسال درخواست های خود را در مورد این عملکرد در [Aspose.Words انجمن](https://forum.aspose.com/c/words/8)...
+این نمونه ها فقط چند نمایش از امکانات بسیاری است. ما برنامه ریزی می کنیم که قابلیت استخراج متن در آینده بخشی از API عمومی باشد و هیچ کد اضافی مورد نیاز نخواهد بود. در این میان، درخواست های خود را در مورد این قابلیت در [Aspose.Words انجمن](https://forum.aspose.com/c/words/8).
 
 {{% /alert %}}
 
-## چرا محتوا
+## چرا محتوا را استخراج کنیم
 
-اغلب هدف استخراج محتوا تکرار یا ذخیره آن به طور جداگانه در یک سند جدید است. به عنوان مثال، می توانید محتوا را استخراج کنید و:
+اغلب هدف از استخراج محتوا این است که آن را به طور جداگانه در یک سند جدید تکرار یا ذخیره کنید. به عنوان مثال، شما می توانید محتوا را استخراج کنید و:
 
-- آن را به یک سند جداگانه کپی کنید
-- تبدیل یک بخش خاص از یک سند به PDF یا تصویر
+- آن را در یک سند جداگانه کپی کنید
+- تبدیل یک قسمت خاص از یک سند به PDF یا تصویر
 - محتوای موجود در سند را بارها تکرار کنید
 - کار با محتوای استخراج شده جدا از بقیه سند
 
-این می تواند به راحتی با استفاده از Aspose.Words و اجرای کد زیر
+این کار را می توان با استفاده از Aspose.Words و پیاده سازی کد زیر به راحتی انجام داد.
 
-## استخراج الگوریتم Content Algorithm
+## الگوریتم استخراج محتوا
 
-کد موجود در این بخش به تمام موقعیت های ممکن شرح داده شده در بالا با یک روش تعمیم یافته و قابل استفاده مجدد می پردازد. طرح کلی این تکنیک شامل:
+کد در این بخش به تمام موقعیت های احتمالی که در بالا توضیح داده شد با یک روش عمومی و قابل استفاده مجدد می پردازد. طرح کلی این تکنیک شامل:
 
-1. جمع آوری گره ها که منطقه محتوایی را که از سند شما استخراج می شود، دیکته می کند. بازگرداندن این گره ها توسط کاربر در کد خود، بر اساس آنچه که می خواهند استخراج شوند، انجام می شود.
-1. انتقال این گره ها به گره ها **ExtractContent** روش ارائه شده در زیر شما همچنین باید یک پارامتر بولین را که بیان می کند که آیا این گره ها، که به عنوان نشانگر عمل می کنند، باید در استخراج گنجانده شوند یا نه.
-1. بازگرداندن یک لیست از محتوای کپی شده ( گره های مسدود شده) مشخص شده برای استخراج. شما می توانید از این لیست از گره ها به هر طریق قابل اجرا استفاده کنید، به عنوان مثال، ایجاد یک سند جدید که تنها محتوی محتوای انتخاب شده است.
+1. جمع آوری گره هایی که منطقه محتوایی را که از سند شما استخراج می شود، تعیین می کند. بازیابی این گره ها توسط کاربر در کد آنها بر اساس آنچه که می خواهند استخراج شوند، انجام می شود.
+1. انتقال این گره ها به روش **ExtractContent** ارائه شده در زیر. شما همچنین باید یک پارامتر بولی را عبور دهید که بیان می کند آیا این گره ها، به عنوان نشانگر عمل می کنند، باید در استخراج گنجانده شوند یا نه.
+1. بازیابی لیستی از محتوای کلون شده (گره های کپی شده) مشخص شده برای استخراج. شما می توانید از این لیست گره ها به هر روش قابل اجرا استفاده کنید، به عنوان مثال، ایجاد یک سند جدید که فقط حاوی محتوای انتخاب شده است.
 
-## چگونه محتوا را استخراج کنیم
+## نحوه استخراج محتوا
 
-ما با سند زیر در این مقاله کار خواهیم کرد. همانطور که می بینید، حاوی محتوای متنوعی است. همچنین توجه داشته باشید که این سند شامل بخش دوم در وسط صفحه اول است. نشانه و نظر نیز در سند وجود دارد اما در تصویر زیر قابل مشاهده نیست.
+ما با سند زیر در این مقاله کار خواهیم کرد. همانطور که می بینید حاوی محتوای متنوعی است. همچنین توجه داشته باشید که این سند شامل بخش دوم است که در وسط صفحه اول شروع می شود. یک نشانه و نظر نیز در سند وجود دارد اما در تصویر زیر قابل مشاهده نیست.
 
 ![extract-content-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-1.png)
 
-برای استخراج محتوا از سند شما باید تماس بگیرید `ExtractContent` روش زیر و عبور از پارامترهای مناسب
+برای استخراج محتوا از سند خود باید روش `ExtractContent` زیر را فراخوانی کنید و پارامترهای مناسب را منتقل کنید.
 
-پایه این روش شامل پیدا کردن گره های سطح بلوک (پاریس و جداول) و جمع آوری آنها برای ایجاد نسخه های یکسان است. اگر گره های نشانگر از سطح بلوک عبور کنند، روش می تواند به سادگی محتوا را در آن سطح کپی کند و آن را به آرایه اضافه کند.
+اساس اساسی این روش شامل یافتن گره های سطح بلوک (پاراگراف ها و جداول) و شبیه سازی آنها برای ایجاد نسخه های یکسان است. اگر گره های نشانگر عبور شده در سطح بلوک باشند، روش می تواند به سادگی محتوای آن سطح را کپی کند و آن را به آرایه اضافه کند.
 
-با این حال، اگر گره های نشانگر در خط (یک کودک از یک پاراگراف) باشند، وضعیت پیچیده تر می شود، زیرا لازم است که پاراگراف را در گره خط تقسیم کنید، آن را به صورت اجرا، فیلدهای مارک و غیره. محتوا در گره های والدین کلون شده بین نشانگرها وجود ندارد. این فرآیند برای اطمینان از اینکه گره های خط هنوز هم قالب بندی پاراگراف والدین را حفظ می کنند، استفاده می شود.
+با این حال، اگر گره های نشانگر خطی باشند (فرزند یک پاراگراف)، وضعیت پیچیده تر می شود، زیرا لازم است پاراگراف را در گره خطی تقسیم کنید، چه اجرا شود، زمینه های نشانه گذاری و غیره. محتوای در گره های والدین کلون شده که بین نشانگرها وجود ندارد حذف می شود. این فرآیند برای اطمینان از اینکه گره های خطی هنوز قالب بندی پاراگراف اصلی را حفظ می کنند، استفاده می شود.
 
-این روش همچنین چک ها را بر روی گره های تصویب شده به عنوان پارامترهای اجرا می کند و اگر هر دو گره بی اعتبار باشد، یک استثنا را پرتاب می کند. پارامترهایی که باید به این روش منتقل شوند عبارتند از:
+این روش همچنین چک هایی را در گره های منتقل شده به عنوان پارامترها اجرا می کند و اگر هر یک از گره ها نامعتبر باشد، یک استثنا را پرتاب می کند. پارامترهایی که باید به این روش منتقل شوند عبارتند از:
 
-1. **StartNode** و **EndNode**... دو پارامتر اول گره هایی هستند که مشخص می کنند استخراج محتوا از کجا شروع می شود و به ترتیب پایان می یابد. این گره ها می توانند هر دو سطح بلوک باشند ([Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) , [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) یا در سطح خط (به عنوان مثال) [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) , [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/) , [BookmarkStart](https://reference.aspose.com/words/java/com.aspose.words/bookmarkstart/) و غیره:
-   1 برای عبور از یک زمینه شما باید از مربوطه عبور کنید **FieldStart** جسم
-   1- برای عبور از نشانه ها، **BookmarkStart** و [BookmarkEnd](https://reference.aspose.com/words/java/com.aspose.words/bookmarkend/) گره ها باید منتقل شوند.
-   1- برای رد نظرات، [CommentRangeStart](https://reference.aspose.com/words/java/com.aspose.words/commentrangestart/) و [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/) گره ها باید استفاده شوند.
-1. **IsInclusive**... تعریف کنید که آیا نشانگرها در استخراج گنجانده شده اند یا نه. اگر این گزینه برای false و همان گره یا گره های متوالی تصویب می شود، سپس لیست خالی بازگردانده می شود:
+1. **StartNode** و **EndNode**. دو پارامتر اول گره هایی هستند که تعریف می کنند که استخراج محتوا به ترتیب در کجا شروع و پایان می یابد. این گره ها می توانند هر دو سطح بلوک ([Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/)، [Table](https://reference.aspose.com/words/java/com.aspose.words/table/)) یا سطح خطی (به عنوان مثال [Run](https://reference.aspose.com/words/java/com.aspose.words/run/), [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/), [BookmarkStart](https://reference.aspose.com/words/java/com.aspose.words/bookmarkstart/) و غیره):
+   1. برای عبور از یک فیلد باید از شیء **FieldStart** مربوطه عبور کنید.
+   1. برای عبور از نشانه ها، گره های **BookmarkStart** و [BookmarkEnd](https://reference.aspose.com/words/java/com.aspose.words/bookmarkend/) باید منتقل شوند.
+   1. برای عبور از نظرات، باید از گره های [CommentRangeStart](https://reference.aspose.com/words/java/com.aspose.words/commentrangestart/) و [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/) استفاده شود.
+1. **IsInclusive**. مشخص می کند که آیا نشانگرها در استخراج گنجانده شده اند یا نه. اگر این گزینه به false تنظیم شود و همان گره یا گره های متوالی منتقل شوند، یک لیست خالی بازگردانده می شود:
 
-      1.اگر **FieldStart** سپس این گزینه تعریف می کند اگر کل زمینه شامل یا حذف شود.
-      1.اگر **BookmarkStart** یا **BookmarkEnd** گره منتقل می شود، این گزینه مشخص می کند که آیا نشانه شامل یا فقط محتوای بین دامنه نشانه گذاری است.
-      1.اگر **CommentRangeStart** یا **CommentRangeEnd** گره منتقل می شود، این گزینه تعریف می کند اگر خود نظر شامل یا فقط محتوا در محدوده نظر باشد.
+      1. اگر یک گره **FieldStart** منتقل شود، این گزینه تعریف می کند که آیا کل فیلد باید شامل یا حذف شود.
+      1. اگر یک گره **BookmarkStart** یا **BookmarkEnd** منتقل شود، این گزینه تعریف می کند که آیا علامت گذاری شامل شده است یا فقط محتوای بین محدوده علامت گذاری است.
+      1. اگر یک گره **CommentRangeStart** یا **CommentRangeEnd** منتقل شود، این گزینه تعریف می کند که آیا خود نظر باید شامل شود یا فقط محتوای در محدوده نظر.
 
-اجرای **ExtractContent** روش هایی که می توانید پیدا کنید [اینجا اینجا](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/DocsExamples/Java/src/main/java/DocsExamples/Programming_with_documents/Contents_management/ExtractContentHelper.java)... این روش در سناریوها در این مقاله ذکر خواهد شد.
+پیاده سازی روش **ExtractContent** که می توانید پیدا کنید [اینجا](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/DocsExamples/Java/src/main/java/DocsExamples/Programming_with_documents/Contents_management/ExtractContentHelper.java). این روش در سناریوهای این مقاله ذکر خواهد شد.
 
-ما همچنین یک روش سفارشی برای ایجاد یک سند از گره های استخراج شده تعریف خواهیم کرد. این روش در بسیاری از سناریوهای زیر استفاده می شود و به سادگی یک سند جدید ایجاد می کند و محتوای استخراج شده را وارد آن می کند.
+ما همچنین یک روش سفارشی برای تولید آسان یک سند از گره های استخراج شده تعریف خواهیم کرد. این روش در بسیاری از سناریوهای زیر استفاده می شود و به سادگی یک سند جدید ایجاد می کند و محتوای استخراج شده را وارد آن می کند.
 
-مثال کد زیر نشان می دهد که چگونه یک لیست از گره ها را انتخاب کنید و آنها را به یک سند جدید وارد کنید:
+مثال کد زیر نشان می دهد که چگونه یک لیست از گره ها را بگیرید و آنها را در یک سند جدید قرار دهید:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "generate-document.java" >}}
 
 ## استخراج محتوا بین پاراگراف ها
 
-این نشان می دهد که چگونه از روش بالا برای استخراج محتوا بین پاراگراف های خاص استفاده کنید. در این مورد، ما می خواهیم بدن نامه ای که در نیمه اول سند پیدا شده است را استخراج کنیم. ما می توانیم بگوییم که این بین پاراگراف های 7 و 11 است.
+این نشان می دهد که چگونه از روش بالا برای استخراج محتوا بین پاراگراف های خاص استفاده کنید. در این حالت می خواهیم بدنه نامه موجود در نیمه اول سند را استخراج کنیم. ما می توانیم بگوییم که این بین پاراگراف های 7 و 11 است.
 
-کد زیر این کار را انجام می دهد. پاراگراف های مناسب با استفاده از [getChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChild-int-int-boolean) روش در سند و انتقال شاخص های مشخص سپس این گره ها را به سمت **ExtractContent** روش و بیان اینکه این ها باید در استخراج گنجانده شوند. این روش محتوای کپی شده بین این گره ها را که سپس به یک سند جدید وارد می شوند، بازگرداند.
+کد زیر این کار را انجام می دهد. پاراگراف های مناسب با استفاده از روش [getChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChild-int-int-boolean) در سند استخراج می شوند و شاخص های مشخص شده را منتقل می کنند. سپس این گره ها را به روش **ExtractContent** منتقل می کنیم و بیان می کنیم که این ها باید در استخراج گنجانده شوند. این روش محتوای کپی شده بین این گره ها را که سپس در یک سند جدید وارد می شوند، باز می گرداند.
 
-مثال کد زیر نشان می دهد که چگونه محتوا را بین پاراگراف های خاص استخراج کنیم. `ExtractContent` روش بالا:
+مثال کد زیر نشان می دهد که چگونه محتوای بین پاراگراف های خاص را با استفاده از روش `ExtractContent` بالا استخراج کنیم:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-paragraphs.java" >}}
 
 {{% alert color="primary" %}}
 
-شما می توانید فایل نمونه را از این مثال دانلود کنید. [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx)...
+شما می توانید فایل نمونه این مثال را از [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
-سند خروجی شامل دو پاراگراف است که استخراج شده اند.
+سند خروجی شامل دو پاراگراف است که استخراج شده است.
 
 ![extract-content-result-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-2.png)
 
 ## استخراج محتوا بین انواع مختلف گره ها
 
-ما می توانیم محتوا را بین هر ترکیب از سطح بلوک یا گره های خط استخراج کنیم. در این سناریو زیر ما محتوا را بین پاراگراف اول و جدول در بخش دوم به طور فراگیر استخراج می کنیم. ما گره های نشانگر را با فراخوان دریافت می کنیم [getFirstParagraph](https://reference.aspose.com/words/java/com.aspose.words/body/#getFirstParagraph) و [getChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChild-int-int-boolean) روش در بخش دوم سند برای بازیابی مناسب **Paragraph** و **Table** گره ها برای یک تغییر جزئی، اجازه دهید محتوا را تکرار کنیم و آن را در زیر اصل قرار دهیم.
+ما می توانیم محتوا را بین هر ترکیبی از گره های سطح بلوک یا خطی استخراج کنیم. در این سناریو زیر ما محتوای بین پاراگراف اول و جدول در بخش دوم را به طور کامل استخراج خواهیم کرد. ما گره های نشانگر را با فراخوانی روش [getFirstParagraph](https://reference.aspose.com/words/java/com.aspose.words/body/#getFirstParagraph) و [getChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChild-int-int-boolean) در بخش دوم سند برای بازیابی گره های مناسب **Paragraph** و **Table** دریافت می کنیم. برای یک تغییر کوچک بیایید به جای آن محتوای را تکرار کنیم و آن را زیر اصل قرار دهیم.
 
-مثال کد زیر نشان می دهد که چگونه محتوای بین یک پاراگراف و جدول را با استفاده از پاراگراف استخراج کنیم. **ExtractContent** روش:
+مثال کد زیر نشان می دهد که چگونه محتوای بین یک پاراگراف و جدول را با استفاده از روش **ExtractContent** استخراج کنیم:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-block-level-nodes.java" >}}
 
 {{% alert color="primary" %}}
 
-شما می توانید فایل نمونه را از این مثال دانلود کنید. [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx)...
+شما می توانید فایل نمونه این مثال را از [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
-محتوای بین پاراگراف و جدول در زیر تکرار شده است نتیجه.
+محتوای بین پاراگراف و جدول در زیر تکرار شده است نتیجه است.
 
 ![extract-content-between-paragraphs-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-3.png)
 
-## استخراج محتوا بین پاراگراف ها بر اساس Style
+## استخراج محتوا بین پاراگراف ها بر اساس سبک
 
-شما ممکن است نیاز به استخراج محتوا بین پاراگراف های همان یا سبک های مختلف، مانند بین پاراگراف های مشخص شده با سبک های عنوان.
+ممکن است لازم باشد محتوای بین پاراگراف های سبک یکسان یا متفاوت مانند بین پاراگراف هایی که با سبک های عنوان مشخص شده اند را استخراج کنید.
 
-کد زیر نشان می دهد که چگونه به این هدف برسیم. این یک مثال ساده است که محتوا را بین نمونه اول "Heading 1" و "Header 3" بدون استخراج عنوان ها نیز استخراج می کند. برای انجام این کار، پارامتر آخر را تنظیم کردیم. false, مشخص می کند که گره های نشانگر نباید شامل شوند.
+کد زیر نشان می دهد که چگونه این کار را انجام دهید. این یک مثال ساده است که محتوای بین اولین نمونه از سبک های "Heading 1" و "Header 3" را بدون استخراج عناوین نیز استخراج می کند. برای انجام این کار ما آخرین پارامتر را به false تنظیم می کنیم، که مشخص می کند که گره های نشانگر نباید شامل شوند.
 
-در یک پیاده سازی مناسب، این باید در یک حلقه اجرا شود تا محتوای بین تمام پاراگراف های این سبک ها را از سند استخراج کند. محتوای استخراج شده به یک سند جدید کپی شده است.
+در یک پیاده سازی مناسب، این باید در یک حلقه اجرا شود تا محتوای بین تمام پاراگراف های این سبک ها از سند استخراج شود. محتوای استخراج شده در یک سند جدید کپی می شود.
 
-مثال کد زیر نشان می دهد که چگونه محتوا را بین پاراگراف ها با سبک های خاص استخراج کنیم. **ExtractContent** روش:
+مثال کد زیر نشان می دهد که چگونه محتوای بین پاراگراف ها را با سبک های خاص با استفاده از روش **ExtractContent** استخراج کنیم:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-paragraph-styles.java" >}}
 
@@ -136,7 +137,7 @@ url: /fa/java/extract-selected-content-between-nodes/
 
 {{% alert color="primary" %}}
 
-شما می توانید فایل نمونه را از این مثال دانلود کنید. [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx)...
+شما می توانید فایل نمونه این مثال را از [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
@@ -144,161 +145,161 @@ url: /fa/java/extract-selected-content-between-nodes/
 
 ![extract-content-between-paragraph-style-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-4.png)
 
-## استخراج محتوا بین دویدن های خاص
+## استخراج محتوا بین اجراهای خاص
 
-شما می توانید محتوای بین گره های خط مانند **Run** همچنین. **Runs** از پاراگراف های مختلف می توان به عنوان نشانگر تصویب شد. کد زیر نشان می دهد که چگونه متن خاصی را در بین یکسان استخراج کنیم **Paragraph** گره
+شما می توانید محتوا را بین گره های خطی مانند **Run** نیز استخراج کنید. **Runs** از پاراگراف های مختلف می تواند به عنوان نشانگر منتقل شود. کد زیر نشان می دهد که چگونه متن خاص را بین همان گره **Paragraph** استخراج کنیم.
 
-مثال کد زیر نشان می دهد که چگونه محتوا را بین اجراهای خاص از همان پاراگراف استخراج کنیم. **ExtractContent** روش:
+مثال کد زیر نشان می دهد که چگونه محتوای بین اجراهای خاص همان پاراگراف را با استفاده از روش **ExtractContent** استخراج کنیم:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-runs.java" >}}
 
 {{% alert color="primary" %}}
 
-شما می توانید فایل نمونه را از این مثال دانلود کنید. [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx)...
+شما می توانید فایل نمونه این مثال را از [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
-متن استخراج شده بر روی کنسول نمایش داده می شود
+متن استخراج شده در کنسول نمایش داده می شود.
 
 ![extract-content-between-runs-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-5.png)
 
 ## استخراج محتوا با استفاده از یک فیلد
 
-برای استفاده از یک زمینه به عنوان یک نشانگر، `FieldStart` گره باید منتقل شود. آخرین پارامتر به `ExtractContent` روش مشخص خواهد کرد که آیا کل زمینه شامل یا نه است. اجازه دهید محتوا را بین فیلد "کلنام" ادغام و یک پاراگراف در سند استخراج کنیم. استفاده از [moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField(java.lang.String)روش [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) کلاس این امر بازگشت **FieldStart** از نام فیلد ادغام شده به آن.
+برای استفاده از یک فیلد به عنوان یک نشانگر، گره `FieldStart` باید منتقل شود. آخرین پارامتر به روش `ExtractContent` تعریف خواهد کرد که آیا کل فیلد باید شامل شود یا نه. بیایید محتوای بین فیلد ادغام "FullName" و یک پاراگراف در سند را استخراج کنیم. ما از روش [moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField(java.lang.String)) کلاس [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) استفاده می کنیم. این گره **FieldStart** را از نام فیلد ادغام به آن منتقل می کند.
 
-در مورد ما اجازه دهید آخرین پارامتر را که به پارامتر منتقل شده است تنظیم کنیم. **ExtractContent** روش برای false برای حذف میدان از استخراج ما محتوای استخراج شده را به PDF ارائه خواهیم داد.
+در مورد ما بیایید آخرین پارامتر منتقل شده به روش **ExtractContent** را به false تنظیم کنیم تا فیلد را از استخراج حذف کنیم. ما محتوای استخراج شده را به PDF ارائه خواهیم داد.
 
-مثال کد زیر نشان می دهد که چگونه محتوا را بین یک زمینه خاص و پاراگراف در سند با استفاده از سند استخراج کنیم. **ExtractContent** روش:
+مثال کد زیر نشان می دهد که چگونه محتوای بین یک فیلد خاص و پاراگراف در سند با استفاده از روش **ExtractContent** استخراج شود:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-using-field.java" >}}
 
 {{% alert color="primary" %}}
 
-شما می توانید فایل نمونه را از این مثال دانلود کنید. [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx)...
+شما می توانید فایل نمونه این مثال را از [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
-محتوای استخراج شده بین زمینه و پاراگراف، بدون گره های نشانگر زمینه و پاراگراف که به PDF ارائه شده است.
+محتوای استخراج شده بین فیلد و پاراگراف، بدون گره های نشانگر فیلد و پاراگراف به PDF ارائه شده است.
 
 ![extract-content-using-field-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-6.png)
 
-## استخراج محتوا از یک Bookmark
+## استخراج محتوا از یک نشانک
 
-در یک سند، محتوایی که در داخل یک نشانه تعریف می شود، توسط فهرست شده است. `BookmarkStart` گره های Bookmark End محتوایی که بین این دو گره پیدا می شود، نشانه را ایجاد می کند. شما می توانید هر یک از این گره ها را به عنوان هر نشانگر، حتی آنهایی که از نشانه های مختلف عبور می کنند، تا زمانی که نشانگر شروع قبل از علامت گذاری نهایی در سند ظاهر می شود.
+در یک سند، محتوایی که در یک نشانه تعریف شده است توسط گره های `BookmarkStart` و BookmarkEnd بسته بندی شده است. محتوای موجود بین این دو گره نشانک را تشکیل می دهد. شما می توانید هر یک از این گره ها را به عنوان هر نشانگر، حتی آنهایی که از نشانه های مختلف هستند، عبور دهید، تا زمانی که نشانگر شروع قبل از نشانگر پایان در سند ظاهر شود.
 
-در سند نمونه ما، ما یک نشانه داریم که به نام "Bookmark1" نام دارد. محتوای این نشانه در سند ما برجسته شده است:
+در نمونه سند ما، ما یک نشانه داریم، به نام"Bookmark1". محتوای این نشانک در سند ما برجسته شده است:
 
 ![extract-content-from-bookmark-aspose-words-java-1](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-7.png)
 
-ما این محتوا را به یک سند جدید با استفاده از کد زیر استخراج می کنیم. The The The The The The **IsInclusive** گزینه پارامتر نشان می دهد که چگونه برای حفظ یا دور زدن نشانه.
+ما این محتوا را با استفاده از کد زیر به یک سند جدید استخراج خواهیم کرد. گزینه پارامتر **IsInclusive** نشان می دهد که چگونه علامت گذاری را حفظ یا دور بریزید.
 
-مثال کد زیر نشان می دهد که چگونه محتوای اشاره شده با استفاده از نشانه را استخراج کنیم **ExtractContent** روش:
+مثال کد زیر نشان می دهد که چگونه محتوای ارجاع شده را با استفاده از روش **ExtractContent** استخراج کنیم:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-bookmark.java" >}}
 
 {{% alert color="primary" %}}
 
-شما می توانید فایل نمونه را از این مثال دانلود کنید. [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx)...
+شما می توانید فایل نمونه این مثال را از [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
-خروجی استخراج شده با `IsInclusive` پارامتر تنظیم شده برای true... این نسخه همچنین نشانه را حفظ خواهد کرد.
+خروجی استخراج شده با پارامتر `IsInclusive` به true تنظیم شده است. نسخه هم علامت کتاب رو حفظ ميکنه
 
 ![extract-content-from-bookmark-aspose-words-java-2](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-8.png)
 
-خروجی استخراج شده با **IsInclusive** پارامتر تنظیم شده برای false... این کپی شامل محتوا اما بدون علامت است.
+خروجی استخراج شده با پارامتر **IsInclusive** به false تنظیم شده است. نسخه شامل محتوا است اما بدون علامت کتاب.
 
 ![extract-content-from-bookmark-aspose-words-java-3](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-9.png)
 
-## استخراج محتوا از یک نظر
+## استخراج مطالب از یک نظر
 
-یک نظر از ریدایرکت , {\displaystyle } {\displaystyle } {\displaystyle } } و {\displaystyle } ساخته شده است. همه این گره ها در خط هستند. دو گره اول محتوا را در سند که توسط نظر اشاره شده است، همانطور که در تصویر زیر دیده می شود، قرار می دهد.
+یک نظر از گره های CommentRangeStart، CommentRangeEnd و نظر تشکیل شده است. همه این گره ها خطی هستند. دو گره اول محتوای سند را که توسط نظر ارجاع داده شده است، همانطور که در تصویر زیر دیده می شود، خلاصه می کند.
 
-The The The The The The **Comment** خود گره یک خود [InlineStory](https://reference.aspose.com/words/java/com.aspose.words/inlinestory/) این می تواند شامل پاراگراف ها و اجراها باشد. این نشان دهنده پیام این نظر است که به عنوان یک حباب نظر در فلات بررسی دیده می شود. همانطور که این گره در خط است و یک نسل از بدن شما همچنین می توانید محتوای داخل این پیام را استخراج کنید.
+خود گره **Comment** یک [InlineStory](https://reference.aspose.com/words/java/com.aspose.words/inlinestory/) است که می تواند شامل پاراگراف ها و اجرا شود. این پیام نظر را به عنوان یک حباب نظر در صفحه بررسی نشان می دهد. از آنجا که این گره خطی است و از نسل یک بدن است شما همچنین می توانید محتوای داخل این پیام را نیز استخراج کنید.
 
 در سند ما یک نظر داریم. بیایید آن را با نشان دادن نشانه گذاری در برگه بررسی نمایش دهیم:
 
 ![extract-content-from-comment-aspose-words-java-1](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-10.png)
 
-این نظر شامل عنوان، پاراگراف اول و جدول در بخش دوم است. بیایید این نظر را در یک سند جدید استخراج کنیم. The The The The The The **IsInclusive** گزینه دیکته می کند که آیا نظر خود نگه داشته شده یا دور انداخته شده است.
+این نظر عنوان، پاراگراف اول و جدول را در بخش دوم خلاصه می کند. بیایید این نظر را به یک سند جدید تبدیل کنیم. گزینه **IsInclusive** تعیین می کند که آیا خود نظر حفظ شده یا رد شده است.
 
-مثال کد زیر نشان می دهد که چگونه این کار را انجام دهیم زیر است:
+مثال کد زیر نشان می دهد که چگونه این کار را انجام دهید در زیر است:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-comment-range.java" >}}
 
 {{% alert color="primary" %}}
 
-شما می توانید فایل نمونه را از این مثال دانلود کنید. [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx)...
+شما می توانید فایل نمونه این مثال را از [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
-اولین خروجی استخراج شده با `IsInclusive` پارامتر تنظیم شده برای true... این کپی همچنین شامل کامنت نیز خواهد بود.
+اول خروجی استخراج شده با پارامتر `IsInclusive` به true تنظیم شده است. نسخه شامل نظر هم خواهد بود.
 
 ![extract-content-from-comment-aspose-words-java-2](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-11.png)
 
-دوم: خروجی استخراج شده با **Inclusive** تنظیم برای false... کپی حاوی محتوا است اما بدون نظر.
+دوم خروجی استخراج شده با **isInclusive** به false تنظیم شده است. نسخه شامل محتوا است اما بدون نظر.
 
 ![extract-content-from-comment-aspose-words-java-12](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-12.png)
 
-## محتوا با استفاده از DocumentVisitor
+## استخراج محتوا با استفاده از DocumentVisitor
 
-Aspose.Words می تواند نه تنها برای ایجاد استفاده شود Microsoft Word اسناد با ساخت آنها به صورت پویا یا ادغام قالب ها با داده ها، اما همچنین برای تجزیه اسناد به منظور استخراج عناصر سند جداگانه مانند هدر، پا، پاراگراف ها، جداول، تصاویر و دیگران. یکی دیگر از کارهای ممکن این است که تمام متن قالب بندی یا سبک خاص را پیدا کنید.
+Aspose.Words می تواند نه تنها برای ایجاد Microsoft Word اسناد با ساخت آنها به صورت پویا یا ادغام قالب ها با داده ها، بلکه برای تجزیه اسناد به منظور استخراج عناصر سند جداگانه مانند سرصفحه ها، پای صفحه ها، پاراگراف ها، جداول، تصاویر و دیگران استفاده شود. یکی دیگر از وظایف ممکن این است که تمام متن قالب بندی یا سبک خاص را پیدا کنید.
 
-استفاده از [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) کلاس برای اجرای این سناریو استفاده این کلاس با الگوی طراحی بازدید کننده شناخته شده مطابقت دارد. با [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/)شما می توانید عملیات سفارشی را تعریف و اجرا کنید که نیاز به تزریق بیش از درخت سند دارد.
+برای اجرای این سناریوی استفاده از کلاس [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) استفاده کنید. این کلاس با الگوی طراحی بازدید کننده شناخته شده مطابقت دارد. با [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) می توانید عملیات سفارشی را که نیاز به شمارش بر روی درخت سند دارند تعریف و اجرا کنید.
 
-[DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) مجموعه ای از **VisitXXX** روش هایی که در هنگام مواجه شدن با یک عنصر سند خاص (node) مورد استفاده قرار می گیرند. برای مثال، [VisitParagraphStart](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphStart-com.aspose.words.Paragraph) زمانی که شروع یک پاراگراف متن پیدا می شود و [VisitParagraphEnd](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphEnd-com.aspose.words.Paragraph) زمانی که پایان یک پاراگراف متن پیدا می شود، نام دارد. هر یک **DocumentVisitor.VisitXXX** روش، شیء مربوطه را می پذیرد که با آن مواجه می شود، بنابراین می توانید از آن به عنوان مورد نیاز استفاده کنید (مثلا قالب بندی را بازیابی کنید)، به عنوان مثال هر دو. [VisitParagraphStart](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphStart-com.aspose.words.Paragraph) و [VisitParagraphEnd](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphEnd-com.aspose.words.Paragraph) پذیرش [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) جسم
+[DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) مجموعه ای از روش های **VisitXXX** را فراهم می کند که هنگام برخورد با یک عنصر سند خاص (گره) فراخوانده می شود. به عنوان مثال، [VisitParagraphStart](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphStart-com.aspose.words.Paragraph) زمانی فراخوانده می شود که ابتدای یک پاراگراف متنی پیدا شود و [VisitParagraphEnd](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphEnd-com.aspose.words.Paragraph) زمانی فراخوانده می شود که پایان یک پاراگراف متنی پیدا شود. هر روش **DocumentVisitor.VisitXXX** شیء مربوطه را که با آن روبرو می شود قبول می کند تا بتوانید در صورت نیاز از آن استفاده کنید (به عنوان مثال بازیابی قالب بندی)، به عنوان مثال هر دو شیء [VisitParagraphStart](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphStart-com.aspose.words.Paragraph) و [VisitParagraphEnd](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphEnd-com.aspose.words.Paragraph) یک شیء [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) را قبول کنید.
 
-هر یک **DocumentVisitor.VisitXXX** روش بازگشت **VisitorAction** ارزش هایی که افزایش گره ها را کنترل می کند. شما می توانید درخواست کنید که یا به تکرار ادامه دهید، گره فعلی را (اما به تکرار ادامه دهید)، یا تکرار گره ها را متوقف کنید.
+هر روش **DocumentVisitor.VisitXXX** یک مقدار **VisitorAction** را باز می گرداند که شمارش گره ها را کنترل می کند. شما می توانید درخواست کنید که یا شمارش را ادامه دهید، گره فعلی را حذف کنید (اما شمارش را ادامه دهید)، یا شمارش گره ها را متوقف کنید.
 
-این ها مراحلی هستند که باید به صورت برنامه ریزی شده و بخش های مختلف یک سند را استخراج کنید:
+این گام هایی است که باید برای تعیین و استخراج بخش های مختلف یک سند به صورت برنامه ریزی شده دنبال کنید:
 
-- ایجاد یک کلاس مشتق شده از [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/)...
-- Override و ارائه پیاده سازی برای برخی یا همه **DocumentVisitor.VisitXXX** روش هایی برای انجام برخی عملیات سفارشی
-- Call [Node.accept](https://reference.aspose.com/words/java/com.aspose.words/node/#accept-com.aspose.words.DocumentVisitor) در گره از جایی که می خواهید آن را شروع کنید. به عنوان مثال، اگر می خواهید کل سند را ثبت کنید، از آن استفاده کنید. [accept(DocumentVisitor)](https://reference.aspose.com/words/java/com.aspose.words/document/#accept-com.aspose.words.DocumentVisitor)...
+- یک کلاس مشتق از [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) ایجاد کنید.
+- رد کردن و ارائه پیاده سازی برای برخی یا همه روش های **DocumentVisitor.VisitXXX** برای انجام برخی از عملیات سفارشی.
+- [Node.accept](https://reference.aspose.com/words/java/com.aspose.words/node/#accept-com.aspose.words.DocumentVisitor) را در گره ای که می خواهید شمارش را از آن شروع کنید، فراخوانی کنید. به عنوان مثال، اگر می خواهید کل سند را فهرست کنید، از [accept(DocumentVisitor)](https://reference.aspose.com/words/java/com.aspose.words/document/#accept-com.aspose.words.DocumentVisitor) استفاده کنید.
 
-[DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) اجرای پیش فرض برای همه **DocumentVisitor.VisitXXX** روش ها این کار باعث می شود بازدیدکنندگان سند جدید آسان تر شوند زیرا تنها روش های لازم برای بازدید کننده خاص باید بیش از حد مورد استفاده قرار گیرد. لازم نیست تمام روش های بازدید کننده را نادیده بگیرید.
+[DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) پیاده سازی های پیش فرض برای تمام روش های **DocumentVisitor.VisitXXX** را فراهم می کند. این کار ایجاد بازدید کنندگان جدید سند را آسان تر می کند زیرا تنها روش های مورد نیاز برای بازدید کننده خاص باید نادیده گرفته شود. لازم نیست که تمام روش های بازدید کننده را نادیده بگیریم.
 
-مثال زیر نشان می دهد که چگونه از الگوی بازدید کننده برای اضافه کردن عملیات جدید به آن استفاده کنیم. Aspose.Words مدل شی در این مورد، ما یک مبدل سند ساده را به فرمت متن ایجاد می کنیم:
+مثال زیر نشان می دهد که چگونه از الگوی بازدید کننده برای اضافه کردن عملیات جدید به مدل شیء Aspose.Words استفاده کنیم. در این حالت، ما یک مبدل سند ساده به قالب متن ایجاد می کنیم:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-using-document-visitor.java" >}}
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "convert-doc-to-txt.java" >}}
 
-## متن متن متن فقط
+## فقط متن را استخراج کنید
 
 راه های بازیابی متن از سند عبارتند از:
 
-- استفاده [Document.save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-com.aspose.words.SaveOptions) همراه با [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) ذخیره به عنوان متن ساده به یک فایل یا جریان
-- استفاده [Node.toString](https://reference.aspose.com/words/java/com.aspose.words/node/#toString-com.aspose.words.SaveOptions) و عبور `SaveFormat.Text` پارامتر به صورت داخلی، این به عنوان متن به یک جریان حافظه ذخیره می شود و رشته نتیجه را برمی گرداند
-- استفاده [Node.getText](https://reference.aspose.com/words/java/com.aspose.words/node/#getText) برای بازیابی متن با همه Microsoft Word کنترل شخصیت ها از جمله کدهای میدانی
-- – پیاده سازی یک سفارشی [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) برای انجام استخراج سفارشی
+- از [Document.save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-com.aspose.words.SaveOptions) با [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) برای ذخیره به عنوان متن ساده در یک فایل یا جریان استفاده کنید
+- از [Node.toString](https://reference.aspose.com/words/java/com.aspose.words/node/#toString-com.aspose.words.SaveOptions) استفاده کنید و پارامتر `SaveFormat.Text` را منتقل کنید. در داخل، این save as text را به یک جریان حافظه فرا می خواند و رشته حاصل را باز می گرداند
+- برای بازیابی متن با تمام کاراکترهای کنترل Microsoft Word از جمله کدهای فیلد از [Node.getText](https://reference.aspose.com/words/java/com.aspose.words/node/#getText) استفاده کنید
+- پیاده سازی یک [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) سفارشی برای انجام استخراج سفارشی
 
-### استفاده از `Node.GetText` و `Node.ToString`
+### با استفاده از `Node.GetText` و `Node.ToString`
 
-A A A A A سند Word می تواند شامل شخصیت های کنترلی باشد که عناصر خاصی مانند فیلد، انتهای سلول، انتهای بخش و غیره را طراحی می کنند. لیست کامل شخصیت های کنترل کلمه ممکن است در تعریف شده است **ControlChar** کلاس The The The The The The [GetText](https://reference.aspose.com/words/java/com.aspose.words/node/#getText) روش متن را با تمام شخصیت های شخصیت کنترل موجود در گره باز می گرداند.
+یک سند ورد می تواند شامل کاراکترهای کنترل باشد که عناصر خاصی مانند فیلد، انتهای سلول، انتهای بخش و غیره را تعیین می کند. لیست کامل کاراکترهای کنترل کلمه ممکن در کلاس **ControlChar** تعریف شده است. روش [GetText](https://reference.aspose.com/words/java/com.aspose.words/node/#getText) متن را با تمام کاراکترهای کاراکتر کنترل موجود در گره باز می گرداند.
 
-Calling ToString نماینده متن ساده این سند را تنها بدون کنترل شخصیت ها باز می گرداند. برای اطلاعات بیشتر در مورد صادرات به عنوان متن ساده **Using SaveFormat.Text**...
+فراخوانی ToString نمایش متن ساده سند را تنها بدون کاراکترهای کنترل باز می گرداند. برای اطلاعات بیشتر در مورد صادرات به عنوان متن ساده به **Using SaveFormat.Text** مراجعه کنید.
 
-مثال کد زیر تفاوت بین فراخوانی را نشان می دهد **GetText** و [ToString](https://reference.aspose.com/words/java/com.aspose.words/node/#toString) روش ها در یک گره:
+مثال کد زیر تفاوت بین فراخوانی روش های **GetText** و [ToString](https://reference.aspose.com/words/java/com.aspose.words/node/#toString) در یک گره را نشان می دهد:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "simple-extract-text.java" >}}
 
-### استفاده از `SaveFormat.Text`
+### با استفاده از `SaveFormat.Text`
 
-این مثال سند را به صورت زیر ذخیره می کند:
+این مثال سند را به شرح زیر ذخیره می کند:
 
-- فیلتر کردن شخصیت های زمینه و کدهای زمینه، شکل، پائی، پایان نامه و نظرات
-- – جایگزین پایان پاراگراف [ControlChar.Cr](https://reference.aspose.com/words/java/com.aspose.words/controlchar/) شخصیت ها با [ControlChar.CrLf](https://reference.aspose.com/words/java/com.aspose.words/controlchar/) ترکیبات ترکیبی
-- استفاده از رمزگذاری UTF8
+- فیلتر کردن کاراکترهای فیلد و کدهای فیلد، شکل، زیرنویس، پایان نامه و مرجع نظرات
+- کاراکترهای پایان پاراگراف [ControlChar.Cr](https://reference.aspose.com/words/java/com.aspose.words/controlchar/) را با ترکیب [ControlChar.CrLf](https://reference.aspose.com/words/java/com.aspose.words/controlchar/) جایگزین می کند
+- از کدگذاری UTF8 استفاده می کند
 
 مثال کد زیر نشان می دهد که چگونه یک سند را در فرمت TXT ذخیره کنید:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "docx-to-txt.java" >}}
 
-## تصاویری از Shapes
+## استخراج تصاویر از اشکال
 
-شما ممکن است نیاز به استخراج تصاویر سند برای انجام برخی از وظایف. Aspose.Words به شما اجازه می دهد این کار را نیز انجام دهید.
+ممکن است برای انجام برخی کارها نیاز به استخراج تصاویر سند داشته باشید. Aspose.Words به شما اجازه می دهد این کار را نیز انجام دهید.
 
-مثال کد زیر نشان می دهد که چگونه تصاویر را از یک سند استخراج کنیم:
+مثال کد زیر نشان می دهد که چگونه تصاویر را از یک سند استخراج کنید:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-images.java" >}}

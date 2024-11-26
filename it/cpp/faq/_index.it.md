@@ -1,4 +1,4 @@
-﻿---
+---
 title: FAQ
 second_title: Aspose.Words per C++
 articleTitle: FAQ
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words per C++ risponde alle domande più frequenti. Scopri questa pagina per risolvere rapidamente il tuo problema su domande generali o argomenti specifici."
 weight: 75
 url: /it/cpp/faq/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Questa pagina contiene le risposte alle domande più frequenti. Si prega di imparare la pagina corrente-forse questo vi permetterà di risolvere il problema in fretta.

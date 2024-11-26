@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create Tables
 second_title: Aspose.Words for Java
 articleTitle: Create Tables
@@ -7,6 +7,7 @@ description: "Create tables inside a document easily and fast instead of using A
 type: docs
 weight: 10
 url: /java/create-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Create Tables

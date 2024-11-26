@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu Linked TextBoxes în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Lucrul cu Linked TextBoxes
@@ -7,6 +7,7 @@ description: "Introducere în caracteristica textboxes legate în Aspose.Words p
 type: docs
 weight: 250
 url: /ro/java/working-with-linked-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 În Aspose.Words, clasa [TextBox](https://reference.aspose.com/words/java/com.aspose.words/textbox/) este utilizată pentru a specifica modul în care un text este afișat în interiorul unei forme. Acesta oferă o proprietate publică numită părinte pentru a obține forma părinte pentru caseta de text pentru a permite clientului să găsească linked [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) din linked **TextBox**.

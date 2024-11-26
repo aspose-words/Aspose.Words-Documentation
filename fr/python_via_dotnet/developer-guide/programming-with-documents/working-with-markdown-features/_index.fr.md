@@ -7,6 +7,7 @@ description: "Comment implémenter les fonctionnalités Markdown à l'aide de Py
 type: docs
 weight: 420
 url: /fr/python-net/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Cette rubrique explique comment implémenter les fonctionnalités Markdown à l'aide de Aspose.Words. Markdown est un moyen simple de formater du texte brut qui peut facilement être converti en HTML. Aspose.Words prend en charge les fonctionnalités Markdown suivantes:

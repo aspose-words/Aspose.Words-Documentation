@@ -7,6 +7,7 @@ description: "Zaawansowane funkcje formatowania Microsoft Word, praca ze stylami
 type: docs
 weight: 110
 url: /pl/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Klasa [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) służy do zarządzania wbudowanymi ustawieniami i stosowania ustawień zdefiniowanych przez użytkownika do stylów.
@@ -36,7 +37,7 @@ W tym przykładowym dokumencie tekst sformatowany w stylu akapitu "Nagłówek 1"
 
 ### Kod
 
-Implementacja zapytania opartego na stylu jest dość prosta w obiektowym modelu dokumentu Aspose.Words, ponieważ wykorzystuje po prostu narzędzia, które już istnieją. W tym rozwiązaniu zaimplementowano dwie metody klasowe: # **ParagraphsByStyleName** – Ta metoda pobiera tablicę tych akapitów w dokument mający określoną nazwę stylu.# **RunsByStyleName** – ta metoda pobiera tablicę przebiegów w dokumencie, które mają określoną nazwę stylu. Obie te metody są bardzo podobne, a jedyną różnicą są typy węzłów i reprezentacja stylu informacje w węzłach akapitu i uruchamiania. Oto implementacja ParagraphsByStyleName: Poniżej przykład znajdź wszystkie akapity sformatowane przy użyciu określonego stylu.
+Implementacja zapytania opartego na stylu jest dość prosta w obiektowym modelu dokumentu Aspose.Words, ponieważ wykorzystuje po prostu narzędzia, które już istnieją. W tym rozwiązaniu zaimplementowano dwie metody klasowe: **ParagraphsByStyleName** – Ta metoda pobiera tablicę tych akapitów w dokument mający określoną nazwę stylu. **RunsByStyleName** – ta metoda pobiera tablicę przebiegów w dokumencie, które mają określoną nazwę stylu. Obie te metody są bardzo podobne, a jedyną różnicą są typy węzłów i reprezentacja stylu informacje w węzłach akapitu i uruchamiania. Oto implementacja ParagraphsByStyleName: Poniżej przykład znajdź wszystkie akapity sformatowane przy użyciu określonego stylu.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.cs" >}}
 

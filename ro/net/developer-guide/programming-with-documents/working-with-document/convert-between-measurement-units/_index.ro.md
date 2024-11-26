@@ -7,6 +7,7 @@ description: "Aspose.Words pentru .NET vă poate ajuta cu modul în care să con
 type: docs
 weight: 20
 url: /ro/net/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Majoritatea proprietăților obiectelor furnizate în Aspose.Words API care reprezintă unele măsurători, cum ar fi lățimea sau înălțimea, marginile și diferitele distanțe, acceptă valori în puncte, unde 1 inch este egal cu 72 de puncte. Uneori acest lucru nu este convenabil și punctele trebuie convertite în alte unități.

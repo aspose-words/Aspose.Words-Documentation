@@ -7,6 +7,7 @@ description: "Lucrați cu etichete de document structurat sau controale de conț
 type: docs
 weight: 50
 url: /ro/net/structured-document-tags-or-content-control/
+timestamp: 2024-01-31-14-23-37
 ---
 
 

@@ -1,40 +1,41 @@
----
-title: Manipolare e sostituto TrueType Fonts
+﻿---
+title: Manipolare e sostituire i caratteri TrueType
 second_title: Aspose.Words per Java
-articleTitle: Manipolare e sostituto TrueType Fonts
-linktitle: Manipolare e sostituto TrueType Fonts
-description: "Aspose.Words per Java può incorporare i font TrueType corretti nel documento risultante per assicurarsi che venga visualizzato con precisione, o cercare una corretta sostituzione del carattere, o utilizzare il meccanismo di fallback del carattere."
+articleTitle: Manipolare e sostituire i caratteri TrueType
+linktitle: Manipolare e sostituire i caratteri TrueType
+description: "Aspose.Words per Java può incorporare i font TrueType corretti nel documento risultante per garantire che vengano visualizzati in modo accurato, o cercare una sostituzione del font adatta o utilizzare il meccanismo di fallback del font."
 type: docs
 weight: 10
 url: /it/java/manipulate-and-substitute-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
-Aspose.Words richiede Digitare i font per una varietà di attività, inclusi i documenti di rendering in formati di pagina fissa, ad esempio, PDF o XPS. Quando Aspose.Words rende un documento, ha bisogno di eseguire l'integrazione e l'integrazione di font TrueType nel documento risultante, che è una pratica normale durante una generazione di documenti, compreso il PDF popolare o XPS formati. Questo assicura che il documento apparirà lo stesso a qualsiasi visualizzatore. Inoltre, il XPS la specificazione richiede che i caratteri vengano sempre incorporati nel documento.
+Aspose.Words richiede font TrueType per una varietà di attività, incluso il rendering di documenti in formati a pagina fissa, ad esempio PDF o XPS. Quando Aspose.Words esegue il rendering di un documento, deve eseguire l'incorporamento e l'incorporamento di sottoinsiemi di font TrueType nel documento risultante, che è una pratica normale durante la generazione di un documento, inclusi i formati PDF o XPS più diffusi. Questo assicura che il documento apparirà lo stesso a qualsiasi spettatore. Inoltre, la specifica XPS richiede che i font siano sempre incorporati nel documento.
 
-Assicurarsi Aspose.Words misura con precisione i caratteri e incorpora con successo font pertinenti, le seguenti condizioni devono essere soddisfatte:
+Per garantire che Aspose.Words misuri accuratamente i caratteri e incorpori correttamente i caratteri pertinenti, devono essere soddisfatte le seguenti condizioni:
 
-1. Aspose.Words dovrebbe essere in grado di trovare e accedere ai file di carattere TrueType sul sistema.
-1. Ci devono essere sufficienti font TrueType disponibili per Aspose.Words, preferibilmente con gli stessi nomi famigliari del carattere come quelli utilizzati nel documento.
+1. Aspose.Words dovrebbe essere in grado di trovare e accedere ai file di font TrueType sul sistema.
+1. Devono essere disponibili caratteri TrueType sufficienti per Aspose.Words, preferibilmente con gli stessi nomi di famiglia dei caratteri utilizzati nel documento.
 
-Si noti che il carattere nel documento rappresenta un'entità, come nome di famiglia, stile, dimensione, colore, che è diverso dal `TrueType` font ( carattere fisico) entità. Aspose.Words risolve il carattere nel documento a un carattere fisico in una fase di elaborazione. Questo consente a determinate attività, più comunemente il compito di calcolare le dimensioni del testo durante la costruzione del layout e di incorporare/sottosetting a formati di pagina fissa. Un certo numero di altri compiti meno popolari, come la risoluzione del carattere e la sostituzione durante il caricamento del HTML o l'integrazione/sottosetting ad alcuni formati di flusso, sono anche abilitati.
+Si noti che il font nel documento rappresenta un'entità, ad esempio nome di famiglia, stile, dimensione, colore, diversa dall'entità font (carattere fisico) `TrueType`. Aspose.Words risolve il carattere nel documento in un carattere fisico in una certa fase dell'elaborazione. Ciò consente alcune attività, più comunemente il compito di calcolare la dimensione del testo durante la costruzione del layout e l'incorporamento/sottoinsieme a formati di pagine fisse. Un certo numero di altre attività meno popolari, come la risoluzione dei caratteri e la sostituzione durante il caricamento di HTML o l'incorporamento/sottoinsieme ad alcuni formati di flusso, sono anch'esse abilitate.
 
-## Manipolazione del carattere e problemi di performance
+## Manipolazione dei font e problemi di prestazioni
 
-Tutti i meccanismi di manipolazione dei caratteri disponibili sono contenuti nel [FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/) classe. Questa classe è responsabile per l'acquisizione di caratteri all'interno di fonti di carattere definite e per il processo di sostituzione del carattere, come descritto di seguito.
+Tutti i meccanismi di manipolazione dei font disponibili sono contenuti nella classe [FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/). Questa classe è responsabile del recupero dei font all'interno di sorgenti di font definite e del processo di sostituzione dei font, come descritto di seguito.
 
-I caratteri sono analizzati in diversi passaggi:
+I font vengono analizzati in diversi passaggi:
 
-1. Ottenere informazioni per carattere, risolvendo da tutti i caratteri disponibili.
-1. Parsing i font risolti per essere disponibili glyphs e metriche (orizzontale e verticale).
-1. Parsing i font risolti per incorporare e sottosetting.
+1. Ottenere informazioni per il font, risolvendo da tutti i font disponibili.
+1. Analizzare i font risolti per ottenere glifi e metriche disponibili (orizzontali e verticali).
+1. Analisi dei font risolti per l'incorporamento e il sottoinsieme.
 
-Quando Aspose.Words incontra un carattere nel documento per la prima volta, tenta di ottenere informazioni di carattere di base, come il nome completo del carattere, il nome della famiglia, la versione, lo stile, dai file di carattere situati in ogni fonte di carattere. Dopo che tutti i font sono recuperati, Aspose.Words utilizza questi dettagli per trovare i dati del carattere richiesti o una sostituzione adatta per il carattere richiesto.
+Quando Aspose.Words incontra un font nel documento per la prima volta, tenta di ottenere informazioni di base, come il nome completo del font, il nome della famiglia, la versione, lo stile, dai file di font presenti in ogni origine del font. Dopo aver recuperato tutti i font, Aspose.Words utilizza questi dettagli per trovare i dati del font richiesti o un sostituto adatto per il font richiesto.
 
-Poiché la procedura sopra descritta è che richiede tempo, può influenzare negativamente le prestazioni dell'applicazione al suo primo lancio. Tuttavia, ogni caso **FontSettings** ha la propria cache, che potrebbe ridurre il tempo di elaborazione dei documenti successivi. Per esempio, è possibile condividere un'istanza del **FontSettings** classe tra diversi documenti, che consente di accelerare il carico dei documenti. L'esempio seguente lo dimostra:
+Poiché la procedura descritta sopra richiede molto tempo, potrebbe influire negativamente sulle prestazioni dell'applicazione al suo primo avvio. Tuttavia, ogni istanza di **FontSettings** ha una propria cache, che potrebbe ridurre il tempo di elaborazione dei documenti successivi. Ad esempio, è possibile condividere un'istanza della classe **FontSettings** tra documenti diversi, il che consente di velocizzare il caricamento dei documenti. L'esempio seguente dimostra questo:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSettings-FontSettingsWithLoadOptions.java" >}}
 
-Nel caso in cui **FontSettings** non è definito esplicitamente, Aspose.Words utilizza il default **FontSettings** istanza. Questa istanza viene condivisa automaticamente tra i documenti e può essere estratta come segue:
+Nel caso in cui **FontSettings** non sia definito esplicitamente, Aspose.Words utilizza l'istanza predefinita **FontSettings**. Anche questa istanza viene condivisa automaticamente tra i documenti e può essere estratta come segue:
 
 **Java**
 
@@ -42,34 +43,34 @@ Nel caso in cui **FontSettings** non è definito esplicitamente, Aspose.Words ut
 FontSettings fontSettings = FontSettings.getDefaultInstance();
 {{< /highlight >}}
 
-Se siete sicuri che tutti i documenti di elaborazione richiedono le stesse impostazioni del carattere, allora si consiglia di impostare e utilizzare il default **FontSettings** istanza. Supponiamo che sia necessario utilizzare le stesse fonti di carattere per tutti i documenti. In questo caso, è possibile modificare l'istanza predefinita come segue:
+Se si è sicuri che tutti i documenti di elaborazione richiedano le stesse impostazioni di carattere, si consiglia di impostare e utilizzare l'istanza predefinita **FontSettings**. Supponiamo che sia necessario utilizzare le stesse fonti di font per tutti i documenti. In questo caso, puoi semplicemente modificare l'istanza predefinita come segue:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSettings-FontSettingsFontSource.java" >}}
 
 {{% alert color="primary" %}}
 
-L'abitudine **FontSettings** hanno una maggiore priorità rispetto all'istanza predefinita.
+L'istanza personalizzata **FontSettings** ha una priorità maggiore rispetto all'istanza predefinita.
 
 {{% /alert %}}
 
-## Disponibilità del carattere e sostituzione
+## Disponibilità e sostituzione dei caratteri
 
-Un testo in un documento può essere formattato con vari caratteri, come Arial, Times New Roman, Verdana e altri. Quando Aspose.Words rende un documento, tenta di selezionare i caratteri specificati nel documento.
+Un testo in un documento può essere formattato con vari tipi di carattere, come Arial, Times New Roman, Verdana e altri. Quando Aspose.Words esegue il rendering di un documento, tenta di selezionare i font specificati nel documento.
 
-Tuttavia, ci sono situazioni in cui il carattere esatto non può essere trovato e Aspose.Words deve sostituire un carattere simile invece. Aspose.Words seleziona il carattere in base al seguente processo:
+Tuttavia, ci sono situazioni in cui il font esatto non può essere trovato e Aspose.Words deve sostituirlo con un font simile. Aspose.Words seleziona il carattere in base al seguente processo:
 
-1. Aspose.Words cerca di trovare un carattere tra le fonti di carattere disponibili con un nome esatto del carattere.
-1. Aspose.Words cerca di trovare il carattere richiesto tra i font incorporati nel documento originale. Alcuni formati di documenti come DOCX possono contenere caratteri incorporati.
-1. Se Aspose.Words non è in grado di individuare il carattere richiesto con la corrispondenza esatta del nome, e il [AltName](https://reference.aspose.com/words/java/com.aspose.words/fontinfo/#getAltName) proprietà definita per questo carattere, quindi Aspose.Words troverà il carattere definito con **AltName** dal [FontInfo](https://reference.aspose.com/words/java/com.aspose.words/fontinfo/) classe, che specifica le informazioni del carattere.
-1. Se Aspose.Words non è in grado di individuare il carattere definito, e **AltName** non è anche definito, quindi le regole di sostituzione del carattere vengono applicate una per una, come descritto di seguito (quando si trova la sostituzione appropriata, il processo di sostituzione del carattere si ferma e il passo successivo non viene eseguito):
-   1. Aspose.Words cercherà di applicare le impostazioni del carattere OS, se sono disponibili, utilizzando `FontConfig` utilità. Questo non...Windows la funzione deve essere utilizzata con un sistema operativo compatibile con FontConfig. Quasi qualsiasi sistema operativo basato su Unix ha già un `FontConfig` libreria progettata per fornire la configurazione, la personalizzazione e l'accesso alle applicazioni a livello di sistema. In caso contrario, questa libreria può essere facilmente installata dall'utente.<br/>
-      Aspose.Words sa come interrogare i dati e interpretare i risultati di FontConfig per i propri scopi. Per impostazione predefinita, il `FontConfig` l'utilità è disabilitata. È possibile abilitarlo come segue:<br/>
-      **Java**<br/>
+1. Aspose.Words cerca di trovare un font tra le fonti di font disponibili con un nome di font esatto.
+1. Aspose.Words cerca di trovare il font richiesto tra i font incorporati nel documento originale. Alcuni formati di documento come DOCX possono contenere caratteri incorporati.
+1. Se Aspose.Words non è in grado di individuare il font richiesto con la corrispondenza esatta del nome e la proprietà [AltName](https://reference.aspose.com/words/java/com.aspose.words/fontinfo/#getAltName) definita per questo font, Aspose.Words troverà il font definito con **AltName** dalla classe [FontInfo](https://reference.aspose.com/words/java/com.aspose.words/fontinfo/), che specifica le informazioni del font.
+1. Se Aspose.Words non è in grado di individuare il font definito e **AltName** non è definito, le regole di sostituzione del font vengono applicate una alla volta, come descritto di seguito (quando viene trovata la sostituzione appropriata, il processo di sostituzione del font si interrompe e il passaggio successivo non viene eseguito):
+   1. Aspose.Words tenterà di applicare le impostazioni del carattere OS, se disponibili, utilizzando l'utilità `FontConfig`. Questa funzione non - Windows deve essere utilizzata con un OS compatibile con FontConfig. Quasi tutti i OS basati su Unix hanno già una libreria `FontConfig` progettata per fornire configurazione, personalizzazione e accesso alle applicazioni a livello di sistema. Altrimenti, questa libreria può essere facilmente installata dall'utente.<br>
+      Aspose.Words sa come interrogare i dati e interpretare i risultati FontConfig per i propri scopi. Per impostazione predefinita, l'utilità `FontConfig` è disabilitata. Puoi abilitarlo come segue:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getFontConfigSubstitution()().setEnabled(true);
       {{< /highlight >}}
-   1. Il passo successivo è un meccanismo semplice, ma incredibilmente potente chiamato [TableSubstitutionRule](https://reference.aspose.com/words/java/com.aspose.words/tablesubstitutionrule/). Per impostazione predefinita, questa funzione è attiva e disponibile per qualsiasi sistema operativo. Aspose.Words utilizza tabelle XML che definiscono regole di sostituzione di base per un sistema operativo diverso. Secondo la regola di sostituzione della tabella, verrà utilizzato l'elenco dei nomi dei caratteri sostitutivi.<br/>
-      **XML**<br/>
+   1. Il passo successivo è un meccanismo semplice, ma incredibilmente potente chiamato [TableSubstitutionRule](https://reference.aspose.com/words/java/com.aspose.words/tablesubstitutionrule/). Per impostazione predefinita, questa funzione è attiva e disponibile per qualsiasi OS. Aspose.Words utilizza tabelle XML che definiscono regole di sostituzione di base per diversi OS. Secondo la regola di sostituzione della tabella, verrà utilizzato l'elenco dei nomi dei font sostitutivi.<br>
+**XML**
       {{< highlight html >}}
       <TableSubstitutionSettings xmlns="Aspose.Words"> 
 	<SubstitutesTable> 
@@ -78,73 +79,73 @@ Tuttavia, ci sono situazioni in cui il carattere esatto non può essere trovato 
 	</SubstitutesTable> 
       </TableSubstitutionSettings>
       {{< /highlight >}}
-      OriginalFont - un carattere da sostituire, SubstituteFonts - elenco di varianti di sostituzione, separate da una virgola. Il primo carattere disponibile viene utilizzato per la sostituzione.<br/>
-      La caratteristica principale di questa regola è la capacità di caricare le proprie tabelle di sostituzione, come è mostrato nel seguente esempio:<br/>
-      **Java**<br/>
+      OriginalFont - un font da sostituire, SubstituteFonts - elenco di varianti di sostituzione, separate da una virgola. Il primo font disponibile viene utilizzato per la sostituzione.<br>
+      La caratteristica principale di questa regola è la possibilità di caricare le proprie tabelle di sostituzione, come mostrato nell'esempio seguente:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getTableSubstitution().load("Table.xml");
       {{< /highlight >}}
-      È possibile prendere come base la tabella esistente dal vaso o salvarla programmaticamente nel modo seguente:<br/>
-      **Java**<br/>
+      È possibile prendere come base la tabella esistente dal jar o salvarla a livello di codice nel modo seguente:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getTableSubstitution().save("MyTable.xml");
       {{< /highlight >}}
-      Nonostante la flessibilità di questo meccanismo, ci sono alcuni casi in cui è meglio disattivarlo, come mostrato di seguito:<br/>
-      **Java**<br/>
+      Nonostante la flessibilità di questo meccanismo, ci sono alcuni casi in cui è meglio disabilitarlo, come mostrato di seguito:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getTableSubstitution().setEnabled(false);
       {{< /highlight >}}
-   1. Il **FontInfo** regola di sostituzione verrà applicata se la regola di sostituzione della tabella non riesce a trovare il carattere. Questo meccanismo è abilitato per impostazione predefinita. Aspose.Words trova il carattere più adatto in base alle informazioni del carattere contenute in un particolare documento. Queste informazioni possono essere ottenute dal **FontInfo** classe come mostrato di seguito:<br/>
-      **Java**<br/>
+   1. La regola di sostituzione **FontInfo** verrà applicata se la regola di sostituzione della tabella non riesce a trovare il font. Questo meccanismo è abilitato per impostazione predefinita. Aspose.Words trova il font più adatto in base alle informazioni sul font contenute in un determinato documento. Queste informazioni possono essere ottenute dalla classe **FontInfo** come mostrato di seguito:<br>
+**Java**
       {{< highlight csharp >}}
       FontInfoCollection fontInfos = doc.getFontInfos();
       {{< /highlight >}}
-      Gli utenti non possono interferire nel flusso di lavoro di questa funzione a meno che non decidano di disabilitarla in caso di risultati insoddisfacenti:<br/>
-      **Java**<br/>
+      Gli utenti non possono interferire nel flusso di lavoro di questa funzione a meno che non decidano di disabilitarla in caso di risultati insoddisfacenti:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getFontInfoSubstitution().setEnabled(false);
       {{< /highlight >}}
-      Se **FontInfo** non è disponibile per il carattere mancante, quindi il processo si ferma.
-   1. **DefaultFont** la regola di sostituzione sarà applicata nel caso in cui la `FontInfo` anche la sostituzione è fallita. Questa regola è abilitata anche per impostazione predefinita. Secondo questa regola, Aspose.Words tenterà di utilizzare il carattere predefinito specificato nel [DefaultFontName](https://reference.aspose.com/words/java/com.aspose.words/defaultfontsubstitutionrule/#getDefaultFontName) proprieta'. Se l'utente non ha scelto il proprio carattere predefinito, allora "Times New Roman" verrà utilizzato come font predefinito. Questa regola può essere disabilitata come mostrato di seguito:<br/>
-      **Java**<br/>
+      Se **FontInfo** non è disponibile per il font mancante, il processo si arresta.
+   1. La regola di sostituzione **DefaultFont** verrà applicata nel caso in cui anche la sostituzione `FontInfo` non sia riuscita. Anche questa regola è abilitata per impostazione predefinita. In base a questa regola, Aspose.Words tenterà di utilizzare il font predefinito specificato nella proprietà [DefaultFontName](https://reference.aspose.com/words/java/com.aspose.words/defaultfontsubstitutionrule/#getDefaultFontName). Se l'utente non ha scelto il proprio font predefinito, verrà utilizzato" Times New Roman " come font predefinito. Questa regola può essere disabilitata come mostrato di seguito:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setEnabled(false);
       {{< /highlight >}}
-      Per controllare il carattere predefinito corrente, utilizzare:<br/>
-      **Java**<br/>
+      Per controllare il carattere predefinito corrente, utilizzare:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().getDefaultFontName();
       {{< /highlight >}}
-      Per impostare la propria opzione di sostituzione, applicare:<br/>
-      **Java**<br/>
+      Per impostare la propria opzione di sostituzione, applicare:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Arial");
       {{< /highlight >}}
-1. Se Aspose.Words non è in grado di eseguire la sostituzione del carattere, cerca di ottenere il primo carattere disponibile da fonti di carattere disponibili.
-1. Infine, se Aspose.Words non può trovare alcun tipo di carattere tra le fonti di carattere disponibili, rende il documento utilizzando il carattere gratuito Fanwood che è incorporato nel Aspose.Words montaggio.
+1. Se Aspose.Words non è in grado di eseguire la sostituzione del font, tenta di ottenere il primo font disponibile dalle fonti di font disponibili.
+1. Infine, se Aspose.Words non riesce a trovare alcun font tra le fonti di font disponibili, esegue il rendering del documento utilizzando il font Fanwood gratuito incorporato nell'assembly Aspose.Words.
 
 {{% alert color="primary" %}}
 
-Se **FontInfo** è disponibile, la regola di sostituzione *FontInfo* risolverà sempre il carattere e sovrascriverà la regola del carattere predefinito. Se si desidera utilizzare la regola del carattere predefinito, è necessario disabilitare la regola *FontInfo sostituzione*. Si noti che la regola di sostituzione *FontConfig* risolverà il carattere nella maggior parte dei casi, e quindi sovrascrive tutte le altre regole.
+Se **FontInfo** è disponibile, *FontInfo substitution rule* risolverà sempre il font e sostituirà la regola di font predefinita. Se si desidera utilizzare la regola di font predefinita, è necessario disabilitare *FontInfo substitution rule*. Si noti che *FontConfig substitution rule* risolverà il font nella maggior parte dei casi, e quindi sovrascriverà tutte le altre regole.
 
 {{% /alert %}}
 
-## Come Riconoscere che il carattere è stato sostituito
+## Come riconoscere che il font è stato sostituito
 
-A volte, potrebbe non essere chiaro perché il layout del documento è cambiato, o perché alcuni caratteri non sembrano come previsto. In tali casi, la sostituzione dei caratteri avverte i messaggi implementati dal [IWarningCallback](https://reference.aspose.com/words/java/com.aspose.words/iwarningcallback/) l'interfaccia viene in soccorso. loro hanno [FontSubstitution](https://reference.aspose.com/words/java/com.aspose.words/warningtype/#FONT-SUBSTITUTION) tipo di avviso e il formato di testo descrizione standard, "Font '<originalfont>Non è stato trovato. Usare '<substitutionfont>' font invece. Motivo: <reason>", con i seguenti motivi:</reason></substitutionfont></originalfont>
+A volte, potrebbe non essere chiaro il motivo per cui il layout del documento è cambiato o perché alcuni font non sembrano come previsto. In questi casi, i messaggi di avviso di sostituzione dei caratteri implementati dall'interfaccia [IWarningCallback](https://reference.aspose.com/words/java/com.aspose.words/iwarningcallback/) vengono in soccorso. Hanno il tipo di avviso [FontSubstitution](https://reference.aspose.com/words/java/com.aspose.words/warningtype/#FONT-SUBSTITUTION) e il formato di testo di descrizione standard, "Font '<OriginalFont>' non è stato trovato. Usando invece il carattere' <SubstitutionFont>'. Motivo: <Reason>", con i seguenti motivi:
 
-- "nome alternativo dal documento" – per sostituzione [AltName](https://reference.aspose.com/words/java/com.aspose.words/Fontinfo#AltName)
-- "fontconfig sostituzioni" – per la sostituzione tramite la regola di configurazione del carattere
-- "sostituzione da tavolo" - per la sostituzione per regola di tabella
-- "font info sostituzioni" – per la sostituzione tramite la regola info font
-- "sostituzione del carattere predefinito" – per la sostituzione per regola di carattere predefinito
-- "primo carattere disponibile" – per la sostituzione con il primo carattere disponibile
+- "nome alternativo dal documento" – per la sostituzione con [AltName](https://reference.aspose.com/words/java/com.aspose.words/Fontinfo#AltName)
+- "sostituzione fontconfig" - per la sostituzione con la regola di configurazione del font
+- "sostituzione tabella" - per la sostituzione per regola tabella
+- "font info substitution" - per la sostituzione con la regola info font
+- "default font substitution" - per la sostituzione secondo la regola di default del font
+- "first available font" - per la sostituzione con first available font
 
 ## Font FallBack Impostazioni da XML
 
-Ci sono due meccanismi diversi utilizzati in Aspose.Words - Sostituzione del carattere e Fallback del carattere. La sostituzione del carattere viene utilizzata quando il carattere specificato nel documento non potrebbe essere trovato tra le fonti del carattere come descritto nelle sezioni precedenti. Il meccanismo di errore del carattere viene utilizzato quando il carattere viene risolto, ma non contiene un carattere specifico. In questo caso, Aspose.Words tenta di utilizzare uno dei font fallback per il personaggio.
+Esistono due diversi meccanismi utilizzati in Aspose.Words: la sostituzione del font e il fallback del font. La sostituzione del font viene utilizzata quando il font specificato nel documento non è stato trovato tra le fonti del font come descritto nelle sezioni precedenti. Il meccanismo di fallback del font viene utilizzato quando il font viene risolto, ma non contiene un carattere specifico. In questo caso, Aspose.Words tenta di utilizzare uno dei font di riserva per il carattere.
 
-C'è un [BuildAutomatic](https://reference.aspose.com/words/java/com.aspose.words/fontfallbacksettings/#buildAutomatic) metodo che costruisce automaticamente le impostazioni di failback tramite la scansione dei font disponibili. Dal momento che questo metodo può produrre un'impostazione non ottimale di failback, è possibile controllare il comportamento di errore del carattere utilizzando le proprietà del [FontFallbackSettings](https://reference.aspose.com/words/java/com.aspose.words/fontfallbacksettings/) classe. Questa classe specifica le impostazioni del meccanismo di errore del carattere. È possibile ottenere un'istanza del **FontFallbackSettings** classe come segue:
+Esiste un metodo [BuildAutomatic](https://reference.aspose.com/words/java/com.aspose.words/fontfallbacksettings/#buildAutomatic) che crea automaticamente le impostazioni di fallback scansionando i font disponibili. Poiché questo metodo può produrre un'impostazione di fallback non ottimale, è possibile controllare il comportamento di fallback dei font utilizzando le proprietà della classe [FontFallbackSettings](https://reference.aspose.com/words/java/com.aspose.words/fontfallbacksettings/). Questa classe specifica le impostazioni del meccanismo di fallback dei font. È possibile ottenere un'istanza della classe **FontFallbackSettings** come segue:
 
 **Java**
 
@@ -152,7 +153,7 @@ C'è un [BuildAutomatic](https://reference.aspose.com/words/java/com.aspose.word
 FontFallbackSettings settings = fontSettings.getFallbackSettings();
 {{< /highlight >}}
 
-Analogamente alla regola di sostituzione *, questo meccanismo utilizza tabelle XML per la configurazione. Queste tabelle XML possono essere caricate e salvate con i seguenti metodi:
+Analogamente a *Table substitution rule*, questo meccanismo utilizza le tabelle XML per la configurazione. Queste tabelle XML possono essere caricate e salvate con i seguenti metodi:
 
 **Java**
 
@@ -161,9 +162,9 @@ fontSettings.getFallbackSettings().load("MyNewFallbackTable.xml");
 fontSettings.getFallbackSettings().save("Current_FallbackTable.xml");
 {{< /highlight >}}
 
-The Aspose.Words il rilascio comprende due tabelle: *MsOfficeFallbackSetting.xml* e *NotoFallbackSetting.xml*.
+La versione Aspose.Words include due tabelle: *MsOfficeFallbackSetting.xml* e *NotoFallbackSetting.xml*.
 
-The *MsOfficeFallbackSetting* tabella definisce una strategia di sostituzione per una gamma di caratteri, che è simile alla strategia utilizzata da Microsoft Word. Così, la strategia richiede l'installazione di Microsoft Fonti di ufficio. *MsOfficeFallbackSetting* può essere attivato utilizzando il seguente metodo:
+La tabella *MsOfficeFallbackSetting* definisce una strategia di sostituzione per un intervallo di caratteri, che è simile alla strategia utilizzata da Microsoft Word. Pertanto, la strategia richiede l'installazione di caratteri di Office Microsoft. *MsOfficeFallbackSetting* può essere attivato utilizzando il seguente metodo:
 
 **.Java**
 
@@ -171,7 +172,7 @@ The *MsOfficeFallbackSetting* tabella definisce una strategia di sostituzione pe
 fontSettings.getFallbackSettings().loadMsOfficeFallbackSettings();
 {{< /highlight >}}
 
-The *NotoFallbackSetting* tavolo è creato appositamente per l'uso con Google Noto fonts (vedere maggiori informazioni Google Noto impostazioni del carattere nella sezione successiva) e può essere abilitato come segue:
+La tabella *NotoFallbackSetting* viene creata appositamente per l'uso con i font Google Noto (vedere ulteriori informazioni sulle impostazioni dei font Google Noto nella sezione successiva) e può essere abilitata come segue:
 
 **Java**
 
@@ -179,11 +180,11 @@ The *NotoFallbackSetting* tavolo è creato appositamente per l'uso con Google No
 fontSettings.getFallbackSettings().loadNotoFallbackSettings();
 {{< /highlight >}}
 
-Il seguente esempio di codice mostra come caricare le impostazioni di errore del carattere da un file XML:
+Nell'esempio di codice seguente viene illustrato come caricare le impostazioni di fallback dei font da un file XML:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-SetFontSettings-SetFontFallbackSettings.java" >}}
 
-Nell'esempio di codice sopra, viene utilizzato il seguente file XML:
+Nell'esempio di codice precedente, viene utilizzato il seguente file XML:
 
 {{< highlight html >}}
 <FontFallbackSettings xmlns="Aspose.Words">
@@ -204,35 +205,35 @@ Nell'esempio di codice sopra, viene utilizzato il seguente file XML:
 </FontFallbackSettings>
 {{< /highlight >}}
 
-## Impostazioni predefinite del carattere di ritorno per Google Noto Fonti
+## Impostazioni predefinite del carattere FallBack per i caratteri Google Noto
 
-Aspose.Words fornisce impostazioni predefinite di errore del carattere per Google Noto font. Questi sono font gratuiti con licenza SIL Open Font License, che possono essere scaricati da Google Noto Fonti. The **FontFallbackSettings** classe fornisce un [LoadNotoFallbackSettings](https://reference.aspose.com/words/java/com.aspose.words/fontfallbacksettings/#loadNotoFallbackSettings) metodo. Carica impostazioni predefinite di failback, che utilizzano Google Noto caratteri come mostrato nell'esempio di codice qui sotto:
+Aspose.Words fornisce impostazioni predefinite di fallback dei font per i font Google Noto. Questi sono font gratuiti sotto licenza SIL Open Font License, che possono essere scaricati da Google Noto Fonts. La classe **FontFallbackSettings** fornisce un metodo [LoadNotoFallbackSettings](https://reference.aspose.com/words/java/com.aspose.words/fontfallbacksettings/#loadNotoFallbackSettings). Carica le impostazioni di fallback predefinite, che utilizzano font Google Noto come mostrato nell'esempio di codice qui sotto:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-SetFontSettings-setPredefinedFontFallbackSettings.java" >}}
 
 {{% alert color="primary" %}}
 
-Solo i font Noto stile Sans con peso regolare vengono utilizzati in impostazioni predefinite.
+Solo i font Sans style Noto con peso regolare vengono utilizzati in impostazioni predefinite.
 
 {{% /alert %}}
 
-## Dove? Aspose.Words Cerca caratteri
+## Dove Aspose.Words Cerca i font
 
-Aspose.Words tenta di trovare i font TrueType sul file system automaticamente. Di solito, puoi contare sul comportamento predefinito di Aspose.Words per trovare il `TrueType` font, ma a volte è necessario specificare le proprie cartelle contenenti font TrueType. The [Indicare Vero Tipo Fonts Location](/words/it/java/specify-truetype-fonts-location/) argomento descrive come e dove Aspose.Words cerca caratteri, così come come come specificare le proprie posizioni di carattere.
+Aspose.Words tenta di trovare automaticamente i font TrueType nel file system. Di solito, è possibile fare affidamento sul comportamento predefinito di Aspose.Words per trovare i font `TrueType`, ma a volte è necessario specificare le proprie cartelle contenenti i font TrueType. Il [Specificare la posizione dei caratteri TrueType](/words/java/specify-truetype-fonts-location/) l'argomento descrive come e dove Aspose.Words cerca i font, nonché come specificare le proprie posizioni dei font.
 
-## Differenze nel trattamento dei formati di carattere in Aspose.Words e Microsoft Word
+## Differenze nell'elaborazione dei formati dei caratteri in Aspose.Wordse Microsoft Word
 
-Ci sono alcune differenze nel trattamento dei formati di carattere in Aspose.Words e Microsoft Word come mostrato nella tabella sottostante:
+Ci sono alcune differenze nell'elaborazione dei formati dei caratteri in Aspose.Words e Microsoft Word come mostrato nella tabella seguente:
 
 |  | Microsoft Word | Aspose.Words |
-|  :-  |  :-  |  :-  |
-| I font TrueType e i font OpenType con i contorni TrueType | Sostenuto. | Sostenuto. |
-| OpenType fonts con profilo PostScript | Supportato per la maggior parte degli scenari. Incorporare a formati di pagina fissa come PDF e XPS non sono supportati. Il testo viene sostituito con immagini bitmap. | Supportato per la maggior parte degli scenari, incluso l'inserimento in formati di pagina fissa. |
-| Variazioni di caratteri OpenType | Solo le istanze nominate sono supportate. Variazioni continue non supportate. | Supportato per l'unica istanza predefinita. Le istanze nominate e le variazioni continue non sono supportate. |
-| Tipo1 caratteri | Supportato su Windows versioni precedenti al 2013 e sulle versioni MacOS. Il supporto è caduto su Windows versioni a partire dal 2013. | Non supportato. |
+| :- | :- | :- |
+| Caratteri TrueType e caratteri OpenType con contorni TrueType | Supportare. | Supportare. |
+| Caratteri OpenType con contorni PostScript | Supportato per la maggior parte degli scenari. L'incorporamento in formati a pagina fissa come PDF e XPS non sono supportati. Il testo viene sostituito con immagini bitmap. | Supportato per la maggior parte degli scenari, incluso l'incorporamento in formati a pagina fissa. |
+| OpenType Variazioni dei caratteri | Sono supportate solo le istanze nominate. Variazioni continue non supportate. | Supportato per l'unica istanza predefinita. Le istanze denominate e le variazioni continue non sono supportate. |
+| Font Type1 | Supportato nelle versioni Windowsprecedenti al 2013 e nelle versioni MacOS. Il supporto viene eliminato nelle versioni Windows a partire dal 2013. | Non supportato. |
 
 ## Vedi anche
 
-- No. [Google Noto Fonti](https://fonts.google.com/noto) per scaricare gratuitamente i font
+- [Google Noto Caratteri](https://fonts.google.com/noto) per scaricare font gratuiti
 
 

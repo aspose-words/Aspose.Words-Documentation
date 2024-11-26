@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu câmpuri în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Lucrul cu câmpuri
@@ -7,6 +7,7 @@ description: "Cum se lucrează cu câmpurile dintr-un document folosind Python."
 type: docs
 weight: 370
 url: /ro/python-net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 **Câmpuri**

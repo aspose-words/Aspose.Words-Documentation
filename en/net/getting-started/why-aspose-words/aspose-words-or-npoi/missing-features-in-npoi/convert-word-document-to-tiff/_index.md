@@ -7,6 +7,7 @@ description: "Convert Word document to TIFF. NPOI does not provide an opportunit
 type: docs
 weight: 20
 url: /net/convert-word-document-to-tiff/
+timestamp: 2024-01-31-14-23-37
 ---
 
 {{% alert color="primary" %}}

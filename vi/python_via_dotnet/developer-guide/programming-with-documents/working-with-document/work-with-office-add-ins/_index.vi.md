@@ -7,6 +7,7 @@ description: "Aspose.Words cho Python via .NET cung cấp nhiều lớp khác nh
 type: docs
 weight: 50
 url: /vi/python-net/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi bạn có thể muốn cấp quyền truy cập vào các điều khiển giao diện chạy mã để sửa đổi tài liệu. Aspose.Words API cung cấp mô-đun [webextensions](https://reference.aspose.com/words/python-net/aspose.words.webextensions/), cung cấp các lớp khác nhau để tùy chỉnh các thành phần và thuộc tính mở rộng từ vựng XML để thể hiện các Phần bổ trợ dành cho Office.

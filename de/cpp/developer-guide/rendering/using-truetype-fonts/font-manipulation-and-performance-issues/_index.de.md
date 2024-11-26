@@ -1,4 +1,4 @@
-﻿---
+---
 title: Schriftmanipulation und Leistungsprobleme in C++
 second_title: Aspose.Words für C++
 articleTitle: Schriftmanipulation und Leistungsprobleme
@@ -7,6 +7,7 @@ description: "Aspose.Words für C++ verwendet den vollständigen Namen der Schri
 type: docs
 weight: 11
 url: /de/cpp/font-manipulation-and-performance-issues/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Alle verfügbaren Mechanismen zur Schriftmanipulation sind in der Klasse [FontSettings](https://reference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings) enthalten. Diese Klasse ist für das Abrufen von Schriftarten innerhalb definierter Schriftquellen sowie für den Schriftartenersetzungsprozess verantwortlich, wie unten beschrieben.

@@ -7,6 +7,7 @@ type: docs
 description: "Manipulace s vodoznakem pomocí dokumentu Java."
 weight: 70
 url: /cs/java/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Toto téma pojednává o tom, jak pracovat programově s vodoznakem pomocí Aspose.Words. Vodoznak je obrázek pozadí, který se zobrazí za textem v dokumentu. Vodoznak může obsahovat text nebo obraz reprezentovaný [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) třída.

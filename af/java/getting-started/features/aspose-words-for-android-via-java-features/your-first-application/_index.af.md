@@ -1,4 +1,4 @@
-﻿---
+---
 title: Jou Eerste Aansoek vir Android via Java
 second_title: Aspose.Words vir Java
 articleTitle: Jou Eerste Aansoek
@@ -7,6 +7,7 @@ description: "Installeer Aspose.Words vir Android via Java."
 type: docs
 weight: 30
 url: /af/java/your-first-application/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hierdie artikel gee jou'n idee om te begin met Aspose.Words vir Android via Java. Dit sal demonstreer hoe om'n nuwe Android projek van nuuts af op te stel, 'n verwysing na die Aspose.Words JAR by te voeg en'n nuwe dokument te skep wat in DOCX formaat op skyf gestoor word. Hierdie voorbeeld gebruik [Android Studio](https://developer.android.com/studio/index.html) vir ontwikkeling en die aansoek word uitgevoer op die Android Emulator. Om te begin met Aspose.Words vir Android via Java, volg asseblief hierdie stap-vir-stap handleiding om'n program te skep wat Aspose.Words vir Android via Javagebruik:

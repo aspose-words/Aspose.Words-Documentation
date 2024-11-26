@@ -8,6 +8,7 @@ description: "บันทึกเอกสารในรูปแบบที
 keywords: "save a document c#, save a document to file c#, save a document to stream c#, save a document Aspose .NET, save formats supported by Aspose.Words .NET"
 weight: 20
 url: /th/net/save-a-document/
+timestamp: 2024-07-09-19-00-42
 ---
 
 งานส่วนใหญ่ที่คุณต้องดำเนินการกับ Aspose.Words คือการบันทึกเอกสาร ในการบันทึกเอกสาร Aspose.Words ให้วิธีการ [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) ของคลาส [Document](https://reference.aspose.com/words/net/aspose.words/document/) มีการโอเวอร์โหลดที่ทำให้สามารถบันทึกเอกสารลงในไฟล์ สตรีม หรือออบเจ็กต์ ASP.NET HttpResponse เพื่อส่งไปยังเบราว์เซอร์ไคลเอ็นต์ สามารถบันทึกเอกสารในรูปแบบบันทึกใดก็ได้ที่ Aspose.Words รองรับ สำหรับรายการรูปแบบการบันทึกที่รองรับทั้งหมด โปรดดูการแจงนับ [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/)

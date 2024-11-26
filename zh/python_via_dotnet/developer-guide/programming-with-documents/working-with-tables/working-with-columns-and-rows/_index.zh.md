@@ -7,6 +7,7 @@ description: "使用 Python 处理表格的各个部分 - 行、列和单元格�
 type: docs
 weight: 30
 url: /zh/python-net/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 要更好地控制表的工作方式，请了解如何操作列和行。

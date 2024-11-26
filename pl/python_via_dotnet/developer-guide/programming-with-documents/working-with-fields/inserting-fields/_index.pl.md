@@ -7,6 +7,7 @@ description: "Wstawiaj pola do dokumentu w formacie Python na różne sposoby: z
 type: docs
 weight: 20
 url: /pl/python-net/inserting-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Istnieje kilka różnych sposobów wstawiania pól do dokumentu:
@@ -85,7 +86,7 @@ Poniższy przykład kodu pokazuje, jak dodać pole `Merge` za pomocą formatu DO
 
 ### Wstawianie pola Mail Merge `ADDRESSBLOCK` do dokumentu przy użyciu formatu DOM
 
-Pole `ADDRESSBLOCK` służy do wstawienia bloku adresu mail merge do dokumentu Word. Pole `ADDRESSBLOCK` w dokumencie Word może być reprezentowane przez klasę [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/). Za pomocą klasy [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) można wykonać następujące operacje:
+Pole `ADDRESSBLOCK` służy do wstawienia bloku adresu Mail Merge do dokumentu Word. Pole `ADDRESSBLOCK` w dokumencie Word może być reprezentowane przez klasę [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/). Za pomocą klasy [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) można wykonać następujące operacje:
 
 - określ, czy w polu ma być zawarta nazwa kraju/regionu
 - określ, czy adres ma być formatowany zgodnie z krajem/regionem odbiorcy zgodnie z definicją POST*CODE (Powszechny Związek Pocztowy 2006)

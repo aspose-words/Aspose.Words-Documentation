@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Headers in NPOI
 second_title: Aspose.Words for .NET
 articleTitle: Working with Headers in NPOI
@@ -7,6 +7,7 @@ description: "Work with headers in a document easily and fast instead of using N
 type: docs
 weight: 20
 url: /net/working-with-headers-in-npoi/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Aspose.Words - Working with Headers

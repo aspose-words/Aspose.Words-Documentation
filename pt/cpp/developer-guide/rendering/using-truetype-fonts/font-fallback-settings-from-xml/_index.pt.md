@@ -1,4 +1,4 @@
-﻿---
+---
 title: Fonte FallBack configurações de XML Em C++
 second_title: Aspose.Words para C++
 articleTitle: Fonte FallBack definições de XML
@@ -7,6 +7,7 @@ description: "O mecanismo de fallback da fonte é usado quando a fonte é resolv
 type: docs
 weight: 14
 url: /pt/cpp/font-fallback-settings-from-xml/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Existem dois mecanismos diferentes usados em Aspose.Words - substituição de fonte e fallback de fonte. A substituição de fonte é utilizada quando a fonte especificada no documento não pôde ser encontrada entre as fontes de fonte, tal como foi descrita nas secções acima. O mecanismo de fallback da fonte é usado quando a fonte é resolvida, mas não contém um caractere específico. Nesse caso, Aspose.Words tenta usar uma das fontes de fallback para o caractere.

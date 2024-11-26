@@ -1,4 +1,4 @@
-﻿---
+---
 title: حدد خيارات التخطيط في C++
 second_title: Aspose.Words ل C++
 articleTitle: تحديد خيارات التخطيط
@@ -7,6 +7,7 @@ description: "حدد خيارات التخطيط لتخطيطات المستند
 type: docs
 weight: 20
 url: /ar/cpp/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words تمكنك من إنشاء مستندات الإخراج مع تخطيطات مختلفة، اعتمادا على المعلمات المحددة في [LayoutOptions](https://reference.aspose.com/words/cpp/class/aspose.words.layout.layout_options) خاصية **Document**. تشبه هذه الخاصية بعض خيارات قائمة واجهة المستخدم Microsoft Word الموضحة في هذه المقالة.

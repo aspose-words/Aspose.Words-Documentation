@@ -7,6 +7,7 @@ type: docs
 weight: 10
 url: /cs/java/create-or-load-a-document/
 description: "Aspose.Words umožňuje vytvořit prázdný dokument nebo jej načíst ze souboru nebo streamu pomocí Java."
+timestamp: 2024-01-27-14-07-04
 ---
 
 Téměř jakýkoli úkol, který chcete vykonávat s Aspose.Words zahrnuje načtení dokumentu. The `Document` třída představuje dokument naložený do paměti. Dokument má několik přetížených konstruktérů, které vám umožní vytvořit prázdný dokument nebo jej načíst ze souboru nebo streamu. Dokument lze načíst v jakémkoli formátu zatížení podporovaném Aspose.Words. Seznam všech podporovaných formátů zatížení viz [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) výčtu.

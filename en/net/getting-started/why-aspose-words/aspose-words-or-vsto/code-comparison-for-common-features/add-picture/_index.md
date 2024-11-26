@@ -7,6 +7,7 @@ description: "Add an image into a document easily and fast instead of using VSTO
 type: docs
 weight: 50
 url: /net/add-picture/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## VSTO

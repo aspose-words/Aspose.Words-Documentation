@@ -1,4 +1,4 @@
-﻿---
+---
 title: Word Belgelerinin Seçenekleri ve Görünümü
 second_title: Aspose.Words için C++
 articleTitle: Word Belgelerinin Seçenekleri ve Görünümüyle Çalışma
@@ -7,6 +7,7 @@ description: "Çeşitli Microsoft Word sürümleri arasındaki farkı dikkate al
 type: docs
 weight: 40
 url: /tr/cpp/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen bir belgenin görünümünü değiştirmeniz gerekebilir, örneğin dil tercihlerini veya sayfa başına satır sayısını ayarlayın.Aspose.Words, belgenin nasıl görüntüleneceğini ve bazı ek seçenekleri kontrol etme olanağı sağlar. Bu makalede, bu tür olasılıklar açıklanmaktadır.

@@ -7,6 +7,7 @@ type: docs
 description: "Pengantar untuk membentuk bahasa markup, menciptakan bentuk berbagai jenis menggunakan JavaSitemap"
 weight: 280
 url: /id/java/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Topik ini membahas cara bekerja secara tematik dengan bentuk menggunakan Aspose.WordsSitemap

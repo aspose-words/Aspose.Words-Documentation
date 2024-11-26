@@ -1,4 +1,4 @@
-﻿---
+---
 title: Licenciamento e subscrição
 second_title: Aspose.Words Para C++
 articleTitle: Licenciamento e subscrição
@@ -7,6 +7,7 @@ description: "Aspose.Words Para O7 fornece planos diferentes para compra ou ofer
 type: docs
 weight: 60
 url: /pt/cpp/licensing/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Às vezes, para estudar melhor o sistema, você deseja mergulhar no código o mais rápido possível. Para tornar isso mais fácil, Aspose.Words fornece planos diferentes para compra ou oferece uma avaliação gratuita e uma licença temporária de 30 dias para avaliação.

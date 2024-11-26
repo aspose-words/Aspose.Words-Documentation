@@ -1,29 +1,30 @@
----
-title: Clone un document dans Java
+﻿---
+title: Cloner un document dans Java
 second_title: Aspose.Words pour Java
-articleTitle: Cloner un document
-linktitle: Cloner un document
+articleTitle: Cloner un Document
+linktitle: Cloner un Document
 type: docs
-description: "Clone un document pour obtenir sa copie identique. Lors de la création d'une copie, les nœuds et les propriétés du document original sont clonés en utilisant Java."
+description: "Clonez un document pour obtenir sa copie identique. Lors de la création d'une copie, les nœuds et les propriétés du document d'origine sont clonés à l'aide de Java."
 weight: 70
 url: /fr/java/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Cloner un document est le processus de création d'une copie identique d'un document original, qui peut améliorer les performances et vous sauver des fuites de mémoire potentielles.
+Le clonage d'un document est le processus de création d'une copie identique d'un document original, ce qui peut améliorer les performances et vous éviter d'éventuelles fuites de mémoire.
 
-Cet article explique les principaux cas d'utilisation du clonage d'un document et comment créer un clone de document en utilisant Aspose.Words.
+Cet article expliquera les principaux cas d'utilisation du clonage d'un document et comment créer un clone de document à l'aide de Aspose.Words.
 
-## Opérations avec des documents de clonage
+## Opérations avec des Documents de Clonage
 
-L'opération clone vous permet de rendre le processus de création de documents plus rapide car vous n'aurez pas besoin de charger et d'analyser un document à partir d'un fichier à chaque fois.
+L'opération de clonage vous permet d'accélérer le processus de création de documents car vous n'aurez pas besoin de charger et d'analyser un document à partir d'un fichier à chaque fois.
 
-Après avoir créé un clone de votre document, vous pourrez le modifier et y effectuer différentes opérations, par exemple, le comparer avec le document original, l'ajouter ou l'insérer dans un autre document. Vous pouvez également modifier des éléments clonés ou leur contenu avant de les insérer dans un autre document.
+Après avoir créé un clone de votre document, vous pourrez le modifier et effectuer différentes opérations dessus, par exemple, le comparer avec le document d'origine, l'ajouter ou l'insérer dans un autre document. Vous pouvez également modifier les éléments clonés ou leur contenu avant de les insérer dans un autre document.
 
-## Créer un clone de document
+## Création d'un Clone de Document
 
-Aspose.Words vous permet de cloner un document en utilisant [Clone](https://reference.aspose.com/words/java/com.aspose.words/document/#deepClone) méthode qui effectue une copie profonde du document et le renvoie. En d'autres termes, il obtiendra une copie complète DOM. Les `Clone` méthode accélère la génération de documents, et vous avez seulement besoin d'une ligne de code pour obtenir une copie de votre document.
+Aspose.Words vous permet de cloner un document à l'aide de la méthode [Clone](https://reference.aspose.com/words/java/com.aspose.words/document/#deepClone) qui effectue une copie approfondie du document et le renvoie. En d'autres termes, il obtiendra une copie complète du DOM. La méthode `Clone` accélère la génération des documents et vous n'avez besoin que d'une seule ligne de code pour obtenir une copie de votre document.
 
-Cloning produit un nouveau document avec le même contenu que l'original, mais avec une copie unique de chacun des documents originaux [nodes](https://reference.aspose.com/words/java/com.aspose.words/node/). Vous pouvez également appliquer l'opération clone à un noeud document en utilisant le noeud [Clone](https://reference.aspose.com/words/java/com.aspose.words/node/#deepClone-boolean) méthode, qui vous permet de reproduire des nœuds de documents composites avec et sans leurs nœuds enfants.
+Le clonage produit un nouveau document avec le même contenu que l'original, mais avec une copie unique de chacun des [nodes](https://reference.aspose.com/words/java/com.aspose.words/node/) du document d'origine. Vous pouvez également appliquer l'opération de clonage à un nœud de document à l'aide de la méthode node [Clone](https://reference.aspose.com/words/java/com.aspose.words/node/#deepClone-boolean), qui vous permet de dupliquer des nœuds de document composite avec et sans leurs nœuds enfants.
 
 {{% alert color="primary" %}}
 
@@ -31,5 +32,5 @@ Notez que lors de l'application de la méthode de clonage, toutes les propriét�
 
 {{% /alert %}}
 
-L'exemple de code suivant montre comment cloner un document et créer un duplicata d'une section dans ce document:
+L'exemple de code suivant montre comment cloner un document et créer une copie d'une section de ce document:
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CloneDocument-CloneADocument.java" >}}

@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのフィールドの操作
 second_title: C++の場合Aspose.Words
 articleTitle: フィールドの操作
@@ -7,6 +7,7 @@ description: "でのフィールド機能の紹介 C++の場合Aspose.Words."
 type: docs
 weight: 370
 url: /ja/cpp/working-with-fields/
+timestamp: 2024-01-30-16-22-34
 ---
 
 **フィールド**

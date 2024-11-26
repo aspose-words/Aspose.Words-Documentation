@@ -7,6 +7,7 @@ description: "C#'teki belirli belge formatları için uygun şifreleme algoritma
 type: docs
 weight: 20
 url: /tr/net/encrypt-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Şifreleme, okunabilir metni anlamsız bayt dizilerine dönüştüren ve böylece yalnızca şifre çözme anahtarına veya gizli koda sahip olan kişi tarafından okunabilen işlemdir. Bu süreç içeriğinizin güvenliğini sağlamada önemli bir rol oynar. İçeriğin kodlanmasına, bir belgenin kaynağının doğrulanmasına, içeriğin gönderildikten sonra değiştirilmediğinin kanıtlanmasına ve belgedeki verilerin güvenli olduğundan emin olunmasına yardımcı olur.

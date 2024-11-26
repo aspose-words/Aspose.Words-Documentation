@@ -7,6 +7,7 @@ description: ".NET için Aspose.Words'teki numaralandırma biçimlendirme özell
 type: docs
 weight: 200
 url: /tr/net/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word belgesindeki liste, bir dizi paragraf biçimlendirme özelliğidir. Listeler belgelerde metni yapılandırmak, düzenlemek ve vurgulamak için kullanılabilir. Listeler, okuyucuların önemli noktaları kavramasını ve anlamasını kolaylaştıracak şekilde belgelerdeki verileri düzenlemenin harika bir yoludur.

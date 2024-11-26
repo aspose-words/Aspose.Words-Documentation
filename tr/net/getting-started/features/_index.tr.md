@@ -7,6 +7,7 @@ description: ".NET için Aspose.Words, kullanıcılara belgeleri basitçe dönü
 type: docs
 weight: 40
 url: /tr/net/features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words kullanıcılara çok çeşitli özellikler sunar. Kullanıcılar, belgeleri desteklenen bir formattan diğerine dönüştürmek ve dönüştürme süreci sırasında bu belgeleri değiştirmekten, yapılandırılmış ve görsel olarak çekici belgeler oluşturmak veya raporlamayı otomatikleştirmek gibi iş görevlerine kadar belgeyle ilgili çok sayıda görevi gerçekleştirebilir.
@@ -113,16 +114,16 @@ Aspose.Words'i başlı başına bir raporlama çözümü olarak kullanabilirsini
 
 |  Özellik | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Xamarin.Mac |
 |  :-  |  :-  |  :-  |  :-  |  :-  |  :-  |
-| Raporlarınızda `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE dahil tüm standart Microsoft Word mail merge alanlarını kullanın. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Raporlarınızda `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE dahil tüm standart Microsoft Word Mail Merge alanlarını kullanın. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | En karmaşık ve iç içe geçmiş `IF` alanlarını ve formüllerini bile içeren belgeler için mail merge'i yürütün. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| mail merge bölgelerini kullanarak belgedeki tabloları veya parçaları veri kaynağınızdan doldurun ve dinamik olarak büyütün. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Mail Merge bölgelerini kullanarak belgedeki tabloları veya parçaları veri kaynağınızdan doldurun ve dinamik olarak büyütün. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Order/OrderDetails gibi ana detay (üst-alt) verilerini içeren raporları kolayca oluşturun. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Belgeleri DataSet, DataTable, DataView, DataReader veya ADO Recordset gibi herhangi bir .NET veri kaynağından gelen verilerle doldurun. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | **IMailMergeDataSource** arayüzünü uygulayarak LINQ sorgusu, XML dosyası veya iş nesneleri gibi herhangi bir veri kaynağından belgeleri doldurun. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Verilerinizin olaylar kullanılarak nasıl birleştirileceği konusunda sayı biçimlendirmesi gibi hassas kontrolü elinize alın. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| mail merge sırasında görüntüleri ekleyin. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Bir belge için Microsoft Word mail merge veri kaynağını programlı olarak oluşturun veya değiştirin. mail merge ayarlarını ve veri kaynaklarını koruyun. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| mail merge alan adlarını alın. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Mail Merge sırasında görüntüleri ekleyin. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Bir belge için Microsoft Word Mail Merge veri kaynağını programlı olarak oluşturun veya değiştirin. Mail Merge ayarlarını ve veri kaynaklarını koruyun. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Mail Merge alan adlarını alın. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ## Raporlama Özellikleri
 

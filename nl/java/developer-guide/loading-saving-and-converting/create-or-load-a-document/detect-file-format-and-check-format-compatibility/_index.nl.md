@@ -7,6 +7,7 @@ description: "Informatie verkrijgen over het documentformaat voordat u het opent
 type: docs
 weight: 20
 url: /nl/java/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Soms is het nodig om het formaat van een document te bepalen voordat u opent omdat de bestandsextensie niet garandeert dat de inhoud van het bestand geschikt is. Bijvoorbeeld, het is bekend dat Crystal Reports vaak uitvoert documenten in RTF-formaat, maar geeft hen de .doc extensie.

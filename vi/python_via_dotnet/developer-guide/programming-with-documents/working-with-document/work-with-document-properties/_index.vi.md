@@ -7,6 +7,7 @@ description: "Aspose.Words cho Python cho phép lưu trữ một số thông tin
 type: docs
 weight: 10
 url: /vi/python-net/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Thuộc tính tài liệu cho phép lưu trữ một số thông tin hữu ích về tài liệu của bạn. Những thuộc tính này có thể được chia thành hai nhóm:

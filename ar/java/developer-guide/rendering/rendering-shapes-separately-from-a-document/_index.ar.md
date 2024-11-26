@@ -1,92 +1,93 @@
----
-title: الثرثرة منفصلة عن الوثيقة
-second_title: Aspose.Words for Java
-articleTitle: الثرثرة منفصلة عن الوثيقة
-linktitle: الثرثرة منفصلة عن الوثيقة
-description: "Extract various graphic objects, such as images, text box containing paragraphs, or arrow shapes, when processing a document, and export them to an external location using Java."
+﻿---
+title: عرض الأشكال بشكل منفصل عن المستند
+second_title: Aspose.Words ل Java
+articleTitle: عرض الأشكال بشكل منفصل عن المستند
+linktitle: عرض الأشكال بشكل منفصل عن المستند
+description: "استخراج كائنات رسومية مختلفة، مثل الصور أو مربع النص الذي يحتوي على فقرات أو أشكال الأسهم، عند معالجة مستند، وتصديرها إلى موقع خارجي باستخدام Java."
 type: docs
 weight: 40
 url: /ar/java/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
-وعند تجهيز الوثائق، تتمثل مهمة مشتركة في استخلاص جميع الصور الموجودة في الوثيقة وتصديرها إلى موقع خارجي. تصبح هذه المهمة بسيطة مع Aspose.Words API, التي توفر بالفعل القدرة على استخلاص بيانات الصور وحفظها. غير أنكم قد ترغبون أحياناً في أن تستخرجوا على نحو مماثل أنواعاً أخرى من المحتوى البياني التي تمثلها أنواع مختلفة من جسم الرسم، على سبيل المثال، صندوقاً نصياً يحتوي على فقرات وشكل سهم وصورة صغيرة. ولا توجد طريقة واضحة لجعل هذا الجسم لأنه مزيج من عناصر المحتوى الفردية. قد تواجهون أيضاً قضية عندما يتم تجميع المحتويات معاً في الجسم الذي يبدو كصورة واحدة
+عند معالجة المستندات، تتمثل المهمة الشائعة في استخراج جميع الصور الموجودة في المستند وتصديرها إلى موقع خارجي. تصبح هذه المهمة بسيطة مع Aspose.Words API، والتي توفر بالفعل وظيفة لاستخراج وحفظ بيانات الصورة. ومع ذلك، قد ترغب في بعض الأحيان في استخراج أنواع أخرى من المحتوى الرسومي التي يتم تمثيلها بنوع مختلف من كائن الرسم، على سبيل المثال، مربع نص يحتوي على فقرات وأشكال أسهم وصورة صغيرة. لا توجد طريقة مباشرة لعرض هذا الكائن لأنه مزيج من عناصر المحتوى الفردية. قد تواجه أيضا حالة عندما يتم تجميع المحتويات معا في الكائن الذي يشبه صورة واحدة.
 
-Aspose.Words يوفر القدرة على استخراج هذا النوع من المحتوى بنفس الطريقة التي يمكنك الحصول على صورة بسيطة من الشكل كما هو مضمون. وتصف هذه المادة كيفية استخدام هذه الوظيفة لجعل الأشكال مستقلة عن الوثيقة.
+Aspose.Words يوفر وظائف لاستخراج هذا النوع من المحتوى بنفس الطريقة التي يمكنك استخراج صورة بسيطة من الشكل كمحتوى المقدمة. توضح هذه المقالة كيفية استخدام هذه الوظيفة لعرض الأشكال بشكل مستقل عن المستند.
 
-## الأشكال في Aspose.Words
+## أنواع الأشكال في Aspose.Words
 
-جميع المحتويات في طبقة رسم الوثائق تمثلها [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) أو [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) العقد في Aspose.Words وحدة اعتراض الوثائقDOM) ويمكن أن تكون هذه المحتويات صناديق نصية، وصور، وأوتوشاب، وأجسام OLE، وما إلى ذلك. وتستورد بعض الحقول أيضا كشكل، على سبيل المثال، `INCLUDEPICTURE` الحقل
+يتم تمثيل كل المحتوى في طبقة رسم المستند بواسطة [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) أو [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) عقدة في Aspose.Words وحدة كائن المستند (DOM). يمكن أن تكون هذه المحتويات مربعات نصية، صور ،AutoShapes، OLE كائنات، إلخ. يتم أيضا استيراد بعض الحقول كأشكال، على سبيل المثال، حقل `INCLUDEPICTURE`.
 
-A simple image is represented by a **Shape** Node of [ShapeType.Image](https://reference.aspose.com/words/java/com.aspose.words/shapetype/#IMAGE). هذا النموذج لا يوجد به ندوب أطفال لكن بيانات الصور الواردة في هذا النموذج يمكن الحصول عليها [Shape.ImageData](https://reference.aspose.com/words/java/com.aspose.words/shape/#getImageData) ملكية ومن جهة أخرى، يمكن أيضاً تكوين شكل من أشكال العديد من الأطفال. For instance, a text box shape, which is represented by the [ShapeType.TextBox](https://reference.aspose.com/words/java/com.aspose.words/shapetype/#TEXT-BOX) يمكن أن تتألف الممتلكات من العديد من المعالم، مثل [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) و [Table](https://reference.aspose.com/words/java/com.aspose.words/table/). معظم الأشكال يمكن أن تشمل **Paragraph** و **Table** عقدة على مستوى الكتل. هذه هي نفس العقدة التي تظهر في الجسم الرئيسي. الشباك هي دائما أجزاء من بعض الفقرة، إما أن تكون مشمولة مباشرة أو مرسوسة إلى **الفقرة،** ولكن " تميل " في أي مكان في صفحة الوثيقة.
+يتم تمثيل صورة بسيطة بواسطة عقدة **Shape** من [ShapeType.Image](https://reference.aspose.com/words/java/com.aspose.words/shapetype/#IMAGE). لا تحتوي عقدة الشكل هذه على عقد فرعية ولكن يمكن الوصول إلى بيانات الصورة الموجودة داخل عقدة الشكل هذه بواسطة [Shape.ImageData](https://reference.aspose.com/words/java/com.aspose.words/shape/#getImageData) خاصية. من ناحية أخرى، يمكن أيضا أن يتكون الشكل من العديد من العقد الفرعية. على سبيل المثال، يمكن أن يتكون شكل مربع النص، الذي يتم تمثيله بخاصية [ShapeType.TextBox](https://reference.aspose.com/words/java/com.aspose.words/shapetype/#TEXT-BOX)، من العديد من العقد، مثل [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) و [Table](https://reference.aspose.com/words/java/com.aspose.words/table/). يمكن أن تتضمن معظم الأشكال **Paragraph** و **Table** العقد على مستوى الكتلة. هذه هي نفس العقد مثل تلك التي تظهر في الجسم الرئيسي. الأشكال هي دائما أجزاء من فقرة ما، إما مضمنة مباشرة أو مرتبطة بـ **Paragraph,** ولكن "عائمة" في أي مكان في صفحة المستند.
 
 ![rendering-shapes-separately-from-a-document-aspose-words-java-1](/words/java/rendering-shapes-separately-from-a-document/rendering-shapes-separately-from-a-document-1.png)
 
-ويمكن أن تتضمن الوثيقة أيضا أشكالا تجمع معا. Groupيُمْكِنُ أَنْ يُمكّنَ في Microsoft Word باختيار أجسام متعددة والنقر " .Group" في القائمة الصحيحة.
+يمكن أن يحتوي المستند أيضا على أشكال مجمعة معا. يمكن تمكين التجميع في Microsoft Word عن طريق تحديد كائنات متعددة والنقر على "مجموعة" في قائمة النقر بزر الماوس الأيمن.
 
 ![rendering-shapes-separately-from-a-document-aspose-words-java-2](/words/java/rendering-shapes-separately-from-a-document/rendering-shapes-separately-from-a-document-2.png)
 
-In Aspose.Words, هذه المجموعات من الأشكال ممثلة من قبل [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) موكب ويمكن أيضا التذرع بها بنفس الطريقة لجعل المجموعة بأكملها على الصورة.
+في Aspose.Words، يتم تمثيل هذه المجموعات من الأشكال بواسطة عقدة [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/). يمكن أيضا استدعاء هذه بنفس الطريقة لتقديم المجموعة بأكملها إلى الصورة.
 
 ![rendering-shapes-separately-from-a-document-aspose-words-java-3](/words/java/rendering-shapes-separately-from-a-document/rendering-shapes-separately-from-a-document-3.png)
 
-ويمكن أن يتضمن نموذج " DOCX " أنواعاً خاصة من الصور، مثل الرسوم البيانية أو الخرائط. وهذه الأشكال ممثلة أيضا من خلال **Shape** عقيدة Aspose.Words, التي توفر أيضا طريقة مماثلة لجعلها صورا. ومن خلال التصميم، لا يمكن للشكل أن يحتوي على شكل آخر كطفل، ما لم يكن هذا الشكل صورة ().**ShapeType.Image**) على سبيل المثال، Microsoft Word لا يسمح لك بإدخال صندوق نص داخل صندوق نص آخر
+يمكن أن يحتوي تنسيق DOCX على أنواع خاصة من الصور، مثل الرسوم البيانية أو الرسوم البيانية. يتم تمثيل هذه الأشكال أيضا من خلال عقدة **Shape** في Aspose.Words، والتي توفر أيضا طريقة مماثلة لعرضها كصور. حسب التصميم، لا يمكن أن يحتوي الشكل على شكل آخر كطفل، ما لم يكن هذا الشكل صورة (**ShapeType.Image**). على سبيل المثال، Microsoft Word لا يسمح لك بإدراج مربع نص داخل مربع نص آخر.
 
-وتوفر أنواع الشكل المذكورة أعلاه طريقة خاصة لجعل الأشكال من خلال [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/) الصف حالة **ShapeRenderer** تم إسترجاع الصف **Shape** أو **GroupShape** من خلال **GetShapeRenderer** طريقة أو بتجاوز **Shape** إلى مبني **ShapeRenderer** صف وتتيح هذه الفئة إمكانية الوصول إلى الأعضاء، مما يسمح بتشكيل ما يلي:
+توفر أنواع الأشكال الموضحة أعلاه طريقة خاصة لعرض الأشكال من خلال فئة [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/). يتم استرداد مثيل من فئة **ShapeRenderer** لـ **Shape** أو **GroupShape** من خلال طريقة **GetShapeRenderer** أو بتمرير **Shape** إلى منشئ فئة **ShapeRenderer**. توفر هذه الفئة الوصول إلى الأعضاء، مما يسمح بتقديم شكل إلى ما يلي:
 
--أطير على القرص باستخدام [Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.lang.String-com.aspose.words.ImageSaveOptions) الإفراط في الحمولة
--تدريم باستخدام [Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.io.OutputStream-com.aspose.words.ImageSaveOptions) الإفراط في الحمولة
-- الخرافية اعتراض باستخدام [RenderToSize](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToSize-java.awt.Graphics2D-float-float-float-float) و [RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float) الأساليب
+- ملف على القرص باستخدام طريقة [Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.lang.String-com.aspose.words.ImageSaveOptions) الزائد
+- تيار باستخدام طريقة [Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.io.OutputStream-com.aspose.words.ImageSaveOptions) الزائد
+- كائن الرسومات باستخدام طرق [RenderToSize](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToSize-java.awt.Graphics2D-float-float-float-float) و [RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float)
 
 {{% alert color="primary" %}}
 
-عندما يصدر <span notrans="<span notrans=" **Shape**"=""></span>" ويجب أن يكون جزءا من الهيكل الهرمي للوثائق. إذا **Shape** ليس جزءاً من شجره الوثائق حينها سيكون الناتج فارغاً **ShapeRenderer** طرق
+عند تقديم **Shape**، يجب أن يكون جزءا من التسلسل الهرمي للمستند. إذا لم يكن **Shape** جزءا من شجرة المستندات، فسيكون الإخراج المعروض فارغا بعد استدعاء طرق **ShapeRenderer**.
 
 {{% /alert %}}
 
-## إلى (فايل أو سترايم)
+## التقديم إلى ملف أو دفق
 
-The [Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.lang.String-com.aspose.words.ImageSaveOptions) الطريقة توفر تحميلات زائدة تجعل الشكل مباشرة إلى ملف أو مجرى. كلا الحمولة الزائدة تقبل حالة [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) الطبقة التي تسمح بتحديد خيارات لجعل الشكل هذا يعمل بنفس الطريقة التي يعمل بها [Document.Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-com.aspose.words.SaveOptions) طريقة على الرغم من أن هذا البارامترات مطلوبة، يمكنك أن تمر بقيمة باطلة، تحدد أنه لا توجد خيارات عرفية.
+توفر طريقة [Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.lang.String-com.aspose.words.ImageSaveOptions) حمولات زائدة تعرض شكلا مباشرة إلى ملف أو دفق. يقبل كلا الحمولين الزائدين مثيل فئة [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/)، مما يسمح بتحديد الخيارات لعرض الشكل. يعمل هذا بنفس طريقة [Document.Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-com.aspose.words.SaveOptions). على الرغم من أن هذه المعلمة مطلوبة، يمكنك تمرير قيمة فارغة، مع تحديد عدم وجود خيارات مخصصة.
 
-The shape can be exported in any image format specified in the [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) العد For example, the image can be rendered as a raster image, such as JPEG by specifying the [SaveFormat.Jpeg](https://reference.aspose.com/words/java/com.aspose.words/saveformat/#JPEG) تعداد، أو كصورة ناقلات، مثل EMF بتحديد [SaveFormat.Emf](https://reference.aspose.com/words/java/com.aspose.words/saveformat/#EMF).
+يمكن تصدير الشكل بأي تنسيق صورة محدد في [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) تعداد. على سبيل المثال، يمكن عرض الصورة كصورة نقطية، مثل JPEG عن طريق تحديد [SaveFormat.Jpeg](https://reference.aspose.com/words/java/com.aspose.words/saveformat/#JPEG) التعداد، أو كصورة متجهة، مثل EMF عن طريق تحديد [SaveFormat.Emf](https://reference.aspose.com/words/java/com.aspose.words/saveformat/#EMF).
 
-ويوضح المثال الرمزي الوارد أدناه وضع شكل لصورة EMF بمعزل عن الوثيقة، والادخار إلى القرص:
+يوضح مثال الكود أدناه عرض شكل على صورة EMF بشكل منفصل عن المستند، والحفظ على القرص:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-RenderShapeToDisk.java" >}}
 
-The code example below illustrates rendering a shape to a JPEG image separately from document, andving to a stream:
+يوضح مثال الكود أدناه عرض شكل على صورة JPEG بشكل منفصل عن المستند، والحفظ في دفق:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-RenderShapeToStream.java" >}}
 
-The **ImageSaveOptions** الفصل يسمح لك بتحديد مجموعة متنوعة من الخيارات التي تتحكم في كيفية إصدار الصورة ويمكن تطبيق الوظيفة المبينة أعلاه بنفس الطريقة على **GroupShape** و **Shape** المشنقة
+تتيح لك فئة **ImageSaveOptions** تحديد مجموعة متنوعة من الخيارات التي تتحكم في كيفية عرض الصورة. يمكن تطبيق الوظيفة الموضحة أعلاه بنفس الطريقة على العقدتين **GroupShape** و **Shape**.
 
-## ينتقل إلى `Graphics` اعتراض
+## التقديم إلى كائن `Graphics`
 
-مباشرة إلى **Graphics** الجسم يسمح لك بتحديد أماكنك الخاصة والولاية **Graphics** هدف السيناريو المشترك ينطوي على جعل الشكل مباشرة في **Graphics** الجسم المسترجع من Windows الاستمارة أو المزمار عندما **Shape** تم تقديم العقد، ستؤثر الظروف على الشكل على سبيل المثال، يمكنك التناوب أو مقياس الشكل باستخدام **RotateTransform** أو **ScaleTransform** أساليب **Graphics** هدف
+يتيح لك التقديم مباشرة إلى كائن **Graphics** تحديد الإعدادات الخاصة بك وحالة الكائن **Graphics**. يتضمن السيناريو الشائع تقديم شكل مباشرة إلى **Graphics** كائن تم استرداده من Windows شكل أو صورة نقطية. عندما يتم عرض العقدة **Shape**، ستؤثر الإعدادات على مظهر الشكل. على سبيل المثال، يمكنك تدوير الشكل أو قياسه باستخدام طرق **RotateTransform** أو **ScaleTransform** للكائن **Graphics**.
 
-ويبيّن المثال الوارد أدناه كيفية وضع شكل ما **Graphics** الجسم منفصل عن الوثيقة ويطبق التناوب على الصورة المقدمة:
+يوضح المثال أدناه كيفية عرض شكل إلى كائن **Graphics** بشكل منفصل عن المستند وتطبيق التدوير على الصورة المعروضة:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-RenderShapeToGraphics.java" >}}
 
-بالمثل، إلى [RenderToSize](https://reference.aspose.com/words/java/com.aspose.words/document/#renderToSize-int-java.awt.Graphics2D-float-float-float-float) الطريقة، [RenderToSize](https://reference.aspose.com/words/java/com.aspose.words/document/#renderToSize-int-java.awt.Graphics2D-float-float-float-float)الطريقة الموروثة من [NodeRendererBase](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/) ومن المفيد إيجاد إبهام لمحتوى الوثائق. يحدد حجم الشكل من خلال البناء. The **RenderToSize** الطريقة التي تقبل **Graphics** الجسم، الإكس و Y الإحداثيات من موقع الصورة، وحجم الصورة (الصفوف والطول) التي سترسم على **Graphics** هدف
+وبالمثل، بالنسبة لطريقة [RenderToSize](https://reference.aspose.com/words/java/com.aspose.words/document/#renderToSize-int-java.awt.Graphics2D-float-float-float-float)، فإن طريقة [RenderToSize](https://reference.aspose.com/words/java/com.aspose.words/document/#renderToSize-int-java.awt.Graphics2D-float-float-float-float)الموروثة من [NodeRendererBase](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/) مفيدة لإنشاء صور مصغرة لمحتوى المستند. يتم تحديد حجم الشكل من خلال المنشئ. تقبل طريقة **RenderToSize** الكائن **Graphics**، والإحداثيات س و ص لموضع الصورة، وحجم الصورة (العرض والارتفاع) التي سيتم رسمها على الكائن **Graphics**.
 
-The **Shape** يمكن أن يوضع على نطاق معين باستخدام [ShapeRenderer.RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float) الطريقة الموروثة من [NodeRendererBase](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/) الصف هذا يشبه [Document.RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float) الطريقة التي تقبل نفس المعايير الرئيسية. الفرق بين هذين الأسلوبين هو **ShapeRenderer.RenderToScale** طريقة، بدلاً من حجم حرفي، تختار قيمة عائمة تُقَيّمُ الشكلَ خلال إصداره. وإذا كانت القيمة العائمة تساوي 1.0 تسبب في أن يصبح الشكل 100 في المائة من حجمه الأصلي. ومن شأن القيمة العائمة البالغة 0.5 أن تقلل من حجم الصورة بمقدار النصف.
+يمكن تقديم **Shape** إلى مقياس معين باستخدام طريقة [ShapeRenderer.RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float) الموروثة من فئة [NodeRendererBase](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/). هذا مشابه لطريقة [Document.RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float) التي تقبل نفس المعلمات الرئيسية. الفرق بين هاتين الطريقتين هو أنه باستخدام طريقة **ShapeRenderer.RenderToScale**، بدلا من الحجم الحرفي، يمكنك اختيار قيمة عائمة تقيس الشكل أثناء عرضه. إذا كانت قيمة التعويم تساوي 1.0 يتسبب في عرض الشكل بنسبة 100 ٪ من حجمه الأصلي. ستؤدي القيمة العائمة 0.5 إلى تقليل حجم الصورة بمقدار النصف.
 
-## يَرْفعُ a ضربة عارية
+## تقديم صورة الشكل
 
-The [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) وتمثّل الفئة أشياءاً في طبقة الرسم، مثل الأوتوماتشاب، أو صندوق النص، أو نظام أحراري، أو الجسم OLE، أو السيطرة على النفاثة، أو صورة. استخدام **Shape** الطبقة، يمكنك خلق أو تعديل الأشكال في Microsoft Word الوثيقة. الملكية الهامة للشكل هي [ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/). ويمكن أن تكون لتقاسم أنواع مختلفة قدرات مختلفة في وثيقة كلمة. فعلى سبيل المثال، لا يمكن إلا للصور والأشكال العائمة أن تكون لها صور داخلها في حين أن معظم الأشكال يمكن أن يكون لها نص فقط.
+تمثل فئة [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) كائنات في طبقة الرسم، مثل AutoShape أو مربع نص أو شكل حر أو OLE كائن أو عنصر تحكم أكتيفكس أو صورة. باستخدام فئة **Shape**، يمكنك إنشاء أو تعديل الأشكال في مستند Microsoft Word. خاصية مهمة للشكل هي [ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/). يمكن أن يكون للأشكال من أنواع مختلفة قدرات مختلفة في مستند ورد. على سبيل المثال، يمكن أن تحتوي الصور والأشكال OLE فقط على صور بداخلها بينما يمكن أن تحتوي معظم الأشكال على نص فقط.
 
-The following example shows how to render a Shape image to a JPEG image separately from the document and save it to the disk:
+يوضح المثال التالي كيفية عرض صورة شكل إلى صورة JPEG بشكل منفصل عن المستند وحفظها على القرص:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-RenderShapeImage.java" >}}
 
-## إسترجاع حجم الظل
+## استرجاع حجم الشكل
 
-The [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/) كما توفر الفئة وظيفة لاستعادة حجم الشكل في البكسل من خلال [GetSizeInPixels](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#getSizeInPixels-float-float) طريقة وتقبل هذه الطريقة بارامترين عائمين - الجدول وإدارة شؤون الإعلام، يستخدمان في حساب حجم الشكل عندما يصبح الشكل. الطريقة تعود [Size](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#getSizeInPixels-float-float) الجسم الذي يحتوي على عرض وطول الحجم المحسوب وهذا أمر مفيد عندما يُطلب منه أن يعرف حجم الشكل المقدم مقدماً، مثلاً عندما يُنشئ خريطة جديدة من الناتج المقدم.
+توفر فئة [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/) أيضا وظائف لاسترداد حجم الشكل بالبكسل من خلال طريقة [GetSizeInPixels](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#getSizeInPixels-float-float). تقبل هذه الطريقة معلمتين عائمتين (مفردة) - المقياس و DPI، والتي تستخدم في حساب حجم الشكل عند تقديم الشكل. تقوم الطريقة بإرجاع الكائن [Size](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#getSizeInPixels-float-float)، الذي يحتوي على عرض وارتفاع الحجم المحسوب. يكون هذا مفيدا عندما يكون مطلوبا معرفة حجم الشكل المعروض مسبقا، على سبيل المثال عند إنشاء صورة نقطية جديدة من الإخراج المعروض.
 
-ويبيّن المثال الوارد أدناه كيفية إنشاء جسم جديد من نوع " بيتماب " و " غرافيز "، مع عرض وطول الشكل الذي يتعين تقديمه:
+يوضح المثال أدناه كيفية إنشاء صورة نقطية وكائن رسومات جديد مع عرض وارتفاع الشكل المراد عرضه:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-FindShapeSizes.java" >}}
 
-عند استخدام **RenderToSize** أو **RenderToScale** والأساليب، يعاد أيضا حجم الصورة المصنوعة في [SizeF](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#renderToScale-java.awt.Graphics2D-float-float-float) هدف ويمكن تخصيص ذلك لمتغير واستخدامه عند الضرورة.
+عند استخدام أساليب **RenderToSize** أو **RenderToScale**، يتم إرجاع حجم الصورة المقدمة أيضا في الكائن [SizeF](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#renderToScale-java.awt.Graphics2D-float-float-float). يمكن تعيين هذا لمتغير واستخدامه إذا لزم الأمر.
 
-The **SizeInPoints** إعادة الممتلكات إلى حجم الشايب المقيس في النقاط (انظر: [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/)) النتيجة هي `SizeF` جسم يحتوي على البارود والطول
+ترجع الخاصية **SizeInPoints** حجم الشكل المقاس بالنقاط (انظر [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/)). والنتيجة هي `SizeF` كائن يحتوي على العرض والارتفاع.

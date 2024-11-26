@@ -1,4 +1,4 @@
-﻿---
+---
 title: 각주 및 미주 작업 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 각주 및 미주 작업
@@ -7,6 +7,7 @@ description: "다음을 사용하여 각주 및 미주를 조작하는 방법 C+
 type: docs
 weight: 160
 url: /ko/cpp/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 또한 각주 및 미주 작업을위한 일부 클래스,메서드 및 속성을 제공합니다.

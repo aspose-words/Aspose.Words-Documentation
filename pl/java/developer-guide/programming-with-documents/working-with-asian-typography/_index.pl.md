@@ -7,6 +7,7 @@ description: "Praca z azjatycką typografią Java. Dostosuj przestrzeń między 
 type: docs
 weight: 240
 url: /pl/java/working-with-asian-typography/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Azjatycka typografia jest zbiorem opcji dla akapitów tekstowych w dokumentach napisanych w językach azjatyckich.

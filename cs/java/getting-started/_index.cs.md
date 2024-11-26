@@ -7,6 +7,7 @@ type: docs
 description: "Použijte tento úvod k Aspose.Words místo Java základy pro zahájení realizace hodnoty Aspose.Words pro vaše podnikání."
 weight: 10
 url: /cs/java/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Tento začátek poskytuje úvod Aspose.Words Základy. Pro uživatele nové Aspose.Words, To je nejrychlejší způsob, jak se naučit základní požadavky a schopnosti.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tham Gia Bảng trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Tham Gia Bảng
@@ -7,6 +7,7 @@ description: "Thao tác bảng nâng cao. Cách hợp nhất hai bảng thành m
 type: docs
 weight: 90
 url: /vi/cpp/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Một bảng, được biểu diễn Trong Mô hình Đối tượng Tài liệu Aspose.Words, được tạo thành từ các hàng và ô độc lập, giúp dễ dàng nối các bảng.

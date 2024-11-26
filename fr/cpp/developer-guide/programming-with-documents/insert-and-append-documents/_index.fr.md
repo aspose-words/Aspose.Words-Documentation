@@ -1,4 +1,4 @@
-﻿---
+---
 title: Insérer et ajouter des documents en C++
 second_title: Aspose.Words pour C++
 articleTitle: Insérer et ajouter des documents
@@ -7,6 +7,7 @@ description: "Combinez des documents en un seul: insérez ou ajoutez un document
 type: docs
 weight: 80
 url: /fr/cpp/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Parfois, il est nécessaire de combiner plusieurs documents en un seul. Vous pouvez le faire manuellement ou vous pouvez utiliser la fonction d'insertion ou d'ajout Aspose.Words.
@@ -45,7 +46,7 @@ L'exemple de code suivant montre comment insérer le contenu d'un document dans 
 
 ### Insérer un Document Pendant l'opération Mail Merge {#insert-a-document-during-mail-merge-operation}
 
-Vous pouvez insérer un document dans un champ de fusion lors d'une opération mail merge. Par exemple, un modèle mail merge peut contenir un champ de fusion tel que [Résumé]. Mais dans le document final, vous devez insérer le contenu obtenu à partir d'un autre document externe dans ce champ de fusion. Pour y parvenir, vous devrez créer un gestionnaire pour l'événement de fusion.
+Vous pouvez insérer un document dans un champ de fusion lors d'une opération mail merge. Par exemple, un modèle Mail Merge peut contenir un champ de fusion tel que [Résumé]. Mais dans le document final, vous devez insérer le contenu obtenu à partir d'un autre document externe dans ce champ de fusion. Pour y parvenir, vous devrez créer un gestionnaire pour l'événement de fusion.
 
 L'exemple de code suivant montre comment créer un gestionnaire pour l'événement de fusion afin de l'utiliser ultérieurement dans le processus d'insertion:
 

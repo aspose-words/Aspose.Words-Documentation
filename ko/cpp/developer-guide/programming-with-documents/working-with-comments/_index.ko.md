@@ -1,4 +1,4 @@
-﻿---
+---
 title: 댓글 작업 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 댓글 작업
@@ -7,6 +7,7 @@ description: "다음을 사용하여 주석 작업 C++."
 type: docs
 weight: 260
 url: /ko/cpp/working-with-comments/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

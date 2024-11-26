@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataSets Element
 second_title: Aspose.Words for SharePoint
 articleTitle: DataSets Element
@@ -7,6 +7,7 @@ description: "DataSets element meaning and structure which may be used while con
 type: docs
 weight: 30
 url: /sharepoint/datasets-element/
+timestamp: 2024-10-21-11-17-44
 ---
 
 The DataSets element contains information about connections to the data sources and queries to retrieve the data for the report.

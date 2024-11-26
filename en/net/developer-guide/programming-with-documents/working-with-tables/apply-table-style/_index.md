@@ -7,6 +7,7 @@ description: "Advanced table formatting C#. Create a table style using C#. Apply
 type: docs
 weight: 80
 url: /net/working-with-tablestyle/
+timestamp: 2024-02-02-12-07-36
 ---
 
 A table style defines a set of formatting that can be easily applied to a table. Formatting such as borders, shading, alignment, and font can be set in a table style and applied to many tables for a consistent appearance.

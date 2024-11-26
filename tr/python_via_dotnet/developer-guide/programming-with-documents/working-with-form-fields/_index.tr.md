@@ -7,6 +7,7 @@ description: "Python kullanarak bir belgeye form alanı ekleyin, edinin veya bi�
 type: docs
 weight: 380
 url: /tr/python-net/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Doldurulacak boşlukları (alanları) içeren bir belge form olarak bilinir. Örneğin, Microsoft Word'te kullanıcıların girişleri seçebileceği açılır listeleri kullanan bir kayıt formu oluşturabilirsiniz. `Form` alanı, ad veya adres gibi belirli bir veri türünün depolandığı konumdur. Microsoft Word'teki form alanları metin girişi, birleşik giriş kutusu ve onay kutusunu içerir.

@@ -7,6 +7,7 @@ description: "Verschillende opgeven Waar Type lettertypebronnen: systeemmap, geb
 type: docs
 weight: 30
 url: /nl/java/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Dit onderwerp beschrijft het standaardgedrag van Aspose.Words wanneer het op zoek is naar TrueType lettertypen, waaronder specifieke verschillen in besturingssysteem, en laat zien hoe u gebruikerslettertypebronnen kunt specificeren.
@@ -35,7 +36,7 @@ Per-document gevallen zijn alleen nodig als het nodig is om verschillende font b
 
 In de meeste gevallen, Windows gebruikers ondervinden geen significante problemen met gemiste lettertypen of onjuiste lay-outs. Meestal, Aspose.Words gaat door een document, en wanneer het tegenkomt een lettertype link, het met succes haalt de lettertype gegevens uit de systeemmap.
 
-Aan <span notrans="<span notrans=" Windows"=""></span>,"> Aspose.Words neemt eerst alle beschikbare lettertypen uit de _%windir%\Fonts map. Deze instelling werkt meestal voor u. U geeft alleen uw eigen fonts-mappen op als dat nodig is. Aspose.Words ook zoekt naar extra lettertypen geregistreerd in de HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts registersleutel. Bovendien, Windows 10 maakt de installatie van lettertypen voor de huidige gebruiker mogelijk. Lettertypen worden geplaatst in de %userprofile%\AppData\Local\Microsoft\Windows\Fonts map en ook gespecificeerd in de HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts register, waar Aspose.Words zal zoeken naar deze lettertypen.
+Aan Windows Aspose.Words neemt eerst alle beschikbare lettertypen uit de _%windir%\Fonts map. Deze instelling werkt meestal voor u. U geeft alleen uw eigen fonts-mappen op als dat nodig is. Aspose.Words ook zoekt naar extra lettertypen geregistreerd in de HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts registersleutel. Bovendien, Windows 10 maakt de installatie van lettertypen voor de huidige gebruiker mogelijk. Lettertypen worden geplaatst in de %userprofile%\AppData\Local\Microsoft\Windows\Fonts map en ook gespecificeerd in de HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts register, waar Aspose.Words zal zoeken naar deze lettertypen.
 
 Als een document ingebedde lettertypen bevat, Aspose.Words kan relevante lettertypegegevens van het document lezen en gebruiken om het document te maken. Documenten kunnen ook links bevatten naar lettertypen die niet in de systeemmappen staan, in welk geval de volgende scenario's zullen werken:
 
@@ -50,7 +51,7 @@ Sinds het lettertype van Windows en niet-Windows OS zijn anders, Aspose.Words do
 
 #### Waarbij Aspose.Words Looks for TrueType Lettertypen op Linux
 
-Anders Linux distributies kunnen lettertypen in verschillende mappen opslaan. Aspose.Words zoekt naar lettertypen op verschillende locaties. Standaard, Aspose.Words zoekt naar de lettertypen op alle volgende locaties: * /usr/share/fonts* /usr/local/share/fonts* /usr/X11R6/lib/X11/fonts Dit standaardgedrag zal werken voor de meeste Linux distributies, maar het is niet gegarandeerd om te werken de hele tijd, in welk geval je zou kunnen nodig hebben om de locatie van true lettertypen expliciet typen. Om dit te doen, moet u weten waar TrueType lettertypen zijn geïnstalleerd op uw Linux distributie.
+Anders Linux distributies kunnen lettertypen in verschillende mappen opslaan. Aspose.Words zoekt naar lettertypen op verschillende locaties. Standaard, Aspose.Words zoekt naar de lettertypen op alle volgende locaties: `/usr/share/fonts` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts` Dit standaardgedrag zal werken voor de meeste Linux distributies, maar het is niet gegarandeerd om te werken de hele tijd, in welk geval je zou kunnen nodig hebben om de locatie van true lettertypen expliciet typen. Om dit te doen, moet u weten waar TrueType lettertypen zijn geïnstalleerd op uw Linux distributie.
 
 #### Waarbij Aspose.Words Looks for TrueType Lettertypen op Mac OS X
 

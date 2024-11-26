@@ -7,6 +7,7 @@ description: "قبل از شروع کار با Aspose.Words برای Python via 
 type: docs
 weight: 50
 url: /fa/python-net/system-requirements/
+timestamp: 2024-04-27-18-03-32
 ---
 
 Aspose.Words for Python via .NET نیازی به نصب هیچ محصول شخص ثالثی مانند Microsoft Word ندارد. Aspose.Words خود موتوری برای ایجاد، اصلاح، تبدیل و ارائه اسناد در قالب‌های مختلف، از جمله فرمت‌های اسناد Microsoft Word است.

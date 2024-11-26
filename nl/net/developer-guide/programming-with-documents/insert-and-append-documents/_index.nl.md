@@ -7,6 +7,7 @@ description: "Documenten combineren in één: een document invoegen of toevoegen
 type: docs
 weight: 80
 url: /nl/net/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Soms is het nodig om meerdere documenten te combineren in een. U kunt dit handmatig of u kunt gebruiken Aspose.Words functie invoegen of toevoegen.
@@ -49,7 +50,7 @@ Het volgende voorbeeld van code laat zien hoe inhoud van een document in een and
 
 ### Document invoegen tijdens Mail Merge Werking {#insert-a-document-during-mail-merge-operation}
 
-U kunt een document invoegen in een merge veld tijdens een mail merge operatie. Bijvoorbeeld, a mail merge template kan een merge-veld bevatten zoals [Samenvatting]. Maar in het uiteindelijke document moet je de inhoud van een ander extern document invoegen in dit merge veld. Om dat te bereiken, moet u een begeleider voor de merge event.
+U kunt een document invoegen in een merge veld tijdens een Mail Merge operatie. Bijvoorbeeld, a Mail Merge template kan een merge-veld bevatten zoals [Samenvatting]. Maar in het uiteindelijke document moet je de inhoud van een ander extern document invoegen in dit merge veld. Om dat te bereiken, moet u een begeleider voor de merge event.
 
 Het volgende voorbeeld van code laat zien hoe je een handler aanmaakt voor de fuserende gebeurtenis om het later in het invoegproces te gebruiken:
 

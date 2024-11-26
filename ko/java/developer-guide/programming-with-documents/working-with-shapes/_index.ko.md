@@ -1,82 +1,83 @@
----
-title: 모양과 일 Java
-second_title: Aspose.Words 제품정보 Java
-articleTitle: 모양과 일
-linktitle: 모양과 일
+﻿---
+title: Java에서 도형 작업
+second_title: Aspose.WordsJava
+articleTitle: 도형 작업
+linktitle: 도형 작업
 type: docs
-description: "Markup 언어에 대한 소개, 다른 유형의 모양 만들기 Java·"
+description: "Java을 사용하여 다른 유형의 모양을 만드는 모양 마크 업 언어에 대한 소개."
 weight: 280
 url: /ko/java/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
-이 항목에 대해 논의하는 방법 programmatically 와 모양 사용 Aspose.Words·
+이 항목에서는Aspose.Words을 사용하여 도형을 프로그래밍 방식으로 작업하는 방법에 대해 설명합니다.
 
-모양에 Aspose.Words AutoShape, textbox, freeform, OLE 객체, ActiveX 컨트롤 또는 그림과 같은 도면 레이어의 객체를 나타냅니다. Word 문서는 하나 이상의 다른 모양을 포함 할 수 있습니다. 문서의 모양은 다음과 같습니다. [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) 수업.
+Aspose.Words의 모양은AutoShape,텍스트 상자,자유형,OLE개체,액티브 컨트롤 또는 그림과 같이 도면 레이어의 개체를 나타냅니다. 단어 문서에는 하나 이상의 다른 모양이 포함될 수 있습니다. 문서의 모양은[Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/)클래스로 표시됩니다.
 
-## Document Builder를 사용하여 삽입 모양
+## 문서 빌더를 사용하여 도형 삽입
 
-지정된 유형과 크기 및 무료 플로팅 형태로 인라인 모양을 삽입할 수 있습니다. 지정된 위치, 크기 및 텍스트 랩 유형은 문서를 사용하여 문서에 삽입 할 수 있습니다. [InsertShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertShape-int-double-double) 방법. 더 보기 **InsertShape** 방법은 문서 모델에 DML 모양을 삽입 할 수 있습니다. 문서는 DML 모양을 지원하는 형식으로 저장되어야 합니다. 그렇지 않으면, 이러한 노드는 VML 모양으로 변환됩니다. 문서 저장.
+[InsertShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertShape-int-double-double)방법을 사용하여 지정된 유형 및 크기의 인라인 모양과 지정된 위치,크기 및 텍스트 줄 바꿈 유형의 자유 부동 모양을 문서에 삽입 할 수 있습니다. **InsertShape**메서드를 사용하면DML도형을 문서 모델에 삽입할 수 있습니다. 문서는DML모양을 지원하는 형식으로 저장되어야 하며,그렇지 않으면 문서 저장 중에 이러한 노드가VML모양으로 변환됩니다.
 
-다음 코드 예제는 문서에 이러한 유형의 모양을 삽입하는 방법을 보여줍니다:
+다음 코드 예제에서는 이러한 형식의 도형을 문서에 삽입하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-InsertShapeUsingDocumentBuilder.java" >}}
 
-## 잠그는 Aspect 비율
+## 화면 비율 고정 설정
 
-사용 방법 Aspose.Words, 모양의 종횡비가 잠겨 있는지 지정할 수 있습니다. [AspectRatioLocked](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getAspectRatioLocked) 호텔 위치
+Aspose.Words을 사용하여[AspectRatioLocked](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getAspectRatioLocked)속성을 통해 셰이프의 종횡비가 잠겨 있는지 여부를 지정할 수 있습니다.
 
-다음 코드 예제는 작업하는 방법을 보여줍니다. **AspectRatioLocked** 이름:
+다음 코드 예제에서는**AspectRatioLocked**속성을 사용하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-SetAspectRatioLocked.java" >}}
 
-## 셀에 있는 모양 배치
+## 셀에 모양 레이아웃 설정
 
-모양이 테이블 내부 또는 외부에 표시되어 있는지 지정할 수 있습니다. [IsLayoutInCell](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#isLayoutInCell) 호텔 위치
+[IsLayoutInCell](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#isLayoutInCell)속성을 사용하여 도형이 테이블 내부 또는 테이블 외부에 표시되는지 여부를 지정할 수도 있습니다.
 
-다음 코드 예제는 작업하는 방법을 보여줍니다. **IsLayoutInCell** 이름:
+다음 코드 예제에서는**IsLayoutInCell**속성을 사용하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-SetShapeLayoutInCell.java" >}}
 
-## 추가 코너 Snipped
+## 잘린 모서리 추가
 
-snip 코너 직사각형을 만들 수 있습니다. Aspose.Words· 모양 유형은 *SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped, TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, * 및 *DiagonalCornersRounded.*
+Aspose.Words를 사용하여 캡처 모서리 사각형을 만들 수 있습니다. 도형 유형은*SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped, TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded,*및*DiagonalCornersRounded.*입니다
 
-DML 모양은 사용 **InsertShape** 이 모양 유형의 방법. 이 유형은 VML 모양을 만들 수 없습니다. "Shape" 클래스의 공개 생성기를 사용하여 모양을 만들려면 "NotSupportedException" 예외를 제기합니다.
+DML모양은 이러한 모양 유형을 사용하여**InsertShape**방법을 사용하여 만들어집니다. 이러한 유형은VML모양을 만드는 데 사용할 수 없습니다. "모양"클래스의 공용 생성자를 사용하여 모양을 만들려고 하면"NotSupportedException"예외가 발생합니다.
 
-다음 코드 예제는 문서에 이러한 유형의 모양을 삽입하는 방법을 보여줍니다:
+다음 코드 예제에서는 이러한 형식의 도형을 문서에 삽입하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-AddCornersSnipped.java" >}}
 
-## 실제 모양 경계 포인트 받기
+## 실제 모양 경계 점 얻기
 
-사용 방법 Aspose.Words API, 당신은 점에 있는 구획을 포함하는 모양의 위치 그리고 크기를 얻을 수 있습니다, 최고 모양의 닻에 관계되는. 이렇게하려면 [BoundsInPoints](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getBoundsInPoints) 호텔 위치
+Aspose.WordsAPI를 사용하여 최상위 도형의 앵커를 기준으로 블록을 포함하는 도형의 위치 및 크기를 점으로 얻을 수 있습니다. 이렇게 하려면[BoundsInPoints](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getBoundsInPoints)속성을 사용합니다.
 
-다음 코드 예제는 작업하는 방법을 보여줍니다. **BoundsInPoints** 이름:
+다음 코드 예제에서는**BoundsInPoints**속성을 사용하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-GetActualShapeBoundsPoints.java" >}}
 
-## 수직 앵커
+## 수직 앵커 지정
 
-텍스트 수직 정렬을 지정할 수 있습니다. [VerticalAnchor](https://reference.aspose.com/words/java/com.aspose.words/textbox/#getVerticalAnchor) 호텔 위치
+[VerticalAnchor](https://reference.aspose.com/words/java/com.aspose.words/textbox/#getVerticalAnchor)속성을 사용하여 도형 내에서 텍스트 세로 맞춤을 지정할 수 있습니다.
 
-다음 코드 예제는 작업하는 방법을 보여줍니다. **VerticalAnchor** 이름:
+다음 코드 예제에서는**VerticalAnchor**속성을 사용하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-SpecifyVerticalAnchor.java" >}}
 
-## 스마트 감지 예술 모양
+## SmartArt모양 감지
 
-Aspose.Words 또한 모양이 있는 경우에 검출할 수 있습니다 `SmartArt` 이름 * 이렇게하려면 [HasSmartArt](https://reference.aspose.com/words/java/com.aspose.words/shape/#hasSmartArt) 호텔 위치
+Aspose.Words는 또한 모양에`SmartArt`개체가 있는지 감지할 수 있습니다. 이렇게 하려면[HasSmartArt](https://reference.aspose.com/words/java/com.aspose.words/shape/#hasSmartArt)속성을 사용합니다.
 
-다음 코드 예제는 작업하는 방법을 보여줍니다. **HasSmartArt** 이름:
+다음 코드 예제에서는**HasSmartArt**속성을 사용하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-DetectSmartArtShape.java" >}}
 
-## 수평 규칙 체재
+## 수평 규칙 형식
 
-수평한 규칙 모양을 문서로 삽입할 수 있습니다 [InsertHorizontalRule](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHorizontalRule) 방법.
+[InsertHorizontalRule](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHorizontalRule)방법을 사용하여 가로 규칙 모양을 문서에 삽입할 수 있습니다.
 
-Aspose.Words API 제품정보 [HorizontalRuleFormat](https://reference.aspose.com/words/java/com.aspose.words/shape/#getHorizontalRuleFormat) 수평 규칙 모양의 속성에 액세스 할 수있는 속성. 더 보기 [HorizontalRuleFormat](https://reference.aspose.com/words/java/com.aspose.words/horizontalruleformat/) 클래스는 고도, 색상, NoShade 등과 같은 기본 속성을 수평 규칙의 포맷합니다.
+Aspose.WordsAPI는 수평 규칙 모양의 속성에 액세스하기 위해[HorizontalRuleFormat](https://reference.aspose.com/words/java/com.aspose.words/shape/#getHorizontalRuleFormat)속성을 제공합니다. [HorizontalRuleFormat](https://reference.aspose.com/words/java/com.aspose.words/horizontalruleformat/)클래스는 높이,색상,NoShade등과 같은 기본 속성을 노출합니다. 수평 규칙의 서식을 지정합니다.
 
-다음 코드 예제는 설정 방법을 보여줍니다 **HorizontalRuleFormat**::
+다음 코드 예제에서는**HorizontalRuleFormat**을 설정하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-ShapeHorizontalRuleFormat.java" >}}

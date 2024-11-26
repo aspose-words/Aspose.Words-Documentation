@@ -1,16 +1,17 @@
----
-title: Trabajando con Campos en Java
-second_title: Aspose.Words para Java
-articleTitle: Working with Fields
-linktitle: Working with Fields
-description: "Introducción a la función de campo Aspose.Words para Java."
+﻿---
+title: Trabajar con campos en Java
+second_title: Aspose.Words por Java
+articleTitle: Trabajar con Campos
+linktitle: Trabajar con Campos
+description: "Introducción a la característica de campo en Aspose.Words para Java."
 type: docs
 weight: 370
 url: /es/java/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
-**Fields** en un documento son como marcadores de posición donde se pueden insertar datos útiles. Por ejemplo, un campo puede ser una referencia de página, fórmula o un mail merge campo.
+**Campos**
 
-En un documento creado o editado Aspose.Words, como en un Microsoft Word document, a field consists of a field code and a field result. El código de campo es una instrucción sobre cómo el resultado de campo debe ser actualizado o calculado. Una aplicación que procesa un documento y encuentra un campo debe interpretar las instrucciones contenidas en el código de campo y actualizar el resultado de campo con un nuevo valor.
+En un documento creado o editado con Aspose.Words, como en un documento Microsoft Word, un campo consta de un código de campo y un resultado de campo. El código de campo es una instrucción sobre cómo se debe actualizar o calcular el resultado del campo. Una aplicación que procesa un documento y encuentra un campo debe interpretar las instrucciones contenidas en el código del campo y actualizar el resultado del campo con un nuevo valor.
 
-In <span notrans="<span notrans=" Aspose.Words"=""></span>," campos están representados por varias clases, la mayoría de cuyos nombres comienzan con "Field". Los artículos en esta sección de documentación explican cómo utilizar Aspose.Words clases para manipular los campos de documentos programáticamente.
+En Aspose.Words, los campos están representados por varias clases, la mayoría de cuyos nombres comienzan con "Campo". Los artículos de esta sección de documentación explican cómo usar las clases Aspose.Words para manipular campos de documentos mediante programación.

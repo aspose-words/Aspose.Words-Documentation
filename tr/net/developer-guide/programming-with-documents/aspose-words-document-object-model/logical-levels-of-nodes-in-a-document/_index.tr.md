@@ -7,6 +7,7 @@ type: docs
 description: ".NET için Aspose.Words belgelerinde düğümlerin mantıksal düzeylerinden bahsediliyordu - blok düzeyi, satır içi düzey veya C# kullanan satır düzeyi. Düğüm düzeyi, belge ağacında düğümün genellikle oluştuğu konumu tanımlamak için kullanılır."
 weight: 10
 url: /tr/net/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bu belgeler bazen bir belgedeki "blok düzeyi", "satır içi düzey" ("satır içi" olarak da bilinir) veya "satır düzeyi" düğümleri gibi bir "düzeye" ait olan bir grup düğüm sınıfına atıfta bulunur.. Bir belgedeki bu düzeyler tamamen mantıksal olarak ayrılır ve kalıtımla veya diğer Aspose.Words DOM araçlarıyla açıkça ifade edilmez. Düğüm düzeyi, belge ağacında düğümün genellikle oluşacağı yeri tanımlamak için kullanılır.

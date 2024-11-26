@@ -7,6 +7,7 @@ description: "Định dạng và đánh giá các trường kết quả sử d�
 type: docs
 weight: 40
 url: /vi/java/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi người dùng cần áp dụng định dạng tùy chỉnh vào các trường. Trong bài viết này chúng ta sẽ xem xét một vài ví dụ về cách thức thực hiện điều đó.

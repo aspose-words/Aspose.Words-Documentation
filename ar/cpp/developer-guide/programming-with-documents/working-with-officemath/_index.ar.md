@@ -1,4 +1,4 @@
-﻿---
+---
 title: العمل مع OfficeMath في C++
 second_title: Aspose.Words ل C++
 articleTitle: العمل مع OfficeMath
@@ -7,6 +7,7 @@ type: docs
 description: "مقدمة في ميزة الرياضيات المكتبية في Aspose.Words ل C++."
 weight: 320
 url: /ar/cpp/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
 الآن هو أكثر ملاءمة للعمل مع OfficeMath نوع الكائنات. في Aspose.Words، يمكن للعميل تبرير بسهولة ويمكن أيضا إدارة ما إذا كان يتم عرض معادلة مضمنة أو في سطر منفصل. أكثر من ذلك، مع توافر **MathObjectType** ؛ يمكن تنفيذ عناصر تحكم مفيدة باستخدام كائن المصفوفة هذا.

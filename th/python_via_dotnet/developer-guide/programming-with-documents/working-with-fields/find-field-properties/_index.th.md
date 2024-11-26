@@ -7,6 +7,7 @@ description: "วิธีค้นหาคุณสมบัติของฟ
 type: docs
 weight: 25
 url: /th/python-net/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ช่องที่แทรกโดยใช้ [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/).[insert_field](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_field/) จะส่งกลับออบเจ็กต์ [Field](https://reference.aspose.com/words/python-net/aspose.words.fields/field/) นี่คือคลาสส่วนหน้าที่ให้วิธีการที่เป็นประโยชน์ในการค้นหาคุณสมบัติบางอย่างของฟิลด์อย่างรวดเร็ว

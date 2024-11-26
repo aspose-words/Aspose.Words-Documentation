@@ -1,52 +1,53 @@
----
-title: Trabajando con la Hifenación en Java
-second_title: Aspose.Words para Java
-articleTitle: Trabajando con la Hifenación
-linktitle: Trabajando con la Hifenación
-description: "Use la hifenación para un arreglo más compacto de texto. Proporciona algoritmos avanzados para trabajar con diccionarios de hifenación, utiliza diccionarios de OpenOffice usando Java."
+﻿---
+title: Trabajar con separación silábica en Java
+second_title: Aspose.Words por Java
+articleTitle: Trabajar con Separación silábica
+linktitle: Trabajar con Separación silábica
+description: "Utilice la separación silábica para una disposición más compacta del texto. Proporciona algoritmos avanzados para trabajar con diccionarios de separación silábica, usa diccionarios OpenOffice usando Java."
 type: docs
 weight: 220
 url: /es/java/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
-A veces es necesario utilizar la hifenación para un arreglo más compacto de texto en un documento. Al mismo tiempo, es importante entender que las características específicas de la palabra hifenación pueden diferir para cada idioma.
+A veces es necesario utilizar la separación silábica para una disposición más compacta del texto en un documento. Al mismo tiempo, es importante comprender que los detalles de la separación silábica de palabras pueden diferir para cada idioma.
 
-En la actualidad, la hifenación no se utiliza tan a menudo como solía ser, especialmente en textos en inglés. Sin embargo, el uso de esta característica puede tener un impacto serio en los documentos de usuario – la hipnación afecta el diseño y, como resultado, la aparición de los archivos de salida, por ejemplo, en formato PDF.
+En la actualidad, la separación silábica no se usa con tanta frecuencia como solía ser, especialmente en los textos en inglés. Sin embargo, el uso de esta función puede tener un impacto grave en los documentos del usuario: la separación silábica afecta el diseño y, como resultado, la apariencia de los archivos de salida, por ejemplo, en formato PDF.
 
-Para una correcta división de palabras, se utilizan diccionarios de hifenación específicos para el lenguaje. Aspose.Words utiliza algoritmos avanzados para trabajar con tales diccionarios y le permite obtener la misma hispana que en Microsoft Word.
+Para la división correcta de las palabras, se utilizan diccionarios de separación silábica específicos del idioma. Aspose.Words utiliza algoritmos avanzados para trabajar con dichos diccionarios y le permite obtener la misma separación silábica que en Microsoft Word.
 
-## Diccionarios de Hifenación
+## Diccionarios de Separación Silábica
 
-Puesto que diferentes idiomas utilizan diferentes normas y reglas para la hifenación de palabras, la solución óptima para la hifenación correcta es utilizar diccionarios especiales. Aspose.Words usa diccionarios OpenOffice.
+Dado que los diferentes idiomas usan diferentes normas y reglas para la separación silábica de palabras, la solución óptima para la separación silábica correcta es usar diccionarios especiales. Aspose.Words usa OpenOffice diccionarios.
 
-Para la comprobación de hechizos, OpenOffice utiliza el [Hunspell biblioteca](https://hunspell.github.io/), que es una generalización del algoritmo de hifenación de TeX. Este algoritmo permite la hifenación automática no estándar utilizando patrones de hipnación estándar y personalizados. Hunspell usos [Hyphen](https://github.com/hunspell/hyphen) para la hifenación.
+Para la revisión ortográfica, OpenOffice usa el [Hunspell biblioteca](https://hunspell.github.io/), que es una generalización del algoritmo de separación silábica de TeX. Este algoritmo permite la separación silábica automática no estándar utilizando patrones de separación silábica estándar y personalizados de la competencia. Hunspell usa el [Guión](https://github.com/hunspell/hyphen) para separación silábica.
 
 {{% alert color="primary" %}}
 
-Los diccionarios de la fenación se pueden tomar de los [LibreOffice diccionarios GitHub](https://github.com/LibreOffice/dictionaries). Por ejemplo, [Diccionario de hispanas en Estados Unidos](https://github.com/LibreOffice/dictionaries/blob/master/en/hyph_en_US.dic).
+Los diccionarios de separación silábica se pueden tomar del [LibreOffice diccionarios GitHub](https://github.com/LibreOffice/dictionaries). Por ejemplo, [es - US diccionario de separación silábica](https://github.com/LibreOffice/dictionaries/blob/master/en/hyph_en_US.dic).
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-As Microsoft Word usa diccionarios distintos de los diccionarios de OpenOffice para realizar la hifenación, la hifenación de algunas palabras definidas por los diccionarios de OpenOffice puede diferir de la Microsoft Word Hiphenation. Por esta razón, a veces tenemos que aconsejar a los clientes que añadan los patrones necesarios a sus diccionarios para corregir la hifenación de palabras particulares.
+Como Microsoft Word usa diccionarios distintos de OpenOffice para realizar la separación silábica, la separación silábica de algunas palabras definidas por OpenOffice diccionarios puede diferir de la separación silábica Microsoft Word. Por esta razón, a veces tenemos que aconsejar a los clientes que agreguen los patrones necesarios a sus diccionarios para corregir la separación de palabras en particular.
 
 {{% /alert %}}
 
-## Algoritm de la hifenación
+## Algoritmo de Separación Silábica
 
-Aspose.Words implementos [el algoritmo de hifenación TeX](https://github.com/hunspell/hyphen/blob/master/README.hyphen) y puede reutilizar los diccionarios de la hifenación OpenOffice.
+Aspose.Words implementos [el algoritmo de separación silábica de TeX](https://github.com/hunspell/hyphen/blob/master/README.hyphen) y puede reutilizar diccionarios de separación silábica OpenOffice.
 
-Las siguientes características Aspose.Words deben tenerse en cuenta los algoritmos:
+Se deben tener en cuenta las siguientes características de los algoritmos Aspose.Words::
 
-* Parámetros de distancia de la Hyphenation (LEFTHYPHENMIN, RightHYPHENMIN, COMPOUNDLEFTHYPHENMIN, COMPOUNDRIGHTHYPHENMIN) especificado en el diccionario de la hifenación son ignorados. Aspose.Words utiliza su propio conjunto de parámetros de distancia dependiendo del modo de compatibilidad de documentos.
-* El algoritmo de hisfenación en Aspose.Words soportes [hiphenation composite](https://github.com/hunspell/hyphen/blob/master/README.compound). Sin embargo, Aspose.Words divide secuencias de caracteres que contienen caracteres alfabéticos mixtos y no alfabéticos en partes sólo alfabéticas (palabras) e hiphenates por separado.
-  Note que Microsoft Word La lógica de la hifenación de palabras compuestas depende del modo de compatibilidad de documentos.
-* El algoritmo de hisfenación en Aspose.Words no implementa [Hifenación no estándar](https://github.com/hunspell/hyphen/blob/master/doc/tb87nemeth.pdf). Los patrones no estándar son ignorados.
+* Parámetros de distancia de separación silábica (LEFTHYPHENMIN, RIGHTHYPHENMIN, COMPOUNDLEFTHYPHENMIN, COMPOUNDRIGHTHYPHENMIN) especificados en el diccionario de separación silábica se ignoran. Aspose.Words usa su propio conjunto de parámetros de distancia según el modo de compatibilidad del documento.
+* El algoritmo de separación silábica en Aspose.Words admite [separación silábica compuesta](https://github.com/hunspell/hyphen/blob/master/README.compound). Sin embargo, Aspose.Words divide las secuencias de caracteres que contienen caracteres alfabéticos y no alfabéticos mixtos en partes (palabras) solo alfabéticas y las divide por separado.
+  Tenga en cuenta que la lógica Microsoft Word de separación silábica de palabras compuestas depende del modo de compatibilidad del documento.
+* El algoritmo de separación silábica en Aspose.Words no implementa el [separación silábica no estándar](https://github.com/hunspell/hyphen/blob/master/doc/tb87nemeth.pdf). Se ignoran los patrones no estándar.
 
-## Cargando Diccionarios de Hifenación
+## Cargando Diccionarios de Separación Silábica
 
-Para usar la característica de la hisfenación, primero registre un diccionario de la hipnación. El siguiente ejemplo de código muestra cómo cargar diccionarios de la hispana para los idiomas especificados de un archivo:
+Para usar la función de separación silábica, primero registre un diccionario de separación silábica.El siguiente ejemplo de código muestra cómo cargar diccionarios de separación silábica para los idiomas especificados desde un archivo:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HyphenateWords-LoadHyphenationDictionaryFromFile.java" >}}
 
@@ -56,7 +57,7 @@ Puede descargar el archivo de plantilla de este ejemplo desde [Aspose.Words GitH
 
 {{% /alert %}}
 
-El siguiente ejemplo de código muestra cómo cargar diccionarios de la hifenación para el idioma especificado de un flujo:
+El siguiente ejemplo de código muestra cómo cargar diccionarios de separación silábica para el idioma especificado desde una secuencia:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HyphenateWords-LoadHyphenationDictionaryFromStream.java" >}}
 
@@ -66,26 +67,26 @@ Puede descargar el archivo de plantilla de este ejemplo desde [Aspose.Words GitH
 
 {{% /alert %}}
 
-Como alternativa a los diccionarios de hifenación pre-registrándose, es posible registrar únicamente los diccionarios requeridos de hifenación "bajo petición". Para lograrlo, aplicar [IHyphenationCallback](https://reference.aspose.com/words/java/com.aspose.words/ihyphenationcallback/) interfaz y utilizar el callback estático [Callback](https://reference.aspose.com/words/java/com.aspose.words/hyphenation/#getCallback).
+Como alternativa al registro previo de diccionarios de guiones, es posible registrar solo los diccionarios de guiones requeridos "a pedido". Para lograrlo, implemente la interfaz [IHyphenationCallback](https://reference.aspose.com/words/java/com.aspose.words/ihyphenationcallback/) y use la devolución de llamada estática [Callback](https://reference.aspose.com/words/java/com.aspose.words/hyphenation/#getCallback).
 
-El siguiente ejemplo de código muestra cómo implementar el **IHyphenationCallback** interfaz:
+El siguiente ejemplo de código muestra cómo implementar la interfaz **IHyphenationCallback**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HyphenateWords-HyphenationCallback.java" >}}
 
-## Impacto de la Hyphenation en el diseño
+## Impacto de la Separación silábica en el Diseño
 
-Al romper texto en líneas, Aspose.Words comprueba cada palabra si encaja completamente en la línea actual. Si otra palabra es demasiado larga para caber al final de la línea, por defecto Aspose.Words lo mueve al comienzo de la siguiente línea en lugar de hipnotizarlo.
+Al dividir el texto en líneas, Aspose.Words comprueba si cada palabra encaja completamente en la línea actual. Si otra palabra es demasiado larga para caber al final de la línea, Aspose.Words la mueve al principio de la siguiente línea de forma predeterminada en lugar de dividirla en guiones.
 
-Sin embargo, la característica de la hifenación se puede utilizar en Aspose.Words insertar hyphens en palabras para eliminar lagunas en texto justificado o mantener una longitud de línea uniforme en columnas estrechas. Esto obviamente puede afectar el número de líneas y por lo tanto el número de páginas. En otras palabras, el uso de la función de hifenación afecta al diseño de documentos.
+Sin embargo, la función de separación silábica se puede usar en Aspose.Words para insertar guiones en palabras para eliminar espacios en el texto justificado o para mantener una longitud de línea uniforme en columnas estrechas. Obviamente, esto puede afectar el número de líneas y, por lo tanto, el número de páginas. En otras palabras, el uso de la función de separación silábica afecta el diseño del documento.
 
-## Hiphenation and Justification (H plagaJ)
+## Separación silábica y justificación (H & J)
 
-Microsoft Word tiene lógica compleja para elegir un punto de ruptura si el texto está justificado y la hipnación está habilitada. En resumen, Microsoft Word puede preferir reducir o estirar espacios para evitar la hifenación lineal. Probablemente esta lógica se basa en [Artículo de Knuth](https://www.eprg.org/G53DOC/pdfs/knuth-plass-breaking.pdf).
+Microsoft Word tiene una lógica compleja para elegir un punto de interrupción si el texto está justificado y la separación silábica está habilitada. En resumen, Microsoft Word puede preferir reducir o estirar los espacios para evitar la separación silábica de líneas. Lo más probable es que esta lógica se base en [Artículo de Knuth](https://www.eprg.org/G53DOC/pdfs/knuth-plass-breaking.pdf).
 
-Aspose.Words implementa su propio algoritmo H cosechaJ que da el mismo resultado Microsoft Word y proporciona una línea de ruptura idéntica en el documento de salida.
+Aspose.Words implementa su propio algoritmo H&J que da el mismo resultado que Microsoft Word y proporciona un salto de línea idéntico en el documento de salida.
 
-## Vea también
+## Véase También
 
-* [Hyphen – biblioteca de la hipnación](https://github.com/hunspell/hyphen/blob/master/README)
-* [Hifenación no estándar](https://github.com/hunspell/hyphen/blob/master/README.nonstandard)
-* [Hiphenación automática no estándar en Open Office](https://github.com/hunspell/hyphen/blob/master/doc/tb87nemeth.pdf)
+* [Guión-biblioteca de guiones](https://github.com/hunspell/hyphen/blob/master/README)
+* [Separación silábica no estándar](https://github.com/hunspell/hyphen/blob/master/README.nonstandard)
+* [Separación silábica automática no estándar en Oficina abierta](https://github.com/hunspell/hyphen/blob/master/doc/tb87nemeth.pdf)

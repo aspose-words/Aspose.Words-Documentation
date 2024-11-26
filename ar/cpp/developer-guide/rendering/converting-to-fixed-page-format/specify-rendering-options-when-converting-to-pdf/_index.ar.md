@@ -1,4 +1,4 @@
-﻿---
+---
 title: حدد خيارات العرض عند التحويل إلى PDF
 second_title: Aspose.Words ل C++
 articleTitle: حدد خيارات العرض عند التحويل إلى PDF
@@ -7,6 +7,7 @@ description: "تحويل مستند إلى PDF مع خيارات متقدمة ب
 type: docs
 weight: 30
 url: /ar/cpp/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 تنسيق PDF هو تنسيق صفحة ثابتة يحظى بشعبية كبيرة بين المستخدمين ويدعمه على نطاق واسع العديد من التطبيقات لأن ملف PDF يبدو المستند كما هو على أي جهاز. لهذا السبب، يعد التحويل إلى PDF ميزة مهمة في Aspose.Words.

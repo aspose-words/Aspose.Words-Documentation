@@ -1,4 +1,4 @@
-﻿---
+---
 title: HelloWorld Example in PHP
 second_title: Aspose.Words for .NET
 articleTitle: HelloWorld Example in PHP
@@ -7,6 +7,7 @@ description: "Building documents from scratch using Aspose.Words for .NET in PHP
 type: docs
 weight: 40
 url: /net/helloworld-example-in-php/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - HelloWorld Example

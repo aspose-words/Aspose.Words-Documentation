@@ -1,12 +1,13 @@
 ---
-title: Gebruik `DocumentBuilder` Documentelementen invoegen
+title: Gebruik DocumentBuilder Documentelementen invoegen
 second_title: Aspose.Words voor Java
-articleTitle: Gebruik `DocumentBuilder` Documentelementen invoegen
-linktitle: Gebruik `DocumentBuilder` Documentelementen invoegen
+articleTitle: Gebruik DocumentBuilder Documentelementen invoegen
+linktitle: Gebruik DocumentBuilder Documentelementen invoegen
 type: docs
 description: "Documentelementen invoegen met de documentbuilder in Java."
 weight: 10
 url: /nl/java/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 De [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) wordt gebruikt om documenten te wijzigen. In dit artikel wordt uitgelegd en beschreven hoe een aantal taken moet worden uitgevoerd.
@@ -152,7 +153,7 @@ Klanten kunnen opgeven Lokaal op veldniveau nu en kan betere controle bereiken. 
 
 ## HTML invoegen
 
-U kunt eenvoudig een HTML-tekenreeks met een HTML-fragment of een heel HTML-document in het Word-document plaatsen. Geef deze string gewoon door aan de DocumentBuilder. invoegen Html methode. Een van de nuttige implementaties van de methode is het opslaan van een HTML string in een database en het invoegen in het document tijdens mail merge om de geformatteerde inhoud toegevoegd in plaats van bouwen met behulp van verschillende methoden van de document bouwer. Het volgende voorbeeld van code toont voegt HTML in een document met behulp van DocumentBuilder.
+U kunt eenvoudig een HTML-tekenreeks met een HTML-fragment of een heel HTML-document in het Word-document plaatsen. Geef deze string gewoon door aan de DocumentBuilder. invoegen Html methode. Een van de nuttige implementaties van de methode is het opslaan van een HTML string in een database en het invoegen in het document tijdens Mail Merge om de geformatteerde inhoud toegevoegd in plaats van bouwen met behulp van verschillende methoden van de document bouwer. Het volgende voorbeeld van code toont voegt HTML in een document met behulp van DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHtml-DocumentBuilderInsertHtml.java" >}}
 

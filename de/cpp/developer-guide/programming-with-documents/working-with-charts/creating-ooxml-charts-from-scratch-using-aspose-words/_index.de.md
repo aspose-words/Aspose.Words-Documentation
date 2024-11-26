@@ -1,4 +1,4 @@
-﻿---
+---
 title: OOXML Diagramme von Grund auf neu erstellen
 second_title: Aspose.Words für C++
 articleTitle: OOXML Diagramme von Grund auf neu erstellen
@@ -7,6 +7,7 @@ description: "So erstellen Sie mit C++ verschiedene Diagramme in Ihrem Dokument.
 type: docs
 weight: 10
 url: /de/cpp/creating-ooxml-charts-from-scratch-using-aspose-words/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## OOXML Diagramme von Grund auf neu erstellen mit Aspose.Words

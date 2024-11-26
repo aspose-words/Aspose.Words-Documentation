@@ -1,4 +1,4 @@
-﻿---
+---
 title: แปลงเอกสารเป็นรูปภาพในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: แปลงเอกสารเป็นรูปภาพ
@@ -7,6 +7,7 @@ type: docs
 description: "แปลงเอกสารเป็นรูปแบบรูปภาพ(JPG,PNGฯลฯ) สร้างตัวอย่างเอกสารหรือสร้างเอกสารสแกนเพื่อส่งใบแจ้งหนี้."
 weight: 43
 url: /th/cpp/convert-a-document-to-an-image/
+timestamp: 2024-01-30-16-22-34
 ---
 
 บางครั้งก็จะต้องได้รับภาพแทนเอกสารในรูปแบบอื่นๆเช่นDOCXหรือPDF ตัวอย่างเช่นคุณจำเป็นต้องเพิ่มตัวอย่างของหน้าเอกสารใดๆในเว็บไซต์หรือแอปพลิเคชันขอ นี่คือเมื่อคุณอาจจำเป็นต้องแปลงเอกสารใน[supported load format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/)เป็นรูปภาพอีกครั้งใน[supported save format](https://reference.aspose.com/words/cpp/aspose.words/saveformat/)ใดๆ.

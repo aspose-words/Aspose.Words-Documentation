@@ -7,6 +7,7 @@ description: "Tạo, quản lý và xóa đầu trang và chân trang trong tài
 type: docs
 weight: 150
 url: /vi/python-net/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words cho phép người dùng làm việc với đầu trang và chân trang trong tài liệu. Đầu trang là văn bản được đặt ở đầu trang và chân trang là văn bản ở cuối trang. Thông thường, những vùng này được sử dụng để chèn thông tin cần được lặp lại trên tất cả hoặc một số trang của tài liệu, chẳng hạn như số trang, ngày tạo, thông tin công ty, v.v.

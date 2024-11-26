@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilder를 사용하면 처음부터 동적 문서를 만들거나 C#를 사용하여 기존 문서에 새 요소를 추가할 수 있습니다. DocumentBuilder는 .NET에 텍스트, 확인란, 표, 이미지 및 기타 콘텐츠 요소를 삽입하는 메서드를 제공합니다."
 weight: 30
 url: /ko/net/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)는 [Document](https://reference.aspose.com/words/net/aspose.words/document/)와 연결되어 처음부터 동적 문서를 작성하거나 기존 문서에 새 요소를 추가할 수 있게 해주는 강력한 클래스입니다.

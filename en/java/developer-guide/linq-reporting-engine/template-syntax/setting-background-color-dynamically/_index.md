@@ -7,6 +7,7 @@ description: "Set text background color for document contents dynamically when b
 type: docs
 weight: 90
 url: /java/setting-background-color-dynamically/
+timestamp: 2024-01-27-14-07-04
 ---
 
 You can set text background color for document contents dynamically using `backColor` tags. Syntax of a `backColor` tag is defined as follows.

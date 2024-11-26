@@ -1,4 +1,4 @@
-﻿---
+---
 title: Convierta Word a Excel en C++
 second_title: Aspose.Words para C++
 articleTitle: Convertir un Documento a Excel
@@ -7,6 +7,7 @@ description: "Convierta PDF a Excel, XML a Excel, DOCX a Excel C++. Guarde un do
 type: docs
 weight: 15
 url: /es/cpp/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Convertir documentos de un formato a otro es la característica estrella de Aspose.Words. Puede convertir documentos en cualquier [load format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) disponible también al formato XLSX.

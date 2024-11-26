@@ -7,6 +7,7 @@ description: "C#」を使ったバーコードの形状生成の例。"
 type: docs
 weight: 350
 url: /ja/net/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
 バーコードとは、平行線や模様の形でデータを表す視覚的な表現です。小売、物流、医療、銀行など、様々な業界でバーコードが広く使用されています。

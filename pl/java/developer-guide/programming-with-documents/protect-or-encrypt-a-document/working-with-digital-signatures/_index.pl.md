@@ -7,6 +7,7 @@ description: "Cyfrowy podpis dokumentów i wykrywanie, liczenie, weryfikowanie i
 type: docs
 weight: 30
 url: /pl/java/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Podpis cyfrowy jest technologicznym wdrożeniem podpisów elektronicznych w celu podpisania dokumentów i uwierzytelnienia podpisującego w celu zagwarantowania, że dokument nie został zmodyfikowany od momentu jego podpisania. Każdy podpis cyfrowy jest unikalny dla każdego sygnatariusza ze względu na przestrzeganie protokołu PKI, aby wygenerować zarówno klucze publiczne i prywatne. Podpisanie dokumentu cyfrowo oznacza stworzenie podpisu przy użyciu klucza prywatnego signera, gdzie do szyfrowania wygenerowanego haszu używany jest algorytm matematyczny.

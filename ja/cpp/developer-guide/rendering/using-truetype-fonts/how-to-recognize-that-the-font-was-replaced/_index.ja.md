@@ -1,4 +1,4 @@
-﻿---
+---
 title: フォントがC++で置き換えられたことを認識する方法
 second_title: C++の場合Aspose.Words
 articleTitle: フォントが置き換えられたことを認識する方法
@@ -7,6 +7,7 @@ description: "ドキュメントのレイアウトが変更された理由や、
 type: docs
 weight: 13
 url: /ja/cpp/how-to-recognize-that-the-font-was-replaced/
+timestamp: 2024-09-24-14-35-44
 ---
 
 場合によっては、ドキュメントのレイアウトが変更された理由や、一部のフォントが期待どおりに表示されない理由が不明なことがあります。このような場合、IWarningCallback インターフェイスによって実装されたフォント置換警告メッセージが役に立ちます。これらの警告メッセージには、[FontSubstitution](https://reference.aspose.com/words/cpp/aspose.words/warningtype/) 警告タイプと標準の説明テキスト形式、「フォント '<OriginalFont>' が見つかりません。代わりに '<SubstitutionFont>' フォントを使用します。理由:<Reason> 」と述べ、その理由は以下のとおりです。

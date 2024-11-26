@@ -1,37 +1,38 @@
----
-title: 자주 묻는 질문 Group Word 문서로 모양
-second_title: Aspose.Words 제품정보 Java
-articleTitle: 일하기 Group Word 문서의 모양
-linktitle: 일하기 Group Word 문서의 모양
-description: "Grouping 및 ungrouping 모양 사용 Java·"
+﻿---
+title: 단어 문서에Group Shape을 추가하는 방법
+second_title: Aspose.WordsJava
+articleTitle: 워드 문서에서Group Shapes작업
+linktitle: 워드 문서에서Group Shapes작업
+description: "Java을 사용하여 도형 그룹화 및 그룹 해제."
 type: docs
 weight: 290
 url: /ko/java/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
-때로는 추가해야합니다. group shape Word 문서로. 한국어 group shape 다수 모양으로 이루어져 있습니다
+때때로 단어 문서에group shape을 추가해야 합니다. 이러한group shape은 여러 모양으로 구성됩니다.
 
-내 계정 Microsoft Word, 신속하게 추가할 수 있습니다. group shape 사용 방법 Group 명령/버튼. 그룹의 개별 모양은 별도로 이동할 수 있습니다.
+Microsoft Word에서 그룹 명령/버튼을 사용하여group shape을 빠르게 추가할 수 있습니다. 그룹의 개별 모양은 별도로 이동할 수 있습니다.
 
-내 계정 Aspose.Words 그것은 매우 쉽게 추가 group shape 이름 * [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) 수업. **Shape** 자주 묻는 질문 [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) 클래스와 그에 추가 [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) 사용 방법 [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/groupshape/#appendChild-com.aspose.words.Node) 방법.
+Aspose.Words에서는[GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/)클래스를 사용하여group shape를 추가하는 것이 매우 쉽습니다. **Shape**는[Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/)클래스를 사용하여 별도로 생성 된 다음[AppendChild](https://reference.aspose.com/words/java/com.aspose.words/groupshape/#appendChild-com.aspose.words.Node)메소드를 사용하여[GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/)객체에 추가됩니다.
 
-다음은 몇 가지입니다. `Shape` 지원되는 유형 Aspose.Words· 자주 묻는 질문 [ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/)::
+다음은Aspose.Words에서 지원되는`Shape`유형 중 일부입니다. 전체 목록은[ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/)을 참조하십시오.:
 
 - 직사각형
-- 라운드 리본
-- 라운드 리본
-- 엘립스
+- RoundRectangle
+- RoundRectangle
+- 타원
 - 다이아몬드
 - 삼각형
-- 직각
-- 평행선
-- 사다리꼴
+- RightTriangle
+- 평행사변형
+- 트라페지
 - 육각형
 - 팔각형
 
-**Example**
+**예**
 
-* 추가 group shape Word 문서로. * 이름
+*Add a group shape into a Word document.*
 
 
 {{< highlight csharp >}}

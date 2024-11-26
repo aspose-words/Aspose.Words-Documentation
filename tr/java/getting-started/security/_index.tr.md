@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words için Java ortak güvenlik standartlarını tanır ve uyum sağlar, böylece yüksek bir veri güvenliği seviyesi sağlanır. Mümkün güvenlik sorunlarına ve bunlardan kaçınmak için tavsiyelere bak."
 weight: 120
 url: /tr/java/security/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Güvenlik yetkisiz erişimden veri korumaya ve kötü amaçlı veya kazara değişikliklere yardımcı olur. Aspose.Words müşteri verilerinin güvenliğine son derece dikkat eder, bu nedenle yaygın güvenlik standartlarını tanır ve bunlara uyar.

@@ -7,6 +7,7 @@ description: "Verwenden Sie die Silbentrennung für eine kompaktere Anordnung de
 type: docs
 weight: 220
 url: /de/python-net/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal ist es notwendig, die Silbentrennung zu verwenden, um den Text in einem Dokument kompakter anzuordnen. Gleichzeitig ist es wichtig zu verstehen, dass die Besonderheiten der Worttrennung je nach Sprache unterschiedlich sein können.

@@ -8,6 +8,7 @@ description: "Een document omzetten in een ondersteund laadformaat naar Markdown
 keywords: how to convert a document to markdown c#
 weight: 40
 url: /nl/net/convert-a-document-to-markdown/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Markdown is een populair formaat gebruikt om tekst op te merken en de verdere conversie naar HTML, PDF, DOCX, of andere formaten. Veel ontwikkelaars kiezen dit formaat voor het schrijven van documentatie, het voorbereiden van artikelen voor publicatie op blogs, het beschrijven van projecten, enzovoort.
@@ -18,7 +19,7 @@ Nu de functionaliteit voor het werken met de Markdown format wordt actief ontwik
 
 ## Een document omzetten
 
-Een document omzetten naar <span notrans="<span notrans=" Markdown"=""></span>,"> je hoeft alleen maar een document in elk ondersteund formaat te laden of een nieuw programma aan te maken. Dan moet je het document opslaan naar Markdown formaat.
+Een document omzetten naar Markdown je hoeft alleen maar een document in elk ondersteund formaat te laden of een nieuw programma aan te maken. Dan moet je het document opslaan naar Markdown formaat.
 
 De volgende code voorbeeld laat zien hoe DOCX converteren naar Markdown:
 
@@ -70,5 +71,5 @@ Het resultaat van deze code is hieronder weergegeven.
 
 Er zijn verschillende nuances en interessante gevallen, hebben geleerd waarmee je kunt werken met Markdown bestanden flexibeler en gemakkelijker. Er is bijvoorbeeld de mogelijkheid om te gebruiken:
 
-* SetextHeading waarmee u multi-line rubrieken te maken in <span notrans="<span notrans=" Markdown"=""></span>,"> terwijl reguliere rubrieken in Markdown kan alleen één lijn zijn. SetextHeading is gebaseerd op een "Heading N" stijl, en het niveau kan slechts 1 of 2 zijn. Als N in "Heading N" groter is dan of gelijk aan 2, dan is de overeenkomstige SetextHeading gebaseerd op "Heading 2," anders op "Heading 1."
+* SetextHeading waarmee u multi-line rubrieken te maken in Markdown terwijl reguliere rubrieken in Markdown kan alleen één lijn zijn. SetextHeading is gebaseerd op een "Heading N" stijl, en het niveau kan slechts 1 of 2 zijn. Als N in "Heading N" groter is dan of gelijk aan 2, dan is de overeenkomstige SetextHeading gebaseerd op "Heading 2," anders op "Heading 1."
 * Verschillende markers voor het eerste niveau van bulleted lists ("-," "+" of "*," de standaard marker is

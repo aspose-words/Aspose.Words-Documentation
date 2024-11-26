@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hoe Om Inhoud Tussen Dokumentknope Te Onttrek
 second_title: Aspose.Words vir C++
 articleTitle: Uittreksel Inhoud Tussen Nodes In'n Dokument
@@ -7,6 +7,7 @@ type: docs
 description: "Onttrek dokumentinhoud in verskillende met behulp van C++."
 weight: 140
 url: /af/cpp/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Wanneer jy met dokumente werk, is dit belangrik om maklik inhoud uit'n spesifieke reeks binne'n dokument te kan onttrek. Die inhoud kan egter bestaan uit komplekse elemente soos paragrawe, tabelle, beelde, ens.

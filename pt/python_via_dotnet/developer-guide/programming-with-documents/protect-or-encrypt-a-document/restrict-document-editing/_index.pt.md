@@ -7,6 +7,7 @@ description: "Restrinja a edição de um documento definindo um tipo de restriç
 type: docs
 weight: 30
 url: /pt/python-net/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Às vezes, pode ser necessário limitar a capacidade de editar um documento e permitir apenas determinadas ações com ele. Isso pode ser útil para evitar que outras pessoas editem informações sensíveis e confidenciais no seu documento.

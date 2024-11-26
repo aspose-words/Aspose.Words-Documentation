@@ -7,6 +7,7 @@ description: "Pochopení pojmů a manipulačních postupů sekce dokumentů C#. 
 type: docs
 weight: 120
 url: /cs/net/working-with-sections/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Někdy chcete dokument, který nemá stejný formátování na všech stránkách. Například budete muset upravit formáty čísel stránek, mít jinou velikost stránky a orientaci nebo mít první stránku dokumentu jako titulní stránku bez číslování. Toho můžete dosáhnout pomocí sekcí.

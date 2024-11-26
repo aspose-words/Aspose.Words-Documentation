@@ -7,6 +7,7 @@ description: "Określ różne źródła czcionek TrueType: folder systemowy, źr
 type: docs
 weight: 30
 url: /pl/net/specifying-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 W tym temacie opisano domyślne zachowanie Aspose.Words podczas wyszukiwania czcionek TrueType, w tym różnic specyficznych dla systemu operacyjnego, i pokazano, jak określić źródła czcionek użytkownika.
@@ -56,7 +57,7 @@ Ponieważ metryki czcionek w systemach Windows i innych niż Windows są różne
 
 #### Gdzie Aspose.Words szuka czcionek TrueType w Linux
 
-Różne dystrybucje Linux mogą przechowywać czcionki w różnych folderach. Aspose.Words szuka czcionek w kilku lokalizacjach. Domyślnie Aspose.Words szuka czcionek we wszystkich następujących lokalizacjach: * /usr/share/fonts* /usr/local/share/fonts* /usr/X11R6/lib/X11/fontsTo domyślne zachowanie będzie działać w przypadku większości dystrybucji Linux, ale nie ma gwarancji, że będzie działać zawsze. W takim przypadku może być konieczne wyraźne określenie lokalizacji czcionek typu true. Aby to zrobić, musisz wiedzieć, gdzie w Twojej dystrybucji Linux są zainstalowane czcionki TrueType.
+Różne dystrybucje Linux mogą przechowywać czcionki w różnych folderach. Aspose.Words szuka czcionek w kilku lokalizacjach. Domyślnie Aspose.Words szuka czcionek we wszystkich następujących lokalizacjach: `/usr/share/fonts` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts`To domyślne zachowanie będzie działać w przypadku większości dystrybucji Linux, ale nie ma gwarancji, że będzie działać zawsze. W takim przypadku może być konieczne wyraźne określenie lokalizacji czcionek typu true. Aby to zrobić, musisz wiedzieć, gdzie w Twojej dystrybucji Linux są zainstalowane czcionki TrueType.
 
 #### Gdzie Aspose.Words szuka czcionek TrueType w systemie Mac OS X
 

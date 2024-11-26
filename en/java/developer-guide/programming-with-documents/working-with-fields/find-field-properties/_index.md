@@ -7,6 +7,7 @@ description: "How to find some field properties like field code and field result
 type: docs
 weight: 25
 url: /java/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A field which is inserted using [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) returns a [Field](https://reference.aspose.com/words/java/com.aspose.words/field/) object. This is a facade class which provides useful methods to quickly find such properties of a field.

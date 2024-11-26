@@ -7,6 +7,7 @@ description: "使用 Python 创建和管理文档中的表格。"
 type: docs
 weight: 10
 url: /zh/python-net/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words 允许用户从头开始在文档中创建表格，并提供了几种不同的方法来执行此操作。本文详细介绍了如何使用每种方法将格式化表格添加到文档中，并在文章末尾对每种方法进行了比较。

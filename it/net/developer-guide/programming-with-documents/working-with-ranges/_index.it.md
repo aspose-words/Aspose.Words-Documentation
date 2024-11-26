@@ -7,6 +7,7 @@ description: "Introduzione alla funzionalità Intervallo in Aspose.Words per .NE
 type: docs
 weight: 130
 url: /it/net/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

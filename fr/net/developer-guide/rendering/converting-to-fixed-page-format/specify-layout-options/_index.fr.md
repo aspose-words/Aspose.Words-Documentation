@@ -7,6 +7,7 @@ description: "Spécifiez les options de mise en page pour diverses mises en page
 type: docs
 weight: 10
 url: /fr/net/specify-layout-options/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Aspose.Words vous permet de créer des documents de sortie avec différentes mises en page, en fonction des paramètres spécifiés dans les propriétés de la classe [LayoutOptions](https://reference.aspose.com/words/fr/net/aspose.words.layout/layoutoptions/). Certaines de ces propriétés ressemblent à certaines options de menu de l'interface utilisateur Microsoft Word – elles seront décrites dans cet article.

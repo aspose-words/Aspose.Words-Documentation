@@ -7,6 +7,7 @@ description: "Bir belgeyi yüklerken daha gelişmiş özellikler ayarlamak için
 type: docs
 weight: 10
 url: /tr/java/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir belge yüklerken bazı gelişmiş özellikleri ayarlayabilirsiniz. Aspose.Words size daha kesin kontrolü sağlayan [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) sınıfını sağlar. Bazı yükleme biçimleri bu yükleme biçimi için yükleme seçenekleri tutan karşılık gelen bir sınıfa sahiptir, örneğin PDF formatına yüklemek için [PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) veya TXT formatına yüklemek için [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) vardır. Bu makale **LoadOptions** sınıfının seçenekleriyle çalışmanın örneklerini içerir.

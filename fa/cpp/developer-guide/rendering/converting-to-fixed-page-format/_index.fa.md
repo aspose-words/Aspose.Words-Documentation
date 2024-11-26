@@ -1,4 +1,4 @@
-﻿---
+---
 title: تبدیل به فرمت صفحه ثابت در C++
 second_title: Aspose.Words برای C++
 articleTitle: تبدیل به فرمت صفحه ثابت
@@ -7,6 +7,7 @@ description: "ذخیره اسناد به PDF, XPS, HTML, XAML, PostScript, و PC
 type: docs
 weight: 10
 url: /fa/cpp/converting-to-fixed-page-format/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words موتور طرح بندی صفحه خود را پیاده سازی می کند. قبل از بررسی مشخصات آن، ارزش دارد که ابتدا سند را در سطح بالایی مورد بحث قرار دهیم.

@@ -7,6 +7,7 @@ description: "Formatage avancé des tableaux C#. Créez un style de tableau à l
 type: docs
 weight: 80
 url: /fr/net/working-with-tablestyle/
+timestamp: 2024-02-02-12-07-36
 ---
 
 Un style de tableau définit un ensemble de mises en forme qui peuvent être facilement appliquées à un tableau. Le formatage tel que les bordures, l'ombrage, l'alignement et la police peut être défini dans un style de tableau et appliqué à de nombreux tableaux pour une apparence cohérente.

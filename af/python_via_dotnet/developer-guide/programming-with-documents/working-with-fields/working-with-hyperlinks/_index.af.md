@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Hiperskakels
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Voeg By Of Verander Hiperskakels
@@ -7,6 +7,7 @@ description: "Voeg, vervang, of verander'n hiperskakel in'n dokument met behulp 
 type: docs
 weight: 50
 url: /af/python-net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 'n hiperskakel in Microsoft Word dokumente is die `HYPERLINK` veld. In Aspose.Words word hiperskakels geïmplementeer deur die [FieldHyperlink](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldhyperlink/) klas.

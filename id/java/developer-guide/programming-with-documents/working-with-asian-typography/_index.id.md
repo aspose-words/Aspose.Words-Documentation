@@ -7,6 +7,7 @@ description: "Bekerja dengan tipografi Asia menggunakan JavaSitemap Sesuaikan Ru
 type: docs
 weight: 240
 url: /id/java/working-with-asian-typography/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Typografi Asia adalah satu set pilihan untuk paragraf teks dalam dokumen yang ditulis dalam bahasa Asia.

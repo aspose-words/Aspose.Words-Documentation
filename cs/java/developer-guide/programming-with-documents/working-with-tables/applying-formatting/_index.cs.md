@@ -7,6 +7,7 @@ description: "Formátování tabulky v detailech. Použití Java formátovat ka�
 type: docs
 weight: 70
 url: /cs/java/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Každý prvek tabulky lze použít s různým formátováním. Například formátování tabulky bude aplikováno na celou tabulku, formátování řádku pouze na konkrétní řádky, formátování buněk pouze na určité buňky.

@@ -7,6 +7,7 @@ description: "Ustaw dokument jako tylko do odczytu, aby zawartość mogła być 
 type: docs
 weight: 10
 url: /pl/python-net/open-a-document-read-only/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Czasami możesz mieć dokument wymagający sprawdzenia, ale nie chcesz, aby recenzenci losowo modyfikowali Twoją treść. Aspose.Words umożliwia ustawienie uprawnień do dokumentu jako tylko do odczytu, dzięki czemu zawartość można kopiować lub czytać, ale nie można jej modyfikować. Zapobiegnie to usunięciu lub dodaniu treści do dokumentu.

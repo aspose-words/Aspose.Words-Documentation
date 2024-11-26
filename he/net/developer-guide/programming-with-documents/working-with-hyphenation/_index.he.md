@@ -7,6 +7,7 @@ description: "השתמש בהיסטריה עבור סידור קומפקטי י�
 type: docs
 weight: 220
 url: /he/net/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 לפעמים יש צורך להשתמש hyphenation להסדר קומפקטי יותר של טקסט במסמך. במקביל, חשוב להבין כי הפרטים של המילה hyphenation עשויים להיות שונים עבור כל שפה.

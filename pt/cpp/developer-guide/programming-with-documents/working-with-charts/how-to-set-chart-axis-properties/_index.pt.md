@@ -1,4 +1,4 @@
-﻿---
+---
 title: Como Definir Propriedades do eixo do gráfico em C++
 second_title: Aspose.Words para C++
 articleTitle: Como definir as propriedades do eixo do Gráfico
@@ -7,6 +7,7 @@ description: "Ajuste do eixo do gráfico usando C++."
 type: docs
 weight: 20
 url: /pt/cpp/how-to-set-chart-axis-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Se você quiser trabalhar com eixo de gráfico, dimensionamento e unidades de exibição para o eixo de valor, use as classes [ChartAxis](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.chart_axis), [AxisDisplayUnit](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_display_unit) e [AxisScaling](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_scaling).

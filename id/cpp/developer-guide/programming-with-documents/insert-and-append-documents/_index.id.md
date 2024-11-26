@@ -1,4 +1,4 @@
-﻿---
+---
 title: Menyisipkan dan Menambahkan Dokumen dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Menyisipkan dan Menambahkan Dokumen
@@ -7,6 +7,7 @@ description: "Menggabungkan dokumen menjadi satu: menyisipkan atau menambahkan d
 type: docs
 weight: 80
 url: /id/cpp/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Terkadang diperlukan untuk menggabungkan beberapa dokumen menjadi satu. Anda dapat melakukannya secara manual atau menggunakan fitur Aspose.Words insert atau append.
@@ -45,7 +46,7 @@ Contoh kode berikut menunjukkan caranya menyisipkan konten dari satu dokumen ke 
 
 ### Menyisipkan Dokumen Selama Operasi Mail Merge {#insert-a-document-during-mail-merge-operation}
 
-Anda dapat menyisipkan dokumen ke dalam bidang gabungan selama operasi mail merge. Misalnya, templat mail merge dapat berisi bidang gabungan seperti [Ringkasan]. Namun di dokumen akhir, Anda perlu menyisipkan konten yang diperoleh dari dokumen eksternal lain ke dalam bidang penggabungan ini. Untuk mencapainya, Anda perlu membuat pengendali untuk acara penggabungan.
+Anda dapat menyisipkan dokumen ke dalam bidang gabungan selama operasi mail merge. Misalnya, templat Mail Merge dapat berisi bidang gabungan seperti [Ringkasan]. Namun di dokumen akhir, Anda perlu menyisipkan konten yang diperoleh dari dokumen eksternal lain ke dalam bidang penggabungan ini. Untuk mencapainya, Anda perlu membuat pengendali untuk acara penggabungan.
 
 Contoh kode berikut menunjukkan cara membuat pengendali untuk peristiwa penggabungan untuk digunakan nanti dalam proses penyisipan:
 

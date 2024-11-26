@@ -7,6 +7,7 @@ description: "Licence Aspose.Words místo Android přes Java."
 type: docs
 weight: 60
 url: /cs/java/licensing-android/
+timestamp: 2024-02-02-12-07-36
 ---
 
 Někdy, abyste mohli lépe studovat systém, chcete se co nejrychleji ponořit do kódu. Aby to bylo jednodušší, Aspose.Words poskytuje různé plány na nákup nebo nabízí Free Trial a 30-denní dočasnou licenci na hodnocení.

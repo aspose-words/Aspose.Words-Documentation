@@ -7,6 +7,7 @@ description: "Remplacez le texte dans un tableau dans Python. Extrayez le texte 
 type: docs
 weight: 60
 url: /fr/python-net/work-with-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Comme mentionné dans les articles précédents, un tableau contient généralement du texte brut, bien que d'autres contenus tels que des images ou même d'autres tableaux puissent être placés dans les cellules du tableau.

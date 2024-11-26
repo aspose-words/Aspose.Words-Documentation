@@ -7,6 +7,7 @@ description: "Konwersja dokumentu do PDF z zaawansowanych opcji. Użyj PdfSaveOp
 type: docs
 weight: 20
 url: /pl/java/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Format PDF to format fixed-page, który jest bardzo popularny wśród użytkowników i szeroko wspierany przez różne aplikacje, ponieważ dokument PDF wygląda tak samo na dowolnym urządzeniu. Z tego powodu przekształcenie w PDF jest ważną cechą Aspose.Words.
@@ -31,7 +32,7 @@ Więcej informacji na temat PDF / A znajduje się w następnym artykule "Ucz si�
 
 Można również eksportować wypełnialne formularze z Microsoft Word dokument do wyjścia PDF, który ma wypełnialne formy zamiast zwykłego tekstu. Użyj [PreserveFormFields](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getPreserveFormFields) właściwość do zapisu dokumentu w formacie PDF z wypełnialnymi formularzami.
 
-Należy zauważyć, że w przeciwieństwie do <span notrans="<span notrans=" Microsoft Word"=""></span>", > format PDF ma ograniczoną liczbę opcji dla edytowalnych formularzy, takich jak textbox, combo box i opcja. Microsoft Word posiada więcej rodzajów formularzy, na przykład, znacznik daty kalendarza. Ogólnie rzecz biorąc, nie jest możliwe pełne naśladowanie Microsoft Word zachowanie w formacie PDF. Dlatego w niektórych złożonych przypadkach wyjście PDF może różnić się od tego, co widać w Microsoft Word.
+Należy zauważyć, że w przeciwieństwie do Microsoft Word", > format PDF ma ograniczoną liczbę opcji dla edytowalnych formularzy, takich jak textbox, combo box i opcja. Microsoft Word posiada więcej rodzajów formularzy, na przykład, znacznik daty kalendarza. Ogólnie rzecz biorąc, nie jest możliwe pełne naśladowanie Microsoft Word zachowanie w formacie PDF. Dlatego w niektórych złożonych przypadkach wyjście PDF może różnić się od tego, co widać w Microsoft Word.
 
 Poniższy przykład kodu pokazuje, jak zapisać dokument w formacie PDF z wypełnialnymi formatami z określoną kompresją i jakością Jpeg:
 

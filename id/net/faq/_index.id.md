@@ -9,6 +9,7 @@ type: docs
 description: "Aspose.Words untuk .NET menjawab pertanyaan yang paling sering diajukan. Pelajari halaman ini untuk menyelesaikan masalah Anda dengan cepat pada pertanyaan umum atau topik tertentu."
 weight: 75
 url: /id/net/faq/
+timestamp: 2024-11-18-12-56-02
 ---
 
 Halaman ini berisi jawaban atas pertanyaan yang paling sering diajukan. Silakan pelajari halaman saat ini – mungkin ini akan memungkinkan Anda menyelesaikan masalah Anda dengan cepat.
@@ -128,7 +129,7 @@ Ya, benar. Oleh karena itu, saat menyalin font, perlu diingat bahwa sebagian bes
 
 {{% alert color="primary" %}}
 
-Anda dapat menemukan informasi lebih detail tentang mail merge di bagian dokumentasi [Mail Merge dan Pelaporan](/words/net/mail-merge-and-reporting/).
+Anda dapat menemukan informasi lebih detail tentang Mail Merge di bagian dokumentasi [Mail Merge dan Pelaporan](/words/net/mail-merge-and-reporting/).
 
 {{% /alert %}}
 
@@ -143,7 +144,7 @@ Nama asli kolom gabungan tetap sama tanpa digantikan dengan data yang diperlukan
 
 **T: Mengapa keluaran penggabungan bertingkat tidak menampilkan data dari tabel anak untuk entri pertama di tabel induk, namun menampilkan semua item untuk entri terakhir di tabel induk, bahkan item yang sebenarnya tidak tertaut ke tabel tersebut?**
 
-Hal ini karena wilayah gabungan dalam templat tidak terbentuk dengan benar, yang dapat membuat semua wilayah mail merge yang disarangkan berhenti menampilkan apa pun. Tag pembuka [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) dan tag penutup [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) harus cocok dan berada pada baris atau sel yang sama. Misalnya, jika Anda mulai menyusun wilayah gabungan di sel tabel, Anda harus mengakhiri wilayah gabungan di baris yang sama dengan sel pertama.
+Hal ini karena wilayah gabungan dalam templat tidak terbentuk dengan benar, yang dapat membuat semua wilayah Mail Merge yang disarangkan berhenti menampilkan apa pun. Tag pembuka [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) dan tag penutup [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) harus cocok dan berada pada baris atau sel yang sama. Misalnya, jika Anda mulai menyusun wilayah gabungan di sel tabel, Anda harus mengakhiri wilayah gabungan di baris yang sama dengan sel pertama.
 
 ------
 
@@ -156,7 +157,7 @@ Hal ini karena hubungan antara tabel induk dan anak tidak diatur atau tidak diat
 
 ------
 
-**T: Mengapa ada pengecualian: "System.ArgumentException: Batasan ini tidak dapat diaktifkan karena tidak semua nilai memiliki nilai induk yang sesuai" saat menjalankan mail merge bertingkat?**
+**T: Mengapa ada pengecualian: "System.ArgumentException: Batasan ini tidak dapat diaktifkan karena tidak semua nilai memiliki nilai induk yang sesuai" saat menjalankan Mail Merge bertingkat?**
 
 Hal ini terjadi karena tidak setiap rekaman induk memiliki rekaman anak sehingga sumber data Anda tidak cocok dengan kriteria berikut: *setiap baris dalam tabel induk harus memiliki hubungan satu-ke-satu dengan baris-baris tabel anak berdasarkan data utama dan kunci asing*.
 

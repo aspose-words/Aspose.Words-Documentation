@@ -7,6 +7,7 @@ description: "Trabaje con cuadros de texto en un documento usando Python."
 type: docs
 weight: 250
 url: /es/python-net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 En Aspose.Words, la clase [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) se utiliza para especificar cómo se muestra un texto dentro de una forma. Proporciona una propiedad pública denominada [parent](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/parent/) para obtener la forma principal del cuadro de texto y permitir al cliente encontrar [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) vinculado desde [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) vinculado.

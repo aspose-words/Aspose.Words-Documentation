@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tipografie asiatică în Python
 second_title: Aspose.Words pentru Python
 articleTitle: Lucrul cu tipografia asiatică
@@ -7,6 +7,7 @@ description: "Lucrați cu tipografia asiatică folosind Python. Reglați spațiu
 type: docs
 weight: 240
 url: /ro/python-net/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Tipografia asiatică este un set de opțiuni pentru paragrafele de text din documentele scrise în limbile asiatice.

@@ -7,6 +7,7 @@ description: "将任意文档转换为 MHTML 格式,然后通过电子邮件发�
 type: docs
 weight: 30
 url: /zh/java/convert-a-document-to-mhtml-and-send-it-by-email/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 能够将任意文档转换为 MHTML (Web Archive) 格式。 这样就方便了 Aspose.Words 和 `Aspose.Email` 一起来 您可以以任何支持的格式装入预定义的文档,例如 DOC、OOXML 或 RTF Aspose.Words,然后使用电子邮件发送 `Aspose.Email`。 。 。 。

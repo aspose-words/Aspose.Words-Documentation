@@ -7,6 +7,7 @@ description: "Python의 분할 테이블. 하나의 테이블을 두 개의 별�
 type: docs
 weight: 100
 url: /ko/python-net/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words Document Object Model로 표현되는 테이블은 독립된 행과 셀로 구성되어 있어 테이블 분할이 용이합니다.

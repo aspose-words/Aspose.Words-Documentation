@@ -1,4 +1,4 @@
-﻿---
+---
 title: Dividere un documento in C++
 second_title: Aspose.Words per C++
 articleTitle: Dividere un documento
@@ -7,6 +7,7 @@ description: "Dividere un documento in più file utilizzando C++. Utilizzare la 
 type: docs
 weight: 90
 url: /it/cpp/split-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 *Splitting* o *split a document* è il processo di rottura di un documento di grandi dimensioni in un numero maggiore di file più piccoli. Ci sono vari motivi per dividere un file. Ad esempio, sono necessarie solo alcune pagine di un documento specifico e non l'intero. O per motivi di privacy, si desidera condividere solo alcune parti di un documento con gli altri. Con la funzione di suddivisione, è possibile ottenere solo le parti richieste del documento e eseguire le azioni necessarie con esse, ad esempio, per contrassegnare, salvare o inviare.

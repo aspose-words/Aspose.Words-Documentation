@@ -7,6 +7,7 @@ description: "使用 C# 格式化和评估字段结果。"
 type: docs
 weight: 40
 url: /zh/net/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时，用户需要对字段应用自定义格式。在本文中，我们将通过几个示例来说明如何做到这一点。
@@ -25,7 +26,7 @@ Aspose.Words 提供 API 来自定义字段结果的格式。您可以实现 [IFi
 
 ## 如何评估 `IF` 状况
 
-如果要在 mail merge 后计算 `IF` 条件，可以使用立即返回表达式计算结果的 [EvaluateCondition](https://reference.aspose.com/words/zh/net/aspose.words.fields/fieldif/evaluatecondition/) 方法。
+如果要在 Mail Merge 后计算 `IF` 条件，可以使用立即返回表达式计算结果的 [EvaluateCondition](https://reference.aspose.com/words/zh/net/aspose.words.fields/fieldif/evaluatecondition/) 方法。
 
 以下代码示例展示了如何使用此方法：
 

@@ -7,6 +7,7 @@ description: "Create Hello world example to start working with LINQ Reporting En
 type: docs
 weight: 30
 url: /java/hello-world-example/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

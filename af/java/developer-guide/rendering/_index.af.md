@@ -1,4 +1,4 @@
-﻿---
+---
 title: Vertoon in Java
 second_title: Aspose.Words vir Java
 articleTitle: Lewering
@@ -7,6 +7,7 @@ description: "Gebruik Aspose.Words vir Java rendering funksie om'n vloei-uitleg 
 type: docs
 weight: 30
 url: /af/java/rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ons gebruik die term "weergawe" in Aspose.Words om die proses van die omskakeling van'n dokument in'n lêer formaat of'n medium wat paginated of het die konsep van bladsye te beskryf. Ons praat oor die weergawe van'n dokument in bladsye. Die volgende diagram toon watter weergawe in Aspose.Words is.

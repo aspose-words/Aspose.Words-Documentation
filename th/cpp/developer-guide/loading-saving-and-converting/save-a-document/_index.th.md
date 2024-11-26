@@ -1,4 +1,4 @@
-﻿---
+---
 title: บันทึกเอกสารในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: การบันทึกเอกสาร
@@ -8,6 +8,7 @@ description: "บันทึกเอกสารในรูปแบบใด
 keywords: "save a document c++, save a document to file c++, save a document to stream c++, save a document Aspose C++, save formats supported by Aspose.Words C++"
 weight: 20
 url: /th/cpp/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 งานส่วนใหญ่ที่คุณจำเป็นต้องดำเนินการด้วยAspose.Wordsเกี่ยวข้องกับการบันทึกเอกสาร เมื่อต้องการบันทึกเอกสารAspose.Wordsมีวิธีการ[Save](https://reference.aspose.com/words/cpp/aspose.words/document/save/)ของชั้นเรียน[Document](https://reference.aspose.com/words/cpp/aspose.words/document/) เอกสารสามารถบันทึกในรูปแบบบันทึกใดๆที่สนับสนุนโดยAspose.Words สำหรับรายการของรูปแบบการบันทึกที่สนับสนุนทั้งหมดให้ดูที่การแจงนับ[SaveFormat](https://reference.aspose.com/words/cpp/aspose.words/saveformat/).

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Fügen Sie Checkboxes, Texteingaben oder Bilder während Mail Merge ein
 second_title: Aspose.Words für C++
 articleTitle: Checkboxes, Texteingaben oder Bilder einfügen
@@ -7,9 +7,10 @@ description: "Fügen Sie Kontrollkästchen oder Texteingabefelder während Mail 
 type: docs
 weight: 40
 url: /de/cpp/insert-checkboxes-text-input-or-images-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Die Merge-Engine nimmt ein Dokument als Eingabe, sucht darin nach `MERGEFIELD` -Feldern und ersetzt sie durch die aus der Datenquelle erhaltenen Daten. Normalerweise werden Klartext und HTML eingefügt, aber Aspose.Words -Benutzer können auch ein Dokument generieren, das ungewöhnlichere Szenarien für mail merge -Felder behandelt.
+Die Merge-Engine nimmt ein Dokument als Eingabe, sucht darin nach `MERGEFIELD` -Feldern und ersetzt sie durch die aus der Datenquelle erhaltenen Daten. Normalerweise werden Klartext und HTML eingefügt, aber Aspose.Words -Benutzer können auch ein Dokument generieren, das ungewöhnlichere Szenarien für Mail Merge -Felder behandelt.
 
 Die leistungsstarke Aspose.Words -Funktionalität ermöglicht es Ihnen, den mail merge-Prozess zu erweitern:
 
@@ -18,7 +19,7 @@ Die leistungsstarke Aspose.Words -Funktionalität ermöglicht es Ihnen, den mail
 
 ## Checkboxes und Texteingabe während Mail Merge einfügen
 
-Manchmal ist es erforderlich, eine mail merge -Operation auszuführen, damit im Seriendruckfeld kein Text ersetzt wird, sondern ein Kontrollkästchen oder ein Texteingabefeld. Auch wenn dies nicht das häufigste Szenario ist, ist es für einige Aufgaben sehr praktisch.
+Manchmal ist es erforderlich, eine Mail Merge -Operation auszuführen, damit im Seriendruckfeld kein Text ersetzt wird, sondern ein Kontrollkästchen oder ein Texteingabefeld. Auch wenn dies nicht das häufigste Szenario ist, ist es für einige Aufgaben sehr praktisch.
 
 Der folgende Screenshot eines Word-Dokuments zeigt eine Vorlage mit Seriendruckfeldern:
 
@@ -34,7 +35,7 @@ Beachten Sie, dass einige Felder durch einfachen Text ersetzt wurden, einige Fel
 
 {{% /alert %}}
 
-Das folgende Codebeispiel zeigt, wie Kontrollkästchen und Eingabetextfelder während einer mail merge in ein Dokument eingefügt werden:
+Das folgende Codebeispiel zeigt, wie Kontrollkästchen und Eingabetextfelder während einer Mail Merge in ein Dokument eingefügt werden:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Mail-Merge-MailMergeFormFields-MailMergeFormFields.cpp" >}}
 
@@ -42,11 +43,11 @@ Das folgende Codebeispiel zeigt, wie Kontrollkästchen und Eingabetextfelder wä
 
 ## Bilder während Mail Merge einfügen
 
-Wenn Sie eine mail merge -Operation ausführen, können Sie Bilder aus der Datenbank mithilfe spezieller Bildfelder mail merge in das Dokument einfügen. Das Feld Bild mail merge ist ein Seriendruckfeld mit dem Namen Bild:MyFieldName.
+Wenn Sie eine Mail Merge -Operation ausführen, können Sie Bilder aus der Datenbank mithilfe spezieller Bildfelder Mail Merge in das Dokument einfügen. Das Feld Bild Mail Merge ist ein Seriendruckfeld mit dem Namen Bild:MyFieldName.
 
 ### Bilder aus einer Datenbank einfügen
 
-Wenn während eines mail merge ein Bild mail merge -Feld in einem Dokument gefunden wird, wird das [FieldMergingCallback](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_fieldmergingcallback/) -Ereignis ausgelöst. Sie können auf dieses Ereignis reagieren, um einen Dateinamen, einen Stream oder ein Bildobjekt an die mail merge-Engine zurückzugeben, damit es in das Dokument eingefügt werden kann.
+Wenn während eines Mail Merge ein Bild Mail Merge -Feld in einem Dokument gefunden wird, wird das [FieldMergingCallback](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_fieldmergingcallback/) -Ereignis ausgelöst. Sie können auf dieses Ereignis reagieren, um einen Dateinamen, einen Stream oder ein Bildobjekt an die mail merge-Engine zurückzugeben, damit es in das Dokument eingefügt werden kann.
 
 Das folgende Codebeispiel zeigt, wie Bilder, die in einem Datenbankfeld BLOB gespeichert sind, in einen Bericht eingefügt werden:
 

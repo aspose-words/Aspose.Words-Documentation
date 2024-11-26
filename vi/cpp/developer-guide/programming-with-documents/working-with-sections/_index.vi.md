@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm Việc Với Các Phần trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm Việc Với Các Phần
@@ -7,6 +7,7 @@ description: "Hiểu các khái niệm phần tài liệu và thực hành thao 
 type: docs
 weight: 120
 url: /vi/cpp/working-with-sections/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Đôi khi bạn muốn một tài liệu không có cùng định dạng trên tất cả các trang. Ví dụ: bạn có thể cần sửa đổi định dạng số trang, có kích thước và hướng trang khác nhau hoặc có trang tài liệu đầu tiên làm trang bìa mà không cần đánh số. Bạn có thể đạt được điều đó với các phần.

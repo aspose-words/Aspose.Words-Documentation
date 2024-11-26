@@ -1,4 +1,4 @@
-﻿---
+---
 title: Insert Image in NPOI
 second_title: Aspose.Words for .NET
 articleTitle: Insert Image in NPOI
@@ -7,6 +7,7 @@ description: "Add an image into a document easily and fast instead of using NPOI
 type: docs
 weight: 20
 url: /net/insert-image-in-npoi/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Insert Image

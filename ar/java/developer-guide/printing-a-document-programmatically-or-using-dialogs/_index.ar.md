@@ -1,36 +1,37 @@
----
-title: طبع وثيقة
-second_title: Aspose.Words for Java
-articleTitle: طبع وثيقة برمجياً أو استخدام ديالوغز
-linktitle: طبع وثيقة برمجياً أو استخدام ديالوغز
-description: "طبع وثيقة باستخدام Java من خلال (ستينغز)، (بريفيو) الطبعيّة، واللهجات التقدميّة المطبوعة."
+﻿---
+title: طباعة مستند
+second_title: Aspose.Words ل Java
+articleTitle: طباعة مستند برمجيا أو باستخدام مربعات الحوار
+linktitle: طباعة مستند برمجيا أو باستخدام مربعات الحوار
+description: "اطبع مستندا باستخدام Java من خلال الإعدادات ومعاينة الطباعة ومربعات حوار تقدم الطباعة."
 type: docs
 weight: 55
 url: /ar/java/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-27-14-07-04
 ---
 
-تصف هذه المادة كيفية طبع وثيقة معالجة الكلمات باستخدام Aspose.Words API. وهو يبين أيضا أساليب طباعة وثيقة مع " ستينغز "، و " بريفيو "، و " لهجات التقدم المطبوعة ".
+توضح هذه المقالة كيفية طباعة مستند معالجة النصوص باستخدام Aspose.Words API. كما يوضح طرق طباعة مستند باستخدام الإعدادات ومعاينة الطباعة ومربعات حوار تقدم الطباعة.
 
-## طبع وثيقة مع ستينغز وبرنت بريفيو ديالوغز
+## طباعة مستند مع الإعدادات ومربعات حوار معاينة الطباعة
 
-وعند العمل مع الوثائق، كثيرا ما يُطلب منها طباعتها إلى طابعة مختارة. ومن المفيد استخدام جهاز للقراءة المسبقة للطباعة لتفحص بصري كيف ستظهر الوثيقة المطبوعة وتختار الخيارات المطبوعة ذات الصلة.
+عند العمل مع المستندات، غالبا ما يكون مطلوبا طباعتها على طابعة محددة. من المفيد استخدام مربع حوار معاينة قبل الطباعة لفحص كيفية ظهور المستند المطبوع بصريا واختيار خيارات الطباعة ذات الصلة.
 
-The Aspose.Words لا يوجد بهجات أو استمارات مدمجة بل ينفذ [AsposeWordsPrintDocument](https://reference.aspose.com/words/java/com.aspose.words/asposewordsprintdocument/) الصف يتعدى على كلا الجافا مطبوع و جافا يمكن
+لا يحتوي Aspose.Words على مربعات حوار أو نماذج مضمنة ولكنه ينفذ فئة [AsposeWordsPrintDocument](https://reference.aspose.com/words/java/com.aspose.words/asposewordsprintdocument/) التي تتجاوز كلا جافا.أوت.طباعة.للطباعة وجافا.أوت.طباعة.قابل للصفحة.
 
-ويبين المثال التالي كيفية استخدام هذه الفصول لطباعة وثيقة من Aspose.Words عن طريق عرض المطبوعات ورقم الهاتف:
+يوضح المثال التالي كيفية استخدام هذه الفئات لطباعة مستند من Aspose.Words عبر مربعات حوار معاينة الطباعة والإعدادات:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-DocumentPreviewAndPrint-PrintDialog.java" >}}
 
 {{% alert color="primary" %}} You can download an example of using the **PrintPreviewDialog** class from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/DocsExamples/Java/src/main/java/DocsExamples/Rendering_and_printing/PrintDocuments.java). {{% /alert %}}
 
-## طبع الصفحات المتعددة على صفحة واحدة
+## طباعة صفحات متعددة على ورقة واحدة
 
-Aspose.Words تنفذ **MultipagePrintDocument** الطبقة، لضبط عملية الطباعة لتنفيذ منطقك العرفي بتحديد الطريقة التي ستظهر بها الوثيقة في الصفحة المطبوعة. The **MultipagePrintDocument** ويوفر الفصل القدرة على طبع عدة صفحات على ورقة واحدة.
+Aspose.Words تنفذ فئة **MultipagePrintDocument**، لضبط عملية الطباعة لتنفيذ المنطق المخصص الخاص بك عن طريق تحديد الطريقة التي سيظهر بها المستند على الصفحة المطبوعة. توفر فئة **MultipagePrintDocument** القدرة على طباعة عدة صفحات على ورقة واحدة.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-MultiplePagesOnSheet-MultiplePagesOnSheet.java" >}}
 
-يمكنك تحميل مثال على استخدام **MultipagePrintDocument** الدرجة من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/c693ec7a8957051c206edc69612094a4169f6def/Examples/DocsExamples/Java/src/main/java/DocsExamples/Rendering_and_printing/PrintDocuments.java#L46)
+يمكنك تنزيل مثال على استخدام فئة **MultipagePrintDocument** من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/c693ec7a8957051c206edc69612094a4169f6def/Examples/DocsExamples/Java/src/main/java/DocsExamples/Rendering_and_printing/PrintDocuments.java#L46).
 
-وترد أدناه نتيجة هذا المثال الرمزي:
+تظهر نتيجة مثال الكود هذا أدناه:
 
 ![print_several_pages_on_one_sheet_aspose_words_java](/words/java/print-a-document-programmatically-or-using-dialogs/print-several-pages-on-one-sheet.png)/

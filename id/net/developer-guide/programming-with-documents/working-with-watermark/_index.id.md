@@ -7,6 +7,7 @@ description: "Manipulasi watermark dokumen menggunakan C#."
 type: docs
 weight: 340
 url: /id/net/working-with-watermark/
+timestamp: 2024-05-02-11-51-44
 ---
 
 Topik ini membahas cara bekerja secara terprogram dengan watermark menggunakan Aspose.Words. Tanda air adalah gambar latar belakang yang ditampilkan di belakang teks dalam dokumen. Tanda air dapat berisi teks atau gambar yang diwakili oleh kelas [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/).

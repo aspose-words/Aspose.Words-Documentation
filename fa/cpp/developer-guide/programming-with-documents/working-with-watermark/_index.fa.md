@@ -1,4 +1,4 @@
-﻿---
+---
 title: کار با واترمارک در C++
 second_title: Aspose.Words برای C++
 articleTitle: کار با واترمارک
@@ -7,6 +7,7 @@ type: docs
 description: "دستکاری علامت آبی سند با استفاده از C++."
 weight: 340
 url: /fa/cpp/working-with-watermark/
+timestamp: 2024-01-30-16-22-34
 ---
 
 این موضوع در مورد چگونگی کار برنامه نویسی با watermark با استفاده از Aspose.Words بحث می کند. علامت آبی یک تصویر پس زمینه است که در پشت متن در یک سند نمایش داده می شود. یک علامت آبی می تواند حاوی یک متن یا یک تصویر باشد که توسط کلاس [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/) نشان داده شده است.

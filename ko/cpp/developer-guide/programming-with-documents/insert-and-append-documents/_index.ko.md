@@ -1,4 +1,4 @@
-﻿---
+---
 title: 문서 삽입 및 추가 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 문서 삽입 및 추가
@@ -7,6 +7,7 @@ description: "문서를 하나로 결합:찾기 및 바꾸기,병합 필드,책�
 type: docs
 weight: 80
 url: /ko/cpp/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 때로는 여러 문서를 하나로 결합 할 필요가 있습니다. 이 작업을 수동으로 수행하거나 다음을 사용할 수 있습니다 Aspose.Words 기능을 삽입 또는 추가합니다.
@@ -45,7 +46,7 @@ url: /ko/cpp/insert-and-append-documents/
 
 ### 동안 문서 삽입 Mail Merge 운영 {#insert-a-document-during-mail-merge-operation}
 
-당신은 동안 병합 필드에 문서를 삽입 할 수 있습니다 mail merge 작동. 예를 들어, mail merge 템플릿에는[요약]과 같은 병합 필드가 포함될 수 있습니다. 그러나 최종 문서에서는 다른 외부 문서에서 얻은 콘텐츠를 이 병합 필드에 삽입해야 합니다. 이를 위해 병합 이벤트에 대한 처리기를 만들어야 합니다.
+당신은 동안 병합 필드에 문서를 삽입 할 수 있습니다 Mail Merge 작동. 예를 들어, Mail Merge 템플릿에는[요약]과 같은 병합 필드가 포함될 수 있습니다. 그러나 최종 문서에서는 다른 외부 문서에서 얻은 콘텐츠를 이 병합 필드에 삽입해야 합니다. 이를 위해 병합 이벤트에 대한 처리기를 만들어야 합니다.
 
 다음 코드 예제에서는 나중에 삽입 프로세스에서 사용할 병합 이벤트에 대한 처리기를 만드는 방법을 보여 줍니다:
 

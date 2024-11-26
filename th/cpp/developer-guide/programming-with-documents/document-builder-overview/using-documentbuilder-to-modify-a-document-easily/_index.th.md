@@ -1,12 +1,13 @@
-﻿---
-title: ใช้`DocumentBuilder`เพื่อแก้ไขเอกสารได้อย่างง่ายดาย
+---
+title: ใช้DocumentBuilderเพื่อแก้ไขเอกสารได้อย่างง่ายดาย
 second_title: Aspose.WordsสำหรับC++
-articleTitle: ใช้`DocumentBuilder`เพื่อแก้ไขเอกสารได้อย่างง่ายดาย
-linktitle: ใช้`DocumentBuilder`เพื่อแก้ไขเอกสารได้อย่างง่ายดาย
+articleTitle: ใช้DocumentBuilderเพื่อแก้ไขเอกสารได้อย่างง่ายดาย
+linktitle: ใช้DocumentBuilderเพื่อแก้ไขเอกสารได้อย่างง่ายดาย
 type: docs
 description: "ใช้ตัวสร้างเอกสารเพื่อแก้ไขเอกสารได้อย่างง่ายดายในC++."
 weight: 190
 url: /th/cpp/using-documentbuilder-to-modify-a-document-easily/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## การระบุการจัดรูปแบบ

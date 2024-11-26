@@ -7,6 +7,7 @@ description: "כיצד לתמרן הערות והערות כף הרגל באמצ
 type: docs
 weight: 160
 url: /he/java/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words גם מספק כמה שיעורים, שיטות ונכסים לעבודה עם הערות שוליים והערות קצה.

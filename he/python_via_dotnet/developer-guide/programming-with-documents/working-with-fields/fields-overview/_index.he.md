@@ -7,6 +7,7 @@ description: "אתה יכול לגשת שדה שינוי באמצעות Python. 
 type: docs
 weight: 10
 url: /he/python-net/fields-overview/
+timestamp: 2024-10-21-11-17-44
 ---
 
 
@@ -95,7 +96,7 @@ Aspose.Words היא ספריית כיתה המיועדת לעיבוד לצד ה�
 
 ## שדות Aspose.Words
 
-כאשר מסמך טעון <span notrans="<span notrans=" Aspose.Words"=""></span>" שדות המסמך טעונים לתוך Aspose.Words Document Object Model קבוצה של רכיבים נפרדים (nodes). שדה אחד טעון כאוסף של [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/), [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/) ו [FieldEnd](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldend/) יחד עם התוכן בין נקודות אלה. אם לשדה אין תוצאה של שדה אז לא יהיה [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/) צומת. כל הצמתים האלה תמיד נמצאים בקו הפנימי (כילדים של [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) או [SmartTag](https://reference.aspose.com/words/python-net/aspose.words.markup/smarttag/).
+כאשר מסמך טעון Aspose.Words שדות המסמך טעונים לתוך Aspose.Words Document Object Model קבוצה של רכיבים נפרדים (nodes). שדה אחד טעון כאוסף של [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/), [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/) ו [FieldEnd](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldend/) יחד עם התוכן בין נקודות אלה. אם לשדה אין תוצאה של שדה אז לא יהיה [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/) צומת. כל הצמתים האלה תמיד נמצאים בקו הפנימי (כילדים של [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) או [SmartTag](https://reference.aspose.com/words/python-net/aspose.words.markup/smarttag/).
 
 התוכן שהופך את קוד השדה נשמר כמו [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) צומת בין [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/) ו [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/). התוצאה של השדה נשמרת בין [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/) ו [FieldEnd](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldend/) צמתים וניתן להמציא סוגים שונים של תוכן. בדרך כלל התוצאה של השדה מכילה רק טקסט עשוי [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) אבל זה אפשרי עבור [FieldEnd](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldend/) צומת להיות ממוקם בפסקה שונה לחלוטין, ובכך להפוך את התוצאה שדה המורכבת מנקודות חסימת כגון ריצוף. [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) ו [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) גם חסרונות.
 
@@ -190,9 +191,9 @@ Aspose.Words תומך בכל מתגי התאריך והשעה הזמינים Mic
 
 #### Mail Merge שדות שדות שדות
 
-Aspose.Words אין הגבלה על המורכבות של mail merge שדות במסמכים שלך ותומכת קינון `IF` שדות פורמולה ויכולים אפילו לחשב את שם שדה המיזוג באמצעות נוסחה.
+Aspose.Words אין הגבלה על המורכבות של Mail Merge שדות במסמכים שלך ותומכת קינון `IF` שדות פורמולה ויכולים אפילו לחשב את שם שדה המיזוג באמצעות נוסחה.
 
-כמה דוגמאות mail merge שדות Aspose.Words תמיכה:
+כמה דוגמאות Mail Merge שדות Aspose.Words תמיכה:
 
 - - Mail merge מתגי שדה:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -236,7 +237,7 @@ Aspose.Words אין הגבלה על המורכבות של mail merge שדות ב
 
 מצד שני, Microsoft Word פורמטים כל שדה בודד מבוסס על שפת הטקסט שנמצאו בשטח (במיוחד, את הריצה מקוד השדה). לפעמים במהלך עדכון שדה זה עשוי להיות ההתנהגות הרצויה, למשל אם יש לך מסמכים גלובליים המכילים תוכן המורכב משפות רבות ושונות ירצה כל שדות לכבד את המקומיים המשמש הטקסט. Aspose.Words תומך גם בפונקציונליות זו.
 
-The The The [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) הכיתה מספקת [field_options](https://reference.aspose.com/words/python-net/aspose.words/document/field_options/) רכוש המכיל חברים אשר ניתן להשתמש כדי לשלוט כיצד שדות מעודכנים בתוך המסמך. להלן דוגמה מראה כיצד לציין היכן התרבות המשמשת לתבנית תאריך במהלך עדכון שדה ועדכונים mail merge הוא נבחר.
+The The The [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) הכיתה מספקת [field_options](https://reference.aspose.com/words/python-net/aspose.words/document/field_options/) רכוש המכיל חברים אשר ניתן להשתמש כדי לשלוט כיצד שדות מעודכנים בתוך המסמך. להלן דוגמה מראה כיצד לציין היכן התרבות המשמשת לתבנית תאריך במהלך עדכון שדה ועדכונים Mail Merge הוא נבחר.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-ChangeFieldUpdateCultureSource.py" >}}
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Formatarea tabelului în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Aplicați Formatarea Tabelului
@@ -7,6 +7,7 @@ description: "Formatarea tabelului în detalii. Folosind Java pentru a formata f
 type: docs
 weight: 70
 url: /ro/java/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Fiecare element al unui tabel poate fi aplicat cu formatare diferită. De exemplu, formatarea tabelului va fi aplicată întregului tabel, formatarea rândurilor doar la anumite rânduri, formatarea celulelor doar la anumite celule.

@@ -1,23 +1,24 @@
----
-title: Uso `DocumentBuilder` para insertar elementos del documento
-second_title: Aspose.Words para Java
-articleTitle: Uso `DocumentBuilder` para insertar elementos del documento
-linktitle: Uso `DocumentBuilder` para insertar elementos del documento
+﻿---
+title: Utilice DocumentBuilder para Insertar Elementos de Documento
+second_title: Aspose.Words por Java
+articleTitle: Utilice DocumentBuilder para Insertar Elementos de Documento
+linktitle: Utilice DocumentBuilder para Insertar Elementos de Documento
 type: docs
-description: "Insertar elementos de documento utilizando el constructor de documentos Java."
+description: "Inserte elementos de documento utilizando el generador de documentos en Java."
 weight: 10
 url: /es/java/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
-El [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) se utiliza para modificar documentos. Este artículo explica y describe cómo realizar una serie de tareas.
+El [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) se usa para modificar documentos. Este artículo explica y describe cómo realizar una serie de tareas.
 
-## Insertar una cuerda de texto
+## Insertar una Cadena de Texto
 
-Simplemente pase la cadena de texto que necesita insertar en el documento al [DocumentBuilder.write](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#write(java.lang.String)) método. El formato de texto es determinado por el `Font` propiedad. Este objeto contiene diferentes atributos de fuentes (nombre de columna, tamaño de fuente, color, etc.). Algunos atributos de fuentes importantes también están representados por [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) propiedades que le permiten acceder directamente a ellas. Estas son propiedades booleanas [Font.getBold](https://reference.aspose.com/words/java/com.aspose.words/font/#getBold), [Font.getItalic](https://reference.aspose.com/words/java/com.aspose.words/font/#getItalic), y [Font.getUnderline](https://reference.aspose.com/words/java/com.aspose.words/font/#getUnderline).
+Simplemente pase la cadena de texto que necesita insertar en el documento al método [DocumentBuilder.write](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#write(java.lang.String)). El formato del texto está determinado por la propiedad `Font`. Este objeto contiene diferentes atributos de fuente( nombre de fuente, tamaño de fuente, color, etc.). Algunos atributos de fuente importantes también están representados por las propiedades [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) para permitirle acceder a ellos directamente. Estas son propiedades booleanas [Font.getBold](https://reference.aspose.com/words/java/com.aspose.words/font/#getBold), [Font.getItalic](https://reference.aspose.com/words/java/com.aspose.words/font/#getItalic) y [Font.getUnderline](https://reference.aspose.com/words/java/com.aspose.words/font/#getUnderline).
 
 {{% alert color="primary" %}}
 
-Tenga en cuenta que el formato de caracteres que establece se aplicará a todo texto insertado desde la posición actual en el documento en adelante.
+Tenga en cuenta que el formato de caracteres que establezca se aplicará a todo el texto insertado desde la posición actual en el documento en adelante.
 
 {{% /alert %}}
 
@@ -25,189 +26,189 @@ El siguiente ejemplo de código Inserta texto formateado usando DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WriteAndFont-WriteAndFont.java" >}}
 
-## Inserción de un párrafo
+## Insertar un Párrafo
 
-DocumentBuilder.writeln inserta una cadena de texto también en el documento, pero además, añade una interrupción del párrafo. El formato de fuente actual también se especifica en el DocumentBuilder. # La propiedad de la fuente y el formato actual del párrafo se determinan por la propiedad DocumentBuilder.getParagraphFormat
+DocumentBuilder.writeln también inserta una cadena de texto en el documento, pero además, agrega un salto de párrafo. El formato de fuente actual también se especifica mediante DocumentBuilder.la propiedad getFont y el formato de párrafo actual están determinados por DocumentBuilder.getParagraphFormat propiedad.
 
 El siguiente ejemplo de código muestra cómo insertar un párrafo en el documento.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderInsertParagraph.java" >}}
 
-## Inserción de una tabla
+## Insertar una Tabla
 
 El algoritmo básico para crear una tabla usando `DocumentBuilder` es simple:
 
 1. Comience la tabla usando [DocumentBuilder.startTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable).
-1. Insertar una celda usando [DocumentBuilder.insertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell). Esto comienza automáticamente una nueva fila. Si es necesario, utilice el [DocumentBuilder.getCellFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCellFormat) propiedad para especificar el formato celular.
-1. Insertar contenido celular usando `DocumentBuilder` métodos.
-1. Repita los pasos 2 y 3 hasta que la fila esté completa.
-1. Call [DocumentBuilder.endRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) para terminar la fila actual. Si es necesario, use [DocumentBuilder.RowFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getRowFormat) propiedad para especificar formato de fila.
-1. Repita los pasos 2 - 5 hasta que la mesa esté completa.
-1. Call [DocumentBuilder.endTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) para terminar el edificio de mesa. A continuación se describen los métodos apropiados de creación de tablas DocumentBuilder.
+1. Inserte una celda usando [DocumentBuilder.insertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell). Esto inicia automáticamente una nueva fila. Si es necesario, use la propiedad [DocumentBuilder.getCellFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCellFormat) para especificar el formato de celda.
+1. Inserte el contenido de la celda utilizando los métodos `DocumentBuilder`.
+1. Repita los pasos 2 y 3 hasta completar la fila.
+1. Llame a [DocumentBuilder.endRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) para finalizar la fila actual. Si es necesario, use la propiedad [DocumentBuilder.RowFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getRowFormat) para especificar el formato de fila.
+1. Repita los pasos 2 a 5 hasta completar la tabla.
+1. Llama a [DocumentBuilder.endTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) para terminar de construir la mesa. Los métodos apropiados de creación de la tabla DocumentBuilder se describen a continuación.
 
-### Iniciar una tabla
+### Comenzando una Mesa
 
-Llamando a DocumentBuilder.start La tabla es el primer paso en construir una tabla. También se puede llamar dentro de una celda, en este caso, comienza una mesa anida. El siguiente método para llamar es DocumentBuilder.insertCell.
+Llamando a DocumentBuilder.startTable es el primer paso para construir una tabla. También se puede llamar dentro de una celda, en este caso, inicia una tabla anidada. El siguiente método a llamar es DocumentBuilder.insertCell.
 
-### Inserción de una célula
+### Insertar una Celda
 
-Después de llamar a DocumentBuilder. insertar Celda, se crea una nueva célula y cualquier contenido que agregue usando otros métodos del `DocumentBuilder` la clase se añadirá a la celda actual. Para empezar una nueva celda en la misma fila, llame a DocumentBuilder. insertar Célula otra vez. Utilice el DocumentBuilder.getCell Formato de propiedad para especificar el formato celular. Devuelve a [getCellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) objeto que representa todo el formato para una celda de mesa.
+Después de llamar DocumentBuilder.insertCell, se crea una nueva celda y cualquier contenido que agregue utilizando otros métodos de la clase `DocumentBuilder` se agregará a la celda actual. Para iniciar una celda nueva en la misma fila, llame a DocumentBuilder.insertCell otra vez. Utilice el DocumentBuilder.getCellFormat propiedad para especificar el formato de celda. Devuelve un objeto [getCellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) que representa todo el formato de una celda de la tabla.
 
-### Ending a Row
+### Terminando una Fila
 
-Llame a DocumentBuilder.end Rema para terminar la fila actual. Si llamas a DocumentBuilder. insertar Celda inmediatamente después de eso, entonces la mesa continúa en una nueva fila. Usar el `DocumentBuilder.RowFormat` propiedad para especificar formato de fila. Devuelve a [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/) objeto que representa todo el formato para una fila de mesa.
+Llame a DocumentBuilder.endRow para terminar la fila actual. Si llamas DocumentBuilder.insertCell inmediatamente después de eso, la tabla continúa en una nueva fila. Utilice la propiedad `DocumentBuilder.RowFormat` para especificar el formato de fila. Devuelve un objeto [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/) que representa todo el formato de una fila de la tabla.
 
-### Ending a Table
+### Poner fin a una Mesa
 
-Llame a DocumentBuilder.end Mesa para terminar la tabla actual. Este método debe llamarse sólo una vez después de DocumentBuilder. Dow fue llamado. Cuando se llama, DocumentBuilder.end La tabla mueve el cursor fuera de la celda actual a una posición justo después de la tabla. El siguiente ejemplo demuestra cómo construir una tabla formateada que contenga 2 filas y 2 columnas.
+Llame a DocumentBuilder.endTable para terminar la tabla actual. Este método debe llamarse solo una vez después de DocumentBuilder.endRow fue llamado. Cuando se llama, DocumentBuilder.endTable mueve el cursor fuera de la celda actual a una posición justo después de la tabla. El siguiente ejemplo demuestra cómo crear una tabla formateada que contenga 2 filas y 2 columnas.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderBuildTable-DocumentBuilderBuildTable.java" >}}
 
-## Inserción
+## Insertar una Pausa
 
-Si desea iniciar explícitamente una nueva línea, párrafo, columna, sección o página, llame a DocumentBuilder. insertBreak. Pasar a este método el tipo de la rotura que necesita para insertar que está representado por el `BreakType` enumeración
-El siguiente ejemplo de código muestra cómo insertar página rompe en un documento.
+Si desea iniciar explícitamente una nueva línea, párrafo, columna, sección o página, llame a DocumentBuilder.insertBreak. Pase a este método el tipo de interrupción que necesita insertar que está representado por la enumeración `BreakType`.
+El siguiente ejemplo de código muestra cómo insertar saltos de página en un documento.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertBreak-DocumentBuilderInsertBreak.java" >}}
 
-## Insertar una imagen
+## Insertar una Imagen
 
-DocumentBuilder ofrece varias sobrecargas de los [DocumentBuilder.insertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte) método que permite insertar una imagen inline o flotante. Si la imagen es un metafile EMF o WMF, se insertará en el documento en formato metafile. Todas las otras imágenes serán almacenadas en formato PNG. El DocumentBuilder.insert El método de imagen puede utilizar imágenes de diferentes fuentes:
+DocumentBuilder proporciona varias sobrecargas del método [DocumentBuilder.insertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte) que le permiten insertar una imagen en línea o flotante. Si la imagen es un metarchivo EMF o WMF, se insertará en el documento en formato de metarchivo. Todas las demás imágenes se almacenarán en formato PNG. El DocumentBuilder.insertImage el método puede usar imágenes de diferentes fuentes:
 
-- De un archivo o `URL` pasando un parámetro de cuerda
-- De un arroyo pasando a `Stream` parámetro
-- De un objeto Imagen pasando un parámetro Imagen
-- De una matriz byte pasando un parámetro de matriz byte
+- Desde un archivo o `URL` pasando un parámetro de cadena
+- De una secuencia pasando un parámetro `Stream`
+- A partir de un objeto Image pasando un parámetro Image
+- Desde una matriz de bytes pasando un parámetro de matriz de bytes
 - Y otros
 
-Para cada uno de los DocumentBuilder. insertar Métodos de imagen, hay más sobrecargas que le permiten insertar una imagen con las siguientes opciones:
+Para cada uno de los DocumentBuilder.insertImage métodos ,hay sobrecargas adicionales que le permiten insertar una imagen con las siguientes opciones:
 
-- Inline o flotando en una posición específica
-- Escala porcentual o tamaño personalizado
+- En línea o flotando en una posición específica
+- Escala de porcentaje o tamaño personalizado
 
-Además, el DocumentBuilder.insert Método de imagen devuelve un [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) objeto que fue creado e insertado para que pueda modificar más las propiedades de la Forma.
+Además, el DocumentBuilder.el método insertImage devuelve un objeto [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) que se acaba de crear e insertar para que pueda modificar aún más las propiedades de la Forma.
 
-### Insertar una imagen en línea
+### Insertar una Imagen en Línea
 
-Pase una sola cadena representando un archivo que contiene la imagen a DocumentBuilder. insertar Imagen para insertar la imagen en el documento como un gráfico en línea. El siguiente ejemplo de código muestra cómo insertar una imagen en línea en la posición del cursor en un documento.
+Pase una sola cadena que represente un archivo que contenga la imagen a DocumentBuilder.insertImage para insertar la imagen en el documento como un gráfico en línea. El siguiente ejemplo de código muestra cómo insertar una imagen en línea en la posición del cursor en un documento.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertInlineImage-DocumentBuilderInsertInlineImage.java" >}}
 
-### Inserción de una imagen flotante (Posición absoluta)
+### Insertar una Imagen Flotante (Posicionada Absolutamente)
 
-Este ejemplo inserta una imagen flotante de un archivo o `URL` a una posición y tamaño especificados.
+Este ejemplo inserta una imagen flotante de un archivo o `URL` en una posición y tamaño especificados.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertFloatingImage-DocumentBuilderInsertFloatingImage.java" >}}
 
-## Insertar una marca
+## Insertar un Marcador
 
 Para insertar un marcador en el documento, debe hacer lo siguiente:
 
-1. Call [DocumentBuilder.startBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startBookmark-java.lang.String) pasando el nombre deseado del marcador.
-1. Insertar el texto marcador usando `DocumentBuilder` métodos.
-1. Call [DocumentBuilder.endBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endBookmark-java.lang.String) pasando el mismo nombre que usaste con DocumentBuilder.startBookmark.
+1. Llame a [DocumentBuilder.startBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startBookmark-java.lang.String) pasándole el nombre deseado del marcador.
+1. Inserte el texto del marcador utilizando los métodos `DocumentBuilder`.
+1. Llame a [DocumentBuilder.endBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endBookmark-java.lang.String) pasándole el mismo nombre que usó con DocumentBuilder.startBookmark.
 
-Los marcadores pueden superponerse y abarcar cualquier rango. Para crear un marcador válido debes llamar a DocumentBuilder.startBookmark y DocumentBuilder.endFavoritos con el mismo nombre de marcadores.
+Los marcadores pueden superponerse y abarcar cualquier rango. Para crear un marcador válido, debe llamar a ambos DocumentBuilder.startBookmark y DocumentBuilder.endBookmark con el mismo nombre de marcador.
 
-Los marcadores o marcadores mal formados con nombres duplicados serán ignorados cuando se guarda el documento.
+Los marcadores mal formados o los marcadores con nombres duplicados se ignorarán cuando se guarde el documento.
 
-El siguiente ejemplo de código muestra cómo insertar un marcador en un documento usando un constructor de documentos.
+El siguiente ejemplo de código muestra cómo insertar un marcador en un documento mediante un generador de documentos.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertBookmark-DocumentBuilderInsertBookmark.java" >}}
 
-## Inserción de un campo
+## Insertar un Campo
 
-Campos en Microsoft Word los documentos consisten en un código de campo y un resultado de campo. El código de campo es como una fórmula y el resultado de campo es el valor que la fórmula produce. El código de campo también puede contener interruptores de campo que son instrucciones adicionales para realizar una acción específica. Puede cambiar entre mostrar códigos de campo y resultados en su documento en Microsoft Word usando el teclado atajo Alt+F9. Los códigos de campo aparecen entre los frenos rizados ( { } ). Uso [DocumentBuilder.insertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) crear campos en el documento. Necesita especificar un tipo de campo, código de campo y valor de campo. Si no está seguro sobre la sintaxis de código de campo particular, cree el campo en Microsoft Word primero y cambiar para ver su código de campo
-El siguiente ejemplo de código inserta un campo de fusión en un documento usando DocumentBuilder.
+Los campos de los documentos Microsoft Word constan de un código de campo y un resultado de campo. El código del campo es como una fórmula y el resultado del campo es el valor que produce la fórmula. El código de campo también puede contener conmutadores de campo que son instrucciones adicionales para realizar una acción específica. Puede alternar entre mostrar códigos de campo y resultados en su documento en Microsoft Word usando el método abreviado de teclado Alt+F9. Los códigos de campo aparecen entre llaves (`{ }`).Utilice [DocumentBuilder.insertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) para crear campos en el documento. Debe especificar un tipo de campo, un código de campo y un valor de campo. Si no está seguro de la sintaxis del código de campo en particular, cree primero el campo en Microsoft Word y cambie para ver su código de campo.
+El siguiente ejemplo de código inserta un campo de combinación en un documento usando DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertField-DocumentBuilderInsertField.java" >}}
 
-## Inserción `Form` Campo
+## Insertar un campo `Form`
 
-Los campos de formulario son un caso particular de campos de Word que permite la "interacción" con el usuario. Campos de formulario en Microsoft Word incluye el buzón de texto, Combobox y la casilla de verificación. DocumentBuilder ofrece métodos especiales para insertar cada tipo de campo de forma en el documento: [DocumentBuilder.insertTextInput](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertTextInput-java.lang.String-int-java.lang.String-java.lang.String-int) , [DocumentBuilder.insertCheckBox](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCheckBox-java.lang.String-boolean-boolean-int), y [DocumentBuilder.insertComboBox](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertComboBox-java.lang.String-java.lang.String---int). Tenga en cuenta que si especifica un nombre para el campo de formulario, entonces se crea automáticamente un marcador con el mismo nombre.
+Los campos de formulario son un caso particular de campos de palabras que permiten la "interacción" con el usuario. Los campos de formulario en Microsoft Word incluyen cuadro de texto, Combobox y checkbox.DocumentBuilder proporciona métodos especiales para insertar cada tipo de campo de formulario en el documento: [DocumentBuilder.insertTextInput](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertTextInput-java.lang.String-int-java.lang.String-java.lang.String-int), [DocumentBuilder.insertCheckBox](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCheckBox-java.lang.String-boolean-boolean-int) y [DocumentBuilder.insertComboBox](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertComboBox-java.lang.String-java.lang.String---int). Tenga en cuenta que si especifica un nombre para el campo del formulario, se creará automáticamente un marcador con el mismo nombre.
 
-### Insertar una entrada de texto
+### Insertar una Entrada de texto
 
 DocumentBuilder.insertTextInput para insertar un cuadro de texto en el documento. El siguiente ejemplo de código muestra cómo insertar un campo de formulario de entrada de texto en un documento.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertTextInputFormField-DocumentBuilderInsertTextInputFormField.java" >}}
 
-### Inserción `CheckBox`
+### Insertando un `CheckBox`
 
-Llama a DocumentBuilder.insert CheckBox para insertar una casilla de verificación en el documento. El siguiente ejemplo de código muestra cómo insertar un campo de formulario de casilla de verificación en un documento.
+Llame a DocumentBuilder.insertCheckBox para insertar un checkbox en el documento. El siguiente ejemplo de código muestra cómo insertar un campo de formulario checkbox en un documento.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertCheckBoxFormField-DocumentBuilderInsertCheckBoxFormField.java" >}}
 
-### Insertar una caja Combo
+### Insertar un Cuadro Combinado
 
-Llame a DocumentBuilder.insertComboBox para insertar una caja combo en el documento. El siguiente ejemplo de código muestra cómo insertar un campo de forma de caja combo en un documento.
+Llame a DocumentBuilder.insertComboBox para insertar un cuadro combinado en el documento. El siguiente ejemplo de código muestra cómo insertar un campo de formulario de cuadro combinado en un documento.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertComboBoxFormField-DocumentBuilderInsertComboBoxFormField.java" >}}
 
-## Insertar Locale a nivel de campo
+## Insertar Configuración regional a Nivel de Campo
 
-Los clientes pueden especificar Locale a nivel de campo ahora y puede lograr un mejor control. Locale Los medicamentos se pueden asociar con cada campo dentro del DocumentBuilder. Los ejemplos que figuran a continuación ilustran cómo utilizar esta opción.
+Los clientes pueden especificar la configuración regional a nivel de campo ahora y pueden lograr un mejor control. Los ID de configuración regional se pueden asociar con cada campo dentro del DocumentBuilder. Los ejemplos a continuación ilustran cómo hacer uso de esta opción.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-SpecifylocaleAtFieldlevel-SpecifylocaleAtFieldlevel.java" >}}
 
-## Insertar HTML
+## Insertando HTML
 
-Puede insertar fácilmente una cadena HTML que contenga un fragmento HTML o documento HTML completo en el documento de Word. Pasa esta cuerda al DocumentBuilder. insertar Método Html. Una de las implementaciones útiles del método es almacenar una cadena HTML en una base de datos e insertarla en el documento durante mail merge para obtener el contenido formateado añadido en lugar de construirlo utilizando varios métodos del constructor de documentos. El siguiente ejemplo de código muestra insertar HTML en un documento usando DocumentBuilder.
+Puede insertar fácilmente una cadena HTML que contenga un fragmento HTML o un documento HTML completo en el documento de Word. Simplemente pase esta cadena al DocumentBuilder.insertHtml método. Una de las implementaciones útiles del método es almacenar una cadena HTML en una base de datos e insertarla en el documento durante Mail Merge para agregar el contenido formateado en lugar de compilarlo utilizando varios métodos del generador de documentos. El siguiente ejemplo de código muestra inserciones HTML en un documento usando DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHtml-DocumentBuilderInsertHtml.java" >}}
 
-## Insertar un hipervínculo
+## Insertar un Hipervínculo
 
-Use DocumentBuilder.insertHyperlink para insertar un hipervínculo en el documento. Este método acepta tres parámetros: texto del enlace que se mostrará en el documento, destino de enlace (URL o nombre de un marcador dentro del documento), y un parámetro booleano que debe ser true si `URL` es un nombre de un marcador dentro del documento. DocumentBuilder.insertHyperlink llamadas internas DocumentBuilder.insertField. El método siempre añade apostrofes al principio y al final de la URL. Tenga en cuenta que necesita especificar el formato de fuente para el texto de visualización de hipervínculo explícitamente utilizando el `Font` propiedad. El siguiente ejemplo de código inserta un hipervínculo en un documento usando DocumentBuilder.
+Utilice DocumentBuilder.insertHyperlink para insertar un hipervínculo en el documento. Este método acepta tres parámetros: texto del enlace que se mostrará en el documento, destino del enlace (URL o el nombre de un marcador dentro del documento) y un parámetro booleano que debería ser verdadero si el `URL` es el nombre de un marcador dentro del documento.DocumentBuilder.insertHyperlink llamadas internas DocumentBuilder.insertField. El método siempre agrega apóstrofes al principio y al final de URL. Tenga en cuenta que debe especificar el formato de fuente para el texto de visualización del hipervínculo explícitamente utilizando la propiedad `Font`. El siguiente ejemplo de código inserta un hipervínculo en un documento usando DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHyperlink-DocumentBuilderInsertHyperlink.java" >}}
 
-## Inserción de una tabla de contenidos
+## Insertar una Tabla de Contenido
 
-Puede insertar un `TOC` (tabla de contenidos) campo en el documento en la posición actual llamando al [DocumentBuilder.insertTableOfContents](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertTableOfContents-java.lang.String) método. El método DocumentBuilder.insertTableOfContents sólo insertará un `TOC` campo en el documento. Para construir la tabla de contenidos y mostrarlos según números de página, los dos **Document.UpdateFields**método debe ser llamado después de la inserción del campo. El siguiente ejemplo de código muestra cómo insertar un campo Tabla de contenidos en un documento.
+Puede insertar un campo `TOC` (tabla de contenido) en el documento en la posición actual llamando al método [DocumentBuilder.insertTableOfContents](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertTableOfContents-java.lang.String). El DocumentBuilder.El método insertTableOfContents solo insertará un campo `TOC` en el documento. Para crear la tabla de contenido y mostrarla de acuerdo con los números de página, se debe llamar al método both **Document.UpdateFields**después de insertar el campo. El siguiente ejemplo de código muestra cómo insertar un campo de tabla de contenido en un documento.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertTableOfContents-DocumentBuilderInsertTableOfContents.java" >}}
 
-## Inserción del objeto Ole
+## Insertando Ole Objeto
 
-Si quieres llamar a Ole Object [DocumentBuilder.insertOleObjectAsIcon](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOleObjectAsIcon-java.lang.String-boolean-java.lang.String-java.lang.String).
+Si desea Ole Objeto, llame a [DocumentBuilder.insertOleObjectAsIcon](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOleObjectAsIcon-java.lang.String-boolean-java.lang.String-java.lang.String).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertOleObject-DocumentBuilderInsertOleObject.java" >}}
 
-## Establecer el nombre y la extensión de archivo al insertar objetos Ole
+## Establezca el Nombre y la Extensión del Archivo al Insertar el Objeto Ole
 
-El paquete OLE es una forma heredada y "indocumentada" para almacenar objetos embebidos si el manipulador OLE es desconocido. Principios Windows versiones tales como Windows 3.1, 95 y 98 tenían Packager. exe aplicación que podría utilizarse para incorporar cualquier tipo de datos en el documento. Ahora, esta solicitud está excluida Windows pero MS Word y otras aplicaciones todavía lo utilizan para incrustar datos si el controlador OLE está desaparecido o desconocido. Clase OlePackage permite acceder a propiedades OLE Package. El siguiente ejemplo de código muestra cómo configurar el nombre de archivo, la extensión y el nombre de visualización de OLE Package.
+El paquete OLE es una forma heredada e "indocumentada"de almacenar objetos incrustados si se desconoce el controlador OLE. Las primeras versiones de Windows, como Windows 3.1, 95 y 98, tenían una aplicación Packager.exe que podía usarse para incrustar cualquier tipo de datos en el documento. Ahora, esta aplicación está excluida de Windows, pero MS Word y otras aplicaciones aún la usan para incrustar datos si falta el controlador OLE o se desconoce. la clase OlePackage permite acceder a OLE Package propiedades.El siguiente ejemplo de código muestra cómo configurar el nombre de archivo, la extensión y el nombre para mostrar de OLE Package.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertElements-InsertOleObjectwithOlePackage.java" >}}
 
-## Obtener acceso a OLE Object Raw Data
+## Obtenga Acceso a los Datos sin Procesar del Objeto OLE
 
-El siguiente ejemplo de código muestra cómo conseguir OLE Objeción de datos brutos utilizando `OleFormat.GetRawData`() método.
+El siguiente ejemplo de código demuestra cómo obtener datos sin procesar del objeto OLE utilizando el método `OleFormat.GetRawData` ().
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertElements-GetAccessToOLEObjectRawData.java" >}}
 
-## Insertar horizontal Regla en el documento
+## Insertar Regla Horizontal en el Documento
 
-El siguiente ejemplo de código muestra cómo insertar la forma de regla horizontal en un documento utilizando `DocumentBuilder.InsertHorizontalRule` método.
+El siguiente ejemplo de código muestra cómo insertar una forma de regla horizontal en un documento utilizando el método `DocumentBuilder.InsertHorizontalRule`.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHorizontalRule-DocumentBuilderInsertHorizontalRule.java" >}}
 
-## Trabajando con Formas
+## Trabajar con Formas
 
-### Inserción de formas de inlineación y libre flotante
+### Inserción de Formas en línea y flotantes Libres
 
-Puede insertar una forma en línea con un tipo y tamaño especificados y una forma de plantación libre con el tipo de posición, tamaño y texto especificado en un documento utilizando `DocumentBuilder.InsertShape` método. El `DocumentBuilder.InsertShape` método permite insertar la forma DML en el modelo de documento. El documento debe guardarse en el formato, que admite formas DML, de lo contrario tales nodos se convertirán en forma VML, mientras que el ahorro de documentos. El siguiente ejemplo de código muestra cómo insertar estos tipos de formas en el documento.
+Puede insertar una forma en línea con un tipo y tamaño especificados y una forma flotante con la posición, el tamaño y el tipo de ajuste de texto especificados en un documento utilizando el método `DocumentBuilder.InsertShape`. El método `DocumentBuilder.InsertShape` permite insertar la forma DML en el modelo de documento. El documento debe guardarse en el formato que admita formas DML; de lo contrario, dichos nodos se convertirán a formas VML mientras se guarda el documento. El siguiente ejemplo de código muestra cómo insertar estos tipos de formas en el documento.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-InsertShapeUsingDocumentBuilder.java" >}}
 
-### Crear el rectángulo de esquina Snip
+### Crear Rectángulo de Esquina Recortada
 
-Usted puede crear un rectángulo de esquina chispa usando Aspose.Words. Los tipos de formas son SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped, TopCornersOneRounded OneSnipped, SingleCornerRounded, TopCornersRounded, y DiagonalCornersRounded. La forma DML se crea utilizando `DocumentBuilder.InsertShape` método con estos tipos de forma. Estos tipos no pueden utilizarse para crear formas VML. El intento de crear una forma utilizando el constructor público de la clase "Shape" eleva la excepción "NotSupportedException". El siguiente ejemplo de código muestra cómo insertar estos tipos de formas en el documento.
+Puedes crear un rectángulo de esquina recortada usando Aspose.Words. Los tipos de forma son SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped, TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, y DiagonalCornersRounded. La forma DML se crea utilizando el método `DocumentBuilder.InsertShape` con estos tipos de formas. Estos tipos no se pueden usar para crear VML formas. Intentar crear una forma utilizando el constructor público de la clase" Forma "genera la excepción" NotSupportedException". El siguiente ejemplo de código muestra cómo insertar estos tipos de formas en el documento.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-AddCornersSnipped.java" >}}
 
-### Formas de importación con XML de matemáticas como formas en DOM
+### Importe Formas con Math XML como Formas en DOM
 
-Puedes usar `LoadOptions.ConvertShapeToOfficeMath` propiedad para convertir las formas con EquationXML a objetos Office Math. El valor predeterminado de esta propiedad corresponde al comportamiento de MS Word, es decir, las formas con ecuación XML no se convierten en objetos matemáticos de Office.
+Puede usar la propiedad `LoadOptions.ConvertShapeToOfficeMath` para convertir las formas con EquationXML en objetos matemáticos de Office. El valor predeterminado de esta propiedad corresponde al comportamiento de MS Palabras, es decir, las formas con la ecuación XML no se convierten en objetos matemáticos de Office.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-ConvertShapeToOfficeMath.java" >}}

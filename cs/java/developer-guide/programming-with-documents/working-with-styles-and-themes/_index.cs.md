@@ -7,6 +7,7 @@ description: "Rozšířené Microsoft Word funkce formátování, práce se styl
 type: docs
 weight: 110
 url: /cs/java/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) třída se používá pro správu vestavěných a použití uživatelsky definovaných nastavení na styly.

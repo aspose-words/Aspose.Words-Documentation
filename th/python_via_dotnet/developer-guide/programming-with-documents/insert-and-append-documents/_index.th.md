@@ -7,6 +7,7 @@ description: "รวมเอกสารเป็นหนึ่งเดีย
 type: docs
 weight: 80
 url: /th/python-net/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 บางครั้งจำเป็นต้องรวมเอกสารหลายฉบับเป็นเอกสารเดียว คุณสามารถดำเนินการนี้ได้ด้วยตนเองหรือใช้คุณลักษณะการแทรกหรือต่อท้าย Aspose.Words

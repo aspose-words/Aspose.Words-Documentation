@@ -7,6 +7,7 @@ description: "Learn how to treat missing members of data objects as null literal
 type: docs
 weight: 70
 url: /net/accessing-missing-members-of-data-objects/
+timestamp: 2024-10-21-11-17-44
 ---
 
 By default, LINQ Reporting Engine forbids access to missing members of data objects used to build a report in template expressions, since such access is forbidden by [C# Language Specification 5.0](https://www.microsoft.com/en-us/download/details.aspx?id=7029). On attempt to use a missing member of a data object, the engine throws an exception then.

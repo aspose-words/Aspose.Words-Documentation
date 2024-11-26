@@ -7,6 +7,7 @@ description: "Python via .NET용 Aspose.Words 작업을 시작하기 전에 운�
 type: docs
 weight: 50
 url: /ko/python-net/system-requirements/
+timestamp: 2024-04-27-18-03-32
 ---
 
 Python via .NET용 Aspose.Words에는 Microsoft Word과 같은 타사 제품을 설치할 필요가 없습니다. Aspose.Words 자체는 Microsoft Word 문서 형식을 포함한 다양한 형식의 문서를 생성, 수정, 변환 및 렌더링하기 위한 엔진입니다.

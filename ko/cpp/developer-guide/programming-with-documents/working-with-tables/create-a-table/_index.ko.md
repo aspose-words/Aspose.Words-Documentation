@@ -1,4 +1,4 @@
-﻿---
+---
 title: 테이블을 만드는 방법 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 테이블 만들기
@@ -7,6 +7,7 @@ description: "다음을 사용하여 테이블을 만드는 다양한 방법 C++
 type: docs
 weight: 20
 url: /ko/cpp/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words 사용자가 문서에서 테이블을 처음부터 만들 수 있으며 여러 가지 다른 방법을 제공합니다. 이 문서에서는 각 메서드를 사용하여 서식이 지정된 테이블을 문서에 추가하는 방법에 대한 세부 정보와 문서 끝에 있는 각 메서드의 비교를 제공합니다.

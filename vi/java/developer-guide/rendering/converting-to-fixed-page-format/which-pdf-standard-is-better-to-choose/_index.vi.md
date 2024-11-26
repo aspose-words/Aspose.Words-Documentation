@@ -7,6 +7,7 @@ description: "Chọn tiêu chuẩn PDF tốt nhất để xuất kết quả c�
 type: docs
 weight: 27
 url: /vi/java/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đối với một số nhiệm vụ, những tiêu chuẩn PDF nhất định sẽ phù hợp hơn hoặc ngược lại tệ hơn. Trong bài viết này, chúng ta sẽ cố gắng xác định những tiêu chuẩn nào của PDF phù hợp với các trường hợp như thế nào.

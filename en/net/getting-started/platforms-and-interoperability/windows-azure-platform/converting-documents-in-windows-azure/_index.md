@@ -7,6 +7,7 @@ type: docs
 description: "Use Aspose.Words for .NET in Windows Azure to load, convert, and save documents. To do this, you can create a `WebRole` application that can be run in the Development Fabric or deployed to Windows Azure using C#."
 weight: 10
 url: /net/converting-documents-in-windows-azure/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Aspose.Words on Windows Azure provides an ability to load, convert, and save documents. For this purpose, you can create an application that:

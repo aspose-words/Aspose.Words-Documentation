@@ -7,6 +7,7 @@ description: "Gelişmiş TXT belge işleme, listeler, BiDi, başlıklar/ayaklar,
 type: docs
 weight: 430
 url: /tr/java/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bu makalede metin belgesi aracılığıyla çalışmak için hangi seçeneklerin faydalı olabileceğini öğreneceğiz Aspose.Words. Lütfen bunun mevcut olan seçeneklerin tam bir listesi olmadığını ve sadece bunlarla çalışmanın bir örneğini içerdiğini unutmayın.

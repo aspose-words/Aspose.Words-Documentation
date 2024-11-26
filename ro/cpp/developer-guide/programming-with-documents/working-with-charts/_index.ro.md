@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu diagrame în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Lucrul cu diagrame
@@ -7,6 +7,7 @@ description: "Introducere în caracteristica diagramă, cum să creați și să 
 type: docs
 weight: 310
 url: /ro/cpp/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Noua metodă [InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/) a fost adăugată în clasa [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/). Deci, să vedem cum să inserați o diagramă coloană simplă în document folosind metoda [InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/).

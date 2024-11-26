@@ -1,4 +1,4 @@
-﻿---
+---
 title: Creează BarCode în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Generați o imagine personalizată BarCode
@@ -7,6 +7,7 @@ description: "Exemplu de generare a formei codului de bare folosind Java."
 type: docs
 weight: 350
 url: /ro/java/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
 Un cod de bare este o reprezentare vizuală a datelor sub formă de linii sau modele paralele. Codurile de bare sunt utilizate pe scară largă în diverse industrii, cum ar fi comerțul cu amănuntul, logistica, asistența medicală, serviciile bancare și multe altele.

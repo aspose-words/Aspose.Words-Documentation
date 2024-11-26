@@ -7,6 +7,7 @@ description: "Pracující s částmi tabulek řádků, sloupců a buněk Java. U
 type: docs
 weight: 30
 url: /cs/java/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Pro větší kontrolu nad tím, jak stoly fungují, se naučte manipulovat sloupy a řádky.

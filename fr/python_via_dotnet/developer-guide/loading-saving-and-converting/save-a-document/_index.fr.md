@@ -8,6 +8,7 @@ description: "Enregistrez un document dans n'importe quel format pris en charge 
 keywords: "save a document python, save a document to file python, save a document to stream python, save a document Aspose python, save formats supported by Aspose.Words python"
 weight: 20
 url: /fr/python-net/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 La plupart des tâches que vous devez effectuer avec Aspose.Words impliquent l'enregistrement d'un document. Pour enregistrer un document, Aspose.Words fournit la méthode [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) de la classe [Document](https://reference.aspose.com/words/python-net/aspose.words/document/). Il existe des surcharges qui permettent d'enregistrer un document dans un fichier ou un flux. Le document peut être enregistré dans n'importe quel format de sauvegarde pris en charge par Aspose.Words. Pour la liste de tous les formats de sauvegarde pris en charge, consultez l'énumération [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/).

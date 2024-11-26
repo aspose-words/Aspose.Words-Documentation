@@ -1,4 +1,4 @@
-﻿---
+---
 title: Velde Oorsig in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Velde Oorsig
@@ -7,6 +7,7 @@ description: "Velde kenmerk in besonderhede, veldkodes en veldresultate verduide
 type: docs
 weight: 10
 url: /af/net/fields-overview/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words is'n klas biblioteek ontwerp vir bediener-kant verwerking van Microsoft Word dokumente en ondersteun velde in die volgende maniere:
@@ -173,9 +174,9 @@ Aspose.Words ondersteun alle datum en tyd formatering skakelaars beskikbaar in M
 
 ### Mail Merge Velde
 
-Aspose.Words stel geen beperking op die kompleksiteit van mail merge velde in jou dokumente en ondersteun geneste `IF` en formule velde en kan selfs bereken die samesmelting veld se naam met behulp van'n formule.
+Aspose.Words stel geen beperking op die kompleksiteit van Mail Merge velde in jou dokumente en ondersteun geneste `IF` en formule velde en kan selfs bereken die samesmelting veld se naam met behulp van'n formule.
 
-'n paar voorbeelde van mail merge velde wat Aspose.Words ondersteun:
+'n paar voorbeelde van Mail Merge velde wat Aspose.Words ondersteun:
 
 - Mail merge veldskakelaars:
 `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -222,6 +223,6 @@ Aan die ander kant, Microsoft Word formateer elke individuele veld gebaseer op d
 
 Die [Document](https://reference.aspose.com/words/net/aspose.words/document/) klas bied'n [FieldOptions](https://reference.aspose.com/words/net/aspose.words/document/fieldoptions/) eienskap wat lede bevat wat gebruik kan word om te beheer hoe velde is opgedateer binne die dokument.
 
-Die volgende kode voorbeeld toon hoe om te spesifiseer waar die kultuur wat gebruik word vir datum formatering tydens veld update en mail merge is gekies uit:
+Die volgende kode voorbeeld toon hoe om te spesifiseer waar die kultuur wat gebruik word vir datum formatering tydens veld update en Mail Merge is gekies uit:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-ChangeFieldUpdateCultureSource-ChangeFieldUpdateCultureSource.cs" >}}

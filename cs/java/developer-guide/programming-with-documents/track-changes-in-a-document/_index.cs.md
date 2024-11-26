@@ -7,6 +7,7 @@ description: "Sledujte změny obsahu a formátování provedené vámi nebo jin�
 type: docs
 weight: 270
 url: /cs/java/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Funkce změn dráhy, známý také jako přezkum, umožňuje sledovat změny obsahu a formátování provedené vámi nebo jinými uživateli. Tato funkce změn trati s Aspose.Words podporuje změny dráhy v Microsoft Word. S touto funkcí můžete ve svém dokumentu přistupovat k jednotlivým revizím a aplikovat na ně různé vlastnosti.

@@ -7,6 +7,7 @@ type: docs
 description: "Wprowadzenie do funkcji Matematyki Urzędu w Aspose.Words zamiast Java."
 weight: 320
 url: /pl/java/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Teraz jest jeszcze wygodniej pracować z OfficeMath Typ obiektów. W Aspose.Words, klient może łatwo uzasadnić i może również zarządzać, czy równanie jest wyświetlane w linii lub w oddzielnej linii. Więcej, z dostępności **MathObjectType**; użyteczne sterowniki mogą być zaimplementowane za pomocą tego obiektu matrycy.

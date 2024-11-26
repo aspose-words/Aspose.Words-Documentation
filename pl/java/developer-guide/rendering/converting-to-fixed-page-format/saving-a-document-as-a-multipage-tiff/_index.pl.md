@@ -7,6 +7,7 @@ description: "Konwertuj dokument na obraz rastrowy, który jest omawiany na przy
 type: docs
 weight: 30
 url: /pl/java/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Podczas pracy z dokumentami, często trzeba przekonwertować swój dokument do rastrowego pliku (-ów) obrazu. Jest to szczególnie istotne, jeśli musisz przedstawić swój dokument w czytelnym i drukowanym formacie, ale nie edytowalnym. Na przykład można użyć rastrowego obrazu pierwszej strony dokumentu jako podglądu. Ten artykuł opisuje, jak przekonwertować dokument do grafiki rasterowej za pomocą przykładu formatu TIFF - jednego z bardziej popularnych formatów obrazu.

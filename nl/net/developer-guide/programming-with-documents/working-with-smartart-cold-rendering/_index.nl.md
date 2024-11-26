@@ -8,6 +8,7 @@ type: docs
 description: "Aspose.Words voor .NET voert Smart uit Art Cold Rendering, wat betekent dat het SmartArt objecten legt en maakt als de SmartArt tekening ontbreekt of onjuist gebruikt C#."
 weight: 330
 url: /nl/net/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 SmartArt graphics worden gebruikt om snel en gemakkelijk een visuele weergave van informatie te creëren. U kiest gewoon uit een groot aantal lay-outs die het beste bij uw situatie past. Dit gebruiksgemak maakt SmartArt graphics vrij populair voor sommige doeleinden.

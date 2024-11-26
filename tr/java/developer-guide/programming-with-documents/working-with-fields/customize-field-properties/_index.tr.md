@@ -7,6 +7,7 @@ description: "Java'da alan özelliklerini nasıl özelleştireceğinizi öğreni
 type: docs
 weight: 27
 url: /tr/java/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words çeşitli alan özellikleriyle programatik olarak etkileşim kurma yeteneği sağlar. Bu makalede, çalışırken alan özelliklerinin temel ilkesini anlamak için birkaç örnek inceleyeceğiz. Her türün özelliklerinin tam listesi ilgili sınıfta görülebilir.

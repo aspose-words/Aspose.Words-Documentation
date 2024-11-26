@@ -1,4 +1,4 @@
-﻿---
+---
 title: Android prin Java Prezentare generală a produsului
 second_title: Aspose.Words pentru Java
 articleTitle: Prezentare Generală A Produsului
@@ -7,6 +7,7 @@ description: "Aspose.Words pentru Android via Java este o bibliotecă de clase `
 type: docs
 weight: 10
 url: /ro/java/android-product-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

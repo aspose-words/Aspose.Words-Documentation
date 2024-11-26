@@ -7,6 +7,7 @@ description: "Tentukan Opsi Tata Letak untuk berbagai tata letak dokumen menggun
 type: docs
 weight: 10
 url: /id/python-net/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words memungkinkan Anda membuat dokumen keluaran dengan berbagai tata letak, bergantung pada parameter yang ditentukan dalam properti kelas [LayoutOptions](https://reference.aspose.com/words/python-net/aspose.words.layout/layoutoptions/). Beberapa properti ini menyerupai beberapa opsi menu antarmuka pengguna Microsoft Word – properti tersebut akan dijelaskan dalam artikel ini.

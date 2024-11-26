@@ -7,6 +7,7 @@ description: "Şekil işaretleme diline giriş, C# kullanarak farklı türde şe
 type: docs
 weight: 280
 url: /tr/net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bu konu, Aspose.Words kullanarak şekillerle programlı olarak nasıl çalışılacağını anlatmaktadır.

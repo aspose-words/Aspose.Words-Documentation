@@ -7,6 +7,7 @@ description: "고급 테이블 형식 C#. Python를 사용하여 테이블 스�
 type: docs
 weight: 80
 url: /ko/python-net/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 표 스타일은 표에 쉽게 적용할 수 있는 서식 집합을 정의합니다. 테두리, 음영, 정렬, 글꼴 등의 서식을 표 스타일로 설정하고 일관된 모양을 위해 여러 표에 적용할 수 있습니다.

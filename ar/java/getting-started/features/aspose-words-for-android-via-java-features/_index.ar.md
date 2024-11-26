@@ -1,118 +1,119 @@
----
-title: Aspose.Words for Android عبر Java المعالم
-second_title: Aspose.Words for Java
-articleTitle: Aspose.Words for Android عبر Java المعالم
-linktitle: Aspose.Words for Android عبر Java المعالم
-description: "يقدم هذا الفرع مقارنة بين توافر الملامح Aspose.Words for Java و Aspose.Words for Android عبر Java."
+﻿---
+title: Aspose.Words ل Android عبر Java الميزات
+second_title: Aspose.Words ل Java
+articleTitle: Aspose.Words ل Android عبر Java الميزات
+linktitle: Aspose.Words ل Android عبر Java الميزات
+description: "يقدم هذا القسم مقارنة بين توفر الميزات بين Aspose.Words لـ Java و Aspose.Words لـ Android عبر Java."
 type: docs
 weight: 90
 url: /ar/java/aspose-words-for-android-via-java-features/
+timestamp: 2024-10-21-11-17-44
 ---
 
-## Aspose.Words for Android عبر Java لمحة عامة
+## Aspose.Words إلى عن على Android عبر Java نظرة عامة على الميزات
 
-يقدم هذا الفرع مقارنة بين توافر الملامح Aspose.Words for Java و Aspose.Words for Android عبر Java.
+يقدم هذا القسم مقارنة بين توفر الميزات بين Aspose.Words لـ Java و Aspose.Words لـ Android عبر Java.
 
-### الشكليات والتحويلات المالية
+### تنسيقات الملفات والتحويلات
 
-|  Feature | الوصف | Aspose.Words for Java | Aspose.Words for Android عبر Java |
-|  :-  |  :-  |  :-  |  :-  |
-| تحويلات عالية الجودة | وبسرعة وموثوقية، تحول بين عدة أشكال وثائق شعبية. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Microsoft Word (DOC) | أسرع وأكمل طريقة التنفيذ التي يمكن أن تجدها | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| نظام معالجة الكلمات (DOCX, XML) | Aspose.Words يوفر دعماً شاملاً لبرنامج OOXML، ومنظمة حظر إنتاج المواد الانشطارية، وورد 2003 XML. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| &apos; 2` النموذج الأثري | دعم شامل لشكل فرقة العمل الإقليمية للتفاعل مع مجموعة متنوعة من التطبيقات. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| HTML, XHTML and MHTML | Load and save HTML/XHTML for even greater interoperability. وفّر كما أن MHTML متاحة أيضا. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| الوثائق المفتوحة | Aspose.Words يمكن تحميل وإنقاذ الوثائق في `OpenDocument` شكل النص (جيد) | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| &apos; 2` &apos; &apos; &apos; &apos; &apos; &apos; &apos; &apos; &apos; &apos; &apos; &apos; &apos; &apos; &apos; &apos; &apos; &apos; &apos; &apos; &apos; &apos; &apos; نموذج &apos; &apos; &apos; &apos; &apos; &apos; &apos; &apos; &apos; &apos; &apos; &apos; &apos; الوثائق المحمولة`` | Convert any document to PDF with high fidelity. PDF/A is supported. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| مواصفات ورقة XMLXPS) | تحويل أي وثيقة إلى XPS مع الإخلاص العالي. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Plain Text (TXT) | Easily extract text byving in plain text format. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| النشر الرقمي | EPUB is a popular format for eBooks. يمكنك تحويل أي وثيقة من Aspose.Words إلى استمارة EPUB الصادرة عن المؤسسة. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| ميزة | الوصف | Aspose.Words ل Java | Aspose.Words ل Android عبر Java |
+| :- | :- | :- | :- |
+| تحويلات عالية الجودة | بسرعة وبشكل موثوق، قم بالتحويل بين العديد من تنسيقات المستندات الشائعة. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Microsoft Word (DOC) | الأسرع والأكثر اكتمالا DOC تنفيذ تنسيق يمكنك أن تجد. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| WordprocessingML (DOCX, XML) | Aspose.Words يوفر دعما شاملا OOXML، شقة OPC وأيضا كلمة 2003 XML. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| تنسيق نص منسق (RTF) | دعم شامل للتنسيق RTF للتفاعل مع مجموعة متنوعة من التطبيقات. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| HTML، XHTML و MHTML | تحميل وحفظ HTML / XHTML لمزيد من التشغيل البيني. حفظ باسم MHTML متاح أيضا. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| OpenDocument (ODT) | Aspose.Words يمكن تحميل وحفظ المستندات في النص `OpenDocument` (.أود) الشكل. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| أدوبي تنسيق المستندات المحمولة (PDF) | تحويل أي مستند إلى PDF بدقة عالية. PDF/A معتمد. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| XML مواصفات الورق (XPS) | تحويل أي مستند إلى XPS بدقة عالية. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| نص عادي (TXT) | استخراج النص بسهولة عن طريق الحفظ بتنسيق نص عادي. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| النشر الرقمي (EPUB) | EPUB هو تنسيق شائع لـ eBooks. يمكنك تحويل أي مستند من Aspose.Words إلى تنسيق IDPF EPUB. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
-### التوجيه والطباعة
+### التقديم والطباعة
 
-Aspose.Words ويوفر الآن درجة عالية من الإخلاص إصدار صفحات الوثائق.
+Aspose.Words يوفر الآن تقديم عالية الدقة من صفحات الوثيقة.
 
-|  Feature | Aspose.Words for Java | Aspose.Words for Android عبر Java |
-|  :-  |  :-  |  :-  |
-| وثيقة لكم في صفحات ذات خصوبة عالية (مثلا تماما) Microsoft WordSR. and do that) to all the formats below. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| تقديم صفحات فردية أو وثائق كاملة إلى قوات الدفاع الشعبي أو XPS. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Render document pages to raster images (Multipage TIFF, BMP). | {{< emoticons/tick >}} | {{< emoticons/cross >}} |
-| Render document pages to images (PNG, EMF, JPEG, GIF). | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| الصفحات ذات الصلة Java يعترض الرسم البياني على حجم محدد | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| صفحات الوثائق المطبوعة باستخدام Java الهياكل الأساسية للطباعة. | {{< emoticons/tick >}} | {{< emoticons/cross >}} |
-| آخر `TOC`, عدد الصفحات والمجالات الأخرى قبل إصدارها أو طباعتها. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| ميزة | Aspose.Words ل Java | Aspose.Words ل Android عبر Java |
+| :- | :- | :- |
+| تخطيط المستند إلى صفحات ذات دقة عالية (تماما مثل Microsoft Word® ستفعل ذلك) لجميع التنسيقات أدناه. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| تقديم صفحات فردية أو مستندات كاملة إلى PDF أو XPS. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| تقديم صفحات الوثيقة إلى الصور النقطية (متعدد الصفحات TIFF، BMP). | {{< emoticons/tick >}} | {{< emoticons/cross >}} |
+| تقديم صفحات المستند إلى الصور (PNG, EMF, JPEG, GIF). | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| تقديم الصفحات إلى Java كائن الرسومات إلى حجم معين. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| اطبع صفحات المستندات باستخدام البنية الأساسية للطباعة Java. | {{< emoticons/tick >}} | {{< emoticons/cross >}} |
+| تحديث `TOC` وأرقام الصفحات والحقول الأخرى قبل التقديم أو الطباعة. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
-### الوثائق
+### ميزات محتوى المستند
 
-Aspose.Words يوفر نموذجا للأجسام الغنية يتألف من أكثر من 100 صنف عام، مما يتيح لك إعداد الوثائق المحملة أو الجمع بينها أو تعديلها أو صياغتها أو النظر فيها بطريقة أخرى.
+Aspose.Words يوفر نموذج كائن غني يتكون من أكثر من 100 فئة عامة، والتي تسمح لك بإنشاء المستندات المحملة أو دمجها أو تعديلها أو تحليلها أو فحصها بطريقة برمجية.
 
-|  Feature | Aspose.Words for Java | Aspose.Words for Android عبر Java |
-|  :-  |  :-  |  :-  |
-| Access, create and modify paragraphs and text. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| الوصول إلى الصور وخلقها وتعديلها وصناديق النص والتشكيلات. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Access, create and modify tables, rows and cells. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| الوصول إلى الحقول، وخلقها وتعديلها، وتشكيل الحقول، والروابط الفائقة والعلامات الكتابية. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| :: الوصول إلى أقسام الوثائق، والرعاة، والأقدام، واستحداثها وتعديلها. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| الحصول على حواشي ومذكرات نهاية وتعليقات وخلقها وتعديلها. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Access, create and modify Custom XML, SmartTags and Structured Document Tags (Content Controls). | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| الوصول إلى جميع عناصر الوثائق وتعديلها باستخدام **XmlDocument** -مثل الصفوف والأساليب | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| آخر النتائج الميدانية `IF`, الصيغة والأنواع الميدانية الشائعة الأخرى. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| إعادة بناء وتحديث حقول جدول المحتويات تماما مثل Microsoft Word افعلها | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| نسخ ونقل عناصر وثيقة بين الوثائق. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| انضم وقسم الوثائق | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| الحصول على وضِعَة ممتلكات مستندات مُبَنية ومُعَدَّدة. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| تحديد حماية الوثائق، والوثائق المفتوحة المحمية والمشفوعة. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| البحث عن النص والاستعاضة عنه، مع ذكر محتوى الوثائق. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| تقبل جميع التنقيحات في الوثيقة. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Preserve or extract OLE objects and ActiveX controls from the document. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Preserve or remove VBA macros from the document. Preserve VBA macros digital signature. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| كشف التوقيعات الرقمية في الوثائق. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Insert HTML text. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| ميزة | Aspose.Words ل Java | Aspose.Words ل Android عبر Java |
+| :- | :- | :- |
+| الوصول وإنشاء وتعديل الفقرات والنص. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| الوصول إلى الصور ومربعات النص والأشكال وإنشائها وتعديلها. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| الوصول وإنشاء وتعديل الجداول والصفوف والخلايا. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| الوصول وإنشاء وتعديل الحقول وحقول النموذج والارتباطات التشعبية والإشارات المرجعية. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| الوصول وإنشاء وتعديل أقسام الوثيقة والرؤوس والتذييلات. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| الوصول إلى الحواشي السفلية والتعليقات الختامية والتعليقات وإنشائها وتعديلها. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| الوصول إلى وإنشاء وتعديل مخصص XML، SmartTags وعلامات المستندات المنظمة (عناصر التحكم في المحتوى). | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| الوصول وتعديل جميع عناصر المستند باستخدام **XmlDocument** - مثل الطبقات والأساليب. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| تحديث النتائج الميدانية `IF` والصيغة وأنواع الحقول الشائعة الأخرى. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| إعادة بناء وتحديث جدول المحتويات (TOC) الحقول تماما مثل Microsoft Word يفعل ذلك. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| نسخ ونقل عناصر المستند بين المستندات. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| الانضمام إلى المستندات وتقسيمها. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| الحصول على وتعيين المدمج في وخصائص وثيقة مخصصة. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| حدد حماية المستندات وافتح المستندات المحمية والمشفرة. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| ابحث عن النص واستبدله، وقم بتعداد محتوى المستند. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| اقبل جميع المراجعات في المستند. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| الحفاظ على أو استخراج OLE الكائنات وعناصر التحكم اكتف من المستند. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| حفظ أو إزالة VBA وحدات الماكرو من المستند. الحفاظ على VBA وحدات الماكرو التوقيع الرقمي. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| كشف التوقيعات الرقمية في المستندات. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| إدراج HTML النص. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
-### الوثيقة Formatting Features
+### ميزات تنسيق المستند
 
-Aspose.Words (ب) إتاحة فرص برنامجية مفصلة لتشكيل خصائص جميع عناصر الوثائق.
+Aspose.Words يوفر وصولا برمجيا مفصلا إلى خصائص التنسيق لجميع عناصر المستند.
 
-|  Feature | Aspose.Words for Java | Aspose.Words for Android عبر Java |
-|  :-  |  :-  |  :-  |
-| الوصول إلى جميع أشكال الشخصية وتعديلها، بما في ذلك العناوين والألوان والآثار والحدود والظلام. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Access and modify all paragraph formatting including indents, spacing, borders and shading, tab stops. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Access and modify all bulleted and numbered lists formatting including numbering and levels. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Access and modify table formatting including alignment, orientation, borders and shading. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| الوصول إلى جميع ممتلكات الأقسام وتعديلها بما في ذلك حجم الورق والهامش والتوجه. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| الوصول إلى أساليب الوثائق وخلقها وتعديلها. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| الوصول إلى أدوات الرسم وتعديلها، بما في ذلك الموقع، والحجم، والسطر، وملء الممتلكات، والصور الملتقطة. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| ميزة | Aspose.Words ل Java | Aspose.Words ل Android عبر Java |
+| :- | :- | :- |
+| قم بالوصول إلى جميع تنسيقات الأحرف وتعديلها بما في ذلك الخطوط والألوان والتأثيرات والحدود والتظليل. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| الوصول إلى وتعديل جميع تنسيق الفقرة بما في ذلك المسافات البادئة والتباعد والحدود والتظليل وتوقف علامات التبويب. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| الوصول إلى وتعديل جميع تنسيق القوائم النقطية والمرقمة بما في ذلك الترقيم والمستويات. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| الوصول إلى تنسيق الجدول وتعديله بما في ذلك المحاذاة والاتجاه والحدود والتظليل. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| الوصول إلى وتعديل جميع خصائص القسم بما في ذلك حجم الورق والهوامش والاتجاه. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| الوصول إلى أنماط المستندات وإنشائها وتعديلها. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| الوصول وتعديل الكائنات الرسم بما في ذلك الموقع والحجم والخط وملء الخصائص، بايت الصورة. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
-### Mail Merge المعالم
+### Mail Merge الميزات
 
-يمكنك استخدام Aspose.Words كحل للإبلاغ بمفرده. تصميم تقاريرك Microsoft Word وبعد ذلك Aspose.Words نشر الوثائق ببيانات من مختلف مصادر البيانات.
+يمكنك استخدام Aspose.Words كحل للإبلاغ من تلقاء نفسها. تصميم التقارير الخاصة بك في Microsoft Word ومن ثم يكون Aspose.Words ملء الوثائق مع البيانات من مصادر البيانات المختلفة.
 
 
 
-|  Feature | Aspose.Words for Java | Aspose.Words for Android عبر Java |
-|  :-  |  :-  |  :-  |
-| استخدام جميع المعايير Microsoft Word mail merge الميادين في تقاريركم بما في ذلك `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, رائع | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Execute mail merge الوثائق التي تحتوي حتى على أكثر الوثائق تعقيداً `IF` الحقول والصيغ | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| تداول ونمو ديناميكي للجداول أو الشظايا في الوثيقة من مصدر بياناتك باستخدام mail merge المناطق. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Easily generate reports that contain master-detail (parent-child) data such as Order/OrderDetails. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| نشر الوثائق مع البيانات من أي Java مصدر البيانات الذي ينفذ `ResultSet` واجهة | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| نشر الوثائق من أي مصدر بيانات مثل ملف XML أو أغراض تجارية عن طريق تنفيذ **IMailMergeDataSource** واجهة | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| تراقب بشكل دقيق، مثل تركيب الأرقام، على كيفية دمج بياناتك باستخدام الأحداث. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Insert images during mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| إنشاء أو تعديل برنامجي Microsoft Word mail merge مصدر البيانات لوثيقة Preserve mail merge البيئات ومصادر البيانات. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| الاسترجاع mail merge أسماء ميدانية | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| ميزة | Aspose.Words ل Java | Aspose.Words ل Android عبر Java |
+| :- | :- | :- |
+| استخدم جميع الحقول القياسية Microsoft Word Mail Merge في تقاريرك بما في ذلك `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| تنفيذ Mail Merge للمستندات التي تحتوي حتى على الحقول والصيغ `IF` الأكثر تعقيدا وتداخلا. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| قم بتعبئة الجداول أو الأجزاء في المستند وتنميتها ديناميكيا من مصدر البيانات باستخدام مناطق Mail Merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| بسهولة توليد التقارير التي تحتوي على سيد التفاصيل (الأم والطفل) البيانات مثل النظام/OrderDetails. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| تعبئة المستندات بالبيانات من أي مصدر بيانات Java ينفذ واجهة `ResultSet`. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| تعبئة المستندات من أي مصدر بيانات مثل ملف XML أو كائنات الأعمال من خلال تنفيذ واجهة **IMailMergeDataSource**. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| تحكم بدقة، مثل تنسيق الأرقام، في كيفية دمج بياناتك باستخدام الأحداث. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| إدراج الصور خلال mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| برمجيا إنشاء أو تعديل مصدر بيانات Microsoft Word Mail Merge لمستند. الحفاظ على Mail Merge الإعدادات ومصادر البيانات. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| استرداد Mail Merge أسماء الحقول. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
-### الإبلاغ
+### ميزات الإبلاغ
 
-LINQ ويعد الإبلاغ عن المهندس أداة إبلاغ متقدمة تمكّنكم من إعداد وثائق تستند إلى نماذج الوثائق والبيانات التي يتم الحصول عليها من مصادر مختلفة، بما في ذلك قواعد البيانات، وشركة XML، وشركة JSON، وشركة OData، وأشياء من النوع العرفي، والوثائق الخارجية، وأكثر من خارج الصندوق.
+LINQ محرك التقارير هو أداة إعداد تقارير متقدمة تمكنك من إنشاء مستندات بناء على مستندات القوالب والبيانات التي تم الحصول عليها من مصادر مختلفة بما في ذلك قواعد البيانات, XML, JSON, OData, كائنات من أنواع مخصصة، وثائق خارجية، وأكثر من خارج منطقة الجزاء.
 
-| السمات الرئيسية | Aspose.Words for .NET | Aspose.Words Android عبر Java |
-|  :-  |  :-  |  :-  |
-| دعم C# (د) أساليب التمديد في النماذج مباشرة (حتى فيما يتعلق بالنماذج) `ADO.NET` مصادر البيانات) | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| دعم لبنات الوثائق القابلة للتكرار والمشروطة (النهب والشروط) للجداول والقوائم والمحتوى المشترك | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| دعم الخرائط والصور المولدة ديناميا | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| دعم إدراج الوثائق الخارجية والحواجز الخاصة بشبكة HTML في وثيقة | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| دعم عدة مصادر بيانات (بما في ذلك الأنواع المختلفة) لإعداد وثيقة واحدة | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| دعم بناء علاقات البيانات (التجزئة الكبرى) | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| تقديم دعم شامل لمختلف عمليات التلاعب في البيانات، مثل التجميع، والفرز، والفرز، والتصفية، وغيرها مباشرة في النماذج | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| WYSIWYG: A generated document retains the same formatting of its elements as a corresponding template has | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| الميزات الرئيسية | Aspose.Words ل .NET | Aspose.Words Android عبر Java |
+| :- | :- | :- |
+| دعم C# بناء الجملة و LINQ طرق التمديد مباشرة في القوالب (حتى لمصادر البيانات `ADO.NET`) | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| دعم كتل المستندات القابلة للتكرار والشرطية (الحلقات والشروط) للجداول والقوائم والمحتوى الشائع | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| دعم الرسوم البيانية والصور التي تم إنشاؤها ديناميكيا | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| دعم إدراج المستندات الخارجية و HTML كتل في مستند | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| دعم العديد من مصادر البيانات (بما في ذلك أنواع مختلفة) لإنشاء مستند واحد | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| المدمج في دعم العلاقات البيانات (سيد التفاصيل) | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| دعم شامل لمختلف عمليات معالجة البيانات مثل التجميع والفرز والتصفية وغيرها مباشرة في القوالب | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| WYSIWYG: يحتفظ المستند الذي تم إنشاؤه بنفس تنسيق عناصره مثل القالب المقابل | {{< emoticons/tick >}} | {{< emoticons/tick >}} |

@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++での列と行の操作
 second_title: C++の場合Aspose.Words
 articleTitle: 列と行の操作
@@ -7,6 +7,7 @@ description: "C++を使用して、テーブルの一部（行、列、および
 type: docs
 weight: 30
 url: /ja/cpp/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 テーブルの動作をより詳細に制御するには、列と行を操作する方法を学習します。

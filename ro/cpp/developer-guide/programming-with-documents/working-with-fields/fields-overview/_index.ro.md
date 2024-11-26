@@ -1,4 +1,4 @@
-﻿---
+---
 title: Prezentare generală a câmpurilor în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Prezentare Generală A Câmpurilor
@@ -7,6 +7,7 @@ description: "Câmpurile sunt prezentate în detalii, coduri de câmp și rezult
 type: docs
 weight: 10
 url: /ro/cpp/fields-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words este o bibliotecă de clase concepută pentru procesarea pe partea de server a documentelor Microsoft Word și acceptă câmpuri în următoarele moduri:
@@ -173,9 +174,9 @@ Aspose.Words acceptă toate comutatoarele de formatare a datei și orei disponib
 
 ### Mail Merge câmpuri
 
-Aspose.Words nu impune nicio limită complexității câmpurilor mail merge din documentele dvs. și acceptă câmpurile imbricate `IF` și formula și poate chiar calcula numele câmpului de îmbinare folosind o formulă.
+Aspose.Words nu impune nicio limită complexității câmpurilor Mail Merge din documentele dvs. și acceptă câmpurile imbricate `IF` și formula și poate chiar calcula numele câmpului de îmbinare folosind o formulă.
 
-Câteva exemple de câmpuri mail merge pe care Aspose.Words le acceptă:
+Câteva exemple de câmpuri Mail Merge pe care Aspose.Words le acceptă:
 
 - Mail merge comutatoare de câmp:
 `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`

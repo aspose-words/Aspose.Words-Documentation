@@ -7,6 +7,7 @@ description: "Aspose.Words cho .NET cần bao nhiêu bộ nhớ để làm việ
 type: docs
 weight: 10
 url: /vi/net/memory-requirements/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words cung cấp nhiều tính năng để làm việc với các tài liệu ở nhiều định dạng khác nhau. Điều quan trọng cần lưu ý là không có giới hạn về kích thước tối đa của tệp tài liệu mà Aspose.Words có thể xử lý hoặc hiển thị. Hạn chế duy nhất là dung lượng RAM (bộ nhớ) có sẵn ở bên bạn.

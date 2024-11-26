@@ -7,6 +7,7 @@ description: "Firma digitalmente i documenti e rileva, conta, verifica e rimuovi
 type: docs
 weight: 40
 url: /it/python-net/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Una firma digitale viene utilizzata per autenticare un documento per stabilire che il mittente del documento è chi dice di essere e che il contenuto del documento non è stato manomesso.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrați cu coloane și rânduri în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Lucrați cu coloane și rânduri
@@ -7,6 +7,7 @@ description: "Lucrul cu părți ale unui tabel – rânduri, coloane și celule 
 type: docs
 weight: 30
 url: /ro/cpp/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Pentru mai mult control asupra modului în care funcționează tabelele, aflați cum să manipulați coloanele și rândurile.

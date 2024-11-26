@@ -7,6 +7,7 @@ type: docs
 description: "下载 Aspose.Words (单位:千美元) Java 我们的事例 GitHub 并学习如何运行它们,使其更熟悉 Aspose.Words 可能性和特征。"
 weight: 130
 url: /zh/java/how-to-run-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## 从 GitHub

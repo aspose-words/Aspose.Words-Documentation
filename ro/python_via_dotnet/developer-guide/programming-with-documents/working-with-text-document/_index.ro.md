@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu documentul Text
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Lucrul cu documentul Text
@@ -7,6 +7,7 @@ description: "Lucrați cu un document text și modificați obiectele acestuia fo
 type: docs
 weight: 430
 url: /ro/python-net/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 În acest articol, vom afla ce opțiuni pot fi utile pentru lucrul cu un document text prin Aspose.Words. Vă rugăm să rețineți că aceasta nu este o listă completă a opțiunilor disponibile, ci doar un exemplu de lucru cu unele dintre ele.

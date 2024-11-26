@@ -7,6 +7,7 @@ description: "使用 Python 创建和管理文档中的节和分节符。将节�
 type: docs
 weight: 120
 url: /zh/python-net/working-with-sections/
+timestamp: 2024-09-25-11-08-55
 ---
 
 有时您希望文档的所有页面都具有不同的格式。例如，您可能需要修改页码格式、具有不同的页面大小和方向，或者将文档首页作为封面而不进行任何编号。您可以通过部分来实现这一点。

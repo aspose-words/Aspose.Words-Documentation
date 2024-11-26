@@ -7,6 +7,7 @@ description: "How to deactivate the Aspose.Words for SharePoint after installati
 type: docs
 weight: 40
 url: /sharepoint/activation-and-deactivation-after-installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 During installation, Aspose.Words for SharePoint is activated for all selected web applications. After installation, SharePoint administrator can use the Central Administration utility to activate and deactivate Aspose.Words for SharePoint. Use the **Manage Web Application Features** option under **Application Management** to activate and deactivate Aspose.Words for SharePoint after installation.

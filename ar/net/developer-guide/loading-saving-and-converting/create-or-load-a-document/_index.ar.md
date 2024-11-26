@@ -8,6 +8,7 @@ url: /ar/net/create-or-load-a-document/
 description: "قم بإنشاء مستند فارغ أو تحميله من ملف أو دفق باستخدام C#."
 keywords: "create a document c#, load a document c#, create a blank document c#, load a document from file c#, load a document from stream c#, create a document Aspose .NET, load a document Aspose .NET, load formats supported by Aspose.Words .NET"
 weight: 10
+timestamp: 2024-07-09-19-00-42
 ---
 
 تقريبًا أي مهمة تريد تنفيذها باستخدام Aspose.Words تتضمن تحميل مستند. تمثل فئة `Document` مستندًا تم تحميله في الذاكرة. يحتوي المستند على العديد من المُنشئات المحملة بشكل زائد مما يسمح لك بإنشاء مستند فارغ أو تحميله من ملف أو دفق. يمكن تحميل المستند بأي تنسيق تحميل يدعمه Aspose.Words. للحصول على قائمة بجميع تنسيقات التحميل المدعومة، راجع تعداد [LoadFormat](https://reference.aspose.com/words/ar/net/aspose.words/loadformat/).

@@ -1,216 +1,154 @@
----
-title: Trabajo con Tabla de Contenidos en Java
-second_title: Aspose.Words para Java
-articleTitle: Trabajar con el Cuadro de Contenidos
-linktitle: Trabajar con el Cuadro de Contenidos
-description: "Tabla de contenidos en detalles. Cómo crear y modificar `TOC` campo utilizando Java."
+﻿---
+title: Trabajar con la Tabla de contenido en Java
+second_title: Aspose.Words por Java
+articleTitle: Trabajar con la Tabla de Contenido
+linktitle: Trabajar con la Tabla de Contenido
+description: "Tabla de campo de contenido en detalles. Cómo crear y modificar el campo `TOC` usando Java."
 type: docs
 weight: 170
 url: /es/java/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
-A menudo trabajará con documentos que contienen una tabla de contenidos (TOC). Uso Aspose.Words puede insertar su propia tabla de contenidos o reconstruir completamente la tabla de contenidos existente en el documento utilizando sólo algunas líneas de código.
+A menudo, trabajará con documentos que contengan una tabla de contenido (TOC). Usando Aspose.Words puede insertar su propia tabla de contenido o reconstruir completamente la tabla de contenido existente en el documento usando solo unas pocas líneas de código.
 
-Este artículo describe cómo trabajar con la tabla de contenidos y demuestra:
+Este artículo describe cómo trabajar con el campo tabla de contenido y demuestra:
 
-- Cómo insertar un nuevo TOC.
-- Actualizar los COT nuevos o existentes en el documento.
-- Especifique los interruptores para controlar el formato y la estructura general del TOC.
-- Cómo modificar los estilos y la apariencia de la tabla de contenidos.
-- Cómo quitar un todo `TOC` campo junto con todas las entradas del documento.
+- Cómo insertar un TOC nuevo.
+- Actualice TOCs nuevo o existente en el documento.
+- Especifique modificadores para controlar el formato y la estructura general del TOC.
+- Cómo modificar los estilos y la apariencia de la tabla de contenido.
+- Cómo eliminar un campo `TOC` completo junto con todas las entradas del documento.
 
-## Insertar tabla de contenidos programáticamente
+## Insertar Tabla de Contenido mediante Programación
 
-Puede insertar un `TOC` (tabla de contenidos) campo en el documento en la posición actual llamando al [InsertTableOfContents](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertTableOfContents-java.lang.String) método.
+Puede insertar un campo `TOC` (tabla de contenido) en el documento en la posición actual llamando al método [InsertTableOfContents](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertTableOfContents-java.lang.String).
 
-Una tabla de contenidos en un documento de Word se puede construir de varias maneras y formatear utilizando una variedad de opciones. El campo cambia que pasa al método controla la forma en que se construye la tabla y se muestra en su documento.
+Una tabla de contenido en un documento de Word se puede crear de varias maneras y formatearse usando una variedad de opciones. Los interruptores de campo que pasa al método controlan la forma en que se crea y se muestra la tabla en su documento.
 
-Los interruptores predeterminados que se utilizan en un `TOC` insertado en Microsoft Word son **"\o "1-3 \h \z \u"**. Las descripciones de estos interruptores así como una lista de interruptores soportados se pueden encontrar más adelante en el artículo. Usted puede utilizar esa guía para obtener los interruptores correctos o si ya tiene un documento que contiene el similar `TOC` que usted desea puede mostrar códigos de campo (*ALT+F9*) y copiar los interruptores directamente desde el campo.
+Los modificadores predeterminados que se utilizan en un `TOC` insertado en Microsoft Word son **"\o "1-3 \h \z \u"**. Las descripciones de estos conmutadores, así como una lista de conmutadores compatibles, se pueden encontrar más adelante en el artículo. Puede usar esa guía para obtener los interruptores correctos o, si ya tiene un documento que contiene el `TOC` similar que desea, puede mostrar los códigos de campo (*ALT+F9*) y copiar los interruptores directamente desde el campo.
 
-El siguiente ejemplo de código muestra cómo insertar un campo Tabla de contenidos en un documento:
+El siguiente ejemplo de código muestra cómo insertar un campo de tabla de contenido en un documento:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-InsertATableOfContentsField.java" >}}
 
-El siguiente ejemplo de código muestra cómo insertar una tabla de contenidos (TOC) en un documento utilizando estilos de encabezado como entradas:
+El siguiente ejemplo de código demuestra cómo insertar una tabla de contenido (TOC) en un documento utilizando estilos de encabezado como entradas:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsUsingHeadingStyles-InsertATableOfContentsUsingHeadingStyles.java" >}}
 
-El código muestra que la nueva tabla de contenidos se inserta en un documento en blanco. El [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) clase se utiliza para insertar algunos formatos de contenido de muestra con los estilos de encabezado apropiados que se utilizan para marcar el contenido que se incluirá en el TOC. Las siguientes líneas luego poblan `TOC` actualizando los campos y el diseño de la página del documento.
+El código demuestra que la nueva tabla de contenido se inserta en un documento en blanco. La clase [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) se usa luego para insertar un formato de contenido de muestra con los estilos de encabezado apropiados que se usan para marcar el contenido que se incluirá en TOC. Las siguientes líneas luego completan `TOC` actualizando los campos y el diseño de página del documento.
 
 ![insert-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-1.png)
 
 {{% alert color="primary" %}}
 
-Sin los métodos utilizados en el ejemplo, cuando abra el documento de salida, encontrará el `TOC` campo, pero sin contenido visible. Esto es porque el `TOC` campo se ha insertado pero aún no está poblado hasta que se actualiza en el documento. Más información sobre esto se examina en la siguiente sección.
+Sin los métodos utilizados en el ejemplo, cuando abra el documento de salida, encontrará el campo `TOC`, pero sin contenido visible. Esto se debe a que el campo `TOC` se insertó pero aún no se completa hasta que se actualice en el documento. Más información sobre esto se analiza en la siguiente sección.
 
 {{% /alert %}}
 
-## Tabla actualizada de contenidos
+## Actualizar Tabla de Contenido
 
-Aspose.Words le permite actualizar completamente a `TOC` con sólo unas pocas líneas de código. Esto se puede hacer para poblar un recién insertado `TOC` o para actualizar una `TOC` después de que se hayan introducido cambios en el documento.
+Aspose.Words le permite actualizar completamente un `TOC` con solo unas pocas líneas de código. Esto se puede hacer para rellenar un `TOC` recién insertado o para actualizar un `TOC` existente después de que se hayan realizado cambios en el documento.
 
-Los siguientes dos métodos deben utilizarse para actualizar los `TOC` en el documento:
+Se deben utilizar los dos métodos siguientes para actualizar los campos `TOC` en el documento:
 
 1. [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/Document#updateFields())
 1. [Document.updatePageLayout()](https://reference.aspose.com/words/java/com.aspose.words/Document#updatePageLayout())
 
-Tenga en cuenta que estos dos métodos de actualización deben ser llamados en ese orden. Si se revierte la tabla de contenidos se poblará pero no se mostrarán números de página. Cualquier número de COT diferentes puede ser actualizado. Estos métodos actualizarán automáticamente todos los TOC encontrados en el documento.
+Tenga en cuenta que es necesario llamar a estos dos métodos de actualización en ese orden. Si se invierte, se completará la tabla de contenido, pero no se mostrarán los números de página. Se puede actualizar cualquier número de TOCs diferentes. Estos métodos actualizarán automáticamente todos los TOCs encontrados en el documento.
 
-El siguiente ejemplo de código muestra cómo reconstruir completamente `TOC` campos en el documento invocando actualizaciones de campo:
+El siguiente ejemplo de código muestra cómo reconstruir completamente los campos `TOC` en el documento invocando actualizaciones de campo:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-UpdateTableOfContents.java" >}}
 
-La primera llamada a [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) construirá el <span notrans="<span notrans=" `TOC`"=""></span>," todas las entradas de texto están pobladas y `TOC` parece casi completo. Lo único que falta es los números de página que por ahora se muestran con "?".
+La primera llamada a [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) generará `TOC`, se completarán todas las entradas de texto y `TOC` aparecerá casi completo. Lo único que falta son los números de página que por ahora se muestran con "?".
 
-La segunda llamada a [Document.updatePageLayout()](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout) construirá el diseño del documento en memoria. Esto debe hacerse para reunir los números de página de las entradas. Los números de página correctos calculados a partir de esta llamada se insertan en el TOC.
+La segunda llamada a [Document.updatePageLayout()](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout) creará el diseño del documento en la memoria. Esto debe hacerse para recopilar los números de página de las entradas. Los números de página correctos calculados a partir de esta llamada se insertan luego en TOC.
 
-## Use Switches para Controlar Tabla de Comportamiento de Contenido
+## Utilice Interruptores para Controlar el Comportamiento de la Tabla de Contenido
 
-Como con cualquier otro campo, el `TOC` campo puede aceptar interruptores definidos dentro del código de campo que controla cómo se construye la tabla de contenidos. Algunos interruptores se utilizan para controlar qué entradas están incluidas y a qué nivel, mientras que otros se utilizan para controlar la apariencia del TOC. Los interruptores pueden combinarse para permitir que se produzca una tabla compleja de contenidos.
+Al igual que con cualquier otro campo, el campo `TOC` puede aceptar modificadores definidos dentro del código de campo que controla cómo se crea la tabla de contenido. Ciertos interruptores se usan para controlar qué entradas se incluyen y a qué nivel, mientras que otros se usan para controlar la apariencia del TOC. Los interruptores se pueden combinar entre sí para permitir que se produzca una tabla de contenido compleja.
 
 ![ccontrol-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-2.png)
 
 
-Por defecto, estos interruptores arriba se incluyen al insertar un defecto `TOC` en el documento. A `TOC` sin interruptores incluirá contenido de los estilos de encabezado incorporados (como si se establece el interruptor \O).
+De forma predeterminada, estos modificadores anteriores se incluyen al insertar un `TOC` predeterminado en el documento. Un `TOC` sin modificadores incluirá contenido de los estilos de encabezado incorporados (como si el modificador \O estuviera configurado).
 
-Disponibilidad `TOC` interruptores compatibles con Aspose.Words se enumeran a continuación y sus usos se describen en detalle. Pueden dividirse en secciones separadas basadas en su tipo. Los interruptores en la primera sección definen qué contenido incluir en el `TOC` y los interruptores en la segunda sección controlan la apariencia del TOC.
+Los modificadores `TOC` disponibles que son compatibles con Aspose.Words se enumeran a continuación y sus usos se describen en detalle. Se pueden dividir en secciones separadas según su tipo. Los interruptores de la primera sección definen qué contenido incluir en `TOC` y los interruptores de la segunda sección controlan la apariencia de TOC.
 
-Si un interruptor no está listado aquí, entonces actualmente no está soportado. Todos los conmutadores serán compatibles en versiones futuras. Estamos agregando más apoyo a cada lanzamiento.
+Si un conmutador no aparece en la lista aquí, entonces actualmente no es compatible. Todos los conmutadores serán compatibles en futuras versiones. Estamos agregando más soporte a cada lanzamiento.
 
-### Interruptores de marcado de entrada
+### Interruptores de Marcado de Entrada
 
-|  Cambio | Descripción |
-|  :-  |  :-  |
-| **Heading Styles** <br/> *(\O Switch)* <br/> | <p>Este interruptor define que `TOC` debe construirse fuera de los estilos de encabezado incorporados. In Microsoft Word, estos son definidos por Heading 1 – Heading 9. In Aspose.Words estos estilos están representados por la correspondiente enumeración de StyleIdentifier. Esta enumeración representa un identificador local-independiente de un estilo, por ejemplo, `StyleIdentifier.Heading1` representa el estilo Heading 1. Utilizando esto, el formato y las propiedades del estilo se pueden recuperar de la colección Estilo del documento. La clase correspondiente del estilo se puede recuperar de la `Document.Styles` colección utilizando la propiedad indexada del tipo StyleIdentifier.</p>
+| Interruptor | Descripción |
+| :- | :- |
+| **Heading Styles** <br>* (\O Interruptor)* <br> | <p>Este modificador define que `TOC` debe construirse a partir de los estilos de encabezado incorporados. En Microsoft Word, estos se definen por Heading 1 – Heading 9. En Aspose.Words estos estilos están representados por la enumeración StyleIdentifier correspondiente. Esta enumeración representa un identificador independiente de la configuración regional de un estilo, por ejemplo, `StyleIdentifier.Heading1` representa el estilo Heading 1. Con esto, el formato y las propiedades del estilo se pueden recuperar de la colección de estilos del documento. La clase de estilo correspondiente se puede recuperar de la colección `Document.Styles` utilizando la propiedad indexada de tipo StyleIdentifier.</p><p>![style-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-3.png)</p><p><br><br>Cualquier contenido formateado con estos estilos se incluye en la tabla de contenido. El nivel del encabezado definirá el nivel jerárquico correspondiente de la entrada en el TOC. Por ejemplo, un párrafo con estilo Heading 1 se tratará como el primer nivel en el `TOC`, mientras que un párrafo con Heading 2 se tratará como el siguiente nivel en la jerarquía, y así sucesivamente.</p> |
+| **Outline Levels** <br>* (Interruptor\U)* <br> | <p>Cada párrafo puede definir un nivel de esquema en Opciones de párrafo.</p><p>![modify-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-4.png)</p><p><br><br>Esta configuración determina qué nivel debe tratarse este párrafo en la jerarquía del documento. Esta es una práctica comúnmente utilizada para estructurar fácilmente el diseño de un documento. Esta jerarquía se puede ver cambiando a Vista de esquema en Microsoft Word. De manera similar a los estilos de encabezado, puede haber de 1 a 9 niveles de esquema además del nivel de "Texto del cuerpo". Los niveles de esquema 1 – 9 aparecerán en el `TOC` en el nivel correspondiente de la jerarquía <br>Cualquier contenido con un nivel de esquema establecido en el estilo de párrafo o directamente en el párrafo mismo se incluye en TOC. En Aspose.Words, el nivel de esquema está representado por la propiedad `ParagraphFormat.OutlineLevel` del nodo Párrafo. El nivel de contorno de un estilo de párrafo se representa de la misma manera mediante la propiedad `Style.ParagraphFormat`.</p><p>{{% alert color="primary" %}}</p><p>Tenga en cuenta que los estilos de encabezado integrados, como Heading 1, tienen un nivel de esquema obligatorio establecido en configuración de estilo.</p><p>{{% /alert %}}</p> |
+| **Custom Styles** <br>* (\T interruptor)* <br> | <p>Este modificador permitirá utilizar estilos personalizados al recopilar entradas que se utilizarán en TOC. Esto se usa a menudo junto con el modificador \O para incluir estilos personalizados junto con estilos de encabezado integrados en TOC. <br>Los parámetros del interruptor deben incluirse dentro de las marcas de voz. Se pueden incluir muchos estilos personalizados, para cada estilo, se debe especificar el nombre seguido de una coma seguida del nivel en el que debe aparecer el estilo en `TOC`. Otros estilos también están separados por una coma. <br>Por ejemplo</p><p>{{< highlight csharp >}}
+{ TOC \o "1-3" \t "CustomHeading1, 1,   CustomHeading2, 2"}{{< /highlight >}}</p><p>usará contenido con estilo CustomHeading1 como contenido de nivel 1 en `TOC` y CustomHeading2 como nivel 2.</p> |
+| Utilice TC Campos <br>* (Interruptores \F y \ L)* <br> | <p>En versiones anteriores de Microsoft Word, la única forma de crear un `TOC` era el uso de TC campos. Estos campos se insertan ocultos en el documento incluso cuando se muestran los códigos de campo. Incluyen el texto que debe mostrarse en la entrada y el `TOC` se construye a partir de ellos. Esta funcionalidad ahora no se usa con mucha frecuencia, pero aún puede ser útil en algunas ocasiones para incluir entradas en el `TOC` que no están sangradas para que sean visibles en el documento. <br>Cuando se insertan, estos campos aparecen ocultos incluso cuando se muestran los códigos de campo. No se pueden ver sin mostrar contenido oculto. Para ver estos campos Mostrar formato de párrafo debe estar seleccionado.</p><p>![setup-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-5.png)</p><p>Estos campos se pueden insertar en un documento en cualquier posición como cualquier otro campo y están representados por la enumeración `FieldType.FieldTOCEntry`.<br>El modificador \F en `TOC` se usa para especificar que los campos TC se deben usar como entradas. El interruptor por sí solo sin ningún identificador adicional significa que se incluirá cualquier campo TC en el documento. Cualquier parámetro adicional, a menudo una sola letra, designará que solo los TC campos que tengan un modificador \f coincidente se incluirán en el TOC. Por ejemplo *</p><p>{{< highlight csharp >}}
+{ TOC \f t }{{< /highlight >}}</p><p>solo incluirá TC campos como</p><p>{{< highlight csharp >}}
+{ TC \f t }{{< /highlight >}}</p><p>El campo `TOC` también tiene un modificador relacionado, el modificador" \L " especifica que solo se incluyen los campos TC con niveles dentro del rango especificado.</p><p>![table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-6.png)</p><p><br><br>Los `TC` campos en sí mismos también pueden tener `{several, multiple, a few, many, numerous}` conmutadores configurados. Estos son:</p><p>– \ F-Explicado anteriormente.*</p><p>– \ L-Define en qué nivel del `TOC` aparecerá este campo TC. Un `TOC` que use este mismo modificador solo incluirá este campo TC si está dentro del rango especificado.</p><p>- `_\N` - No se muestra la numeración de páginas de esta entrada `TOC`.En la siguiente sección se puede encontrar un código de muestra de cómo insertar los campos TC.</p> |
 
-<p>![style-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-3.png)</p>
+### Interruptores Relacionados con la Apariencia
 
-<p><br/><br/>Cualquier contenido formateado con estos estilos se incluye en la tabla de contenidos. El nivel de la partida definirá el nivel jerárquico correspondiente de la entrada en el TOC. Por ejemplo, un párrafo con el estilo Heading 1 será tratado como el primer nivel en el `TOC` mientras que un párrafo con el encabezado 2 será tratado como el siguiente nivel en la jerarquía y así sucesivamente.</p>
- |
-| **Outline Levels** <br/> *(\U switch)* <br/> | <p>Cada párrafo puede definir un nivel de esbozo en las opciones del párrafo.</p>
+| Interruptor | Descripción |
+| :- | :- |
+| **Omit Page Numbers** <br>* (\N Interruptor)* | <p>Este modificador se usa para ocultar los números de página de ciertos niveles de TOC. Por ejemplo, puede definir</p><p>{{< highlight csharp >}}
+{TOC \o "1-4" \n "3-4" }{{< /highlight >}}</p><p>y los números de página en las entradas de los niveles 3 y cuatro estarán ocultos junto con los puntos de referencia (si los hay). Para especificar solo un nivel, aún se debe usar un rango, por ejemplo, "1-1" excluirá los números de página solo para el primer nivel. <br>Si no se proporciona ningún rango de nivel, se omitirán los números de página de todos los niveles en TOC. Es útil configurarlo al exportar un documento a HTML o un formato similar. Esto se debe a que los formatos basados en HTML no tienen ningún concepto de página y, por lo tanto, no necesitan numeración de páginas.</p><p>![table-of-contents-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-7.png)</p> |
+| Insertar Como Hipervínculos <br>* (Interruptor\H)* | <p>Este modificador especifica que las entradas `TOC` se inserten como hipervínculos. Al ver un documento en Microsoft Word, estas entradas seguirán apareciendo como texto normal dentro de `TOC`, pero están hipervinculadas y, por lo tanto, se pueden usar para navegar a la posición de la entrada original en el documento usando *Ctrl + Left Click* en Microsoft Word. Cuando se incluye este interruptor, estos enlaces también se conservan en otros formatos. Por ejemplo, en formatos basados en HTML, incluidos EPUB y formatos renderizados como PDF y XPS, estos se exportarán como enlaces de trabajo. <br>Sin este modificador configurado, el `TOC` en todas estas salidas se exportará como texto sin formato y no demostrará este comportamiento. Si se abre un documento en MS Word, tampoco se podrá hacer clic en el texto de las entradas de esta manera, pero los números de página aún se pueden usar para navegar a la entrada original.</p><p>![tree-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-8.png)</p> |
+| **Set Separator Character** <br>* (Interruptor \ P)* <br> | <p>Este modificador permite cambiar fácilmente el contenido que separa el título de la entrada y la numeración de las páginas en TOC. El separador a utilizar debe especificarse después de este interruptor y encerrarse en marcas de voz. <br>Al contrario de lo que está documentado en la documentación de Office, solo se puede usar un carácter en lugar de hasta cinco. Esto se aplica tanto a MS Word como a Aspose.Words. <br>No se recomienda usar este modificador, ya que no permite mucho control sobre lo que se usó para separar las entradas y los números de página en TOC. En su lugar, se recomienda editar el estilo `TOC` apropiado, como `StyleIdentifier.TOC1`, y desde allí editar el estilo principal con acceso a miembros de fuente específicos, etc. Más detalles sobre cómo hacer esto se pueden encontrar más adelante en el artículo.</p><p>![list-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-9.png)</p> |
+| **Preserve Tab Entries** <br>* (Interruptor\W)* | <p>El uso de este modificador especificará que cualquier entrada que tenga un carácter de tabulación, por ejemplo, un encabezado que tenga una tabulación al final de la línea, se mantendrá como un carácter de tabulación adecuado al completar TOC. Esto significa que la función del carácter de tabulación estará presente en `TOC` y se puede usar para formatear la entrada. Por ejemplo, ciertas entradas pueden usar tabulaciones y caracteres de tabulación para espaciar uniformemente el texto. Siempre que el nivel `TOC` correspondiente defina las tabulaciones equivalentes, las entradas `TOC` generadas aparecerán con un espaciado similar. <br><br>En la misma situación, si este modificador no estuviera definido, los caracteres de tabulación se convertirían en espacios en blanco equivalentes a pestañas que no funcionan. Entonces, la salida no aparecería como se esperaba.</p><p>![tab-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-10.png)</p> |
+| **Preserve New Line Entries** <br>* (\X Interruptor)* <br> | <p>De manera similar al modificador anterior, este modificador especifica que los encabezados que abarcan varias líneas (utilizando caracteres de nueva línea, no párrafos separados) se conservarán tal como están en el TOC generado. Por ejemplo, un encabezado que se distribuirá en varias líneas puede usar el carácter de nueva línea (Ctrl + Enter o `ControlChar.LineBreak`) para separar el contenido en diferentes líneas. Con este modificador especificado, la entrada en `TOC` conservará estos nuevos caracteres de línea como se muestra a continuación. <br><br>En esta situación, si el modificador no está definido, los nuevos caracteres de línea se convierten en un solo espacio en blanco.</p><p>![tab-space-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-11.png)</p> |
 
-<p>![modify-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-4.png)</p>
+## Insertar TC campos
 
-<p><br/><br/>Esta configuración dicta qué nivel debe tratar este párrafo en la jerarquía de documentos. Esta es una práctica común utilizada para estructurar fácilmente el diseño de un documento. Esta jerarquía se puede ver cambiando a la vista Esquemática en Microsoft Word. Similar a los estilos de encabezado, puede haber 1 – 9 niveles de contorno además del nivel de "Body Text". Niveles de esbozo 1 – 9 aparecerán en `TOC` en el nivel correspondiente de la jerarquía <br/>Todo contenido con un nivel de esbozo fijado en el estilo del párrafo o directamente en el propio párrafo se incluye en el TOC. In Aspose.Words el nivel del esbozo está representado por el `ParagraphFormat.OutlineLevel` propiedad del nodo del párrafo. El nivel de esbozo de un estilo de párrafo está representado de la misma manera por el `Style.ParagraphFormat` propiedad.</p>
+Puede insertar un nuevo campo TC en la posición actual del `DocumentBuilder` llamando al método `DocumentBuilder.InsertField` y especificando el nombre del campo como "TC " junto con los modificadores necesarios.
 
-<p>{{% alert color="primary" %}}</p>
-
-<p>Tenga en cuenta que estilos de encabezado incorporados como Heading 1 tienen un nivel de contorno obligatorio establecido en ajustes de estilo.</p>
-
-<p>{{% /alert %}}</p>
- |
-| **Custom Styles** <br/> *(\T switch)* <br/> | <p>Este interruptor permitirá que los estilos personalizados se utilicen cuando se recogen entradas para ser utilizadas en el TOC. Esto se utiliza a menudo junto con el interruptor \O para incluir estilos personalizados junto con estilos de encabezado incorporados en el TOC. <br/>Los parámetros del interruptor deben estar encerrados dentro de las marcas del discurso. Muchos estilos personalizados se pueden incluir, para cada estilo, el nombre debe ser especificado seguido por una coma seguido por el nivel que el estilo debe aparecer en el `TOC` como. Otros estilos también están separados por un coma también. <br/>Por ejemplo</p>
-
-<p>{{< highlight csharp >}}
-{ TOC \o "1-3" \t "CustomHeading1, 1,   CustomHeading2, 2"}{{< /highlight >}}</p>
-
-<p>utilizará contenido estilo con CustomHeading1 como contenido de nivel 1 en el `TOC` y CustomHeading2 como nivel 2.</p>
- |
-| Use TC Fields <br/> *(\F y \L Switches)* <br/> | <p>En versiones anteriores de Microsoft Word, la única manera de construir un `TOC` era el uso de campos TC. Estos campos se insertan escondidos en el documento incluso cuando se muestran los códigos de campo. Incluyen el texto que debe mostrarse en la entrada y en la `TOC` está construido de ellos. Esta funcionalidad no se utiliza ahora muy a menudo, pero puede ser útil en algunas ocasiones para incluir entradas en las `TOC` que no están identificados para ser visibles en el documento. <br/>Cuando se insertan estos campos aparecen ocultos incluso cuando se muestran los códigos de campo. No se pueden ver sin mostrar contenido oculto. Para ver estos campos Mostrar el formato del párrafo debe ser seleccionado.</p>
-
-<p>![setup-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-5.png)</p>
-
-<p>Estos campos se pueden insertar en un documento en cualquier posición como cualquier otro campo y están representados por el `FieldType.FieldTOCEntry` enumeración.<br/>El interruptor \F en un `TOC` se utiliza para especificar que los campos TC deben ser utilizados como entradas. El interruptor en su propio sin ningún identificador adicional significa que cualquier campo de TC en el documento será incluido. Cualquier parámetro adicional, a menudo una sola carta, designará que sólo los campos TC que tengan un interruptor \f coincidente serán incluidos en el TOC. Por ejemplo *</p>
-
-<p>{{< highlight csharp >}}
-{ TOC \f t }{{< /highlight >}}</p>
-
-<p>sólo incluirá campos TC como</p>
-
-<p>{{< highlight csharp >}}
-{ TC \f t }{{< /highlight >}}</p>
-
-<p>El `TOC` campo también tiene un interruptor relacionado, el interruptor "\L" especifica que sólo el campo TC con niveles dentro del rango especificado están incluidos.</p>
-
-<p>![table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-6.png)</p>
-
-<p><br/><br/>El `TC` campos ellos también pueden tener {several, `multiple`, a few, `many`, numerous} interruptores fijados. Estos son:</p>
-
-<p>- Explicado arriba. *</p>
-
-<p>- \L - Define qué nivel en el `TOC` este campo TC aparecerá en. A `TOC` que utiliza este mismo interruptor sólo incluirá este campo TC si está dentro del rango especificado.</p>
-
-<p>- _\N – La pagina numeración para esto `TOC` no se muestra la entrada. Código de muestra de cómo insertar campos TC se puede encontrar en la siguiente sección.</p>
- |
-
-### Apariencia Cambios relacionados
-
-|  Cambio | Descripción |
-|  :-  |  :-  |
-| **Omit Page Numbers** <br/> *(\N Switch)* | <p>Este interruptor se utiliza para ocultar números de página para ciertos niveles del TOC. Por ejemplo, puede definir</p>
-
-<p>{{< highlight csharp >}}
-{TOC \o "1-4" \n "3-4" }{{< /highlight >}}</p>
-
-<p>y los números de página en las entradas de los niveles 3 y cuatro serán ocultos junto con los puntos líderes (si hay alguno). Para especificar sólo un nivel se debe utilizar un rango, por ejemplo, "1-1" excluye los números de página sólo para el primer nivel. <br/>El suministro de ningún rango de nivel omitirá números de página para todos los niveles en el TOC. Esto es útil para establecer al exportar un documento a HTML o un formato similar. Esto se debe a que los formatos basados en HTML no tienen ningún concepto de página y por lo tanto no necesita ninguna numeración de página.</p>
-
-<p>![table-of-contents-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-7.png)</p>
- |
-| Insertar como hipervínculos <br/> *(\H Switch)* | <p>Este interruptor especifica que `TOC` las entradas se insertan como hipervínculos. Al ver un documento en Microsoft Word estas entradas todavía aparecerán como texto normal dentro del `TOC` pero están hiperenlazados y por lo tanto se puede utilizar para navegar a la posición de la entrada original en el documento utilizando *Ctrl + Left Click* in Microsoft Word. Cuando se incluye este interruptor, estos enlaces también se conservan en otros formatos. Por ejemplo, en formatos basados en HTML, incluyendo EPUB y formatos renderizados como PDF y XPS, estos serán exportados como enlaces de trabajo. <br/>Sin este interruptor, el `TOC` en todas estas salidas serán exportadas como texto simple y no demostrarán este comportamiento. Si un documento se abre en MS Word, el texto de las entradas tampoco será clicable de esta manera, pero los números de la página todavía se pueden utilizar para navegar a la entrada original.</p>
-
-<p>![tree-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-8.png)</p>
- |
-| **Set Separator Character** <br/> *(\P Switch)* <br/> | <p>Este interruptor permite que el contenido que separa el título de la entrada y numeración de página se cambie fácilmente en el TOC. El separador a utilizar debe ser especificado después de este interruptor y encerrado en las marcas del habla. <br/>Contrariamente a lo que se documenta en la documentación de Office, sólo se puede utilizar un personaje en lugar de hasta cinco. Esto se aplica tanto a MS Word como a Aspose.Words. <br/>Utilizar este interruptor no se recomienda ya que no permite mucho control sobre lo que utilizó para separar entradas y números de página en el TOC. En su lugar, se recomienda editar lo apropiado `TOC` estilo como `StyleIdentifier.TOC1` y desde allí editar el estilo líder con acceso a los miembros de fuentes específicos, etc. Más detalles de cómo hacer esto se pueden encontrar más adelante en el artículo.</p>
-
-<p>![list-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-9.png)</p>
- |
-| **Preserve Tab Entries** <br/> *(\W Switch)* | <p>Utilizando este interruptor se especificará que cualquier entrada que tenga un personaje de pestaña, por ejemplo, un título que tenga una pestaña al final de la línea, se mantendrá como un personaje de pestaña adecuado cuando popule el TOC. Esto significa que la función del personaje de la pestaña estará presente en el `TOC` y se puede utilizar para formatear la entrada. Por ejemplo, algunas entradas pueden usar paradas de pestañas y caracteres de pestañas para espacio uniformemente el texto. Mientras que el correspondiente `TOC` nivel define la pestaña equivalente para entonces el generado `TOC` entradas aparecerán con un espaciado similar. <br/><br/>En la misma situación si este interruptor no se definió entonces los caracteres de la pestaña se convertirían a espacio blanco equivalente como pestañas no funcionales. El producto no aparecería como se esperaba.</p>
-
-<p>![tab-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-10.png)</p>
- |
-| **Preserve New Line Entries** <br/> *(\X Switch)* <br/> | <p>Al igual que el interruptor anterior, este interruptor especifica que las partidas que abarcan varias líneas (utilizando caracteres de nueva línea, no párrafos separados) se conservarán como están en el TOC generado. Por ejemplo, un encabezamiento que se disemina a través de múltiples líneas puede utilizar el nuevo carácter de línea (Ctrl + Enter o `ControlChar.LineBreak`) para separar el contenido en diferentes líneas. Con este interruptor especificado, la entrada en el `TOC` preservará estos nuevos caracteres de línea como se muestra a continuación. <br/><br/>En esta situación, si el interruptor no se define entonces los nuevos caracteres de línea se convierten a un solo espacio blanco.</p>
-
-<p>![tab-space-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-11.png)</p>
- |
-
-## Insertar campos TC
-
-Puede insertar un nuevo campo TC en la posición actual de la `DocumentBuilder` llamando al `DocumentBuilder.InsertField` método y especificando el nombre de campo como "TC" junto con cualquier interruptor que sea necesario.
-
-El siguiente ejemplo de código muestra cómo insertar un `TC` en el documento utilizando [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/).
+El siguiente ejemplo de código muestra cómo insertar un campo `TC` en el documento usando [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertTCField-InsertTCField.java" >}}
 
-A menudo se designa una línea específica de texto para la `TOC` y está marcado con un `TC` campo. La manera fácil de hacer esto en MS Word es resaltar el texto y presionar *ALT+SHIFT+O*. Esto crea automáticamente un `TC` campo utilizando el texto seleccionado. La misma técnica se puede realizar a través del código. El siguiente código encontrará texto que coincida con la entrada e inserte un `TC` campo en la misma posición que el texto. El código se basa en la misma técnica utilizada en el artículo. El siguiente ejemplo de código muestra cómo encontrar e insertar un `TC` campo en el texto en un documento.
+A menudo, se designa una línea específica de texto para el `TOC` y se marca con un campo `TC`. La forma más sencilla de hacer esto en MS Word es resaltar el texto y presionar *ALT+SHIFT+O*. Esto crea automáticamente un campo `TC` con el texto seleccionado. La misma técnica se puede lograr a través del código. El siguiente código encontrará texto que coincida con la entrada e insertará un campo `TC` en la misma posición que el texto. El código se basa en la misma técnica utilizada en el artículo. El siguiente ejemplo de código muestra cómo buscar e insertar un campo `TC` en el texto de un documento.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-FindAndInsertATCField-InsertTCFieldHandler.java" >}}
 
-## Modificar una tabla de contenidos
+## Modificar una Tabla de Contenido
 
-### Cambiar el formato de estilos
+### Cambiar el Formato de los Estilos
 
-El formato de las entradas `TOC` no utiliza los estilos originales de las entradas marcadas, en cambio, cada nivel se formatea utilizando un equivalente `TOC` estilo. Por ejemplo, el primer nivel en el `TOC` se formatea con el **TOC1** estilo, el segundo nivel formateado con el **TOC2** estilo y así sucesivamente. Esto significa que cambiar el aspecto de la `TOC` estos estilos deben ser modificados. In Aspose.Words estos estilos son representados por el locale-independiente `StyleIdentifier.TOC1` a `StyleIdentifier.TOC9` y se puede recuperar de la `Document.Styles` colección usando estos identificadores.
+El formato de las entradas en `TOC` no utiliza los estilos originales de las entradas marcadas, sino que cada nivel se formatea utilizando un estilo `TOC` equivalente. Por ejemplo, el primer nivel en `TOC` está formateado con el estilo **TOC1**, el segundo nivel formateado con el estilo **TOC2** y así sucesivamente. Esto significa que para cambiar el aspecto de los `TOC` estos estilos deben modificarse. En Aspose.Words, estos estilos están representados por `StyleIdentifier.TOC1` independiente de la configuración regional hasta `StyleIdentifier.TOC9` y se pueden recuperar de la colección `Document.Styles` utilizando estos identificadores.
 
-Una vez que el estilo apropiado del documento ha sido recuperado el formato para este estilo puede ser modificado. Cualquier cambio en estos estilos se reflejará automáticamente en los TOC en el documento.
+Una vez que se haya recuperado el estilo apropiado del documento, se puede modificar el formato de este estilo. Cualquier cambio en estos estilos se reflejará automáticamente en el TOCs del documento.
 
-El siguiente ejemplo de código cambia una propiedad de formato utilizado en el primer nivel `TOC` estilo.
+El siguiente ejemplo de código cambia una propiedad de formato utilizada en el estilo `TOC` de primer nivel.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-ModifyATableOfContents-changeAFormattingPropertyUsedInFirstLevelTOCStyle.java" >}}
 
-También es útil señalar que cualquier formato directo de un párrafo (definido en el propio párrafo y no en el estilo) marcado para ser incluido en el `TOC` será copiado en la entrada en el TOC. Por ejemplo, si el estilo Heading 1 se utiliza para marcar contenido para el `TOC` y este estilo tiene formato Bold mientras que el párrafo también tiene formato itálico aplicado directamente a él. El resultado `TOC` la entrada no será audaz ya que es parte del formato de estilo, sin embargo será itálica ya que esto se formatea directamente en el párrafo.
+También es útil tener en cuenta que cualquier formato directo de un párrafo (definido en el párrafo mismo y no en el estilo) marcado para incluirse en `TOC` se copiará en la entrada en TOC. Por ejemplo, si se usa el estilo Heading 1 para marcar el contenido del `TOC` y este estilo tiene formato en negrita, mientras que el párrafo también tiene formato en cursiva aplicado directamente. La entrada `TOC` resultante no estará en negrita, ya que es parte del formato de estilo, sin embargo, estará en cursiva, ya que está formateada directamente en el párrafo.
 
-También puede controlar el formato de los separadores utilizados entre cada entrada y el número de página. Por defecto, esta es una línea punteada que se extiende a través de la numeración de la página usando un personaje de pestaña y una pestaña derecha parada alineada cerca del margen derecho.
+También puede controlar el formato de los separadores utilizados entre cada entrada y el número de página. De forma predeterminada, se trata de una línea de puntos que se extiende por la numeración de la página utilizando un carácter de tabulación y un tabulador derecho alineado cerca del margen derecho.
 
-Usando el `Style` clase recuperada para el `TOC` nivel que desea modificar, también puede modificar cómo aparecen estos en el documento.
+Usando la clase `Style` recuperada para el nivel `TOC` particular que desea modificar, también puede modificar cómo aparecen en el documento.
 
-Para cambiar cómo esto aparece primero `Style.ParagraphFormat` debe llamarse para recuperar el formato del párrafo para el estilo. De esto, las paradas de la pestaña se pueden recuperar llamando `ParagraphFormat.TabStops` y la pestaña apropiada deja de ser modificada. Usando esta misma técnica, la pestaña en sí puede ser movida o eliminada por completo.
+Para cambiar cómo aparece esto, primero se debe llamar a `Style.ParagraphFormat` para recuperar el formato de párrafo del estilo. Desde aquí, se pueden recuperar las tabulaciones llamando a `ParagraphFormat.TabStops` y modificando la tabulación correspondiente. Usando esta misma técnica, la pestaña en sí misma se puede mover o eliminar por completo.
 
-El siguiente ejemplo de código muestra cómo modificar la posición de la pestaña derecha parar en `TOC` párrafos relacionados.
+El siguiente ejemplo de código muestra cómo modificar la posición del tabulador derecho en `TOC` párrafos relacionados.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-ModifyATableOfContents-modifyPositionOfRightTabStopInTOC.java" >}}
 
-## Eliminar una tabla de contenidos del documento
+## Eliminar una Tabla de contenido del documento
 
-Una tabla de contenidos se puede eliminar del documento eliminando todos los nodos encontrados entre el `FieldStart` y el nodo FieldEnd del `TOC` campo.
+Se puede eliminar una tabla de contenido del documento eliminando todos los nodos que se encuentran entre los nodos `FieldStart` y FieldEnd del campo `TOC`.
 
-El código siguiente muestra esto. The removal of the `TOC` campo es más simple que un campo normal, ya que no tenemos seguimiento de campos anidados. En cambio, revisamos el `FieldEnd` nodo es de tipo `FieldType.FieldTOC` lo que significa que hemos encontrado el final del actual TOC. Esta técnica se puede utilizar en este caso sin preocuparse por ningún campo anidado ya que podemos asumir que cualquier documento formado correctamente no tendrá un nido completo `TOC` campo dentro de otro `TOC` campo.
+El código a continuación demuestra esto. La eliminación del campo `TOC` es más simple que un campo normal, ya que no hacemos un seguimiento de los campos anidados. En su lugar, verificamos que el nodo `FieldEnd` sea de tipo `FieldType.FieldTOC`, lo que significa que hemos encontrado el final del TOC actual. Esta técnica se puede utilizar en este caso sin preocuparse por los campos anidados, ya que podemos suponer que cualquier documento formado correctamente no tendrá un campo `TOC` completamente anidado dentro de otro campo `TOC`.
 
-Primero el `FieldStart` nodos de cada `TOC` son recogidos y almacenados. El especificado `TOC` entonces se enumeran para que todos los nodos dentro del campo sean visitados y almacenados. Los nodos se retiran del documento. El siguiente ejemplo de código muestra cómo eliminar un determinado `TOC` de un documento.
+En primer lugar, se recopilan y almacenan los `FieldStart` nodos de cada `TOC`. Luego se enumera el `TOC` especificado para que se visiten y almacenen todos los nodos dentro del campo. Luego, los nodos se eliminan del documento. El siguiente ejemplo de código muestra cómo eliminar un `TOC` especificado de un documento.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-RemoveATableOfContents-RemoveATableOfContents.java" >}}
 
-## Cuadro de contenidos
+## Extraer Tabla de Contenido
 
-Si desea extraer una tabla de contenidos de cualquier documento de Word, se puede utilizar la siguiente muestra de código.
+Si desea extraer una tabla de contenido de cualquier documento de Word, se puede utilizar el siguiente ejemplo de código.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-ExtractTableOfContents-ExtractTableOfContents.java" >}}

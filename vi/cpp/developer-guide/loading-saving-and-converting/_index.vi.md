@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tải, Lưu Và Chuyển đổi trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Tải, Lưu Và Chuyển đổi
@@ -7,6 +7,7 @@ description: "Cách chuyển đổi tài liệu từ định dạng này sang đ
 type: docs
 weight: 10
 url: /vi/cpp/loading-saving-and-converting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Phần này cung cấp thông tin về các tính năng khi tải và lưu tài liệu, cũng như dữ liệu về các khả năng khi chuyển đổi tài liệu từ định dạng này sang định dạng khác.

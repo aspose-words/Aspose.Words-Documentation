@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aplicați formatarea personalizată câmpurilor
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Aplicați formatarea personalizată câmpurilor
@@ -7,6 +7,7 @@ description: "Formatați și evaluați rezultatele câmpurilor folosind Python."
 type: docs
 weight: 40
 url: /ro/python-net/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uneori, utilizatorii trebuie să aplice formatarea personalizată câmpurilor. În acest articol, vom analiza câteva exemple despre cum se poate face acest lucru.

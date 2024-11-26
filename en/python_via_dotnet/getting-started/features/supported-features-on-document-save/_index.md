@@ -1,4 +1,4 @@
-﻿---
+---
 title: Supported Features on Document Save
 second_title: Aspose.Words for Python via .NET
 articleTitle: Supported Features on Document Save
@@ -10,6 +10,7 @@ url: /python-net/supported-features-on-document-save/
 aliases: 
   - /python/document-saving-overview/
   - /python/supported-features-on-document-save/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words has some of the most advanced conversion support of the common word processing formats.

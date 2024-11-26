@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Bidang Formulir di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Bidang Formulir
@@ -7,6 +7,7 @@ description: "Memahami fitur Bidang Formulir, bekerja dengan Bidang Formulir men
 type: docs
 weight: 380
 url: /id/cpp/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dokumen yang berisi isian kosong (kolom) dikenal sebagai formulir. Misalnya, Anda dapat membuat formulir pendaftaran di Microsoft Word yang menggunakan daftar tarik-turun tempat pengguna dapat memilih entri. Bidang formulir adalah lokasi penyimpanan jenis data tertentu, seperti nama atau alamat. Kolom formulir di Microsoft Word menyertakan input teks, Kotak kombo, dan kotak centang.

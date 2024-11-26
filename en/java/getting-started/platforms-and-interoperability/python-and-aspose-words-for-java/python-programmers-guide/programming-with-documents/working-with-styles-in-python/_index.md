@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working With Styles in Python
 second_title: Aspose.Words for Java
 articleTitle: Working With Styles in Python
@@ -7,6 +7,7 @@ description: "Working With Styles using Python."
 type: docs
 weight: 90
 url: /java/working-with-styles-in-python/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Extract Content Based On Styles

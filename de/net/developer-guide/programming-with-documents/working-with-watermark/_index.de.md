@@ -7,6 +7,7 @@ description: "Manipulation von Dokumentwasserzeichen mit C#."
 type: docs
 weight: 340
 url: /de/net/working-with-watermark/
+timestamp: 2024-05-02-11-51-44
 ---
 
 In diesem Thema wird erläutert, wie Sie mithilfe von Aspose.Words programmgesteuert mit Wasserzeichen arbeiten. Ein Wasserzeichen ist ein Hintergrundbild, das hinter dem Text in einem Dokument angezeigt wird. Ein Wasserzeichen kann einen Text oder ein Bild enthalten, das durch die [Watermark](https://reference.aspose.com/words/de/net/aspose.words/watermark/)-Klasse dargestellt wird.

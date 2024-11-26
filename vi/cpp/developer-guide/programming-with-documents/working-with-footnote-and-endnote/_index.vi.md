@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm việc với Chú Thích Cuối trang và Chú Thích Cuối trang trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm việc Với Chú Thích Cuối Trang và Chú Thích Cuối Trang
@@ -7,6 +7,7 @@ description: "Cách thao tác chú thích cuối trang và chú thích cuối tr
 type: docs
 weight: 160
 url: /vi/cpp/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words cũng cung cấp một số lớp, phương thức và thuộc tính để làm việc với chú thích cuối trang và chú thích cuối trang.

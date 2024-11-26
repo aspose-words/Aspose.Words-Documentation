@@ -7,6 +7,7 @@ type: docs
 description: "Trong Aspose.Words cho Java tài liệu đề cập đến các cấp logic của nút – khối mức, inline mức hoặc hàng mức. Cấp độ của nút được dùng để mô tả vị trí trong cây tài liệu mà nút thường xảy ra."
 weight: 10
 url: /vi/java/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tài liệu đôi khi đề cập đến một nhóm các lớp nút như thuộc về một "mức độ" trong tài liệu, chẳng hạn như "block-level", "inline-level" (cũng được gọi là "inline"), hoặc các nút "row-level. Những cấp độ trong tài liệu được phân biệt thuần túy logic và không thể hiện rõ ràng bằng thừa kế hay các phương thức khác. Aspose.Words DOM có nghĩa là. Cường độ của nút được dùng để mô tả vị trí trong cây tài liệu mà nút thường xảy ra.

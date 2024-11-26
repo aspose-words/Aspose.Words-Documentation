@@ -1,4 +1,4 @@
-﻿---
+---
 title: Định Dạng Tài Liệu Được Hỗ Trợ
 second_title: Aspose.Words cho C++
 articleTitle: Định Dạng Tài Liệu Được Hỗ Trợ
@@ -7,6 +7,7 @@ type: docs
 description: "Chỉnh sửa tài liệu nguồn ở nhiều định dạng phổ biến, cũng như tự do chuyển đổi tệp từ định dạng này sang định dạng khác bằng C++."
 weight: 20
 url: /vi/cpp/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

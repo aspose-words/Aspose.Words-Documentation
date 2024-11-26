@@ -1,4 +1,4 @@
-﻿---
+---
 title: Voeg Tabelle in Java
 second_title: Aspose.Words vir Java
 articleTitle: Voeg By Tabelle
@@ -7,6 +7,7 @@ description: "Voeg Tabelle in Java. Gevorderde tabel manipulasies, sluit en verd
 type: docs
 weight: 90
 url: /af/java/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 'n tabel, verteenwoordig in die Aspose.Words Document Object Model, bestaan uit onafhanklike rye en selle, wat dit maklik maak om tabelle saam te voeg.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit Formen in C++
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit Formen
@@ -7,6 +7,7 @@ type: docs
 description: "Einführung in die Auszeichnungssprache für Formen, Erstellen von Formen verschiedener Typen mit C++."
 weight: 280
 url: /de/cpp/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In diesem Thema wird erläutert, wie programmgesteuert mit Formen mit Aspose.Words gearbeitet wird.

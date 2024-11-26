@@ -7,6 +7,7 @@ description: "מניפולציות סימן מים באמצעות C#."
 type: docs
 weight: 340
 url: /he/net/working-with-watermark/
+timestamp: 2024-05-02-11-51-44
 ---
 
 נושא זה דן כיצד לעבוד באופן יזום עם סימן מים באמצעות סימן מים Aspose.Words. סימן מים הוא תמונת רקע המציגה מאחורי הטקסט במסמך. סימן מים יכול להכיל טקסט או תמונה המיוצגת על ידי [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) מעמד.

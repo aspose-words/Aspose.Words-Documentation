@@ -7,6 +7,7 @@ description: "Extract image from a document easily and fast instead of using Ope
 type: docs
 weight: 90
 url: /net/extract-image-from-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 On this page we will look at how to extract image from a document using Aspose.Words or Open XML SDK.

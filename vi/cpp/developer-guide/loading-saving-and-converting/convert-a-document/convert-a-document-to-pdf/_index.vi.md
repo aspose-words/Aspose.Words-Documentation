@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chuyển Đổi Tài liệu thành PDF trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Chuyển Đổi Tài liệu thành PDF
@@ -7,6 +7,7 @@ description: "Chuyển đổi tài liệu thành PDF bằng C++. Các định d�
 type: docs
 weight: 10
 url: /vi/cpp/convert-a-document-to-pdf/
+timestamp: 2024-10-21-08-52-03
 ---
 
 Khả năng chuyển đổi tài liệu từ định dạng này sang định dạng khác một cách dễ dàng và đáng tin cậy là một tính năng chính của Aspose.Words. Một trong những định dạng phổ biến nhất để chuyển đổi là PDF – định dạng bố cục cố định, giữ nguyên giao diện ban đầu của tài liệu trong quá trình hiển thị trên các nền tảng khác nhau. Thuật ngữ" kết xuất " được sử dụng trong Aspose.Words để mô tả quá trình chuyển đổi tài liệu thành định dạng tệp được phân trang hoặc có khái niệm trang.

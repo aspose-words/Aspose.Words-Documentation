@@ -7,6 +7,7 @@ description: "Format tabel lanjutan JavaSitemap Buat gaya meja menggunakan JavaS
 type: docs
 weight: 80
 url: /id/java/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Gaya meja mendefinisikan satu set format yang dapat dengan mudah diterapkan ke meja. Memformat seperti perbatasan, membentuk, menyelaraskan, dan font dapat diatur dalam gaya tabel dan diterapkan ke banyak tabel untuk penampilan yang konsisten.

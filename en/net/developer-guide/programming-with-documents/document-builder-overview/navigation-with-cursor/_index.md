@@ -7,6 +7,7 @@ description: "Navigate between different nodes within a document, such as a para
 type: docs
 weight: 10
 url: /net/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 While working with a document, even if it is a short or long one, you will need to navigate through your document. Navigation with a virtual cursor represents the ability to navigate between different nodes in a document.

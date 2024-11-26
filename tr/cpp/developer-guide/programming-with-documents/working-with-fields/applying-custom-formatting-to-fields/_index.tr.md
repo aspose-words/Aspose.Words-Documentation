@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki Alanlara Özel Biçimlendirme Uygulama
 second_title: Aspose.Words için C++
 articleTitle: Alanlara Özel Biçimlendirme Uygulama
@@ -7,6 +7,7 @@ description: "Alanların sonucunu C++ kullanarak biçimlendirin ve değerlendiri
 type: docs
 weight: 40
 url: /tr/cpp/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen kullanıcıların alanlara özel biçimlendirme uygulaması gerekir. Bu yazıda, bunun nasıl yapılabileceğine dair birkaç örneğe bakacağız.

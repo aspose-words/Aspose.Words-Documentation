@@ -7,6 +7,7 @@ description: "Steuern Sie den Speichervorgang mithilfe von C# genauer."
 type: docs
 weight: 10
 url: /de/net/specify-save-options/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Beim Speichern eines Dokuments können Sie einige erweiterte Eigenschaften festlegen. Aspose.Words stellt Ihnen die [SaveOptions](https://reference.aspose.com/words/de/net/aspose.words.saving/saveoptions/)-Klasse zur Verfügung, die eine genauere Steuerung des Speichervorgangs ermöglicht. Es gibt Überladungen der **Save**-Methode, die ein **SaveOptions**-Objekt akzeptieren – es sollte ein Objekt einer von der **SaveOptions**-Klasse abgeleiteten Klasse sein. Jedes Speicherformat verfügt über eine entsprechende Klasse, die Speicheroptionen für dieses Speicherformat enthält. Beispielsweise gibt es [PdfSaveOptions](https://reference.aspose.com/words/de/net/aspose.words.saving/pdfsaveoptions/) zum Speichern im PDF-Format, [MarkdownSaveOptions](https://reference.aspose.com/words/de/net/aspose.words.saving/markdownsaveoptions/) zum Speichern im Markdown-Format oder [ImageSaveOptions](https://reference.aspose.com/words/de/net/aspose.words.saving/imagesaveoptions/) zum Speichern in einem Bild. Dieser Artikel enthält Beispiele für die Arbeit mit einigen von **SaveOptions** abgeleiteten Optionsklassen.

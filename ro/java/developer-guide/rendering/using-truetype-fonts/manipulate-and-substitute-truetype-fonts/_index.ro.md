@@ -1,4 +1,4 @@
-﻿---
+---
 title: Manipulați și înlocuiți fonturile TrueType
 second_title: Aspose.Words pentru Java
 articleTitle: Manipulați și înlocuiți fonturile TrueType
@@ -7,6 +7,7 @@ description: "Aspose.Words pentru Java poate încorpora corect TrueType fonturil
 type: docs
 weight: 10
 url: /ro/java/manipulate-and-substitute-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words necesită fonturi TrueType pentru o varietate de sarcini, inclusiv redarea documentelor în formate de pagini fixe, de exemplu, PDF sau XPS. Când Aspose.Words redă un document, acesta trebuie să efectueze încorporarea și încorporarea subsetului de fonturi TrueType în documentul rezultat, ceea ce este o practică normală în timpul generării unui document, inclusiv formatele populare PDF sau XPS. Acest lucru asigură că documentul va apărea la fel pentru orice vizualizator. Mai mult, specificația XPS necesită ca fonturile să fie întotdeauna încorporate în document.

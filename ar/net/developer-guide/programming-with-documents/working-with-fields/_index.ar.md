@@ -7,6 +7,7 @@ description: "مقدمة لميزة الحقل في Aspose.Words لـ .NET."
 type: docs
 weight: 370
 url: /ar/net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 يشبه **Fields** الموجود في المستند العناصر النائبة حيث يمكن إدراج بيانات مفيدة. على سبيل المثال، يمكن أن يكون الحقل مرجع صفحة أو صيغة أو حقل mail merge.

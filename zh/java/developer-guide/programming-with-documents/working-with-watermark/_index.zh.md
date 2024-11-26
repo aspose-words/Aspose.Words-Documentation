@@ -7,6 +7,7 @@ type: docs
 description: "使用水印操作文档 Java。 。 。 。"
 weight: 70
 url: /zh/java/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 本专题讨论如何利用水印在方案上开展工作。 Aspose.Words。 。 。 一个水印是一个背景图像,在文档中显示文本后面. 水印可以包含文本或以 [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) 课。

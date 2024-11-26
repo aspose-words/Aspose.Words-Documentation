@@ -1,4 +1,4 @@
-﻿---
+---
 title: Schrift FallBack Einstellungen von XML in C++
 second_title: Aspose.Words für C++
 articleTitle: Schrift FallBack Einstellungen von XML
@@ -7,6 +7,7 @@ description: "Der Schriftarten-Fallback-Mechanismus wird verwendet, wenn die Sch
 type: docs
 weight: 14
 url: /de/cpp/font-fallback-settings-from-xml/
+timestamp: 2024-09-24-14-35-44
 ---
 
 In Aspose.Words werden zwei verschiedene Mechanismen verwendet - Schriftartenersetzung und Schriftartenfallback. Die Schriftartenersetzung wird verwendet, wenn die im Dokument angegebene Schriftart nicht unter den Schriftquellen gefunden werden konnte, wie es in den obigen Abschnitten beschrieben wurde. Der Schriftarten-Fallback-Mechanismus wird verwendet, wenn die Schriftart aufgelöst ist, aber kein bestimmtes Zeichen enthält. In diesem Fall versucht Aspose.Words, eine der Fallback-Schriftarten für das Zeichen zu verwenden.

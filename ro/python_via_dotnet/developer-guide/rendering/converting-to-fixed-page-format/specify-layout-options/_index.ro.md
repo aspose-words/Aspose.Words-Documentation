@@ -1,4 +1,4 @@
-﻿---
+---
 title: Specificați opțiunile de aspect în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Specificați Opțiunile De Aspect
@@ -7,6 +7,7 @@ description: "Specificați opțiunile de aspect pentru diferite aspecte ale docu
 type: docs
 weight: 10
 url: /ro/python-net/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words vă permite să creați documente de ieșire cu diferite machete, în funcție de parametrii specificați în proprietățile clasei [LayoutOptions](https://reference.aspose.com/words/python-net/aspose.words.layout/layoutoptions/). Unele dintre aceste proprietăți seamănă cu unele dintre opțiunile de meniu ale interfeței cu utilizatorul Microsoft Word - acestea vor fi descrise în acest articol.

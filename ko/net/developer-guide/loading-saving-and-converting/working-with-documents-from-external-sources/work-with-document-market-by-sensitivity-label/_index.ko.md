@@ -7,6 +7,7 @@ description: "C#를 사용하여 민감도 레이블이 적용된 Word를 PDF로
 type: docs
 weight: 30
 url: /ko/net/work-with-document-market-by-sensitivity-label/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Microsoft Purview Information Protection의 민감도 레이블을 사용하면 조직의 데이터를 분류하고 보호하는 동시에 사용자 생산성과 협업 능력이 방해받지 않도록 할 수 있습니다. 민감도 레이블이 문서에 적용되면 해당 레이블에 대해 구성된 모든 보호 설정이 콘텐츠에 적용됩니다.

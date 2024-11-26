@@ -1,12 +1,13 @@
 ---
-title: Sitemap `DocumentBuilder` Masukkan Elemen Dokumen
+title: Sitemap DocumentBuilder Masukkan Elemen Dokumen
 second_title: Aspose.Words Sitemap Java
-articleTitle: Sitemap `DocumentBuilder` Masukkan Elemen Dokumen
-linktitle: Sitemap `DocumentBuilder` Masukkan Elemen Dokumen
+articleTitle: Sitemap DocumentBuilder Masukkan Elemen Dokumen
+linktitle: Sitemap DocumentBuilder Masukkan Elemen Dokumen
 type: docs
 description: "Masukkan elemen dokumen menggunakan pembangun dokumen dalam JavaSitemap"
 weight: 10
 url: /id/java/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Login [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) digunakan untuk memodifikasi dokumen. Artikel ini menjelaskan dan menjelaskan cara melakukan sejumlah tugas.
@@ -152,7 +153,7 @@ Pelanggan dapat menentukan Lokal di tingkat lapangan sekarang dan dapat mencapai
 
 ## Login
 
-Anda dapat dengan mudah memasukkan string HTML yang mengandung fragmen HTML atau seluruh dokumen HTML ke dalam dokumen Word. Masukkan string ini ke DocumentBuilder. Login Metode Html. Salah satu implementasi yang berguna dari metode ini menyimpan string HTML dalam database dan memasukkannya ke dalam dokumen selama mail merge untuk mendapatkan konten yang diformat ditambahkan daripada membangunnya menggunakan berbagai metode pembangun dokumen. Contoh kode berikut menunjukkan memasukkan HTML ke dalam dokumen menggunakan DocumentBuilder.
+Anda dapat dengan mudah memasukkan string HTML yang mengandung fragmen HTML atau seluruh dokumen HTML ke dalam dokumen Word. Masukkan string ini ke DocumentBuilder. Login Metode Html. Salah satu implementasi yang berguna dari metode ini menyimpan string HTML dalam database dan memasukkannya ke dalam dokumen selama Mail Merge untuk mendapatkan konten yang diformat ditambahkan daripada membangunnya menggunakan berbagai metode pembangun dokumen. Contoh kode berikut menunjukkan memasukkan HTML ke dalam dokumen menggunakan DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHtml-DocumentBuilderInsertHtml.java" >}}
 

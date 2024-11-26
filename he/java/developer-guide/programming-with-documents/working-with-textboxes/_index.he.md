@@ -7,6 +7,7 @@ description: "מבוא לתיבת טקסט מקושרת Aspose.Words עבור Ja
 type: docs
 weight: 250
 url: /he/java/working-with-linked-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In In In Aspose.Words, The The [TextBox](https://reference.aspose.com/words/java/com.aspose.words/textbox/) הכיתה משמשת כדי לציין כיצד טקסט מוצג בתוך צורה. זה מספק נכס ציבורי בשם ההורה כדי לקבל את הצורה ההורה עבור תיבת הטקסט כדי לאפשר ללקוח למצוא מקושר [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) מקושר **TextBox**.

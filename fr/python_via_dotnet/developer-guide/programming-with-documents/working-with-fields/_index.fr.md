@@ -7,6 +7,7 @@ description: "Comment travailler avec des champs dans un document à l'aide de P
 type: docs
 weight: 370
 url: /fr/python-net/working-with-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Les **Fields** dans un document sont comme des espaces réservés dans lesquels des données utiles peuvent être insérées. Par exemple, un champ peut être une référence de page, une formule ou un champ mail merge.

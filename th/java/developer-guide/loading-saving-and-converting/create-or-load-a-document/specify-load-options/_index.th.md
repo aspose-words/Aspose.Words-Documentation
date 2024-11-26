@@ -1,88 +1,89 @@
----
-title: ตัวเลือกการโหลดที่ระบุใน Java
-second_title: Aspose.Words สําหรับ Java
-articleTitle: ตัวเลือกต่าง ๆ ของการโหลด
-linktitle: ตัวเลือกต่าง ๆ ของการโหลด
-description: "ตั้งค่าคุณสมบัติขั้นสูงเมื่อทําการโหลดเอกสารโดยใช้ Java เพื่อให้ควบคุมกระบวนการได้แม่นยํามากขึ้น"
+﻿---
+title: ระบุตัวเลือกการโหลดในJava
+second_title: Aspose.WordsสำหรับJava
+articleTitle: ระบุตัวเลือกการโหลด
+linktitle: ระบุตัวเลือกการโหลด
+description: "ตั้งค่าคุณสมบัติขั้นสูงเมื่อโหลดเอกสารโดยใช้Javaเพื่อให้ได้การควบคุมกระบวนการที่แม่นยำ."
 type: docs
 weight: 10
 url: /th/java/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
-เมื่อมีการเรียกเอกสาร คุณสามารถตั้งค่าคุณสมบัติบางอย่างได้ Aspose.Words ให้คุณกับ [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) คลาสนี้อนุญาตให้ควบคุมกระบวนการโหลดได้แม่นยํามากขึ้น รูปแบบการโหลดบางแบบมีคลาสที่สอดคล้องกัน ซึ่งบรรจุตัวเลือกในการโหลดในรูปแบบนี้ ตัวอย่างเช่น มี [PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) สําหรับการโหลดในรูปแบบ PDF หรือ [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) สําหรับการโหลดไปที่ TXT บทความ นี้ ให้ ตัว อย่าง ของ การ ทํา งาน ด้วย ทาง เลือก ต่าง ๆ **LoadOptions** ชั้นเรียน.
+เมื่อโหลดเอกสารคุณสามารถตั้งค่าคุณสมบัติขั้นสูงบางอย่างได้ Aspose.Wordsช่วยให้คุณมี[LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/)ชั้นซึ่งจะช่วยให้การควบคุมที่แม่นยำมากขึ้นของกระบวนการโหลด รูปแบบการโหลดบางรูปแบบมีคลาสที่สอดคล้องกันซึ่งมีตัวเลือกการโหลดสำหรับรูปแบบการโหลดนี้ตัวอย่างเช่นมี[PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/)สำหรับการโหลดไปยังรูปแบบPDFหรือ[TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/)สำหรับการโหลดไปยังTXT บทความนี้แสดงตัวอย่างของการทำงานกับตัวเลือกของ**LoadOptions**คลาส.
 
-## ตั้งค่า Microsoft Word รุ่นที่จะเปลี่ยนแปลงรูปลักษณ์
+## ตั้งค่าเวอร์ชันMicrosoft Wordเพื่อเปลี่ยนลักษณะที่ปรากฏ
 
-รุ่นที่แตกต่างกันของ Microsoft Word โปรแกรมสามารถแสดงเอกสารต่าง ๆ ได้ ยกตัวอย่างเช่น เกิดปัญหาที่เป็นที่รู้จักกันดีกับเอกสาร OOXML เช่น DOCX หรือ DOTX ผลิตจากสํานักงาน WPS ใน กรณี ดัง กล่าว อาจ ขาด ส่วน ที่ เป็น เอกสาร สําคัญ หรือ อาจ ตี ความ ได้ ว่า เป็น สาเหตุ ที่ ต่าง ออก ไป Microsoft Word 2019 เพื่อแสดงเอกสารดังกล่าวที่แตกต่างไปเมื่อเทียบกับ Microsoft Word 2010.
+รุ่นที่แตกต่างกันของโปรแกรมMicrosoft Wordสามารถแสดงเอกสารในที่แตกต่างกัน ตัวอย่างเช่นมีปัญหาที่รู้จักกันดีกับเอกสารOOXMLเช่นDOCXหรือDOTXที่ผลิตโดยใช้สำนักงานWPS ในกรณีดังกล่าวองค์ประกอบของมาร์กอัปเอกสารสำคัญอาจขาดหายไปหรืออาจถูกตีความแตกต่างออกไปทำให้Microsoft Word2019 แสดงเอกสารดังกล่าวแตกต่างกันเมื่อเทียบกับMicrosoft Word2010.
 
-ค่าปริยาย Aspose.Words เปิดเอกสารโดยใช้ Microsoft Word 2019 กฎ พ.ศ. หากคุณต้องการทําให้การโหลดเอกสารปรากฏว่ามันเกิดขึ้นในครั้งก่อนหน้า Microsoft Word รุ่นของโปรแกรม คุณควรจะระบุรุ่นที่ต้องการโดยตรงโดยใช้ [MswVersion](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getMswVersion) สมบัติของ **LoadOptions** ชั้นเรียน.
+โดยค่าเริ่มต้นAspose.Wordsเปิดเอกสารโดยใช้กฎMicrosoft Word2019 หากคุณต้องการทำให้การโหลดเอกสารปรากฏขึ้นตามที่ปรากฏในแอปพลิเคชันรุ่นก่อนหน้าMicrosoft Wordคุณควรระบุเวอร์ชันที่ต้องการอย่างชัดเจนโดยใช้คุณสมบัติของ[MswVersion](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getMswVersion)ของคลาสของ**LoadOptions**.
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการตั้งค่า Microsoft Word รุ่นที่มีตัวเลือกในการโหลด:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการตั้งค่าเวอร์ชันMicrosoft Wordด้วยตัวเลือกการโหลด:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-SetMSWordVersion.java" >}}
 
-## ตั้งค่าภาษาเพื่อเปลี่ยนรูปลักษณ์
+## ตั้งค่าการตั้งค่าภาษาเพื่อเปลี่ยนลักษณะที่ปรากฏ
 
-รายละเอียดของการแสดงเอกสารใน Microsoft Word ไม่เพียงแค่ขึ้นอยู่กับรุ่นของโปรแกรมเท่านั้น **MswVersion** ค่าคุณสมบัติ แต่อยู่ที่การตั้งค่าภาษาด้วย Microsoft Word อาจแสดงเอกสารที่แตกต่างกัน ขึ้นอยู่กับการตั้งค่า "Office language Constrution" ซึ่งสามารถพบได้ใน "File' ตัวเลือก → Languge" ตัว อย่าง เช่น การ ใช้ กล่องโต้ตอบ นี้ ผู้ ใช้ สามารถ เลือก ภาษา หลัก, การ พิสูจน์ ภาษา, การ แสดง ภาษา, และ อื่น ๆ ได้. Aspose.Words ให้ [LanguagePreferences](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getLanguagePreferences) คุณสมบัติเทียบเท่ากับกล่องนี้ ถ้า Aspose.Words การแสดงผลแตกต่างจาก Microsoft Word ส่งออก, ตั้งค่าที่เหมาะสมสําหรับ **EditingLanguage** - นี้สามารถปรับปรุงเอกสารการแสดงผล
+รายละเอียดของการแสดงเอกสารในMicrosoft Wordไม่เพียงแต่ขึ้นอยู่กับรุ่นของโปรแกรมประยุกต์และค่าคุณสมบัติ**MswVersion**แต่ยังเกี่ยวกับการตั้งค่าภาษาอีกด้วย Microsoft Wordอาจแสดงเอกสารที่แตกต่างกันขึ้นอยู่กับการตั้งค่า"การตั้งค่าภาษาสำนักงาน"ซึ่งสามารถพบได้ใน"ตัวเลือกไฟล์ Language ภาษา" ใช้กล่องโต้ตอบนี้ผู้ใช้สามารถเลือกเช่นภาษาหลักภาษาพิสูจน์อักษรภาษาที่แสดงและอื่นๆ Aspose.Wordsให้คุณสมบัติของ[LanguagePreferences](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getLanguagePreferences)เทียบเท่ากับกล่องโต้ตอบนี้ ถ้าผลลัพธ์Aspose.Wordsแตกต่างจากผลลัพธ์Microsoft Wordให้ตั้งค่าที่เหมาะสมสำหรับ**EditingLanguage**ซึ่งจะสามารถปรับปรุงเอกสารที่ส่งออกได้.
 
-ตัว อย่าง รหัส ต่อ ไป นี้ แสดง ให้ เห็น วิธี ทํา ให้ ญี่ปุ่น เป็น **EditingLanguage**
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการตั้งค่าภาษาญี่ปุ่นเป็น**EditingLanguage**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SetupLanguagePreferences-AddJapaneseAsEditinglanguages.java" >}}
 
-## ใช้ WarningCallback เพื่อ ควบคุม ปัญหา ขณะโหลดเอกสาร
+## ใช้WarningCallbackเพื่อควบคุมปัญหาขณะโหลดเอกสาร
 
-บางเอกสารอาจจะเสียหาย, มีรายการที่ใช้ไม่ได้, หรือยังมีคุณสมบัติที่ยังไม่รองรับอยู่ Aspose.Words. หากคุณต้องการรู้เกี่ยวกับปัญหาที่เกิดขึ้นขณะโหลดเอกสาร Aspose.Words ให้ [IWarningCallback](https://reference.aspose.com/words/java/com.aspose.words/iwarningcallback/) อินเตอร์เฟส
+เอกสารบางอย่างอาจเสียหายมีรายการที่ไม่ถูกต้องหรือมีคุณลักษณะที่ไม่ได้รับการสนับสนุนในปัจจุบันโดยAspose.Words ถ้าคุณต้องการทราบเกี่ยวกับปัญหาที่เกิดขึ้นขณะโหลดเอกสารAspose.Wordsจะมีอินเทอร์เฟซ[IWarningCallback](https://reference.aspose.com/words/java/com.aspose.words/iwarningcallback/).
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการ **IWarningCallback** ส่วนติดต่อ:
+ตัวอย่างรหัสต่อไปนี้แสดงการใช้งานของอินเทอร์เฟซ**IWarningCallback**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadOptionsCallbacks-DocumentLoadingWarningCallback.java" >}}
 
-เพื่อหาข้อมูลเกี่ยวกับปัญหาทั้งหมด ตลอดระยะเวลาโหลด ใช้ [WarningCallback](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getWarningCallback) ทรัพย์สิน
+เมื่อต้องการรับข้อมูลเกี่ยวกับปัญหาทั้งหมดตลอดเวลาในการโหลดให้ใช้คุณสมบัติ[WarningCallback](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getWarningCallback).
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการใช้คุณสมบัตินี้:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีใช้คุณสมบัตินี้:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadOptionsCallbacks-LoadOptionsWarningCallback.java" >}}
 
-## ใช้ปูมบันทึกของทรัพยากร เรียกกลับเพื่อควบคุมทรัพยากรภายนอก
+## ใช้ResourceLoadingCallbackเพื่อควบคุมการโหลดทรัพยากรภายนอก
 
-เอกสารอาจบรรจุที่อยู่เชื่อมโยงภายนอกไปยังภาพที่ตั้งบางแห่งบนดิสก์, เครือข่าย, หรืออินเทอร์เน็ต Aspose.Words ใส่ ภาพ เช่น นั้น ลง ใน เอกสาร โดย อัตโนมัติ แต่ มี สถานการณ์ ที่ ต้อง ควบคุม กระบวนการ นี้. ตัว อย่าง เช่น เพื่อ จะ ตัดสิน ใจ ว่า เรา จําเป็น ต้อง บรรจุ ภาพพจน์ บาง อย่าง หรือ บาง ที ข้าม รูป นั้น ไป. เดอะ [ResourceLoadingCallback](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getResourceLoadingCallback) ตัวเลือกในการโหลด ให้คุณได้ควบคุมมัน
+เอกสารอาจมีลิงก์ภายนอกไปยังรูปภาพที่ตั้งอยู่ที่ใดที่หนึ่งบนดิสก์ภายในเครือข่ายหรืออินเท Aspose.Wordsโหลดภาพดังกล่าวลงในเอกสารโดยอัตโนมัติแต่มีสถานการณ์เมื่อกระบวนการนี้จะต้องถูกควบคุม ตัวอย่างเช่นในการตัดสินใจว่าเราจริงๆต้องโหลดภาพบางอย่างหรือบางทีอาจจะข้ามมัน ตัวเลือกการโหลด[ResourceLoadingCallback](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getResourceLoadingCallback)ช่วยให้คุณสามารถควบคุมสิ่งนี้ได้.
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการ [IResourceLoadingCallback](https://reference.aspose.com/words/java/com.aspose.words/iresourceloadingcallback/) ส่วนติดต่อ:
+ตัวอย่างรหัสต่อไปนี้แสดงการใช้งานของอินเทอร์เฟซ[IResourceLoadingCallback](https://reference.aspose.com/words/java/com.aspose.words/iresourceloadingcallback/):
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadOptionsCallbacks-HtmlLinkedResourceLoadingCallback.java" >}}
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการใช้ **ResourceLoadingCallback** คุณสมบัติ:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีใช้คุณสมบัติ**ResourceLoadingCallback**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadOptionsCallbacks-LoadOptionsResourceLoadingCallback.java" >}}
 
-## ใช้แฟลชฟลายเดอร์เพื่อหลีกเลี่ยงการยกเว้นหน่วยความจํา
+## ใช้TempFolderเพื่อหลีกเลี่ยงการยกเว้นหน่วยความจำ
 
-Aspose.Words สนับสนุน เอกสาร ขนาด ใหญ่ ซึ่ง มี หน้า หนังสือ มาก มาย หลาย พัน หน้า. การโหลดเอกสารดังกล่าวอาจจะต้องใช้หน่วยความจํามาก ในการโหลด Aspose.Words ต้องการหน่วยความจํามากขึ้น เพื่อเก็บโครงสร้างชั่วคราวที่ใช้วิเคราะห์เอกสาร
+Aspose.Wordsรองรับเอกสารที่มีขนาดใหญ่มากที่มีหลายพันหน้าเต็มไปด้วยเนื้อหาที่อุดมไปด้วย การโหลดเอกสารดังกล่าวอาจต้องใช้มากRAM ในกระบวนการโหลดAspose.Wordsต้องการหน่วยความจำมากขึ้นเพื่อเก็บโครงสร้างชั่วคราวที่ใช้ในการแยกเอกสาร.
 
-หากคุณมีปัญหากับหน่วยความจํายกเว้นขณะโหลดเอกสาร ให้ลองเรียกใช้ [TempFolder](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getTempFolder) ทรัพย์สิน ในกรณีนี้ Aspose.Words จะ มี การ เก็บ ข้อมูล บาง อย่าง ไว้ ใน แฟ้มชั่วคราว แทน ที่ จะ เป็น ความ จํา และ การ ทํา เช่น นี้ จะ ช่วย ไม่ ให้ มี ข้อ ยก เว้น เช่น นั้น.
+หากคุณมีปัญหากับข้อยกเว้นจากหน่วยความจำขณะโหลดเอกสารให้ลองใช้คุณสมบัติ[TempFolder](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getTempFolder) ในกรณีนี้Aspose.Wordsจะจัดเก็บข้อมูลบางส่วนไว้ในแฟ้มชั่วคราวแทนที่จะเป็นหน่วยความจำและจะช่วย.
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการตั้งค่า **TempFolder**
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการตั้งค่า**TempFolder**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-SetTempFolder.java" >}}
 
-## ตั้งค่าชุดรหัสอักขระแบบสรุป
+## ตั้งค่าการเข้ารหัสอย่างชัดเจน
 
-รูปแบบเอกสารสมัยใหม่ส่วนใหญ่ เก็บเนื้อหาไว้ในยูนิโค้ด และไม่จําเป็นต้องมีการจัดการพิเศษ ในทางตรงกันข้าม ยังมีเอกสารอีกหลายฉบับ ที่ใช้รหัสก่อนรหัสยูนิส และบางครั้งก็พลาดข้อมูลการเข้ารหัส Aspose.Words พยายามตรวจสอบรหัสภาษาให้โดยอัตโนมัติ โดยปริยายแล้ว แต่กรณีหายาก คุณอาจจะต้องใช้รหัสภาษาที่แตกต่างจาก ในกรณีนี้ ใช้ [Encoding](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getEncoding) ทรัพย์สินที่จะได้รับหรือตั้งค่ารหัส
+รูปแบบเอกสารที่ทันสมัยที่สุดจัดเก็บเนื้อหาของพวกเขาในยูนิโค้ดและไม่จำเป็นต้องมีกา บทความนี้ไม่มีการอ้างอิงจากเอกสารอ้างอิงหรือแหล่งข้อมูลโปรดช่วยพัฒนาบทความนี้โด Aspose.Wordsพยายามตรวจสอบการเข้ารหัสที่เหมาะสมโดยอัตโนมัติโดยค่าเริ่มต้น,แต่ในกรณีที่หายาก,คุณอาจจำเป็นต้องใช้การเข้ารหัสที่แตกต่างจากที่ตรวจพบโดยขั้นตอนวิธีการรับรู้การเข้ารหัสของเรา. ในกรณีนี้ให้ใช้คุณสมบัติ[Encoding](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getEncoding)เพื่อรับหรือตั้งค่าการเข้ารหัส.
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีตั้งค่าการเข้ารหัส เพื่อใช้แทนการเข้ารหัสที่เลือกโดยอัตโนมัติ:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการตั้งค่าการเข้ารหัสเพื่อแทนที่การเข้ารหัสที่เลือกโดยอัตโน:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-LoadOptionsEncoding.java" >}}
 
-## โหลดเอกสารที่ถูกเข้ารหัส
+## โหลดเอกสารที่เข้ารหัส
 
-คุณโหลดได้ เอกสารคําเข้ารหัสด้วยรหัสผ่าน เพื่อทําสิ่งนี้ ใช้ตัวสร้างที่เกินความสามารถพิเศษ ซึ่งยอมรับ [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) วัตถุ วัตถุนี้บรรจุ [Password](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getPassword) คุณสมบัติซึ่งกําหนดข้อความรหัสผ่าน
+คุณสามารถป้อนเอกสารคำที่เข้ารหัสด้วยรหัสผ่าน การทำเช่นนี้ให้ใช้ตัวสร้างพิเศษเกินพิกัดซึ่งยอมรับวัตถุ[LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) อ็อบเจ็กต์นี้ประกอบด้วยคุณสมบัติ[Password](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getPassword)ซึ่งระบุสตริงรหัสผ่าน.
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีการโหลดเอกสารที่มีรหัสผ่าน:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการโหลดเอกสารที่เข้ารหัสด้วยรหัสผ่าน:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-OpenDocument-OpenEncryptedDocument.java" >}}
 
-หากคุณไม่ทราบว่าแฟ้มถูกเข้ารหัสไว้หรือไม่ คุณสามารถเรียกใช้ [FileFormatUtil](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/) คลาสซึ่งมีวิธีการจัดการประโยชน์ต่าง ๆ สําหรับการทํางานในรูปแบบแฟ้ม เช่น การตรวจสอบรูปแบบแฟ้ม หรือการแปลงนามสกุลแฟ้มเป็น/ จากรูปแบบ Uneumations เพื่อตรวจสอบว่าเอกสารถูกเข้ารหัสไว้หรือไม่ และต้องการรหัสผ่านในการเปิดมัน ให้ใช้ [IsEncrypted](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#isEncrypted) ทรัพย์สิน
+หากคุณไม่ทราบล่วงหน้าว่าแฟ้มถูกเข้ารหัสหรือไม่คุณสามารถใช้คลาสของ[FileFormatUtil](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/)ซึ่งมีวิธีการอรรถประโยชน์สำหรับการทำงานกับรูปแบบแฟ้มเช่นการตรวจหารูปแบบแฟ้มหรือการแปลงนามสกุลแฟ้มไปยัง/จากการแจงนับรูปแบบแฟ้ม เมื่อต้องการตรวจสอบว่าเอกสารถูกเข้ารหัสและต้องการรหัสผ่านเพื่อเปิดหรือไม่ให้ใช้คุณสมบัติ[IsEncrypted](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#isEncrypted).
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีตรวจสอบ OpenDocument ไม่ว่าจะเป็นการเข้ารหัสหรือไม่:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการตรวจสอบOpenDocumentไม่ว่าจะเป็นรหัสลับหรือไม่:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-VerifyODTdocument.java" >}}

@@ -7,6 +7,7 @@ description: "Track changes in documents. Apache POI does not provide an opportu
 type: docs
 weight: 50
 url: /java/track-changes-in-documents/
+timestamp: 2024-01-31-14-23-37
 ---
 
 {{% alert color="primary" %}}

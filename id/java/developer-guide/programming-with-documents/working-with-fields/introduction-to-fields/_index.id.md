@@ -7,6 +7,7 @@ description: "Fitur lapangan dalam rincian, kode lapangan dan hasil lapangan dij
 type: docs
 weight: 10
 url: /id/java/introduction-to-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words adalah perpustakaan kelas yang dirancang untuk pemrosesan sisi server Microsoft Word dokumen dan mendukung bidang dengan cara berikut:
@@ -36,7 +37,7 @@ Berikut adalah pandangan tentang bagaimana lapangan disimpan di Meme it Aspose.W
 
 ## Sitemap Aspose.Words Document Object Model SitemapDOMSitemap
 
-Ketika dokumen dimuat ke <span notrans="<span notrans=" Aspose.Words"=""></span>Sitemap bidang dokumen dimuat ke dalam Meme it Aspose.Words Document Object Model sebagai set komponen terpisah (nodes). Bidang tunggal dimuat sebagai koleksi **FieldStart**, **FieldSeparator** Login **FieldEnd** node bersama dengan konten di antara node ini. Jika lapangan tidak memiliki hasil lapangan maka tidak akan ada **FieldSeparator** Login Semua node ini selalu ditemukan dalam garis (seperti anak-anak dari [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) Sitemap [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/)Sitemap
+Ketika dokumen dimuat ke Aspose.WordsSitemap bidang dokumen dimuat ke dalam Meme it Aspose.Words Document Object Model sebagai set komponen terpisah (nodes). Bidang tunggal dimuat sebagai koleksi **FieldStart**, **FieldSeparator** Login **FieldEnd** node bersama dengan konten di antara node ini. Jika lapangan tidak memiliki hasil lapangan maka tidak akan ada **FieldSeparator** Login Semua node ini selalu ditemukan dalam garis (seperti anak-anak dari [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) Sitemap [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/)Sitemap
 
 Sitemap Aspose.Words masing-masing **FieldXXX** node berasal dari [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/)Sitemap Kelas ini memberikan properti untuk memeriksa jenis lapangan yang diwakili oleh node yang ditentukan melalui [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) Login Sitemap `FieldType.FieldMergeField` mewakili bidang gabungan dalam dokumen.
 
@@ -173,9 +174,9 @@ Aspose.Words mendukung semua tombol format tanggal dan waktu yang tersedia Micro
 
 ### Mail Merge Login
 
-Aspose.Words tidak ada batasan pada kompleksitas mail merge bidang dalam dokumen Anda dan mendukung sarang `IF` dan kolom formula dan bahkan dapat menghitung nama gabungan lapangan menggunakan formula.
+Aspose.Words tidak ada batasan pada kompleksitas Mail Merge bidang dalam dokumen Anda dan mendukung sarang `IF` dan kolom formula dan bahkan dapat menghitung nama gabungan lapangan menggunakan formula.
 
-Beberapa contoh mail merge Login Aspose.Words dukungan:
+Beberapa contoh Mail Merge Login Aspose.Words dukungan:
 
 - Login Mail merge switch lapangan:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -222,6 +223,6 @@ Di sisi lain, Microsoft Word format setiap bidang individu berdasarkan bahasa te
 
 Login [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) kelas menyediakan [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/document/#getFieldOptions) properti yang berisi anggota yang dapat digunakan untuk mengontrol bagaimana bidang diperbarui dalam dokumen.
 
-Contoh kode berikut menunjukkan cara menentukan di mana budaya yang digunakan untuk pemformatan tanggal selama pembaruan lapangan dan mail merge dipilih:
+Contoh kode berikut menunjukkan cara menentukan di mana budaya yang digunakan untuk pemformatan tanggal selama pembaruan lapangan dan Mail Merge dipilih:
 
 Login

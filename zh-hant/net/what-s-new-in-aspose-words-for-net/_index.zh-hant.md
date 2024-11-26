@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words for .NET 每天都擴展和提升。 在這個頁面，你可以學習關於產品巨大的和最令人感興趣的特點。"
 weight: 10
 url: /zh-hant/net/what-s-new-in-aspose-words-for-net/
+timestamp: 2024-11-18-12-56-02
 ---
 
 本頁面描述最近版本引入的最有趣新 Aspose.Words 功能。

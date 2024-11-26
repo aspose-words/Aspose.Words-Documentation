@@ -7,6 +7,7 @@ description: "Розбити таблицю в Pythonй Як розбити од
 type: docs
 weight: 100
 url: /uk/python-net/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Стіл, представлений в таблиці Aspose.Words Document Object Model, складається з незалежних рядків і клітин, що дозволяє легко розбити стіл.

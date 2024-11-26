@@ -7,6 +7,7 @@ description: "SharePoint で共有されている Word を C# を使用して PD
 type: docs
 weight: 20
 url: /ja/net/work-with-document-stored-in-sharepoint/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Microsoft SharePoint Online は、組織がデジタル情報を簡単に保存、共有、管理できるようにする Web ベースのテクノロジーのコレクションです。 .NET 用の強力な Aspose.Words を使用して、SharePoint の「共有ドキュメント」フォルダーに保存されているドキュメントを操作できます。

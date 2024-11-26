@@ -7,6 +7,7 @@ description: "Định dạng phông chữ chi tiết bằng C#. Dấu nhấn m�
 type: docs
 weight: 230
 url: /vi/net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Phông chữ là một tập hợp các ký tự có kích thước, màu sắc và kiểu dáng nhất định. Aspose.Words cho phép bạn làm việc với các phông chữ bằng cách sử dụng không gian tên [Fonts](https://reference.aspose.com/words/net/aspose.words.fonts/) và lớp [Font](https://reference.aspose.com/words/net/aspose.words/font/).

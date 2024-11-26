@@ -7,6 +7,7 @@ description: "تتميز الحقول بالتفاصيل ورموز الحقول
 type: docs
 weight: 10
 url: /ar/net/fields-overview/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words هي مكتبة فئة مصممة لمعالجة مستندات Microsoft Word من جانب الخادم وتدعم الحقول بالطرق التالية:
@@ -173,9 +174,9 @@ Aspose.Words هي مكتبة فئة مصممة لمعالجة مستندات Mic
 
 ### حقول Mail Merge
 
-لا يفرض Aspose.Words أي حد على مدى تعقيد حقول mail merge في مستنداتك ويدعم حقول `IF` وحقول الصيغة المتداخلة ويمكنه أيضًا حساب اسم حقل الدمج باستخدام صيغة.
+لا يفرض Aspose.Words أي حد على مدى تعقيد حقول Mail Merge في مستنداتك ويدعم حقول `IF` وحقول الصيغة المتداخلة ويمكنه أيضًا حساب اسم حقل الدمج باستخدام صيغة.
 
-بعض الأمثلة على حقول mail merge التي يدعمها Aspose.Words:
+بعض الأمثلة على حقول Mail Merge التي يدعمها Aspose.Words:
 
 - مفاتيح حقل Mail merge:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`

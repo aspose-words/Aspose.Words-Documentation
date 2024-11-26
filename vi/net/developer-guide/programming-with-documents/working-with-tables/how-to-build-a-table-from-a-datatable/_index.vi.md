@@ -1,12 +1,13 @@
 ---
-title: Cách tạo bảng từ `DataTable` trong C#
+title: Cách tạo bảng từ DataTable trong C#
 second_title: Aspose.Words cho .NET
-articleTitle: Xây dựng bảng từ `DataTable`
-linktitle: Xây dựng bảng từ `DataTable`
+articleTitle: Xây dựng bảng từ DataTable
+linktitle: Xây dựng bảng từ DataTable
 description: "Ví dụ về điền bảng tài liệu từ cơ sở dữ liệu bên ngoài bằng C#."
 type: docs
 weight: 120
 url: /vi/net/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Thông thường, ứng dụng của bạn sẽ lấy dữ liệu từ cơ sở dữ liệu và lưu trữ dưới dạng **DataTable**. Bạn có thể dễ dàng chèn dữ liệu này vào tài liệu của mình dưới dạng bảng mới và nhanh chóng áp dụng định dạng cho toàn bộ bảng.

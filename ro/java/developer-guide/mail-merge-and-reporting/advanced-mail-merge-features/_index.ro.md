@@ -1,26 +1,27 @@
-﻿---
+---
 title: Funcții avansate Mail Merge în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Funcții Avansate Mail Merge
 linktitle: Funcții Avansate Mail Merge
 type: docs
-description: "Aspose.Words pentru Java oferă câteva funcții avansate mail merge care vă permit să efectuați mai multe personalizări mail merge. De exemplu, obținerea de informații despre structura șablonului, stabilirea regulilor, curățarea după o operație mail merge și altele."
-keywords: "use advanced mail merge features java, mail merge java"
+description: "Aspose.Words pentru Java oferă câteva funcții avansate Mail Merge care vă permit să efectuați mai multe personalizări mail merge. De exemplu, obținerea de informații despre structura șablonului, stabilirea regulilor, curățarea după o operație Mail Merge și altele."
+keywords: "use advanced Mail Merge features java, Mail Merge java"
 weight: 50
 url: /ro/java/advanced-mail-merge-features/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words oferă câteva proprietăți și metode suplimentare mail merge care vă permit să efectuați personalizarea ulterioară a procesului mail merge fie în mail merge simplu, fie în mail merge cu regiuni.
+Aspose.Words oferă câteva proprietăți și metode suplimentare Mail Merge care vă permit să efectuați personalizarea ulterioară a procesului Mail Merge fie în Mail Merge simplu, fie în Mail Merge cu regiuni.
 
-Caracteristicile avansate mail merge includ, dar nu se limitează la, obținerea de informații despre structura șablonului înainte de a efectua o operație mail merge, setarea regulilor pentru o operație mail merge și curățarea în timpul unei operații mail merge. Acest articol va acoperi doar câteva proprietăți și exemple pentru a vă arăta cum să utilizați funcții avansate.
+Caracteristicile avansate Mail Merge includ, dar nu se limitează la, obținerea de informații despre structura șablonului înainte de a efectua o operație mail merge, setarea regulilor pentru o operație Mail Merge și curățarea în timpul unei operații mail merge. Acest articol va acoperi doar câteva proprietăți și exemple pentru a vă arăta cum să utilizați funcții avansate.
 
 ## Stabiliți reguli pentru operațiunile Mail Merge
 
 Adăugarea de reguli la șablonul dvs. vă permite să faceți procesul de flux de lucru mai eficient și mai flexibil. Folosind regulile mail merge, puteți configura conținut care poate fi schimbat rapid și puteți evita necesitatea de a genera mai multe documente.
 
-Aspose.Words vă permite să personalizați mail merge pe baza regulilor care se execută atunci când efectuați operația mail merge și controlați informațiile de îmbinare. De exemplu, când creați un e-mail sau o scrisoare pe care să o trimiteți tuturor clienților dvs. Puteți configura o regulă astfel încât scrisoarea să poată conține diverse date pe baza diferitelor valori din anumite câmpuri ale sursei dvs. de date.
+Aspose.Words vă permite să personalizați Mail Merge pe baza regulilor care se execută atunci când efectuați operația Mail Merge și controlați informațiile de îmbinare. De exemplu, când creați un e-mail sau o scrisoare pe care să o trimiteți tuturor clienților dvs. Puteți configura o regulă astfel încât scrisoarea să poată conține diverse date pe baza diferitelor valori din anumite câmpuri ale sursei dvs. de date.
 
-Aruncați o privire la câteva reguli mail merge pe care le puteți implementa.
+Aruncați o privire la câteva reguli Mail Merge pe care le puteți implementa.
 
 ### Implementați câmpul următor pentru a îmbina înregistrările de date în documentul curent
 
@@ -76,7 +77,7 @@ Puteți descărca fișierul eșantion al acestui exemplu din [Aspose.Words GitHu
 
 ### Adăugați Câmpuri Mapate
 
-Aspose.Words vă permite să mapați automat numele câmpurilor din sursa de date și numele câmpurilor mail merge din șablon folosind proprietatea [MappedDataFields](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getMappedDataFields). De exemplu, dacă aveți un nume de câmp numit "nume de familie" în șablonul dvs. și în sursa de date aveți numele câmpului "Nume de familie" sau o altă variantă, cum ar fi "Last_Name" sau "LastName", atunci câmpul din sursa de date se va mapa automat la câmpul mapat corespunzător. Dacă un șablon de îmbinare urmează să fie îmbinat cu mai multe surse de date, câmpurile mapate fac inutilă reintroducerea câmpurilor în șablon pentru a fi de acord cu numele câmpurilor din Baza de date.
+Aspose.Words vă permite să mapați automat numele câmpurilor din sursa de date și numele câmpurilor Mail Merge din șablon folosind proprietatea [MappedDataFields](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getMappedDataFields). De exemplu, dacă aveți un nume de câmp numit "nume de familie" în șablonul dvs. și în sursa de date aveți numele câmpului "Nume de familie" sau o altă variantă, cum ar fi "Last_Name" sau "LastName", atunci câmpul din sursa de date se va mapa automat la câmpul mapat corespunzător. Dacă un șablon de îmbinare urmează să fie îmbinat cu mai multe surse de date, câmpurile mapate fac inutilă reintroducerea câmpurilor în șablon pentru a fi de acord cu numele câmpurilor din Baza de date.
 
 Următorul exemplu de cod arată cum să adăugați un câmp mapat folosind metoda [Add](https://reference.aspose.com/words/java/com.aspose.words/mappeddatafieldcollection/#add-java.lang.String-java.lang.String) atunci când un câmp de îmbinare dintr-un șablon și un câmp de date dintr-o sursă de date au nume diferite:
 

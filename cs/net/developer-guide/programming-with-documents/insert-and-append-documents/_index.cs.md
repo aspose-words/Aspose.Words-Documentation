@@ -7,6 +7,7 @@ description: "Kombinovat dokumenty do jednoho: vložit nebo připojit dokument d
 type: docs
 weight: 80
 url: /cs/net/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Někdy je třeba kombinovat několik dokumentů do jednoho. Můžete to udělat ručně nebo můžete použít Aspose.Words vložit nebo přidat funkci.
@@ -49,7 +50,7 @@ Následující příklad kódu ukazuje, jak při hledání a nahrazení operace 
 
 ### Vložit dokument během Mail Merge Činnost {#insert-a-document-during-mail-merge-operation}
 
-Můžete vložit dokument do pole sloučení během mail merge operace. Například: mail merge šablona může obsahovat pole sloučení jako např. [Summary]. Ale do konečného dokumentu musíte vložit obsah získaný z jiného externího dokumentu do tohoto pole sloučení. K dosažení tohoto cíle budete muset vytvořit spojku pro událost sloučení.
+Můžete vložit dokument do pole sloučení během Mail Merge operace. Například: Mail Merge šablona může obsahovat pole sloučení jako např. [Summary]. Ale do konečného dokumentu musíte vložit obsah získaný z jiného externího dokumentu do tohoto pole sloučení. K dosažení tohoto cíle budete muset vytvořit spojku pro událost sloučení.
 
 Následující příklad kódu ukazuje, jak vytvořit manipulátor pro fúzující událost k použití později v procesu vložení:
 

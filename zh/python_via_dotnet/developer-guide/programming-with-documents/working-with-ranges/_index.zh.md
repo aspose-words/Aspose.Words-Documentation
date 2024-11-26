@@ -7,6 +7,7 @@ description: "使用 Python 处理文档中的范围。"
 type: docs
 weight: 130
 url: /zh/python-net/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

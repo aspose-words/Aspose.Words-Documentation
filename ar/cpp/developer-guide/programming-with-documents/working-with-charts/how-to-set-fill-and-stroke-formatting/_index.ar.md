@@ -1,4 +1,4 @@
-﻿---
+---
 title: العمل مع الرسوم البيانية في C++
 second_title: Aspose.Words ل C++
 articleTitle: العمل مع الرسوم البيانية
@@ -7,6 +7,7 @@ description: "مقدمة في ميزة الرسم البياني، وكيفية 
 type: docs
 weight: 170
 url: /ar/cpp/how-to-set-fill-and-stroke-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 يمكن تعيين تنسيق التعبئة والسكتة الدماغية لسلسلة المخططات ونقاط البيانات والعلامات. للقيام بذلك، تحتاج إلى استخدام خصائص **ChartFormat** اكتب في **ChartSeries**، **ChartDataPoint**، و **ChartMarker** الطبقات، وكذلك الأسماء المستعارة لبعض الخصائص، مثل ForeColor، BackColor، مرئية، والشفافية في فئة `Stroke`.

@@ -7,6 +7,7 @@ description: "Chỉ định vị trí của bảng trong Java. Nhận căn lề 
 type: docs
 weight: 50
 url: /vi/java/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Có bảng nổi và bảng inline:

@@ -7,6 +7,7 @@ description: "Kontrol proses pemuatan lebih akurat menggunakan C#."
 type: docs
 weight: 10
 url: /id/net/specify-load-options/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Saat memuat dokumen, Anda dapat mengatur beberapa properti lanjutan. Aspose.Words memberi Anda kelas [LoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/), yang memungkinkan kontrol proses pemuatan yang lebih tepat. Beberapa format pemuatan memiliki kelas terkait yang berisi opsi pemuatan untuk format pemuatan ini, misalnya, ada [PdfLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/) untuk memuat ke format PDF atau [TxtLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/) untuk memuat ke TXT. Artikel ini memberikan contoh bekerja dengan opsi kelas **LoadOptions**.

@@ -7,6 +7,7 @@ description: "Práce s textovými schránkami v dokumentu pomocí Python."
 type: docs
 weight: 250
 url: /cs/python-net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In Aspose.Words, [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) třída se používá k určení, jak je text zobrazen uvnitř tvaru. Poskytuje veřejný majetek s názvem [parent](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/parent/) získat mateřský tvar textového pole, aby zákazník mohl najít odkaz [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) od propojeného [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/).

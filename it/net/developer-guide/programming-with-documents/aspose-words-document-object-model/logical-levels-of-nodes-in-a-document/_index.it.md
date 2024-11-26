@@ -7,6 +7,7 @@ type: docs
 description: "Nella documentazione Aspose.Words per .NET sono menzionati i livelli logici dei nodi: livello di blocco, livello in linea o livello di riga utilizzando C#. Il livello del nodo viene utilizzato per descrivere la posizione nell'albero del documento in cui si trova generalmente il nodo."
 weight: 10
 url: /it/net/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Questa documentazione a volte fa riferimento a un gruppo di classi di nodi come appartenenti a un "livello" in un documento, come i nodi "a livello di blocco", "a livello in linea" (noto anche come "in linea") o "a livello di riga". Questi livelli in un documento sono differenziati in modo puramente logico e non sono espressi esplicitamente tramite ereditarietà o altri mezzi Aspose.Words DOM. Il livello del nodo viene utilizzato per descrivere la posizione nell'albero del documento in cui normalmente si trova il nodo.

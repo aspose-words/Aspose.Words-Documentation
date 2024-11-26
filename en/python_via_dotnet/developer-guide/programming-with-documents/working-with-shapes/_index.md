@@ -10,6 +10,7 @@ url: /python-net/working-with-shapes/
 aliases:
 - /python/working-with-shapes/
 - /python/working-with-graphic-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 This topic discusses how to work programmatically with shapes using Aspose.Words.

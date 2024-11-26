@@ -1,4 +1,4 @@
-﻿---
+---
 title: Inserting Fields
 second_title: Aspose.Words for JasperReports
 articleTitle: Inserting Fields
@@ -7,6 +7,7 @@ description: "Aspose.Words for JasperReports provides a unique feature that allo
 type: docs
 weight: 60
 url: /jasperreports/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

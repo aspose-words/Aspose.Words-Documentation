@@ -1,64 +1,65 @@
----
-title: ทํางานกับวอเตอร์มาร์ค Java
-second_title: Aspose.Words สําหรับ Java
-articleTitle: ทํางานกับลายน้ํา
-linktitle: ทํางานกับลายน้ํา
+﻿---
+title: การทำงานกับลายน้ำในJava
+second_title: Aspose.WordsสำหรับJava
+articleTitle: การทำงานกับลายน้ำ
+linktitle: การทำงานกับลายน้ำ
 type: docs
-description: "การจัดการลายน้ําของเอกสารโดยใช้ Java."
+description: "การจัดการลายน้ำเอกสารโดยใช้Java."
 weight: 70
 url: /th/java/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
-หัว เรื่อง นี้ พิจารณา วิธี ที่ จะ ทํา งาน โดย ใช้ เครื่องหมาย น้ํา Aspose.Words. ลาย น้ํา คือ ภาพ ฉาก หลัง ซึ่ง แสดง อยู่ ด้าน หลัง ของ ข้อ ความ ใน เอกสาร. เครื่องหมายน้ําสามารถบรรจุข้อความหรือภาพที่แสดงโดย [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) ชั้นเรียน.
+หัวข้อนี้กล่าวถึงวิธีการทำงานตามโปรแกรมด้วยลายน้ำโดยใช้Aspose.Words ลายน้ำเป็นภาพพื้นหลังที่แสดงอยู่เบื้องหลังข้อความในเอกสาร ลายน้ำสามารถประกอบด้วยข้อความหรือรูปภาพที่แสดงโดยคลาสของ[Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/).
 
 {{% alert color="primary" %}}
 
-**ลองออนไลน์ดูสิ**
+**ลองออนไลน์**
 
-คุณสามารถลองใช้ฟังก์ชันนี้กับ [ทําเครื่องหมายน้ําในเอกสารออนไลน์แบบฟรี](https://products.aspose.app/words/watermark).
+คุณสามารถลองฟังก์ชั่นนี้กับเรา [ลายน้ำเอกสารออนไลน์ฟรี](https://products.aspose.app/words/watermark).
 
 {{% /alert %}}
 
-## เพิ่มลายน้ําเป็นเอกสาร
+## เพิ่มลายน้ำในเอกสาร
 
-ใน Microsoft Word, สามารถแทรกลายน้ําในเอกสารได้โดยง่าย โดยใช้คําสั่งแทรกลายน้ํา Aspose.Words ให้ [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) คลาสที่จะเพิ่มหรือลบลายน้ําในเอกสาร Aspose.Words ให้ [ลายน้ํา ชนิด](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)การ ผสม พันธุ์ กําหนด เครื่องหมาย น้ํา สาม ชนิด ที่ อาจ เป็น ไป ได้ (ข้อความ, ภาพ, และ ไม่ มี เลย) ให้ ใช้
+ในMicrosoft Wordลายน้ำสามารถแทรกลงในเอกสารโดยใช้คำสั่งแทรกลายน้ำ Aspose.Wordsให้[watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/)คลาสที่จะเพิ่มหรือลบลายน้ำในเอกสาร. Aspose.Wordsให้การแจงนับ[WatermarkType](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)กำหนดสามประเภทที่เป็นไปได้ของลายน้ำ(ข้อความ,ภาพ,และไม่มี)ที่จะทำงา
 
-### เพิ่มลายน้ําข้อความ
+### เพิ่มลายน้ำข้อความ
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกลายน้ําข้อความในเอกสารโดยนิยาม [TextWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/textwatermarkoptions/) ใช้ [SetText](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setText-java.lang.String) วิธีการ:
+ตัวอย่างรหัสต่อไปนี้แสดงให้เห็นถึงวิธีการแทรกลายน้ำข้อความในเอกสารโดยการกำหนด[TextWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/textwatermarkoptions/)โดยใช้วิธีการ[SetText](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setText-java.lang.String):
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddTextWatermarkWithSpecificOptions.java" >}}
 
-### เพิ่มลายน้ํารูปภาพ
+### เพิ่มลายน้ำภาพ
 
-ตัวอย่างรหัสต่อไปนี้แสดงถึงวิธีการใส่เครื่องหมายอิมเมจในเอกสารโดยนิยาม [ImageWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/imagewatermarkoptions/) ใช้ [SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.awt.image.BufferedImage) วิธีการ:
+ตัวอย่างรหัสต่อไปนี้แสดงให้เห็นถึงวิธีการแทรกลายน้ำภาพในเอกสารโดยการกำหนด[ImageWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/imagewatermarkoptions/)โดยใช้วิธีการ[SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.awt.image.BufferedImage):
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.java" >}}
 
-นอก จาก นี้ ยัง สามารถ ใส่ เครื่องหมาย น้ํา ได้ โดย ใช้ ชั้น รูป ทรง ด้วย. เป็น เรื่อง ง่าย มาก ที่ จะ สอด รูป แบบ หรือ รูป ปั้น ใด ๆ เข้า ไป ใน หัว เรือ หรือ ท้าย เรือ และ ด้วย เหตุ นี้ จึง สร้าง เครื่องหมาย น้ํา ของ รูป แบบ ใด ๆ ที่ นึก ออก.
+ลายน้ำยังสามารถแทรกโดยใช้ชั้นเรียนรูปร่างได้เป็นอย่างดี มันเป็นเรื่องง่ายมากที่จะแทรกรูปร่างหรือภาพใดๆลงในส่วนหัวหรือส่วนท้ายและทำให้การส.
 
-ตัวอย่างโค้ดต่อไปนี้ จะแทรกลายน้ําลงในเอกสารคํา:
+ตัวอย่างรหัสต่อไปนี้แทรกลงในเอกสารคำ:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-AddWatermarkToADocument-AddWatermarkToADocument.java" >}}
 
 {{% alert color="primary" %}}
 
-คุณสามารถดาวน์โหลดแฟ้มตัวอย่างของตัวอย่างนี้ได้ [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
+คุณสามารถดาวน์โหลดไฟล์ตัวอย่างของตัวอย่างนี้ได้จาก [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
 
 {{% /alert %}}
 
 
-## ลบลายน้ําออกจากเอกสาร
+## ลบลายน้ำออกจากเอกสาร
 
-เดอะ [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) ชั้นเรียนจัดหา `Remove` วิธีการลบเครื่องหมายน้ําออกจากเอกสาร
+คลาส[Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/)มีวิธีการ`Remove`เพื่อลบลายน้ำออกจากเอกสาร.
 
-ตัว อย่าง รหัส ต่อ ไป นี้ แสดง ให้ เห็น วิธี ลบ เครื่องหมาย น้ํา ออก จาก เอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการเอาลายน้ำออกจากเอกสาร:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-RemoveWatermarkFromDocument.java" >}}
 
-เพื่อลบลายน้ําออกจากเอกสาร คุณจะต้องกําหนดชื่อลายน้ําเท่านั้น ระหว่างการแทรก แล้วลบลายน้ําออก โดยใช้ชื่อที่กําหนด
+เมื่อต้องการเอาลายน้ำออกจากเอกสารที่คุณต้องตั้งค่าเฉพาะชื่อของรูปร่างลายน้ำในระ.
 
-ตัวอย่างรหัสต่อไปนี้ แสดงวิธีตั้งชื่อลายน้ํา และลบออกจากเอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการตั้งค่าชื่อของรูปร่างลายน้ำและลบออกจากเอกสาร:
 
 {{< highlight csharp >}}
 
@@ -68,10 +69,10 @@ watermark.Name("WaterMark");
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-RemoveWatermark-RemoveWatermark.java" >}}
 
-## เพิ่มลายน้ําลงในตารางเซลล์
+## เพิ่มลายน้ำลงในเซลล์ตาราง
 
-บางครั้งคุณจําเป็นต้องใส่เครื่องหมาย/ภาพลงในเซลล์ของตารางและแสดงมันนอกตารางสามารถใช้ [IsLayoutInCell](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#isLayoutInCell-boolean) ทรัพย์สิน คุณสมบัตินี้จะใช้รับหรือตั้งธงเพื่อแสดงว่ามีการแสดงในตารางหรือข้างนอก ควรจําไว้ว่า คุณสมบัตินี้ใช้ได้เมื่อคุณทําการแก้ไขเอกสารให้เหมาะสมที่สุด Microsoft Word 2010 ใช้ [OptimizeFor](https://reference.aspose.com/words/java/com.aspose.words/compatibilityoptions/#optimizeFor-int) วิธี
+บางครั้งคุณต้องใส่ลายน้ำ/ภาพลงในเซลล์ของตารางและแสดงนอกโต๊ะคุณสามารถใช้[IsLayoutInCell](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#isLayoutInCell-boolean)คุณสมบัติ คุณสมบัตินี้ได้รับหรือตั้งค่าสถานะที่ระบุว่ารูปร่างจะแสดงภายในตารางหรือภายนอกของมัน โปรดทราบว่าคุณสมบัตินี้ทำงานเฉพาะเมื่อคุณเพิ่มประสิทธิภาพเอกสารสำหรับMicrosoft Word2010 โดยใช้วิธี[OptimizeFor](https://reference.aspose.com/words/java/com.aspose.words/compatibilityoptions/#optimizeFor-int)
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการใช้คุณสมบัตินี้:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีใช้คุณสมบัตินี้:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-SetShapeLayoutInCell.java" >}}

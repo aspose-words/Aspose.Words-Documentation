@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET 中的编号格式功能简介。"
 type: docs
 weight: 200
 url: /zh/net/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word 文档中的列表是一组段落格式属性。列表可在文档中用于构建、排列和突出显示文本。列表是组织文档中数据的好方法，可以让读者轻松吸收和理解要点。

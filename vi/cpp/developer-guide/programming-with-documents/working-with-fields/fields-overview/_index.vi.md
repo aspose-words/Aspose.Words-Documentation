@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tổng quan về các trường trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Tổng Quan Về Lĩnh Vực
@@ -7,6 +7,7 @@ description: "Các trường tính năng chi tiết, mã trường và kết qu�
 type: docs
 weight: 10
 url: /vi/cpp/fields-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words là một thư viện lớp được thiết kế để xử lý phía máy chủ các tài liệu Microsoft Word và hỗ trợ các trường theo các cách sau:
@@ -173,9 +174,9 @@ Aspose.Words hỗ trợ tất cả các công tắc định dạng ngày và gi�
 
 ### Mail Merge Trường
 
-Aspose.Words không giới hạn độ phức tạp của các trường mail merge trong tài liệu của bạn và hỗ trợ các trường `IF` và công thức lồng nhau và thậm chí có thể tính toán tên của trường hợp nhất bằng công thức.
+Aspose.Words không giới hạn độ phức tạp của các trường Mail Merge trong tài liệu của bạn và hỗ trợ các trường `IF` và công thức lồng nhau và thậm chí có thể tính toán tên của trường hợp nhất bằng công thức.
 
-Một số ví dụ về các trường mail merge mà Aspose.Words hỗ trợ:
+Một số ví dụ về các trường Mail Merge mà Aspose.Words hỗ trợ:
 
 - Công tắc trường Mail merge:
 `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -222,6 +223,6 @@ Mặt khác, Microsoft Word định dạng từng trường riêng lẻ dựa tr
 
 Lớp [Document](https://reference.aspose.com/words/cpp/class/aspose.words.document) cung cấp thuộc tính [FieldOptions](https://reference.aspose.com/words/cpp/aspose.words/document/get_fieldoptions/) chứa các thành viên có thể được sử dụng để kiểm soát cách các trường được cập nhật trong tài liệu.
 
-Ví dụ mã sau đây cho thấy cách chỉ định văn hóa được sử dụng để định dạng ngày trong quá trình cập nhật trường và mail merge được chọn từ đâu:
+Ví dụ mã sau đây cho thấy cách chỉ định văn hóa được sử dụng để định dạng ngày trong quá trình cập nhật trường và Mail Merge được chọn từ đâu:
 
 EXAMPLE

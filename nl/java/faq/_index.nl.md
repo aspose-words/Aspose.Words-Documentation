@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words voor Java beantwoordt de meest gestelde vragen. Leer deze pagina om snel uw probleem op te lossen over algemene vragen of specifieke onderwerpen."
 weight: 75
 url: /nl/java/faq/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Deze pagina bevat antwoorden op de meest gestelde vragen. Gelieve de huidige pagina te leren, misschien kunt u hiermee uw probleem snel oplossen.
@@ -120,7 +121,7 @@ Jawel. Houd daarom bij het kopiëren van lettertypen in gedachten dat de meeste 
 
 {{% alert color="primary" %}}
 
-Meer informatie over mail merge in de [Mail Merge en relatie](/words/java/mail-merge-and-reporting/) documentatiesectie.
+Meer informatie over Mail Merge in de [Mail Merge en relatie](/words/java/mail-merge-and-reporting/) documentatiesectie.
 
 {{% /alert %}}
 
@@ -135,7 +136,7 @@ De oorspronkelijke naam van het merge-veld blijft hetzelfde zonder vervangen te 
 
 **Q: Waarom toont de output van geneste samenvoegen geen gegevens uit de dochtertabel voor de eerste regel in de oudertabel, maar toont alle items voor de laatste regel in de oudertabel, zelfs die welke er eigenlijk niet aan gekoppeld zijn?**
 
-Dit komt omdat de merge regio's in het sjabloon niet correct gevormd zijn, waardoor alle geneste mail merge De Voorzitter. - Het debat is gesloten. De [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) openingstag en de [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) sluiten tag moet overeenkomen en in dezelfde rij of cel. Als je bijvoorbeeld regio's begint te broeden in een cel van een tabel, moet je het mergegebied beëindigen in dezelfde rij als de eerste cel.
+Dit komt omdat de merge regio's in het sjabloon niet correct gevormd zijn, waardoor alle geneste Mail Merge De Voorzitter. - Het debat is gesloten. De [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) openingstag en de [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) sluiten tag moet overeenkomen en in dezelfde rij of cel. Als je bijvoorbeeld regio's begint te broeden in een cel van een tabel, moet je het mergegebied beëindigen in dezelfde rij als de eerste cel.
 
 ------
 

@@ -7,6 +7,7 @@ description: "Porównaj dwa dokumenty w dowolnych obsługiwanych formatach i pok
 type: docs
 weight: 60
 url: /pl/net/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Porównywanie dokumentów to proces, który identyfikuje zmiany między dwoma dokumentami i traktuje zmiany jako poprawki. W procesie tym porównywane są dowolne dwa dokumenty, w tym wersje jednego konkretnego dokumentu, a następnie zmiany między obydwoma dokumentami zostaną pokazane jako poprawki w pierwszym dokumencie.

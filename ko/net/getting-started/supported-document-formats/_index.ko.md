@@ -7,6 +7,7 @@ type: docs
 description: "널리 사용되는 다양한 형식의 소스 문서를 편집하고 C#를 사용하여 파일을 한 형식에서 다른 형식으로 자유롭게 변환할 수 있습니다."
 weight: 20
 url: /ko/net/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

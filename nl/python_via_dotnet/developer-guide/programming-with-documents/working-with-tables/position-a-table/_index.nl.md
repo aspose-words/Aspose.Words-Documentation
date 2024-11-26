@@ -7,6 +7,7 @@ description: "Tabelpositie opgeven in Python. Krijg een tabel uitlijning, krijge
 type: docs
 weight: 50
 url: /nl/python-net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Er zijn drijvende tabellen en inline tabellen:

@@ -1,79 +1,80 @@
----
-title: Lavorare con il documento di testo in Java
+﻿---
+title: Utilizzo del documento di testo in Java
 second_title: Aspose.Words per Java
 articleTitle: Lavorare con il documento di testo
 linktitle: Lavorare con il documento di testo
-description: "Elaborazione di documenti TXT avanzata, liste, BiDi, intestazioni/footer, utilizzando Java."
+description: "Elaborazione avanzata di documenti TXT, elenchi, BiDi, intestazioni/piè di pagina, utilizzando Java."
 type: docs
 weight: 430
 url: /it/java/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
-In questo articolo impareremo quali opzioni possono essere utili per lavorare con un documento di testo tramite Aspose.Words. Si prega di notare che questo non è un elenco completo di opzioni disponibili, ma solo un esempio di lavorare con alcuni di loro.
+In questo articolo, impareremo quali opzioni possono essere utili per lavorare con un documento di testo tramite Aspose.Words. Si prega di notare che questo non è un elenco completo delle opzioni disponibili, ma solo un esempio di lavoro con alcune di esse.
 
-## Aggiungi Bi-Directional Marchi
+## Aggiungi segni bidirezionali
 
-È possibile utilizzare [AddBidiMarks](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getAddBidiMarks) proprietà per specificare se aggiungere segni bidirezionali prima di ogni BiDi eseguire quando esportare in formato testo normale. Aspose.Words inserisce Unicode Character 'RIGHT-TO-LEFT MARK' (U+200F) prima di ogni bidirezionale Eseguire in testo. Questa opzione corrisponde a "Aggiungi segni bidirezionali" opzione nella finestra di dialogo MS Word File Conversion quando si esporta in un formato di testo normale. Si noti che appare nella finestra di dialogo solo se una qualsiasi delle lingue di editing arabo o ebraico sono aggiunti in MS Word.
+È possibile utilizzare la proprietà [AddBidiMarks](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getAddBidiMarks) per specificare se aggiungere segni bidirezionali prima di ogni esecuzione di BiDi durante l'esportazione in formato testo normale. Aspose.Words inserisce carattere Unicode'RIGHT-TO-LEFT MARK' (U+200F) prima di ogni esecuzione bidirezionale nel testo. Questa opzione corrisponde all'opzione "Aggiungi segni bidirezionali" nella finestra di dialogo di conversione file MS Word quando si esporta in un formato di testo normale. Si noti che appare nella finestra di dialogo solo se una delle lingue di modifica in arabo o ebraico viene aggiunta in MS Word.
 
-Il seguente esempio di codice mostra come utilizzare `TxtSaveOptions.AddBidiMarks` proprieta'. Il valore predefinito di questa proprietà è *true*:
+L'esempio di codice seguente mostra come utilizzare la proprietà `TxtSaveOptions.AddBidiMarks`. Il valore predefinito di questa proprietà è *true*:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-AddBidiMarks.java" >}}
 
-## Riconoscere gli elementi della lista durante il caricamento TXT
+## Riconoscere gli elementi dell'elenco durante il caricamento TXT
 
-Aspose.Words può importare l'elemento elenco di un file di testo come numeri di elenco o testo normale nel suo modello di oggetto documento. The [DetectNumberingWithWhitespaces](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getDetectNumberingWithWhitespaces) la proprietà consente di specificare come gli elementi di elenco numerati sono riconosciuti quando un documento viene importato dal formato di testo normale:
+Aspose.Words può importare un elemento di elenco di un file di testo come numeri di elenco o testo normale nel modello a oggetti del documento. La proprietà [DetectNumberingWithWhitespaces](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getDetectNumberingWithWhitespaces) consente di specificare come gli elementi di elenco numerati vengono riconosciuti quando un documento viene importato dal formato di testo normale:
 
-* # Se questa opzione è impostata su *true*, whitespaces sono utilizzati anche come list number delimiters: elenco algoritmo di riconoscimento per la numerazione in stile arabo (1., 1.1.2.) utilizza sia whitespaces che dot (".") simboli.
-* # Se questa opzione è impostata su *false*, l'algoritmo di riconoscimento delle liste rileva i paragrafi dell'elenco, quando i numeri dell'elenco terminano con i simboli del punto, della parentesi destra o del proiettile (come "•", "*", "-" o "o").
+* Se questa opzione è impostata su *true*, gli spazi bianchi vengono utilizzati anche come delimitatori di numeri di lista: algoritmo di riconoscimento delle liste per la numerazione in stile arabo( 1., 1.1.2.) utilizza sia gli spazi bianchi che i simboli dot (".").
+* Se questa opzione è impostata su *false*, l'algoritmo di riconoscimento elenchi rileva i paragrafi di elenco, quando i numeri di elenco terminano con simboli punto, parentesi quadre o punto (ad esempio "•", "*", "-" o "o").
 
 Il seguente esempio di codice mostra come utilizzare questa proprietà:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-DetectNumberingWithWhitespaces.java" >}}
 
-## Maniglia Leading e Trailing Spaces durante il caricamento TXT
+## Gestire gli spazi iniziali e finali durante il caricamento TXT
 
-È possibile controllare il modo di gestire spazi leader e trailing durante il caricamento dei file TXT. Gli spazi principali potrebbero essere tagliati, conservati o convertiti in spazi interni e trailing potrebbero essere tagliati o conservati.
+È possibile controllare il modo di gestire gli spazi iniziali e finali durante il caricamento dei file TXT. Gli spazi iniziali potrebbero essere tagliati, conservati o convertiti in rientro e gli spazi finali potrebbero essere tagliati o conservati.
 
-L'esempio di codice indicato di seguito mostra come tagliare gli spazi di guida e di trailing durante l'importazione del file TXT:
+L'esempio di codice riportato di seguito mostra come tagliare gli spazi iniziali e finali durante l'importazione del file TXT:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-HandleSpacesOptions.java" >}}
 
-## Rilevamento del documento Direzione del testo
+## Rileva la direzione del testo del documento
 
-Aspose.Words fornisce [DocumentDirection](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getDocumentDirection) proprietà in [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) classe per rilevare la direzione del testo (RTL / LTR) nel documento. Questa proprietà imposta o ottiene documenti istruzioni di testo fornite in [DocumentDirection](https://reference.aspose.com/words/java/com.aspose.words/documentdirection/) enumerazione. Il valore predefinito è da sinistra a destra.
+Aspose.Words fornisce la proprietà [DocumentDirection](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getDocumentDirection) nella classe [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) per rilevare la direzione del testo (RTL / LTR) nel documento. Questa proprietà imposta o ottiene le indicazioni di testo del documento fornite nell'enumerazione [DocumentDirection](https://reference.aspose.com/words/java/com.aspose.words/documentdirection/). Il valore predefinito è da sinistra a destra.
 
-Il seguente esempio di codice mostra come rilevare la direzione del testo del documento durante l'importazione del file TXT:
+L'esempio di codice seguente mostra come rilevare la direzione del testo del documento durante l'importazione del file TXT:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-DocumentTextDirection.java" >}}
 
-## Esporta intestazione e piè di pagina in output TXT File
+## Esporta intestazione e piè di pagina nel file di output TXT
 
-Se si desidera esportare l'intestazione e il piè di pagina nel documento di uscita TXT, è possibile utilizzare il [ExportHeadersFootersMode](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getExportHeadersFootersMode) proprieta'. Questa proprietà specifica il modo in cui intestazioni e piè di pagina vengono esportati nel formato di testo normale.
+Se si desidera esportare l'intestazione e il piè di pagina nel documento output TXT, è possibile utilizzare la proprietà [ExportHeadersFootersMode](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getExportHeadersFootersMode). Questa proprietà specifica il modo in cui intestazioni e piè di pagina vengono esportati nel formato di testo normale.
 
-Il seguente esempio di codice mostra come esportare intestazioni e piè di pagina in formato testo normale:
+L'esempio di codice seguente mostra come esportare intestazioni e piè di pagina in formato testo normale:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-ExportHeadersFootersMode.java" >}}
 
-## Elenco delle esportazioni Indentazione in uscita TXT
+## Esporta rientro elenco in output TXT
 
-Aspose.Words introdotto [TxtListIndentation](https://reference.aspose.com/words/java/com.aspose.words/txtlistindentation/) classe che consente di specificare come i livelli di elenco sono indentati durante l'esportazione in un formato di testo normale. Mentre lavori con [TxtSaveOption](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/), il [ListIndentation](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getListIndentation) la proprietà è prevista per specificare il carattere da utilizzare per i livelli di elenco di rilevamento e il conteggio specificando quanti caratteri usare come indentazione per un livello di elenco.
+Aspose.Words introdotta la classe [TxtListIndentation](https://reference.aspose.com/words/java/com.aspose.words/txtlistindentation/) che consente di specificare il modo in cui i livelli di elenco vengono indentati durante l'esportazione in un formato di testo normale. Mentre si lavora con [TxtSaveOption](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/), viene fornita la proprietà [ListIndentation](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getListIndentation) per specificare il carattere da utilizzare per il rientro dei livelli di elenco e il conteggio che specifica il numero di caratteri da utilizzare come rientro per un livello di elenco.
 
-Il valore predefinito per la proprietà dei caratteri è '\0' indicando che non vi è alcuna indentazione. Per la proprietà di conteggio, il valore predefinito è 0, il che significa che nessuna indentazione.
+Il valore predefinito per la proprietà character è '\0' che indica che non vi è alcun rientro. Per la proprietà count, il valore predefinito è 0 che significa nessun rientro.
 
-### Utilizzo del carattere della scheda
+### Utilizzo del carattere di tabulazione
 
-Il seguente esempio di codice mostra come esportare i livelli di elenco usando i caratteri della scheda:
+Il seguente esempio di codice mostra come esportare i livelli di elenco utilizzando i caratteri di tabulazione:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-useTabCharacterPerLevelForListIndentation.java" >}}
 
-### Utilizzo del carattere spaziale
+### Utilizzo del carattere spazio
 
-Il seguente esempio di codice mostra come esportare i livelli di elenco utilizzando i caratteri spaziali:
+Il seguente esempio di codice mostra come esportare i livelli di elenco utilizzando caratteri di spazio:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-useSpaceCharacterPerLevelForListIndentation.java" >}}
 
-### Utilizzo dell'indentazione di default
+### Utilizzo del rientro predefinito
 
-Il seguente esempio di codice mostra come esportare i livelli di elenco utilizzando l'indentazione predefinita:
+L'esempio di codice seguente mostra come esportare i livelli di elenco utilizzando il rientro predefinito:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-defaultLevelForListIndentation.java" >}}

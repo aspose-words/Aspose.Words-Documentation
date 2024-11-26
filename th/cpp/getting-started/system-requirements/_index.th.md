@@ -1,4 +1,4 @@
-﻿---
+---
 title: ความต้องการของระบบ
 second_title: Aspose.WordsสำหรับC++
 articleTitle: ความต้องการของระบบ
@@ -7,6 +7,7 @@ description: "ก่อนที่คุณจะเริ่มทำงาน
 type: docs
 weight: 70
 url: /th/cpp/system-requirements/
+timestamp: 2024-07-11-16-13-28
 ---
 
 Aspose.WordsสำหรับC++ ไม่จำเป็นต้องใช้ผลิตภัณฑ์ของบุคคลที่สามใดๆเช่นMicrosoft Wordที่จะติดตั้ง Aspose.Wordsตัวเองเป็นเครื่องมือสำหรับการสร้างแก้ไขแปลงและการแสดงผลของเอกสารในรูปแบบต่างๆรวมทั้งMicrosoft Wordรูปแบบเอกสาร.

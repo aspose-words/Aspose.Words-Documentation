@@ -8,6 +8,7 @@ description: "Edit source documents in many popular formats, as well as freely c
 weight: 20
 url: /cpp/supported-document-formats/
 aliases: [/cpp/supported-file-formats/]
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

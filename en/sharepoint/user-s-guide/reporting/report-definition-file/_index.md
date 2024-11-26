@@ -1,4 +1,4 @@
-﻿---
+---
 title: Report Definition File
 second_title: Aspose.Words for SharePoint
 articleTitle: Report Definition File
@@ -7,6 +7,7 @@ description: "Details of report definition file structure which used while confi
 type: docs
 weight: 80
 url: /sharepoint/report-definition-file/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## This section includes the following topics:

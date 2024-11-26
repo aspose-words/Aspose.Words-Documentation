@@ -7,6 +7,7 @@ description: "Sla een document in de meeste populaire formaten en ondersteunt ve
 type: docs
 weight: 30
 url: /nl/java/supported-features-on-document-save/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words stelt gebruikers in staat om met documenten in verschillende formaten te werken en biedt hiervoor een breed scala aan functies. Bijvoorbeeld, gebruikers kunnen een document maken vanaf nul of laden, een aantal wijzigingen maken, en dan opslaan die wijzigingen in het uitvoerbestand in elke [Onderwijsdocumentformaten](/words/nl/java/supported-document-formats/). Tijdens het opslaan van het document in het geselecteerde formaat, kan de gebruiker verschillende opties voor opslaan toepassen.

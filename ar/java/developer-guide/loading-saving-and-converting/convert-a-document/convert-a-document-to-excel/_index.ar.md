@@ -1,21 +1,22 @@
----
-title: أرسل كلمة إلى إكسل Java
-second_title: Aspose.Words for Java
-articleTitle: Convert a Document to Excel
-linktitle: Convert a Document to Excel
-description: "Convert PDF to Excel, XML to Excel, DOCX to Excel Java. Provide a document in various formats to XLSX using Java."
+﻿---
+title: تحويل كلمة إلى إكسيل في Java
+second_title: Aspose.Words ل Java
+articleTitle: تحويل مستند إلى إكسيل
+linktitle: تحويل مستند إلى إكسيل
+description: "تحويل PDF إلى إكسيل، XML إلى إكسيل، DOCX إلى إكسيل Java. احفظ مستندا بتنسيقات مختلفة إلى XLSX باستخدام Java."
 type: docs
 weight: 15
 url: /ar/java/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
-وإحالة الوثائق من شكل إلى آخر هي السمة الرئيسية في هذا الصدد Aspose.Words. يمكنك تحويل الوثائق في أي مكان متاح [الشكل](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) أيضاً إلى استمارة XLSX.
+يعد تحويل المستندات من تنسيق إلى آخر الميزة الرئيسية لـ Aspose.Words. يمكنك تحويل المستندات بأي تنسيق [تنسيق التحميل](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) متاح أيضا إلى XLSX.
 
-## Convert a Document to XLSX
+## تحويل مستند إلى XLSX
 
-تحويل وثيقة إلى XLSX عملية معقدة إلى حد ما. لتحتفظ بوثيقتك على شكل "إكس إل إس إكس" <span notrans="<span notrans=" Aspose.Words"=""></span>" استخدام [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) الصف الجديد `Xlsx` العنصر في [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) العد كما ذُكر أعلاه، يمكنكم أن تُنقذوا الوثيقة في أي شكل من أشكال الحمولة تدعمه Aspose.Words إلى XLSX.
+تحويل مستند إلى XLSX عملية معقدة إلى حد ما. لحفظ المستند بتنسيق XLSX باستخدام Aspose.Words، استخدم فئة [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) والعنصر `Xlsx` الجديد في تعداد [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/). كما ذكر أعلاه، يمكنك حفظ المستند بأي تنسيق تحميل مدعوم من Aspose.Words إلى XLSX.
 
-The following code example shows how to save PDF to XLSX:
+يوضح مثال الكود التالي كيفية حفظ PDF إلى XLSX:
 
 {{< highlight java >}}
 Document doc = new Document(getMyDir() + "Pdf Document.pdf");
@@ -24,15 +25,15 @@ doc.save(getArtifactsDir() + "BaseConversions.PdfToXlsx.xlsx");
 
 {{% alert color="primary" %}}
 
-وفي بعض الأحيان، من الضروري تحديد خيارات إضافية يمكن أن تؤثر على نتيجة توفير وثيقة ما كرمز XLSX. ويمكن تحديد هذه الخيارات باستخدام [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) درجة، تحتوي على خصائص تحدد كيفية عرض ناتج XLSX.
+في بعض الأحيان يكون من الضروري تحديد خيارات إضافية، والتي يمكن أن تؤثر على نتيجة حفظ مستند ك XLSX. يمكن تحديد هذه الخيارات باستخدام فئة [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/)، التي تحتوي على خصائص تحدد كيفية عرض إخراج XLSX.
 
 {{% /alert %}}
 
-## البحث والاستبدال عندما ينقذون XLSX
+## البحث والاستبدال عند الحفظ إلى XLSX
 
-أيضاً Aspose.Words, يمكنك العثور على خيط محدد أو تعبير منتظم في وثيقتك واستبداله مع واحد مطابق تحتاج. ثم يمكنك أيضاً أن تنقذ النتيجة إلى "إكس إل إس إكس"
+باستخدام Aspose.Words أيضا، يمكنك العثور على سلسلة معينة أو تعبير عادي في المستند واستبداله بالسلسلة المطابقة التي تحتاجها. ثم يمكنك أيضا حفظ النتيجة إلى تنسيق XLSX.
 
-The following code example shows how to perform find and replace operation and save result to XLSX:
+يوضح مثال الكود التالي كيفية إجراء عملية البحث والاستبدال وحفظ النتيجة إلى XLSX:
 
 {{< highlight java >}}
 Document doc = new Document();
@@ -50,11 +51,11 @@ doc.getRange().replace("Ruby", "Jade", options);
 doc.save(getArtifactsDir() + "BaseConversions.FindReplaceXlsx.xlsx");
 {{< /highlight >}}
 
-## تحديد مستوى الضغط عند الانتقال إلى XLSX
+## حدد مستوى الضغط عند الحفظ إلى XLSX
 
-يمكنك أيضا تحديد مستوى الضغط عند الادخار باستخدام [CompressionLevel](https://reference.aspose.com/words/java/com.aspose.words/compressionlevel/) ملكية
+يمكنك أيضا تحديد مستوى الضغط عند الحفظ باستخدام خاصية [CompressionLevel](https://reference.aspose.com/words/java/com.aspose.words/compressionlevel/).
 
-The following code example shows how to specify the compression level whenving to XLSX format:
+يوضح مثال التعليمات البرمجية التالية كيفية تحديد مستوى الضغط عند الحفظ إلى تنسيق XLSX:
 
 {{< highlight java >}}
 Document doc = new Document(getMyDir() + "Document.docx");
@@ -64,7 +65,7 @@ saveOptions.setCompressionLevel(CompressionLevel.MAXIMUM);
 doc.save(getArtifactsDir() + "BaseConversions.CompressXlsx.xlsx", saveOptions);
 {{< /highlight >}}
 
-## انظر أيضا
+## أنظر أيضا
 
-- قسم الوثائق [حماية أو اشتراع وثيقة](/words/ar/java/protect-or-encrypt-a-document/) للمزيد من المعلومات عن حماية وتشفير وثيقة
-- المادة [البحث والاستبدال](/words/ar/java/find-and-replace/) للحصول على المزيد من المعلومات عن إيجاد واستبدال المحتوى الذي تريده
+- قسم الوثائق [حماية أو تشفير مستند](/words/java/protect-or-encrypt-a-document/) لمزيد من المعلومات حول حماية وتشفير وثيقة
+- المادة [البحث والاستبدال](/words/java/find-and-replace/) لمزيد من المعلومات حول العثور على المحتوى الذي تريده واستبداله

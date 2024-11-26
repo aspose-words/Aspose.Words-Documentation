@@ -7,6 +7,7 @@ description: "Sử dụng python, bạn có thể nhúng ngữ nghĩa do khách 
 type: docs
 weight: 390
 url: /vi/python-net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Trong Microsoft Word, bạn có thể tạo biểu mẫu bằng cách bắt đầu bằng mẫu và thêm các điều khiển nội dung, bao gồm hộp kiểm, hộp văn bản, bộ chọn ngày và danh sách thả xuống. Trong Aspose.Words, Thẻ tài liệu có cấu trúc hoặc kiểm soát nội dung từ bất kỳ tài liệu nào được tải vào Aspose.Words đều được nhập dưới dạng nút [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/). Thẻ tài liệu có cấu trúc (SDT hoặc kiểm soát nội dung) cho phép nhúng ngữ nghĩa do khách hàng xác định cũng như hành vi và hình thức của nó vào tài liệu. [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) có thể xuất hiện trong tài liệu ở những vị trí sau:

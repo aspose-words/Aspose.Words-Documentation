@@ -7,13 +7,14 @@ description: "Конвертиране на PDF в Excel, XML в Excel, DOCX в 
 type: docs
 weight: 15
 url: /bg/net/convert-a-document-to-excel/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Преобразуването на документи от един формат в друг е водещата характеристика на Aspose.Words. Можете да конвертирате документи във всички налични [формат на натоварване](https://reference.aspose.com/words/net/aspose.words/loadformat/) също и за XLSX формат.
 
 ## Конвертиране на документ към XLSX
 
-Конвертиране на документ към XLSX е доста сложен процес. За да запазите документа си във формат XLSX, като използвате <span notrans="<span notrans=" Aspose.Words"=""></span>,"> да използвате [XlsxSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/) класа и новото `Xlsx` елемент в [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/) Изброяване. Както бе споменато по-горе, можете да запишете документа във всеки формат на зареждане, поддържан от Aspose.Words към XLSX.
+Конвертиране на документ към XLSX е доста сложен процес. За да запазите документа си във формат XLSX, като използвате Aspose.Words да използвате [XlsxSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/) класа и новото `Xlsx` елемент в [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/) Изброяване. Както бе споменато по-горе, можете да запишете документа във всеки формат на зареждане, поддържан от Aspose.Words към XLSX.
 
 Следният пример за код показва как да запишете PDF на XLSX:
 

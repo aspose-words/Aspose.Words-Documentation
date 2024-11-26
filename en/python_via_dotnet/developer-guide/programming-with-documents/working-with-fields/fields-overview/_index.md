@@ -8,6 +8,7 @@ type: docs
 weight: 10
 url: /python-net/fields-overview/
 aliases: [/python/fields-overview/]
+timestamp: 2024-10-21-11-17-44
 ---
 
 
@@ -191,9 +192,9 @@ Aspose.Words supports all date and time formatting switches available in Microso
 
 #### Mail Merge Fields
 
-Aspose.Words imposes no limit on the complexity of mail merge fields in your documents and supports nested `IF` and formula fields and can even calculate the merge field’s name using a formula.
+Aspose.Words imposes no limit on the complexity of Mail Merge fields in your documents and supports nested `IF` and formula fields and can even calculate the merge field’s name using a formula.
 
-Some examples of mail merge fields that Aspose.Words supports:
+Some examples of Mail Merge fields that Aspose.Words supports:
 
 - Mail merge field switches:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -237,7 +238,7 @@ Using the current culture to format fields allows a system to easily and consist
 
 On the other hand, Microsoft Word formats each individual field based off the language of the text found in the field (specifically, the runs from the field code). Sometimes during field update this may be the desired behavior, for example if you have globalized documents containing content made up of many different languages and would like each fields to honor the locale used from the text. Aspose.Words also supports this functionality.
 
-The [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) class provides a [field_options](https://reference.aspose.com/words/python-net/aspose.words/document/field_options/) property which contains members which can be used to control how fields are updated within the document. Below example shows how to specify where the culture used for date formatting during field update and mail merge is chosen from.
+The [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) class provides a [field_options](https://reference.aspose.com/words/python-net/aspose.words/document/field_options/) property which contains members which can be used to control how fields are updated within the document. Below example shows how to specify where the culture used for date formatting during field update and Mail Merge is chosen from.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-ChangeFieldUpdateCultureSource.py" >}}
 

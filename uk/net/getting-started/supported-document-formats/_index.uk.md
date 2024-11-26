@@ -7,6 +7,7 @@ type: docs
 description: "Редагувати вихідні документи в багатьох популярних форматах, а також вільно конвертувати файли з одного формату в інший формат C#й"
 weight: 20
 url: /uk/net/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

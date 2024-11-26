@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words (单位:千美元) Java 每日扩大和增强。 在这个页面上,你可以了解产品的巨大和最有趣的特征."
 weight: 2
 url: /zh/java/what-s-new-in-aspose-words-for-java/
+timestamp: 2024-10-14-12-53-06
 ---
 
 此页面描述最有趣的新 Aspose.Words 近期发布时引入的特征。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Spesifiseer TrueType Lettertipes Ligging in Java
 second_title: Aspose.Words vir Java
 articleTitle: Spesifiseer TrueType Lettertipes Ligging
@@ -7,6 +7,7 @@ description: "Spesifiseer verskeie TrueType fontbronne: stelselmap, gebruikersbr
 type: docs
 weight: 30
 url: /af/java/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Hierdie onderwerp beskryf die standaard gedrag van Aspose.Words wanneer dit soek na TrueType lettertipes, insluitend bedryfstelsel spesifieke verskille, en demonstreer hoe om gebruiker lettertipe bronne spesifiseer.

@@ -7,6 +7,7 @@ description: "Pokročilé formátování tabulky Java. Vytvořit styl tabulky po
 type: docs
 weight: 80
 url: /cs/java/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Styl tabulky definuje soubor formátování, který lze snadno aplikovat na tabulku. Formátování, jako jsou hranice, stínování, zarovnání, a písmo lze nastavit ve stylu tabulky a aplikovat na mnoho tabulek pro konzistentní vzhled.

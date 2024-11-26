@@ -7,6 +7,7 @@ description: "Suivez les modifications apportées au contenu et au formatage eff
 type: docs
 weight: 270
 url: /fr/python-net/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 La fonctionnalité de suivi des modifications, également appelée révision, vous permet de suivre les modifications apportées au contenu et au formatage effectuées par vous ou d'autres utilisateurs. Cette fonctionnalité de suivi des modifications avec Aspose.Words prend en charge le suivi des modifications dans Microsoft Word. Avec cette fonctionnalité, vous pouvez accéder aux révisions individuelles de votre document et leur appliquer différentes propriétés.

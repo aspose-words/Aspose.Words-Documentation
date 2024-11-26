@@ -1,4 +1,4 @@
-﻿---
+---
 title: Optimize Footers
 second_title: Aspose.Words for JasperReports
 articleTitle: Optimize Footers
@@ -7,6 +7,7 @@ description: "Aspose.Word for JasperReports tries to optimize footer contents fo
 type: docs
 weight: 170
 url: /jasperreports/optimize-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

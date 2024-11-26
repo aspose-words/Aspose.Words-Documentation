@@ -7,6 +7,7 @@ description: "Introducere la caracteristica de formatare numerotare în Aspose.W
 type: docs
 weight: 200
 url: /ro/net/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 O listă într-un Microsoft Word document este un set de proprietăți de formatare a paragrafului. Liste pot fi folosite în documente pentru a structura, aranja și evidenția textul. Liste sunt un mod minunat de a organiza datele în documente într-un mod care le face ușor pentru cititori să absoarbă și să înțeleagă punctele cheie.

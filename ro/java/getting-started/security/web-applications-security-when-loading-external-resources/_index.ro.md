@@ -1,4 +1,4 @@
-﻿---
+---
 title: Securitatea Aplicațiilor Web La Încărcarea Resurselor
 second_title: Aspose.Words pentru Java
 articleTitle: Securitatea Aplicațiilor Web La Încărcarea Resurselor Externe
@@ -7,6 +7,7 @@ type: docs
 description: "Încărcați resurse la distanță, care poate fi un motiv de riscuri de securitate. Aruncați o privire la problemele comune de securitate și soluțiile lor în Java."
 weight: 120
 url: /ro/java/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 În mod implicit, Aspose.Words pentru Java poate încărca resurse la distanță, cum ar fi imagini, CSS stiluri sau documente externe HTML atunci când importați documente sau inserați imagini folosind DocumentBuilder. Acest comportament vă permite să vă procesați documentele în detaliu, dar poate fi un motiv al unor riscuri de securitate dacă biblioteca face parte dintr-o aplicație web.

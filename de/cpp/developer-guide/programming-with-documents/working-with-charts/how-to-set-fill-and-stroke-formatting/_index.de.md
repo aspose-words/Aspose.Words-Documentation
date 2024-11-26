@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit Diagrammen in C++
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit Diagrammen
@@ -7,6 +7,7 @@ description: "Einführung in die Diagrammfunktion, Erstellen und Bearbeiten von 
 type: docs
 weight: 170
 url: /de/cpp/how-to-set-fill-and-stroke-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Die Flächen- und Konturformatierung kann für Diagrammreihen, Datenpunkte und Markierungen festgelegt werden. Dazu müssen Sie die Eigenschaften des Typs **ChartFormat** in den Klassen **ChartSeries**, **ChartDataPoint** und **ChartMarker** sowie Aliase für einige Eigenschaften wie ForeColor, BackColor, Visible und Transparency in der Klasse `Stroke` verwenden.

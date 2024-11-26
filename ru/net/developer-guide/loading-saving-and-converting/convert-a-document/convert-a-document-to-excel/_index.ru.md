@@ -7,13 +7,14 @@ description: "Преобразование PDF в Excel, XML в Excel, DOCX в E
 type: docs
 weight: 15
 url: /ru/net/convert-a-document-to-excel/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Преобразование документов из одного формата в другой является флагманской особенностью Aspose.Words. Вы можете конвертировать документы в любой доступный [формат загрузки](https://reference.aspose.com/words/net/aspose.words/loadformat/) Также в формате XLSX.
 
 ## Преобразование документа в XLSX
 
-Преобразование документа в XLSX является довольно сложным процессом. Сохранить документ в формате XLSX <p notrans="<p notrans=" Aspose.Words"=""></p>"> использовать [XlsxSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/) Класс и новый `Xlsx` элемент в [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/) перечисление. Как упоминалось выше, вы можете сохранить документ в любом формате загрузки, поддерживаемом Aspose.Words для XLSX.
+Преобразование документа в XLSX является довольно сложным процессом. Сохранить документ в формате XLSX Aspose.Words использовать [XlsxSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/) Класс и новый `Xlsx` элемент в [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/) перечисление. Как упоминалось выше, вы можете сохранить документ в любом формате загрузки, поддерживаемом Aspose.Words для XLSX.
 
 Следующий пример кода показывает, как сохранить PDF в XLSX:
 

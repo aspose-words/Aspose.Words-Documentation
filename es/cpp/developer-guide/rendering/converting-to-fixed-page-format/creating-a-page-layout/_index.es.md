@@ -1,4 +1,4 @@
-﻿---
+---
 title: Creación de un diseño de página en C++
 second_title: Aspose.Words para C++
 articleTitle: Crear un Diseño de Página
@@ -7,6 +7,7 @@ description: "Crear un diseño de página puede ser un procedimiento costoso. As
 type: docs
 weight: 10
 url: /es/cpp/creating-a-page-layout/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Crear un diseño de página puede ser un procedimiento costoso, tanto en términos de velocidad como de memoria. Esto se debe a varias razones:

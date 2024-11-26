@@ -7,6 +7,7 @@ type: docs
 description: "So sánh hai tài liệu ở bất kỳ định dạng nào được hỗ trợ và hiển thị những thay đổi nội dung. Bạn có thể áp dụng các tùy chọn nâng cao khi so sánh bằng cách sử dụng Java."
 weight: 60
 url: /vi/java/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 So sánh tài liệu là một quy trình xác định sự thay đổi giữa hai tài liệu và chứa đựng những thay đổi đó dưới dạng sửa đổi. Quá trình này so sánh bất kỳ hai tài liệu nào, bao gồm cả các phiên bản của một tài liệu cụ thể, sau đó sự thay đổi giữa cả hai tài liệu sẽ được hiển thị như những sửa đổi trong tài liệu đầu tiên.

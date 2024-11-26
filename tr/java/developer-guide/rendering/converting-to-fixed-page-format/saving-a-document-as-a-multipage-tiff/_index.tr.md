@@ -7,6 +7,7 @@ description: "Bir belgeyi bir raster görüntüye dönüştürün, TIFF formatı
 type: docs
 weight: 30
 url: /tr/java/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Belgeyle çalışırken, genellikle belgelerinizi bir raster görüntü dosyasına dönüştürmeniz gerekir. Bu özellikle sizin belgelerinizi okunabilir ve yazdırılabilir ancak düzenlenemez bir biçimde sunmanız gerektiğinde çok önemlidir. Örneğin, bir önizleme olarak belgenizin ilk sayfasının raster görüntüsünü kullanabilirsiniz. Bu makale, TIFF formatının bir örneği kullanarak bir belgeyi bir raster görüntüye dönüştürmeyi açıklar - daha popüler olan resim formatlarından biri.

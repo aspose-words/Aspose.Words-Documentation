@@ -7,6 +7,7 @@ description: "Unisci le tabelle in un documento utilizzando Python. Come unire d
 type: docs
 weight: 90
 url: /it/python-net/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Una tabella, rappresentata nel Aspose.Words Document Object Model, è composta da righe e celle indipendenti, facilitando l'unione delle tabelle.

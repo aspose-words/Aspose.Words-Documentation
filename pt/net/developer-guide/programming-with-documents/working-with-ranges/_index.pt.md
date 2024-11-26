@@ -7,6 +7,7 @@ description: "Introdução ao recurso Range em Aspose.Words para .NET."
 type: docs
 weight: 130
 url: /pt/net/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

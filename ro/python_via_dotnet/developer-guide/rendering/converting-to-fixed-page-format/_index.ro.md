@@ -1,4 +1,4 @@
-﻿---
+---
 title: Conversia în format de pagină fixă
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Conversia în format de pagină fixă
@@ -7,6 +7,7 @@ description: "Salvați documentele în PDF, XPS, HTML, XAML, PostScript, și PCL
 type: docs
 weight: 10
 url: /ro/python-net/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words implementează propriul motor de aspect al paginii. Înainte de a intra în specificațiile sale, merită să discutați mai întâi documentul la un nivel înalt. Când se gândesc la un document, utilizatorii își imaginează de obicei un număr de foi de hârtie care conțin cuvinte, imagini, tabele și diagrame. Documentele pot fi de diferite tipuri, cum ar fi text, foi de calcul, diapozitive, CAD desene, diagrame și, prin urmare, pot avea aspecte esențial diferite. Majoritatea aplicațiilor permit trimiterea de documente către o imprimantă; acesta este momentul în care un utilizator poate vizualiza de fapt aspectul final al documentului.

@@ -7,6 +7,7 @@ description: "Kullanılmayan veya yinelenen bilgileri azaltmak için çıktı bo
 type: docs
 weight: 30
 url: /tr/java/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen, belge boyutunu ve işleme süresini azaltmak için kullanılmayan veya çoğaltılmış bilgileri kaldırmanız gerekebilir.

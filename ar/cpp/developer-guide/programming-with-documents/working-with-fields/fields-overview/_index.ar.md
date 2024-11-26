@@ -1,4 +1,4 @@
-﻿---
+---
 title: نظرة عامة على الحقول في C++
 second_title: Aspose.Words ل C++
 articleTitle: نظرة عامة على الحقول
@@ -7,6 +7,7 @@ description: "الحقول ميزة في التفاصيل، رموز الحقل 
 type: docs
 weight: 10
 url: /ar/cpp/fields-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words هي مكتبة فئة مصممة لمعالجة المستندات Microsoft Word من جانب الخادم وتدعم الحقول بالطرق التالية:
@@ -173,9 +174,9 @@ Aspose.Words يدعم جميع مفاتيح تنسيق التاريخ والوق
 
 ### Mail Merge الحقول
 
-Aspose.Words لا يفرض أي حد على تعقيد mail merge الحقول في المستندات الخاصة بك ويدعم متداخلة `IF` وحقول الصيغة ويمكن حتى حساب اسم حقل الدمج باستخدام صيغة.
+Aspose.Words لا يفرض أي حد على تعقيد Mail Merge الحقول في المستندات الخاصة بك ويدعم متداخلة `IF` وحقول الصيغة ويمكن حتى حساب اسم حقل الدمج باستخدام صيغة.
 
-بعض الأمثلة على mail merge الحقول التي Aspose.Words يدعم:
+بعض الأمثلة على Mail Merge الحقول التي Aspose.Words يدعم:
 
 - Mail merge مفاتيح الحقل:
 `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -222,6 +223,6 @@ EXAMPLE
 
 توفر فئة [Document](https://reference.aspose.com/words/cpp/class/aspose.words.document) خاصية [FieldOptions](https://reference.aspose.com/words/cpp/aspose.words/document/get_fieldoptions/) تحتوي على أعضاء يمكن استخدامها للتحكم في كيفية تحديث الحقول داخل المستند.
 
-يوضح مثال الكود التالي كيفية تحديد مكان الثقافة المستخدمة لتنسيق التاريخ أثناء تحديث الحقل و mail merge يتم اختياره من:
+يوضح مثال الكود التالي كيفية تحديد مكان الثقافة المستخدمة لتنسيق التاريخ أثناء تحديث الحقل و Mail Merge يتم اختياره من:
 
 EXAMPLE

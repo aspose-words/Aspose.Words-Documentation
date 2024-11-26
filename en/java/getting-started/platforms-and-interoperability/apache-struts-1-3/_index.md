@@ -1,4 +1,4 @@
-﻿---
+---
 title: Apache Struts 1.3
 second_title: Aspose.Words for Java
 articleTitle: Apache Struts 1.3
@@ -7,6 +7,7 @@ description: "Using Aspose.Words for Java on Apache Struts."
 type: docs
 weight: 80
 url: /java/aspose-words-java-for-struts-1-3/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Apache Struts Web Framework

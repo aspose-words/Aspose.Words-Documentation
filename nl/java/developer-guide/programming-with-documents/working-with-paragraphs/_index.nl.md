@@ -7,6 +7,7 @@ description: "Paragraaf node manipulatie praktijken gebruiken Java."
 type: docs
 weight: 210
 url: /nl/java/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Een alinea is een verzameling karakters die worden gecombineerd tot een logisch blok en eindigen met een speciaal karakter. In Aspose.Words, een lid wordt vertegenwoordigd door de [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) Klasse.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Word Belgelerinde Tablo Stilini Değiştirme
 second_title: Aspose.Words için C++
 articleTitle: Tablo Stili Uygula
@@ -7,6 +7,7 @@ description: "Gelişmiş tablo biçimlendirme C++. C++ kullanarak bir tablo stil
 type: docs
 weight: 80
 url: /tr/cpp/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tablo stili, bir tabloya kolayca uygulanabilen bir biçimlendirme kümesini tanımlar. Kenarlıklar, gölgelendirme, hizalama ve yazı tipi gibi biçimlendirme bir tablo stilinde ayarlanabilir ve tutarlı bir görünüm için birçok tabloya uygulanabilir.

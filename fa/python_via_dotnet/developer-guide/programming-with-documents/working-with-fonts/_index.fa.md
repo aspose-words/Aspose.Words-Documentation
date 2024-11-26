@@ -7,6 +7,7 @@ description: "تنظیمات فونت را با استفاده از Python سف�
 type: docs
 weight: 230
 url: /fa/python-net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 فونت مجموعه ای از کاراکترها با اندازه، رنگ و طرح معین است. Aspose.Words به شما امکان می دهد با استفاده از ماژول [fonts](https://reference.aspose.com/words/python-net/aspose.words.fonts/) و کلاس [Font](https://reference.aspose.com/words/python-net/aspose.words/font/) با فونت ها کار کنید.

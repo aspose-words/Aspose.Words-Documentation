@@ -1,4 +1,4 @@
-﻿---
+---
 title: Comment exécuter les Exemples
 second_title: Aspose.Words pour C++
 articleTitle: Comment exécuter les Exemples
@@ -7,6 +7,7 @@ description: "Télécharger Aspose.Words pour C++ exemples de notre référentie
 type: docs
 weight: 110
 url: /fr/cpp/how-to-run-the-examples/
+timestamp: 2024-07-11-16-13-28
 ---
 
 Pour vous familiariser avec les possibilités et fonctionnalités Aspose.Words, nous fournissons des exemples qui peuvent être téléchargés à partir de notre référentiel GitHub, exécutés et appris en détail.

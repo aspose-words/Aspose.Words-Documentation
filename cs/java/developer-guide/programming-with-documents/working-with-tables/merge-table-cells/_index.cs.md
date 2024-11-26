@@ -7,6 +7,7 @@ description: "Jak sloučit buňky tabulky v Java. Zkontrolujte, zda jsou buňky 
 type: docs
 weight: 40
 url: /cs/java/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Někdy některé řádky v tabulce vyžadují nadpis nebo velké bloky textu, které zabírají celou šířku tabulky. Pro správný návrh tabulky může uživatel sloučit několik buněk tabulky do jedné. Aspose.Words podporuje sloučené buňky při práci se všemi vstupními formáty, včetně importu HTML obsahu.

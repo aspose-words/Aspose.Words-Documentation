@@ -7,6 +7,7 @@ description: "Kontrol karakterleri ile çalışma girişimi Aspose.Words için J
 type: docs
 weight: 400
 url: /tr/java/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word belgeleri çeşitli karakterler içerebilir ki bunlar özel anlamlara sahiptir. Normalde formatlama için kullanılırlar ve normal modda çizilmezler. Onları göstermek için Standart araç çubuğundaki Göster/Gizle Biçimlendirme İşaretleri düğmesine tıklayabilirsiniz.

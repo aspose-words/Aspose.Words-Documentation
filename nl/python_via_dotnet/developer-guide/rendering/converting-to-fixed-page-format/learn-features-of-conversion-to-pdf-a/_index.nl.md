@@ -7,6 +7,7 @@ description: "Omzetten naar PDF/A-1, PDF/A-2, PDF/A-4 en PDF/UA met behulp van P
 type: docs
 weight: 25
 url: /nl/python-net/learn-features-of-conversion-to-pdf-a/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF is een vast paginaformaat dat erg populair is bij gebruikers en wordt breed ondersteund door verschillende toepassingen, omdat een PDF-document er hetzelfde uitziet op elk apparaat. Om deze reden is het omzetten naar PDF een belangrijk kenmerk van Aspose.Words.

@@ -1,12 +1,13 @@
 ---
-title: עבודה עם מסמך בחנות `SharePoint` באינטרנט
+title: עבודה עם מסמך בחנות SharePoint באינטרנט
 second_title: Aspose.Words עבור .NET
-articleTitle: עבודה עם מסמך בחנות `SharePoint` באינטרנט
-linktitle: עבודה עם מסמך בחנות `SharePoint` באינטרנט
+articleTitle: עבודה עם מסמך בחנות SharePoint באינטרנט
+linktitle: עבודה עם מסמך בחנות SharePoint באינטרנט
 description: "המרת Word משותף SharePoint PDF באמצעות C#. עבודה עם מסמכים מאוחסנים SharePoint - פורמטי קלט שונים, כולל Word, OpenOffice, Image ו- eBook."
 type: docs
 weight: 20
 url: /he/net/work-with-document-stored-in-sharepoint/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Microsoft SharePoint באינטרנט הוא אוסף של טכנולוגיות מבוססות אינטרנט המאפשרות לארגונים לאחסן, לשתף ולנהל מידע דיגיטלי. אתה יכול לעבוד עם מסמכים מאוחסנים בתיקיה "Shared Documents" בתיקיה SharePoint באמצעות העוצמה שלנו Aspose.Words עבור .NET.

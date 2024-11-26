@@ -7,6 +7,7 @@ description: "Bir belgeyi şifrele, düzenleme sınırlandırmak, belge korumas�
 type: docs
 weight: 50
 url: /tr/java/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir belgeyi korumak ya da şifrelemek için ana neden, kimlerin belgenin erişimine sahip olabileceğini ya da düzenleyebileceğini kontrol etmek için daha fazla güç kullanmaktır. Belgenize koruma uygulayarak, izin olmadan belgeleri kopyalama veya değiştirme gibi yaygın risklerden kaçınabilirsiniz, ayrıca veri sızıntısı.

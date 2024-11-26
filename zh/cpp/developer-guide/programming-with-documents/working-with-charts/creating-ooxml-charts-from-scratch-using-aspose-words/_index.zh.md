@@ -1,4 +1,4 @@
-﻿---
+---
 title: 从头开始创建OOXML图表
 second_title: Aspose.Words对于C++
 articleTitle: 从头开始创建OOXML图表
@@ -7,6 +7,7 @@ description: "如何使用C++在文档中创建不同的图表。"
 type: docs
 weight: 10
 url: /zh/cpp/creating-ooxml-charts-from-scratch-using-aspose-words/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## 使用Aspose.Words从头开始创建OOXML图表

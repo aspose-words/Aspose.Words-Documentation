@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki Grafiklerle Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Grafiklerle Çalışma
@@ -7,6 +7,7 @@ description: "Grafik özelliğine giriş, C++ kullanarak grafiklerin nasıl olu�
 type: docs
 weight: 170
 url: /tr/cpp/how-to-set-fill-and-stroke-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Grafik serileri, veri noktaları ve işaretleyiciler için dolgu ve kontur biçimlendirmesi ayarlanabilir. Bunu yapmak için, **ChartSeries**, **ChartDataPoint** ve **ChartMarker** sınıflarındaki **ChartFormat** türünün özelliklerinin yanı sıra ForeColor, BackColor, Görünür ve `Stroke` sınıfındaki Saydamlık gibi bazı özelliklerin takma adlarını kullanmanız gerekir.

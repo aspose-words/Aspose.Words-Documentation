@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki Sütun ve Satırlarla Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Sütun ve Satırlarla Çalışma
@@ -7,6 +7,7 @@ description: "Bir tablonun bölümleriyle çalışmak - C++ kullanarak satırlar
 type: docs
 weight: 30
 url: /tr/cpp/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tabloların nasıl çalıştığı üzerinde daha fazla denetim için sütunları ve satırları nasıl değiştireceğinizi öğrenin.

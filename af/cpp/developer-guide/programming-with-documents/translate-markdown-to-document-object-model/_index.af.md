@@ -1,4 +1,4 @@
-﻿---
+---
 title: Vertaal Markdown Na Dokument Objek Model (DOM)
 second_title: Aspose.Words vir C++
 articleTitle: Vertaal Markdown Na Dokument Objek Model (DOM)
@@ -7,6 +7,7 @@ type: docs
 description: "Tarnslate'n Markdown dokument Om Voorwerp Model En terug Te Dokumenteer met behulp van C++. So jy kan werk met komplekse bestaande Markdown en programmaties skep'n Markdown dokument van nuuts af."
 weight: 20
 url: /af/cpp/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Om die inhoud en formatering van'n dokument programmaties te lees, te manipuleer en te verander, moet jy dit vertaal na die Aspose.Words Document Object Model (DOM).

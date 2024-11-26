@@ -7,6 +7,7 @@ description: "Los campos se incluyen en detalles, códigos de campo y resultados
 type: docs
 weight: 10
 url: /es/net/fields-overview/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words es una biblioteca de clases diseñada para el procesamiento del lado del servidor de documentos Microsoft Word y admite campos de las siguientes maneras:
@@ -173,9 +174,9 @@ Aspose.Words admite todos los cambios de formato de fecha y hora disponibles en 
 
 ### Campos Mail Merge
 
-Aspose.Words no impone ningún límite a la complejidad de los campos mail merge en sus documentos y admite campos `IF` y de fórmula anidados e incluso puede calcular el nombre del campo de combinación usando una fórmula.
+Aspose.Words no impone ningún límite a la complejidad de los campos Mail Merge en sus documentos y admite campos `IF` y de fórmula anidados e incluso puede calcular el nombre del campo de combinación usando una fórmula.
 
-Algunos ejemplos de campos mail merge que admite Aspose.Words:
+Algunos ejemplos de campos Mail Merge que admite Aspose.Words:
 
 - Interruptores de campo Mail merge:
  `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lavorare con i grafici in C++
 second_title: Aspose.Words per C++
 articleTitle: Lavorare con i grafici
@@ -7,6 +7,7 @@ description: "Introduzione alla funzione Grafico, come creare e manipolare grafi
 type: docs
 weight: 170
 url: /it/cpp/how-to-set-fill-and-stroke-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 La formattazione del riempimento e del tratto può essere impostata per serie di grafici, punti dati e marcatori. Per fare ciò, è necessario utilizzare le proprietà del tipo **ChartFormat** nelle classi **ChartSeries**, **ChartDataPoint** e **ChartMarker**, nonché gli alias per alcune proprietà, ad esempio ForeColor, BackColor, Visible e Transparency nella classe `Stroke`.

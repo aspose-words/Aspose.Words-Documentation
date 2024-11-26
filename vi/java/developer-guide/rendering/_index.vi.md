@@ -7,6 +7,7 @@ description: "Sử dụng Aspose.Words cho tính năng hiển thị Java để �
 type: docs
 weight: 30
 url: /vi/java/rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Chúng tôi sử dụng thuật ngữ "hiển thị" trong Aspose.Words để mô tả quá trình chuyển đổi một tài liệu thành định dạng tập tin hoặc phương tiện truyền tải có trang hoặc có khái niệm về các trang. Chúng ta đang nói về việc đưa một tài liệu thành các trang. Biểu đồ sau cho thấy việc trình bày như thế nào trong Aspose.Words.

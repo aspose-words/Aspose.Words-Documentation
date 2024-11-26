@@ -7,6 +7,7 @@ description: "Crie e gerencie marcas d'água em um documento usando Python."
 type: docs
 weight: 340
 url: /pt/python-net/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Este tópico discute como trabalhar programaticamente com marca d’água usando Aspose.Words. Uma marca d'água é uma imagem de fundo exibida atrás do texto em um documento. Uma marca d’água pode conter um texto ou uma imagem representada pela classe [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/).

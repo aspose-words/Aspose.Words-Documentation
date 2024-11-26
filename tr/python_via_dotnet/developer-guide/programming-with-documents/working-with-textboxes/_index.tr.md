@@ -7,6 +7,7 @@ description: "Python kullanarak bir belgedeki metin kutularıyla çalışın."
 type: docs
 weight: 250
 url: /tr/python-net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words'te [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) sınıfı, bir metnin şeklin içinde nasıl görüntüleneceğini belirtmek için kullanılır. Müşterinin bağlantılı [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/)'den bağlantılı [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/)'i bulmasını sağlamak amacıyla metin kutusunun ana şeklini almak için [parent](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/parent/) olarak adlandırılan genel bir özellik sağlar.

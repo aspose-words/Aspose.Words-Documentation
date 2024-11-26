@@ -1,4 +1,4 @@
-﻿---
+---
 title: Alanlara Genel Bakış C++
 second_title: Aspose.Words için C++
 articleTitle: Alanlara Genel Bakış
@@ -7,6 +7,7 @@ description: "Alanlar ayrıntılarda, alan kodlarında ve açıklanan alan sonu�
 type: docs
 weight: 10
 url: /tr/cpp/fields-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words, Microsoft Word belgelerin sunucu tarafında işlenmesi için tasarlanmış bir sınıf kitaplığıdır ve alanları aşağıdaki şekillerde destekler:
@@ -173,9 +174,9 @@ Aspose.Words Microsoft Word 'da bulunan tüm tarih ve saat biçimlendirme anahta
 
 ### Mail Merge Alanlar
 
-Aspose.Words, belgelerinizdeki mail merge alanların karmaşıklığına herhangi bir sınır getirmez ve iç içe `IF` ve formül alanlarını destekler ve hatta bir formül kullanarak birleştirme alanının adını hesaplayabilir.
+Aspose.Words, belgelerinizdeki Mail Merge alanların karmaşıklığına herhangi bir sınır getirmez ve iç içe `IF` ve formül alanlarını destekler ve hatta bir formül kullanarak birleştirme alanının adını hesaplayabilir.
 
-Aspose.Words'ın desteklediği mail merge alanlarından bazı örnekler:
+Aspose.Words'ın desteklediği Mail Merge alanlarından bazı örnekler:
 
 - Mail merge alan anahtarları:
 `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -222,6 +223,6 @@ Alanları biçimlendirmek için geçerli kültürü kullanmak, bir sistemin alan
 
 [Document](https://reference.aspose.com/words/cpp/class/aspose.words.document) sınıfı, belge içindeki alanların nasıl güncelleneceğini denetlemek için kullanılabilecek üyeler içeren bir [FieldOptions](https://reference.aspose.com/words/cpp/aspose.words/document/get_fieldoptions/) özelliği sağlar.
 
-Aşağıdaki kod örneği, alan güncelleştirmesi ve mail merge sırasında tarih biçimlendirmesi için kullanılan kültürün nereden seçileceğini nasıl belirleyeceğinizi gösterir:
+Aşağıdaki kod örneği, alan güncelleştirmesi ve Mail Merge sırasında tarih biçimlendirmesi için kullanılan kültürün nereden seçileceğini nasıl belirleyeceğinizi gösterir:
 
 EXAMPLE

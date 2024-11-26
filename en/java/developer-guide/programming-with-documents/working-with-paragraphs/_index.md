@@ -7,6 +7,7 @@ description: "Paragraph node manipulation practices using Java."
 type: docs
 weight: 210
 url: /java/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A paragraph is a set of characters combined into a logical block and ending with a special character – a *paragraph break*. In Aspose.Words, a paragraph is represented by the [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) class.

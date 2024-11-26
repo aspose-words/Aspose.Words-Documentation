@@ -7,6 +7,7 @@ description: "Criptați documentul folosind algoritmi de criptare potriviți pen
 type: docs
 weight: 20
 url: /ro/net/encrypt-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Encriptarea este procesul care traduce textul lizibil în secvențe de octeți fără sens astfel încât poate fi citit numai de persoana care are cheia de decriptare sau codul secret. Acest proces joacă un rol important în securizarea conținutului tău. "O ajută să encodeze conținutul, să verifice originea unui document, să dovedească că conținutul nu a fost modificat după ce a fost trimis, și să asigure că datele din document sunt în siguranță."

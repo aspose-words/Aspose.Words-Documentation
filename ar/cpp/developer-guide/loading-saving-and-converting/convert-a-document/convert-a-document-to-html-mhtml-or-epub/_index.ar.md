@@ -1,4 +1,4 @@
-﻿---
+---
 title: تحويل مستند إلى HTML أو MHTML أو EPUB
 second_title: Aspose.Words ل C++
 articleTitle: تحويل مستند إلى HTML أو MHTML أو EPUB
@@ -7,6 +7,7 @@ description: "تحويل مستند من أي تنسيق تقريبا إلى HTM
 type: docs
 weight: 20
 url: /ar/cpp/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-10-21-08-52-03
 ---
 
 المستندات بتنسيقات تخطيط التدفق HTML و MHTML تحظى أيضا بشعبية كبيرة ويمكن استخدامها على أي منصة ويب. لهذا السبب، يعد تحويل المستندات إلى HTML و MHTML ميزة مهمة في Aspose.Words.

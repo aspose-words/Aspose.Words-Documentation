@@ -7,6 +7,7 @@ description: "Jak spustit Aspose.Words místo Android přes Java Příklady."
 type: docs
 weight: 70
 url: /cs/java/how-to-use-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Nejprve se ujistěte, že máte nainstalován ADT balík a že jste stáhli a extrahovali nejnovější verzi [Aspose.Words Místo Android Přes Java](https://releases.aspose.com/words/androidjava/).

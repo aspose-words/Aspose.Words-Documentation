@@ -7,6 +7,7 @@ description: "Aspose.Words místo Android přes Java je `Java` třídní knihovn
 type: docs
 weight: 10
 url: /cs/java/android-product-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}
@@ -40,7 +41,7 @@ Aspose.Words místo Android přes Java je vícevláken bezpečný, pokud pouze j
 
 ### Minimální křivka učení
 
-I když existuje více než 150 veřejných tříd a výčty v Aspose.Words místo Android přes <span notrans="<span notrans=" Java"=""></span>, křivka učení je minimální, protože Aspose.Words místo Android přes Java API byl pečlivě navržen s těmito cíli:
+I když existuje více než 150 veřejných tříd a výčty v Aspose.Words místo Android přes Java, křivka učení je minimální, protože Aspose.Words místo Android přes Java API byl pečlivě navržen s těmito cíli:
 
 - Půjčit si osvědčené postupy od jiných známých APIs jako např. Microsoft Word Automatizace.
 - Půjčit si osvědčené postupy od průmyslu přijal Java a Android pokyny k návrhu.

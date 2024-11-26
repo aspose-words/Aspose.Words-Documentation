@@ -7,6 +7,7 @@ description: "Aspose.Words zamiast Java może osadzić poprawne czcionki TrueTyp
 type: docs
 weight: 10
 url: /pl/java/manipulate-and-substitute-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words wymaga True Czcionki typu do różnych zadań, w tym renderowanie dokumentów do ustalonych formatów stron, na przykład PDF lub XPS. Kiedy Aspose.Words renderuje dokument, musi on wykonać osadzanie i podzbiór osadzania czcionek TrueType do otrzymanego dokumentu, co jest normalną praktyką podczas generowania dokumentów, w tym popularnego PDF lub XPS formaty. Gwarantuje to, że dokument pojawi się w dowolnym przeglądarce. Ponadto XPS Specyfikacja wymaga umieszczania czcionek w dokumencie.

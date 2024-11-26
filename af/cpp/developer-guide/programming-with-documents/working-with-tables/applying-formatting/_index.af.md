@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tabel Formatering in C++
 second_title: Aspose.Words vir C++
 articleTitle: Pas Opmaak Toe
@@ -7,6 +7,7 @@ description: "Tabel formatering in besonderhede met behulp van C++. Gebruik C++ 
 type: docs
 weight: 70
 url: /af/cpp/applying-formatting/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Elke element van'n tabel kan met verskillende formatering toegepas word. Byvoorbeeld, tabel formatering sal toegepas word op die hele tabel, ry formatering om slegs spesifieke rye, sel formatering om slegs sekere selle.

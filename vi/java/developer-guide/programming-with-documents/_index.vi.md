@@ -7,6 +7,7 @@ type: docs
 description: "Sử dụng các lớp Aspose.Words Document Object Model để lập trình tạo, sửa đổi và quản lý tài liệu với Java. Làm việc với các thuộc tính, cài đặt và nội dung tài liệu cũng như xuất hiện tài liệu thông qua quản lý màu sắc, hình dạng, phông chữ và các đồ họa khác."
 weight: 340
 url: /vi/java/programming-with-documents/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Phần này cung cấp thông tin về cách lập trình tạo, sửa đổi và quản lý các văn bản với các lớp Aspose.Words Document Object Model. Bài viết trong phần này mô tả một loạt các công việc thao tác tài liệu, cho phép bạn làm việc với các thuộc tính tài liệu, cài đặt, nội dung và các yếu tố của nó.

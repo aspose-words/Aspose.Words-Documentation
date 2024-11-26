@@ -7,6 +7,7 @@ description: "透過 C# 格式化和評估字段結果。"
 type: docs
 weight: 40
 url: /zh-hant/net/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有時使用者必須對欄位套用自訂格式。 在這個文章中，我們將會看一些例子來了解這如何可以完成。
@@ -25,7 +26,7 @@ Aspose.Words 提供 API 來格式化欄位結果。 您可以實作 [IFieldResul
 
 ## 如何評估 `IF` 條件
 
-如果你想評估 `IF` 條件後 mail merge 的結果，你可以利用 [EvaluateCondition](https://reference.aspose.com/words/net/aspose.words.fields/fieldif/evaluatecondition/) 方法立即取得該表達式評估的結果。
+如果你想評估 `IF` 條件後 Mail Merge 的結果，你可以利用 [EvaluateCondition](https://reference.aspose.com/words/net/aspose.words.fields/fieldif/evaluatecondition/) 方法立即取得該表達式評估的結果。
 
 以下範例說明了如何使用此方法：
 

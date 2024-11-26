@@ -1,4 +1,4 @@
-﻿---
+---
 title: Programare cu documente în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Programare cu documente
@@ -7,6 +7,7 @@ type: docs
 description: "Utilizați clasele Aspose.Words Document Object Model pentru a crea, modifica și gestiona programatic documente cu Java. Lucrați cu proprietățile, setările și conținutul documentului, precum și cu aspectul documentului prin gestionarea culorilor, formelor, fonturilor și a altor elemente grafice."
 weight: 340
 url: /ro/java/programming-with-documents/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Această secțiune oferă informații despre modul de Creare, Modificare și gestionare programatică a documentelor cu clasele Aspose.Words Document Object Model. Articolele din această secțiune descriu o gamă largă de activități de manipulare a documentelor care vă permit să lucrați cu proprietățile documentului, setările, conținutul și elementele acestuia.

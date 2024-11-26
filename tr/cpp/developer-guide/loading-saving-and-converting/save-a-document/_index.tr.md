@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bir Belgeyi C++ konumuna Kaydetme
 second_title: Aspose.Words için C++
 articleTitle: Belgeyi Kaydetme
@@ -8,6 +8,7 @@ description: "C++ kullanarak bir belgeyi desteklenen herhangi bir biçimde kayde
 keywords: "save a document c++, save a document to file c++, save a document to stream c++, save a document Aspose C++, save formats supported by Aspose.Words C++"
 weight: 20
 url: /tr/cpp/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words ile gerçekleştirmeniz gereken görevlerin çoğu, bir belgeyi kaydetmeyi içerir. Bir belgeyi kaydetmek için Aspose.Words, [Document](https://reference.aspose.com/words/cpp/aspose.words/document/) sınıfının [Save](https://reference.aspose.com/words/cpp/aspose.words/document/save/) yöntemini sağlar. Belge, Aspose.Words tarafından desteklenen herhangi bir kaydetme biçiminde kaydedilebilir. Desteklenen tüm kaydetme biçimlerinin listesi için [SaveFormat](https://reference.aspose.com/words/cpp/aspose.words/saveformat/) numaralandırmasına bakın.

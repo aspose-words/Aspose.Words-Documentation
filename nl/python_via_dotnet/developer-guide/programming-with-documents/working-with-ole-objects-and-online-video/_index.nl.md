@@ -7,6 +7,7 @@ description: "Ole objecten of onlin vodeo invoegen in een document met behulp va
 type: docs
 weight: 360
 url: /nl/python-net/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE (Object Linking and Embedding) is een technologie waarmee gebruikers kunnen werken met documenten met "objecten" gemaakt of bewerkt door toepassingen van derden. Dat wil zeggen, OLE staat een bewerkingstoepassing toe om deze "objecten" naar een andere bewerkingsapplicatie te exporteren en ze vervolgens te importeren met extra inhoud.

@@ -7,6 +7,7 @@ description: "Cum să fuzionezi celulele tabelului în C#. Verificați dacă cel
 type: docs
 weight: 40
 url: /ro/net/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uneori anumite rânduri dintr-o tabelă necesită un antet sau blocuri mari de text care ocupă întreaga lățime a tabelului. Pentru un design corect al tabelului utilizatorul poate uni mai multe celule într-una singură. Aspose.Words acceptă celule fuzionate atunci când lucrează în toate formatele de intrare, inclusiv importul conținutului HTML.

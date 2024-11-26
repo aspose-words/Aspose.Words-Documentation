@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET نام ژنراتور و شماره نسخه
 type: docs
 weight: 60
 url: /fa/net/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 با استفاده از Aspose.Words برای .NET می توانید به راحتی متوجه شوید که آیا سندی تولید شده است. همچنین می توانید شماره نسخه Aspose.Words برای .NET را که برای ایجاد یک سند خروجی خاص استفاده شده است، بیابید. Aspose.Words مستقیماً این اطلاعات را در سند تولید شده می نویسد.

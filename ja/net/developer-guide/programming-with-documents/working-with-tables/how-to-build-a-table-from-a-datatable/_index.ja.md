@@ -7,6 +7,7 @@ description: "C# を使用して外部データベースからドキュメント
 type: docs
 weight: 120
 url: /ja/net/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-09-25-11-08-55
 ---
 
 多くの場合、アプリケーションはデータベースからデータを取得し、**DataTable** の形式で保存します。このデータを新しい表としてドキュメントに簡単に挿入し、表全体に書式設定をすばやく適用できます。

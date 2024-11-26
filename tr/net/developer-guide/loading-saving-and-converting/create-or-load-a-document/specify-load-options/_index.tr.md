@@ -7,6 +7,7 @@ description: "C#'i kullanarak yükleme sürecini daha doğru bir şekilde kontro
 type: docs
 weight: 10
 url: /tr/net/specify-load-options/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Bir belgeyi yüklerken bazı gelişmiş özellikleri ayarlayabilirsiniz. Aspose.Words size yükleme sürecinin daha hassas kontrolüne olanak tanıyan [LoadOptions](https://reference.aspose.com/words/tr/net/aspose.words.loading/loadoptions/) sınıfını sağlar. Bazı yükleme formatlarında, bu yükleme formatına yönelik yükleme seçeneklerini içeren karşılık gelen bir sınıf bulunur; örneğin, PDF formatına yüklemek için [PdfLoadOptions](https://reference.aspose.com/words/tr/net/aspose.words.loading/pdfloadoptions/) veya TXT'ye yüklemek için [TxtLoadOptions](https://reference.aspose.com/words/tr/net/aspose.words.loading/txtloadoptions/) vardır. Bu makalede **LoadOptions** sınıfının seçenekleriyle çalışmaya ilişkin örnekler verilmektedir.

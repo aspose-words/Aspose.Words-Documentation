@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lêerformate en Omskakelings
 second_title: Aspose.Words vir C++
 articleTitle: Hoekom Is Omskakeling die Vlagskip Kenmerk van Aspose.Words?
@@ -7,6 +7,7 @@ description: "Omskep dokumente van enige ondersteunde vrag na stoor formaat met 
 type: docs
 weight: 50
 url: /af/cpp/file-formats-and-conversions/
+timestamp: 2024-09-24-14-35-44
 ---
 
 {{% alert color="primary" %}}

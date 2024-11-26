@@ -8,6 +8,7 @@ url: /pl/python-net/create-or-load-a-document/
 description: "Utwórz pusty dokument lub załaduj go z pliku lub strumienia za pomocą Python."
 keywords: "create a document python, load a document python, create a blank document python, load a document from file python, load a document from stream python, create a document Aspose python, load a document Aspose python, load formats supported by Aspose.Words python"
 weight: 10
+timestamp: 2024-01-27-14-07-04
 ---
 
 Prawie każde zadanie, które chcesz wykonać w Aspose.Words, wiąże się z załadowaniem dokumentu. Klasa [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) reprezentuje dokument załadowany do pamięci. Dokument zawiera kilka przeciążonych konstruktorów, umożliwiających utworzenie pustego dokumentu lub załadowanie go z pliku lub strumienia. Dokument można załadować w dowolnym formacie ładowania obsługiwanym przez Aspose.Words. Listę wszystkich obsługiwanych formatów ładowania można znaleźć w wyliczeniu [LoadFormat](https://reference.aspose.com/words/python-net/aspose.words/loadformat/).

@@ -7,6 +7,7 @@ type: docs
 description: "Kích xuất nội dung tài liệu với cách khác nhau sử dụng Java."
 weight: 140
 url: /vi/java/extract-selected-content-between-nodes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Khi làm việc với tài liệu, điều quan trọng là có thể dễ dàng trích xuất nội dung từ một phạm vi cụ thể trong tài liệu. Tuy nhiên, nội dung có thể bao gồm các phần tử phức tạp như đoạn văn, bảng, hình ảnh v.v...

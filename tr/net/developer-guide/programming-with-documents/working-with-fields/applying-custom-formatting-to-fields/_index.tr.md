@@ -7,6 +7,7 @@ description: "Alan sonuçlarını C# kullanarak biçimlendirin ve değerlendirin
 type: docs
 weight: 40
 url: /tr/net/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen kullanıcıların alanlara özel biçimlendirme uygulaması gerekir. Bu yazıda bunun nasıl yapılabileceğine dair birkaç örneğe bakacağız.

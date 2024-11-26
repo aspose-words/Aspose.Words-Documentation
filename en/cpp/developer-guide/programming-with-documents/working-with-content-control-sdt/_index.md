@@ -8,6 +8,7 @@ description: "Advanced document content management, how to create and manipulate
 weight: 390
 url: /cpp/structured-document-tags-or-content-control/
 aliases: [/cpp/working-with-content-control-sdt/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 In Microsoft Word, you can create a form by starting with a template and adding content controls, including check boxes, text boxes, date pickers, and drop-down lists. In Aspose.Words, a Structured Document Tag or content control from any document loaded into Aspose.Words is imported as a StructuredDocumentTag node. Structured document tags (SDT or content control) allow to embed customer-defined semantics as well as its behavior and appearance into a document. StructuredDocumentTag can occur in a document in the following places:

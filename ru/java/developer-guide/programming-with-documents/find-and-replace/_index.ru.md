@@ -1,40 +1,41 @@
----
+﻿---
 title: Найти и заменить в Java
 second_title: Aspose.Words для Java
 articleTitle: Найти и заменить
 linktitle: Найти и заменить
 type: docs
-description: "Найдите строку или шаблон регулярного выражения в вашем документе и замените его текстом, который вы хотите использовать. Java."
+description: "Найдите в своем документе строку или шаблон регулярного выражения и замените его нужным текстом, используя Java."
 weight: 100
 url: /ru/java/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Вы можете легко перемещаться по документу с помощью клавиатуры и мыши, но если у вас есть много страниц для прокрутки, потребуется довольно много времени, чтобы найти конкретный текст в длинном документе. Это займет больше времени, если вы хотите заменить определенные символы или слова, которые вы использовали в своем документе. Функция "Найти и заменить" позволяет найти последовательность символов в документе и заменить ее другой последовательностью символов.
+Вы можете легко перемещаться по документу с помощью клавиатуры и мыши, но если вам нужно пролистать много страниц, поиск определенного текста в длинном документе займет довольно много времени. Если вы захотите заменить определенные символы или слова, которые вы использовали в документе, это займет больше времени. Функция "Найти и заменить" позволяет вам найти последовательность символов в документе и заменить ее другой последовательностью символов.
 
-Aspose.Words позволяет найти конкретную строку или шаблон регулярного выражения в документе и заменить его альтернативой без установки и использования дополнительных приложений, таких как: Microsoft Word. Это ускорит многие задачи набора и форматирования, что потенциально сэкономит вам часы работы.
+Aspose.Words позволяет найти в документе определенную строку или шаблон регулярного выражения и заменить его альтернативным вариантом без установки и использования дополнительных приложений, таких как Microsoft Word. Это ускорит выполнение многих задач по набору текста и форматированию, что потенциально сэкономит вам часы работы.
 
-В этой статье объясняется, как применять замену строк и регулярные выражения с поддержкой метахарактеров.
+В этой статье объясняется, как применять замену строк и регулярные выражения с поддержкой метасимволов.
 
-## Способы найти и заменить {#ways-to-find-and-replace}
+## Способы поиска и замены {#ways-to-find-and-replace}
 
-Aspose.Words Обеспечивает два способа применения операции поиска и замены, используя следующее:
+Aspose.Words предоставляет два способа применить операцию поиска и замены, используя следующие:
 
-1. *Простая замена строки* - чтобы найти и заменить конкретную строку другой, необходимо указать поисковую строку (альфа-цифровые символы), которая будет заменена в соответствии со всеми событиями другой указанной заменой строки. Обе строки не должны содержать символов. Учтите, что сравнение строк может быть чувствительным к случаю, или вы можете быть не уверены в правописании или иметь несколько подобных правописаний.
-2. *Регулярные выражения * - указать регулярное выражение, чтобы найти точные совпадения строк и заменить их в соответствии с вашим регулярным выражением. Обратите внимание, что слово определяется как состоящее только из буквенно-цифровых символов. Если замена выполняется только целыми словами и строка ввода содержит символы, то фразы не будут найдены.
+1. *Simple string replacement* – чтобы найти и заменить определенную строку на другую, вам необходимо указать строку поиска (буквенно-цифровые символы), которая будет заменена в соответствии со всеми появлениями другой указанной заменяющей строкой. Обе строки не должны содержать символов. Примите во внимание, что сравнение строк может быть чувствительным к регистру, или вы можете быть не уверены в правильности написания, или у вас может быть несколько похожих вариантов написания.
+2. *Regular expressions* – чтобы задать регулярное выражение для поиска точных совпадений строк и замены их в соответствии с вашим регулярным выражением. Обратите внимание, что слово определяется как состоящее только из буквенно-цифровых символов. Если при замене совпадают только целые слова, а входная строка содержит символы, то фразы найдены не будут.
 
-Кроме того, вы можете использовать специальные метахарактеры с простой заменой строк и регулярными выражениями, чтобы указать перерывы в операции поиска и замены.
+Кроме того, вы можете использовать специальные метасимволы с простой заменой строк и регулярные выражения для указания разрывов в рамках операции поиска и замены.
 
-Aspose.Words Найти и заменить функциональность с помощью [IReplacingCallBack](https://reference.aspose.com/words/java/com.aspose.words/ireplacingcallback/). Вы можете работать со многими вариантами во время процесса поиска и замены. [FindReplaceOptions](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/) класс.
+В Aspose.Words функция поиска и замены представлена в виде [IReplacingCallBack](https://reference.aspose.com/words/java/com.aspose.words/ireplacingcallback/). В процессе поиска и замены вы можете работать со многими параметрами, используя класс [FindReplaceOptions](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/).
 
-### Найти и заменить текст с помощью простой замены строки {#find-and-replace-text-using-simple-string-replacement}
+### Найдите и замените текст с помощью простой замены строки {#find-and-replace-text-using-simple-string-replacement}
 
-Вы можете использовать один из [Replace](https://reference.aspose.com/words/java/com.aspose.words/range/#replace-java.lang.String-java.lang.String) Способы поиска или замены конкретной строки и возврата количества произведенных замен. В этом случае вы можете указать строку, которая будет заменена, строку, которая заменит все ее случаи, является ли замена чувствительной к случаю, и будут ли затронуты только отдельные слова.
+Вы можете использовать один из методов [Replace](https://reference.aspose.com/words/java/com.aspose.words/range/#replace-java.lang.String-java.lang.String), чтобы найти или заменить определенную строку и вернуть количество выполненных замен. В этом случае вы можете указать строку, подлежащую замене, строку, которая заменит все свои вхождения, будет ли замена чувствительна к регистру и будут ли затронуты только отдельные слова.
 
-Следующий пример кода показывает, как найти строку "_CustomerName_" и заменить ее строкой * "James Bond"*:
+В следующем примере кода показано, как найти строку "_CustomerName_" и заменить ее строкой *"James Bond"*:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-SimpleStringReplacement.java" >}}
 
-Вы можете заметить разницу между документом перед применением простой замены строки:
+Вы можете заметить разницу между документами, прежде чем применять простую замену строк:
 
 <img src="/words/java/find-and-replace/before-simple-string-replacement.png" alt="before-simple-string-replacement-aspose-words-java" style="width:600px"/>
 
@@ -42,57 +43,57 @@ Aspose.Words Найти и заменить функциональность с 
 
 <img src="/words/java/find-and-replace/after-simple-string-replacement.png" alt="after-simple-string-replacement-aspose-words-java" style="width:600px"/>
 
-### Найти и заменить текст с помощью регулярных выражений {#find-and-replace-text-using-regular-expressions}
+### Поиск и замена текста с помощью регулярных выражений {#find-and-replace-text-using-regular-expressions}
 
-Регулярное выражение (регекс) - это шаблон, описывающий определенную последовательность текста. Допустим, вы хотите заменить все двойные случаи слова на одно слово. Затем вы можете применить следующее регулярное выражение, чтобы указать шаблон с двумя словами: `([a-zA-Z]+) \1`.
+Регулярное выражение (regex) - это шаблон, который описывает определенную последовательность текста. Предположим, вы хотите заменить все двойные вхождения слова одним вхождением слова. Затем вы можете применить следующее регулярное выражение для указания шаблона из двух слов: `([a-zA-Z]+) \1`.
 
-Используйте другой [Replace](https://reference.aspose.com/words/java/com.aspose.words/range/#replace-java.util.regex.Pattern-java.lang.String) метод поиска и замены конкретных комбинаций символов путем установки `Regex` параметр как шаблон регулярного выражения для поиска совпадений.
+Используйте другой метод [Replace](https://reference.aspose.com/words/java/com.aspose.words/range/#replace-java.util.regex.Pattern-java.lang.String) для поиска и замены определенных комбинаций символов, установив параметр `Regex` в качестве шаблона регулярного выражения для поиска совпадений.
 
-Следующий пример кода показывает, как заменить строки, которые соответствуют обычному шаблону выражения, определенной строкой замены:
+В следующем примере кода показано, как заменить строки, соответствующие шаблону регулярного выражения, указанной заменяющей строкой:
 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-UsingRegularExpression.java" >}}
 
 
-Вы можете заметить разницу между документом перед применением замены строки с регулярными выражениями:
+Вы можете заметить разницу между документами, прежде чем применять замену строк регулярными выражениями:
 
 <img src="/words/java/find-and-replace/before-replacement-with-regular-expressions.png" alt="before-replacement-with-regular-expressions-aspose-words-java" style="width:600px"/>
 
-А после нанесения замены строки регулярными выражениями:
+И после применения замены строк регулярными выражениями:
 
 <img src="/words/java/find-and-replace/after-replacement-with-regular-expressions.png" alt="after-replacement-with-regular-expressions-aspose-words-java" style="width:600px"/>
 
-### Найти и заменить струны с помощью метахарактеров {#find-and-replace-text-using-metacharacters}
+### Найдите и замените строку с помощью метасимволов {#find-and-replace-text-using-metacharacters}
 
-Вы можете использовать метасимволы в строке поиска или строке замены, если конкретный текст или фраза состоит из нескольких абзацев, разделов или страниц. Некоторые метахарактеры включают **&p** для перерыва в абзаце, **&b** для перерыва в секции, **&m** Для перерыва страницы и **&l** Для перерыва.
+Вы можете использовать метасимволы в строке поиска или в строке замены, если определенный текст или фраза состоят из нескольких абзацев, разделов или страниц. Некоторые из метасимволов включают **&p** для обозначения разрыва абзаца, **&b** для обозначения разрыва раздела, **&m** для обозначения разрыва страницы и **&l** для обозначения разрыва строки.
 
 {{% alert color="primary" %}}
 
-Обратите внимание, что метахарактер **&&** равным **&**. Например, если вам нужно найти текст для **&p** Это не пункт перерыва, то вы можете использовать **&&p**.
+Обратите внимание, что метасимвол **&&** равен **&**. Например, если вам нужно найти текст для **&p**, который не является разрывом абзаца, то вы можете использовать **&&p**.
 
 {{% /alert %}}
 
-Следующий пример кода показывает, как заменить текст абзацем и разрывом страницы:
+В следующем примере кода показано, как заменить текст абзацем и разрывом страницы:
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-ReplaceTextContaingMetaCharacters.java" >}}
 
-## Найти и заменить строку в заголовке / футере документа {#find-and-replace-string-in-header-or-footer-of-a-document}
+## Найти и заменить строку в верхнем/нижнем колонтитуле документа {#find-and-replace-string-in-header-or-footer-of-a-document}
 
-Вы можете найти и заменить текст в разделе заголовка / футера документа Word, используя [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/) класс.
+Вы можете найти и заменить текст в верхнем и нижнем колонтитулах документа Word, используя класс [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/).
 
-Следующий пример кода показывает, как заменить текст раздела заголовка в вашем документе:
+В следующем примере кода показано, как заменить текст раздела заголовка в вашем документе:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-ReplaceTextInHeader.java" >}}
 
 
-Вы можете заметить разницу между документом перед применением замены строки заголовка:
+Вы можете заметить разницу между документами до применения замены строки заголовка:
 
 <img src="/words/java/find-and-replace/before-applying-header-string-replacement.png" alt="before-applying-header-string-replacement-aspose-words-java" style="width:600px"/>
 
-И после применения замены струны заголовка:
+И после применения замены строки заголовка:
 
 <img src="/words/java/find-and-replace/after-applying-header-string-replacement.png" alt="after-applying-header-string-replacement-aspose-words-java" style="width:600px"/>
 
-Пример кода для замены текста нижнего колонтитула в вашем документе очень похож на предыдущий пример кода заголовка. Все, что вам нужно сделать, это заменить следующие две строки:
+Пример кода для замены текста нижнего колонтитула в вашем документе очень похож на предыдущий пример кода верхнего колонтитула. Все, что вам нужно сделать, это заменить следующие две строки:
 
 {{< highlight java >}}
 HeaderFooter header = headersFooters.get(HeaderFooterType.HEADER_PRIMARY);
@@ -104,46 +105,46 @@ header.getRange().replace("Aspose.Words", "Remove", options);
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-ReplaceTextInFooter.java" >}}
 
 
-Вы можете заметить разницу между документом перед применением замены нижнего колонтитула:
+Вы можете заметить разницу между документами до того, как примените замену строки нижнего колонтитула:
 
 <img src="/words/java/find-and-replace/before-applying-footer-string-replacement.png" alt="before-applying-footer-string-replacement-aspose-words-java" style="width:600px"/>
 
-И после применения замены нижнего колонтитула:
+И после применения замены строки нижнего колонтитула:
 
 <img src="/words/java/find-and-replace/after-applying-footer-string-replacement.png" alt="after-applying-footer-string-replacement-aspose-words-java" style="width:600px"/>
 
 ## Игнорировать текст во время поиска и замены {#ignore-text-during-find-and-replace}
 
-Применяя операцию поиска и замены, можно игнорировать определенные сегменты текста. Так, некоторые части текста могут быть исключены из поиска, а найти и заменить можно только оставшиеся части.
+Применяя операцию поиска и замены, вы можете игнорировать определенные фрагменты текста. Таким образом, определенные части текста могут быть исключены из поиска, а поиск и замена могут быть применены только к оставшимся частям.
 
-Aspose.Words предоставляет множество свойств поиска и замены для игнорирования текста. [IgnoreDeleted](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreDeleted), [IgnoreFieldCodes](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFieldCodes), [IgnoreFields](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFields), [IgnoreFootnotes](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFootnotes), и [IgnoreInserted](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreInserted).
+Aspose.Words предоставляет множество свойств поиска и замены для игнорирования текста, таких как [IgnoreDeleted](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreDeleted), [IgnoreFieldCodes](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFieldCodes), [IgnoreFields](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFields), [IgnoreFootnotes](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFootnotes), и [IgnoreInserted](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreInserted).
 
-Следующий пример кода показывает, как игнорировать текст внутри изменений удаления:
+В следующем примере кода показано, как игнорировать текст внутри изменений удаления:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-IgnoreText-IgnoreTextInsideDeleteRevisions.java" >}}
 
-## Настройка и замена операции {#customize-find-and-replace-operation}
+## Настройка операции поиска и замены {#customize-find-and-replace-operation}
 
-Aspose.Words Предоставляет множество различных [properties](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/) находить и заменять текст, например, при использовании определенного формата; [ApplyFont](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getApplyFont) и [ApplyParagraphFormats](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getApplyParagraphFormat) свойств, используя замещения в моделях замены [UseSubstitutions](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getUseSubstitutions) собственности и других.
+Aspose.Words предоставляет множество различных [properties](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/) способов поиска и замены текста, таких как применение определенного формата со свойствами [ApplyFont](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getApplyFont) и [ApplyParagraphFormats](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getApplyParagraphFormat), использование подстановок в шаблонах замены со свойством [UseSubstitutions](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getUseSubstitutions) и другие.
 
-Следующий пример кода показывает, как выделить конкретное слово в вашем документе:
+В следующем примере кода показано, как выделить определенное слово в вашем документе:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-CustomizeFindAndReplaceOperation.java" >}}
 
 
-Aspose.Words позволяет вам использовать [IReplacingCallback](https://reference.aspose.com/words/java/com.aspose.words/ireplacingcallback/) интерфейс для создания и вызова пользовательского метода во время операции замены. У вас могут быть некоторые случаи использования, когда вам нужно настроить операцию поиска и замены, например, заменить текст, указанный обычным выражением, тегами HTML, поэтому в основном вы будете применять замену с вставкой HTML.
+Aspose.Words позволяет использовать интерфейс [IReplacingCallback](https://reference.aspose.com/words/java/com.aspose.words/ireplacingcallback/) для создания и вызова пользовательского метода во время операции замены. У вас могут быть некоторые варианты использования, когда вам нужно настроить операцию поиска и замены, например, заменить текст, указанный в регулярном выражении, тегами HTML, поэтому в основном вы будете применять замену с помощью вставки HTML.
 
-Если вам нужно заменить строку тегом HTML, примените **IReplacingCallback** Интерфейс для настройки операции поиска и замены, чтобы матч начинался в начале выполнения с узлом соответствия вашего документа. Приведем несколько примеров использования **IReplacingCallback**.
+Если вам нужно заменить строку тегом HTML, примените интерфейс **IReplacingCallback**, чтобы настроить операцию поиска и замены таким образом, чтобы сопоставление начиналось в начале выполнения с узла сопоставления вашего документа. Приведем несколько примеров использования **IReplacingCallback**.
 
-Следующий пример кода показывает, как заменить текст, указанный в HTML:
+В следующем примере кода показано, как заменить текст, указанный на HTML:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-ReplaceWithHtml.java" >}}
 
 
-Следующий пример кода показывает, как выделить положительные числа с зеленым цветом и отрицательные числа с красным цветом:
+В следующем примере кода показано, как выделить положительные числа зеленым цветом, а отрицательные - красным:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-NumberHighlightCallback.java" >}}
 
-Следующий пример кода показывает, как прикрепить номер строки к каждой строке:
+В следующем примере кода показано, как добавлять номер строки перед каждой строкой:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-TestLineCounter.java" >}}

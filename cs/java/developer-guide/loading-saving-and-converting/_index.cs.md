@@ -7,6 +7,7 @@ description: "Poznejte Aspose.Words místo Java funkce při načítání, uklád
 type: docs
 weight: 20
 url: /cs/java/loading-saving-and-converting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tato sekce poskytuje informace o funkcích při načítání a ukládání dokumentu, jakož i údaje o možnostech při převodu dokumentu z jednoho formátu do druhého.

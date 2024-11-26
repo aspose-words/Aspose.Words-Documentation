@@ -7,6 +7,7 @@ description: "Pengolahan dokumen TXT canggih, daftar, BiDi, header / footer, men
 type: docs
 weight: 430
 url: /id/java/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dalam artikel ini, kami akan mempelajari opsi apa yang dapat berguna untuk bekerja dengan dokumen teks melalui Aspose.WordsSitemap Harap dicatat bahwa ini bukan daftar lengkap pilihan yang tersedia, tetapi hanya contoh bekerja dengan beberapa dari mereka.
@@ -15,7 +16,7 @@ Dalam artikel ini, kami akan mempelajari opsi apa yang dapat berguna untuk beker
 
 Anda dapat menggunakan [AddBidiMarks](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getAddBidiMarks) properti untuk menentukan apakah untuk menambahkan tanda dua arah sebelum setiap BiDi lari ketika mengekspor dalam format teks biasa. Aspose.Words masukkan Unicode Karakter 'RIGHT-TO-LEFT MARK' (U + 200F) sebelum setiap Bi-directional Run dalam teks. Opsi ini sesuai dengan opsi "Tambahkan tanda dua arah" di dialog MS Word File Konversi ketika Anda mengekspor ke format Teks Biasa. Perhatikan bahwa itu muncul dalam dialog hanya jika ada bahasa pengeditan Arab atau Ibrani ditambahkan dalam MS Word.
 
-Contoh kode berikut menunjukkan cara menggunakan `TxtSaveOptions.AddBidiMarks` Login Nilai default dari properti ini adalah *true*Sitemap
+Contoh kode berikut menunjukkan cara menggunakan `TxtSaveOptions.AddBidiMarks` Login Nilai default dari properti ini adalah *true* Sitemap
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-AddBidiMarks.java" >}}
 

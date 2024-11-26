@@ -7,6 +7,7 @@ description: "Python via .NET için Aspose.Words, belge koruması için Salt Oku
 type: docs
 weight: 50
 url: /tr/python-net/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir belgeyi korumanın veya şifrelemenin temel nedeni, belgeye kimin erişebileceği veya onu kimin düzenleyebileceği konusunda daha fazla kontrol uygulamaktır. Belgelerinize koruma uygulayarak, belgelerin izinsiz kopyalanması veya değiştirilmesi ve veri sızıntısı gibi yaygın risklerden kaçınırsınız.

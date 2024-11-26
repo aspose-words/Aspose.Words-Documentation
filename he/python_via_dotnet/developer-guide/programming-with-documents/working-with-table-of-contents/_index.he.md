@@ -7,6 +7,7 @@ description: "הכנס ולנהל את `אפשרות התוכן` במסמך בא
 type: docs
 weight: 170
 url: /he/python-net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 לעתים קרובות תעבוד עם מסמכים המכילים שולחן תוכן (TOC). שימוש Aspose.Words באפשרותך להוסיף את שולחן התוכן שלך או לבנות מחדש לחלוטין את שולחן התוכן הקיים במסמך באמצעות רק כמה שורות קוד. מאמר זה מתאר כיצד לעבוד עם השולחן של שדה התוכן ומדגים:
@@ -50,7 +51,7 @@ Aspose.Words מאפשר לך לעדכן לחלוטין `TOC` עם רק כמה ש
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-add_content_using_document_builder-UpdateFields.py" >}}
 
-הקריאה הראשונה [Document.update_fields](https://reference.aspose.com/words/python-net/aspose.words/document/update_fields/) נבנה את <span notrans="<span notrans=" `TOC`"=""></span>" כל הודעות הטקסט מאוכלסות וה `TOC` נראה כמעט שלם. הדבר היחיד שחסר לו הוא מספרי העמוד שכרגע מוצגים ב"? הקריאה השניה [Document.update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) נבנה את הפריסה של המסמך בזיכרון. זה צריך להיעשות כדי לאסוף את מספרי העמוד של הערכים. מספרי העמוד הנכונים המחושבים מהקריאה זו מוכנסים ל- TOC.
+הקריאה הראשונה [Document.update_fields](https://reference.aspose.com/words/python-net/aspose.words/document/update_fields/) נבנה את `TOC`" כל הודעות הטקסט מאוכלסות וה `TOC` נראה כמעט שלם. הדבר היחיד שחסר לו הוא מספרי העמוד שכרגע מוצגים ב"? הקריאה השניה [Document.update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) נבנה את הפריסה של המסמך בזיכרון. זה צריך להיעשות כדי לאסוף את מספרי העמוד של הערכים. מספרי העמוד הנכונים המחושבים מהקריאה זו מוכנסים ל- TOC.
 
 ## השתמש ב-Switches כדי לשלוט בהתנהגות של שולחן התוכן.
 

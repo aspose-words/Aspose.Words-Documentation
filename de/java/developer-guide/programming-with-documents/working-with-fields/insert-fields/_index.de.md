@@ -1,208 +1,209 @@
----
-title: Felder in einfügen Java
+﻿---
+title: Felder in Java einfügen
 second_title: Aspose.Words für Java
 articleTitle: Felder einfügen
 linktitle: Felder einfügen
-description: "Verschiedene Möglichkeiten, Felder in Ihr Dokument einzufügen Java."
+description: "Verschiedene Möglichkeiten, Felder mit Java in Ihr Dokument einzufügen."
 type: docs
 weight: 20
 url: /de/java/insert-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Es gibt verschiedene Möglichkeiten, Felder in ein Dokument einzufügen:
 
-- mit [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)
-- mit [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/)
-- mit [Aspose.Words Document Object Model (DOM)](/words/de/java/aspose-words-document-object-model/)
+- verwenden von [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)
+- verwenden von [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/)
+- wobei [Aspose.Words Dokumentenobjektmodell (DOM)](/words/java/aspose-words-document-object-model/)
 
-In diesem Artikel werden wir uns jeden Weg genauer ansehen und analysieren, wie bestimmte Felder mit diesen Optionen eingefügt werden können.
+In diesem Artikel werden wir uns jeden Weg genauer ansehen und analysieren, wie bestimmte Felder mit diesen Optionen eingefügt werden.
 
 ## Einfügen von Feldern in ein Dokument mit DocumentBuilder
 
-In Aspose.Words die [InsertField](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertField(int,boolean)) Verfahren wird verwendet, um neue Felder in ein Dokument einzufügen. Der erste Parameter akzeptiert den vollen Feldcode des einzufügenden Feldes. Der zweite Parameter ist optional und erlaubt das Feldergebnis des Feldes manuell einzustellen. Wird dies nicht geliefert, wird das Feld automatisch aktualisiert. Sie können null oder leer an diesen Parameter übergeben, um ein Feld mit einem leeren Feldwert einzufügen. Wenn Sie nicht sicher sind über die jeweilige Feldcode-Syntax, erstellen Sie das Feld in Microsoft Word zuerst und schalten, um seinen Feldcode zu sehen.
+In Aspose.Words wird die Methode [InsertField](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertField(int,boolean)) verwendet, um neue Felder in ein Dokument einzufügen. Der erste Parameter akzeptiert den vollständigen Feldcode des einzufügenden Felds. Der zweite Parameter ist optional und ermöglicht die manuelle Einstellung des Feldergebnisses des Felds. Wenn dies nicht angegeben wird, wird das Feld automatisch aktualisiert. Sie können null oder empty an diesen Parameter übergeben, um ein Feld mit einem leeren Feldwert einzufügen. Wenn Sie sich über die bestimmte Feldcodesyntax nicht sicher sind, erstellen Sie zuerst das Feld in Microsoft Word und wechseln Sie, um den Feldcode anzuzeigen.
 
 {{% alert color="primary" %}}
 
-Hat Ihr Feldcode einen Parameter, der einen Raum enthält, so muss er innerhalb von Sprachmarken eingeschlossen werden. Ansonsten das Feld in beiden Microsoft Word und Aspose.Words kann nicht wie erwartet funktionieren, da der Parameter von beiden als stumpf behandelt wird.
+Wenn Ihr Feldcode einen Parameter enthält, der ein Leerzeichen enthält, muss er in Sprachmarken eingeschlossen sein. Andernfalls funktioniert das Feld in Microsoft Word und Aspose.Words möglicherweise nicht wie erwartet, da der Parameter von beiden als abgeschnitten behandelt wird.
 
 {{% /alert %}}
 
-Das folgende Codebeispiel zeigt, wie ein Zusammenführungsfeld mit Hilfe eines Dokuments eingefügt werden kann **DocumentBuilder**:
+Das folgende Codebeispiel zeigt, wie Sie ein Seriendruckfeld mit **DocumentBuilder** in ein Dokument einfügen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-InsertField.java" >}}
 
-Die gleiche Technik wird verwendet, um Felder innerhalb anderer Felder einzufügen.
+Dieselbe Technik wird verwendet, um Felder einzufügen, die in anderen Feldern verschachtelt sind.
 
-Das folgende Codebeispiel zeigt, wie Felder, die in einem anderen Feld geschachtelt sind, mit Hilfe von **DocumentBuilder**:
+Das folgende Codebeispiel zeigt, wie Felder, die in einem anderen Feld verschachtelt sind, mit **DocumentBuilder** eingefügt werden:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertNestedFields-InsertNestedFields.java" >}}
 
-### Lokale auf Feldebene angeben
+### Gebietsschema auf Feldebene angeben
 
-Eine Sprachkennung ist eine Standard-internationale numerische Abkürzung für die Sprache in einem Land oder einer geografischen Region. mit Aspose.Words, Sie können die Locale auf der Feldebene mit der [LocaleId](https://reference.aspose.com/words/java/com.aspose.words/field/#getLocaleId) eine Eigenschaft, die die lokale ID des Feldes erhält oder setzt.
+Eine Sprachkennung ist eine internationale numerische Standardabkürzung für die Sprache in einem Land oder einer geografischen Region. Mit Aspose.Words können Sie das Gebietsschema auf Feldebene mithilfe der Eigenschaft [LocaleId](https://reference.aspose.com/words/java/com.aspose.words/field/#getLocaleId) angeben, die das Gebietsschema ID des Felds abruft oder festlegt.
 
-Das folgende Codebeispiel zeigt, wie man diese Option verwendet:
+Das folgende Codebeispiel zeigt, wie diese Option verwendet wird:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-SpecifylocaleAtFieldlevel-SpecifylocaleAtFieldlevel.java" >}}
 
-### Einfügen von untypischen / leeren Feld
+### Untypisiertes/leeres Feld einfügen
 
-Wenn Sie untypisierte/leere Felder einfügen möchten ({}) wie Microsoft Word erlaubt, können Sie die [InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) Verfahren mit [FieldType.FieldNone](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) Parameter. Um ein Feld in ein Word-Dokument einzufügen, können Sie die Tastenkombination "Ctrl + F9" drücken.
+Wenn Sie nicht typisierte / leere Felder ({}) einfügen möchten, wie es Microsoft Word zulässt, können Sie die Methode [InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) mit dem Parameter [FieldType.FieldNone](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) verwenden. Um ein Feld in ein Word-Dokument einzufügen, können Sie die Tastenkombination "Strg + F9" drücken.
 
-Das folgende Codebeispiel zeigt, wie ein leeres Feld in das Dokument eingefügt werden kann:
+Das folgende Codebeispiel zeigt, wie Sie ein leeres Feld in das Dokument einfügen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertFieldNone-InsertFieldNone.java" >}}
 
-### Einsatz `COMPARE` Feld
+### Feld `COMPARE` einfügen
 
-Die `COMPARE` Feld vergleicht zwei Werte und gibt den Zahlenwert 1 zurück, wenn der Vergleich true oder 0 wenn der Vergleich false.
+Das Feld `COMPARE` vergleicht zwei Werte und gibt den numerischen Wert 1 zurück, wenn der Vergleich wahr ist, oder 0, wenn der Vergleich falsch ist.
 
-Das folgende Codebeispiel zeigt, wie man `COMPARE` Felder mit DocumentBuilder:
+Das folgende Codebeispiel zeigt, wie `COMPARE` Felder mit DocumentBuilder hinzugefügt werden:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldCompare.java" >}}
 
-### Einsatz `IF` Feld
+### Feld `IF` einfügen
 
-Die `IF` Feld kann verwendet werden, um Argumente bedingt auszuwerten.
+Das Feld `IF` kann verwendet werden, um Argumente bedingt auszuwerten.
 
-Das folgende Codebeispiel zeigt, wie man `IF` Felder mit DocumentBuilder:
+Das folgende Codebeispiel zeigt, wie `IF` Felder mit DocumentBuilder hinzugefügt werden:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldIf.java" >}}
 
 ## Einfügen von Feldern in ein Dokument mit FieldBuilder
 
-Die alternative Möglichkeit, Felder in Aspose.Words die [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/) Klasse. Es bietet fließende Schnittstelle, um Feldschalter und Argumentwerte als Text, Knoten oder sogar geschachtelte Felder anzugeben.
+Die alternative Möglichkeit, Felder in Aspose.Words einzufügen, ist die [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/) -Klasse. Es bietet eine fließende Schnittstelle zum Angeben von Feldschaltern und Argumentwerten als Text, Knoten oder sogar verschachtelte Felder.
 
-Das folgende Codebeispiel zeigt, wie ein Feld in ein Dokument eingefügt werden kann, indem **FieldBuilder**:
+Das folgende Codebeispiel zeigt, wie Sie ein Feld mit **FieldBuilder** in ein Dokument einfügen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-FieldBuilder.java" >}}
 
-## Einfügen von Feldern mit DOM
+## Felder mit DOM einfügen
 
-Sie können auch verschiedene Arten von Feldern verwenden [Aspose.Words Document Object Model (DOM)](/words/de/java/aspose-words-document-object-model/). In diesem Abschnitt werden wir einige Beispiele anschauen.
+Sie können auch verschiedene Arten von Feldern einfügen mit [Aspose.Words Dokumentenobjektmodell (DOM)](/words/java/aspose-words-document-object-model/). In diesem Abschnitt werden wir uns einige Beispiele ansehen.
 
-### Einfügen von Verschmelzung Feld in ein Dokument mit DOM
+### Seriendruckfeld mit DOM in ein Dokument einfügen
 
-`MERGEFIELD` Feld in Word-Dokument kann durch die [FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/) Klasse. Sie können verwenden **FieldMergeField** Klasse, um die folgenden Operationen durchzuführen:
+`MERGEFIELD` field in Word document can be represented by the [FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/) class. You can use **FieldMergeField** class to perform the following operations:
 
-- den Namen des Zusammenführungsfeldes angeben
-- die Formatierung des Zusammenführungsfeldes angeben
-- geben Sie den Text an, der zwischen Feldtrenner und Feldende des Zusammenführungsfeldes liegt
-- Geben Sie den nach dem Zusammenschlussfeld einzufügenden Text an, wenn das Feld nicht leer ist
-- Geben Sie den vor dem Zusammenschlussfeld einzufügenden Text an, wenn das Feld nicht leer ist
+- geben Sie den Namen des Seriendruckfelds an
+- geben Sie die Formatierung des Seriendruckfelds an
+- geben Sie den Text zwischen dem Feldtrennzeichen und dem Feldende des Seriendruckfelds an
+- geben Sie den Text an, der nach dem Seriendruckfeld eingefügt werden soll, wenn das Feld nicht leer ist
+- geben Sie den Text an, der vor dem Seriendruckfeld eingefügt werden soll, wenn das Feld nicht leer ist
 
 {{% alert color="primary" %}}
 
-Weitere Details finden Sie in der [FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/) Klasse API.
+Weitere Einzelheiten finden Sie in der [FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/)-Klasse API.
 
 {{% /alert %}}
 
-Das folgende Codebeispiel zeigt, wie man die `MERGE` Feld mit DOM zu einem Absatz in einem Dokument:
+Das folgende Codebeispiel zeigt, wie Sie das Feld `MERGE` mit DOM zu einem Absatz in einem Dokument hinzufügen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertMergeFieldUsingDOM-InsertMergeFieldUsingDOM.java" >}}
 
-### Einfügen Mail Merge `ADDRESSBLOCK` Feld in ein Dokument mit DOM
+### Einfügen von Mail Merge `ADDRESSBLOCK` -Feldern in ein Dokument mit DOM
 
-Die `ADDRESSBLOCK` Feld wird verwendet, um ein mail merge Adressblock in einem Word-Dokument. `ADDRESSBLOCK` Feld in Word-Dokument kann durch die [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) Klasse. Sie können verwenden **FieldAddressBlock** Klasse, um die folgenden Operationen durchzuführen:
+Das Feld `ADDRESSBLOCK` wird verwendet, um einen Mail Merge -Adressblock in ein Word-Dokument einzufügen. Das Feld `ADDRESSBLOCK` im Word-Dokument kann durch die Klasse [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) dargestellt werden. Sie können die Klasse **FieldAddressBlock** verwenden, um die folgenden Vorgänge auszuführen:
 
-- geben Sie an, ob Sie den Namen des Landes/der Region in das Feld einfügen
-- die Angabe, ob die Adresse nach dem Land/der Region des Empfängers im Sinne von POST*CODE (Universal Postal Union 2006) formatiert werden soll
-- Angabe des ausgeschlossenen Landes/Regionsnamens
-- Angabe des Namens und des Adressformats
-- die Sprach-ID angeben, die verwendet wird, um die Adresse zu formatieren
+- geben Sie an, ob der Name des Landes/der Region in das Feld aufgenommen werden soll
+- geben Sie an, ob die Adresse entsprechend dem Land/der Region des Empfängers formatiert werden soll, wie in POST*CODE definiert (Weltpostverein 2006)
+- geben Sie den Namen des ausgeschlossenen Landes/der ausgeschlossenen Region an
+- geben Sie das Namens- und Adressformat an
+- geben Sie die Sprache ID an, in der die Adresse formatiert wird
 
 {{% alert color="primary" %}}
 
-Weitere Details finden Sie in der [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) Klasse API.
+Weitere Einzelheiten finden Sie in der [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/)-Klasse API.
 
 {{% /alert %}}
 
-Das folgende Codebeispiel zeigt, wie man die Mail Merge `ADDRESSBLOCK` Feld mit DOM zu einem Absatz in einem Dokument:
+Das folgende Codebeispiel zeigt, wie Sie das Feld Mail Merge `ADDRESSBLOCK` mit DOM zu einem Absatz in einem Dokument hinzufügen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertMailMergeAddressBlockFieldUsingDOM-InsertMailMergeAddressBlockFieldUsingDOM.java" >}}
 
-### Einfügen `ADVANCE` Feld in ein Dokument ohne Verwendung von DocumentBuilder
+### `ADVANCE`-Feld in ein Dokument einfügen, ohne DocumentBuilder zu verwenden
 
-Die `ADVANCE` Das Feld wird verwendet, um anschließenden Text innerhalb einer Zeile nach links, rechts, oben oder unten zu kompensieren. `ADVANCE` Feld in Word-Dokument kann durch die [FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/fieldadvance/) Klasse. Sie können die **FieldAdvance** Klasse für folgende Operationen:
+Das Feld `ADVANCE` wird verwendet, um nachfolgenden Text innerhalb einer Zeile nach links, rechts, oben oder unten zu verschieben. Das Feld `ADVANCE` im Word-Dokument kann durch die Klasse [FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/fieldadvance/) dargestellt werden. Sie können die Klasse **FieldAdvance** verwenden, um folgende Operationen auszuführen:
 
-- die Anzahl der Punkte, mit denen der Text, der dem Feld folgt, vertikal von der oberen Kante der Seite bewegt werden sollte
-- Geben Sie die Anzahl der Punkte an, mit denen der Text, der dem Feld folgt, horizontal von der linken Kante der Spalte, des Rahmens oder des Textfeldes bewegt werden soll
-- die Anzahl der Punkte, mit denen der Text, der dem Feld folgt, links, rechts, oben oder unten verschoben werden soll
+- geben Sie die Anzahl der Punkte an, um die der Text, der auf das Feld folgt, vertikal vom oberen Rand der Seite verschoben werden soll
+- geben Sie die Anzahl der Punkte an, um die der Text, der auf das Feld folgt, horizontal vom linken Rand der Spalte, des Rahmens oder des Textfelds verschoben werden soll
+- geben Sie die Anzahl der Punkte an, um die der Text, der auf das Feld folgt, nach links, rechts, oben oder unten verschoben werden soll
 
 {{% alert color="primary" %}}
 
-Weitere Details finden Sie in der [FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/fieldadvance/) Klasse API.
+Weitere Einzelheiten finden Sie in der [FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/fieldadvance/)-Klasse API.
 
 {{% /alert %}}
 
-Das folgende Codebeispiel zeigt, wie man die `ADVANCE` Feld mit DOM zu einem Absatz in einem Dokument:
+Das folgende Codebeispiel zeigt, wie Sie das Feld `ADVANCE` mit DOM zu einem Absatz in einem Dokument hinzufügen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldAdvance.java" >}}
 
-### Einfügen `ASK` Feld in ein Dokument ohne Verwendung von DocumentBuilder
+### `ASK`-Feld in ein Dokument einfügen, ohne DocumentBuilder zu verwenden
 
-Die `ASK` Das Feld wird verwendet, um den Benutzer für Text zu veranlassen, einem Lesezeichen im Word-Dokument zuzuordnen. `ASK` Feld in Word-Dokument kann durch die [FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/fieldask/) Klasse. Sie können verwenden **FieldAsk** Klasse für folgende Operationen:
+Das Feld `ASK` wird verwendet, um den Benutzer zur Eingabe von Text aufzufordern, der einem Lesezeichen im Word-Dokument zugewiesen werden soll. Das Feld `ASK` im Word-Dokument kann durch die Klasse [FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/fieldask/) dargestellt werden. Sie können die Klasse **FieldAsk** verwenden, um folgende Operationen auszuführen:
 
-- den Namen des Lesezeichens angeben
-- standardmäßige Benutzerantwort angeben (Initialwert im Eingabefenster enthalten)
-- angeben, ob die Nutzerantwort einmal pro a empfangen werden sollte mail merge Betrieb
-- den Eingabeaufforderungstext (der Titel des Eingabeaufforderungsfensters)
+- geben Sie den Namen des Lesezeichens an
+- Standardbenutzerantwort angeben (Anfangswert im Eingabeaufforderungsfenster enthalten)
+- geben Sie an, ob die Benutzerantwort einmal pro Mail Merge-Vorgang empfangen werden soll
+- geben Sie den Eingabeaufforderungstext an (den Titel des Eingabeaufforderungsfensters)
 
 {{% alert color="primary" %}}
 
-Weitere Details finden Sie in der [FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/fieldask/) Klasse API.
+Weitere Einzelheiten finden Sie in der [FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/fieldask/)-Klasse API.
 
 {{% /alert %}}
 
-Das folgende Codebeispiel zeigt, wie man die `ASK` Feld mit DOM zu einem Absatz in einem Dokument:
+Das folgende Codebeispiel zeigt, wie Sie das Feld `ASK` mit DOM zu einem Absatz in einem Dokument hinzufügen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldAsk.java" >}}
 
-### Einfügen `AUTHOR` Feld in ein Dokument ohne Verwendung von DocumentBuilder
+### `AUTHOR`-Feld in ein Dokument einfügen, ohne DocumentBuilder zu verwenden
 
-Die `AUTHOR` Das Feld wird verwendet, um den Namen des Autors des Dokuments aus dem `Document` Eigenschaften. `AUTHOR` Feld in Word-Dokument kann durch die [FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/) Klasse. Sie können verwenden **FieldAuthor** Klasse für folgende Operationen:
+Das Feld `AUTHOR` wird verwendet, um den Namen des Autors des Dokuments aus den Eigenschaften `Document` anzugeben. Das Feld `AUTHOR` im Word-Dokument kann durch die Klasse [FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/) dargestellt werden. Sie können die Klasse **FieldAuthor** verwenden, um folgende Operationen auszuführen:
 
-- den Namen des Dokumentautors angeben
+- geben Sie den Namen des Dokumentautors an
 
 {{% alert color="primary" %}}
 
-Weitere Details finden Sie in der [FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/) Klasse API.
+Weitere Einzelheiten finden Sie in der [FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/)-Klasse API.
 
 {{% /alert %}}
 
-Das folgende Codebeispiel zeigt, wie man die `AUTHOR` Feld mit DOM zu einem Absatz in einem Dokument:
+Das folgende Codebeispiel zeigt, wie Sie das Feld `AUTHOR` mit DOM zu einem Absatz in einem Dokument hinzufügen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertAuthorField-InsertAuthorField.java" >}}
 
-### Einfügen `INCLUDETEXT` Feld in ein Dokument ohne Verwendung von DocumentBuilder
+### `INCLUDETEXT`-Feld in ein Dokument einfügen, ohne DocumentBuilder zu verwenden
 
-Die `INCLUDETEXT` Feld fügt den Text und die Grafik in dem im Feldcode genannten Dokument ein. Sie können das gesamte Dokument oder einen Teil des Dokuments einfügen, auf den ein Lesezeichen verweist. Dieses Feld in Word-Dokument wird durch INCLUDETEXT dargestellt. Sie können verwenden [FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/) Klasse für folgende Operationen:
+Das Feld `INCLUDETEXT` fügt den Text und die Grafiken ein, die in dem im Feldcode genannten Dokument enthalten sind. Sie können das gesamte Dokument oder einen Teil des Dokuments einfügen, auf das durch ein Lesezeichen verwiesen wird. Dieses Feld im Word-Dokument wird durch INCLUDETEXT dargestellt. Sie können die Klasse [FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/) verwenden, um folgende Operationen auszuführen:
 
-- Geben Sie den Namen des Lesezeichens des enthaltenen Dokuments an
-- den Standort des Dokuments angeben
+- geben Sie den Namen des Lesezeichens des enthaltenen Dokuments an
+- geben Sie den Speicherort des Dokuments an
 
 {{% alert color="primary" %}}
 
-Weitere Details finden Sie in der [FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/) Klasse API.
+Weitere Einzelheiten finden Sie in der [FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/)-Klasse API.
 
 {{% /alert %}}
 
-Das folgende Codebeispiel zeigt, wie man die `INCLUDETEXT` Feld mit DOM zu einem Absatz in einem Dokument:
+Das folgende Codebeispiel zeigt, wie Sie das Feld `INCLUDETEXT` mit DOM zu einem Absatz in einem Dokument hinzufügen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldIncludeText.java" >}}
 
-### Einfügen `TOA` Feld in ein Dokument ohne Verwendung von DocumentBuilder
+### `TOA`-Feld in ein Dokument einfügen, ohne DocumentBuilder zu verwenden
 
-Die `TOA` (*Table of Authorities*) Feld baut und fügt eine Tabelle der Behörden ein. Die `TOA` Feld sammelt Einträge, die von `TA` (*Table of Authorities Entry*) Felder. Microsoft Office Word setzt die `TOA` Feld, wenn Sie auf *Insert Tabelle der Behörden* im **Tabelle der Behörden** Gruppe auf der **References** Tab. Wenn Sie die `TOA` Die Syntax sieht so aus:
+Das Feld `TOA` (*Table of Authorities*) erstellt und fügt eine Tabelle mit Berechtigungen ein. Das Feld `TOA` sammelt Einträge, die mit `TA` (*Table of Authorities Entry*) Feldern gekennzeichnet sind. Microsoft Office Word fügt das Feld `TOA` ein, wenn Sie in der Gruppe **Table of Authorities** auf der Registerkarte **References** auf *Insert Table of Authorities* klicken. Wenn Sie das Feld `TOA` in Ihrem Dokument anzeigen, sieht die Syntax folgendermaßen aus:
 
 { `TOA` [Switches ] }
 
 {{% alert color="primary" %}}
 
-Weitere Details finden Sie in der [FieldToa](https://reference.aspose.com/words/java/com.aspose.words/fieldtoa/) Klasse API.
+Weitere Einzelheiten finden Sie in der [FieldToa](https://reference.aspose.com/words/java/com.aspose.words/fieldtoa/)-Klasse API.
 
 {{% /alert %}}
 
-Das folgende Codebeispiel zeigt, wie man die `TOA` Feld mit DOM zu einem Absatz in einem Dokument.
+Das folgende Codebeispiel zeigt, wie Sie das Feld `TOA` mit DOM zu einem Absatz in einem Dokument hinzufügen.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertTOAField-InsertTOAField.java" >}}

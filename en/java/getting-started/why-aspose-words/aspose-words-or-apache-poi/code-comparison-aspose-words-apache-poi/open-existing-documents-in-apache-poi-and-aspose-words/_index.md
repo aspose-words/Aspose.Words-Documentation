@@ -7,6 +7,7 @@ description: "Open an existing document easily and fast instead of using Apache 
 type: docs
 weight: 50
 url: /java/open-existing-documents-in-apache-poi-and-aspose-words/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Open Existing Document

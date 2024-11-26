@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中使用形状
 second_title: Aspose.Words对于C++
 articleTitle: 使用形状
@@ -7,6 +7,7 @@ type: docs
 description: "Shape标记语言简介，使用C++创建不同类型的形状。"
 weight: 280
 url: /zh/cpp/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 本主题讨论如何使用Aspose.Words以编程方式处理形状。

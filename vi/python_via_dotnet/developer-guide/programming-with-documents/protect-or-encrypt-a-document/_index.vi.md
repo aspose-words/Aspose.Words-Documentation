@@ -7,6 +7,7 @@ description: "Aspose.Words cho Python via .NET cung cấp Chỉ đọc, Mã hóa
 type: docs
 weight: 50
 url: /vi/python-net/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Lý do chính để bảo vệ hoặc mã hóa tài liệu là để áp dụng nhiều quyền kiểm soát hơn đối với ai có thể truy cập tài liệu hoặc ai có thể chỉnh sửa tài liệu đó. Áp dụng biện pháp bảo vệ cho tài liệu của mình, bạn sẽ tránh được những rủi ro thường gặp như sao chép hoặc sửa đổi tài liệu mà không được phép cũng như rò rỉ dữ liệu.

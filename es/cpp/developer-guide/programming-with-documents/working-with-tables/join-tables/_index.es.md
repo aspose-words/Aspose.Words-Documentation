@@ -1,4 +1,4 @@
-﻿---
+---
 title: Unir tablas en C++
 second_title: Aspose.Words para C++
 articleTitle: Unir Tablas
@@ -7,6 +7,7 @@ description: "Manipulaciones avanzadas de tablas. Cómo fusionar dos tablas en u
 type: docs
 weight: 90
 url: /es/cpp/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Una tabla, representada en el Modelo de Objetos de documento Aspose.Words, está formada por filas y celdas independientes, lo que facilita la unión de tablas.

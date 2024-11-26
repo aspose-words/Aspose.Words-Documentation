@@ -1,4 +1,4 @@
-﻿---
+---
 title: PHP
 second_title: Aspose.Words for .NET
 articleTitle: PHP
@@ -7,6 +7,7 @@ description: "How to utilise Aspose.Words for .NET in PHP Projects using C#."
 type: docs
 weight: 100
 url: /net/aspose-words-net-for-php/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Project Aspose.Words .NET for PHP shows how different tasks can be performed using Aspose.Words .NET APIs in PHP. This project is aimed to provide useful examples for PHP Developers who want to utilise Aspose.Words for .NET in their PHP Projects.

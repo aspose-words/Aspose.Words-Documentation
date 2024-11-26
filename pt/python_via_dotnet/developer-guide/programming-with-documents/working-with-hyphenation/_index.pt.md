@@ -7,6 +7,7 @@ description: "Use a hifenização para uma organização de texto mais compacta 
 type: docs
 weight: 220
 url: /pt/python-net/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Às vezes é necessário usar a hifenização para uma organização mais compacta do texto em um documento. Ao mesmo tempo, é importante compreender que as especificidades da hifenização de palavras podem ser diferentes para cada idioma.

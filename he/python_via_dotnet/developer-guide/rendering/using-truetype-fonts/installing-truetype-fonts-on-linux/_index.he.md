@@ -7,6 +7,7 @@ description: "Aspose.Words עבור Python מאפשר להפוך מסמך שנו
 type: docs
 weight: 20
 url: /he/python-net/installing-truetype-fonts-on-linux/
+timestamp: 2024-01-27-14-07-04
 ---
 
 לרוב, תשתמש Aspose.Words להמיר מסמכי DOC או DOCX לפורמט PDF. אם אתה צריך לעשות את זה על Linux מכונה, נושא זה יעזור לך ללמוד כיצד להבטיח Aspose.Words להפוך את המסמכים שלך לדיוק הטוב ביותר.

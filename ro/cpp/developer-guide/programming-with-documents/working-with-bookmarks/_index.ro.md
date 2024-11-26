@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu marcaje în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Lucrul cu marcaje
@@ -7,6 +7,7 @@ description: "Înțelegerea conceptelor de marcaj și modul în care marcajul po
 type: docs
 weight: 180
 url: /ro/cpp/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Marcajele identifică într-un document Microsoft Word locațiile sau fragmentele pe care le denumiți și le identificați pentru referințe viitoare. De exemplu, este posibil să utilizați un marcaj pentru a identifica textul pe care doriți să îl revizuiți ulterior. În loc să derulați documentul pentru a localiza textul, puteți accesa acesta utilizând caseta de dialog marcaj.

@@ -7,6 +7,7 @@ description: "Sử dụng Group để sắp xếp và nhóm các hình thành Ja
 type: docs
 weight: 290
 url: /vi/java/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi bạn cần thêm một group shape vào tài liệu Word. Một "đặc trưng như vậy group shape bao gồm nhiều hình dạng"

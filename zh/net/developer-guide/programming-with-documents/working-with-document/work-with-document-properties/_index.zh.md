@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET 允许使用 C# 在内置或自定义文档�
 type: docs
 weight: 10
 url: /zh/net/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 文档属性允许存储有关文档的一些有用信息。这些属性可以分为两组：

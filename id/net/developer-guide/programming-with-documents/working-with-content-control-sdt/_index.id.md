@@ -7,6 +7,7 @@ description: "Manajemen konten dokumen tingkat lanjut, cara membuat dan memanipu
 type: docs
 weight: 390
 url: /id/net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Di Microsoft Word, Anda bisa membuat formulir dengan memulai dengan templat dan menambahkan kontrol konten, termasuk kotak centang, kotak teks, pemilih tanggal, dan daftar drop-down. Di Aspose.Words, Tag Dokumen Terstruktur atau kontrol konten dari dokumen apa pun yang dimuat ke Aspose.Words diimpor sebagai node StructuredDocumentTag. Tag dokumen terstruktur (SDT atau kontrol konten) memungkinkan penyematan semantik yang ditentukan pelanggan serta perilaku dan tampilannya ke dalam dokumen.

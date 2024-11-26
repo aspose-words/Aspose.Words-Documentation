@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのドキュメントプロパティの操作
 second_title: C++の場合Aspose.Words
 articleTitle: ドキュメントプロパティの操作
@@ -7,6 +7,7 @@ description: "C++ の場合は Aspose.Words API やバージョン番号、承�
 type: docs
 weight: 10
 url: /ja/cpp/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 ドキュメントプロパティを使用すると、ドキュメントに関する有用な情報を格納できます。 これらのプロパティは、2つのグループに分けることができます:

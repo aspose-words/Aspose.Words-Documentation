@@ -1,12 +1,13 @@
 ---
-title: איך לבנות שולחן משולחן `DataTable` פנימה Java
+title: איך לבנות שולחן משולחן DataTable פנימה Java
 second_title: Aspose.Words עבור Java
-articleTitle: לבנות שולחן מ `DataTable`
-linktitle: לבנות שולחן מ `DataTable`
+articleTitle: לבנות שולחן מ DataTable
+linktitle: לבנות שולחן מ DataTable
 description: "דוגמה לטבלת מסמכים מילוי ממסד נתונים חיצוני Java."
 type: docs
 weight: 130
 url: /he/java/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-01-27-14-07-04
 ---
 
 לעתים קרובות היישום שלך ימשוך נתונים ממסד נתונים ולאחסן אותו בצורה של **DataTable**. ייתכן שתרצה להוסיף בקלות נתונים אלה לתוך המסמך שלך כשולחן חדש וליישם במהירות פורמט לכל השולחן.

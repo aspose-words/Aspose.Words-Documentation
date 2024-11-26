@@ -7,6 +7,7 @@ description: "Managementul conținutului documentelor avansate, cum să creezi �
 type: docs
 weight: 390
 url: /ro/net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 În Microsoft Word poţi crea un formular pornind de la o şablon şi adăugând conţinuturi control, inclusiv casete de selectare, cutii de text, selectoare de date şi liste cu derulare. În Aspose.Words, eticheta de document structurat sau controlul conținutului dintr-un document încărcat în Aspose.Words este importată ca nod StructuredDocumentTag. Etichetele de documente structurate (SDT sau controlul conținutului) permit încorporarea semanticelor definite de client, precum și comportamentul și aspectul său într-un document.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mã Hóa Một Tài liệu trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Mã hóa Tài liệu
@@ -7,6 +7,7 @@ description: "Mã hóa tài liệu của bạn bằng các thuật toán mã hó
 type: docs
 weight: 20
 url: /vi/cpp/encrypt-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Mã hóa là quá trình dịch văn bản có thể đọc được thành các chuỗi byte vô nghĩa để người có khóa giải mã hoặc mã bí mật chỉ có thể đọc được. Quá trình này đóng một vai trò quan trọng trong việc bảo mật nội dung của bạn. Nó giúp mã hóa nội dung, xác minh nguồn gốc của tài liệu, chứng minh rằng nội dung chưa được sửa đổi sau khi được gửi và đảm bảo rằng dữ liệu từ tài liệu được an toàn.

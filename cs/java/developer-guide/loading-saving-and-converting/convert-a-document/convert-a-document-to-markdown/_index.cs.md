@@ -8,6 +8,7 @@ description: "Převést dokument v jakémkoli podporovaném formátu zatížení
 keywords: how to convert a document to markdown Java, save as MD, DOCX to MD
 weight: 33
 url: /cs/java/convert-a-document-to-markdown/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Markdown je populární formát používaný k značkování textu a je to další převod do HTML, PDF, DOCX, nebo jiných formátů. Mnoho vývojářů si tento formát vybere pro psaní dokumentace, přípravu článků pro publikaci na blogech, popis projektů a tak dále.
@@ -18,7 +19,7 @@ Nyní funkce pro práci s Markdown formát je aktivně vyvíjen tak, aby vám v�
 
 ## Převést dokument na Markdown
 
-Převést dokument na <span notrans="<span notrans=" Markdown"=""></span>, stačí načíst dokument v jakémkoli podporovaném formátu nebo vytvořit nový programově. Pak musíte uložit dokument Markdown formát.
+Převést dokument na Markdown, stačí načíst dokument v jakémkoli podporovaném formátu nebo vytvořit nový programově. Pak musíte uložit dokument Markdown formát.
 
 Následující příklad kódu ukazuje, jak převést DOCX na Markdown:
 
@@ -58,5 +59,5 @@ Výsledek tohoto příkladu kódu je uveden níže.
 
 Existuje několik nuance a zajímavých případů, které se naučil, které můžete pracovat s Markdown soubory flexibilnější a pohodlnější. Existuje například schopnost používat:
 
-* SetextHeading, který vám umožní vytvořit víceřádkové titulky v <span notrans="<span notrans=" Markdown"=""></span>, zatímco pravidelné okruhy v Markdown může být jen jednořádka. SetextHeading je založen na stylu "Heading N" a jeho úroveň může být pouze 1 nebo 2. Pokud je N v "hlavě N" větší nebo rovno 2, pak odpovídající SetextHeading je založen na "hlavě 2," jinak na "hlavě 1."
+* SetextHeading, který vám umožní vytvořit víceřádkové titulky v Markdown, zatímco pravidelné okruhy v Markdown může být jen jednořádka. SetextHeading je založen na stylu "Heading N" a jeho úroveň může být pouze 1 nebo 2. Pokud je N v "hlavě N" větší nebo rovno 2, pak odpovídající SetextHeading je založen na "hlavě 2," jinak na "hlavě 1."
 * Různé značky pro první úroveň kulkovaných seznamů ("-", "+" nebo "*," výchozí značka je 'a' a různé typy číslování pro objednané seznamy ("." nebo ") ," výchozí značka je ".").

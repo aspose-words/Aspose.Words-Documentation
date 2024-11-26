@@ -7,6 +7,7 @@ description: "Signez numériquement des documents et détectez, comptez, vérifi
 type: docs
 weight: 40
 url: /fr/python-net/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Une signature numérique est utilisée pour authentifier un document afin d'établir que l'expéditeur du document est bien celui qu'il prétend être et que le contenu du document n'a pas été falsifié.

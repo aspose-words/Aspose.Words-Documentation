@@ -7,6 +7,7 @@ description: "Gelişmiş belge içerik yönetimi, C# kullanılarak içerik kontr
 type: docs
 weight: 390
 url: /tr/net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Microsoft Word'te bir şablonla başlayıp onay kutuları, metin kutuları, tarih seçiciler ve açılır listeler dahil içerik kontrolleri ekleyerek bir form oluşturabilirsiniz. Aspose.Words'de, Aspose.Words'ye yüklenen herhangi bir belgedeki Yapılandırılmış Belge Etiketi veya içerik kontrolü, StructuredDocumentTag düğümü olarak içe aktarılır. Yapılandırılmış belge etiketleri (SDT veya içerik kontrolü), müşteri tanımlı anlambilimin yanı sıra davranışının ve görünümünün bir belgeye yerleştirilmesine olanak tanır.

@@ -7,6 +7,7 @@ type: docs
 description: "להמיר מסמך לתבנית תמונה (JPG, PNG וכו '). צור מסמך תצוגה מקדימה או ליצור סריקת מסמך כדי לשלוח חשבונית באמצעות C#."
 weight: 43
 url: /he/net/convert-a-document-to-an-image/
+timestamp: 2024-07-09-19-00-42
 ---
 
 לפעמים נדרש לקבל תמונה במקום מסמכים בפורמטים אחרים, כגון DOCX או PDF. לדוגמה, אתה צריך להוסיף תצוגה מקדימה של כל דף מסמך לאתר או היישום שלך, או ליצור "scan" של מסמך לשלוח חשבונית. זה כאשר ייתכן שיהיה עליך להמיר מסמך בכל עת. [פורמט עומס נתמך](https://reference.aspose.com/words/net/aspose.words/loadformat/) תמונה, שוב, בכל [תבנית הצלה](https://reference.aspose.com/words/net/aspose.words/saveformat/).

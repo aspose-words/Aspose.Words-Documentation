@@ -7,6 +7,7 @@ description: "This section provides a comparison of availability of features bet
 type: docs
 weight: 90
 url: /java/aspose-words-for-android-via-java-features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Aspose.Words for Android via Java Features Overview
@@ -91,16 +92,16 @@ You can use Aspose.Words as a reporting solution on its own. Design your reports
 
 | Feature | Aspose.Words for Java | Aspose.Words for Android via Java |
 | :- | :- | :- |
-| Use all standard Microsoft Word mail merge fields in your reports including `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Execute mail merge for documents that contain even the most complex and nested `IF` fields and formulas. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Populate and dynamically grow tables or fragments in the document from your data source using mail merge regions. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Use all standard Microsoft Word Mail Merge fields in your reports including `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Execute Mail Merge for documents that contain even the most complex and nested `IF` fields and formulas. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Populate and dynamically grow tables or fragments in the document from your data source using Mail Merge regions. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Easily generate reports that contain master-detail (parent-child) data such as Order/OrderDetails. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Populate documents with data from any Java data source that implements the `ResultSet` interface. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Populate documents from any data source such as a XML file or business objects by implementing the **IMailMergeDataSource** interface. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Take precise control, such as number formatting, over how your data is merged using events. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Insert images during mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Programmatically create or modify a Microsoft Word mail merge data source for a document. Preserve mail merge settings and data sources. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Retrieve mail merge field names. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Programmatically create or modify a Microsoft Word Mail Merge data source for a document. Preserve Mail Merge settings and data sources. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Retrieve Mail Merge field names. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ### Reporting Features
 

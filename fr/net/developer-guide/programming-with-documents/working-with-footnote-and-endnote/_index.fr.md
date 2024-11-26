@@ -7,6 +7,7 @@ description: "Comment manipuler les notes de bas de page et les notes de fin à 
 type: docs
 weight: 160
 url: /fr/net/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words fournit également des classes, méthodes et propriétés pour travailler avec des notes de bas de page et des notes de fin.

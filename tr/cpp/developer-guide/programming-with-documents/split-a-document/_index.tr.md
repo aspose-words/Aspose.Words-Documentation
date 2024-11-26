@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bir Belgeyi C++'a Bölme
 second_title: Aspose.Words için C++
 articleTitle: Bir Belgeyi Bölme
@@ -7,6 +7,7 @@ description: "C++ kullanarak bir belgeyi birkaç dosyaya bölün. Bir belgeyi ba
 type: docs
 weight: 90
 url: /tr/cpp/split-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 *Splitting* veya *split a document*, büyük bir belgeyi daha fazla sayıda küçük dosyaya ayırma işlemidir. Bir dosyayı bölmek için çeşitli nedenler vardır. Örneğin, tamamını değil, yalnızca belirli bir belgeden bazı sayfalara ihtiyacınız vardır. Veya gizlilik nedenleriyle, bir belgenin yalnızca bazı bölümlerini başkalarıyla paylaşmak istersiniz. Bölme özelliği ile belgenin yalnızca gerekli kısımlarını alabilir ve örneğin işaretlemek, kaydetmek veya göndermek için bunlarla gerekli işlemleri yapabilirsiniz.

@@ -7,6 +7,7 @@ description: "Learn the typical templates of LINQ Reporting Engine to build a re
 type: docs
 weight: 80
 url: /java/appendix-c-typical-templates/
+timestamp: 2024-10-21-11-17-44
 ---
 
 This section contains examples of templates for typical scenarios. Every example is given using one of the following data source objects:

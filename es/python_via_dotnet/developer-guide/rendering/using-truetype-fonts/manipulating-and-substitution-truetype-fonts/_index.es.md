@@ -7,6 +7,7 @@ description: "Aspose.Words para Python via .NET puede incrustar las fuentes True
 type: docs
 weight: 10
 url: /es/python-net/manipulating-and-substitution-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words requiere fuentes TrueType para una variedad de tareas, incluida la representación de documentos en formatos de página fija, por ejemplo, PDF o XPS. Cuando Aspose.Words procesa un documento, necesita realizar la incrustación y la incrustación de subconjuntos de fuentes TrueType en el documento resultante, lo cual es una práctica normal durante la generación de un documento, incluidos los formatos populares PDF o XPS. Esto garantiza que el documento aparecerá igual para cualquier espectador. Además, la especificación XPS requiere que las fuentes estén siempre incrustadas en el documento.
@@ -58,7 +59,7 @@ Sin embargo, hay situaciones en las que no se puede encontrar la fuente exacta y
 1. Si Aspose.Words no puede localizar la fuente requerida con el nombre exacto que coincide y la propiedad [alt_name](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/alt_name/) definida para esta fuente, entonces Aspose.Words encontrará la fuente definida con [alt_name](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/alt_name/) de la clase [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/), que especifica la información de la fuente.
 1. Si Aspose.Words no puede ubicar la fuente definida y [alt_name](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/alt_name/) tampoco está definido, entonces las reglas de sustitución de fuentes se aplican una por una, como se describe a continuación (cuando se encuentra el reemplazo adecuado, el proceso de sustitución de fuentes se detiene y el el siguiente paso no se ejecuta):
 	1. Primero, Aspose.Words intenta procesar el nombre de la fuente para obtener la sustitución, en particular intenta eliminar los sufijos con separadores "-" y ",".<br>
-	Si se aplica esta regla de sustitución, no se ha encontrado una "fuente '&lt;OriginalFont&gt;'. En su lugar se utiliza la fuente '&lt;SubstitutionFont&gt;'. Motivo: sustitución del nombre de la fuente". Aparece una advertencia.<br>
+	Si se aplica esta regla de sustitución, no se ha encontrado una "fuente '<OriginalFont>'. En su lugar se utiliza la fuente '<SubstitutionFont>'. Motivo: sustitución del nombre de la fuente". Aparece una advertencia.<br>
 	1. Luego, Aspose.Words intenta aplicar la configuración de fuente del sistema operativo, si está disponible, utilizando la utilidad **FontConfig**. Esta función no Windows debe usarse con un sistema operativo compatible con FontConfig. Casi cualquier sistema operativo basado en Unix ya tiene una biblioteca `FontConfig` diseñada para proporcionar configuración de fuentes, personalización y acceso a aplicaciones en todo el sistema. De lo contrario, el usuario puede instalar fácilmente esta biblioteca.
 	Aspose.Words sabe cómo consultar datos e interpretar los resultados de FontConfig para sus propios fines. De forma predeterminada, la utilidad `FontConfig` está deshabilitada. Puedes habilitarlo de la siguiente manera:<br>
 {{< highlight python >}}

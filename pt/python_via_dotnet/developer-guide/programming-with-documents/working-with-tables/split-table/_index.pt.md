@@ -7,6 +7,7 @@ description: "Dividir tabela em Python. Como dividir uma tabela em duas tabelas 
 type: docs
 weight: 100
 url: /pt/python-net/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uma tabela, representada no Aspose.Words Document Object Model, é composta por linhas e células independentes, facilitando a divisão de uma tabela.

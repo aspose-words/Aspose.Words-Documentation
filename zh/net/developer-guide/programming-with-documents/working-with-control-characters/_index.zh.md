@@ -7,6 +7,7 @@ description: "介绍如何使用 Aspose.Words for .NET 中的控制字符。"
 type: docs
 weight: 400
 url: /zh/net/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word 文档可能包含各种具有特殊含义的字符。通常它们用于格式化目的并且不在正常模式下绘制。如果单击标准工具栏上的显示/隐藏格式标记按钮，可以使它们可见。

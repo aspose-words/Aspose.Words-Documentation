@@ -7,6 +7,7 @@ description: "Use extension methods in template expressions when building a repo
 type: docs
 weight: 40
 url: /net/using-extension-methods-linq/
+timestamp: 2024-02-16-10-54-23
 ---
 
 LINQ Reporting Engine enables you to use the following built-in extension methods in template expressions:

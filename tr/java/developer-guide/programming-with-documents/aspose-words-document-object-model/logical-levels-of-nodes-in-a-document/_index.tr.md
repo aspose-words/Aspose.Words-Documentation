@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words için Java belgeleri blok düzeyi, satır içi düzey veya satır düzeyi gibi düğümlerin mantıksal düzeyleri ile bahsetti - Düğüm düzeyi, belge ağacında düğümün tipik olarak gerçekleştiği yere tanımı yapmak için kullanılır."
 weight: 10
 url: /tr/java/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bu belgeler bazen bir grup düğüm sınıfını bir belgedeki bir "seviye" olarak, örneğin "block-level", "inline-level" (aynı zamanda "inline") veya "row-level" düğümleri gibi ifade eder. Bu seviyeler bir belge içinde tamamen mantıksal olarak farklılaşır ve kalıtım veya diğer Aspose.Words DOM anlamları ile açıkça ifade edilmez. Düğüm düzeyi, bir belgedeki bir düğümün tipik olarak nerede olacağını tanımlamak için kullanılır.

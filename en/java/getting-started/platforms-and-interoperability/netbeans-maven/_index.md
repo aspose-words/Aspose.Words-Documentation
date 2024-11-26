@@ -7,6 +7,7 @@ description: "Aspose.Words Java for NetBeans (Maven) Plugin."
 type: docs
 weight: 90
 url: /java/aspose-words-java-for-netbeans-maven/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## NetBeans IDE

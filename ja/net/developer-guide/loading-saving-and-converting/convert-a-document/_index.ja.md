@@ -8,6 +8,7 @@ url: /ja/net/convert-a-document/
 weight: 30
 description: "C# を使用して、ドキュメントをある形式から別の形式に簡単に変換できます。 DOCX や DOC などの Microsoft Word 形式、ODT や OTT などの OpenDocument 形式、HTML や XHTML などの Web 形式、MarkDown や TXT などのテキスト形式など、最も一般的な形式をすべて使用できます。"
 keywords: "convert a document c#, convert documents from one format to another c#, convert to markdown c#, convert pdf to docx C#, convert docx to pdf C#, convert doc to pdf C#, convert a document Aspose for .NET"
+timestamp: 2024-01-27-14-07-04
 ---
 
 ドキュメントをある形式から別の形式に簡単かつ確実に変換できる機能は、Aspose.Words の主な機能領域の 1 つです。このような変換は、ロード操作と保存操作を組み合わせたものにすぎません。

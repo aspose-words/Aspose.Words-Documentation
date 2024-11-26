@@ -7,9 +7,10 @@ description: "באמצעות python אתה יכול להטמיע סמנטיקה 
 type: docs
 weight: 390
 url: /he/python-net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
-In In In Microsoft Word, אתה יכול ליצור טופס על ידי החל עם תבנית והוספת בקרת תוכן, כולל Checkboxes, תיבות טקסט, בוחרים תאריך ורשימות ירידה. In In In <span notrans="<span notrans=" Aspose.Words"=""></span>" מסמך מובנה או בקרת תוכן מכל מסמך טעון לתוך Aspose.Words הוא מיובא כמו [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) צומת. תגי מסמך ממובנים (SDT או בקרת תוכן) מאפשרים להטמיע סמנטיקה מוגדרת של הלקוח, כמו גם התנהגותו והופעתו במסמך. [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) יכול להופיע במסמך במקומות הבאים:
+In In In Microsoft Word, אתה יכול ליצור טופס על ידי החל עם תבנית והוספת בקרת תוכן, כולל Checkboxes, תיבות טקסט, בוחרים תאריך ורשימות ירידה. In In In Aspose.Words מסמך מובנה או בקרת תוכן מכל מסמך טעון לתוך Aspose.Words הוא מיובא כמו [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) צומת. תגי מסמך ממובנים (SDT או בקרת תוכן) מאפשרים להטמיע סמנטיקה מוגדרת של הלקוח, כמו גם התנהגותו והופעתו במסמך. [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) יכול להופיע במסמך במקומות הבאים:
 
 - רמת בלוק - בין פסקאות וטבלאות, כילד של [Body](https://reference.aspose.com/words/python-net/aspose.words/body/), [HeaderFooter](https://reference.aspose.com/words/python-net/aspose.words/headerfooter/), [Comment](https://reference.aspose.com/words/python-net/aspose.words/comment/), [Footnote](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/) או [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) Node
 - רו-דרג - בין שורות בטבלה, כילד של ילד [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) Node

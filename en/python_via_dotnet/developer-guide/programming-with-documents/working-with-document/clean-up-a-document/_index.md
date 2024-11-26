@@ -1,4 +1,4 @@
-﻿---
+---
 title: Clean Up a Document in Python
 second_title: Aspose.Words for Python via .NET
 articleTitle: Clean Up a Document
@@ -8,6 +8,7 @@ type: docs
 weight: 30
 url: /python-net/clean-up-a-document/
 aliases: [/python/clean-up-a-document/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sometimes you may need to remove unused or duplicate information to reduce the size of the output document and processing time.

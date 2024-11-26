@@ -1,4 +1,4 @@
-﻿---
+---
 title: PDF/AとPDF/UAに保存するときの警告
 second_title: C++の場合Aspose.Words
 articleTitle: PDF/AとPDF/UAに保存するときのアクセシビリティの問題の警告
@@ -7,6 +7,7 @@ description: "PDF/AとPDF/UAは、文書コンテンツに関連するアクセ�
 type: docs
 weight: 39
 url: /ja/cpp/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/AおよびPDF/UA形式は、WordからPDFへの自動変換中に満たすことができないドキュメントコンテンツに関連するアクセシビリティ要件の数を課します。 これらの要件については、前の記事*"PDF/AまたはPDF/UAの操作"*で説明しています。 現在、これらの問題のいくつかについて警告が発行されています。

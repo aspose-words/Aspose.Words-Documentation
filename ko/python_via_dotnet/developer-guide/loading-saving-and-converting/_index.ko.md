@@ -7,6 +7,7 @@ description: "Word에서 PDF로, HTML에서 Markdown로 문서를 한 형식에�
 type: docs
 weight: 10
 url: /ko/python-net/loading-saving-and-converting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 이 섹션에서는 문서를 로드하고 저장할 때의 기능에 대한 정보와 문서를 한 형식에서 다른 형식으로 변환할 때의 가능성에 대한 데이터를 제공합니다.

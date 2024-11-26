@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki Tablolara Katıl
 second_title: Aspose.Words için C++
 articleTitle: Tablolara Katıl
@@ -7,6 +7,7 @@ description: "Gelişmiş tablo manipülasyonları. İki tabloyu bir C++ içinde 
 type: docs
 weight: 90
 url: /tr/cpp/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words Belge Nesnesi Modelinde temsil edilen bir tablo, bağımsız satırlardan ve hücrelerden oluşur ve tabloların birleştirilmesini kolaylaştırır.

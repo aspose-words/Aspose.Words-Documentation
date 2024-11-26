@@ -1,4 +1,4 @@
-﻿---
+---
 title: إنشاء OOXML الرسوم البيانية من الصفر
 second_title: Aspose.Words ل C++
 articleTitle: إنشاء OOXML الرسوم البيانية من الصفر
@@ -7,6 +7,7 @@ description: "كيفية إنشاء مخططات مختلفة في المستن�
 type: docs
 weight: 10
 url: /ar/cpp/creating-ooxml-charts-from-scratch-using-aspose-words/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## إنشاء OOXML مخططات من البداية باستخدام Aspose.Words

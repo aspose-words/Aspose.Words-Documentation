@@ -1,4 +1,4 @@
-﻿---
+---
 title: Formatarea tabelului în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Aplicați Formatarea
@@ -7,6 +7,7 @@ description: "Formatarea tabelului în detalii folosind C++. Folosind C++ pentru
 type: docs
 weight: 70
 url: /ro/cpp/applying-formatting/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Fiecare element al unui tabel poate fi aplicat cu formatare diferită. De exemplu, formatarea tabelului va fi aplicată întregului tabel, formatarea rândurilor doar la anumite rânduri, formatarea celulelor doar la anumite celule.

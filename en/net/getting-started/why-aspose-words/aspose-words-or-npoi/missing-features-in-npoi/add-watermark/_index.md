@@ -7,6 +7,7 @@ description: "Add a watermark into a document. NPOI does not provide an opportun
 type: docs
 weight: 90
 url: /net/add-watermark/
+timestamp: 2024-01-31-14-23-37
 ---
 
 {{% alert color="primary" %}}

@@ -7,9 +7,10 @@ description: "Pomocí krajty můžete vložit sémantika definovaná zákazníke
 type: docs
 weight: 390
 url: /cs/python-net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
-In Microsoft Word, si můžete vytvořit formulář tím, že začnete s šablonou a přidáváním ovládacích prvků obsahu, včetně zaškrtávacích boxů, textových krabic, sběračů dat a seznamů drop-downů. In <span notrans="<span notrans=" Aspose.Words"=""></span>,? Strukturovaná značka dokumentu nebo kontrola obsahu z jakéhokoli dokumentu naloženého do Aspose.Words je dovážen jako [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) Uzel. Strukturované značky dokumentů (SDT nebo kontrola obsahu) umožňují vkládání sémantik definovaných zákazníků, jakož i jeho chování a vzhled do dokumentu. [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) může dojít v dokumentu na těchto místech:
+In Microsoft Word, si můžete vytvořit formulář tím, že začnete s šablonou a přidáváním ovládacích prvků obsahu, včetně zaškrtávacích boxů, textových krabic, sběračů dat a seznamů drop-downů. In Aspose.Words,? Strukturovaná značka dokumentu nebo kontrola obsahu z jakéhokoli dokumentu naloženého do Aspose.Words je dovážen jako [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) Uzel. Strukturované značky dokumentů (SDT nebo kontrola obsahu) umožňují vkládání sémantik definovaných zákazníků, jakož i jeho chování a vzhled do dokumentu. [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) může dojít v dokumentu na těchto místech:
 
 - Block-level - Mezi odstavci a tabulky, jako dítě [Body](https://reference.aspose.com/words/python-net/aspose.words/body/), [HeaderFooter](https://reference.aspose.com/words/python-net/aspose.words/headerfooter/), [Comment](https://reference.aspose.com/words/python-net/aspose.words/comment/), [Footnote](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/) nebo [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) uzel
 - Row-level - Mezi řádky v tabulce, jako dítě [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) uzel

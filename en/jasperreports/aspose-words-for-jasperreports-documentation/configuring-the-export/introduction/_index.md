@@ -1,4 +1,4 @@
-﻿---
+---
 title: Introduction
 second_title: Aspose.Words for JasperReports
 articleTitle: Introduction
@@ -7,6 +7,7 @@ description: "Aspose.Words for JasperReports provides a number of parameters tha
 type: docs
 weight: 70
 url: /jasperreports/introduction/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

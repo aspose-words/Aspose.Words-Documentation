@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Wordsรูปแบบวัตถุเอกสาร(DOM)ในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: Aspose.Wordsรูปแบบวัตถุเอกสาร(DOM)
@@ -7,6 +7,7 @@ type: docs
 description: "รูปแบบวัตถุเอกสาร(DOM)เป็นตัวแทนในหน่วยความจำของเอกสารคำ อ่านจัดการและแก้ไขเนื้อหาและการฟอร์แมตของเอกสารคำด้วยC++."
 weight: 10
 url: /th/cpp/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 รูปแบบวัตถุเอกสารAspose.Words(DOM)เป็นตัวแทนในหน่วยความจำของเอกสารคำ Aspose.WordsDOMช่วยให้คุณสามารถอ่านจัดการและปรับเปลี่ยนเนื้อหาและการจัดรูปแบบของเอกสารคำ.

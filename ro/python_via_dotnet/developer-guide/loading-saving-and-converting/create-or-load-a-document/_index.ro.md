@@ -1,4 +1,4 @@
-﻿---
+---
 title: Creați sau încărcați un Document în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Crearea sau încărcarea unui Document
@@ -8,6 +8,7 @@ url: /ro/python-net/create-or-load-a-document/
 description: "Creați un document gol sau pentru a-l încărca dintr-un fișier sau flux folosind Python."
 keywords: "create a document python, load a document python, create a blank document python, load a document from file python, load a document from stream python, create a document Aspose python, load a document Aspose python, load formats supported by Aspose.Words python"
 weight: 10
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aproape orice sarcină pe care doriți să o efectuați cu Aspose.Words implică încărcarea unui document. Clasa [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) reprezintă un document încărcat în memorie. Documentul are mai mulți constructori supraîncărcați, permițându-vă să creați un document gol sau să îl încărcați dintr-un fișier sau flux. Documentul poate fi încărcat în orice format de încărcare acceptat de Aspose.Words. Pentru lista tuturor formatelor de încărcare acceptate, consultați enumerarea [LoadFormat](https://reference.aspose.com/words/python-net/aspose.words/loadformat/).

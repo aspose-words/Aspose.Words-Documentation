@@ -7,6 +7,7 @@ description: "将文档设置为只读，以便可以复制或读取内容，但
 type: docs
 weight: 10
 url: /zh/net/open-a-document-read-only/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时，您可能有一个文档需要审阅，但您不希望审阅者随机修改您的内容。 Aspose.Words 允许您将文档的权限设置为只读，以便可以复制或阅读内容，但不能修改。这将防止内容被删除或添加到您的文档中。

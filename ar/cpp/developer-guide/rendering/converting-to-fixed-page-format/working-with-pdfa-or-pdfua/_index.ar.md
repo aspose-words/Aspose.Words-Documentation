@@ -1,4 +1,4 @@
-﻿---
+---
 title: العمل مع PDF/A أو PDF/UA
 second_title: Aspose.Words ل C++
 articleTitle: العمل مع PDF/A أو PDF/UA
@@ -7,6 +7,7 @@ description: "تحويل إلى PDF/A-1, PDF/A-2, PDF/A-4 و PDF/UA باستخد
 type: docs
 weight: 38
 url: /ar/cpp/working-with-pdfa-or-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 يفرض تنسيق PDF/A و PDF/UA العديد من المتطلبات المتعلقة بمحتوى المستند والتي لا يمكن الوفاء بها أثناء التحويل التلقائي من مستند بتنسيق ورد إلى PDF. يجب التحقق من هذه المتطلبات وتصحيحها إما في مستند ورد قبل التحويل أو في مستند PDF بعد التحويل من أجل إنتاج مستند متوافق PDF/A و PDF/UA بالكامل.

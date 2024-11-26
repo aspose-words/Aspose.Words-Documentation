@@ -7,6 +7,7 @@ description: "Versleutel uw document met behulp van geschikte encryptie-algoritm
 type: docs
 weight: 20
 url: /nl/net/encrypt-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Encryptie is het proces dat leesbare tekst vertaalt naar betekenisloze sequenties van bytes zodat het alleen gelezen kan worden door de persoon die de decryptiesleutel of de geheime code heeft. Dit proces speelt een belangrijke rol bij het beveiligen van uw inhoud. Het helpt om de inhoud te coderen, de oorsprong van een document te verifiëren, te bewijzen dat de inhoud niet is gewijzigd nadat het is verzonden, en ervoor te zorgen dat de gegevens van het document veilig zijn.

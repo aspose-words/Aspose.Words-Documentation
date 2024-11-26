@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabajar con Encabezados y pies de página en C++
 second_title: Aspose.Words para C++
 articleTitle: Trabajar con Encabezados y Pies de página
@@ -7,6 +7,7 @@ description: "Cómo manipular encabezados y pies de página usando C++."
 type: docs
 weight: 150
 url: /es/cpp/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words permite a los usuarios trabajar con encabezados y pies de página en un documento. Un encabezado es texto que se coloca en la parte superior de una página y un pie de página es texto en la parte inferior de una página. Normalmente, estas áreas se utilizan para insertar información que debe repetirse en todas o algunas páginas del documento, como números de página, fecha de creación, información de la empresa, etc.

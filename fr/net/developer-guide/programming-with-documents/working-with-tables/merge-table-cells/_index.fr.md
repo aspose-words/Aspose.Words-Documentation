@@ -7,6 +7,7 @@ description: "Comment fusionner les cellules d'un tableau dans C#. Vérifiez si 
 type: docs
 weight: 40
 url: /fr/net/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Parfois, certaines lignes d'un tableau nécessitent un en-tête ou de gros blocs de texte occupant toute la largeur du tableau. Pour une conception correcte du tableau, l'utilisateur peut fusionner plusieurs cellules du tableau en une seule. Aspose.Words prend en charge les cellules fusionnées lorsque vous travaillez avec tous les formats d'entrée, y compris l'importation de contenu HTML.

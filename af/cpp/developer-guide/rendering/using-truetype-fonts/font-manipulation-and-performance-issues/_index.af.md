@@ -1,4 +1,4 @@
-﻿---
+---
 title: Font Manipulasie En Prestasie Kwessies in C++
 second_title: Aspose.Words vir C++
 articleTitle: Font Manipulasie En Prestasie Kwessies
@@ -7,6 +7,7 @@ description: "Aspose.Words vir C++ gebruik lettertipe volle naam, familienaam, w
 type: docs
 weight: 11
 url: /af/cpp/font-manipulation-and-performance-issues/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Alle beskikbare lettertipe manipulasie meganismes is vervat in die [FontSettings](https://reference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings) klas. Hierdie klas is verantwoordelik vir die haal van lettertipes binne gedefinieerde lettertipe bronne sowel as vir die Lettertipe Vervanging proses, soos hieronder beskryf.

@@ -7,6 +7,7 @@ type: docs
 description: "Użyj klas Aspose using `Python.Words` Document Object Model do programowego tworzenia, modyfikowania i zarządzania dokumentami za pomocą python-net. Pracuj z właściwościami, ustawieniami i zawartością dokumentu, a także z wyglądem dokumentu poprzez zarządzanie kolorami, kształtami, czcionkami i inną grafiką."
 weight: 60
 url: /pl/python-net/programming-with-documents/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Ta sekcja zawiera informacje na temat programowego tworzenia, modyfikowania i zarządzania dokumentami za pomocą klas Aspose.Words Document Object Model. Artykuły w tej sekcji opisują szeroki zakres zadań związanych z manipulacją dokumentami, umożliwiających pracę z właściwościami dokumentu, ustawieniami, zawartością i jej elementami.

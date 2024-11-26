@@ -1,4 +1,4 @@
-﻿---
+---
 title: 开始行动
 second_title: Aspose.Words为C++
 articleTitle: 开始行动
@@ -7,6 +7,7 @@ type: docs
 description: "使用此介绍来 Aspose.Words为C++ 基本面开始实现Aspose.Words为您的业务的价值。"
 weight: 10
 url: /zh/cpp/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 本入门介绍了Aspose.Words基础知识。 对于新使用Aspose.Words的用户来说，这是学习基本要求和功能的最快方法。

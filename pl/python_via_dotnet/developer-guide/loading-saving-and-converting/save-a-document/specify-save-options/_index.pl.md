@@ -7,6 +7,7 @@ description: "Dokładniej kontroluj proces zapisywania za pomocą Python."
 type: docs
 weight: 10
 url: /pl/python-net/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Podczas zapisywania dokumentu możesz ustawić pewne zaawansowane właściwości. Aspose.Words udostępnia klasę [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/), która pozwala na bardziej precyzyjną kontrolę procesu zapisu. Istnieją przeciążenia metody [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/), które akceptują obiekt [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) – powinien to być obiekt klasy wywodzącej się z klasy [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/). Każdy format zapisu ma odpowiednią klasę, która przechowuje opcje zapisu dla tego formatu zapisu, na przykład istnieje [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) do zapisywania w formacie PDF lub [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/) do zapisywania do obrazu. W tym artykule przedstawiono przykłady pracy z niektórymi klasami opcji wywodzącymi się z [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/).

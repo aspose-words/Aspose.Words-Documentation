@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mức logic Của Các Nút trong Một Tài liệu trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Mức độ logic Của Các Nút trong Một Tài liệu
@@ -7,6 +7,7 @@ type: docs
 description: "Trong Aspose.Words cho C++ tài liệu được đề cập mức logic của các nút – mức khối, mức nội tuyến hoặc mức hàng. Mức nút được sử dụng để mô tả vị trí trong cây tài liệu nơi nút thường xảy ra."
 weight: 10
 url: /vi/cpp/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tài liệu này đôi khi đề cập đến một nhóm các lớp nút thuộc "cấp độ" trong tài liệu, chẳng hạn như "cấp khối", "cấp nội tuyến" (còn được gọi là "nội tuyến") hoặc các nút "cấp hàng". Các cấp độ này trong tài liệu được phân biệt hoàn toàn hợp lý và không được thể hiện rõ ràng bằng thừa kế hoặc các phương tiện Aspose.Words DOM khác. Mức nút được sử dụng để mô tả vị trí trong cây tài liệu nơi nút thường xảy ra.

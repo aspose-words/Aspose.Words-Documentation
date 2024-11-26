@@ -7,6 +7,7 @@ description: "Konvertieren Sie ein Dokument in ein Byte-Array, um mit diesem Dok
 type: docs
 weight: 10
 url: /de/net/serialize-and-work-with-a-document-in-a-database/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Eine der Aufgaben, die Sie bei der Arbeit mit Dokumenten möglicherweise erledigen müssen, ist das Speichern und Abrufen von **Document**-Objekten in und aus einer Datenbank. Dies wäre beispielsweise erforderlich, wenn Sie ein Content-Management-System jeglicher Art implementieren würden. Alle früheren Versionen von Dokumenten müssen im Datenbanksystem gespeichert sein. Die Möglichkeit, Dokumente in der Datenbank zu speichern, ist auch äußerst nützlich, wenn Ihre Anwendung einen webbasierten Dienst bereitstellt.

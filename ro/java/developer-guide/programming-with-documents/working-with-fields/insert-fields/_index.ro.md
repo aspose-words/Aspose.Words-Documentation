@@ -1,4 +1,4 @@
-﻿---
+---
 title: Introduceți câmpuri în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Introduceți Câmpuri
@@ -7,6 +7,7 @@ description: "Diferite moduri de a insera câmpuri în documentul dvs. folosind 
 type: docs
 weight: 20
 url: /ro/java/insert-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Există mai multe moduri diferite de a insera câmpuri într-un document:
@@ -103,7 +104,7 @@ Următorul exemplu de cod arată cum să adăugați câmpul `MERGE` folosind DOM
 
 ### Inserarea câmpului Mail Merge `ADDRESSBLOCK` într-un Document folosind DOM
 
-Câmpul `ADDRESSBLOCK` este folosit pentru a insera un bloc de adrese mail merge într-un document Word. `ADDRESSBLOCK` câmpul din documentul Word poate fi reprezentat de clasa [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/). Puteți utiliza clasa **FieldAddressBlock** pentru a efectua următoarele operații:
+Câmpul `ADDRESSBLOCK` este folosit pentru a insera un bloc de adrese Mail Merge într-un document Word. `ADDRESSBLOCK` câmpul din documentul Word poate fi reprezentat de clasa [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/). Puteți utiliza clasa **FieldAddressBlock** pentru a efectua următoarele operații:
 
 - specificați dacă să includeți numele țării/regiunii în câmp
 - specificați dacă să formatați adresa în funcție de țara / regiunea destinatarului, astfel cum este definită de POST * CODE (Uniunea Poștală Universală 2006)

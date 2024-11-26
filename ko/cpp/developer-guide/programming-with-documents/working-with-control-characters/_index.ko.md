@@ -1,4 +1,4 @@
-﻿---
+---
 title: 제어 문자 작업
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 제어 문자 작업
@@ -7,6 +7,7 @@ description: "제어 문자 작업 소개 Aspose.Words 에 대한 C++."
 type: docs
 weight: 400
 url: /ko/cpp/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word 문서에는 특별한 의미를 가진 다양한 문자가 포함될 수 있습니다. 일반적으로 서식 지정 목적으로 사용되며 일반 모드에서는 그려지지 않습니다. 표준 도구 모음에 있는 서식 표시 표시/숨기기 단추를 클릭하면 표시 표시를 할 수 있습니다.

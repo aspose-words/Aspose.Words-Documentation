@@ -1,12 +1,13 @@
 ---
-title: Práce s dokumentem uloženým v `SharePoint` Online
+title: Práce s dokumentem uloženým v SharePoint Online
 second_title: Aspose.Words místo .NET
-articleTitle: Práce s dokumentem uloženým v `SharePoint` Online
-linktitle: Práce s dokumentem uloženým v `SharePoint` Online
+articleTitle: Práce s dokumentem uloženým v SharePoint Online
+linktitle: Práce s dokumentem uloženým v SharePoint Online
 description: "Převést Slovo sdílené v SharePoint do PDF pomocí C#. Práce s dokumenty uloženými v SharePoint Různé vstupní formáty, včetně Word, OpenOffice, Image a eBook."
 type: docs
 weight: 20
 url: /cs/net/work-with-document-stored-in-sharepoint/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Microsoft SharePoint Online je sbírka webových technologií, které umožňují organizacím ukládat, sdílet a spravovat digitální informace. Můžete pracovat s dokumenty uloženými ve složce "Sdílené dokumenty" v SharePoint pomocí našeho mocného Aspose.Words místo .NET.

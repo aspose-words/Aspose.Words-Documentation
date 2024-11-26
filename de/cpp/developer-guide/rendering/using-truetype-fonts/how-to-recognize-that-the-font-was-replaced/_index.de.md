@@ -1,4 +1,4 @@
-﻿---
+---
 title: So erkennen Sie, dass die Schriftart in C++ ersetzt wurde
 second_title: Aspose.Words für C++
 articleTitle: So erkennen Sie, dass die Schriftart ersetzt wurde
@@ -7,6 +7,7 @@ description: "Wenn Sie nicht sicher sind, warum sich das Layout eines Dokuments 
 type: docs
 weight: 13
 url: /de/cpp/how-to-recognize-that-the-font-was-replaced/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Manchmal ist es möglicherweise unklar, warum sich das Dokumentlayout geändert hat oder warum eine Schriftart nicht wie erwartet aussieht. In solchen Fällen helfen Warnmeldungen zum Ersetzen von Schriftarten, die von der IWarningCallback -Schnittstelle implementiert werden. Sie haben den Warnungstyp [FontSubstitution](https://reference.aspose.com/words/cpp/aspose.words/warningtype/) und das Standardbeschreibungstextformat "Schriftart '<OriginalFont>' wurde nicht gefunden. Verwenden Sie stattdessen die Schriftart '<SubstitutionFont>'. Grund: <Reason>", mit den folgenden Gründen:

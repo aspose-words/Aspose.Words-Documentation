@@ -7,6 +7,7 @@ description: "Aspose.Words for Python via .NET implementuje własny odtwarzacz m
 type: docs
 weight: 30
 url: /pl/python-net/handling-windows-metafiles/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Format metapliku Windows to format pliku obrazu, który może zawierać zarówno grafikę wektorową, jak i rastrową. Ten format służy do przechowywania danych graficznych w pamięci lub plikach na dysku. Metaplik przechowuje listę wywołań funkcji w interfejsie urządzenia graficznego Windows (GDI), które muszą zostać wykonane, aby wyświetlić obraz na ekranie. System interpretuje i wykonuje te polecenia w kontekście wyświetlacza.

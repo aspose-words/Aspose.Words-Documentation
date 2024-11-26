@@ -1,104 +1,105 @@
----
-title: العمل مع الرعاة والأحذية Java
-second_title: Aspose.Words for Java
-articleTitle: العمل مع الرعاة والأحذية
-linktitle: العمل مع الرعاة والأحذية
-description: "كيفية التلاعب بالرؤوس والأقدام باستخدام Java."
+﻿---
+title: العمل مع الرؤوس والتذييلات في Java
+second_title: Aspose.Words ل Java
+articleTitle: العمل مع الرؤوس والتذييلات
+linktitle: العمل مع الرؤوس والتذييلات
+description: "كيفية التعامل مع الرؤوس والتذييلات باستخدام Java."
 type: docs
 weight: 150
 url: /ar/java/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words ويسمح للمستعملين بالعمل مع المرشدين والقدمين في وثيقة. الرأس هو النص الذي يوضع في أعلى صفحة، والقدم هو النص في أسفل الصفحة. وعادة ما تستخدم هذه المجالات لإدراج معلومات ينبغي تكرارها في جميع صفحات الوثيقة أو بعضها، مثل أرقام الصفحات، وتاريخ الإنشاء، ومعلومات الشركات، وما إلى ذلك.
+Aspose.Words يسمح للمستخدمين بالعمل مع الرؤوس والتذييلات في مستند. الرأس هو نص يتم وضعه في أعلى الصفحة، والتذييل هو نص في أسفل الصفحة. عادة، يتم استخدام هذه المناطق لإدراج المعلومات التي يجب تكرارها في كل صفحات المستند أو بعضها، مثل أرقام الصفحات وتاريخ الإنشاء ومعلومات الشركة وما إلى ذلك.
 
-## إنشاء رؤساء أو قاطرات باستخدام قاعدة الوثائق
+## إنشاء رؤوس أو تذييلات باستخدام DocumentBuilder
 
-إذا كنت تريد أن تضيف رئيس وثيقة أو قدم برنامجيا، أسهل طريقة هي استخدام [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) صف لفعل ذلك
+إذا كنت ترغب في إضافة رأس مستند أو تذييل برمجيا، فإن أسهل طريقة هي استخدام فئة [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) للقيام بذلك.
 
-ويبيّن المثال الرمزي التالي كيفية إضافة رأس وقدم إلى صفحات الوثائق:
+يوضح مثال الكود التالي كيفية إضافة رأس وتذييل لصفحات المستند:
 
 {{< gist "aspose-words-gists" "58431f54e34e5597f8cbaf97481d5321" "create-header-footer.java" >}}
 
-## تحديد خيارات العنوان أو الوقود
+## حدد خيارات الرأس أو التذييل
 
-عندما تضيف رأس أو قدم إلى وثيقة، يمكنك وضع بعض الممتلكات المتقدمة. Aspose.Words تزويد المستعملين بالمستعملين [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/) و [HeaderFooterCollection](https://reference.aspose.com/words/java/com.aspose.words/headerfootercollection/) الصفوف، وكذلك [HeaderFooterType](https://reference.aspose.com/words/java/com.aspose.words/headerfootertype/) يُعدّدُ الذي يُمْكِنُ أَنْ تُسيطرَ أكثرَ على عمليةِ التكييف الرأسي والأقدامِ.
+عند إضافة رأس أو تذييل إلى مستند، يمكنك تعيين بعض الخصائص المتقدمة. يوفر Aspose.Words للمستخدمين فئتي [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/) و [HeaderFooterCollection](https://reference.aspose.com/words/java/com.aspose.words/headerfootercollection/)، بالإضافة إلى [HeaderFooterType](https://reference.aspose.com/words/java/com.aspose.words/headerfootertype/) التعداد الذي يمنحك مزيدا من التحكم في عملية تخصيص الرأس والتذييل.
 
-### يحدد العنوان أو نوع الفوتر
+### حدد نوع الرأس أو التذييل
 
-ويمكنكم تحديد ثلاثة أنواع مختلفة من الرعاة وثلاثة أنواع مختلفة من الأقدام لوثيقة واحدة:
+يمكنك تحديد ثلاثة أنواع رأس مختلفة وثلاثة أنواع تذييل مختلفة لمستند واحد:
 
-1 العنوان و/أو القدم للصفحة الأولى
-2. العنوان و/أو الأقدام حتى الصفحات
-3 العنوان و/أو الأقدام للصفحات الغريبة
+1. رأس و / أو تذييل الصفحة الأولى
+2. رأس و / أو تذييل الصفحات الزوجية
+3. رأس و / أو تذييل الصفحات الفردية
 
-ويبيّن المثال الرمزي التالي كيفية إضافة عنوان لصفحات الوثائق الغريبة:
+يوضح مثال التعليمات البرمجية التالية كيفية إضافة رأس لصفحات المستند الفردية:
 
 {{< gist "aspose-words-gists" "58431f54e34e5597f8cbaf97481d5321" "header-footer-type.java" >}}
 
-### يرجى تحديد ما إذا كان ينبغي التلاعب برؤوس أو قاذفات مختلفة في الصفحة الأولى
+### حدد ما إذا كنت تريد عرض رؤوس أو تذييلات مختلفة للصفحة الأولى
 
-كما ذكر أعلاه، يمكنك أيضاً أن تضع رأساً أو قدماً مختلفاً للصفحة الأولى. لتفعل هذا، عليك أن تضبط [DifferentFirstPageHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getDifferentFirstPageHeaderFooter) العلم إلى `true` وبعد ذلك يُدقّقُ **HeaderFirst** أو **FooterFirst** قيمة
+كما ذكر أعلاه، يمكنك أيضا تعيين رأس أو تذييل مختلف للصفحة الأولى. للقيام بذلك، تحتاج إلى تعيين علامة [DifferentFirstPageHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getDifferentFirstPageHeaderFooter) إلى `true` ثم تحديد قيمة **HeaderFirst** أو **FooterFirst**.
 
-The following code example shows how to set the header for the first page only:
+يوضح مثال التعليمات البرمجية التالية كيفية تعيين رأس الصفحة الأولى فقط:
 
 {{< gist "aspose-words-gists" "58431f54e34e5597f8cbaf97481d5321" "different-first-page.java" >}}
 
-### يرجى تحديد ما إذا كان ينبغي التلاعب برؤوس أو أحذية مختلفة للصحافة أو حتى الصفحات
+### حدد ما إذا كنت تريد عرض رؤوس أو تذييلات مختلفة للصفحات الفردية أو الزوجية
 
- وبعد ذلك، سترغبون في وضع رؤساء مختلفين أو أقدام على صفحات غريبة وحتى في وثيقة. لتفعل هذا، عليك أن تضبط [OddAndEvenPagesHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getOddAndEvenPagesHeaderFooter) العلم إلى `true` وبعد ذلك يصف القيم **HeaderPrimary** و **HeaderEven**, أو **FooterPrimary** و **FooterEven**.
+ بعد ذلك، ستحتاج إلى تعيين رؤوس أو تذييلات مختلفة للصفحات الفردية والزوجية في المستند. للقيام بذلك، تحتاج إلى تعيين علامة [OddAndEvenPagesHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getOddAndEvenPagesHeaderFooter) إلى `true` ثم تحديد القيم **HeaderPrimary** و **HeaderEven** أو **FooterPrimary** و **FooterEven**.
 
 {{< gist "aspose-words-gists" "58431f54e34e5597f8cbaf97481d5321" "odd-even-pages.java" >}}
 
-### اضموا موقعاً محدداً صور في الرأس
+### أدخل صورة موضوعة تماما في الرأس
 
-لوضع صورة في رأس أو قدم، استخدام **HeaderPrimary** نوع الرأس أو **FooterPrimary** نوع الأقدام [InsertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte) طريقة
+لوضع صورة في رأس أو تذييل، استخدم **HeaderPrimary** نوع الرأس أو **FooterPrimary** نوع التذييل وطريقة [InsertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte).
 
-ويبين المثال الرمزي التالي كيفية إضافة صورة إلى رأس:
+يوضح مثال التعليمات البرمجية التالية كيفية إضافة صورة إلى رأس:
 
 {{< gist "aspose-words-gists" "58431f54e34e5597f8cbaf97481d5321" "insert-image.java" >}}
 
-### &apos; 4` مجموعة مواد حقوق الملكية و " الفقرة "
+### تعيين خصائص الخط والفقرة لنص الرأس أو التذييل
 
-مع Aspose.Words يمكنك أن تضعي الخواص الفواكه و التقلبات **HeaderPrimary** نوع الرأس أو **FooterPrimary** نوع أقدام، فضلاً عن أساليب وممتلكات العمل مع اللوحات والفقرات التي تستخدمونها لهيئة الوثائق.
+باستخدام Aspose.Words، يمكنك تعيين خصائص الخط والفقرة، واستخدام نوع رأس **HeaderPrimary** أو نوع تذييل **FooterPrimary**، بالإضافة إلى طرق وخصائص العمل مع الخطوط والفقرات التي تستخدمها لنص المستند.
 
-The following code example shows how to set the text in the header to Arial, bold, size 14, and center alignment:
+يوضح مثال التعليمات البرمجية التالية كيفية تعيين النص في الرأس إلى أريال، جريئة، حجم 14، ومحاذاة المركز:
 
 {{< gist "aspose-words-gists" "58431f54e34e5597f8cbaf97481d5321" "font-props.java" >}}
 
-### الأرقام في العنوان أو الفوتر
+### أدخل أرقام الصفحات في الرأس أو التذييل
 
-إذا لزم الأمر، يمكنك إضافة أرقام الصفحات إلى الرأس أو القدم. للقيام بذلك، استخدام **HeaderPrimary** نوع الرأس أو **FooterPrimary** نوع الأقدام [InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) طريقة لإضافة المجال المطلوب.
+إذا لزم الأمر، يمكنك إضافة أرقام الصفحات إلى الرأس أو التذييل. للقيام بذلك، استخدم **HeaderPrimary** نوع الرأس أو **FooterPrimary** نوع التذييل وطريقة [InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) لإضافة الحقل المطلوب.
 
-The following code example shows how to add page numbers to the footer on the right:
+يوضح مثال الكود التالي كيفية إضافة أرقام الصفحات إلى التذييل على اليمين:
 
 {{< gist "aspose-words-gists" "58431f54e34e5597f8cbaf97481d5321" "page-numbers.java" >}}
 
-### المستخدِمون أو المخصّصون المحددون في القسم السابق
+### استخدم الرؤوس أو التذييلات المحددة في القسم السابق
 
-إذا كنت بحاجة إلى نسخ رئيس أو قدم من القسم السابق، يمكنك أن تفعل ذلك أيضا.
+إذا كنت بحاجة إلى نسخ الرأس أو التذييل من القسم السابق، فيمكنك القيام بذلك أيضا.
 
-ويبيّن المثال الرمزي التالي كيف ينسخ العنوان أو القدم من القسم السابق:
+يوضح مثال الكود التالي كيفية نسخ الرأس أو التذييل من القسم السابق:
 
 {{< gist "aspose-words-gists" "58431f54e34e5597f8cbaf97481d5321" "copy-headers-footers-from-previous-section.java" >}}
 
-### ضمان مثول رئيس أو فوتور عند استخدام الاتجاهات المختلفة في الصفحة وحجم الصفحة
+### تأكد من ظهور الرأس أو التذييل عند استخدام اتجاهات مختلفة للصفحة وحجم الصفحة
 
-Aspose.Words يُمكِنُك أَنْ تُقدّمَ مظهر a رئيس أَو قدم عندما يَستعملُ اتجاهاتَ مختلفةَ وحجم صفحاتِ.
+Aspose.Words يسمح لك بتوفير مظهر رأس أو تذييل الصفحة عند استخدام اتجاهات وأحجام صفحات مختلفة.
 
-ويبين المثال التالي كيفية القيام بذلك:
+يوضح المثال التالي كيفية القيام بذلك:
 
 {{< gist "aspose-words-gists" "58431f54e34e5597f8cbaf97481d5321" "link-to-previous-header-footer.java" >}}
 
-## كيف نزيل فقط العناوين أو فقط
+## كيفية إزالة الرؤوس فقط أو التذييلات فقط
 
-ويمكن أن يكون لكل قسم في وثيقة ما عدد يصل إلى ثلاثة رؤساء وما يصل إلى ثلاثة أقدام (للأول، وحتى، والصفحات الغريبة). إذا كنت تريد إزالة جميع الرعاة أو جميع القدماء في وثيقة، تحتاج إلى حلقة من خلال جميع الأقسام وإزالة كل ما يقابلها من معدن الرأس أو عقيدة القدم.
+يمكن أن يحتوي كل قسم في المستند على ما يصل إلى ثلاثة رؤوس وما يصل إلى ثلاثة تذييلات (للصفحات الأولى والزوجية والغريبة). إذا كنت تريد إزالة جميع الرؤوس أو جميع التذييلات في مستند، فأنت بحاجة إلى التكرار عبر جميع الأقسام وإزالة كل عقدة رأس أو عقدة تذييل مقابلة.
 
-ويبين المثال الرمزي التالي كيفية إزالة جميع الأقدام من جميع الأقسام، ولكن ترك الرأس سليمة. يمكنك أن تزيل فقط الرأس بطريقة مماثلة
+يوضح مثال الكود التالي كيفية إزالة جميع التذييلات من جميع الأقسام مع ترك الرؤوس سليمة. يمكنك إزالة الرؤوس فقط بطريقة مماثلة:
 
 {{< gist "aspose-words-gists" "58431f54e34e5597f8cbaf97481d5321" "remove-footers.java" >}}
 
 {{% alert color="primary" %}}
 
-يمكنك تحميل ملف العينة من هذا المثال [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Footer.docx).
+يمكنك تنزيل نموذج ملف هذا المثال من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Footer.docx).
 
 {{% /alert %}}

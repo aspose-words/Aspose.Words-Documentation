@@ -1,5 +1,5 @@
 ---
-title: Lucrul cu `Text Document` în C#
+title: Lucrul cu Text Document în C#
 second_title: Aspose.Words pentru .NET
 articleTitle: Lucrul cu documentul text
 linktitle: Lucrul cu documentul text
@@ -7,6 +7,7 @@ description: "Procesarea avansată a documentelor TXT, liste, BiDi, antet/post-f
 type: docs
 weight: 430
 url: /ro/net/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 În acest articol vom învăța ce opțiuni pot fi utile pentru lucrul cu un document text folosind Aspose.Words. Vă rugăm să rețineți că aceasta nu este o listă completă a opțiunilor disponibile, ci doar un exemplu de lucru cu unele dintre ele.

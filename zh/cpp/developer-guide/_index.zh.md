@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++开发人员指南
 second_title: Aspose.Words对于C++
 articleTitle: 开发人员指南
@@ -7,6 +7,7 @@ description: "本开发人员指南介绍了实用的方案和技巧，以帮助
 type: docs
 weight: 20
 url: /zh/cpp/developer-guide/
+timestamp: 2024-09-25-11-08-55
 ---
 
 本开发人员指南提供了有关使用的信息 Aspose.Words对于C++ 在各种实际场景中。 它的文章提供了建议和提示，这些建议和提示将有助于使用特定功能，实现特定的文档外观或使用例成为可能。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++中Google Noto字体的字体FallBack设置
 second_title: Aspose.Words对于C++
 articleTitle: Google Noto字体的预定义字体FallBack设置
@@ -7,6 +7,7 @@ description: "Aspose.Words为Google Noto字体提供预定义的字体回退设�
 type: docs
 weight: 15
 url: /zh/cpp/predefined-font-fallback-settings-for-google-noto-fonts/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words为Google Noto字体提供预定义的字体回退设置。 这些是根据SIL开放字体许可证授权的免费字体，可以从Google Noto字体下载。 **FontFallbackSettings**类提供[LoadNotoFallbackSettings](https://reference.aspose.com/words/cpp/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/)方法。 它加载预定义的回退设置，这些设置使用Google Noto字体，如下面的代码示例所示:

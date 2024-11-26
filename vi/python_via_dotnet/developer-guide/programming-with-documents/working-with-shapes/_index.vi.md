@@ -7,6 +7,7 @@ description: "Tạo và quản lý hình dạng, đối tượng ole trong tài 
 type: docs
 weight: 280
 url: /vi/python-net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Chủ đề này thảo luận về cách làm việc theo chương trình với các hình dạng bằng Aspose.Words.

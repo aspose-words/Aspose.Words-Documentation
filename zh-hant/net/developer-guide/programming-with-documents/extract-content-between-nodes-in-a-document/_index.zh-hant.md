@@ -7,6 +7,7 @@ description: "使用C#從文件中提取文档內容。"
 type: docs
 weight: 140
 url: /zh-hant/net/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 在處理檔案時，能從檔案的特定範圍中快速提取內容是很重要的。 不過，內容可能會包含段落、表格、圖像等複雜元素。

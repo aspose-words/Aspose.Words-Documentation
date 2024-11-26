@@ -7,6 +7,7 @@ type: docs
 description: "Klonovat dokument pro získání jeho identické kopie pomocí C#. Při vytváření kopie jsou klonovány uzly a vlastnosti původního dokumentu."
 weight: 70
 url: /cs/net/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Klonování dokumentu je proces vytvoření stejné kopie původního dokumentu, který může zlepšit výkon a ušetřit vás před potenciálními úniky paměti.

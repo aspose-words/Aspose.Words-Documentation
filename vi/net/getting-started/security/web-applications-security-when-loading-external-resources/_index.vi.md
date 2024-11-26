@@ -7,6 +7,7 @@ type: docs
 description: "Tải tài nguyên từ xa, đó có thể là nguyên nhân gây ra rủi ro bảo mật. Hãy xem các vấn đề bảo mật phổ biến và giải pháp của chúng bằng C#."
 weight: 100
 url: /vi/net/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Theo mặc định, Aspose.Words cho .NET có thể tải các tài nguyên từ xa như hình ảnh, kiểu CSS hoặc tài liệu HTML bên ngoài khi nhập tài liệu hoặc chèn hình ảnh bằng DocumentBuilder. Hành vi này cho phép bạn xử lý tài liệu của mình một cách chi tiết nhưng có thể là nguyên nhân gây ra một số rủi ro bảo mật nếu thư viện là một phần của ứng dụng web.

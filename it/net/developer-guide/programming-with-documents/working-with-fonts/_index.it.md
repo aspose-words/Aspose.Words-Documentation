@@ -7,6 +7,7 @@ description: "Formattazione dei caratteri in dettaglio utilizzando C#. Segno di 
 type: docs
 weight: 230
 url: /it/net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un font è un insieme di caratteri con una determinata dimensione, colore e design. Aspose.Words ti consente di lavorare con i caratteri utilizzando lo spazio dei nomi [Fonts](https://reference.aspose.com/words/it/net/aspose.words.fonts/) e la classe [Font](https://reference.aspose.com/words/it/net/aspose.words/font/).

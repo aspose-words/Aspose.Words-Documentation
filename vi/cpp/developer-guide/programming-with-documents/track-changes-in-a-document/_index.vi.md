@@ -1,4 +1,4 @@
-﻿---
+---
 title: Theo Dõi Các Thay đổi Trong Tài liệu trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Theo Dõi Các Thay đổi Trong Tài liệu
@@ -7,6 +7,7 @@ description: "Theo dõi các thay đổi đối với nội dung và định d�
 type: docs
 weight: 270
 url: /vi/cpp/track-changes-in-a-document/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Chức năng của các thay đổi theo dõi, còn được gọi là xem xét, cho phép bạn theo dõi các thay đổi đối với nội dung và định dạng do bạn hoặc người dùng khác thực hiện. Tính năng thay đổi bản nhạc này với Aspose.Words hỗ trợ thay đổi bản nhạc trong Microsoft Word. Với chức năng này, bạn có thể truy cập các bản sửa đổi riêng lẻ trong tài liệu của mình và áp dụng các thuộc tính khác nhau cho chúng.

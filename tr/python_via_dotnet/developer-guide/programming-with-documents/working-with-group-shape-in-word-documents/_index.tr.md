@@ -7,6 +7,7 @@ description: "Python kullanarak bir belgeye group shape ekleyin."
 type: docs
 weight: 290
 url: /tr/python-net/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen bir Word belgesine group shape eklemeniz gerekir. Böyle bir group shape birden fazla şekilden oluşur.

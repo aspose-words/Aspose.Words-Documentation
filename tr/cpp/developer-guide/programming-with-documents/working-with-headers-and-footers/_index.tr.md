@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içinde Üstbilgi ve Altbilgilerle Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Üstbilgi ve Altbilgilerle Çalışma
@@ -7,6 +7,7 @@ description: "C++ kullanarak üstbilgiler ve altbilgiler nasıl işlenir."
 type: docs
 weight: 150
 url: /tr/cpp/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words kullanıcıların bir belgedeki üstbilgi ve altbilgilerle çalışmasına izin verir. Üstbilgi, sayfanın en üstüne yerleştirilen metindir ve altbilgi, sayfanın altındaki metindir. Genellikle bu alanlar, sayfa numaraları, oluşturulma tarihi, şirket bilgileri vb. Gibi belgenin tamamında veya bazı sayfalarında tekrarlanması gereken bilgileri eklemek için kullanılır.

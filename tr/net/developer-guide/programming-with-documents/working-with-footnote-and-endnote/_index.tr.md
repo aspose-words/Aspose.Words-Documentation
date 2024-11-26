@@ -7,6 +7,7 @@ description: "C# kullanılarak dipnotlar ve son notlar nasıl değiştirilir?"
 type: docs
 weight: 160
 url: /tr/net/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words ayrıca dipnotlar ve sonnotlarla çalışmak için bazı sınıflar, yöntemler ve özellikler sağlar.

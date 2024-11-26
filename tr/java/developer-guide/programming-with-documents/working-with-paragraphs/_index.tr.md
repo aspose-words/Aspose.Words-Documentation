@@ -7,6 +7,7 @@ description: "Paragraf düğüm manipülasyon uygulamaları Java kullanma."
 type: docs
 weight: 210
 url: /tr/java/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir paragraf, mantıksal bir blok oluşturan karakterlerin bir kümesidir ve özel bir karakterle sona erer – *paragraf değişikliği*. Bir Aspose.Words paragrafa [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) sınıfı ile temsil edilir.

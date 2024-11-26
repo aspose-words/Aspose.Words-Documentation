@@ -9,6 +9,7 @@ aliases:
  - /cpp/join-and-appending-documents/
 weight: 80
 url: /cpp/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sometimes it is required to combine several documents into one. You can do this manually or you can use Aspose.Words insert or append feature.
@@ -47,7 +48,7 @@ The following code example shows how insert content of one document into another
 
 ### Insert a Document During Mail Merge Operation {#insert-a-document-during-mail-merge-operation}
 
-You can insert a document into a merge field during a mail merge operation. For example, a mail merge template can contain a merge field such as [Summary]. But in the final document, you need to insert content obtained from another external document into this merge field. To achieve that, you will need to create a handler for the merge event.
+You can insert a document into a merge field during a Mail Merge operation. For example, a Mail Merge template can contain a merge field such as [Summary]. But in the final document, you need to insert content obtained from another external document into this merge field. To achieve that, you will need to create a handler for the merge event.
 
 The following code example shows how to create a handler for the merging event to use it later in the inserting process:
 

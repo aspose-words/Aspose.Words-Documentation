@@ -7,6 +7,7 @@ description: ".NET için Aspose.Words, belgeyi oluşturmak için kullanılan olu
 type: docs
 weight: 60
 url: /tr/net/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 .NET için Aspose.Words kullanarak bir belgenin üretilip üretilmediğini kolayca anlayabilirsiniz. Belirli bir çıktı belgesi oluşturmak için kullanılan .NET için Aspose.Words sürüm numarasını da bulabilirsiniz. Aspose.Words bu bilgiyi doğrudan oluşturulan belgeye yazar.

@@ -1,76 +1,77 @@
----
-title: ทํางานกับ ฟอร์มฟิลด์ ใน Java
-second_title: Aspose.Words สําหรับ Java
-articleTitle: การ ทํา งาน กับ สนาม ฟอร์ม
-linktitle: การ ทํา งาน กับ สนาม ฟอร์ม
-description: "ความเข้าใจในแบบฟอร์ม Java."
+﻿---
+title: การทำงานกับฟิลด์แบบฟอร์มในJava
+second_title: Aspose.WordsสำหรับJava
+articleTitle: การทำงานกับฟิลด์ฟอร์ม
+linktitle: การทำงานกับฟิลด์ฟอร์ม
+description: "การทำความเข้าใจคุณลักษณะฟิลด์แบบฟอร์มการทำงานกับฟิลด์แบบฟอร์มโดยใช้Java."
 type: docs
 weight: 380
 url: /th/java/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
-เอกสารที่มีช่องว่างเต็ม (ฟิลด์) เป็นที่รู้จักในแบบฟอร์ม ตัวอย่างเช่น คุณสามารถสร้างแบบฟอร์มลงทะเบียนใน Microsoft Word ใช้รายการแบบวางลง ซึ่งผู้ใช้สามารถเลือกรายการได้ เดอะ `Form` ช่อง ว่าง: สนามในแบบฟอร์ม Microsoft Word รวมการป้อนข้อความ, กล่องคอมโบและ checkbox
+เอกสารที่ประกอบด้วยช่องว่างกรอกข้อมูล(ฟิลด์)เป็นที่รู้จักกันเป็นแบบฟอร์ม ตัวอย่างเช่นคุณสามารถสร้างแบบฟอร์มลงทะเบียนในMicrosoft Wordที่ใช้รายการแบบเลื่อนลงซึ่งผู้ใช้สา ฟิลด์`Form`คือตำแหน่งที่ตั้งที่จัดเก็บข้อมูลประเภทใดประเภทหนึ่งเช่นชื่อหรือที่อยู่ ฟิลด์แบบฟอร์มในMicrosoft Wordรวมถึงการป้อนข้อความcomboboxและcheckbox.
 
-คุณสามารถใช้รูปแบบสนามในโครงการของคุณ เพื่อ "ติดต่อ" กับผู้ใช้ของคุณ ตัวอย่างเช่น คุณสร้างเอกสารที่มีการป้องกันเนื้อหา แต่เฉพาะสาขารูปทรงเท่านั้นที่สามารถแก้ไขได้ ผู้ใช้สามารถป้อนข้อมูลในช่องข้อมูลฟอร์ม และส่งเอกสารได้ โปรแกรมที่ใช้ Aspose.Words สามารถรับข้อมูลจากสนามฟอร์ม และดําเนินการได้
+คุณสามารถใช้ฟิลด์ฟอร์มในโครงการของคุณเพื่อ"สื่อสาร"กับผู้ใช้ของคุณ ตัวอย่างเช่นคุณสร้างเอกสารที่มีเนื้อหาได้รับการป้องกันแต่เฉพาะฟิลด์ฟอร์มเท่านั้นที่สามา ผู้ใช้สามารถป้อนข้อมูลในฟิลด์แบบฟอร์มและส่งเอกสาร แอ็พพลิเคชันของคุณที่ใช้Aspose.Wordsสามารถดึงข้อมูลจากฟิลด์ฟอร์มและประมวลผล.
 
-การวางแบบฟอร์มในเอกสารโดยใช้รหัสง่าย [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) มีวิธีการพิเศษในการแทรกข้อมูลเหล่านี้ เป็นหนึ่งในแต่ละชนิดของสนาม แต่ละวิธียอมรับพารามิเตอร์สตริงแทนชื่อของช่องฟอร์ม ชื่ออาจเป็นข้อความว่าง หากคุณกําหนดชื่อที่จะใช้แสดงในช่องข้อมูลฟอร์มแล้ว ที่คั่นหน้าจะถูกสร้างโดยอัตโนมัติโดยใช้ชื่อเดียวกัน
+การวางเขตข้อมูลแบบฟอร์มลงในเอกสารผ่านรหัสเป็นเรื่องง่าย [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)มีวิธีการพิเศษสำหรับการแทรกพวกเขาหนึ่งสำหรับแต่ละชนิดฟิลด์ฟอร์ม. แต่ละเมธอดยอมรับพารามิเตอร์สตริงที่แสดงชื่อของฟิลด์ฟอร์ม ชื่อสามารถเป็นสตริงที่ว่างเปล่า บฟิลด์ฟอร์มบุ๊กมาร์กจะถูกสร้างขึ้นโดยอัตโนมัติด้วยชื่อเดียวกัน.
 
-## แก้ไขโครงการหลัก.
+## แทรกฟิลด์ฟอร์ม
 
-ช่องข้อมูล Form เป็นกรณีเฉพาะของสนามคํา ที่อนุญาตให้ใช้ "โต้ตอบ" กับผู้ใช้ สนามในแบบฟอร์ม Microsoft Word รวมถึงข้อความ กล่องคอมโบ และกล่องเช็ค
+เขตข้อมูลฟอร์มเป็นกรณีเฉพาะของเขตข้อมูลคำที่ช่วยให้"โต้ตอบ"กับผู้ใช้ ฟิลด์แบบฟอร์มในMicrosoft Wordรวมถึงกล่องข้อความกล่องคำสั่งผสมและcheckbox.
 
-**DocumentBuilder** ให้วิธีการพิเศษในการแทรกช่องแต่ละประเภทในเอกสาร: [insertTextInput](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCheckBox-java.lang.String-boolean-boolean-int), [insertCheckBox](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCheckBox-java.lang.String-boolean-boolean-int) หรือ [insertComboBox](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCheckBox-java.lang.String-boolean-int).
+**DocumentBuilder**
 
-ตัวอย่างโค้ดต่อไปนี้ จะแสดงวิธีแทรกช่องคอมโบในเอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกฟิลด์ฟอร์มcomboboxลงในเอกสาร:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertFormFields-InsertFormFields.java" >}}
 
-### แทรกข้อความเข้า
+### แทรกการป้อนข้อความ
 
-ใช้ **แทรก แทรกข้อความ** วิธีการแทรกข้อความลงในเอกสาร
+ใช้วิธีการ**insertTextInput**เพื่อแทรกกล่องข้อความลงในเอกสาร.
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีแทรกช่องป้อนข้อความ ในเอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกฟิลด์แบบฟอร์มการป้อนข้อความลงในเอกสาร:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertTextInputFormField-DocumentBuilderInsertTextInputFormField.java" >}}
 
-### แทรกกล่องกาเลือก
+### ใส่กล่องกาเครื่องหมาย
 
-เรียก **แทรกบ็อกซ์** เพื่อใส่ checkbox ลงในเอกสาร
+โทร**insertCheckBox**เพื่อแทรกcheckboxลงในเอกสาร.
 
-ตัวอย่างโค้ดต่อไปนี้ จะแสดงวิธีการใส่ช่อง checkbox ในเอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกฟิลด์ฟอร์มcheckboxลงในเอกสาร:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertCheckBoxFormField-DocumentBuilderInsertCheckBoxFormField.java" >}}
 
-### แทรกกล่องคอมโบ
+### ใส่กล่องคำสั่งผสม
 
-เรียก **แทรกComboBox** เพื่อแทรกกล่องคอมโบเข้าไปในเอกสาร
+โทร**insertComboBox**เพื่อแทรกcomboboxลงในเอกสาร.
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีใส่ช่องคอมโบบ็อกซ์ในเอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกฟิลด์ฟอร์มComboboxลงในเอกสาร:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertComboBoxFormField-DocumentBuilderInsertComboBoxFormField.java" >}}
 
-## ช่องข้อมูล Obtain Form
+## ขอรับเขตข้อมูลแบบฟอร์ม
 
-คอลเลกชันของสนามฟอร์ม แสดงโดย [FormFieldCollection](https://reference.aspose.com/words/java/com.aspose.words/formfieldcollection/) คลาสที่สามารถรับมาได้โดยใช้ [Range.getFormFields](https://reference.aspose.com/words/java/com.aspose.words/range/#getFormFields) ทรัพย์สิน นี่ หมาย ความ ว่า คุณ สามารถ หา ทุ่ง นา ที่ มี อยู่ ใน โหนด เอกสาร ใด ๆ รวม ทั้ง ตัว เอกสาร ด้วย.
+คอลเล็กชันของฟิลด์ฟอร์มจะแสดงโดยคลาสของ[FormFieldCollection](https://reference.aspose.com/words/java/com.aspose.words/formfieldcollection/)ที่สามารถดึงข้อมูลได้โดยใช้คุณสมบัติ[Range.getFormFields](https://reference.aspose.com/words/java/com.aspose.words/range/#getFormFields) ซึ่งหมายความว่าคุณสามารถขอรับเขตข้อมูลฟอร์มที่มีอยู่ในโหนดเอกสารใดๆรวมถึงเอกสา.
 
-ตัวอย่างโค้ดต่อไปนี้ แสดงให้เห็นว่าจะรวบรวมสนามฟอร์มอย่างไร
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการรับคอลเลกชันของเขตข้อมูลฟอร์ม:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormFieldsGetFormFieldsCollection-FormFieldsGetFormFieldsCollection.java" >}}
 
 {{% alert color="primary" %}}
 
-คุณสามารถดาวน์โหลดแฟ้มตัวอย่างของตัวอย่างต่อไปนี้ได้ [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Form%20fields.docx).
+คุณสามารถดาวน์โหลดไฟล์ตัวอย่างของตัวอย่างต่อไปนี้จาก [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Form%20fields.docx).
 
 {{% /alert %}}
 
-คุณสามารถหาช่องฟอร์มได้โดยดัชนีหรือชื่อของมัน
+คุณจะได้รับฟิลด์แบบฟอร์มโดยเฉพาะอย่างยิ่งโดยดัชนีหรือชื่อ.
 
-ตัวอย่างรหัสต่อไปนี้ แสดงให้เห็นว่าจะเข้าสู่สนามฟอร์มได้อย่างไร
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการเข้าถึงฟิลด์ฟอร์ม:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormFieldsGetByName-FormFieldsGetByName.java" >}}
 
-เดอะ **FormField** คุณ สามารถ ทํา งาน ได้ โดย ใช้ ชื่อ, ชนิด, และ ผล.
+คุณสมบัติ**FormField**ช่วยให้คุณสามารถทำงานกับชื่อฟิลด์แบบฟอร์มชนิดและผลลัพธ์ได้.
 
-ตัว อย่าง รหัส ต่อ ไป นี้ แสดง ให้ เห็น วิธี ทํา งาน กับ ชื่อ สนาม, ชนิด, และ ผล ที่ ได้:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการทำงานกับฟอร์มชื่อฟิลด์ชนิดและผลลัพธ์:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormFieldsWorkWithProperties-FormFieldsWorkWithProperties.java" >}}

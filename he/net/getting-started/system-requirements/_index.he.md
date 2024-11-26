@@ -7,6 +7,7 @@ description: "לפני שתתחיל לעבוד עם Aspose.Words עבור .NET, 
 type: docs
 weight: 70
 url: /he/net/system-requirements/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Aspose.Words עבור .NET אין צורך במוצר צד שלישי כגון Microsoft Word להיות מותקן. Aspose.Words עצמו הוא מנוע ליצירת, שינוי, המרת ועריכת מסמכים בפורמטים שונים, כולל Microsoft Word פורמטי מסמך

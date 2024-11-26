@@ -7,6 +7,7 @@ type: docs
 description: "使用 Aspose.Words Document Object Model 分类,用于程序创建、修改和管理文档 Java。 。 。 与文档属性,设置,内容一起工作,以及通过色彩,形状,字体和其他图形的管理进行文档外观."
 weight: 340
 url: /zh/java/programming-with-documents/
+timestamp: 2024-09-25-11-08-55
 ---
 
 本节介绍如何在方案上创建、修改和管理文件。 Aspose.Words Document Object Model 课程。 本节中的文章描述了广泛的文档操作任务,使您能够与文档属性,设置,内容及其元素一起工作.

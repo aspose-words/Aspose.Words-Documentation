@@ -1,4 +1,4 @@
-﻿---
+---
 title: Word文書にGroup Shapeを追加する方法
 second_title: C++の場合Aspose.Words
 articleTitle: Word文書でのGroup Shapesの操作
@@ -7,6 +7,7 @@ description: "C++を使用した図形のグループ化とグループ化解除
 type: docs
 weight: 290
 url: /ja/cpp/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 場合によっては、Word文書にgroup shapeを追加する必要があります。 このようなgroup shapeは複数の図形で構成されます。

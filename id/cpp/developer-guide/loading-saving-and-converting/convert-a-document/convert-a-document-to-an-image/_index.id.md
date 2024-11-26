@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mengonversi Dokumen menjadi Gambar dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Mengonversi Dokumen menjadi Gambar
@@ -7,6 +7,7 @@ type: docs
 description: "Konversikan dokumen ke format gambar (JPG, PNG, dll). Buat pratinjau dokumen atau buat pemindaian dokumen untuk mengirim faktur."
 weight: 43
 url: /id/cpp/convert-a-document-to-an-image/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Terkadang diperlukan untuk mendapatkan gambar alih-alih dokumen dalam format lain, seperti DOCX atau PDF. Misalnya, Anda perlu menambahkan pratinjau halaman dokumen apa pun ke situs web atau aplikasi Anda, atau membuat "pemindaian" dokumen untuk mengirim faktur. Ini adalah saat Anda mungkin perlu mengonversi dokumen dalam [supported load format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) apa pun menjadi gambar, sekali lagi, dalam [supported save format](https://reference.aspose.com/words/cpp/aspose.words/saveformat/) apa pun.

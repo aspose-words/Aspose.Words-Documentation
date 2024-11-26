@@ -7,6 +7,7 @@ description: "Bergabung Tabel di JavaSitemap manipulasi meja lanjutan, bergabung
 type: docs
 weight: 90
 url: /id/java/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Meja, diwakili dalam Aspose.Words Document Object Model, terdiri dari baris dan sel independen, sehingga mudah bergabung dengan tabel.

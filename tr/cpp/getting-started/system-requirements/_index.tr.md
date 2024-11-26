@@ -1,4 +1,4 @@
-﻿---
+---
 title: Sistem Gereksinimleri
 second_title: Aspose.Words için C++
 articleTitle: Sistem Gereksinimleri
@@ -7,6 +7,7 @@ description: "Çalışmaya başlamadan önce Aspose.Words için C++, işletim si
 type: docs
 weight: 70
 url: /tr/cpp/system-requirements/
+timestamp: 2024-07-11-16-13-28
 ---
 
 Aspose.Words için C++ Microsoft Word gibi herhangi bir üçüncü taraf ürününün yüklenmesini gerektirmez. Aspose.Words kendisi, Microsoft Word belge biçimleri de dahil olmak üzere çeşitli biçimlerde belgelerin oluşturulması, değiştirilmesi, dönüştürülmesi ve işlenmesi için kullanılan bir motordur.

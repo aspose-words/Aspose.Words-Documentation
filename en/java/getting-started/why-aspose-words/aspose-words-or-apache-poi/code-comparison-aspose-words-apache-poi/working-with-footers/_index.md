@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Footers
 second_title: Aspose.Words for Java
 articleTitle: Working with Footers
@@ -7,6 +7,7 @@ description: "Remove footers from a document easily and fast instead of using Ap
 type: docs
 weight: 30
 url: /java/working-with-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Working with Footers

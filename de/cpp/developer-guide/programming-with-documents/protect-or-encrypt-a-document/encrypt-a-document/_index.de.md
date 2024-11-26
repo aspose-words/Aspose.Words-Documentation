@@ -1,4 +1,4 @@
-﻿---
+---
 title: Verschlüsseln Sie ein Dokument in C++
 second_title: Aspose.Words für C++
 articleTitle: Ein Dokument verschlüsseln
@@ -7,6 +7,7 @@ description: "Verschlüsseln Sie Ihr Dokument mit geeigneten Verschlüsselungsal
 type: docs
 weight: 20
 url: /de/cpp/encrypt-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Verschlüsselung ist der Prozess, bei dem lesbarer Text in bedeutungslose Bytefolgen übersetzt wird, sodass er nur von der Person gelesen werden kann, die den Entschlüsselungsschlüssel oder den Geheimcode besitzt. Dieser Prozess spielt eine wichtige Rolle bei der Sicherung Ihrer Inhalte. Es hilft, den Inhalt zu verschlüsseln, die Herkunft eines Dokuments zu überprüfen, nachzuweisen, dass der Inhalt nach dem Senden nicht geändert wurde, und sicherzustellen, dass die Daten aus dem Dokument sicher sind.

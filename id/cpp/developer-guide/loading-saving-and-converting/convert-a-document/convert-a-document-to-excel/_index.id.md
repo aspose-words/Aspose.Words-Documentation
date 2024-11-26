@@ -1,4 +1,4 @@
-﻿---
+---
 title: Konversi Word ke Excel dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Konversi Dokumen ke Excel
@@ -7,6 +7,7 @@ description: "Konversikan PDF ke Excel, XML ke Excel, DOCX ke Excel C++. Simpan 
 type: docs
 weight: 15
 url: /id/cpp/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Mengonversi dokumen dari satu format ke format lainnya adalah fitur unggulan Aspose.Words. Anda dapat mengonversi dokumen dalam format [load format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) apa pun yang tersedia juga ke format XLSX.

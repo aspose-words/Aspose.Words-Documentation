@@ -1,4 +1,4 @@
-﻿---
+---
 title: Sisipkan Checkbox es, Masukan Teks, atau Gambar selama Mail Merge
 second_title: Aspose.Words untuk C++
 articleTitle: Sisipkan Checkboxes, Masukan Teks, atau Gambar
@@ -7,6 +7,7 @@ description: "Sisipkan kotak centang atau kolom input teks selama Mail Merge men
 type: docs
 weight: 40
 url: /id/cpp/insert-checkboxes-text-input-or-images-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Mesin penggabungan mengambil dokumen sebagai masukan, mencari bidang `MERGEFIELD` di dalamnya, dan menggantinya dengan data yang diperoleh dari sumber data. Biasanya, teks biasa dan HTML disisipkan, tetapi pengguna Aspose.Words juga dapat membuat dokumen yang menangani skenario yang lebih tidak biasa untuk bidang mail merge.
@@ -18,7 +19,7 @@ Fungsionalitas Aspose.Words yang kuat memungkinkan Anda untuk memperpanjang pros
 
 ## Sisipkan Checkbox es dan Masukan Teks selama Mail Merge
 
-Terkadang perlu untuk melakukan operasi mail merge agar bukan teks yang diganti di bidang gabungan, tetapi kotak centang atau bidang input teks. Meskipun ini bukan skenario yang paling umum, ini sangat berguna untuk beberapa tugas.
+Terkadang perlu untuk melakukan operasi Mail Merge agar bukan teks yang diganti di bidang gabungan, tetapi kotak centang atau bidang input teks. Meskipun ini bukan skenario yang paling umum, ini sangat berguna untuk beberapa tugas.
 
 Tangkapan layar dokumen Word berikut menunjukkan templat dengan bidang gabungan:
 
@@ -42,11 +43,11 @@ Contoh kode berikut menunjukkan cara menyisipkan kotak centang dan memasukkan bi
 
 ## Sisipkan Gambar selama Mail Merge
 
-Saat melakukan operasi mail merge, Anda dapat menyisipkan gambar dari database ke dalam dokumen menggunakan bidang gambar khusus mail merge. Bidang image mail merge adalah bidang gabungan bernama Image: MyFieldName.
+Saat melakukan operasi mail merge, Anda dapat menyisipkan gambar dari database ke dalam dokumen menggunakan bidang gambar khusus mail merge. Bidang image Mail Merge adalah bidang gabungan bernama Image: MyFieldName.
 
 ### Menyisipkan Gambar dari Database
 
-Selama mail merge, saat bidang image mail merge ditemukan dalam dokumen, peristiwa [FieldMergingCallback](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_fieldmergingcallback/) diaktifkan. Anda dapat menanggapi peristiwa ini untuk mengembalikan nama file, aliran, atau objek gambar ke mesin mail merge sehingga dapat disisipkan ke dalam dokumen.
+Selama mail merge, saat bidang image Mail Merge ditemukan dalam dokumen, peristiwa [FieldMergingCallback](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_fieldmergingcallback/) diaktifkan. Anda dapat menanggapi peristiwa ini untuk mengembalikan nama file, aliran, atau objek gambar ke mesin Mail Merge sehingga dapat disisipkan ke dalam dokumen.
 
 Contoh kode berikut menunjukkan cara menyisipkan gambar yang disimpan dalam bidang database BLOB ke dalam laporan:
 

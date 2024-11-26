@@ -7,6 +7,7 @@ description: "有关如何以多种方式在 C# 中制作表格的指南。在 C
 type: docs
 weight: 20
 url: /zh/net/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words 允许用户从头开始在文档中创建表格，并提供了几种不同的方法来执行此操作。本文详细介绍了如何使用每种方法将格式化表格添加到文档中，并在文章末尾对每种方法进行了比较。

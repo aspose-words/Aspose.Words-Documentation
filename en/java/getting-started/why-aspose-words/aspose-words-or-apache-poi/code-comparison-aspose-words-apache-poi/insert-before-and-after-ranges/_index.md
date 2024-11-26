@@ -1,4 +1,4 @@
-﻿---
+---
 title: Insert Before and After Ranges
 second_title: Aspose.Words for Java
 articleTitle: Insert Before and After Ranges
@@ -7,6 +7,7 @@ description: "Insert before and after ranges within a document easily and fast i
 type: docs
 weight: 30
 url: /java/insert-before-and-after-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Insert Before and After Ranges

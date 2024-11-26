@@ -1,4 +1,4 @@
-﻿---
+---
 title: Temukan dan Ganti di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Temukan dan Ganti
@@ -7,6 +7,7 @@ type: docs
 description: "Temukan string atau pola ekspresi reguler di dokumen Anda dan ganti dengan teks yang Anda inginkan menggunakan C++."
 weight: 100
 url: /id/cpp/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Anda dapat dengan mudah menavigasi di dalam dokumen menggunakan keyboard dan mouse, tetapi jika Anda memiliki banyak halaman untuk digulir, akan memakan waktu cukup lama untuk menemukan teks tertentu dalam dokumen yang panjang. Akan lebih memakan waktu saat Anda ingin mengganti karakter atau kata tertentu yang telah Anda gunakan dalam dokumen Anda. Fungsionalitas "Temukan dan ganti" memungkinkan Anda menemukan urutan karakter dalam dokumen dan menggantinya dengan urutan karakter lainnya.

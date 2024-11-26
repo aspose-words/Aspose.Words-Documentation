@@ -1,36 +1,37 @@
----
-title: Convertir un documento en PDF en Java
-second_title: Aspose.Words para Java
-articleTitle: Convertir un documento en PDF
-linktitle: Convertir un documento en PDF
-description: "Convertir un documento en Word o cualquier otro formato compatible en PDF, que preserva la apariencia original de un documento durante su presentación en varias plataformas utilizando Java."
+﻿---
+title: Convertir un documento a PDF en Java
+second_title: Aspose.Words por Java
+articleTitle: Convertir un documento a PDF
+linktitle: Convertir un documento a PDF
+description: "Convierta un documento en Word o en cualquier otro formato compatible a PDF, que conserva la apariencia original de un documento durante su representación en varias plataformas usando Java."
 type: docs
 weight: 10
 url: /es/java/convert-a-document-to-pdf/
+timestamp: 2024-01-31-14-23-37
 ---
 
-La capacidad de convertir fácilmente y de forma fiable documentos de un formato a otro es una característica clave Aspose.Words. Uno de los formatos más populares para la conversión es PDF – un formato de eliminación fija, que preserva la apariencia original de un documento durante su presentación en varias plataformas. El término "rendering" se utiliza en Aspose.Words para describir el proceso de conversión de un documento en un formato de archivo que está paginado o tiene el concepto de páginas.
+La capacidad de convertir documentos de un formato a otro de manera fácil y confiable es una característica clave de Aspose.Words. Uno de los formatos más populares para convertir es PDF, un formato de diseño fijo que conserva la apariencia original de un documento durante su representación en varias plataformas. El término" representación " se usa en Aspose.Words para describir el proceso de convertir un documento a un formato de archivo paginado o que tiene el concepto de páginas.
 
-## Convertir un documento de palabra en PDF {#convert-a-word-document-to-pdf}
+## Convertir un documento de Word a PDF {#convert-a-word-document-to-pdf}
 
-La conversión de Word a PDF es un proceso bastante complejo que requiere varias etapas de cálculo. Aspose.Words el motor de diseño imita la manera Microsoft Word’s diseño de página funciona el motor, haciendo que los documentos de salida PDF se vean lo más cerca posible de lo que se puede ver en Microsoft Word.
+La conversión de Word a PDF es un proceso bastante complejo que requiere varias etapas de cálculo. El motor de diseño Aspose.Words imita la forma en que funciona el motor de diseño de página Microsoft Word, haciendo que los documentos de salida PDF se vean lo más parecido posible a lo que puede ver en Microsoft Word.
 
-Con Aspose.Words puede convertir programáticamente un documento de formato DOC o DOCX a PDF sin usar Microsoft Oficina. Este artículo explica cómo realizar esta conversión.
+Con Aspose.Words puede convertir programáticamente un documento de formato DOC o DOCX a PDF sin usar Microsoft Office. Este artículo explica cómo realizar esta conversión.
 
 {{% alert color="primary" %}}
 
-Tenga en cuenta que el número de páginas en un documento afecta el tiempo de conversión.
+Tenga en cuenta que el número de páginas de un documento afecta el tiempo de conversión.
 
 {{% /alert %}}
 
 ### Convertir DOCX o DOC en PDF {#converting-doc-or-docx-to-pdf}
 
-Convertir del formato DOC o DOCX en formato PDF Aspose.Words es muy fácil y se puede lograr con sólo dos líneas de código que:
+Convertir del formato de documento DOC o DOCX al formato PDF en Aspose.Words es muy fácil y se puede lograr con solo dos líneas de código que:
 
-1. Cargue su documento en un [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) objeto utilizando uno de sus constructores especificando el nombre del documento con su extensión de formato.
-1. Invocar uno de los [Document.Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String-int) sobre los métodos **Document** objeto y especificar el formato de salida deseado como PDF al introducir un nombre de archivo con la extensión ".PDF".
+1. Cargue su documento en un objeto [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) utilizando uno de sus constructores especificando el nombre del documento con su extensión de formato.
+1. Invoque uno de los métodos [Document.Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String-int) en el objeto **Document** y especifique el formato de salida deseado como PDF ingresando un nombre de archivo con el ".PDF" extensión.
 
-El siguiente ejemplo de código muestra cómo convertir un documento de DOCX en PDF usando el `Save` método:
+El siguiente ejemplo de código muestra cómo convertir un documento de DOCX a PDF usando el método `Save`:
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "docx-to-pdf.java" >}}
 
@@ -38,35 +39,35 @@ Puede descargar el archivo de plantilla de este ejemplo desde [Aspose.Words GitH
 
 {{% alert color="primary" %}}
 
-A veces es necesario especificar opciones adicionales, que pueden afectar el resultado de guardar un documento como PDF. Estas opciones se pueden especificar mediante el uso del [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) clase, que contiene propiedades que determinan cómo se mostrará la salida PDF.
+A veces es necesario especificar opciones adicionales, lo que puede afectar el resultado de guardar un documento como PDF. Estas opciones se pueden especificar mediante el uso de la clase [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/), que contiene propiedades que determinan cómo se mostrará la salida PDF.
 
-Tenga en cuenta que con la misma técnica, puede convertir cualquier documento de formato de flujo de salida a formato PDF.
+Tenga en cuenta que con la misma técnica, puede convertir cualquier documento de formato de diseño de flujo al formato PDF.
 
 {{% /alert %}}
 
-### Convertir en Diferente PDF Normas {#converting-to-various-pdf-standards}
+### Convertir a diferentes PDF Estándares {#converting-to-various-pdf-standards}
 
-Aspose.Words proporciona el [PdfCompliace](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)enumeración para apoyar la conversión de DOC o DOCX en varios estándares de formato PDF (como PDF 1.7, PDF 1.5, etc.).
+Aspose.Words proporciona la enumeración [PdfCompliace](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)para admitir la conversión de DOC o DOCX en varios estándares de formato PDF (como PDF 1.7, PDF 1.5, etc.).
 
-El siguiente ejemplo de código muestra cómo convertir un documento a PDF 1.7 utilizando [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) cumplimiento a PDF17:
+El siguiente ejemplo de código demuestra cómo convertir un documento a PDF 1.7 usando [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) con conformidad a PDF17:
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "conversion-to-pdf17.java" >}}
 
-## Convertir Imágenes en PDF
+## Convertir imágenes a PDF
 
-Convertirse en PDF no está restringido por Microsoft Word formatos de documentos. Cualquier formato apoyado por Aspose.Words, incluyendo creado programáticamente, también se puede convertir en PDF. Por ejemplo, podemos convertir imágenes de una sola página, como JPEG, PNG, BMP, EMF o WMF, así como imágenes de varias páginas, como TIFF y GIF, a PDF.
+La conversión a PDF no está restringida por los formatos de documento Microsoft Word. Cualquier formato admitido por Aspose.Words, incluido el creado mediante programación, también se puede convertir a PDF. Por ejemplo, podemos convertir imágenes de una sola página, como JPEG, PNG, BMP, EMF, o WMF, así como imágenes de varias páginas, como TIFF y GIF, a PDF.
 
-El siguiente ejemplo de código muestra cómo convertir imágenes JPEG y TIFF a PDF:
+El siguiente ejemplo de código muestra cómo convertir JPEG y TIFF imágenes en PDF:
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "image-to-pdf.java" >}}
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "convert-image-to-pdf.java" >}}
 
-Para hacer que este código funcione, necesita añadir referencias a Aspose.Words, Java.awt.image, y javax. paquetes de clase imageio a su proyecto.
+Para que este código funcione, debe agregar referencias a Aspose.Words, Java.awt.image, y javax.paquetes de clase imageio a su proyecto.
 
-## Reducir PDF Tamaño del producto
+## Reducir el Tamaño de Salida PDF
 
-Al guardar a PDF, puede especificar si desea optimizar la salida. Para hacer esto, necesitas establecer el [OptimizeOutput](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/#getOptimizeOutput) bandera true, y luego lonas anidadas redundantes y lienzos vacíos serán eliminados, vecino glyphs con el mismo formato será concatenado.
+Al guardar en PDF, puede especificar si desea optimizar la salida. Para hacer esto, debe establecer el indicador [OptimizeOutput](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/#getOptimizeOutput) en verdadero, y luego se eliminarán los lienzos anidados redundantes y los lienzos vacíos, se concatenarán los glifos vecinos con el mismo formato.
 
 El siguiente ejemplo de código muestra cómo optimizar la salida:
 
@@ -74,12 +75,12 @@ El siguiente ejemplo de código muestra cómo optimizar la salida:
 
 {{% alert color="primary" %}}
 
-Usando el **OptimizeOutput** propiedad puede afectar la exactitud de la pantalla de contenido.
+El uso de la propiedad **OptimizeOutput** puede afectar la precisión de la visualización del contenido.
 
 {{% /alert %}}
 
-## Vea también
+## Véase También
 
-- El artículo [Rendering](/words/es/java/rendering/) para más información sobre los formatos de página fija y de flujo
-- El artículo [Convertir en Formato de página fija](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) para más información sobre el diseño de la página
-- El artículo [Especificar Opciones de Rendering Al Convertirse en PDF](/words/es/java/specify-rendering-options-when-converting-to-pdf/) para más información sobre el uso del `PdfSaveOptions` clase
+- El artículo [Renderizado](/words/java/rendering/) para obtener más información sobre los formatos de página fija y diseño de flujo
+- El artículo [Conversión a Formato de página fija](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) para obtener más información sobre el diseño de la página
+- El artículo [Especifica las Opciones de representación Al Convertir a PDF](/words/java/specify-rendering-options-when-converting-to-pdf/) para obtener más información sobre el uso de la clase `PdfSaveOptions`

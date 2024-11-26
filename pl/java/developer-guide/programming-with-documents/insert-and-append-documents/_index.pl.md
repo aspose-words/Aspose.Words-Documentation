@@ -7,6 +7,7 @@ description: "Łączenie dokumentów w jeden: wstawić lub dołączyć dokument 
 type: docs
 weight: 80
 url: /pl/java/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Czasami wymagane jest połączenie kilku dokumentów w jedno. Możesz to zrobić ręcznie lub możesz użyć Aspose.Words wstawić lub dołączyć funkcję.
@@ -49,7 +50,7 @@ Poniższy przykład kodu pokazuje, jak wstawić zawartość jednego dokumentu do
 
 ### Wstaw dokument podczas Mail Merge Działanie {#insert-a-document-during-mail-merge-operation}
 
-Można umieścić dokument w polu połączenia podczas mail merge działanie. Na przykład mail merge szablon może zawierać pole scalania, takie jak [podsumowanie]. Jednak w dokumencie końcowym należy umieścić zawartość otrzymaną z innego dokumentu zewnętrznego w tym polu. Aby to osiągnąć, trzeba będzie utworzyć opiekuna dla zdarzenia połączenia.
+Można umieścić dokument w polu połączenia podczas Mail Merge działanie. Na przykład Mail Merge szablon może zawierać pole scalania, takie jak [podsumowanie]. Jednak w dokumencie końcowym należy umieścić zawartość otrzymaną z innego dokumentu zewnętrznego w tym polu. Aby to osiągnąć, trzeba będzie utworzyć opiekuna dla zdarzenia połączenia.
 
 Poniższy przykład kodu pokazuje, jak utworzyć opiekuna dla łączącego się zdarzenia do wykorzystania go później w procesie wprowadzania:
 

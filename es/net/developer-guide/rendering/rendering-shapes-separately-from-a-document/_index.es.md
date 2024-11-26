@@ -7,6 +7,7 @@ description: "Extraiga varios objetos gráficos, como imágenes, cuadros de text
 type: docs
 weight: 40
 url: /es/net/rendering-shapes-separately-from-a-document/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Al procesar documentos, una tarea común es extraer todas las imágenes que se encuentran en el documento y exportarlas a una ubicación externa. Esta tarea se vuelve sencilla con Aspose.Words API, que ya proporciona la funcionalidad para extraer y guardar datos de imágenes. Sin embargo, a veces es posible que desee extraer de manera similar otros tipos de contenido gráfico representado por un tipo diferente de objeto de dibujo, por ejemplo, un cuadro de texto que contiene párrafos, formas de flecha y una imagen pequeña. No existe una forma sencilla de representar este objeto, ya que es una combinación de elementos de contenido individuales. También puede encontrarse con un caso en el que los contenidos se hayan agrupado en un objeto que parezca una sola imagen.

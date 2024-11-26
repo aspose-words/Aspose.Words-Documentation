@@ -7,6 +7,7 @@ description: "Geavanceerde tabelopmaak Java. Een tabelstijl aanmaken met Java. I
 type: docs
 weight: 80
 url: /nl/java/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Een tabel stijl definieert een set van opmaak die gemakkelijk kan worden toegepast op een tabel. Formatteren zoals randen, schaduw, uitlijning, en lettertype kan worden ingesteld in een tabel stijl en toegepast op vele tabellen voor een consistente verschijning.

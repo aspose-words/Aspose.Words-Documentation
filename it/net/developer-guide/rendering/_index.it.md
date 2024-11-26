@@ -7,6 +7,7 @@ description: "Utilizzare la funzionalità di rendering Aspose.Words per .NET per
 type: docs
 weight: 20
 url: /it/net/rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Usiamo il termine "rendering" in Aspose.Words per descrivere il processo di conversione di un documento in un formato di file o in un supporto impaginato o che ha il concetto di pagine. Stiamo parlando del rendering di un documento in pagine. Il diagramma seguente mostra cos'è il rendering in Aspose.Words.

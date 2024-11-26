@@ -7,6 +7,7 @@ description: "Inserte y administre la 'Tabla de contenido' en un documento usand
 type: docs
 weight: 170
 url: /es/python-net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 A menudo trabajará con documentos que contienen una tabla de contenido (TOC). Usando Aspose.Words puedes insertar tu propia tabla de contenido o reconstruir completamente la tabla de contenido existente en el documento usando solo unas pocas líneas de código. Este artículo describe cómo trabajar con el campo de tabla de contenido y demuestra:
@@ -107,7 +108,7 @@ De forma predeterminada, estos modificadores anteriores se incluyen al insertar 
 
 <p>- *\L: define en qué nivel del `TOC` aparecerá este campo TC. Un `TOC` que utilice este mismo interruptor solo incluirá este campo TC si está dentro del rango especificado.*</p>
 
-<p>- _\N: la numeración de página para esta entrada `TOC` no se muestra. En la siguiente sección se puede encontrar un código de muestra sobre cómo insertar campos TC.</p> |
+<p>- `_\N`: la numeración de página para esta entrada `TOC` no se muestra. En la siguiente sección se puede encontrar un código de muestra sobre cómo insertar campos TC.</p> |
 
 ### Interruptores relacionados con la apariencia
 

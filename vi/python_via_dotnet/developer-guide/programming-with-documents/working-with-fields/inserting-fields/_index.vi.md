@@ -7,6 +7,7 @@ description: "Chèn các trường vào tài liệu trong Python theo nhiều c�
 type: docs
 weight: 20
 url: /vi/python-net/inserting-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Có một số cách khác nhau để chèn các trường vào tài liệu:
@@ -85,7 +86,7 @@ Ví dụ về mã sau đây cho biết cách thêm Trường `Merge` bằng DOM 
 
 ### Chèn trường Mail Merge `ADDRESSBLOCK` vào Tài liệu bằng DOM
 
-Trường `ADDRESSBLOCK` được sử dụng để chèn khối địa chỉ mail merge trong tài liệu Word. Trường `ADDRESSBLOCK` trong tài liệu Word có thể được biểu diễn bằng lớp [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/). Bạn có thể sử dụng lớp [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) để thực hiện các thao tác sau:
+Trường `ADDRESSBLOCK` được sử dụng để chèn khối địa chỉ Mail Merge trong tài liệu Word. Trường `ADDRESSBLOCK` trong tài liệu Word có thể được biểu diễn bằng lớp [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/). Bạn có thể sử dụng lớp [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) để thực hiện các thao tác sau:
 
 - chỉ định xem có đưa tên quốc gia/khu vực vào trường này hay không
 - chỉ định có định dạng địa chỉ theo quốc gia/khu vực của người nhận như được xác định bởi POST*CODE (Universal Postal Union 2006)
@@ -115,7 +116,7 @@ Trường `ASK` được sử dụng để nhắc người dùng gán văn bản
 
 - chỉ định tên của dấu trang
 - chỉ định phản hồi mặc định của người dùng (giá trị ban đầu có trong cửa sổ nhắc)
-- chỉ định xem có nên nhận phản hồi của người dùng một lần cho mỗi thao tác mail merge hay không
+- chỉ định xem có nên nhận phản hồi của người dùng một lần cho mỗi thao tác Mail Merge hay không
 - chỉ định văn bản nhắc (tiêu đề của cửa sổ nhắc)
 
 Ví dụ về mã sau đây cho biết cách thêm Trường `ASK` bằng DOM vào một đoạn trong tài liệu:

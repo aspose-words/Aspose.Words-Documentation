@@ -7,6 +7,7 @@ description: "Python를 사용하여 문서를 PDF로 변환합니다. Word, Ope
 type: docs
 weight: 10
 url: /ko/python-net/convert-a-document-to-pdf/
+timestamp: 2024-01-31-14-23-37
 ---
 
 문서를 한 형식에서 다른 형식으로 쉽고 안정적으로 변환하는 기능은 Aspose.Words의 핵심 기능입니다. 가장 널리 사용되는 변환 형식 중 하나는 다양한 플랫폼에서 렌더링하는 동안 문서의 원래 모양을 유지하는 고정 레이아웃 형식인 PDF입니다. Aspose.Words에서 "렌더링"이라는 용어는 문서를 페이지가 지정되거나 페이지 개념을 갖는 파일 형식으로 변환하는 프로세스를 설명하는 데 사용됩니다.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Convertire un documento in un'immagine in C++
 second_title: Aspose.Words per C++
 articleTitle: Convertire un documento in un'immagine
@@ -7,6 +7,7 @@ type: docs
 description: "Convertire un documento in formato immagine (JPG, PNG, ecc). Creare un'anteprima del documento o una scansione del documento per inviare una fattura."
 weight: 43
 url: /it/cpp/convert-a-document-to-an-image/
+timestamp: 2024-01-30-16-22-34
 ---
 
 A volte è necessario ottenere un'immagine invece di documenti in altri formati, come DOCX o PDF. Ad esempio, è necessario aggiungere un'anteprima di qualsiasi pagina del documento al sito Web o all'applicazione o creare una "scansione" di un documento per inviare una fattura. Questo è quando potrebbe essere necessario convertire un documento in qualsiasi [supported load format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) in un'immagine, di nuovo, in qualsiasi [supported save format](https://reference.aspose.com/words/cpp/aspose.words/saveformat/).

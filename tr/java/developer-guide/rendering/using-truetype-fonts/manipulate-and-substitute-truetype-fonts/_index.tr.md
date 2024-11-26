@@ -7,6 +7,7 @@ description: "Aspose.Words için Java doğru TrueType yazı tiplerini sonuçlara
 type: docs
 weight: 10
 url: /tr/java/manipulate-and-substitute-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words çeşitli görevler için TrueType yazı tiplerine ihtiyaç duyar, örneğin belgelerin sabit sayfa formatlarına dönüştürülmesi, örneğin PDF veya XPS. Bir belgeyi işlerken, Aspose.Words'in TrueType yazı tiplerini sonuç belgesine gömme ve alt kümelere ayırma işlemleri gerçekleştirmesi gerekir ki bu da popüler PDF veya XPS formatları dahil olmak üzere bir belge üretimi sırasında normal bir uygulamadır. Bu, belgenin herhangi bir görüntüleyiciye aynı görüneceğinden emin olur. Ayrıca, XPS spesifikasyonu, yazı tiplerinin belgenin her zaman gömülü olmasını gerektirir.

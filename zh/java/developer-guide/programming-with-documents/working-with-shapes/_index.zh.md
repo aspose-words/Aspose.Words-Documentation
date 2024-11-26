@@ -7,6 +7,7 @@ type: docs
 description: "形状标记语言的介绍,使用 Java。 。 。 。"
 weight: 280
 url: /zh/java/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 本议题讨论了如何在方案上利用各种形状开展工作。 Aspose.Words。 。 。 。

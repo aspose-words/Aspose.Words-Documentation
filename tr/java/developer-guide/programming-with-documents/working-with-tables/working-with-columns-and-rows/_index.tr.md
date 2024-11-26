@@ -7,6 +7,7 @@ description: "Bir tablonun bölümleriyle çalışma – satırlar, sütunlar ve
 type: docs
 weight: 30
 url: /tr/java/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tablo üzerinde daha fazla kontrol için, nasıl sütunları ve satırları manipüle edileceğini öğrenin.

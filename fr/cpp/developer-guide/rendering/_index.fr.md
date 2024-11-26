@@ -1,4 +1,4 @@
-﻿---
+---
 title: Rendu en C++
 second_title: Aspose.Words pour C++
 articleTitle: Rendu
@@ -7,6 +7,7 @@ description: "Utilisation Aspose.Words pour C++ fonction de rendu pour formater 
 type: docs
 weight: 20
 url: /fr/cpp/rendering/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Nous utilisons le terme "rendu" dans Aspose.Words pour décrire le processus de conversion d'un document en un format de fichier ou un support paginé ou ayant le concept de pages. Nous parlons du rendu d'un document en pages. Le diagramme suivant montre quel est le rendu dans Aspose.Words.

@@ -7,6 +7,7 @@ description: "Tentukan posisi tabel di JavaSitemap Dapatkan penyelarasan meja, d
 type: docs
 weight: 50
 url: /id/java/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ada tabel mengambang dan tabel inline:

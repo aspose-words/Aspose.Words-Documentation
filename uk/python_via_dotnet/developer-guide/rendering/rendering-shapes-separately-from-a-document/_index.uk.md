@@ -7,6 +7,7 @@ description: "Вилучення різних графічних об'єктів
 type: docs
 weight: 40
 url: /uk/python-net/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 При обробці документів, загальним завданням є вилучення всіх зображень, знайдених в документі і вивезення їх на зовнішнє місце. Це завдання стає простою з Aspose.Words API, який вже надає функціональність для отримання та збереження даних зображень. Тим не менш, іноді ви можете аналогічно витягувати інші типи графічного контенту, який представлений різними типами об'єкта малювання, наприклад, текстова коробка, що містить абзаци, форму стріли та невеликий образ. Не існує прямолінійного способу надання цього об'єкту, оскільки це поєднання окремих елементів контенту. Ви також можете зіткнутися з кейсом, коли вміст було зібрано в об'єкт, який виглядає як єдиний образ.
@@ -38,7 +39,7 @@ Aspose.Words забезпечує функціональність для вил
 
 {{% alert color="primary" %}}
 
-При рендерингу <span notrans="<span notrans=" [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/)"=""></span>, > вона повинна бути частиною ієрархії документа. Якщо [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) не є частиною дерева документа, після того, як рендеринг буде порожнім після виклику [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) методи.
+При рендерингу [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/), > вона повинна бути частиною ієрархії документа. Якщо [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) не є частиною дерева документа, після того, як рендеринг буде порожнім після виклику [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) методи.
 
 {{% /alert %}}
 

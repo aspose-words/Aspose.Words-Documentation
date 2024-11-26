@@ -7,6 +7,7 @@ description: "Cara memasukkan kolom ke dalam dokumen menggunakan C# – pelajari
 type: docs
 weight: 20
 url: /id/net/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ada beberapa cara berbeda untuk menyisipkan kolom ke dalam dokumen:
@@ -86,7 +87,7 @@ Contoh kode berikut menunjukkan cara menambahkan kolom `MERGE` menggunakan DOM k
 
 ### Memasukkan bidang Mail Merge `ADDRESSBLOCK` ke dalam Dokumen menggunakan DOM
 
-Bidang `ADDRESSBLOCK` digunakan untuk memasukkan blok alamat mail merge ke dalam dokumen Word. Bidang `ADDRESSBLOCK` di dokumen Word dapat diwakili oleh kelas [FieldAddressBlock](https://reference.aspose.com/words/net/aspose.words.fields/fieldaddressblock/). Anda dapat menggunakan kelas **FieldAddressBlock** untuk melakukan operasi berikut:
+Bidang `ADDRESSBLOCK` digunakan untuk memasukkan blok alamat Mail Merge ke dalam dokumen Word. Bidang `ADDRESSBLOCK` di dokumen Word dapat diwakili oleh kelas [FieldAddressBlock](https://reference.aspose.com/words/net/aspose.words.fields/fieldaddressblock/). Anda dapat menggunakan kelas **FieldAddressBlock** untuk melakukan operasi berikut:
 
 - tentukan apakah akan mencantumkan nama negara/wilayah pada kolom tersebut
 - tentukan apakah akan memformat alamat sesuai dengan negara/wilayah penerima sebagaimana ditentukan oleh POST*CODE (Universal Postal Union 2006)

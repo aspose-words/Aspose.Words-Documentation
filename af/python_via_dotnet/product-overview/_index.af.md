@@ -1,4 +1,4 @@
-﻿---
+---
 title: Produk Oorsig
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Produk Oorsig
@@ -7,6 +7,7 @@ description: "Aspose.Words vir Python via .NET is'n sagteware biblioteek ontwerp
 type: docs
 weight: 15
 url: /af/python-net/product-overview/
+timestamp: 2024-01-31-14-23-37
 ---
 
 <img src="product-overview_1" alt="aspose-words-product" align="left" style="width:64px; margin: 0 30px 30px 0"/>

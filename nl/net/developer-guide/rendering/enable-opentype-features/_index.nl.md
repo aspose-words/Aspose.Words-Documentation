@@ -7,6 +7,7 @@ description: "Geavanceerde typografie functies met behulp van C#."
 type: docs
 weight: 25
 url: /nl/net/enable-opentype-features/
+timestamp: 2024-07-10-14-38-57
 ---
 
 OpenType is een lettertypeformaat, geïntroduceerd om betere ondersteuning te bieden voor internationale talen en schrijfsystemen in vergelijking met PostScript en TrueType. De lay-out functies van OpenType zijn algemeen bekend als OpenType functies. Aspose.Words. Shaping.HarfBuzz pakket biedt ondersteuning voor OpenType functies in Aspose.Words gebruik HarfBuzz tekstvormmachine.

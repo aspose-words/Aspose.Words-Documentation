@@ -1,4 +1,4 @@
-﻿---
+---
 title: Salvando um documento como uma página múltipla TIFF Em C++
 second_title: Aspose.Words para C++
 articleTitle: Guardar um documento com várias páginas TIFF
@@ -7,6 +7,7 @@ description: "Converta um documento em um TIFF de várias páginas usando C++. P
 type: docs
 weight: 40
 url: /pt/cpp/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ao trabalhar com documentos, muitas vezes você precisa converter seu documento em um(S) arquivo (s) de Imagem raster. Isto é especialmente relevante se tiver de apresentar o seu documento num formato legível e imprimível, mas não editável. Por exemplo, pode utilizar uma imagem rasterizada da primeira página do documento como pré-visualização. Este artigo descreve como converter um documento em uma imagem raster usando o exemplo do formato TIFF – um dos formatos de imagem mais populares.

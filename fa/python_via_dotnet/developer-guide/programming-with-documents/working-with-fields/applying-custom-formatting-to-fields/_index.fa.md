@@ -7,6 +7,7 @@ description: "فرمت و ارزیابی نتایج فیلدها با استفا
 type: docs
 weight: 40
 url: /fa/python-net/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 گاهی اوقات کاربران نیاز به اعمال قالب بندی سفارشی برای فیلدها دارند. در این مقاله، ما به چند نمونه از نحوه انجام این کار نگاه خواهیم کرد.
@@ -15,7 +16,7 @@ url: /fa/python-net/applying-custom-formatting-to-fields/
 
 ## نحوه ارزیابی وضعیت `IF`
 
-اگر می خواهید شرایط `IF` را بعد از mail merge ارزیابی کنید، می توانید از روش [EvaluateCondition](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldif/evaluate_condition/) استفاده کنید که بلافاصله نتیجه ارزیابی عبارت را برمی گرداند.
+اگر می خواهید شرایط `IF` را بعد از Mail Merge ارزیابی کنید، می توانید از روش [EvaluateCondition](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldif/evaluate_condition/) استفاده کنید که بلافاصله نتیجه ارزیابی عبارت را برمی گرداند.
 
 مثال کد زیر نحوه استفاده از این روش را نشان می دهد:
 

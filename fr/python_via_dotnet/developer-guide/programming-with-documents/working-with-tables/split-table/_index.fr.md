@@ -7,6 +7,7 @@ description: "Diviser la table dans Python. Comment diviser une table en deux ta
 type: docs
 weight: 100
 url: /fr/python-net/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un tableau, représenté dans le Aspose.Words Document Object Model, est composé de lignes et de cellules indépendantes, ce qui facilite la division d'un tableau.

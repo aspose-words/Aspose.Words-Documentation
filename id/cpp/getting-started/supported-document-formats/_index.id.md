@@ -1,4 +1,4 @@
-﻿---
+---
 title: Format Dokumen yang Didukung
 second_title: Aspose.Words untuk C++
 articleTitle: Format Dokumen yang Didukung
@@ -7,6 +7,7 @@ type: docs
 description: "Edit dokumen sumber dalam banyak format populer, serta konversi file secara bebas dari satu format ke format lainnya menggunakan C++."
 weight: 20
 url: /id/cpp/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

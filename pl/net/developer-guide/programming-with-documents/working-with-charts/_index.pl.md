@@ -7,6 +7,7 @@ description: "Wprowadzenie do funkcji wykresów, jak tworzyć i manipulować wyk
 type: docs
 weight: 310
 url: /pl/net/working-with-charts/
+timestamp: 2024-02-05-15-07-18
 ---
 
 Do klasy [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) dodano nową metodę [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/). Zobaczmy więc, jak wstawić prosty wykres kolumnowy do dokumentu za pomocą metody [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/).

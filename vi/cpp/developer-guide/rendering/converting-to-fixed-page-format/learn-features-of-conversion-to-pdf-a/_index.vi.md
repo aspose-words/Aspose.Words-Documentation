@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chuyển đổi thành PDF/A và PDF/UA
 second_title: Aspose.Words cho C++
 articleTitle: Tìm Hiểu Các Tính năng Của Chuyển đổi thành PDF/A và PDF/UA
@@ -7,6 +7,7 @@ description: "Chuyển đổi sang PDF/A-1, PDF/A-2, PDF/A-4 và PDF/UA sử d�
 type: docs
 weight: 35
 url: /vi/cpp/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF là một định dạng trang cố định rất phổ biến đối với người dùng và được hỗ trợ rộng rãi bởi các ứng dụng khác nhau, vì tài liệu PDF trông giống nhau trên mọi thiết bị. Vì lý do này, chuyển đổi thành PDF là một tính năng quan trọng của Aspose.Words.

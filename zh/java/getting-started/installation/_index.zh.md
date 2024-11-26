@@ -7,6 +7,7 @@ description: "安装 Aspose.Words (单位:千美元) Java 从 Maven 数据库。
 type: docs
 weight: 10
 url: /zh/java/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 保证你的机器与 [系统要求](/words/zh/java/system-requirements/) 在你开始之前

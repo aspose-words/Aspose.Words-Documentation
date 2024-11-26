@@ -7,6 +7,7 @@ type: docs
 description: "Integrovat Aspose.Words funkce do aplikace pomocí Docker Bez ohledu na to, jaká technologie je ve vašem vývojovém stacku. Naučte se používat Aspose. Slova v Docker obal C#."
 weight: 120
 url: /cs/net/how-to-run-aspose-words-in-docker/
+timestamp: 2024-08-19-11-05-36
 ---
 
 Mikroslužby ve spojení s kontejnerizací umožňují snadno kombinovat technologie. Docker umožňuje snadno integrovat Aspose.Words funkčnost do vaší aplikace, bez ohledu na to, jaká technologie je ve vašem vývojovém stacku.
@@ -32,12 +33,12 @@ Chcete-li vytvořit program Hello World, postupujte podle níže uvedených krok
 ![net-console-application](https://lh5.googleusercontent.com/PArWoC8_leOnhtaF-5BMb3b4jHwI3G03WoyMK3bXZpsQKN50YzvEQBwoRniyCWKIcdR0EZGuwn3S8Z0ZK6FQ4cjMSWgH3CwSqReW4bMt-3OjZjrdt9yuWbkMdhyNjwwaaYPC5Ylr)<br>
 1. Nainstalovat nejnovější Aspose.Words verze NuGet. Skia Sharp bude nainstalován jako závislost Aspose.Words.<br/>
 ![skiasharp-dependency](https://lh3.googleusercontent.com/zWpvB5TLahC_OpJrHDML2131Vj_VK1vryTZBd_C3ZeOBdoUOc2vF_axEvwu9tytaL1maJv3qA2KoyP5fn7ae4_3cL23sXyoLoVysjgu8XEp6l0B2w5hgR9teh95_9mFd9X-4DGNN)<br>
-1. Vzhledem k tomu, že aplikace bude spuštěna <span notrans="<span notrans=" Linux"=""></span>,? příslušný rodák Linux aktiva musí být instalována. Začněte s Debian základní obraz a instalace `SkiaSharp.NativeAssets`.Linux.
+1. Vzhledem k tomu, že aplikace bude spuštěna Linux,? příslušný rodák Linux aktiva musí být instalována. Začněte s Debian základní obraz a instalace `SkiaSharp.NativeAssets.Linux`.
 1. Po přidání všech požadovaných závislostí napište jednoduchý program, který vytvoří dokument Hello World!<br/>
 
 {{< gist "aspose-words-gists" "47e15ad749897be465deebc2ff3e76dd" "aspose-words-docker.cs" >}}
 
-Všimněte si, že složka Při spuštění aplikace v <span notrans="<span notrans=" Docker"=""></span>,? složka na hostitelském stroji bude namontována do této složky v kontejneru. To vám umožní snadno zobrazit výstup generovaný Aspose.Words v Docker kontejner.
+Všimněte si, že složka Při spuštění aplikace v Docker,? složka na hostitelském stroji bude namontována do této složky v kontejneru. To vám umožní snadno zobrazit výstup generovaný Aspose.Words v Docker kontejner.
 
 ### Nastavení a Dockerfile
 

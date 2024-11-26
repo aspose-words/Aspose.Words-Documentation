@@ -7,6 +7,7 @@ description: "如何操纵脚注和尾注 Java。 。 。 。"
 type: docs
 weight: 160
 url: /zh/java/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 还提供了一些使用脚注和尾注的类、方法和属性。

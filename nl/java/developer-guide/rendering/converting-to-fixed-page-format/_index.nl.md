@@ -7,6 +7,7 @@ description: "Aspose.Words voor Java implementeert zijn eigen pagina lay-out eng
 type: docs
 weight: 10
 url: /nl/java/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words implementeert zijn eigen pagina-indeling motor. Alvorens in zijn specificaties te duiken, is het de moeite waard eerst het document op hoog niveau te bespreken. Bij het denken over een document, gebruikers meestal voorstellen een aantal papieren bladen met woorden, afbeeldingen, tabellen en grafieken. Documenten kunnen van verschillende soorten zijn, zoals tekst, spreadsheets, dia's, CAD tekeningen, stroomschema's, en kunnen daarom in wezen verschillende indelingen hebben. De meeste toepassingen laten toe documenten naar een printer te sturen; dit is wanneer een gebruiker het document daadwerkelijk kan bekijken.
@@ -49,7 +50,7 @@ Pagina-indeling berekent waar de tekst zal verschijnen en welke inhoud erachter 
 
 ![non_geometric_properties_aspose-words-java](/words/java/converting-to-fixed-page-format/converting-to-fixed-page-format-2.png)
 
-In <span notrans="<span notrans=" Aspose.Words"=""></span>,"> een gebruiker kan vragen of hij een nieuwe pagina-indeling wil bouwen of een bestaande kan bijwerken. Beide kunnen worden uitgevoerd door de [UpdatePageLayout](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout\(\)) methode, verstrekt door de [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) Klasse. Als er geen paginaindeling bestaat, maar er is wel behoefte aan (bijvoorbeeld wanneer het document wordt geëxporteerd naar een vaste paginaformaat), Aspose.Words zal deze methode automatisch bellen. Als er echter al een paginaindeling bestaat, Aspose.Words zal de bestaande gebruiken om te voorkomen dat de middelen die nodig zijn om het bij te werken worden verbruikt. In dit geval moet de gebruiker de `UpdatePageLayout` methode, om ervoor te zorgen dat de pagina-indeling is bijgewerkt met het document model.
+In Aspose.Words een gebruiker kan vragen of hij een nieuwe pagina-indeling wil bouwen of een bestaande kan bijwerken. Beide kunnen worden uitgevoerd door de [UpdatePageLayout](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout\(\)) methode, verstrekt door de [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) Klasse. Als er geen paginaindeling bestaat, maar er is wel behoefte aan (bijvoorbeeld wanneer het document wordt geëxporteerd naar een vaste paginaformaat), Aspose.Words zal deze methode automatisch bellen. Als er echter al een paginaindeling bestaat, Aspose.Words zal de bestaande gebruiken om te voorkomen dat de middelen die nodig zijn om het bij te werken worden verbruikt. In dit geval moet de gebruiker de `UpdatePageLayout` methode, om ervoor te zorgen dat de pagina-indeling is bijgewerkt met het document model.
 
 ### Dynamische structuur
 

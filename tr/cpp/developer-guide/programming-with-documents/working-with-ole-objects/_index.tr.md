@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki OLE Nesnelerle çalışma
 second_title: Aspose.Words için C++
 articleTitle: OLE Nesnelerle Çalışma
@@ -7,6 +7,7 @@ description: "C++ kullanarak belgenize OLE katıştırma oluşturun ve değişti
 type: docs
 weight: 360
 url: /tr/cpp/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE (Nesne Bağlama ve Gömme), kullanıcıların üçüncü taraf uygulamalar tarafından oluşturulan veya düzenlenen "nesneler" içeren belgelerle çalışabilecekleri bir teknolojidir. Diğer bir deyişle, OLE bir düzenleme uygulamasının bu "nesneleri" başka bir düzenleme uygulamasına dışa aktarmasına ve ardından bunları ek içerikle içe aktarmasına izin verir.

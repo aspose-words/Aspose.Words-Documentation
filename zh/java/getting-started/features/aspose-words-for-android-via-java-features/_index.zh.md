@@ -7,6 +7,7 @@ description: "本节比较了可提供的各种特征。 Aspose.Words (单位:�
 type: docs
 weight: 90
 url: /zh/java/aspose-words-for-android-via-java-features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Aspose.Words (单位:千美元) Android 通过 Java 特征概览
@@ -91,16 +92,16 @@ Aspose.Words 提供所有文件要素格式化属性的详细程序访问。
 
 |  特性 | Aspose.Words (单位:千美元) Java | Aspose.Words (单位:千美元) Android 通过 Java |
 |  :-  |  :-  |  :-  |
-| 使用全部标准 Microsoft Word mail merge 字段,包括 `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, 银线。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| 执行 mail merge 对于包含甚至最复杂和嵌入的文档 `IF` 字段和公式。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| 使用您的数据源在文档中填充并动态生长表格或片段 mail merge 区域。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| 使用全部标准 Microsoft Word Mail Merge 字段,包括 `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, 银线。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| 执行 Mail Merge 对于包含甚至最复杂和嵌入的文档 `IF` 字段和公式。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| 使用您的数据源在文档中填充并动态生长表格或片段 Mail Merge 区域。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | 容易生成包含主-详细(父母-子女)数据的报告,如命令/命令细节。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | 用任意数据填充文档 Java 执行 `ResultSet` 接口。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | 通过执行 XML 文件或商业对象等任何数据源来复制文档 **IMailMergeDataSource** 接口。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | 精确控制您使用事件合并数据的方式, 如数字格式化 。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | 插入图像时 mail merge。 。 。 。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| 程序创建或修改 Microsoft Word mail merge 文档的数据源。 保留 mail merge 设置和数据源。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| 获取 mail merge 字段名称。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| 程序创建或修改 Microsoft Word Mail Merge 文档的数据源。 保留 Mail Merge 设置和数据源。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| 获取 Mail Merge 字段名称。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ### 报告特点
 

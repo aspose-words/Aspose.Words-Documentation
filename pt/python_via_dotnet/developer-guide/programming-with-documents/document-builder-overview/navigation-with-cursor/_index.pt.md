@@ -7,6 +7,7 @@ description: "Navegue entre diferentes nós em um documento, como um parágrafo,
 type: docs
 weight: 10
 url: /pt/python-net/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ao trabalhar com um documento, mesmo que seja curto ou longo, você precisará navegar pelo documento. A navegação com um cursor virtual representa a capacidade de navegar entre diferentes nós em um documento.

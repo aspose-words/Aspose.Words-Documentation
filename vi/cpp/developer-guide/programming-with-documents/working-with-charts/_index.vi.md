@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm việc với Biểu đồ trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm việc với Biểu Đồ
@@ -7,6 +7,7 @@ description: "Giới thiệu về tính năng Biểu đồ, cách tạo và thao
 type: docs
 weight: 310
 url: /vi/cpp/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Phương thức [InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/) mới đã được thêm vào lớp [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/). Vì vậy, hãy xem cách chèn một biểu đồ cột đơn giản vào tài liệu bằng phương thức [InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/).

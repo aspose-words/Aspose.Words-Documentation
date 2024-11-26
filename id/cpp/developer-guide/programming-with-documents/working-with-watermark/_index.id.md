@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Tanda Air di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Tanda Air
@@ -7,6 +7,7 @@ type: docs
 description: "Manipulasi tanda air dokumen menggunakan C++."
 weight: 340
 url: /id/cpp/working-with-watermark/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Topik ini membahas cara bekerja secara terprogram dengan tanda air menggunakan Aspose.Words. Tanda air adalah gambar latar belakang yang ditampilkan di belakang teks dalam dokumen. Tanda air dapat berisi teks atau gambar yang diwakili oleh kelas [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/).

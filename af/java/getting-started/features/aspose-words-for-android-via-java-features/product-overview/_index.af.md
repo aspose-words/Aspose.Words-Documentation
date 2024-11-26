@@ -1,4 +1,4 @@
-﻿---
+---
 title: Android via Java Produk Oorsig
 second_title: Aspose.Words vir Java
 articleTitle: Produk Oorsig
@@ -7,6 +7,7 @@ description: "Aspose.Words vir Android via Java is'n `Java` klasbiblioteek wat A
 type: docs
 weight: 10
 url: /af/java/android-product-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

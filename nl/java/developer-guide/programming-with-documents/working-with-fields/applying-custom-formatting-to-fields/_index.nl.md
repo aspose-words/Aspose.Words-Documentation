@@ -7,6 +7,7 @@ description: "Formatteren en evalueren van velden resultaat met behulp van Java.
 type: docs
 weight: 40
 url: /nl/java/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Soms moeten gebruikers aangepaste opmaak toepassen op velden. In dit artikel zullen we een paar voorbeelden bekijken van hoe dit gedaan kan worden.

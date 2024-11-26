@@ -1,4 +1,4 @@
-﻿---
+---
 title: Omskakeling na PDF/A en PDF/UA
 second_title: Aspose.Words vir Java
 articleTitle: Leer Kenmerke van Omskakeling na PDF/A en PDF/UA
@@ -7,6 +7,7 @@ description: "Skakel om na PDF/A-1, PDF/A-2, PDF/A-4 en PDF/UA met behulp van Ja
 type: docs
 weight: 25
 url: /af/java/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF is'n vaste bladsyformaat wat baie gewild is onder gebruikers en word wyd ondersteun deur verskeie toepassings, aangesien'n PDF - dokument op enige toestel dieselfde lyk. Om hierdie rede is omskakeling na PDF 'n belangrike kenmerk van Aspose.Words.

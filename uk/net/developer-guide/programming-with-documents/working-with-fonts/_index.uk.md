@@ -7,6 +7,7 @@ description: "Форматування шрифтів у деталях C#й Р�
 type: docs
 weight: 230
 url: /uk/net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Шрифт є набором символів з певним розміром, кольором та дизайном. Aspose.Words дозволяє працювати з шрифтами за допомогою [Fonts](https://reference.aspose.com/words/net/aspose.words.fonts/) простір імен і [Font](https://reference.aspose.com/words/net/aspose.words/font/) клас.

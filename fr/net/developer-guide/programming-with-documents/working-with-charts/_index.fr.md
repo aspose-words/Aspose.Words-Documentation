@@ -7,6 +7,7 @@ description: "Introduction à la fonctionnalité Graphique, comment créer et ma
 type: docs
 weight: 310
 url: /fr/net/working-with-charts/
+timestamp: 2024-02-05-15-07-18
 ---
 
 Une nouvelle méthode [InsertChart](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/insertchart/) a été ajoutée à la classe [DocumentBuilder](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/). Voyons donc comment insérer un simple histogramme dans le document à l'aide de la méthode [InsertChart](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/insertchart/).

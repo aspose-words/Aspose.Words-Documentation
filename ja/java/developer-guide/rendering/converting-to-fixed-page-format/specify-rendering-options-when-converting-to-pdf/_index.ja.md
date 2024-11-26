@@ -1,185 +1,183 @@
----
-title: レンダリングオプションをPDFに変換する
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: レンダリングオプションをPDFに変換する
-linktitle: レンダリングオプションをPDFに変換する
-description: "ドキュメントをPDFに変換し、高度なオプションでPDFに変換します。 PdfSaveOptions を使用して、ドキュメントをPDF形式に保存する結果を変更します Javaお問い合わせ"
+﻿---
+title: PDFに変換するときのレンダリングオプションの指定
+second_title: Aspose.WordsのためのJava
+articleTitle: PDFに変換するときのレンダリングオプションの指定
+linktitle: PDFに変換するときのレンダリングオプションの指定
+description: "高度なオプションを使用して文書をPDFに変換します。 Javaを使用して文書をPDF形式に保存した結果を変更するには、PdfSaveOptionsを使用します。"
 type: docs
 weight: 20
 url: /ja/java/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
-PDF形式は、ユーザーの間で非常に人気があり、さまざまなアプリケーションで広くサポートされている固定ページ形式です。 PDF文書は、任意のデバイスで同じように見えるからです。 そのため、PDFへの変換は重要な機能です Aspose.Wordsお問い合わせ
+PDF形式は固定ページ形式であり、ユーザーの間で非常に人気があり、PDF文書はどのデバイスでも同じように見えるため、さまざまなアプリケーションで広くサポー そのため、PDFへの変換はAspose.Wordsの重要な機能です。
 
-PDFは複雑な形式です。 レイアウト計算を含む文書をPDFに変換する過程で計算のいくつかの段階が必要です。 これらの段階は複雑な計算を含むので、時間がかかります。 また、PDF形式自体は複雑です。 特定のファイル構造、グラフィックモデル、フォントの埋め込みを持っています。 また、ドキュメント構造タグ、暗号化、デジタル署名、編集可能なフォームなど、複雑な出力機能を備えています。
+PDFは複雑な形式です。 レイアウト計算を含む、ドキュメントをPDFに変換するプロセスでは、いくつかの段階の計算が必要です。 これらの段階には複雑な計算が含まれているため、時間がかかります。 また、PDF形式はそれ自体ではかなり複雑です。 これは、特定のファイル構造、グラフィックスモデルとフォントの埋め込みを持っています。 さらに、文書構造タグ、暗号化、デジタル署名、編集可能なフォームなど、いくつかの複雑な出力機能を備えています。
 
-Aspose.Words レイアウト エンジンは方法を模倣します Microsoft Word’s ページレイアウトエンジンの仕組み ですから、 Aspose.Words PDFの出力文書は、あなたが見ることができるものをできるだけ近いように見えます Microsoft Wordお問い合わせ 時々、追加のオプションを指定する必要があります。これは、ドキュメントをPDF形式に保存する結果に影響を与えることができます。 これらのオプションは、使用によって指定することができます [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) クラスは、PDFの出力方法を決定するプロパティを含む。
+Aspose.Wordsレイアウトエンジンは、Microsoft Wordのページレイアウトエンジンの動作を模倣しています。 したがって、Aspose.WordsはPDF出力文書をMicrosoft Wordで見ることができるものにできるだけ近く見えるようにします。 追加のオプションを指定する必要がある場合がありますが、これは文書をPDF形式で保存した結果に影響を与える可能性があります。 これらのオプションは、PDF出力がどのように表示されるかを決定するプロパティを含む[PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/)クラスを使用して指定できます。
 
-使用事例 **PdfSaveOptions** お問い合わせ
+**PdfSaveOptions**の使用例をいくつか以下に示します。
 
 {{% alert color="primary" %}}
 
-PDF 1.7、PDF 2.0、PDF/A-1a、PDF/A-1b、PDF/A-2a、PDF/A-2u、PDF/UA-1 形式の保存ができます。 利用する [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) PDF 規格準拠レベルを設定するための列挙。 PDF/A形式の出力ファイルサイズは通常のPDFファイルサイズよりも大きいことに注意してください。
+現在、あなたはに保存することができますPDF 1.7, PDF 2.0, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2u, とPDF/UA-1形式。 [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)列挙体を使用して、PDF標準準拠レベルを設定します。 PDF/A形式では、出力ファイルのサイズは通常のPDFファイルのサイズよりも大きいことに注意してください。
 
-[PdfCompliance.PdfA1a](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/#PDF-17) そして、 [PdfCompliance.PdfA1b](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/#PDF-17) obsolete としてマークされます。
+[PdfCompliance.PdfA1a](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/#PDF-17)と[PdfCompliance.PdfA1b](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/#PDF-17)は廃止されたものとしてマークされています。
 
-PDF/A の詳細については、次の記事「PDF/A への変換の学習特徴」を参照してください。
+PDF/Aの詳細については、次の記事"PDF/Aへの変換の機能について"を参照してください。
 
 {{% /alert %}}
 
-## PDFの作成 充填可能なフォームでドキュメント
+## 入力可能なフォームを使用したPDFドキュメントの作成
 
-充填可能なフォームをエクスポートすることも可能です。 Microsoft Word プレーンテキストではなく、埋め立て可能なフォームを持つPDFを出力するドキュメント。 利用する [PreserveFormFields](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getPreserveFormFields) 文書をPDFとして保存するプロパティ。
+入力可能なフォームをMicrosoft Wordドキュメントから出力PDFにエクスポートすることもできます。 入力可能なフォームで文書をPDFとして保存するには、[PreserveFormFields](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getPreserveFormFields)プロパティを使用します。
 
-とは対照的に <span notrans="<span notrans=" Microsoft Word"=""></span>????? PDF形式は、テキストボックス、コンボボックス、チェックボックスなどの編集可能なフォームの限られた数のオプションがあります。 Microsoft Word カレンダー日付ピッカーなど、フォームの種類が増えています。 一般的には、完全に模倣することはできません Microsoft Word PDFでの動作 そのため、複雑なケースでは、PDF出力が表示されるものと異なる場合があります。 Microsoft Wordお問い合わせ
+Microsoft Wordとは対照的に、PDF形式には、textbox、combo box、checkboxなどの編集可能なフォームのオプションの数が限られていることに注意してください。 Microsoft Wordには、カレンダーの日付ピッカーなど、より多くの種類のフォームがあります。 一般に、PDFでMicrosoft Wordの動作を完全に模倣することはできません。 したがって、いくつかの複雑なケースでは、PDFの出力はMicrosoft Wordに表示されるものと異なる場合があります。
 
-以下のコードの例では、指定されたJpegの圧縮と品質で、文書をPDFとして保存する方法を示します。
+次のコード例は、指定されたJpeg圧縮と品質で入力可能なフォームを使用して文書をPDFとして保存する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-PdfImageCompression.java" >}}
 
-## 文書の構造および注文の特性の輸出
+## ドキュメント構造とカスタムプロパティのエクスポート
 
-ザ・オブ・ザ・ [ExportDocumentStructure](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getExportDocumentStructure) ドキュメント構造をPDF出力にエクスポートできます。
+[ExportDocumentStructure](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getExportDocumentStructure)プロパティを使用すると、文書構造をPDF出力にエクスポートできます。
 
-PDF の論理構造施設は、文書のコンテンツ構造に関する情報をPDFファイルに組み込むための仕組みを提供します。 Aspose.Words 構造体に関する情報を、 Microsoft Word 段落、リスト、表、脚注/内記など
+PDF論理構造ファシリティは、文書の内容構造に関する情報をPDFファイルに組み込むためのメカニズムを提供します。 Aspose.Wordsは、段落、リスト、表、脚注/文末脚注など、Microsoft Word文書からの構造に関する情報を保持します。Aspose.Wordsは、段落、リスト、表、脚注/文末脚注など、Microsoft Word文書からの構造に関する情報を保
 
-次の例では、ドキュメントをPDF形式に保存する方法を説明します。
+次の例では、ドキュメントをPDF形式で保存し、ドキュメントの構造を保持する方法を示します:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-ExportDocumentStructure.java" >}}
 
-Aspose.Words また、ドキュメントのカスタムプロパティをPDFにエクスポートすることもできます。次の例で示されています。
+Aspose.Wordsでは、ドキュメントのカスタムプロパティをPDFにエクスポートすることもできます。:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-CustomPropertiesExport.java" >}}
 
-## アウトプットPDFのブックマークや見出しからのアウトラインのエクスポート
+## 出力PDFのブックマークと見出しからアウトラインをエクスポートする
 
-出力PDFの輪郭としてブックマークをエクスポートしたい場合は、 [DefaultBookmarksOutlineLevel](https://reference.aspose.com/words/java/com.aspose.words/outlineoptions/#getDefaultBookmarksOutlineLevel) プロパティ. このプロパティは、ドキュメントのアウトラインのデフォルトレベルを指定します。 Microsoft Word ブックマークが表示されます。 ドキュメントがドキュメントのヘッダ/フッターにブックマークが含まれている場合は、ドキュメントのヘッダ/フッターにブックマークを設定できます。 [HeaderFooterBookmarksExportMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getHeaderFooterBookmarksExportMode) プロパティ [First](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#FIRST) または [All](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#ALL) 出力PDFでエクスポートする方法を指定するため。 ヘッダ/フッターのブックマークは、値のときにエクスポートされません。 **HeaderFooterBookmarksExportMode** お問い合わせ [None](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#NONE)お問い合わせ
+出力PDFでブックマークをアウトラインとしてエクスポートする場合は、[DefaultBookmarksOutlineLevel](https://reference.aspose.com/words/java/com.aspose.words/outlineoptions/#getDefaultBookmarksOutlineLevel)プロパティを使用できます。 このプロパティは、Microsoft Wordブックマークが表示されるドキュメントアウトラインの既定のレベルを指定します。 ドキュメントのヘッダー/フッターにブックマークが含まれている場合は、[HeaderFooterBookmarksExportMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getHeaderFooterBookmarksExportMode)プロパティを[First](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#FIRST)または[All](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#ALL)に設定して、出力PDFでエクスポートする方法を指定できます。 **HeaderFooterBookmarksExportMode**の値が[None](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#NONE)の場合、ヘッダー/フッターのブックマークはエクスポートされません。
 
-セクションの最初のヘッダー/フッターからブックマークをエクスポートする方法は次のとおりです。
+以下のコード例は、セクションの最初のヘッダー/フッターからブックマークをエクスポートする方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-ExportHeaderFooterBookmarks.java" >}}
 
-この例の出力PDFは以下のとおりです。
+この例の出力PDFを以下に示します:
 
 ![rendering-options-when-converting-to-pdf-aspose-words-java-1](/words/java/specify-rendering-options-when-converting-to-pdf/specify-rendering-options-when-converting-to-pdf-1.png)
 
-いつか **HeaderFooterBookmarksExportMode** 設定する [First](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#FIRST) ドキュメントには、オッズヘッダ/フッター、または別の最初のページヘッダ/フッター、ブックマークはセクションの最初のユニークなヘッダ/フッターにエクスポートされます。
+**HeaderFooterBookmarksExportMode**が[First](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#FIRST)に設定されていて、ドキュメントに偶数と奇数のヘッダー/フッター、または異なる最初のページのヘッダー/フッターがある場合、セクション内の最初の一意のヘッダー/フッターのブックマークがエクスポートされます。
 
-出力PDFで見出しをエクスポートすることもできます。 [HeadingsOutlineLevels](https://reference.aspose.com/words/java/com.aspose.words/outlineoptions/#getHeadingsOutlineLevels) 宿泊施設 このプロパティは、ドキュメントのアウトラインに含まれるヘッディングの数を指定します。
+[HeadingsOutlineLevels](https://reference.aspose.com/words/java/com.aspose.words/outlineoptions/#getHeadingsOutlineLevels)プロパティを使用して、出力PDFの見出しをエクスポートすることもできます。 このプロパティは、ドキュメントアウトラインに含まれる見出しのレベルの数を指定します。
 
-以下のコード例では、見出しを3つのレベルにエクスポートする方法を示します。
+次のコード例は、3つのレベルの見出しをエクスポートする方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-SaveToPdfWithOutline.java" >}}
 
-この例の出力PDFは以下のとおりです。
+この例の出力PDFを以下に示します:
 
 ![rendering-options-when-converting-to-pdf-aspose-words-java-2](/words/java/specify-rendering-options-when-converting-to-pdf/specify-rendering-options-when-converting-to-pdf-2.png)
 
 {{% alert color="primary" %}}
 
-ブックマークや見出しのナビゲーションは、さまざまなPDFビューアで異なる外観を持つ場合があります。 また、一部のアプリケーションでは、ブックマークや見出しのナビゲーションはUIでは利用できません。
+ブックマークまたは見出しナビゲーションは、さまざまなPDFビューアーで異なる外観を持つ場合があります。 さらに、一部のアプリケーションでは、UIでブックマークと見出しナビゲーションを使用できません。
 
 {{% /alert %}}
 
-## ドキュメントサイズを減らす画像のダウンサンプリング
+## ドキュメントサイズを縮小するための画像のダウンサンプリング
 
-Aspose.Words 出力PDFサイズを削減するために、サンプル画像をダウンサンプル化することができます。 [DownsampleOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getDownsampleOptions) プロパティ. ダウンサンプリングはデフォルトで有効になっています [DownsampleImages](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getDownsampleImages) プロパティ.
+Aspose.Wordsは、[DownsampleOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getDownsampleOptions)プロパティを使用して、出力PDFサイズを小さくするために画像をダウンサンプリングする機能を提供します。 ダウンサンプリングは、[DownsampleImages](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getDownsampleImages)プロパティで既定で有効になっています。
 
-特定の解像度を設定することもできます。 [Resolution](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getResolution) プロパティ、または解像度のしきい値 [ResolutionThreshold](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getResolutionThreshold) 宿泊施設 2番目のケースでは、画像の解像度が閾値未満の場合、ダウンサンプリングは適用されません。
+[Resolution](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getResolution)プロパティに特定の解像度を設定したり、[ResolutionThreshold](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getResolutionThreshold)プロパティに解像度のしきい値を設定したりすることもできます。 2番目のケースでは、画像の解像度がしきい値より小さい場合、ダウンサンプリングは適用されません。
 
-以下のコードは、出力PDF文書の画像の解像度を変更する方法を示します。
+次のコード例は、出力PDFドキュメント内の画像の解像度を変更する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-DownsamplingImages.java" >}}
 
-ページの実際の画像サイズに応じて、解像度を計算します。
+解像度は、ページ上の実際の画像サイズに応じて計算されます。
 
-## Adobe PDF形式のフォントの埋め込み
+## AdobePDF形式でフォントを埋め込む
 
-Aspose.Words また、フォントを結果のPDF文書に埋め込む方法を制御することができます。 フォントは、文書がどのマシンでも正しくレンダリングできることを確認するために、任意のAdobe PDF文書に埋め込む必要があります(セクションのフォントレンダリングの詳細については、を参照してください) [フォントの種類](/words/ja/java/using-truetype-fonts/))。 デフォルトでは、 Aspose.Words ドキュメントで使用されるフォントのサブセットを生成したPDFに埋め込む。 この場合、唯一の glyphドキュメントで使用されるs(文字)はPDFに保存されます。
+Aspose.Wordsを使用すると、結果のPDFドキュメントにフォントを埋め込む方法を制御することもできます。 フォントは、任意のマシンでドキュメントを正しくレンダリングできるようにするために、AdobePDFドキュメントに埋め込む必要があります(フォントレンダ [TrueTypeフォントの使用](/words/java/using-truetype-fonts/)). デフォルトでは、Aspose.Wordsはドキュメントで使用されるフォントのサブセットを生成されたPDFに埋め込みます。 この場合、文書で使用されているグリフ(文字)のみがPDFに保存されます。
 
-### フルフォントとサブセットを使用するとき
+### フルフォントを使用する場合とサブセット化する場合
 
-オプションを指定する方法があります Aspose.Words フルフォントを埋め込む。 詳細は、各設定のいくつかの利点と欠点とともに、以下の表に記載されています。
+完全なフォントを埋め込むためのAspose.Wordsのオプションを指定する方法があります。 さらなる詳細は、各設定のいくつかの利点および欠点とともに、以下の表に記載されている。
 
-| フォントモードを埋め込む |  メリット | 欠点 |
-|  :-  |  :-  |  :-  |
-|  `Full`  | テキストを追加または変更することにより、後で結果PDFを編集したい場合に便利です。 すべてのフォントが含まれているので、すべて glyphsは存在します。 | いくつかのフォントが大きいので (複数のメガバイト), サブセットなしでそれらを埋め込むことは、大きな出力ファイルにつながることができます. |
-|  `Subset`  | 出力ファイルサイズを小さくしたい場合は、サブセットが便利です。 | <p>ユーザーは、出力PDF文書のサブセットされたフォントを使用してテキストを完全に追加または編集することはできません。 これは、すべてではないので glyphフォントの s が存在します。</p>
+| 埋め込みフォントモード | 利点 | デメリット |
+| :- | :- | :- |
+| `Full` | テキストを追加または変更して、結果のPDFを後で編集する場合に便利です。 すべてのフォントが含まれているため、すべてのグリフが存在します。 | 一部のフォントは大きい(数メガバイト)ため、サブセットなしで埋め込むと、出力ファイルが大きくなる可能性があります。 |
+| `Subset` | サブセットは、出力ファイルのサイズを小さくしたい場合に便利です。 | <p>ユーザーは、出力PDFドキュメント内のサブセットされたフォントを使用してテキストを完全に追加または編集することはできません。 これは、フォントのすべてのグリフが存在するわけではないためです。</p><p>複数のPDFsがサブセットされたフォントで保存され、一緒に組み立てられた場合、結合されたPDF文書には多くの不要なサブセットを含むフォントが含まれている可能性があります。</p> |
 
-<p>複数の PDF がサブセットされたフォントで保存され、一緒に組み立てられた場合、結合された PDF ドキュメントには、不要なサブセットを含むフォントが含まれている場合があります。</p>
- |
+### PDFにフルフォントを埋め込む
 
-### PDFでフルフォントを埋め込む
+[EmbedFullFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getEmbedFullFonts)プロパティを使用すると、Aspose.Wordsが出力PDFドキュメントにフォントを埋め込む方法を指定できます。
 
-ザ・オブ・ザ・ [EmbedFullFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getEmbedFullFonts) プロパティを使用すると、どのように指定するかを指定できます Aspose.Words フォントを出力PDFドキュメントに埋め込む。
+- 出力PDFドキュメントに完全なフォントを埋め込むには、**EmbedFullFonts**をtrueに設定します
+- PDFに保存するときにフォントをサブセット化するには、**EmbedFullFonts**をfalseに設定します
 
-- - - 完全なフォントを出力PDF文書に埋め込むには、設定 **EmbedFullFonts** お問い合わせ true
-- - - PDFに保存するときにフォントをサブセットするには、設定 **EmbedFullFonts** お問い合わせ false
-
-次の例では、出力PDF文書にフルフォントを埋め込む方法を示します。
+次の例は、出力PDFドキュメントに完全なフォントを埋め込む方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-EmbeddedFontsInPDF-EmbeddAllFonts.java" >}}
 
-次の例では、設定方法を示します Aspose.Words 出力PDFのフォントをサブセットするには:
+次の例では、出力PDFのフォントをサブセット化するためにAspose.Wordsを設定する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-EmbeddedFontsInPDF-EmbeddSubsetFonts.java" >}}
 
 {{% alert color="primary" %}}
 
-これらの例のテンプレートファイルをダウンロードできます [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx)お問い合わせ
+これらの例のテンプレートファイルは、次の場所からダウンロードできます [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-## エンベディングコアフォントと Windows スタンダードフォント
+## コアフォントとWindows標準フォントの埋め込みを制御する方法
 
-コアフォントと Windows 標準フォントは、通常、ターゲットマシンに存在するフォントの「標準」セットまたはドキュメントリーダーによって提供されているフォントです。したがって、出力PDFに埋め込む必要はありません。 これらのフォントを埋め込むことで、レンダリングされたPDF文書のサイズを減らし、移植性を維持することができます。
+コアフォントとWindows標準フォントは"標準"フォントのセットであり、通常はターゲットマシン上に存在するか、ドキュメントリーダーによって提供されるため、出力PDFに埋め込む必要はありません。 これらのフォントを埋め込んでいないことで、レンダリングされたPDFドキュメントのサイズを小さくし、移植性を維持できます。
 
-Aspose.Words フォントをPDFにエクスポートする方法を選択するオプションを提供します。 コアフォントと標準フォントを出力PDFに埋め込むか、埋め込むのをスキップして、ターゲットマシンの標準的なコアPDFフォントまたはシステムフォントを使用するかを選択できます。 これらのオプションのいずれかを使用して、通常、生成されたPDF文書の重要なファイルサイズの縮小が結果的に表示されます。 Aspose.Wordsお問い合わせ
+Aspose.Words には、フォントを PDF にエクスポートする方法を選択するオプションがあります。出力 PDF にコア フォントと標準フォントを埋め込むか、埋め込みをスキップして代わりにターゲット マシン上の標準コア PDF フォントまたはシステム フォントを使用するかを選択できます。これらのオプションのいずれかを使用すると、通常、Aspose.Words によって生成される PDF ドキュメントのファイル サイズが大幅に削減されます。
 
-- これらのオプションは相互に排他的であるため、一度だけ選択する必要があります。
-- PDF/A-1 準拠で保存する場合は、すべてのフォントをPDF文書に埋め込む必要があります。 これを遵守することで、 [UseCoreFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getUseCoreFonts) プロパティは、 false そして、 [FontEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getFontEmbeddingMode) プロパティは、 [EmbedAll](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode#EMBED_ALL)[.](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usecorefonts/)
+- これらのオプションは相互に排他的であるため、一度に1つだけ選択する必要があります。
+- PDF/A-1準拠で保存する場合は、使用されるすべてのフォントをPDFドキュメントに埋め込む必要があります。 この準拠で保存する場合は、[UseCoreFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getUseCoreFonts)プロパティをfalseに設定し、[FontEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getFontEmbeddingMode)プロパティを[EmbedAll](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode#EMBED_ALL)[.](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usecorefonts/)に設定する必要があります
 
-### コアフォントを埋め込む
+### コアフォントの埋め込み
 
-コアフォントを埋め込むオプションは、使用することで有効または無効にすることができます。 [UseCoreFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getUseCoreFonts) プロパティ. 設定した時 true, 最も人気のある「True Type」フォント(ベース14フォント)は、出力PDF文書には埋め込まれていません。
+コアフォントを埋め込むオプションは、[UseCoreFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getUseCoreFonts)プロパティを使用して有効または無効にできます。 Trueに設定されている場合、次の最も一般的な"True Type"フォント(ベース14フォント)は出力PDFドキュメントに埋め込まれません:
 
 - `Arial`
 - `Times New Roman`
 - `Courier New`
 - `Symbol`
 
-これらのフォントは、PDFが開いているときに読者が提供されている対応するコアタイプ1フォントに置き換えられます。
+これらのフォントは、PDFが開かれたときにリーダーによって提供される対応するコアタイプ1フォントに置き換えられます。
 
-以下に示す例は、設定方法を示しています Aspose.Words コアフォントを埋め込むことを避け、読者にPDFを代入するようにして下さい タイプ1の壷:
+以下に示す例は、コアフォントの埋め込みを回避し、読者がそれらをPDFタイプ1フォントで置き換えるようにAspose.Wordsを設定する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-EmbeddedFontsInPDF-AvoidEmbeddingCoreFonts.java" >}}
 
 {{% alert color="primary" %}}
 
-この例のテンプレートファイルをダウンロードできます。 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx)お問い合わせ
+この例のテンプレートファイルは、次の場所からダウンロードできます [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-PDFビューアーは、サポートされているプラットフォームでコアフォントを提供しているため、より大きなドキュメントポータビリティが必要な場合でもこのオプションも便利です。 ただし、コアフォントはシステムフォントとは異なる場合があります。
+PDFビューアはサポートされている任意のプラットフォームでコアフォントを提供するため、このオプションはドキュメントの移植性を高める必要がある場合にも役立ちます。 ただし、コアフォントはシステムフォントとは異なる場合があります。
 
 {{% alert color="primary" %}}
 
-この設定はANSIのみで動作します。Windows-1252) エンコーディングテキスト。 ANSI 以外のテキストを PDF に書き込むには、対応するフォントを埋め込む必要があります。
+この設定はANSI(Windows-1252)エンコーディングテキストに対してのみ機能します。 ANSI以外のテキストをPDFに書き込むには、常に対応するフォントを埋め込む必要があります。
 
 {{% /alert %}}
 
 ### システムフォントの埋め込み
 
-このオプションは、使用することで有効または無効にすることができます。 [FontEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getFontEmbeddingMode) プロパティ. このプロパティが設定されている場合 [EmbedNonstandard](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode/#EMBED-NONSTANDARD), 「アーリアル」と「タイムス・ニュー・ローマ」 true フォントをPDF文書に埋め込むことはできません。 この場合、クライアントビューアはクライアントオペレーティングシステムにインストールされているフォントに依存します。 いつか **FontEmbeddingMode** プロパティは、 [EmbedNone](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode/#EMBED-NONE), Aspose.Words フォントを埋め込むことはありません。
+このオプションは[FontEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getFontEmbeddingMode)プロパティを使用して有効または無効にすることができます。 このプロパティが[EmbedNonstandard](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode/#EMBED-NONSTANDARD)に設定されている場合、"Arial"および"Times New Roman"true typeフォントはPDFドキュメントに埋め込まれません。 この場合、クライアントビューアはクライアントオペレーティングシステムにインストールされているフォントに依存します。 **FontEmbeddingMode**プロパティが[EmbedNone](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode/#EMBED-NONE)に設定されている場合、Aspose.Wordsはフォントを埋め込みません。
 
-以下の例では、設定方法を示します Aspose.Words Arial と Times New Roman フォントを PDF ドキュメントに埋め込むのをスキップするには:
+以下の例は、Aspose.Wordsを設定してArialフォントとTimes New RomanフォントをPDF文書に埋め込むのをスキップする方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-EmbeddedFontsInPDF-SetFontEmbeddingMode.java" >}}
 
-このモードは、出力PDFのフォントの正確な外観を保存し、同じプラットフォームでドキュメントを表示したい場合に最も便利です。
+このモードは、出力PDF内のフォントの正確な外観を維持しながら、同じプラットフォーム上でドキュメントを表示する場合に最も便利です。
 
 {{% alert color="primary" %}}
 
-この設定はANSIのみで動作します。Windows-1252) エンコーディングテキスト。 ANSI 以外のテキストを PDF に書き込むには、対応するフォントを埋め込む必要があります。
+この設定はANSI(Windows-1252)エンコーディングテキストに対してのみ機能します。 ANSI以外のテキストをPDFに書き込むには、対応するフォントを埋め込む必要があります。
 
 {{% /alert %}}

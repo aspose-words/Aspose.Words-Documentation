@@ -7,6 +7,7 @@ type: docs
 description: "تحويل مستند إلى تنسيق صورة (JPG، PNG، إلخ). قم بإنشاء معاينة للمستند أو قم بإجراء مسح ضوئي للمستند لإرسال فاتورة باستخدام Python."
 weight: 43
 url: /ar/python-net/convert-a-document-to-an-image/
+timestamp: 2024-01-27-14-07-04
 ---
 
 في بعض الأحيان يكون من الضروري الحصول على صورة بدلاً من المستندات بتنسيقات أخرى، مثل DOCX أو PDF. على سبيل المثال، تحتاج إلى إضافة معاينة لأي صفحة مستند إلى موقع الويب أو التطبيق الخاص بك، أو إنشاء "مسح ضوئي" لمستند لإرسال فاتورة. هذا هو الوقت الذي قد تحتاج فيه إلى تحويل مستند في أي [تنسيق التحميل المدعوم](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) إلى صورة، مرة أخرى، في أي [تنسيق الحفظ المدعوم](https://reference.aspose.com/words/python-net/aspose.words/saveformat/).

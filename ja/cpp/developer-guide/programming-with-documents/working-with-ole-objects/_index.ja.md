@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのOLEオブジェクトの操作
 second_title: C++の場合Aspose.Words
 articleTitle: OLEオブジェクトの操作
@@ -7,6 +7,7 @@ description: "C++を使用して、ドキュメント内のOLE埋め込みを作
 type: docs
 weight: 360
 url: /ja/cpp/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE(Object Linking and Embedding)は、ユーザーがサードパーティのアプリケーションによって作成または編集された"オブジェクト"を含む文書を操作できる技術です。 つまり、OLEでは、編集アプリケーションがこれらの"オブジェクト"を別の編集アプリケーションにエクスポートし、追加のコンテンツと一緒にインポー

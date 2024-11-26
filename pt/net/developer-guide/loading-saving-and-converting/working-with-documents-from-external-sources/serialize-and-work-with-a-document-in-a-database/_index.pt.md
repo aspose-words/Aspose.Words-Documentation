@@ -7,6 +7,7 @@ description: "Converta um documento em uma matriz de bytes para trabalhar com es
 type: docs
 weight: 10
 url: /pt/net/serialize-and-work-with-a-document-in-a-database/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Uma das tarefas que você pode precisar realizar ao trabalhar com documentos é armazenar e recuperar objetos **Document** de e para um banco de dados. Por exemplo, isso seria necessário se você estivesse implementando qualquer tipo de sistema de gerenciamento de conteúdo. Todas as versões anteriores dos documentos devem ser armazenadas no sistema de banco de dados. A capacidade de armazenar documentos no banco de dados também é extremamente útil quando seu aplicativo fornece um serviço baseado na web.

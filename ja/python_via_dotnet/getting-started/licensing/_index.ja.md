@@ -7,6 +7,7 @@ description: "Aspose.Words for Python via .NET は、さまざまな購入プラ
 type: docs
 weight: 40
 url: /ja/python-net/licensing/
+timestamp: 2024-01-31-14-23-37
 ---
 
 システムをよりよく研究するために、できるだけ早くコードを詳しく調べたい場合があります。これを容易にするために、Aspose.Words ではさまざまな購入プランを提供したり、評価用の無料トライアルと 30 日間の一時ライセンスを提供したりできます。

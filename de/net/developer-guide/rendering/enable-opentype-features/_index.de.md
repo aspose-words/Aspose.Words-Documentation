@@ -7,6 +7,7 @@ description: "Erweiterte Typografiefunktionen mit C#."
 type: docs
 weight: 25
 url: /de/net/enable-opentype-features/
+timestamp: 2024-07-10-14-38-57
 ---
 
 OpenType ist ein Schriftformat, das eingeführt wurde, um im Vergleich zu PostScript und TrueType eine bessere Unterstützung für internationale Sprachen und Schriftsysteme zu bieten. Die Layoutfunktionen von OpenType werden allgemein als OpenType-Funktionen bezeichnet. Das Paket Aspose.Words.Shaping.HarfBuzz bietet Unterstützung für OpenType-Funktionen in Aspose.Words mithilfe der HarfBuzz-Textformungs-Engine.

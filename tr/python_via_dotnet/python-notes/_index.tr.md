@@ -7,6 +7,7 @@ description: "Python via .NET için Aspose.Words, .NET için Aspose.Words'in bir
 type: docs
 weight: 15
 url: /tr/python-net/python-notes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Python via .NET için Aspose.Words, .NET için Aspose.Words'in bir sarmalayıcısıdır; bu nedenle iki ürün neredeyse aynı özelliklere sahiptir. Bununla birlikte, bu sayfada açıklanan özelliklerde ve API'de bazı çalışma nüansları ve farklılıklar vardır.

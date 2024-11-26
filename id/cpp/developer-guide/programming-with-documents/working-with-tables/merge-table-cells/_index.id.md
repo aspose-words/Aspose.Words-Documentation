@@ -1,4 +1,4 @@
-﻿---
+---
 title: Gabungkan Sel Tabel di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Gabungkan Sel Tabel
@@ -7,6 +7,7 @@ description: "Cara menggabungkan sel tabel di C++. Periksa apakah sel dalam tabe
 type: docs
 weight: 40
 url: /id/cpp/merge-table-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Terkadang baris tertentu dalam tabel memerlukan judul atau blok teks besar yang menempati seluruh lebar tabel. Untuk desain tabel yang tepat, pengguna dapat menggabungkan beberapa sel tabel menjadi satu. Aspose.Words mendukung sel gabungan saat bekerja dengan semua format input, termasuk mengimpor konten HTML.

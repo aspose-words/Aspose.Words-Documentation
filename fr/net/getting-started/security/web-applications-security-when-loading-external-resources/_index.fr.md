@@ -7,6 +7,7 @@ type: docs
 description: "Charger des ressources distantes, cela peut être une raison de risques de sécurité. Jetez un œil aux problèmes de sécurité courants et à leurs solutions à l’aide de C#."
 weight: 100
 url: /fr/net/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Par défaut, Aspose.Words pour .NET peut charger des ressources distantes telles que des images, des styles CSS ou des documents HTML externes lors de l'importation de documents ou de l'insertion d'images à l'aide de DocumentBuilder. Ce comportement vous permet de traiter vos documents dans tous les détails mais peut être à l'origine de certains risques de sécurité si la bibliothèque fait partie d'une application Web.

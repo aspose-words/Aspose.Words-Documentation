@@ -1,34 +1,35 @@
----
-title: แปลงเอกสารเป็นอิมเมจ Java
-second_title: Aspose.Words สําหรับ Java
-articleTitle: แปลงเอกสารเป็นอิมเมจ
-linktitle: แปลงเอกสารเป็นอิมเมจ
+﻿---
+title: แปลงเอกสารเป็นรูปภาพในJava
+second_title: Aspose.WordsสำหรับJava
+articleTitle: แปลงเอกสารเป็นรูปภาพ
+linktitle: แปลงเอกสารเป็นรูปภาพ
 type: docs
-description: "แปลงเอกสารเป็นรูปแบบอิมเมจ (JPG, PNG เป็นต้น) สร้างเอกสารแสดงตัวอย่าง หรือสร้างเอกสารที่สแกน เพื่อทําการส่งออกเสียงโดยใช้ Java."
+description: "แปลงเอกสารเป็นรูปแบบรูปภาพ(JPG,PNG,ฯลฯ) สร้างตัวอย่างเอกสารหรือสร้างเอกสารสแกนเพื่อส่งใบแจ้งหนี้โดยใช้Java."
 weight: 35
 url: /th/java/convert-a-document-to-an-image/
+timestamp: 2024-01-27-14-07-04
 ---
 
-บางครั้งต้องใช้ภาพแทนเอกสารในรูปแบบอื่น เช่น DCX หรือ PDF ตัวอย่างเช่น คุณต้องเพิ่มการแสดงตัวอย่างหน้าเอกสารใด ๆ ในเว็บไซต์ หรือโปรแกรมของคุณ หรือสร้าง "scan" ของเอกสารเพื่อส่งข้อความ นี่เป็นเมื่อคุณอาจต้องแปลงเอกสารใด ๆ [รูปแบบการโหลดที่รองรับ](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) ไปยังภาพ ในทุกๆ ครั้ง [รูปแบบการบันทึกที่รองรับ](https://reference.aspose.com/words/java/com.aspose.words/saveformat/).
+บางครั้งก็จะต้องได้รับภาพแทนเอกสารในรูปแบบอื่นๆเช่นDOCXหรือPDF ตัวอย่างเช่นคุณต้องเพิ่มตัวอย่างของหน้าเอกสารใดๆในเว็บไซต์หรือแอปพลิเคชันของคุณหรือสร้าง"สแกน"ของเอกสารเพื่อส่งใบแจ้งหนี้ นี่คือเมื่อคุณอาจจำเป็นต้องแปลงเอกสารใน[รูปแบบการโหลดที่รองรับ](https://reference.aspose.com/words/java/com.aspose.words/loadformat/)เป็นรูปภาพอีกครั้งใน[รองรับรูปแบบการบันทึก](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)ใดๆ.
 
-## แปลงเป็นรูปแบบอิมเมจ
+## แปลงเป็นรูปแบบภาพ
 
-จากตัวอย่างการแปลงทั้งหมดที่ได้อธิบายมาแล้ว คุณต้องสร้างเอกสารใหม่ หรือโหลดในรูปแบบใด ๆ ที่รองรับอยู่ ให้ทําการเปลี่ยนแปลงที่จําเป็น และบันทึกมันในรูปแบบภาพต่าง ๆ เช่น JPEG, PNG หรือ BMP
+เช่นเดียวกับตัวอย่างการแปลงทั้งหมดที่อธิบายไว้แล้วคุณต้องสร้างเอกสารใหม่หรือโหลดเอกสารที่มีอยู่ในรูปแบบที่รองรับทำการเปลี่ยนแปลงที่จำเป็นและบันทึกในรูปแบบรูปภาพที่มีอยู่เช่นJPEG,PNGหรือBMP.
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแปลง DOCX เป็น JPEG:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแปลงDOCXเป็นJPEG:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToImage-ConvertDocxToJpeg.java" >}}
 
-## กําหนดตัวเลือกต่าง ๆ เมื่อมีการแปลงภาพ
+## ระบุตัวเลือกการบันทึกเมื่อแปลงเป็นรูปภาพ
 
-Aspose.Words ให้คุณกับ [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) คลาสซึ่งให้การควบคุมมากขึ้นว่าเอกสารถูกบันทึกในรูปแบบต่าง ๆ อย่างไร คุณสมบัติบางอย่างของคลาสนี้ ที่เป็นมรดกหรือเกินขนาดของคลาสพื้นฐานเช่น [FixedPageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/) หรือ [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/), แต่ยังมีตัวเลือกที่เจาะจงในการบันทึกภาพ
+Aspose.Wordsให้คุณมี[ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/)ชั้นซึ่งจะช่วยให้การควบคุมมากขึ้นกว่าวิธีการที่เอกสารจะถูกบันทึกไว้ในรูปแบบ คุณสมบัติบางประเภทของคลาสนี้สืบทอดหรือคุณสมบัติเกินพิกัดของคลาสพื้นฐานเช่น[FixedPageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/)หรือ[SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/)แต่.
 
-เป็น ไป ได้ ที่ จะ ระบุ หน้า ต่าง ๆ เพื่อ แปลง เป็น รูป ภาพ โดย ใช้ รูป ภาพ [PageSet](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getPageSet) ทรัพย์สิน ตัว อย่าง เช่น อาจ นํา มา ใช้ ได้ หาก คุณ ต้องการ เพียง แค่ การ ดู ภาพ สําหรับ หน้า แรก หรือ หน้า ใด หน้า หนึ่ง โดย เฉพาะ.
+คุณสามารถระบุหน้าที่จะแปลงเป็นรูปแบบรูปภาพโดยใช้คุณสมบัติ[PageSet](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getPageSet) ตัวอย่างเช่นมันสามารถนำมาใช้ถ้าคุณต้องการเพียงตัวอย่างสำหรับครั้งแรกหรือสำหรับห.
 
-เป็น ไป ได้ ด้วย ที่ จะ ควบคุม คุณภาพ และ พิกเซล ของ ภาพ โดย ใช้ คุณสมบัติ ต่อ ไป นี้ - [HorizontalResolution](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getHorizontalResolution), [VerticalResolution](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getVerticalResolution), [Resolution](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/), [Scale](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getScale), [PixelFormat](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getPixelFormat), ปรับตั้งค่าสีของภาพด้วย โดยใช้คุณสมบัติต่อไปนี้ - [ImageBrightness](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getImageBrightness), [ImageColorMode](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getImageColorMode), [ImageContrast](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getImageContrast), [PaperColor](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getPaperColor).
+นอกจากนี้ยังเป็นไปได้ที่จะควบคุมคุณภาพของภาพที่ส่งออกและรูปแบบพิกเซลโดยใช้คุณสมบั– [HorizontalResolution](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getHorizontalResolution), [VerticalResolution](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getVerticalResolution), [Resolution](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/), [Scale](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getScale), [PixelFormat](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getPixelFormat), เช่นเดียวกับการตั้งค่าการตั้งค่าสีของภาพโดยใช้คุณสมบัติต่อไปนี้– [ImageBrightness](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getImageBrightness), [ImageColorMode](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getImageColorMode), [ImageContrast](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getImageContrast), [PaperColor](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getPaperColor).
 
-นอกจากนี้ยังมีคุณสมบัติที่นําไปใช้ในรูปแบบบางอย่าง ตัวอย่างเช่น [JpegQuality](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getJpegQuality) หรือ [TiffCompression](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getTiffCompression).
+นอกจากนี้ยังมีคุณสมบัติที่ใช้กับรูปแบบบางอย่างเช่น[JpegQuality](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getJpegQuality)หรือ[TiffCompression](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getTiffCompression).
 
-ตัวอย่างโค้ดต่อไปนี้ จะแสดงวิธีสร้างภาพตัวอย่างของหน้าเอกสารแรก โดยปรับใช้การตั้งค่าเพิ่มเติม:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการสร้างตัวอย่างของหน้าเอกสารแรกกับการใช้การตั้งค่าเ:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToImage-ConvertDocumentToImage.java" >}}

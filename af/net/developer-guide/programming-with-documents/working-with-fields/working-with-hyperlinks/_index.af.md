@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Hiperskakels in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Voeg By Of Verander Hiperskakels
@@ -7,6 +7,7 @@ description: "Hoe om'n hiperskakel by jou dokument in C# te voeg met behulp van 
 type: docs
 weight: 50
 url: /af/net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 'n hiperskakel in Microsoft Word dokumente is die `HYPERLINK` veld. In Aspose.Words word hiperskakels geïmplementeer deur die [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) klas.

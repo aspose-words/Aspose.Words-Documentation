@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET może znaleźć odpowiednią czcionkę lub o
 type: docs
 weight: 20
 url: /pl/net/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Podczas pracy z dokumentami często trzeba używać różnych czcionek, stylów i rozmiarów. Dokumenty mogą zawierać dowolną liczbę czcionek, która nie musi ograniczać się do czcionek zainstalowanych w systemie operacyjnym. Czcionki mogą być zupełnie inne, np. czcionki zaczerpnięte z innych systemów operacyjnych, zakupione lub stworzone przez samych użytkowników.

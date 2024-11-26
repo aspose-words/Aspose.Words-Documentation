@@ -1,4 +1,4 @@
-﻿---
+---
 title: Gebruik TrueType Lettertipes in C++
 second_title: Aspose.Words vir C++
 articleTitle: Gebruik TrueType Lettertipes
@@ -7,6 +7,7 @@ description: "Aspose.Words vir C++ kan die regte lettertipe of die geskikte plaa
 type: docs
 weight: 20
 url: /af/cpp/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Wanneer jy met dokumente werk, moet jy dikwels verskillende lettertipes, style en groottes gebruik. Dokumente kan enige aantal lettertipes bevat, wat nie noodwendig beperk is tot die lettertipes wat in die bedryfstelsel geïnstalleer is nie. Die lettertipes kan heeltemal anders wees, soos lettertipes wat van ander bedryfstelsels geneem is, gekoop is of deur gebruikers self geskep is.

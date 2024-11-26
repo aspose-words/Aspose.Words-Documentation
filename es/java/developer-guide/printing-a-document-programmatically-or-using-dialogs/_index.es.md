@@ -1,35 +1,36 @@
----
-title: Imprimir un documento
-second_title: Aspose.Words para Java
-articleTitle: Imprimir un documento Programmatically or Using Dialogs
-linktitle: Imprimir un documento Programmatically or Using Dialogs
-description: "Imprimir un documento usando Java a través de Ajustes, Vista previa de impresión y Imprimir diálogos de progreso."
+﻿---
+title: Imprimir un Documento
+second_title: Aspose.Words por Java
+articleTitle: Imprimir un Documento mediante Programación o mediante Diálogos
+linktitle: Imprimir un Documento mediante Programación o mediante Diálogos
+description: "Imprima un documento con Java a través de los cuadros de diálogo Configuración, Vista previa de impresión y Progreso de impresión."
 type: docs
 weight: 55
 url: /es/java/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Este artículo describe cómo imprimir un documento de procesamiento de palabras utilizando Aspose.Words API. También demuestra los métodos de imprimir un documento con diálogos de configuración, vista previa de impresión e impresión.
+En este artículo se describe cómo imprimir un documento de procesamiento de texto con Aspose.Words API. También muestra los métodos para imprimir un documento con los cuadros de diálogo Configuración, Vista previa de impresión y progreso de impresión.
 
-## Impresión de un documento con configuraciones y diagramas de vista previa
+## Imprimir un documento con los diálogos de Configuración y Vista Previa de Impresión
 
-Al trabajar con documentos, a menudo se requiere imprimirlos a una impresora seleccionada. Es útil utilizar un diálogo de presentación de impresión para inspeccionar visualmente cómo aparecerá el documento impreso y elegir las opciones de impresión pertinentes.
+Cuando se trabaja con documentos, a menudo es necesario imprimirlos en una impresora seleccionada. Es útil utilizar un cuadro de diálogo de vista previa de impresión para inspeccionar visualmente cómo aparecerá el documento impreso y elegir las opciones de impresión relevantes.
 
-El Aspose.Words no tiene diálogos o formas incorporados pero implementa los [AsposeWordsPrintDocument](https://reference.aspose.com/words/java/com.aspose.words/asposewordsprintdocument/) clase anula ambos java.awt.print. Imprimible y java.awt.print. Paginable.
+El Aspose.Words no tiene diálogos ni formularios integrados, pero implementa la clase [AsposeWordsPrintDocument](https://reference.aspose.com/words/java/com.aspose.words/asposewordsprintdocument/) anula ambos java.awt.imprimir.Imprimible y java.awt.imprimir.Pagable.
 
-El siguiente ejemplo muestra cómo utilizar estas clases para imprimir un documento desde Aspose.Words a través de los diálogos Imprimir vista previa y configuración:
+El siguiente ejemplo muestra cómo usar estas clases para imprimir un documento desde Aspose.Words a través de los cuadros de diálogo Vista previa de impresión y Configuración:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-DocumentPreviewAndPrint-PrintDialog.java" >}}
 
 {{% alert color="primary" %}} You can download an example of using the **PrintPreviewDialog** class from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/DocsExamples/Java/src/main/java/DocsExamples/Rendering_and_printing/PrintDocuments.java). {{% /alert %}}
 
-## Imprimir múltiples páginas en una hoja
+## Impresión de Varias Páginas en Una Hoja
 
-Aspose.Words aplica los **MultipagePrintDocument** clase, para ajustar la operación de impresión para implementar su lógica personalizada definiendo la forma en que aparecerá el documento en la página impresa. El **MultipagePrintDocument** clase proporciona la capacidad de imprimir varias páginas en una hoja de papel.
+Aspose.Words implementa la clase **MultipagePrintDocument**, para ajustar la operación de impresión para implementar su lógica personalizada definiendo la forma en que aparecerá el documento en la página impresa. La clase **MultipagePrintDocument** proporciona la capacidad de imprimir varias páginas en una hoja de papel.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-MultiplePagesOnSheet-MultiplePagesOnSheet.java" >}}
 
-Puede descargar un ejemplo de uso del **MultipagePrintDocument** clase de [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/c693ec7a8957051c206edc69612094a4169f6def/Examples/DocsExamples/Java/src/main/java/DocsExamples/Rendering_and_printing/PrintDocuments.java#L46)
+Puede descargar un ejemplo del uso de la clase **MultipagePrintDocument** en [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/c693ec7a8957051c206edc69612094a4169f6def/Examples/DocsExamples/Java/src/main/java/DocsExamples/Rendering_and_printing/PrintDocuments.java#L46).
 
 El resultado de este ejemplo de código se muestra a continuación:
 

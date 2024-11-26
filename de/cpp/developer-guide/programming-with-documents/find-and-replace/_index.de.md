@@ -1,4 +1,4 @@
-﻿---
+---
 title: Suchen und Ersetzen in C++
 second_title: Aspose.Words für C++
 articleTitle: Suchen und Ersetzen
@@ -7,6 +7,7 @@ type: docs
 description: "Suchen Sie eine Zeichenfolge oder ein Muster für reguläre Ausdrücke in Ihrem Dokument und ersetzen Sie es mit C++ durch den gewünschten Text."
 weight: 100
 url: /de/cpp/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sie können einfach mit Tastatur und Maus in Ihrem Dokument navigieren, aber wenn Sie viele Seiten zum Scrollen haben, dauert es eine Weile, bis Sie bestimmten Text in einem langen Dokument finden. Es wird zeitaufwändiger, wenn Sie bestimmte Zeichen oder Wörter ersetzen möchten, die Sie in Ihrem Dokument verwendet haben. Die Funktion "Suchen und Ersetzen" ermöglicht es Ihnen, eine Zeichenfolge in einem Dokument zu finden und durch eine andere Zeichenfolge zu ersetzen.

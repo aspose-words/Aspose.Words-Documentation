@@ -7,6 +7,7 @@ description: "Podziel tabelę w Python. Jak podzielić jedną tabelę na dwie od
 type: docs
 weight: 100
 url: /pl/python-net/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tabela reprezentowana w formacie Aspose.Words Document Object Model składa się z niezależnych wierszy i komórek, co ułatwia dzielenie tabeli.

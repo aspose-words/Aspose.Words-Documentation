@@ -7,6 +7,7 @@ type: docs
 description: "使用文档构建器插入文档元素 Java。 。 。 。"
 weight: 10
 url: /zh/java/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 那个 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) 用于修改文档。 本条解释并描述了如何完成一些任务.
@@ -152,7 +153,7 @@ url: /zh/java/use-documentbuilder-to-insert-document-elements/
 
 ## 插入 HTML
 
-您可以在 Word 文档中轻松插入包含 HTML 片段或整个 HTML 文档的 HTML 字符串。 把这个字符串传递给文档构建器 。 插入 Html方法 (英语). 方法的有用执行之一是将 HTML 字符串存储在数据库中,并在文档中插入 mail merge 要添加格式化的内容,而不是使用文档构建器的各种方法来构建。 以下代码示例显示使用文档构建器将 HTML 插入到文档中.
+您可以在 Word 文档中轻松插入包含 HTML 片段或整个 HTML 文档的 HTML 字符串。 把这个字符串传递给文档构建器 。 插入 Html方法 (英语). 方法的有用执行之一是将 HTML 字符串存储在数据库中,并在文档中插入 Mail Merge 要添加格式化的内容,而不是使用文档构建器的各种方法来构建。 以下代码示例显示使用文档构建器将 HTML 插入到文档中.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHtml-DocumentBuilderInsertHtml.java" >}}
 

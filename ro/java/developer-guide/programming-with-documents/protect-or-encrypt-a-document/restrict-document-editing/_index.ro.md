@@ -1,4 +1,4 @@
-﻿---
+---
 title: Restricționați editarea documentelor în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Restricționați Editarea Documentelor
@@ -7,6 +7,7 @@ description: "Restricționați editarea unui document prin setarea unui tip de r
 type: docs
 weight: 30
 url: /ro/java/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uneori poate fi necesar să limitați capacitatea de a edita un document și să permiteți doar anumite acțiuni cu acesta. Acest lucru poate fi util pentru a împiedica alte persoane să editeze informații sensibile și confidențiale din documentul dvs.

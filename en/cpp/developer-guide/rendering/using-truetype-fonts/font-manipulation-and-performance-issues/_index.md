@@ -7,6 +7,7 @@ description: "Aspose.Words for C++ uses font full name, family name, version, st
 type: docs
 weight: 11
 url: /cpp/font-manipulation-and-performance-issues/
+timestamp: 2024-09-24-14-35-44
 ---
 
 All available font manipulation mechanisms are contained in the [FontSettings](https://reference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings) class. This class is responsible for fetching fonts within defined font sources as well as for the Font Substitution process, as described below.

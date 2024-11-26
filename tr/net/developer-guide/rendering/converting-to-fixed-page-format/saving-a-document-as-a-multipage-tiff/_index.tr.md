@@ -7,6 +7,7 @@ description: "C#'i kullanarak bir belgeyi çok sayfalı TIFF'e dönüştürün. 
 type: docs
 weight: 30
 url: /tr/net/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Belgelerle çalışırken, genellikle belgenizi taramalı görüntü dosyalarına dönüştürmeniz gerekir. Bu, özellikle belgenizi okunabilir ve yazdırılabilir ancak düzenlenemeyen bir biçimde sunmanız gerekiyorsa geçerlidir. Örneğin, belgenizin ilk sayfasının taramalı görüntüsünü önizleme olarak kullanabilirsiniz. Bu makalede, en popüler görüntü formatlarından biri olan TIFF biçimi örneğini kullanarak bir belgenin taramalı görüntüye nasıl dönüştürüleceği açıklanmaktadır.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit Stilen in C++
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit Stilen
@@ -7,6 +7,7 @@ description: "Erweiterte Microsoft Word Formatierungsfunktionen, Arbeiten mit St
 type: docs
 weight: 110
 url: /de/cpp/working-with-styles-and-themes/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Die Klasse [StyleCollection](https://reference.aspose.com/words/cpp/aspose.words/stylecollection/) wird verwendet, um integrierte Einstellungen zu verwalten und benutzerdefinierte Einstellungen auf Stile anzuwenden.
@@ -33,7 +34,7 @@ In diesem Beispieldokument ist der mit dem Absatzstil 'Überschrift 1' formatier
 
 ### Codes
 
-Die Implementierung einer stilbasierten Abfrage ist im Aspose.Words -Dokumentobjektmodell recht einfach, da lediglich bereits vorhandene Tools verwendet werden. Für diese Lösung sind zwei Klassenmethoden implementiert: # **ParagraphsByStyleName** - Diese Methode ruft ein Array der Absätze im Dokument ab, die einen bestimmten Stilnamen haben.# **RunsByStyleName** - Diese Methode ruft ein Array der Ausführungen im Dokument ab, die einen bestimmten Stilnamen haben. Beide Methoden sind sehr ähnlich, die einzigen Unterschiede bestehen in den Knotentypen und der Darstellung der Stilinformationen innerhalb der Absatz- und Laufknoten. Hier ist eine Implementierung von ParagraphsByStyleName. Im folgenden Beispiel finden Sie alle Absätze, die mit dem angegebenen Stil formatiert sind.
+Die Implementierung einer stilbasierten Abfrage ist im Aspose.Words -Dokumentobjektmodell recht einfach, da lediglich bereits vorhandene Tools verwendet werden. Für diese Lösung sind zwei Klassenmethoden implementiert: **ParagraphsByStyleName** - Diese Methode ruft ein Array der Absätze im Dokument ab, die einen bestimmten Stilnamen haben. **RunsByStyleName** - Diese Methode ruft ein Array der Ausführungen im Dokument ab, die einen bestimmten Stilnamen haben. Beide Methoden sind sehr ähnlich, die einzigen Unterschiede bestehen in den Knotentypen und der Darstellung der Stilinformationen innerhalb der Absatz- und Laufknoten. Hier ist eine Implementierung von ParagraphsByStyleName. Im folgenden Beispiel finden Sie alle Absätze, die mit dem angegebenen Stil formatiert sind.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.cpp" >}}
 

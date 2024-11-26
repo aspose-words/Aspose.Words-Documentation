@@ -7,6 +7,7 @@ description: "Personalize as configurações de fonte usando Python."
 type: docs
 weight: 230
 url: /pt/python-net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uma fonte é um conjunto de caracteres com determinado tamanho, cor e design. Aspose.Words permite trabalhar com fontes usando o módulo [fonts](https://reference.aspose.com/words/python-net/aspose.words.fonts/) e a classe [Font](https://reference.aspose.com/words/python-net/aspose.words/font/).

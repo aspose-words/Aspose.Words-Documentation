@@ -1,4 +1,4 @@
-﻿---
+---
 title: Warnungen beim Speichern auf PDF/A und PDF/UA
 second_title: Aspose.Words für C++
 articleTitle: Warnungen vor Barrierefreiheitsproblemen beim Speichern in PDF/A und PDF/UA
@@ -7,6 +7,7 @@ description: "PDF/A und PDF/UA stellen Barrierefreiheitsanforderungen in Bezug a
 type: docs
 weight: 39
 url: /de/cpp/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Die Formate PDF/A und PDF/UA stellen eine Reihe von Barrierefreiheitsanforderungen in Bezug auf Dokumentinhalte, die bei der automatischen Konvertierung von Word nach PDF nicht erfüllt werden können. Diese Anforderungen sind im vorherigen Artikel *"Working with PDF/A or PDF/UA"* beschrieben. Jetzt werden Warnungen für einige dieser Probleme ausgegeben.

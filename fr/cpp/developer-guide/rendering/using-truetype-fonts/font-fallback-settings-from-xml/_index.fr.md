@@ -1,4 +1,4 @@
-﻿---
+---
 title: Paramètres de police FallBack à partir de XML en C++
 second_title: Aspose.Words pour C++
 articleTitle: Paramètres de police FallBack à partir de XML
@@ -7,6 +7,7 @@ description: "Le mécanisme de secours de la police est utilisé lorsque la poli
 type: docs
 weight: 14
 url: /fr/cpp/font-fallback-settings-from-xml/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Il existe deux mécanismes différents utilisés dans Aspose.Words - la substitution de police et le repli de police. La substitution de police est utilisée lorsque la police spécifiée dans le document n'a pas pu être trouvée parmi les sources de police telles qu'elles ont été décrites dans les sections ci-dessus. Le mécanisme de secours de la police est utilisé lorsque la police est résolue, mais elle ne contient pas de caractère spécifique. Dans ce cas, Aspose.Words essaie d'utiliser l'une des polices de secours pour le caractère.

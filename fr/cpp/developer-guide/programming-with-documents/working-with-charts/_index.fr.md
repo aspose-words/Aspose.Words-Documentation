@@ -1,4 +1,4 @@
-﻿---
+---
 title: Travailler avec des graphiques en C++
 second_title: Aspose.Words pour C++
 articleTitle: Travailler avec des graphiques
@@ -7,6 +7,7 @@ description: "Introduction à la fonctionnalité de graphique, comment créer et
 type: docs
 weight: 310
 url: /fr/cpp/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Une nouvelle méthode [InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/) a été ajoutée dans la classe [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/). Voyons donc comment insérer un simple histogramme dans le document à l'aide de la méthode [InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/).

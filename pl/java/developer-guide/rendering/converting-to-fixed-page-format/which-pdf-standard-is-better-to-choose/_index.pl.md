@@ -7,6 +7,7 @@ description: "Wybierz najlepszy standard PDF, aby eksportować wynik zadania pro
 type: docs
 weight: 27
 url: /pl/java/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dla niektórych zadań niektóre standardy PDF będą pasować lepiej lub odwrotnie gorzej. W tym artykule postaramy się określić, które standardy PDF dla których przypadków ma sens wybór.

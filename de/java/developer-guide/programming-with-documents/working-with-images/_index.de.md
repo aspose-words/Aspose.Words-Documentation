@@ -1,68 +1,69 @@
----
+﻿---
 title: Arbeiten mit Bildern in Java
 second_title: Aspose.Words für Java
 articleTitle: Arbeiten mit Bildern
 linktitle: Arbeiten mit Bildern
 type: docs
-description: "Bildformen in Details und erweiterten Funktionen von Aspose.Words für Java."
+description: "Bildformen in Details und erweiterten Funktionen, die von Aspose.Words für Java bereitgestellt werden."
 weight: 300
 url: /de/java/working-with-images/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words ermöglicht es Benutzern, mit Bildern sehr flexibel zu arbeiten. In diesem Artikel können Sie nur einige der Möglichkeiten der Arbeit mit Bildern erkunden.
+Aspose.Words ermöglicht es Benutzern, sehr flexibel mit Bildern zu arbeiten. In diesem Artikel können Sie nur einige der Möglichkeiten der Arbeit mit Bildern erkunden.
 
-## Wie man Bilder aus einem Dokument extrahiert {#how-to-extract-images-from-a-document}
+## So extrahieren Sie Bilder aus einem Dokument {#how-to-extract-images-from-a-document}
 
-Alle Bilder sind im Inneren gespeichert **Shape** Knoten in einem Dokument. Um alle Bilder oder Bilder mit einem bestimmten Typ aus dem Dokument zu extrahieren, folgen Sie diesen Schritten:
+Alle Bilder werden in **Shape** Knoten in einem Dokument gespeichert. Gehen Sie folgendermaßen vor, um alle Bilder oder Bilder mit einem bestimmten Typ aus dem Dokument zu extrahieren:
 
-- Verwenden Sie die [getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/shape/#getChildNodes) Verfahren zur Auswahl aller Shape-Knoten.
-- Iterate durch resultierende Knotensammlungen.
-- Überprüfen Sie die [hasImage](https://reference.aspose.com/words/java/com.aspose.words/shape/#hasImage) boolean Eigentum.
-- Bilddaten mit Hilfe der [ImageData](https://reference.aspose.com/words/java/com.aspose.words/shape/#getImageData) Eigentum.
-- Speichern Sie Bilddaten in eine Datei.
+- Verwenden Sie die Methode [getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/shape/#getChildNodes), um alle Formknoten auszuwählen.
+- Durchlaufen Sie die resultierenden Knotensammlungen.
+- Überprüfen Sie die boolesche Eigenschaft [hasImage](https://reference.aspose.com/words/java/com.aspose.words/shape/#hasImage).
+- Extrahieren Sie Bilddaten mit der Eigenschaft [ImageData](https://reference.aspose.com/words/java/com.aspose.words/shape/#getImageData).
+- Speichern Sie Bilddaten in einer Datei.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-ExtractImagesToFiles-ExtractImagesToFiles.java" >}}
 
-## Wie Barcode auf jeder Dokumentseite einfügen {#how-to-insert-barcode-on-each-documen-page}
+## So fügen Sie einen Barcode auf jeder Dokumentseite ein {#how-to-insert-barcode-on-each-documen-page}
 
-In diesem Beispiel können Sie die gleichen oder unterschiedlichen Barcodes auf allen oder bestimmten Seiten eines Word-Dokuments hinzufügen. Es gibt keine direkte Möglichkeit, Barcodes auf allen Seiten eines Dokuments hinzuzufügen, aber Sie können verwenden [moveToSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToSection-int), [moveToHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToHeaderFooter-int) und [insertImage](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertImage(byte[])) Methoden, um zu jedem Abschnitt oder Kopfzeilen / Fußzeilen zu bewegen und die Barcode-Bilder einzufügen, wie Sie im folgenden Code sehen können
+In diesem Beispiel können Sie auf allen oder bestimmten Seiten eines Word-Dokuments dieselben oder verschiedene Barcodes hinzufügen. Es gibt keine direkte Möglichkeit, Barcodes auf allen Seiten eines Dokuments hinzuzufügen, aber Sie können die Methoden [moveToSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToSection-int), [moveToHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToHeaderFooter-int) und [insertImage](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertImage(byte[])) verwenden, um zu einem beliebigen Abschnitt oder Kopf- / Fußzeilen zu wechseln und die Barcode-Bilder einzufügen, wie Sie sehen können im folgenden Code.
 
-Das folgende Codebeispiel zeigt, wie man auf jeder Seite eines Dokuments ein Barcodebild einfügen kann:
+Das folgende Codebeispiel zeigt, wie Sie auf jeder Seite eines Dokuments ein Barcode-Bild einfügen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-InsertBarcodeImage-InsertBarcodeImage.java" >}}
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-InsertBarcodeImage-InsertBarcodeIntoFooter.java" >}}
 
-## Verriegeln Aspect Ratio von Bild {#lock-aspect-ratio-of-image}
+## Seitenverhältnis des Bildes sperren {#lock-aspect-ratio-of-image}
 
-Das Aspektverhältnis einer geometrischen Form ist das Verhältnis ihrer Größen in unterschiedlichen Abmessungen. Sie können das Seitenverhältnis eines Bildes unter Verwendung von [AspectRatioLocked](https://reference.aspose.com/words/java/com.aspose.words/shape/#getAspectRatioLocked). Der Standardwert des Aspektverhältnisses der Form hängt von der [ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/). Es ist true für `ShapeType.Image` und false für andere Formen.
+Das Seitenverhältnis einer geometrischen Form ist das Verhältnis ihrer Größen in verschiedenen Dimensionen. Sie können das Seitenverhältnis eines Bildes mit [AspectRatioLocked](https://reference.aspose.com/words/java/com.aspose.words/shape/#getAspectRatioLocked) sperren. Der Standardwert für das Seitenverhältnis der Form hängt von [ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/) ab. Es ist wahr für `ShapeType.Image` und falsch für andere Formtypen.
 
-Das folgende Codebeispiel zeigt, wie man mit Aspektverhältnis arbeitet:
+Das folgende Codebeispiel zeigt, wie Sie mit dem Seitenverhältnis arbeiten:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetImageAspectRatioLocked-DocumentBuilderSetImageAspectRatioLocked.java" >}}
 
-## Wie man tatsächliche Brüste der Form in Punkten erhält {#how-to-get-actual-bounds-of-shape-in-points}
+## So erhalten Sie die tatsächlichen Formgrenzen in Punkten {#how-to-get-actual-bounds-of-shape-in-points}
 
-Wenn Sie die tatsächliche Begrenzungsbox der Form möchten, wie auf der Seite dargestellt, können Sie dies erreichen, indem Sie die [BoundsInPoints](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#getBoundsInPoints) Eigentum.
+Wenn Sie den tatsächlichen Begrenzungsrahmen der Form wie auf der Seite gerendert haben möchten, können Sie dies mithilfe der Eigenschaft [BoundsInPoints](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#getBoundsInPoints) erreichen.
 
-Das folgende Codebeispiel zeigt, wie diese Eigenschaft genutzt werden kann:
+Das folgende Codebeispiel zeigt, wie diese Eigenschaft verwendet wird:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-GetActualShapeBoundsPoints.java" >}}
 
-## Crop Images
+## Bilder zuschneiden
 
-Das Ernten eines Bildes bezieht sich in der Regel auf die Entfernung der unerwünschten äußeren Teile eines Bildes, um die Schaumbildung zu verbessern. Es wird auch zur Entfernung von einigen der Abschnitte eines Bildes verwendet, um den Fokus auf einen bestimmten Bereich zu erhöhen.
+Das Zuschneiden eines Bildes bezieht sich normalerweise auf das Entfernen der unerwünschten äußeren Teile eines Bildes, um den Rahmen zu verbessern. Es wird auch zum Entfernen einiger Teile eines Bildes verwendet, um den Fokus auf einen bestimmten Bereich zu erhöhen.
 
-Das folgende Codebeispiel zeigt, wie dies mit Aspose.Words API:
+Das folgende Codebeispiel zeigt, wie dies mit Aspose.Words API erreicht wird:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-CropImages-CropImageCall.java" >}}
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-CropImages-CropImage.java" >}}
 
-## Bilder als WMF speichern
+## Speichern von Bildern als WMF
 
-Aspose.Words bietet Funktionalität, um alle verfügbaren Bilder in einem Dokument zu speichern [WMF](https://docs.fileformat.com/image/wmf/)Format bei der Konvertierung von DOCX zu RTF.
+Aspose.Words bietet Funktionen zum Speichern aller verfügbaren Bilder in einem Dokument in [WMF](https://docs.fileformat.com/image/wmf/)formatieren Sie beim Konvertieren von DOCX in RTF.
 
-Das folgende Codebeispiel zeigt, wie man Bilder als WMF mit RTF Speicheroptionen speichert:
+Das folgende Codebeispiel zeigt, wie Bilder als WMF mit RTF Speicheroptionen gespeichert werden:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithRtfSaveOptions-SavingImagesAsWmf.java" >}}

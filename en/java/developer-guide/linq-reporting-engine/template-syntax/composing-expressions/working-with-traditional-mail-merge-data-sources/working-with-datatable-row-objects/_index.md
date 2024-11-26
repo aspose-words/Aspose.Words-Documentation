@@ -7,6 +7,7 @@ description: "Use simplified syntax in template expressions to work with DataTab
 type: docs
 weight: 30
 url: /java/working-with-datatable-row-objects/
+timestamp: 2024-10-21-11-17-44
 ---
 
 LINQ Reporting Engine enables you to access a data associated with a particular `DataTable` row instance in template expressions using the “.” operator. The following table describes, which identifiers you can use to access different kinds of the data.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 用C++保存文档
 second_title: Aspose.Words对于C++
 articleTitle: 保存文档
@@ -8,6 +8,7 @@ description: "使用C++以任何支持的格式保存文档。"
 keywords: "save a document c++, save a document to file c++, save a document to stream c++, save a document Aspose C++, save formats supported by Aspose.Words C++"
 weight: 20
 url: /zh/cpp/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 您需要使用Aspose.Words执行的大多数任务都涉及保存文档。 保存文档Aspose.Words提供[Document](https://reference.aspose.com/words/cpp/aspose.words/document/)类的[Save](https://reference.aspose.com/words/cpp/aspose.words/document/save/)方法。 文档可以以Aspose.Words支持的任何保存格式保存。 有关所有支持的保存格式的列表，请参阅[SaveFormat](https://reference.aspose.com/words/cpp/aspose.words/saveformat/)枚举。

@@ -7,6 +7,7 @@ description: "Python를 사용하여 단락, 책갈피 또는 특정 문자와 �
 type: docs
 weight: 10
 url: /ko/python-net/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 문서 작업을 하는 동안 문서가 짧든 길든 문서를 탐색해야 합니다. 가상 커서를 사용한 탐색은 문서의 여러 노드 사이를 탐색하는 기능을 나타냅니다.

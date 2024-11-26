@@ -7,6 +7,7 @@ description: "Work with Asian typography using Java. Adjust Space between Asian 
 type: docs
 weight: 240
 url: /java/working-with-asian-typography/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Asian Typography is a set of options for text paragraphs in documents written in Asian languages.

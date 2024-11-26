@@ -7,6 +7,7 @@ description: "Aspose.Words untuk .NET menyediakan Read-Only, Encrypt a Document,
 type: docs
 weight: 50
 url: /id/net/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Alasan utama untuk melindungi atau mengenkripsi dokumen adalah untuk menerapkan kontrol lebih besar terhadap siapa yang dapat mengakses dokumen atau siapa yang dapat mengeditnya. Dengan menerapkan perlindungan pada dokumen Anda, Anda terhindar dari risiko umum seperti menyalin atau memodifikasi dokumen tanpa izin, serta kebocoran data.

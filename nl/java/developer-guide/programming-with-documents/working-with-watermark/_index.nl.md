@@ -7,6 +7,7 @@ type: docs
 description: "Bewerken van watermerken documenteren met behulp van Java."
 weight: 70
 url: /nl/java/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dit onderwerp bespreekt hoe je programmatisch werkt met een watermerk met behulp van Aspose.Words. Een watermerk is een achtergrondafbeelding die achter de tekst in een document wordt weergegeven. Een watermerk kan een tekst of een afbeelding van de [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) Klasse.

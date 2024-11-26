@@ -1,4 +1,4 @@
-﻿---
+---
 title: 렌더링 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 렌더링
@@ -7,6 +7,7 @@ description: "사용 Aspose.Words 에 대한 C++ 플로우 레이아웃 문서�
 type: docs
 weight: 20
 url: /ko/cpp/rendering/
+timestamp: 2024-01-30-16-22-34
 ---
 
 우리는"렌더링"이라는 용어를 Aspose.Words 문서를 페이지 매김 또는 페이지 개념이 있는 파일 형식 또는 매체로 변환하는 프로세스를 설명합니다. 우리는 문서를 페이지로 렌더링하는 것에 대해 이야기하고 있습니다. 다음 다이어그램에서는 렌더링의 내용을 보여 줍니다 Aspose.Words.

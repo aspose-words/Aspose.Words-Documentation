@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cara Mengekstrak Konten Di Antara Simpul Dokumen
 second_title: Aspose.Words untuk C++
 articleTitle: Ekstrak Konten Antar Node dalam Dokumen
@@ -7,6 +7,7 @@ type: docs
 description: "Mengekstrak konten dokumen secara berbeda menggunakan C++."
 weight: 140
 url: /id/cpp/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Saat bekerja dengan dokumen, penting untuk dapat dengan mudah mengekstrak konten dari rentang tertentu dalam dokumen. Namun, konten dapat terdiri dari elemen kompleks seperti paragraf, tabel, gambar, dll.

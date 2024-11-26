@@ -1,4 +1,4 @@
-﻿---
+---
 title: Utilizarea fonturilor TrueType în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Folosind TrueType Fonturi
@@ -7,6 +7,7 @@ description: "Cum să găsiți fontul potrivit sau înlocuirea adecvată a acest
 type: docs
 weight: 20
 url: /ro/java/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Când lucrați cu documente, de multe ori trebuie să utilizați diferite fonturi, stiluri și dimensiuni. Documentele pot conține orice număr de fonturi, care nu sunt neapărat limitate la fonturile instalate în sistemul de operare. Fonturile pot fi complet diferite, cum ar fi fonturile preluate din alte sisteme de operare, achiziționate sau create chiar de utilizatori.

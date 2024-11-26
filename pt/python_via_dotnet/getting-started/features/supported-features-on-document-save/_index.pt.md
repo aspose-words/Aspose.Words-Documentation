@@ -7,6 +7,7 @@ description: "Salve seu documento em qualquer formato compatível usando Python.
 type: docs
 weight: 30
 url: /pt/python-net/supported-features-on-document-save/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words possui alguns dos suportes de conversão mais avançados dos formatos comuns de processamento de texto.

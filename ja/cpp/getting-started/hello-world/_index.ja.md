@@ -1,4 +1,4 @@
-﻿---
+---
 title: こんにちは、世界!
 second_title: 使い方の簡単な例 C++の場合Aspose.Words
 articleTitle: こんにちは、世界!
@@ -7,6 +7,7 @@ description: "を使用して、サポートされている任意の形式であ
 type: docs
 weight: 15
 url: /ja/cpp/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 は、"Hello,World!「コードは、多くの場合、uisngを書く最初の簡単な例です」C++の場合Aspose.Wordsまた、ソースコードのコンパイルや実行を目的としたソフトウェアが正しくインストールされていることを確認するための健全性テストとしても使

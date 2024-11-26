@@ -1,12 +1,13 @@
 ---
-title: Jak zbudować stół z `DataTable` w Java
+title: Jak zbudować stół z DataTable w Java
 second_title: Aspose.Words zamiast Java
-articleTitle: Zbuduj stół z `DataTable`
-linktitle: Zbuduj stół z `DataTable`
+articleTitle: Zbuduj stół z DataTable
+linktitle: Zbuduj stół z DataTable
 description: "Przykład wypełnienia tabeli dokumentów z zewnętrznej bazy danych Java."
 type: docs
 weight: 130
 url: /pl/java/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Często Twoja aplikacja będzie pobierać dane z bazy danych i przechowywać je w formie **DataTable**. Można łatwo umieścić te dane w dokumencie jako nową tabelę i szybko zastosować formatowanie do całej tabeli.

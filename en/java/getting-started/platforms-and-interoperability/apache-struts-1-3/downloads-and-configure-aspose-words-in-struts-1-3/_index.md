@@ -7,6 +7,7 @@ description: "Downloads and Configure Aspose.Words for Java on Apache Struts."
 type: docs
 weight: 10
 url: /java/downloads-and-configure-aspose-words-in-struts-1-3/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Downloading Aspose.Words Java for Struts 1.3

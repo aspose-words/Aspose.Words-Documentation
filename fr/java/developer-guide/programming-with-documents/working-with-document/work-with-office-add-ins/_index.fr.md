@@ -1,40 +1,41 @@
----
-title: Travailler avec les add-ins de bureau dans Java
+﻿---
+title: Travailler avec des compléments Office dans Java
 second_title: Aspose.Words pour Java
-articleTitle: Travailler avec les add-ins de bureau
-linktitle: Travailler avec les add-ins de bureau
-description: "Aspose.Words pour Java offre diverses classes pour travailler avec Office Add-ins. Vous pouvez ajouter le panneau des tâches via l'extension web et personnaliser les propriétés du panneau et de l'extension."
+articleTitle: Travailler avec des compléments Office
+linktitle: Travailler avec des compléments Office
+description: "Aspose.Words pour Java fournit diverses classes pour travailler avec des compléments Office. Vous pouvez ajouter un volet Office via l'extension Web et personnaliser les propriétés du volet et de l'extension."
 type: docs
 weight: 50
 url: /fr/java/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Parfois, vous pouvez vouloir donner accès aux contrôles d'interface qui lancent le code pour modifier les documents. Aspose.Words API fournit les `WebExtensions` namespace, qui accorde différentes classes pour personnaliser les éléments et les attributs étendant le vocabulaire XML pour représenter Office Add-ins.
+Parfois, vous souhaiterez peut-être donner accès à des contrôles d'interface qui exécutent du code pour modifier des documents. Aspose.Words API fournit l'espace de noms `WebExtensions`, qui accorde diverses classes pour personnaliser les éléments et les attributs étendant le vocabulaire XML pour représenter les compléments Office.
 
-L'espace de noms WebExtensions peut être divisé en:
+WebExtensions l'espace de noms peut être divisé conditionnellement en:
 
-* Objets pour travailler avec le volet des tâches
-* Objets pour travailler avec des extensions web
+* Objets pour travailler avec le volet Office
+* Objets pour travailler avec des extensions Web
 
-## Utilisation des panneaux de tâches
+## Utilisation Des Volets de Tâches
 
-Les panneaux de tâches sont des surfaces d'interface qui sont affichées sur le côté droit de la fenêtre Microsoft Word. Le volet des tâches permet aux utilisateurs d'accéder aux contrôles d'interface qui peuvent exécuter du code pour modifier des documents.
+Les volets de tâches sont des surfaces d'interface qui sont affichées sur le côté droit de la fenêtre dans Microsoft Word. Le volet Office permet aux utilisateurs d'accéder aux contrôles d'interface qui peuvent exécuter du code pour modifier des documents.
 
-Par exemple, Aspose.Words API, Vous pouvez ajouter un volet de tâches et personnaliser son apparence.
+Par exemple, en utilisant Aspose.Words API, vous pouvez ajouter un complément de volet office et personnaliser son apparence.
 
-## Utilisation des extensions Web
+## Utilisation des Extensions Web
 
-Les Extensions Web sont des outils qui élargissent les capacités des applications Office et interagissent avec le contenu des documents Office. Les extensions Web offrent des fonctionnalités supplémentaires aux clients du Bureau pour améliorer l'expérience utilisateur.
+Les extensions Web sont des outils qui étendent les capacités des applications Office et interagissent avec le contenu des documents Office. Les extensions Web fournissent des fonctionnalités supplémentaires aux clients Office pour améliorer l'expérience utilisateur.
 
-Aspose.Words offre la possibilité d'ajouter des extensions Web du type Task Pane en utilisant le [WebExtension](https://reference.aspose.com/words/java/com.aspose.words/webextension/) et [TaskPane](https://reference.aspose.com/words/java/com.aspose.words/taskpane/) vous permet également de personnaliser les propriétés du panneau et de l'extension.
+Aspose.Words offre la possibilité d'ajouter des extensions Web de type Volet office à l'aide des classes [WebExtension](https://reference.aspose.com/words/java/com.aspose.words/webextension/) et [TaskPane](https://reference.aspose.com/words/java/com.aspose.words/taskpane/), et vous permet également de personnaliser les propriétés du volet et de l'extension.
 
-L'exemple de code suivant montre comment créer des panneaux de tâches et ajouter aux panneaux de tâches d'extension web avec des propriétés de base:
+L'exemple de code suivant montre comment créer des volets de tâches et les ajouter à des volets de tâches d'extension Web avec des propriétés de base:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-WebExtension-WorkingWithWebExtension-UsingWebExtensionTaskPanes.java" >}}
 
-Pour voir une liste des add-ins du volet des tâches, utilisez le [WebExtensionTaskPanes](https://reference.aspose.com/words/java/com.aspose.words/document/#getWebExtensionTaskPanes) propriété.
+Pour afficher la liste des compléments du volet office, utilisez la propriété [WebExtensionTaskPanes](https://reference.aspose.com/words/java/com.aspose.words/document/#getWebExtensionTaskPanes).
 
-L'exemple de code suivant montre comment obtenir une telle liste d'ajouts:
+L'exemple de code suivant montre comment obtenir une telle liste de compléments:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-WebExtension-WorkingWithWebExtension-GetListOfAddins.java" >}}
 

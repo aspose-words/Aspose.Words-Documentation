@@ -7,6 +7,7 @@ description: "Create, edit and save your first document in any supported format 
 type: docs
 weight: 20
 url: /python-net/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A "Hello, World!" code is often the first simple example to write uisng "Aspose.Words for Python via .NET", and it can also be used as a sanity test to ensure the software intended to compile or run source code is correctly installed.

@@ -7,6 +7,7 @@ description: "GitHub 저장소에서 Python via .NET용 Aspose.Words 예제를 �
 type: docs
 weight: 110
 url: /ko/python-net/how-to-run-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 가능성과 기능에 더 익숙해지기 위해 GitHub 저장소에서 다운로드하여 실행하고 자세히 배울 수 있는 예제를 제공합니다.

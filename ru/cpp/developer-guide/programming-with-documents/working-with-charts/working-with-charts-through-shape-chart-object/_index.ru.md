@@ -1,12 +1,13 @@
-﻿---
-title: Работа с графиками через объект `Shape.Chart`
+---
+title: Работа с графиками через объект Shape.Chart
 second_title: Aspose.Words для C++
-articleTitle: Работа с графиками через объект `Shape.Chart`
-linktitle: Работа с графиками через объект `Shape.Chart`
+articleTitle: Работа с графиками через объект Shape.Chart
+linktitle: Работа с графиками через объект Shape.Chart
 description: "Диаграммы в деталях, как диаграмма связана с узлом формы в Aspose.Words для C++."
 type: docs
 weight: 10
 url: /ru/cpp/working-with-charts-through-shape-chart-object/
+timestamp: 2024-01-27-14-07-04
 ---
 
 После того как диаграмма была вставлена и заполнена данными, вы можете изменить ее внешний вид. `Shape.Chart` свойство содержит все связанные с диаграммой параметры, доступные через общедоступный API.

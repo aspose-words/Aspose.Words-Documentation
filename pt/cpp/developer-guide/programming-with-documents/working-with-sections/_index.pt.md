@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabalhar com secções em C++
 second_title: Aspose.Words para C++
 articleTitle: Trabalhar com secções
@@ -7,6 +7,7 @@ description: "Entendendo conceitos de seção de documento e práticas de manipu
 type: docs
 weight: 120
 url: /pt/cpp/working-with-sections/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Às vezes, você deseja um documento que não tenha a mesma formatação em todas as páginas. Por exemplo, pode ser necessário modificar os formatos de número de Página, ter um tamanho e orientação de página diferentes ou ter a primeira página do documento como Página de rosto sem qualquer numeração. Pode conseguir isso com secções.

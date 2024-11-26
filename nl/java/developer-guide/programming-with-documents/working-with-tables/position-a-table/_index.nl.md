@@ -7,6 +7,7 @@ description: "Tabelpositie opgeven in Java. Krijg een tabel uitlijning, krijgen 
 type: docs
 weight: 50
 url: /nl/java/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Er zijn drijvende tabellen en inline tabellen:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Merge Documents
 second_title: Aspose.Words for Java
 articleTitle: Merge Documents
@@ -7,6 +7,7 @@ description: "Merge documents easily and fast instead of using docx4j."
 type: docs
 weight: 90
 url: /java/merge-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

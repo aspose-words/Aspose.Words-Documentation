@@ -7,6 +7,7 @@ description: "التحكم بشكل أكثر دقة في عملية التحمي
 type: docs
 weight: 10
 url: /ar/python-net/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 عند تحميل مستند، يمكنك تعيين بعض الخصائص المتقدمة. يوفر لك Aspose.Words فئة [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/)، والتي تسمح بتحكم أكثر دقة في عملية التحميل. تحتوي بعض تنسيقات التحميل على فئة مقابلة تحتوي على خيارات التحميل لتنسيق التحميل هذا، على سبيل المثال، يوجد [PdfLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/pdfloadoptions/) للتحميل إلى تنسيق PDF أو [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/) للتحميل إلى TXT. توفر هذه المقالة أمثلة على العمل مع خيارات فئة [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/).

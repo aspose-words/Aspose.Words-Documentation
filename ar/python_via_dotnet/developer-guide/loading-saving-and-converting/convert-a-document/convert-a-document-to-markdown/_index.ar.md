@@ -8,6 +8,7 @@ description: "قم بتحويل مستند بأي تنسيق تحميل مدعو
 keywords: how to convert a document to markdown python
 weight: 40
 url: /ar/python-net/convert-a-document-to-markdown/
+timestamp: 2024-01-27-14-07-04
 ---
 
 يعد Markdown تنسيقًا شائعًا يستخدم لترميز النص وتحويله أيضًا إلى HTML أو PDF أو DOCX أو تنسيقات أخرى. يختار العديد من المطورين هذا التنسيق لكتابة الوثائق، وإعداد المقالات للنشر على المدونات، ووصف المشاريع، وما إلى ذلك.

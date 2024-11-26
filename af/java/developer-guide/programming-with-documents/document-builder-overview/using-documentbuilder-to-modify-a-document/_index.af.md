@@ -1,12 +1,13 @@
-﻿---
-title: Gebruik `DocumentBuilder` Om'n Dokument Te Verander
+---
+title: Gebruik DocumentBuilder Om'n Dokument Te Verander
 second_title: Aspose.Words vir Java
-articleTitle: Gebruik `DocumentBuilder` Om'n Dokument Te Verander
-linktitle: Gebruik `DocumentBuilder` Om'n Dokument Te Verander
+articleTitle: Gebruik DocumentBuilder Om'n Dokument Te Verander
+linktitle: Gebruik DocumentBuilder Om'n Dokument Te Verander
 type: docs
 description: "Gebruik die dokumentbouer om'n dokument maklik in Java te verander."
 weight: 20
 url: /af/java/using-documentbuilder-to-modify-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Spesifiseer Formatering
@@ -203,7 +204,7 @@ Die invoeging van nuwe teks op hierdie manier vervang nie die bestaande teks van
 
 ### Beweeg na'n `Merge` Veld
 
-Soms moet jy dalk'n "handleiding" mail merge met `DocumentBuilder` uitvoer of'n samesmeltingsveld op'n spesiale manier binne'n mail merge gebeurtenishanteerder vul. Dit is wanneer [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) nuttig kan wees. Die metode aanvaar die naam van die samesmelting veld. Dit beweeg die wyser na'n posisie net buite die gespesifiseerde samesmelting veld en verwyder die samesmelting veld. Die volgende kode voorbeeld toon hoe om die wyser te skuif na'n posisie net buite die gespesifiseerde samesmelting veld.
+Soms moet jy dalk'n "handleiding" Mail Merge met `DocumentBuilder` uitvoer of'n samesmeltingsveld op'n spesiale manier binne'n Mail Merge gebeurtenishanteerder vul. Dit is wanneer [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) nuttig kan wees. Die metode aanvaar die naam van die samesmelting veld. Dit beweeg die wyser na'n posisie net buite die gespesifiseerde samesmelting veld en verwyder die samesmelting veld. Die volgende kode voorbeeld toon hoe om die wyser te skuif na'n posisie net buite die gespesifiseerde samesmelting veld.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 

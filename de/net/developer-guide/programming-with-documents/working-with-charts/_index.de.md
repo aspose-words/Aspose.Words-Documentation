@@ -7,6 +7,7 @@ description: "Einführung in die Diagrammfunktion, wie man Diagramme mit C# erst
 type: docs
 weight: 310
 url: /de/net/working-with-charts/
+timestamp: 2024-02-05-15-07-18
 ---
 
 Der [DocumentBuilder](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/)-Klasse wurde eine neue [InsertChart](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/insertchart/)-Methode hinzugefügt. Sehen wir uns also an, wie man mit der [InsertChart](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/insertchart/)-Methode ein einfaches Säulendiagramm in das Dokument einfügt.

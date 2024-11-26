@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm việc Với Các Thuộc tính Tài liệu trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm việc Với Thuộc Tính Tài Liệu
@@ -7,6 +7,7 @@ description: "Aspose.Words cho C++ cho phép lưu trữ một số thông tin h�
 type: docs
 weight: 10
 url: /vi/cpp/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Thuộc tính tài liệu cho phép lưu trữ một số thông tin hữu ích về tài liệu của bạn. Các thuộc tính này có thể được chia thành hai nhóm:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu PDF/A sau PDF/UA
 second_title: Aspose.Words pentru Python
 articleTitle: Lucrul cu PDF/A sau PDF/UA
@@ -7,6 +7,7 @@ description: "Conversia la PDF/A-1, PDF/A-2, PDF/A-4 și PDF/UA folosind Python.
 type: docs
 weight: 28
 url: /ro/python-net/working-with-pdfa-or-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Formatul PDF/A și PDF/UA impune mai multe cerințe legate de conținutul documentului care nu pot fi îndeplinite în timpul conversiei automate dintr-un document în format Word în PDF. Aceste cerințe trebuie verificate și corectate fie într-un document Word înainte de conversie, fie într-un document PDF după conversie, pentru a produce un document complet compatibil PDF/A și PDF/UA.

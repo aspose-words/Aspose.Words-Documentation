@@ -7,6 +7,7 @@ type: docs
 description: "Übersetzen Sie ein Markdown-Dokument mithilfe von C# in Document Object Model und zurück. So können Sie mit komplexen vorhandenen Markdown-Dateien arbeiten und programmgesteuert ein Markdown-Dokument von Grund auf erstellen."
 weight: 20
 url: /de/net/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Um den Inhalt und die Formatierung eines Dokuments programmgesteuert zu lesen, zu bearbeiten und zu ändern, müssen Sie es in Aspose.Words Document Object Model (DOM) übersetzen.
@@ -40,12 +41,12 @@ Bei der Übersetzung von **Bold**-, *Italic*- oder ~~Durchgestrichenen~~-Inline-
 |  **Italic**<br /> `*italic text*` |  `Font.Italic = true`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br /> `~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
-builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
+builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
 
 Wir verwenden einen Zeichenstil mit einem Namen, der mit dem Wort `InlineCode` beginnt, gefolgt von einem optionalen Punkt `(.)` und einer Reihe von Backticks ```(`)``` für die `InlineCode`-Funktion. Wenn mehrere Backticks fehlen, wird standardmäßig ein Backtick verwendet.
 
@@ -72,10 +73,10 @@ Die folgende Tabelle zeigt Beispiele für die Verwendung von Markdown-Leaf-Blöc
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br /> `-----` |  Dies ist ein einfacher Absatz mit einer entsprechenden HorizontalRule-Form:<br /> `DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}}  |                                                                |
-|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, wobei (1&lt;= N &lt;= 9).<br /> Dies wird in einen integrierten Stil übersetzt und sollte genau dem angegebenen Muster entsprechen (es sind keine Suffixe oder Präfixe zulässig).<br /> Andernfalls handelt es sich nur um einen normalen Absatz mit einem entsprechenden Stil |
+|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`, wobei (1&le; N &le; 9).<br /> Dies wird in einen integrierten Stil übersetzt und sollte genau dem angegebenen Muster entsprechen (es sind keine Suffixe oder Präfixe zulässig).<br /> Andernfalls handelt es sich nur um einen normalen Absatz mit einem entsprechenden Stil |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
-|  **Setext Heading**<br /> `===` (wenn Überschriftenebene 1),<br /> `---` (wenn Überschriftenebene 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, basierend auf dem `“Heading N”`-Stil.<br /> Wenn (N &gt;= 2), wird `“Heading 2”` verwendet, andernfalls `“Heading 1”`.<br /> Jedes Suffix ist zulässig, aber der Aspose.Words-Importer verwendet die Zahlen "1" bzw. "2" |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  **Setext Heading**<br /> `===` (wenn Überschriftenebene 1),<br /> `---` (wenn Überschriftenebene 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, basierend auf dem 'Heading N'-Stil.<br /> Wenn (N &ge; 2), wird 'Heading 2' verwendet, andernfalls 'Heading 1'.<br /> Jedes Suffix ist zulässig, aber der Aspose.Words-Importer verwendet die Zahlen "1" bzw. "2" |
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -102,7 +103,7 @@ builder.ParagraphFormat.Style = setexHeading2;
 builder.Document.Styles["SetextHeading2"].BaseStyleName = "Heading 3";
 
 // Setex heading level will be reset to 2 if the base paragraph has a Heading level greater than 2.
-builder.Writeln("Setext Heading level 2");{{< /highlight >}} |
+builder.Writeln("Setext Heading level 2"); {{< /highlight >}} |
 |   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-IndentedCode.cs" >}}  |                                                                |
 |  **Fenced Code**<br /> {{< highlight csharp >}}``` c#
@@ -119,7 +120,7 @@ Die folgende Tabelle zeigt Beispiele für die Verwendung komplexer Markdown-Cont
 |  Markdown-Funktion |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **Quote**<br /> `> quote,`<br /> `>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br /> Das Suffix im Stilnamen ist optional, aber der Aspose.Words-Importer verwendet die geordneten Nummern 1, 2, 3, …. bei verschachtelten Anführungszeichen.<br /> Die Verschachtelung wird über die geerbten Stile definiert |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -130,7 +131,7 @@ builder.Writeln("Blockquote");
 Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
-builder.Writeln("1. Nested blockquote");{{< /highlight >}} |
+builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
 |  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  Listen mit Aufzählungszeichen werden durch Absatznummerierung dargestellt:<br /> `ListFormat.ApplyBulletDefault()`<br /> Es gibt drei Arten von Listen mit Aufzählungszeichen. Sie unterscheiden sich nur im Nummerierungsformat der allerersten Ebene. Dies sind: `‘-’`, `‘+’` bzw. `‘*’` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}}  |                                                                |
 |  **OrderedList**<br /> `1. Item 1`<br /> `2. Item 2`<br /> `1) Item 2a`<br /> `2) Item 2b` |  Geordnete Listen werden durch Absatznummerierung dargestellt:<br /> `ListFormat.ApplyNumberDefault()`<br /> Es können zwei Zahlenformatmarkierungen vorhanden sein: "." Und ')'. Der Standardmarker ist "." |
@@ -147,7 +148,7 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent();
 
 builder.Writeln("Item 2a");
-builder.Writeln("Item 2b");{{< /highlight >}} |                                                                |
+builder.Writeln("Item 2b"); {{< /highlight >}} |                                                                |
 
 ### Tische
 
@@ -156,7 +157,7 @@ Aspose.Words ermöglicht auch die Übersetzung von Tabellen in DOM, wie unten ge
 |  Markdown-Funktion |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  `Table`<br /> `a|b`<br />`-|-`<br />`c|d` |  [Table](https://reference.aspose.com/words/de/net/aspose.words.tables/table/)-, [Row](https://reference.aspose.com/words/de/net/aspose.words.tables/row/)- und [Cell](https://reference.aspose.com/words/de/net/aspose.words.tables/cell/)-Klassen |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.
@@ -169,7 +170,7 @@ builder.Writeln("b");
 builder.InsertCell();
 builder.Writeln("c");
 builder.InsertCell();
-builder.Writeln("d");{{< /highlight >}} |                                                                |
+builder.Writeln("d"); {{< /highlight >}} |                                                                |
 
 ## Siehe auch
 

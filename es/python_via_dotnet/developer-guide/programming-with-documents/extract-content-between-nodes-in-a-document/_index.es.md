@@ -7,6 +7,7 @@ description: "Cómo extraer contenido específico de un rango dentro del documen
 type: docs
 weight: 140
 url: /es/python-net/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Al trabajar con documentos, es importante poder extraer fácilmente contenido de un rango específico dentro de un documento. Sin embargo, el contenido puede consistir en elementos complejos como párrafos, tablas, imágenes, etc.

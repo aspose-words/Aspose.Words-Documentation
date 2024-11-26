@@ -1,4 +1,4 @@
-﻿---
+---
 title: Stelselvereistes
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Stelselvereistes
@@ -7,6 +7,7 @@ description: "Voordat jy begin werk Aspose.Words vir Python via .NET, verseker d
 type: docs
 weight: 50
 url: /af/python-net/system-requirements/
+timestamp: 2024-04-27-18-03-32
 ---
 
 Aspose.Words vir Python via .NET vereis nie dat enige derde party produk soos Microsoft Word geïnstalleer moet word nie. Aspose.Words self is'n enjin vir die skep, wysiging, omskakeling en weergawe van dokumente in verskillende formate, insluitend Microsoft Word dokumentformate.

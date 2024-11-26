@@ -1,4 +1,4 @@
-﻿---
+---
 title: Convertiți Word în Excel în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Conversia unui Document în Excel
@@ -7,6 +7,7 @@ description: "Convertiți PDF în Excel, XML în Excel, DOCX în Excel Java. Sal
 type: docs
 weight: 15
 url: /ro/java/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Conversia documentelor dintr-un format în altul este caracteristica emblematică a Aspose.Words. Puteți converti documente în orice [load format](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) disponibil, de asemenea, în format XLSX.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Funcții acceptate pe salvarea documentelor
 second_title: Aspose.Words pentru Java
 articleTitle: Funcții acceptate pe salvarea documentelor
@@ -7,6 +7,7 @@ description: "Salvați un document în majoritatea formatelor populare și accep
 type: docs
 weight: 30
 url: /ro/java/supported-features-on-document-save/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words permite utilizatorilor să lucreze cu documente în diferite formate și oferă o gamă largă de funcții pentru aceasta. De exemplu, utilizatorii pot crea un document de la zero sau îl pot încărca, pot face unele modificări și apoi pot salva acele modificări în fișierul de ieșire în orice [format de export acceptat](/words/java/supported-document-formats/). În timp ce salvează documentul în formatul selectat, utilizatorul poate aplica diverse opțiuni de salvare.

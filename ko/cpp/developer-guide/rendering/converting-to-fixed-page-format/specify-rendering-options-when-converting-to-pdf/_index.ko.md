@@ -1,4 +1,4 @@
-﻿---
+---
 title: 로 변환할 때 렌더링 옵션 지정 PDF
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 로 변환할 때 렌더링 옵션 지정 PDF
@@ -7,6 +7,7 @@ description: "문서를 다음으로 변환 PDF 고급 옵션을 사용하여 C+
 type: docs
 weight: 30
 url: /ko/cpp/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 그 PDF 형식은 사용자들 사이에서 매우 인기가 있고 다양한 응용 프로그램에서 널리 지원되는 고정 페이지 형식입니다. PDF 문서는 모든 장치에서 동일하게 보입니다. 그 이유로, PDF 의 중요한 기능입니다 Aspose.Words.

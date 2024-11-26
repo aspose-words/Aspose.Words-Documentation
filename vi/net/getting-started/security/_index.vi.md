@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words cho .NET công nhận và tuân thủ các tiêu chuẩn bảo mật chung để đảm bảo mức độ bảo mật dữ liệu cao. Xem xét các vấn đề bảo mật có thể xảy ra và các đề xuất về cách tránh chúng bằng cách sử dụng C#."
 weight: 100
 url: /vi/net/security/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bảo mật giúp bảo vệ dữ liệu khỏi bị truy cập trái phép cũng như những thay đổi cố ý hoặc vô tình. Aspose.Words cực kỳ chú trọng đến vấn đề bảo mật dữ liệu khách hàng, do đó, Aspose.Words công nhận và tuân thủ các tiêu chuẩn bảo mật chung.

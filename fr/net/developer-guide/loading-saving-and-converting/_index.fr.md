@@ -7,6 +7,7 @@ description: "Comment convertir un document d'un format à un autre, tel que Wor
 type: docs
 weight: 10
 url: /fr/net/loading-saving-and-converting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Cette section fournit des informations sur les fonctionnalités de chargement et d'enregistrement d'un document, ainsi que des données sur les possibilités de conversion d'un document d'un format à un autre.

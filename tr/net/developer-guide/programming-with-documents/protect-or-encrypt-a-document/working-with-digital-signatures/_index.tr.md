@@ -7,6 +7,7 @@ description: "Belgeleri dijital olarak imzalayın ve C#'i kullanarak mevcut diji
 type: docs
 weight: 40
 url: /tr/net/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dijital imza, belgeleri imzalamak ve belgenin imzalanmasından bu yana değiştirilmediğini garanti etmek amacıyla imzalayanın kimliğini doğrulamak için elektronik imzaların teknolojik bir uygulamasıdır. Hem genel hem de özel anahtarlar oluşturmak için PKI protokolünü takip etmesi nedeniyle her dijital imza, her imzalayan için benzersizdir. Bir belgeyi dijital olarak imzalamak, imzalayanın özel anahtarını kullanarak bir imza oluşturmak anlamına gelir; burada oluşturulan karmayı şifrelemek için matematiksel bir algoritma kullanılır.

@@ -7,6 +7,7 @@ description: "使用 C# 将应用了敏感度标签的 Word 转换为 PDF。处�
 type: docs
 weight: 30
 url: /zh/net/work-with-document-market-by-sensitivity-label/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Microsoft Purview 信息保护的敏感度标签可让您对组织的数据进行分类和保护，同时确保用户的工作效率及其协作能力不受影响。将敏感度标签应用于文档后，该标签的任何配置的保护设置都会在内容上强制执行。

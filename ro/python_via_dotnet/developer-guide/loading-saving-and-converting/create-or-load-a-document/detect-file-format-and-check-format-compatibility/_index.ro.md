@@ -1,4 +1,4 @@
-﻿---
+---
 title: Detectați Formatul Fișierului La Încărcare
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Detectați formatul fișierului și verificați compatibilitatea formatului
@@ -7,6 +7,7 @@ description: "Determinați formatul fișierului în Python dacă nu sunteți sig
 type: docs
 weight: 20
 url: /ro/python-net/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Uneori este necesar să se determine formatul unui document înainte de deschidere, deoarece extensia de fișier nu garantează că conținutul fișierului este adecvat. De exemplu, se știe că Crystal Reports emite adesea documente în format RTF, dar le dă .extensie doc.

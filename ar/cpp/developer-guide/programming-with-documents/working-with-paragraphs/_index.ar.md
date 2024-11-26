@@ -1,4 +1,4 @@
-﻿---
+---
 title: العمل مع الفقرات في C++
 second_title: Aspose.Words ل C++
 articleTitle: العمل مع الفقرات
@@ -7,6 +7,7 @@ description: "ممارسات معالجة عقدة الفقرة باستخدام
 type: docs
 weight: 210
 url: /ar/cpp/working-with-paragraphs/
+timestamp: 2024-01-30-16-22-34
 ---
 
 الفقرة عبارة عن مجموعة من الأحرف مجتمعة في كتلة منطقية وتنتهي بحرف خاص – *paragraph break*. في Aspose.Words، يتم تمثيل الفقرة بفئة [Paragraph](https://reference.aspose.com/words/cpp/aspose.words/paragraph/).

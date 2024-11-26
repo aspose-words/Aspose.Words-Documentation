@@ -7,6 +7,7 @@ description: "Извличане на различни графични обек
 type: docs
 weight: 40
 url: /bg/python-net/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 При обработката на документи, обща задача е да се извлекат всички изображения, намерени в документа и да се изнасят на външно място. Тази задача става проста с Aspose.Words API, която вече осигурява функционалността за извличане и запазване на данните от изображенията. Въпреки това, понякога може да искате да извлечете по подобен начин други видове графично съдържание, което е представено от различен тип рисуващ обект, например текстова кутия, съдържаща параграфи, форми на стрелки и малко изображение. Няма лесен начин да се направи този обект, тъй като той е комбинация от отделни елементи на съдържанието. Можете също така да се сблъскате със случай, когато съдържанието е групирано заедно в обекта, който изглежда като едно изображение.
@@ -38,7 +39,7 @@ Aspose.Words осигурява функционалност за извлича
 
 {{% alert color="primary" %}}
 
-Когато правите <span notrans="<span notrans=" [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/)"=""></span>,"> трябва да е част от йерархията на документите. Ако [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) не е част от дървото на документа, след което преведената продукция ще бъде празна след като бъде призована [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) методи.
+Когато правите [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) трябва да е част от йерархията на документите. Ако [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) не е част от дървото на документа, след което преведената продукция ще бъде празна след като бъде призована [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) методи.
 
 {{% /alert %}}
 

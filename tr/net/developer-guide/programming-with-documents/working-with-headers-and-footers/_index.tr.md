@@ -7,6 +7,7 @@ description: "C# kullanılarak üstbilgiler ve altbilgiler nasıl değiştirilir
 type: docs
 weight: 150
 url: /tr/net/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words, kullanıcıların bir belgedeki üstbilgiler ve altbilgilerle çalışmasına olanak tanır. Üstbilgi, sayfanın üst kısmına yerleştirilen metindir ve altbilgi, sayfanın alt kısmına yerleştirilen metindir. Genellikle bu alanlar, sayfa numaraları, oluşturulma tarihi, şirket bilgileri vb. gibi belgenin tüm sayfalarında veya bazı sayfalarında tekrarlanması gereken bilgileri eklemek için kullanılır.

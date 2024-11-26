@@ -7,6 +7,7 @@ description: "Робота з діапазонами в документі Pytho
 type: docs
 weight: 130
 url: /uk/python-net/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

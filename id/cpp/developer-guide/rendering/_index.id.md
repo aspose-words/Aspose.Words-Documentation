@@ -1,4 +1,4 @@
-﻿---
+---
 title: Rendering dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Rendering
@@ -7,6 +7,7 @@ description: "Gunakan Aspose.Words untuk C++ fitur rendering untuk memformat dok
 type: docs
 weight: 20
 url: /id/cpp/rendering/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Kami menggunakan istilah "rendering" dalam Aspose.Words untuk menggambarkan proses pengubahan dokumen menjadi format file atau media yang diberi paginasi atau memiliki konsep halaman. Kita berbicara tentang rendering dokumen menjadi beberapa halaman. Diagram berikut menunjukkan rendering apa yang ada di Aspose.Words.

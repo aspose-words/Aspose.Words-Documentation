@@ -7,6 +7,7 @@ description: "使用 .NET 的 Aspose.Words 在任何支援的格式中建立、�
 type: docs
 weight: 20
 url: /zh-hant/net/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hello，World！"代碼通常是使用Aspose.Words為。NET的第一個簡單示例，它也可以作為一個健全測試來確保已正確安裝旨在編譯或運行源碼的軟件。

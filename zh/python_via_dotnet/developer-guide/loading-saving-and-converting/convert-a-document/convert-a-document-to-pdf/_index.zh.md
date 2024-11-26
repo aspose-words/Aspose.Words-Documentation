@@ -7,6 +7,7 @@ description: "使用 Python 将文档转换为 PDF。支持多种输入格式，
 type: docs
 weight: 10
 url: /zh/python-net/convert-a-document-to-pdf/
+timestamp: 2024-01-31-14-23-37
 ---
 
 轻松可靠地将文档从一种格式转换为另一种格式的能力是 Aspose.Words 的一项关键功能。最流行的转换格式之一是 PDF--一种固定布局格式，它在各种平台上呈现时保留文档的原始外观。 Aspose.Words 中使用"渲染"术语来描述将文档转换为分页或具有页面概念的文件格式的过程。

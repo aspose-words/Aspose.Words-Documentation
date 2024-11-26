@@ -7,6 +7,7 @@ description: "Úvod do práce s kontrolními znaky v Aspose.Words místo Python.
 type: docs
 weight: 400
 url: /cs/python-net/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word dokumenty mohou obsahovat různé znaky, které mají zvláštní význam. Normálně se používají pro formátování a nejsou kresleny v normálním režimu. Můžete je zviditelnit, pokud kliknete na tlačítko Show/Hide Formatting Marks umístěné na standardní nástrojové liště.

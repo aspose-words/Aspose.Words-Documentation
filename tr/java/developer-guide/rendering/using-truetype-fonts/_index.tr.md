@@ -7,6 +7,7 @@ description: "Doğru bir yazı tipi veya onun uygun değiştirilmesi nasıl bulu
 type: docs
 weight: 20
 url: /tr/java/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Belge üzerinde çalışırken genellikle farklı yazı tiplerini, stilleri ve boyutları kullanmak zorundasınız. Belgelere herhangi bir sayıda yazı tipi yer alabilir ve bunlar mutlaka işletim sisteminde bulunan yazı tiplerine sınırlı değildir. Yazılar tamamen farklı olabilir, örneğin diğer işletim sistemlerinden alınan yazı tipleri, satın alınan veya kullanıcılar tarafından kendi başlarına oluşturulan yazı tipleri.

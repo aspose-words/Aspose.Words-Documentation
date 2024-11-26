@@ -7,6 +7,7 @@ description: "Bir belgeyi düzenleme kısıtlamasını ayarlayarak kısıtlama t
 type: docs
 weight: 30
 url: /tr/java/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen bir belgeyi düzenlemenin yeteneğini sınırlamanız ve yalnızca belirli eylemleri ona izin vermeniz gerekebilir. Bu, diğer kişilerin hassas ve gizli bilgilere sahip belgenizi düzenleme girişimlerini önlemek için yararlı olabilir.

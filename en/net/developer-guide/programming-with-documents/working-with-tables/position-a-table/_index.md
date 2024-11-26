@@ -7,6 +7,7 @@ description: "Specify table position in C#. Get a table alignment, get and set f
 type: docs
 weight: 50
 url: /net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 There are floating tables and inline tables:

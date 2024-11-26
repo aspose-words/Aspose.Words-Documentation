@@ -1,4 +1,4 @@
-﻿---
+---
 title: Travailler avec des hyperliens en C++
 second_title: Aspose.Words pour C++
 articleTitle: Ajouter ou Modifier des hyperliens
@@ -7,6 +7,7 @@ description: "Comment ajouter un lien hypertexte dans votre document en utilisan
 type: docs
 weight: 180
 url: /fr/cpp/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un lien hypertexte dans les documents Microsoft Word est le champ `HYPERLINK`. Dans Aspose.Words, les hyperliens sont implémentés via la classe [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/).

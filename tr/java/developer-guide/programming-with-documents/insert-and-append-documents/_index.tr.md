@@ -7,6 +7,7 @@ description: "Birleştir belgeler bir tanesine: yeni veya mevcut bir belgeye bel
 type: docs
 weight: 80
 url: /tr/java/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen birkaç belgeyi tek bir belgeden birleştirmeniz gerekir. Bunu elle yapabilir ya da Aspose.Words ekle veya ilave et özelliğini kullanabilirsiniz.
@@ -49,7 +50,7 @@ Aşağıdaki kod örneği, bir bul ve değiştir işlemi sırasında bir belgede
 
 ### Bir Dokümanı Mail Merge Operasyonu Sırasında Ekle {#insert-a-document-during-mail-merge-operation}
 
-Bir mail merge işlemi sırasında bir belgeyi bir birleştirme alanına ekleyebilirsiniz. Örneğin, bir mail merge şablonu [Özet] gibi bir birleştirme alanı içerebilir. Fakat son belgede, başka bir harici belgeyle elde edilen içeriği bu birleştirme alanına eklemeniz gerekir. Bunu yapmak için birleştirme olayına bir işleyici oluşturmanız gerekecek.
+Bir Mail Merge işlemi sırasında bir belgeyi bir birleştirme alanına ekleyebilirsiniz. Örneğin, bir Mail Merge şablonu [Özet] gibi bir birleştirme alanı içerebilir. Fakat son belgede, başka bir harici belgeyle elde edilen içeriği bu birleştirme alanına eklemeniz gerekir. Bunu yapmak için birleştirme olayına bir işleyici oluşturmanız gerekecek.
 
 Aşağıdaki kod örneği, ekleme sürecinde daha sonra kullanılmak üzere birleştirme olayı için bir işleyicinin nasıl oluşturulacağını göstermektedir:
 

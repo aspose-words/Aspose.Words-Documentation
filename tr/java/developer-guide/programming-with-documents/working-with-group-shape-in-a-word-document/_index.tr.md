@@ -7,6 +7,7 @@ description: "Şekilleri Grouping ve ungroupoing yapmak için Java."
 type: docs
 weight: 290
 url: /tr/java/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen bir Word belgesine bir group shape eklemeniz gerekir. Böyle bir group shape birden çok şekilden oluşur

@@ -1,4 +1,4 @@
-﻿---
+---
 title: الحفظ إلى تنسيق الصفحة الثابتة في C++
 second_title: Aspose.Words ل C++
 articleTitle: حفظ مستند بتنسيق صفحة ثابتة
@@ -7,6 +7,7 @@ description: "كيفية حفظ مستند بتنسيق صفحة ثابتة– P
 type: docs
 weight: 15
 url: /ar/cpp/saving-a-document-to-fixed-page-format/
+timestamp: 2024-09-24-14-35-44
 ---
 
 بعد بناء تخطيط الصفحة وحساب هندسة الكائنات وموقعها على الصفحة، يمكن حفظ المستند بتنسيق صفحة ثابتة مدعوم بـ Aspose.Words.

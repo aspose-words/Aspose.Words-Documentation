@@ -7,6 +7,7 @@ type: docs
 description: "使用文档构建器轻松修改文档 Java。 。 。 。"
 weight: 20
 url: /zh/java/using-documentbuilder-to-modify-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## 指定格式
@@ -203,7 +204,7 @@ Aspose.Words 提供两个属性 `ParagraphFormat.SnapToGrid` 和 `Font.SnapToGri
 
 ### 移动到一个 `Merge` 外地
 
-有时候你可能需要做一个"手动" mail merge 使用 `DocumentBuilder` 或以特殊方式在 a 内填入合并字段 mail merge 事件处理器。 这时候 [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) 可能会有用。 该方法接受合并字段的名称. 它将光标移动到刚刚超出指定合并字段的位置,并删除合并字段。 下面的代码示例显示如何将光标移动到刚刚超出指定合并字段的位置.
+有时候你可能需要做一个"手动" Mail Merge 使用 `DocumentBuilder` 或以特殊方式在 a 内填入合并字段 Mail Merge 事件处理器。 这时候 [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) 可能会有用。 该方法接受合并字段的名称. 它将光标移动到刚刚超出指定合并字段的位置,并删除合并字段。 下面的代码示例显示如何将光标移动到刚刚超出指定合并字段的位置.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 

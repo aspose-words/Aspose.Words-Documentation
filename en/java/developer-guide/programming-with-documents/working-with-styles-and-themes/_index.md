@@ -11,6 +11,7 @@ aliases:
 - /java/how-to-extract-content-based-on-styles/
 - /java/working-with-styles/
 - /java/working-with-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) class is used to manage built-in and apply user-defined settings to styles.

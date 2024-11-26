@@ -7,6 +7,7 @@ description: "透過 C# 將欄位插入到文件中 – 學習不同方式與程
 type: docs
 weight: 20
 url: /zh-hant/net/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 插入字段到文件的方式有幾種不同的方法：
@@ -128,7 +129,7 @@ Word 文檔中的 `MERGEFIELD` 欄位可以用 [FieldMergeField](https://referen
 
 - 指定書籤的名稱
 - 指定預設用戶回應 (在提示視窗中包含的初始值)
-"- 指定用戶回應是否應該在每個 mail merge 操作中接收一次"
+"- 指定用戶回應是否應該在每個 Mail Merge 操作中接收一次"
 - 指定提示文字（即提示視窗的標題）
 
 {{% alert color="primary" %}}

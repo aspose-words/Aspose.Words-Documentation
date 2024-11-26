@@ -1,4 +1,4 @@
-﻿---
+---
 title: Restreindre l'édition de documents en C++
 second_title: Aspose.Words pour C++
 articleTitle: Restreindre la Modification des Documents
@@ -7,6 +7,7 @@ description: "Limitez la modification d'un document en définissant un type de r
 type: docs
 weight: 30
 url: /fr/cpp/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Parfois, vous devrez peut-être limiter la possibilité de modifier un document et n'autoriser que certaines actions avec celui-ci. Cela peut être utile pour empêcher d'autres personnes de modifier des informations sensibles et confidentielles dans votre document.

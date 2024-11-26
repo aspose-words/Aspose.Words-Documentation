@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Vorms in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Werk Met Vorms
@@ -7,6 +7,7 @@ description: "Inleiding tot vorm opmerkings taal, die skep van vorms van verskil
 type: docs
 weight: 280
 url: /af/net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hierdie onderwerp bespreek hoe om programmaties te werk met vorms met behulp van Aspose.Words.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Renderizar formas separadamente de um documento
 second_title: Aspose.Words para C++
 articleTitle: Renderizar formas separadamente de um documento
@@ -7,6 +7,7 @@ description: "Extraia vários objetos gráficos, como imagens, Caixa de texto co
 type: docs
 weight: 40
 url: /pt/cpp/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ao processar documentos, uma tarefa comum é extrair todas as imagens encontradas no documento e exportá-las para um local externo. Esta tarefa torna-se simples com o Aspose.Words API, que já fornece a funcionalidade para extrair e salvar dados de imagem. No entanto, por vezes, poderá pretender extrair de forma semelhante outros tipos de conteúdo gráfico que são representados por um tipo diferente de objeto de desenho, por exemplo, uma caixa de texto contendo parágrafos, formas de seta e uma imagem pequena. Não existe uma forma simples de renderizar este objecto, uma vez que se trata de uma combinação de elementos de conteúdo individuais. Você também pode encontrar um caso em que o conteúdo foi agrupado no objeto que se parece com uma única imagem.

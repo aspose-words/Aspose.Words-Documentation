@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lavorare con gli intervalli in C++
 second_title: Aspose.Words per C++
 articleTitle: Lavorare con le gamme
@@ -7,6 +7,7 @@ description: "Introduzione alla funzione Range in Aspose.Words per C++."
 type: docs
 weight: 130
 url: /it/cpp/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

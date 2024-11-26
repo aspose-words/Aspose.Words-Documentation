@@ -7,6 +7,7 @@ description: "Python kullanarak bir belgeye 'İçindekiler'i ekleyin ve yönetin
 type: docs
 weight: 170
 url: /tr/python-net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Çoğunlukla içindekiler tablosu (TOC) içeren belgelerle çalışacaksınız. Aspose.Words'i kullanarak kendi içindekiler tablonuzu ekleyebilir veya yalnızca birkaç satır kod kullanarak belgedeki mevcut içindekiler tablosunu tamamen yeniden oluşturabilirsiniz. Bu makalede, içindekiler alanıyla nasıl çalışılacağı özetlenmekte ve aşağıdakiler gösterilmektedir:
@@ -107,7 +108,7 @@ Varsayılan olarak yukarıdaki bu anahtarlar, belgeye varsayılan bir `TOC` ekle
 
 <p>- *\L – Bu TC alanının `TOC`'de hangi seviyede görüneceğini tanımlar. Aynı anahtarı kullanan bir `TOC`, bu TC alanını yalnızca belirtilen aralık dahilindeyse içerecektir.*</p>
 
-<p>- _\N – Bu `TOC` girişinin sayfa numaralandırması görüntülenmez. TC alanlarının nasıl ekleneceğine ilişkin örnek kod sonraki bölümde bulunabilir.</p> |
+<p>- `_\N` – Bu `TOC` girişinin sayfa numaralandırması görüntülenmez. TC alanlarının nasıl ekleneceğine ilişkin örnek kod sonraki bölümde bulunabilir.</p> |
 
 ### Görünümle İlgili Anahtarlar
 

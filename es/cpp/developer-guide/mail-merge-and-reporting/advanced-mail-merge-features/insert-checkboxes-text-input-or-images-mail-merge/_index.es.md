@@ -1,4 +1,4 @@
-﻿---
+---
 title: Inserte Checkbox es, Entrada de texto o Imágenes durante Mail Merge
 second_title: Aspose.Words para C++
 articleTitle: Insertar Checkbox es, Entrada de texto o Imágenes
@@ -7,9 +7,10 @@ description: "Inserte casillas de verificación o campos de entrada de texto dur
 type: docs
 weight: 40
 url: /es/cpp/insert-checkboxes-text-input-or-images-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
-El motor de combinación toma un documento como entrada, busca los campos `MERGEFIELD` en él y los reemplaza con los datos obtenidos del origen de datos. Normalmente, se insertan texto sin formato y HTML, pero Aspose.Words los usuarios también pueden generar un documento que maneje escenarios más inusuales para mail merge campos.
+El motor de combinación toma un documento como entrada, busca los campos `MERGEFIELD` en él y los reemplaza con los datos obtenidos del origen de datos. Normalmente, se insertan texto sin formato y HTML, pero Aspose.Words los usuarios también pueden generar un documento que maneje escenarios más inusuales para Mail Merge campos.
 
 La potente funcionalidad Aspose.Words le permite extender el proceso mail merge:
 
@@ -18,7 +19,7 @@ La potente funcionalidad Aspose.Words le permite extender el proceso mail merge:
 
 ## Inserte Checkbox es y entrada de texto durante Mail Merge
 
-A veces es necesario realizar una operación mail merge para que no se sustituya texto en el campo de combinación, sino una casilla de verificación o un campo de entrada de texto. Aunque este no es el escenario más común, es muy útil para algunas tareas.
+A veces es necesario realizar una operación Mail Merge para que no se sustituya texto en el campo de combinación, sino una casilla de verificación o un campo de entrada de texto. Aunque este no es el escenario más común, es muy útil para algunas tareas.
 
 La siguiente captura de pantalla de un documento de Word muestra una plantilla con campos de combinación:
 
@@ -42,11 +43,11 @@ El siguiente ejemplo de código muestra cómo insertar casillas de verificación
 
 ## Insertar imágenes durante Mail Merge
 
-Al realizar una operación mail merge, puede insertar imágenes de la base de datos en el documento utilizando campos especiales de image mail merge. El campo image mail merge es un campo de combinación denominado Image:MyFieldName.
+Al realizar una operación mail merge, puede insertar imágenes de la base de datos en el documento utilizando campos especiales de image mail merge. El campo image Mail Merge es un campo de combinación denominado Image:MyFieldName.
 
 ### Insertar imágenes desde una base de datos
 
-Durante un mail merge, cuando se encuentra un campo image mail merge en un documento, se activa el evento [FieldMergingCallback](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_fieldmergingcallback/). Puede responder a este evento para devolver un nombre de archivo, secuencia u objeto de imagen al motor mail merge para que pueda insertarse en el documento.
+Durante un mail merge, cuando se encuentra un campo image Mail Merge en un documento, se activa el evento [FieldMergingCallback](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_fieldmergingcallback/). Puede responder a este evento para devolver un nombre de archivo, secuencia u objeto de imagen al motor Mail Merge para que pueda insertarse en el documento.
 
 El siguiente ejemplo de código muestra cómo insertar imágenes almacenadas en un campo BLOB de la base de datos en un informe:
 

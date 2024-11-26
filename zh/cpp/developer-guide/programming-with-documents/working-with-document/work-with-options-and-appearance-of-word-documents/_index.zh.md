@@ -1,4 +1,4 @@
-﻿---
+---
 title: Word文档的选项和外观
 second_title: Aspose.Words对于C++
 articleTitle: 使用Word文档的选项和外观
@@ -7,6 +7,7 @@ description: "考虑到各种Microsoft Word版本之间的差异，控制Word文
 type: docs
 weight: 40
 url: /zh/cpp/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时您可能需要更改文档的外观，例如，设置语言首选项或每页的行数。Aspose.Words提供了控制文档显示方式的能力，以及一些附加选项。 本文描述了这样的可能性。

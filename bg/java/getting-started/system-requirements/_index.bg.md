@@ -7,6 +7,7 @@ description: "Преди да започнете да работите с Aspose
 type: docs
 weight: 80
 url: /bg/java/system-requirements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words вместо Java не изисква продукт на трета страна като Microsoft Word да бъде инсталиран. Aspose.Words сам по себе си е двигател за създаване, промяна, преобразуване и предаване на документи в различни формати, включително Microsoft Word формат на документите.

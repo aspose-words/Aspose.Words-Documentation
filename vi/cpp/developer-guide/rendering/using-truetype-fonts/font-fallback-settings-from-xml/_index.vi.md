@@ -1,4 +1,4 @@
-﻿---
+---
 title: Phông Chữ FallBack Cài đặt từ XML trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Phông Chữ FallBack Cài đặt từ XML
@@ -7,6 +7,7 @@ description: "Cơ chế dự phòng Phông Chữ được sử dụng khi phông
 type: docs
 weight: 14
 url: /vi/cpp/font-fallback-settings-from-xml/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Có hai cơ chế khác nhau được sử dụng trong Aspose.Words - Thay Thế Phông chữ và dự phòng Phông chữ. Thay thế phông chữ được sử dụng khi không thể tìm thấy phông chữ được chỉ định trong tài liệu trong số các nguồn phông chữ như được mô tả trong các phần trên. Cơ chế dự phòng Phông Chữ được sử dụng khi phông chữ được giải quyết, nhưng nó không chứa một ký tự cụ thể. Trong trường hợp này, Aspose.Words cố gắng sử dụng một trong các phông chữ dự phòng cho ký tự.

@@ -7,6 +7,7 @@ description: "Lavora con le caselle di testo in un documento utilizzando Python.
 type: docs
 weight: 250
 url: /it/python-net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In Aspose.Words, la classe [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) viene utilizzata per specificare come viene visualizzato un testo all'interno di una forma. Fornisce una proprietà pubblica denominata [parent](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/parent/) per ottenere la forma principale della casella di testo per consentire al cliente di trovare [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) collegato da [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) collegato.

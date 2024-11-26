@@ -7,6 +7,7 @@ description: "如何在 C# 中查找字段代码和字段结果等字段属性�
 type: docs
 weight: 25
 url: /zh/net/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 使用 [DocumentBuilder](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/insertfield/) 插入的字段返回 [Field](https://reference.aspose.com/words/zh/net/aspose.words.fields/field/) 对象。这是一个外观类，提供有用的方法来快速查找字段的某些属性。

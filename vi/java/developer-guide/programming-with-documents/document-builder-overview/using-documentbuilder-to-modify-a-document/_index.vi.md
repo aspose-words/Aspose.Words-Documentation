@@ -1,12 +1,13 @@
 ---
-title: Sử dụng `DocumentBuilder` để Sửa đổi Tài liệu
+title: Sử dụng DocumentBuilder để Sửa đổi Tài liệu
 second_title: Aspose.Words cho Java
-articleTitle: Sử dụng `DocumentBuilder` để Sửa đổi Tài liệu
-linktitle: Sử dụng `DocumentBuilder` để Sửa đổi Tài liệu
+articleTitle: Sử dụng DocumentBuilder để Sửa đổi Tài liệu
+linktitle: Sử dụng DocumentBuilder để Sửa đổi Tài liệu
 type: docs
 description: "Sử dụng trình xây dựng tài liệu để sửa đổi một tài liệu dễ dàng trong Java."
 weight: 20
 url: /vi/java/using-documentbuilder-to-modify-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Định dạng cụ thể
@@ -203,7 +204,7 @@ Chèn văn bản mới theo cách này không thay thế văn bản hiện có t
 
 ### Chuyển đến một `Merge` Field
 
-Đôi khi bạn cần phải thực hiện một "hành động thủ công" mail merge bằng cách sử dụng `DocumentBuilder` hoặc điền vào một trường hợp hợp nhất theo một cách thức đặc biệt bên trong một sự kiện xử lý mail merge. Đó là lúc mà [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) có thể hữu ích. Phương pháp chấp nhận tên trường kết hợp. Nó di chuyển con trỏ đến một vị trí ngay sau trường kết hợp được chỉ định và loại bỏ trường kết hợp đó. Mã ví dụ sau cho thấy cách di chuyển con trỏ đến vị trí chỉ xa hơn trường hợp kết hợp được chỉ định.
+Đôi khi bạn cần phải thực hiện một "hành động thủ công" Mail Merge bằng cách sử dụng `DocumentBuilder` hoặc điền vào một trường hợp hợp nhất theo một cách thức đặc biệt bên trong một sự kiện xử lý mail merge. Đó là lúc mà [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) có thể hữu ích. Phương pháp chấp nhận tên trường kết hợp. Nó di chuyển con trỏ đến một vị trí ngay sau trường kết hợp được chỉ định và loại bỏ trường kết hợp đó. Mã ví dụ sau cho thấy cách di chuyển con trỏ đến vị trí chỉ xa hơn trường hợp kết hợp được chỉ định.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 

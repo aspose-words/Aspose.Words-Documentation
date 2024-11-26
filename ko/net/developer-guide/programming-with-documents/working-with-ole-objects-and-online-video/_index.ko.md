@@ -7,6 +7,7 @@ description: "C#를 사용하여 문서에 OLE 포함을 만들고 수정합니�
 type: docs
 weight: 360
 url: /ko/net/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE(Object Linking and Embedding)는 사용자가 타사 응용 프로그램에서 생성하거나 편집한 "개체"가 포함된 문서로 작업할 수 있는 기술입니다. 즉, OLE를 사용하면 편집 응용 프로그램에서 이러한 "객체"를 다른 편집 응용 프로그램으로 내보낸 다음 추가 콘텐츠와 함께 가져올 수 있습니다.

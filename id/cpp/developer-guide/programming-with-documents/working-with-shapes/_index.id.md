@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Bentuk di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Bentuk
@@ -7,6 +7,7 @@ type: docs
 description: "Pengantar bahasa markup bentuk, membuat bentuk dari berbagai jenis menggunakan C++."
 weight: 280
 url: /id/cpp/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Topik ini membahas cara bekerja secara terprogram dengan bentuk menggunakan Aspose.Words.

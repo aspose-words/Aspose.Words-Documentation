@@ -7,6 +7,7 @@ description: "Bandingkan dua dokumen dalam format apa pun yang didukung dan tunj
 type: docs
 weight: 60
 url: /id/python-net/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Membandingkan dokumen merupakan proses yang mengidentifikasi perubahan antara dua dokumen dan memuat perubahan tersebut sebagai revisi. Proses ini membandingkan dua dokumen, termasuk versi dari satu dokumen tertentu, kemudian perubahan antara kedua dokumen tersebut akan ditampilkan sebagai revisi pada dokumen pertama.

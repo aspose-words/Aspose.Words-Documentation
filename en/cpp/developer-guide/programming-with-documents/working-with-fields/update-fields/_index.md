@@ -8,6 +8,7 @@ type: docs
 weight: 30
 url: /cpp/update-fields/
 aliases: [/cpp/updating-and-removing-a-field/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 Typically, a field inserted into Microsoft Word already contains an up to date value. For example, if the field is a formula or a page number, it will contain the correct calculated value for the given version of the document. But if you have an application that generates or modifies a document with fields like merging two documents or populating it with data, then ideally all fields must be updated for the document to be useful.
@@ -19,7 +20,7 @@ When a document is loaded, Aspose.Words mimics the behavior of Microsoft Word wi
 - when you open/save a document the fields remain intact
 - you can explicitly update all fields in a document, for example, rebuild `TOC`, when you need to
 - when you render to PDF or XPS the fields related to page-numbering in headers/footers are updated
-- when you execute mail merge all fields are updated automatically
+- when you execute Mail Merge all fields are updated automatically
 
 ### Update Fields Programmatically
 
@@ -37,7 +38,7 @@ The following code example shows how to update all fields before rendering a doc
 
 ### Automatic Field Update During Mail Merge
 
-When you execute a mail merge, all fields in the document will be automatically updated. This is because the mail merge is a case of a field update. The program encounters a mail merge field and needs to update its result, which involves grabbing the value from the data source and inserting it into the field. The logic is of course more complicated, for example, when the end of the document/mail merge region is reached but there is still further data to be merged, then the region needs to be duplicated and the new set of fields updated.
+When you execute a mail merge, all fields in the document will be automatically updated. This is because the Mail Merge is a case of a field update. The program encounters a Mail Merge field and needs to update its result, which involves grabbing the value from the data source and inserting it into the field. The logic is of course more complicated, for example, when the end of the document/mail merge region is reached but there is still further data to be merged, then the region needs to be duplicated and the new set of fields updated.
 
 ## Update LastSavedTime Property Before Saving
 

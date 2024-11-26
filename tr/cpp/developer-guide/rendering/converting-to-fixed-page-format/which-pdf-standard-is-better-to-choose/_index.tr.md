@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hangi PDF Standardını Seçmek daha iyidir
 second_title: Aspose.Words için C++
 articleTitle: Hangi PDF Standardını Seçmek daha iyidir
@@ -7,6 +7,7 @@ description: "Programlama görevinizin sonucunu C++ olarak dışa aktarmak için
 type: docs
 weight: 37
 url: /tr/cpp/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazı görevler için belirli PDF standartlar daha iyi veya tam tersi daha kötü olacaktır. Bu yazıda, hangi durumlar için hangi PDF standartların seçilmesinin mantıklı olduğunu belirlemeye çalışacağız.

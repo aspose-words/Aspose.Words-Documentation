@@ -1,4 +1,4 @@
-﻿---
+---
 title: Utilisation des polices TrueType en C++
 second_title: Aspose.Words pour C++
 articleTitle: Utilisation des polices TrueType
@@ -7,6 +7,7 @@ description: "Aspose.Words pour C++ peut trouver la bonne police ou son remplace
 type: docs
 weight: 20
 url: /fr/cpp/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Lorsque vous travaillez avec des documents, vous devez souvent utiliser des polices, des styles et des tailles différents. Les documents peuvent contenir un nombre illimité de polices, qui ne sont pas nécessairement limitées aux polices installées dans le système d'exploitation. Les polices peuvent être complètement différentes, telles que des polices extraites d'autres systèmes d'exploitation, achetées ou créées par les utilisateurs eux-mêmes.

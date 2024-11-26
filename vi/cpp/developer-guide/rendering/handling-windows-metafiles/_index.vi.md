@@ -1,4 +1,4 @@
-﻿---
+---
 title: Xử lý Windows Metafiles trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Xử Lý Windows Metafiles
@@ -7,6 +7,7 @@ description: "Aspose.Words cho C++ triển khai trình phát Metafile Windows c�
 type: docs
 weight: 30
 url: /vi/cpp/handling-windows-metafiles/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Windows Định dạng Metafile là một định dạng tệp hình ảnh có thể chứa cả đồ họa vector và raster. Định dạng này được sử dụng để lưu trữ dữ liệu đồ họa trong bộ nhớ hoặc các tệp trên đĩa. Một metafile lưu trữ danh sách các cuộc gọi chức năng Trong Giao diện thiết bị Đồ họa Windows (GDI) phải được thực thi để hiển thị hình ảnh trên màn hình. Hệ thống diễn giải và thực thi các lệnh này trong ngữ cảnh hiển thị.

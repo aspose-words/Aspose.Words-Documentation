@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++で固定ページ形式に保存する
 second_title: C++の場合Aspose.Words
 articleTitle: 文書を固定ページ形式で保存する
@@ -7,6 +7,7 @@ description: "ドキュメントを固定ページ形式（PDF、XPS、HTML、XA
 type: docs
 weight: 15
 url: /ja/cpp/saving-a-document-to-fixed-page-format/
+timestamp: 2024-09-24-14-35-44
 ---
 
 ページレイアウトが作成され、オブジェクトのジオメトリとページ上の位置が計算された後、文書はAspose.Wordsでサポートされている固定ページ形式で保存できます。

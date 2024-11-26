@@ -8,6 +8,7 @@ type: docs
 weight: 40
 url: /net/work-with-word-document-options-and-appearance/
 aliases: [/net/work-with-document-options-and-settings/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sometimes you may need to change the appearance of a document, for example, set language preferences or the number of lines per page.Aspose.Words provides the ability to control how the document will be displayed, as well as some additional options. This article describes such possibilities.

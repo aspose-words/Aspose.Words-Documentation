@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words dla Python via .NET wykonuje renderowanie grafiki SmartArt na zimno, co oznacza, że układa i renderuje obiekty SmartArt, jeśli brakuje wstępnie wyrenderowanego rysunku SmartArt lub jest on nieprawidłowy."
 weight: 330
 url: /pl/python-net/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Grafika SmartArt służy do szybkiego i łatwego tworzenia wizualnej reprezentacji informacji. Po prostu wybierasz spośród dużej liczby układów, który najlepiej pasuje do Twojej sytuacji. Ta łatwość użycia sprawia, że grafika SmartArt jest dość popularna w niektórych celach.

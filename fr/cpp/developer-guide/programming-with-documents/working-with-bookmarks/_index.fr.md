@@ -1,4 +1,4 @@
-﻿---
+---
 title: Travailler avec des signets en C++
 second_title: Aspose.Words pour C++
 articleTitle: Travailler avec des signets
@@ -7,6 +7,7 @@ description: "Comprendre les concepts de signets et comment les signets peuvent 
 type: docs
 weight: 180
 url: /fr/cpp/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Les signets identifient dans un document Microsoft Word les emplacements ou fragments que vous nommez et identifiez pour référence ultérieure. Par exemple, vous pouvez utiliser un signet pour identifier le texte que vous souhaitez réviser ultérieurement. Au lieu de faire défiler le document pour localiser le texte, vous pouvez y accéder à l'aide de la boîte de dialogue Signet.

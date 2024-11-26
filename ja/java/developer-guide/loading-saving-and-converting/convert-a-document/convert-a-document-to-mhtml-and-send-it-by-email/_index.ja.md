@@ -1,16 +1,17 @@
----
-title: ドキュメントをMHTMLに変換し、送信する メールでのお問い合わせ
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: ドキュメントをMHTMLに変換し、送信する メールでのお問い合わせ
-linktitle: ドキュメントをMHTMLに変換し、送信する メールでのお問い合わせ
-description: "MHTML形式に任意の文書を変換し、電子メールで送信する 1 つ以上のAsposeファミリー製品で Javaお問い合わせ"
+﻿---
+title: 文書をMHTMLに変換し、電子メールで送信します
+second_title: Aspose.WordsのためのJava
+articleTitle: 文書をMHTMLに変換し、電子メールで送信します
+linktitle: 文書をMHTMLに変換し、電子メールで送信します
+description: "任意の文書をMHTML形式に変換してから、JavaのAsposeファミリ製品をもう1つ使用して電子メールで送信します。"
 type: docs
 weight: 30
 url: /ja/java/convert-a-document-to-mhtml-and-send-it-by-email/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words MHTML(Webアーカイブ)形式に任意の文書を変換することができます。 使いやすい Aspose.Words そして、 `Aspose.Email` 一緒に。 DOC、OOXML、RTFなどのサポートされているフォーマットで事前定義された文書をロードできます。 Aspose.Words、データでそれを記入し、得られた文書をMHTMLとして保存し、そして電子メールによってそれを電子メールによって送って下さい `Aspose.Email`お問い合わせ
+Aspose.Wordsは任意の文書をMHTML(Webアーカイブ)形式に変換できます。 これにより、Aspose.Wordsと`Aspose.Email`を一緒に使用すると便利です。 DOC、OOXML、RTFなど、サポートされている任意の形式で定義済みの文書をAspose.Wordsにロードし、データを入力し、結果の文書をMHTMLとして保存してから、`Aspose.Email`を使用して電子メールで送
 
-次のコードの例では、文書をMHTMLに変換し、電子メールで送信する方法を示します。
+次のコード例は、任意の文書をMHTMLに変換して電子メールで送信する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ConvertDocumentToMHTMLAndEmail.java" >}}

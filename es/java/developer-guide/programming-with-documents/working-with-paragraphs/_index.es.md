@@ -1,70 +1,71 @@
----
-title: Working with Paragraphs in Java
-second_title: Aspose.Words para Java
-articleTitle: Working with Paragraphs
-linktitle: Working with Paragraphs
-description: "Prácticas de manipulación de los nodos del párrafo Java."
+﻿---
+title: Trabajar con párrafos en Java
+second_title: Aspose.Words por Java
+articleTitle: Trabajar con Párrafos
+linktitle: Trabajar con Párrafos
+description: "Prácticas de manipulación de nodos de párrafo usando Java."
 type: docs
 weight: 210
 url: /es/java/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Un párrafo es un conjunto de caracteres combinados en un bloque lógico y terminando con un carácter especial – un *interrupción*. In Aspose.Words, a párrafo está representado por [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) clase.
+Un párrafo es un conjunto de caracteres combinados en un bloque lógico y terminando con un carácter especial: a *paragraph break*. En Aspose.Words, un párrafo está representado por la clase [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/).
 
-## Inserción de un párrafo
+## Insertar un Párrafo
 
-Para insertar un nuevo párrafo en el documento, de hecho, es necesario insertar un carácter de ruptura del párrafo en él. [DocumentBuilder.Writeln](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#writeln) inserta no sólo una cadena de texto en el documento, sino que también añade una interrupción del párrafo.
+De hecho, para insertar un nuevo párrafo en el documento, debe insertar un carácter de salto de párrafo en él. [DocumentBuilder.Writeln](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#writeln) inserta no solo una cadena de texto en el documento, sino que también agrega un salto de párrafo.
 
-El formato de fuente actual también es especificado por el [Font](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getFont) y el formato actual del párrafo está determinado por el [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getParagraphFormat) propiedad. En la siguiente sección, vamos a entrar en más detalles sobre el formato del párrafo.
+El formato de fuente actual también se especifica mediante la propiedad [Font](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getFont), y el formato de párrafo actual se determina mediante la propiedad [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getParagraphFormat). En la siguiente sección, entraremos en más detalles sobre el formato de párrafo.
 
 El siguiente ejemplo de código muestra cómo insertar un párrafo en un documento:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderInsertParagraph.java" >}}
 
 
-## Formato Párrafo
+## Formato de Párrafo
 
-El formato actual del párrafo está representado por el [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/) objeto que es devuelto por el [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getParagraphFormat) propiedad. Este objeto encapsula varias propiedades de formato de párrafo disponibles en Microsoft Word. Puede reajustar fácilmente el formato de un párrafo a su predeterminado – Estilo normal, alineado izquierdo, sin indentación, sin espaciado, sin fronteras, sin sombra – llamando [ClearFormatting](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#clearFormatting).
+El formato de párrafo actual está representado por el objeto [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/) que devuelve la propiedad [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getParagraphFormat). Este objeto encapsula varias propiedades de formato de párrafo disponibles en Microsoft Word. Puede restablecer fácilmente el formato de un párrafo a su valor predeterminado (estilo normal, alineado a la izquierda, sin sangría, sin espaciado, sin bordes, sin sombreado) llamando a [ClearFormatting](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#clearFormatting).
 
-El siguiente ejemplo de código muestra cómo establecer el formato del párrafo:
+El siguiente ejemplo de código muestra cómo configurar el formato de párrafo:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderSetParagraphFormatting.java" >}}
 
-## Aplicar estilo del párrafo
+## Aplicar Estilo de Párrafo
 
-Algunos objetos de formato como los estilos de soporte Font o ParagraphFormat. Un solo estilo integrado o definido por el usuario está representado por un [Style](https://reference.aspose.com/words/java/com.aspose.words/style/) objeto que contiene las propiedades de estilo correspondiente como nombre, estilo base, fuente y formato párrafo del estilo, y así sucesivamente.
+Algunos objetos de formato, como Font o ParagraphFormat, admiten estilos. Un único estilo integrado o definido por el usuario se representa mediante un objeto [Style](https://reference.aspose.com/words/java/com.aspose.words/style/) que contiene las propiedades de estilo correspondientes, como el nombre, el estilo base, la fuente y el formato de párrafo del estilo,etc.
 
-Además, a **Style** objeto proporciona el [StyleIdentifier](https://reference.aspose.com/words/java/com.aspose.words/style/#getStyleIdentifier) propiedad que devuelve un identificador de estilo locale-independiente representado por un **StyleIdentifier** Valor de enumeración. El punto es que los nombres de estilos incorporados en Microsoft Word se localizan para diferentes idiomas. Utilizando un identificador de estilo, puede encontrar el estilo correcto independientemente del idioma de documento. Los valores de enumeración corresponden a los Microsoft Word estilos incorporados como *Normal*, *Cabeza 1*, *Cabeza 2*, etc. Todos los estilos definidos por el usuario son asignados **StyleIdentifier. Valor de usuario**.
+Además, un objeto **Style** proporciona la propiedad [StyleIdentifier](https://reference.aspose.com/words/java/com.aspose.words/style/#getStyleIdentifier) que devuelve un identificador de estilo independiente de la configuración regional representado por un valor de enumeración **StyleIdentifier**. El punto es que los nombres de los estilos integrados en Microsoft Word están localizados para diferentes idiomas. Con un identificador de estilo, puede encontrar el estilo correcto independientemente del idioma del documento. Los valores de enumeración corresponden a los estilos integrados Microsoft Word, como *Normal*, *Heading 1*, *Heading 2*, etc. A todos los estilos definidos por el usuario se les asigna el **StyleIdentifier.User value**.
 
 El siguiente ejemplo de código muestra cómo aplicar un estilo de párrafo:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderApplyParagraphStyle.java" >}}
 
-## Insertar separador de estilo para poner diferentes estilos de párrafo
+## Inserte un Separador de Estilos para Colocar Diferentes Estilos de Párrafo
 
-El separador de estilo se puede añadir al final de un párrafo utilizando el acceso directo Ctrl + Alt + Enter Keyboard en MS Word. Esta característica permite dos estilos de párrafo diferentes utilizados en un párrafo impreso lógico. Si desea que algún texto desde el comienzo de una partida en particular aparezca en una Tabla de Contenidos pero no quiere que todo el encabezado en la Tabla de Contenidos, puede utilizar esta característica.
+El separador de estilo se puede agregar al final de un párrafo usando el método abreviado de teclado Ctrl + Alt + Enter en MS Word. Esta característica permite utilizar dos estilos de párrafo diferentes en un párrafo impreso lógico. Si desea que aparezca texto desde el principio de un encabezado en particular en una Tabla de Contenido, pero no desea que aparezca todo el encabezado en la Tabla de Contenido, puede usar esta función.
 
-El siguiente ejemplo de código muestra cómo insertar un separador de estilo para acomodar diferentes estilos de párrafo:
+El siguiente ejemplo de código muestra cómo insertar un separador de estilos para acomodar diferentes estilos de párrafo:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-ParagraphInsertStyleSeparator.java" >}}
 
 
-## Aplique Borders and Shading to a Paragraph
+## Aplicar Bordes y Sombreado a un Párrafo
 
-Fronteras en Aspose.Words están representados por [BorderCollection](https://reference.aspose.com/words/java/com.aspose.words/bordercollection/) clase – esta es una colección de [Border](https://reference.aspose.com/words/java/com.aspose.words/border/) objetos a los que se accede por índice o por tipo de frontera. El `Border` tipo está representado por el [BorderType](https://reference.aspose.com/words/java/com.aspose.words/bordertype/) enumeración. Algunos valores de la enumeración son aplicables a varios o sólo un elemento de documento. Por ejemplo, **BorderType.Bottom** es aplicable a un párrafo o celda de mesa mientras **BorderType.DiagonalDown** especifica la frontera diagonal en una celda de mesa solamente.
+Los bordes en Aspose.Words están representados por la clase [BorderCollection](https://reference.aspose.com/words/java/com.aspose.words/bordercollection/): esta es una colección de [Border](https://reference.aspose.com/words/java/com.aspose.words/border/) objetos a los que se accede por índice o por tipo de borde. El tipo `Border` está representado por la enumeración [BorderType](https://reference.aspose.com/words/java/com.aspose.words/bordertype/). Algunos valores de la enumeración son aplicables a varios o solo a un elemento de documento. Por ejemplo, **BorderType.Bottom** se aplica a un párrafo o celda de tabla, mientras que **BorderType.DiagonalDown** especifica el borde diagonal solo en una celda de tabla.
 
-Tanto la colección fronteriza como cada frontera separada tienen atributos similares como color, estilo de línea, ancho de línea, distancia del texto, y sombra opcional. Están representados por propiedades del mismo nombre. Puede lograr diferentes tipos de frontera combinando los valores de propiedad. Además, ambos **BorderCollection** y **Border** objetos le permiten restablecer estos valores por defecto llamando al [ClearFormatting](https://reference.aspose.com/words/java/com.aspose.words/border/#clearFormatting) método.
+Tanto la colección de bordes como cada borde separado tienen atributos similares, como color, estilo de línea, ancho de línea, distancia del texto y sombra opcional. Están representados por propiedades del mismo nombre. Puede lograr diferentes tipos de bordes combinando los valores de las propiedades. Además, los objetos **BorderCollection** y **Border** le permiten restablecer estos valores predeterminados llamando al método [ClearFormatting](https://reference.aspose.com/words/java/com.aspose.words/border/#clearFormatting).
 
 {{% alert color="primary" %}}
 
-Tenga en cuenta que cuando las propiedades fronterizas se reasientan a valores predeterminados, la frontera es invisible.
+Tenga en cuenta que cuando las propiedades del borde se restablecen a los valores predeterminados, el borde es invisible.
 
 {{% /alert %}}
 
-Aspose.Words también tiene [Shading](https://reference.aspose.com/words/java/com.aspose.words/shading/) class contains shading atributos for document elements. Puede configurar la textura de afeitado deseada y los colores que se aplican al fondo y primer plano del elemento.
+Aspose.Words también tiene la clase [Shading](https://reference.aspose.com/words/java/com.aspose.words/shading/) que contiene atributos de sombreado para los elementos del documento. Puede establecer la textura de sombreado deseada y los colores que se aplican al fondo y al primer plano del elemento.
 
-La textura de afeitado se establece con la [TextureIndex](https://reference.aspose.com/words/java/com.aspose.words/textureindex/) valor de enumeración que permite la aplicación de diversos patrones al **Shading** objeto. Por ejemplo, para establecer un color de fondo para un elemento de documento, utilice el `TextureIndex.TextureSolid` valor y establecer el color de afeitado primer plano según corresponda. El ejemplo de código que figura a continuación muestra cómo aplicar las fronteras y afeitarse con un párrafo.
+La textura de sombreado se establece con el valor de enumeración [TextureIndex](https://reference.aspose.com/words/java/com.aspose.words/textureindex/) que permite la aplicación de varios patrones al objeto **Shading**. Por ejemplo, para establecer un color de fondo para un elemento de documento, use el valor `TextureIndex.TextureSolid` y establezca el color de sombreado de primer plano según corresponda. El ejemplo de código que se muestra a continuación muestra cómo aplicar bordes y sombreado a un párrafo.
 
-El siguiente ejemplo de código muestra cómo aplicar las fronteras y establecer un párrafo:
+El siguiente ejemplo de código muestra cómo aplicar bordes y sombreado a un párrafo:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderApplyBordersAndShadingToParagraph.java" >}}

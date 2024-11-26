@@ -1,4 +1,4 @@
-﻿---
+---
 title: Remove Field in PHP
 second_title: Aspose.Words for Java
 articleTitle: Remove Field in PHP
@@ -7,6 +7,7 @@ description: "Remove Field using PHP."
 type: docs
 weight: 45
 url: /java/remove-field-in-php/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Insert Nested Fields

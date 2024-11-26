@@ -7,6 +7,7 @@ description: "Restricționarea editării unui document prin setarea unui tip de 
 type: docs
 weight: 30
 url: /ro/net/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uneori s-ar putea să ai nevoie să limitezi capacitatea de a edita un document și doar să permiți anumite acțiuni cu el. Acest lucru poate fi util pentru a împiedica alte persoane să editeze informații sensibile și confidențiale în documentul dumneavoastră.

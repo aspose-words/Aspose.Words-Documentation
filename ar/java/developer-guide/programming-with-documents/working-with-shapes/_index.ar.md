@@ -1,82 +1,83 @@
----
-title: العمل مع شابيس في Java
-second_title: Aspose.Words for Java
-articleTitle: العمل مع شابيس
-linktitle: العمل مع شابيس
+﻿---
+title: العمل مع الأشكال في Java
+second_title: Aspose.Words ل Java
+articleTitle: العمل مع الأشكال
+linktitle: العمل مع الأشكال
 type: docs
-description: "مقدمة لتشكيل لغة الإشارة، وخلق أشكال من الأنواع المختلفة باستخدام Java."
+description: "مقدمة في تشكيل لغة الترميز، وإنشاء أشكال من أنواع مختلفة باستخدام Java."
 weight: 280
 url: /ar/java/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
-يناقش هذا الموضوع كيفية العمل على نحو برنامجي مع الأشكال المستخدمة Aspose.Words.
+يناقش هذا الموضوع كيفية العمل برمجيا مع الأشكال باستخدام Aspose.Words.
 
-الأشكال في Aspose.Words تمثّل جسماً في طبقة الرسم، مثل الأوتوماتشاب، وجهاز النص، والنسخ الحرّيّة، أو الجسم OLE، أو السيطرة على النفثالين، أو الصورة. ويمكن أن تتضمن الوثيقة الوردية شكلا أو أكثر من الأشكال المختلفة. تُمثّل شُعب الوثيقة بنص [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) الصف
+تمثل الأشكال في Aspose.Words كائنا في طبقة الرسم، مثل AutoShape أو مربع نص أو شكل حر أو OLE كائن أو عنصر تحكم أكتيفكس أو صورة. يمكن أن يحتوي مستند الكلمة على شكل واحد أو أكثر من الأشكال المختلفة. يتم تمثيل أشكال المستند بواسطة فئة [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/).
 
-## Insert Shape Using Document Builder
+## أدخل الشكل باستخدام منشئ المستندات
 
-يمكن أن تُدخل شكلاً خطياً مع نوع وحجم محددين وشكل الحيز الحر مع الموقع المحدد وحجم وغلفة النص في وثيقة تستخدم [InsertShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertShape-int-double-double) طريقة The **InsertShape** ويسمح هذا الأسلوب بإدخال شكل الـ DML في نموذج الوثيقة. The document must be save in the format, which supports DML shapes, otherwise, such nodes will be converted to VML shape, while documentving.
+يمكنك إدراج شكل مضمن بنوع وحجم محددين وشكل عائم حر مع الموضع والحجم ونوع التفاف النص المحدد في مستند باستخدام طريقة [InsertShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertShape-int-double-double). تسمح طريقة **InsertShape** بإدراج شكل DML في نموذج المستند. يجب حفظ المستند بالتنسيق، الذي يدعم DML الأشكال، وإلا، سيتم تحويل هذه العقد إلى VML الشكل، أثناء حفظ المستند.
 
-ويبين المثال الرمزي التالي كيفية إدراج هذه الأنواع من الأشكال في الوثيقة:
+يوضح مثال التعليمات البرمجية التالية كيفية إدراج هذه الأنواع من الأشكال في المستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-InsertShapeUsingDocumentBuilder.java" >}}
 
-## Set Aspect Ratio Locked
+## ضبط نسبة العرض إلى الارتفاع مقفلة
 
-استخدام Aspose.Words, ويمكنكم أن تحددوا ما إذا كانت نسبة جانب الشكل مقفلة من خلال [AspectRatioLocked](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getAspectRatioLocked) ملكية
+باستخدام Aspose.Words، يمكنك تحديد ما إذا كانت نسبة العرض إلى الارتفاع للشكل مؤمنة من خلال خاصية [AspectRatioLocked](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getAspectRatioLocked).
 
-ويبين المثال الرمزي التالي كيفية العمل مع **AspectRatioLocked** الممتلكات:
+يوضح مثال التعليمات البرمجية التالية كيفية العمل مع الخاصية **AspectRatioLocked**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-SetAspectRatioLocked.java" >}}
 
-## وضع شظايا في الخلية
+## تعيين تخطيط الشكل في الخلية
 
-يمكنك أيضاً تحديد ما إذا كان الشكل مظهر داخل طاولة أو خارجها باستخدام [IsLayoutInCell](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#isLayoutInCell) ملكية
+يمكنك أيضا تحديد ما إذا كان يتم عرض الشكل داخل جدول أو خارجه باستخدام خاصية [IsLayoutInCell](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#isLayoutInCell).
 
-ويبين المثال الرمزي التالي كيفية العمل مع **IsLayoutInCell** الممتلكات:
+يوضح مثال التعليمات البرمجية التالية كيفية العمل مع الخاصية **IsLayoutInCell**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-SetShapeLayoutInCell.java" >}}
 
-## مضافا إليها
+## إضافة زوايا مقصوص
 
-يُمْكِنُ أَنْ تَجْعلَ a تنازل زاويةِ مِنْ خلال Aspose.Words. أصناف الشكل هي:? SingleCornerSnipped, TopCornersnipped, DiagonalCorners snipped, TopCornersOneRoundedOneSnipped, singleCornerRounded, TopCornersRounded,* and *DiagonalCornersRounded.*
+يمكنك إنشاء مستطيل زاوية قصاصة باستخدام Aspose.Words. أنواع الأشكال هي *SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped, TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded,* و *DiagonalCornersRounded.*
 
-The DML shape is created using **InsertShape** طريقة بهذه الأشكال ولا يمكن استخدام هذه الأنواع لخلق أشكال العنف ضد المرأة. محاولة لخلق الشكل من خلال استخدام المبني العام لفئة "الشراب" رفع استثناء "لا يمكن تفسيره"
+يتم إنشاء الشكل DML باستخدام طريقة **InsertShape** مع أنواع الأشكال هذه. لا يمكن استخدام هذه الأنواع لإنشاء VML الأشكال. محاولة إنشاء شكل باستخدام المنشئ العام لفئة" الشكل "يثير الاستثناء" NotSupportedException".
 
-ويبين المثال الرمزي التالي كيفية إدراج هذا النوع من الأشكال في الوثيقة:
+يوضح مثال التعليمات البرمجية التالية كيفية إدراج هذا النوع من الأشكال في المستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-AddCornersSnipped.java" >}}
 
-## الحصول على نقاط الظل الفعلية
+## الحصول على نقاط حدود الشكل الفعلي
 
-استخدام Aspose.Words API, يمكنك الحصول على موقع وحجم الشكل الذي يحتوي على كتلة في النقاط، بالمقارنة مع مرساة الشكل الأعلى. للقيام بذلك، استخدام [BoundsInPoints](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getBoundsInPoints) ملكية
+باستخدام Aspose.Words API، يمكنك الحصول على موقع وحجم الشكل الذي يحتوي على كتلة بالنقاط، بالنسبة إلى مرساة الشكل العلوي. للقيام بذلك، استخدم خاصية [BoundsInPoints](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getBoundsInPoints).
 
-ويبين المثال الرمزي التالي كيفية العمل مع **BoundsInPoints** الممتلكات:
+يوضح مثال التعليمات البرمجية التالية كيفية العمل مع الخاصية **BoundsInPoints**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-GetActualShapeBoundsPoints.java" >}}
 
-## يرجى التحديد الرمزي
+## حدد مرساة عمودية
 
-يمكنك أن تحدد النص التوافق الرأسي في شكل باستخدام [VerticalAnchor](https://reference.aspose.com/words/java/com.aspose.words/textbox/#getVerticalAnchor) ملكية
+يمكنك تحديد المحاذاة الرأسية للنص داخل شكل باستخدام خاصية [VerticalAnchor](https://reference.aspose.com/words/java/com.aspose.words/textbox/#getVerticalAnchor).
 
-ويبين المثال الرمزي التالي كيفية العمل مع **VerticalAnchor** الممتلكات:
+يوضح مثال التعليمات البرمجية التالية كيفية العمل مع الخاصية **VerticalAnchor**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-SpecifyVerticalAnchor.java" >}}
 
-## Detect Smart Art Shape
+## كشف SmartArt الشكل
 
-Aspose.Words يسمح أيضا بالكشف إذا كان الشيب لديه `SmartArt` هدف للقيام بذلك، استخدام [HasSmartArt](https://reference.aspose.com/words/java/com.aspose.words/shape/#hasSmartArt) ملكية
+Aspose.Words يسمح أيضا باكتشاف ما إذا كان الشكل يحتوي على كائن `SmartArt`. للقيام بذلك، استخدم خاصية [HasSmartArt](https://reference.aspose.com/words/java/com.aspose.words/shape/#hasSmartArt).
 
-ويبين المثال الرمزي التالي كيفية العمل مع **HasSmartArt** الممتلكات:
+يوضح مثال التعليمات البرمجية التالية كيفية العمل مع الخاصية **HasSmartArt**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-DetectSmartArtShape.java" >}}
 
-## الحكم الأفقي
+## تنسيق القاعدة الأفقية
 
-يمكنك إدخال شكل القاعدة الأفقي في وثيقة تستخدم [InsertHorizontalRule](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHorizontalRule) طريقة
+يمكنك إدراج شكل القاعدة الأفقية في مستند باستخدام طريقة [InsertHorizontalRule](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHorizontalRule).
 
-Aspose.Words API توفير [HorizontalRuleFormat](https://reference.aspose.com/words/java/com.aspose.words/shape/#getHorizontalRuleFormat) الممتلكات اللازمة للوصول إلى ممتلكات شكل القواعد الأفقي. The [HorizontalRuleFormat](https://reference.aspose.com/words/java/com.aspose.words/horizontalruleformat/) ويكشف الفصل عن الممتلكات الأساسية مثل المرتفع والكولور ونوشاد وما إلى ذلك لتشكيل قاعدة أفقية.
+Aspose.Words API يوفر [HorizontalRuleFormat](https://reference.aspose.com/words/java/com.aspose.words/shape/#getHorizontalRuleFormat) خاصية للوصول إلى خصائص شكل القاعدة الأفقية. تعرض فئة [HorizontalRuleFormat](https://reference.aspose.com/words/java/com.aspose.words/horizontalruleformat/) الخصائص الأساسية مثل الارتفاع واللون و NoShade وما إلى ذلك. لتنسيق قاعدة أفقية.
 
-ويبين المثال الرمزي التالي كيفية وضعه **HorizontalRuleFormat**:
+يوضح مثال الكود التالي كيفية تعيين **HorizontalRuleFormat**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-ShapeHorizontalRuleFormat.java" >}}

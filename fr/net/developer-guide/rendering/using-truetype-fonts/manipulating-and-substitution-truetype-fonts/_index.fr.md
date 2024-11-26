@@ -7,6 +7,7 @@ description: "Aspose.Words pour .NET peut intégrer les polices TrueType correct
 type: docs
 weight: 10
 url: /fr/net/manipulating-and-substitution-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words nécessite des polices TrueType pour diverses tâches, notamment le rendu de documents dans des formats de page fixe, par exemple PDF ou XPS. Lorsque Aspose.Words restitue un document, il doit effectuer l'incorporation et l'incorporation de sous-ensembles de polices TrueType dans le document résultant, ce qui est une pratique normale lors de la génération d'un document, y compris les formats PDF ou XPS populaires. Cela garantit que le document apparaîtra de la même manière pour n’importe quel spectateur. De plus, la spécification XPS exige que les polices soient toujours intégrées au document.
@@ -58,7 +59,7 @@ Cependant, il existe des situations dans lesquelles la police exacte ne peut pas
 1. Si Aspose.Words ne parvient pas à localiser la police requise avec le nom exact correspondant et la propriété [AltName](https://reference.aspose.com/words/fr/net/aspose.words.fonts/fontinfo/altname/) définie pour cette police, alors Aspose.Words trouvera la police définie avec **AltName** à partir de la classe [FontInfo](https://reference.aspose.com/words/fr/net/aspose.words.fonts/fontinfo/), qui spécifie les informations sur la police.
 1. Si Aspose.Words ne parvient pas à localiser la police définie et que **AltName** n'est pas également défini, alors les règles de substitution de police sont appliquées une par une, comme décrit ci-dessous (lorsque le remplacement approprié est trouvé, le processus de substitution de police s'arrête et le l'étape suivante n'est pas exécutée):
    1. Tout d'abord, Aspose.Words essaie de traiter le nom de la police pour obtenir la substitution, en particulier il essaie de supprimer les suffixes avec les séparateurs "-" et ",".<br>
-      Si cette règle de substitution a lieu, une "Police '&lt;OriginalFont&gt;' n'a pas été trouvée. Utilisation de la police '&lt;SubstitutionFont&gt;' à la place. Raison: substitution du nom de police." un avertissement apparaît.<br>
+      Si cette règle de substitution a lieu, une "Police '<OriginalFont>' n'a pas été trouvée. Utilisation de la police '<SubstitutionFont>' à la place. Raison: substitution du nom de police." un avertissement apparaît.<br>
             {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontsFoldersSystemAndCustomFolder-GetSubstitutionWithoutSuffixes.cs" >}}
    1. Aspose.Words tente ensuite d'appliquer les paramètres de police du système d'exploitation, s'ils sont disponibles, à l'aide de l'utilitaire **FontConfig**. Cette fonctionnalité non Windows doit être utilisée avec un système d'exploitation compatible FontConfig. Presque tous les systèmes d'exploitation basés sur Unix disposent déjà d'une bibliothèque `FontConfig` conçue pour fournir une configuration, une personnalisation et un accès aux applications à l'échelle du système. Sinon, cette bibliothèque peut être facilement installée par l'utilisateur.
       Aspose.Words sait comment interroger les données et interpréter les résultats de FontConfig à ses propres fins. Par défaut, l'utilitaire `FontConfig` est désactivé. Vous pouvez l'activer comme suit:<br>

@@ -1,4 +1,4 @@
-﻿---
+---
 title: العمل مع العلامة المائية في C++
 second_title: Aspose.Words ل C++
 articleTitle: العمل مع العلامة المائية
@@ -7,6 +7,7 @@ type: docs
 description: "وثيقة التلاعب العلامة المائية باستخدام C++."
 weight: 340
 url: /ar/cpp/working-with-watermark/
+timestamp: 2024-01-30-16-22-34
 ---
 
 يناقش هذا الموضوع كيفية العمل برمجيا باستخدام العلامة المائية Aspose.Words. العلامة المائية هي صورة خلفية تعرض خلف النص في المستند. يمكن أن تحتوي العلامة المائية على نص أو صورة ممثلة بفئة [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/).

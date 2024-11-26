@@ -1,60 +1,61 @@
----
+﻿---
 title: 예제를 실행하는 방법
-second_title: Aspose.Words 제품정보 Java
+second_title: Aspose.WordsJava
 articleTitle: 예제를 실행하는 방법
 linktitle: 예제를 실행하는 방법
 type: docs
-description: "다운로드 Aspose.Words 제품정보 Java 우리의 예제 GitHub repository and learn how to run them to become more 익숙한 와 Aspose.Words 가능성과 특징."
+description: "우리의GitHub저장소에서Java예제에 대한Aspose.Words을 다운로드하고Aspose.Words가능성과 기능에 더 익숙해지기 위해 실행하는 방법에 대해 알아 봅니다."
 weight: 130
 url: /ko/java/how-to-run-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
-## 다운로드 GitHub
+## GitHub에서 다운로드
 
-모든 예제 Aspose.Words 제품정보 Java 계정 관리 [뚱 베어](https://github.com/aspose-words/Aspose.Words-for-Java)· 좋아하는 Github 클라이언트를 사용하여 저장소를 복제하거나 ZIP 파일을 다운로드 할 수 있습니다. [이름 *](https://github.com/aspose-words/Aspose.Words-for-Java/archive/master.zip)·
+Java에 대한Aspose.Words의 모든 예는 다음에 호스팅됩니다 [Github](https://github.com/aspose-words/Aspose.Words-for-Java). 당신은 당신의 마음에 드는Github클라이언트를 사용하여 저장소를 복제하거나ZIP파일을 다운로드 할 수 있습니다 [여기](https://github.com/aspose-words/Aspose.Words-for-Java/archive/master.zip).
 
-컴퓨터에 ZIP 파일의 내용을 추출합니다. 모든 예제는 **Examples** 폴더.
+ZIP파일의 내용을 컴퓨터의 모든 폴더로 추출합니다. 모든 예제는**Examples**폴더에 있습니다.
 
 ![how-to-run-examples-aspose-words-java-1](/words/java/how-to-run-the-examples/how-to-run-examples-aspose-words-java-1.png)
 
-프로젝트 사용 Maven 시스템 구축. 모든 현대 IDE는 프로젝트를 쉽게 열거나 수입할 수 있습니다. 아래에서 인기있는 IDE를 사용하여 예를 빌드하고 실행하는 방법을 보여줍니다.
+이 프로젝트는Maven빌드 시스템을 사용합니다. 모든 현대IDE는 프로젝트와 해당 종속성을 쉽게 열거 나 가져올 수 있습니다. 아래에서는 인기IDEs를 사용하여 예제를 빌드하고 실행하는 방법을 보여 줍니다.
 
 ## IntelliJ IDEA
 
-자주 묻는 질문 **File** 메뉴 및 선택 **Open**· 프로젝트 폴더에 찾아서 선택하기 **사이트맵** 파일.
+**File**메뉴를 클릭하고**Open**를 선택합니다. 프로젝트 폴더를 찾아**pom.xml**파일을 선택합니다.
 
 ![how-to-run-examples-aspose-words-java-2](/words/java/how-to-run-the-examples/how-to-run-examples-aspose-words-java-2.png)
 
-프로젝트가 열리고, 종속을 자동으로 다운로드합니다. 프로젝트 탭에서 예제를 찾아 **src/main/java 서버** 폴더. 예를 실행하려면, 파일을 마우스 오른쪽 클릭하고 "Run .."를 선택합니다. 예를 들어 실행되고 출력은 콘솔 출력 창에 내장되어 표시됩니다.
+이 프로젝트를 열고 자동으로 종속성을 다운로드합니다. 프로젝트 탭에서**src/main/java**폴더의 예제를 찾습니다. 예제를 실행하려면 파일을 마우스 오른쪽 버튼으로 클릭하고"실행"을 선택하십시오..",예제가 실행되고 출력은 내장 콘솔 출력 창에 표시됩니다.
 
 ![how-to-run-examples-aspose-words-java-3](/words/java/how-to-run-the-examples/how-to-run-examples-aspose-words-java-3.png)
 
 ## Eclipse
 
-계정 만들기 **File** 메뉴 및 선택 **Import**· 제품정보 **Maven** - 연혁 Maven 프로젝트
+**File**메뉴를 클릭하고**Import**을 선택합니다. **Maven**-기존Maven프로젝트를 선택합니다.
 
 ![how-to-run-examples-aspose-words-java-4](/words/java/how-to-run-the-examples/how-to-run-examples-aspose-words-java-4.png)
 
-복제되거나 다운로드 된 폴더로 검색 GitHub 및 선택 **사이트맵** 파일.
+GitHub에서 복제하거나 다운로드한 폴더를 찾아**pom.xml**파일을 선택합니다.
 
 ![how-to-run-examples-aspose-words-java-5](/words/java/how-to-run-the-examples/how-to-run-examples-aspose-words-java-5.png)
 
-프로젝트가 열리고, 종속을 자동으로 다운로드합니다. Package Explorer 탭에서 예제를 검색합니다. **src/main/java 서버** 폴더. 예를 들어, 파일을 마우스 오른쪽 클릭하고 선택 **Run As** - - - **Java Application**, 예제가 실행되고 출력은 콘솔 출력 창에 내장되어 표시됩니다.
+이 프로젝트를 열고 자동으로 종속성을 다운로드합니다. 패키지 탐색기 탭에서**src/main/java**폴더의 예제를 찾습니다. 예제를 실행하려면 파일을 마우스 오른쪽 버튼으로 클릭하고**Run As**-**Java Application**을 선택하면 예제가 실행되고 출력이 내장된 콘솔 출력 창에 표시됩니다.
 
 ![how-to-run-examples-aspose-words-java-6](/words/java/how-to-run-the-examples/how-to-run-examples-aspose-words-java-6.png)
 
 ## NetBeans
 
-자주 묻는 질문 **File** 메뉴 및 선택 **Open Project**· 복제되거나 다운로드 된 폴더로 검색 GitHub· 의 아이콘 **Examples** 폴더가 표시될 것 Maven 프로젝트. 예제를 선택하고 엽니다.
+**File**메뉴를 클릭하고**Open Project**을 선택합니다. GitHub에서 복제하거나 다운로드한 폴더를 찾습니다. **Examples**폴더의 아이콘은Maven프로젝트가 있음을 보여줍니다. 예제를 선택하고 엽니 다.
 
 ![how-to-run-examples-aspose-words-java-7](/words/java/how-to-run-the-examples/how-to-run-examples-aspose-words-java-7.png)
 
-프로젝트가 열리고, 종속을 자동으로 다운로드합니다. Projects 탭에서 예제를 검색합니다. **소스 패키지**· 예를 들어, 파일을 마우스 오른쪽 클릭하고 선택 **Run File**, 예제가 실행되고 출력은 콘솔 출력 창에 내장되어 표시됩니다.
+이 프로젝트를 열고 자동으로 종속성을 다운로드합니다. 프로젝트 탭에서**source packages**의 예제를 찾습니다. 예제를 실행하려면 파일을 마우스 오른쪽 버튼으로 클릭하고**Run File**을 선택하면 예제가 실행되고 출력이 내장된 콘솔 출력 창에 표시됩니다.
 
 ![how-to-run-examples-aspose-words-java-8](/words/java/how-to-run-the-examples/how-to-run-examples-aspose-words-java-8.png)
 
-## 계정 만들기
+## 기여
 
-예를 추가하거나 개선하려면 프로젝트에 기여하는 것을 권장합니다. 이 저장소에 있는 모든 예 그리고 진열장 프로젝트는 오픈 소스이고 당신의 자신의 신청에서 자유롭게 사용될 수 있습니다.
+예를 추가하거나 개선하려는 경우 프로젝트에 기여하는 것이 좋습니다. 이 저장소의 모든 예제와 쇼케이스 프로젝트는 오픈 소스이며 자신의 응용 프로그램에서 자유롭게 사용할 수 있습니다.
 
-기여하려면 저장소를 포크하고 소스 코드를 편집하고 Pull 요청을 만들 수 있습니다. 우리는 변화를 검토하고 도움이 발견되면 저장소에 포함.
+기여하려면 리포지토리를 포크 소스 코드를 편집하고 풀 요청을 만들 수 있습니다. 우리는 변경 사항을 검토하고 도움이 발견되면 저장소에 포함 할 것이다.

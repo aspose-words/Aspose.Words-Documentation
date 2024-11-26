@@ -7,6 +7,7 @@ description: "C#를 사용하여 세부적으로 글꼴 형식을 지정합니�
 type: docs
 weight: 230
 url: /ko/net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 글꼴은 특정 크기, 색상 및 디자인을 가진 문자 집합입니다. Aspose.Words를 사용하면 [Fonts](https://reference.aspose.com/words/net/aspose.words.fonts/) 네임스페이스와 [Font](https://reference.aspose.com/words/net/aspose.words/font/) 클래스를 사용하여 글꼴 작업을 할 수 있습니다.

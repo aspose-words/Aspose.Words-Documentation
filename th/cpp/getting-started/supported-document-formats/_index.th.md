@@ -1,4 +1,4 @@
-﻿---
+---
 title: รูปแบบเอกสารที่รองรับ
 second_title: Aspose.WordsสำหรับC++
 articleTitle: รูปแบบเอกสารที่รองรับ
@@ -7,6 +7,7 @@ type: docs
 description: "แก้ไขเอกสารต้นฉบับในรูปแบบที่นิยมมากเช่นเดียวกับได้อย่างอิสระแปลงไฟล์จากรูปแบบหนึ่งไปยังอีกโดยใช้C++."
 weight: 20
 url: /th/cpp/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

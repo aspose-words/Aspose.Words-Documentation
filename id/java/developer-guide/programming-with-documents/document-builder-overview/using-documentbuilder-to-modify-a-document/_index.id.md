@@ -1,12 +1,13 @@
 ---
-title: Sitemap `DocumentBuilder` Modifikasi Dokumen
+title: Sitemap DocumentBuilder Modifikasi Dokumen
 second_title: Aspose.Words Sitemap Java
-articleTitle: Sitemap `DocumentBuilder` Modifikasi Dokumen
-linktitle: Sitemap `DocumentBuilder` Modifikasi Dokumen
+articleTitle: Sitemap DocumentBuilder Modifikasi Dokumen
+linktitle: Sitemap DocumentBuilder Modifikasi Dokumen
 type: docs
 description: "Gunakan pembangun dokumen untuk memodifikasi dokumen dengan mudah JavaSitemap"
 weight: 20
 url: /id/java/using-documentbuilder-to-modify-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Formatifikasi
@@ -203,7 +204,7 @@ Masukkan teks baru dengan cara ini tidak menggantikan teks yang ada dari bookmar
 
 ### Sitemap `Merge` Login
 
-Kadang-kadang Anda mungkin perlu melakukan "manual" mail merge Login `DocumentBuilder` atau mengisi lapangan merge dengan cara khusus di dalam mail merge event handler. Sitemap [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) bisa berguna. Metode menerima nama lapangan merge. Ini memindahkan kursor ke posisi di luar bidang gabungan yang ditentukan dan menghapus lapangan merge. Contoh kode berikut menunjukkan cara memindahkan kursor ke posisi di luar bidang gabungan yang ditentukan.
+Kadang-kadang Anda mungkin perlu melakukan "manual" Mail Merge Login `DocumentBuilder` atau mengisi lapangan merge dengan cara khusus di dalam Mail Merge event handler. Sitemap [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) bisa berguna. Metode menerima nama lapangan merge. Ini memindahkan kursor ke posisi di luar bidang gabungan yang ditentukan dan menghapus lapangan merge. Contoh kode berikut menunjukkan cara memindahkan kursor ke posisi di luar bidang gabungan yang ditentukan.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 

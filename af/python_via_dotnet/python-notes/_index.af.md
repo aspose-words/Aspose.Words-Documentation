@@ -1,4 +1,4 @@
-﻿---
+---
 title: Python En .NET Weergawe Verskille
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Python En .NET Weergawe Verskille
@@ -7,6 +7,7 @@ description: "Aspose.Words vir Python via .NET is'n verpakking van Aspose.Words 
 type: docs
 weight: 15
 url: /af/python-net/python-notes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words vir Python via .NET is'n verpakking van Aspose.Words vir .NET, daarom het die twee produkte byna dieselfde stel kenmerke. Nietemin is daar'n paar nuanses van werk en verskille in kenmerke en API, wat op hierdie bladsy beskryf word.

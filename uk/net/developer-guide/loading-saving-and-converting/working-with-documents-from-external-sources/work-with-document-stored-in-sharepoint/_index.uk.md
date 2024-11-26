@@ -1,12 +1,13 @@
 ---
-title: Робота з документом `SharePoint` Інтернет
+title: Робота з документом SharePoint Інтернет
 second_title: Aspose.Words для .NET
-articleTitle: Робота з документом `SharePoint` Інтернет
-linktitle: Робота з документом `SharePoint` Інтернет
+articleTitle: Робота з документом SharePoint Інтернет
+linktitle: Робота з документом SharePoint Інтернет
 description: "Перетворення Word спільного в SharePoint до PDF C#й Робота з документами, що зберігаються в SharePoint – різні формати введення, включаючи Word, OpenOffice, Image та eBook."
 type: docs
 weight: 20
 url: /uk/net/work-with-document-stored-in-sharepoint/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Microsoft SharePoint Інтернет – це колекція веб-технологій, які дозволяють легко зберігати, ділитися та керувати цифровою інформацією. Ви можете працювати з документами, що зберігаються в папці "Схаред документи" в папці "Схаред документи" SharePoint використання наших потужних Aspose.Words для .NETй

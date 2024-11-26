@@ -1,4 +1,4 @@
-﻿---
+---
 title: نام تولید کننده در خروجی ها
 second_title: Aspose.Words برای C++
 articleTitle: نام ژنراتور یا تولید کننده در اسناد خروجی
@@ -7,6 +7,7 @@ description: "Aspose.Words برای C++ نام ژنراتور و شماره نس
 type: docs
 weight: 90
 url: /fa/cpp/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 شما به راحتی می توانید بدانید که آیا یک سند با استفاده از Aspose.Words برای C++. شما همچنین می توانید شماره نسخه از Aspose.Words برای C++ که برای ایجاد یک سند خروجی خاص استفاده می شد. Aspose.Words مستقیما این اطلاعات را در سند تولید شده می نویسد.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Metadata Cleaner for Word
 second_title: Aspose.Words for .NET
 articleTitle: Metadata Cleaner for Word
@@ -7,6 +7,7 @@ description: "Aspose.Words Metadata Cleaner for Word is a metadata removal tool 
 type: docs
 weight: 10
 url: /net/metadata-cleaner-for-word/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words Metadata Cleaner is a metadata removal tool which protects organizations from accidental information and metadata leaks. Unintentional leaks have the potential to embarrass or negatively impact a company’s financial well-being. Aspose.Words Metadata Cleaner that will allow you to select the document and clean it. It will allow you to clean all Built-in and Custom properties from these files. You can select multiple files and clean them simultaneously in one click. Extract it on your machine and run it directly without installing.

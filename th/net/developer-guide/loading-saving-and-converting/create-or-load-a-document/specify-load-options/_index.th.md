@@ -7,6 +7,7 @@ description: "ควบคุมกระบวนการโหลดได้
 type: docs
 weight: 10
 url: /th/net/specify-load-options/
+timestamp: 2024-07-09-19-00-42
 ---
 
 เมื่อโหลดเอกสาร คุณสามารถตั้งค่าคุณสมบัติขั้นสูงบางอย่างได้ Aspose.Words ให้คลาส [LoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/) แก่คุณ ซึ่งช่วยให้ควบคุมกระบวนการโหลดได้แม่นยำยิ่งขึ้น รูปแบบการโหลดบางรูปแบบมีคลาสที่สอดคล้องกันซึ่งมีตัวเลือกการโหลดสำหรับรูปแบบการโหลดนี้ เช่น มี [PdfLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/) สำหรับการโหลดเป็นรูปแบบ PDF หรือ [TxtLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/) สำหรับการโหลดไปยัง TXT บทความนี้จะแสดงตัวอย่างการทำงานกับตัวเลือกของคลาส **LoadOptions**

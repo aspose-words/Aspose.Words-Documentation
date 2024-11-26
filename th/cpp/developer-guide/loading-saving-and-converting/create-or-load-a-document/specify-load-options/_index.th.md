@@ -1,4 +1,4 @@
-﻿---
+---
 title: ระบุตัวเลือกการโหลดในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: ระบุตัวเลือกการโหลด
@@ -7,6 +7,7 @@ description: "ควบคุมกระบวนการโหลดได้
 type: docs
 weight: 10
 url: /th/cpp/specify-load-options/
+timestamp: 2024-01-30-16-22-34
 ---
 
 เมื่อโหลดเอกสารคุณสามารถตั้งค่าคุณสมบัติขั้นสูงบางอย่างได้ Aspose.Wordsช่วยให้คุณมี[LoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/loadoptions/)ชั้นซึ่งจะช่วยให้การควบคุมที่แม่นยำมากขึ้นของกระบวนการโหลด รูปแบบการโหลดบางรูปแบบมีคลาสที่สอดคล้องกันซึ่งมีตัวเลือกการโหลดสำหรับรูปแบบการโหลดนี้ตัวอย่างเช่นมี[PdfLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/pdfloadoptions/)สำหรับการโหลดไปยังรูปแบบPDFหรือ[TxtLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/txtloadoptions/)สำหรับการโหลดไปยังTXT บทความนี้แสดงตัวอย่างของการทำงานกับตัวเลือกของ**LoadOptions**คลาส.

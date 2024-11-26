@@ -1,4 +1,4 @@
-﻿---
+---
 title: Inserați Checkboxes, introducere de Text sau imagini în timpul Mail Merge
 second_title: Aspose.Words pentru Java
 articleTitle: Inserați Checkboxes, introducere Text sau imagini
@@ -7,6 +7,7 @@ description: "Introduceți checkboxes sau câmpuri de introducere a textului în
 type: docs
 weight: 20
 url: /ro/java/insert-checkboxes-text-input-or-images-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Merge engine ia un document ca intrare, caută câmpuri `MERGEFIELD` în el și le înlocuiește cu datele obținute din sursa de date. De obicei, textul simplu și HTML sunt inserate, dar Aspose.Words Utilizatorii pot genera, de asemenea, un document care gestionează scenarii mai neobișnuite pentru câmpurile mail merge.
@@ -42,11 +43,11 @@ Următorul exemplu de cod arată cum să inserați checkboxes și câmpurile de 
 
 ## Inserați imagini în timpul Mail Merge
 
-Când efectuați o operație mail merge, puteți insera imagini din Baza de date în document folosind câmpuri speciale image mail merge. Câmpul image mail merge este un câmp de îmbinare numit Image: MyFieldName.
+Când efectuați o operație mail merge, puteți insera imagini din Baza de date în document folosind câmpuri speciale image mail merge. Câmpul image Mail Merge este un câmp de îmbinare numit Image: MyFieldName.
 
 ### Inserați imagini dintr-o bază de date
 
-În timpul unui mail merge, când un câmp de imagine mail merge este întâlnit într-un document, evenimentul [FieldMergingCallback](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldMergingCallback) este declanșat. Puteți răspunde la acest eveniment pentru a returna un nume de fișier, un flux sau un obiect de imagine la motorul mail merge, astfel încât să poată fi inserat în document.
+În timpul unui mail merge, când un câmp de imagine Mail Merge este întâlnit într-un document, evenimentul [FieldMergingCallback](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldMergingCallback) este declanșat. Puteți răspunde la acest eveniment pentru a returna un nume de fișier, un flux sau un obiect de imagine la motorul mail merge, astfel încât să poată fi inserat în document.
 
 Următorul exemplu de cod arată cum să inserați imagini stocate într-o bază de date BLOB câmp într-un raport:
 

@@ -7,6 +7,7 @@ description: "Aspose.Words místo Java může vložit správná písma TrueType 
 type: docs
 weight: 10
 url: /cs/java/manipulate-and-substitute-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words vyžaduje Pravdu Typ písma pro různé úkoly, včetně vykreslování dokumentů do formátů pevných stránek, například PDF nebo XPS. Kdy? Aspose.Words vloží dokument, musí provést vkládání a vkládání podmnožin do výsledného dokumentu TrueType, což je běžná praxe během generování dokumentů, včetně populárního PDF nebo XPS formáty. Tím se zajistí, že dokument bude pro každého prohlížeče stejný. Navíc XPS specifikace vyžaduje, aby písma byla vždy vložena do dokumentu.

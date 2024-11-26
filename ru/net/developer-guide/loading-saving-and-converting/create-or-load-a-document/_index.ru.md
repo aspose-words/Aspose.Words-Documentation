@@ -8,6 +8,7 @@ url: /ru/net/create-or-load-a-document/
 description: "Создать пустой документ или загрузить его из файла или потока с помощью C#."
 keywords: "create a document c#, load a document c#, create a blank document c#, load a document from file c#, load a document from stream c#, create a document Aspose .NET, load a document Aspose .NET, load formats supported by Aspose.Words .NET"
 weight: 10
+timestamp: 2024-07-09-19-00-42
 ---
 
 Почти любая задача, которую вы хотите выполнить Aspose.Words Речь идет о загрузке документа. The `Document` Класс представляет собой документ, загруженный в память. В документе есть несколько перегруженных конструкторов, позволяющих создать пустой документ или загрузить его из файла или потока. Документ может быть загружен в любом формате загрузки, поддерживаемом Aspose.Words. Для списка всех поддерживаемых форматов загрузки см. [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/) перечисление.

@@ -7,6 +7,7 @@ description: "选择最佳的 PDF 标准以 C# 格式导出编程任务的结果
 type: docs
 weight: 27
 url: /zh/net/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 对于某些任务，某些 PDF 标准会更适合，反之亦然。在本文中，我们将尝试确定在哪些情况下选择哪些 PDF 标准是有意义的。

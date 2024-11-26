@@ -1,4 +1,4 @@
-﻿---
+---
 title: Foire AUX QUESTIONS
 second_title: Aspose.Words pour C++
 articleTitle: Foire AUX QUESTIONS
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words pour C++ répond aux questions les plus fréquemment posées. Apprenez cette page pour résoudre rapidement votre problème sur des questions générales ou des sujets spécifiques."
 weight: 75
 url: /fr/cpp/faq/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Cette page contient les réponses aux questions les plus fréquemment posées. Veuillez lire la page actuelle – cela vous permettra peut-être de résoudre votre problème rapidement.

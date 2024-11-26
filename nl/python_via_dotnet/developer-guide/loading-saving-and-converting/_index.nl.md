@@ -7,6 +7,7 @@ description: "Hoe een document van het ene formaat naar het andere converteren, 
 type: docs
 weight: 10
 url: /nl/python-net/loading-saving-and-converting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Deze sectie geeft informatie over de functies bij het laden en opslaan van een document, evenals gegevens over de mogelijkheden bij het omzetten van een document van het ene formaat naar het andere.

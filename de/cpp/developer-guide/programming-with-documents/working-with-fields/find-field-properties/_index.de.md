@@ -1,4 +1,4 @@
-﻿---
+---
 title: So finden Sie Feldeigenschaften
 second_title: Aspose.Words für C++
 articleTitle: Feldeigenschaften suchen
@@ -7,6 +7,7 @@ description: "So finden Sie einige Feldeigenschaften wie Feldcode und Feldergebn
 type: docs
 weight: 25
 url: /de/cpp/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ein Feld, das mit [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/) eingefügt wird.[InsertField](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertfield/) gibt ein [Field](https://reference.aspose.com/words/cpp/aspose.words.fields/field/)-Objekt zurück. Dies ist eine Fassadenklasse, die nützliche Methoden zum schnellen Auffinden einiger Eigenschaften eines Felds bereitstellt.

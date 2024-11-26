@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Vorms in Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Werk Met Vorms
@@ -7,6 +7,7 @@ description: "Skep en bestuur vorms, ole voorwerpe in'n dokument met behulp van 
 type: docs
 weight: 280
 url: /af/python-net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hierdie onderwerp bespreek hoe om programmaties te werk met vorms met behulp van Aspose.Words.

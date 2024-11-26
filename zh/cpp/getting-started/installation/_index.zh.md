@@ -1,4 +1,4 @@
-﻿---
+---
 title: 如何安装 Aspose.Words为C++
 second_title: Aspose.Words为C++
 articleTitle: 安装工程
@@ -7,6 +7,7 @@ description: "安装/安装 Aspose.Words为C++ 使用管理NuGet包或Package Ma
 type: docs
 weight: 10
 url: /zh/cpp/installation/
+timestamp: 2024-09-24-14-35-44
 ---
 
 确保您的机器符合 [系统要求](/words/cpp/system-requirements/) 在你开始之前。

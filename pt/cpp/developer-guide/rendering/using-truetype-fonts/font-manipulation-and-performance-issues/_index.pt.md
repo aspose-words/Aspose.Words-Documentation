@@ -1,4 +1,4 @@
-﻿---
+---
 title: Manipulação de fontes e problemas de desempenho em C++
 second_title: Aspose.Words para C++
 articleTitle: Manipulação de fontes e problemas de desempenho
@@ -7,6 +7,7 @@ description: "Aspose.Words para C++ usa o nome completo da fonte, nome de Famíl
 type: docs
 weight: 11
 url: /pt/cpp/font-manipulation-and-performance-issues/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Todos os mecanismos de manipulação de fontes disponíveis estão contidos na classe [FontSettings](https://reference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings). Esta classe é responsável por buscar fontes dentro de fontes de fonte definidas, bem como pelo processo de substituição de fontes, conforme descrito abaixo.

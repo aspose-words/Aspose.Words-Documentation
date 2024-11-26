@@ -7,6 +7,7 @@ type: docs
 description: "Използване на това въведение Aspose.Words вместо Python via .NET основите да започнете да осъзнавате стойността на Aspose.Words за твоя бизнес."
 weight: 20
 url: /bg/python-net/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Това Getting Started осигурява представяне Aspose.Words фундамент. За нови потребители Aspose.Words, Това е най-бързият начин да се научат основните изисквания и възможности.

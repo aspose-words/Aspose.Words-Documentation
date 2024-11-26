@@ -8,6 +8,7 @@ type: docs
 weight: 10
 url: /net/extend-and-contribute-oneclick-generator/
 aliases: [/net/extend-and-contribute-to-crm-oneclick-word-document-generator/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 You can download the latest source code at:

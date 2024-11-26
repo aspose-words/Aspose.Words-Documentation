@@ -7,6 +7,7 @@ description: "わずか 2 行の Python コードで、サポートされてい�
 type: docs
 weight: 40
 url: /ja/python-net/file-formats-and-conversions/
+timestamp: 2024-01-31-14-23-37
 ---
 
 {{% alert color="primary" %}}

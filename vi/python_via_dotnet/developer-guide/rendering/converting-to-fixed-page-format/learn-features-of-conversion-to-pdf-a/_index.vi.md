@@ -7,6 +7,7 @@ description: "Chuyển đổi sang PDF/A-1, PDF/A-2, PDF/A-4 và PDF/UA bằng P
 type: docs
 weight: 25
 url: /vi/python-net/learn-features-of-conversion-to-pdf-a/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF là định dạng trang cố định rất phổ biến đối với người dùng và được hỗ trợ rộng rãi bởi nhiều ứng dụng khác nhau, vì tài liệu PDF trông giống nhau trên mọi thiết bị. Vì lý do này, chuyển đổi sang PDF là một tính năng quan trọng của Aspose.Words.

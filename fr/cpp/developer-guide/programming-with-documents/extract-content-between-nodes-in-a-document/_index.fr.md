@@ -1,4 +1,4 @@
-﻿---
+---
 title: Comment Extraire du Contenu Entre Les Nœuds de Document
 second_title: Aspose.Words pour C++
 articleTitle: Extraire le contenu entre les nœuds d'un Document
@@ -7,6 +7,7 @@ type: docs
 description: "Extraction du contenu du document dans différents formats à l'aide de C++."
 weight: 140
 url: /fr/cpp/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Lorsque vous travaillez avec des documents, il est important de pouvoir extraire facilement le contenu d'une plage spécifique d'un document. Cependant, le contenu peut être constitué d'éléments complexes tels que des paragraphes, des tableaux, des images, etc.

@@ -7,6 +7,7 @@ description: "Aggiungi, sostituisci o modifica un collegamento ipertestuale in u
 type: docs
 weight: 50
 url: /it/python-net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un collegamento ipertestuale nei documenti Microsoft Word è il campo `HYPERLINK`. In Aspose.Words, i collegamenti ipertestuali vengono implementati tramite la classe [FieldHyperlink](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldhyperlink/).

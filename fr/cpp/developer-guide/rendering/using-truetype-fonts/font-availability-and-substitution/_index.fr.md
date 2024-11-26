@@ -1,4 +1,4 @@
-﻿---
+---
 title: MFont Disponibilité et substitution en C++
 second_title: Aspose.Words pour C++
 articleTitle: Disponibilité et Substitution des Polices
@@ -7,6 +7,7 @@ description: "Lorsque la police de substitution exacte est introuvable, Aspose.W
 type: docs
 weight: 12
 url: /fr/cpp/font-availability-and-substitution/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Un texte dans un document peut être formaté avec différentes polices, telles que Arial, Times New Roman, Verdana et autres. Lorsque Aspose.Words affiche un document, il tente de sélectionner les polices spécifiées dans le document.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: دست زدن به Windows Metafiles در C++
 second_title: Aspose.Words برای C++
 articleTitle: دست زدن به Windows Metafiles
@@ -7,6 +7,7 @@ description: "Aspose.Words برای C++ metafile player Windows خود را بر
 type: docs
 weight: 30
 url: /fa/cpp/handling-windows-metafiles/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Windows فرمت Metafile یک فرمت فایل تصویری است که می تواند شامل گرافیک وکتور و رستر باشد. این فرمت برای ذخیره داده های گرافیکی در حافظه یا فایل های دیسک استفاده می شود. یک متافیل لیستی از فراخوان های تابع را در رابط دستگاه گرافیکی Windows (GDI) ذخیره می کند که باید برای نمایش تصویر روی صفحه اجرا شود. سیستم این دستورات را در زمینه نمایش تفسیر و اجرا می کند.

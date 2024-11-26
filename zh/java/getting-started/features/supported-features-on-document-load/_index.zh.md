@@ -7,6 +7,7 @@ description: "以大多数流行格式装入和转换文档,并支持很多 Micr
 type: docs
 weight: 20
 url: /zh/java/supported-features-on-document-load/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 允许用户使用不同格式的文档,并为此提供广泛的选项. 例如,用户可以从头创建文档,也可以在任何文件中装入已有文件 [支持的文档格式](/words/zh/java/supported-document-formats/), 对文档进行一些修改,然后保存结果。 在导入选定格式的文档时,用户可以应用各种负载选项.

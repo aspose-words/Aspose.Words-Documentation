@@ -1,4 +1,4 @@
-﻿---
+---
 title: Định dạng bảng trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Áp Dụng Định Dạng
@@ -7,6 +7,7 @@ description: "Định dạng bảng trong chi tiết sử dụng C++. Sử dụn
 type: docs
 weight: 70
 url: /vi/cpp/applying-formatting/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Mỗi phần tử của bảng có thể được áp dụng với các định dạng khác nhau. Ví dụ: định dạng bảng sẽ được áp dụng cho toàn bộ bảng, định dạng hàng chỉ cho các hàng cụ thể, định dạng ô chỉ cho các ô nhất định.

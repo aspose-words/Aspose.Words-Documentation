@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit Fußnote und Endnote in C++
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit Fußnote und Endnote
@@ -7,6 +7,7 @@ description: "Wie man Fußnoten und Endnoten mit C++ manipuliert."
 type: docs
 weight: 160
 url: /de/cpp/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words bietet auch einige Klassen, Methoden und Eigenschaften für die Arbeit mit Fußnoten und Endnoten.

@@ -7,6 +7,7 @@ description: "Aspose.Words cho .NET thêm vào tài liệu tên trình tạo và
 type: docs
 weight: 60
 url: /vi/net/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Bạn có thể dễ dàng biết liệu tài liệu có được tạo hay không bằng cách sử dụng Aspose.Words cho .NET. Bạn cũng có thể tìm thấy số phiên bản Aspose.Words cho .NET đã được sử dụng để tạo một tài liệu đầu ra cụ thể. Aspose.Words trực tiếp ghi thông tin này vào tài liệu được tạo.

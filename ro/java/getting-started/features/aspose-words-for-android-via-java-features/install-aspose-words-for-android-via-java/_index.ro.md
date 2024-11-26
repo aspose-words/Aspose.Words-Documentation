@@ -1,4 +1,4 @@
-﻿---
+---
 title: Instalați Aspose.Words pentru Android prin Java
 second_title: Aspose.Words pentru Java
 articleTitle: Instalați Aspose.Words pentru Android prin Java
@@ -7,6 +7,7 @@ description: "Instalarea Aspose.Words pentru Android prin Java."
 type: docs
 weight: 20
 url: /ro/java/install-aspose-words-for-android-via-java/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

@@ -7,6 +7,7 @@ description: "Aspose.Words für .NET bietet Schreibschutz, Verschlüsselung eine
 type: docs
 weight: 50
 url: /de/net/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Der Hauptgrund für den Schutz oder die Verschlüsselung eines Dokuments besteht darin, mehr Kontrolle darüber zu haben, wer auf das Dokument zugreifen oder es bearbeiten kann. Indem Sie Ihre Dokumente schützen, vermeiden Sie häufige Risiken wie das unerlaubte Kopieren oder Ändern von Dokumenten sowie Datenlecks.

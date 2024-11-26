@@ -1,4 +1,4 @@
-﻿---
+---
 title: تبدیل ورد به اکسل در C++
 second_title: Aspose.Words برای C++
 articleTitle: تبدیل یک سند به اکسل
@@ -7,6 +7,7 @@ description: "تبدیل PDF به اکسل, XML به اکسل, DOCX به اکس�
 type: docs
 weight: 15
 url: /fa/cpp/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 تبدیل اسناد از یک فرمت به فرمت دیگر ویژگی پرچمدار Aspose.Words است. شما می توانید اسناد را در هر فرمت موجود [load format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) نیز به XLSX تبدیل کنید.

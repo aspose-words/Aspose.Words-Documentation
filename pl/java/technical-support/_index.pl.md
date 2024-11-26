@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words zamiast Java zapewnia bezpłatne wsparcie techniczne dostępne dla wszystkich użytkowników. Prosimy o zgłoszenie swojego pytania, wydania lub prośby o podanie funkcji za pomocą Forum Bezpłatne Wsparcie."
 weight: 80
 url: /pl/java/technical-support/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Zgłoszenie zapewnia nieograniczone bezpłatne wsparcie techniczne dla wszystkich swoich produktów. Wsparcie jest dostępne dla wszystkich użytkowników, w tym oceny. Główną drogą wsparcia jest [Złote świętowanie. Formy](https://forum.aspose.com/c/words/8).

@@ -7,6 +7,7 @@ description: "Робота з частинами таблиці – рядами
 type: docs
 weight: 30
 url: /uk/python-net/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Для більшого контролю над тим, як працюють таблиці, вивчіть, як маніпулювати стовпчики і рядки.

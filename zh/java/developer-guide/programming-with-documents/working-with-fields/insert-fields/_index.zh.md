@@ -7,6 +7,7 @@ description: "使用不同方式在文档中插入字段 Java。 。 。 。"
 type: docs
 weight: 20
 url: /zh/java/insert-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 在文档中插入字段有几种不同的方式:
@@ -103,7 +104,7 @@ url: /zh/java/insert-fields/
 
 ### 插入 Mail Merge `ADDRESSBLOCK` 字段输入文档 DOM
 
-那个 `ADDRESSBLOCK` 字段用于插入一个 mail merge Word 文档中的地址块。 `ADDRESSBLOCK` Word 文档中的字段可以用 [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) 课。 你可以用来 **FieldAddressBlock** 进行下列操作的类:
+那个 `ADDRESSBLOCK` 字段用于插入一个 Mail Merge Word 文档中的地址块。 `ADDRESSBLOCK` Word 文档中的字段可以用 [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) 课。 你可以用来 **FieldAddressBlock** 进行下列操作的类:
 
 - 具体说明是否在外地列入国家/区域的名称;
 - 具体说明是否按照POST*CODE(邮政联盟,2006年)定义的接收方国家/地区格式化地址;
@@ -145,7 +146,7 @@ url: /zh/java/insert-fields/
 
 - 指定书签的名称
 - 指定默认用户响应( 提示窗口中包含的初始值)
-- 具体说明是否每次应收到用户的答复 mail merge 操作
+- 具体说明是否每次应收到用户的答复 Mail Merge 操作
 - 指定即时文本(即时窗口的标题)
 
 {{% alert color="primary" %}}

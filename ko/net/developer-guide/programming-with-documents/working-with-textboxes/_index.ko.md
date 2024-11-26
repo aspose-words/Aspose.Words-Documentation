@@ -7,6 +7,7 @@ description: ".NET용 Aspose.Words의 연결된 텍스트 상자 기능을 소�
 type: docs
 weight: 250
 url: /ko/net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words에서 [TextBox](https://reference.aspose.com/words/net/aspose.words.drawing/textbox/) 클래스는 도형 내부에 텍스트가 표시되는 방식을 지정하는 데 사용됩니다. 고객이 연결된 **TextBox**에서 연결된 [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/)를 찾을 수 있도록 텍스트 상자의 상위 모양을 가져오기 위해 **Parent**이라는 공용 속성을 노출합니다.

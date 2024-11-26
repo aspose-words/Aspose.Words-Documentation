@@ -1,4 +1,4 @@
-﻿---
+---
 title: Asiatiese Tipografie in Java
 second_title: Aspose.Words vir Java
 articleTitle: Werk Met Asiatiese Tipografie
@@ -7,6 +7,7 @@ description: "Werk Met Asiatiese tipografie met Java. Pas Spasie tussen Asiaties
 type: docs
 weight: 240
 url: /af/java/working-with-asian-typography/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Asiatiese Tipografie is'n stel opsies vir teks paragrawe in dokumente geskryf in Asiatiese tale.

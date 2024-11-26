@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit Diagrammdatenbeschriftung in C++
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit Diagrammdatenbeschriftung
@@ -7,6 +7,7 @@ description: "Optimierung der Diagrammdatenbeschriftung mit C++."
 type: docs
 weight: 30
 url: /de/cpp/working-with-chart-data-label/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Mit Aspose.Words können Benutzer auf verschiedene Arten mit ChartDataLabel arbeiten.

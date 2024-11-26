@@ -1,4 +1,4 @@
-﻿---
+---
 title: Formats de Document Pris En Charge
 second_title: Aspose.Words pour C++
 articleTitle: Formats de Document Pris En Charge
@@ -7,6 +7,7 @@ type: docs
 description: "Modifiez des documents sources dans de nombreux formats populaires, ainsi que convertissez librement des fichiers d'un format à un autre à l'aide de C++."
 weight: 20
 url: /fr/cpp/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

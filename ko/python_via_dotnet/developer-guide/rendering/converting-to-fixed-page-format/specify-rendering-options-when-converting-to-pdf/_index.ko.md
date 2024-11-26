@@ -7,6 +7,7 @@ description: "Python를 사용하여 고급 옵션을 사용하여 문서를 PDF
 type: docs
 weight: 20
 url: /ko/python-net/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 PDF 형식은 PDF 문서가 모든 장치에서 동일하게 보이기 때문에 사용자들 사이에서 매우 인기가 있고 다양한 응용 프로그램에서 널리 지원되는 고정 페이지 형식입니다. 따라서 PDF로 변환하는 것은 Aspose.Words의 중요한 기능입니다.
@@ -112,7 +113,7 @@ Aspose.Words를 사용하면 결과 PDF 문서에 글꼴이 포함되는 방식�
 
 [embed_full_fonts](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/embed_full_fonts/) 속성을 사용하면 Aspose.Words가 출력 PDF 문서에 글꼴을 포함하는 방법을 지정할 수 있습니다.
 
-- 출력 PDF 문서에 전체 글꼴을 포함하려면 [embed_full_fonts](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/embed_full_fonts/)를 *True*로 설정하세요
+- 출력 PDF 문서에 전체 글꼴을 포함하려면 [embed_full_fonts](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/embed_full_fonts/)를 *True* 로 설정하세요
 - PDF로 저장할 때 글꼴을 하위 집합으로 설정하려면 [embed_full_fonts](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/embed_full_fonts/)를 *False*로 설정하세요
 
 다음 예에서는 출력 PDF 문서에 전체 글꼴을 포함하는 방법을 보여줍니다

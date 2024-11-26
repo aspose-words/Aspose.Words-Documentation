@@ -7,6 +7,7 @@ type: docs
 description: "Document Object Model (DOM) is een herinneringsrepresentatie van een Word-document. Lees, manipuleer en wijzig de inhoud en opmaak van een Word-document met behulp van C#."
 weight: 10
 url: /nl/net/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 De Aspose.Words Document Object Model (DOM) is een herinneringsrepresentatie van een Word-document. De Aspose.Words DOM Hiermee kunt u programmatisch de inhoud en opmaak van een Word-document lezen, manipuleren en wijzigen.
@@ -15,7 +16,7 @@ Dit deel beschrijft de belangrijkste klassen van de Aspose.Words DOM en hun rela
 
 ## Aanmaken `Document` Objectboom {#create-a-document-objects-tree}
 
-Wanneer een document wordt gelezen in de Aspose.Words <span notrans="<span notrans=" DOM"=""></span>,"> dan wordt er een objectboom gebouwd en hebben verschillende soorten elementen van het brondocument hun eigen DOM boomobjecten met verschillende eigenschappen.
+Wanneer een document wordt gelezen in de Aspose.Words DOM dan wordt er een objectboom gebouwd en hebben verschillende soorten elementen van het brondocument hun eigen DOM boomobjecten met verschillende eigenschappen.
 
 ### Documentnodesboom bouwen {#build-document-nodes-tree}
 

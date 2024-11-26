@@ -7,6 +7,7 @@ description: ".NET için Aspose.Words, farklı satın alma planları sağlar vey
 type: docs
 weight: 55
 url: /tr/net/licensing/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Bazen sistemi daha iyi incelemek için kodun içine mümkün olduğunca hızlı dalmak istersiniz. Bunu kolaylaştırmak için Aspose.Words, farklı satın alma planları sunar veya değerlendirme için Ücretsiz Deneme ve 30 günlük Geçici Lisans sunar.
@@ -60,13 +61,13 @@ Lisans satın aldıktan sonra lisans dosyanızı korumak için [Satın Alınan L
 Lisanslar çeşitli konumlardan uygulanabilir:
 
 * Açık yol
-* *Aspose.Words.dll* dosyasını içeren klasör
-* *Aspose.Words.dll* adlı derlemeyi içeren klasör
-* Giriş derlemesini içeren klasör (*.exe*'iniz)
-* Derlemedeki gömülü bir kaynağa *Aspose.Words.dll* adı verilir
+* `Aspose.Words.dll` dosyasını içeren klasör
+* `Aspose.Words.dll` adlı derlemeyi içeren klasör
+* Giriş derlemesini içeren klasör (`.exe`'iniz)
+* Derlemedeki gömülü bir kaynağa `Aspose.Words.dll` adı verilir
 * Ölçülü Lisans olarak – yeni bir lisanslama mekanizması
 
-Uygulamada *Aspose.Words.dll*'e başvurduğunuzda, kitaplık çıktı dizininize kopyalanır (bu girişin özelliklerinde *Yerel Kopyala* false olarak ayarlanmadığı sürece). Genellikle lisans ayarlamanın en kolay yolu, lisans dosyasını *Aspose.Words.dll* ile aynı klasöre yerleştirmek ve yol olmadan yalnızca dosya adını belirtmektir.
+Uygulamada `Aspose.Words.dll`'e başvurduğunuzda, kitaplık çıktı dizininize kopyalanır (bu girişin özelliklerinde *Yerel Kopyala* false olarak ayarlanmadığı sürece). Genellikle lisans ayarlamanın en kolay yolu, lisans dosyasını `Aspose.Words.dll` ile aynı klasöre yerleştirmek ve yol olmadan yalnızca dosya adını belirtmektir.
 
 {{% alert color="primary" %}}
 

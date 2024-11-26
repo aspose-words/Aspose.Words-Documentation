@@ -7,6 +7,7 @@ description: "Създаване, четене, писане, клониране
 type: docs
 weight: 410
 url: /bg/python-net/working-with-vba-macros/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Visual Basic за заявления (VBA) за Microsoft Word е прост, но мощен програмен език, който може да се използва за разширяване на функционалността. Aspose.Words API осигурява три класа за достъп до изходния код на проекта VBA:

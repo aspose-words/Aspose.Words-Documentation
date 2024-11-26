@@ -7,6 +7,7 @@ description: "Konwertuj dokument na wielostronicowy plik TIFF za pomocą C#. Aby
 type: docs
 weight: 30
 url: /pl/net/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Podczas pracy z dokumentami często trzeba przekonwertować dokument na plik(i) obrazu rastrowego. Jest to szczególnie istotne, jeśli musisz przedstawić dokument w formacie czytelnym i nadającym się do wydruku, ale nie nadającym się do edycji. Na przykład jako podglądu możesz użyć obrazu rastrowego pierwszej strony dokumentu. W artykule opisano sposób konwersji dokumentu do obrazu rastrowego na przykładzie formatu TIFF – jednego z popularniejszych formatów obrazów.

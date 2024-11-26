@@ -1,12 +1,13 @@
 ---
-title: Cómo construir una tabla a partir de un `DataTable` en C#
+title: Cómo construir una tabla a partir de un DataTable en C#
 second_title: Aspose.Words para .NET
-articleTitle: Construir una tabla a partir de un `DataTable`
-linktitle: Construir una tabla a partir de un `DataTable`
+articleTitle: Construir una tabla a partir de un DataTable
+linktitle: Construir una tabla a partir de un DataTable
 description: "Ejemplo de llenado de una tabla de documentos desde una base de datos externa usando C#."
 type: docs
 weight: 120
 url: /es/net/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-09-25-11-08-55
 ---
 
 A menudo, su aplicación extraerá datos de una base de datos y los almacenará en forma de **DataTable**. Puede insertar fácilmente estos datos en su documento como una nueva tabla y aplicar formato rápidamente a toda la tabla.

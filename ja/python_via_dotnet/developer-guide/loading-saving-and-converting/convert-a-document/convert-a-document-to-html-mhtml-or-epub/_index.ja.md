@@ -7,6 +7,7 @@ description: "Python を使用すると、ドキュメントをほぼすべて�
 type: docs
 weight: 20
 url: /ja/python-net/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-01-27-14-07-04
 ---
 
 HTML および MHTML フロー レイアウト形式のドキュメントも非常に人気があり、あらゆる Web プラットフォームで使用できます。そのため、ドキュメントを HTML および MHTML に変換することは、Aspose.Words の重要な機能です。

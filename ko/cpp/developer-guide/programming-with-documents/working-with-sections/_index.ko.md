@@ -1,4 +1,4 @@
-﻿---
+---
 title: 섹션 작업 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 섹션 작업
@@ -7,6 +7,7 @@ description: "다음을 사용하여 문서 섹션 개념 및 조작 관행 이�
 type: docs
 weight: 120
 url: /ko/cpp/working-with-sections/
+timestamp: 2024-01-31-14-23-37
 ---
 
 때로는 모든 페이지에 동일한 서식이 없는 문서를 원할 수도 있습니다. 예를 들어 페이지 번호 형식을 수정하거나 페이지 크기 및 방향이 다르거나 첫 번째 문서 페이지를 번호 매기기 없이 표지로 사용해야 할 수 있습니다. 당신은 섹션으로 그것을 달성 할 수 있습니다.

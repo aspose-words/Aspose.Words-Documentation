@@ -7,6 +7,7 @@ description: "Převést na PDF/A-1, PDF/A-2, PDF/A-4 a PDF/UA pomocí C#. Vybert
 type: docs
 weight: 25
 url: /cs/net/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF je pevný formát stránky, který je velmi populární mezi uživateli a je široce podporován různými aplikacemi, protože PDF dokument vypadá stejně na každém zařízení. Z tohoto důvodu, konverze na PDF je důležitým rysem Aspose.Words.

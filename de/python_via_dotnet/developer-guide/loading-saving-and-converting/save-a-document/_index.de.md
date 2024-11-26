@@ -8,6 +8,7 @@ description: "Speichern Sie ein Dokument in einem beliebigen unterstützten Form
 keywords: "save a document python, save a document to file python, save a document to stream python, save a document Aspose python, save formats supported by Aspose.Words python"
 weight: 20
 url: /de/python-net/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Die meisten Aufgaben, die Sie mit Aspose.Words ausführen müssen, umfassen das Speichern eines Dokuments. Zum Speichern eines Dokuments stellt Aspose.Words die [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/)-Methode der [Document](https://reference.aspose.com/words/python-net/aspose.words/document/)-Klasse zur Verfügung. Es gibt Überladungen, die das Speichern eines Dokuments in einer Datei oder einem Stream ermöglichen. Das Dokument kann in jedem von Aspose.Words unterstützten Speicherformat gespeichert werden. Die Liste aller unterstützten Speicherformate finden Sie in der [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/)-Aufzählung.

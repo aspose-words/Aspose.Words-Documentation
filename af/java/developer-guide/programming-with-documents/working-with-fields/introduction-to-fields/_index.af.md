@@ -1,4 +1,4 @@
-﻿---
+---
 title: Inleiding Tot Velde in Java
 second_title: Aspose.Words vir Java
 articleTitle: Inleiding Tot Velde
@@ -7,6 +7,7 @@ description: "Velde kenmerk in besonderhede, veldkodes en veldresultate verduide
 type: docs
 weight: 10
 url: /af/java/introduction-to-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words is'n klas biblioteek ontwerp vir bediener-kant verwerking van Microsoft Word dokumente en ondersteun velde in die volgende maniere:
@@ -173,9 +174,9 @@ Aspose.Words ondersteun alle datum en tyd formatering skakelaars beskikbaar in M
 
 ### Mail Merge Velde
 
-Aspose.Words stel geen beperking op die kompleksiteit van mail merge velde in jou dokumente en ondersteun geneste `IF` en formule velde en kan selfs bereken die samesmelting veld se naam met behulp van'n formule.
+Aspose.Words stel geen beperking op die kompleksiteit van Mail Merge velde in jou dokumente en ondersteun geneste `IF` en formule velde en kan selfs bereken die samesmelting veld se naam met behulp van'n formule.
 
-'n paar voorbeelde van mail merge velde wat Aspose.Words ondersteun:
+'n paar voorbeelde van Mail Merge velde wat Aspose.Words ondersteun:
 
 - Mail merge veldskakelaars:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -222,6 +223,6 @@ Aan die ander kant, Microsoft Word formateer elke individuele veld gebaseer op d
 
 Die [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) klas bied'n [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/document/#getFieldOptions) eienskap wat lede bevat wat gebruik kan word om te beheer hoe velde is opgedateer binne die dokument.
 
-Die volgende kode voorbeeld toon hoe om te spesifiseer waar die kultuur wat gebruik word vir datum formatering tydens veld update en mail merge is gekies uit:
+Die volgende kode voorbeeld toon hoe om te spesifiseer waar die kultuur wat gebruik word vir datum formatering tydens veld update en Mail Merge is gekies uit:
 
 EXAMPLE

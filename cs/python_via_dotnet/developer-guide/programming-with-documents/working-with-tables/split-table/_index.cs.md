@@ -7,6 +7,7 @@ description: "Rozdělit stůl v Python. Jak rozdělit jednu tabulku na dvě samo
 type: docs
 weight: 100
 url: /cs/python-net/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tabulka zastoupená v Aspose.Words Document Object Model, se skládá z nezávislých řad a buněk, takže je snadné rozdělit stůl.

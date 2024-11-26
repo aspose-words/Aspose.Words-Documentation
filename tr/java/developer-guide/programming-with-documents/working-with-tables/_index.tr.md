@@ -7,6 +7,7 @@ description: "Tablo ile çalışmanın nasıl yapılacağı Java. Tabloda düğ�
 type: docs
 weight: 190
 url: /tr/java/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir belge içinde bir **masa** kullanmak benzer verileri yapılandırmanın harika bir yoludur. Bu yüzden tablolar yaygın bir içerik formatlama öğesidir ve en fazla bir tür veya başka biçimde çoğu form tarafından desteklenmektedir.

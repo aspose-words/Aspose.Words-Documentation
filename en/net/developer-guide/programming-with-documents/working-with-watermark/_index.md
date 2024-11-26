@@ -7,6 +7,7 @@ description: "Document watermark manipulation using C#."
 type: docs
 weight: 340
 url: /net/working-with-watermark/
+timestamp: 2024-05-02-11-51-44
 ---
 
 This topic discusses how to work programmatically with watermark using Aspose.Words. A watermark is a background image that displays behind the text in a document. A watermark can contain a text or an image represented by the [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) class.

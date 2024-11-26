@@ -7,6 +7,7 @@ description: "Theo dõi các thay đổi về nội dung và định dạng do b
 type: docs
 weight: 270
 url: /vi/java/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hàm lượng theo dõi thay đổi, còn gọi là xem lại, cho phép bạn theo dõi các thay đổi về nội dung và định dạng do chính mình hoặc người dùng khác thực hiện. Tính năng "Đổi theo dõi" này với Aspose.Words hỗ trợ theo dõi thay đổi trong Microsoft Word. Với tính năng này bạn có thể truy cập các phiên bản riêng lẻ trong tài liệu của mình và áp dụng các thuộc tính khác nhau cho chúng.

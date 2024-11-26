@@ -1,12 +1,13 @@
-﻿---
-title: Verwenden Sie `DocumentBuilder`, um Dokumentelemente einzufügen
+---
+title: Verwenden Sie DocumentBuilder, um Dokumentelemente einzufügen
 second_title: Aspose.Words für C++
-articleTitle: Verwenden Sie `DocumentBuilder`, um Dokumentelemente einzufügen
-linktitle: Verwenden Sie `DocumentBuilder`, um Dokumentelemente einzufügen
+articleTitle: Verwenden Sie DocumentBuilder, um Dokumentelemente einzufügen
+linktitle: Verwenden Sie DocumentBuilder, um Dokumentelemente einzufügen
 type: docs
 description: "Fügen Sie Dokumentelemente mit dem Dokumentgenerator in C++ ein."
 weight: 80
 url: /de/cpp/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Die `DocumentBuilder` wird zum Ändern von Dokumenten verwendet. In diesem Artikel wird erläutert und beschrieben, wie Sie eine Reihe von Aufgaben ausführen:
@@ -155,7 +156,7 @@ Das OLE -Paket ist eine alte und "undokumentierte" Methode zum Speichern eingebe
 
 ## HTML einfügen
 
-Sie können ganz einfach eine HTML -Zeichenfolge, die ein HTML -Fragment oder ein ganzes HTML -Dokument enthält, in das Word-Dokument einfügen. Übergeben Sie diese Zeichenfolge einfach an die `DocumentBuilder->InsertHtml` -Methode. Eine der nützlichen Implementierungen der Methode besteht darin, eine HTML -Zeichenfolge in einer Datenbank zu speichern und sie während mail merge in das Dokument einzufügen, um den formatierten Inhalt hinzuzufügen, anstatt ihn mit verschiedenen Methoden des Dokumentgenerators zu erstellen. Das folgende Beispiel zeigt das Einfügen von HTML in ein Dokument mit DocumentBuilder.
+Sie können ganz einfach eine HTML -Zeichenfolge, die ein HTML -Fragment oder ein ganzes HTML -Dokument enthält, in das Word-Dokument einfügen. Übergeben Sie diese Zeichenfolge einfach an die `DocumentBuilder->InsertHtml` -Methode. Eine der nützlichen Implementierungen der Methode besteht darin, eine HTML -Zeichenfolge in einer Datenbank zu speichern und sie während Mail Merge in das Dokument einzufügen, um den formatierten Inhalt hinzuzufügen, anstatt ihn mit verschiedenen Methoden des Dokumentgenerators zu erstellen. Das folgende Beispiel zeigt das Einfügen von HTML in ein Dokument mit DocumentBuilder.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHtml.cpp" >}}
 

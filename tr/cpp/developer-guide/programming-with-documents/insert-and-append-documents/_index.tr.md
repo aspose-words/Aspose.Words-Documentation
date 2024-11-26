@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içine Belge Ekleme ve Ekleme
 second_title: Aspose.Words için C++
 articleTitle: Belge Ekleme ve Ekleme
@@ -7,6 +7,7 @@ description: "Belgeleri bir araya getirin: bul ve değiştir, birleştirme alan�
 type: docs
 weight: 80
 url: /tr/cpp/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen birkaç belgeyi bir araya getirmek gerekir. Bunu manuel olarak yapabilir veya Aspose.Words ekle veya ekle özelliğini kullanabilirsiniz.
@@ -45,7 +46,7 @@ Aşağıdaki kod örneği, bul ve değiştir işlemi sırasında bir belgenin i�
 
 ### Mail Merge İşlemi Sırasında Bir Belge Ekleme {#insert-a-document-during-mail-merge-operation}
 
-Mail merge işlemi sırasında birleştirme alanına belge ekleyebilirsiniz. Örneğin, bir mail merge şablonu [Özet] gibi bir birleştirme alanı içerebilir. Ancak son belgede, başka bir harici belgeden elde edilen içeriği bu birleştirme alanına eklemeniz gerekir. Bunu başarmak için birleştirme olayı için bir işleyici oluşturmanız gerekir.
+Mail merge işlemi sırasında birleştirme alanına belge ekleyebilirsiniz. Örneğin, bir Mail Merge şablonu [Özet] gibi bir birleştirme alanı içerebilir. Ancak son belgede, başka bir harici belgeden elde edilen içeriği bu birleştirme alanına eklemeniz gerekir. Bunu başarmak için birleştirme olayı için bir işleyici oluşturmanız gerekir.
 
 Aşağıdaki kod örneği, birleştirme olayını ekleme işleminde daha sonra kullanmak üzere bir işleyicinin nasıl oluşturulacağını gösterir:
 

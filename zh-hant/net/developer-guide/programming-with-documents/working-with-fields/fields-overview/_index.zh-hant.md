@@ -7,6 +7,7 @@ description: "欄位功能在細節中，欄位代碼和欄位結果解釋在 As
 type: docs
 weight: 10
 url: /zh-hant/net/fields-overview/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words 是一個設計用來處理 Microsoft Word 文檔的類別庫，並支援以下欄位：
@@ -175,7 +176,7 @@ Aspose.Words 支援 Microsoft Word 中所有日期與時間格式化開關，以
 
 Aspose.Words在您的文件中對字段複雜性沒有任何限制，mail merge支援嵌套字段以及公式字段，`IF`甚至可以透過公式計算合併字段的名字。
 
-有些例子是 mail merge 欄位 Aspose.Words 支援的：
+有些例子是 Mail Merge 欄位 Aspose.Words 支援的：
 
 - Mail merge 欄位切換：
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -201,7 +202,7 @@ Aspose.Words在您的文件中對字段複雜性沒有任何限制，mail merge�
 
 ### Date 和欄位中的數值格式化
 
-當 Aspose.Words 計算一個欄位結果的時候，它經常需要將一個字串解析成數字或日期值，也需要將它格式化回一個字串。預設 Aspose.Words 在計算欄位值的時候會使用當前的線條文化來進行解析與格式化，以及 mail merge 。 還有由 [FieldOptions](https://reference.aspose.com/words/net/aspose.words.fields/fieldoptions/) 類別所提供的選項，讓你可以更精確地控制在欄位更新時所用的文化。
+當 Aspose.Words 計算一個欄位結果的時候，它經常需要將一個字串解析成數字或日期值，也需要將它格式化回一個字串。預設 Aspose.Words 在計算欄位值的時候會使用當前的線條文化來進行解析與格式化，以及 Mail Merge 。 還有由 [FieldOptions](https://reference.aspose.com/words/net/aspose.words.fields/fieldoptions/) 類別所提供的選項，讓你可以更精確地控制在欄位更新時所用的文化。
 
 "-預設的情況下，[FieldUpdateCultureSource](https://reference.aspose.com/words/net/aspose.words.fields/fieldoptions/fieldupdateculturesource/)屬性為[CurrentThread](https://reference.aspose.com/words/net/aspose.words.fields/fieldupdateculturesource/)，以當前的線程文化格式化欄位"
 - 此屬性可以設定為 [FieldCode](https://reference.aspose.com/words/net/aspose.words.fields/fieldupdateculturesource/) 來使用字段的字段編碼中設置的語言進行格式化
@@ -222,6 +223,6 @@ Aspose.Words在您的文件中對字段複雜性沒有任何限制，mail merge�
 
 [Document](https://reference.aspose.com/words/net/aspose.words/document/)類別提供一個[FieldOptions](https://reference.aspose.com/words/net/aspose.words/document/fieldoptions/)屬性，其中包含可用於控制文件中欄位更新方式的成員。
 
-以下程式碼範例說明了如何指定在欄位更新時用來格式化日期的文化，以及 mail merge 是從何選取的：
+以下程式碼範例說明了如何指定在欄位更新時用來格式化日期的文化，以及 Mail Merge 是從何選取的：
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-ChangeFieldUpdateCultureSource-ChangeFieldUpdateCultureSource.cs" >}}

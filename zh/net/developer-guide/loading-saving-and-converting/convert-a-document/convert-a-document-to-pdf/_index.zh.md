@@ -7,6 +7,7 @@ description: "使用 C# 将文档转换为 PDF。将 DOCX 转换为 PDF C#。支
 type: docs
 weight: 10
 url: /zh/net/convert-a-document-to-pdf/
+timestamp: 2024-09-25-11-08-55
 ---
 
 轻松可靠地将文档从一种格式转换为另一种格式的能力是 Aspose.Words 的一项关键功能。最流行的转换格式之一是 PDF--一种固定布局格式，它在各种平台上呈现时保留文档的原始外观。 Aspose.Words 中使用"渲染"术语来描述将文档转换为分页或具有页面概念的文件格式的过程。

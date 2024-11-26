@@ -7,6 +7,7 @@ description: "Set font text color for document contents dynamically when buildin
 type: docs
 weight: 85
 url: /java/setting-text-color-dynamically/
+timestamp: 2024-01-27-14-07-04
 ---
 
 You can set a font color for text contents dynamically using `textColor` tags. Syntax of a `textColor` tag is defined as follows.

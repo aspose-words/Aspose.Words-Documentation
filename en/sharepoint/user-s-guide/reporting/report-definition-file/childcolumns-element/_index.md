@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChildColumns Element
 second_title: Aspose.Words for SharePoint
 articleTitle: ChildColumns Element
@@ -7,6 +7,7 @@ description: "ChildColumns element meaning and structure which may be used while
 type: docs
 weight: 200
 url: /sharepoint/childcolumns-element/
+timestamp: 2024-10-21-11-17-44
 ---
 
 The ChildColumns element contains information about columns that make a child side of the relation between two tables in the report data set.

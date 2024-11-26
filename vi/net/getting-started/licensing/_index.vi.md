@@ -7,6 +7,7 @@ description: "Aspose.Words cho .NET cung cấp các gói mua khác nhau hoặc c
 type: docs
 weight: 55
 url: /vi/net/licensing/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Đôi khi, để nghiên cứu hệ thống tốt hơn, bạn muốn đi sâu vào mã càng nhanh càng tốt. Để thực hiện việc này dễ dàng hơn, Aspose.Words cung cấp các gói mua khác nhau hoặc cung cấp Bản dùng thử miễn phí và Giấy phép tạm thời 30 ngày để đánh giá.
@@ -60,13 +61,13 @@ Sau khi mua giấy phép, bạn cần đọc kỹ thông tin trên trang [Bảo 
 Giấy phép có thể được áp dụng từ nhiều địa điểm khác nhau:
 
 * Đường dẫn rõ ràng
-* Thư mục chứa file *Aspose.Words.dll*
-* Thư mục chứa tập hợp có tên *Aspose.Words.dll*
-* Thư mục chứa tập hợp mục (*.exe* của bạn)
-* Tài nguyên được nhúng trong hội được gọi là *Aspose.Words.dll*
+* Thư mục chứa file `Aspose.Words.dll`
+* Thư mục chứa tập hợp có tên `Aspose.Words.dll`
+* Thư mục chứa tập hợp mục (`.exe` của bạn)
+* Tài nguyên được nhúng trong hội được gọi là `Aspose.Words.dll`
 * Là Giấy phép đo lường – một cơ chế cấp phép mới
 
-Khi bạn tham chiếu *Aspose.Words.dll* trong ứng dụng, thư viện sẽ được sao chép vào thư mục đầu ra của bạn (trừ khi *Copy Local* trong thuộc tính cho mục nhập đó được đặt thành false). Thông thường, cách dễ nhất để đặt giấy phép là đặt tệp giấy phép vào cùng thư mục với *Aspose.Words.dll* và chỉ chỉ định tên tệp mà không có đường dẫn.
+Khi bạn tham chiếu `Aspose.Words.dll` trong ứng dụng, thư viện sẽ được sao chép vào thư mục đầu ra của bạn (trừ khi *Copy Local* trong thuộc tính cho mục nhập đó được đặt thành false). Thông thường, cách dễ nhất để đặt giấy phép là đặt tệp giấy phép vào cùng thư mục với `Aspose.Words.dll` và chỉ chỉ định tên tệp mà không có đường dẫn.
 
 {{% alert color="primary" %}}
 

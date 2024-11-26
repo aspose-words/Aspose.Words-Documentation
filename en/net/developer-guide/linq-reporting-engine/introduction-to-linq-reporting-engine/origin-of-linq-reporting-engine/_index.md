@@ -1,4 +1,4 @@
-﻿---
+---
 title: Origin of LINQ Reporting Engine in C#
 second_title: Aspose.Words for .NET
 articleTitle: Origin of LINQ Reporting Engine
@@ -7,6 +7,7 @@ description: "Learn the concept of LINQ Reporting Engine to build a report in C#
 type: docs
 weight: 10
 url: /net/origin-of-linq-reporting-engine/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Historically, [Aspose.Words Mail Merge](/words/net/mail-merge-and-reporting/) was the first attempt to bring reporting features to the Aspose.Words API. However, the main purpose of Aspose.Words Mail Merge is mimicking Microsoft Word® Mail Merge. That is why the mail-merge-template syntax is based on Microsoft Word® merge fields. This fact makes it impossible to extend the template syntax keeping it concise, clear, and simple for users.

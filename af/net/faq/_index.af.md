@@ -1,4 +1,4 @@
-﻿---
+---
 title: FAQ
 second_title: Aspose.Words vir .NET
 articleTitle: FAQ – Aspose.Words vir .NET
@@ -9,6 +9,7 @@ type: docs
 description: "Aspose.Words vir .NET beantwoord die mees algemene vrae. Leer hierdie bladsy om u probleem oor algemene vrae of spesifieke onderwerpe vinnig op te los."
 weight: 75
 url: /af/net/faq/
+timestamp: 2024-11-18-12-56-02
 ---
 
 Hierdie bladsy bevat antwoorde op die vrae wat die meeste gevra word. Leer asseblief die huidige bladsy-miskien sal dit jou toelaat om jou probleem vinnig op te los.
@@ -128,7 +129,7 @@ Ja, jy doen. Hou dus in gedagte dat die meeste lettertipes kopiereg het wanneer 
 
 {{% alert color="primary" %}}
 
-Jy kan meer gedetailleerde inligting oor mail merge in die [Mail Merge En Verslagdoening](/words/net/mail-merge-and-reporting/) dokumentasie afdeling.
+Jy kan meer gedetailleerde inligting oor Mail Merge in die [Mail Merge En Verslagdoening](/words/net/mail-merge-and-reporting/) dokumentasie afdeling.
 
 {{% /alert %}}
 
@@ -143,7 +144,7 @@ Die oorspronklike naam van die samesmelting veld bly dieselfde sonder om vervang
 
 **V: Waarom vertoon die uitset van geneste samesmelting nie data van die kindtabel vir die eerste inskrywing in die ouertabel nie, maar vertoon alle items vir die laaste inskrywing in die ouertabel, selfs items wat nie eintlik daaraan gekoppel is nie?**
 
-Dit is omdat die samesmelting streke in die sjabloon is nie korrek gevorm, wat kan maak al geneste mail merge streke te stop vertoon enigiets op alle. Die [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) opening tag en die [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) sluiting tag moet ooreenstem en in dieselfde ry of sel wees. Byvoorbeeld, as jy begin nes samesmelting streke in'n sel van'n tabel, moet jy die samesmelting streek eindig in dieselfde ry as die eerste sel.
+Dit is omdat die samesmelting streke in die sjabloon is nie korrek gevorm, wat kan maak al geneste Mail Merge streke te stop vertoon enigiets op alle. Die [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) opening tag en die [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) sluiting tag moet ooreenstem en in dieselfde ry of sel wees. Byvoorbeeld, as jy begin nes samesmelting streke in'n sel van'n tabel, moet jy die samesmelting streek eindig in dieselfde ry as die eerste sel.
 
 ------
 
@@ -156,7 +157,7 @@ Dit is omdat die verhouding tussen die ouer-en kind tafels nie opgestel is nie o
 
 ------
 
-**V: Waarom is'n uitsondering: "Stelsel.ArgumentException: hierdie beperking kan nie geaktiveer word nie, aangesien nie alle waardes ooreenstemmende ouerwaardes het nie" terwyl geneste mail merge uitgevoer word?**
+**V: Waarom is'n uitsondering: "Stelsel.ArgumentException: hierdie beperking kan nie geaktiveer word nie, aangesien nie alle waardes ooreenstemmende ouerwaardes het nie" terwyl geneste Mail Merge uitgevoer word?**
 
 Dit gebeur omdat nie elke ouerrekord'n kindrekord het nie, sodat u databron nie aan die volgende kriteria voldoen nie: *every row in the parent table should have a one-to-one relationship with the rows of the child table based on the primary and foreign keys*.
 

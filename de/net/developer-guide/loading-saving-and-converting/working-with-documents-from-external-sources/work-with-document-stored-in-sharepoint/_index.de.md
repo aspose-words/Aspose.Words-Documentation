@@ -1,12 +1,13 @@
 ---
-title: Arbeiten Sie mit einem in `SharePoint` Online gespeicherten Dokument
+title: Arbeiten Sie mit einem in SharePoint Online gespeicherten Dokument
 second_title: Aspose.Words für .NET
-articleTitle: Arbeiten Sie mit einem in `SharePoint` Online gespeicherten Dokument
-linktitle: Arbeiten Sie mit einem in `SharePoint` Online gespeicherten Dokument
+articleTitle: Arbeiten Sie mit einem in SharePoint Online gespeicherten Dokument
+linktitle: Arbeiten Sie mit einem in SharePoint Online gespeicherten Dokument
 description: "Konvertieren Sie in SharePoint freigegebenes Word mithilfe von C# in PDF. Arbeiten Sie mit Dokumenten, die in SharePoint gespeichert sind – verschiedene Eingabeformate, darunter Word, OpenOffice, Image und eBook."
 type: docs
 weight: 20
 url: /de/net/work-with-document-stored-in-sharepoint/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Microsoft SharePoint Online ist eine Sammlung webbasierter Technologien, die es Unternehmen erleichtern, digitale Informationen zu speichern, zu teilen und zu verwalten. Mit unserem leistungsstarken Aspose.Words für .NET können Sie mit Dokumenten arbeiten, die im Ordner "Freigegebene Dokumente" in SharePoint gespeichert sind.

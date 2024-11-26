@@ -7,6 +7,7 @@ description: "עבודה עם מסמכי VBA פרויקטים באמצעות C#.
 type: docs
 weight: 410
 url: /he/net/working-with-vba-macros/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Visual Basic בקשה (VBA) Microsoft Word היא שפת תכנות פשוטה אך עוצמתית שניתן להשתמש בה כדי להרחיב את הפונקציונליות. Aspose.Words API מספק שלוש כיתות כדי לקבל גישה לקוד המקור של פרויקט VBA:

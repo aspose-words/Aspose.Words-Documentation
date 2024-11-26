@@ -1,4 +1,4 @@
-﻿---
+---
 title: کار با اشکال در C++
 second_title: Aspose.Words برای C++
 articleTitle: کار با اشکال
@@ -7,6 +7,7 @@ type: docs
 description: "مقدمه ای بر زبان نشانه گذاری شکل، ایجاد اشکال از انواع مختلف با استفاده از C++."
 weight: 280
 url: /fa/cpp/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 این موضوع در مورد چگونگی کار برنامه نویسی با اشکال با استفاده از Aspose.Words بحث می کند.

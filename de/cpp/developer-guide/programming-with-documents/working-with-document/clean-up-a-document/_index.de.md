@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bereinigen Sie ein Dokument in C++
 second_title: Aspose.Words für C++
 articleTitle: Bereinigen eines Dokuments
@@ -7,6 +7,7 @@ description: "Entfernen Sie nicht verwendete oder doppelte Informationen, um die
 type: docs
 weight: 30
 url: /de/cpp/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal müssen Sie möglicherweise nicht verwendete oder doppelte Informationen entfernen, um die Größe des Ausgabedokuments und die Verarbeitungszeit zu reduzieren.

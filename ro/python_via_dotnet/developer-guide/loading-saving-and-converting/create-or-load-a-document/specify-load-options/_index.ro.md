@@ -1,4 +1,4 @@
-﻿---
+---
 title: Specificați opțiunile de încărcare în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Specificați Opțiunile De Încărcare
@@ -7,6 +7,7 @@ description: "Controlați mai precis procesul de încărcare folosind Python."
 type: docs
 weight: 10
 url: /ro/python-net/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Când încărcați un document, puteți seta câteva proprietăți avansate. Aspose.Words vă oferă clasa [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/), care permite un control mai precis al procesului de încărcare. Unele formate de încărcare au o clasă corespunzătoare care conține opțiuni de încărcare pentru acest format de încărcare, de exemplu, există [PdfLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/pdfloadoptions/) pentru încărcare în format PDF sau [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/) pentru încărcare în TXT. Acest articol oferă exemple de lucru cu opțiunile clasei [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/).

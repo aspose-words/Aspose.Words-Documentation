@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lavorare con SmartArt Cold Rendering in C++
 second_title: Aspose.Words per C++
 articleTitle: Lavorare con SmartArt Cold Rendering
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words per C++ esegue SmartArt Cold Rendering, il che significa che espone e rende gli oggetti SmartArt se il disegno pre-renderizzato SmartArt è mancante o errato."
 weight: 330
 url: /it/cpp/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 La grafica SmartArt viene utilizzata per creare rapidamente e facilmente una rappresentazione visiva delle informazioni. È sufficiente scegliere tra un gran numero di layout che meglio si adatta alla vostra situazione. Questa facilità d'uso rende la grafica SmartArt molto popolare per alcuni scopi.

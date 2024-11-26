@@ -7,6 +7,7 @@ description: "Introducere a funcției de textbox-uri asociate în Aspose.Words p
 type: docs
 weight: 250
 url: /ro/net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 În Aspose.Words, clasa [TextBox](https://reference.aspose.com/words/net/aspose.words.drawing/textbox/) este folosită pentru a specifica modul în care textul este afișat în interiorul unui obiect. "El expune o proprietate publică numită **Parent** pentru a obține forma părinte pentru caseta de text, astfel încât clientul poate găsi [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) legat din asociatul **TextBox**"

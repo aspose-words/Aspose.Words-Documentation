@@ -7,6 +7,7 @@ description: "Aspose.Words için Java'de, bir Microsoft Word ile oluşturulan bi
 type: docs
 weight: 20
 url: /tr/java/install-truetype-fonts-on-linux/
+timestamp: 2024-01-27-14-07-04
 ---
 
 En sık, DOC veya DOCX belgeleri PDF formatına dönüştürmek için Aspose.Words kullanırsınız. Bunu bir Linux makine üzerinde yapmanız gerekiyorsa, bu konu size Aspose.Words'ın belgelerinizi en iyi doğrulukla nasıl oluşturacağını öğrenmenize yardımcı olacak.

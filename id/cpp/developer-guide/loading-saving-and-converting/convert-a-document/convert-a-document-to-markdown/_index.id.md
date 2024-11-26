@@ -1,4 +1,4 @@
-﻿---
+---
 title: Konversikan Dokumen menjadi Markdown dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Konversikan Dokumen menjadi Markdown
@@ -8,6 +8,7 @@ description: "Konversikan dokumen dalam format pemuatan apa pun yang didukung ke
 keywords: how to convert a document to markdown c++, Convert doc to MD C++, convert DOCX to Markdown C++
 weight: 40
 url: /id/cpp/convert-a-document-to-markdown/
+timestamp: 2024-10-21-08-52-03
 ---
 
 Markdown adalah format populer yang digunakan untuk menandai teks dan selanjutnya mengubahnya menjadi HTML, PDF, DOCX, atau format lainnya. Banyak pengembang memilih format ini untuk menulis dokumentasi, menyiapkan artikel untuk dipublikasikan di blog, mendeskripsikan proyek, dan sebagainya.

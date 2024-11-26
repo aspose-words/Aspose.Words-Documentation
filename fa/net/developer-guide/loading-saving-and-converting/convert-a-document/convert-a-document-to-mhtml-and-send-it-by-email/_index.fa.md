@@ -7,6 +7,7 @@ description: "یک سند را تقریباً از هر فرمتی به فرمت
 type: docs
 weight: 30
 url: /fa/net/convert-a-document-to-mhtml-and-send-it-by-email/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Aspose.Words می تواند هر سندی را به فرمت MHTML (بایگانی وب) تبدیل کند. این باعث می شود استفاده از Aspose.Words و `Aspose.Email` با هم راحت باشد. می‌توانید یک سند از پیش تعریف‌شده را در هر قالب پشتیبانی‌شده مانند DOC، OOXML یا RTF در Aspose.Words بارگیری کنید، آن را با داده‌ها پر کنید، سند حاصل را به‌عنوان MHTML ذخیره کنید و سپس با استفاده از `Aspose.Email` آن را از طریق ایمیل ارسال کنید.

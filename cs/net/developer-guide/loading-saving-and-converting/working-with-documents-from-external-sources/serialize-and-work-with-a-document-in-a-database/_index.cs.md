@@ -7,6 +7,7 @@ description: "Převést dokument do pole byte pro práci s tímto dokumentem v d
 type: docs
 weight: 10
 url: /cs/net/serialize-and-work-with-a-document-in-a-database/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Jedním z úkolů, které budete muset udělat při práci s dokumenty je ukládání a získávání **Document** objekty do a z databáze. To by bylo například nezbytné, kdybyste prováděli jakýkoliv typ systému řízení obsahu. Všechny předchozí verze dokumentů musí být uloženy v databázovém systému. Schopnost ukládat dokumenty v databázi je také velmi užitečná, když vaše aplikace poskytuje webovou službu.

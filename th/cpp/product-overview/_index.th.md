@@ -1,4 +1,4 @@
-﻿---
+---
 title: ภาพรวมผลิตภัณฑ์
 second_title: Aspose.WordsสำหรับC++
 articleTitle: ภาพรวมผลิตภัณฑ์
@@ -7,6 +7,7 @@ description: "Aspose.WordsสำหรับC++ เป็นไลบราร�
 type: docs
 weight: 5
 url: /th/cpp/product-overview/
+timestamp: 2024-06-05-14-43-57
 ---
 
 <img src="product-overview_1" alt="aspose-words-product_cpp" align="left" style="width:64px; margin: 0 30px 30px 0"/>

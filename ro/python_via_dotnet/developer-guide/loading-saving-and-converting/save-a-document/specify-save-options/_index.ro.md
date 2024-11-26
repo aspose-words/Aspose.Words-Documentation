@@ -1,4 +1,4 @@
-﻿---
+---
 title: Specificați opțiunile de salvare în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Specificați Opțiunile De Salvare
@@ -7,6 +7,7 @@ description: "Controlați mai precis procesul de salvare folosind Python."
 type: docs
 weight: 10
 url: /ro/python-net/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Când salvați un document, puteți seta câteva proprietăți avansate. Aspose.Words vă oferă clasa [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/), care permite un control mai precis al procesului de salvare. Există supraîncărcări ale metodei [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) care acceptă un obiect [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) - ar trebui să fie un obiect al unei clase derivate din clasa [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/). Fiecare format de salvare are o clasă corespunzătoare care conține opțiuni de salvare pentru acest format de salvare, de exemplu, există [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) pentru salvarea în format PDF sau [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/) pentru salvarea într-o imagine. Acest articol oferă exemple de lucru cu unele clase de opțiuni derivate din [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/).

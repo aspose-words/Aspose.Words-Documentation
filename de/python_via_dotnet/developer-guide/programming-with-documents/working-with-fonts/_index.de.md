@@ -7,6 +7,7 @@ description: "Passen Sie die Schriftarteinstellungen mit Python an."
 type: docs
 weight: 230
 url: /de/python-net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Eine Schriftart ist eine Reihe von Zeichen mit einer bestimmten Größe, Farbe und einem bestimmten Design. Mit Aspose.Words können Sie mithilfe des [fonts](https://reference.aspose.com/words/python-net/aspose.words.fonts/)-Moduls und der [Font](https://reference.aspose.com/words/python-net/aspose.words/font/)-Klasse mit Schriftarten arbeiten.

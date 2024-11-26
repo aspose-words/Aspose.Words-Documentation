@@ -1,4 +1,4 @@
-﻿---
+---
 title: Licencias y Suscripción
 second_title: Aspose.Words para C++
 articleTitle: Licencias y Suscripción
@@ -7,6 +7,7 @@ description: "Aspose.Words for С++ ofrece diferentes planes de compra u ofrece 
 type: docs
 weight: 60
 url: /es/cpp/licensing/
+timestamp: 2024-10-24-11-44-28
 ---
 
 A veces, para estudiar mejor el sistema, desea sumergirse en el código lo más rápido posible. Para facilitar esto, Aspose.Words ofrece diferentes planes de compra u ofrece una prueba gratuita y una Licencia Temporal de 30 días para su evaluación.
@@ -59,12 +60,12 @@ Después de comprar una licencia, debe leer detenidamente la información en pá
 Las licencias se pueden aplicar desde varias ubicaciones:
 
 * Ruta explícita
-* La carpeta que contiene el archivo `Aspose.Words_` \*.dll
-* La carpeta que contiene el ensamblado que llamó a `Aspose.Words_`\*.dll
-* La carpeta que contiene el conjunto de entrada (su *.exe*)
-* Un recurso incrustado en el ensamblado se llama `Aspose.Words_`\*.dll
+* La carpeta que contiene el archivo `Aspose.Words_\*.dll`
+* La carpeta que contiene el ensamblado que llamó a `Aspose.Words_\*.dll`
+* La carpeta que contiene el conjunto de entrada (su `.exe`)
+* Un recurso incrustado en el ensamblado se llama `Aspose.Words_\*.dll`
 
-A menudo, la forma más sencilla de establecer una licencia es colocar el archivo de licencia en la misma carpeta que `Aspose.Words_` \*.dll y especificar solo el nombre del archivo sin la ruta.
+A menudo, la forma más sencilla de establecer una licencia es colocar el archivo de licencia en la misma carpeta que `Aspose.Words_\*.dll` y especificar solo el nombre del archivo sin la ruta.
 
 {{% alert color="primary" %}}
 

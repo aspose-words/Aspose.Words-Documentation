@@ -1,4 +1,4 @@
-﻿---
+---
 title: How to Use Aspose.Words Instead of Open XML SDK
 second_title: Aspose.Words for Java
 articleTitle: How to Use Aspose.Words Instead of Open XML SDK
@@ -7,6 +7,7 @@ description: "How to download and install Aspose.Words for Java and what prerequ
 type: docs
 weight: 10
 url: /java/aspose-words-instead-of-openxml-sdk/
+timestamp: 2024-01-31-14-23-37
 ---
 
 When a user needs to create, modify, and manage documents programmatically, it is always important to choose the right tool that fits the particular document development needs. This article aims to help developers make the right decision by comparing Aspose.Words and Open XML SDK.

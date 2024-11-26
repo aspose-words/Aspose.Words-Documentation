@@ -7,6 +7,7 @@ description: "Въведение в свързани текстови кутии
 type: docs
 weight: 250
 url: /bg/net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 В Aspose.Words, на [TextBox](https://reference.aspose.com/words/net/aspose.words.drawing/textbox/) Класът се използва, за да се уточни как текстът се показва във форма. Разкрива публична собственост, наречена **Parent** за да получите формата на родител за текстовата кутия, така че клиентът да може да намери свързани [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) от свързания **TextBox**.

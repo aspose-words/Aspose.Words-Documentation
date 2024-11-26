@@ -1,4 +1,4 @@
-﻿---
+---
 title: Inserting Images Dynamically in Java
 second_title: Aspose.Words for Java
 articleTitle: Inserting Images Dynamically
@@ -7,6 +7,7 @@ description: "Insert images into your document dynamically when building a repor
 type: docs
 weight: 60
 url: /java/inserting-images-dynamically/
+timestamp: 2024-01-27-14-07-04
 ---
 
 You can insert images to your reports dynamically using `image` tags. To declare a dynamically inserted image within your template, do the following steps:

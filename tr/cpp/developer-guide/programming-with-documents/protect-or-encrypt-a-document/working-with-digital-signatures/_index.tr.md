@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ 'da Dijital İmzalarla Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Dijital imzalarla Çalışma
@@ -7,6 +7,7 @@ description: "Belgeleri dijital olarak imzalayın ve mevcut dijital imzaları te
 type: docs
 weight: 160
 url: /tr/cpp/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dijital imza, bir belgenin imzalandığından beri değiştirilmediğini garanti etmek için belgeleri imzalamak ve imzalayanın kimliğini doğrulamak için elektronik imzaların teknolojik bir uygulamasıdır. Her dijital imza, hem genel hem de özel anahtarlar oluşturmak için PKI protokolünü takip etmesi nedeniyle her imzalayan için benzersizdir. Bir belgeyi dijital olarak imzalamak, oluşturulan karmayı şifrelemek için matematiksel bir algoritmanın kullanıldığı imzalayanın özel anahtarını kullanarak imza oluşturmak anlamına gelir.

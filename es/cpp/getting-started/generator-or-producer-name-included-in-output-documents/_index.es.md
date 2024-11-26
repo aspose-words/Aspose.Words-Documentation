@@ -1,4 +1,4 @@
-﻿---
+---
 title: Nombre del Productor en las Salidas
 second_title: Aspose.Words para C++
 articleTitle: Nombre del Generador o Productor en los Documentos de Salida
@@ -7,6 +7,7 @@ description: "Aspose.Words para C++ agregue al documento el nombre del generador
 type: docs
 weight: 90
 url: /es/cpp/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Puede saber fácilmente si un documento se produce utilizando Aspose.Words para C++. También puede encontrar el número de versión de Aspose.Words para C++ eso se usó para crear un documento de salida en particular. Aspose.Words escribe directamente esta información en el documento generado.

@@ -7,6 +7,7 @@ description: "Aspose.Words zamiast Java jest biblioteką oprogramowania zaprojek
 type: docs
 weight: 5
 url: /pl/java/product-overview/
+timestamp: 2024-01-31-14-23-37
 ---
 
 <img src="/words/java/product-overview/home_1" alt="aspose-words-product" align="left" style="width:64px; margin: 0 30px 30px 0"/>
@@ -65,7 +66,7 @@ Generowanie dokumentów lub raportów od zera lub poprzez wypełnianie szablonó
 
 Aspose.Words zamiast Java obejmuje wszystkie Java środowiska rozwojowe i platformy wdrożeniowe. Nasze API mogą być wykorzystywane do opracowywania aplikacji dla szerokiego zakresu systemów operacyjnych, takich jak Windows, Linux, Mac OS, Android, i różne platformy.
 
-Mówiąc prosto, jeśli platforma może działać standardowo <span notrans="<span notrans=" Java"=""></span>", > może działać Aspose.Words zamiast Java. Jeśli aplikacja może wywołać standard Java <span notrans="<span notrans=" API"=""></span>", > nie będziesz miał żadnych problemów, aby zadzwonić Aspose.Words zamiast Java API Z twojej aplikacji.
+Mówiąc prosto, jeśli platforma może działać standardowo Java, > może działać Aspose.Words zamiast Java. Jeśli aplikacja może wywołać standard Java API, > nie będziesz miał żadnych problemów, aby zadzwonić Aspose.Words zamiast Java API Z twojej aplikacji.
 
 Obecnie naszym punktem odniesienia jest JDK1.7 i nowsza. Ale nadal popieramy JDK1.6.
 
@@ -91,7 +92,7 @@ Aspose.Words jest wielonitkowy bezpieczny tak długo, jak tylko jeden nitka dzia
 
 ### Minimalna krzywa uczenia się
 
-Chociaż istnieje ponad 150 klas publicznych i notowań w <span notrans="<span notrans=" Aspose.Words"=""></span>", > krzywa uczenia się jest minimalna, ponieważ Aspose.Words API został starannie zaprojektowany z myślą o następujących celach:
+Chociaż istnieje ponad 150 klas publicznych i notowań w Aspose.Words, > krzywa uczenia się jest minimalna, ponieważ Aspose.Words API został starannie zaprojektowany z myślą o następujących celach:
 
 * Pożycz najlepsze praktyki z innych dobrze znanych APIdo Microsoft Word Automatyzacja
 * Pożycz najlepsze praktyki z Java Wytyczne dotyczące projektu ramowego

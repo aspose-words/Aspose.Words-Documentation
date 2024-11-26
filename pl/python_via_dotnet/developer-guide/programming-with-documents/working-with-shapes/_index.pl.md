@@ -7,6 +7,7 @@ description: "Twórz i zarządzaj kształtami i obiektami w dokumencie za pomoc�
 type: docs
 weight: 280
 url: /pl/python-net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 W tym temacie omówiono sposób programowej pracy z kształtami przy użyciu formatu Aspose.Words.

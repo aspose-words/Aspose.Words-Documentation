@@ -1,4 +1,4 @@
-﻿---
+---
 title: การทำงานกับช่วงในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: การทำงานกับช่วง
@@ -7,6 +7,7 @@ description: "แนะนำคุณลักษณะช่วงใน Aspos
 type: docs
 weight: 130
 url: /th/cpp/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

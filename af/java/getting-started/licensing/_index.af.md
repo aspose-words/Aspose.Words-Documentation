@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lisensie en Inskrywing
 second_title: Aspose.Words vir Java
 articleTitle: Lisensie en Inskrywing
@@ -7,6 +7,7 @@ description: "Aspose.Words vir Java bied verskillende planne vir aankoop of bied
 type: docs
 weight: 60
 url: /af/java/licensing/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Soms, om die stelsel beter te bestudeer, wil jy so vinnig as moontlik in die kode duik. Om dit makliker te maak, bied Aspose.Words verskillende planne vir aankoop of bied'n Gratis Proeflopie en'n 30-Dag Tydelike Lisensie vir evaluering.

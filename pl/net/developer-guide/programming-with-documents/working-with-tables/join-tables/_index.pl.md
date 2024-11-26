@@ -7,6 +7,7 @@ description: "Dołącz do tabel w C#. Jak połączyć dwie tabele w jedną C#."
 type: docs
 weight: 90
 url: /pl/net/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tabela reprezentowana w formacie Aspose.Words Document Object Model składa się z niezależnych wierszy i komórek, co ułatwia łączenie tabel.

@@ -1,12 +1,13 @@
-﻿---
-title: استفاده از `DocumentBuilder` برای تغییر یک سند به راحتی
+---
+title: استفاده از DocumentBuilder برای تغییر یک سند به راحتی
 second_title: Aspose.Words برای C++
-articleTitle: استفاده از `DocumentBuilder` برای تغییر یک سند به راحتی
-linktitle: استفاده از `DocumentBuilder` برای تغییر یک سند به راحتی
+articleTitle: استفاده از DocumentBuilder برای تغییر یک سند به راحتی
+linktitle: استفاده از DocumentBuilder برای تغییر یک سند به راحتی
 type: docs
 description: "از سازنده سند برای تغییر یک سند به راحتی در C++ استفاده کنید."
 weight: 190
 url: /fa/cpp/using-documentbuilder-to-modify-a-document-easily/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## مشخص کردن قالب بندی

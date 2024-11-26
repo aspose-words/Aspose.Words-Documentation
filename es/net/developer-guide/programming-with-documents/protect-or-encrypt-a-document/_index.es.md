@@ -7,6 +7,7 @@ description: "Aspose.Words para .NET proporciona solo lectura, cifrar un documen
 type: docs
 weight: 50
 url: /es/net/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 La razón principal para proteger o cifrar un documento es aplicar más control sobre quién puede acceder al documento o quién puede editarlo. Al aplicar protección a sus documentos, evita riesgos comunes como copiar o modificar documentos sin permiso, así como la fuga de datos.

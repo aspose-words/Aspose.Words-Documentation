@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Teks dalam Tabel
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Teks dalam Tabel
@@ -7,6 +7,7 @@ description: "Ganti teks dalam tabel di C++. Ekstrak Teks Biasa dari Tabel atau 
 type: docs
 weight: 60
 url: /id/cpp/work-with-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Seperti yang telah disebutkan di artikel sebelumnya, tabel biasanya berisi teks biasa, meskipun konten lain seperti gambar atau bahkan tabel lain dapat ditempatkan di sel tabel.

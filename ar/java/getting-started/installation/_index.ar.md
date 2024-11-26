@@ -1,23 +1,24 @@
----
-title: التركيب
-second_title: Aspose.Words for Java
-articleTitle: التركيب
-linktitle: التركيب
-description: "Install Aspose.Words for Java من Maven مستودع تعريف Aspose.Words for Java التبعية في بومك"
+﻿---
+title: تركيب
+second_title: Aspose.Words ل Java
+articleTitle: تركيب
+linktitle: تركيب
+description: "تثبيت Aspose.Words ل Java من Maven مستودع. حدد Aspose.Words لـ Java التبعية في pom.xml"
 type: docs
 weight: 10
 url: /ar/java/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
-احرص على أن تلتقي آلتك [متطلبات النظام](/words/ar/java/system-requirements/) قبل أن تبدأ
+تأكد من أن جهازك يلبي [متطلبات النظام](/words/java/system-requirements/) قبل أن تبدأ.
 
-وتوضح هذه المادة كيفية تركيبها Aspose.Words for Java على حاسوبك
+تشرح هذه المقالة كيفية تثبيت Aspose.Words لـ Java على جهاز الكمبيوتر الخاص بك.
 
-## Install Aspose.Words for Java من Maven المستودع {#install-aspose-words-for-java-from-maven-repository}
+## تثبيت Aspose.Words ل Java من Maven مستودع {#install-aspose-words-for-java-from-maven-repository}
 
-يفترض أن يستضيف كل شيء Java APIفي [Maven مستودع](https://releases.aspose.com/words/java/). يمكنك استخدامه بسهولة Aspose.Words for Java API مباشرة في Maven المشاريع ذات التشكيلات البسيطة:
+يستضيف أسبوس الكل Java APIs في [Maven مستودع](https://releases.aspose.com/words/java/). يمكنك بسهولة استخدام Aspose.Words ل Java API مباشرة في مشاريعك Maven مع تكوينات بسيطة:
 
-1 أولاً، يجب أن تحددي (أفترض) Maven تشكيلة المستودعات/الموقع في Maven بوم-كسميل على النحو المبين أدناه:
+1. أولا، تحتاج إلى تحديد تكوين / موقع مستودع Maven في Maven pom.xml كما هو موضح أدناه:
 	{{< highlight html >}}
 	<repositories>
 		<repository>
@@ -27,7 +28,7 @@ url: /ar/java/installation/
 		</repository>
 	</repositories>
 	{{< /highlight >}}
-2. ثم تعريف Aspose.Words for Java API التبعية في بوم
+2. ثم حدد Aspose.Words لـ Java API التبعية في pom.xml على النحو التالي:
 	{{< highlight html >}}
 	<dependencies>
 		<dependency>
@@ -44,8 +45,8 @@ url: /ar/java/installation/
 		</dependency>
 	</dependencies>
 	{{< /highlight >}}
-3 تهانينا! لقد نجحت في تحديد Aspose.Words for Java اعتمادك Maven مشروع
+3. مبارك! لقد قمت بتعريف Aspose.Words للتبعية Java بنجاح في مشروعك Maven.
 
-## انظر أيضا
+## أنظر أيضا
 
 * [تحميل Aspose.Words من Maven](https://releases.aspose.com/words/java/)

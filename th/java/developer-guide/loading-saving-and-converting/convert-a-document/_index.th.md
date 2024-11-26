@@ -1,101 +1,102 @@
----
-title: แปลงเอกสารเป็น Java
-second_title: Aspose.Words สําหรับ Java
+﻿---
+title: แปลงเอกสารเป็นJava
+second_title: Aspose.WordsสำหรับJava
 articleTitle: แปลงเอกสาร
 linktitle: แปลงเอกสาร
 type: docs
 weight: 30
 url: /th/java/convert-a-document/
-description: "แปลงเอกสารอย่างง่าย ๆ จากรูปแบบหนึ่งไปเป็นอีกรูปแบบหนึ่ง คุณสามารถทํางานกับรูปแบบที่ได้รับความนิยมมากที่สุดเช่น Microsoft Word รูปแบบแบบ DCX หรือ DOC, แบบ OpenDocument เช่น ODT หรือ OTT, รูปแบบเว็บ เช่น HTML หรือ XHTML, รูปแบบข้อความเช่น Mark Down หรือ TXT, และอื่น ๆ ที่ใช้ Java."
+description: "ได้อย่างง่ายดายแปลงเอกสารจากรูปแบบหนึ่งไปยังอีก คุณสามารถทำงานกับรูปแบบที่นิยมมากที่สุดทั้งหมดเช่นMicrosoft Wordรูปแบบเช่นDOCXหรือDOC,OpenDocumentรูปแบบเช่นODTหรือOTT,รูปแบบเว็บเช่นHTMLหรือXHTML,รูปแบบข้อความเช่นMarkDownหรือTXTและอื่นๆโดยใช้Java."
+timestamp: 2024-09-25-11-08-55
 ---
 
-ความสามารถที่จะแปลงเอกสารจากรูปแบบหนึ่งเป็นอีกรูปแบบหนึ่งได้อย่างง่ายดาย และสามารถเปลี่ยนแปลงได้อย่างง่ายดาย Aspose.Words. การแปลงดังกล่าวไม่มีอะไรมากไปกว่า การรวมกันของการดําเนินการและประหยัด
+ความสามารถในการแปลงเอกสารจากรูปแบบหนึ่งไปยังอีกรูปแบบหนึ่งได้อย่างง่ายดายและเชื่อถือได้เป็นหนึ่งในพื้นที่คุณสมบัติหลักของAspose.Words การแปลงดังกล่าวเป็นอะไรมากไปกว่าการรวมกันของการโหลดและการดำเนินงานประ.
 
-## การ เปลี่ยน แปลง ของ เอกสาร {#what-is-document-conversion}
+## การแปลงเอกสาร {#what-is-document-conversion}คืออะไร
 
-เกือบทุกทาสก์ที่คุณต้องการจะทํา Aspose.Words จะทําการโหลดหรือบันทึกเอกสารในรูปแบบใดรูปแบบหนึ่ง ตามที่กล่าวถึงในภาคก่อนหน้า [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) การรวมหัวกําหนดทั้งหมด *load* หรือ *import* รูปแบบที่รองรับโดย Aspose.Wordsและ [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) การรวมหัวกําหนดทั้งหมด *save* หรือ *export* รูปแบบที่รองรับโดย Aspose.Words. ดังนั้น Aspose.Words แปลงเอกสารจากรูปแบบการโหลดใด ๆ ที่รองรับ ให้เป็นรูปแบบแฟ้มที่ถูกรองรับได้ การ เปลี่ยน แปลง เช่น นั้น เรียก ร้อง การ คํานวณ หลาย ขั้น ตอน. แต่จากมุมมองของผู้ใช้ การเปลี่ยนจากรูปแบบเอกสารไปยังอีกรูปแบบหนึ่งนั้น ง่ายมากๆ และสามารถประสบความสําเร็จได้ ด้วยสองขั้นตอน:
+เกือบทุกงานที่คุณต้องการดำเนินการด้วยAspose.Wordsเกี่ยวข้องกับการโหลดหรือบันทึกเอกสารในบาง ดังที่ได้กล่าวไว้ในส่วนก่อนหน้านี้การแจงนับของ[LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/)จะระบุรูปแบบ*load*หรือ*import*ทั้งหมดที่รองรับโดยAspose.Wordsและ[SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)การแจงนับจะระบุรูปแบบ*save*ทั้งหมดหรือ*export*ที่รองรับโดยAspose.Words ดังนั้นAspose.Wordsสามารถแปลงเอกสารจากรูปแบบการโหลดที่สนับสนุนใดๆเป็นรูปแบบการบันทึกใดๆที่ ตามกฎการแปลงดังกล่าวต้องใช้หลายขั้นตอนของการคำนวณ อย่างไรก็ตามจากการแปลงมุมมองของผู้ใช้จากรูปแบบเอกสารไปยังอีกคนหนึ่งเป็นตัวเอ:
 
-1 โหลดเอกสารของคุณไปยัง [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) วัตถุที่ใช้สร้างของ
-1 จีบหนึ่งใน [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String-int) วิธีการของ **Document** ออบเจกต์และระบุรูปแบบการแสดงผลที่ต้องการ
+1. ป้อนเอกสารของคุณลงในวัตถุ[Document](https://reference.aspose.com/words/java/com.aspose.words/document/)โดยใช้หนึ่งในตัวสร้าง.
+1. เรียกหนึ่งในวิธีการ[Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String-int)บนวัตถุ**Document**และระบุรูปแบบผลลัพธ์ที่ต้องการ.
 
 {{% alert color="primary" %}}
 
-**ลองออนไลน์ดูสิ**
+**ลองออนไลน์**
 
-คุณสามารถลองใช้ฟังก์ชันนี้กับ [ตัวแปลงภาพแบบออนไลน์ฟรี](https://products.aspose.app/words/conversion).
+คุณสามารถลองฟังก์ชั่นนี้กับเรา [แปลงออนไลน์ฟรี](https://products.aspose.app/words/conversion).
 
 {{% /alert %}}
 
-## การ เปลี่ยน แปลง ที่ นิยม กัน {#popular-conversions}
+## การแปลงยอดนิยม {#popular-conversions}
 
-ส่วน ปัจจุบัน นี้ พรรณนา ถึง การ เปลี่ยน แปลง ที่ นิยม กัน รวม ทั้ง แนว คิด ใน การ ทํา งาน กับ รูป แบบ บาง อย่าง เมื่อ ขน ส่ง และ เก็บ. โดยใช้ตัวอย่างของส่วนนี้, คุณคงเข้าใจได้ว่า กระบวนการแปลงนั้นค่อนข้างเป็นสากล, และไม่มีเหตุผลที่จะบรรยายตัวเลือกที่เป็นไปได้ทั้งหมด, เนื่องจากมันมีอยู่หลายร้อยอย่างเนื่องจากจํานวนมากมาย [รูปแบบเอกสารที่รองรับ](/words/th/java/supported-document-formats/).
+ส่วนปัจจุบันอธิบายการแปลงที่เป็นที่นิยม,เช่นเดียวกับความคิดสำหรับการทำงานร่วมกับบาง ใช้ตัวอย่างของส่วนนี้คุณสามารถเข้าใจว่ากระบวนการแปลงตัวเองเป็นสากลมากและมีจุ [รูปแบบที่รองรับโดยAspose.WordsสำหรับJava](/words/java/supported-document-formats/).
 
 {{% alert color="primary" %}}
 
-โปรดสังเกตว่าข้างล่างเป็นรูปแบบการแปลงที่ได้รับความนิยมมากที่สุด และไม่ใช่ทุกส่วนผสมจะเชื่อมโยงกับหน้าที่แน่นอน เป็น เช่น นั้น เพราะ บทความ ของ เรา ไม่ มี ตัว อย่าง สําหรับ ทุก คน ที่ เปลี่ยน ศาสนา เกือบ ทุก คน คล้าย กัน. จง ทํา ให้ แน่ ใจ ใน เรื่อง นี้ โดย ศึกษา บทความ ต่าง ๆ ใน ตอน นี้.
+โปรดทราบว่าด้านล่างเป็นชุดแปลงที่นิยมมากที่สุดและไม่รวมกันทุกการเชื่อมโยงไปยังหน้ นี้เนื่องจากบทความของเราไม่มีตัวอย่างสำหรับทุกคู่ของการแปลง–แปลงเกือบทั้งหมดจะค ตรวจดูให้แน่ใจโดยการศึกษาบทความในส่วนปัจจุบัน.
 
 {{% /alert %}}
 
 <div class="row">
 	<div class="col-md-6">
-		<h2>แปลงคําเป็น PDF</h2>
+		<h2>แปลงคำเป็นPDF</h2>
 			<ul>
-				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">PDF ของ CATOP (พ.ศ</a></li>
-				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">CATOP PDF (พ.ศ</a></li>
-				<li>และคนอื่นๆ</li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">แปลงDOCเป็นPDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">แปลงDOCXเป็นPDF</a></li>
+				<li>และอื่นๆ</li>
 			</ul>
-		<h2>แปลงภาพเป็น PDF</h2>
+		<h2>แปลงภาพเป็นPDF</h2>
 			<ul>
-				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">TH 07 Proup Proup (in อ382828-30) (พ.ศ</a></li>
-				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Taid Taiin. ส/i.ikias language language ธันวาคม 2015 PDF</a></li>
-				<li>และคนอื่นๆ</li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">แปลงJPGเป็นPDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">แปลงTIFFเป็นPDF</a></li>
+				<li>และอื่นๆ</li>
 			</ul>
-		<h2>แปลงรูปแบบเว็บไปเป็น PDF</h2>
+		<h2>แปลงรูปแบบเว็บเป็นPDF</h2>
 			<ul>
-				<li>แปลง Markdown ไปยัง PDF</li>
-				<li>แปลง HTML เป็น PDF</li>
-				<li>แปลง MHT (MHT) เป็น PDF</li>
-				<li>และคนอื่นๆ</li>
+				<li>แปลงMarkdownเป็นPDF</li>
+				<li>แปลงHTMLเป็นPDF</li>
+				<li>แปลงMHT(MHTML)เป็นPDF</li>
+				<li>และอื่นๆ</li>
 			</ul>
-		<h2>แปลงรูปแบบอื่นเป็น PDF</h2>
+		<h2>แปลงรูปแบบอื่นๆเป็นPDF</h2>
 			<ul>
-				<li>แปลง RTF เป็น PDF</li>
-				<li>แปลง ODT เป็น PDF</li>
-				<li>แปลง TXT เป็น PDF</li>
-				<li>แปลง Mobi เป็น PDF</li>
-				<li>และคนอื่นๆ</li>
+				<li>แปลงRTFเป็นPDF</li>
+				<li>แปลงODTเป็นPDF</li>
+				<li>แปลงTXTเป็นPDF</li>
+				<li>แปลงโมบิเป็นPDF</li>
+				<li>และอื่นๆ</li>
 			</ul>
 	</div>
 	<div class="col-md-6">
-		<h2>แปลงเอกสารเป็นอิมเมจ</h2>
+		<h2>แปลงเอกสารเป็นรูปภาพ</h2>
 			<ul>
-				<li><a href="/words/th/java/convert-a-document-to-an-image/">แปลงเอกสารเป็นอิมเมจ</a></li>
-				<li>แปลง DOC เป็น PNG</li>
-				<li>และคนอื่นๆ</li>
+				<li><a href="/words/java/convert-a-document-to-an-image/">แปลงDOCXเป็นJPG</a></li>
+				<li>แปลงDOCเป็นPNG</li>
+				<li>และอื่นๆ</li>
 			</ul>
-		<h2>แปลงเอกสารเป็น Markdown</h2>
+		<h2>แปลงเอกสารเป็นMarkdown</h2>
 			<ul>
-				<li><a href="/words/th/java/convert-a-document-to-markdown/">แปลงเอกสารเป็น Markdown</a></li>
-				<li>แปลง HTML เป็น Markdown</li>
-				<li>และคนอื่นๆ</li>
+				<li><a href="/words/java/convert-a-document-to-markdown/">แปลงเอกสารเป็นMarkdown</a></li>
+				<li>แปลงHTMLเป็นMarkdown</li>
+				<li>และอื่นๆ</li>
 			</ul>
-		<h2>แปลงเอกสารเป็น HTML</h2>
+		<h2>แปลงเอกสารเป็นHTML</h2>
 			<ul>
-				<li><a href="/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">CCA 05 (พ.ศ</a></li>
-				<li>แปลง Markdown ไปยัง HTML</li>
-				<li>แปลง Mobi เป็น EPUB</li>
-				<li>และคนอื่นๆ</li>
+				<li><a href="/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">แปลงคำเป็นHTML</a></li>
+				<li>แปลงMarkdownเป็นHTML</li>
+				<li>แปลงโมบิเป็นEPUB</li>
+				<li>และอื่นๆ</li>
 			</ul>
-		<h2>ทําเอกสารในฐานข้อมูล</h2>
+		<h2>การทำงานเอกสารในฐานข้อมูล</h2>
 			<ul>
-				<li><a href="/words/th/java/serialize-and-work-with-a-document-in-a-database/">ทํา งาน ต่อ ไป กับ เอกสาร ใน ฐานข้อมูล</a></li>
+				<li><a href="/words/java/serialize-and-work-with-a-document-in-a-database/">จัดลำดับและทำงานกับเอกสารในฐานข้อมูล</a></li>
 			</ul>
-		<h2>ตัวอย่างอื่น ๆ</h2>
+		<h2>ตัวอย่างอื่นๆ</h2>
 			<ul>
-				<li><a href="/words/th/java/convert-a-document-to-mhtml-and-send-it-by-email/">////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</a></li>
-				<li>แปลง DOCX ไปยัง DOC</li>
-				<li>แปลง HTML เป็นคํา</li>
-				<li>และคนอื่นๆ</li>
+				<li><a href="/words/java/convert-a-document-to-mhtml-and-send-it-by-email/">แปลงเอกสารเป็นMHTMLและส่งทางอีเมล</a></li>
+				<li>แปลงDOCXเป็นDOC</li>
+				<li>แปลงHTMLเป็นคำ</li>
+				<li>และอื่นๆ</li>
 			</ul>
 	</div>
 </div>

@@ -9,6 +9,7 @@ type: docs
 description: "Aspose.Words for .NET 提供所有使用者免費的技術支援。 請使用Aspose Free 支持論壇來報導您的問題、問題或功能請求。"
 weight: 80
 url: /zh-hant/net/technical-support/
+timestamp: 2024-01-27-14-07-04
 ---
 
 阿波斯特提供所有產品的無限制免費技術支援。 所有使用者都能獲得支援，包括試用版。 支持的主要渠道是 [Aspose.Forums](https://forum.aspose.com/c/words/8)。

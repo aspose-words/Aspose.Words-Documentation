@@ -1,4 +1,4 @@
-﻿---
+---
 title: Manipulação de Windows metarquivos em C++
 second_title: Aspose.Words para C++
 articleTitle: Manipulação De Windows Metarquivos
@@ -7,6 +7,7 @@ description: "Aspose.Words para C++ implementa o seu próprio leitor de metarqui
 type: docs
 weight: 30
 url: /pt/cpp/handling-windows-metafiles/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Windows formato de metarquivo é um formato de arquivo de imagem que pode conter gráficos vetoriais e rasterizados. Este formato é utilizado para armazenar dados Gráficos na memória ou em ficheiros em disco. Um metarquivo armazena uma lista de chamadas de função na interface do dispositivo gráfico Windows (GDI) que devem ser executadas para exibir a imagem na tela. O sistema interpreta e executa esses comandos no contexto de exibição.

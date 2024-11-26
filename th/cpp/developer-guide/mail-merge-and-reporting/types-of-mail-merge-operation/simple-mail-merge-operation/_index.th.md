@@ -1,26 +1,27 @@
-﻿---
+---
 title: ง่าย Mail Merge การดำเนินงานใน C++
 second_title: Aspose.Words สำหรับ C++
 articleTitle: ง่าย Mail Merge การดำเนินงาน
 linktitle: ง่าย Mail Merge การดำเนินงาน
 type: docs
-description: "ง่าย mail merge จะใช้ในการกรอกข้อมูล mail merge ฟิลด์ภายในเทมเพลตของคุณด้วยข้อมูลที่จำเป็นจากแหล่งข้อมูลของคุณ-มันคล้ายกับคลาสสิก mail merge ใน Microsoft Word. เพิ่มอย่างน้อยหนึ่งเขตข้อมูลผสานในแม่แบบของคุณและดำเนินการอย่างง่าย mail merge การดำเนินงาน."
-keywords: "how to execute mail merge c++"
+description: "ง่าย Mail Merge จะใช้ในการกรอกข้อมูล Mail Merge ฟิลด์ภายในเทมเพลตของคุณด้วยข้อมูลที่จำเป็นจากแหล่งข้อมูลของคุณ-มันคล้ายกับคลาสสิก Mail Merge ใน Microsoft Word. เพิ่มอย่างน้อยหนึ่งเขตข้อมูลผสานในแม่แบบของคุณและดำเนินการอย่างง่าย Mail Merge การดำเนินงาน."
+keywords: "how to execute Mail Merge c++"
 weight: 10
 url: /th/cpp/simple-mail-merge-operation/
+timestamp: 2024-09-24-14-35-44
 ---
 
-ง่าย mail merge จะใช้ในการกรอกข้อมูล mail merge ฟิลด์ภายในเทมเพลตของคุณพร้อมข้อมูลที่จำเป็นจากแหล่งข้อมูลของคุณ(การแสดงตารางเ ดังนั้นจึงมีความคล้ายคลึงกับคลาสสิก mail merge ใน Microsoft Word.
+ง่าย Mail Merge จะใช้ในการกรอกข้อมูล Mail Merge ฟิลด์ภายในเทมเพลตของคุณพร้อมข้อมูลที่จำเป็นจากแหล่งข้อมูลของคุณ(การแสดงตารางเ ดังนั้นจึงมีความคล้ายคลึงกับคลาสสิก Mail Merge ใน Microsoft Word.
 
-คุณสามารถเพิ่มฟิลด์ผสานอย่างน้อยหนึ่งฟิลด์ในแม่แบบของคุณและดำเนินการอย่างง่าย mail merge การดำเนินงาน ขอแนะนำให้ใช้หากเทมเพลทของคุณไม่มีพื้นที่ผสาน.
+คุณสามารถเพิ่มฟิลด์ผสานอย่างน้อยหนึ่งฟิลด์ในแม่แบบของคุณและดำเนินการอย่างง่าย Mail Merge การดำเนินงาน ขอแนะนำให้ใช้หากเทมเพลทของคุณไม่มีพื้นที่ผสาน.
 
 ข้อจำกัดหลักของการใช้ชนิดนี้เป็นเนื้อหาเอกสารทั้งหมดจะถูกทำซ้ำสำหรับแต่ละระเบียน.
 
 ## วิธีการดำเนินการที่เรียบง่าย Mail Merge การดำเนินงาน
 
-เมื่อแม่แบบของคุณพร้อม,คุณสามารถเริ่มต้นการดำเนินการที่เรียบง่าย mail merge การดำเนินงาน Aspose.Words ช่วยให้คุณสามารถดำเนินการง่าย mail merge การดำเนินงานโดยใช้ที่แตกต่างกัน [Execute](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/execute/) วิธีการที่ยอมรับวัตถุข้อมูลต่างๆเป็นแหล่งข้อมูล.
+เมื่อแม่แบบของคุณพร้อม,คุณสามารถเริ่มต้นการดำเนินการที่เรียบง่าย Mail Merge การดำเนินงาน Aspose.Words ช่วยให้คุณสามารถดำเนินการง่าย Mail Merge การดำเนินงานโดยใช้ที่แตกต่างกัน [Execute](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/execute/) วิธีการที่ยอมรับวัตถุข้อมูลต่างๆเป็นแหล่งข้อมูล.
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการดำเนินการอย่างง่าย mail merge การดำเนินงานโดยใช้หนึ่งใน [Execute](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/execute/) วิธีการ:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการดำเนินการอย่างง่าย Mail Merge การดำเนินงานโดยใช้หนึ่งใน [Execute](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/execute/) วิธีการ:
 
 {{< gist "aspose-words-gists" "3435df005db9907ec9ba3a6b777ae6fb" "simple-mail-merge.h" >}}
 
@@ -34,8 +35,8 @@ url: /th/cpp/simple-mail-merge-operation/
 
 ## วิธีการสร้างเอกสารที่ผสาน
 
-ใน Aspose.Words,มาตรฐาน mail merge การดำเนินการเติมเพียงเอกสารเดียวที่มีเนื้อหาจากแหล่งข้อมูลของคุณ ดังนั้นคุณจะต้องดำเนินการ mail merge การดำเนินการหลายครั้งเพื่อสร้างเอกสารที่ผสานไม่กี่เป็นเอาท์พุท.
+ใน Aspose.Words,มาตรฐาน Mail Merge การดำเนินการเติมเพียงเอกสารเดียวที่มีเนื้อหาจากแหล่งข้อมูลของคุณ ดังนั้นคุณจะต้องดำเนินการ Mail Merge การดำเนินการหลายครั้งเพื่อสร้างเอกสารที่ผสานไม่กี่เป็นเอาท์พุท.
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการสร้างเอกสารที่ผสานไม่กี่ในระหว่าง mail merge การดำเนินงานด้วย [SQLiteCpp](https://github.com/SRombauts/SQLiteCpp):
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการสร้างเอกสารที่ผสานไม่กี่ในระหว่าง Mail Merge การดำเนินงานด้วย [SQLiteCpp](https://github.com/SRombauts/SQLiteCpp):
 
 {{< gist "aspose-words-gists" "3435df005db9907ec9ba3a6b777ae6fb" "multiple-documents-mail-merge.h" >}}

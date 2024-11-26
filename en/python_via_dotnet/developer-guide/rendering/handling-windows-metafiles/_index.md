@@ -8,6 +8,7 @@ type: docs
 weight: 30
 url: /python-net/handling-windows-metafiles/
 aliases: [/python/handling-windows-metafiles/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 Windows Metafile format is an image file format that can contain both vector and raster graphics. This format is used to store graphics data in memory or on-disk files. A metafile stores a list of function calls in the Windows Graphics Device Interface (GDI) that must be executed to display the image on the screen. The system interprets and executes these commands in the display context.

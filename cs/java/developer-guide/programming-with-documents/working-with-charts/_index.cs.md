@@ -7,6 +7,7 @@ description: "Úvod do funkce Graf, jak vytvářet a manipulovat grafy pomocí J
 type: docs
 weight: 310
 url: /cs/java/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Nový [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) byla přidána do [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) třída. Podívejme se, jak vložit jednoduchý sloupcový graf do dokumentu pomocí **vložit Graf** metoda.

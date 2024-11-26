@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu liste în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Lucrul Cu Liste
@@ -7,6 +7,7 @@ description: "Introducere în funcția de formatare a numerotării în Aspose.Wo
 type: docs
 weight: 200
 url: /ro/cpp/working-with-lists/
+timestamp: 2024-01-30-16-22-34
 ---
 
 O listă dintr-un document Microsoft Word este un set de proprietăți de formatare a listei. Listele pot fi utilizate în documentele dvs. pentru a formata, aranja și sublinia textul. Listele sunt o modalitate excelentă de a organiza datele în documente și facilitează cititorilor să înțeleagă punctele cheie.

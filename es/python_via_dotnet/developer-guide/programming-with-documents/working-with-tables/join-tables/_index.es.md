@@ -7,6 +7,7 @@ description: "Unir tablas en un documento usando Python. Cómo fusionar dos tabl
 type: docs
 weight: 90
 url: /es/python-net/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Una tabla, representada en el modelo de objetos de documento Aspose.Words, se compone de filas y celdas independientes, lo que facilita la unión de tablas.

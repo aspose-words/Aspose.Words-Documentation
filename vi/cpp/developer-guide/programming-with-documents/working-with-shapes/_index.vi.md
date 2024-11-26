@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm Việc Với Các Hình dạng trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm Việc Với Hình Dạng
@@ -7,6 +7,7 @@ type: docs
 description: "Giới thiệu về ngôn ngữ đánh dấu hình dạng, tạo hình dạng của các loại khác nhau bằng cách sử dụng C++."
 weight: 280
 url: /vi/cpp/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Chủ đề này thảo luận về cách làm việc theo chương trình với các hình dạng bằng cách sử dụng Aspose.Words.

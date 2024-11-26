@@ -7,6 +7,7 @@ description: "PDF/A und PDF/UA stellen Barrierefreiheitsanforderungen in Bezug a
 type: docs
 weight: 29
 url: /de/net/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Die Formate PDF/A und PDF/UA stellen eine Reihe von Barrierefreiheitsanforderungen in Bezug auf Dokumentinhalte, die bei der automatischen Konvertierung von Word in PDF nicht erfüllt werden können. Diese Anforderungen werden im vorherigen Artikel "Arbeiten mit PDF/A oder PDF/UA"* beschrieben. Für einige dieser Probleme werden nun Warnungen ausgegeben.

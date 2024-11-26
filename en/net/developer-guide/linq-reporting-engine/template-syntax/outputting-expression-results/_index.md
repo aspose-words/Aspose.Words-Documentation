@@ -1,4 +1,4 @@
-﻿---
+---
 title: Outputting Expression Results in C#
 second_title: Aspose.Words for .NET
 articleTitle: Outputting Expression Results
@@ -8,6 +8,7 @@ type: docs
 weight: 20
 url: /net/outputting-expression-results/
 aliases: [/net/template-syntax/#outputting-expression-results]
+timestamp: 2024-10-21-11-17-44
 ---
 
 You can output expression results to your reports using expression tags. An expression tag denotes a placeholder for an expression result within a template. While building a report, the corresponding expression is evaluated, and this placeholder is replaced with the formatted result of the expression. 

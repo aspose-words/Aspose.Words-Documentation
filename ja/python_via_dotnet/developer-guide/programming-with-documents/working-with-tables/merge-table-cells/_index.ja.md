@@ -7,6 +7,7 @@ description: "Python で表のセルを結合する方法。表内のセルが P
 type: docs
 weight: 40
 url: /ja/python-net/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 表内の特定の行には、表の全幅を占める見出しまたは大きなテキスト ブロックが必要な場合があります。テーブルを適切に設計するために、ユーザーは複数のテーブル セルを 1 つにマージできます。 Aspose.Words は、HTML コンテンツのインポートを含むすべての入力形式を操作するときに、結合されたセルをサポートします。

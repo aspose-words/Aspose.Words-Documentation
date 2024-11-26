@@ -1,12 +1,13 @@
-﻿---
-title: Folosind `DocumentBuilder` pentru a modifica un Document cu ușurință
+---
+title: Folosind DocumentBuilder pentru a modifica un Document cu ușurință
 second_title: Aspose.Words pentru C++
-articleTitle: Folosind `DocumentBuilder` pentru a modifica un Document cu ușurință
-linktitle: Folosind `DocumentBuilder` pentru a modifica un Document cu ușurință
+articleTitle: Folosind DocumentBuilder pentru a modifica un Document cu ușurință
+linktitle: Folosind DocumentBuilder pentru a modifica un Document cu ușurință
 type: docs
 description: "Utilizați document builder pentru a modifica un document cu ușurință în C++."
 weight: 190
 url: /ro/cpp/using-documentbuilder-to-modify-a-document-easily/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Specificarea Formatării

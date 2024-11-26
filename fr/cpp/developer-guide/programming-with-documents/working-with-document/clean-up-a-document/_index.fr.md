@@ -1,4 +1,4 @@
-﻿---
+---
 title: Nettoyer un document en C++
 second_title: Aspose.Words pour C++
 articleTitle: Nettoyer un Document
@@ -7,6 +7,7 @@ description: "Supprimez les informations inutilisées ou en double pour réduire
 type: docs
 weight: 30
 url: /fr/cpp/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Parfois, vous devrez peut-être supprimer des informations inutilisées ou en double pour réduire la taille du document de sortie et le temps de traitement.

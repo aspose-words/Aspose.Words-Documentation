@@ -7,6 +7,7 @@ description: "アンマネージド XpsPrint API を使用するか、C# の設�
 type: docs
 weight: 55
 url: /ja/net/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-31-14-23-37
 ---
 
 この記事では、Aspose.Words と `XpsPrint` API を使用して、ASP.NET または Windows サービス アプリケーションからワード プロセッシング ドキュメントを印刷する方法について説明します。また、[設定]、[印刷プレビュー]、および [印刷進行状況] ダイアログを使用してドキュメントを印刷する方法を示し、ドキュメントを印刷するための最初の呼び出しの時間を短縮する方法についても説明します。

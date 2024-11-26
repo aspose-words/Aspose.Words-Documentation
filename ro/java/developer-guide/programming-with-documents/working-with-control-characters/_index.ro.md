@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul Cu Caractere De Control
 second_title: Aspose.Words pentru Java
 articleTitle: Lucrul Cu Caractere De Control
@@ -7,6 +7,7 @@ description: "Introducere în lucrul cu caractere de control în Aspose.Words pe
 type: docs
 weight: 400
 url: /ro/java/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word documentele pot conține diverse caractere care au o semnificație specială. În mod normal, acestea sunt utilizate în scopuri de formatare și nu sunt desenate în modul normal. Le puteți face vizibile dacă faceți clic pe butonul Afișare / Ascundere marcaje de formatare situat pe bara de instrumente Standard.

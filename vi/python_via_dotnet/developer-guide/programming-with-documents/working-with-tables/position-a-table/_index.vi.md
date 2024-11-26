@@ -7,6 +7,7 @@ description: "Chỉ định vị trí bảng trong Python. Căn chỉnh bảng, 
 type: docs
 weight: 50
 url: /vi/python-net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Có bảng nổi và bảng nội tuyến:

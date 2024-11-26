@@ -7,6 +7,7 @@ type: docs
 description: "Klonen Sie ein Dokument, um mit Python eine identische Kopie zu erhalten. Beim Erstellen einer Kopie werden Knoten und Eigenschaften des Originaldokuments geklont."
 weight: 70
 url: /de/python-net/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Beim Klonen eines Dokuments wird eine identische Kopie eines Originaldokuments erstellt, was die Leistung verbessern und Sie vor möglichen Speicherlecks schützen kann.

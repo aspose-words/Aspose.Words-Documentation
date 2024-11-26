@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのTextBoxesの操作
 second_title: C++の場合Aspose.Words
 articleTitle: TextBoxesでの作業
@@ -7,6 +7,7 @@ description: "のリンクされたテキストボックス機能の紹介 C++�
 type: docs
 weight: 250
 url: /ja/cpp/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Wordsでは、[TextBox](https://reference.aspose.com/words/cpp/aspose.words.drawing/textbox/)クラスを使用して、図形内のテキストの表示方法を指定します。 これは、顧客が関連付けられた**TextBox**からリンクされた[Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/)を見つけることができるように、テキストボックスの親図形を取得するために**Parent**という名前の

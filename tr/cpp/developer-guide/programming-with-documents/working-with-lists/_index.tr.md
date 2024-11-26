@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki Listelerle Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Listelerle Çalışma
@@ -7,6 +7,7 @@ description: "Numaralandırma biçimlendirme özelliğine giriş Aspose.Words i�
 type: docs
 weight: 200
 url: /tr/cpp/working-with-lists/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Microsoft Word belgesindeki liste, liste biçimlendirme özellikleri kümesidir. Listeler belgelerinizde metni biçimlendirmek, düzenlemek ve vurgulamak için kullanılabilir. Listeler, belgelerdeki verileri düzenlemenin harika bir yoludur ve okuyucuların kilit noktaları anlamasını kolaylaştırır.

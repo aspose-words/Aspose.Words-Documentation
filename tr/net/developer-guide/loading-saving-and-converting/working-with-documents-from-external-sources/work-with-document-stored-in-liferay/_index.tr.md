@@ -7,6 +7,7 @@ description: "C# kullanarak Liferay'te paylaşılan Word belgelerini karşılaş
 type: docs
 weight: 20
 url: /tr/net/work-with-document-stored-in-liferay/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Liferay Portal, web portalları ve web siteleri geliştirmek için tasarlanmış açık kaynaklı bir kurumsal portal yazılım platformudur. Liferay, portal platformunun bir parçası olarak, kullanıcıların belgeleri işbirliğine dayalı ve verimli bir şekilde oluşturmasına, düzenlemesine, depolamasına ve yönetmesine olanak tanıyan bir belge yönetim sistemi sağlar. Bu belge yönetimi işlevine genellikle Liferay Belge Kitaplığı adı verilir.

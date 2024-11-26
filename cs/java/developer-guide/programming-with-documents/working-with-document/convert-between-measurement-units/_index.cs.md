@@ -7,6 +7,7 @@ description: "Aspose.Words místo Java může pomoci vám s tím, jak převést 
 type: docs
 weight: 20
 url: /cs/java/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Většina vlastností objektu uvedených v Aspose.Words API které představují určité měření, jako je šířka nebo výška, okraje a různé vzdálenosti, přijímají hodnoty v bodech, kde 1 palec rovná 72 bodů. Někdy to není vhodné a body je třeba převést na jiné jednotky.

@@ -7,6 +7,7 @@ description: "Replace text in a table in Java. Extract Plain Text from Table or 
 type: docs
 weight: 60
 url: /java/extract-text-from-and-replace-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 As mentioned in previous articles, a table usually contains plain text, although other content such as images or even other tables can be placed in table cells.

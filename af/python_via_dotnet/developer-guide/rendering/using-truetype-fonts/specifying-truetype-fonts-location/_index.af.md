@@ -1,4 +1,4 @@
-﻿---
+---
 title: Spesifiseer TrueType Lettertipes Ligging
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Spesifiseer TrueType Lettertipes Ligging
@@ -7,6 +7,7 @@ description: "Spesifiseer verskeie TrueType fontbronne: stelselmap, gebruikersbr
 type: docs
 weight: 30
 url: /af/python-net/specifying-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Hierdie onderwerp beskryf die standaard gedrag van Aspose.Words wanneer dit soek na TrueType lettertipes, insluitend bedryfstelsel spesifieke verskille, en demonstreer hoe om gebruiker lettertipe bronne spesifiseer.
@@ -51,7 +52,7 @@ Aangesien die lettertipe van Windows en nie-Windows OS anders is, doen Aspose.Wo
 
 #### Waar Aspose.Words soek Vir TrueType Lettertipes op Linux
 
-Verskillende Linux verspreidings kan lettertipes in verskillende dopgehou stoor. Aspose.Words soek lettertipes op verskeie plekke. By verstek, Aspose.Words soek vir die lettertipes in al die volgende plekke: */usr/share/fonts* */usr/local/share/fonts* */usr/X11R6/lib/X11/fonts*. Hierdie standaard gedrag sal werk vir die meeste Linux verspreidings, maar dit is nie gewaarborg om al die tyd te werk nie, in welke geval jy dalk die ligging van ware tipe lettertipes eksplisiet moet spesifiseer. Om dit te doen, moet jy weet waar TrueType lettertipes op jou Linux verspreiding geïnstalleer is.
+Verskillende Linux verspreidings kan lettertipes in verskillende dopgehou stoor. Aspose.Words soek lettertipes op verskeie plekke. By verstek, Aspose.Words soek vir die lettertipes in al die volgende plekke: `/usr/share/fonts` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts`. Hierdie standaard gedrag sal werk vir die meeste Linux verspreidings, maar dit is nie gewaarborg om al die tyd te werk nie, in welke geval jy dalk die ligging van ware tipe lettertipes eksplisiet moet spesifiseer. Om dit te doen, moet jy weet waar TrueType lettertipes op jou Linux verspreiding geïnstalleer is.
 
 #### Waar Aspose.Words soek Vir TrueType Lettertipes op Mac OS X
 

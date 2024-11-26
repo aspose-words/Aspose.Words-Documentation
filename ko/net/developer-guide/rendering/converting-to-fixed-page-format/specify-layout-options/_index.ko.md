@@ -7,6 +7,7 @@ description: "C#를 사용하여 다양한 문서 레이아웃에 대한 레이�
 type: docs
 weight: 10
 url: /ko/net/specify-layout-options/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Aspose.Words를 사용하면 [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/) 클래스의 속성에 지정된 매개변수에 따라 다양한 레이아웃으로 출력 문서를 생성할 수 있습니다. 이러한 속성 중 일부는 일부 Microsoft Word 사용자 인터페이스 메뉴 옵션과 유사합니다. 이에 대해서는 이 문서에서 설명합니다.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Specificați opțiunile de salvare în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Specificați Opțiunile De Salvare
@@ -7,6 +7,7 @@ description: "Setați proprietăți avansate atunci când salvați un document f
 type: docs
 weight: 20
 url: /ro/java/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Când salvați un document, puteți seta câteva proprietăți avansate. Aspose.Words vă oferă clasa [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/), care permite un control mai precis al procesului de salvare. Există supraîncărcări ale metodei **Save** care acceptă un obiect **SaveOptions** - ar trebui să fie un obiect al unei clase derivate din clasa **SaveOptions**. Fiecare format de salvare are o clasă corespunzătoare care conține opțiuni de salvare pentru acest format de salvare, de exemplu, există [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) pentru salvarea în format PDF, [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) pentru salvarea în format Markdown sau [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) pentru salvarea într-o imagine. Acest articol oferă exemple de lucru cu unele clase de opțiuni derivate din **SaveOptions**.

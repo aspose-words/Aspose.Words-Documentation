@@ -1,88 +1,89 @@
----
-title: ドキュメント内の変更を追跡する Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: 文書の変更を追跡する
-linktitle: 文書の変更を追跡する
-description: "内容の変更を追跡し、お客様や他者によるフォーマットを行います。 ドキュメント内の個々のリビジョンにアクセスし、さまざまなプロパティをそれらに適用する Javaお問い合わせ"
+﻿---
+title: Java内の文書の変更を追跡する
+second_title: Aspose.WordsのためのJava
+articleTitle: 文書内の変更を追跡する
+linktitle: 文書内の変更を追跡する
+description: "あなたや他の人によって行われたコンテンツや書式設定への変更を追跡します。 ドキュメント内の個々のリビジョンにアクセスし、Javaを使用してさまざまなプロパティを適用します。"
 type: docs
 weight: 270
 url: /ja/java/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
-また、レビューとして知られる変化を追跡する機能は、あなたまたは他のユーザーによって作られたコンテンツやフォーマットの変更を追跡することができます。 このトラックの変更機能と Aspose.Words トラック変更をサポート Microsoft Wordお問い合わせ この機能により、文書内の個々のリビジョンにアクセスし、異なるプロパティをそれらに適用することができます。
+変更履歴の機能(レビューとも呼ばれます)を使用すると、自分や他のユーザーが行ったコンテンツや書式設定の変更を追跡できます。 Aspose.Wordsのこのトラック変更機能はMicrosoft Wordのトラック変更をサポートします。 この機能を使用すると、ドキュメント内の個々のリビジョンにアクセスし、それらに異なるプロパティを適用できます。
 
-トラック変更機能を有効にすると、ドキュメントのすべてのインサート、削除、および変更された要素が、誰、いつ、何が変更されたかに関する情報を視覚的に強調表示されます。 変更された内容に関する情報を運ぶオブジェクトは「変更の追跡」と呼ばれます。 たとえば、ドキュメントを見直し、重要な変更をしたいと仮定します。これは、修正を行う必要があることを意味します。 また、変更の一部についてコメントを差し込む必要があります。 文書の変更を追跡するところです。
+変更の追跡機能を有効にすると、文書の挿入、削除、および変更されたすべての要素が、誰が、いつ、何が変更されたかに関する情報で視覚的に強調表示さ 何が変更されたかに関する情報を保持するオブジェクトは、"変更の追跡"と呼ばれます。 たとえば、文書を確認して重要な変更を加えるとします。 また、いくつかの変更について議論するためにコメントを挿入する必要がある場合があります。 ここで、文書の変更を追跡することができます。
 
-この記事では、同じ文書で多くの査読者によって作成された変更の管理と追跡方法、および変更を追跡するためのプロパティについて説明します。
-
-{{% alert color="primary" %}}
-
-コメント機能に注意してください。 Aspose.Words, だけでなく、 Microsoft Word, 追跡の変更に関連付けられることができます。 しかし、コメントは完全に変更を追跡することに依存しています。
-
-{{% /alert %}}
-
-## 改定とは
-
-ダイビング前にリビジョンの意味を説明しましょう。 ツイート [revision](https://reference.aspose.com/words/java/com.aspose.words/revision/) ドキュメントの1つのノードで、リビジョングループが表す変更です。 [RevisionGroup](https://reference.aspose.com/words/java/com.aspose.words/revisiongroup/) クラスは、ドキュメントの多くのノードで起こるシーケンシャルリビジョンのグループです。 修正は変更を追跡するためのツールです。
-
-修正は、トラッキング変更機能および比較文書機能内で使用され、リビジョンは比較の結果に表示されます。 そのため、トラッキング変更機能内のリビジョンは、誰と何が変更されたかによって表示されます。
+この記事では、同じ文書で多くの査読者が作成した変更を管理および追跡する方法と、変更を追跡するためのプロパティについて説明します。
 
 {{% alert color="primary" %}}
 
-注意: Microsoft Word 個々のリビジョンを表示することはできません。それは、シーケンシャルリビジョンを単一のエンティティとして表示することができます。 しかし、 Aspose.Words この制限を解決する **RevisionGroup** クラス。
+Aspose.WordsとMicrosoft Wordのコメント機能は、変更の追跡に関連付けることができることに注意してください。 ただし、コメントは変更の追跡とは完全に独立していることに注意してください。
 
 {{% /alert %}}
 
-Aspose.Words 異なったリビジョンのタイプ、また Microsoft Word, インサート、削除、フォーマットなど 変更、スタイル定義 変更、移動。 すべてのリビジョンタイプは、 [RevisionType](https://reference.aspose.com/words/java/com.aspose.words/revisiontype/) パンフレット
+## リビジョンとは何ですか
+
+リビジョンに飛び込む前に、リビジョンの意味を説明しましょう。 [revision](https://reference.aspose.com/words/java/com.aspose.words/revision/)はドキュメントの1つのノードで発生する変更ですが、[RevisionGroup](https://reference.aspose.com/words/java/com.aspose.words/revisiongroup/)クラスで表されるリビジョングループは、ドキュメントの多くのノードで発生する連続した リビジョンは、変更を追跡するためのツールです。
+
+リビジョンは、変更の追跡機能およびドキュメントの比較機能内で使用され、比較の結果としてリビジョンが表示されます。 そのため、変更の追跡機能内のリビジョンには、誰が何を変更したかが表示されます。
 
 {{% alert color="primary" %}}
 
-修正の結果が似ていることに注意してください Microsoft Word しかし、 Aspose.Words トラッキング変更時にフォーマットを検知しません。
+Microsoft Wordでは個々のリビジョンを表示することはできず、連続したリビジョンを単一のエンティティとして表示するだけであることに注意してくださ しかし、Aspose.Wordsは**RevisionGroup**クラスでこの制限を解決します。
 
 {{% /alert %}}
 
-## トラッキング変更の開始と停止
-
-ドキュメントの編集は通常、トラッキングを開始するまでのリビジョンとしてカウントされません。 Aspose.Words ドキュメントのすべての変更を簡単な手順で自動的に追跡できます。 変更を追跡するプロセスを簡単に始めることができます。 [StartTrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#startTrackRevisions-java.lang.String) メソッド。 変更を追跡するプロセスを停止する必要がある場合は、将来の編集はリビジョンとは見なされないため、使用する必要があります [StopTrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#stopTrackRevisions) メソッド。
+Aspose.Wordsは、挿入、削除、FormatChange、StyleDefinitionChange、移動など、Microsoft Wordと同様に、さまざまなリビジョンタイプをサポートします。 すべてのリビジョンの種類は[RevisionType](https://reference.aspose.com/words/java/com.aspose.words/revisiontype/)列挙体で表されます。
 
 {{% alert color="primary" %}}
 
-注意: `StartTrackingRevisions` メソッドはステータスを変更しません [TrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#getTrackRevisions) プロパティはリビジョントラッキングの目的に値を使用しません。 また、ノードが1つの場所から別の場所に移動して追跡されたドキュメントに移動すると、リビジョンが作成されます。
+リビジョンの結果はMicrosoft Wordに似ていますが、Aspose.Wordsは変更の追跡中に書式設定を検出しないことに注意してください。
 
 {{% /alert %}}
 
-文書の追跡変更プロセスの最後に、すべてのリビジョンを受け入れるか、元のフォームに文書を反転させるために拒否する機能があります。 どちらでも実現できます。 [AcceptAllRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#acceptAllRevisions) または [RejectAll](https://reference.aspose.com/words/java/com.aspose.words/revisioncollection/#rejectAll) メソッド。 また、別途各リビジョンを承諾または拒否することができます。 [Accept](https://reference.aspose.com/words/java/com.aspose.words/revision/#accept) または [Reject](https://reference.aspose.com/words/java/com.aspose.words/revision/#reject) メソッド。
+## 変更の追跡の開始と停止
 
-すべての変更は、プロセスを開始した瞬間から1つの反復のために追跡されます。 異なる反復との間の接続は、次のシナリオとして表されます。トラッキングプロセスを完了し、いくつかの変更を行い、再び変更の追跡を開始します。 このシナリオでは、受け入れなかったり拒否したすべての変更が再び表示されます。
+通常、文書を編集しても、追跡を開始するまではリビジョンとしてカウントされません。 Aspose.Words簡単な手順で文書内のすべての変更を自動的に追跡できます。 [StartTrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#startTrackRevisions-java.lang.String)メソッドを使用すると、変更を追跡するプロセスを簡単に開始できます。 今後の編集がリビジョンと見なされないように変更の追跡プロセスを停止する必要がある場合は、[StopTrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#stopTrackRevisions)メソッドを使用する必要があります。
 
 {{% alert color="primary" %}}
 
-注意: `AcceptAllRevisions` メソッドは「すべての変更を受け入れる」と似ています。 Microsoft Wordお問い合わせ
+`StartTrackingRevisions`メソッドは[TrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#getTrackRevisions)プロパティのステータスを変更せず、リビジョン追跡の目的でその値を使用しないことに注意してください。 さらに、ノードが追跡されたドキュメント内のある場所から別の場所に移動された場合、移動元と移動先の範囲を含む移動リビジョンが作成されます。
 
 {{% /alert %}}
 
-次のコードの例では、変更を追跡する方法を示します。
+文書の変更の追跡プロセスの最後に、すべてのリビジョンを承認したり、文書を元の形式に戻すために拒否したりすることもできます。 これは、[AcceptAllRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#acceptAllRevisions)または[RejectAll](https://reference.aspose.com/words/java/com.aspose.words/revisioncollection/#rejectAll)メソッドを使用することで実現できます。 また、[Accept](https://reference.aspose.com/words/java/com.aspose.words/revision/#accept)または[Reject](https://reference.aspose.com/words/java/com.aspose.words/revision/#reject)メソッドを使用して、各リビジョンを個別に承認または拒否することができます。
+
+すべての変更は、プロセスを開始した瞬間から停止した瞬間まで、1回の反復で追跡されます。 追跡プロセスを完了し、いくつかの変更を加えてから、変更の追跡を再度開始します。 このシナリオでは、受け入れなかった、または拒否しなかったすべての変更が再び表示されます。
+
+{{% alert color="primary" %}}
+
+`AcceptAllRevisions`メソッドはMicrosoft Wordの"すべての変更を受け入れる"に似ていることに注意してください。
+
+{{% /alert %}}
+
+次のコード例は、変更の追跡を操作する方法を示しています:
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-TrackChanges-WorkWithTrackChanges.java" >}}
 
-以下のコードの例では、ノードが追跡されたドキュメント内で移動したときにリビジョンが生成される方法を示します。
+次のコード例は、追跡されたドキュメント内でノードが移動されたときにリビジョンが生成される方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-TrackChanges-GenerateRevisionsWhenMovingNode.java" >}}
 
-## 変更を改訂として管理・保存
+## 変更をリビジョンとして管理および保存する
 
-以前のトラッキング変更機能では、ドキュメントで変更された変更内容や、変更した変更内容を理解できます。 しばらくの間、 [TrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#getTrackRevisions) 機能、文書内の変更をリビジョンとして保存するように強制します。
+以前の変更の追跡機能を使用すると、ドキュメントで行われた変更と、それらの変更を行ったユーザーを理解できます。 [TrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#getTrackRevisions)機能を使用している間は、ドキュメント内の変更を強制的にリビジョンとして保存します。
 
-Aspose.Words ドキュメントがリビジョンを持っているかどうか、または使用して確認することができます [HasRevision](https://reference.aspose.com/words/java/com.aspose.words/document/#hasRevisions) 宿泊施設 StartTrackRevisions と StopTrackRevisions メソッドを使用して文書の変更を自動的に追跡する必要がない場合、 `TrackRevisions` ドキュメントの編集中に変更が追跡されているかどうかを確認するプロパティ Microsoft Word リビジョンとして保存します。
+Aspose.Wordsは、[HasRevision](https://reference.aspose.com/words/java/com.aspose.words/document/#hasRevisions)プロパティを使用して、文書にリビジョンがあるかどうかを確認できます。 StartTrackRevisionsメソッドとStopTrackRevisionsメソッドを使用して文書の変更を自動的に追跡する必要がない場合は、`TrackRevisions`プロパティを使用して、Microsoft Word内の文書の編集中に変更が追跡され、リビジョンとして保存されているかどうかを確認できます。
 
-ザ・オブ・ザ・ `TrackRevisions` 機能は、実際の代わりにリビジョンを作る DOM 変更。 しかし、リビジョン自体は別です。 例えば、 任意の段落を削除した場合, Aspose.Words 削除ではなく、リビジョンとしてマークし、削除します。
+`TrackRevisions`機能は、実際のDOMの変更の代わりにリビジョンを作成します。 しかし、改訂自体は別々です。 たとえば、段落を削除した場合、Aspose.Wordsはその段落を削除するのではなく、リビジョンとして作成し、削除としてマークします。
 
-その他、 Aspose.Words オブジェクトがインサートされたり、削除されたり、フォーマット変更されたりするかどうかを確認できます。 [IsDeleteRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isDeleteRevision), [IsFormatRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isFormatRevision), [IsInsertRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isInsertRevision), [IsMoveFromRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isMoveFromRevision), そして、 [IsMoveToRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isMoveToRevision) プロパティ。
+さらに、Aspose.Wordsを使用すると、オブジェクトが挿入、削除、または書式設定の変更されたかどうかを確認できます。[IsDeleteRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isDeleteRevision), [IsFormatRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isFormatRevision), [IsInsertRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isInsertRevision), [IsMoveFromRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isMoveFromRevision), と[IsMoveToRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isMoveToRevision)プロパティ。
 
 {{% alert color="primary" %}}
 
-リビジョンとリビジョンの関係がないことに注意してください。 `TrackRevisions` 宿泊施設 また、トラッキング変更機能に関係なく、リビジョンを受け入れる/拒否することができます。
+リビジョン自体と`TrackRevisions`プロパティとの間には関係がないことに注意してください。 また、変更の追跡機能に関係なく、リビジョンを承認/拒否することができます。
 
 {{% /alert %}}
 
-次のコードの例では、異なるプロパティをリビジョンで適用する方法を示します。
+次のコード例は、リビジョンでさまざまなプロパティを適用する方法を示しています:
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-TrackChanges-ApplyDifferentPropertiesWithRevisions.java" >}}

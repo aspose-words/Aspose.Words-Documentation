@@ -7,6 +7,7 @@ description: "Konversikan dokumen menjadi TIFF multi-halaman menggunakan C#. Unt
 type: docs
 weight: 30
 url: /id/net/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Saat bekerja dengan dokumen, Anda sering kali perlu mengonversi dokumen Anda menjadi file gambar raster. Hal ini sangat relevan jika Anda harus menyajikan dokumen Anda dalam format yang dapat dibaca dan dicetak, namun tidak dapat diedit. Misalnya, Anda bisa menggunakan gambar raster halaman pertama dokumen Anda sebagai pratinjau. Artikel ini menjelaskan cara mengonversi dokumen menjadi gambar raster menggunakan contoh format TIFF – salah satu format gambar yang lebih populer.

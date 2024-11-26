@@ -1,4 +1,4 @@
-﻿---
+---
 title: Produk Oorsig
 second_title: Aspose.Words vir C++
 articleTitle: Produk Oorsig
@@ -7,6 +7,7 @@ description: "Aspose.Words vir C++ is'n sagteware biblioteek ontwerp om dokument
 type: docs
 weight: 5
 url: /af/cpp/product-overview/
+timestamp: 2024-06-05-14-43-57
 ---
 
 <img src="product-overview_1" alt="aspose-words-product_cpp" align="left" style="width:64px; margin: 0 30px 30px 0"/>

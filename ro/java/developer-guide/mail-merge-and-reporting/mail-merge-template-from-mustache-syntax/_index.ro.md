@@ -1,22 +1,23 @@
-﻿---
+---
 title: Mail Merge șablon din Mustache sintaxă
 second_title: Aspose.Words pentru Java
 articleTitle: Mail Merge șablon din Mustache sintaxă
 linktitle: Mail Merge șablon din Mustache sintaxă
 type: docs
 description: "Creați șabloane cu Mustache sintaxă. Mustache sintaxa este singura opțiune de utilizat cu șabloane care nu conțin câmpuri (HTML sau TXT). Cu șabloanele Word, aveți două opțiuni: câmpuri sau Mustache sintaxă folosind Java."
-keywords: "mail merge template mustache syntax java, mail merge java, mustache syntax java"
+keywords: "mail merge template mustache syntax java, Mail Merge java, mustache syntax java"
 weight: 40
 url: /ro/java/mail-merge-template-from-mustache-syntax/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words vă permite să creați șabloane cu mustache sintaxă în plus față de șabloanele familiare. A Mustache este o variantă alternativă a sintaxei șablonului care constă din nume de etichete închise de și este susținută de un obiect model care conține datele pentru șablon.
 
 Sintaxa Mustache este singura opțiune de utilizat cu șabloane care nu conțin câmpuri, cum ar fi HTML și TXT șabloane. Cu șabloanele Word, aveți două opțiuni fie pentru a utiliza câmpuri, fie pentru sintaxa Mustache.
 
-Sintaxa Mustache suportă eticheta *foreach*, Care este o alternativă pentru utilizarea mail merge cu regiuni. Deci, avantajul este că puteți utiliza mustache sintaxă dacă din anumite motive nu puteți sau pur și simplu nu doriți să utilizați câmpuri de îmbinare și regiuni de îmbinare.
+Sintaxa Mustache suportă eticheta *foreach*, Care este o alternativă pentru utilizarea Mail Merge cu regiuni. Deci, avantajul este că puteți utiliza mustache sintaxă dacă din anumite motive nu puteți sau pur și simplu nu doriți să utilizați câmpuri de îmbinare și regiuni de îmbinare.
 
-De asemenea, puteți combina câmpurile mail merge cu unele câmpuri suplimentare folosind eticheta *foreach* așa cum se arată în imaginea de mai jos.
+De asemenea, puteți combina câmpurile Mail Merge cu unele câmpuri suplimentare folosind eticheta *foreach* așa cum se arată în imaginea de mai jos.
 
 <img src="mustache-syntax.png" alt="mustache_syntax_aspose_words_java" style="width:800px"/>
 
@@ -30,7 +31,7 @@ Să presupunem că trebuie să trimiteți același e-mail destinatarilor 50 pent
 >
 > I hereby...
 
-Întrebarea aici: cum puteți crea 50 e-mailuri din 1 un singur șablon Mustache? Pentru a răspunde la aceasta, trebuie să efectuați un mail merge cu regiuni pentru a umple acoladele pentru substituenții din șablon cu date reale și pentru a genera un document de ieșire.
+Întrebarea aici: cum puteți crea 50 e-mailuri din 1 un singur șablon Mustache? Pentru a răspunde la aceasta, trebuie să efectuați un Mail Merge cu regiuni pentru a umple acoladele pentru substituenții din șablon cu date reale și pentru a genera un document de ieșire.
 
 <img src="mustache-template.png" alt="mustache_template_aspose_words_java" style="width:650px"/>
 
@@ -48,7 +49,7 @@ Următorul exemplu de cod arată cum să înlocuiți etichetele Mustache cu date
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeUsingMustacheTemplateSyntax-MustacheSyntaxUsingDataTable.java" >}}
 
-Puteți observa diferența dintre document înainte de a executa mail merge cu regiuni împreună cu aplicarea proprietății **UseNonMergeFields**:
+Puteți observa diferența dintre document înainte de a executa Mail Merge cu regiuni împreună cu aplicarea proprietății **UseNonMergeFields**:
 
 <img src="mustache-syntax-1.png" alt="mustache_syntax_aspose_words_java" style="width:400px"/>
 
@@ -58,13 +59,13 @@ O secțiune începe cu o lire și se termină cu o bară oblică. Adică, `{{#fo
 
 {{% /alert %}}
 
-Și după aplicarea mail merge cu regiuni:
+Și după aplicarea Mail Merge cu regiuni:
 
 <img src="mustache-syntax-2.png" alt="mustache_syntax_result_aspose_words_java" style="width:300px"/>
 
 ## Utilizați `IF` câmpuri pentru a face un Mail Merge inteligent
 
-Aspose.Words vă permite să utilizați câmpurile mail merge și etichetele Mustache cu instrucțiunea `IF`. Câmpurile `IF` pot fi utilizate în orice document mail merge pentru a suprima spațiile și virgulele nedorite dacă un câmp este gol.
+Aspose.Words vă permite să utilizați câmpurile Mail Merge și etichetele Mustache cu instrucțiunea `IF`. Câmpurile `IF` pot fi utilizate în orice document Mail Merge pentru a suprima spațiile și virgulele nedorite dacă un câmp este gol.
 
 Formula câmpului `IF` este prezentată mai jos:
 
@@ -78,7 +79,7 @@ De exemplu, puteți utiliza câmpurile `IF` dacă trebuie să inserați "lui", "
 
 **{ IF "{{ GENDER }}" = "MALE" "Text adevărat" "text fals"}**
 
-Următorul exemplu de cod arată cum se efectuează o operație mail merge cu Mustache etichete și `IF` câmpuri:
+Următorul exemplu de cod arată cum se efectuează o operație Mail Merge cu Mustache etichete și `IF` câmpuri:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-MailMergeUsingMustacheTemplateSyntax-UseOfIfElseMustacheSyntax.java" >}}
 

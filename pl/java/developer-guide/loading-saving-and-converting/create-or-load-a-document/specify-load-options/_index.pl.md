@@ -7,6 +7,7 @@ description: "Ustaw zaawansowane właściwości podczas wczytywania dokumentu Ja
 type: docs
 weight: 10
 url: /pl/java/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Podczas wczytywania dokumentu można ustawić pewne zaawansowane właściwości. Aspose.Words zapewnia Państwu [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) klasa, która umożliwia bardziej precyzyjne sterowanie procesem obciążenia. Niektóre formaty obciążenia mają odpowiednią klasę, która posiada opcje obciążenia dla tego formatu obciążenia, na przykład, istnieje [PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) do wczytania do formatu PDF lub [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) do załadunku do TXT. Ten artykuł zawiera przykłady pracy z opcjami **LoadOptions** Klasa.

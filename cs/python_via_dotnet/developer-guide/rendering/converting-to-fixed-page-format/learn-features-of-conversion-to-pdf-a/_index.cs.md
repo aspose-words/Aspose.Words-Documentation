@@ -7,6 +7,7 @@ description: "Převést na PDF/A-1, PDF/A-2, PDF/A-4 a PDF/UA pomocí Python. Vy
 type: docs
 weight: 25
 url: /cs/python-net/learn-features-of-conversion-to-pdf-a/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF je pevný formát stránky, který je velmi populární mezi uživateli a je široce podporován různými aplikacemi, protože PDF dokument vypadá stejně na každém zařízení. Z tohoto důvodu, konverze na PDF je důležitým rysem Aspose.Words.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Inhoudsopgawe in Java
 second_title: Aspose.Words vir Java
 articleTitle: Werk Met Inhoudsopgawe
@@ -7,6 +7,7 @@ description: "Tabel Van Inhoud veld in besonderhede. Hoe om `TOC` veld te skep e
 type: docs
 weight: 170
 url: /af/java/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Dikwels sal jy werk met dokumente wat'n inhoudsopgawe (TOC) bevat. Met behulp van Aspose.Words kan jy jou eie inhoudsopgawe invoeg of die bestaande inhoudsopgawe heeltemal herbou in die dokument met net'n paar reëls kode.

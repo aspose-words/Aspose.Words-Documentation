@@ -7,6 +7,7 @@ description: "如何在C#中找到一些字段屬性，如字段代碼和字段�
 type: docs
 weight: 25
 url: /zh-hant/net/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 透過 [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) 插入的欄位會返回 [Field](https://reference.aspose.com/words/net/aspose.words.fields/field/) 物件。 這是提供快速查找一些欄位屬性的有用方法的 фасад類別。

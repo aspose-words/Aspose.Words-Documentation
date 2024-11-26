@@ -1,4 +1,4 @@
-﻿---
+---
 title: Gestion des métafichiers Windows en C++
 second_title: Aspose.Words pour C++
 articleTitle: Gestion des métafichiers Windows
@@ -7,6 +7,7 @@ description: "Aspose.Words pour C++ implémente son propre lecteur de métafichi
 type: docs
 weight: 30
 url: /fr/cpp/handling-windows-metafiles/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Windows Le format de métafichier est un format de fichier image qui peut contenir à la fois des graphiques vectoriels et raster. Ce format est utilisé pour stocker des données graphiques en mémoire ou des fichiers sur disque. Un métafichier stocke une liste d'appels de fonction dans l'interface de périphérique graphique Windows (GDI) qui doivent être exécutés pour afficher l'image à l'écran. Le système interprète et exécute ces commandes dans le contexte d'affichage.

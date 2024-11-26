@@ -1,4 +1,4 @@
-﻿---
+---
 title: 比较C++中的文档
 second_title: Aspose.Words对于C++
 articleTitle: 比较文件
@@ -7,6 +7,7 @@ type: docs
 description: "比较任何支持格式的两个文档，并使用C++显示内容更改。 您可以在比较时应用高级选项。"
 weight: 60
 url: /zh/cpp/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 比较文档是一个识别两个文档之间的更改并将更改包含为修订的过程。 此过程比较任何两个文档，包括一个特定文档的版本，然后两个文档之间的更改将显示为第一个文档中的修订。

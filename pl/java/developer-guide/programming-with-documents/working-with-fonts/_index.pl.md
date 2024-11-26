@@ -7,6 +7,7 @@ description: "Formatowanie czcionek w szczegółach przy użyciu Java."
 type: docs
 weight: 230
 url: /pl/java/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Czcionka jest zestawem znaków o określonym rozmiarze, kolorze i konstrukcji. Aspose.Words pozwala na pracę z czcionkami przy użyciu różnych klas związanych z fontami, w tym [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) Klasa.

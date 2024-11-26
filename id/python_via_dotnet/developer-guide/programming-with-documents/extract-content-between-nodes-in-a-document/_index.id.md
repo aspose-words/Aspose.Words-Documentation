@@ -7,6 +7,7 @@ description: "Cara mengekstrak konten tertentu dari suatu rentang dalam dokumen 
 type: docs
 weight: 140
 url: /id/python-net/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Saat bekerja dengan dokumen, penting untuk dapat dengan mudah mengekstraksi konten dari rentang tertentu dalam dokumen. Namun, kontennya mungkin terdiri dari elemen kompleks seperti paragraf, tabel, gambar, dll.

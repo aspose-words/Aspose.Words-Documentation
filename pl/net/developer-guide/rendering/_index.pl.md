@@ -7,6 +7,7 @@ description: "Użyj funkcji renderowania Aspose.Words dla .NET, aby sformatować
 type: docs
 weight: 20
 url: /pl/net/rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Terminu "renderowanie" używamy w języku Aspose.Words do opisania procesu konwertowania dokumentu do formatu pliku lub nośnika, który jest podzielony na strony lub ma koncepcję stron. Mówimy o renderowaniu dokumentu na strony. Poniższy diagram pokazuje, na czym polega renderowanie w formacie Aspose.Words.

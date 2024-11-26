@@ -7,6 +7,7 @@ description: "Вступ до форми розмітки мови, створе
 type: docs
 weight: 280
 url: /uk/net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ця тема обговорює, як працювати программатично з формами за допомогою Aspose.Wordsй

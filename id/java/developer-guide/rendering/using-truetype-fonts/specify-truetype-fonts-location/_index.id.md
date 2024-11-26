@@ -7,6 +7,7 @@ description: "Tentukan berbagai Login Jenis sumber font: folder sistem, sumber p
 type: docs
 weight: 30
 url: /id/java/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Topik ini menjelaskan perilaku default dari Aspose.Words ketika mencari font TrueType, termasuk perbedaan spesifik sistem operasi, dan menunjukkan cara menentukan sumber font pengguna.
@@ -35,7 +36,7 @@ Contoh per-document diperlukan hanya jika diperlukan untuk menggunakan sumber fo
 
 Dalam kebanyakan kasus, Windows pengguna tidak menghadapi masalah signifikan dengan font yang terjawab atau tata letak yang salah. Biasanya, Aspose.Words melalui dokumen, dan ketika menemukan tautan font, berhasil menangkap data font dari folder sistem.
 
-Sitemap <span notrans="<span notrans=" Windows"=""></span>Sitemap Aspose.Words pertama mengambil semua font yang tersedia dari _%windir%\Fonts folder. Pengaturan ini akan bekerja untuk Anda sebagian besar waktu. Anda hanya menentukan folder font Anda sendiri jika Anda perlu. Aspose.Words juga mencari font tambahan yang terdaftar di HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts kunci registry. Selain itu, Windows 10 memungkinkan instalasi font untuk pengguna saat ini. Font ditempatkan ke dalam %userprofile%\AppData\Local\Microsoft\Windows\Fonts folder dan juga ditentukan dalam folder HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts registry, dimana Aspose.Words akan mencari font ini. Meme it
+Sitemap WindowsSitemap Aspose.Words pertama mengambil semua font yang tersedia dari _%windir%\Fonts folder. Pengaturan ini akan bekerja untuk Anda sebagian besar waktu. Anda hanya menentukan folder font Anda sendiri jika Anda perlu. Aspose.Words juga mencari font tambahan yang terdaftar di HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts kunci registry. Selain itu, Windows 10 memungkinkan instalasi font untuk pengguna saat ini. Font ditempatkan ke dalam %userprofile%\AppData\Local\Microsoft\Windows\Fonts folder dan juga ditentukan dalam folder HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts registry, dimana Aspose.Words akan mencari font ini. Meme it
 
 Jika dokumen mengandung font tertanam, Aspose.Words dapat membaca data font yang relevan dari dokumen dan menggunakannya untuk membuat tata letak dokumen. Dokumen juga dapat berisi tautan ke font yang tidak di folder sistem, di mana kasus skenario berikut datang untuk bekerja:
 
@@ -50,7 +51,7 @@ Sejak metrik font Windows dan non-Windows OS berbeda, Aspose.Words apakah semuan
 
 #### Sitemap Aspose.Words Cari Font TrueType di Linux
 
-Login Linux distribusi dapat menyimpan font di folder yang berbeda. Aspose.Words mencari font di beberapa lokasi. Login Aspose.Words mencari font di semua lokasi berikut: * /usr/share/font* /usr/local/share/fonts*/usr/X11R6/lib/X11/fonts Perilaku default ini akan bekerja untuk sebagian besar Linux distribusi, tetapi tidak dijamin untuk bekerja sepanjang waktu, dalam hal mana Anda mungkin perlu menentukan lokasi true jenis font secara eksplisit. Untuk melakukan ini, Anda perlu tahu di mana font TrueType diinstal pada Anda Linux Login
+Login Linux distribusi dapat menyimpan font di folder yang berbeda. Aspose.Words mencari font di beberapa lokasi. Login Aspose.Words mencari font di semua lokasi berikut: `/usr/share/font` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts` Perilaku default ini akan bekerja untuk sebagian besar Linux distribusi, tetapi tidak dijamin untuk bekerja sepanjang waktu, dalam hal mana Anda mungkin perlu menentukan lokasi true jenis font secara eksplisit. Untuk melakukan ini, Anda perlu tahu di mana font TrueType diinstal pada Anda Linux Login
 
 #### Sitemap Aspose.Words Cari Font TrueType di Mac OS X
 

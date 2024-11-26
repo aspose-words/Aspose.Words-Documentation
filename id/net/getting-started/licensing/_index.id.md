@@ -7,6 +7,7 @@ description: "Aspose.Words untuk .NET memberikan paket pembelian yang berbeda at
 type: docs
 weight: 55
 url: /id/net/licensing/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Terkadang, untuk mempelajari sistem dengan lebih baik, Anda ingin mendalami kodenya secepat mungkin. Untuk mempermudahnya, Aspose.Words menyediakan paket pembelian yang berbeda atau menawarkan Uji Coba Gratis dan Lisensi Sementara 30 hari untuk evaluasi.
@@ -60,13 +61,13 @@ Setelah membeli lisensi, Anda perlu membaca informasi di halaman [Melindungi Lis
 Lisensi dapat diterapkan dari berbagai lokasi:
 
 * Jalur eksplisit
-* Folder yang berisi file *Aspose.Words.dll*
-* Folder yang berisi perakitan yang disebut *Aspose.Words.dll*
-* Folder yang berisi rakitan entri (*.exe* Anda)
-* Sumber daya yang tertanam dalam rakitan disebut *Aspose.Words.dll*
+* Folder yang berisi file `Aspose.Words.dll`
+* Folder yang berisi perakitan yang disebut `Aspose.Words.dll`
+* Folder yang berisi rakitan entri (`.exe` Anda)
+* Sumber daya yang tertanam dalam rakitan disebut `Aspose.Words.dll`
 * Sebagai Lisensi Bermeter – mekanisme perizinan baru
 
-Saat Anda mereferensikan *Aspose.Words.dll* dalam aplikasi, pustaka akan disalin ke direktori keluaran Anda (kecuali *Salin Lokal* di properti entri tersebut disetel ke false). Seringkali cara termudah untuk menetapkan lisensi adalah dengan menempatkan file lisensi di folder yang sama dengan *Aspose.Words.dll* dan hanya menentukan nama file tanpa jalurnya.
+Saat Anda mereferensikan `Aspose.Words.dll` dalam aplikasi, pustaka akan disalin ke direktori keluaran Anda (kecuali *Salin Lokal* di properti entri tersebut disetel ke false). Seringkali cara termudah untuk menetapkan lisensi adalah dengan menempatkan file lisensi di folder yang sama dengan `Aspose.Words.dll` dan hanya menentukan nama file tanpa jalurnya.
 
 {{% alert color="primary" %}}
 

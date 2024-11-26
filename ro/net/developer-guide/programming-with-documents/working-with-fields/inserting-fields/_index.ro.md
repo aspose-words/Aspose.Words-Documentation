@@ -7,6 +7,7 @@ description: "Cum să inserezi câmpuri într-un document folosind C# - învaț�
 type: docs
 weight: 20
 url: /ro/net/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Există mai multe modalități diferite de a introduce câmpuri într-un document:
@@ -86,7 +87,7 @@ Exemplul următor arată cum să adăugați câmpul `MERGE` utilizând DOM la un
 
 ### Inserarea Mail Merge `ADDRESSBLOCK` câmp într-un document folosind DOM
 
-Câmpul `ADDRESSBLOCK` este utilizat pentru inserarea unui bloc de adresă mail merge în documentul Word. Câmpul `ADDRESSBLOCK` din documentul Word poate fi reprezentat de clasa [FieldAddressBlock](https://reference.aspose.com/words/net/aspose.words.fields/fieldaddressblock/). Poţi folosi clasa **FieldAddressBlock** pentru a efectua următoarele operaţii:
+Câmpul `ADDRESSBLOCK` este utilizat pentru inserarea unui bloc de adresă Mail Merge în documentul Word. Câmpul `ADDRESSBLOCK` din documentul Word poate fi reprezentat de clasa [FieldAddressBlock](https://reference.aspose.com/words/net/aspose.words.fields/fieldaddressblock/). Poţi folosi clasa **FieldAddressBlock** pentru a efectua următoarele operaţii:
 
 - specificaţi dacă să includeţi numele ţării/regiunii în câmp
 "- specificați dacă să formatați adresa în conformitate cu țara/regiunea destinatarului așa cum este definită de POST*CODE (Uniunea Poștală Universală din 2006)."
@@ -128,7 +129,7 @@ Câmpul `ASK` se foloseşte pentru a solicita utilizatorului textul care să fie
 
 "- specificați numele semnului de carte"
 - specificați răspunsul implicite al utilizatorului (valoarea inițială conținută în fereastra de solicitare)
-- specificaţi dacă răspunsul utilizatorului trebuie să fie primit o dată pe o mail merge operaţie
+- specificaţi dacă răspunsul utilizatorului trebuie să fie primit o dată pe o Mail Merge operaţie
 - specifica textul de introducere (titlul ferestrei de introducere)
 
 {{% alert color="primary" %}}

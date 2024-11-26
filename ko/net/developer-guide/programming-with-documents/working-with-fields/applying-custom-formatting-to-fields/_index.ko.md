@@ -7,6 +7,7 @@ description: "C#를 사용하여 필드 결과의 형식을 지정하고 평가�
 type: docs
 weight: 40
 url: /ko/net/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 사용자가 필드에 사용자 정의 형식을 적용해야 하는 경우가 있습니다. 이번 글에서는 이것이 어떻게 이루어질 수 있는지에 대한 몇 가지 예를 살펴보겠습니다.

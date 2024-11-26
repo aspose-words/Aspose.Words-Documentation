@@ -7,6 +7,7 @@ description: "Specificare varie origini di caratteri TrueType: cartella di siste
 type: docs
 weight: 30
 url: /it/net/specifying-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Questo argomento descrive il comportamento predefinito di Aspose.Words quando cerca i caratteri TrueType, incluse le differenze specifiche del sistema operativo, e dimostra come specificare le origini dei caratteri dell'utente.
@@ -56,7 +57,7 @@ Poiché le metriche dei caratteri dei sistemi operativi Windows e non Windows so
 
 #### Dove Aspose.Words cerca i caratteri TrueType su Linux
 
-Diverse distribuzioni Linux possono memorizzare i caratteri in cartelle diverse. Aspose.Words cerca i caratteri in diverse posizioni. Per impostazione predefinita, Aspose.Words cerca i caratteri in tutte le seguenti posizioni: * /usr/share/fonts* /usr/local/share/fonts* /usr/X11R6/lib/X11/fontsQuesto comportamento predefinito funzionerà per la maggior parte delle distribuzioni Linux, ma non è garantito che funzioni sempre, nel qual caso potrebbe essere necessario specificare esplicitamente la posizione dei caratteri di tipo true. Per fare ciò, devi sapere dove sono installati i caratteri TrueType nella tua distribuzione Linux.
+Diverse distribuzioni Linux possono memorizzare i caratteri in cartelle diverse. Aspose.Words cerca i caratteri in diverse posizioni. Per impostazione predefinita, Aspose.Words cerca i caratteri in tutte le seguenti posizioni: `/usr/share/fonts` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts`Questo comportamento predefinito funzionerà per la maggior parte delle distribuzioni Linux, ma non è garantito che funzioni sempre, nel qual caso potrebbe essere necessario specificare esplicitamente la posizione dei caratteri di tipo true. Per fare ciò, devi sapere dove sono installati i caratteri TrueType nella tua distribuzione Linux.
 
 #### Dove Aspose.Words cerca i caratteri TrueType su Mac OS X
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Bagan di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Bagan
@@ -7,6 +7,7 @@ description: "Pengantar fitur Bagan, cara membuat dan memanipulasi bagan menggun
 type: docs
 weight: 310
 url: /id/cpp/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Metode [InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/) baru telah ditambahkan ke dalam kelas [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/). Jadi, mari kita lihat cara menyisipkan bagan kolom sederhana ke dalam dokumen menggunakan metode [InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/).

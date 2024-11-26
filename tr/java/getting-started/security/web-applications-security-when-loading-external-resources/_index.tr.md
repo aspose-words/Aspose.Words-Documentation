@@ -7,6 +7,7 @@ type: docs
 description: "Uzak kaynakları yükle, bu güvenlik risklerine bir sebep olabilir. Ortak güvenlik sorunlarına ve çözümlerine bir göz atın Java'da."
 weight: 120
 url: /tr/java/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Varsayılan olarak, Aspose.Words için Java uzak kaynakları, örneğin resimleri, CSS stilleri veya harici HTML belgelerini bir belge içeri aktarırken veya görüntüleri eklarken yükleyebilir. Bu davranış belgeleri ayrıntılı olarak işlemenizi sağlar ancak kütüphane bir web uygulamasının parçasıdırsa güvenlik riskleri oluşturur.

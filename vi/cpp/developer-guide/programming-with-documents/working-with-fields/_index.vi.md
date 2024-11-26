@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm Việc Với Các Trường trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm Việc Với Các Lĩnh Vực
@@ -7,6 +7,7 @@ description: "Giới thiệu về tính năng trường trong Aspose.Words cho C
 type: docs
 weight: 370
 url: /vi/cpp/working-with-fields/
+timestamp: 2024-01-30-16-22-34
 ---
 
 **Lĩnh vực**

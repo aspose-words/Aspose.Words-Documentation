@@ -1,4 +1,4 @@
-﻿---
+---
 title: Product Overview
 second_title: Aspose.Words for JasperReports
 articleTitle: Product Overview
@@ -7,6 +7,7 @@ description: "Aspose.Words for JasperReports is the solution that makes it possi
 type: docs
 weight: 10
 url: /jasperreports/product-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

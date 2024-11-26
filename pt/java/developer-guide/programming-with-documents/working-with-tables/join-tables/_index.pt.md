@@ -1,17 +1,18 @@
----
-title: Junte-se a tabelas em Java
+﻿---
+title: Juntar tabelas em Java
 second_title: Aspose.Words para Java
-articleTitle: Juntar tabelas
-linktitle: Juntar tabelas
-description: "Junte-se a tabelas em Java. Manipulações avançadas de mesa, junte-se e dividir usando Java."
+articleTitle: Juntar Tabelas
+linktitle: Juntar Tabelas
+description: "Juntar tabelas em Java. Manipulações avançadas de tabelas, junção e divisão usando Java."
 type: docs
 weight: 90
 url: /pt/java/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Quadro, representado no Aspose.Words Document Object Model, é composta de linhas e células independentes, tornando mais fácil juntar tabelas.
+Uma tabela, representada no modelo de objeto de documento Aspose.Words, é composta por linhas e células independentes, facilitando a junção de tabelas.
 
-Para manipular uma mesa para se juntar a outra mesa, basta mover as linhas da segunda mesa para o final do primeiro e remover o recipiente da segunda mesa.
+Para manipular uma tabela para se juntar a outra tabela, basta mover as linhas da segunda tabela para o final da primeira e remover o recipiente da segunda tabela.
 
 O exemplo de código a seguir mostra como mesclar linhas de duas tabelas em uma:
 

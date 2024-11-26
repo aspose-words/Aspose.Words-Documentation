@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabalhando com cabeçalhos e rodapés em C++
 second_title: Aspose.Words para C++
 articleTitle: Trabalhar com cabeçalhos e rodapés
@@ -7,6 +7,7 @@ description: "Como manipular cabeçalhos e rodapés usando C++."
 type: docs
 weight: 150
 url: /pt/cpp/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words permite aos utilizadores trabalhar com cabeçalhos e rodapés num documento. Um cabeçalho é o texto que é colocado no topo de uma página, e um rodapé é o texto na parte inferior de uma página. Normalmente, essas áreas são usadas para inserir informações que devem ser repetidas em todas ou algumas páginas do documento, como números de página, Data de criação, informações da empresa e assim por diante.

@@ -7,6 +7,7 @@ description: "PDF/A ve PDF/UA, belge içeriğiyle ilgili erişilebilirlik gereks
 type: docs
 weight: 29
 url: /tr/python-net/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/A ve PDF/UA formatları, Word'den PDF'ye otomatik dönüştürme sırasında yerine getirilemeyen, belge içeriğiyle ilgili bir dizi erişilebilirlik gereksinimi getirir. Bu gereksinimler *"PDF/A veya PDF/UA ile çalışma"* adlı önceki makalede açıklanmıştır. Şimdi bu sorunlardan bazıları için uyarılar veriliyor.

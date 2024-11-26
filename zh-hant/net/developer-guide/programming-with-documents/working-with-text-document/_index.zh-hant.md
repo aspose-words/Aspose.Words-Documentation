@@ -7,6 +7,7 @@ description: "進階 txt 文檔處理、清單、從右向左、標題/页脚，
 type: docs
 weight: 430
 url: /zh-hant/net/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 在本文中，我們將學習透過 Aspose.Words 可以為處理文字文件提供哪些選項。 請注意，這不是所有可用選項的完整清單，而只是如何使用某些選項的示例。

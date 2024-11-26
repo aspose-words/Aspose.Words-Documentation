@@ -7,6 +7,7 @@ description: "Aspose.Words для Python via .NET – це програмна б
 type: docs
 weight: 15
 url: /uk/python-net/product-overview/
+timestamp: 2024-01-31-14-23-37
 ---
 
 <img src="/words/python-net/product-overview/product-overview_1" alt="aspose-words-product" align="left" style="width:64px; margin: 0 30px 30px 0"/>
@@ -77,7 +78,7 @@ Aspose.Words є багатопрочитаним сейфом, доки тіль
 
 ### Мінімальне навчання
 
-Хоча є понад 150 публічних класів і заохочення в <span notrans="<span notrans=" Aspose.Words"=""></span>, > Крива навчання мінімальна, оскільки Aspose.Words API Ми ретельно розроблені з наступними цілями:
+Хоча є понад 150 публічних класів і заохочення в Aspose.Words, > Крива навчання мінімальна, оскільки Aspose.Words API Ми ретельно розроблені з наступними цілями:
 
 - Кращі практики від інших відомих APIтак, як Microsoft Word Автоматика
 - Забезпечити баланс простоти використання та детальну маніпуляцію елементів документа

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Keamanan Aplikasi Web Saat Memuat Sumber Daya
 second_title: Aspose.Words untuk C++
 articleTitle: Keamanan Aplikasi Web Saat Memuat Sumber Daya eksternal
@@ -7,6 +7,7 @@ type: docs
 description: "Memuat sumber daya jarak jauh, yang dapat menjadi alasan risiko keamanan. Lihat masalah keamanan umum dan solusinya di C++."
 weight: 50
 url: /id/cpp/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Secara default, Aspose.Words untuk C++ dapat memuat sumber daya jarak jauh seperti gambar, gaya CSS, atau dokumen HTML eksternal saat mengimpor dokumen atau menyisipkan gambar menggunakan DocumentBuilder. Perilaku ini memungkinkan Anda untuk memproses dokumen Anda secara mendetail, tetapi dapat menjadi alasan beberapa risiko keamanan jika pustaka merupakan bagian dari aplikasi web.

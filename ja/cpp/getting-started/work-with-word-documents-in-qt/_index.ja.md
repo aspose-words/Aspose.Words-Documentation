@@ -1,4 +1,4 @@
-﻿---
+---
 title: QtでWord文書を操作する
 second_title: C++の場合Aspose.Words
 articleTitle: QtでWord文書を操作する
@@ -8,6 +8,7 @@ description: "C++の場合Aspose.Words QtアプリケーションでWord文書�
 keywords: "create a document Qt Creator, load a document Qt Creator, use Aspose C++ with Qt creator, load a document Aspose C++, load formats supported by Aspose.Words C++"
 weight: 120
 url: /ja/cpp/work-with-word-documents-in-qt/
+timestamp: 2024-07-11-16-13-28
 ---
 
 Qtは、c++ベースのクロスプラットフォームアプリケーション開発フレームワークであり、さまざまなデスクトップ、モバイル、組み込みシステムアプリケーションの開発に広く使用されています。 C++の場合Aspose.Words あなたのQtアプリケーションでWord文書を作成し、操作するためにQt内に統合することができます。

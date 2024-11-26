@@ -7,6 +7,7 @@ description: "Examples of using Aspose.Words Java for PHP."
 type: docs
 weight: 40
 url: /java/usage-examples-for-php/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Hello World!
@@ -29,7 +30,7 @@ $doc->save("C:\\Temp\\out.doc");
 
 ## Simple Mail Merge
 
-Aspose.Words provides a reporting generation facility similar to Microsoft Word’s mail merge. Here is a code example to perform a simple mail merge using Aspose.Words.
+Aspose.Words provides a reporting generation facility similar to Microsoft Word’s mail merge. Here is a code example to perform a simple Mail Merge using Aspose.Words.
 
 **PHP**
 

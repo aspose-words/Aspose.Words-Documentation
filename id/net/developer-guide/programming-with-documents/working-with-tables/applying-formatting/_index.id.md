@@ -7,6 +7,7 @@ description: "Pemformatan tabel secara detail menggunakan C#. Gunakan C# untuk m
 type: docs
 weight: 70
 url: /id/net/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Setiap elemen tabel dapat diterapkan dengan format berbeda. Misalnya, pemformatan tabel akan diterapkan ke seluruh tabel, pemformatan baris hanya ke baris tertentu, pemformatan sel hanya ke sel tertentu.

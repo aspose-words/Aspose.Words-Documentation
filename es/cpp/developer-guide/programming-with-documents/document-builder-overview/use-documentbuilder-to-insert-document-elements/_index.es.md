@@ -1,12 +1,13 @@
-﻿---
-title: Utilice `DocumentBuilder` para Insertar Elementos de Documento
+---
+title: Utilice DocumentBuilder para Insertar Elementos de Documento
 second_title: Aspose.Words para C++
-articleTitle: Utilice `DocumentBuilder` para Insertar Elementos de Documento
-linktitle: Utilice `DocumentBuilder` para Insertar Elementos de Documento
+articleTitle: Utilice DocumentBuilder para Insertar Elementos de Documento
+linktitle: Utilice DocumentBuilder para Insertar Elementos de Documento
 type: docs
 description: "Inserte elementos de documento utilizando el generador de documentos en C++."
 weight: 80
 url: /es/cpp/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 El `DocumentBuilder` se usa para modificar documentos. Este artículo explica y describe cómo realizar una serie de tareas:
@@ -155,7 +156,7 @@ El paquete OLE es una forma heredada e "indocumentada" de almacenar objetos incr
 
 ## Inserción de HTML
 
-Puede insertar fácilmente una cadena HTML que contenga un fragmento HTML o un documento HTML completo en el documento de Word. Simplemente pase esta cadena al método `DocumentBuilder->InsertHtml`. Una de las implementaciones útiles del método es almacenar una cadena HTML en una base de datos e insertarla en el documento durante mail merge para agregar el contenido formateado en lugar de compilarlo utilizando varios métodos del generador de documentos. El siguiente ejemplo muestra inserciones HTML en un documento usando DocumentBuilder.
+Puede insertar fácilmente una cadena HTML que contenga un fragmento HTML o un documento HTML completo en el documento de Word. Simplemente pase esta cadena al método `DocumentBuilder->InsertHtml`. Una de las implementaciones útiles del método es almacenar una cadena HTML en una base de datos e insertarla en el documento durante Mail Merge para agregar el contenido formateado en lugar de compilarlo utilizando varios métodos del generador de documentos. El siguiente ejemplo muestra inserciones HTML en un documento usando DocumentBuilder.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHtml.cpp" >}}
 

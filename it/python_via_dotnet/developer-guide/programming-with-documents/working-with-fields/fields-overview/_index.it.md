@@ -7,6 +7,7 @@ description: "È possibile accedere alla modifica dei campi utilizzando Python. 
 type: docs
 weight: 10
 url: /it/python-net/fields-overview/
+timestamp: 2024-10-21-11-17-44
 ---
 
 
@@ -190,9 +191,9 @@ Aspose.Words supporta tutte le opzioni di formattazione di data e ora disponibil
 
 #### Campi Mail Merge
 
-Aspose.Words non impone limiti alla complessità dei campi mail merge nei tuoi documenti e supporta campi formula e `IF` nidificati e può persino calcolare il nome del campo di unione utilizzando una formula.
+Aspose.Words non impone limiti alla complessità dei campi Mail Merge nei tuoi documenti e supporta campi formula e `IF` nidificati e può persino calcolare il nome del campo di unione utilizzando una formula.
 
-Alcuni esempi di campi mail merge supportati da Aspose.Words:
+Alcuni esempi di campi Mail Merge supportati da Aspose.Words:
 
 - Interruttori di campo Mail merge:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`

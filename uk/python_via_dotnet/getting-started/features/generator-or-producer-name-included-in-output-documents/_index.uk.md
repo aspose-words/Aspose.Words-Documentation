@@ -7,6 +7,7 @@ description: "Aspose.Words для Python via .NET додати в докумен
 type: docs
 weight: 60
 url: /uk/python-net/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Ви можете легко знати, якщо документ виробляється за допомогою Aspose.Words для Python via .NETй Ви також можете знайти номер версії Aspose.Words для Python via .NET щоб створити конкретний документ виведення. Aspose.Words безпосередньо напишіть цю інформацію в сформований документ.

@@ -7,6 +7,7 @@ description: "Aspose.Words místo Python via .NET může najít správné písmo
 type: docs
 weight: 20
 url: /cs/python-net/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Při práci s dokumenty musíte často používat různá písma, styly a velikosti. Dokumenty mohou obsahovat libovolný počet písem, které nejsou nutně omezeny na písma, která jsou instalována v operačním systému. Fonty mohou být zcela odlišné, jako jsou fonty převzaté z jiných operačních systémů, zakoupené nebo vytvořené samotnými uživateli.

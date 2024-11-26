@@ -7,6 +7,7 @@ description: "So bearbeiten Sie Fußnoten und Endnoten mit C#."
 type: docs
 weight: 160
 url: /de/net/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words stellt außerdem einige Klassen, Methoden und Eigenschaften für die Arbeit mit Fußnoten und Endnoten bereit.

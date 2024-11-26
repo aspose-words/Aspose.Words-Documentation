@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilder memungkinkan Anda membuat dokumen dinamis dari awal atau menambahkan elemen baru ke yang sudah ada menggunakan C#. DocumentBuilder menyediakan metode untuk menyisipkan teks, kotak centang, tabel, gambar, dan elemen konten lainnya di .NET."
 weight: 30
 url: /id/net/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) adalah kelas canggih yang dikaitkan dengan [Document](https://reference.aspose.com/words/net/aspose.words/document/) dan memungkinkan Anda membuat dokumen dinamis dari awal atau menambahkan elemen baru ke dokumen yang sudah ada.

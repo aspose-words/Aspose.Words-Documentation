@@ -1,4 +1,4 @@
-﻿---
+---
 title: Masă împărțită în Python
 second_title: Aspose.Words pentru Python
 articleTitle: Masă Împărțită
@@ -7,6 +7,7 @@ description: "Masă împărțită în Python. Cum se împarte un tabel în două
 type: docs
 weight: 100
 url: /ro/python-net/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un tabel, reprezentat în modelul obiectului Document Aspose.Words, este alcătuit din rânduri și celule independente, facilitând împărțirea unui tabel.

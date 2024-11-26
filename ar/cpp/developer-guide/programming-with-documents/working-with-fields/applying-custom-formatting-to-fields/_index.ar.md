@@ -1,4 +1,4 @@
-﻿---
+---
 title: تطبيق تنسيق مخصص على الحقول في C++
 second_title: Aspose.Words ل C++
 articleTitle: تطبيق تنسيق مخصص على الحقول
@@ -7,6 +7,7 @@ description: "تنسيق وتقييم الحقول نتيجة باستخدام C
 type: docs
 weight: 40
 url: /ar/cpp/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 يحتاج المستخدمون أحيانا إلى تطبيق تنسيق مخصص على الحقول. في هذه المقالة، سنلقي نظرة على مثالين لكيفية القيام بذلك.

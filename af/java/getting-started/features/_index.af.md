@@ -1,4 +1,4 @@
-﻿---
+---
 title: Kenmerke
 second_title: Aspose.Words vir Java
 articleTitle: Ondersteunde Funksies
@@ -7,6 +7,7 @@ description: "Aspose.Words vir Java bied gebruikers'n wye verskeidenheid funksie
 type: docs
 weight: 40
 url: /af/java/features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words bied gebruikers'n wye verskeidenheid funksies. Gebruikers kan'n groot hoeveelheid dokumentverwante take uitvoer-van bloot die omskakeling van dokumente van een ondersteunde formaat na'n ander en die wysiging van daardie dokumente tydens die omskakelingsproses na besigheidstake, soos die skep van gestruktureerde en visueel aantreklike dokumente of die outomatisering van verslagdoening.
@@ -121,16 +122,16 @@ Jy kan Aspose.Words as'n verslagdoeningsoplossing op sy eie gebruik. Ontwerp jou
 
 | Kenmerk |
 | :- |
-| Gebruik alle standaard Microsoft Word mail merge velde in jou verslae insluitend `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. |
-| Voer mail merge uit vir dokumente wat selfs die mees komplekse en geneste `IF` velde en formules bevat. |
-| Vul en dinamies groei tabelle of fragmente in die dokument uit jou databron met behulp van mail merge streke. |
+| Gebruik alle standaard Microsoft Word Mail Merge velde in jou verslae insluitend `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. |
+| Voer Mail Merge uit vir dokumente wat selfs die mees komplekse en geneste `IF` velde en formules bevat. |
+| Vul en dinamies groei tabelle of fragmente in die dokument uit jou databron met behulp van Mail Merge streke. |
 | Genereer maklik verslae wat meester-detail (ouer-kind) data soos Orde/OrderDetails bevat. |
 | Vul dokumente in met data van enige Java databron wat die `ResultSet` koppelvlak implementeer. |
 | Vul dokumente van enige databron soos'n XML lêer of besigheid voorwerpe deur die implementering van die **IMailMergeDataSource** koppelvlak. |
 | Neem presiese beheer, soos getalformatering, oor hoe u data saamgevoeg word met behulp van gebeure. |
 | Voeg beelde in tydens a mail merge. |
-| Programmaties skep of verander'n Microsoft Word mail merge databron vir'n dokument. Bewaar mail merge instellings en databronne. |
-| Haal mail merge veld name. |
+| Programmaties skep of verander'n Microsoft Word Mail Merge databron vir'n dokument. Bewaar Mail Merge instellings en databronne. |
+| Haal Mail Merge veld name. |
 
 ## Verslagdoeningskenmerke
 

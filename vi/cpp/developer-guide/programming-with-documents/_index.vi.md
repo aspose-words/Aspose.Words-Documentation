@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lập Trình Với Tài liệu trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Lập Trình Với Tài liệu
@@ -7,6 +7,7 @@ type: docs
 description: "Sử dụng các lớp Mô hình Đối tượng Tài liệu Aspose.Words để lập trình tạo, sửa đổi và quản lý tài liệu bằng C++. Làm việc với các thuộc tính tài liệu, cài đặt và nội dung, cũng như với giao diện tài liệu thông qua việc quản lý màu sắc, hình dạng, phông chữ và đồ họa khác."
 weight: 50
 url: /vi/cpp/programming-with-documents/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Phần này cung cấp thông tin về cách lập trình tạo, sửa đổi và quản lý tài liệu với các lớp Mô hình Đối tượng Tài liệu Aspose.Words. Các bài viết trong phần này mô tả một loạt các tác vụ thao tác tài liệu cho phép bạn làm việc với các thuộc tính tài liệu, cài đặt, nội dung và các yếu tố của nó.

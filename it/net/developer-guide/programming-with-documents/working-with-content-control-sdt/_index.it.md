@@ -7,6 +7,7 @@ description: "Gestione avanzata del contenuto dei documenti, come creare e manip
 type: docs
 weight: 390
 url: /it/net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 In Microsoft Word, puoi creare un modulo iniziando con un modello e aggiungendo controlli del contenuto, tra cui caselle di controllo, caselle di testo, selettori di data ed elenchi a discesa. In Aspose.Words, un tag di documento strutturato o un controllo del contenuto da qualsiasi documento caricato in Aspose.Words viene importato come nodo StructuredDocumentTag. I tag di documenti strutturati (SDT o controllo del contenuto) consentono di incorporare in un documento la semantica definita dal cliente, nonché il suo comportamento e il suo aspetto.

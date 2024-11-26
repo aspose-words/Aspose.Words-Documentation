@@ -1,4 +1,4 @@
-﻿---
+---
 title: Gambaran Umum Tabel
 second_title: Aspose.Words untuk C++
 articleTitle: Gambaran Umum Tabel
@@ -7,6 +7,7 @@ description: "Bekerja dengan tabel dan komponennya seperti sel, baris, kolom di 
 type: docs
 weight: 10
 url: /id/cpp/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words adalah pustaka kelas yang dirancang untuk pemrosesan dokumen di sisi server dalam berbagai format- PDF, HTML, format Microsoft Word yang berbeda, dan lainnya-dan mendukung tabel dengan cara berikut:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lưu Vào Định dạng trang Cố định trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Lưu Tài liệu sang Định dạng trang Cố định
@@ -7,6 +7,7 @@ description: "Cách lưu tài liệu sang định dạng trang cố định– P
 type: docs
 weight: 15
 url: /vi/cpp/saving-a-document-to-fixed-page-format/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Sau khi bố cục trang được xây dựng và hình dạng của các đối tượng và vị trí của chúng trên trang được tính toán, tài liệu có thể được lưu ở định dạng trang cố định được Aspose.Words hỗ trợ.

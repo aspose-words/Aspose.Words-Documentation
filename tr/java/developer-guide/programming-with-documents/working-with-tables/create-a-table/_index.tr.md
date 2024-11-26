@@ -7,6 +7,7 @@ description: "Belgenizde tablolar oluşturmak için farklı yollar Java kullanar
 type: docs
 weight: 20
 url: /tr/java/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words kullanıcıların bir belge içinde sıfırdan tablolar oluşturmasına olanak tanır ve bunu yapmak için birçok farklı yöntem sağlar. Bu makale her bir yöntem kullanarak belgenize biçimlendirilmiş tablolar ekleme hakkında ayrıntılar sunar ve makalenin sonunda her yöntemi karşılaştırır.

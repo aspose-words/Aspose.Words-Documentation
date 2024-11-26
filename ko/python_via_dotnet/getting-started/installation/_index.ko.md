@@ -7,6 +7,7 @@ description: "Manage NuGet Packages 또는 Package Manager Console과 같은 Vis
 type: docs
 weight: 10
 url: /ko/python-net/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 시작하기 전에 귀하의 기계가 [시스템 요구 사항](/words/ko/python-net/system-requirements/)를 충족하는지 확인하십시오.

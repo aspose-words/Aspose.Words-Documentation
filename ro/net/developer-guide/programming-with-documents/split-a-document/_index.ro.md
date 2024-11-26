@@ -7,6 +7,7 @@ description: "Împărți un document în mai multe fișiere folosind C#. Folosi�
 type: docs
 weight: 90
 url: /ro/net/split-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 *Splitting* sau *împărțirea unui document*" este procesul de divizare a unui document mare într-un număr mai mare de fișiere mai mici. Există diferite motive pentru care să împărțiți un fișier. De exemplu, ai nevoie doar de câteva pagini dintr-un anumit document şi nu întregul document. Sau din motive de confidențialitate doriți să împărtășiți doar anumite părți ale unui document cu alții. Cu funcția de divizare poți obține doar părțile necesare din document și să faci acțiunile necesare cu ele, de exemplu pentru a marca, salva sau trimite.

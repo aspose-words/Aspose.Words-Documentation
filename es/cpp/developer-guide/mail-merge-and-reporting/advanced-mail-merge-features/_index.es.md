@@ -1,26 +1,27 @@
-﻿---
+---
 title: Características avanzadas de Mail Merge en C++
 second_title: Aspose.Words para C++
 articleTitle: Funciones avanzadas Mail Merge
 linktitle: Funciones avanzadas Mail Merge
 type: docs
-description: "Aspose.Words para C++ proporciona algunas funciones avanzadas de mail merge que le permiten realizar más personalizaciones de mail merge. Por ejemplo, obtener información sobre la estructura de la plantilla, establecer reglas, limpiar después de una operación mail merge y otros."
-keywords: "use advanced mail merge features c++"
+description: "Aspose.Words para C++ proporciona algunas funciones avanzadas de Mail Merge que le permiten realizar más personalizaciones de mail merge. Por ejemplo, obtener información sobre la estructura de la plantilla, establecer reglas, limpiar después de una operación Mail Merge y otros."
+keywords: "use advanced Mail Merge features c++"
 weight: 50
 url: /es/cpp/advanced-mail-merge-features/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words proporciona algunas propiedades y métodos adicionales de mail merge que le permiten realizar una mayor personalización del proceso mail merge en mail merge simple o mail merge con regiones.
+Aspose.Words proporciona algunas propiedades y métodos adicionales de Mail Merge que le permiten realizar una mayor personalización del proceso Mail Merge en Mail Merge simple o Mail Merge con regiones.
 
-Las funciones avanzadas de mail merge incluyen, entre otras, obtener información sobre la estructura de la plantilla antes de realizar una operación mail merge, establecer reglas para una operación mail merge y limpiar durante una operación mail merge. Este artículo cubrirá solo algunas propiedades y ejemplos para mostrarle cómo usar las funciones avanzadas.
+Las funciones avanzadas de Mail Merge incluyen, entre otras, obtener información sobre la estructura de la plantilla antes de realizar una operación mail merge, establecer reglas para una operación Mail Merge y limpiar durante una operación mail merge. Este artículo cubrirá solo algunas propiedades y ejemplos para mostrarle cómo usar las funciones avanzadas.
 
 ## Establecer reglas para las Operaciones Mail Merge
 
 Agregar reglas a su plantilla le permite hacer que el proceso de flujo de trabajo sea más efectivo y flexible. Con las reglas mail merge, puede configurar contenido que se pueda cambiar rápidamente y evitar la necesidad de generar varios documentos.
 
-Aspose.Words le permite personalizar mail merge en función de las reglas que se ejecutan cuando realiza la operación mail merge y controla la información de combinación. Por ejemplo, cuando crea un correo electrónico o una carta para enviar a todos sus clientes. Puede configurar una regla para que la carta contenga varios datos en función de los diferentes valores en ciertos campos de su fuente de datos.
+Aspose.Words le permite personalizar Mail Merge en función de las reglas que se ejecutan cuando realiza la operación Mail Merge y controla la información de combinación. Por ejemplo, cuando crea un correo electrónico o una carta para enviar a todos sus clientes. Puede configurar una regla para que la carta contenga varios datos en función de los diferentes valores en ciertos campos de su fuente de datos.
 
-Eche un vistazo a algunas reglas mail merge que puede implementar.
+Eche un vistazo a algunas reglas Mail Merge que puede implementar.
 
 ### Implemente el Siguiente campo para Fusionar Registros de Datos en el Documento Actual
 
@@ -68,7 +69,7 @@ Puede descargar el archivo de muestra de este ejemplo desde [Aspose.Words GitHub
 
 ### Agregar Campos Asignados
 
-Aspose.Words le permite asignar automáticamente nombres de campos en su fuente de datos y nombres de mail merge campos en la plantilla usando la propiedad [MappedDataFields](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_mappeddatafields/). Por ejemplo, si tiene un nombre de campo llamado "Apellido" en su plantilla y en su fuente de datos tiene el nombre de campo "Apellido" u otra variación como "Apellido" o " LastName", entonces el campo en la fuente de datos se asignará automáticamente al campo asignado correspondiente. Si una plantilla de combinación se va a combinar con muchas fuentes de datos, los campos asignados hacen innecesario volver a ingresarlos en la plantilla para que coincidan con los nombres de campo de la base de datos.
+Aspose.Words le permite asignar automáticamente nombres de campos en su fuente de datos y nombres de Mail Merge campos en la plantilla usando la propiedad [MappedDataFields](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_mappeddatafields/). Por ejemplo, si tiene un nombre de campo llamado "Apellido" en su plantilla y en su fuente de datos tiene el nombre de campo "Apellido" u otra variación como "Apellido" o " LastName", entonces el campo en la fuente de datos se asignará automáticamente al campo asignado correspondiente. Si una plantilla de combinación se va a combinar con muchas fuentes de datos, los campos asignados hacen innecesario volver a ingresarlos en la plantilla para que coincidan con los nombres de campo de la base de datos.
 
 El siguiente ejemplo de código muestra cómo agregar un campo asignado mediante el método [Add](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mappeddatafieldcollection/add/) cuando un campo de combinación en una plantilla y un campo de datos en una fuente de datos tienen nombres diferentes:
 

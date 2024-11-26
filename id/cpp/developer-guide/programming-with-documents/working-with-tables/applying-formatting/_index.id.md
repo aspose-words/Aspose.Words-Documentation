@@ -1,4 +1,4 @@
-﻿---
+---
 title: Pemformatan Tabel dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Menerapkan Pemformatan
@@ -7,6 +7,7 @@ description: "Pemformatan tabel secara detail menggunakan C++. Menggunakan C++ u
 type: docs
 weight: 70
 url: /id/cpp/applying-formatting/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Setiap elemen tabel dapat diterapkan dengan pemformatan yang berbeda. Misalnya, pemformatan tabel akan diterapkan ke seluruh tabel, pemformatan baris hanya ke baris tertentu, pemformatan sel hanya ke sel tertentu.

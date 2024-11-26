@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET は、単純なドキュメントの変換�
 type: docs
 weight: 40
 url: /ja/net/features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words はユーザーに幅広い機能を提供します。ユーザーは、ドキュメントをサポートされている形式から別の形式に変換するだけでなく、変換プロセス中にそれらのドキュメントを変更するだけでなく、構造化された視覚的に魅力的なドキュメントの作成やレポートの自動化などのビジネス タスクに至るまで、膨大な量のドキュメント関連タスクを実行できます。
@@ -113,16 +114,16 @@ Aspose.Words を単独でレポート ソリューションとして使用でき
 
 |  特徴 | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Xamarin.Mac |
 |  :-  |  :-  |  :-  |  :-  |  :-  |  :-  |
-| `MERGEFIELD`、`NEXT`、`NEXTIF`、`ADDRESSBLOCK`、GREETINGLINE などのすべての標準 Microsoft Word mail merge フィールドをレポートで使用します。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| 最も複雑でネストされた `IF` フィールドや数式を含むドキュメントに対して mail merge を実行します。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| mail merge リージョンを使用して、データ ソースからドキュメント内のテーブルまたはフラグメントを作成し、動的に拡張します。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| `MERGEFIELD`、`NEXT`、`NEXTIF`、`ADDRESSBLOCK`、GREETINGLINE などのすべての標準 Microsoft Word Mail Merge フィールドをレポートで使用します。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| 最も複雑でネストされた `IF` フィールドや数式を含むドキュメントに対して Mail Merge を実行します。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Mail Merge リージョンを使用して、データ ソースからドキュメント内のテーブルまたはフラグメントを作成し、動的に拡張します。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Order/OrderDetails などのマスター/詳細 (親子) データを含むレポートを簡単に生成します。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | DataSet、DataTable、DataView、DataReader、ADO Recordset などの .NET データ ソースからのデータをドキュメントに入力します。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | **IMailMergeDataSource** インターフェイスを実装することで、LINQ クエリ、XML ファイル、ビジネス オブジェクトなどのデータ ソースからドキュメントを設定します。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | イベントを使用して、データのマージ方法を数値の書式設定など、正確に制御します。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | mail merge中に画像を挿入します。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| ドキュメントの Microsoft Word mail merge データ ソースをプログラムで作成または変更します。 mail merge 設定とデータ ソースを保持します。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| mail merge フィールド名を取得します。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| ドキュメントの Microsoft Word Mail Merge データ ソースをプログラムで作成または変更します。 Mail Merge 設定とデータ ソースを保持します。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Mail Merge フィールド名を取得します。 | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ## レポート機能
 

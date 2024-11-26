@@ -7,6 +7,7 @@ description: "Chuyển đổi sang PDF/A-1, PDF/A-2, PDF/A-4 và PDF/UA bằng P
 type: docs
 weight: 28
 url: /vi/python-net/working-with-pdfa-or-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Định dạng PDF/A và PDF/UA đặt ra một số yêu cầu liên quan đến nội dung tài liệu không thể đáp ứng được trong quá trình chuyển đổi tự động từ tài liệu ở định dạng Word sang PDF. Các yêu cầu này phải được xác minh và sửa trong tài liệu Word trước khi chuyển đổi hoặc trong tài liệu PDF sau khi chuyển đổi để tạo ra tài liệu tuân thủ PDF/A và PDF/UA đầy đủ.

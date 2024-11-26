@@ -7,6 +7,7 @@ description: "Verschillende manieren om velden in uw document in te voegen met b
 type: docs
 weight: 20
 url: /nl/java/insert-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Er zijn verschillende manieren om velden in een document in te voegen:
@@ -103,7 +104,7 @@ Het volgende voorbeeld van code laat zien hoe u de `MERGE` veld gebruiken DOM na
 
 ### Invoegen Mail Merge `ADDRESSBLOCK` veld in een document met DOM
 
-De `ADDRESSBLOCK` veld wordt gebruikt om een mail merge adresblok in een Word-document. `ADDRESSBLOCK` veld in Word document kan worden vertegenwoordigd door de [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) Klasse. U kunt **FieldAddressBlock** klasse om de volgende bewerkingen uit te voeren:
+De `ADDRESSBLOCK` veld wordt gebruikt om een Mail Merge adresblok in een Word-document. `ADDRESSBLOCK` veld in Word document kan worden vertegenwoordigd door de [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) Klasse. U kunt **FieldAddressBlock** klasse om de volgende bewerkingen uit te voeren:
 
 - specificeren of de naam van het land/gebied in het veld moet worden vermeld
 - te specificeren of het adres moet worden opgemaakt volgens het land/regio van de ontvanger zoals gedefinieerd in POST*CODE (Universele Postunie 2006)
@@ -145,7 +146,7 @@ De `ASK` veld wordt gebruikt om de gebruiker te vragen om tekst toe te wijzen aa
 
 - geef de naam van de bladwijzer op
 - Geef standaard gebruikersantwoord op (eerste waarde in het prompt venster)
-- geef aan of de reactie van de gebruiker eenmaal per mail merge werking
+- geef aan of de reactie van de gebruiker eenmaal per Mail Merge werking
 - geef de prompttekst (de titel van het promptvenster)
 
 {{% alert color="primary" %}}

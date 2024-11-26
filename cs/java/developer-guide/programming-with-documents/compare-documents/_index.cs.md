@@ -7,6 +7,7 @@ type: docs
 description: "Porovnejte dva dokumenty v podporovaných formátech a zobrazí změny obsahu. Při porovnání můžete použít pokročilé možnosti Java."
 weight: 60
 url: /cs/java/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Porovnání dokumentů je proces, který identifikuje změny mezi dvěma dokumenty a obsahuje změny jako revize. Tento proces porovnává všechny dva dokumenty, včetně verzí jednoho konkrétního dokumentu, pak se změny mezi oběma dokumenty zobrazí jako revize v prvním dokumentu.

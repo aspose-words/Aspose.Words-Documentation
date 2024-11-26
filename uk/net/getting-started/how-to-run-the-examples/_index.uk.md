@@ -7,6 +7,7 @@ description: "Завантажити Aspose.Words для .NET Приклади G
 type: docs
 weight: 110
 url: /uk/net/how-to-run-the-examples/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Щоб стати більш знайомим з Aspose.Words Можливості та можливості ми надаємо приклади, які можна завантажити з нашого сайту GitHub репозиторій, бігти і дізнатися подробиці.

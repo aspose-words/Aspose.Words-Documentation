@@ -7,6 +7,7 @@ description: "使用 Python 转换为 PDF/A-1、PDF/A-2、PDF/A-4 和 PDF/UA。�
 type: docs
 weight: 28
 url: /zh/python-net/working-with-pdfa-or-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/A 和 PDF/UA 格式提出了一些与文档内容相关的要求，而这些要求在从 Word 格式的文档自动转换为 PDF 的过程中无法满足。应在转换前的 Word 文档中或转换后的 PDF 文档中验证和更正这些要求，以便生成完全符合 PDF/A 和 PDF/UA 标准的文档。

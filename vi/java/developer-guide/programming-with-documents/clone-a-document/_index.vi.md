@@ -7,6 +7,7 @@ type: docs
 description: "Sao chép một tài liệu để có bản sao giống hệt của nó. Khi tạo bản sao các node và thuộc tính của tài liệu gốc được nhồi bằng cách sử dụng Java."
 weight: 70
 url: /vi/java/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sao chép một tài liệu là quá trình tạo ra một bản sao giống hệt của một tài liệu gốc, điều này có thể cải thiện hiệu suất và giúp bạn tránh các rò rỉ bộ nhớ tiềm năng.

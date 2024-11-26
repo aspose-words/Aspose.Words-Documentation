@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bir Belgeyi C++ içinde Klonlama
 second_title: Aspose.Words için C++
 articleTitle: Bir Belgeyi Klonlama
@@ -7,6 +7,7 @@ type: docs
 description: "C++ kullanarak aynı kopyasını almak için bir belgeyi klonlayın. Bir kopya oluştururken, orijinal belgenin düğümleri ve özellikleri klonlanır."
 weight: 70
 url: /tr/cpp/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir belgeyi klonlamak, performansı artırabilecek ve sizi olası bellek sızıntılarından kurtarabilecek orijinal bir belgenin aynı kopyasını oluşturma işlemidir.

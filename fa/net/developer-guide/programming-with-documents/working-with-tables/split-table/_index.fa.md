@@ -7,6 +7,7 @@ description: "میز تقسیم در C#. نحوه تقسیم یک جدول به 
 type: docs
 weight: 100
 url: /fa/net/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 یک جدول، که در Aspose.Words Document Object Model نشان داده شده است، از ردیف ها و سلول های مستقل تشکیل شده است که تقسیم جدول را آسان می کند.

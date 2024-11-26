@@ -8,6 +8,7 @@ description: "Tarnslate a Markdown document to Document Object Model and back us
 weight: 20
 url: /python-net/translate-markdown-to-document-object-model/
 aliases: [/python/translate-markdown-to-document-object-model/]
+timestamp: 2024-10-21-11-17-44
 ---
 
 To programmatically read, manipulate, and modify the content and formatting of a document, you need to translate it to the Aspose.Words Document Object Model (DOM).

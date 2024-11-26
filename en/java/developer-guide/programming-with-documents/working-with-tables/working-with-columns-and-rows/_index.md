@@ -7,6 +7,7 @@ description: "Working with parts of a table – rows, columns, and cells using J
 type: docs
 weight: 30
 url: /java/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 For more control over how tables work, learn how to manipulate columns and rows.

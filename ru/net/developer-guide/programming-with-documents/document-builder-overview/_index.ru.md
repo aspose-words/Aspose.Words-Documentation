@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilder позволяет создавать динамические документы с нуля или добавлять новые элементы к уже существующим. C#. DocumentBuilder предоставляет способы вставки текста, флажков, таблиц, изображений и других элементов контента в .NET."
 weight: 30
 url: /ru/net/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) Это мощный класс, который ассоциируется с [Document](https://reference.aspose.com/words/net/aspose.words/document/) Это позволяет создавать динамические документы с нуля или добавлять новые элементы к уже существующим.

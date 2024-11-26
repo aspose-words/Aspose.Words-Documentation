@@ -7,6 +7,7 @@ description: "C# を使用した高度なオプションを使用してドキュ
 type: docs
 weight: 20
 url: /ja/net/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 PDF 形式は固定ページ形式であり、ユーザーの間で非常に人気があり、PDF ドキュメントはどのデバイスでも同じように見えるため、さまざまなアプリケーションで広くサポートされています。そのため、PDF への変換は Aspose.Words の重要な機能です。

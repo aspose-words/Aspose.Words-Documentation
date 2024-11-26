@@ -1,4 +1,4 @@
-﻿---
+---
 title: Navigation mit Cursor in C++
 second_title: Aspose.Words für C++
 articleTitle: Navigation mit Cursor
@@ -7,6 +7,7 @@ description: "Navigieren Sie mit C++ zwischen verschiedenen Knoten innerhalb ein
 type: docs
 weight: 10
 url: /de/cpp/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Während Sie mit einem Dokument arbeiten, auch wenn es sich um ein kurzes oder langes Dokument handelt, müssen Sie durch Ihr Dokument navigieren. Die Navigation mit einem virtuellen Cursor stellt die Möglichkeit dar, zwischen verschiedenen Knoten in einem Dokument zu navigieren.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Ikhtisar Pembuat Dokumen dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Ikhtisar Pembuat Dokumen
@@ -7,6 +7,7 @@ type: docs
 description: "DocumentBuilder memungkinkan Anda membuat dokumen dinamis dari awal atau menambahkan elemen baru ke elemen yang sudah ada menggunakan C++. DocumentBuilder menyediakan metode untuk menyisipkan teks, kotak centang, tabel, gambar, dan elemen konten lainnya di C++."
 weight: 30
 url: /id/cpp/document-builder-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/) adalah kelas canggih yang berasosiasi dengan [Document](https://reference.aspose.com/words/cpp/aspose.words/document/) dan memungkinkan Anda membuat dokumen dinamis dari awal atau menambahkan elemen baru ke elemen yang sudah ada.

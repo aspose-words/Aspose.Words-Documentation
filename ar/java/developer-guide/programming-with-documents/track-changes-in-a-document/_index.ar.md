@@ -1,88 +1,89 @@
----
-title: التغييرات في الوثيقة Java
-second_title: Aspose.Words for Java
-articleTitle: التغييرات في الوثيقة
-linktitle: التغييرات في الوثيقة
-description: "تعقّبْ التغييراتَ إلى المحتوىِ وشكلِ تَجْعلُه أنت أَو الآخرون. الحصول على تنقيحات فردية في وثيقة ما وتطبيق مختلف الممتلكات عليها باستخدام Java."
+﻿---
+title: تتبع التغييرات في مستند في Java
+second_title: Aspose.Words ل Java
+articleTitle: تتبع التغييرات في المستند
+linktitle: تتبع التغييرات في المستند
+description: "تتبع التغييرات التي تطرأ على المحتوى والتنسيق الذي أجريته أنت أو غيرك. الوصول إلى المراجعات الفردية في مستند وتطبيق خصائص مختلفة عليها باستخدام Java."
 type: docs
 weight: 270
 url: /ar/java/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
-إن فعالية تغيرات المسار، المعروفة أيضاً باسم الاستعراض، تسمح لك بتتبع التغييرات التي أدخلتها على المحتوى والشكل من جانبك أو المستعملين الآخرين. تغير هذا المسار Aspose.Words دعم التغييرات في المسارات Microsoft Word. مع هذه الوظيفة، يمكنك الحصول على تنقيحات فردية في وثيقتك وتطبيق خصائص مختلفة لها.
+تتيح لك وظيفة تتبع التغييرات، والمعروفة أيضا باسم المراجعة، تتبع التغييرات في المحتوى والتنسيق التي أجريتها أنت أو المستخدمون الآخرون. هذه الميزة تتبع التغييرات مع Aspose.Words يدعم تتبع التغييرات في Microsoft Word. باستخدام هذه الوظيفة، يمكنك الوصول إلى المراجعات الفردية في المستند وتطبيق خصائص مختلفة عليها.
 
-وعندما تُمكِّنون من إدخال تغييرات على المسار، تُسلَّط الضوء بصريا على جميع العناصر المُدخلة والمحذفة والمُعدَّلة من الوثيقة بمعلومات عن الجهة التي تغيرت، ومتى، وما جرى تغييره. أما الأجسام التي تحمل معلومات عن التغيير فتسمى " تغيير المسار ". فعلى سبيل المثال، نفترض أنكم تريدون استعراض وثيقة وإجراء تغييرات هامة - وهذا قد يعني أن عليكم إجراء تنقيحات. كما قد تحتاج إلى إدراج تعليقات لمناقشة بعض التغييرات. وهنا يأتي تعقب التغييرات في الوثائق.
+عند تمكين ميزة تتبع التغييرات، سيتم تمييز جميع عناصر المستند المدرجة والمحذوفة والمعدلة بصريا بمعلومات حول من ومتى وما تم تغييره. تسمى الكائنات التي تحمل معلومات حول ما تم تغييره "تتبع التغييرات". على سبيل المثال، افترض أنك تريد مراجعة مستند وإجراء تغييرات مهمة – قد يعني هذا أنك بحاجة إلى إجراء مراجعات. أيضا، قد تحتاج إلى إدراج تعليقات لمناقشة بعض التغييرات. هذا هو المكان الذي يأتي فيه تتبع التغييرات في المستندات.
 
-وتوضح هذه المادة كيفية إدارة وتتبع التغييرات التي أحدثها العديد من المستعرضين في الوثيقة نفسها، فضلا عن الممتلكات اللازمة لتتبع التغييرات.
-
-{{% alert color="primary" %}}
-
-Note that the comment feature in Aspose.Words, وكذلك في Microsoft Word, ويمكن ربطها بتغييرات التتبع. ومع ذلك، تذكر أن التعليقات مستقلة تماما عن تتبع التغييرات.
-
-{{% /alert %}}
-
-## ما هو تنقيح
-
-وقبل الخوض في التنقيحات، لنشرح معنى التنقيحات. ألف [revision](https://reference.aspose.com/words/java/com.aspose.words/revision/) هو تغيير يحدث في شكل واحد من الوثائق في حين أنه يمثله فريق تنقيح [RevisionGroup](https://reference.aspose.com/words/java/com.aspose.words/revisiongroup/) والفئة هي مجموعة من التنقيحات التسلسلية التي تحدث في العديد من مراحل الوثيقة. التنقيح أداة لتتبع التغييرات.
-
-وتُستخدم التنقيحات في سمة تغييرات التتبع وضمن سمة الوثائق المقارنة، حيث تظهر التنقيحات نتيجة للمقارنة. لذا، فإن التنقيحات التي تجري في إطار تغيرات التتبع تظهر من هو ومن الذي تغير.
+تشرح هذه المقالة كيفية إدارة وتتبع التغييرات التي أنشأها العديد من المراجعين على نفس المستند، بالإضافة إلى خصائص تتبع التغييرات.
 
 {{% alert color="primary" %}}
 
-ملاحظة Microsoft Word لا يسمح لك بالنظر إلى التنقيحات الفردية، أنه يسمح لك فقط أن ترى التنقيحات التسلسلية ككيان واحد. لكن Aspose.Words يحل هذا الحد مع **RevisionGroup** الصف
+لاحظ أن ميزة التعليق في Aspose.Words، وكذلك في Microsoft Word، يمكن أن ترتبط بتغييرات التتبع. ومع ذلك، تذكر أن التعليقات مستقلة تماما عن تتبع التغييرات.
 
 {{% /alert %}}
 
-Aspose.Words دعم مختلف أنواع التنقيح، وكذلك في Microsoft Word, مثل الإلحاق، والحذف، والصيغة التغيير، التحديد تغيير، والتحرك. All revision types are represented with the [RevisionType](https://reference.aspose.com/words/java/com.aspose.words/revisiontype/) العد
+## ما هي المراجعة
+
+قبل الغوص في المراجعات، دعنا نشرح معنى المراجعات. [revision](https://reference.aspose.com/words/java/com.aspose.words/revision/) هو تغيير يحدث في عقدة واحدة من المستند بينما مجموعة المراجعة، ممثلة في فئة [RevisionGroup](https://reference.aspose.com/words/java/com.aspose.words/revisiongroup/)، هي مجموعة من المراجعات المتسلسلة التي تحدث في العديد من عقد المستند. المراجعة هي أداة لتتبع التغييرات.
+
+تستخدم المراجعات في ميزة تتبع التغييرات وضمن ميزة مقارنة المستندات، حيث تظهر المراجعات كنتيجة للمقارنة. لذلك، تظهر المراجعات داخل ميزة تتبع التغييرات من قبل من وما تم تغييره.
 
 {{% alert color="primary" %}}
 
-ملاحظة أن التنقيحات قد أسفرت عن نتيجة مماثلة لما حدث Microsoft Word لكن Aspose.Words لا يكشف الشكل أثناء تغيرات التتبع.
+لاحظ أن Microsoft Word لا يسمح لك بعرض المراجعات الفردية، بل يسمح لك فقط بعرض المراجعات المتسلسلة ككيان واحد. ولكن Aspose.Words يحل هذا القيد مع فئة **RevisionGroup**.
 
 {{% /alert %}}
 
-## بدء ووقف التغييرات
-
-تحرير وثيقة عادة لا يعد كمراجعة حتى تبدأ بتتبعها Aspose.Words يسمح لك بتتبع كل التغييرات في وثيقتك بشكل تلقائي بخطوات بسيطة يمكنك البدء بسهولة في عملية تتبع التغييرات باستخدام [StartTrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#startTrackRevisions-java.lang.String) طريقة إذا كنت بحاجة لوقف عملية تتبع التغييرات حتى لا تعتبر أي محررات مستقبلية تنقيحات، سوف تحتاج إلى استخدام [StopTrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#stopTrackRevisions) طريقة
+Aspose.Words يدعم أنواع المراجعة المختلفة، وكذلك في Microsoft Word، مثل الإدراج والحذف و FormatChange و StyleDefinitionChange والتحرك. يتم تمثيل جميع أنواع المراجعة مع [RevisionType](https://reference.aspose.com/words/java/com.aspose.words/revisiontype/) تعداد.
 
 {{% alert color="primary" %}}
 
-ملاحظة: `StartTrackingRevisions` الطريقة لا تغير حالة [TrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#getTrackRevisions):: الممتلكات ولا تستخدم قيمتها لأغراض التعقب. وبالإضافة إلى ذلك، إذا نقل عقد من مكان إلى آخر داخل الوثيقة المتعقبة، ستُجرى تنقيحات للتحرك، بما في ذلك الانتقال من موقع إلى آخر.
+لاحظ أن المراجعات لها نتيجة مشابهة لـ Microsoft Word ولكن Aspose.Words لا يكتشف التنسيق أثناء تتبع التغييرات.
 
 {{% /alert %}}
 
-وفي نهاية عملية تغيير التتبع في وثيقتكم، ستكون لديكم القدرة على قبول جميع التنقيحات أو رفضها لإعادة الوثيقة إلى شكلها الأصلي. ويمكن تحقيق ذلك إما باستخدام [AcceptAllRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#acceptAllRevisions) أو [RejectAll](https://reference.aspose.com/words/java/com.aspose.words/revisioncollection/#rejectAll) طريقة بالإضافة إلى ذلك، يمكنك أن تقبل أو ترفض كل تنقيح على حدة باستخدام [Accept](https://reference.aspose.com/words/java/com.aspose.words/revision/#accept) أو [Reject](https://reference.aspose.com/words/java/com.aspose.words/revision/#reject) طريقة
+## بدء وإيقاف تتبع التغييرات
 
-كل التغييرات سيتم تعقبها من لحظة بدء العملية إلى لحظة إيقافها والصلة بين التكرارات المختلفة مُمثَّلة في السيناريو التالي: استكمال عملية التتبع، ثم إجراء بعض التغييرات، وبدء تتبع التغييرات مرة أخرى. مع هذا السيناريو، كل التغييرات التي لم تقبلها أو ترفضها ستظهر مرة أخرى
+عادة لا يتم احتساب تحرير المستند كمراجعة حتى تبدأ في تتبعه. Aspose.Words يسمح لك بتتبع جميع التغييرات في المستند تلقائيا بخطوات بسيطة. يمكنك بسهولة بدء عملية تتبع التغييرات باستخدام طريقة [StartTrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#startTrackRevisions-java.lang.String). إذا كنت بحاجة إلى إيقاف عملية تتبع التغييرات بحيث لا تعتبر أي تعديلات مستقبلية مراجعات، فستحتاج إلى استخدام طريقة [StopTrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#stopTrackRevisions).
 
 {{% alert color="primary" %}}
 
-ملاحظة: `AcceptAllRevisions` طريقة مماثلة ل " قبول جميع التغييرات " في Microsoft Word.
+لاحظ أن طريقة `StartTrackingRevisions` لا تغير حالة الخاصية [TrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#getTrackRevisions) ولا تستخدم قيمتها بهدف تتبع المراجعة. بالإضافة إلى ذلك، إذا تم نقل عقدة من موقع إلى آخر داخل المستند المتعقب، فسيتم إنشاء تنقيحات النقل، بما في ذلك الانتقال من النطاق والانتقال إليه.
 
 {{% /alert %}}
 
-ويبين المثال الرمزي التالي كيفية العمل مع التغييرات في التتبع:
+في نهاية عملية تتبع التغييرات في المستند، سيكون لديك القدرة على قبول جميع المراجعات أو رفضها لإعادة المستند إلى شكله الأصلي. يمكن تحقيق ذلك إما باستخدام طريقة [AcceptAllRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#acceptAllRevisions) أو [RejectAll](https://reference.aspose.com/words/java/com.aspose.words/revisioncollection/#rejectAll). بالإضافة إلى ذلك، يمكنك قبول أو رفض كل مراجعة على حدة باستخدام طريقة [Accept](https://reference.aspose.com/words/java/com.aspose.words/revision/#accept) أو [Reject](https://reference.aspose.com/words/java/com.aspose.words/revision/#reject).
+
+سيتم تتبع جميع التغييرات لتكرار واحد من اللحظة التي تبدأ فيها العملية إلى اللحظة التي توقفها فيها. يتم تمثيل الاتصال بين التكرارات المختلفة على النحو التالي: إكمال عملية التتبع، ثم إجراء بعض التغييرات، وبدء تتبع التغييرات مرة أخرى. باستخدام هذا السيناريو، سيتم عرض جميع التغييرات التي لم تقبلها أو ترفضها مرة أخرى.
+
+{{% alert color="primary" %}}
+
+لاحظ أن طريقة `AcceptAllRevisions` مشابهة لـ" قبول جميع التغييرات " في Microsoft Word.
+
+{{% /alert %}}
+
+يوضح مثال التعليمات البرمجية التالية كيفية العمل مع تتبع التغييرات:
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-TrackChanges-WorkWithTrackChanges.java" >}}
 
-ويبيّن المثال الرمزي التالي كيفية إجراء التنقيحات عند نقل عقد معين في وثيقة متتبعة:
+يوضح مثال التعليمات البرمجية التالي كيفية إنشاء المراجعات عند نقل عقدة داخل مستند متعقب:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-TrackChanges-GenerateRevisionsWhenMovingNode.java" >}}
 
-## Manage and Store Changes as Revisions
+## إدارة وتخزين التغييرات كما التنقيحات
 
-ومع سمة التغييرات السابقة في التتبع، يمكنكم فهم التغييرات التي أدخلت في وثيقتكم والتي أدخلت تلك التغييرات. بينما مع [TrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#getTrackRevisions) خاصّة، تُجبرُ أيّ تغييرات في وثيقتِكَ لتُخزّن كتنقيحات.
+باستخدام ميزة تغييرات التتبع السابقة، يمكنك فهم التغييرات التي تم إجراؤها في المستند ومن أجرى هذه التغييرات. أثناء استخدام ميزة [TrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#getTrackRevisions)، فإنك تفرض تخزين أي تغييرات داخل المستند كمراجعات.
 
-Aspose.Words يُمكِنُك أَنْ تُدقّقَ إذا a وثيقة عِنْدَهُ a مراجعة أَو لا باستخدام [HasRevision](https://reference.aspose.com/words/java/com.aspose.words/document/#hasRevisions) ملكية إذا كنت لا تحتاج إلى تتبع تلقائيا التغييرات في وثيقتك من خلال عمليات مراجعة المسارات والتوقيف، ثم يمكنك استخدام `TrackRevisions` الممتلكات التي يتعين التحقق منها إذا تم تعقب التغييرات أثناء تحرير وثيقة Microsoft Word ومخزنة كتنقيحات
+Aspose.Words يسمح لك بالتحقق مما إذا كان المستند يحتوي على مراجعة أم لا باستخدام خاصية [HasRevision](https://reference.aspose.com/words/java/com.aspose.words/document/#hasRevisions). إذا لم تكن بحاجة إلى تتبع التغييرات في المستند تلقائيا من خلال الطريقتين StartTrackRevisions و StopTrackRevisions، فيمكنك استخدام الخاصية `TrackRevisions` للتحقق مما إذا كان يتم تتبع التغييرات أثناء تحرير مستند في Microsoft Word وتخزينها كمراجعات.
 
-The `TrackRevisions` السمة تجعل التنقيحات بدلا من التنقيحات الحقيقية DOM تغييرات لكن التنقيحات نفسها منفصلة على سبيل المثال، إذا حذفت أي فقرة Aspose.Words اجعله كتنقيح، وسمه كحذف، بدلاً من حذفه.
+تقوم ميزة `TrackRevisions` بإجراء مراجعات بدلا من التغييرات الحقيقية DOM. لكن المراجعات نفسها منفصلة. على سبيل المثال، إذا قمت بحذف أي فقرة، Aspose.Words اجعلها مراجعة، مع وضع علامة عليها كحذف، بدلا من حذفها.
 
-وبالإضافة إلى ذلك، Aspose.Words يُمكِنُك أَنْ تَتأكّدَ إذا جسم أُدخلَ، حذف، أَو مُغَيّرَ شكلاً مستعملاً [IsDeleteRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isDeleteRevision), [IsFormatRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isFormatRevision), [IsInsertRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isInsertRevision), [IsMoveFromRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isMoveFromRevision), و [IsMoveToRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isMoveToRevision) الممتلكات.
+بالإضافة إلى ذلك، Aspose.Words يسمح لك بالتحقق مما إذا تم إدراج كائن أو حذفه أو تغيير التنسيق باستخدام [IsDeleteRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isDeleteRevision), [IsFormatRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isFormatRevision), [IsInsertRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isInsertRevision), [IsMoveFromRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isMoveFromRevision), و [IsMoveToRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isMoveToRevision) خصائص.
 
 {{% alert color="primary" %}}
 
-ملاحظة عدم وجود صلة بين التنقيحات ذاتها والتنقيحات `TrackRevisions` ملكية وبالإضافة إلى ذلك، يمكنك أن تقبل/ترفض التنقيحات بغض النظر عن سمة تغيرات التتبع.
+لاحظ أنه لا يوجد اتصال بين المراجعات نفسها وخاصية `TrackRevisions`. بالإضافة إلى ذلك، يمكنك قبول/رفض المراجعات بغض النظر عن ميزة تتبع التغييرات.
 
 {{% /alert %}}
 
-ويبين المثال الرمزي التالي كيفية تطبيق مختلف الممتلكات بتنقيحات:
+يوضح مثال الكود التالي كيفية تطبيق خصائص مختلفة مع المراجعات:
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-TrackChanges-ApplyDifferentPropertiesWithRevisions.java" >}}

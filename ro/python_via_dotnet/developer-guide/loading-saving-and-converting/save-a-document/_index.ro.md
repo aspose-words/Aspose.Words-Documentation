@@ -1,4 +1,4 @@
-﻿---
+---
 title: Salvarea unui Document în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Salvarea unui Document
@@ -8,6 +8,7 @@ description: "Salvați un document în orice format acceptat folosind Python."
 keywords: "save a document python, save a document to file python, save a document to stream python, save a document Aspose python, save formats supported by Aspose.Words python"
 weight: 20
 url: /ro/python-net/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Majoritatea sarcinilor pe care trebuie să le efectuați cu Aspose.Words implică salvarea unui document. Pentru a salva un document, Aspose.Words furnizează metoda [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) a clasei [Document](https://reference.aspose.com/words/python-net/aspose.words/document/). Există supraîncărcări care permit salvarea unui document într-un fișier sau flux. Documentul poate fi salvat în orice format de salvare acceptat de Aspose.Words. Pentru lista tuturor formatelor de salvare acceptate, consultați enumerarea [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/).

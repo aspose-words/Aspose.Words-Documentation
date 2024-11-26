@@ -7,6 +7,7 @@ type: docs
 description: "Sử dụng bản giới thiệu này cho Aspose.Words cho Java để bắt đầu nhận ra giá trị của Aspose.Words đối với doanh nghiệp của bạn."
 weight: 10
 url: /vi/java/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Đây là hướng dẫn bắt đầu cung cấp một bản giới thiệu về Aspose.Words cơ bản. Đối với người dùng mới đối với Aspose.Words, đây là cách nhanh nhất để học các yêu cầu và khả năng cơ bản.

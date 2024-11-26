@@ -1,4 +1,4 @@
-﻿---
+---
 title: Skep'n Bladsy Uitleg in C++
 second_title: Aspose.Words vir C++
 articleTitle: Skep'n Bladsyuitleg
@@ -7,6 +7,7 @@ description: "Die skep van'n bladsy uitleg kan'n duur prosedure wees. Aspose.Wor
 type: docs
 weight: 10
 url: /af/cpp/creating-a-page-layout/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Die skep van'n bladsy-uitleg kan'n duur prosedure wees, beide in terme van spoed en geheue. Dit is as gevolg van verskeie redes:

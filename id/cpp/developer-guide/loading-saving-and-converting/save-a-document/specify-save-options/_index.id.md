@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tentukan Opsi Penyimpanan di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Tentukan Opsi Penyimpanan
@@ -7,6 +7,7 @@ description: "Lebih akurat mengontrol proses penyimpanan."
 type: docs
 weight: 10
 url: /id/cpp/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Saat menyimpan dokumen, Anda dapat mengatur beberapa properti lanjutan. Aspose.Words memberi Anda kelas [SaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/), yang memungkinkan kontrol proses penyimpanan yang lebih tepat. Ada kelebihan metode **Save** yang menerima objek **SaveOptions** - itu harus menjadi objek kelas yang diturunkan dari kelas **SaveOptions**. Setiap format penyimpanan memiliki kelas terkait yang menyimpan opsi penyimpanan untuk format penyimpanan ini, misalnya, ada [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) untuk menyimpan ke format PDF, [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions) untuk menyimpan ke format Markdown, atau [ImageSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/imagesaveoptions/) untuk menyimpan ke gambar. Artikel ini memberikan contoh bekerja dengan beberapa kelas opsi yang diturunkan dari **SaveOptions**.

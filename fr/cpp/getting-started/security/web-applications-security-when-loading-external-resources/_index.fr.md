@@ -1,4 +1,4 @@
-﻿---
+---
 title: Sécurité Des Applications Web Lors Du Chargement Des Ressources
 second_title: Aspose.Words pour C++
 articleTitle: Sécurité Des Applications Web Lors Du Chargement De Ressources Externes
@@ -7,6 +7,7 @@ type: docs
 description: "Charger des ressources distantes, cela peut être une raison de risques de sécurité. Jetez un œil aux problèmes de sécurité courants et à leurs solutions en C++."
 weight: 50
 url: /fr/cpp/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Par défaut, Aspose.Words pour C++ peut charger des ressources distantes telles que des images, des styles CSS ou des documents HTML externes lors de l'importation de documents ou de l'insertion d'images à l'aide de DocumentBuilder. Ce comportement vous permet de traiter vos documents en détail, mais peut être une raison de certains risques de sécurité si la bibliothèque fait partie d'une application Web.

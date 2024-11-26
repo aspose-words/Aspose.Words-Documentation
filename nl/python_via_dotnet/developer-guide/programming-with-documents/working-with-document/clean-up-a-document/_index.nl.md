@@ -7,6 +7,7 @@ description: "Verwijder ongebruikte of dubbele informatie om de uitvoergrootte e
 type: docs
 weight: 30
 url: /nl/python-net/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Soms moet u ongebruikte of dubbele informatie verwijderen om de grootte van het uitvoerdocument en de verwerkingstijd te verminderen.

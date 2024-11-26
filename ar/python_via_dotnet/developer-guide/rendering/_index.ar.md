@@ -7,6 +7,7 @@ description: "استخدم ميزة عرض Aspose.Words for Python via .NET لت
 type: docs
 weight: 20
 url: /ar/python-net/rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 نستخدم مصطلح "العرض" في Aspose.Words لوصف عملية تحويل مستند إلى تنسيق ملف أو وسيط مرقّم أو يحمل مفهوم الصفحات. نحن نتحدث عن تحويل المستند إلى صفحات. يوضح الرسم البياني التالي ماهية العرض في Aspose.Words.

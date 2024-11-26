@@ -7,6 +7,7 @@ description: "在 Server 上列印文件，使用未管理的 XpsPrint API 或�
 type: docs
 weight: 55
 url: /zh-hant/net/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-31-14-23-37
 ---
 
 這篇文章描述了如何從一個 ASP.NET 或 Windows 服務應用程式列印文字處理文件，使用 Aspose.Words 和 `XpsPrint` API。 它也示範了如何在設定、列印預覽和列印進度對話方塊中列印文件的方法，以及如何縮短首次呼叫以列印文件所需的時間。

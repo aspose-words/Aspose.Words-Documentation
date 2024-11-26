@@ -7,6 +7,7 @@ description: "Kontroluj wygląd dokumentów Worda z uwzględnieniem różnic pom
 type: docs
 weight: 40
 url: /pl/python-net/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Czasami może zaistnieć potrzeba zmiany wyglądu dokumentu, na przykład ustawienia preferencji językowych lub liczby wierszy na stronie. Aspose.Words zapewnia możliwość kontrolowania sposobu wyświetlania dokumentu, a także kilka dodatkowych opcji. W artykule opisano takie możliwości.

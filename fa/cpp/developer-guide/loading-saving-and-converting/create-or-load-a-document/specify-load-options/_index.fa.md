@@ -1,4 +1,4 @@
-﻿---
+---
 title: گزینه های بار را در C++مشخص کنید
 second_title: Aspose.Words برای C++
 articleTitle: گزینه های بار را مشخص کنید
@@ -7,6 +7,7 @@ description: "کنترل دقیق تر فرآیند بار."
 type: docs
 weight: 10
 url: /fa/cpp/specify-load-options/
+timestamp: 2024-01-30-16-22-34
 ---
 
 هنگام بارگیری یک سند، می توانید برخی از ویژگی های پیشرفته را تنظیم کنید. Aspose.Words کلاس [LoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/loadoptions/) را برای شما فراهم می کند که اجازه کنترل دقیق تر فرآیند بارگذاری را می دهد. برخی از فرمت های بار دارای یک کلاس مربوطه هستند که گزینه های بار را برای این فرمت بار نگه می دارد، به عنوان مثال، [PdfLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/pdfloadoptions/) برای بارگذاری به PDF فرمت یا [TxtLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/txtloadoptions/) برای بارگذاری به TXT وجود دارد. این مقاله نمونه هایی از کار با گزینه های کلاس **LoadOptions** را ارائه می دهد.

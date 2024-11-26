@@ -7,6 +7,7 @@ type: docs
 description: "Sửa nguồn tài liệu trong nhiều định dạng phổ biến, cũng như chuyển đổi tự do các tập tin từ một định dạng sang một định dạng khác bằng Java."
 weight: 30
 url: /vi/java/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

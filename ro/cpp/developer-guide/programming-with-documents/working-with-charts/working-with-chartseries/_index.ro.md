@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu ChartSeries în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Lucrul cu ChartSeries
@@ -7,6 +7,7 @@ description: "Reglarea seriei de diagrame folosind C++."
 type: docs
 weight: 40
 url: /ro/cpp/working-with-chartseries/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words permite utilizatorilor să lucreze cu ChartSeriesCollection în câteva moduri.

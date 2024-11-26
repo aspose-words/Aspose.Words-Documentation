@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tiêu chuẩn PDF nào Tốt Hơn Để Lựa chọn
 second_title: Aspose.Words cho C++
 articleTitle: Tiêu chuẩn PDF nào Tốt Hơn Để Lựa chọn
@@ -7,6 +7,7 @@ description: "Chọn tiêu chuẩn PDF tốt nhất để xuất kết quả c�
 type: docs
 weight: 37
 url: /vi/cpp/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đối với một số nhiệm vụ, các tiêu chuẩn PDF nhất định sẽ phù hợp hơn hoặc ngược lại tồi tệ hơn. Trong bài viết này, chúng tôi sẽ cố gắng xác định tiêu chuẩn PDF nào cho những trường hợp nào nên chọn.

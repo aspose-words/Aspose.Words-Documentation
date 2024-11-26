@@ -7,6 +7,7 @@ description: "문서 작업을 위해 Aspose.Words for .NET에 얼마나 많은 
 type: docs
 weight: 10
 url: /ko/net/memory-requirements/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words는 다양한 형식의 문서 작업에 필요한 다양한 기능을 제공합니다. Aspose.Words가 처리하거나 렌더링할 수 있는 문서 파일의 최대 크기에는 제한이 없다는 점에 유의하는 것이 중요합니다. 유일한 제한은 사용 가능한 RAM(메모리)의 양입니다.

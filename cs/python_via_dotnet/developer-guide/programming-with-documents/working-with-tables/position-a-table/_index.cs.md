@@ -7,6 +7,7 @@ description: "Zadejte pozici tabulky v Python. Získat nastavení tabulky, dosta
 type: docs
 weight: 50
 url: /cs/python-net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Existují plovoucí stoly a inline tabulky:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bảo Mật Ứng Dụng Web Khi Tải Tài Nguyên
 second_title: Aspose.Words cho C++
 articleTitle: Bảo Mật Ứng Dụng Web Khi Tải Tài Nguyên Bên Ngoài
@@ -7,6 +7,7 @@ type: docs
 description: "Tải tài nguyên từ xa, đó có thể là một lý do của rủi ro bảo mật. Hãy xem các vấn đề bảo mật phổ biến và các giải pháp của chúng trong C++."
 weight: 50
 url: /vi/cpp/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Theo mặc định, Aspose.Words cho C++ có thể tải các tài nguyên từ xa như hình ảnh, kiểu CSS hoặc tài liệu HTML bên ngoài khi nhập tài liệu hoặc chèn hình ảnh bằng DocumentBuilder. Hành vi này cho phép bạn xử lý tài liệu của mình một cách chi tiết nhưng có thể là lý do của một số rủi ro bảo mật nếu thư viện là một phần của ứng dụng web.

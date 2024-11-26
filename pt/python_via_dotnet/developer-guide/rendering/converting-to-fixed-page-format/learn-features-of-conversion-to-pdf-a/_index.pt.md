@@ -7,6 +7,7 @@ description: "Converta para PDF/A-1, PDF/A-2, PDF/A-4 e PDF/UA usando Python. Es
 type: docs
 weight: 25
 url: /pt/python-net/learn-features-of-conversion-to-pdf-a/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF é um formato de página fixa muito popular entre os usuários e amplamente suportado por vários aplicativos, já que um documento PDF tem a mesma aparência em qualquer dispositivo. Por esse motivo, a conversão para PDF é um recurso importante do Aspose.Words.

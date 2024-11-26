@@ -7,6 +7,7 @@ type: docs
 description: "İşletmeniz için Aspose.Words'in değerinin farkına varmaya başlamak için .NET temelleri için Aspose.Words'e yönelik bu girişi kullanın."
 weight: 20
 url: /tr/net/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Bu Başlarken Aspose.Words temellerine bir giriş sağlar. Aspose.Words'e yeni başlayan kullanıcılar için bu, temel gereksinimleri ve yetenekleri öğrenmenin en hızlı yoludur.

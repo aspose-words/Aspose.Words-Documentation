@@ -7,9 +7,10 @@ type: docs
 description: "Manajemen konten dokumen canggih, cara membuat dan memanipulasi kontrol konten (Structured Document Tag) menggunakan JavaSitemap"
 weight: 390
 url: /id/java/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
-Sitemap Microsoft Word, Anda dapat membuat formulir dengan memulai dengan template dan menambahkan kontrol konten, termasuk kotak centang, kotak teks, pemilih tanggal, dan daftar drop-down. Sitemap <span notrans="<span notrans=" Aspose.Words"=""></span>Sitemap Tag Dokumen Terstruktur atau kontrol konten dari dokumen apa pun yang dimuat ke Aspose.Words diimpor sebagai node Documents. Tag dokumen terstruktur (SDT atau kontrol konten) memungkinkan timbul semantik yang ditentukan pelanggan serta perilaku dan penampilannya menjadi dokumen.
+Sitemap Microsoft Word, Anda dapat membuat formulir dengan memulai dengan template dan menambahkan kontrol konten, termasuk kotak centang, kotak teks, pemilih tanggal, dan daftar drop-down. Sitemap Aspose.WordsSitemap Tag Dokumen Terstruktur atau kontrol konten dari dokumen apa pun yang dimuat ke Aspose.Words diimpor sebagai node Documents. Tag dokumen terstruktur (SDT atau kontrol konten) memungkinkan timbul semantik yang ditentukan pelanggan serta perilaku dan penampilannya menjadi dokumen.
 
 Sitemap Tag dapat terjadi dalam dokumen di tempat-tempat berikut:
 

@@ -7,6 +7,7 @@ description: "Navigovat mezi různými uzly v dokumentu, jako je odstavec, zálo
 type: docs
 weight: 5
 url: /cs/java/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Při práci s dokumentem, i když je krátký nebo dlouhý, budete muset projít prostřednictvím svého dokumentu. Navigace virtuálním kurzorem představuje schopnost navigovat mezi různými uzly v dokumentu.

@@ -7,6 +7,7 @@ description: "Rendi il tuo documento di sola lettura in modo che il contenuto po
 type: docs
 weight: 10
 url: /it/net/open-a-document-read-only/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A volte, potresti avere un documento che necessita di una revisione, ma non vuoi che i revisori modifichino i tuoi contenuti in modo casuale. Aspose.Words ti consente di rendere l'autorizzazione del tuo documento di sola lettura in modo che il contenuto possa essere copiato o letto, ma non modificato. Ciò impedirà che il contenuto venga rimosso o aggiunto al documento.

@@ -7,6 +7,7 @@ description: "كيفية إضافة ارتباط تشعبي إلى مستندك 
 type: docs
 weight: 50
 url: /ar/net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 الارتباط التشعبي في مستندات Microsoft Word هو حقل `HYPERLINK`. في Aspose.Words، يتم تنفيذ الارتباطات التشعبية من خلال فئة [FieldHyperlink](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldhyperlink/).

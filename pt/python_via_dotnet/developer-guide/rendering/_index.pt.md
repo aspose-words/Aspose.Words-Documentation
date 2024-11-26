@@ -7,6 +7,7 @@ description: "Use o recurso de renderização Aspose.Words para Python via .NET 
 type: docs
 weight: 20
 url: /pt/python-net/rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Usamos o termo "renderização" em Aspose.Words para descrever o processo de conversão de um documento em um formato de arquivo ou mídia paginada ou que tenha o conceito de páginas. Estamos falando sobre a renderização de um documento em páginas. O diagrama a seguir mostra o que é renderização em Aspose.Words.

@@ -7,6 +7,7 @@ description: "Vytvořit a spravovat tvary, ole objekty v dokumentu pomocí Pytho
 type: docs
 weight: 280
 url: /cs/python-net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Toto téma pojednává o tom, jak pracovat programově s tvary pomocí Aspose.Words.

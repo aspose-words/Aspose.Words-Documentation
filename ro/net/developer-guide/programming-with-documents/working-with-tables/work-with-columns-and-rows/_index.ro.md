@@ -7,6 +7,7 @@ description: "`Lucrul cu părți ale unei tabele – rânduri, coloane și celul
 type: docs
 weight: 30
 url: /ro/net/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Pentru mai mult control asupra modului în care funcţionează tabelele, învăţaţi cum să manipulaţi coloanele şi rândurile.

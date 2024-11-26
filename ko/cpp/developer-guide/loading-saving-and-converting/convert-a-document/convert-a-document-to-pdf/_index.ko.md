@@ -1,4 +1,4 @@
-﻿---
+---
 title: 문서를 다음으로 변환 PDF 그 안에 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 문서를 다음으로 변환 PDF
@@ -7,6 +7,7 @@ description: "문서를 다음으로 변환 PDF 사용 C++. 단어를 포함하�
 type: docs
 weight: 10
 url: /ko/cpp/convert-a-document-to-pdf/
+timestamp: 2024-10-21-08-52-03
 ---
 
 한 형식에서 다른 형식으로 문서를 쉽고 안정적으로 변환하는 기능은 다음과 같은 주요 기능입니다 Aspose.Words. 변환을 위해 가장 인기있는 형식 중 하나는 다음과 같습니다 PDF -다양한 플랫폼에서 렌더링하는 동안 문서의 원래 모양을 보존하는 고정 레이아웃 형식. "렌더링"용어는 Aspose.Words 문서를 페이지 매김 또는 페이지 개념이 있는 파일 형식으로 변환하는 프로세스를 설명합니다.

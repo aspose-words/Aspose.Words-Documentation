@@ -7,6 +7,7 @@ description: "Python'te tablo konumunu belirtin. Python'i kullanarak bir tablo h
 type: docs
 weight: 50
 url: /tr/python-net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Kayan tablolar ve satır içi tablolar vardır:

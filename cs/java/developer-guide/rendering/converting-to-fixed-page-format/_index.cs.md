@@ -7,6 +7,7 @@ description: "Aspose.Words místo Java implementuje svůj vlastní page layout m
 type: docs
 weight: 10
 url: /cs/java/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words implementuje svůj vlastní motor rozložení stránek. Před tím, než se dostaneme do jeho specifikací, stojí za to nejprve diskutovat o dokumentu na vysoké úrovni. Při přemýšlení o dokumentu si uživatelé obvykle představí řadu papírových listů obsahujících slova, obrázky, tabulky a grafy. Dokumenty mohou být různé typy, jako je text, tabulky, diapozitivy, CAD výkresy, diagramy, a proto mohou mít v podstatě různé rozvržení. Většina aplikací umožňuje posílat dokumenty do tiskárny; to je doba, kdy si uživatel může skutečně prohlédnout konečný zamýšlený vzhled dokumentu.
@@ -49,7 +50,7 @@ Dispozice stránky počítá, kde se objeví text a jaký obsah za ním bude vyk
 
 ![non_geometric_properties_aspose-words-java](/words/java/converting-to-fixed-page-format/converting-to-fixed-page-format-2.png)
 
-In <span notrans="<span notrans=" Aspose.Words"=""></span>, uživatel může požádat o vytvoření nového uspořádání stránky, nebo aktualizovat existující. Obojí může být provedeno [UpdatePageLayout](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout\(\)) metoda poskytnutá [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) třída. Pokud uspořádání stránky neexistuje, ale je to potřeba (například při exportu dokumentu do pevného formátu), Aspose.Words automaticky volá tuto metodu. Pokud však již existuje rozložení stránky, Aspose.Words použije stávající, aby se zabránilo spotřebě zdrojů nezbytných k jeho aktualizaci. V tomto případě musí uživatel zavolat `UpdatePageLayout` metoda, aby bylo zajištěno, že rozložení stránky je aktuální s modelem dokumentu.
+In Aspose.Words, uživatel může požádat o vytvoření nového uspořádání stránky, nebo aktualizovat existující. Obojí může být provedeno [UpdatePageLayout](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout\(\)) metoda poskytnutá [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) třída. Pokud uspořádání stránky neexistuje, ale je to potřeba (například při exportu dokumentu do pevného formátu), Aspose.Words automaticky volá tuto metodu. Pokud však již existuje rozložení stránky, Aspose.Words použije stávající, aby se zabránilo spotřebě zdrojů nezbytných k jeho aktualizaci. V tomto případě musí uživatel zavolat `UpdatePageLayout` metoda, aby bylo zajištěno, že rozložení stránky je aktuální s modelem dokumentu.
 
 ### Dynamická struktura
 

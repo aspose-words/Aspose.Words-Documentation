@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tabelle aufteilen in C++
 second_title: Aspose.Words für C++
 articleTitle: Geteilte Tabelle
@@ -7,6 +7,7 @@ description: "Tabelle in C++ aufteilen. So teilen Sie eine Tabelle in zwei separ
 type: docs
 weight: 100
 url: /de/cpp/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Eine Tabelle, die im Aspose.Words -Dokumentobjektmodell dargestellt wird, besteht aus unabhängigen Zeilen und Zellen, wodurch es einfach ist, eine Tabelle zu teilen.

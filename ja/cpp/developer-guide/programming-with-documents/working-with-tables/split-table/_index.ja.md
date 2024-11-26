@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でテーブルを分割する
 second_title: C++の場合Aspose.Words
 articleTitle: 分割テーブル
@@ -7,6 +7,7 @@ description: "C++でテーブルを分割します。 1つのテーブルを2つ
 type: docs
 weight: 100
 url: /ja/cpp/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Wordsドキュメントオブジェクトモデルで表されるテーブルは、独立した行とセルで構成されているため、テーブルを簡単に分割できます。

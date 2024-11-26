@@ -1,4 +1,4 @@
-﻿---
+---
 title: Sit PDF na Ander Dokument Formate in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Sit PDF na Ander Dokument Formate
@@ -8,6 +8,7 @@ description: "Skakel PDF om Na Woordformate soos DOCX, DOC, beeldformate soos JP
 keywords: convert pdf to other formats c#
 weight: 45
 url: /af/net/convert-pdf-to-other-document-formats/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Aspose.Words kan selfs so'n komplekse formaat soos PDF laai. Dit bied nuwe geleenthede: dit is moontlik om PDF om te skakel na Word of ander formate wat gebruikers ver vooruit bring in die oplossing van baie toegepaste probleme.

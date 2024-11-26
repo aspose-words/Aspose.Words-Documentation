@@ -7,6 +7,7 @@ description: "Konversikan Word dengan label sensitivitas yang diterapkan ke PDF 
 type: docs
 weight: 30
 url: /id/net/work-with-document-market-by-sensitivity-label/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Label sensitivitas dari Microsoft Purview Information Protection memungkinkan Anda mengklasifikasikan dan melindungi data organisasi Anda, sekaligus memastikan bahwa produktivitas pengguna dan kemampuan mereka untuk berkolaborasi tidak terhambat. Setelah label sensitivitas diterapkan pada dokumen, pengaturan perlindungan apa pun yang dikonfigurasi untuk label tersebut akan diterapkan pada konten.

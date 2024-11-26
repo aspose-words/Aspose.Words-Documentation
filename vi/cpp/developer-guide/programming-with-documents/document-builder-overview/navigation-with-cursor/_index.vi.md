@@ -1,4 +1,4 @@
-﻿---
+---
 title: Điều hướng với Con Trỏ trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Điều hướng với Con Trỏ
@@ -7,6 +7,7 @@ description: "Điều hướng giữa các nút khác nhau trong tài liệu, ch
 type: docs
 weight: 10
 url: /vi/cpp/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Trong khi làm việc với một tài liệu, ngay cả khi nó là một tài liệu ngắn hoặc dài, bạn sẽ cần phải điều hướng qua tài liệu của mình. Điều hướng bằng con trỏ ảo thể hiện khả năng điều hướng giữa các nút khác nhau trong tài liệu.

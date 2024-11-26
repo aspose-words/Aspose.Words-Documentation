@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中将文档保存为多页TIFF
 second_title: Aspose.Words对于C++
 articleTitle: 将文档保存为多页TIFF
@@ -7,6 +7,7 @@ description: "使用C++将文档转换为多页TIFF。 要确定文档在图像�
 type: docs
 weight: 40
 url: /zh/cpp/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-01-27-14-07-04
 ---
 
 处理文档时，通常需要将文档转换为光栅图像文件。 如果您必须以可读和可打印但不可编辑的格式呈现文档，这一点尤其重要。 例如，您可以使用文档第一页的光栅图像作为预览。 本文介绍了如何使用TIFF格式的示例将文档转换为光栅图像-一种更流行的图像格式。

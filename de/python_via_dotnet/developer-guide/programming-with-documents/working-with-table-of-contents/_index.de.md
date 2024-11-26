@@ -7,6 +7,7 @@ description: "Fügen Sie mit Python ein `Inhaltsverzeichnis` in ein Dokument ein
 type: docs
 weight: 170
 url: /de/python-net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Häufig werden Sie mit Dokumenten arbeiten, die ein Inhaltsverzeichnis (TOC) enthalten. Mit Aspose.Words können Sie mit nur wenigen Codezeilen Ihr eigenes Inhaltsverzeichnis einfügen oder ein vorhandenes Inhaltsverzeichnis im Dokument komplett neu erstellen. In diesem Artikel wird die Arbeit mit dem Inhaltsverzeichnisfeld beschrieben und Folgendes demonstriert:
@@ -107,7 +108,7 @@ Standardmäßig sind diese oben genannten Schalter enthalten, wenn ein Standard-
 
 <p>- *\L – Definiert, auf welcher Ebene im `TOC` dieses TC-Feld angezeigt wird. Ein `TOC`, der denselben Schalter verwendet, schließt dieses TC-Feld nur ein, wenn es innerhalb des angegebenen Bereichs liegt.*</p>
 
-<p>- _\N – Die Seitennummerierung für diesen `TOC`-Eintrag wird nicht angezeigt. Beispielcode zum Einfügen von TC-Feldern finden Sie im nächsten Abschnitt.</p> |
+<p>- `_\N` – Die Seitennummerierung für diesen `TOC`-Eintrag wird nicht angezeigt. Beispielcode zum Einfügen von TC-Feldern finden Sie im nächsten Abschnitt.</p> |
 
 ### Aussehenbezogene Schalter
 

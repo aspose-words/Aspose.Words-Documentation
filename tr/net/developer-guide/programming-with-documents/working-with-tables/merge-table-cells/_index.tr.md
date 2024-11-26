@@ -7,6 +7,7 @@ description: "C#'te tablo hücreleri nasıl birleştirilir? Bir tablodaki hücre
 type: docs
 weight: 40
 url: /tr/net/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen bir tablodaki belirli satırlar, tablonun tüm genişliğini kaplayan bir başlık veya büyük metin blokları gerektirir. Tablonun doğru tasarımı için kullanıcı birkaç tablo hücresini tek bir hücrede birleştirebilir. Aspose.Words, HTML içeriğinin içe aktarılması da dahil olmak üzere tüm giriş formatlarıyla çalışırken birleştirilmiş hücreleri destekler.

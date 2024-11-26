@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hantering van Windows Meta Lêers in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Hantering Van Windows Meta Lêers
@@ -7,6 +7,7 @@ description: "Aspose.Words vir .NET implementeer sy eie Windows Metafile-speler 
 type: docs
 weight: 30
 url: /af/net/handling-windows-metafiles/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Windows Metafile format is'n beeld lêer formaat wat beide vektor en raster grafiese kan bevat. Hierdie formaat word gebruik om grafiese data in geheue of op-skyf lêers te stoor. 'n meta-lêer stoor'n lys van funksie oproepe in die Windows Grafiese Toestel Koppelvlak (GDI) wat uitgevoer moet word om die beeld op die skerm te vertoon. Die stelsel interpreteer en voer hierdie opdragte in die vertoning konteks.

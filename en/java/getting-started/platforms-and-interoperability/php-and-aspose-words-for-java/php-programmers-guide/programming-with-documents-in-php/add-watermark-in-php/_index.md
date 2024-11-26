@@ -1,4 +1,4 @@
-﻿---
+---
 title: Add Watermark in PHP
 second_title: Aspose.Words for Java
 articleTitle: Add Watermark in PHP
@@ -7,6 +7,7 @@ description: "Add Watermark to Document using PHP."
 type: docs
 weight: 60
 url: /java/add-watermark-in-php/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Add Watermark

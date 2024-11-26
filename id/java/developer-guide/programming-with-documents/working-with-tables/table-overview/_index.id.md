@@ -7,6 +7,7 @@ description: "Bekerja dengan tabel dan komponen mereka seperti sel, baris, kolom
 type: docs
 weight: 10
 url: /id/java/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words adalah perpustakaan kelas yang dirancang untuk pemrosesan dokumen di berbagai format - PDF, HTML, berbeda Microsoft Word format dan lain – dan mendukung tabel dengan cara berikut:

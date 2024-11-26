@@ -7,6 +7,7 @@ description: "Twórz i modyfikuj wykresy różnych typów w dokumencie za pomoc�
 type: docs
 weight: 310
 url: /pl/python-net/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Do klasy [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) dodano nową metodę [insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/). Zobaczmy więc, jak wstawić prosty wykres kolumnowy do dokumentu za pomocą metody [DocumentBuilder.insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/):

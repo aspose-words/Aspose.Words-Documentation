@@ -1,4 +1,4 @@
-﻿---
+---
 title: چگونه ویژگی های میدان را پیدا کنیم
 second_title: Aspose.Words برای C++
 articleTitle: ویژگی های میدان را پیدا کنید
@@ -7,6 +7,7 @@ description: "چگونه برخی از ویژگی های فیلد مانند ک�
 type: docs
 weight: 25
 url: /fa/cpp/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 فیلدی که با استفاده از [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/) وارد می شود.[InsertField](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertfield/) یک شیء [Field](https://reference.aspose.com/words/cpp/aspose.words.fields/field/) را باز می گرداند. این یک کلاس نما است که روش های مفیدی را برای یافتن سریع برخی از خواص یک میدان فراهم می کند.

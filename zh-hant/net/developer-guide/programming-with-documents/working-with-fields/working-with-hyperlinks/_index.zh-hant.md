@@ -7,6 +7,7 @@ description: "如何在C#中透過Aspose.Words為.NET添加超連結到您的文
 type: docs
 weight: 50
 url: /zh-hant/net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word 文件中的超連結是 `HYPERLINK` 欄位。 在 Aspose.Words 中，超連結是透過 [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) 類別來實作的。

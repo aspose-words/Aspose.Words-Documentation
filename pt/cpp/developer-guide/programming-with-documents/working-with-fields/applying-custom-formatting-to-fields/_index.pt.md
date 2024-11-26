@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aplicar formatação personalizada a campos Em C++
 second_title: Aspose.Words para C++
 articleTitle: Aplicar formatação personalizada aos campos
@@ -7,6 +7,7 @@ description: "Formate e avalie os resultados dos campos usando C++."
 type: docs
 weight: 40
 url: /pt/cpp/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Às vezes, os usuários precisam aplicar formatação personalizada aos campos. Neste artigo, veremos alguns exemplos de como isso pode ser feito.

@@ -7,6 +7,7 @@ description: "Introduction to numbering formatting feature in Aspose.Words for .
 type: docs
 weight: 200
 url: /net/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A list in a Microsoft Word document is a set of paragraph formatting properties. Lists can be used in documents to structure, arrange, and highlight text. Lists are a great way to organize data in documents in a way that makes it easy for readers to absorb and understand key points.

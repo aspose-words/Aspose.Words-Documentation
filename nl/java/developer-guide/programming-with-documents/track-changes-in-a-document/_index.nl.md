@@ -7,6 +7,7 @@ description: "Track wijzigingen in inhoud en opmaak gemaakt door u of anderen. T
 type: docs
 weight: 270
 url: /nl/java/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 De functionaliteit van track wijzigingen, ook wel bekend als review, stelt u in staat om wijzigingen in inhoud en formattering die door u of andere gebruikers. Deze track verandert functie met Aspose.Words ondersteunt track wijzigingen in Microsoft Word. Met deze functionaliteit heeft u toegang tot individuele revisies in uw document en past u verschillende eigenschappen toe.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Sao chép Một Tài liệu trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Sao chép Tài liệu
@@ -7,6 +7,7 @@ type: docs
 description: "Sao chép một tài liệu để có được bản sao giống hệt của nó bằng C++. Khi tạo một bản sao, các nút và thuộc tính của tài liệu gốc được nhân bản."
 weight: 70
 url: /vi/cpp/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Nhân bản tài liệu là quá trình tạo một bản sao giống hệt của tài liệu gốc, có thể cải thiện hiệu suất và cứu bạn khỏi rò rỉ bộ nhớ tiềm ẩn.

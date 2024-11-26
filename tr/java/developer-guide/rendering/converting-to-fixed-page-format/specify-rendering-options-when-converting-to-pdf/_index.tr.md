@@ -7,6 +7,7 @@ description: "Gelişmiş seçeneklerle bir belgeyi pdf olarak dönüştürün. J
 type: docs
 weight: 20
 url: /tr/java/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 PDF formatı, kullanıcılar arasında çok popüler olan ve çeşitli uygulamalar tarafından geniş çapta desteklenen sabit sayfa formatıdır çünkü bir PDF belgesi herhangi bir cihazda aynı görünür. Bunun için PDF'e dönüştürmek Aspose.Words için önemli bir özelliğidir.

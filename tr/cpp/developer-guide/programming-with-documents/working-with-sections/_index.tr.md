@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki Bölümlerle Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Bölümlerle Çalışmak
@@ -7,6 +7,7 @@ description: "C++ kullanarak belge bölümü kavramlarını ve manipülasyon uyg
 type: docs
 weight: 120
 url: /tr/cpp/working-with-sections/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Bazen tüm sayfalarda aynı biçimlendirmeye sahip olmayan bir belge istersiniz. Örneğin, sayfa numarası biçimlerini değiştirmeniz, farklı sayfa boyutuna ve yönüne sahip olmanız veya ilk belge sayfasını numaralandırmadan kapak sayfası olarak almanız gerekebilir. Bunu bölümlerle başarabilirsiniz.

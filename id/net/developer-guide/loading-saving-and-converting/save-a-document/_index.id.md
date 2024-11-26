@@ -8,6 +8,7 @@ description: "Simpan dokumen dalam format apa pun yang didukung menggunakan C#."
 keywords: "save a document c#, save a document to file c#, save a document to stream c#, save a document Aspose .NET, save formats supported by Aspose.Words .NET"
 weight: 20
 url: /id/net/save-a-document/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Sebagian besar tugas yang perlu Anda lakukan dengan Aspose.Words melibatkan penyimpanan dokumen. Untuk menyimpan dokumen Aspose.Words menyediakan metode [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) dari kelas [Document](https://reference.aspose.com/words/net/aspose.words/document/). Ada kelebihan beban yang memungkinkan penyimpanan dokumen ke file, aliran, atau objek ASP.NET HttpResponse untuk dikirim ke browser klien. Dokumen dapat disimpan dalam format penyimpanan apa pun yang didukung oleh Aspose.Words. Untuk daftar semua format penyimpanan yang didukung, lihat enumerasi [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/).

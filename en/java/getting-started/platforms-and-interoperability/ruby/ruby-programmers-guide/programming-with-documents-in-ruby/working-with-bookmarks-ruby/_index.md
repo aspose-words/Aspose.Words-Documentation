@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working With Bookmarks in Ruby
 second_title: Aspose.Words for Java
 articleTitle: Working With Bookmarks in Ruby
@@ -8,6 +8,7 @@ type: docs
 weight: 20
 url: /java/working-with-bookmarks-ruby/
 aliases: [/java/working-with-bookmarks-in-ruby/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 This section includes the following topics:

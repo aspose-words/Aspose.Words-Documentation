@@ -1,4 +1,4 @@
-﻿---
+---
 title: Felder in C++ einfügen
 second_title: Aspose.Words für C++
 articleTitle: Felder einfügen
@@ -7,6 +7,7 @@ description: "Verschiedene Möglichkeiten, Felder mit C++ in Ihr Dokument einzuf
 type: docs
 weight: 20
 url: /de/cpp/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Es gibt verschiedene Möglichkeiten, Felder in ein Dokument einzufügen:
@@ -93,7 +94,7 @@ Sie können die Beispieldatei dieses Beispiels herunterladen von [Aspose.Words G
 
 ### Einfügen eines Mail Merge-Adressblockfelds in ein Dokument mit DOM
 
-Das Feld `ADDRESSBLOCK` wird verwendet, um einen mail merge -Adressblock in ein Word-Dokument einzufügen. Das Feld `ADDRESSBLOCK` im Word-Dokument kann durch die Klasse [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldaddressblock/) dargestellt werden. Sie können die Klasse **FieldAddressBlock** verwenden, um die folgenden Vorgänge auszuführen:
+Das Feld `ADDRESSBLOCK` wird verwendet, um einen Mail Merge -Adressblock in ein Word-Dokument einzufügen. Das Feld `ADDRESSBLOCK` im Word-Dokument kann durch die Klasse [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldaddressblock/) dargestellt werden. Sie können die Klasse **FieldAddressBlock** verwenden, um die folgenden Vorgänge auszuführen:
 
 - geben Sie an, ob der Name des Landes/der Region in das Feld aufgenommen werden soll
 - geben Sie an, ob die Adresse entsprechend dem Land/der Region des Empfängers formatiert werden soll, wie in POST*CODE definiert (Weltpostverein 2006)

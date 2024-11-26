@@ -7,6 +7,7 @@ description: "Yükleme, kaydetme veya bir formattan başka bir formata belge dö
 type: docs
 weight: 20
 url: /tr/java/loading-saving-and-converting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bu bölüm bir belge yüklerken ve kaydederken sağlanan özellikler hakkında bilgi verirken aynı zamanda bir belgenin bir formattan diğerine dönüştürülürken sağlanan olasılıklar hakkındaki verileri de içerir.

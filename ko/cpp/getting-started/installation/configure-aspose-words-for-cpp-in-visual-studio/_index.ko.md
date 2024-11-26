@@ -1,4 +1,4 @@
-﻿---
+---
 title: 제품 구성 Visual Studio
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 구성 Aspose.Words 에 대한 C++ 그 안에 Visual Studio
@@ -7,6 +7,7 @@ description: "수동으로 구성 Aspose.Words 에 대한 C++ 그 안에 Visual 
 type: docs
 weight: 90
 url: /ko/cpp/configure-aspose-words-for-cpp-in-visual-studio/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words 에 대한 C++ API 함께 작동 Visual Studio 2022 또는 나중에. 함께 작업하려면 Visual Studio,당신은 설치할 필요가 있을지도 모릅니다 Visual C++ Redistributable 사용 가능 [Microsoft 공식 웹사이트](https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170).

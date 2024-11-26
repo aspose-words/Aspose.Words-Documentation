@@ -7,6 +7,7 @@ description: "Geavanceerd Microsoft Word opmaakfuncties, werken met stijlen en t
 type: docs
 weight: 110
 url: /nl/net/working-with-styles-and-themes/
+timestamp: 2024-10-24-11-44-28
 ---
 
 De [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) klasse wordt gebruikt om ingebouwde instellingen te beheren en gebruikersinstellingen toe te passen op stijlen.
@@ -36,7 +37,7 @@ In dit sample document, de tekst geformatteerd met de
 
 ### De code
 
-De implementatie van een op stijl gebaseerde query is vrij eenvoudig in de Aspose.Words document object model, omdat het gewoon gebruik maakt van tools die al op zijn plaats. Twee klassen methoden zijn geïmplementeerd voor deze oplossing:# **ParagraphsByStyleName** Wat? Deze methode haalt een reeks van die alinea's op in het document met een specifieke stijlnaam. # **RunsByStyleName** Wat? Deze methode haalt een reeks van die runs op in het document met een specifieke stijlnaam. Beide methoden zijn zeer vergelijkbaar, de enige verschillen zijn de knooppunttypes en de weergave van de stijlinformatie binnen de paragraaf en run nodes. Hier is een implementatie van de paragrafen ByStyleName: Hieronder vindt u alle alinea's geformatteerd met de opgegeven stijl.
+De implementatie van een op stijl gebaseerde query is vrij eenvoudig in de Aspose.Words document object model, omdat het gewoon gebruik maakt van tools die al op zijn plaats. Twee klassen methoden zijn geïmplementeerd voor deze oplossing: **ParagraphsByStyleName** Wat? Deze methode haalt een reeks van die alinea's op in het document met een specifieke stijlnaam. **RunsByStyleName** Wat? Deze methode haalt een reeks van die runs op in het document met een specifieke stijlnaam. Beide methoden zijn zeer vergelijkbaar, de enige verschillen zijn de knooppunttypes en de weergave van de stijlinformatie binnen de paragraaf en run nodes. Hier is een implementatie van de paragrafen ByStyleName: Hieronder vindt u alle alinea's geformatteerd met de opgegeven stijl.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.cs" >}}
 

@@ -7,6 +7,7 @@ description: "Usunąć niewykorzystane lub duplikowane informacje w celu zmniejs
 type: docs
 weight: 30
 url: /pl/java/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Czasami może być konieczne usunięcie niewykorzystanych lub duplikatów informacji w celu zmniejszenia rozmiaru dokumentu wyjściowego i czasu przetwarzania.

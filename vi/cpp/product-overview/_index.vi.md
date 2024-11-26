@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tổng Quan Về Sản Phẩm
 second_title: Aspose.Words cho C++
 articleTitle: Tổng Quan Về Sản Phẩm
@@ -7,6 +7,7 @@ description: "Aspose.Words cho C++ là một thư viện phần mềm được t
 type: docs
 weight: 5
 url: /vi/cpp/product-overview/
+timestamp: 2024-06-05-14-43-57
 ---
 
 <img src="product-overview_1" alt="aspose-words-product_cpp" align="left" style="width:64px; margin: 0 30px 30px 0"/>

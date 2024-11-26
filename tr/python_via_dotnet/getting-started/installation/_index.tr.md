@@ -7,6 +7,7 @@ description: "Manage NuGet Packages veya Package Manager Console gibi Visual Stu
 type: docs
 weight: 10
 url: /tr/python-net/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Başlamadan önce makinenizin [sistem gereksinimleri](/words/tr/python-net/system-requirements/)'i karşıladığından emin olun.

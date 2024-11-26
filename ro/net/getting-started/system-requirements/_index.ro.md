@@ -7,6 +7,7 @@ description: "Înainte de a începe să lucrezi cu Aspose.Words pentru .NET, asi
 type: docs
 weight: 70
 url: /ro/net/system-requirements/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Aspose.Words pentru .NET nu necesită nici un produs terț precum Microsoft Word să fie instalat. Aspose.Words în sine este un motor pentru crearea, modificarea, conversia și redarea de documente în diferite formate, inclusiv Microsoft Word documente formate."

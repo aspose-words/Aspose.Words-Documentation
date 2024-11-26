@@ -7,6 +7,7 @@ description: "Çizelgeler Özelliğine Giriş, Java'i kullanarak grafiklerin nas
 type: docs
 weight: 310
 url: /tr/java/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Yeni [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) yöntemi sınıfın [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) içine eklendi. Öyleyse, basit bir sütun grafiğini belgenin içine **insertChart** yöntemini kullanarak eklemeyi nasıl yaparız bakalım.

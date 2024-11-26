@@ -1,4 +1,4 @@
-﻿---
+---
 title: Skep'n Dokument in C++
 second_title: Aspose.Words vir C++
 articleTitle: Skakel'n Dokument om
@@ -8,6 +8,7 @@ description: "Maklik omskep dokumente van een formaat na'n ander met behulp van 
 keywords: "convert a document c++, convert documents from one format to another c++, convert to markdown c++, convert pdf to docx C++, convert docx to pdf C++, convert doc to pdf C++, convert a document Aspose for C++"
 weight: 30
 url: /af/cpp/convert-a-document/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Die vermoë om dokumente maklik en betroubaar van een formaat na'n ander te omskep, is een van die belangrikste kenmerke van Aspose.Words. So'n omskakeling is niks meer as'n kombinasie van laai-en spaarbedrywighede nie.

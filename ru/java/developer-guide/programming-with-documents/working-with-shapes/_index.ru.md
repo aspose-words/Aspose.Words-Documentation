@@ -1,82 +1,83 @@
----
-title: Работа с формами в Java
+﻿---
+title: Работа с фигурами в Java
 second_title: Aspose.Words для Java
 articleTitle: Работа с формами
 linktitle: Работа с формами
 type: docs
-description: "Введение в язык разметки формы, создание форм разных типов с использованием Java."
+description: "Знакомство с языком разметки фигур, создание фигур различных типов с помощью Java."
 weight: 280
 url: /ru/java/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Эта тема обсуждает, как программно работать с формами, используя Aspose.Words.
+В этом разделе обсуждается, как программно работать с фигурами, используя Aspose.Words.
 
-Формы в Aspose.Words представляют собой объект в слое рисунка, такой как AutoShape, текстовый ящик, свободная форма, объект OLE, управление ActiveX или изображение. Документ Word может содержать одну или несколько различных форм. Формы документа представлены [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) класс.
+Фигуры в Aspose.Words представляют объект на уровне рисования, такой как AutoShape, текстовое поле, объект произвольной формы, OLE, элемент управления ActiveX или изображение. Документ Word может содержать одну или несколько различных фигур. Формы документа представлены классом [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/).
 
-## Вставьте форму с помощью конструктора документов
+## Вставка фигуры с помощью конструктора документов
 
-Вы можете вставить линейную форму с указанным типом и размером и свободно плавающую форму с указанным положением, размером и типом текстовой обертки в документ, используя [InsertShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertShape-int-double-double) метод. The **InsertShape** Способ позволяет вставить форму DML в модель документа. Документ должен быть сохранен в формате, который поддерживает формы DML, иначе такие узлы будут преобразованы в форму VML, при этом сохраняется документ.
+Вы можете вставить в документ встроенную фигуру с указанным типом и размером, а также свободно перемещающуюся фигуру с указанным положением, размером и типом переноса текста, используя метод [InsertShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertShape-int-double-double). Метод **InsertShape** позволяет вставить фигуру DML в модель документа. Документ должен быть сохранен в формате, поддерживающем DML формы, в противном случае такие узлы будут преобразованы в форму VML при сохранении документа.
 
-Следующий пример кода показывает, как вставить эти типы фигур в документ:
+В следующем примере кода показано, как вставить эти типы фигур в документ:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-InsertShapeUsingDocumentBuilder.java" >}}
 
-## Установить соотношение заперто
+## Установите фиксированное соотношение сторон
 
-Использовать Aspose.Words, Вы можете указать, заблокировано ли соотношение сторон формы через [AspectRatioLocked](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getAspectRatioLocked) собственность.
+Используя Aspose.Words, вы можете указать, будет ли зафиксировано соотношение сторон фигуры с помощью свойства [AspectRatioLocked](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getAspectRatioLocked).
 
-Следующий пример показывает, как работать с **AspectRatioLocked** имущество:
+В следующем примере кода показано, как работать со свойством **AspectRatioLocked**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-SetAspectRatioLocked.java" >}}
 
-## Настройка формы Layout in Cell
+## Установите Расположение Фигуры В Ячейке
 
-Вы также можете указать, отображается ли форма внутри стола или снаружи стола. [IsLayoutInCell](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#isLayoutInCell) собственность.
+Вы также можете указать, будет ли фигура отображаться внутри таблицы или за ее пределами, используя свойство [IsLayoutInCell](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#isLayoutInCell).
 
-Следующий пример показывает, как работать с **IsLayoutInCell** имущество:
+В следующем примере кода показано, как работать со свойством **IsLayoutInCell**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-SetShapeLayoutInCell.java" >}}
 
-## Добавить Corners Snipped
+## Добавьте обрезанные углы
 
-Вы можете создать угловой прямоугольник с помощью Aspose.Words. Типы фигур: *SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped, TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, * и *DiagonalCornersRounded.*
+Вы можете создать прямоугольник с отрезанным углом, используя Aspose.Words. Типы фигур - *SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped, TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded,* и *DiagonalCornersRounded.*
 
-Форма DML создается с использованием **InsertShape** Метод с этими типами форм. Эти типы не могут быть использованы для создания форм VML. Попытка создать форму с помощью общественного конструктора класса "Форма" поднимает исключение "Неподдерживаемый Исключение".
+Фигура DML создается с помощью метода **InsertShape** с использованием этих типов фигур. Эти типы не могут быть использованы для создания фигур VML. Попытка создать фигуру с помощью открытого конструктора класса "Shape" приводит к возникновению исключения "NotSupportedException".
 
-Следующий пример кода показывает, как вставить эти формы в документ:
+В следующем примере кода показано, как вставить фигуры такого типа в документ:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-AddCornersSnipped.java" >}}
 
-## Получите реальные точки соприкосновения формы
+## Получите реальные точки границ формы
 
-Использовать Aspose.Words API, Вы можете получить расположение и размер формы, содержащей блок в точках, относительно якоря самой верхней формы. Чтобы сделать это, используйте [BoundsInPoints](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getBoundsInPoints) собственность.
+Используя Aspose.Words API, вы можете получить местоположение и размер фигуры, содержащей блок, в точках относительно привязки самой верхней фигуры. Для этого используйте свойство [BoundsInPoints](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getBoundsInPoints).
 
-Следующий пример показывает, как работать с **BoundsInPoints** имущество:
+В следующем примере кода показано, как работать со свойством **BoundsInPoints**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-GetActualShapeBoundsPoints.java" >}}
 
-## Укажите вертикальный якорь
+## Укажите вертикальную привязку
 
-Вы можете указать вертикальное выравнивание текста в форме, используя [VerticalAnchor](https://reference.aspose.com/words/java/com.aspose.words/textbox/#getVerticalAnchor) собственность.
+Вы можете задать выравнивание текста по вертикали внутри фигуры, используя свойство [VerticalAnchor](https://reference.aspose.com/words/java/com.aspose.words/textbox/#getVerticalAnchor).
 
-Следующий пример показывает, как работать с **VerticalAnchor** имущество:
+В следующем примере кода показано, как работать со свойством **VerticalAnchor**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-SpecifyVerticalAnchor.java" >}}
 
-## Обнаружение Smart Форма искусства
+## Определить форму SmartArt
 
-Aspose.Words Также можно определить, имеет ли форма `SmartArt` объект. Чтобы сделать это, используйте [HasSmartArt](https://reference.aspose.com/words/java/com.aspose.words/shape/#hasSmartArt) собственность.
+Aspose.Words также позволяет определить, есть ли у фигуры объект `SmartArt`. Для этого используйте свойство [HasSmartArt](https://reference.aspose.com/words/java/com.aspose.words/shape/#hasSmartArt).
 
-Следующий пример показывает, как работать с **HasSmartArt** имущество:
+В следующем примере кода показано, как работать со свойством **HasSmartArt**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-DetectSmartArtShape.java" >}}
 
-## Формат горизонтальных правил
+## Формат горизонтального правила
 
-Вы можете вставить горизонтальную форму правила в документ, используя [InsertHorizontalRule](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHorizontalRule) метод.
+Вы можете вставить горизонтальную линейчатую фигуру в документ, используя метод [InsertHorizontalRule](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHorizontalRule).
 
-Aspose.Words API обеспечивает [HorizontalRuleFormat](https://reference.aspose.com/words/java/com.aspose.words/shape/#getHorizontalRuleFormat) свойство доступа к свойствам горизонтальной формы правила. The [HorizontalRuleFormat](https://reference.aspose.com/words/java/com.aspose.words/horizontalruleformat/) Класс раскрывает основные свойства, такие как высота, цвет, NoShade и т.д. Для форматирования горизонтального правила.
+Aspose.Words API предоставляет свойство [HorizontalRuleFormat](https://reference.aspose.com/words/java/com.aspose.words/shape/#getHorizontalRuleFormat) для доступа к свойствам формы горизонтального правила. Класс [HorizontalRuleFormat](https://reference.aspose.com/words/java/com.aspose.words/horizontalruleformat/) предоставляет базовые свойства, такие как высота, цвет, NoShade и т.д. для форматирования горизонтального правила.
 
-Следующий пример кода показывает, как установить **HorizontalRuleFormat**:
+В следующем примере кода показано, как установить **HorizontalRuleFormat**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-ShapeHorizontalRuleFormat.java" >}}

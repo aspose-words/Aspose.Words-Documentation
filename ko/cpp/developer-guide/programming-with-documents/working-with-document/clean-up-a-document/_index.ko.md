@@ -1,4 +1,4 @@
-﻿---
+---
 title: 문서 정리 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 문서 정리
@@ -7,6 +7,7 @@ description: "사용하지 않거나 중복된 정보를 제거하여 다음을 
 type: docs
 weight: 30
 url: /ko/cpp/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 경우에 따라 출력 문서의 크기와 처리 시간을 줄이기 위해 사용하지 않거나 중복된 정보를 제거해야 할 수도 있습니다.

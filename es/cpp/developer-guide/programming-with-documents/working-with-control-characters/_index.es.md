@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabajar Con Caracteres De Control
 second_title: Aspose.Words para C++
 articleTitle: Trabajar Con Caracteres De Control
@@ -7,6 +7,7 @@ description: "Introducción al trabajo con caracteres de control en Aspose.Words
 type: docs
 weight: 400
 url: /es/cpp/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Los documentos de Microsoft Word pueden contener varios caracteres que tienen un significado especial. Normalmente se utilizan con fines de formateo y no se dibujan en el modo normal. Puede hacerlos visibles si hace clic en el botón Mostrar / Ocultar marcas de formato ubicado en la barra de herramientas estándar.

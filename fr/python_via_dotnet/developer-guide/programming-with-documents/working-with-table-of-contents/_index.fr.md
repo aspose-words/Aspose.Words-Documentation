@@ -7,6 +7,7 @@ description: "Insérez et gérez la `Table des matières` dans un document à l'
 type: docs
 weight: 170
 url: /fr/python-net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Souvent, vous travaillerez avec des documents contenant une table des matières (TOC). En utilisant Aspose.Words, vous pouvez insérer votre propre table des matières ou reconstruire complètement la table des matières existante dans le document en utilisant seulement quelques lignes de code. Cet article explique comment utiliser le champ de table des matières et démontre:
@@ -107,7 +108,7 @@ Par défaut, ces commutateurs ci-dessus sont inclus lors de l'insertion d'un `TO
 
 <p>- *\L – Définit à quel niveau du `TOC` ce champ TC apparaîtra. Un `TOC` qui utilise ce même commutateur n'inclura ce champ TC que s'il se trouve dans la plage spécifiée.*</p>
 
-<p>- _\N – La numérotation des pages de cette entrée `TOC` n'est pas affichée. Un exemple de code sur la façon d'insérer des champs TC peut être trouvé dans la section suivante.</p> |
+<p>- `_\N` – La numérotation des pages de cette entrée `TOC` n'est pas affichée. Un exemple de code sur la façon d'insérer des champs TC peut être trouvé dans la section suivante.</p> |
 
 ### Commutateurs liés à l’apparence
 

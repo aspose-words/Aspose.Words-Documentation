@@ -1,4 +1,4 @@
-﻿---
+---
 title: 用C++编写文档
 second_title: Aspose.Words对于C++
 articleTitle: 使用文档编程
@@ -7,6 +7,7 @@ type: docs
 description: "使用Aspose.Words文档对象模型类以编程方式使用C++创建、修改和管理文档。 通过对颜色、形状、字体和其他图形的管理，处理文档属性、设置和内容以及文档外观。"
 weight: 50
 url: /zh/cpp/programming-with-documents/
+timestamp: 2024-09-25-11-08-55
 ---
 
 本节提供有关如何使用Aspose.Words文档对象模型类以编程方式创建、修改和管理文档的信息。 本节中的文章介绍了各种文档操作任务，使您能够使用文档属性、设置、内容及其元素。

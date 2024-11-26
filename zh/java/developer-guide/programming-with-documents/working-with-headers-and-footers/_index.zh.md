@@ -7,6 +7,7 @@ description: "如何使用页眉和页脚 Java。 。 。 。"
 type: docs
 weight: 150
 url: /zh/java/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 允许用户在文档中与页眉和页脚一起工作。 一个页眉是放在页面顶部的文本,一个页脚是放在页面底部的文本. 这些领域通常用于插入文件所有或部分页上应重复的信息,如页码、创建日期、公司信息等。

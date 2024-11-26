@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içinde Filigranla çalışma
 second_title: Aspose.Words için C++
 articleTitle: Filigran ile çalışma
@@ -7,6 +7,7 @@ type: docs
 description: "C++ kullanarak filigran manipülasyonunu belgeleyin."
 weight: 340
 url: /tr/cpp/working-with-watermark/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Bu konuda Aspose.Words kullanarak filigranla programlı olarak nasıl çalışılacağı anlatılmaktadır. Filigran, belgedeki metnin arkasında görüntülenen bir arka plan görüntüsüdür. Filigran, [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/) sınıfı tarafından temsil edilen bir metin veya resim içerebilir.

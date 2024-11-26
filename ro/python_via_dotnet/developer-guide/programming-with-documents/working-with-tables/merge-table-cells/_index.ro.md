@@ -1,4 +1,4 @@
-﻿---
+---
 title: Îmbinați Celulele Tabelului
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Îmbinați Celulele Tabelului
@@ -7,6 +7,7 @@ description: "Cum să îmbinați celulele tabelului în Python. Verificați dac�
 type: docs
 weight: 40
 url: /ro/python-net/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uneori, anumite rânduri dintr-un tabel necesită un titlu sau blocuri mari de text care ocupă întreaga lățime a tabelului. Pentru proiectarea corectă a tabelului, utilizatorul poate îmbina mai multe celule de tabel într-una. Aspose.Words acceptă celule îmbinate atunci când lucrați cu toate formatele de intrare, inclusiv importul de conținut HTML.

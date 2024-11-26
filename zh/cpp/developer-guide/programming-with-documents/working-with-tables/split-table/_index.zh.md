@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++中的拆分表
 second_title: Aspose.Words对于C++
 articleTitle: 拆分表
@@ -7,6 +7,7 @@ description: "C++中的拆分表。 如何将一个表拆分为两个单独的�
 type: docs
 weight: 100
 url: /zh/cpp/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 在Aspose.Words文档对象模型中表示的表格由独立的行和单元格组成，因此可以轻松拆分表格。

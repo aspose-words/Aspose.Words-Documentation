@@ -1,157 +1,158 @@
----
-title: セクションで作業 Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: セクションと連携
-linktitle: セクションと連携
-description: "ドキュメントセクションの概念と操作の実践を理解する Javaお問い合わせ ドキュメントへのインサートセクション Javaお問い合わせ セクションを削除 Javaお問い合わせ ドキュメント間でセクションをコピーします。"
+﻿---
+title: Javaのセクションの操作
+second_title: Aspose.WordsのためのJava
+articleTitle: セクションの操作
+linktitle: セクションの操作
+description: "Javaを使用したドキュメントセクションの概念と操作の実践を理解する。 セクションを文書Javaに挿入します。 セクションJavaを削除します。 ドキュメント間のセクションをコピーします。"
 type: docs
 weight: 120
 url: /ja/java/working-with-sections/
+timestamp: 2024-01-31-14-23-37
 ---
 
-時々、すべてのページで同じ書式を持たないドキュメントが欲しい。 たとえば、ページ番号のフォーマットを変更したり、異なるページサイズやオリエンテーションをしたり、任意の番号付けなしでカバーページとして最初のドキュメントページを持っている必要があります。 セクションで実現できます。
+場合によっては、すべてのページで同じ書式設定を持たないドキュメントが必要になることがあります。 たとえば、ページ番号の書式を変更したり、ページサイズと向きを変えたり、最初の文書ページを番号なしの表紙として使用したりする必要がある場合があ あなたはセクションでそれを達成することができます。
 
-セクションは、ヘッダとフッター、オリエンテーション、列、マージン、ページ番号のフォーマットなどを制御するレベルノードです。
+セクションは、ヘッダーとフッター、方向、列、余白、ページ番号の書式設定などを制御するレベルノードです。
 
-Aspose.Words セクションを管理し、文書をセクションに分割し、特定のセクションにのみ適用される変更をフォーマットすることができます。 Aspose.Words セクション内のヘッダやフッター、ページ設定、カラムの設定などのセクションフォーマットに関する情報を格納します。
+Aspose.Wordsセクションを管理したり、ドキュメントをセクションに分割したり、特定のセクションにのみ適用される書式設定を変更したりできます。 Aspose.Wordsは、ヘッダーとフッター、ページ設定、列設定などのセクションの書式設定に関する情報をセクション区切りに格納します。
 
-この記事では、セクションとセクションの分割で動作する方法について説明します。
+この記事では、セクションとセクションブレークを操作する方法について説明します。
 
-## セクションとセクションブレイクが何であるか
+## セクションとセクションブレークとは何ですか
 
-ドキュメントセクションは、 [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) そして、 [SectionCollection](https://reference.aspose.com/words/java/com.aspose.words/sectioncollection/) クラス。 セクションオブジェクトはすぐに子供の子供です [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) ノードを経由してアクセスできる [Sections](https://reference.aspose.com/words/java/com.aspose.words/document/#getSections) プロパティ. これらのノードは、以下のようなメソッドを使用して管理できます。 [Remove](https://reference.aspose.com/words/java/com.aspose.words/nodecollection/#remove-com.aspose.words.Node), [Add](https://reference.aspose.com/words/java/com.aspose.words/nodecollection/#add-com.aspose.words.Node), [IndexOf](https://reference.aspose.com/words/java/com.aspose.words/nodecollection/#indexOf-com.aspose.words.Node), その他。
+ドキュメントセクションは[Section](https://reference.aspose.com/words/java/com.aspose.words/section/)クラスと[SectionCollection](https://reference.aspose.com/words/java/com.aspose.words/sectioncollection/)クラスで表されます。 セクションオブジェクトは[Document](https://reference.aspose.com/words/java/com.aspose.words/document/)ノードの直接の子であり、[Sections](https://reference.aspose.com/words/java/com.aspose.words/document/#getSections)プロパティを介してアクセスできます。 これらのノードは、次のようないくつかの方法を使用して管理できます[Remove](https://reference.aspose.com/words/java/com.aspose.words/nodecollection/#remove-com.aspose.words.Node), [Add](https://reference.aspose.com/words/java/com.aspose.words/nodecollection/#add-com.aspose.words.Node), [IndexOf](https://reference.aspose.com/words/java/com.aspose.words/nodecollection/#indexOf-com.aspose.words.Node), と他の人。
 
-セクションブレイクは、ドキュメントページをカスタマイズ可能なレイアウトでセクションに分割するオプションです。
+セクション区切りは、ドキュメントページをカスタマイズ可能なレイアウトのセクションに分割するオプションです。
 
-## セクションブレイクの種類
+## セクションブレークの種類
 
-Aspose.Words 異なるセクションブレイクを使用して文書を分割し、フォーマットすることができます [BreakType](https://reference.aspose.com/words/java/com.aspose.words/breaktype/) 列挙:
+Aspose.Wordsでは、[BreakType](https://reference.aspose.com/words/java/com.aspose.words/breaktype/)列挙体の異なるセクション区切りを使用してドキュメントを分割および書式設定できます:
 
-- セクションブレイク連続
-- セクションブレイクニューコロン
-- セクションブレイク新規ページ
-- セクションブレイクEvenPage
-- セクションBreakOddPage
+- SectionBreakContinuous
+- SectionBreakNewColumn
+- SectionBreakNewPage
+- SectionBreakEvenPage
+- SectionBreakOddPage
 
-また、 [SectionStart](https://reference.aspose.com/words/java/com.aspose.words/sectionstart/) NewColumn、NewPage、 EvenPage、OddPageなどの最初のセクションでのみ適用されるブレイクタイプを選択するための列挙。
+また、[SectionStart](https://reference.aspose.com/words/java/com.aspose.words/sectionstart/)列挙体を使用して、次のような最初のセクションにのみ適用されるブレークタイプを選択することもできますNewColumn, NewPage, EvenPage, とOddPage。
 
-## セクションを管理する
+## セクションの管理
 
-セクションは通常のコンポジットノードなので、全ノード操作 API セクションに追加、削除、およびセクションのその他の操作を操作するために使用できる。 記事内のノードについてもっと読むことができます [Aspose.Words Document Object Model (DOM)](/words/ja/java/aspose-words-document-object-model/)お問い合わせ
+セクションは通常の複合ノードであるため、ノード操作API全体を使用してセクションを操作することができます：セクションの追加、削除、およびその他の 記事でノードの詳細を読むことができます [Aspose.Wordsドキュメントオブジェクトモデル(DOM)](/words/java/aspose-words-document-object-model/).
 
-一方、また、 `DocumentBuilder` API セクションで作業する。 この記事では、セクションを扱うこの特定の方法に焦点を当てます。
+一方、`DocumentBuilder`APIを使用してセクションを操作することもできます。 この記事では、セクションを操作するこの特定の方法に焦点を当てます。
 
-## セクションブレイクをインサートまたは削除する
+## セクション区切りを挿入または削除する
 
-Aspose.Words セクションをテキストに切り込みます。 [InsertBreak](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertBreak-int) メソッド。
+Aspose.Wordsは、[InsertBreak](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertBreak-int)メソッドを使用してテキストにセクション区切りを挿入できます。
 
-次のコードの例では、セクションをドキュメントに分割する方法を示します。
+次のコード例は、セクション区切りをドキュメントに挿入する方法を示しています:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "insert-section-breaks.java" >}}
 
-利用する [Remove](https://reference.aspose.com/words/java/com.aspose.words/node/#remove) セクションブレイクを削除する方法。 特定のセクションを削除し、そのセクションのコンテンツを削除する必要がある場合は、 [ClearContent](https://reference.aspose.com/words/java/com.aspose.words/section/#clearContent) メソッド。
+セクション区切りを削除するには、[Remove](https://reference.aspose.com/words/java/com.aspose.words/node/#remove)メソッドを使用します。 特定のセクション区切りを削除する必要がなく、代わりにそのセクションのコンテンツを削除する場合は、[ClearContent](https://reference.aspose.com/words/java/com.aspose.words/section/#clearContent)メソッドを使用できます。
 
-次のコードの例では、セクションを破棄する方法を示します。
+次のコード例は、セクションの区切りを削除する方法を示しています:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "remove-section-breaks.java" >}}
 
 {{% alert color="primary" %}}
 
-セクションブレイクは、その前に行くセクションに関する情報を持っていることに注意してください, その後に行くセクションではありません. セクションを破棄すると、削除されたブレイク前のテキストは、セクションのプロパティがそれに従って破棄されます。 これにより、文書全体が風景になるか、ヘッダやフッターが変更または完全に消える可能性があります。
+セクション区切りには、その前にあるセクションに関する情報が含まれ、後にあるセクションに関する情報は含まれないことに注意してください。 したがって、セクション区切りを削除すると、削除された区切りの前のテキストは、それに続くセクション区切りのプロパティを取得します。 これにより、ドキュメント全体が横長になったり、ヘッダーとフッターが変更されたり、完全に消えたりする可能性があります。
 
 {{% /alert %}}
 
 ## セクションを移動する
 
-セクションを 1 つのポジションから別のドキュメントに移動したい場合は、そのセクションのインデックスを取得する必要があります。 Aspose.Words セクションの位置をから得ることを可能にします [SectionCollection](https://reference.aspose.com/words/java/com.aspose.words/sectioncollection/)お問い合わせ 使うことができます。 [Sections](https://reference.aspose.com/words/java/com.aspose.words/document/#getSections) ドキュメントのすべてのセクションを取得できます。 しかし、最初のセクションだけを取得したい場合は、 [FirstSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getFirstSection) プロパティ.
+ドキュメント内のある位置から別の位置にセクションを移動する場合は、そのセクションのインデックスを取得する必要があります。 Aspose.Wordsは[SectionCollection](https://reference.aspose.com/words/java/com.aspose.words/sectioncollection/)からセクションの位置を取得できます。 ドキュメント内のすべてのセクションを取得するには、[Sections](https://reference.aspose.com/words/java/com.aspose.words/document/#getSections)プロパティを使用できます。 ただし、最初のセクションのみを取得する場合は、[FirstSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getFirstSection)プロパティを使用できます。
 
-次のコードの例では、コンポジットノードの子供から最初のセクションにアクセスし、反復する方法を示します。
+次のコード例は、最初のセクションにアクセスし、複合ノードの子を反復処理する方法を示しています:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "section-child-nodes.java" >}}
 
-## セクションレイアウトを指定する
+## セクションレイアウトの指定
 
-時々、異なる文書セクションのクリエイティブなレイアウトを作ることによって、ドキュメントがより良く見えるようにしたいです。 現在のセクショングリッドの型を指定する場合は、セクションレイアウトモードを選択できます。 [SectionLayoutMode](https://reference.aspose.com/words/java/com.aspose.words/sectionlayoutmode/) 列挙:
+ドキュメントセクションごとにクリエイティブなレイアウトを作成して、ドキュメントの見栄えを良くしたい場合があります。 現在のセクショングリッドのタイプを指定する場合は、[SectionLayoutMode](https://reference.aspose.com/words/java/com.aspose.words/sectionlayoutmode/)列挙体を使用してセクションレイアウトモードを選択できます:
 
 - デフォルト
 - グリッド
-- ライングリッド
-- ・SnapToChars
+- LineGrid
+- SnapToChars
 
-次のコードの例では、各ページの行数を制限する方法を示します。
+次のコード例は、各ページが持つ可能性のある行数を制限する方法を示しています:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "line-grid-section-layout-mode.java" >}}
 
-## セクションの編集
+## セクションを編集する
 
-ドキュメントに新しいセクションを追加すると、編集できる身体または段落はありません。 Aspose.Words セクションには、少なくとも1つの段落で体が含まれていることを保証することができます [EnsureMinimum](https://reference.aspose.com/words/java/com.aspose.words/section/#ensureMinimum) メソッド – ドキュメントに Body (または HeaderFooter) ノードを自動的に追加し、パラグラフを追加します。
+ドキュメントに新しいセクションを追加すると、編集できる本文や段落はありません。 Aspose.Wordsは、[EnsureMinimum](https://reference.aspose.com/words/java/com.aspose.words/section/#ensureMinimum)メソッドを使用して、セクションに少なくとも一つの段落を持つ本文が含まれていることを保証することができます–本文（またはHeaderFooter）ノードを文書に自動的に追加し、それに段落を追加します。
 
-次のコードの例では、新しいセクションノードを準備する方法を示します。 **EnsureMinimum**:::
+次のコード例は、**EnsureMinimum**を使用して新しいセクションノードを準備する方法を示しています:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "ensure-minimum.java" >}}
 
-### コンテンツを追加または送信
+### コンテンツの追加または先頭への追加
 
-いくつかの形状を描画したり、セクションの先頭/末にテキストやイメージを追加したい場合は、 [AppendContent](https://reference.aspose.com/words/java/com.aspose.words/section/#appendContent-com.aspose.words.Section) そして、 [PrependContent](https://reference.aspose.com/words/java/com.aspose.words/section/#prependContent-com.aspose.words.Section) メソッド [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) クラス。
+図形を描画したり、セクションの先頭/末尾にテキストや画像を追加したりする場合は、[Section](https://reference.aspose.com/words/java/com.aspose.words/section/)クラスの[AppendContent](https://reference.aspose.com/words/java/com.aspose.words/section/#appendContent-com.aspose.words.Section)メソッドと[PrependContent](https://reference.aspose.com/words/java/com.aspose.words/section/#prependContent-com.aspose.words.Section)メソッドを使用できます。
 
-次のコードの例では、既存のセクションのコンテンツを追加する方法を示します。
+次のコード例は、既存のセクションのコンテンツを追加する方法を示しています:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "append-section-content.java" >}}
 
-### セクションのクローン
+### セクションのクローンを作成する
 
-Aspose.Words セクションを完全にコピーすることで、セクションを複製することができます。 [deepClone](https://reference.aspose.com/words/java/com.aspose.words/section/#deepClone) メソッド。
+Aspose.Wordsを使用すると、[deepClone](https://reference.aspose.com/words/java/com.aspose.words/section/#deepClone)メソッドを使用してセクションの完全なコピーを作成することにより、セクションを複製できます。
 
-次のコードの例では、ドキュメントの最初のセクションをクローンする方法を示します。
+次のコード例は、ドキュメントの最初のセクションを複製する方法を示しています:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "clone-section.java" >}}
 
-### 文書間のコピーセクション
+### ドキュメント間のセクションのコピー
 
-場合によっては、複数のセクションで大きな文書をコピーして、セクションの内容を1つの文書から別の文書にコピーしたい場合があります。
+場合によっては、多数のセクションを含む大きなドキュメントがあり、セクションの内容をあるドキュメントから別のドキュメントにコピーする
 
-Aspose.Words ドキュメント間でセクションをコピーすることができます。 [ImportNode](https://reference.aspose.com/words/java/com.aspose.words/documentbase/#importNode-com.aspose.words.Node-boolean) メソッド。
+Aspose.Wordsは、[ImportNode](https://reference.aspose.com/words/java/com.aspose.words/documentbase/#importNode-com.aspose.words.Node-boolean)メソッドを使用してドキュメント間のセクションをコピーできます。
 
-次のコードの例では、文書間でセクションをコピーする方法を示します。
+次のコード例は、ドキュメント間のセクションをコピーする方法を示しています:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "copy-section.java" >}}
 
-### セクションヘッダとフッターで作業
+### セクションヘッダーとフッターの操作
 
-各セクションのヘッダーまたはフッターを表示するための基本的なルールはかなり簡単です。
+各セクションのヘッダーまたはフッターを表示するための基本的なルールは非常に簡単です:
 
-1。 セクションが特定のタイプの独自のヘッダ/フッターを持たない場合は、前のセクションから取得します。
-2。 ページに表示されているヘッダ/フッターの型は、"Different First Page" と "Different Odd & Even Page" セクションの設定で制御されます。 無効な場合は、セクション自身のタイトルは無視されます。
+1. セクションに特定のタイプの独自のヘッダー/フッターがない場合は、前のセクションから取得されます。
+2. ページに表示されるヘッダー/フッターのタイプは、"異なる最初のページ"および"異なる奇数ページと偶数ページ"セクション設定によって制御されます。
 
-次のコードの例では、異なるヘッダで2つのセクションを作成する方法を示します。
+次のコード例は、異なるヘッダーを持つ2つのセクションを作成する方法を示しています:
 
 {{< gist "aspose-words-gists" "58431f54e34e5597f8cbaf97481d5321" "link-to-previous-header-footer.java" >}}
 
-ヘッダーとフッターのテキストを外すことなく削除したい場合 [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/) ドキュメント内のオブジェクトは、 [ClearHeadersFooters](https://reference.aspose.com/words/java/com.aspose.words/section/#clearHeadersFooters) メソッド。 また、ご利用いただくことも可能です。 [DeleteHeaderFooterShapes](https://reference.aspose.com/words/java/com.aspose.words/section/#deleteHeaderFooterShapes) ドキュメント内のヘッダやフッターから全ての形状を削除するためのメソッドです。
+ドキュメント内の[HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/)オブジェクトを削除せずにヘッダーとフッターのテキストを削除する場合は、[ClearHeadersFooters](https://reference.aspose.com/words/java/com.aspose.words/section/#clearHeadersFooters)メソッドを使用できます。 さらに、[DeleteHeaderFooterShapes](https://reference.aspose.com/words/java/com.aspose.words/section/#deleteHeaderFooterShapes)メソッドを使用して、ドキュメント内のヘッダーとフッターからすべての図形を削除できます。
 
-次のコードの例では、すべてのヘッダーとフッターの内容をセクションでクリアする方法を示します。
+次のコード例は、セクション内のすべてのヘッダーとフッターのコンテンツをクリアする方法を示しています:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "delete-header-footer-content.java" >}}
 
-次のコードの例では、すべてのヘッダのフッターからすべてのシェイプをセクションで削除する方法を示します。
+セクション内のすべてのヘッダーフッターからすべての図形を削除する方法を次のコード例に示します:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "delete-header-footer-shapes.java" >}}
 
 ## セクション内のページプロパティをカスタマイズする
 
-ページまたは文書を印刷する前に、単一のページまたは文書全体のサイズとレイアウトをカスタマイズして変更する場合があります。 ページ設定では、マージン、オリエンテーション、サイズなどのドキュメントページの設定を変更して、異なる最初のページやオッズページを印刷することができます。
+ページまたは文書を印刷する前に、単一ページまたは文書全体のサイズとレイアウトをカスタマイズおよび変更することができます。 ページ設定を使用すると、異なる最初のページまたは奇数ページを印刷するための余白、向き、サイズなどのドキュメントページの設定を変更できます。
 
-Aspose.Words ページとセクションのプロパティをカスタマイズできます。 [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/) クラス。
+Aspose.Wordsは[PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/)クラスを使用してページおよびセクションプロパティをカスタマイズできます。
 
-次のコードの例では、現在のセクションのページサイズとオリエンテーションなどのプロパティを設定する方法を示します。
+次のコード例は、現在のセクションのページサイズや向きなどのプロパティを設定する方法を示しています:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "page-setup-and-section-formatting.java" >}}
 
-次のコードの例では、すべてのセクションでページプロパティを変更する方法を示します。
+次のコード例は、すべてのセクションのページプロパティを変更する方法を示しています:
 
 {{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "modify-page-setup-in-all-sections.java" >}}
 
-## お問い合わせ
+## また見て下さい
 
-- [ドキュメント内のノードの論理レベル](/words/ja/java/logical-levels-of-nodes-in-a-document/)
-- [文書のインサートと添付](/words/ja/java/insert-and-append-documents/)
+- [ドキュメント内のノードの論理レベル](/words/java/logical-levels-of-nodes-in-a-document/)
+- [文書の挿入と追加](/words/java/insert-and-append-documents/)

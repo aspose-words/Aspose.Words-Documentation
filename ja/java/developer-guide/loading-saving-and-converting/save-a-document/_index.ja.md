@@ -1,44 +1,45 @@
----
-title: ドキュメントを保存 Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: ドキュメントを保存
-linktitle: ドキュメントを保存
+﻿---
+title: Javaに文書を保存する
+second_title: Aspose.WordsのためのJava
+articleTitle: 文書を保存する
+linktitle: 文書を保存する
 type: docs
-description: "サポートされているフォーマットでドキュメントを保存 Javaお問い合わせ"
+description: "Javaを使用して、サポートされている任意の形式で文書を保存します。"
 weight: 20
 url: /ja/java/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
-あなたが実行する必要があるタスクのほとんど Aspose.Words 文書の保存を含みます。 文書を保存するために Aspose.Words 提供して下さい [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save(java.lang.String))方法の [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) クラス。 ドキュメントは、サポートされている保存形式に保存できます。 Aspose.Wordsお問い合わせ サポートされているすべての保存形式のリストについては、 [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) パンフレット
+Aspose.Wordsで実行する必要があるタスクのほとんどには、文書の保存が含まれます。 ドキュメントAspose.Wordsを保存するには、[Document](https://reference.aspose.com/words/java/com.aspose.words/document/)クラスの[Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save(java.lang.String))メソッドを提供します。 文書はAspose.Wordsでサポートされている任意の保存形式で保存できます。 サポートされているすべての保存形式の一覧については、[SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)列挙を参照してください。
 
-## ファイルに保存 {#save-a-document-to-a-file}
+## ファイル {#save-a-document-to-a-file}に保存する
 
-単に使う [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String) ファイル名のメソッド。 Aspose.Words 指定したファイル拡張子から保存形式を決定します。
+ファイル名を指定して[Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String)メソッドを使用するだけです。 Aspose.Wordsは、指定したファイル拡張子から保存形式を決定します。
 
-次のコードの例では、ドキュメントをファイルにロードして保存する方法を示します。
+次のコード例は、ドキュメントを読み込んでファイルに保存する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadAndSave-LoadAndSave.java" >}}
 
 {{% alert color="primary" %}}
 
-この例のテンプレートファイルをダウンロードできます。 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc)お問い合わせ
+この例のテンプレートファイルは、次の場所からダウンロードできます [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
 
 {{% /alert %}}
 
-## ストリームに保存 {#save-a-document-to-a-stream}
+## ストリーム {#save-a-document-to-a-stream}に保存する
 
-ストリームオブジェクトを [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-com.aspose.words.SaveOptions) メソッド。 ストリームへの保存時に明示的に保存形式を指定する必要があります。
+Streamオブジェクトを[Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-com.aspose.words.SaveOptions)メソッドに渡します。 ストリームに保存するときは、保存形式を明示的に指定する必要があります。
 
-次のコードの例では、ドキュメントをストリームにロードして保存する方法を示します。
+ドキュメントを読み込んでストリームに保存する方法を次のコード例に示します:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadAndSaveToStream-LoadAndSaveToStream.java" >}}
 
-この例のテンプレートファイルをダウンロードできます。 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc)お問い合わせ
+この例のテンプレートファイルは、次の場所からダウンロードできます [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
 
-## PCLに保存 {#save-a-document-to-pcl}
+## PCL {#save-a-document-to-pcl}に保存
 
-Aspose.Words ドキュメントをPCL(Printer Command Language)に保存します。 Aspose.Words 文書をPCL 6(PCL 6強化またはPCL XL)形式に保存することができます。 ザ・オブ・ザ・ `PclSaveOptions` ドキュメントをPCL形式に保存するときに追加のオプションを指定するためにクラスを使用できます。
+Aspose.Wordsは、PCL(プリンタコマンド言語)への文書の保存をサポートします。 Aspose.Wordsは、文書をPCL6(PCL6EnhancedまたはPCLXL)形式で保存できます。 `PclSaveOptions`クラスは、ドキュメントをPCL形式で保存するときに追加のオプションを指定するために使用できます。
 
-次のコードの例では、保存オプションを使用してPCLにドキュメントを保存する方法を示します。
+次のコード例は、保存オプションを使用して文書をPCLに保存する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToPCL-ConvertDocumentToPCL.java" >}}

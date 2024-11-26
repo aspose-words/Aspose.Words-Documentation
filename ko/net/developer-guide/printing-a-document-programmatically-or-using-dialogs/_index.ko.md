@@ -7,6 +7,7 @@ description: "관리되지 않는 XpsPrint API를 사용하거나 C#의 설정 �
 type: docs
 weight: 55
 url: /ko/net/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-31-14-23-37
 ---
 
 이 문서에서는 Aspose.Words 및 `XpsPrint` API을 사용하여 ASP.NET 또는 Windows 서비스 애플리케이션에서 워드 프로세싱 문서를 인쇄하는 방법을 설명합니다. 또한 설정, 인쇄 미리 보기 및 인쇄 진행률 대화 상자를 사용하여 문서를 인쇄하는 방법을 보여 주고 문서 인쇄를 위한 첫 번째 호출 시간을 줄이는 방법을 설명합니다.

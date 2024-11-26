@@ -7,6 +7,7 @@ description: "How to install the Aspose.Words for Reporting Services."
 type: docs
 weight: 70
 url: /reportingservices/install-aspose-words-for-reporting-services/
+timestamp: 2024-01-27-14-07-04
 ---
 
 This section includes the following topics:

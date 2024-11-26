@@ -1,4 +1,4 @@
-﻿---
+---
 title: تخصيص خصائص الحقل في C++
 second_title: Aspose.Words ل C++
 articleTitle: تخصيص خصائص الحقل
@@ -7,6 +7,7 @@ description: "تعرف على كيفية تخصيص خصائص الحقل في C
 type: docs
 weight: 27
 url: /ar/cpp/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words يوفر القدرة على التفاعل برمجيا مع خصائص المجال المختلفة. في هذه المقالة، سنلقي نظرة على مثالين حتى تفهم المبدأ الأساسي للعمل مع خصائص المجال. يمكنك رؤية القائمة الكاملة للخصائص لكل نوع حقل في الفئة المقابلة في [Fields namespace](https://reference.aspose.com/words/cpp/namespace/aspose.words.fields).

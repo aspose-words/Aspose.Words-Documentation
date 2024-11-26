@@ -1,58 +1,59 @@
----
-title: フィールドの紹介 Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: フィールド紹介
-linktitle: フィールド紹介
-description: "フィールドは、詳細、フィールドコード、フィールド結果で説明しています。 Aspose.Words お問い合わせ Javaお問い合わせ"
+﻿---
+title: Javaのフィールドの紹介
+second_title: Aspose.WordsのためのJava
+articleTitle: フィールドの紹介
+linktitle: フィールドの紹介
+description: "フィールドは、JavaのAspose.Wordsで説明されている詳細、フィールドコード、フィールド結果の機能です。"
 type: docs
 weight: 10
 url: /ja/java/introduction-to-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
-Aspose.Words サーバ側処理用に設計されたクラスライブラリです。 Microsoft Word 次の方法でフィールドをサポート:
+Aspose.Wordsは、Microsoft Wordドキュメントのサーバー側処理用に設計されたクラスライブラリで、次の方法でフィールドをサポートします:
 
-- 文書内のすべてのフィールドは、オープン/セーブと変換中に保存されます
-- ほとんどのフィールドの結果を更新することが可能
+- ドキュメント内のすべてのフィールドは、開く/保存および変換中に保持されます
+- ほとんどのフィールドの結果を更新することが可能です
 
-この記事では、フィールド構造、フィールドのサポートについて詳しく説明します。 Aspose.Words, そのような分野との仕事の細部。
+この記事では、フィールド構造、Aspose.Wordsでサポートされているフィールド、およびそのようなフィールドの操作の詳細について説明します。
 
 ## フィールド構造
 
-フィールドは:
+フィールドは次のもので構成されます:
 
-- - - フィールド・スタートとセパレータ・ノードは、フィールド・コードを構成するコンテンツ (通常はプレーン・テキストとして) を囲むために使用されます。
-- フィールドセパレータとフィールドエンドはフィールド結果を渡します。 テキストの実行から段落まで、さまざまな種類のコンテンツで構成されます。
-- 一部のフィールドにはセパレータがないため、コンテンツ全体がフィールドコードを構成することを意味します。
-- - - フィールドコードはフィールドの挙動を定義し、フィールド識別子とフィールド名やスイッチなどの他のパラメーターで構成されます。
-- - - フィールド結果は、フィールドの最新の評価が含まれています。 フィールド結果にこの値が保存され、ユーザーに表示される値です。 フィールドにフィールドの結果がないため、ドキュメントに何も表示されません。 同様に、一部のフィールドはまだ更新されていないため、フィールド結果はありません。
+- Field startノードとseparatorノードは、フィールドコードを構成するコンテンツを包含するために使用されます(通常はプレーンテキストとして)。
+- フィールドの区切り文字とフィールドの終わりには、フィールドの結果が含まれます。 これは、テキストの実行から段落、表に至るまで、さまざまな種類のコンテンツで構成できます。
+- 一部のフィールドには、コンテンツ全体がフィールドコードを構成することを意味する区切り文字がない場合があります。
+- フィールドコードは、フィールドの動作を定義し、フィールド識別子と、多くの場合、フィールド名やスイッチなどの他のパラメータで構成されます。
+- フィールドの結果には、フィールドの最新の評価が含まれます。 この値はフィールドresultに格納され、ユーザーに表示されます。 一部のフィールドにはフィールド結果がない可能性があるため、ドキュメントには何も表示されません。 同様に、一部のフィールドはまだ更新されていない可能性があるため、フィールドの結果もありません。
 
 ![fields-aspose-words-java](/words/java/introduction-to-fields/introduction-to-fields-1.png)
 
-フィールドコードを構成するコンテンツはそのまま保存されます。 [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) ノード間のノード [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/) そして、 [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/)お問い合わせ フィールド結果が保存されます **FieldSeparator** そして、 [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/) ノードは様々な種類のコンテンツから構成できます。 通常フィールドの結果は、ランノードから構成されるテキストのみを含んでいますが、フィールドエンドノードが完全に異なる段落にあることは可能です。そのため、フィールド結果が構成されるようにします。 [ドキュメント内のノードの論理レベル](/words/ja/java/logical-levels-of-nodes-in-a-document/) など **Table** そして、 **Paragraph** ノードも同様に。
+フィールドコードを構成するコンテンツは、[FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/)と[FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/)の間の[Run](https://reference.aspose.com/words/java/com.aspose.words/run/)ノードとして格納されます。 フィールドの結果は**FieldSeparator**ノードと[FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/)ノードの間に格納され、さまざまな種類のコンテンツで構成できます。 通常、フィールド結果には実行ノードで構成されるテキストのみが含まれますが、FieldEndノードを完全に別の段落に配置することができ、フィールド結果を次のもので構成することができます [ブロックレベルノード](/words/java/logical-levels-of-nodes-in-a-document/) **Table**や**Paragraph**ノードなども同様です。
 
-フィールドが保存されているかのビューはこちら Aspose.Words 「*DocumentExplorer」* で見つけることができます。 [ギトハブ](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/java/com/aspose/words/examples/viewers_visualizers/document_explorer)お問い合わせ
+ここでは、フィールドがAspose.Wordsにどのように格納されているかを示す"*DocumentExplorer"*の例を使用しています。 [Github](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/java/com/aspose/words/examples/viewers_visualizers/document_explorer).
 
 ![document-explorer-aspose-words-java](/words/java/introduction-to-fields/introduction-to-fields-2.png)
 
-## フィールド Aspose.Words Document Object Model ( )DOM)
+## Aspose.Wordsドキュメントオブジェクトモデル(DOM)のフィールド
 
-ドキュメントが読み込まれるとき <span notrans="<span notrans=" Aspose.Words"=""></span>????? ドキュメントのフィールドが読み込まれる Aspose.Words Document Object Model 別のコンポーネント(ノード)のセットとして。 単一のフィールドはコレクションとして読み込まれます **FieldStart**, **FieldSeparator** そして、 **FieldEnd** ノードは、これらのノード間でのコンテンツとともに表示されます。 フィールドがフィールド結果を持っていない場合、フィールドがフィールド結果を持っていない場合、 **FieldSeparator** ノード。 これらのすべてのノードは、常にインライン(子供として) [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) または [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/)お問い合わせ
+ドキュメントがAspose.Wordsにロードされると、ドキュメントのフィールドはAspose.Wordsドキュメントオブジェクトモデルに個別のコンポーネント(ノード)のセットとしてロード 単一のフィールドは、これらのノード間のコンテンツとともに、**FieldStart**、**FieldSeparator**、および**FieldEnd**ノードのコレクションとしてロードされます。 フィールドにフィールド結果がない場合、**FieldSeparator**ノードは存在しません。 これらのノードはすべて、常にインラインで（[Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/)または[SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/)の子として）検出されます。
 
-インスタグラム Aspose.Words それぞれの **FieldXXX** ノードの由来 [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/)お問い合わせ このクラスは、指定されたノードで表すフィールドの型をチェックするプロパティを提供します。 [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) プロパティ. 例えば `FieldType.FieldMergeField` ドキュメントのマージフィールドを表します。
+Aspose.Wordsでは、**FieldXXX**ノードのそれぞれが[FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/)から派生します。 このクラスは、[FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/)プロパティを使用して、指定されたノードによって表されるフィールドの型をチェックするプロパティを提供します。 たとえば、`FieldType.FieldMergeField`は文書内の差し込み項目を表します。
 
 {{% alert color="primary" %}}
 
-にインポートされていないWord文書に存在する特定のフィールドがあります Aspose.Words コレクションとして **FieldXXX** ノード。 例えば、 `LINK` フィールドとフィールド `INCLUDEPICTURE` 分野はに輸入されます Aspose.Words として [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) オブジェクト。 このオブジェクトは、これらのフィールドに通常保存されている画像データを扱うプロパティを提供します。 インポートする `INCLUDEPICTURE` フィールドとして **FieldXXX** ノード [PreserveIncludePictureField](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getPreserveIncludePictureField) オプションは、 **true**お問い合わせ
+Word文書には、Aspose.Wordsに**FieldXXX**ノードのコレクションとしてインポートされない特定のフィールドがいくつかあります。 たとえば、`LINK`フィールドと`INCLUDEPICTURE`フィールドは[Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/)オブジェクトとしてAspose.Wordsにインポートされます。 このオブジェクトは、通常これらのフィールドに格納されているイメージデータを操作するためのプロパティを提供します。 `INCLUDEPICTURE`フィールドを**FieldXXX**ノードとしてインポートするには、[PreserveIncludePictureField](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getPreserveIncludePictureField)オプションを**true**として指定する必要があります。
 
-フォームフィールドもインポート Aspose.Words 特別なクラスとして。 ザ・オブ・ザ・ [FormField](https://reference.aspose.com/words/java/com.aspose.words/formfield/) クラスは、Word 文書のフォームフィールドを表し、フォームフィールドに特定の追加のメソッドを提供します。
+フォームフィールドも、独自の特別なクラスとしてAspose.Wordsにインポートされます。 [FormField](https://reference.aspose.com/words/java/com.aspose.words/formfield/)クラスは、Word文書内のフォームフィールドを表し、フォームフィールドに固有の追加メソッドを提供します。
 
 {{% /alert %}}
 
 ## サポートされているフィールド
 
-次のフィールドの計算は、現在のバージョンでサポートされています Aspose.Words:::
+現在のバージョンのAspose.Wordsでは、次のフィールドの計算がサポートされています:
 
-- = (形式)
+- ＝（式）
 - `ADDRESSBLOCK`
 - `ASK`
 - `AUTHOR`
@@ -122,41 +123,41 @@ Aspose.Words サーバ側処理用に設計されたクラスライブラリで�
 - `TIME`
 - `TITLE`
 - `TOA`
-- - - `TOC` (TOT・TOFを含む)
+- `TOC` (including TOT and TOF)
 - `USERADDRESS`
 - `USERINITIALS`
 - `USERNAME`
 
-## 洗練されたフィールドパーシング
+## 洗練されたフィールド解析
 
-Aspose.Words 方法に従う Microsoft Word フィールドを処理し、その結果、正しく処理します。
+Aspose.WordsはMicrosoft Wordがフィールドを処理する方法に従い、結果として正しく処理されます:
 
 - ネストされたフィールド:
-  `IF { =OR({ `COMパーカー` { =2.5 +PRODUCT(3,5 ,8.4) } > 4}, { =2/2 }) } = 1 "Credit not acceptable" "Credit acceptable"`
-- フィールド引数は、ネストされたフィールドの result になります。
-- フィールドはフィールドコード内で、フィールド結果にネストできます
-- スペース/スペース、引用符/引用符なし、フィールド内のエスケープ文字など:
+  `IF { =OR({ `COMPARE` { =2.5 +PRODUCT(3,5 ,8.4) } > 4}, { =2/2 }) } = 1 "Credit not acceptable" "Credit acceptable"`
+- field引数は、ネストされたフィールドの結果にすることができます
+- フィールドは、フィールドコード内だけでなく、フィールド結果内にネストすることができます
+- スペース/スペースなし、引用符/引用符なし、フィールド内のエスケープ文字など:
   `MERGEFIELD \f"Text after""Field \n\ame with \" and \\\ and \\\*"\bTextBefor\e`
-- 複数の段落に及ぶフィールド
+- 複数の段落にまたがるフィールド
 
-### フォーミュラフィールド
+### 数式項目
 
-Aspose.Words 式エンジンの非常に深刻な実装を提供し、以下をサポートします。
+Aspose.Wordsは数式エンジンの非常に深刻な実装を提供し、次のことをサポートします:
 
-- 算術および論理オペレータ:
+- 算術演算子と論理演算子:
   `=(54+4*(6-77)-(5))+(-6-5)/4/5`
 - 関数:
   `=ABS(-01.4)+2.645/(5.6^3.5)+776457 \\\# "#,##0"`
 - ブックマークへの参照:
   `=IF(C>4, 5,ABS(A)*.76) +3.85`
-- 数値整形スイッチ:
+- 番号の書式設定スイッチ:
   `=00000000 \\\# "$#,##0.00;($#,##0.00)"`
 
-式における次の関数がサポートされています。 `ABS`, `AND`, `AVERAGE`, `COUNT`, `DEFINED`, `FALSE`, `IF`, `INT`, `MAX`, `MIN`, `MOD`, `NOT`, `OR`, `PRODUCT`, `ROUND`, `SIGN`, `SUM`, TRUEお問い合わせ
+式では、次の関数がサポートされています: `ABS`, `AND`, `AVERAGE`, `COUNT`, `DEFINED`, `FALSE`, `IF`, `INT`, `MAX`, `MIN`, `MOD`, `NOT`, `OR`, `PRODUCT`, `ROUND`, `SIGN`, `SUM`, TRUE.
 
-### `IF` そして、 `COMPARE` フィールド
+### `IF` and `COMPARE` Fields
 
-ほんの一部 `IF` 表現する Aspose.Words 簡単に計算できるのは、この機能がいかに強力なかという考えを与えるべきです。
+Aspose.Wordsが簡単に計算できる`IF`式のいくつかだけで、この機能がどれほど強力であるかを知ることができます:
 
 - `IF 3 > 5.7^4+MAX(4,3) True False`
 - `IF "abcd" > "abc" True False`
@@ -164,64 +165,64 @@ Aspose.Words 式エンジンの非常に深刻な実装を提供し、以下を�
 - `IF 4 = "2*2" True False`
 - `COMPARE 3+5/34 < 4.6/3/2`
 
-### `DATE` そして、 `TIME` フィールド
+### `DATE` and `TIME` Fields
 
-Aspose.Words すべての日付および時間のフォーマット スイッチをで利用できる支えて下さい Microsoft Word, いくつかの例:
+Aspose.WordsはMicrosoft Wordで使用可能なすべての日付と時刻の書式設定スイッチをサポートします。:
 
 - `DATE @ "d-MMM-yy"`
 - `DATE @ "d/MM/yyyy h:mm am/pm`
 
-### Mail Merge フィールド
+### Mail Mergeフィールド
 
-Aspose.Words 複雑性に限界を及ぼさない mail merge ドキュメント内のフィールドとネストをサポート `IF` フォームフィールドと、マージフィールドの名前を式で計算することもできます。
+Aspose.Wordsは、ドキュメント内のMail Mergeフィールドの複雑さに制限を課すことはなく、ネストされた`IF`フィールドと数式フィールドをサポートし、数式を使用して差し込み
 
-いくつかの例 mail merge フィールド Aspose.Words サポート:
+Aspose.WordsがサポートするMail Mergeフィールドのいくつかの例:
 
-- - - Mail merge フィールド スイッチ:
+- Mail mergeフィールドスイッチ:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
-- ネストされたマージフィールドの式:
-  `IF { `マージフィールド` Value1 } >= { `マージフィールド` Value2 } True False`
-- 実行時にマージフィールドの名前を計算します。
-  `MERGEFIELD { `IFについて` { `マージフィールド` Value1 } >= { `マージフィールド` Value2 } FirstName"LastName" }`
-- データソースの次のレコードへの条件移動:
-  `NEXTIF { `マージフィールド` Value1 } <= { =IF(-2.45 >= 6*{ `マージフィールド` Value2 }, 2, -.45) }`
+- 数式内の入れ子になった差し込み項目:
+  `IF { `MERGEFIELD` Value1 } >= { `MERGEFIELD` Value2 } True False`
+- 実行時に差し込み項目の名前を計算します:
+  `MERGEFIELD { `IF` { `MERGEFIELD` Value1 } >= { `MERGEFIELD` Value2 } FirstName"LastName" }`
+- データソース内の次のレコードへの条件付き移動:
+  `NEXTIF { `MERGEFIELD` Value1 } <= { =IF(-2.45 >= 6*{ `MERGEFIELD` Value2 }, 2, -.45) }`
 
 ### フォーマットスイッチ
 
-ドキュメント内のフィールドは、結果の値をフォーマットする方法を指定する整形スイッチを持つことができます。 Aspose.Words 以下のフォーマットスイッチをサポートしています。
+ドキュメント内のフィールドには、結果の値の書式設定方法を指定する書式設定スイッチを含めることができます。 Aspose.Wordsは、次の書式スイッチをサポートします:
 
-- @ - 日付と時刻のフォーマット
-- \\\# - 数値フォーマット
-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ キャップ
-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ ログイン
-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ アッパー
-- \\\\\\\\\\* CHARFORMAT - フィールドコードの最初の文字に応じてフォーマット結果
-- \\\\\\\\* MERGEFORMAT - 古い結果がフォーマットされた方法に応じてフォーマット結果
+- @-日付と時刻の書式設定
+- \\\#-数値の書式設定
+- \\\\\\\\* Caps
+- \\\\\\\\* FirstCap
+- \\\\\\\\* Lower
+- \\\\\\\\* Upper
+- \\\\\\\\* CHARFORMAT–フィールドコードの最初の文字に従って結果を書式設定します
+- \\\\\\\\* MERGEFORMAT–古い結果の書式に従って結果を書式設定します
 
-### Date フィールドの数値フォーマット
+### フィールドでの日付と数値の書式設定
 
-いつか Aspose.Words フィールド結果を計算すると、文字列を数値または日付値にパースし、文字列に戻す必要があります。 デフォルトで Aspose.Words フィールドの更新時にフィールド値を計算するときに、現在のスレッド文化を使用して解析とフォーマットを実行します。 mail mergeお問い合わせ フォームに用意されたオプションもあります。 [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions/) フィールド更新% でどの文化が使用されるかをさらに制御できるクラス
+Aspose.Wordsがフィールドの結果を計算するとき、多くの場合、文字列を数値または日付値に解析し、それを書式設定する必要があります。string.By デフォルトAspose.Wordsは現在のスレッドカルチャを使用して、フィールド更新中およびmail merge中にフィールド値を計算するときに解析と書式設定を実行します。 また、フィールドの更新中に使用されるカルチャをさらに制御できる[FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions/)クラスの形式で提供されるオプションもあります%
 
-* デフォルトでは [FieldUpdateCultureSource](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions/#getFieldUpdateCultureSource) プロパティは、 [CurrentThread](https://reference.aspose.com/words/java/com.aspose.words/fieldupdateculturesource/#CURRENT-THREAD) 現在のスレッド文化を使用してフィールドをフォーマットする
-* ※このプロパティは、 [FieldCode](https://reference.aspose.com/words/java/com.aspose.words/fieldupdateculturesource/#FIELD-CODE) そのため、フィールドのフィールドコードから設定された言語は、代わりにフォーマットに使用されます
+* 既定では、[FieldUpdateCultureSource](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions/#getFieldUpdateCultureSource)プロパティは現在のスレッドカルチャを使用してフィールドを書式設定する[CurrentThread](https://reference.aspose.com/words/java/com.aspose.words/fieldupdateculturesource/#CURRENT-THREAD)に設定されています
+* このプロパティは[FieldCode](https://reference.aspose.com/words/java/com.aspose.words/fieldupdateculturesource/#FIELD-CODE)に設定できるため、フィールドのフィールドコードから設定された言語が代わりに書式設定に使用されます
 
-### 現在のスレッドの文化を使用したフォーマット
+### 現在のスレッドのカルチャを使用した書式設定
 
-フィールドの計算時に使われる文化を制御するには、 **CurrentCulture** フィールドの計算を呼び出す前に、選択した文化にプロパティ。
+フィールド計算中に使用されるカルチャを制御するには、フィールド計算を呼び出す前に**CurrentCulture**プロパティを任意のカルチャに設定するだけです。
 
-次のコードの例では、更新中にフィールドをフォーマットするのに使われる文化を変更する方法を示します。
+次のコード例は、更新中にフィールドの書式設定で使用されるカルチャを変更する方法を示しています:
 
-EXAMPLE(パブリックラッパー currentThreadSettings.getLocale() と setLocale() をプライベートの代わりに使用 `Thread.CurrentThread`.カレントカルチャー
+EXAMPLE(パブリックラッパーCurrentThreadSettingsを使用します。プライベート`Thread.CurrentThread`の代わりにgetLocale()とsetLocale()。CurrentCulture)
 
-フィールドをフォーマットするために、現在の文化を使用して、フィールドの更新中に文書のすべてのフィールドがフォーマットされているかを簡単にそして一貫して制御できます。
+現在のカルチャを使用してフィールドの書式設定を行うと、フィールドの更新時にドキュメント内のすべてのフィールドの書式設定方法を簡単かつ一貫して制御することができます。
 
-### 文書の文化を用いた書式
+### ドキュメント内のカルチャを使用した書式設定
 
-一方、 Microsoft Word フィールドで見つかったテキストの言語(具体的にはフィールドコードから実行)に基づいて各フィールドをフォーマットします。 フィールドの更新中に、これは、多くの異なる言語で構成されたコンテンツをグローバル化した文書を持っている場合など、目的の行動かもしれません。各フィールドがテキストから使用されているロケールを表彰するのが好きです。 Aspose.Words また、この機能をサポートしています。
+一方、Microsoft Wordは、フィールドで見つかったテキストの言語（具体的には、フィールドコードからの実行）に基づいて、個々のフィールドを書式設定します。 たとえば、さまざまな言語で構成されたコンテンツを含むグローバル化されたドキュメントがあり、各フィールドがテキストから使用されるロケールを尊重するようにしたい場合など、フィールドの更新中にこれが望ましい動作になることがあります。 Aspose.Wordsもこの機能をサポートしています。
 
-ザ・オブ・ザ・ [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) クラスは [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/document/#getFieldOptions) 文書内のフィールドの更新を制御するために使用できるメンバーを含むプロパティ。
+[Document](https://reference.aspose.com/words/java/com.aspose.words/document/)クラスは、ドキュメント内でフィールドがどのように更新されるかを制御するために使用できるメンバーを含む[FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/document/#getFieldOptions)プロパティを提供します。
 
-次のコードの例では、フィールドの更新時に日付の書式に使用する文化の指定方法を示します。 mail merge から選ぶ:
+次のコード例は、フィールドの更新時に日付の書式設定に使用されるカルチャとMail Mergeを選択する場所を指定する方法を示しています:
 
-アクセサリー
+EXAMPLE

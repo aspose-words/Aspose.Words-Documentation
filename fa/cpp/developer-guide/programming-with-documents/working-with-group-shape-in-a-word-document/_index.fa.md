@@ -1,4 +1,4 @@
-﻿---
+---
 title: چگونه Group Shape را به یک سند ورد اضافه کنیم
 second_title: Aspose.Words برای C++
 articleTitle: کار با Group Shapes در اسناد ورد
@@ -7,6 +7,7 @@ description: "گروه بندی و غیر گروه بندی اشکال با اس
 type: docs
 weight: 290
 url: /fa/cpp/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 گاهی اوقات شما نیاز به اضافه کردن یک group shape به یک سند ورد دارید. چنین group shape از اشکال مختلف تشکیل شده است.

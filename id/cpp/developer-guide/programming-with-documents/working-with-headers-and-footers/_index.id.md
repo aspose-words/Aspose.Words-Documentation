@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Header dan Footer di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Header dan Footer
@@ -7,6 +7,7 @@ description: "Cara memanipulasi header dan footer menggunakan C++."
 type: docs
 weight: 150
 url: /id/cpp/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words memungkinkan pengguna untuk bekerja dengan header dan footer dalam dokumen. Header adalah teks yang ditempatkan di bagian atas halaman, dan footer adalah teks di bagian bawah halaman. Biasanya, area ini digunakan untuk menyisipkan informasi yang harus diulang pada semua atau beberapa halaman dokumen, seperti nomor halaman, tanggal pembuatan, informasi perusahaan, dan sebagainya.

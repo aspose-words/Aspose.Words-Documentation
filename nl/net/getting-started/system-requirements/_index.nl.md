@@ -7,6 +7,7 @@ description: "Voordat u gaat werken met Aspose.Words voor .NET, ervoor zorgen da
 type: docs
 weight: 70
 url: /nl/net/system-requirements/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Aspose.Words voor .NET vereist geen producten van derden zoals Microsoft Word te installeren. Aspose.Words zelf is een motor voor het maken, wijzigen, omzetten en renderen van documenten in verschillende formaten, waaronder Microsoft Word documentformaten.

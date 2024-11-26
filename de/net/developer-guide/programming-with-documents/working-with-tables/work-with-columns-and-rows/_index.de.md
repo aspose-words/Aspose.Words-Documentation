@@ -7,6 +7,7 @@ description: "Arbeiten mit Teilen einer Tabelle – Zeilen, Spalten und Zellen m
 type: docs
 weight: 30
 url: /de/net/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Um mehr Kontrolle über die Funktionsweise von Tabellen zu erhalten, erfahren Sie, wie Sie Spalten und Zeilen bearbeiten.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words Modelo de Objetos de documento (DOM) en C++
 second_title: Aspose.Words para C++
 articleTitle: Aspose.Words Modelo de Objetos de documento (DOM)
@@ -7,6 +7,7 @@ type: docs
 description: "El Modelo de objetos de documento (DOM) es una representación en memoria de un documento de Word. Lea, manipule y modifique el contenido y el formato de un documento de Word con C++."
 weight: 10
 url: /es/cpp/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 El Aspose.Words Document Object Model (DOM) es una representación en memoria de un documento de Word. El Aspose.Words DOM le permite leer, manipular y modificar mediante programación el contenido y el formato de un documento de Word.

@@ -8,6 +8,7 @@ description: "با استفاده از C# یک سند را با هر فرمت ب
 keywords: how to convert a document to markdown c#
 weight: 40
 url: /fa/net/convert-a-document-to-markdown/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Markdown فرمت محبوبی است که برای نشانه گذاری متن و تبدیل بیشتر آن به HTML، PDF، DOCX یا فرمت های دیگر استفاده می شود. بسیاری از توسعه دهندگان این قالب را برای نوشتن مستندات، تهیه مقالات برای انتشار در وبلاگ ها، توصیف پروژه ها و غیره انتخاب می کنند.

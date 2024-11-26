@@ -7,6 +7,7 @@ description: "C# kullanılarak Markdown özellikleri nasıl uygulanır? Tüm öz
 type: docs
 weight: 420
 url: /tr/net/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Bu konu, Markdown özelliklerinin Aspose.Words kullanılarak nasıl uygulanacağını açıklamaktadır. Markdown, kolayca HTML'ye dönüştürülebilen düz metni biçimlendirmenin basit bir yoludur. Aspose.Words aşağıdaki Markdown özelliklerini destekler:

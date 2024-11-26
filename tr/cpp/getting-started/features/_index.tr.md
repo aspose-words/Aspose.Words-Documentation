@@ -1,4 +1,4 @@
-﻿---
+---
 title: Özellikler
 second_title: Aspose.Words için C++
 articleTitle: Desteklenen Özellikler
@@ -7,6 +7,7 @@ description: "Aspose.Words için C++ kullanıcılara, belgeleri basitçe dönü�
 type: docs
 weight: 40
 url: /tr/cpp/features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words kullanıcılara çok çeşitli özellikler sunar. Kullanıcılar, belgeleri yalnızca desteklenen bir formattan diğerine dönüştürmekten ve dönüştürme işlemi sırasında bu belgeleri değiştirmekten, yapılandırılmış ve görsel olarak çekici belgeler oluşturmak veya raporlamayı otomatikleştirmek gibi iş görevlerine kadar çok sayıda belgeyle ilgili görevi gerçekleştirebilir.

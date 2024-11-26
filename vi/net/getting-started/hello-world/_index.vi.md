@@ -7,6 +7,7 @@ description: "Tạo, chỉnh sửa và lưu tài liệu đầu tiên của bạn
 type: docs
 weight: 20
 url: /vi/net/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Một "Xin chào, Thế giới!" mã thường là ví dụ đơn giản đầu tiên để viết "Aspose.Words cho .NET" uisng và nó cũng có thể được sử dụng làm bài kiểm tra độ chính xác để đảm bảo phần mềm dùng để biên dịch hoặc chạy mã nguồn được cài đặt chính xác.

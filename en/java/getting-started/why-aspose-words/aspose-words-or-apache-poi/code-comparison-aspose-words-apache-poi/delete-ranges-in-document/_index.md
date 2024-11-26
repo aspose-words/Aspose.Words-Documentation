@@ -1,4 +1,4 @@
-﻿---
+---
 title: Delete Ranges in Document
 second_title: Aspose.Words for Java
 articleTitle: Delete Ranges in Document
@@ -7,6 +7,7 @@ description: "Delete ranges from a document easily and fast instead of using Apa
 type: docs
 weight: 20
 url: /java/delete-ranges-in-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Delete Ranges in Document

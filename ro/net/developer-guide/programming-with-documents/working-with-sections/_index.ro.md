@@ -7,6 +7,7 @@ description: "Înțelegerea conceptelor de secțiune a documentului și manipula
 type: docs
 weight: 120
 url: /ro/net/working-with-sections/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Uneori vrei un document care nu are același formatare pe toate paginile. De exemplu, ai putea avea nevoie să modifici formatele de numărare ale paginilor, să ai dimensiuni și orientări diferite ale paginilor sau să ai prima pagină ca o copertă fără numărare. Poți realiza asta cu secțiuni.

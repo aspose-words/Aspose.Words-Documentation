@@ -7,6 +7,7 @@ description: "Use contextual object member to access some objects without specif
 type: docs
 weight: 120
 url: /java/using-contextual-object-member-access/
+timestamp: 2024-01-27-14-07-04
 ---
 
 You can make your templates less cumbersome using the contextual object member access feature. This feature enables you to access members of some objects without specifying the objects' identifiers in template expressions. An object to which the feature can be applied is determined depending on a 

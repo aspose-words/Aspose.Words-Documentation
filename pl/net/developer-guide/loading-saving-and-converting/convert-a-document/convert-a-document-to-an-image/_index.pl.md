@@ -7,6 +7,7 @@ type: docs
 description: "Konwertuj dokument na format obrazu (JPG, PNG itp.). Utwórz podgląd dokumentu lub utwórz skan dokumentu, aby wysłać fakturę za pomocą C#."
 weight: 43
 url: /pl/net/convert-a-document-to-an-image/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Czasami zamiast dokumentów w innych formatach, takich jak DOCX lub PDF, wymagane jest uzyskanie obrazu. Na przykład musisz dodać podgląd dowolnej strony dokumentu do swojej witryny lub aplikacji lub utworzyć "skan" dokumentu, aby wysłać fakturę. W takiej sytuacji może zaistnieć potrzeba przekonwertowania dokumentu w dowolnym formacie [obsługiwany format ładowania](https://reference.aspose.com/words/net/aspose.words/loadformat/) na obraz w dowolnym formacie [obsługiwany format zapisu](https://reference.aspose.com/words/net/aspose.words/saveformat/).

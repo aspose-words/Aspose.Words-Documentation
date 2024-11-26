@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chỉ Định Các Tùy chọn Bố cục trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Chỉ Định Tùy Chọn Bố Cục
@@ -7,6 +7,7 @@ description: "Chỉ định Các Tùy chọn Bố cục cho các bố cục tài
 type: docs
 weight: 20
 url: /vi/cpp/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words cho phép bạn tạo các tài liệu đầu ra với các bố cục khác nhau, tùy thuộc vào các tham số được chỉ định trong thuộc tính [LayoutOptions](https://reference.aspose.com/words/cpp/class/aspose.words.layout.layout_options) của **Document**. Thuộc tính này giống với một số tùy chọn menu giao diện người dùng Microsoft Word được mô tả trong bài viết này.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Pisahkan Tabel dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Tabel Terpisah
@@ -7,6 +7,7 @@ description: "Pisahkan tabel dalam C++. Cara membagi satu tabel menjadi dua tabe
 type: docs
 weight: 100
 url: /id/cpp/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sebuah tabel, yang direpresentasikan dalam Model Objek Dokumen Aspose.Words, terdiri dari baris dan sel independen, sehingga memudahkan untuk membagi tabel.

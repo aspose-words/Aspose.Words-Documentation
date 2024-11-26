@@ -7,6 +7,7 @@ description: "Insira objetos OLE ou vídeo on-line em um documento usando Python
 type: docs
 weight: 360
 url: /pt/python-net/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE (Object Linking and Embedding) é uma tecnologia pela qual os usuários podem trabalhar com documentos contendo "objetos" criados ou editados por aplicativos de terceiros. Ou seja, OLE permite que um aplicativo de edição exporte esses "objetos" para outro aplicativo de edição e depois importe-os com conteúdo adicional.

@@ -7,6 +7,7 @@ description: "Jak znaleźć pewne właściwości pola, takie jak kod pola i wyni
 type: docs
 weight: 25
 url: /pl/java/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Pole, które jest wstawiane przy użyciu [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) zwraca [Field](https://reference.aspose.com/words/java/com.aspose.words/field/) obiekt. Jest to klasa elewacji, która zapewnia przydatne metody szybkiego znalezienia takich właściwości pola.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: تایپوگرافی آسیایی در C++
 second_title: Aspose.Words برای C++
 articleTitle: کار با تایپوگرافی آسیایی
@@ -7,6 +7,7 @@ description: "کار با تایپوگرافی آسیایی با استفاده 
 type: docs
 weight: 240
 url: /fa/cpp/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 تایپوگرافی آسیایی مجموعه ای از گزینه ها برای پاراگراف های متنی در اسناد نوشته شده به زبان های آسیایی است.

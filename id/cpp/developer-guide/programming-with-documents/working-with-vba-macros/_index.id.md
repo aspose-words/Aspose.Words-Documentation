@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Makro VBA di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Makro VBA
@@ -7,6 +7,7 @@ description: "Bekerja dengan proyek document VBA menggunakan C++."
 type: docs
 weight: 410
 url: /id/cpp/working-with-vba-macros/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Visual Basic untuk Aplikasi (VBA) untuk Microsoft Word adalah bahasa pemrograman yang sederhana namun kuat yang dapat digunakan untuk memperluas fungsionalitas. Aspose.Words API menyediakan tiga kelas untuk mendapatkan akses ke kode sumber proyek VBA:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Travailler avec ChartSeries en C++
 second_title: Aspose.Words pour C++
 articleTitle: Travailler avec ChartSeries
@@ -7,6 +7,7 @@ description: "Réglage des séries de graphiques en utilisant C++."
 type: docs
 weight: 40
 url: /fr/cpp/working-with-chartseries/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words permet aux utilisateurs de travailler avec ChartSeriesCollection de plusieurs manières.

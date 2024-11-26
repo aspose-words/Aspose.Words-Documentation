@@ -1,4 +1,4 @@
-﻿---
+---
 title: Simple Mail Merge in Python
 second_title: Aspose.Words for Java
 articleTitle: Simple Mail Merge in Python
@@ -7,6 +7,7 @@ description: "Simple Mail Merge using Python."
 type: docs
 weight: 70
 url: /java/simple-mail-merge-in-python/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Simple Mail Merge

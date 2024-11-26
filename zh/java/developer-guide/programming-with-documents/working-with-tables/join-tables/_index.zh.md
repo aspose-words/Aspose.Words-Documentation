@@ -7,6 +7,7 @@ description: "加入表格进入 Java。 。 。 。 高级表格操作、 加�
 type: docs
 weight: 90
 url: /zh/java/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 表格,载于 Aspose.Words Document Object Model, 由独立的行和单元格组成,因此很容易加入表格。

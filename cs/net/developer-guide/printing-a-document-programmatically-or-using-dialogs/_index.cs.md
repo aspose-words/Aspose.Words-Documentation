@@ -7,6 +7,7 @@ description: "Vytisknout dokument na Server pomocí neřízeného XpsPrintu API 
 type: docs
 weight: 55
 url: /cs/net/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Tento článek popisuje, jak tisknout dokument o zpracování slov z ASP.NET nebo Windows Servisní aplikace Aspose.Words a `XpsPrint` API. Ukazuje také metody tisku dokumentu pomocí dialogů Nastavení, náhledu tisku a postupu tisku a vysvětluje, jak snížit čas první výzvy k tisku dokumentu.
@@ -27,7 +28,7 @@ Třídy v rámci *System.Drawing.Printing* nejsou podporovány pro použití v r
 
 Správný způsob tisku dokumentů podle Microsoft je pomocí nespravované XpsPrint API. Tohle API je k dispozici na Windows 7, Windows Server 2008 R2, a dále Windows Vista za předpokladu aktualizace platformy pro Windows Vista je nainstalován.
 
-Od Aspose.Words lze snadno převést jakýkoli dokument na <span notrans="<span notrans=" XPS"=""></span>,? stačí napsat kód, který prochází XPS dokument k `XpsPrint` API. Jediný problém je, že `XpsPrint` API je nezvládnutelná a vyžaduje znalosti technologie Platform Invoke.
+Od Aspose.Words lze snadno převést jakýkoli dokument na XPS,? stačí napsat kód, který prochází XPS dokument k `XpsPrint` API. Jediný problém je, že `XpsPrint` API je nezvládnutelná a vyžaduje znalosti technologie Platform Invoke.
 
 Vytisknout dokument, Aspose.Words poskytuje **XpsPrintHelper** třída obsahuje jednoduchou metodu tisku, kde stačí zadat následující parametry (viz podrobnosti v článku [Vytisknout dokument prostřednictvím XPS API](/words/net/missing-features-in-openxml/)):
 

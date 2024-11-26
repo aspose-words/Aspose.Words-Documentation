@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit Kopf- und Fußzeilen in C++
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit Kopf- und Fußzeilen
@@ -7,6 +7,7 @@ description: "So bearbeiten Sie Kopf- und Fußzeilen mit C++."
 type: docs
 weight: 150
 url: /de/cpp/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words ermöglicht Benutzern das Arbeiten mit Kopf- und Fußzeilen in einem Dokument. Eine Kopfzeile ist Text, der oben auf einer Seite platziert wird, und eine Fußzeile ist Text am Ende einer Seite. In der Regel werden diese Bereiche zum Einfügen von Informationen verwendet, die auf allen oder einigen Seiten des Dokuments wiederholt werden sollen, z. B. Seitenzahlen, Erstellungsdatum, Unternehmensinformationen usw.

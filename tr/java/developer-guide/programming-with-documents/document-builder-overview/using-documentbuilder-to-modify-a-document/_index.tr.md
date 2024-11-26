@@ -1,12 +1,13 @@
 ---
-title: Bir Dokümanı Değiştirmek için `DocumentBuilder`'u Kullanmak
+title: Bir Dokümanı Değiştirmek için DocumentBuilder'u Kullanmak
 second_title: Aspose.Words için Java
-articleTitle: Bir Dokümanı Değiştirmek için `DocumentBuilder`'u Kullanmak
-linktitle: Bir Dokümanı Değiştirmek için `DocumentBuilder`'u Kullanmak
+articleTitle: Bir Dokümanı Değiştirmek için DocumentBuilder'u Kullanmak
+linktitle: Bir Dokümanı Değiştirmek için DocumentBuilder'u Kullanmak
 type: docs
 description: "Bir belgeyi kolayca değiştirmek için belge oluşturucu kullanın Java."
 weight: 20
 url: /tr/java/using-documentbuilder-to-modify-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Biçimlendirme Belirtmek
@@ -203,7 +204,7 @@ Bu şekilde yeni metin eklemek mevcut işaretleyici metnini değiştirmez. Unutm
 
 ### Mevcut bir `Merge` Alanına Taşınmak
 
-Bazen bir "el ile" mail merge gerçekleştirmek için `DocumentBuilder` veya bir birleştirme alanını özel bir şekilde doldurmak için bir mail merge olay işleyicisi içinde kullanmanız gerekebilir. İşte bu noktada [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) yararlı olabilir. Yöntem, birleştirme alanı adının adını kabul eder. Belirtilen birleştirme alanının hemen ötesine imleci getirir ve birleştirme alanını kaldırır. Aşağıdaki kod örneği, belirtilen birleştirme alanının hemen ötesine imlecin nasıl getirileceğini göstermektedir.
+Bazen bir "el ile" Mail Merge gerçekleştirmek için `DocumentBuilder` veya bir birleştirme alanını özel bir şekilde doldurmak için bir Mail Merge olay işleyicisi içinde kullanmanız gerekebilir. İşte bu noktada [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) yararlı olabilir. Yöntem, birleştirme alanı adının adını kabul eder. Belirtilen birleştirme alanının hemen ötesine imleci getirir ve birleştirme alanını kaldırır. Aşağıdaki kod örneği, belirtilen birleştirme alanının hemen ötesine imlecin nasıl getirileceğini göstermektedir.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 

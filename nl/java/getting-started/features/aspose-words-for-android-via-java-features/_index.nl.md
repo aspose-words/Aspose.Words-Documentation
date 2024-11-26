@@ -7,6 +7,7 @@ description: "Deze sectie geeft een vergelijking van de beschikbaarheid van func
 type: docs
 weight: 90
 url: /nl/java/aspose-words-for-android-via-java-features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Aspose.Words voor Android via Java Functies Overzicht
@@ -91,16 +92,16 @@ U kunt Aspose.Words als een eigen rapportageoplossing. Ontwerp uw rapporten in M
 
 |  Functie | Aspose.Words voor Java | Aspose.Words voor Android via Java |
 |  :-  |  :-  |  :-  |
-| Alle standaard gebruiken Microsoft Word mail merge velden in uw rapporten inclusief `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, Groeten. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Uitvoeren mail merge voor documenten die zelfs de meest complexe en geneste bevatten `IF` velden en formules. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Populeer en groei dynamisch tabellen of fragmenten in het document met behulp van uw gegevensbron mail merge regio's. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Alle standaard gebruiken Microsoft Word Mail Merge velden in uw rapporten inclusief `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, Groeten. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Uitvoeren Mail Merge voor documenten die zelfs de meest complexe en geneste bevatten `IF` velden en formules. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Populeer en groei dynamisch tabellen of fragmenten in het document met behulp van uw gegevensbron Mail Merge regio's. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Gemakkelijk rapporten genereren die master-detail gegevens bevatten zoals Order/OrderDetails. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Documenten met gegevens van alle Java gegevensbron die de `ResultSet` interface. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Populeer documenten uit een gegevensbron, zoals een XML-bestand of zakelijke objecten door het implementeren van de **IMailMergeDataSource** interface. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Neem nauwkeurige controle, zoals nummeropmaak, over hoe uw gegevens worden samengevoegd met behulp van gebeurtenissen. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Afbeeldingen invoegen tijdens mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Programmatisch een Microsoft Word mail merge gegevensbron voor een document. Behoud mail merge instellingen en gegevensbronnen. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Ophalen mail merge veldnamen. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Programmatisch een Microsoft Word Mail Merge gegevensbron voor een document. Behoud Mail Merge instellingen en gegevensbronnen. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Ophalen Mail Merge veldnamen. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ### Rapportagefuncties
 

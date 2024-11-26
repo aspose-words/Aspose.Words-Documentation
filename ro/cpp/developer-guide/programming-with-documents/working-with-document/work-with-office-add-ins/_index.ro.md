@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrați cu programe de completare Office în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Lucrați cu programe de completare Office
@@ -7,6 +7,7 @@ description: "Aspose.Words pentru C++ oferă diverse clase pentru lucrul cu prog
 type: docs
 weight: 50
 url: /ro/cpp/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uneori este posibil să doriți să acordați acces la comenzile interfeței care rulează cod pentru a modifica documentele. Aspose.Words API oferă spațiul de nume `WebExtensions`, care acordă diferite clase pentru a personaliza elemente și atribute care extind vocabularul XML pentru reprezentarea programelor de completare Office.

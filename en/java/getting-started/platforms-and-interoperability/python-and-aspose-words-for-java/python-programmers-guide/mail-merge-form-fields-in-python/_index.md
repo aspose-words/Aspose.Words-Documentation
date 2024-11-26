@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge Form Fields in Python
 second_title: Aspose.Words for Java
 articleTitle: Mail Merge Form Fields in Python
@@ -7,6 +7,7 @@ description: "Mail Merge Form Fields using Python."
 type: docs
 weight: 30
 url: /java/mail-merge-form-fields-in-python/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Mail Merge Form Fields
@@ -18,7 +19,7 @@ url: /java/mail-merge-form-fields-in-python/
 ## Load the template document.
 
 doc = self.Document(self.dataDir + "Template.doc")
-\# Setup mail merge event handler to do the custom work.
+\# Setup Mail Merge event handler to do the custom work.
 c = HandleMergeField()
 proxy = jpype.JProxy("com.aspose.words.IFieldMergingCallback", inst=c)
 doc.getMailMerge().setFieldMergingCallback(proxy)

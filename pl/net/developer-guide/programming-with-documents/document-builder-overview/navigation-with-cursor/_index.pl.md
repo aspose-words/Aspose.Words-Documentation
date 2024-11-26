@@ -7,6 +7,7 @@ description: "Nawiguj między różnymi węzłami w dokumencie, takimi jak akapi
 type: docs
 weight: 10
 url: /pl/net/navigation-with-cursor/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Podczas pracy z dokumentem, nawet jeśli jest on krótki lub długi, będziesz musiał poruszać się po dokumencie. Nawigacja za pomocą wirtualnego kursora reprezentuje możliwość poruszania się pomiędzy różnymi węzłami w dokumencie.

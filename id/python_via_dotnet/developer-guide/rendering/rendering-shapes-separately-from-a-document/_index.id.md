@@ -7,6 +7,7 @@ description: "Ekstrak berbagai objek grafik, seperti gambar, kotak teks berisi p
 type: docs
 weight: 40
 url: /id/python-net/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Saat memproses dokumen, tugas umumnya adalah mengekstrak semua gambar yang ditemukan dalam dokumen dan mengekspornya ke lokasi eksternal. Tugas ini menjadi sederhana dengan Aspose.Words API, yang sudah menyediakan fungsionalitas untuk mengekstraksi dan menyimpan data gambar. Namun, terkadang Anda mungkin ingin mengekstrak jenis konten grafis lain yang serupa yang diwakili oleh jenis objek gambar berbeda, misalnya, kotak teks yang berisi paragraf, bentuk panah, dan gambar kecil. Tidak ada cara langsung untuk merender objek ini karena ini merupakan kombinasi elemen konten individual. Anda mungkin juga menjumpai kasus ketika konten telah dikelompokkan menjadi satu objek yang tampak seperti satu gambar.

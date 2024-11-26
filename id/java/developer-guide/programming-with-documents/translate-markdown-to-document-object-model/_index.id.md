@@ -7,6 +7,7 @@ type: docs
 description: "Login Markdown dokumen Document Object Model dan kembali. Jadi Anda dapat bekerja dengan kompleks yang ada Markdown dan programmatically menciptakan Markdown dokumen dari awal menggunakan JavaSitemap"
 weight: 20
 url: /id/java/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Untuk membaca secara programmatik, memanipulasi, dan memodifikasi konten dan memformat dokumen, Anda perlu menerjemahkannya ke Aspose.Words Document Object Model SitemapDOMSitemap
@@ -42,7 +43,7 @@ Kami menggunakan [Font](https://reference.aspose.com/words/java/com.aspose.words
 |  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}}  |  |
 
-Kami menggunakan gaya karakter dengan nama yang dimulai dari kata <span notrans="<span notrans=" `InlineCode`"=""></span>Sitemap diikuti oleh titik opsional `(.)` dan sejumlah backticks ```(`)``` Sitemap `InlineCode` Sitemap Jika sejumlah backticks terjawab, maka satu backtick akan digunakan secara default.
+Kami menggunakan gaya karakter dengan nama yang dimulai dari kata `InlineCode`Sitemap diikuti oleh titik opsional `(.)` dan sejumlah backticks ```(`)``` Sitemap `InlineCode` Sitemap Jika sejumlah backticks terjawab, maka satu backtick akan digunakan secara default.
 
 |  Markdown Sitemap |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
@@ -67,9 +68,9 @@ Tabel di bawah ini menunjukkan contoh penggunaan Markdown Blok daun di Aspose.Wo
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br/>`-----` |  Ini adalah paragraf sederhana dengan bentuk HorizontalRule yang sesuai:<br/>`DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-HorizontalRule.java" >}}  |                                                                |
-|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, di mana (1<= N <= 9).<br/>Ini diterjemahkan ke dalam gaya built-in dan harus persis dari pola yang ditentukan (tidak ada suffixes atau prefix diperbolehkan).<br/>Jika tidak, itu hanya akan menjadi paragraf biasa dengan gaya yang sesuai |
+|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`, di mana (1<= N <= 9).<br/>Ini diterjemahkan ke dalam gaya built-in dan harus persis dari pola yang ditentukan (tidak ada suffixes atau prefix diperbolehkan).<br/>Jika tidak, itu hanya akan menjadi paragraf biasa dengan gaya yang sesuai |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Heading.java" >}}  |                                                                |
-|  **Setext Heading**<br/>`===` (jika tingkat kepala 1),<br/>`---` (jika tingkat kepala 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, berdasarkan `“Heading N”` Login<br/>Jika (N >= 2), kemudian `“Heading 2”` akan digunakan, jika tidak `“Heading 1”`Sitemap<br/>Setiap suffix diperbolehkan, tetapi Aspose.Words importir menggunakan angka "1" dan "2" |
+|  **Setext Heading**<br/>`===` (jika tingkat kepala 1),<br/>`---` (jika tingkat kepala 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, berdasarkan 'Heading N' Login<br/>Jika (N >= 2), kemudian 'Heading 2' akan digunakan, jika tidak 'Heading 1'Sitemap<br/>Setiap suffix diperbolehkan, tetapi Aspose.Words importir menggunakan angka "1" dan "2" |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SetextHeading.java" >}}  |                                                                |
 |   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
 |   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-IndentedCode.java" >}}  |                                                                |

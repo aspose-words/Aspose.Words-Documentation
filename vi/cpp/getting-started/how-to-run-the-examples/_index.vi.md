@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm Thế Nào Để Chạy Các Ví Dụ
 second_title: Aspose.Words cho C++
 articleTitle: Làm Thế Nào Để Chạy Các Ví Dụ
@@ -7,6 +7,7 @@ description: "Tải về Aspose.Words cho C++ ví dụ từ kho GitHub của ch�
 type: docs
 weight: 110
 url: /vi/cpp/how-to-run-the-examples/
+timestamp: 2024-07-11-16-13-28
 ---
 
 Để trở nên quen thuộc hơn với các khả năng và tính năng Aspose.Words, chúng tôi cung cấp các ví dụ có thể được tải xuống từ kho GitHub của chúng tôi, chạy và tìm hiểu chi tiết.

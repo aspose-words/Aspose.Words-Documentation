@@ -1,4 +1,4 @@
-﻿---
+---
 title: Inserire e aggiungere documenti in C++
 second_title: Aspose.Words per C++
 articleTitle: Inserire e aggiungere documenti
@@ -7,6 +7,7 @@ description: "Combina documenti in uno: inserisci o aggiungi un documento in uno
 type: docs
 weight: 80
 url: /it/cpp/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A volte è necessario combinare più documenti in uno. Puoi farlo manualmente oppure puoi usare la funzione Inserisci o aggiungi Aspose.Words.
@@ -45,7 +46,7 @@ L'esempio di codice seguente mostra come inserire il contenuto di un documento i
 
 ### Inserire un documento durante l'operazione Mail Merge {#insert-a-document-during-mail-merge-operation}
 
-È possibile inserire un documento in un campo di unione durante un'operazione mail merge. Ad esempio, un modello mail merge può contenere un campo di unione come [Riepilogo]. Ma nel documento finale, è necessario inserire il contenuto ottenuto da un altro documento esterno in questo campo di unione. Per ottenere ciò, è necessario creare un gestore per l'evento di unione.
+È possibile inserire un documento in un campo di unione durante un'operazione mail merge. Ad esempio, un modello Mail Merge può contenere un campo di unione come [Riepilogo]. Ma nel documento finale, è necessario inserire il contenuto ottenuto da un altro documento esterno in questo campo di unione. Per ottenere ciò, è necessario creare un gestore per l'evento di unione.
 
 L'esempio di codice seguente mostra come creare un gestore per l'evento di fusione per utilizzarlo in seguito nel processo di inserimento:
 

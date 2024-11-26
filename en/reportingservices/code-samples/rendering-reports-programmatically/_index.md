@@ -7,6 +7,7 @@ description: "How to render report without report viewer and report manager inte
 type: docs
 weight: 10
 url: /reportingservices/rendering-reports-programmatically/
+timestamp: 2024-09-25-11-08-55
 ---
 
 {{% alert color="primary" %}}

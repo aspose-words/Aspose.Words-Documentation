@@ -7,6 +7,7 @@ description: "Chia tài liệu thành nhiều tệp bằng C#. Sử dụng tính
 type: docs
 weight: 90
 url: /vi/net/split-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 *Splitting* hay *tách tài liệu* là quá trình chia một tài liệu lớn thành nhiều tệp nhỏ hơn. Có nhiều lý do khác nhau để chia nhỏ một tập tin. Ví dụ: bạn chỉ cần một số trang từ một tài liệu cụ thể chứ không cần toàn bộ tài liệu. Hoặc vì lý do riêng tư, bạn chỉ muốn chia sẻ một số phần của tài liệu với người khác. Với tính năng chia tách, bạn chỉ có thể lấy những phần được yêu cầu của tài liệu và thực hiện các hành động cần thiết với chúng, chẳng hạn như đánh dấu, lưu hoặc gửi.

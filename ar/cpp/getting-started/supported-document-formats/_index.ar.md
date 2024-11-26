@@ -1,4 +1,4 @@
-﻿---
+---
 title: تنسيقات المستندات المدعومة
 second_title: Aspose.Words ل C++
 articleTitle: تنسيقات المستندات المدعومة
@@ -7,6 +7,7 @@ type: docs
 description: "قم بتحرير المستندات المصدر بالعديد من التنسيقات الشائعة، وكذلك تحويل الملفات بحرية من تنسيق إلى آخر باستخدام C++."
 weight: 20
 url: /ar/cpp/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

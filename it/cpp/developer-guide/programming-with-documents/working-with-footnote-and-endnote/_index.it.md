@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lavorare con Footnote e Endnote in C++
 second_title: Aspose.Words per C++
 articleTitle: Lavorare con Footnote e Endnote
@@ -7,6 +7,7 @@ description: "Come manipolare le note a piè di pagina e le note di chiusura usa
 type: docs
 weight: 160
 url: /it/cpp/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words fornisce anche alcune classi, metodi e proprietà per lavorare con note a piè di pagina e note di chiusura.

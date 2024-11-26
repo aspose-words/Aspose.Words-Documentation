@@ -1,4 +1,4 @@
-﻿---
+---
 title: Gabung Tabel di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Gabung Tabel
@@ -7,6 +7,7 @@ description: "Manipulasi tabel tingkat lanjut. Cara menggabungkan dua tabel menj
 type: docs
 weight: 90
 url: /id/cpp/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sebuah tabel, yang direpresentasikan dalam Model Objek Dokumen Aspose.Words, terdiri dari baris dan sel independen, sehingga memudahkan penggabungan tabel.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Font FallBack Instellings vir Google Noto Lettertipes in C++
 second_title: Aspose.Words vir C++
 articleTitle: Vooraf gedefinieerde Font FallBack Instellings vir Google Noto Fonts
@@ -7,6 +7,7 @@ description: "Aspose.Words bied vooraf gedefinieerde lettertipe terugval instell
 type: docs
 weight: 15
 url: /af/cpp/predefined-font-fallback-settings-for-google-noto-fonts/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words bied vooraf gedefinieerde lettertipe terugval instellings vir Google Noto lettertipes. Dit is gratis lettertipes gelisensieer onder SIL Open Font License, wat afgelaai kan word van Google Noto Lettertipes. Die **FontFallbackSettings** klas bied'n [LoadNotoFallbackSettings](https://reference.aspose.com/words/cpp/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/) metode. Dit laai vooraf gedefinieerde terugval instellings, wat Google Noto lettertipes gebruik soos in die kode voorbeeld hieronder getoon:

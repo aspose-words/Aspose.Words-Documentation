@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tentukan Opsi Rendering Saat Mengonversi ke PDF
 second_title: Aspose.Words untuk C++
 articleTitle: Tentukan Opsi Rendering Saat Mengonversi ke PDF
@@ -7,6 +7,7 @@ description: "Konversikan dokumen menjadi PDF dengan opsi lanjutan menggunakan C
 type: docs
 weight: 30
 url: /id/cpp/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Format PDF adalah format halaman tetap yang sangat populer di kalangan pengguna dan didukung secara luas oleh berbagai aplikasi karena dokumen PDF terlihat sama di perangkat apa pun. Oleh karena itu, mengonversi ke PDF merupakan fitur penting dari Aspose.Words.

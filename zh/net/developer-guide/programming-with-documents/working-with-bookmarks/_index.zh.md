@@ -7,6 +7,7 @@ description: "了解书签概念以及如何使用 C# 在程序中使用书签�
 type: docs
 weight: 180
 url: /zh/net/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 书签在 Microsoft Word 文档中标识您命名和标识的位置或片段，以供将来参考。例如，您可以使用书签来标识稍后要修改的文本。您可以使用"书签"对话框转到该文本，而不是滚动文档来查找文本。

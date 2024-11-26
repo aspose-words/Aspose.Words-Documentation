@@ -7,6 +7,7 @@ description: "PDF/A-1, PDF/A-2, PDF/A-4 ve PDF/UA ile Java'i dönüştür. Bir b
 type: docs
 weight: 25
 url: /tr/java/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF sabit bir sayfa formatıdır ve kullanıcılar arasında çok popülerdir ve farklı uygulamalar tarafından geniş ölçüde desteklenmektedir, çünkü bir PDF belgesi tüm cihazlarda aynı görünür. Bu yüzden, PDF'ye dönüştürmek Aspose.Words'ın önemli bir özelliğidir.

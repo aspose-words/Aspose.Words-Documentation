@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit Dokumenteigenschaften in C++
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit Dokumenteigenschaften
@@ -7,6 +7,7 @@ description: "Aspose.Words für C++ ermöglicht das Speichern einiger nützliche
 type: docs
 weight: 10
 url: /de/cpp/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Dokumenteigenschaften ermöglichen das Speichern einiger nützlicher Informationen zu Ihrem Dokument. Diese Eigenschaften können in zwei Gruppen unterteilt werden:

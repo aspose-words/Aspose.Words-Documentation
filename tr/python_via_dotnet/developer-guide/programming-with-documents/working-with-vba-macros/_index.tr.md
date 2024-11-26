@@ -7,6 +7,7 @@ description: "Python kullanarak bir belgede VBA makroları oluşturun, okuyun, y
 type: docs
 weight: 410
 url: /tr/python-net/working-with-vba-macros/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word için Uygulamalar için Visual Basic (VBA), işlevselliği genişletmek için kullanılabilecek basit ama güçlü bir programlama dilidir. Aspose.Words API, VBA projesi kaynak koduna erişim sağlamak için üç sınıf sağlar:

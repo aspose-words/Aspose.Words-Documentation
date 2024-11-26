@@ -7,6 +7,7 @@ description: "Cara menyisipkan, memperoleh, memindahkan, menampilkan atau menyem
 type: docs
 weight: 180
 url: /id/python-net/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bookmark mengidentifikasi dalam dokumen Microsoft Word lokasi atau fragmen yang Anda beri nama dan identifikasi untuk referensi di masa mendatang. Misalnya, Anda mungkin menggunakan penanda untuk mengidentifikasi teks yang ingin Anda revisi nanti. Daripada menelusuri dokumen untuk menemukan teks, Anda dapat membukanya dengan menggunakan kotak dialog Bookmark.

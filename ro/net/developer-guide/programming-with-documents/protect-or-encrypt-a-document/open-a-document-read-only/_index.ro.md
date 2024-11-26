@@ -7,6 +7,7 @@ description: "Fă-ți documentul de doar citire astfel încât conținutul să p
 type: docs
 weight: 10
 url: /ro/net/open-a-document-read-only/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uneori, s-ar putea să ai un document care necesită o revizuire dar nu vrei ca revisorii să modifice în mod aleatoriu conținutul tău. Aspose.Words îți permite să faci permisiunea documentului doar pentru citit, astfel încât conținutul poate fi copiat sau citit, dar nu modificat. Aceasta va împiedica conținutul să fie eliminat sau adăugat la documentul dumneavoastră.

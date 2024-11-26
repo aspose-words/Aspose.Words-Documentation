@@ -1,4 +1,4 @@
-﻿---
+---
 title: Caracteristici acceptate la încărcarea documentelor
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Caracteristici acceptate la încărcarea documentelor
@@ -7,6 +7,7 @@ description: "Încărcați documentul în orice format acceptat folosind Python.
 type: docs
 weight: 20
 url: /ro/python-net/supported-features-on-document-load/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words se străduiește să accepte toate caracteristicile pentru toate formatele acceptate. Aproape toate caracteristicile documentelor Microsoft Word sunt acceptate și sunt păstrate fidel în timpul conversiei. Folosind Aspose.Words Puteți încărca și converti un document de orice dimensiune și puteți gestiona cu ușurință conversia unui document format din mii de pagini în câteva secunde. Singura limitare este cantitatea de memorie de lucru disponibilă pe mașină.

@@ -7,6 +7,7 @@ description: "指定各种 没错 输入字体来源:系统文件夹、用户来
 type: docs
 weight: 30
 url: /zh/java/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 此话题描述默认行为 Aspose.Words 当它寻找TrueType字体时,包括操作系统特定差异,并演示如何指定用户字体来源.
@@ -35,7 +36,7 @@ url: /zh/java/specify-truetype-fonts-location/
 
 在大多数情况下, Windows 用户不会面临丢失字体或错误布局的重大问题。 通常情况下, Aspose.Words 通过文档,当它遇到字体链接时,它会成功地从系统文件夹中获取字体数据。
 
-打开 <span notrans="<span notrans=" Windows"=""></span>",> Aspose.Words 首先从 _ 取出所有可用的字体%windir%\Fonts 文件夹。 此设定在大部分时间里都会为您服务 。 您只指定您自己的字体文件夹 。 Aspose.Words 并查找在 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts 注册密钥。 临Τ Windows 10允许为当前用户安装字体. 字体放置在 %userprofile%\AppData\Local\Microsoft\Windows\Fonts 文件夹,并在 HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts 登记,其中 Aspose.Words 将查找这些字体。
+打开 Windows Aspose.Words 首先从 _ 取出所有可用的字体%windir%\Fonts 文件夹。 此设定在大部分时间里都会为您服务 。 您只指定您自己的字体文件夹 。 Aspose.Words 并查找在 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts 注册密钥。 临Τ Windows 10允许为当前用户安装字体. 字体放置在 %userprofile%\AppData\Local\Microsoft\Windows\Fonts 文件夹,并在 HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts 登记,其中 Aspose.Words 将查找这些字体。
 
 如果文档包含嵌入字体, Aspose.Words 能够从文档中读取相关的字体数据,并用来创建文档的版式。 文档还可能包含与系统文件夹中不包含的字体的链接,在这种情况下,下列情景将生效:
 
@@ -50,7 +51,7 @@ Aspose.Words 将查找系统字体文件夹中的字体。 这些文件夹的清
 
 #### 何处 Aspose.Words 正在寻找 TrueType 字体 Linux
 
-不同 Linux 发行可能在不同文件夹中存储字体. Aspose.Words 寻找多个位置的字体。 默认 Aspose.Words 寻找下列所有地点的字体: */usr/share/fonts */usr/local/share/fonts */usr/X11R6/lib/X11/fonts 此默认行为将适用于大多数 Linux 分布,但不能保证全天工作,在这种情况下,可能需要指定地址。 true 明确输入字体。 要做到这一点,需要知道TrueType字体安装在什么地方 Linux 分发。
+不同 Linux 发行可能在不同文件夹中存储字体. Aspose.Words 寻找多个位置的字体。 默认 Aspose.Words 寻找下列所有地点的字体: `/usr/share/fonts` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts` 此默认行为将适用于大多数 Linux 分布,但不能保证全天工作,在这种情况下,可能需要指定地址。 true 明确输入字体。 要做到这一点,需要知道TrueType字体安装在什么地方 Linux 分发。
 
 #### 何处 Aspose.Words 在 Mac OS X 上寻找 TrueType 字体
 

@@ -8,6 +8,7 @@ url: /vi/python-net/convert-a-document/
 weight: 30
 description: "Dễ dàng chuyển đổi tài liệu từ định dạng này sang định dạng khác bằng Python. Bạn có thể làm việc với tất cả các định dạng phổ biến nhất như định dạng Microsoft Word như DOCX hoặc DOC, định dạng OpenDocument như ODT hoặc OTT, định dạng web như HTML hoặc XHTML, định dạng văn bản như MarkDown hoặc TXT và các định dạng khác."
 keywords: "convert a document python, convert documents from one format to another python, convert to markdown python, convert pdf to docx python, convert docx to pdf python, convert doc to pdf python, convert a document Aspose for Python"
+timestamp: 2024-01-27-14-07-04
 ---
 
 Khả năng chuyển đổi tài liệu từ định dạng này sang định dạng khác một cách dễ dàng và đáng tin cậy là một trong những tính năng chính của Aspose.Words. Việc chuyển đổi như vậy không gì khác hơn là sự kết hợp giữa các hoạt động tải và lưu.

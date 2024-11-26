@@ -7,6 +7,7 @@ description: "Wstaw, uzyskaj lub sformatuj pole formularza w dokumencie za pomoc
 type: docs
 weight: 380
 url: /pl/python-net/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dokument zawierający puste pola (pola) do wypełnienia nazywany jest formularzem. Na przykład możesz utworzyć formularz rejestracyjny w Microsoft Word, który korzysta z list rozwijanych, z których użytkownicy mogą wybierać wpisy. Pole `Form` to miejsce, w którym przechowywany jest określony typ danych, taki jak imię i nazwisko lub adres. Pola formularzy w Microsoft Word obejmują wprowadzanie tekstu, pole kombi i pole wyboru.

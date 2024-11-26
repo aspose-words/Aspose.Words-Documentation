@@ -7,6 +7,7 @@ description: "Aspose.Words untuk .NET menyediakan berbagai kelas untuk bekerja d
 type: docs
 weight: 50
 url: /id/net/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Terkadang Anda mungkin ingin memberikan akses ke kontrol antarmuka yang menjalankan kode untuk mengubah dokumen. Aspose.Words API menyediakan namespace `WebExtensions`, yang memberikan berbagai kelas untuk menyesuaikan elemen dan atribut yang memperluas kosakata XML untuk mewakili Add-in Office.

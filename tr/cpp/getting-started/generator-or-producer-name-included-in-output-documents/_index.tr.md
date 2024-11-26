@@ -1,4 +1,4 @@
-﻿---
+---
 title: Çıktılarda Üretici Adı
 second_title: Aspose.Words için C++
 articleTitle: Çıktı Belgelerinde Üretici veya Üretici Adı
@@ -7,6 +7,7 @@ description: "Aspose.Words için C++ belgeye, onu oluşturmak için kullanılan 
 type: docs
 weight: 90
 url: /tr/cpp/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Bir belgenin kullanılarak üretilip üretilmediğini kolayca öğrenebilirsiniz Aspose.Words için C++. Ayrıca sürüm numarasını da bulabilirsiniz Aspose.Words için C++ bu, belirli bir çıktı belgesi oluşturmak için kullanıldı. Aspose.Words bu bilgiyi doğrudan oluşturulan belgeye yazar.

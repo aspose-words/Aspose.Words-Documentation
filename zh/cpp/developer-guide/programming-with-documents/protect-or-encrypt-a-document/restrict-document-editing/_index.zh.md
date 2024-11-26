@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中限制文档编辑
 second_title: Aspose.Words对于C++
 articleTitle: 限制文档编辑
@@ -7,6 +7,7 @@ description: "通过使用C++设置限制类型来限制编辑文档。 您还�
 type: docs
 weight: 30
 url: /zh/cpp/restrict-document-editing/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时您可能需要限制编辑文档的能力，并且只允许对其进行某些操作。 这对于防止其他人编辑文档中的敏感和机密信息非常有用。

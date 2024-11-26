@@ -7,6 +7,7 @@ type: docs
 description: "• `Document` třída poskytuje různé vlastnosti a metody dokumentů pomocí Python. Použij `Document` třída jako výchozí bod pro cokoliv, co chcete předvést Aspose.Words místo Python. • `Document` objekt lze uložit do souboru nebo streamu a také poslat do prohlížeče."
 weight: 40
 url: /cs/python-net/working-with-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 • [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) třída je centrální Aspose.Words. Představuje dokument a poskytuje různé vlastnosti a metody dokumentů, jako je uložení nebo ochrana dokumentu. Použij [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) třída jako výchozí bod pro cokoliv, co chcete předvést Aspose.Words: vytvořit nový dokument od nuly, otevřít šablonu pro mail merge, nebo získat různé části z dokumentu.

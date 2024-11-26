@@ -7,6 +7,7 @@ description: "指定表格位置 Java。 。 。 。 获得表格对齐,并使�
 type: docs
 weight: 50
 url: /zh/java/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有浮动表和内置表:

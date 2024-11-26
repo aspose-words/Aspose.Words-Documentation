@@ -7,6 +7,7 @@ description: "Jak manipulować nagłówkami i stopkami za pomocą C#. Twórz nag
 type: docs
 weight: 150
 url: /pl/net/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words umożliwia użytkownikom pracę z nagłówkami i stopkami w dokumencie. Nagłówek to tekst umieszczany na górze strony, a stopka to tekst na dole strony. Zazwyczaj w tych obszarach umieszczane są informacje, które powinny zostać powtórzone na wszystkich lub niektórych stronach dokumentu, takie jak numery stron, data utworzenia, informacje o firmie i tak dalej.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lêerformate en Omskakelings
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Lêerformate en Omskakelings
@@ -7,6 +7,7 @@ description: "Omskep dokumente van enige ondersteunde vrag na stoor formaat met 
 type: docs
 weight: 40
 url: /af/python-net/file-formats-and-conversions/
+timestamp: 2024-01-31-14-23-37
 ---
 
 {{% alert color="primary" %}}

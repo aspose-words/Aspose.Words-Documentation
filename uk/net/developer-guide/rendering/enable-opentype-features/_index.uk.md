@@ -7,6 +7,7 @@ description: "Розширені функції друку C#й"
 type: docs
 weight: 25
 url: /uk/net/enable-opentype-features/
+timestamp: 2024-07-10-14-38-57
 ---
 
 OpenType - це формат шрифту, введений для забезпечення кращої підтримки міжнародних мов та письмових систем у порівнянні з PostScript та TrueType. Особливості макета OpenType широко відомі як функції OpenType. Aspose.Words.Shaping.HarfBuzz Пакет надає підтримку функціям OpenType Aspose.Words використання HarfBuzz текстовий двигун формування.

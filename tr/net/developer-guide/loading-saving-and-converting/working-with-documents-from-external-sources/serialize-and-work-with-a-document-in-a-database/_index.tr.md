@@ -7,6 +7,7 @@ description: "C# kullanarak bir veritabanında bu belgeyle çalışmak için bir
 type: docs
 weight: 10
 url: /tr/net/serialize-and-work-with-a-document-in-a-database/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Belgelerle çalışırken yapmanız gerekebilecek görevlerden biri, **Document** nesnelerini veritabanına depolamak ve veritabanından almaktır. Örneğin herhangi bir türde içerik yönetim sistemi uyguluyorsanız bu gerekli olacaktır. Belgelerin önceki tüm sürümleri veritabanı sisteminde saklanmalıdır. Belgeleri veritabanında saklama yeteneği, uygulamanız web tabanlı bir hizmet sağladığında da son derece kullanışlıdır.

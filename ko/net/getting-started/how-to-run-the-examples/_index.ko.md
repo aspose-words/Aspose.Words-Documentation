@@ -7,6 +7,7 @@ description: "GitHub 저장소에서 .NET용 Aspose.Words 예제를 다운로드
 type: docs
 weight: 110
 url: /ko/net/how-to-run-the-examples/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Aspose.Words 가능성과 기능에 더 익숙해지기 위해 GitHub 저장소에서 다운로드하여 실행하고 자세히 배울 수 있는 예제를 제공합니다.

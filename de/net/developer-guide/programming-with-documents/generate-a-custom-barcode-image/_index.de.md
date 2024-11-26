@@ -7,6 +7,7 @@ description: "Beispiel für die Erzeugung von Barcodes unter Verwendung von C#."
 type: docs
 weight: 350
 url: /de/net/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
 Ein Strichcode ist eine visuelle Darstellung von Daten in Form paralleler Linien oder Muster. Strichcodes werden in verschiedenen Branchen wie Einzelhandel, Logistik, Gesundheitswesen, Bankwesen und vielen anderen eingesetzt.

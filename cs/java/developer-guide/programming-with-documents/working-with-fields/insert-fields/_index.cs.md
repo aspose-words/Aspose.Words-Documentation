@@ -7,6 +7,7 @@ description: "Různé způsoby vkládání polí do dokumentu pomocí Java."
 type: docs
 weight: 20
 url: /cs/java/insert-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Existuje několik různých způsobů, jak vložit pole do dokumentu:
@@ -103,7 +104,7 @@ Následující příklad kódu ukazuje, jak přidat `MERGE` použití pole DOM k
 
 ### Vkládání Mail Merge `ADDRESSBLOCK` pole do dokumentu pomocí DOM
 
-The `ADDRESSBLOCK` a mail merge blok adres v dokumentu Word. `ADDRESSBLOCK` pole v dokumentu Word může být reprezentováno [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) třída. Můžete použít **FieldAddressBlock** třída provádět tyto operace:
+The `ADDRESSBLOCK` a Mail Merge blok adres v dokumentu Word. `ADDRESSBLOCK` pole v dokumentu Word může být reprezentováno [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) třída. Můžete použít **FieldAddressBlock** třída provádět tyto operace:
 
 - uveďte, zda má být název země/regionu zařazen do pole
 - uveďte, zda má být adresa zformátována podle země/regionu příjemce podle POST*CODE (Universal Post Union 2006)
@@ -145,7 +146,7 @@ The `ASK` pole se používá k tomu, aby uživatel pro text přiřadil do zálo�
 
 - uveďte název záložky
 - zadat výchozí uživatelskou odpověď (počáteční hodnota obsažená v rychlém okně)
-- určí, zda má být odpověď uživatele obdržena jednou za mail merge provoz
+- určí, zda má být odpověď uživatele obdržena jednou za Mail Merge provoz
 - zadat rychlý text (název rychlého okna)
 
 {{% alert color="primary" %}}

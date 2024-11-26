@@ -7,6 +7,7 @@ type: docs
 description: "Document Object Model (DOM) este o reprezentare în memorie a unui document Word. Citește, manipulează și modifică conținutul și formatarea unui fișier Word folosind C#."
 weight: 10
 url: /ro/net/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The Aspose.Words Document Object Model (DOM) este o reprezentare în memorie a unui document Word. Aspose.Words DOM vă permite să citiţi programatic, să manipulaţi şi să modificaţi conţinutul şi formatarea unui document Word.

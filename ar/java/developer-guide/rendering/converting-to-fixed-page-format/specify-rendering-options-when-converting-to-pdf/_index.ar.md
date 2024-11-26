@@ -1,185 +1,183 @@
----
-title: تحديد خيارات تقديم الخدمات عند الانتقال إلى إدارة الدعم الميداني
-second_title: Aspose.Words for Java
-articleTitle: تحديد خيارات تقديم الخدمات عند الانتقال إلى إدارة الدعم الميداني
-linktitle: تحديد خيارات تقديم الخدمات عند الانتقال إلى إدارة الدعم الميداني
-description: "Convert a document to PDF with advanced options. Use PdfSaveOptions to change the result ofving a document to PDF format using Java."
+﻿---
+title: حدد خيارات العرض عند التحويل إلى PDF
+second_title: Aspose.Words ل Java
+articleTitle: حدد خيارات العرض عند التحويل إلى PDF
+linktitle: حدد خيارات العرض عند التحويل إلى PDF
+description: "تحويل مستند إلى PDF مع خيارات متقدمة. استخدم PdfSaveOptions لتغيير نتيجة حفظ مستند إلى تنسيق PDF باستخدام Java."
 type: docs
 weight: 20
 url: /ar/java/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
-The PDF format is a fixed-page format that is very popular among users and widely supported by various applications because a PDF document looks the same on any tool. ولهذا السبب، يشكل التحول إلى قوات الدفاع الشعبي سمة هامة من سمات القوى الديمقراطية Aspose.Words.
+تنسيق PDF هو تنسيق صفحة ثابتة يحظى بشعبية كبيرة بين المستخدمين ويدعمه على نطاق واسع العديد من التطبيقات لأن ملف PDF يبدو المستند كما هو على أي جهاز. لهذا السبب، يعد التحويل إلى PDF ميزة مهمة في Aspose.Words.
 
-PDF هو شكل معقد. وهناك حاجة إلى عدة مراحل من الحسابات في عملية تحويل وثيقة إلى إدارة الدعم الميداني، بما في ذلك حساب التصميم. وبما أن هذه المراحل تشمل حوسبات معقدة، فإنها تستغرق وقتا طويلا. Also, the PDF format is rather complex by itself. ولها هيكل محدد للملفات، ونموذج للرسوم البيانية، والتصنيف. وعلاوة على ذلك، فإنه يميز بعض الوظائف المعقدة للنواتج، مثل بطاقات هيكل الوثائق، والتشفير، والتوقيعات الرقمية، والأشكال القابلة للتجزئة.
+PDF هو شكل معقد. مطلوب عدة مراحل من الحسابات في عملية تحويل مستند إلى PDF، بما في ذلك حساب التخطيط. نظرا لأن هذه المراحل تتضمن حسابات معقدة، فهي تستغرق وقتا طويلا. أيضا، تنسيق PDF معقد إلى حد ما في حد ذاته. يحتوي على بنية ملف محددة ونموذج رسومات وتضمين للخط. علاوة على ذلك، فإنه يتميز ببعض وظائف الإخراج المعقدة، مثل علامات بنية المستند والتشفير والتوقيعات الرقمية والنماذج القابلة للتحرير.
 
-Aspose.Words محرك التصميم يحد من الطريق Microsoft Wordيعمل محرك تخطيط الصفحات. لذا Aspose.Words يجعل وثائق إنتاج PDF تبدو أقرب ما يمكن مما تراه في Microsoft Word. ومن الضروري في بعض الأحيان تحديد خيارات إضافية يمكن أن تؤثر على نتيجة توفير وثيقة في شكل PDF. ويمكن تحديد هذه الخيارات باستخدام [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) درجة، تحتوي على الخواص التي تحدد كيفية عرض ناتج PDF.
+محرك تخطيط Aspose.Words يقلد الطريقة التي يعمل بها محرك تخطيط الصفحة Microsoft Word. لذلك، Aspose.Words يجعل PDF وثائق الإخراج تبدو أقرب ما يمكن إلى ما ترون في Microsoft Word. في بعض الأحيان يكون من الضروري تحديد خيارات إضافية، والتي يمكن أن تؤثر على نتيجة حفظ مستند في تنسيق PDF. يمكن تحديد هذه الخيارات باستخدام فئة [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/)، التي تحتوي على الخصائص التي تحدد كيفية عرض إخراج PDF.
 
-بعض الأمثلة على استخدام **PdfSaveOptions** وترد أدناه.
+يتم توفير بعض الأمثلة على استخدام **PdfSaveOptions** أدناه.
 
 {{% alert color="primary" %}}
 
-وفي الوقت الراهن، يمكن أن تُوفّر إلى PDF 1.7, PDF 2.0, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2u, and PDF/UA-1 formats. استخدام [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) يعدد لتحديد مستوى الامتثال لمعايير PDF. Note that with the PDF/A format, an output file size is larger than a regular PDF file size.
+حاليا، يمكنك حفظ إلى PDF 1.7, PDF 2.0, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2u, و PDF/UA-1 التنسيقات. استخدم التعداد [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) لتعيين مستوى امتثال المعايير PDF. لاحظ أنه باستخدام تنسيق PDF/A، يكون حجم ملف الإخراج أكبر من حجم ملف PDF العادي.
 
-[PdfCompliance.PdfA1a](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/#PDF-17) و [PdfCompliance.PdfA1b](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/#PDF-17) تُعتبر بالية
+[PdfCompliance.PdfA1a](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/#PDF-17) و [PdfCompliance.PdfA1b](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/#PDF-17) تم وضع علامة على أنها قديمة.
 
-للحصول على مزيد من المعلومات عن PDF/A، انظر المادة التالية، "تعلّم رسوم التحويل إلى PDF/A".
+لمزيد من المعلومات حول PDF/A، راجع المقالة التالية، "تعرف على ميزات التحويل إلى PDF/A".
 
 {{% /alert %}}
 
-## Creating a PDF الوثيقة المتعلقة بأشكال التمويل
+## إنشاء مستند PDF بنماذج قابلة للتعبئة
 
-ومن الممكن أيضا تصدير استمارات يمكن ملؤها من Microsoft Word (أ) وثيقة في الناتج PDF، التي لها نماذج قابلة للملأ بدلاً من نص واضح. استخدام [PreserveFormFields](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getPreserveFormFields) (ب) الممتلكات التي تُوفّر مستنداً في شكل PDF بأشكال يمكن ملؤها.
+من الممكن أيضا تصدير النماذج القابلة للتعبئة من مستند Microsoft Word إلى الإخراج PDF، والذي يحتوي على نماذج قابلة للتعبئة بدلا من نص عادي. استخدم خاصية [PreserveFormFields](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getPreserveFormFields) لحفظ مستند باسم PDF بنماذج قابلة للتعبئة.
 
-Note that in contrast to <span notrans="<span notrans=" Microsoft Word"=""></span>" The PDF format has a limited number of options for editable forms, such as textbox, combo box, and checkbox. Microsoft Word وله أشكال أكثر من ذلك، على سبيل المثال، مختار تاريخ التقويم. وعموماً، ليس من الممكن التقيُّد الكامل Microsoft Word السلوك في PDF. ولذلك، في بعض الحالات المعقدة، قد يختلف ناتج قوات الدفاع الشعبي عما تراه في Microsoft Word.
+لاحظ أنه على عكس Microsoft Word، يحتوي تنسيق PDF على عدد محدود من الخيارات للنماذج القابلة للتحرير، مثل مربع النص ومربع التحرير والسرد و checkbox. Microsoft Word لديها المزيد من أنواع النماذج، على سبيل المثال، منتقي تاريخ التقويم. بشكل عام، لا يمكن تقليد سلوك Microsoft Word بالكامل في PDF. لذلك، في بعض الحالات المعقدة، قد يختلف إخراج PDF عما تراه في Microsoft Word.
 
-ويبيّن المثال الرمزي الوارد أدناه كيفية إنقاذ وثيقة من قبيل PDF بأشكال يمكن ملؤها بضغط ونوعية محددين من طراز Jpeg:
+يوضح مثال التعليمات البرمجية أدناه كيفية حفظ مستند باسم PDF مع نماذج قابلة للتعبئة مع ضغط جبيغ المحدد والجودة:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-PdfImageCompression.java" >}}
 
-## Exporting Document Structure and Custom Properties
+## تصدير هيكل المستند والخصائص المخصصة
 
-The [ExportDocumentStructure](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getExportDocumentStructure) الملكية تمكنك من تصدير هيكل الوثائق إلى إنتاج PDF.
+تمكنك خاصية [ExportDocumentStructure](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getExportDocumentStructure) من تصدير بنية المستند إلى إخراج PDF.
 
-وتوفر مرافق البنية المنطقية لقوات الدفاع الشعبي آلية لإدماج المعلومات، فيما يتعلق بهيكل محتوى الوثائق، في ملف من ملفات قوات الدفاع الشعبي. Aspose.Words يحفظ المعلومات عن الهيكل من Microsoft Word الوثيقة، مثل الفقرات، والقوائم، والجداول، والحواشي/المذكرات، وما إلى ذلك.
+PDF توفر مرافق الهيكل المنطقي آلية لدمج المعلومات، فيما يتعلق بهيكل محتوى المستند، في ملف PDF. Aspose.Words يحتفظ بمعلومات حول الهيكل من مستند Microsoft Word، مثل الفقرات والقوائم والجداول والحواشي السفلية/التعليقات الختامية، إلخ.
 
-The following example demonstrates how to save a document to PDF format, maintaining the document structure:
+يوضح المثال التالي كيفية حفظ مستند بتنسيق PDF، مع الحفاظ على بنية المستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-ExportDocumentStructure.java" >}}
 
-Aspose.Words ويمكّنكم أيضاً من تصدير الممتلكات العرفية المستندية إلى PDF، وهو ما يتجلى في المثال التالي:
+Aspose.Words يسمح لك أيضا بتصدير خصائص المستندات المخصصة إلى PDF، والتي يتم توضيحها في المثال التالي:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-CustomPropertiesExport.java" >}}
 
-## Exporting Outlines from Bookmarks and Headings in Output PDF
+## تصدير الخطوط العريضة من الإشارات المرجعية والعناوين في الإخراج PDF
 
-إذا كنت ترغب في تصدير علامات الكتاب كمخططات في الناتج PDF، يمكنك استخدام [DefaultBookmarksOutlineLevel](https://reference.aspose.com/words/java/com.aspose.words/outlineoptions/#getDefaultBookmarksOutlineLevel) ملكية وتحدد هذه الممتلكات مستوى التقصير في مخطط الوثيقة، الذي Microsoft Word علامات الكتاب تظهر إذا كانت الوثيقة تحتوي على علامات كتابية في رأس/قدم الوثيقة، يمكنك وضع [HeaderFooterBookmarksExportMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getHeaderFooterBookmarksExportMode) الممتلكات إلى [First](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#FIRST) أو [All](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#ALL) من أجل تحديد كيفية تصديرها في الناتج PDF. لا تُصدَّر العلامات الدفترية في الرعاة/القدمين عندما تكون قيمة الدفتر **HeaderFooterBookmarksExportMode** هو [None](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#NONE).
+إذا كنت ترغب في تصدير الإشارات المرجعية كمخططات في الإخراج PDF، يمكنك استخدام الخاصية [DefaultBookmarksOutlineLevel](https://reference.aspose.com/words/java/com.aspose.words/outlineoptions/#getDefaultBookmarksOutlineLevel). تحدد هذه الخاصية المستوى الافتراضي في مخطط المستند، حيث يتم عرض الإشارات المرجعية Microsoft Word. إذا كان المستند يحتوي على إشارات مرجعية في رأس / تذييل المستند، فيمكنك تعيين الخاصية [HeaderFooterBookmarksExportMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getHeaderFooterBookmarksExportMode) إلى [First](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#FIRST) أو [All](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#ALL) لتحديد كيفية تصديرها في الإخراج PDF. لا يتم تصدير الإشارات المرجعية في الرؤوس/التذييلات عندما تكون قيمة **HeaderFooterBookmarksExportMode** [None](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#NONE).
 
-ويبيّن المثال الرمزي الوارد أدناه كيفية تصدير العلامات الدفترية من أول رأس/قدم للقسم:
+يوضح مثال الكود أدناه كيفية تصدير الإشارات المرجعية من الرأس/التذييل الأول للقسم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-ExportHeaderFooterBookmarks.java" >}}
 
-ويرد فيما يلي بيان للناتج PDF من هذا المثال:
+يظهر الإخراج PDF من هذا المثال أدناه:
 
 ![rendering-options-when-converting-to-pdf-aspose-words-java-1](/words/java/specify-rendering-options-when-converting-to-pdf/specify-rendering-options-when-converting-to-pdf-1.png)
 
-عندما **HeaderFooterBookmarksExportMode** جاهز [First](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#FIRST) وتصدر هذه الوثيقة حتى وبغرابة رؤساء/أقدام أو رئيس/مقدمين مختلفين من الصفحات الأولى، علامات كتابية لأول رئيس/مقدمين فريدين في قسم ما.
+عندما يتم تعيين **HeaderFooterBookmarksExportMode** على [First](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#FIRST) ويكون للمستند رؤوس/تذييلات زوجية وفردية أو رأس/تذييل مختلف للصفحة الأولى، يتم تصدير الإشارات المرجعية لأول رؤوس/تذييلات فريدة في قسم.
 
-يمكنك أيضا تصدير العناوين في الناتج PDF، باستخدام [HeadingsOutlineLevels](https://reference.aspose.com/words/java/com.aspose.words/outlineoptions/#getHeadingsOutlineLevels) ملكية وتحدد هذه الممتلكات عدد العناوين المدرجة في مخطط الوثيقة.
+يمكنك أيضا تصدير العناوين في الإخراج PDF، باستخدام خاصية [HeadingsOutlineLevels](https://reference.aspose.com/words/java/com.aspose.words/outlineoptions/#getHeadingsOutlineLevels). تحدد هذه الخاصية عدد مستويات العناوين المضمنة في مخطط المستند.
 
-ويبين المثال الرمزي الوارد أدناه كيفية تصدير العناوين بثلاث مستويات:
+يوضح مثال الكود أدناه كيفية تصدير العناوين بثلاثة مستويات:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-SaveToPdfWithOutline.java" >}}
 
-ويرد أدناه بيان للناتج PDF من هذا المثال:
+الناتج PDF من هذا المثال موضح أدناه:
 
 ![rendering-options-when-converting-to-pdf-aspose-words-java-2](/words/java/specify-rendering-options-when-converting-to-pdf/specify-rendering-options-when-converting-to-pdf-2.png)
 
 {{% alert color="primary" %}}
 
-وقد يكون لعلامة كتاب أو ملاحية مظهر مختلف في مختلف مشاهدي PDF. وعلاوة على ذلك، لا توجد في بعض التطبيقات علامات كتابية وملاحة مرفوعة.
+قد يكون للإشارة المرجعية أو التنقل في العنوان مظاهر مختلفة في مختلف PDF المشاهدين. علاوة على ذلك، في بعض التطبيقات، لا تتوفر الإشارات المرجعية والتنقل في العنوان في UI.
 
 {{% /alert %}}
 
-## الحد من حجم الوثائق
+## اختزال الصور لتقليل حجم المستند
 
-Aspose.Words:: توفير القدرة على خفض صور العينات من أجل خفض حجم الناتج PDF باستخدام [DownsampleOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getDownsampleOptions) ملكية أخذ العينات مُمكّن من التقصير في [DownsampleImages](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getDownsampleImages) ملكية
+Aspose.Words يوفر القدرة على تقليص الصور من أجل تقليل حجم الإخراج PDF، باستخدام خاصية [DownsampleOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getDownsampleOptions). يتم تمكين الاختزال افتراضيا في الخاصية [DownsampleImages](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getDownsampleImages).
 
-Note that it is also possible to set a specific resolution in the [Resolution](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getResolution) الممتلكات أو عتبة القرار في [ResolutionThreshold](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getResolutionThreshold) ملكية وفي الحالة الثانية، إذا كان حل الصور أقل من القيمة العتبة، فإن تخفيض العينة لن ينطبق.
+لاحظ أنه من الممكن أيضا تعيين دقة محددة في خاصية [Resolution](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getResolution)، أو عتبة دقة في خاصية [ResolutionThreshold](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getResolutionThreshold). في الحالة الثانية، إذا كانت دقة الصورة أقل من قيمة العتبة، فلن يتم تطبيق الاختزال.
 
-ويبين المثال الرمزي الوارد أدناه كيفية تغيير حل الصور في وثيقة من نواتج PDF:
+يعرض مثال الكود أدناه كيفية تغيير دقة الصور في مستند الإخراج PDF:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-DownsamplingImages.java" >}}
 
-ويحسب القرار وفقا لحجم الصورة الحقيقية في الصفحة.
+يتم حساب الدقة وفقا لحجم الصورة الحقيقي على الصفحة.
 
-## Embedding Fonts in literature PDF Format
+## تضمين الخطوط في تنسيق أدوبي PDF
 
-Aspose.Words ويمكّنكم أيضاً من التحكم في كيفية إدماج المثقفين في وثائق قوات الدفاع الشعبي الناتجة. Fonts need to be embedded into any literature PDF document to ensure that the document can be correctly rendered on any machine (see more details about font rendering in the section [استخدام ترو النوع](/words/ar/java/using-truetype-fonts/)) بالخطأ Aspose.Words يُدرج مجموعة فرعية من العناوين المستخدمة في الوثيقة في صندوق PDF المتولد. في هذه الحالة فقط glyphS (characters) used in the document are save to PDF.
+يمكنك Aspose.Words أيضا من التحكم في كيفية تضمين الخطوط في المستندات PDF الناتجة. الخطوط تحتاج إلى أن تكون جزءا لا يتجزأ في أي أدوبي PDF وثيقة لضمان أن الوثيقة يمكن أن تقدم بشكل صحيح على أي جهاز (انظر مزيد من التفاصيل حول تقديم الخط في القسم [باستخدام TrueType الخطوط](/words/java/using-truetype-fonts/)). بشكل افتراضي، يقوم Aspose.Words بتضمين مجموعة فرعية من الخطوط المستخدمة في المستند في PDF الذي تم إنشاؤه. في هذه الحالة، يتم حفظ الحروف الرسومية (الأحرف) المستخدمة في المستند فقط في PDF.
 
-### عندما تستخدم الفواكه الكاملة ومتى تختفي
+### متى تستخدم الخطوط الكاملة ومتى يتم تعيين فرعي
 
-هناك طريقة لتحديد خيار Aspose.Words لتضمين كل العناوين. ويرد في الجدول أدناه مزيد من التفاصيل، إلى جانب بعض مزايا ومساوئ كل إطار.
+هناك طريقة لتحديد خيار لـ Aspose.Words لتضمين خطوط كاملة. مزيد من التفاصيل، جنبا إلى جنب مع بعض مزايا وعيوب كل إعداد موصوفة في الجدول أدناه.
 
-| Embed Fonts Mode |  المزايا | أوجه القصور |
-|  :-  |  :-  |  :-  |
-|  `Full`  | مفيد عندما تريد تحرير قوات الدفاع الشعبي الناتجة لاحقا بإضافة النص أو تعديله. جميع العواطف مشمولة، ومن ثم كل glyphحاضر | وبما أن بعض العناوين كبيرة (الميغابايت) فإن دمجها دون إخضاعها يمكن أن يؤدي إلى ملفات كبيرة من النواتج. |
-|  `Subset`  | الغواصة مفيدة إذا كنت ترغب في إبقاء حجم ملف الناتج أصغر. | <p>The user cannot fully add or edit the text using the subsetted font in the output PDF document. هذا لأن ليس كل شيء glyphالشعار موجود</p>
+| تضمين وضع الخطوط | المزايا | العيوب |
+| :- | :- | :- |
+| `Full` | مفيد عندما تريد تحرير الناتج PDF لاحقا عن طريق إضافة النص أو تعديله. يتم تضمين كافة الخطوط، وبالتالي كل رموزا موجودة. | نظرا لأن بعض الخطوط كبيرة (عدة ميغا بايت)، فإن تضمينها بدون تعيين فرعي يمكن أن يؤدي إلى ملفات إخراج كبيرة. |
+| `Subset` | يعد الإعداد الفرعي مفيدا إذا كنت تريد الاحتفاظ بحجم ملف الإخراج أصغر. | <p>لا يمكن للمستخدم إضافة النص أو تحريره بالكامل باستخدام الخط الفرعي في مستند الإخراج PDF. هذا لأنه ليست كل الحروف الرسومية للخط موجودة.</p><p>إذا تم حفظ عدة PDFs بخطوط فرعية وتجميعها معا، فقد يحتوي المستند PDF المدمج على خط يحتوي على العديد من المجموعات الفرعية غير الضرورية.</p> |
 
-<p>If multiple PDFs are save with subsetted fonts and assembled together, then the combined PDF document may have a font containing many unnecessary subsets.</p>
- |
+### تضمين الخطوط الكاملة في PDF
 
-### Embedding Full Fonts in PDF
+تمكنك خاصية [EmbedFullFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getEmbedFullFonts) من تحديد كيفية تضمين Aspose.Words الخطوط في مستند الإخراج PDF.
 
-The [EmbedFullFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getEmbedFullFonts) الملكية تمكنك من تحديد كيف Aspose.Words يُدرج في وثيقة من نواتج PDF.
+- لتضمين خطوط كاملة في مستند الإخراج PDF، اضبط **EmbedFullFonts** على صحيح
+- لتعيين الخطوط الفرعية عند الحفظ إلى PDF، اضبط **EmbedFullFonts** على خطأ
 
-- To embed full fonts into the output PDF document, set **EmbedFullFonts** إلى true
-- "إلى "الفواتير الفرعية عندما تنقذ قوات الدفاع الشعبي **EmbedFullFonts** إلى false
-
-ويبيّن المثال التالي كيفية إدراج النقاط الكاملة في وثيقة الناتج PDF:
+يوضح المثال التالي كيفية تضمين الخطوط الكاملة في الإخراج PDF وثيقة:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-EmbeddedFontsInPDF-EmbeddAllFonts.java" >}}
 
-ويبين المثال التالي كيفية تحديد Aspose.Words (أ) إلى أرقام فرعية في الناتج PDF:
+يوضح المثال التالي كيفية تعيين Aspose.Words إلى مجموعة فرعية من الخطوط في الإخراج PDF:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-EmbeddedFontsInPDF-EmbeddSubsetFonts.java" >}}
 
 {{% alert color="primary" %}}
 
-يمكنك تحميل ملف النموذج لهذه الأمثلة من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
+يمكنك تنزيل ملف القالب لهذه الأمثلة من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-## How to Control Embedding Core Fonts and Windows النقاط القياسية
+## كيفية التحكم في تضمين الخطوط الأساسية والخطوط القياسية Windows
 
-العناصر الأساسية Windows والعلامات القياسية هي مجموعات " المعيار " من النواة، التي تكون موجودة عادة على آلة الهدف أو مقدمة من قارئ الوثائق، ومن ثم لا يلزم إدراجها في الناتج PDF. من خلال عدم إدراج هذه اللوحات، يمكنك خفض حجم الوثائق الصادرة عن قوات الدفاع الشعبي و مع ذلك الحفاظ على قابلية النقل.
+الخطوط الأساسية و Windows الخطوط القياسية هي مجموعات" قياسية " من الخطوط، والتي عادة ما تكون موجودة على الجهاز المستهدف أو يقدمها قارئ المستندات، وبالتالي لا تحتاج إلى تضمينها في الإخراج PDF. من خلال عدم تضمين هذه الخطوط، يمكنك تقليل حجم المستندات المقدمة PDF والحفاظ على قابلية النقل.
 
-Aspose.Words (ب) يوفر خيارات لاختيار كيفية تصدير الفونتات إلى PDF. يمكنك أن تختار إما أن تدمج النواة الأساسية والتقليدية في الناتج PDF أو أن تتجنب اختراقها وتستخدم نسخاً أو نظاماً قياسياً من الـ PDF على آلة الهدف بدلاً من ذلك. ويسفر استخدام أي من هذين الخيارين عادة عن تخفيض كبير في حجم الملفات بالنسبة لوثائق قوة الدفاع الشعبي التي تولدها Aspose.Words.
+Aspose.Words يوفر خيارات لاختيار كيفية تصدير الخطوط إلى PDF. يمكنك اختيار إما لتضمين الخطوط الأساسية والقياسية في الإخراج PDF أو لتخطي تضمينها واستخدام الخطوط الأساسية القياسية PDF أو خطوط النظام على الجهاز المستهدف بدلا من ذلك. يؤدي استخدام أي من هذين الخيارين عادة إلى تقليل حجم الملف بشكل كبير لـ PDF المستندات التي تم إنشاؤها بواسطة Aspose.Words.
 
-- بما أن هذه الخيارات مستبعدة، يجب أن تختار واحد فقط في كل مرة.
-- عند الادخار بامتثال PDF/A-1، يجب أن تكون جميع العناصر المستخدمة مدمجة في وثيقة PDF. عند الادخار بهذا الامتثال [UseCoreFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getUseCoreFonts) يجب أن تُحدد الممتلكات false و [FontEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getFontEmbeddingMode) يجب أن تُحدد الممتلكات [EmbedAll](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode#EMBED_ALL)[.](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usecorefonts/)
+- نظرا لأن هذه الخيارات حصرية بشكل متبادل، يجب عليك اختيار واحد فقط في كل مرة.
+- عند الحفظ بامتثال PDF/A-1، يجب تضمين جميع الخطوط المستخدمة في مستند PDF. عند الحفظ باستخدام هذا الامتثال، يجب تعيين الخاصية [UseCoreFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getUseCoreFonts) على خطأ ويجب تعيين الخاصية [FontEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getFontEmbeddingMode) على [EmbedAll](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode#EMBED_ALL)[.](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usecorefonts/)
 
-### Embedding Core Fonts
+### تضمين الخطوط الأساسية
 
-The option to embed Core fonts can be enabled or disabled by using the [UseCoreFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getUseCoreFonts) ملكية عندما تكون جاهزة true, لم تُدرَج في وثيقة " النوع الحقيقي " التالية الأكثر شعبية:
+يمكن تمكين خيار تضمين الخطوط الأساسية أو تعطيلها باستخدام خاصية [UseCoreFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getUseCoreFonts). عند ضبطه على صحيح، لا يتم تضمين خطوط "النوع الحقيقي" الأكثر شيوعا (الخطوط الأساسية 14) في مستند الإخراج PDF:
 
 - `Arial`
 - `Times New Roman`
 - `Courier New`
 - `Symbol`
 
-ويُستعاض عن هذه اللوحات بالأرقام الأساسية المقابلة للنوع 1 التي توفرها قارئة عندما تُفتح قوات الدفاع الشعبي.
+يتم استبدال هذه الخطوط بالخطوط المقابلة من النوع الأساسي 1، والتي يتم توفيرها بواسطة القارئ عند فتح PDF.
 
-ويبين المثال الوارد أدناه كيفية تحديد Aspose.Words تجنباً لضم النواة الأساسية والسماح للقارئ باستبدالها بـ PDF النوع 1
+يوضح المثال الموضح أدناه كيفية تعيين Aspose.Words لتجنب تضمين الخطوط الأساسية والسماح للقارئ باستبدالها بخطوط PDF من النوع 1:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-EmbeddedFontsInPDF-AvoidEmbeddingCoreFonts.java" >}}
 
 {{% alert color="primary" %}}
 
-يمكنك تحميل ملف النموذج لهذا المثال من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
+يمكنك تنزيل ملف القالب لهذا المثال من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-ولما كان المشاهدون من تحالف القوى الديمقراطية يقدمون أرقاماً أساسية عن أي منصة مدعومة، فإن هذا الخيار مفيد أيضاً عندما يكون من المطلوب نقل وثائق أكبر. على أي حال، قد تبدو الأرقام الأساسية مختلفة عن أرقام النظام.
+نظرا لأن المشاهدين PDF يوفرون خطوطا أساسية على أي نظام أساسي مدعوم، فإن هذا الخيار مفيد أيضا عند الحاجة إلى قابلية أكبر لنقل المستندات. ومع ذلك، قد تبدو الخطوط الأساسية مختلفة عن خطوط النظام.
 
 {{% alert color="primary" %}}
 
-يعمل هذا الإطار فقط لوكالة الاستخبارات الوطنيةWindows-1252) نص تشفير) وكتابة نص غير تابع للمؤسسة إلى قوات الدفاع الشعبي ستتطلب دائماً ضم العناصر المقابلة.
+يعمل هذا الإعداد فقط ل ANSI (Windows-1252) ترميز النص. تتطلب كتابة نص غيرANSI إلى PDF دائما تضمين الخطوط المقابلة.
 
 {{% /alert %}}
 
-### نظام التأسيس
+### تضمين خطوط النظام
 
-ويمكن تمكين هذا الخيار أو إعاقته باستخدامه [FontEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getFontEmbeddingMode) ملكية عندما تكون هذه الملكية جاهزة [EmbedNonstandard](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode/#EMBED-NONSTANDARD), " Arial " و " Times New Roman " true ولا تُدرَج في وثيقة صادرة عن قوات الدفاع الشعبي. In this case, the client viewer relies on the fonts that are installed on the client operating system. عندما **FontEmbeddingMode** الممتلكات مقررة [EmbedNone](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode/#EMBED-NONE), Aspose.Words لا تُضمّنْ أيّ فونتات.
+يمكن تمكين هذا الخيار أو تعطيله باستخدام خاصية [FontEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getFontEmbeddingMode). عندما يتم تعيين هذه الخاصية إلى [EmbedNonstandard](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode/#EMBED-NONSTANDARD)، لا يتم تضمين خطوط النوع الحقيقي" أريال "و" تايمز نيو رومان " في مستند PDF. في هذه الحالة، يعتمد عارض العميل على الخطوط المثبتة على نظام تشغيل العميل. عندما يتم تعيين الخاصية **FontEmbeddingMode** إلى [EmbedNone](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode/#EMBED-NONE)، Aspose.Words لا تقم بتضمين أي خطوط.
 
-ويبين المثال الوارد أدناه كيفية تحديد Aspose.Words لتخطي دمج (أريال) و(تايمز) في وثيقة PDF:
+يوضح المثال أدناه كيفية تعيين Aspose.Words لتخطي تضمين خطوط أريال وتايمز نيو رومان في مستند PDF:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-EmbeddedFontsInPDF-SetFontEmbeddingMode.java" >}}
 
-هذه الطريقة هي الأكثر فائدة عندما ترغب في رؤية وثائقك على نفس المنهاج، مع الحفاظ على المظهر الدقيق للعناصر في الناتج PDF.
+يكون هذا الوضع مفيدا للغاية عندما ترغب في عرض مستنداتك على نفس النظام الأساسي، مع الحفاظ على المظهر الدقيق للخطوط في الإخراج PDF.
 
 {{% alert color="primary" %}}
 
-يعمل هذا الإطار فقط لوكالة الاستخبارات الوطنيةWindows-1252) نص تشفير) وكتابة نص غير متاح لمؤسسة الدفاع عن النفس يتطلب أن يُدرج الخط المقابل.
+يعمل هذا الإعداد فقط ل ANSI (Windows-1252) ترميز النص. تتطلب كتابة نص غيرANSI إلى PDF تضمين الخط المقابل.
 
 {{% /alert %}}

@@ -7,6 +7,7 @@ description: "Aspose.Words için Java, belgelerin işlenmesinde şifreleme ve ka
 type: docs
 weight: 80
 url: /tr/java/fips-mode/
+timestamp: 2024-05-08-10-19-58
 ---
 
 Aspose.Words belgeler işlenirken birden fazla şifreleme ve karma algoritması kullanır ve bu makale bunun nasıl fips standartları ile ilişkili olduğu hakkında bilgi verir.

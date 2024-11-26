@@ -7,6 +7,7 @@ type: docs
 description: "یک سند را به فرمت تصویر (JPG، PNG و غیره) تبدیل کنید. یک پیش نمایش سند ایجاد کنید یا یک اسکن سند برای ارسال فاکتور با استفاده از Python ایجاد کنید."
 weight: 43
 url: /fa/python-net/convert-a-document-to-an-image/
+timestamp: 2024-01-27-14-07-04
 ---
 
 گاهی اوقات لازم است به جای اسناد در فرمت های دیگر، مانند DOCX یا PDF، یک تصویر دریافت کنید. به عنوان مثال، شما باید یک پیش نمایش از هر صفحه سند را به وب سایت یا برنامه خود اضافه کنید یا یک "اسکن" از یک سند برای ارسال فاکتور ایجاد کنید. این زمانی است که ممکن است نیاز داشته باشید یک سند در هر [فرمت بار پشتیبانی شده](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) را به یک تصویر و دوباره در هر [فرمت ذخیره پشتیبانی شده](https://reference.aspose.com/words/python-net/aspose.words/saveformat/) تبدیل کنید.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: การทำงานกับการเชื่อมโยงหลายมิติในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: เพิ่มหรือแก้ไขการเชื่อมโยงหลายมิติ
@@ -7,6 +7,7 @@ description: "วิธีการเพิ่มการเชื่อมโ
 type: docs
 weight: 180
 url: /th/cpp/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 การเชื่อมโยงหลายมิติในMicrosoft Wordเอกสารคือฟิลด์`HYPERLINK` ในAspose.Wordsการเชื่อมโยงหลายมิติจะดำเนินการผ่าน[FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/)คลาส.

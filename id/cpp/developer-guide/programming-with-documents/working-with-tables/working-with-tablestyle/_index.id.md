@@ -1,4 +1,4 @@
-﻿---
+---
 title: Ubah Gaya Tabel di Dokumen Word
 second_title: Aspose.Words untuk C++
 articleTitle: Terapkan Gaya Tabel
@@ -7,6 +7,7 @@ description: "Pemformatan tabel lanjutan C++. Buat gaya tabel menggunakan C++. T
 type: docs
 weight: 80
 url: /id/cpp/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Gaya tabel mendefinisikan serangkaian pemformatan yang dapat dengan mudah diterapkan ke tabel. Pemformatan seperti batas, bayangan, perataan, dan font dapat diatur dalam gaya tabel dan diterapkan ke banyak tabel untuk tampilan yang konsisten.

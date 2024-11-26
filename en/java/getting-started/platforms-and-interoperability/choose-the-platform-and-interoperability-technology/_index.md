@@ -7,6 +7,7 @@ description: "Choose the Platform for Aspose.Words."
 type: docs
 weight: 10
 url: /java/choose-the-platform-and-interoperability-technology/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Using Aspose.Words from any other programming language requires the use of some *interoperability technology* . The interoperability technology must allow your programming language to call into a class library written for Java. 

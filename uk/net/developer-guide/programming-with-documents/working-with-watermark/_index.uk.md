@@ -7,6 +7,7 @@ description: "Документація водяного знака за допо
 type: docs
 weight: 340
 url: /uk/net/working-with-watermark/
+timestamp: 2024-05-02-11-51-44
 ---
 
 Ця тема обговорює, як працювати программатично з водяним знаком Aspose.Wordsй Watermark - це фонове зображення, яке відображає за текстом у документі. Водяний знак може містити текст або зображення, представлене на сайті [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/) клас.

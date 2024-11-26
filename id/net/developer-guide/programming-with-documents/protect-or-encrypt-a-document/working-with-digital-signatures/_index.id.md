@@ -7,6 +7,7 @@ description: "Tanda tangani dokumen secara digital dan deteksi, hitung, verifika
 type: docs
 weight: 40
 url: /id/net/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tanda tangan digital merupakan penerapan teknologi tanda tangan elektronik untuk menandatangani dokumen dan mengotentikasi penandatangannya untuk menjamin bahwa suatu dokumen tidak mengalami perubahan sejak ditandatangani. Setiap tanda tangan digital bersifat unik bagi setiap penandatangan karena mengikuti protokol PKI untuk menghasilkan kunci publik dan privat. Menandatangani dokumen secara digital berarti membuat tanda tangan menggunakan kunci pribadi penanda tangan dimana algoritma matematika digunakan untuk mengenkripsi hash yang dihasilkan.

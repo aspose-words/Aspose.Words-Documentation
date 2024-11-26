@@ -7,6 +7,7 @@ description: "如何使用 C# 中的表格。介绍如何使用 Aspose.Words for
 type: docs
 weight: 190
 url: /zh/net/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 文档中的 **桌子** 是构建类似数据的好方法。这就是为什么表格是一种常见的内容格式化元素，并且大多数格式都以一种或另一种形式支持表格。

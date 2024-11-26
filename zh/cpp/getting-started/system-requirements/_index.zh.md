@@ -1,4 +1,4 @@
-﻿---
+---
 title: 系统要求
 second_title: Aspose.Words为C++
 articleTitle: 系统要求
@@ -7,6 +7,7 @@ description: "在你开始工作之前 Aspose.Words为C++，确保您满足操�
 type: docs
 weight: 70
 url: /zh/cpp/system-requirements/
+timestamp: 2024-07-11-16-13-28
 ---
 
 Aspose.Words为C++ 不需要安装任何第三方产品，如Microsoft Word。 Aspose.Words本身是一个引擎，用于创建，修改，转换和呈现各种格式的文档，包括Microsoft Word文档格式。

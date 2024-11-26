@@ -7,6 +7,7 @@ description: "Tạo và quản lý các phần cũng như ngắt phần trong t�
 type: docs
 weight: 120
 url: /vi/python-net/working-with-sections/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Đôi khi bạn muốn một tài liệu không có cùng định dạng trên tất cả các trang. Ví dụ: bạn có thể cần sửa đổi định dạng số trang, có kích thước và hướng trang khác nhau hoặc lấy trang tài liệu đầu tiên làm trang bìa mà không đánh số. Bạn có thể đạt được điều đó với các phần.

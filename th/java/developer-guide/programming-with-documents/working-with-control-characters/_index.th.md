@@ -1,26 +1,27 @@
----
-title: การ ทํา งาน กับ อักขระ ควบคุม
-second_title: Aspose.Words สําหรับ Java
-articleTitle: การ ทํา งาน กับ อักขระ ควบคุม
-linktitle: การ ทํา งาน กับ อักขระ ควบคุม
-description: "แนะนําให้ทํางานกับตัวควบคุมใน Aspose.Words สําหรับ Java."
+﻿---
+title: การทำงานกับอักขระควบคุม
+second_title: Aspose.WordsสำหรับJava
+articleTitle: การทำงานกับอักขระควบคุม
+linktitle: การทำงานกับอักขระควบคุม
+description: "แนะนำการทำงานกับอักขระควบคุมในAspose.WordsสำหรับJava."
 type: docs
 weight: 400
 url: /th/java/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Microsoft Word เอกสาร อาจ มี ตัว อักษร หลาย ตัว ที่ มี ความ หมาย เป็น พิเศษ. โดยปกติจะใช้เพื่อการฟอร์แมต และไม่วาดในโหมดปกติ คุณสามารถให้มันเห็นได้ หากคุณคลิกที่ปุ่ม show/ hide ในรูปแบบสัญลักษณ์ที่ตั้งบนแถบเครื่องมือมาตรฐาน
+Microsoft Wordเอกสารอาจประกอบด้วยอักขระต่างๆที่มีความหมายพิเศษ โดยปกติพวกเขาจะใช้สำหรับการจัดรูปแบบวัตถุประสงค์และไม่ได้วาดในโหมดปกติ คุณสามารถทำให้มองเห็นได้ถ้าคุณคลิกปุ่มแสดง/ซ่อนเครื่องหมายการจัดรูปแบบที่อยู่บนแถบ.
 
-บางครั้งคุณอาจต้องเพิ่มหรือลบอักขระไป/ จากข้อความ ตัวอย่างเช่น เมื่อได้รับโปรแกรมจากเอกสาร Aspose.Words รักษาอักขระที่ควบคุมได้มากที่สุด หากคุณต้องการที่จะทํางานกับข้อความนี้ คุณควรจะลบ หรือแทนที่ตัวอักษรนั้น ๆ
+บางครั้งคุณอาจต้องเพิ่มหรือลบอักขระไปยัง/จากข้อความ ตัวอย่างเช่นเมื่อได้รับข้อความตามโปรแกรมจากเอกสารAspose.Wordsจะเก็บรักษาอักขระตัวควบคุมส่วนใหญ่ไว้ดังนั้นหากคุณต้องการทำงานกับข้อความนี้คุณควรลบหรือแทนที่อักขระ.
 
-เดอะ [ControlChar](https://reference.aspose.com/words/java/com.aspose.words/controlchar/) คลาสเป็นคลังเก็บข้อมูลสําหรับค่าคงที่ที่แสดงถึงอักขระควบคุม ที่มักพบในเอกสาร มันให้ทั้ง char และสตริง รุ่นของค่าคงที่เดียวกัน ตัวอย่างเช่น ข้อความ [LineBreak](https://reference.aspose.com/words/java/com.aspose.words/controlchar/#LINE-BREAK) และสีแดงเข้ม [LineBreakChar](https://reference.aspose.com/words/java/com.aspose.words/controlchar/#LINE-BREAK_CHAR) มันมีค่าเท่ากัน
+คลาส[ControlChar](https://reference.aspose.com/words/java/com.aspose.words/controlchar/)เป็นที่เก็บค่าคงที่ที่แสดงอักขระควบคุมมักพบในเอกสาร มันมีทั้งถ่านและรุ่นสตริงของค่าคงที่เดียวกัน ตัวอย่างเช่นสตริง[LineBreak](https://reference.aspose.com/words/java/com.aspose.words/controlchar/#LINE-BREAK)และถ่าน[LineBreakChar](https://reference.aspose.com/words/java/com.aspose.words/controlchar/#LINE-BREAK_CHAR)มีค่าเดียวกัน.
 
 {{% alert color="primary" %}}
 
-ใช้คลาสนี้เมื่อใดก็ตามที่คุณต้องการจัดการกับตัวควบคุม
+ใช้คลาสนี้เมื่อใดก็ตามที่คุณต้องการจัดการกับอักขระควบคุม.
 
 {{% /alert %}}
 
-ตัวอย่างรหัสต่อไปนี้แสดงถึงวิธีการใช้อักขระควบคุม:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีใช้อักขระตัวควบคุม:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-UseControlCharacters-UseControlCharacters.java" >}}

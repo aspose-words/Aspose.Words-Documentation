@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabajar con Texto en una tabla
 second_title: Aspose.Words para C++
 articleTitle: Trabajar con Texto en una tabla
@@ -7,6 +7,7 @@ description: "Reemplazar texto en una tabla en C++. Extraiga texto sin formato d
 type: docs
 weight: 60
 url: /es/cpp/work-with-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Como se mencionó en artículos anteriores, una tabla generalmente contiene texto sin formato, aunque se puede colocar otro contenido, como imágenes o incluso otras tablas, en las celdas de la tabla..

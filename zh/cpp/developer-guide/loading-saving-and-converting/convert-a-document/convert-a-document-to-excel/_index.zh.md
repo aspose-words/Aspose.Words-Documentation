@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中将Word转换为Excel
 second_title: Aspose.Words对于C++
 articleTitle: 将文档转换为Excel
@@ -7,6 +7,7 @@ description: "将PDF转换为Excel，XML转换为Excel，DOCX转换为Excel C++�
 type: docs
 weight: 15
 url: /zh/cpp/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 将文档从一种格式转换为另一种格式是Aspose.Words的旗舰功能。 您还可以将任何可用的[load format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/)格式的文档转换为XLSX格式。

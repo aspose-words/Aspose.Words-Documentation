@@ -7,6 +7,7 @@ description: "Načíst svůj dokument v jakémkoliv podporovaném formátu pomoc
 type: docs
 weight: 20
 url: /cs/python-net/supported-features-on-document-load/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words se snaží podporovat všechny funkce pro všechny podporované formáty. Téměř všechny vlastnosti Microsoft Word dokumenty jsou podporovány a jsou věrně zachovány během konverze. Použití Aspose.Words můžete načíst a převést dokument libovolné velikosti a snadno zvládnout konverzi dokumentu sestávajícího z tisíců stránek během několika sekund. Jediným omezením je množství dostupné pracovní paměti na stroji.

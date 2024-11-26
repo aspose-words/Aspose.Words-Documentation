@@ -1,4 +1,4 @@
-﻿---
+---
 title: Conversia unui Document în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Conversia unui Document
@@ -7,6 +7,7 @@ type: docs
 weight: 30
 url: /ro/java/convert-a-document/
 description: "Convertiți cu ușurință documente dintr-un format în altul. Puteți lucra cu toate cele mai populare formate, cum ar fi Microsoft Word formate, cum ar fi DOCX sau DOC, OpenDocument formate, cum ar fi ODT sau OTT, formate web, cum ar fi HTML sau XHTML, formate de text, cum ar fi MarkDown sau TXT, și altele folosind Java."
+timestamp: 2024-09-25-11-08-55
 ---
 
 Capacitatea de a converti cu ușurință și în mod fiabil documente dintr-un format în altul este una dintre principalele domenii caracteristice ale Aspose.Words. O astfel de conversie nu este altceva decât o combinație de operațiuni de încărcare și salvare.

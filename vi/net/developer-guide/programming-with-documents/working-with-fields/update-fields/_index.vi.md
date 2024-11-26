@@ -7,6 +7,7 @@ description: "Tìm hiểu cách cập nhật các trường trong C#. Cập nh�
 type: docs
 weight: 30
 url: /vi/net/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Thông thường, trường được chèn vào Microsoft Word đã chứa giá trị cập nhật. Ví dụ: nếu trường là công thức hoặc số trang, nó sẽ chứa giá trị được tính toán chính xác cho phiên bản đã cho của tài liệu. Nhưng nếu bạn có một ứng dụng tạo hoặc sửa đổi tài liệu với các trường như hợp nhất hai tài liệu hoặc điền dữ liệu vào đó, thì lý tưởng nhất là tất cả các trường phải được cập nhật để tài liệu trở nên hữu ích.
@@ -42,7 +43,7 @@ Bạn có thể tải xuống tệp mẫu của ví dụ này từ [Aspose.Words
 
 ### Cập nhật trường tự động trong Mail Merge
 
-Khi bạn thực thi mail merge, tất cả các trường trong tài liệu sẽ được cập nhật tự động. Điều này là do mail merge là một trường hợp cập nhật trường. Chương trình gặp trường mail merge và cần cập nhật kết quả của nó, bao gồm việc lấy giá trị từ nguồn dữ liệu và chèn nó vào trường. Tất nhiên, logic phức tạp hơn, chẳng hạn như khi đã đến cuối vùng tài liệu/mail merge nhưng vẫn còn dữ liệu tiếp theo cần được hợp nhất, thì vùng đó cần được sao chép và tập hợp trường mới được cập nhật.
+Khi bạn thực thi mail merge, tất cả các trường trong tài liệu sẽ được cập nhật tự động. Điều này là do Mail Merge là một trường hợp cập nhật trường. Chương trình gặp trường Mail Merge và cần cập nhật kết quả của nó, bao gồm việc lấy giá trị từ nguồn dữ liệu và chèn nó vào trường. Tất nhiên, logic phức tạp hơn, chẳng hạn như khi đã đến cuối vùng tài liệu/mail merge nhưng vẫn còn dữ liệu tiếp theo cần được hợp nhất, thì vùng đó cần được sao chép và tập hợp trường mới được cập nhật.
 
 ## Cập nhật các trường có thuộc tính bẩn
 

@@ -7,6 +7,7 @@ description: "Mit Python können Sie auf Stile und Themen in einem Dokument zugr
 type: docs
 weight: 110
 url: /de/python-net/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Die [StyleCollection](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/)-Klasse wird zum Verwalten integrierter Stile und zum Anwenden benutzerdefinierter Einstellungen auf Stile verwendet.

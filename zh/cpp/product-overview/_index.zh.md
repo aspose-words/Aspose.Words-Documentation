@@ -1,4 +1,4 @@
-﻿---
+---
 title: 产品概览
 second_title: Aspose.Words为C++
 articleTitle: 产品概览
@@ -7,6 +7,7 @@ description: "Aspose.Words为C++ 是一个软件库，旨在创建，修改，�
 type: docs
 weight: 5
 url: /zh/cpp/product-overview/
+timestamp: 2024-06-05-14-43-57
 ---
 
 <img src="product-overview_1" alt="aspose-words-product_cpp" align="left" style="width:64px; margin: 0 30px 30px 0"/>

@@ -7,6 +7,7 @@ description: "Tentukan format file di Python jika Anda tidak yakin dengan konten
 type: docs
 weight: 20
 url: /id/python-net/detect-file-format-and-check-format-compatibility/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Terkadang perlu menentukan format suatu dokumen sebelum dibuka karena ekstensi file tidak menjamin kesesuaian isi file. Misalnya, Crystal Reports diketahui sering mengeluarkan dokumen dalam format RTF, tetapi memberinya ekstensi .doc.

@@ -7,6 +7,7 @@ description: "Pengenalan fitur Chart, cara membuat dan memanipulasi chart menggu
 type: docs
 weight: 310
 url: /id/net/working-with-charts/
+timestamp: 2024-02-05-15-07-18
 ---
 
 Metode [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) baru telah ditambahkan ke kelas [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/). Jadi, mari kita lihat cara menyisipkan bagan kolom sederhana ke dalam dokumen menggunakan metode [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/).

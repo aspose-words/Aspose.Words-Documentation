@@ -7,6 +7,7 @@ description: "PDF を Excel に、XML を Excel に、DOCX を Excel Python に�
 type: docs
 weight: 15
 url: /ja/python-net/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 ドキュメントをある形式から別の形式に変換することは、Aspose.Words の主力機能です。利用可能な [ロードフォーマット](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) のドキュメントを XLSX 形式に変換することもできます。

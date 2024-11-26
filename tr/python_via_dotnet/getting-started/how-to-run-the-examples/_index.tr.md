@@ -7,6 +7,7 @@ description: "GitHub depomuzdan Python via .NET için Aspose.Words örneklerini 
 type: docs
 weight: 110
 url: /tr/python-net/how-to-run-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words olanaklarını ve özelliklerini daha yakından tanımak için GitHub depomuzdan indirilebilecek, çalıştırılabilecek ve ayrıntılı olarak öğrenilebilecek örnekler sunuyoruz.

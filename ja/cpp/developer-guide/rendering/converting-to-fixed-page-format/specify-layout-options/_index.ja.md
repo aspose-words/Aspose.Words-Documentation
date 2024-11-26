@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのレイアウトオプションの指定
 second_title: C++の場合Aspose.Words
 articleTitle: レイアウトオプションの指定
@@ -7,6 +7,7 @@ description: "さまざまなドキュメントレイアウトのレイアウト
 type: docs
 weight: 20
 url: /ja/cpp/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Wordsを使用すると、**Document**の[LayoutOptions](https://reference.aspose.com/words/cpp/class/aspose.words.layout.layout_options)プロパティで指定されたパラメータに応じて、さまざまなレイアウトで出力ドキュメントを作成できます。 このプロパティは、この資料で説明されているMicrosoft Wordユーザーインターフェイスメニューオプションの一部に似ています。

@@ -7,6 +7,7 @@ description: "How to uninstall Aspose.Words for SharePoint license."
 type: docs
 weight: 30
 url: /sharepoint/uninstalling-aspose-words-for-sharepoint-license/
+timestamp: 2024-01-27-14-07-04
 ---
 
 To uninstall the license, please use the steps below from the server console.

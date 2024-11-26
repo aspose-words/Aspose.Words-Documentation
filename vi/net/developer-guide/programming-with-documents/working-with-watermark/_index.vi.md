@@ -7,6 +7,7 @@ description: "Thao tác hình mờ tài liệu bằng C#."
 type: docs
 weight: 340
 url: /vi/net/working-with-watermark/
+timestamp: 2024-05-02-11-51-44
 ---
 
 Chủ đề này thảo luận về cách làm việc theo chương trình với hình mờ bằng Aspose.Words. Hình mờ là hình nền hiển thị phía sau văn bản trong tài liệu. Hình mờ có thể chứa văn bản hoặc hình ảnh được đại diện bởi lớp [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark/).

@@ -7,6 +7,7 @@ description: "把一份文件轉換成字節陣列，以便在使用C#時可以�
 type: docs
 weight: 10
 url: /zh-hant/net/serialize-and-work-with-a-document-in-a-database/
+timestamp: 2024-07-09-19-00-42
 ---
 
 當處理文件時，你可能需要完成的一些任務之一是儲存和檢索 **Document** 個物件到資料庫中或從資料庫中。 例如，如果你要實作任何類型的內容管理系統，這會是必要的。 所有以前版本的文件必須存儲在數據庫系統中。 可儲存在資料庫中的文件的能力在你的應用程式提供網站服務時也極為有用。

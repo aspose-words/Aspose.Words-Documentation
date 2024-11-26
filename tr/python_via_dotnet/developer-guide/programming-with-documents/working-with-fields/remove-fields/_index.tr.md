@@ -7,6 +7,7 @@ description: "Python'teki alanların nasıl kaldırılacağını öğrenin. Alan
 type: docs
 weight: 35
 url: /tr/python-net/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen bir alanı belgeden kaldırmak gerekebilir. Bu, farklı bir alan türüyle değiştirilmesi gerektiğinde veya alana artık belgede ihtiyaç duyulmadığında ortaya çıkabilir. Örneğin HTML'ye kaydederken bir `TOC` alanı.

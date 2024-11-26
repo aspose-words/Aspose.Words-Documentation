@@ -7,6 +7,7 @@ description: "به جداول در C# بپیوندید. نحوه ادغام دو
 type: docs
 weight: 90
 url: /fa/net/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 یک جدول، که در Aspose.Words Document Object Model نشان داده شده است، از ردیف ها و سلول های مستقل تشکیل شده است که اتصال جداول را آسان می کند.

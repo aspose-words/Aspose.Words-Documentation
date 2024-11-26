@@ -1,4 +1,4 @@
-﻿---
+---
 title: Format Text in Document
 second_title: Aspose.Words for Java
 articleTitle: Format Text in Document
@@ -7,6 +7,7 @@ description: "Format text within a document easily and fast instead of using Apa
 type: docs
 weight: 30
 url: /java/format-text-in-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Format Text in Document

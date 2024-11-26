@@ -7,6 +7,7 @@ description: "Tworzenie i modyfikowanie osadzania OLE w dokumencie za pomocą Ja
 type: docs
 weight: 360
 url: /pl/java/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE oznacza "Łączenie obiektów i osadzanie". Jest to technologia, za pomocą której użytkownicy mogą pracować z dokumentami zawierającymi "obiekty" utworzone lub edytowane przez aplikacje trzeciej partii. Oznacza to, że OLE pozwala na eksportowanie tych "obiektów" do innej aplikacji do edycji, a następnie importuje je z powrotem z dodatkową zawartością.

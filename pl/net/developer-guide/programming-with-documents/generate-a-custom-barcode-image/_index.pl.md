@@ -7,6 +7,7 @@ description: "Przykład generowania kształtu kodu kreskowego za pomocą C#."
 type: docs
 weight: 350
 url: /pl/net/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
 Kod kreskowy to wizualna reprezentacja danych w formie równoległych linii lub wzorów. Kody kreskowe są szeroko stosowane w wielu branżach, takich jak sprzedaż detaliczna, logistyka, ochrona zdrowia, bankowość i wiele innych.

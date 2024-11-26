@@ -1,4 +1,4 @@
-﻿---
+---
 title: Verander Tabelstyl In Word-Dokumente
 second_title: Aspose.Words vir .NET
 articleTitle: Pas Tabelstyl Toe
@@ -7,6 +7,7 @@ description: "Gevorderde tabel formatering C#. Skep'n tabelstyl met C#. Pas tabe
 type: docs
 weight: 80
 url: /af/net/working-with-tablestyle/
+timestamp: 2024-02-02-12-07-36
 ---
 
 'n tabel styl definieer'n stel van formatering wat maklik toegepas kan word om'n tabel. Formatering soos grense, skadu, uitlijning en lettertipe kan in'n tabelstyl gestel word en op baie tabelle toegepas word vir'n konsekwente voorkoms.

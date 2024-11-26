@@ -1,4 +1,4 @@
-﻿---
+---
 title: Installasie
 second_title: Aspose.Words vir Java
 articleTitle: Installasie
@@ -7,6 +7,7 @@ description: "Installeer Aspose.Words vir Java van Maven bewaarplek. Definieer d
 type: docs
 weight: 10
 url: /af/java/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Maak seker dat jou masjien voldoen aan die [stelselvereistes](/words/java/system-requirements/) voordat jy begin.

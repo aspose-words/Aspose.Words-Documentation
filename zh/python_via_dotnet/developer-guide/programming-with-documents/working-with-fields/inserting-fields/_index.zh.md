@@ -7,6 +7,7 @@ description: "以不同的方式将字段插入到 Python 文档中：使用 `Do
 type: docs
 weight: 20
 url: /zh/python-net/inserting-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 有几种不同的方法可以将字段插入到文档中：
@@ -115,7 +116,7 @@ Word文档中的`MERGEFIELD`字段可以用[FieldMergeField](https://reference.a
 
 - 指定书签的名称
 - 指定默认用户响应（提示窗口中包含的初始值）
-- 指定每个 mail merge 操作是否应接收一次用户响应
+- 指定每个 Mail Merge 操作是否应接收一次用户响应
 - 指定提示文本（提示窗口的标题）
 
 以下代码示例演示如何使用 DOM 将 `ASK` 字段添加到文档中的段落：

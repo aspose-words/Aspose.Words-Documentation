@@ -7,6 +7,7 @@ description: "Introducere în caracteristica de diagrame, cum să creezi și man
 type: docs
 weight: 310
 url: /ro/net/working-with-charts/
+timestamp: 2024-02-05-15-07-18
 ---
 
 Un nou [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) metodă a fost adăugată la clasa [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/). Deci, haideți să vedem cum se inserează un simplu grafic coloană în document folosind metoda [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/).

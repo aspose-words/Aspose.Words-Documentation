@@ -1,4 +1,4 @@
-﻿---
+---
 title: Access Ranges in Document
 second_title: Aspose.Words for Java
 articleTitle: Access Ranges in Document
@@ -7,6 +7,7 @@ description: "Access ranges in a document easily and fast instead of using Apach
 type: docs
 weight: 10
 url: /java/access-ranges-in-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Access Ranges in Document

@@ -7,6 +7,7 @@ description: "Konversi dokumen ke PDF dengan opsi canggih. Gunakan PdfSaveOption
 type: docs
 weight: 20
 url: /id/java/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Format PDF adalah format halaman tetap yang sangat populer di kalangan pengguna dan banyak didukung oleh berbagai aplikasi karena dokumen PDF terlihat sama pada perangkat apa pun. Untuk alasan itu, konversi ke PDF adalah fitur penting dari Aspose.WordsSitemap
@@ -31,7 +32,7 @@ Untuk informasi lebih lanjut tentang PDF/A, lihat artikel berikutnya, "Berlangsu
 
 Hal ini juga memungkinkan untuk mengekspor bentuk yang dapat diisi dari Microsoft Word dokumen menjadi output PDF, yang memiliki bentuk yang dapat diisi bukan teks biasa. Gunakan [PreserveFormFields](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getPreserveFormFields) properti untuk menyimpan dokumen sebagai PDF dengan bentuk yang dapat diisi.
 
-Perhatikan bahwa dalam kontras <span notrans="<span notrans=" Microsoft Word"=""></span>Sitemap format PDF memiliki sejumlah pilihan terbatas untuk bentuk yang dapat diedit, seperti kotak teks, kotak combo, dan kotak centang. Microsoft Word memiliki lebih banyak jenis bentuk, misalnya, pemilih tanggal kalender. Umumnya, tidak mungkin untuk meniru sepenuhnya Microsoft Word perilaku dalam PDF. Oleh karena itu, dalam beberapa kasus kompleks, output PDF mungkin berbeda dari apa yang Anda lihat Microsoft WordSitemap
+Perhatikan bahwa dalam kontras Microsoft WordSitemap format PDF memiliki sejumlah pilihan terbatas untuk bentuk yang dapat diedit, seperti kotak teks, kotak combo, dan kotak centang. Microsoft Word memiliki lebih banyak jenis bentuk, misalnya, pemilih tanggal kalender. Umumnya, tidak mungkin untuk meniru sepenuhnya Microsoft Word perilaku dalam PDF. Oleh karena itu, dalam beberapa kasus kompleks, output PDF mungkin berbeda dari apa yang Anda lihat Microsoft WordSitemap
 
 Contoh kode di bawah ini menunjukkan cara menyimpan dokumen sebagai PDF dengan bentuk yang dapat diisi dengan kompresi dan kualitas Jpeg yang ditentukan:
 

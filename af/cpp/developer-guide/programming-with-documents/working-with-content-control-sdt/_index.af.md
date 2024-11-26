@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk met Inhoud Beheer SDT
 second_title: Aspose.Words vir C++
 articleTitle: Werk met Inhoud Beheer SDT
@@ -7,6 +7,7 @@ type: docs
 description: "Gevorderde dokumentinhoudbestuur, hoe om inhoudbeheer (Gestruktureerde Dokumentetikette) te skep en te manipuleer met behulp van C++."
 weight: 390
 url: /af/cpp/structured-document-tags-or-content-control/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In Microsoft Word kan jy'n vorm skep deur met'n sjabloon te begin en inhoudskontroles by te voeg, insluitend vinkbokse, tekskassies, datumplukkers en aftreklyste. In Aspose.Words word'n Gestruktureerde Dokument Tag of inhoud beheer van enige dokument gelaai in Aspose.Words ingevoer as'n StructuredDocumentTag node. Gestruktureerde dokument etikette (SDT of inhoud beheer) toelaat om kliënt-gedefinieerde semantiek sowel as sy gedrag en voorkoms in'n dokument te insluit. StructuredDocumentTag kan in'n dokument voorkom in die volgende plekke:

@@ -7,6 +7,7 @@ description: "Belgenize Java kullanarak farklı alan ekleme yöntemleri."
 type: docs
 weight: 20
 url: /tr/java/insert-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir belgeye alanlar eklemek için farklı birkaç yol vardır:''
@@ -103,7 +104,7 @@ Aşağıdaki kod örneği bir belgedeki paragrafta bir `MERGE` alanı eklemek i�
 
 ### Bir Dokümanda DOM kullanarak Mail Merge `ADDRESSBLOCK` alanını ekler
 
-The `ADDRESSBLOCK` alanı bir Word belgesine bir mail merge adres bloğu eklemek için kullanılır. Word belgesindeki `ADDRESSBLOCK` alanı [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) sınıfıyla temsil edilebilir. Aşağıdaki işlemleri gerçekleştirmek için **FieldAddressBlock** sınıfını kullanabilirsiniz:
+The `ADDRESSBLOCK` alanı bir Word belgesine bir Mail Merge adres bloğu eklemek için kullanılır. Word belgesindeki `ADDRESSBLOCK` alanı [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) sınıfıyla temsil edilebilir. Aşağıdaki işlemleri gerçekleştirmek için **FieldAddressBlock** sınıfını kullanabilirsiniz:
 
 - bu alanda ülkenin/bölgenin adını dahil edip etmemeye karar verin
 - alıcının bulunduğu ülke/bölgeye göre adresin biçimlendirilip edilmeyeceğini belirtir, Postcode (Evrensel Posta Birliği 2006) tarafından tanımlanır
@@ -145,7 +146,7 @@ The `ASK` alanı, bir Word belgesindeki bir Yer İşareti için kullanıcıdan m
 
 - imzanın adını belirtir
 - varsayılan kullanıcı yanıtını belirtin (isteme penceresinde bulunan başlangıç değeri)
-- kullanıcının yanıtını bir mail merge işlemi başına bir kez almayı belirtin
+- kullanıcının yanıtını bir Mail Merge işlemi başına bir kez almayı belirtin
 - istemi metnini (istemi penceresinin başlığı) belirtin
 
 {{% alert color="primary" %}}

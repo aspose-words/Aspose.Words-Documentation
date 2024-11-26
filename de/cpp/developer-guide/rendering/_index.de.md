@@ -1,4 +1,4 @@
-﻿---
+---
 title: Rendern in C++
 second_title: Aspose.Words für C++
 articleTitle: Rendering
@@ -7,6 +7,7 @@ description: "Verwenden Aspose.Words für C++ rendering-Funktion zum Formatieren
 type: docs
 weight: 20
 url: /de/cpp/rendering/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Wir verwenden den Begriff "Rendern" in Aspose.Words, um den Prozess der Konvertierung eines Dokuments in ein Dateiformat oder ein Medium zu beschreiben, das paginiert ist oder das Konzept von Seiten hat. Wir sprechen über das Rendern eines Dokuments in Seiten. Das folgende Diagramm zeigt, was in Aspose.Words gerendert wird.

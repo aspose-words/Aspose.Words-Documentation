@@ -1,4 +1,4 @@
-﻿---
+---
 title: การทำงานกับรูปแบบในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: การทำงานกับรูปแบบ
@@ -7,6 +7,7 @@ description: "ปรับปรุงฟีเจอร์การจัดร
 type: docs
 weight: 110
 url: /th/cpp/working-with-styles-and-themes/
+timestamp: 2024-01-30-16-22-34
 ---
 
 คลาส[StyleCollection](https://reference.aspose.com/words/cpp/aspose.words/stylecollection/)จะใช้ในการจัดการในตัวและใช้การตั้งค่าที่ผู้ใช้กำหนดกับรูปแบบ.

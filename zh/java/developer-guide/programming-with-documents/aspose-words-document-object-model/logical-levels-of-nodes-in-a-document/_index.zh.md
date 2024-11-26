@@ -7,6 +7,7 @@ type: docs
 description: "内 Aspose.Words (单位:千美元) Java 文档中提到了节点的逻辑级别 - 块级、 内置级或行级。 节点级别用于描述通常发生节点的文档树中的位置."
 weight: 10
 url: /zh/java/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 此文档有时指属于文档中"级别"的一组节点类,如"块级","内层"(又称"内层"),或"row级"节点. 文件中的这些等级纯粹是按逻辑区分的,没有以继承或其他方式明确表示。 Aspose.Words DOM 意味着。 节点级别用于描述文档树中节点一般发生的地方.

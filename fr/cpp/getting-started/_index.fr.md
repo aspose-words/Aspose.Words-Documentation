@@ -1,4 +1,4 @@
-﻿---
+---
 title: Pour Commencer
 second_title: Aspose.Words pour C++
 articleTitle: Pour Commencer
@@ -7,6 +7,7 @@ type: docs
 description: "Utilisez cette introduction pour Aspose.Words pour C++ principes fondamentaux pour commencer à réaliser la valeur de Aspose.Words pour votre entreprise."
 weight: 10
 url: /fr/cpp/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Cette mise en route fournit une introduction aux principes fondamentaux de Aspose.Words. Pour les nouveaux utilisateurs de Aspose.Words, c'est le moyen le plus rapide d'apprendre les exigences et les capacités de base.

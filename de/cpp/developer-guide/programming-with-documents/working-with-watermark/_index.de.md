@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit Wasserzeichen in C++
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit Wasserzeichen
@@ -7,6 +7,7 @@ type: docs
 description: "Manipulation des Dokumentwasserzeichens mit C++."
 weight: 340
 url: /de/cpp/working-with-watermark/
+timestamp: 2024-01-30-16-22-34
 ---
 
 In diesem Thema wird erläutert, wie Sie mit Aspose.Words programmgesteuert mit Wasserzeichen arbeiten. Ein Wasserzeichen ist ein Hintergrundbild, das hinter dem Text in einem Dokument angezeigt wird. Ein Wasserzeichen kann einen Text oder ein Bild enthalten, das durch die Klasse [Watermark](https://reference.aspose.com/words/cpp/aspose.words/watermark/) dargestellt wird.

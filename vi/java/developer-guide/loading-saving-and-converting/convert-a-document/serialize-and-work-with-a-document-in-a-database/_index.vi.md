@@ -7,6 +7,7 @@ description: "Chuyển một tài liệu thành một mảng byte cho việc là
 type: docs
 weight: 40
 url: /vi/java/serialize-and-work-with-a-document-in-a-database/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Một trong những nhiệm vụ mà bạn có thể cần thực hiện khi làm việc với tài liệu là lưu trữ và truy xuất **Document** đối tượng vào và từ cơ sở dữ liệu. Ví dụ, việc này sẽ cần thiết nếu bạn đang thực hiện bất kỳ loại hệ thống quản lý nội dung nào. Tất cả các phiên bản trước của tài liệu phải được lưu trữ trong hệ thống cơ sở dữ liệu. Khả năng lưu trữ tài liệu trong cơ sở dữ liệu cũng cực kỳ hữu ích khi ứng dụng của bạn cung cấp một dịch vụ dựa trên web.

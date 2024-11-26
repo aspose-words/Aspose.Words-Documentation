@@ -7,6 +7,7 @@ description: "Kiểm soát sự xuất hiện của các tài liệu Word trong 
 type: docs
 weight: 40
 url: /vi/java/work-with-word-document-options-and-appearance/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Thỉnh thoảng bạn có thể cần thay đổi hình thức của một tài liệu, ví dụ như thiết lập các tùy chọn ngôn ngữ hoặc số dòng trên mỗi trang.Aspose.Words cung cấp khả năng điều khiển cách tài liệu sẽ được hiển thị cũng như một số tùy chọn bổ sung. Bài viết này mô tả những khả năng như vậy.

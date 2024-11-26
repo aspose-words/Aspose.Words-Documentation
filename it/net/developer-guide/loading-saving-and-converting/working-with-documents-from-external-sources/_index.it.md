@@ -7,6 +7,7 @@ description: "Come caricare documenti da fonti esterne in C#. Carica PDF, DOCX, 
 type: docs
 weight: 40
 url: /it/net/working-with-documents-from-external-sources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Questa sezione fornisce informazioni su come caricare documenti da fonti esterne come archivi di documenti SharePoint o database. Dopo aver ricevuto un documento di questo tipo, non solo puoi apportare tutte le modifiche necessarie ad esso, disponibili utilizzando la potente funzionalità di Aspose.Words, ma anche caricare nuovamente questo documento nell'origine dati.

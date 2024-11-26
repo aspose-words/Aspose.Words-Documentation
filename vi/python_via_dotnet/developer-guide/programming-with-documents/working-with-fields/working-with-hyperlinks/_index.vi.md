@@ -7,6 +7,7 @@ description: "Thêm, thay thế hoặc sửa đổi siêu liên kết trong tài
 type: docs
 weight: 50
 url: /vi/python-net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Siêu liên kết trong tài liệu Microsoft Word là trường `HYPERLINK`. Trong Aspose.Words, các siêu liên kết được triển khai thông qua lớp [FieldHyperlink](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldhyperlink/).

@@ -7,6 +7,7 @@ description: "Aspose.Words Sitemap Java memberikan rencana yang berbeda untuk pe
 type: docs
 weight: 60
 url: /id/java/licensing/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Kadang-kadang, untuk mempelajari sistem lebih baik, Anda ingin menyelam ke kode secepat mungkin. Untuk memudahkan ini, Aspose.Words memberikan rencana yang berbeda untuk pembelian atau menawarkan Percobaan Gratis dan Lisensi Sementara 30 hari untuk evaluasi.

@@ -7,6 +7,7 @@ description: "Remove hidden text from a document easily and fast instead of usin
 type: docs
 weight: 150
 url: /net/remove-hidden-text-from-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 On this page we will look at how to remove hidden text from a document using Aspose.Words or Open XML SDK.

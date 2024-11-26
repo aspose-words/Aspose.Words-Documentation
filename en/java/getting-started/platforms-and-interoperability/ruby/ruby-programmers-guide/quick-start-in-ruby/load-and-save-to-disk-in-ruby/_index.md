@@ -1,4 +1,4 @@
-﻿---
+---
 title: Load And Save To Disk in Ruby
 second_title: Aspose.Words for Java
 articleTitle: Load And Save To Disk in Ruby
@@ -7,6 +7,7 @@ description: "Load and save MS Word document to disk using Ruby."
 type: docs
 weight: 50
 url: /java/load-and-save-to-disk-in-ruby/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Load And Save To Disk

@@ -7,6 +7,7 @@ description: "Python에서 필드를 제거하는 방법을 알아보세요. Pyt
 type: docs
 weight: 35
 url: /ko/python-net/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 문서에서 필드를 제거해야 하는 경우도 있습니다. 이는 다른 필드 유형으로 대체되거나 해당 필드가 문서에 더 이상 필요하지 않은 경우 발생할 수 있습니다. 예를 들어 HTML로 저장할 때 `TOC` 필드입니다.

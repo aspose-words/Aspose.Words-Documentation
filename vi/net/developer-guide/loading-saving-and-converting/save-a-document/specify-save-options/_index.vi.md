@@ -7,6 +7,7 @@ description: "Kiểm soát chính xác hơn quá trình lưu bằng C#."
 type: docs
 weight: 10
 url: /vi/net/specify-save-options/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Khi lưu tài liệu, bạn có thể đặt một số thuộc tính nâng cao. Aspose.Words cung cấp cho bạn lớp [SaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/), cho phép kiểm soát quá trình lưu chính xác hơn. Có quá nhiều phương thức **Save** chấp nhận một đối tượng **SaveOptions** – nó phải là một đối tượng của một lớp dẫn xuất từ lớp **SaveOptions**. Mỗi định dạng lưu có một lớp tương ứng chứa các tùy chọn lưu cho định dạng lưu này, ví dụ: có [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) để lưu sang định dạng PDF, [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) để lưu sang định dạng Markdown hoặc [ImageSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/) để lưu vào hình ảnh. Bài viết này cung cấp các ví dụ về cách làm việc với một số lớp tùy chọn bắt nguồn từ **SaveOptions**.

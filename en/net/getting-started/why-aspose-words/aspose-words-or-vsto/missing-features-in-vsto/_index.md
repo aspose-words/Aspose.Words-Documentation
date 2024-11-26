@@ -15,6 +15,7 @@ aliases:
   - /net/detecting-file-format/
   - /net/converting-a-document-to-byte-array/
   - /net/conversion-between-different-open-office-word-formats/
+timestamp: 2024-01-31-14-23-37
 ---
 
 As already described in previous articles, there are operations with documents that are faster and more conveniently to perform using Aspose.Words than VSTO. But there are also operations that are not provided by VSTO. You can try to achieve the desired result using auxiliary tools and options, but even if successful, it will be quite expensive.

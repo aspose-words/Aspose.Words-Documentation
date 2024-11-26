@@ -1,4 +1,4 @@
-﻿---
+---
 title: Alăturați-vă tabelelor în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Alăturați-Vă Tabelelor
@@ -7,6 +7,7 @@ description: "Manipulări avansate de masă. Cum să îmbinați două tabele în
 type: docs
 weight: 90
 url: /ro/cpp/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un tabel, reprezentat în modelul de obiect Document Aspose.Words, este alcătuit din rânduri și celule independente, facilitând unirea tabelelor.

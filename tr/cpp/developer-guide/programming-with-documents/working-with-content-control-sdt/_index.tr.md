@@ -1,4 +1,4 @@
-﻿---
+---
 title: Content Control ile Çalışma SDT
 second_title: Aspose.Words için C++
 articleTitle: Content Control ile Çalışma SDT
@@ -7,6 +7,7 @@ type: docs
 description: "Gelişmiş belge içerik yönetimi, C++ kullanarak içerik denetimlerinin (Yapılandırılmış Belge Etiketleri) nasıl oluşturulacağı ve değiştirileceği."
 weight: 390
 url: /tr/cpp/structured-document-tags-or-content-control/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word içinde bir şablonla başlayıp onay kutuları, metin kutuları, tarih seçiciler ve açılır listeler dahil olmak üzere içerik denetimleri ekleyerek bir form oluşturabilirsiniz. Aspose.Words'de, Aspose.Words'ye yüklenen herhangi bir belgeden Yapılandırılmış bir Belge Etiketi veya içerik denetimi StructuredDocumentTag düğümü olarak içe aktarılır. Yapılandırılmış belge etiketleri (SDT veya içerik denetimi), müşteri tanımlı anlambilimin yanı sıra davranışını ve görünümünü bir belgeye gömmeye izin verir. StructuredDocumentTag aşağıdaki yerlerde bir belgede oluşabilir:

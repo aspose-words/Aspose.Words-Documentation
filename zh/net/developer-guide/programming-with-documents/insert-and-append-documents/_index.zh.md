@@ -7,6 +7,7 @@ description: "将文档合并为一个：使用查找和替换、合并字段、
 type: docs
 weight: 80
 url: /zh/net/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时需要将多个文档合并为一个。您可以手动执行此操作，也可以使用 Aspose.Words 插入或附加功能。
@@ -49,7 +50,7 @@ url: /zh/net/insert-and-append-documents/
 
 ### Mail Merge 操作期间插入文档 {#insert-a-document-during-mail-merge-operation}
 
-您可以在 mail merge 操作期间将文档插入合并字段。例如，mail merge 模板可以包含合并字段，例如 [Summary]。但在最终文档中，您需要将从另一个外部文档获取的内容插入到此合并字段中。为此，您需要为合并事件创建一个处理程序。
+您可以在 Mail Merge 操作期间将文档插入合并字段。例如，mail merge 模板可以包含合并字段，例如 [Summary]。但在最终文档中，您需要将从另一个外部文档获取的内容插入到此合并字段中。为此，您需要为合并事件创建一个处理程序。
 
 以下代码示例演示如何为合并事件创建处理程序，以便稍后在插入过程中使用它：
 

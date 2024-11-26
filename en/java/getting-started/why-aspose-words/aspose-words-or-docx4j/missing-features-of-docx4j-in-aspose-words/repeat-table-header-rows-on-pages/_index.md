@@ -7,6 +7,7 @@ description: "Repeat a header row of a table on every page. Docx4j does not prov
 type: docs
 weight: 10
 url: /java/repeat-table-header-rows-on-pages/
+timestamp: 2024-01-31-14-23-37
 ---
 
 {{% alert color="primary" %}}

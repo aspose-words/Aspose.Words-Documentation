@@ -1,125 +1,126 @@
----
-title: Ein Dokument teilen in Java
+﻿---
+title: Teilen Sie ein Dokument in Java
 second_title: Aspose.Words für Java
-articleTitle: Ein Dokument teilen
-linktitle: Ein Dokument teilen
-description: "Aspose.Words für Java bietet Ihnen eine effiziente Möglichkeit, ein Dokument in mehrere Dokumente durch Überschriften oder Abschnitte sowie Seiten oder Seitenbereiche zu teilen."
+articleTitle: Teilen eines Dokuments
+linktitle: Teilen eines Dokuments
+description: "Aspose.Words für Java bietet Ihnen eine effiziente Möglichkeit, ein Dokument nach Überschriften oder Abschnitten sowie nach Seiten oder Seitenbereichen in mehrere Dokumente aufzuteilen."
 type: docs
 weight: 90
 url: /de/java/split-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
-*Splitting* oder *split ein Dokument* ist der Prozess, ein großes Dokument in eine größere Anzahl kleinerer Dateien zu brechen. Es gibt verschiedene Gründe, eine Datei zu teilen. Zum Beispiel benötigen Sie nur einige Seiten aus einem bestimmten Dokument und nicht die gesamte. Oder aus Gründen der Privatsphäre möchten Sie nur einige Teile eines Dokuments mit anderen teilen. Mit dem Splitting-Feature können Sie nur die benötigten Teile des Dokuments erhalten und die notwendigen Aktionen mit ihnen durchführen, um z.B. zu markieren, zu speichern oder zu senden.
+*Splitting* oder *split a document* ist der Vorgang, bei dem ein großes Dokument in eine größere Anzahl kleinerer Dateien aufgeteilt wird. Es gibt verschiedene Gründe, eine Datei zu teilen. Beispielsweise benötigen Sie nur einige Seiten aus einem bestimmten Dokument und nicht die gesamte. Oder Sie möchten aus Datenschutzgründen nur einige Teile eines Dokuments für andere freigeben. Mit der Aufteilungsfunktion können Sie nur die erforderlichen Teile des Dokuments abrufen und die erforderlichen Aktionen damit ausführen, z. B. zum Markieren, Speichern oder Senden.
 
-Aspose.Words bietet Ihnen eine effiziente Möglichkeit, ein Dokument in mehrere Dokumente durch Überschriften oder Abschnitte zu teilen. Sie können auch ein Dokument nach Seiten oder nach Seitenbereichen teilen. Beide Trennoptionen werden in diesem Artikel beschrieben.
+Aspose.Words bietet Ihnen eine effiziente Möglichkeit, ein Dokument nach Überschriften oder Abschnitten in mehrere Dokumente aufzuteilen. Sie können ein Dokument auch nach Seiten oder Seitenbereichen aufteilen. Beide Aufteilungsoptionen werden in diesem Artikel beschrieben.
 
-Um ein Dokument mit kleineren Dateien zu teilen Aspose.Words, Sie müssen diesen Schritten folgen:
+Um ein Dokument mit Aspose.Words in kleinere Dateien aufzuteilen, müssen Sie die folgenden Schritte ausführen:
 
-ANHANG Laden Sie das Dokument in jedem unterstützten Format.
-ANHANG Teilen Sie das Dokument.
-ANHANG Speichern Sie die Ausgabedokumente.
+1. Laden Sie das Dokument in einem beliebigen unterstützten Format.
+1. Teilen Sie das Dokument.
+1. Speichern Sie die Ausgabedokumente.
 
-Nachdem Sie ein Dokument geteilt haben, können Sie alle Ausgabedokumente öffnen, die mit den gewünschten Seiten, Text usw. beginnen.
+Nachdem Sie ein Dokument geteilt haben, können Sie alle Ausgabedokumente öffnen, die mit den erforderlichen Seiten, Texten usw. beginnen.
 
 {{% alert color="primary" %}}
 
-**Online testen**
+**Online ausprobieren**
 
-Sie können diese Funktionalität mit unserer [Kostenlose Online Dokumente](https://products.aspose.app/words/splitter).
+Sie können diese Funktionalität mit unserem ausprobieren [Kostenloser Online Dokumententeiler](https://products.aspose.app/words/splitter).
 
 {{% /alert %}}
 
-## Ein Dokument mit verschiedenen Kriterien teilen {#split-a-document-using-different-criteria}
+## Dokument nach verschiedenen Kriterien aufteilen {#split-a-document-using-different-criteria}
 
-Aspose.Words Sie können EPUB- oder HTML-Dokumente nach verschiedenen Kriterien in Kapitel aufteilen. Dabei werden Stil und Layout des Quelldokuments für die Ausgabedokumente erhalten.
+Mit Aspose.Words können Sie EPUB- oder HTML-Dokumente nach verschiedenen Kriterien in Kapitel aufteilen. Dabei bleiben Stil und Layout des Quelldokuments für die Ausgabedokumente erhalten.
 
-Sie können Kriterien mit Hilfe der [DocumentSplitCriteria](https://reference.aspose.com/words/java/com.aspose.words/documentsplitcriteria/) Aufzählung. So können Sie ein Dokument in Kapitel unter Verwendung eines der folgenden Kriterien unterteilen oder mehrere Kriterien zusammenfassen:
+Sie können Kriterien mit der [DocumentSplitCriteria](https://reference.aspose.com/words/java/com.aspose.words/documentsplitcriteria/)-Aufzählung angeben. So können Sie ein Dokument anhand eines der folgenden Kriterien in Kapitel unterteilen oder mehrere Kriterien miteinander kombinieren:
 
-- Überschrift Absatz,
-- Schnittbruch,
-- Spaltenbruch,
+- überschrift absatz,
+- Abschnittsumbruch,
+- spaltenumbruch,
 - Seitenumbruch.
 
-Beim Speichern der Ausgabe in HTML, Aspose.Words jedes einzelne Kapitel als separate HTML-Datei speichern. Dadurch wird das Dokument in mehrere HTML-Dateien aufgeteilt. Beim Speichern der Ausgabe an die EPUB, Aspose.Words das Ergebnis in einer einzigen EPUB-Datei unabhängig von der `DocumentSplitCriteria` Wert, den du benutzt hast. So beeinflusst die Verwendung von DocumentSplitCriteria für EPUB-Dokumente nur das Erscheinungsbild ihrer Inhalte in Leseranwendungen: Inhalt wird in Kapitel unterteilt und das Dokument wird nicht mehr kontinuierlich angezeigt.
+Wenn Sie die Ausgabe in HTML speichern, speichern Aspose.Words jedes einzelne Kapitel als separate HTML-Datei. Infolgedessen wird das Dokument in mehrere HTML -Dateien aufgeteilt. Wenn Sie die Ausgabe in EPUB speichern, speichert Aspose.Words das Ergebnis in einer einzelnen EPUB-Datei, unabhängig vom verwendeten `DocumentSplitCriteria`-Wert. Die Verwendung von DocumentSplitCriteria für EPUB Dokumente wirkt sich also nur auf das Erscheinungsbild ihres Inhalts in Reader-Anwendungen aus: Der Inhalt wird in Kapitel unterteilt und das Dokument wird nicht mehr fortlaufend angezeigt.
 
 {{% alert color="primary" %}}
 
-Sie können ein Dokument nicht unter Verwendung der [DocumentSplitCriteria](https://reference.aspose.com/words/java/com.aspose.words/documentsplitcriteria/) Eigenschaft beim Speichern in MHTML-Format.
+Sie können ein Dokument beim Speichern im Format MHTML nicht mit der Eigenschaft [DocumentSplitCriteria](https://reference.aspose.com/words/java/com.aspose.words/documentsplitcriteria/) teilen.
 
 {{% /alert %}}
 
-In diesem Abschnitt betrachten wir nur einige der möglichen Spaltkriterien.
+In diesem Abschnitt betrachten wir nur einige der möglichen Split-Kriterien.
 
-### Ein Dokument von Rubriken teilen {#split-a-document-by-headings}
+### Dokument nach Überschriften aufteilen {#split-a-document-by-headings}
 
-Um ein Dokument in Kapitel durch Rubriken zu teilen, verwenden Sie die **HeadingParagraph** Wert der **DocumentSplitCriteria** Eigentum.
+Um ein Dokument nach Überschriften in Kapitel aufzuteilen, verwenden Sie den Wert **HeadingParagraph** der Eigenschaft **DocumentSplitCriteria**.
 
-Wenn Sie ein Dokument nach einem bestimmten Niveau der Rubriken, wie z. B. die Rubriken 1, 2 und 3, teilen müssen, verwenden Sie auch die [DocumentSplitHeadingLevel](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getDocumentSplitHeadingLevel) Eigentum. Die Ausgabe wird nach den Absätzen geteilt, die mit der angegebenen Positionsebene formatiert sind.
+Wenn Sie ein Dokument nach einer bestimmten Ebene von Überschriftenabsätzen aufteilen müssen, z. B. Überschriften 1, 2 und 3, verwenden Sie auch die Eigenschaft [DocumentSplitHeadingLevel](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getDocumentSplitHeadingLevel). Die Ausgabe wird durch Absätze unterteilt, die mit der angegebenen Überschriftenebene formatiert sind.
 
-Das folgende Codebeispiel zeigt, wie ein Dokument in kleinere Teile aufgeteilt werden kann:
+Das folgende Codebeispiel zeigt, wie Sie ein Dokument nach Überschrift in kleinere Teile aufteilen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-SplitDocumentByHeadingsHTML.java" >}}
 
-Bitte beachten Sie, dass für diese Kriterien Aspose.Words nur unterstützt das Speichern in HTML-Format bei der Spaltung.
+Bitte beachten Sie, dass Aspose.Words für dieses Kriterium beim Teilen nur das Speichern im HTML-Format unterstützt.
 
-Beim Speichern auf EPUB wird das Dokument nicht in mehrere Dateien aufgeteilt, und es wird nur eine Ausgabedatei geben.
+Beim Speichern in EPUB wird das Dokument nicht in mehrere Dateien aufgeteilt und es gibt nur eine Ausgabedatei.
 
-### Ein Dokument nach Abschnitten teilen {#split-a-document-by-sections}
+### Dokument nach Abschnitten aufteilen {#split-a-document-by-sections}
 
-Aspose.Words Sie können auch Abschnittsunterbrechungen verwenden, um Dokumente zu teilen und sie in HTML zu speichern. Zu diesem Zweck verwenden **SectionBreak** als **DocumentSplitCriteria**:
+Mit Aspose.Words können Sie auch Abschnittsumbrüche verwenden, um Dokumente zu teilen und in HTML zu speichern. Verwenden Sie zu diesem Zweck **SectionBreak** als **DocumentSplitCriteria**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-SplitDocumentBySectionsHTML.java" >}}
 
-Es gibt eine andere Möglichkeit, das Quelldokument in mehrere Ausgabedokumente zu teilen und Sie können jedes Ausgabeformat auswählen, das von Aspose.Words.
+Es gibt eine andere Möglichkeit, das Quelldokument in mehrere Ausgabedokumente aufzuteilen, und Sie können ein beliebiges von Aspose.Words unterstütztes Ausgabeformat auswählen.
 
-Das folgende Codebeispiel zeigt, wie man ein Dokument durch Schnittpausen in kleinere Teile zerlegt (ohne die Verwendung der `DocumentSplitCriteria` Eigentum:
+Das folgende Codebeispiel zeigt, wie Sie ein Dokument nach Abschnittsumbrüchen in kleinere Teile aufteilen (ohne die Eigenschaft `DocumentSplitCriteria` zu verwenden):
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SplitDocument-SplitDocumentBySections.java" >}}
 
-## Geteilt nach Seiten {#splitting-by-pages}
+## Nach Seiten aufteilen {#splitting-by-pages}
 
-Sie können auch eine Dokumentseite nach Seite, nach Seitenbereichen oder beginnend mit den angegebenen Seitennummern. In diesem Fall [ExtractPages](https://reference.aspose.com/words/java/com.aspose.words/document/#extractPages-int-int) Die Methode kann den Job machen.
+Sie können ein Dokument auch seitenweise, nach Seitenbereichen oder beginnend mit den angegebenen Seitenzahlen aufteilen. In diesem Fall kann die [ExtractPages](https://reference.aspose.com/words/java/com.aspose.words/document/#extractPages-int-int) -Methode die Aufgabe übernehmen.
 
-Dieser Abschnitt beschreibt mehrere Anwendungsfälle der Teilung von Dokumenten durch Paged unter Verwendung der [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) Klasse und **ExtractPages** Methode.
+In diesem Abschnitt werden verschiedene Anwendungsfälle zum Aufteilen von Dokumenten nach Seiten mit der Klasse [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) und der Methode **ExtractPages** beschrieben.
 
 {{% alert color="primary" %}}
 
-Sie können jede [Ich bin nicht da](/words/de/java/supported-document-formats/).
+Sie können jeden verwenden [von Aspose.Words unterstütztes Ausgabeformat](/words/java/supported-document-formats/).
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-Aufgrund der vielen Nuancen, die während der Reduzierung der Anzahl der Seiten auftreten, eine volle Übereinstimmung mit der Microsoft Word Layout ist eine ziemlich komplizierte Aufgabe. In Abhängigkeit von der Dokumentenkomplexität kann es daher zu geringfügigen Unterschieden im resultierenden Dokumentenlayout aus dem Originaldokument kommen.
+Aufgrund der vielen Nuancen, die bei der Reduzierung der Seitenanzahl auftreten, ist eine vollständige Übereinstimmung mit dem Microsoft Word -Layout eine ziemlich komplizierte Aufgabe. Daher kann es je nach Komplexität des Dokuments zu geringfügigen Unterschieden im resultierenden Dokumentlayout vom Originaldokument kommen.
 
 {{% /alert %}}
 
-### Eine Dokumentseite nach Seite teilen {#split-a-document-page-by-page}
+### Dokument Seite für Seite teilen {#split-a-document-page-by-page}
 
-Aspose.Words ermöglicht es Ihnen, eine mehrseitige Dokumentseite per Seite zu teilen.
+Mit Aspose.Words können Sie ein mehrseitiges Dokument Seite für Seite aufteilen.
 
-Das folgende Codebeispiel zeigt, wie man ein Dokument teilt und jede Seite als separates Dokument speichert:
+Das folgende Codebeispiel zeigt, wie Sie ein Dokument teilen und jede Seite als separates Dokument speichern:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SplitDocument-SplitDocumentPageByPage.java" >}}
 
-### Ein Dokument nach Seitenbereichen teilen {#split-a-document-by-page-ranges}
+### Dokument nach Seitenbereichen aufteilen {#split-a-document-by-page-ranges}
 
-Aspose.Words ermöglicht die Aufteilung eines mehrseitigen Dokuments nach Seitenbereichen. Sie können eine Datei in mehrere Dateien mit verschiedenen Seitenbereichen teilen oder nur einen Bereich auswählen und nur diesen Teil des Quelldokuments speichern. Beachten Sie, dass Sie den Seitenbereich entsprechend der maximalen und minimalen Seitennummer eines Dokuments auswählen können.
+Aspose.Words ermöglicht das Aufteilen eines mehrseitigen Dokuments nach Seitenbereichen. Sie können eine Datei in mehrere Dateien mit verschiedenen Seitenbereichen aufteilen oder einfach einen Bereich auswählen und nur diesen Teil des Quelldokuments speichern. Beachten Sie, dass Sie den Seitenbereich entsprechend der maximalen und minimalen Seitenzahl eines Dokuments auswählen können.
 
-Das folgende Codebeispiel zeigt, wie man ein Dokument mit bestimmten Start- und Endindexen in kleinere Teile nach Seitenbereich spaltet:
+Das folgende Codebeispiel zeigt, wie Sie ein Dokument nach Seitenbereich mit bestimmten Start- und Endindizes in kleinere Teile aufteilen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SplitDocument-SplitDocumentByPageRange.java" >}}
 
-## Callback Option zum Speichern eines Dokuments {#callback-option-for-saving-a-document}
+## Rückrufoption zum Speichern eines Dokuments {#callback-option-for-saving-a-document}
 
-Sie können die [DocumentPartSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getDocumentPartSavingCallback) Eigenschaft zu kontrollieren, wie Aspose.Words speichert Dokumentteile, wenn dieses Dokument in HTML-Format exportiert wird. Mit dieser Eigenschaft können Sie Ausgabedateien umbenennen oder sogar in benutzerdefinierte Streams umleiten.
+Sie können die Eigenschaft [DocumentPartSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getDocumentPartSavingCallback) verwenden, um zu steuern, wie Aspose.Words Dokumentteile speichert, wenn dieses Dokument in das Format HTML exportiert wird. Mit dieser Eigenschaft können Sie Ausgabedateien umbenennen oder sogar in benutzerdefinierte Streams umleiten.
 
-Bitte beachten Sie, dass diese Rückmeldung bei der Speicherung an die EPUB nicht sinnvoll ist, da alle Ausgabeteile in einem einzigen Container gespeichert werden müssen – die .epub-Datei. So wird die Umleitung nicht unterstützt, und die Wirkung der Umbenennung ist nicht sichtbar, da Dateien innerhalb des Containers umbenannt werden.
+Bitte beachten Sie, dass dieser Rückruf beim Speichern in EPUB nicht nützlich ist, da alle Ausgabeteile in einem einzigen Container gespeichert werden müssen – dem .epub-Datei. Daher wird die Stream-Umleitung nicht unterstützt, und der Effekt des Umbenennens ist nicht sichtbar, da Dateien innerhalb des Containers umbenannt werden.
 
-## Zusammenführen des Split-Dokuments mit einem anderen Dokument {#merge-the-split-document-with-another-file}
+## Zusammenführen des geteilten Dokuments mit einem anderen Dokument {#merge-the-split-document-with-another-file}
 
-Aspose.Words Sie können das Ausgabe-Split-Dokument mit einem anderen Dokument zu einem neuen Dokument zusammenführen. Dies kann als Dokumentverschmelzung bezeichnet werden.
+Aspose.Words ermöglicht es Ihnen, das geteilte Ausgabedokument mit einem anderen Dokument zu einem neuen Dokument zusammenzuführen. Dies kann als Dokumentzusammenführung bezeichnet werden.
 
-Das folgende Codebeispiel zeigt, wie ein Split-Dokument mit einem anderen Dokument zusammengefasst werden kann:
+Das folgende Codebeispiel zeigt, wie Sie ein geteiltes Dokument mit einem anderen Dokument zusammenführen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SplitDocument-MergeDocuments.java" >}}

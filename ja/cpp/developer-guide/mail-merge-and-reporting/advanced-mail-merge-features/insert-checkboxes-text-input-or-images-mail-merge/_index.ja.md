@@ -1,4 +1,4 @@
-﻿---
+---
 title: Checkboxes、テキスト入力、または画像をMail Merge中に挿入します
 second_title: Aspose.WordsのためのC++
 articleTitle: Checkboxes、テキスト入力、または画像を挿入します
@@ -7,6 +7,7 @@ description: "C++を使用してMail Merge中にチェックボックスまた�
 type: docs
 weight: 40
 url: /ja/cpp/insert-checkboxes-text-input-or-images-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 マージエンジンはドキュメントを入力として受け取り、その中の`MERGEFIELD`フィールドを探し、データソースから取得したデータに置き換えます。 通常、プレーンテキストとHTMLが挿入されますが、Aspose.Wordsユーザーはmail mergeフィールドのより珍しいシナリオを処理する文書を生成することもできます。

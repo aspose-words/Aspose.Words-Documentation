@@ -7,6 +7,7 @@ description: "PDF/A 和 PDF/UA 對文件內容進行存取性要求。 在 C# �
 type: docs
 weight: 29
 url: /zh-hant/net/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/A和PDF/UA格式對文件內容有許多可存取性要求，無法自動從Word到PDF轉換時來滿足這些要求。 這些要求在*與 PDF/A 或 PDF/UA 一起工作*的上一篇文章中說明。 這些問題有些已經發出警告了。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Memanipulasi dan Mengganti Font TrueType di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Memanipulasi dan Mengganti Font TrueType
@@ -7,6 +7,7 @@ description: "Aspose.Words untuk C++ dapat menyematkan font TrueType yang benar 
 type: docs
 weight: 10
 url: /id/cpp/manipulate-and-substitute-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words memerlukan font TrueType untuk berbagai tugas, termasuk merender dokumen ke format halaman tetap, misalnya, PDF atau XPS. Saat Aspose.Words merender dokumen, dokumen perlu melakukan penyematan dan penyematan subset font TrueType ke dalam dokumen yang dihasilkan, yang merupakan praktik normal selama pembuatan dokumen, termasuk format PDF atau XPS yang populer. Ini memastikan bahwa dokumen akan tampak sama di semua penampil. Selain itu, spesifikasi XPS mengharuskan font untuk selalu disematkan dalam dokumen.

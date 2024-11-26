@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu secțiuni în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Lucrul cu secțiuni
@@ -7,6 +7,7 @@ description: "Creați și gestionați secțiuni și pauze de secțiune într-un 
 type: docs
 weight: 120
 url: /ro/python-net/working-with-sections/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Uneori doriți un document care nu are aceeași formatare pe toate paginile. De exemplu, poate fi necesar să modificați formatele numărului de pagină, să aveți dimensiuni și orientări diferite ale paginii sau să aveți prima pagină a documentului ca pagină de copertă fără nicio numerotare. Puteți realiza acest lucru cu secțiuni.

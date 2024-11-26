@@ -7,6 +7,7 @@ description: "Aspose.Words for Python via .NET نام ژنراتور و شمار
 type: docs
 weight: 60
 url: /fa/python-net/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 با استفاده از Aspose.Words برای Python via .NET می توانید به راحتی متوجه شوید که آیا سندی تولید شده است. همچنین می توانید شماره نسخه Aspose.Words برای Python via .NET را که برای ایجاد یک سند خروجی خاص استفاده شده است، بیابید. Aspose.Words مستقیماً این اطلاعات را در سند تولید شده می نویسد.

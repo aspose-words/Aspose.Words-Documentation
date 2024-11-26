@@ -7,6 +7,7 @@ description: "许可证发放 Aspose.Words (单位:千美元) Android 通过 Jav
 type: docs
 weight: 60
 url: /zh/java/licensing-android/
+timestamp: 2024-02-02-12-07-36
 ---
 
 有时,为了更好地研究系统,你想越快潜入代码. 为了让事情变得简单 Aspose.Words 提供不同的购买计划或提供免费审判和30天的临时评估许可证。

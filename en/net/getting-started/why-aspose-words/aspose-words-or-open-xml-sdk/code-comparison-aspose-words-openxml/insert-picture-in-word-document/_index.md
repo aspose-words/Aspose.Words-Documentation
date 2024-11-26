@@ -7,6 +7,7 @@ description: "Insert image into a Word document easily and fast instead of using
 type: docs
 weight: 80
 url: /net/insert-picture-in-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 On this page we will look at how to insert images into a Word document using Aspose.Words or Open XML SDK.

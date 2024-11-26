@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabajar con Listas en C++
 second_title: Aspose.Words para C++
 articleTitle: Trabajar Con Listas
@@ -7,6 +7,7 @@ description: "Introducción a la función de formato de numeración en Aspose.Wo
 type: docs
 weight: 200
 url: /es/cpp/working-with-lists/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Una lista en un documento de Microsoft Word es un conjunto de propiedades de formato de lista. Las listas se pueden usar en sus documentos para formatear, organizar y enfatizar el texto. Las listas son una excelente manera de organizar los datos en los documentos y facilitan a los lectores la comprensión de los puntos clave.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Watter PDF Standaard Is Beter Om Te Kies
 second_title: Aspose.Words vir C++
 articleTitle: Watter PDF Standaard Is Beter Om Te Kies
@@ -7,6 +7,7 @@ description: "Kies die beste PDF standaard om die resultaat van jou programmerin
 type: docs
 weight: 37
 url: /af/cpp/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Vir sommige take sal sekere PDF standaarde beter pas of omgekeerd erger. In hierdie artikel sal ons probeer om te bepaal watter PDF standaarde vir watter gevalle dit sinvol is om te kies.

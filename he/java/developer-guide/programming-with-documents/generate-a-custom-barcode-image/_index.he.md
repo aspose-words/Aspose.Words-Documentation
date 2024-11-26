@@ -7,6 +7,7 @@ description: "דוגמה ליצירת צורת ברקוד באמצעות Java."
 type: docs
 weight: 350
 url: /he/java/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
 פריט בר-קוד הוא ייצוג חזותי של נתונים בצורת קווים מקבילים או דפוסים. פריטי בר-קוד נמצאים בשימוש נרחב בתעשיות שונות כגון קמעונאות, לוגיסטיקה, בריאות, בנקאות ועוד רבים.

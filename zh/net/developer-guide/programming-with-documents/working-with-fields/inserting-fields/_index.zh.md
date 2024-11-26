@@ -7,6 +7,7 @@ description: "如何使用 C# 将字段插入文档 - 通过代码示例了解�
 type: docs
 weight: 20
 url: /zh/net/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有几种不同的方法可以将字段插入到文档中：
@@ -128,7 +129,7 @@ Word文档中的`MERGEFIELD`字段可以用[FieldMergeField](https://reference.a
 
 - 指定书签的名称
 - 指定默认用户响应（提示窗口中包含的初始值）
-- 指定每个 mail merge 操作是否应接收一次用户响应
+- 指定每个 Mail Merge 操作是否应接收一次用户响应
 - 指定提示文本（提示窗口的标题）
 
 {{% alert color="primary" %}}

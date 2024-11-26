@@ -7,6 +7,7 @@ description: "Pochopení funkce formuláře Pole, práce s formulářem Pole pom
 type: docs
 weight: 380
 url: /cs/net/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dokument, který obsahuje vyplněné mezery (pole), je znám jako formulář. Například, můžete vytvořit registrační formulář v Microsoft Word který používá seznamy drop-down, ze kterých mohou uživatelé vybírat položky. • `Form` pole je místo, kde je uložen určitý typ údajů, jako je název nebo adresa. Forma polí v Microsoft Word obsahovat textový vstup, combobox a checkbox.

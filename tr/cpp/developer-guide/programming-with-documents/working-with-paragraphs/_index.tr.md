@@ -1,4 +1,4 @@
-﻿---
+---
 title: Paragraflarla çalışmak C++
 second_title: Aspose.Words için C++
 articleTitle: Paragraflarla Çalışmak
@@ -7,6 +7,7 @@ description: "C++ kullanarak paragraf düğümü işleme uygulamaları."
 type: docs
 weight: 210
 url: /tr/cpp/working-with-paragraphs/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Paragraf, mantıksal bir blokta birleştirilen ve özel bir karakterle biten bir karakter kümesidir – a *paragraph break*. Aspose.Words'de bir paragraf [Paragraph](https://reference.aspose.com/words/cpp/aspose.words/paragraph/) sınıfı tarafından temsil edilir.

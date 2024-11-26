@@ -7,6 +7,7 @@ type: docs
 weight: 10
 url: /id/java/create-or-load-a-document/
 description: "Aspose.Words memungkinkan Anda untuk membuat dokumen kosong atau memuatnya dari file atau aliran menggunakan JavaSitemap"
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hampir tugas apa pun yang ingin Anda lakukan dengan Meme it Aspose.Words melibatkan memuat dokumen. Login `Document` kelas mewakili dokumen yang dimuat ke dalam memori. Dokumen ini memiliki beberapa konstruktor yang berlebihan yang memungkinkan Anda untuk membuat dokumen kosong atau memuatnya dari file atau aliran. Dokumen dapat dimuat dalam format beban yang didukung oleh Aspose.WordsSitemap Untuk daftar semua format beban yang didukung, lihat [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) Sitemap

@@ -7,6 +7,7 @@ description: "图表功能简介，如何使用 C# 创建和操作图表。"
 type: docs
 weight: 310
 url: /zh/net/working-with-charts/
+timestamp: 2024-02-05-15-07-18
 ---
 
 新的 [InsertChart](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/insertchart/) 方法已添加到 [DocumentBuilder](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/) 类中。那么，让我们看看如何使用 [InsertChart](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/insertchart/) 方法将简单的柱形图插入到文档中。

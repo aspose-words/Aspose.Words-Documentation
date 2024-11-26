@@ -1,82 +1,83 @@
----
+﻿---
 title: Arbeiten mit Formen in Java
 second_title: Aspose.Words für Java
 articleTitle: Arbeiten mit Formen
 linktitle: Arbeiten mit Formen
 type: docs
-description: "Einführung in die Form von Markup-Sprache, Erstellen von Formen verschiedener Typen mit Java."
+description: "Einführung in die Auszeichnungssprache für Formen, Erstellen von Formen verschiedener Typen mit Java."
 weight: 280
 url: /de/java/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Dieses Thema diskutiert, wie man mit Formen programmmatisch arbeitet Aspose.Words.
+In diesem Thema wird erläutert, wie programmgesteuert mit Formen mit Aspose.Words gearbeitet wird.
 
-Die Formen in Aspose.Words ein Objekt in der Zeichenschicht darstellen, wie ein AutoShape, Textfeld, Freeform, OLE-Objekt, ActiveX-Steuerung oder Bild. Ein Word-Dokument kann eine oder mehrere verschiedene Formen enthalten. Formen des Dokuments werden durch die [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) Klasse.
+Die Formen in Aspose.Words stellen ein Objekt in der Zeichenebene dar, z. B. ein AutoShape-, Textfeld-, Freiform-, OLE-Objekt, ein ActiveX-Steuerelement oder ein Bild. Ein Word-Dokument kann eine oder mehrere verschiedene Formen enthalten. Formen des Dokuments werden durch die Klasse [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) dargestellt.
 
-## Form einfügen mit Dokumenten-Baukasten
+## Form mit Document Builder einfügen
 
-Sie können inline Form mit spezifizierter Art und Größe und freier Form mit der angegebenen Position, Größe und Textumschlag-Typ in ein Dokument mit dem [InsertShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertShape-int-double-double) Methode. Die **InsertShape** Ein Verfahren erlaubt das Einfügen von DML-Form in das Dokumentmodell. Das Dokument muss im Format gespeichert werden, das DML-Formulare unterstützt, andernfalls werden solche Knoten in VML-Form umgewandelt, während die Dokumentenspeicherung.
+Sie können Inline-Formen mit dem angegebenen Typ und der angegebenen Größe und frei schwebende Formen mit der angegebenen Position, Größe und Textumbruchart mit der Methode [InsertShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertShape-int-double-double) in ein Dokument einfügen. Die **InsertShape** -Methode ermöglicht das Einfügen von DML -Formen in das Dokumentmodell. Das Dokument muss in dem Format gespeichert werden, das DML -Formen unterstützt, andernfalls werden solche Knoten beim Speichern des Dokuments in VML -Formen konvertiert.
 
-Das folgende Codebeispiel zeigt, wie diese Formen in das Dokument eingefügt werden können:
+Das folgende Codebeispiel zeigt, wie diese Arten von Formen in das Dokument eingefügt werden:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-InsertShapeUsingDocumentBuilder.java" >}}
 
-## Set Aspect Ratio geschlossen
+## Seitenverhältnis gesperrt einstellen
 
-Verwendung Aspose.Words, Sie können festlegen, ob das Aspektverhältnis der Form durch die [AspectRatioLocked](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getAspectRatioLocked) Eigentum.
+Mit Aspose.Words können Sie angeben, ob das Seitenverhältnis der Form über die Eigenschaft [AspectRatioLocked](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getAspectRatioLocked) gesperrt ist.
 
-Das folgende Codebeispiel zeigt, wie mit dem **AspectRatioLocked** Eigentum:
+Das folgende Codebeispiel zeigt, wie Sie mit der Eigenschaft **AspectRatioLocked** arbeiten:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-SetAspectRatioLocked.java" >}}
 
-## Set Form Layout in Zelle
+## Formlayout in Zelle festlegen
 
-Sie können auch angeben, ob die Form innerhalb einer Tabelle oder außerhalb davon mit der [IsLayoutInCell](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#isLayoutInCell) Eigentum.
+Sie können auch angeben, ob die Form innerhalb oder außerhalb einer Tabelle angezeigt wird, indem Sie die Eigenschaft [IsLayoutInCell](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#isLayoutInCell) verwenden.
 
-Das folgende Codebeispiel zeigt, wie mit dem **IsLayoutInCell** Eigentum:
+Das folgende Codebeispiel zeigt, wie Sie mit der Eigenschaft **IsLayoutInCell** arbeiten:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-SetShapeLayoutInCell.java" >}}
 
-## Corners Snipped hinzufügen
+## Fügen Sie abgeschnittene Ecken hinzu
 
-Sie können ein Schnip Ecke Rechteck erstellen Aspose.Words. Die Formen sind *SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped, TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded,* und *DiagonalCornersRounded.*
+Sie können mit Aspose.Words ein Snip-Eckrechteck erstellen. Die Formtypen sind *SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped, TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded,* und *DiagonalCornersRounded.*
 
-Die DML-Form wird mit **InsertShape** Verfahren mit diesen Formen. Diese Typen können nicht verwendet werden, um VML-Formen zu erstellen. Versuch, Form zu schaffen, indem der öffentliche Konstrukteur der Klasse "Shape" die Ausnahme "NotSupportedException" erhöht.
+Die DML -Form wird mit der **InsertShape** -Methode mit diesen Formtypen erstellt. Diese Typen können nicht zum Erstellen von VML-Formen verwendet werden. Der Versuch, eine Form mithilfe des öffentlichen Konstruktors der Klasse "Shape" zu erstellen, löst die Ausnahme "NotSupportedException" aus.
 
-Das folgende Codebeispiel zeigt, wie diese Formen in das Dokument eingefügt werden können:
+Das folgende Codebeispiel zeigt, wie diese Art von Formen in das Dokument eingefügt werden:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-AddCornersSnipped.java" >}}
 
-## Erhalten Sie echte Form Bounds Punkte
+## Tatsächliche Formgrenzpunkte abrufen
 
-Verwendung Aspose.Words API, Sie können die Lage und Größe der Form, die Block in Punkten, bezogen auf den Anker der obersten Form erhalten. Um dies zu tun, verwenden Sie die [BoundsInPoints](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getBoundsInPoints) Eigentum.
+Mit Aspose.Words API können Sie die Position und Größe der Form, die den Block enthält, in Punkten relativ zum Anker der obersten Form ermitteln. Verwenden Sie dazu die Eigenschaft [BoundsInPoints](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getBoundsInPoints).
 
-Das folgende Codebeispiel zeigt, wie mit dem **BoundsInPoints** Eigentum:
+Das folgende Codebeispiel zeigt, wie Sie mit der Eigenschaft **BoundsInPoints** arbeiten:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-GetActualShapeBoundsPoints.java" >}}
 
-## Vertical Anchor angeben
+## Vertikalen Anker angeben
 
-Sie können die Text vertikale Ausrichtung innerhalb einer Form mit der [VerticalAnchor](https://reference.aspose.com/words/java/com.aspose.words/textbox/#getVerticalAnchor) Eigentum.
+Sie können die vertikale Textausrichtung innerhalb einer Form mit der Eigenschaft [VerticalAnchor](https://reference.aspose.com/words/java/com.aspose.words/textbox/#getVerticalAnchor) angeben.
 
-Das folgende Codebeispiel zeigt, wie mit dem **VerticalAnchor** Eigentum:
+Das folgende Codebeispiel zeigt, wie Sie mit der Eigenschaft **VerticalAnchor** arbeiten:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-SpecifyVerticalAnchor.java" >}}
 
-## Smart erkennen Kunstform
+## SmartArt-Form erkennen
 
-Aspose.Words auch zu erkennen, ob die Form eine `SmartArt` Objekt. Um dies zu tun, verwenden Sie die [HasSmartArt](https://reference.aspose.com/words/java/com.aspose.words/shape/#hasSmartArt) Eigentum.
+Aspose.Words erlaubt auch zu erkennen, ob die Form ein `SmartArt` Objekt hat. Verwenden Sie dazu die Eigenschaft [HasSmartArt](https://reference.aspose.com/words/java/com.aspose.words/shape/#hasSmartArt).
 
-Das folgende Codebeispiel zeigt, wie mit dem **HasSmartArt** Eigentum:
+Das folgende Codebeispiel zeigt, wie Sie mit der Eigenschaft **HasSmartArt** arbeiten:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-DetectSmartArtShape.java" >}}
 
-## Format der horizontalen Regel
+## Horizontales Linienformat
 
-Sie können horizontale Regelform in ein Dokument mit der [InsertHorizontalRule](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHorizontalRule) Methode.
+Sie können eine horizontale Regelform mit der [InsertHorizontalRule](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHorizontalRule) -Methode in ein Dokument einfügen.
 
-Aspose.Words API bietet [HorizontalRuleFormat](https://reference.aspose.com/words/java/com.aspose.words/shape/#getHorizontalRuleFormat) Eigenschaft, auf die Eigenschaften der horizontalen Regelform zuzugreifen. Die [HorizontalRuleFormat](https://reference.aspose.com/words/java/com.aspose.words/horizontalruleformat/) class stellt grundlegende Eigenschaften wie Größe, Farbe, NoShade etc. für die Formatierung einer horizontalen Regel aus.
+Aspose.Words API stellt die [HorizontalRuleFormat](https://reference.aspose.com/words/java/com.aspose.words/shape/#getHorizontalRuleFormat)-Eigenschaft bereit, um auf die Eigenschaften der horizontalen Regelform zuzugreifen. Die Klasse [HorizontalRuleFormat](https://reference.aspose.com/words/java/com.aspose.words/horizontalruleformat/) macht grundlegende Eigenschaften wie Höhe, Farbe, NoShade usw. verfügbar. für die Formatierung einer horizontalen Linie.
 
-Das folgende Codebeispiel zeigt, wie man **HorizontalRuleFormat**:
+Das folgende Codebeispiel zeigt, wie **HorizontalRuleFormat** gesetzt wird:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-ShapeHorizontalRuleFormat.java" >}}

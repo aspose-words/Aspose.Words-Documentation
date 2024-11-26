@@ -7,6 +7,7 @@ description: "Úvod do funkce Office Math Aspose.Words místo .NET."
 type: docs
 weight: 320
 url: /cs/net/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Nyní je ještě pohodlnější pracovat s OfficeMath Type Objekty. In Aspose.Words, zákazník může snadno Justify a může také zvládnout, zda je rovnice zobrazena inline nebo v samostatném řádku. Více tak, s dostupností **MathObjectType**; užitečné ovládání lze implementovat pomocí tohoto maticového objektu.

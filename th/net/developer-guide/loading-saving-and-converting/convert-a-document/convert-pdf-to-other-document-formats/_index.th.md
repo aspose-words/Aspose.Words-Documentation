@@ -8,6 +8,7 @@ description: "แปลง PDF เป็นรูปแบบ Word เช่น 
 keywords: convert pdf to other formats c#
 weight: 45
 url: /th/net/convert-pdf-to-other-document-formats/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Aspose.Words สามารถโหลดได้แม้กระทั่งรูปแบบที่ซับซ้อนเช่น PDF นี่เป็นการเปิดโอกาสใหม่: เป็นไปได้ที่จะแปลง PDF เป็น Word หรือรูปแบบอื่น ๆ ที่ทำให้ผู้ใช้ก้าวไปข้างหน้าในการแก้ปัญหาต่างๆ

@@ -7,6 +7,7 @@ description: "Aspose.Words Sitemap Java menyediakan berbagai kelas untuk bekerja
 type: docs
 weight: 50
 url: /id/java/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Kadang-kadang Anda mungkin ingin memberikan akses ke kontrol antarmuka yang menjalankan kode untuk memodifikasi dokumen. Aspose.Words API Sitemap `WebExtensions` namespace, yang memberikan berbagai kelas untuk menyesuaikan unsur-unsur dan atribut yang memperluas vocabulary XML untuk mewakili Office Add-ins.

@@ -7,6 +7,7 @@ description: "Python via .NET용 Aspose.Words는 문서 보호를 위해 읽기 
 type: docs
 weight: 50
 url: /ko/python-net/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 문서를 보호하거나 암호화하는 주된 이유는 문서에 액세스할 수 있는 사람이나 문서를 편집할 수 있는 사람을 더 강력하게 제어하기 위한 것입니다. 문서에 보호를 적용하면 문서를 무단으로 복사하거나 수정하는 것은 물론 데이터 유출과 같은 일반적인 위험을 피할 수 있습니다.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: الخط FallBack إعدادات Google Noto الخطوط في C++
 second_title: Aspose.Words ل C++
 articleTitle: الخط المحدد مسبقا FallBack إعدادات Google Noto الخطوط
@@ -7,6 +7,7 @@ description: "Aspose.Words يوفر إعدادات احتياطية للخط م�
 type: docs
 weight: 15
 url: /ar/cpp/predefined-font-fallback-settings-for-google-noto-fonts/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words يوفر إعدادات احتياطية للخط محددة مسبقا لخطوط Google Noto. هذه خطوط مجانية مرخصة بموجب SIL رخصة فتح الخط، والتي يمكن تنزيلها من Google Noto الخطوط. توفر فئة **FontFallbackSettings** طريقة [LoadNotoFallbackSettings](https://reference.aspose.com/words/cpp/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/). يقوم بتحميل الإعدادات الاحتياطية المحددة مسبقا، والتي تستخدم Google Noto الخطوط كما هو موضح في مثال الكود أدناه:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ParentColumns Element
 second_title: Aspose.Words for SharePoint
 articleTitle: ParentColumns Element
@@ -7,6 +7,7 @@ description: "ParentColumns element meaning and structure which may be used whil
 type: docs
 weight: 180
 url: /sharepoint/parentcolumns-element/
+timestamp: 2024-10-21-11-17-44
 ---
 
 The ParentColumns element contains information about columns that make a parent side of the relation between two tables in the report data set.

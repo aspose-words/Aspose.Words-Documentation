@@ -7,6 +7,7 @@ description: "Twórz tabele w dokumencie i zarządzaj nimi za pomocą Python."
 type: docs
 weight: 10
 url: /pl/python-net/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words umożliwia użytkownikom tworzenie tabel w dokumencie od podstaw i udostępnia kilka różnych metod, aby to zrobić. W tym artykule przedstawiono szczegółowe informacje na temat dodawania sformatowanych tabel do dokumentu przy użyciu poszczególnych metod, a także porównanie poszczególnych metod na końcu artykułu.

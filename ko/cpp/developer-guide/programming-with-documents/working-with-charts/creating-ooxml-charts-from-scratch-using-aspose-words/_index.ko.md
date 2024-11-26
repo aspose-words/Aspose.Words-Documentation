@@ -1,4 +1,4 @@
-﻿---
+---
 title: 만들기 OOXML 처음부터 차트
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 만들기 OOXML 처음부터 차트
@@ -7,6 +7,7 @@ description: "를 사용하여 문서에서 다른 차트를 만드는 방법 C+
 type: docs
 weight: 10
 url: /ko/cpp/creating-ooxml-charts-from-scratch-using-aspose-words/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## 만들기 OOXML 처음부터 차트를 사용하여 Aspose.Words

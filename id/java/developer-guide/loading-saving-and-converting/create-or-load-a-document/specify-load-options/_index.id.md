@@ -7,6 +7,7 @@ description: "Mengatur sifat canggih ketika memuat dokumen menggunakan Java untu
 type: docs
 weight: 10
 url: /id/java/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ketika memuat dokumen, Anda dapat mengatur beberapa sifat canggih. Aspose.Words memberikan Anda [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) kelas, yang memungkinkan kontrol proses beban yang lebih tepat. Beberapa format beban memiliki kelas yang sesuai yang memegang opsi beban untuk format beban ini, misalnya, ada [PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) untuk memuat ke format PDF atau [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) untuk memuat ke TXT. Artikel ini memberikan contoh kerja dengan pilihan **LoadOptions** Sitemap

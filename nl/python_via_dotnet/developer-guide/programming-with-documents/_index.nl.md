@@ -7,6 +7,7 @@ type: docs
 description: "Aspose gebruiken `Python.Words` Document Object Model lessen om programmatisch documenten te maken, wijzigen en beheren met python-net. Werk met document eigenschappen, instellingen en inhoud, evenals met document verschijning door het beheer van kleuren, vormen, lettertypen en andere afbeeldingen."
 weight: 60
 url: /nl/python-net/programming-with-documents/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Deze sectie geeft informatie over hoe je programmatisch documenten maakt, wijzigt en beheert met de Aspose.Words Document Object Model lessen. De artikelen in deze sectie beschrijven een breed scala aan documentenmanipulatietaken waarmee u kunt werken met documenteigenschappen, instellingen, inhoud en de elementen ervan.

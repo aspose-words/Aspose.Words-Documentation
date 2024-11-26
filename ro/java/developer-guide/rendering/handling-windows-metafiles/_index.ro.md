@@ -1,4 +1,4 @@
-﻿---
+---
 title: Manipularea Windows Metafișiere în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Manipularea Windows Metafișiere
@@ -7,6 +7,7 @@ description: "Aspose.Words pentru Java implementează propriul Windows Metafile 
 type: docs
 weight: 30
 url: /ro/java/handling-windows-metafiles/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Windows formatul Metafile este un format de fișier imagine care poate conține atât grafică vectorială, cât și grafică raster. Acest format este utilizat pentru a stoca date grafice în memorie sau fișiere pe disc. Un metafișier stochează o listă de apeluri de funcții în interfața dispozitivului Grafic Windows (GDI) care trebuie executate pentru a afișa imaginea pe ecran. Sistemul interpretează și execută aceste comenzi în contextul afișajului.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Afdelings in C++
 second_title: Aspose.Words vir C++
 articleTitle: Werk Met Afdelings
@@ -7,6 +7,7 @@ description: "Verstaan dokument afdeling konsepte en manipulasie praktyke met be
 type: docs
 weight: 120
 url: /af/cpp/working-with-sections/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Soms wil jy'n dokument hê wat nie dieselfde formatering oor alle bladsye het nie. Byvoorbeeld, jy sal dalk bladsynommerformate moet verander, verskillende bladsygrootte en oriëntasie moet hê, of die eerste dokumentbladsy as voorblad moet hê sonder enige nommering. Jy kan dit met afdelings bereik.

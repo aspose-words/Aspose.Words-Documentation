@@ -7,6 +7,7 @@ description: "详细情况、实地代码和实地结果 Aspose.Words (单位:�
 type: docs
 weight: 10
 url: /zh/java/introduction-to-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words 是一个类库,用于服务器侧处理 Microsoft Word 文档并通过以下方式支持字段:
@@ -36,7 +37,7 @@ Aspose.Words 是一个类库,用于服务器侧处理 Microsoft Word 文档并�
 
 ## 域数 Aspose.Words Document Object Model (单位:千美元)DOM页:1
 
-当文档装入时 <span notrans="<span notrans=" Aspose.Words"=""></span>",> 文档的字段被装入 Aspose.Words Document Object Model 作为一组单独的组件(节点)。 单字段作为集合装入 **FieldStart**, **FieldSeparator** 和 **FieldEnd** 节点与这些节点之间的内容。 如果一个字段没有字段结果,则不会有 **FieldSeparator** 节点. 所有这些节点都是内在的(作为儿童) [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) 或 [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/)。 。 。 。
+当文档装入时 Aspose.Words 文档的字段被装入 Aspose.Words Document Object Model 作为一组单独的组件(节点)。 单字段作为集合装入 **FieldStart**, **FieldSeparator** 和 **FieldEnd** 节点与这些节点之间的内容。 如果一个字段没有字段结果,则不会有 **FieldSeparator** 节点. 所有这些节点都是内在的(作为儿童) [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) 或 [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/)。 。 。 。
 
 内 Aspose.Words 每一个 **FieldXXX** 节点来自 [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/)。 。 。 此类提供了属性, 用于通过 [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) 属性。 比如说 `FieldType.FieldMergeField` 代表文档中的合并字段。
 
@@ -173,9 +174,9 @@ Aspose.Words 支持可用的所有日期和时间格式化开关 Microsoft Word,
 
 ### Mail Merge 字段
 
-Aspose.Words 不限制复杂程度 mail merge 字段,并支持嵌入 `IF` 和公式字段,甚至可以使用公式计算合并字段的名称。
+Aspose.Words 不限制复杂程度 Mail Merge 字段,并支持嵌入 `IF` 和公式字段,甚至可以使用公式计算合并字段的名称。
 
-一些实例包括: mail merge 字段 Aspose.Words 支持:
+一些实例包括: Mail Merge 字段 Aspose.Words 支持:
 
 - 怎么样? Mail merge 字段开关:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -222,6 +223,6 @@ EXAMPLE( 使用公共包装器 CurseThreadSettings. get Locale () 并设置 Loca
 
 那个 [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) 类提供 a [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/document/#getFieldOptions) 属性,其中包含可用于控制文档中字段更新的元件。
 
-以下的代码示例显示, 如何指定在 字段更新和 mail merge 选自:
+以下的代码示例显示, 如何指定在 字段更新和 Mail Merge 选自:
 
 实例

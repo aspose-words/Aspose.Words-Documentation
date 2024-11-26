@@ -7,6 +7,7 @@ description: "موقعیت جدول را در Python مشخص کنید. تراز
 type: docs
 weight: 50
 url: /fa/python-net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 جداول شناور و جداول درون خطی وجود دارد:

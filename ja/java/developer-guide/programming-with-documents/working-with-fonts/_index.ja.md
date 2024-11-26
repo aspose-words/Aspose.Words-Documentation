@@ -1,38 +1,39 @@
----
-title: フォントを扱う Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: フォントを扱う
-linktitle: フォントを扱う
-description: "詳細はフォントのフォーマット Javaお問い合わせ"
+﻿---
+title: Javaでのフォントの操作
+second_title: Aspose.WordsのためのJava
+articleTitle: フォントの操作
+linktitle: フォントの操作
+description: "Javaを使用した詳細なフォントの書式設定。"
 type: docs
 weight: 230
 url: /ja/java/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
-フォントは、特定のサイズ、色、設計の文字のセットです。 Aspose.Words さまざまなフォント関連のクラスを使用してフォントを扱うことができます。 [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) クラス。
+フォントは、特定のサイズ、色、およびデザインを持つ文字のセットです。 Aspose.Wordsを使用すると、[Font](https://reference.aspose.com/words/java/com.aspose.words/font/)クラスを含むさまざまなフォント関連のクラスを使用してフォントを操作できます。
 
-## フォントのフォーマット
+## フォントの書式設定
 
-現在のフォントフォーマットは、 **Font** 返されたオブジェクト [Font](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getFont) プロパティ. ザ・オブ・ザ・ **Font** クラスには、さまざまなフォントのプロパティが含まれています。 Microsoft Wordお問い合わせ
+現在のフォントの書式は、[Font](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getFont)プロパティによって返される**Font**オブジェクトで表されます。 **Font**クラスには、Microsoft Wordで可能なさまざまなフォントプロパティが含まれています。
 
-次のコードの例では、フォントのフォーマットを設定する方法を示します。
+次のコード例は、フォントの書式設定を設定する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithDocumentBuilder-SetFontFormatting.java" >}}
 
-テキストの書式を埋めるために、フォントでもプロパティを埋めます。 たとえば、背景色やテキストの透明度など、変更する機能を提供します。
+フォントでテキストの塗りつぶしの書式設定を設定するための塗りつぶしプロパティも使用できるようになりました。 これは、例えば、テキスト塗りつぶしの前景色や透明度を変更する機能を提供します。
 
-## フォントラインの間隔を取得する
+## フォントの行間隔を取得する
 
-フォントのライン間隔は、テキストの2連線のベースライン間の垂直距離です。 そのため、線の間隔は、線間の空白のスペースと、文字自体の高さを含みます。
+フォントの行間隔は、連続する2行のテキストのベースライン間の垂直方向の距離です。 したがって、行間には、文字自体の高さとともに行間の空白が含まれます。
 
-ザ・オブ・ザ・ [LineSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/#getLineSpacing) 物件が紹介されました **Font** 以下に示すように、この値を取得するクラス:
+次の例に示すように、この値を取得するために[LineSpacing](https://reference.aspose.com/words/java/com.aspose.words/font/#getLineSpacing)プロパティが**Font**クラスに導入されました:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-GetFontLineSpacing-GetFontLineSpacing.java" >}}
 
-## フォントエンファシスマーク
+## フォントEmphasisMark
 
-ザ・オブ・ザ・ **Font** クラス提供 [EmphasisMark](https://reference.aspose.com/words/java/com.aspose.words/font/#getEmphasisMark) フォーマットで適用するEmphasisMarkの列挙値を取得するか、または設定するプロパティ。
+**Font**クラスは、書式設定に適用されるEmphasisMark列挙値を取得または設定する[EmphasisMark](https://reference.aspose.com/words/java/com.aspose.words/font/#getEmphasisMark)プロパティを提供します。
 
-次のコードの例では、設定方法を示します。 **EphasisMark** プロパティ:
+次のコード例は、**EphasisMark**プロパティを設定する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithDocumentBuilder-SetFontEmphasisMark.java" >}}

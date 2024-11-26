@@ -7,6 +7,7 @@ description: "Use table-row conditional blocks within single document table to r
 type: docs
 weight: 20
 url: /java/working-with-table-row-conditional-blocks/
+timestamp: 2024-10-21-11-17-44
 ---
 
 A table-row conditional block is a conditional block which body occupies single or multiple rows of a single document table. The body of such a block (as well as the body of its every template option) starts at the beginning of the first occupied row and ends at the end of the last occupied row as follows.

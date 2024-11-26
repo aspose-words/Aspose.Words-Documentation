@@ -7,6 +7,7 @@ description: "Můžete přistupovat k poli modifikace pomocí Python. Pole dokum
 type: docs
 weight: 10
 url: /cs/python-net/fields-overview/
+timestamp: 2024-10-21-11-17-44
 ---
 
 
@@ -95,7 +96,7 @@ Odstranit pole v Microsoft Word:
 
 ## Pole Aspose.Words
 
-Při načtení dokumentu <span notrans="<span notrans=" Aspose.Words"=""></span>,? pole dokumentu jsou vložena do Aspose.Words Document Object Model jako sada samostatných součástí (nod). Jedno pole je naloženo jako sbírka [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/), [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/) a [FieldEnd](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldend/) uzly spolu s obsahem mezi těmito uzly. Pokud pole nemá výsledek pole pak nebude [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/) Uzel. Všechny tyto uzly jsou vždy nalezeny inline (jako děti [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) nebo [SmartTag](https://reference.aspose.com/words/python-net/aspose.words.markup/smarttag/).
+Při načtení dokumentu Aspose.Words,? pole dokumentu jsou vložena do Aspose.Words Document Object Model jako sada samostatných součástí (nod). Jedno pole je naloženo jako sbírka [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/), [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/) a [FieldEnd](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldend/) uzly spolu s obsahem mezi těmito uzly. Pokud pole nemá výsledek pole pak nebude [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/) Uzel. Všechny tyto uzly jsou vždy nalezeny inline (jako děti [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) nebo [SmartTag](https://reference.aspose.com/words/python-net/aspose.words.markup/smarttag/).
 
 Obsah, který tvoří kód pole, je uložen jako [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) uzly mezi [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/) a [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/). Výsledek pole je uložen mezi [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/) a [FieldEnd](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldend/) uzly a mohou být složeny z různých typů obsahu. Normálně výsledek pole obsahuje pouze text tvořený [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) uzly, nicméně je možné pro [FieldEnd](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldend/) uzel, který má být umístěn v úplně jiném odstavci, a tak výsledek pole se skládá z blokové úrovně uzlů, jako je [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) a [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) Taky uzly.
 
@@ -190,9 +191,9 @@ Aspose.Words podporuje všechny přepínače pro formátování dat a času dost
 
 #### Mail Merge Pole
 
-Aspose.Words neukládá žádné omezení složitosti mail merge pole ve vašich dokumentech a podporuje vnořené `IF` a pole vzorce a může dokonce vypočítat název pole sloučení pomocí vzorce.
+Aspose.Words neukládá žádné omezení složitosti Mail Merge pole ve vašich dokumentech a podporuje vnořené `IF` a pole vzorce a může dokonce vypočítat název pole sloučení pomocí vzorce.
 
-Některé příklady mail merge pole, která Aspose.Words podpora:
+Některé příklady Mail Merge pole, která Aspose.Words podpora:
 
 - Mail merge přepínače polí:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -236,7 +237,7 @@ Pomocí současné kultury formátovat pole umožňuje systém snadno a důsledn
 
 Na druhou stranu, Microsoft Word formátuje každé jednotlivé pole založené na jazyku textu nalezeného v poli (specificky běží od kódu pole). Někdy během aktualizace pole to může být žádoucí chování, například pokud máte globalizované dokumenty obsahující obsah tvořený z mnoha různých jazyků a chtěli byste, aby každé pole uctívalo místo použité z textu. Aspose.Words podporuje tuto funkci.
 
-• [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) třída [field_options](https://reference.aspose.com/words/python-net/aspose.words/document/field_options/) vlastnost, která obsahuje členy, které lze použít pro kontrolu toho, jak jsou pole aktualizována v dokumentu. Níže uvedený příklad ukazuje, jak určit, kde kultura použitá pro formátování dat během aktualizace pole a mail merge je vybrán.
+• [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) třída [field_options](https://reference.aspose.com/words/python-net/aspose.words/document/field_options/) vlastnost, která obsahuje členy, které lze použít pro kontrolu toho, jak jsou pole aktualizována v dokumentu. Níže uvedený příklad ukazuje, jak určit, kde kultura použitá pro formátování dat během aktualizace pole a Mail Merge je vybrán.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-ChangeFieldUpdateCultureSource.py" >}}
 

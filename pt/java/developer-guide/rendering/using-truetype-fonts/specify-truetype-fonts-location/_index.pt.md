@@ -1,17 +1,18 @@
----
-title: Especificar True Tipo Fontes Localização em Java
+﻿---
+title: Especificar TrueType localização das fontes em Java
 second_title: Aspose.Words para Java
-articleTitle: Especificar True Tipo Fontes Localização
-linktitle: Especificar True Tipo Fontes Localização
-description: "Especificar vários Verdade Tipo fontes de fonte: pasta do sistema, fontes de usuário, carregando fontes de um fluxo, um sistema de arquivos ou memória usando Java."
+articleTitle: Especificar TrueType Localização Das Fontes
+linktitle: Especificar TrueType Localização Das Fontes
+description: "Especifique várias fontes de fonte TrueType: pasta do sistema, fontes do Usuário, Carregando fontes de um fluxo, um sistema de arquivos ou memória usando Java."
 type: docs
 weight: 30
 url: /pt/java/specify-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
-Este tópico descreve o comportamento padrão de Aspose.Words quando procura fontes TrueType, incluindo diferenças específicas do sistema operacional e demonstra como especificar fontes de fonte do usuário.
+Este tópico descreve o comportamento padrão de Aspose.Words quando procura fontes TrueType, incluindo diferenças específicas do sistema operacional, e demonstra como especificar fontes de fonte do Usuário.
 
-O [FontSourceBase](https://reference.aspose.com/words/java/com.aspose.words/fontsourcebase/) classe é usada para especificar várias fontes de fonte. Existem várias implementações do **FontSourceBase** classe:
+A classe [FontSourceBase](https://reference.aspose.com/words/java/com.aspose.words/fontsourcebase/) é usada para especificar várias fontes de fonte. Existem várias implementações da classe **FontSourceBase**:
 
 - [SystemFontSource](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/)
 - [FolderFontSource](https://reference.aspose.com/words/java/com.aspose.words/folderfontsource/)
@@ -19,57 +20,57 @@ O [FontSourceBase](https://reference.aspose.com/words/java/com.aspose.words/font
 - [FileFontSource](https://reference.aspose.com/words/java/com.aspose.words/filefontsource/)
 - [MemoryFontSource](https://reference.aspose.com/words/java/com.aspose.words/memoryfontsource/)
 
-Os detalhes de implementação para algumas classes são explicados abaixo.
+Os detalhes de implementação de algumas classes são explicados abaixo.
 
-## Carregar fontes do sistema {#loading-fonts-from-system}
+## Carregar Fontes Do Sistema {#loading-fonts-from-system}
 
-Há um especial [SystemFontSource](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/) classe que é sempre usado por padrão. Representa todas as fontes TrueType instaladas no sistema. Portanto, é possível criar uma lista de origem com **SystemFontSource** e quaisquer outras fontes necessárias:
+Existe uma classe [SystemFontSource](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/) especial que é sempre usada por padrão. Representa todas as fontes TrueType instaladas no sistema. Portanto, é possível criar uma lista de fontes com **SystemFontSource** e quaisquer outras fontes necessárias:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetFontsFolder.java" >}}
 
-Uma única instância do **SystemFontSource** classe é definida por padrão [FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/). Em diferentes sistemas operacionais, fontes podem estar localizadas em diferentes lugares. No entanto, usando um **FontSettings** exemplo para cada documento não é uma solução ideal. Na maioria dos casos, usando [DefaultInstance](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/#getDefaultInstance) Devia ser suficiente.
+Uma única instância da classe **SystemFontSource** é definida por padrão em [FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/). Em diferentes sistemas operativos, as fontes podem estar localizadas em locais diferentes. No entanto, usar uma instância **FontSettings** para cada documento não é uma solução ideal. Na maioria dos casos, utilizar [DefaultInstance](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/#getDefaultInstance) deve ser suficiente.
 
-As instâncias por documento são necessárias apenas se for necessário usar fontes de fonte diferentes para diferentes documentos, o que é um caso raro. Usando vários **FontSettings** instâncias diminui o desempenho porque eles não compartilham o cache.
+As instâncias por documento só são necessárias se for necessário utilizar fontes de fonte diferentes para documentos diferentes, o que é um caso raro. O uso de várias instâncias **FontSettings** diminui o desempenho porque elas não compartilham o cache.
 
-### Onde? Aspose.Words Procura fontes TrueType em Windows
+### Onde Aspose.Words procura Fontes TrueType em Windows
 
-Na maioria dos casos, Windows os usuários não enfrentam problemas significativos com fontes perdidas ou layouts incorretos. Normalmente, Aspose.Words passa por um documento, e quando ele encontra o link de uma fonte, ele fetches com sucesso os dados de fonte da pasta do sistema.
+Na maioria dos casos, Windows os usuários não enfrentam problemas significativos com fontes perdidas ou layouts incorretos. Normalmente, Aspose.Words passa por um documento e, quando encontra o link de uma fonte, obtém com êxito os dados da fonte da pasta do sistema.
 
-Em <span notrans="<span notrans=" Windows"=""></span>, Aspose.Words primeiro leva todas as fontes disponíveis do _%windir%\Fonts pasta. Esta configuração vai funcionar para você na maioria das vezes. Você só especificar suas próprias pastas de fontes se você precisar. Aspose.Words também procura fontes adicionais registradas no HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts chave de registro. Além disso, Windows 10 permite a instalação de fontes para o usuário atual. Fontes são colocadas no %userprofile%\AppData\Local\Microsoft\Windows\Fonts pasta e também especificado no HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts registro, onde Aspose.Words vai procurar estas fontes.
+Em Windows, Aspose.Words primeiro pega todas as fontes disponíveis da pasta _%windir%\Fonts. Esta definição irá funcionar para si na maior parte do tempo. Você só especifica suas próprias pastas de fontes Se precisar. Aspose.Words também procura fontes adicionais registadas na chave de Registo HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts. Além disso, Windows 10 permite a instalação de fontes para o utilizador actual. As fontes são colocadas na pasta %userprofile%\AppData\Local\Microsoft\Windows\Fonts e também especificadas no registro HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts, onde Aspose.Words procurará essas fontes.
 
-Se um documento contém fontes incorporadas, Aspose.Words pode ler dados de fonte relevantes do documento e usá-lo para criar o layout do documento. Os documentos também podem conter links para fontes que não estão nas pastas do sistema, caso em que os seguintes cenários vêm trabalhar:
+Se um documento contiver fontes incorporadas, Aspose.Words pode ler os dados de fonte relevantes do documento e usá-los para criar o layout do documento. Os documentos também podem conter links para fontes que não estão nas pastas do sistema, caso em que os seguintes cenários funcionam:
 
-- Os usuários podem configurar novas fontes de fonte através do **FontSettings** classe
-- Não. Aspose.Words pode tentar substituir a fonte perdida por uma similar
+- Os usuários podem configurar novas fontes de fonte através da classe **FontSettings**
+- Aspose.Words pode tentar substituir a fonte perdida por uma semelhante
 
-### Fontes em Non...Windows Sistemas de software
+### Fontes em sistemas NãoWindows
 
-Aspose.Words procurará as fontes nas pastas de fonte do sistema. Uma lista dessas pastas pode ser vista pela [GetSystemFontFolders](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/#getSystemFontFolders) método. Se não forem encontradas fontes suportadas, Aspose.Words usará a fonte padrão embutida Fanwood.ttf.
+Aspose.Words procurará as fontes nas pastas de fontes do sistema. Uma lista dessas pastas pode ser vista pelo método [GetSystemFontFolders](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/#getSystemFontFolders). Se nenhuma fonte suportada for encontrada, Aspose.Words usará a fonte padrão interna Fanwood.ttf.
 
-Desde as métricas de fonte Windows e não...Windows OS são diferentes, Aspose.Words faz tudo possível para encontrar uma fonte semelhante e construir um layout semelhante ao original. No entanto, isso nem sempre é possível. Nestes casos, **FontSettings** classe deve ser usado para adicionar fontes personalizadas ou regras de substituição.
+Como as métricas de fonte de Windows e não-Windows OS são diferentes, Aspose.Words faz todo o possível para encontrar uma fonte semelhante e construir um layout semelhante ao original. No entanto, isso nem sempre é possível. Nesses casos, a classe **FontSettings** deve ser usada para adicionar fontes personalizadas ou regras de substituição.
 
-#### Onde? Aspose.Words Procura fontes TrueType em Linux
+#### Onde Aspose.Words procura Fontes TrueType em Linux
 
-Diferente Linux distribuições podem armazenar fontes em diferentes pastas. Aspose.Words procura fontes em vários locais. Por padrão, Aspose.Words procura as fontes em todos os seguintes locais: * /usr/share/fonts* /usr/local/share/fonts* /usr/X11R6/lib/X11/fonts Este comportamento padrão funcionará para a maioria Linux distribuições, mas não é garantido para trabalhar o tempo todo, nesse caso você pode precisar especificar a localização de true digite fontes explicitamente. Para fazer isso, você precisa saber onde fontes TrueType são instaladas em seu Linux distribuição.
+Diferentes distribuições Linux podem armazenar fontes em pastas diferentes. Aspose.Words procura fontes em vários locais. Por padrão, Aspose.Words procura as fontes em todos os locais a seguir: `/usr/share/fonts`, `/usr/local/share/fonts`, `/usr/X11R6/lib/X11/fonts`. Esse comportamento padrão funcionará para a maioria das distribuições Linux, mas não é garantido que funcione o tempo todo, caso em que talvez seja necessário especificar explicitamente a localização das fontes true type. Para fazer isso, você precisa saber onde as fontes TrueType estão instaladas em sua distribuição Linux.
 
-#### Onde? Aspose.Words Procura fontes TrueType no Mac OS X
+#### Onde Aspose.Words procura Fontes TrueType em Mac OS X
 
-Aspose.Words procura fontes na pasta /Library/Fonts, que é o local padrão para fontes TrueType no Mac OS X. Embora esta configuração funcione para você na maioria das vezes, você pode precisar especificar suas próprias pastas de fontes no caso quando você precisar.
+Aspose.Words procura fontes na pasta `/Library/Fonts`, que é o local padrão para Fontes TrueType em Mac OS X. Embora essa configuração funcione para você na maioria das vezes, talvez seja necessário especificar suas próprias pastas de Fontes no caso em que for necessário.
 
-#### Fontes TrueType em Android
+#### TrueType fontes em Android
 
-Em Android, fluxo de trabalho de fontes é encapsulado na classe Typeface.
-Existem cinco tipos de tipos, cada tipo de letra representa um grupo de famílias de fontes semelhantes:
+Em Android, o fluxo de trabalho de fontes é encapsulado na classe Typeface.
+Existem cinco tipos de fontes, cada fonte representa um grupo de famílias de fontes semelhantes:
 
-- DEFAUL
-- DEFAULTADO
+- DEFAULT
+- DEFAULT_BOLD
 - MONOSPACE
 - SANS_SERIF
 - SERIF
 
-Por exemplo, segundo Android’ [fonts.xml](https://androidxref.com/9.0.0_r3/xref/frameworks/base/data/fonts/fonts.xml) config file, "times" pertence a "serif" família assim NotoSerif-Regular.ttf será usado quando "times" é solicitado:
+Por exemplo, de acordo com a de Android [fonts.xml](https://androidxref.com/9.0.0_r3/xref/frameworks/base/data/fonts/fonts.xml) arquivo de configuração," times "pertence à família" serif " então NotoSerif-Regular.ttf será usado quando" times " for solicitado:
 
-**Fontes.xml**
+**Fonts.xml**
 
 {{< highlight html >}}
 <family name="serif">
@@ -82,19 +83,19 @@ Por exemplo, segundo Android’ [fonts.xml](https://androidxref.com/9.0.0_r3/xre
 <alias name="times new roman" to="serif" />
 {{< /highlight >}}
 
-Para pesquisar fontes semelhantes, as estratégias descritas anteriormente são usadas
+Para procurar fontes semelhantes, são utilizadas as estratégias descritas anteriormente.
 
-Além deles, Aspose.Words tem sua própria lista de substituições para o Android plataforma.
+Além deles, Aspose.Words tem sua própria lista de substituições para a plataforma Android.
 
-Digamos que o documento contém a fonte PMingLiU-ExtB, em primeiro lugar, Aspose.Words está procurando a fonte necessária dentro das fontes do sistema.
+Digamos que o documento contenha a fonte PMingLiU-ExtB, em primeiro lugar, Aspose.Words está procurando a fonte necessária nas fontes do sistema.
 
-A lista padrão de Android pastas da fonte é:
+A lista padrão das pastas da fonte Android é:
 
-- /sistema/fonts
-- /sistema/font
-- /data/fonts
+- /sistema / fontes
+- /sistema / fonte
+- /dados / Fontes
 
-O Aspose.Words olha através de fontes definidas pelo usuário que foi definido com o método:
+O Aspose.Words examina as fontes definidas pelo usuário que foram definidas com o método:
 
 **Java**
 
@@ -102,7 +103,7 @@ O Aspose.Words olha através de fontes definidas pelo usuário que foi definido 
 fontSettings.setFontsFolder("/home/user/MyFonts", true);
 {{< /highlight >}}
 
-No caso de uma substituição explícita ter sido especificada, Aspose.Words substitui a fonte ausente pela sugestão do usuário:
+Caso tenha sido especificada uma substituição explícita, Aspose.Words substitui a fonte em falta pela sugestão do utilizador:
 
 **Java**
 
@@ -110,11 +111,11 @@ No caso de uma substituição explícita ter sido especificada, Aspose.Words sub
 fontSettings.getSubstitutionSettings().getTableSubstitution().setSubstitutes("PMingLiU-ExtB", "Liberation Serif");
 {{< /highlight >}}
 
-Se nenhuma das regras funcionou, Aspose.Words verificar a tabela de substituição interna. Se a tabela contém informações sobre um bom ajuste, então a fonte é substituída. No nosso caso Aspose.Words selecionar `Typeface.SERIF`. Mas se a tabela não sabe nada sobre a fonte solicitada então Aspose.Words pega uma fonte baseada em regras especiais do MS Word ou a distância mais próxima no espaço Panose.
+Se nenhuma das regras funcionou, Aspose.Words Verifique a tabela de substituição interna. Se a tabela contiver informações sobre um bom ajuste, a fonte será substituída. No nosso caso, Aspose.Words irá seleccionar `Typeface.SERIF`. Mas se a tabela não souber nada sobre a fonte solicitada, Aspose.Words pega uma fonte com base em regras especiais de Palavras MS ou na distância mais próxima no espaço Panose.
 
-#### Fontes TrueType em .NET Core e Xamarin
+#### TrueType Fontes em .NET Core e Xamarin
 
-Para .NET Core e Xamarin a mesma regra aplica-se a Aspose.Words para Java versão. Por padrão, todas as fontes de sistema da plataforma em que o aplicativo é executado estão disponíveis.
+Para .NET Core e Xamarin aplica-se a mesma regra que para Aspose.Words para a versão Java. Por padrão, todas as fontes do sistema da plataforma na qual o aplicativo é executado estão disponíveis.
 A lista de pastas onde a pesquisa será realizada pode ser encontrada chamando o método:
 
 **Java**
@@ -123,37 +124,37 @@ A lista de pastas onde a pesquisa será realizada pode ser encontrada chamando o
 SystemFontSource().getAvailableFonts()
 {{< /highlight >}}
 
-## Carregar fontes de pasta {#loading-fonts-from-folder}
+## Carregar fontes da pasta {#loading-fonts-from-folder}
 
-Se o documento que está sendo processado contém links para fontes que não estão no sistema, ou você não quer adicioná-los à pasta do sistema, ou você não tem permissões, então a melhor solução seria adicionar uma pasta com suas próprias fontes usando a `SetFontsSources` método. Isso permitirá substituir a fonte do sistema por uma fonte de usuário. Aspose.Words não procurará mais fontes no registro ou Windows\Font pasta e, em vez disso, apenas procurar fontes dentro da pasta(s) especificada(s). O `GetFontSources` método retornará os valores correspondentes.
+Se o documento que está sendo processado contiver links para fontes que não estão no sistema, ou se você não quiser adicioná-las à pasta do sistema, ou se não tiver permissões, a melhor solução seria adicionar uma pasta com suas próprias fontes usando o método `SetFontsSources`. Isso permitirá substituir a fonte do sistema por uma fonte do Usuário. Aspose.Words deixará de procurar fontes no registo ou na pasta Windows\Font e, em vez disso, apenas procurará fontes dentro da(s) Pasta (s) especificada (s). O método `GetFontSources` retornará os valores correspondentes.
 
-### Especificar uma ou várias pastas de fonte
+### Especificar uma ou várias pastas de fontes
 
-O [SetFontsFolder](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/#setFontsFolder-java.lang.String-boolean) e os métodos SetFontsFolders são atalhos para os **SetFontSources** método com um ou vários [FolderFontSource](https://reference.aspose.com/words/java/com.aspose.words/folderfontsource/) instâncias. Estes métodos são usados para indicar onde Aspose.Words deve procurar fontes. Se uma pasta não existe ou não é acessível, Aspose.Words ignora esta pasta. Se todas as pastas, incluindo fontes para a substituição da fonte, foram ignoradas, Aspose.Words usará a fonte Fanwood como padrão.
+Os métodos [SetFontsFolder](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/#setFontsFolder-java.lang.String-boolean) e SetFontsFolders são atalhos para o método **SetFontSources** com uma ou várias instâncias [FolderFontSource](https://reference.aspose.com/words/java/com.aspose.words/folderfontsource/). Esses métodos são usados para indicar onde Aspose.Words deve procurar fontes. Se uma pasta não existir ou não estiver acessível, Aspose.Words simplesmente ignora esta pasta. Se todas as pastas, incluindo fontes para a substituição de fonte, foram ignoradas, Aspose.Words usará a fonte Fanwood como padrão.
 
-O exemplo a seguir demonstra como definir a pasta ou fonte, que Aspose.Words posteriormente usará para procurar fontes TrueType durante a renderização ou incorporação de fontes:
+O exemplo a seguir demonstra como definir a pasta ou a fonte, que Aspose.Words usará posteriormente para procurar fontes TrueType durante a renderização ou incorporação de fontes:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetTrueTypeFontsFolder.java" >}}
 
 {{% alert color="primary" %}}
 
-Você pode baixar o arquivo de modelo deste exemplo a partir de [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
+Você pode baixar o arquivo de modelo deste exemplo em [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-Um parâmetro extra Boolean controla se as fontes são digitalizadas recursivamente através de todas as pastas, portanto, a digitalização de todas as pastas de crianças de uma pasta especificada. O exemplo a seguir demonstra como definir Aspose.Words para procurar em várias pastas para fontes TrueType ao renderizar ou incorporar fontes:
+Um parâmetro booleano extra controla se as fontes são verificadas recursivamente em todas as pastas, portanto, varrendo todas as pastas filhas de uma pasta especificada. O exemplo a seguir demonstra como definir Aspose.Words para procurar em várias pastas fontes TrueType ao renderizar ou incorporar fontes:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetMultipleFontsFolder.java" >}}
 
-Você pode baixar o arquivo de modelo deste exemplo a partir de [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
+Você pode baixar o arquivo de modelo deste exemplo em [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{% alert color="primary" %}}
 
-Observe as prioridades. Se houver fontes com o mesmo nome de família e estilo em fontes de fontes diferentes, então Aspose.Words selecionará a fonte da fonte com uma prioridade maior. Veja a descrição do campo "Prioridade" abaixo.
+Observe as prioridades. Se houver fontes com o mesmo nome de família e estilo em fontes diferentes, Aspose.Words selecionará a fonte da fonte com uma prioridade mais alta. Veja a descrição do campo" Prioridade " abaixo.
 
 {{% /alert %}}
 
-Se você não quiser usar fontes do sistema em tudo, Aspose.Words permite que você ignorá-los e usar suas próprias fontes apenas:
+Se você não quiser usar fontes do sistema, Aspose.Words permite que você as ignore e use apenas suas próprias fontes:
 
 **Java**
 
@@ -162,41 +163,41 @@ FontSettings.getDefaultInstance().setFontsFolder("C:\\MyFonts\\", true);
 {{< /highlight >}}
 
 
-### Propriedade prioritária
+### Propriedade Prioritária
 
-O [Priority](https://reference.aspose.com/words/net/aspose.words.fonts/fontsourcebase/priority/) propriedade é usada quando há fontes com o mesmo nome de família e estilo em fontes de fonte diferentes. Neste caso Aspose.Words seleciona a fonte da fonte com o valor de prioridade maior. Por exemplo, há uma versão antiga da fonte na pasta do sistema e o cliente adicionou uma nova versão da mesma fonte em uma pasta personalizada.
+A propriedade [Priority](https://reference.aspose.com/words/net/aspose.words.fonts/fontsourcebase/priority/) é usada quando existem fontes com o mesmo nome de família e estilo em fontes de fonte diferentes. Neste caso, Aspose.Words selecciona a fonte da fonte com o valor de prioridade mais elevado. Por exemplo, há uma versão antiga da fonte na pasta do sistema e o cliente adicionou uma nova versão da mesma fonte em uma pasta personalizada.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetFontsFolderWithPriority.java" >}}
 
-## Carregar fontes de fluxo {#loading-fonts-from-stream}
+## Carregar Fontes Do Stream {#loading-fonts-from-stream}
 
-Aspose.Words fornece o [StreamFontSource](https://reference.aspose.com/words/java/com.aspose.words/streamfontsource/) classe, que permite carregar fontes do fluxo. Para usar a fonte de fonte de fluxo, um usuário precisa criar uma classe derivada de **StreamFontSource** e fornecer uma implementação da [OpenFontDataStream](https://reference.aspose.com/words/java/com.aspose.words/streamfontsource/#openFontDataStream) método. O **OpenFontDataStream** método poderia ser chamado várias vezes. Pela primeira vez, será chamado quando Aspose.Words varre as fontes de fonte fornecidas para obter uma lista de fontes disponíveis. Mais tarde pode ser chamado se a fonte é usada no documento para analisar os dados da fonte e incorporar os dados da fonte para alguns formatos de saída. **StreamFontSource** pode ser útil porque permite carregar os dados da fonte somente quando é necessário, e não armazená-lo na memória para o `FontSettings` vida.
+Aspose.Words fornece a classe [StreamFontSource](https://reference.aspose.com/words/java/com.aspose.words/streamfontsource/), que permite carregar fontes do fluxo. Para usar a fonte de fonte de fluxo, um usuário precisa criar uma classe derivada de **StreamFontSource** e fornecer uma implementação do método [OpenFontDataStream](https://reference.aspose.com/words/java/com.aspose.words/streamfontsource/#openFontDataStream). O método **OpenFontDataStream** pode ser chamado várias vezes. Pela primeira vez, será chamado quando Aspose.Words verificar as fontes de fonte fornecidas para obter uma lista de fontes disponíveis. Posteriormente, pode ser chamado se a fonte for usada no documento para analisar os dados da fonte e incorporar os dados da fonte em alguns formatos de saída. **StreamFontSource** pode ser útil porque permite carregar os dados da fonte apenas quando necessário, e não armazená-los na memória durante o tempo de vida de `FontSettings`.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-SpecifyTrueTypeFontsLocation-loadingFontsStream.java" >}}
 
-**StreamFontSource** é uma alternativa para [MemoryFontSource](https://reference.aspose.com/words/java/com.aspose.words/memoryfontsource/) uma vez que é sempre possível carregar um fluxo para a memória e passá-lo para **MemoryFontSource**. A diferença é que **MemoryFontSource** é armazenado na memória o tempo todo, e o **StreamFontSource** é carregado sob demanda e disposto de imediato. Mas pode ser carregado várias vezes, como descrito acima. Em alguns casos **MemoryFontSource** é preferível, e em outros, **StreamFontSource**.
+**StreamFontSource**
 
-## Salvar e carregar uma fonte Pesquisar Cache
+## Salvar e carregar um cache de pesquisa de fonte
 
-Ao procurar uma fonte pela primeira vez, Aspose.Words itera sobre as fontes de fonte especificadas pelo usuário e forma um cache de pesquisa de fonte com base em dados dessas fontes. Assim, o cache irá coletar informações sobre as fontes disponíveis: família de fontes, estilo, nome de fonte completo e outros. Em chamadas subsequentes, Aspose.Words pesquisa informações sobre a fonte desejada pelo seu nome no cache de pesquisa de fontes, após a qual analisa os arquivos especificados para usar a fonte.
+Ao pesquisar uma fonte pela primeira vez, Aspose.Words itera sobre as fontes de fonte especificadas pelo Usuário e forma um cache de pesquisa de fonte com base nos dados dessas fontes. Assim, o cache coletará informações sobre as fontes disponíveis: família de Fontes, Estilo, nome completo da fonte e outros. Em chamadas subsequentes, Aspose.Words procura informações sobre a fonte desejada pelo seu nome no cache de pesquisa de fontes, após o que analisa os arquivos especificados para usar a fonte.
 
-O procedimento para analisar todos os arquivos de fonte disponíveis para inicializar o cache é bastante demorado. Aspose.Words permite salvar e carregar o cache usando o **FontSettings.SaveSearchCache** método para resolver o problema de desempenho. Ou seja, o usuário pode carregar um cache previamente salvo de um arquivo e pular o passo de analisar todos os arquivos de fonte disponíveis.
+O procedimento para analisar todos os arquivos de fonte disponíveis para inicializar o cache é bastante demorado. Aspose.Words permite salvar e carregar o cache usando o método **FontSettings.SaveSearchCache** para resolver o problema de desempenho. Ou seja, o usuário pode carregar um cache salvo anteriormente de um arquivo e pular a etapa de análise de todos os arquivos de fonte disponíveis.
 
 {{% alert color="primary" %}}
 
-Use o mesmo **SaveSearchCache** método para atualizar o cache.
+Use o mesmo método **SaveSearchCache** para atualizar o cache.
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-O cache também é adequado para outros cenários quando as fontes são carregadas pela rede. Ou para cenários quando não há maneira de armazenar uma `FontSettings` instância com um cache carregado.
+O cache também é adequado para outros cenários quando as fontes são carregadas pela rede. Ou para cenários em que não há como armazenar uma instância `FontSettings` com um cache carregado.
 
 {{% /alert %}}
 
 
 ## Obter uma lista de fontes disponíveis {#get-a-list-of-available-fonts}
 
-Se você quiser obter a lista de fontes disponíveis, que, por exemplo, pode ser usado para renderizar um documento PDF, você pode usar a [GetAvailableFonts](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/#getAvailableFonts) método, como mostrado no seguinte exemplo de código. O [PhysicalFontInfo](https://reference.aspose.com/words/java/com.aspose.words/physicalfontinfo/) class especifica informações sobre a fonte física disponível para Aspose.Words motor de fonte:
+Se você deseja obter a lista de fontes disponíveis, que, por exemplo, podem ser usadas para renderizar um documento PDF, você pode usar o método [GetAvailableFonts](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/#getAvailableFonts), conforme mostrado no exemplo de código a seguir. A classe [PhysicalFontInfo](https://reference.aspose.com/words/java/com.aspose.words/physicalfontinfo/) especifica informações sobre a fonte física disponível para o mecanismo de fontes Aspose.Words:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-GetAllAvailableFonts.java" >}}

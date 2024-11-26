@@ -7,6 +7,7 @@ description: "使文档只读,以便内容可以复制或读取,但不使用 Jav
 type: docs
 weight: 10
 url: /zh/java/open-a-document-read-only/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有时,你可能有一个需要审查的文件,但你不希望审查者随机修改你的内容. Aspose.Words 允许您只允许读取文档,以便内容可以复制或读取,但不能修改。 这将防止内容被删除或添加到您的文档中.

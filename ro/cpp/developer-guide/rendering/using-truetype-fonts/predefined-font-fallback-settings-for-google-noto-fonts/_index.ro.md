@@ -1,4 +1,4 @@
-﻿---
+---
 title: Font FallBack Setări pentru Google Noto fonturi în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Font predefinit FallBack Setări pentru Google Noto fonturi
@@ -7,6 +7,7 @@ description: "Aspose.Words oferă setări predefinite de rezervă pentru fonturi
 type: docs
 weight: 15
 url: /ro/cpp/predefined-font-fallback-settings-for-google-noto-fonts/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Aspose.Words oferă setări predefinite de rezervă a fonturilor pentru Google Noto fonturi. Acestea sunt fonturi gratuite licențiate sub SIL Open Font License, care pot fi descărcate din Google Noto fonturi. Clasa **FontFallbackSettings** oferă o metodă [LoadNotoFallbackSettings](https://reference.aspose.com/words/cpp/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/). Se încarcă setările de rezervă predefinite, care utilizează Google Noto fonturi așa cum se arată în exemplul de cod de mai jos:

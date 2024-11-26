@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cum se adaugă Group Shape în fișierul Word
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Lucrul cu Group Shape în documente Word
@@ -7,6 +7,7 @@ description: "Adăugați group shape într-un document folosind Python."
 type: docs
 weight: 290
 url: /ro/python-net/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uneori trebuie să adăugați un group shape într-un document Word. Un astfel de group shape este format din mai multe forme.

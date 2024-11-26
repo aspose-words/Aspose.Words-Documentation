@@ -7,6 +7,7 @@ description: "Nhúng ngữ nghĩa do khách hàng xác định cũng như hành 
 type: docs
 weight: 50
 url: /vi/python-net/structured-document-tags-or-content-control/
+timestamp: 2024-01-31-14-23-37
 ---
 
 

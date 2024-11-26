@@ -7,6 +7,7 @@ description: "Jak przekonwertować dokument z jednego formatu na inny, taki jak 
 type: docs
 weight: 10
 url: /pl/net/loading-saving-and-converting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 W tej sekcji znajdują się informacje o funkcjach ładowania i zapisywania dokumentu, a także dane o możliwościach konwersji dokumentu z jednego formatu na inny.

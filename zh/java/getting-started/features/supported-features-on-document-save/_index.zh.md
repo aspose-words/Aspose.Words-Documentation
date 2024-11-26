@@ -7,6 +7,7 @@ description: "以大多数流行格式保存文档并支持很多 Microsoft Word
 type: docs
 weight: 30
 url: /zh/java/supported-features-on-document-save/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 允许用户使用不同格式的文档工作,并为此提供广泛的功能. 例如,用户可以从头创建或加载文档,进行一些修改,然后将修改保存在任何输出文件中 [支持的文档格式](/words/zh/java/supported-document-formats/)。 。 。 在以所选格式保存文档的同时,用户可以应用各种保存选项.

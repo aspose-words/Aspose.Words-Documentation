@@ -7,6 +7,7 @@ description: "Nối các bảng trong tài liệu bằng Python. Cách hợp nh�
 type: docs
 weight: 90
 url: /vi/python-net/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Một bảng, được thể hiện trong Aspose.Words Document Object Model, được tạo thành từ các hàng và ô độc lập, giúp việc nối các bảng trở nên dễ dàng.

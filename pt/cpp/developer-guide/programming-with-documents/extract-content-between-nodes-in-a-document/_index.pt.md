@@ -1,4 +1,4 @@
-﻿---
+---
 title: Como extrair conteúdo entre nós de documentos
 second_title: Aspose.Words para C++
 articleTitle: Extrair conteúdo entre nós num documento
@@ -7,6 +7,7 @@ type: docs
 description: "Extraindo o conteúdo do documento em diferentes usando C++."
 weight: 140
 url: /pt/cpp/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ao trabalhar com documentos, é importante poder extrair facilmente o conteúdo de um intervalo específico dentro de um documento. No entanto, o conteúdo pode consistir em elementos complexos, como parágrafos, tabelas, imagens, etc.

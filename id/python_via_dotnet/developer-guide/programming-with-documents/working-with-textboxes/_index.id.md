@@ -7,6 +7,7 @@ description: "Bekerja dengan kotak teks dalam dokumen menggunakan Python."
 type: docs
 weight: 250
 url: /id/python-net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Di Aspose.Words, kelas [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) digunakan untuk menentukan bagaimana teks ditampilkan di dalam suatu bentuk. Ini menyediakan properti publik bernama [parent](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/parent/) untuk mendapatkan bentuk induk kotak teks guna memungkinkan pelanggan menemukan [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) tertaut dari [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) tertaut.

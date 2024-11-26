@@ -1,4 +1,4 @@
-﻿---
+---
 title: Comment définir les propriétés de l'Axe du graphique en C++
 second_title: Aspose.Words pour C++
 articleTitle: Comment définir les Propriétés de l'Axe du Graphique
@@ -7,6 +7,7 @@ description: "Réglage de l'axe du graphique en utilisant C++."
 type: docs
 weight: 20
 url: /fr/cpp/how-to-set-chart-axis-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Si vous souhaitez utiliser l'axe du graphique, la mise à l'échelle et les unités d'affichage pour l'axe des valeurs, veuillez utiliser les classes [ChartAxis](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.chart_axis), [AxisDisplayUnit](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_display_unit) et [AxisScaling](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_scaling).

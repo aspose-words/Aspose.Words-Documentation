@@ -1,4 +1,4 @@
-﻿---
+---
 title: 在C++中使用TextBoxes
 second_title: Aspose.Words对于C++
 articleTitle: 使用TextBoxes
@@ -7,6 +7,7 @@ description: "链接文本框功能介绍 Aspose.Words对于C++."
 type: docs
 weight: 250
 url: /zh/cpp/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 在Aspose.Words中，[TextBox](https://reference.aspose.com/words/cpp/aspose.words.drawing/textbox/)类用于指定文本在形状内的显示方式。 它公开了一个名为**Parent**的公共属性来获取文本框的父形状，以便客户可以从关联的**TextBox**中找到链接的[Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/)。

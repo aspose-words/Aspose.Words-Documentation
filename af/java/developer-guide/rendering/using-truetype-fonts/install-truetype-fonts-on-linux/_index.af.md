@@ -1,4 +1,4 @@
-﻿---
+---
 title: Installeer TrueType Lettertipes op Linux in Java
 second_title: Aspose.Words vir Java
 articleTitle: Installeer TrueType Lettertipes op Linux
@@ -7,6 +7,7 @@ description: "Aspose.Words vir Java aktiveer die lewering van'n dokument geskep 
 type: docs
 weight: 20
 url: /af/java/install-truetype-fonts-on-linux/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dikwels sal jy Aspose.Words gebruik om DOC of DOCX dokumente om te skakel na PDF formaat. As jy dit op'n Linux masjien moet doen, sal hierdie onderwerp jou help om te leer hoe om te verseker dat Aspose.Words jou dokumente met die beste akkuraatheid weergee.

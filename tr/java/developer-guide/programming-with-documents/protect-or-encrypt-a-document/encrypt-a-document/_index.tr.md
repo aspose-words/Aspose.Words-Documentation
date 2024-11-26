@@ -7,6 +7,7 @@ description: "Belgenizi belirli belge formatları için uygun şifreleme algorit
 type: docs
 weight: 20
 url: /tr/java/encrypt-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Şifreleme, okunabilir metni anlamsız bayt sıralarına çeviren bir işlemdir ki onu yalnızca şifre çözme anahtarına veya gizli koda sahip olan kişi okuyabilir. Bu süreç içeriği güvence altına almak için önemli bir rol oynar. İçeriği kodlamaya yardım eder, bir belgenin kaynağını doğrular, içeriğin gönderildikten sonra değiştirilmediğini kanıtlar ve belgeden gelen verilerin güvenli olduğundan emin olur.

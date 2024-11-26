@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cara Mengatur Properti Sumbu Bagan di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Cara Mengatur Properti Sumbu Bagan
@@ -7,6 +7,7 @@ description: "Penyetelan sumbu bagan menggunakan C++."
 type: docs
 weight: 20
 url: /id/cpp/how-to-set-chart-axis-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Jika Anda ingin bekerja dengan sumbu bagan, penskalaan, dan unit tampilan untuk sumbu nilai, gunakan kelas [ChartAxis](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.chart_axis), [AxisDisplayUnit](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_display_unit), dan [AxisScaling](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_scaling).

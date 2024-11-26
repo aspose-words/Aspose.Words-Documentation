@@ -7,6 +7,7 @@ description: "Fügen Sie einen Absatz in ein C#-Dokument ein. Legen Sie Absatzst
 type: docs
 weight: 210
 url: /de/net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ein Absatz ist eine Reihe von Zeichen, die zu einem logischen Block zusammengefasst sind und mit einem Sonderzeichen – einem *Absatzumbruch* – enden. In Aspose.Words wird ein Absatz durch die [Paragraph](https://reference.aspose.com/words/de/net/aspose.words/paragraph/)-Klasse dargestellt.

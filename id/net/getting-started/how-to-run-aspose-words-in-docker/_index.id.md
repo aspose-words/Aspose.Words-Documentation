@@ -7,6 +7,7 @@ type: docs
 description: "Integrasikan fungsionalitas Aspose.Words ke dalam aplikasi Anda menggunakan Docker, apa pun teknologi yang ada dalam tumpukan pengembangan Anda. Pelajari cara menggunakan Aspose .Words dalam kontainer Docker dalam C#."
 weight: 120
 url: /id/net/how-to-run-aspose-words-in-docker/
+timestamp: 2024-08-19-11-05-36
 ---
 
 Layanan mikro, bersama dengan containerisasi, memungkinkan penggabungan teknologi dengan mudah. Docker memungkinkan Anda dengan mudah mengintegrasikan fungsionalitas Aspose.Words ke dalam aplikasi Anda, apa pun teknologi yang ada dalam tumpukan pengembangan Anda.
@@ -32,7 +33,7 @@ Untuk membuat program Hello World, ikuti langkah-langkah di bawah ini:
 ![net-console-application](https://lh5.googleusercontent.com/PArWoC8_leOnhtaF-5BMb3b4jHwI3G03WoyMK3bXZpsQKN50YzvEQBwoRniyCWKIcdR0EZGuwn3S8Z0ZK6FQ4cjMSWgH3CwSqReW4bMt-3OjZjrdt9yuWbkMdhyNjwwaaYPC5Ylr)<br>
 1. Instal versi Aspose.Words terbaru dari NuGet. SkiaSharp akan diinstal sebagai ketergantungan Aspose.Words.<br>
 ![skiasharp-dependency](https://lh3.googleusercontent.com/zWpvB5TLahC_OpJrHDML2131Vj_VK1vryTZBd_C3ZeOBdoUOc2vF_axEvwu9tytaL1maJv3qA2KoyP5fn7ae4_3cL23sXyoLoVysjgu8XEp6l0B2w5hgR9teh95_9mFd9X-4DGNN)<br>
-1. Karena aplikasi akan dijalankan di Linux, aset Linux asli yang sesuai harus diinstal. Mulailah dengan gambar dasar Debian dan instal `SkiaSharp.NativeAssets`.Linux.
+1. Karena aplikasi akan dijalankan di Linux, aset Linux asli yang sesuai harus diinstal. Mulailah dengan gambar dasar Debian dan instal `SkiaSharp.NativeAssets.Linux`.
 1. Ketika semua dependensi yang diperlukan telah ditambahkan, tulislah sebuah program sederhana yang menciptakan pesan "Hello World!" mendokumentasikan dan menyimpannya dalam semua format penyimpanan yang didukung:<br>
 
 {{< gist "aspose-words-gists" "47e15ad749897be465deebc2ff3e76dd" "aspose-words-docker.cs" >}}

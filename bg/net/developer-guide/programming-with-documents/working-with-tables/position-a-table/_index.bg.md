@@ -7,6 +7,7 @@ description: "Посочва се позицията на таблицата в 
 type: docs
 weight: 50
 url: /bg/net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Има плаващи маси и редови таблици:

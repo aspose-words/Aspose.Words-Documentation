@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki Tablolarla Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Tablolarla Çalışma
@@ -7,6 +7,7 @@ description: "C++ içindeki tablolarla nasıl çalışılır. Tablolarla çalı�
 type: docs
 weight: 190
 url: /tr/cpp/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir belgedeki **table**, benzer verileri yapılandırmanın harika bir yoludur. Bu nedenle tablolar ortak bir içerik biçimlendirme öğesidir ve çoğu biçim tarafından şu veya bu biçimde desteklenir.

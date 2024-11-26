@@ -8,6 +8,7 @@ url: /id/net/create-or-load-a-document/
 description: "Buat dokumen kosong atau memuatnya dari file atau aliran menggunakan C#."
 keywords: "create a document c#, load a document c#, create a blank document c#, load a document from file c#, load a document from stream c#, create a document Aspose .NET, load a document Aspose .NET, load formats supported by Aspose.Words .NET"
 weight: 10
+timestamp: 2024-07-09-19-00-42
 ---
 
 Hampir semua tugas yang ingin Anda lakukan dengan Aspose.Words melibatkan pemuatan dokumen. Kelas `Document` mewakili dokumen yang dimuat ke dalam memori. Dokumen tersebut memiliki beberapa konstruktor kelebihan beban yang memungkinkan Anda membuat dokumen kosong atau memuatnya dari file atau aliran. Dokumen dapat dimuat dalam format pemuatan apa pun yang didukung oleh Aspose.Words. Untuk daftar semua format pemuatan yang didukung, lihat enumerasi [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/).

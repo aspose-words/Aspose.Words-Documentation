@@ -1,4 +1,4 @@
-﻿---
+---
 title: การทำงานกับรูปร่างในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: การทำงานกับรูปร่าง
@@ -7,6 +7,7 @@ type: docs
 description: "รู้เบื้องต้นเกี่ยวกับภาษามาร์กอัปสร้างรูปร่างที่แตกต่างกันโดยใช้C++."
 weight: 280
 url: /th/cpp/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 หัวข้อนี้อธิบายถึงวิธีการทำงานตามโปรแกรมที่มีรูปร่างโดยใช้Aspose.Words.

@@ -7,6 +7,7 @@ description: "Aspose.Words voor .NET is een softwarebibliotheek ontworpen om doc
 type: docs
 weight: 15
 url: /nl/net/product-overview/
+timestamp: 2024-01-31-14-23-37
 ---
 
 <img src="/words/net/product-overview/product-overview_1" alt="aspose-words-product" align="left" style="width:64px; margin: 0 30px 30px 0"/>
@@ -79,7 +80,7 @@ Aspose.Words is multithread veilig zolang slechts één draad aan een document t
 
 ### Minimale leercurve
 
-Hoewel er meer dan 150 openbare klassen en opsommingen in <span notrans="<span notrans=" Aspose.Words"=""></span>,"> de leercurve is minimaal omdat de Aspose.Words API zorgvuldig is ontworpen met de volgende doelstellingen in het achterhoofd:
+Hoewel er meer dan 150 openbare klassen en opsommingen in Aspose.Words de leercurve is minimaal omdat de Aspose.Words API zorgvuldig is ontworpen met de volgende doelstellingen in het achterhoofd:
 
 - Lenen van beste praktijken van andere bekende APIs Microsoft Word Automatisering
 - Beste praktijken van de .NET Framework Ontwerprichtsnoeren

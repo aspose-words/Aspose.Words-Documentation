@@ -1,39 +1,40 @@
----
-title: Níveis Lógicos de Nós em um Documento em Java
+﻿---
+title: Níveis lógicos de nós num documento em Java
 second_title: Aspose.Words para Java
-articleTitle: Níveis Lógicos de Nós em um Documento
-linktitle: Níveis Lógicos de Nós em um Documento
+articleTitle: Níveis lógicos de nós em um documento
+linktitle: Níveis lógicos de nós em um documento
 type: docs
-description: "Em Aspose.Words para Java documentação mencionou níveis lógicos de nós – nível de bloco, nível inline, ou nível de linha. O nível de nó é usado para descrever a localização na árvore de documentos onde o nó é tipicamente ocorrer."
+description: "Em Aspose.Words para Java documentação mencionada níveis lógicos de nós-nível de bloco, nível embutido ou nível de linha. O nível do nó é usado para descrever o local na árvore de documentos onde o nó é normalmente ocorrer."
 weight: 10
 url: /pt/java/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Esta documentação, por vezes, refere-se a um grupo de classes de nó como pertencentes a um "nível" em um documento, como "nível de bloqueio", "nível de linha" (também conhecido como "inline"), ou "nível de linha" nós. Estes níveis em um documento são diferenciados puramente logicamente e não são explicitamente expressos por herança ou outros Aspose.Words DOM significa. O nível de nó é usado para descrever o lugar na árvore do documento onde o nó normalmente ocorreria.
+Essa documentação às vezes se refere a um grupo de classes de nós como pertencentes a um "nível" em um documento, como nós "nível de bloco", "nível embutido" (também conhecido como "inline") ou "nível de linha". Estes níveis num documento são diferenciados puramente logicamente e não são explicitamente expressos por herança ou outros meios Aspose.Words DOM. O nível do nó é usado para descrever o local na árvore de documentos onde o nó normalmente ocorreria.
 
-No artigo anterior, já falamos sobre a relação entre nós e o fato de que nem todos os nós são autorizados a ser uma criança de quaisquer nós. Por exemplo, Cell só pode ser uma criança Row, e uma linha só pode ser uma criança Table, e assim por diante. Estas relações também são aplicáveis para a divisão lógica de nós em níveis no documento.
+No artigo anterior, já falamos sobre a relação entre nós e o fato de que nem todos os nós podem ser filhos de quaisquer Nós. Por exemplo, Cell só pode ser um filho de linha, e uma linha só pode ser um filho de tabela, e assim por diante. Essas relações também são aplicáveis para a divisão lógica de nós em níveis no documento.
 
-As seguintes seções descrevem os níveis lógicos de nós em Aspose.Words e as classes que pertencem a cada nível.
+As secções seguintes descrevem os níveis lógicos dos nós em Aspose.Words e as classes que pertencem a cada nível.
 
-## Nível Lógico de Documentos e Seções
+## Nível lógico do documento e da secção
 
-A O documento do Word consiste em uma ou mais seções, representadas pelo [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) classe e separados por quebras de seção. Uma seção pode definir seu próprio tamanho de página, margens, orientação, número de colunas de texto, cabeçalhos e rodapés.
+Um documento do Word consiste em uma ou mais seções, representadas pela classe [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) e separadas por quebras de seção. Uma seção pode definir seu próprio tamanho de página, margens, orientação, número de colunas de texto e cabeçalhos e rodapés.
 
-[Document](https://reference.aspose.com/words/java/com.aspose.words/document/) e [Secção](https://www.aspose.com/api/words/java/com.aspose.words/section) nós de nível têm a estrutura como mostrado no seguinte diagrama.
+[Document](https://reference.aspose.com/words/java/com.aspose.words/document/) e [Sec2o](https://www.aspose.com/api/words/java/com.aspose.words/section) os nós de nível têm a estrutura como mostrado no diagrama a seguir.
 
 <img src="/words/java/logical-levels-of-nodes-in-a-document/document-and-section-level.png" alt="document-and-section-level-aspose-words-java" style="width:700px"/>
 
-Uma seção contém o texto principal, bem como cabeçalhos e rodapés para as primeiras páginas, mesmo e ímpares. Estes diferentes "fluxos" de texto são chamados *stories*.
+Uma secção contém o texto principal, bem como os cabeçalhos e rodapés das primeiras páginas, pares e ímpares. Esses diferentes" fluxos " de texto são chamados *stories*.
 
-Em Aspose.Words, o **Section** o nó contém [Body](https://reference.aspose.com/words/java/com.aspose.words/body/) e [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/) nós da história. O **Body** objeto armazena o texto principal. O **HeaderFooter** objetos armazenam o texto para cada cabeçalho e rodapé. O texto de qualquer história consiste em parágrafos e tabelas, respectivamente representados pelo **Paragraph** e **Table** objetos do nível do bloco.
+Em Aspose.Words, o nó **Section** contém os nós da história [Body](https://reference.aspose.com/words/java/com.aspose.words/body/) e [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/). O objeto **Body** armazena o texto principal. Os objetos **HeaderFooter** armazenam o texto para cada cabeçalho e rodapé. O texto de qualquer história consiste em parágrafos e tabelas, respectivamente representados pelos objetos **Paragraph** e **Table** do nível de bloco.
 
-Além disso, cada O documento do Word pode conter um glossário, que é representado pelo [GlossaryDocument](https://reference.aspose.com/words/java/com.aspose.words/glossarydocument/) Node em Aspose.Words. Um documento brilhante contém [BuildingBlocks](https://reference.aspose.com/words/java/com.aspose.words/buildingblock/), [AutoText](https://reference.aspose.com/words/java/com.aspose.words/buildingblocktype/#AUTO-TEXT), e [AutoCorrect](https://reference.aspose.com/words/java/com.aspose.words/buildingblocktype/#AUTO-CORRECT) entradas.
+Além disso, cada documento do Word pode conter um glossário, que é representado pelo nó [GlossaryDocument](https://reference.aspose.com/words/java/com.aspose.words/glossarydocument/) em Aspose.Words. Um documento do glossário contém entradas [BuildingBlocks](https://reference.aspose.com/words/java/com.aspose.words/buildingblock/), [AutoText](https://reference.aspose.com/words/java/com.aspose.words/buildingblocktype/#AUTO-TEXT) e [AutoCorrect](https://reference.aspose.com/words/java/com.aspose.words/buildingblocktype/#AUTO-CORRECT).
 
-**GlossaryDocument** inclui [BuildingBlock](https://reference.aspose.com/words/java/com.aspose.words/buildingblock/) nós representando diferentes tipos de entradas de documentos glossários. Cada um **BuildingBlock** contém seções que podem ser inseridas, removidas e copiadas em documentos.
+**GlossaryDocument**
 
-## Nível Lógico do bloco
+## Nível Lógico Do Bloco
 
-Os nós de nível do bloco representam recipientes para controles de conteúdo e conteúdo, e podem ocorrer nos nós da criança da árvore do documento nos seguintes nós:
+Os nós em nível de bloco representam contêineres para conteúdo e controles de Conteúdo e podem ocorrer nos nós filhos da árvore de documentos nos seguintes nós:
 
 - Corpo
 - Cabeçalho
@@ -41,64 +42,64 @@ Os nós de nível do bloco representam recipientes para controles de conteúdo e
 - Nota de rodapé
 - Comentário
 - Forma
-- Não. GroupForma
+- GroupShape
 - Célula
-- EstruturadoDocumentTag
+- StructuredDocumentTag
 
 Os nós de nível de bloco são representados pelas seguintes classes:
 
-- Não. [Tables](https://reference.aspose.com/words/java/com.aspose.words/table/) e [Paragraphs](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), que são os nós de nível de bloco mais importantes
-- Marcas, que ocorrem tanto no nível do bloco como no nível inline
-- Não. [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/), que representam marcação personalizada e pode conter tanto conteúdo quanto controles de conteúdo
+- [Tables](https://reference.aspose.com/words/java/com.aspose.words/table/) e [Paragraphs](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), que são os nós de nível de bloco mais importantes
+- Marcadores, que ocorrem tanto no nível do bloco como no nível embutido
+- [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/), que representam marcação personalizada e podem conter conteúdo e controles de conteúdo
 
-O seguinte diagrama mostra os elementos de nível de bloco.
+O diagrama a seguir mostra os elementos de nível de bloco.
 
 <img src="/words/java/logical-levels-of-nodes-in-a-document/block-level.png" alt="block-level-aspose-words-java" style="width:550px"/>
 
-## Nível Lógico Inline
+## Nível Lógico Em Linha
 
-Os nós de nível inline representam o conteúdo real do documento e podem ser contidos nos seguintes recipientes:
+Os nós de nível embutido representam o conteúdo real do documento e podem estar contidos nos seguintes contêineres:
 
-- Parágrafo – o recipiente mais comum
+- Parágrafo-o contentor mais comum
 - [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/)
-- EstruturadoDocumentTag
+- StructuredDocumentTag
 
-Os elementos de nível inline são representados pelas seguintes classes:
+Os elementos de nível embutido são representados pelas seguintes classes:
 
-- Não. [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) – corridas de texto formatados de forma diferente
-- Não. [BookmarkStart](https://reference.aspose.com/words/java/com.aspose.words/bookmarkstart/) e [BookmarkEnd](https://reference.aspose.com/words/java/com.aspose.words/bookmarkend/) representar marcadores
-- Não. [ComentárioRangeStart]https://reference.aspose.com/words/java/com.aspose.words/comment/RangeStart), [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/), [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/) e [Footnote](https://reference.aspose.com/words/java/com.aspose.words/footnote/) representando anotações
-- Não. [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/), [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/), [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/) e [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/) que representam caracteres de campo, e [FormField](https://reference.aspose.com/words/java/com.aspose.words/formfield/) representação Campos do Word
-- Não. [SpecialChar](https://reference.aspose.com/words/java/com.aspose.words/specialchar/) representa caracteres especiais no documento
-- Não. [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) e [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) representam formas, desenhos, imagens, etc.
-- SmartTag e documentação estruturada Tag representam marcação personalizada
+- [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) - execuções de texto formatadas de forma diferente
+- [BookmarkStart](https://reference.aspose.com/words/java/com.aspose.words/bookmarkstart/) e [BookmarkEnd](https://reference.aspose.com/words/java/com.aspose.words/bookmarkend/) representam marcadores
+- [CommentRangeStart]https://reference.aspose.com/words/java/com.aspose.words/comment/RangeStart), [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/), [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/) e [Footnote](https://reference.aspose.com/words/java/com.aspose.words/footnote/) representam anotações
+- [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/), [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/), [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/) e [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/) que representam caracteres de campo e [FormField](https://reference.aspose.com/words/java/com.aspose.words/formfield/) representam campos de palavras
+- [SpecialChar](https://reference.aspose.com/words/java/com.aspose.words/specialchar/) representa caracteres especiais no documento
+- [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) e [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) representam formas, desenhos, imagens, etc.
+- SmartTag e StructuredDocumentTag representam marcação personalizada
 
-O diagrama seguinte mostra a estrutura de nós de nível inline.
+O diagrama a seguir mostra a estrutura de nós de nível embutido.
 
 <img src="/words/java/logical-levels-of-nodes-in-a-document/inline-level.png" alt="inline-level-aspose-words-java" style="width:785px"/>
 
 {{% alert color="primary" %}}
 
-Formas em Microsoft Word incluem Office Art AutoShapes, caixas de texto, imagens, objetos OLE e controles ActiveX, todos os quais são representados usando o `Shape` classe. Algumas formas também podem conter texto, de modo que os nós de forma em Aspose.Words pode conter nós de nível de bloco.
+As formas em Microsoft Word incluem Office Art AutoShapes, caixas de texto, imagens, OLE objectos e controlos ActiveX, todos representados utilizando a classe `Shape`. Algumas formas também podem conter texto, portanto, os nós de forma em Aspose.Words podem conter nós de nível de bloco.
 
-Formas podem ser agrupadas dentro um do outro usando GroupNodos de forma.
+As formas podem ser agrupadas entre si usando GroupShape nós.
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-Notas de rodapé e comentários podem conter texto, portanto, notas de rodapé e nós de comentário em Aspose.Words pode conter nós de nível de bloco.
+As notas de rodapé e os comentários podem conter texto, pelo que os nós de nota de rodapé e de comentário em Aspose.Words podem conter nós de nível de bloco.
 
 {{% /alert %}}
 
-## Tabela, linha e nível de nó celular
+## Nível de nó de tabela, linha e célula
 
-A tabela consiste em nós de linhas e células. Os elementos de tabela são representados pelas seguintes classes:
+A tabela consiste em nós de linhas e células. Os elementos da tabela são representados pelas seguintes classes:
 
-- Não. [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) representa uma linha de tabela
-- Não. [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) representa uma célula de tabela
-- Documento estruturado Tag representam marcação personalizada
+- [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) representa uma linha de tabela
+- [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) representa uma célula da tabela
+- StructuredDocumentTag representam marcação personalizada
 
-O diagrama a seguir mostra as estruturas do nó dos níveis de tabela, linha e célula.
+O diagrama a seguir mostra as estruturas de nós dos níveis de tabela, linha e célula.
 
 <img src="/words/java/logical-levels-of-nodes-in-a-document/table-row-cell.png" alt="table-row-cell-aspose-words-java" style="width:910px"/>

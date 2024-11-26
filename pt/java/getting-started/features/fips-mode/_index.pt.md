@@ -1,33 +1,34 @@
----
-title: Modo FIPS
+﻿---
+title: FIPS modo
 second_title: Aspose.Words para Java
-articleTitle: Modo FIPS
-linktitle: Modo FIPS
-description: "Aspose.Words para Java usa vários algoritmos de criptografia e hash ao processar documentos para cumprir com os padrões FIPS."
+articleTitle: FIPS modo
+linktitle: FIPS modo
+description: "Aspose.Words for Java usa vários algoritmos de criptografia e hash ao processar documentos para cumprir os padrões FIPS."
 type: docs
 weight: 80
 url: /pt/java/fips-mode/
+timestamp: 2024-05-08-10-19-58
 ---
 
-Aspose.Words usa várias criptografia e algoritmos hash ao processar documentos e este artigo descreve como ele está relacionado com os padrões FIPS.
+Aspose.Words usa vários algoritmos de criptografia e hash ao processar documentos e este artigo descreve como isso está relacionado aos padrões FIPS.
 
-As Normas Federal de Processamento de Informações (FIPS) são um conjunto de normas abertamente publicadas desenvolvidas pelo governo federal dos Estados Unidos para estabelecer requisitos para vários propósitos, como garantir a segurança e a interoperabilidade do computador.
+Os padrões federais de processamento de informações (FIPS) são um conjunto de padrões publicados abertamente desenvolvidos pelo governo federal dos Estados Unidos para estabelecer requisitos para vários fins, como garantir a segurança e a interoperabilidade do computador.
 
 ## BouncyCastle para o resgate
 
-Aspose.Words para Java e Aspose.Words para Android usar o castelo Bouncy FIPS JAR para criptografia, decodificação e assinatura de documentos. O JAR foi projetado e implementado para atender aos requisitos FIPS 140-2, Nível 1.
+Aspose.Words para Java e Aspose.Words para Android use o castelo inflável FIPS JAR para criptografia, descriptografia e assinatura de documentos. O JAR foi concebido e implementado para satisfazer os requisitos do FIPS 140-2, Nível 1.
 
-FIPS 140-2 é um padrão de segurança de computadores do governo dos EUA usado para aprovar módulos criptográficos. Este padrão especifica os requisitos de segurança que serão satisfeitos por um módulo criptográfico e fornece altos níveis de segurança destinados a cobrir uma ampla gama de aplicações e ambientes potenciais. Para mais detalhes sobre FIPS 140-2, consulte o [NIST publicação](https://www.nist.gov/publications/security-requirements-cryptographic-modules-includes-change-notices-1232002?pub_id=902003).
+FIPS 140-2 é um padrão de segurança de computadores do governo dos EUA usado para aprovar módulos criptográficos. Esta norma especifica os requisitos de segurança que serão satisfeitos por um módulo criptográfico e fornece altos níveis de segurança destinados a cobrir uma ampla gama de aplicações e ambientes potenciais. Para mais detalhes sobre FIPS 140-2, ver o [NIST publicaa](https://www.nist.gov/publications/security-requirements-cryptographic-modules-includes-change-notices-1232002?pub_id=902003).
 
-Aspose.Words para .NET usa a versão geral Bouncy Castle sem suporte para FIPS.
+Aspose.Words para .NET usa a versão Geral do Castelo Insuflável sem suporte para FIPS.
 
-## Ativação do modo FIPS
+## FIPS Activação Do Modo
 
-A partir da versão 18.10 Aspose.Words permite trabalhar em dois modos: Geral e FIPS.
+A partir da versão 18.10 Aspose.Words permite trabalhar em dois modos: geral e FIPS.
 
-Por padrão Aspose.Words funciona no modo Geral, então não há restrições sobre o uso de algoritmos e chaves neste caso.
+Por padrão, Aspose.Words funciona no modo geral, portanto, não há restrições ao uso de algoritmos e chaves neste caso.
 
-Você pode mudar Aspose.Words do modo geral no modo FIPS usando o seguinte método:
+Você pode alternar Aspose.Words do modo geral para o modo FIPS usando o seguinte método:
 
 **Java**
 
@@ -35,11 +36,11 @@ Você pode mudar Aspose.Words do modo geral no modo FIPS usando o seguinte méto
 SecuritySettings.startFipsMode();
 {{< /highlight >}}
 
-Por razões de segurança, você não pode mudar o modo de volta para o General em tempo de execução.
+Por razões de segurança, não é possível alterar o modo de volta para geral em tempo de execução.
 
-Também note que Aspose.Words não pode reconhecer automaticamente se seu sistema operacional está no modo FIPS, portanto, você tem que mudar Aspose.Words para o modo FIPS explicitamente
+Observe também que Aspose.Words não pode reconhecer automaticamente se o seu sistema operacional está no modo FIPS, Portanto, você deve alternar Aspose.Words para o modo FIPS explicitamente.
 
-Use o seguinte método para se certificar Aspose.Words para Java está no modo FIPS:
+Use o método a seguir para garantir que Aspose.Words para Java esteja no modo FIPS:
 
 **Java**
 
@@ -47,22 +48,22 @@ Use o seguinte método para se certificar Aspose.Words para Java está no modo F
 SecuritySettings.isInFipsMode();
 {{< /highlight >}}
 
-Quando o modo FIPS estiver ligado, Aspose Words irá impedi-lo de usar alguns algoritmos de criptografia e chaves com comprimentos não aprovados.
+Quando o modo FIPS estiver ativado, as palavras Aspose impedirão que você use alguns algoritmos de criptografia e Chaves com comprimentos não aprovados.
 
-Por exemplo, ao tentar abrir um documento criptografado ODT enquanto o modo FIPS está ativo, você pode ver a seguinte exceção:
+Por exemplo, ao tentar abrir um documento encriptado ODT enquanto o modo FIPS está activo, poderá ver a seguinte excepção:
 
 {{% alert color="primary" %}}
 
-Operação de Segurança não aprovada Exceção: Uma tentativa de abrir um arquivo ODT que usa o algoritmo Blowfish. Este algoritmo não está na lista de algoritmos aprovados pela FIPS.
+UnapprovedSecurityOperationException: uma tentativa de abrir um ficheiro ODT que utiliza o algoritmo Blowfish. Este algoritmo não está na lista de algoritmos aprovados por FIPS.
 
 {{% /alert %}}
 
-Isso acontece porque o algoritmo de Blowfish não está na lista de algoritmos aprovados pela FIPS.
+Isto acontece porque o algoritmo Blowfish não está na lista de algoritmos aprovados FIPS.
 
-A exceção semelhante pode ocorrer se as chaves do comprimento inadequado forem usadas:
+A exceção semelhante pode ocorrer se forem utilizadas chaves de comprimento inadequado:
 
-Operação de Segurança não aprovada Exceção: Você não pode usar uma chave com o tamanho 1024 para RSA no modo FIPS.
+UnapprovedSecurityOperationException: não pode utilizar uma chave com o tamanho 1024 para RSA no modo FIPS.
 
-Para mais detalhes na lista de algoritmos aprovados, consulte [Guia do usuário do castelo](https://downloads.bouncycastle.org/fips-java/docs/BC-FJA-UserGuide-1.0.1.pdf), "Cipher Algorithms (Symmetric)" (em inglês).
+Para obter mais detalhes sobre a lista de algoritmos aprovados, consulte [BouncyCastle Guia Do Utilizador](https://downloads.bouncycastle.org/fips-java/docs/BC-FJA-UserGuide-1.0.1.pdf), "Algoritmos De Cifra (Simétricos)".
 
 

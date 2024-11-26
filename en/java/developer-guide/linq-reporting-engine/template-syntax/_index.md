@@ -7,6 +7,7 @@ description: "How to create a template for LINQ Reporting Engine to build a repo
 type: docs
 weight: 30
 url: /java/template-syntax/
+timestamp: 2024-07-05-11-53-24
 ---
 
 A typical template for LINQ Reporting Engine is composed of common document contents and tags that describe the template’s structure and data bindings. You can form these tags using just running text that can occupy multiple paragraphs to be more descriptive. 

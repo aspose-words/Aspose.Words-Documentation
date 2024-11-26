@@ -7,6 +7,7 @@ description: "Aspose.Words voor Python via .NET kan vinden het juiste lettertype
 type: docs
 weight: 20
 url: /nl/python-net/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bij het werken met documenten moet je vaak verschillende lettertypen, stijlen en maten gebruiken. Documenten kunnen elk aantal lettertypen bevatten, die niet noodzakelijk beperkt zijn tot de lettertypen die in het besturingssysteem zijn geïnstalleerd. De lettertypen kunnen volledig verschillend zijn, zoals lettertypen die afkomstig zijn van andere besturingssystemen, gekocht of gemaakt door gebruikers zelf.

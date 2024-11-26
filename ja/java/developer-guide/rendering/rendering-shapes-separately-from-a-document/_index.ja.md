@@ -1,92 +1,93 @@
----
-title: レンダリングの形 文書から分離
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: レンダリングの形 文書から分離
-linktitle: レンダリングの形 文書から分離
-description: "文書を処理するとき、画像、段落を含むテキストボックス、または矢印図形などのさまざまなグラフィックオブジェクトを抽出し、外部の場所にエクスポートします。 Javaお問い合わせ"
+﻿---
+title: ドキュメントとは別に図形をレンダリングする
+second_title: Aspose.WordsのためのJava
+articleTitle: ドキュメントとは別に図形をレンダリングする
+linktitle: ドキュメントとは別に図形をレンダリングする
+description: "文書を処理するときに、画像、段落を含むテキストボックス、矢印図形などのさまざまなグラフィックオブジェクトを抽出し、Javaを使用して外部の場所にエクスポートします。"
 type: docs
 weight: 40
 url: /ja/java/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
-文書を処理するとき、一般的なタスクは、文書に含まれるすべての画像を抽出し、外部の場所にエクスポートすることです。 このタスクはシンプルになります。 Aspose.Words API, 既に画像データを抽出し、保存するための機能を提供します。 しかし、例えば、段落、矢印形状、小さな画像を含むテキストボックスなど、異なるタイプの描画オブジェクトによって表されるグラフィックコンテンツの他のタイプを同様に抽出したい場合があります。 個々のコンテンツ要素の組み合わせであるため、このオブジェクトをレンダリングする簡単な方法はありません。 また、コンテンツが単一のイメージのように見えるオブジェクトにまとめられたときにも遭遇することがあります。
+文書を処理する場合、一般的なタスクは、文書内にあるすべての画像を抽出し、外部の場所にエクスポートすることです。 このタスクは、画像データを抽出して保存する機能を既に提供しているAspose.WordsAPIで簡単になります。 ただし、段落、矢印図形、小さな画像を含むテキストボックスなど、異なる種類の描画オブジェクトで表される他の種類のグラフィックコンテンツを同様に抽出する必要がある場合があります。 このオブジェクトは個々のコンテンツ要素の組み合わせであるため、このオブジェクトをレンダリングする簡単な方法はありません。 また、コンテンツが単一の画像のように見えるオブジェクトにグループ化されている場合もあります。
 
-Aspose.Words このタイプのコンテンツをレンダリングされたコンテンツと同じ方法で抽出するための機能を提供します。 この記事では、この機能を利用して文書の独立して図形をレンダリングする方法について説明します。
+Aspose.Wordsは、図形から単純な画像をレンダリングされたコンテンツとして抽出するのと同じ方法で、このタイプのコンテンツを抽出する機能を提供します。 この記事では、この機能を使用して、ドキュメントとは独立して図形をレンダリングする方法について説明します。
 
-## 形のタイプ Aspose.Words
+## Aspose.Wordsの図形の種類
 
-文書の描画レイヤー内のすべてのコンテンツは、 [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) または [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) ノード Aspose.Words ドキュメントオブジェクトモジュール(DOM)。 テキストボックス、画像、AutoShapes、OLEオブジェクトなど いくつかのフィールドも形状としてインポートされます。例えば、 `INCLUDEPICTURE` フィールド。
+ドキュメント描画レイヤ内のすべてのコンテンツは、Aspose.Wordsドキュメントオブジェクトモジュール(DOM)内の[Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/)または[GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/)ノードで表されます。 このようなコンテンツは、テキストボックス、画像、AutoShapes、OLEオブジェクトなどです。 一部のフィールドは、`INCLUDEPICTURE`フィールドなどの図形としてもインポートされます。
 
-シンプルなイメージは、 **Shape** ノード [ShapeType.Image](https://reference.aspose.com/words/java/com.aspose.words/shapetype/#IMAGE)お問い合わせ このシェイプノードは子ノードを持たないが、このシェイプノードに含まれる画像データは、 [Shape.ImageData](https://reference.aspose.com/words/java/com.aspose.words/shape/#getImageData) 宿泊施設 一方、多くの子ノードから形状を上げることもできます。 例えば、テキストボックスの形は、 [ShapeType.TextBox](https://reference.aspose.com/words/java/com.aspose.words/shapetype/#TEXT-BOX) プロパティは、次のような多くのノードから構成できます。 [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) そして、 [Table](https://reference.aspose.com/words/java/com.aspose.words/table/)お問い合わせ ほとんどの形状は、 **Paragraph** そして、 **Table** block-level ノード。 これらは、本体に出現するノードと同じです。 形状は、直接インラインまたはアンカーに含まれている、いくつかの段落の常に部分です **パラグラフ、** しかし、ドキュメントページ内のどこにでも「フローティング」します。
+単純な画像は、[ShapeType.Image](https://reference.aspose.com/words/java/com.aspose.words/shapetype/#IMAGE)の**Shape**ノードで表されます。 このshapeノードには子ノードはありませんが、このshapeノード内に含まれる画像データには[Shape.ImageData](https://reference.aspose.com/words/java/com.aspose.words/shape/#getImageData)プロパティからアクセスできます。 一方、図形は多くの子ノードで構成することもできます。 たとえば、[ShapeType.TextBox](https://reference.aspose.com/words/java/com.aspose.words/shapetype/#TEXT-BOX)プロパティで表されるテキストボックスの形状は、[Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/)や[Table](https://reference.aspose.com/words/java/com.aspose.words/table/)などの多くのノードで構成できます。 ほとんどの図形には、**Paragraph**および**Table**ブロックレベルのノードを含めることができます。 これらは、本体に表示されるノードと同じノードです。 図形は常にいくつかの段落の一部であり、直接インラインに含まれるか、**Paragraph,**に固定されていますが、ドキュメントページのどこにでも"浮動"します。
 
 ![rendering-shapes-separately-from-a-document-aspose-words-java-1](/words/java/rendering-shapes-separately-from-a-document/rendering-shapes-separately-from-a-document-1.png)
 
-一緒にグループ化された図形も含めることができます。 Grouping は、 Microsoft Word 複数のオブジェクトを選択し、「クリック」をクリックGroup右クリックメニューの「」。
+ドキュメントには、グループ化された図形を含めることもできます。 グループ化は、複数のオブジェクトを選択し、右クリックメニューの"グループ化"をクリックすることでMicrosoft Wordで有効にすることができます。
 
 ![rendering-shapes-separately-from-a-document-aspose-words-java-2](/words/java/rendering-shapes-separately-from-a-document/rendering-shapes-separately-from-a-document-2.png)
 
-インスタグラム Aspose.Words, これらの形状のグループは、 [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) ノード。 これらは、グループ全体をイメージにレンダリングするのと同じ方法で呼び出すこともできます。
+Aspose.Wordsでは、これらの図形のグループは[GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/)ノードで表されます。 これらは、グループ全体をイメージにレンダリングするのと同じ方法で呼び出すこともできます。
 
 ![rendering-shapes-separately-from-a-document-aspose-words-java-3](/words/java/rendering-shapes-separately-from-a-document/rendering-shapes-separately-from-a-document-3.png)
 
-DOCX形式は、図やチャートなどの特殊な種類の画像を含むことができます。 これらの形状も、 **Shape** ノード Aspose.Words, また、画像としてレンダリングするための同様の方法を提供します。 設計により、形状がイメージでない限り、形状は子供として別の形状を含んでいません(**ShapeType.Image**)。 例えば、 Microsoft Word テキストボックスを別のテキストボックスに差し込むことはできません。
+DOCX形式には、図やグラフなどの特殊な種類の画像を含めることができます。 これらの図形は、Aspose.Wordsの**Shape**ノードを介しても表現され、これも画像としてレンダリングするための同様の方法を提供します。 設計上、図形がイメージ(**ShapeType.Image**)でない限り、図形に別の図形を子として含めることはできません。 たとえば、Microsoft Wordでは、テキストボックスを別のテキストボックス内に挿入することはできません。
 
-上記の形状タイプは、形状をレンダリングするための特別な方法を提供します。 [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/) クラス。 インスタンス **ShapeRenderer** クラスは、 **Shape** または **GroupShape** を通して **GetShapeRenderer** 方法か渡ることによって **Shape** 建設業者の方へ **ShapeRenderer** クラス。 このクラスは、以下の形状をレンダリングできるメンバーへのアクセスを提供します。
+上で説明した図形の型は、[ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/)クラスを介して図形をレンダリングするための特別なメソッドを提供します。 **ShapeRenderer**クラスのインスタンスは、**GetShapeRenderer**メソッドを介して、または**Shape**を**ShapeRenderer**クラスのコンストラクタに渡すことによって、**Shape**または**GroupShape**のために取得されます。 このクラスはメンバーへのアクセスを提供し、次の図形をレンダリングすることができます:
 
-- ディスク上のファイル [Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.lang.String-com.aspose.words.ImageSaveOptions) 方法積み過ぎ
-- ストリーム使用 [Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.io.OutputStream-com.aspose.words.ImageSaveOptions) 方法積み過ぎ
-- グラフィック オブジェクトを使用して [RenderToSize](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToSize-java.awt.Graphics2D-float-float-float-float) そして、 [RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float) メソッド
+- [Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.lang.String-com.aspose.words.ImageSaveOptions)メソッドオーバーロードを使用してディスク上のファイル
+- [Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.io.OutputStream-com.aspose.words.ImageSaveOptions)メソッドオーバーロードを使用したストリーム
+- [RenderToSize](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToSize-java.awt.Graphics2D-float-float-float-float)メソッドと[RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float)メソッドを使用したグラフィックスオブジェクト
 
 {{% alert color="primary" %}}
 
-レンダリングするとき <span notrans="<span notrans=" **Shape**"=""></span>????? ドキュメント階層の一部でなければなりません。 もし、 **Shape** ドキュメントツリーの一部ではなく、レンダリングされた出力は呼び出し後の空白になります。 **ShapeRenderer** メソッド。
+**Shape**をレンダリングするときは、ドキュメント階層の一部である必要があります。 **Shape**がドキュメントツリーの一部でない場合、**ShapeRenderer**メソッドを呼び出した後、レンダリングされた出力は空白になります。
 
 {{% /alert %}}
 
 ## ファイルまたはストリームへのレンダリング
 
-ザ・オブ・ザ・ [Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.lang.String-com.aspose.words.ImageSaveOptions) メソッドは、形状をファイルやストリームに直接レンダリングするオーバーロードを提供します。 両方のオーバーロードは、両方のインスタンスを受け入れます [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) クラスは、形状をレンダリングするためのオプションを定義できます。 同じように作品 [Document.Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-com.aspose.words.SaveOptions) メソッド。 このパラメータは必須ですが、null値を渡すことができます。カスタムオプションがないことを指定します。
+[Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.lang.String-com.aspose.words.ImageSaveOptions)メソッドは、図形をファイルまたはストリームに直接レンダリングするオーバーロードを提供します。 どちらのオーバーロードも[ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/)クラスのインスタンスを受け入れ、図形をレンダリングするためのオプションを定義できます。 これは[Document.Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-com.aspose.words.SaveOptions)メソッドと同じように機能します。 このパラメーターは必須ですが、カスタムオプションがないことを指定して、null値を渡すことができます。
 
-形状は、任意のイメージ形式でエクスポートできます。 [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) パンフレット たとえば、JPEGなどのラスターイメージとしてイメージをレンダリングできます。 [SaveFormat.Jpeg](https://reference.aspose.com/words/java/com.aspose.words/saveformat/#JPEG) enumeration、またはEMFなどのベクトルイメージとして、 [SaveFormat.Emf](https://reference.aspose.com/words/java/com.aspose.words/saveformat/#EMF)お問い合わせ
+図形は、[SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)列挙体で指定された任意の画像形式でエクスポートできます。 たとえば、イメージは[SaveFormat.Jpeg](https://reference.aspose.com/words/java/com.aspose.words/saveformat/#JPEG)列挙体を指定してJPEGなどのラスターイメージとして、または[SaveFormat.Emf](https://reference.aspose.com/words/java/com.aspose.words/saveformat/#EMF)を指定してEMFなどのベクターイメージとしてレンダリングできます。
 
-下のコード例では、ドキュメントから別々にEMFイメージに形状をレンダリングし、ディスクに保存します。
+次のコード例は、ドキュメントとは別にEMFイメージに図形をレンダリングし、ディスクに保存することを示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-RenderShapeToDisk.java" >}}
 
-下のコード例では、ドキュメントから別々にJPEGイメージをレンダリングし、ストリームに保存します。
+次のコード例は、ドキュメントとは別にJPEGイメージに図形をレンダリングし、ストリームに保存する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-RenderShapeToStream.java" >}}
 
-ザ・オブ・ザ・ **ImageSaveOptions** class では、イメージのレンダリングをコントロールするさまざまなオプションを指定できます。 上記の機能は同じ方法で適用することができます **GroupShape** そして、 **Shape** ノード。
+**ImageSaveOptions**クラスを使用すると、イメージのレンダリング方法を制御するさまざまなオプションを指定できます。 上記の機能は、**GroupShape**および**Shape**ノードにも同様に適用することができます。
 
-## レンダリングする `Graphics` オブジェクト
+## `Graphics`オブジェクトへのレンダリング
 
-直接レンダリングする **Graphics** オブジェクトを使用すると、独自の設定と状態を定義できます。 **Graphics** オブジェクト。 一般的なシナリオは、直接形状をレンダリングすることを含みます **Graphics** オブジェクトは、 Windows フォームまたはビットマップ。 いつか **Shape** ノードがレンダリングされ、設定は形状の外観に影響します。 たとえば、形状を回転したり、スケールしたりできます。 **RotateTransform** または **ScaleTransform** メソッド **Graphics** オブジェクト。
+**Graphics**オブジェクトに直接レンダリングすると、独自の設定と**Graphics**オブジェクトの状態を定義できます。 一般的なシナリオでは、図形をWindowsフォームまたはビットマップから取得した**Graphics**オブジェクトに直接レンダリングします。 **Shape**ノードがレンダリングされると、設定はシェイプの外観に影響します。 たとえば、**Graphics**オブジェクトに対して**RotateTransform**メソッドまたは**ScaleTransform**メソッドを使用して、図形を回転または拡大縮小できます。
 
-下の例では、形状をレンダリングする方法を示します。 **Graphics** ドキュメントから別々にオブジェクトし、レンダリングされたイメージに回転を適用します。
+次の例は、ドキュメントとは別に**Graphics**オブジェクトに図形をレンダリングし、レンダリングされたイメージに回転を適用する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-RenderShapeToGraphics.java" >}}
 
-同様に、 [RenderToSize](https://reference.aspose.com/words/java/com.aspose.words/document/#renderToSize-int-java.awt.Graphics2D-float-float-float-float) メソッド、 [レンダートサイズ](https://reference.aspose.com/words/java/com.aspose.words/document/#renderToSize-int-java.awt.Graphics2D-float-float-float-float)継承されたメソッド [NodeRendererBase](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/) ドキュメントコンテンツのサムネイルを作成するのに便利です。 構造体で形状サイズを指定します。 ザ・オブ・ザ・ **RenderToSize** 方法は受け入れます **Graphics** オブジェクト、画像位置のXとY座標、および上に描画される画像(幅と高さ)のサイズ **Graphics** オブジェクト。
+同様に、[RenderToSize](https://reference.aspose.com/words/java/com.aspose.words/document/#renderToSize-int-java.awt.Graphics2D-float-float-float-float)メソッドと同様に、[NodeRendererBase](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/)から継承された[RenderToSize](https://reference.aspose.com/words/java/com.aspose.words/document/#renderToSize-int-java.awt.Graphics2D-float-float-float-float)メソッドは、ドキュメントコンテンツのサムネイルを作成するのに便利です。 形状のサイズは、コンストラクタを介して指定されます。 **RenderToSize**メソッドは、**Graphics**オブジェクト、画像位置のX座標とY座標、および**Graphics**オブジェクトに描画される画像のサイズ(幅と高さ)を受け入れます。**RenderToSize**メソッドは、**Graphics**オブジェクト、画像位置のX座標とY座標、および**Graphics**オブジェクトに描画される画像のサイズ(幅と高さ)を受け入れます。
 
-ザ・オブ・ザ・ **Shape** 特定のスケールにレンダリングできます。 [ShapeRenderer.RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float) 継承されたメソッド [NodeRendererBase](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/) クラス。 これは似ています [Document.RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float) 同じ主要なパラメータを受け入れる方法。 これらの2つの方法の違いは、 **ShapeRenderer.RenderToScale** メソッドは、リテラルサイズではなく、レンダリング中に形状をスケールするフロート値を選択します。 フロート値が 1.0 に等しい場合、その元のサイズの 100% でレンダリングされる形状が原因となります。 0.5のフロート値が半減します。
+**Shape**は、[NodeRendererBase](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/)クラスから継承された[ShapeRenderer.RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float)メソッドを使用して、特定のスケールにレンダリングできます。 これは、同じ主要なパラメーターを受け入れる[Document.RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float)メソッドに似ています。 これらの2つのメソッドの違いは、**ShapeRenderer.RenderToScale**メソッドでは、リテラルサイズではなく、レンダリング中にシェイプを拡大縮小するfloat値を選択することです。 Float値が1.0に等しい場合、シェイプは元のサイズの100%でレンダリングされます。 浮動小数点値0.5はイメージサイズを半分に縮小します。
 
-## 形状イメージのレンダリング
+## シェイプイメージのレンダリング
 
-ザ・オブ・ザ・ [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) クラスは、AutoShape、テキストボックス、フリーフォーム、OLEオブジェクト、ActiveXコントロール、画像などの描画レイヤーのオブジェクトを表します。 使い方 **Shape** クラスは、形状を作成または変更できます。 Microsoft Word ドキュメント。 形状の重要な特性は、その [ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/)お問い合わせ 異なるタイプの形状は、Word文書に異なる機能を持つことができます。 たとえば、ほとんどの図形はテキストのみを持つことができますが、画像やOLE形状のみが内部に画像を持つことができます。
+[Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/)クラスは、AutoShape、テキストボックス、フリーフォーム、OLEオブジェクト、ActiveXコントロール、画像など、描画レイヤー内のオブジェクトを表します。 **Shape**クラスを使用すると、Microsoft Wordドキュメント内の図形を作成または変更できます。 図形の重要なプロパティは、その[ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/)です。 異なるタイプの図形は、Word文書で異なる機能を持つことができます。 たとえば、画像とOLE図形のみがその中に画像を持つことができますが、ほとんどの図形はテキストのみを持つことができます。
 
-次の例では、Shapeイメージをドキュメントから別々にJPEGイメージにレンダリングし、ディスクに保存する方法を示します。
+次の例は、シェイプイメージをドキュメントとは別にJPEGイメージにレンダリングし、ディスクに保存する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-RenderShapeImage.java" >}}
 
-## 形状サイズの取得
+## 図形サイズの取得
 
-ザ・オブ・ザ・ [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/) クラスは、ピクセルの形状のサイズをピクセル単位で取得する機能も提供します。 [GetSizeInPixels](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#getSizeInPixels-float-float) メソッド。 このメソッドは、2つのフロート(シングル)パラメータ–形状がレンダリングされるときに形状サイズの計算で使用されているスケールとDPIを受け付けます。 メソッドは、 [Size](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#getSizeInPixels-float-float) 計算されたサイズの幅と高さを含むオブジェクト。 レンダリングされた出力から新しいBitmapを作成する場合など、レンダリングされた形状のサイズを事前に知る必要がある場合に便利です。
+[ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/)クラスは、[GetSizeInPixels](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#getSizeInPixels-float-float)メソッドを使用して図形のサイズをピクセル単位で取得する機能も提供します。 このメソッドは、図形がレンダリングされるときに図形サイズの計算に使用されるスケールとDPIの2つの浮動小数点(単一)パラメータを受け入れます。 このメソッドは、計算されたサイズの幅と高さを含む[Size](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#getSizeInPixels-float-float)オブジェクトを返します。 これは、レンダリングされた出力から新しいビットマップを作成する場合など、レンダリングされた図形のサイズを事前に知る必要がある場合に
 
-次の例では、描画される形状の幅と高さで新しいBitmapとグラフィックスオブジェクトを作成する方法を示します。
+以下の例は、レンダリングする図形の幅と高さを持つ新しいBitmapオブジェクトとGraphicsオブジェクトを作成する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-FindShapeSizes.java" >}}
 
-使用時 **RenderToSize** または **RenderToScale** メソッドは、レンダリングされたイメージサイズも返されます。 [SizeF](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#renderToScale-java.awt.Graphics2D-float-float-float) オブジェクト。 必要に応じて変数に割り当てられ、使うことができます。
+**RenderToSize**または**RenderToScale**メソッドを使用すると、レンダリングされた画像サイズも[SizeF](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#renderToScale-java.awt.Graphics2D-float-float-float)オブジェクトに返されます。 これは変数に代入して、必要に応じて使用することができます。
 
-ザ・オブ・ザ・ **SizeInPoints** プロパティは点で測定された形状サイズを返します(参照) [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/))。 結果は、 `SizeF` 幅と高さを含むオブジェクト。
+**SizeInPoints**プロパティは、ポイント単位で測定された形状サイズを返します([ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/)を参照)。 結果は、幅と高さを含む`SizeF`オブジェクトになります。

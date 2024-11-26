@@ -1,53 +1,54 @@
----
-title: کار با Smart معرفی هنر سرد در Java
+﻿---
+title: کار با SmartArt رندر سرد در Java
 second_title: Aspose.Words برای Java
-articleTitle: کار با Smart آموزش سرد
-linktitle: کار با Smart آموزش سرد
+articleTitle: کار با SmartArt رندر سرد
+linktitle: کار با SmartArt رندر سرد
 type: docs
-description: "Aspose.Words برای Java Smart ارائه دهنده هنر سرد، به این معنی که آن را بیرون می اندازد و اشیاء SmartArt را ارائه می دهد اگر طرح هوشمند از قبل جدا شده است از دست رفته یا نادرست است."
+description: "Aspose.Words برای Java رندر سرد SmartArt را انجام می دهد، به این معنی که اگر نقاشی پیش از رندر SmartArt گم شده یا نادرست باشد، اشیاء SmartArt را قرار می دهد و رندر می کند."
 weight: 330
 url: /fa/java/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
-گرافیک SmartArt به سرعت و به راحتی یک نمایش بصری از اطلاعات استفاده می شود. شما به سادگی از تعداد زیادی طرح که بهترین مناسب برای وضعیت خود را انتخاب کنید. این سهولت استفاده باعث می شود گرافیک SmartArt برای برخی از اهداف بسیار محبوب باشد.
+SmartArt گرافیک برای ایجاد سریع و آسان نمایش بصری اطلاعات استفاده می شود. شما به سادگی از تعداد زیادی طرح بندی انتخاب می کنید که به بهترین وجه با وضعیت شما مطابقت دارد. این سهولت استفاده باعث می شود گرافیک SmartArt برای برخی اهداف بسیار محبوب باشد.
 
-Microsoft Word تولید و صرفه جویی در طرح قبل از فروش همراه با `SmartArt` جسم در بیشتر موارد، طرح پیش از ثبت شده به خوبی توسط Aspose.Words و هیچ اقدام اضافی لازم نیست. با این حال، اگر این سند توسط برنامه های دیگر ذخیره شده باشد، طراحی هوشمند از پیش جدا شده ممکن است گم یا نادرست باشد. در این مورد، `SmartArt` خود شی باید گذاشته شود و با استفاده از Aspose.Words... ما این فرآیند را می نامیم. `SmartArt` تولید سرد
+Microsoft Word نقاشی پیش رندر شده را همراه با شی `SmartArt` تولید و ذخیره می کند. در بیشتر موارد، نقاشی از پیش ارائه شده توسط Aspose.Words به خوبی ارائه می شود و هیچ اقدام اضافی لازم نیست. با این حال، اگر سند توسط برنامه های دیگر ذخیره شود، ممکن است نقاشی پیش ارائه شده SmartArt از دست رفته یا نادرست باشد. در این مورد، خود شیء `SmartArt` باید با استفاده از Aspose.Words طراحی و ارائه شود. ما این فرآیند را رندر سرد `SmartArt` می نامیم.
 
-## استفاده از Smart آموزش سرد
+## با استفاده از SmartArt رندر سرد
 
-Aspose.Words به شما اجازه می دهد تا از یک طرح قبل از جدایی استفاده کنید یا رندر سرد را انجام دهید:
+Aspose.Words به شما اجازه می دهد از یک نقاشی از پیش ارائه شده استفاده کنید یا رندر سرد را انجام دهید:
 
-* اگر یک طرح از قبل در دسترس باشد، Aspose.Words استفاده از آن برای ارائه `SmartArt` جسم
-* اگر نقاشی از قبل شکسته شده گم شود، Aspose.Words به طور ضمنی عملکرد سرد برای ارائه `SmartArt` جسم
-* اگر یک طرح از پیش نمایش داده شده وجود داشته باشد، اما نادرست است، لازم است که رندر سرد SmartArt را به صراحت با تماس با فراخوانی انجام دهید. [UpdateSmartArtDrawing](https://reference.aspose.com/words/java/com.aspose.words/shape/#updateSmartArtDrawing) روش
+* اگر یک نقاشی از پیش ارائه شده در دسترس باشد، Aspose.Words از آن برای ارائه شی `SmartArt` استفاده می کند.
+* اگر نقاشی پیش رندر شده از دست رفته باشد، Aspose.Words به طور ضمنی رندر سرد را برای رندر کردن شی `SmartArt` انجام می دهد.
+* اگر یک نقاشی از پیش ارائه شده وجود داشته باشد اما نادرست باشد، لازم است که SmartArt رندر سرد را به طور صریح با فراخوانی روش [UpdateSmartArtDrawing](https://reference.aspose.com/words/java/com.aspose.words/shape/#updateSmartArtDrawing) انجام دهد.
 
-مثال کد زیر نشان می دهد که چگونه به روز رسانی نقاشی برای تمام نمودارها در سند:
+مثال کد زیر نشان می دهد که چگونه نقشه ها را برای تمام نمودارهای سند به روز کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-UpdateSmartArtDrawing.java" >}}
 
-## پشتیبانی از استاندارد SmartArt Sets
+## پشتیبانی از چیدمان های استاندارد SmartArt
 
-در حال حاضر تنها تعداد محدودی از استاندارد Microsoft Word طرح های SmartArt پشتیبانی می شوند. همچنین برخی از این طرح ها تا حدودی پشتیبانی می شوند، به این معنی که گره ها و شکل های قابل توجهی از نمودار ارائه می شوند، اما ممکن است تفاوت هایی بین این دو وجود داشته باشد. Microsoft Word و Aspose.Words طرح نمودار
+در حال حاضر، تنها تعداد محدودی از طرح های استاندارد Microsoft Word SmartArt پشتیبانی می شوند. همچنین، برخی از این طرح ها تا حدی پشتیبانی می شوند، به این معنی که گره ها و اشکال قابل توجهی از نمودار ارائه می شوند، اما ممکن است تفاوت هایی بین طرح نمودار Microsoft Word و Aspose.Words وجود داشته باشد.
 
 جدول زیر طرح های کاملا و تا حدی پشتیبانی شده را فهرست می کند:
 
-|  هوشمند هوشمند ویژگی های Art Sets Group |  طرح های کاملا پشتیبانی شده |  طرح های پشتیبانی جزئی |
-|  ----------------------  |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  `List`  |  <ul><li>استاندارد Block List</li><li>جایگزین Hexagons</li><li>لیست گلوله های عمودی</li><li>لیست جعبه عمودی</li><li>برچسب ها: Varing List</li><li>فهرست گلوله های افقی</li><li>Groupلیست</li><li>لیست بلوک عمودی</li><li>فهرست تاریخی Chevron</li><li>لیست های عمودی Arrow</li><li>تراپیست List</li><li>Table List</li><li>لیست اهرام</li><li>فهرست هدف</li></ul> |  <ul><li>لیست</li><li>لیست براکت عمودی</li><li>برچسب ها</li><li>برچسب های برچسب شده</li><li>فهرست مقدماتی عمودی</li><li>فهرست دایره عمودی</li></ul> |
-|  `Process`  |  <ul><li>فرآیند پایه</li><li>فرآیند شتاب</li><li>پردازش مداوم Block Process</li><li>افزایش روند Arrow</li><li>نوشتن متن</li><li>خط زمانی پایه</li><li>مراحل ابتدایی Chevron</li><li>دانلود بازی Chevron Accent Process</li><li>دانلود بازی Chevron Process</li><li>لیست شوررون</li><li>فرآیند عمودی</li><li>فرآیند صعود</li><li>فهرست فرآیند</li><li>مرحله اصلی زانو</li><li>تکرار فرایند شل شدن</li><li>فرآیند دقیق</li><li>کارگردان: Arrow</li><li>فرآیند تخفیف</li><li>فرایند شستشوی دایره ای</li></ul> |  <ul><li>مرحله بالا</li><li>مرحله Down Process</li><li>تغییر جریان</li><li>افزایش پردازش Circle</li><li>پردازش</li><li>فرآیند اتصال Block Process</li><li>دانلود سریال Arrows</li><li>Circle Accent Timeline</li><li>پردازش Circle</li><li>مرحله بعدی</li><li>فازd Process</li><li>تصادفی برای نتیجه</li><li>پردازش Circle Arrow</li></ul> |
-|  `Cycle`  |  –                                                             |  <ul><li>چرخه تقسیم شده</li><li>Hexagon Radial</li></ul> |
-|  `Hierarchy`  |  –                                                             |  <ul><li>Table Hierarchy</li><li>معماری</li></ul> |
-|  `Relationship`  |  <ul><li>تعادل تعادل تعادل</li><li>Funnel</li><li>Gear Gear Gear</li><li>علاوه بر این، Minus</li><li>روبان Arrow</li><li>دانلود بازی Counter Balance Arrows</li><li>دانلود بازی Opposing Arrows</li><li>هدف</li><li>هدف اساسی</li><li>نام انگلیسی: Pie</li><li>پایه اصلی Venn</li><li>کارگردان: Venn</li><li>حلقه متصل</li></ul> |  <ul><li>ارتباط دایره ای</li><li>مخالفت با ایده ها</li><li>معادله معادلات</li><li>معادله عمودی</li><li>خطی Venn</li></ul> |
-|  `Matrix`  |  <ul><li>ماتریس بنیادی</li><li>نام فیلم: The Matrix</li><li>Grid Matrix</li><li>چرخه ماتریس</li></ul> |  –                                                             |
-|  `Pyramid`  |  –                                                             |  <ul><li>تقسیم بندی اهرام</li></ul> |
+| SmartArt گروه طرح بندی | طرح بندی های کاملا پشتیبانی شده | طرح بندی های تا حدی پشتیبانی شده |
+| ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| `List` | <ul><li>لیست بلوک های اساسی</li><li>شش ضلعی متناوب</li><li>لیست گلوله های عمودی</li><li>لیست جعبه عمودی</li><li>لیست عرض متفاوت</li><li>لیست گلوله های افقی</li><li>لیست گروه بندی شده</li><li>لیست بلوک عمودی</li><li>لیست شیورون عمودی</li><li>لیست پیکان عمودی</li><li>فهرست ذوزنقه ها</li><li>فهرست جدول</li><li>فهرست هرم</li><li>لیست هدف</li></ul> | <ul><li>لیست خطی</li><li>لیست براکت عمودی</li><li>لیست تب</li><li>لیست انباشته شده</li><li>لیست لهجه عمودی</li><li>لیست دایره عمودی</li></ul> |
+| `Process` | <ul><li>فرایند اساسی</li><li>روند لهجه</li><li>فرآیند بلوک پیوسته</li><li>افزایش فرایند فلش</li><li>متن همگرایی</li><li>جدول زمانی پایه</li><li>فرآیند اساسی شیورون</li><li>فرآیند لهجه شیورون</li><li>فرایند شیورون بسته</li><li>لیست شیورون</li><li>فرآیند عمودی</li><li>روند متناوب</li><li>لیست فرآیند</li><li>فرآیند خم شدن اساسی</li><li>تکرار فرآیند خم شدن</li><li>روند دقیق</li><li>تیر بالا</li><li>روند نزولی</li><li>فرآیند خم شدن دایره ای</li></ul> | <ul><li>روند افزایش</li><li>روند استعفا</li><li>جریان متناوب</li><li>افزایش فرآیند دایره</li><li>Pie فرایند</li><li>فرآیند بلوک متصل</li><li>تیرهای فرآیند</li><li>خط زمانی لهجه دایره</li><li>فرآیند دایره</li><li>فرایند زیر مرحله</li><li>فرایند فازی</li><li>پردازش تصادفی به نتیجه</li><li>فرآیند پیکان دایره ای</li></ul> |
+| `Cycle` |  | <ul><li>چرخه تقسیم شده</li><li>شعاعی شش ضلعی</li></ul> |
+| `Hierarchy` |  | <ul><li>سلسله مراتب جدول</li><li>طرح معماری</li></ul> |
+| `Relationship` | <ul><li>تعادل</li><li>قیف</li><li>دنده</li><li>به علاوه و منهای</li><li>نوار تیر</li><li>تیرهای تعادل</li><li>تیرهای مخالف</li><li>هدف آشیانه ای</li><li>هدف اصلی</li><li>پایه Pie</li><li>بنیادی ون</li><li>ون انباشته شده</li><li>حلقه متصل</li></ul> | <ul><li>رابطه دایره ای</li><li>ایده های مخالف</li><li>معادله</li><li>معادله عمودی</li><li>ون خطی</li></ul> |
+| `Matrix` | <ul><li>ماتریس پایه</li><li>عنوان ماتریس</li><li>ماتریس شبکه</li><li>ماتریس چرخه</li></ul> |  |
+| `Pyramid` |  | <ul><li>هرم تقسیم شده</li></ul> |
 
-## مقایسه SmartArt Transfer در Aspose.Words و Microsoft
+## مقایسه رندر SmartArt در Aspose.Words و Microsoft
 
-جدول زیر نشان دهنده تصاویر نمونه ای از Aspose.Words سرد سرد سرد سرد ارائه برخی از طرح های استاندارد در مقایسه با Microsoft Word خروجی:
+جدول زیر نمونه ای از تصاویر Aspose.Words ارائه سرد برخی از طرح های استاندارد در مقایسه با Microsoft Word خروجی را نشان می دهد:
 
-|                                 |   **Aspose.Words**                                              |   **Microsoft Word**                                            |
-|  -----------------------------  |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|   **Basic Process**              |   <img src="/words/java/working-with-smartart-cold-rendering/basic-process-aspose.png" alt="basic_process_aspose"/>  |   <img src="/words/java/working-with-smartart-cold-rendering/basic-process-word.png" alt="basic_process_word"/>  |
-|   **Circular Bending Process**   |   <img src="/words/java/working-with-smartart-cold-rendering/circular-bending-process-aspose.png" alt="circular_bending_process_aspose"/>  |   <img src="/words/java/working-with-smartart-cold-rendering/circular-bending-process-word.png" alt="circular_bending_process_word"/>  |
-|   **Repeating Bending Process**  |   <img src="/words/java/working-with-smartart-cold-rendering/repearing-bending-process-aspose.png" alt="repearing_bending_process_aspose"/>  |   <img src="/words/java/working-with-smartart-cold-rendering/repearing-bending-process-word.png" alt="repearing_bending_process_word"/>  |
-|   **Trapezoid List**             |   <img src="/words/java/working-with-smartart-cold-rendering/trapezoid-list-aspose.png" alt="trapezoid_list_aspose"/>  |   <img src="/words/java/working-with-smartart-cold-rendering/trapezoid-list-word.png" alt="trapezoid_list_word"/>  |
+|  | **Aspose.Words** | **Microsoft Word** |
+| ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Basic Process** | <img src="/words/java/working-with-smartart-cold-rendering/basic-process-aspose.png" alt="basic_process_aspose"/> | <img src="/words/java/working-with-smartart-cold-rendering/basic-process-word.png" alt="basic_process_word"/> |
+| **Circular Bending Process** | <img src="/words/java/working-with-smartart-cold-rendering/circular-bending-process-aspose.png" alt="circular_bending_process_aspose"/> | <img src="/words/java/working-with-smartart-cold-rendering/circular-bending-process-word.png" alt="circular_bending_process_word"/> |
+| **Repeating Bending Process** | <img src="/words/java/working-with-smartart-cold-rendering/repearing-bending-process-aspose.png" alt="repearing_bending_process_aspose"/> | <img src="/words/java/working-with-smartart-cold-rendering/repearing-bending-process-word.png" alt="repearing_bending_process_word"/> |
+| **Trapezoid List** | <img src="/words/java/working-with-smartart-cold-rendering/trapezoid-list-aspose.png" alt="trapezoid_list_aspose"/> | <img src="/words/java/working-with-smartart-cold-rendering/trapezoid-list-word.png" alt="trapezoid_list_word"/> |

@@ -7,6 +7,7 @@ description: "Hoe documenten van externe bronnen in te laden C#. Laad PDF, DOCX,
 type: docs
 weight: 40
 url: /nl/net/working-with-documents-from-external-sources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dit deel geeft informatie over het laden van documenten uit externe bronnen zoals SharePoint documentatieopslag of databases. Na ontvangst van een dergelijk document, kunt u niet alleen alle noodzakelijke wijzigingen aan het, beschikbaar met behulp van de krachtige functionaliteit van Aspose.Words, maar laad dit document ook terug in de gegevensbron.

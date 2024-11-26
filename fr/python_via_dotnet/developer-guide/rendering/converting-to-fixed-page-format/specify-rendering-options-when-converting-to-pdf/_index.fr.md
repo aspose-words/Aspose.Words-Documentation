@@ -7,6 +7,7 @@ description: "Convertissez un document en PDF avec des options avancées à l'ai
 type: docs
 weight: 20
 url: /fr/python-net/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Le format PDF est un format de page fixe très populaire parmi les utilisateurs et largement pris en charge par diverses applications, car un document PDF se présente de la même manière sur n'importe quel appareil. Pour cette raison, la conversion au format PDF est une fonctionnalité importante de Aspose.Words.

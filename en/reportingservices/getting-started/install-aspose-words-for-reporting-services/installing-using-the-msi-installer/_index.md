@@ -1,4 +1,4 @@
-﻿---
+---
 title: Installing Using the MSI Installer
 second_title: Aspose.Words for Reporting Services
 articleTitle: Installing Using the MSI Installer
@@ -7,6 +7,7 @@ description: "Installation of the Aspose.Words for Reporting Services using inst
 type: docs
 weight: 20
 url: /reportingservices/installing-using-the-msi-installer/
+timestamp: 2024-11-13-12-00-30
 ---
 
 {{% alert color="primary" %}}

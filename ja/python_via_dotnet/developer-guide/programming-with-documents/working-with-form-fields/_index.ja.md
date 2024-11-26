@@ -7,6 +7,7 @@ description: "Python を使用して、ドキュメント内のフォーム フ�
 type: docs
 weight: 380
 url: /ja/python-net/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 穴埋め（フィールド）を含む文書はフォームと呼ばれます。たとえば、ユーザーがエントリを選択できるドロップダウン リストを使用する登録フォームを Microsoft Word で作成できます。 `Form` フィールドは、名前やアドレスなどの特定の種類のデータが保存される場所です。 Microsoft Word のフォーム フィールドには、テキスト入力、コンボボックス、チェックボックスが含まれます。

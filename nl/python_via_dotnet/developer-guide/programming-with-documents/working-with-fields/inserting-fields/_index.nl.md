@@ -7,6 +7,7 @@ description: "Velden in een document invoegen Python op verschillende manieren: 
 type: docs
 weight: 20
 url: /nl/python-net/inserting-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Er zijn verschillende manieren om velden in een document in te voegen:
@@ -85,7 +86,7 @@ Het volgende voorbeeld van code laat zien hoe je een `Merge` Veld DOM naar een p
 
 ### Invoegen Mail Merge `ADDRESSBLOCK` veld in een document met behulp van DOM
 
-De `ADDRESSBLOCK` veld wordt gebruikt om een mail merge adresblok in Word-document. `ADDRESSBLOCK` veld in Word document kan worden vertegenwoordigd door de [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) Klasse. U kunt [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) klasse om de volgende bewerkingen uit te voeren:
+De `ADDRESSBLOCK` veld wordt gebruikt om een Mail Merge adresblok in Word-document. `ADDRESSBLOCK` veld in Word document kan worden vertegenwoordigd door de [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) Klasse. U kunt [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) klasse om de volgende bewerkingen uit te voeren:
 
 - specificeren of de naam van het land/gebied in het veld moet worden vermeld
 - te specificeren of het adres moet worden opgemaakt volgens het land/regio van de ontvanger zoals gedefinieerd in POST*CODE (Universele Postunie 2006)
@@ -115,7 +116,7 @@ De `ASK` veld wordt gebruikt om de gebruiker te vragen om tekst toe te wijzen aa
 
 - geef de naam van de bladwijzer op
 - Geef standaard gebruikers antwoord (eerste waarde in het prompt venster)
-- geef aan of de reactie van de gebruiker eenmaal per mail merge werking
+- geef aan of de reactie van de gebruiker eenmaal per Mail Merge werking
 - geef de prompttekst (de titel van het promptvenster)
 
 Het volgende voorbeeld van code laat zien hoe u de `ASK` Veld DOM naar een paragraaf in een document:

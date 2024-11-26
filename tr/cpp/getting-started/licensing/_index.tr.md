@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lisanslama ve Abonelik
 second_title: Aspose.Words için C++
 articleTitle: Lisanslama ve Abonelik
@@ -7,6 +7,7 @@ description: "Aspose.Words С ++ için farklı satın alma planları sunar veya 
 type: docs
 weight: 60
 url: /tr/cpp/licensing/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Bazen sistemi daha iyi incelemek için koda mümkün olduğunca çabuk dalmak istersiniz. Bunu kolaylaştırmak için Aspose.Words farklı satın alma planları sunar veya Ücretsiz Deneme Sürümü ve değerlendirme için 30 günlük Geçici Lisans sunar.

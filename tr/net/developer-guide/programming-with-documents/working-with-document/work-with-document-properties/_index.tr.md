@@ -7,6 +7,7 @@ description: ".NET için Aspose.Words, C# kullanarak yerleşik veya özel belge 
 type: docs
 weight: 10
 url: /tr/net/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Belge özellikleri, belgeniz hakkında bazı yararlı bilgilerin saklanmasına olanak tanır. Bu özellikler iki gruba ayrılabilir:

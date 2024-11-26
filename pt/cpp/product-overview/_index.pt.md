@@ -1,4 +1,4 @@
-﻿---
+---
 title: Visão Geral Do Produto
 second_title: Aspose.Words Para C++
 articleTitle: Visão Geral Do Produto
@@ -7,6 +7,7 @@ description: "Aspose.Words Para C++ é uma biblioteca de software projetada para
 type: docs
 weight: 5
 url: /pt/cpp/product-overview/
+timestamp: 2024-06-05-14-43-57
 ---
 
 <img src="product-overview_1" alt="aspose-words-product_cpp" align="left" style="width:64px; margin: 0 30px 30px 0"/>

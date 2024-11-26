@@ -7,6 +7,7 @@ description: "Как да добавите хипервръзка в докум�
 type: docs
 weight: 50
 url: /bg/java/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Хипервръзка Microsoft Word документите са `HYPERLINK` Поле. В Aspose.Words, хипервръзките се осъществяват чрез [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) Клас.

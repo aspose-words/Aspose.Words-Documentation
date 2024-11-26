@@ -7,6 +7,7 @@ description: "Aspose.Words (单位:千美元) Java 在处理文档时使用数�
 type: docs
 weight: 80
 url: /zh/java/fips-mode/
+timestamp: 2024-05-08-10-19-58
 ---
 
 Aspose.Words 处理文档时使用数个密码学和散列算法,这篇文章描述了它与FIPS标准的关系.

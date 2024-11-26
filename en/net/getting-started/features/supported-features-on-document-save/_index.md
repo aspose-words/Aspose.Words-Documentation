@@ -169,6 +169,7 @@ aliases:
 - /net/save-in-the-image-jpeg-bmp-png-emf-tiff-svg-format/
 - /net/annotation-features-supported-on-image-export/
 - /net/custom-markup-features-supported-on-image-export/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words allows users to work with documents in various formats and provides a wide range of features for this. For example, users can create a document from scratch or load it, make some changes, and then save those changes in the output file in any [supported export format](/words/net/supported-document-formats/). While saving the document in the selected format, the user can apply various save options.

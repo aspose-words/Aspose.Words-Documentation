@@ -1,12 +1,13 @@
 ---
-title: Použití `DocumentBuilder` Vložit prvky dokumentu
+title: Použití DocumentBuilder Vložit prvky dokumentu
 second_title: Aspose.Words místo Java
-articleTitle: Použití `DocumentBuilder` Vložit prvky dokumentu
-linktitle: Použití `DocumentBuilder` Vložit prvky dokumentu
+articleTitle: Použití DocumentBuilder Vložit prvky dokumentu
+linktitle: Použití DocumentBuilder Vložit prvky dokumentu
 type: docs
 description: "Vložit prvky dokumentu pomocí stavitele dokumentů do Java."
 weight: 10
 url: /cs/java/use-documentbuilder-to-insert-document-elements/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) se používá k úpravě dokumentů. Tento článek vysvětluje a popisuje, jak vykonávat řadu úkolů.
@@ -152,7 +153,7 @@ Zákazníci mohou určit Lokalizace na úrovni pole nyní a může dosáhnout le
 
 ## Vkládání HTML
 
-Můžete snadno vložit HTML řetězec, který obsahuje HTML fragment nebo celý HTML dokument do dokumentu Word. Pošli tenhle řetězec do DocumentBuilderu. vložit Html metoda. Jednou z užitečných implementací metody je uložení HTML řetězce v databázi a vložení do dokumentu během mail merge aby byl přidán formátovaný obsah namísto jeho budování pomocí různých metod stavitele dokumentů. Následující příklad kódu zobrazí vložení HTML do dokumentu pomocí DocumentBuilder.
+Můžete snadno vložit HTML řetězec, který obsahuje HTML fragment nebo celý HTML dokument do dokumentu Word. Pošli tenhle řetězec do DocumentBuilderu. vložit Html metoda. Jednou z užitečných implementací metody je uložení HTML řetězce v databázi a vložení do dokumentu během Mail Merge aby byl přidán formátovaný obsah namísto jeho budování pomocí různých metod stavitele dokumentů. Následující příklad kódu zobrazí vložení HTML do dokumentu pomocí DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHtml-DocumentBuilderInsertHtml.java" >}}
 

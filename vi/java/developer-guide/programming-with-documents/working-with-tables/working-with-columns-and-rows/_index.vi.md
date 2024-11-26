@@ -7,6 +7,7 @@ description: "Làm việc với các phần của một bảng - hàng, cột v�
 type: docs
 weight: 30
 url: /vi/java/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Để có quyền kiểm soát hơn về cách các bảng hoạt động, hãy tìm hiểu cách thao tác cột và hàng.

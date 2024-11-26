@@ -7,6 +7,7 @@ description: "Yer imi kavramlarını anlama ve Java kullanarak bir programda yer
 type: docs
 weight: 180
 url: /tr/java/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Kitap Çubukları bir Microsoft Word belgesindeki konumları veya parçalarını adlandığınız ve gelecekte başvurmak üzere tanımladığınız yerlerde belirler. Örneğin, daha sonra gözden geçirmek istediğiniz metni tanımlamak için bir kitap çubuğu kullanabilirsiniz. Belge içinde kaydırarak metni bulmak yerine, Kitap Çubuğu iletişim kutusu aracılığıyla ona gidebilirsiniz.

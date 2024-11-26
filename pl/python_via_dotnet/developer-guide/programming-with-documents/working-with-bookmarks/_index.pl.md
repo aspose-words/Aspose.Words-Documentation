@@ -7,6 +7,7 @@ description: "Jak wstawiać, pobierać, przenosić, pokazywać lub ukrywać zak�
 type: docs
 weight: 180
 url: /pl/python-net/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Zakładki identyfikują w dokumencie Microsoft Word lokalizacje lub fragmenty, które nadajesz i identyfikujesz do wykorzystania w przyszłości. Możesz na przykład użyć zakładki, aby zidentyfikować tekst, który chcesz później sprawdzić. Zamiast przewijać dokument w celu zlokalizowania tekstu, możesz przejść do niego, korzystając z okna dialogowego Zakładka.

@@ -7,6 +7,7 @@ description: "Different ways to insert fields into your document using C++."
 type: docs
 weight: 20
 url: /cpp/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 There are several different ways to insert fields into a document:
@@ -93,7 +94,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Inserting Mail Merge Address Block field into a Document using DOM
 
-The `ADDRESSBLOCK` field is used to insert a mail merge address block in a Word document. `ADDRESSBLOCK` field in Word document can be represented by the [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldaddressblock/) class. You can use the **FieldAddressBlock** class to perform the following operations:
+The `ADDRESSBLOCK` field is used to insert a Mail Merge address block in a Word document. `ADDRESSBLOCK` field in Word document can be represented by the [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldaddressblock/) class. You can use the **FieldAddressBlock** class to perform the following operations:
 
 - specify whether to include the name of the country/region in the field
 - specify whether to format the address according to the country/region of the recipient as defined by POST*CODE (Universal Postal Union 2006)
@@ -147,7 +148,7 @@ The `ASK` field is used to prompt the user for text to assign to a Bookmark in W
 
 - specify the name of the bookmark
 - specify default user response (initial value contained in the prompt window)
-- specify whether the user response should be received once per a mail merge operation
+- specify whether the user response should be received once per a Mail Merge operation
 - specify the prompt text (the title of the prompt window)
 
 {{% alert color="primary" %}}

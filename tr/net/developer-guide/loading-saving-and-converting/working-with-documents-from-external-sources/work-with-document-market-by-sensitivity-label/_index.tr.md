@@ -7,6 +7,7 @@ description: "C#'i kullanarak, duyarlılık etiketi uygulanmış Word'ü PDF'ye 
 type: docs
 weight: 30
 url: /tr/net/work-with-document-market-by-sensitivity-label/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Microsoft Purview Information Protection'ın duyarlılık etiketleri, kuruluşunuzun verilerini sınıflandırmanıza ve korumanıza olanak tanırken kullanıcı üretkenliğinin ve işbirliği yapma becerilerinin engellenmediğinden emin olmanızı sağlar. Bir belgeye duyarlılık etiketi uygulandıktan sonra bu etiket için yapılandırılmış koruma ayarları içeriğe uygulanır.

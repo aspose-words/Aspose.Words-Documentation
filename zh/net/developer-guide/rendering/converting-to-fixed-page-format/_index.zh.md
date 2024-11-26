@@ -7,6 +7,7 @@ description: "使用 C# 将文档保存为 PDF、XPS、HTML、XAML、PostScript 
 type: docs
 weight: 10
 url: /zh/net/converting-to-fixed-page-format/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Aspose.Words 实现了自己的页面布局引擎。在深入研究其规范之前，有必要首先对文档进行高层讨论。当考虑文档时，用户通常会想象许多包含文字、图像、表格和图表的纸张。文档可以有多种类型，例如文本、电子表格、幻灯片、CAD 绘图、流程图，因此可以具有本质上不同的布局。大多数应用程序允许将文档发送到打印机；此时用户可以实际查看文档的最终预期外观。

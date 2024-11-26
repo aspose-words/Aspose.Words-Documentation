@@ -7,6 +7,7 @@ description: "詳細資料中的目錄欄位。 如何透過C#來建立和修改
 type: docs
 weight: 170
 url: /zh-hant/net/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 通常你會與包含目錄的文件（TOC）工作。 使用 Aspose.Words，您可以插入自己的目錄或完全重建文件中現有的目錄，只需幾行程式碼即可。 這篇文章說明如何使用目錄欄位，並示範：

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 使用C++中的段落
 second_title: Aspose.Words对于C++
 articleTitle: 处理段落
@@ -7,6 +7,7 @@ description: "使用C++的段落节点操作实践。"
 type: docs
 weight: 210
 url: /zh/cpp/working-with-paragraphs/
+timestamp: 2024-01-30-16-22-34
 ---
 
 段落是一组字符组合成一个逻辑块，并以一个特殊字符–a*paragraph break*结尾。 在Aspose.Words中，段落由[Paragraph](https://reference.aspose.com/words/cpp/aspose.words/paragraph/)类表示。

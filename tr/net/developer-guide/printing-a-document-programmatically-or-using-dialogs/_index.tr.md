@@ -7,6 +7,7 @@ description: "Yönetilmeyen XpsPrint API'yi kullanarak veya C#'deki Ayarlar ve B
 type: docs
 weight: 55
 url: /tr/net/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Bu makalede, Aspose.Words ve `XpsPrint` API kullanılarak ASP.NET veya Windows Hizmeti uygulamasından bir sözcük işlem belgesinin nasıl yazdırılacağı açıklanmaktadır. Ayrıca Ayarlar, Yazdırma önizleme ve Yazdırma ilerleme durumu iletişim kutuları ile bir belgeyi yazdırmanın yöntemlerini gösterir ve bir belgeyi yazdırmak için ilk çağrının süresinin nasıl azaltılacağını açıklar.

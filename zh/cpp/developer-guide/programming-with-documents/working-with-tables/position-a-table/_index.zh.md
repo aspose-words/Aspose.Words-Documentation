@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++中的表位置
 second_title: Aspose.Words对于C++
 articleTitle: 放置一张桌子
@@ -7,6 +7,7 @@ description: "在C++中指定表位置。 获取表对齐，使用C++获取和�
 type: docs
 weight: 50
 url: /zh/cpp/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有浮动表和内联表:

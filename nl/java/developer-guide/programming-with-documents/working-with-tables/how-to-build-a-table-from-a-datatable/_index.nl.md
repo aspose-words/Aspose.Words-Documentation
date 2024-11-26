@@ -1,12 +1,13 @@
 ---
-title: Hoe bouw je een tabel van een `DataTable` in Java
+title: Hoe bouw je een tabel van een DataTable in Java
 second_title: Aspose.Words voor Java
-articleTitle: Bouw een tabel van een `DataTable`
-linktitle: Bouw een tabel van een `DataTable`
+articleTitle: Bouw een tabel van een DataTable
+linktitle: Bouw een tabel van een DataTable
 description: "Voorbeeld van het invullen van documenttabel uit externe database met behulp van Java."
 type: docs
 weight: 130
 url: /nl/java/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Vaak zal uw toepassing halen gegevens uit een database en opslaan in de vorm van een **DataTable**. Het kan zijn dat u deze gegevens gemakkelijk als nieuwe tabel in uw document wilt invoegen en snel formatteren op de hele tabel wilt toepassen.

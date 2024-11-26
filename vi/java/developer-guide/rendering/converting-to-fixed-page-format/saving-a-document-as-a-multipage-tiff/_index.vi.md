@@ -7,6 +7,7 @@ description: "Chuyển đổi tài liệu thành một hình ảnh raster, đư�
 type: docs
 weight: 30
 url: /vi/java/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Khi làm việc với tài liệu, bạn thường cần chuyển đổi tài liệu của bạn thành một tập tin hình ảnh raster(s). Điều này đặc biệt quan trọng nếu bạn phải trình bày tài liệu của mình ở một định dạng có thể đọc và có thể in, nhưng không chỉnh sửa. Ví dụ, bạn có thể sử dụng một hình ảnh raster của trang đầu tiên trong tài liệu như là một bản xem trước. Bài viết mô tả cách chuyển đổi một tài liệu sang hình ảnh raster sử dụng ví dụ của định dạng TIFF – một trong những định dạng hình ảnh phổ biến nhất.

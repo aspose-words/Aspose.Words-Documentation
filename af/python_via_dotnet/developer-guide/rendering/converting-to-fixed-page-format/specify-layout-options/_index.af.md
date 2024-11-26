@@ -1,4 +1,4 @@
-﻿---
+---
 title: Spesifiseer Uitlegkeuses in Python
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Spesifiseer Uitleg Opsies
@@ -7,6 +7,7 @@ description: "Spesifiseer Uitlegopsies vir verskeie dokumentuitlegte met behulp 
 type: docs
 weight: 10
 url: /af/python-net/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words stel u in staat om uitsetdokumente met verskillende uitlegte te skep, afhangende van die parameters wat in eienskappe van die [LayoutOptions](https://reference.aspose.com/words/python-net/aspose.words.layout/layoutoptions/) - klas gespesifiseer word. Sommige van hierdie eienskappe lyk soos sommige van die Microsoft Word gebruikerskoppelvlak menu opsies – hulle sal in hierdie artikel beskryf word.

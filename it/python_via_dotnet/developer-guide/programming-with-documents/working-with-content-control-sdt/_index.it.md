@@ -7,6 +7,7 @@ description: "Usando Python puoi incorporare la semantica definita dal cliente, 
 type: docs
 weight: 390
 url: /it/python-net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 In Microsoft Word, puoi creare un modulo iniziando con un modello e aggiungendo controlli del contenuto, tra cui caselle di controllo, caselle di testo, selettori di data ed elenchi a discesa. In Aspose.Words, un tag di documento strutturato o un controllo del contenuto da qualsiasi documento caricato in Aspose.Words viene importato come nodo [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/). I tag di documenti strutturati (SDT o controllo del contenuto) consentono di incorporare in un documento la semantica definita dal cliente, nonché il suo comportamento e il suo aspetto. [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) può verificarsi in un documento nei seguenti luoghi:

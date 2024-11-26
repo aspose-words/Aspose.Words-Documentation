@@ -1,12 +1,13 @@
 ---
-title: كيفية بناء جدول من `DataTable` في C#
+title: كيفية بناء جدول من DataTable في C#
 second_title: Aspose.Words لـ .NET
-articleTitle: إنشاء جدول من `DataTable`
-linktitle: إنشاء جدول من `DataTable`
+articleTitle: إنشاء جدول من DataTable
+linktitle: إنشاء جدول من DataTable
 description: "مثال لملء جدول المستندات من قاعدة بيانات خارجية باستخدام C#."
 type: docs
 weight: 120
 url: /ar/net/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-09-25-11-08-55
 ---
 
 غالبًا ما يقوم تطبيقك بسحب البيانات من قاعدة البيانات وتخزينها في شكل **DataTable**. يمكنك بسهولة إدراج هذه البيانات في مستندك كجدول جديد وتطبيق التنسيق بسرعة على الجدول بأكمله.

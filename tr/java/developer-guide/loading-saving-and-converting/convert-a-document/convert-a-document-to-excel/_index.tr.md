@@ -7,6 +7,7 @@ description: "PDF'yi Excel'e dönüştürün, XML'i Excel'e, DOCX'i Excel'e Java
 type: docs
 weight: 15
 url: /tr/java/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Bir biçimdeki belgeleri başka bir biçimde dönüştürmek [load format](https://reference.aspose.com/words/java/com.aspose.words/loadformat/)'ın başlıksız özelliğidir. Aspose.Words'de mevcut olan herhangi bir belgeyi de XLSX biçimine dönüştürebilirsiniz.

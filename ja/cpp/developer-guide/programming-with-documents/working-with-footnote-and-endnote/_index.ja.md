@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++での脚注と文末脚注の操作
 second_title: C++の場合Aspose.Words
 articleTitle: 脚注と文末脚注の操作
@@ -7,6 +7,7 @@ description: "C++を使用して脚注と文末脚注を操作する方法。"
 type: docs
 weight: 160
 url: /ja/cpp/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Wordsは、脚注と文末脚注を操作するためのクラス、メソッド、プロパティも提供します。

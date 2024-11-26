@@ -7,6 +7,7 @@ description: "Wprowadzenie do pracy ze znakami kontrolnymi w Aspose.Words dla Py
 type: docs
 weight: 400
 url: /pl/python-net/working-with-control-characters/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dokumenty Microsoft Word mogą zawierać różne znaki o specjalnym znaczeniu. Zwykle są one używane do celów formatowania i nie są rysowane w trybie normalnym. Możesz je wyświetlić, klikając przycisk Pokaż/Ukryj znaczniki formatowania znajdujący się na pasku narzędzi Standard.

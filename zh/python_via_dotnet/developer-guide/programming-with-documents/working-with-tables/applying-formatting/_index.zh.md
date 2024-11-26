@@ -7,6 +7,7 @@ description: "使用 Python 详细说明表格格式。使用 Python 格式化�
 type: docs
 weight: 70
 url: /zh/python-net/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 表格的每个元素都可以应用不同的格式。例如，表格格式设置将应用于整个表格，行格式设置将仅应用于特定行，单元格格式设置将仅应用于某些单元格。

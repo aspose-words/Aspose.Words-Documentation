@@ -7,6 +7,7 @@ description: "Urmăriți modificările de conținut și formatare efectuate de t
 type: docs
 weight: 270
 url: /ro/net/track-changes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Funcționalitatea "track changes", numită și "reviewing", îți permite să urmărești modificările de conținut și formatare efectuate de tine sau alți utilizatori. Această caracteristică Track Changes cu Aspose.Words acceptă modificări de urmărire în Microsoft Word. Cu această funcționalitate, puteți accesa versiuni individuale ale documentului dvs. și aplica diferite proprietăți pentru ele.

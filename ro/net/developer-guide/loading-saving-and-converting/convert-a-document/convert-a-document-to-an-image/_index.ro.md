@@ -7,6 +7,7 @@ type: docs
 description: "Converteste un document într-un format imagine (JPG, PNG, etc.). Creați o previzualizare de document sau creați un scan pentru a trimite o factură folosind C#."
 weight: 43
 url: /ro/net/convert-a-document-to-an-image/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Uneori este necesar să se obțină o imagine în loc de documente în alte formate, cum ar fi DOCX sau PDF. De exemplu, trebuie să adaugi o previzualizare a oricărei pagini de document pe site-ul tău sau aplicația ta, sau creezi o "scanare" a unui document pentru a trimite o factură. Aceasta este momentul în care ai putea avea nevoie să converteşti un document în orice [supported load format](https://reference.aspose.com/words/net/aspose.words/loadformat/) într-o imagine, din nou, în orice [supported save format](https://reference.aspose.com/words/net/aspose.words/saveformat/).

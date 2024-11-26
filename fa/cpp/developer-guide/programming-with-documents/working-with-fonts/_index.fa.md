@@ -1,4 +1,4 @@
-﻿---
+---
 title: کار با فونت ها در C++
 second_title: Aspose.Words برای C++
 articleTitle: کار با فونت ها
@@ -7,6 +7,7 @@ description: "قالب بندی فونت در جزئیات با استفاده �
 type: docs
 weight: 230
 url: /fa/cpp/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 فونت مجموعه ای از کاراکترها با اندازه، رنگ و طراحی خاص است. Aspose.Words به شما اجازه می دهد با استفاده از فضای نام [Fonts](https://reference.aspose.com/words/cpp/aspose.words.fonts/) و کلاس [Font](https://reference.aspose.com/words/cpp/aspose.words/font/) با فونت ها کار کنید.

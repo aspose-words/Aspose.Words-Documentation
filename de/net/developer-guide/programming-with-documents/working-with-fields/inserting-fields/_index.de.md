@@ -7,6 +7,7 @@ description: "So fügen Sie mit C# Felder in ein Dokument ein – lernen Sie anh
 type: docs
 weight: 20
 url: /de/net/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Es gibt verschiedene Möglichkeiten, Felder in ein Dokument einzufügen:

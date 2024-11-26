@@ -8,6 +8,7 @@ description: "قم بتحويل تنسيقات PDF إلى Word مثل DOCX أو 
 keywords: convert pdf to other formats c#
 weight: 45
 url: /ar/net/convert-pdf-to-other-document-formats/
+timestamp: 2024-07-09-19-00-42
 ---
 
 يمكن لـ Aspose.Words تحميل تنسيق معقد مثل PDF. يفتح هذا فرصًا جديدة: من الممكن تحويل PDF إلى Word أو تنسيقات أخرى تجلب المستخدمين إلى الأمام في حل العديد من المشكلات التطبيقية.

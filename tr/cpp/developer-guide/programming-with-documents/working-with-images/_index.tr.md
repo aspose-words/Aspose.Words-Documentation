@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki Resimlerle Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Resimlerle Çalışma
@@ -7,6 +7,7 @@ type: docs
 description: "Görüntü özelliğine giriş, C++ kullanarak görüntünün nasıl oluşturulacağı ve değiştirileceği."
 weight: 300
 url: /tr/cpp/working-with-images/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words kullanıcıların görüntülerle çok esnek bir şekilde çalışmasına olanak tanır. Bu makalede, görüntülerle çalışmanın yalnızca bazı olanaklarını keşfedebilirsiniz.

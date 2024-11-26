@@ -7,6 +7,7 @@ description: "在C#中分割表格。 如何將一張表格拆分為兩張分開
 type: docs
 weight: 100
 url: /zh-hant/net/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 由 Aspose.Words Document Object Model 所表示的資料表是由獨立的列與細胞組成的，使其易於將資料表分開。

@@ -7,6 +7,7 @@ description: "Convert to PDF/A-1, PDF/A-2, PDF/A-4 and PDF/UA using Python. Ther
 type: docs
 weight: 28
 url: /python-net/working-with-pdfa-or-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 PDF/A and PDF/UA format imposes several requirements related to the document content that cannot be fulfilled during automatic conversion from a document in Word format to PDF. These requirements should be verified and corrected either in a Word document before conversion or in a PDF document after conversion in order to produce a fully PDF/A and PDF/UA compliant document.

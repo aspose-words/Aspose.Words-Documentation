@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのフィールドプロパティのカスタマイズ
 second_title: C++の場合Aspose.Words
 articleTitle: フィールドプロパティのカスタマイズ
@@ -7,6 +7,7 @@ description: "C++でフィールドプロパティをカスタマイズする方
 type: docs
 weight: 27
 url: /ja/cpp/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Wordsは、さまざまなフィールドプロパティとプログラムで対話する機能を提供します。 この記事では、フィールドプロパティの操作の基本原則を理解できるように、いくつかの例を見ていきます。 [Fields namespace](https://reference.aspose.com/words/cpp/namespace/aspose.words.fields)の対応するクラスの各フィールドタイプのプロパティの完全なリストを見ることができます。

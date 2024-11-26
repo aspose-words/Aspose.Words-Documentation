@@ -1,54 +1,55 @@
----
+﻿---
 title: Mettre à jour les champs dans Java
 second_title: Aspose.Words pour Java
-articleTitle: Mettre à jour les champs
-linktitle: Mettre à jour les champs
-description: "Découvrez comment mettre à jour les champs dans Java. Mettre à jour les champs de manière programmatique ou utiliser une mise à jour automatique des champs Java API"
+articleTitle: Mettre à Jour les Champs
+linktitle: Mettre à Jour les Champs
+description: "Découvrez comment mettre à jour les champs dans Java. Mettez à jour les champs par programmation ou utilisez la mise à jour automatique des champs à l'aide de Java API"
 type: docs
 weight: 30
 url: /fr/java/update-field/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Typiquement, un champ inséré dans Microsoft Word contient déjà une valeur à jour. Par exemple, si le champ est une formule ou un numéro de page, il contiendra la valeur calculée correcte pour la version donnée du document. Mais si vous avez une application qui génère ou modifie un document avec des champs comme fusionner deux documents ou le remplir de données, alors idéalement tous les champs doivent être mis à jour pour que le document soit utile.
+En règle générale, un champ inséré dans Microsoft Word contient déjà une valeur à jour. Par exemple, si le champ est une formule ou un numéro de page, il contiendra la valeur calculée correcte pour la version donnée du document. Mais si vous avez une application qui génère ou modifie un document avec des champs tels que la fusion de deux documents ou le remplissage de données, idéalement, tous les champs doivent être mis à jour pour que le document soit utile.
 
-## Comment mettre à jour les champs
+## Comment mettre à jour les Champs
 
-Lorsqu'un document est chargé, Aspose.Words imite le comportement de Microsoft Word avec l'option de mettre à jour automatiquement les champs est désactivé. Le comportement peut être résumé comme suit:
+Lorsqu'un document est chargé, Aspose.Words imite le comportement de Microsoft Word avec l'option de mise à jour automatique des champs désactivée. Le comportement peut être résumé comme suit:
 
-- lorsque vous ouvrez ou sauvez un document, les champs restent intacts
-- vous pouvez mettre à jour explicitement tous les champs d'un document, par exemple, reconstruire `TOC` quand vous avez besoin de
-- lorsque vous imprimez/rendez en PDF ou XPS les champs relatifs à la numérotation des pages dans les en-têtes/pieds de page sont mis à jour
-- quand vous exécutez mail merge tous les champs sont mis à jour automatiquement
+- lorsque vous ouvrez/enregistrez un document, les champs restent intacts
+- vous pouvez explicitement mettre à jour tous les champs d'un document, par exemple, reconstruire `TOC` lorsque vous en avez besoin
+- lorsque vous imprimez / rendez sur PDF ou XPS, les champs liés à la numérotation des pages dans les en-têtes/pieds de page sont mis à jour
+- lorsque vous exécutez Mail Merge, tous les champs sont mis à jour automatiquement
 
-### Mettre à jour les champs de façon programmatique
+### Mettre À Jour Les Champs Par Programmation
 
-Pour mettre à jour explicitement les champs dans l'ensemble du document, il suffit d'appeler le [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) méthode. Pour mettre à jour les champs contenus dans un document, obtenir [Range](https://reference.aspose.com/words/java/com.aspose.words/range/) objet et appeler le [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/range/#updateFields) méthode. En Aspose.Words, vous pouvez obtenir un **Range** pour tout noeud de l'arbre de documents, comme [Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), etc. en utilisant [GetRange](https://reference.aspose.com/words/java/com.aspose.words/node/#getRange) propriété. Vous pouvez mettre à jour le résultat d'un seul champ en appelant le [Update](https://reference.aspose.com/words/java/com.aspose.words/field/#update) méthode.
+Pour mettre à jour explicitement des champs dans l'ensemble du document, appelez simplement la méthode [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields). Pour mettre à jour des champs contenus dans une partie d'un document, obtenez un objet [Range](https://reference.aspose.com/words/java/com.aspose.words/range/) et appelez la méthode [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/range/#updateFields). Dans Aspose.Words, vous pouvez obtenir un **Range** pour n'importe quel nœud de l'arborescence du document, tel que [Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), etc. en utilisant la propriété [GetRange](https://reference.aspose.com/words/java/com.aspose.words/node/#getRange). Vous pouvez mettre à jour le résultat d'un seul champ en appelant la méthode [Update](https://reference.aspose.com/words/java/com.aspose.words/field/#update).
 
-### Mise à jour automatique des champs liés à la page pendant le rendu
+### Mise à jour automatique des champs liés à la Page lors du rendu
 
-Lorsque vous effectuez la conversion d'un document en un format de page fixe, par exemple en PDF ou XPS, puis Aspose.Words mettra automatiquement à jour les champs liés à la mise en page `PAGE`, `PAGEREF` trouvé dans les en-têtes/pieds du document. Ce comportement imite le comportement de Microsoft Word pour imprimer un document.
+Lorsque vous exécutez la conversion d'un document dans un format de page fixe, par exemple en PDF ou XPS, Aspose.Words mettra automatiquement à jour les champs liés à la mise en page `PAGE`, `PAGEREF` trouvés dans les en-têtes/pieds de page du document. Ce comportement imite le comportement de Microsoft Word lors de l'impression d'un document.
 
-Si vous voulez mettre à jour tous les autres champs du document, alors vous devez appeler [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) avant de rendre le document.
+Si vous souhaitez mettre à jour tous les autres champs du document, vous devez appeler [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) avant de rendre le document.
 
 L'exemple suivant montre comment mettre à jour tous les champs avant de rendre un document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UpdateFields-UpdateFields.java" >}}
 
-### Mise à jour automatique du champ pendant Mail Merge
+### Mise à jour automatique des champs pendant Mail Merge
 
-Lorsque vous exécutez un <span notrans="<span notrans=" mail merge"=""></span>""> tous les champs du document seront automatiquement mis à jour. C'est parce que les mail merge est un cas de mise à jour de champ. Le programme rencontre un mail merge et doit mettre à jour son résultat, ce qui implique de saisir la valeur de la source de données et de l'insérer dans le champ. La logique est, bien sûr, plus compliquée, par exemple, lorsque la fin du document/mail merge la région est atteinte mais il reste d'autres données à fusionner, puis la région doit être dupliquée et la nouvelle série de champs mis à jour.
+Lorsque vous exécutez un mail merge, tous les champs du document seront automatiquement mis à jour. C'est parce que le Mail Merge est un cas de mise à jour de champ. Le programme rencontre un champ Mail Merge et doit mettre à jour son résultat, ce qui implique de récupérer la valeur de la source de données et de l'insérer dans le champ. La logique est, bien sûr, plus compliquée, par exemple, lorsque la fin de la région document/mail merge est atteinte mais qu'il reste encore des données à fusionner, la région doit être dupliquée et le nouvel ensemble de champs mis à jour.
 
-## Mettre à jour les champs ayant l'attribut sale
+## Mettre à jour les Champs ayant un attribut Sale
 
-Le w:dirty est un attribut de niveau de champ qui ne rafraîchira que le champ que vous spécifiez lorsque le document est ouvert. Il dit à MS Word de rafraîchir ce champ seulement la prochaine fois que le document est ouvert. Vous pouvez utiliser la propriété LoadOptions.setUpdateDirtyFields() pour spécifier s'il faut mettre à jour les champs avec l'attribut sale. Lorsque la valeur de LoadOptions.setUpdateDirtyFields() est définie à <span notrans="<span notrans=" *true*"=""></span>""> tous les champs ayant *true* valeur pour `Field.IsDirty` ou `FieldChar.IsDirty` la propriété est mise à jour sur le chargement du document
+Le w: dirty est un attribut au niveau du champ qui actualisera uniquement le champ que vous spécifiez lors de l'ouverture du document. Il indique à MS Word de n'actualiser ce champ que la prochaine fois que le document est ouvert. Vous pouvez utiliser LoadOptions.propriété setUpdateDirtyFields () pour spécifier s'il faut mettre à jour les champs avec l'attribut dirty. Lorsque la valeur de LoadOptions.setUpdateDirtyFields () est défini sur *true*, tous les champs ayant une valeur *true* pour la propriété `Field.IsDirty` ou `FieldChar.IsDirty` sont mis à jour lors du chargement du document.
 
-L'exemple de code suivant montre comment mettre à jour les champs ayant l'attribut sale:
+L'exemple de code suivant montre comment mettre à jour les champs ayant l'attribut dirty:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-LoadOptionsUpdateDirtyFields-LoadOptionsUpdateDirtyFields.java" >}}
 
-## Mettre à jour la propriété LastSavedTime avant d'enregistrer
+## Mettre À Jour La Propriété LastSavedTime Avant d'Enregistrer
 
-Vous pouvez utiliser le [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateLastSavedTimeProperty) propriété de mettre à jour la propriété de document intégré correspondante [LastSavedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getLastSavedTime) lors de la sauvegarde du document.
+Vous pouvez utiliser la propriété [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateLastSavedTimeProperty) pour mettre à jour la propriété de document intégrée correspondante [LastSavedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getLastSavedTime) lors de l'enregistrement du document.
 
 L'exemple de code suivant montre comment mettre à jour cette propriété:
 

@@ -7,6 +7,7 @@ description: "Câmpurile din detalii, coduri de câmp și rezultate ale câmpuri
 type: docs
 weight: 10
 url: /ro/net/fields-overview/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words este o bibliotecă de clasă concepută pentru procesarea pe server-side a documentelor Microsoft Word și suportă câmpuri în următoarele moduri:
@@ -173,9 +174,9 @@ Aspose.Words acceptă toate comutatoarele de formatare a datelor și orei dispon
 
 ### Mail Merge câmpuri
 
-Aspose.Words impune nicio limită complexității câmpurilor mail merge din documentele tale și suportă câmpuri încorporate `IF` și cu formulă, și poate calcula chiar numele unui câmp de fuziune folosind o formulă.
+Aspose.Words impune nicio limită complexității câmpurilor Mail Merge din documentele tale și suportă câmpuri încorporate `IF` și cu formulă, și poate calcula chiar numele unui câmp de fuziune folosind o formulă.
 
-Unele exemple de mail merge câmpuri pe care Aspose.Words le suportă:
+Unele exemple de Mail Merge câmpuri pe care Aspose.Words le suportă:
 
 - " Mail merge câmp comutatoare":
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -222,6 +223,6 @@ Pe de altă parte, " Microsoft Word formatează fiecare câmp individual pe baza
 
 Clasa [Document](https://reference.aspose.com/words/net/aspose.words/document/) oferă o proprietate [FieldOptions](https://reference.aspose.com/words/net/aspose.words/document/fieldoptions/) care conține membri care pot fi utilizați pentru a controla modul în care câmpurile sunt actualizate în cadrul documentului.
 
-Exemplul de cod următor arată cum să se specifice locul unde cultura folosită pentru formatarea datelor în timpul actualizării câmpului și mail merge este ales din:
+Exemplul de cod următor arată cum să se specifice locul unde cultura folosită pentru formatarea datelor în timpul actualizării câmpului și Mail Merge este ales din:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-ChangeFieldUpdateCultureSource-ChangeFieldUpdateCultureSource.cs" >}}

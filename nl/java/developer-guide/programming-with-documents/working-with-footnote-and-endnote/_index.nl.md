@@ -7,6 +7,7 @@ description: "Hoe voetnoten en eindnoten te manipuleren met behulp van Java."
 type: docs
 weight: 160
 url: /nl/java/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words biedt ook enkele klassen, methoden en eigenschappen voor het werken met voetnoten en eindnoten.

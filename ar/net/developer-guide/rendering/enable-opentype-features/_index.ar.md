@@ -7,6 +7,7 @@ description: "ميزات الطباعة المتقدمة باستخدام C#."
 type: docs
 weight: 25
 url: /ar/net/enable-opentype-features/
+timestamp: 2024-07-10-14-38-57
 ---
 
 OpenType هو تنسيق خط تم تقديمه لتوفير دعم أفضل للغات وأنظمة الكتابة الدولية مقارنةً بـ PostScript وTrueType. تُعرف ميزات تخطيط OpenType عمومًا باسم ميزات OpenType. توفر حزمة Aspose.Words.Shaping.HarfBuzz الدعم لميزات OpenType في Aspose.Words باستخدام محرك تشكيل النص HarfBuzz.

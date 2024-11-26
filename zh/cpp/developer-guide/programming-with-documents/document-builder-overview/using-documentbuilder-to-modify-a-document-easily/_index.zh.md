@@ -1,4 +1,4 @@
-﻿---
+---
 title: 使用`DocumentBuilder`轻松修改文档
 second_title: Aspose.Words对于C++
 articleTitle: 使用`DocumentBuilder`轻松修改文档
@@ -7,6 +7,7 @@ type: docs
 description: "使用文档生成器可以轻松地在C++中修改文档。"
 weight: 190
 url: /zh/cpp/using-documentbuilder-to-modify-a-document-easily/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## 指定格式

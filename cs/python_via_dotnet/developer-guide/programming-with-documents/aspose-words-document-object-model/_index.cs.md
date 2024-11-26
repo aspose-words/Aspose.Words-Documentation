@@ -7,6 +7,7 @@ type: docs
 description: "Document Object Model (DOM) představuje dokument Word. Číst, manipulovat a upravovat obsah a formátování dokumentu Word pomocí Python."
 weight: 10
 url: /cs/python-net/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 • Aspose.Words Document Object Model (DOM) představuje dokument Word. • Aspose.Words DOM umožňuje programově číst, manipulovat a upravovat obsah a formátování dokumentu Word.
@@ -15,7 +16,7 @@ Tento oddíl popisuje hlavní třídy Aspose.Words DOM a jejich vztahy. Použit�
 
 ## Vytvořit a `Document` Strom objektů {#create-a-document-objects-tree}
 
-Při čtení dokumentu do Aspose.Words <span notrans="<span notrans=" DOM"=""></span>,? pak je postaven strom objektů a různé typy prvků zdrojového dokumentu mají vlastní DOM objekty stromu s různými vlastnostmi.
+Při čtení dokumentu do Aspose.Words DOM,? pak je postaven strom objektů a různé typy prvků zdrojového dokumentu mají vlastní DOM objekty stromu s různými vlastnostmi.
 
 ### Vytvořit uzel dokumentu strom {#build-document-nodes-tree}
 

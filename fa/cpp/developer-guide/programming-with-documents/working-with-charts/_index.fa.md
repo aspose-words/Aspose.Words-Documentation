@@ -1,4 +1,4 @@
-﻿---
+---
 title: کار با نمودارها در C++
 second_title: Aspose.Words برای C++
 articleTitle: کار با نمودارها
@@ -7,6 +7,7 @@ description: "مقدمه ای به ویژگی نمودار، نحوه ایجاد
 type: docs
 weight: 310
 url: /fa/cpp/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 روش جدید [InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/) به کلاس [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/) اضافه شد. بنابراین، بیایید ببینیم که چگونه یک نمودار ستون ساده را با استفاده از روش [InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/) در سند وارد کنیم.

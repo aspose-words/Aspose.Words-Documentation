@@ -7,6 +7,7 @@ type: docs
 description: "Редактиране на изходни документи в много популярни формати, както и свободно конвертиране на файлове от един формат в друг, използвайки C#."
 weight: 20
 url: /bg/net/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

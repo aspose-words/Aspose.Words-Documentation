@@ -1,12 +1,13 @@
 ---
-title: Using `DocumentBuilder` to Modify a Document
+title: Using DocumentBuilder to Modify a Document
 second_title: Aspose.Words for Java
-articleTitle: Using `DocumentBuilder` to Modify a Document
-linktitle: Using `DocumentBuilder` to Modify a Document
+articleTitle: Using DocumentBuilder to Modify a Document
+linktitle: Using DocumentBuilder to Modify a Document
 type: docs
 description: "Use the document builder to modify a document easily in Java."
 weight: 20
 url: /java/using-documentbuilder-to-modify-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Specifying Formatting
@@ -203,7 +204,7 @@ Inserting new text in this way does not replace the existing text of the bookmar
 
 ### Moving to a `Merge` Field
 
-Sometimes you may need to perform a "manual" mail merge using `DocumentBuilder` or fill a merge field in a special way inside a mail merge event handler. That is when [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) could be useful. The method accepts the name of the merge field. It moves the cursor to a position just beyond the specified merge field and removes the merge field. The following code example shows how to move the cursor to a position just beyond the specified merge field.
+Sometimes you may need to perform a "manual" Mail Merge using `DocumentBuilder` or fill a merge field in a special way inside a Mail Merge event handler. That is when [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) could be useful. The method accepts the name of the merge field. It moves the cursor to a position just beyond the specified merge field and removes the merge field. The following code example shows how to move the cursor to a position just beyond the specified merge field.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 

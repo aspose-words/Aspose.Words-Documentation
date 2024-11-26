@@ -1,53 +1,54 @@
----
-title: Arbeiten mit Smart Kunst Kalte Rendering in Java
+﻿---
+title: Arbeiten mit SmartArt Kaltrendern in Java
 second_title: Aspose.Words für Java
-articleTitle: Arbeiten mit Smart Art Kalte Rendering
-linktitle: Arbeiten mit Smart Art Kalte Rendering
+articleTitle: Arbeiten mit SmartArt Kaltrendern
+linktitle: Arbeiten mit SmartArt Kaltrendern
 type: docs
-description: "Aspose.Words für Java führt Smart aus Art Cold Rendering, was bedeutet, dass es SmartArt-Objekte herausgibt und macht, wenn die vorveröffentlichte SmartArt-Zeichnung fehlt oder falsch ist."
+description: "Aspose.Words für Java führt SmartArt Cold Rendering durch, was bedeutet, dass SmartArt Objekte angelegt und gerendert werden, wenn die vorgerenderte SmartArt Zeichnung fehlt oder falsch ist."
 weight: 330
 url: /de/java/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
-SmartArt Grafiken werden verwendet, um schnell und einfach eine visuelle Darstellung von Informationen zu erstellen. Sie wählen einfach aus einer großen Anzahl von Layouts, die am besten zu Ihrer Situation passen. Diese einfache Bedienung macht SmartArt Grafiken für einige Zwecke sehr beliebt.
+SmartArt Grafiken werden verwendet, um schnell und einfach eine visuelle Darstellung von Informationen zu erstellen. Sie wählen einfach aus einer Vielzahl von Layouts, die am besten zu Ihrer Situation passen. Diese Benutzerfreundlichkeit macht SmartArt -Grafiken für einige Zwecke sehr beliebt.
 
-Microsoft Word erzeugt und speichert die vorverbreitete Zeichnung zusammen mit der `SmartArt` Objekt. In den meisten Fällen wird die vorverbreitete Zeichnung durch Aspose.Words und keine zusätzlichen Aktionen erforderlich sind. Wird das Dokument jedoch durch andere Anwendungen gespeichert, kann die vorveröffentlichte SmartArt-Zeichnung fehlen oder falsch sein. In diesem Fall `SmartArt` Objekt selbst sollte ausgelegt und mit Aspose.Words. Wir nennen diesen Prozess `SmartArt` Cold Rendering.
+Microsoft Word generiert und speichert die vorgerenderte Zeichnung zusammen mit dem `SmartArt`-Objekt. In den meisten Fällen wird die vorgerenderte Zeichnung von Aspose.Words gut gerendert und es sind keine zusätzlichen Aktionen erforderlich. Wenn das Dokument jedoch von anderen Anwendungen gespeichert wird, fehlt möglicherweise die vorgerenderte SmartArt-Zeichnung oder ist falsch. In diesem Fall sollte das `SmartArt` -Objekt selbst mit Aspose.Words angelegt und gerendert werden. Wir nennen diesen Prozess das `SmartArt` kalte Rendering.
 
-## Smart nutzen Art Kalte Rendering
+## SmartArt kaltes Rendering verwenden
 
-Aspose.Words ermöglicht es Ihnen, eine vorverzerrte Zeichnung zu verwenden oder kaltes Rendern durchzuführen:
+Aspose.Words ermöglicht es Ihnen, eine vorgerenderte Zeichnung zu verwenden oder kaltes Rendern durchzuführen:
 
-* Ist eine vorverbreitete Zeichnung verfügbar, Aspose.Words verwendet es, um die `SmartArt` Objekt.
-* Wenn eine vorverbreitete Zeichnung fehlt, Aspose.Words implizit führt kaltes Rendering, um die `SmartArt` Objekt.
-* Ist eine vorerkannte Zeichnung vorhanden, aber falsch, ist es erforderlich, SmartArt-Kälte-Rendering explizit durch Aufruf durchzuführen [UpdateSmartArtDrawing](https://reference.aspose.com/words/java/com.aspose.words/shape/#updateSmartArtDrawing) Methode.
+* Wenn eine vorgerenderte Zeichnung verfügbar ist, verwendet Aspose.Words diese zum Rendern des `SmartArt`-Objekts.
+* Wenn eine vorgerenderte Zeichnung fehlt, führt Aspose.Words implizit ein Kaltrendern durch, um das `SmartArt`-Objekt zu rendern.
+* Wenn eine vorgerenderte Zeichnung vorhanden, aber falsch ist, muss SmartArt explizit kalt gerendert werden, indem die Methode [UpdateSmartArtDrawing](https://reference.aspose.com/words/java/com.aspose.words/shape/#updateSmartArtDrawing) aufgerufen wird.
 
-Das folgende Codebeispiel zeigt, wie man Zeichnungen für alle Diagramme im Dokument aktualisiert:
+Das folgende Codebeispiel zeigt, wie Zeichnungen für alle Diagramme im Dokument aktualisiert werden:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-UpdateSmartArtDrawing.java" >}}
 
-## Unterstützung für Standard SmartArt Layouts
+## Unterstützung für Standard-SmartArt-Layouts
 
-Derzeit nur eine begrenzte Anzahl von Standard Microsoft Word SmartArt Layouts werden unterstützt. Auch werden einige dieser Layouts teilweise unterstützt, was bedeutet, dass signifikante Knoten und Formen des Diagramms dargestellt werden, aber es kann Unterschiede zwischen Microsoft Word und Aspose.Words Diagrammlayout.
+Derzeit wird nur eine begrenzte Anzahl von Standardlayouts Microsoft Word SmartArt unterstützt. Außerdem werden einige dieser Layouts teilweise unterstützt, was bedeutet, dass signifikante Knoten und Formen des Diagramms gerendert werden, aber es kann Unterschiede zwischen dem Diagrammlayout Microsoft Word und Aspose.Words geben.
 
-Die folgende Tabelle enthält die vollständig und teilweise unterstützten Layouts:
+Die folgende Tabelle listet die vollständig und teilweise unterstützten Layouts auf:
 
-|  Smart Art Layouts Group |  Voll unterstützte Layouts |  Teilweise unterstützte Layouts |
-|  ----------------------  |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  `List`  |  <ul><li>Grundbausteine</li><li>Ändern von Hexagonen</li><li>Vertikale Bulletliste</li><li>Liste der vertikalen Boxen</li><li>Änderung der Breitenliste</li><li>horizontale Bullenliste</li><li>GroupListe</li><li>Vertikale Blockliste</li><li>Vertical Chevron List</li><li>Liste der Pfeile</li><li>Trapezoid-Liste</li><li>Tabelle</li><li>Liste der Pyramiden</li><li>Zielliste</li></ul> |  <ul><li>Auflistung</li><li>Vertikale Klammerliste</li><li>Liste</li><li>Gestapelte Liste</li><li>Vertikale Genauigkeitsliste</li><li>Vertikale Kreisliste</li></ul> |
-|  `Process`  |  <ul><li>Basisverfahren</li><li>Schneller Prozess</li><li>Kontinuierlicher Blockprozess</li><li>Erhöhung des Arrow-Prozesses</li><li>Konvergieren von Text</li><li>Einfache Timeline</li><li>Basic Chevron Process</li><li>Chevron Accent Prozess</li><li>Geschlossener Chevron-Prozess</li><li>Chevron Liste</li><li>Vertikaler Prozess</li><li>Staggered Process</li><li>Prozessliste</li><li>Basic Bending Prozess</li><li>Wiederholen des Biegeprozesses</li><li>Detailliertes Verfahren</li><li>Aufwärts Pfeil</li><li>Prozess löschen</li><li>Runder Biegeprozess</li></ul> |  <ul><li>Schritt für Schritt</li><li>Schritt für Schritt</li><li>Wechselstrom</li><li>zunehmender Kreisprozess</li><li>Verfahren</li><li>Verbundener Blockprozess</li><li>Prozesspfeile</li><li>Kreis Accent Timeline</li><li>Kreisprozess</li><li>Subschritt-Prozess</li><li>Phased-Prozess</li><li>Zufällig für den Ergebnisprozess</li><li>Kreis Pfeilprozess</li></ul> |
-|  `Cycle`  |  –                                                             |  <ul><li>Segmentierter Zyklus</li><li>Sechskant-Radius</li></ul> |
-|  `Hierarchy`  |  –                                                             |  <ul><li>Hierarchie im Überblick</li><li>Architektur Layout</li></ul> |
-|  `Relationship`  |  <ul><li>Saldo</li><li>Pilze</li><li>Getriebe</li><li>Plus und Minus</li><li>Arrow Ribbon</li><li>Gegengewicht Pfeile</li><li>Arrows freisetzen</li><li>Eingebettetes Ziel</li><li>Grundziel</li><li>Grundstück</li><li>Grundlegende Venen</li><li>Gestapelte Venn</li><li>Interconnected Ring</li></ul> |  <ul><li>Kreis Beziehung</li><li>Unglaubliche Ideen</li><li>Gleichung</li><li>Vertikale Gleichung</li><li>Lineare Venen</li></ul> |
-|  `Matrix`  |  <ul><li>Grundlegende Matrix</li><li>Titel Matrix</li><li>Grid Matrix</li><li>Rad-Matrix</li></ul> |  –                                                             |
-|  `Pyramid`  |  –                                                             |  <ul><li>Segmentierte Pyramide</li></ul> |
+| SmartArt Layouts Gruppe | Vollständig unterstützte Layouts | Teilweise unterstützte Layouts |
+| ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| `List` | <ul><li>Grundlegende Blockliste</li><li>Abwechselnde Sechsecke</li><li>Vertikale Aufzählungsliste</li><li>Vertikale Boxliste</li><li>Liste mit unterschiedlichen Breiten</li><li>Horizontale Aufzählungsliste</li><li>Gruppenliste</li><li>Vertikale Blockliste</li><li>Vertikale Chevron-Liste</li><li>Liste mit vertikalen Pfeilen</li><li>Trapezförmige Liste</li><li>Tabellenliste</li><li>Pyramidenliste</li><li>Zielliste</li></ul> | <ul><li>Linierte Liste</li><li>Liste der vertikalen Klammern</li><li>Registerkartenliste</li><li>Gestapelte Liste</li><li>Vertikale Akzentliste</li><li>Vertikale Kreisliste</li></ul> |
+| `Process` | <ul><li>Grundlegender Prozess</li><li>Akzent-Prozess</li><li>Kontinuierlicher Blockprozess</li><li>Zunehmender Pfeilprozess</li><li>Konvergierender Text</li><li>Grundlegende Zeitleiste</li><li>Grundlegender Chevron-Prozess</li><li>Chevron-Akzent-Prozess</li><li>Geschlossener Chevron-Prozess</li><li>Chevron-Liste</li><li>Vertikaler Prozess</li><li>Gestaffelter Prozess</li><li>Prozessliste</li><li>Grundlegender Biegeprozess</li><li>Wiederholender Biegevorgang</li><li>Detaillierter Prozess</li><li>Pfeil nach oben</li><li>Absteigender Prozess</li><li>Rundbiegeverfahren</li></ul> | <ul><li>Prozess beschleunigen</li><li>Step-Down-Prozess</li><li>Wechselnde Strömung</li><li>Zunehmender Kreisprozess</li><li>Pie Prozess</li><li>Verbundener Blockprozess</li><li>Prozesspfeile</li><li>Zeitleiste mit Kreisakzenten</li><li>Kreisprozess</li><li>Unterschritt-Prozess</li><li>Stufenweiser Prozess</li><li>Zufälliger Ergebnisprozess</li><li>Kreispfeil-Prozess</li></ul> |
+| `Cycle` |  | <ul><li>Segmentierter Zyklus</li><li>Sechskant Radial</li></ul> |
+| `Hierarchy` |  | <ul><li>Tabellenhierarchie</li><li>Architektur-Layout</li></ul> |
+| `Relationship` | <ul><li>Gleichgewicht</li><li>Trichter</li><li>Getriebe</li><li>Plus und Minus</li><li>Pfeilband</li><li>Gegengewichtspfeile</li><li>Gegnerische Pfeile</li><li>Verschachteltes Ziel</li><li>Grundlegendes Ziel</li><li>Einfach Pie</li><li>Basisches Venn</li><li>Gestapeltes Venn</li><li>Miteinander verbundener Ring</li></ul> | <ul><li>Kreisbeziehung</li><li>Gegensätzliche Ideen</li><li>Gleichung</li><li>Vertikale Gleichung</li><li>Lineares Venn</li></ul> |
+| `Matrix` | <ul><li>Grundmatrix</li><li>Betitelte Matrix</li><li>Gittermatrix</li><li>Zyklusmatrix</li></ul> |  |
+| `Pyramid` |  | <ul><li>Segmentierte Pyramide</li></ul> |
 
 ## Vergleich von SmartArt Rendering in Aspose.Words und Microsoft
 
-Die folgende Tabelle zeigt Beispielbilder von Aspose.Words kalt Rendering einiger Standard-Layouts im Vergleich zu Microsoft Word Ausgabe:
+Die folgende Tabelle zeigt Beispielbilder von Aspose.Words Kaltrendern einiger Standardlayouts im Vergleich zur Microsoft Word -Ausgabe:
 
-|                                 |   **Aspose.Words**                                              |   **Microsoft Word**                                            |
-|  -----------------------------  |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|   **Basic Process**              |   <img src="/words/java/working-with-smartart-cold-rendering/basic-process-aspose.png" alt="basic_process_aspose"/>  |   <img src="/words/java/working-with-smartart-cold-rendering/basic-process-word.png" alt="basic_process_word"/>  |
-|   **Circular Bending Process**   |   <img src="/words/java/working-with-smartart-cold-rendering/circular-bending-process-aspose.png" alt="circular_bending_process_aspose"/>  |   <img src="/words/java/working-with-smartart-cold-rendering/circular-bending-process-word.png" alt="circular_bending_process_word"/>  |
-|   **Repeating Bending Process**  |   <img src="/words/java/working-with-smartart-cold-rendering/repearing-bending-process-aspose.png" alt="repearing_bending_process_aspose"/>  |   <img src="/words/java/working-with-smartart-cold-rendering/repearing-bending-process-word.png" alt="repearing_bending_process_word"/>  |
-|   **Trapezoid List**             |   <img src="/words/java/working-with-smartart-cold-rendering/trapezoid-list-aspose.png" alt="trapezoid_list_aspose"/>  |   <img src="/words/java/working-with-smartart-cold-rendering/trapezoid-list-word.png" alt="trapezoid_list_word"/>  |
+|  | **Aspose.Words** | **Microsoft Word** |
+| ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Basic Process** | <img src="/words/java/working-with-smartart-cold-rendering/basic-process-aspose.png" alt="basic_process_aspose"/> | <img src="/words/java/working-with-smartart-cold-rendering/basic-process-word.png" alt="basic_process_word"/> |
+| **Circular Bending Process** | <img src="/words/java/working-with-smartart-cold-rendering/circular-bending-process-aspose.png" alt="circular_bending_process_aspose"/> | <img src="/words/java/working-with-smartart-cold-rendering/circular-bending-process-word.png" alt="circular_bending_process_word"/> |
+| **Repeating Bending Process** | <img src="/words/java/working-with-smartart-cold-rendering/repearing-bending-process-aspose.png" alt="repearing_bending_process_aspose"/> | <img src="/words/java/working-with-smartart-cold-rendering/repearing-bending-process-word.png" alt="repearing_bending_process_word"/> |
+| **Trapezoid List** | <img src="/words/java/working-with-smartart-cold-rendering/trapezoid-list-aspose.png" alt="trapezoid_list_aspose"/> | <img src="/words/java/working-with-smartart-cold-rendering/trapezoid-list-word.png" alt="trapezoid_list_word"/> |

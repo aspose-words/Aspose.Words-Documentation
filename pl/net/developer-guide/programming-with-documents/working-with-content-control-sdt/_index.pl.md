@@ -7,6 +7,7 @@ description: "Zaawansowane zarządzanie treścią dokumentów, jak tworzyć i ma
 type: docs
 weight: 390
 url: /pl/net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 W Microsoft Word możesz utworzyć formularz, zaczynając od szablonu i dodając elementy sterujące zawartością, w tym pola wyboru, pola tekstowe, selektory dat i listy rozwijane. W formacie Aspose.Words znacznik dokumentu strukturalnego lub kontrola zawartości z dowolnego dokumentu załadowanego do Aspose.Words jest importowana jako węzeł StructuredDocumentTag. Ustrukturyzowane znaczniki dokumentów (SDT lub kontrola treści) pozwalają na osadzenie w dokumencie semantyki zdefiniowanej przez klienta, a także jego zachowania i wyglądu.

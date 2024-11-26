@@ -1,4 +1,4 @@
-﻿---
+---
 title: 使用C++中的字体
 second_title: Aspose.Words对于C++
 articleTitle: 使用字体
@@ -7,6 +7,7 @@ description: "使用C++详细设置字体格式。"
 type: docs
 weight: 230
 url: /zh/cpp/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 字体是一组具有一定大小、颜色和设计的字符。 Aspose.Words允许您使用[Fonts](https://reference.aspose.com/words/cpp/aspose.words.fonts/)命名空间和[Font](https://reference.aspose.com/words/cpp/aspose.words/font/)类处理字体。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++で文書を保護または暗号化する
 second_title: C++の場合Aspose.Words
 articleTitle: 文書の保護または暗号化
@@ -7,6 +7,7 @@ description: "C++の場合Aspose.Words 読み取り専用、文書の暗号化�
 type: docs
 weight: 50
 url: /ja/cpp/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 文書を保護または暗号化する主な理由は、誰が文書にアクセスできるか、誰が編集できるかをより詳細に制御することです。 文書に保護を適用すると、許可なしに文書をコピーまたは変更したり、データ漏洩などの一般的なリスクを回避できます。

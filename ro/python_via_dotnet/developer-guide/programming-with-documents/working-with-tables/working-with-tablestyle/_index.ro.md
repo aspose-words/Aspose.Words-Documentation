@@ -1,4 +1,4 @@
-﻿---
+---
 title: Schimbați stilul tabelului în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Aplicați Stilul Tabelului
@@ -7,6 +7,7 @@ description: "Formatare avansată a tabelului C#. Creați un stil de tabel folos
 type: docs
 weight: 80
 url: /ro/python-net/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un stil de tabel definește un set de formatare care poate fi aplicat cu ușurință unui tabel. Formatarea, cum ar fi marginile, umbrirea, alinierea și fontul, poate fi setată într-un stil de tabel și aplicată la multe tabele pentru un aspect consistent.

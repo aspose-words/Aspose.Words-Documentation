@@ -7,6 +7,7 @@ description: "Hoe tabelcellen samenvoegen in C#. Controleer of cellen in een tab
 type: docs
 weight: 40
 url: /nl/net/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Soms vereisen bepaalde rijen in een tabel een kop of grote blokken tekst die de volledige breedte van de tabel innemen. Voor het juiste ontwerp van de tabel, kan de gebruiker meerdere tabelcellen in één samenvoegen. Aspose.Words ondersteunt samengevoegde cellen bij het werken met alle invoerformaten, waaronder het importeren van HTML-inhoud.

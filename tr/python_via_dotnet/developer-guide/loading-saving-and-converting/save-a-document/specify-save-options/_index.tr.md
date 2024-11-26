@@ -7,6 +7,7 @@ description: "Python'i kullanarak kaydetme işlemini daha doğru bir şekilde ko
 type: docs
 weight: 10
 url: /tr/python-net/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir belgeyi kaydederken bazı gelişmiş özellikleri ayarlayabilirsiniz. Aspose.Words size kaydetme sürecinin daha hassas kontrolüne olanak tanıyan [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) sınıfını sağlar. Bir [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) nesnesini kabul eden [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) yönteminde aşırı yüklemeler vardır; bu, [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) sınıfından türetilmiş bir sınıfın nesnesi olmalıdır. Her kaydetme biçiminin, bu kaydetme biçimi için kaydetme seçeneklerini içeren karşılık gelen bir sınıfı vardır; örneğin, PDF biçiminde kaydetmek için [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) veya bir görüntüye kaydetmek için [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/) vardır. Bu makale, [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/)'den türetilen bazı seçenek sınıflarıyla çalışma örnekleri sağlar.

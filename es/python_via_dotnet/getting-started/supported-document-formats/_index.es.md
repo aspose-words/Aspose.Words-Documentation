@@ -7,6 +7,7 @@ type: docs
 description: "Edite documentos fuente en muchos formatos populares, así como también convierta archivos libremente de un formato a otro usando Python."
 weight: 20
 url: /es/python-net/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

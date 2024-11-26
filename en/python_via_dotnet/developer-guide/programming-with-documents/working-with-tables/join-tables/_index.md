@@ -10,6 +10,7 @@ url: /python-net/join-tables/
 aliases: 
 - /python/joining-and-splitting-tables/
 - /python-net/joining-and-splitting-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A table, represented in the Aspose.Words Document Object Model, is made up of independent rows and cells, making it easy to join tables.

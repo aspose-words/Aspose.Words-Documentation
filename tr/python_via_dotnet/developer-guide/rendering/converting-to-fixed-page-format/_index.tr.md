@@ -7,6 +7,7 @@ description: "Python kullanarak belgeleri PDF, XPS, HTML, XAML, PostScript ve PC
 type: docs
 weight: 10
 url: /tr/python-net/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words kendi sayfa düzeni motorunu uygular. Spesifikasyonlarına girmeden önce, belgeyi yüksek düzeyde tartışmak faydalı olacaktır. Kullanıcılar bir belge hakkında düşünürken genellikle kelimeler, resimler, tablolar ve grafikler içeren bir dizi kağıt hayal ederler. Belgeler metin, elektronik tablolar, slaytlar, CAD çizimleri, akış şemaları gibi çeşitli türlerde olabilir ve bu nedenle esasen farklı düzenlere sahip olabilir. Çoğu uygulama belgelerin yazıcıya gönderilmesine izin verir; bu, kullanıcının belgenin amaçlanan son görünümünü gerçekten görüntüleyebildiği zamandır.

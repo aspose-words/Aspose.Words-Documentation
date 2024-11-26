@@ -7,6 +7,7 @@ type: docs
 description: "`Document` 클래스는 C#를 사용하여 다양한 문서 속성과 메서드를 제공합니다. .NET용 Aspose.Words을 사용하여 수행하려는 모든 작업의 시작점으로 `Document` 클래스를 사용합니다. `Document` 객체는 파일이나 스트림에 저장될 수 있으며 브라우저로 전송될 수도 있습니다."
 weight: 40
 url: /ko/net/working-with-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 [Document](https://reference.aspose.com/words/net/aspose.words/document/) 클래스는 Aspose.Words의 핵심입니다. 문서를 표현하며, 문서 저장, 보호 등 다양한 문서 속성과 방법을 제공합니다. Aspose.Words로 수행하려는 모든 작업의 시작점으로 **Document** 클래스를 사용합니다. 처음부터 새 문서 만들기, mail merge용 템플릿 열기, 문서에서 다른 부분 가져오기 등이 가능합니다.

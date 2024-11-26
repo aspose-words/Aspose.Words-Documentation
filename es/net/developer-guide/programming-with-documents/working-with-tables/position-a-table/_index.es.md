@@ -7,6 +7,7 @@ description: "Especifique la posición de la tabla en C#. Obtenga una alineació
 type: docs
 weight: 50
 url: /es/net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hay tablas flotantes y tablas en línea:

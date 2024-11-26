@@ -7,6 +7,7 @@ description: "Você pode acessar a modificação de campo usando Python. Os camp
 type: docs
 weight: 10
 url: /pt/python-net/fields-overview/
+timestamp: 2024-10-21-11-17-44
 ---
 
 
@@ -190,9 +191,9 @@ Aspose.Words suporta todas as opções de formatação de data e hora disponíve
 
 #### Campos Mail Merge
 
-Aspose.Words não impõe limites à complexidade dos campos mail merge em seus documentos e oferece suporte a campos `IF` e de fórmula aninhados e pode até calcular o nome do campo de mesclagem usando uma fórmula.
+Aspose.Words não impõe limites à complexidade dos campos Mail Merge em seus documentos e oferece suporte a campos `IF` e de fórmula aninhados e pode até calcular o nome do campo de mesclagem usando uma fórmula.
 
-Alguns exemplos de campos mail merge compatíveis com Aspose.Words:
+Alguns exemplos de campos Mail Merge compatíveis com Aspose.Words:
 
 - Alternadores de campo Mail merge:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -236,7 +237,7 @@ Usar a cultura atual para formatar campos permite que um sistema controle de for
 
 Por outro lado, o Microsoft Word formata cada campo individual com base no idioma do texto encontrado no campo (especificamente, as execuções do código do campo). Às vezes, durante a atualização do campo, esse pode ser o comportamento desejado, por exemplo, se você tiver documentos globalizados contendo conteúdo composto de vários idiomas diferentes e quiser que cada campo respeite a localidade usada no texto. Aspose.Words também oferece suporte a essa funcionalidade.
 
-A classe [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) fornece uma propriedade [field_options](https://reference.aspose.com/words/python-net/aspose.words/document/field_options/) que contém membros que podem ser usados para controlar como os campos são atualizados no documento. O exemplo abaixo mostra como especificar onde a cultura usada para formatação de data durante a atualização de campo e mail merge é escolhida.
+A classe [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) fornece uma propriedade [field_options](https://reference.aspose.com/words/python-net/aspose.words/document/field_options/) que contém membros que podem ser usados para controlar como os campos são atualizados no documento. O exemplo abaixo mostra como especificar onde a cultura usada para formatação de data durante a atualização de campo e Mail Merge é escolhida.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-ChangeFieldUpdateCultureSource.py" >}}
 

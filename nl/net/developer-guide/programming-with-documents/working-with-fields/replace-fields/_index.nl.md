@@ -7,6 +7,7 @@ description: "Leer hoe velden vervangen door tekst in C#. Velden vervangen door 
 type: docs
 weight: 37
 url: /nl/net/replace-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Velden vervangen is vaak vereist als u uw document als statische kopie wilt opslaan. Bijvoorbeeld bij het verzenden als bijlage in een e-mail. Omzetten van velden zoals `DATE` of `TIME` de statische tekst geeft het document dezelfde datum weer als toen het werd verzonden. Ook, in sommige situaties, kunt u nodig hebben om de voorwaardelijke verwijderen `IF` velden uit uw document en vervang ze door het meest recente tekstresultaat. Bijvoorbeeld, het omzetten van het resultaat van de `IF` veld naar statische tekst zodat het niet langer dynamisch verandert wanneer de velden in het document worden bijgewerkt.

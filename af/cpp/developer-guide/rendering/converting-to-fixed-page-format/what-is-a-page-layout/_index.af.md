@@ -1,4 +1,4 @@
-﻿---
+---
 title: Wat Is'n Bladsy Uitleg in C++
 second_title: Aspose.Words vir C++
 articleTitle: Wat is'n Bladsy Uitleg
@@ -7,6 +7,7 @@ description: "Kom ons vind uit wat'n bladsy uitleg is. 'n bladsy-uitleg beskryf 
 type: docs
 weight: 5
 url: /af/cpp/what-is-a-page-layout/
+timestamp: 2024-09-24-14-35-44
 ---
 
 A **document page layout** is'n data struktuur, wat beskryf waar'n bepaalde voorwerp is geleë op bladsye vir alle dokument voorwerpe. Daarbenewens, aangesien voorwerpe eienskappe het wat hul voorkoms beïnvloed, soos lettergrootte, skadu-of tekeneffekte, moet jy nie net weet waar die voorwerp is nie, maar ook watter area (s) van die bladsy dit beslaan, en of dit op verskeie bladsye van toepassing sal wees sodat ander voorwerpe nie dieselfde area (s) oorvleuel nie.

@@ -7,6 +7,7 @@ description: "Aspose.Words untuk .NET dapat membantu Anda tentang cara mengkonve
 type: docs
 weight: 20
 url: /id/net/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sebagian besar properti objek yang disediakan di Aspose.Words API yang mewakili beberapa pengukuran, seperti lebar atau tinggi, margin, dan berbagai jarak, menerima nilai dalam poin, di mana 1 inci sama dengan 72 poin. Terkadang hal ini tidak nyaman dan poin perlu dikonversi ke unit lain.

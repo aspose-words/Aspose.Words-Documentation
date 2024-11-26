@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki Alanlarla Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Alanlarla Çalışma
@@ -7,6 +7,7 @@ description: "Alan özelliğine giriş Aspose.Words için C++."
 type: docs
 weight: 370
 url: /tr/cpp/working-with-fields/
+timestamp: 2024-01-30-16-22-34
 ---
 
 **Alanlar**

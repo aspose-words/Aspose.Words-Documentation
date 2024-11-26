@@ -1,4 +1,4 @@
-﻿---
+---
 title: نمای کلی محصول
 second_title: Aspose.Words برای C++
 articleTitle: نمای کلی محصول
@@ -7,6 +7,7 @@ description: "Aspose.Words برای C++ یک کتابخانه نرم افزار�
 type: docs
 weight: 5
 url: /fa/cpp/product-overview/
+timestamp: 2024-06-05-14-43-57
 ---
 
 <img src="product-overview_1" alt="aspose-words-product_cpp" align="left" style="width:64px; margin: 0 30px 30px 0"/>

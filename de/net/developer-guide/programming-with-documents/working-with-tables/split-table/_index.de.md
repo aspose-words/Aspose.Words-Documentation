@@ -7,6 +7,7 @@ description: "Geteilte Tabelle in C#. So teilen Sie eine Tabelle in zwei separat
 type: docs
 weight: 100
 url: /de/net/split-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Eine im Aspose.Words Document Object Model dargestellte Tabelle besteht aus unabhängigen Zeilen und Zellen, sodass eine Tabelle leicht geteilt werden kann.

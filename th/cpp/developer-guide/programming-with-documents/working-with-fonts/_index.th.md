@@ -1,4 +1,4 @@
-﻿---
+---
 title: การทำงานกับแบบอักษรในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: การทำงานกับแบบอักษร
@@ -7,6 +7,7 @@ description: "การจัดรูปแบบแบบอักษรใน
 type: docs
 weight: 230
 url: /th/cpp/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 แบบอักษรคือชุดของอักขระที่มีขนาดสีและการออกแบบบางอย่าง Aspose.Wordsช่วยให้คุณสามารถทำงานกับแบบอักษรโดยใช้เนมสเปซ[Fonts](https://reference.aspose.com/words/cpp/aspose.words.fonts/)และ[Font](https://reference.aspose.com/words/cpp/aspose.words/font/)คลาส.

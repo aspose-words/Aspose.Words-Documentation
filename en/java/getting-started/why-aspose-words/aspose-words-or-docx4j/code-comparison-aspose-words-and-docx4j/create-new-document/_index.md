@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create New Document
 second_title: Aspose.Words for Java
 articleTitle: Create New Document
@@ -7,6 +7,7 @@ description: "Create a new document easily and fast instead of using docx4j."
 type: docs
 weight: 50
 url: /java/create-new-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Create New Document

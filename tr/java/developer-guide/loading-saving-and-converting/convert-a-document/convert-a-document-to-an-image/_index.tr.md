@@ -7,6 +7,7 @@ type: docs
 description: "Bir belgeyi resim formatına (JPG, PNG vb.) dönüştürün`. `Belge önizlemesi oluşturun veya bir fatura göndermek için belge taraması oluşturmak Java kullanarak yapın."
 weight: 35
 url: /tr/java/convert-a-document-to-an-image/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bazen bir belge yerine diğer formatlarda, örneğin DOCX ya da PDF gibi bir resim almak gerekir. Örneğin herhangi bir belgeden bir önizleme eklemeniz gerekiyor sitenize ya da uygulamanıza ya da bir belgeyi taramak için bir fatura göndermek istiyorsunuz. O zaman bir belgeyi herhangi bir [supported load format](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) ile bir resim, tekrar herhangi bir [supported save format](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) olarak dönüştürmeniz gerekebilir.

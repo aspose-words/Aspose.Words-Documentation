@@ -1,4 +1,4 @@
-﻿---
+---
 title: Extrageți Conținutul Între Nodurile Documentului
 second_title: Aspose.Words pentru Python
 articleTitle: Extrageți conținutul între nodurile dintr-un Document
@@ -7,6 +7,7 @@ description: "Cum să extrageți conținut specific dintr-un interval din docume
 type: docs
 weight: 140
 url: /ro/python-net/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Când lucrați cu documente, este important să puteți extrage cu ușurință conținut dintr-un anumit interval dintr-un document. Cu toate acestea, conținutul poate consta din elemente complexe, cum ar fi paragrafe, tabele, imagini etc.

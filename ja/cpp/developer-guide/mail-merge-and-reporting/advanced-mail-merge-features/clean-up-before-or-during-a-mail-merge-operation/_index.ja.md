@@ -1,13 +1,14 @@
-﻿---
+---
 title: Mail Merge操作の前または中にクリーンアップします
 second_title: Aspose.WordsのためのC++
 articleTitle: Mail Merge操作の前または中にクリーンアップします
 linktitle: Mail Merge操作の前または中にクリーンアップします
 type: docs
 description: "Mail merge操作を実行する前に差し込み項目を削除したり、mail merge操作中に使用されていない領域を削除したりするなど、さまざまなクリーニングおよび削除オプ"
-keywords: "cleanup options mail merge c#"
+keywords: "cleanup options Mail Merge c#"
 weight: 10
 url: /ja/cpp/clean-up-before-or-during-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Wordsを使用すると、mail merge操作を実行する前に差し込み項目を削除したり、mail merge操作中に使用されていない領域を削除したりするなど、さまざまなクリーニングと削除のオプションを適用できます。 このセクションでは、マージされたフィールドを削除する方法と、削除オプションを設定する方法について説明します。

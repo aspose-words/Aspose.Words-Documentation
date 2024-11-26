@@ -7,6 +7,7 @@ description: "Szczegółowe informacje dotyczące tabeli treści. Jak tworzyć i
 type: docs
 weight: 170
 url: /pl/java/working-with-table-of-contents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Często będziesz pracował z dokumentami zawierającymi tabelę treści (TOC). Stosowanie Aspose.Words można umieścić własną tabelę treści lub całkowicie odbudować istniejącą tabelę treści w dokumencie za pomocą kilku linii kodu.
@@ -60,7 +61,7 @@ Poniższy przykład kodu pokazuje, jak całkowicie odbudować `TOC` pola w dokum
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-UpdateTableOfContents.java" >}}
 
-Pierwsze wezwanie do [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) będzie budować <span notrans="<span notrans=" `TOC`"=""></span>", > wszystkie wpisy tekstowe są zaludnione i `TOC` wydaje się prawie kompletny. Brakuje tylko numerów stron, które na razie są wyświetlane z "?".
+Pierwsze wezwanie do [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) będzie budować `TOC`", > wszystkie wpisy tekstowe są zaludnione i `TOC` wydaje się prawie kompletny. Brakuje tylko numerów stron, które na razie są wyświetlane z "?".
 
 Drugie wezwanie do [Document.updatePageLayout()](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout) będzie budować układ dokumentu w pamięci. Należy to zrobić, aby zebrać numery stron wpisów. Prawidłowe numery stron obliczone na podstawie tego wezwania są następnie wstawiane do TOC.
 
@@ -124,7 +125,7 @@ Jeśli przełącznik nie jest tutaj wymieniony, to jest on obecnie nieobsługiwa
 
 <p>![table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-6.png)</p>
 
-<p><br/><br/>W `TC` pola mogą również mieć {several, `multiple`, a few, `many`, numerous} Zestaw przełączników. Są to:</p>
+<p><br/><br/>W `TC` pola mogą również mieć `{several, multiple, a few, many, numerous}` Zestaw przełączników. Są to:</p>
 
 <p>Wyjaśnione powyżej. *</p>
 

@@ -7,6 +7,7 @@ description: "Grouping và tách nhóm các hình dạng bằng C#."
 type: docs
 weight: 290
 url: /vi/net/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi bạn cần thêm group shape vào tài liệu Word. group shape như vậy bao gồm nhiều hình dạng.

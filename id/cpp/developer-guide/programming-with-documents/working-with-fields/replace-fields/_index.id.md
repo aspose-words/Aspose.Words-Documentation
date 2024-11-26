@@ -1,4 +1,4 @@
-﻿---
+---
 title: Ganti Bidang C++
 second_title: Aspose.Words untuk C++
 articleTitle: Ganti Bidang dengan Teks Statis
@@ -7,6 +7,7 @@ description: "Pelajari cara mengganti bidang dengan teks di C++. Ganti bidang de
 type: docs
 weight: 37
 url: /id/cpp/replace-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Mengganti bidang sering kali diperlukan saat Anda ingin menyimpan dokumen sebagai salinan statis. Misalnya, saat mengirim sebagai lampiran dalam email. Mengonversi bidang seperti `DATE` atau `TIME` menjadi teks statis akan memungkinkan dokumen menampilkan tanggal yang sama seperti saat dikirim. Selain itu, dalam beberapa situasi, Anda mungkin perlu menghapus bidang `IF` bersyarat dari dokumen Anda dan menggantinya dengan hasil teks terbaru. Misalnya, mengonversi hasil bidang `IF` menjadi teks statis sehingga tidak akan lagi mengubah nilainya secara dinamis saat bidang dalam dokumen diperbarui.

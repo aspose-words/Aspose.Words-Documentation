@@ -7,6 +7,7 @@ description: "Làm cho tài liệu của bạn chỉ đọc để nội dung có
 type: docs
 weight: 10
 url: /vi/java/open-a-document-read-only/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi bạn có thể có một tài liệu cần được xem lại nhưng bạn không muốn người xem sửa đổi nội dung của bạn ngẫu nhiên. Aspose.Words cho phép bạn đặt quyền đọc tài liệu của bạn chỉ để nội dung có thể sao chép hoặc đọc, nhưng không thể thay đổi. Điều này sẽ ngăn nội dung bị xóa hoặc thêm vào tài liệu của bạn.

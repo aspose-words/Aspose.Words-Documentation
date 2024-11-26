@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataSet Element
 second_title: Aspose.Words for SharePoint
 articleTitle: DataSet Element
@@ -7,6 +7,7 @@ description: "DataSet element meaning and structure which may be used while conf
 type: docs
 weight: 40
 url: /sharepoint/dataset-element/
+timestamp: 2024-10-21-11-17-44
 ---
 
 The DataSet element contains information about a connection to a data source and queries to get the data for the report from this data source. You describe data source connection properties inside [DataSource](/words/sharepoint/datasource-element/) element. Alternatively, you can store data source connection description in a separate XML file on the same SharePoint farm. This way you can share the data source connection description between many reports, and update it only once when needed. The DataSourceFileUrl element points to the data source description file. The schema of a separate data source description is a subset of the report definition schema with the DataSource element at the root level. The data source definition schema file (**DataSource.xsd**) is included in the installation package for you reference.

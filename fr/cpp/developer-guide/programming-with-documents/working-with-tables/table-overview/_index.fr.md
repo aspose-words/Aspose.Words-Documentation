@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aperçu du Tableau
 second_title: Aspose.Words pour C++
 articleTitle: Aperçu du Tableau
@@ -7,6 +7,7 @@ description: "Travaillez avec des tableaux et leurs composants tels que des cell
 type: docs
 weight: 10
 url: /fr/cpp/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words est une bibliothèque de classes conçue pour le traitement côté serveur de documents dans divers formats - PDF, HTML, différents formats Microsoft Word et autres - et prend en charge les tableaux des manières suivantes:

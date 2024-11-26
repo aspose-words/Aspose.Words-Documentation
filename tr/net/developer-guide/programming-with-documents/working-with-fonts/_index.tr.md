@@ -7,6 +7,7 @@ description: "C# kullanarak ayrıntılı yazı tipi biçimlendirmesi. C#'te vurg
 type: docs
 weight: 230
 url: /tr/net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Yazı tipi, belirli bir boyuta, renge ve tasarıma sahip bir karakter kümesidir. Aspose.Words, [Fonts](https://reference.aspose.com/words/tr/net/aspose.words.fonts/) ad alanını ve [Font](https://reference.aspose.com/words/tr/net/aspose.words/font/) sınıfını kullanarak yazı tipleriyle çalışmanıza olanak tanır.

@@ -7,6 +7,7 @@ description: "Extrair o conteúdo do documento de diferentes maneiras usando C#.
 type: docs
 weight: 140
 url: /pt/net/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ao trabalhar com documentos, é importante poder extrair facilmente o conteúdo de um intervalo específico de um documento. No entanto, o conteúdo pode consistir em elementos complexos, como parágrafos, tabelas, imagens, etc.

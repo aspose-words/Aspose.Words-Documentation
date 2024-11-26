@@ -7,6 +7,7 @@ description: "Alanlar özellik ayrıntıları, alan kodları ve alan sonuçları
 type: docs
 weight: 10
 url: /tr/java/introduction-to-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words sunucu tarafı işleme için tasarlanmış bir sınıf kütüphanesidir Microsoft Word belgeleri ve alanları aşağıdaki gibi destekler:
@@ -173,9 +174,9 @@ Aspose.Words tüm tarih ve saat biçimlendirme anahtarları Microsoft Word'te me
 
 ### Mail Merge alan(lar)
 
-Aspose.Words belgenizdeki mail merge alanlarının karmaşıklığı üzerinde hiçbir sınır koymaz ve iç içe geçmiş `IF` ve formül alanları destekler ve hatta bir formül kullanarak birleştirme alanı adını hesaplayabilir.
+Aspose.Words belgenizdeki Mail Merge alanlarının karmaşıklığı üzerinde hiçbir sınır koymaz ve iç içe geçmiş `IF` ve formül alanları destekler ve hatta bir formül kullanarak birleştirme alanı adını hesaplayabilir.
 
-Aşağıda mail merge alanlarının bazı örnekleri Aspose.Words destekler:
+Aşağıda Mail Merge alanlarının bazı örnekleri Aspose.Words destekler:
 
 - Mail merge alan anahtarları:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -201,7 +202,7 @@ Bir belge içindeki bir alan sonuç elde değerinin nasıl biçimlendirileceğin
 
 ### Date ve Alanlarda Sayı Biçimlendirme
 
-Bir alan sonucunu hesaplarken bir Aspose.Words genellikle bir dizeyi bir sayı veya tarih değerine dönüştürmek ve ayrıca onu tekrar bir dizeye biçimlendirmek için ihtiyaç duyar. Varsayılan olarak Aspose.Words alan güncelleme sırasında ve mail merge alan değerlerini hesaplarken geçerli iş parçacığı kültürünü kullanarak ayrıştırma ve biçimlendirme gerçekleştirir. Ayrıca [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions/) sınıfı kullanılarak, hangi kültürün kullanıldığına ilişkin daha fazla kontrol sağlanır
+Bir alan sonucunu hesaplarken bir Aspose.Words genellikle bir dizeyi bir sayı veya tarih değerine dönüştürmek ve ayrıca onu tekrar bir dizeye biçimlendirmek için ihtiyaç duyar. Varsayılan olarak Aspose.Words alan güncelleme sırasında ve Mail Merge alan değerlerini hesaplarken geçerli iş parçacığı kültürünü kullanarak ayrıştırma ve biçimlendirme gerçekleştirir. Ayrıca [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions/) sınıfı kullanılarak, hangi kültürün kullanıldığına ilişkin daha fazla kontrol sağlanır
 
 varsayılan olarak [FieldUpdateCultureSource](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions/#getFieldUpdateCultureSource) özelliği şu anda kullanılan iş parçacığı kültürü ile alanları biçimlendirerek [CurrentThread](https://reference.aspose.com/words/java/com.aspose.words/fieldupdateculturesource/#CURRENT-THREAD)'e ayarlanır
 Bu özellik [FieldCode](https://reference.aspose.com/words/java/com.aspose.words/fieldupdateculturesource/#FIELD-CODE)'e ayarlanabilir böylece alanın alan kodundan alınan dil, biçimlendirme için kullanılır
@@ -222,6 +223,6 @@ Geçerli kültürü alanları biçimlendirmek için kullanmak, bir sistemin tüm
 
 Sınıf, [Document](https://reference.aspose.com/words/java/com.aspose.words/document/), bir [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/document/#getFieldOptions) özelliği sağlar, bu üyeler bir belge içinde alanlar nasıl güncellenir kontrol etmek için kullanılabilir.
 
-Aşağıdaki kod örneği, alan güncelleme sırasında tarih biçimlendirmesi için kullanılan kültürü belirtmek ve mail merge seçmek için nasıl kullanılacağını göstermektedir:
+Aşağıdaki kod örneği, alan güncelleme sırasında tarih biçimlendirmesi için kullanılan kültürü belirtmek ve Mail Merge seçmek için nasıl kullanılacağını göstermektedir:
 
 ORNEK

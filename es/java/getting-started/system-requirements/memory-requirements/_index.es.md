@@ -1,50 +1,51 @@
----
-title: Requisitos de memoria
-second_title: Aspose.Words para Java
-articleTitle: Requisitos de memoria
-linktitle: Requisitos de memoria
-description: "Cuánto recuerdo hace Aspose.Words para Java ¿necesita trabajar con documentos? Aprenda los detalles."
+﻿---
+title: Requisitos de Memoria
+second_title: Aspose.Words por Java
+articleTitle: Requisitos de Memoria
+linktitle: Requisitos de Memoria
+description: "¿Cuánta memoria requiere Aspose.Words para Java para trabajar con documentos? Aprende los detalles."
 type: docs
 weight: 10
 url: /es/java/memory-requirements/
+timestamp: 2024-09-25-11-08-55
 ---
 
-Aspose.Words proporciona una amplia gama de características para trabajar con documentos en diversos formatos. Es importante señalar que no hay límite en el tamaño máximo de un archivo de documento que Aspose.Words puede procesar o renderizar. La única limitación es la cantidad de RAM (memoria) disponible en su lado.
+Aspose.Words proporciona una amplia gama de funciones para trabajar con documentos en varios formatos. Es importante tener en cuenta que no hay límite en el tamaño máximo de un archivo de documento que Aspose.Words puede procesar o procesar. La única limitación es la cantidad de RAM (memoria) disponible de su lado.
 
-## Cuanta memoria Aspose.Words Necesidades
+## Cuánta Memoria Necesita Aspose.Words
 
-Por lo general Aspose.Words necesita varias veces más memoria que el tamaño del documento para construir un modelo del documento en memoria. Por ejemplo, si su tamaño de documento es de 1 MB, Aspose.Words necesita 10-20 MB de RAM para construir su Document Object Model (G)DOM) en memoria. El multiplicador depende del formato porque algunos formatos son más compactos que otros. Por ejemplo, DOCX es más compacto que DOC y RTF, y DOC es más compacto que RTF.
+Por lo general, Aspose.Words necesita varias veces más memoria que el tamaño del documento para crear un modelo del documento en la memoria. Por ejemplo, si el tamaño de su documento es 1 MB, Aspose.Words necesita 10-20 MB de RAM para construir su Modelo de Objetos de documento (DOM) en la memoria. El multiplicador depende del formato porque algunos formatos son más compactos que otros. Por ejemplo, DOCX es más compacto que DOC y RTF, y DOC es más compacto que RTF.
 
-No hay manera exacta de estimar cuánto memoria Aspose.Words consume realmente durante el procesamiento de cualquier archivo de documento en particular. Como usted puede saber Java almacena datos en clases, cada instancia de clase utiliza memoria para JVM (G)Java máquina virtual) propósitos internos. Así que cualquier párrafo o texto formateado (incluso consiste en un personaje) toma un poco de memoria extra después de cargar en el DOM. Moreover, the Java El motor de recogida de basura utiliza un algoritmo complejo para determinar el mejor momento para realizar una colección de memoria, lo que hace difícil determinar el consumo de memoria real.
+No hay una forma exacta de estimar cuánta memoria Aspose.Words consume realmente durante el procesamiento de un archivo de documento en particular. Como sabrá, Java almacena datos en clases, cada instancia de clase usa algo de memoria para fines internos de JVM (Java máquina virtual). Por lo tanto, cualquier párrafo o texto formateado (incluso si consta de un carácter) requiere memoria adicional después de cargarlo en DOM. Además, el motor del recolector de basura Java utiliza un algoritmo complejo para determinar el mejor momento para realizar una recolección de memoria, lo que dificulta determinar el consumo real de memoria.
 
-## Cómo calcular la cantidad de memoria
+## Cómo Calcular la Cantidad de Memoria
 
 Consideremos dos documentos:
 
-1. DOCX "A" documento – 0,35 MB tamaño (2 mil páginas), texto solamente
-2. DOCX "B" documento – 0.35 MB tamaño (sólo 1 página), con imagen PNG dentro
+1. DOCX "A" documento - 0.35 MB tamaño (2 mil páginas), solo texto
+2. DOCX "B" documento - 0.35 MB tamaño (solo 1 página), con PNG imagen dentro
 
-Como usted sabe, muchos formatos modernos como DOCX, ODT, etc. son simples archivos ZIP. Así que tenemos el siguiente algoritmo de cálculo:
-1. Unzipping. Unzipped document "A" tiene 20 MB tamaño, documento "B" tiene 0,4 MB tamaño
-2. Cargar el documento en el modelo (construir su Document Object Model – DOM):
-* Creando DOM del primer documento "A" requiere 49 MB de tamaño
-* Creando DOM del segundo documento "B" requiere sólo 2 MB de tamaño.
-3. Medir la cantidad necesaria de memoria para enviar estos documentos a PDF. Para esta operación, Aspose.Words requiere:
-  * 294 MB para el documento "A"
+Como sabes, muchos formatos modernos como DOCX, ODT, etc. son simples ZIP archivos. Entonces, obtenemos el siguiente algoritmo de cálculo:
+1. Descomprimir. El documento descomprimido "A" tiene un tamaño de 20 MB, el documento "B" tiene un tamaño de 0.4 MB
+2. Cargando el documento en el modelo – construyendo su Modelo de Objetos de documento - DOM):
+* Crear DOM del primer documento "A" requiere un tamaño de 49 MB
+* Crear DOM del segundo documento "B" requiere solo 2 MB de tamaño.
+3. Midiendo la cantidad de memoria requerida para procesar estos documentos a PDF. Para esta operación, Aspose.Words requiere:
+  *  294 MB para el documento "A"
   * 7 MB para el documento "B"
 
-Así que, como puede ver, no hay dependencia lineal del tamaño del documento de entrada. Hay muchos factores que pueden afectar el tamaño de RAM requerido – el formato de documento, su complejidad y estructura, el número de imágenes y su formato, y muchos otros factores.
+Entonces, como puede ver, no hay dependencia lineal en el tamaño del documento de entrada. Hay muchos factores que pueden afectar el tamaño RAM requerido: el formato del documento, su complejidad y estructura, la cantidad de imágenes y su formato, y muchos otros factores.
 
-## Cómo calcular el multiplicador de memoria de manera precisa
+## Cómo Calcular el Multiplicador de Memoria Con Mayor Precisión
 
-Experimentos con miles de documentos reales muestra que típicamente Aspose.Words requiere varias veces más memoria que el tamaño medio de documento para construir un modelo de documento en memoria y realizar operaciones simples como la conversión entre formatos de flujo, mail merge, Parse, reemplazar, etc. A veces estamos hablando de un multiplicador de 2, y a veces 20.
+Los experimentos con miles de documentos reales muestran que, por lo general, Aspose.Words requiere varias veces más memoria que el tamaño promedio del documento para crear un modelo de documento en la memoria y realizar operaciones simples como conversión entre formatos de flujo, mail merge, analizar, reemplazar, etc. A veces estamos hablando de un multiplicador de 2 y, a veces, de 20.
 
-Operaciones más complejas como renderizar (convertir a formatos de página fijos), actualizar campos, página de división y otros, para algunos documentos requieren 20 veces más recursos que la memoria asignada por el documento cargado en Aspose.Words DOM.
+Operaciones más complejas como renderizar (convertir a formatos de página fijos), actualizar campos, dividir páginas y otras, para algunos documentos requieren 20 veces más recursos que la memoria asignada por el documento cargado en Aspose.Words DOM.
 
-Si los resultados de su perfil indican un posible problema de memoria en Aspose.Words, por favor contacte con nosotros [Technical Support](/words/es/java/technical-support/) e incluir toda la información de diagnóstico.
+Si los resultados de su perfil indican un posible problema de memoria en Aspose.Words, comuníquese con nuestro [Equipo de Soporte](/words/java/technical-support/) e incluya toda la información de diagnóstico.
 
-## Vea también
+## Véase También
 
-* [Rendering](/words/es/java/rendering/)
-* [Mail Merge and Reporting](/words/java/mail-merge-and-reporting/)
-* [Working with Fields](/words/es/java/working-with-fields/)
+* [Renderizado](/words/java/rendering/)
+* [Mail Merge y Presentación de Informes](/words/java/mail-merge-and-reporting/)
+* [Trabajar con Campos](/words/java/working-with-fields/)

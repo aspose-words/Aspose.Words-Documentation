@@ -1,4 +1,4 @@
-﻿---
+---
 title: Benutzerdefinierte Formatierung auf Felder in C++ anwenden
 second_title: Aspose.Words für C++
 articleTitle: Benutzerdefinierte Formatierung auf Felder anwenden
@@ -7,6 +7,7 @@ description: "Formatieren und bewerten Sie das Feldergebnis mit C++."
 type: docs
 weight: 40
 url: /de/cpp/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal müssen Benutzer benutzerdefinierte Formatierungen auf Felder anwenden. In diesem Artikel werden wir uns einige Beispiele ansehen, wie dies getan werden kann.
@@ -25,7 +26,7 @@ Das folgende Codebeispiel zeigt, wie Sie eine benutzerdefinierte Formatierung f�
 
 ## So bewerten Sie die `IF` -Bedingung
 
-Wenn Sie die Bedingung `IF` nach mail merge auswerten möchten, können Sie die Methode [EvaluateCondition](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldif/evaluatecondition/) verwenden, die sofort das Ergebnis der Ausdrucksauswertung zurückgibt.
+Wenn Sie die Bedingung `IF` nach Mail Merge auswerten möchten, können Sie die Methode [EvaluateCondition](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldif/evaluatecondition/) verwenden, die sofort das Ergebnis der Ausdrucksauswertung zurückgibt.
 
 Das folgende Codebeispiel zeigt, wie diese Methode verwendet wird:
 

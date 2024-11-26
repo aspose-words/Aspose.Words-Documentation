@@ -1,4 +1,4 @@
-﻿---
+---
 title: Convert Between Measurement Units in C++
 second_title: Aspose.Words for C++
 articleTitle: Convert Between Measurement Units
@@ -7,6 +7,7 @@ description: "Aspose.Words for C++ can help you with how to convert between meas
 type: docs
 weight: 20
 url: /cpp/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Most of the object properties provided in the Aspose.Words API that represent some measurement, such as width or height, margins, and various distances, accept values in points, where 1 inch equals 72 points. Sometimes this is not convenient and points need to be converted to other units.

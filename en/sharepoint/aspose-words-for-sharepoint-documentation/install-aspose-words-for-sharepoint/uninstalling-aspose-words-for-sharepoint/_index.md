@@ -7,6 +7,7 @@ description: "How to uninstall the Aspose.Words for SharePoint."
 type: docs
 weight: 50
 url: /sharepoint/uninstalling-aspose-words-for-sharepoint/
+timestamp: 2024-01-27-14-07-04
 ---
 
 To uninstall Aspose.Words for SharePoint, just run the appropriate version of setup program. If Aspose.Words for SharePoint is already installed, the setup program suggests to remove it.

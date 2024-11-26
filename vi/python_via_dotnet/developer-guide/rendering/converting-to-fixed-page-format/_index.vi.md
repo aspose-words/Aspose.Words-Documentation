@@ -7,6 +7,7 @@ description: "Lưu tài liệu sang các định dạng PDF, XPS, HTML, XAML, Po
 type: docs
 weight: 10
 url: /vi/python-net/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words triển khai công cụ bố cục trang của riêng mình. Trước khi đi sâu vào các thông số kỹ thuật của nó, trước tiên bạn nên thảo luận về tài liệu ở mức cao. Khi nghĩ về một tài liệu, người dùng thường tưởng tượng ra một số tờ giấy chứa các từ, hình ảnh, bảng biểu và biểu đồ. Tài liệu có thể có nhiều loại khác nhau, chẳng hạn như văn bản, bảng tính, trang trình bày, bản vẽ CAD, sơ đồ và do đó, về cơ bản có thể có các bố cục khác nhau. Hầu hết các ứng dụng đều cho phép gửi tài liệu tới máy in; đây là lúc người dùng thực sự có thể xem diện mạo dự định cuối cùng của tài liệu.

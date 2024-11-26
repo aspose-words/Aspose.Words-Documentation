@@ -7,6 +7,7 @@ description: "สร้างและแก้ไขแผนภูมิปร
 type: docs
 weight: 310
 url: /th/python-net/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 มีการเพิ่มวิธี [insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) ใหม่ลงในคลาส [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) มาดูวิธีแทรกแผนภูมิคอลัมน์อย่างง่ายลงในเอกสารโดยใช้วิธี [DocumentBuilder.insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/):

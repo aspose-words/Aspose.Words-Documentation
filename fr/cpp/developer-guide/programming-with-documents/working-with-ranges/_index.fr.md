@@ -1,4 +1,4 @@
-﻿---
+---
 title: Travailler avec des plages en C++
 second_title: Aspose.Words pour C++
 articleTitle: Travailler avec des gammes
@@ -7,6 +7,7 @@ description: "Introduction à la fonctionnalité de portée dans Aspose.Words po
 type: docs
 weight: 130
 url: /fr/cpp/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

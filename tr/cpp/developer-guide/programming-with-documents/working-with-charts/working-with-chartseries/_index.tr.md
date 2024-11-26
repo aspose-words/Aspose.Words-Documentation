@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içinde ChartSeries ile çalışmak
 second_title: Aspose.Words için C++
 articleTitle: ChartSeries ile çalışmak
@@ -7,6 +7,7 @@ description: "C++ kullanarak grafik serisi ayarı."
 type: docs
 weight: 40
 url: /tr/cpp/working-with-chartseries/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words, kullanıcıların ChartSeriesCollection ile birkaç şekilde çalışmasına izin verir.

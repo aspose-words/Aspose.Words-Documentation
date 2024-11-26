@@ -1,4 +1,4 @@
-﻿---
+---
 title: 문서 저장 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 문서 저장
@@ -8,6 +8,7 @@ description: "다음을 사용하여 지원되는 모든 형식으로 문서 저
 keywords: "save a document c++, save a document to file c++, save a document to stream c++, save a document Aspose C++, save formats supported by Aspose.Words C++"
 weight: 20
 url: /ko/cpp/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 당신이 수행하는 데 필요한 대부분의 작업 Aspose.Words 문서 저장을 포함합니다. 문서를 저장하려면 Aspose.Words 제공 [Save](https://reference.aspose.com/words/cpp/aspose.words/document/save/) 의 방법 [Document](https://reference.aspose.com/words/cpp/aspose.words/document/) 수업 이 문서는 다음에서 지원하는 모든 저장 형식으로 저장할 수 있습니다 Aspose.Words. 지원되는 모든 저장 형식 목록은 다음을 참조하십시오 [SaveFormat](https://reference.aspose.com/words/cpp/aspose.words/saveformat/) 열거

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Xóa Trường C++
 second_title: Aspose.Words cho C++
 articleTitle: Xóa Các Trường
@@ -7,6 +7,7 @@ description: "Tìm hiểu cách xóa các trường trong C++. Xóa các trườ
 type: docs
 weight: 35
 url: /vi/cpp/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi cần phải xóa một trường khỏi tài liệu. Điều này có thể xảy ra khi nó cần được thay thế bằng một loại trường khác hoặc khi trường không còn cần thiết trong tài liệu. Ví dụ trường `TOC` khi lưu vào HTML.

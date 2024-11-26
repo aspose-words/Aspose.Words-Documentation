@@ -1,4 +1,4 @@
-﻿---
+---
 title: Nasıl kurulur Aspose.Words için C++
 second_title: Aspose.Words için C++
 articleTitle: Kurulum
@@ -7,6 +7,7 @@ description: "Yüklemek Aspose.Words için C++ Manage NuGet Paketlerini veya Pac
 type: docs
 weight: 10
 url: /tr/cpp/installation/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Makinenizin uygun olduğundan emin olun [sistem gereksinimleri](/words/cpp/system-requirements/) başlamadan önce.

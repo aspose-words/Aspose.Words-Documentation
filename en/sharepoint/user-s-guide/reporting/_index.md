@@ -1,4 +1,4 @@
-﻿---
+---
 title: Reporting
 second_title: Aspose.Words for SharePoint
 articleTitle: Reporting
@@ -7,6 +7,7 @@ description: "Reporting feature details of the Aspose.Words for SharePoint."
 type: docs
 weight: 10
 url: /sharepoint/reporting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## This section includes the following topics:

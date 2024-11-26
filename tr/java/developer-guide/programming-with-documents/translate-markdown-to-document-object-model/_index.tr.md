@@ -7,6 +7,7 @@ type: docs
 description: "Tarnslate belgesiyle oynayın Markdown bir belgeye ve geri Document Object Model. Bu şekilde, karmaşık mevcut Markdown ile çalışabilirsiniz ve Java'yi kullanarak programatik olarak sıfırdan bir Markdown belgesi oluşturabilirsiniz."
 weight: 20
 url: /tr/java/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Belgenin içeriğini ve biçimlendirmesini programlı olarak okumak, değiştirmek ve değiştirmek için, bunu Aspose.Words Document Object Model ( DOM ) 'e çevirmek gerekir.
@@ -67,9 +68,9 @@ Aşağıdaki tablo Aspose.Words 'da kullanılan Markdown Leaf bloklarının örn
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **HorizontalRule** <br /> `-----` | Bu, karşılık gelen bir HorizontalRule şekline sahip basit bir paragraftır:<br />`DocumentBuilder.InsertHorizontalRule()`'' |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-HorizontalRule.java" >}} |  |
-| **ATX Heading**< br / > `# H1, ## H2, ### H3…` | `ParagraphFormat.StyleName = “Heading N”`, burada (1<= N <= 9). <br />Bu yerleşik bir stil ile çevrilir ve kesinlikle belirtilen kalıba uymalıdır (son ekleri veya öneki izin verilmez). <br /> aksi takdirde, sadece normal bir paragrafla eşleşen bir stile sahip olacaktır. |
+| **ATX Heading**< br / > `# H1, ## H2, ### H3…` | `ParagraphFormat.StyleName = "Heading N"`, burada (1<= N <= 9). <br />Bu yerleşik bir stil ile çevrilir ve kesinlikle belirtilen kalıba uymalıdır (son ekleri veya öneki izin verilmez). <br /> aksi takdirde, sadece normal bir paragrafla eşleşen bir stile sahip olacaktır. |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Heading.java" >}} |  |
-| **Setext Heading** <br /> `===` (eğer Başlık Düzeyi 1), <br /> `---` (eğer Başlık Düzeyi 2) | `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, `“Heading N”`'e dayalı stil.<br />Eğer (N >= 2), o zaman `“Heading 2”` kullanılacak, aksi takdirde `“Heading 1”`.<br />Herhangi bir sonek izin verilir fakat Aspose.Words içeri aktarıcı sırasıyla "1" ve "2" sayılarını kullanır. |
+| **Setext Heading** <br /> `===` (eğer Başlık Düzeyi 1), <br /> `---` (eğer Başlık Düzeyi 2) | `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, 'Heading N''e dayalı stil.<br />Eğer (N >= 2), o zaman 'Heading 2' kullanılacak, aksi takdirde 'Heading 1'.<br />Herhangi bir sonek izin verilir fakat Aspose.Words içeri aktarıcı sırasıyla "1" ve "2" sayılarını kullanır. |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SetextHeading.java" >}} |  |
 | **Indented Code**<br>{{< highlight java >}}<br/>if ()<br/>then<br/>else<br/>```{{< /highlight >}} | `ParagraphFormat.StyleName = “IndentedCode[some suffix]”` |
 | {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-FencedCode.java" >}} |  |

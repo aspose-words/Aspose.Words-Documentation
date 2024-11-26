@@ -7,6 +7,7 @@ description: "Użyj dzielenia wyrazów, aby uzyskać bardziej zwarty układ teks
 type: docs
 weight: 220
 url: /pl/python-net/working-with-hyphenation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Czasami konieczne jest użycie dzielenia wyrazów, aby uzyskać bardziej zwarty układ tekstu w dokumencie. Jednocześnie ważne jest, aby zrozumieć, że specyfika dzielenia wyrazów może się różnić w zależności od języka.

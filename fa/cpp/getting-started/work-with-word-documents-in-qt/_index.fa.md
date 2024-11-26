@@ -1,4 +1,4 @@
-﻿---
+---
 title: کار با اسناد ورد در Qt
 second_title: Aspose.Words برای C++
 articleTitle: کار با اسناد ورد در Qt
@@ -8,6 +8,7 @@ description: "Aspose.Words برای C++ می تواند در Qt برای ایج�
 keywords: "create a document Qt Creator, load a document Qt Creator, use Aspose C++ with Qt creator, load a document Aspose C++, load formats supported by Aspose.Words C++"
 weight: 120
 url: /fa/cpp/work-with-word-documents-in-qt/
+timestamp: 2024-07-11-16-13-28
 ---
 
 Qt یک چارچوب توسعه برنامه های چند پلتفرم مبتنی بر C++ است که به طور گسترده ای برای توسعه انواع برنامه های کاربردی دسکتاپ، تلفن همراه و سیستم جاسازی شده استفاده می شود. Aspose.Words برای C++ می تواند در Qt ادغام شود تا اسناد ورد را در برنامه های Qt شما ایجاد و دستکاری کند.

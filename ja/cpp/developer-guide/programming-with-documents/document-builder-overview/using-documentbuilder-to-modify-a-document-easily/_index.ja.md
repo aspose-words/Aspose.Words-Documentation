@@ -1,4 +1,4 @@
-﻿---
+---
 title: DocumentBuilder を使用して文書を簡単に変更する
 second_title: C++の場合Aspose.Words
 articleTitle: DocumentBuilder を使用して文書を簡単に変更する
@@ -7,6 +7,7 @@ type: docs
 description: "ドキュメントビルダーを使用して、c++で文書を簡単に変更できます。"
 weight: 190
 url: /ja/cpp/using-documentbuilder-to-modify-a-document-easily/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## 書式の指定

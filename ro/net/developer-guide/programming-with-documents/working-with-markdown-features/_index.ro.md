@@ -7,6 +7,7 @@ description: "Cum să implementezi caracteristici Markdown folosind C#. Toate ca
 type: docs
 weight: 420
 url: /ro/net/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Acest subiect discută despre cum să implementezi Markdown caracteristici folosind Aspose.Words. Markdown este un mod simplu de a formata text simplu care poate fi convertit ușor în HTML. Aspose.Words suportă următoarele Markdown caracteristici:

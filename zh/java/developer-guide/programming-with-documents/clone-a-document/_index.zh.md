@@ -7,6 +7,7 @@ type: docs
 description: "清除一个文件,以获得其相同的副本。 在创建副本时,使用 Java。 。 。 。"
 weight: 70
 url: /zh/java/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 克隆文档是创建原始文档的相同副本的过程,可以提高性能,避免潜在的内存泄露.

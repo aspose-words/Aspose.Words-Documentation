@@ -7,6 +7,7 @@ description: "ควบคุมกระบวนการบันทึกไ
 type: docs
 weight: 10
 url: /th/net/specify-save-options/
+timestamp: 2024-07-09-19-00-42
 ---
 
 เมื่อบันทึกเอกสาร คุณสามารถตั้งค่าคุณสมบัติขั้นสูงบางอย่างได้ Aspose.Words มีคลาส [SaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/) ซึ่งช่วยให้สามารถควบคุมกระบวนการบันทึกได้แม่นยำยิ่งขึ้น มีเมธอด **Save** มากเกินไปที่ยอมรับออบเจ็กต์ **SaveOptions** ซึ่งควรเป็นออบเจ็กต์ของคลาสที่ได้มาจากคลาส **SaveOptions** รูปแบบการบันทึกแต่ละรูปแบบมีคลาสที่สอดคล้องกันซึ่งมีตัวเลือกการบันทึกสำหรับรูปแบบการบันทึกนี้ เช่น มี [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) สำหรับการบันทึกเป็นรูปแบบ PDF, [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) สำหรับการบันทึกเป็นรูปแบบ Markdown หรือ [ImageSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/) สำหรับการบันทึกลงในรูปภาพ บทความนี้จะแสดงตัวอย่างการทำงานกับคลาสตัวเลือกบางคลาสที่ได้มาจาก **SaveOptions**

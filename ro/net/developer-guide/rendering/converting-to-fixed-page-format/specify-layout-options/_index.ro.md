@@ -7,6 +7,7 @@ description: "Specificaţi opţiuni de aranjare pentru diferite aranjamente de d
 type: docs
 weight: 10
 url: /ro/net/specify-layout-options/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Aspose.Words îți permite să creezi documente de ieșire cu diferite dispoziții, în funcție de parametrii specificați în proprietățile clasei [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/). Unele dintre aceste proprietăți seamănă cu unele dintre opțiunile Microsoft Word interfeței utilizatorului – ele vor fi descrise în acest articol.

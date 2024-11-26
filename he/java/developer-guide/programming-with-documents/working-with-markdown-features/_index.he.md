@@ -7,6 +7,7 @@ description: "כיצד ליישם Markdown תכונות באמצעות Java. כ�
 type: docs
 weight: 420
 url: /he/java/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 נושא זה דן כיצד ליישם Markdown תכונות באמצעות Aspose.Words. Markdown זוהי דרך פשוטה לעצב טקסט רגיל שניתן להמיר בקלות ל- HTML. Aspose.Words תומך הבאות Markdown תכונות:

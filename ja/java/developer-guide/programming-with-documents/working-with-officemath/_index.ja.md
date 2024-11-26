@@ -1,16 +1,17 @@
----
-title: OfficeMath での作業 Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: OfficeMath と連携
-linktitle: OfficeMath と連携
+﻿---
+title: JavaのOfficeMathでの作業
+second_title: Aspose.WordsのためのJava
+articleTitle: OfficeMathでの作業
+linktitle: OfficeMathでの作業
 type: docs
-description: "オフィス数学の特徴の紹介 Aspose.Words お問い合わせ Javaお問い合わせ"
+description: "Aspose.WordsforJavaのOffice Math機能の紹介。"
 weight: 320
 url: /ja/java/working-with-officemath/
+timestamp: 2024-01-27-14-07-04
 ---
 
-OfficeMath Type オブジェクトを扱うのはもっと便利です。 インスタグラム Aspose.Words, 顧客が容易に正当化し、また、式がインラインか別のラインで表示されているかどうかを管理できます。 より多くのので、可用性で **MathObjectType**; この行列オブジェクトを使用して、有用な制御を実行できます。
+OfficeMath 型オブジェクトの操作がさらに便利になりました。Aspose.Words では、顧客は簡単に位置合わせでき、数式をインラインで表示するか別の行で表示するかを管理することもできます。さらに、**MathObjectType** が利用できるようになったことで、このマトリックス オブジェクトを使用して便利なコントロールを実装できます。
 
-以下のコード例では、これらのプロパティの使用方法を示します。
+次のコード例は、これらのプロパティを使用する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UseOfficeMathProperties-UseOfficeMathProperties.java" >}}

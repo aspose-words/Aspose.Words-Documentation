@@ -7,6 +7,7 @@ description: "Konwertuj do formatu PDF/A-1, PDF/A-2, PDF/A-4 i PDF/UA za pomocą
 type: docs
 weight: 28
 url: /pl/python-net/working-with-pdfa-or-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Formaty PDF/A i PDF/UA nakładają szereg wymagań związanych z zawartością dokumentu, których nie da się spełnić podczas automatycznej konwersji dokumentu w formacie Word do formatu PDF. Wymagania te należy zweryfikować i poprawić w dokumencie Word przed konwersją lub w dokumencie PDF po konwersji, aby powstał dokument w pełni zgodny z formatami PDF/A i PDF/UA.

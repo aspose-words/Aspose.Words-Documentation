@@ -7,6 +7,7 @@ description: "Licensing details of the Aspose.Words for Reporting Services."
 type: docs
 weight: 50
 url: /reportingservices/license-aspose-words-for-reporting-services/
+timestamp: 2024-10-24-11-44-28
 ---
 
 {{% alert color="primary" %}}

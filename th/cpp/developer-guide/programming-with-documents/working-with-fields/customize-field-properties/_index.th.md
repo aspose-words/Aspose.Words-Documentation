@@ -1,4 +1,4 @@
-﻿---
+---
 title: ปรับแต่งคุณสมบัติฟิลด์ในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: ปรับแต่งคุณสมบัติฟิลด์
@@ -7,6 +7,7 @@ description: "เรียนรู้วิธีปรับแต่งคุ
 type: docs
 weight: 27
 url: /th/cpp/customize-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Wordsให้ความสามารถในการเขียนโปรแกรมโต้ตอบกับคุณสมบัติของฟิลด์ต่างๆ ในบทความนี้เราจะดูคู่ตัวอย่างเพื่อให้คุณเข้าใจหลักการพื้นฐานของการทำงานกับคุณสมบั คุณสามารถดูรายการคุณสมบัติทั้งหมดสำหรับแต่ละประเภทฟิลด์ในชั้นเรียนที่สอดคล้องกันใน[Fields namespace](https://reference.aspose.com/words/cpp/namespace/aspose.words.fields).

@@ -7,6 +7,7 @@ type: docs
 description: "הורד Download Aspose.Words עבור Java דוגמאות משלנו GitHub ללמוד איך לנהל אותם כדי להיות מוכר יותר Aspose.Words אפשרויות ותכונות"
 weight: 130
 url: /he/java/how-to-run-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## להורדה GitHub

@@ -7,6 +7,7 @@ description: "العمل مع مربعات النص في مستند باستخد
 type: docs
 weight: 250
 url: /ar/python-net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 في Aspose.Words، يتم استخدام فئة [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) لتحديد كيفية عرض النص داخل الشكل. وهو يوفر خاصية عامة تسمى [parent](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/parent/) للحصول على الشكل الأصلي لمربع النص للسماح للعميل بالعثور على [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) المرتبط من [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) المرتبط.

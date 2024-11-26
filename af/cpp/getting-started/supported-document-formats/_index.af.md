@@ -1,4 +1,4 @@
-﻿---
+---
 title: Ondersteunde Dokumentformate
 second_title: Aspose.Words vir C++
 articleTitle: Ondersteunde Dokumentformate
@@ -7,6 +7,7 @@ type: docs
 description: "Wysig brondokumente in baie gewilde formate, sowel as lêers vrylik omskep van een formaat na'n ander met behulp van C++."
 weight: 20
 url: /af/cpp/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lisensie
 second_title: Aspose.Words vir Java
 articleTitle: Lisensie
@@ -7,6 +7,7 @@ description: "Lisensiëring Aspose.Words vir Android via Java."
 type: docs
 weight: 60
 url: /af/java/licensing-android/
+timestamp: 2024-02-02-12-07-36
 ---
 
 Soms, om die stelsel beter te bestudeer, wil jy so vinnig as moontlik in die kode duik. Om dit makliker te maak, bied Aspose.Words verskillende planne vir aankoop of bied'n Gratis Proeflopie en'n 30-Dag Tydelike Lisensie vir evaluering.

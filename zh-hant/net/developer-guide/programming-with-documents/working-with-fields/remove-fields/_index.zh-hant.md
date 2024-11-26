@@ -7,6 +7,7 @@ description: "學如何在C#中移除欄位。 以程式方式移除欄位，使
 type: docs
 weight: 35
 url: /zh-hant/net/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有時必須從文書中移除一個欄位。 當它需要用不同的欄位類型取代，或當該欄位不再有必要於文件中時，才會發生。 例如，儲存到HTML時，使用`TOC`欄位。

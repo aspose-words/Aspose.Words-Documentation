@@ -7,6 +7,7 @@ description: "Learn how to access XML data while building a report using LINQ in
 type: docs
 weight: 20
 url: /net/accessing-xml-data/
+timestamp: 2024-01-27-14-07-04
 ---
 
 To access XML data while building a report, you can use facilities of `DataSet` to read XML into it and then pass it to the engine as a data source. However, if your scenario does not permit to specify XML schema while loading XML into `DataSet`, all attributes and text values of XML elements are loaded as strings then. Thus, it becomes impossible, for example, to use arithmetic operations on numbers or to specify custom date-time and numeric formats to output corresponding values, because all of them are treated as strings.

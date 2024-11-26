@@ -7,6 +7,7 @@ description: "Integrating Aspose.Words for .NET with Umbraco content management 
 type: docs
 weight: 20
 url: /net/aspose-words-net-for-umbraco/
+timestamp: 2024-01-27-14-07-04
 ---
 
 This section has the following topics:

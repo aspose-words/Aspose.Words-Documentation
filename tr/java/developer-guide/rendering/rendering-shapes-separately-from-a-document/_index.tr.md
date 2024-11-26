@@ -7,6 +7,7 @@ description: "Bir belge işlerken çeşitli grafik nesneleri, örneğin resimler
 type: docs
 weight: 40
 url: /tr/java/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bir belge işlerken, yaygın bir görev tüm belgedeki bulunan görüntüleri ayıklamaktır ve bunları harici bir konuma dışa aktarır. Bu görev Aspose.Words ve API'ile basit hale gelir, ki bu zaten görüntü verilerini ayıklayıp kaydetme işlevselliğini sağlar. Fakat bazen benzer şekilde farklı bir tür çizim nesnesi ile temsil edilen başka bir tür grafik içeriğini de ayıklamak isteyebilirsiniz, örneğin paragraflar içeren bir metin kutusu, ok şekilleri ve küçük bir resim. Bu nesne bireysel içerik öğelerinin bir kombinasyonu olduğu için bu nesneyi doğrudan görüntülemek için kolay bir yol yoktur. Ayrıca içeriğin tek bir görüntüye benzeyen bir nesne içine gruplandıkları bir durumla karşılaşabilirsiniz.

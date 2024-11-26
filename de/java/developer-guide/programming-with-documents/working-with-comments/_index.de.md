@@ -1,145 +1,146 @@
----
+﻿---
 title: Arbeiten mit Kommentaren in Java
 second_title: Aspose.Words für Java
 articleTitle: Arbeiten mit Kommentaren
 linktitle: Arbeiten mit Kommentaren
-description: "Arbeiten mit Kommentaren Java."
+description: "Arbeiten mit Kommentaren mit Java."
 type: docs
 weight: 260
 url: /de/java/working-with-comments/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}
 
-**Online testen**
+**Online ausprobieren**
 
-Sie können diese Funktionalität mit unserer [Kostenlose Online Annotationen entfernen](https://products.aspose.app/words/annotation).
+Sie können diese Funktionalität mit unserem ausprobieren [Anmerkungen kostenlos online entfernen](https://products.aspose.app/words/annotation).
 
 {{% /alert %}}
 
-Aspose.Words ermöglicht es Benutzern, mit Kommentaren zu arbeiten – Kommentare in einem Dokument in Aspose.Words werden durch die [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/) Klasse. Verwenden Sie auch die [CommentRangeStart](https://reference.aspose.com/words/java/com.aspose.words/commentrangestart/) und [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/) Klassen, um den Textbereich anzugeben, der mit einem Kommentar verbunden werden sollte.
+Aspose.Words ermöglicht Benutzern das Arbeiten mit Kommentaren – Kommentare in einem Dokument in Aspose.Words werden durch die Klasse [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/) dargestellt. Verwenden Sie auch die Klassen [CommentRangeStart](https://reference.aspose.com/words/java/com.aspose.words/commentrangestart/) und [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/), um den Textbereich anzugeben, der einem Kommentar zugeordnet werden soll.
 
-## Einen Kommentar hinzufügen
+## Kommentar hinzufügen
 
-Aspose.Words Sie können Kommentare auf verschiedene Weise hinzufügen:
+Aspose.Words ermöglicht das Hinzufügen von Kommentaren auf verschiedene Arten:
 
-ANHANG Verwendung von [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/) Klasse
-2. Verwendung von [CommentRangeStart](https://reference.aspose.com/words/java/com.aspose.words/commentrangestart/) und [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/) Klassen
+1. Verwenden der [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/) -Klasse
+2. Verwenden der Klassen [CommentRangeStart](https://reference.aspose.com/words/java/com.aspose.words/commentrangestart/) und [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/)
 
-Das folgende Codebeispiel zeigt, wie man einen Kommentar zu einem Absatz unter Verwendung des **Comment** Klasse:
+Das folgende Codebeispiel zeigt, wie Sie einem Absatz mithilfe der Klasse **Comment** einen Kommentar hinzufügen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-AddComments-AddComments.java" >}}
 
-Das folgende Codebeispiel zeigt, wie ein Kommentar zu einem Absatz mit einem Textbereich und **CommentRangeStart** und **CommentRangeEnd** Klassen:
+Das folgende Codebeispiel zeigt, wie Sie einem Absatz mithilfe eines Textregions und der Klassen **CommentRangeStart** und **CommentRangeEnd** einen Kommentar hinzufügen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-AnchorComment-AnchorComment.java" >}}
 
-## Extrahieren oder Entfernen von Kommentare
+## Kommentare extrahieren oder entfernen
 
-Die Verwendung von Kommentaren in einem Word-Dokument (zusätzlich zu Track Changes) ist eine häufige Praxis bei der Überprüfung von Dokumenten, insbesondere wenn es mehrere Bewerter gibt. Es kann Situationen geben, in denen das einzige, was Sie von einem Dokument benötigen, die Kommentare sind. Sagen Sie, Sie möchten eine Liste von Überprüfungsergebnissen erstellen, oder vielleicht haben Sie alle nützlichen Informationen aus dem Dokument gesammelt und möchten einfach unnötige Kommentare entfernen. Sie können die Kommentare eines bestimmten Bewerters anzeigen oder entfernen möchten.
+Die Verwendung von Kommentaren in einem Word-Dokument (zusätzlich zum Nachverfolgen von Änderungen) ist eine gängige Praxis bei der Überprüfung von Dokumenten, insbesondere wenn mehrere Prüfer vorhanden sind. Es kann Situationen geben, in denen das einzige, was Sie von einem Dokument benötigen, die Kommentare sind. Angenommen, Sie möchten eine Liste der Überprüfungsergebnisse erstellen, oder Sie haben alle nützlichen Informationen aus dem Dokument gesammelt und möchten einfach unnötige Kommentare entfernen. Möglicherweise möchten Sie die Kommentare eines bestimmten Bewerters anzeigen oder entfernen.
 
-In dieser Stichprobe werden wir uns einige einfache Methoden anschauen, um sowohl Informationen aus den Kommentaren innerhalb eines Dokuments als auch Kommentare aus einem Dokument zu entfernen. Konkret decken wir ab:
+In diesem Beispiel werden wir uns einige einfache Methoden ansehen, um sowohl Informationen aus den Kommentaren in einem Dokument zu sammeln als auch Kommentare aus einem Dokument zu entfernen. Insbesondere werden wir behandeln, wie es geht:
 
-- Ziehen Sie alle Kommentare aus einem Dokument oder nur die von einem bestimmten Autor gemacht.
+- Extrahieren Sie alle Kommentare aus einem Dokument oder nur die Kommentare eines bestimmten Autors.
 - Entfernen Sie alle Kommentare aus einem Dokument oder nur von einem bestimmten Autor.
 
-### Wie extrahiert oder entfernt Kommentare
+### So extrahieren oder entfernen Sie Kommentare
 
-Der Code in dieser Probe ist ganz einfach und alle Methoden basieren auf dem gleichen Ansatz. Ein Kommentar in einem Word-Dokument wird durch eine `Comment` Objekt in der Aspose.Words Dokument Objektmodell. Um alle Kommentare in einem Dokument zu sammeln, verwenden Sie die [getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/document/#getChildNodes) Verfahren mit dem ersten Parametersatz `NodeType.Comment`. Stellen Sie sicher, dass der zweite Parameter des **Holen Sie sich Kinder** Verfahren wird eingestellt true: diese Kräfte **Holen Sie sich Kinder** um aus allen Kinderknoten wiederkehrend auszuwählen, anstatt nur die unmittelbaren Kinder zu sammeln.
+Der Code in diesem Beispiel ist recht einfach und alle Methoden basieren auf demselben Ansatz. Ein Kommentar in einem Word-Dokument wird durch ein `Comment`-Objekt im Aspose.Words-Dokumentobjektmodell dargestellt. Um alle Kommentare in einem Dokument zu sammeln, verwenden Sie die Methode [getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/document/#getChildNodes), wobei der erste Parameter auf `NodeType.Comment` gesetzt ist. Stellen Sie sicher, dass der zweite Parameter der **getChildNodes** -Methode auf true gesetzt ist: Dies zwingt **getChildNodes**, rekursiv aus allen untergeordneten Knoten auszuwählen, anstatt nur die unmittelbaren untergeordneten Knoten zu sammeln.
 
-Um zu illustrieren, wie man Kommentare aus einem Dokument extrahiert und entfernt, gehen wir durch die folgenden Schritte:
+Um zu veranschaulichen, wie Kommentare aus einem Dokument extrahiert und entfernt werden, werden die folgenden Schritte ausgeführt:
 
-ANHANG Öffne ein Word-Dokument mit [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) Klasse
-ANHANG Erhalten Sie alle Kommentare aus dem Dokument in eine Sammlung
-ANHANG Anmerkungen:
-   1. Gehen Sie durch die Sammlung mit dem für den Betreiber
-   1. Ausziehen und Auflistung des Autornamens, Datum & Uhrzeit und Text aller Kommentare
-   1. Auszug und Auflistung des Autors Namen, Datum und Uhrzeit und Text von Kommentaren, die von einem bestimmten Autor geschrieben wurden, in diesem Fall der Autor "ks"
-ANHANG Um Kommentare zu entfernen:
-   1. Gehen Sie rückwärts durch die Sammlung mit dem für den Bediener
-   1. Kommentar entfernen
-ANHANG Speichern Sie die Änderungen.
+1. Öffnen Sie ein Word-Dokument mit der Klasse [Document](https://reference.aspose.com/words/java/com.aspose.words/document/)
+1. Holen Sie sich alle Kommentare aus dem Dokument in eine Sammlung
+1. So extrahieren Sie Kommentare:
+   1. Gehen Sie die Sammlung mit dem für den Bediener durch
+   1. Extrahieren und listen Sie den Namen des Autors, Datum und Uhrzeit sowie den Text aller Kommentare auf
+   1. Extrahieren und listen Sie den Namen des Autors, Datum und Uhrzeit sowie den Text der Kommentare eines bestimmten Autors, in diesem Fall des Autors 'ks', auf
+1. So entfernen Sie Kommentare:
+   1. Gehen Sie mit dem für den Operator rückwärts durch die Sammlung
+   1. Kommentare entfernen
+1. Speichern Sie die Änderungen.
 
 Wir werden das folgende Word-Dokument für diese Übung verwenden:
 
 ![extract-remove-comments-aspose-words-java-1](/words/java/working-with-comments/extract-remove-comments-aspose-words-java-1.png)
 
-Wie Sie sehen können, enthält es mehrere Kommentare von zwei Autoren mit den Initialen "pm" und "ks".
+Wie Sie sehen, enthält es mehrere Kommentare von zwei Autoren mit den Initialen "pm" und "ks".
 
-### Wie extrahiert man alle Kommentare
+### So extrahieren Sie alle Kommentare
 
-Die [getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/document/#getChildNodes) Die Methode ist sehr nützlich und Sie können sie jedes Mal verwenden, wenn Sie eine Liste von Dokumentenknoten jeder Art erhalten müssen. Die daraus resultierende Sammlung erzeugt keinen sofortigen Overhead, da die Knoten nur dann in diese Sammlung ausgewählt werden, wenn Sie Elemente auszählen oder darauf zugreifen.
+Die [getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/document/#getChildNodes) -Methode ist sehr nützlich und Sie können sie jedes Mal verwenden, wenn Sie eine Liste von Dokumentknoten eines beliebigen Typs benötigen. Die resultierende Auflistung erzeugt keinen unmittelbaren Overhead, da die Knoten nur dann in dieser Auflistung ausgewählt werden, wenn Sie darin enthaltene Elemente auflisten oder darauf zugreifen.
 
-Das folgende Codebeispiel zeigt, wie der Autorname, Datum und Text aller Stellungnahmen in dem Dokument extrahiert werden können:
+Das folgende Codebeispiel zeigt, wie Sie den Namen des Autors, Datum und Uhrzeit sowie den Text aller Kommentare im Dokument extrahieren:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-ProcessComments-extractComments.java" >}}
 
-### Wie man Kommentare eines bestimmten Autors extrahiert
+### So extrahieren Sie Kommentare eines bestimmten Autors
 
-Nachdem Sie Kommentar-Knoten in eine Sammlung ausgewählt haben, müssen Sie nur die Informationen, die Sie benötigen, extrahieren. In diesem Beispiel werden die Initialen des Autors, Datum, Uhrzeit und der Klartext des Kommentars zu einem String zusammengefasst; Sie könnten stattdessen wählen, es auf andere Weise zu speichern.
+Nachdem Sie Kommentarknoten in einer Sammlung ausgewählt haben, müssen Sie nur noch die benötigten Informationen extrahieren. In diesem Beispiel werden die Initialen, das Datum, die Uhrzeit und der Klartext des Kommentars des Autors zu einer Zeichenfolge zusammengefasst. Sie können es stattdessen auch auf andere Weise speichern.
 
-Die überlastete Methode, die die Kommentare von einem bestimmten Autor extrahiert, ist fast gleich, es überprüft nur den Namen des Autors, bevor Sie die Informationen in das Array hinzufügen.
+Die überladene Methode, die die Kommentare eines bestimmten Autors extrahiert, ist fast dieselbe. Sie überprüft lediglich den Namen des Autors, bevor die Informationen zum Array hinzugefügt werden.
 
-Das folgende Codebeispiel zeigt, wie der Autor Name, Datum und Text der Kommentare durch den angegebenen Autor extrahiert werden können:
+Das folgende Codebeispiel zeigt, wie Sie den Autorennamen, Datum und Uhrzeit sowie den Text der Kommentare des angegebenen Autors extrahieren:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-ProcessComments-extractComments_Author.java" >}}
 
 ### So entfernen Sie Kommentare
 
-Wenn Sie alle Kommentare entfernen, gibt es keine Notwendigkeit, durch die Sammlung zu bewegen, die Kommentare einzeln löschen; Sie können sie entfernen, indem Sie anrufen [clear](https://reference.aspose.com/words/java/com.aspose.words/nodecollection/#clear) über die Kommentarsammlung.
+Wenn Sie alle Kommentare entfernen, müssen Sie nicht nacheinander durch die Sammlung blättern und Kommentare löschen. Sie können sie entfernen, indem Sie [clear](https://reference.aspose.com/words/java/com.aspose.words/nodecollection/#clear) in der Kommentarsammlung aufrufen.
 
-Das folgende Codebeispiel zeigt, wie Sie alle Kommentare im Dokument entfernen können:
+Das folgende Codebeispiel zeigt, wie Sie alle Kommentare im Dokument entfernen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-ProcessComments-removeComments.java" >}}
 
-Wenn Sie Kommentare selektiv entfernen müssen, wird der Prozess ähnlicher wie der Code, den wir für Kommentarextraktion verwendet.
+Wenn Sie Kommentare selektiv entfernen müssen, ähnelt der Prozess dem Code, den wir für die Kommentarextraktion verwendet haben.
 
-Das folgende Codebeispiel zeigt, wie Kommentare vom angegebenen Autor entfernt werden:
+Das folgende Codebeispiel zeigt, wie Kommentare des angegebenen Autors entfernt werden:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-ProcessComments-removeComments_Author.java" >}}
 
-Der Hauptpunkt, hier hervorzuheben, ist die Verwendung des Bedieners. Im Gegensatz zur einfachen Extraktion möchten Sie hier einen Kommentar löschen. Ein geeigneter Trick ist, die Sammlung rückwärts vom letzten Kommentar zum ersten zu iterieren. Der Grund dafür, wenn Sie vom Ende starten und rückwärts bewegen, bleibt der Index der vorhergehenden Artikel unverändert, und Sie können Ihren Weg zurück zum ersten Artikel in der Sammlung arbeiten.
+Der wichtigste Punkt, der hier hervorgehoben werden muss, ist die Verwendung des for-Operators. Im Gegensatz zur einfachen Extraktion möchten Sie hier einen Kommentar löschen. Ein geeigneter Trick besteht darin, die Sammlung vom letzten zum ersten Kommentar rückwärts zu durchlaufen. Der Grund dafür ist, dass wenn Sie am Ende beginnen und rückwärts gehen, der Index der vorhergehenden Elemente unverändert bleibt und Sie sich zum ersten Element in der Sammlung zurückarbeiten können.
 
-Das folgende Codebeispiel zeigt die Methoden für die Kommentarextraktion und Entfernung:
+Das folgende Codebeispiel zeigt die Methoden zum Extrahieren und Entfernen von Kommentaren:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-ProcessComments-ProcessComments.java" >}}
 
 {{% alert color="primary" %}}
 
-Sie können die Beispieldatei dieses Beispiels herunterladen [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/comments/ProcessComments/TestFile.doc).
+Sie können die Beispieldatei dieses Beispiels herunterladen von [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/comments/ProcessComments/TestFile.doc).
 
 {{% /alert %}}
 
-Beim Start zeigt die Probe die folgenden Ergebnisse an. Zuerst, es listet alle Kommentare von allen Autoren, dann listet es Kommentare von dem ausgewählten Autor nur. Schließlich entfernt der Code alle Kommentare.
+Nach dem Start zeigt das Beispiel die folgenden Ergebnisse an. Zuerst werden alle Kommentare aller Autoren aufgelistet, dann nur die Kommentare des ausgewählten Autors. Schließlich entfernt der Code alle Kommentare.
 
 ![extract-remove-comments-aspose-words-java-2](/words/java/working-with-comments/extract-remove-comments-aspose-words-java-2.png)
 
-Das ausgegebene Word-Dokument hat nun Kommentare von ihm entfernt:
+Im Word-Ausgabedokument wurden jetzt Kommentare entfernt:
 
 ![extract-remove-comments-aspose-words-java-3](/words/java/working-with-comments/extract-remove-comments-aspose-words-java-3.png)
 
-### So entfernen Sie Text zwischen KommentarRangeStart und CommentRangeEnd
+### So entfernen Sie Text zwischen CommentRangeStart und CommentRangeEnd
 
-Verwendung Aspose.Words Sie können auch Kommentare zwischen den Knoten CommentRangeStart und CommentRangeEnd entfernen.
+Mit Aspose.Words können Sie auch Kommentare zwischen den Knoten CommentRangeStart und CommentRangeEnd entfernen.
 
-Das folgende Codebeispiel zeigt, wie Text zwischen KommentarRangeStart und CommentRangeEnd zu entfernen ist:
+Das folgende Codebeispiel zeigt, wie Text zwischen CommentRangeStart und CommentRangeEnd entfernt wird:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-RemoveCommentRegionText-RemoveCommentRegionText.java" >}}
 
-## Kommentar hinzufügen oder entfernen
+## Kommentar-Antwort hinzufügen oder entfernen
 
-Die [addReply](https://reference.aspose.com/words/java/com.aspose.words/comment/#addReply-java.lang.String-java.lang.String-java.util.Date-java.lang.String) Die Methode fügt eine Antwort zu diesem Kommentar hinzu. Bitte beachten Sie, dass aufgrund der bestehenden Einschränkungen des MS Office nur eine (1) Anzahl von Antworten im Dokument erlaubt ist. Eine Ausnahme von Typ InvalidOperationException wird erhoben, wenn diese Methode auf den bestehenden Kommentar zum Antworten aufgerufen wird.
+Die [addReply](https://reference.aspose.com/words/java/com.aspose.words/comment/#addReply-java.lang.String-java.lang.String-java.util.Date-java.lang.String) -Methode fügt diesem Kommentar eine Antwort hinzu. Bitte beachten Sie, dass aufgrund der bestehenden MS Bürobeschränkungen nur eine (1) Antwortebene im Dokument zulässig ist. Eine Ausnahme vom Typ InvalidOperationException wird ausgelöst, wenn diese Methode für den vorhandenen Antwortkommentar aufgerufen wird.
 
-Sie können die [removeReply](https://reference.aspose.com/words/java/com.aspose.words/comment/#removeReply-com.aspose.words.Comment) Methode, um die angegebene Antwort auf diesen Kommentar zu entfernen.
+Sie können die Methode [removeReply](https://reference.aspose.com/words/java/com.aspose.words/comment/#removeReply-com.aspose.words.Comment) verwenden, um die angegebene Antwort auf diesen Kommentar zu entfernen.
 
-Das folgende Codebeispiel zeigt, wie Sie eine Antwort auf einen Kommentar hinzufügen und die Antwort eines Kommentars entfernen:
+Das folgende Codebeispiel zeigt, wie Sie eine Antwort zu einem Kommentar hinzufügen und die Antwort eines Kommentars entfernen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-AddRemoveCommentReply-AddRemoveCommentReply.java" >}}
 
-## Kommentar zum Kommentar schreiben
+## Lesen Sie die Antwort des Kommentars
 
-Aspose.Words unterstützt die Antwort eines Kommentars zu lesen. Die [Replies](https://reference.aspose.com/words/java/com.aspose.words/comment/#getReplies) eine Sammlung der [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/) Objekte, die unmittelbare Kinder des angegebenen Kommentars sind.
+Aspose.Words Unterstützung, um die Antwort eines Kommentars zu lesen. Die Eigenschaft [Replies](https://reference.aspose.com/words/java/com.aspose.words/comment/#getReplies) gibt eine Auflistung der [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/) -Objekte zurück, die unmittelbare untergeordnete Elemente des angegebenen Kommentars sind.
 
-Das folgende Codebeispiel zeigt, wie man durch die Antworten eines Kommentars iteriert und diese aufgelöst:
+Das folgende Codebeispiel zeigt, wie Sie die Antworten eines Kommentars durchlaufen und auflösen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-ProcessComments-CommentResolvedandReplies.java" >}}

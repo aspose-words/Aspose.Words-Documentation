@@ -7,6 +7,7 @@ description: "Bir belgenin Word'den PDF'ye veya HTML'den Markdown'e gibi bir bi�
 type: docs
 weight: 10
 url: /tr/net/loading-saving-and-converting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bu bölüm, bir belgeyi yüklerken ve kaydederken kullanılan özellikler hakkında bilgi sağlamanın yanı sıra, bir belgeyi bir formattan diğerine dönüştürme olasılıkları hakkında da bilgi sağlar.

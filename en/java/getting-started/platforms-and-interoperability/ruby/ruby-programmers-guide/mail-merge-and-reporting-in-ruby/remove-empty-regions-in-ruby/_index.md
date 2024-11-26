@@ -1,4 +1,4 @@
-﻿---
+---
 title: Remove Empty Regions in Ruby
 second_title: Aspose.Words for Java
 articleTitle: Remove Empty Regions in Ruby
@@ -7,6 +7,7 @@ description: "Remove empty regions from word document using Ruby."
 type: docs
 weight: 10
 url: /java/remove-empty-regions-in-ruby/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Remove Empty Regions
@@ -28,11 +29,11 @@ def remove_empty_regions()
     data = Rjb::import('com.aspose.words.DataSet').new
     #DataSet data = new DataSet()
 
-    # Set the appropriate mail merge clean up options to remove any unused regions from the document.
+    # Set the appropriate Mail Merge clean up options to remove any unused regions from the document.
     mailmerge_cleanup_options = Rjb::import('com.aspose.words.MailMergeCleanupOptions')
     doc.getMailMerge().setCleanupOptions(mailmerge_cleanup_options.REMOVE_UNUSED_REGIONS)
 
-    # Execute mail merge which will have no effect as there is no data. However the regions found in the document will be removed
+    # Execute Mail Merge which will have no effect as there is no data. However the regions found in the document will be removed
     # automatically as they are unused.
     doc.getMailMerge().executeWithRegions(data)
 

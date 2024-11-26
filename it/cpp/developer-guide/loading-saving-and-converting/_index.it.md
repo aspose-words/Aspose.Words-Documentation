@@ -1,4 +1,4 @@
-﻿---
+---
 title: Caricamento, salvataggio e conversione in C++
 second_title: Aspose.Words per C++
 articleTitle: Caricamento, salvataggio e conversione
@@ -7,6 +7,7 @@ description: "Come convertire un documento da un formato a un altro, ad esempio 
 type: docs
 weight: 10
 url: /it/cpp/loading-saving-and-converting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Questa sezione fornisce informazioni sulle funzionalità durante il caricamento e il salvataggio di un documento, nonché i dati sulle possibilità durante la conversione di un documento da un formato all'altro.

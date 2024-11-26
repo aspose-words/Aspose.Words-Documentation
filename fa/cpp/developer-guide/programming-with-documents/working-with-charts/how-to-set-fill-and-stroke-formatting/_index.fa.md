@@ -1,4 +1,4 @@
-﻿---
+---
 title: کار با نمودارها در C++
 second_title: Aspose.Words برای C++
 articleTitle: کار با نمودارها
@@ -7,6 +7,7 @@ description: "مقدمه ای به ویژگی نمودار، نحوه ایجاد
 type: docs
 weight: 170
 url: /fa/cpp/how-to-set-fill-and-stroke-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 قالب بندی Fill و stroke را می توان برای سری های نمودار، نقاط داده و نشانگرها تنظیم کرد. برای انجام این کار، باید از ویژگی های نوع **ChartFormat** در کلاس های **ChartSeries**، **ChartDataPoint** و **ChartMarker** و همچنین نام مستعار برای برخی از ویژگی ها مانند ForeColor، BackColor، قابل مشاهده و شفافیت در کلاس `Stroke` استفاده کنید.

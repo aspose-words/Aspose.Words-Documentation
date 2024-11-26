@@ -1,58 +1,59 @@
----
-title: 현장 소개 Java
-second_title: Aspose.Words 제품정보 Java
-articleTitle: 회사소개
-linktitle: 회사소개
-description: "Fields 기능에 대한 세부 사항, 필드 코드 및 필드 결과에 설명 Aspose.Words 제품정보 Java·"
+﻿---
+title: Java의 필드 소개
+second_title: Aspose.WordsJava
+articleTitle: 분야 소개
+linktitle: 분야 소개
+description: "필드는Java에 대해Aspose.Words에 설명된 세부 사항,필드 코드 및 필드 결과에 표시됩니다."
 type: docs
 weight: 10
 url: /ko/java/introduction-to-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
-Aspose.Words 서버 측 처리를 위해 디자인된 종류 도서관입니다 Microsoft Word 문서 및 지원 필드 다음 방법:
+Aspose.Words는Microsoft Word문서의 서버 쪽 처리를 위해 설계된 클래스 라이브러리이며 다음과 같은 방법으로 필드를 지원합니다:
 
-- 문서의 모든 필드는 개방 / 저장 및 변환 중에 보존됩니다
-- 대부분의 필드의 결과를 업데이트 할 수 있습니다
+- 문서의 모든 필드는 열기/저장 및 변환 중에 보존됩니다
+- 그것은 대부분의 필드의 결과를 업데이트 할 수 있습니다
 
-이 문서에서, 우리는 필드 구조에 대해 더 많은 것을 배울 것입니다, 지원되는 필드 Aspose.Words, 이러한 분야에서 일하는 내용.
+이 문서에서는 필드 구조,Aspose.Words에서 지원되는 필드 및 이러한 필드 작업에 대한 세부 정보에 대해 자세히 설명합니다.
 
-## 현장 구조
+## 필드 구조
 
-A 필드는 다음과 같습니다
+필드는:
 
-- - - 필드 시작 및 분리기 노드는 필드 코드 (일반적으로 일반 텍스트)를 만드는 콘텐츠를 무시하는 데 사용됩니다.
-- 필드 분리기 및 필드 엔드는 필드 결과를 우회합니다. 텍스트의 실행에서 테이블에 이르기까지 다양한 유형의 콘텐츠를 만들 수 있습니다.
-- 일부 필드는 전체 콘텐츠가 필드 코드를 구성하는 구분이 없습니다.
-- - - 필드 코드는 필드의 동작을 정의하고 필드 식별자 및 필드 이름과 스위치와 같은 다른 매개 변수를 구성합니다.
-- - - 필드 결과는 필드의 가장 최근 평가를 포함합니다. 이 값은 필드 결과에 저장되며 사용자가 표시된 것입니다. 일부 필드는 필드 결과가 없으므로 문서에서 아무것도 표시하지 않을 수 있습니다. 마찬가지로 일부 필드는 아직 업데이트되지 않을 수 있으므로 필드 결과가 없습니다.
+- 필드 시작 및 분리 노드는 필드 코드를 구성하는 내용을 포괄하는 데 사용됩니다(일반적으로 일반 텍스트로).
+- 필드 구분 기호 및 필드 끝은 필드 결과를 포함합니다. 이것은 텍스트의 실행에서 단락,테이블에 이르기까지 다양한 유형의 콘텐츠로 구성 될 수 있습니다.
+- 일부 필드에는 구분 기호가 없을 수 있으며 이는 전체 콘텐츠가 필드 코드를 구성한다는 것을 의미합니다.
+- 필드 코드는 필드의 동작을 정의하며 필드 식별자와 종종 필드 이름 및 스위치와 같은 다른 매개 변수로 구성됩니다.
+- 필드 결과는 필드의 가장 최근의 평가를 포함합니다. 이 값은 필드 결과에 저장되며 사용자에게 표시되는 값입니다. 일부 필드에는 필드 결과가 없을 수 있으므로 문서에 아무 것도 표시되지 않습니다. 마찬가지로 일부 필드는 아직 업데이트되지 않을 수 있으므로 필드 결과가 없습니다.
 
 ![fields-aspose-words-java](/words/java/introduction-to-fields/introduction-to-fields-1.png)
 
-필드 코드가 저장되는 내용 [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) 노드 사이 [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/) · [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/)· 결과가 저장됩니다. **FieldSeparator** · [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/) 노드는 다양한 종류의 콘텐츠를 만들 수 있습니다. 일반적으로 필드 결과에는 Run 노드로 구성 된 텍스트가 포함되어 있지만 FieldEnd 노드가 완전히 다른 단락에 위치하고 있으므로 필드 결과가 구성되었습니다. [문서의 노드의 논리 수준](/words/ko/java/logical-levels-of-nodes-in-a-document/) · **Table** · **Paragraph** 노드 뿐만 아니라.
+필드 코드를 구성하는 콘텐츠는[FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/)과[FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/)사이의[Run](https://reference.aspose.com/words/java/com.aspose.words/run/)노드로 저장됩니다. 필드 결과는**FieldSeparator**와[FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/)노드 사이에 저장되며 다양한 유형의 콘텐츠로 구성될 수 있습니다. 일반적으로 필드 결과에는 실행 노드로 구성된 텍스트만 포함되어 있지만FieldEnd노드가 완전히 다른 단락에 위치하여 필드 결과가 다음과 같이 구성될 수 있습니다 [블록 레벨 노드](/words/java/logical-levels-of-nodes-in-a-document/) **Table**및**Paragraph**노드도 마찬가지입니다.
 
-여기에 필드가 저장되는 방법의 전망은 Aspose.Words "*DocumentExplorer"* 예제를 사용하여 찾을 수 있습니다 [뚱 베어](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/java/com/aspose/words/examples/viewers_visualizers/document_explorer)·
+다음은"*DocumentExplorer"*예제"를 사용하여Aspose.Words에 필드가 어떻게 저장되는지에 대한 뷰입니다. [Github](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/java/com/aspose/words/examples/viewers_visualizers/document_explorer).
 
 ![document-explorer-aspose-words-java](/words/java/introduction-to-fields/introduction-to-fields-2.png)
 
-## 제품정보 Aspose.Words Document Object Model (주)DOM·
+## Aspose.Words문서 개체 모델(DOM)의 필드
 
-문서가 로드될 때 <span notrans="<span notrans=" Aspose.Words"=""></span>· 문서의 필드가 로드됩니다. Aspose.Words Document Object Model 별도의 구성 요소 (nodes)의 집합으로. 단일 필드는 컬렉션으로로드됩니다. **FieldStart**, **FieldSeparator** · **FieldEnd** 이 노드의 내용과 함께 노드. 필드가 필드가 없다면 그 결과가 없을 것 **FieldSeparator** 노드. 이 노드의 모든 것은 항상 인라인으로 발견됩니다 (아이들처럼) [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) 또는 [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/)·
+문서가Aspose.Words에 로드되면 문서의 필드가Aspose.Words문서 개체 모델에 별도의 구성 요소(노드)의 집합으로 로드됩니다. 단일 필드는 이러한 노드 사이의 콘텐츠와 함께**FieldStart**,**FieldSeparator**및**FieldEnd**노드의 컬렉션으로 로드됩니다. 필드에 필드 결과가 없으면**FieldSeparator**노드가 없습니다. 이 모든 노드는 항상[Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/)또는[SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/)의 자식으로 인라인으로 발견됩니다.
 
-내 계정 Aspose.Words 각각 **FieldXXX** 노드 derives에서 [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/)· 이 클래스는 지정된 노드에 의해 나타내는 필드의 유형을 확인하는 속성을 제공합니다. [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) 호텔 위치 예를 들어 `FieldType.FieldMergeField` 문서에 병합 필드를 나타냅니다.
+Aspose.Words에서**FieldXXX**의 각 노드는[FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/)에서 파생됩니다. 이 클래스는[FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/)속성을 통해 지정된 노드가 나타내는 필드 유형을 확인하는 속성을 제공합니다. 예를 들어`FieldType.FieldMergeField`는 문서의 병합 필드를 나타냅니다.
 
 {{% alert color="primary" %}}
 
-Word 문서에 존재하지 않는 특정 필드가 있습니다. Aspose.Words 이름 * **FieldXXX** 노드. 예를 들어, `LINK` 분야 및 `INCLUDEPICTURE` 분야는 수입됩니다 Aspose.Words 으로 [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) 이름 * 이 객체는 이 필드에 저장된 이미지 데이터로 작업할 수 있는 속성을 제공합니다. 수입하기 `INCLUDEPICTURE` 본문 바로가기 **FieldXXX** 노드 [PreserveIncludePictureField](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getPreserveIncludePictureField) 옵션은 지정해야 합니다. **true**·
+단어 문서에는**FieldXXX**노드의 컬렉션으로Aspose.Words로 가져오지 않는 특정 필드가 있습니다. 예를 들어,`LINK`필드와`INCLUDEPICTURE`필드는Aspose.Words에[Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/)개체로 가져옵니다. 이 개체는 이러한 필드에 일반적으로 저장된 이미지 데이터와 함께 작동하도록 속성을 제공합니다. `INCLUDEPICTURE`필드를**FieldXXX**노드로 가져오려면[PreserveIncludePictureField](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getPreserveIncludePictureField)옵션을**true**로 지정해야 합니다.
 
-형태 분야는 또한 수입됩니다 Aspose.Words 자신의 특별한 클래스로. 더 보기 [FormField](https://reference.aspose.com/words/java/com.aspose.words/formfield/) 클래스는 Word 문서의 양식 필드를 나타내며, 양식 필드에 특정한 추가 방법을 제공합니다.
+양식 필드는 또한Aspose.Words에 고유 한 특수 클래스로 가져옵니다. [FormField](https://reference.aspose.com/words/java/com.aspose.words/formfield/)클래스는 단어 문서의 양식 필드를 나타내며 양식 필드에 특정한 추가 메서드를 제공합니다.
 
 {{% /alert %}}
 
-## 지원되는 분야
+## 지원되는 필드
 
-다음 필드의 계산은 현재 버전에서 지원됩니다. Aspose.Words::
+다음 필드의 계산은Aspose.Words의 현재 버전에서 지원됩니다:
 
-- = (공식)
+- =(공식)
 - `ADDRESSBLOCK`
 - `ASK`
 - `AUTHOR`
@@ -122,41 +123,41 @@ Word 문서에 존재하지 않는 특정 필드가 있습니다. Aspose.Words �
 - `TIME`
 - `TITLE`
 - `TOA`
-- - - `TOC` (TOT 및 TOF 포함)
+- `TOC` (including TOT and TOF)
 - `USERADDRESS`
 - `USERINITIALS`
 - `USERNAME`
 
-## Sophisticated 필드 패링
+## 정교한 필드 구문 분석
 
-Aspose.Words 다음 방법 Microsoft Word 프로세스 필드와 결과가 올바르게 핸들:
+Aspose.Words는Microsoft Word이 필드를 처리하는 방식을 따르고 결과적으로 올바르게 처리합니다:
 
-- 배열된 분야:
-  `IF { =OR({ `COM뚱 베어` { =2.5 +PRODUCT(3,5 ,8.4) } > 4}, { =2/2 }) } = 1 "Credit not acceptable" "Credit acceptable"`
-- 필드 인수는 배열된 필드의 결과일 수 있습니다
-- 필드는 필드 코드뿐만 아니라 필드 결과에서 배열 할 수 있습니다
-- 공간 / 공간, 인용 / 인용문, 탈출 문자 등:
+- 중첩 필드:
+  `IF { =OR({ `COMPARE` { =2.5 +PRODUCT(3,5 ,8.4) } > 4}, { =2/2 }) } = 1 "Credit not acceptable" "Credit acceptable"`
+- 필드 인수는 중첩된 필드의 결과일 수 있습니다
+- 필드는 필드 결과뿐만 아니라 필드 코드 내에 중첩될 수 있습니다
+- 공백/공백 없음,따옴표/따옴표 없음,필드의 이스케이프 문자 등:
   `MERGEFIELD \f"Text after""Field \n\ame with \" and \\\ and \\\*"\bTextBefor\e`
-- 여러 단락을 맞은 필드
+- 여러 단락에 걸쳐 있는 필드
 
-### 공식 분야
+### 수식 필드
 
-Aspose.Words 공식 엔진의 매우 심각한 구현을 제공하며 다음을 지원합니다
+Aspose.Words은 수식 엔진의 매우 심각한 구현을 제공하며 다음을 지원합니다.:
 
-- arithmetic 및 논리 연산자:
+- 산술 및 논리 연산자:
   `=(54+4*(6-77)-(5))+(-6-5)/4/5`
 - 기능:
   `=ABS(-01.4)+2.645/(5.6^3.5)+776457 \\\# "#,##0"`
-- 책갈피에 참고:
+- 책갈피에 대한 참조:
   `=IF(C>4, 5,ABS(A)*.76) +3.85`
-- 번호 배열 스위치:
+- 숫자 서식 스위치:
   `=00000000 \\\# "$#,##0.00;($#,##0.00)"`
 
-표현의 뒤에 오는 기능은 지원됩니다: `ABS`, `AND`, `AVERAGE`, `COUNT`, `DEFINED`, `FALSE`, `IF`, `INT`, `MAX`, `MIN`, `MOD`, `NOT`, `OR`, `PRODUCT`, `ROUND`, `SIGN`, `SUM`, TRUE·
+식의 다음 함수가 지원됩니다: `ABS`, `AND`, `AVERAGE`, `COUNT`, `DEFINED`, `FALSE`, `IF`, `INT`, `MAX`, `MIN`, `MOD`, `NOT`, `OR`, `PRODUCT`, `ROUND`, `SIGN`, `SUM`, TRUE.
 
-### `IF` · `COMPARE` 제품정보
+### `IF` and `COMPARE` Fields
 
-그냥 몇 가지 `IF` 그 표현 Aspose.Words 쉽게 계산할 수 있습니다 당신에게 강력한이 기능의 아이디어를 제공:
+Aspose.Words이 쉽게 계산할 수 있는`IF`식 중 일부만 있으면 이 기능이 얼마나 강력한지에 대한 아이디어를 얻을 수 있습니다:
 
 - `IF 3 > 5.7^4+MAX(4,3) True False`
 - `IF "abcd" > "abc" True False`
@@ -164,64 +165,64 @@ Aspose.Words 공식 엔진의 매우 심각한 구현을 제공하며 다음을 
 - `IF 4 = "2*2" True False`
 - `COMPARE 3+5/34 < 4.6/3/2`
 
-### `DATE` · `TIME` 제품정보
+### `DATE` and `TIME` Fields
 
-Aspose.Words 모든 날짜 및 시간 형식 전환을 지원 Microsoft Word, 몇몇 예는:
+Aspose.WordsMicrosoft Word에서 사용할 수 있는 모든 날짜 및 시간 서식 스위치를 지원합니다.:
 
 - `DATE @ "d-MMM-yy"`
 - `DATE @ "d/MM/yyyy h:mm am/pm`
 
-### Mail Merge 제품정보
+### Mail Merge필드
 
-Aspose.Words 복잡성에 제한이 없습니다. mail merge 문서의 필드와 배열 지원 `IF` 그리고 수식 필드를 계산할 수도 있습니다.
+Aspose.Words은 문서에서Mail Merge필드의 복잡성에 제한을 두지 않으며 중첩`IF`및 수식 필드를 지원하며 수식을 사용하여 병합 필드의 이름을 계산할 수도 있습니다.
 
-몇 가지 예 mail merge 분야의 Aspose.Words 지원:
+Aspose.Words이 지원하는Mail Merge필드의 몇 가지 예:
 
-- - - Mail merge 공급 능력:
+- Mail merge필드 스위치:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
-- 공식에 배열된 병합 분야:
-  `IF { `채용정보` Value1 } >= { `채용정보` Value2 } True False`
-- 병합 필드의 이름을 runtime에서 계산:
-  `MERGEFIELD { `이름 *` { `채용정보` Value1 } >= { `채용정보` Value2 } FirstName"LastName" }`
-- 상태는 데이터 소스의 다음 레코드로 이동:
-  `NEXTIF { `채용정보` Value1 } <= { =IF(-2.45 >= 6*{ `채용정보` Value2 }, 2, -.45) }`
+- 수식에 중첩된 병합 필드:
+  `IF { `MERGEFIELD` Value1 } >= { `MERGEFIELD` Value2 } True False`
+- 런타임에 병합 필드 이름 계산:
+  `MERGEFIELD { `IF` { `MERGEFIELD` Value1 } >= { `MERGEFIELD` Value2 } FirstName"LastName" }`
+- 데이터 원본의 다음 레코드로 조건부 이동:
+  `NEXTIF { `MERGEFIELD` Value1 } <= { =IF(-2.45 >= 6*{ `MERGEFIELD` Value2 }, 2, -.45) }`
 
-### 형식 스위치
+### 포맷 스위치
 
-문서의 필드는 결과 값이 포맷되어야 하는지를 지정하는 스위치를 포맷 할 수 있습니다. Aspose.Words 뒤에 오는 체재 스위치를 지원합니다:
+문서의 필드에는 결과 값의 형식을 지정하는 형식 지정 스위치가 있을 수 있습니다. Aspose.Words은 다음 형식 스위치를 지원합니다:
 
-- @ - 날짜 및 시간 형식
-- \\# – 번호 포맷
-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ 회사 소개
-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ 더 보기
-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ 기타
-- \\\\\\\* CHARFORMAT - 필드 코드의 첫 문자에 따라 형식 결과
-- \\\\\\\* MERGEFORMAT - 오래된 결과가 형식화되는 방법에 따라 형식의 결과
+- @-날짜 및 시간 서식 지정
+- \\\#-숫자 서식 지정
+- \\\\\\\\* Caps
+- \\\\\\\\* FirstCap
+- \\\\\\\\* Lower
+- \\\\\\\\* Upper
+- \\\\\\\\* CHARFORMAT–필드 코드의 첫 번째 문자에 따라 결과 서식 지정
+- \\\\\\\\* MERGEFORMAT–이전 결과의 포맷 방식에 따라 결과 포맷
 
-### Date 필드에 형식 번호
+### 필드의 날짜 및 숫자 서식 지정
 
-시간: Aspose.Words 필드 결과를 계산, 그것은 종종 문자열을 숫자 또는 날짜 값으로 파싱하고 문자열로 다시 포맷해야합니다. 기본 정보 Aspose.Words 현재 스레드 문화를 사용하여 필드 업데이트 중 필드 값을 계산하고 형식화 할 수 있습니다. mail merge· 또한 옵션이 있습니다. [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions/) 필드 업데이 트 %에서 더 많은 제어 할 수있는 클래스
+Aspose.Words이 필드 결과를 계산할 때 문자열을 숫자 또는 날짜 값으로 구문 분석하고 다시 형식을 지정해야 하는 경우가 많습니다.string.By 기본Aspose.Words은 현재 스레드 문화권을 사용하여 필드 업데이트 및mail merge동안 필드 값을 계산할 때 구문 분석 및 서식을 수행합니다. 필드 업데이트 중에 사용되는 문화권을 추가로 제어할 수 있는[FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions/)클래스의 형태로 제공되는 옵션도 있습니다%
 
-* 기본적으로 [FieldUpdateCultureSource](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions/#getFieldUpdateCultureSource) 숙박 시설 [CurrentThread](https://reference.aspose.com/words/java/com.aspose.words/fieldupdateculturesource/#CURRENT-THREAD) 현재 스레드 문화를 사용하는 형식 필드
-* 이 속성은 설정할 수 있습니다. [FieldCode](https://reference.aspose.com/words/java/com.aspose.words/fieldupdateculturesource/#FIELD-CODE) 그래서 필드의 필드 코드에서 설정 언어 대신 포맷에 사용됩니다
+* 기본적으로[FieldUpdateCultureSource](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions/#getFieldUpdateCultureSource)속성은 현재 스레드 문화권을 사용하여 필드의 형식을 지정하는[CurrentThread](https://reference.aspose.com/words/java/com.aspose.words/fieldupdateculturesource/#CURRENT-THREAD)로 설정됩니다
+* 이 속성은[FieldCode](https://reference.aspose.com/words/java/com.aspose.words/fieldupdateculturesource/#FIELD-CODE)으로 설정할 수 있으므로 필드의 필드 코드에서 설정된 언어가 대신 서식 지정에 사용됩니다
 
-### 현재 스레드의 문화를 사용하여 포맷
+### 현재 스레드의 문화권을 사용하여 서식 지정
 
-필드 계산 중에 사용되는 문화를 제어하려면, 그냥 설정 **CurrentCulture** invoking 필드 계산 전에 선택의 문화에 재산.
+필드 계산 중에 사용되는 문화권을 제어하려면 필드 계산을 호출하기 전에**CurrentCulture**속성을 원하는 문화권으로 설정하기만 하면 됩니다.
 
-다음 코드 예제는 업데이트 중 형식 필드에 사용되는 문화를 변경하는 방법을 보여줍니다
+다음 코드 예제에서는 업데이트하는 동안 필드 서식 지정에 사용되는 문화권을 변경하는 방법을 보여 줍니다:
 
-EXAMPLE (Public wrapper CurrentThreadSettings.getLocale() 및 setLocale() 대신 개인의 `Thread.CurrentThread`.현재Culture
+EXAMPLE(공용 래퍼CurrentThreadSettings를 사용합니다.getLocale()및setLocale()대신 개인`Thread.CurrentThread`.CurrentCulture)
 
-현재 문화를 사용하여 필드를 포맷 할 수 있도록 시스템을 쉽게 제어하고 문서의 모든 필드가 현장 업데이트 중에 포맷되는 방법을 지속적으로 제어 할 수 있습니다.
+현재 문화권을 사용하여 필드 서식을 지정하면 시스템이 필드 업데이트 중에 문서의 모든 필드의 서식을 지정하는 방법을 쉽고 일관되게 제어할 수 있습니다.
 
-### 문서의 문화를 활용
+### 문서의 문화권을 사용하여 서식 지정
 
-다른 손에, Microsoft Word 각 개별 필드는 필드에서 발견 된 텍스트의 언어를 기반으로 (특히, 필드 코드에서 실행). 이 필드 업데이트 중 때때로 원하는 행동이 될 수 있습니다, 예를 들어, 많은 다른 언어로 만든 콘텐츠가 포함 된 글로벌화 된 문서를 가지고 각 필드는 텍스트에서 사용 된 Locale를 존중하기 위해. Aspose.Words 이 기능을 지원합니다.
+반면에Microsoft Word은 필드에서 찾은 텍스트의 언어(특히 필드 코드에서 실행)를 기반으로 각 개별 필드의 형식을 지정합니다. 때로는 필드 업데이트 중에 원하는 동작이 될 수 있습니다.예를 들어 여러 다른 언어로 구성된 콘텐츠가 포함 된 문서를 세계화하고 각 필드가 텍스트에서 사용 된 로캘을 존중하려는 경우. Aspose.Words도 이 기능을 지원합니다.
 
-더 보기 [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) 클래스는 [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/document/#getFieldOptions) 문서 내에서 필드를 업데이트하는 방법을 제어하는 데 사용할 수있는 구성원이 포함되어 있습니다.
+[Document](https://reference.aspose.com/words/java/com.aspose.words/document/)클래스는 문서 내에서 필드가 업데이트되는 방식을 제어하는 데 사용할 수 있는 멤버를 포함하는[FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/document/#getFieldOptions)속성을 제공합니다.
 
-다음 코드 예제는 필드 업데이트 중 날짜 형식에 사용되는 문화를 지정하는 방법을 보여줍니다. mail merge 에서 선택:
+다음 코드 예제에서는 필드 업데이트 및Mail Merge중 날짜 서식에 사용되는 문화권이 선택되는 위치를 지정하는 방법을 보여 줍니다:
 
-계정 만들기
+EXAMPLE

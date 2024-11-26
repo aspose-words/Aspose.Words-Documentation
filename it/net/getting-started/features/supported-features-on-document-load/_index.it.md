@@ -7,6 +7,7 @@ description: "Carica e converti un documento nella maggior parte dei formati pi√
 type: docs
 weight: 20
 url: /it/net/supported-features-on-document-load/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words consente agli utenti di lavorare con documenti in vari formati e offre un'ampia gamma di opzioni a questo scopo. Ad esempio, gli utenti possono creare un documento da zero o caricare un file esistente in qualsiasi [Formati di documenti supportati](/words/it/net/supported-document-formats/), apportare alcune modifiche a quel documento e quindi salvare il risultato. Quando si importa un documento nel formato selezionato, l'utente pu√≤ applicare varie opzioni di caricamento.

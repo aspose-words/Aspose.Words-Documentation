@@ -1,12 +1,13 @@
 ---
-title: Използване `DocumentBuilder` Промяна на документ
+title: Използване DocumentBuilder Промяна на документ
 second_title: Aspose.Words вместо Java
-articleTitle: Използване `DocumentBuilder` Промяна на документ
-linktitle: Използване `DocumentBuilder` Промяна на документ
+articleTitle: Използване DocumentBuilder Промяна на документ
+linktitle: Използване DocumentBuilder Промяна на документ
 type: docs
 description: "Използвайте строителя на документи, за да промените документа лесно в Java."
 weight: 20
 url: /bg/java/using-documentbuilder-to-modify-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Определяне на форматиране
@@ -203,7 +204,7 @@ Aspose.Words осигурява две свойства `ParagraphFormat.SnapToG
 
 ### Преместване в `Merge` Поле
 
-Понякога може да се наложи да извършите "ръчно" mail merge приложение `DocumentBuilder` или попълнете сливане поле по специален начин вътре в mail merge Наставник на събития. Тогава... [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) Може да е полезно. Методът приема името на полето за сливане. Премества курсора на позиция точно зад определено сливащо се поле и премахва сливащото се поле. Следният пример с код показва как да преместите курсора на позиция точно след определено сливащо се поле.
+Понякога може да се наложи да извършите "ръчно" Mail Merge приложение `DocumentBuilder` или попълнете сливане поле по специален начин вътре в Mail Merge Наставник на събития. Тогава... [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) Може да е полезно. Методът приема името на полето за сливане. Премества курсора на позиция точно зад определено сливащо се поле и премахва сливащото се поле. Следният пример с код показва как да преместите курсора на позиция точно след определено сливащо се поле.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 

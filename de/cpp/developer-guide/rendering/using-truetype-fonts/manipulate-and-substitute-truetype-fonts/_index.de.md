@@ -1,4 +1,4 @@
-﻿---
+---
 title: TrueType -Schriftarten in C++ bearbeiten und ersetzen
 second_title: Aspose.Words für C++
 articleTitle: TrueType-Schriftarten bearbeiten und ersetzen
@@ -7,6 +7,7 @@ description: "Aspose.Words für C++ kann die korrekten TrueType-Schriftarten in 
 type: docs
 weight: 10
 url: /de/cpp/manipulate-and-substitute-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words benötigt TrueType-Schriftarten für eine Vielzahl von Aufgaben, einschließlich der Darstellung von Dokumenten in Festseitenformaten, z. B. PDF oder XPS. Wenn Aspose.Words ein Dokument rendert, muss es das Einbetten und Einbetten von Teilmengen von TrueType -Schriftarten in das resultierende Dokument durchführen, was bei der Dokumenterstellung üblich ist, einschließlich gängiger PDF - oder XPS-Formate. Dadurch wird sichergestellt, dass das Dokument für jeden Betrachter gleich aussieht. Darüber hinaus erfordert die XPS -Spezifikation, dass Schriftarten immer in das Dokument eingebettet sind.

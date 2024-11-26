@@ -7,6 +7,7 @@ description: "Aspose.Words Sitemap Android Sitemap Java Platform yang didukung."
 type: docs
 weight: 40
 url: /id/java/aspose-words-for-android-via-java-supported-platforms/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words Sitemap Android Sitemap Java ditulis sepenuhnya Javahanya tergantung pada standar Java pustaka, dan dapat digunakan dalam Java aplikasi pada platform apa pun yang didukung oleh JavaSitemap Aspose.Words Sitemap Android Sitemap Java disediakan sebagai unduhan ZIP dan mengandung berikut:

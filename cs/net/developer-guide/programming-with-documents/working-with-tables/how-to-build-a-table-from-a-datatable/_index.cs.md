@@ -1,12 +1,13 @@
 ---
-title: Jak vytvořit stůl z `DataTable` tro C#
+title: Jak vytvořit stůl z DataTable tro C#
 second_title: Aspose.Words místo .NET
-articleTitle: Postavit stůl z `DataTable`
-linktitle: Postavit stůl z `DataTable`
+articleTitle: Postavit stůl z DataTable
+linktitle: Postavit stůl z DataTable
 description: "Příklad vyplnění tabulky dokumentů z externí databáze pomocí C#."
 type: docs
 weight: 120
 url: /cs/net/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Vaše aplikace často vytáhne data z databáze a uloží je ve formě **DataTable**. Tyto údaje můžete snadno vložit do dokumentu jako novou tabulku a rychle použít formátování do celé tabulky.

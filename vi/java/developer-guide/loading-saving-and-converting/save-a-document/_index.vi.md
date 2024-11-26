@@ -7,6 +7,7 @@ type: docs
 description: "Lưu một tài liệu ở bất kỳ định dạng nào được hỗ trợ bằng Java."
 weight: 20
 url: /vi/java/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hầu hết các nhiệm vụ mà bạn cần thực hiện với Aspose.Words liên quan đến việc lưu một tài liệu. Để lưu một tài liệu Aspose.Words cung cấp phương thức [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save(java.lang.String) của lớp [Document](https://reference.aspose.com/words/java/com.aspose.words/document/). Tài liệu có thể được lưu ở bất kỳ định dạng nào được hỗ trợ bởi Aspose.Words. Để biết danh sách tất cả các định dạng lưu được hỗ trợ, hãy xem qua [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) enumaration.

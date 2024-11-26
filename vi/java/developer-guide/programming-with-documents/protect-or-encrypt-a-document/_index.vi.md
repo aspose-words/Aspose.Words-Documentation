@@ -7,6 +7,7 @@ description: "Mã hóa tài liệu, hạn chế chỉnh sửa, sử dụng chữ
 type: docs
 weight: 50
 url: /vi/java/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Lý do chính để bảo vệ hoặc mã hóa một tài liệu là áp dụng sự kiểm soát hơn đối với người có thể truy cập vào tài liệu hoặc người có thể chỉnh sửa nó. Áp dụng bảo vệ cho các tài liệu của bạn, bạn tránh những rủi ro phổ biến như sao chép hoặc sửa đổi các tài liệu mà không có sự cho phép cũng như rò rỉ dữ liệu.

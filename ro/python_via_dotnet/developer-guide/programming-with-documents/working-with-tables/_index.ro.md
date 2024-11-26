@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu tabele în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Lucrul cu mese
@@ -7,6 +7,7 @@ description: "Lucrați cu tabele într-un document folosind Python. Introducerea
 type: docs
 weight: 190
 url: /ro/python-net/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un **table** într-un document este o modalitate excelentă de a structura date similare. De aceea, tabelele sunt un element comun de formatare a conținutului și sunt acceptate de majoritatea formatelor într-o formă sau alta.

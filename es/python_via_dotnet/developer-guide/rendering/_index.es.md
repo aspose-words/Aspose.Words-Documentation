@@ -7,6 +7,7 @@ description: "Utilice la función de representación Aspose.Words para Python vi
 type: docs
 weight: 20
 url: /es/python-net/rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Usamos el término "renderizado" en Aspose.Words para describir el proceso de convertir un documento a un formato de archivo o un medio paginado o que tenga el concepto de páginas. Estamos hablando de convertir un documento en páginas. El siguiente diagrama muestra qué es el renderizado en Aspose.Words.

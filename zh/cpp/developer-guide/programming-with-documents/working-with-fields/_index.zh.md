@@ -1,4 +1,4 @@
-﻿---
+---
 title: 使用C++中的字段
 second_title: Aspose.Words对于C++
 articleTitle: 与领域合作
@@ -7,6 +7,7 @@ description: "字段功能介绍 Aspose.Words对于C++."
 type: docs
 weight: 370
 url: /zh/cpp/working-with-fields/
+timestamp: 2024-01-30-16-22-34
 ---
 
 **字段**

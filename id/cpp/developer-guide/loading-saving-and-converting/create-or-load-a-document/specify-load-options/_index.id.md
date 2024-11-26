@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tentukan Opsi Muat di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Tentukan Opsi Muat
@@ -7,6 +7,7 @@ description: "Lebih akurat mengontrol proses pemuatan."
 type: docs
 weight: 10
 url: /id/cpp/specify-load-options/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Saat memuat dokumen, Anda dapat mengatur beberapa properti lanjutan. Aspose.Words memberi Anda kelas [LoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/loadoptions/), yang memungkinkan kontrol proses pemuatan yang lebih tepat. Beberapa format pemuatan memiliki kelas terkait yang menyimpan opsi pemuatan untuk format pemuatan ini, misalnya, ada [PdfLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/pdfloadoptions/) untuk memuat ke format PDF atau [TxtLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/txtloadoptions/) untuk memuat ke TXT. Artikel ini memberikan contoh bekerja dengan opsi dari kelas **LoadOptions**.

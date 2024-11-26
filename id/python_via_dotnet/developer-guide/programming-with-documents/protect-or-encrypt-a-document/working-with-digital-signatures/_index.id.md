@@ -7,6 +7,7 @@ description: "Tanda tangani dokumen secara digital dan deteksi, hitung, verifika
 type: docs
 weight: 40
 url: /id/python-net/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tanda tangan digital digunakan untuk mengautentikasi suatu dokumen untuk menetapkan bahwa pengirim dokumen tersebut adalah siapa mereka dan isi dokumen tersebut tidak diubah.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 문서 복제 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 문서 복제
@@ -7,6 +7,7 @@ type: docs
 description: "사용하여 동일한 복사본을 얻을 수있는 문서를 복제 C++. 복사본을 만들 때 원본 문서의 노드 및 속성이 복제됩니다."
 weight: 70
 url: /ko/cpp/clone-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 문서 복제는 원본 문서의 동일한 복사본을 만드는 프로세스로 성능을 향상시키고 잠재적인 메모리 누수를 방지할 수 있습니다.

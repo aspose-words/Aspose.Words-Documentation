@@ -8,6 +8,7 @@ type: docs
 description: "Aspose.Words para .NET executa SmartArt Cold Rendering, o que significa que ele organiza e renderiza objetos SmartArt se o desenho SmartArt pré-renderizado estiver ausente ou incorreto usando C#."
 weight: 330
 url: /pt/net/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Os gráficos SmartArt são usados para criar de forma rápida e fácil uma representação visual de informações. Você simplesmente escolhe entre um grande número de layouts que melhor se adaptam à sua situação. Essa facilidade de uso torna os gráficos SmartArt bastante populares para alguns propósitos.

@@ -7,6 +7,7 @@ description: "Aspose.Words cho Java sử dụng một số thuật toán mã hó
 type: docs
 weight: 80
 url: /vi/java/fips-mode/
+timestamp: 2024-05-08-10-19-58
 ---
 
 Aspose.Words sử dụng nhiều thuật toán mã hóa và băm khi xử lý tài liệu và bài viết này mô tả cách nó liên quan đến các tiêu chuẩn NIST.

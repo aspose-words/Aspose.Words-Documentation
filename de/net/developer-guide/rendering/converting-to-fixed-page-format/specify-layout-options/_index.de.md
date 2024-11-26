@@ -7,6 +7,7 @@ description: "Legen Sie Layoutoptionen für verschiedene Dokumentlayouts mit C# 
 type: docs
 weight: 10
 url: /de/net/specify-layout-options/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Mit Aspose.Words können Sie Ausgabedokumente mit verschiedenen Layouts erstellen, abhängig von den in den Eigenschaften der [LayoutOptions](https://reference.aspose.com/words/de/net/aspose.words.layout/layoutoptions/)-Klasse angegebenen Parametern. Einige dieser Eigenschaften ähneln einigen Menüoptionen der Microsoft Word-Benutzeroberfläche – sie werden in diesem Artikel beschrieben.

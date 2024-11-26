@@ -7,6 +7,7 @@ description: "Zašifrujte svůj dokument pomocí vhodných šifrovacích algorit
 type: docs
 weight: 20
 url: /cs/net/encrypt-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Šifrování je proces, který překládá čitelný text do nesmyslných sekvencí bytů, takže jej může číst pouze osoba, která má dešifrovací klíč nebo tajný kód. Tento proces hraje důležitou roli při zajišťování vašeho obsahu. Pomáhá zakódovat obsah, ověřit původ dokumentu, prokázat, že obsah nebyl po odeslání změněn a zajistit, aby údaje z dokumentu byly bezpečné.

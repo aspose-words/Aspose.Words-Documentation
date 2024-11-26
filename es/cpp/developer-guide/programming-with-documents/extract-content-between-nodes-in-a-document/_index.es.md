@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cómo Extraer Contenido Entre Nodos de Documentos
 second_title: Aspose.Words para C++
 articleTitle: Extraer Contenido entre Nodos en un Documento
@@ -7,6 +7,7 @@ type: docs
 description: "Extracción de contenido de documentos en diferentes usando C++."
 weight: 140
 url: /es/cpp/how-to-extract-selected-content-between-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Al trabajar con documentos, es importante poder extraer fácilmente contenido de un rango específico dentro de un documento. Sin embargo, el contenido puede consistir en elementos complejos como párrafos, tablas, imágenes, etc.

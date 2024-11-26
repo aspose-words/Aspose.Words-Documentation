@@ -1,4 +1,4 @@
-﻿---
+---
 title: Usando TrueType fontes em C++
 second_title: Aspose.Words para C++
 articleTitle: Utilização De Fontes TrueType
@@ -7,6 +7,7 @@ description: "Aspose.Words para C++ pode encontrar a fonte certa ou seu substitu
 type: docs
 weight: 20
 url: /pt/cpp/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ao trabalhar com documentos, muitas vezes você precisa usar fontes, estilos e tamanhos diferentes. Os documentos podem conter qualquer número de fontes, que não se limitam necessariamente às fontes instaladas no sistema operativo. As fontes podem ser completamente diferentes, como fontes retiradas de outros sistemas operacionais, compradas ou criadas pelos próprios usuários.

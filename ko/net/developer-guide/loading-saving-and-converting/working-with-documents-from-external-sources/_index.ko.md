@@ -7,6 +7,7 @@ description: "C#에서 외부 소스의 문서를 로드하는 방법. C#를 사
 type: docs
 weight: 40
 url: /ko/net/working-with-documents-from-external-sources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 이 섹션에서는 SharePoint 문서 저장소 또는 데이터베이스와 같은 외부 소스에서 문서를 로드하는 방법에 대한 정보를 제공합니다. 이러한 문서를 받은 후에는 Aspose.Words의 강력한 기능을 사용하여 필요한 모든 변경 작업을 수행할 수 있을 뿐만 아니라 이 문서를 데이터 소스로 다시 로드할 수도 있습니다.

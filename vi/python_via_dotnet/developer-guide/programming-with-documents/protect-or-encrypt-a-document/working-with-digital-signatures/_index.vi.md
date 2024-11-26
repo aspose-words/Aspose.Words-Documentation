@@ -7,6 +7,7 @@ description: "Ký điện tử các tài liệu và phát hiện, đếm, xác m
 type: docs
 weight: 40
 url: /vi/python-net/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Chữ ký điện tử được sử dụng để xác thực một tài liệu nhằm chứng minh rằng người gửi tài liệu đúng như họ nói và nội dung của tài liệu không bị giả mạo.

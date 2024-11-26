@@ -1,4 +1,4 @@
-﻿---
+---
 title: Áp Dụng Định dạng Tùy chỉnh Cho Các Trường trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Áp Dụng Định Dạng Tùy chỉnh Cho Các Trường
@@ -7,6 +7,7 @@ description: "Định dạng và đánh giá kết quả trường bằng C++."
 type: docs
 weight: 40
 url: /vi/cpp/applying-custom-formatting-to-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi người dùng cần áp dụng định dạng tùy chỉnh cho các trường. Trong bài viết này, chúng tôi sẽ xem xét một vài ví dụ về cách điều này có thể được thực hiện.

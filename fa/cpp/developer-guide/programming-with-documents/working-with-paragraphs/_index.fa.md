@@ -1,4 +1,4 @@
-﻿---
+---
 title: کار با پاراگراف ها در C++
 second_title: Aspose.Words برای C++
 articleTitle: کار با پاراگراف ها
@@ -7,6 +7,7 @@ description: "شیوه های دستکاری گره پاراگراف با است
 type: docs
 weight: 210
 url: /fa/cpp/working-with-paragraphs/
+timestamp: 2024-01-30-16-22-34
 ---
 
 یک پاراگراف مجموعه ای از کاراکترها است که در یک بلوک منطقی ترکیب شده و با یک کاراکتر خاص به پایان می رسد – a *paragraph break*. در Aspose.Words، یک پاراگراف توسط کلاس [Paragraph](https://reference.aspose.com/words/cpp/aspose.words/paragraph/) نشان داده می شود.

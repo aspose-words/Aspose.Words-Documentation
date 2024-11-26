@@ -7,6 +7,7 @@ type: docs
 description: "Gelişmiş belge içeriği yönetimi, Java kullanarak içerik kontrollerini (Yapılandırılmış Belge Etiketleri) nasıl oluşturup manipüle edeceğini gösterir."
 weight: 390
 url: /tr/java/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Bir şablondan içerik denetimlerini ve onay kutularını, metin kutularını, tarih seçicilerini ve açılır listeleri ekleyerek bir formu oluşturmak için Microsoft Word 'de başlayabilirsiniz. Aspose.Words'da bir yapılandırılmış belge etiketi veya herhangi bir belge yüklenen Aspose.Words içeriği kontrol bir StructuredDocumentTag düğümü olarak içe aktarılır. Yapılandırılmış belge etiketleri (SDT veya içerik kontrolü) müşteri tanımlı semantiği, davranışını ve görünümünü bir belgeye gömerek bunu mümkün kılar.

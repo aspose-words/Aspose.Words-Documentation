@@ -7,6 +7,7 @@ description: "Bạn Aspose.Words cho Java có thể nhúng các kiểu chữ Tru
 type: docs
 weight: 10
 url: /vi/java/manipulate-and-substitute-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Mục Aspose.Words yêu cầu các phông chữ TrueType cho một loạt các nhiệm vụ, bao gồm cả việc hiển thị tài liệu theo định dạng trang cố định, ví dụ như PDF hoặc XPS. Khi Aspose.Words hiển thị một tài liệu, nó cần phải thực hiện việc nhúng và nhúng tập con của phông chữ TrueType vào tài liệu kết quả, đó là một thực hành thông thường trong quá trình tạo tài liệu, bao gồm các định dạng phổ biến PDF hay XPS. Điều này đảm bảo rằng tài liệu sẽ xuất hiện giống nhau với bất kỳ ai xem nó. Ngoài ra, thông số kỹ thuật XPS yêu cầu phông chữ phải luôn được nhúng trong tài liệu.

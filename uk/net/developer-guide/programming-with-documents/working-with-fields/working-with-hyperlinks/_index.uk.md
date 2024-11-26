@@ -7,6 +7,7 @@ description: "Як додати гіперпосилання в ваш доку�
 type: docs
 weight: 50
 url: /uk/net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Гіперпосилання в Microsoft Word Документи `HYPERLINK` поле. У Aspose.Words, гіперпосилання реалізуються через [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) клас.

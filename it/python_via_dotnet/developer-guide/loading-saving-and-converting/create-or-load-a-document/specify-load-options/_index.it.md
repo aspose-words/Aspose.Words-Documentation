@@ -7,6 +7,7 @@ description: "Controlla in modo più accurato il processo di caricamento utilizz
 type: docs
 weight: 10
 url: /it/python-net/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Quando carichi un documento, puoi impostare alcune proprietà avanzate. Aspose.Words fornisce la classe [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/), che consente un controllo più preciso del processo di caricamento. Alcuni formati di caricamento hanno una classe corrispondente che contiene le opzioni di caricamento per questo formato di caricamento, ad esempio c'è [PdfLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/pdfloadoptions/) per il caricamento in formato PDF o [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/) per il caricamento in TXT. Questo articolo fornisce esempi di utilizzo delle opzioni della classe [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/).

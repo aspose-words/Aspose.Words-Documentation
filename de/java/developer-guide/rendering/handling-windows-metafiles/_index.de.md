@@ -1,53 +1,54 @@
----
-title: Handhabung Windows Metafiles in Java
+﻿---
+title: Behandlung von Windows Metadateien in Java
 second_title: Aspose.Words für Java
-articleTitle: Handhabung Windows Metafiles
-linktitle: Handhabung Windows Metafiles
-description: "Aspose.Words für Java setzt eigene Windows Metafile-Player, um Metafile-Format auf allen Plattformen zu spielen und unterstützt die Handhabung der grundlegenden Metafile-Funktionen und kann Fallback zu einer anderen Art von Metafile-Player durchführen."
+articleTitle: Umgang mit Windows Metadateien
+linktitle: Umgang mit Windows Metadateien
+description: "Aspose.Words für Java implementiert einen eigenen Windows Metadatei-Player zum Abspielen von Metadateiformaten auf allen Plattformen und unterstützt die Handhabung der grundlegenden Metadateifunktionen und kann einen Fallback auf einen anderen Typ von Metadatei-Player durchführen."
 type: docs
 weight: 30
 url: /de/java/handling-windows-metafiles/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Windows Metafile Format ist ein Bilddateiformat, das sowohl Vektor- als auch Rastergrafiken enthalten kann. Dieses Format wird verwendet, um Grafikdaten in Speicher- oder On-Disk-Dateien zu speichern. Eine Metadatei speichert eine Liste von Funktionsaufrufen in der Windows Grafik Geräteschnittstelle (GDI), die ausgeführt werden muss, um das Bild auf dem Bildschirm anzuzeigen. Das System interpretiert und führt diese Befehle im Anzeigekontext aus.
+Das Metadateiformat Windows ist ein Bilddateiformat, das sowohl Vektor- als auch Rastergrafiken enthalten kann. Dieses Format wird zum Speichern von Grafikdaten im Speicher oder in Dateien auf der Festplatte verwendet. Eine Metadatei speichert eine Liste von Funktionsaufrufen in der Windows -Grafikgeräteschnittstelle (GDI), die ausgeführt werden müssen, um das Bild auf dem Bildschirm anzuzeigen. Das System interpretiert und führt diese Befehle im Anzeigekontext aus.
 
-Früher, Windows Metafile war das einzige Vektorbildformat, das von Microsoft Word. Microsoft Word unterstützt nun auch das SVG-Format, aber das Metafile-Format wird noch häufig in Word-Dokumenten verwendet. Metafile könnte auch ein Austauschformat für einige andere Anwendungen sein, wie zum Beispiel Microsoft Visio. Im Wesentlichen besteht der Hauptzweck von Metafile darin, den Austausch von grafischen Informationen zwischen Windows Anwendungen.
+Früher war die Metadatei Windows das einzige von Microsoft Word unterstützte Vektorbildformat. Microsoft Word unterstützt jetzt auch das SVG -Format, aber das Metadateiformat wird immer noch häufig in Word-Dokumenten verwendet. Metadatei könnte auch ein Austauschformat für einige andere Anwendungen sein, z. B. Microsoft Visio. Im Wesentlichen besteht der Hauptzweck von Metadateien darin, den Austausch grafischer Informationen zwischen Windows Anwendungen sicherzustellen.
 
-Es gibt 3 Versionen von Windows Metafile:
+Es gibt 3 Versionen der Metadatei Windows:
 
-- WMF – Läden rufen zu 16bit GDI.
-- EMF – Läden rufen an Win32/GDI.
-- EMF+ Metafile-Stores rufen GDI+ an. EMF+ Metafile kann auch dual sein und die gleichen Grafiken mit EMF und EMF+ Teilen beschreiben.
+- WMF - speichert den Anruf auf 16 Bit GDI.
+- EMF - speichert den Aufruf von Win32 /GDI.
+- EMF+ Metadatei speichert den Aufruf von GDI+. EMF+ Metadatei kann auch dual sein und dieselbe Grafik mit EMF - und EMF+ -Teilen beschreiben.
 
-Das bestehende Problem mit Windows Metafile ist, dass es nicht von den meisten nicht-Word-Formaten unterstützt wird, auf die Dokumente in der Regel gespeichert werden. Daher ist es erforderlich, das Metafile-Format in andere Raster- oder Vektorformate zu konvertieren. Es ist einfach zu konvertieren Windows Metafile zu einem Rasterbild auf .NET durch einfaches Übergeben an GDI+, aber es ist auf anderen Plattformen nicht möglich, da selbst GDI+ nicht die Funktionalität bietet, die Vektorgrafiken aus Metafile zu extrahieren. Um diese Probleme zu lösen, Aspose.Words setzt eigene Windows Metafile-Player, der in der Lage ist, Metafile-Format sowohl Vektor- als auch Rastergrafiken auf allen Plattformen zu spielen.
+Das bestehende Problem mit der Metadatei Windows besteht darin, dass sie von den meisten Nicht-Word-Formaten, in denen Dokumente normalerweise gespeichert werden, nicht unterstützt wird. Daher ist es erforderlich, das Metadateiformat in andere Raster- oder Vektorformate zu konvertieren. Es ist einfach, Windows Metadatei in ein Rasterbild auf .NET zu konvertieren, indem es einfach an GDI+ übergeben wird, aber es ist auf anderen Plattformen nicht möglich, da selbst GDI+ nicht die Funktionalität zum Extrahieren der Vektorgrafiken bietet aus der Metadatei. Um diese Probleme zu lösen, implementiert Aspose.Words einen eigenen Windows Metadatei-Player, der sowohl Vektor- als auch Rastergrafiken im Metadateiformat auf allen Plattformen abspielen kann.
 
-## Steuerung der Aspose.Words Metafile Player
+## Steuern des Metadatei-Players Aspose.Words
 
-Die [MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/metafilerenderingoptions/) class ermöglicht es Ihnen, den Metadatei-Player zu steuern. So können Sie z.B. feststellen, wie Metadateibilder mit Hilfe der [RenderingMode](https://reference.aspose.com/words/java/com.aspose.words/metafilerenderingmode/) Eigenschaft, die eine besondere Bedeutung bei der Konvertierung in Bitmaps hat (siehe auch die [MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getMetafileRenderingOptions) Eigentum).
+Mit der Klasse [MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/metafilerenderingoptions/) können Sie den Metadatei-Player steuern. Beispielsweise können Sie mit der Eigenschaft [RenderingMode](https://reference.aspose.com/words/java/com.aspose.words/metafilerenderingmode/) festlegen, wie Metadateibilder gerendert werden sollen, was bei der Konvertierung in Bitmaps eine besondere Bedeutung hat (siehe auch die Eigenschaft [MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getMetafileRenderingOptions)).
 
-## Unterstützung von Rasteroperationen
+## Unterstützung von Raster-Operationen
 
-Rasteroperationen sind eine komplexe Metadatei-Funktion, die derzeit begrenzte Unterstützung hat. Rasteroperationen sind in WMF- und EMF-Metadateiformaten verfügbar. Das EMF+ Metafile-Format verwendet nicht direkt Rasteroperationen, sondern kann EMF-Teile, eingebettete WMF- oder EMF-Metadateien enthalten.
+Raster-Operationen sind eine komplexe Metadatei-Funktion, die derzeit nur begrenzt unterstützt wird. Raster-Operationen sind in den Metadateiformaten WMF und EMF verfügbar. Das Metadateiformat EMF+ verwendet keine Rasteroperationen direkt, sondern kann EMF-Teile, eingebettete WMF- oder EMF-Metadateien enthalten.
 
 Es gibt binäre und ternäre Rasteroperationen:
 
-- Binäre Rasteroperationen werden auf Stift-Zeichnungsbefehle angewendet, wie z.B. Zeichenlinien und Kurven. Beim Zeichnen einer Zeile wird die Stiftfarbe mit der Ziel-Bitmap-Farbe (die Farbe des entsprechenden Pixels auf der Geräteoberfläche) kombiniert, indem bestimmte bitweise logische Operationen mit Hex-Farbwerten verwendet werden. Das nachfolgende Bildbeispiel verdeutlicht die Wirkung aller 16 binären Rasteroperationen, die auf 20 verschiedene Farbbarren angewendet werden. Die vertikalen Farbstäbe werden zuerst gezeichnet, die horizontalen Balken werden nach jedem binären Rastervorgang gezogen. Für die einfachen Fälle, R2_BLACK zieht schwarz, R2_NOT umgekehrt die Farbe, R2_NOP den Hintergrund nicht ändert, und R2_WHITE zieht weiß.
+- Binäre Rasteroperationen werden auf Stiftzeichnungsbefehle angewendet, z. B. zum Zeichnen von Linien und Kurven. Beim Zeichnen einer Linie wird die Stiftfarbe mit der Ziel-Bitmap-Farbe (der Farbe des entsprechenden Pixels auf der Geräteoberfläche) kombiniert, indem festgelegte bitweise logische Operationen mit hexadezimalen Farbwerten verwendet werden. Das folgende Bildbeispiel veranschaulicht den Effekt aller 16 binären Raster-Operationen, die auf 20 verschiedene Farbbalken angewendet wurden. Die vertikalen Farbbalken werden zuerst gezeichnet, die horizontalen Balken werden nach jeder binären Rasteroperation gezeichnet. In den einfachen Fällen zeichnet R2_BLACK Schwarz, R2_NOT kehrt die Farbe um, R2_NOP ändert den Hintergrund nicht und R2_WHITE zeichnet Weiß.
 
 <img src="/words/java/handling-windows-metafiles/handling-windows-metafiles-1.png" alt="handling-windows-metafiles-aspose-words-java-1" style="width:650px"/>
 
-- Ternäre Rasteroperationen werden beim Zeichnen von Bitmap-Bildern angewendet. Sie kombinieren Farben von entsprechenden Bitmap-Bildpixeln, der Bürste und der Zielbitmap, indem sie bitweise logische Operationen mit vorgegebenen Hex-Farbwerten verwenden. Eines der häufigsten Zwecke der Verwendung von ternären Rasteroperationen ist die Emulation der Transparenz. Das im folgenden Beispiel bereitgestellte Bild zeigt, wie Icontransparenz emuliert werden kann. Es gibt zwei Arten von Bitmaps: die b/w Maske Bitmap und die Farbe Bitmap. Zunächst wird die Maskenbitmap mit dem SRCAND-Raster-Betrieb gezeichnet. Es ändert den opaken Ikonenbereich nach schwarz und weiß, so dass der transparente Bereich unverändert bleibt. Dann wird die zweite Bitmap mit der SRCINVERT Rasteroperation gezeichnet. Es zeigt die Farbpixel auf dem schwarzen Bereich, so dass der transparente Bereich unverändert bleibt.
+- Ternäre Rasteroperationen werden beim Zeichnen von Bitmap-Bildern angewendet. Sie kombinieren die Farben der entsprechenden Bitmap-Bildpixel, des Pinsels und der Ziel-Bitmap mithilfe bitweiser logischer Operationen mit angegebenen hexadezimalen Farbwerten. Einer der häufigsten Zwecke der Verwendung von ternären Rasteroperationen ist die Emulation von Transparenz. Das Bild im folgenden Beispiel zeigt, wie die Symboltransparenz emuliert werden kann. Es gibt zwei Arten von Bitmaps: die S/W-Masken-Bitmap und die Farb-Bitmap. Zuerst wird die Maskenbitmap mit der SRCAND-Rasteroperation gezeichnet. Es ändert den undurchsichtigen Symbolbereich in Schwarzweiß, wobei der transparente Bereich unverändert bleibt. Dann wird die zweite Bitmap mit der SRCINVERT-Rasteroperation gezeichnet. Es zeigt die Farbpixel im schwarzen Bereich an, wobei der transparente Bereich unverändert bleibt.
 
 <img src="/words/java/handling-windows-metafiles/handling-windows-metafiles-2.png" alt="handling-windows-metafiles-aspose-words-java-2" style="width:650px"/>
 
-Rasteroperationen können nicht direkt in Vektorgrafiken umgewandelt werden. Aspose.Words emuliert Rasteroperationen durch teilweise Rasterung der von Rasteroperationen betroffenen Geräteoberfläche. Zu diesem Zweck [EmulateRasterOperations](https://reference.aspose.com/words/java/com.aspose.words/metafilerenderingoptions/#getEmulateRasterOperations) Eigentum wird verwendet.
+Rasteroperationen können nicht direkt in Vektorgrafiken konvertiert werden. Aspose.Words emuliert Rasteroperationen, indem die von Rasteroperationen betroffene Geräteoberfläche teilweise gerastert wird. Zu diesem Zweck wird die Eigenschaft [EmulateRasterOperations](https://reference.aspose.com/words/java/com.aspose.words/metafilerenderingoptions/#getEmulateRasterOperations) verwendet.
 
 {{% alert color="primary" %}}
 
-Während die binären Raster-Operationen derzeit nicht unterstützt werden und die begrenzte Anzahl der ternären Raster-Operationen von Aspose.Words, es kann die grundlegenden Fälle der Umwandlung in Vektorgrafiken direkt behandeln, zum Beispiel R2_BLACK, R2_WHITE, R2_NOP. Auch die Rasterung der Geräteoberfläche wirkt sich deutlich auf die Leistung aus, insbesondere wenn es sich um die signifikante Anzahl von Raster-Betriebsaufzeichnungen handelt.
+Während binäre Rasteroperationen derzeit nicht unterstützt werden und die begrenzte Anzahl von ternären Rasteroperationen von Aspose.Words unterstützt wird, kann es die grundlegenden Fälle der Konvertierung in Vektorgrafiken direkt behandeln, zum Beispiel, R2_BLACK, R2_WHITE, R2_NOP. Außerdem wirkt sich die Rasterung der Geräteoberfläche erheblich auf die Leistung aus, insbesondere wenn es sich um eine erhebliche Anzahl von Raster-Vorgangsdatensätzen handelt.
 
 {{% /alert %}}
 
-Das nachfolgende Beispiel zeigt, wie Aspose.Words macht eine Metadatei zu einer Bitmap, wenn es nicht möglich ist, einige der Metafile-Daten korrekt auf Vektorgrafiken zu übertragen:
+Das unten gezeigte Beispiel zeigt, wie Aspose.Words eine Metadatei in eine Bitmap rendert, wenn es nicht möglich ist, einige der Metadatendatensätze korrekt in Vektorgrafiken zu rendern:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HandleDocumentWarnings-HandleDocumentWarnings.java" >}}
 

@@ -1,90 +1,91 @@
----
+﻿---
 title: Android عبر Java الاختلافات
 second_title: Aspose.Words
-articleTitle: Aspose.Words for Android عبر Java القيود API الاختلافات
-linktitle: Aspose.Words for Android عبر Java القيود API الاختلافات
-description: "Aspose.Words for Android عبر Java السمات والسمات API الفروق التي تقارن بالاختلافات المنتظمة Aspose.Words for Java نسخة."
+articleTitle: Aspose.Words ل Android عبر Java القيود و API الاختلافات
+linktitle: Aspose.Words ل Android عبر Java القيود و API الاختلافات
+description: "Aspose.Words ل Android عبر Java الميزات و API الاختلافات مقارنة العادية Aspose.Words ل Java الإصدار."
 type: docs
 weight: 50
 url: /ar/java/aspose-words-for-android-via-java-limitations-and-api-differences/
+timestamp: 2024-01-27-14-07-04
 ---
 
-## حدود Aspose.Words for Android عبر Java API بالمقارنة مع Aspose.Words for Java API
+## حدود Aspose.Words لـ Android عبر Java API مقارنة بـ Aspose.Words لـ Java API
 
-1 * لا تتوفر الوثائق.
-1 إنقاذ **TIFF** و **BMP** الأشكال غير مدعومة، وإن كانت *SaveFormat.TIFF* و *SaveFormat.BMP* متاحة للجمهور Aspose.Words for Android عبر Java API, لكن *UnsupportedOperationException* يُلقى عندما تستخدم أشكال الإنقاذ هذه.
-1 القراءة **TIFF** ولا تدعم الصور.
-1 التوقيع **ODT** ولم تدعم الوثائق بعد.
-1 (باركوديس) غير مدعوم
-1 الخادمات على طول المنحنى لا تدعم
-1 الطباعة غير مدعومة
+1. طرق *Document.print *غير متوفرة.
+1. الحفظ بتنسيقي **TIFF** و **BMP** غير مدعوم، على الرغم من أن *SaveFormat.TIFF* و *SaveFormat.BMP* متاحان في الأماكن العامة Aspose.Words لـ Android عبر Java API، ولكن يتم طرح *UnsupportedOperationException* عند استخدام تنسيقات الحفظ هذه.
+1. قراءة **TIFF** الصور غير مدعومة.
+1. التوقيع **ODT** المستندات غير مدعومة حتى الآن.
+1. الرموز الشريطية غير مدعومة.
+1. التدرجات على طول المنحنى غير مدعومة
+1. الطباعة غير مدعومة
 
-## الجمهور API الاختلافات
+## عامة API الاختلافات
 
--الآليين تُستخدم البخار بدلاً من الجافا. التصوير؛
--الآليين (ج) تستخدم الشموع بدلاً من الـ(جوفا) و(التصوير) (Graphics2D)؛
--الآليين Rect F is used instead of java.awt.geom.Rectangle2D. Float;
--الآليات (ف) يُستخدم بدلاً من (جافا) و(أوت جيوم) Float;
--الآليين (ريك) يستخدم بدلاً من (جافا) Rectangle;
--الآليين النقطة تستخدم بدلا من جافا نقطة
+- الروبوت.الرسومات.يتم استخدام الصورة النقطية بدلا من جافا.أوت.صورة.BufferedImage;
+- الروبوت.الرسومات.يستخدم قماش بدلا من جافا.أوت.صورة.رسومات2د;
+- الروبوت.الرسومات.يستخدم ريكتف بدلا من جافا.أوت.(جيوم).مستطيل 2 د. تعويم;
+- الروبوت.الرسومات.يستخدم بوينتف بدلا من جافا.أوت.(جيوم).نقطة 2 د. تعويم;
+- الروبوت.الرسومات.يستخدم المستقيم بدلا من جافا.أوت.مستطيل;
+- الروبوت.الرسومات.يتم استخدام نقطة بدلا من جافا.أوت.نقطة.
 
-انظر: API الأساليب:
+راجع الطرق العامة API التالية:
 
-1 كوم
-   1 - يدرج الرمز (Bitmap)
-   1 - الإدخال (Bitmap, double, double)
-   1 - الإدخال (Bitmap, int, double, int, double, double, double, double, int)
-   1 - يدرج الرمز (Bitmap)
-   1 - إدراج حقن (InputStream, String, boolean, Bitmap)
-   1 - إدراج موضوع (التنقيب، والفولان، والبوليان، والباتمب)
-   1 - إدراج موضوع (التنقيب، والسترينغ، والبوليان، والبوليان، والباتمب)
-1 غيبوبة
-   1. Bitmap getBarcode Image (BarcodeParameters)
-   1. Bitmap getOldBarcode Image (BarcodeParameters)
-1 كوم
-   1. setImage (Bitmap)
-   1. Bitmap toImage
-1 كوم.aspose.words.Image FieldMergingArgs:
-   1. Bitmap getImage
-   1. setImage (Bitmap)
-1. com.aspose.words.Document:
-   1 - الروبوتات F renderToScale(int, Canvas, float, float, float)
-   1. float renderToSize(int, Canvas, float, float, float, float, float)
-1 مشط
-   1 RectF الحصول على Rectangle يلقي الاستثناء
-1 هيا بنا
-   1 - الروبوتات
-   1 RectF getOpaqueBoundsInPoints
-   1. public android.graphics.PointF getSizeInPixels (float, float)
-   1 - الروبوتات Rect getBoundsInPixels (float, float)
-   1 - الروبوتات Rect getOpaqueBoundsInPixels (float, float)
-   1 - الروبوتات F renderToScale (Canvas, float, float)
-   1. float renderToSize(Canvas, float, float, float, float)
-1 كوم.aspose.words.PageInfo:
-   1 - روايات الروبوتات
-   1 - الروبوتات
-1 Shape القاعدة:
-   1 - الروبوتات RectF adjustWithEffects(android.graphics.RectF)
-   1 RectF يحصل على £
-   1 RectF يحصل على BoundsInPoints
-   1 RectF يحصل على الجند مع التأثيرات
-   1 نقطة الحصول على كورد أوريجين
-   1 - الروبوتات
-   1 - الروبوتات
-   1 - روايات الروبوتات
-   1. setBounds(android.graphics.RectF)
-   1. setCoordOrigin (android.graphics.Point)
-   1. setCoordSize(android.graphics.PointF)
-1 com.aspose.words.ThumbnailGeneratingOptions:
-   1 - الروبوتات
-   1. setThumbnailSize(android.graphics.PointF)
+1. كوم.أسبوس.كلمات.DocumentBuilder:
+   1. insertImage (صورة نقطية)
+   1. insertImage (صورة نقطية، مزدوجة، مزدوجة)
+   1. insertImage(صورة نقطية، كثافة العمليات، مزدوجة، كثافة العمليات، مزدوجة، مزدوجة، مزدوجة، كثافة العمليات)
+   1. insertOleImage (صورة نقطية)
+   1. insertOleObject (InputStream، سلسلة، منطقية، صورة نقطية)
+   1. insertOleObject (سلسلة، منطقية، منطقية، نقطية)
+   1. insertOleObject (سلسلة، سلسلة، منطقية، منطقية، صورة نقطية)
+1. كوم.أسبوس.كلمات.IBarcodeGenerator:
+   1. صورة نقطية getBarcodeImage (BarcodeParameters)
+   1. صورة نقطية getOldBarcodeImage (BarcodeParameters)
+1. كوم.أسبوس.كلمات.ImageData:
+   1. setImage (صورة نقطية)
+   1. صورة نقطية toImage()
+1. كوم.أسبوس.كلمات.ImageFieldMergingArgs:
+   1. صورة نقطية getImage()
+   1. setImage (صورة نقطية)
+1. كوم.أسبوس.كلمات.الوثيقة:
+   1. الروبوت.الرسومات.نقطة renderToScale (كثافة العمليات، قماش، تعويم، تعويم، تعويم) يلقي استثناء
+   1. تعويم renderToSize (كثافة العمليات، قماش، تعويم، تعويم، تعويم، تعويم) يلقي استثناء
+1. كوم.أسبوس.كلمات.LayoutEnumerator:
+   1. الروبوت.الرسومات.ريكتف getRectangle () يلقي استثناء
+1. كوم.أسبوس.كلمات.NodeRendererBase:
+   1. الروبوت.الرسومات.نقطة getSizeInPoints ()
+   1. الروبوت.الرسومات.ريكتف getOpaqueBoundsInPoints()
+   1. الروبوت العام.الرسومات.نقطة getSizeInPixels (تعويم، تعويم)
+   1. الروبوت.الرسومات.المستقيم getBoundsInPixels (تعويم، تعويم)
+   1. الروبوت.الرسومات.المستقيم getOpaqueBoundsInPixels (تعويم، تعويم)
+   1. الروبوت.الرسومات.نقطة renderToScale (قماش، تعويم، تعويم، تعويم)
+   1. تعويم renderToSize (قماش، تعويم، تعويم، تعويم، تعويم)
+1. كوم.أسبوس.كلمات.PageInfo:
+   1. الروبوت.الرسومات.نقطة getSizeInPixels (تعويم، تعويم)
+   1. الروبوت.الرسومات.نقطة getSizeInPoints ()
+1. كوم.أسبوس.كلمات.ShapeBase:
+   1. الروبوت.الرسومات.ريكتف adjustWithEffects (أندرويد.الرسومات.ريكتف)
+   1. الروبوت.الرسومات.ريكتف getBounds()
+   1. الروبوت.الرسومات.ريكتف getBoundsInPoints()
+   1. الروبوت.الرسومات.ريكتف getBoundsWithEffects()
+   1. الروبوت.الرسومات.نقطة getCoordOrigin()
+   1. الروبوت.الرسومات.نقطة getCoordSize ()
+   1. الروبوت.الرسومات.نقطة getSizeInPoints ()
+   1. الروبوت.الرسومات.بوينتف localToParent (أندرويد.الرسومات.نقطة)
+   1. setBounds (الروبوت.الرسومات.ريكتف)
+   1. setCoordOrigin (الروبوت.الرسومات.نقطة)
+   1. setCoordSize (الروبوت.الرسومات.نقطة)
+1. كوم.أسبوس.كلمات.ThumbnailGeneratingOptions:
+   1. الروبوت.الرسومات.نقطة getThumbnailSize ()
+   1. setThumbnailSize (الروبوت.الرسومات.نقطة)
 
-## Aspose.Words for Android عبر Java الاحتياجات الإضافية
+## Aspose.Words ل Android عبر Java متطلبات إضافية
 
-من أجل استخدام سمات الترخيص المزودة بالجرعات المميتة وشحن الوثائق أو الصور بواسطة مستعملي بروتوكولات الموقع الشبكي/الرقائق ينبغي أن يضيفوا بعد إذنهم إلى طلباتهم
-*? Uses-permission android:name="android.permission.INTERNET" />*
+من أجل استخدام ميزة الترخيص المقننة وتحميل المستندات أو الصور بواسطة بروتوكولات هتب / فتب، يجب على المستخدمين إضافة الإذن التالي لتطبيقاتهم
+`<uses-permission android:name="android.permission.INTERNET" />`
 
-## الجمهور API أمثلة
+## أمثلة عامة API
 
 {{< highlight csharp >}}
 public void testPublicAPI1() throws Exception

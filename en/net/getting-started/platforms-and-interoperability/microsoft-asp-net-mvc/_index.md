@@ -1,4 +1,4 @@
-﻿---
+---
 title: Microsoft ASP.NET MVC
 second_title: Aspose.Words for .NET
 articleTitle: Microsoft ASP.NET MVC
@@ -7,6 +7,7 @@ description: "How to use Aspose.Words with Microsoft ASP.NET MVC using C#."
 type: docs
 weight: 80
 url: /net/aspose-words-net-for-mvc/
+timestamp: 2024-01-27-14-07-04
 ---
 
 This section has the following topics:

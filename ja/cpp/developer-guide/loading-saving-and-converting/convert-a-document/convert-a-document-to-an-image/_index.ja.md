@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++で文書を画像に変換する
 second_title: C++の場合Aspose.Words
 articleTitle: 文書を画像に変換する
@@ -7,6 +7,7 @@ type: docs
 description: "文書を画像形式（JPG、PNGなど）に変換します。 ドキュメントプレビューを作成するか、ドキュメントスキャンを作成して請求書を送信します。"
 weight: 43
 url: /ja/cpp/convert-a-document-to-an-image/
+timestamp: 2024-01-30-16-22-34
 ---
 
 DOCXやPDFなどの他の形式の文書の代わりに画像を取得する必要がある場合があります。 たとえば、ドキュメントページのプレビューをwebサイトまたはアプリケーションに追加したり、ドキュメントの「スキャン」を作成して請求書を送信したりする必要があります。 これは、任意の[supported load format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/)の文書を任意の[supported save format](https://reference.aspose.com/words/cpp/aspose.words/saveformat/)の画像に変換する必要がある場合です。

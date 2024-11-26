@@ -7,6 +7,7 @@ description: ".NET 的 Aspose.Words 提供各種 C# 工作於 Office Add-in 的�
 type: docs
 weight: 50
 url: /zh-hant/net/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 有時你可能會想讓使用者可以存取會執行程式碼的介面控制項，以修改文件。Aspose.Words API 提供`WebExtensions`命名空間，這會授予各種類別來客製化元素和屬性，以擴充代表 Office 附加程式的 XML 詞彙。

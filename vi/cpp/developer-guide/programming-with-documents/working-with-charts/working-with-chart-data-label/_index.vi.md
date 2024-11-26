@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm Việc Với Nhãn Dữ liệu Biểu đồ trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm Việc Với Nhãn Dữ Liệu Biểu Đồ
@@ -7,6 +7,7 @@ description: "Điều chỉnh nhãn dữ liệu biểu đồ bằng C++."
 type: docs
 weight: 30
 url: /vi/cpp/working-with-chart-data-label/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words cho phép người dùng làm việc với ChartDataLabel một cách khác nhau.

@@ -1,16 +1,17 @@
-﻿---
+---
 title: Limpiar Antes o Durante una Operación Mail Merge
 second_title: Aspose.Words para C++
 articleTitle: Limpiar Antes o Durante una Operación Mail Merge
 linktitle: Limpiar Antes o Durante una Operación Mail Merge
 type: docs
-description: "Aplique diferentes opciones de limpieza y eliminación, como eliminar campos de combinación antes de realizar una operación mail merge o eliminar regiones no utilizadas durante una operación mail merge."
-keywords: "cleanup options mail merge c#"
+description: "Aplique diferentes opciones de limpieza y eliminación, como eliminar campos de combinación antes de realizar una operación Mail Merge o eliminar regiones no utilizadas durante una operación mail merge."
+keywords: "cleanup options Mail Merge c#"
 weight: 10
 url: /es/cpp/clean-up-before-or-during-mail-merge/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words le permite aplicar diferentes opciones de limpieza y eliminación, como eliminar campos de combinación antes de realizar una operación mail merge o eliminar regiones no utilizadas durante una operación mail merge. En esta sección se explicará cómo eliminar campos combinados y cómo configurar una opción de eliminación.
+Aspose.Words le permite aplicar diferentes opciones de limpieza y eliminación, como eliminar campos de combinación antes de realizar una operación Mail Merge o eliminar regiones no utilizadas durante una operación mail merge. En esta sección se explicará cómo eliminar campos combinados y cómo configurar una opción de eliminación.
 
 ## Eliminar Campos Combinados
 
@@ -22,7 +23,7 @@ El siguiente ejemplo de código muestra cómo eliminar todos los campos de combi
 
 ## Configurar una opción `Removing`
 
-Aspose.Words le permite eliminar campos, regiones y párrafos no fusionados de una plantilla durante una operación mail merge mediante las opciones de eliminación.
+Aspose.Words le permite eliminar campos, regiones y párrafos no fusionados de una plantilla durante una operación Mail Merge mediante las opciones de eliminación.
 
 Use la propiedad **CleanupOptions** junto con la enumeración [MailMergeCleanupOptions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmergecleanupoptions/) para establecer la opción de eliminación. Especifique qué elementos desea eliminar eligiendo las siguientes opciones (puede combinar más de una):
 
@@ -46,9 +47,9 @@ Si está fusionando datos utilizando fuentes de datos separadas, esas opciones d
 
 ### Eliminar Párrafos Vacíos
 
-Un párrafo que solo incluya campos de combinación estará vacío cuando el proceso mail merge elimine todos sus campos de combinación como no combinados. Esos párrafos vacíos pueden agregar espacio no deseado y cambiar el aspecto del informe generado. Puede enfrentar dos situaciones con párrafos durante una operación mail merge:
+Un párrafo que solo incluya campos de combinación estará vacío cuando el proceso Mail Merge elimine todos sus campos de combinación como no combinados. Esos párrafos vacíos pueden agregar espacio no deseado y cambiar el aspecto del informe generado. Puede enfrentar dos situaciones con párrafos durante una operación mail merge:
 
-1. El campo mail merge se combinará con datos vacíos.
+1. El campo Mail Merge se combinará con datos vacíos.
 2. El campo de combinación no se usa y se eliminará.
 
 En ambas situaciones, la opción **RemoveEmptyParagraphs** eliminará automáticamente los párrafos vacíos del documento. Además, eliminará los campos de combinación `TableStart` y TableEnd si el resto del párrafo está vacío.
@@ -65,7 +66,7 @@ Puede descargar el archivo de muestra de este ejemplo desde [Aspose.Words GitHub
 
 ### Eliminar Campos No Utilizados
 
-Aspose.Words le permite eliminar cualquier campo mail merge sin usar asignando el indicador **RemoveUnusedFields** a **CleanupOptions**. Esta opción eliminará los campos de combinación que no tengan los datos correspondientes en la fuente de datos.
+Aspose.Words le permite eliminar cualquier campo Mail Merge sin usar asignando el indicador **RemoveUnusedFields** a **CleanupOptions**. Esta opción eliminará los campos de combinación que no tengan los datos correspondientes en la fuente de datos.
 
 El siguiente ejemplo de código muestra cómo eliminar automáticamente los campos de combinación no utilizados de un documento durante una operación mail merge:
 
@@ -85,6 +86,6 @@ El siguiente ejemplo de código muestra cómo eliminar campos que contienen camp
 
 Aspose.Words le permite eliminar filas vacías de la tabla asignando el indicador **RemoveEmptyTableRows** a **CleanupOptions**. Esta opción eliminará las filas de la tabla que contengan campos de combinación vacíos.
 
-El siguiente ejemplo de código muestra cómo eliminar filas de tabla vacías que contienen mail merge regiones de un documento:
+El siguiente ejemplo de código muestra cómo eliminar filas de tabla vacías que contienen Mail Merge regiones de un documento:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Mail-Merge-MailMergeCleanUp-RemoveEmptyTableRows.cpp" >}}

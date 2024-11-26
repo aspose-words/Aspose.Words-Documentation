@@ -7,6 +7,7 @@ description: "Begrijpen van concepten en manipulatiepraktijken van documentsecti
 type: docs
 weight: 120
 url: /nl/java/working-with-sections/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Soms wilt u een document dat niet dezelfde opmaak op alle pagina's. U moet bijvoorbeeld paginanummerformaten wijzigen, verschillende paginagrootte en oriëntatie hebben, of de eerste documentpagina als coverpagina hebben zonder nummering. Je kunt dat bereiken met secties.

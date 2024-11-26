@@ -1,4 +1,4 @@
-﻿---
+---
 title: کار با ChartSeries در C++
 second_title: Aspose.Words برای C++
 articleTitle: کار با ChartSeries
@@ -7,6 +7,7 @@ description: "تنظیم سری نمودار با استفاده از C++."
 type: docs
 weight: 40
 url: /fa/cpp/working-with-chartseries/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words به کاربران اجازه می دهد تا با ChartSeriesCollection به چند روش کار کنند.

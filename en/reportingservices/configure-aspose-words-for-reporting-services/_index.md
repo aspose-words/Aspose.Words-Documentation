@@ -7,6 +7,7 @@ description: "Configuration options for the Aspose.Words for Reporting Services.
 type: docs
 weight: 20
 url: /reportingservices/configure-aspose-words-for-reporting-services/
+timestamp: 2024-02-27-07-01-11
 ---
 
 This section includes the following topics:

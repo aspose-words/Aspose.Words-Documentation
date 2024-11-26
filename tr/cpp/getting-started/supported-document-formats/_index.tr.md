@@ -1,4 +1,4 @@
-﻿---
+---
 title: Desteklenen Belge Biçimleri
 second_title: Aspose.Words için C++
 articleTitle: Desteklenen Belge Biçimleri
@@ -7,6 +7,7 @@ type: docs
 description: "Kaynak belgeleri birçok popüler formatta düzenleyin ve C++ kullanarak dosyaları bir formattan diğerine serbestçe dönüştürün."
 weight: 20
 url: /tr/cpp/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

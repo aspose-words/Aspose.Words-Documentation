@@ -1,4 +1,4 @@
-﻿---
+---
 title: 转换为PDF/A和PDF/UA
 second_title: Aspose.Words对于C++
 articleTitle: 了解转换为PDF/A和PDF/UA的功能
@@ -7,6 +7,7 @@ description: "转换为PDF/A-1, PDF/A-2, PDF/A-4 和PDF/UA使用C++。 选择使
 type: docs
 weight: 35
 url: /zh/cpp/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF是一种固定的页面格式，在用户中非常流行，并受到各种应用程序的广泛支持，因为PDF文档在任何设备上看起来都是一样的。 出于这个原因，转换为PDF是Aspose.Words的一个重要特征。

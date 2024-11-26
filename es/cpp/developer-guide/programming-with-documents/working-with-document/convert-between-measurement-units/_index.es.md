@@ -1,4 +1,4 @@
-﻿---
+---
 title: Convertir entre Unidades de Medida en C++
 second_title: Aspose.Words para C++
 articleTitle: Convertir Entre Unidades De Medida
@@ -7,6 +7,7 @@ description: "Aspose.Words para C++ puede ayudarlo a convertir entre unidades de
 type: docs
 weight: 20
 url: /es/cpp/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 La mayoría de las propiedades de objeto proporcionadas en la API Aspose.Words que representan alguna medida, como ancho o alto, márgenes y varias distancias, aceptan valores en puntos, donde 1 pulgadas equivale a 72 puntos. A veces, esto no es conveniente y los puntos deben convertirse en otras unidades.

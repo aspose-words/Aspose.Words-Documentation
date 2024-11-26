@@ -8,6 +8,7 @@ description: "احفظ مستندًا بأي تنسيق مدعوم باستخد�
 keywords: "save a document python, save a document to file python, save a document to stream python, save a document Aspose python, save formats supported by Aspose.Words python"
 weight: 20
 url: /ar/python-net/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 تتضمن معظم المهام التي تحتاج إلى تنفيذها باستخدام Aspose.Words حفظ مستند. لحفظ مستند، يوفر Aspose.Words طريقة [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) لفئة [Document](https://reference.aspose.com/words/python-net/aspose.words/document/). هناك حمولات زائدة تسمح بحفظ مستند في ملف أو دفق. يمكن حفظ المستند بأي تنسيق حفظ يدعمه Aspose.Words. للحصول على قائمة بجميع تنسيقات الحفظ المدعومة، راجع تعداد [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/).

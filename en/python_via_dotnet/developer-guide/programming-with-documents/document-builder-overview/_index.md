@@ -1,4 +1,4 @@
-﻿---
+---
 title: Document Builder Overview in Python
 second_title: Aspose.Words for Python via .NET
 articleTitle: Document Builder Overview
@@ -8,6 +8,7 @@ description: "DocumentBuilder allows you to build dynamic documents from scratch
 weight: 30
 url: /python-net/document-builder-overview/
 aliases: [/python/document-builder-overview/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) is a powerful class that associates with [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) and enables you to build dynamic documents from scratch or add new elements to an existing one.

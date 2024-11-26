@@ -1,4 +1,4 @@
-﻿---
+---
 title: 차트 작업 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 차트 작업
@@ -7,6 +7,7 @@ description: "차트 기능 소개,다음을 사용하여 차트를 만들고 �
 type: docs
 weight: 310
 url: /ko/cpp/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 새로운 [InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/) 방법은 [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/) 수업 그래서,를 사용하여 문서에 간단한 세로 막대형 차트를 삽입하는 방법을 살펴 보자 [InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/) 방법

@@ -7,6 +7,7 @@ type: docs
 description: "قم بتحرير المستندات المصدر بالعديد من التنسيقات الشائعة، بالإضافة إلى تحويل الملفات بحرية من تنسيق إلى آخر باستخدام Python."
 weight: 20
 url: /ar/python-net/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

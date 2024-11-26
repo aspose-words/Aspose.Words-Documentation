@@ -1,4 +1,4 @@
-﻿---
+---
 title: HTML Export Images Folder
 second_title: Aspose.Words for Reporting Services
 articleTitle: HTML Export Images Folder
@@ -7,6 +7,7 @@ description: "HTML Export Images Folder setting of the Aspose.Words for Reportin
 type: docs
 weight: 100
 url: /reportingservices/html-export-images-folder/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

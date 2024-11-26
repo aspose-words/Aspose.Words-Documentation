@@ -7,6 +7,7 @@ description: "Geavanceerde eigenschappen instellen bij het laden van een documen
 type: docs
 weight: 10
 url: /nl/java/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bij het laden van een document kunt u een aantal geavanceerde eigenschappen instellen. Aspose.Words geeft u de [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) klasse, waardoor nauwkeurigere controle van het laadproces mogelijk is. Sommige laadformaten hebben een corresponderende klasse die laadopties voor dit laadformaat bevat, bijvoorbeeld, er is [PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) voor het laden naar PDF-formaat of [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) voor het laden naar TXT. Dit artikel geeft voorbeelden van het werken met opties van de **LoadOptions** Klasse.

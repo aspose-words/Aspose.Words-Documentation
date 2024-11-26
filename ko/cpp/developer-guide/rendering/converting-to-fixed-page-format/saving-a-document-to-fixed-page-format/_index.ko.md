@@ -1,4 +1,4 @@
-﻿---
+---
 title: 고정 페이지 형식으로 저장 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 고정 페이지 형식으로 문서 저장
@@ -7,6 +7,7 @@ description: "고정 페이지 형식으로 문서를 저장하는 방법 – PD
 type: docs
 weight: 15
 url: /ko/cpp/saving-a-document-to-fixed-page-format/
+timestamp: 2024-09-24-14-35-44
 ---
 
 페이지 레이아웃이 작성되고 객체의 지오메트리와 페이지에서의 위치가 계산된 후,문서는 다음에서 지원하는 고정 페이지 형식으로 저장할 수 있습니다 Aspose.Words.

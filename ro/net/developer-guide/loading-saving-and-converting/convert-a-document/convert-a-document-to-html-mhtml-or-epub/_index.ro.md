@@ -7,6 +7,7 @@ description: "Convertați un document din aproape orice format în HTML sau MHTM
 type: docs
 weight: 20
 url: /ro/net/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Documentele în formatul de flux HTML și MHTML sunt de asemenea foarte populare și pot fi folosite pe orice platformă web. Din acest motiv, convertirea documentelor în HTML și MHTML este o caracteristică importantă a Aspose.Words.

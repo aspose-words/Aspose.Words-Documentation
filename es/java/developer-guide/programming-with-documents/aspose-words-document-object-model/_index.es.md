@@ -1,153 +1,154 @@
----
-title: Aspose.Words Document Object Model (DOM)
-second_title: Aspose.Words para Java
-articleTitle: Aspose.Words Document Object Model (DOM)
-linktitle: Aspose.Words Document Object Model (DOM)
+﻿---
+title: Aspose.Words Modelo de objetos de documento (DOM)
+second_title: Aspose.Words por Java
+articleTitle: Aspose.Words Modelo de objetos de documento (DOM)
+linktitle: Aspose.Words Modelo de objetos de documento (DOM)
 type: docs
-description: "Document Object Model (G)DOM) es una representación en memoria de un documento de Word. Leer, manipular y modificar el contenido y formato de un documento de Word utilizando Java."
+description: "El Modelo de objetos de documento (DOM) es una representación en memoria de un documento de Word. Lea, manipule y modifique el contenido y el formato de un documento de Word con Java."
 weight: 10
 url: /es/java/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
-El Aspose.Words Document Object Model (G)DOM) es una representación en memoria de un documento de Word. El Aspose.Words DOM le permite leer, manipular y modificar programáticamente el contenido y formato de un documento de Word.
+El Modelo de objetos de documento Aspose.Words (DOM) es una representación en memoria de un documento de Word. El Aspose.Words DOM le permite leer, manipular y modificar mediante programación el contenido y el formato de un documento de Word.
 
-Esta sección describe las principales clases de Aspose.Words DOM y sus relaciones. Usando el Aspose.Words DOM clases, puede obtener acceso programático a elementos de documento y formato.
+Esta sección describe las clases principales de Aspose.Words DOM y sus relaciones. Al usar las clases Aspose.Words DOM, puede obtener acceso programático a los elementos del documento y al formato.
 
-## Crear documento Árbol de objetos {#create-a-document-objects-tree}
+## Crear Árbol de Objetos de Documento {#create-a-document-objects-tree}
 
-Cuando se lee un documento Aspose.Words <span notrans="<span notrans=" DOM"=""></span>," entonces se construye un árbol de objetos y diferentes tipos de elementos del documento fuente tienen su propio DOM objetos de árboles con varias propiedades.
+Cuando se lee un documento en el Aspose.Words DOM, se crea un árbol de objetos y los diferentes tipos de elementos del documento fuente tienen sus propios objetos de árbol DOM con varias propiedades.
 
-### Build Document Nodes Tree {#build-document-nodes-tree}
+### Construir Árbol de Nodos de Documento {#build-document-nodes-tree}
 
-Cuando Aspose.Words lee un documento de Word en memoria, crea objetos de diferentes tipos que representan varios elementos de documentos. Cada trama de un texto, párrafo, tabla o sección es un nodo, e incluso el documento mismo es un nodo. Aspose.Words define una clase para cada tipo de nodo de documento.
+Cuando Aspose.Words lee un documento de Word en la memoria, crea objetos de diferentes tipos que representan varios elementos del documento. Cada ejecución de un texto, párrafo, tabla o sección es un nodo, e incluso el documento en sí mismo es un nodo. Aspose.Words define una clase para cada tipo de nodo de documento.
 
-El árbol de documentos en Aspose.Words sigue el patrón de diseño compuesto:
+El árbol de documentos en Aspose.Words sigue el Patrón de Diseño Compuesto:
 
-- Todas las clases de nodos se derivan finalmente de la [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) clase, que es la clase base en la Aspose.Words Document Object Model.
-- Nodos que pueden contener otros nodos, por ejemplo, **Section** o **Paragraph**, derivado del [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) clase, que a su vez deriva de la **Node** clase.
+- En última instancia, todas las clases de nodo se derivan de la clase [Node](https://reference.aspose.com/words/java/com.aspose.words/node/), que es la clase base en el Modelo de Objetos de documento Aspose.Words.
+- Los nodos que pueden contener otros nodos, por ejemplo, **Section** o **Paragraph**, derivan de la clase [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/), que a su vez deriva de la clase **Node**.
 
-El diagrama que figura a continuación muestra la herencia entre las clases de nodos Aspose.Words Document Object Model (G)DOM). Los nombres de las clases abstractas están en Italics.
+El diagrama proporcionado a continuación muestra la herencia entre clases de nodos del Modelo de Objetos de Documento Aspose.Words (DOM). Los nombres de las clases abstractas están en cursiva.
 
 <img src="/words/java/aspose-words-document-object-model/aspose-words-dom.png" alt="aspose-words-dom" style="width:700px"/>
 
 {{% alert color="primary" %}}
 
-El Aspose.Words DOM también contiene las clases no prohibidas, como [Style](https://reference.aspose.com/words/java/com.aspose.words/style/) o [Font](https://reference.aspose.com/words/java/com.aspose.words/font/), que se utilizan para personalizar el aspecto y estilos dentro de un documento. Estas clases no se muestran en este diagrama como no heredado de `Node` clase.
+Aspose.Words DOM también contiene las clases que no son nodos, como [Style](https://reference.aspose.com/words/java/com.aspose.words/style/) o [Font](https://reference.aspose.com/words/java/com.aspose.words/font/), que se utilizan para personalizar la apariencia y los estilos dentro de un documento. Estas clases no se muestran en este diagrama como no heredadas de la clase `Node`.
 
 {{% /alert %}}
 
-Veamos un ejemplo. La siguiente imagen muestra una Microsoft Word documento con diferentes tipos de contenido.
+Veamos un ejemplo. La siguiente imagen muestra un documento Microsoft Word con diferentes tipos de contenido.
 
 <img src="/words/java/aspose-words-document-object-model/document-example.png" alt="document-example" style="width:700px"/>
 
-Al leer el documento anterior en el Aspose.Words DOM, el árbol de objetos se crea, como se muestra en el esquema de abajo.
+Al leer el documento anterior en Aspose.Words DOM, se crea el árbol de objetos, como se muestra en el esquema a continuación.
 
 <img src="/words/java/aspose-words-document-object-model/document-example-dom.png" alt="document-example-dom" style="width:700px"/>
 
-[Document](https://reference.aspose.com/words/java/com.aspose.words/document/), [Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/), [Run](https://reference.aspose.com/words/java/com.aspose.words/run/), y todos los demás elipses en el diagrama son Aspose.Words objetos que representan elementos del documento de Word.
+[Document](https://reference.aspose.com/words/java/com.aspose.words/document/), [Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/), [Run](https://reference.aspose.com/words/java/com.aspose.words/run/), y todas las demás elipses en el diagrama son Aspose.Words objetos que representan elementos del documento de Word.
 
-### Consigue un `Node` Tipo {#get-a-node-type}
+### Obtenga un `Node` Tipo {#get-a-node-type}
 
-Aunque el [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) la clase es suficiente para distinguir diferentes nodos entre sí, Aspose.Words proporciona el [NodeType](https://reference.aspose.com/words/java/com.aspose.words/nodetype/) enumeración para simplificar algunos API tareas, como seleccionar los nodos de un tipo específico.
+Aunque la clase [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) es suficiente para distinguir diferentes nodos entre sí, Aspose.Words proporciona la enumeración [NodeType](https://reference.aspose.com/words/java/com.aspose.words/nodetype/) para simplificar algunas API tareas, como seleccionar nodos de un tipo específico.
 
-El tipo de cada nodo se puede obtener utilizando el [NodeType](https://reference.aspose.com/words/java/com.aspose.words/node/#getNodeType) propiedad. Esta propiedad devuelve a **NodeType** Valor de enumeración. Por ejemplo, un nodo del párrafo representado por el **Paragraph** retornos de clase **NodeType**.**Paragraph**, y un nodo de mesa representado por **Table** retornos de clase **NodeType**.**Table**.
+El tipo de cada nodo se puede obtener utilizando la propiedad [NodeType](https://reference.aspose.com/words/java/com.aspose.words/node/#getNodeType). Esta propiedad devuelve un valor de enumeración **NodeType**. Por ejemplo, un nodo de párrafo representado por la clase **Paragraph** devuelve **NodeType**.**Paragraph**, y un nodo de tabla representado por la clase **Table** devuelve **NodeType**.**Table**.
 
-El siguiente ejemplo muestra cómo conseguir un tipo de nodo usando el **NodeType** enumeración:
+El siguiente ejemplo muestra cómo obtener un tipo de nodo usando la enumeración **NodeType**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-GetNodeType-.java" >}}
 
-## Document Tree Navigation {#document-tree-navigation}
+## Navegación del Árbol de Documentos {#document-tree-navigation}
 
-Aspose.Words representa un documento como un árbol de nodos, que le permite navegar entre los nodos. Esta sección describe cómo explorar y navegar el árbol de documentos en Aspose.Words.
+Aspose.Words representa un documento como un árbol de nodos, lo que le permite navegar entre nodos. En esta sección se describe cómo explorar y navegar por el árbol de documentos en Aspose.Words.
 
-Cuando abre el documento de la muestra, presentado anteriormente, en el Explorador del documento, el árbol del nodo aparece exactamente como está representado en Aspose.Words.
+Cuando abre el documento de muestra, presentado anteriormente, en el Explorador de documentos, el árbol de nodos aparece exactamente como está representado en Aspose.Words.
 
 <img src="/words/java/aspose-words-document-object-model/document-in-document-explorer.png" alt="document-in-document-explorer" style="width:680px"/>
 
 {{% alert color="primary" %}}
 
-Usted puede aprender el proyecto de muestra "Document Explorer" en el [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/DocsExamples/Java/src/main/java/DocsExamples/Document_explorer).
+Puede aprender el proyecto de muestra "Explorador de documentos" en el [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/DocsExamples/Java/src/main/java/DocsExamples/Document_explorer).
 
 {{% /alert %}}
 
-### Relación de los ganglios {#document-nodes-relationships}
+### Relaciones de Nodos de Documento {#document-nodes-relationships}
 
-Los nudos del árbol tienen relaciones entre ellos:
+Los nodos del árbol tienen relaciones entre ellos:
 
 - Un nodo que contiene otro nodo es un *parent.*
-- El nodo contenido en el nodo padre es un *child.* Nodos infantiles del mismo padre son *sibling* nodos.
-- El *root* el nodo es siempre [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) Nodo.
+- El nodo contenido en el nodo primario es un *child.* Nodo secundario del mismo padre son *sibling* nodos.
+- El nodo *root* es siempre el nodo [Document](https://reference.aspose.com/words/java/com.aspose.words/document/).
 
-Los nodos que pueden contener otros nodos derivan de los [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) clase, y todos los nodos finalmente se derivan de [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) clase. Estas dos clases base proporcionan métodos y propiedades comunes para la navegación y modificación de la estructura del árbol.
+Los nodos que pueden contener otros nodos derivan de la clase [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) y, en última instancia, todos los nodos derivan de la clase [Node](https://reference.aspose.com/words/java/com.aspose.words/node/). Estas dos clases base proporcionan métodos y propiedades comunes para la navegación y modificación de la estructura de árbol.
 
-El siguiente diagrama de objetos UML muestra varios nodos del documento de muestra y sus relaciones entre sí a través de las propiedades padre, niño y hermano:
+El siguiente diagrama de objetos UML muestra varios nodos del documento de muestra y sus relaciones entre sí a través de las propiedades padre, hijo y hermano:
 
 <img src="/words/java/aspose-words-document-object-model/document-nodes-relationships.png" alt="document-nodes-relationships" style="width:370px"/>
 
-#### El documento es Node Owner
+#### El Documento es Propietario del Nodo
 
-Un nodo siempre pertenece a un documento particular, incluso si ha sido creado o eliminado del árbol, porque estructuras vitales de documentos como estilos y listas se almacenan en los **Document** Nodo. Por ejemplo, no es posible tener un **Paragraph** sin un **Document** porque cada párrafo tiene un estilo asignado que se define globalmente para el documento. Esta regla se utiliza cuando se crean nuevos nodos. Agregar un nuevo **Paragraph** directamente al DOM requiere un objeto de documento pasado al constructor.
+Un nodo siempre pertenece a un documento en particular, incluso si acaba de crearse o eliminarse del árbol, porque las estructuras vitales de todo el documento, como los estilos y las listas, se almacenan en el nodo **Document**. Por ejemplo, no es posible tener un **Paragraph** sin un **Document** porque cada párrafo tiene un estilo asignado que se define globalmente para el documento. Esta regla se usa al crear nuevos nodos. Agregar un nuevo **Paragraph** directamente al DOM requiere que se pase un objeto de documento al constructor.
 
 {{% alert color="primary" %}}
 
-El [Node.Document](https://reference.aspose.com/words/java/com.aspose.words/node/#getDocument) propiedad devuelve el documento al que pertenece el nodo.
+La propiedad [Node.Document](https://reference.aspose.com/words/java/com.aspose.words/node/#getDocument) devuelve el documento al que pertenece el nodo.
 
 {{% /alert %}}
 
-Al crear un nuevo párrafo utilizando [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/), el constructor siempre tiene un **Document** clase vinculada a ella a través de [DocumentBuilder.Document](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#Document) propiedad.
+Al crear un nuevo párrafo usando [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/), el constructor siempre tiene una clase **Document** vinculada a él a través de la propiedad [DocumentBuilder.Document](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#Document).
 
-El siguiente ejemplo de código muestra que al crear cualquier nodo, siempre se define un documento que poseerá el nodo:
+El siguiente ejemplo de código muestra que al crear cualquier nodo, siempre se define un documento que será el propietario del nodo:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-OwnerDocument-.java" >}}
 
-#### Parent Node
+#### Nodo Padre
 
-Cada nodo tiene un padre especificado por el [ParentNode](https://reference.aspose.com/words/java/com.aspose.words/node/#getParentNode) propiedad. Un nodo no tiene padre nodo, es decir, **ParentNode** es nulo, en los siguientes casos:
+Cada nodo tiene un padre especificado por la propiedad [ParentNode](https://reference.aspose.com/words/java/com.aspose.words/node/#getParentNode). Un nodo no tiene nodo padre, es decir, **ParentNode** es nulo, en los siguientes casos:
 
-- El nodo acaba de ser creado y aún no se ha añadido al árbol.
-- El nodo ha sido quitado del árbol.
-- Esta es la raíz **Document** nodo que siempre tiene un nulo padre nodo.
+- El nodo acaba de crearse y aún no se ha agregado al árbol.
+- El nodo se ha eliminado del árbol.
+- Este es el nodo raíz **Document** que siempre tiene un nodo padre nulo.
 
-Usted puede quitar un nodo de su padre llamando al [Remove](https://reference.aspose.com/words/java/com.aspose.words/node/#remove) método. El siguiente ejemplo de código muestra cómo acceder al nodo padre:
+Puede eliminar un nodo de su padre llamando al método [Remove](https://reference.aspose.com/words/java/com.aspose.words/node/#remove).El siguiente ejemplo de código muestra cómo acceder al nodo principal:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-AccessParentNode-.java" >}}
 
-#### Nodos infantiles
+#### Nodos Secundarios
 
-La forma más eficiente de acceder a los ganglios infantiles [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) es a través de [FirstChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#FirstChild) y [LastChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#LastChild) propiedades que devuelven los primeros y últimos ganglios infantiles, respectivamente. Si no hay ganglios infantiles, estas propiedades regresan *null*.
+La forma más eficiente de acceder a los nodos secundarios de a [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) es a través de las propiedades [FirstChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#FirstChild) y [LastChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#LastChild) que devuelven el primer y el último nodo secundario, respectivamente. Si no hay nodos secundarios, estas propiedades devuelven *null*.
 
-**CompositeNode** también proporciona el [ChildNodes](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChildNodes) colección que permite el acceso indexado o enumerado a los nodos infantiles. El **ChildNodes** propiedad es una colección en vivo de nodos, lo que significa que cada vez que se cambia el documento, como cuando se eliminan o agregan los nodos, **ChildNodes** la colección se actualiza automáticamente.
+**CompositeNode**
 
-Si un nodo no tiene hijo, entonces el **ChildNodes** propiedad devuelve una colección vacía. Puedes comprobar si **CompositeNode** contiene ningún niño nodo usando [HasChildNodes](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#hasChildNodes) propiedad.
+Si un nodo no tiene hijos, la propiedad **ChildNodes** devuelve una colección vacía. Puede verificar si **CompositeNode** contiene nodos secundarios utilizando la propiedad [HasChildNodes](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#hasChildNodes).
 
-El siguiente ejemplo de código muestra cómo enumerar los ganglios infantiles inmediatos de un `CompositeNode` utilizando el enumerador proporcionado por el `ChildNodes` colección:
+El siguiente ejemplo de código muestra cómo enumerar nodos secundarios inmediatos de un `CompositeNode` usando el enumerador proporcionado por la colección `ChildNodes`:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-ChildNodes-enumerateChildrenOfACompositeNodeUsingEnumeratorProvidedByChildNodesCollection.java" >}}
 
-El siguiente ejemplo de código muestra cómo enumerar los ganglios infantiles inmediatos de un `CompositeNode` utilizando acceso indexado:
+El siguiente ejemplo de código muestra cómo enumerar nodos secundarios inmediatos de un `CompositeNode` usando acceso indexado:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-ChildNodes-enumerateChildrenOfACompositeNodeUsingIndexedAccess.java" >}}
 
-#### Nodos hermanos
+#### Nodos Hermanos
 
-Usted puede obtener el nodo que precede inmediatamente o sigue un nodo particular utilizando el [PreviousSibling](https://reference.aspose.com/words/java/com.aspose.words/node/#getPreviousSibling) y [NextSibling](https://reference.aspose.com/words/java/com.aspose.words/node/#getNextSibling) propiedades, respectivamente. Si un nodo es el último hijo de su padre, entonces el **NextSibling** propiedad *null*. Por el contrario, si el nodo es el primer hijo de su padre, el **PreviousSibling** propiedad *null*.
+Puede obtener el nodo que precede o sigue inmediatamente a un nodo en particular utilizando las propiedades [PreviousSibling](https://reference.aspose.com/words/java/com.aspose.words/node/#getPreviousSibling) y [NextSibling](https://reference.aspose.com/words/java/com.aspose.words/node/#getNextSibling), respectivamente. Si un nodo es el último hijo de su padre, entonces la propiedad **NextSibling** es *null*. Por el contrario, si el nodo es el primer hijo de su padre, la propiedad **PreviousSibling** es *null*.
 
-El siguiente ejemplo de código muestra cómo visitar eficientemente todos los ganglios infantiles directos e indirectos de un nodo compuesto:
+El siguiente ejemplo de código muestra cómo visitar de manera eficiente todos los nodos secundarios directos e indirectos de un nodo compuesto:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-SiblingNodes-.java" >}}
 
-### Acceso a los Nodos de Niños y Padres
+### Acceso escrito a Nodos Secundarios y Primarios
 
-Hasta ahora hemos discutido las propiedades que devuelven uno de los tipos de base – **Node** o **CompositeNode**. Pero a veces hay situaciones en las que es posible que necesites lanzar valores a una clase específica de nodos, como **Run** o **Paragraph**. Es decir, no puedes alejarte completamente del casting cuando trabajas con el Aspose.Words DOM, que es composite.
+Hasta ahora, hemos discutido las propiedades que devuelven uno de los tipos base: **Node** o **CompositeNode**. Pero a veces hay situaciones en las que es posible que deba convertir valores a una clase de nodo específica, como **Run** o **Paragraph**. Es decir, no puede evitar por completo la fundición cuando trabaja con el Aspose.Words DOM, que es compuesto.
 
-Para reducir la necesidad de fundición, la mayoría Aspose.Words las clases proporcionan propiedades y colecciones que proporcionan un acceso de tipo fuerte. Hay tres patrones básicos de acceso tipo:
+Para reducir la necesidad de conversión, la mayoría de las clases Aspose.Words proporcionan propiedades y colecciones que proporcionan acceso fuertemente tipado. Hay tres patrones básicos de acceso mecanografiado:
 
-- Un nodo padre expone el tipo **FirstXXX** y **LastXXX** propiedades. Por ejemplo, el **Document** tiene [FirstSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getFirstSection) y [LastSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getLastSection) propiedades. Análogamente, **Table** tiene propiedades como [FirstRow](https://reference.aspose.com/words/java/com.aspose.words/table/#getFirstRow), [LastRow](https://reference.aspose.com/words/java/com.aspose.words/table/#getLastRow), y otros.
-- Un nodo padre expone una colección de nodos infantiles, como [Document.Sections](https://reference.aspose.com/words/java/com.aspose.words/document/#getSections), [Body.Paragraphs](https://reference.aspose.com/words/java/com.aspose.words/story/#getParagraphs), y otros.
-- Un nodo infantil proporciona acceso tipo a su padre, como [Run.ParentParagraph](https://reference.aspose.com/words/java/com.aspose.words/inline/#getParentParagraph), [Paragraph.ParentSection](https://reference.aspose.com/words/java/com.aspose.words/paragraph/#getParentSection), y otros.
+- Un nodo primario expone las propiedades **FirstXXX** y **LastXXX** escritas. Por ejemplo, **Document** tiene propiedades [FirstSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getFirstSection) y [LastSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getLastSection). De manera similar, **Table** tiene propiedades como [FirstRow](https://reference.aspose.com/words/java/com.aspose.words/table/#getFirstRow), [LastRow](https://reference.aspose.com/words/java/com.aspose.words/table/#getLastRow) y otras.
+- Un nodo primario expone una colección tipificada de nodos secundarios, como [Document.Sections](https://reference.aspose.com/words/java/com.aspose.words/document/#getSections), [Body.Paragraphs](https://reference.aspose.com/words/java/com.aspose.words/story/#getParagraphs) y otros.
+- Un nodo secundario proporciona acceso escrito a su padre, como [Run.ParentParagraph](https://reference.aspose.com/words/java/com.aspose.words/inline/#getParentParagraph), [Paragraph.ParentSection](https://reference.aspose.com/words/java/com.aspose.words/paragraph/#getParentSection) y otros.
 
-Las propiedades clasificadas son simplemente atajos útiles que a veces proporcionan un acceso más fácil que las propiedades genéricas heredadas de [Node.ParentNode](https://reference.aspose.com/words/java/com.aspose.words/node/#getParentNode) y [CompositeNode.FirstChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getFirstChild).
+Las propiedades escritas son simplemente accesos directos útiles que a veces brindan un acceso más fácil que las propiedades genéricas heredadas de [Node.ParentNode](https://reference.aspose.com/words/java/com.aspose.words/node/#getParentNode) y [CompositeNode.FirstChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getFirstChild).
 
-El siguiente ejemplo de código muestra cómo utilizar propiedades tipodas para acceder a los nodos del árbol de documentos:
+El siguiente ejemplo de código muestra cómo usar propiedades escritas para acceder a nodos del árbol de documentos:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-TypedAccessToChildrenAndParent-.java" >}}

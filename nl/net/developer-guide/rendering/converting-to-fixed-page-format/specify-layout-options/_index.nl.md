@@ -7,6 +7,7 @@ description: "Opmaak opgeven Opties voor verschillende documentindelingen C#."
 type: docs
 weight: 10
 url: /nl/net/specify-layout-options/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Aspose.Words kunt u uitvoerdocumenten maken met verschillende lay-outs, afhankelijk van de parameters gespecificeerd in eigenschappen van de [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/) Klasse. Sommige van deze eigenschappen lijken op enkele van de Microsoft Word user interface menu opties

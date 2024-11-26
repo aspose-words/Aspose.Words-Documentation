@@ -7,6 +7,7 @@ description: "Aspose.Words for Python via .NET کلاس های مختلفی را
 type: docs
 weight: 50
 url: /fa/python-net/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 گاهی اوقات ممکن است بخواهید به کنترل‌های رابطی که کد را برای اصلاح اسناد اجرا می‌کنند، دسترسی بدهید. Aspose.Words API ماژول [webextensions](https://reference.aspose.com/words/python-net/aspose.words.webextensions/) را ارائه می دهد که کلاس های مختلفی را برای سفارشی کردن عناصر و ویژگی های گسترش واژگان XML برای نمایش افزونه های آفیس اعطا می کند.

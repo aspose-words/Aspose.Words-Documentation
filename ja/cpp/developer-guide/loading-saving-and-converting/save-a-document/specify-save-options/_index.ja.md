@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++での保存オプションの指定
 second_title: C++の場合Aspose.Words
 articleTitle: 保存オプションの指定
@@ -7,6 +7,7 @@ description: "保存プロセスをより正確に制御します。"
 type: docs
 weight: 10
 url: /ja/cpp/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ドキュメントを保存するときに、いくつかの高度なプロパティを設定できます。 Aspose.Wordsは、保存プロセスのより正確な制御を可能にする[SaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/)クラスを提供します。 **SaveOptions**オブジェクトを受け入れる**Save**メソッドのオーバーロードがあります–それは**SaveOptions**クラスから派生したクラスのオブジェクトでなければなりません。 たとえば、PDF形式に保存する場合は[PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/)、Markdown形式に保存する場合は[MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions)、または画像に保存する場合は[ImageSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/imagesaveoptions/)があります。PDF形式に保存する場合は[PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/)、PDF形式に保存す この記事では、**SaveOptions**から派生したいくつかのオプションクラスを使用する例を示します。

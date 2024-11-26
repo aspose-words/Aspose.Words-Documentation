@@ -7,6 +7,7 @@ description: "עבודה עם טיפוגרפיה אסיאתית C#. התאמת �
 type: docs
 weight: 240
 url: /he/net/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 טייפוגרפיה אסיה היא קבוצה של אפשרויות לפסקאות טקסט במסמכים שנכתבו בשפות אסיה.

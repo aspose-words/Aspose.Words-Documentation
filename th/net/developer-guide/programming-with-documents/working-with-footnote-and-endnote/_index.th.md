@@ -7,6 +7,7 @@ description: "วิธีจัดการเชิงอรรถและอ
 type: docs
 weight: 160
 url: /th/net/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words ยังมีคลาส วิธีการ และคุณสมบัติบางอย่างสำหรับการทำงานกับเชิงอรรถและอ้างอิงท้ายเรื่อง

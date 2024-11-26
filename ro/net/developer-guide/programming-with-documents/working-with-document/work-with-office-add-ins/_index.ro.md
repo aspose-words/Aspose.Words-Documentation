@@ -7,6 +7,7 @@ description: "Aspose.Words pentru .NET oferă diverse clase pentru a lucra cu ad
 type: docs
 weight: 50
 url: /ro/net/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uneori ai putea dori să oferi acces la controale de interfață care rulează cod pentru a modifica documente. Aspose.Words API oferă spațiul de nume `WebExtensions`, care acordă diverse clase pentru a particulariza elemente și atribute extinzând vocabularul XML pentru reprezentarea Office Add-ins.

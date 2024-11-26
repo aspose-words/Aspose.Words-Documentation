@@ -7,6 +7,7 @@ description: "Wprowadzenie do zakresu funkcji w Aspose.Words zamiast Java."
 type: docs
 weight: 130
 url: /pl/java/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

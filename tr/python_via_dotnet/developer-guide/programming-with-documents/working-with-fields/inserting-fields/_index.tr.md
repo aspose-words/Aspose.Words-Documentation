@@ -7,6 +7,7 @@ description: "Alanları Python'teki bir belgeye farklı şekillerde ekleyin: `Do
 type: docs
 weight: 20
 url: /tr/python-net/inserting-fields/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Bir belgeye alan eklemenin birkaç farklı yolu vardır:
@@ -85,7 +86,7 @@ Aşağıdaki kod örneği, bir belgedeki bir paragrafa DOM kullanarak `Merge` Al
 
 ### Mail Merge `ADDRESSBLOCK` alanını DOM kullanarak bir Belgeye ekleme
 
-`ADDRESSBLOCK` alanı, Word belgesine bir mail merge adres bloğu eklemek için kullanılır. Word belgesindeki `ADDRESSBLOCK` alanı [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) sınıfıyla temsil edilebilir. Aşağıdaki işlemleri gerçekleştirmek için [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) sınıfını kullanabilirsiniz:
+`ADDRESSBLOCK` alanı, Word belgesine bir Mail Merge adres bloğu eklemek için kullanılır. Word belgesindeki `ADDRESSBLOCK` alanı [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) sınıfıyla temsil edilebilir. Aşağıdaki işlemleri gerçekleştirmek için [FieldAddressBlock](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldaddressblock/) sınıfını kullanabilirsiniz:
 
 - alana ülke/bölge adının dahil edilip edilmeyeceğini belirtin
 - adresin POST*CODE (Universal Postal Union 2006) tarafından tanımlandığı şekilde alıcının ülkesine/bölgesine göre biçimlendirilip biçimlendirilmeyeceğini belirtin
@@ -115,7 +116,7 @@ Aşağıdaki kod örneği, DOM kullanarak `ADVANCE` Alanının bir belgedeki par
 
 - yer iminin adını belirtin
 - varsayılan kullanıcı yanıtını belirtin (istem penceresinde bulunan başlangıç değeri)
-- mail merge işlemi başına kullanıcı yanıtının bir kez alınması gerekip gerekmediğini belirtin
+- Mail Merge işlemi başına kullanıcı yanıtının bir kez alınması gerekip gerekmediğini belirtin
 - bilgi istemi metnini belirtin (bilgi istemi penceresinin başlığı)
 
 Aşağıdaki kod örneği, DOM kullanarak `ASK` Alanının bir belgedeki paragrafa nasıl ekleneceğini gösterir:

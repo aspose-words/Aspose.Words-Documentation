@@ -7,6 +7,7 @@ description: "Cum se găsesc unele proprietăți de câmp, cum ar fi codul câmp
 type: docs
 weight: 25
 url: /ro/net/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un câmp care este inserat folosind [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) returnează un obiect [Field](https://reference.aspose.com/words/net/aspose.words.fields/field/). Aceasta este o clasă de interfață care oferă metode utile pentru a găsi rapid unele proprietăți ale unui câmp.

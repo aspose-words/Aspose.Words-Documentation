@@ -1,12 +1,13 @@
 ---
-title: Як побудувати таблицю з `DataTable` в C#
+title: Як побудувати таблицю з DataTable в C#
 second_title: Aspose.Words для .NET
-articleTitle: Створіть таблицю з `DataTable`
-linktitle: Створіть таблицю з `DataTable`
+articleTitle: Створіть таблицю з DataTable
+linktitle: Створіть таблицю з DataTable
 description: "Приклад заповнення таблиці документів з зовнішньої бази даних C#й"
 type: docs
 weight: 120
 url: /uk/net/how-to-build-a-table-from-a-datatable/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Часто ваша заявка витягне дані з бази даних і зберігає її у вигляді бази даних **DataTable**й Ви можете легко вставляти дані в документ, як новий стіл і швидко застосувати форматування на весь стіл.

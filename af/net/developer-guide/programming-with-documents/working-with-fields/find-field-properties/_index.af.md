@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hoe Om Eienskappe in C#Te Vind
 second_title: Aspose.Words vir .NET
 articleTitle: Vind Veldeienskappe
@@ -7,6 +7,7 @@ description: "Hoe om'n paar veld eienskappe soos veld kode en veld resultaat in 
 type: docs
 weight: 25
 url: /af/net/find-field-properties/
+timestamp: 2024-01-27-14-07-04
 ---
 
 'n veld wat ingevoeg word met behulp van [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) gee terug'n [Field](https://reference.aspose.com/words/net/aspose.words.fields/field/) voorwerp. Dit is'n fasade klas wat nuttige metodes bied om vinnig'n paar eienskappe van'n veld te vind.

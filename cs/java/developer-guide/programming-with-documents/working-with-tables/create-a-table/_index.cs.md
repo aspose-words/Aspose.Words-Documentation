@@ -7,6 +7,7 @@ description: "Různé způsoby vytváření tabulek ve vašem dokumentu pomocí 
 type: docs
 weight: 20
 url: /cs/java/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words umožňuje uživatelům vytvářet tabulky v dokumentu od nuly a poskytuje pro to několik různých metod. Tento článek uvádí podrobnosti o tom, jak přidat formátované tabulky do dokumentu pomocí každé metody, stejně jako srovnání každé metody na konci článku.

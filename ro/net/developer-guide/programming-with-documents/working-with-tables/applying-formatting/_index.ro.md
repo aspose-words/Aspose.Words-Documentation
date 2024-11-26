@@ -7,6 +7,7 @@ description: "Formatarea tabelelor în detalii folosind C#. Foloseşte C# pentru
 type: docs
 weight: 70
 url: /ro/net/applying-formatting/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Fiecare element al unei tabele poate fi aplicat cu diferite formatări. De exemplu, formatarea tabelelor va fi aplicată întregului tabel, formatarea rândurilor doar anumitor rânduri, iar formatarea celulelor doar anumitor celule.

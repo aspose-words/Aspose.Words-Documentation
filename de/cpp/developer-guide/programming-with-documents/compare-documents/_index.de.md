@@ -1,4 +1,4 @@
-﻿---
+---
 title: Dokumente vergleichen in C++
 second_title: Aspose.Words für C++
 articleTitle: Dokumente vergleichen
@@ -7,6 +7,7 @@ type: docs
 description: "Vergleicht zwei Dokumente in beliebigen unterstützten Formaten und zeigt Inhaltsänderungen mit C++ an. Sie können beim Vergleichen erweiterte Optionen anwenden."
 weight: 60
 url: /de/cpp/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Das Vergleichen von Dokumenten ist ein Prozess, der Änderungen zwischen zwei Dokumenten identifiziert und die Änderungen als Revisionen enthält. Dieser Prozess vergleicht zwei beliebige Dokumente, einschließlich Versionen eines bestimmten Dokuments, dann werden die Änderungen zwischen beiden Dokumenten als Revisionen im ersten Dokument angezeigt.

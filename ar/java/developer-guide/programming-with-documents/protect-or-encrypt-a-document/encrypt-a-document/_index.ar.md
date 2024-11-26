@@ -1,67 +1,68 @@
----
-title: أدخل الوثيقة Java
-second_title: Aspose.Words for Java
-articleTitle: Encrypt a Document
-linktitle: Encrypt a Document
-description: "اشتر وثيقتك باستخدام خوارزميات التشفير المناسبة لأشكال محددة من الوثائق Java."
+﻿---
+title: تشفير مستند في Java
+second_title: Aspose.Words ل Java
+articleTitle: تشفير مستند
+linktitle: تشفير مستند
+description: "قم بتشفير المستند باستخدام خوارزميات التشفير المناسبة لتنسيقات مستندات محددة في Java."
 type: docs
 weight: 20
 url: /ar/java/encrypt-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
-والتشفير هو العملية التي تترجم النص القابل للقراءة إلى تسلسل لا معنى له من النوافذ بحيث لا يمكن قراءة هذا النص إلا من قبل الشخص الذي يملك مفتاح فك التشفير أو الرمز السري. هذه العملية تؤدي دوراً هاماً في تأمين مضمونك وهو يساعد على تحديد محتوى الوثيقة والتحقق من مصدرها، ويثبت أن المحتوى لم يعدل بعد إرسالها، ويكفل سلامة البيانات الواردة في الوثيقة.
+التشفير هو العملية التي تترجم النص المقروء إلى تسلسلات لا معنى لها من وحدات البايت بحيث لا يمكن قراءتها إلا من قبل الشخص الذي لديه مفتاح فك التشفير أو الرمز السري. تلعب هذه العملية دورا مهما في تأمين المحتوى الخاص بك. يساعد على ترميز المحتوى، والتحقق من أصل المستند، وإثبات أن المحتوى لم يتم تعديله بعد إرساله، والتأكد من أن البيانات من المستند آمنة.
 
-توضح هذه المادة كيف Aspose.Words يُمكِنُك أَنْ تُشفّرَ a وثيقة و كَيفَ تَتأكّدُ إذا a مستند عِنْدَهُ تشفيرُ أَو لا.
+تشرح هذه المقالة كيف تسمح لك Aspose.Words بتشفير مستند وكيفية التحقق مما إذا كان المستند يحتوي على تشفير أم لا.
 
-## مشفرة بكلمة المرور
+## تشفير بكلمة مرور
 
-لتشفير وثيقة، استخدام **Password** الممتلكات لتوفير كلمة سر تعمل كمفتاح تشفير وهذا سيعدل مضمون وثيقتكم وسيجعلها غير قابلة للقراءة. وستتطلب الوثيقة المشفرة إدخال كلمة السر هذه قبل فتحها.
+لتشفير مستند، استخدم خاصية **Password** لتوفير كلمة مرور تعمل كمفتاح تشفير. سيؤدي هذا إلى تعديل محتوى المستند الخاص بك وجعله غير قابل للقراءة. سيتطلب المستند المشفر إدخال كلمة المرور هذه قبل فتحها.
 
 {{% alert color="primary" %}}
 
-يمكنك أن تجد المناسب **Password** ممتلكات بالشكل المطلوب. ولكل شكل من أشكال الوثائق صنف مناظر يحتوي على خيارات لهذا الشكل. على سبيل المثال، [Password](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/#getPassword) الممتلكات في [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) درجة لـ (دو سي) أو [Password](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/#getPassword) الممتلكات في [OoxmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/) درجة لـ (دي سي إكس) DOTX, DOTM, and FlatOpc.
+يمكنك العثور على خاصية **Password** المناسبة للتنسيق المطلوب. يحتوي كل تنسيق لحفظ المستند على فئة مقابلة تحتوي على خيارات حفظ لهذا التنسيق. على سبيل المثال، الخاصية [Password](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/#getPassword) في فئة [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) لـ DOC، أو الخاصية [Password](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/#getPassword) في فئة [OoxmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/) لـ DOCX, DOCM, DOTX, DOTM, و FlatOpc.
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-Note that only certain document formats support encryption. For example, RTF does not support encryption.
+لاحظ أن تنسيقات مستندات معينة فقط تدعم التشفير. على سبيل المثال، RTF لا يدعم التشفير.
 
 {{% /alert %}}
 
-ويورد الجدول الوارد أدناه الأشكال والأغلفة المشفرة التي تدعمها Aspose.Words:
+يسرد الجدول أدناه التنسيقات وخوارزميات التشفير التي يدعمها Aspose.Words:
 
-| الشكل |  دعم المشاهير في حين |  دعم التشفير أثناء الإنقاذ |
-|  ------------------------------------------------------------  |  -----------------------------------------------------------  |  --------------------------------------------  |
-|  (دوك) DOT |  XOR encryption40-bit RC4 EncryptionCryptoAPI RC4 |  RC4 Encryption (40-bit) |
-|  دي سيكس DOTX, DOCM, DOTM, FlatOPC, FlatOpcTemplate, FlatOpcMacroEnabled, FlatOpcTemplateMacroEnabled |  ECMA-376 Standard EncryptionECMA-376 Agile Encryption |  ECMA-376 Standard Encryption (AES128 + SHA1) |
-|  ODT, OTT |  ODF Encryption (Blowfish/AES) |  ODF Encryption (AES256 + SHA256) |
-|  PDF |  -                                                            |  RC4 Encryption (40/128 bit) |
+| الشكل | التشفير المدعوم أثناء التحميل | التشفير المدعوم أثناء الحفظ |
+| ------------------------------------------------------------ | ----------------------------------------------------------- | -------------------------------------------- |
+| DOC, DOT | XOR تشفير40 بت RC4 EncryptionCryptoAPI RC4 التشفير | RC4 التشفير (40 بت) |
+| DOCX, DOTX, DOCM, DOTM, FlatOPC, FlatOpcTemplate, FlatOpcMacroEnabled, FlatOpcTemplateMacroEnabled | ECMA-376 معيار EncryptionECMA-376 التشفير رشيقة | ECMA-376 التشفير القياسي (AES128 + SHA1) |
+| ODT, OTT | ODF التشفير (السمكة المنتفخة / AES) | ODF التشفير (AES256 + SHA256) |
+| PDF |  | RC4 التشفير (40/128 بت) |
 
-ويوضح المثال الرمزي التالي كيفية تشفير وثيقة تحمل كلمة سر:
+يوضح مثال الكود التالي كيفية تشفير مستند بكلمة مرور:
 
 {{< gist "aspose-words-gists" "821ff3a1df0c75b2af641299b393fb60" "encrypt-document-with-password.java" >}}
 
-## تحقق إذا كانت الوثيقة مشفرة
+## تحقق مما إذا كان المستند مشفرا
 
-وفي بعض الحالات، قد يكون لديك وثيقة غير قابلة للقراءة، وتريد التأكد من أن الوثيقة مشفرة ولا تفسد أو تضغط.
+في بعض الحالات، قد يكون لديك مستند غير قابل للقراءة وتريد التأكد من أن المستند مشفر وغير تالف أو مضغوط.
 
-للكشف إذا تم تشفير الوثيقة وإذا كان الأمر يتطلب كلمة سر، يمكنك استخدام [IsEncrypted](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#isEncrypted) ممتلكات [FileFormatInfo](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/) صف هذه الممتلكات ستسمح لك أيضاً بالقيام ببعض الإجراءات قبل تحميل وثيقة، على سبيل المثال، إبلاغ المستخدم بتقديم كلمة سر.
+لاكتشاف ما إذا كان المستند مشفرا وإذا كانت كلمة المرور مطلوبة، يمكنك استخدام خاصية [IsEncrypted](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#isEncrypted) لفئة [FileFormatInfo](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/). ستسمح لك هذه الخاصية أيضا بتنفيذ بعض الإجراءات قبل تحميل مستند، على سبيل المثال، إعلام المستخدم بتقديم كلمة مرور.
 
-ويبين المثال الرمزي التالي كيفية كشف تشفير الوثيقة:
+يوضح مثال التعليمات البرمجية التالية كيفية اكتشاف تشفير المستند:
 
 {{< gist "aspose-words-gists" "821ff3a1df0c75b2af641299b393fb60" "verify-encrypted-document.java" >}}
 
-## فتح وثيقة مع أو بدون كلمة سر
+## افتح مستندا بكلمة مرور أو بدونها
 
-وعندما نكون قد تأكدنا من أن وثيقة مشفرة، يمكننا أن نحاول فتح هذه الوثيقة بدون كلمة سر، التي ينبغي أن تؤدي إلى استثناء.
+عندما نتأكد من تشفير مستند، يمكننا محاولة فتح هذا المستند بدون كلمة مرور، مما يؤدي إلى استثناء.
 
-ويبين المثال الرمزي التالي كيفية محاولة فتح وثيقة مشفرة دون كلمة سر:
+يوضح مثال الكود التالي كيفية محاولة فتح مستند مشفر بدون كلمة مرور:
 
 {{< gist "aspose-words-gists" "821ff3a1df0c75b2af641299b393fb60" "load-encrypted-document-without-password.java" >}}
 
-وبعد أن رأينا أن وثيقة مشفرة لا يمكن فتحها بدون كلمة سر، يمكننا أن نحاول فتحها بدخول كلمة السر.
+بعد أن رأينا أنه لا يمكن فتح مستند مشفر بدون كلمة مرور، يمكننا محاولة فتحه عن طريق إدخال كلمة المرور.
 
-ويبين المثال الرمزي التالي كيفية محاولة فتح وثيقة مشفرة بكلمة سر:
+يوضح مثال الكود التالي كيفية محاولة فتح مستند مشفر بكلمة مرور:
 
 {{< gist "aspose-words-gists" "821ff3a1df0c75b2af641299b393fb60" "load-save-encrypted-document.java" >}}

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Speichern im festen Seitenformat in C++
 second_title: Aspose.Words für C++
 articleTitle: Speichern eines Dokuments im Festseitenformat
@@ -7,6 +7,7 @@ description: "So speichern Sie ein Dokument in einem Format mit fester Seite –
 type: docs
 weight: 15
 url: /de/cpp/saving-a-document-to-fixed-page-format/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Nachdem das Seitenlayout erstellt und die Geometrie der Objekte und ihre Position auf der Seite berechnet wurden, kann das Dokument in einem festen Seitenformat gespeichert werden, das von Aspose.Words unterstützt wird.

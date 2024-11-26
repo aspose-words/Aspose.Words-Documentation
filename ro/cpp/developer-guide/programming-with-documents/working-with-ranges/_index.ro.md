@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu intervale în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Lucrul cu gamele
@@ -7,6 +7,7 @@ description: "Introducere în funcția de gamă în Aspose.Words pentru C++."
 type: docs
 weight: 130
 url: /ro/cpp/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

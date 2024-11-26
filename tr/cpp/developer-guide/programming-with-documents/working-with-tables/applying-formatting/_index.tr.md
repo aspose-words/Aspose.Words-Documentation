@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tablo Biçimlendirme C++
 second_title: Aspose.Words için C++
 articleTitle: Biçimlendirme Uygula
@@ -7,6 +7,7 @@ description: "C++ kullanarak ayrıntılı olarak tablo biçimlendirme. Tablonun 
 type: docs
 weight: 70
 url: /tr/cpp/applying-formatting/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Bir tablonun her öğesi farklı biçimlendirme ile uygulanabilir. Örneğin, tablo biçimlendirmesi tüm tabloya, satır biçimlendirmesi yalnızca belirli satırlara, hücre biçimlendirmesi yalnızca belirli hücrelere uygulanacaktır.

@@ -8,6 +8,7 @@ url: /vi/python-net/create-or-load-a-document/
 description: "Tạo một tài liệu trống hoặc tải nó từ một tệp hoặc luồng bằng Python."
 keywords: "create a document python, load a document python, create a blank document python, load a document from file python, load a document from stream python, create a document Aspose python, load a document Aspose python, load formats supported by Aspose.Words python"
 weight: 10
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hầu hết mọi tác vụ bạn muốn thực hiện với Aspose.Words đều liên quan đến việc tải tài liệu. Lớp [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) đại diện cho một tài liệu được tải vào bộ nhớ. Tài liệu này có một số hàm tạo được nạp chồng cho phép bạn tạo một tài liệu trống hoặc tải nó từ một tệp hoặc luồng. Tài liệu có thể được tải ở bất kỳ định dạng tải nào được Aspose.Words hỗ trợ. Để biết danh sách tất cả các định dạng tải được hỗ trợ, hãy xem bảng liệt kê [LoadFormat](https://reference.aspose.com/words/python-net/aspose.words/loadformat/).

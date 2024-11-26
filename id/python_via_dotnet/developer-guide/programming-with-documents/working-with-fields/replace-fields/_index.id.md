@@ -7,6 +7,7 @@ description: "Pelajari cara mengganti kolom dengan teks di Python. Ganti kolom d
 type: docs
 weight: 37
 url: /id/python-net/replace-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Mengganti kolom sering kali diperlukan saat Anda ingin menyimpan dokumen sebagai salinan statis. Misalnya saat mengirim sebagai lampiran di email. Mengonversi bidang seperti `DATE` atau `TIME` menjadi teks statis akan memungkinkan dokumen menampilkan tanggal yang sama seperti saat dikirim. Selain itu, dalam beberapa situasi, Anda mungkin perlu menghapus bidang `IF` bersyarat dari dokumen Anda dan menggantinya dengan hasil teks terbaru. Misalnya, mengonversi hasil bidang `IF` menjadi teks statis sehingga tidak lagi berubah nilainya secara dinamis ketika bidang dalam dokumen diperbarui.

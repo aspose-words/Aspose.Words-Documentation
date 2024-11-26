@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Lettertipes in C++
 second_title: Aspose.Words vir C++
 articleTitle: Werk Met Lettertipes
@@ -7,6 +7,7 @@ description: "Font formatering in besonderhede met behulp van C++."
 type: docs
 weight: 230
 url: /af/cpp/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 'n lettertipe is'n stel karakters met'n sekere grootte, kleur en ontwerp. Aspose.Words laat jou toe om met lettertipes te werk deur die [Fonts](https://reference.aspose.com/words/cpp/aspose.words.fonts/) naamruimte en die [Font](https://reference.aspose.com/words/cpp/aspose.words/font/) klas te gebruik.

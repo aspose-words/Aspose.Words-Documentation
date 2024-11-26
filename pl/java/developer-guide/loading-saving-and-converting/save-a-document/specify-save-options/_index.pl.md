@@ -7,6 +7,7 @@ description: "Ustaw zaawansowane właściwości podczas zapisywania dokumentu Ja
 type: docs
 weight: 20
 url: /pl/java/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Podczas zapisywania dokumentu można ustawić pewne zaawansowane właściwości. Aspose.Words zapewnia Państwu [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) klasa, która umożliwia bardziej precyzyjne sterowanie procesem zapisu. Są przeciążenia **Save** metoda akceptująca **SaveOptions** obiekt - powinien być obiektem klasy pochodzącej z **SaveOptions** Klasa. Każdy format zapisu posiada odpowiednią klasę, która posiada opcje zapisu dla tego formatu zapisu, na przykład, istnieje [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) do zapisu do formatu PDF, [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) dla zapisu do Markdown format, lub [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) do zapisu obrazu. Ten artykuł zawiera przykłady pracy z niektórych opcji klasy uzyskane z **SaveOptions**.

@@ -7,6 +7,7 @@ description: "Załaduj dokument w dowolnym obsługiwanym formacie za pomocą Pyt
 type: docs
 weight: 20
 url: /pl/python-net/supported-features-on-document-load/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words stara się obsługiwać wszystkie funkcje we wszystkich obsługiwanych formatach. Prawie wszystkie funkcje dokumentów Microsoft Word są obsługiwane i wiernie zachowywane podczas konwersji. Za pomocą Aspose.Words możesz wczytać i przekonwertować dokument dowolnej wielkości, a w ciągu kilku sekund z łatwością poradzisz sobie z konwersją dokumentu składającego się z tysięcy stron. Jedynym ograniczeniem jest ilość dostępnej pamięci roboczej na komputerze.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Remover Campos C++
 second_title: Aspose.Words para C++
 articleTitle: Remover Campos
@@ -7,6 +7,7 @@ description: "Saiba como remover campos Em C++. Remova campos programaticamente 
 type: docs
 weight: 35
 url: /pt/cpp/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Às vezes, é necessário remover um campo de um documento. Isso pode ocorrer quando ele precisa ser substituído por um tipo de campo diferente ou quando o campo não é mais necessário no documento. Por exemplo, o campo `TOC` ao salvar em HTML.

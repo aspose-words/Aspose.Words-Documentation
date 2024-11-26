@@ -7,6 +7,7 @@ description: "Extract images from a document easily and fast instead of using Ap
 type: docs
 weight: 30
 url: /java/extract-images-from-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Extract Images from Document

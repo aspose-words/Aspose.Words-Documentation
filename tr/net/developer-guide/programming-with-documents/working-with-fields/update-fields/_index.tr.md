@@ -7,6 +7,7 @@ description: "C#'teki alanları nasıl güncelleyeceğinizi öğrenin. Alanları
 type: docs
 weight: 30
 url: /tr/net/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Genellikle Microsoft Word'e eklenen bir alan zaten güncel bir değer içerir. Örneğin alan bir formül veya sayfa numarasıysa, belgenin verilen sürümü için doğru hesaplanan değeri içerecektir. Ancak, iki belgeyi birleştirmek veya onu verilerle doldurmak gibi alanlarla bir belge oluşturan veya değiştiren bir uygulamanız varsa, o zaman ideal olarak belgenin kullanışlı olması için tüm alanların güncellenmesi gerekir.
@@ -42,7 +43,7 @@ Bu örneğin örnek dosyasını [Aspose.Words GitHub](https://github.com/aspose-
 
 ### Mail Merge Sırasında Otomatik Alan Güncellemesi
 
-Bir mail merge çalıştırdığınızda belgedeki tüm alanlar otomatik olarak güncellenecektir. Bunun nedeni mail merge'in bir alan güncellemesi durumu olmasıdır. Program bir mail merge alanıyla karşılaşır ve sonucunu güncellemesi gerekir; bu, veri kaynağından değerin alınıp alana eklenmesini içerir. Mantık elbette daha karmaşıktır; örneğin, belgenin/mail merge bölgesinin sonuna gelindiğinde ancak birleştirilecek daha fazla veri olduğunda, bölgenin kopyalanması ve yeni alan kümesinin güncellenmesi gerekir.
+Bir Mail Merge çalıştırdığınızda belgedeki tüm alanlar otomatik olarak güncellenecektir. Bunun nedeni mail merge'in bir alan güncellemesi durumu olmasıdır. Program bir Mail Merge alanıyla karşılaşır ve sonucunu güncellemesi gerekir; bu, veri kaynağından değerin alınıp alana eklenmesini içerir. Mantık elbette daha karmaşıktır; örneğin, belgenin/mail merge bölgesinin sonuna gelindiğinde ancak birleştirilecek daha fazla veri olduğunda, bölgenin kopyalanması ve yeni alan kümesinin güncellenmesi gerekir.
 
 ## Kirli Niteliğe Sahip Alanları Güncelle
 

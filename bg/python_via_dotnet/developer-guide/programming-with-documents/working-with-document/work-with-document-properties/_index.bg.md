@@ -7,6 +7,7 @@ description: "Aspose.Words вместо Python позволява съхраня
 type: docs
 weight: 10
 url: /bg/python-net/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Свойствата на документите позволяват съхраняване на полезна информация за вашия документ. Тези свойства могат да бъдат разделени на две групи:

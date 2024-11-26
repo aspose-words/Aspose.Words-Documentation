@@ -1,82 +1,83 @@
----
-title: 形の働き Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: 形状を扱う
-linktitle: 形状を扱う
+﻿---
+title: Java内の図形の操作
+second_title: Aspose.WordsのためのJava
+articleTitle: 図形の操作
+linktitle: 図形の操作
 type: docs
-description: "マークアップ言語の形成、さまざまなタイプの形状の作図入門 Javaお問い合わせ"
+description: "Shape markup languageの概要、Javaを使用して異なるタイプの図形を作成します。"
 weight: 280
 url: /ja/java/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
-このトピックは、プログラム的に図形を使用して機能する方法について説明します Aspose.Wordsお問い合わせ
+このトピックでは、Aspose.Wordsを使用して図形をプログラムで操作する方法について説明します。
 
-形状の形状 Aspose.Words AutoShape、テキストボックス、フリーフォーム、OLEオブジェクト、ActiveXコントロール、画像などの描画レイヤーのオブジェクトを表します。 単語の文書は1つ以上の異なる形状を含むことができます。 文書の形状は、 [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) クラス。
+Aspose.Wordsの図形は、AutoShape、textbox、freeform、OLEオブジェクト、ActiveXコントロール、または画像など、描画レイヤー内のオブジェクトを表します。 Word文書には、1つ以上の異なる図形を含めることができます。 ドキュメントの図形は[Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/)クラスで表されます。
 
-## ドキュメントビルダーを使用したインサート形状
+## ドキュメントビルダーを使用した図形の挿入
 
-指定したタイプとサイズとフリーフローティング形状のインライン形状を指定した位置、サイズ、テキストラップタイプをドキュメントに入力できます。 [InsertShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertShape-int-double-double) メソッド。 ザ・オブ・ザ・ **InsertShape** DML 形状をドキュメントモデルに差し込みます。 ドキュメントは DML 形状をサポートする形式で保存されなければなりません。それ以外の場合は、ドキュメント保存中に VML 形状に変換されます。
+[InsertShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertShape-int-double-double) メソッドを使用して、タイプとサイズが指定されたインライン シェイプと、位置、サイズ、テキスト折り返しタイプが指定されたフリー フローティング シェイプをドキュメントに挿入できます。**InsertShape** メソッドを使用すると、ドキュメント モデルに DML シェイプを挿入できます。ドキュメントは、DML シェイプをサポートする形式で保存する必要があります。そうでない場合、ドキュメントの保存時に、このようなノードは VML シェイプに変換されます。
 
-次のコードの例では、これらの型を文書に差し込む方法を示します。
+次のコード例は、これらの種類の図形をドキュメントに挿入する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-InsertShapeUsingDocumentBuilder.java" >}}
 
-## セット アスペクト レシオロック
+## ロックされたアスペクト比を設定
 
-使用方法 Aspose.Words, 形状のアスペクト比がロックされているかどうかを指定できます。 [AspectRatioLocked](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getAspectRatioLocked) プロパティ.
+Aspose.Wordsを使用すると、図形のアスペクト比を[AspectRatioLocked](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getAspectRatioLocked)プロパティでロックするかどうかを指定できます。
 
-次のコードの例では、どのように動作するかを示します。 **AspectRatioLocked** プロパティ:
+次のコード例は、**AspectRatioLocked**プロパティを操作する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-SetAspectRatioLocked.java" >}}
 
-## セルの形状レイアウトを設定する
+## セル内の図形レイアウトを設定する
 
-また、テーブル内や外側に形状が表示されているかを指定することもできます。 [IsLayoutInCell](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#isLayoutInCell) プロパティ.
+また、[IsLayoutInCell](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#isLayoutInCell)プロパティを使用して、図形をテーブルの内側に表示するか、テーブルの外側に表示するかを指定することもできます。
 
-次のコードの例では、どのように動作するかを示します。 **IsLayoutInCell** プロパティ:
+次のコード例は、**IsLayoutInCell**プロパティを操作する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-SetShapeLayoutInCell.java" >}}
 
-## コーナーを追加 スナイテッド
+## 角切りを追加
 
-スニップコーナー長方形を作成できます。 Aspose.Wordsお問い合わせ 形状タイプは、*SingleCornerSnipped、TopCornerSnipped、DiagonalCornerSnipped、TopCornerOneRoundedOneSnipped、SingleCornerRounded、TopCornersRounded、*および *DiagonalCornersRounded.*
+Aspose.Wordsを使用してスニップ角矩形を作成することができます。 図形の種類は*SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped, TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded,*と*DiagonalCornersRounded.*です
 
-DML形状は、 **InsertShape** これらの形状タイプでの方法。 これらのタイプはVML形状を作成するために使用できません。 「Shape」クラスのパブリックコンストラクタを使用して形状を作成する試みは、「NotSupportedException」例外を上げます。
+DML図形は、これらの図形タイプの**InsertShape**メソッドを使用して作成されます。 これらの型を使用してVML図形を作成することはできません。 "Shape"クラスのパブリックコンストラクタを使用してshapeを作成しようとすると、"NotSupportedException"例外が発生します。
 
-以下のコードの例では、これらの形状を文書に差し込む方法を示します。
+次のコード例は、これらの種類の図形をドキュメントに挿入する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-AddCornersSnipped.java" >}}
 
-## 実際の形状バウンドポイントを取得する
+## 実際の形状の境界点を取得する
 
-使用方法 Aspose.Words API, 一番上の形状のアンカーに相対的な点のブロックを含む形状の位置とサイズを得ることができます。 これを行うには、 [BoundsInPoints](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getBoundsInPoints) プロパティ.
+Aspose.WordsAPIを使用すると、一番上の図形のアンカーを基準にして、ブロックを含む図形の位置とサイズをポイント単位で取得できます。 これを行うには、[BoundsInPoints](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#getBoundsInPoints)プロパティを使用します。
 
-次のコードの例では、どのように動作するかを示します。 **BoundsInPoints** プロパティ:
+次のコード例は、**BoundsInPoints**プロパティを操作する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-GetActualShapeBoundsPoints.java" >}}
 
-## 縦のアンカーを指定する
+## 縦のアンカーを指定して下さい
 
-形状内のテキストの縦並びを形状内で指定できます。 [VerticalAnchor](https://reference.aspose.com/words/java/com.aspose.words/textbox/#getVerticalAnchor) プロパティ.
+[VerticalAnchor](https://reference.aspose.com/words/java/com.aspose.words/textbox/#getVerticalAnchor)プロパティを使用して、図形内のテキストの垂直方向の配置を指定できます。
 
-次のコードの例では、どのように動作するかを示します。 **VerticalAnchor** プロパティ:
+次のコード例は、**VerticalAnchor**プロパティを操作する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-SpecifyVerticalAnchor.java" >}}
 
-## スマート検出 芸術の形
+## SmartArt形状の検出
 
-Aspose.Words また、形状がaを持っているかどうかを検出することができます `SmartArt` オブジェクト。 これを行うには、 [HasSmartArt](https://reference.aspose.com/words/java/com.aspose.words/shape/#hasSmartArt) プロパティ.
+Aspose.Wordsは、図形に`SmartArt`オブジェクトがあるかどうかを検出することもできます。 これを行うには、[HasSmartArt](https://reference.aspose.com/words/java/com.aspose.words/shape/#hasSmartArt)プロパティを使用します。
 
-次のコードの例では、どのように動作するかを示します。 **HasSmartArt** プロパティ:
+次のコード例は、**HasSmartArt**プロパティを操作する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-DetectSmartArtShape.java" >}}
 
-## 横のルールのフォーマット
+## 水平ルール形式
 
-水平ルールの形状をドキュメントに差し込むことができます。 [InsertHorizontalRule](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHorizontalRule) メソッド。
+[InsertHorizontalRule](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHorizontalRule)メソッドを使用して、水平ルール形状を文書に挿入できます。
 
-Aspose.Words API オファー [HorizontalRuleFormat](https://reference.aspose.com/words/java/com.aspose.words/shape/#getHorizontalRuleFormat) 水平ルール形状のプロパティにアクセスするプロパティ。 ザ・オブ・ザ・ [HorizontalRuleFormat](https://reference.aspose.com/words/java/com.aspose.words/horizontalruleformat/) クラスは、水平ルールの書式のための高さ、色、NoShadeなどの基本的なプロパティを公開します。
+Aspose.WordsAPIは、水平ルール図形のプロパティにアクセスするための[HorizontalRuleFormat](https://reference.aspose.com/words/java/com.aspose.words/shape/#getHorizontalRuleFormat)プロパティを提供します。 [HorizontalRuleFormat](https://reference.aspose.com/words/java/com.aspose.words/horizontalruleformat/)クラスは、Height、Color、NoShadeなどの基本的なプロパティを公開します。 水平ルールの書式設定のために。
 
-次のコードの例では、設定方法を示します。 **HorizontalRuleFormat**:::
+次のコード例は、**HorizontalRuleFormat**を設定する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-ShapeHorizontalRuleFormat.java" >}}

@@ -7,6 +7,7 @@ description: "Kombinieren Sie Dokumente zu einem: Fügen Sie ein Dokument in ein
 type: docs
 weight: 80
 url: /de/python-net/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal ist es erforderlich, mehrere Dokumente zu einem zusammenzufassen. Sie können dies manuell tun oder die Aspose.Words-Funktion zum Einfügen oder Anhängen verwenden.

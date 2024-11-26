@@ -1,46 +1,47 @@
----
-title: نصب True فونت های نوع در Linux در Java
+﻿---
+title: فونت های TrueType را روی Linux در Javaنصب کنید
 second_title: Aspose.Words برای Java
-articleTitle: نصب True فونت های نوع در Linux
-linktitle: نصب True فونت های نوع در Linux
-description: "Aspose.Words برای Java امکان ارائه یک سند ایجاد شده با استفاده از Microsoft Word در یک Linux ماشین با بهترین دقت"
+articleTitle: فونت های TrueType را روی Linuxنصب کنید
+linktitle: فونت های TrueType را روی Linuxنصب کنید
+description: "Aspose.Words برای Java امکان ارائه یک سند ایجاد شده با استفاده از Microsoft Word در یک ماشین Linux با بهترین دقت را فراهم می کند."
 type: docs
 weight: 20
 url: /fa/java/install-truetype-fonts-on-linux/
+timestamp: 2024-01-27-14-07-04
 ---
 
-اغلب استفاده می کنید Aspose.Words تبدیل اسناد DOC یا DOCX به فرمت PDF. اگر شما باید این کار را در یک Linux ماشین، این موضوع به شما کمک می کند تا یاد بگیرید چگونه Aspose.Words ارائه اسناد خود را با بهترین دقت.
+اغلب، شما از Aspose.Words برای تبدیل DOC یا DOCX اسناد به PDF فرمت استفاده خواهید کرد. اگر شما نیاز به انجام این کار در یک دستگاه Linux دارید، این موضوع به شما کمک می کند تا یاد بگیرید که چگونه اطمینان حاصل کنید که Aspose.Words اسناد شما را با بهترین دقت ارائه می دهد.
 
-اغلب، اسناد DOC و DOCX که نیاز به تبدیل شدن دارند با استفاده از آن ایجاد می شوند. Microsoft Word, در یک Windows سیستم عامل Mac OS بنابراین، بیشتر فونت های مورد استفاده در اسناد DOC و DOCX عبارتند از:Windows فونت ها یا "کیف پول های اداری" که فونت های نصب شده با آنها هستند Microsoft Windows یا Microsoft دفتر این فونت ها شامل Arial، Calibri، Cambria، Century Gothic، Courier New، Garamond، Tahoma، Verdana، Wingdings و بسیاری دیگر هستند.
+اغلب اسناد DOC و DOCX که باید تبدیل شوند با استفاده از Microsoft Word در یک سیستم عامل Windows یا Mac OS ایجاد می شوند. بنابراین، بیشتر فونت های مورد استفاده در اسناد DOC وDOCX "فونت های Windows" یا "فونت های اداری" هستند که فونت های نصب شده با Microsoft Windows یا Microsoft Office هستند. این فونت ها شامل Arial، Calibri، Cambria، Century Gothic، Courier New، Garamond، Tahoma، Verdana، Wingdings و بسیاری دیگر است.
 
-مشکل این است که `TrueType` فونت های ذکر شده در بالا به طور پیش فرض نصب نمی شوند Linux توزیع ها اگر شما یک سند معمولی DOCX را که با فونت Cambria فرمت شده است را انتخاب کنید و سعی کنید آن را به فرمت PDF بر روی فرمت PDF بر روی فرمت PDF در قالب. Linux, Aspose.Words از یک فونت متفاوت استفاده کنید زیرا کامبریا در دسترس نیست. در نتیجه، سند PDF در مقایسه با سند اصلی DOCX متفاوت خواهد بود. برای اطمینان از اینکه اسناد توسط Aspose.Words به نظر می رسد نزدیک به نسخه اصلی، شما باید نصب کنید "Windows فونت ها بر روی شما Linux سیستم
+مشکل این است که فونت های `TrueType` ذکر شده در بالا به طور پیش فرض در توزیع های Linux نصب نشده اند. اگر یک سند معمولی DOCX را که با فونت کمبریا فرمت شده است بگیرید و سعی کنید آن را به PDF فرمت در Linux تبدیل کنید، Aspose.Words از فونت دیگری استفاده خواهد کرد زیرا کمبریا در دسترس نیست. در نتیجه، سند PDF در مقایسه با سند اصلی DOCX متفاوت خواهد بود. برای اطمینان از اینکه اسناد تبدیل شده توسط Aspose.Words تا حد ممکن به اصل نزدیک هستند، باید "Windows فونت" را روی سیستم Linux خود نصب کنید.
 
-دو راه اصلی برای گرفتن فونت های TrueType در یک Linux سیستم:
+دو راه اصلی برای دریافت فونت های TrueType در یک سیستم Linux وجود دارد:
 
-- Copy.TTF و فایل های TTC از یک Windows ماشین بر روی شما Linux ماشین ماشین
-- نصب یک `TrueType` بسته فونت، مانند *msttcorefonts*
+- کپی .TTF و .فایل های TTC از یک ماشین Windows به ماشین Linux شما
+- یک بسته فونت `TrueType` مانند *msttcorefonts*نصب کنید
 
-## کپی کردن فونت ها از یک Windows ماشین ماشین
+## کپی کردن فونت ها از دستگاه Windows
 
-یک راه آسان و سریع برای به دست آوردن فونت های TrueType در یک راه آسان و سریع Linux سیستم کپی کردن است. TTF و فایل های TTC از `C:\Windows\Fonts` دایرکتوری در Windows ماشین به برخی از دایرکتوری ها در شما Linux ماشین شما نیازی به نصب یا ثبت این فونت ها در Linux به هر ترتیب، شما فقط باید مکان فونت ها را با استفاده از فونت ها مشخص کنید. [FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/) کلاس در Aspose.Words...
+یک راه آسان و سریع برای دریافت فونت های TrueType در یک سیستم Linux کپی کردن است .TTF و .فایل های TTC از دایرکتوری `C:\Windows\Fonts` در یک ماشین Windows به دایرکتوری در ماشین Linux شما. شما نیازی به نصب یا ثبت این فونت ها در Linux به هیچ وجه ندارید ؛ شما فقط باید مکان فونت ها را با استفاده از کلاس [FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/) در Aspose.Words مشخص کنید.
 
 {{% alert color="primary" %}}
 
-بررسی کنید که آیا مجوز فونت مورد نیاز است و قبل از نصب فونت های MS بر روی هر گونه فونت EULA را به دقت بخوانید. Linux سیستم عامل
+بررسی کنید که آیا مجوز فونت مورد نیاز است و قبل از نصب فونت های MS بر روی هر سیستم عامل Linux، EULA را با دقت بخوانید.
 
 {{% /alert %}}
 
-## نصب یک `TrueType` بسته فونت ها
+## یک بسته فونت `TrueType` نصب کنید
 
-تعدادی از Linux بسته ها، حاوی Microsoft فونت های TrueType، که می توانید آن را دانلود و نصب کنید Linux ماشین مراحل دقیق ممکن است در موارد مختلف متفاوت باشد. Linux توزیع ها
+تعدادی از بسته های Linux وجود دارد که شامل فونت های Microsoft TrueType است که می توانید آن را دانلود و بر روی دستگاه Linux خود نصب کنید. مراحل دقیق ممکن است در توزیع های مختلف Linux متفاوت باشد.
 
-- On Ubuntu, از S سیناپس Package Manager برای پیدا کردن و نصب بسته *ttf-mscorefonts-installer* استفاده کنید.
-- در OpenSUSE، از مدیریت نرم افزار برای پیدا کردن و نصب استفاده کنید *fetchmsttfonts* بسته
-- استفاده از فونت های آزادی بخش تحت OFL، به عنوان یک جایگزین برای استاندارد Windows فونت ها: Arial، Times New Roman و Courier New
-- – برای بسته های فونت مناسب با دیگر Linux توزیع، جستجوی مستندات موجود در اینترنت
+- در Ubuntu، از Synaptic Package Manager برای پیدا کردن و نصب بسته *ttf-mscorefonts-installer* استفاده کنید.
+- در openSUSE، از Yast2 → مدیریت نرم افزار برای پیدا کردن و نصب بسته *fetchmsttfonts* استفاده کنید.
+- از فونت های آزادی تحت مجوز OFL به عنوان جایگزین فونت های استاندارد Windows استفاده کنید: Arial، Times New Roman و Courier New.
+- برای بسته های فونت مناسب برای سایر توزیع های Linux، اسناد موجود در اینترنت را جستجو کنید.
 
-پس از نصب بسته، Aspose.Words این فونت ها را در پوشه های سیستم خود پیدا کنید و هنگام کار با اسناد از آنها استفاده کنید.
+پس از نصب بسته، Aspose.Words این فونت ها را در پوشه های سیستم شما پیدا می کند و هنگام کار با اسناد از آنها استفاده می کند.
 
-## همچنین ببینید
+## بایگانی برچسب برای:
 
-- [آزاد سازی فونت ها](https://github.com/liberationfonts) به عنوان جایگزین استاندارد Windows فونت ها
+- [فونت های آزادی](https://github.com/liberationfonts) به عنوان یک جایگزین برای فونت های استاندارد Windows

@@ -7,6 +7,7 @@ description: "Python용 Aspose.Words를 사용하면 Linux 시스템에서 Micro
 type: docs
 weight: 20
 url: /ko/python-net/installing-truetype-fonts-on-linux/
+timestamp: 2024-01-27-14-07-04
 ---
 
 대부분의 경우 Aspose.Words를 사용하여 DOC 또는 DOCX 문서를 PDF 형식으로 변환합니다. Linux 시스템에서 이 작업을 수행해야 하는 경우 이 항목은 Aspose.Words가 문서를 가장 정확하게 렌더링하는지 확인하는 방법을 배우는 데 도움이 될 것입니다.

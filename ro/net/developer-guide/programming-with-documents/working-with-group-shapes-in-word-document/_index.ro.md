@@ -7,6 +7,7 @@ description: "`Gruparea și desgruparea formele folosind C#.`"
 type: docs
 weight: 290
 url: /ro/net/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uneori trebuie să adaugi un group shape într-un document Word. O asemenea group shape este formată din mai multe forme.

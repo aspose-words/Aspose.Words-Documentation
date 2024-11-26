@@ -1,4 +1,4 @@
-﻿---
+---
 title: تثبيت TrueType الخطوط على Linux في C++
 second_title: Aspose.Words ل C++
 articleTitle: تثبيت TrueType الخطوط على Linux
@@ -7,6 +7,7 @@ description: "Aspose.Words ل C++ يسمح بعرض مستند تم إنشاؤه
 type: docs
 weight: 20
 url: /ar/cpp/install-truetype-fonts-on-linux/
+timestamp: 2024-01-27-14-07-04
 ---
 
 في أغلب الأحيان، ستستخدم Aspose.Words لتحويل DOC أو DOCX المستندات إلى PDF تنسيق. إذا كنت بحاجة إلى القيام بذلك على جهاز Linux، فسيساعدك هذا الموضوع على معرفة كيفية التأكد من أن Aspose.Words يعرض مستنداتك بأفضل دقة.

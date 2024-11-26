@@ -8,6 +8,7 @@ description: "Clone a document to get its identical copy. When creating a copy, 
 weight: 70
 url: /java/clone-a-document/
 aliases: [/java/clone-and-combine-documents/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 Cloning a document is the process of creating an identical copy of an original document, which can improve performance and save you from potential memory leaks.

@@ -7,6 +7,7 @@ description: "Como implementar recursos Markdown usando Python. Todos os recurso
 type: docs
 weight: 420
 url: /pt/python-net/working-with-markdown-features/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Este tópico discute como implementar recursos Markdown usando Aspose.Words. Markdown é uma maneira simples de formatar texto simples que pode ser facilmente convertido em HTML. Aspose.Words oferece suporte aos seguintes recursos Markdown:

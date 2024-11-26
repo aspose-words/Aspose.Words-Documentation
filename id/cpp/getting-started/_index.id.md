@@ -1,4 +1,4 @@
-﻿---
+---
 title: Memulai
 second_title: Aspose.Words untuk C++
 articleTitle: Memulai
@@ -7,6 +7,7 @@ type: docs
 description: "Gunakan pengantar ini untuk Aspose.Words untuk C++ dasar-dasar untuk mulai menyadari nilai Aspose.Words untuk bisnis Anda."
 weight: 10
 url: /id/cpp/getting-started/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Persiapan ini memberikan pengantar tentang dasar-dasar Aspose.Words. Untuk pengguna yang baru mengenal Aspose.Words, ini adalah cara tercepat untuk mempelajari persyaratan dan kemampuan dasar.

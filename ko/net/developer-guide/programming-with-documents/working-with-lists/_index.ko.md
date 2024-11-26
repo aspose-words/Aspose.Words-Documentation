@@ -7,6 +7,7 @@ description: ".NET용 Aspose.Words의 번호 매기기 형식 지정 기능을 �
 type: docs
 weight: 200
 url: /ko/net/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Microsoft Word 문서의 목록은 단락 서식 속성 집합입니다. 목록은 문서에서 텍스트를 구성하고 정렬하고 강조 표시하는 데 사용할 수 있습니다. 목록은 독자가 핵심 사항을 쉽게 흡수하고 이해할 수 있도록 문서의 데이터를 구성하는 좋은 방법입니다.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Création d'une mise en page en C++
 second_title: Aspose.Words pour C++
 articleTitle: Création d'une mise en page
@@ -7,6 +7,7 @@ description: "La création d'une mise en page peut être une procédure coûteus
 type: docs
 weight: 10
 url: /fr/cpp/creating-a-page-layout/
+timestamp: 2024-09-24-14-35-44
 ---
 
 La création d'une mise en page peut être une procédure coûteuse, à la fois en termes de vitesse et de mémoire. Cela est dû à plusieurs raisons:

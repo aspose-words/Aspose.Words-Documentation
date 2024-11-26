@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words pentru C++
 articleTitle: Aspose.Words pentru C++
 linktitle: Aspose.Words pentru C++
@@ -7,6 +7,7 @@ type: docs
 weight: 30
 url: /ro/cpp/
 is_root: true
+timestamp: 2024-09-25-11-08-55
 ---
 
 <img src="home_1" alt="aspose-words-cpp-home" align="left" style="width:110px; margin: 0 30px 30px 0"/>

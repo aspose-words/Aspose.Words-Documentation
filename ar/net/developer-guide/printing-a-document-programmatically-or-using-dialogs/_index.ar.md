@@ -7,6 +7,7 @@ description: "اطبع مستندًا على Server باستخدام XpsPrint AP
 type: docs
 weight: 55
 url: /ar/net/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-31-14-23-37
 ---
 
 توضح هذه المقالة كيفية طباعة مستند معالجة النصوص من تطبيق خدمة ASP.NET أو Windows باستخدام Aspose.Words و`XpsPrint` API. ويوضح أيضًا طرق طباعة مستند من خلال مربعات حوار الإعدادات ومعاينة الطباعة وتقدم الطباعة، ويشرح كيفية تقليل وقت الاستدعاء الأول لطباعة مستند.

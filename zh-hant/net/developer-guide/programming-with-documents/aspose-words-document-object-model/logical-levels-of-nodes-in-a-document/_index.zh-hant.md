@@ -7,6 +7,7 @@ type: docs
 description: "在 Aspose.Words for .NET 文檔中提及使用 C# 的邏輯節點層次：阻擋、內聯或列級。 节点层次用于描述文档树中节点通常出现的地点。"
 weight: 10
 url: /zh-hant/net/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 本文件有時稱一組節點類別屬於一個層級的節點，如塊層級、內聯層級（亦即內聯節點）或行層級節點。 這些在文件中的層級純粹是邏輯上區別而沒有明示繼承或其他 Aspose.Words DOM 表示。 節點層級用於描述節點在文檔樹中的位置。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chuyển Đổi Tài liệu thành HTML, MHTML hoặc EPUB
 second_title: Aspose.Words cho C++
 articleTitle: Chuyển Đổi Tài liệu thành HTML, MHTML hoặc EPUB
@@ -7,6 +7,7 @@ description: "Chuyển đổi tài liệu từ hầu hết mọi định dạng 
 type: docs
 weight: 20
 url: /vi/cpp/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-10-21-08-52-03
 ---
 
 Tài liệu ở định dạng bố cục luồng HTML và MHTML cũng rất phổ biến và có thể được sử dụng trên bất kỳ nền tảng web nào. Vì lý do đó, chuyển đổi tài liệu thành HTML và MHTML là một tính năng quan trọng của Aspose.Words.

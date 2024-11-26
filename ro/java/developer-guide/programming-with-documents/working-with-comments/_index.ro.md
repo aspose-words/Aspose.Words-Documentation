@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu comentarii în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Lucrul cu comentarii
@@ -7,6 +7,7 @@ description: "Lucrul cu comentarii folosind Java."
 type: docs
 weight: 260
 url: /ro/java/working-with-comments/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

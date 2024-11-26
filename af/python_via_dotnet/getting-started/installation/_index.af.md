@@ -1,4 +1,4 @@
-﻿---
+---
 title: Installasie
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Installasie
@@ -7,6 +7,7 @@ description: "Installeer Aspose.Words vir Python gebruik Visual Studio gereedska
 type: docs
 weight: 10
 url: /af/python-net/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Maak seker dat jou masjien voldoen aan die [stelselvereistes](/words/python-net/system-requirements/) voordat jy begin.

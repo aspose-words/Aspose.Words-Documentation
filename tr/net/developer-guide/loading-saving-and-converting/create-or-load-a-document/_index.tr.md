@@ -8,6 +8,7 @@ url: /tr/net/create-or-load-a-document/
 description: "Boş bir belge oluşturun veya bunu C# kullanarak bir dosyadan veya akıştan yükleyin."
 keywords: "create a document c#, load a document c#, create a blank document c#, load a document from file c#, load a document from stream c#, create a document Aspose .NET, load a document Aspose .NET, load formats supported by Aspose.Words .NET"
 weight: 10
+timestamp: 2024-07-09-19-00-42
 ---
 
 Aspose.Words ile gerçekleştirmek istediğiniz hemen hemen her görev, bir belgenin yüklenmesini içerir. `Document` sınıfı belleğe yüklenen bir belgeyi temsil eder. Belgede, boş bir belge oluşturmanıza veya bunu bir dosyadan veya akıştan yüklemenize olanak tanıyan aşırı yüklenmiş birkaç kurucu bulunur. Belge, Aspose.Words tarafından desteklenen herhangi bir yükleme biçiminde yüklenebilir. Desteklenen tüm yükleme biçimlerinin listesi için [LoadFormat](https://reference.aspose.com/words/tr/net/aspose.words/loadformat/) numaralandırmasına bakın.

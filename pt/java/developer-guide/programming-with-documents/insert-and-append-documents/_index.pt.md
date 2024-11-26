@@ -1,57 +1,58 @@
----
-title: Inserir e anexar documentos em Java
+﻿---
+title: Inserir e acrescentar documentos em Java
 second_title: Aspose.Words para Java
 articleTitle: Inserir e anexar documentos
 linktitle: Inserir e anexar documentos
-description: "Combine documentos em um: insira ou acrescente um documento em um novo ou existente usando encontrar e substituir, fundir campo, bookmark, ou simplesmente na extremidade do documento em Java."
+description: "Combine documentos em um: insira ou anexe um documento em um novo ou existente usando localizar e substituir, mesclar campo, marcador ou simplesmente no final do documento em Java."
 type: docs
 weight: 80
 url: /pt/java/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Às vezes é necessário combinar vários documentos em um. Você pode fazer isso manualmente ou você pode usar Aspose.Words inserir ou anexar recurso.
+Às vezes, é necessário combinar vários documentos em um. Você pode fazer isso manualmente ou pode usar o recurso Aspose.Words insert ou append.
 
-A operação de inserção permite inserir o conteúdo de documentos previamente criados em um novo ou existente.
+A operação inserir permite inserir o conteúdo de documentos criados anteriormente em um novo ou existente.
 
-Por sua vez, o recurso de apêndice permite adicionar um documento apenas no final de outro documento.
+Por sua vez, o recurso anexar permite adicionar um documento apenas no final de outro documento.
 
-Este artigo explica como inserir ou anexar um documento a outro de maneiras diferentes e descreve as propriedades comuns que você pode aplicar ao inserir ou anexar documentos.
+Este artigo explica como inserir ou anexar um documento a outro de maneiras diferentes e descreve as propriedades comuns que podem ser aplicadas ao inserir ou anexar documentos.
 
-## Insira um documento
+## Inserir um documento
 
-Como mencionado acima, em Aspose.Words um documento é representado como uma árvore de nós, e a operação de inserir um documento em outro é copiar nós da primeira árvore de documentos para o segundo.
+Como mencionado acima, em Aspose.Words um documento é representado como uma árvore de nós, e a operação de inserir um documento em outro é copiar nós da primeira árvore de documentos para a segunda.
 
-Você pode inserir documentos em uma variedade de locais de maneiras diferentes. Por exemplo, você pode inserir um documento através de uma operação de substituição, um campo de mesclagem durante uma operação de mesclagem, ou através de um marcador.
+Você pode inserir documentos em vários locais de diferentes maneiras. Por exemplo, você pode inserir um documento por meio de uma operação de substituição, um campo de mesclagem durante uma operação de mesclagem ou por meio de um marcador.
 
-Você também pode usar o [InsertDocument](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocument-com.aspose.words.Document-int) ou o [InsertDocumentInline](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocumentInline-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions) método, que é semelhante a inserir um documento em Microsoft Word, inserir um documento inteiro na posição atual do cursor sem qualquer importação anterior.
+Você também pode usar o método [InsertDocument](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocument-com.aspose.words.Document-int) ou [InsertDocumentInline](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocumentInline-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions), que é semelhante a inserir um documento em Microsoft Word, para inserir um documento inteiro na posição atual do cursor sem qualquer importação anterior.
 
-O exemplo de código a seguir mostra como inserir um documento usando o **InsertDocument** método:
+O exemplo de código a seguir mostra como inserir um documento usando o método **InsertDocument**:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-with-builder.java" >}}
 
-O exemplo de código a seguir mostra como inserir um documento usando o **InsertDocumentInline** método:
+O exemplo de código a seguir mostra como inserir um documento usando o método **InsertDocumentInline**:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-inline-with-builder.java" >}}
 
-As seguintes subseções descrevem as opções durante as quais você pode inserir um documento em outro.
+As subsecções seguintes descrevem as opções durante as quais pode inserir um documento noutro.
 
-### Insira um documento durante a operação Localizar e Substituir {#insert-a-document-during-find-and-replace-operation}
+### Inserir um documento durante a operação localizar e substituir {#insert-a-document-during-find-and-replace-operation}
 
-Você pode inserir documentos ao executar encontrar e substituir operações. Por exemplo, um documento pode conter parágrafos com o texto [INTRODUÇÃO] e [CONCLUSÃO]. Mas no documento final, você precisa substituir esses parágrafos com o conteúdo obtido de outro documento externo. Para conseguir isso, você precisará criar um manipulador para o evento de substituição.
+Pode inserir documentos enquanto executa operações de localização e substituição. Por exemplo, um documento pode conter parágrafos com o texto [INTRODUCTION] e [CONCLUSION]. Mas no documento final, é necessário substituir esses parágrafos pelo conteúdo obtido de outro documento externo. Para conseguir isso, você precisará criar um manipulador para o evento replace.
 
-O exemplo de código a seguir mostra como criar um manipulador para o evento de substituição para usá-lo mais tarde no processo de inserção:
+O exemplo de código a seguir mostra como criar um manipulador para o evento de substituição para usá-lo posteriormente no processo de inserção:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-replace-handler.java" >}}
 
-O exemplo de código a seguir mostra como inserir conteúdo de um documento em outro durante uma operação de busca e substituição:
+O exemplo de código a seguir mostra como inserir conteúdo de um documento em outro durante uma operação localizar e substituir:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-replace.java" >}}
 
-### Insira um documento durante Mail Merge Operação {#insert-a-document-during-mail-merge-operation}
+### Inserir um documento durante a operação Mail Merge {#insert-a-document-during-mail-merge-operation}
 
-Você pode inserir um documento em um campo de mesclagem durante um mail merge operação. Por exemplo, um mail merge template pode conter um campo de mesclagem, como [Summary]. Mas no documento final, você precisa inserir conteúdo obtido a partir de outro documento externo neste campo de mesclagem. Para conseguir isso, você precisará criar um manipulador para o evento de mesclagem.
+É possível inserir um documento em um campo de mesclagem durante uma operação Mail Merge. Por exemplo, um modelo Mail Merge pode conter um campo de mesclagem, como [resumo]. Mas no documento final, é necessário inserir o conteúdo obtido de outro documento externo neste campo de mesclagem. Para conseguir isso, você precisará criar um manipulador para o evento de mesclagem.
 
-O exemplo de código a seguir mostra como criar um manipulador para o evento de fusão para usá-lo mais tarde no processo de inserção:
+O exemplo de código a seguir mostra como criar um manipulador para o evento de mesclagem para usá-lo posteriormente no processo de inserção:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-mail-merge-handler.java" >}}
 
@@ -59,27 +60,27 @@ O exemplo de código a seguir mostra como inserir um documento no campo de mescl
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-mail-merge.java" >}}
 
-### Insira um documento no Bookmark
+### Inserir um documento no marcador
 
-Você pode importar um arquivo de texto em um documento e inseri-lo logo após um marcador que você definiu no documento. Para fazer isso, crie um parágrafo marcador onde deseja que o documento seja inserido.
+Pode importar um ficheiro de texto para um documento e inseri-lo logo após um marcador definido no documento. Para fazer isso, crie um parágrafo marcado onde deseja que o documento seja inserido.
 
-O seguinte exemplo de codificação mostra como inserir o conteúdo de um documento em outro documento:
+O exemplo de codificação A seguir mostra como inserir o conteúdo de um documento em um marcador em outro documento:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-bookmark.java" >}}
 
 {{% alert color="primary" %}}
 
-Note que o marcador não deve incluir vários parágrafos ou texto que você deseja que eles apareçam em seu documento final resultante.
+Observe que o marcador não deve incluir vários parágrafos ou textos que você deseja que apareçam no documento final resultante.
 
 {{% /alert %}}
 
 ## Anexar um documento
 
-Você pode ter um caso de uso onde você precisa incluir páginas adicionais de um documento até o final de um documento existente. Para fazer isso, basta ligar para o [AppendDocument](https://reference.aspose.com/words/java/com.aspose.words/document/#appendDocument-com.aspose.words.Document-int) método para adicionar um documento ao fim de outro.
+Você pode ter um caso de uso em que precise incluir páginas adicionais de um documento até o final de um documento existente. Para fazer isso, basta chamar o método [AppendDocument](https://reference.aspose.com/words/java/com.aspose.words/document/#appendDocument-com.aspose.words.Document-int) para adicionar um documento ao final de outro.
 
 {{% alert color="primary" %}}
 
-Note que [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/document/#appendChild-com.aspose.words.Node) é um método de nível de nó dentro de um documento. Por exemplo, você pode criar um parágrafo, definir propriedades de formatação e, em seguida, anexá-lo como uma criança ao corpo usando o **AppendChild** método.
+Observe que [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/document/#appendChild-com.aspose.words.Node) é um método de nível de nó dentro de um documento. Por exemplo, você pode criar um parágrafo, definir propriedades de formatação e anexá-lo como filho ao corpo usando o método **AppendChild**.
 
 {{% /alert %}}
 
@@ -89,13 +90,13 @@ O exemplo de código a seguir mostra como anexar um documento ao final de outro 
 
 ## Importar e inserir nós manualmente {#import-and-insert-nodes-manually}
 
-Aspose.Words permite inserir e anexar documentos automaticamente sem quaisquer requisitos de importação anteriores. No entanto, se você precisar inserir ou anexar um nó específico do seu documento, como uma seção ou um parágrafo, primeiro você precisa importar esse nó manualmente.
+Aspose.Words permite inserir e anexar documentos automaticamente sem quaisquer requisitos de importação anteriores. No entanto, se você precisar inserir ou anexar um nó específico do seu documento, como uma seção ou um parágrafo, primeiro precisará importar esse nó manualmente.
 
-Quando você precisa inserir ou anexar uma seção ou parágrafo para outra, você essencialmente precisa importar os nós da primeira árvore do nó do documento no segundo usando o [ImportNode](https://reference.aspose.com/words/java/com.aspose.words/document/#importNode-com.aspose.words.Node-boolean) método. Depois de importar seus nós, você precisa usar o [InsertAfter](https://reference.aspose.com/words/java/com.aspose.words/document/#insertBefore-com.aspose.words.Node-com.aspose.words.Node) método para inserir um novo nó após/antes do nó de referência. Isso permite que você personalize o processo de inserção importando nós de um documento e inseri-lo em determinadas posições.
+Quando você precisa inserir ou anexar uma seção ou parágrafo a outra, você essencialmente precisa importar os nós da primeira árvore de nós do documento para a segunda usando o método [ImportNode](https://reference.aspose.com/words/java/com.aspose.words/document/#importNode-com.aspose.words.Node-boolean). Depois de importar seus nós, você precisa usar o método [InsertAfter](https://reference.aspose.com/words/java/com.aspose.words/document/#insertBefore-com.aspose.words.Node-com.aspose.words.Node) para inserir um novo nó após/antes do nó de referência. Isso permite que você personalize o processo de inserção importando nós de um documento e inserindo-o em determinadas posições.
 
-Você também pode usar o [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/document/#appendChild-com.aspose.words.Node) método para adicionar um novo nó especificado ao final da lista de nós de criança, por exemplo, se você quiser anexar conteúdo no nível de parágrafo em vez de no nível de seção.
+Você também pode usar o método [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/document/#appendChild-com.aspose.words.Node) para adicionar um novo nó especificado ao final da lista de nós filhos, por exemplo, se quiser acrescentar conteúdo no nível do parágrafo em vez de no nível da seção.
 
-O exemplo a seguir mostra como importar nós manualmente e inseri-los após um nó específico usando o **InsertAfter** método:
+O exemplo de código a seguir mostra como importar nós manualmente e inseri-los após um nó específico usando o método **InsertAfter**:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-as-nodes.java" >}}
 
@@ -105,20 +106,20 @@ A importação cria um novo nó que é uma cópia do nó original e adequado par
 
 {{% /alert %}}
 
-O conteúdo é importado na seção de documento de destino por seção, o que significa que as configurações, como configuração de página e cabeçalhos ou rodapés, são preservadas durante a importação. Também é útil notar que você pode definir configurações de formatação quando você inserir ou anexar um documento para especificar como dois documentos são unidos.
+O conteúdo é importado para o documento de destino seção por seção, o que significa que as configurações, como configuração de página e cabeçalhos ou rodapés, são preservadas durante a importação. Também é útil observar que você pode definir configurações de formatação ao inserir ou anexar um documento para especificar como dois documentos são unidos.
 
-## Propriedades comuns para documentos de inserção e anexo {#common-properties-for-insert-and-append-documents}
+## Propriedades comuns para inserir e anexar documentos {#common-properties-for-insert-and-append-documents}
 
-Ambos [InsertDocument](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocument-com.aspose.words.Document-int) e [AppendDocument](https://reference.aspose.com/words/java/com.aspose.words/document/#appendDocument-com.aspose.words.Document-int) métodos aceitar [ImportFormatMode](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/) e [ImportFormatOptions](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/) como parâmetros de entrada. O **ImportFormatMode** permite que você controle como a formatação do documento é mesclada quando você importar conteúdo de um documento para outro selecionando diferentes modos de formato, como [UseDestinationStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#USE-DESTINATION-STYLES), [KeepSourceFormatting](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#KEEP-SOURCE-FORMATTING), e [KeepDifferentStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#KEEP-DIFFERENT-STYLES). O **ImportFormatOptions** permite selecionar diferentes opções de importação, como [IgnoreHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getIgnoreHeaderFooter), [IgnoreTextBoxes](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getIgnoreTextBoxes), [KeepSourceNumbering](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getKeepSourceNumbering), [MergePastedLists](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getMergePastedLists), e [SmartStyleBehavior](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getSmartStyleBehavior).
+Ambos os métodos [InsertDocument](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocument-com.aspose.words.Document-int) e [AppendDocument](https://reference.aspose.com/words/java/com.aspose.words/document/#appendDocument-com.aspose.words.Document-int) aceitam [ImportFormatMode](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/) e [ImportFormatOptions](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/) como parâmetros de entrada. O **ImportFormatMode** permite controlar como a formatação do documento é mesclada ao importar conteúdo de um documento para outro, selecionando diferentes modos de formato, como [UseDestinationStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#USE-DESTINATION-STYLES), [KeepSourceFormatting](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#KEEP-SOURCE-FORMATTING) e [KeepDifferentStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#KEEP-DIFFERENT-STYLES). O **ImportFormatOptions** permite selecionar diferentes opções de importação, tais como [IgnoreHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getIgnoreHeaderFooter), [IgnoreTextBoxes](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getIgnoreTextBoxes), [KeepSourceNumbering](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getKeepSourceNumbering), [MergePastedLists](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getMergePastedLists), e [SmartStyleBehavior](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getSmartStyleBehavior).
 
-Aspose.Words permite ajustar a visualização de um documento resultante quando dois documentos são adicionados juntos em uma operação de inserção ou anexo usando o [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) e [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/) propriedades. O **PageSetup** propriedade contém todos os atributos de uma seção, como [SectionStart](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getSectionStart), [RestartPageNumbering](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getRestartPageNumbering), [PageStartingNumber](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getPageStartingNumber), [Orientation](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getOrientation), e outros. O caso de uso mais comum é definir o **SectionStart** propriedade para definir se o conteúdo adicionado aparecerá na mesma página ou se dividirá em uma nova.
+Aspose.Words permite ajustar a visualização de um documento resultante quando dois documentos são adicionados em uma operação inserir ou acrescentar usando as propriedades [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) e [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/). A propriedade **PageSetup** contém todos os atributos de uma seção, Como [SectionStart](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getSectionStart), [RestartPageNumbering](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getRestartPageNumbering), [PageStartingNumber](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getPageStartingNumber), [Orientation](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getOrientation), e outros. O caso de uso mais comum é definir a propriedade **SectionStart** para definir se o conteúdo adicionado aparecerá na mesma página ou será dividido em uma nova.
 
 {{% alert color="primary" %}}
 
-Note que o **Section** e **PageSetup** propriedades não controlam como dois documentos são inseridos / anexados juntos. Eles só permitem que você altere a aparência do seu documento de resultado.
+Observe que as propriedades **Section** e **PageSetup** não controlam como dois documentos são inseridos/anexados. Eles só permitem que você altere a aparência do seu documento de resultados.
 
 {{% /alert %}}
 
-O exemplo de código a seguir mostra como anexar um documento para outro, mantendo o conteúdo de dividir em duas páginas:
+O exemplo de código a seguir mostra como anexar um documento a outro, evitando que o conteúdo se divida em duas páginas:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "different-page-setup.java" >}}

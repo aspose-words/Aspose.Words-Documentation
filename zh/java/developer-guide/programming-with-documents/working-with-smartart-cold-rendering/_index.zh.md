@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words (单位:千美元) Java 执行智能 Art Cold Rendering,意指如果前作的SmartArt绘图缺失或不正确,它会铺设出并使得SmartArt对象."
 weight: 330
 url: /zh/java/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 SmartArt图形用于快速和方便地创建信息的视觉表现. 你只是从很多最适合你处境的布局中选择. 这种易用性使得SmartArt图形对于某些目的相当流行.

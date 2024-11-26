@@ -7,6 +7,7 @@ description: "مقدمة إلى ميزة النطاق في Aspose.Words لـ .NE
 type: docs
 weight: 130
 url: /ar/net/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

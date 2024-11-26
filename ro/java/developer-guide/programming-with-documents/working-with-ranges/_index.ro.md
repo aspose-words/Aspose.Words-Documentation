@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu intervale în Java
 second_title: Aspose.Words pentru Java
 articleTitle: Lucrul cu gamele
@@ -7,6 +7,7 @@ description: "Introducere în funcția de gamă în Aspose.Words pentru Java."
 type: docs
 weight: 130
 url: /ro/java/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

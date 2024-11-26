@@ -7,6 +7,7 @@ description: "C#를 사용하여 고급 옵션을 사용하여 문서를 PDF로 
 type: docs
 weight: 20
 url: /ko/net/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 PDF 형식은 PDF 문서가 모든 장치에서 동일하게 보이기 때문에 사용자들 사이에서 매우 인기가 있고 다양한 응용 프로그램에서 널리 지원되는 고정 페이지 형식입니다. 따라서 PDF로 변환하는 것은 Aspose.Words의 중요한 기능입니다.

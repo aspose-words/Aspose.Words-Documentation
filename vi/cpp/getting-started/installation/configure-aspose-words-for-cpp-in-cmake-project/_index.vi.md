@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cấu hình sản phẩm trong Dự án CMake
 second_title: Aspose.Words cho C++
 articleTitle: Cấu hình Aspose.Words cho C++ trong Dự án CMake
@@ -7,6 +7,7 @@ description: "Cấu hình Aspose.Words cho C++ trong CMake của bạn và xây 
 type: docs
 weight: 90
 url: /vi/cpp/configure-aspose-words-for-cpp-in-cmake-project/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Aspose.Words cho C++ API hoạt động với CMake cho bất kỳ hệ điều hành GNU/Linux nào. Nó có thể là [tải về từ trang web chính thức](https://cmake.org/download/).

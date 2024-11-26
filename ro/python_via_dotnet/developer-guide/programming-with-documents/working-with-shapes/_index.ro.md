@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu forme în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Lucrul cu forme
@@ -7,6 +7,7 @@ description: "Creați și gestionați forme, obiecte ole într-un document folos
 type: docs
 weight: 280
 url: /ro/python-net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Acest subiect discută cum să lucrați programatic cu forme folosind Aspose.Words.

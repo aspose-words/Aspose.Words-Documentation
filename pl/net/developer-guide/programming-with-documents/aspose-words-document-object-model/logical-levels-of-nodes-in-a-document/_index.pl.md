@@ -7,6 +7,7 @@ type: docs
 description: "W dokumentacji Aspose.Words dla .NET wspomniano o poziomach logicznych węzłów – poziomie bloku, poziomie wbudowanym lub poziomie wiersza przy użyciu formatu C#. Poziom węzła służy do opisu lokalizacji w drzewie dokumentu, w której zazwyczaj występuje węzeł."
 weight: 10
 url: /pl/net/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 W tej dokumentacji czasami odnosi się do grupy klas węzłów jako należących do "poziomu" w dokumencie, na przykład węzły "na poziomie bloku", "na poziomie wbudowanym" (znane również jako "wbudowane") lub węzły "na poziomie wiersza". Poziomy w dokumencie są zróżnicowane czysto logicznie i nie są wyraźnie wyrażone poprzez dziedziczenie lub inne środki Aspose.Words DOM. Poziom węzła służy do opisania miejsca w drzewie dokumentu, w którym zazwyczaj występuje węzeł.

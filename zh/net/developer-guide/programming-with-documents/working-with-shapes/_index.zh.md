@@ -7,6 +7,7 @@ description: "介绍形状标记语言，使用 C# 创建不同类型的形状�
 type: docs
 weight: 280
 url: /zh/net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 本主题讨论如何使用 Aspose.Words 以编程方式处理形状。

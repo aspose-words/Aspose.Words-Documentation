@@ -7,6 +7,7 @@ description: "Aspose.Words עבור Java הוסף את המסמך שם הגנר�
 type: docs
 weight: 70
 url: /he/java/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 אתה יכול בקלות לדעת אם מסמך מיוצר על ידי שימוש Aspose.Words עבור Java. ניתן גם למצוא את מספר הגירסה של Aspose.Words עבור Java זה שימש ליצירת מסמך פלט מסוים. Aspose.Words כותב ישירות את המידע הזה במסמך שנוצר.

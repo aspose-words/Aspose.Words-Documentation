@@ -7,6 +7,7 @@ description: "Loại bỏ thông tin không sử dụng hoặc trùng lặp đ�
 type: docs
 weight: 30
 url: /vi/java/clean-up-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Thỉnh thoảng, bạn có thể cần loại bỏ thông tin không sử dụng hoặc trùng lặp để giảm kích thước của tài liệu đầu ra và thời gian xử lý.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Spesifiseer Stoorkeuses in Java
 second_title: Aspose.Words vir Java
 articleTitle: Spesifiseer Stoorkeuses
@@ -7,6 +7,7 @@ description: "Stel gevorderde eienskappe wanneer'n dokument gestoor word met Jav
 type: docs
 weight: 20
 url: /af/java/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Wanneer jy'n dokument stoor, kan jy'n paar gevorderde eienskappe stel. Aspose.Words bied u die [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) klas, wat meer presiese beheer van die stoorproses moontlik maak. Daar is oorladings van die **Save** metode wat'n **SaveOptions** voorwerp aanvaar dit moet'n voorwerp van'n klas afgelei van die **SaveOptions** klas wees. Elke stoor formaat het'n ooreenstemmende klas wat stoor opsies vir hierdie stoor formaat hou, byvoorbeeld, daar is [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) vir die stoor na PDF formaat, [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) vir die stoor na Markdown formaat, of [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) vir die stoor na'n beeld. Hierdie artikel bied voorbeelde van die werk met'n paar opsies klasse afgelei van **SaveOptions**.

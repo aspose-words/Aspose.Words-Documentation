@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki Metin Belgesiyle Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Metin Belgesiyle Çalışma
@@ -7,6 +7,7 @@ description: "Gelişmiş TXT belge işleme, listeler, BiDi, üstbilgi / altbilgi
 type: docs
 weight: 430
 url: /tr/cpp/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bu makalede, Aspose.Words aracılığıyla bir metin belgesiyle çalışmak için hangi seçeneklerin yararlı olabileceğini öğreneceğiz. Lütfen bunun mevcut seçeneklerin tam bir listesi olmadığını, yalnızca bazılarıyla çalışmanın bir örneği olduğunu unutmayın.

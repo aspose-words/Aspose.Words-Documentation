@@ -7,6 +7,7 @@ type: docs
 description: "Temukan string atau pola ekspresi biasa dalam dokumen Anda dan gantinya dengan teks yang Anda inginkan JavaSitemap"
 weight: 100
 url: /id/java/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Anda dapat dengan mudah menavigasi dalam dokumen Anda menggunakan keyboard dan mouse, tetapi jika Anda memiliki banyak halaman untuk menggulir melalui, itu akan mengambil cukup sementara untuk menemukan teks tertentu dalam dokumen panjang. Ini akan lebih memakan waktu ketika Anda ingin mengganti karakter atau kata-kata tertentu yang telah Anda gunakan dalam dokumen Anda. Fungsi "Find dan menggantikan" memungkinkan Anda untuk menemukan urutan karakter dalam dokumen dan menggantinya dengan urutan karakter lain.

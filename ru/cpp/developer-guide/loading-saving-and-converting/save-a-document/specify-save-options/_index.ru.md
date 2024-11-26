@@ -1,4 +1,4 @@
-﻿---
+---
 title: Укажите параметры сохранения в C++
 second_title: Aspose.Words для C++
 articleTitle: Укажите параметры сохранения
@@ -7,6 +7,7 @@ description: "Более точно контролируйте процесс с
 type: docs
 weight: 10
 url: /ru/cpp/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 При сохранении документа вы можете задать некоторые дополнительные свойства. Aspose.Words предоставляет вам класс [SaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/), который позволяет более точно контролировать процесс сохранения. Существуют перегрузки метода **Save**, которые принимают объект **SaveOptions** – это должен быть объект класса, производного от класса **SaveOptions**. Каждому формату сохранения соответствует класс, который содержит параметры сохранения для этого формата сохранения, например, есть [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) для сохранения в формате PDF, [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions) для сохранения в формате Markdown или [ImageSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/imagesaveoptions/) для сохранения в виде изображения. В этой статье приведены примеры работы с некоторыми классами параметров, производными от **SaveOptions**.

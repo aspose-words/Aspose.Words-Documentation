@@ -7,6 +7,7 @@ description: "Estrai vari oggetti grafici, come immagini, caselle di testo conte
 type: docs
 weight: 40
 url: /it/python-net/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Durante l'elaborazione dei documenti, un'attività comune è estrarre tutte le immagini trovate nel documento ed esportarle in una posizione esterna. Questo compito diventa semplice con Aspose.Words API, che fornisce già la funzionalità per l'estrazione e il salvataggio dei dati delle immagini. Tuttavia, a volte potresti voler estrarre in modo simile altri tipi di contenuto grafico rappresentato da un diverso tipo di oggetto di disegno, ad esempio una casella di testo contenente paragrafi, forme di freccia e una piccola immagine. Non esiste un modo semplice per eseguire il rendering di questo oggetto poiché è una combinazione di singoli elementi di contenuto. Potresti anche riscontrare il caso in cui i contenuti sono stati raggruppati insieme in un oggetto che assomiglia a un'unica immagine.

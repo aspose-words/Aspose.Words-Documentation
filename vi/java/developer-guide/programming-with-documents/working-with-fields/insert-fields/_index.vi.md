@@ -7,6 +7,7 @@ description: "Các cách khác nhau để chèn các trường vào tài liệu 
 type: docs
 weight: 20
 url: /vi/java/insert-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Có nhiều cách khác nhau để chèn các trường vào một tài liệu:
@@ -103,7 +104,7 @@ Mã ví dụ sau cho thấy cách thêm trường `MERGE` bằng DOM vào một 
 
 ### Chèn Mail Merge `ADDRESSBLOCK` trường vào một Tài liệu bằng cách sử dụng DOM
 
-Trường `ADDRESSBLOCK` được dùng để chèn khối địa chỉ mail merge trong tài liệu Word. Trường `ADDRESSBLOCK` trong tài liệu Word có thể được đại diện bằng lớp [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) Bạn có thể sử dụng **FieldAddressBlock** lớp để thực hiện các hoạt động sau đây:
+Trường `ADDRESSBLOCK` được dùng để chèn khối địa chỉ Mail Merge trong tài liệu Word. Trường `ADDRESSBLOCK` trong tài liệu Word có thể được đại diện bằng lớp [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) Bạn có thể sử dụng **FieldAddressBlock** lớp để thực hiện các hoạt động sau đây:
 
 "- xác định xem có bao gồm tên của quốc gia/vùng trong trường không"
 - chỉ định việc định dạng địa chỉ theo quốc gia / khu vực của người nhận như được xác định bởi POST*CODE (Liên minh Bưu chính Toàn cầu năm 2006)
@@ -145,7 +146,7 @@ Trường `ASK` được dùng để nhắc người dùng nhập văn bản và
 
 - chỉ định tên của dấu đánh dấu
 - chỉ rõ phản hồi mặc định của người dùng (giá trị ban đầu chứa trong cửa sổ nhắc nhở)
-- chỉ định xem liệu phản hồi của người dùng có nên được nhận một lần mỗi một mail merge hoạt động không
+- chỉ định xem liệu phản hồi của người dùng có nên được nhận một lần mỗi một Mail Merge hoạt động không
 "- chỉ định văn bản nhắc (tên của cửa sổ nhắc hoat)"
 
 {{% alert color="primary" %}}

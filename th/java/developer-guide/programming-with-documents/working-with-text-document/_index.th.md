@@ -1,79 +1,80 @@
----
-title: ทํางานกับเอกสารข้อความใน Java
-second_title: Aspose.Words สําหรับ Java
-articleTitle: ทํางานกับเอกสารข้อความ
-linktitle: ทํางานกับเอกสารข้อความ
-description: "การประมวลผลเอกสารแบบ TXT ขั้นสูง, รายการ, Bidi, header/footer, โดยใช้ Java."
+﻿---
+title: การทำงานกับเอกสารข้อความในJava
+second_title: Aspose.WordsสำหรับJava
+articleTitle: การทำงานกับเอกสารข้อความ
+linktitle: การทำงานกับเอกสารข้อความ
+description: "ขั้นสูงTXTการประมวลผลเอกสาร,รายการ,BiDi,ส่วนหัว/ส่วนท้าย,โดยใช้Java."
 type: docs
 weight: 430
 url: /th/java/working-with-text-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
-ใน บทความ นี้ เรา จะ เรียน รู้ ว่า จะ มี ทาง เลือก อะไร บ้าง ที่ เป็น ประโยชน์ ใน การ ทํา งาน กับ เอกสาร ต่าง ๆ โดย ทาง Aspose.Words. โปรด สังเกต ว่า นี่ ไม่ ใช่ รายการ ทาง เลือก ที่ สมบูรณ์ แบบ แต่ เป็น เพียง ตัว อย่าง ของ การ ทํา งาน ร่วม กับ บาง ทาง.
+ในบทความนี้เราจะเรียนรู้ว่าตัวเลือกใดจะมีประโยชน์สำหรับการทำงานกับเอกสารข้อความผ่านAspose.Words โปรดทราบว่านี้ไม่ได้เป็นรายการที่สมบูรณ์ของตัวเลือกที่มีอยู่แต่เพียงตัวอย่างของการทำง.
 
-## เพิ่มการเลือก เครื่องหมาย
+## เพิ่มเครื่องหมายสองทิศทาง
 
-คุณสามารถใช้ [AddBidiMarks](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getAddBidiMarks) คุณสมบัติที่จะใช้กําหนดว่าจะให้ทําการเพิ่มจุดสองทิศทางก่อนที่บิดิฟแต่ละตัวจะเรียกใช้ เมื่อมีการส่งออกในรูปแบบข้อความธรรมดาหรือไม่ Aspose.Words แทรกอักขระยูนิโค้ด 'REVE-TO-LEF MAC' (U+2200F) ก่อนที่แต่ละทิศทางจะทํางานเป็นข้อความ ตัวเลือกนี้จะตรงกับตัวเลือก "ทําเครื่องหมายสองทิศทาง" ในกล่องการแปลงแฟ้มแบบ MSS Word เมื่อคุณส่งออกเป็นรูปแบบข้อความธรรมดา โปรด สังเกต ว่า คํา นี้ ปรากฏ ใน กรอบ เฉพาะ ถ้า มี การ เพิ่ม ภาษา อาหรับ หรือ ฮีบรู ใด ๆ ใน ภาษา เอ็ม เอส ดับเบิล ยู.
+คุณสามารถใช้คุณสมบัติ[AddBidiMarks](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getAddBidiMarks)เพื่อระบุว่าจะเพิ่มเครื่องหมายสองทิศทางก่อนที่แต่ละรายการBiDiจะรัน Aspose.Wordsแทรกอักขระยูนิโค้ด'RIGHT-TO-LEFT MARK' (ยู+200 ฟุต)ก่อนที่จะทำงานในแต่ละสองทิศทางในข้อความ ตัวเลือกนี้สอดคล้องกับตัวเลือก"เพิ่มเครื่องหมายสองทิศทาง"ในกล่องโต้ตอบการแปลงไฟล์MSคำเมื่อคุณส่งออกไปยังรูปแบบข้อความธรรมดา โปรดทราบว่าปรากฏในกล่องโต้ตอบก็ต่อเมื่อมีการเพิ่มภาษาการแก้ไขภาษาอาหรับหรือภาษาฮิบรูในคำMS.
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการใช้ `TxtSaveOptions.AddBidiMarks` ทรัพย์สิน ค่าปริยายของคุณสมบัตินี้ คือ *true*
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีใช้คุณสมบัติ`TxtSaveOptions.AddBidiMarks` ค่าดีฟอลต์ของคุณสมบัตินี้คือ*true*:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-AddBidiMarks.java" >}}
 
-## จดจํารายการระหว่างทําการโหลด TXT
+## รู้จักรายการในระหว่างการโหลดTXT
 
-Aspose.Words สามารถนําเข้ารายการของแฟ้มข้อความ เป็นหมายเลขรายการ หรือข้อความธรรมดาในโมเดลออบเจกต์ของมัน เดอะ [DetectNumberingWithWhitespaces](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getDetectNumberingWithWhitespaces) ให้ระบุจํานวนรายการของรายการได้ อย่างไร เมื่อมีการนําเข้าเอกสารจากรูปแบบข้อความธรรมดา:
+Aspose.Wordsสามารถนำเข้ารายการของไฟล์ข้อความเป็นหมายเลขรายการหรือข้อความธรรมดาใน คุณสมบัติ[DetectNumberingWithWhitespaces](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getDetectNumberingWithWhitespaces)อนุญาตให้ระบุวิธีการจดจำรายการที่มีหมายเลขเมื่อเอกสารถูกนำเข้าจากรูปแบบข้อความธรรมดา:
 
-* หากตั้งค่าตัวเลือกนี้เป็น *true*, ช่องว่างต่าง ๆ ยังถูกใช้เป็นชุดหมายเลขรายการเดลิมิเตอร์: อัลกอริทึมการจดจํารายการสําหรับรูปแบบภาษาอาหรับ (1. 1, 1. 2. 2) ใช้ทั้งช่องว่างและจุด (") สัญลักษณ์
-* หากตั้งค่าตัวเลือกนี้เป็น *false*, รายการอัลกอริทึมจดจําตรวจสอบ parts list, เมื่อจํานวนรายการจบด้วย จุด, วงเล็บขวา, หรือสัญลักษณ์กระสุน (เช่น "•", "*", "-" หรือ "o").
+* หากตั้งค่าตัวเลือกนี้เป็น*true*ช่องว่างจะถูกใช้เป็นตัวคั่นหมายเลขรายการด้วย:อัลกอริทึมการรู้จำรายการสำหรับหมายเลขสไตล์อาหรับ(1., 1.1.2.)ใช้ทั้งช่องว่างและจุด(".")สัญลักษณ์.
+* หากตั้งค่าตัวเลือกนี้เป็น*false*อัลกอริทึมการรับรู้รายการจะตรวจจับย่อหน้าของรายการเมื่อหมายเลขรายการจบลงด้วยจุดใดจุดวงเล็บด้านขวาหรือสัญลักษณ์แสดงหัวข้อย่อย(เช่น"•", "*", "-" หรือ"o").
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการใช้คุณสมบัตินี้:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีใช้คุณสมบัตินี้:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-DetectNumberingWithWhitespaces.java" >}}
 
-## การจัดการตะกั่วและเส้นทางพื้นที่ระหว่างการโหลด TXT
+## จัดการช่องว่างชั้นนำและต่อท้ายระหว่างการโหลดTXT
 
-คุณสามารถควบคุมวิธีการจัดการการนําและปฏิบัติตามช่องว่าง ระหว่างการโหลดแฟ้ม TXT พื้น ที่ ส่วน นํา อาจ ถูก ตัด, เก็บ รักษา ไว้, หรือ เปลี่ยน เป็น ที่ ว่าง ที่ ไม่ แน่นอน และ ตรง ต่อ เวลา อาจ ตัด หรือ เก็บ รักษา ไว้ ได้.
+คุณสามารถควบคุมวิธีการจัดการช่องว่างชั้นนำและต่อท้ายระหว่างการโหลดไฟล์TXT พื้นที่ชั้นนำสามารถตัด,เก็บรักษาหรือแปลงเป็นเยื้องและช่องว่างต่อท้ายสามารถตัดหรือเก็บรักษาไว้.
 
-ตัวอย่างโค้ดที่ให้ด้านล่างนี้ แสดงวิธีตัดส่วนนําและต่อท้ายช่องว่างระหว่างการนําเข้าแฟ้ม TXT:
+ตัวอย่างโค้ดที่ระบุไว้ด้านล่างจะแสดงวิธีการตัดแต่งช่องว่างชั้นนำและต่อท้ายขณะนำเข้าไฟล์TXT:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-HandleSpacesOptions.java" >}}
 
-## ตรวจหาเอกสาร ทิศทางข้อความ
+## ตรวจสอบทิศทางข้อความเอกสาร
 
-Aspose.Words ให้ [DocumentDirection](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getDocumentDirection) คุณสมบัติใน [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) คลาสตรวจสอบทิศทางข้อความ (RTL / LTR) ในเอกสาร ชุดคุณสมบัตินี้ หรือได้รับข้อความเอกสารที่แสดงใน [DocumentDirection](https://reference.aspose.com/words/java/com.aspose.words/documentdirection/) การเผาศพ ค่าปริยายที่เหลืออยู่ทางด้านขวา
+Aspose.Wordsให้[DocumentDirection](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getDocumentDirection)คุณสมบัติใน[TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/)ชั้นในการตรวจสอบทิศทางข้อความ(RTL/LTR)ในเอกสาร คุณสมบัตินี้ตั้งค่าหรือได้รับทิศทางข้อความเอกสารที่ให้ไว้ในการแจงนับ[DocumentDirection](https://reference.aspose.com/words/java/com.aspose.words/documentdirection/) ค่าดีฟอลต์อยู่ทางซ้ายไปขวา.
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีการตรวจสอบข้อความของเอกสาร ขณะนําเข้าแฟ้ม TXT:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการตรวจหาทิศทางข้อความของเอกสารขณะนำเข้าแฟ้มTXT:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-DocumentTextDirection.java" >}}
 
-## ส่งออกส่วนหัวและท้ายกระดาษในรูปแบบแฟ้ม TXT ออกทางอีเมล
+## ส่งออกส่วนหัวและส่วนท้ายในการส่งออกTXTไฟล์
 
-หากคุณต้องการส่งออกส่วนหัวและท้ายกระดาษในเอกสาร TXT ที่ส่งออก คุณสามารถใช้ [ExportHeadersFootersMode](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getExportHeadersFootersMode) ทรัพย์สิน คุณสมบัตินี้ใช้กําหนดวิธีส่งส่วนหัวและท้ายกระดาษไปยังรูปแบบข้อความธรรมดา
+ถ้าคุณต้องการส่งออกส่วนหัวและท้ายกระดาษในเอกสารออกTXTคุณสามารถใช้คุณสมบัติ[ExportHeadersFootersMode](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getExportHeadersFootersMode) คุณสมบัตินี้ระบุวิธีเอ็กซ์พอร์ตส่วนหัวและท้ายกระดาษไปยังรูปแบบข้อความธรรมดา.
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีส่งออกหัวจดหมายและท้ายกระดาษเป็นรูปแบบข้อความธรรมดา:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการส่งออกส่วนหัวและท้ายกระดาษไปยังรูปแบบข้อความล้วน:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-ExportHeadersFootersMode.java" >}}
 
-## ส่งออกรายการการเยื้องระยะในการส่งออก TXT
+## การเยื้องรายการส่งออกในผลลัพธ์TXT
 
-Aspose.Words แนะนํา [TxtListIndentation](https://reference.aspose.com/words/java/com.aspose.words/txtlistindentation/) คลาสที่อนุญาตให้ระบุระดับรายการได้ โดยมีการส่งออกเป็นรูปแบบข้อความธรรมดา ในขณะที่ทํางานกับ [TxtSaveOption](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/), คือ [ListIndentation](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getListIndentation) ให้กําหนดอักขระที่จะใช้สําหรับระดับการเยื้องของรายการ และนับจํานวนจํานวนตัวอักษรที่จะใช้เป็นระยะเยื้องต่อระดับ 1 รายการ
+Aspose.Wordsแนะนำ[TxtListIndentation](https://reference.aspose.com/words/java/com.aspose.words/txtlistindentation/)ชั้นที่ช่วยให้ระบุว่าระดับรายการจะเยื้องในขณะที่ส่งออกไปยังรูปแบบข้อความล ขณะทำงานกับ[TxtSaveOption](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/)คุณสมบัติ[ListIndentation](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getListIndentation)จะถูกจัดเตรียมไว้เพื่อระบุอักขระที่จะใช้สำหรับการเยื้องระดับร.
 
-ค่าปริยายสําหรับคุณสมบัติของอักขระคือ '/ 0' แสดงให้เห็นว่าไม่มีระยะเยื้อง สําหรับคุณสมบัติการนับ ค่าปริยายจะเป็น 0 ซึ่งหมายความว่าไม่มีระยะเยื้อง
+ค่าดีฟอลต์สำหรับคุณสมบัติอักขระคือ'\0'แสดงว่าไม่มีการเยื้อง สำหรับคุณสมบัติการนับค่าดีฟอลต์คือ 0 ซึ่งหมายความว่าไม่มีการเยื้อง.
 
 ### ใช้อักขระแท็บ
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงถึงวิธีส่งออกระดับรายการโดยใช้อักขระแท็บ:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการส่งออกระดับรายการโดยใช้อักขระแท็บ:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-useTabCharacterPerLevelForListIndentation.java" >}}
 
-### ใช้อักขระอวกาศ
+### ใช้อักขระพื้นที่
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงถึงวิธีส่งออกระดับรายการโดยใช้อักขระ:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการส่งออกระดับรายการโดยใช้อักขระพื้นที่:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-useSpaceCharacterPerLevelForListIndentation.java" >}}
 
-### ใช้การเยื้องระยะปริยาย
+### การใช้การเยื้องปริยาย
 
-ตัวอย่างโค้ดต่อไปนี้ จะแสดงถึงวิธีส่งออกระดับรายการโดยใช้ระยะเยื้องปริยาย:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการส่งออกระดับรายการโดยใช้การเยื้องเริ่มต้น:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-defaultLevelForListIndentation.java" >}}

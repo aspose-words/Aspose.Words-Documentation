@@ -7,6 +7,7 @@ description: "מבוא לתיבת טקסט מקושרת Aspose.Words עבור .N
 type: docs
 weight: 250
 url: /he/net/working-with-textboxes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In In In Aspose.Words, The The [TextBox](https://reference.aspose.com/words/net/aspose.words.drawing/textbox/) הכיתה משמשת כדי לציין כיצד טקסט מוצג בתוך צורה. הוא חושף נכס ציבורי בשם **Parent** כדי לקבל את הצורה של ההורה עבור תיבת הטקסט כך הלקוח יכול למצוא את המקושר [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) מתוך קשורות **TextBox**.

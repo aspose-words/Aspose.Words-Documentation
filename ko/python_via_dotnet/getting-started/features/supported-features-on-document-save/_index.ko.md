@@ -7,6 +7,7 @@ description: "Python를 사용하여 지원되는 형식으로 문서를 저장�
 type: docs
 weight: 30
 url: /ko/python-net/supported-features-on-document-save/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words는 일반적인 워드 프로세싱 형식에 대한 가장 진보된 변환 지원 기능을 갖추고 있습니다.

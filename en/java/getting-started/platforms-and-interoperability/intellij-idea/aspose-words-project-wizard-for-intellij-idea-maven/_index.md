@@ -7,6 +7,7 @@ description: "Aspose.Words Project Wizard for IntelliJ IDEA."
 type: docs
 weight: 10
 url: /java/aspose-words-project-wizard-for-intellij-idea-maven/
+timestamp: 2024-05-02-11-51-44
 ---
 
 ## IntelliJ IDEA

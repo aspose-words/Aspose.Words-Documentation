@@ -1,4 +1,4 @@
-﻿---
+---
 title: Instalare
 second_title: Aspose.Words pentru Java
 articleTitle: Instalare
@@ -7,6 +7,7 @@ description: "Instalare Aspose.Words pentru Java din depozitul Maven. Definiți 
 type: docs
 weight: 10
 url: /ro/java/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Asigurați-vă că aparatul dvs. îndeplinește [cerințe de sistem](/words/java/system-requirements/) înainte de a începe.

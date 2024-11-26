@@ -7,6 +7,7 @@ description: "Aspose.Words místo Java poskytuje různé třídy pro práci s do
 type: docs
 weight: 50
 url: /cs/java/work-with-office-add-ins/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Někdy můžete chtít umožnit přístup k ovládacím prvkům rozhraní, které spustí kód pro úpravu dokumentů. Aspose.Words API poskytuje `WebExtensions` namespace, který poskytuje různé třídy pro přizpůsobení prvků a atributů rozšíření XML slovníku pro reprezentaci Office Add-ins.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: تبدیل یک سند به یک تصویر در C++
 second_title: Aspose.Words برای C++
 articleTitle: تبدیل یک سند به یک تصویر
@@ -7,6 +7,7 @@ type: docs
 description: "تبدیل یک سند به فرمت تصویر (JPG، PNG و غیره). یک پیش نمایش سند ایجاد کنید یا یک اسکن سند برای ارسال فاکتور ایجاد کنید."
 weight: 43
 url: /fa/cpp/convert-a-document-to-an-image/
+timestamp: 2024-01-30-16-22-34
 ---
 
 گاهی اوقات لازم است که یک تصویر به جای اسناد در فرمت های دیگر مانند DOCX یا PDF دریافت کنید. برای مثال، شما باید یک پیش نمایش از هر صفحه سند را به وب سایت یا برنامه خود اضافه کنید، یا یک "اسکن" از یک سند برای ارسال یک فاکتور ایجاد کنید. این زمانی است که شما ممکن است نیاز به تبدیل یک سند در هر [supported load format](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) به یک تصویر، دوباره، در هر [supported save format](https://reference.aspose.com/words/cpp/aspose.words/saveformat/).

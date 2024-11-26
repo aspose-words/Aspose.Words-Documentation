@@ -1,4 +1,4 @@
-﻿---
+---
 title: هشدارها هنگام پس انداز به PDF/A و PDF/UA
 second_title: Aspose.Words برای C++
 articleTitle: هشدارهای مربوط به دسترسی هنگام صرفه جویی در PDF/A و PDF/UA
@@ -7,6 +7,7 @@ description: "PDF/A و PDF/UA الزامات دسترسی مربوط به محت
 type: docs
 weight: 39
 url: /fa/cpp/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 فرمت های PDF/A و PDF/UA تعدادی از الزامات دسترسی مربوط به محتوای سند را که نمی تواند در طول تبدیل خودکار از Word به PDF برآورده شود، تحمیل می کنند. این الزامات در مقاله قبلی *"Working with PDF/A or PDF/UA"* شرح داده شده است. در حال حاضر هشدارها برای برخی از این مشکلات صادر می شود.

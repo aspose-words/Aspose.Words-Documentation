@@ -7,6 +7,7 @@ description: "Introduction to Chart feature, how to create and manipulate charts
 type: docs
 weight: 310
 url: /net/working-with-charts/
+timestamp: 2024-02-05-15-07-18
 ---
 
 New [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) method was added into the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) class. So, let's see how to insert a simple column chart into the document using the [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) method.

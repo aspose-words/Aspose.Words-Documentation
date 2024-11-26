@@ -7,6 +7,7 @@ description: "Output a sequence of table-column data when building a report in J
 type: docs
 weight: 23
 url: /java/working-with-table-column-data-bands/
+timestamp: 2024-01-27-14-07-04
 ---
 
 You can build tables growing horizontally rather than vertically by using table-column data bands.

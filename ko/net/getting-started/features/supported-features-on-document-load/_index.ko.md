@@ -7,6 +7,7 @@ description: "가장 널리 사용되는 형식의 문서를 로드하고 변환
 type: docs
 weight: 20
 url: /ko/net/supported-features-on-document-load/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words를 사용하면 사용자는 다양한 형식의 문서로 작업할 수 있으며 이에 대한 다양한 옵션을 제공합니다. 예를 들어 사용자는 처음부터 문서를 만들거나 [지원되는 문서 형식](/words/ko/net/supported-document-formats/)에 기존 파일을 로드하고 해당 문서를 일부 변경한 다음 결과를 저장할 수 있습니다. 선택한 형식의 문서를 가져올 때 사용자는 다양한 로드 옵션을 적용할 수 있습니다.

@@ -7,6 +7,7 @@ description: "Python を使用してフィールド変更にアクセスでき�
 type: docs
 weight: 10
 url: /ja/python-net/fields-overview/
+timestamp: 2024-10-21-11-17-44
 ---
 
 
@@ -190,9 +191,9 @@ Aspose.Words は、Microsoft Word で使用可能なすべての日付と時刻�
 
 #### Mail Mergeフィールド
 
-Aspose.Words は、ドキュメント内の mail merge フィールドの複雑さに制限を設けず、ネストされた `IF` フィールドと数式フィールドをサポートし、数式を使用して差し込みフィールドの名前を計算することもできます。
+Aspose.Words は、ドキュメント内の Mail Merge フィールドの複雑さに制限を設けず、ネストされた `IF` フィールドと数式フィールドをサポートし、数式を使用して差し込みフィールドの名前を計算することもできます。
 
-Aspose.Words がサポートする mail merge フィールドの例をいくつか示します。
+Aspose.Words がサポートする Mail Merge フィールドの例をいくつか示します。
 
 - Mail merge フィールド スイッチ:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -236,7 +237,7 @@ Aspose.Words がフィールド結果を計算する場合、多くの場合、�
 
 一方、Microsoft Word は、フィールド内で見つかったテキストの言語 (具体的には、フィールド コードからのラン) に基づいて、個々のフィールドをフォーマットします。フィールドの更新中に、これが望ましい動作となる場合があります。たとえば、さまざまな言語で構成されたコンテンツを含むグローバル化されたドキュメントがあり、テキストで使用されているロケールを各フィールドに適用したい場合などです。 Aspose.Words もこの機能をサポートしています。
 
-[Document](https://reference.aspose.com/words/python-net/aspose.words/document/) クラスは、ドキュメント内でフィールドを更新する方法を制御するために使用できるメンバーを含む [field_options](https://reference.aspose.com/words/python-net/aspose.words/document/field_options/) プロパティを提供します。以下の例は、フィールド更新および mail merge の際の日付書式設定に使用されるカルチャがどこから選択されるかを指定する方法を示しています。
+[Document](https://reference.aspose.com/words/python-net/aspose.words/document/) クラスは、ドキュメント内でフィールドを更新する方法を制御するために使用できるメンバーを含む [field_options](https://reference.aspose.com/words/python-net/aspose.words/document/field_options/) プロパティを提供します。以下の例は、フィールド更新および Mail Merge の際の日付書式設定に使用されるカルチャがどこから選択されるかを指定する方法を示しています。
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-ChangeFieldUpdateCultureSource.py" >}}
 

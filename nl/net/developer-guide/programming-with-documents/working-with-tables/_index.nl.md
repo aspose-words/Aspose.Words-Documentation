@@ -7,6 +7,7 @@ description: "Hoe te werken met tabellen in C#. Inleiding tot het werk met tabel
 type: docs
 weight: 190
 url: /nl/net/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A **tabel** in een document is een geweldige manier om vergelijkbare gegevens te structureren. Daarom zijn tabellen een gemeenschappelijk inhoudsopmaakelement en worden de meeste formaten in een of andere vorm ondersteund.

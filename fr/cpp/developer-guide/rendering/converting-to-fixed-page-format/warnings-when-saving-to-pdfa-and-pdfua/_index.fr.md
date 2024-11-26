@@ -1,4 +1,4 @@
-﻿---
+---
 title: Avertissements Lors de l'enregistrement sur PDF/A et PDF/UA
 second_title: Aspose.Words pour C++
 articleTitle: Avertissements d'accessibilité Lors de l'enregistrement dans PDF/A et PDF/UA
@@ -7,6 +7,7 @@ description: "PDF/A et PDF/UA imposent des exigences d'accessibilité liées au 
 type: docs
 weight: 39
 url: /fr/cpp/warnings-when-saving-to-pdfa-and-pdfua/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Les formats PDF/A et PDF/UA imposent un certain nombre d'exigences d'accessibilité liées au contenu du document qui ne peuvent pas être satisfaites lors de la conversion automatique de Word en PDF. Ces exigences sont décrites dans l'article précédent * " Travailler avec PDF/A ou PDF/UA"*. Maintenant, des avertissements sont émis pour certains de ces problèmes.

@@ -7,6 +7,7 @@ description: "Support details of the Aspose.Words for SharePoint."
 type: docs
 weight: 60
 url: /sharepoint/world-class-free-technical-support/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose is renowned for its free and unlimited technical support provided directly by the developers of the products. If a new version of a product is available, or if resolving a question results in a fix, all new releases are free if you have an active subscription

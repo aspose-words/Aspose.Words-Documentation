@@ -7,6 +7,7 @@ description: "Vergelijk Word-documenten die gedeeld worden in Liferay gebruik C#
 type: docs
 weight: 20
 url: /nl/net/work-with-document-stored-in-liferay/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Liferay Portal is een open source enterprise portal software platform ontworpen voor de ontwikkeling van webportalen en websites. Liferay biedt een document management systeem als onderdeel van het portaal platform, zodat gebruikers om documenten te maken, organiseren, opslaan en beheren op een gezamenlijke en efficiënte manier. Deze functionaliteit voor documentbeheer wordt vaak aangeduid als Liferay Document Bibliotheek.

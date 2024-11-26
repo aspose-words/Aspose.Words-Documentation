@@ -7,6 +7,7 @@ description: "Přesnější řízení procesu ukládání pomocí C#."
 type: docs
 weight: 10
 url: /cs/net/specify-save-options/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Při ukládání dokumentu můžete nastavit některé pokročilé vlastnosti. Aspose.Words poskytuje vám [SaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/) třída, která umožňuje přesnější řízení procesu uložení. Jsou tu přetížení. **Save** metoda, která přijímá **SaveOptions** Objekt: **SaveOptions** třída. Každý formát uložení má odpovídající třídu, která drží možnosti uložení pro tento formát uložení, například, tam je [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) pro uložení do formátu PDF, [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) pro úsporu na Markdown formát nebo [ImageSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/) za záchranu obrazu. Tento článek uvádí příklady práce s některými třídami možností odvozenými z **SaveOptions**.

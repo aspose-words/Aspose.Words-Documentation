@@ -1,4 +1,4 @@
-﻿---
+---
 title: أدخل الحقول في C++
 second_title: Aspose.Words ل C++
 articleTitle: أدخل الحقول
@@ -7,6 +7,7 @@ description: "طرق مختلفة لإدراج الحقول في المستند 
 type: docs
 weight: 20
 url: /ar/cpp/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 هناك عدة طرق مختلفة لإدراج الحقول في مستند:
@@ -93,7 +94,7 @@ url: /ar/cpp/inserting-fields/
 
 ### إدراج Mail Merge حقل كتلة العنوان في مستند باستخدام DOM
 
-يتم استخدام الحقل `ADDRESSBLOCK` لإدراج كتلة عنوان mail merge في مستند ورد. `ADDRESSBLOCK` الحقل في وثيقة كلمة يمكن أن يمثله فئة [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldaddressblock/). يمكنك استخدام فئة **FieldAddressBlock** لتنفيذ العمليات التالية:
+يتم استخدام الحقل `ADDRESSBLOCK` لإدراج كتلة عنوان Mail Merge في مستند ورد. `ADDRESSBLOCK` الحقل في وثيقة كلمة يمكن أن يمثله فئة [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldaddressblock/). يمكنك استخدام فئة **FieldAddressBlock** لتنفيذ العمليات التالية:
 
 - حدد ما إذا كنت تريد تضمين اسم البلد / المنطقة في الحقل
 - حدد ما إذا كنت تريد تنسيق العنوان وفقا لبلد / منطقة المستلم على النحو المحدد في POST * CODE (الاتحاد البريدي العالمي 2006)

@@ -1,71 +1,72 @@
----
-title: วิธีการสร้างบาร์โค้ด Java
-second_title: Aspose.Words สำหรับ Java
-articleTitle: สร้างภาพบาร์โค้ดที่กำหนดเอง
-linktitle: สร้างภาพบาร์โค้ดที่กำหนดเอง
-description: "ตัวอย่างการสร้างรูปร่างบาร์โค้ดโดยใช้ Java."
+﻿---
+title: สร้างBarCodeในJava
+second_title: Aspose.WordsสำหรับJava
+articleTitle: สร้างภาพที่กำหนดเองBarCode
+linktitle: สร้างภาพที่กำหนดเองBarCode
+description: "ตัวอย่างของการสร้างรูปร่างบาร์โค้ดโดยใช้Java."
 type: docs
 weight: 350
 url: /th/java/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
-บาร์โค้ดคือการแสดงข้อมูลในรูปแบบเส้นขนานหรือรูปแบบต่างๆ บาร์โค้ดใช้กันอย่างแพร่หลายในอุตสาหกรรมต่างๆ เช่น การค้าปลีก โลจิสติกส์ การดูแลสุขภาพ ธนาคาร และอื่นๆ อีกมากมาย
+บาร์โค้ดคือการแสดงภาพของข้อมูลในรูปแบบของเส้นขนานหรือรูปแบบ บาร์โค้ดถูกนำมาใช้กันอย่างแพร่หลายในอุตสาหกรรมต่างๆเช่นค้าปลีกโลจิสติกส์การดูแลสุขภาพการธนาคารและอื่นๆอีกมากมาย.
 
-Microsoft Word ช่วยให้ผู้ใช้ฝังบาร์โค้ดลงในเอกสารได้โดยตรงโดยใช้ฟิลด์ ผู้ใช้สามารถแทรกบาร์โค้ดประเภทเฉพาะ เช่น รหัส QR หรือบาร์โค้ดเชิงเส้น โดยใช้ฟิลด์ [BARCODE](https://learn.microsoft.com/en-us/openspecs/office_standards/ms-oi29500/cbc893c0-9683-416d-84c6-407a92451c19)
+Microsoft Wordช่วยให้ผู้ใช้สามารถฝังบาร์โค้ดลงในเอกสารโดยตรงโดยใช้ฟิลด์ ผู้ใช้สามารถแทรกชนิดของบาร์โค้ดเช่นรหัสQRหรือบาร์โค้ดเชิงเส้นโดยใช้ [BARCODE](https://learn.microsoft.com/en-us/openspecs/office_standards/ms-oi29500/cbc893c0-9683-416d-84c6-407a92451c19) สนาม.
 
-ในบทความนี้ เราจะมาดูว่าฟิลด์ BARCODE ถูกนำไปใช้งานใน Aspose.Words อย่างไร และ Aspose.Words ช่วยให้ผู้ใช้ทำงานกับเอกสาร Word ที่มีการเพิ่มบาร์โค้ดลงไปแล้วได้อย่างไร
+ในบทความนี้เราจะดูว่าฟิลด์BARCODEถูกนำมาใช้อย่างไรในAspose.Wordsและวิธีที่Aspose.Wordsช่วยให้ผู้ใช้สามารถทำงานกับเอกสารคำที่บาร์โค้ดได้ถูกเพิ่มเข้าไป.
 
-## ประเภทบาร์โค้ดที่รองรับโดย Aspose.Words
+## ประเภทบาร์โค้ดที่รองรับโดยAspose.Words
 
-Aspose.Words รองรับบาร์โค้ดหลายประเภท ประเภทบาร์โค้ดจะถูกส่งเป็นค่าสตริงในคุณสมบัติ [BarcodeType](https://reference.aspose.com/words/java/com.aspose.words/barcodeparameters/#getBarcodeType)
+Aspose.Wordsรองรับบาร์โค้ดประเภทต่างๆ ชนิดบาร์โค้ดจะถูกส่งผ่านเป็นค่าสตริงในคุณสมบัติ[BarcodeType](https://reference.aspose.com/words/java/com.aspose.words/barcodeparameters/#getBarcodeType).
 
 {{% alert color="primary" %}}
 
-เนื่องจากการทำงานกับบาร์โค้ดภายในฟังก์ชันการทำงานของ Aspose.Words นั้นมีข้อจำกัด ผู้ใช้จึงสามารถใช้ไลบรารีใดก็ได้ รวมถึง Aspose.Barcode หรือเขียนการแสดงผลของตนเองเพื่อทำงานกับบาร์โค้ด คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับประเภทของบาร์โค้ด [ที่รองรับโดย Aspose.BarCode](https://docs.aspose.com/barcode/java/barcode-types/) ได้
+ตั้งแต่การทำงานกับบาร์โค้ดในการทำงานของAspose.Wordsจะถูกจำกัดผู้ใช้สามารถใช้ห้องสมุดใดๆรวมทั้บาร์โค้ดหรือเขียนการแสดงผลของตัวเองที่จะทำงานร่วมกับบาร์โค้ด คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับชนิดของบาร์โค้ด [สนับสนุนโดยแอสโปสBarCode](https://docs.aspose.com/barcode/java/barcode-types/).
 
 {{% /alert %}}
 
-เมื่อบันทึกเป็นรูปแบบ Word ที่รองรับบาร์โค้ด คุณสามารถใช้บาร์โค้ดประเภทใดก็ได้ที่ [รองรับโดย Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3) หากระบุประเภทบาร์โค้ดไม่ถูกต้อง Word จะแสดงข้อผิดพลาด
+เมื่อบันทึกรูปแบบคำที่สนับสนุนบาร์โค้ดคุณสามารถใช้ชนิดของบาร์โค้ดใดๆที่เป็น [สนับสนุนโดยMicrosoftคำ](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3). หากชนิดของบาร์โค้ดไม่ถูกต้องถูกส่งผ่านคำจะแสดงข้อผิดพลาด.
 
-เมื่อบันทึกเป็นรูปแบบอื่น เช่น PDF Aspose.Words จะมอบหมายการเรนเดอร์บาร์โค้ดให้กับโค้ดของผู้ใช้ ดังนั้นผู้ใช้จึงถูกจำกัดให้ใช้เฉพาะประเภทบาร์โค้ดของการใช้งานหรือไลบรารีที่ใช้เท่านั้น
+เมื่อบันทึกรูปแบบอื่นๆเช่นPDF,Aspose.Wordsผู้รับมอบหมายการแสดงผลบาร์โค้ดไปยังรหัสผู้ใช้เพื่อให้ผู้ใช้จ.
 
-## แทรกบาร์โค้ดลงในเอกสารหรือโหลดเอกสารที่มีบาร์โค้ดเพิ่มเติม
+## แทรกบาร์โค้ดลงในเอกสารหรือโหลดเอกสารที่มีบาร์โค้ดเพิ่ม
 
-Aspose.Words มอบความสามารถในการ:
+Aspose.Wordsให้ความสามารถในการ:
 
-1. แทรกบาร์โค้ดลงในเอกสารโดยใช้โปรแกรมโดยใช้โค้ดฟิลด์ [DisplayBarcode](https://support.microsoft.com/en-au/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3) และ [MergeBarcode](https://support.microsoft.com/en-au/office/field-codes-mergebarcode-812fc43f-cb53-4782-8f9f-290ed08d34f3)
-2. หรือโหลดเอกสาร Word ที่มีบาร์โค้ดที่แทรกไว้แล้วเพื่อทำงานต่อไป
+1. โปรแกรมแทรกบาร์โค้ดลงในเอกสารโดยใช้ [DisplayBarcode](https://support.microsoft.com/en-au/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3) และ [MergeBarcode](https://support.microsoft.com/en-au/office/field-codes-mergebarcode-812fc43f-cb53-4782-8f9f-290ed08d34f3) รหัสฟิลด์
+2. หรือโหลดเอกสารคำที่มีบาร์โค้ดใส่ลงไปแล้วสำหรับการทำงานต่อไป
 
-Aspose.Words มีอินเทอร์เฟซสำหรับสร้างบาร์โค้ดแบบกำหนดเองซึ่งทำให้ใช้งานง่าย [Aspose.Words](https://products.aspose.com/words/java/) และ [Aspose.BarCode](https://products.aspose.com/barcode/java/) ร่วมกันเพื่อเรนเดอร์ภาพบาร์โค้ดในเอกสารผลลัพธ์ ตัวอย่างเช่น คุณสามารถสร้างเอกสาร DOC, OOXML หรือ RTF และเพิ่มฟิลด์ DISPLAYBARCODE ลงไปโดยใช้ Aspose.Words หรือคุณสามารถโหลดเอกสาร DOC, OOXML หรือ RTF ที่มีฟิลด์ DISPLAYBARCODE อยู่แล้ว และจัดเตรียมการใช้งานเครื่องสร้างบาร์โค้ดแบบกำหนดเองของคุณเอง
+Aspose.Wordsมีอินเตอร์เฟซสำหรับการสร้างบาร์โค้ดที่กำหนดเองที่ทำให้ใช้งานง่าย [Aspose.Words](https://products.aspose.com/words/java/) และ [แอสโปสBarCode](https://products.aspose.com/barcode/java/) ร่วมกันเพื่อแสดงภาพบาร์โค้ดในเอกสารที่ส่งออก ตัวอย่างเช่นคุณสามารถสร้างเอกสารDOC,OOXMLหรือRTFและเพิ่มฟิลด์DISPLAYBARCODEลงในฟิลด์นั้นโดยใช้Aspose.Words หรือคุณสามารถโหลดDOC,OOXMLหรือRTFเอกสารที่มีDISPLAYBARCODEฟิลด์ที่มีอยู่แล้วในนั้นและให้การดำเนินงานของเครื่.
 
-ฟิลด์ DISPLAYBARCODE ทั่วไปมีรูปแบบต่อไปนี้:
+ฟิลด์DISPLAYBARCODEทั่วไปมีไวยากรณ์ต่อไปนี้:
 
 `{ DISPLAYBARCODE "SomeData" QR \h 720 }`
 
-ด้านล่างนี้คือตัวอย่างเครื่องสร้างโค้ดที่ใช้ Aspose.Words และ Aspose.BarCode API ตัวอย่างนี้แสดงวิธีการแทรกภาพบาร์โค้ดที่ตำแหน่งฟิลด์ DISPLAYBARCODE ในเอกสาร Word:
+ด้านล่างนี้เป็นเครื่องกำเนิดไฟฟ้ารหัสตัวอย่างโดยใช้Aspose.WordsและแอสโพสBarCode APIs. ตัวอย่างนี้แสดงวิธีการแทรกรูปภาพบาร์โค้ดที่DISPLAYBARCODEตำแหน่งฟิลด์ในเอกสารคำ:
 
-{{< gist "aspose-words-gists" "00d34dba66626dbc0175b60bb3b71c8a" "barcode-generator.cs" >}}
+{{< gist "aspose-words-gists" "689e63b98de2dcbb12dffc37afbe9067" "barcode-generator.java" >}}
 
-{{< gist "aspose-words-gists" "00d34dba66626dbc0175b60bb3b71c8a" "custom-barcode-generator.cs" >}}
+{{< gist "aspose-words-gists" "689e63b98de2dcbb12dffc37afbe9067" "custom-barcode-generator.java" >}}
 
-นอกจากนี้ คุณยังสามารถบันทึกเอกสารด้วยบาร์โค้ดที่โหลดหรือแทรกใหม่ในรูปแบบหน้าคงที่ เช่น PDF, XPS เป็นต้น ตัวอย่างโค้ดต่อไปนี้แสดงวิธีการบันทึกเอกสาร Word เป็นรูปแบบ PDF:
+นอกจากนี้คุณยังสามารถบันทึกเอกสารด้วยบาร์โค้ดที่โหลดหรือแทรกใหม่ในรูปแบบหน้าคงที่เช่นPDF,XPSฯลฯ ตัวอย่างรหัสต่อไปนี้แสดงวิธีการบันทึกเอกสารคำลงในรูปแบบPDF:
 
-{{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "docx-to-pdf.cs" >}}
+{{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "docx-to-pdf.java" >}}
 
 {{% alert color="primary" %}}
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการแปลงเอกสารจากรูปแบบหนึ่งเป็นอีกรูปแบบหนึ่ง โปรดดูส่วนเอกสารประกอบ [แปลงเอกสาร](/words/java/convert-a-document/)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการแปลงเอกสารจากรูปแบบหนึ่งไปยังอีกให้ดูที่ [แปลงเอกสาร](/words/java/convert-a-document/) ส่วนเอกสาร.
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-คุณยังสามารถใช้อินเทอร์เฟซ [IBarcodeGenerator](https://reference.aspose.com/words/java/com.aspose.words/ibarcodegenerator/) เพื่อแปลงบาร์โค้ดที่ฝังอยู่ในเอกสาร Word เป็นรูปภาพได้ โดยสามารถดึงรูปภาพที่ได้มาจากเอกสารได้ โปรดดูรายละเอียดในบทความการทำงานกับรูปภาพ
+นอกจากนี้คุณยังสามารถใช้อินเตอร์เฟซ[IBarcodeGenerator](https://reference.aspose.com/words/java/com.aspose.words/ibarcodegenerator/)เพื่อแปลงบาร์โค้ดที่ฝังอยู่ในเอกสารคำเป็นภาพ ภาพที่เกิดขึ้นสามารถสกัดจากเอกสาร-ดูการทำงานกับบทความภาพสำหรับรายละเอียด.
 
 {{% /alert %}}
 
 ## ระบุตัวเลือกบาร์โค้ด
 
-เมื่อทำงานกับบาร์โค้ด คุณสามารถตั้งค่าคุณสมบัติเพิ่มเติมบางอย่างได้ Aspose.Words มอบคลาส [BarcodeParameters](https://reference.aspose.com/words/java/com.aspose.words/barcodeparameters/) ให้กับคุณ ซึ่งเป็นคลาสสำหรับพารามิเตอร์บาร์โค้ดเพื่อส่งผ่านไปยัง BarcodeGenerator
+เมื่อทำงานกับบาร์โค้ดคุณสามารถตั้งค่าคุณสมบัติเพิ่มเติมบางอย่าง Aspose.Wordsให้คุณ[BarcodeParameters](https://reference.aspose.com/words/java/com.aspose.words/barcodeparameters/)ชั้นชั้นสำหรับพารามิเตอร์บาร์โค้ดที่จะผ่านไปBarcodeGenerator.
 
-Aspose.Words รองรับความละเอียด 96 ppi ที่ฝังไว้สำหรับรูปภาพที่สร้างด้วย [IBarcodeGenerator](https://reference.aspose.com/words/java/com.aspose.words/ibarcodegenerator/) ซึ่งจำกัดขนาดขั้นต่ำของรูปภาพบาร์โค้ด เพื่อแก้ไขปัญหานี้ นักพัฒนาสามารถแทรกรูปภาพบาร์โค้ดที่มีความละเอียดเป้าหมายลงในเอกสาร Word ด้วยตนเองและบันทึกในรูปแบบที่ต้องการ
+Aspose.Wordsรองรับความละเอียด 96 จุดอ่อนที่ฝังตัวสำหรับภาพที่สร้างขึ้นด้วย[IBarcodeGenerator](https://reference.aspose.com/words/java/com.aspose.words/ibarcodegenerator/)ซึ่งจะจำกัดขนาดขั้นต่ำขอ Toแทรกภาพบาร์โค้ดที่มีความละเอียดเป้าหมายลงในเอกสารคำและบันทึกไว้ในรูปแบบที่ สำหรับรายละเอียดเพิ่มเติมและตัวอย่างในการทำงานกับบาร์โค้ดโปรดดูบทความ [อ่านบาร์โค้ดจากเอกสารคำ](https://docs.aspose.com/barcode/java/read-barcode-from-word-document/).

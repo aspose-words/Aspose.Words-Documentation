@@ -7,6 +7,7 @@ description: "加载和转换大多数流行格式的文档，并使用 C# 支�
 type: docs
 weight: 20
 url: /zh/net/supported-features-on-document-load/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words 允许用户处理各种格式的文档，并为此提供了广泛的选项。例如，用户可以从头开始创建文档或加载任何 [支持的文档格式](/words/zh/net/supported-document-formats/) 中的现有文件，对该文档进行一些更改，然后保存结果。以所选格式导入文档时，用户可以应用各种加载选项。

@@ -7,6 +7,7 @@ description: "Python via .NET için Aspose.Words, doğru görüntülendiğinden 
 type: docs
 weight: 10
 url: /tr/python-net/manipulating-and-substitution-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words, belgeleri PDF veya XPS gibi sabit sayfa formatlarına dönüştürmek de dahil olmak üzere çeşitli görevler için TrueType yazı tiplerini gerektirir. Aspose.Words bir belgeyi oluşturduğunda, ortaya çıkan belgeye TrueType yazı tiplerinin gömme ve alt küme gömme işlemini gerçekleştirmesi gerekir; bu, popüler PDF veya XPS formatları da dahil olmak üzere belge oluşturma sırasında normal bir uygulamadır. Bu, belgenin her izleyiciye aynı görünmesini sağlar. Ayrıca, XPS spesifikasyonu yazı tiplerinin her zaman belgeye gömülmesini gerektirir.
@@ -58,7 +59,7 @@ Ancak tam yazı tipinin bulunamadığı ve Aspose.Words'in onu benzer bir yazı 
 1. Aspose.Words, gerekli yazı tipini tam ad eşleşmesiyle ve bu yazı tipi için tanımlanmış [alt_name](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/alt_name/) özelliğiyle bulamazsa, Aspose.Words, yazı tipi bilgilerini belirten [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) sınıfından [alt_name](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/alt_name/) ile tanımlanan yazı tipini bulacaktır.
 1. Aspose.Words tanımlı yazı tipini bulamıyorsa ve [alt_name](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/alt_name/) de tanımlı değilse yazı tipi değiştirme kuralları aşağıda açıklandığı gibi tek tek uygulanır (uygun değiştirme bulunduğunda Yazı Tipi Değiştirme İşlemi durdurulur ve sonraki adım yürütülmez):
    1. Aspose.Words ilk olarak yazı tipi adını işlemeye çalışarak yerine koymayı dener, özellikle "-" ve "," ayırıcıları olan son ekleri kaldırmaya çalışır.<br>
-      Bu değiştirme kuralı gerçekleşirse, "'&lt;OriginalFont&gt;' Yazı Tipi bulunamadı. Bunun yerine '&lt;SubstitutionFont&gt;' yazı tipi kullanılıyor. Neden: yazı tipi adı değişikliği." uyarısı görünür.<br>
+      Bu değiştirme kuralı gerçekleşirse, "'<OriginalFont>' Yazı Tipi bulunamadı. Bunun yerine '<SubstitutionFont>' yazı tipi kullanılıyor. Neden: yazı tipi adı değişikliği." uyarısı görünür.<br>
    1. Daha sonra Aspose.Words, eğer mevcutsa, **FontConfig** yardımcı programını kullanarak işletim sistemi yazı tipi ayarlarını uygulamaya çalışır. Bu Windows olmayan özellik, FontConfig uyumlu bir işletim sistemiyle kullanılmalıdır. Hemen hemen tüm Unix tabanlı işletim sistemlerinde, sistem genelinde yazı tipi yapılandırması, özelleştirme ve uygulamalara erişim sağlamak üzere tasarlanmış bir `FontConfig` kitaplığı zaten bulunur. Aksi takdirde bu kütüphane kullanıcı tarafından kolaylıkla kurulabilir.
       Aspose.Words, verileri nasıl sorgulayacağını ve FontConfig sonuçlarını kendi amaçları doğrultusunda nasıl yorumlayacağını bilir. Varsayılan olarak `FontConfig` yardımcı programı devre dışıdır. Bunu aşağıdaki şekilde etkinleştirebilirsiniz:<br>
 {{< highlight python >}}

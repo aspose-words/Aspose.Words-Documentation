@@ -1,218 +1,219 @@
----
-title: ใช้ `DocumentBuilder` แก้ไขเอกสาร
-second_title: Aspose.Words สําหรับ Java
-articleTitle: ใช้ `DocumentBuilder` แก้ไขเอกสาร
-linktitle: ใช้ `DocumentBuilder` แก้ไขเอกสาร
+﻿---
+title: ใช้DocumentBuilderเพื่อแก้ไขเอกสาร
+second_title: Aspose.WordsสำหรับJava
+articleTitle: ใช้DocumentBuilderเพื่อแก้ไขเอกสาร
+linktitle: ใช้DocumentBuilderเพื่อแก้ไขเอกสาร
 type: docs
-description: "ใช้ตัวสร้างเอกสารเพื่อแก้ไขเอกสารอย่างง่าย Java."
+description: "ใช้ตัวสร้างเอกสารเพื่อแก้ไขเอกสารได้อย่างง่ายดายในJava."
 weight: 20
 url: /th/java/using-documentbuilder-to-modify-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
-## กําลังระบุรูปแบบ
+## การระบุการจัดรูปแบบ
 
-### การฟอร์แมตแบบอักษร
+### การจัดรูปแบบแบบอักษร
 
-การฟอร์แมตแบบอักษรปัจจุบัน แสดงโดย `Font` วัตถุกลับมาโดย `DocumentBuilder.Font` ทรัพย์สิน เดอะ `Font` คลาสมีคุณสมบัติแบบอักษรหลากหลายแบบที่เป็นไปได้ Microsoft Word.
+การจัดรูปแบบแบบอักษรปัจจุบันจะแสดงโดยออบเจกต์`Font`ที่ส่งคืนโดยคุณสมบัติ`DocumentBuilder.Font` คลาส`Font`ประกอบด้วยคุณสมบัติแบบอักษรที่หลากหลายที่เป็นไปได้ในMicrosoft Word.
 
 | ![font-formatting-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-1.png) |
-|  :-  |
-ตัวอย่างโค้ดต่อไปนี้ จะแสดงวิธีตั้งค่ารูปแบบตัวอักษร
+| :- |
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการตั้งค่าการจัดรูปแบบแบบอักษร.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetFontFormatting-DocumentBuilderSetFontFormatting.java" >}}
 
 
-### การฟอร์แมตเซลล์
+### การจัดรูปแบบเซลล์
 
-การฟอร์แมตเซลล์ใช้ระหว่างการสร้างโต๊ะ มันแทนได้ด้วย `CellFormat` วัตถุกลับมาโดย `DocumentBuilder.CellFormat` ทรัพย์สิน เซลล์Format ครอบคลุมคุณสมบัติต่าง ๆ ของเซลล์ตาราง เช่น ความกว้าง หรือจัดตําแหน่งแนวตั้ง
+การจัดรูปแบบเซลล์ถูกนำมาใช้ในระหว่างการสร้างตาราง ออบเจกต์`CellFormat`ที่ส่งคืนโดยคุณสมบัติ`DocumentBuilder.CellFormat` CellFormatห่อหุ้มคุณสมบัติของเซลล์ตารางต่างๆเช่นความกว้างหรือแนวตั้ง.
 
 | ![cell-formatting-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-2.png) |
-|  :-  |
-ตัว อย่าง รหัส ต่อ ไป นี้ แสดง ให้ เห็น วิธี สร้าง ตาราง ที่ มี เซลล์ เซลล์ เดียว.
+| :- |
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการสร้างตารางที่ประกอบด้วยเซลล์รูปแบบเดียว.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetTableCellFormatting-DocumentBuilderSetTableCellFormatting.java" >}}
 
-### การฟอร์แมตแถว
+### การจัดรูปแบบแถว
 
-การฟอร์แมตแถวปัจจุบันถูกกําหนดโดย `RowFormat` วัตถุที่กลับมาโดย `DocumentBuilder.RowFormat` ทรัพย์สิน วัตถุนี้บอกข้อมูลการฟอร์แมตแถวของตารางทั้งหมด
+การจัดรูปแบบแถวปัจจุบันจะถูกกำหนดโดย`RowFormat`วัตถุที่ถูกส่งคืนโดยคุณสมบัติ`DocumentBuilder.RowFormat` วัตถุห่อหุ้มข้อมูลเกี่ยวกับการจัดรูปแบบแถวตารางทั้งหมด.
 
 | ![row-formatting-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-3.png) |
-|  :-  |
-คือlow code ตัว อย่าง เช่น จะ สร้าง ตาราง ที่ มี เซลล์ เซลล์ เดียว และ ทํา แบบ แถว อย่าง ไร.
+| :- |
+ตัวอย่างเป็นlow codeแสดงวิธีการสร้างตารางที่มีเซลล์เดียวและใช้การจัดรูปแบบแถว.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetTableRowFormatting-DocumentBuilderSetTableRowFormatting.java" >}}
 
-### การฟอร์แมตรายการ
+### การจัดรูปแบบรายการ
 
-Aspose.Words อนุญาตให้สร้างรายการได้ง่ายขึ้น โดยการปรับใช้รูปแบบรายการ ตัวสร้างเอกสาร `DocumentBuilder.ListFormat` คุณสมบัติที่คืนค่า `ListFormat` วัตถุ วัตถุนี้มีวิธีการหลายวิธีในการเริ่มต้นและจบรายการ และเพื่อเพิ่ม/ decrease the Indent
+Aspose.Wordsช่วยให้การสร้างง่ายของรายการโดยการใช้การจัดรูปแบบรายการ DocumentBuilderให้คุณ`DocumentBuilder.ListFormat`ที่ส่งกลับวัตถุ`ListFormat` วัตถุนี้มีหลายวิธีในการเริ่มต้นและสิ้นสุดรายการและการเพิ่ม/ลดการเยื้อง.
 
 | ![list-fformatting-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-4.png) |
-|  :-  |
-มีรายการทั่วไป 2 ประเภท Microsoft Wordกระสุนและหมายเลข
+| :- |
+มีสองประเภททั่วไปของรายการในMicrosoft Word:สัญลักษณ์แสดงหัวข้อย่อยและหมายเลข.
 
-- การเริ่มต้นรายการกระสุนโทร [ListFormat.applyBulletDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat/#applyBulletDefault).
-- เริ่มรายการหมายเลข [ListFormat.applyNumberDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat/#applyNumberDefault).
+- ในการเริ่มต้นรายการที่มีสัญลักษณ์แสดงหัวข้อย่อยให้โทร[ListFormat.applyBulletDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat/#applyBulletDefault).
+- ในการเริ่มรายการหมายเลขให้โทร[ListFormat.applyNumberDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat/#applyNumberDefault).
 
-กระสุนหรือตัวเลขและรูปแบบจะถูกเพิ่มไปยังย่อหน้าปัจจุบันและทุก paragraphy ที่สร้างขึ้นโดยใช้ **DocumentBuilder** ถึง [ListFormat.removeNumbers](https://reference.aspose.com/words/java/com.aspose.words/listformat/#removeNumbers) ถูกเรียกให้หยุดออกแบบรายการ
+นย่อหน้าปัจจุบันและย่อหน้าต่อไปทั้งหมดที่สร้างขึ้นโดยใช้**DocumentBuilder**จนกระทั่ง[ListFormat.removeNumbers](https://reference.aspose.com/words/java/com.aspose.words/listformat/#removeNumbers)ถูกเรียกว่าเพื่อหยุดกา.
 
-ใน เอกสาร คํา ศัพท์ รายการ อาจ ประกอบ ด้วย เก้า ระดับ. รายการการฟอร์แมตสําหรับแต่ละระดับ ระบุว่าใช้กระสุนหรือตัวเลขอะไร ด้านซ้าย, ช่องว่างระหว่างกระสุนและข้อความ เป็นต้น
+ในคำเอกสารรายการอาจประกอบด้วยถึงเก้าระดับ การจัดรูปแบบรายการสำหรับแต่ละระดับระบุสิ่งที่กระสุนหรือหมายเลขที่ใช้เยื้องซ้ายช่องว่.
 
-- เพื่อเพิ่มระดับรายการของย่อหน้าปัจจุบันทีละระดับ ให้เรียก [ListFormat.listIndent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listIndent).
-- เพื่อลดระดับรายการของย่อหน้าปัจจุบันด้วยระดับหนึ่ง ให้เรียก [ListFormat.listOutdent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listOutdent).
+- หากต้องการเพิ่มระดับรายการของย่อหน้าปัจจุบันโดยหนึ่งระดับให้โทร[ListFormat.listIndent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listIndent).
+- เมื่อต้องการลดระดับรายการของย่อหน้าปัจจุบันโดยหนึ่งระดับให้โทร[ListFormat.listOutdent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listOutdent).
 
-วิธีการเปลี่ยนระดับรายการ และปรับใช้คุณสมบัติการฟอร์แมตระดับใหม่
+เมธอดเปลี่ยนระดับรายการและใช้คุณสมบัติการจัดรูปแบบของระดับใหม่.
 
 {{% alert color="primary" %}}
 
-คุณสามารถใช้ [ListFormat.listLevelNumber](https://reference.aspose.com/words/java/com.aspose.words/listformat/#setListLevelNumber-int) คุณสมบัติที่จะใช้รับหรือตั้งค่าระดับรายการของย่อหน้า ระดับรายชื่ออยู่ที่ 0 ถึง 8
+นอกจากนี้คุณยังสามารถใช้คุณสมบัติ[ListFormat.listLevelNumber](https://reference.aspose.com/words/java/com.aspose.words/listformat/#setListLevelNumber-int)เพื่อรับหรือตั้งค่าระดับรายการสำหรับย่อหน้า ระดับรายการมีหมายเลข 0 ถึง 8.
 
 {{% /alert %}}
 
-ตัว อย่าง รหัส ต่อ ไป นี้ แสดง วิธี สร้าง รายการ หลาย ระดับ.
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการสร้างรายการหลายระดับ.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetMultilevelListFormatting-DocumentBuilderSetMultilevelListFormatting.java" >}}
 
-### ตั้งค่าหน้ากระดาษและรูปแบบหัวข้อ
+### การตั้งค่าหน้าเว็บและการจัดรูปแบบส่วน
 
-ตั้งค่าหน้ากระดาษและคุณสมบัติส่วนต่าง ๆ จะถูกบรรจุไว้ใน `PageSetup` วัตถุที่กลับมาโดย `DocumentBuilder.PageSetup` ทรัพย์สิน วัตถุนี้บรรจุคุณสมบัติต่าง ๆ ของหน้าที่ตั้งค่าไว้ทั้งหมด (ขอบซ้าย, ขอบล่าง, ขนาดกระดาษ และอื่น ๆ) เป็นคุณสมบัติ
+ตั้งค่าหน้าเว็บและส่วนคุณสมบัติถูกห่อหุ้มใน`PageSetup`วัตถุที่ถูกส่งคืนโดยคุณสมบัติ`DocumentBuilder.PageSetup` วัตถุประกอบด้วยแอตทริบิวต์การตั้งค่าหน้าเว็บทั้งหมดของส่วน(ขอบซ้ายขอบล่างขนาดกระด.
 
 | ![section-formatting-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-5.png) |
-|  :-  |
-ตัว อย่าง รหัส ต่อ ไป นี้ แสดง ให้ เห็น วิธี ที่ จะ กําหนด คุณสมบัติ ต่าง ๆ เช่น ขนาด หน้า และ การ จัด แนว สําหรับ ส่วน ที่ อยู่ ใน ปัจจุบัน.
+| :- |
+ตัวอย่างโค้ดต่อไปนี้แสดงวิธีการตั้งค่าคุณสมบัติเช่นขนาดหน้าและการวางแนวสำหรับส่วน.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetPageSetupAndSectionFormatting-DocumentBuilderSetPageSetupAndSectionFormatting.java" >}}
 
-### กําลังปรับใช้รูปแบบ
+### การใช้สไตล์
 
-การฟอร์แมตวัตถุบางแบบ เช่น แบบอักษร หรือ paraseFormat รูปแบบที่ใช้ร่วมหรือผู้ใช้แบบเดียว `Style` วัตถุที่บรรจุคุณสมบัติรูปแบบที่สอดคล้องกัน เช่น ชื่อ, รูปแบบพื้นฐาน, แบบอักษร และ ย่อหน้าของการฟอร์แมต และอื่น ๆ
+ออบเจกต์การจัดรูปแบบบางอย่างเช่นแบบอักษรหรือParagraphFormatรูปแบบการสนับสนุน สไตล์ที่ผู้ใช้กำหนดในตัวเดียวจะแสดงโดยออบเจกต์`Style`ที่มีคุณสมบัติลักษณะที่สอดคล้องกันเช่น.
 
-ยิ่งกว่านั้น **Style** วัตถุที่ให้ [Style.getStyleIdentifier](https://reference.aspose.com/words/java/com.aspose.words/style/#getStyleIdentifier) คุณสมบัติที่ส่งค่ากลับมาเป็นรูปแบบที่ต้องการค่าในท้องถิ่น **Style.StyleIdentifier** ราคาที่เพิ่มขึ้น ประเด็นคือชื่อของสไตล์ที่สร้างขึ้น Microsoft Word เป็นภาษาท้องถิ่นสําหรับภาษาที่แตกต่างกัน คุณ จะ พบ รูป แบบ ที่ ถูก ต้อง ได้ ไม่ ว่า จะ เป็น ภาษา ของ เอกสาร หรือ ไม่. ค่ามวลที่ตรงกับ Microsoft Word รูปแบบที่สร้างขึ้นเช่น ปกติ มุ่งหน้า 1 มุ่งหน้าไป 2 เป็นต้น รูปแบบที่ผู้ใช้กําหนดทั้งหมดถูกกําหนดให้ใช้ **สไตล์นิเตอร์ ค่าของผู้ใช้**.
+นอกจากนี้ออบเจกต์**Style**มีคุณสมบัติ[Style.getStyleIdentifier](https://reference.aspose.com/words/java/com.aspose.words/style/#getStyleIdentifier)ที่ส่งคืนตัวระบุสไตล์อิสระโลแคลที่แสดงโดยค่าการแจงนับ**Style.StyleIdentifier** ประเด็นคือชื่อของลักษณะในตัวในMicrosoft Wordเป็นภาษาท้องถิ่นสำหรับภาษาที่แตกต่างกัน ใช้ตัวระบุลักษณะคุณสามารถค้นหาลักษณะที่ถูกต้องโดยไม่คำนึงถึงภาษาของเอกสาร ค่าการแจงนับสอดคล้องกับรูปแบบในตัวMicrosoft Wordเช่นปกติ,Heading 1,Heading 2เป็นต้น รูปแบบที่ผู้ใช้กำหนดทั้งหมดจะถูกกำหนด**StyleIdentifier.User value**.
 
 | ![apply-style-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-6.png) |
-|  :-  |
-ตัว อย่าง รหัส ต่อ ไป นี้ แสดง ให้ เห็น วิธี ใช้ แบบ ย่อ.
+| :- |
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการใช้ลักษณะย่อหน้า.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderApplyParagraphStyle.java" >}}
 
-### กรอบ และ การ ตัด ไม้
+### เส้นขอบและการแรเงา
 
-ชายแดนแสดงโดย การตัดขอบ นี่เป็นชุดวัตถุกรอบที่เข้าถึงได้โดยดัชนีหรือชนิดกรอบ ขอบเขตนี้แสดงโดย `BorderType` ปลดปล่อย ค่า บาง อย่าง ของ การ เผา ผลาญ ถูก นํา ไป ใช้ กับ ส่วน ประกอบ หลาย อย่าง หรือ เพียง ส่วน เดียว ของ เอกสาร. ยกตัวอย่างเช่น `BorderType.Bottom` ใช้กับทั้งย่อหน้าหรือเซลล์ตารางในขณะที่ `BorderType.DiagonalDown` กําหนดเส้นทแยงมุมในเซลล์ตารางเท่านั้น
+เส้นขอบจะแสดงด้วยBorderCollection นี่คือคอลเลกชันของวัตถุเส้นขอบที่เข้าถึงโดยดัชนีหรือตามชนิดของเส้นขอบ ประเภทเส้นขอบจะแสดงโดยการแจงนับ`BorderType` ค่าบางอย่างของการนับมีผลบังคับใช้กับหลายหรือเพียงองค์ประกอบเอกสารหนึ่ง ตัวอย่างเช่น`BorderType.Bottom`ใช้ได้กับย่อหน้าหรือเซลล์ตารางในขณะที่`BorderType.DiagonalDown`ระบุขอบเส้นทแยงมุมในเซลล์ตาราง.
 
-ทั้งการสะสมกรอบและแต่ละขอบมีคุณลักษณะคล้ายสี, รูปแบบเส้น, ความกว้างเส้น, ระยะห่างจากข้อความ, และเงาทางเลือก มันแสดงด้วยคุณสมบัติของชื่อเดียวกัน คุณสามารถสร้างเขตแดนที่แตกต่างได้ โดยการรวมค่าทรัพย์สินเข้าด้วยกัน นอกจากนี้ ทั้งสอง **BorderCollection** ถึง **Border** วัตถุอนุญาตให้คุณปรับค่าเหล่านี้กลับไปใช้ค่าปริยายได้ โดยการเรียก [Border.clearFormatting](https://reference.aspose.com/words/java/com.aspose.words/border/#clearFormatting) วิธี หมายเหตุว่า เมื่อคุณสมบัติกรอบถูกปรับค่ากลับไปใช้ค่าปริยายแล้ว ขอบเขตจะมองไม่เห็น
+ทั้งคอลเลกชันชายแดนและแต่ละชายแดนแยกต่างหากมีคุณลักษณะที่คล้ายกันเช่นสีลักษณะเส้ คุณสมบัติของชื่อเดียวกัน คุณสามารถบรรลุประเภทเส้นขอบที่แตกต่างกันโดยการรวมค่าคุณสมบัติ นอกจากนี้วัตถุทั้ง**BorderCollection**และ**Border**ช่วยให้คุณสามารถรีเซ็ตค่าเหล่านี้เป็นค่าเริ่มต้นโดยการเรียกวิธีการ[Border.clearFormatting](https://reference.aspose.com/words/java/com.aspose.words/border/#clearFormatting) โปรดทราบว่าเมื่อรีเซ็ตคุณสมบัติเส้นขอบเป็นค่าเริ่มต้นเส้นขอบจะมองไม่เห็น.
 
 | ![set-borders-shading-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-7.png) |
-|  :-  |
-เดอะ [Shading](https://reference.aspose.com/words/java/com.aspose.words/shading/) คลาสมีคุณลักษณะการแรเงา สําหรับองค์ประกอบของเอกสาร คุณสามารถตั้งค่าพื้นผิวเงาที่ต้องการ และสีที่ใช้กับพื้นหลังและส่วนประกอบของธาตุ
+| :- |
+คลาส[Shading](https://reference.aspose.com/words/java/com.aspose.words/shading/)ประกอบด้วยแอตทริบิวต์การแรเงาสำหรับอิลิเมนต์เอกสาร คุณสามารถตั้งค่าพื้นผิวการแรเงาที่ต้องการและสีที่ใช้กับพื้นหลังและเบื้องหน้าขององค์ป.
 
-พื้นผิวเงาเป็นการตั้งค่าด้วย [พื้นผิว](https://www.aspose.com/api/java/words/com.aspose.words/constants/TextureIndex) ค่าสิ้นสุดที่อนุญาตให้ปรับใช้รูปแบบต่าง ๆ กับ **Shading** วัตถุ ตัวอย่างเช่น เพื่อตั้งค่าสีพื้นหลังสําหรับองค์ประกอบของเอกสาร ให้ใช้ [พื้นผิว](https://www.aspose.com/api/java/words/com.aspose.words/constants/TextureIndex) ตั้งค่าสีพื้นหน้าให้เหมาะสม
+รงแรเงาถูกตั้งค่าด้วย [TextureIndex](https://www.aspose.com/api/java/words/com.aspose.words/constants/TextureIndex) ค่าการนับที่ช่วยให้การประยุกต์ใช้รูปแบบต่างๆไปยังวัตถุ**Shading** ตัวอย่างเช่นเมื่อต้องการตั้งค่าสีพื้นหลังสำหรับองค์ประกอบเอกสารให้ใช้ [TextureIndex.TextureSolid](https://www.aspose.com/api/java/words/com.aspose.words/constants/TextureIndex) ค่าและตั้งค่าสีแรเงาเบื้องหน้าตามความเหมาะสม.
 
 | ![borders-and-shading-aspose-words-java](/words/java/using-documentbuilder-to-modify-a-document/documentbuilder-to-modify-document-8.png) |
-|  :-  |
-ตัว อย่าง ข้าง ล่าง นี้ แสดง ให้ เห็น วิธี ใช้ พรม แดน และ การ หลบ หลีก วรรค หนึ่ง.
+| :- |
+ตัวอย่างด้านล่างแสดงวิธีการใช้เส้นขอบและการแรเงากับย่อหน้า.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderApplyBordersAndShadingToParagraph.java" >}}
 
-### ปรับให้พอดีเส้นกริด
+### สแนปไปยังตาราง
 
-Aspose.Words ให้คุณสมบัติสองอย่าง `ParagraphFormat.SnapToGrid` ถึง `Font.SnapToGrid` เพื่อไปและตั้งค่า paragraph access patching กับตาราง
+Aspose.Wordsมีสองคุณสมบัติ`ParagraphFormat.SnapToGrid`และ`Font.SnapToGrid`ที่จะได้รับและการตั้งค่าคุณสมบัติย่อหน้าสแน็ปในตาราง
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-SetSnapToGrid.java" >}}
 
 ### การย้ายเคอร์เซอร์
 
-### ตรวจสอบตําแหน่งเคอร์เซอร์ปัจจุบัน
+### การตรวจหาตำแหน่งเคอร์เซอร์ปัจจุบัน
 
-คุณสามารถหาตําแหน่งเคอร์เซอร์ของผู้สร้างได้ตลอดเวลา เดอะ [DocumentBuilder.getCurrentNode](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentNode) ฟังก์ชัน CHAR () จะคืนค่าเป็นอักขระที่มีรหัสตัวเลขตรงกับที่กําหนด โหนดเป็นลูกโดยตรงของวรรค การแทรกใด ๆ ที่คุณทําโดยใช้ `DocumentBuilder` จะแทรกก่อน `DocumentBuilder.CurrentNode`. เมื่อย่อหน้าปัจจุบันว่าง หรือตําแหน่งเคอร์เซอร์ ก่อนที่จะจบย่อหน้า `DocumentBuilder.CurrentNode` กลับมาเป็นโมฆะ
+คุณสามารถขอรับตำแหน่งเคอร์เซอร์ของผู้สร้างในปัจจุบันได้ตลอดเวลา คุณสมบัติ[DocumentBuilder.getCurrentNode](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentNode)จะส่งคืนโหนดที่เลือกอยู่ในตัวสร้างนี้ในปัจจุบัน โหนดเป็นลูกโดยตรงของย่อหน้า การแทรกการดำเนินการใดๆที่คุณดำเนินการโดยใช้`DocumentBuilder`จะแทรกก่อน`DocumentBuilder.CurrentNode` เมื่อย่อหน้าปัจจุบันว่างเปล่าหรือวางเคอร์เซอร์ไว้ก่อนสิ้นย่อหน้า`DocumentBuilder.CurrentNode`จะเป็นโมฆะ.
 
-นอกจากนี้คุณสามารถใช้ [DocumentBuilder.getCurrentParagraph](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentParagraph) คุณสมบัติ, ซึ่งใช้ค้นหาย่อหน้าที่กําลังเลือกอยู่ **DocumentBuilder**. คือlow code ตัวอย่างแสดงถึงวิธีการเข้าถึงโหนดปัจจุบันในผู้สร้างเอกสาร
+นอกจากนี้คุณสามารถใช้คุณสมบัติ[DocumentBuilder.getCurrentParagraph](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentParagraph)ซึ่งได้รับย่อหน้าที่ถูกเลือกใน**DocumentBuilder**นี้ ตัวอย่างเป็นlow codeแสดงวิธีเข้าถึงโหนดปัจจุบันในตัวสร้างเอกสาร.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderCursorPosition-DocumentBuilderCursorPosition.java" >}}
 
-### ย้าย ไป ยัง เมือง โนด (ภาพ ถ่าย และ ลูก ๆ ของ เขา)
+### ย้ายไปยังโหนดใดๆ(ย่อหน้าและบุตรหลานของพวกเขา)
 
-หากคุณมีโหนดวัตถุเอกสาร ซึ่งเป็น paragraph หรือลูกโดยตรงของย่อหน้า คุณสามารถชี้เคอร์เซอร์ของผู้สร้างไปที่โหนดนี้ ใช้ [DocumentBuilder.moveTo](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveTo-com.aspose.words.Node) วิธีทํานี้
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีการย้ายตําแหน่งเคอร์เซอร์ไปยังโหนดที่ระบุ
+ถ้าคุณมีโหนดวัตถุเอกสารซึ่งเป็นย่อหน้าหรือลูกโดยตรงของย่อหน้าคุณสามารถชี้เคอร์เซอร์ ใช้วิธีการ[DocumentBuilder.moveTo](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveTo-com.aspose.words.Node)เพื่อดำเนินการนี้.
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการย้ายตำแหน่งเคอร์เซอร์ไปยังโหนดที่ระบุ.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToNode-DocumentBuilderMoveToNode.java" >}}
 
-### ย้ายไปยังเอกสารเริ่มต้น/ รุ่น
+### การย้ายไปยังเอกสารเริ่มต้น/สิ้นสุด
 
-หากคุณต้องการย้ายไปยังตอนต้นของเอกสาร โปรดติดต่อ [DocumentBuilder.moveToDocumentStart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToDocumentStart). หากคุณต้องการย้ายไปยังท้ายเอกสาร โปรดติดต่อ [DocumentBuilder.moveToDocumentEnd](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToDocumentEnd).
+หากคุณต้องการย้ายไปยังจุดเริ่มต้นของเอกสารโทร[DocumentBuilder.moveToDocumentStart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToDocumentStart) ถ้าคุณต้องการที่จะย้ายไปยังส่วนท้ายของเอกสาร,โทร[DocumentBuilder.moveToDocumentEnd](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToDocumentEnd).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToDocumentStartEnd-DocumentBuilderMoveToDocumentStartEnd.java" >}}
 
-### กําลังย้ายไปยังหัวข้อ
+### การย้ายไปยังส่วน
 
-หากคุณทํางานกับเอกสารที่มีหลายตอน คุณสามารถย้ายไปยังส่วนที่ต้องการได้ [DocumentBuilder.moveToSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToSection-int). วิธีการนี้จะทําการย้ายเคอร์เซอร์ไปยังส่วนเริ่มต้นของส่วนที่ระบุ และยอมรับดัชนีในส่วนที่ต้องการ เมื่อส่วนดัชนีมากกว่าหรือเท่ากับ 0 มันระบุดัชนีจากตอนต้นของเอกสาร โดยมี 0 เป็นส่วนแรก เมื่อส่วนดัชนีน้อยกว่า 0 มันระบุดัชนีจากท้ายเอกสารด้วย -1 คือส่วนสุดท้าย คือlow code ตัวอย่างการแสดงวิธีย้ายตําแหน่งเคอร์เซอร์ไปยังส่วนที่ระบุ คุณสามารถดาวน์โหลดแฟ้มต้นแบบของตัวอย่างนี้ได้ [ที่นี่](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
+หากคุณกำลังทำงานกับเอกสารที่มีหลายส่วนคุณสามารถย้ายไปยังส่วนที่ต้องการโดยใช้[DocumentBuilder.moveToSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToSection-int) เมธอดนี้จะเลื่อนเคอร์เซอร์ไปที่จุดเริ่มต้นของส่วนที่ระบุและยอมรับดัชนีของส่วนที่ต้องการ เมื่อดัชนีส่วนมากกว่าหรือเท่ากับ 0 จะระบุดัชนีจากจุดเริ่มต้นของเอกสารด้วย 0 เป็นส่วนแรก เมื่อดัชนีส่วนน้อยกว่า 0 จะระบุดัชนีจากส่วนท้ายของเอกสารด้วย -1 เป็นส่วนสุดท้าย ตัวอย่างเป็นlow codeแสดงวิธีการย้ายตำแหน่งเคอร์เซอร์ไปยังส่วนที่ระบุ คุณสามารถดาวน์โหลดไฟล์แม่แบบของตัวอย่างนี้ได้จาก [ที่นี่](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToSection-DocumentBuilderMoveToSection.java" >}}
 
-### ย้ายไปเป็นส่วนหัว/ ตัวชี้
+### การย้ายไปยังส่วนหัว/ส่วนท้าย
 
-เมื่อคุณต้องการที่จะวางข้อมูลบางอย่างลงในส่วนหัวหรือท้าย, คุณควรจะย้ายไปที่นั่นก่อน [DocumentBuilder.moveToHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToHeaderFooter-int). วิธีการยอมรับค่าหัวจดหมาย
+เมื่อคุณต้องการวางข้อมูลบางอย่างลงในส่วนหัวหรือส่วนท้าย,คุณควรย้ายไปที่นั่นก่อนโดยใช้[DocumentBuilder.moveToHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToHeaderFooter-int).เมธอดยอมรับค่าการแจงนับHeaderFooterTypeที่ระบุชนิดของส่วนหัวหรือส่วนท้ายที่ควรย้ายเคอร์เซอร์.
 
-หากคุณต้องการสร้างส่วนหัวและท้ายที่แตกต่างกันสําหรับหน้าแรก คุณต้องตั้งค่า [PageSetup.getDifferentFirstPageHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getDifferentFirstPageHeaderFooter) คุณสมบัติไปยัง **true**. หากคุณต้องการสร้างส่วนหัวและท้ายกระดาษที่แตกต่างไปทั้งหน้าคี่และหน้าคู่ คุณต้องตั้งค่า [PageSetup.getOddAndEvenPagesHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getOddAndEvenPagesHeaderFooter) ถึง **true**.
+หากคุณต้องการสร้างส่วนหัวและท้ายกระดาษที่แตกต่างกันสำหรับหน้าแรกคุณต้องตั้งค่าคุณสมบัติ[PageSetup.getDifferentFirstPageHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getDifferentFirstPageHeaderFooter)เป็น**true** หากคุณต้องการสร้างส่วนหัวและท้ายกระดาษที่แตกต่างกันสำหรับหน้าคู่และหน้าคี่คุณต้องตั้ง[PageSetup.getOddAndEvenPagesHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getOddAndEvenPagesHeaderFooter)ถึง**true**.
 
-ถ้าคุณต้องการที่จะได้รับกลับไปที่เรื่องหลักใช้[DocumentBuilder.moveToSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToSection-int) ย้ายออกจากส่วนหัวหรือท้ายกระดาษ ด้านล่างตัวอย่าง สร้างส่วนหัวและท้ายกระดาษ โดยใช้ตัวสร้างเอกสาร
+หากคุณต้องการกลับไปที่เรื่องราวหลักให้ใช้[DocumentBuilder.moveToSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToSection-int)เพื่อย้ายออกจากส่วนหัวหรือส่วนท้าย ตัวอย่างด้านล่างจะสร้างส่วนหัวและท้ายกระดาษในเอกสารโดยใช้DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderHeadersAndFooters-DocumentBuilderHeaderAndFooters.java" >}}
 
-### ย้ายไปยังย่อหน้า
+### การย้ายไปยังย่อหน้า
 
-ใช้[DocumentBuilder.moveToParagraph](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToParagraph-int-int) ย้ายเคอร์เซอร์ไปยังย่อหน้าที่ต้องการในส่วนปัจจุบัน คุณควรส่งพารามิเตอร์สองค่าไปยังวิธีการนี้: paragraphindex (ดัชนีของย่อหน้าที่จะย้ายไป) และอักขระ Index (ดัชนีของอักขระภายในย่อหน้า).
+ใช้[DocumentBuilder.moveToParagraph](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToParagraph-int-int)เพื่อย้ายเคอร์เซอร์ไปยังย่อหน้าที่ต้องการในส่วนปัจจุบัน คุณควรส่งพารามิเตอร์สองตัวไปยังวิธีนี้:paragraphIndex(ดัชนีของย่อหน้าที่จะย้ายไป)และcharacterIndex(ดัชนีของอักขระภาย.
 
-การนําทางกระทําภายในเนื้อเรื่องปัจจุบันในส่วนปัจจุบัน นั่นคือ หากคุณย้ายเคอร์เซอร์ไปยังส่วนหัวหลักของส่วนแรก จากนั้น paragraph Index จะระบุดัชนีของย่อหน้าภายในหัวเรื่องในส่วนนั้น
+การนำทางจะดำเนินการภายในเรื่องปัจจุบันของส่วนปัจจุบัน อร์เซอร์ไปยังส่วนหัวหลักของส่วนแรกแล้วparagraphIndexจะระบุดัชนีของย่อหน้าภายในส่วนหัวของส่วนนั้น.
 
-เมื่อ paragraph Index มากกว่าหรือเท่ากับ 0 มันระบุดัชนีจากตอนต้นส่วนด้วย 0 เป็นย่อหน้าแรก เมื่อ วรรค Index น้อยกว่า 0 มันระบุดัชนีจากท้ายภาคด้วย -1 คือ วรรคสุดท้าย ดัชนีของอักขระนี้จะสามารถกําหนดเป็น 0 ได้ก็ต่อเมื่อมีการย้ายไปยังตอนต้นของย่อหน้า หรือ -1 เพื่อย้ายไปอยู่ที่ท้ายย่อหน้าเท่านั้น ตัวอย่างรหัสต่อไปนี้แสดงถึงวิธีการย้ายตําแหน่งเคอร์เซอร์ไปยังย่อหน้าที่ระบุ คุณสามารถดาวน์โหลดแฟ้มต้นแบบของตัวอย่างนี้ได้ [ที่นี่](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
+เมื่อparagraphIndexมากกว่าหรือเท่ากับ 0 จะระบุดัชนีจากจุดเริ่มต้นของส่วนที่มี 0 เป็นย่อหน้าแรก เมื่อparagraphIndexน้อยกว่า 0 จะระบุดัชนีจากส่วนท้ายของส่วนที่มี -1 เป็นย่อหน้าสุดท้าย ขณะนี้ดัชนีอักขระสามารถระบุเป็น 0 เพื่อย้ายไปยังจุดเริ่มต้นของย่อหน้าหรือ -1 เพื่อย้ายไปยัง ตัวอย่างรหัสต่อไปนี้แสดงวิธีการย้ายตำแหน่งเคอร์เซอร์ไปยังย่อหน้าที่ คุณสามารถดาวน์โหลดไฟล์แม่แบบของตัวอย่างนี้ได้จาก [ที่นี่](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToParagraph-DocumentBuilderMoveToParagraph.java" >}}
 
-### ย้ายไปยังตารางเซลล์
+### การย้ายไปยังเซลล์ตาราง
 
-ใช้ [DocumentBuilder.moveToCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToCell-int-int-int-int) หากคุณต้องการย้ายเคอร์เซอร์ไปยังเซลล์ของตารางในส่วนปัจจุบัน วิธีการยอมรับค่าพารามิเตอร์สี่ค่า:
+ใช้[DocumentBuilder.moveToCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToCell-int-int-int-int)หากคุณต้องการเลื่อนเคอร์เซอร์ไปยังเซลล์ตารางในส่วนปัจจุบัน วิธีนี้ยอมรับสี่พารามิเตอร์:
 
-- ตาราง Index - ดัชนีของตารางที่จะย้ายไป
-- แถว Index - ดัชนีแถวในตาราง
-- คอลัมน์ Index - ดัชนีของคอลัมน์ในตาราง
-- ตัวละคร Index - ดัชนีของตัวละครภายในเซลล์
+- tableIndex-ดัชนีของตารางที่จะย้ายไป.
+- rowIndex-ดัชนีของแถวในตาราง.
+- columnIndex-ดัชนีของคอลัมน์ในตาราง.
+- characterIndex-ดัชนีของอักขระภายในเซลล์.
 
-การนําร่องกระทําภายในเนื้อเรื่องปัจจุบันในส่วนปัจจุบัน
+การนำทางจะดำเนินการภายในเรื่องปัจจุบันของส่วนปัจจุบัน.
 
-สําหรับพารามิเตอร์ดัชนี, เมื่อดัชนีมากกว่าหรือเท่ากับ 0, มันระบุดัชนีตั้งแต่แรกด้วย 0 ว่าเป็นองค์ประกอบแรก เมื่อดัชนีน้อยกว่า 0, มันระบุดัชนีจากตอนจบด้วย -1 เป็นองค์ประกอบสุดท้าย
+สำหรับพารามิเตอร์ดัชนีเมื่อดัชนีมากกว่าหรือเท่ากับ 0 จะระบุดัชนีตั้งแต่ต้นด้วย 0 เป็นองค์ป เมื่อดัชนีน้อยกว่า 0 จะระบุดัชนีจากจุดสิ้นสุดด้วย -1 เป็นองค์ประกอบสุดท้าย.
 
-โปรดสังเกตว่า อักขระ Index นี้ สามารถทําได้เพียง 0 ตัว เพื่อย้ายไปยังจุดเริ่มต้นของเซลล์ หรือ 1 ตัว เพื่อย้ายไปยังส่วนท้ายของเซลล์ ตัวอย่างรหัสต่อไปนี้แสดงถึงวิธีการย้ายตําแหน่งเคอร์เซอร์ไปยังเซลล์ตารางที่ระบุ คุณสามารถดาวน์โหลดแฟ้มต้นแบบของตัวอย่างนี้ได้ [ที่นี่](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
+นอกจากนี้โปรดทราบว่าcharacterIndexขณะนี้สามารถระบุได้เพียง 0 เพื่อย้ายไปยังจุดเริ่มต้นของเซลล์หรือ -1 เพื่อย้ายไปยังจุดสิ้นสุดของเซลล์ ตัวอย่างรหัสต่อไปนี้แสดงวิธีการย้ายตำแหน่งเคอร์เซอร์ไปยังเซลล์ตารางที่ระบุ คุณสามารถดาวน์โหลดไฟล์แม่แบบของตัวอย่างนี้ได้จาก [ที่นี่](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToTableCell-DocumentBuilderMoveToTableCell.java" >}}
 
-### ย้ายไปยังที่คั่นหน้า
+### การย้ายไปยังบุ๊กมาร์ก
 
-มี การ ใช้ ที่คั่นหน้า บ่อย ๆ เพื่อ ระบุ สถาน ที่ เฉพาะ ใน เอกสาร ซึ่ง จะ มี การ ใส่ สมาชิก ใหม่ เข้า ไป. ย้ายไปยังที่คั่นหน้า, ใช้ [DocumentBuilder.moveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToBookmark-java.lang.String). วิธี นี้ มี สอง วิธี ที่ เกิน ความ สามารถ. ตัวที่ง่ายที่สุด รับอะไรไม่ได้นอกจากชื่อของคั่นหน้า ที่ที่เคอร์เซอร์จะถูกย้าย ตัวอย่างรหัสต่อไปนี้แสดงถึงวิธีย้ายตําแหน่งเคอร์เซอร์ไปยังที่คั่นหน้า
+ที่คั่นหน้าจะใช้บ่อยเพื่อทำเครื่องหมายสถานที่เฉพาะในเอกสารที่จะแทรกองค์ประกอบใหม่ เมื่อต้องการย้ายไปยังบุ๊กมาร์กใช้[DocumentBuilder.moveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToBookmark-java.lang.String) วิธีการนี้มีสองเกินพิกัด ที่ง่ายที่สุดยอมรับอะไรแต่ชื่อของบุ๊คมาร์คที่เคอร์เซอร์จะถูกย้าย ตัวอย่างรหัสต่อไปนี้แสดงวิธีการย้ายตำแหน่งเคอร์เซอร์ไปยังบุ๊กมาร์ก.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToBookmark-DocumentBuilderMoveToBookmark.java" >}}
 
-การโหลดจดหมายนี้ จะย้ายเคอร์เซอร์ไปยังตําแหน่ง หลังจากเริ่มคั่นหน้าโดยใช้ชื่อที่กําหนดเท่านั้น เกินพิกัดอีก [DocumentBuilder.moveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToBookmark-java.lang.String-boolean-boolean) ย้ายเคอร์เซอร์ไปยังที่คั่นหน้าด้วยความแม่นยํามากขึ้น มันยอมรับตัวแปรที่เพิ่มเข้าไปอีกสอง
+การโอเวอร์โหลดนี้จะเลื่อนเคอร์เซอร์ไปยังตำแหน่งหลังจากที่เริ่มต้นของบุ๊กมาร์กที่มีชื่อ เกินพิกัดอีก[DocumentBuilder.moveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToBookmark-java.lang.String-boolean-boolean)เลื่อนเคอร์เซอร์ไปยังบุ๊กมาร์กที่มีความแม่นยำมากขึ้น มันยอมรับสองพารามิเตอร์บูลีน:
 
-- กําลังเริ่มการใช้งาน ต้องการกําหนดการย้ายเคอร์เซอร์ไปยังตอนต้น หรือเพื่อจบคั่นหน้า
-- หลังการกําหนดให้ย้ายเคอร์เซอร์ หลังจากตําแหน่ง เริ่มหรือจบคั่นหน้าแล้ว ให้ย้ายเคอร์เซอร์ก่อนการเริ่มคั่นหน้าหรือสิ้นสุด
+- isStartกำหนดว่าจะย้ายเคอร์เซอร์ไปยังจุดเริ่มต้นหรือจุดสิ้นสุดของบุ๊กมาร์ก.
+- isAfterกำหนดว่าจะย้ายเคอร์เซอร์ไปหลังตำแหน่งเริ่มต้นหรือจุดสิ้นสุดของบุ๊กมาร์กหรือเลื่อนเคอร์เซอร์ไปก่อนตำแหน่งเริ่มต้นหรือจุดสิ้นสุดของบุ๊กมาร์ก.
 
-ตัวอย่างโค้ดต่อไปนี้ จะแสดงวิธีย้ายตําแหน่งเคอร์เซอร์ ไปยังตําแหน่งเดิมหลังจากสิ้นสุดคั่นหน้าแล้ว
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการย้ายตำแหน่งเคอร์เซอร์ไปหลังจากจบบุ๊กมาร์ก.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToBookmarkEnd-DocumentBuilderMoveToBookmarkEnd.java" >}}
 
-การแทรกข้อความใหม่ในลักษณะนี้ ไม่ได้แทนที่ข้อความที่คั่นหน้าที่มีอยู่ โปรดสังเกตว่า ที่คั่นหน้าบางตัวในเอกสารได้ถูกมอบหมายให้สร้างช่องข้อมูล ย้ายไปยังที่คั่นหน้าดังกล่าวและแทรกข้อความมีแทรกข้อความลงในรหัสฟอร์ม แม้ ว่า การ ทํา เช่น นี้ จะ ไม่ ทํา ให้ ช่อง รูป แบบ เป็น โมฆะ แต่ จะ ไม่ สามารถ เห็น ข้อ ความ ที่ แทรก เข้า มา ได้ เพราะ เป็น ส่วน หนึ่ง ของ รหัส สนาม.
+การแทรกข้อความใหม่ในลักษณะนี้ไม่ได้แทนที่ข้อความที่มีอยู่ของบุ๊กมาร์ก โปรดทราบว่าบุ๊กมาร์กบางอย่างในเอกสารถูกกำหนดให้กับเขตข้อมูลแบบฟอร์ม ย้ายไปยังบุ๊คมาร์คดังกล่าวและการแทรกข้อความที่มีแทรกข้อความลงในรหัสฟิลด์แบบฟอร์ม แม้ว่านี้จะไม่ทำให้ฟิลด์ฟอร์มเป็นโมฆะข้อความที่แทรกจะไม่สามารถมองเห็นได้เนื่องจาก.
 
-### ย้ายไปยัง `Merge` ช่องข้อมูล
+### ย้ายไปยังช่อง`Merge`
 
-บางครั้งคุณอาจต้องแสดง "งานประจํา" mail merge ใช้ `DocumentBuilder` หรือเติมสนามในวิธีพิเศษ mail merge คนดูแลงาน นั่นคือตอนที่ [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) อาจจะมีประโยชน์ วิธีการยอมรับชื่อของสนามรวม มันย้ายเคอร์เซอร์ไปยังตําแหน่งที่อยู่เหนือสนามรวมที่ระบุไว้ และทําการรวมสนามออก ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีย้ายเคอร์เซอร์ไปยังตําแหน่ง ที่อยู่นอกเหนือสนามรวมที่ระบุ
+บางครั้งคุณอาจต้องดำเนินการ"คู่มือ"Mail Mergeโดยใช้`DocumentBuilder`หรือกรอกข้อมูลผสานในลักษณะพิเศษภายในMail Mergeตัวจัดการเหตุการณ์ นั่นคือเมื่อ[DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String)อาจมีประโยชน์ เมธอดยอมรับชื่อของฟิลด์ผสาน ย้ายเคอร์เซอร์ไปยังตำแหน่งที่เกินกว่าเขตข้อมูลผสานที่ระบุและเอาเขตข้อมูลผสาน ตัวอย่างรหัสต่อไปนี้แสดงวิธีการย้ายเคอร์เซอร์ไปยังตำแหน่งที่เกินกว่าเขตข้อมูลผสานที่.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 
-## วิธี แปลง หน่วย วัด
+## วิธีการแปลงระหว่างหน่วยวัด
 
-คุณสมบัติของออบเจกต์ส่วนใหญ่ที่ให้มา Aspose.Words API ที่แสดงถึงการวัดบางส่วน (ความกว้าง/ความสูง, ระยะขอบและระยะทางต่าง ๆ) ยอมรับค่าในจุด (1 นิ้วเท่ากับ 72 จุด) บางครั้งมันไม่สะดวก ดังนั้น `ConvertUtil` คลาสที่มีฟังก์ชันผู้ช่วยในการแปลงหน่วยวัดต่าง ๆ มันช่วยแปลงนิ้วเป็นจุด, ชี้นิ้ว, พิกเซลเป็นจุด และชี้เป็นพิกเซล เมื่อหน่วยเป็นจุด และในทางกลับกัน มันสามารถดําเนินการได้ที่ 96 จุดต่อนิ้ว (dots ต่อนิ้ว) มติ หรือที่มติที่ระบุไว้
+คุณสมบัติของวัตถุส่วนใหญ่ที่ให้ไว้ในAspose.WordsAPIที่แสดงถึงการวัด(ความกว้าง/ความสูงขอบและระยะทางต่างๆ)acceptค่าในจุด(1 นิ้วเท่ากับ 72 จุด) บางครั้งนี้ไม่สะดวกจึงมีชั้นเรียน`ConvertUtil`ที่ให้ฟังก์ชั่นผู้ช่วยในการแปลงระหว่างหน่วยวัดต่างๆ จะช่วยให้การแปลงนิ้วเป็นจุด,จุดนิ้วพิกเซลไปยังจุดและจุดที่จะพิกเซล เมื่อพิกเซลถูกแปลงเป็นจุดและในทางกลับกันก็สามารถทำได้ที่ความละเอียด 96 จุดต่อนิ้ว(จุด.
 
-**ConvertUtil** มีประโยชน์มากเมื่อตั้งค่าคุณสมบัติของหน้าที่แตกต่างกัน ตัวอย่างเช่น นิ้วเป็นหน่วยวัดปกติมากกว่าจุด ตัว อย่าง ต่อ ไป นี้ แสดง ให้ เห็น วิธี วาง คุณสมบัติ ของ หน้า เป็น นิ้ว.
+**ConvertUtil**
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีระบุคุณสมบัติของหน้ากระดาษในหน่วยนิ้ว
+ตัวอย่างโค้ดต่อไปนี้แสดงวิธีการระบุคุณสมบัติของหน้าเป็นนิ้ว.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ConvertBetweenMeasurementUnits-ConvertBetweenMeasurementUnits.java" >}}

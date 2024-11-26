@@ -1,4 +1,4 @@
-﻿---
+---
 title: 选择哪个PDF标准更好
 second_title: Aspose.Words对于C++
 articleTitle: 选择哪个PDF标准更好
@@ -7,6 +7,7 @@ description: "选择最佳的 PDF 标准来导出 C++ 编程任务的结果。�
 type: docs
 weight: 37
 url: /zh/cpp/which-pdf-standard-is-better-to-choose/
+timestamp: 2024-01-27-14-07-04
 ---
 
 对于某些任务，某些PDF标准将更适合，反之亦然。 在本文中，我们将尝试确定哪些PDF标准对于哪些情况下选择是有意义的。

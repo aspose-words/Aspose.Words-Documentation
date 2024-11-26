@@ -7,6 +7,7 @@ description: "Python を使用して、ドキュメント内のさまざまな�
 type: docs
 weight: 310
 url: /ja/python-net/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 新しい [insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) メソッドが [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) クラスに追加されました。それでは、[DocumentBuilder.insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) メソッドを使用して単純な縦棒グラフをドキュメントに挿入する方法を見てみましょう。

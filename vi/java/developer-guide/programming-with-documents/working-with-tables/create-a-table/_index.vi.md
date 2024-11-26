@@ -7,6 +7,7 @@ description: "Cách tạo bảng khác nhau trong tài liệu của bạn bằng
 type: docs
 weight: 20
 url: /vi/java/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words cho phép người dùng tạo bảng trong tài liệu từ đầu và cung cấp nhiều phương pháp khác nhau để làm điều đó. Bài viết này trình bày chi tiết cách thêm bảng có định dạng vào tài liệu của bạn bằng mỗi phương pháp, cũng như một sự so sánh về mỗi phương pháp ở cuối bài.

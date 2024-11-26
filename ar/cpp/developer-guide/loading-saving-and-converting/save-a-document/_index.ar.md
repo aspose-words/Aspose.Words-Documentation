@@ -1,4 +1,4 @@
-﻿---
+---
 title: حفظ مستند في C++
 second_title: Aspose.Words ل C++
 articleTitle: حفظ مستند
@@ -8,6 +8,7 @@ description: "احفظ مستندا بأي تنسيق مدعوم باستخدا�
 keywords: "save a document c++, save a document to file c++, save a document to stream c++, save a document Aspose C++, save formats supported by Aspose.Words C++"
 weight: 20
 url: /ar/cpp/save-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 تتضمن معظم المهام التي تحتاج إلى تنفيذها باستخدام Aspose.Words حفظ مستند. لحفظ مستند Aspose.Words يوفر طريقة [Save](https://reference.aspose.com/words/cpp/aspose.words/document/save/) لفئة [Document](https://reference.aspose.com/words/cpp/aspose.words/document/). يمكن حفظ المستند بأي تنسيق حفظ يدعمه Aspose.Words. للحصول على قائمة بجميع تنسيقات الحفظ المدعومة، راجع [SaveFormat](https://reference.aspose.com/words/cpp/aspose.words/saveformat/) تعداد.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Shape.Chart オブジェクトを使用したチャートの操作
 second_title: C++の場合Aspose.Words
 articleTitle: Shape.Chart オブジェクトを使用したチャートの操作
@@ -7,6 +7,7 @@ description: "詳細でチャート、どのようにチャートは、形状ノ
 type: docs
 weight: 10
 url: /ja/cpp/working-with-charts-through-shape-chart-object/
+timestamp: 2024-01-27-14-07-04
 ---
 
 グラフが挿入されてデータが入力されると、その外観を変更することができます。 `Shape.Chart`プロパティには、公開APIで使用可能なすべてのチャート関連オプションが含まれています。

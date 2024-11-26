@@ -7,6 +7,7 @@ description: "Aspose.Words עבור .NET ליישם את עצמו Windows שחק
 type: docs
 weight: 30
 url: /he/net/handling-windows-metafiles/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Windows פורמט metafile הוא פורמט קובץ תמונה שיכול להכיל הן וקטור גרפיקה. פורמט זה משמש לאחסון נתונים גרפיים בזיכרון או בקבצים על-דיסק. metafile שומרת רשימה של שיחות פונקציה Windows Graphics Device Interface (GDI) יש לבצע כדי להציג את התמונה על המסך. המערכת מפרשת ומוציאה פקודות אלה בהקשר התצוגה.

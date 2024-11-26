@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hoe Om Voorbeelde te gebruik
 second_title: Aspose.Words vir Java
 articleTitle: Hoe Om Voorbeelde te gebruik
@@ -7,6 +7,7 @@ description: "Hoe om Aspose.Words vir Android te hardloop via Java voorbeelde."
 type: docs
 weight: 70
 url: /af/java/how-to-use-the-examples/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Maak eers seker dat u die ADT bundel geïnstalleer het en dat u die nuutste weergawe van [Aspose.Words vir Android via Java](https://releases.aspose.com/words/androidjava/).

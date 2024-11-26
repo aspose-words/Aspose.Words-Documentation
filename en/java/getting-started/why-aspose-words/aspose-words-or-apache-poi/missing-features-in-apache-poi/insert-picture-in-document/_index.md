@@ -7,6 +7,7 @@ description: "Insert picture into a document. Apache POI does not provide an opp
 type: docs
 weight: 10
 url: /java/insert-picture-in-document/
+timestamp: 2024-01-31-14-23-37
 ---
 
 {{% alert color="primary" %}}

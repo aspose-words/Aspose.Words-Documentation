@@ -7,6 +7,7 @@ description: "Output a common data band withing a paragraph when building a repo
 type: docs
 weight: 10
 url: /java/working-with-common-data-bands/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A common data band is a data band which body starts and ends within paragraphs that belong to a single story or table cell.

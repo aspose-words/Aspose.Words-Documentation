@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chèn Và Nối Thêm Tài liệu vào C++
 second_title: Aspose.Words cho C++
 articleTitle: Chèn Và Nối Thêm Tài liệu
@@ -7,6 +7,7 @@ description: "Kết hợp các tài liệu thành một: chèn hoặc nối mộ
 type: docs
 weight: 80
 url: /vi/cpp/insert-and-append-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Đôi khi cần phải kết hợp nhiều tài liệu thành một. Bạn có thể thực hiện việc này theo cách thủ công hoặc bạn có thể sử dụng tính năng chèn hoặc nối Aspose.Words.
@@ -45,7 +46,7 @@ Ví dụ mã sau đây cho thấy cách chèn nội dung của tài liệu này 
 
 ### Chèn Một Tài Liệu Trong Mail Merge Hoạt động {#insert-a-document-during-mail-merge-operation}
 
-Bạn có thể chèn một tài liệu vào một trường hợp nhất trong một hoạt động mail merge. Ví dụ: mẫu mail merge có thể chứa trường hợp nhất như [Tóm tắt]. Nhưng trong tài liệu cuối cùng, bạn cần chèn nội dung thu được từ một tài liệu bên ngoài khác vào trường hợp nhất này. Để đạt được điều đó, bạn sẽ cần tạo một trình xử lý cho sự kiện hợp nhất.
+Bạn có thể chèn một tài liệu vào một trường hợp nhất trong một hoạt động mail merge. Ví dụ: mẫu Mail Merge có thể chứa trường hợp nhất như [Tóm tắt]. Nhưng trong tài liệu cuối cùng, bạn cần chèn nội dung thu được từ một tài liệu bên ngoài khác vào trường hợp nhất này. Để đạt được điều đó, bạn sẽ cần tạo một trình xử lý cho sự kiện hợp nhất.
 
 Ví dụ mã sau đây cho thấy cách tạo trình xử lý cho sự kiện hợp nhất để sử dụng nó sau này trong quá trình chèn:
 

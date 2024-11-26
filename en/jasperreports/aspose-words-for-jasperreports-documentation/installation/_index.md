@@ -1,4 +1,4 @@
-﻿---
+---
 title: Installation
 second_title: Aspose.Words for JasperReports
 articleTitle: Installation
@@ -7,6 +7,7 @@ description: "Aspose.Words for JasperReports works with JasperReports and Jasper
 type: docs
 weight: 60
 url: /jasperreports/installation/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

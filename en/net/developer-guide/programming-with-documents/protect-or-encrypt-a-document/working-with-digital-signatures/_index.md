@@ -7,6 +7,7 @@ description: "Digitally sign documents and detect, count, verify, and remove exi
 type: docs
 weight: 40
 url: /net/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A digital signature is a technological implementation of electronic signatures to sign documents and authenticate the signer to guarantee that a document has not been modified since it was signed. Each digital signature is unique for each signer because of following the PKI protocol to generate both public and private keys. Signing a document digitally means creating a signature using the signer's private key where a mathematical algorithm is used to encrypt the generated hash.

@@ -7,6 +7,7 @@ description: "Quản lý nội dung tài liệu nâng cao, cách tạo và thao 
 type: docs
 weight: 390
 url: /vi/net/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Trong Microsoft Word, bạn có thể tạo biểu mẫu bằng cách bắt đầu bằng mẫu và thêm các điều khiển nội dung, bao gồm hộp kiểm, hộp văn bản, bộ chọn ngày và danh sách thả xuống. Trong Aspose.Words, Thẻ tài liệu có cấu trúc hoặc kiểm soát nội dung từ bất kỳ tài liệu nào được tải vào Aspose.Words sẽ được nhập dưới dạng nút StructuredDocumentTag. Thẻ tài liệu có cấu trúc (SDT hoặc kiểm soát nội dung) cho phép nhúng ngữ nghĩa do khách hàng xác định cũng như hành vi và hình thức của nó vào tài liệu.

@@ -7,6 +7,7 @@ description: "Bekerja dengan tipografi Asia menggunakan Python. Sesuaikan Spasi 
 type: docs
 weight: 240
 url: /id/python-net/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Tipografi Asia adalah serangkaian opsi untuk paragraf teks dalam dokumen yang ditulis dalam bahasa Asia.

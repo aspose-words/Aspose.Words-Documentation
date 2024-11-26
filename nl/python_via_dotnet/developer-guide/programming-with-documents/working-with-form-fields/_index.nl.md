@@ -7,6 +7,7 @@ description: "Een formulierveld in een document invoegen, verkrijgen of formatte
 type: docs
 weight: 380
 url: /nl/python-net/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Een document met invullinten (velden) staat bekend als een formulier. U kunt bijvoorbeeld een registratieformulier aanmaken in Microsoft Word dat drop-down lijsten gebruikt waaruit gebruikers items kunnen selecteren. De `Form` veld is een locatie waar een bepaald type gegevens, zoals een naam of adres, wordt opgeslagen. Vorm velden in Microsoft Word bevatten tekstinvoer, combobox en selectievakje.

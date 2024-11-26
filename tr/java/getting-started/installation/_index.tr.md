@@ -7,6 +7,7 @@ description: "Aspose.Words yükle Java için Maven deposundan. Pom.xml dosyanız
 type: docs
 weight: 10
 url: /tr/java/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Başlamadan önce makinenin [system requirements](/words/java/system-requirements/)'i karşıladığından emin olun.

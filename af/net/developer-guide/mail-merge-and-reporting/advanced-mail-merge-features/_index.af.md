@@ -1,26 +1,27 @@
-﻿---
+---
 title: Gevorderde Mail Merge Funksies in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Gevorderde Mail Merge Funksies
 linktitle: Gevorderde Mail Merge Funksies
 type: docs
-description: "Aspose.Words vir .NET bied'n paar gevorderde mail merge funksies wat jou toelaat om verdere mail merge aanpassing uit te voer met behulp van C#. Byvoorbeeld, die verkryging van inligting oor sjabloon struktuur, die opstel van reëls, skoonmaak na'n mail merge operasie, en ander."
-keywords: "use advanced mail merge features c#"
+description: "Aspose.Words vir .NET bied'n paar gevorderde Mail Merge funksies wat jou toelaat om verdere Mail Merge aanpassing uit te voer met behulp van C#. Byvoorbeeld, die verkryging van inligting oor sjabloon struktuur, die opstel van reëls, skoonmaak na'n Mail Merge operasie, en ander."
+keywords: "use advanced Mail Merge features c#"
 weight: 50
 url: /af/net/advanced-mail-merge-features/
+timestamp: 2024-07-11-08-07-06
 ---
 
-Aspose.Words bied'n paar addisionele mail merge eienskappe en metodes wat jou toelaat om verdere aanpassing van die mail merge proses uit te voer in eenvoudige mail merge of mail merge met streke.
+Aspose.Words bied'n paar addisionele Mail Merge eienskappe en metodes wat jou toelaat om verdere aanpassing van die Mail Merge proses uit te voer in eenvoudige Mail Merge of Mail Merge met streke.
 
-Gevorderde mail merge funksies sluit in, maar is nie beperk tot, die verkryging van inligting oor sjabloon struktuur voor die uitvoering van'n mail merge operasie, die opstel van reëls vir'n mail merge operasie, en skoonmaak tydens'n mail merge operasie. Hierdie artikel dek slegs'n paar eienskappe en voorbeelde om u te wys hoe u gevorderde funksies kan gebruik.
+Gevorderde Mail Merge funksies sluit in, maar is nie beperk tot, die verkryging van inligting oor sjabloon struktuur voor die uitvoering van'n Mail Merge operasie, die opstel van reëls vir'n Mail Merge operasie, en skoonmaak tydens'n Mail Merge operasie. Hierdie artikel dek slegs'n paar eienskappe en voorbeelde om u te wys hoe u gevorderde funksies kan gebruik.
 
 ## Stel Reëls vir Mail Merge Bedrywighede
 
-Deur reëls by u sjabloon te voeg, kan u die werkvloeiproses meer effektief en buigsaam maak. Deur mail merge reëls te gebruik, kan jy inhoud opstel wat vinnig verander kan word en die behoefte om verskeie dokumente te genereer, vermy.
+Deur reëls by u sjabloon te voeg, kan u die werkvloeiproses meer effektief en buigsaam maak. Deur Mail Merge reëls te gebruik, kan jy inhoud opstel wat vinnig verander kan word en die behoefte om verskeie dokumente te genereer, vermy.
 
-Aspose.Words laat jou toe om die mail merge aan te pas gebaseer op reëls wat loop wanneer jy die mail merge operasie en beheer samesmelting inligting uit te voer. Byvoorbeeld, wanneer jy'n e-pos of'n brief skep om aan al jou kliënte te stuur. U kan'n reël opstel sodat die brief verskillende data kan bevat op grond van die verskillende waardes in sekere velde van u databron.
+Aspose.Words laat jou toe om die Mail Merge aan te pas gebaseer op reëls wat loop wanneer jy die Mail Merge operasie en beheer samesmelting inligting uit te voer. Byvoorbeeld, wanneer jy'n e-pos of'n brief skep om aan al jou kliënte te stuur. U kan'n reël opstel sodat die brief verskillende data kan bevat op grond van die verskillende waardes in sekere velde van u databron.
 
-Kyk na'n paar mail merge reëls wat jy kan implementeer.
+Kyk na'n paar Mail Merge reëls wat jy kan implementeer.
 
 ### Implementeer die Volgende veld om saam te Smelt Data Rekords in die Huidige Dokument
 
@@ -47,7 +48,7 @@ Aspose.Words laat jou toe om verskillende inligting in jou sjabloon te versamel 
 
 ### Kry Saamvoeg Veldname
 
-U kan'n scenario teëkom waar u data wil saamsmelt met samesmeltingsvelde wat deur ander geskep word, en in hierdie geval sal u nie seker wees oor die presiese name van samesmeltingsvelde nie. Dus, om die mail merge doel te bereik, moet u eers die name van alle samesmeltingsvelde lees en vertoon. Aspose.Words laat jou toe om'n versameling van merge veld name te kry met behulp van die [GetFieldNames](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getfieldnames/) metode.
+U kan'n scenario teëkom waar u data wil saamsmelt met samesmeltingsvelde wat deur ander geskep word, en in hierdie geval sal u nie seker wees oor die presiese name van samesmeltingsvelde nie. Dus, om die Mail Merge doel te bereik, moet u eers die name van alle samesmeltingsvelde lees en vertoon. Aspose.Words laat jou toe om'n versameling van merge veld name te kry met behulp van die [GetFieldNames](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getfieldnames/) metode.
 
 Die volgende kode voorbeeld toon hoe om name van alle samesmelting velde in die sjabloon te kry:
 
@@ -71,7 +72,7 @@ Jy kan dit aflaai die voorbeeld lêer van hierdie voorbeeld van [Aspose.Words Gi
 
 ### Voeg Gemapte Velde By
 
-Aspose.Words laat jou toe om outomaties name van velde in jou databron en name van mail merge velde in die sjabloon te karteer deur die [MappedDataFields](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/mappeddatafields/) eienskap te gebruik. Byvoorbeeld, as jy'n veldnaam genaamd "Van" in jou sjabloon het, en in jou databron het jy die veldnaam "Van" of'n ander variasie soos "Last_Name" of "LastName", dan sal die veld in die databron outomaties na die ooreenstemmende gekarteerde veld karteer. As'n samesmelting sjabloon saamgesmelt moet word met baie databronne, maak gemapte velde dit onnodig om die velde weer in die sjabloon in te voer om saam te stem met die veld name in die databasis.
+Aspose.Words laat jou toe om outomaties name van velde in jou databron en name van Mail Merge velde in die sjabloon te karteer deur die [MappedDataFields](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/mappeddatafields/) eienskap te gebruik. Byvoorbeeld, as jy'n veldnaam genaamd "Van" in jou sjabloon het, en in jou databron het jy die veldnaam "Van" of'n ander variasie soos "Last_Name" of "LastName", dan sal die veld in die databron outomaties na die ooreenstemmende gekarteerde veld karteer. As'n samesmelting sjabloon saamgesmelt moet word met baie databronne, maak gemapte velde dit onnodig om die velde weer in die sjabloon in te voer om saam te stem met die veld name in die databasis.
 
 Die volgende kode voorbeeld toon hoe om'n gemapte veld te voeg met behulp van die [Add](https://reference.aspose.com/words/net/aspose.words.mailmerging/mappeddatafieldcollection/add/) metode wanneer'n samesmelting veld in'n sjabloon en'n data veld in'n data bron het verskillende name:
 

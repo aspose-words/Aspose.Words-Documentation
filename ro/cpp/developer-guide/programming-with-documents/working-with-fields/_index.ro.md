@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu câmpuri în C++
 second_title: Aspose.Words pentru C++
 articleTitle: Lucrul cu câmpuri
@@ -7,6 +7,7 @@ description: "Introducere în funcția de câmp în Aspose.Words pentru C++."
 type: docs
 weight: 370
 url: /ro/cpp/working-with-fields/
+timestamp: 2024-01-30-16-22-34
 ---
 
 **Câmpuri**

@@ -7,6 +7,7 @@ description: "Ekstrak berbagai objek grafis, seperti gambar, kotak teks yang men
 type: docs
 weight: 40
 url: /id/java/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ketika memproses dokumen, tugas umum adalah untuk mengekstrak semua gambar yang ditemukan dalam dokumen dan mengekspornya ke lokasi eksternal. Tugas ini menjadi sederhana dengan Meme it Aspose.Words API, yang sudah menyediakan fungsi untuk mengekstrak dan menyimpan data gambar. Namun, kadang-kadang Anda mungkin ingin mengekstrak jenis konten grafis lain yang diwakili oleh berbagai jenis objek gambar, misalnya, kotak teks yang mengandung paragraf, bentuk panah, dan gambar kecil. Tidak ada cara mudah rendering objek ini karena merupakan kombinasi dari elemen konten individu. Anda juga dapat menemukan kasus ketika konten telah dikelompokkan bersama ke dalam objek yang terlihat seperti gambar tunggal.
@@ -39,7 +40,7 @@ Jenis bentuk yang dijelaskan di atas memberikan metode khusus untuk membuat bent
 
 {{% alert color="primary" %}}
 
-Saat membuat <span notrans="<span notrans=" **Shape**"=""></span>Sitemap itu harus menjadi bagian dari hierarki dokumen. Sitemap **Shape** bukan bagian dari pohon dokumen maka output yang diberikan akan kosong setelah panggilan **ShapeRenderer** Login
+Saat membuat **Shape**Sitemap itu harus menjadi bagian dari hierarki dokumen. Sitemap **Shape** bukan bagian dari pohon dokumen maka output yang diberikan akan kosong setelah panggilan **ShapeRenderer** Login
 
 {{% /alert %}}
 

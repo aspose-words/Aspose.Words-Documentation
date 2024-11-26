@@ -1,4 +1,4 @@
-﻿---
+---
 title: العمل مع الحقول في C++
 second_title: Aspose.Words ل C++
 articleTitle: العمل مع الحقول
@@ -7,6 +7,7 @@ description: "مقدمة في ميزة الحقل في Aspose.Words ل C++."
 type: docs
 weight: 370
 url: /ar/cpp/working-with-fields/
+timestamp: 2024-01-30-16-22-34
 ---
 
 **الحقول**

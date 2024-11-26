@@ -7,6 +7,7 @@ description: "قم بإنشاء العلامات المائية وإدارتها
 type: docs
 weight: 340
 url: /ar/python-net/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 يناقش هذا الموضوع كيفية العمل برمجيًا مع العلامة المائية باستخدام Aspose.Words. العلامة المائية هي صورة خلفية يتم عرضها خلف النص في المستند. يمكن أن تحتوي العلامة المائية على نص أو صورة ممثلة بفئة [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/).

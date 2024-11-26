@@ -1,4 +1,4 @@
-﻿---
+---
 title: 콘텐츠 제어 작업 SDT
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 콘텐츠 제어 작업 SDT
@@ -7,6 +7,7 @@ type: docs
 description: "고급 문서 콘텐츠 관리,다음을 사용하여 콘텐츠 컨트롤(구조화된 문서 태그)을 만들고 조작하는 방법 C++."
 weight: 390
 url: /ko/cpp/structured-document-tags-or-content-control/
+timestamp: 2024-01-27-14-07-04
 ---
 
 그 안에 Microsoft Word,템플릿으로 시작하여 확인란,텍스트 상자,날짜 선택기 및 드롭다운 목록을 포함한 콘텐츠 컨트롤을 추가하여 양식을 만들 수 있습니다. 그 안에 Aspose.Words,구조화된 문서 태그 또는 로드된 모든 문서의 콘텐츠 제어 Aspose.Words 수입되는 StructuredDocumentTag 노드 구조화된 문서 태그(SDT 또는 콘텐츠 제어)를 통해 고객 정의 된 의미 체계와 그 동작 및 모양을 문서에 포함 할 수 있습니다. StructuredDocumentTag 다음 위치에서 문서에서 발생할 수 있습니다:

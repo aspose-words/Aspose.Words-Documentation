@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm Việc Với Các Bình luận trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm Việc Với Các Bình Luận
@@ -7,6 +7,7 @@ description: "Làm việc với các bình luận bằng cách sử dụng C++."
 type: docs
 weight: 260
 url: /vi/cpp/working-with-comments/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

@@ -7,6 +7,7 @@ description: "Запис на вашия документ във всеки по
 type: docs
 weight: 30
 url: /bg/python-net/supported-features-on-document-save/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words има някои от най-напредналите формати за преобразуване на общата дума.

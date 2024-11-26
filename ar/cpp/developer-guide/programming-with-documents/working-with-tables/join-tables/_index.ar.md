@@ -1,4 +1,4 @@
-﻿---
+---
 title: انضم إلى الجداول في C++
 second_title: Aspose.Words ل C++
 articleTitle: انضم إلى الجداول
@@ -7,6 +7,7 @@ description: "التلاعب الجدول المتقدمة. كيفية دمج ج
 type: docs
 weight: 90
 url: /ar/cpp/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 يتكون الجدول، الممثل في نموذج كائن المستند Aspose.Words، من صفوف وخلايا مستقلة، مما يسهل ربط الجداول.

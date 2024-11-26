@@ -1,4 +1,4 @@
-﻿---
+---
 title: 하이퍼링크 작업 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 하이퍼링크 추가 또는 수정
@@ -7,6 +7,7 @@ description: "다음을 사용하여 문서에 하이퍼링크를 추가하는 �
 type: docs
 weight: 180
 url: /ko/cpp/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 하이퍼링크 Microsoft Word 문서는 `HYPERLINK` 필드 그 안에 Aspose.Words,하이퍼링크는 [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/) 수업

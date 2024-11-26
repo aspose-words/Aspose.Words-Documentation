@@ -7,6 +7,7 @@ description: "Cài đặt Aspose.Words cho Android thông qua Java."
 type: docs
 weight: 60
 url: /vi/java/licensing-android/
+timestamp: 2024-02-02-12-07-36
 ---
 
 Đôi khi để học hệ thống tốt hơn, bạn muốn nhảy xuống mã nhanh nhất có thể. Để giúp điều này dễ dàng hơn, Aspose.Words cung cấp các gói khác nhau cho việc mua hoặc cung cấp một thử nghiệm miễn phí và giấy phép tạm thời 30 ngày để đánh giá.

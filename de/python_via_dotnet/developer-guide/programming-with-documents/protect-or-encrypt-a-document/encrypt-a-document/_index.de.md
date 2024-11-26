@@ -7,6 +7,7 @@ description: "Verschlüsseln Sie Ihr Dokument mit geeigneten Verschlüsselungsal
 type: docs
 weight: 20
 url: /de/python-net/encrypt-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Bei der Verschlüsselung handelt es sich um den Prozess, der lesbaren Text in bedeutungslose Bytesequenzen übersetzt, sodass er nur von der Person gelesen werden kann, die über den Entschlüsselungsschlüssel oder den Geheimcode verfügt. Dieser Prozess spielt eine wichtige Rolle bei der Sicherung Ihrer Inhalte. Es hilft, den Inhalt zu verschlüsseln, die Herkunft eines Dokuments zu überprüfen, nachzuweisen, dass der Inhalt nach dem Senden nicht geändert wurde, und sicherzustellen, dass die Daten aus dem Dokument sicher sind.

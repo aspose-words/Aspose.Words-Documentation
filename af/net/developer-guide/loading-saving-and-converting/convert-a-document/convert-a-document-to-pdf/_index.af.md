@@ -1,4 +1,4 @@
-﻿---
+---
 title: Omskep Woord na PDF in C#
 second_title: Aspose.Words vir .NET
 articleTitle: Skakel'n Dokument om na PDF
@@ -7,6 +7,7 @@ description: "Skakel'n dokument om na PDF met C#. Omskep DOCX na PDF C#. Verskei
 type: docs
 weight: 10
 url: /af/net/convert-a-document-to-pdf/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Die vermoë om dokumente maklik en betroubaar van een formaat na'n ander te omskep, is'n belangrike kenmerk van Aspose.Words. Een van die mees gewilde formate vir die omskakeling is PDF – 'n vaste uitleg-formaat, wat bewaar die oorspronklike voorkoms van'n dokument tydens sy lewering op verskeie platforms. Die "lewering" term word gebruik in Aspose.Words om te beskryf die proses van die omskakeling van'n dokument in'n lêer formaat wat is gepagineer of het die konsep van die bladsye.

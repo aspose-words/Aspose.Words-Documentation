@@ -7,6 +7,7 @@ description: "Specifica le opzioni di layout per vari layout di documenti utiliz
 type: docs
 weight: 10
 url: /it/python-net/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words consente di creare documenti di output con vari layout, a seconda dei parametri specificati nelle proprietà della classe [LayoutOptions](https://reference.aspose.com/words/python-net/aspose.words.layout/layoutoptions/). Alcune di queste proprietà assomigliano ad alcune opzioni del menu dell'interfaccia utente Microsoft Word: verranno descritte in questo articolo.

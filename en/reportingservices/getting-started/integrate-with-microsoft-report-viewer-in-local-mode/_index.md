@@ -7,6 +7,7 @@ description: "How to render reports using built-in engine of the report viewer a
 type: docs
 weight: 40
 url: /reportingservices/integrate-with-microsoft-report-viewer-in-local-mode/
+timestamp: 2024-11-13-12-00-30
 ---
 
 {{% alert color="primary" %}}

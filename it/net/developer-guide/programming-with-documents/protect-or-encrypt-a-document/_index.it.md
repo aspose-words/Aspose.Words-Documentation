@@ -7,6 +7,7 @@ description: "Aspose.Words per .NET fornisce Sola lettura, Crittografa un docume
 type: docs
 weight: 50
 url: /it/net/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Il motivo principale per proteggere o crittografare un documento è applicare un maggiore controllo su chi può accedere al documento o chi può modificarlo. Applicando la protezione ai tuoi documenti, eviti rischi comuni come la copia o la modifica di documenti senza autorizzazione, nonché la fuga di dati.

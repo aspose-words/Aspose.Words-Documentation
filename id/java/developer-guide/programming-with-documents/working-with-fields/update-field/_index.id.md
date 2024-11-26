@@ -7,6 +7,7 @@ description: "Pelajari cara memperbarui bidang di JavaSitemap Memperbarui bidang
 type: docs
 weight: 30
 url: /id/java/update-field/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Biasanya, lapangan dimasukkan ke dalam Microsoft Word sudah berisi nilai up to date. Misalnya, jika field adalah formula atau nomor halaman, itu akan berisi nilai dihitung yang benar untuk versi dokumen yang diberikan. Tetapi jika Anda memiliki aplikasi yang menghasilkan atau memodifikasi dokumen dengan bidang seperti menggabungkan dua dokumen atau mengisinya dengan data, maka idealnya semua bidang harus diperbarui untuk dokumen yang berguna.
@@ -18,7 +19,7 @@ Ketika dokumen dimuat, Aspose.Words meniru perilaku Microsoft Word dengan opsi u
 - ketika Anda membuka / menyimpan dokumen kolom tetap utuh
 - Anda dapat secara eksplisit memperbarui semua bidang dalam dokumen, misalnya, membangun kembali `TOC` ketika Anda perlu
 - ketika Anda mencetak / render ke PDF atau XPS bidang yang terkait dengan jumlah halaman di header/footer diperbarui
-- ketika Anda menjalankan mail merge semua bidang diperbarui secara otomatis
+- ketika Anda menjalankan Mail Merge semua bidang diperbarui secara otomatis
 
 ### Memperbarui Bidang Programmatically
 
@@ -36,11 +37,11 @@ Contoh berikut menunjukkan bagaimana untuk memperbarui semua bidang sebelum memb
 
 ### Pembaruan Lapangan Otomatis selama Mail Merge
 
-Ketika Anda mengeksekusi <span notrans="<span notrans=" mail merge"=""></span>Sitemap semua bidang dalam dokumen akan diperbarui secara otomatis. Ini karena mail merge adalah kasus pembaruan lapangan. Program ini menemukan program mail merge lapangan dan perlu untuk memperbarui hasilnya, yang melibatkan mengambil nilai dari sumber data dan memasukkannya ke dalam bidang. Logika adalah, tentu saja, lebih rumit, misalnya, ketika akhir dokumen/mail merge daerah tercapai tetapi masih ada data lebih lanjut untuk digabungkan, maka wilayah perlu digali dan set baru bidang yang diperbarui.
+Ketika Anda mengeksekusi mail mergeSitemap semua bidang dalam dokumen akan diperbarui secara otomatis. Ini karena Mail Merge adalah kasus pembaruan lapangan. Program ini menemukan program Mail Merge lapangan dan perlu untuk memperbarui hasilnya, yang melibatkan mengambil nilai dari sumber data dan memasukkannya ke dalam bidang. Logika adalah, tentu saja, lebih rumit, misalnya, ketika akhir dokumen/mail merge daerah tercapai tetapi masih ada data lebih lanjut untuk digabungkan, maka wilayah perlu digali dan set baru bidang yang diperbarui.
 
 ## Update lapangan setelah kotor attribute
 
-W:dirty adalah atribut tingkat lapangan yang akan menyegarkan hanya bidang yang Anda tentukan ketika dokumen dibuka. Ini memberi tahu MS Word hanya menyegarkan bidang ini dokumen berikutnya dibuka. Anda dapat menggunakan properti LoadOptions.setUpdateDirtyFields() untuk menentukan apakah untuk memperbarui bidang dengan atribut kotor. Ketika nilai LoadOptions.setUpdateDirtyFields() diatur untuk <span notrans="<span notrans=" *true*"=""></span>Sitemap semua bidang yang memiliki *true* nilai untuk `Field.IsDirty` Sitemap `FieldChar.IsDirty` properti diperbarui pada beban dokumen
+W:dirty adalah atribut tingkat lapangan yang akan menyegarkan hanya bidang yang Anda tentukan ketika dokumen dibuka. Ini memberi tahu MS Word hanya menyegarkan bidang ini dokumen berikutnya dibuka. Anda dapat menggunakan properti LoadOptions.setUpdateDirtyFields() untuk menentukan apakah untuk memperbarui bidang dengan atribut kotor. Ketika nilai LoadOptions.setUpdateDirtyFields() diatur untuk *true* Sitemap semua bidang yang memiliki *true* nilai untuk `Field.IsDirty` Sitemap `FieldChar.IsDirty` properti diperbarui pada beban dokumen
 
 Contoh kode berikut menunjukkan bagaimana untuk memperbarui bidang memiliki atribut kotor:
 

@@ -7,6 +7,7 @@ description: "Load a document from a stream easily and fast instead of using Ope
 type: docs
 weight: 20
 url: /net/open-a-word-processing-document-from-a-stream/
+timestamp: 2024-01-27-14-07-04
 ---
 
 On this page we will look at how to load a document from a stream using Aspose.Words or Open XML SDK.

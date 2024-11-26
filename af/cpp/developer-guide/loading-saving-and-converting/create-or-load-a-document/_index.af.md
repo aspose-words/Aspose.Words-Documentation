@@ -1,4 +1,4 @@
-﻿---
+---
 title: Skep Of Laai'n Dokument in C++
 second_title: Aspose.Words vir C++
 articleTitle: Skep Of Laai'n Dokument
@@ -8,6 +8,7 @@ description: "Skep'n leë dokument of laai dit vanaf'n lêer of stroom met C++."
 keywords: "create a document c++, load a document c++, create a blank document c++, load a document from file c++, load a document from stream c++, create a document Aspose C++, load a document Aspose C++, load formats supported by Aspose.Words C++"
 weight: 10
 url: /af/cpp/create-or-load-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Byna enige taak wat u met Aspose.Words wil uitvoer, behels die laai van'n dokument. Die `Document` klas verteenwoordig'n dokument gelaai in die geheue. Die dokument het verskeie oorlaai konstruktors sodat jy'n leë dokument te skep of om dit te laai van'n lêer of stroom. Die dokument kan gelaai word in enige laai formaat ondersteun deur Aspose.Words. Vir die lys van alle ondersteun vrag formate, sien die [LoadFormat](https://reference.aspose.com/words/cpp/aspose.words/loadformat/) opsomming.

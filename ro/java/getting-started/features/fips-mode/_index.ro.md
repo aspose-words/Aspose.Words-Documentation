@@ -1,4 +1,4 @@
-﻿---
+---
 title: FIPS mod
 second_title: Aspose.Words pentru Java
 articleTitle: FIPS mod
@@ -7,6 +7,7 @@ description: "Aspose.Words pentru Java utilizează mai multe algoritmi de cripto
 type: docs
 weight: 80
 url: /ro/java/fips-mode/
+timestamp: 2024-05-08-10-19-58
 ---
 
 Aspose.Words folosește mai mulți algoritmi de criptografie și hash atunci când procesează documente și acest articol descrie modul în care este legat de standardele FIPS.

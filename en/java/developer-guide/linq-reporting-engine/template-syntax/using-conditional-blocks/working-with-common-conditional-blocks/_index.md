@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Common Conditional Blocks in Java
 second_title: Aspose.Words for Java
 articleTitle: Working with Common Conditional Blocks
@@ -7,6 +7,7 @@ description: "Use common conditional blocks within paragraphs to represent the s
 type: docs
 weight: 10
 url: /java/working-with-common-conditional-blocks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A common conditional block is a conditional block which body starts and ends within paragraphs that belong to a single story or table cell.

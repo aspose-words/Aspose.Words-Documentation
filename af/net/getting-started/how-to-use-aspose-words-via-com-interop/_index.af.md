@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words vir .NET deur COM Interop
 second_title: Aspose.Words vir .NET
 articleTitle: Hoe Om Te Gebruik Aspose.Words vir .NET deur COM Interop
@@ -7,6 +7,7 @@ type: docs
 description: "Gebruik Aspose.Words vir .NET deur COM Interop in Python, PHP, VBScript, JScript, en ander programmeertale."
 weight: 130
 url: /af/net/how-to-use-aspose-words-via-com-interop/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Die inligting in hierdie onderwerp is van toepassing op scenario's waar jy wil gebruik Aspose.Words vir .NET via COM Interop in enige van die volgende programmeertale:

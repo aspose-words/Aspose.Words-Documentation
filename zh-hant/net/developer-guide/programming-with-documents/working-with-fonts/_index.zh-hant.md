@@ -7,6 +7,7 @@ description: "在細節中使用C#進行字體格式化。 C#中的強調標記�
 type: docs
 weight: 230
 url: /zh-hant/net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 字體是一組具有特定大小、顏色和設計的特定字符。Aspose.Words 讓您能透過 [Fonts](https://reference.aspose.com/words/net/aspose.words.fonts/) 命名空間和 [Font](https://reference.aspose.com/words/net/aspose.words/font/) 類別來工作。

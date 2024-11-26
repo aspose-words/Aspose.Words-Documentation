@@ -7,6 +7,7 @@ description: "Insert picture into a document. NPOI does not provide an opportuni
 type: docs
 weight: 30
 url: /net/insert-picture-in-document/
+timestamp: 2024-01-31-14-23-37
 ---
 
 {{% alert color="primary" %}}

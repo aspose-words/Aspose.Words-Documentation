@@ -1,4 +1,4 @@
-﻿---
+---
 title: کار با برچسب Chart Data در C++
 second_title: Aspose.Words برای C++
 articleTitle: کار با برچسب داده نمودار
@@ -7,6 +7,7 @@ description: "تنظیم برچسب داده نمودار با استفاده ا
 type: docs
 weight: 30
 url: /fa/cpp/working-with-chart-data-label/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words به کاربران اجازه می دهد تا با ChartDataLabel به روش های مختلف کار کنند.

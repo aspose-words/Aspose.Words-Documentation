@@ -7,6 +7,7 @@ description: "Akses dan kelola gaya dan tema dalam dokumen menggunakan Python."
 type: docs
 weight: 110
 url: /id/python-net/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Kelas [StyleCollection](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/) digunakan untuk mengelola bawaan dan menerapkan pengaturan yang ditentukan pengguna ke gaya.

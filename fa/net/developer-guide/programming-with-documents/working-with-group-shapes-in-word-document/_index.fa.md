@@ -7,6 +7,7 @@ description: "Group کردن و گروه بندی کردن اشکال با اس�
 type: docs
 weight: 290
 url: /fa/net/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 گاهی اوقات لازم است یک group shape را به یک سند Word اضافه کنید. چنین group shape از چندین شکل تشکیل شده است.

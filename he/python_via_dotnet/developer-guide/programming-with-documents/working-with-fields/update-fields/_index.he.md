@@ -7,6 +7,7 @@ description: "שדות עדכון במסמך בדרכים שונות ושימו�
 type: docs
 weight: 30
 url: /he/python-net/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 בדרך כלל, שדה מוכנס לתוך Microsoft Word כבר מכיל ערך עדכני. לדוגמה, אם השדה הוא נוסחה או מספר דף, הוא יכיל את הערך הרצוי הנכון לגרסה נתונה של המסמך. אבל אם יש לך יישום אשר יוצר או משנה מסמך עם שדות כמו מיזוג שני מסמכים או המאוכלס אותו עם נתונים, אז באופן אידיאלי כל התחומים חייבים להיות מעודכנים עבור המסמך להיות שימושי.
@@ -18,7 +19,7 @@ url: /he/python-net/update-fields/
 - כאשר אתה פותח / שומר מסמך שהשדות נשארים שלמים
 - אתה יכול לעדכן במפורש את כל התחומים במסמך (למשל לבנות מחדש את TOC) כאשר אתה צריך
 - בעת הדפסה / חזרה ל- PDF או XPS השדות הקשורים למספר העמודים ב Headers/footers מעודכנים
-- כאשר אתה מבצע mail merge כל התחומים מעודכנים באופן אוטומטי
+- כאשר אתה מבצע Mail Merge כל התחומים מעודכנים באופן אוטומטי
 
 ### עדכון שדות
 
@@ -42,11 +43,11 @@ url: /he/python-net/update-fields/
 
 ### עדכון שדה אוטומטי במהלך Mail Merge
 
-כשאתם מבצעים <span notrans="<span notrans=" mail merge"=""></span>" כל התחומים במסמך מעודכנים באופן אוטומטי. הסיבה לכך היא mail merge זה מקרה של עדכון שדה. התוכנית פוגשת mail merge שדה וצריכה לעדכן את התוצאה שלה, אשר כרוך לתפוס את הערך ממקור הנתונים ולהכניס אותו לתחום. ההיגיון הוא כמובן מורכב יותר, למשל, כאשר סוף המסמך /mail merge האזור מגיע אבל יש עדיין נתונים נוספים להתמזג, אז האזור צריך להיות משוכפל ואת מערכת שדות חדשה מעודכן.
+כשאתם מבצעים mail merge" כל התחומים במסמך מעודכנים באופן אוטומטי. הסיבה לכך היא Mail Merge זה מקרה של עדכון שדה. התוכנית פוגשת Mail Merge שדה וצריכה לעדכן את התוצאה שלה, אשר כרוך לתפוס את הערך ממקור הנתונים ולהכניס אותו לתחום. ההיגיון הוא כמובן מורכב יותר, למשל, כאשר סוף המסמך /mail merge האזור מגיע אבל יש עדיין נתונים נוספים להתמזג, אז האזור צריך להיות משוכפל ואת מערכת שדות חדשה מעודכן.
 
 ## עקבו אחרי Dirty Attribute
 
-Wdirty הוא תכונה ברמה שדה כי יהיה לרענן רק את השדה שאתה מציין כאשר המסמך נפתח. זה אומר ל-MS Word רק לרענן שדה זה בפעם הבאה שהמסמכים נפתחים. אתה יכול להשתמש [update_dirty_fields](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/update_dirty_fields/) רכוש כדי לציין אם לעדכן את התחומים עם התכונה המלוכלכת. כאשר הערך של **תגית: Dirty_fields** מוגדר <span notrans="<span notrans=" `True`"=""></span>" לכל התחומים יש `True` ערך [Field.is_dirty](https://reference.aspose.com/words/python-net/aspose.words.fields/field/is_dirty/) או [FieldChar.is_dirty](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldchar/is_dirty/) נכסים מעודכנים על עומס המסמכים.
+Wdirty הוא תכונה ברמה שדה כי יהיה לרענן רק את השדה שאתה מציין כאשר המסמך נפתח. זה אומר ל-MS Word רק לרענן שדה זה בפעם הבאה שהמסמכים נפתחים. אתה יכול להשתמש [update_dirty_fields](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/update_dirty_fields/) רכוש כדי לציין אם לעדכן את התחומים עם התכונה המלוכלכת. כאשר הערך של **תגית: Dirty_fields** מוגדר `True`" לכל התחומים יש `True` ערך [Field.is_dirty](https://reference.aspose.com/words/python-net/aspose.words.fields/field/is_dirty/) או [FieldChar.is_dirty](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldchar/is_dirty/) נכסים מעודכנים על עומס המסמכים.
 
 הדוגמה הבאה של הקוד מראה כיצד לעדכן שדות שיש להם את התכונה המלוכלכת:
 

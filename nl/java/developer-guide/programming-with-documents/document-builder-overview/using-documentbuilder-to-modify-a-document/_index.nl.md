@@ -1,12 +1,13 @@
 ---
-title: Gebruik `DocumentBuilder` Een document wijzigen
+title: Gebruik DocumentBuilder Een document wijzigen
 second_title: Aspose.Words voor Java
-articleTitle: Gebruik `DocumentBuilder` Een document wijzigen
-linktitle: Gebruik `DocumentBuilder` Een document wijzigen
+articleTitle: Gebruik DocumentBuilder Een document wijzigen
+linktitle: Gebruik DocumentBuilder Een document wijzigen
 type: docs
 description: "Gebruik de documentbouwer om een document eenvoudig te wijzigen in Java."
 weight: 20
 url: /nl/java/using-documentbuilder-to-modify-a-document/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Opmaak specificeren
@@ -203,7 +204,7 @@ Nieuwe tekst op deze manier invoegen vervangt niet de bestaande tekst van de bla
 
 ### Verplaatsen naar een `Merge` Veld
 
-Soms moet u een "handleiding" mail merge gebruik `DocumentBuilder` of vul een merge veld op een speciale manier in een mail merge Event handler. Dat is wanneer [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) Kan nuttig zijn. De methode accepteert de naam van het mergeveld. Het verplaatst de cursor naar een positie net voorbij het opgegeven merge veld en verwijdert het merge veld. Het volgende voorbeeld van code laat zien hoe je de cursor naar een positie verplaatst net voorbij het opgegeven merge veld.
+Soms moet u een "handleiding" Mail Merge gebruik `DocumentBuilder` of vul een merge veld op een speciale manier in een Mail Merge Event handler. Dat is wanneer [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) Kan nuttig zijn. De methode accepteert de naam van het mergeveld. Het verplaatst de cursor naar een positie net voorbij het opgegeven merge veld en verwijdert het merge veld. Het volgende voorbeeld van code laat zien hoe je de cursor naar een positie verplaatst net voorbij het opgegeven merge veld.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 

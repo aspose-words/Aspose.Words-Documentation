@@ -7,6 +7,7 @@ description: "מבוא לעצב שפת סימון, יצירת צורות של ס
 type: docs
 weight: 280
 url: /he/net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 נושא זה דן כיצד לעבוד באופן מתודולוגי עם צורות באמצעות Aspose.Words.

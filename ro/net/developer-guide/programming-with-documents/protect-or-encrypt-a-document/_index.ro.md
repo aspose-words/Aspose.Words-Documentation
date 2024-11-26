@@ -7,6 +7,7 @@ description: "Aspose.Words pentru .NET oferă citire doar, criptare a unui docum
 type: docs
 weight: 50
 url: /ro/net/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Motivul principal pentru protejarea sau criptarea unui document este să aplicăm mai mult control asupra celor care pot accesa documentul sau cei care îl pot edita. Aplicând protecția asupra documentelor tale, eviți riscuri comune precum copierea sau modificarea documentelor fără permisiune, ca și scurgerea datelor.

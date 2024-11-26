@@ -7,6 +7,7 @@ description: "Jak scalić komórki tabeli w C#. Sprawdź, czy komórki w tabeli 
 type: docs
 weight: 40
 url: /pl/net/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Czasami niektóre wiersze tabeli wymagają nagłówka lub dużych bloków tekstu zajmujących całą szerokość tabeli. Dla prawidłowego zaprojektowania tabeli użytkownik może połączyć kilka komórek tabeli w jedną. Aspose.Words obsługuje scalone komórki podczas pracy ze wszystkimi formatami wejściowymi, w tym podczas importowania treści HTML.

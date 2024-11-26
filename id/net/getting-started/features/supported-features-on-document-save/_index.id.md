@@ -7,6 +7,7 @@ description: "Simpan dokumen dalam sebagian besar format populer dan mendukung b
 type: docs
 weight: 30
 url: /id/net/supported-features-on-document-save/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words memungkinkan pengguna untuk bekerja dengan dokumen dalam berbagai format dan menyediakan berbagai fitur untuk ini. Misalnya, pengguna dapat membuat dokumen dari awal atau memuatnya, membuat beberapa perubahan, lalu menyimpan perubahan tersebut dalam file keluaran di [Format Dokumen yang Didukung](/words/id/net/supported-document-formats/) mana pun. Saat menyimpan dokumen dalam format yang dipilih, pengguna dapat menerapkan berbagai opsi penyimpanan.

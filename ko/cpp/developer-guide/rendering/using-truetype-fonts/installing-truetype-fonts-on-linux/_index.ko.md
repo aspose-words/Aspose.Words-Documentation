@@ -1,4 +1,4 @@
-﻿---
+---
 title: 설치 TrueType 글꼴 켜기 Linux 그 안에 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 설치 TrueType 글꼴 켜기 Linux
@@ -7,6 +7,7 @@ description: "Aspose.Words 에 대한 C++ 다음을 사용하여 만든 문서�
 type: docs
 weight: 20
 url: /ko/cpp/install-truetype-fonts-on-linux/
+timestamp: 2024-01-27-14-07-04
 ---
 
 가장 자주,당신은 사용할 것입니다 Aspose.Words 변환 DOC 또는 DOCX 문서 PDF 형식 이 작업을 수행해야하는 경우 Linux 기계,이 주제는 당신이 확인하는 방법을 배우는 데 도움이 될 것입니다 Aspose.Words 최고의 정확도로 문서를 렌더링합니다.

@@ -1,26 +1,27 @@
-﻿---
+---
 title: Gelişmiş Mail Merge İçindeki özellikler C++
 second_title: Aspose.Words için C++
 articleTitle: Gelişmiş Mail Merge Özellikler
 linktitle: Gelişmiş Mail Merge Özellikler
 type: docs
-description: "Aspose.Words için C++ bazı gelişmiş özellikler sağlar mail merge daha fazla performans göstermenizi sağlayan özellikler mail merge özelleştirme. Örneğin, şablon yapısı hakkında bilgi edinmek, kurallar koymak, bir şablondan sonra temizlik yapmak. mail merge operasyon ve diğerleri."
-keywords: "use advanced mail merge features c++"
+description: "Aspose.Words için C++ bazı gelişmiş özellikler sağlar Mail Merge daha fazla performans göstermenizi sağlayan özellikler Mail Merge özelleştirme. Örneğin, şablon yapısı hakkında bilgi edinmek, kurallar koymak, bir şablondan sonra temizlik yapmak. Mail Merge operasyon ve diğerleri."
+keywords: "use advanced Mail Merge features c++"
 weight: 50
 url: /tr/cpp/advanced-mail-merge-features/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words bazı ek özellikler sağlar mail merge daha fazla özelleştirme yapmanıza izin veren özellikler ve yöntemler mail merge basit bir şekilde işleyin mail merge veya mail merge bölgelerle.
+Aspose.Words bazı ek özellikler sağlar Mail Merge daha fazla özelleştirme yapmanıza izin veren özellikler ve yöntemler Mail Merge basit bir şekilde işleyin Mail Merge veya Mail Merge bölgelerle.
 
-Gelişmiş mail merge özellikler, bir şablon gerçekleştirmeden önce şablon yapısı hakkında bilgi edinmeyi içerir, ancak bunlarla sınırlı değildir. mail merge operasyon, bir kural belirleme mail merge operasyon ve temizlik sırasında mail merge operasyon. Bu makale, gelişmiş özelliklerin nasıl kullanılacağını göstermek için yalnızca birkaç özelliği ve örneği kapsayacaktır.
+Gelişmiş Mail Merge özellikler, bir şablon gerçekleştirmeden önce şablon yapısı hakkında bilgi edinmeyi içerir, ancak bunlarla sınırlı değildir. Mail Merge operasyon, bir kural belirleme Mail Merge operasyon ve temizlik sırasında Mail Merge operasyon. Bu makale, gelişmiş özelliklerin nasıl kullanılacağını göstermek için yalnızca birkaç özelliği ve örneği kapsayacaktır.
 
 ## İçin Kurallar belirleyin Mail Merge Operasyonlar
 
-Şablonunuza kurallar eklemek, iş akışı sürecini daha etkili ve esnek hale getirmenize olanak tanır. Kullanım mail merge kurallar, hızlı bir şekilde değiştirilebilen içerik ayarlayabilir ve birden fazla belge oluşturma ihtiyacını önleyebilirsiniz.
+Şablonunuza kurallar eklemek, iş akışı sürecini daha etkili ve esnek hale getirmenize olanak tanır. Kullanım Mail Merge kurallar, hızlı bir şekilde değiştirilebilen içerik ayarlayabilir ve birden fazla belge oluşturma ihtiyacını önleyebilirsiniz.
 
-Aspose.Words özelleştirmenizi sağlar mail merge gerçekleştirdiğinizde çalışan kurallara göre mail merge bilgi birleştirme işlemi ve kontrolü. Örneğin, tüm müşterilerinize göndermek üzere bir e-posta veya mektup oluşturduğunuzda. Mektubun, veri kaynağınızın belirli alanlarındaki farklı değerlere dayalı olarak çeşitli veriler içerebilmesi için bir kural ayarlayabilirsiniz.
+Aspose.Words özelleştirmenizi sağlar Mail Merge gerçekleştirdiğinizde çalışan kurallara göre Mail Merge bilgi birleştirme işlemi ve kontrolü. Örneğin, tüm müşterilerinize göndermek üzere bir e-posta veya mektup oluşturduğunuzda. Mektubun, veri kaynağınızın belirli alanlarındaki farklı değerlere dayalı olarak çeşitli veriler içerebilmesi için bir kural ayarlayabilirsiniz.
 
-Bazılarına bir göz atın mail merge uygulayabileceğiniz kurallar.
+Bazılarına bir göz atın Mail Merge uygulayabileceğiniz kurallar.
 
 ### Geçerli Belgedeki Veri Kayıtlarını Birleştirmek için Bir Sonraki alanı uygulama
 
@@ -43,7 +44,7 @@ Aspose.Words şablonunuzda birçok yöntemle farklı bilgiler toplamanıza olana
 
 ### Alan Adlarını Birleştir
 
-Verileri başkaları tarafından oluşturulan birleştirme alanlarıyla birleştirmek isteyeceğiniz bir senaryoya rastlayabilirsiniz ve bu durumda birleştirme alanlarının tam adlarından emin olamazsınız. Yani, elde etmek için mail merge amaç, öncelikle tüm birleştirme alanlarının adlarını okumanız ve görüntülemeniz gerekir. Aspose.Words birleştirme alanı adlarını kullanarak bir koleksiyon elde etmenizi sağlar [GetFieldNames](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/getfieldnames/) yöntem.
+Verileri başkaları tarafından oluşturulan birleştirme alanlarıyla birleştirmek isteyeceğiniz bir senaryoya rastlayabilirsiniz ve bu durumda birleştirme alanlarının tam adlarından emin olamazsınız. Yani, elde etmek için Mail Merge amaç, öncelikle tüm birleştirme alanlarının adlarını okumanız ve görüntülemeniz gerekir. Aspose.Words birleştirme alanı adlarını kullanarak bir koleksiyon elde etmenizi sağlar [GetFieldNames](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/getfieldnames/) yöntem.
 
 Aşağıdaki kod örneği, şablondaki tüm birleştirme alanlarının adlarının nasıl alınacağını gösterir:
 
@@ -68,7 +69,7 @@ Bu örneğin örnek dosyasını şu adresten indirebilirsiniz [Aspose.Words GitH
 
 ### Eşlenen Alanları Ekle
 
-Aspose.Words veri kaynağınızdaki alanların adlarını ve veri kaynağınızdaki alanların adlarını otomatik olarak eşlemenizi sağlar. mail merge şablondaki alanları kullanarak [MappedDataFields](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_mappeddatafields/) mülk. Örneğin, şablonunuzda "Soyadı" adlı bir alan adınız varsa ve veri kaynağınızda "Soyadı" alan adınız veya "Last_Name" veya "" gibi başka bir varyasyonunuz varsaLastName", ardından veri kaynağındaki alan otomatik olarak ilgili eşlenen alana eşlenir. Birleştirme şablonu birçok veri kaynağıyla birleştirilecekse, eşlenen alanlar veritabanındaki alan adlarıyla aynı fikirde olmak için alanları şablona yeniden girmeyi gereksiz kılar.
+Aspose.Words veri kaynağınızdaki alanların adlarını ve veri kaynağınızdaki alanların adlarını otomatik olarak eşlemenizi sağlar. Mail Merge şablondaki alanları kullanarak [MappedDataFields](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_mappeddatafields/) mülk. Örneğin, şablonunuzda "Soyadı" adlı bir alan adınız varsa ve veri kaynağınızda "Soyadı" alan adınız veya "Last_Name" veya "" gibi başka bir varyasyonunuz varsaLastName", ardından veri kaynağındaki alan otomatik olarak ilgili eşlenen alana eşlenir. Birleştirme şablonu birçok veri kaynağıyla birleştirilecekse, eşlenen alanlar veritabanındaki alan adlarıyla aynı fikirde olmak için alanları şablona yeniden girmeyi gereksiz kılar.
 
 Aşağıdaki kod örneği, kullanarak eşlenen bir alanın nasıl ekleneceğini gösterir. [Add](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mappeddatafieldcollection/add/) şablondaki birleştirme alanı ile veri kaynağındaki veri alanı farklı adlara sahip olduğunda yöntem:
 

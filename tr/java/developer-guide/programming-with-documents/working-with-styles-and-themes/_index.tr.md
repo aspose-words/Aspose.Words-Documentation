@@ -7,6 +7,7 @@ description: "Geliştirilmiş Microsoft Word biçimlendirme özellikleri, stille
 type: docs
 weight: 110
 url: /tr/java/working-with-styles-and-themes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) sınıfı yerleşik ayarları yönetmek ve kullanıcı tanımlı kurallara uygulamak için kullanılır.

@@ -7,6 +7,7 @@ description: "Introducción a la función Rango en Aspose.Words para .NET."
 type: docs
 weight: 130
 url: /es/net/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

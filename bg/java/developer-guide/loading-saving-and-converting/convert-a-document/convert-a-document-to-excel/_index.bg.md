@@ -7,13 +7,14 @@ description: "Конвертиране на PDF в Excel, XML към Excel, DOX 
 type: docs
 weight: 15
 url: /bg/java/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Конвертиране на документи от един формат в друг е водещата функция на Aspose.Words. Можете да конвертирате документи във всички налични [формат на натоварване](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) също и за XLSX формат.
 
 ## Конвертиране на документ към XLSX
 
-Конвертиране на документ към XLSX е доста сложен процес. За да запазите документа си във формат XLSX, като използвате <span notrans="<span notrans=" Aspose.Words"=""></span>,"> да използвате [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) класа и новото `Xlsx` елемент в [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) Изброяване. Както бе споменато по-горе, можете да запазите документа във всеки поддържан от Aspose.Words към XLX.
+Конвертиране на документ към XLSX е доста сложен процес. За да запазите документа си във формат XLSX, като използвате Aspose.Words да използвате [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) класа и новото `Xlsx` елемент в [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) Изброяване. Както бе споменато по-горе, можете да запазите документа във всеки поддържан от Aspose.Words към XLX.
 
 Следният пример с код показва как да запишете PDF на XLSX:
 

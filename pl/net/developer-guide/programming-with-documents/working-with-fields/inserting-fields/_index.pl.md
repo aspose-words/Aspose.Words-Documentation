@@ -7,6 +7,7 @@ description: "Jak wstawić pola do dokumentu za pomocą C# – poznaj różne sp
 type: docs
 weight: 20
 url: /pl/net/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Istnieje kilka różnych sposobów wstawiania pól do dokumentu:
@@ -86,7 +87,7 @@ Poniższy przykład kodu pokazuje, jak dodać pole `MERGE` za pomocą formatu DO
 
 ### Wstawianie pola Mail Merge `ADDRESSBLOCK` do dokumentu przy użyciu formatu DOM
 
-Pole `ADDRESSBLOCK` służy do wstawienia bloku adresu mail merge do dokumentu Word. Pole `ADDRESSBLOCK` w dokumencie Word może być reprezentowane przez klasę [FieldAddressBlock](https://reference.aspose.com/words/net/aspose.words.fields/fieldaddressblock/). Za pomocą klasy **FieldAddressBlock** możesz wykonać następujące operacje:
+Pole `ADDRESSBLOCK` służy do wstawienia bloku adresu Mail Merge do dokumentu Word. Pole `ADDRESSBLOCK` w dokumencie Word może być reprezentowane przez klasę [FieldAddressBlock](https://reference.aspose.com/words/net/aspose.words.fields/fieldaddressblock/). Za pomocą klasy **FieldAddressBlock** możesz wykonać następujące operacje:
 
 - określ, czy w polu ma być zawarta nazwa kraju/regionu
 - określ, czy adres ma być formatowany zgodnie z krajem/regionem odbiorcy zgodnie z definicją POST*CODE (Powszechny Związek Pocztowy 2006)

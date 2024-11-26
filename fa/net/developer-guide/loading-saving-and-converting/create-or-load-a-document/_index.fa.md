@@ -8,6 +8,7 @@ url: /fa/net/create-or-load-a-document/
 description: "یک سند خالی ایجاد کنید یا آن را از یک فایل یا جریان با استفاده از C# بارگیری کنید."
 keywords: "create a document c#, load a document c#, create a blank document c#, load a document from file c#, load a document from stream c#, create a document Aspose .NET, load a document Aspose .NET, load formats supported by Aspose.Words .NET"
 weight: 10
+timestamp: 2024-07-09-19-00-42
 ---
 
 تقریباً هر کاری که می خواهید با Aspose.Words انجام دهید شامل بارگیری یک سند است. کلاس `Document` نشان دهنده یک سند بارگذاری شده در حافظه است. سند دارای چندین سازنده بارگذاری شده است که به شما امکان می دهد یک سند خالی ایجاد کنید یا آن را از یک فایل یا جریان بارگیری کنید. سند را می توان در هر قالب بارگیری که توسط Aspose.Words پشتیبانی می شود بارگیری کرد. برای فهرست همه فرمت‌های بار پشتیبانی شده، به شمارش [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/) مراجعه کنید.

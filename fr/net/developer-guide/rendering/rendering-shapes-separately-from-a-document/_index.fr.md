@@ -7,6 +7,7 @@ description: "Extrayez divers objets graphiques, tels que des images, des zones 
 type: docs
 weight: 40
 url: /fr/net/rendering-shapes-separately-from-a-document/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Lors du traitement de documents, une tâche courante consiste à extraire toutes les images trouvées dans le document et à les exporter vers un emplacement externe. Cette tâche devient simple avec le Aspose.Words API, qui fournit déjà la fonctionnalité d'extraction et de sauvegarde des données d'image. Cependant, vous souhaiterez parfois extraire de la même manière d'autres types de contenu graphique représenté par un type différent d'objet de dessin, par exemple une zone de texte contenant des paragraphes, des formes de flèches et une petite image. Il n'existe pas de moyen simple de restituer cet objet puisqu'il s'agit d'une combinaison d'éléments de contenu individuels. Vous pouvez également rencontrer un cas où le contenu a été regroupé dans un objet qui ressemble à une seule image.

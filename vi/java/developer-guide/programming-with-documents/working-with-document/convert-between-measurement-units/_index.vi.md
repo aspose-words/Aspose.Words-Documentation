@@ -7,6 +7,7 @@ description: "Aspose.Words cho Java có thể giúp bạn cách để chuyển �
 type: docs
 weight: 20
 url: /vi/java/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hầu hết các thuộc tính đối tượng được cung cấp trong Aspose.Words API đại diện cho một số đo nào đó, chẳng hạn như chiều rộng hoặc chiều cao, lề và nhiều khoảng cách khác, chấp nhận giá trị bằng điểm, trong đó 1 inch bằng 72 điểm. Đôi khi điều này không thuận tiện và các điểm cần được chuyển đổi sang các đơn vị khác.

@@ -7,6 +7,7 @@ description: "C#'i kullanarak bir belgeyi hemen hemen her formattan HTML veya MH
 type: docs
 weight: 20
 url: /tr/net/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-07-09-19-00-42
 ---
 
 HTML ve MHTML akış düzeni formatlarındaki belgeler de oldukça popülerdir ve herhangi bir web platformunda kullanılabilir. Bu nedenle belgeleri HTML ve MHTML'ye dönüştürmek Aspose.Words'in önemli bir özelliğidir.

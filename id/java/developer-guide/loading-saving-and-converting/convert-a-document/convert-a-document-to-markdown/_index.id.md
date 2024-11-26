@@ -8,6 +8,7 @@ description: "Mengkonversi dokumen dalam format beban yang didukung untuk Markdo
 keywords: how to convert a document to markdown Java, save as MD, DOCX to MD
 weight: 33
 url: /id/java/convert-a-document-to-markdown/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Markdown adalah format populer yang digunakan untuk menandai teks dan lebih mengkonversi ke HTML, PDF, DOCX, atau format lainnya. Banyak pengembang memilih format ini untuk menulis dokumentasi, mempersiapkan artikel untuk publikasi di blog, menggambarkan proyek, dan sebagainya.
@@ -18,7 +19,7 @@ Sekarang fungsi untuk bekerja dengan Markdown format sedang aktif dikembangkan u
 
 ## Mengkonversi Dokumen ke Markdown
 
-Untuk mengonversi dokumen ke <span notrans="<span notrans=" Markdown"=""></span>Sitemap Anda hanya perlu memuat dokumen dalam format yang didukung atau membuat satu programtik baru. Kemudian Anda perlu menyimpan dokumen untuk Meme it Markdown Login
+Untuk mengonversi dokumen ke MarkdownSitemap Anda hanya perlu memuat dokumen dalam format yang didukung atau membuat satu programtik baru. Kemudian Anda perlu menyimpan dokumen untuk Meme it Markdown Login
 
 Contoh kode berikut menunjukkan bagaimana mengkonversi DOCX ke MarkdownSitemap
 
@@ -58,5 +59,5 @@ Hasil dari contoh kode ini ditunjukkan di bawah ini.
 
 Ada beberapa nuansa dan kasus yang menarik, telah belajar yang dapat Anda kerjakan Markdown file lebih fleksibel dan mudah. Misalnya, ada kemampuan untuk digunakan:
 
-* SetextHeading yang memungkinkan Anda untuk membuat kepala multi-line di <span notrans="<span notrans=" Markdown"=""></span>Sitemap sementara judul biasa di Meme it Markdown hanya bisa satu baris. SetextHeading didasarkan pada gaya "Heading N", dan tingkatnya hanya bisa 1 atau 2. Jika N di "Heading N" lebih besar dari atau sama dengan 2, maka SetextHeading yang sesuai didasarkan pada "Heading 2", jika ada di "Heading 1".
+* SetextHeading yang memungkinkan Anda untuk membuat kepala multi-line di MarkdownSitemap sementara judul biasa di Meme it Markdown hanya bisa satu baris. SetextHeading didasarkan pada gaya "Heading N", dan tingkatnya hanya bisa 1 atau 2. Jika N di "Heading N" lebih besar dari atau sama dengan 2, maka SetextHeading yang sesuai didasarkan pada "Heading 2", jika ada di "Heading 1".
 * Penanda yang berbeda untuk tingkat pertama daftar yang dipeluru ("-", "+" atau "*", penanda default adalah "-".) dan berbagai jenis penjumlahan untuk daftar yang dipesan ("." atau ")", penanda default adalah ".").

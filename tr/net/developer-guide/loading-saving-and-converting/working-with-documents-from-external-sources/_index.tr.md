@@ -7,6 +7,7 @@ description: "C#'de harici kaynaklardan belgeler nasıl yüklenir? C# kullanarak
 type: docs
 weight: 40
 url: /tr/net/working-with-documents-from-external-sources/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Bu bölümde, SharePoint belge deposu veya veritabanları gibi harici kaynaklardan belgelerin nasıl yükleneceği hakkında bilgi verilmektedir. Böyle bir belgeyi aldıktan sonra, yalnızca Aspose.Words'nin güçlü işlevselliğini kullanarak gerekli tüm değişiklikleri yapmakla kalmaz, aynı zamanda bu belgeyi veri kaynağına geri yükleyebilirsiniz.

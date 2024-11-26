@@ -1,62 +1,63 @@
----
-title: Dokument umrechnen Markdown in Java
+﻿---
+title: Konvertieren Sie ein Dokument in Markdown in Java
 second_title: Aspose.Words für Java
-articleTitle: Dokument umrechnen Markdown
-linktitle: Dokument umrechnen Markdown
+articleTitle: Konvertieren eines Dokuments in Markdown
+linktitle: Konvertieren eines Dokuments in Markdown
 type: docs
-description: "Konvertieren Sie ein Dokument in jedem unterstützten Lastformat Markdown und umgekehrt Java."
+description: "Konvertieren Sie ein Dokument in einem beliebigen unterstützten Ladeformat in Markdown und umgekehrt mit Java."
 keywords: how to convert a document to markdown Java, save as MD, DOCX to MD
 weight: 33
 url: /de/java/convert-a-document-to-markdown/
+timestamp: 2024-01-27-14-07-04
 ---
 
-Markdown ist ein beliebtes Format, das verwendet wird, um Text zu markup und es wird weiter in HTML, PDF, DOCX oder andere Formate konvertieren. Viele Entwickler wählen dieses Format für die Dokumentation zu schreiben, Artikel für die Veröffentlichung auf Blogs vorzubereiten, Projekte zu beschreiben und so weiter.
+Markdown ist ein beliebtes Format zum Markieren von Text und wird weiter konvertiert in HTML, PDF, DOCX, oder andere Formate. Viele Entwickler wählen dieses Format zum Schreiben von Dokumentationen, zum Vorbereiten von Artikeln für die Veröffentlichung in Blogs, zum Beschreiben von Projekten usw.
 
-Markdown ist so beliebt, weil es einfach ist, mit diesem Format zu arbeiten, und es kann ganz einfach in andere Formate umgewandelt werden. Aus diesem Grund Aspose.Words bietet die Möglichkeit, ein Dokument in [Alle unterstützten Letztes Jahr](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) bis Markdown und umgekehrt – Aspose.Words auch unterstützt die beliebtesten [Format für die](https://reference.aspose.com/words/java/com.aspose.words/saveformat/).
+Markdown ist so beliebt, weil es einfach ist, mit diesem Format zu arbeiten und es ganz einfach in andere Formate konvertiert werden kann. Aus diesem Grund bietet Aspose.Words die Möglichkeit, ein Dokument von [jedes unterstützte Ladeformat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) nach Markdown und umgekehrt zu konvertieren – Aspose.Words unterstützt auch das beliebteste [formate speichern](https://reference.aspose.com/words/java/com.aspose.words/saveformat/).
 
-Jetzt die Funktionalität für die Arbeit mit dem Markdown Format wird aktiv entwickelt, um Ihnen mehr Möglichkeiten zur bequemen und komfortablen Arbeit mit Dokumenten zu bieten.
+Jetzt wird die Funktionalität für die Arbeit mit dem Markdown -Format aktiv weiterentwickelt, um Ihnen mehr Möglichkeiten für die bequeme und komfortable Arbeit mit Dokumenten zu bieten.
 
-## Dokument umrechnen Markdown
+## Konvertieren eines Dokuments in Markdown
 
-Um ein Dokument zu konvertieren <span notrans="<span notrans=" Markdown"=""></span>,"> Sie müssen nur ein Dokument in jedem unterstützten Format laden oder ein neues Programm erstellen. Dann müssen Sie das Dokument speichern, Markdown Format.
+Um ein Dokument in Markdown zu konvertieren, müssen Sie nur ein Dokument in einem beliebigen unterstützten Format laden oder programmgesteuert ein neues erstellen. Dann müssen Sie das Dokument im Format Markdown speichern.
 
-Das folgende Codebeispiel zeigt, wie man DOCX in Markdown:
+Das folgende Codebeispiel zeigt, wie DOCX in Markdown konvertiert wird:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SaveAsMD.java" >}}
 
 
-## Speicheroptionen beim Konvertieren in Markdown
+## Geben Sie beim Konvertieren in Markdown Speicheroptionen an
 
-Aspose.Words bietet die Möglichkeit, die [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) Klasse, um mit erweiterten Optionen zu arbeiten, wenn Sie ein Dokument speichern, Markdown Format. Neben anderen erb- oder überlastenden Eigenschaften sind eine Reihe von Eigenschaften, die für Markdown Format wurde ebenfalls hinzugefügt. Zum Beispiel die [TableContentAlignment](https://reference.aspose.com/words/java/com.aspose.words/tablecontentalignment/) Eigenschaft, die Ausrichtung von Inhalten in Tabellen zu steuern, oder [ImageSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageSavingCallback) und [ImagesFolder](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImagesFolder) um zu kontrollieren, wie Bilder beim Umwandeln eines Dokuments gespeichert werden Markdown Format.
+Aspose.Words bietet die Möglichkeit, die Klasse [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) zu verwenden, um mit erweiterten Optionen zu arbeiten, wenn ein Dokument im Format Markdown gespeichert wird. Zusätzlich zu anderen Eigenschaften, die erben oder überladen, wurde auch eine Reihe von Eigenschaften hinzugefügt, die spezifisch für das Markdown-Format sind. Zum Beispiel die Eigenschaft [TableContentAlignment](https://reference.aspose.com/words/java/com.aspose.words/tablecontentalignment/), um die Ausrichtung von Inhalten in Tabellen zu steuern, oder [ImageSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageSavingCallback) und [ImagesFolder](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImagesFolder), um zu steuern, wie Bilder beim Konvertieren eines Dokuments in das Format Markdown gespeichert werden.
 
-## Unterstützt Markdown Eigenschaften
+## Unterstützte Markdown Funktionen
 
-Aspose.Words derzeit unterstützt folgendes Markdown Merkmale, die meist den `CommonMark` Spezifikation in der Aspose.Words API und sind als geeignete Stile oder direkte Formatierung dargestellt:
+Aspose.Words unterstützt derzeit die folgenden Markdown -Funktionen, die größtenteils der `CommonMark` -Spezifikation in Aspose.Words API folgen und als geeignete Stile oder direkte Formatierung dargestellt werden:
 
-* Rubriken sind Absätze mit Rubrik 1 – Rubrik 6 Stile
-* Blockquoten sind Absätze mit "Quote" im Stilnamen
+* Überschriften sind Absätze mit Heading 1 – Heading 6 Stilen
+* Blockzitate sind Absätze mit "Zitat" im Stilnamen
 * IndentedCode sind Absätze mit "IndentedCode" im Stilnamen
-* Fenced Code sind Absätze mit "FencedCode" im Stilnamen
-* InlineCode läuft mit "InlineCode" im `Font` Name des Stils
-* Horizontale Regeln sind Absätze mit `HorizontalRule` Form
-* Bold betont
-* Schwerpunkt
+* FencedCode sind Absätze mit "FencedCode" im Stilnamen
+* InlineCode werden mit "InlineCode" im `Font` -Stilnamen ausgeführt
+* Horizontale Regeln sind Absätze mit der Form `HorizontalRule`
+* Kräftige Betonung
+* Kursive Hervorhebung
 * StrikeThrough Formatierung
-* Listen sind nummeriert oder geschossene Absätze
-* Die Tabellen sind mit `Table` Klasse
-* Links sind als `FieldHyperlink` Klasse
+* Listen sind nummerierte oder mit Aufzählungszeichen versehene Absätze
+* Tabellen werden mit der Klasse `Table` dargestellt
+* Links werden als `FieldHyperlink` -Klasse dargestellt
 
-Das folgende Beispiel zeigt, wie man ein Dokument mit einigen Stilen erstellt und speichert, Markdown:
+Das folgende Beispiel zeigt, wie Sie ein Dokument mit einigen Stilen erstellen und unter Markdown speichern:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SupportedMarkdownFeatures.java" >}}
 
-Das Ergebnis dieses Codebeispiels ist unten dargestellt.
+Das Ergebnis dieses Codebeispiels ist unten gezeigt.
 
 ![markdown-example-aspose-words-java](/words/java/convert-a-document-to-markdown/markdown-example.png)
 
 ## Nützliche Tipps
 
-Es gibt mehrere Nuancen und interessante Fälle, haben gelernt, mit denen Sie arbeiten können Markdown Dateien flexibler und bequemer. Zum Beispiel gibt es die Möglichkeit zu verwenden:
+Es gibt verschiedene Nuancen und interessante Fälle, nachdem Sie gelernt haben, dass Sie flexibler und bequemer mit Markdown -Dateien arbeiten können. Zum Beispiel gibt es die Möglichkeit zu verwenden:
 
-* SetextHeading, mit dem Sie Multi-Line-Überschriften in <span notrans="<span notrans=" Markdown"=""></span>,"> während reguläre Rubriken in Markdown kann nur einzeilig sein. SetextHeading basiert auf einem "Heading N"-Stil, und seine Ebene kann nur 1 oder 2 sein. Ist N in "Heading N" größer oder gleich 2, so basiert das entsprechende Setext-Heading auf "Heading 2", ansonsten auf "Heading 1".
-* Unterschiedliche Marker für die erste Ebene der geschossenen Listen ("-", "+" oder "*", der Standardmarker ist "-".) und verschiedene Arten der Nummerierung für geordnete Listen ("." oder "), der Standardmarker ist ".
+* SetextHeading, mit dem Sie mehrzeilige Überschriften in Markdown erstellen können, während reguläre Überschriften in Markdown nur einzeilig sein können. SetextHeading basiert auf einem Stil "Überschrift N" und seine Ebene kann nur 1 oder 2 sein. Wenn N in "Überschrift N" größer oder gleich 2 ist, dann basiert die entsprechende SetextHeading auf "Heading 2", ansonsten auf "Heading 1".
+* Verschiedene Markierungen für die erste Ebene von Aufzählungslisten ("-", "+" oder "*", die Standardmarkierung ist "-".) und verschiedene Arten der Nummerierung für geordnete Listen ("." oder ")", die Standardmarkierung ist ".").

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Работа с графическими рядами на C++
 second_title: Aspose.Words для C++
 articleTitle: Работа с графическими рядами
@@ -7,6 +7,7 @@ description: "Настройка рядов диаграмм с помощью C
 type: docs
 weight: 40
 url: /ru/cpp/working-with-chartseries/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words позволяет пользователям работать с коллекцией ChartSeriesCollection несколькими способами.

@@ -7,6 +7,7 @@ description: "C# を使用すると、ドキュメントをほぼすべての形
 type: docs
 weight: 20
 url: /ja/net/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-07-09-19-00-42
 ---
 
 HTML および MHTML フロー レイアウト形式のドキュメントも非常に人気があり、あらゆる Web プラットフォームで使用できます。そのため、ドキュメントを HTML および MHTML に変換することは、Aspose.Words の重要な機能です。

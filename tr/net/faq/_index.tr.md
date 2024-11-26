@@ -9,6 +9,7 @@ type: docs
 description: ".NET için Aspose.Words en sık sorulan soruları yanıtlıyor. Genel sorular veya belirli konularla ilgili sorununuzu hızlı bir şekilde çözmek için bu sayfayı öğrenin."
 weight: 75
 url: /tr/net/faq/
+timestamp: 2024-11-18-12-56-02
 ---
 
 Bu sayfada en sık sorulan soruların yanıtları bulunmaktadır. Lütfen mevcut sayfayı öğrenin; belki bu sorununuzu hızlı bir şekilde çözmenize olanak tanır.
@@ -143,7 +144,7 @@ Birleştirme alanının orijinal adı, veri kaynağından gerekli verilerle değ
 
 **S: Neden iç içe birleştirmenin çıktısı, ana tablodaki ilk girişe ilişkin alt tablodaki verileri görüntülemiyor, ancak aslında ona bağlı olmayanlar da dahil olmak üzere üst tablodaki son girişin tüm öğelerini görüntülüyor?**
 
-Bunun nedeni, şablondaki birleştirme bölgelerinin doğru şekilde oluşturulmamasıdır; bu durum, iç içe geçmiş tüm mail merge bölgelerinin herhangi bir şeyi görüntülemeyi durdurmasına neden olabilir. [StartTable](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/starttable/) açılış etiketi ve [EndTable](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/endtable/) kapanış etiketi eşleşmeli ve aynı satır veya hücrede olmalıdır. Örneğin, birleştirme bölgelerini bir tablonun hücresine yerleştirmeye başlarsanız, birleştirme bölgesini ilk hücreyle aynı satırda sonlandırmanız gerekir.
+Bunun nedeni, şablondaki birleştirme bölgelerinin doğru şekilde oluşturulmamasıdır; bu durum, iç içe geçmiş tüm Mail Merge bölgelerinin herhangi bir şeyi görüntülemeyi durdurmasına neden olabilir. [StartTable](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/starttable/) açılış etiketi ve [EndTable](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/endtable/) kapanış etiketi eşleşmeli ve aynı satır veya hücrede olmalıdır. Örneğin, birleştirme bölgelerini bir tablonun hücresine yerleştirmeye başlarsanız, birleştirme bölgesini ilk hücreyle aynı satırda sonlandırmanız gerekir.
 
 ------
 
@@ -156,7 +157,7 @@ Bunun nedeni, ebeveyn ve çocuk tabloları arasındaki ilişkinin kurulmamış o
 
 ------
 
-**S: Neden bir istisna var: Yuvalanmış mail merge yürütülürken "System.ArgumentException: Bu kısıtlama etkinleştirilemez, çünkü tüm değerler karşılık gelen üst değerlere sahip değildir"?**
+**S: Neden bir istisna var: Yuvalanmış Mail Merge yürütülürken "System.ArgumentException: Bu kısıtlama etkinleştirilemez, çünkü tüm değerler karşılık gelen üst değerlere sahip değildir"?**
 
 Bunun nedeni, her üst kaydın bir alt kaydı olmaması ve dolayısıyla veri kaynağınızın aşağıdaki ölçütlerle eşleşmemesidir: *üst tablodaki her satırın, birincil ve temel olarak alt tablonun satırlarıyla bire bir ilişkisi olmalıdır. Yabancı anahtarlar*.
 

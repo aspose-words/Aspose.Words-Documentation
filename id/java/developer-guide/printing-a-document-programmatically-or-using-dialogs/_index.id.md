@@ -7,6 +7,7 @@ description: "Cetak dokumen menggunakan Java melalui Pengaturan, Cetak Preview, 
 type: docs
 weight: 55
 url: /id/java/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Artikel ini menjelaskan cara mencetak dokumen pengolahan kata menggunakan Aspose.Words APISitemap Ini juga menunjukkan metode pencetakan dokumen dengan Pengaturan, Cetak Pratinjau, dan mencetak dialog kemajuan.

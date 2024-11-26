@@ -7,6 +7,7 @@ description: "Określić pozycję tabeli w Java. Uzyskaj ustawienie tabeli, usta
 type: docs
 weight: 50
 url: /pl/java/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Istnieją tablice pływające i tabele inline:

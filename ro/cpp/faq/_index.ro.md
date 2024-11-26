@@ -1,4 +1,4 @@
-﻿---
+---
 title: FAQ
 second_title: Aspose.Words pentru C++
 articleTitle: FAQ
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words pentru C++ răspunde la cele mai frecvente întrebări. Aflați această pagină pentru a vă rezolva rapid problema cu întrebări generale sau subiecte specifice."
 weight: 75
 url: /ro/cpp/faq/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Această pagină conține răspunsuri la cele mai frecvente întrebări. Vă rugăm să aflați pagina curentă-poate că acest lucru vă va permite să vă rezolvați rapid problema.

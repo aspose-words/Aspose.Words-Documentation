@@ -7,6 +7,7 @@ description: "Retrieve comments from a word processing  document easily and fast
 type: docs
 weight: 190
 url: /net/retrieve-comments-from-a-word-processing-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 On this page we will look at how to retrieve comments from a Word Processing  document  using Aspose.Words or Open XML SDK.

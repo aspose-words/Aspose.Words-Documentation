@@ -1,4 +1,4 @@
-﻿---
+---
 title: Logiese Vlakke Van Nodusse in'n Dokument
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Logiese Vlakke Van Nodusse in'n Dokument
@@ -7,6 +7,7 @@ type: docs
 description: "In Aspose.Words vir Python via .NET dokumentasie genoem logiese vlakke van nodes blok vlak, inline vlak, of ry vlak. Die knooppuntvlak word gebruik om die plek in die dokumentboom te beskryf waar die knoop tipies voorkom."
 weight: 10
 url: /af/python-net/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hierdie dokumentasie verwys soms na'n groep van knoop klasse as wat behoort aan'n "vlak" in'n dokument, soos "blok-vlak", "inline-vlak" (ook bekend as "inline"), of "ry-vlak" nodes. Hierdie vlakke in'n dokument word suiwer logies gedifferensieer en word nie eksplisiet uitgedruk deur oorerwing of ander Aspose.Words DOM middele nie. Die knooppuntvlak word gebruik om die plek in die dokumentboom te beskryf waar die knoop tipies voorkom.

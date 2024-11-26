@@ -1,73 +1,74 @@
----
-title: گزینه های Save را در نظر بگیرید Java
+﻿---
+title: گزینه های ذخیره را در Javaمشخص کنید
 second_title: Aspose.Words برای Java
-articleTitle: گزینه Save Options
-linktitle: گزینه Save Options
-description: "تنظیم خواص پیشرفته هنگام صرفه جویی در یک سند با استفاده از Java برای کنترل دقیق تر بر روند."
+articleTitle: گزینه های ذخیره را مشخص کنید
+linktitle: گزینه های ذخیره را مشخص کنید
+description: "تنظیم ویژگی های پیشرفته هنگام ذخیره یک سند با استفاده از Java برای ارائه کنترل دقیق تر بر روی فرآیند."
 type: docs
 weight: 20
 url: /fa/java/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
-هنگام صرفه جویی در یک سند، می توانید برخی از خواص پیشرفته را تنظیم کنید. Aspose.Words شما را با [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) کلاس، که اجازه می دهد کنترل دقیق تر فرآیند نجات. فراوانی از **Save** روش هایی که یک **SaveOptions** موضوع - باید یک شی از یک کلاس باشد که از آن مشتق شده است **SaveOptions** کلاس هر فرمت ذخیره سازی دارای یک کلاس متناظر است که گزینه های ذخیره سازی را برای این فرمت ذخیره می کند، به عنوان مثال، وجود دارد. [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) برای صرفه جویی در فرمت PDF، [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) پس انداز برای Markdown قالب، یا [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) برای صرفه جویی در یک تصویر این مقاله نمونه هایی از کار با برخی از کلاس های گزینه های مشتق شده از **SaveOptions**...
+هنگام ذخیره یک سند، می توانید برخی از ویژگی های پیشرفته را تنظیم کنید. Aspose.Words کلاس [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) را برای شما فراهم می کند که اجازه کنترل دقیق تر فرآیند ذخیره را می دهد. اضافه بار روش **Save** وجود دارد که یک شی **SaveOptions** را قبول می کند – باید یک شی از یک کلاس باشد که از کلاس **SaveOptions** مشتق شده است. هر فرمت ذخیره دارای یک کلاس مربوطه است که گزینه های ذخیره را برای این فرمت ذخیره نگه می دارد، به عنوان مثال، [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) برای ذخیره به PDF فرمت، [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) برای ذخیره به Markdown فرمت، یا [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) برای ذخیره به یک تصویر وجود دارد. این مقاله نمونه هایی از کار با برخی از کلاس های گزینه های مشتق شده از **SaveOptions** را ارائه می دهد.
 
-مثال کد زیر نشان می دهد که چگونه گزینه های صرفه جویی را قبل از صرفه جویی در سند در HTML تنظیم کنید:
+مثال کد زیر نشان می دهد که چگونه گزینه های ذخیره را قبل از ذخیره سند به HTMLتنظیم کنید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifySaveOption-SpecifySaveOption.java" >}}
 
 
 {{% alert color="primary" %}}
 
-شما می توانید فایل قالب این مثال را دانلود کنید. [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx)...
+شما می توانید فایل قالب این مثال را از [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-این مقاله چند ویژگی را توصیف می کند که می توانید هنگام صرفه جویی در یک سند کنترل کنید.
+این مقاله چند ویژگی را که می توانید هنگام ذخیره یک سند کنترل کنید، توصیف می کند.
 
-## رمزگذاری یک سند با یک Password
+## رمزگذاری یک سند با رمز عبور
 
-استفاده از **Password** اموال برای دریافت یا تنظیم یک رمز عبور برای یک سند رمزگذاری شده. استفاده از **Password** مالکیت کلاس مربوطه برای کار با فرمت سند انتخاب شده.
+از ویژگی **Password** برای دریافت یا تنظیم رمز عبور برای یک سند رمزگذاری شده استفاده کنید. از ویژگی **Password** کلاس مربوطه برای کار با فرمت سند انتخاب شده استفاده کنید.
 
-به عنوان مثال، هنگام صرفه جویی در یک سند به DOC یا DOT فرمت، استفاده از [Password](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/#Password) مالکیت [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) کلاس
+به عنوان مثال، هنگام ذخیره یک سند به فرمت DOC یا DOT، از ویژگی [Password](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/#Password) کلاس [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) استفاده کنید.
 
-مثال کد زیر نشان می دهد که چگونه یک رمز عبور برای رمزگذاری یک سند با استفاده از روش رمزگذاری RC4 تنظیم کنیم:
+مثال کد زیر نشان می دهد که چگونه یک رمز عبور برای رمزگذاری یک سند با استفاده از روش رمزگذاری RC4 تنظیم کنید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithDocSaveOptions-EncryptDocumentWithPassword.java" >}}
 
-هنگام صرفه جویی در یک سند برای فرمت ODT، از آن استفاده کنید [Password](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/#Password) مالکیت [OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/) کلاس
+هنگام ذخیره یک سند به فرمت ODT، از ویژگی [Password](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/#Password) کلاس [OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/) استفاده کنید.
 
-مثال کد زیر نشان می دهد که چگونه بارگیری و ذخیره OpenDocument رمزگذاری شده با یک رمز عبور:
+مثال کد زیر نشان می دهد که چگونه OpenDocument رمزگذاری شده با یک رمز عبور را بارگذاری و ذخیره کنید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-LoadAndSaveEncryptedODT.java" >}}
 
-همه فرمت ها از رمزگذاری و استفاده از **Password** مالکیت
+همه فرمت ها از رمزگذاری و استفاده از ویژگی **Password** پشتیبانی نمی کنند.
 
-## نشان دادن مستندات پس انداز پیشرفت
+## نمایش اطلاعیه های پیشرفت صرفه جویی در اسناد
 
-Aspose.Words توانایی استفاده از [ProgressCallback](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getProgressCallback) اموال برای دریافت اعلان در مورد پیشرفت پس انداز سند.
+Aspose.Words امکان استفاده از ویژگی [ProgressCallback](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getProgressCallback) را برای دریافت اطلاعیه در مورد پیشرفت صرفه جویی در اسناد فراهم می کند.
 
-در حال حاضر در هنگام صرفه جویی در DOCX، FlatOpc، DOCM در دسترس است. DOTM، DOTX، HTML، MHTML، EPUB، XamlFlow، XamlFlowPack یا فرمت TXT.
+در حال حاضر در دسترس است زمانی که صرفه جویی به DOCX, FlatOpc, DOCM, DOTM, DOTX, HTML, MHTML, EPUB, XamlFlow, XamlFlowPack, یا فرمت های TXT
 
-## به روز رسانی زمان ایجاد سند
+## زمان ایجاد سند را به روز کنید
 
-Aspose.Words توانایی استفاده از [CreatedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getCreatedTime) اموال برای دریافت یا تنظیم تاریخ ایجاد سند در UTC تنظیم شده است. شما همچنین می توانید این ارزش را قبل از صرفه جویی در استفاده از [UpdateCreatedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateCreatedTimeProperty) گزینه
+Aspose.Words توانایی استفاده از ویژگی [CreatedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getCreatedTime) را برای دریافت یا تنظیم تاریخ ایجاد سند در UTC فراهم می کند. شما همچنین می توانید این مقدار را قبل از ذخیره با استفاده از گزینه [UpdateCreatedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateCreatedTimeProperty) به روز کنید.
 
-مثال کد زیر نشان می دهد که چگونه زمان ایجاد سند را به روز کنید:
+مثال کد زیر نشان می دهد که چگونه زمان ایجاد سند را به روز کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-UpdateIfLastPrinted.java" >}}
 
-## دانلود بازی Last Saved property
+## آخرین ملک ذخیره شده را به روز کنید
 
-Aspose.Words توانایی استفاده از [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateLastSavedTimeProperty) اموال برای به دست آوردن یا تعیین ارزش تعیین اینکه آیا [LastSavedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getLastSavedTime) اموال قبل از پس انداز به روز می شود.
+Aspose.Words توانایی استفاده از ویژگی [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateLastSavedTimeProperty) را برای دریافت یا تنظیم یک مقدار تعیین می کند که آیا ویژگی [LastSavedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getLastSavedTime) قبل از ذخیره به روز شده است.
 
-مثال کد زیر نشان می دهد که چگونه این ملک را تنظیم کرده و سند را ذخیره کنید:
+مثال کد زیر نشان می دهد که چگونه این ویژگی را تنظیم کنید و سند را ذخیره کنید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithOoXML-updateLastSavedTimeProperty.java" >}}
 
-## ذخیره تصویر سیاه و سفید با یک Bit Per Pixel Format
+## ذخیره تصویر سیاه و سفید با یک بیت در هر فرمت پیکسل
 
-برای کنترل گزینه های صرفه جویی در تصویر، **ImageSaveOptions** کلاس استفاده می شود. برای مثال، می توانید از آن استفاده کنید. [PixelFormat](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getPixelFormat) مالکیت برای تنظیم فرمت پیکسل برای تصاویر تولید شده لطفا توجه داشته باشید که فرمت پیکسل تصویر خروجی ممکن است از مقدار تنظیم شده به دلیل کار GDI + متفاوت باشد.
+برای کنترل گزینه های ذخیره تصویر، از کلاس **ImageSaveOptions** استفاده می شود. به عنوان مثال، می توانید از ویژگی [PixelFormat](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getPixelFormat) برای تنظیم فرمت پیکسل برای تصاویر تولید شده استفاده کنید. لطفا توجه داشته باشید که فرمت پیکسل تصویر خروجی ممکن است با مقدار تنظیم شده به دلیل کار GDI+متفاوت باشد.
 
-مثال کد زیر نشان می دهد که چگونه یک تصویر سیاه و سفید را با یک ذره در قالب پیکسل ذخیره کنیم:
+مثال کد زیر نشان می دهد که چگونه یک تصویر سیاه و سفید را با یک بیت در هر فرمت پیکسل ذخیره کنید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-ImageColorFilters-SaveImageToOnebitPerPixel.java" >}}

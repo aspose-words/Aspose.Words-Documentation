@@ -1,4 +1,4 @@
-﻿---
+---
 title: Umrechnung zwischen Maßeinheiten in C++
 second_title: Aspose.Words für C++
 articleTitle: Umrechnen zwischen Maßeinheiten
@@ -7,6 +7,7 @@ description: "Aspose.Words für C++ kann Ihnen bei der Konvertierung zwischen Ma
 type: docs
 weight: 20
 url: /de/cpp/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Die meisten in Aspose.Words API bereitgestellten Objekteigenschaften, die eine Messung darstellen, z. B. Breite oder Höhe, Ränder und verschiedene Abstände, akzeptieren Werte in Punkten, wobei 1 Zoll 72 Punkten entspricht. Manchmal ist dies nicht bequem und Punkte müssen in andere Einheiten umgewandelt werden.

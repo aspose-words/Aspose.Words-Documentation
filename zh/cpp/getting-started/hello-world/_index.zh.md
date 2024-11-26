@@ -1,4 +1,4 @@
-﻿---
+---
 title: 你好，世界！
 second_title: 简单的例子如何使用 Aspose.Words为C++
 articleTitle: 你好，世界！
@@ -7,6 +7,7 @@ description: "使用任何支持的格式创建、编辑和保存您的第一个
 type: docs
 weight: 15
 url: /zh/cpp/hello-world/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A"你好，世界！"代码通常是编写uisng的第一个简单示例"Aspose.Words为C++"，并且它也可以用作理智测试，以确保正确安装旨在编译或运行源代码的软件。

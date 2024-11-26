@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ 'da Grafik Veri Etiketi ile Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Grafik Veri Etiketi ile Çalışma
@@ -7,6 +7,7 @@ description: "C++ kullanarak grafik veri etiketi ayarı."
 type: docs
 weight: 30
 url: /tr/cpp/working-with-chart-data-label/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words, kullanıcıların ChartDataLabel ile çeşitli şekillerde çalışmasına izin verir.

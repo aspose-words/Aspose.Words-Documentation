@@ -1,4 +1,4 @@
-﻿---
+---
 title: Caracteristici
 second_title: Aspose.Words pentru Java
 articleTitle: Caracteristici Acceptate
@@ -7,6 +7,7 @@ description: "Aspose.Words pentru Java oferă utilizatorilor o gamă largă de f
 type: docs
 weight: 40
 url: /ro/java/features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words oferă utilizatorilor o gamă largă de caracteristici. Utilizatorii pot efectua o cantitate imensă de sarcini legate de documente-de la simpla conversie a documentelor dintr – un format acceptat în altul și modificarea acestor documente în timpul procesului de conversie în sarcini de afaceri, cum ar fi crearea de documente structurate și atrăgătoare din punct de vedere vizual sau automatizarea raportării.
@@ -121,16 +122,16 @@ Puteți utiliza Aspose.Words ca soluție de raportare pe cont propriu. Proiecta�
 
 | Caracteristică |
 | :- |
-| Utilizați toate câmpurile standard Microsoft Word mail merge din rapoartele dvs., inclusiv `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. |
-| Executați mail merge pentru documentele care conțin chiar și cele mai complexe și imbricate `IF` câmpuri și formule. |
+| Utilizați toate câmpurile standard Microsoft Word Mail Merge din rapoartele dvs., inclusiv `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. |
+| Executați Mail Merge pentru documentele care conțin chiar și cele mai complexe și imbricate `IF` câmpuri și formule. |
 | Populați și creșteți dinamic tabele sau fragmente din document din sursa de date folosind regiunile mail merge. |
 | Generați cu ușurință rapoarte care conțin date master-detail (părinte-copil), cum ar fi Order/OrderDetails. |
 | Populați documentele cu date din orice sursă de date Java care implementează interfața `ResultSet`. |
 | Populați documente din orice sursă de date, cum ar fi un fișier XML sau obiecte de afaceri prin implementarea interfeței **IMailMergeDataSource**. |
 | Preluați un control precis, cum ar fi formatarea numerelor, asupra modului în care datele dvs. sunt îmbinate folosind evenimente. |
 | Inserați imagini în timpul unui mail merge. |
-| Creați sau modificați programatic o sursă de date Microsoft Word mail merge pentru un document. Păstrați mail merge Setări și surse de date. |
-| Regăsiți mail merge numele câmpurilor. |
+| Creați sau modificați programatic o sursă de date Microsoft Word Mail Merge pentru un document. Păstrați Mail Merge Setări și surse de date. |
+| Regăsiți Mail Merge numele câmpurilor. |
 
 ## Caracteristici De Raportare
 

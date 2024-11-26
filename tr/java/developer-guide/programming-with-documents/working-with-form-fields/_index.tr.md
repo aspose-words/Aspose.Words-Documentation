@@ -7,6 +7,7 @@ description: "Form Alanları özelliğini anlama ve Java kullanarak Form Alanlar
 type: docs
 weight: 380
 url: /tr/java/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Boşlukları doldurmak için kullanılan bir belgeye form denir. Örneğin, kullanıcıların girişler arasından seçim yapabileceği düşüş menüleri kullanan kayıt formunu Microsoft Word'da oluşturabilirsiniz. The `Form` alanı ad veya adres gibi belirli bir tür verinin saklandığı yerdir. Form alanları Microsoft Word metin girişi, combobox ve onay kutusundan oluşur.

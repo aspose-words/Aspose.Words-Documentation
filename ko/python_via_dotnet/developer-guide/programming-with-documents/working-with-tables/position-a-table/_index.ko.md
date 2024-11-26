@@ -7,6 +7,7 @@ description: "Python에서 테이블 위치를 지정합니다. 테이블 정렬
 type: docs
 weight: 50
 url: /ko/python-net/position-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 플로팅 테이블과 인라인 테이블이 있습니다

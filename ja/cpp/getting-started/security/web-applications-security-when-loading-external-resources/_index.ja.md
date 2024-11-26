@@ -1,4 +1,4 @@
-﻿---
+---
 title: リソースの読み込み時のWebアプリのセキュリティ
 second_title: C++の場合Aspose.Words
 articleTitle: 外部リソースのロード時のWebアプリケーションのセキュリティ
@@ -7,6 +7,7 @@ type: docs
 description: "リモートリソースをロードすると、セキュリティ上のリスクが発生する可能性があります。 C++での一般的なセキュリティ問題とその解決策を見てみましょう。"
 weight: 50
 url: /ja/cpp/web-applications-security-when-loading-external-resources/
+timestamp: 2024-01-30-16-22-34
 ---
 
 デフォルトでは, C++の場合Aspose.Words DocumentBuilderを使用して文書をインポートしたり画像を挿入したりするときに、画像、CSSスタイル、外部HTML文書などのリモートリソースを読み込むことができます。 この動作により、ドキュメントを詳細に処理できますが、ライブラリがwebアプリケーションの一部である場合、セキュリティ上のリスクが発生する可

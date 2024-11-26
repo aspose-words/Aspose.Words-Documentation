@@ -7,6 +7,7 @@ description: "Převést dokument na rastrový obraz, který je diskutován na p�
 type: docs
 weight: 30
 url: /cs/java/saving-a-document-as-a-multipage-tiff/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Při práci s dokumenty často potřebujete převést svůj dokument na rastrový soubor s obrazem. To je zvláště důležité, pokud musíte předložit svůj dokument v čitelném a tiskitelném formátu, ale ne editovatelném. Například můžete použít rastrový obrázek první stránky vašeho dokumentu jako náhled. Tento článek popisuje, jak převést dokument do rastrového obrazu pomocí příkladu formátu TIFF? jeden z populárnějších formátů obrázku.

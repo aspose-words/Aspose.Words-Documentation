@@ -7,6 +7,7 @@ description: "Pracující s částmi tabulek řádků, sloupců a buněk Python.
 type: docs
 weight: 30
 url: /cs/python-net/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Pro větší kontrolu nad tím, jak stoly fungují, naučte se manipulovat sloupy a řádky.

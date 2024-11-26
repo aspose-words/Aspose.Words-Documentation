@@ -1,4 +1,4 @@
-﻿---
+---
 title: Werk Met Reekse in C++
 second_title: Aspose.Words vir C++
 articleTitle: Werk Met Reekse
@@ -7,6 +7,7 @@ description: "Inleiding Tot Reeks funksie in Aspose.Words vir C++."
 type: docs
 weight: 130
 url: /af/cpp/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

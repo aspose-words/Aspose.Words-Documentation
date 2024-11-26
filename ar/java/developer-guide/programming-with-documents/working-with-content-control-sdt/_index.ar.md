@@ -1,114 +1,115 @@
----
-title: العمل مع وحدة التحكم في المحتوى Java
-second_title: Aspose.Words for Java
-articleTitle: العمل مع هيئة مراقبة المحتوى
-linktitle: العمل مع هيئة مراقبة المحتوى
+﻿---
+title: العمل مع التحكم في المحتوى SDT في Java
+second_title: Aspose.Words ل Java
+articleTitle: العمل مع التحكم في المحتوى SDT
+linktitle: العمل مع التحكم في المحتوى SDT
 type: docs
-description: "تحسين إدارة محتوى الوثائق، وكيفية وضع ضوابط للمحتوى والتلاعب بها (تصنيف الوثائق) Java."
+description: "إدارة محتوى المستندات المتقدمة، وكيفية إنشاء عناصر تحكم المحتوى ومعالجتها (علامات المستندات المنظمة) باستخدام Java."
 weight: 390
 url: /ar/java/working-with-content-control-sdt/
+timestamp: 2024-01-31-14-23-37
 ---
 
-In Microsoft Word, يمكنك أن تخلق شكلاً من خلال البدء بنموذج و إضافة ضوابط للمحتوى بما في ذلك صناديق الشيكات وصناديق النص وأجهزة التأريخ وقوائم الهبوط In <span notrans="<span notrans=" Aspose.Words"=""></span>" a Structured Document Tag or content control from any document loaded into Aspose.Words يتم استيراده على أنه عقيدة تاغ منظمة. وتسمح بطاقات الوثائق المصممة (الشعبة العامة أو مراقبة المحتوى) بتضمينها مواد سيمانية محددة من الزبائن، فضلا عن سلوكها ومثولها في وثيقة.
+في Microsoft Word، يمكنك إنشاء نموذج عن طريق البدء بقالب وإضافة عناصر تحكم في المحتوى، بما في ذلك checkboxإس ومربعات النص وجامعي التاريخ والقوائم المنسدلة. في Aspose.Words، يتم استيراد علامة مستند منظم أو عنصر تحكم في المحتوى من أي مستند تم تحميله في Aspose.Words كعقدة StructuredDocumentTag. تسمح علامات المستندات المنظمة (SDT أو التحكم في المحتوى) بتضمين الدلالات المحددة من قبل العميل بالإضافة إلى سلوكها ومظهرها في مستند.
 
-الوثائق الهيكلية ويمكن أن يحدث التذاكر في وثيقة في الأماكن التالية:
+StructuredDocumentTag يمكن أن يحدث في مستند في الأماكن التالية:
 
-- مستوى القفل - من بين الفقرات والجداول، كطفل في هيئة، أو رئيسها، أو تعليقها، أو حافلتها، أو معبدها.
-- مستوى سطح الأرض - من بين الصفوف في الجدول، كطفل في عقد المائدة.
-- مستوى الخلايا - من بين الخلايا في طاولات، كطفل من فصيلة رو.
-- المستوى الداخلي - من بين المحتوى الداخلي، كطفل في الفقرة.
--مستحوذ داخل مركب آخر
+- مستوى الكتلة-بين الفقرات والجداول، كطفل لجسم، HeaderFooter، تعليق، حاشية سفلية أو عقدة شكل.
+- مستوى الصف-بين الصفوف في الجدول، كطفل لعقدة الجدول.
+- مستوى الخلية - بين الخلايا في صف جدول، كطفل لعقدة صف.
+- المستوى المضمن-بين المحتوى المضمن في الداخل، كطفل لفقرة.
+- متداخلة داخل آخر StructuredDocumentTag.
 
-## إدراج ضوابط المحتوى في وثيقة
+## إدراج عناصر تحكم المحتوى في مستند
 
-In this version of Aspose.Words, يمكن إنشاء الأنواع التالية من مادة الـ دي
+في هذا الإصدار من Aspose.Words، يمكن إنشاء الأنواع التالية من SDT أو التحكم في المحتوى:
 
 - Checkbox
 - DropDownList
 - ComboBox
-- Date
+- التاريخ
 - BuildingBlockGallery
-- Group
+- المجموعة
 - `Picture`
 - RichText
 - PlainText
 
-ويبين المثال الرمزي التالي كيفية إنشاء نظام مراقبة المحتوى من نوع ما:
+يوضح مثال التعليمات البرمجية التالية كيفية إنشاء عنصر تحكم المحتوى من النوع checkbox:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CheckBoxTypeContentControl-CheckBoxTypeContentControl.java" >}}
 
-The following code example shows how to create content control of type rich text box:
+يوضح مثال التعليمات البرمجية التالية كيفية إنشاء عنصر تحكم المحتوى من نوع مربع النص المنسق:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-RichTextBoxContentControl-RichTextBoxContentControl.java" >}}
 
-The following code example shows how to create content control of type combo box:
+يوضح مثال التعليمات البرمجية التالية كيفية إنشاء عنصر تحكم المحتوى من نوع مربع التحرير والسرد:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ComboBoxContentControl-ComboBoxContentControl.java" >}}
 
-## How to Update Content Controls
+## كيفية تحديث عناصر التحكم في المحتوى
 
-ويشرح هذا الفرع كيفية تحديث قيم الـ دي.دي.تي أو مراقبة المحتوى من الناحية البرنامجية.
+يشرح هذا القسم كيفية تحديث قيم SDT أو التحكم في المحتوى برمجيا.
 
-The following code example shows how to set the current state of the checkbox:
+يوضح مثال الكود التالي كيفية تعيين الحالة الحالية لـ checkbox:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SetCurrentStateOfCheckBox-SetCurrentStateOfCheckBox.java" >}}
 
-ويبيّن المثال الرمزي التالي كيفية تعديل ضوابط المحتوى من نوع مربع النص العادي، وقائمة الانقطاع والصورة:
+يوضح مثال التعليمات البرمجية التالية كيفية تعديل عناصر التحكم في المحتوى من نوع مربع نص عادي والقائمة المنسدلة والصورة:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ModifyContentControls-ModifyContentControls.java" >}}
 
 {{% alert color="primary" %}}
 
-يمكنك تحميل ملف العينة من هذه الأمثلة [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Structured%20document%20tags.docx).
+يمكنك تنزيل نموذج ملف هذه الأمثلة من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Structured%20document%20tags.docx).
 
 {{% /alert %}}
 
-## التحكم في الوحدات الجمركية
+## ربط التحكم في المحتوى إلى أجزاء XML مخصصة
 
-يمكنك ربط مراقبة المحتوى مع بيانات "إكس إم إل" في وثائق الكلمات
+يمكنك ربط عناصر التحكم في المحتوى ببيانات XML (*custom XML part*) في مستندات ورد.
 
-The following code example shows how to bind content control to custom XML parts:
+يوضح مثال التعليمات البرمجية التالية كيفية ربط عنصر تحكم المحتوى إلى أجزاء XML مخصصة:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-BindingContentControlwithXML-BindingContentControlwithXML.java" >}}
 
-## المحتويات الواضحة لمراقبة المحتوى
+## مسح محتويات عنصر تحكم المحتوى
 
-يمكنك أن تزيل محتويات التحكم بالمحتوى عن طريق عرض مالك مكان **"تاغ" مُنظّم، نظيف** وتوضح الطريقة محتويات هذه الوثيقة المنظمة وتُعرض على مالك مكان إذا تم تعريفها. ومع ذلك، وليس من الممكن توضيح محتويات مراقبة المحتوى إذا كانت لديها تنقيحات. وإذا لم يكن لمراقبة المحتوى حائزاً للمكان، تُدرج خمسة مساحات كما هو الحال في MS Word (باستثناء الأجزاء المكررة، وتكرار البنود، والمجموعات، وصناديق التفتيش، والاستشهاد). If a content control is mapped to custom XML, the referenced XML node is clear.
+يمكنك مسح محتويات عنصر تحكم المحتوى مع عرض عنصر نائب. تقوم طريقة **StructuredDocumentTag.clear()** بمسح محتويات علامة المستند المهيكلة هذه وعرض عنصر نائب إذا تم تعريفه. ومع ذلك، لا يمكن مسح محتويات عنصر تحكم المحتوى إذا كان يحتوي على مراجعات. إذا لم يكن عنصر تحكم المحتوى يحتوي على عنصر نائب، فسيتم إدراج خمس مسافات كما هو الحال في MS كلمة (باستثناء الأقسام المتكررة، وعناصر القسم المتكررة، والمجموعات، وخانات الاختيار، والاستشهادات). إذا تم تعيين عنصر تحكم المحتوى إلى مخصص XML، يتم مسح العقدة XML المشار إليها.
 
-ويبين المثال الرمزي التالي كيفية توضيح محتوى مراقبة المحتوى:
+يوضح مثال الكود التالي كيفية مسح محتوى التحكم في المحتوى:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ClearContentsControl-ClearContentsControl.java" >}}
 
-## ثالثا - معلومات أساسية عن مراقبة المحتوى وعنوان الحدود
+## تغيير خلفية التحكم في المحتوى وألوان الحدود
 
-The `StructuredDocumentTag.Color` الملكية تسمح لك أن تحصل أو تضع لون التحكم في المحتوى. ويؤثر اللون على مراقبة المحتوى في حالتين:
+تتيح لك خاصية `StructuredDocumentTag.Color` الحصول على لون التحكم في المحتوى أو تعيينه. يؤثر اللون على التحكم في المحتوى في حالتين:
 
-1 MS Word highlights the background of the content control when the mouse moves over the content control. وهذا يساعد على تحديد مراقبة المحتوى. لون الإبراز هو "أكثر قليلاً" من *Color*. على سبيل المثال، تُلقي كلمة "إم إس" الضوء على الخلفية مع اللون الوردي، عندما *Color* (ريد)
-2. عندما تتفاعلين (التحرير، الإختيار، الخ) مع مراقبة المحتوى، حدود مراقبة المحتوى ملونة *Color*.
+1. MS كلمة يسلط الضوء على خلفية عنصر تحكم المحتوى عندما يتحرك الماوس فوق عنصر تحكم المحتوى. هذا يساعد على تحديد التحكم في المحتوى. لون تسليط الضوء هو "ليونة" قليلا من *Color*. على سبيل المثال، MS كلمة يسلط الضوء على الخلفية مع اللون الوردي، عندما *Color* أحمر.
+2. عندما تتفاعل (التحرير، الانتقاء، إلخ) مع عنصر التحكم في المحتوى، يتم تلوين حدود عنصر التحكم في المحتوى بـ *Color*.
 
-The following code example shows how to change the color of content control:
+يوضح مثال التعليمات البرمجية التالية كيفية تغيير لون عنصر تحكم المحتوى:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-StructuredDocumentTag-WorkingWithStructuredDocumentTag-SetContentControlColor.java" >}}
 
-## How to Set Style to Format Text Typed into the Content Control
+## كيفية تعيين نمط لتنسيق النص المكتوب في عنصر تحكم المحتوى
 
-إذا كنت تريد وضع أسلوب التحكم في المحتوى، يمكنك استخدام `StructuredDocumentTag.Style` أو `StructuredDocumentTag.StyleName` الممتلكات. عندما تطبع النص في التحكم بالمحتوى في وثيقة الإنتاج، النص المطبعي سيكون له أسلوب "الكويت".
+إذا كنت تريد تعيين نمط التحكم في المحتوى، فيمكنك استخدام خصائص `StructuredDocumentTag.Style` أو `StructuredDocumentTag.StyleName`. عند كتابة النص في عنصر تحكم المحتوى في مستند الإخراج، سيكون للنص المكتوب النمط"اقتباس".
 
 {{% alert color="primary" %}}
 
-Note that only Linked and Character fashions can be applied to content control. يُلقى إستقبال غير قابل للتنفيذ (Cannot apply this fashion to the SDT) عندما يُطبق أسلوب قائم ولكنه ليس متصلاً أو نمط سمسار.
+لاحظ أنه يمكن تطبيق أنماط الأحرف المرتبطة فقط على التحكم في المحتوى. يتم طرح InvalidOperationException ("لا يمكن تطبيق هذا النمط على SDT") عند تطبيق نمط موجود ولكنه غير مرتبط أو يتم تطبيق نمط الحرف.
 
 {{% /alert %}}
 
-The following code example shows how to set the fashion of content control:
+يوضح مثال التعليمات البرمجية التالية كيفية تعيين نمط التحكم في المحتوى:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-StructuredDocumentTag-WorkingWithStructuredDocumentTag-setContentControlStyle.java" >}}
 
-## العمل مع القسم المكرر لمراقبة المحتوى
+## العمل مع التحكم في محتوى القسم المتكرر
 
-وتسمح الرقابة على محتوى القسم المكرر بتكرار المحتوى الوارد فيه. استخدام Aspose.Words, ويمكن، لهذا الغرض، وضع علامات مصممة على أجزاء إعادة التكرار وتكرار أنواع البنود من القسم، [نوع العد](https://reference.aspose.com/words/java/com.aspose.words/sdttype/) (ب) تقدم عضوة في اللجنة التحضيرية.
+يسمح التحكم في محتوى قسم التكرار بتكرار المحتوى الموجود بداخله. باستخدام Aspose.Words، يمكن إنشاء عقد علامة المستند المهيكلة لقسم التكرار وأنواع عناصر القسم المتكرر ولهذا الغرض، يوفر [SdtType نوع التعداد](https://reference.aspose.com/words/java/com.aspose.words/sdttype/) REPEATING_SECTION_ITEM عضوا.
 
-ويبيّن المثال الرمزي التالي كيفية ربط مراقبة محتوى القسم المكرر إلى طاولة:
+يوضح مثال التعليمات البرمجية التالية كيفية ربط عنصر تحكم محتوى مقطع مكرر بجدول:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-StructuredDocumentTag-WorkingWithStructuredDocumentTag-CreatingTableRepeatingSectionMappedToCustomXmlPart.java" >}}
 

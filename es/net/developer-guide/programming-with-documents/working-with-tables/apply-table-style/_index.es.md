@@ -7,6 +7,7 @@ description: "Formato avanzado de tablas C#. Cree un estilo de tabla usando C#. 
 type: docs
 weight: 80
 url: /es/net/working-with-tablestyle/
+timestamp: 2024-02-02-12-07-36
 ---
 
 Un estilo de tabla define un conjunto de formatos que se pueden aplicar fácilmente a una tabla. Los formatos como bordes, sombreado, alineación y fuente se pueden establecer en un estilo de tabla y aplicarse a muchas tablas para lograr una apariencia uniforme.

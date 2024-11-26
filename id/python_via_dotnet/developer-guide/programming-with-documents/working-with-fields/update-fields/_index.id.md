@@ -7,6 +7,7 @@ description: "Perbarui bidang dalam dokumen dengan cara berbeda dan menggunakan 
 type: docs
 weight: 30
 url: /id/python-net/update-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Biasanya, bidang yang dimasukkan ke dalam Microsoft Word sudah berisi nilai terkini. Misalnya, jika bidangnya berupa rumus atau nomor halaman, bidang tersebut akan berisi nilai terhitung yang benar untuk versi dokumen tertentu. Namun jika Anda memiliki aplikasi yang membuat atau memodifikasi dokumen dengan kolom seperti menggabungkan dua dokumen atau mengisinya dengan data, maka idealnya semua kolom harus diperbarui agar dokumen tersebut berguna.
@@ -42,7 +43,7 @@ Anda dapat mengunduh file contoh contoh ini dari [Aspose.Words GitHub](https://g
 
 ### Pembaruan Bidang Otomatis Selama Mail Merge
 
-Saat Anda menjalankan mail merge, semua kolom dalam dokumen akan diperbarui secara otomatis. Hal ini karena mail merge merupakan kasus pembaruan lapangan. Program ini menemukan bidang mail merge dan perlu memperbarui hasilnya, yang melibatkan pengambilan nilai dari sumber data dan memasukkannya ke dalam bidang. Logikanya tentu saja lebih rumit, misalnya ketika akhir wilayah dokumen/mail merge telah tercapai tetapi masih ada data lebih lanjut yang harus digabungkan, maka wilayah tersebut perlu diduplikasi dan kumpulan kolom baru diperbarui.
+Saat Anda menjalankan mail merge, semua kolom dalam dokumen akan diperbarui secara otomatis. Hal ini karena Mail Merge merupakan kasus pembaruan lapangan. Program ini menemukan bidang Mail Merge dan perlu memperbarui hasilnya, yang melibatkan pengambilan nilai dari sumber data dan memasukkannya ke dalam bidang. Logikanya tentu saja lebih rumit, misalnya ketika akhir wilayah dokumen/mail merge telah tercapai tetapi masih ada data lebih lanjut yang harus digabungkan, maka wilayah tersebut perlu diduplikasi dan kumpulan kolom baru diperbarui.
 
 ## Perbarui Bidang yang Memiliki Atribut Kotor
 

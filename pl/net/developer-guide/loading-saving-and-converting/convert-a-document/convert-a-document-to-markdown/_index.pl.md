@@ -8,6 +8,7 @@ description: "Konwertuj dokument w dowolnym obsługiwanym formacie ładowania na
 keywords: how to convert a document to markdown c#
 weight: 40
 url: /pl/net/convert-a-document-to-markdown/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Markdown to popularny format używany do oznaczania tekstu i jego dalszej konwersji do formatu HTML, PDF, DOCX lub innego. Wielu programistów wybiera ten format do pisania dokumentacji, przygotowywania artykułów do publikacji na blogach, opisywania projektów i tak dalej.

@@ -7,6 +7,7 @@ description: "Konwersja dokumentu w formacie Word lub innego obsługiwanego form
 type: docs
 weight: 10
 url: /pl/java/convert-a-document-to-pdf/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Możliwość łatwej i niezawodnej konwersji dokumentów z jednego formatu na inny jest kluczową cechą Aspose.Words. Jednym z najbardziej popularnych formatów do konwersji jest PDF - utrwalony format układu, który zachowuje oryginalny wygląd dokumentu podczas renderowania na różnych platformach. Określenie "renderowanie" jest używane w Aspose.Words opis procesu konwersji dokumentu na format pliku, który jest paginowany lub ma pojęcie stron.

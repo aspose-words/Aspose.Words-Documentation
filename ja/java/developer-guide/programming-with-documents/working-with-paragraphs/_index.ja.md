@@ -1,70 +1,71 @@
----
-title: パラグラフでの作業 Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: パラグラフでの作業
-linktitle: パラグラフでの作業
-description: "パラグラフノード操作の練習 Javaお問い合わせ"
+﻿---
+title: Javaの段落の操作
+second_title: Aspose.WordsのためのJava
+articleTitle: 段落の操作
+linktitle: 段落の操作
+description: "段落ノードの操作はJavaを使用して行われます。"
 type: docs
 weight: 210
 url: /ja/java/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
-段落は、論理ブロックに結合し、特別な文字で終わる文字のセットです。*paragraph break*。 インスタグラム Aspose.Words, 段落は、 [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) クラス。
+段落は、論理ブロックに結合され、特殊文字で終わる文字のセットです–a*paragraph break*。 Aspose.Wordsでは、段落は[Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/)クラスで表されます。
 
-## パラグラフをインサートする
+## 段落の挿入
 
-新しい段落を文書に差し込むには、実際には段落の休憩文字をそれに差し込む必要があります。 [DocumentBuilder.Writeln](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#writeln) テキストの文字列だけを文書に差し込むだけでなく、段落のブレイクも加える。
+文書に新しい段落を挿入するには、実際には段落区切り文字を挿入する必要があります。 [DocumentBuilder.Writeln](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#writeln)テキストの文字列をドキュメントに挿入するだけでなく、段落区切りも追加します。
 
-現在のフォントのフォーマットも指定します [Font](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getFont) プロパティ、および現在の段落の書式は、 [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getParagraphFormat) 宿泊施設 次のセクションでは、段落のフォーマットについて詳しく説明します。
+現在のフォントの書式設定は[Font](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getFont)プロパティでも指定され、現在の段落の書式設定は[ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getParagraphFormat)プロパティで決定されます。 次のセクションでは、段落の書式設定について詳しく説明します。
 
-次のコードの例では、段落を文書に差し込む方法を示します。
+次のコード例は、文書に段落を挿入する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderInsertParagraph.java" >}}
 
 
-## フォーマット パラグラフ
+## 段落の書式設定
 
-現在の段落の書式は、 [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/) 返されたオブジェクト [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getParagraphFormat) プロパティ. このオブジェクトは、利用可能なさまざまな段落の書式特性をカプセル化します Microsoft Wordお問い合わせ 段落のフォーマットをデフォルトに簡単にリセットできます。通常スタイル、左揃え、インデントなし、間隔なし、境界線なし、シェーディングなし - 呼び出し [ClearFormatting](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#clearFormatting)お問い合わせ
+現在の段落の書式設定は、[ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getParagraphFormat)プロパティによって返される[ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/)オブジェクトによって表されます。 このオブジェクトはMicrosoft Wordで利用可能な様々な段落書式設定プロパティをカプセル化します。 [ClearFormatting](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#clearFormatting)を呼び出すことで、段落の書式をデフォルト（通常のスタイル、左揃え、インデントなし、間隔なし、境界線なし、陰影なし）に簡単にリセットできます。
 
-次のコードの例では、段落の書式を設定する方法を示します。
+次のコード例は、段落の書式設定を設定する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderSetParagraphFormatting.java" >}}
 
-## パラグラフスタイルを適用
+## 段落スタイルの適用
 
-Font や ParagraphFormat サポートスタイルなどのフォーマットオブジェクト。 単一の組み込みまたはユーザー定義のスタイルは、 [Style](https://reference.aspose.com/words/java/com.aspose.words/style/) スタイルの名前、ベーススタイル、フォント、段落フォーマットなどの対応するスタイルプロパティを含むオブジェクト。
+フォントやParagraphFormatのような一部の書式設定オブジェクトはスタイルをサポートしています。 単一の組み込みまたはユーザー定義のスタイルは、名前、基本スタイル、フォント、スタイルの段落書式などの対応するスタイルプロパティを含む[Style](https://reference.aspose.com/words/java/com.aspose.words/style/)オブジ
 
-さらに、 **Style** オブジェクトは、 [StyleIdentifier](https://reference.aspose.com/words/java/com.aspose.words/style/#getStyleIdentifier) locale 独立したスタイル ID を返すプロパティ **StyleIdentifier** 列挙値。 点は、組み込みスタイルの名前が組み込まれていることです。 Microsoft Word 異なる言語のためにローカライズされます。 スタイル識別子を使用して、ドキュメント言語に関係なく正しいスタイルを見つけることができます。 列挙値が対応する Microsoft Word 作り付け様式のような *Normal*, ※見出し1*、*見出し2*など すべてのユーザー定義のスタイルが割り当てられます **スタイル識別子。 ユーザー価値**お問い合わせ
+さらに、**Style**オブジェクトは、**StyleIdentifier**列挙値によって表されるロケールに依存しないスタイル識別子を返す[StyleIdentifier](https://reference.aspose.com/words/java/com.aspose.words/style/#getStyleIdentifier)プロパティを提供します。 重要なのは、Microsoft Wordの組み込みスタイルの名前が異なる言語にローカライズされていることです。 スタイル識別子を使用すると、文書の言語に関係なく正しいスタイルを見つけることができます。 列挙値は、次のようなMicrosoft Word組み込みスタイルに対応します*Normal*, *Heading 1*, *Heading 2*, など。 すべてのユーザー定義スタイルには**StyleIdentifier.User value**が割り当てられます。
 
-次のコードの例では、段落スタイルを適用する方法を示します。
+次のコード例は、段落スタイルを適用する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderApplyParagraphStyle.java" >}}
 
-## 異なるパラグラフスタイルを置くインサートスタイルの分離器
+## 別の段落スタイルを配置するには、スタイル区切り文字を挿入します
 
-スタイルセパレータは、Ctrl + Alt + キーボードショートカットをMS Wordに入力することで、段落の最後に追加できます。 この機能は、1つの論理的な印刷された段落で使用される2つの異なる段落のスタイルを可能にします。 特定の見出しの先頭からテキストを表示したい場合は、コンテンツの表に表示しますが、コンテンツの表に見出し全体が望まない場合は、この機能を使うことができます。
+スタイルセパレータは、Ctrl+Alt+EnterキーボードショートカットをMSWordに使用して段落の最後に追加できます。 この機能を使用すると、1つの論理的に印刷された段落で使用される2つの異なる段落スタイルを使用できます。 特定の見出しの先頭からのテキストを目次に表示したいが、見出し全体を目次に表示したくない場合は、この機能を使用できます。
 
-次のコードの例では、異なる段落スタイルに対応するスタイルセパレータをインサートする方法を示します。
+次のコード例は、さまざまな段落スタイルに対応するためにスタイル区切り文字を挿入する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-ParagraphInsertStyleSeparator.java" >}}
 
 
-## ボーダーを適用し、パラグラフにシェーディング
+## 段落に罫線と陰影を適用する
 
-ボーダーズ Aspose.Words は、 [BorderCollection](https://reference.aspose.com/words/java/com.aspose.words/bordercollection/) クラス – これはコレクションです [Border](https://reference.aspose.com/words/java/com.aspose.words/border/) インデックスまたはボーダータイプでアクセスするオブジェクト。 ザ・オブ・ザ・ `Border` 型は、 [BorderType](https://reference.aspose.com/words/java/com.aspose.words/bordertype/) パンフレット 列挙のいくつかの値が複数または1つの文書要素にのみ適用されます。 例えば、 **BorderType.Bottom** 段落またはテーブルセルに適用される **BorderType.DiagonalDown** 対角線をテーブルセルのみで指定します。
+Aspose.Wordsの境界線は[BorderCollection](https://reference.aspose.com/words/java/com.aspose.words/bordercollection/)クラスによって表されます–これはインデックスまたは境界線の種類によってアクセスされる[Border](https://reference.aspose.com/words/java/com.aspose.words/border/)オブジェクトのコレクションです。 `Border`型は[BorderType](https://reference.aspose.com/words/java/com.aspose.words/bordertype/)列挙型で表されます。 列挙体の一部の値は、複数または1つのドキュメント要素にのみ適用できます。 たとえば、**BorderType.Bottom**は段落または表のセルに適用できますが、**BorderType.DiagonalDown**は表のセル内の対角線の境界線のみを指定します。
 
-境界コレクションと各境界線は、色、線スタイル、線幅、テキストからの距離、オプションの影のような類似の属性を持っています。 同じ名前のプロパティで表されます。 プロパティの値を組み合わせることで、異なる境界タイプを実現できます。 その他、両方 **BorderCollection** そして、 **Border** オブジェクトを使用すると、これらの値をデフォルトにリセットできます。 [ClearFormatting](https://reference.aspose.com/words/java/com.aspose.words/border/#clearFormatting) メソッド。
+Borderコレクションとそれぞれの境界線の両方には、色、線のスタイル、線の幅、テキストからの距離、オプションの影などの同様の属性があります。 それらは同じ名前のプロパティによって表されます。 プロパティ値を組み合わせることで、さまざまな境界線の種類を実現できます。 さらに、**BorderCollection**オブジェクトと**Border**オブジェクトの両方で、[ClearFormatting](https://reference.aspose.com/words/java/com.aspose.words/border/#clearFormatting)メソッドを呼び出すことでこれらの値を既定値にリセットできます。
 
 {{% alert color="primary" %}}
 
-境界プロパティがデフォルト値にリセットされる場合、境界は見えないことに注意してください。
+境界線のプロパティがデフォルト値にリセットされると、境界線は非表示になります。
 
 {{% /alert %}}
 
-Aspose.Words また持っています [Shading](https://reference.aspose.com/words/java/com.aspose.words/shading/) クラスには、ドキュメント要素のシェーディング属性が含まれています。 目的のシェーディングテクスチャと要素の背景と背景に適用される色を設定できます。
+Aspose.Wordsには、文書要素のシェーディング属性が含まれている[Shading](https://reference.aspose.com/words/java/com.aspose.words/shading/)クラスもあります。 必要なシェーディングテクスチャと、要素の背景と前景に適用される色を設定できます。
 
-シェーディングテクスチャは、 [TextureIndex](https://reference.aspose.com/words/java/com.aspose.words/textureindex/) 様々なパターンのアプリケーションを様々なパターンに適用できる列挙値 **Shading** オブジェクト。 例えば、ドキュメント要素の背景色を設定するには、 `TextureIndex.TextureSolid` 値を設定し、フォアグラウンドシェーディングカラーを適切に設定します。 下のコード例では、境界線を適用する方法と段落にシェーディングする方法を示します。
+シェーディングテクスチャは[TextureIndex](https://reference.aspose.com/words/java/com.aspose.words/textureindex/)列挙値で設定され、**Shading**オブジェクトにさまざまなパターンを適用できます。 たとえば、ドキュメント要素の背景色を設定するには、`TextureIndex.TextureSolid`の値を使用し、必要に応じて前景の陰影の色を設定します。 次のコード例は、段落に境界線と陰影を適用する方法を示しています。
 
-次のコードの例では、境界線と段落にシェーディングを適用する方法を示します。
+次のコード例は、段落に罫線と陰影を適用する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderApplyBordersAndShadingToParagraph.java" >}}

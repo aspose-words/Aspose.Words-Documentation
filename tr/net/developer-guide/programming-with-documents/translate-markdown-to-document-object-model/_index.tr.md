@@ -7,6 +7,7 @@ type: docs
 description: "Bir Markdown belgesini Document Object Model'ye çevirin ve C# kullanarak geri alın. Böylece, mevcut karmaşık Markdown ile çalışabilir ve programlı olarak sıfırdan bir Markdown belgesi oluşturabilirsiniz."
 weight: 20
 url: /tr/net/translate-markdown-to-document-object-model/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Bir belgenin içeriğini ve biçimlendirmesini programlı olarak okumak, değiştirmek ve değiştirmek için onu Aspose.Words Document Object Model'ye (DOM) çevirmeniz gerekir.
@@ -40,12 +41,12 @@ Madde işaretli ve sıralı listeler Markdown'te de kapsayıcı bloklardır. Yuv
 |  **Italic**<br /> `*italic text*` |  `Font.Italic = true`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  |  |
 |  **Strikethrough**<br /> `~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Make the text Strikethrough.
 builder.Font.Strikethrough = true;
-builder.Writeln("This text will be Strikethrough");{{< /highlight >}} |  |
+builder.Writeln("This text will be Strikethrough"); {{< /highlight >}} |  |
 
 `InlineCode` özelliği için `InlineCode` kelimesinden başlayan bir isme ve ardından isteğe bağlı bir nokta `(.)`'ye ve bir dizi geri tırnak ```(`)```'ine sahip bir karakter stili kullanırız. Bir dizi geri tıklama kaçırılırsa, varsayılan olarak bir geri tıklama kullanılacaktır.
 
@@ -72,10 +73,10 @@ Aşağıdaki tablo Aspose.Words'de Markdown Yaprak bloklarının kullanımına i
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **HorizontalRule**<br /> `-----` |  Bu, karşılık gelen HorizontalRule şekline sahip basit bir paragraftır:<br /> `DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}}  |                                                                |
-|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, burada (1&lt;= N &lt;= 9).<br /> Bu, yerleşik bir stile dönüştürülür ve tam olarak belirtilen modelde olmalıdır (hiçbir sonek veya öneklere izin verilmez).<br /> Aksi takdirde, karşılık gelen stile sahip sıradan bir paragraf olacaktır |
+|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`, burada (1&le; N &le; 9).<br /> Bu, yerleşik bir stile dönüştürülür ve tam olarak belirtilen modelde olmalıdır (hiçbir sonek veya öneklere izin verilmez).<br /> Aksi takdirde, karşılık gelen stile sahip sıradan bir paragraf olacaktır |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
-|  **Setext Heading**<br /> `===` (Başlık düzeyi 1 ise),<br /> `---` (Başlık düzeyi 2 ise) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, `“Heading N”` stilini temel alır.<br /> (N &gt;= 2) ise `“Heading 2”` kullanılacaktır, aksi takdirde `“Heading 1”` kullanılacaktır.<br /> Herhangi bir son eke izin verilir, ancak Aspose.Words içe aktarıcısı sırasıyla "1" ve "2" rakamlarını kullanır |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  **Setext Heading**<br /> `===` (Başlık düzeyi 1 ise),<br /> `---` (Başlık düzeyi 2 ise) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, 'Heading N' stilini temel alır.<br /> (N &ge; 2) ise 'Heading 2' kullanılacaktır, aksi takdirde 'Heading 1' kullanılacaktır.<br /> Herhangi bir son eke izin verilir, ancak Aspose.Words içe aktarıcısı sırasıyla "1" ve "2" rakamlarını kullanır |
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.ParagraphFormat.StyleName = "Heading 1";
@@ -102,7 +103,7 @@ builder.ParagraphFormat.Style = setexHeading2;
 builder.Document.Styles["SetextHeading2"].BaseStyleName = "Heading 3";
 
 // Setex heading level will be reset to 2 if the base paragraph has a Heading level greater than 2.
-builder.Writeln("Setext Heading level 2");{{< /highlight >}} |
+builder.Writeln("Setext Heading level 2"); {{< /highlight >}} |
 |   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-IndentedCode.cs" >}}  |                                                                |
 |  **Fenced Code**<br /> {{< highlight csharp >}}``` c#
@@ -119,7 +120,7 @@ Aşağıdaki tablo Aspose.Words'de Markdown Karmaşık Kapsayıcıların kullan�
 |  Markdown özelliği |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  **Quote**<br /> `> quote,`<br /> `>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br /> Stil adındaki son ek isteğe bağlıdır, ancak Aspose.Words içe aktarıcısı 1, 2, 3, … sıralı sayıları kullanır. iç içe geçmiş tırnaklar durumunda.<br /> Yuvalama, devralınan stillerle tanımlanır |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // By default a document stores blockquote style for the first level.
@@ -130,7 +131,7 @@ builder.Writeln("Blockquote");
 Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
-builder.Writeln("1. Nested blockquote");{{< /highlight >}} |
+builder.Writeln("1. Nested blockquote"); {{< /highlight >}} |
 |  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  Madde işaretli listeler paragraf numaralandırması kullanılarak temsil edilir:<br /> `ListFormat.ApplyBulletDefault()`<br /> 3 tip madde imli liste olabilir. Bunlar yalnızca ilk düzeyin numaralandırma biçiminde farklılık gösterir. Bunlar: sırasıyla `‘-’`, `‘+’` veya `‘*’` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}}  |                                                                |
 |  **OrderedList**<br /> `1. Item 1`<br /> `2. Item 2`<br /> `1) Item 2a`<br /> `2) Item 2b` |  Sıralı listeler paragraf numaralandırması kullanılarak temsil edilir:<br /> `ListFormat.ApplyNumberDefault()`<br /> 2 sayı biçimi işaretçisi olabilir: '.' Ve ')'. Varsayılan işaretleyici '.'dir |
@@ -147,7 +148,7 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent();
 
 builder.Writeln("Item 2a");
-builder.Writeln("Item 2b");{{< /highlight >}} |                                                                |
+builder.Writeln("Item 2b"); {{< /highlight >}} |                                                                |
 
 ### Tablolar
 
@@ -156,7 +157,7 @@ Aspose.Words ayrıca aşağıda gösterildiği gibi tabloların DOM'ye çevrilme
 |  Markdown özelliği |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
 |  `Table`<br /> 'bir | b`<br />`-|-`<br />`c|d' |  [Table](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/tr/net/aspose.words.tables/row/) ve [Cell](https://reference.aspose.com/words/tr/net/aspose.words.tables/cell/) sınıfları |
-|  {{< highlight csharp >}}// Use a document builder to add content to the document.
+|  {{< highlight csharp >}} // Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Add the first row.
@@ -169,7 +170,7 @@ builder.Writeln("b");
 builder.InsertCell();
 builder.Writeln("c");
 builder.InsertCell();
-builder.Writeln("d");{{< /highlight >}} |                                                                |
+builder.Writeln("d"); {{< /highlight >}} |                                                                |
 
 ## Ayrıca bakınız
 

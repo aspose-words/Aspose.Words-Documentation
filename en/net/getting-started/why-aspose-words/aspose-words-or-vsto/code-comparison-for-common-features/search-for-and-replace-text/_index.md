@@ -7,6 +7,7 @@ description: "Find and replace text from a document part easily and fast instead
 type: docs
 weight: 90
 url: /net/search-for-and-replace-text/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## VSTO

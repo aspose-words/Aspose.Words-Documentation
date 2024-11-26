@@ -7,6 +7,7 @@ description: "Chuyển đổi tài liệu sang PDF với các tùy chọn nâng 
 type: docs
 weight: 20
 url: /vi/net/specify-rendering-options-when-converting-to-pdf/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Định dạng PDF là định dạng trang cố định rất phổ biến đối với người dùng và được nhiều ứng dụng khác nhau hỗ trợ rộng rãi vì tài liệu PDF trông giống nhau trên mọi thiết bị. Vì lý do đó, chuyển đổi sang PDF là một tính năng quan trọng của Aspose.Words.

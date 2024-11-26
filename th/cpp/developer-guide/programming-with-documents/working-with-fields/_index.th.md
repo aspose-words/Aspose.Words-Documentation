@@ -1,4 +1,4 @@
-﻿---
+---
 title: การทำงานกับฟิลด์ในC++
 second_title: Aspose.WordsสำหรับC++
 articleTitle: การทำงานกับฟิลด์
@@ -7,6 +7,7 @@ description: "รู้เบื้องต้นเกี่ยวกับค
 type: docs
 weight: 370
 url: /th/cpp/working-with-fields/
+timestamp: 2024-01-30-16-22-34
 ---
 
 **สนาม**

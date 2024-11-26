@@ -7,6 +7,7 @@ description: "Insertar un párrafo en un documento C#. Establecer estilos de pá
 type: docs
 weight: 210
 url: /es/net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un párrafo es un conjunto de caracteres combinados en un bloque lógico y que termina con un carácter especial: un *salto de párrafo*. En Aspose.Words, un párrafo está representado por la clase [Paragraph](https://reference.aspose.com/words/es/net/aspose.words/paragraph/).

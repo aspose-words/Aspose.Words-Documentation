@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET は、C# を使用したドキュメント�
 type: docs
 weight: 50
 url: /ja/net/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ドキュメントを保護または暗号化する主な理由は、ドキュメントにアクセスできるユーザーまたは編集できるユーザーをより詳細に制御するためです。ドキュメントに保護を適用すると、許可なくドキュメントをコピーまたは変更したり、データ漏洩などの一般的なリスクを回避できます。

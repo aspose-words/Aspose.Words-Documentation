@@ -7,6 +7,7 @@ description: "התקן Aspose.Words עבור Java מתוך Maven מחדש. Defin
 type: docs
 weight: 10
 url: /he/java/installation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ודא שהמכונה שלך פוגשת [דרישות מערכת](/words/he/java/system-requirements/) לפני שתתחיל.

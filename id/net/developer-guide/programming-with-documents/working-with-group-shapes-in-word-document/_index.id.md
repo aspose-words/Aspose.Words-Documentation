@@ -7,6 +7,7 @@ description: "Grouping dan memisahkan bentuk menggunakan C#."
 type: docs
 weight: 290
 url: /id/net/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Terkadang Anda perlu menambahkan group shape ke dalam dokumen Word. group shape semacam itu terdiri dari berbagai bentuk.

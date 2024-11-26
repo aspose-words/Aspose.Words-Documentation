@@ -7,6 +7,7 @@ description: "Unduh contoh Aspose.Words untuk .NET dari repositori GitHub kami d
 type: docs
 weight: 110
 url: /id/net/how-to-run-the-examples/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Untuk lebih memahami kemungkinan dan fitur Aspose.Words, kami memberikan contoh yang dapat diunduh dari repositori GitHub kami, dijalankan, dan dipelajari secara detail.

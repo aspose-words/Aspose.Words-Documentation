@@ -7,6 +7,7 @@ description: "Aspose.Words for .NET は、結果として得られるドキュ�
 type: docs
 weight: 10
 url: /ja/net/manipulating-and-substitution-truetype-fonts/
+timestamp: 2024-10-21-11-17-44
 ---
 
 Aspose.Words では、ドキュメントを PDF や XPS などの固定ページ形式にレンダリングするなど、さまざまなタスクに TrueType フォントが必要です。 Aspose.Words がドキュメントをレンダリングするときは、結果のドキュメントに TrueType フォントの埋め込みとサブセット埋め込みを実行する必要があります。これは、一般的な PDF または XPS 形式を含むドキュメント生成時の通常の作業です。これにより、ドキュメントがどの閲覧者にとっても同じように見えるようになります。さらに、XPS 仕様では、フォントを常にドキュメントに埋め込む必要があります。
@@ -58,7 +59,7 @@ Aspose.Words は、ドキュメント内でフォントを初めて検出する�
 1. Aspose.Words が、名前が完全に一致し、このフォントに定義された [AltName](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/altname/) プロパティを持つ必要なフォントを見つけることができない場合、Aspose.Words は、フォント情報を指定する [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) クラスから **AltName** で定義されたフォントを検索します。
 1. Aspose.Words が定義されたフォントを見つけることができず、**AltName** も定義されていない場合は、以下で説明するように、フォント置換ルールが 1 つずつ適用されます (適切な置換が見つかると、フォント置換プロセスが停止し、次のステップは実行されません):
    1. まず、Aspose.Words はフォント名を処理して置換を取得しようとします。特に、「-」と「,」区切り文字を含むサフィックスを削除しようとします。<br>
-      この置換ルールが適用される場合、「フォント '&lt;OriginalFont&gt;' が見つかりません。代わりに '&lt;SubstitutionFont&gt;' フォントを使用します。理由: フォント名の置換。」警告が表示されます。<br>
+      この置換ルールが適用される場合、「フォント '<OriginalFont>' が見つかりません。代わりに '<SubstitutionFont>' フォントを使用します。理由: フォント名の置換。」警告が表示されます。<br>
             {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontsFoldersSystemAndCustomFolder-GetSubstitutionWithoutSuffixes.cs" >}}
    1. 次に、Aspose.Words は、**FontConfig** ユーティリティを使用して、OS フォント設定が利用可能な場合はその設定を適用しようとします。この非 Windows 機能は、FontConfig と互換性のある OS で使用する必要があります。ほとんどすべての Unix ベースの OS には、システム全体のフォント構成、カスタマイズ、アプリケーションへのアクセスを提供するように設計された `FontConfig` ライブラリがすでに組み込まれています。それ以外の場合、このライブラリはユーザーが簡単にインストールできます。
       Aspose.Words は、データをクエリし、FontConfig の結果を独自の目的で解釈する方法を知っています。デフォルトでは、`FontConfig` ユーティリティは無効になっています。次のように有効にできます。<br>

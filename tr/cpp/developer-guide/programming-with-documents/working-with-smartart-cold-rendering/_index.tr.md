@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ 'de SmartArt Soğuk İşleme ile Çalışma
 second_title: Aspose.Words için C++
 articleTitle: SmartArt Soğuk İşleme ile Çalışma
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words için C++ SmartArt Soğuk İşleme gerçekleştirir, yani önceden oluşturulmuş SmartArt çizim eksik veya yanlışsa SmartArt nesneleri yerleştirir ve işler."
 weight: 330
 url: /tr/cpp/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 SmartArt grafikler, bilginin görsel bir temsilini hızlı ve kolay bir şekilde oluşturmak için kullanılır. Durumunuza en uygun çok sayıda düzen arasından seçim yapmanız yeterlidir. Bu kullanım kolaylığı, SmartArt grafiklerini bazı amaçlar için oldukça popüler hale getirir.

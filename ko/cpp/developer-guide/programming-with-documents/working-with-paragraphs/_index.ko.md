@@ -1,4 +1,4 @@
-﻿---
+---
 title: 단락 작업 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 단락 작업
@@ -7,6 +7,7 @@ description: "단락 노드 조작 관행 C++."
 type: docs
 weight: 210
 url: /ko/cpp/working-with-paragraphs/
+timestamp: 2024-01-30-16-22-34
 ---
 
 단락은 논리 블록으로 결합 된 문자 집합이며 특수 문자로 끝납니다. *paragraph break*. 그 안에 Aspose.Words,항은 [Paragraph](https://reference.aspose.com/words/cpp/aspose.words/paragraph/) 수업

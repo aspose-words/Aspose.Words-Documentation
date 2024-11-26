@@ -1,4 +1,4 @@
-﻿---
+---
 title: Formatos de Documento Admitidos
 second_title: Aspose.Words para C++
 articleTitle: Formatos de Documento Admitidos
@@ -7,6 +7,7 @@ type: docs
 description: "Edite documentos de origen en muchos formatos populares, así como convierta archivos libremente de un formato a otro usando C++."
 weight: 20
 url: /es/cpp/supported-document-formats/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

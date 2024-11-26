@@ -1,4 +1,4 @@
-﻿---
+---
 title: Работа с полями в C++
 second_title: Aspose.Words для C++
 articleTitle: Работа с полями
@@ -7,6 +7,7 @@ description: "Введение в функцию поля в Aspose.Words для
 type: docs
 weight: 370
 url: /ru/cpp/working-with-fields/
+timestamp: 2024-01-30-16-22-34
 ---
 
 **Поля**

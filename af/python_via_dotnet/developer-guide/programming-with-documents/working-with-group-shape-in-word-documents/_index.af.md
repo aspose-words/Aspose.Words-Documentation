@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hoe om Group Shape In Word-Lêer By Te Voeg
 second_title: Aspose.Words vir Python via .NET
 articleTitle: Werk met Group Shape in Word-Dokumente
@@ -7,6 +7,7 @@ description: "Voeg group shape by'n dokument met Python."
 type: docs
 weight: 290
 url: /af/python-net/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Soms moet jy'n group shape by'n Word-dokument voeg. So'n group shape bestaan uit verskeie vorms.

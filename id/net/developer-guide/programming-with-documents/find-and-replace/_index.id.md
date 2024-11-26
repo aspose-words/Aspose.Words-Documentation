@@ -7,6 +7,7 @@ type: docs
 description: "Temukan string atau pola ekspresi reguler di dokumen Anda dan ganti dengan teks yang Anda inginkan menggunakan C#."
 weight: 100
 url: /id/net/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Anda dapat dengan mudah menavigasi dalam dokumen Anda menggunakan keyboard dan mouse, namun jika Anda memiliki banyak halaman untuk digulir, akan memakan waktu cukup lama untuk menemukan teks tertentu dalam dokumen yang panjang. Akan lebih memakan waktu ketika Anda ingin mengganti karakter atau kata tertentu yang telah Anda gunakan dalam dokumen Anda. Fungsionalitas "Temukan dan ganti" memungkinkan Anda menemukan rangkaian karakter dalam dokumen dan menggantinya dengan rangkaian karakter lain.

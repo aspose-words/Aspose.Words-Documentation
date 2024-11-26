@@ -7,6 +7,7 @@ description: "ליצור ולנהל צורות, אובייקטים ole במסמ�
 type: docs
 weight: 280
 url: /he/python-net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 נושא זה דן כיצד לעבוד באופן מתודולוגי עם צורות באמצעות Aspose.Words.

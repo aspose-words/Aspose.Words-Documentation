@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのチャートの操作
 second_title: C++の場合Aspose.Words
 articleTitle: チャートの操作
@@ -7,6 +7,7 @@ description: "チャート機能の紹介、c++を使用してチャートを作
 type: docs
 weight: 310
 url: /ja/cpp/working-with-charts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 新しい[InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/)メソッドが[DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/)クラスに追加されました。 それでは、[InsertChart](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertchart/)メソッドを使用して簡単な縦棒グラフを文書に挿入する方法を見てみましょう。

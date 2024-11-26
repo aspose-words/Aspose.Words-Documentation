@@ -7,6 +7,7 @@ description: "GroupИнг и негруппирующие формы с испо
 type: docs
 weight: 290
 url: /ru/net/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Иногда вам нужно добавить group shape В виде документа Word. Такой group shape состоит из нескольких форм.

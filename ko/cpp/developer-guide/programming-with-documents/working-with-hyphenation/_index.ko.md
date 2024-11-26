@@ -1,4 +1,4 @@
-﻿---
+---
 title: 하이픈 넣기 작업 C++
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 하이픈 넣기 작업
@@ -7,6 +7,7 @@ description: "다음을 사용하여 텍스트의 보다 컴팩트한 배열을 
 type: docs
 weight: 220
 url: /ko/cpp/working-with-hyphenation/
+timestamp: 2024-01-30-16-22-34
 ---
 
 때때로 문서의 텍스트를 더 콤팩트하게 배열하기 위해 빗자리를 사용해야 합니다. 동시에,단어 빗자리의 특성은 각 언어마다 다를 수 있다는 것을 이해하는 것이 중요합니다.

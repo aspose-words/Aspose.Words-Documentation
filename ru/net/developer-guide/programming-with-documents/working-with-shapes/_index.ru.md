@@ -7,6 +7,7 @@ description: "Введение в язык разметки формы, созд
 type: docs
 weight: 280
 url: /ru/net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Эта тема обсуждает, как программно работать с формами, используя Aspose.Words.

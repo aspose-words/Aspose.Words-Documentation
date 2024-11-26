@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのアジアのタイポグラフィ
 second_title: C++の場合Aspose.Words
 articleTitle: アジアのタイポグラフィを扱う
@@ -7,6 +7,7 @@ description: "C++を使用してアジアのタイポグラフィで作業しま
 type: docs
 weight: 240
 url: /ja/cpp/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 アジアのタイポグラフィは、アジアの言語で書かれた文書のテキスト段落のオプションのセットです。

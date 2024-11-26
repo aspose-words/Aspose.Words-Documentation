@@ -7,6 +7,7 @@ description: "Porovnat Word dokumenty sdílené v Liferay podání C#. Práce s 
 type: docs
 weight: 20
 url: /cs/net/work-with-document-stored-in-liferay/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Liferay Portál je softwarová platforma open source podnikového portálu určená pro rozvoj webových portálů a webových stránek. Liferay poskytuje systém správy dokumentů jako součást své portálové platformy, umožňující uživatelům vytvářet, organizovat, ukládat a spravovat dokumenty ve spolupráci a efektivně. Tato funkce správy dokumentů je často označována jako Liferay Knihovna dokumentů.

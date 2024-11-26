@@ -1,4 +1,4 @@
-﻿---
+---
 title: Arbeiten mit Formularfeldern in C++
 second_title: Aspose.Words für C++
 articleTitle: Arbeiten mit Formularfeldern
@@ -7,6 +7,7 @@ description: "Grundlegendes zu Formularfeldern, Arbeiten mit Formularfeldern mit
 type: docs
 weight: 380
 url: /de/cpp/working-with-form-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Ein Dokument, das ausfüllbare Leerzeichen (Felder) enthält, wird als Formular bezeichnet. Sie können beispielsweise ein Registrierungsformular in Microsoft Word erstellen, das Dropdown-Listen verwendet, aus denen Benutzer Einträge auswählen können. Ein Formularfeld ist ein Speicherort, an dem eine bestimmte Art von Daten, z. B. ein Name oder eine Adresse, gespeichert ist. Formularfelder in Microsoft Word enthalten Texteingabe, Kombinationsfeld und Kontrollkästchen.

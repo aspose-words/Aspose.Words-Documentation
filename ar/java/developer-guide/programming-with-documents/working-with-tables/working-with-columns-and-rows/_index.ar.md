@@ -1,117 +1,118 @@
----
-title: العمل مع كولومنز ورو Java
-second_title: Aspose.Words for Java
-articleTitle: العمل مع كولومنز ورو
-linktitle: العمل مع كولومنز ورو
-description: "العمل مع أجزاء من الجدول - الصفوف والأعمدة والخلايا باستخدام Java. تحديد العنوان Java."
+﻿---
+title: العمل مع الأعمدة والصفوف في Java
+second_title: Aspose.Words ل Java
+articleTitle: العمل مع الأعمدة والصفوف
+linktitle: العمل مع الأعمدة والصفوف
+description: "العمل مع أجزاء من جدول-الصفوف والأعمدة والخلايا باستخدام Java. حدد صف الرأس Java."
 type: docs
 weight: 30
 url: /ar/java/working-with-columns-and-rows/
+timestamp: 2024-01-27-14-07-04
 ---
 
-للمزيد من التحكم في كيفية عمل الجداول، تعلم كيفية التلاعب بالأعمدة والأصفاد.
+لمزيد من التحكم في كيفية عمل الجداول، تعرف على كيفية معالجة الأعمدة والصفوف.
 
-## الرقم القياسي لبيانات الجدول
+## ابحث عن فهرس عنصر الجدول
 
-وتدار الكولوم والجداول والزنزانات عن طريق الوصول إلى رمز الوثيقة المختارة حسب مؤشرها. العثور على فهرس أي عقد يتضمن جمع كل شوارع الأطفال من نوع العنصر من رمز الوالدين، ثم استخدام [IndexOf](https://reference.aspose.com/words/java/com.aspose.words/nodecollection/#indexOf-com.aspose.words.Node) طريقة للعثور على فهرس العقد المنشود في المجموعة.
+تتم إدارة الأعمدة والصفوف والخلايا عن طريق الوصول إلى عقدة المستند المحددة بواسطة فهرسها. يتضمن العثور على فهرس أي عقدة جمع جميع العقد الفرعية لنوع العنصر من العقدة الأم، ثم استخدام طريقة [IndexOf](https://reference.aspose.com/words/java/com.aspose.words/nodecollection/#indexOf-com.aspose.words.Node) للعثور على فهرس العقدة المطلوبة في المجموعة.
 
-### البحث عن فهرس جدول في الوثيقة
+### ابحث عن فهرس جدول في مستند
 
-في بعض الأحيان قد تحتاج إلى إجراء تغييرات على طاولة معينة في وثيقة. للقيام بذلك، يمكنك أن تشير إلى جدول حسب الرقم القياسي.
+في بعض الأحيان قد تحتاج إلى إجراء تغييرات على جدول معين في مستند. للقيام بذلك، يمكنك الرجوع إلى جدول حسب فهرسه.
 
-ويبين المثال الرمزي التالي كيفية استرجاع الرقم القياسي للجدول في وثيقة ما:
+يوضح مثال التعليمات البرمجية التالية كيفية استرداد فهرس جدول في مستند:
 
 {{< gist "aspose-words-gists" "14f5cea1b896ffd04f143627939e0878" "retrieve-table-index.java" >}}
 
-### البحث عن فهرس خام في جدول
+### العثور على فهرس صف في جدول
 
-وبالمثل، قد تحتاج إلى إجراء تغييرات في صف معين في طاولة مختارة. لفعل هذا، يمكنك أيضاً أن تشير إلى صف بمؤشره
+وبالمثل، قد تحتاج إلى إجراء تغييرات على صف معين في جدول محدد. للقيام بذلك، يمكنك أيضا الرجوع إلى صف حسب الفهرس الخاص به.
 
-The following code example shows how to retrieve the index of a row in a table:
+يوضح مثال التعليمات البرمجية التالية كيفية استرداد فهرس صف في جدول:
 
 {{< gist "aspose-words-gists" "14f5cea1b896ffd04f143627939e0878" "retrieve-row-index.java" >}}
 
-### العثور على فهرس خلية في رو
+### العثور على فهرس خلية في صف واحد
 
-أخيرا، قد تحتاج إلى إجراء تغييرات في زنزانة محددة، ويمكنك أن تفعل ذلك حسب الرقم القياسي الخلوي أيضا.
+أخيرا، قد تحتاج إلى إجراء تغييرات على خلية معينة، ويمكنك القيام بذلك عن طريق فهرس الخلية أيضا.
 
-The following code example shows how to retrieve the index of a cell in a row:
+يوضح مثال التعليمات البرمجية التالية كيفية استرداد فهرس خلية في صف واحد:
 
 {{< gist "aspose-words-gists" "14f5cea1b896ffd04f143627939e0878" "retrieve-cell-index.java" >}}
 
-## العمل مع كولومنز
+## العمل مع الأعمدة
 
-في Aspose.Words Document Object Model )أ(DOM- [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) يتكون العقد من [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) بعد ذلك [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) المشنقة وهكذا، في `Document` نموذج الاعتراض Aspose.Wordsكما هو الحال في وثائق الكلمات، لا يوجد مفهوم لعمود.
+في نموذج كائن المستند Aspose.Words (DOM)، تتكون العقدة [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) من [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) العقد ثم [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) العقد. وهكذا، في `Document` نموذج الكائن Aspose.Words، كما هو الحال في مستندات ورد، لا يوجد مفهوم للعمود.
 
-بالتصميم، الطاولات في Microsoft Word و Aspose.Words وهي مستقلة تماما، ولا تحتوي على الممتلكات والعمليات الأساسية إلا في الصفوف والخلايا من الجدول. This gives tables the ability to have some interesting attributes:
+حسب التصميم، تكون صفوف الجدول في Microsoft Word و Aspose.Words مستقلة تماما، ويتم تضمين الخصائص والعمليات الأساسية فقط في صفوف وخلايا الجدول. هذا يعطي الجداول القدرة على الحصول على بعض السمات المثيرة للاهتمام:
 
-- يمكن أن يكون لكل صف طاولة عدد مختلف تماما من الخلايا
--في الواقع، خلايا كل صف يمكن أن يكون لها شعر مستعار مختلف
-- It is possible to join tables with different row formats and number of cells
+- يمكن أن يحتوي كل صف جدول على عدد مختلف تماما من الخلايا
+- عموديا، يمكن أن يكون لخلايا كل صف عروض مختلفة
+- من الممكن الانضمام إلى الجداول بتنسيقات صف مختلفة وعدد الخلايا
 
 ![work-with-columns-aspose-words-java](/words/java/working-with-columns-and-rows/working-with-columns-and-rows-1.png)
 
-أي عمليات تجري على الأعمدة هي في الواقع "قصاصات" التي تؤدي العملية من خلال تغيير جماعي لخلايا الصف بطريقة تبدو وكأنها تطبق على الأعمدة. ذلك، أنت يُمْكِنُ أَنْ تُؤدّيَ عملياتَ على الأعمدةِ ببساطَة التكرار على نفس الرقمِ الخلويِ.
+أي عمليات يتم إجراؤها على الأعمدة هي في الواقع "اختصارات" تؤدي العملية عن طريق تغيير خلايا الصف بشكل جماعي بطريقة تبدو وكأنها يتم تطبيقها على الأعمدة. بمعنى، يمكنك إجراء عمليات على الأعمدة ببساطة عن طريق التكرار على نفس فهرس خلية صف الجدول.
 
-المثال الرمزي التالي يبسط مثل هذه العمليات من خلال إثبات فئة واجهة التي تجمع الخلايا
+يبسط مثال التعليمات البرمجية التالي مثل هذه العمليات من خلال إثبات فئة واجهة تجمع الخلايا التي تشكل "عمود" من جدول:
 
 {{< gist "aspose-words-gists" "14f5cea1b896ffd04f143627939e0878" "column-class.java" >}}
 
-ويبين المثال الرمزي التالي كيفية إدراج عمود فارغ في جدول:
+يوضح مثال التعليمات البرمجية التالية كيفية إدراج عمود فارغ في جدول:
 
 {{< gist "aspose-words-gists" "14f5cea1b896ffd04f143627939e0878" "insert-blank-column.java" >}}
 
-ويبين المثال الرمزي التالي كيفية إزالة العمود من جدول في الوثيقة:
+يوضح مثال التعليمات البرمجية التالية كيفية إزالة عمود من جدول في مستند:
 
 {{< gist "aspose-words-gists" "14f5cea1b896ffd04f143627939e0878" "remove-column.java" >}}
 
-## تُحدّدُ Rows as Header Rows
+## حدد الصفوف كصفوف رأس
 
-يمكنك أن تختار أن تكرر الصف الأول في الطاولة كرئيس الراو فقط في الصفحة الأولى أو في كل صفحة إذا انقسمت الطاولة إلى عدة In Aspose.Words, يمكنك أن تكرّر رو على كل صفحة باستخدام [HeadingFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/#getHeadingFormat) ملكية
+يمكنك اختيار تكرار الصف الأول في الجدول كصف رأس فقط في الصفحة الأولى أو في كل صفحة إذا تم تقسيم الجدول إلى عدة. في Aspose.Words، يمكنك تكرار صف الرأس في كل صفحة باستخدام خاصية [HeadingFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/#getHeadingFormat).
 
-يمكنك أيضاً وضع علامات على صفات متعددة إذا تم تحديد موقع هذه الصفوف بعد الأخرى في بداية الطاولة لفعل هذا، يجب أن تطبق **HeadingFormat** ممتلكات لهذه الصفوف
+يمكنك أيضا وضع علامة على صفوف رأس متعددة إذا كانت هذه الصفوف موجودة واحدة تلو الأخرى في بداية الجدول. للقيام بذلك، تحتاج إلى تطبيق خصائص **HeadingFormat** على هذه الصفوف.
 
 {{% alert color="primary" %}}
 
-لاحظوا أن رئيس (رو) لا يعمل في الطاولات المستنيرة ذلك، إذا كان لديك طاولة داخل طاولة أخرى، هذا الإطار لن يكون له تأثير. إنه قيد Microsoft Word هذا لا يسمح بذلك Aspose.Words.
+لاحظ أن صفوف الرأس لا تعمل في الجداول المتداخلة. بمعنى، إذا كان لديك جدول داخل جدول آخر، فلن يكون لهذا الإعداد أي تأثير. إنه قيد Microsoft Word لا يسمح بذلك، وليس Aspose.Words.
 
 {{% /alert %}}
 
-ويبيّن المثال الرمزي التالي كيفية بناء جدول يتضمن نذورا رئيسية تكرر في الصفحات التالية:
+يوضح مثال التعليمات البرمجية التالية كيفية إنشاء جدول يتضمن صفوف رأس تتكرر في الصفحات اللاحقة:
 
 {{< gist "aspose-words-gists" "14f5cea1b896ffd04f143627939e0878" "repeat-rows-on-subsequent-pages.java" >}}
 
-## إبقاء الطاولات والأعاصير من كسر الصفحات {#keep-tables-and-rows-from-breaking-across-pages}
+## الحفاظ على الجداول والصفوف من كسر عبر صفحات {#keep-tables-and-rows-from-breaking-across-pages}
 
-There are times where the contents of a table should not be divided across pages. For instance, if a title is above a table, the title and table should always be kept together on the same page to preserve proper appearance.
+هناك أوقات لا ينبغي فيها تقسيم محتويات الجدول عبر الصفحات. على سبيل المثال، إذا كان العنوان أعلى جدول، فيجب دائما الاحتفاظ بالعنوان والجدول معا في نفس الصفحة للحفاظ على المظهر المناسب.
 
-وهناك طريقتان مستقلتان مفيدتان لتحقيق هذه الوظيفة:
+هناك نوعان من التقنيات المنفصلة المفيدة لتحقيق هذه الوظيفة:
 
-- `Allow row break across pages`, التي تُطبق على طاولات
-- `Keep with next`, التي تنطبق على الفقرات في خلايا الجدول
+- `Allow row break across pages`، والتي يتم تطبيقها على صفوف الجدول
+- `Keep with next`، والتي يتم تطبيقها على الفقرات في خلايا الجدول
 
-وتُعوق الممتلكات المذكورة أعلاه بسبب التقصير.
+بشكل افتراضي، يتم تعطيل الخصائص المذكورة أعلاه.
 
 <img src="/words/java/working-with-columns-and-rows/keeping-tables-and-rows-from-breaking-across-pages-1.png" alt="keep-tables-and-rows-from-breaking-across-pages-aspose-words-java" style="width:500px"/>
 
-### احفظوا رون من كسر الصفحات {#keep-a-row-from-breaking-across-pages}
+### الحفاظ على صف من كسر عبر صفحات {#keep-a-row-from-breaking-across-pages}
 
-This involves restricting content inside the cells of a row from being split across a page. In Microsoft Word, ويمكن العثور على ذلك في إطار الجدول " Properties " كخيار " فسحة شاملة ". In Aspose.Words هذا موجود تحت [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/) هدف [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) كملكية [RowFormat.AllowBreakAcrossPages](https://reference.aspose.com/words/java/com.aspose.words/rowformat/#getAllowBreakAcrossPages).
+يتضمن ذلك تقييد المحتوى داخل خلايا الصف من الانقسام عبر الصفحة. في Microsoft Word، يمكن العثور على هذا ضمن خصائص الجدول كخيار"السماح للصف بكسر الصفحات". في Aspose.Words تم العثور على هذا تحت [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/) كائن من [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) كخاصية [RowFormat.AllowBreakAcrossPages](https://reference.aspose.com/words/java/com.aspose.words/rowformat/#getAllowBreakAcrossPages).
 
 <img src="/words/java/working-with-columns-and-rows/keeping-tables-and-rows-from-breaking-across-pages-2.png" alt="keep-rows-from-breaking-across-pages-aspose-words-java" style="width:500px"/>
 
-The following code example shows how to disable breaking rows across pages for each row in a table:
+يوضح مثال التعليمات البرمجية التالية كيفية تعطيل كسر الصفوف عبر الصفحات لكل صف في جدول:
 
 {{< gist "aspose-words-gists" "14f5cea1b896ffd04f143627939e0878" "row-format-disable-break-across-pages.java" >}}
 
-### احتفظ بطاولة من كسر الصفحات {#keep-a-table-from-breaking-across-pages}
+### الحفاظ على جدول من كسر عبر صفحات {#keep-a-table-from-breaking-across-pages}
 
-ولوقف المنضدة من الانقسام عبر الصفحات، علينا أن نحدد أننا نريد المحتوى الوارد في الجدول أن يبقى معا.
+لمنع الجدول من الانقسام عبر الصفحات، نحتاج إلى تحديد أننا نريد أن يظل المحتوى الموجود داخل الجدول معا.
 
-لفعل هذا Aspose.Words استخدام طريقة تتيح للمستعملين اختيار جدول وتمكينهم من ذلك [KeepWithNext](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#getKeepWithNext) البارامترات إلى true عن كل فقرة في زنزانات الجدول. والاستثناء هو الفقرة الأخيرة في الجدول، التي ينبغي تحديدها false.
+للقيام بذلك، يستخدم Aspose.Words طريقة تسمح للمستخدمين بتحديد جدول وتمكين المعلمة [KeepWithNext](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#getKeepWithNext) إلى صحيح لكل فقرة داخل خلايا الجدول. الاستثناء هو الفقرة الأخيرة في الجدول، والتي يجب تعيينها على خطأ.
 
 <img src="/words/java/working-with-columns-and-rows/keeping-tables-and-rows-from-breaking-across-pages-3.png" alt="keep-tables-from-breaking-across-pages-aspose-words-java" style="width:500px"/>
 
-The following code example shows how to set a table to stay together on the same page:
+يوضح مثال الكود التالي كيفية تعيين جدول للبقاء معا في نفس الصفحة:
 
 {{< gist "aspose-words-gists" "14f5cea1b896ffd04f143627939e0878" "keep-table-together.java" >}}

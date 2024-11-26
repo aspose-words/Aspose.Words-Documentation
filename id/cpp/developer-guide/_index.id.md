@@ -1,4 +1,4 @@
-﻿---
+---
 title: Panduan Pengembang di C++
 second_title: Aspose.Words untuk C++
 articleTitle: Panduan Pengembang
@@ -7,6 +7,7 @@ description: "Panduan Pengembang ini menjelaskan skenario praktis dan kiat untuk
 type: docs
 weight: 20
 url: /id/cpp/developer-guide/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Panduan Pengembang ini memberikan informasi tentang penggunaan Aspose.Words untuk C++ dalam berbagai skenario praktis. Artikelnya memberikan saran dan tip yang akan membantu penggunaan fitur tertentu, mencapai tampilan dokumen tertentu, atau memungkinkan kasus penggunaan.

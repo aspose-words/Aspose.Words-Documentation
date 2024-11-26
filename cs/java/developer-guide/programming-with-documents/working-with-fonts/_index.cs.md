@@ -7,6 +7,7 @@ description: "Formátování písma v detailech pomocí Java."
 type: docs
 weight: 230
 url: /cs/java/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Písmo je soubor znaků s určitou velikostí, barvou a designem. Aspose.Words umožňuje pracovat s písmy pomocí různých tříd souvisejících s písmem, včetně [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) třída.

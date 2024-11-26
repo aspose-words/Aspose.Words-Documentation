@@ -1,4 +1,4 @@
-﻿---
+---
 title: Entwicklerhandbuch in C++
 second_title: Aspose.Words für C++
 articleTitle: Entwicklerhandbuch
@@ -7,6 +7,7 @@ description: "Dieses Entwicklerhandbuch beschreibt praktische Szenarien und Tipp
 type: docs
 weight: 20
 url: /de/cpp/developer-guide/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Dieses Entwicklerhandbuch enthält Informationen zur Verwendung von Aspose.Words für C++ in einer Vielzahl von praktischen Szenarien. Seine Artikel geben Anregungen und Tipps, die helfen, bestimmte Funktionen zu nutzen, ein bestimmtes Erscheinungsbild von Dokumenten zu erreichen oder einen Anwendungsfall zu ermöglichen.

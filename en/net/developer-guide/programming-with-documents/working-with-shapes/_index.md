@@ -7,6 +7,7 @@ description: "Introduction to shape markup language, creating shapes of differen
 type: docs
 weight: 280
 url: /net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 This topic discusses how to work programmatically with shapes using Aspose.Words.

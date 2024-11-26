@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabajar con rangos en C++
 second_title: Aspose.Words para C++
 articleTitle: Trabajar con Rangos
@@ -7,6 +7,7 @@ description: "Introducción a la función de rango en Aspose.Words para C++."
 type: docs
 weight: 130
 url: /es/cpp/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

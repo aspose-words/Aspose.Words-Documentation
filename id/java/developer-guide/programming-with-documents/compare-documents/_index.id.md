@@ -7,6 +7,7 @@ type: docs
 description: "Bandingkan dua dokumen dalam format yang didukung dan menunjukkan perubahan konten. Anda dapat menerapkan opsi canggih ketika membandingkan menggunakan JavaSitemap"
 weight: 60
 url: /id/java/compare-documents/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dokumen membandingkan adalah proses yang mengidentifikasi perubahan antara dua dokumen dan berisi perubahan sebagai revisi. Proses ini membandingkan setiap dua dokumen, termasuk versi satu dokumen tertentu, maka perubahan antara kedua dokumen akan ditampilkan sebagai revisi dalam dokumen pertama.

@@ -7,6 +7,7 @@ description: "Ersetzen Sie Text in einer Tabelle in Python. Extrahieren Sie einf
 type: docs
 weight: 60
 url: /de/python-net/work-with-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Wie in früheren Artikeln erwähnt, enthält eine Tabelle normalerweise einfachen Text, obwohl auch andere Inhalte wie Bilder oder sogar andere Tabellen in Tabellenzellen platziert werden können.

@@ -7,6 +7,7 @@ description: "Hoeveel geheugen doet Aspose.Words voor Java moeten werken met doc
 type: docs
 weight: 10
 url: /nl/java/memory-requirements/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words biedt een breed scala aan functies om te werken met documenten in verschillende formaten. Het is belangrijk om op te merken dat er geen limiet op de maximale grootte van een document bestand dat Aspose.Words kan verwerken of renderen. De enige beperking is de hoeveelheid RAM (geheugen) die aan uw zijde beschikbaar is.

@@ -7,6 +7,7 @@ description: "Introduzione al linguaggio di markup degli shape, creazione di for
 type: docs
 weight: 280
 url: /it/net/working-with-shapes/
+timestamp: 2024-01-27-14-07-04
 ---
 
 In questo argomento viene illustrato come lavorare a livello di codice con le forme utilizzando Aspose.Words.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++ içindeki Yorumlarla Çalışma
 second_title: Aspose.Words için C++
 articleTitle: Yorumlarla Çalışma
@@ -7,6 +7,7 @@ description: "C++ kullanarak yorumlarla çalışma."
 type: docs
 weight: 260
 url: /tr/cpp/working-with-comments/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

@@ -7,6 +7,7 @@ description: "Jak dodać hiperłącze do dokumentu w formacie C# przy użyciu As
 type: docs
 weight: 50
 url: /pl/net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Hiperłączem w dokumentach Microsoft Word jest pole `HYPERLINK`. W formacie Aspose.Words hiperłącza są implementowane poprzez klasę [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/).

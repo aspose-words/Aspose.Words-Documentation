@@ -7,6 +7,7 @@ description: "在 Aspose.Words for .NET 中使用表格及其元件（如單元�
 type: docs
 weight: 10
 url: /zh-hant/net/table-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words是一個用於處理各種格式的文件-PDF、HTML、不同 Microsoft Word 格式和其他格式的類圖書館，並支持以下方式的表格：

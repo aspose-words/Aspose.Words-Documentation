@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++中的字段概述
 second_title: Aspose.Words对于C++
 articleTitle: 字段概述
@@ -7,6 +7,7 @@ description: "字段功能在详细信息，字段代码和字段结果中解释
 type: docs
 weight: 10
 url: /zh/cpp/fields-overview/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words是一个为服务器端处理Microsoft Word文档而设计的类库，支持以下方式的字段:

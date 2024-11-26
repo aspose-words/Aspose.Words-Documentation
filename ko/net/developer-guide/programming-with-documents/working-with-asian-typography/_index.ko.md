@@ -7,6 +7,7 @@ description: "C#를 사용하여 아시아 타이포그래피로 작업합니다
 type: docs
 weight: 240
 url: /ko/net/working-with-asian-typography/
+timestamp: 2024-02-01-16-17-05
 ---
 
 아시아 타이포그래피는 아시아 언어로 작성된 문서의 텍스트 단락에 대한 옵션 세트입니다.

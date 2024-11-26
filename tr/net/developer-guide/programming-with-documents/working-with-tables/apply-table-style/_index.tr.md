@@ -7,6 +7,7 @@ description: "Gelişmiş tablo biçimlendirme C#. C#'i kullanarak bir tablo stil
 type: docs
 weight: 80
 url: /tr/net/working-with-tablestyle/
+timestamp: 2024-02-02-12-07-36
 ---
 
 Tablo stili, bir tabloya kolayca uygulanabilecek bir dizi biçimlendirmeyi tanımlar. Kenarlıklar, gölgeleme, hizalama ve yazı tipi gibi biçimlendirmeler tablo stilinde ayarlanabilir ve tutarlı bir görünüm için birçok tabloya uygulanabilir.

@@ -7,6 +7,7 @@ description: "使用 C# 处理文档水印。"
 type: docs
 weight: 340
 url: /zh/net/working-with-watermark/
+timestamp: 2024-05-02-11-51-44
 ---
 
 本主题讨论如何使用 Aspose.Words 以编程方式处理水印。水印是显示在文档中文本后面的背景图像。水印可以包含由 [Watermark](https://reference.aspose.com/words/zh/net/aspose.words/watermark/) 类表示的文本或图像。

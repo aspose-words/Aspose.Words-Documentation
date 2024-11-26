@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bekerja dengan Bidang dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Bekerja dengan Bidang
@@ -7,6 +7,7 @@ description: "Pengantar fitur bidang di Aspose.Words untuk C++."
 type: docs
 weight: 370
 url: /id/cpp/working-with-fields/
+timestamp: 2024-01-30-16-22-34
 ---
 
 **Bidang**

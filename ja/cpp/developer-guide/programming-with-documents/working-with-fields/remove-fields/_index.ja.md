@@ -1,4 +1,4 @@
-﻿---
+---
 title: フィールドの削除C++
 second_title: C++の場合Aspose.Words
 articleTitle: フィールドの削除
@@ -7,6 +7,7 @@ description: "C++でフィールドを削除する方法を学びます。 C++AP
 type: docs
 weight: 35
 url: /ja/cpp/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ドキュメントからフィールドを削除する必要がある場合があります。 これは、別のフィールドタイプに置き換える必要がある場合、またはドキュメント内でフィールドが不要になった場合に発生する可能性があります。 たとえば、HTMLに保存するときの`TOC`フィールド。

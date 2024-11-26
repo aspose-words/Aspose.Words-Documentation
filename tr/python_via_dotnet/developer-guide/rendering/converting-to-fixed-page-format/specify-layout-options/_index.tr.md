@@ -7,6 +7,7 @@ description: "Python'i kullanarak çeşitli belge düzenleri için Düzen Seçen
 type: docs
 weight: 10
 url: /tr/python-net/specify-layout-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words, [LayoutOptions](https://reference.aspose.com/words/python-net/aspose.words.layout/layoutoptions/) sınıfının özelliklerinde belirtilen parametrelere bağlı olarak çeşitli düzenlerde çıktı belgeleri oluşturmanıza olanak sağlar. Bu özelliklerin bazıları Microsoft Word kullanıcı arayüzü menü seçeneklerinin bazılarına benzemektedir; bunlar bu makalede açıklanacaktır.

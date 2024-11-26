@@ -7,6 +7,7 @@ description: "Aspose.Words cho Java cung cấp các gói khác nhau để mua s�
 type: docs
 weight: 60
 url: /vi/java/licensing/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Đôi khi, để nghiên cứu hệ thống tốt hơn, bạn muốn lặn vào mã nhanh nhất có thể. Để giúp việc này dễ dàng hơn, Aspose.Words cung cấp các gói khác nhau để mua hoặc đề nghị một bản dùng thử miễn phí và Giấy phép tạm thời 30 ngày cho việc đánh giá.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lavorare con le firme digitali in C++
 second_title: Aspose.Words per C++
 articleTitle: Lavorare con le firme digitali
@@ -7,6 +7,7 @@ description: "Firma digitalmente i documenti e rileva, conta, verifica e rimuove
 type: docs
 weight: 160
 url: /it/cpp/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Una firma digitale è un'implementazione tecnologica di firme elettroniche per firmare documenti e autenticare il firmatario per garantire che un documento non sia stato modificato da quando è stato firmato. Ogni firma digitale è unica per ogni firmatario perché segue il protocollo PKI per generare chiavi pubbliche e private. Firmare un documento digitalmente significa creare una firma utilizzando la chiave privata del firmatario in cui viene utilizzato un algoritmo matematico per crittografare l'hash generato.

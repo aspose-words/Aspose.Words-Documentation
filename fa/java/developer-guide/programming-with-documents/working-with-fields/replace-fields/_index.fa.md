@@ -1,67 +1,68 @@
----
-title: جایگزین فیلد ها با Text Java
+﻿---
+title: فیلد ها را با متن جایگزین کنید Java
 second_title: Aspose.Words برای Java
-articleTitle: جایگزین فیلد ها با متن استاتیک
-linktitle: جایگزین فیلد ها با متن استاتیک
-description: "یاد بگیرید که چگونه فیلدهای را با متن جایگزین کنید Java... فیلدهای جایگزین با داده های استاتیک با استفاده از Java API..."
+articleTitle: فیلد ها را با متن استاتیک جایگزین کنید
+linktitle: فیلد ها را با متن استاتیک جایگزین کنید
+description: "یاد بگیرید که چگونه فیلد ها را با متن در Java جایگزین کنید. فیلد ها را با داده های استاتیک با استفاده از Java API جایگزین کنید."
 type: docs
 weight: 37
 url: /fa/java/replace-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
-اغلب زمانی که می خواهید سند خود را به عنوان یک کپی استاتیک ذخیره کنید، مورد نیاز است. به عنوان مثال، هنگام ارسال به عنوان یک پیوست در یک ایمیل. تبدیل زمینه هایی مانند `DATE` یا `TIME` به متن استاتیک اجازه می دهد تا سند همان تاریخ را به عنوان زمانی که ارسال شد، نمایش دهد. همچنین در برخی موارد ممکن است لازم باشد که شرایط را حذف کنید. `IF` زمینه های سند خود را و آنها را با آخرین نتیجه متن جایگزین کنید. به عنوان مثال، تبدیل نتیجه `IF` زمینه به متن استاتیک بنابراین آن را دیگر به طور پویا تغییر ارزش خود را زمانی که زمینه در سند به روز شده است.
+جایگزینی فیلد ها اغلب زمانی مورد نیاز است که شما می خواهید سند خود را به عنوان یک کپی استاتیک ذخیره کنید. به عنوان مثال، هنگام ارسال به عنوان پیوست در یک ایمیل. تبدیل فیلد هایی مانند `DATE` یا `TIME` به متن استاتیک به سند اجازه می دهد تا همان تاریخ ارسال را نمایش دهد. همچنین، در برخی شرایط، ممکن است لازم باشد فیلد های مشروط `IF` را از سند خود حذف کنید و به جای آن آنها را با آخرین نتیجه متن جایگزین کنید. برای مثال، تبدیل نتیجه فیلد `IF` به متن استاتیک به طوری که دیگر به طور پویا ارزش آن را تغییر نخواهد داد زمانی که فیلد ها در سند به روز می شوند.
 
-نمودار زیر نشان می دهد که چگونه `IF` فیلد در یک سند ذخیره می شود:
+نمودار زیر نشان می دهد که چگونه فیلد `IF` در یک سند ذخیره می شود:
 
 * متن توسط گره های میدان ویژه احاطه شده است - [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/) و [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/)
-* [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/) گره متن را در داخل زمینه به کد زمینه و نتیجه زمینه جدا می کند
-* کد زمینه رفتار کلی این زمینه را تعریف می کند، در حالی که نتیجه زمینه آخرین نتیجه را حفظ می کند زمانی که این زمینه با استفاده از آن به روز می شود. Microsoft Word یا Aspose.Words
-* نتیجه زمینه چیزی است که در این زمینه ذخیره شده و در سند زمانی که مشاهده می شود نمایش داده می شود
+* گره [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/) متن داخل فیلد را به کد فیلد و نتیجه فیلد جدا می کند
+* کد فیلد رفتار کلی فیلد را تعریف می کند، در حالی که نتیجه فیلد آخرین نتیجه را حفظ می کند وقتی این فیلد با استفاده از Microsoft Word یا Aspose.Wordsبه روز می شود
+* نتیجه فیلد چیزی است که در فیلد ذخیره شده و در سند نمایش داده می شود
 
 ![update-remove-a-field-aspose-words](/words/java/replace-fields/updating-and-removing-a-field-1.png)
 
-این ساختار را می توان در شکل سلسله مراتبی با استفاده از پروژه آزمایشی نیز مشاهده کرد. **“DocumentExplorer”**, کشتی با کشتی **Aspose.Words** نصب کننده
+ساختار را می توان در زیر به شکل سلسله مراتبی با استفاده از پروژه نمایشی **"DocumentExplorer"** مشاهده کرد که با نصب کننده **Aspose.Words** ارسال می شود.
 
 ![update-remove-a-field-aspose-words-2](/words/java/replace-fields/updating-and-removing-a-field-2.png)
 
-## فیلد هایی که نمی توانند با متن جایگزین شوند
+## زمینه هایی که نمی توانند با متن جایگزین شوند
 
-جایگزینی یک زمینه با متن استاتیک برای برخی از زمینه ها در یک هدر یا پادار به درستی کار نمی کند.
+جایگزینی یک فیلد با متن استاتیک برای برخی از فیلد ها در یک سر یا پای صفحه به درستی کار نمی کند.
 
-به عنوان مثال، تلاش برای تبدیل `PAGE` زمینه در یک هدر یا پا به متن استاتیک منجر به همان مقدار در تمام صفحات نمایش داده می شود. این به این دلیل است که هدرها و پاها در چندین صفحه تکرار می شوند و هنگامی که آنها به عنوان زمینه باقی می مانند، به ویژه به طوری که آنها نتیجه صحیح را برای هر صفحه نمایش می دهند.
+به عنوان مثال، تلاش برای تبدیل فیلد `PAGE` در یک هدر یا پای صفحه به متن استاتیک منجر به نمایش همان مقدار در تمام صفحات خواهد شد. این به این دلیل است که سرصفحه ها و پای صفحه ها در چندین صفحه تکرار می شوند و وقتی به عنوان فیلد باقی می مانند، به ویژه به آنها رسیدگی می شود تا نتیجه صحیح را برای هر صفحه نمایش دهند.
 
-با این حال، در هدر، `PAGE` فیلد به خوبی به اجرای استاتیک متن ترجمه می شود. این اجرا از متن ارزیابی خواهد شد به عنوان اگر آن را آخرین صفحه در بخش بود، که باعث هر گونه هر گونه از آن خواهد شد. `PAGE` فیلد در هدر برای نمایش آخرین صفحه در تمام صفحات.
+با این حال، در سرصفحه، فیلد `PAGE` به خوبی به اجرای استاتیک متن ترجمه می شود. این متن به گونه ای ارزیابی خواهد شد که انگار آخرین صفحه در بخش است، که باعث می شود هر فیلد `PAGE` در سرصفحه آخرین صفحه را در تمام صفحات نمایش دهد.
 
-مثال کد زیر نشان می دهد که چگونه فیلد را با آخرین نتیجه جایگزین کنیم:
+مثال کد زیر نشان می دهد که چگونه این فیلد را با آخرین نتیجه آن جایگزین کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UnlinkFields-UnlinkFields.java" >}}
 
-## تبدیل انواع خاص فیلد در قطعات سند خاص
+## تبدیل انواع فیلد های خاص در قسمت های خاص سند
 
-از زمان **ConvertFieldsToStaticText** روش دو پارامتر را می پذیرد – [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) خواص و [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) تکرار، ممکن است هر گره کامپوزیتی را به این روش منتقل کند. این اجازه می دهد تا زمینه ها تنها در قسمت های خاص سند به متن استاتیک تبدیل شوند.
+از آنجا که روش **ConvertFieldsToStaticText** دو پارامتر را می پذیرد – ویژگی های [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) و شمارش [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/)، امکان انتقال هر گره ترکیبی به این روش وجود دارد. این اجازه می دهد تا فیلد ها فقط در بخش های خاصی از سند به متن استاتیک تبدیل شوند.
 
-به عنوان مثال، شما می توانید یک [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) زمینه های شی و تبدیل از نوع مشخص شده از کل سند به متن استاتیک، یا شما می توانید یک متن ثابت عبور کنید. [Body](https://reference.aspose.com/words/java/com.aspose.words/body/) جسم یک بخش و فقط فیلدهای موجود در آن بدن را تبدیل می کند.
+به عنوان مثال، شما می توانید یک شی [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) را منتقل کنید و فیلد های نوع مشخص شده را از کل سند به متن استاتیک تبدیل کنید، یا می توانید یک شی [Body](https://reference.aspose.com/words/java/com.aspose.words/body/) از یک بخش را منتقل کنید و فقط فیلد های موجود در آن بدن را تبدیل کنید.
 
 {{% alert color="primary" %}}
 
-هنگام عبور از یک گره سطح بلوک مانند [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), آگاه باشید که در برخی موارد، زمینه ها می توانند در چندین پاراگراف قرار بگیرند. اگر این اتفاق بیفتد توصیه می شود که به جای اجتناب از این کار، والدین کامپوزیت را منتقل کنید.
+هنگام عبور از یک گره سطح بلوک مانند [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/)، توجه داشته باشید که در برخی موارد، زمینه ها می توانند در چندین پاراگراف گسترش یابند. اگر این اتفاق بیفتد توصیه می شود به جای آن از والدین کامپوزیت عبور کنید تا از این اتفاق جلوگیری شود.
 
 {{% /alert %}}
 
-The The The The The The [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) بازگشت به آن **ConvertFieldsToStaticText** روش مشخص می کند که چه نوع زمینه هایی باید به متن استاتیک تبدیل شوند. هر نوع زمینه دیگری که در سند موجود است بدون تغییر باقی خواهد ماند.
+شمارش [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) به روش **ConvertFieldsToStaticText** منتقل شده مشخص می کند که چه نوع فیلد هایی باید به متن استاتیک تبدیل شوند. هر نوع فیلد دیگری که در سند یافت می شود بدون تغییر باقی می ماند.
 
-مثال کد زیر نشان می دهد که چگونه فیلدهای یک نوع خاص را انتخاب کنید. *targetFieldType* در یک گره خاص - *compositeNode* سپس آنها را به متن استاتیک تبدیل کنید:
+مثال کد زیر نشان می دهد که چگونه فیلد های یک نوع خاص را انتخاب کنید – *targetFieldType* در یک گره خاص - *compositeNode* و سپس آنها را به متن استاتیک تبدیل کنید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FieldHelper-FieldsHelper.java" >}}
 
-مثال کد زیر نشان می دهد که چگونه همه چیز را تبدیل کنیم `IF` زمینه در یک سند به متن استاتیک:
+مثال کد زیر نشان می دهد که چگونه تمام فیلد های `IF` را در یک سند به متن استاتیک تبدیل کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-ConvertFieldsInDocument-ConvertFieldsInDocument.java" >}}
 
-مثال کد زیر نشان می دهد که چگونه همه چیز را تبدیل کنیم `PAGE` زمینه در یک بدن از یک سند به متن استاتیک:
+مثال کد زیر نشان می دهد که چگونه تمام فیلد های `PAGE` را در یک بدنه یک سند به متن استاتیک تبدیل کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-ConvertFieldsInBody-ConvertFieldsInBody.java" >}}
 
-مثال کد زیر نشان می دهد که چگونه همه چیز را تبدیل کنیم `IF` زمینه در پاراگراف آخر به متن استاتیک:
+مثال کد زیر نشان می دهد که چگونه تمام فیلد های `IF` در پاراگراف آخر را به متن استاتیک تبدیل کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-ConvertFieldsInParagraph-ConvertFieldsInParagraph.java" >}}

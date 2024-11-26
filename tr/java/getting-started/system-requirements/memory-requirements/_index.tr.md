@@ -7,6 +7,7 @@ description: "Aspose.Words 'nin belgeleriyle çalışmak için Java' i ne kadar 
 type: docs
 weight: 10
 url: /tr/java/memory-requirements/
+timestamp: 2024-09-25-11-08-55
 ---
 
 Aspose.Words çeşitli formatlarda belgelerle çalışmak için geniş bir özellik yelpazesi sağlar. Dosya boyutuna ilişkin herhangi bir sınırın olmadığını not etmesi önemlidir Aspose.Words işlemleyebilir veya görüntüleyebilir. Tek sınırlama tarafınızda mevcut olan RAM (bellek) miktarıdır.

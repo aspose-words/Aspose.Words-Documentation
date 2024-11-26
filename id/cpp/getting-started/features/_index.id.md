@@ -1,4 +1,4 @@
-﻿---
+---
 title: Fitur
 second_title: Aspose.Words untuk C++
 articleTitle: Fitur yang Didukung
@@ -7,6 +7,7 @@ description: "Aspose.Words untuk C++ memberi pengguna berbagai fitur mulai dari 
 type: docs
 weight: 40
 url: /id/cpp/features/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words menyediakan berbagai fitur kepada pengguna. Pengguna dapat melakukan sejumlah besar tugas terkait dokumen - mulai dari sekadar mengonversi dokumen dari satu format yang didukung ke format lain dan memodifikasi dokumen tersebut selama proses konversi menjadi tugas bisnis, seperti membuat dokumen yang terstruktur dan menarik secara visual atau mengotomatiskan pelaporan.

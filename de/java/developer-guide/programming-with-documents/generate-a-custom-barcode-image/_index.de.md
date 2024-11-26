@@ -1,71 +1,72 @@
----
-title: Erstelle Barcode in Java
+﻿---
+title: Erstelle BarCode in Java
 second_title: Aspose.Words für Java
-articleTitle: Erzeuge ein benutzerdefiniertes Barcode-Bild
-linktitle: Erzeuge ein benutzerdefiniertes Barcode-Bild
-description: "Beispiel für die Erzeugung von Strichcodes mithilfe von Java."
+articleTitle: Benutzerdefiniertes BarCode-Bild generieren
+linktitle: Benutzerdefiniertes BarCode-Bild generieren
+description: "Beispiel für die Generierung von Barcode-Formen mit Java."
 type: docs
 weight: 350
 url: /de/java/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
+timestamp: 2024-09-05-11-07-10
 ---
 
-Ein Strichcode ist eine visuelle Darstellung von Daten in Form paralleler Linien oder Muster. Strichcodes werden in verschiedenen Branchen wie Einzelhandel, Logistik, Gesundheitswesen, Banken und vielen anderen breit eingesetzt.
+Ein Barcode ist eine visuelle Darstellung von Daten in Form von parallelen Linien oder Mustern. Barcodes sind in verschiedenen Branchen wie Einzelhandel, Logistik, Gesundheitswesen, Banken und vielen anderen weit verbreitet.
 
-"Microsoft Word ermöglicht Benutzern die Einbettung von Strichcodes direkt in Dokumente mit Hilfe von Feldern. Benutzer können einen bestimmten Typ von Strichcode, wie z.B. einen QR-Code oder einen linearen Barcode, mithilfe des [BARCODE](https://learn.microsoft.com/en-us/openspecs/office_standards/ms-oi29500/cbc893c0-9683-416d-84c6-407a92451c19)-Felds einfügen."
+Microsoft Word ermöglicht Benutzern das direkte Einbetten von Barcodes in Dokumente mithilfe von Feldern. Benutzer können einen bestimmten Barcode-Typ einfügen, z. B. einen QR-Code oder einen linearen Barcode, indem Sie die [BARCODE](https://learn.microsoft.com/en-us/openspecs/office_standards/ms-oi29500/cbc893c0-9683-416d-84c6-407a92451c19) Feld.
 
-In diesem Artikel werden wir untersuchen, wie das BARCODE-Feld auf Aspose.Words umgesetzt wird und wie Aspose.Words Benutzern die Arbeit mit Word-Dokumenten ermöglicht, denen bereits ein Strichcode hinzugefügt wurde.
+In diesem Artikel werden wir uns ansehen, wie das Feld BARCODE in Aspose.Words implementiert ist und wie Aspose.Words es Benutzern ermöglicht, mit Word-Dokumenten zu arbeiten, denen bereits ein Barcode hinzugefügt wurde.
 
-## Barcodentypen, die von Aspose.Words unterstützt werden
+## Von Aspose.Words unterstützte Barcode-Typen
 
-Aspose.Words unterstützt verschiedene Arten von Barcodes. Der Barcode-Typ wird als Zeichenfolgenwert im [BarcodeType](https://reference.aspose.com/words/java/com.aspose.words/barcodeparameters/#getBarcodeType)-Eigenschaftsfeld übergeben.
+Aspose.Words unterstützt verschiedene Arten von Barcodes. Der Barcode-Typ wird als Zeichenfolgenwert in der Eigenschaft [BarcodeType](https://reference.aspose.com/words/java/com.aspose.words/barcodeparameters/#getBarcodeType) übergeben.
 
 {{% alert color="primary" %}}
 
-"Da die Arbeit mit Strichcodes innerhalb der Funktionalität von Aspose.Words begrenzt ist, kann der Benutzer jede Bibliothek verwenden, einschließlich Aspose.Barcode oder seinen eigenen Rendering-Code schreiben, um mit Strichcodes zu arbeiten. Sie können mehr über die Typen von Strichcodes [supported by Aspose.BarCode](https://docs.aspose.com/barcode/java/barcode-types/) erfahren."
+Da die Arbeit mit Barcodes innerhalb der Funktionalität von Aspose.Words eingeschränkt ist, kann der Benutzer jede Bibliothek verwenden, einschließlich Aspose.Barcode, oder schreiben Sie sein eigenes Rendering, um mit Barcodes zu arbeiten. Sie können mehr über die Arten von Barcodes erfahren [unterstützt von Aspose.BarCode](https://docs.aspose.com/barcode/java/barcode-types/).
 
 {{% /alert %}}
 
-Beim Speichern in Wörtern-Formaten, die Barcodes unterstützen, können Sie alle Arten von Barcodes verwenden, die [supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3) sind. Wenn ein falscher Barcodeart übergeben wurde, wird Word einen Fehler anzeigen.
+Beim Speichern in Word-Formaten, die Barcodes unterstützen, können Sie jeden beliebigen Barcodetyp verwenden [unterstützt von Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3). Wenn ein falscher Barcode-Typ übergeben wurde, zeigt Word einen Fehler an.
 
-Bei der Ersparnis in anderen Formaten wie PDF delegiert Aspose.Words den Barcode-Rendering an die Benutzer-Code, sodass der Benutzer auf die Barcodes der Implementierung oder Bibliothek beschränkt ist, die er verwendet.
+Beim Speichern in anderen Formaten, z. B. PDF, delegiert Aspose.Words das Rendern von Barcodes an den Benutzercode, sodass der Benutzer auf die Barcodetypen seiner Implementierung oder Bibliothek beschränkt ist.
 
-## Einfügen einer Strichcode in ein Dokument oder Laden eines Dokuments mit einem hinzugefügten Strichcode
+## Fügen Sie einen Barcode in ein Dokument ein oder laden Sie ein Dokument mit einem hinzugefügten Barcode
 
-Aspose.Words bietet die Möglichkeit,:
+Aspose.Words bietet die Möglichkeit:
 
-1. Programmativ in ein Dokument eine Barcode mit den [DisplayBarcode](https://support.microsoft.com/en-au/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3) und [MergeBarcode](https://support.microsoft.com/en-au/office/field-codes-mergebarcode-812fc43f-cb53-4782-8f9f-290ed08d34f3)-Feldcodes einfügen
-2. Oder laden Sie ein Word-Dokument, in das bereits Barcodes eingefügt wurden, für weitere Arbeit
+1. Programmgesteuertes Einfügen eines Barcodes in ein Dokument mit dem [DisplayBarcode](https://support.microsoft.com/en-au/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3) und [MergeBarcode](https://support.microsoft.com/en-au/office/field-codes-mergebarcode-812fc43f-cb53-4782-8f9f-290ed08d34f3) Feldfunktionen
+2. Oder laden Sie ein Word-Dokument mit bereits eingefügten Barcodes für die weitere Arbeit
 
-Aspose.Words verfügt über eine Schnittstelle zum Generieren benutzerdefinierter Barcodes, mit der es einfach ist, [Aspose.Words](https://products.aspose.com/words/java/) und [Aspose.BarCode](https://products.aspose.com/barcode/java/) zusammen zu verwenden, umBarcode-Bilder in Ausgabedokumenten zu rendern. Sie können beispielsweise ein DOC-, OOXML- oder RTF-Dokument erstellen und das Feld "DISPLAYBARCODE" damit hinzufügen, indem Sie Aspose.Words verwenden. Oder Sie laden ein DOC-, OOXML- oder RTF-Dokument mit dem bereits vorhandenen Feld "DISPLAYBARCODE" und stellen Ihre Implementierung eines benutzerdefinierten Barcode-Generators bereit.
+Aspose.Words verfügt über eine Schnittstelle zum Generieren benutzerdefinierter Barcodes, die die Verwendung vereinfacht [Aspose.Words](https://products.aspose.com/words/java/) und [Positionieren.BarCode](https://products.aspose.com/barcode/java/) zusammen, um Barcode-Bilder in Ausgabedokumenten zu rendern. Sie können beispielsweise ein DOC-, OOXML- oder RTF-Dokument erstellen und mit Aspose.Words das Feld DISPLAYBARCODE hinzufügen. Oder Sie können ein DOC -, OOXML - oder RTF -Dokument mit bereits vorhandenem DISPLAYBARCODE -Feld laden und Ihre Implementierung des benutzerdefinierten Barcode-Generators bereitstellen.
 
-Ein typisches DISPLAYBARCODE-Feld hat folgende Syntax:
+Ein typisches DISPLAYBARCODE-Feld hat die folgende Syntax:
 
 `{ DISPLAYBARCODE "SomeData" QR \h 720 }`
 
-Hier ist ein Beispielcode-Generator unter Verwendung von Aspose.Words und Aspose.BarCode API. Dieses Beispiel zeigt, wie man Barcodes als Bilder an der DISPLAYBARCODE-Position in einem Word-Dokument einfügt:
+Unten sehen Sie einen Beispielcodegenerator, der Aspose.Words und Aspose verwendet.BarCode APIs. Dieses Beispiel zeigt, wie Barcode-Bilder an der Feldposition DISPLAYBARCODE in ein Word-Dokument eingefügt werden:
 
 {{< gist "aspose-words-gists" "689e63b98de2dcbb12dffc37afbe9067" "barcode-generator.java" >}}
 
 {{< gist "aspose-words-gists" "689e63b98de2dcbb12dffc37afbe9067" "custom-barcode-generator.java" >}}
 
-Du kannst das Dokument auch mit den geladenen oder neu eingefügten Strichcodes in festen Seitenformaten wie z.B. PDF, XPS u.ä. speichern. Der folgende Code-Beispiel zeigt, wie man ein Word-Dokument im PDF-Format speichert:
+Sie können das Dokument mit dem geladenen oder neu eingefügten Barcode auch in festen Seitenformaten wie PDF, XPS usw. speichern. Das folgende Codebeispiel zeigt, wie Sie ein Word-Dokument im Format PDF speichern:
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "docx-to-pdf.java" >}}
 
 {{% alert color="primary" %}}
 
-Für mehr Informationen über die Umwandlung von Dokumenten aus einem Format in ein anderes siehe den [Convert a Document](/words/java/convert-a-document/)-Dokumentationsteil.
+Weitere Informationen zum Konvertieren von Dokumenten von einem Format in ein anderes finden Sie im [Ein Dokument konvertieren](/words/java/convert-a-document/) abschnitt Dokumentation.
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-Sie können das [IBarcodeGenerator](https://reference.aspose.com/words/java/com.aspose.words/ibarcodegenerator/)-Interface auch verwenden, um Barcodes eingebettet in Word-Dokumente in Bilder zu konvertieren. Die resultierenden Bilder können aus dem Dokument extrahiert werden - siehe den Artikel "Arbeiten mit Bildern", für Details dazu.
+Sie können auch die [IBarcodeGenerator](https://reference.aspose.com/words/java/com.aspose.words/ibarcodegenerator/) -Schnittstelle verwenden, um in Word-Dokumente eingebettete Barcodes in Bilder umzuwandeln. Die resultierenden Bilder können aus dem Dokument extrahiert werden - Einzelheiten finden Sie im Artikel Arbeiten mit Bildern.
 
 {{% /alert %}}
 
 ## Barcode-Optionen angeben
 
-Bei der Arbeit mit Strichcodes können Sie einige zusätzliche Eigenschaften einstellen. Aspose.Words bietet Ihnen die [BarcodeParameters](https://reference.aspose.com/words/java/com.aspose.words/barcodeparameters/) Klasse – Klasse für Parameter von Strichcodes zum Weiterleiten an BarcodeGenerator.
+Wenn Sie mit Barcodes arbeiten, können Sie einige zusätzliche Eigenschaften festlegen. Aspose.Words liefert Ihnen die [BarcodeParameters](https://reference.aspose.com/words/java/com.aspose.words/barcodeparameters/) -Klasse - Klasse für Barcode-Parameter, die an BarcodeGenerator übergeben werden sollen.
 
-Aspose.Words unterstützt eingebettete 96 ppi-Auflösung für Bilder, die mit [IBarcodeGenerator](https://reference.aspose.com/words/java/com.aspose.words/ibarcodegenerator/) generiert wurden, was die Mindestgröße von Barcode-Bildern einschränkt. Um dieses Problem zu beheben, können Entwickler manuell Barcode-Bilder in der Zielauflösung in ein Word-Dokument einfügen und sie im erforderlichen Format speichern. Weitere Details und Beispiele zur Arbeit mit Barcodes finden Sie im Artikel [Read Barcodes from Word Documents](https://docs.aspose.com/barcode/java/read-barcode-from-word-document/).
+Aspose.Words unterstützt eine eingebettete Auflösung von 96 ppi für mit [IBarcodeGenerator](https://reference.aspose.com/words/java/com.aspose.words/ibarcodegenerator/) generierte Bilder, wodurch die Mindestgröße eines Barcode-Bildes begrenzt wird. Um dies zu beheben, können Entwickler Barcode-Bilder mit der Zielauflösung manuell in ein Word-Dokument einfügen und im gewünschten Format speichern. Weitere Details und Beispiele zum Arbeiten mit Barcodes finden Sie im Artikel [Lesen von Barcodes aus Word-Dokumenten](https://docs.aspose.com/barcode/java/read-barcode-from-word-document/).

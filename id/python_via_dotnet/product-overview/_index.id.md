@@ -7,6 +7,7 @@ description: "Aspose.Words untuk Python via .NET adalah perpustakaan perangkat l
 type: docs
 weight: 15
 url: /id/python-net/product-overview/
+timestamp: 2024-01-31-14-23-37
 ---
 
 <img src="/words/python-net/product-overview/product-overview_1" alt="asumsi-kata-produk" align="left" style="width:64px; margin: 0 30px 30px 0"/>

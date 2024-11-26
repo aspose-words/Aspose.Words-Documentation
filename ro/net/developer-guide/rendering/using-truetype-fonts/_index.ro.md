@@ -7,6 +7,7 @@ description: "Aspose.Words pentru .NET poate găsi fontul potrivit sau înlocuir
 type: docs
 weight: 20
 url: /ro/net/using-truetype-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Când lucrezi cu documente, de multe ori trebuie să folosești diferite fonturi, stiluri și dimensiuni. Documentele pot conține orice număr de fonturi, care nu sunt neapărat limitate la cele instalate în sistemul de operare. Fonturile pot fi complet diferite, cum ar fi fonturi luate din alte sisteme de operare, achiziționate sau create chiar de utilizatori.

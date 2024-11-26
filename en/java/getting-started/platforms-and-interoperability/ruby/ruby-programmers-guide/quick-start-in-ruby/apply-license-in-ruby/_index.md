@@ -1,4 +1,4 @@
-﻿---
+---
 title: Apply License in Ruby
 second_title: Aspose.Words for Java
 articleTitle: Apply License in Ruby
@@ -7,6 +7,7 @@ description: "Ruby: apply License to Aspose.Words for Java."
 type: docs
 weight: 20
 url: /java/apply-license-in-ruby/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Apply License

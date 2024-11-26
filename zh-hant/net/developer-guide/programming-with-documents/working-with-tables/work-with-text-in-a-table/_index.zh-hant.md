@@ -7,6 +7,7 @@ description: "在 C# 中替換表格中的文字。 使用 C# 从表格或单元
 type: docs
 weight: 60
 url: /zh-hant/net/work-with-text-in-a-table/
+timestamp: 2024-01-27-14-07-04
 ---
 
 如前文所述，表格通常包含簡單的文字，雖然其他內容，例如圖片或甚至其他表格，也可以放進表格細胞中。

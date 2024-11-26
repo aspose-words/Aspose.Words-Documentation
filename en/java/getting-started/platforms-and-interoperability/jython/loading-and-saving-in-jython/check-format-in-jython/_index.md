@@ -1,4 +1,4 @@
-﻿---
+---
 title: Check File Format in Jython
 second_title: Aspose.Words for Java
 articleTitle: Check File Format in Jython
@@ -7,6 +7,7 @@ description: "Check File Format using Jython."
 type: docs
 weight: 10
 url: /java/check-format-in-jython/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Check Format

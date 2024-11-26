@@ -1,4 +1,4 @@
-﻿---
+---
 title: Travailler avec des listes en C++
 second_title: Aspose.Words pour C++
 articleTitle: Travailler Avec Des Listes
@@ -7,6 +7,7 @@ description: "Introduction à la fonction de formatage de numérotation dans Asp
 type: docs
 weight: 200
 url: /fr/cpp/working-with-lists/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Une liste dans un document Microsoft Word est un ensemble de propriétés de formatage de liste. Les listes peuvent être utilisées dans vos documents pour formater, organiser et mettre en valeur le texte. Les listes sont un excellent moyen d'organiser les données dans les documents et permettent aux lecteurs de mieux comprendre les points clés.

@@ -7,6 +7,7 @@ description: "Cómo agregar un hipervínculo a su documento en C# usando Aspose.
 type: docs
 weight: 50
 url: /es/net/working-with-hyperlinks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Un hipervínculo en documentos Microsoft Word es el campo `HYPERLINK`. En Aspose.Words, los hipervínculos se implementan mediante la clase [FieldHyperlink](https://reference.aspose.com/words/es/net/aspose.words.fields/fieldhyperlink/).

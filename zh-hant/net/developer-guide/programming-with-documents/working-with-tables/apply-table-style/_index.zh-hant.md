@@ -7,6 +7,7 @@ description: "高級表格格式化 C#。 用C#來建立表格風格。 應用 C
 type: docs
 weight: 80
 url: /zh-hant/net/working-with-tablestyle/
+timestamp: 2024-02-02-12-07-36
 ---
 
 表格樣式定義了一組格式，可以輕鬆地套用到一張桌面上。 格式化（如邊界、填充、對齊和字型）可以在表格樣式中設定並套用到許多資料表上，以產生一致的外觀。

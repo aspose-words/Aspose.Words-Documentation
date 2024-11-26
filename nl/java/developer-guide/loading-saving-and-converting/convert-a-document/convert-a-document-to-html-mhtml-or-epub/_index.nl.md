@@ -7,6 +7,7 @@ description: "Gebruik Aspose.Words voor Java documenten van Word of andere onder
 type: docs
 weight: 20
 url: /nl/java/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-10-21-08-52-03
 ---
 
 Documenten in HTML en MHTML flow-layout formaten zijn ook zeer populair en kunnen worden gebruikt op elk webplatform. Daarom is het omzetten van documenten naar HTML en MHTML een belangrijk kenmerk van Aspose.Words.

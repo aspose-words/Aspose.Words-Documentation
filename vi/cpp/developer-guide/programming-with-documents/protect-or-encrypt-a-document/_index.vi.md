@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bảo vệ Hoặc Mã hóa Một Tài liệu trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Bảo vệ Hoặc Mã hóa Tài liệu
@@ -7,6 +7,7 @@ description: "Aspose.Words cho C++ cung Cấp Chỉ Đọc, Mã hóa Tài liệu
 type: docs
 weight: 50
 url: /vi/cpp/protect-or-encrypt-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Lý do chính để bảo vệ hoặc mã hóa tài liệu là áp dụng nhiều quyền kiểm soát hơn đối với ai có thể truy cập tài liệu hoặc ai có thể chỉnh sửa tài liệu. Áp dụng bảo vệ cho tài liệu của bạn, bạn tránh các rủi ro phổ biến như sao chép hoặc sửa đổi tài liệu mà không được phép, cũng như rò rỉ dữ liệu.

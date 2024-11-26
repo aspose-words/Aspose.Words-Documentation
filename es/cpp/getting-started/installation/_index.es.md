@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cómo instalar Aspose.Words para C++
 second_title: Aspose.Words para C++
 articleTitle: Instalación
@@ -7,6 +7,7 @@ description: "Instalar Aspose.Words para C++ usando Administrar NuGet Paquetes o
 type: docs
 weight: 10
 url: /es/cpp/installation/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Asegúrese de que su máquina cumpla con los [requisitos del sistema](/words/cpp/system-requirements/) antes de que empieces.

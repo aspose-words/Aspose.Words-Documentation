@@ -7,6 +7,7 @@ description: "Присъединете се към масите C#. Как да 
 type: docs
 weight: 90
 url: /bg/net/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Таблица, представена в Aspose.Words Document Object Model, е съставена от независими редове и клетки, което го прави лесно да се присъединят към масите.

@@ -7,6 +7,7 @@ description: "對 .NET 的 Aspose.Words 中的數字格式功能進行介紹。"
 type: docs
 weight: 200
 url: /zh-hant/net/working-with-lists/
+timestamp: 2024-01-27-14-07-04
 ---
 
 一份在 Microsoft Word 文檔中的清單是一組的段落格式設定屬性。 清單可用於文檔中結構化、安排和突出文字。 清單是組織文件中數據的極佳方式，使其易於讀者吸收和理解要點。

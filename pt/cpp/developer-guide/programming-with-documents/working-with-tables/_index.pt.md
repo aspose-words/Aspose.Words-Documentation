@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabalhar com tabelas em C++
 second_title: Aspose.Words para C++
 articleTitle: Trabalhar com tabelas
@@ -7,6 +7,7 @@ description: "Como trabalhar com tabelas em C++. Introdução ao trabalho com ta
 type: docs
 weight: 190
 url: /pt/cpp/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A **table** em um documento é uma ótima maneira de estruturar dados semelhantes. É por isso que as tabelas são um elemento de formatação de conteúdo comum e são suportadas pela maioria dos formatos de uma forma ou de outra.

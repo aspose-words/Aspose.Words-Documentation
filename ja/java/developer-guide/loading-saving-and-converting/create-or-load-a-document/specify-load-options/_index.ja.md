@@ -1,88 +1,89 @@
----
-title: ロードオプションを指定する Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: ロードオプションを指定する
-linktitle: ロードオプションを指定する
-description: "ドキュメントをロードするときに高度なプロパティを設定する Java プロセスのより精密な制御を得るために。"
+﻿---
+title: Javaでのロードオプションの指定
+second_title: Aspose.WordsのためのJava
+articleTitle: ロードオプションの指定
+linktitle: ロードオプションの指定
+description: "プロセスのより正確な制御を得るために、Javaを使用して文書を読み込むときに高度なプロパティを設定します。"
 type: docs
 weight: 10
 url: /ja/java/specify-load-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
-ドキュメントをロードすると、高度なプロパティを設定できます。 Aspose.Words あなたに提供する [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) 負荷プロセスのより精密な制御を可能にするクラス。 いくつかのロードフォーマットには、このロードフォーマットのロードオプションを保持する対応するクラスがあります。例えば、 [PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) PDF形式への読み込みまたは [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) TXTへのローディングのため。 この記事では、オプションの動作例を提供しています **LoadOptions** クラス。
+ドキュメントを読み込むときに、いくつかの高度なプロパティを設定できます。 Aspose.Wordsは、ロードプロセスのより正確な制御を可能にする[LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/)クラスを提供します。 たとえば、PDF形式への読み込みには[PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/)、TXT形式への読み込みには[TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/)があります。 この記事では、**LoadOptions**クラスのオプションを使用する例を示します。
 
-## セット Microsoft Word 外観を変更するバージョン
+## 外観を変更するにはMicrosoft Wordバージョンを設定します
 
-異なるバージョンの Microsoft Word 適用は異なった文書を表示できます。 たとえば、DOCX などの OOXML 文書や DOTWPSオフィスで制作したX。 このような場合、必須文書のマークアップ要素が欠落しているか、異なる理由で解釈される可能性があります Microsoft Word 2019年は、この文書が異なるものを示すために Microsoft Word 2010年10月1日
+Microsoft Wordアプリケーションの異なるバージョンでは、文書を異なる方法で表示できます。 たとえば、WPSOfficeを使用して作成されたDOCXやDOTXなどのOOXML文書にはよく知られている問題があります。 このような場合、必須の文書マークアップ要素が欠落している可能性があるか、Microsoft Word2019がMicrosoft Word2010と比較してそのような文書を異なる方法で表示する原因とな
 
-デフォルトで Aspose.Words ドキュメントの公開 Microsoft Word 2019年ルール 前の1つで起こるように文書のローディングを現わす必要がある場合 Microsoft Word アプリケーションバージョンでは、希望するバージョンを明示的に指定する必要があります。 [MswVersion](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getMswVersion) のプロパティ **LoadOptions** クラス。
+デフォルトでAspose.WordsはMicrosoft Word2019ルールを使用してドキュメントを開きます。 以前のMicrosoft Wordアプリケーションバージョンのいずれかで発生するようにドキュメントのロードを表示する必要がある場合は、**LoadOptions**クラスの[MswVersion](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getMswVersion)プロパティを使用して目的のバージョンを明示的に指定する必要があります。
 
-次のコードの例では、設定方法を示します。 Microsoft Word ロードオプション付きのバージョン:
+次のコード例は、loadオプションを使用してMicrosoft Wordバージョンを設定する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-SetMSWordVersion.java" >}}
 
-## 出現を変更する言語環境設定を設定する
+## 外観を変更するには、言語環境設定を設定します
 
-ドキュメントの表示の詳細 Microsoft Word アプリケーションバージョンとアプリケーションバージョンだけでなく、 **MswVersion** プロパティ値だけでなく、言語設定にも。 Microsoft Word 「Office Language Preferences」ダイアログ設定により異なるドキュメントを表示できます。これは「File → Options → Languаge」にあります。 このダイアログを使用して、プライマリ言語、校正言語、表示言語など、ユーザーが選択できます。 Aspose.Words 提供して下さい [LanguagePreferences](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getLanguagePreferences) このダイアログの同等のプロパティ。 お問い合わせ Aspose.Words 出力は異なる Microsoft Word 出力、適切な値を設定 **EditingLanguage** - これは、出力文書を改善することができます。
+Microsoft Wordでのドキュメントの表示の詳細は、アプリケーションのバージョンと**MswVersion**プロパティの値だけでなく、言語設定にも依存します。Microsoft Wordでのドキュメントの表示の詳細は、アプリケーションのバージョンと**MswVersion**プロパティの値に依存します。 Microsoft Wordは、"ファイル→オプション→言語"にある"Office言語設定"ダイアログの設定によって、ドキュメントが異なる場合があります。 このダイアログを使用すると、ユーザは、例えば、第一言語、校正言語、表示言語などを選択することができます。 Aspose.Wordsは、このダイアログに相当する[LanguagePreferences](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getLanguagePreferences)プロパティを提供します。 Aspose.Wordsの出力がMicrosoft Wordの出力と異なる場合は、**EditingLanguage**に適切な値を設定してください。
 
-以下のコード例では、日本語の設定方法を示します。 **EditingLanguage**:::
+次のコード例は、日本語を**EditingLanguage**に設定する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SetupLanguagePreferences-AddJapaneseAsEditinglanguages.java" >}}
 
-## 使用条件 WarningCallback 問題の制御 ドキュメントを読み込みながら
+## ドキュメントの読み込み中の問題を制御するにはWarningCallbackを使用します
 
-一部の文書は、破損、無効なエントリを含む、または現在サポートされていない機能がある可能性があります。 Aspose.Wordsお問い合わせ 書類を積みながら発生した問題について知りたい場合は、 Aspose.Words 提供して下さい [IWarningCallback](https://reference.aspose.com/words/java/com.aspose.words/iwarningcallback/) インターフェイス。
+一部の文書が破損しているか、無効なエントリが含まれているか、現在Aspose.Wordsでサポートされていない機能を持っている可能性があります。 ドキュメントの読み込み中に発生した問題について知りたい場合は、Aspose.Wordsは[IWarningCallback](https://reference.aspose.com/words/java/com.aspose.words/iwarningcallback/)インターフェイスを提供します。
 
-次のコードの例では、実装の実装を示します。 **IWarningCallback** インターフェイス:
+次のコード例は、**IWarningCallback**インターフェイスの実装を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadOptionsCallbacks-DocumentLoadingWarningCallback.java" >}}
 
-負荷時間を通してすべての問題についての情報を得るために、使用して下さい [WarningCallback](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getWarningCallback) プロパティ.
+読み込み時間中のすべての問題に関する情報を取得するには、[WarningCallback](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getWarningCallback)プロパティを使用します。
 
-以下のコードの例では、このプロパティを使用する方法を示します。
+次のコード例は、このプロパティを使用する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadOptionsCallbacks-LoadOptionsWarningCallback.java" >}}
 
-## ResourceLoading を使う 外部リソースの読み込みを制御するコールバック
+## ResourceLoadingCallbackを使用して外部リソースの読み込みを制御します
 
-ドキュメントには、ローカルディスク、ネットワーク、またはインターネット上のどこかにある画像への外部リンクが含まれる場合があります。 Aspose.Words そのような画像を文書に自動的にロードしますが、このプロセスが制御する必要があるときに状況があります。 たとえば、特定の画像を読み込む必要があるか、またはおそらくそれをスキップする必要があるかどうかを判断します。 ザ・オブ・ザ・ [ResourceLoadingCallback](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getResourceLoadingCallback) ロードオプションを使用すると、これを制御できます。
+ドキュメントには、ローカルディスク、ネットワーク、またはインターネット上のどこかにあるイメージへの外部リンクが含まれている場合があります。 Aspose.Wordsはこのような画像を自動的に文書に読み込みますが、このプロセスを制御する必要がある状況があります。 たとえば、特定の画像を本当にロードする必要があるのか、それともスキップする必要があるのかを判断します。 [ResourceLoadingCallback](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getResourceLoadingCallback)loadオプションを使用すると、これを制御できます。
 
-次のコードの例では、実装の実装を示します。 [IResourceLoadingCallback](https://reference.aspose.com/words/java/com.aspose.words/iresourceloadingcallback/) インターフェイス:
+次のコード例は、[IResourceLoadingCallback](https://reference.aspose.com/words/java/com.aspose.words/iresourceloadingcallback/)インターフェイスの実装を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadOptionsCallbacks-HtmlLinkedResourceLoadingCallback.java" >}}
 
-以下のコード例では、使い方を示します。 **ResourceLoadingCallback** プロパティ:
+次のコード例は、**ResourceLoadingCallback**プロパティを使用する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadOptionsCallbacks-LoadOptionsResourceLoadingCallback.java" >}}
 
-## TempFolder を使用してメモリ例外を回避
+## メモリ例外を回避するにはTempFolderを使用します
 
-Aspose.Words 豊富なコンテンツが数千ページある非常に大きな文書をサポートしています。 そのような文書の読み込みには、多くのRAMが必要な場合があります。 ローディングのプロセスでは、 Aspose.Words ドキュメントを解析するために使用される一時的な構造を保持するためにさらにメモリが必要です。
+Aspose.Wordsは、リッチコンテンツでいっぱいの数千ページの非常に大きな文書をサポートします。 そのような文書を読み込むには多くのRAMが必要になる場合があります。 読み込みの過程で、Aspose.Wordsは文書を解析するために使用される一時構造体を保持するためにさらに多くのメモリを必要とします。
 
-ドキュメントをロードしながらメモリ例外のOut に問題がある場合、使用しようとする [TempFolder](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getTempFolder) プロパティ. この場合、 Aspose.Words メモリの代わりに一時ファイルに保存されます。これにより、このような例外を回避できます。
+ドキュメントの読み込み中にメモリ不足の例外に問題がある場合は、[TempFolder](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getTempFolder)プロパティを使用してみてください。 この場合、Aspose.Wordsは一部のデータをメモリではなく一時ファイルに保存し、このような例外を回避するのに役立ちます。
 
-次のコードの例では、設定方法を示します。 **TempFolder**:::
+次のコード例は、**TempFolder**を設定する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-SetTempFolder.java" >}}
 
 ## エンコーディングを明示的に設定する
 
-ほとんどの近代的な文書のフォーマットはUnicodeで内容を貯え、特別な処理を必要としません。 一方、いくつかの事前Unicodeエンコーディングを使用し、時にはエンコーディング情報を逃したり、エンコーディング情報を自然でサポートしたりする文書はまだまだ多くあります。 Aspose.Words デフォルトで適切なエンコーディングを自動的に検出しようとします。ただし、エンコーディングアルゴリズムによって検出されたエンコーディングとは異なるエンコーディングを使用する必要は稀です。 この場合は、 [Encoding](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getEncoding) エンコーディングを取得または設定するプロパティ。
+最新のドキュメント形式のほとんどは、コンテンツをUnicodeで保存し、特別な処理を必要としません。 一方、Unicode以前のエンコーディングを使用しており、エンコーディング情報を見逃したり、エンコーディング情報を本質的にサポートしていないドキュメント Aspose.Wordsはデフォルトで適切なエンコーディングを自動的に検出しようとしますが、まれにエンコーディング認識アルゴリズムで検出されたエンコーディングとは異なるエンコーディングを使用する必要がある場合があります。 この場合、[Encoding](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getEncoding)プロパティを使用してエンコーディングを取得または設定します。
 
-次のコードの例では、選択したエンコーディングをオーバーライドする方法を示します。
+次のコード例は、自動的に選択されたエンコーディングを上書きするようにエンコーディングを設定する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-LoadOptionsEncoding.java" >}}
 
-## 暗号化された文書の読み込み
+## 暗号化された文書を読み込む
 
-ロードできます パスワードで暗号化されたWord文書。 これを行うには、特別なコンストラクタの積み過ぎを使用してください。 [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) オブジェクト。 このオブジェクトには、 [Password](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getPassword) パスワード文字列を指定するプロパティ。
+パスワードで暗号化されたWord文書を読み込むことができます。 これを行うには、[LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/)オブジェクトを受け入れる特別なコンストラクタオーバーロードを使用します。 このオブジェクトには、パスワード文字列を指定する[Password](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getPassword)プロパティが含まれています。
 
-次のコードの例では、パスワードで暗号化されたドキュメントを読み込む方法を示します。
+次のコード例は、パスワードで暗号化されたドキュメントを読み込む方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-OpenDocument-OpenEncryptedDocument.java" >}}
 
-ファイルが暗号化されているかどうかを事前に知らない場合は、 [FileFormatUtil](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/) クラスは、ファイルフォーマットを検出したり、ファイルの拡張子をファイルフォーマットの列挙から/に変換するなどのファイル形式で作業するためのユーティリティメソッドを提供します。 文書が暗号化されていれば検出し、パスワードで開くように要求するには、 [IsEncrypted](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#isEncrypted) プロパティ.
+ファイルが暗号化されているかどうかが事前にわからない場合は、[FileFormatUtil](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/)クラスを使用して、ファイル形式を検出したり、ファイル拡張子をファイル形式の列挙に変換したりするなど、ファイル形式を操作するためのユーティリティメソッドを提供します。 文書が暗号化されていて、それを開くためにパスワードが必要かどうかを検出するには、[IsEncrypted](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#isEncrypted)プロパティを使用します。
 
-次のコードの例では、OpenDocumentが暗号化されているか、暗号化されていないかを検証する方法を示します。
+次のコード例は、OpenDocumentが暗号化されているかどうかを確認する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-VerifyODTdocument.java" >}}

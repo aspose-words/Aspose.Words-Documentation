@@ -1,4 +1,4 @@
-﻿---
+---
 title: MFont Ketersediaan dan Substitusi dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Ketersediaan dan Penggantian Font
@@ -7,6 +7,7 @@ description: "Jika font pengganti yang tepat tidak dapat ditemukan, Aspose.Words
 type: docs
 weight: 12
 url: /id/cpp/font-availability-and-substitution/
+timestamp: 2024-09-24-14-35-44
 ---
 
 Teks dalam dokumen dapat diformat dengan berbagai font, seperti Arial, Times New Roman, Verdana, dan lainnya. Saat Aspose.Words merender dokumen, ia mencoba memilih font yang ditentukan dalam dokumen.

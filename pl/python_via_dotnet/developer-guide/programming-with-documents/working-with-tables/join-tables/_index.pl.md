@@ -7,6 +7,7 @@ description: "Łącz tabele w dokumencie za pomocą Python. Jak połączyć dwie
 type: docs
 weight: 90
 url: /pl/python-net/join-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Tabela reprezentowana w formacie Aspose.Words Document Object Model składa się z niezależnych wierszy i komórek, co ułatwia łączenie tabel.

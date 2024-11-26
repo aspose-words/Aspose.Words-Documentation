@@ -1,4 +1,4 @@
-﻿---
+---
 title: Lucrul cu intervale în Python
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Lucrul cu gamele
@@ -7,6 +7,7 @@ description: "Lucrați cu intervale într-un document folosind Python."
 type: docs
 weight: 130
 url: /ro/python-net/working-with-ranges/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

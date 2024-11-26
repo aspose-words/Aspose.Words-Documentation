@@ -7,6 +7,7 @@ description: "使用 Python 对文档进行数字签名并检测、计数、验�
 type: docs
 weight: 40
 url: /zh/python-net/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 数字签名用于验证文档的身份，以确定文档的发送者正是他们所说的人，并且文档的内容未被篡改。

@@ -7,13 +7,14 @@ description: "Převést PDF na Excel, XML na Excel, DOCX na Excel Python. Uloži
 type: docs
 weight: 15
 url: /cs/python-net/convert-a-document-to-excel/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Převod dokumentů z jednoho formátu do druhého je vlajkovou lodí Aspose.Words. Dokumenty můžete převést v jakémkoliv dostupném [formát zatížení](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) i do formátu XLSX.
 
 ## Převést dokument na XLSX
 
-Převést dokument na XLSX je poměrně složitý proces. Pro uložení dokumentu do formátu XLSX pomocí <span notrans="<span notrans=" Aspose.Words"=""></span>,? použijte [XlsxSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/) třída a nová `Xlsx` prvek [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/) vyjmenování. Jak bylo uvedeno výše, dokument můžete uložit v jakémkoli formátu zatížení podporovaném Aspose.Words na XLSX.
+Převést dokument na XLSX je poměrně složitý proces. Pro uložení dokumentu do formátu XLSX pomocí Aspose.Words,? použijte [XlsxSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/) třída a nová `Xlsx` prvek [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/) vyjmenování. Jak bylo uvedeno výše, dokument můžete uložit v jakémkoli formátu zatížení podporovaném Aspose.Words na XLSX.
 
 Následující příklad kódu ukazuje, jak uložit PDF do XLSX:
 

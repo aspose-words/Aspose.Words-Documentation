@@ -1,4 +1,4 @@
-﻿---
+---
 title: Niveaux logiques des nœuds dans un document en C++
 second_title: Aspose.Words pour C++
 articleTitle: Niveaux logiques des nœuds dans un document
@@ -7,6 +7,7 @@ type: docs
 description: "Dans Aspose.Words pour C++ la documentation mentionnait les niveaux logiques des nœuds-niveau bloc, niveau en ligne ou niveau ligne. Le niveau du nœud est utilisé pour décrire l'emplacement dans l'arborescence du document où se trouve généralement le nœud."
 weight: 10
 url: /fr/cpp/logical-levels-of-nodes-in-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Cette documentation fait parfois référence à un groupe de classes de nœuds comme appartenant à un "niveau" dans un document, tel que des nœuds de "niveau bloc", de "niveau en ligne" (également appelés "en ligne") ou de "niveau ligne". Ces niveaux dans un document sont différenciés de manière purement logique et ne sont pas explicitement exprimés par héritage ou d'autres moyens Aspose.Words DOM. Le niveau du nœud est utilisé pour décrire l'endroit dans l'arborescence du document où le nœud se produirait généralement.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ایجاد نمودار OOXML از ابتدا
 second_title: Aspose.Words برای C++
 articleTitle: ایجاد نمودار OOXML از ابتدا
@@ -7,6 +7,7 @@ description: "چگونه نمودارهای مختلف را در سند خود �
 type: docs
 weight: 10
 url: /fa/cpp/creating-ooxml-charts-from-scratch-using-aspose-words/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## ایجاد OOXML نمودار از ابتدا با استفاده از Aspose.Words

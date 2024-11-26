@@ -8,6 +8,7 @@ url: /bg/python-net/convert-a-document/
 weight: 30
 description: "Лесно конвертиране на документи от един формат в друг чрез използване Python. Можете да работите с всички най-популярни формати като Microsoft Word формати като DOCX или DOC, формати с отворен документ като OTT или OTT, уеб формати като HTML или XHTML, текстови формати като MarkDown или TXT, и други."
 keywords: "convert a document python, convert documents from one format to another python, convert to markdown python, convert pdf to docx python, convert docx to pdf python, convert doc to pdf python, convert a document Aspose for Python"
+timestamp: 2024-01-27-14-07-04
 ---
 
 Способността лесно и надеждно да конвертирате документи от един формат в друг е една от основните области на функция Aspose.Words. Такова преобразуване не е нищо повече от комбинация от операции по товарене и спасяване.

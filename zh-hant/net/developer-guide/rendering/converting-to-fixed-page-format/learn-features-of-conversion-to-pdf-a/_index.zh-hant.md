@@ -7,6 +7,7 @@ description: "透過C#將檔案轉換成PDF/A-1、PDF/A-2、PDF/A-4和PDF/UA。 
 type: docs
 weight: 25
 url: /zh-hant/net/learn-features-of-conversion-to-pdf-a-pdf-ua/
+timestamp: 2024-01-31-14-23-37
 ---
 
 PDF是一種固定頁面格式，在使用者中非常受歡迎，各種應用程式也都廣泛支持，因為PDF文件在任何裝置上都能看起來相同。 因此，將檔案轉換為 PDF 是 Aspose.Words 重要功能的原因。

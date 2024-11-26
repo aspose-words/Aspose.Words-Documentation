@@ -7,6 +7,7 @@ type: docs
 description: "Document Object Model (DOM), bir Word belgesinin bellek içi temsilidir. C# kullanarak bir Word belgesinin içeriğini ve biçimlendirmesini okuyun, değiştirin ve değiştirin."
 weight: 10
 url: /tr/net/aspose-words-document-object-model/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words Document Object Model (DOM), bir Word belgesinin bellek içi temsilidir. Aspose.Words DOM, bir Word belgesinin içeriğini ve biçimlendirmesini programlı olarak okumanıza, değiştirmenize ve değiştirmenize olanak tanır.

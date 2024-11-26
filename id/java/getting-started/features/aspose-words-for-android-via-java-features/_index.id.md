@@ -7,6 +7,7 @@ description: "Bagian ini memberikan perbandingan ketersediaan fitur antara Aspos
 type: docs
 weight: 90
 url: /id/java/aspose-words-for-android-via-java-features/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ## Aspose.Words Sitemap Android Sitemap Java Sitemap
@@ -91,16 +92,16 @@ Anda dapat menggunakan Aspose.Words sebagai solusi pelaporan sendiri. Desain lap
 
 |  Sitemap | Aspose.Words Sitemap Java | Aspose.Words Sitemap Android Sitemap Java |
 |  :-  |  :-  |  :-  |
-| Gunakan semua standar Microsoft Word mail merge kolom dalam laporan Anda termasuk `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, Login | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Login mail merge untuk dokumen yang mengandung bahkan yang paling kompleks dan bersarang `IF` kolom dan formula. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Populasi dan secara dinamis menumbuhkan tabel atau fragmen dalam dokumen dari sumber data Anda mail merge Login | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Gunakan semua standar Microsoft Word Mail Merge kolom dalam laporan Anda termasuk `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, Login | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Login Mail Merge untuk dokumen yang mengandung bahkan yang paling kompleks dan bersarang `IF` kolom dan formula. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Populasi dan secara dinamis menumbuhkan tabel atau fragmen dalam dokumen dari sumber data Anda Mail Merge Login | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Mudah menghasilkan laporan yang berisi data master-detail (orang tua) seperti Order/OrderDetails. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Dokumen Populasi dengan data dari setiap Java sumber data yang mengimplementasikan `ResultSet` Login | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Dokumen Populasi dari sumber data apa pun seperti file XML atau objek bisnis dengan menerapkan **IMailMergeDataSource** Login | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Ambil kontrol yang tepat, seperti format nomor, atas bagaimana data Anda digabungkan menggunakan acara. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Masukkan gambar selama mail mergeSitemap | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Programmatically membuat atau memodifikasi Microsoft Word mail merge sumber data untuk dokumen. Login mail merge pengaturan dan sumber data. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Sitemap mail merge nama lapangan. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Programmatically membuat atau memodifikasi Microsoft Word Mail Merge sumber data untuk dokumen. Login Mail Merge pengaturan dan sumber data. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Sitemap Mail Merge nama lapangan. | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
 ### Fitur Pelaporan
 

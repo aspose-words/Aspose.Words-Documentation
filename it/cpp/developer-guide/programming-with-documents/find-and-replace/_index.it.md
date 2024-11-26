@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trovare e sostituire in C++
 second_title: Aspose.Words per C++
 articleTitle: Trova e sostituisci
@@ -7,6 +7,7 @@ type: docs
 description: "Trovare una stringa o un modello di espressione regolare nel documento e sostituirlo con il testo desiderato utilizzando C++."
 weight: 100
 url: /it/cpp/find-and-replace/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Puoi navigare facilmente all'interno del tuo documento usando una tastiera e un mouse, ma se hai molte pagine da scorrere, ci vorrà un po ' di tempo per trovare testo specifico in un documento lungo. Sarà più dispendioso in termini di tempo quando si desidera sostituire determinati caratteri o parole che sono stati utilizzati nel documento. La funzionalità "Trova e sostituisci" consente di trovare una sequenza di caratteri in un documento e sostituirla con un'altra sequenza di caratteri.

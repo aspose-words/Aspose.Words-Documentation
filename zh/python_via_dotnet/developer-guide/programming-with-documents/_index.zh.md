@@ -7,6 +7,7 @@ type: docs
 description: "使用 Aspose 通过 `Python.Words` Document Object Model 类通过 python-net 以编程方式创建、修改和管理文档。通过管理颜色、形状、字体和其他图形来处理文档属性、设置和内容以及文档外观。"
 weight: 60
 url: /zh/python-net/programming-with-documents/
+timestamp: 2024-09-25-11-08-55
 ---
 
 本节提供有关如何使用 Aspose.Words Document Object Model 类以编程方式创建、修改和管理文档的信息。本节中的文章描述了各种文档操作任务，使您能够处理文档属性、设置、内容及其元素。

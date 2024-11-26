@@ -7,6 +7,7 @@ description: " Aspose.Words for .NET 可透過以 C# 在最準確的環境下，
 type: docs
 weight: 20
 url: /zh-hant/net/installing-truetype-fonts-on-linux/
+timestamp: 2024-01-27-14-07-04
 ---
 
 你經常會用 Aspose.Words 來將 DOC 或 DOCX 文檔轉換成 PDF 格式。 如果您需要在 Linux 機器上執行此操作，此主題將協助您學習如何確保 Aspose.Words 以最佳準確度 Render 您的文件。

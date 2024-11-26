@@ -7,6 +7,7 @@ description: "Bạn có thể truy cập sửa đổi trường bằng Python. C
 type: docs
 weight: 10
 url: /vi/python-net/fields-overview/
+timestamp: 2024-10-21-11-17-44
 ---
 
 
@@ -190,9 +191,9 @@ Aspose.Words hỗ trợ tất cả các công tắc định dạng ngày và gi�
 
 #### Trường Mail Merge
 
-Aspose.Words không áp đặt giới hạn nào về độ phức tạp của các trường mail merge trong tài liệu của bạn và hỗ trợ các trường công thức và `IF` lồng nhau, đồng thời thậm chí có thể tính toán tên của trường hợp nhất bằng công thức.
+Aspose.Words không áp đặt giới hạn nào về độ phức tạp của các trường Mail Merge trong tài liệu của bạn và hỗ trợ các trường công thức và `IF` lồng nhau, đồng thời thậm chí có thể tính toán tên của trường hợp nhất bằng công thức.
 
-Một số ví dụ về trường mail merge mà Aspose.Words hỗ trợ:
+Một số ví dụ về trường Mail Merge mà Aspose.Words hỗ trợ:
 
 - Công tắc trường Mail merge:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
@@ -236,7 +237,7 @@ Việc sử dụng văn hóa hiện tại để định dạng các trường ch
 
 Mặt khác, Microsoft Word định dạng từng trường riêng lẻ dựa trên ngôn ngữ của văn bản được tìm thấy trong trường đó (cụ thể là các dòng chạy từ mã trường). Đôi khi trong quá trình cập nhật trường, đây có thể là hành vi mong muốn, ví dụ: nếu bạn có tài liệu toàn cầu hóa chứa nội dung được tạo thành từ nhiều ngôn ngữ khác nhau và muốn mỗi trường tôn trọng ngôn ngữ được sử dụng trong văn bản. Aspose.Words cũng hỗ trợ chức năng này.
 
-Lớp [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) cung cấp thuộc tính [field_options](https://reference.aspose.com/words/python-net/aspose.words/document/field_options/) chứa các thành viên có thể được sử dụng để kiểm soát cách cập nhật các trường trong tài liệu. Ví dụ dưới đây cho thấy cách chỉ định nơi văn hóa được sử dụng để định dạng ngày trong quá trình cập nhật trường và mail merge được chọn từ đó.
+Lớp [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) cung cấp thuộc tính [field_options](https://reference.aspose.com/words/python-net/aspose.words/document/field_options/) chứa các thành viên có thể được sử dụng để kiểm soát cách cập nhật các trường trong tài liệu. Ví dụ dưới đây cho thấy cách chỉ định nơi văn hóa được sử dụng để định dạng ngày trong quá trình cập nhật trường và Mail Merge được chọn từ đó.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-ChangeFieldUpdateCultureSource.py" >}}
 

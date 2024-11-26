@@ -1,4 +1,4 @@
-﻿---
+---
 title: How to Run the Examples
 second_title: Aspose.Words for .NET
 articleTitle: How to Run the Examples
@@ -7,6 +7,7 @@ description: "Download Aspose.Words for .NET examples from our GitHub repository
 type: docs
 weight: 110
 url: /net/how-to-run-the-examples/
+timestamp: 2024-10-24-11-44-28
 ---
 
 To become more familiar with the Aspose.Words possibilities and features we provide examples that can be downloaded from our GitHub repository, run, and learn in detail.

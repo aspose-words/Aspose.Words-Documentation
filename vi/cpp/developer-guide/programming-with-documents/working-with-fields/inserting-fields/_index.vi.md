@@ -1,4 +1,4 @@
-﻿---
+---
 title: Chèn Các Trường vào C++
 second_title: Aspose.Words cho C++
 articleTitle: Chèn Trường
@@ -7,6 +7,7 @@ description: "Các cách khác nhau để chèn các trường vào tài liệu 
 type: docs
 weight: 20
 url: /vi/cpp/inserting-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Có một số cách khác nhau để chèn các trường vào tài liệu:
@@ -93,7 +94,7 @@ Bạn có thể tải xuống tệp mẫu của ví dụ này từ [Aspose.Words
 
 ### Chèn trường Khối Địa Chỉ Mail Merge Vào Tài liệu bằng DOM
 
-Trường `ADDRESSBLOCK` được sử dụng để chèn khối địa chỉ mail merge trong Tài liệu Word. Trường `ADDRESSBLOCK` trong Tài liệu Word có thể được biểu diễn bằng lớp [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldaddressblock/). Bạn có thể sử dụng lớp **FieldAddressBlock** để thực hiện các thao tác sau:
+Trường `ADDRESSBLOCK` được sử dụng để chèn khối địa chỉ Mail Merge trong Tài liệu Word. Trường `ADDRESSBLOCK` trong Tài liệu Word có thể được biểu diễn bằng lớp [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldaddressblock/). Bạn có thể sử dụng lớp **FieldAddressBlock** để thực hiện các thao tác sau:
 
 - chỉ định có nên bao gồm tên của quốc gia/khu vực trong trường hay không
 - xác định xem có định dạng địa chỉ theo quốc gia/khu vực của người nhận theo quy định của POST * CODE (Universal Postal Union 2006)
@@ -147,7 +148,7 @@ Trường `ASK` được sử dụng để nhắc người dùng gán văn bản
 
 - chỉ định tên của dấu trang
 - chỉ định phản hồi mặc định của người dùng (giá trị ban đầu có trong cửa sổ nhắc)
-- chỉ định xem phản hồi của người dùng có được nhận một lần cho mỗi thao tác mail merge hay không
+- chỉ định xem phản hồi của người dùng có được nhận một lần cho mỗi thao tác Mail Merge hay không
 - chỉ định văn bản nhắc (tiêu đề của cửa sổ nhắc)
 
 {{% alert color="primary" %}}

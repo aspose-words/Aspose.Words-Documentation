@@ -7,6 +7,7 @@ description: "הכנס פסקה למסמך C#. המונחים: C#. עבודה ע
 type: docs
 weight: 210
 url: /he/net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 פסקה היא קבוצה של דמויות המשולבות לבלוק לוגי וסיום עם אופי מיוחד - הפסקה של פסקאות*. In In In Aspose.Words, סעיף מיוצג על ידי [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) מעמד.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Работа со свойствами документа на C++
 second_title: Aspose.Words для C++
 articleTitle: Работа со свойствами документа
@@ -7,6 +7,7 @@ description: "Aspose.Words для C++ позволяет сохранять не
 type: docs
 weight: 10
 url: /ru/cpp/work-with-document-properties/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Свойства документа позволяют сохранить некоторую полезную информацию о вашем документе. Эти свойства можно разделить на две группы:

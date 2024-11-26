@@ -7,6 +7,7 @@ description: "Hiểu các khái niệm về dấu trang và cách sử dụng d�
 type: docs
 weight: 180
 url: /vi/net/working-with-bookmarks/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Dấu trang xác định trong tài liệu Microsoft Word các vị trí hoặc đoạn mà bạn đặt tên và xác định để tham khảo trong tương lai. Ví dụ: bạn có thể sử dụng dấu trang để xác định văn bản mà bạn muốn sửa lại sau. Thay vì cuộn qua tài liệu để định vị văn bản, bạn có thể truy cập văn bản đó bằng cách sử dụng hộp thoại Dấu trang.

@@ -1,138 +1,139 @@
----
-title: چگونه یک جدول ایجاد کنیم Java
+﻿---
+title: چگونه یک جدول در Javaایجاد کنیم
 second_title: Aspose.Words برای Java
-articleTitle: ایجاد یک جدول
-linktitle: ایجاد یک جدول
-description: "راه های مختلف برای ایجاد جداول در سند شما با استفاده از Java..."
+articleTitle: یک جدول ایجاد کنید
+linktitle: یک جدول ایجاد کنید
+description: "روش های مختلف برای ایجاد جدول در سند خود با استفاده از Java."
 type: docs
 weight: 20
 url: /fa/java/create-a-table/
+timestamp: 2024-10-21-11-17-44
 ---
 
-Aspose.Words به کاربران اجازه می دهد تا جداول را در یک سند از ابتدا ایجاد کنند و چندین روش مختلف برای انجام این کار فراهم می کنند. این مقاله جزئیاتی در مورد چگونگی اضافه کردن جداول فرمت شده به سند شما با استفاده از هر روش و همچنین مقایسه هر روش در پایان مقاله ارائه می دهد.
+Aspose.Words به کاربران اجازه می دهد تا جداول را در یک سند از ابتدا ایجاد کنند و چندین روش مختلف برای انجام این کار فراهم می کند. در این مقاله توضیحاتی در مورد نحوه افزودن جداول فرمت شده به سند خود با استفاده از هر روش و همچنین مقایسه هر روش در پایان مقاله ارائه شده است.
 
-## بازی Table پیش فرض Styles
+## سبک های جدول پیش فرض
 
-جدول جدید ایجاد شده ارزش های پیش فرض مشابه آنچه که در آن استفاده می شود، داده می شود. Microsoft Word:
+جدول تازه ایجاد شده به مقادیر پیش فرض مشابه با آنهایی که در Microsoft Wordاستفاده می شود داده شده است:
 
-| Table property | شکست در Aspose.Words |
-|  :-  |  :-  |
-| `Border Style` |  `Single`  |
+| ویژگی جدول | پیش فرض در Aspose.Words |
+| :- | :- |
+| `Border Style` | `Single` |
 | `Border Width` | `1/2 pt` |
-| رنگ مرزی |  `Black`  |
+| رنگ مرزی | `Black` |
 | `Left and Right Padding` | `5.4 pts` |
 | `AutoFit Mode` | `AutoFit to Window` |
-| `Allow AutoFit` |  `True`  |
+| `Allow AutoFit` | `True` |
 {{% alert color="primary" %}}
 
-یک جدول می تواند در صورتی که به طور محکم قرار گیرد یا شناور باشد، اگر می تواند در هر نقطه در صفحه قرار گیرد. به طور پیش فرض، Aspose.Words همیشه در جدول های خط ایجاد می کند.
+یک جدول می تواند خطی باشد اگر به شدت قرار گرفته باشد، یا شناور باشد اگر می تواند در هر نقطه از صفحه قرار گیرد. به طور پیش فرض ،Aspose.Words همیشه جداول خطی ایجاد می کند.
 
 {{% /alert %}}
 
 ## ایجاد یک جدول با DocumentBuilder
 
-In In In Aspose.Words, کاربران می توانند یک جدول را در یک سند ایجاد کنند. [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)... الگوریتم اصلی برای ایجاد یک جدول به شرح زیر است:
+در Aspose.Words، کاربران می توانند یک جدول در یک سند با استفاده از [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) ایجاد کنند. الگوریتم اصلی برای ایجاد یک جدول به شرح زیر است:
 
-1. میز را با [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable)
-2. اضافه کردن یک سلول به میز با استفاده از [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell) این به طور خودکار یک ردیف جدید را شروع می کند
-3. اختیاری، استفاده از [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCellFormat) ویژگی برای مشخص کردن قالب بندی سلولی
-4. محتوای سلول را با استفاده از مناسب قرار دهید **DocumentBuilder** روش هایی مانند [Writeln](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#writeln), [InsertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte), و دیگران
-5. مرحله ۴ تا زمانی که ردیف کامل باشد
-6. Call Call Call [EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) پایان دادن به ردیف فعلی
-7. اختیاری، استفاده از [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getRowFormat) ویژگی برای مشخص کردن قالب بندی ردیف
-8 مراحل 2-7 را تا زمانی که میز کامل باشد تکرار کنید
-9. Call Call Call [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) ساخت میز
+1. جدول را با [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable)شروع کنید
+2. با استفاده از [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell) یک سلول به جدول اضافه کنید-این به طور خودکار یک ردیف جدید را شروع می کند
+3. به صورت اختیاری، از ویژگی [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCellFormat) برای مشخص کردن قالب بندی سلول استفاده کنید
+4. محتوای سلول را با استفاده از روش های مناسب **DocumentBuilder** مانند [Writeln](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#writeln)، [InsertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte) و دیگران وارد کنید
+5. مراحل 2-4 را تکرار کنید تا ردیف کامل شود
+6. برای پایان دادن به ردیف فعلی با [EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) تماس بگیرید
+7. به صورت اختیاری، از ویژگی [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getRowFormat) برای مشخص کردن قالب بندی ردیف استفاده کنید
+8. مراحل 2-7 را تکرار کنید تا جدول کامل شود
+9. برای اتمام ساخت میز با [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) تماس بگیرید
 
 {{% alert color="primary" %}}
 
 جزئیات مهم:
 
-- [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) همچنین می توان در داخل یک سلول نام برد که در آن شروع به ایجاد یک میز داخل سلول می کند.
-- بعد از تماس [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell), یک سلول جدید ایجاد می شود و هر محتوایی که با استفاده از روش های دیگر اضافه می کنید. [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) کلاس به سلول فعلی اضافه خواهد شد. برای ایجاد یک سلول جدید در یک ردیف، تماس بگیرید **InsertCell** دوباره.
-- اگر **InsertCell** بلافاصله پس از [EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) و پایان یک ردیف، میز به یک ردیف جدید ادامه خواهد داد.
-- The [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) روش برای پایان دادن به میز باید فقط یک بار پس از تماس فراخوانده شود **EndRow**... Calling **EndTable** حرکت نما از سلول فعلی به موقعیت بلافاصله پس از میز.
+- [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) همچنین می تواند در داخل یک سلول فراخوانده شود، در این صورت ایجاد یک جدول آشیانه ای در داخل سلول را آغاز می کند.
+- پس از فراخوانی [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell)، یک سلول جدید ایجاد می شود و هر محتوایی که با استفاده از روش های دیگر کلاس [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) اضافه می کنید به سلول فعلی اضافه می شود. برای ایجاد یک سلول جدید در همان ردیف، دوباره با **InsertCell** تماس بگیرید.
+- اگر **InsertCell** بلافاصله پس از [EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) و پایان یک ردیف فراخوانده شود، جدول در یک ردیف جدید ادامه خواهد یافت.
+- روش [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) برای پایان دادن به جدول فقط باید یک بار پس از فراخوانی **EndRow** فراخوانده شود. فراخوانی **EndTable** نشانگر را از سلول فعلی به موقعیت بلافاصله پس از جدول منتقل می کند.
 
 {{% /alert %}}
 
-فرآیند ایجاد یک میز را می توان به وضوح در تصویر زیر مشاهده کرد:
+روند ایجاد یک جدول را می توان به وضوح در تصویر زیر مشاهده کرد:
 
 ![creating-table-process](/words/java/create-a-table/creating-table-process.jpg)
 
-مثال کد زیر نشان می دهد که چگونه یک جدول ساده ایجاد کنیم **DocumentBuilder** با فرمت پیش فرض:
+مثال کد زیر نشان می دهد که چگونه یک جدول ساده با استفاده از **DocumentBuilder** با قالب بندی پیش فرض ایجاد کنید:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "create-simple-table.java" >}}
 
-مثال کد زیر نشان می دهد که چگونه یک جدول فرمت شده با استفاده از DocumentBuilder ایجاد کنید:
+مثال کد زیر نشان می دهد که چگونه یک جدول فرمت شده با استفاده از DocumentBuilderایجاد کنیم:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "formatted-table.java" >}}
 
-مثال کد زیر نشان می دهد که چگونه یک جدول قفل شده را با استفاده از DocumentBuilder وارد کنید:
+مثال کد زیر نشان می دهد که چگونه یک جدول آشیانه ای را با استفاده از DocumentBuilderوارد کنید:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "nested-table.java" >}}
 
-## ایجاد یک جدول از طریق DOM ()Document Object Model))
+## ایجاد یک جدول از طریق DOM (مدل شیء سند)
 
-شما می توانید جداول را به طور مستقیم وارد کنید DOM اضافه کردن یک جدید [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) گره در یک موقعیت خاص
+شما می توانید جداول را مستقیما به DOM با اضافه کردن یک گره [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) جدید در یک موقعیت خاص وارد کنید.
 
-لطفا توجه داشته باشید که بلافاصله پس از ایجاد گره میز، میز کاملا خالی خواهد بود، که هنوز شامل ردیف ها و سلول ها نیست. برای قرار دادن ردیف ها و سلول ها به یک جدول، مناسب را اضافه کنید. [Row](https://reference.aspose.com/words/java/com.aspose.words/run/) و [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) گره های کودک به DOM...
+لطفا توجه داشته باشید که بلافاصله پس از ایجاد گره جدول، خود جدول کاملا خالی خواهد بود، یعنی هنوز ردیف ها و سلول ها را شامل نمی شود. برای قرار دادن ردیف ها و سلول ها در یک جدول، گره های مناسب [Row](https://reference.aspose.com/words/java/com.aspose.words/run/) و [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) child را به DOM اضافه کنید.
 
 {{% alert color="primary" %}}
 
-این روش ایجاد یک میز از همان پیش فرض های جدول استفاده می کند، همانطور که هنگام استفاده از آن **DocumentBuilder**...
+این روش ایجاد یک جدول از همان جدول پیش فرض استفاده می کند که هنگام استفاده از **DocumentBuilder** استفاده می شود.
 
 {{% /alert %}}
 
-مثال کد زیر نشان می دهد که چگونه یک جدول جدید را با اضافه کردن گره های مناسب کودک به درخت سند ایجاد کنیم:
+مثال کد زیر نشان می دهد که چگونه یک جدول جدید را از ابتدا با اضافه کردن گره های مناسب کودک به درخت سند بسازید:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "insert-table-directly.java" >}}
 
-## ایجاد یک جدول از HTML
+## یک جدول از HTMLایجاد کنید
 
-Aspose.Words پشتیبانی از قرار دادن محتوا به یک سند از یک منبع HTML با استفاده از [InsertHtml](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHtml-java.lang.String) روش ورودی می تواند یک صفحه HTML کامل یا فقط یک قطعه جزئی باشد.
+Aspose.Words از وارد کردن محتوا به یک سند از یک منبع HTML با استفاده از روش [InsertHtml](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHtml-java.lang.String) پشتیبانی می کند. ورودی می تواند یک صفحه کامل HTML یا فقط یک قطعه جزئی باشد.
 
-استفاده از این **InsertHtml** روش، کاربران می توانند جداول را از طریق تگ های جدول مانند جدول وارد کنند. `<table>`, `<tr>`, `<td>`...
+با استفاده از این روش **InsertHtml**، کاربران می توانند جداول را از طریق برچسب های جدول مانند `<table>`, `<tr>`, `<td>`.
 
-مثال کد زیر نشان می دهد که چگونه یک جدول را به یک سند از یک رشته حاوی تگ های HTML وارد کنید:
+مثال کد زیر نشان می دهد که چگونه یک جدول را از یک رشته حاوی برچسب های HTML در یک سند قرار دهید:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "insert-table-from-html.java" >}}
 
-## یک کپی از یک جدول موجود
+## یک کپی از یک جدول موجود را وارد کنید
 
-اغلب اوقات زمانی وجود دارد که شما نیاز به ایجاد یک میز بر اساس یک جدول موجود در یک سند دارید. ساده ترین راه برای کپی کردن یک جدول در حالی که حفظ همه قالب بندی برای کلون کردن گره جدول با استفاده از گره جدول است [deepClone](https://reference.aspose.com/words/java/com.aspose.words/node/#deepClone-boolean) روش
+اغلب اوقات زمانی وجود دارد که شما نیاز به ایجاد یک جدول بر اساس یک جدول موجود در یک سند دارید. ساده ترین راه برای کپی کردن یک جدول در حالی که تمام قالب بندی ها را حفظ می کند، شبیه سازی گره جدول با استفاده از روش [deepClone](https://reference.aspose.com/words/java/com.aspose.words/node/#deepClone-boolean) است.
 
-همان تکنیک را می توان برای اضافه کردن کپی از یک ردیف یا سلول موجود به یک میز استفاده کرد.
+همین تکنیک را می توان برای اضافه کردن نسخه های یک ردیف یا سلول موجود به یک جدول استفاده کرد.
 
-مثال کد زیر نشان می دهد که چگونه یک جدول را با استفاده از سازنده های گره تکرار کنیم:
+مثال کد زیر نشان می دهد که چگونه یک جدول را با استفاده از node constructors تکرار کنیم:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "clone-complete-table.java" >}}
 
 {{% alert color="primary" %}}
 
-شما می توانید فایل نمونه را از این مثال دانلود کنید. [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx)...
+شما می توانید فایل نمونه این مثال را از [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
 
 {{% /alert %}}
 
-مثال کد زیر نشان می دهد که چگونه آخرین ردیف یک میز را پر کنید و آن را به جدول اضافه کنید:
+مثال کد زیر نشان می دهد که چگونه آخرین ردیف یک جدول را کلان کنیم و آن را به جدول اضافه کنیم:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "clone-last-row.java" >}}
 
 {{% alert color="primary" %}}
 
-شما می توانید فایل نمونه را از این مثال دانلود کنید. [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx)...
+شما می توانید فایل نمونه این مثال را از [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
 
 {{% /alert %}}
 
-اگر به دنبال ایجاد جداول در یک سند هستید که به طور پویا با هر رکورد از منبع داده شما رشد می کند، سپس روش فوق توصیه نمی شود. در عوض، خروجی مطلوب به راحتی با استفاده از آن به دست می آید. Mail merge با مناطق شما می توانید بیشتر در مورد این تکنیک در [Mail Merge مناطق](/words/java/types-of-mail-merge-operations/) بخش
+اگر شما به دنبال ایجاد جداول در یک سند هستید که با هر رکورد از منبع داده شما به صورت پویا رشد می کند، روش فوق توصیه نمی شود. در عوض، خروجی مورد نظر با استفاده از Mail merge با مناطق به راحتی به دست می آید. شما می توانید در مورد این تکنیک در [Mail Merge با مناطق](/words/java/types-of-mail-merge-operations/) بخش.
 
-## مقایسه راه ها برای ایجاد یک جدول
+## روش های ایجاد جدول را مقایسه کنید
 
-Aspose.Words چندین روش برای ایجاد جداول جدید در یک سند فراهم می کند. هر روش دارای مزایا و معایب خود است، بنابراین انتخاب استفاده از آن اغلب بستگی به وضعیت خاص دارد.
+Aspose.Words چندین روش برای ایجاد جداول جدید در یک سند فراهم می کند. هر روش مزایا و معایب خاص خود را دارد، بنابراین انتخاب آن برای استفاده اغلب به وضعیت خاص بستگی دارد.
 
-بیایید نگاهی دقیق تر به این روش ها برای ایجاد جداول و مقایسه مزایا و معایب آنها داشته باشیم:
+بیایید نگاهی دقیق تر به این روش های ایجاد جداول بیندازیم و مزایا و معایب آنها را مقایسه کنیم:
 
-|  Method Method Method | مزایای |  عدم موفقیت |
-|  :-  |  :-  |  :-  |
-| Via `DocumentBuilder` | روش استاندارد برای قرار دادن جداول و سایر محتوای سند | گاهی اوقات ایجاد بسیاری از انواع جداول در همان زمان با نمونه های مشابه سخت است |
-| Via DOM |  Fits در بهتر با کد اطراف که گره ها را به طور مستقیم در داخل ایجاد و وارد می کند DOM بدون استفاده از **DocumentBuilder** | جدول "خالق" ایجاد شده است: قبل از انجام اکثر عملیات، باید تماس بگیرید [EnsureMinimum](https://reference.aspose.com/words/java/com.aspose.words/table/#ensureMinimum) ایجاد گره های کودک گمشده |
-| از HTML | می تواند یک جدول جدید از منبع HTML با استفاده از تگ ها مانند `<table>`, `<tr>`, `<td>` | همه چیز ممکن نیست Microsoft Word فرمت های جدول را می توان به HTML اعمال کرد |
-| ایجاد یک میز موجود | شما می توانید یک کپی از یک میز موجود ایجاد کنید در حالی که تمام ردیف ها و قالب بندی سلولی را حفظ می کنید | گره های مناسب کودک قبل از اینکه میز آماده استفاده باشد باید برداشته شود |
+| روش | مزایا | معایب |
+| :- | :- | :- |
+| از طریق `DocumentBuilder` | روش استاندارد برای قرار دادن جداول و سایر محتوای اسناد | گاهی اوقات دشوار است که انواع مختلفی از جداول را در همان زمان با همان نمونه سازنده ایجاد کنید |
+| از طریق DOM | با کد اطراف که گره ها را مستقیما به DOM بدون استفاده از **DocumentBuilder**ایجاد و وارد می کند، بهتر مطابقت دارد | جدول "خالی" ایجاد شده است: قبل از انجام بیشتر عملیات، باید با [EnsureMinimum](https://reference.aspose.com/words/java/com.aspose.words/table/#ensureMinimum) تماس بگیرید تا هر گره کودک گمشده ای ایجاد کنید |
+| از HTML | می تواند یک جدول جدید از منبع HTML با استفاده از برچسب هایی مانند `<table>`, `<tr>`, `<td>` | همه فرمت های جدول Microsoft Word را نمی توان به HTMLاعمال کرد |
+| شبیه سازی یک جدول موجود | شما می توانید یک کپی از یک جدول موجود را ایجاد کنید در حالی که تمام ردیف ها و قالب بندی سلول را حفظ می کنید | گره های مناسب کودک باید قبل از آماده شدن جدول برای استفاده برداشته شوند |

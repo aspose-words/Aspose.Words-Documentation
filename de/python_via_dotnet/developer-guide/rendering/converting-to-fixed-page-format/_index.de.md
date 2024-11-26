@@ -7,6 +7,7 @@ description: "Speichern Sie Dokumente mit Python in den Formaten PDF, XPS, HTML,
 type: docs
 weight: 10
 url: /de/python-net/converting-to-fixed-page-format/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Aspose.Words implementiert eine eigene Seitenlayout-Engine. Bevor man sich mit den Spezifikationen befasst, lohnt es sich, das Dokument zunächst auf hoher Ebene zu besprechen. Wenn Benutzer über ein Dokument nachdenken, stellen sie sich normalerweise eine Reihe von Papierblättern vor, die Wörter, Bilder, Tabellen und Diagramme enthalten. Dokumente können unterschiedlicher Art sein, z. B. Text, Tabellenkalkulationen, Folien, CAD-Zeichnungen, Flussdiagramme, und daher grundsätzlich unterschiedliche Layouts aufweisen. Die meisten Anwendungen ermöglichen das Senden von Dokumenten an einen Drucker; Dies ist der Zeitpunkt, an dem ein Benutzer tatsächlich das endgültige beabsichtigte Erscheinungsbild des Dokuments sehen kann.

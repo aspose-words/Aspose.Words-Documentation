@@ -8,6 +8,7 @@ type: docs
 weight: 430
 url: /net/working-with-text-document/
 aliases: [/net/work-with-text-document/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 In this article, we will learn what options can be useful for working with a text document via Aspose.Words. Please note that this is not a complete list of available options, but only an example of working with some of them.

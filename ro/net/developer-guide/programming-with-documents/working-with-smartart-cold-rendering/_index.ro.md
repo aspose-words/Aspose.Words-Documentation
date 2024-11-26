@@ -8,6 +8,7 @@ type: docs
 description: "Aspose.Words pentru .NET efectuează redarea rece a SmartArt, ceea ce înseamnă că plasează și redă obiecte SmartArt dacă desenul SmartArt pre-renderizat este lipsă sau incorect folosind C#."
 weight: 330
 url: /ro/net/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Graficele SmartArt se folosesc pentru a crea rapid și ușor o reprezentare vizuală a informației. "Puteți alege dintr-un număr mare de șabloane care se potrivesc cel mai bine situației dumneavoastră." Această ușurință în utilizare face ca grafica SmartArt să fie destul de populară pentru anumite scopuri.

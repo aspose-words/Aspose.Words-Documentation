@@ -1,4 +1,4 @@
-﻿---
+---
 title: Using Extension Methods in Java
 second_title: Aspose.Words for Java
 articleTitle: Using Extension Methods
@@ -7,6 +7,7 @@ description: "Use extension methods in template expressions when building a repo
 type: docs
 weight: 40
 url: /java/using-extension-methods/
+timestamp: 2024-01-27-14-07-04
 ---
 
 LINQ Reporting Engine enables you to use the following built-in extension methods in template expressions:

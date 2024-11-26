@@ -7,13 +7,14 @@ description: "PDF omzetten naar Excel, XML naar Excel, DOCX naar Excel C#. Een d
 type: docs
 weight: 15
 url: /nl/net/convert-a-document-to-excel/
+timestamp: 2024-07-09-19-00-42
 ---
 
 Het omzetten van documenten van het ene formaat naar het andere is het vlaggenschip kenmerk van Aspose.Words. U kunt documenten converteren in alle beschikbare [laadformaat](https://reference.aspose.com/words/net/aspose.words/loadformat/) ook naar XLSX formaat.
 
 ## Een document omzetten naar XLSX
 
-Een document omzetten naar XLSX is een vrij ingewikkeld proces. Om uw document op te slaan in XLSX formaat met behulp van <span notrans="<span notrans=" Aspose.Words"=""></span>,"> gebruik [XlsxSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/) klasse en de nieuwe `Xlsx` element in de [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/) Lijst. Zoals hierboven vermeld, kunt u het document opslaan in elk laadformaat ondersteund door Aspose.Words naar XLSX.
+Een document omzetten naar XLSX is een vrij ingewikkeld proces. Om uw document op te slaan in XLSX formaat met behulp van Aspose.Words gebruik [XlsxSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/) klasse en de nieuwe `Xlsx` element in de [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/) Lijst. Zoals hierboven vermeld, kunt u het document opslaan in elk laadformaat ondersteund door Aspose.Words naar XLSX.
 
 Het volgende voorbeeld van code laat zien hoe u PDF kunt opslaan naar XLSX:
 

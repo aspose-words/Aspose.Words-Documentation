@@ -7,6 +7,7 @@ description: "Vytvořit a upravit OLE vkládání do dokumentu pomocí Java."
 type: docs
 weight: 360
 url: /cs/java/working-with-ole-objects/
+timestamp: 2024-01-27-14-07-04
 ---
 
 OLE znamená "Object Linking and Embedding." Jedná se o technologii, pomocí které mohou uživatelé pracovat s dokumenty obsahujícími "objekty" vytvořené nebo editované aplikacemi třetích stran. To znamená, že OLE umožňuje aplikaci exportovat tyto "objekty" do jiné aplikace pro editaci, a pak je importovat zpět s nějakým dalším obsahem.

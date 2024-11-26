@@ -7,6 +7,7 @@ description: "C#를 사용하여 각주와 미주를 조작하는 방법."
 type: docs
 weight: 160
 url: /ko/net/working-with-footnote-and-endnote/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words는 또한 각주 및 미주 작업을 위한 몇 가지 클래스, 메서드 및 속성을 제공합니다.

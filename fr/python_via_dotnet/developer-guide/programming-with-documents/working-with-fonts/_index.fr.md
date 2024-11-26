@@ -7,6 +7,7 @@ description: "Personnalisez les paramètres de police à l'aide de Python."
 type: docs
 weight: 230
 url: /fr/python-net/working-with-fonts/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Une police est un ensemble de caractères ayant une certaine taille, couleur et design. Aspose.Words vous permet de travailler avec des polices en utilisant le module [fonts](https://reference.aspose.com/words/python-net/aspose.words.fonts/) et la classe [Font](https://reference.aspose.com/words/python-net/aspose.words/font/).

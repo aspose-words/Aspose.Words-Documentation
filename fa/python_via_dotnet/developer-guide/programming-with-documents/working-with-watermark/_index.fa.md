@@ -7,6 +7,7 @@ description: "ایجاد و مدیریت واترمارک در یک سند با 
 type: docs
 weight: 340
 url: /fa/python-net/working-with-watermark/
+timestamp: 2024-01-27-14-07-04
 ---
 
 این مبحث نحوه کار برنامه‌نویسی با واترمارک با استفاده از Aspose.Words را مورد بحث قرار می‌دهد. واترمارک یک تصویر پس زمینه است که در پشت متن یک سند نمایش داده می شود. یک واترمارک می تواند حاوی متن یا تصویری باشد که توسط کلاس [Watermark](https://reference.aspose.com/words/python-net/aspose.words/watermark/) نمایش داده می شود.

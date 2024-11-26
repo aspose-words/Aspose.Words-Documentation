@@ -7,6 +7,7 @@ description: ".NET için Aspose.Words ile çalışmaya başlamadan önce, cihazl
 type: docs
 weight: 70
 url: /tr/net/system-requirements/
+timestamp: 2024-02-01-16-17-05
 ---
 
 .NET için Aspose.Words, Microsoft Word gibi herhangi bir üçüncü taraf ürününün yüklenmesini gerektirmez. Aspose.Words'in kendisi, Microsoft Word belge formatları da dahil olmak üzere çeşitli formatlardaki belgeleri oluşturmak, değiştirmek, dönüştürmek ve işlemek için kullanılan bir motordur.

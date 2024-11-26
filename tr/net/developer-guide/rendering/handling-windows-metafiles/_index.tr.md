@@ -7,6 +7,7 @@ description: ".NET için Aspose.Words, tüm platformlarda Meta Dosyası formatı
 type: docs
 weight: 30
 url: /tr/net/handling-windows-metafiles/
+timestamp: 2024-07-10-14-38-57
 ---
 
 Windows Meta Dosyası formatı, hem vektör hem de raster grafikleri içerebilen bir görüntü dosyası formatıdır. Bu format, grafik verilerini bellekte veya diskteki dosyalara depolamak için kullanılır. Bir meta dosyası, Windows Grafik Aygıt Arayüzünde (GDI) görüntüyü ekranda görüntülemek için yürütülmesi gereken işlev çağrılarının bir listesini saklar. Sistem bu komutları ekran bağlamında yorumlar ve yürütür.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Configuring the Export
 second_title: Aspose.Words for JasperReports
 articleTitle: Configuring the Export
@@ -7,6 +7,7 @@ description: "This section provides a list with links to the Documentation about
 type: docs
 weight: 80
 url: /jasperreports/configuring-the-export/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## This section includes the following topics: 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cum se adaugă Group Shape într-un Document Word
 second_title: Aspose.Words pentru Java
 articleTitle: Lucrul cu Group Shapes în documente Word
@@ -7,6 +7,7 @@ description: "Gruparea și degruparea formelor folosind Java."
 type: docs
 weight: 290
 url: /ro/java/how-to-add-group-shape-into-a-word-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Uneori trebuie să adăugați un group shape într-un document Word. Un astfel de group shape este format din mai multe forme.

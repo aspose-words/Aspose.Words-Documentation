@@ -7,6 +7,7 @@ type: docs
 weight: 40
 description: "Pelajari penjelasan dan contoh kelas dan metode Aspose.Words untuk .NET untuk menghasilkan, mengonversi, memodifikasi, merender, dan mencetak dokumen tanpa menggunakan Microsoft Word."
 url: /id/net/api-reference/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words untuk .NET adalah perpustakaan kelas yang memungkinkan aplikasi Anda melakukan berbagai macam tugas pemrosesan dokumen. Dengan Aspose.Words Anda dapat membuat, memodifikasi, mengonversi, merender, dan mencetak dokumen tanpa menggunakan Microsoft Word, artinya Microsoft Word tidak diperlukan untuk menggunakan Aspose.Words.

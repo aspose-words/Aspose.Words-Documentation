@@ -8,6 +8,7 @@ type: docs
 weight: 310
 url: /python-net/working-with-charts/
 aliases: [/python/working-with-charts/]
+timestamp: 2024-01-27-14-07-04
 ---
 
 New [insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) method was added into the [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) class. So, let's see how to insert a simple column chart into the document using [DocumentBuilder.insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) method:

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Dukungan Teknis
 second_title: Aspose.Words untuk C++
 articleTitle: Dukungan Teknis
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words untuk C++ menyediakan dukungan teknis gratis yang tersedia untuk semua pengguna. Silakan laporkan pertanyaan, masalah, atau permintaan fitur Anda menggunakan Forum Dukungan Gratis Aspose."
 weight: 80
 url: /id/cpp/technical-support/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose menyediakan dukungan teknis gratis tanpa batas untuk semua produknya. Dukungan tersedia untuk semua pengguna, termasuk evaluasi. Jalan utama dukungan adalah [Aspose.Forum](https://forum.aspose.com/c/words/8).

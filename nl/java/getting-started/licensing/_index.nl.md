@@ -7,6 +7,7 @@ description: "Aspose.Words voor Java biedt verschillende plannen voor aankoop of
 type: docs
 weight: 60
 url: /nl/java/licensing/
+timestamp: 2024-01-31-14-23-37
 ---
 
 Soms, om het systeem beter te bestuderen, wil je zo snel mogelijk in de code duiken. Om dit makkelijker te maken, Aspose.Words biedt verschillende plannen voor aankoop of biedt een gratis proefperiode en een 30-daagse tijdelijke licentie voor evaluatie.

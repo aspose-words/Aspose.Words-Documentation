@@ -7,6 +7,7 @@ description: "قبل از شروع کار با Aspose.Words برای .NET، مط
 type: docs
 weight: 70
 url: /fa/net/system-requirements/
+timestamp: 2024-02-01-16-17-05
 ---
 
 Aspose.Words for .NET نیازی به نصب هیچ محصول شخص ثالثی مانند Microsoft Word ندارد. Aspose.Words خود موتوری برای ایجاد، اصلاح، تبدیل و ارائه اسناد در قالب‌های مختلف، از جمله فرمت‌های اسناد Microsoft Word است.

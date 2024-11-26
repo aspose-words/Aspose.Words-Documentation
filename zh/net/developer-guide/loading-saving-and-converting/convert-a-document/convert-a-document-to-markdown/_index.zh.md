@@ -8,6 +8,7 @@ description: "使用 C# 将任何支持的加载格式的文档转换为 Markdow
 keywords: how to convert a document to markdown c#
 weight: 40
 url: /zh/net/convert-a-document-to-markdown/
+timestamp: 2024-07-10-08-10-45
 ---
 
 Markdown 是一种流行的格式，用于标记文本并进一步转换为 HTML、PDF、DOCX 或其他格式。许多开发人员选择这种格式来编写文档、准备在博客上发布的文章、描述项目等。

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Trabajar con estilos en C++
 second_title: Aspose.Words para C++
 articleTitle: Trabajar con Estilos
@@ -7,6 +7,7 @@ description: "Funciones mejoradas de formato de Microsoft Word, trabajando con e
 type: docs
 weight: 110
 url: /es/cpp/working-with-styles-and-themes/
+timestamp: 2024-01-30-16-22-34
 ---
 
 La clase [StyleCollection](https://reference.aspose.com/words/cpp/aspose.words/stylecollection/) se usa para administrar configuraciones integradas y definidas por el usuario a los estilos.
@@ -33,7 +34,7 @@ En este documento de muestra, el texto formateado con el estilo de párrafo 'Enc
 
 ### El Código
 
-La implementación de una consulta basada en estilos es bastante simple en el modelo de objetos de documento Aspose.Words, ya que simplemente usa herramientas que ya están implementadas. Se implementan dos métodos de clase para esta solución:# **ParagraphsByStyleName**: Este método recupera una matriz de aquellos párrafos del documento que tienen un nombre de estilo específico.# **RunsByStyleName** - Este método recupera una matriz de aquellas ejecuciones en el documento que tienen un nombre de estilo específico. Ambos métodos son muy similares, las únicas diferencias son los tipos de nodos y la representación de la información de estilo dentro de los nodos párrafo y ejecución. Aquí hay una implementación de ParagraphsByStyleName. Debajo del ejemplo, encuentre todos los párrafos formateados con el estilo especificado.
+La implementación de una consulta basada en estilos es bastante simple en el modelo de objetos de documento Aspose.Words, ya que simplemente usa herramientas que ya están implementadas. Se implementan dos métodos de clase para esta solución: **ParagraphsByStyleName**: Este método recupera una matriz de aquellos párrafos del documento que tienen un nombre de estilo específico. **RunsByStyleName** - Este método recupera una matriz de aquellas ejecuciones en el documento que tienen un nombre de estilo específico. Ambos métodos son muy similares, las únicas diferencias son los tipos de nodos y la representación de la información de estilo dentro de los nodos párrafo y ejecución. Aquí hay una implementación de ParagraphsByStyleName. Debajo del ejemplo, encuentre todos los párrafos formateados con el estilo especificado.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.cpp" >}}
 

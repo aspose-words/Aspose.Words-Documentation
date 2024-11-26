@@ -1,4 +1,4 @@
-﻿---
+---
 title: Specificați TrueType Locația Fonturilor
 second_title: Aspose.Words pentru Python via .NET
 articleTitle: Specificați TrueType Locația Fonturilor
@@ -7,6 +7,7 @@ description: "Specificați diverse surse de fonturi TrueType: folder de sistem, 
 type: docs
 weight: 30
 url: /ro/python-net/specifying-truetype-fonts-location/
+timestamp: 2024-10-24-11-44-28
 ---
 
 Acest subiect descrie comportamentul implicit al Aspose.Words atunci când caută fonturi TrueType, inclusiv diferențe specifice sistemului de operare, și demonstrează cum să specificați sursele de fonturi ale utilizatorului.
@@ -51,7 +52,7 @@ Deoarece valorile fontului Windows și non - Windows OS sunt diferite, Aspose.Wo
 
 #### Unde Aspose.Words caută TrueType fonturi pe Linux
 
-Diferite distribuții Linux pot stoca fonturi în foldere diferite. Aspose.Words caută fonturi în mai multe locații. În mod implicit, Aspose.Words caută fonturile în toate locațiile următoare: */usr/share/fonts* */usr/local/share/fonts* */usr/X11R6/lib/X11/fonts*. Acest comportament implicit va funcționa pentru majoritatea distribuțiilor Linux, dar nu este garantat să funcționeze tot timpul, caz în care ar putea fi necesar să specificați în mod explicit locația fonturilor True type. Pentru a face acest lucru, trebuie să știți unde sunt instalate fonturile TrueType pe distribuția Linux.
+Diferite distribuții Linux pot stoca fonturi în foldere diferite. Aspose.Words caută fonturi în mai multe locații. În mod implicit, Aspose.Words caută fonturile în toate locațiile următoare: `/usr/share/fonts` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts`. Acest comportament implicit va funcționa pentru majoritatea distribuțiilor Linux, dar nu este garantat să funcționeze tot timpul, caz în care ar putea fi necesar să specificați în mod explicit locația fonturilor True type. Pentru a face acest lucru, trebuie să știți unde sunt instalate fonturile TrueType pe distribuția Linux.
 
 #### Unde Aspose.Words caută TrueType fonturi pe Mac OS X
 

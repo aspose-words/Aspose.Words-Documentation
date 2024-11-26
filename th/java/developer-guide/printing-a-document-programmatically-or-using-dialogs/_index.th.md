@@ -1,23 +1,24 @@
----
-title: กําลังพิมพ์เอกสาร
-second_title: Aspose.Words สําหรับ Java
-articleTitle: กําลังพิมพ์เอกสาร แบบ โปรแกรม หรือ การ ใช้ กล่อง
-linktitle: กําลังพิมพ์เอกสาร แบบ โปรแกรม หรือ การ ใช้ กล่อง
-description: "พิมพ์เอกสารโดยใช้ Java ผ่านการตั้งค่า, แสดงตัวอย่างการพิมพ์, และกล่องความคืบหน้าการพิมพ์"
+﻿---
+title: การพิมพ์เอกสาร
+second_title: Aspose.WordsสำหรับJava
+articleTitle: การพิมพ์เอกสารโดยโปรแกรมหรือใช้กล่องโต้ตอบ
+linktitle: การพิมพ์เอกสารโดยโปรแกรมหรือใช้กล่องโต้ตอบ
+description: "พิมพ์เอกสารโดยใช้Javaผ่านการตั้งค่าดูตัวอย่างการพิมพ์และไดอะล็อกความคืบหน้าการพิมพ์."
 type: docs
 weight: 55
 url: /th/java/print-a-document-programmatically-or-using-dialogs/
+timestamp: 2024-01-27-14-07-04
 ---
 
-บทความ นี้ อธิบาย วิธี พิมพ์ เอกสาร การประมวลผล คํา โดย ใช้ Aspose.Words API. บทความ อื่น ๆ ใน ฉบับ นี้:
+บทความนี้อธิบายวิธีการพิมพ์เอกสารการประมวลผลคำโดยใช้Aspose.WordsAPI ารพิมพ์เอกสารที่มีการตั้งค่าตัวอย่างการพิมพ์และไดอะล็อกความคืบหน้าการพิมพ์.
 
-## พิมพ์เอกสารที่มีการตั้งค่าและพิมพ์กล่องแสดงตัวอย่าง
+## การพิมพ์เอกสารด้วยไดอะล็อกแสดงตัวอย่างการตั้งค่าและพิมพ์
 
-เมื่อ ทํา งาน กับ เอกสาร มัก จะ ต้อง พิมพ์ เอกสาร เหล่า นั้น ไป ยัง โรง พิมพ์ ที่ เลือก ไว้. การ ตรวจ สอบ ภาพ
+เมื่อทำงานกับเอกสารมักจะต้องพิมพ์เอกสารไปยังเครื่องพิมพ์ที่เลือก ใช้กล่องโต้ตอบแสดงตัวอย่างการพิมพ์เพื่อตรวจสอบว่าเอกสารที่พิมพ์จะปรากฏขึ้นอย่างไรและเลือกตัวเลือกการพิมพ์ที่เกี่ยวข้อง.
 
-เดอะ Aspose.Words ไม่มีกล่องโต้ตอบหรือแบบฟอร์มที่สร้างขึ้นมา แต่มีการปรับใช้ [AsposeWordsPrintDocument](https://reference.aspose.com/words/java/com.aspose.words/asposewordsprintdocument/) ชั้นเรียนใช้แทนทั้งจาวา พิมพ์ได้และจาวา หาหน้าได้
+Aspose.Wordsไม่มีไดอะล็อกหรือฟอร์มในตัวแต่ใช้คลาสของ[AsposeWordsPrintDocument](https://reference.aspose.com/words/java/com.aspose.words/asposewordsprintdocument/)แทนที่ทั้งจาวาโอ้วพิมพ์พิมพ์และจาวาโอ้วพิมพ์หน้าได้.
 
-ตัว อย่าง ต่อ ไป นี้ แสดง ให้ เห็น วิธี ที่ จะ ใช้ ชั้น เรียน เหล่า นี้ พิมพ์ เอกสาร Aspose.Words ผ่านกล่องแสดงตัวอย่างและการตั้งค่าการพิมพ์:
+ตัวอย่างต่อไปนี้แสดงวิธีการใช้คลาสเหล่านี้เพื่อพิมพ์เอกสารจากAspose.Wordsผ่านไดอะล็อกแสดงตัวอ:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-DocumentPreviewAndPrint-PrintDialog.java" >}}
 
@@ -25,12 +26,12 @@ url: /th/java/print-a-document-programmatically-or-using-dialogs/
 
 ## พิมพ์หลายหน้าบนแผ่นเดียว
 
-Aspose.Words ใช้ **MultipagePrintDocument** คลาส เพื่อปรับส่วนดําเนินการการพิมพ์ให้ละเอียด เพื่อปรับใช้ตรรกะที่กําหนดเองของคุณ โดยการนิยามวิธีการที่เอกสารจะปรากฏบนหน้าพิมพ์ เดอะ **MultipagePrintDocument** ชั้น เรียน มี ความ สามารถ ที่ จะ พิมพ์ หลาย หน้า บน กระดาษ แผ่น เดียว.
+Aspose.Wordsใช้ชั้นเรียน**MultipagePrintDocument**เพื่อปรับแต่งการดำเนินการพิมพ์เพื่อใช้ตรรกะที่กำหนดเองของคุณโดยการกำ คลาส**MultipagePrintDocument**ให้ความสามารถในการพิมพ์หลายหน้าบนกระดาษแผ่นเดียว.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-MultiplePagesOnSheet-MultiplePagesOnSheet.java" >}}
 
-คุณสามารถดาวน์โหลดตัวอย่างโดยใช้ **MultipagePrintDocument** เรียนจาก [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/c693ec7a8957051c206edc69612094a4169f6def/Examples/DocsExamples/Java/src/main/java/DocsExamples/Rendering_and_printing/PrintDocuments.java#L46)
+คุณสามารถดาวน์โหลดตัวอย่างของการใช้**MultipagePrintDocument**ชั้นจาก [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/c693ec7a8957051c206edc69612094a4169f6def/Examples/DocsExamples/Java/src/main/java/DocsExamples/Rendering_and_printing/PrintDocuments.java#L46).
 
-ผล ของ ตัว อย่าง รหัส นี้ ปรากฏ ข้าง ล่าง:
+ผลลัพธ์ของตัวอย่างรหัสนี้แสดงด้านล่าง:
 
 ![print_several_pages_on_one_sheet_aspose_words_java](/words/java/print-a-document-programmatically-or-using-dialogs/print-several-pages-on-one-sheet.png)/

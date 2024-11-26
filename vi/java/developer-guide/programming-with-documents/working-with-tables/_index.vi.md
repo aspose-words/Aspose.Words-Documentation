@@ -7,6 +7,7 @@ description: "Làm thế nào để làm việc với các bảng trong Java. Gi
 type: docs
 weight: 190
 url: /vi/java/working-with-tables/
+timestamp: 2024-01-27-14-07-04
 ---
 
 A **bảng** trong một tài liệu là một cách tuyệt vời để cấu trúc dữ liệu tương tự nhau. Đó là lý do tại sao các bảng là một phần tử định dạng nội dung phổ biến và được hỗ trợ bởi hầu hết các định dạng ở một hình thức hoặc một hình thức nào đó.

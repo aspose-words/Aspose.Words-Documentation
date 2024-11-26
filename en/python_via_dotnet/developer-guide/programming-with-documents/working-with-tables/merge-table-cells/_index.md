@@ -7,6 +7,7 @@ description: "How to merge table cells in Python. Check if cells in a table are 
 type: docs
 weight: 40
 url: /python-net/working-with-merged-cells/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sometimes certain rows in a table require a heading or large blocks of text that take up the full width of the table. For proper design of the table, the user can merge several table cells into one. Aspose.Words supports merged cells when working with all input formats, including importing HTML content.

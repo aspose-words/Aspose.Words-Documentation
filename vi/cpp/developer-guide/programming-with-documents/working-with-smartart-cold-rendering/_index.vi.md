@@ -1,4 +1,4 @@
-﻿---
+---
 title: Làm việc với SmartArt Kết Xuất Lạnh trong C++
 second_title: Aspose.Words cho C++
 articleTitle: Làm việc với SmartArt Kết Xuất Lạnh
@@ -7,6 +7,7 @@ type: docs
 description: "Aspose.Words cho C++ thực hiện SmartArt Kết Xuất Lạnh, có nghĩa là nó nằm ngoài và kết xuất các đối tượng SmartArt nếu bản vẽ SmartArt được kết xuất trước bị thiếu hoặc không chính xác."
 weight: 330
 url: /vi/cpp/working-with-smartart-cold-rendering/
+timestamp: 2024-01-27-14-07-04
 ---
 
 SmartArt đồ họa được sử dụng để nhanh chóng và dễ dàng tạo ra một đại diện trực quan của thông tin. Bạn chỉ cần chọn từ một số lượng lớn các bố cục phù hợp nhất với tình huống của bạn. Tính dễ sử dụng này làm cho đồ họa SmartArt khá phổ biến cho một số mục đích.

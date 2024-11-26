@@ -1,4 +1,4 @@
-﻿---
+---
 title: Ladeoptionen in C++ angeben
 second_title: Aspose.Words für C++
 articleTitle: Ladeoptionen angeben
@@ -7,6 +7,7 @@ description: "Steuern Sie den Ladevorgang genauer."
 type: docs
 weight: 10
 url: /de/cpp/specify-load-options/
+timestamp: 2024-01-30-16-22-34
 ---
 
 Beim Laden eines Dokuments können Sie einige erweiterte Eigenschaften festlegen. Aspose.Words stellt Ihnen die Klasse [LoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/loadoptions/) zur Verfügung, die eine genauere Steuerung des Ladevorgangs ermöglicht. Einige Ladeformate haben eine entsprechende Klasse, die Ladeoptionen für dieses Ladeformat enthält, z. B. gibt es [PdfLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/pdfloadoptions/) zum Laden in das PDF -Format oder [TxtLoadOptions](https://reference.aspose.com/words/cpp/aspose.words.loading/txtloadoptions/) zum Laden in TXT. Dieser Artikel enthält Beispiele für die Arbeit mit Optionen der Klasse **LoadOptions**.

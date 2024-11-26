@@ -1,4 +1,4 @@
-﻿---
+---
 title: Simple Mail Merge in Jython
 second_title: Aspose.Words for Java
 articleTitle: Simple Mail Merge in Jython
@@ -7,6 +7,7 @@ description: "Simple Mail Merge using Jython."
 type: docs
 weight: 80
 url: /java/simple-mail-merge-in-jython/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Simple Mail Merge

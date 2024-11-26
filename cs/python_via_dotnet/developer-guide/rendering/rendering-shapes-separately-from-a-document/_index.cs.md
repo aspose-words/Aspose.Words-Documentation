@@ -7,6 +7,7 @@ description: "Extrahovat různé grafické objekty, jako jsou obrázky, textový
 type: docs
 weight: 40
 url: /cs/python-net/rendering-shapes-separately-from-a-document/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Při zpracování dokumentů je společným úkolem extrahovat všechny obrázky nalezené v dokumentu a exportovat je na externí místo. Tento úkol se stává jednoduchý s Aspose.Words API, která již poskytuje funkci pro získávání a ukládání obrazových dat. Nicméně, někdy můžete chtít podobně extrahovat jiné typy grafického obsahu, který je reprezentován jiným typem kreslení objektu, například textové pole obsahující odstavce, tvary šipek a malý obrázek. Neexistuje žádný jednoduchý způsob vykreslování tohoto objektu, protože je kombinací jednotlivých prvků obsahu. Můžete se také setkat s případem, kdy obsah byl seskupen do objektu, který vypadá jako jeden obrázek.
@@ -38,7 +39,7 @@ Výše popsané typy tvarů poskytují zvláštní metodu pro zobrazení tvarů 
 
 {{% alert color="primary" %}}
 
-Při zobrazování <span notrans="<span notrans=" [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/)"=""></span>,? musí být součástí hierarchie dokumentů. Pokud [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) není součástí stromu dokumentu, pak bude vykreslený výstup prázdný po vyvolání [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) metody.
+Při zobrazování [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/),? musí být součástí hierarchie dokumentů. Pokud [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) není součástí stromu dokumentu, pak bude vykreslený výstup prázdný po vyvolání [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) metody.
 
 {{% /alert %}}
 

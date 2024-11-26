@@ -7,6 +7,7 @@ description: "Sitemap Aspose.Words Sitemap Java untuk mengonversi dokumen dari W
 type: docs
 weight: 20
 url: /id/java/convert-a-document-to-html-mhtml-or-epub/
+timestamp: 2024-10-21-08-52-03
 ---
 
 Dokumen dalam format aliran HTML dan MHTML juga sangat populer dan dapat digunakan pada platform web apa pun. Untuk alasan itu, mengonversi dokumen ke HTML dan MHTML adalah fitur penting dari Aspose.WordsSitemap

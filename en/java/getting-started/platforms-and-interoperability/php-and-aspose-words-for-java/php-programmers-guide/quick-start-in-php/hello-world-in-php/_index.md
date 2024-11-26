@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hello World in PHP
 second_title: Aspose.Words for Java
 articleTitle: Hello World in PHP
@@ -7,6 +7,7 @@ description: "Write 'hello' to a Word Document using PHP."
 type: docs
 weight: 40
 url: /java/hello-world-in-php/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Hello World

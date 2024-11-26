@@ -12,6 +12,7 @@ aliases:
   - /java/working-with-header-and-footer-in-docx4j-and-aspose-words/
   - /java/working-with-document-in-docx4j-and-aspose-words/
   - /java/working-with-bookmarks-in-docx4j-and-aspose-words/
+timestamp: 2024-01-27-14-07-04
 ---
 
 The developers looking for document processing libraries may need to walk through the features provided by the libraries available on the market. Mainly, few factors are considered when choosing an option:

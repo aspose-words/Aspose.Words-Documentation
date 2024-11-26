@@ -1,4 +1,4 @@
-﻿---
+---
 title: 出力でのプロデューサー名
 second_title: C++の場合Aspose.Words
 articleTitle: 出力ドキュメント内のジェネレータ名またはプロデューサ名
@@ -7,6 +7,7 @@ description: "C++の場合Aspose.Words 作成に使用されたジェネレー�
 type: docs
 weight: 90
 url: /ja/cpp/generator-or-producer-name-included-in-output-documents/
+timestamp: 2024-10-21-11-17-44
 ---
 
 ドキュメントが作成されているかどうかを簡単に知ることができます C++の場合Aspose.Words. また、のバージョン番号を見つけることができます C++の場合Aspose.Words これは、特定の出力文書を作成するために使用されました。 Aspose.Wordsはこの情報を生成された文書に直接書き込みます。

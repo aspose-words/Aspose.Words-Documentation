@@ -7,6 +7,7 @@ description: "با استفاده از Python فرآیند ذخیره را با 
 type: docs
 weight: 10
 url: /fa/python-net/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 هنگام ذخیره یک سند، می توانید برخی از ویژگی های پیشرفته را تنظیم کنید. Aspose.Words کلاس [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) را در اختیار شما قرار می دهد که امکان کنترل دقیق تر فرآیند ذخیره را فراهم می کند. روش [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) اضافه بارهایی وجود دارد که یک شی [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) را می پذیرد - باید یک شی از یک کلاس مشتق شده از کلاس [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) باشد. هر فرمت ذخیره یک کلاس مربوطه دارد که گزینه های ذخیره را برای این فرمت ذخیره نگه می دارد، به عنوان مثال، [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) برای ذخیره در فرمت PDF یا [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/) برای ذخیره در یک تصویر وجود دارد. این مقاله نمونه هایی از کار با برخی از کلاس های گزینه های مشتق شده از [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/) را ارائه می دهد.

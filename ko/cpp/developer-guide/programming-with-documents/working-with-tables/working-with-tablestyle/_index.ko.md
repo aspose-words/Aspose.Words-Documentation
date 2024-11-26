@@ -1,4 +1,4 @@
-﻿---
+---
 title: 워드 문서의 테이블 스타일 변경
 second_title: Aspose.Words 에 대한 C++
 articleTitle: 테이블 스타일 적용
@@ -7,6 +7,7 @@ description: "고급 테이블 서식 지정 C++. 다음을 사용하여 테이�
 type: docs
 weight: 80
 url: /ko/cpp/working-with-tablestyle/
+timestamp: 2024-01-27-14-07-04
 ---
 
 테이블 스타일은 테이블에 쉽게 적용할 수 있는 서식 집합을 정의합니다. 테두리,음영,정렬 및 글꼴과 같은 서식을 테이블 스타일로 설정하고 일관된 모양을 위해 많은 테이블에 적용할 수 있습니다.

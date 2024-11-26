@@ -7,6 +7,7 @@ description: "يقوم Aspose.Words for Python via .NET بتنفيذ مشغل Wi
 type: docs
 weight: 30
 url: /ar/python-net/handling-windows-metafiles/
+timestamp: 2024-01-27-14-07-04
 ---
 
 تنسيق Windows Metafile هو تنسيق ملف صورة يمكن أن يحتوي على رسومات متجهة ونقطية. يُستخدم هذا التنسيق لتخزين بيانات الرسومات في الذاكرة أو الملفات الموجودة على القرص. يخزن ملف التعريف قائمة باستدعاءات الوظائف في Windows Graphics Device Interface (GDI) التي يجب تنفيذها لعرض الصورة على الشاشة. يقوم النظام بتفسير وتنفيذ هذه الأوامر في سياق العرض.

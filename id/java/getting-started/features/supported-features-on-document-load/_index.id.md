@@ -7,6 +7,7 @@ description: "Beban dan konversi dokumen dalam format yang paling populer dan me
 type: docs
 weight: 20
 url: /id/java/supported-features-on-document-load/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Words memungkinkan pengguna untuk bekerja dengan dokumen dalam berbagai format dan menyediakan berbagai pilihan untuk ini. Misalnya, pengguna dapat membuat dokumen dari awal atau memuat file yang ada di mana pun [Login](/words/id/java/supported-document-formats/), membuat beberapa perubahan dokumen dan kemudian menyimpan hasilnya. Ketika mengimpor dokumen dalam format yang dipilih, pengguna dapat menerapkan berbagai opsi beban.

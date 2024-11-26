@@ -1,4 +1,4 @@
-﻿---
+---
 title: C++でのヘッダーとフッターの操作
 second_title: C++の場合Aspose.Words
 articleTitle: ヘッダーとフッターの操作
@@ -7,6 +7,7 @@ description: "C++を使用してヘッダーとフッターを操作する方法
 type: docs
 weight: 150
 url: /ja/cpp/working-with-headers-and-footers/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Aspose.Wordsドキュメント内のヘッダーとフッターを操作できます。 ヘッダーはページの上部に配置されるテキストであり、フッターはページの下部にあるテキストです。 通常、これらの領域は、ページ番号、作成日、会社情報など、文書のすべてまたは一部のページで繰り返す必要がある情報を挿入するために使用されます。

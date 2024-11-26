@@ -1,4 +1,4 @@
-﻿---
+---
 title: IntelliJ IDEA
 second_title: Aspose.Words for Java
 articleTitle: IntelliJ IDEA
@@ -7,6 +7,7 @@ description: "IntelliJ IDEA: using Aspose.Words for Java."
 type: docs
 weight: 70
 url: /java/aspose-words-java-for-intellij-idea/
+timestamp: 2024-01-27-14-07-04
 ---
 
 This section has the following topics:

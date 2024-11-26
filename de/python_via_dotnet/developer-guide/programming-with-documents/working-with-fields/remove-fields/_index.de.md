@@ -7,6 +7,7 @@ description: "Erfahren Sie, wie Sie Felder in Python entfernen. Entfernen Sie Fe
 type: docs
 weight: 35
 url: /de/python-net/remove-fields/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Manchmal ist es notwendig, ein Feld aus dem Dokument zu entfernen. Dies kann auftreten, wenn das Feld durch einen anderen Feldtyp ersetzt werden soll oder wenn das Feld im Dokument nicht mehr benötigt wird. Zum Beispiel ein `TOC`-Feld beim Speichern in HTML.

@@ -7,6 +7,7 @@ description: "Sisipkan paragraf dan tentukan formatnya dalam dokumen menggunakan
 type: docs
 weight: 210
 url: /id/python-net/working-with-paragraphs/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Paragraf adalah sekumpulan karakter yang digabungkan menjadi blok logis dan diakhiri dengan karakter khusus – *pemutusan paragraf*. Di Aspose.Words, sebuah paragraf diwakili oleh kelas [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/).

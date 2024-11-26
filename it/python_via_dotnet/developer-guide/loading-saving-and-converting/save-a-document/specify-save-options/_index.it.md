@@ -7,6 +7,7 @@ description: "Controlla in modo più accurato il processo di salvataggio utilizz
 type: docs
 weight: 10
 url: /it/python-net/specify-save-options/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Quando salvi un documento, puoi impostare alcune proprietà avanzate. Aspose.Words fornisce la classe [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/), che consente un controllo più preciso del processo di salvataggio. Esistono sovraccarichi del metodo [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) che accettano un oggetto [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/): dovrebbe essere un oggetto di una classe derivata dalla classe [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/). Ogni formato di salvataggio ha una classe corrispondente che contiene le opzioni di salvataggio per questo formato di salvataggio, ad esempio c'è [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) per il salvataggio in formato PDF o [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/) per il salvataggio in un'immagine. Questo articolo fornisce esempi di utilizzo di alcune classi di opzioni derivate da [SaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/).

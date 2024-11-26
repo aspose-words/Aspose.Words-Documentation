@@ -7,6 +7,7 @@ description: "Aspose.Words for JasperReports is built on top of Aspose.Words for
 type: docs
 weight: 20
 url: /jasperreports/doc-docx-rtf-odt-html-and-txt-export/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}

@@ -7,6 +7,7 @@ description: "Firma digitalmente i documenti e rileva, conta, verifica e rimuovi
 type: docs
 weight: 40
 url: /it/net/working-with-digital-signatures/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Una firma digitale è un'implementazione tecnologica delle firme elettroniche per firmare documenti e autenticare il firmatario per garantire che un documento non sia stato modificato da quando è stato firmato. Ogni firma digitale è unica per ciascun firmatario perché segue il protocollo PKI per generare sia chiavi pubbliche che private. Firmare digitalmente un documento significa creare una firma utilizzando la chiave privata del firmatario in cui viene utilizzato un algoritmo matematico per crittografare l'hash generato.

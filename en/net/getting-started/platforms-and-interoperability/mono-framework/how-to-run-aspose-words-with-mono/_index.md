@@ -1,4 +1,4 @@
-﻿---
+---
 title: How to  Run Aspose.Words with Mono
 second_title: Aspose.Words for .NET
 articleTitle: How to  Run Aspose.Words with Mono
@@ -7,6 +7,7 @@ description: "Using Aspose.Words for .NET with Mono on Linux or Mac OS to genera
 type: docs
 weight: 10
 url: /net/how-to-run-aspose-words-with-mono/
+timestamp: 2024-10-21-11-17-44
 ---
 
 {{% alert color="primary" %}}

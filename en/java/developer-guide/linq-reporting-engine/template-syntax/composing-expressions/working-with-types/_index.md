@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Types in Java
 second_title: Aspose.Words for Java
 articleTitle: Working with Types
@@ -7,6 +7,7 @@ description: "Use external visible types in template expressions when building a
 type: docs
 weight: 20
 url: /java/working-with-types/
+timestamp: 2024-01-27-14-07-04
 ---
 
 LINQ Reporting Engine enables you to use external visible types in template expressions. A *visible* type is a public type which outer types (if any) are public as well. You can use a data source object of any visible type to pass it to the engine.

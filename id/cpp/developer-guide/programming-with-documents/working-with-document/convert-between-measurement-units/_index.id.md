@@ -1,4 +1,4 @@
-﻿---
+---
 title: Konversi Antar Unit Pengukuran dalam C++
 second_title: Aspose.Words untuk C++
 articleTitle: Konversi Antar Unit Pengukuran
@@ -7,6 +7,7 @@ description: "Aspose.Words untuk C++ dapat membantu Anda dengan cara mengonversi
 type: docs
 weight: 20
 url: /id/cpp/convert-between-measurement-units/
+timestamp: 2024-01-27-14-07-04
 ---
 
 Sebagian besar properti objek yang disediakan dalam Aspose.Words API yang mewakili beberapa pengukuran, seperti lebar atau tinggi, margin, dan berbagai jarak, menerima nilai dalam poin, di mana 1 inci sama dengan 72 poin. Terkadang ini tidak nyaman dan poin perlu dikonversi ke unit lain.

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create Empty Document in NPOI
 second_title: Aspose.Words for .NET
 articleTitle: Create Empty Document in NPOI
@@ -7,6 +7,7 @@ description: "Create an empty document easily and fast instead of using NPOI in 
 type: docs
 weight: 30
 url: /net/create-empty-document-in-npoi/
+timestamp: 2024-01-27-14-07-04
 ---
 
 ## Aspose.Words - Create Empty Document

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Page Orientation
 second_title: Aspose.Words for Reporting Services
 articleTitle: Page Orientation
@@ -7,6 +7,7 @@ description: "Page Orientation setting of the Aspose.Words for Reporting Service
 type: docs
 weight: 70
 url: /reportingservices/page-orientation/
+timestamp: 2024-01-27-14-07-04
 ---
 
 {{% alert color="primary" %}}
