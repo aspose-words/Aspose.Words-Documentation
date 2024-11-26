@@ -7,16 +7,22 @@ type: docs
 description: "Aspose.Words for Java expands and enhances daily. On this page, you can learn about the huge and most interesting features of the product."
 weight: 2
 url: /java/what-s-new-in-aspose-words-for-java/
-timestamp: 2024-10-14-12-53-06
+timestamp: 2024-11-26-12-53-06
 ---
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for Java 24.9, 24.10
+## Aspose.Words for Java 24.9, 24.10, 24.11
 
 Aspose.Words 24.9 introduces group shape insertion and StructuredDocumentTag insertion via DocumentBuilder, enhances radial chart rendering with graduations, improves digital signatures with XAdES-EPES support, adds Markdown underline recognition, and provides access to footnote/endnote separators.
 
 Aspose.Words 24.10 introduces enhanced ActiveX control support with CommandButton creation, new shape visibility control, the ability to group shapes, improved Markdown export for tables, chart formatting for Pie and Doughnut charts, better Big5 encoding handling, and support for outdated Taiwanese fonts.
+
+Aspose.Words 24.11 introduces AI-powered document summarization, enhanced rendering options, improved access to document properties and ActiveX control captioning.
+
+### AI-powered Features <sup>24.11</sup>
+
+Support for document summarization using **OpenAI** and **Google** generative language models has been integrated by adding various classes and their methods and properties for the AI-based Aspose.Words functionality.
 
 ### Rendering and Printing
 
@@ -36,6 +42,18 @@ A new public property [Hidden](https://reference.aspose.com/words/java/com.aspos
 
 Several new public properties have been added to format Pie and Doughnut charts.
 
+#### Control the Rendering of PDF Choice Form Field Borders <sup>24.11</sup>
+
+A new option to control the rendering of PDF choice form field borders has been implemented by adding a new public option [RenderChoiceFormFieldBorder](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getRenderChoiceFormFieldBorder).
+
+#### Get and Set Format Codes for Chart Data <sup>24.11</sup>
+
+The ability to get and set format codes for chart data has been added by implementing the [FormatCode](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/#getFormatCode) property in the [ChartXValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluecollection/), and [BubbleSizeCollection](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/) classes.
+
+#### Render Histogram Charts with Bins and Labels <sup>24.11</sup>
+
+Histogram chart rendering has been improved by allowing for a specified number of bins and labels.
+
 ### Converting, Loading and Saving Documents
 
 #### Underline Formatting when Loading Markdown Files <sup>24.9</sup>
@@ -45,6 +63,10 @@ The option to recognize underline formatting when loading Markdown documents has
 #### Exporting tables as HTML when saving to Markdown <sup>24.10</sup>
 
 An option to export tables as HTML when saving documents to Markdown format has been implemented by adding a new public property [ExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getExportAsHtml) and an enumeration [MarkdownExportAsHtml](https://reference.aspose.com/words/java/com.aspose.words/markdownexportashtml/).
+
+#### Export PDF with Updated Logical Structure <sup>24.11</sup>
+
+PDF export has been enhanced by including table title properties as PDF logical structure element titles.
 
 ### Digital Signatures
 
@@ -60,12 +82,16 @@ The ability to sign documents with XAdES-EPES level XML-DSig signatures has been
 * The ability to group individual shapes, group shapes together, and directly group both shapes and group shapes has been introduced by adding the [InsertGroupShape](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertGroupShape-double-double-double-double-com.aspose.words.ShapeBase...) method. <sup>24.10</sup>
 * Big5 encoding handling for TrueType cmap tables has been improved. <sup>24.10</sup>
 * Support for outdated Taiwanese fonts has been enhanced. <sup>24.10</sup>
+* To access extended document properties, read-only properties have been added to the [BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/) class. <sup>24.11</sup>
+* Setting captions for ActiveX controls has been enabled by adding a new public setter to the [Forms2OleControl.Caption](https://reference.aspose.com/words/java/com.aspose.words/forms2olecontrol/#getCaption) property. <sup>24.11</sup>
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for Java 24.9 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-9-release-notes/).
 
 Learn more about [Aspose.Words for Java 24.10 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-10-release-notes/).
+
+Learn more about [Aspose.Words for Java 24.11 Release Notes](https://releases.aspose.com/words/java/release-notes/2024/aspose-words-for-java-24-11-release-notes/).
 
 {{% /alert %}}
 
