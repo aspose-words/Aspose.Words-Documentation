@@ -7,6 +7,7 @@ type: docs
 weight: 10
 description: "Aspose.Words for .NET supports OpenAI and Google AI models for summarization and translation documents. Use Aspose.Words with Gpt-4o, Gpt-4o mini, Gpt-4 Turbo, GPT-3.5 Turbo, Gemini 1.5 Flash, Gemini 1.5 Flash-8B, Gemini 1.5 Pro."
 url: /net/supported-ai-models/
+timestamp: 2024-11-26-12-00-00
 ---
 
 Aspose.Words now leverages advanced AI models to enhance document processing and analysis. With the Aspose.Words.AI namespace, developers can access features that utilize AI for tasks like document summarization and analysis, integrating generative language models from industry leaders.
