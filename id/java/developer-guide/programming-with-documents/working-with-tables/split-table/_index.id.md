@@ -1,23 +1,23 @@
----
-title: Meja Split di Java
-second_title: Aspose.Words Sitemap Java
-articleTitle: Meja Split
-linktitle: Meja Split
-description: "Meja terpisah di JavaSitemap Bagaimana membagi satu meja menjadi dua tabel terpisah JavaSitemap"
+﻿---
+title: Pisahkan Tabel dalam Java
+second_title: Aspose.Words untuk Java
+articleTitle: Tabel Terpisah
+linktitle: Tabel Terpisah
+description: "Pisahkan tabel dalam Java. Cara membagi satu tabel menjadi dua tabel terpisah Java."
 type: docs
 weight: 100
 url: /id/java/split-table/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Meja, diwakili dalam Aspose.Words Document Object Model, terdiri dari baris dan sel independen, sehingga mudah untuk membagi meja.
+Sebuah tabel, yang direpresentasikan dalam Model Objek Dokumen Aspose.Words, terdiri dari baris dan sel independen, sehingga memudahkan untuk membagi tabel.
 
-Untuk memanipulasi tabel untuk membaginya menjadi dua tabel, kita hanya perlu memindahkan beberapa baris dari tabel asli ke yang baru. Untuk melakukan ini, kita perlu memilih baris yang kita ingin membagi tabel.
+Untuk memanipulasi tabel untuk membaginya menjadi dua tabel, kita hanya perlu memindahkan beberapa baris dari tabel asli ke tabel baru. Untuk melakukan ini, kita perlu memilih baris yang ingin kita gunakan untuk membagi tabel.
 
-Kami dapat membuat dua tabel dari tabel asli dengan mengikuti langkah sederhana ini:
+Kita dapat membuat dua tabel dari tabel asli dengan mengikuti langkah-langkah sederhana ini:
 
-Sitemap Buat klon dari meja tanpa mengkloning anak-anak untuk menjaga baris bergerak dan masukkan mereka setelah tabel asli
-2. di Mulai di baris yang ditentukan, pindahkan semua baris berikutnya ke tabel kedua ini
+1. Buat tiruan tabel tanpa mengkloning turunan untuk mempertahankan baris yang dipindahkan dan menyisipkannya setelah tabel asli
+2. Mulai dari baris yang ditentukan, pindahkan semua baris berikutnya ke tabel kedua ini
 
 Contoh kode berikut menunjukkan cara membagi tabel menjadi dua tabel pada baris tertentu:
 

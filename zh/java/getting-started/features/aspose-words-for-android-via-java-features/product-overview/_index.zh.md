@@ -1,9 +1,9 @@
----
-title: Android 通过 Java 产品概览
-second_title: "Aspose.Words (单位:千美元) Java"
+﻿---
+title: Android通过Java产品概述
+second_title: Aspose.Words为Java
 articleTitle: 产品概览
 linktitle: 产品概览
-description: "Aspose.Words (单位:千美元) Android 通过 Java 是一个 `Java` 启用的类库 Android 开发者将执行大量文档处理任务。"
+description: "Aspose.WordsforAndroidviaJava是一个`Java`类库，使Android开发人员能够执行大量的文档处理任务。"
 type: docs
 weight: 10
 url: /zh/java/android-product-overview/
@@ -12,45 +12,45 @@ timestamp: 2024-01-27-14-07-04
 
 {{% alert color="primary" %}}
 
-**欢迎光临 Aspose.Words (单位:千美元) Android 通过 Java来啊!**
+**欢迎通过 Java 访问 Aspose.Words 并进行 Android！**
 
-Aspose.Words (单位:千美元) Android 通过 Java 是一个 `Java` 启用的类库 Android 开发者将执行大量文档处理任务。 Aspose.Words (单位:千美元) Android 通过 Java 支持 DOC、DOCX、RTF、HTML、OpenDocument、PDF、 XPS, EPUB和其他格式. 与 Aspose.Words (单位:千美元) Android 通过 Java 可以生成、修改、转换、渲染和打印文档。 使用 Aspose.Words (单位:千美元) Android 通过 Java 在你的项目中,你得到了丰富的功能集,平台独立,性能和可伸缩性的好处 都有一个最小的学习曲线。
+Aspose.WordsforAndroidviaJava是一个`Java`类库，使Android开发人员能够执行大量的文档处理任务。 Aspose.Words通过Java支持AndroidDOC, DOCX, RTF, HTML, OpenDocument, PDF, XPS, EPUB 等格式。 使用Aspose.WordsforAndroid通过Java，您可以生成，修改，转换，渲染和打印文档。 在项目中使用Aspose.WordsforAndroidviaJava可为您提供丰富的功能集，平台独立性，性能和可扩展性的好处，所有这些都具有最小的学习曲线。
 
 {{% /alert %}}
 
 ## 产品说明
 
-### 丰富的特性集
+### 丰富的功能
 
-Aspose.Words (单位:千美元) Android 通过 Java 特征可分为四个主要领域:
+Aspose.Words对于Android通过Java特征可以分为四个主要区域:
 
-- 怎么样? **Conversions**。 。 。 高品质转换为DOC,OOXML,RTF,WordprocessingML,HTML,MHTML,TXT和OpenDocument格式.
-- 怎么样? **Document Object Model**。 。 。 。 通过富人程序访问 API 用于创建、修改、提取、复制、拆分、合并和替换文档内容。
-- 怎么样? **Rendering**。 。 。 。 将整个文档或页面转换为 PDF, XPS 或安全基金。 同时将文档页面转换为TIFF、PNG或BMP图像,打印或渲染页面为 a `Canvas` 对象。 都忠心耿耿 就像 Microsoft Word® 本来会这么做的
-- 怎么样? **Reporting**。 。 。 从零开始生成文档或报告,或通过从数据源或商业对象中填充数据模板.
+- **Conversions**. 高质量的转换和转换DOC, OOXML, RTF, WordprocessingML, HTML, MHTML, TXT 和OpenDocument格式。
+- **Document Object Model**. 通过丰富的API对所有文档元素和格式进行编程访问，可以创建、修改、提取、复制、拆分、连接和替换文档内容。
+- **Rendering**. 将整个文档或页面转换为PDF，XPS或SWF。 还可以将文档页面转换为TIFF，PNG或BMP图像，将页面打印或渲染为`Canvas`对象。 所有具有高保真度-就像Microsoft Word®会做到这一点。
+- **Reporting**. 从头开始或通过使用来自数据源或业务对象的数据填充模板来生成文档或报告。
 
 ### 平台独立性
 
-Aspose.Words (单位:千美元) Android 通过 Java 可在下列地点使用: Android 运行时环境已安装 。 Aspose.Words (单位:千美元) Android 通过 Java 可用于 Java SE 5, 6 和 7 将运行 Android 系统运行 Android OS 2.0 或更高音量. 这几乎意味着所有 Android 开发者可以使用 Aspose.Words (单位:千美元) Android 通过 Java 丰富他们的应用。
+Aspose.WordsforAndroidviaJava可以在安装Android运行时环境的任何地方使用。 Aspose.WordsforAndroidviaJava可用于JavaSE5,6和7，并将在运行AndroidOS2.0或更高版本的Android系统上运行。 这意味着几乎所有Android开发人员都可以通过Java使用Aspose.WordsforAndroid来丰富他们的应用程序。
 
-### 性能和可扩展性
+### 性能和可伸缩性
 
-Aspose.Words (单位:千美元) Android 通过 Java 是一个单身 JAR 可用任意配置的归档 Android 应用程序,只需将其复制到设备中并添加到构建路径中。 您无需担心任何其他服务或模块。 您可以在几分钟内生成数千个文档 Aspose.Words (单位:千美元) Android 通过 Java 这涉及打开文档、修改内容、格式化或以数据输入和保存。
+Aspose.WordsforAndroidviaJava是单个JAR存档，可以通过简单地将其复制到设备并将其添加到构建路径来与任何Android应用程序一起部署。 您不必担心任何其他服务或模块。 您可以通过Java在几分钟内使用Aspose.WordsforAndroid生成数千个文档，这涉及到打开文档，修改内容和格式化或用数据填充并保存它。
 
-Aspose.Words (单位:千美元) Android 通过 Java 只要一次只有一个线程在文档上工作,多线程就安全。 在一个文件上有一个线索是一种典型的设想。 不同的线程可以安全地同时在不同的文档上工作.
+Aspose.Words对于Android通过Java是多线程安全的，只要一次只有一个线程在文档上工作。 一个线程处理一个文档是一个典型的场景。 不同的线程可以安全地在同一时间处理不同的文档。
 
 ### 最小学习曲线
 
-虽然有150多个公共课程和点数 Aspose.Words (单位:千美元) Android 通过 Java 学习曲线最小,因为 Aspose.Words (单位:千美元) Android 通过 Java API 精心设计的目标如下:
+尽管 Aspose.Words for Android via Java 中有超过 150 个公共类和枚举，但学习难度却很小，因为 Aspose.Words for Android via Java API 经过精心设计，并考虑了以下目标：
 
-- 借用其他众所周知的最佳做法 API例如, Microsoft Word 自动化.
-- 向业界借用已接受的最佳做法 Java 和 Android 设计指南。
-- 提供简单使用与详细文件要素操纵的平衡。
+- 从其他着名的APIs中借用最佳实践，如Microsoft Word自动化。
+- 从业界接受的Java和Android设计指南中借用最佳实践。
+- 提供简单用法与详细文档元素操作的平衡。
 
-同时, Aspose.Words (单位:千美元) Android 通过 Java 和那个... Microsoft Word 对象模型(Object Model)在其中代表文档为更像 XML 对象的树 DOM 树。 如果您与 XML 合作过 DOM 您会发现它很容易理解和工作 Aspose.Words (单位:千美元) Android 通过 Java。 。 。 。
+与此同时，Aspose.WordsforAndroidviaJava与Microsoft Word对象模型有很大不同，因为它将文档表示为对象树，更像是XMLDOM树。 如果您使用任何XMLDOM库，您会发现它很容易理解并通过Java使用Aspose.WordsforAndroid。
 
 ## 系统要求
 
-Aspose.Words (单位:千美元) Android 通过 Java 是独立的平台,可在任何平台上使用 Android 运行时环境已安装并运行 Android 系统运行 Android OS 2.0 或更高音量. 目前,已用下列方法对该构成部分进行了测试:
+Aspose.WordsforAndroidviaJava与平台无关，可在安装了Android运行时环境的任何平台上使用，并将在运行AndroidOS2.0或更高版本的Android系统上运行。 目前，该组件已通过测试与:
 
-- 怎么样? Android 4.2诉17
+- Android4.2v17

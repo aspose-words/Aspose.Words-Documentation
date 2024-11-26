@@ -1,26 +1,26 @@
----
-title: Sitemap
-second_title: Aspose.Words Sitemap Java
-articleTitle: Sitemap
-linktitle: Sitemap
+﻿---
+title: Memulai
+second_title: Aspose.Words untuk Java
+articleTitle: Memulai
+linktitle: Memulai
 type: docs
-description: "Gunakan pengenalan ini untuk Aspose.Words Sitemap Java mendasar untuk mulai mewujudkan nilai Aspose.Words untuk bisnis Anda."
+description: "Gunakan pengantar Aspose.Words untuk Java fundamental ini untuk mulai menyadari nilai Aspose.Words untuk bisnis Anda."
 weight: 10
 url: /id/java/getting-started/
 timestamp: 2024-09-25-11-08-55
 ---
 
-Ini Memulai memberikan pengenalan untuk Aspose.Words Sitemap Untuk pengguna baru Aspose.WordsIni adalah cara tercepat untuk mempelajari persyaratan dan kemampuan dasar.
+Persiapan ini memberikan pengantar tentang dasar-dasar Aspose.Words. Untuk pengguna yang baru mengenal Aspose.Words, ini adalah cara tercepat untuk mempelajari persyaratan dan kemampuan dasar.
 
 Untuk mengetahui lebih lanjut tentang Aspose.Words, pilih bagian yang sesuai:
 
-- Login [Login](/words/id/java/installation/) - memberikan informasi tentang cara menginstal Aspose.Words
-- Login [Hello, Dunia!](/words/id/java/hello-world/) - memberikan informasi tentang cara menguji perangkat lunak yang dimaksudkan untuk menyusun atau menjalankan kode sumber dipasang dengan benar
-- Login [Login](/words/id/java/supported-document-formats/) - memberikan informasi tentang format yang didukung
-- Login [Login](/words/id/java/features/) - memberikan informasi tentang fitur apa yang didukung ketika memuat atau menyimpan dokumen dalam berbagai format
-- Login [Login](/words/java/platforms-and-interoperability/) - memberikan informasi tentang penggunaan Aspose.Words saat membangun aplikasi untuk platform lain
-- Login [Login](/words/id/java/licensing/) - memberikan informasi tentang menerapkan lisensi dan menggunakan beberapa produk Aspose
-- Login [Sitemap Aspose.Words](/words/java/aspose-words-or-other-solutions/) - menjelaskan alasan mengapa komponen Aspose jauh lebih baik daripada Meme it Microsoft Office Automation
-- Login [Login](/words/id/java/system-requirements/) - memberikan informasi tentang persyaratan lingkungan sistem dan pengembangan
-- Login [Login](/words/id/java/security/) - menggambarkan catatan dan tips tentang cara menghindari masalah keamanan umum
-- Login [Login](/words/id/java/how-to-run-the-examples/) - menjelaskan cara mengunduh dan menjalankan contoh dan persyaratan perangkat lunak apa yang harus dipenuhi
+- [Instalasi](/words/java/installation/) - memberikan informasi tentang cara menginstal Aspose.Words
+- [Halo Dunia](/words/java/hello-world/) - memberikan informasi tentang cara menguji bahwa perangkat lunak yang dimaksudkan untuk mengkompilasi atau menjalankan kode sumber telah diinstal dengan benar
+- [Format Dokumen yang Disertakan](/words/java/supported-document-formats/) - memberikan informasi tentang format yang didukung
+- [Fitur yang Disertakan](/words/java/features/) - memberikan informasi tentang fitur apa saja yang didukung saat memuat atau menyimpan dokumen dalam berbagai format
+- [Platform yang Didirikan](/words/java/platforms-and-interoperability/) - memberikan informasi tentang penggunaan Aspose.Words saat membuat aplikasi untuk platform lain
+- [Lisensi dan Tangganan](/words/java/licensing/) - memberikan informasi tentang penerapan lisensi dan penggunaan beberapa produk Aspose
+- [Mengapa Aspose.Words](/words/java/aspose-words-or-other-solutions/) - menjelaskan alasan mengapa komponen Aspose jauh lebih baik daripada Microsoft Office Automation
+- [Kesatuan Sistem](/words/java/system-requirements/) - memberikan informasi tentang persyaratan sistem dan lingkungan pengembangan
+- [Catatan Keamanan](/words/java/security/) - menjelaskan catatan dan tip tentang cara menghindari masalah keamanan umum
+- [Cara Mengajukan Pertanyaan](/words/java/how-to-run-the-examples/) - menjelaskan cara mengunduh dan menjalankan contoh dan persyaratan perangkat lunak apa yang harus dipenuhi

@@ -1,77 +1,77 @@
----
-title: Bekerja dengan Form Fields di Java
-second_title: Aspose.Words Sitemap Java
-articleTitle: Bekerja dengan Form Fields
-linktitle: Bekerja dengan Form Fields
-description: "Memahami fitur Fields Form, bekerja dengan Form Fields menggunakan JavaSitemap"
+﻿---
+title: Bekerja dengan Bidang Formulir di Java
+second_title: Aspose.Words untuk Java
+articleTitle: Bekerja dengan Bidang Formulir
+linktitle: Bekerja dengan Bidang Formulir
+description: "Memahami fitur Bidang Formulir, bekerja dengan Bidang Formulir menggunakan Java."
 type: docs
 weight: 380
 url: /id/java/working-with-form-fields/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Dokumen yang berisi blanks isi (bidang) dikenal sebagai bentuk. Misalnya, Anda dapat membuat formulir pendaftaran dalam Microsoft Word yang menggunakan daftar drop-down dari pengguna mana yang dapat memilih entri. Login `Form` bidang adalah lokasi di mana jenis data tertentu, seperti nama atau alamat, disimpan. Bidang bentuk dalam Microsoft Word termasuk input teks, combobox dan kotak centang.
+Dokumen yang berisi isian kosong (kolom) dikenal sebagai formulir. Misalnya, Anda dapat membuat formulir pendaftaran di Microsoft Word yang menggunakan daftar tarik-turun tempat pengguna dapat memilih entri. Bidang `Form` adalah lokasi penyimpanan jenis data tertentu, seperti nama atau alamat. Kolom formulir di Microsoft Word menyertakan input teks, combobox, dan checkbox.
 
-Anda dapat menggunakan bidang formulir dalam proyek Anda untuk "komunikasi" dengan pengguna Anda. Misalnya, Anda membuat dokumen yang kontennya dilindungi, tetapi hanya bidang bentuk yang dapat diedit. Pengguna dapat memasukkan data di bidang formulir dan menyerahkan dokumen. Aplikasi Anda yang menggunakan Aspose.Words dapat mengambil data dari bidang formulir dan memprosesnya.
+Anda dapat menggunakan bidang formulir di proyek Anda untuk "berkomunikasi" dengan pengguna Anda. Misalnya, Anda membuat dokumen yang kontennya dilindungi, tetapi hanya bidang formulir yang dapat diedit. Pengguna dapat memasukkan data di kolom formulir dan mengirimkan dokumen. Aplikasi Anda yang menggunakan Aspose.Words dapat mengambil data dari kolom formulir dan memprosesnya.
 
-Menempatkan bidang bentuk ke dalam dokumen melalui kode mudah. [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) memiliki metode khusus untuk memasukkannya, satu untuk setiap jenis bidang bentuk. Setiap metode menerima parameter string mewakili nama bidang formulir. Nama dapat string kosong. Jika Anda menentukan nama untuk bidang formulir, maka bookmark secara otomatis dibuat dengan nama yang sama.
+Menempatkan bidang formulir ke dalam dokumen melalui kode itu mudah. [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) memiliki metode khusus untuk memasukkannya, satu untuk setiap jenis bidang formulir. Masing-masing metode menerima parameter string yang mewakili nama bidang formulir. Nama bisa berupa string kosong. Namun, jika Anda menentukan nama untuk bidang formulir, maka bookmark akan dibuat secara otomatis dengan nama yang sama.
 
-## Masukkan Form Fields
+## Sisipkan Kolom Formulir
 
-Bidang bentuk adalah kasus tertentu dari bidang Word yang memungkinkan "interaksi" dengan pengguna. Bidang bentuk dalam Microsoft Word termasuk kotak teks, kotak combo dan kotak centang.
+Bidang formulir adalah kasus khusus dari bidang Word yang memungkinkan "interaksi" dengan pengguna. Kolom formulir di Microsoft Word termasuk kotak teks, kotak kombo, dan checkbox.
 
-**DocumentBuilder** menyediakan metode khusus untuk memasukkan setiap jenis bidang bentuk ke dalam dokumen: [insertTextInput](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCheckBox-java.lang.String-boolean-boolean-int), [insertCheckBox](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCheckBox-java.lang.String-boolean-boolean-int) Sitemap [insertComboBox](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCheckBox-java.lang.String-boolean-int)Sitemap
+**DocumentBuilder**
 
-Contoh kode berikut menunjukkan cara memasukkan kolom bentuk combobox ke dalam dokumen:
+Contoh kode berikut menunjukkan cara menyisipkan bidang formulir combobox ke dalam dokumen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertFormFields-InsertFormFields.java" >}}
 
-### Masukkan Masukan Teks
+### Sisipkan Masukan Teks
 
-Gunakan **Login Login** metode untuk memasukkan kotak teks ke dalam dokumen.
+Gunakan metode **insertTextInput** untuk menyisipkan kotak teks ke dalam dokumen.
 
-Contoh kode berikut menunjukkan cara memasukkan kolom formulir input teks ke dalam dokumen:
+Contoh kode berikut menunjukkan cara menyisipkan bidang formulir input teks ke dalam dokumen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertTextInputFormField-DocumentBuilderInsertTextInputFormField.java" >}}
 
-### Masukkan kotak cek
+### Sisipkan Kotak Centang
 
-Login **Login** untuk memasukkan kotak centang ke dalam dokumen.
+Panggil **insertCheckBox** untuk menyisipkan checkbox ke dalam dokumen.
 
-Contoh kode berikut menunjukkan cara memasukkan kolom formulir kotak centang ke dokumen:
+Contoh kode berikut menunjukkan cara menyisipkan bidang formulir checkbox ke dalam dokumen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertCheckBoxFormField-DocumentBuilderInsertCheckBoxFormField.java" >}}
 
-### Masukkan kotak Combo
+### Sisipkan Kotak Kombo
 
-Login **LoginComboBox** untuk memasukkan combobox ke dalam dokumen.
+Panggil **insertComboBox** untuk menyisipkan combobox ke dalam dokumen.
 
-Contoh kode berikut menunjukkan cara memasukkan kolom bentuk Combobox ke dalam dokumen:
+Contoh kode berikut menunjukkan cara menyisipkan bidang formulir Combobox ke dalam dokumen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertComboBoxFormField-DocumentBuilderInsertComboBoxFormField.java" >}}
 
-## Mempertahankan Bidang Bentuk
+## Dapatkan Bidang Formulir
 
-Koleksi bidang bentuk diwakili oleh [FormFieldCollection](https://reference.aspose.com/words/java/com.aspose.words/formfieldcollection/) kelas yang dapat diambil menggunakan [Range.getFormFields](https://reference.aspose.com/words/java/com.aspose.words/range/#getFormFields) Login Ini berarti bahwa Anda dapat memperoleh bidang bentuk yang terkandung dalam node dokumen apa pun termasuk dokumen itu sendiri.
+Kumpulan bidang formulir diwakili oleh kelas [FormFieldCollection](https://reference.aspose.com/words/java/com.aspose.words/formfieldcollection/) yang dapat diambil menggunakan properti [Range.getFormFields](https://reference.aspose.com/words/java/com.aspose.words/range/#getFormFields). Ini berarti Anda dapat memperoleh bidang formulir yang terdapat di simpul dokumen apa pun termasuk dokumen itu sendiri.
 
-Contoh kode berikut menunjukkan cara mendapatkan koleksi bidang bentuk:
+Contoh kode berikut menunjukkan cara mendapatkan kumpulan bidang formulir:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormFieldsGetFormFieldsCollection-FormFieldsGetFormFieldsCollection.java" >}}
 
 {{% alert color="primary" %}}
 
-Anda dapat mengunduh file sampel dari contoh berikut dari [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Form%20fields.docx)Sitemap
+Anda dapat mengunduh file sampel dari contoh berikut dari [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Form%20fields.docx).
 
 {{% /alert %}}
 
-Anda bisa mendapatkan bidang bentuk tertentu dengan indeks atau nama.
+Anda bisa mendapatkan bidang formulir tertentu dengan indeks atau namanya.
 
-Contoh kode berikut menunjukkan cara mengakses bidang bentuk:
+Contoh kode berikut menunjukkan cara mengakses bidang formulir:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormFieldsGetByName-FormFieldsGetByName.java" >}}
 
-Login **FormField** properti memungkinkan Anda untuk bekerja dengan nama bidang bentuk, jenis, dan hasilnya.
+Properti **FormField** memungkinkan Anda bekerja dengan nama, jenis, dan hasil bidang formulir.
 
-Contoh kode berikut menunjukkan cara bekerja dengan nama bidang bentuk, jenis, dan hasil:
+Contoh kode berikut menunjukkan cara bekerja dengan nama bidang formulir, jenis, dan hasil:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormFieldsWorkWithProperties-FormFieldsWorkWithProperties.java" >}}

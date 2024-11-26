@@ -1,53 +1,53 @@
----
-title: Dokumen Terbatas Login Java
-second_title: Aspose.Words Sitemap Java
-articleTitle: Editing Dokumen Terbatas
-linktitle: Editing Dokumen Terbatas
-description: "Mengedit dokumen dengan mengatur jenis pembatasan. Anda juga dapat menghapus perlindungan dan membuat daerah yang tidak terbatas yang dapat diedit menggunakan JavaSitemap"
+﻿---
+title: Batasi Pengeditan Dokumen dalam Java
+second_title: Aspose.Words untuk Java
+articleTitle: Batasi Pengeditan Dokumen
+linktitle: Batasi Pengeditan Dokumen
+description: "Batasi pengeditan dokumen dengan menetapkan jenis pembatasan. Anda juga dapat menghapus perlindungan dan membuat wilayah yang dapat diedit tanpa batas menggunakan Java."
 type: docs
 weight: 30
 url: /id/java/restrict-document-editing/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Kadang-kadang Anda mungkin perlu membatasi kemampuan untuk mengedit dokumen dan hanya memungkinkan tindakan tertentu dengan itu. Hal ini dapat berguna untuk mencegah orang lain dari mengedit informasi sensitif dan rahasia dalam dokumen Anda.
+Terkadang Anda mungkin perlu membatasi kemampuan untuk mengedit dokumen dan hanya mengizinkan tindakan tertentu dengannya. Ini dapat berguna untuk mencegah orang lain mengedit informasi sensitif dan rahasia dalam dokumen Anda.
 
-Aspose.Words memungkinkan Anda untuk membatasi mengedit dokumen dengan mengatur jenis pembatasan. Selain itu, Aspose.Words juga memungkinkan Anda untuk menentukan pengaturan perlindungan menulis untuk dokumen.
+Aspose.Words memungkinkan Anda membatasi pengeditan dokumen dengan menetapkan jenis pembatasan. Selain itu, Aspose.Words juga memungkinkan Anda menentukan pengaturan proteksi penulisan untuk dokumen.
 
-Artikel ini menjelaskan cara menggunakan Aspose.Words untuk memilih jenis pembatasan, cara menambahkan atau menghapus perlindungan, dan bagaimana membuat daerah yang tidak terbatas diedit.
+Artikel ini menjelaskan cara menggunakan Aspose.Words untuk memilih jenis pembatasan, cara menambah atau menghapus perlindungan, dan cara membuat wilayah yang dapat diedit tanpa batas.
 
-## Pilih Editing Jenis Pembatasan
+## Pilih Jenis Pembatasan Pengeditan
 
-Aspose.Words memungkinkan Anda untuk mengontrol cara Anda membatasi konten menggunakan Meme it [ProtectionType](https://reference.aspose.com/words/java/com.aspose.words/protectiontype/) parameter numerasi. Ini akan memungkinkan Anda untuk memilih jenis perlindungan yang tepat seperti berikut:
+Aspose.Words memungkinkan Anda mengontrol cara Anda membatasi konten menggunakan parameter enumerasi [ProtectionType](https://reference.aspose.com/words/java/com.aspose.words/protectiontype/). Ini akan memungkinkan Anda untuk memilih jenis perlindungan yang tepat seperti berikut ini:
 
-* Sitemap
-* Sitemap
-* Sitemap
-* Sitemap
-* Sitemap
+* AllowOnlyComments
+* AllowOnlyFormFields
+* AllowOnlyRevisions
+* ReadOnly
+* NoProtection
 
-Semua jenis adalah kata sandi, dan jika kata sandi ini tidak masuk dengan benar, pengguna tidak akan dapat mengubah konten dokumen Anda secara legal. Jadi, jika dokumen Anda dikembalikan kepada Anda tanpa persyaratan untuk memberikan kata sandi yang diperlukan, ini adalah tanda bahwa sesuatu yang salah.
+Semua jenis diamankan dengan kata sandi, dan jika kata sandi ini tidak dimasukkan dengan benar, pengguna tidak akan dapat mengubah konten dokumen Anda secara legal. Jadi, jika dokumen Anda dikembalikan kepada Anda tanpa persyaratan untuk memberikan kata sandi yang diperlukan, ini adalah tanda bahwa ada sesuatu yang salah.
 
-Jika Anda tidak mengatur kata sandi ketika memilih jenis keamanan, pengguna lain hanya dapat mengabaikan perlindungan dokumen Anda.
+Jika Anda tidak menetapkan kata sandi saat memilih jenis keamanan, pengguna lain dapat mengabaikan perlindungan dokumen Anda.
 
 {{% alert color="primary" %}}
 
-Perhatikan bahwa kata sandi ditetapkan hanya properti dalam dokumen yang dapat dihapus jika sifat dokumen diakses. Dengan demikian, kata sandi tersebut bukan jaminan keamanan dokumen. Login [Unprotect](https://reference.aspose.com/words/java/com.aspose.words/document/#unprotect) metode menunjukkan hanya itu.
+Perhatikan bahwa kata sandi yang disetel hanyalah properti dalam dokumen yang dapat dihapus jika properti dokumen diakses. Dengan demikian, kata sandi seperti itu bukan jaminan keamanan dokumen. Metode [Unprotect](https://reference.aspose.com/words/java/com.aspose.words/document/#unprotect) menunjukkan hal itu.
 
 {{% /alert %}}
 
 ## Tambahkan Perlindungan Dokumen
 
-Menambahkan perlindungan pada dokumen Anda adalah proses sederhana, karena semua yang perlu Anda lakukan adalah menerapkan salah satu metode perlindungan yang rinci di bagian ini.
+Menambahkan perlindungan ke dokumen Anda adalah proses yang sederhana, karena yang perlu Anda lakukan hanyalah menerapkan salah satu metode perlindungan yang dirinci di bagian ini.
 
-Aspose.Words memungkinkan Anda untuk melindungi dokumen Anda dari perubahan menggunakan [Protect](https://reference.aspose.com/words/java/com.aspose.words/document/#protect-int) Login Metode ini bukan fitur keamanan dan tidak mengenkripsi dokumen.
+Aspose.Words memungkinkan Anda melindungi dokumen dari perubahan menggunakan metode [Protect](https://reference.aspose.com/words/java/com.aspose.words/document/#protect-int). Metode ini bukan fitur keamanan dan tidak mengenkripsi dokumen.
 
 {{% alert color="primary" %}}
 
-Sitemap Microsoft Word, Anda dapat membatasi pengeditan dengan cara yang sama menggunakan keduanya:
+Di Microsoft Word, Anda dapat membatasi pengeditan dengan cara yang sama menggunakan keduanya:
 
-* Editing Terbatas (File → Info → Lindungi Dokumen)
-* Fitur alternatif - "Restrict Editing" (Review → Lindungi → Editing Terbatas)
+* Batasi Pengeditan (File Info Info →
+* Fitur alternatif – "Batasi Pengeditan" (Tinjau → Lindungi →
 
 {{% /alert %}}
 
@@ -55,30 +55,30 @@ Contoh kode berikut menunjukkan cara menambahkan perlindungan kata sandi ke doku
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-PasswordProtection.java" >}}
 
-Contoh kode berikut menunjukkan bagaimana membatasi pengeditan dalam dokumen sehingga hanya pengeditan dalam bidang bentuk dimungkinkan:
+Contoh kode berikut menunjukkan cara membatasi pengeditan dalam dokumen sehingga hanya pengeditan di bidang formulir yang dimungkinkan:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-AllowOnlyFormFieldsProtect.java" >}}
 
 ## Hapus Perlindungan Dokumen
 
-Aspose.Words memungkinkan Anda untuk menghapus perlindungan dari dokumen dengan modifikasi dokumen sederhana dan langsung. Anda dapat menghapus perlindungan dokumen tanpa mengetahui kata sandi yang sebenarnya atau memberikan kata sandi yang benar untuk membuka dokumen dengan menggunakan [Unprotect](https://reference.aspose.com/words/java/com.aspose.words/document/#unprotect) Login Kedua cara menghapus tidak ada perbedaan.
+Aspose.Words memungkinkan Anda menghapus perlindungan dari dokumen dengan modifikasi dokumen yang sederhana dan langsung. Anda dapat menghapus perlindungan dokumen tanpa mengetahui kata sandi yang sebenarnya atau memberikan kata sandi yang benar untuk membuka kunci dokumen dengan menggunakan metode [Unprotect](https://reference.aspose.com/words/java/com.aspose.words/document/#unprotect). Kedua cara menghilangkan tidak memiliki perbedaan.
 
-Contoh kode berikut menunjukkan bagaimana menghapus perlindungan dari dokumen Anda:
+Contoh kode berikut menunjukkan cara menghapus perlindungan dari dokumen Anda:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-RemoveDocumentProtection.java" >}}
 
-## Tentukan Wilayah Editable yang Tidak Terbatas
+## Tentukan Wilayah yang Tidak Dibatasi dan Dapat Diedit
 
-Anda dapat membatasi pengeditan dokumen Anda dan pada saat yang sama memungkinkan perubahan pada bagian yang dipilih. Jadi, siapa pun yang membuka dokumen Anda akan dapat mengakses bagian-bagian yang tidak terbatas ini dan membuat perubahan pada konten.
+Anda dapat membatasi pengeditan dokumen Anda dan pada saat yang sama mengizinkan perubahan pada bagian yang dipilih. Jadi, siapa pun yang membuka dokumen Anda akan dapat mengakses bagian yang tidak dibatasi ini dan membuat perubahan pada kontennya.
 
-Aspose.Words memungkinkan Anda untuk menandai bagian yang dapat diubah dalam dokumen Anda menggunakan [StartEditableRange](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startEditableRange) Login [EndEditableRange](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endEditableRange) Login
+Aspose.Words memungkinkan Anda menandai bagian-bagian yang dapat diubah dalam dokumen Anda menggunakan metode [StartEditableRange](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startEditableRange) dan [EndEditableRange](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endEditableRange).
 
-Contoh kode berikut menunjukkan bagaimana menandai seluruh dokumen secara membaca dan menentukan daerah yang dapat diedit di dalamnya:
+Contoh kode berikut menunjukkan cara menandai seluruh dokumen sebagai hanya-baca dan menentukan wilayah yang dapat diedit di dalamnya:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-UnrestrictedEditableRegions.java" >}}
 
-Anda juga dapat memilih pembatasan pengeditan dokumen yang berbeda untuk bagian yang berbeda.
+Anda juga dapat memilih batasan pengeditan dokumen yang berbeda untuk bagian yang berbeda.
 
-Contoh kode berikut menunjukkan cara menambahkan pembatasan untuk seluruh dokumen, dan kemudian menghapus pembatasan untuk salah satu bagian:
+Contoh kode berikut menunjukkan cara menambahkan batasan untuk seluruh dokumen, lalu menghapus batasan untuk salah satu bagian:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-UnrestrictedSection.java" >}}

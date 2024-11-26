@@ -1,8 +1,8 @@
 ---
-title: 如何在C#中從`DataTable`构建一張桌子
+title: 如何在C#中從DataTable构建一張桌子
 second_title: Aspose.Words for .NET
-articleTitle: 從 `DataTable` 中建構一張表格
-linktitle: 從 `DataTable` 中建構一張表格
+articleTitle: 從 DataTable 中建構一張表格
+linktitle: 從 DataTable 中建構一張表格
 description: "使用C#從外部資料庫填入文件表的範例。"
 type: docs
 weight: 120

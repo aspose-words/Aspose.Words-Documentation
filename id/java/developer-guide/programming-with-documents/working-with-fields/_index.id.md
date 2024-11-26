@@ -1,17 +1,17 @@
----
-title: Bekerja dengan Lapangan di Java
-second_title: Aspose.Words Sitemap Java
-articleTitle: Bekerja dengan Lapangan
-linktitle: Bekerja dengan Lapangan
-description: "Pengantar fitur lapangan dalam Aspose.Words Sitemap JavaSitemap"
+﻿---
+title: Bekerja dengan Bidang dalam Java
+second_title: Aspose.Words untuk Java
+articleTitle: Bekerja dengan Bidang
+linktitle: Bekerja dengan Bidang
+description: "Pengantar fitur bidang dalam Aspose.Words untuk Java."
 type: docs
 weight: 370
 url: /id/java/working-with-fields/
 timestamp: 2024-01-27-14-07-04
 ---
 
-**Fields** dalam dokumen seperti placeholders di mana data yang berguna dapat dimasukkan. Sebagai contoh, sebuah field bisa menjadi referensi halaman, formula, atau Mail Merge Login
+**Bidang**
 
-Dalam dokumen yang dibuat atau diedit dengan Aspose.Words, Sitemap Microsoft Word dokumen, bidang terdiri dari kode lapangan dan hasil lapangan. Kode lapangan adalah instruksi tentang bagaimana hasil lapangan harus diperbarui atau dihitung. Aplikasi yang memproses dokumen dan temuan lapangan harus menafsirkan instruksi yang terkandung dalam kode lapangan dan memperbarui hasil lapangan dengan nilai baru.
+Dalam dokumen yang dibuat atau diedit dengan Aspose.Words, seperti dalam dokumen Microsoft Word, bidang terdiri dari kode bidang dan hasil bidang. Kode bidang adalah instruksi tentang bagaimana hasil bidang perlu diperbarui atau dihitung. Aplikasi yang memproses dokumen dan menemukan bidang harus menafsirkan instruksi yang terdapat dalam kode bidang dan memperbarui hasil bidang dengan nilai baru.
 
-Sitemap Aspose.WordsSitemap bidang yang diwakili oleh berbagai kelas, sebagian besar nama-namanya dimulai dengan "Field". Artikel di bagian dokumentasi ini menjelaskan cara menggunakan Aspose.Words kelas untuk memanipulasi bidang dokumen secara programmatik.
+Dalam Aspose.Words, bidang diwakili oleh berbagai kelas, yang sebagian besar namanya dimulai dengan "Bidang". Artikel di bagian dokumentasi ini menjelaskan cara menggunakan kelas Aspose.Words untuk memanipulasi bidang dokumen secara terprogram.

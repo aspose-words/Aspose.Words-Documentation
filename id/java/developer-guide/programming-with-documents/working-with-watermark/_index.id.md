@@ -1,63 +1,63 @@
----
-title: Bekerja dengan Watermark di Java
-second_title: Aspose.Words Sitemap Java
-articleTitle: Bekerja dengan Watermark
-linktitle: Bekerja dengan Watermark
+﻿---
+title: Bekerja dengan Tanda Air dalam Java
+second_title: Aspose.Words untuk Java
+articleTitle: Bekerja dengan Tanda Air
+linktitle: Bekerja dengan Tanda Air
 type: docs
-description: "Dokumen manipulasi watermark menggunakan JavaSitemap"
+description: "Manipulasi tanda air dokumen menggunakan Java."
 weight: 70
 url: /id/java/working-with-watermark/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Topik ini membahas cara bekerja secara programmatik dengan tanda air menggunakan Aspose.WordsSitemap Tanda air adalah gambar latar belakang yang menampilkan teks dalam dokumen. Tanda air dapat berisi teks atau gambar yang diwakili oleh [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) Sitemap
+Topik ini membahas cara bekerja secara terprogram dengan tanda air menggunakan Aspose.Words. Tanda air adalah gambar latar belakang yang ditampilkan di belakang teks dalam dokumen. Tanda air dapat berisi teks atau gambar yang diwakili oleh kelas [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/).
 
 {{% alert color="primary" %}}
 
 **Coba online**
 
-Anda dapat mencoba fungsi ini dengan kami [Online Katalog](https://products.aspose.app/words/watermark)Sitemap
+Anda dapat mencoba fungsi ini dengan kami [Tanda air dokumen online gratis](https://products.aspose.app/words/watermark).
 
 {{% /alert %}}
 
-## Tambahkan Tanda Air ke Dokumen
+## Menambahkan Tanda Air ke Dokumen
 
-Sitemap Microsoft Word, tanda air dapat dengan mudah dimasukkan dalam dokumen menggunakan perintah Masukkan Watermark. Aspose.Words Sitemap [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) kelas untuk menambahkan atau menghapus tanda air dalam dokumen. Aspose.Words Sitemap [Login](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)mendefinisikan tiga jenis tanda air yang mungkin (Text, Image, dan None) untuk bekerja dengan
+Di Microsoft Word, tanda air dapat dengan mudah disisipkan ke dalam dokumen menggunakan perintah Sisipkan Tanda Air. Aspose.Words menyediakan kelas [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) untuk menambah atau menghapus tanda air dalam dokumen. Aspose.Words menyediakan pencacahan [WatermarkType](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)yang mendefinisikan tiga kemungkinan jenis tanda air (Teks, Gambar, dan Tidak Ada) untuk digunakan.
 
 ### Tambahkan Tanda Air Teks
 
-Contoh kode berikut menunjukkan cara memasukkan tanda air teks dalam dokumen dengan mendefinisikan [TextWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/textwatermarkoptions/) menggunakan [SetText](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setText-java.lang.String) metode:
+Contoh kode berikut mendemonstrasikan cara menyisipkan tanda air teks dalam dokumen dengan mendefinisikan [TextWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/textwatermarkoptions/) menggunakan metode [SetText](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setText-java.lang.String):
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddTextWatermarkWithSpecificOptions.java" >}}
 
 ### Tambahkan Tanda Air Gambar
 
-Contoh kode berikut menunjukkan cara memasukkan tanda air gambar dalam dokumen dengan mendefinisikan [ImageWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/imagewatermarkoptions/) menggunakan [SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.awt.image.BufferedImage) metode:
+Contoh kode berikut mendemonstrasikan cara menyisipkan tanda air gambar dalam dokumen dengan mendefinisikan [ImageWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/imagewatermarkoptions/) menggunakan metode [SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.awt.image.BufferedImage):
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.java" >}}
 
-Tanda air juga dapat dimasukkan menggunakan kelas bentuk serta. Sangat mudah untuk memasukkan bentuk atau gambar ke header atau footer dan dengan demikian membuat tanda air dari jenis imaginable.
+Tanda air juga dapat disisipkan menggunakan kelas bentuk juga. Sangat mudah untuk menyisipkan bentuk atau gambar apa pun ke dalam header atau footer dan dengan demikian membuat tanda air dari jenis apa pun yang dapat dibayangkan.
 
-Contoh kode berikut memasukkan tanda air ke dalam dokumen Word:
+Contoh kode berikut menyisipkan tanda air ke dalam dokumen Word:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-AddWatermarkToADocument-AddWatermarkToADocument.java" >}}
 
 {{% alert color="primary" %}}
 
-Anda dapat mengunduh file sampel dari contoh ini dari [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc)Sitemap
+Anda dapat mengunduh file contoh contoh ini dari [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
 
 {{% /alert %}}
 
 
 ## Hapus Tanda Air dari Dokumen
 
-Login [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) kelas menyediakan `Remove` metode untuk menghapus tanda air dari dokumen.
+Kelas [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) menyediakan metode `Remove` untuk menghapus tanda air dari dokumen.
 
 Contoh kode berikut menunjukkan cara menghapus tanda air dari dokumen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-RemoveWatermarkFromDocument.java" >}}
 
-Untuk menghapus tanda air dari dokumen yang harus Anda set hanya nama bentuk tanda air selama memasukkan dan kemudian menghapus bentuk tanda air dengan nama yang ditugaskan.
+Untuk menghapus tanda air dari dokumen, Anda hanya perlu menetapkan nama bentuk tanda air selama penyisipan, lalu menghapus bentuk tanda air dengan nama yang ditetapkan.
 
 Contoh kode berikut menunjukkan cara mengatur nama bentuk tanda air dan menghapusnya dari dokumen:
 
@@ -69,9 +69,9 @@ watermark.Name("WaterMark");
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-RemoveWatermark-RemoveWatermark.java" >}}
 
-## Tambahkan Tanda Air ke dalam Sel Meja
+## Tambahkan Tanda Air ke dalam Sel Tabel
 
-Kadang-kadang Anda perlu memasukkan tanda air / gambar ke sel meja dan menampilkannya di luar meja, Anda dapat menggunakan [IsLayoutInCell](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#isLayoutInCell-boolean) Login Properti ini mendapat atau menetapkan bendera yang menunjukkan apakah bentuk ditampilkan di dalam tabel atau di luarnya. Perhatikan bahwa properti ini hanya berfungsi ketika Anda mengoptimalkan dokumen untuk Microsoft Word 2010 menggunakan [OptimizeFor](https://reference.aspose.com/words/java/com.aspose.words/compatibilityoptions/#optimizeFor-int) Login
+Terkadang Anda perlu menyisipkan tanda air / gambar ke dalam sel tabel dan menampilkannya di luar tabel, Anda dapat menggunakan properti [IsLayoutInCell](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#isLayoutInCell-boolean). Properti ini mendapatkan atau menetapkan tanda yang menunjukkan apakah bentuk ditampilkan di dalam tabel atau di luarnya. Perhatikan bahwa properti ini hanya berfungsi saat Anda mengoptimalkan dokumen untuk Microsoft Word 2010 menggunakan metode [OptimizeFor](https://reference.aspose.com/words/java/com.aspose.words/compatibilityoptions/#optimizeFor-int).
 
 Contoh kode berikut menunjukkan cara menggunakan properti ini:
 

@@ -1,8 +1,8 @@
 ---
-title: 與儲存在 `SharePoint` 的文件一起工作
+title: 與儲存在 SharePoint 的文件一起工作
 second_title: Aspose.Words for .NET
-articleTitle: 與儲存在 `SharePoint` 的文件一起工作
-linktitle: 與儲存在 `SharePoint` 的文件一起工作
+articleTitle: 與儲存在 SharePoint 的文件一起工作
+linktitle: 與儲存在 SharePoint 的文件一起工作
 description: "用C#將Word共享在SharePoint中的檔案轉換為PDF。 與儲存在 SharePoint 的檔案一起工作– 各種不同的輸入格式，包括 Word、OpenOffice、影像和電子書。"
 type: docs
 weight: 20

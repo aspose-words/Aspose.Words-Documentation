@@ -1,100 +1,100 @@
----
+﻿---
 title: Bekerja dengan Gaya dan Tema
-second_title: Aspose.Words Sitemap Java
+second_title: Aspose.Words untuk Java
 articleTitle: Bekerja dengan Gaya dan Tema
 linktitle: Bekerja dengan Gaya dan Tema
-description: "Sitemap Microsoft Word fitur format, bekerja dengan gaya dan tema menggunakan JavaSitemap"
+description: "Fitur pemformatan Microsoft Word yang disempurnakan, bekerja dengan gaya dan tema menggunakan Java."
 type: docs
 weight: 110
 url: /id/java/working-with-styles-and-themes/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Login [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) kelas digunakan untuk mengelola pengaturan yang telah ditentukan pengguna untuk gaya.
+Kelas [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) digunakan untuk mengelola bawaan dan menerapkan pengaturan yang ditentukan pengguna ke gaya.
 
-## Bagaimana cara mengekstrak konten berdasarkan gaya
+## Cara Mengekstrak Konten Berdasarkan Gaya
 
-Pada tingkat sederhana, menarik kembali konten berdasarkan gaya dari dokumen Word dapat berguna untuk mengidentifikasi, daftar dan menghitung paragraf dan menjalankan teks yang diformat dengan gaya tertentu. Misalnya, Anda mungkin perlu mengidentifikasi jenis konten tertentu dalam dokumen, seperti contoh, judul, referensi, kata kunci, nama gambar, dan studi kasus.
+Pada tingkat yang sederhana, mengambil konten berdasarkan gaya dari dokumen Word dapat berguna untuk mengidentifikasi, membuat daftar, dan menghitung paragraf dan rangkaian teks yang diformat dengan gaya tertentu. Misalnya, Anda mungkin perlu mengidentifikasi jenis konten tertentu dalam dokumen, seperti contoh, judul, referensi, kata kunci, nama gambar, dan studi kasus.
 
-Untuk mengambil beberapa langkah lebih lanjut, ini juga dapat digunakan untuk memanfaatkan struktur dokumen, didefinisikan oleh gaya yang digunakan, untuk tujuan ulang dokumen untuk output lain, seperti HTML. Ini sebenarnya bagaimana dokumentasi Aspose dibangun, menempatkan Aspose.Words untuk tes. Alat yang dibangun menggunakan Aspose.Words mengambil dokumen sumber Word dan membaginya menjadi topik pada tingkat judul tertentu. File XML diproduksi menggunakan Aspose.Words yang digunakan untuk membangun pohon navigasi Anda dapat melihat di sebelah kiri. Dan kemudian Aspose.Words mengubah setiap topik menjadi HTML. Solusi untuk menarik kembali teks yang diformat dengan gaya spesifik dalam dokumen Word biasanya ekonomis dan mudah digunakan Aspose.WordsSitemap
+Untuk melangkah lebih jauh, ini juga dapat digunakan untuk memanfaatkan struktur dokumen, yang ditentukan oleh gaya yang digunakannya, untuk mengarahkan ulang dokumen ke keluaran lain, seperti HTML. Ini sebenarnya bagaimana dokumentasi Aspose dibuat, menguji Aspose.Words. Alat yang dibuat menggunakan Aspose.Words mengambil dokumen Word sumber dan membaginya menjadi topik pada tingkat judul tertentu. File XML dibuat menggunakan Aspose.Words yang digunakan untuk membuat pohon navigasi yang dapat Anda lihat di sebelah kiri. Dan kemudian Aspose.Words mengubah setiap topik menjadi HTML. Solusi untuk mengambil teks yang diformat dengan gaya tertentu dalam dokumen Word biasanya ekonomis dan mudah menggunakan Aspose.Words.
 
-Untuk menggambarkan cara dengan mudah Aspose.Words menangani pengambilan konten berdasarkan gaya, mari kita lihat contoh. Dalam contoh ini, kita akan mengambil teks yang diformat dengan gaya paragraf tertentu dan gaya karakter dari dokumen Word sampel.
+Untuk mengilustrasikan betapa mudahnya Aspose.Words menangani pengambilan konten berdasarkan gaya, mari kita lihat sebuah contoh. Dalam contoh ini, kita akan mengambil teks yang diformat dengan gaya paragraf tertentu dan gaya karakter dari dokumen sample Word.
 
 Pada tingkat tinggi, ini akan melibatkan:
 
-Sitemap Membuka dokumen Word menggunakan [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) Sitemap
-Sitemap Mendapatkan koleksi semua paragraf dan semua berjalan dalam dokumen.
-Sitemap Memilih hanya paragraf yang diperlukan dan berjalan.
+1. Membuka dokumen Word menggunakan kelas [Document](https://reference.aspose.com/words/java/com.aspose.words/document/).
+1. Mendapatkan koleksi semua paragraf dan semua proses dalam dokumen.
+1. Memilih hanya paragraf dan run yang diperlukan.
 
-Secara khusus, kami akan mengambil teks yang diformat dengan gaya paragraf 'Kepala 1' dan gaya karakter 'Intense Emphasis' dari dokumen Word sampel ini
+Secara khusus, kita akan mengambil teks yang diformat dengan gaya paragraf ' Heading 1' dan gaya karakter 'Penekanan Intens' dari contoh dokumen Word ini.
 
 ![working-with-styles-aspose-words-java-1](/words/java/working-with-styles-and-themes/working-with-styles-1.png)
 
-Dalam dokumen sampel ini, teks yang diformat dengan gaya paragraf 'Insert Tab', 'Quick Styles' dan 'Theme', dan teks yang diformat dengan gaya karakter 'Intense penekanan' adalah beberapa kasus biru, italicized, teks tebal seperti 'galleries' dan 'overall look'.
+Dalam contoh dokumen ini, teks yang diformat dengan gaya paragraf ' Heading 1' adalah 'Sisipkan Tab',' Gaya Cepat', dan 'Tema', dan teks yang diformat dengan gaya karakter' Penekanan intens 'adalah beberapa contoh warna biru, dicetak miring, teks tebal seperti' galeri 'dan'tampilan keseluruhan'.
 
-Pelaksanaan query berbasis gaya cukup sederhana dalam Aspose.Words model objek dokumen, karena hanya menggunakan alat yang sudah ada di tempat. Dua metode kelas diterapkan untuk solusi ini:
+Implementasi kueri berbasis gaya cukup sederhana dalam model objek dokumen Aspose.Words, karena hanya menggunakan alat yang sudah ada. Dua metode kelas diimplementasikan untuk solusi ini:
 
-Sitemap **ParagraphsByStyleName** Sitemap Metode ini mengambil array paragraf di dokumen yang memiliki nama gaya tertentu.
-Sitemap **RunsByStyleName** Sitemap Metode ini mengambil array dari mereka yang berjalan dalam dokumen yang memiliki nama gaya tertentu.
+1. **ParagraphsByStyleName** - Metode ini mengambil larik paragraf tersebut dalam dokumen yang memiliki nama gaya tertentu.
+1. **RunsByStyleName** - Metode ini mengambil larik yang dijalankan dalam dokumen yang memiliki nama gaya tertentu.
 
-Kedua metode ini sangat mirip, satu-satunya perbedaan menjadi jenis node dan representasi informasi gaya dalam paragraf dan menjalankan node. Berikut adalah implementasi ParagrafByStyleName yang ditunjukkan dalam contoh kode yang diberikan di bawah ini untuk menemukan semua paragraf yang diformat dengan gaya yang ditentukan.
+Kedua metode ini sangat mirip, satu-satunya perbedaan adalah tipe node dan representasi informasi gaya di dalam node paragraph dan run. Berikut adalah implementasi dari ParagraphsByStyleName yang ditunjukkan pada contoh kode yang diberikan di bawah ini untuk menemukan semua paragraf yang diformat dengan gaya yang ditentukan.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-ExtractContentBasedOnStyles-paragraphsByStyleName.java" >}}
 
-Implementasi ini juga menggunakan [Document.getChildNodes()](https://reference.aspose.com/words/java/com.aspose.words/document/#getChildNodes) metode `Document` kelas, yang mengembalikan koleksi semua node anak langsung.
+Implementasi ini juga menggunakan metode [Document.getChildNodes()](https://reference.aspose.com/words/java/com.aspose.words/document/#getChildNodes) dari kelas `Document`, yang mengembalikan kumpulan semua node turunan langsung.
 
-Ini juga layak menunjukkan bahwa koleksi paragraf tidak membuat overhead segera karena paragraf dimuat ke dalam koleksi ini hanya ketika Anda mengakses item di dalamnya. Kemudian, semua yang perlu Anda lakukan adalah untuk pergi melalui koleksi, menggunakan operator foreach standar dan menambahkan paragraf yang memiliki gaya yang ditentukan untuk paragraf Dengan style array. Login `Paragraph` nama gaya dapat ditemukan di Meme it [Style.getName()](https://reference.aspose.com/words/java/com.aspose.words/style/#getName) properti [Paragraph.getParagraphFormat()](https://reference.aspose.com/words/java/com.aspose.words/style/#getParagraphFormat) Sitemap
+Perlu juga ditunjukkan bahwa kumpulan paragraf tidak langsung membuat overhead karena paragraf dimuat ke dalam koleksi ini hanya saat Anda mengakses item di dalamnya.Kemudian, yang perlu Anda lakukan adalah menelusuri koleksi, menggunakan operator foreach standar dan menambahkan paragraf yang memiliki gaya yang ditentukan ke array paragraphsWithStyle. Nama gaya `Paragraph` dapat ditemukan di properti [Style.getName()](https://reference.aspose.com/words/java/com.aspose.words/style/#getName) dari objek [Paragraph.getParagraphFormat()](https://reference.aspose.com/words/java/com.aspose.words/style/#getParagraphFormat).
 
-Pelaksanaan RunsByStyleName hampir sama, meskipun kita jelas menggunakan `NodeType.Run` untuk mengambil run node. Login [Font.getStyle()](https://reference.aspose.com/words/java/com.aspose.words/font/#getStyle) properti [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) objek digunakan untuk mengakses informasi gaya di **Run** Login
+Implementasi RunsByStyleName hampir sama, meskipun kami jelas menggunakan `NodeType.Run` untuk mengambil node yang dijalankan. Properti [Font.getStyle()](https://reference.aspose.com/words/java/com.aspose.words/font/#getStyle) dari objek [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) digunakan untuk mengakses informasi gaya di simpul **Run**.
 
-Contoh kode berikut menemukan semua berjalan diformat dengan gaya yang ditentukan.
+Contoh kode berikut menemukan semua proses yang diformat dengan gaya yang ditentukan.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-ExtractContentBasedOnStyles-runsByStyleName.java" >}}
 
 {{% alert color="primary" %}}
 
-Ketika kedua pertanyaan diterapkan, semua yang perlu Anda lakukan adalah untuk melewati objek dokumen dan menentukan nama gaya konten yang ingin Anda ambil:
+Saat kedua kueri diterapkan, yang perlu Anda lakukan hanyalah meneruskan objek dokumen dan menentukan nama gaya konten yang ingin Anda ambil:
 
 {{% /alert %}}
 
-Contoh kode berikut menjalankan pertanyaan dan hasil tampilan.
+Contoh kode berikut menjalankan kueri dan menampilkan hasil.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-ExtractContentBasedOnStyles-ExtractContentBasedOnStyles.java" >}}
 
-Ketika semuanya dilakukan, menjalankan sampel akan menampilkan output berikut:
+Setelah semuanya selesai, menjalankan sampel akan menampilkan output berikut:
 
 ![working-with-styles-aspose-words-java-2](/words/java/working-with-styles-and-themes/working-with-styles-2.png)
 
-Seperti yang Anda lihat, ini adalah contoh yang sangat sederhana, menunjukkan jumlah dan teks paragraf yang dikumpulkan dan berjalan dalam dokumen Word sampel.
+Seperti yang Anda lihat, ini adalah contoh yang sangat sederhana, menampilkan jumlah dan teks paragraf yang dikumpulkan dan berjalan dalam dokumen sample Word.
 
-## Masukkan gaya pemisah untuk menempatkan gaya paragraf yang berbeda
+## Sisipkan Pemisah Gaya untuk Meletakkan Gaya Paragraf yang Berbeda
 
-Pemisah gaya dapat ditambahkan ke ujung paragraf menggunakan Ctrl + Alt + Enter Keyboard Shortcut ke MS Word. Fitur ini memungkinkan untuk dua gaya paragraf yang berbeda yang digunakan dalam satu paragraf cetak logis. Jika Anda ingin beberapa teks dari awal judul tertentu muncul di Tabel Konten tetapi tidak ingin seluruh kepala di Tabel Konten, Anda dapat menggunakan fitur ini
+Pemisah gaya dapat ditambahkan ke akhir paragraf menggunakan Pintasan Keyboard Ctrl + Alt + Enter menjadi MS Word. Fitur ini memungkinkan dua gaya paragraf berbeda yang digunakan dalam satu paragraf cetak logis. Jika Anda ingin beberapa teks dari awal judul tertentu muncul di Daftar Isi tetapi tidak ingin seluruh judul ada di Daftar Isi, Anda dapat menggunakan fitur ini.
 
-Contoh kode berikut menunjukkan cara memasukkan pemisah gaya untuk menempatkan gaya paragraf yang berbeda
+Contoh kode berikut menunjukkan cara menyisipkan pemisah gaya untuk meletakkan gaya paragraf yang berbeda.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-ParagraphInsertStyleSeparator.java" >}}
 
-## Salin Semua Gaya dari Template
+## Salin Semua Gaya dari Templat
 
-Ada kasus ketika Anda ingin menyalin semua gaya dari satu dokumen ke dokumen lain. Anda dapat menggunakan `Document.CopyStylesFromTemplate` metode untuk menyalin gaya dari template yang ditentukan ke dokumen. Ketika gaya disalin dari template ke dokumen, gaya seperti dinamik dalam dokumen ditentukan untuk mencocokkan deskripsi gaya dalam template. Gaya unik dari template disalin ke dokumen. Gaya unik dalam dokumen tetap utuh
+Ada beberapa kasus ketika Anda ingin menyalin semua gaya dari satu dokumen ke dokumen lainnya. Anda dapat menggunakan metode `Document.CopyStylesFromTemplate` untuk menyalin gaya dari templat yang ditentukan ke dokumen. Saat gaya disalin dari templat ke dokumen, gaya dengan nama yang sama dalam dokumen didefinisikan ulang agar sesuai dengan deskripsi gaya di templat. Gaya unik dari templat disalin ke dokumen. Gaya unik dalam dokumen tetap utuh.
 
-Contoh kode berikut menunjukkan cara menyalin gaya dari satu dokumen ke dokumen lain.
+Contoh kode berikut menunjukkan cara menyalin gaya dari satu dokumen ke dokumen lainnya.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithStyle-CopyStylesFromDocument.java" >}}
 
-## Cara Manipulat Properti Tema
+## Cara Memanipulasi Properti Tema
 
-Kami telah menambahkan dasar API Sitemap Aspose.Words untuk mengakses properti tema dokumen. Sekarang, ini API termasuk objek publik berikut:
+Kami telah menambahkan API dasar dalam Aspose.Words untuk mengakses properti tema dokumen. Untuk saat ini, API ini menyertakan objek publik berikut:
 
-- Login Login
-- Login
-- Login
+- Tema
+- ThemeFonts
+- ThemeColors
 
 Berikut adalah bagaimana Anda bisa mendapatkan properti tema:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Theme-GetThemeProperties-GetThemeProperties.java" >}}
 
-Dan di sini adalah bagaimana Anda dapat mengatur properti tema:
+Dan inilah cara Anda dapat mengatur properti tema:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Theme-SetThemeProperties-SetThemeProperties.java" >}}

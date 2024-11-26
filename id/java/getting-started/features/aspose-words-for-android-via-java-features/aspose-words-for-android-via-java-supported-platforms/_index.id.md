@@ -1,20 +1,20 @@
----
-title: Android Sitemap Java Platform yang didukung
-second_title: Aspose.Words Sitemap Java
-articleTitle: Aspose.Words Sitemap Android Sitemap Java Platform yang didukung
-linktitle: Aspose.Words Sitemap Android Sitemap Java Platform yang didukung
-description: "Aspose.Words Sitemap Android Sitemap Java Platform yang didukung."
+﻿---
+title: Android melalui Java Platform yang Didukung
+second_title: Aspose.Words untuk Java
+articleTitle: Aspose.Words untuk Android melalui Java Platform yang Didukung
+linktitle: Aspose.Words untuk Android melalui Java Platform yang Didukung
+description: "Aspose.Words untuk Android melalui Java Platform yang Didukung."
 type: docs
 weight: 40
 url: /id/java/aspose-words-for-android-via-java-supported-platforms/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words Sitemap Android Sitemap Java ditulis sepenuhnya Javahanya tergantung pada standar Java pustaka, dan dapat digunakan dalam Java aplikasi pada platform apa pun yang didukung oleh JavaSitemap Aspose.Words Sitemap Android Sitemap Java disediakan sebagai unduhan ZIP dan mengandung berikut:
+Aspose.Words untuk Android melalui Java seluruhnya ditulis dalam Java, hanya bergantung pada pustaka Java standar, dan dapat digunakan dalam aplikasi Java apa pun pada platform apa pun yang didukung oleh Java. Aspose.Words untuk Android melalui Java disediakan sebagai unduhan ZIP dan berisi yang berikut:
 
-- Login Aspose.Words Sitemap Android Sitemap Java WordPress.org
-- Sitemap
-- Login Aspose.Words Dokumentasi dalam format HTML
+- Aspose.Words untuk Android melalui pustaka jar Java.
+- Contoh proyek.
+- Aspose.Words Dokumentasi dalam format HTML.
 
 
 

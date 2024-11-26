@@ -1,56 +1,56 @@
----
-title: 更新字段为 Java
-second_title: "Aspose.Words (单位:千美元) Java"
+﻿---
+title: 更新Java中的字段
+second_title: Aspose.Words为Java
 articleTitle: 更新字段
 linktitle: 更新字段
-description: "学习如何更新字段 Java。 。 。 。 程序更新字段或使用自动更新字段 Java API"
+description: "了解如何更新Java中的字段。 以编程方式更新字段或使用JavaAPI使用自动字段更新"
 type: docs
 weight: 30
 url: /zh/java/update-field/
 timestamp: 2024-01-27-14-07-04
 ---
 
-通常情况下,插入到 Microsoft Word 已包含最新值。 例如,如果字段是一个公式或一个页码,它将包含给定版本文档的正确计算值. 但是,如果有一个应用程序可以生成或修改一个文档,例如将两个文档合并起来或将其充斥到数据中,那么理想的情况是,所有字段都必须更新才能使文档有用。
+通常，插入Microsoft Word的字段已包含最新值。 例如，如果字段是公式或页码，则它将包含给定文档版本的正确计算值。 但是，如果您有一个应用程序生成或修改具有字段的文档，例如合并两个文档或用数据填充它，那么理想情况下，必须更新所有字段才能使文档有用。
 
 ## 如何更新字段
 
-当文件被载入时, Aspose.Words 模仿行为 Microsoft Word 并关闭自动更新字段的选项。 行为可归纳如下:
+加载文档时，Aspose.Words模仿Microsoft Word的行为，并关闭自动更新字段的选项。 行为可以总结如下:
 
-- 当你打开/保存文档时,字段保持不变
-- 您可以明确更新文档中的所有字段,例如重建 `TOC` 需要的时候
-- 当打印/交给PDF或 XPS 在页眉/页脚中更新与页码有关的字段
-- 当你执行 Mail Merge 所有字段自动更新
+- 当您打开/保存文档时，字段保持不变
+- 您可以显式更新文档中的所有字段，例如，在需要时重新生成`TOC`
+- 当您打印/呈现为PDF或XPS时，与页眉/页脚中的页码相关的字段将更新
+- 执行Mail Merge时，所有字段都会自动更新
 
-### 程序更新字段
+### 以编程方式更新字段
 
-要明确更新整个文件中的字段,只需调用 [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) 方法。 要更新文件部分内容中的字段,请访问 [Range](https://reference.aspose.com/words/java/com.aspose.words/range/) 对象并调用 [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/range/#updateFields) 方法。 内 Aspose.Words, 你可以得到一个 **Range** 用于文档树上的任何节点,例如 [Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), 例如,使用 [GetRange](https://reference.aspose.com/words/java/com.aspose.words/node/#getRange) 属性。 您可以通过调用: [Update](https://reference.aspose.com/words/java/com.aspose.words/field/#update) 方法。
+要显式更新整个文档中的字段，只需调用[UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields)方法。 要更新文档部分中包含的字段，请获取[Range](https://reference.aspose.com/words/java/com.aspose.words/range/)对象并调用[UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/range/#updateFields)方法。 在Aspose.Words中，您可以为文档树中的任何节点获取**Range**，例如[Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), 等。 使用[GetRange](https://reference.aspose.com/words/java/com.aspose.words/node/#getRange)属性。 您可以通过调用[Update](https://reference.aspose.com/words/java/com.aspose.words/field/#update)方法来更新单个字段的结果。
 
-### 在渲染过程中自动更新与页面相关的字段
+### 渲染过程中自动更新页面相关字段
 
-当执行将文档转换为固定页格式,例如PDF或 XPS, 接下来 Aspose.Words 将自动更新与页面布局相关的字段 `PAGE`, `PAGEREF` 在文档页眉/页脚中找到。 这种行为模仿了 Microsoft Word 打印文档时。
+当您执行将文档转换为固定页面格式（例如PDF或XPS）时，Aspose.Words将自动更新文档页眉/页脚中与页面布局相关的字段`PAGE`，`PAGEREF`。 此行为模拟打印文档时Microsoft Word的行为。
 
-如果您想要更新文档中的所有其他字段, 您需要调用 [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) 在制作文档之前。
+如果要更新文档中的所有其他字段，则需要在呈现文档之前调用[UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields)。
 
-以下例子说明如何在提供文档之前更新所有字段:
+下面的示例演示如何在呈现文档之前更新所有字段:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UpdateFields-UpdateFields.java" >}}
 
-### 自动更新字段 Mail Merge
+### Mail Merge期间自动字段更新
 
-当你执行一个 Mail Merge 文档中的所有字段将自动更新。 这是因为 Mail Merge 是一个字段更新的例子。 程序遇到一个 Mail Merge 字段,需要更新其结果,这涉及从数据源中获取值并将其插入到字段。 当然,逻辑更为复杂,例如,当文件/文件结尾时。mail merge 但还有更多的数据有待合并,然后需要复制该区域并更新新的一组领域。
+当您执行mail merge时，文档中的所有字段都将自动更新。 这是因为Mail Merge是字段更新的情况。 程序遇到Mail Merge字段并需要更新其结果，这涉及从数据源中抓取值并将其插入到字段中。 当然，逻辑更复杂，例如，当到达文档/mail merge区域的末尾但仍有进一步的数据要合并时，则需要复制该区域并更新新的字段集。
 
-## 更新带有肮脏属性的字段
+## 更新具有脏属性的字段
 
-w: dirty是一个字段级属性,它只会刷新文档打开时指定的字段. 它告诉MS Word在下次打开文档时只刷新此字段. 您可以使用 Load Options. set Update Dirty Fields () 属性来指定是否用脏属性更新字段 。 当装入可选的值. set Update Dirty Fields () 被设定为 *true* 所有字段 *true* 数值 `Field.IsDirty` 或 `FieldChar.IsDirty` 属性在文档加载时更新。
+W:dirty是一个字段级属性，它将在打开文档时仅刷新您指定的字段。 它告诉MSWord仅在下次打开文档时刷新此字段。 您可以使用LoadOptions。setUpdateDirtyFields()属性，用于指定是否使用dirty属性更新字段。 LoadOptions的值时。setUpdateDirtyFields()设置为*true*，所有具有`Field.IsDirty`或`FieldChar.IsDirty`属性的*true*值的字段都会在文档加载时更新。
 
-以下代码示例显示如何更新具有脏属性的字段:
+下面的代码示例演示如何更新具有dirty属性的字段:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-LoadOptionsUpdateDirtyFields-LoadOptionsUpdateDirtyFields.java" >}}
 
-## 在保存前更新最后保存的时间属性
+## 保存前更新LastSavedTime属性
 
-你可以用这个 [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateLastSavedTimeProperty) 属性是否更新相应的内置文档属性 [LastSavedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getLastSavedTime) 当保存文档时。
+保存文档时可以使用[UpdateLastSavedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateLastSavedTimeProperty)属性是否更新相应的内置文档属性[LastSavedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getLastSavedTime)。
 
-以下代码示例显示如何更新此属性:
+下面的代码示例演示如何更新此属性:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UpdateLastSavedTimeProperty-UpdateLastSavedTimeProperty.java" >}}

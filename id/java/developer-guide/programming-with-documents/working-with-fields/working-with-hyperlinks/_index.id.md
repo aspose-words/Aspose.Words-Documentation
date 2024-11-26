@@ -1,43 +1,43 @@
----
-title: Bekerja dengan Hyperlinks di Java
-second_title: Aspose.Words Sitemap Java
-articleTitle: Menambahkan atau Memodifikasi Hyperlinks
-linktitle: Menambahkan atau Memodifikasi Hyperlinks
-description: "Cara menambahkan hyperlink ke dokumen Anda menggunakan JavaSitemap"
+﻿---
+title: Bekerja dengan Hyperlink dalam Java
+second_title: Aspose.Words untuk Java
+articleTitle: Menambahkan atau Memodifikasi Hyperlink
+linktitle: Menambahkan atau Memodifikasi Hyperlink
+description: "Cara menambahkan hyperlink ke dalam dokumen Anda menggunakan Java."
 type: docs
 weight: 50
 url: /id/java/working-with-hyperlinks/
 timestamp: 2024-01-27-14-07-04
 ---
 
-A hyperlink di Microsoft Word dokumen adalah `HYPERLINK` Login Sitemap Aspose.Words, hyperlink diimplementasikan melalui [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) Sitemap
+Hyperlink dalam dokumen Microsoft Word adalah bidang `HYPERLINK`. Dalam Aspose.Words, hyperlink diimplementasikan melalui kelas [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/).
 
-## Masukkan Hyperlink
+## Sisipkan Hyperlink
 
-Gunakan [InsertHyperlink](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHyperlink-java.lang.String-java.lang.String-boolean) metode untuk memasukkan hyperlink ke dalam dokumen. Metode ini menerima tiga parameter:
+Gunakan metode [InsertHyperlink](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHyperlink-java.lang.String-java.lang.String-boolean) untuk menyisipkan hyperlink ke dalam dokumen. Metode ini menerima tiga parameter:
 
-Sitemap Teks tautan ditampilkan dalam dokumen
-2. di Link tujuan (URL atau nama bookmark di dalam dokumen)
-3. Juni Parameter boolean yang harus true Sitemap `URL` adalah nama bookmark di dalam dokumen
+1. Teks tautan yang akan ditampilkan dalam dokumen
+2. Tujuan tautan (URL atau nama penanda di dalam dokumen)
+3. Parameter boolean yang seharusnya true jika `URL` adalah nama penanda di dalam dokumen
 
-Login **InsertHyperlink** metode selalu menambahkan apostrophes pada awal dan akhir URL
+Metode **InsertHyperlink** selalu menambahkan apostrof di awal dan akhir URL.
 
 {{% alert color="primary" %}}
 
-Perhatikan bahwa Anda perlu menentukan format font untuk teks tampilan hyperlink secara eksplisit menggunakan `Font` Login
+Perhatikan bahwa Anda perlu menentukan pemformatan font untuk teks tampilan hyperlink secara eksplisit menggunakan properti `Font`.
 
 {{% /alert %}}
 
-Contoh kode berikut menunjukkan cara memasukkan hyperlink ke dokumen menggunakan [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)Sitemap
+Contoh kode berikut menunjukkan cara menyisipkan hyperlink ke dalam dokumen menggunakan [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/):
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHyperlink-DocumentBuilderInsertHyperlink.java" >}}
 
-## Mengganti atau Memodifikasi Hyperlinks
+## Mengganti atau Memodifikasi Hyperlink
 
-Hyperlink Microsoft Word dokumen adalah bidang. Bidang dalam dokumen Word, seperti yang kita katakan sebelumnya, adalah struktur yang kompleks yang terdiri dari beberapa node yang mencakup awal lapangan, kode lapangan, pemisah lapangan, hasil lapangan dan ujung lapangan. Bidang dapat bersarang, mengandung konten yang kaya dan rentang beberapa ayat atau bagian dalam dokumen.
+Hyperlink dalam dokumen Microsoft Word adalah bidang. Bidang dalam dokumen Word, seperti yang kami katakan sebelumnya, adalah struktur kompleks yang terdiri dari beberapa simpul yang mencakup awal bidang, kode bidang, pemisah bidang, hasil bidang, dan akhir bidang. Bidang dapat disarangkan, berisi konten yang kaya, dan menjangkau beberapa paragraf atau bagian dalam dokumen.
 
-Untuk mengganti atau memodifikasi hyperlink, perlu menemukan hyperlink dalam dokumen dan mengganti teks, URL, atau keduanya.
+Untuk mengganti atau memodifikasi hyperlink, Anda perlu menemukan hyperlink dalam dokumen dan mengganti teksnya, URLs, atau keduanya.
 
-Contoh kode berikut menunjukkan bagaimana menemukan semua hyperlink dalam dokumen Word dan mengubahnya `URL` dan nama tampilan:
+Contoh kode berikut menunjukkan cara menemukan semua hyperlink dalam dokumen Word dan mengubah `URL` dan nama tampilannya:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Hyperlink-ReplaceHyperlinks-ReplaceHyperlinks.java" >}}

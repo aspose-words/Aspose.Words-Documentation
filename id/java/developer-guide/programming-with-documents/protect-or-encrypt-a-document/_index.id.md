@@ -1,44 +1,44 @@
----
-title: Lindungi atau Mengenkripsi Dokumen dalam Java
-second_title: Aspose.Words Sitemap Java
-articleTitle: Lindungi atau Mengenkripsi Dokumen
-linktitle: Lindungi atau Mengenkripsi Dokumen
-description: "Mengenkripsi dokumen, membatasi pengeditan, gunakan tanda tangan digital untuk perlindungan dokumen. Aspose.Words mendukung sebagian besar Opsi perlindungan kata menggunakan JavaSitemap"
+﻿---
+title: Melindungi atau Mengenkripsi Dokumen dalam Java
+second_title: Aspose.Words untuk Java
+articleTitle: Melindungi atau Mengenkripsi Dokumen
+linktitle: Melindungi atau Mengenkripsi Dokumen
+description: "Enkripsi dokumen, batasi pengeditan, gunakan tanda tangan digital untuk perlindungan dokumen. Aspose.Words mendukung sebagian besar opsi perlindungan Word menggunakan Java."
 type: docs
 weight: 50
 url: /id/java/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Alasan utama untuk melindungi atau mengenkripsi dokumen adalah untuk menerapkan lebih banyak kontrol yang dapat mengakses dokumen atau yang dapat mengeditnya. Menerapkan perlindungan pada dokumen Anda, Anda menghindari risiko umum seperti menyalin atau memodifikasi dokumen tanpa izin, serta kebocoran data.
+Alasan utama untuk melindungi atau mengenkripsi dokumen adalah untuk menerapkan kontrol lebih besar atas siapa yang dapat mengakses dokumen atau siapa yang dapat mengeditnya. Menerapkan perlindungan pada dokumen Anda, Anda menghindari risiko umum seperti menyalin atau memodifikasi dokumen tanpa izin, serta kebocoran data.
 
-Beberapa format paling populer ketika bekerja dengan dokumen Microsoft Word format atau format yang dapat diekspor dari Word. Itu sebabnya banyak pengguna tertarik pada pilihan perlindungan dokumen yang sama yang Microsoft Word Sitemap Meskipun kompleksitas opsi ini, Aspose.Words mendukung sebagian besar dari mereka, sehingga membuat solusi yang sangat baik untuk bekerja dengan dokumen.
+Beberapa format paling populer saat bekerja dengan dokumen adalah format Microsoft Word atau format yang dapat diekspor dari Word. Itulah mengapa banyak pengguna tertarik dengan opsi perlindungan dokumen yang sama dengan yang disediakan Microsoft Word. Terlepas dari kerumitan opsi ini, Aspose.Words mendukung sebagian besar opsi tersebut, sehingga menjadikannya solusi yang sangat baik untuk bekerja dengan dokumen.
 
-Artikel ini menjelaskan pilihan apa Aspose.Words menyediakan perlindungan dokumen dan bagaimana opsi ini disajikan dalam akrab Microsoft Word antarmuka pengguna. Dalam artikel anak dari bagian saat ini, Anda dapat mempelajari lebih lanjut tentang fungsi perlindungan yang terdaftar dengan semua sifat dan metode yang diperlukan.
+Artikel ini menjelaskan opsi apa yang disediakan Aspose.Words untuk perlindungan dokumen dan bagaimana opsi ini disajikan dalam antarmuka pengguna Microsoft Word yang sudah dikenal. Di artikel turunan dari bagian saat ini, Anda dapat mempelajari lebih lanjut tentang fungsi perlindungan yang terdaftar dengan semua properti dan metode yang diperlukan.
 
 ## Opsi Perlindungan Dokumen
 
-Aspose.Words saat ini menyediakan fitur dokumen yang tercantum dalam tabel di bawah ini. Anda dapat menemukan rincian pada setiap fitur dalam artikel anak yang sesuai di bagian saat ini.
+Aspose.Words saat ini menyediakan fitur dokumen yang tercantum dalam tabel di bawah ini. Anda dapat menemukan detail tentang masing-masing fitur di artikel turunan terkait di bagian saat ini.
 
-|  Aspose.Words fitur perlindungan |  Artikel |  Sitemap Fitur Word |
-|  -------------------------------  |  ------------------------------  |  ------------------------------------------------------------  |
-|  Sitemap |  "Buka Dokumen Read-Only" |  Selalu Terbuka Read-Only (File → Info → Lindungi Dokumen)<br/>Fitur alternatif: "Password untuk memodifikasi" (Simpan As → Alat → Pilihan Umum → Password) |
-|  Mengenkripsi Dokumen |  Sitemap |  Enkripsi dengan Password (File → Info → Lindungi Dokumen)<br/>Fitur alternatif: "Password to open" (Simpan As → Alat → Pilihan Umum → Password) |
-|  Editing Terbatas |  "Peredit Dokumen Terbatas" |  Editing Terbatas (File – Info – Lindungi Dokumen)<br/>Fitur alternatif: "Restrict Editing" (Review → Lindungi → Editing Terbatas) |
-|  Pengenal Digital |  "Bekerja dengan Digital Signatures" |  Tambahkan Tanda Tangan Digital (File → Info → Lindungi Dokumen) |
+| Aspose.Words fitur perlindungan | Artikel turunan yang sesuai | Fitur MS Word yang sesuai |
+| ------------------------------- | ------------------------------ | ------------------------------------------------------------ |
+| Hanya-Baca | "Buka Dokumen Hanya-Baca" | Selalu Buka Hanya-Baca (File → Info → <br />Fitur alternatif: "Kata sandi untuk diubah" (Simpan Sebagai → |
+| Mengenkripsi Dokumen | "Enkripsi Dokumen" | Enkripsi dengan Kata Sandi (File Info Info → <br />Fitur alternatif: "Kata sandi untuk dibuka" (Simpan Sebagai → |
+| Batasi Pengeditan | "Batasi Pengeditan Dokumen" | Batasi Pengeditan (File – Info-Lindungi Dokumen)<br />Fitur alternatif: "Batasi Pengeditan" (Tinjau → |
+| Tanda Tangan Digital | "Bekerja dengan Tanda Tangan Digital" | Menambahkan Tanda Tangan Digital (File Info Info → |
 
 {{% alert color="primary" %}}
 
-Login Aspose.Words tidak mendukung keduanya Microsoft Word fitur "Markus sebagai Final" dan "Reservasi Terbatas".
+Perhatikan bahwa Aspose.Words tidak mendukung fitur Microsoft Word "Tandai sebagai Final "dan"Batasi Akses".
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-Perhatikan bahwa nama fitur yang tepat dan jalan untuk mereka di Meme it Microsoft Word mungkin berbeda tergantung pada versi, kami mencoba menyediakan pengguna dengan data terbaru.
+Perhatikan bahwa nama fitur yang tepat dan jalurnya di Microsoft Word mungkin berbeda tergantung pada versinya, kami mencoba menyediakan data terbaru kepada pengguna.
 
 {{% /alert %}}
 
 ## Lihat Juga
 
-* Sitemap [Online gratis](https://products.aspose.app/words/unlock)
+* Coba kami [Membuka kunci dokumen online gratis](https://products.aspose.app/words/unlock)

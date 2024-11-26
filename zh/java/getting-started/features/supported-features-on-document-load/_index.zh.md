@@ -1,28 +1,28 @@
----
-title: 文档装入时支持的特性
-second_title: "Aspose.Words (单位:千美元) Java"
-articleTitle: 文档装入时支持的特性
-linktitle: 文档装入时支持的特性
-description: "以大多数流行格式装入和转换文档,并支持很多 Microsoft Word 特性。"
+﻿---
+title: 支持的文档加载功能
+second_title: Aspose.Words为Java
+articleTitle: 支持的文档加载功能
+linktitle: 支持的文档加载功能
+description: "以大多数流行格式加载和转换文档，并支持许多Microsoft Word功能。"
 type: docs
 weight: 20
 url: /zh/java/supported-features-on-document-load/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words 允许用户使用不同格式的文档,并为此提供广泛的选项. 例如,用户可以从头创建文档,也可以在任何文件中装入已有文件 [支持的文档格式](/words/zh/java/supported-document-formats/), 对文档进行一些修改,然后保存结果。 在导入选定格式的文档时,用户可以应用各种负载选项.
+Aspose.Words允许用户使用各种格式的文档，并为此提供了广泛的选项。 例如，用户可以从头开始创建文档或加载任何现有文件 [支持的导入格式](/words/java/supported-document-formats/)，对该文档进行一些更改，然后保存结果。 导入所选格式的文档时，用户可以应用各种加载选项。
 
 {{% alert color="primary" %}}
 
-必须知道,许多负载选项是所有支持格式所共有的,只有部分选项是针对格式的,如PDF,HTML,RTF等.
+重要的是要知道许多加载选项对所有支持的格式都是通用的，并且只有一些选项是特定于格式的，例如PDF, HTML, RTF, 和其他人。
 
 {{% /alert %}}
 
-函数的完整列表见 API 参考文献:
+有关函数的完整列表，请参阅API reference:
 
-- [装入所有格式的选项](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/)
-- 怎么样? [CHM 负载选项](https://reference.aspose.com/words/java/com.aspose.words/chmloadoptions/) CHM 格式
-- 怎么样? [HTML 载入选项](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/) HTML 格式
-- 怎么样? [PDF 负载选项](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) 用于PDF格式
-- 怎么样? [RTF 负载选项](https://reference.aspose.com/words/java/com.aspose.words/rtfloadoptions/) 格式
-- 怎么样? [TXT 负载选项](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) TXT 格式
+- [所有格式的加载选项](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/)
+- [CHM加载选项](https://reference.aspose.com/words/java/com.aspose.words/chmloadoptions/)为CHM格式
+- [HTML加载选项](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/)为HTML格式
+- [PDF加载选项](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/)为PDF格式
+- [RTF加载选项](https://reference.aspose.com/words/java/com.aspose.words/rtfloadoptions/)为RTF格式
+- [TXT加载选项](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/)为TXT格式

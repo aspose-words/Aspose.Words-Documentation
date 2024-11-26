@@ -1,8 +1,8 @@
 ---
-title: 处理存储在 `SharePoint` Online 中的文档
+title: 处理存储在 SharePoint Online 中的文档
 second_title: .NET 格式的 Aspose.Words
-articleTitle: 处理存储在 `SharePoint` Online 中的文档
-linktitle: 处理存储在 `SharePoint` Online 中的文档
+articleTitle: 处理存储在 SharePoint Online 中的文档
+linktitle: 处理存储在 SharePoint Online 中的文档
 description: "使用 C# 将 SharePoint 中共享的 Word 转换为 PDF。处理存储在 SharePoint 中的文档 - 各种输入格式，包括 Word、OpenOffice、图像和电子书。"
 type: docs
 weight: 20
