@@ -1,8 +1,8 @@
-﻿---
-title: `DocumentBuilder`を使用して文書を変更する
+---
+title: DocumentBuilderを使用して文書を変更する
 second_title: Aspose.WordsのためのJava
-articleTitle: `DocumentBuilder`を使用して文書を変更する
-linktitle: `DocumentBuilder`を使用して文書を変更する
+articleTitle: DocumentBuilderを使用して文書を変更する
+linktitle: DocumentBuilderを使用して文書を変更する
 type: docs
 description: "ドキュメントビルダーを使用して、Javaで文書を簡単に変更できます。"
 weight: 20

@@ -1,8 +1,8 @@
-﻿---
-title: `DocumentBuilder`を使用して文書要素を挿入します
+---
+title: DocumentBuilderを使用して文書要素を挿入します
 second_title: Aspose.WordsのためのJava
-articleTitle: `DocumentBuilder`を使用して文書要素を挿入します
-linktitle: `DocumentBuilder`を使用して文書要素を挿入します
+articleTitle: DocumentBuilderを使用して文書要素を挿入します
+linktitle: DocumentBuilderを使用して文書要素を挿入します
 type: docs
 description: "Javaにドキュメントビルダーを使用してドキュメント要素を挿入します。"
 weight: 10

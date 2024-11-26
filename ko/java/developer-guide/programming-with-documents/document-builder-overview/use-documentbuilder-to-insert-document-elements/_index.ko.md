@@ -1,8 +1,8 @@
-﻿---
-title: `DocumentBuilder`을 사용하여 문서 요소를 삽입합니다
+---
+title: DocumentBuilder을 사용하여 문서 요소를 삽입합니다
 second_title: Aspose.WordsJava
-articleTitle: `DocumentBuilder`을 사용하여 문서 요소를 삽입합니다
-linktitle: `DocumentBuilder`을 사용하여 문서 요소를 삽입합니다
+articleTitle: DocumentBuilder을 사용하여 문서 요소를 삽입합니다
+linktitle: DocumentBuilder을 사용하여 문서 요소를 삽입합니다
 type: docs
 description: "Java의 문서 작성기를 사용하여 문서 요소를 삽입합니다."
 weight: 10

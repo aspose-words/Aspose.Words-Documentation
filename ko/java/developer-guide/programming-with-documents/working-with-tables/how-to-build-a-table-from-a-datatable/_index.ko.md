@@ -1,8 +1,8 @@
-﻿---
-title: Java에서`DataTable`에서 테이블을 만드는 방법
+---
+title: Java에서DataTable에서 테이블을 만드는 방법
 second_title: Aspose.WordsJava
-articleTitle: `DataTable`에서 테이블 빌드
-linktitle: `DataTable`에서 테이블 빌드
+articleTitle: DataTable에서 테이블 빌드
+linktitle: DataTable에서 테이블 빌드
 description: "Java을 사용하여 외부 데이터베이스에서 문서 테이블을 채우는 예."
 type: docs
 weight: 130

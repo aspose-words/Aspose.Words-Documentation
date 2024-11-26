@@ -1,8 +1,8 @@
-﻿---
-title: `DocumentBuilder`을 사용하여 문서 수정
+---
+title: DocumentBuilder을 사용하여 문서 수정
 second_title: Aspose.WordsJava
-articleTitle: `DocumentBuilder`을 사용하여 문서 수정
-linktitle: `DocumentBuilder`을 사용하여 문서 수정
+articleTitle: DocumentBuilder을 사용하여 문서 수정
+linktitle: DocumentBuilder을 사용하여 문서 수정
 type: docs
 description: "문서 작성기를 사용하여Java에서 문서를 쉽게 수정할 수 있습니다."
 weight: 20
