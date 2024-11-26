@@ -1,70 +1,70 @@
----
+﻿---
 title: Bandingkan Dokumen dalam Java
-second_title: Aspose.Words Sitemap Java
+second_title: Aspose.Words untuk Java
 articleTitle: Bandingkan Dokumen
 linktitle: Bandingkan Dokumen
 type: docs
-description: "Bandingkan dua dokumen dalam format yang didukung dan menunjukkan perubahan konten. Anda dapat menerapkan opsi canggih ketika membandingkan menggunakan JavaSitemap"
+description: "Bandingkan dua dokumen dalam format apa pun yang didukung dan tampilkan perubahan konten. Anda dapat menerapkan opsi lanjutan saat membandingkan menggunakan Java."
 weight: 60
 url: /id/java/compare-documents/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Dokumen membandingkan adalah proses yang mengidentifikasi perubahan antara dua dokumen dan berisi perubahan sebagai revisi. Proses ini membandingkan setiap dua dokumen, termasuk versi satu dokumen tertentu, maka perubahan antara kedua dokumen akan ditampilkan sebagai revisi dalam dokumen pertama.
+Membandingkan dokumen adalah proses yang mengidentifikasi perubahan antara dua dokumen dan berisi perubahan sebagai revisi. Proses ini membandingkan dua dokumen, termasuk versi dari satu dokumen tertentu, kemudian perubahan di antara kedua dokumen tersebut akan ditampilkan sebagai revisi di dokumen pertama.
 
-Metode perbandingan dicapai dengan membandingkan kata-kata di tingkat karakter atau pada tingkat kata. Jika kata mengandung perubahan setidaknya satu karakter, akibatnya, perbedaan akan ditampilkan sebagai perubahan seluruh kata, bukan karakter. Proses perbandingan ini adalah tugas biasa dalam industri hukum dan keuangan.
+Metode perbandingan dicapai dengan membandingkan kata-kata pada tingkat karakter atau pada tingkat kata. Jika sebuah kata berisi perubahan setidaknya satu karakter, hasilnya, perbedaan tersebut akan ditampilkan sebagai perubahan seluruh kata, bukan karakter. Proses perbandingan ini merupakan tugas biasa dalam industri hukum dan keuangan.
 
-Alih-alih mencari secara manual untuk perbedaan antara dokumen atau antara versi yang berbeda dari mereka, Anda dapat menggunakan Aspose.Words untuk membandingkan dokumen dan mendapatkan perubahan konten dalam format, header / footer, tabel, dan banyak lagi.
+Alih-alih mencari perbedaan antar dokumen secara manual atau di antara versi yang berbeda, Anda dapat menggunakan Aspose.Words untuk membandingkan dokumen dan mendapatkan perubahan konten dalam pemformatan, header/footer, tabel, dan lainnya.
 
-Artikel ini menjelaskan cara membandingkan dokumen dan cara menentukan sifat membandingkan canggih.
+Artikel ini menjelaskan cara membandingkan dokumen dan cara menentukan properti pembanding lanjutan.
 
 {{% alert color="primary" %}}
 
 **Coba online**
 
-Anda dapat membandingkan dua dokumen secara online dengan menggunakan [Sitemap](https://products.aspose.app/words/comparison) Login
+Anda dapat membandingkan dua dokumen secara online dengan menggunakan [Pendaftaran dokumen secara online](https://products.aspose.app/words/comparison) alat.
 
-Perhatikan bahwa metode perbandingan, dijelaskan di bawah ini, digunakan dalam alat ini untuk memastikan mendapatkan hasil yang sama. Jadi Anda akan mendapatkan hasil yang sama bahkan dengan menggunakan alat perbandingan online atau dengan menggunakan metode perbandingan Aspose.WordsSitemap
+Perhatikan bahwa metode perbandingan, yang dijelaskan di bawah, digunakan dalam alat ini untuk memastikan mendapatkan hasil yang sama. Jadi Anda akan mendapatkan hasil yang sama bahkan dengan menggunakan alat perbandingan online atau dengan menggunakan metode perbandingan dalam Aspose.Words.
 
 {{% /alert %}}
 
 ## Batasan dan Format File yang Didukung {#limitations-and-supported-file-formats}
 
-Memenuhi dokumen adalah fitur yang sangat kompleks. Ada berbagai bagian kombinasi konten yang perlu dianalisis untuk mengenali semua perbedaan. Alasan kompleksitas ini adalah karena Aspose.Words bertujuan untuk mendapatkan hasil perbandingan yang sama dengan Microsoft Word algoritma perbandingan.
+Membandingkan dokumen adalah fitur yang sangat kompleks. Ada berbagai bagian kombinasi konten yang perlu dianalisis untuk mengenali semua perbedaan. Alasan kompleksitas ini adalah karena Aspose.Words bertujuan untuk mendapatkan hasil perbandingan yang sama dengan algoritma perbandingan Microsoft Word.
 
-Batasan umum untuk dua dokumen dibandingkan adalah bahwa mereka tidak harus memiliki revisi sebelum memanggil metode membandingkan sebagai batasan ini ada dalam Microsoft WordSitemap
+Batasan umum untuk dua dokumen yang dibandingkan adalah dokumen tersebut tidak boleh memiliki revisi sebelum memanggil metode compare karena batasan ini ada di Microsoft Word.
 
 {{% alert color="primary" %}}
 
-Perhatikan bahwa Anda dapat membandingkan dua dokumen dalam [Login](/words/id/java/supported-document-formats/)Sitemap Pada dasarnya, Anda dapat membandingkan objek dokumen dan bahkan Anda dapat membuat benda-benda tersebut dari awal tanpa memiliki format tertentu.
+Perhatikan bahwa Anda dapat membandingkan dua dokumen apa pun di dalam dokumen [format file yang digunakan](/words/java/supported-document-formats/). Pada dasarnya, Anda dapat membandingkan objek dokumen dan bahkan Anda dapat membuat objek tersebut dari awal tanpa memiliki format tertentu.
 
 {{% /alert %}}
 
 ## Bandingkan Dua Dokumen {#compare-two-documents}
 
-Ketika Anda membandingkan dokumen, perbedaan dokumen terakhir dari yang pertama muncul sebagai revisi ke bekas. Ketika Anda memodifikasi dokumen, setiap edit akan memiliki revisi sendiri setelah menjalankan metode membandingkan.
+Saat Anda membandingkan dokumen, perbedaan dokumen terakhir dari dokumen sebelumnya muncul sebagai revisi dari dokumen sebelumnya. Saat Anda memodifikasi dokumen, setiap pengeditan akan memiliki revisinya sendiri setelah menjalankan metode compare.
 
-Aspose.Words memungkinkan Anda untuk mengidentifikasi perbedaan dokumen dengan menggunakan [Compare](https://reference.aspose.com/words/java/com.aspose.words/document/#compare-com.aspose.words.Document-java.lang.String-java.util.Date) metode – ini mirip dengan Microsoft Word dokumen membandingkan fitur. Hal ini memungkinkan Anda untuk memeriksa versi dokumen atau dokumen untuk menemukan perbedaan dan perubahan, termasuk modifikasi format seperti perubahan font, perubahan jarak, penambahan kata-kata dan paragraf.
+Aspose.Words memungkinkan Anda mengidentifikasi perbedaan dokumen menggunakan metode [Compare](https://reference.aspose.com/words/java/com.aspose.words/document/#compare-com.aspose.words.Document-java.lang.String-java.util.Date) - ini mirip dengan fitur perbandingan dokumen Microsoft Word. Ini memungkinkan Anda untuk memeriksa dokumen atau versi dokumen untuk menemukan perbedaan dan perubahan, termasuk modifikasi pemformatan seperti perubahan font, perubahan spasi, penambahan kata dan paragraf.
 
-Sebagai hasil dari perbandingan, dokumen dapat ditentukan sama atau tidak sama. Istilah dokumen "equal" berarti bahwa metode perbandingan tidak dapat mewakili perubahan sebagai revisi. Ini berarti bahwa format teks dokumen dan teks sama. Tapi ada perbedaan lain antara dokumen. Sitemap Microsoft Word mendukung hanya revisi format untuk gaya, dan Anda tidak dapat mewakili penyisipan gaya / penghapusan. Jadi dokumen bisa memiliki gaya yang berbeda, dan **Compare** metode masih menghasilkan revisi.
+Sebagai hasil dari perbandingan, dokumen dapat ditentukan sama atau tidak sama. Istilah dokumen "setara" berarti bahwa metode perbandingan tidak dapat merepresentasikan perubahan sebagai revisi. Ini berarti bahwa teks dokumen dan pemformatan teks adalah sama. Tetapi mungkin ada perbedaan lain di antara dokumen. Misalnya, Microsoft Word hanya mendukung revisi format untuk gaya, dan Anda tidak dapat mewakili penyisipan/penghapusan gaya. Jadi dokumen dapat memiliki kumpulan gaya yang berbeda, dan metode **Compare** tetap tidak menghasilkan revisi.
 
 Contoh kode berikut menunjukkan cara memeriksa apakah dua dokumen sama atau tidak:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CompareTwoWordDocuments-wordDocumentsAreEqual.java" >}}
 
-Contoh kode berikut menunjukkan cara hanya menerapkan `Compare` metode ke dua dokumen:
+Contoh kode berikut menunjukkan cara menerapkan metode `Compare` ke dua dokumen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CompareTwoWordDocuments-caseWhenDocumentHasRevisions.java" >}}
 
 ## Tentukan Opsi Perbandingan Lanjutan {#specify-advanced-comparing-properties}
 
-Ada banyak sifat berbeda dari Meme it [CompareOptions](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/) kelas yang dapat Anda gunakan ketika Anda ingin membandingkan dokumen.
+Ada banyak properti berbeda dari kelas [CompareOptions](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/) yang dapat Anda terapkan saat ingin membandingkan dokumen.
 
-Sitemap Aspose.Words memungkinkan Anda untuk mengabaikan perubahan yang dilakukan selama operasi perbandingan untuk jenis benda tertentu dalam dokumen asli. Anda dapat memilih properti yang tepat untuk jenis objek, seperti [IgnoreHeadersAndFooters](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getIgnoreHeadersAndFooters), [IgnoreFormatting](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getIgnoreFormatting), [IgnoreComments](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getIgnoreComments), dan orang lain dengan mengatur mereka ke "trueSitemap
+Misalnya, Aspose.Words memungkinkan Anda mengabaikan perubahan yang dibuat selama operasi perbandingan untuk jenis objek tertentu dalam dokumen asli. Anda dapat memilih properti yang sesuai untuk jenis objek, seperti [IgnoreHeadersAndFooters](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getIgnoreHeadersAndFooters), [IgnoreFormatting](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getIgnoreFormatting), [IgnoreComments](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getIgnoreComments), dan lainnya dengan menyetelnya ke "true".
 
-Selain itu, Aspose.Words Sitemap [Granularity](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getGranularity) properti yang dapat Anda tentukan apakah untuk melacak perubahan karakter atau dengan kata.
+Selain itu, Aspose.Words menyediakan properti [Granularity](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getGranularity) yang dapat digunakan untuk menentukan apakah akan melacak perubahan berdasarkan karakter atau kata.
 
-Properti umum lainnya adalah pilihan di mana dokumen untuk menunjukkan perubahan perbandingan. Misalnya, kotak dialog dokumen "Compare" di Microsoft Word memiliki opsi "Lihat perubahan" - ini juga mempengaruhi hasil perbandingan. Aspose.Words Sitemap [Target](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getTarget) properti yang melayani tujuan ini.
+Properti umum lainnya adalah pilihan dokumen mana yang akan menampilkan perubahan perbandingan. Misalnya, kotak dialog "Bandingkan dokumen" di Microsoft Word memiliki opsi "Tampilkan perubahan" – ini juga memengaruhi hasil perbandingan. Aspose.Words menyediakan properti [Target](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getTarget) yang melayani tujuan ini.
 
-Contoh kode berikut menunjukkan cara mengatur sifat membandingkan canggih:
+Contoh kode berikut menunjukkan cara mengatur properti pembanding lanjutan:
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CompareTwoWordDocuments-AdvancedComparingProperties.java" >}}

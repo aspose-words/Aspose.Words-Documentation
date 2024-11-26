@@ -1,109 +1,102 @@
----
-title: Login Markdown Login DOM
-second_title: Aspose.Words Sitemap Java
-articleTitle: Login Markdown Login Document Object Model SitemapDOMSitemap
-linktitle: Login Markdown Login Document Object Model SitemapDOMSitemap
+﻿---
+title: Terjemahkan Markdownmenjadi DOM
+second_title: Aspose.Words untuk Java
+articleTitle: Terjemahkan Markdown ke Model Objek Dokumen (DOM)
+linktitle: Terjemahkan Markdown ke Model Objek Dokumen (DOM)
 type: docs
-description: "Login Markdown dokumen Document Object Model dan kembali. Jadi Anda dapat bekerja dengan kompleks yang ada Markdown dan programmatically menciptakan Markdown dokumen dari awal menggunakan JavaSitemap"
+description: "Tarnslate dokumen Markdown ke Model Objek Dokumen dan kembali. Jadi, Anda dapat bekerja dengan Markdown kompleks yang ada dan membuat dokumen Markdown secara terprogram dari awal menggunakan Java."
 weight: 20
 url: /id/java/translate-markdown-to-document-object-model/
 timestamp: 2024-10-21-11-17-44
 ---
 
-Untuk membaca secara programmatik, memanipulasi, dan memodifikasi konten dan memformat dokumen, Anda perlu menerjemahkannya ke Aspose.Words Document Object Model SitemapDOMSitemap
+Untuk membaca, memanipulasi, dan memodifikasi konten dan pemformatan dokumen secara terprogram, Anda perlu menerjemahkannya ke Model Objek Dokumen Aspose.Words (DOM).
 
-Berbeda dengan dokumen Word, Markdown tidak sesuai dengan DOM dijelaskan dalam [Aspose.Words Document Object Model (DOM)](/words/id/java/aspose-words-document-object-model/) Artikel Login Aspose.Words memberikan mekanisme sendiri untuk menerjemahkan Markdown dokumen DOM dan kembali, sehingga kita dapat berhasil bekerja dengan unsur-unsur mereka seperti format teks, tabel, header, dan lain-lain.
+Berbeda dengan dokumen Word, Markdown tidak sesuai dengan DOM yang dijelaskan dalam [Aspose.Words Model Objek Dokumen (DOM)](/words/java/aspose-words-document-object-model/) artikel. Namun, Aspose.Words menyediakan mekanismenya sendiri untuk menerjemahkan dokumen Markdown ke DOM dan sebaliknya, sehingga kita dapat berhasil mengerjakan elemennya seperti pemformatan teks, tabel, header, dan lainnya.
 
-Artikel ini menjelaskan bagaimana berbagai markdown fitur dapat diterjemahkan ke Aspose.Words DOM dan kembali ke Markdown Login
+Artikel ini menjelaskan bagaimana berbagai fitur markdown dapat diterjemahkan ke dalam format Aspose.Words DOM dan kembali ke Markdown.
 
-## Kompleksitas Terjemahan Markdown Sitemap DOM Sitemap Markdown
+## Kompleksitas Penerjemahan Markdown – DOM – Markdown
 
-Kesulitan utama mekanisme ini tidak hanya untuk menerjemahkan Markdown Login DOM, tetapi juga untuk melakukan transformasi terbalik - untuk menyimpan dokumen kembali ke Markdown format dengan kerugian minimal. Ada unsur-unsur, seperti kutipan multilevel, yang transformasi terbalik tidak sepele.
+Kesulitan utama dari mekanisme ini tidak hanya menerjemahkan Markdown menjadi DOM, tetapi juga melakukan transformasi terbalik-menyimpan dokumen kembali ke format Markdown dengan kerugian minimal. Ada elemen, seperti tanda kutip bertingkat, yang transformasi baliknya tidak sepele.
 
-Mesin terjemahan kami memungkinkan pengguna tidak hanya bekerja dengan elemen yang kompleks dalam hal yang ada Markdown dokumen, tetapi juga untuk membuat dokumen mereka sendiri Markdown format dengan struktur asli dari awal. Untuk membuat berbagai elemen, Anda perlu menggunakan gaya dengan nama tertentu sesuai dengan aturan tertentu yang dijelaskan nanti dalam artikel ini. Gaya seperti itu dapat dibuat secara programmatik.
+Mesin terjemahan kami memungkinkan pengguna tidak hanya bekerja dengan elemen kompleks dalam dokumen Markdown yang ada, tetapi juga membuat dokumen mereka sendiri dalam format Markdown dengan struktur asli dari awal. Untuk membuat berbagai elemen, Anda perlu menggunakan gaya dengan nama tertentu sesuai dengan aturan tertentu yang dijelaskan nanti dalam artikel ini. Gaya seperti itu dapat dibuat secara terprogram.
 
-## Terjemahan Umum Sitemap
+## Prinsip Penerjemahan Umum
 
-Kami menggunakan [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) format untuk blok inline. Ketika tidak ada korespondensi langsung untuk Markdown Sitemap Aspose.Words DOM, kita menggunakan gaya karakter dengan nama yang dimulai dari beberapa kata khusus.
+Kami menggunakan pemformatan [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) untuk blok sebaris. Jika tidak ada korespondensi langsung untuk fitur Markdown di Aspose.Words DOM, kami menggunakan gaya karakter dengan nama yang dimulai dari beberapa kata khusus.
 
-Untuk blok kontainer, kami menggunakan warisan gaya untuk menunjukkan bersarang Markdown Sitemap Dalam hal ini, bahkan ketika tidak ada fitur bersarang, kami juga menggunakan gaya paragraf dengan nama yang dimulai dari beberapa kata khusus.
+Untuk blok penampung, kami menggunakan pewarisan gaya untuk menunjukkan fitur Markdown bersarang. Dalam hal ini, meskipun tidak ada fitur bersarang, kami juga menggunakan gaya paragraf dengan nama yang dimulai dari beberapa kata khusus.
 
-Daftar terpeluru dan dipesan adalah blok wadah di Markdown Sitemap Mereka bersarang diwakili dalam Meme it DOM cara yang sama untuk semua blok kontainer lainnya menggunakan warisan gaya. Namun, tambahan, daftar di DOM memiliki format nomor yang sesuai dengan gaya daftar atau format paragraf.
+Daftar berpoin dan terurut juga merupakan blok penampung dalam Markdown. Sarangnya direpresentasikan dalam DOM dengan cara yang sama seperti untuk semua blok penampung lainnya yang menggunakan pewarisan gaya. Namun, selain itu, daftar dalam DOM memiliki pemformatan angka yang sesuai baik dalam gaya daftar atau pemformatan paragraf.
 
-## Blok Inline
+## Blok Sebaris
 
-Kami menggunakan [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) format saat menerjemahkan **Bold**, *Italic* ~~POS=TRUNC markdown Sitemap
+Kami menggunakan pemformatan [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) saat menerjemahkan fitur **Bold**, *Italic* atau ~~Strikethrough~~ sebaris markdown.
 
-|  Markdown Sitemap |   Aspose.Words        |
-|  -----------------------------  |  ------------------  |
-|  **Bold**<br/>`{1}` |  `Font.Bold = true`  |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-BoldText.java" >}}  |  |
-|  **Italic**<br/>`*italic text*` |  `Font.Italic = true`  |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-ItalicText.java" >}}  |  |
-|  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}}  |  |
+| Markdown fitur | Aspose.Words |
+| ----------------------------- | ------------------ |
+| **Bold**<br />`**bold text**` | `Font.Bold = true` |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-BoldText.java" >}} |  |
+| **Italic**<br />`*italic text*` | `Font.Italic = true` |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-ItalicText.java" >}} |  |
+| **Strikethrough**<br />`~Strikethrough text~` | `Font.StrikeThrough = true` |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Strikethrough.java" >}} |  |
 
-Kami menggunakan gaya karakter dengan nama yang dimulai dari kata `InlineCode`Sitemap diikuti oleh titik opsional `(.)` dan sejumlah backticks ```(`)``` Sitemap `InlineCode` Sitemap Jika sejumlah backticks terjawab, maka satu backtick akan digunakan secara default.
+Kami menggunakan gaya karakter dengan nama yang dimulai dari kata `InlineCode`, diikuti dengan titik opsional `(.)` dan sejumlah backticks ```(`)``` untuk fitur `InlineCode`. Jika sejumlah backtick terlewatkan, maka satu backtick akan digunakan secara default.
 
-|  Markdown Sitemap |   Aspose.Words        |
-|  -----------------------------  |  ------------------  |
-|  **InlineCode**<br/>`{1}` |  `Font.StyleName = “InlineCode[.][N]”`  |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-InlineCode.java" >}}  |  |
-|  **Autolink**<br/>`<scheme://domain.com>`<br/>`<email@domain.com>` |  Login [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) Sitemap |
-|     {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Autolink.java" >}}  |  |
-|  **Link**<br/>`{1}`<br/>`{2}`<br/>`{3}`<br/>`{4})` |  Login [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) Sitemap |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Link.java" >}}  |  |
-|  **Image**<br/>`{1}`<br/>`{2}`<br/>`{3}`<br/>`{4})` |  Login [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) Sitemap |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Image.java" >}}  |  |
+| Markdown fitur | Aspose.Words |
+| ----------------------------- | ------------------ |
+| **InlineCode**<br />`**inline code**` | `Font.StyleName = "InlineCode[.][N]"` |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-InlineCode.java" >}} |  |
+| **Autolink**<br />`<scheme://domain.com>`<br />`<email@domain.com>` | Kelas [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/). |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Autolink.java" >}} |  |
+| **Link**<br />`[teks tautan](url)`<br />`[teks tautan](<url>"title")`<br />`[teks tautan](url 'title')`<br />`[teks tautan](url (title))` | Kelas [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/). |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Link.java" >}} |  |
+| **Image**<br />`![](/words/java/translate-markdown-to-document-object-model/url)`<br />`![teks alternatif](/words/java/translate-markdown-to-document-object-model/<url>"title")`<br />`![teks alternatif](/words/java/translate-markdown-to-document-object-model/url ‘title’)`<br />`![teks alternatif](/words/java/translate-markdown-to-document-object-model/url (title))` | Kelas [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/). |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Image.java" >}} |  |
 
 ## Blok Kontainer
 
-Sebuah dokumen adalah urutan blok kontainer seperti judul, paragraf, daftar, kutipan, dan lain-lain. Blok kontainer dapat dibagi menjadi 2 kelas: Blok daun dan Kontainer Kompleks. Blok daun hanya dapat mengandung konten inline. Kontainer kompleks, pada gilirannya, dapat mengandung blok kontainer lainnya, termasuk blok Daun.
+Dokumen adalah urutan blok penampung seperti judul, paragraf, daftar, tanda kutip, dan lainnya. Blok kontainer dapat dibagi menjadi 2 kelas: Blok daun dan Kontainer Kompleks. Blok daun hanya dapat berisi konten sebaris. Kontainer kompleks, pada gilirannya, dapat berisi blok kontainer lain, termasuk Blok daun.
 
 ### Blok Daun
 
-Tabel di bawah ini menunjukkan contoh penggunaan Markdown Blok daun di Aspose.WordsSitemap
+Tabel di bawah ini menunjukkan contoh penggunaan blok Daun Markdowndalam Aspose.Words:
 
-|  Markdown Sitemap |   Aspose.Words                                                  |
-|  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  **HorizontalRule**<br/>`-----` |  Ini adalah paragraf sederhana dengan bentuk HorizontalRule yang sesuai:<br/>`DocumentBuilder.InsertHorizontalRule()` |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-HorizontalRule.java" >}}  |                                                                |
-|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = "Heading N"`, di mana (1<= N <= 9).<br/>Ini diterjemahkan ke dalam gaya built-in dan harus persis dari pola yang ditentukan (tidak ada suffixes atau prefix diperbolehkan).<br/>Jika tidak, itu hanya akan menjadi paragraf biasa dengan gaya yang sesuai |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Heading.java" >}}  |                                                                |
-|  **Setext Heading**<br/>`===` (jika tingkat kepala 1),<br/>`---` (jika tingkat kepala 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, berdasarkan 'Heading N' Login<br/>Jika (N >= 2), kemudian 'Heading 2' akan digunakan, jika tidak 'Heading 1'Sitemap<br/>Setiap suffix diperbolehkan, tetapi Aspose.Words importir menggunakan angka "1" dan "2" |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SetextHeading.java" >}}  |                                                                |
-|   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-IndentedCode.java" >}}  |                                                                |
-|  **Fenced Code**<br/>{{< highlight java >}}``` java
-if ()
-then
-else
-```{{< /highlight >}} |  `ParagraphFormat.StyleName = “FencedCode[.][info string]”`<br/>Login `[.]` Login `[info string]` adalah opsional |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-FencedCode.java" >}}   |                                                                |
+| Markdown fitur | Aspose.Words |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **HorizontalRule**<br />`-----` | Ini adalah paragraf sederhana dengan bentuk HorizontalRule yang sesuai:<br />`DocumentBuilder.InsertHorizontalRule()` |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-HorizontalRule.java" >}} |  |
+| **ATX Heading**<br />`# H1, ## H2, ### H3…` | `ParagraphFormat.StyleName = "Heading N"`, dimana (1<= N <= 9).<br />Ini diterjemahkan ke dalam gaya bawaan dan harus persis dengan pola yang ditentukan (tidak ada sufiks atau awalan yang diizinkan).<br />Jika tidak, itu hanya akan menjadi paragraf biasa dengan gaya yang sesuai. |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Heading.java" >}} |  |
+| **Setext Heading**<br />`===` (if Heading level 1),<br />`---` (if Heading level 2) | `ParagraphFormat.StyleName = "SetextHeading[some suffix]"`, berdasarkan gaya 'Heading N'.<br />Jika (N >= 2), maka 'Heading 2' akan digunakan, sebaliknya 'Heading 1'.<br />Sufiks apa pun diperbolehkan, tetapi pengimpor Aspose.Words masing-masing menggunakan angka "1" dan "2". |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SetextHeading.java" >}} |  |
+| **Indented Code**<br>{{< highlight java >}}<br/>if ()<br/>then<br/>else<br/>```{{< /highlight >}} | `ParagraphFormat.StyleName = "IndentedCode[some suffix]"` |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-FencedCode.java" >}} |  |
+### Wadah Kompleks
 
-### Kontainer Kompleks
+Tabel di bawah ini menunjukkan contoh penggunaan Wadah Kompleks Markdowndalam Aspose.Words:
 
-Tabel di bawah ini menunjukkan contoh penggunaan Markdown Kontainer Kompleks di Aspose.WordsSitemap
+| Markdown fitur | Aspose.Words |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Quote**<br />`> quote,`<br />`>> nested quote` | `ParagraphFormat.StyleName = "Quote[some suffix]"`<br />Akhiran dalam nama gaya bersifat opsional, tetapi pengimpor Aspose.Words menggunakan nomor terurut 1, 2, 3, .... dalam kasus tanda kutip bersarang.<br />Bersarang didefinisikan melalui gaya yang diwariskan. |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Quote.java" >}} |  |
+| **BulletedList**<br />`- Item 1`<br />`- Item 2`<br />	` - Item 2a`<br />	` - Item 2b` | Daftar berpoin direpresentasikan menggunakan penomoran paragraf:<br />`ListFormat.ApplyBulletDefault()`<br />Ada 3 jenis daftar berpoin. Mereka hanya berbeda dalam format penomoran tingkat pertama. Ini adalah: `‘-’`, `‘+’` atau `‘*’` masing-masing. |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-BulletedList.java" >}} |  |
+| **OrderedList**<br />`1. Item 1`<br />`2. Item 2`<br />	`1) Item 2a`<br />	`2) Item 2b` | Daftar terurut direpresentasikan menggunakan penomoran paragraf:<br />`ListFormat.ApplyNumberDefault()`<br />Bisa ada 2 penanda format angka: ‘.’ dan ‘)’. Penanda standarnya adalah ‘.’. |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-OrderedList.java" >}} |  |
 
-|  Markdown Sitemap |   Aspose.Words                                                  |
-|  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  **Quote**<br/>`> quote,`<br/>`>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br/>The suffix dalam nama gaya adalah opsional, tetapi Aspose.Words importir menggunakan nomor yang dipesan 1, 2, 3, .... dalam kasus kutipan bersarang.<br/>Bersarang didefinisikan melalui gaya yang diwariskan |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Quote.java" >}}  |                                                                |
-|  **BulletedList**<br/>`- Item 1`<br/>`- Item 2`<br/> `   - Item 2a`<br/> `   - Item 2b` |  Daftar terpeluru diwakili menggunakan nomor paragraf:<br/>`ListFormat.ApplyBulletDefault()`<br/>Ada 3 jenis daftar peluru. Mereka hanya menyebar dalam format jumlah tingkat pertama. Sitemap `‘-’`, `‘+’` Sitemap `‘*’` Sitemap |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-BulletedList.java" >}}  |                                                                |
-|  **OrderedList**<br/>`1. Item 1`<br/>`2. Item 2`<br/> `1) Item 2a`<br/> `2) Item 2b` |  Daftar pesanan diwakili menggunakan nomor paragraf:<br/>`ListFormat.ApplyNumberDefault()`<br/>Ada 2 penanda format nomor: '.' dan ')'. Penanda default adalah '.' |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-OrderedList.java" >}}  |                                                                |
+### Tabel
 
-### Login
+Aspose.Words juga memungkinkan untuk menerjemahkan tabel menjadi DOM, seperti yang ditunjukkan di bawah ini:
 
-Aspose.Words juga memungkinkan untuk menerjemahkan tabel ke DOM, seperti yang ditunjukkan di bawah ini:
-
-|  Markdown Sitemap |   Aspose.Words                                                  |
-|  ----------------------------------------  |  ------------------------------------------------------------  |
-|  `Table`<br/>Login | Login`<br />`Login | -Login`<br />`Login | Sitemap Sitemap |  [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) Login [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) kelas |
-|   {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Table.java" >}}  |                                                                |
+| Markdown fitur | Aspose.Words |
+| ---------------------------------------- | ------------------------------------------------------------ |
+| `Table`<br />`a|b`<br />`-|-`<br />`c|d` | kelas [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) dan [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/). |
+| {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-Table.java" >}} |  |
 
 ## Lihat Juga
 
-* [Sitemap Markdown Sitemap](/words/id/java/working-with-markdown-features/)
+* [Bekerja dengan Fitur Markdown](/words/java/working-with-markdown-features/)
 

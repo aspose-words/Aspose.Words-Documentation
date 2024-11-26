@@ -1,8 +1,8 @@
 ---
-title: 如何从 C# 中的 `DataTable` 构建表
+title: 如何从 C# 中的 DataTable 构建表
 second_title: .NET 格式的 Aspose.Words
-articleTitle: 从 `DataTable` 构建表
-linktitle: 从 `DataTable` 构建表
+articleTitle: 从 DataTable 构建表
+linktitle: 从 DataTable 构建表
 description: "使用 C# 从外部数据库填充文档表的示例。"
 type: docs
 weight: 120

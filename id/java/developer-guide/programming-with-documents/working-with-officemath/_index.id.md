@@ -1,16 +1,16 @@
----
-title: Bekerja dengan OfficeMath di Java
-second_title: Aspose.Words Sitemap Java
+﻿---
+title: Bekerja dengan OfficeMath dalam Java
+second_title: Aspose.Words untuk Java
 articleTitle: Bekerja dengan OfficeMath
 linktitle: Bekerja dengan OfficeMath
 type: docs
-description: "Pengantar fitur Matematika Kantor di Aspose.Words Sitemap JavaSitemap"
+description: "Pengantar fitur Office Math di Aspose.Words untuk Java."
 weight: 320
 url: /id/java/working-with-officemath/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Sekarang lebih nyaman untuk bekerja dengan Objek Jenis OfficeMath. Sitemap Aspose.Words, pelanggan dapat dengan mudah Membenarkan dan juga dapat mengelola apakah persamaan ditampilkan inline atau dalam garis terpisah. Lebih dari itu, dengan ketersediaan **MathObjectType**; kontrol yang berguna dapat diterapkan dengan menggunakan objek matriks ini.
+Sekarang bahkan lebih nyaman untuk bekerja dengan Objek Tipe OfficeMath. Dalam Aspose.Words, pelanggan dapat dengan mudah Menjustifikasi dan juga dapat mengatur apakah persamaan ditampilkan sebaris atau dalam baris terpisah. Lebih dari itu, dengan ketersediaan **MathObjectType**; kontrol yang berguna dapat diimplementasikan dengan menggunakan objek matriks ini.
 
 Contoh kode berikut menunjukkan cara menggunakan properti ini:
 

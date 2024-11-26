@@ -1,24 +1,24 @@
----
-title: Bekerja dengan Teks di Meja
-second_title: Aspose.Words Sitemap Java
-articleTitle: Bekerja dengan Teks di Meja
-linktitle: Bekerja dengan Teks di Meja
-description: "Ganti teks dalam tabel JavaSitemap Ekstrak Teks Biasa dari Tabel atau Sel menggunakan JavaSitemap"
+﻿---
+title: Bekerja dengan Teks dalam Tabel
+second_title: Aspose.Words untuk Java
+articleTitle: Bekerja dengan Teks dalam Tabel
+linktitle: Bekerja dengan Teks dalam Tabel
+description: "Ganti teks dalam tabel dengan Java. Ekstrak Teks Biasa dari Tabel atau Sel menggunakan Java."
 type: docs
 weight: 60
 url: /id/java/extract-text-from-and-replace-text-in-a-table/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Seperti yang disebutkan dalam artikel sebelumnya, tabel biasanya mengandung teks biasa, meskipun konten lain seperti gambar atau bahkan tabel lain dapat ditempatkan dalam sel tabel.
+Seperti yang telah disebutkan di artikel sebelumnya, tabel biasanya berisi teks biasa, meskipun konten lain seperti gambar atau bahkan tabel lain dapat ditempatkan di sel tabel.
 
-Menambahkan teks atau konten lain ke tabel dilakukan menggunakan metode yang tepat [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) kelas dan dijelaskan dalam **"Meningkatkan Tabel"** Artikel Dalam artikel ini, kita akan berbicara tentang cara bekerja dengan teks di tabel yang sudah ada.
+Menambahkan teks atau konten lain ke tabel dilakukan dengan menggunakan metode yang sesuai dari kelas [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) dan dijelaskan dalam artikel **"Create a Table"**. Pada artikel ini, kita akan berbicara tentang cara bekerja dengan teks di tabel yang sudah ada.
 
-## Ganti Teks di Meja
+## Ganti Teks dalam Tabel
 
-Meja, seperti node lain di Aspose.Words, memiliki akses ke [Range](https://reference.aspose.com/words/java/com.aspose.words/range/) Sitemap Menggunakan objek kisaran tabel, Anda dapat mengganti teks di meja.
+Tabel, seperti simpul lainnya di Aspose.Words, memiliki akses ke objek [Range](https://reference.aspose.com/words/java/com.aspose.words/range/). Menggunakan objek rentang tabel, Anda dapat mengganti teks dalam tabel.
 
-Kemampuan untuk menggunakan karakter khusus saat mengganti saat ini didukung, sehingga dimungkinkan untuk mengganti teks yang ada dengan teks multi-paragraf. Untuk melakukan ini, Anda perlu menggunakan metacharacters khusus yang dijelaskan dalam hal Meme it [Replace](https://reference.aspose.com/words/java/com.aspose.words/range/#replace-java.lang.String-java.lang.String) Login
+Kemampuan untuk menggunakan karakter khusus saat mengganti saat ini didukung, sehingga dimungkinkan untuk mengganti teks yang ada dengan teks multi-paragraf. Untuk melakukan ini, Anda perlu menggunakan metakarakter khusus yang dijelaskan dalam metode [Replace](https://reference.aspose.com/words/java/com.aspose.words/range/#replace-java.lang.String-java.lang.String) yang sesuai.
 
 {{% alert color="primary" %}}
 
@@ -26,13 +26,13 @@ Biasanya, penggantian teks harus dilakukan pada tingkat sel (per sel) atau pada 
 
 {{% /alert %}}
 
-Contoh kode berikut menunjukkan cara mengganti semua kasus string teks dalam sel seluruh tabel:
+Contoh kode berikut menunjukkan cara mengganti semua instance string teks di sel seluruh tabel:
 
 {{< gist "aspose-words-gists" "7855fd2588b90f4640bf0540285b5277" "replace-text.java" >}}
 
 ## Ekstrak Teks Biasa dari Tabel
 
-Menggunakan **Range** objek, Anda juga dapat memanggil metode pada seluruh rentang tabel dan mengekstrak tabel sebagai teks biasa. Untuk melakukan ini, gunakan [Text](https://reference.aspose.com/words/java/com.aspose.words/range/#Text) Login
+Dengan menggunakan objek **Range**, Anda juga dapat memanggil metode pada seluruh rentang tabel dan mengekstrak tabel sebagai teks biasa. Untuk melakukannya, gunakan properti [Text](https://reference.aspose.com/words/java/com.aspose.words/range/#Text).
 
 Contoh kode berikut menunjukkan cara mencetak rentang teks tabel:
 
@@ -40,9 +40,9 @@ Contoh kode berikut menunjukkan cara mencetak rentang teks tabel:
 
 {{% alert color="primary" %}}
 
-Teknik yang sama digunakan untuk mengekstrak konten dari sel-sel meja individu saja.
+Teknik yang sama digunakan untuk mengekstrak konten dari sel tabel individual saja.
 
-Contoh kode berikut menunjukkan cara mencetak rentang teks dari baris dan elemen tabel:
+Contoh kode berikut menunjukkan cara mencetak rentang teks elemen baris dan tabel:
 
 {{% /alert %}}
 
@@ -50,12 +50,12 @@ Contoh kode berikut menunjukkan cara mencetak rentang teks elemen baris dan tabe
 
 {{< gist "aspose-words-gists" "7855fd2588b90f4640bf0540285b5277" "print-text-range-row-and-table.java" >}}
 
-## Bekerja dengan Teks Meja Alternatif
+## Bekerja dengan Teks Tabel Alternatif
 
-Microsoft Word tabel memiliki `table title` Login `table description` yang memberikan representasi teksal alternatif dari informasi yang terkandung dalam tabel.
+Tabel Microsoft Word memiliki `table title` dan `table description` yang memberikan representasi tekstual alternatif dari informasi yang terdapat dalam tabel.
 
-Sitemap Aspose.Words, Anda juga dapat menambahkan judul meja dan deskripsi menggunakan [Title](https://reference.aspose.com/words/java/com.aspose.words/table/#getTitle) Login [Description](https://reference.aspose.com/words/java/com.aspose.words/table/#getDescription) Sitemap Sifat-sifat ini berarti untuk dokumen DOCX sesuai dengan ISO/ IEC 29500. Saat menyimpan format lebih awal dari ISO/ IEC 29500, sifat-sifat ini diabaikan.
+Di Aspose.Words, Anda juga dapat menambahkan judul dan deskripsi tabel menggunakan properti [Title](https://reference.aspose.com/words/java/com.aspose.words/table/#getTitle) dan [Description](https://reference.aspose.com/words/java/com.aspose.words/table/#getDescription). Properti ini berarti untuk dokumen DOCX yang sesuai dengan ISO / IEC 29500. Saat menyimpan dalam format lebih awal dari ISO / IEC 29500, properti ini diabaikan.
 
-Contoh kode berikut menunjukkan bagaimana mengatur sifat judul dan deskripsi tabel:
+Contoh kode berikut menunjukkan cara mengatur properti judul dan deskripsi tabel:
 
 {{< gist "aspose-words-gists" "7855fd2588b90f4640bf0540285b5277" "table-title-and-description.java" >}}

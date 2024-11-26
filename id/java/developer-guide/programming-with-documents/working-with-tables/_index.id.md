@@ -1,19 +1,19 @@
----
-title: Bekerja dengan Tabel di Java
-second_title: Aspose.Words Sitemap Java
+﻿---
+title: Bekerja dengan Tabel dalam Java
+second_title: Aspose.Words untuk Java
 articleTitle: Bekerja dengan Tabel
 linktitle: Bekerja dengan Tabel
-description: "Cara bekerja dengan tabel di JavaSitemap Memperkenalkan konsep Table node di Aspose.Words Sitemap JavaSitemap"
+description: "Cara bekerja dengan tabel dalam Java. Memperkenalkan konsep simpul tabel di Aspose.Words untuk Java."
 type: docs
 weight: 190
 url: /id/java/working-with-tables/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Login **Login** dalam dokumen adalah cara yang bagus untuk struktur data serupa. Itu sebabnya tabel adalah elemen format konten umum dan didukung oleh sebagian besar format dalam satu bentuk atau yang lain.
+**table** dalam dokumen adalah cara yang bagus untuk menyusun data serupa. Itulah sebabnya tabel adalah elemen pemformatan konten yang umum dan didukung oleh sebagian besar format dalam satu atau lain bentuk.
 
-Tabel memungkinkan Anda untuk mengatur dan menampilkan jumlah besar informasi dalam struktur tipe grid dengan baris dan kolom. Mereka juga sering digunakan sebagai alat tata letak halaman dan alternatif yang lebih baik untuk menampilkan data tabbed (dengan tab stops) karena mereka memungkinkan lebih banyak kontrol atas desain dan tata letak konten. Cara ini Anda bahkan dapat meletakkan konten yang perlu disimpan dalam posisi tetap menggunakan meja tanpa batas.
+Tabel memungkinkan Anda untuk mengatur dan menampilkan informasi dalam jumlah besar dengan jelasdalam struktur tipe kisi dengan baris dan kolom. Mereka juga sering digunakan sebagai alat tata letak halaman dan alternatif yang lebih baik untuk menampilkan data tab (dengan penghentian tab) karena memungkinkan kontrol lebih besar atas desain dan tata letak konten. Dengan cara ini Anda bahkan dapat meletakkan konten yang perlu disimpan dalam posisi tetap menggunakan tabel tanpa batas.
 
-Tabel terdiri dari unsur-unsur seperti itu **Cell**, **Row**, Login **Column**Sitemap Ini adalah konsep yang umum untuk semua tabel secara umum, terlepas dari mana editor atau format dokumen tabel dibuat. Misalnya, tabel yang dibuat Microsoft Word atau tabel yang dibuat dalam dokumen HTML sesuai dengan konsep sel, baris, dan kolom.
+Tabel tersebut terdiri dari elemen-elemen seperti **Cell**, **Row**, dan **Column**. Ini adalah konsep yang umum untuk semua tabel secara umum, terlepas dari editor atau format dokumen mana tabel tersebut dibuat. Misalnya, tabel yang dibuat di Microsoft Word atau tabel yang dibuat di dokumen HTML akan sesuai dengan konsep sel, baris, dan kolom.
 
-Aspose.Words mendukung penuh tabel dan rendering meja fidelity tinggi. Anda dapat dengan bebas mengedit, mengubah, menambahkan, dan menghapus tabel dan konten di tabel. Selain teks biasa, konten lain dapat ditempatkan dalam sel tabel, seperti gambar, kolom, atau bahkan tabel lainnya.
+Aspose.Words sepenuhnya mendukung tabel dan rendering tabel dengan ketelitian tinggi. Anda dapat dengan bebas mengedit, mengubah, menambah, dan menghapus tabel dan konten dalam tabel. Selain teks biasa, konten lain dapat ditempatkan di sel tabel, seperti gambar, bidang, atau bahkan tabel lainnya.

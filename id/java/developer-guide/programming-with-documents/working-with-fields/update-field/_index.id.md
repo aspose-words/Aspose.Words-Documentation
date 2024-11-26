@@ -1,55 +1,55 @@
----
-title: Memperbarui Bidang di Java
-second_title: Aspose.Words Sitemap Java
-articleTitle: Memperbarui Bidang
-linktitle: Memperbarui Bidang
-description: "Pelajari cara memperbarui bidang di JavaSitemap Memperbarui bidang programmatically atau menggunakan pembaruan lapangan otomatis menggunakan Java API"
+﻿---
+title: Perbarui Bidang dalam Java
+second_title: Aspose.Words untuk Java
+articleTitle: Perbarui Bidang
+linktitle: Perbarui Bidang
+description: "Pelajari cara memperbarui bidang dalam Java. Perbarui bidang secara terprogram atau gunakan pembaruan bidang otomatis menggunakan Java API"
 type: docs
 weight: 30
 url: /id/java/update-field/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Biasanya, lapangan dimasukkan ke dalam Microsoft Word sudah berisi nilai up to date. Misalnya, jika field adalah formula atau nomor halaman, itu akan berisi nilai dihitung yang benar untuk versi dokumen yang diberikan. Tetapi jika Anda memiliki aplikasi yang menghasilkan atau memodifikasi dokumen dengan bidang seperti menggabungkan dua dokumen atau mengisinya dengan data, maka idealnya semua bidang harus diperbarui untuk dokumen yang berguna.
+Biasanya, bidang yang disisipkan ke Microsoft Word sudah berisi nilai terbaru. Misalnya, jika bidangnya adalah rumus atau nomor halaman, bidang tersebut akan berisi nilai terhitung yang benar untuk versi dokumen yang diberikan. Tetapi jika Anda memiliki aplikasi yang membuat atau memodifikasi dokumen dengan bidang seperti menggabungkan dua dokumen atau mengisinya dengan data, maka idealnya semua bidang harus diperbarui agar dokumen tersebut berguna.
 
 ## Cara Memperbarui Bidang
 
-Ketika dokumen dimuat, Aspose.Words meniru perilaku Microsoft Word dengan opsi untuk secara otomatis memperbarui bidang dimatikan. Perilaku dapat dirangkum sebagai berikut:
+Saat dokumen dimuat, Aspose.Words meniru perilaku Microsoft Word dengan opsi untuk memperbarui bidang secara otomatis dimatikan. Perilaku tersebut dapat diringkas sebagai berikut:
 
-- ketika Anda membuka / menyimpan dokumen kolom tetap utuh
-- Anda dapat secara eksplisit memperbarui semua bidang dalam dokumen, misalnya, membangun kembali `TOC` ketika Anda perlu
-- ketika Anda mencetak / render ke PDF atau XPS bidang yang terkait dengan jumlah halaman di header/footer diperbarui
-- ketika Anda menjalankan Mail Merge semua bidang diperbarui secara otomatis
+- saat Anda membuka / menyimpan dokumen, bidang tetap utuh
+- anda dapat memperbarui semua bidang dalam dokumen secara eksplisit, misalnya, membangun kembali `TOC` saat Anda membutuhkannya
+- saat Anda mencetak / merender ke PDF atau XPS, bidang yang terkait dengan penomoran halaman di header / footer diperbarui
+- saat Anda menjalankan Mail Merge semua bidang diperbarui secara otomatis
 
-### Memperbarui Bidang Programmatically
+### Perbarui Bidang secara Terprogram
 
-Untuk secara eksplisit memperbarui bidang di seluruh dokumen, cukup sebutkan [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) Login Untuk memperbarui bidang yang terkandung dalam bagian dokumen, mendapatkan [Range](https://reference.aspose.com/words/java/com.aspose.words/range/) objek dan panggilan [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/range/#updateFields) Login Sitemap Aspose.Words, Anda dapat memperoleh **Range** untuk setiap node di pohon dokumen, seperti [Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), dll. menggunakan [GetRange](https://reference.aspose.com/words/java/com.aspose.words/node/#getRange) Login Anda dapat memperbarui hasil lapangan tunggal dengan memanggil Meme it [Update](https://reference.aspose.com/words/java/com.aspose.words/field/#update) Login
+Untuk memperbarui bidang secara eksplisit di seluruh dokumen, cukup panggil metode [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields). Untuk memperbarui bidang yang terdapat di bagian dokumen, dapatkan objek [Range](https://reference.aspose.com/words/java/com.aspose.words/range/) dan panggil metode [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/range/#updateFields). Di Aspose.Words, Anda dapat memperoleh **Range** untuk simpul apa pun di pohon dokumen, seperti [Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), dll. menggunakan properti [GetRange](https://reference.aspose.com/words/java/com.aspose.words/node/#getRange). Anda dapat memperbarui hasil dari satu bidang dengan memanggil metode [Update](https://reference.aspose.com/words/java/com.aspose.words/field/#update).
 
-### Pembaruan Otomatis Bidang Bertemu Halaman selama Pengirim
+### Pembaruan Otomatis Bidang Terkait Halaman selama Rendering
 
-Ketika Anda mengeksekusi konversi dokumen ke format halaman tetap misalnya ke PDF atau XPS, Sitemap Aspose.Words akan secara otomatis memperbarui bidang terkait tata letak halaman `PAGE`, `PAGEREF` ditemukan di header / footer dokumen. Perilaku ini meniru perilaku Microsoft Word saat mencetak dokumen.
+Saat Anda menjalankan konversi dokumen ke format halaman tetap, mis. ke PDF atau XPS, maka Aspose.Words akan secara otomatis memperbarui bidang terkait tata letak halaman `PAGE`, `PAGEREF` yang terdapat di header / footer dokumen. Perilaku ini meniru perilaku Microsoft Word saat mencetak dokumen.
 
-Jika Anda ingin memperbarui semua bidang lain dalam dokumen, maka Anda perlu memanggil [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) sebelum membuat dokumen.
+Jika Anda ingin memperbarui semua bidang lain dalam dokumen, maka Anda perlu memanggil [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) sebelum merender dokumen.
 
-Contoh berikut menunjukkan bagaimana untuk memperbarui semua bidang sebelum membuat dokumen:
+Contoh berikut menunjukkan cara memperbarui semua bidang sebelum merender dokumen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UpdateFields-UpdateFields.java" >}}
 
-### Pembaruan Lapangan Otomatis selama Mail Merge
+### Pembaruan Bidang Otomatis selama Mail Merge
 
-Ketika Anda mengeksekusi mail mergeSitemap semua bidang dalam dokumen akan diperbarui secara otomatis. Ini karena Mail Merge adalah kasus pembaruan lapangan. Program ini menemukan program Mail Merge lapangan dan perlu untuk memperbarui hasilnya, yang melibatkan mengambil nilai dari sumber data dan memasukkannya ke dalam bidang. Logika adalah, tentu saja, lebih rumit, misalnya, ketika akhir dokumen/mail merge daerah tercapai tetapi masih ada data lebih lanjut untuk digabungkan, maka wilayah perlu digali dan set baru bidang yang diperbarui.
+Saat Anda menjalankan mail merge, semua bidang dalam dokumen akan diperbarui secara otomatis. Ini karena Mail Merge adalah kasus pembaruan bidang. Program menemukan bidang Mail Merge dan perlu memperbarui hasilnya, yang melibatkan pengambilan nilai dari sumber data dan memasukkannya ke dalam bidang. Logikanya, tentu saja, lebih rumit, misalnya, ketika akhir wilayah document / mail merge tercapai tetapi masih ada data lebih lanjut yang akan digabungkan, maka wilayah tersebut perlu diduplikasi dan kumpulan bidang baru diperbarui.
 
-## Update lapangan setelah kotor attribute
+## Perbarui Bidang yang memiliki Atribut Kotor
 
-W:dirty adalah atribut tingkat lapangan yang akan menyegarkan hanya bidang yang Anda tentukan ketika dokumen dibuka. Ini memberi tahu MS Word hanya menyegarkan bidang ini dokumen berikutnya dibuka. Anda dapat menggunakan properti LoadOptions.setUpdateDirtyFields() untuk menentukan apakah untuk memperbarui bidang dengan atribut kotor. Ketika nilai LoadOptions.setUpdateDirtyFields() diatur untuk *true* Sitemap semua bidang yang memiliki *true* nilai untuk `Field.IsDirty` Sitemap `FieldChar.IsDirty` properti diperbarui pada beban dokumen
+W: dirty adalah atribut tingkat bidang yang hanya akan menyegarkan bidang yang Anda tentukan saat dokumen dibuka. Ini memberitahu MS Word untuk hanya menyegarkan bidang ini saat dokumen dibuka lagi. Anda dapat menggunakan LoadOptions.properti setUpdateDirtyFields() untuk menentukan apakah akan memperbarui bidang dengan atribut dirty. Ketika nilai dari LoadOptions.setUpdateDirtyFields () disetel ke *true*, semua bidang yang memiliki nilai *true* untuk properti `Field.IsDirty` atau `FieldChar.IsDirty` diperbarui saat dokumen dimuat.
 
-Contoh kode berikut menunjukkan bagaimana untuk memperbarui bidang memiliki atribut kotor:
+Contoh kode berikut menunjukkan cara memperbarui bidang yang memiliki atribut dirty:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-LoadOptionsUpdateDirtyFields-LoadOptionsUpdateDirtyFields.java" >}}
 
-## Memperbarui Properti LastSavedTime Sebelum Hemat
+## Perbarui properti LastSavedTime sebelum menyimpan
 
-Anda dapat menggunakan [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateLastSavedTimeProperty) properti apakah untuk memperbarui properti dokumen bawaan yang sesuai [LastSavedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getLastSavedTime) saat menyimpan dokumen.
+Anda dapat menggunakan properti [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateLastSavedTimeProperty) apakah akan memperbarui properti dokumen bawaan yang sesuai [LastSavedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getLastSavedTime) saat menyimpan dokumen.
 
 Contoh kode berikut menunjukkan cara memperbarui properti ini:
 

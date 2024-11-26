@@ -1,209 +1,209 @@
----
-title: Masukkan kolom di Java
-second_title: Aspose.Words Sitemap Java
-articleTitle: Masukkan kolom
-linktitle: Masukkan kolom
-description: "Cara yang berbeda untuk memasukkan kolom ke dalam dokumen Anda menggunakan JavaSitemap"
+﻿---
+title: Sisipkan Bidang dalam Java
+second_title: Aspose.Words untuk Java
+articleTitle: Sisipkan Bidang
+linktitle: Sisipkan Bidang
+description: "Berbagai cara untuk menyisipkan bidang ke dalam dokumen Anda menggunakan Java."
 type: docs
 weight: 20
 url: /id/java/insert-fields/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Ada beberapa cara yang berbeda untuk memasukkan kolom ke dalam dokumen:
+Ada beberapa cara berbeda untuk menyisipkan bidang ke dalam dokumen:
 
-- Login [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)
-- Login [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/)
-- Login [Aspose.Words Document Object Model (DOM)](/words/id/java/aspose-words-document-object-model/)
+- menggunakan [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)
+- menggunakan [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/)
+- menggunakan [Aspose.Words Model Objek Dokumen (DOM)](/words/java/aspose-words-document-object-model/)
 
-Dalam artikel ini, kita akan melihat setiap cara secara lebih rinci dan menganalisis cara memasukkan bidang tertentu menggunakan opsi ini.
+Pada artikel ini, kita akan melihat setiap cara secara lebih rinci dan menganalisis cara menyisipkan bidang tertentu menggunakan opsi ini.
 
-## Menyisipkan Fields ke dalam Dokumen menggunakan DocumentBuilder
+## Menyisipkan Bidang ke dalam Dokumen menggunakan DocumentBuilder
 
-Sitemap Aspose.Words Login [InsertField](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertField(int,boolean)) metode digunakan untuk memasukkan bidang baru ke dalam dokumen. Parameter pertama menerima kode lapangan penuh lapangan untuk dimasukkan. Parameter kedua adalah opsional dan memungkinkan hasil lapangan untuk diatur secara manual. Jika ini tidak disediakan maka lapangan diperbarui secara otomatis. Anda dapat melewati null atau kosong ke parameter ini untuk memasukkan lapangan dengan nilai lapangan kosong. Jika Anda tidak yakin tentang sintaks kode bidang tertentu, buat lapangan di Microsoft Word pertama dan beralih untuk melihat kode lapangan.
+Dalam Aspose.Words metode [InsertField](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertField(int,boolean)) digunakan untuk menyisipkan bidang baru ke dalam dokumen. Parameter pertama menerima kode bidang lengkap dari bidang yang akan disisipkan. Parameter kedua bersifat opsional dan memungkinkan hasil bidang bidang diatur secara manual. Jika ini tidak disediakan maka bidang diperbarui secara otomatis. Anda dapat meneruskan null atau empty ke parameter ini untuk menyisipkan bidang dengan nilai bidang kosong. Jika Anda tidak yakin tentang sintaks kode bidang tertentu, buat bidang dalam Microsoft Word terlebih dahulu dan alihkan untuk melihat kode bidangnya.
 
 {{% alert color="primary" %}}
 
-Jika kode lapangan Anda memiliki parameter yang mengandung ruang maka harus ditutup dalam tanda bicara. Kalau tidak, lapangan di kedua Microsoft Word Login Aspose.Words mungkin tidak bekerja seperti yang diharapkan sebagai parameter yang diobati oleh keduanya sebagaimana ditimbulkan.
+Jika kode bidang Anda memiliki parameter yang berisi spasi, maka kode tersebut harus diapit dalam tanda ucapan. Jika tidak, bidang di Microsoft Word dan Aspose.Words mungkin tidak berfungsi seperti yang diharapkan karena parameter diperlakukan oleh keduanya sebagai terpotong.
 
 {{% /alert %}}
 
-Contoh kode berikut menunjukkan cara memasukkan lapangan merge ke dalam dokumen menggunakan **DocumentBuilder**Sitemap
+Contoh kode berikut menunjukkan cara menyisipkan bidang gabungan ke dalam dokumen menggunakan **DocumentBuilder**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-InsertField.java" >}}
 
-Teknik yang sama digunakan untuk memasukkan bidang bersarang dalam bidang lain.
+Teknik yang sama digunakan untuk menyisipkan bidang yang bersarang di dalam bidang lain.
 
-Contoh kode berikut menunjukkan cara memasukkan kolom bersarang dalam bidang lain menggunakan **DocumentBuilder**Sitemap
+Contoh kode berikut menunjukkan cara menyisipkan bidang yang bersarang di dalam bidang lain menggunakan **DocumentBuilder**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertNestedFields-InsertNestedFields.java" >}}
 
-### Tentukan Locale di Tingkat Lapangan
+### Tentukan Lokal di Tingkat Bidang
 
-Pengidentifikasi bahasa adalah singkatan numerik internasional standar untuk bahasa di negara atau wilayah geografis. Sitemap Aspose.Words, Anda dapat menentukan Locale di tingkat lapangan menggunakan [LocaleId](https://reference.aspose.com/words/java/com.aspose.words/field/#getLocaleId) properti, yang mendapat atau mengatur ID lokal lapangan.
+Pengenal bahasa adalah singkatan angka internasional standar untuk bahasa di suatu negara atau wilayah geografis. Dengan Aspose.Words, Anda dapat menentukan Lokal di tingkat bidang menggunakan properti [LocaleId](https://reference.aspose.com/words/java/com.aspose.words/field/#getLocaleId), yang mendapatkan atau menyetel lokal bidang ID.
 
 Contoh kode berikut menunjukkan cara menggunakan opsi ini:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-SpecifylocaleAtFieldlevel-SpecifylocaleAtFieldlevel.java" >}}
 
-### Masukkan kolom Untyped/Empty
+### Sisipkan Bidang yang Tidak Diketik / Kosong
 
-Jika Anda ingin memasukkan ladang yang tidak terketik / empty ({}) seperti Microsoft Word memungkinkan, Anda dapat menggunakan [InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) metode dengan [FieldType.FieldNone](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) parameter. Untuk memasukkan kolom ke dalam dokumen Word, Anda dapat menekan kombinasi kunci "Ctrl + F9".
+Jika Anda ingin menyisipkan bidang yang tidak diketik / kosong ({}) seperti yang diizinkan oleh Microsoft Word, Anda dapat menggunakan metode [InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) dengan parameter [FieldType.FieldNone](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/). Untuk menyisipkan bidang ke dalam dokumen Word, Anda dapat menekan kombinasi tombol "Ctrl + F9".
 
-Contoh kode berikut menunjukkan cara memasukkan kolom kosong ke dalam dokumen:
+Contoh kode berikut menunjukkan cara menyisipkan bidang kosong ke dalam dokumen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertFieldNone-InsertFieldNone.java" >}}
 
-### Login `COMPARE` Login
+### Sisipkan Bidang `COMPARE`
 
-Login `COMPARE` bidang membandingkan dua nilai dan mengembalikan nilai numerik 1 jika perbandingan true atau 0 jika perbandingan falseSitemap
+Bidang `COMPARE` membandingkan dua nilai dan mengembalikan nilai numerik 1 jika perbandingannya benar atau 0 jika perbandingannya salah.
 
-Contoh kode berikut menunjukkan cara menambahkan `COMPARE` bidang menggunakan DocumentBuilder:
+Contoh kode berikut menunjukkan cara menambahkan kolom `COMPARE` menggunakan DocumentBuilder:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldCompare.java" >}}
 
-### Login `IF` Login
+### Sisipkan Bidang `IF`
 
-Login `IF` lapangan dapat digunakan untuk mengevaluasi argumen secara kondisional.
+Bidang `IF` dapat digunakan untuk mengevaluasi argumen secara kondisional.
 
-Contoh kode berikut menunjukkan cara menambahkan `IF` bidang menggunakan DocumentBuilder:
+Contoh kode berikut menunjukkan cara menambahkan kolom `IF` menggunakan DocumentBuilder:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldIf.java" >}}
 
 ## Menyisipkan Bidang ke dalam Dokumen menggunakan FieldBuilder
 
-Cara alternatif untuk memasukkan kolom di Aspose.Words Sitemap [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/) Sitemap Ini menyediakan antarmuka fluent untuk menentukan sakelar lapangan dan nilai argumen sebagai teks, node atau bahkan bidang bersarang.
+Cara alternatif untuk menyisipkan bidang dalam Aspose.Words adalah kelas [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/). Ini menyediakan antarmuka yang lancar untuk menentukan sakelar bidang dan nilai argumen sebagai teks, simpul, atau bahkan bidang bersarang.
 
-Contoh kode berikut menunjukkan cara memasukkan kolom ke dalam dokumen menggunakan **FieldBuilder**Sitemap
+Contoh kode berikut menunjukkan cara menyisipkan bidang ke dalam dokumen menggunakan **FieldBuilder**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-FieldBuilder.java" >}}
 
-## Sisipan menggunakan DOM
+## Menyisipkan Kolom menggunakan DOM
 
-Anda juga dapat memasukkan berbagai jenis bidang menggunakan [Aspose.Words Document Object Model (DOM)](/words/id/java/aspose-words-document-object-model/)Sitemap Di bagian ini, kita akan melihat beberapa contoh. Meme it
+Anda juga dapat menyisipkan berbagai jenis bidang menggunakan [Aspose.Words Model Objek Dokumen (DOM)](/words/java/aspose-words-document-object-model/). Pada bagian ini, kita akan melihat beberapa contoh.
 
-### Login Bidang ke dalam Dokumen menggunakan DOM
+### Menyisipkan Bidang Gabungan ke dalam Dokumen menggunakan DOM
 
-`MERGEFIELD` bidang dokumen Word dapat diwakili oleh Meme it [FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/) Sitemap Anda dapat menggunakan **FieldMergeField** kelas untuk melakukan operasi berikut:
+`MERGEFIELD` field in Word document can be represented by the [FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/) class. You can use **FieldMergeField** class to perform the following operations:
 
-- menentukan nama bidang gabungan
-- menentukan format lapangan merge
-- tentukan teks yang antara pemisah lapangan dan ujung lapangan gabungan
-- tentukan teks yang akan dimasukkan setelah kolom gabungan jika lapangan tidak kosong
-- tentukan teks yang akan disisipkan sebelum bidang gabungan jika lapangan tidak kosong
+- tentukan nama bidang penggabungan
+- tentukan pemformatan bidang penggabungan
+- tentukan teks yang berada di antara pemisah bidang dan akhir bidang dari bidang gabungan
+- tentukan teks yang akan disisipkan setelah bidang gabungan jika bidang tidak kosong
+- tentukan teks yang akan disisipkan sebelum bidang gabungan jika bidang tidak kosong
 
 {{% alert color="primary" %}}
 
-Untuk detail lebih lanjut, lihat [FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/) Login APISitemap
+Untuk detail selengkapnya, lihat kelas [FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/) API.
 
 {{% /alert %}}
 
-Contoh kode berikut menunjukkan cara menambahkan `MERGE` kolom menggunakan DOM untuk paragraf dalam dokumen:
+Contoh kode berikut menunjukkan cara menambahkan bidang `MERGE` menggunakan DOM ke paragraf dalam dokumen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertMergeFieldUsingDOM-InsertMergeFieldUsingDOM.java" >}}
 
-### Login Mail Merge `ADDRESSBLOCK` ke dalam dokumen menggunakan DOM
+### Menyisipkan bidang Mail Merge `ADDRESSBLOCK` ke dalam Dokumen menggunakan DOM
 
-Login `ADDRESSBLOCK` lapangan digunakan untuk memasukkan Mail Merge alamat blok dalam dokumen Word. `ADDRESSBLOCK` bidang dokumen Word dapat diwakili oleh Meme it [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) Sitemap Anda dapat menggunakan **FieldAddressBlock** kelas untuk melakukan operasi berikut:
+Bidang `ADDRESSBLOCK` digunakan untuk menyisipkan blok alamat Mail Merge dalam dokumen Word. bidang `ADDRESSBLOCK` dalam dokumen Word dapat diwakili oleh kelas [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/). Anda dapat menggunakan kelas **FieldAddressBlock** untuk melakukan operasi berikut:
 
-- menentukan apakah untuk memasukkan nama negara/region di lapangan
-- menentukan apakah untuk memformat alamat sesuai dengan negara/region penerima sebagaimana ditentukan oleh POST * CODE (Universal Postal Union 2006)
-- tentukan nama negara / wilayah yang dikecualikan
-- menentukan format nama dan alamat
-- menentukan ID bahasa yang digunakan untuk memformat alamat
+- tentukan apakah akan mencantumkan nama negara / wilayah di bidang tersebut
+- tentukan apakah akan memformat alamat sesuai dengan negara / wilayah penerima seperti yang didefinisikan oleh POST*CODE (Universal Postal Union 2006)
+- sebutkan nama negara/wilayah yang dikecualikan
+- tentukan nama dan format alamat
+- tentukan bahasa ID yang digunakan untuk memformat alamat
 
 {{% alert color="primary" %}}
 
-Untuk detail lebih lanjut, lihat [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) Login APISitemap
+Untuk detail selengkapnya, lihat kelas [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) API.
 
 {{% /alert %}}
 
-Contoh kode berikut menunjukkan cara menambahkan Mail Merge `ADDRESSBLOCK` Penggunaan lapangan DOM untuk paragraf dalam dokumen:
+Contoh kode berikut menunjukkan cara menambahkan Bidang Mail Merge `ADDRESSBLOCK` menggunakan DOM ke paragraf dalam dokumen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertMailMergeAddressBlockFieldUsingDOM-InsertMailMergeAddressBlockFieldUsingDOM.java" >}}
 
-### Login `ADVANCE` ke dalam dokumen tanpa menggunakan DocumentBuilder
+### Menyisipkan bidang `ADVANCE` ke dalam Dokumen tanpa menggunakan DocumentBuilder
 
-Login `ADVANCE` lapangan digunakan untuk mengimbangi teks berikutnya dalam garis ke kiri, kanan, atas atau turun. `ADVANCE` bidang dokumen Word dapat diwakili oleh Meme it [FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/fieldadvance/) Sitemap Anda dapat menggunakan **FieldAdvance** kelas untuk melakukan operasi berikut:
+Bidang `ADVANCE` digunakan untuk mengimbangi teks berikutnya dalam satu baris ke kiri, kanan, atas, atau bawah. bidang `ADVANCE` dalam dokumen Word dapat diwakili oleh kelas [FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/fieldadvance/). Anda dapat menggunakan kelas **FieldAdvance** untuk melakukan operasi berikut:
 
-- menentukan jumlah poin dimana teks yang mengikuti lapangan harus dipindahkan secara vertikal dari tepi atas halaman
-- menentukan jumlah poin dimana teks yang mengikuti lapangan harus dipindahkan secara horizontal dari tepi kiri kolom, bingkai, atau kotak teks
-- menentukan jumlah poin dimana teks yang mengikuti lapangan harus dipindahkan ke kiri, kanan, atas atau turun
+- tentukan jumlah titik di mana teks yang mengikuti bidang harus dipindahkan secara vertikal dari tepi atas halaman
+- tentukan jumlah titik di mana teks yang mengikuti bidang harus dipindahkan secara horizontal dari tepi kiri kolom, bingkai, atau kotak teks
+- tentukan jumlah titik di mana teks yang mengikuti bidang harus dipindahkan ke kiri, kanan, atas atau bawah
 
 {{% alert color="primary" %}}
 
-Untuk detail lebih lanjut, lihat [FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/fieldadvance/) Login APISitemap
+Untuk detail selengkapnya, lihat kelas [FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/fieldadvance/) API.
 
 {{% /alert %}}
 
-Contoh kode berikut menunjukkan cara menambahkan `ADVANCE` Penggunaan lapangan DOM untuk paragraf dalam dokumen:
+Contoh kode berikut menunjukkan cara menambahkan Bidang `ADVANCE` menggunakan DOM ke paragraf dalam dokumen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldAdvance.java" >}}
 
-### Login `ASK` ke dalam dokumen tanpa menggunakan DocumentBuilder
+### Menyisipkan bidang `ASK` ke dalam Dokumen tanpa menggunakan DocumentBuilder
 
-Login `ASK` lapangan digunakan untuk meminta pengguna teks untuk menetapkan Bookmark dalam dokumen Word. `ASK` bidang dokumen Word dapat diwakili oleh Meme it [FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/fieldask/) Sitemap Anda dapat menggunakan **FieldAsk** kelas untuk melakukan operasi berikut:
+Bidang `ASK` digunakan untuk meminta teks kepada pengguna untuk ditetapkan ke Bookmark dalam dokumen Word. bidang `ASK` dalam dokumen Word dapat diwakili oleh kelas [FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/fieldask/). Anda dapat menggunakan kelas **FieldAsk** untuk melakukan operasi berikut:
 
-- menentukan nama bookmark
-- tentukan respons pengguna default (nilai awal yang terkandung di jendela prompt)
-- tentukan apakah respons pengguna harus diterima sekali per Mail Merge Sitemap
-- tentukan teks prompt ( judul jendela prompt)
+- tentukan nama bookmark
+- tentukan respons pengguna default (nilai awal yang terdapat di jendela prompt)
+- tentukan apakah respons pengguna harus diterima satu kali per operasi Mail Merge
+- tentukan teks prompt (judul jendela prompt)
 
 {{% alert color="primary" %}}
 
-Untuk detail lebih lanjut, lihat [FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/fieldask/) Login APISitemap
+Untuk detail selengkapnya, lihat kelas [FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/fieldask/) API.
 
 {{% /alert %}}
 
-Contoh kode berikut menunjukkan cara menambahkan `ASK` Penggunaan lapangan DOM untuk paragraf dalam dokumen:
+Contoh kode berikut menunjukkan cara menambahkan Bidang `ASK` menggunakan DOM ke paragraf dalam dokumen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldAsk.java" >}}
 
-### Login `AUTHOR` ke dalam dokumen tanpa menggunakan DocumentBuilder
+### Menyisipkan bidang `AUTHOR` ke dalam Dokumen tanpa menggunakan DocumentBuilder
 
-Login `AUTHOR` bidang digunakan untuk menentukan nama penulis Dokumen dari Meme it `Document` Sitemap `AUTHOR` bidang dokumen Word dapat diwakili oleh Meme it [FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/) Sitemap Anda dapat menggunakan **FieldAuthor** kelas untuk melakukan operasi berikut:
+Bidang `AUTHOR` digunakan untuk menentukan nama pembuat dokumen dari properti `Document`. bidang `AUTHOR` dalam dokumen Word dapat diwakili oleh kelas [FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/). Anda dapat menggunakan kelas **FieldAuthor** untuk melakukan operasi berikut:
 
-- menentukan nama penulis dokumen
+- tentukan nama pembuat dokumen
 
 {{% alert color="primary" %}}
 
-Untuk detail lebih lanjut, lihat [FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/) Login APISitemap
+Untuk detail selengkapnya, lihat kelas [FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/) API.
 
 {{% /alert %}}
 
-Contoh kode berikut menunjukkan cara menambahkan `AUTHOR` Penggunaan lapangan DOM untuk paragraf dalam dokumen:
+Contoh kode berikut menunjukkan cara menambahkan Bidang `AUTHOR` menggunakan DOM ke paragraf dalam dokumen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertAuthorField-InsertAuthorField.java" >}}
 
-### Login `INCLUDETEXT` ke dalam dokumen tanpa menggunakan DocumentBuilder
+### Menyisipkan bidang `INCLUDETEXT` ke dalam Dokumen tanpa menggunakan DocumentBuilder
 
-Login `INCLUDETEXT` kolom memasukkan teks dan grafis yang terkandung dalam dokumen yang dinamakan dalam kode lapangan. Anda dapat memasukkan seluruh dokumen atau sebagian dokumen yang disebut dengan bookmark. Bidang ini dalam dokumen Word diwakili oleh INCLUDETEXT. Anda dapat menggunakan [FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/) kelas untuk melakukan operasi berikut:
+Bidang `INCLUDETEXT` menyisipkan teks dan grafik yang terdapat dalam dokumen yang disebutkan dalam kode bidang. Anda dapat menyisipkan seluruh dokumen atau sebagian dokumen yang dirujuk oleh penanda. Bidang ini dalam dokumen Word diwakili oleh INCLUDETEXT. Anda dapat menggunakan kelas [FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/) untuk melakukan operasi berikut:
 
-- menentukan nama bookmark dari dokumen yang disertakan
-- menentukan lokasi dokumen
+- tentukan nama bookmark dari dokumen yang disertakan
+- tentukan lokasi dokumen
 
 {{% alert color="primary" %}}
 
-Untuk detail lebih lanjut, lihat [FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/) Login APISitemap
+Untuk detail selengkapnya, lihat kelas [FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/) API.
 
 {{% /alert %}}
 
-Contoh kode berikut menunjukkan cara menambahkan `INCLUDETEXT` kolom menggunakan DOM untuk paragraf dalam dokumen:
+Contoh kode berikut menunjukkan cara menambahkan bidang `INCLUDETEXT` menggunakan DOM ke paragraf dalam dokumen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldIncludeText.java" >}}
 
-### Login `TOA` ke dalam dokumen tanpa menggunakan DocumentBuilder
+### Menyisipkan bidang `TOA` ke dalam Dokumen tanpa menggunakan DocumentBuilder
 
-Login `TOA` (*Table of Authorities*) membangun lapangan dan memasukkan tabel otoritas. Login `TOA` field mengumpulkan entri ditandai dengan `TA` (*Table of Authorities Entry*) bidang. Microsoft Office Word memasukkan `TOA` lapangan ketika Anda klik * Meja Pengarang * di **Tabel Otoritas** Sitemap **References** Login Ketika Anda melihat `TOA` bidang dalam dokumen Anda, sintaks terlihat seperti ini:
+Bidang `TOA` (*Table of Authorities*) membuat dan menyisipkan tabel otoritas. Bidang `TOA` mengumpulkan entri yang ditandai dengan bidang `TA` (*Table of Authorities Entry*). Microsoft Office Word menyisipkan bidang `TOA` saat Anda mengeklik *Insert Table of Authorities* di grup **Table of Authorities** pada tab **References**. Saat Anda melihat bidang `TOA` di dokumen Anda, sintaksnya terlihat seperti ini:
 
 { `TOA` [Switches ] }
 
 {{% alert color="primary" %}}
 
-Untuk detail lebih lanjut, lihat [FieldToa](https://reference.aspose.com/words/java/com.aspose.words/fieldtoa/) Login APISitemap
+Untuk detail selengkapnya, lihat kelas [FieldToa](https://reference.aspose.com/words/java/com.aspose.words/fieldtoa/) API.
 
 {{% /alert %}}
 
-Contoh kode berikut menunjukkan cara menambahkan `TOA` kolom menggunakan DOM untuk paragraf dalam dokumen.
+Contoh kode berikut menunjukkan cara menambahkan bidang `TOA` menggunakan DOM ke paragraf dalam dokumen.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertTOAField-InsertTOAField.java" >}}

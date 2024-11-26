@@ -1,24 +1,24 @@
----
-title: Bekerja dengan Pengenal Digital di Java
-second_title: Aspose.Words Sitemap Java
+﻿---
+title: Bekerja dengan Tanda Tangan Digital dalam Java
+second_title: Aspose.Words untuk Java
 articleTitle: Bekerja dengan Tanda Tangan Digital
 linktitle: Bekerja dengan Tanda Tangan Digital
-description: "Dokumen tanda digital dan mendeteksi, menghitung, memverifikasi, dan menghapus tanda tangan digital yang ada menggunakan JavaSitemap"
+description: "Tanda tangani dokumen secara digital dan deteksi, hitung, verifikasi, dan hapus tanda tangan digital yang ada menggunakan Java."
 type: docs
 weight: 30
 url: /id/java/working-with-digital-signatures/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Tanda tangan digital adalah implementasi teknologi tanda tangan elektronik untuk menandatangani dokumen dan mengotentikkan penandatangan untuk menjamin bahwa dokumen belum dimodifikasi sejak ditandatangani. Setiap tanda tangan digital unik untuk setiap penandatangan karena mengikuti protokol PKI untuk menghasilkan kunci publik dan swasta. Mendaftar dokumen secara digital berarti membuat tanda tangan menggunakan kunci pribadi penanda mana algoritma matematika digunakan untuk mengenkripsi hash yang dihasilkan.
+Tanda tangan digital adalah penerapan teknologi tanda tangan elektronik untuk menandatangani dokumen dan mengotentikasi penandatangan untuk menjamin bahwa suatu dokumen belum diubah sejak ditandatangani. Setiap tanda tangan digital unik untuk setiap penandatangan karena mengikuti protokol PKI untuk menghasilkan kunci publik dan pribadi. Menandatangani dokumen secara digital berarti membuat tanda tangan menggunakan kunci pribadi penandatangan di mana algoritma matematika digunakan untuk mengenkripsi hash yang dihasilkan.
 
-Aspose.Words memungkinkan Anda untuk mendeteksi, menghitung, atau memverifikasi tanda tangan digital yang ada, dan juga menambahkan tanda tangan baru ke dokumen Anda untuk mengetahui setiap tampering di dalamnya. Anda juga dapat menghapus semua tanda tangan digital dari dokumen. Gunakan [DigitalSignatureUtil](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/) kelas untuk bekerja dengan tanda tangan digital.
+Aspose.Words memungkinkan Anda mendeteksi, menghitung, atau memverifikasi tanda tangan digital yang ada, dan juga menambahkan tanda tangan baru ke dokumen Anda untuk mengetahui adanya gangguan di dalamnya. Anda juga dapat menghapus semua tanda tangan digital dari dokumen. Gunakan kelas [DigitalSignatureUtil](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/) untuk bekerja dengan tanda tangan digital.
 
-Artikel ini menjelaskan cara melakukan semua di atas untuk memvalidasi keaslian dan integritas dokumen digital.
+Artikel ini menjelaskan cara melakukan semua hal di atas untuk memvalidasi keaslian dan integritas dokumen digital.
 
 {{% alert color="primary" %}}
 
-Perhatikan bahwa Anda dapat mengakses tanda tangan digital dokumen Anda hanya ketika menjalankan dokumen Java 6 versi dan di atas.
+Perhatikan bahwa Anda dapat mengakses tanda tangan digital dokumen Anda hanya saat menjalankan versi Java 6 ke atas.
 
 {{% /alert %}}
 
@@ -26,54 +26,54 @@ Perhatikan bahwa Anda dapat mengakses tanda tangan digital dokumen Anda hanya ke
 
 **Coba online**
 
-Anda dapat mencoba fungsi ini dengan kami [Gratis](https://products.aspose.app/words/signature)Sitemap
+Anda dapat mencoba fungsi ini dengan kami [Tanda tangan online gratis](https://products.aspose.app/words/signature).
 
 {{% /alert %}}
 
-## Sitemap
+## Format yang Didukung
 
-Aspose.Words memungkinkan Anda untuk bekerja dengan tanda tangan digital pada dokumen DOC, OOXML, dan ODT dan menandatangani dokumen yang dihasilkan di PDF atau XPS Login
+Aspose.Words memungkinkan Anda bekerja dengan tanda tangan digital pada dokumen DOC, OOXML, dan ODT dan menandatangani dokumen yang dihasilkan dalam format PDF atau XPS.
 
-## Batasan Tanda Tangan Digital
+## Keterbatasan Tanda Tangan Digital
 
-Tabel di bawah ini menjelaskan beberapa keterbatasan yang dapat Anda hadapi saat bekerja dengan tanda tangan digital melalui Aspose.Words, serta beberapa pilihan alternatif.
+Tabel di bawah ini menjelaskan beberapa batasan yang mungkin Anda hadapi saat bekerja dengan tanda tangan digital melalui Aspose.Words, serta beberapa opsi alternatif.
 
-|  Login |  Pilihan alternatif |
-|  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  Rugi tanda tangan digital pada dokumen setelah memuat dan menyimpannya. Oleh karena itu, memproses dokumen ke server dapat menyebabkan hilangnya semua tanda tangan digital tanpa pemberitahuan |  Periksa apakah dokumen memiliki tanda tangan digital dan mengambil tindakan yang tepat jika ada yang ditemukan. Sebagai contoh, kirim peringatan kepada klien memberitahu mereka bahwa dokumen yang mereka unggah berisi tanda tangan digital yang akan hilang jika diproses |
-|  Aspose.Words mendukung bekerja dengan makro dalam dokumen. Login Aspose.Words belum mendukung tanda tangan digital pada makro |  Ekspor dokumen kembali ke format Word, dan gunakan Microsoft Word untuk menambahkan tanda tangan digital ke makro |
+| Batasan | Opsi alternatif |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Hilangnya tanda tangan digital pada dokumen setelah memuat dan menyimpannya. Oleh karena itu, memproses dokumen ke server dapat menyebabkan hilangnya semua tanda tangan digital tanpa pemberitahuan. | Periksa apakah dokumen memiliki tanda tangan digital dan lakukan tindakan yang sesuai jika ditemukan. Misalnya, kirim peringatan kepada klien yang memberi tahu mereka bahwa dokumen yang mereka unggah berisi tanda tangan digital yang akan hilang jika diproses. |
+| Aspose.Words mendukung bekerja dengan makro dalam dokumen. Tetapi Aspose.Words belum mendukung tanda tangan digital pada makro. | Ekspor kembali dokumen ke format Word apa pun, dan gunakan Microsoft Word untuk menambahkan tanda tangan digital ke makro. |
 
-## Mendeteksi, Menghitung, dan Verifikasi Tanda Tangan Digital
+## Mendeteksi, Menghitung, dan Memverifikasi Tanda Tangan Digital
 
-Aspose.Words memungkinkan Anda untuk mendeteksi tanda tangan digital dalam dokumen menggunakan [DetectFileFormat](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/#detectFileFormat-java.io.InputStream) metode dan [HasDigitalSignature](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasDigitalSignature) Login Perlu dicatat bahwa cek tersebut hanya akan mendeteksi fakta tanda tangan, tetapi tidak validitasnya.
+Aspose.Words memungkinkan Anda mendeteksi tanda tangan digital dalam dokumen menggunakan metode [DetectFileFormat](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/#detectFileFormat-java.io.InputStream) dan properti [HasDigitalSignature](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasDigitalSignature). Perlu dicatat bahwa pemeriksaan semacam itu hanya akan mendeteksi fakta tanda tangan, tetapi bukan validitasnya.
 
-Dokumen dapat ditandatangani lebih dari satu kali, dan ini dapat dilakukan oleh pengguna yang berbeda. Untuk memeriksa validitas tanda tangan digital, Anda perlu memuatnya dari dokumen menggunakan [LoadSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#loadSignatures-java.io.InputStream) metode dan menggunakan [IsValid](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection/#isValid) Login Sitemap Aspose.Words memungkinkan Anda untuk menghitung satu set semua tanda tangan digital dalam dokumen menggunakan [Count](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection/#getCount) Login
+Sebuah dokumen dapat ditandatangani lebih dari satu kali, dan ini dapat dilakukan oleh pengguna yang berbeda. Untuk memeriksa validitas tanda tangan digital, Anda perlu memuatnya dari dokumen menggunakan metode [LoadSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#loadSignatures-java.io.InputStream) dan menggunakan properti [IsValid](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection/#isValid). Juga Aspose.Words memungkinkan Anda menghitung satu set semua tanda tangan digital dalam dokumen menggunakan properti [Count](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection/#getCount).
 
-Semua ini memberikan cara yang efisien dan aman untuk memeriksa dokumen tanda tangan sebelum memprosesnya.
+Semua ini menyediakan cara yang efisien dan aman untuk memeriksa tanda tangan dokumen sebelum memprosesnya.
 
-Contoh kode berikut menunjukkan cara mendeteksi kehadiran tanda tangan digital dan memverifikasinya:
+Contoh kode berikut menunjukkan cara mendeteksi keberadaan tanda tangan digital dan memverifikasinya:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "detect-document-signatures.java" >}}
 
 ## Buat Tanda Tangan Digital {#create-a-digital-signature}
 
-Untuk membuat tanda tangan digital, Anda harus memuat sertifikat penandatangan yang mengkonfirmasi identitas. Ketika Anda mengirim dokumen yang ditandatangani secara digital, Anda juga mengirim sertifikat dan kunci publik Anda.
+Untuk membuat tanda tangan digital, Anda perlu memuat sertifikat penandatanganan yang mengonfirmasi identitas. Saat Anda mengirim dokumen yang ditandatangani secara digital, Anda juga mengirimkan sertifikat dan kunci publik Anda.
 
-Aspose.Words memungkinkan Anda untuk membuat sertifikat X.509, sertifikat digital yang menggunakan standar X.509 PKI yang diterima secara internasional untuk memverifikasi bahwa kunci publik termasuk dalam sertifikat. Untuk melakukan ini, gunakan [Create](https://reference.aspose.com/words/java/com.aspose.words/certificateholder/#create-byte---java.lang.String) metode dalam [CertificateHolder](https://reference.aspose.com/words/java/com.aspose.words/certificateholder/) Sitemap
+Aspose.Words memungkinkan Anda membuat sertifikat X. 509, sertifikat digital yang menggunakan standar X. 509 PKI yang diterima secara internasional untuk memverifikasi bahwa kunci publik milik penandatangan yang disertakan di dalam sertifikat. Untuk melakukannya, gunakan metode [Create](https://reference.aspose.com/words/java/com.aspose.words/certificateholder/#create-byte---java.lang.String) dalam kelas [CertificateHolder](https://reference.aspose.com/words/java/com.aspose.words/certificateholder/).
 
-Bagian berikutnya menjelaskan cara menambahkan tanda tangan digital, garis tanda tangan, dan cara menandatangani dokumen PDF yang dihasilkan.
+Bagian selanjutnya menjelaskan cara menambahkan tanda tangan digital, baris tanda tangan, dan cara menandatangani dokumen PDF yang dihasilkan.
 
-### Daftar Dokumen
+### Tanda Tangani Dokumen
 
-Aspose.Words memungkinkan Anda untuk menandatangani dokumen DOC, DOCX, atau ODT secara digital menggunakan [Sign](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#sign-java.io.InputStream-java.io.OutputStream-com.aspose.words.CertificateHolder) metode dan [SignOptions](https://reference.aspose.com/words/java/com.aspose.words/signoptions/) Sitemap
+Aspose.Words memungkinkan Anda menandatangani dokumen DOC, DOCX, atau ODT secara digital menggunakan metode [Sign](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#sign-java.io.InputStream-java.io.OutputStream-com.aspose.words.CertificateHolder) dan properti [SignOptions](https://reference.aspose.com/words/java/com.aspose.words/signoptions/).
 
-Contoh kode berikut menunjukkan bagaimana menandatangani dokumen menggunakan pemegang sertifikat dan opsi tanda:
+Contoh kode berikut menunjukkan cara menandatangani dokumen menggunakan pemegang sertifikat dan opsi tanda tangan:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "sign-document.java" >}}
 
-### Tambahkan Garis Pengenal
+### Tambahkan Baris Tanda Tangan
 
-Garis tanda tangan adalah representasi visual tanda tangan digital dalam dokumen. Aspose.Words memungkinkan Anda untuk memasukkan garis tanda tangan menggunakan [DocumentBuilder.InsertSignatureLine](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertSignatureLine-com.aspose.words.SignatureLineOptions) Login Anda juga dapat mengatur parameter untuk representasi ini menggunakan [SignatureLineOptions](https://reference.aspose.com/words/java/com.aspose.words/signaturelineoptions/) Sitemap
+Garis tanda tangan adalah representasi visual dari tanda tangan digital dalam sebuah dokumen. Aspose.Words memungkinkan Anda menyisipkan baris tanda tangan menggunakan metode [DocumentBuilder.InsertSignatureLine](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertSignatureLine-com.aspose.words.SignatureLineOptions). Anda juga dapat mengatur parameter untuk representasi ini menggunakan kelas [SignatureLineOptions](https://reference.aspose.com/words/java/com.aspose.words/signaturelineoptions/).
 
 Misalnya, gambar di bawah ini menunjukkan bagaimana tanda tangan yang valid dan tidak valid dapat ditampilkan.
 
@@ -81,35 +81,35 @@ Misalnya, gambar di bawah ini menunjukkan bagaimana tanda tangan yang valid dan 
 
 <img src="/words/java/working-with-digital-signatures/invalid.png" alt="invalid-digital-signature" style="width:300px"/>
 
-Juga, jika dokumen berisi garis tanda tangan dan tidak ada tanda tangan digital, ada fitur untuk meminta pengguna untuk menambahkan tanda tangan.
+Selain itu, jika dokumen berisi baris tanda tangan dan tidak ada tanda tangan digital, ada fitur untuk meminta pengguna menambahkan tanda tangan.
 
-Contoh kode berikut menunjukkan bagaimana menandatangani dokumen dengan sertifikat pribadi dan garis tanda tangan tertentu:
+Contoh kode berikut menunjukkan cara menandatangani dokumen dengan sertifikat pribadi dan baris tanda tangan tertentu:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "create-new-signature-line-and-set-provider-id.java" >}}
 
-### Daftar Dokumen PDF Hasil {#sign-a-generated-pdf-document}
+### Tanda tangani Dokumen PDF yang Dihasilkan {#sign-a-generated-pdf-document}
 
-Aspose.Words memungkinkan Anda untuk menandatangani dan mendapatkan semua rincian dokumen PDF menggunakan [PdfDigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/pdfdigitalsignaturedetails/) Sitemap
+Aspose.Words memungkinkan Anda menandatangani dan mendapatkan semua detail dokumen PDF menggunakan properti [PdfDigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/pdfdigitalsignaturedetails/).
 
-Contoh kode berikut menunjukkan cara menandatangani PDF yang dihasilkan:
+Contoh kode berikut menunjukkan cara menandatangani PDFyang dihasilkan:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "digitally-signed-pdf-using-certificate-holder.java" >}}
 
-Gambar di bawah ini menunjukkan bahwa dokumen PDF yang dihasilkan dibuka Adobe Acrobat dan tanda tangan digital diverifikasi sebagai hadiah dan valid.
+Gambar di bawah ini menunjukkan bahwa dokumen PDF yang dihasilkan dibuka dalam Adobe Acrobat dan tanda tangan digital diverifikasi sebagai ada dan valid.
 
 ![create-digital-signed-pdf-aspose-words-java](/words/java/working-with-digital-signatures/signed-pdf-aspose-words-java.png)
 
-## Dapatkan Nilai Tanda Tangan Digital
+## Mengambil Nilai Tanda Tangan Digital
 
-Aspose.Words juga menyediakan kemampuan untuk mengambil nilai tanda tangan digital dari dokumen yang ditandatangani secara digital sebagai array byte menggunakan [SignatureValue](https://reference.aspose.com/words/java/com.aspose.words/digitalsignature/#getSignatureValue) Login
+Aspose.Words juga menyediakan kemampuan untuk mengambil nilai tanda tangan digital dari dokumen yang ditandatangani secara digital sebagai larik byte menggunakan properti [SignatureValue](https://reference.aspose.com/words/java/com.aspose.words/digitalsignature/#getSignatureValue).
 
-Contoh kode berikut menunjukkan bagaimana memperoleh nilai tanda tangan digital sebagai array byte dari dokumen:
+Contoh kode berikut menunjukkan cara mendapatkan nilai tanda tangan digital sebagai larik byte dari dokumen:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "signature-value.java" >}}
 
 ## Hapus Tanda Tangan Digital
 
-Aspose.Words memungkinkan Anda untuk menghapus semua tanda tangan digital dari dokumen yang ditandatangani menggunakan [RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream) Login
+Aspose.Words memungkinkan Anda menghapus semua tanda tangan digital dari dokumen yang ditandatangani menggunakan metode [RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream).
 
 Contoh kode berikut menunjukkan cara memuat dan menghapus tanda tangan digital dari dokumen:
 
@@ -117,6 +117,6 @@ Contoh kode berikut menunjukkan cara memuat dan menghapus tanda tangan digital d
 
 {{% alert color="primary" %}}
 
-Perhatikan bahwa Anda tidak dapat menghapus satu tanda tangan digital dalam dokumen Anda.
+Perhatikan bahwa Anda tidak dapat menghapus hanya satu tanda tangan digital dalam dokumen Anda.
 
 {{% /alert %}}

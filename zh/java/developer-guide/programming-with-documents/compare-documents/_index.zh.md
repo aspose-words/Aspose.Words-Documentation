@@ -1,70 +1,70 @@
----
-title: 比较文档在 Java
-second_title: "Aspose.Words (单位:千美元) Java"
-articleTitle: 比较文档
-linktitle: 比较文档
+﻿---
+title: 比较Java中的文档
+second_title: Aspose.Words为Java
+articleTitle: 比较文件
+linktitle: 比较文件
 type: docs
-description: "比较任何支持格式的两个文档并显示内容变化。 您可以在比较时应用高级选项 Java。 。 。 。"
+description: "比较任何支持格式的两个文档并显示内容更改。 使用Java进行比较时，可以应用高级选项。"
 weight: 60
 url: /zh/java/compare-documents/
 timestamp: 2024-01-27-14-07-04
 ---
 
-比较文件是一个确定两个文件之间变化并包含这些变化作为订正的过程。 这一程序比较了任何两份文件,包括一份具体文件的版本,然后这两份文件之间的改动将在第一份文件中显示为订正。
+比较文档是一个识别两个文档之间的更改并将更改包含为修订的过程。 此过程比较任何两个文档，包括一个特定文档的版本，然后两个文档之间的更改将显示为第一个文档中的修订。
 
-比较方法通过在字符级别或词级别上比较单词来实现. 如果一个单词包含至少一个字符的变化,在结果中,差异将显示为整个单词的变化,而不是字符. 这种比较过程是法律和金融行业的通常任务.
+比较方法是通过在字符级别或在单词级别比较单词来实现的。 如果一个单词包含至少一个字符的变化，在结果中，差异将显示为整个单词的变化，而不是一个字符。 这个比较过程是法律和金融业的通常任务。
 
-不需要手动查找文档之间或不同版本之间的差异,而是可以使用 Aspose.Words 用于在格式、页眉/页脚、表格等中比较文档和获取内容变化。
+您可以使用Aspose.Words来比较文档并获取格式、页眉/页脚、表格等内容的更改，而不是手动搜索文档之间或不同版本之间的差异。
 
-本篇文章解释了如何比较文档以及如何指定高级比较属性.
+本文介绍如何比较文档以及如何指定高级比较属性。
 
 {{% alert color="primary" %}}
 
-**尝试在线**
+**在线试用**
 
-您可以使用 [文件在线比较](https://products.aspose.app/words/comparison) 工具。
+你可以使用 [网上文件比较](https://products.aspose.app/words/comparison) 工具。
 
-请注意,这一工具采用了下文所述的比较方法,以确保取得平等的结果。 因此,即使使用在线比较工具或使用比较方法,在 Aspose.Words。 。 。 。
+请注意，此工具中使用了下文所述的比较方法，以确保获得相同的结果。 因此，即使使用在线比较工具或使用Aspose.Words中的比较方法，您也会获得相同的结果。
 
 {{% /alert %}}
 
 ## 限制和支持的文件格式 {#limitations-and-supported-file-formats}
 
-比较文件是一个非常复杂的特征。 需要分析内容组合的不同部分,以确认所有差异。 之所以如此复杂,是因为 Aspose.Words 目的是获得与 Microsoft Word 比较算法。
+比较文档是一个非常复杂的功能。 内容组合的不同部分需要分析以识别所有差异。 这种复杂性的原因是因为Aspose.Words旨在获得与Microsoft Word比较算法相同的比较结果。
 
-比较两个文件的一般限制是,在调用比较方法之前不得有修改,因为这种限制存在于 Microsoft Word。 。 。 。
+被比较的两个文档的一般限制是，在调用比较方法之前，它们不能有修订，因为Microsoft Word中存在此限制。
 
 {{% alert color="primary" %}}
 
-请注意,您可以比较 [支持的文档格式](/words/zh/java/supported-document-formats/)。 。 。 基本上,你可以比较文档对象,甚至你可以在没有任何特定格式的情况下从头创建这些对象.
+请注意，您可以比较 [支持的文件格式](/words/java/supported-document-formats/). 基本上，您可以比较文档对象，甚至可以从头开始创建这些对象，而无需任何特定的格式。
 
 {{% /alert %}}
 
 ## 比较两个文档 {#compare-two-documents}
 
-在比较文档时,后一文档与前一文档的区别会显示为对前一文档的修订. 当您修改文档时,每次编辑都会在运行比较方法后有自己的修改.
+当您比较文档时，后一个文档与前一个文档的差异显示为对前一个文档的修订。 修改文档时，运行compare方法后，每个编辑都会有自己的修订版本。
 
-Aspose.Words 允许您使用 [Compare](https://reference.aspose.com/words/java/com.aspose.words/document/#compare-com.aspose.words.Document-java.lang.String-java.util.Date) 方法 - 这类似于 Microsoft Word 文档比较特性。 它允许您检查文档或文档版本以查找差异和修改,包括格式化修改,如字体修改,间隔修改,词和段落的添加.
+Aspose.Words允许您使用[Compare](https://reference.aspose.com/words/java/com.aspose.words/document/#compare-com.aspose.words.Document-java.lang.String-java.util.Date)方法识别文档差异-这与Microsoft Word文档比较功能类似。 它允许您检查文档或文档版本以查找差异和更改，包括格式修改，如字体更改，间距更改，单词和段落的添加。
 
-通过比较,文件可以确定为等值或者不等值. "同等"文件一词意味着比较方法不能作为订正表示变化。 这意味着文档文本和文本格式都是相同的. 但文档之间可能存在其他差异. 举例来说, Microsoft Word 只支持样式格式修订,而不能代表样式插入/删除。 因此,文档可以有不同的样式, **Compare** 方法仍然没有产生任何修改。
+作为比较的结果，文档可以被确定为相等或不相等。 术语"相等"文档意味着比较方法不能将更改表示为修订。 这意味着文档文本和文本格式都是相同的。 但文档之间可能存在其他差异。 例如，Microsoft Word仅支持样式的格式修订，不能表示样式插入/删除。 所以文档可以有一组不同的样式，**Compare**方法仍然不会产生任何修改。
 
-以下代码示例显示如何检查两个文档是否相等:
+下面的代码示例演示如何检查两个文档是否相等:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CompareTwoWordDocuments-wordDocumentsAreEqual.java" >}}
 
-以下代码示例显示如何简单地应用 `Compare` 方法为两个文档:
+下面的代码示例演示如何简单地将`Compare`方法应用于两个文档:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CompareTwoWordDocuments-caseWhenDocumentHasRevisions.java" >}}
 
 ## 指定高级比较选项 {#specify-advanced-comparing-properties}
 
-有很多不同的属性 [CompareOptions](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/) 用于比较文档的类别。
+[CompareOptions](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/)类有许多不同的属性，您可以在比较文档时应用这些属性。
 
-举例来说, Aspose.Words 允许您忽略原始文档中某些类型对象的比较操作过程中所作的修改。 您可以为对象类型选择合适的属性, 例如 [IgnoreHeadersAndFooters](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getIgnoreHeadersAndFooters), [IgnoreFormatting](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getIgnoreFormatting), [IgnoreComments](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getIgnoreComments), 和他人,规定 "true" ..
+例如，Aspose.Words允许您忽略在比较操作期间对原始文档中某些类型的对象所做的更改。 您可以为对象类型选择适当的属性，例如[IgnoreHeadersAndFooters](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getIgnoreHeadersAndFooters), [IgnoreFormatting](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getIgnoreFormatting), [IgnoreComments](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getIgnoreComments), 和其他人通过将它们设置为"真"。
 
-临Τ Aspose.Words 提供 [Granularity](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getGranularity) 属性,可以指定是按字符还是按字词跟踪变化。
+此外，Aspose.Words还提供了[Granularity](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getGranularity)属性，您可以使用该属性指定是按字符还是按单词跟踪更改。
 
-另一个共同属性是文档显示比较变化的选择. 例如,"Compare 文档对话框"中 Microsoft Word 有"显示变化"的选项,这也影响到比较结果。 Aspose.Words 提供 [Target](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getTarget) 用于此目的的财产。
+另一个常见属性是选择在哪个文档中显示比较更改。 例如，Microsoft Word中的"比较文档对话框"具有"显示更改"选项–这也会影响比较结果。 Aspose.Words提供用于此目的的[Target](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/#getTarget)属性。
 
-以下代码示例显示如何设置高级比较属性:
+下面的代码示例演示如何设置高级比较属性:
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CompareTwoWordDocuments-AdvancedComparingProperties.java" >}}

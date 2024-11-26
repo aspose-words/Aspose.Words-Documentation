@@ -1,24 +1,24 @@
----
-title: 安装
-second_title: "Aspose.Words (单位:千美元) Java"
-articleTitle: 安装
-linktitle: 安装
-description: "安装 Aspose.Words (单位:千美元) Java 从 Maven 数据库。 定义 Aspose.Words (单位:千美元) Java 在您的 pom.xml 中的依赖性"
+﻿---
+title: 安装工程
+second_title: Aspose.Words为Java
+articleTitle: 安装工程
+linktitle: 安装工程
+description: "从Maven存储库为Java安装Aspose.Words。 在pom.xml中为Java依赖项定义Aspose.Words"
 type: docs
 weight: 10
 url: /zh/java/installation/
 timestamp: 2024-01-27-14-07-04
 ---
 
-保证你的机器与 [系统要求](/words/zh/java/system-requirements/) 在你开始之前
+确保您的机器符合 [系统要求](/words/java/system-requirements/) 在你开始之前。
 
-此文章解释如何安装 Aspose.Words (单位:千美元) Java 在你的电脑上。
+本文介绍如何在计算机上为Java安装Aspose.Words。
 
-## 安装 Aspose.Words (单位:千美元) Java 从 Maven 仓库 {#install-aspose-words-for-java-from-maven-repository}
+## 从Maven存储库 {#install-aspose-words-for-java-from-maven-repository}为Java安装Aspose.Words
 
-全部隐藏主机 Java API单位 [Maven 仓库](https://releases.aspose.com/words/java/)。 。 。 。 你可以轻易使用 Aspose.Words (单位:千美元) Java API 直接在您的 Maven 配置简单的项目:
+Aspose承载所有JavaAPIs在 [Maven存储库](https://releases.aspose.com/words/java/). 您可以通过简单的配置直接在Maven项目中使用Aspose.WordsforJavaAPI:
 
-一、导 言 首先,您需要指定 Apose Maven 仓库配置/位置 Maven pom.xml 如下所示:
+1. 首先，您需要在Mavenpom.xml中指定AsposeMaven存储库配置/位置，如下所示:
 	{{< highlight html >}}
 	<repositories>
 		<repository>
@@ -28,7 +28,7 @@ timestamp: 2024-01-27-14-07-04
 		</repository>
 	</repositories>
 	{{< /highlight >}}
-2. 国家 然后,定义 Aspose.Words (单位:千美元) Java API pom.xml 中的依赖性如下:
+2. 然后，在pom.xml中为JavaAPI依赖项定义Aspose.Words，如下所示:
 	{{< highlight html >}}
 	<dependencies>
 		<dependency>
@@ -45,8 +45,8 @@ timestamp: 2024-01-27-14-07-04
 		</dependency>
 	</dependencies>
 	{{< /highlight >}}
-3个 祝贺你! 您已成功定义 Aspose.Words (单位:千美元) Java 您的依赖性 Maven 项目。
+3. 祝贺你！ 您已经成功地在Maven项目中为Java依赖项定义了Aspose.Words。
 
-## 另见
+## 请参阅
 
-* [下载 Aspose.Words 从 Maven](https://releases.aspose.com/words/java/)
+* [从Maven下载Aspose.单词](https://releases.aspose.com/words/java/)

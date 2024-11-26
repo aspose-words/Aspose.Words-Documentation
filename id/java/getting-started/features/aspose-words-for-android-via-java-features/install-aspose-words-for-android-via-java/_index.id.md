@@ -1,9 +1,9 @@
----
-title: Login Aspose.Words Sitemap Android Sitemap Java
-second_title: Aspose.Words Sitemap Java
-articleTitle: Login Aspose.Words Sitemap Android Sitemap Java
-linktitle: Login Aspose.Words Sitemap Android Sitemap Java
-description: "Login Aspose.Words Sitemap Android Sitemap JavaSitemap"
+﻿---
+title: Instal Aspose.Words untuk Android melalui Java
+second_title: Aspose.Words untuk Java
+articleTitle: Instal Aspose.Words untuk Android melalui Java
+linktitle: Instal Aspose.Words untuk Android melalui Java
+description: "Menginstal Aspose.Words untuk Android melalui Java."
 type: docs
 weight: 20
 url: /id/java/install-aspose-words-for-android-via-java/
@@ -12,39 +12,39 @@ timestamp: 2024-01-27-14-07-04
 
 {{% alert color="primary" %}}
 
-Sejak 2017 versi Aspose.Words Sitemap Android Sitemap Java sesuai dengan Aspose.Words Sitemap JavaSitemap
+Sejak 2017, versi Aspose.Words untuk Android melalui Java sesuai dengan Aspose.Words untuk Java.
 
 [aspose-words-20.2-android.via.java.jar](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/20.2/aspose-words-20.2-android.via.java.jar)
 
 {{% /alert %}}
 
-## Login
+## Instalasi
 
-Sitemap Aspose.Words Sitemap Android Sitemap Java didistribusikan sebagai file ZIP tunggal yang terkandung JAR file, demo, dan dokumentasi Aspose.Words Sitemap Android Sitemap JavaSitemap
+Sebelumnya, Aspose.Words untuk Android melalui Java didistribusikan sebagai satu file ZIP yang berisi file JAR, demo, dan dokumentasi Aspose.Words untuk Android melalui Java.
 
-Sitemap Jika Anda ingin menggunakan versi apa pun sebelum Aspose.Words Sitemap Android Sitemap Java 1.11, Anda hanya perlu unzip versi apapun Aspose.WordsSitemapAndroid.zip ke dalam direktori pilihan Anda.
-Sitemap Sertakan file Jar yang diekstrak dalam aplikasi Anda menggunakan konfigurasi Path Build untuk aplikasinya.
+1. Jika Anda ingin menggunakan versi apa pun sebelum Aspose.Words untuk Android melalui Java 1.11, Anda hanya perlu mengekstrak versi apa pun dari Aspose.Words.Android.zip ke dalam direktori pilihan Anda.
+1. Sertakan file Jar yang diekstraksi dalam aplikasi Anda menggunakan konfigurasi Jalur Build untuk aplikasinya.
 
-Versi 1.11 dan 1.12 secara manual dibagi menjadi dua bagian: JAR dan APK untuk membatasi jumlah metode dalam file DEX. Dalam versi ini, kami menyediakan loader APK kami sendiri untuk memulai pemuatan yang benar dari file kelas tambahan.dex. Mulai dari versi 17.2.0 kami mendukung alur kerja resmi yang dijelaskan [Sitemap](https://developer.android.com/studio/build/multidex.html)Sitemap
+Versi 1.11 dan 1.12 secara manual dibagi menjadi dua bagian: JAR dan APK untuk membatasi jumlah metode dalam file DEX. Dalam versi ini, kami menyediakan pemuat APK kami sendiri untuk memulai pemuatan kelas tambahan yang benar.berkas dex. Mulai dari versi 17.2.0 kami mendukung alur kerja resmi yang dijelaskan [di sini](https://developer.android.com/studio/build/multidex.html).
 
-### Cara Menggunakan Aspose.Words Sitemap Android Sitemap Java dari 1.11 Ke atas
+### Cara Menggunakan Aspose.Words untuk Android melalui Java dari 1.11 Dan Seterusnya
 
-Sebelumnya, satu JAR Login Aspose.Words Sitemap Android Sitemap Java mengandung 47+ ribu metode yang membuat versi lama sedikit tidak praktis untuk digunakan dalam aplikasi android besar. Sekarang mulai dari rilis ini, kami telah mulai mengurangi ukuran Aspose.Words Sitemap Android Sitemap Java Login Keprihatinan utama kami sekarang adalah untuk mengurangi jumlah metode tanpa kehilangan fungsi. Kami terus-menerus bekerja untuk meningkatkan kualitas dan kegunaan Aspose.Words Sitemap Android Sitemap JavaSitemap
+Sebelumnya, satu JAR dari Aspose.Words untuk Android melalui Java berisi 47 + ribu metode yang membuat versi lama sedikit tidak praktis untuk digunakan dalam aplikasi android yang besar. Sekarang mulai dari rilis ini, kami telah mulai mengurangi ukuran Aspose.Words untuk Android melalui pustaka Java. Perhatian utama kami sekarang adalah mengurangi jumlah metode tanpa kehilangan fungsionalitas. Kami terus berupaya meningkatkan kualitas dan kegunaan Aspose.Words untuk Android melalui Java.
 
-### Aspose.Words Sitemap Android Sitemap Java Perpustakaan dibagi menjadi dua bagian
+### Aspose.Words untuk Android melalui Perpustakaan Java Dibagi menjadi Dua Bagian
 
 Kami telah membagi perpustakaan menjadi dua arsip berikut:
 
-- aspose-words-1.11-android-jdk15.jar: Yang pertama termasuk publik API dan metode tambahannya. Saat ini, memiliki 32395 metode.
-- aspose-words-1.11-libs-android-jdk15.apk: Yang kedua termasuk toples pesta ke-3, kelas dasar, dan sumber daya. Saat ini, memiliki 18296 metode.
+- aspose-words-1.11-android-jdk15.jar: Yang pertama menyertakan public API dan metode tambahannya. Saat ini, ia memiliki 32395 metode.
+- aspose-words-1.11-libs-android-jdk15.apk: Yang kedua mencakup toples pihak ke-3, kelas dasar, dan sumber daya. Saat ini, ia memiliki 18296 metode.
 
-### Menggunakan Kata-kata Aspose untuk Android Sitemap Java di 1.11
+### Menggunakan Kata Aspose untuk Android melalui Java sejak 1.11
 
-Sitemap Aspose.Words Sitemap Android Sitemap Java ke dalam proyek Anda dapat menggunakan metode berikut:
+Untuk memasukkan Aspose.Words untuk Android melalui Java ke dalam proyek, Anda dapat menggunakan salah satu metode berikut:
 
-- Untuk menempatkan "aspose-words-1.11-android-jdk15.jar" di folder "libs" proyek Anda, dan arsip "aspose-words-1.11-libs-android-jdk15.apk" ke dalam folder "assets". Menunjukkan bahwa Anda akan menggunakan AsposeWordsApplication sebagai yang dasar.
+- Untuk menempatkan "aspose-words-1.11-android-jdk15.jar" di folder "libs" proyek Anda, dan arsip "aspose-words-1.11-libs-android-jdk15.apk "ke dalam folder "aset". Tunjukkan bahwa Anda akan menggunakan AsposeWordsApplication sebagai yang dasar.
 
-**AndroidLogin**
+**AndroidManifest.xml**
 
 {{< highlight csharp >}}
 ...
@@ -60,9 +60,9 @@ Sitemap Aspose.Words Sitemap Android Sitemap Java ke dalam proyek Anda dapat men
 ...
 {{< /highlight >}}
 
-Untuk memulai file .apk di metode onCreate() dan jika Anda tidak ingin menggunakan android: nama="com.aspose.words.AsposeWordsApplication" di AndroidLogin
+Untuk memulai beban .file apk dalam metode onCreate () dan jika Anda tidak ingin menggunakan android:name="com.aspose.kata-kata.AsposeWordsApplication" dalam AndroidManifest.xml
 
-**Sitemap Java Login**
+**Berkas aktivitas Java**
 
 {{< highlight csharp >}}
 @Override
@@ -94,13 +94,13 @@ public static boolean checkIfAWSetUpCorrectly()
 }
 {{< /highlight >}}
 
-### Sitemap Aspose.Words Sitemap Android Sitemap Java Sitemap Android Aplikasi Uji
+### Menggunakan Aspose.Words untuk Android melalui Java dalam Aplikasi Pengujian Android
 
-Sitemap Aspose.Words Sitemap Android Sitemap Java dalam proyek uji, pendekatan yang sama dapat diterapkan:
+Untuk menggunakan Aspose.Words untuk Android melalui Java dalam proyek pengujian, pendekatan yang sama dapat diterapkan:
 
-- AsposeWordsTestRunner AndroidManifest.xml dari proyek uji.
+- Tunjukkan AsposeWordsTestRunner dalam AndroidManifest.xml dari proyek pengujian.
 
-**AndroidLogin**
+**AndroidManifest.xml**
 
 {{< highlight csharp >}}
 ...
@@ -112,11 +112,11 @@ Sitemap Aspose.Words Sitemap Android Sitemap Java dalam proyek uji, pendekatan y
 ...
 {{< /highlight >}}
 
-Dalam IDE mungkin diperlukan untuk menunjukkan AsposeWordsTestRunner di jendela konfigurasi sebagai berikut:
+Dalam IDE mungkin perlu untuk menunjukkan AsposeWordsTestRunner di jendela konfigurasi sebagai berikut:
 
 ![install-aspose-words-for-android-via-java-1](/words/java/install-aspose-words-for-android-via-java/install-aspose-words-for-android-via-java-1.png)
 
-- Atau untuk memulai beban .apk menggunakan metode getTargetContext().
+- Atau untuk memulai beban .apk menggunakan metode getTargetContext ().
 
 {{< highlight csharp >}}
 @Override
@@ -127,16 +127,16 @@ public void onStart() {
 }
 {{< /highlight >}}
 
-## Cara Menggunakan Aspose.Words Sitemap Android Sitemap Java dari 17.2.0 Ke atas
+## Cara Menggunakan Aspose.Words untuk Android melalui Java dari 17.2.0 Dan Seterusnya
 
-Sitemap Unduh versi terbaru dari [Aspose.Words Sitemap Android Sitemap Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/)
-1. Copy aspose-words-18.3-android.via.java.jar ke proyek Anda * libs / *folder
+1. Unduh versi terbaru dari [Aspose.Words untuk Androidmelalui Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/)
+1. Salin aspose-words-18.3-android.via.java.jar ke dalam folder *libs/*proyek Anda
 ![install-aspose-words-for-android-via-java-2](/words/java/install-aspose-words-for-android-via-java/install-aspose-words-for-android-via-java-2.jpg)
 
-### Login Aspose.Words Sitemap Android Sitemap Java Sitemap Maven Login
+### Instal Aspose.Words untuk Android melalui Java dari Repositori Maven
 
-Sitemap Login maven repositori ke dalam build Anda. Login
-Sitemap PromoAspose.Words Sitemap Android Sitemap JavaSitemap JAR sebagai ketergantungan
+1. Tambahkan repositori maven ke dalam build Anda.gradle
+1. Tambahkan 'Aspose.Words untuk Android melalui Java' JAR sebagai ketergantungan
 {{< highlight csharp >}}
 
 // 1. Add maven repository into your build.gradle 

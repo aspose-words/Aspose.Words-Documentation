@@ -1,68 +1,68 @@
----
+﻿---
 title: Mendeteksi Format File
-second_title: Aspose.Words Sitemap Java
-articleTitle: Mendeteksi Format File dan Periksa Kompatibilitas Format
-linktitle: Mendeteksi Format File dan Periksa Kompatibilitas Format
-description: "Mempertahankan informasi tentang format dokumen sebelum membukanya untuk menghindari pengecualian jika Anda tidak yakin apa konten file yang sebenarnya menggunakan JavaSitemap"
+second_title: Aspose.Words untuk Java
+articleTitle: Deteksi Format File dan Periksa Kompatibilitas Format
+linktitle: Deteksi Format File dan Periksa Kompatibilitas Format
+description: "Dapatkan informasi tentang format dokumen sebelum membukanya untuk menghindari pengecualian jika Anda tidak yakin dengan konten sebenarnya dari file yang menggunakan Java."
 type: docs
 weight: 20
 url: /id/java/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---
 
-Kadang-kadang perlu menentukan format dokumen sebelum membuka karena ekstensi file tidak menjamin bahwa isi file yang sesuai. Misalnya, diketahui bahwa Laporan Kristal sering output dokumen dalam format RTF, tetapi memberi mereka ekstensi .doc.
+Terkadang perlu untuk menentukan format dokumen sebelum dibuka karena ekstensi file tidak menjamin bahwa isi file tersebut sesuai. Misalnya, diketahui bahwa Crystal Reports sering kali mengeluarkan dokumen dalam format RTF, tetapi memberikannya.ekstensi dokumen.
 
-Aspose.Words memberikan kemampuan untuk memperoleh informasi tentang jenis file untuk menghindari pengecualian jika Anda tidak yakin apa konten file yang sebenarnya.
+Aspose.Words menyediakan kemampuan untuk memperoleh informasi tentang jenis file untuk menghindari pengecualian jika Anda tidak yakin apa isi sebenarnya dari file tersebut.
 
-## Mendeteksi Format File tanpa pengecualian
+## Mendeteksi Format File tanpa Pengecualian
 
-Ketika Anda berurusan dengan beberapa dokumen dalam berbagai format file, Anda mungkin perlu memisahkan file-file yang dapat diproses oleh Aspose.Words dari mereka yang tidak bisa. Meme it Anda mungkin juga ingin tahu mengapa beberapa dokumen tidak dapat diproses.
+Saat Anda berurusan dengan banyak dokumen dalam berbagai format file, Anda mungkin perlu memisahkan file yang dapat diproses oleh Aspose.Words dari yang tidak dapat. Anda mungkin juga ingin tahu mengapa beberapa dokumen tidak dapat diproses.
 
-Jika Anda mencoba memuat file ke dalam [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) Sitemap Aspose.Words tidak dapat mengenali format file atau format tidak didukung, Aspose.Words akan membuang pengecualian. Anda dapat menangkap pengecualian dan menganalisis mereka, tetapi Aspose.Words juga menyediakan [DetectFileFormat](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/#detectFileFormat-java.lang.String) metode yang memungkinkan kita untuk dengan cepat menentukan format file tanpa memuat dokumen dengan pengecualian yang mungkin. Metode ini mengembalikan [FileFormatInfo](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/) objek yang berisi informasi terdeteksi tentang jenis file.
+Jika Anda mencoba memuat file ke dalam objek [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) dan Aspose.Words tidak dapat mengenali format file atau formatnya tidak didukung, Aspose.Words akan mengeluarkan pengecualian. Anda dapat menangkap pengecualian tersebut dan menganalisisnya, tetapi Aspose.Words juga menyediakan metode [DetectFileFormat](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/#detectFileFormat-java.lang.String) yang memungkinkan kita menentukan format file dengan cepat tanpa memuat dokumen dengan kemungkinan pengecualian. Metode ini mengembalikan objek [FileFormatInfo](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/) yang berisi informasi yang terdeteksi tentang jenis file.
 
 {{% alert color="primary" %}}
 
-Login Format hanya memeriksa format file tetapi tidak memvalidasi format file. Tidak ada jaminan bahwa file akan dibuka berhasil, bahkan jika **DetectFileFormat** kembali bahwa itu adalah salah satu format yang didukung. Ini karena **DetectFileFormat** metode membaca hanya data format file parsial, cukup untuk memeriksa format file, tetapi tidak cukup untuk validasi lengkap.
+DetectFileFormat hanya memeriksa format file tetapi tidak memvalidasi format file. Tidak ada jaminan bahwa file akan berhasil dibuka, meskipun **DetectFileFormat** mengembalikan bahwa itu adalah salah satu format yang didukung. Ini karena metode **DetectFileFormat** hanya membaca sebagian data format file, cukup untuk memeriksa format file, tetapi tidak cukup untuk validasi lengkap.
 
 {{% /alert %}}
 
 ## Periksa Kompatibilitas Format File
 
-Kita dapat memeriksa kompatibilitas format dari semua file di folder yang dipilih dan memilahnya dengan format ke subfolder yang sesuai.
+Kami dapat memeriksa kompatibilitas format semua file di folder yang dipilih dan mengurutkannya berdasarkan format ke dalam subfolder yang sesuai.
 
-Karena kita berurusan dengan konten di folder, hal pertama yang perlu kita lakukan adalah mendapatkan koleksi semua file di folder ini menggunakan **GetFiles** metode `Directory` kelas (dari `System.IO` Login
+Karena kita berurusan dengan konten dalam sebuah folder, hal pertama yang perlu kita lakukan adalah mendapatkan kumpulan semua file dalam folder ini menggunakan metode **GetFiles** dari kelas `Directory` (dari namespace `System.IO`).
 
-Contoh kode berikut menunjukkan cara mendapatkan daftar semua file di folder:
+Contoh kode berikut menunjukkan cara mendapatkan daftar semua file dalam folder:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-CheckFormatCompatibility-GetListOfFilesInFolder.java" >}}
 
-Ketika semua file dikumpulkan, sisa pekerjaan dilakukan oleh Meme it **DetectFileFormat** metode, yang memeriksa format file.
+Ketika semua file dikumpulkan, sisa pekerjaan dilakukan dengan metode **DetectFileFormat**, yang memeriksa format file.
 
-Contoh kode berikut menunjukkan cara menyertai daftar file yang dikumpulkan, periksa format setiap file, dan memindahkan setiap file ke folder yang sesuai:
+Contoh kode berikut menunjukkan cara mengulang daftar file yang dikumpulkan, memeriksa format setiap file, dan memindahkan setiap file ke folder yang sesuai:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-CheckFormatCompatibility-CheckFormatCompatibility.java" >}}
 
-File dipindahkan ke subfolder yang tepat menggunakan `Move` metode `File` kelas, dari yang sama `System.IO` Login
+File dipindahkan ke subfolder yang sesuai menggunakan metode `Move` dari kelas `File`, dari namespace `System.IO` yang sama.
 
-File berikut digunakan dalam contoh di atas. Nama file berada di sebelah kiri dan deskripsinya tepat:
+File-file berikut digunakan dalam contoh di atas. Nama file ada di sebelah kiri dan deskripsinya ada di sebelah kanan:
 
-| Group Login | Dokumen Masuk | Login |
-|  :-  |  :-  |  :-  |
-| Format file yang didukung | File Uji (Doc).doc | Microsoft Word 95/6.0 atau Microsoft Word 97 – 2003 dokumen. |
-|  | Uji File (Dot).dot | Microsoft Word 95/6.0 atau Microsoft Word 97 – 2003 template. |
-|  | File Uji (Docx).docx | Office Open XML API Dokumen ML tanpa makro. |
-|  | Uji File (Docm).docm | Office Open XML API Dokumen ML dengan makro. |
-|  | Uji File (Dotx).dotx | Office Open XML API Template ML. |
-|  | Uji File (Dotm).dotm | Office Open XML API Template ML dengan makro. |
-|  | API documentation | Sitemap |
-|  | Uji File (RTF).rtf | Dokumen Format Teks yang kaya. |
-|  | Test File (WordML).xml | Microsoft Word 2003 Wordprocessing Dokumen ML. |
-|  | API documentation | Database |
-|  | File Folder (MHTML).mhtml | MHTML (Web arsip) dokumen. |
-|  | Uji File (Odt).odt | OpenOffice Writer |
-|  | Uji File (Ott).ott | Template Dokumen OpenDocument. |
-|  | File Uji (DocPreWord60).doc | Microsoft Word 2.0 dokumen. |
-| Dokumen yang dienkripsi | Datasheet (Enc).doc | Sitemap Microsoft Word 95/6.0 atau Microsoft Word 97 – 2003 dokumen. |
-|  | Datasheet (Enc).docx | Enkripsi Office Open XML Wordprocessing Dokumen ML. |
-| Unsupported format file | Uji File (JPG). Login | File gambar JPEG. |
+| Grup File | Dokumen Masukan | Jenis |
+| :- | :- | :- |
+| Format file yang didukung | Test File (Doc).doc | Dokumen Microsoft Word 95/6.0 atau Microsoft Word 97-2003. |
+|  | Test File (Dot).dot | Templat Microsoft Word 95/6.0 atau Microsoft Word 97-2003. |
+|  | Test File (Docx).docx | Office Membuka dokumen XML WordprocessingML tanpa makro. |
+|  | Test File (Docm).docm | Office Membuka dokumen XML WordprocessingML dengan makro. |
+|  | Test File (Dotx).dotx | Templat Kantor Terbuka XML WordprocessingML. |
+|  | Test File (Dotm).dotm | Templat Office Open XML WordprocessingML dengan makro. |
+|  | Test File (XML).xml | FlatOPC OOXML Dokumen. |
+|  | Test File (RTF).rtf | Dokumen Format Teks Kaya. |
+|  | Test File (WordML).xml | Microsoft Word Dokumen tahun 2003 WordprocessingML. |
+|  | Test File (HTML).html | HTML dokumen. |
+|  | Test File (MHTML).mhtml | Dokumen MHTML (Arsip web). |
+|  | Test File (Odt).odt | OpenDocument Teks (OpenOffice Penulis). |
+|  | Test File (Ott).ott | OpenDocument Templat Dokumen. |
+|  | Test File (DocPreWord60).doc | Microsoft Word 2.0 dokumen. |
+| Dokumen terenkripsi | Test File (Enc).doc | Dokumen Microsoft Word 95/6.0 atau Microsoft Word 97 – 2003 terenkripsi. |
+|  | Test File (Enc).docx | Kantor Terenkripsi Membuka dokumen XML WordprocessingML. |
+| Format file yang tidak didukung | Test File (JPG).jpg | JPEG berkas gambar. |
 

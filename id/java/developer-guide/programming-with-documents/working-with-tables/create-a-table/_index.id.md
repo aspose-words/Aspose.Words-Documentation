@@ -1,139 +1,139 @@
----
+﻿---
 title: Cara Membuat Tabel di Java
-second_title: Aspose.Words Sitemap Java
+second_title: Aspose.Words untuk Java
 articleTitle: Buat Tabel
 linktitle: Buat Tabel
-description: "Cara yang berbeda untuk membuat tabel dalam dokumen Anda menggunakan JavaSitemap"
+description: "Berbagai cara untuk membuat tabel di dokumen Anda menggunakan Java."
 type: docs
 weight: 20
 url: /id/java/create-a-table/
 timestamp: 2024-10-21-11-17-44
 ---
 
-Aspose.Words memungkinkan pengguna untuk membuat tabel dalam dokumen dari awal dan menyediakan beberapa metode yang berbeda untuk melakukannya. Artikel ini menyajikan rincian tentang cara menambahkan tabel yang diformat ke dokumen Anda menggunakan setiap metode, serta perbandingan setiap metode pada akhir artikel.
+Aspose.Words memungkinkan pengguna membuat tabel dalam dokumen dari awal dan menyediakan beberapa metode berbeda untuk melakukannya. Artikel ini menyajikan detail tentang cara menambahkan tabel berformat ke dokumen Anda menggunakan setiap metode, serta perbandingan setiap metode di akhir artikel.
 
-## Gaya Meja Default
+## Gaya Tabel Default
 
-Tabel yang baru dibuat diberikan nilai default yang mirip dengan yang digunakan Microsoft WordSitemap
+Tabel yang baru dibuat diberi nilai default yang serupa dengan yang digunakan di Microsoft Word:
 
-| Harta site | Login Aspose.Words |
-|  :-  |  :-  |
-| `Border Style` |  `Single`  |
+| Properti Tabel | Bawaan dalam Aspose.Words |
+| :- | :- |
+| `Border Style` | `Single` |
 | `Border Width` | `1/2 pt` |
-| Warna Perbatasan |  `Black`  |
+| Warna Batas | `Black` |
 | `Left and Right Padding` | `5.4 pts` |
 | `AutoFit Mode` | `AutoFit to Window` |
-| `Allow AutoFit` |  `True`  |
+| `Allow AutoFit` | `True` |
 {{% alert color="primary" %}}
 
-Meja dapat masuk jika diposisikan rapat, atau mengambang jika dapat diposisikan di mana saja di halaman. Login Aspose.Words selalu membuat tabel inline.
+Sebuah tabel dapat sebaris jika diposisikan dengan rapat, atau mengambang jika dapat diposisikan di mana saja di halaman. Secara default, Aspose.Words selalu membuat tabel sebaris.
 
 {{% /alert %}}
 
 ## Buat Tabel dengan DocumentBuilder
 
-Sitemap Aspose.Words, pengguna dapat membuat tabel dalam dokumen menggunakan [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)Sitemap Algoritme dasar untuk membuat tabel adalah sebagai berikut:
+Di Aspose.Words, pengguna dapat membuat tabel dalam dokumen menggunakan [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/). Algoritma dasar untuk membuat tabel adalah sebagai berikut:
 
-Sitemap Mulai tabel dengan [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable)
-2. di Tambahkan sel ke meja menggunakan [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell) - ini secara otomatis memulai baris baru
-3. Juni Opsional, gunakan [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCellFormat) properti untuk menentukan format sel
-4. Oktober Masukkan konten sel menggunakan yang sesuai **DocumentBuilder** metode seperti [Writeln](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#writeln), [InsertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte), dan lain-lain
-5. Juli Ulangi langkah 2-4 sampai baris selesai
-6. Juni Login [EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) untuk mengakhiri baris saat ini
-Sitemap Opsional, gunakan [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getRowFormat) properti untuk menentukan format baris
-Sitemap Ulangi langkah 2-7 sampai tabel selesai
-9. Juni Login [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) untuk menyelesaikan membangun meja
+1. Mulai tabel dengan [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable)
+2. Tambahkan sel ke tabel menggunakan [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell) - ini secara otomatis memulai baris baru
+3. Secara opsional, gunakan properti [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCellFormat) untuk menentukan pemformatan sel
+4. Sisipkan konten sel menggunakan metode **DocumentBuilder** yang sesuai seperti [Writeln](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#writeln), [InsertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte), dan lainnya
+5. Ulangi langkah 2-4 hingga baris selesai
+6. Panggil [EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) untuk mengakhiri baris saat ini
+7. Secara opsional, gunakan properti [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getRowFormat) untuk menentukan pemformatan baris
+8. Ulangi langkah 2-7 hingga tabel selesai
+9. Panggil [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) untuk menyelesaikan pembuatan tabel
 
 {{% alert color="primary" %}}
 
-Detail penting:
+Rincian penting:
 
-- Login [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) juga dapat disebut di dalam sel, dalam hal itu mulai penciptaan meja bersarang dalam sel.
-- Setelah panggilan [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell), sel baru diciptakan, dan konten apa pun yang Anda tambahkan menggunakan metode lain dari [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) kelas akan ditambahkan ke sel saat ini. Untuk membuat sel baru pada baris yang sama, panggilan **InsertCell** lagi.
-- Sitemap **InsertCell** disebut segera setelah [EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) dan akhir baris, tabel akan terus di baris baru.
-- Sitemap [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) metode untuk mengakhiri tabel hanya boleh disebut setelah memanggil **EndRow**Sitemap Login **EndTable** memindahkan kursor dari sel saat ini ke posisi segera setelah tabel.
+- [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) juga dapat dipanggil di dalam sel, dalam hal ini ia memulai pembuatan tabel bersarang di dalam sel.
+- Setelah memanggil [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell), sel baru dibuat, dan konten apa pun yang Anda tambahkan menggunakan metode lain dari kelas [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) akan ditambahkan ke sel saat ini. Untuk membuat sel baru pada baris yang sama, panggil **InsertCell** lagi.
+- Jika **InsertCell** dipanggil segera setelah [EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) dan akhir baris, tabel akan dilanjutkan pada baris baru.
+- Metode [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) untuk mengakhiri tabel hanya boleh dipanggil satu kali setelah memanggil **EndRow**. Memanggil **EndTable** memindahkan kursor dari sel saat ini ke posisi segera setelah tabel.
 
 {{% /alert %}}
 
-Proses pembuatan meja dapat terlihat jelas dalam gambar berikut:
+Proses pembuatan tabel dapat dilihat dengan jelas pada gambar berikut:
 
 ![creating-table-process](/words/java/create-a-table/creating-table-process.jpg)
 
-Contoh kode berikut menunjukkan cara membuat tabel sederhana menggunakan **DocumentBuilder** dengan format default:
+Contoh kode berikut menunjukkan cara membuat tabel sederhana menggunakan **DocumentBuilder** dengan pemformatan default:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "create-simple-table.java" >}}
 
-Contoh kode berikut menunjukkan cara membuat tabel yang diformat menggunakan DocumentBuilder:
+Contoh kode berikut menunjukkan cara membuat tabel berformat menggunakan DocumentBuilder:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "formatted-table.java" >}}
 
-Contoh kode berikut menunjukkan cara memasukkan tabel bersarang menggunakan DocumentBuilder:
+Contoh kode berikut menunjukkan cara menyisipkan tabel bersarang menggunakan DocumentBuilder:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "nested-table.java" >}}
 
-## Buat Tabel melalui DOM SitemapDocument Object ModelSitemap
+## Buat Tabel melalui DOM (Model Objek Dokumen)
 
-Anda dapat memasukkan tabel langsung ke tabel DOM dengan menambahkan yang baru [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) node pada posisi tertentu.
+Anda dapat menyisipkan tabel langsung ke DOM dengan menambahkan simpul [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) baru pada posisi tertentu.
 
-Harap dicatat bahwa segera setelah pembuatan node tabel, tabel itu sendiri akan benar-benar kosong, itu tidak mengandung baris dan sel. Untuk memasukkan baris dan sel ke dalam tabel, tambahkan yang sesuai [Row](https://reference.aspose.com/words/java/com.aspose.words/run/) Login [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) node anak ke DOMSitemap
+Harap dicatat bahwa segera setelah pembuatan simpul tabel, tabel itu sendiri akan benar-benar kosong, yaitu belum berisi baris dan sel. Untuk menyisipkan baris dan sel ke dalam tabel, tambahkan simpul turunan [Row](https://reference.aspose.com/words/java/com.aspose.words/run/) dan [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) yang sesuai ke DOM.
 
 {{% alert color="primary" %}}
 
-Metode ini membuat tabel menggunakan default tabel yang sama saat menggunakan **DocumentBuilder**Sitemap
+Metode pembuatan tabel ini menggunakan default tabel yang sama seperti saat menggunakan **DocumentBuilder**.
 
 {{% /alert %}}
 
-Contoh kode berikut menunjukkan cara membangun tabel baru dari awal dengan menambahkan simpul anak yang tepat ke pohon dokumen:
+Contoh kode berikut menunjukkan cara membuat tabel baru dari awal dengan menambahkan simpul turunan yang sesuai ke pohon dokumen:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "insert-table-directly.java" >}}
 
 ## Buat Tabel dari HTML
 
-Aspose.Words mendukung memasukkan konten ke dalam dokumen dari sumber HTML menggunakan [InsertHtml](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHtml-java.lang.String) Login Masukan dapat menjadi halaman HTML penuh atau hanya cuplikan parsial.
+Aspose.Words mendukung penyisipan konten ke dalam dokumen dari sumber HTML menggunakan metode [InsertHtml](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHtml-java.lang.String). Inputnya bisa berupa halaman HTML penuh atau hanya sebagian cuplikan.
 
-Menggunakan ini **InsertHtml** metode, pengguna dapat memasukkan tabel ke dalam dokumen melalui tag tabel seperti `<table>`, `<tr>`, `<td>`Sitemap
+Dengan menggunakan metode **InsertHtml** ini, pengguna dapat menyisipkan tabel ke dalam dokumen melalui tag tabel seperti `<table>`, `<tr>`, `<td>`.
 
-Contoh kode berikut menunjukkan cara memasukkan tabel ke dalam dokumen dari string yang berisi tag HTML:
+Contoh kode berikut menunjukkan cara menyisipkan tabel ke dalam dokumen dari string yang berisi tag HTML:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "insert-table-from-html.java" >}}
 
-## Masukkan Salinan Tabel Yang Ada
+## Menyisipkan Salinan Tabel yang Sudah Ada
 
-Ada sering kali kali ketika Anda perlu membuat tabel berdasarkan tabel yang sudah ada dalam dokumen. Cara termudah untuk menggandakan tabel sambil mempertahankan semua format adalah untuk mengkloning node Tabel menggunakan [deepClone](https://reference.aspose.com/words/java/com.aspose.words/node/#deepClone-boolean) Login
+Sering kali Anda perlu membuat tabel berdasarkan tabel yang sudah ada di dokumen. Cara termudah untuk menduplikasi tabel sambil mempertahankan semua pemformatan adalah dengan mengkloning simpul Tabel menggunakan metode [deepClone](https://reference.aspose.com/words/java/com.aspose.words/node/#deepClone-boolean).
 
-Teknik yang sama dapat digunakan untuk menambahkan salinan baris atau sel yang ada ke meja.
+Teknik yang sama dapat digunakan untuk menambahkan salinan baris atau sel yang ada ke tabel.
 
-Contoh kode berikut menunjukkan cara menggandakan tabel menggunakan konstruktor node:
+Contoh kode berikut menunjukkan cara menduplikasi tabel menggunakan konstruktor node:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "clone-complete-table.java" >}}
 
 {{% alert color="primary" %}}
 
-Anda dapat mengunduh file sampel dari contoh ini dari [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx)Sitemap
+Anda dapat mengunduh file contoh contoh ini dari [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
 
 {{% /alert %}}
 
-Contoh kode berikut menunjukkan bagaimana untuk mengacaukan baris terakhir dari tabel dan mengubahnya ke tabel:
+Contoh kode berikut menunjukkan cara mengkloning baris terakhir tabel dan menambahkannya ke tabel:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "clone-last-row.java" >}}
 
 {{% alert color="primary" %}}
 
-Anda dapat mengunduh file sampel dari contoh ini dari [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx)Sitemap
+Anda dapat mengunduh file contoh contoh ini dari [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
 
 {{% /alert %}}
 
-Jika Anda melihat membuat tabel dalam dokumen yang tumbuh secara dinamis dengan setiap catatan dari sumber data Anda, maka metode di atas tidak disarankan. Sebaliknya, output yang diinginkan lebih mudah dicapai dengan menggunakan Mail merge dengan daerah. Anda dapat mempelajari lebih lanjut tentang teknik ini di Meme it [Mail Merge Login](/words/java/types-of-mail-merge-operations/) Sitemap
+Jika Anda ingin membuat tabel dalam dokumen yang berkembang secara dinamis dengan setiap catatan dari sumber data Anda, maka metode di atas tidak disarankan. Sebaliknya, keluaran yang diinginkan lebih mudah dicapai dengan menggunakan Mail merge dengan wilayah. Anda dapat mempelajari lebih lanjut tentang teknik ini di [Mail Merge dengan Wilayah](/words/java/types-of-mail-merge-operations/) bagian.
 
-## Bandingkan Cara Membuat Meja
+## Bandingkan Cara Membuat Tabel
 
-Aspose.Words menyediakan beberapa metode untuk membuat tabel baru dalam dokumen. Setiap metode memiliki kelebihan dan kekurangannya sendiri, sehingga pilihan yang sering digunakan tergantung pada situasi tertentu.
+Aspose.Words menyediakan beberapa metode untuk membuat tabel baru dalam dokumen. Setiap metode memiliki kelebihan dan kekurangannya masing-masing, sehingga pilihan yang akan digunakan seringkali bergantung pada situasi tertentu.
 
-Mari kita lihat lebih dekat dengan cara membuat tabel dan membandingkan pro dan kontra mereka:
+Mari kita lihat lebih dekat cara membuat tabel ini dan bandingkan pro dan kontranya:
 
-|  Login | Sitemap |  Login |
-|  :-  |  :-  |  :-  |
-| Login `DocumentBuilder` | Metode standar untuk memasukkan tabel dan konten dokumen lainnya | Kadang-kadang sulit untuk membuat banyak varietas tabel pada saat yang sama dengan instance pembangun yang sama |
-| Login DOM |  Cocok lebih baik dengan kode sekitarnya yang menciptakan dan memasukkan node langsung ke DOM tanpa menggunakan **DocumentBuilder** | Tabel dibuat "kosong": sebelum melakukan sebagian besar operasi, Anda harus memanggil [EnsureMinimum](https://reference.aspose.com/words/java/com.aspose.words/table/#ensureMinimum) untuk membuat node anak yang hilang |
-| Dari HTML | Dapat membuat tabel baru dari sumber HTML menggunakan tag seperti `<table>`, `<tr>`, `<td>` | Tidak semua mungkin Microsoft Word format tabel dapat diterapkan ke HTML |
-| Menutup tabel yang ada | Anda dapat membuat salinan tabel yang ada sambil mempertahankan semua baris dan format sel | Node anak yang tepat harus dihapus sebelum tabel siap digunakan |
+| Metode | Keuntungan | Kekurangan |
+| :- | :- | :- |
+| Melalui `DocumentBuilder` | Metode standar untuk menyisipkan tabel dan konten dokumen lainnya | Terkadang sulit untuk membuat banyak variasi tabel secara bersamaan dengan instance builder yang sama |
+| Melalui DOM | Lebih cocok dengan kode di sekitarnya yang membuat dan menyisipkan node langsung ke DOM tanpa menggunakan **DocumentBuilder** | Tabel dibuat "kosong": sebelum melakukan sebagian besar operasi, Anda harus memanggil [EnsureMinimum](https://reference.aspose.com/words/java/com.aspose.words/table/#ensureMinimum) untuk membuat simpul turunan yang hilang |
+| Dari HTML | Dapat membuat tabel baru dari HTML sumber menggunakan tag seperti `<table>`, `<tr>`, `<td>` | Tidak semua format tabel Microsoft Word yang memungkinkan dapat diterapkan ke HTML |
+| Mengkloning tabel yang ada | Anda dapat membuat salinan tabel yang ada dengan tetap mempertahankan semua pemformatan baris dan sel | Node turunan yang sesuai harus dihapus sebelum tabel siap digunakan |

@@ -1,40 +1,40 @@
----
-title: 与 Markdown 特点 Java
-second_title: "Aspose.Words (单位:千美元) Java"
-articleTitle: 与 Markdown 特征
-linktitle: 与 Markdown 特征
-description: "如何执行 Markdown 使用 Java。 。 。 所有特性都作为相应的样式或直接格式化来表示."
+﻿---
+title: 使用Java中的Markdown功能
+second_title: Aspose.Words为Java
+articleTitle: 使用Markdown功能
+linktitle: 使用Markdown功能
+description: "如何使用Java实现Markdown功能。 所有功能都表示为相应的样式或直接格式。"
 type: docs
 weight: 420
 url: /zh/java/working-with-markdown-features/
 timestamp: 2024-01-31-14-23-37
 ---
 
-讨论如何执行 Markdown 使用 Aspose.Words。 。 。 。 Markdown 是一种简单的格式化纯文本的方法,可以很容易地转换成HTML。 Aspose.Words 支持以下内容: Markdown 特性:
+本主题讨论如何使用Aspose.Words实现Markdown功能。 Markdown是格式化纯文本的简单方法，可以轻松转换为HTML。 Aspose.Words支持以下Markdown功能:
 
 - 标题
-- 方块
+- 块引用
 - 横向规则
-- 粗体强调
+- 大胆强调
 - 斜体强调
 
-那个 Markdown 特性执行主要遵循 `CommonMark` 规格 Aspose.Words API 和所有特性都以相应的样式或直接格式化来表示。 也就是说
+Markdown功能实现大多遵循Aspose.WordsAPI中的`CommonMark`规范，所有功能都表示为相应的样式或直接格式。 这意味着
 
-- 粗体和斜体代表为: `Font.Bold` 和 `Font.Italic`。 。 。 。
-- 标题是带有标题1的段落 - 标题6的风格
-- 引文为样式名称中带有"引文"的段落
-- 水平规则是带有一段 `HorizontalRule` 形状。
+- 粗体和斜体表示为`Font.Bold`和`Font.Italic`。
+- 标题是具有Heading 1-Heading 6样式的段落。
+- 引号是样式名称中带有"Quote"的段落。
+- HorizontalRule是具有`HorizontalRule`形状的段落。
 
 {{% alert color="primary" %}}
 
-翻译有细微差别 Markdown 页:1 Aspose.Words Document Object Model (单位:千美元)DOM)),在文章中描述. [翻译 Markdown 改为 Document Object Model (单位:千美元)DOM页:1](/words/zh/java/translate-markdown-to-document-object-model/)。 。 。 。
+将Markdown转换为Aspose.Words文档对象模型（DOM）有细微差别，如本文所述 [将Markdown转换为文档对象模型(DOM)](/words/java/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 
 
-## Markdown 带有 Emphase 的文档
+## Markdown重点文件
 
-本节介绍如何制作 markdown 带有以下重点的文档:
+本节演示如何生成一个markdown文档，重点如下:
 
 {{< highlight csharp >}}
 Markdown treats asterisks (*) and underscores (_) as indicators of emphasis.
@@ -42,14 +42,14 @@ You can write **bold** or *italic* text.
 You can also write ***BoldItalic***text.
 {{< /highlight >}}
 
-以下代码片段可用于生成上面给出的 markdown 文档。
+下面的代码片段可用于生成上述markdown文档。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-MarkdownDocumentWithEmphases.java" >}}
 
 
-## Markdown 有标题的文档
+## Markdown带标题的文件
 
-本节介绍如何制作 markdown 标题如下:
+本节演示如何生成标题如下的markdown文档:
 
 {{< highlight csharp >}}
 The following produces headings:
@@ -62,13 +62,13 @@ The following produces headings:
 # **Bold Heading1**
 {{< /highlight >}}
 
-以下代码片段可用于生成上面给出的 markdown 文档。
+下面的代码片段可用于生成上述给定的markdown文档。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-MarkdownDocumentWithHeadings.java" >}}
 
-## Markdown 带有块引号的文档
+## 带有块引号的Markdown文档
 
-本节介绍如何制作 markdown 文档中包含块引用如下:
+本节演示如何生成带有块引号的markdown文档，如下所示:
 
 {{< highlight csharp >}}
 We support blockquotes in Markdown:
@@ -83,13 +83,13 @@ We support blockquotes in Markdown:
 >### Headings are allowed inside Quotes
 >{{< /highlight >}}
 
-以下代码片段可用于生成上面给出的 markdown 文档。
+下面的代码片段可用于生成上述给定的markdown文档。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-MarkdownDocumentWithBlockQuotes.java" >}}
 
-## Markdown 带有水平规则的文档
+## Markdown具有水平规则的文档
 
-本节介绍如何制作 markdown 带有水平的文档 规则如下:
+本节演示如何生成具有水平规则的markdown文档，如下所示:
 
 {{< highlight csharp >}}
 We support Horizontal rules (Thematic breaks) in Markdown:
@@ -97,26 +97,26 @@ We support Horizontal rules (Thematic breaks) in Markdown:
 
 {{< /highlight >}}
 
-以下代码片段可用于生成上面给出的 markdown 文档。
+下面的代码片段可用于生成上述markdown文档。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-MarkdownDocumentWithHorizontalRule.java" >}}
 
-## 读取a Markdown 文档
+## 阅读Markdown文档
 
-以下代码片段显示您如何读取 markdown 文档。
+下面的代码片段向您展示了如何读取markdown文档。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-ReadMarkdownDocument.java" >}}
 
-## 指定 Markdown 保存选项
+## 指定Markdown保存选项
 
-Aspose.Words API 提供 [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) 分类以指定附加选项,同时将文档保存到 Markdown 格式。
+Aspose.WordsAPI提供[MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/)类以指定其他选项，同时将文档保存为Markdown格式。
 
-以下代码示例演示了如何指定各种 Markdown 保存选项。
+下面的代码示例演示了如何指定各种Markdown保存选项。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-SaveAsMD.java" >}}
 
-## 导出时如何调整表格内的内容 Markdown
+## 如何在导出为Markdown时对齐表内的内容
 
-Aspose.Words API 提供 [TableContentAlignment](https://reference.aspose.com/words/java/com.aspose.words/tablecontentalignment/) 列出定义对齐方向,以便在导出到 Markdown 文档。 以下代码示例说明如何对齐表中的内容.
+Aspose.WordsAPI提供[TableContentAlignment](https://reference.aspose.com/words/java/com.aspose.words/tablecontentalignment/)枚举，它定义对齐方向，以便在导出到Markdown文档时对齐表中的内容。 下面的代码示例演示如何在表内对齐内容。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-ExportIntoMarkdownWithTableContentAlignment.java" >}}

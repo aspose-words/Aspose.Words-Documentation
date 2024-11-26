@@ -1,9 +1,9 @@
----
-title: 启用 OpenType 特性于 Java
-second_title: "Aspose.Words (单位:千美元) Java"
-articleTitle: 启用 OpenType 特性
-linktitle: 启用 OpenType 特性
-description: "高级打字功能 Aspose.Words (单位:千美元) Java。 。 。 。"
+﻿---
+title: 在Java中启用OpenType功能
+second_title: Aspose.Words为Java
+articleTitle: 启用OpenType功能
+linktitle: 启用OpenType功能
+description: "Aspose.Words中的Java高级排版功能。"
 type: docs
 weight: 25
 url: /zh/java/enable-opentype-features/
@@ -12,18 +12,18 @@ timestamp: 2024-01-27-14-07-04
 
 
 
-OpenType是一种字体格式,与PostScript和TrueType相比,采用它为国际语言和写作系统提供更好的支持. OpenType的布局特征通常被称为OpenType特征. Aspose.Words. 发抖.HarfBuzz 软件包为 OpenType 特性提供支持 Aspose.Words 使用 `HarfBuzz` 文本塑造引擎。
+OpenType是一种字体格式，与PostScript和TrueType相比，它为国际语言和书写系统提供了更好的支持。 OpenType的布局特征通常称为OpenType特征。 Aspose.Words.塑造。HarfBuzz包使用`HarfBuzz`文本整形引擎为Aspose.Words中的OpenType要素提供支持。
 
-Aspose.Words 能够使用外部提供的文本形状器对象。 文本形状器代表字体,并计算文本的塑造信息。 文档通常指多个字体,因此需要文本形状器厂。 这套软件包中包括一个文本造型器工厂的安装,用于: Aspose.Words. Layout. Layout options. TextShaper Factory 属性. 星洲网.
+Aspose.Words能够使用外部提供的文本整形器对象。 文本整形器表示字体并计算文本的整形信息。 一个文档通常是指多个字体，因此一个文本整形工厂是必要的。 该软件包包含Aspose.Words使用的文本整形器工厂的实现。布局。LayoutOptions.TextShaperFactory属性。
 
 {{% alert color="primary" %}}
 
-文本形状仅在导出到 PDF 或 XPS 格式。
+仅在导出为PDF或XPS格式时才执行文本整形。
 
 {{% /alert %}}
 
-在典型的应用中,文本形状器厂的单一实例在所有文件实例中共享。 当创建文本形状器时,可以访问字体文件。 分析字体文件是一个昂贵的操作, 因此推荐缓存 。 Aspose.Words 执行 基本文本交换器 缓存类,用于包装文本形状器工厂执行,并缓存被包装工厂返回的文本形状器实例.
+在典型的应用程序中，文本整形器工厂的单个实例在所有文档实例之间共享。 每当创建文本整形器时，都会访问字体文件。 解析字体文件是一项昂贵的操作，因此建议使用缓存。 Aspose.Words实现BasicTextShaperCache类，该类包装文本整形器工厂实现并缓存由包装工厂返回的文本整形器实例。
 
-以下代码示例显示您如何打开 OpenType 特性的支持.
+下面的代码示例演示如何打开OpenType功能的支持。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-OpenTypeFeatures-OpenTypeFeatures.java" >}}

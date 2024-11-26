@@ -1,22 +1,22 @@
----
-title: 创建或装入文档 Java
-second_title: "Aspose.Words (单位:千美元) Java"
-articleTitle: 创建或装入文档
-linktitle: 创建或装入文档
+﻿---
+title: 在Java中创建或加载文档
+second_title: Aspose.Words为Java
+articleTitle: 创建或加载文档
+linktitle: 创建或加载文档
 type: docs
 weight: 10
 url: /zh/java/create-or-load-a-document/
-description: "Aspose.Words 允许您创建空白文档,或者使用 Java。 。 。 。"
+description: "Aspose.Words使您能够创建空白文档或使用Java从文件或流中加载它。"
 timestamp: 2024-01-27-14-07-04
 ---
 
-几乎任何您想要完成的任务 Aspose.Words 涉及装入文档。 那个 `Document` 类代表装入内存的文档。 文档有多个超载的构造器允许您创建空白文档或者从文件或流中加载. 文档可以任意加载格式加载 Aspose.Words。 。 。 。 所有支持的负载格式列表见 [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) 计数.
+几乎任何要使用Aspose.Words执行的任务都涉及加载文档。 `Document`类表示加载到内存中的文档。 该文档有几个重载的构造函数，允许您创建空白文档或从文件或流中加载它。 文档可以以Aspose.Words支持的任何加载格式加载。 有关所有支持的加载格式的列表，请参阅[LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/)枚举。
 
-## 创建新文档 {#create-a-new-document}
+## 创建一个新文档 {#create-a-new-document}
 
-我们叫 [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) 没有参数的构造器创建新的空白文档。 如果您想在程序上生成文档,最简单的方式是使用 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder) 分类以添加文档内容。
+我们将调用不带参数的[Document](https://reference.aspose.com/words/java/com.aspose.words/document/)构造函数来创建一个新的空白文档。 如果要以编程方式生成文档，最简单的方法是使用[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder)类添加文档内容。
 
-以下代码示例显示如何使用文档构建器创建文档:
+下面的代码示例演示如何使用文档生成器创建文档:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-CreateDocument-CreateDocument.java" >}}
 
@@ -24,35 +24,35 @@ timestamp: 2024-01-27-14-07-04
 
 注意默认值:
 
-- 空白文档包含一个带有默认参数的段落、一个空段落、一些文档样式。 实际上,这份文件与创建"新文件"的结果相同。 Microsoft Word。 。 。 。
-- 怎么样? 文档纸张大小为 [PaperSize](https://reference.aspose.com/words/java/com.aspose.words/papersize/)。 。 。 。**Letter**。 。 。 。
+- 一个空白文档包含一个带有默认参数的部分，一个空段落，一些文档样式。 实际上，此文档与在Microsoft Word中创建"新文档"的结果相同。
+- 文档纸张大小为[PaperSize](https://reference.aspose.com/words/java/com.aspose.words/papersize/)。**Letter**.
 
 {{% /alert %}}
 
-## 装入文档
+## 加载文档
 
-在任意一个 [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) 格式,将文件名称或流传到文档构建器中。 装入的文档的格式由其扩展自动决定.
+要以任何[LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/)格式加载现有文档，请将文件名或流传递到其中一个文档构造函数中。 加载文档的格式由其扩展名自动确定。
 
-### 从文件装入 {#load-from-a-file}
+### 从文件 {#load-from-a-file}加载
 
-将文件名称作为字符串传递给文档构建器,以便从文件中打开已有的文档。
+将文件名作为字符串传递给文档构造函数，以从文件中打开现有文档。
 
-以下代码示例显示如何从文件中打开文档:
+下面的代码示例演示如何从文件中打开文档:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-OpenDocument-OpenFromFile.java" >}}
 
-您可以下载此示例的模板文件 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc)。 。 。 。
+您可以从以下位置下载此示例的模板文件 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
 
-### 从流中装入 {#load-from-a-stream}
+### 从流加载 {#load-from-a-stream}
 
-要从流中打开文档,只需将包含文档的流对象传递到文档构建器中.
+要从流中打开文档，只需将包含文档的流对象传递到文档构造函数中。
 
-以下代码示例显示如何从流中打开文档:
+下面的代码示例演示如何从流中打开文档:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-OpenDocument-OpenFromStream.java" >}}
 
 {{% alert color="primary" %}}
 
-您可以下载此示例的模板文件 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc)。 。 。 。
+您可以从以下位置下载此示例的模板文件 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
 
 {{% /alert %}}

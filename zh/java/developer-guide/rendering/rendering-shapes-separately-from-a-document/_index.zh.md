@@ -1,93 +1,93 @@
----
-title: 渲染形状 与文档分开
-second_title: "Aspose.Words (单位:千美元) Java"
-articleTitle: 渲染形状 与文档分开
-linktitle: 渲染形状 与文档分开
-description: "处理文档时提取各种图形对象,例如图像、包含段落的文本框或箭头形状,然后用外部位置导出 Java。 。 。 。"
+﻿---
+title: 与文档分开呈现形状
+second_title: Aspose.Words为Java
+articleTitle: 与文档分开呈现形状
+linktitle: 与文档分开呈现形状
+description: "在处理文档时提取各种图形对象，如图像、包含段落的文本框或箭头形状，并使用Java将它们导出到外部位置。"
 type: docs
 weight: 40
 url: /zh/java/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-在处理文档时,一个共同的任务是提取文档中找到的所有图像,然后导出到外部位置. 这项任务变得很简单,因为 Aspose.Words API, 它已经提供了提取和保存图像数据的功能。 然而,有时您可能想同样地提取由不同类型绘图对象代表的其他类型的图形内容,例如包含段落,箭头形状,以及小图像的文本框. 没有直截了当的方法来渲染这个对象,因为它是单个内容要素的组合. 当内容被组合成一个看起来像单一图像的对象时,您也可能遇到这样的情况。
+在处理文档时，一个常见的任务是提取文档中找到的所有图像并将其导出到外部位置。 使用Aspose.WordsAPI，此任务变得简单，它已经提供了提取和保存图像数据的功能。 但是，有时您可能希望类似地提取由不同类型的绘图对象表示的其他类型的图形内容，例如，包含段落，箭头形状和小图像的文本框。 没有直接的方法来呈现这个对象，因为它是单个内容元素的组合。 您可能还会遇到这样的情况，即内容已组合在一起，成为看起来像单个图像的对象。
 
-Aspose.Words 为提取这类内容提供功能,其方式与您从形状中提取一个简单的图像的方式相同。 本文描述了如何利用这一功能使形状独立于文档。
+Aspose.Words提供了提取此类内容的功能，就像从shape中提取简单图像作为渲染内容一样。 本文介绍如何利用此功能独立于文档呈现形状。
 
-## 形状类型 Aspose.Words
+## Aspose.Words中的形状类型
 
-文件绘图层中的所有内容均由 [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) 或 [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) 节点在 Aspose.Words 文档对象模块( E)DOM) (中文(简体) ). 这类内容可以是文本框,图像,自动形状,OLE对象等. 一些字段也作为形状导入,例如: `INCLUDEPICTURE` 字段。
+文档绘图层中的所有内容都由Aspose.Words文档对象模块（DOM）中的[Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/)或[GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/)节点表示。 这样的内容可以是文本框，图像，AutoShapes，OLE对象等。 某些字段也导入为形状，例如`INCLUDEPICTURE`字段。
 
-一个简单的图像用一个 **Shape** 节点 [ShapeType.Image](https://reference.aspose.com/words/java/com.aspose.words/shapetype/#IMAGE)。 。 。 这个形状节点没有子节点,但是这个形状节点中包含的图像数据可以被: [Shape.ImageData](https://reference.aspose.com/words/java/com.aspose.words/shape/#getImageData) 属性。 另一方面,一个形状也可以由许多儿童节点组成. 例如,文本框形状,以 [ShapeType.TextBox](https://reference.aspose.com/words/java/com.aspose.words/shapetype/#TEXT-BOX) 属性,可以由许多节点组成,例如 [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) 和 [Table](https://reference.aspose.com/words/java/com.aspose.words/table/)。 。 。 。 大多数形状可以包括: **Paragraph** 和 **Table** 块级节点。 这些节点与主体中出现的节点相同. 形状总是某些段落的一部分,要么直接包含在内,要么固定在 **段落,** 但"浮动"在文件页的任何地方。
+一个简单的图像由[ShapeType.Image](https://reference.aspose.com/words/java/com.aspose.words/shapetype/#IMAGE)的**Shape**节点表示。 此形状节点没有子节点，但此形状节点中包含的图像数据可以通过[Shape.ImageData](https://reference.aspose.com/words/java/com.aspose.words/shape/#getImageData)属性访问。 另一方面，一个形状也可以由许多子节点组成。 例如，由[ShapeType.TextBox](https://reference.aspose.com/words/java/com.aspose.words/shapetype/#TEXT-BOX)属性表示的文本框形状可以由许多节点组成，例如[Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/)和[Table](https://reference.aspose.com/words/java/com.aspose.words/table/)。 大多数形状可以包括**Paragraph**和**Table**块级节点。 这些节点与主体中出现的节点相同。 形状总是某个段落的一部分，可以直接内联或锚定到**Paragraph,**，但"浮动"在文档页面的任何地方。
 
 ![rendering-shapes-separately-from-a-document-aspose-words-java-1](/words/java/rendering-shapes-separately-from-a-document/rendering-shapes-separately-from-a-document-1.png)
 
-文档还可以包含组合在一起的形状。 Group可以在 Microsoft Word 通过选择多个对象并单击"Group"在右键菜单中。
+文档还可以包含组合在一起的形状。 通过选择多个对象并单击右键菜单中的"组"，可以在Microsoft Word中启用分组。
 
 ![rendering-shapes-separately-from-a-document-aspose-words-java-2](/words/java/rendering-shapes-separately-from-a-document/rendering-shapes-separately-from-a-document-2.png)
 
-内 Aspose.Words, 这些形状组由以下几部分代表: [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) 节点. 这些也可以以同样的方式引用,使整个群体都达到图像.
+在Aspose.Words中，这些形状组由[GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/)节点表示。 这些也可以以相同的方式调用，以将整个组呈现给图像。
 
 ![rendering-shapes-separately-from-a-document-aspose-words-java-3](/words/java/rendering-shapes-separately-from-a-document/rendering-shapes-separately-from-a-document-3.png)
 
-DOCX格式可以包含特殊类型的图像,如图表或图表. 这些形状也通过 **Shape** 节点在 Aspose.Words, 也提供了一种类似的方法,将它们渲染成图像。 从设计上看,一个形状不能包含童年时的另一形状,除非该形状是图像(.**ShapeType.Image**) (中文(简体) ). 举例来说, Microsoft Word 不允许在另一个文本框中插入文本框。
+DOCX格式可以包含特殊类型的图像，如图表或图表。 这些形状也通过Aspose.Words中的**Shape**节点表示，这也提供了将它们渲染为图像的类似方法。 根据设计，一个形状不能包含另一个作为子形状的形状，除非该形状是一个图像(**ShapeType.Image**)。 例如，Microsoft Word不允许您在另一个文本框中插入文本框。
 
-上述形状类型提供了一种特殊方法,使形状通过 [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/) 课。 一个实例 **ShapeRenderer** 类检索为 a **Shape** 或 **GroupShape** 通过 **GetShapeRenderer** 方法或通过 **Shape** 改为: **ShapeRenderer** 课。 此类为成员提供访问,可以使形状达到以下: 1
+上面描述的形状类型提供了一种特殊的方法来通过[ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/)类呈现形状。 通过**GetShapeRenderer**方法或将**Shape**传递给**ShapeRenderer**类的构造函数，为**Shape**或**GroupShape**检索**ShapeRenderer**类的实例。 此类提供对成员的访问，这些成员允许将形状呈现为以下内容:
 
-- 磁盘上的文件,使用 [Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.lang.String-com.aspose.words.ImageSaveOptions) 方法超载
-- 使用 [Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.io.OutputStream-com.aspose.words.ImageSaveOptions) 方法超载
-- 图形 使用 [RenderToSize](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToSize-java.awt.Graphics2D-float-float-float-float) 和 [RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float) 方法
+- 使用[Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.lang.String-com.aspose.words.ImageSaveOptions)方法重载的磁盘上的文件
+- 使用[Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.io.OutputStream-com.aspose.words.ImageSaveOptions)方法重载的流
+- 通过使用[RenderToSize](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToSize-java.awt.Graphics2D-float-float-float-float)和[RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float)方法图形对象
 
 {{% alert color="primary" %}}
 
-制作时 **Shape**",> 它必须是文件等级的一部分。 如果 **Shape** 不是一个文档树的一部分, 那么在引用后输出为空白 **ShapeRenderer** 方法。 方法。 。
+呈现**Shape**时，它必须是文档层次结构的一部分。 如果**Shape**不是文档树的一部分，那么在调用**ShapeRenderer**方法后呈现的输出将为空。
 
 {{% /alert %}}
 
 ## 渲染到文件或流
 
-那个 [Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.lang.String-com.aspose.words.ImageSaveOptions) 方法提供了将形状直接变成文件或流的超载。 两个超载都接受一个实例 [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) 类,可以定义渲染形状的选项。 这个方法和 [Document.Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-com.aspose.words.SaveOptions) 方法。 即使需要这个参数,也可以通过一个无效值,指定没有自定义选项.
+[Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.lang.String-com.aspose.words.ImageSaveOptions)方法提供将形状直接呈现到文件或流的重载。 两个重载都接受[ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/)类的实例，该实例允许定义用于呈现形状的选项。 这与[Document.Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-com.aspose.words.SaveOptions)方法的工作方式相同。 即使此参数是必需的，您也可以传递null值，指定没有自定义选项。
 
-形状可以导出为您在 [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) 计数. 例如,图像可以作为光栅图像来渲染,例如通过指定 [SaveFormat.Jpeg](https://reference.aspose.com/words/java/com.aspose.words/saveformat/#JPEG) 计数,或作为矢量图像,例如通过指定 [SaveFormat.Emf](https://reference.aspose.com/words/java/com.aspose.words/saveformat/#EMF)。 。 。 。
+形状可以以[SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)枚举中指定的任何图像格式导出。 例如，图像可以通过指定[SaveFormat.Jpeg](https://reference.aspose.com/words/java/com.aspose.words/saveformat/#JPEG)枚举呈现为光栅图像，例如JPEG，或者通过指定[SaveFormat.Emf](https://reference.aspose.com/words/java/com.aspose.words/saveformat/#EMF)呈现为矢量图像，例如EMF。
 
-下面的代码示例说明将一个形状与文档分隔成EMF图像并保存到磁盘:
+下面的代码示例演示将形状与文档分开呈现为EMF图像，并保存到磁盘:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-RenderShapeToDisk.java" >}}
 
-下面的代码示例说明将一个形状和 JPEG 图像与文档分开,并保存到流中:
+下面的代码示例说明了将形状与文档分开呈现为JPEG图像，并将其保存为流:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-RenderShapeToStream.java" >}}
 
-那个 **ImageSaveOptions** 类允许您指定控制图像如何渲染的各种选项。 上述功能可以同样的方式适用于 **GroupShape** 和 **Shape** 节点。
+**ImageSaveOptions**类允许您指定控制图像呈现方式的各种选项。 上面描述的功能可以以相同的方式应用于**GroupShape**和**Shape**节点。
 
-## 渲染到一个 `Graphics` 对象
+## 渲染到`Graphics`对象
 
-直接渲染到一个 **Graphics** 对象允许您定义自己的设置和状态 **Graphics** 对象。 一种常见的情况是将形状直接变成一种 **Graphics** 从 a 检索到的对象 Windows 形式或位图. 当 **Shape** 节点被渲染,设置会影响形状外观. 例如,可以通过使用 **RotateTransform** 或 **ScaleTransform** 方法 **Graphics** 对象。
+直接呈现到**Graphics**对象允许您定义自己的设置和**Graphics**对象的状态。 一个常见的场景是将形状直接呈现到从Windows表单或位图中检索到的**Graphics**对象中。 渲染**Shape**节点时，设置将影响形状外观。 例如，可以对**Graphics**对象使用**RotateTransform**或**ScaleTransform**方法来旋转或缩放形状。
 
-下面的例子说明如何将形状制成 **Graphics** 对象与文档分开,并将旋转应用到渲染的图像中:
+下面的示例演示如何将形状与文档分开呈现到**Graphics**对象，并将旋转应用于呈现的图像:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-RenderShapeToGraphics.java" >}}
 
-同样, [RenderToSize](https://reference.aspose.com/words/java/com.aspose.words/document/#renderToSize-int-java.awt.Graphics2D-float-float-float-float) 方法,则 [渲染到大小](https://reference.aspose.com/words/java/com.aspose.words/document/#renderToSize-int-java.awt.Graphics2D-float-float-float-float)方法从 [NodeRendererBase](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/) 用于创建文档内容的缩略图。 形状大小通过构造器指定. 那个 **RenderToSize** 方法接受 **Graphics** 对象,图像位置的 X 和 Y 坐标,以及将绘制到 **Graphics** 对象。
+类似地，与[RenderToSize](https://reference.aspose.com/words/java/com.aspose.words/document/#renderToSize-int-java.awt.Graphics2D-float-float-float-float)方法一样，从[NodeRendererBase](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/)继承的[RenderToSize](https://reference.aspose.com/words/java/com.aspose.words/document/#renderToSize-int-java.awt.Graphics2D-float-float-float-float)方法对于创建文档内容的缩略图很有用。 形状大小通过构造函数指定。 **RenderToSize**方法接受**Graphics**对象，图像位置的X和Y坐标，以及将绘制到**Graphics**对象上的图像的大小（宽度和高度）。
 
-那个 **Shape** 可用下列方法制成某种规模: [ShapeRenderer.RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float) 方法从 [NodeRendererBase](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/) 课。 这类似于 [Document.RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float) 接受相同主要参数的方法。 这两种方法的不同之处在于 **ShapeRenderer.RenderToScale** 方法,而不是字面大小,您选择一个在渲染时缩放形状的浮动值。 如果浮点值等于1.0,则导致形状以原大小的100%渲染. 浮值为0.5将图像大小减小一半.
+可以使用从[NodeRendererBase](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/)类继承的[ShapeRenderer.RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float)方法将**Shape**呈现为一定的比例。 这类似于接受相同主要参数的[Document.RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float)方法。 这两种方法之间的区别在于，使用**ShapeRenderer.RenderToScale**方法，而不是文字大小，您可以选择在渲染期间缩放形状的float值。 如果float值等于1.0，则形状将以其原始大小的100%呈现。 Float值0.5会将图像大小减少一半。
 
 ## 渲染形状图像
 
-那个 [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) 类代表绘图层中的对象,如自动形状、文本框、freeform、OLE对象、ActiveX控制或图片。 使用 **Shape** 类别中,您可以在 Microsoft Word 文档。 形状的重要财产是它的 [ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/)。 。 。 不同类型的形状在Word文档中可以具有不同的能力. 例如,只有图像和OLE形状才能在它们内部有图像,而大多数形状只能有文字.
+[Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/)类表示绘图层中的对象，例如AutoShape、文本框、自由格式、OLE对象、ActiveX控件或图片。 使用**Shape**类，您可以在Microsoft Word文档中创建或修改形状。 形状的一个重要属性是它的[ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/)。 不同类型的形状在Word文档中可以具有不同的功能。 例如，只有图像和OLE形状可以在其中包含图像，而大多数形状只能包含文本。
 
-以下示例显示如何将形状图像与文档分开制成JPEG图像并将其保存到磁盘中:
+下面的示例演示如何将形状图像与文档分开呈现为JPEG图像并将其保存到磁盘:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-RenderShapeImage.java" >}}
 
-## 获取形状大小
+## 检索形状大小
 
-那个 [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/) 类还提供功能以通过 [GetSizeInPixels](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#getSizeInPixels-float-float) 方法。 这种方法接受两个浮标(Single)参数 - 缩放和DPI,这些参数用于在渲染形状时计算形状大小. 方法返回 [Size](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#getSizeInPixels-float-float) 对象,它包含计算大小的宽度和高度。 当它需要提前了解已变形的大小时,例如当从已变形的输出中创建新的位图时,这一点是有用的.
+[ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/)类还提供了通过[GetSizeInPixels](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#getSizeInPixels-float-float)方法以像素为单位检索形状大小的功能。 此方法接受两个float（单个）参数-scale和DPI，它们用于在渲染形状时计算形状大小。 该方法返回[Size](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#getSizeInPixels-float-float)对象，该对象包含计算大小的宽度和高度。 当需要预先知道渲染形状的大小时，这很有用，例如在从渲染输出创建新位图时。
 
-下面的例子说明如何用要渲染的形状的宽度和高度来创建一个新的位图和图形对象:
+下面的示例演示如何使用要渲染的形状的宽度和高度创建新的位图和图形对象:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-FindShapeSizes.java" >}}
 
-使用时 **RenderToSize** 或 **RenderToScale** 方法,渲染的图像大小也在 [SizeF](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#renderToScale-java.awt.Graphics2D-float-float-float) 对象。 这可分配给一个变量,必要时使用。
+使用**RenderToSize**或**RenderToScale**方法时，渲染的图像大小也会在[SizeF](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#renderToScale-java.awt.Graphics2D-float-float-float)对象中返回。 这可以分配给一个变量，并在必要时使用。
 
-那个 **SizeInPoints** 属性返回按点测量的形状大小(参见 [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/)) (中文(简体) ). 结果是 `SizeF` 含有宽度和高度的天体。
+**SizeInPoints**属性返回以点为单位测量的形状大小（请参阅[ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/)）。 结果是包含宽度和高度的`SizeF`对象。

@@ -1,185 +1,185 @@
----
-title: 财务问题
-second_title: "Aspose.Words (单位:千美元) Java"
-articleTitle: 财务问题
-linktitle: 财务问题
+﻿---
+title: FAQ
+second_title: Aspose.Words为Java
+articleTitle: FAQ
+linktitle: FAQ
 type: docs
-description: "Aspose.Words (单位:千美元) Java 回答最常见的问题。 学习此页面可以快速解决您在一般问题或特定话题上的问题."
+description: "Aspose.WordsforJava回答最常见的问题。 学习此页面，以快速解决您的一般问题或特定主题的问题。"
 weight: 75
 url: /zh/java/faq/
 timestamp: 2024-01-31-14-23-37
 ---
 
-本页载有对最常见问题的答复。 请学习当前页面 - - 也许这可以让你快速解决问题。
+本页包含最常见问题的答案。 请了解当前页面-也许这可以让您快速解决问题。
 
-如果您尚未找到问题答案, 您可以在支持论坛询问 。 关于如何正确报告您的问题或问题,请参见: [技术支助](/words/zh/java/technical-support/) 页面。
-
-{{% alert color="primary" %}}
-
-为方便起见,经常提出的问题按专题分类。
-
-{{% /alert %}}
-
-## 常规
-
-**Q: 这是什么 Aspose.Words? 。 。 。**
-
-Aspose.Words (单位:千美元) Java 是一个类库,允许您的应用程序执行各种各样的文档处理任务。 与 Aspose.Words (单位:千美元) Java,可以生成、修改、转换、渲染和打印文档,而无需第三方应用程序。
-
-详情见我们的文件。
-
-------
-
-**Q: 这是什么意思 "Aspose.Words 不要求第三方申请?"**
-
-Aspose.Words (单位:千美元) Java 不需要安装任何第三方应用程序或额外的软件包即可工作。 只是下载和安装 Aspose.Words 说明 [安装](/words/zh/java/installation/) 文章开始。
-
-------
-
-**Q: 平台会做什么 Aspose.Words 支持吗?**
-
-Aspose.Words (单位:千美元) Java 覆盖了大部分大众发展环境和部署平台. 内容 API 可用于开发多种操作系统的应用程序,例如: Windows, Linux, 和Mac OS,以及各种平台.
-
-详情见 [产品概览](/words/zh/java/product-overview/) 页 次 [平台和 Interop可删除性](/words/java/platforms-and-interoperability/) 节。
-
-------
-
-**Q: 文档格式 Aspose.Words 支持吗?**
-
-Aspose.Words (单位:千美元) Java 支持大多数流行文档格式,如DOC,DOCX,HTML, Markdown, PDF, XML 等, (中文(简体) ).
-
-您可以在 [支持的文档格式](/words/zh/java/supported-document-formats/) 页面。
-
-------
-
-**Q: 我怎么试试 Aspose.Words 免费?**
-
-您可通过两种方式完成这项工作 - 使用试用版或30天的临时许可证。 试验版与购买版本相同,它提供了完整的产品功能,但在文件顶部加载和保存时增加了一个评价水印,并将文件的最大尺寸限制在几百段. 临时许可允许您测试 Aspose.Words 30天不受审判限制
-
-见 [许可和订阅](/words/zh/java/licensing/) 更多信息。
+如果您还没有找到问题的答案，您可以在支持论坛上询问。 有关如何正确报告您的问题或问题的信息，请参阅 [技术支持](/words/java/technical-support/) 页。
 
 {{% alert color="primary" %}}
 
-你也可以试试最受欢迎的 Aspose.Words 特性通过 [Aspose.Words 在线免费 应用程序](https://products.aspose.app/words)。 。 。 。
+为了方便您,常见问题按主题分组.
 
 {{% /alert %}}
 
-------
+## 一般事务
 
-**Q: 我怎么买? Aspose.Words? 。 。 。**
+**问：什么是Aspose.Words？**
 
-买一个 Aspose.Words 执照,你需要去 [购买](https://purchase.aspose.com/buy) 页面,选择 "Aspose.Words" 产品和适合你的许可证类型。 然后把牌照加进你的推车 遵守购物卡的指示
+Aspose.WordsforJava是一个类库，允许您的应用程序执行各种文档处理任务。 使用Aspose.WordsforJava，您可以在没有第三方应用程序的情况下生成，修改，转换，呈现和打印文档。
 
-购买后,按下列规定申请许可证: [购买许可证](/words/java/licensing/#purchased-license) 节。
-
-如何安装的细节 Aspose.Words 可在 [安装](/words/zh/java/installation/) 页面。
+详细信息可以在我们的文档中找到。
 
 ------
 
-**Q: 我怎样才能得到支持?**
+**问："Aspose.Words不需要第三方应用程序"是什么意思？**
 
-使用免费技术支持论坛. 关于如何适当报告一个问题和在与论坛联系之前需要做什么,请参看 [技术支助](/words/zh/java/technical-support/) 页面。
+Aspose.Words对于Java不需要安装任何第三方应用程序或额外的软件包工作。 只需下载并安装Aspose.Words，如 [安装工程](/words/java/installation/) 文章并开始。
 
-## 绘制文档
+------
+
+**问：Aspose.Words支持哪些平台？**
+
+Aspose.WordsforJava涵盖了大多数流行的开发环境和部署平台。 它的API可用于为各种操作系统（如Windows、Linux和Mac OS）以及各种平台开发应用程序。
+
+有关详细信息，请参阅 [产品概览](/words/java/product-overview/) 页和 [平台和Interop可读性](/words/java/platforms-and-interoperability/) 节。
+
+------
+
+**问：Aspose.Words支持哪些文档格式？**
+
+Aspose.WordsforJava支持大多数流行的文档格式，例如DOC, DOCX, HTML, Markdown, PDF, XML, 和其他人。
+
+您可以在 [支持的文档格式](/words/java/supported-document-formats/) 页。
+
+------
+
+**问：如何免费试用Aspose.Words？**
+
+您可以通过两种方式执行此操作-使用试用版或30天临时许可证。 试用版与购买的版本相同，它提供完整的产品功能，但在加载和保存时在文档顶部添加评估水印，并将最大文档大小限制为几百个段落。 临时许可证允许您在没有试用限制的情况下测试Aspose.Words30天。
+
+查看 [许可和订阅](/words/java/licensing/) 页以获取更多信息。
 
 {{% alert color="primary" %}}
 
-您可以在 [渲染](/words/zh/java/rendering/) 文献部分。
+您也可以尝试一些最流行的Aspose.Words功能，通过 [Aspose.Words免费在线应用程序](https://products.aspose.app/words).
 
 {{% /alert %}}
 
-**Q: 为什么输出文档中的布局和字体与原始不同?**
+------
 
-字体可能不可用, 或字体格式由 Microsoft Word 但没有得到 Aspose.Words。 。 。 。 Aspose.Words 将执行 [真实的剧本](/words/zh/java/manipulate-and-substitute-truetype-fonts/)。 。 。 。
+**问：如何购买Aspose.Words？**
 
-要检查是否缺少字体:
+要购买Aspose.Words许可证，您需要转到 [购买](https://purchase.aspose.com/buy) 页，选择"Aspose.Words"产品和适合您的许可证类型。 然后将许可证添加到购物车并按照购物车说明操作。
 
-- 进 Aspose.Words 使用字体替换警告(详情见"如何识别字体被替换"部分)。 [真实的剧本](/words/zh/java/manipulate-and-substitute-truetype-fonts/) (第1条)。
-- 进 Microsoft Word 打开" Font 替换" 对话框( 文件 = 选项 = 高级 = 字体替换 )。
+购买后，按照 [购买许可证](/words/java/licensing/#purchased-license) 节。
+
+有关如何安装Aspose.Words的详细信息，请参阅 [安装工程](/words/java/installation/) 页。
 
 ------
 
-**Q: 为什么字体不倒置工作在非 -Windows 平台和 Unicode 字符替换为. notdef glyph? 。 。 。**
+**问：如何获得支持？**
 
-我们经常能看到 `.notdef` glyph 而不是一些 Unicode 字符。 这通常是一个盒子或一个问题 glyph。 。 。 。
+使用免费的技术支持论坛。 有关如何正确报告问题以及在联系论坛之前需要做些什么的详细信息，请参阅 [技术支持](/words/java/technical-support/) 页。
 
-这是因为 Microsoft 默认选择办公室倒置设置,以及 Microsoft 办公室字体不可用 。 用户必须安装 Microsoft 办公室字体或更改倒置设置。
-
-------
-
-**Q: 为什么复杂的脚本文本,如泰文或希伯来文,会因为某种原因被不准确地显示,比如对二极论的错误位置或不准确的结段?**
-
-一些复杂的脚本字体需要处理高级打字功能才能正确显示. 高级打字功能在 Aspose.Words 默认。 用户必须启用高级打字机 [TextShaperFactory](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getTextShaperFactory)。 。 。 。
-
-------
-
-**Q: 我需要我使用的字体的许可证文件吗?**
-
-没错 因此,在复制字体时,要铭记大多数字体都是版权. 事先确定字体许可证,并核实是否可自由转让给另一台机器。
-
-## 嵌入 Mail Merge
+## 呈现文档
 
 {{% alert color="primary" %}}
 
-您可以找到更多关于 Mail Merge 输入 [Mail Merge 报告](/words/java/mail-merge-and-reporting/) 文献部分。
+你可以在 [渲染图](/words/java/rendering/) 文件科。
 
 {{% /alert %}}
 
-**Q: 为什么生成的输出中没有合并字段?**
+**问：为什么输出文档中的布局和字体与原始文档不同？**
 
-合并字段的原名保持不变,而不由数据源要求的数据所取代,那么:
+字体可能不可用，或者字体格式由Microsoft Word支持，但Aspose.Words不支持。 Aspose.Words将执行 [字体替换](/words/java/manipulate-and-substitute-truetype-fonts/).
 
-- 检查数据是否被适当装入表格: [TableName](https://reference.aspose.com/words/java/com.aspose.words/imailmergedatasource/#getTableName) 正确使用所有必要的主要钥匙和关系。
-- 检查合并字段是否正确命名 。 使用 [GetFieldNames](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldNames) 方法来获取所有合并字段名称,并确保模板中的合并字段名称与数据源中的字段名称相匹配。
+检查字体是否丢失:
 
-------
-
-**Q: 为什么嵌入式合并的输出不显示父表格中第一个条目的子表数据,而是显示母表格中最后一个条目的所有项目,甚至没有实际链接的项目?**
-
-这是因为模板中的合并区域没有正确形成,这可以使所有的嵌入 Mail Merge 停止展示任何东西。 那个 [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) 打开标签和 [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) 关闭标记必须匹配并在同一行或单元格中。 例如,如果在表格的单元格中开始嵌入合并区域,则必须结束与第一个单元格在同一行中的合并区域。
+- 在Aspose.Words中使用字体替换警告（有关详细信息，请参阅 [操作和替换TrueType字体](/words/java/manipulate-and-substitute-truetype-fonts/) 文章）。
+- 在Microsoft Word中打开"字体替换"对话框（文件→选项→高级→字体替换）。
 
 ------
 
-**Q: 为什么父母表的每个条目都显示孩子表的每个项目,甚至没有实际链接的项目?**
+**问：为什么字体回退在非Windows平台上不起作用，Unicode字符被替换为.notdef字形？**
 
-这是因为没有建立父母和子女表之间的关系,或者这些表的设置不正确。 有必要:
+我们经常可以看到`.notdef`字形而不是一些Unicode字符。 这通常是一个框或一个问题字形。
 
-- 确保您内部的数据完整性 **DataSet** 并使用 **DataRelation** 对象以表示相关数据表格之间的亲子关系。
-- 检查"如何在 Nested 中设置数据关系" Mail Merge 在本条中, [嵌入 Mail Merge 区域](/words/java/nested-mail-merge-with-regions/)。 。 。 。
+这是因为默认情况下选择MicrosoftOffice回退设置，并且MicrosoftOffice字体不可用。 用户必须安装MicrosoftOffice字体或更改回退设置。
 
 ------
 
-**Q: 为何例外:"系统。 参数例外: 无法启用这种约束, 因为并非所有的值都有相应的父值 " , 而执行嵌入 mail merge? 。 。 。**
+**问：为什么复杂的脚本文本（如泰语或希伯来语）可能由于某种原因而显示不准确，例如变音符号的错误位置或不准确的连字？**
 
-这之所以发生,是因为并不是每个家长记录都有孩子记录,所以您的数据源不符合以下标准: *父母表格中的每行都应该根据主键和外键与孩子表格的行存在一对一的关系*.
+一些复杂的脚本字体需要处理高级排版功能才能正确显示它们。 默认情况下，在Aspose.Words中禁用高级排版。 用户必须使用[TextShaperFactory](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getTextShaperFactory)启用高级排版。
 
-创建时禁用外来密钥约束 **DataRelation**。 。 。 。
+------
 
-## 附加或插入文档
+**问：我使用的字体是否需要许可证文件？**
+
+是的，你知道。 因此，复制字体时，请记住，大多数字体都受版权保护。 事先找到字体许可证并验证它们是否可以自由地转移到另一台机器上。
+
+## 嵌套Mail Merge
 
 {{% alert color="primary" %}}
 
-您可以在以下列表中找到关于文档编程的更详细的信息: [文件编程](/words/zh/java/programming-with-documents/) 文献部分。
+有关Mail Merge的详细资料，请参阅 [Mail Merge和报告](/words/java/mail-merge-and-reporting/) 文件科。
 
 {{% /alert %}}
 
-**Q: 文件所附内容为何不在同一页上?**
+**问：为什么生成的输出中没有合并字段？**
 
-附加结果出现在单独的一页上,因为有差异 [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/) 设置文件的附加部分。 完全一样 **PageSetup** 设置文件的附加部分。
+合并字段的原始名称保持不变，而不会被来自数据源的所需数据替换，则:
+
+- 检查数据是否正确加载到表中：使用所有必需的主键和关系正确设置[TableName](https://reference.aspose.com/words/java/com.aspose.words/imailmergedatasource/#getTableName)。
+- 检查合并字段是否正确命名。 使用[GetFieldNames](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldNames)方法获取所有合并字段名称，并确保模板中合并字段的名称与数据源中的名称匹配。
+
+------
+
+**问：为什么嵌套合并的输出不显示父表中第一个条目的子表中的数据，而是显示父表中最后一个条目的所有项，甚至是那些实际上没有链接到它的项？**
+
+这是因为模板中的合并区域没有正确形成，这会使所有嵌套的Mail Merge区域完全停止显示任何内容。 [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable)开始标记和[EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable)结束标记必须匹配并且位于同一行或单元格中。 例如，如果您开始在表的单元格中嵌套合并区域，则必须在与第一个单元格相同的行中结束合并区域。
+
+------
+
+**问：为什么父表中的每个条目都显示子表中的每个条目，甚至是那些实际上没有链接到它的条目？**
+
+这是因为父表和子表之间的关系未设置或设置不正确。 有必要:
+
+- 确保**DataSet**内的数据完整性，并使用**DataRelation**对象表示相关数据表之间的父子关系。
+- 检查文章中的"如何在带有区域的嵌套Mail Merge中设置数据关系"一节 [带有区域的嵌套Mail合并](/words/java/nested-mail-merge-with-regions/).
+
+------
+
+**问：为什么是一个例外："系统。ArgumentException：不能启用此约束，因为不是所有值都有相应的父值"，同时执行嵌套mail merge？**
+
+发生这种情况是因为并非每个父记录都有一个子记录，因此您的数据源不符合以下条件：*every row in the parent table should have a one-to-one relationship with the rows of the child table based on the primary and foreign keys*。
+
+创建**DataRelation**时禁用外键约束。
+
+## 追加或插入文档
+
+{{% alert color="primary" %}}
+
+你可以在 [使用文档编程](/words/java/programming-with-documents/) 文件科。
+
+{{% /alert %}}
+
+**问：为什么附加到文档的内容不会出现在同一页面上？**
+
+追加结果显示在单独的页面上，因为文档一起追加的部分的[PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/)设置不同。 对文档附加在一起的部分进行相同的**PageSetup**设置。
 
 ## 转换文档
 
 {{% alert color="primary" %}}
 
-您可以在 [转换文档](/words/zh/java/convert-a-document/) 文献部分。
+您可以在 [转换文档](/words/java/convert-a-document/) 文件科。
 
 {{% /alert %}}
 
-**Q: 如何将 DOCX 转换为 PDF?**
+**问：如何将DOCX转换为PDF？**
 
-也非常容易,只要把一个文档加载到模型中并保存到任何支持的格式.
+这也非常简单，只需将文档加载到模型并将其保存为任何支持的格式即可。
 
-以下代码示例显示将 DOCX 文件转换为 PDF 的过程:
+下面的代码示例演示将DOCX文件转换为PDF的过程:
 
 {{< highlight java >}}
 // Open the source DOCX document.
@@ -189,19 +189,19 @@ Document doc = new Document(dataDir + "Input.docx");
 doc.save(dataDir + "output.pdf", SaveFormat.Pdf);
 {{< /highlight >}}
 
-## 使用文档操纵
+## 使用文档进行操作
 
 {{% alert color="primary" %}}
 
-您可以在以下列表中找到关于文档编程的更详细的信息: [文件编程](/words/zh/java/programming-with-documents/) 文献部分。
+你可以在 [使用文档编程](/words/java/programming-with-documents/) 文件科。
 
 {{% /alert %}}
 
-**Q: 如何逐页分割文档页面?**
+**问：如何逐页拆分文档？**
 
-Aspose.Words 使您能够将多页文档页面逐页分割。
+Aspose.Words使您能够逐页拆分多页文档。
 
-以下代码示例显示如何分割文档,并将每个页面保存为单独的文档:
+下面的代码示例演示如何分割文档并将每个页面另存为单独的文档:
 
 {{< highlight java >}}
 Document doc = new Document(dataDir + "TestFile (Split).docx");
@@ -218,11 +218,11 @@ for (int page = 0; page <= pageCount; page++)
 
 ------
 
-**Q: 如何打开加密** **文档?**
+**问：如何打开加密**
 
-你可以尝试打开一个没有密码的加密文档,这应该会导致例外.
+您可以尝试在没有密码的情况下打开加密文档，这应该会导致异常。
 
-以下代码示例显示如何用密码打开加密文档:
+下面的代码示例演示如何使用密码打开加密文档:
 
 {{< highlight java >}}
 // Create a document.
@@ -251,6 +251,6 @@ catch (Exception e)
 
 ------
 
-**Q: 如何打印文件?**
+**问：如何打印文档？**
 
-详细回答,学习文章 [打印文档 程序或使用对话框](/words/zh/java/print-a-document-programmatically-or-using-dialogs/)。 。 。 。
+有关详细答案，请了解文章 [以编程方式或使用对话框打印文档](/words/java/print-a-document-programmatically-or-using-dialogs/).

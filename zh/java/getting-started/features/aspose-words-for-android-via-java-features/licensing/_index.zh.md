@@ -1,81 +1,81 @@
----
-title: 许可证发放
-second_title: "Aspose.Words (单位:千美元) Java"
-articleTitle: 许可证发放
-linktitle: 许可证发放
-description: "许可证发放 Aspose.Words (单位:千美元) Android 通过 Java。 。 。 。"
+﻿---
+title: 发牌事宜
+second_title: Aspose.Words为Java
+articleTitle: 发牌事宜
+linktitle: 发牌事宜
+description: "通过Java为Android授权Aspose.Words。"
 type: docs
 weight: 60
 url: /zh/java/licensing-android/
 timestamp: 2024-02-02-12-07-36
 ---
 
-有时,为了更好地研究系统,你想越快潜入代码. 为了让事情变得简单 Aspose.Words 提供不同的购买计划或提供免费审判和30天的临时评估许可证。
+有时，为了更好地研究系统，您希望尽可能快地深入研究代码。 为了使这更容易，Aspose.Words提供不同的购买计划或提供免费试用和30天的临时许可证进行评估。
 
 {{% alert color="primary" %}}
 
-请注意,在如何评估、适当许可和购买我们的产品方面,有若干一般性政策和做法。 你可以找到他们 [采购政策和财务问题](https://purchase.aspose.com/policies/) 节。
+请注意，有许多一般政策和实践指导您如何评估、正确许可和购买我们的产品。 你可以在 [购买政策和FAQ](https://purchase.aspose.com/policies/) 节。
 
 {{% /alert %}}
 
-## 免费审判或临时许可证
+## 免费试用或临时许可证
 
-Aspose.Words 是开发者在购买前可以尝试的不可思议的软件。 您可以轻松下载/安装 Aspose.Words (单位:千美元) Java 和 Aspose.Words (单位:千美元) Android 通过 Java [从下载页面](https://releases.aspose.com/words/androidjava/) 用于评价。
+Aspose.Words是令人难以置信的软件，开发人员可以在购买之前尝试。 您可以通过Java轻松下载/安装Aspose.WordsforJava和Aspose.WordsforAndroid [从下载页面](https://releases.aspose.com/words/androidjava/) 进行评价。
 
-评测版与购买版相同 - 当您添加几行代码以应用许可时, 试测版即可获得许可 。
+评估版本与购买的版本相同-当您添加几行代码以应用许可证时，试用版只是获得许可。
 
 {{% alert color="primary" %}}
 
-了解更多关于自由审判或临时许可的细节 Aspose.Words (单位:千美元) Android 通过 Java 打开 [许可和订阅](/words/zh/java/licensing/)。 。 。 。
+通过Java了解有关Aspose.WordsforAndroid的免费试用或临时许可证的更多详细信息 [许可和订阅页面](/words/java/licensing/).
 
 {{% /alert %}}
 
 ## 购买许可证
 
-购买后,需要应用许可证文件或将许可证文件列为嵌入式资源. 本节介绍如何做到这一点的备选办法,并评论一些共同的问题。
+购买后，您需要应用许可证文件或将许可证文件作为嵌入资源包含在内。 本节介绍了如何做到这一点的选项，以及对一些常见问题的评论。
 
 {{% alert color="primary" %}}
 
-许可是一个纯文本的XML文件,包含产品名称,许可开发者数量,订阅到期日等细节.
+许可证是一个纯文本XML文件，其中包含产品名称、许可的开发人员数量、订阅到期日期等详细信息。
 
-文件是数字签名的,所以不要修改文件. 即使无意中在文件中添加额外的换行符也会使其失效.
+该文件经过数字签名，因此请勿修改该文件。 即使无意中在文件中添加了一个额外的换行符也会使其无效。
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-您需要设定许可证:
+您需要设置许可证:
 
-* 每个应用程序域只有一次
-* 在使用任何其他之前 Aspose.Words 类
+* 每个应用程序域仅一次
+* 在使用任何其他Aspose.Words类之前
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-您可以在 [定价信息](https://purchase.aspose.com/pricing/words/family/) 页面。
+你可在 [定价资料](https://purchase.aspose.com/pricing/words/family/) 页。
 
 {{% /alert %}}
 
-### 保护您的购买许可证
+### 保护您购买的许可证
 
-在购买许可证后,您需要仔细阅读页面上的信息 [保护您的购买许可证](https://purchase.aspose.com/orders/protecting-your-license-file) 保护你的执照档案。 请注意,该页面仅在持有付费许可证的情况下才可供浏览。
+购买许可证后，您需要仔细阅读页面上的信息 [保护您购买的许可证](https://purchase.aspose.com/orders/protecting-your-license-file) 以保护您的许可证文件。 请注意，只有当您有付费许可证时，此页面才可供查看。
 
-### 许可证应用选项
+### 许可证申请选项
 
-可在下列地点申请许可证:
+许可证可在不同地点申请:
 
-* 明确的路径
-* 《大会正式记录,第五十八届会议,补编第5号》(A/C.6/61/Rev.1)。 嵌入式资源
-* 《大会正式记录,第五十八届会议,补编第5号》(A/C.6/61/Rev.1)。 As a metered license - - 一个新的许可机制
+* 显式路径
+* 嵌入式资源
+* 作为计量许可证-一种新的许可机制
 
-#### 正在装入许可文件
+#### 加载许可证文件
 
-内 Aspose.Words (单位:千美元) Android 通过 Java, 执照可以是: [许可和订阅](/words/zh/java/licensing/), 或从流中装入:
+在Aspose.Words对于Android通过Java，许可证可以是 [作为资源嵌入](/words/java/licensing/)，或从流加载:
 
-一、导 言 把许可证文件放在任何地点 **/mnt/纸牌/**。 。 。 。
-一、导 言 创建引用文件的流 。
-一、导 言 将流( 包含许可证文件) 传入 `SetLicense` 方法。
+1. 将许可证文件放在**/mnt/sdcard/**上的任何位置。
+1. 创建引用文件的流。
+1. 将流（包含许可证文件）传递到`SetLicense`方法中。
 
 **Java**
 
@@ -91,11 +91,11 @@ License license = new License();
 license.setLicense(fstream);
 {{< /highlight >}}
 
-申请嵌入式资源许可证。 使用许可作为来源 Android 软件包文件:
+从嵌入式资源应用许可证。 从Android包文件按名称访问许可证作为资源:
 
-一、导 言 将许可证文件添加到您的应用程序中 **重新/绘制** 文件夹。
-   许可证文件应在 **重新/绘制** 文件夹。
-一、导 言 使用以下代码样本从资源中访问/装入许可证 。
+1. 将许可证文件作为资源添加到应用程序的**res/raw**文件夹中。
+   许可证文件应在**res/raw**文件夹中可见。
+1. 使用以下代码示例从资源访问/加载许可证。
 
 **Java**
 
@@ -105,9 +105,9 @@ InputStream inputStream = getResources().openRawResource(R.raw.license);
 license.setLicense(inputStream);
 {{< /highlight >}}
 
-#### 应用测量许可证
+#### 申请计量许可证
 
-Aspose.Words 允许开发者应用MIME密钥. 这是一种新的许可机制。 新的许可证发放机制将与现有的许可证发放方法一起使用。 顾客如果想根据 API 特性可以使用计量吸入器许可证。
+Aspose.Words允许开发人员应用计量密钥。 这是一种新的许可机制。 新的许可机制将与现有的许可方法一起使用。 那些希望根据API功能的使用情况计费的客户可以使用计量许可。
 
 **Java**
 
@@ -126,23 +126,23 @@ catch (Exception ex)
 }
 {{< /highlight >}}
 
-### 更改许可证文件名称
+### 更改许可证文件名
 
-许可证文件名称不必是 'Aspose.Words。 。 。 。Android。 。 。 。Java.. . 执照. 你可以把它重新命名为任何你喜欢的,并在打电话时使用这个名字 `License.SetLicense`。 。 。 。
+许可证文件名不必是'Aspose.Words。Android.Java.莉克 您可以将其重命名为任何您喜欢的名称，并在调用`License.SetLicense`时使用该名称。
 
-### 例外 - 找不到许可证文件名
+### 异常-找不到许可证文件名
 
-当你下载你买的牌照时,牌照文件就叫 **Aspose.Words。 。 。 。Android。 。 。 。Java语言** 默认。 许可证文件通过您的浏览器下载,一些浏览器承认许可证文件为XML,并在名称中附加一个.xml扩展名. 下载的文件变为 **Aspose.Words。 。 。 。Android。 。 。 。Java.lic.XML 语言**。 。 。 。
+下载购买的许可证时，默认情况下许可证文件名为**Aspose.Words.Android.Java.lic**。 许可证文件是通过您的浏览器下载的，一些浏览器将许可证文件识别为XML并附加一个。名称的xml扩展名。 下载的文件变为**Aspose.Words.Android.Java.lic.XML**。
 
-何时 Microsoft Windows 配置以隐藏已知文件类型的扩展名( 不幸这在大多数情况下都是默认的) Windows 许可证文件列为 **Aspose.Words。 。 。 。Android。 。 。 。Java语言** 输入 Windows 探险家 它看起来像预期的文件名称。 如果你打电话 `License.SetLicense` 并且通过 'Aspose.Words。 。 。 。Android。 。 。 。Java.. .
+当Microsoft Windows配置为隐藏已知文件类型的扩展名时（不幸的是，这在大多数Windows安装中是默认的），许可证文件在Windows Explorer中列为**Aspose.Words.Android.Java.lic**。 它看起来像预期的文件名。 如果调用`License.SetLicense`并传递'Aspose.Words。Android.Java.lic'，你会看到和例外，因为没有这样的文件。
 
-要解决问题,请重新命名文件以删除隐形的.xml扩展名. 我们建议您在 Microsoft Windows。 。 。 。
+要解决此问题，请重命名文件以删除不可见文件。xml扩展。 我们建议您在Microsoft Windows中禁用"隐藏扩展"选项。
 
-## 使用多种配置产品
+## 使用多种Aspose产品
 
-如果您在应用程序中使用了多个 Apose 产品, 例如 Aspose.Words 和 `Aspose.Cells`, 这里有一些有用的提示。
+如果您在一个应用程序中使用多个Aspose产品，例如Aspose.Words和`Aspose.Cells`，这里有一些有用的提示。
 
-- 将每种库存产品的许可证分开。
-  即使您拥有所有组件的单一许可证文件, 例如" Apose " 。 总计。Android。 。 。 。Java. lic',你还需要打电话 `License.SetLicense` 用于每个Apose产品的方法。
-- 使用完全合格的许可类名称。
-  每个 假设产品有一个 `License` 名称空间中的类。 举例来说, Aspose.Words 有口香糖。 词。 许可证和 `Aspose.Cells` 拥有 com.aspose. 细胞。 执照课 使用完全合格的类名,您可以避免对哪一种产品使用许可证有任何混淆。
+- 分别为每个Aspose产品设置许可证。
+  即使所有组件都有一个许可证文件，例如'Aspose.Total。Android.Java.lic'，您仍然需要为每个Aspose产品单独调用`License.SetLicense`方法。
+- 使用完全限定的许可证类名。
+  每个Aspose产品在其命名空间中都有一个`License`类。 例如，Aspose.Words有com。阿斯波斯。话。许可证和`Aspose.Cells`有com。阿斯波斯。细胞。许可证类。 使用完全限定类名可以避免对哪个产品应用哪个许可证的任何混淆。

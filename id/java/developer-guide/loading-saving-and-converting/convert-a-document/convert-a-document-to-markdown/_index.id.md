@@ -1,53 +1,53 @@
----
-title: Mengkonversi Dokumen ke Markdown Sitemap Java
-second_title: Aspose.Words Sitemap Java
-articleTitle: Mengkonversi Dokumen ke Markdown
-linktitle: Mengkonversi Dokumen ke Markdown
+﻿---
+title: Konversikan Dokumen menjadi Markdown dalam Java
+second_title: Aspose.Words untuk Java
+articleTitle: Konversikan Dokumen menjadi Markdown
+linktitle: Konversikan Dokumen menjadi Markdown
 type: docs
-description: "Mengkonversi dokumen dalam format beban yang didukung untuk Markdown dan sebaliknya menggunakan JavaSitemap"
+description: "Konversikan dokumen dalam format pemuatan apa pun yang didukung ke Markdown dan sebaliknya menggunakan Java."
 keywords: how to convert a document to markdown Java, save as MD, DOCX to MD
 weight: 33
 url: /id/java/convert-a-document-to-markdown/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Markdown adalah format populer yang digunakan untuk menandai teks dan lebih mengkonversi ke HTML, PDF, DOCX, atau format lainnya. Banyak pengembang memilih format ini untuk menulis dokumentasi, mempersiapkan artikel untuk publikasi di blog, menggambarkan proyek, dan sebagainya.
+Markdown adalah format populer yang digunakan untuk menandai teks dan selanjutnya diubah menjadi HTML, PDF, DOCX, atau format lainnya. Banyak pengembang memilih format ini untuk menulis dokumentasi, menyiapkan artikel untuk dipublikasikan di blog, mendeskripsikan proyek, dan sebagainya.
 
-Markdown sangat populer karena mudah untuk bekerja dengan format ini, serta dapat cukup hanya dikonversi ke format lain. Untuk alasan ini, Aspose.Words memberikan kemampuan untuk mengonversi dokumen dalam [Sitemap](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) Login Markdown dan sebaliknya – Aspose.Words juga mendukung yang paling populer [Catalog](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)Sitemap
+Markdown sangat populer karena mudah untuk bekerja dengan format ini, dan juga dapat dengan mudah dikonversi ke format lain. Untuk alasan ini, Aspose.Words menyediakan kemampuan untuk mengonversi dokumen dalam [format pemuatan apa pun yang didukung](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) menjadi Markdown dan sebaliknya - Aspose.Words juga mendukung [simpan format](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) yang paling populer.
 
-Sekarang fungsi untuk bekerja dengan Markdown format sedang aktif dikembangkan untuk memberikan kesempatan lebih untuk pekerjaan yang nyaman dan nyaman dengan dokumen.
+Sekarang fungsionalitas untuk bekerja dengan format Markdown sedang dikembangkan secara aktif untuk memberi Anda lebih banyak peluang untuk pekerjaan yang nyaman dan nyaman dengan dokumen.
 
-## Mengkonversi Dokumen ke Markdown
+## Konversikan Dokumen menjadi Markdown
 
-Untuk mengonversi dokumen ke MarkdownSitemap Anda hanya perlu memuat dokumen dalam format yang didukung atau membuat satu programtik baru. Kemudian Anda perlu menyimpan dokumen untuk Meme it Markdown Login
+Untuk mengonversi dokumen menjadi Markdown, Anda hanya perlu memuat dokumen dalam format apa pun yang didukung atau membuat dokumen baru secara terprogram. Kemudian Anda perlu menyimpan dokumen ke format Markdown.
 
-Contoh kode berikut menunjukkan bagaimana mengkonversi DOCX ke MarkdownSitemap
+Contoh kode berikut menunjukkan cara mengonversi DOCX menjadi Markdown:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SaveAsMD.java" >}}
 
 
-## Tentukan Simpan Pilihan saat Konversi ke Markdown
+## Tentukan Opsi Penyimpanan saat Mengonversi ke Markdown
 
-Aspose.Words memberikan kemampuan untuk menggunakan [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) kelas untuk bekerja dengan opsi canggih ketika menyimpan dokumen ke Markdown Login Selain sifat pencucian atau kelebihan beban lainnya, sejumlah properti yang spesifik untuk Markdown format juga telah ditambahkan. Sebagai contoh, [TableContentAlignment](https://reference.aspose.com/words/java/com.aspose.words/tablecontentalignment/) properti untuk mengontrol penyelarasan konten dalam tabel, atau [ImageSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageSavingCallback) Login [ImagesFolder](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImagesFolder) untuk mengontrol bagaimana gambar disimpan pada mengkonversi dokumen untuk Markdown Login
+Aspose.Words menyediakan kemampuan untuk menggunakan kelas [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) untuk bekerja dengan opsi lanjutan saat menyimpan dokumen ke format Markdown. Selain properti pewarisan atau kelebihan beban lainnya, sejumlah properti yang khusus untuk format Markdown juga telah ditambahkan. Misalnya, properti [TableContentAlignment](https://reference.aspose.com/words/java/com.aspose.words/tablecontentalignment/) untuk mengontrol perataan konten dalam tabel, atau [ImageSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageSavingCallback) dan [ImagesFolder](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImagesFolder) untuk mengontrol bagaimana gambar disimpan saat mengonversi dokumen ke format Markdown.
 
-## Sitemap Markdown Sitemap
+## Fitur Markdown yang didukung
 
-Aspose.Words saat ini mendukung Markdown fitur, yang sebagian besar mengikuti `CommonMark` spesifikasi dalam Aspose.Words API dan diwakili sebagai gaya yang tepat atau format langsung:
+Aspose.Words saat ini mendukung fitur Markdown berikut, yang sebagian besar mengikuti spesifikasi `CommonMark` dalam Aspose.Words API dan direpresentasikan sebagai gaya yang sesuai atau pemformatan langsung:
 
-* Headings adalah paragraf dengan Heading 1 – Heading 6 gaya
-* Blockquote adalah paragraf dengan "Quote" dalam nama gaya
-* IndentedCode adalah paragraf dengan "IndentedCode" dalam nama gaya
-* Login Kode adalah paragraf dengan "FencedCode" dalam nama gaya
-* InlineCode berjalan dengan "InlineCode" di `Font` nama gaya
-* Peraturan horisontal adalah paragraf dengan `HorizontalRule` Login
-* Sitemap
-* Sitemap
-* Pemformatan StrikeThrough
-* Daftar adalah paragraf bernomor atau berpeluru
-* Tabel diwakili dengan `Table` Login
-* Sitemap Tautan diwakili sebagai `FieldHyperlink` Login
+* Judul adalah paragraf dengan gaya Heading 1 – Heading 6
+* Blockquotes adalah paragraf dengan "Quote" pada nama gaya
+* IndentedCode adalah paragraf dengan "IndentedCode " dalam nama gaya
+* FencedCode adalah paragraf dengan "FencedCode " dalam nama gaya
+* InlineCode dijalankan dengan "InlineCode " dalam nama gaya `Font`
+* Aturan horizontal adalah paragraf dengan bentuk `HorizontalRule`
+* Penekanan yang berani
+* Penekanan miring
+* StrikeThrough pemformatan
+* Daftar diberi nomor atau paragraf berpoin
+* Tabel direpresentasikan dengan kelas `Table`
+* Tautan direpresentasikan sebagai kelas `FieldHyperlink`
 
-Contoh berikut menunjukkan bagaimana membuat dokumen dengan beberapa gaya dan menyimpannya untuk MarkdownSitemap
+Contoh berikut menunjukkan cara membuat dokumen dengan beberapa gaya dan menyimpannya ke Markdown:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SupportedMarkdownFeatures.java" >}}
 
@@ -55,9 +55,9 @@ Hasil dari contoh kode ini ditunjukkan di bawah ini.
 
 ![markdown-example-aspose-words-java](/words/java/convert-a-document-to-markdown/markdown-example.png)
 
-## Tips Berguna
+## Kiat Bermanfaat
 
-Ada beberapa nuansa dan kasus yang menarik, telah belajar yang dapat Anda kerjakan Markdown file lebih fleksibel dan mudah. Misalnya, ada kemampuan untuk digunakan:
+Ada beberapa nuansa dan kasus menarik, setelah mempelajari yang mana Anda dapat bekerja dengan file Markdown dengan lebih fleksibel dan nyaman. Misalnya, ada kemampuan untuk menggunakan:
 
-* SetextHeading yang memungkinkan Anda untuk membuat kepala multi-line di MarkdownSitemap sementara judul biasa di Meme it Markdown hanya bisa satu baris. SetextHeading didasarkan pada gaya "Heading N", dan tingkatnya hanya bisa 1 atau 2. Jika N di "Heading N" lebih besar dari atau sama dengan 2, maka SetextHeading yang sesuai didasarkan pada "Heading 2", jika ada di "Heading 1".
-* Penanda yang berbeda untuk tingkat pertama daftar yang dipeluru ("-", "+" atau "*", penanda default adalah "-".) dan berbagai jenis penjumlahan untuk daftar yang dipesan ("." atau ")", penanda default adalah ".").
+* SetextHeading yang memungkinkan Anda membuat judul multi-baris di Markdown, sedangkan judul reguler di Markdown hanya dapat berupa satu baris. SetextHeading didasarkan pada gaya "Heading N", dan levelnya hanya bisa 1 atau 2. Jika N dalam "Heading N" lebih besar dari atau sama dengan 2, maka SetextHeading yang sesuai didasarkan pada "Heading 2", sebaliknya pada"Heading 1".
+* Penanda berbeda untuk daftar berpoin tingkat pertama ("-", "+" atau "*", penanda standarnya adalah "-".) dan berbagai jenis penomoran untuk daftar terurut ("." atau ")", penanda standarnya adalah ".").

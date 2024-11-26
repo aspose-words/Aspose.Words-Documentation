@@ -1,74 +1,74 @@
----
-title: Tentukan Simpan Pilihan di Java
-second_title: Aspose.Words Sitemap Java
-articleTitle: Tentukan Simpan Pilihan
-linktitle: Tentukan Simpan Pilihan
-description: "Mengatur sifat canggih ketika menyimpan dokumen menggunakan Java untuk memberikan kontrol yang lebih tepat atas proses."
+﻿---
+title: Tentukan Opsi Penyimpanan di Java
+second_title: Aspose.Words untuk Java
+articleTitle: Tentukan Opsi Penyimpanan
+linktitle: Tentukan Opsi Penyimpanan
+description: "Setel properti lanjutan saat menyimpan dokumen menggunakan Java untuk memberikan kontrol yang lebih tepat atas proses tersebut."
 type: docs
 weight: 20
 url: /id/java/specify-save-options/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Saat menyimpan dokumen, Anda dapat mengatur beberapa properti canggih. Aspose.Words memberikan Anda [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) kelas, yang memungkinkan kontrol proses yang lebih tepat. Ada kelebihan beban **Save** metode yang menerima **SaveOptions** objek - itu harus menjadi objek dari kelas yang berasal dari **SaveOptions** Sitemap Setiap format menyimpan memiliki kelas yang sesuai yang menyimpan opsi untuk format menyimpan ini, misalnya, ada [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) untuk menyimpan format PDF, [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) untuk menghemat Markdown format, atau [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) untuk menyimpan gambar. Artikel ini memberikan contoh kerja dengan beberapa kelas pilihan yang berasal dari **SaveOptions**Sitemap
+Saat menyimpan dokumen, Anda dapat mengatur beberapa properti lanjutan. Aspose.Words memberi Anda kelas [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/), yang memungkinkan kontrol proses penyimpanan yang lebih tepat. Ada kelebihan metode **Save** yang menerima objek **SaveOptions** - itu harus menjadi objek kelas yang diturunkan dari kelas **SaveOptions**. Setiap format penyimpanan memiliki kelas terkait yang menyimpan opsi penyimpanan untuk format penyimpanan ini, misalnya, ada [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) untuk menyimpan ke format PDF, [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) untuk menyimpan ke format Markdown, atau [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) untuk menyimpan ke gambar. Artikel ini memberikan contoh bekerja dengan beberapa kelas opsi yang diturunkan dari **SaveOptions**.
 
-Contoh kode berikut menunjukkan cara mengatur opsi simpan sebelum menyimpan dokumen ke HTML:
+Contoh kode berikut menunjukkan cara mengatur opsi penyimpanan sebelum menyimpan dokumen menjadi HTML:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifySaveOption-SpecifySaveOption.java" >}}
 
 
 {{% alert color="primary" %}}
 
-Anda dapat mengunduh file template dari contoh ini dari [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx)Sitemap
+Anda dapat mengunduh file templat contoh ini dari [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-Artikel ini menjelaskan beberapa sifat yang dapat Anda kontrol ketika menyimpan dokumen.
+Artikel ini menjelaskan beberapa properti yang dapat Anda kontrol saat menyimpan dokumen.
 
-## Mengenkripsi Dokumen Dengan Password
+## Enkripsi Dokumen Dengan Kata Sandi
 
-Gunakan **Password** properti untuk mendapatkan atau mengatur kata sandi untuk dokumen terenkripsi. Gunakan **Password** properti kelas yang sesuai untuk bekerja dengan format dokumen yang dipilih.
+Gunakan properti **Password** untuk mendapatkan atau menyetel kata sandi untuk dokumen terenkripsi. Gunakan properti **Password** dari kelas terkait untuk bekerja dengan format dokumen yang dipilih.
 
-Misalnya, ketika menyimpan dokumen ke DOC atau DOT format, gunakan [Password](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/#Password) properti [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) Sitemap
+Misalnya, saat menyimpan dokumen ke format DOC atau DOT, gunakan properti [Password](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/#Password) dari kelas [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/).
 
 Contoh kode berikut menunjukkan cara mengatur kata sandi untuk mengenkripsi dokumen menggunakan metode enkripsi RC4:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithDocSaveOptions-EncryptDocumentWithPassword.java" >}}
 
-Saat menyimpan dokumen ke format ODT, gunakan [Password](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/#Password) properti [OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/) Sitemap
+Saat menyimpan dokumen ke format ODT, gunakan properti [Password](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/#Password) dari kelas [OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/).
 
-Contoh kode berikut menunjukkan cara memuat dan menyimpan OpenDocument dienkripsi dengan kata sandi:
+Contoh kode berikut menunjukkan cara memuat dan menyimpan OpenDocument yang dienkripsi dengan kata sandi:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-LoadAndSaveEncryptedODT.java" >}}
 
-Tidak semua enkripsi dukungan format dan penggunaan **Password** Login
+Tidak semua format mendukung enkripsi dan penggunaan properti **Password**.
 
-## Tampilkan Dokumen Menyimpan Pemberitahuan Perkembangan
+## Tampilkan Pemberitahuan Kemajuan Penyimpanan Dokumen
 
-Aspose.Words memberikan kemampuan untuk menggunakan [ProgressCallback](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getProgressCallback) properti untuk mendapatkan pemberitahuan tentang kemajuan tabungan dokumen.
+Aspose.Words menyediakan kemampuan untuk menggunakan properti [ProgressCallback](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getProgressCallback) untuk mendapatkan pemberitahuan tentang kemajuan penyimpanan dokumen.
 
-Sekarang tersedia ketika menyimpan ke DOCX, FlatOpc, DOCM, DOTLogin DOTX, HTML, MHTML, EPUB, XamlFlow, XamlFlowPack, atau format TXT.
+Sekarang tersedia saat menyimpan ke DOCX, FlatOpc, DOCM, DOTM, DOTX, HTML, MHTML, EPUB, XamlFlow, XamlFlowPack, atau format TXT.
 
-## Memperbarui Waktu Penciptaan Dokumen
+## Perbarui Waktu Pembuatan Dokumen
 
-Aspose.Words memberikan kemampuan untuk menggunakan [CreatedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getCreatedTime) properti untuk mendapatkan atau mengatur tanggal pembuatan dokumen di UTC. Anda juga dapat memperbarui nilai ini sebelum menyimpan menggunakan [UpdateCreatedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateCreatedTimeProperty) Login
+Aspose.Words menyediakan kemampuan untuk menggunakan properti [CreatedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getCreatedTime) untuk mendapatkan atau menyetel tanggal pembuatan dokumen di UTC. Anda juga dapat memperbarui nilai ini sebelum menyimpan menggunakan opsi [UpdateCreatedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateCreatedTimeProperty).
 
 Contoh kode berikut menunjukkan cara memperbarui waktu pembuatan dokumen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-UpdateIfLastPrinted.java" >}}
 
-## Memperbarui Kekayaan Terakhir
+## Perbarui Properti yang Terakhir Disimpan
 
-Aspose.Words memberikan kemampuan untuk menggunakan [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateLastSavedTimeProperty) properti untuk mendapatkan atau mengatur penentuan nilai apakah Meme it [LastSavedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getLastSavedTime) properti diperbarui sebelum menabung.
+Aspose.Words menyediakan kemampuan untuk menggunakan properti [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateLastSavedTimeProperty) untuk mendapatkan atau menetapkan nilai yang menentukan apakah properti [LastSavedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getLastSavedTime) diperbarui sebelum disimpan.
 
 Contoh kode berikut menunjukkan cara mengatur properti ini dan menyimpan dokumen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithOoXML-updateLastSavedTimeProperty.java" >}}
 
-## Simpan Gambar Hitam dan Putih dengan Satu Bit Per Format Piksel
+## Simpan Gambar Hitam Putih dengan Format Satu Bit Per Piksel
 
-Untuk mengontrol opsi tabungan gambar, **ImageSaveOptions** kelas digunakan. Misalnya, Anda dapat menggunakan [PixelFormat](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getPixelFormat) properti untuk mengatur format pixel untuk gambar yang dihasilkan. Harap dicatat bahwa format pixel dari gambar output mungkin berbeda dari nilai set karena pekerjaan GDI+.
+Untuk mengontrol opsi penyimpanan gambar, kelas **ImageSaveOptions** digunakan. Misalnya, Anda dapat menggunakan properti [PixelFormat](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getPixelFormat) untuk mengatur format piksel untuk gambar yang dihasilkan. Harap perhatikan bahwa format piksel gambar keluaran mungkin berbeda dari nilai yang ditetapkan karena karya GDI+.
 
-Contoh kode berikut menunjukkan cara menyimpan gambar hitam dan putih dengan satu bit per format piksel:
+Contoh kode berikut menunjukkan cara menyimpan gambar hitam putih dengan format satu bit per piksel:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-ImageColorFilters-SaveImageToOnebitPerPixel.java" >}}

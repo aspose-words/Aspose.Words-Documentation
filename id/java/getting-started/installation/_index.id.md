@@ -1,24 +1,24 @@
----
-title: Login
-second_title: Aspose.Words Sitemap Java
-articleTitle: Login
-linktitle: Login
-description: "Login Aspose.Words Sitemap Java Sitemap Maven repositori. Login Aspose.Words Sitemap Java ketergantungan dalam pom.xml Anda"
+﻿---
+title: Instalasi
+second_title: Aspose.Words untuk Java
+articleTitle: Instalasi
+linktitle: Instalasi
+description: "Instal Aspose.Words untuk Java dari repositori Maven. Tentukan ketergantungan Aspose.Words untuk Java di pom.xmlAnda"
 type: docs
 weight: 10
 url: /id/java/installation/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Pastikan mesin Anda memenuhi [Login](/words/id/java/system-requirements/) sebelum Anda mulai.
+Pastikan mesin Anda memenuhi persyaratan [kesatuan sistem](/words/java/system-requirements/) sebelum Anda mulai.
 
-Artikel ini menjelaskan cara menginstal Aspose.Words Sitemap Java di komputer Anda.
+Artikel ini menjelaskan cara menginstal Aspose.Words untuk Java di komputer Anda.
 
-## Login Aspose.Words Sitemap Java Sitemap Maven Login {#install-aspose-words-for-java-from-maven-repository}
+## Instal Aspose.Words untuk Java dari Maven Repositori {#install-aspose-words-for-java-from-maven-repository}
 
-Aspose hosts semua Java APISitemap [Maven Login](https://releases.aspose.com/words/java/)Sitemap Anda dapat dengan mudah digunakan Aspose.Words Sitemap Java API langsung Maven Proyek dengan konfigurasi sederhana:
+Aspose menampung semua Java APIs dalam [Maven repositori](https://releases.aspose.com/words/java/). Anda dapat dengan mudah menggunakan Aspose.Words untuk Java API secara langsung dalam Proyek Maven Anda dengan konfigurasi sederhana:
 
-Sitemap Pertama, Anda perlu menentukan Aspose Maven Repositori konfigurasi/lokasi di Anda Maven pom.xml seperti yang ditunjukkan di bawah ini:
+1. Pertama, Anda perlu menentukan konfigurasi/lokasi Repositori Aspose Maven di Maven pom.xml Anda seperti yang ditunjukkan di bawah ini:
 	{{< highlight html >}}
 	<repositories>
 		<repository>
@@ -28,7 +28,7 @@ Sitemap Pertama, Anda perlu menentukan Aspose Maven Repositori konfigurasi/lokas
 		</repository>
 	</repositories>
 	{{< /highlight >}}
-2. di Kemudian, mendefinisikan Aspose.Words Sitemap Java API ketergantungan dalam pom.xml Anda sebagai berikut:
+2. Kemudian, tentukan ketergantungan Aspose.Words untuk Java API di pom.xml Anda sebagai berikut:
 	{{< highlight html >}}
 	<dependencies>
 		<dependency>
@@ -45,8 +45,8 @@ Sitemap Pertama, Anda perlu menentukan Aspose Maven Repositori konfigurasi/lokas
 		</dependency>
 	</dependencies>
 	{{< /highlight >}}
-3. Juni Login Anda telah berhasil mendefinisikan Aspose.Words Sitemap Java tergantung pada Maven Sitemap
+3. Selamat! Anda telah berhasil mendefinisikan ketergantungan Aspose.Words untuk Java dalam proyek Maven Anda.
 
 ## Lihat Juga
 
-* [Login Aspose.Words Sitemap Maven](https://releases.aspose.com/words/java/)
+* [Unduh Aspose.Wordsdari Maven](https://releases.aspose.com/words/java/)

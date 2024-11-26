@@ -1,18 +1,18 @@
----
-title: Tentukan kebenaran Jenis Lokasi Font di Java
-second_title: Aspose.Words Sitemap Java
-articleTitle: Tentukan kebenaran Jenis Lokasi Font
-linktitle: Tentukan kebenaran Jenis Lokasi Font
-description: "Tentukan berbagai Login Jenis sumber font: folder sistem, sumber pengguna, memuat font dari aliran, sistem file, atau memori menggunakan JavaSitemap"
+﻿---
+title: Tentukan Lokasi Font TrueTypedalam Java
+second_title: Aspose.Words untuk Java
+articleTitle: Tentukan Lokasi Font TrueType
+linktitle: Tentukan Lokasi Font TrueType
+description: "Tentukan berbagai sumber font TrueType: folder sistem, sumber pengguna, memuat font dari aliran, sistem file, atau memori menggunakan Java."
 type: docs
 weight: 30
 url: /id/java/specify-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---
 
-Topik ini menjelaskan perilaku default dari Aspose.Words ketika mencari font TrueType, termasuk perbedaan spesifik sistem operasi, dan menunjukkan cara menentukan sumber font pengguna.
+Topik ini menjelaskan perilaku default Aspose.Words saat mencari font TrueType, termasuk perbedaan khusus sistem operasi, dan mendemonstrasikan cara menentukan sumber font pengguna.
 
-Login [FontSourceBase](https://reference.aspose.com/words/java/com.aspose.words/fontsourcebase/) kelas digunakan untuk menentukan berbagai sumber font. Ada beberapa implementasi **FontSourceBase** kelas:
+Kelas [FontSourceBase](https://reference.aspose.com/words/java/com.aspose.words/fontsourcebase/) digunakan untuk menentukan berbagai sumber font. Ada beberapa implementasi dari kelas **FontSourceBase**:
 
 - [SystemFontSource](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/)
 - [FolderFontSource](https://reference.aspose.com/words/java/com.aspose.words/folderfontsource/)
@@ -22,55 +22,55 @@ Login [FontSourceBase](https://reference.aspose.com/words/java/com.aspose.words/
 
 Detail implementasi untuk beberapa kelas dijelaskan di bawah ini.
 
-## Font Beban dari Sistem {#loading-fonts-from-system}
+## Muat Font dari Sistem {#loading-fonts-from-system}
 
-Ada [SystemFontSource](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/) kelas yang selalu digunakan secara default. Ini mewakili semua font TrueType yang diinstal pada sistem. Oleh karena itu, dimungkinkan untuk membuat daftar sumber dengan **SystemFontSource** dan sumber yang diperlukan lainnya:
+Ada kelas [SystemFontSource](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/) khusus yang selalu digunakan secara default. Ini mewakili semua TrueType font yang diinstal pada sistem. Oleh karena itu, dimungkinkan untuk membuat daftar sumber dengan **SystemFontSource** dan sumber lain yang diperlukan:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetFontsFolder.java" >}}
 
-Contoh tunggal dari **SystemFontSource** kelas didefinisikan secara default [FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/)Sitemap Pada sistem operasi yang berbeda, font mungkin terletak di tempat yang berbeda. Namun, menggunakan **FontSettings** Contoh untuk setiap dokumen bukanlah solusi optimal. Dalam sebagian besar kasus, menggunakan [DefaultInstance](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/#getDefaultInstance) harus cukup.
+Satu instance dari kelas **SystemFontSource** didefinisikan secara default di [FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/). Pada sistem operasi yang berbeda, font mungkin ditempatkan di tempat yang berbeda. Namun, menggunakan instance **FontSettings** untuk setiap dokumen bukanlah solusi yang optimal. Dalam sebagian besar kasus, menggunakan [DefaultInstance](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/#getDefaultInstance) sudah cukup.
 
-Contoh per-document diperlukan hanya jika diperlukan untuk menggunakan sumber font yang berbeda untuk dokumen yang berbeda, yang merupakan kasus yang langka. Menggunakan beberapa **FontSettings** kasus mengurangi kinerja karena mereka tidak berbagi cache.
+Instans per dokumen hanya diperlukan jika diperlukan untuk menggunakan sumber font yang berbeda untuk dokumen yang berbeda, yang merupakan kasus yang jarang terjadi. Menggunakan beberapa instance **FontSettings** menurunkan kinerja karena tidak berbagi cache.
 
-### Sitemap Aspose.Words Cari Font TrueType di Windows
+### Dimana Aspose.Words Mencari Font TrueTypepada Windows
 
-Dalam kebanyakan kasus, Windows pengguna tidak menghadapi masalah signifikan dengan font yang terjawab atau tata letak yang salah. Biasanya, Aspose.Words melalui dokumen, dan ketika menemukan tautan font, berhasil menangkap data font dari folder sistem.
+Dalam kebanyakan kasus, pengguna Windows tidak menghadapi masalah signifikan dengan font yang terlewat atau tata letak yang salah. Biasanya, Aspose.Words melewati dokumen, dan ketika menemukan tautan font, ia berhasil mengambil data font dari folder sistem.
 
-Sitemap WindowsSitemap Aspose.Words pertama mengambil semua font yang tersedia dari _%windir%\Fonts folder. Pengaturan ini akan bekerja untuk Anda sebagian besar waktu. Anda hanya menentukan folder font Anda sendiri jika Anda perlu. Aspose.Words juga mencari font tambahan yang terdaftar di HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts kunci registry. Selain itu, Windows 10 memungkinkan instalasi font untuk pengguna saat ini. Font ditempatkan ke dalam %userprofile%\AppData\Local\Microsoft\Windows\Fonts folder dan juga ditentukan dalam folder HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts registry, dimana Aspose.Words akan mencari font ini. Meme it
+Pada Windows, Aspose.Words pertama-tama mengambil semua font yang tersedia dari folder _%windir%\Fonts. Pengaturan ini akan bekerja untuk Anda hampir sepanjang waktu. Anda hanya menentukan folder font Anda sendiri jika perlu. Aspose.Words juga mencari font tambahan yang terdaftar di kunci registri HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts. Selain itu, Windows 10 memungkinkan penginstalan font untuk pengguna saat ini. Font ditempatkan ke dalam folder %userprofile%\AppData\Local\Microsoft\Windows\Fonts dan juga ditentukan dalam registri HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts, di mana Aspose.Words akan mencari font ini.
 
-Jika dokumen mengandung font tertanam, Aspose.Words dapat membaca data font yang relevan dari dokumen dan menggunakannya untuk membuat tata letak dokumen. Dokumen juga dapat berisi tautan ke font yang tidak di folder sistem, di mana kasus skenario berikut datang untuk bekerja:
+Jika dokumen berisi font yang disematkan, Aspose.Words dapat membaca data font yang relevan dari dokumen dan menggunakannya untuk membuat tata letak dokumen. Dokumen juga dapat berisi tautan ke font yang tidak ada di folder sistem, dalam hal ini skenario berikut akan berfungsi:
 
-- Pengguna dapat mengatur sumber font baru melalui **FontSettings** Login
-- Login Aspose.Words dapat mencoba untuk mengganti font yang terjawab dengan yang sama
+- Pengguna dapat mengatur sumber font baru melalui kelas **FontSettings**
+- Aspose.Words dapat mencoba mengganti font yang terlewat dengan font serupa
 
-### Font di Non-Windows Login
+### Font pada Sistem Non - Windows
 
-Aspose.Words akan mencari font di folder font sistem. Daftar folder ini dapat dilihat oleh [GetSystemFontFolders](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/#getSystemFontFolders) Login Jika tidak ada font yang didukung ditemukan, Aspose.Words akan menggunakan bawaan font Fanwood.ttf.
+Aspose.Words akan mencari font di folder font sistem. Daftar folder ini dapat dilihat dengan metode [GetSystemFontFolders](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/#getSystemFontFolders). Jika tidak ditemukan font yang didukung, Aspose.Words akan menggunakan Fanwood font default bawaan.ttf.
 
-Sejak metrik font Windows dan non-Windows OS berbeda, Aspose.Words apakah semuanya mungkin untuk menemukan font yang sama dan membangun tata letak yang mirip dengan aslinya. Namun, ini tidak selalu mungkin. Dalam kasus ini, **FontSettings** kelas harus digunakan untuk menambahkan font kustom atau aturan substitusi.
+Karena metrik font Windows dan non - Windows OS berbeda, Aspose.Words melakukan segala kemungkinan untuk menemukan font yang serupa dan membuat tata letak yang mirip dengan aslinya. Namun, ini tidak selalu memungkinkan. Dalam kasus ini, kelas **FontSettings** harus digunakan untuk menambahkan font khusus atau aturan substitusi.
 
-#### Sitemap Aspose.Words Cari Font TrueType di Linux
+#### Dimana Aspose.Words Mencari Font TrueTypepada Linux
 
-Login Linux distribusi dapat menyimpan font di folder yang berbeda. Aspose.Words mencari font di beberapa lokasi. Login Aspose.Words mencari font di semua lokasi berikut: `/usr/share/font` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts` Perilaku default ini akan bekerja untuk sebagian besar Linux distribusi, tetapi tidak dijamin untuk bekerja sepanjang waktu, dalam hal mana Anda mungkin perlu menentukan lokasi true jenis font secara eksplisit. Untuk melakukan ini, Anda perlu tahu di mana font TrueType diinstal pada Anda Linux Login
+Distribusi Linux yang berbeda dapat menyimpan font di folder yang berbeda. Aspose.Words mencari font di beberapa lokasi. Secara default, Aspose.Words mencari font di semua lokasi berikut: `/usr/share/fonts`, `/usr/local/share/fonts`, `/usr/X11R6/lib/X11/fonts`. Perilaku default ini akan berfungsi untuk sebagian besar distribusi Linux, tetapi tidak dijamin berfungsi sepanjang waktu, dalam hal ini Anda mungkin perlu menentukan lokasi font tipe sebenarnya secara eksplisit. Untuk melakukan ini, Anda perlu mengetahui di mana font TrueType diinstal pada distribusi Linux Anda.
 
-#### Sitemap Aspose.Words Cari Font TrueType di Mac OS X
+#### Dimana Aspose.Words Mencari Font TrueTypepada Mac OS X
 
-Aspose.Words mencari font di folder /Library/Fonts, yang merupakan lokasi standar untuk font TrueType di Mac OS X. Meskipun pengaturan ini akan bekerja untuk Anda sebagian besar waktu, Anda mungkin perlu menentukan folder font Anda sendiri dalam kasus ketika Anda perlu.
+Aspose.Words mencari font di folder `/Library/Fonts`, yang merupakan lokasi standar untuk font TrueType di Mac OS X. Meskipun pengaturan ini akan berfungsi untuk Anda hampir sepanjang waktu, Anda mungkin perlu menentukan folder font Anda sendiri jika diperlukan.
 
-#### Font TrueType di Android
+#### TrueType Fonta pada Android
 
-Sitemap Android, alur kerja font ditekapkan dalam kelas Typeface.
-Ada lima jenis permukaan, masing-masing jenis wajah mewakili sekelompok keluarga font serupa:
+Pada Android, alur kerja font dikemas dalam kelas Typeface.
+Ada lima jenis tipografi, setiap jenis huruf mewakili sekelompok keluarga font yang serupa:
 
-- Login
-- Sitemap
-- Login
+- DEFAULT
+- DEFAULT_BOLD
+- MONOSPACE
 - SANS_SERIF
 - SERIF
 
-Misalnya, sesuai dengan AndroidSitemap [WordPress.org](https://androidxref.com/9.0.0_r3/xref/frameworks/base/data/fonts/fonts.xml) config file, "times" milik "serif" keluarga sehingga NotoSerif-Regular.ttf akan digunakan ketika "times" diminta:
+Misalnya, menurut Android [fonts.xml](https://androidxref.com/9.0.0_r3/xref/frameworks/base/data/fonts/fonts.xml) file konfigurasi, "times" milik keluarga "serif" jadi NotoSerif - Reguler.ttf akan digunakan saat" waktu " diminta:
 
-**WordPress.org**
+**Fonts.xml**
 
 {{< highlight html >}}
 <family name="serif">
@@ -83,19 +83,19 @@ Misalnya, sesuai dengan AndroidSitemap [WordPress.org](https://androidxref.com/9
 <alias name="times new roman" to="serif" />
 {{< /highlight >}}
 
-Untuk mencari font serupa, strategi yang dijelaskan sebelumnya digunakan
+Untuk mencari font yang serupa, strategi yang dijelaskan sebelumnya digunakan.
 
-Selain mereka, Aspose.Words memiliki daftar pengganti sendiri untuk Android Login
+Selain itu, Aspose.Words memiliki daftar penggantinya sendiri untuk platform Android.
 
-Katakanlah dokumen berisi font PMingLiU-ExtB, pertama-tama, Aspose.Words mencari font yang diperlukan dalam sumber sistem.
+Katakanlah dokumen tersebut berisi font PMingLiU - ExtB, pertama-tama, Aspose.Words mencari font yang diperlukan di dalam sumber sistem.
 
-Daftar default Android folder font adalah:
+Daftar default folder font Android adalah:
 
-- /sistem/font
-- /sistem/font
-- /data/font
+- /sistem / font
+- / sistem / fonta
+- /data / font
 
-Login Aspose.Words melihat melalui sumber yang ditentukan pengguna yang ditetapkan dengan metode:
+Aspose.Words melihat melalui sumber yang ditentukan pengguna yang disetel dengan metode:
 
 **Java**
 
@@ -103,7 +103,7 @@ Login Aspose.Words melihat melalui sumber yang ditentukan pengguna yang ditetapk
 fontSettings.setFontsFolder("/home/user/MyFonts", true);
 {{< /highlight >}}
 
-Dalam kasus penggantian eksplisit telah ditentukan, Aspose.Words mengganti font yang hilang dengan saran pengguna:
+Jika penggantian eksplisit telah ditentukan, Aspose.Words mengganti font yang hilang dengan saran pengguna:
 
 **Java**
 
@@ -111,12 +111,12 @@ Dalam kasus penggantian eksplisit telah ditentukan, Aspose.Words mengganti font 
 fontSettings.getSubstitutionSettings().getTableSubstitution().setSubstitutes("PMingLiU-ExtB", "Liberation Serif");
 {{< /highlight >}}
 
-Jika tidak ada aturan yang bekerja, Aspose.Words periksa tabel penggantian internal. Jika tabel berisi informasi tentang fit yang baik maka font akan diganti. Dalam kasus kami Aspose.Words Login `Typeface.SERIF`Sitemap Tapi jika tabel tidak tahu apa-apa tentang font yang diminta kemudian Aspose.Words mengambil font berdasarkan aturan MS Word khusus atau jarak terdekat di ruang Panose.
+Jika tidak ada aturan yang berhasil, Aspose.Words periksa tabel penggantian internal. Jika tabel berisi informasi tentang kecocokan yang baik maka font akan diganti. Dalam kasus kami Aspose.Words akan memilih `Typeface.SERIF`. Tetapi jika tabel tidak mengetahui apa pun tentang font yang diminta, maka Aspose.Words mengambil font berdasarkan aturan MS Word khusus atau jarak terdekat dalam ruang Panose.
 
-#### Font TrueType di .NET Core Login Xamarin
+#### TrueType Fonta pada .NET Coredan Xamarin
 
-Sitemap .NET Core Login Xamarin aturan yang sama berlaku untuk Aspose.Words Sitemap Java Sitemap Secara default, semua font sistem dari platform di mana aplikasi berjalan tersedia.
-Daftar folder di mana pencarian akan dilakukan dapat ditemukan dengan memanggil metode:
+Untuk .NET Core dan Xamarin, aturan yang sama berlaku untuk Aspose.Words untuk versi Java. Secara default, semua font sistem dari platform tempat aplikasi dijalankan tersedia.
+Daftar folder tempat pencarian akan dilakukan dapat ditemukan dengan memanggil metode:
 
 **Java**
 
@@ -124,37 +124,37 @@ Daftar folder di mana pencarian akan dilakukan dapat ditemukan dengan memanggil 
 SystemFontSource().getAvailableFonts()
 {{< /highlight >}}
 
-## Font Beban dari Folder {#loading-fonts-from-folder}
+## Muat Font dari Folder {#loading-fonts-from-folder}
 
-Jika dokumen diproses berisi tautan ke font yang tidak ada di sistem, atau Anda tidak ingin menambahkannya ke folder sistem, atau Anda tidak memiliki izin, maka solusi terbaik adalah menambahkan folder dengan font Anda sendiri menggunakan font `SetFontsSources` Login Ini akan memungkinkan mengganti sumber sistem dengan sumber pengguna. Aspose.Words tidak akan lagi mencari font di registry atau Meme it Windows\Font folder dan bukan hanya memindai font dalam folder yang ditentukan. Login `GetFontSources` metode akan mengembalikan nilai yang sesuai.
+Jika dokumen yang sedang diproses berisi tautan ke font yang tidak ada di sistem, atau Anda tidak ingin menambahkannya ke folder sistem, atau Anda tidak memiliki izin, maka solusi terbaik adalah menambahkan folder dengan font Anda sendiri menggunakan metode `SetFontsSources`. Ini akan memungkinkan penggantian sumber sistem dengan sumber pengguna. Aspose.Words tidak akan lagi mencari font di registri atau folder ont Windows\Fdan sebagai gantinya hanya memindai font di dalam folder yang ditentukan. Metode `GetFontSources` akan mengembalikan nilai yang sesuai.
 
 ### Tentukan Satu atau Beberapa Folder Font
 
-Login [SetFontsFolder](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/#setFontsFolder-java.lang.String-boolean) dan metode SetFontsFolders adalah shortcuts ke **SetFontSources** metode dengan satu atau beberapa [FolderFontSource](https://reference.aspose.com/words/java/com.aspose.words/folderfontsource/) Sitemap Metode ini digunakan untuk menunjukkan di mana Aspose.Words harus mencari font. Jika folder tidak ada atau tidak dapat diakses, Aspose.Words hanya mengabaikan folder ini. Jika semua folder, termasuk sumber untuk substitusi font, diabaikan, Aspose.Words akan menggunakan font Fanwood sebagai default.
+Metode [SetFontsFolder](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/#setFontsFolder-java.lang.String-boolean) dan SetFontsFolders adalah pintasan ke metode **SetFontSources** dengan satu atau beberapa instance [FolderFontSource](https://reference.aspose.com/words/java/com.aspose.words/folderfontsource/). Metode ini digunakan untuk menunjukkan di mana Aspose.Words harus mencari font. Jika folder tidak ada atau tidak dapat diakses, Aspose.Words abaikan saja folder ini. Jika semua folder, termasuk sumber untuk penggantian font, diabaikan, Aspose.Words akan menggunakan font Fanwood sebagai default.
 
-Contoh berikut menunjukkan bagaimana mengatur folder atau sumber, yang Aspose.Words kemudian akan digunakan untuk mencari font TrueType selama rendering atau embedding font:
+Contoh berikut menunjukkan cara mengatur folder atau sumber, yang selanjutnya akan digunakan Aspose.Words untuk mencari font TrueType selama rendering atau penyematan font:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetTrueTypeFontsFolder.java" >}}
 
 {{% alert color="primary" %}}
 
-Anda dapat mengunduh file template dari contoh ini dari [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx)Sitemap
+Anda dapat mengunduh file templat contoh ini dari [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-Parameter Boolean tambahan mengontrol apakah font dipindai berulang melalui semua folder, sehingga memindai semua folder anak dari folder tertentu. Contoh berikut menunjukkan cara mengatur Aspose.Words untuk melihat beberapa folder untuk TrueType fonts ketika rendering atau embedding font:
+Parameter Boolean tambahan mengontrol apakah font dipindai secara rekursif melalui semua folder, sehingga memindai semua folder turunan dari folder tertentu. Contoh berikut mendemonstrasikan cara menyetel Aspose.Words untuk mencari font TrueType di beberapa folder saat merender atau menyematkan font:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetMultipleFontsFolder.java" >}}
 
-Anda dapat mengunduh file template dari contoh ini dari [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx)Sitemap
+Anda dapat mengunduh file templat contoh ini dari [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{% alert color="primary" %}}
 
-Perhatikan prioritas. Jika ada font dengan nama keluarga dan gaya yang sama dalam berbagai sumber font, maka Aspose.Words akan memilih font dari sumber dengan prioritas yang lebih tinggi. Lihat deskripsi bidang "Prioritas" di bawah ini.
+Perhatikan prioritasnya. Jika ada font dengan nama keluarga dan gaya yang sama di sumber font yang berbeda, maka Aspose.Words akan memilih font dari sumber dengan prioritas lebih tinggi. Lihat deskripsi bidang "Prioritas" di bawah ini.
 
 {{% /alert %}}
 
-Jika Anda tidak ingin menggunakan font sistem sama sekali, Aspose.Words memungkinkan Anda untuk mengabaikan mereka dan menggunakan font Anda sendiri hanya:
+Jika Anda tidak ingin menggunakan font sistem sama sekali, Aspose.Words memungkinkan Anda untuk mengabaikannya dan hanya menggunakan font Anda sendiri:
 
 **Java**
 
@@ -165,39 +165,39 @@ FontSettings.getDefaultInstance().setFontsFolder("C:\\MyFonts\\", true);
 
 ### Properti Prioritas
 
-Login [Priority](https://reference.aspose.com/words/net/aspose.words.fonts/fontsourcebase/priority/) properti digunakan ketika ada font dengan nama keluarga dan gaya yang sama dalam berbagai sumber font. Dalam kasus ini Aspose.Words pilih font dari sumber dengan nilai prioritas yang lebih tinggi. Misalnya, ada versi lama font di folder sistem dan pelanggan menambahkan versi baru dari font yang sama dalam folder kustom.
+Properti [Priority](https://reference.aspose.com/words/net/aspose.words.fonts/fontsourcebase/priority/) digunakan jika ada font dengan nama keluarga dan gaya yang sama di sumber font yang berbeda. Dalam hal ini Aspose.Words memilih font dari sumber dengan nilai prioritas yang lebih tinggi. Misalnya, ada font versi lama di folder sistem dan pelanggan menambahkan versi baru dari font yang sama di folder khusus.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetFontsFolderWithPriority.java" >}}
 
-## Font Beban dari Stream {#loading-fonts-from-stream}
+## Muat Font dari Aliran {#loading-fonts-from-stream}
 
-Aspose.Words Sitemap [StreamFontSource](https://reference.aspose.com/words/java/com.aspose.words/streamfontsource/) kelas, yang memungkinkan memuat font dari aliran. Untuk menggunakan sumber font aliran, pengguna perlu membuat kelas yang berasal dari **StreamFontSource** dan memberikan implementasi [OpenFontDataStream](https://reference.aspose.com/words/java/com.aspose.words/streamfontsource/#openFontDataStream) Login Login **OpenFontDataStream** metode bisa disebut beberapa kali. Untuk pertama kalinya, itu akan disebut ketika Meme it Aspose.Words memindai sumber font yang disediakan untuk mendapatkan daftar font yang tersedia. Kemudian dapat disebut jika font digunakan dalam dokumen untuk membuat data font dan untuk mengatur data font ke beberapa format output. **StreamFontSource** mungkin berguna karena memungkinkan pemuatan data font hanya ketika diperlukan, dan tidak menyimpannya dalam memori untuk `FontSettings` Sitemap
+Aspose.Words menyediakan kelas [StreamFontSource](https://reference.aspose.com/words/java/com.aspose.words/streamfontsource/), yang memungkinkan pemuatan font dari aliran. Untuk menggunakan sumber font aliran, pengguna perlu membuat kelas turunan dari **StreamFontSource** dan menyediakan implementasi metode [OpenFontDataStream](https://reference.aspose.com/words/java/com.aspose.words/streamfontsource/#openFontDataStream). Metode **OpenFontDataStream** dapat dipanggil beberapa kali. Untuk pertama kalinya, ini akan dipanggil saat Aspose.Words memindai sumber font yang disediakan untuk mendapatkan daftar font yang tersedia. Nanti dapat dipanggil jika font digunakan dalam dokumen untuk mengurai data font dan menyematkan data font ke beberapa format keluaran. **StreamFontSource** mungkin berguna karena memungkinkan pemuatan data font hanya jika diperlukan, dan tidak menyimpannya dalam memori selama masa pakai `FontSettings`.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-SpecifyTrueTypeFontsLocation-loadingFontsStream.java" >}}
 
-**StreamFontSource** adalah alternatif untuk [MemoryFontSource](https://reference.aspose.com/words/java/com.aspose.words/memoryfontsource/) karena selalu memungkinkan untuk memuat aliran ke memori dan melewatinya **MemoryFontSource**Sitemap Perbedaannya adalah **MemoryFontSource** disimpan dalam memori sepanjang waktu, dan **StreamFontSource** dimuat pada permintaan dan pembuangan segera. Tetapi mungkin dimuat beberapa kali, seperti yang dijelaskan di atas. Dalam beberapa kasus **MemoryFontSource** lebih disukai, dan pada orang lain, **StreamFontSource**Sitemap
+**StreamFontSource**
 
 ## Simpan dan Muat Cache Pencarian Font
 
-Ketika mencari font untuk pertama kalinya, Aspose.Words iterates atas sumber font yang ditentukan oleh pengguna dan membentuk cache pencarian font berdasarkan data dari sumber ini. Dengan demikian, cache akan mengumpulkan informasi tentang font yang tersedia: font keluarga, gaya, nama font penuh, dan lain-lain. Pada panggilan berikutnya, Aspose.Words mencari informasi tentang font yang diinginkan oleh namanya dalam cache pencarian font, setelah itu parses file yang ditentukan untuk menggunakan font.
+Saat mencari font untuk pertama kalinya, Aspose.Words beralih ke sumber font yang ditentukan oleh pengguna dan membentuk cache pencarian font berdasarkan data dari sumber tersebut. Dengan demikian, cache akan mengumpulkan informasi tentang font yang tersedia: keluarga font, gaya, nama font lengkap, dan lainnya. Pada panggilan berikutnya, Aspose.Words mencari informasi tentang font yang diinginkan berdasarkan namanya di cache pencarian font, setelah itu mem-parsing file yang ditentukan untuk menggunakan font tersebut.
 
-Prosedur untuk membuat semua file font yang tersedia untuk menginisialisasi cache cukup memakan waktu. Aspose.Words memungkinkan Anda untuk menyimpan dan memuat cache menggunakan **FontSettings.SaveSearchCache** metode untuk memecahkan masalah kinerja. Itu, pengguna dapat memuat cache yang sebelumnya disimpan dari file dan melewatkan langkah membuat semua file font yang tersedia.
+Prosedur untuk mengurai semua file font yang tersedia untuk menginisialisasi cache cukup memakan waktu. Aspose.Words memungkinkan Anda menyimpan dan memuat cache menggunakan metode **FontSettings.SaveSearchCache** untuk mengatasi masalah kinerja. Artinya, pengguna dapat memuat cache yang disimpan sebelumnya dari sebuah file dan melewati langkah penguraian semua file font yang tersedia.
 
 {{% alert color="primary" %}}
 
-Gunakan yang sama **SaveSearchCache** metode untuk memperbarui cache.
+Gunakan metode **SaveSearchCache** yang sama untuk memperbarui cache.
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-Cache juga cocok untuk skenario lain ketika font dimuat melalui jaringan. Atau untuk skenario ketika tidak ada cara untuk menyimpan `FontSettings` Contoh dengan cache yang dimuat.
+Cache juga cocok untuk skenario lain saat font dimuat melalui jaringan. Atau untuk skenario ketika tidak ada cara untuk menyimpan instance `FontSettings` dengan cache yang dimuat.
 
 {{% /alert %}}
 
 
 ## Dapatkan Daftar Font yang Tersedia {#get-a-list-of-available-fonts}
 
-Jika Anda ingin mendapatkan daftar font yang tersedia, yang, misalnya, dapat digunakan untuk membuat dokumen PDF, Anda dapat menggunakan [GetAvailableFonts](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/#getAvailableFonts) metode, seperti yang ditunjukkan dalam contoh kode berikut. Login [PhysicalFontInfo](https://reference.aspose.com/words/java/com.aspose.words/physicalfontinfo/) menentukan informasi tentang font fisik yang tersedia untuk Aspose.Words mesin font:
+Jika Anda ingin mendapatkan daftar font yang tersedia, yang, misalnya, dapat digunakan untuk merender dokumen PDF, Anda dapat menggunakan metode [GetAvailableFonts](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/#getAvailableFonts), seperti yang ditunjukkan pada contoh kode berikut. Kelas [PhysicalFontInfo](https://reference.aspose.com/words/java/com.aspose.words/physicalfontinfo/) menetapkan informasi tentang font fisik yang tersedia untuk mesin font Aspose.Words:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-GetAllAvailableFonts.java" >}}

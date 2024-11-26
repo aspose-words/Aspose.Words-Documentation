@@ -1,38 +1,38 @@
----
-title: 如何添加 Group 形状为单词文档
-second_title: "Aspose.Words (单位:千美元) Java"
-articleTitle: 与 Group 单词文档中的形状
-linktitle: 与 Group 单词文档中的形状
-description: "Group使用 Java。 。 。 。"
+﻿---
+title: 如何将Group Shape添加到Word文档中
+second_title: Aspose.Words为Java
+articleTitle: 在Word文档中使用Group Shapes
+linktitle: 在Word文档中使用Group Shapes
+description: "使用Java对形状进行分组和取消分组。"
 type: docs
 weight: 290
 url: /zh/java/how-to-add-group-shape-into-a-word-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-有时你需要添加一个 group shape 输入 Word 文档。 这样 group shape 由多个形状组成。
+有时您需要将group shape添加到Word文档中。 这样的group shape由多个形状组成。
 
-内 Microsoft Word, 您可以快速添加一个 group shape 使用 Group 命令/按钮。 组中的单个形状可以单独移动.
+在Microsoft Word中，您可以使用组命令/按钮快速添加group shape。 组中的单个形状可以单独移动。
 
-内 Aspose.Words 增加一个非常容易 group shape 使用 [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) 课。 **Shape** 单独使用 [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) 类,然后添加到 [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) 对象使用 [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/groupshape/#appendChild-com.aspose.words.Node) 方法。
+在Aspose.Words中，使用[GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/)类添加group shape非常容易。 **Shape**使用[Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/)类单独创建，然后使用[AppendChild](https://reference.aspose.com/words/java/com.aspose.words/groupshape/#appendChild-com.aspose.words.Node)方法添加到[GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/)对象中。
 
-下面是一些 `Shape` 支持类型 Aspose.Words。 。 。 。 完整名单请访问 [ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/)编号:
+下面是Aspose.Words中支持的一些`Shape`类型。 有关完整列表，请访问[ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/):
 
-- 对角
-- 圆矩形
-- 圆矩形
+- 矩形
+- RoundRectangle
+- RoundRectangle
 - 椭圆
 - 钻石
-- 三角地区
-- 右转
-- 平行图
-- 铁皮素
+- 三角形
+- RightTriangle
+- 平行四边形
+- 梯形,梯形
 - 六边形
-- 奥塔贡
+- 八角,八角
 
-**Example**
+**例子：**
 
-* 增加一个 group shape 输入 Word 文档。 * 《大会正式记录,第五十八届会议,补编第5号》(A/C.6/61/Rev.1)。
+*Add a group shape into a Word document.*
 
 
 {{< highlight csharp >}}
