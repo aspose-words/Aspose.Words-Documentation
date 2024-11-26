@@ -1,9 +1,9 @@
----
+﻿---
 title: Format File dan Konversi
-second_title: Aspose.Words Sitemap Java
+second_title: Aspose.Words untuk Java
 articleTitle: Format File dan Konversi
 linktitle: Format File dan Konversi
-description: "Mengkonversi dokumen dari beban yang didukung untuk menyimpan format hanya dengan dua baris Java Kode. Ini menyediakan konversi berkualitas tinggi menggunakan JavaSitemap"
+description: "Konversi dokumen dari beban apa pun yang didukung ke format penyimpanan hanya dengan dua baris kode Java. Ini memberikan konversi berkualitas tinggi menggunakan Java."
 type: docs
 weight: 40
 url: /id/java/file-formats-and-conversions/
@@ -14,52 +14,52 @@ timestamp: 2024-01-31-14-23-37
 
 **Coba online**
 
-Anda dapat mencoba fungsi konversi dengan menggunakan kami [Gratis](https://products.aspose.app/words/conversion) Login
+Anda dapat mencoba fungsionalitas konversi dengan menggunakan kami [Konverter online gratis](https://products.aspose.app/words/conversion) alat.
 
 {{% /alert %}}
 
-Kemampuan untuk dengan cepat dan dapat mengubah berbagai format dokumen dengan tingkat presisi tinggi Aspose.WordsFitur unggulan. Ini sering alasan yang cukup baik untuk memilih Aspose.Words Sitemap JavaSitemap
+Kemampuan untuk mengonversi berbagai format dokumen dengan cepat dan andal dengan tingkat presisi tinggi adalah fitur andalan Aspose.Words. Ini seringkali merupakan alasan yang cukup baik untuk memilih Aspose.Words untuk Java.
 
-Sitemap Aspose.Words Anda dapat mengonversi dokumen dari format beban yang didukung ke format menyimpan yang didukung hanya menggunakan dua baris kode:
+Dengan Aspose.Words Anda dapat mengonversi dokumen dari format pemuatan apa pun yang didukung ke format penyimpanan apa pun yang didukung hanya dengan menggunakan dua baris kode:
 
-Sitemap Mengisi dokumen dari file atau aliran
-2. di Simpan ke format yang didukung
+1. Memuat dokumen dari file atau aliran
+2. Simpan ke format apa pun yang didukung
 
-Contoh kode berikut menunjukkan bagaimana mengkonversi dokumen:
+Contoh kode berikut menunjukkan cara mengonversi dokumen:
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "docx-to-pdf.java" >}}
 
-Untuk rincian lebih lanjut tentang pemuatan, konversi, dan menyimpan dokumen, lihat [Login](/words/id/java/loading-saving-and-converting/) Sitemap
+Untuk detail selengkapnya tentang memuat, mengonversi, dan menyimpan dokumen, lihat [Memahami, Memahami, dan Memahami](/words/java/loading-saving-and-converting/) bagian.
 
-## Fidelitas Tinggi
+## Kesetiaan yang Tinggi
 
-Salah satu tujuan utama Aspose.Words adalah untuk memberikan konversi kesetiaan tinggi antara format dokumen. Kami menggunakan kata "fidelitas tinggi" untuk menggambarkan konversi di mana dokumen output mempertahankan semua konten dan format aslinya.
+Salah satu tujuan utama Aspose.Words adalah untuk menyediakan konversi dengan ketelitian tinggi antar format dokumen. Kami menggunakan kata "kesetiaan tinggi" untuk menggambarkan konversi di mana dokumen keluaran mempertahankan semua konten dan pemformatan aslinya.
 
-Format dokumen pemrosesan kata modern kompleks dan mencakup ratusan fitur. Kadang-kadang, ketika vendor mengklaim bahwa solusi mereka mendukung format dokumen tertentu - itu berarti hanya fitur dasar dari format didukung. Sitemap Microsoft Word dokumen memiliki fitur canggih seperti catatan kaki, kotak teks, bentuk otomatis, OLE objek, bidang, dan atribut format canggih. Banyak elemen ini sering diabaikan dalam perpustakaan pemrosesan dokumen, tetapi tidak dalam Aspose.WordsSitemap
+Format dokumen pengolah kata modern sangat kompleks dan mencakup ratusan fitur. Kadang-kadang, ketika vendor mengklaim bahwa solusi mereka mendukung format dokumen tertentu-itu berarti hanya fitur dasar dari format yang didukung. Misalnya, dokumen Microsoft Word memiliki fitur lanjutan seperti catatan kaki, kotak teks, bentuk otomatis, objek OLE, bidang, dan atribut pemformatan lanjutan. Banyak dari elemen ini sering diabaikan di pustaka pemrosesan dokumen, tetapi tidak di Aspose.Words.
 
-### Lebih hebat dari Dukungan Format
+### Dukungan Format yang Lebih Luas
 
-Keuntungan yang tak terputus dari Aspose.Words adalah sebagian besar dukungan untuk sebagian besar format yang terkenal. Sulit atau tidak mungkin untuk menemukan tingkat dukungan yang sama untuk banyak fitur penting di tempat lain.
+Keuntungan yang tak terbantahkan dari Aspose.Words adalah banyaknya dukungan untuk sebagian besar format terkenal. Sulit atau tidak mungkin menemukan tingkat dukungan yang sama untuk banyak fitur penting di tempat lain.
 
-Saat membeli solusi mendukung format tertentu, mengetahui tingkat di mana fitur format ini didukung. Untuk menguji, membuat file yang kompleks dan menjalankannya melalui solusi yang diusulkan. Anda sering akan menemukan bahwa banyak elemen dokumen dan format akan hilang. Misalnya, untuk format DOC, bentuk, kotak teks, kolom, kolom, OLE objek, revisi, teks kiri kanan biasanya menderita.
+Saat membeli solusi yang mendukung format tertentu, cari tahu tentang tingkat dukungan fitur format ini. Untuk menguji, buat file yang kompleks dan jalankan melalui solusi yang diusulkan. Anda akan sering menemukan bahwa banyak elemen dokumen dan pemformatan akan hilang. Misalnya, untuk format DOC, bentuk, kotak teks, bidang, kolom, objek OLE, revisi, teks kanan-ke-kiri biasanya terpengaruh.
 
-Aspose.Words Document Object Model SitemapDOM) dirancang dengan Microsoft Word format dokumen dalam pikiran. Oleh karena itu, tingkat dukungan kami untuk format tersebut, seperti DOC, DOCX, RTF, atau WordprocessingML, tidak pernah terjadi sebelumnya. Konversi dalam setiap arah antara format ini bersifat tinggi.
+Aspose.Words Document Object Model (DOM) dirancang dengan mempertimbangkan format dokumen Microsoft Word. Oleh karena itu, tingkat dukungan kami untuk format tersebut, seperti DOC, DOCX, RTF, atau WordprocessingML, belum pernah terjadi sebelumnya. Konversi ke segala arah antara format ini sangat tepat.
 
-Ketika menjalankan dokumen yang kompleks melalui Aspose.Words, menikmati kelengkapan implementasi format yang tak tertandingi.
+Saat menjalankan dokumen kompleks melalui Aspose.Words, nikmati kelengkapan implementasi format yang tak tertandingi.
 
 ### Contoh Konversi antara Format Populer
 
-Berikut adalah contoh konversi antara beberapa format populer. Anda dapat mengevaluasi seberapa akurat Aspose.Words mengatasi tugas.
+Di bawah ini adalah contoh konversi antara beberapa format populer. Anda dapat mengevaluasi seberapa akurat Aspose.Words mengatasi tugas tersebut.
 
 ---
 
-*DOC ke RTF - konversi kualitas tinggi: Sitemap
+*DOC to RTF – high-fidelity conversion:*
 
 <img src="/words/java/file-formats-and-conversions/high-quality-conversions-1.png" alt="doc-to-rtf-aspose-words-java-1" style="width:500px; vertical-align: top"/> <img src="/words/java/file-formats-and-conversions/high-quality-conversions-2.png" alt="doc-to-rtf-aspose-words-java-2" style="width:500px; vertical-align: top"/>
 
 ---
 
-*DOC ke PDF - konversi kualitas tinggi: Sitemap
+*DOC to PDF – high-fidelity conversion:*
 
 <img src="/words/java/file-formats-and-conversions/high-quality-conversions-1.png" alt="doc-to-pdf-aspose-words-java-1" style="width:500px; vertical-align: top"/> <img src="/words/java/file-formats-and-conversions/high-quality-conversions-3.png" alt="doc-to-pdf-aspose-words-java-2" style="width:500px; vertical-align: top"/>
 
@@ -67,45 +67,45 @@ Berikut adalah contoh konversi antara beberapa format populer. Anda dapat mengev
 
 ---
 
-*DOC ke ODT - konversi kualitas tinggi: Sitemap
+*DOC to ODT – high-fidelity conversion:*
 
 <img src="/words/java/file-formats-and-conversions/high-quality-conversions-1.png" alt="doc-to-odt-aspose-words-java-1" style="width:500px; vertical-align: top"/> <img src="/words/java/file-formats-and-conversions/high-quality-conversions-4.png" alt="doc-to-odt-aspose-words-java-2" style="width:500px; vertical-align: top"/>
 
 ---
 
-*Login XPS - konversi kualitas tinggi: Sitemap
+*DOC to XPS – high-fidelity conversion:*
 
 <img src="/words/java/file-formats-and-conversions/xml-paper-specification-xps-2.png" alt="doc-to-xps-aspose-words-java-1" style="width:500px; vertical-align: top"/> <img src="/words/java/file-formats-and-conversions/xml-paper-specification-xps-3.png" alt="doc-to-xps-aspose-words-java-2" style="width:500px; vertical-align: top"/>
 
 ---
 
-*DOC ke JPEG - konversi kualitas tinggi: Sitemap
+*DOC to JPEG – high-fidelity conversion:*
 
 <img src="/words/java/file-formats-and-conversions/image-formats-tiff-png-bmp-emf-jpeg-gif-9.png" alt="doc-to-jpg-aspose-words-java-1" style="width:1000px; vertical-align: top"/>
 
 ---
 
-* RTF ke TXT - konversi kualitas tinggi: Sitemap
+*RTF to TXT – high-fidelity conversion:*
 
 <img src="/words/java/file-formats-and-conversions/plain-text-txt-2.png" alt="rtf-to-txt-aspose-words-java-1" style="width:500px; vertical-align: top"/> <img src="/words/java/file-formats-and-conversions/plain-text-txt-3.png" alt="rtf-to-txt-aspose-words-java-2" style="width:500px; vertical-align: top"/>
 
 ---
 
-Meskipun semua konverter di Aspose.Words sangat bagus, kadang-kadang Anda tidak akan dapat mendapatkan penampilan yang sama untuk dokumen dalam format yang berbeda.
+Meskipun semua konverter dalam Aspose.Words bagus, terkadang Anda tidak akan bisa mendapatkan tampilan yang sama untuk dokumen dalam format yang berbeda.
 
 {{% alert color="primary" %}}
 
-Perhatikan bahwa dalam situasi seperti itu, Aspose.Words memiliki konversi ditandai "kualitas tinggi" dan dokumen output akan sama seperti setelah mengkonversi melalui Microsoft WordSitemap
+Perhatikan bahwa dalam situasi seperti itu, Aspose.Words memiliki konversi bertanda "high-fidelity" dan dokumen keluaran akan sama seperti setelah mengonversi melalui Microsoft Word.
 
 {{% /alert %}}
 
-Misalnya, tidak ada satu-untuk-satu sederhana yang cocok antara semua fitur HTML dan Microsoft Word dokumen. Tidak ada header/footer, bagian, bidang, dan tab di HTML. Sebaliknya, tidak semua atribut CSS dan aturan dapat dipetakan ke Microsoft Word Sitemap
+Misalnya, tidak ada kecocokan satu-ke-satu yang sederhana antara semua fitur dokumen HTML dan Microsoft Word. Tidak ada header/ footer, bagian, kolom, dan tab di HTML. Sebaliknya, tidak semua atribut dan aturan CSS dapat dipetakan ke dokumen Microsoft Word.
 
-Berikut adalah contoh konversi dari DOC ke HTML.
+Di bawah ini adalah contoh konversi dari DOC ke HTML.
 
 ---
 
-DOC ke HTML – konversi berkekuatan tinggi:
+DOC hingga HTML – konversi dengan ketelitian tinggi:
 
 <img src="/words/java/file-formats-and-conversions/high-quality-conversions-1.png" alt="doc-to-html-aspose-words-java-1" style="width:500px; vertical-align: top"/> <img src="/words/java/file-formats-and-conversions/high-quality-conversions-5.png" alt="doc-to-html-aspose-words-java-2" style="width:500px; vertical-align: top"/>
 
@@ -115,10 +115,10 @@ DOC ke HTML – konversi berkekuatan tinggi:
 
 ## Skalabilitas Tinggi
 
-Scalable server-side skenario penggunaan Aspose.Words terutama karena desainnya yang sederhana dan bersih - Aspose.Words mendukung multithreading. [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) benda-benda yang independen satu sama lain, dan selama satu benang dapat memodifikasi dokumen pada suatu waktu (persyaratan khas untuk setiap kelas koleksi), beberapa benang dapat memproses sejumlah dokumen pada saat yang sama.
+Skenario sisi server yang dapat diskalakan menggunakan Aspose.Words terutama karena desainnya yang sederhana dan bersih - Aspose.Words mendukung multithreading. objek [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) tidak bergantung satu sama lain, dan selama hanya satu utas yang dapat memodifikasi dokumen dalam satu waktu (persyaratan umum untuk kelas koleksi apa pun), beberapa utas dapat memproses sejumlah dokumen secara bersamaan.
 
 ## Kinerja Tinggi
 
-Aspose.Words menunjukkan kinerja tinggi ketika memuat dan menyimpan dokumen. Dalam pengujian, file DOC lebih dari 5Mb dalam ukuran dimuat dalam waktu kurang dari 1 detik dan kemudian disimpan dalam waktu kurang dari 1 detik pada mesin P4 3GHz. File yang lebih kecil dapat diproses pada kecepatan ribuan menit.
+Aspose.Words menunjukkan kinerja tinggi saat memuat dan menyimpan dokumen. Dalam pengujian, file DOC dengan ukuran lebih dari 5Mb dimuat dalam waktu kurang dari 1 detik dan kemudian disimpan dalam waktu kurang dari 1 detik pada mesin P4 3GHz. File yang lebih kecil dapat diproses dengan kecepatan ribuan per menit.
 
-Dalam beberapa kesempatan, pelanggan kami telah melaporkan kepada kami bahwa mereka tidak bisa percaya kecepatan Aspose.WordsSitemap Mereka melangkah ke garis kode yang memuat dokumen besar ke dalam debugger, dan itu begitu sesaat bahwa mereka tidak bisa percaya file dimuat ke dalam **Document** Sitemap
+Pada beberapa kesempatan, pelanggan kami telah melaporkan kepada kami bahwa mereka tidak dapat mempercayai kecepatan Aspose.Words. Mereka melangkahi baris kode yang memuat dokumen besar ke dalam debugger, dan itu sangat cepat sehingga mereka tidak percaya file itu dimuat ke dalam objek **Document**.

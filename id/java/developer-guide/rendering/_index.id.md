@@ -1,37 +1,37 @@
----
-title: Login Java
-second_title: Aspose.Words Sitemap Java
-articleTitle: Login
-linktitle: Login
-description: "Sitemap Aspose.Words Sitemap Java fitur rendering untuk memformat dokumen flow-layout ke halaman dan mengubah dokumen atau halaman yang dipilih ke dokumen lain (PDF, HTML, XPS, dll.) atau gambar (TIFF, PNG, SVG, dll.) format untuk melihat, konversi lebih lanjut, atau pencetakan."
+﻿---
+title: Merender dalam Java
+second_title: Aspose.Words untuk Java
+articleTitle: Rendering
+linktitle: Rendering
+description: "Gunakan fitur rendering Aspose.Words untuk Java untuk memformat dokumen tata letak alur menjadi halaman dan mengonversi dokumen tersebut atau halaman yang dipilih ke dokumen lain(PDF, HTML, XPS, dll.) atau gambar (TIFF, PNG, SVG, dll.) format untuk dilihat, konversi lebih lanjut, atau pencetakan."
 type: docs
 weight: 30
 url: /id/java/rendering/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Kami menggunakan istilah "rendering" dalam Aspose.Words untuk menggambarkan proses mengkonversi dokumen ke format file atau media yang dipesan atau memiliki konsep halaman. Kami berbicara tentang rendering dokumen ke halaman. Diagram berikut menunjukkan apa rendering dalam Aspose.WordsSitemap
+Kami menggunakan istilah "rendering" dalam Aspose.Words untuk menggambarkan proses pengubahan dokumen menjadi format file atau media yang diberi paginasi atau memiliki konsep halaman. Kita berbicara tentang rendering dokumen menjadi beberapa halaman. Diagram berikut menunjukkan rendering apa yang ada di Aspose.Words.
 
 ![rendering-aspose-words-java](/words/java/rendering/rendering-1.png)
 
-Fitur rendering dari Aspose.Words memungkinkan Anda untuk melakukan berikut:
+Fitur rendering Aspose.Words memungkinkan Anda melakukan hal berikut:
 
-- Mengkonversi dokumen atau halaman yang dipilih ke PDF, XPS, HTML, XAML, PostScript, dan format PCL.
-- Mengkonversi dokumen menjadi dokumen TIFF multi-halaman, atau mengubah halaman ke dalam gambar raster dan menyimpannya sebagai BMP, PNG atau JPEG.
-- Mengkonversi halaman dokumen ke dalam gambar Grafik Vektor Scalable (SVG), atau mengubah ke dalam gambar vektor dan menyimpannya sebagai EMF.
-- Render (gambar) halaman dokumen pada ukuran atau skala tertentu `Graphics` objek untuk membuat thumbnails, gambar lengkap atau berskala dari halaman dokumen.
-- Login [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) objek secara terpisah dari dokumen ke format gambar atau ke `Graphics` Sitemap
-- Menampilkan halaman dokumen dalam Komponen Ayun.
-- Halaman dokumen cetak atau pratinjau menggunakan standar Java Infrastruktur pencetakan.
+- Mengonversi dokumen atau halaman yang dipilih menjadi PDF, XPS, HTML, XAML, PostScript, dan format PCL.
+- Konversikan dokumen menjadi dokumen TIFF multi-halaman, atau ubah halaman apa pun menjadi gambar raster dan simpan sebagai BMP, PNG, atau JPEG.
+- Konversikan halaman dokumen menjadi gambar Grafik Vektor yang Dapat Diskalakan (SVG), atau konversikan menjadi gambar vektor dan simpan sebagai EMF.
+- Render (gambar) halaman dokumen dengan ukuran atau skala tertentu pada objek `Graphics` untuk membuat gambar mini, gambar halaman dokumen berukuran penuh, atau berskala.
+- Merender objek [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) secara terpisah dari dokumen ke format gambar apa pun atau ke objek `Graphics`.
+- Menampilkan halaman dokumen apa pun dalam Komponen Swing.
+- Mencetak atau mempratinjau halaman dokumen menggunakan infrastruktur pencetakan Java standar.
 
-## Flow-layout atau tetap-layout Format Dokumen {#flow-layout-or-fixed-layout-document-formats}
+## Format Dokumen tata letak alur atau Tata letak tetap {#flow-layout-or-fixed-layout-document-formats}
 
-Sebagian besar format dokumen yang dapat dimuat ke dalam Aspose.Words dikenal sebagai format "flow-layout". Format aliran termasuk DOC, OOXML, RTF, ODT, dan HTML. Dokumen dalam format ini terdiri dari berbagai elemen seperti paragraf, tabel, header, footer, gambar, bidang, dan format mereka, misalnya, berani, italic, font, ukuran. Namun, format aliran-layout tidak mengandung informasi tentang posisi di mana setiap paragraf atau karakter tertentu ditampilkan di halaman.
+Sebagian besar format dokumen yang dapat dimuat ke dalam Aspose.Words dikenal sebagai format "tata letak alur". Format tata letak alur meliputi DOC, OOXML, RTF, ODT, dan HTML. Dokumen dalam format ini terdiri dari berbagai elemen seperti paragraf, tabel, header, footer, gambar, field, dan formatnya, misalnya bold, italic, font, size. Namun, format tata letak alur tidak berisi informasi tentang posisi di mana setiap paragraf atau karakter tertentu ditampilkan pada halaman.
 
-Sebaliknya, format "fixed-layout" (juga dikenal sebagai format "fixed page") seperti PDF dan XPS mengandung informasi penentuan posisi yang tepat untuk semua elemen dokumen. Format ini melestarikan tampilan asli dokumen setelah diletakkan ke halaman, memberikan akurasi yang lebih tinggi dari informasi yang ditampilkan.
+Sebaliknya, format" tata letak tetap "(juga dikenal sebagai" halaman tetap") seperti PDF dan XPS berisi informasi pemosisian yang tepat untuk semua elemen dokumen. Format ini mempertahankan tampilan asli dokumen setelah ditata menjadi beberapa halaman, memberikan akurasi yang lebih tinggi dari informasi yang ditampilkan.
 
-## Mesin Layout Halaman {#page-layout-engine}
+## Mesin Tata Letak Halaman {#page-layout-engine}
 
-Aspose.Words menerapkan mesin tata letak halaman sendiri yang memformat dokumen aliran-layout ke halaman. Aspose.Words menerapkan sejumlah renderer yang baik menghasilkan dokumen tetap-layout seperti PDF atau XPS, atau halaman output ke media lain seperti pencetakan atau gambar. Catatan bahwa ekspor juga dapat dipesan untuk HTML dan XAML. Ini berarti bahwa dokumen dapat disimpan sebagai HTML biasa atau XAML (format aliran-layout), atau sebagai "paginated" HTML dan XAML yang menampilkan posisi mutlak elemen.
+Aspose.Words mengimplementasikan mesin tata letak halamannya sendiri yang memformat dokumen tata letak alur menjadi halaman. Aspose.Words mengimplementasikan sejumlah penyaji yang menghasilkan dokumen dengan tata letak tetap seperti PDF atau XPS, atau menampilkan halaman ke media lain seperti mencetak atau menggambar. Perhatikan bahwa ekspor juga dapat diberi paginasi untuk HTML dan XAML. Ini berarti bahwa dokumen dapat disimpan sebagai HTML atau XAML biasa (format tata letak alur), atau sebagai" paginasi " HTML dan XAML yang menampilkan posisi absolut elemen.
 
-Keuntungan yang paling penting dari penggunaan Aspose.Words mesin tata letak halaman adalah bahwa itu meniru jalan Microsoft WordPekerjaan mesin tata letak halaman. Oleh karena itu, ketika Anda mengkonversi Microsoft Word dokumen ke PDF, XPS, atau mencetaknya menggunakan Aspose.Words, output akan muncul hampir persis seperti jika dilakukan dengan Microsoft WordSitemap Login Aspose.Words tidak menggunakan Microsoft WordSitemap
+Keuntungan terpenting menggunakan mesin tata letak halaman Aspose.Words adalah meniru cara kerja mesin tata letak halaman Microsoft Word. Oleh karena itu, saat Anda mengonversi dokumen Microsoft Word menjadi PDF, XPS, atau mencetaknya menggunakan Aspose.Words, hasilnya akan muncul hampir persis seperti yang dilakukan oleh Microsoft Word. Perhatikan bahwa Aspose.Words tidak menggunakan Microsoft Word.

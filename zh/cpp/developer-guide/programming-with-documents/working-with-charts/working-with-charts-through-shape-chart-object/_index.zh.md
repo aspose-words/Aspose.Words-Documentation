@@ -1,8 +1,8 @@
 ---
-title: 通过`Shape.Chart`对象处理图表
+title: 通过Shape.Chart对象处理图表
 second_title: Aspose.Words对于C++
-articleTitle: 通过`Shape.Chart`对象处理图表
-linktitle: 通过`Shape.Chart`对象处理图表
+articleTitle: 通过Shape.Chart对象处理图表
+linktitle: 通过Shape.Chart对象处理图表
 description: "详细图表，图表如何与形状节点链接 Aspose.Words对于C++."
 type: docs
 weight: 10

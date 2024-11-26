@@ -1,51 +1,51 @@
----
+﻿---
 title: Persyaratan Memori
-second_title: Aspose.Words Sitemap Java
+second_title: Aspose.Words untuk Java
 articleTitle: Persyaratan Memori
 linktitle: Persyaratan Memori
-description: "Berapa banyak memori Aspose.Words Sitemap Java perlu bekerja dengan dokumen? Pelajari detailnya."
+description: "Berapa banyak memori yang dibutuhkan Aspose.Words untuk Java untuk bekerja dengan dokumen? Pelajari detailnya."
 type: docs
 weight: 10
 url: /id/java/memory-requirements/
 timestamp: 2024-09-25-11-08-55
 ---
 
-Aspose.Words menyediakan berbagai fitur untuk bekerja dengan dokumen dalam berbagai format. Penting untuk dicatat bahwa tidak ada batasan pada ukuran file dokumen maksimum Aspose.Words dapat memproses atau membuat. Satu-satunya batasan adalah jumlah RAM yang tersedia di sisi Anda.
+Aspose.Words menyediakan berbagai fitur untuk bekerja dengan dokumen dalam berbagai format. Penting untuk diperhatikan bahwa tidak ada batasan ukuran maksimum file dokumen yang dapat diproses atau dirender oleh Aspose.Words. Satu-satunya batasan adalah jumlah RAM (memori) yang tersedia di pihak Anda.
 
-## Berapa Banyak Memori Aspose.Words Login
+## Berapa Banyak Memori yang Dibutuhkan Aspose.Words
 
-Sitemap Aspose.Words membutuhkan beberapa kali lebih banyak memori daripada ukuran dokumen untuk membangun model dokumen dalam memori. Misalnya, jika ukuran dokumen Anda adalah 1 MB, Aspose.Words membutuhkan 10-20 MB RAM untuk membangun Document Object Model SitemapDOM) dalam memori. Multiplier tergantung pada format karena beberapa format lebih kompak daripada yang lain. Misalnya, DOCX lebih kompak daripada DOC dan RTF, dan DOC lebih kompak daripada RTF.
+Biasanya Aspose.Words membutuhkan memori beberapa kali lebih banyak daripada ukuran dokumen untuk membuat model dokumen dalam memori. Misalnya, jika ukuran dokumen Anda adalah 1 MB, Aspose.Words membutuhkan 10-20 MB dari RAM untuk membuat Model Objek Dokumennya (DOM) di memori. Pengali tergantung pada formatnya karena beberapa format lebih ringkas daripada yang lain. Misalnya, DOCX lebih padat dari DOC dan RTF, dan DOC lebih padat dari RTF.
 
-Tidak ada cara yang tepat untuk memperkirakan berapa banyak memori Aspose.Words sebenarnya mengkonsumsi selama memproses file dokumen tertentu. Seperti yang Anda ketahui Java menyimpan data dalam kelas, setiap instance kelas menggunakan beberapa memori untuk JVM SitemapJava mesin virtual) tujuan internal. Jadi setiap paragraf atau teks yang diformat (bahas terdiri dari satu karakter) mengambil beberapa memori tambahan setelah memuat ke DOMSitemap Sitemap Java mesin kolektor sampah menggunakan algoritma kompleks untuk menentukan waktu terbaik untuk melakukan pengumpulan memori, membuatnya sulit untuk menentukan konsumsi memori nyata.
+Tidak ada cara pasti untuk memperkirakan berapa banyak memori yang sebenarnya dikonsumsi Aspose.Words selama memproses file dokumen tertentu. Seperti yang Anda ketahui Java menyimpan data di kelas, setiap instance kelas menggunakan beberapa memori untuk tujuan internal JVM (Java mesin virtual). Jadi setiap paragraf atau teks yang diformat (meskipun terdiri dari satu karakter) membutuhkan memori tambahan setelah dimuat ke dalam DOM. Selain itu, mesin pengumpul sampah Java menggunakan algoritme yang kompleks untuk menentukan waktu terbaik untuk melakukan pengumpulan memori, sehingga sulit untuk menentukan konsumsi memori sebenarnya.
 
 ## Cara Menghitung Jumlah Memori
 
-Mari kita mempertimbangkan dua dokumen:
+Mari kita pertimbangkan dua dokumen:
 
-1. dokumen DOCX "A" - ukuran 0.35 MB (2 ribu halaman), teks hanya
-2. dokumen DOCX "B" - ukuran 0.35 MB (hanya 1 halaman), dengan gambar PNG di dalam
+1. DOCX "A" dokumen-ukuran 0.35 MB (2 ribu halaman), hanya teks
+2. DOCX "B" dokumen-ukuran 0.35 MB (hanya 1 halaman), dengan gambar PNG di dalamnya
 
-Seperti yang Anda tahu, banyak format modern seperti DOCX, ODT, dll. arsip ZIP sederhana. Jadi, kita mendapatkan algoritma perhitungan berikut:
-1. Unzipping. Unzipped dokumen "A" memiliki ukuran 20 MB, dokumen "B" memiliki ukuran 0.4 MB
-2. di Memuat dokumen ke dalam model (membinanya Document Object Model Sitemap DOMSitemap
-* Sitemap DOM dokumen pertama "A" membutuhkan ukuran 49 MB
-* Sitemap DOM dokumen kedua "B" hanya membutuhkan ukuran 2 MB.
-3. Juni Mengukur jumlah memori yang diperlukan untuk membuat dokumen ini ke PDF. Untuk operasi ini, Aspose.Words Sitemap
-  * 294 MB untuk dokumen "A"
+Seperti yang Anda ketahui, banyak format modern seperti DOCX, ODT, dll. adalah arsip ZIP sederhana. Jadi, kita mendapatkan algoritma perhitungan berikut:
+1. Membuka ritsleting. Dokumen yang dibuka ritsletingnya "A" memiliki ukuran 20 MB, dokumen "B" memiliki ukuran 0.4 MB
+2. Memuat dokumen ke dalam model (membuat Model Objek Dokumennya – DOM):
+* Membuat DOM dari dokumen pertama "A" membutuhkan ukuran 49 MB
+* Membuat DOM dari dokumen kedua "B" hanya membutuhkan ukuran 2 MB.
+3. Mengukur jumlah memori yang diperlukan untuk merender dokumen ini menjadi PDF. Untuk operasi ini, Aspose.Words membutuhkan:
+  *  294 MB untuk dokumen "A"
   * 7 MB untuk dokumen "B"
 
-Jadi, seperti yang dapat Anda lihat, tidak ada ketergantungan linier pada ukuran dokumen input. Ada banyak faktor yang dapat mempengaruhi ukuran RAM yang diperlukan - format dokumen, kompleksitas dan strukturnya, jumlah gambar dan format mereka, dan banyak faktor lainnya.
+Jadi, seperti yang Anda lihat, tidak ada ketergantungan linier pada ukuran dokumen input. Ada banyak faktor yang dapat memengaruhi ukuran RAM yang diperlukan-format dokumen, kompleksitas dan strukturnya, jumlah gambar dan formatnya, dan banyak faktor lainnya.
 
-## Cara Menghitung Memori Multiplier Kebanyakan Akurat
+## Bagaimana Cara Menghitung Pengganda Memori Dengan Paling Akurat
 
-Percobaan dengan ribuan dokumen nyata menunjukkan bahwa biasanya Aspose.Words membutuhkan beberapa kali lebih banyak memori daripada ukuran dokumen rata-rata untuk membangun model dokumen dalam memori dan melakukan operasi sederhana seperti konversi antara format aliran, mail merge, parse, ganti, dan sebagainya. Kadang-kadang kita berbicara tentang pengganda 2, dan kadang-kadang 20.
+Eksperimen dengan ribuan dokumen nyata menunjukkan bahwa biasanya Aspose.Words memerlukan memori beberapa kali lebih banyak daripada ukuran dokumen rata-rata untuk membuat model dokumen dalam memori dan melakukan operasi sederhana seperti konversi antara format alur, mail merge, mengurai, mengganti, dan seterusnya. Terkadang kita berbicara tentang pengali 2, dan terkadang 20.
 
-Operasi yang lebih kompleks seperti rendering (konverting ke format halaman tetap), memperbarui bidang, membagi halaman, dan lain-lain, untuk beberapa dokumen memerlukan 20 kali lebih banyak sumber daya daripada memori yang dialokasikan oleh dokumen yang dimuat dalam Aspose.Words DOMSitemap
+Operasi yang lebih kompleks seperti merender (mengonversi ke format halaman tetap), memperbarui bidang, memisahkan halaman, dan lainnya, untuk beberapa dokumen memerlukan sumber daya 20 kali lebih banyak daripada memori yang dialokasikan oleh dokumen yang dimuat dalam Aspose.Words DOM.
 
-Jika hasil profil Anda menunjukkan masalah memori yang mungkin dalam Aspose.Words, Hubungi kami [Login](/words/id/java/technical-support/) dan mencakup semua informasi diagnostik.
+Jika hasil pembuatan profil Anda menunjukkan kemungkinan masalah memori di Aspose.Words, silakan hubungi kami [Tim Pendukung](/words/java/technical-support/) dan sertakan semua informasi diagnostik.
 
 ## Lihat Juga
 
-* [Login](/words/id/java/rendering/)
-* [Mail Merge Login](/words/java/mail-merge-and-reporting/)
-* [Sitemap](/words/id/java/working-with-fields/)
+* [Rendering](/words/java/rendering/)
+* [Mail Merge dan Pelaporan](/words/java/mail-merge-and-reporting/)
+* [Bekerja dengan Tawaran](/words/java/working-with-fields/)

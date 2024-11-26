@@ -1,9 +1,9 @@
----
-title: "安装 Aspose.Words (单位:千美元) Android 通过 Java"
-second_title: "Aspose.Words (单位:千美元) Java"
-articleTitle: "安装 Aspose.Words (单位:千美元) Android 通过 Java"
-linktitle: "安装 Aspose.Words (单位:千美元) Android 通过 Java"
-description: "安装 Aspose.Words (单位:千美元) Android 通过 Java。 。 。 。"
+﻿---
+title: 通过Java为Android安装Aspose.Words
+second_title: Aspose.Words为Java
+articleTitle: 通过Java为Android安装Aspose.Words
+linktitle: 通过Java为Android安装Aspose.Words
+description: "通过Java为Android安装Aspose.Words。"
 type: docs
 weight: 20
 url: /zh/java/install-aspose-words-for-android-via-java/
@@ -12,39 +12,39 @@ timestamp: 2024-01-27-14-07-04
 
 {{% alert color="primary" %}}
 
-自2017年起 版本为 Aspose.Words (单位:千美元) Android 通过 Java 遵守 Aspose.Words (单位:千美元) Java。 。 。 。
+自2017年以来，通过Java对Android的Aspose.Words版本控制符合Java的Aspose.Words。
 
-[aspose - words - 20.2 -android.via.java.jar 互联网档案馆的存檔,存档日期 2014-09-02. 互联网档案馆的存檔,存档日期2013-12-12](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/20.2/aspose-words-20.2-android.via.java.jar)
+[aspose-words-20.2-android.via.java.jar](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/20.2/aspose-words-20.2-android.via.java.jar)
 
 {{% /alert %}}
 
-## 安装
+## 安装工程
 
-先前, Aspose.Words (单位:千美元) Android 通过 Java 以一个包含 JAR 文件、演示和文档 Aspose.Words (单位:千美元) Android 通过 Java。 。 。 。
+以前，Aspose.WordsforAndroidviaJava作为单个ZIP文件分发，其中包含JAR文件，演示和Aspose.WordsforAndroidviaJava的文档。
 
-一、导 言 如果您想要使用任何版本之前 Aspose.Words (单位:千美元) Android 通过 Java 1.11,你只需要解开任何版本的 Aspose.Words。 。 。 。Android.zip 输入您选择的目录 。
-一、导 言 使用构建路径配置将提取的 Jar 文件包含在您的应用程序中。
+1. 如果您想通过Java1.11为Android使用Aspose.Words之前的任何版本，则只需将Aspose.Words.Android.zip的任何版本解压缩到您选择的目录中。
+1. 使用应用程序的生成路径配置将提取的Jar文件包含在应用程序中。
 
-1.11和1.12版本手工分为两部分: JAR 和APK,以限制DEX文件中的方法数量. 在这些版本中,我们提供了自己的APK加载器来启动附加类.dex文件的正确加载. 从17.2.0版本开始,我们支持描述的正式工作流程 [这里](https://developer.android.com/studio/build/multidex.html)。 。 。 。
+版本1.11和1.12手动分为两部分：JAR和APK，以限制DEX文件中的方法数量。 在这些版本中，我们提供了自己的APK加载器来启动附加类的正确加载。dex文件。 从版本17.2.0开始，我们支持描述的官方工作流程 [这里](https://developer.android.com/studio/build/multidex.html).
 
-### 如何使用 Aspose.Words (单位:千美元) Android 通过 Java 从1.11起
+### 如何从1.11开始通过Java对Android使用Aspose.Words
 
-以前,一个单身 JAR 页:1 Aspose.Words (单位:千美元) Android 通过 Java 包含47+千种方法,使得较旧的版本有点不切实际,无法用于巨大的机器人应用. 从这个发行开始,我们开始缩小 Aspose.Words (单位:千美元) Android 通过 Java 图书馆。 我们现在的主要关切是减少方法数量而不失去功能。 我们一直在努力提高质量和可用性。 Aspose.Words (单位:千美元) Android 通过 Java。 。 。 。
+以前，Aspose.Words for Android via Java 的一个 JAR 包含 47,000 多种方法，这使得旧版本在大型 Android 应用程序中使用起来有些不切实际。现在从此版本开始，我们已开始减少 Aspose.Words for Android via Java 库的大小。我们现在的主要关注点是在不损失功能的情况下减少方法数量。我们一直在努力提高 Aspose.Words for Android via Java 的质量和可用性。
 
-### Aspose.Words (单位:千美元) Android 通过 Java 图书馆分为两个部分
+### Aspose.WordsforAndroidviaJava库分为两部分
 
 我们把图书馆分为以下两个档案:
 
-- Apose -words -1.11 -and roid -jdk15.jar: -是的 -Apose -words -1.11 -android -jdk15.jar: 第一个包括公众 API 及其辅助方法。 目前,它有32395种方法。
-- aspose-words-1.11 - libs-android-jdk15.apk: - 单词: 第二个包括第3个党罐、基本班级和资源。 目前,它有18296种方法。
+- aspose-words-1.11-android-jdk15.jar：第一个包括publicAPI及其辅助方法。 目前，它有32395种方法。
+- aspose-words-1.11-libs-android-jdk15.apk：第二个包括第三方jar，基本类和资源。 目前，它有18296种方法。
 
-### 使用隐藏单词 Android 通过 Java 自1.11以来
+### 从1.11起通过Java对Android使用Aspose词
 
-包括 Aspose.Words (单位:千美元) Android 通过 Java 在项目中,您可以使用下列任何方法:
+要通过Java将Aspose.WordsforAndroid包含到项目中，您可以使用以下任何方法:
 
-- 将"aspose-words-1.11-android-jdk15.jar"和"aspose-words-1.11-android-jdk15.apk"的档案放在项目"资产"的文件夹中。 指定您将使用 AposeWordsApplication 作为基本应用 。
+- 将"aspose-words-1.11-android-jdk15.jar"放在项目的文件夹"libs"中，并将"aspose-words-1.11-libs-android-jdk15.apk"存档到文件夹"资产"中。 表明你将使用AsposeWordsApplication作为基本的。
 
-**Android说明.xml**
+**AndroidManifest.xml**
 
 {{< highlight csharp >}}
 ...
@@ -60,9 +60,9 @@ timestamp: 2024-01-27-14-07-04
 ...
 {{< /highlight >}}
 
-在 onCreate () 方法中启动. apk 文件的负载, 如果您不想使用 Android: name=" com. aspose. words. Aspose WordsApplication" 中 Android说明.xml
+以启动负载。apk文件在onCreate()方法，如果你不想使用android:name="com.阿斯波斯。话。AsposeWordsApplication"在AndroidManifest.xml
 
-**活动 Java 文件**
+**活动Java文件**
 
 {{< highlight csharp >}}
 @Override
@@ -94,13 +94,13 @@ public static boolean checkIfAWSetUpCorrectly()
 }
 {{< /highlight >}}
 
-### 使用 Aspose.Words (单位:千美元) Android 通过 Java 输入 Android 测试应用程序
+### 在Android测试应用程序中通过Java对Android使用Aspose.Words
 
-用于 Aspose.Words (单位:千美元) Android 通过 Java 在试验项目中,可以采用同样的方法:
+要在测试项目中通过Java对Android使用Aspose.Words，可以应用相同的方法:
 
-- 请在 Android试验项目公告.xml.
+- 在测试项目的AndroidManifest.xml中指明AsposeWordsTestRunner。
 
-**Android说明.xml**
+**AndroidManifest.xml**
 
 {{< highlight csharp >}}
 ...
@@ -112,11 +112,11 @@ public static boolean checkIfAWSetUpCorrectly()
 ...
 {{< /highlight >}}
 
-在 IDE 中,可能需要在配置窗口中显示 Apose Words TestRunner 如下:
+在IDE中，可能需要在配置窗口中指示AsposeWordsTestRunner，如下所示:
 
 ![install-aspose-words-for-android-via-java-1](/words/java/install-aspose-words-for-android-via-java/install-aspose-words-for-android-via-java-1.png)
 
-- 或使用getTargetContext()方法启动负载.apk。
+- 或者启动负载。apk使用getTargetContext()方法。
 
 {{< highlight csharp >}}
 @Override
@@ -127,16 +127,16 @@ public void onStart() {
 }
 {{< /highlight >}}
 
-## 如何使用 Aspose.Words (单位:千美元) Android 通过 Java 从17.2.0开始
+## 如何从17.2.0开始通过Java将Aspose.Words用于Android
 
-一、导 言 下载最新版本 [Aspose.Words (单位:千美元) Android 通过 Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/)
-1. 复制Apose-words-18.3-android.via.java.jar到您的项目*libs/*文件夹
+1. 下载最新版本的 [阿斯波斯。Words对于Android通过Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/)
+1. 将aspose-words-18.3-android.via.java.jar复制到项目的*libs/*文件夹中
 ![install-aspose-words-for-android-via-java-2](/words/java/install-aspose-words-for-android-via-java/install-aspose-words-for-android-via-java-2.jpg)
 
-### 安装 Aspose.Words (单位:千美元) Android 通过 Java 从 Maven 仓库
+### 从Maven存储库通过Java为Android安装Aspose.Words
 
-一、导 言 添加 maven 存储到您的构建中 。 年级
-一、导 言 添加"Aspose.Words (单位:千美元) Android 通过 Java ' JAR 作为依附关系
+1. 将maven存储库添加到构建中。格雷德尔
+1. 通过Java'JAR为Android添加'Aspose.Words作为依赖项
 {{< highlight csharp >}}
 
 // 1. Add maven repository into your build.gradle 

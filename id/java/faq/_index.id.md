@@ -1,185 +1,185 @@
----
-title: Sitemap
-second_title: Aspose.Words Sitemap Java
-articleTitle: Sitemap
-linktitle: Sitemap
+﻿---
+title: FAQ
+second_title: Aspose.Words untuk Java
+articleTitle: FAQ
+linktitle: FAQ
 type: docs
-description: "Aspose.Words Sitemap Java menjawab pertanyaan yang paling sering diajukan. Pelajari halaman ini untuk dengan cepat memecahkan masalah Anda pada pertanyaan umum atau topik tertentu."
+description: "Aspose.Words untuk Java menjawab pertanyaan yang paling sering diajukan. Pelajari halaman ini untuk menyelesaikan masalah Anda dengan cepat pada pertanyaan umum atau topik tertentu."
 weight: 75
 url: /id/java/faq/
 timestamp: 2024-01-31-14-23-37
 ---
 
-Halaman ini berisi jawaban atas pertanyaan yang paling sering diajukan. Silahkan pelajari halaman saat ini – mungkin ini akan memungkinkan Anda untuk memecahkan masalah Anda dengan cepat.
+Halaman ini berisi jawaban atas pertanyaan yang paling sering diajukan. Silakan pelajari halaman saat ini-mungkin ini akan memungkinkan Anda untuk menyelesaikan masalah Anda dengan cepat.
 
-Jika Anda belum menemukan jawaban atas pertanyaan Anda, Anda dapat meminta forum dukungan. Untuk informasi tentang cara benar melaporkan pertanyaan atau masalah Anda, lihat [Login](/words/id/java/technical-support/) Sitemap
-
-{{% alert color="primary" %}}
-
-Pertanyaan yang sering diajukan dikelompokkan oleh topik untuk kenyamanan Anda.
-
-{{% /alert %}}
-
-## Sitemap
-
-**Q: Sitemap Aspose.WordsSitemap**
-
-Aspose.Words Sitemap Java adalah perpustakaan kelas yang memungkinkan aplikasi Anda untuk melakukan berbagai macam tugas pemrosesan dokumen. Sitemap Aspose.Words Sitemap Java, Anda dapat menghasilkan, memodifikasi, mengonversi, membuat, dan mencetak dokumen tanpa aplikasi pihak ketiga.
-
-Rincian dapat ditemukan dalam dokumentasi kami.
-
-------
-
-**Q: Apa artinya "Aspose.Words tidak memerlukan aplikasi pihak ketiga?**
-
-Aspose.Words Sitemap Java tidak perlu menginstal aplikasi pihak ketiga atau paket perangkat lunak tambahan untuk bekerja. Cukup unduh dan instal Aspose.Words seperti yang dijelaskan dalam [Login](/words/id/java/installation/) artikel dan memulai.
-
-------
-
-**Q: Platform apa yang Aspose.Words dukungan?**
-
-Aspose.Words Sitemap Java mencakup sebagian besar lingkungan perkembangan populer dan platform penyebaran. Sitemap API dapat digunakan untuk mengembangkan aplikasi untuk berbagai sistem operasi seperti Windows, Linux, dan Mac OS, dan berbagai platform.
-
-Untuk detail, lihat [Gambaran Produk](/words/id/java/product-overview/) Login [Platform dan InteropSitemap](/words/java/platforms-and-interoperability/) Sitemap
-
-------
-
-**Q: Format dokumen apa Aspose.Words dukungan?**
-
-Aspose.Words Sitemap Java mendukung sebagian besar format dokumen populer seperti DOC, DOCX, HTML, Markdown, PDF, XML, dan lainnya.
-
-Anda dapat melihat daftar lengkap format yang didukung pada [Login](/words/id/java/supported-document-formats/) Sitemap
-
-------
-
-**Q: Bagaimana saya bisa mencoba Aspose.Words gratis?**
-
-Anda dapat melakukan ini dalam dua cara – menggunakan versi Percobaan atau Lisensi Sementara 30 hari. Versi Percobaan sama dengan yang dibeli, ini menyediakan fungsionalitas produk penuh tetapi menambahkan tanda air evaluatif di bagian atas dokumen saat memuat dan menyimpan dan membatasi ukuran dokumen maksimum ke beberapa ratus paragraf. Lisensi sementara memungkinkan Anda untuk menguji Aspose.Words tanpa batasan Percobaan selama 30 hari.
-
-Sitemap [Login](/words/id/java/licensing/) Sitemap
+Jika Anda belum menemukan jawaban atas pertanyaan Anda, Anda dapat bertanya di forum dukungan. Untuk informasi tentang cara melaporkan pertanyaan atau masalah Anda dengan benar, lihat bagian [Dukungan Teknik](/words/java/technical-support/) halaman.
 
 {{% alert color="primary" %}}
 
-Anda juga dapat mencoba beberapa yang paling populer Aspose.Words fitur melalui [Aspose.Words Sitemap](https://products.aspose.app/words)Sitemap
+Pertanyaan yang sering diajukan dikelompokkan berdasarkan topik untuk kenyamanan Anda.
 
 {{% /alert %}}
 
-------
+## Umum
 
-**Q: Bagaimana saya bisa membeli Aspose.WordsSitemap**
+**T: Apa itu Aspose.Words?**
 
-Untuk membeli Aspose.Words lisensi, Anda perlu pergi ke Meme it [Login](https://purchase.aspose.com/buy) halaman, pilih "Aspose.Words"Produk dan jenis lisensi yang sesuai dengan Anda. Kemudian tambahkan lisensi ke gerobak Anda dan ikuti instruksi Shopping Cart.
+Aspose.Words untuk Java adalah pustaka kelas yang memungkinkan aplikasi Anda melakukan berbagai tugas pemrosesan dokumen. Dengan Aspose.Words untuk Java, Anda dapat membuat, memodifikasi, mengonversi, merender, dan mencetak dokumen tanpa aplikasi pihak ketiga.
 
-Setelah membeli, berlaku untuk lisensi seperti yang dijelaskan di Meme it [Login](/words/java/licensing/#purchased-license) Sitemap
-
-Rincian tentang cara menginstal Aspose.Words bisa dibaca [Login](/words/id/java/installation/) Sitemap
+Detailnya dapat ditemukan di dokumentasi kami.
 
 ------
 
-**Q: Bagaimana cara mendapatkan dukungan?**
+**T: Apa artinya "Aspose.Words tidak memerlukan aplikasi pihak ketiga"?**
 
-Gunakan forum dukungan teknis gratis. Untuk detail tentang cara melaporkan masalah dengan benar dan apa yang perlu dilakukan sebelum menghubungi forum, lihat [Login](/words/id/java/technical-support/) Sitemap
+Aspose.Words untuk Java tidak perlu menginstal aplikasi pihak ketiga atau paket perangkat lunak tambahan apa pun agar berfungsi. Cukup unduh dan instal Aspose.Words seperti yang dijelaskan dalam [Instalasi](/words/java/installation/) artikel dan mulai.
 
-## Melayani Dokumen
+------
+
+**T: Platform apa yang didukung Aspose.Words?**
+
+Aspose.Words untuk Java mencakup sebagian besar lingkungan pengembangan dan platform penerapan yang populer. Its API dapat digunakan untuk mengembangkan aplikasi untuk berbagai sistem operasi seperti Windows, Linux, dan Mac OS, dan berbagai platform.
+
+Untuk detailnya, lihat [Sekilas Produk](/words/java/product-overview/) halaman dan [Platform dan kemungkinan mendapatkan Interop](/words/java/platforms-and-interoperability/) bagian.
+
+------
+
+**T: Format dokumen apa yang didukung oleh Aspose.Words?**
+
+Aspose.Words untuk Java mendukung sebagian besar format dokumen populer seperti DOC, DOCX, HTML, Markdown, PDF, XML, dan lainnya.
+
+Anda dapat melihat daftar lengkap format yang didukung di [Format Dokumen yang Disertakan](/words/java/supported-document-formats/) halaman.
+
+------
+
+**T: Bagaimana saya bisa mencoba Aspose.Words gratis?**
+
+Anda dapat melakukannya dengan dua cara-menggunakan versi Uji Coba atau Lisensi Sementara selama 30 hari. Versi Uji Coba sama dengan yang dibeli, versi ini menyediakan fungsionalitas produk lengkap tetapi menambahkan tanda air evaluatif di bagian atas dokumen saat memuat dan menyimpan dan membatasi ukuran dokumen maksimum hingga beberapa ratus paragraf. Lisensi Sementara memungkinkan Anda menguji Aspose.Words tanpa batasan Uji Coba selama 30 hari.
+
+Lihat [Lisensi dan Tangganan](/words/java/licensing/) halaman untuk informasi lebih lanjut.
 
 {{% alert color="primary" %}}
 
-Anda dapat menemukan informasi lebih rinci tentang rendering di Meme it [Login](/words/id/java/rendering/) database
+Anda juga dapat mencoba beberapa fitur Aspose.Words paling populer melalui [Aspose.Words Aplikasi online gratis](https://products.aspose.app/words).
 
 {{% /alert %}}
 
-**Q: Mengapa tata letak dan font dalam dokumen output berbeda dari aslinya?**
+------
 
-Font tidak dapat tersedia, atau format font didukung oleh Microsoft Word tapi tidak didukung oleh Aspose.WordsSitemap Aspose.Words Sitemap [Login](/words/id/java/manipulate-and-substitute-truetype-fonts/)Sitemap
+**T: Bagaimana saya bisa membeli Aspose.Words?**
 
-Untuk memeriksa apakah font hilang:
+Untuk membeli lisensi Aspose.Words, Anda harus pergi ke [Pembelian](https://purchase.aspose.com/buy) halaman, pilih produk "Aspose.Words " dan jenis lisensi yang sesuai untuk Anda. Kemudian tambahkan lisensi ke keranjang Anda dan ikuti petunjuk Keranjang Belanja.
 
-- Sitemap Aspose.Words menggunakan peringatan substitusi Font (untuk detailnya, lihat "Bagaimana mengakui bahwa bagian Font Was Diganti" dari bagian [Login](/words/id/java/manipulate-and-substitute-truetype-fonts/) Artikel
-- Sitemap Microsoft Word membuka kotak dialog "Font Substitution" (File → Options → Advanced → Font Substitution).
+Setelah membeli, ajukan lisensi seperti yang dijelaskan dalam [Lisensi yang Dibeli](/words/java/licensing/#purchased-license) bagian.
+
+Detail tentang cara menginstal Aspose.Words dapat dibaca di [Instalasi](/words/java/installation/) halaman.
 
 ------
 
-**Q: Mengapa tidak font fallback bekerja pada non-Windows platform dan karakter Unicode diganti dengan .notdef glyphSitemap**
+**T: Bagaimana saya bisa mendapatkan dukungan?**
 
-Kita sering melihat Meme it `.notdef` glyph bukan beberapa karakter Unicode. Ini biasanya kotak atau pertanyaan glyphSitemap
+Gunakan forum dukungan teknis gratis. Untuk detail tentang cara melaporkan masalah dengan benar dan apa yang perlu dilakukan sebelum menghubungi forum, lihat bagian [Dukungan Teknik](/words/java/technical-support/) halaman.
 
-Sitemap Microsoft Pengaturan fallback kantor dipilih secara default, dan Microsoft Font kantor tidak tersedia. Pengguna harus menginstal Microsoft font Office atau mengubah pengaturan fallback.
-
-------
-
-**Q: Mengapa teks skrip yang kompleks, seperti Thailand atau Ibrani, ditampilkan secara tidak akurat karena beberapa alasan, seperti posisi yang salah untuk diacritics atau ligatur yang tidak akurat?**
-
-Beberapa font skrip kompleks memerlukan fitur Typografi Lanjutan untuk diproses untuk menampilkannya dengan benar. Advanced Typography dinonaktifkan dalam Aspose.Words Sitemap Pengguna harus mengaktifkan Typografi Lanjutan dengan [TextShaperFactory](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getTextShaperFactory)Sitemap
-
-------
-
-**Q: Apakah saya perlu file lisensi untuk font yang saya gunakan?**
-
-Ya, kamu melakukannya. Oleh karena itu, ketika menyalin font, perlu diingat bahwa sebagian besar font berhak cipta. Terletak lisensi font sebelum tangan dan memverifikasi bahwa mereka dapat ditransfer secara bebas ke mesin lain.
-
-## Login Mail Merge
+## Merender Dokumen
 
 {{% alert color="primary" %}}
 
-Anda dapat menemukan informasi lebih rinci tentang Mail Merge Sitemap [Mail Merge Login](/words/java/mail-merge-and-reporting/) database
+Anda dapat menemukan informasi lebih rinci tentang rendering di [Rendering](/words/java/rendering/) bagian dokumentasi.
 
 {{% /alert %}}
 
-**Q: Mengapa tidak ada bidang yang digabungkan dalam output yang dihasilkan?**
+**T: Mengapa tata letak dan font dalam dokumen keluaran berbeda dari aslinya?**
 
-Nama asli dari bidang gabungan tetap sama tanpa diganti oleh data yang diperlukan dari sumber data, kemudian:
+Font mungkin tidak tersedia, atau format font didukung oleh Microsoft Word tetapi tidak didukung oleh Aspose.Words. Aspose.Words akan tampil [penggantian fonta](/words/java/manipulate-and-substitute-truetype-fonts/).
 
-- Periksa data dimuat dengan benar ke dalam tabel: set [TableName](https://reference.aspose.com/words/java/com.aspose.words/imailmergedatasource/#getTableName) benar dengan semua kunci dan hubungan utama yang diperlukan.
-- Periksa bahwa ladang gabungan dinamai dengan benar. Gunakan [GetFieldNames](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldNames) metode untuk mendapatkan semua nama bidang merge dan memastikan bahwa nama bidang merge dalam template Anda cocok dengan satu sumber data Anda.
+Untuk memeriksa apakah font tidak ada:
 
-------
-
-**Q: Mengapa output merging bersarang tidak menampilkan data dari tabel anak untuk masuk pertama di meja induk tetapi menampilkan semua item untuk entri terakhir di meja induk, bahkan salah satu yang tidak benar-benar terkait dengannya?**
-
-Ini karena daerah penggabungan dalam template tidak terbentuk dengan benar, yang dapat membuat semua bersarang Mail Merge daerah untuk berhenti menampilkan apa pun sama sekali. Login [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) tag pembuka dan [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) tag penutup harus cocok dan berada di baris atau sel yang sama. Misalnya, jika Anda mulai nesting menggabungkan daerah dalam sel meja, Anda harus mengakhiri wilayah merge di baris yang sama dengan sel pertama.
+- Di Aspose.Words gunakan peringatan penggantian font (untuk detailnya, lihat bagian "Cara Mengenali Bahwa Font Telah Diganti" di [Mengatur dan Mengganti TrueType Font](/words/java/manipulate-and-substitute-truetype-fonts/) artikel).
+- Di Microsoft Word buka kotak dialog "Substitusi Font" (File → Options → Advanced Substitution Substitusi Font).
 
 ------
 
-**Q: Mengapa setiap entri dari tampilan meja induk setiap item di meja anak, bahkan salah satu yang tidak benar-benar terkait dengannya?**
+**T: Mengapa fallback font tidak berfungsi pada platform non-Windows dan karakter Unicode diganti dengan.mesin terbang notdef?**
 
-Ini karena hubungan antara tabel induk dan anak tidak diatur atau mereka benar diatur. Hal ini diperlukan untuk:
+Kita sering dapat melihat mesin terbang `.notdef` alih-alih beberapa karakter Unicode. Ini biasanya kotak atau mesin terbang pertanyaan.
 
-- Pastikan integritas data dalam Anda **DataSet** dan gunakan **DataRelation** objek untuk mewakili hubungan orang tua antara tabel data terkait.
-- Periksa bagian "Bagaimana Mengatur Hubungan Data di Nested Mail Merge dengan Wilayah" dalam artikel [Login Mail Merge Login](/words/java/nested-mail-merge-with-regions/)Sitemap
+Ini karena pengaturan fallback Office Microsoft dipilih secara default, dan font Office Microsoft tidak tersedia. Pengguna harus menginstal Microsoft font Office atau mengubah pengaturan fallback.
 
 ------
 
-**Q: Mengapa pengecualian: "Sistem. Login: Kontratraint ini tidak dapat diaktifkan karena tidak semua nilai memiliki nilai induk yang sesuai" sambil mengeksekusi bersarang mail mergeSitemap**
+**T: Mengapa teks skrip yang rumit, seperti bahasa Thailand atau Ibrani, ditampilkan secara tidak akurat karena beberapa alasan, seperti posisi diakritik yang salah atau pengikat yang tidak akurat?**
 
-Hal ini terjadi karena tidak setiap rekor induk memiliki catatan anak sehingga sumber data Anda tidak cocok dengan kriteria berikut: * setiap baris di tabel induk harus memiliki hubungan satu-ke-satu dengan baris tabel anak berdasarkan tombol utama dan asing *.
+Beberapa font skrip yang kompleks memerlukan fitur Tipografi Tingkat Lanjut untuk diproses agar dapat menampilkannya dengan benar. Tipografi Tingkat Lanjut dinonaktifkan di Aspose.Words secara default. Pengguna harus mengaktifkan Tipografi Tingkat Lanjut dengan [TextShaperFactory](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getTextShaperFactory).
 
-Melayani batasan kunci asing ketika Anda membuat **DataRelation**Sitemap
+------
 
-## Atur atau Masukkan Dokumen
+**T: Apakah saya memerlukan file lisensi untuk font yang saya gunakan?**
+
+Ya, Anda lakukan. Oleh karena itu, saat menyalin font, perlu diingat bahwa sebagian besar font memiliki hak cipta. Temukan lisensi font sebelumnya dan verifikasi bahwa lisensi tersebut dapat ditransfer secara bebas ke komputer lain.
+
+## Bersarang Mail Merge
 
 {{% alert color="primary" %}}
 
-Anda dapat menemukan informasi lebih rinci tentang pemrograman dengan dokumen di [Pemrograman dengan Dokumen](/words/id/java/programming-with-documents/) database
+Anda dapat menemukan informasi lebih rinci tentang Mail Merge di [Mail Merge dan Pelaporan](/words/java/mail-merge-and-reporting/) bagian dokumentasi.
 
 {{% /alert %}}
 
-**Q: Mengapa tidak konten yang diajukan ke dokumen muncul di halaman yang sama?**
+**T: Mengapa tidak ada bidang gabungan dalam output yang dihasilkan?**
 
-Hasil akhir muncul di halaman terpisah karena perbedaan [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/) pengaturan untuk bagian-bagian di mana dokumen yang ditetapkan bersama. Membuat identik **PageSetup** pengaturan untuk bagian-bagian di mana dokumen yang ditetapkan bersama.
+Nama asli bidang penggabungan tetap sama tanpa diganti dengan data yang diperlukan dari sumber data, lalu:
 
-## Konversi Dokumen
+- Periksa apakah data dimuat dengan benar ke dalam tabel: setel [TableName](https://reference.aspose.com/words/java/com.aspose.words/imailmergedatasource/#getTableName) dengan benar dengan semua kunci utama dan relasi yang diperlukan.
+- Periksa apakah bidang gabungan diberi nama dengan benar. Gunakan metode [GetFieldNames](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldNames) untuk mendapatkan semua nama bidang gabungan dan memastikan bahwa nama bidang gabungan di templat Anda cocok dengan yang ada di sumber data Anda.
+
+------
+
+**T: Mengapa keluaran penggabungan bersarang tidak menampilkan data dari tabel turunan untuk entri pertama di tabel induk tetapi menampilkan semua item untuk entri terakhir di tabel induk, bahkan item yang sebenarnya tidak ditautkan dengannya?**
+
+Ini karena wilayah gabungan dalam templat tidak terbentuk dengan benar, yang dapat membuat semua wilayah Mail Merge bersarang berhenti menampilkan apa pun. Tag pembuka [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) dan tag penutup [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) harus cocok dan berada di baris atau sel yang sama. Misalnya, jika Anda mulai menyarangkan wilayah penggabungan dalam sel tabel, Anda harus mengakhiri wilayah penggabungan di baris yang sama dengan sel pertama.
+
+------
+
+**T: Mengapa setiap entri dari tabel induk menampilkan setiap item di tabel turunan, bahkan item yang sebenarnya tidak ditautkan dengannya?**
+
+Ini karena hubungan antara tabel induk dan tabel turunan tidak diatur atau pengaturannya salah. Hal ini diperlukan untuk:
+
+- Pastikan integritas data dalam **DataSet** Anda dan gunakan objek **DataRelation** untuk merepresentasikan hubungan induk-anak antara tabel data terkait.
+- Periksa bagian "Cara Mengatur Relasi Data dalam Mail Merge Bersarang dengan Wilayah" di artikel [Mulai Mail Merge dengan Wilayah](/words/java/nested-mail-merge-with-regions/).
+
+------
+
+**T: Mengapa pengecualian: "Sistem.ArgumentException: Batasan ini tidak dapat diaktifkan karena tidak semua nilai memiliki nilai induk yang sesuai" saat menjalankan mail merge bersarang?**
+
+Hal ini terjadi karena tidak semua catatan induk memiliki catatan turunan sehingga sumber data Anda tidak sesuai dengan kriteria berikut: *every row in the parent table should have a one-to-one relationship with the rows of the child table based on the primary and foreign keys*.
+
+Nonaktifkan batasan kunci asing saat Anda membuat **DataRelation**.
+
+## Menambahkan atau Menyisipkan Dokumen
 
 {{% alert color="primary" %}}
 
-Anda dapat menemukan informasi lebih rinci tentang mengkonversi dokumen di Meme it [Login](/words/id/java/convert-a-document/) database
+Anda dapat menemukan informasi lebih rinci tentang pemrograman dengan dokumen di [Pemrograman dengan Dokumen](/words/java/programming-with-documents/) bagian dokumentasi.
 
 {{% /alert %}}
 
-**Q: Bagaimana mengkonversi DOCX ke PDF?**
+**T: Mengapa konten yang ditambahkan ke dokumen tidak muncul di halaman yang sama?**
 
-Sangat mudah juga, hanya memuat dokumen ke model dan menyimpannya ke format yang didukung.
+Hasil append muncul di halaman terpisah karena perbedaan pengaturan [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/) untuk bagian tempat dokumen ditambahkan bersama. Buat pengaturan **PageSetup** yang identik untuk bagian tempat dokumen ditambahkan bersama.
 
-Contoh kode berikut menunjukkan proses mengkonversi file DOCX ke PDF:
+## Konversikan Dokumen
+
+{{% alert color="primary" %}}
+
+Anda dapat menemukan informasi lebih rinci tentang mengonversi dokumen di [Konversikan Dokumen](/words/java/convert-a-document/) bagian dokumentasi.
+
+{{% /alert %}}
+
+**T: Bagaimana cara mengubah DOCX menjadi PDF?**
+
+Ini juga sangat mudah, cukup muat dokumen ke model dan simpan ke format apa pun yang didukung.
+
+Contoh kode berikut menunjukkan proses pengubahan file DOCX menjadi PDF:
 
 {{< highlight java >}}
 // Open the source DOCX document.
@@ -189,19 +189,19 @@ Document doc = new Document(dataDir + "Input.docx");
 doc.save(dataDir + "output.pdf", SaveFormat.Pdf);
 {{< /highlight >}}
 
-## Manipulasi dengan Dokumen
+## Memanipulasi dengan Dokumen
 
 {{% alert color="primary" %}}
 
-Anda dapat menemukan informasi lebih rinci tentang pemrograman dengan dokumen di [Pemrograman dengan Dokumen](/words/id/java/programming-with-documents/) database
+Anda dapat menemukan informasi lebih rinci tentang pemrograman dengan dokumen di [Pemrograman dengan Dokumen](/words/java/programming-with-documents/) bagian dokumentasi.
 
 {{% /alert %}}
 
-**Q: Bagaimana membagi halaman dokumen dengan halaman?**
+**T: Bagaimana cara membagi dokumen halaman demi halaman?**
 
-Aspose.Words memungkinkan Anda untuk membagi halaman dokumen multi-halaman dengan halaman.
+Aspose.Words memungkinkan Anda membagi dokumen multi-halaman halaman demi halaman.
 
-Contoh kode berikut menunjukkan bagaimana membagi dokumen dan menyimpan setiap halaman sebagai dokumen terpisah:
+Contoh kode berikut menunjukkan cara membagi dokumen dan menyimpan setiap halaman sebagai dokumen terpisah:
 
 {{< highlight java >}}
 Document doc = new Document(dataDir + "TestFile (Split).docx");
@@ -218,9 +218,9 @@ for (int page = 0; page <= pageCount; page++)
 
 ------
 
-**Q: Cara membuka terenkripsi** **Sitemap**
+**T: Bagaimana cara membuka pesan terenkripsi**
 
-Anda dapat mencoba membuka dokumen terenkripsi tanpa kata sandi, yang harus menyebabkan pengecualian.
+Anda dapat mencoba membuka dokumen terenkripsi tanpa kata sandi, yang akan menyebabkan pengecualian.
 
 Contoh kode berikut menunjukkan cara membuka dokumen terenkripsi dengan kata sandi:
 
@@ -251,6 +251,6 @@ catch (Exception e)
 
 ------
 
-**Q: Bagaimana cara mencetak dokumen?**
+**T: Bagaimana cara mencetak dokumen?**
 
-Untuk jawaban rinci, pelajari artikel [Login](/words/id/java/print-a-document-programmatically-or-using-dialogs/)Sitemap
+Untuk jawaban terperinci, pelajari artikelnya [Membuat Dokumen Secara Terprogram atau Menggunakan Dialog](/words/java/print-a-document-programmatically-or-using-dialogs/).

@@ -1,8 +1,8 @@
 ---
-title: 使用`DocumentBuilder`插入文档元素
+title: 使用DocumentBuilder插入文档元素
 second_title: Aspose.Words对于C++
-articleTitle: 使用`DocumentBuilder`插入文档元素
-linktitle: 使用`DocumentBuilder`插入文档元素
+articleTitle: 使用DocumentBuilder插入文档元素
+linktitle: 使用DocumentBuilder插入文档元素
 type: docs
 description: "使用 C++ 中的文档构建器插入文档元素。"
 weight: 80

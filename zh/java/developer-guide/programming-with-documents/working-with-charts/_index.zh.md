@@ -1,25 +1,25 @@
----
-title: 与图表一起工作 Java
-second_title: "Aspose.Words (单位:千美元) Java"
+﻿---
+title: 使用Java中的图表
+second_title: Aspose.Words为Java
 articleTitle: 使用图表
 linktitle: 使用图表
-description: "图表特性介绍,如何使用 Java。 。 。 。"
+description: "图表功能简介,如何使用Java创建和操作图表."
 type: docs
 weight: 310
 url: /zh/java/working-with-charts/
 timestamp: 2024-01-27-14-07-04
 ---
 
-新的 [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) 方法被添加到 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) 课。 因此,让我们看看如何在文档中插入一个简单的列图。 **插入 图表** 方法。
+新的[insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double)方法被添加到[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)类中。 所以，让我们看看如何使用**insertChart**方法将简单的柱形图插入到文档中。
 
 
-## 如何使用刷新插入图表 Aspose.Words
+## 如何使用Aspose.Words从头开始插入图表
 
-在本节中,我们将学会如何在文件中插入图表。
+在本节中，我们将学习如何将图表插入到文档中。
 
-###  插入列图
+###  插入柱形图
 
-以下代码示例显示如何插入列图:
+下面的代码示例演示如何插入柱形图:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertColumnChart1.java" >}}
 
@@ -27,7 +27,7 @@ timestamp: 2024-01-27-14-07-04
 
 ![column-chart-aspose-words-java-1](/words/java/working-with-charts/working-with-charts-7.png)
 
-这个系列有四个不同的超载 添加方法,该方法将覆盖所有图表类型数据源的所有可能的变体:
+Series Add方法有四种不同的重载，这些重载被公开以涵盖所有图表类型的数据源的所有可能变体:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertColumnChart2.java" >}}
 
@@ -35,9 +35,9 @@ timestamp: 2024-01-27-14-07-04
 
 ![column-chart-aspose-words-java-2](/words/java/working-with-charts/working-with-charts-8.png)
 
-### 插入散点 图表
+### 插入散点图
 
-以下代码示例显示如何插入散射图:
+下面的代码示例演示如何插入散点图:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertScatterChart.java" >}}
 
@@ -45,9 +45,9 @@ timestamp: 2024-01-27-14-07-04
 
 ![scutter-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-9.png)
 
-### 插入区域 图表
+### 插入面积图
 
-以下代码示例显示如何插入一个区域图:
+下面的代码示例演示如何插入面积图:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertAreaChart.java" >}}
 
@@ -55,9 +55,9 @@ timestamp: 2024-01-27-14-07-04
 
 ![area-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-10.png)
 
-### 插入泡泡图
+### 插入气泡图
 
-以下代码示例显示如何插入气泡图:
+下面的代码示例演示如何插入气泡图:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertBubbleChart.java" >}}
 
@@ -65,141 +65,141 @@ timestamp: 2024-01-27-14-07-04
 
 ![bubble-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-11.png)
 
-## 与图表一起工作通过 `Shape.Chart` 对象
+## 通过`Shape.Chart`对象处理图表
 
-一旦图表被插入并充满数据,您就可以改变其外观。 [Shape.Chart](https://reference.aspose.com/words/java/com.aspose.words/shape/#getChart) 属性包含所有通过公众提供的图表相关选项 API。 。 。 。
+一旦图表被插入并填充了数据，您就可以改变它的外观。 [Shape.Chart](https://reference.aspose.com/words/java/com.aspose.words/shape/#getChart)属性包含通过公共API提供的所有图表相关选项。
 
-比如,让我们改变 图表标题或传说行为:
+例如，让我们更改图表标题或图例行为:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-changeChartAppearanceUsingShapeChartObject.java" >}}
 
-代码生成以下结果:
+代码生成如下结果:
 
 ![line-chart-aspose-words-java-1](/words/java/working-with-charts/working-with-charts-1.png)
 
-## 如何使用图表集
+## 如何使用图表的ChartSeriesCollection
 
-让我们看看 [ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/) 藏书。 所有图表系列均可通过 [chart.getSeries()](https://reference.aspose.com/words/java/com.aspose.words/chart/#getSeries) 收藏,即 **Iterable**编号:
+让我们来看看[ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/)集合。 所有图表系列都可以通过[chart.getSeries()](https://reference.aspose.com/words/java/com.aspose.words/chart/#getSeries)集合获得，即**Iterable**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithChartSeriesCollectionOfChart-WorkWithChartSeriesCollectionOfChart.java" >}}
 
-您可以逐个删除系列或清除全部内容, 并在需要时添加一个新的序列。 新插入的图表中添加了一些默认序列到此收藏中. 要清除它们,你需要呼叫 **图表. getSeries (). clear ()** 方法。
+您可以逐个删除系列或清除所有系列，并在需要时添加新系列。 新插入的图表有一些默认序列添加到此集合中。 要删除它们，您需要调用**chart.getSeries().clear()**方法。
 
-## 使用单一图表序列
+## 使用单个ChartSeries类
 
-这是如何与特定系列合作。
+以下是如何使用特定系列。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-workingWithSingleChartSeries.java" >}}
 
-请见以下结果:
+请参阅下面的结果:
 
 ![line-chart-aspose-words-java-2](/words/java/working-with-charts/working-with-charts-2.png)
 
-所有单身 [ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/) 有默认 [ChartDataPoint](https://reference.aspose.com/words/java/com.aspose.words/chartdatapoint/) 选项,请尝试使用以下代码来修改它们:
+所有单个[ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/)都有默认的[ChartDataPoint](https://reference.aspose.com/words/java/com.aspose.words/chartdatapoint/)选项，请尝试使用以下代码更改它们:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-changeDefaultChartDataPointOptions.java" >}}
 
 ![line-chart-aspose-words-java3](/words/java/working-with-charts/working-with-charts-3.png)
 
-## 如何使用一个单图数据点 `ChartSeries`
+## 如何使用`ChartSeries`的单个ChartDataPoint
 
-使用 [ChartDataPoint](https://reference.aspose.com/words/java/com.aspose.words/chartdatapoint/) 您可以自定义图表序列中单个数据点的格式:
+使用[ChartDataPoint](https://reference.aspose.com/words/java/com.aspose.words/chartdatapoint/)，您可以自定义图表系列的单个数据点的格式:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithSingleChartDataPointOfAChartSeries-WorkWithSingleChartDataPointOfAChartSeries.java" >}}
 
-请见以下结果:
+请参阅下面的结果:
 
 ![line-chart-aspose-words-java-4](/words/java/working-with-charts/working-with-charts-4.png)
 
-## 如何使用单一图表的图表数据标签
+## 如何使用单个ChartSeries的ChartDataLabel
 
-使用 [ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/) 您可以指定图表序列中单个数据标签的格式, 如显示/ 隐藏图例Key, CategoryName, SeriesName 数值等:
+使用[ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/)，您可以指定图表系列的单个数据标签的格式，如显示/隐藏LegendKey, CategoryName, SeriesName, 价值等:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithChartDataLabelOfASingleChartSeries-WorkWithChartDataLabelOfASingleChartSeries.java" >}}
 
-请见以下结果:
+请参阅下面的结果:
 
 ![bar-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-5.png)
 
-## 如何定义图集的默认选项
+## 如何为ChartSeries的ChartDataLabels定义默认选项
 
-那个 [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/) 类定义属性,用于设置默认选项 **ChartDataLabels** 图表 **Series**。 。 。 这些属性包括设置ShowCategoryName, setShowBubbbleSize, setShow 百分比, setShowSeriesName, setShow 数值等:
+[ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/)类定义可用于为图表**Series**设置**ChartDataLabels**的默认选项的属性。 这些属性包括setShowCategoryName, setShowBubbleSize, setShowPercentage, setShowSeriesName, setShowValue 等:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-DefaultOptionsForDataLabels-DefaultOptionsForDataLabels.java" >}}
 
-请见以下结果:
+请参阅下面的结果:
 
 ![pie-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-6.png)
 
-## 如何格式化图表数据标签的数目
+## 如何格式化图表数据标签的数量
 
-使用 [NumberFormat](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/#getNumberFormat) 属性,您可以指定图表中单个数据标签的数字格式。
+使用[NumberFormat](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/#getNumberFormat)属性，可以指定图表的单个数据标签的数字格式。
 
-以下代码示例显示如何格式化一些数据标签:
+下面的代码示例演示如何格式化数据标签的数字:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartNumberFormat-ChartNumberFormat.java" >}}
 
-## 如何设置图轴属性
+## 如何设置图表轴属性
 
-如果您想要对数值轴使用图表轴、缩放和显示单位,请使用 [ChartAxis](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/), [AxisDisplayUnit](https://reference.aspose.com/words/java/com.aspose.words/axisdisplayunit/), 和 [AxisScaling](https://reference.aspose.com/words/java/com.aspose.words/axisscaling/) 课程。
+如果要为值轴处理图表轴、缩放和显示单位，请使用[ChartAxis](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/)、[AxisDisplayUnit](https://reference.aspose.com/words/java/com.aspose.words/axisdisplayunit/)和[AxisScaling](https://reference.aspose.com/words/java/com.aspose.words/axisscaling/)类。
 
-以下代码示例显示如何定义 X 和 Y 轴属性:
+下面的代码示例演示如何定义X和Y轴属性:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-DefineXYAxisProperties.java" >}}
 
-### 如何设置 Date轴时值
+### 如何设置轴的DateTime值
 
-以下代码示例显示如何将日期/时间值设定为轴属性:
+下面的代码示例演示如何将日期/时间值设置为轴属性:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetDateTimeValuesToAxis.java" >}}
 
-### 如何格式化轴数值
+### 如何格式化轴的数值
 
-以下代码示例显示如何改变值轴上的数字格式:
+下面的代码示例演示如何更改值轴上的数字格式:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetNumberFormatForAxis.java" >}}
 
-### 如何设置轴线
+### 如何设置轴的边界
 
-那个 `AxisBound` 类代表轴值的最小或最大约束。 捆绑可以指定为数值,日期时间或特殊的"自动"值.
+`AxisBound`类表示轴值的最小值或最大值。 绑定可以指定为数字，日期时间或特殊的"自动"值。
 
-以下代码示例显示如何设置轴的界限:
+下面的代码示例演示如何设置轴的边界:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetboundsOfAxis.java" >}}
 
-### 如何在标签之间设置间隔单位
+### 如何设置标签之间的间隔单位
 
-以下代码示例显示如何将标签之间的间隔单位设置在一个轴上:
+下面的代码示例演示如何设置轴上标签之间的间隔单位:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetIntervalUnitBetweenLabelsOnAxis.java" >}}
 
 ### 如何隐藏图表轴
 
-要显示或隐藏图表轴,只需设置值即可实现 `ChartAxis.Hidden` 属性。
+如果要显示或隐藏图表轴，只需通过设置`ChartAxis.Hidden`属性的值即可实现此目的。
 
-以下代码示例显示如何隐藏图的Y轴:
+下面的代码示例演示如何隐藏图表的Y轴:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-HideChartAxis.java" >}}
 
 ### 如何对齐图表标签
 
-如果您想要设置多行标签的文本对齐, 您可以简单地通过设置 [setTickLabelAlignment()](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/#setTickLabelAlignment-int) 属性。
+如果要为多行标签设置文本对齐方式，可以通过设置[setTickLabelAlignment()](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/#setTickLabelAlignment-int)属性的值来简单地实现这一点。
 
-下列代码示例显示如何勾选标签对齐:
+下面的代码示例演示如何勾选标签对齐:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.java" >}}
 
 {{% alert color="primary" %}}
 
-Microsoft Word 校对 默认情况下, 图表标签为中心 。
+Microsoft Word默认情况下将图表标签对齐到中心。
 
 {{% /alert %}}
 
-## 如何设置填充和划线格式
+## 如何设置填充和笔画格式
 
-填充和中风格式可以设置图表序列,数据点,以及标记. 要做到这一点,就必须使用 `ChartFormat` 在图表序列、图表数据点和图表马克类中,以及一些属性的别名,如ForeColor、后彩、可见和透明 `Stroke` 课。
+可以为图表系列、数据点和标记设置填充和笔画格式。 为此，您需要在ChartSeries，ChartDataPoint和ChartMarker类中使用`ChartFormat`类型的属性，以及某些属性的别名，例如ForeColor，BackColor，可见和`Stroke`类中的透明度。
 
-以下代码示例显示如何设置序列颜色:
+下面的代码示例演示如何设置系列颜色:
 
 {{< highlight csharp >}}
 Document doc = new Document();
@@ -229,7 +229,7 @@ series3.Format.Fill.ForeColor = Color.Blue;
 doc.Save("ColumnColor.docx");
 {{< /highlight >}}
 
-以下代码示例显示如何设置行色和重量:
+下面的代码示例演示如何设置线条颜色和权重:
 
 {{< highlight csharp >}}
 Document doc = new Document();

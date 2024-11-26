@@ -1,80 +1,80 @@
----
-title: Serialisasi dan Bekerja dengan Dokumen di Database
-second_title: Aspose.Words Sitemap Java
-articleTitle: Serialisasi dan Bekerja dengan Dokumen di Database
-linktitle: Serialisasi dan Bekerja dengan Dokumen di Database
-description: "Konversi dokumen menjadi array byte untuk bekerja dengan dokumen ini dalam database. Anda dapat menyimpan dan mengambil dokumen ke dan dari database menggunakan JavaSitemap"
+﻿---
+title: Membuat Serial dan Bekerja dengan Dokumen dalam Database
+second_title: Aspose.Words untuk Java
+articleTitle: Membuat Serial dan Bekerja dengan Dokumen dalam Database
+linktitle: Membuat Serial dan Bekerja dengan Dokumen dalam Database
+description: "Konversikan dokumen menjadi larik byte untuk bekerja dengan dokumen ini dalam database. Anda dapat menyimpan dan mengambil dokumen ke dan dari database menggunakan Java."
 type: docs
 weight: 40
 url: /id/java/serialize-and-work-with-a-document-in-a-database/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Salah satu tugas yang dapat Anda lakukan ketika bekerja dengan dokumen disimpan dan pengambilan **Document** objek dan dari database. Misalnya, ini akan diperlukan jika Anda menerapkan jenis sistem manajemen konten. Semua versi dokumen sebelumnya harus disimpan dalam sistem database. Kemampuan untuk menyimpan dokumen di database juga sangat berguna ketika aplikasi Anda memberikan layanan berbasis web.
+Salah satu tugas yang mungkin perlu Anda selesaikan saat bekerja dengan dokumen adalah menyimpan dan mengambil objek **Document** ke dan dari database. Misalnya, ini akan diperlukan jika Anda menerapkan semua jenis sistem manajemen konten. Semua versi dokumen sebelumnya harus disimpan dalam sistem basis data. Kemampuan untuk menyimpan dokumen dalam database juga sangat berguna ketika aplikasi Anda menyediakan layanan berbasis web.
 
-Aspose.Words memberikan kemampuan untuk mengubah dokumen menjadi array byte untuk pekerjaan berikutnya dengan dokumen ini dalam database.
+Aspose.Words menyediakan kemampuan untuk mengonversi dokumen menjadi larik byte untuk pekerjaan selanjutnya dengan dokumen ini dalam database.
 
-## Mengkonversi Dokumen ke Byte Array
+## Konversikan Dokumen menjadi Array Byte
 
-Untuk menyimpan dokumen dalam database atau mempersiapkan dokumen untuk transmisi di seluruh web, seringkali diperlukan untuk menemani dokumen untuk mendapatkan array byte.
+Untuk menyimpan dokumen dalam database atau menyiapkan dokumen untuk dikirim ke seluruh web, seringkali dokumen perlu diserialkan untuk mendapatkan larik byte.
 
-Untuk serialisasi [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) Sitemap Aspose.WordsSitemap
+Untuk membuat serial objek [Document](https://reference.aspose.com/words/java/com.aspose.words/document/)dalam Aspose.Words:
 
-Sitemap Simpan ke **MemoryStream** menggunakan [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-int) metode kelebihan beban **Document** Sitemap
-Sitemap Sitemap **ToArray** metode, yang mengembalikan array byte mewakili dokumen dalam bentuk byte.
+1. Simpan ke **MemoryStream** menggunakan kelebihan metode [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-int) dari kelas **Document**.
+1. Panggil metode **ToArray**, yang mengembalikan larik byte yang mewakili dokumen dalam bentuk byte.
 
-Langkah di atas kemudian dapat terbalik untuk memuat byte kembali ke **Document** Sitemap
+Langkah-langkah di atas kemudian dapat dibalik untuk memuat byte kembali ke objek **Document**.
 
 {{% alert color="primary" %}}
 
-Format hemat yang dipilih penting untuk memastikan kesetiaan tertinggi dipertahankan ketika menyimpan dan mengisi ulang ke dalam **Document** Sitemap Untuk alasan ini, disarankan untuk menggunakan serangkaian format file OOXML.
+Format penyimpanan yang dipilih penting untuk memastikan kesetiaan tertinggi dipertahankan saat menyimpan dan memuat ulang ke objek **Document**. Untuk alasan ini, disarankan untuk menggunakan serangkaian format file OOXML.
 
 {{% /alert %}}
 
-Contoh di bawah ini menunjukkan cara serialisasi **Document** objek untuk mendapatkan array byte, dan kemudian bagaimana cara mengorganisir array byte untuk mendapatkan **Document** Sitemap
+Contoh di bawah ini menunjukkan cara membuat serial objek **Document** untuk mendapatkan array byte, lalu cara membatalkan serialisasi array byte untuk mendapatkan objek **Document** lagi:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToByte-ConvertDocumentToByte.java" >}}
 
 {{% alert color="primary" %}}
 
-Anda dapat mengunduh file template dari contoh ini dari [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc)Sitemap
+Anda dapat mengunduh file templat contoh ini dari [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
 
 {{% /alert %}}
 
-## Simpan, Baca dan Hapus Dokumen di Database
+## Menyimpan, Membaca, dan Menghapus Dokumen dalam Basis Data
 
-Bagian ini menunjukkan cara menyimpan dokumen dalam database dan kemudian memuatnya kembali ke `Document` objek untuk bekerja dengan itu. Untuk kesederhanaan, nama file adalah kunci yang digunakan untuk menyimpan dan mengambil dokumen dari database. Database berisi dua kolom. Kolom pertama "FileName" disimpan sebagai String dan digunakan untuk mengidentifikasi dokumen. Kolom kedua "FileContent" disimpan sebagai `BLOB` objek yang menyimpan objek dokumen dalam bentuk byte.
+Bagian ini menunjukkan cara menyimpan dokumen dalam database dan kemudian memuatnya kembali ke objek `Document` untuk bekerja dengannya. Untuk mempermudah, nama file adalah kunci yang digunakan untuk menyimpan dan mengambil dokumen dari database. Basis data berisi dua kolom. Kolom pertama "FileName " disimpan sebagai String dan digunakan untuk mengidentifikasi dokumen. Kolom kedua "FileContent " disimpan sebagai objek `BLOB` yang menyimpan objek dokumen dalam bentuk byte.
 
-Contoh kode berikut menunjukkan cara mengatur koneksi ke database dan melaksanakan perintah:
+Contoh kode berikut menunjukkan cara mengatur koneksi ke database dan menjalankan perintah:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadAndSaveFromDatabase-OpenDatabaseConnection.java" >}}
 
 {{% alert color="primary" %}}
 
-Dalam contoh ini, kita menggunakan database MySQL untuk menyimpan database MySQL Aspose.Words Sitemap
+Dalam contoh ini, kita menggunakan basis data MySQL untuk menyimpan dokumen Aspose.Words.
 
 {{% /alert %}}
 
-Contoh kode berikut menunjukkan cara menyimpan dokumen ke database, kemudian membaca dokumen yang sama lagi, dan akhirnya menghapus catatan yang berisi dokumen dari database:
+Contoh kode berikut menunjukkan cara menyimpan dokumen ke database, lalu membaca dokumen yang sama lagi, dan terakhir menghapus catatan yang berisi dokumen dari database:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadAndSaveFromDatabase-OpenRetrieveAndDelete.java" >}}
 
-### Simpan Dokumen ke Database
+### Menyimpan Dokumen ke Basis Data
 
-Untuk menyimpan dokumen dalam database mengkonversi dokumen ini ke array byte, seperti yang dijelaskan pada awal artikel ini. Kemudian, simpan array byte ini ke bidang database.
+Untuk menyimpan dokumen dalam database, konversikan dokumen ini menjadi larik byte, seperti yang dijelaskan di awal artikel ini. Kemudian, simpan array byte ini ke dalam bidang basis data.
 
 Contoh kode berikut menunjukkan cara menyimpan dokumen ke database yang ditentukan:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadAndSaveFromDatabase-StoreToDatabase.java" >}}
 
-Tentukan perintahString, yang merupakan ekspresi SQL yang melakukan semua pekerjaan:
+Tentukan commandString, yang merupakan ekspresi SQL yang melakukan semua pekerjaan:
 
-- Login Untuk menyimpan dokumen ke database, perintah "INSERT INTO" digunakan dan tabel yang ditentukan bersama dengan nilai-nilai dua bidang catatan - FileName dan FileContent. Untuk menghindari parameter tambahan, nama file diambil dari **Document** Sitemap Login `FileContent` nilai lapangan ditetapkan oleh byte dari aliran memori, yang berisi representasi biner dokumen yang tersimpan.
-- Login Garis kode yang tersisa mengeksekusi perintah yang menyimpan Aspose.Words database.
+- Untuk menyimpan dokumen ke dalam basis data, perintah "INSERT INTO" digunakan dan tabel ditentukan bersama dengan nilai dari dua bidang catatan - FileName dan FileContent. Untuk menghindari parameter tambahan, nama file diambil dari objek **Document** itu sendiri. Nilai bidang `FileContent` diberi byte dari aliran memori, yang berisi representasi biner dari dokumen yang disimpan.
+- Baris kode yang tersisa menjalankan perintah yang menyimpan dokumen Aspose.Words dalam database.
 
-### Database
+### Mengambil Dokumen dari Database
 
-Untuk mengambil dokumen dari database, pilih catatan yang berisi data dokumen sebagai array byte. Kemudian memuat array byte dari rekor ke **MemoryStream** dan menciptakan **Document** objek yang akan memuat dokumen dari **MemoryStream**Sitemap
+Untuk mengambil dokumen dari database, pilih catatan yang berisi data dokumen sebagai larik byte. Kemudian muat array byte dari rekaman ke **MemoryStream** dan buat objek **Document** yang akan memuat dokumen dari **MemoryStream**.
 
 Contoh kode berikut menunjukkan cara mengambil dan mengembalikan dokumen dari database yang ditentukan menggunakan nama file sebagai kunci untuk mengambil dokumen ini:
 
@@ -82,14 +82,14 @@ Contoh kode berikut menunjukkan cara mengambil dan mengembalikan dokumen dari da
 
 {{% alert color="primary" %}}
 
-Perintah SQL "SELECT * DARI" digunakan untuk mengambil catatan yang sesuai berdasarkan nama file.
+Perintah SQL "SELECT * FROM " digunakan untuk mengambil rekaman yang sesuai berdasarkan nama file.
 
 {{% /alert %}}
 
-### Hapus Dokumen dari Database
+### Menghapus Dokumen dari Basis Data
 
-Untuk menghapus dokumen dari database, gunakan perintah SQL yang sesuai tanpa manipulasi pada **Document** Sitemap
+Untuk menghapus dokumen dari database, gunakan perintah SQL yang sesuai tanpa manipulasi apa pun pada objek **Document**.
 
-Contoh kode berikut menunjukkan bagaimana menghapus dokumen dari database, menggunakan nama file untuk mengambil catatan:
+Contoh kode berikut menunjukkan cara menghapus dokumen dari database, menggunakan nama file untuk mengambil catatan:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadAndSaveFromDatabase-DeleteFromDatabase.java" >}}

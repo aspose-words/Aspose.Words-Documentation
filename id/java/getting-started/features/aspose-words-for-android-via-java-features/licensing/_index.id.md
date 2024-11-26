@@ -1,44 +1,44 @@
----
-title: Login
-second_title: Aspose.Words Sitemap Java
-articleTitle: Login
-linktitle: Login
-description: "Login Aspose.Words Sitemap Android Sitemap JavaSitemap"
+﻿---
+title: Perizinan
+second_title: Aspose.Words untuk Java
+articleTitle: Perizinan
+linktitle: Perizinan
+description: "Pemberian lisensi Aspose.Words untuk Android melalui Java."
 type: docs
 weight: 60
 url: /id/java/licensing-android/
 timestamp: 2024-02-02-12-07-36
 ---
 
-Kadang-kadang, untuk mempelajari sistem lebih baik, Anda ingin menyelam ke kode secepat mungkin. Untuk memudahkan ini, Aspose.Words memberikan rencana yang berbeda untuk pembelian atau menawarkan Percobaan Gratis dan Lisensi Sementara 30 hari untuk evaluasi.
+Terkadang, untuk mempelajari sistem dengan lebih baik, Anda ingin mempelajari kodenya secepat mungkin. Untuk mempermudah ini, Aspose.Words menyediakan paket berbeda untuk pembelian atau menawarkan Uji Coba Gratis dan Lisensi Sementara 30 hari untuk evaluasi.
 
 {{% alert color="primary" %}}
 
-Perhatikan bahwa ada sejumlah kebijakan dan praktik umum yang membimbing Anda tentang cara mengevaluasi, benar lisensi, dan membeli produk kami. Anda dapat menemukan mereka di Meme it [Sitemap](https://purchase.aspose.com/policies/) Sitemap
+Perhatikan bahwa ada sejumlah kebijakan dan praktik umum yang memandu Anda tentang cara mengevaluasi, melisensikan, dan membeli produk kami dengan benar. Anda dapat menemukannya di [Menghilangkan Kesalahan dan FAQ](https://purchase.aspose.com/policies/) bagian.
 
 {{% /alert %}}
 
-## Percobaan Gratis atau Lisensi Sementara
+## Uji Coba Gratis atau Lisensi Sementara
 
-Aspose.Words adalah perangkat lunak yang luar biasa yang dapat mencoba sebelum membeli. Anda dapat dengan mudah mengunduh / menginstal Aspose.Words Sitemap Java Login Aspose.Words Sitemap Android Sitemap Java [Login](https://releases.aspose.com/words/androidjava/) untuk evaluasi.
+Aspose.Words adalah perangkat lunak luar biasa yang dapat dicoba oleh pengembang sebelum membeli. Anda dapat dengan mudah mengunduh / menginstal Aspose.Words untuk Java dan Aspose.Words untuk Android melalui Java [dari halaman unduhan](https://releases.aspose.com/words/androidjava/) untuk evaluasi.
 
-Versi evaluasi sama dengan yang dibeli – versi Percobaan hanya menjadi berlisensi ketika Anda menambahkan beberapa baris kode untuk menerapkan lisensi.
+Versi evaluasi sama dengan yang dibeli-versi Uji Coba menjadi berlisensi saat Anda menambahkan beberapa baris kode untuk menerapkan lisensi.
 
 {{% alert color="primary" %}}
 
-Pelajari lebih detail tentang Gratis Percobaan atau Lisensi Sementara untuk Aspose.Words Sitemap Android Sitemap Java Sitemap [Login](/words/id/java/licensing/)Sitemap
+Pelajari detail selengkapnya tentang Uji Coba Gratis atau Lisensi Sementara untuk Aspose.Words untuk Android melalui Java di [halaman Lisensi dan Pendaftaran](/words/java/licensing/).
 
 {{% /alert %}}
 
-## Lisensi Pembelian
+## Lisensi yang Dibeli
 
-Setelah pembelian, Anda perlu menerapkan file lisensi atau menyertakan file lisensi sebagai sumber daya yang tertanam. Bagian ini menjelaskan pilihan bagaimana ini dapat dilakukan, dan juga komentar pada beberapa pertanyaan umum.
+Setelah pembelian, Anda perlu menerapkan file lisensi atau menyertakan file lisensi sebagai sumber daya tersemat. Bagian ini menjelaskan opsi tentang bagaimana hal ini dapat dilakukan, dan juga mengomentari beberapa pertanyaan umum.
 
 {{% alert color="primary" %}}
 
-Lisensi adalah file XML teks biasa yang berisi rincian seperti nama produk, jumlah pengembang berlisensi, tanggal expiry berlangganan, dan sebagainya.
+Lisensi adalah file XML teks biasa yang berisi detail seperti nama produk, jumlah lisensi pengembang, tanggal kedaluwarsa langganan, dan sebagainya.
 
-File ini ditandatangani secara digital, sehingga tidak memodifikasi file. Bahkan tambahan yang tidak masuk akal dari istirahat garis tambahan ke file akan membatalkannya.
+File ditandatangani secara digital, jadi jangan memodifikasi file. Bahkan penambahan jeda baris tambahan yang tidak disengaja ke dalam file akan membatalkannya.
 
 {{% /alert %}}
 
@@ -47,35 +47,35 @@ File ini ditandatangani secara digital, sehingga tidak memodifikasi file. Bahkan
 Anda perlu mengatur lisensi:
 
 * hanya sekali per domain aplikasi
-* sebelum menggunakan Aspose.Words Sitemap
+* sebelum menggunakan kelas Aspose.Words lainnya
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-Anda dapat menemukan informasi harga di Meme it [Sitemap](https://purchase.aspose.com/pricing/words/family/) Sitemap
+Anda dapat menemukan informasi harga di [Informasi Harga](https://purchase.aspose.com/pricing/words/family/) halaman.
 
 {{% /alert %}}
 
-### Melindungi Lisensi Pembelian Anda
+### Melindungi Lisensi yang Anda Beli
 
-Setelah membeli lisensi, Anda perlu hati-hati membaca informasi di halaman [Login](https://purchase.aspose.com/orders/protecting-your-license-file) untuk melindungi file lisensi Anda. Harap dicatat bahwa halaman ini tersedia untuk melihat hanya jika Anda memiliki lisensi berbayar.
+Setelah membeli lisensi, Anda perlu membaca informasi di halaman dengan cermat [Melindungi Lisensi yang Anda Beli](https://purchase.aspose.com/orders/protecting-your-license-file) untuk melindungi file lisensi Anda. Harap dicatat bahwa halaman ini hanya tersedia untuk dilihat jika Anda memiliki lisensi berbayar.
 
-### Pilihan Lisensi
+### Opsi Penerapan Lisensi
 
 Lisensi dapat diterapkan dari berbagai lokasi:
 
-* Jalan eksplisit
-* Sitemap Sumber daya tertanam
-* Sitemap Sebagai Lisensi Meteran - mekanisme lisensi baru
+* Jalur eksplisit
+* Sumber daya yang disematkan
+* Sebagai Lisensi Terukur-mekanisme lisensi baru
 
 #### Memuat file Lisensi
 
-Sitemap Aspose.Words Sitemap Android Sitemap Java, lisensi dapat [Login](/words/id/java/licensing/), atau dimuat dari aliran:
+Dalam Aspose.Words untuk Android melalui Java, lisensinya dapat berupa [terhubung sebagai sumber daya](/words/java/licensing/), atau dimuat dari aliran:
 
-Sitemap Masukkan file lisensi di lokasi apa pun di **/Login**Sitemap
-Sitemap Buat aliran yang merujuk file.
-Sitemap Menyiapkan aliran (menghasilkan file lisensi) ke `SetLicense` Login
+1. Letakkan file lisensi di lokasi mana pun di **/mnt/sdcard/**.
+1. Buat aliran yang mereferensikan file.
+1. Masukkan aliran (berisi file lisensi) ke dalam metode `SetLicense`.
 
 **Java**
 
@@ -91,11 +91,11 @@ License license = new License();
 license.setLicense(fstream);
 {{< /highlight >}}
 
-Menerapkan Lisensi dari Sumber Daya Tertanam. Untuk mengakses lisensi sebagai sumber daya berdasarkan nama Android file paket:
+Menerapkan Lisensi dari Sumber Daya yang Disematkan. Untuk mengakses lisensi sebagai sumber daya berdasarkan nama dari file paket Android:
 
-Sitemap Tambahkan file lisensi sebagai sumber daya untuk aplikasi Anda **Sitemap** folder.
-   File lisensi harus terlihat di **Sitemap** folder.
-Sitemap Akses / memuat lisensi dari sumber daya dengan sampel kode berikut.
+1. Tambahkan file lisensi sebagai sumber daya ke folder **res/raw** aplikasi Anda.
+   File lisensi harus terlihat di folder **res/raw**.
+1. Akses / muat lisensi dari sumber daya dengan contoh kode berikut.
 
 **Java**
 
@@ -105,9 +105,9 @@ InputStream inputStream = getResources().openRawResource(R.raw.license);
 license.setLicense(inputStream);
 {{< /highlight >}}
 
-#### Terapkan Lisensi Meter
+#### Terapkan Lisensi Terukur
 
-Aspose.Words memungkinkan pengembang untuk menerapkan kunci berukuran. Ini adalah mekanisme lisensi baru. Mekanisme perizinan baru akan digunakan bersama dengan metode lisensi yang ada. Pelanggan yang ingin ditagih berdasarkan penggunaan API fitur dapat menggunakan lisensi meter.
+Aspose.Words memungkinkan pengembang untuk menerapkan kunci terukur. Ini adalah mekanisme perizinan baru. Mekanisme perizinan baru akan digunakan bersama dengan metode perizinan yang ada. Pelanggan yang ingin ditagih berdasarkan penggunaan fitur API dapat menggunakan lisensi terukur.
 
 **Java**
 
@@ -128,21 +128,21 @@ catch (Exception ex)
 
 ### Mengubah Nama File Lisensi
 
-Nama file lisensi tidak harus 'Aspose.WordsSitemapAndroidSitemapJavaSitemap Anda dapat mengubah nama untuk apa pun yang Anda sukai dan menggunakan nama itu ketika memanggil `License.SetLicense`Sitemap
+Nama berkas lisensi tidak harus 'Aspose.Words.Android.Java.lic'. Anda dapat mengganti namanya menjadi apa pun yang Anda suka dan menggunakan nama itu saat memanggil `License.SetLicense`.
 
-### Kecuali - Tidak dapat menemukan nama file lisensi
+### Pengecualian-Tidak dapat menemukan nama file lisensi
 
-Ketika Anda mengunduh lisensi yang telah Anda beli, file lisensi dinamakan **Aspose.WordsSitemapAndroidSitemapJavaLogin** Sitemap File lisensi diunduh melalui browser Anda dan beberapa browser mengenali file lisensi sebagai XML dan mengakhiri ekstensi .xml ke nama. File yang diunduh menjadi **Aspose.WordsSitemapAndroidSitemapJavaLogin**Sitemap
+Saat Anda mengunduh lisensi yang telah Anda beli, file lisensi diberi nama **Aspose.Words.Android.Java.lic** secara default. File lisensi diunduh melalui browser Anda dan beberapa browser mengenali file lisensi sebagai XML dan menambahkan .ekstensi xml ke namanya. File yang diunduh menjadi **Aspose.Words.Android.Java.lic.XML**.
 
-Sitemap Microsoft Windows dikonfigurasi untuk menyembunyikan ekstensi dari jenis file yang dikenal (tidak nyaman ini default di sebagian besar Windows instalasi), file lisensi terdaftar sebagai **Aspose.WordsSitemapAndroidSitemapJavaLogin** Sitemap Windows Login Seperti nama file yang diharapkan. Sitemap `License.SetLicense` dan lulus 'Aspose.WordsSitemapAndroidSitemapJava.lic', Anda akan melihat dan pengecualian karena tidak ada file tersebut
+Saat Microsoft Windows dikonfigurasi untuk menyembunyikan ekstensi dari jenis file yang diketahui (sayangnya ini default di sebagian besar penginstalan Windows), file lisensi dicantumkan sebagai **Aspose.Words.Android.Java.lic** di Windows Explorer. Sepertinya nama file yang diharapkan. Jika Anda memanggil `License.SetLicense` dan lulus ' Aspose.Words.Android.Java.lic', Anda akan melihat dan pengecualian karena tidak ada file seperti itu.
 
-Untuk memecahkan masalah, mengubah nama file untuk menghapus ekstensi .xml yang tidak terlihat. Kami merekomendasikan bahwa Anda menonaktifkan opsi "hide ekstensi" di Microsoft WindowsSitemap
+Untuk mengatasi masalah tersebut, ganti nama file menjadi hapus yang tidak terlihat .ekstensi xml. Kami menyarankan Anda menonaktifkan opsi "sembunyikan ekstensi" di Microsoft Windows.
 
 ## Menggunakan Beberapa Produk Aspose
 
-Jika Anda menggunakan beberapa produk Aspose dalam aplikasi, misalnya Aspose.Words Login `Aspose.Cells`, Berikut adalah beberapa tips yang berguna.
+Jika Anda menggunakan beberapa produk Aspose dalam sebuah aplikasi, misalnya Aspose.Words dan `Aspose.Cells`, berikut adalah beberapa tip berguna.
 
-- Mengatur lisensi untuk setiap produk Aspose secara terpisah.
-  Bahkan jika Anda memiliki file lisensi tunggal untuk semua komponen, misalnya 'Aspose. SitemapAndroidSitemapJava.lic', Anda masih perlu memanggil Meme it `License.SetLicense` metode secara terpisah untuk setiap produk Aspose.
-- Gunakan nama kelas Lisensi sepenuhnya berkualitas.
-  Sitemap Produk aspose memiliki produk `License` kelas di ruang namanya. Sitemap Aspose.Words com.aspose.words. Lisensi dan `Aspose.Cells` com.aspose.cells. Kelas lisensi. Menggunakan nama kelas yang memenuhi syarat memungkinkan Anda untuk menghindari kebingungan tentang lisensi mana yang diterapkan pada produk mana.
+- Tetapkan lisensi untuk setiap produk Aspose secara terpisah.
+  Meskipun Anda memiliki satu file lisensi untuk semua komponen, misalnya 'Aspose.Total.Android.Java.lic', Anda masih perlu memanggil metode `License.SetLicense` secara terpisah untuk setiap produk Aspose.
+- Gunakan nama kelas Lisensi yang memenuhi syarat.
+  Setiap produk Aspose memiliki kelas `License` di namespace-nya. Misalnya, Aspose.Words memiliki com.aspose.kata-kata.Lisensi dan `Aspose.Cells` memiliki com.aspose.sel.Kelas lisensi. Menggunakan nama kelas fullyqualified memungkinkan Anda menghindari kebingungan tentang lisensi mana yang diterapkan pada produk mana.

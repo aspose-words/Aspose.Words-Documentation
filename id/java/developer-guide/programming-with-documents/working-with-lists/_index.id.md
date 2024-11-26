@@ -1,56 +1,56 @@
----
-title: Bekerja dengan Daftar di Java
-second_title: Aspose.Words Sitemap Java
+﻿---
+title: Bekerja dengan Daftar dalam Java
+second_title: Aspose.Words untuk Java
 articleTitle: Bekerja dengan Daftar
 linktitle: Bekerja dengan Daftar
-description: "Pengantar untuk menghitung fitur format dalam Aspose.Words Sitemap JavaSitemap"
+description: "Pengantar fitur pemformatan penomoran di Aspose.Words untuk Java."
 type: docs
 weight: 200
 url: /id/java/working-with-lists/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Daftar dalam daftar Microsoft Word dokumen adalah set properti format daftar. Daftar dapat digunakan dalam dokumen Anda untuk format, mengatur, dan menekankan teks. Daftar adalah cara yang bagus untuk mengatur data dalam dokumen, dan mereka memudahkan pembaca untuk memahami poin kunci.
+Daftar dalam dokumen Microsoft Word adalah sekumpulan properti pemformatan daftar. Daftar dapat digunakan dalam dokumen Anda untuk memformat, mengatur, dan menekankan teks. Daftar adalah cara yang bagus untuk mengatur data dalam dokumen, dan memudahkan pembaca untuk memahami poin-poin penting.
 
-Setiap daftar dapat memiliki hingga 9 tingkat dan memformat properti, seperti gaya nomor, mulai nilai, indent, posisi tab, dan yang lain didefinisikan secara terpisah untuk setiap tingkat.
+Setiap daftar dapat memiliki hingga 9 level dan properti pemformatan, seperti gaya angka, nilai awal, indentasi, posisi tab, dan lainnya ditentukan secara terpisah untuk setiap level.
 
-Artikel ini menjelaskan programmatically bekerja dengan daftar yang menggunakan Aspose.WordsSitemap
+Artikel ini menjelaskan cara bekerja secara terprogram dengan daftar menggunakan Aspose.Words.
 
-## Membuat Daftar dengan Menerapkan Format Daftar
+## Membuat Daftar dengan Menerapkan Pemformatan Daftar
 
-Aspose.Words memungkinkan pembuatan daftar yang mudah dengan menerapkan format daftar. [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) Sitemap [ListFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getListFormat) properti yang mengembalikan **ListFormat** Sitemap Objek ini memiliki beberapa metode untuk memulai dan mengakhiri daftar dan untuk meningkatkan / mengurangi indent. Ada dua jenis daftar umum dalam Microsoft Word: buletin dan bernomor:
+Aspose.Words memungkinkan pembuatan daftar dengan mudah dengan menerapkan pemformatan daftar. [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) menyediakan properti [ListFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getListFormat) yang mengembalikan objek **ListFormat**. Objek ini memiliki beberapa metode untuk memulai dan mengakhiri daftar dan untuk menambah / mengurangi indentasi. Ada dua jenis daftar umum dalam Microsoft Word: berpoin dan bernomor:
 
-- Untuk memulai daftar yang dipeluru, panggilan [ListFormat.ApplyBulletDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat/#applyBulletDefault)
-- Untuk memulai daftar nomor, panggilan [ListFormat.ApplyNumberDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat/#applyNumberDefault)
+- Untuk memulai daftar berpoin, panggil [ListFormat.ApplyBulletDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat/#applyBulletDefault)
+- Untuk memulai daftar bernomor, panggil [ListFormat.ApplyNumberDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat/#applyNumberDefault)
 
-Bullet atau nomor dan format ditambahkan ke paragraf saat ini dan semua paragraf lebih lanjut yang dibuat menggunakan **DocumentBuilder** Sitemap [RemoveNumbers](https://reference.aspose.com/words/java/com.aspose.words/listformat/#removeNumbers) disebut untuk menghentikan format daftar yang dipeluru.
+Poin atau angka dan pemformatan ditambahkan ke paragraf saat ini dan semua paragraf selanjutnya dibuat menggunakan **DocumentBuilder** hingga [RemoveNumbers](https://reference.aspose.com/words/java/com.aspose.words/listformat/#removeNumbers) dipanggil untuk menghentikan pemformatan daftar berpoin.
 
-Dalam dokumen Word, daftar dapat terdiri dari hingga sembilan tingkat. Daftar format untuk setiap tingkat menentukan apa peluru atau nomor digunakan, meninggalkan indent, ruang antara peluru dan teks dll. Metode berikut mengubah tingkat daftar dan menerapkan sifat pemformatan tingkat baru:
+Dalam dokumen Word, daftar dapat terdiri dari hingga sembilan level. Pemformatan daftar untuk setiap level menentukan poin atau angka apa yang digunakan, indentasi kiri, spasi antara poin dan teks, dll. Metode berikut mengubah level daftar dan menerapkan properti pemformatan level baru:
 
-- Login Untuk meningkatkan tingkat daftar paragraf saat ini dengan satu tingkat, panggilan [ListFormat.ListIndent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listIndent)
-- Login Untuk menurunkan tingkat daftar paragraf saat ini dengan satu tingkat, panggilan [ListFormat.ListOutdent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listOutdent)
+- Untuk meningkatkan level daftar paragraf saat ini sebanyak satu level, panggil [ListFormat.ListIndent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listIndent)
+- Untuk mengurangi level daftar paragraf saat ini sebanyak satu level, panggil [ListFormat.ListOutdent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listOutdent)
 
-Metode mengubah tingkat daftar dan menerapkan sifat pemformatan tingkat baru.
+Metode mengubah level daftar dan menerapkan properti pemformatan level baru.
 
 {{% alert color="primary" %}}
 
-Anda juga dapat menggunakan [ListLevelNumber](https://reference.aspose.com/words/java/com.aspose.words/listformat/#getListLevelNumber) properti untuk mendapatkan atau mengatur tingkat daftar untuk paragraf. Tingkat daftar dihitung 0 hingga 8.
+Anda juga dapat menggunakan properti [ListLevelNumber](https://reference.aspose.com/words/java/com.aspose.words/listformat/#getListLevelNumber) untuk mendapatkan atau menyetel level daftar untuk paragraf. Level daftar diberi nomor 0 hingga 8.
 
 {{% /alert %}}
 
-Contoh kode berikut menunjukkan cara membangun daftar multilevel:
+Contoh kode berikut menunjukkan cara membuat daftar bertingkat:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetMultilevelListFormatting-DocumentBuilderSetMultilevelListFormatting.java" >}}
 
-## Tentukan Format untuk Tingkat Daftar
+## Tentukan Pemformatan untuk Tingkat Daftar
 
-Daftar objek tingkat dibuat secara otomatis ketika daftar dibuat. Gunakan sifat dan metode [ListLevel](https://reference.aspose.com/words/java/com.aspose.words/listlevel/) kelas untuk mengontrol format tingkat individu dari daftar.
+Objek tingkat daftar dibuat secara otomatis saat daftar dibuat. Gunakan properti dan metode kelas [ListLevel](https://reference.aspose.com/words/java/com.aspose.words/listlevel/) untuk mengontrol pemformatan setiap level daftar.
 
-## Daftar Restart untuk setiap Bagian
+## Mulai ulang Daftar untuk setiap Bagian
 
-Anda dapat me-restart daftar untuk setiap bagian menggunakan [IsRestartAtEachSection](https://reference.aspose.com/words/java/com.aspose.words/list/#isRestartAtEachSection) Login Perhatikan bahwa opsi ini didukung hanya dalam format dokumen RTF, DOC dan DOCX. Opsi ini akan ditulis ke DOCX hanya jika OoxmlKomliance lebih tinggi maka Ecma376.
+Anda dapat memulai ulang daftar untuk setiap bagian menggunakan properti [IsRestartAtEachSection](https://reference.aspose.com/words/java/com.aspose.words/list/#isRestartAtEachSection). Perhatikan bahwa opsi ini hanya didukung dalam format dokumen RTF, DOC, dan DOCX. Opsi ini akan ditulis ke DOCX hanya jika OoxmlCompliance lebih tinggi dari Ecma376.
 
-Contoh kode berikut menunjukkan cara membuat daftar dan restart untuk setiap bagian:
+Contoh kode berikut menunjukkan cara membuat daftar dan memulai ulang untuk setiap bagian:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Lists-WorkingWithList-SetRestartAtEachSection.java" >}}
 

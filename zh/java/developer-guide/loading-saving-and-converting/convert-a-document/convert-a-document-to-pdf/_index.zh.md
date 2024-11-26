@@ -1,86 +1,86 @@
----
-title: 将文档转换为 PDF Java
-second_title: "Aspose.Words (单位:千美元) Java"
-articleTitle: 将文档转换为 PDF
-linktitle: 将文档转换为 PDF
-description: "将 Word 或其他任何支持格式的文档转换为 PDF, 它保留文档在使用各种平台渲染时的原始外观 Java。 。 。 。"
+﻿---
+title: 将文档转换为Java中的PDF
+second_title: Aspose.Words为Java
+articleTitle: 将文档转换为PDF
+linktitle: 将文档转换为PDF
+description: "将Word或任何其他支持的格式的文档转换为PDF，这会在使用Java在各种平台上呈现文档时保留文档的原始外观。"
 type: docs
 weight: 10
 url: /zh/java/convert-a-document-to-pdf/
 timestamp: 2024-01-31-14-23-37
 ---
 
-将文档从一种格式简单可靠地转换到另一种格式的能力是: Aspose.Words。 。 。 最受欢迎的转换格式之一是PDF – 一种固定放行格式,它保留了文档在各种平台渲染时的原始外观. "放弃"一词用于: Aspose.Words 来描述将文档转换成一个文件格式的过程,该格式是加成的或具有页面概念的。
+能够轻松可靠地将文档从一种格式转换为另一种格式是Aspose.Words的一个关键特性。 最流行的转换格式之一是PDF–一种固定布局格式，它在各种平台上呈现时保留文档的原始外观。 在Aspose.Words中使用"呈现"术语来描述将文档转换为分页或具有页面概念的文件格式的过程。
 
-## 将单词文档转换为 PDF {#convert-a-word-document-to-pdf}
+## 将Word文档转换为PDF {#convert-a-word-document-to-pdf}
 
-从Word转换为PDF是一个相当复杂的过程,需要几个阶段的计算. Aspose.Words 布局引擎模仿方式 Microsoft Word页面布局引擎工作,使 PDF 输出文档尽可能接近您可以看到的内容 Microsoft Word。 。 。 。
+从Word到PDF的转换是一个相当复杂的过程，需要几个阶段的计算。 Aspose.Words布局引擎模仿Microsoft Word的页面布局引擎的工作方式，使PDF输出文档看起来尽可能接近您在Microsoft Word中看到的内容。
 
-与 Aspose.Words 您可以在程序上将文档从 DOC 格式或 DOCX 格式转换为 PDF 格式,而不使用 Microsoft 办公室 本条解释了如何进行这种转换。
+使用Aspose.Words，您可以以编程方式将文档从DOC或DOCX格式转换为PDF，而无需使用MicrosoftOffice。 本文介绍如何执行此转换。
 
 {{% alert color="primary" %}}
 
-注意文件的页数影响转换时间。
+请注意，文档中的页数会影响转换时间。
 
 {{% /alert %}}
 
-### 将 DOCX 或 DOC 转换为 PDF {#converting-doc-or-docx-to-pdf}
+### 将DOCX或DOC转换为PDF {#converting-doc-or-docx-to-pdf}
 
-从 DOC 或 DOCX 文档格式转换为 PDF 格式 Aspose.Words 很容易,只要两行代码就可以做到:
+从DOC或DOCX文档格式转换为Aspose.Words中的PDF格式非常容易，只需两行代码即可完成:
 
-一、导 言 将文档装入 [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) 对象通过指定文档名称及其格式扩展名来使用其构建器之一。
-一、导 言 发射一个 [Document.Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String-int) 方法 **Document** 对象,并通过输入带有".PDF"扩展名的文件名,将想要的输出格式指定为 PDF。
+1. 通过指定文档名称及其格式扩展名，使用其构造函数之一将文档加载到[Document](https://reference.aspose.com/words/java/com.aspose.words/document/)对象中。
+1. 调用**Document**对象上的[Document.Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String-int)方法之一，并通过输入带有"的文件名将所需的输出格式指定为PDF。PDF"扩展。
 
-以下代码示例显示如何使用 DOCX 将文档转换为 PDF `Save` 方法:
+下面的代码示例演示如何使用`Save`方法将文档从DOCX转换为PDF:
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "docx-to-pdf.java" >}}
 
-您可以下载此示例的模板文件 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/com/aspose/words/examples/loading_saving/ConvertImageToPdf/Template.doc)。 。 。 。
+您可以从以下位置下载此示例的模板文件 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/com/aspose/words/examples/loading_saving/ConvertImageToPdf/Template.doc).
 
 {{% alert color="primary" %}}
 
-有时需要指定额外的选项,这可能影响将文档保存为PDF的结果. 这些选项可以通过使用 [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) 类,包含决定如何显示 PDF 输出的属性。
+有时需要指定其他选项，这可能会影响将文档保存为PDF的结果。 这些选项可以通过使用[PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/)类来指定，其中包含确定如何显示PDF输出的属性。
 
-注意,使用同样的技术,可以将任何流线显示格式文档转换为PDF格式.
+请注意，使用相同的技术，您可以将任何流布局格式文档转换为PDF格式。
 
 {{% /alert %}}
 
-### 转换为不同的 PDF 标准 {#converting-to-various-pdf-standards}
+### 转换为不同的PDF标准 {#converting-to-various-pdf-standards}
 
-Aspose.Words 提供 [压缩](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)用于支持将DOC或DOCX转换为各种PDF格式标准(如PDF 1.7,PDF 1.5等)的点数.
+Aspose.Words提供[PdfCompliace](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)枚举以支持将DOC或DOCX转换为各种PDF格式标准（例如PDF 1.7, PDF 1.5, 等。).
 
-以下代码示例演示如何使用 PDF 1.7 转换文档 [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) 遵守PDF17:
+下面的代码示例演示如何使用符合PDF17的[PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/)将文档转换为PDF1.7:
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "conversion-to-pdf17.java" >}}
 
-## 将图像转换为 PDF
+## 将图像转换为PDF
 
-转换为 PDF 不受限制 Microsoft Word 文档格式。 由 Aspose.Words, 也可以转换为PDF。 例如,我们可以将JPEG,PNG,BMP,EMF,或WMF等单页图像以及TIFF和GIF等多页图像转换为PDF.
+转换为PDF不受Microsoft Word文档格式的限制。 Aspose.Words支持的任何格式，包括以编程方式创建的格式，也可以转换为PDF。 例如，我们可以转换单页图像，例如JPEG, PNG, BMP, EMF, 或WMF，以及多页图像，例如TIFF和GIF，到PDF。
 
-以下代码示例显示如何将 JPEG 和 TIFF 图像转换为 PDF:
+下面的代码示例演示如何将JPEG和TIFF图像转换为PDF:
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "image-to-pdf.java" >}}
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "convert-image-to-pdf.java" >}}
 
-要让这个代码发挥作用,你需要添加引用到 Aspose.Words, Java..awt.image,和javax。 。 。 图像类软件包到您的项目 。
+要使此代码工作，您需要添加对Aspose.Words，Java的引用。啊图像，和javax。imageio类包到您的项目。
 
-## 减少 PDF 输出大小
+## 减小PDF输出大小
 
-在保存到 PDF 时, 您可以指定您是否想要优化输出 。 要做到这一点,你需要设置 [OptimizeOutput](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/#getOptimizeOutput) 标记改为 true, 然后多余的嵌入式画布和空画布将被移除,邻居 glyphs 格式相同,将进行调制。
+保存到PDF时，可以指定是否要优化输出。 为此，您需要将[OptimizeOutput](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/#getOptimizeOutput)标志设置为true，然后将删除冗余嵌套画布和空画布，并连接具有相同格式的相邻字形。
 
-以下代码示例显示如何优化输出:
+下面的代码示例演示如何优化输出:
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "optimize-output.java" >}}
 
 {{% alert color="primary" %}}
 
-使用 **OptimizeOutput** 属性可能影响内容显示的准确性。
+使用**OptimizeOutput**属性可能会影响内容显示的准确性。
 
 {{% /alert %}}
 
-## 另见
+## 请参阅
 
-- 这篇文章 [渲染](/words/zh/java/rendering/) 需要更多关于固定页和流程显示格式的信息
-- 这篇文章 [转换为固定页面格式](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) 关于页面布局的更多信息
-- 这篇文章 [++ PDF-154+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++](/words/zh/java/specify-rendering-options-when-converting-to-pdf/) 获取更多关于使用 `PdfSaveOptions` 类
+- 文章 [渲染图](/words/java/rendering/) 有关固定页面和流布局格式的更多信息
+- 文章 [转换为固定页格式](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) 有关页面布局的更多信息
+- 文章 [转换为PDF时指定渲染选项](/words/java/specify-rendering-options-when-converting-to-pdf/) 有关使用`PdfSaveOptions`类的更多信息

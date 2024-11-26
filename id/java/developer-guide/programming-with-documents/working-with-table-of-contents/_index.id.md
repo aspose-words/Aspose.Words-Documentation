@@ -1,217 +1,154 @@
----
-title: Bekerja dengan Tabel Konten di Java
-second_title: Aspose.Words Sitemap Java
-articleTitle: Bekerja dengan Tabel Konten
-linktitle: Bekerja dengan Tabel Konten
-description: "Tabel kolom Konten dalam rincian. Cara membuat dan memodifikasi `TOC` kolom menggunakan JavaSitemap"
+﻿---
+title: Bekerja dengan Daftar Isi dalam Java
+second_title: Aspose.Words untuk Java
+articleTitle: Bekerja dengan Daftar Isi
+linktitle: Bekerja dengan Daftar Isi
+description: "Daftar Isi bidang secara detail. Cara membuat dan memodifikasi bidang `TOC` menggunakan Java."
 type: docs
 weight: 170
 url: /id/java/working-with-table-of-contents/
 timestamp: 2024-10-21-11-17-44
 ---
 
-Seringkali Anda akan bekerja dengan dokumen yang mengandung tabel konten (TOC). Sitemap Aspose.Words Anda dapat memasukkan tabel konten Anda sendiri atau sepenuhnya membangun kembali tabel konten yang ada dalam dokumen hanya menggunakan beberapa baris kode.
+Seringkali Anda akan bekerja dengan dokumen yang berisi daftar isi (TOC). Menggunakan Aspose.Words Anda dapat menyisipkan daftar isi Anda sendiri atau sepenuhnya membangun kembali daftar isi yang ada dalam dokumen hanya dengan menggunakan beberapa baris kode.
 
-Artikel ini menguraikan cara bekerja dengan tabel bidang konten dan menunjukkan:
+Artikel ini menguraikan cara bekerja dengan bidang daftar isi dan mendemonstrasikan:
 
-- Bagaimana cara memasukkan TOC baru.
-- Memperbarui TOC baru atau yang ada dalam dokumen.
-- Tentukan beralih untuk mengontrol pemformatan dan struktur keseluruhan TOC.
-- Bagaimana cara memodifikasi gaya dan penampilan tabel konten.
-- Bagaimana cara menghapus seluruh `TOC` lapangan bersama dengan semua entri dari dokumen.
+- Cara menyisipkan TOC yang baru.
+- Perbarui TOCs baru atau yang sudah ada dalam dokumen.
+- Tentukan sakelar untuk mengontrol pemformatan dan struktur keseluruhan TOC.
+- Cara memodifikasi gaya dan tampilan daftar isi.
+- Cara menghapus seluruh bidang `TOC` bersama dengan semua entri dari dokumen.
 
-## Masukkan Tabel Konten Secara Program
+## Sisipkan Daftar Isi Secara Terprogram
 
-Anda dapat memasukkan `TOC` (table of contents) ke dalam dokumen pada posisi saat ini dengan memanggil [InsertTableOfContents](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertTableOfContents-java.lang.String) Login
+Anda dapat menyisipkan bidang `TOC` (daftar isi) ke dalam dokumen pada posisi saat ini dengan memanggil metode [InsertTableOfContents](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertTableOfContents-java.lang.String).
 
-Meja konten dalam dokumen Word dapat dibangun dalam beberapa cara dan diformat menggunakan berbagai pilihan. Bidang beralih bahwa Anda melewati metode mengontrol cara tabel dibangun dan ditampilkan dalam dokumen Anda.
+Daftar isi dalam dokumen Word dapat dibuat dengan beberapa cara dan diformat menggunakan berbagai opsi. Sakelar bidang yang Anda berikan ke metode mengontrol cara tabel dibuat dan ditampilkan di dokumen Anda.
 
-Switch default yang digunakan dalam `TOC` login Microsoft Word Sitemap **""\o "1-3 \h \z \u"**Sitemap Deskripsi switch ini serta daftar switch yang didukung dapat ditemukan nanti dalam artikel. Anda dapat menggunakan panduan untuk mendapatkan sakelar yang benar atau jika Anda sudah memiliki dokumen yang mengandung serupa `TOC` Anda ingin Anda dapat menunjukkan kode lapangan (*ALT + F9 *) dan menyalin sakelar langsung dari lapangan.
+Sakelar default yang digunakan dalam `TOC` yang disisipkan dalam Microsoft Word adalah **"\o "1-3 \h \z \u"**. Deskripsi sakelar ini serta daftar sakelar yang didukung dapat ditemukan nanti di artikel. Anda dapat menggunakan panduan itu untuk mendapatkan sakelar yang benar atau jika Anda sudah memiliki dokumen yang berisi `TOC` serupa yang Anda inginkan, Anda dapat menampilkan kode bidang (*ALT+F9*) dan menyalin sakelar langsung dari bidang.
 
-Contoh kode berikut menunjukkan cara memasukkan tabel kolom Konten ke dalam dokumen:
+Contoh kode berikut menunjukkan cara menyisipkan bidang Daftar Isi ke dalam dokumen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-InsertATableOfContentsField.java" >}}
 
-Contoh kode berikut menunjukkan cara memasukkan tabel konten (TOC) ke dalam dokumen menggunakan gaya judul sebagai entri:
+Contoh kode berikut mendemonstrasikan cara menyisipkan Daftar isi (TOC) ke dalam dokumen menggunakan gaya judul sebagai entri:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsUsingHeadingStyles-InsertATableOfContentsUsingHeadingStyles.java" >}}
 
-Kode menunjukkan tabel konten baru dimasukkan ke dalam dokumen kosong. Login [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) kelas kemudian digunakan untuk memasukkan beberapa format konten sampel dengan gaya judul yang sesuai yang digunakan untuk menandai konten yang disertakan dalam TOC. Garis berikutnya kemudian mengisi `TOC` dengan memperbarui bidang dan tata letak halaman dokumen.
+Kode tersebut mendemonstrasikan daftar isi baru yang disisipkan ke dalam dokumen kosong. Kelas [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) kemudian digunakan untuk menyisipkan beberapa contoh pemformatan konten dengan gaya heading yang sesuai yang digunakan untuk menandai konten yang akan disertakan dalam TOC. Baris berikutnya kemudian mengisi `TOC` dengan memperbarui bidang dan tata letak halaman dokumen.
 
 ![insert-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-1.png)
 
 {{% alert color="primary" %}}
 
-Tanpa metode yang digunakan dalam contoh, ketika Anda membuka dokumen output, Anda akan menemukan `TOC` lapangan, tetapi tanpa konten yang terlihat. Ini karena `TOC` lapangan telah dimasukkan tetapi belum diisi sampai diperbarui dalam dokumen. Informasi lebih lanjut tentang ini dibahas di bagian berikutnya.
+Tanpa metode yang digunakan dalam contoh, saat Anda membuka dokumen keluaran, Anda akan menemukan bidang `TOC`, tetapi tanpa konten yang terlihat. Ini karena bidang `TOC` telah disisipkan tetapi belum diisi hingga diperbarui dalam dokumen. Informasi lebih lanjut tentang ini dibahas di bagian selanjutnya.
 
 {{% /alert %}}
 
-## Memperbarui Tabel Konten
+## Perbarui Daftar Isi
 
-Aspose.Words memungkinkan Anda untuk sepenuhnya memperbarui `TOC` hanya dengan beberapa baris kode. Ini dapat dilakukan untuk mengisi sisipan baru `TOC` atau untuk memperbarui yang ada `TOC` setelah perubahan dokumen telah dibuat.
+Aspose.Words memungkinkan Anda memperbarui `TOC` sepenuhnya hanya dengan beberapa baris kode. Ini dapat dilakukan untuk mengisi `TOC` yang baru disisipkan atau memperbarui `TOC` yang sudah ada setelah perubahan pada dokumen dilakukan.
 
-Dua metode berikut harus digunakan untuk memperbarui `TOC` kolom dalam dokumen:
+Dua metode berikut harus digunakan untuk memperbarui bidang `TOC` dalam dokumen:
 
 1. [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/Document#updateFields())
 1. [Document.updatePageLayout()](https://reference.aspose.com/words/java/com.aspose.words/Document#updatePageLayout())
 
-Harap dicatat bahwa dua metode pembaruan ini diperlukan untuk disebut dalam urutan itu. Jika membalikkan tabel konten akan diisi tetapi tidak ada nomor halaman akan ditampilkan. Jumlah TOC yang berbeda dapat diperbarui. Metode ini akan secara otomatis memperbarui semua TOC yang ditemukan dalam dokumen.
+Harap dicatat bahwa kedua metode pembaruan ini harus dipanggil dalam urutan itu. Jika dibalik, daftar isi akan diisi tetapi tidak ada nomor halaman yang akan ditampilkan. Sejumlah TOCs yang berbeda dapat diperbarui. Metode ini akan secara otomatis memperbarui semua TOCs yang ditemukan dalam dokumen.
 
-Contoh kode berikut menunjukkan cara membangun kembali sepenuhnya `TOC` bidang dalam dokumen dengan memprovokasi pembaruan lapangan:
+Contoh kode berikut menunjukkan cara membangun kembali bidang `TOC` sepenuhnya dalam dokumen dengan menjalankan pembaruan bidang:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-UpdateTableOfContents.java" >}}
 
-Panggilan pertama [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) akan membangun `TOC`Sitemap semua entri teks diisi dan Meme it `TOC` muncul hampir lengkap. Satu-satunya hal yang hilang adalah nomor halaman yang sekarang ditampilkan dengan "?".
+Panggilan pertama ke [Document.updateFields()](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) akan membuat `TOC`, semua entri teks terisi dan `TOC` tampak hampir selesai. Satu-satunya hal yang hilang adalah nomor halaman yang untuk saat ini ditampilkan dengan "?".
 
-Panggilan kedua [Document.updatePageLayout()](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout) akan membangun tata letak dokumen dalam memori. Perlu dilakukan untuk mengumpulkan nomor halaman entri. Jumlah halaman yang benar dihitung dari panggilan ini kemudian dimasukkan ke dalam TOC.
+Panggilan kedua ke [Document.updatePageLayout()](https://reference.aspose.com/words/java/com.aspose.words/document/#updatePageLayout) akan membuat tata letak dokumen dalam memori. Ini perlu dilakukan untuk mengumpulkan nomor halaman entri. Nomor halaman yang benar yang dihitung dari pemanggilan ini kemudian dimasukkan ke dalam TOC.
 
-## Gunakan Switch untuk Mengontrol Tabel Konten Perilaku
+## Gunakan Sakelar untuk Mengontrol Perilaku Daftar Isi
 
-Seperti di bidang lain, Meme it `TOC` bidang dapat menerima switch didefinisikan dalam kode lapangan yang mengontrol bagaimana tabel konten dibangun. Sakelar tertentu digunakan untuk mengontrol entri yang disertakan dan pada tingkat apa sementara yang lain digunakan untuk mengontrol tampilan TOC. Saklar dapat digabungkan bersama untuk memungkinkan tabel konten yang kompleks untuk diproduksi.
+Seperti bidang lainnya, bidang `TOC` dapat menerima sakelar yang ditentukan dalam kode bidang yang mengontrol bagaimana daftar isi dibuat. Sakelar tertentu digunakan untuk mengontrol entri mana yang disertakan dan pada level apa sementara sakelar lain digunakan untuk mengontrol tampilan TOC. Sakelar dapat digabungkan bersama untuk memungkinkan pembuatan daftar isi yang kompleks.
 
 ![ccontrol-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-2.png)
 
 
-Secara default, switch ini di atas disertakan ketika memasukkan default `TOC` dalam dokumen. Login `TOC` tanpa switch akan menyertakan konten dari gaya judul bawaan (seperti jika sakelar \O ditetapkan).
+Secara default, sakelar di atas ini disertakan saat menyisipkan `TOC` default dalam dokumen. A `TOC` tanpa sakelar akan menyertakan konten dari gaya heading bawaan (seolah-olah sakelar \O disetel).
 
-Sitemap `TOC` beralih yang didukung oleh Aspose.Words tercantum di bawah ini dan penggunaannya dijelaskan secara rinci. Mereka dapat dibagi menjadi bagian terpisah berdasarkan jenis mereka. Sakelar di bagian pertama menentukan konten apa yang disertakan dalam `TOC` dan sakelar di bagian kedua mengontrol penampilan TOC.
+Sakelar `TOC` yang tersedia yang didukung oleh Aspose.Words tercantum di bawah ini dan penggunaannya dijelaskan secara rinci. Mereka dapat dibagi menjadi beberapa bagian terpisah berdasarkan jenisnya. Sakelar di bagian pertama menentukan konten apa yang akan disertakan dalam `TOC` dan sakelar di bagian kedua mengontrol tampilan TOC.
 
-Jika switch tidak terdaftar di sini maka saat ini tidak didukung. Semua switch akan didukung dalam versi masa depan. Kami menambahkan dukungan lebih lanjut untuk setiap rilis.
+Jika sakelar tidak tercantum di sini, maka sakelar tersebut saat ini tidak didukung. Semua sakelar akan didukung di versi mendatang. Kami menambahkan dukungan lebih lanjut untuk setiap rilis.
 
-### Login
+### Sakelar Penandaan Entri
 
-|  Login | Sitemap |
-|  :-  |  :-  |
-| **Heading Styles** <br/> *(\O Switch)* <br/> | <p>Switch ini mendefinisikan bahwa `TOC` harus dibangun dari gaya kepala built-in. Sitemap Microsoft Word, ini didefinisikan oleh Heading 1 – Heading 9. Dalam Aspose.Words gaya ini diwakili oleh numerasi StyleIdentifier yang sesuai. Enumerasi ini mewakili pengidentifikasi gaya lokal, misalnya, `StyleIdentifier.Heading1` mewakili gaya Heading 1. Menggunakan ini, format dan sifat gaya dapat diambil dari koleksi Style dokumen. Kelas Gaya yang sesuai dapat diambil dari `Document.Styles` koleksi dengan menggunakan properti terindeks dari tipe StyleIdentifier.</p>
+| Beralih | Deskripsi |
+| :- | :- |
+| **Heading Styles** <br>* (\O Beralih)* <br> | <p>Sakelar ini menentukan bahwa `TOC` harus dibuat dari gaya heading bawaan. Dalam Microsoft Word, ini didefinisikan oleh Heading 1 - Heading 9. Dalam Aspose.Words gaya ini diwakili oleh pencacahan StyleIdentifier yang sesuai. Pencacahan ini mewakili pengidentifikasi gaya yang tidak bergantung pada lokal, misalnya, `StyleIdentifier.Heading1` mewakili gaya Heading 1. Dengan menggunakan ini, pemformatan dan properti gaya dapat diambil dari kumpulan Gaya dokumen. Kelas Gaya yang sesuai dapat diambil dari koleksi `Document.Styles` dengan menggunakan properti terindeks dari tipe StyleIdentifier.</p><p>![style-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-3.png)</p><p><br><br>Konten apa pun yang diformat dengan gaya ini disertakan dalam daftar isi. Level heading akan menentukan level hierarki entri yang sesuai di TOC. Misalnya, paragraf dengan gaya Heading 1 akan diperlakukan sebagai level pertama dalam `TOC` sedangkan paragraf dengan Heading 2 akan diperlakukan sebagai level berikutnya dalam hierarki dan seterusnya.</p> |
+| **Outline Levels** <br>* (\U beralih)* <br> | <p>Setiap paragraf dapat menentukan tingkat kerangka di bawah opsi Paragraf.</p><p>![modify-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-4.png)</p><p><br><br>Pengaturan ini menentukan level mana paragraf ini harus diperlakukan dalam hierarki dokumen. Ini adalah praktik yang umum digunakan untuk menyusun tata letak dokumen dengan mudah. Hierarki ini dapat dilihat dengan mengubah ke Tampilan Garis Besar di Microsoft Word. Mirip dengan gaya heading, mungkin ada 1 – 9 level outline selain level "Teks Isi". Garis besar level 1-9 akan muncul di `TOC` di level hierarki yang sesuai <br>Konten apa pun dengan tingkat kerangka baik yang diatur dalam gaya paragraf atau langsung pada paragraf itu sendiri disertakan dalam TOC. Dalam Aspose.Words level garis besar diwakili oleh properti `ParagraphFormat.OutlineLevel` dari simpul Paragraf. Tingkat garis besar gaya paragraf direpresentasikan dengan cara yang sama oleh properti `Style.ParagraphFormat`.</p><p>{{% alert color="primary" %}}</p><p>Perhatikan bahwa gaya heading bawaan seperti Heading 1 memiliki tingkat kerangka wajib yang ditetapkan dalam pengaturan gaya.</p><p>{{% /alert %}}</p> |
+| **Custom Styles** <br>* (\T beralih)* <br> | <p>Sakelar ini akan memungkinkan gaya khusus digunakan saat mengumpulkan entri untuk digunakan di TOC. Ini sering digunakan bersama dengan sakelar \O untuk menyertakan gaya khusus bersama dengan gaya heading bawaan di TOC. <br>Parameter sakelar harus diapit dalam tanda ucapan. Banyak gaya khusus dapat disertakan, untuk setiap gaya, nama harus ditentukan diikuti dengan koma diikuti dengan level di mana gaya tersebut akan muncul di `TOC` as. Gaya selanjutnya juga dipisahkan dengan koma. <br>Misalnya</p><p>{{< highlight csharp >}}
+{ TOC \o "1-3" \t "CustomHeading1, 1,   CustomHeading2, 2"}{{< /highlight >}}</p><p>akan menggunakan konten yang ditata dengan CustomHeading1 sebagai konten level 1 di `TOC` dan CustomHeading2 sebagai level 2.</p> |
+| Gunakan Bidang TC <br>*(Sakelar\F dan \L)* <br> | <p>Dalam versi Microsoft Word yang lebih lama, satu-satunya cara untuk membuat `TOC` adalah dengan menggunakan bidang TC. Bidang-bidang ini disisipkan tersembunyi ke dalam dokumen meskipun kode bidang ditampilkan. Mereka menyertakan teks yang harus ditampilkan di entri dan `TOC` dibuat darinya. Fungsionalitas ini sekarang tidak terlalu sering digunakan tetapi mungkin masih berguna dalam beberapa kesempatan untuk menyertakan entri dalam `TOC` yang tidak menjorok agar terlihat dalam dokumen. <br>Saat disisipkan, bidang ini tampak tersembunyi meskipun kode bidang ditampilkan. Mereka tidak dapat dilihat tanpa menampilkan konten tersembunyi. Untuk melihat bidang ini Menampilkan pemformatan paragraf harus dipilih.</p><p>![setup-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-5.png)</p><p>Bidang-bidang ini dapat disisipkan ke dalam dokumen pada posisi apa pun seperti bidang lainnya dan diwakili oleh pencacahan `FieldType.FieldTOCEntry`.<br>Sakelar \F dalam `TOC` digunakan untuk menentukan bahwa bidang TC harus digunakan sebagai entri. Sakelar itu sendiri tanpa pengenal tambahan berarti bahwa bidang TC apa pun dalam dokumen akan disertakan. Parameter tambahan apa pun, seringkali satu huruf, akan menetapkan bahwa hanya bidang TC yang memiliki sakelar \f yang cocok yang akan disertakan dalam TOC. Misalnya *</p><p>{{< highlight csharp >}}
+{ TOC \f t }{{< /highlight >}}</p><p>hanya akan menyertakan bidang TC seperti</p><p>{{< highlight csharp >}}
+{ TC \f t }{{< /highlight >}}</p><p>Bidang `TOC` juga memiliki sakelar terkait, sakelar "\L " menetapkan bahwa hanya bidang TC dengan level dalam rentang yang ditentukan yang disertakan.</p><p>![table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-6.png)</p><p><br><br>Bidang `TC` itu sendiri juga dapat memiliki set sakelar `{several, multiple, a few, many, numerous}`. Ini adalah:</p><p>- \F - Dijelaskan di atas.*</p><p>- \L - Menentukan level mana di bidang `TOC` ini TC akan muncul. A `TOC` yang menggunakan sakelar yang sama ini hanya akan menyertakan bidang TC ini jika berada dalam rentang yang ditentukan.</p><p>- `_\N` - Penomoran halaman untuk entri `TOC` ini tidak ditampilkan. Contoh kode cara menyisipkan bidang TC dapat ditemukan di bagian selanjutnya.</p> |
 
-<p>![style-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-3.png)</p>
+### Sakelar Terkait Penampilan
 
-<p><br/><br/>Setiap konten yang diformat dengan gaya ini disertakan dalam tabel konten. Tingkat judul akan menentukan tingkat hirarkis yang sesuai dari entri di TOC. Misalnya, paragraf dengan judul 1 gaya akan diperlakukan sebagai tingkat pertama di `TOC` sedangkan paragraf dengan Heading 2 akan diperlakukan sebagai tingkat berikutnya dalam hirarki dan sebagainya.</p>
- |
-| **Outline Levels** <br/> *(\U switch)* <br/> | <p>Setiap paragraf dapat mendefinisikan tingkat garis besar di bawah opsi Paragraf.</p>
+| Beralih | Deskripsi |
+| :- | :- |
+| **Omit Page Numbers** <br>* (\N Beralih)* | <p>Sakelar ini digunakan untuk menyembunyikan nomor halaman untuk level tertentu dari TOC. Misalnya, Anda dapat menentukan</p><p>{{< highlight csharp >}}
+{TOC \o "1-4" \n "3-4" }{{< /highlight >}}</p><p>dan nomor halaman pada entri level 3 dan empat akan disembunyikan bersama dengan titik-titik pemimpin (jika ada). Untuk menentukan hanya satu level, rentang tetap harus digunakan, misalnya, "1-1" akan mengecualikan nomor halaman hanya untuk level pertama. <br>Tidak menyediakan rentang level akan menghilangkan nomor halaman untuk semua level di TOC. Ini berguna untuk disetel saat mengekspor dokumen ke HTML atau format serupa. Ini karena format berbasis HTML tidak memiliki konsep halaman apa pun dan karenanya tidak memerlukan penomoran halaman apa pun.</p><p>![table-of-contents-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-7.png)</p> |
+| Sisipkan sebagai hyperlink <br>* (\H Beralih)* | <p>Sakelar ini menetapkan bahwa entri `TOC` disisipkan sebagai hyperlink. Saat melihat dokumen di Microsoft Word, entri ini akan tetap muncul sebagai teks biasa di dalam `TOC` tetapi diberi hyperlink dan dengan demikian dapat digunakan untuk menavigasi ke posisi entri asli dalam dokumen dengan menggunakan *Ctrl + Left Click* di Microsoft Word. Saat sakelar ini disertakan, tautan ini juga disimpan dalam format lain. Misalnya, dalam format berbasis HTML termasuk EPUB dan format yang dirender seperti PDF dan XPS, ini akan diekspor sebagai tautan yang berfungsi. <br>Tanpa set sakelar ini, `TOC` di semua keluaran ini akan diekspor sebagai teks biasa dan tidak akan menunjukkan perilaku ini. Jika dokumen dibuka di MS Word teks entri juga tidak dapat diklik dengan cara ini, tetapi nomor halaman masih dapat digunakan untuk menavigasi ke entri asli.</p><p>![tree-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-8.png)</p> |
+| **Set Separator Character** <br>* (\P Beralih)* <br> | <p>Sakelar ini memungkinkan konten yang memisahkan judul entri dan penomoran halaman diubah dengan mudah di TOC. Pemisah yang akan digunakan harus ditentukan setelah sakelar ini dan diapit tanda ucapan. <br>Bertentangan dengan apa yang didokumentasikan dalam dokumentasi Office, hanya satu karakter yang dapat digunakan, bukan hingga lima. Ini berlaku untuk MS Word dan Aspose.Words. <br>Menggunakan sakelar ini tidak disarankan karena tidak memungkinkan banyak kontrol atas apa yang digunakan untuk memisahkan entri dan nomor halaman dalam TOC. Sebagai gantinya, disarankan untuk mengedit gaya `TOC` yang sesuai seperti `StyleIdentifier.TOC1` dan dari sana edit gaya pemimpin dengan akses ke anggota font tertentu, dll. Rincian lebih lanjut tentang cara melakukannya dapat ditemukan nanti di artikel.</p><p>![list-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-9.png)</p> |
+| **Preserve Tab Entries** <br>* (\W Beralih)* | <p>Menggunakan sakelar ini akan menentukan bahwa entri apa pun yang memiliki karakter tab, misalnya, judul yang memiliki tab di akhir baris, akan dipertahankan sebagai karakter tab yang tepat saat mengisi TOC. Ini berarti fungsi karakter tab akan ada di `TOC` dan dapat digunakan untuk memformat entri. Misalnya, entri tertentu dapat menggunakan penghentian tab dan karakter tab untuk memberi spasi pada teks secara merata. Selama level `TOC` yang sesuai menentukan penghentian tab yang setara, entri `TOC` yang dihasilkan akan muncul dengan spasi yang sama. <br><br>Dalam situasi yang sama jika sakelar ini tidak ditentukan maka karakter tab akan diubah menjadi setara spasi putih sebagai tab yang tidak berfungsi. Hasilnya kemudian tidak akan muncul seperti yang diharapkan.</p><p>![tab-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-10.png)</p> |
+| **Preserve New Line Entries** <br>* (\X Beralih)* <br> | <p>Mirip dengan sakelar di atas, sakelar ini menetapkan bahwa judul yang mencakup beberapa baris (menggunakan karakter baris baru, bukan paragraf terpisah) akan dipertahankan seperti pada TOC yang dihasilkan. Misalnya, judul yang akan tersebar di beberapa baris dapat menggunakan karakter baris baru (Ctrl + Enter atau `ControlChar.LineBreak`) untuk memisahkan konten di baris yang berbeda. Dengan sakelar ini ditentukan, entri dalam `TOC` akan mempertahankan karakter baris baru ini seperti yang ditunjukkan di bawah ini. <br><br>Dalam situasi ini, jika sakelar tidak ditentukan, maka karakter baris baru diubah menjadi satu spasi putih.</p><p>![tab-space-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-11.png)</p> |
 
-<p>![modify-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-4.png)</p>
+## Sisipkan Bidang TC
 
-<p><br/><br/>Pengaturan ini menentukan tingkat paragraf ini harus diobati dalam hierarki dokumen. Ini adalah praktik yang umum digunakan untuk dengan mudah mengatur tata letak dokumen. hierarki ini dapat dilihat dengan mengubah ke Outline View di Microsoft WordSitemap Mirip dengan gaya judul, bisa ada 1 – 9 tingkat garis samping tingkat "Body Text". Tingkat garis besar 1 – 9 akan muncul di `TOC` di tingkat hierarki yang sesuai <br/>Setiap konten dengan tingkat garis besar baik diatur dalam gaya paragraf atau langsung pada paragraf itu sendiri termasuk dalam TOC. Sitemap Aspose.Words tingkat garis besar diwakili oleh Meme it `ParagraphFormat.OutlineLevel` properti dari node Paragraf. Tingkat garis besar gaya paragraf diwakili dengan cara yang sama dengan `Style.ParagraphFormat` Login</p>
+Anda dapat menyisipkan bidang TC baru pada posisi `DocumentBuilder` saat ini dengan memanggil metode `DocumentBuilder.InsertField` dan menetapkan nama bidang sebagai "TC " bersama dengan sakelar apa pun yang diperlukan.
 
-<p>{{% alert color="primary" %}}</p>
-
-<p>Perhatikan bahwa gaya judul bawaan seperti Heading 1 memiliki set wajib tingkat garis besar dalam pengaturan gaya.</p>
-
-<p>{{% /alert %}}</p>
- |
-| **Custom Styles** <br/> *(\T switch)* <br/> | <p>Switch ini akan memungkinkan gaya kustom untuk digunakan ketika mengumpulkan entri untuk digunakan di TOC. Ini sering digunakan bersama dengan sakelar \ O untuk menyertakan gaya kustom bersama dengan gaya kepala built-in di TOC. <br/>Parameter switch harus ditutup dalam tanda pidato. Banyak gaya kustom dapat disertakan, untuk setiap gaya, nama harus ditentukan diikuti oleh komma diikuti oleh tingkat bahwa gaya harus muncul di `TOC` Sitemap Gaya lebih lanjut juga dipisahkan oleh komma juga. <br/>Sitemap</p>
-
-<p>{{< highlight csharp >}}
-{ TOC \o "1-3" \t "CustomHeading1, 1,   CustomHeading2, 2"}{{< /highlight >}}</p>
-
-<p>akan menggunakan konten dengan CustomHeading1 sebagai konten level 1 di `TOC` dan CustomHeading2 sebagai level 2.</p>
- |
-| Gunakan Bidang TC <br/> * (\F dan \ L Switches) * <br/> | <p>Dalam versi lama Microsoft Word, satu-satunya cara untuk membangun `TOC` adalah penggunaan bidang TC. Bidang ini dimasukkan tersembunyi ke dalam dokumen bahkan ketika kode lapangan ditampilkan. Mereka termasuk teks yang harus ditampilkan di entri dan `TOC` dibangun dari mereka. Fungsi ini sekarang tidak digunakan sangat sering tetapi mungkin masih berguna dalam beberapa kesempatan untuk memasukkan entri di `TOC` yang tidak teridentifikasi terlihat dalam dokumen. <br/>Ketika memasukkan bidang ini muncul tersembunyi bahkan ketika kode lapangan ditampilkan. Mereka tidak dapat dilihat tanpa menunjukkan konten tersembunyi. Untuk melihat bidang ini Tampilkan format paragraf harus dipilih.</p>
-
-<p>![setup-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-5.png)</p>
-
-<p>Bidang ini dapat dimasukkan ke dalam dokumen pada setiap posisi seperti bidang lain dan diwakili oleh `FieldType.FieldTOCEntry` Sitemap<br/>Sakelar \F dalam `TOC` digunakan untuk menentukan bahwa bidang TC harus digunakan sebagai entri. Sakelar sendiri tanpa pengidentifikasi tambahan berarti bahwa setiap bidang TC dalam dokumen akan disertakan. Setiap parameter tambahan, sering satu huruf, akan menunjuk satu-satunya bidang TC yang memiliki switch \f yang cocok akan dimasukkan dalam TOC. Sitemap</p>
-
-<p>{{< highlight csharp >}}
-{ TOC \f t }{{< /highlight >}}</p>
-
-<p>hanya akan mencakup bidang TC seperti Meme it</p>
-
-<p>{{< highlight csharp >}}
-{ TC \f t }{{< /highlight >}}</p>
-
-<p>Login `TOC` lapangan juga memiliki sakelar terkait, sakelar "\L" menentukan bahwa hanya lapangan TC dengan tingkat dalam kisaran yang ditentukan disertakan.</p>
-
-<p>![table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-6.png)</p>
-
-<p><br/><br/>Login `TC` ladang sendiri juga bisa `{several, multiple, a few, many, numerous}` beralih set. Sitemap</p>
-
-<p>- \F - Dijelaskan di atas. Sitemap</p>
-
-<p>- \L - Mendefinisikan tingkat di `TOC` Bidang TC ini akan muncul. Meme it Login `TOC` yang menggunakan switch yang sama ini hanya akan mencakup bidang TC ini jika berada dalam kisaran yang ditentukan.</p>
-
-<p>Login Login `TOC` entri tidak ditampilkan. Kode sampel cara memasukkan kolom TC dapat ditemukan di bagian berikutnya.</p>
- |
-
-### Penampilan Saklar Terkait
-
-|  Login | Sitemap |
-|  :-  |  :-  |
-| **Omit Page Numbers** <br/> *(\N Switch)* | <p>Switch ini digunakan untuk menyembunyikan nomor halaman untuk tingkat tertentu TOC. Misalnya, Anda dapat mendefinisikan</p>
-
-<p>{{< highlight csharp >}}
-{TOC \o "1-4" \n "3-4" }{{< /highlight >}}</p>
-
-<p>dan nomor halaman pada entri tingkat 3 dan empat akan disembunyikan bersama dengan titik-titik pemimpin (jika ada). Untuk menentukan satu tingkat kisaran harus tetap digunakan, misalnya, "1-1" akan mengecualikan nomor halaman hanya untuk tingkat pertama. <br/>Menyediakan rentang level tidak akan memomit nomor halaman untuk semua tingkat di TOC. Ini berguna untuk mengatur ketika mengekspor dokumen ke HTML atau format serupa. Ini karena format berbasis HTML tidak memiliki konsep halaman dan dengan demikian tidak perlu nomor halaman.</p>
-
-<p>![table-of-contents-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-7.png)</p>
- |
-| Masukkan Sebagai Hyperlinks <br/> *(\H Switch)* | <p>Switch ini menentukan bahwa `TOC` entri dimasukkan sebagai hyperlink. Ketika melihat dokumen dalam Microsoft Word entri ini masih akan muncul sebagai teks normal di dalam `TOC` tetapi di hyperlink dan dengan demikian dapat digunakan untuk menavigasi ke posisi entri asli dalam dokumen dengan menggunakan * Ctrl + Klik Kiri * Microsoft WordSitemap Ketika switch ini disertakan kemudian tautan ini juga dipertahankan dalam format lain. Contohnya, dalam format berbasis HTML termasuk format EPUB dan rendered seperti PDF dan XPS, ini akan diekspor sebagai link kerja. <br/>Tanpa set switch ini, `TOC` dalam semua output ini akan diekspor sebagai teks biasa dan tidak akan menunjukkan perilaku ini. Jika dokumen dibuka di MS Word teks entri juga tidak dapat diklik dengan cara ini tetapi nomor halaman masih dapat digunakan untuk menavigasi entri asli.</p>
-
-<p>![tree-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-8.png)</p>
- |
-| **Set Separator Character** <br/> *(\P Switch)* <br/> | <p>Switch ini memungkinkan konten memisahkan judul entri dan nomor halaman untuk mudah diubah di TOC. Pemisah untuk digunakan harus ditentukan setelah sakelar ini dan tertutup dalam tanda bicara. <br/>Terjemahkan ke apa yang didokumentasikan dalam dokumentasi Office, hanya satu karakter yang dapat digunakan daripada hingga lima. Ini berlaku untuk Word MS dan Aspose.WordsSitemap <br/>Menggunakan switch ini tidak dianjurkan karena tidak memungkinkan banyak kontrol atas apa yang digunakan untuk memisahkan entri dan nomor halaman di TOC. Sebaliknya, disarankan untuk mengedit yang tepat `TOC` gaya seperti `StyleIdentifier.TOC1` dan dari sana mengedit gaya pemimpin dengan akses ke anggota font tertentu dll. Rincian lebih lanjut tentang cara melakukan ini dapat ditemukan nanti dalam artikel.</p>
-
-<p>![list-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-9.png)</p>
- |
-| **Preserve Tab Entries** <br/> *(\W Switch)* | <p>Menggunakan switch ini akan menentukan bahwa setiap entri yang memiliki karakter tab, misalnya, judul yang memiliki tab di akhir garis, akan dipertahankan sebagai karakter tab yang tepat ketika mengisi TOC. Ini berarti fungsi karakter tab akan hadir dalam `TOC` dan dapat digunakan untuk memformat entri. Misalnya, entri tertentu dapat menggunakan stop tab dan karakter tab untuk meratakan teks. Selama `TOC` tingkat mendefinisikan tab yang setara berhenti kemudian dihasilkan `TOC` entri akan muncul dengan jarak yang sama. <br/><br/>Dalam situasi yang sama jika sakelar ini tidak didefinisikan maka karakter tab akan dikonversi ke ruang putih yang setara dengan tab yang tidak berfungsi. Output akan muncul seperti yang diharapkan.</p>
-
-<p>![tab-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-10.png)</p>
- |
-| **Preserve New Line Entries** <br/> *(\X Switch)* <br/> | <p>Mirip dengan sakelar di atas, sakelar ini menentukan bahwa judul membentang lebih dari beberapa garis (menggunakan karakter garis baru, bukan paragraf terpisah) akan dipertahankan karena mereka berada di TOC yang dihasilkan. Misalnya, judul yang menyebar di beberapa garis dapat menggunakan karakter garis baru (Ctrl + Enter atau `ControlChar.LineBreak`) untuk memisahkan konten di berbagai garis. Dengan saklar ini ditentukan, entri di `TOC` akan menjaga karakter garis baru ini seperti yang ditunjukkan di bawah ini. <br/><br/>Dalam situasi ini, jika sakelar tidak didefinisikan maka karakter garis baru dikonversi ke ruang putih tunggal.</p>
-
-<p>![tab-space-table-of-contents-field-aspose-words-java](/words/java/working-with-table-of-contents/how-to-insert-and-work-with-the-table-of-contents-field-11.png)</p>
- |
-
-## Masukkan Bidang TC
-
-Anda dapat memasukkan bidang TC baru pada posisi saat ini `DocumentBuilder` dengan memanggil `DocumentBuilder.InsertField` metode dan menentukan nama lapangan sebagai "TC" bersama dengan sakelar yang diperlukan.
-
-Contoh kode berikut menunjukkan cara memasukkan `TC` ke dalam dokumen menggunakan [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)Sitemap
+Contoh kode berikut menunjukkan cara menyisipkan bidang `TC` ke dalam dokumen menggunakan [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertTCField-InsertTCField.java" >}}
 
-Sering garis teks tertentu ditunjuk untuk Meme it `TOC` dan ditandai dengan `TC` Login Cara mudah untuk melakukan ini di MS Word adalah untuk menyoroti teks dan tekan * ALT + SHIFT + O *. Ini secara otomatis menciptakan `TC` kolom menggunakan teks yang dipilih. Teknik yang sama dapat dicapai melalui kode. Kode di bawah ini akan menemukan teks yang cocok input dan masukkan `TC` bidang dalam posisi yang sama dengan teks. Kode didasarkan pada teknik yang sama digunakan dalam artikel. Contoh kode berikut menunjukkan cara menemukan dan memasukkan `TC` kolom pada teks dalam dokumen.
+Seringkali baris teks tertentu ditetapkan untuk `TOC` dan ditandai dengan bidang `TC`. Cara mudah untuk melakukannya di MS Word adalah dengan menyorot teks dan menekan *ALT+SHIFT+O*. Ini secara otomatis membuat bidang `TC` menggunakan teks yang dipilih. Teknik yang sama dapat dilakukan melalui kode. Kode di bawah ini akan menemukan teks yang cocok dengan input dan menyisipkan bidang `TC` di posisi yang sama dengan teks. Kode ini didasarkan pada teknik yang sama yang digunakan dalam artikel. Contoh kode berikut menunjukkan cara menemukan dan menyisipkan bidang `TC` pada teks dalam dokumen.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-FindAndInsertATCField-InsertTCFieldHandler.java" >}}
 
-## Modifikasi Tabel Konten
+## Memodifikasi Daftar Isi
 
-### Mengubah Format Gaya
+### Mengubah Pemformatan Gaya
 
-Pemformatan entri di `TOC` tidak menggunakan gaya asli dari entri yang ditandai, bukan, setiap tingkat diformat menggunakan setara `TOC` Login Misalnya, tingkat pertama di Meme it `TOC` diformat dengan **Login** gaya, tingkat kedua diformat dengan **Login** gaya dan sebagainya. Ini berarti bahwa untuk mengubah tampilan `TOC` gaya ini harus dimodifikasi. Sitemap Aspose.Words gaya ini diwakili oleh lokale-independent `StyleIdentifier.TOC1` Sitemap `StyleIdentifier.TOC9` dan dapat diambil dari Meme it `Document.Styles` koleksi menggunakan pengidentifikasi ini.
+Pemformatan entri dalam `TOC` tidak menggunakan gaya asli dari entri yang ditandai, sebaliknya, setiap level diformat menggunakan gaya `TOC` yang setara. Misalnya, level pertama dalam `TOC` diformat dengan gaya **TOC1**, level kedua diformat dengan gaya **TOC2** dan seterusnya. Artinya, untuk mengubah tampilan `TOC` gaya ini harus dimodifikasi. Dalam Aspose.Words gaya ini diwakili oleh `StyleIdentifier.TOC1` yang tidak bergantung pada lokal hingga `StyleIdentifier.TOC9` dan dapat diambil dari koleksi `Document.Styles` menggunakan pengidentifikasi ini.
 
-Setelah gaya dokumen yang sesuai telah mengambil format untuk gaya ini dapat dimodifikasi. Setiap perubahan pada gaya ini akan secara otomatis tercermin dalam TOC dalam dokumen.
+Setelah gaya dokumen yang sesuai telah diambil, pemformatan untuk gaya ini dapat dimodifikasi. Setiap perubahan pada gaya ini akan secara otomatis tercermin dalam TOCs dalam dokumen.
 
-Contoh kode berikut mengubah properti format yang digunakan pada tingkat pertama `TOC` Login
+Contoh kode berikut mengubah properti pemformatan yang digunakan dalam gaya `TOC` tingkat pertama.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-ModifyATableOfContents-changeAFormattingPropertyUsedInFirstLevelTOCStyle.java" >}}
 
-Hal ini juga berguna untuk dicatat bahwa setiap format langsung paragraf (dibuktikan pada paragraf itu sendiri dan tidak dalam gaya) ditandai untuk dimasukkan dalam `TOC` akan disalin di entri di TOC. Misalnya, jika gaya Heading 1 digunakan untuk menandai konten untuk `TOC` dan gaya ini memiliki format Bold sementara paragraf juga memiliki format italic langsung diterapkan untuk itu. Sitemap `TOC` entri tidak akan berani karena itu adalah bagian dari format gaya namun itu akan menjadi italic karena ini diformat langsung pada paragraf.
+Penting juga untuk dicatat bahwa pemformatan langsung apa pun dari sebuah paragraf (didefinisikan pada paragraf itu sendiri dan bukan dalam gaya) yang ditandai untuk disertakan dalam `TOC` akan disalin dalam entri di TOC. Misalnya, jika gaya Heading 1 digunakan untuk menandai konten untuk `TOC` dan gaya ini memiliki pemformatan Tebal, sedangkan paragraf juga memiliki pemformatan miring yang langsung diterapkan padanya. Entri `TOC` yang dihasilkan tidak akan dicetak tebal karena merupakan bagian dari pemformatan gaya, namun akan dicetak miring karena diformat langsung pada paragraf.
 
-Anda juga dapat mengontrol format pemisah yang digunakan antara setiap entri dan nomor halaman. Secara default, ini adalah garis bertitik yang tersebar di halaman yang menghitung menggunakan karakter tab dan tab kanan berhenti berbaring dekat dengan margin yang tepat.
+Anda juga dapat mengontrol pemformatan pemisah yang digunakan antara setiap entri dan nomor halaman. Secara default, ini adalah garis putus-putus yang tersebar ke penomoran halaman menggunakan karakter tab dan perhentian tab kanan berbaris di dekat margin kanan.
 
-Menggunakan `Style` kelas diambil untuk tertentu `TOC` tingkat yang ingin Anda modifikasi, Anda juga dapat memodifikasi bagaimana ini muncul dalam dokumen.
+Menggunakan kelas `Style` yang diambil untuk level `TOC` tertentu yang ingin Anda modifikasi, Anda juga dapat mengubah tampilannya di dokumen.
 
-Untuk mengubah bagaimana ini muncul pertama `Style.ParagraphFormat` harus disebut untuk mengambil format paragraf untuk gaya. Dari ini, tab berhenti dapat diambil dengan memanggil `ParagraphFormat.TabStops` dan tab yang tepat berhenti dimodifikasi. Menggunakan teknik yang sama ini tab itu sendiri dapat dipindahkan atau dihapus sama sekali.
+Untuk mengubah tampilannya terlebih dahulu `Style.ParagraphFormat` harus dipanggil untuk mengambil pemformatan paragraf untuk gaya tersebut. Dari sini, penghentian tab dapat diambil dengan memanggil `ParagraphFormat.TabStops` dan penghentian tab yang sesuai diubah. Dengan menggunakan teknik yang sama, tab itu sendiri dapat dipindahkan atau dihapus sama sekali.
 
-Contoh kode berikut menunjukkan cara memodifikasi posisi tab kanan berhenti di `TOC` paragraf terkait.
+Contoh kode berikut menunjukkan cara mengubah posisi perhentian tab kanan di paragraf terkait `TOC`.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-ModifyATableOfContents-modifyPositionOfRightTabStopInTOC.java" >}}
 
-## Hapus Tabel Konten dari Dokumen
+## Menghapus Daftar Isi dari Dokumen
 
-Tabel konten dapat dihapus dari dokumen dengan menghapus semua node yang ditemukan di antara `FieldStart` dan node FieldEnd dari `TOC` Login
+Daftar isi dapat dihapus dari dokumen dengan menghapus semua simpul yang ditemukan di antara simpul `FieldStart` dan FieldEnd dari bidang `TOC`.
 
-Kode di bawah ini menunjukkan ini. Penghapusan `TOC` lapangan lebih sederhana dari lapangan normal karena kita tidak melacak ladang bersarang. Sebaliknya, kami memeriksa Meme it `FieldEnd` node adalah tipe `FieldType.FieldTOC` yang berarti kita telah menemukan ujung TOC saat ini. Teknik ini dapat digunakan dalam kasus ini tanpa khawatir tentang bidang bersarang apa pun karena kita dapat menganggap bahwa setiap dokumen yang terbentuk dengan benar tidak akan memiliki sepenuhnya bersarang `TOC` di dalam bidang lain `TOC` Login
+Kode di bawah ini menunjukkan hal ini. Penghapusan bidang `TOC` lebih sederhana daripada bidang normal karena kami tidak melacak bidang bersarang. Sebagai gantinya, kami memeriksa simpul `FieldEnd` bertipe `FieldType.FieldTOC` yang berarti kami telah menemukan akhir dari TOC saat ini. Teknik ini dapat digunakan dalam kasus ini tanpa mengkhawatirkan bidang bersarang apa pun karena kita dapat mengasumsikan bahwa dokumen apa pun yang dibentuk dengan benar tidak akan memiliki bidang `TOC` yang sepenuhnya bersarang di dalam bidang `TOC` lainnya.
 
-Pertama `FieldStart` Sitemap `TOC` dikumpulkan dan disimpan. Sitemap `TOC` kemudian disebutkan sehingga semua node di dalam bidang dikunjungi dan disimpan. node kemudian dihapus dari dokumen. Contoh kode berikut menunjukkan bagaimana menghapus yang ditentukan `TOC` dari dokumen.
+Pertama, `FieldStart` node dari masing-masing `TOC` dikumpulkan dan disimpan. `TOC` yang ditentukan kemudian disebutkan sehingga semua node di dalam bidang dikunjungi dan disimpan. Node kemudian dihapus dari dokumen. Contoh kode berikut menunjukkan cara menghapus `TOC` tertentu dari dokumen.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-RemoveATableOfContents-RemoveATableOfContents.java" >}}
 
-## Tabel Ekstrak Konten
+## Ekstrak Daftar Isi
 
-Jika Anda ingin mengekstrak tabel konten dari dokumen Word, sampel kode berikut dapat digunakan.
+Jika Anda ingin mengekstrak daftar isi dari dokumen Word apa pun, contoh kode berikut dapat digunakan.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-ExtractTableOfContents-ExtractTableOfContents.java" >}}

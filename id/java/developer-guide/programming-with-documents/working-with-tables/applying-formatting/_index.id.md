@@ -1,329 +1,329 @@
----
-title: Sitemap Java
-second_title: Aspose.Words Sitemap Java
-articleTitle: Daftar Tabel
-linktitle: Daftar Tabel
-description: "Tabel format dalam rincian. Sitemap Java untuk memformat setiap bagian dari tabel."
+﻿---
+title: Pemformatan Tabel dalam Java
+second_title: Aspose.Words untuk Java
+articleTitle: Terapkan Pemformatan Tabel
+linktitle: Terapkan Pemformatan Tabel
+description: "Pemformatan tabel secara detail. Menggunakan Java untuk memformat setiap bagian tabel."
 type: docs
 weight: 70
 url: /id/java/applying-formatting/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Setiap elemen tabel dapat diterapkan dengan format yang berbeda. Misalnya, format tabel akan diterapkan pada seluruh tabel, format baris untuk hanya baris tertentu, format sel hanya untuk sel-sel tertentu.
+Setiap elemen tabel dapat diterapkan dengan pemformatan yang berbeda. Misalnya, pemformatan tabel akan diterapkan ke seluruh tabel, pemformatan baris hanya ke baris tertentu, pemformatan sel hanya ke sel tertentu.
 
-Aspose.Words Sitemap API untuk mengambil dan menerapkan format ke tabel. Anda dapat menggunakan [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/), Login [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) node untuk mengatur format.
+Aspose.Words menyediakan API yang kaya untuk mengambil dan menerapkan pemformatan ke tabel. Anda dapat menggunakan simpul [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/), dan [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) untuk mengatur pemformatan.
 
-Dalam artikel ini, kita akan berbicara tentang cara menerapkan format ke node tabel yang berbeda dan pengaturan format tabel apa Aspose.Words Login
+Pada artikel ini, kita akan membahas tentang cara menerapkan pemformatan ke node tabel yang berbeda dan pengaturan pemformatan tabel apa yang didukung Aspose.Words.
 
-## Menerapkan Format ke Node Berbeda
+## Terapkan Pemformatan ke Node yang Berbeda
 
-Di bagian ini, kita akan melihat menerapkan format ke berbagai node tabel.
+Di bagian ini, kita akan melihat penerapan pemformatan ke berbagai simpul tabel.
 
-### Format Tingkat Meja
+### Pemformatan Tingkat Tabel
 
-Untuk menerapkan format ke tabel Anda dapat menggunakan properti yang tersedia sesuai **Table** Login [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/), Login [TableCollection](https://reference.aspose.com/words/java/com.aspose.words/tablecollection/) kelas.
+Untuk menerapkan pemformatan ke tabel, Anda dapat menggunakan properti yang tersedia pada simpul **Table** yang sesuai menggunakan kelas [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/), dan [TableCollection](https://reference.aspose.com/words/java/com.aspose.words/tablecollection/).
 
 {{% alert color="primary" %}}
 
-Perhatikan bahwa tabel harus memiliki setidaknya satu baris sebelum sifat tabel dapat diterapkan. Ini berarti bahwa ketika membangun meja dengan Meme it [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/), format ini harus dilakukan setelah panggilan pertama untuk [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell()), atau setelah baris pertama ditambahkan ke meja, atau ketika node dimasukkan langsung ke dalam DOMSitemap
+Perhatikan bahwa tabel harus memiliki setidaknya satu baris sebelum properti tabel dapat diterapkan. Artinya, saat membuat tabel dengan [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/), pemformatan ini harus dilakukan setelah pemanggilan pertama ke [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell()), atau setelah baris pertama ditambahkan ke tabel, atau saat node disisipkan langsung ke DOM.
 
 {{% /alert %}}
 
-Gambar di bawah ini menunjukkan representasi dari **Table** fitur format dalam Microsoft Word dan sifatnya yang sesuai Aspose.WordsSitemap
+Gambar-gambar di bawah ini menunjukkan representasi fitur pemformatan **Table** di Microsoft Word dan properti terkait di Aspose.Words.
 
 ![apply-formatting-to-table-level-aspose-words-java](/words/java/applying-formatting/applying-formatting-to-table-row-and-cell-1.png)
 
 ![apply-formatting-to-table-level-aspose-words-java](/words/java/applying-formatting/applying-formatting-to-table-row-and-cell-2.png)
 
-Contoh kode berikut menunjukkan cara menerapkan batas garis ke meja:
+Contoh kode berikut menunjukkan cara menerapkan batas garis luar ke tabel:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "apply-outline-border.java" >}}
 
-Contoh kode berikut menunjukkan cara membangun tabel dengan semua batas diaktifkan (grid):
+Contoh kode berikut menunjukkan cara membuat tabel dengan semua batas diaktifkan (kisi):
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "build-table-with-borders.java" >}}
 
-### Format Tingkat Baris
+### Pemformatan Tingkat Baris
 
-Baris-level** format dapat dikontrol menggunakan [Row](https://reference.aspose.com/words/java/com.aspose.words/row/), [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/), Login [RowCollection](https://reference.aspose.com/words/java/com.aspose.words/rowcollection/) kelas.
+Pemformatan tingkat baris * * dapat dikontrol menggunakan kelas [Row](https://reference.aspose.com/words/java/com.aspose.words/row/), [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/), dan [RowCollection](https://reference.aspose.com/words/java/com.aspose.words/rowcollection/).
 
 {{% alert color="primary" %}}
 
-Login **Row** hanya bisa menjadi node anak dari **Table**Sitemap Pada saat yang sama, harus ada setidaknya satu **Cell** Sitemap **Row** sehingga format dapat diterapkan untuk itu. Meme it
+Perhatikan bahwa **Row** hanya dapat berupa simpul turunan dari **Table**. Pada saat yang sama, harus ada setidaknya satu **Cell** di **Row** agar pemformatan dapat diterapkan padanya.
 
 {{% /alert %}}
 
-Gambar di bawah ini menunjukkan representasi dari **Row** fitur format dalam Microsoft Word dan sifatnya yang sesuai Aspose.WordsSitemap
+Gambar-gambar di bawah ini menunjukkan representasi fitur pemformatan **Row** di Microsoft Word dan properti terkait di Aspose.Words.
 
 ![apply-formatting-to-row-level-aspose-words-java](/words/java/applying-formatting/applying-formatting-to-table-row-and-cell-3.png)
 
-Contoh kode berikut menunjukkan cara memodifikasi format baris tabel:
+Contoh kode berikut menunjukkan cara mengubah pemformatan baris tabel:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "modify-row-formatting.java" >}}
 
-### Format Tingkat Sel
+### Pemformatan Tingkat Sel
 
-Format tingkat sel dikendalikan oleh [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/), [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/), Login [CellCollection](https://reference.aspose.com/words/java/com.aspose.words/cellcollection/) kelas.
+Pemformatan tingkat sel dikontrol oleh kelas [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/), [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/), dan [CellCollection](https://reference.aspose.com/words/java/com.aspose.words/cellcollection/).
 
 {{% alert color="primary" %}}
 
-Login **Cell** hanya bisa menjadi node anak dari **Row**Sitemap Pada saat yang sama, harus ada setidaknya satu [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) Sitemap **Cell** sehingga format dapat diterapkan untuk itu. Meme it
+Perhatikan bahwa **Cell** hanya dapat berupa simpul turunan dari **Row**. Pada saat yang sama, harus ada setidaknya satu [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) di **Cell** agar pemformatan dapat diterapkan padanya.
 
-Selain **Paragraph**, Anda juga dapat memasukkan **Table** Sitemap **Cell**Sitemap
+Selain **Paragraph**, Anda juga dapat menyisipkan **Table** ke dalam **Cell**.
 
 {{% /alert %}}
 
-Gambar di bawah ini menunjukkan representasi dari **Cell** fitur format dalam Microsoft Word dan sifatnya yang sesuai Aspose.WordsSitemap
+Gambar-gambar di bawah ini menunjukkan representasi fitur pemformatan **Cell** di Microsoft Word dan properti terkait di Aspose.Words.
 
 ![apply-formatting-to-cell-level-aspose-words-java](/words/java/applying-formatting/applying-formatting-to-table-row-and-cell-4.png)
 
 ![apply-auto-formatting-to-row-level-aspose-words-java](/words/java/applying-formatting/applying-formatting-to-table-row-and-cell-5.png)
 
-Contoh kode berikut menunjukkan cara memodifikasi format sel tabel:
+Contoh kode berikut menunjukkan cara mengubah pemformatan sel tabel:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "modify-cell-formatting.java" >}}
 
-Contoh kode berikut menunjukkan cara mengatur jumlah ruang (dalam poin) untuk menambahkan ke kiri / atas / kanan / bawah konten sel:
+Contoh kode berikut menunjukkan cara mengatur jumlah ruang (dalam poin) untuk ditambahkan ke kiri/atas/kanan / bawah isi sel:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "cell-padding.java" >}}
 
-## Menentukan Tinggi Baris
+## Menentukan Ketinggian Baris
 
-Cara paling sederhana untuk mengatur ketinggian baris adalah untuk menggunakan **DocumentBuilder**Sitemap Menggunakan yang sesuai **RowFormat** properti, Anda dapat mengatur pengaturan ketinggian default atau menerapkan ketinggian yang berbeda untuk setiap baris di meja.
+Cara paling sederhana untuk mengatur tinggi baris adalah dengan menggunakan **DocumentBuilder**. Dengan menggunakan properti **RowFormat** yang sesuai, Anda dapat mengatur pengaturan ketinggian default atau menerapkan ketinggian yang berbeda untuk setiap baris dalam tabel.
 
-Sitemap Aspose.Words, tinggi baris meja dikendalikan oleh:
+Dalam Aspose.Words, tinggi baris tabel dikontrol oleh:
 
-- properti tinggi baris - [Height](https://reference.aspose.com/words/java/com.aspose.words/row/format#Height)
-- properti aturan tinggi untuk baris tertentu - [HeightRule](https://reference.aspose.com/words/java/com.aspose.words/row/format#HeightRule)
+- properti tinggi baris – [Height](https://reference.aspose.com/words/java/com.aspose.words/row/format#Height)
+- properti aturan tinggi untuk baris yang diberikan - [HeightRule](https://reference.aspose.com/words/java/com.aspose.words/row/format#HeightRule)
 
-Pada saat yang sama, ketinggian yang berbeda dapat diatur untuk setiap baris - ini memungkinkan Anda untuk mengontrol pengaturan tabel secara luas.
+Pada saat yang sama, ketinggian yang berbeda dapat diatur untuk setiap baris-ini memungkinkan Anda untuk mengontrol pengaturan tabel secara luas.
 
 {{% alert color="primary" %}}
 
-Pilihan rule untuk menentukan ketinggian objek dapat diatur menggunakan [HeightRule](https://reference.aspose.com/words/java/com.aspose.words/heightrule/) Login
+Opsi aturan untuk menentukan tinggi objek dapat diatur menggunakan bidang [HeightRule](https://reference.aspose.com/words/java/com.aspose.words/heightrule/).
 
 {{% /alert %}}
 
-Contoh kode berikut menunjukkan cara membuat tabel yang mengandung sel tunggal dan menerapkan format baris:
+Contoh kode berikut menunjukkan cara membuat tabel yang berisi satu sel dan menerapkan pemformatan baris:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "apply-row-formatting.java" >}}
 
-## Tentukan Tabel dan Lebar Sel
+## Tentukan Lebar Tabel dan Sel
 
-Tabel di sebuah Microsoft Word dokumen menyediakan beberapa cara berbeda untuk mengubah ukuran tabel dan sel-sel individu. Properti ini memungkinkan kontrol yang cukup besar atas penampilan dan perilaku meja, sehingga Aspose.Words mendukung perilaku tabel, seperti dalam Microsoft WordSitemap
+Tabel dalam dokumen Microsoft Word menyediakan beberapa cara berbeda untuk mengubah ukuran tabel dan sel individual. Properti ini memungkinkan kontrol yang cukup besar atas tampilan dan perilaku tabel, sehingga Aspose.Words mendukung perilaku tabel, seperti pada Microsoft Word.
 
-Penting untuk mengetahui bahwa elemen tabel menyajikan beberapa sifat yang berbeda yang dapat mempengaruhi bagaimana lebar tabel keseluruhan, serta sel-sel individu, dihitung:
+Penting untuk diketahui bahwa elemen tabel menyajikan beberapa properti berbeda yang dapat memengaruhi bagaimana lebar tabel secara keseluruhan, serta sel individual, dihitung:
 
-- Lebar yang disukai di meja
+- Lebar yang disukai di atas meja
 - Lebar yang disukai pada sel individual
-- Memungkinkan autofit di meja
+- Mengizinkan autofit di atas meja
 
-Artikel ini rincian bagaimana berbagai properti perhitungan lebar meja bekerja dan bagaimana untuk mendapatkan kontrol penuh atas perhitungan lebar meja. Sitemap
-terutama berguna untuk mengetahui dalam kasus-kasus seperti tata letak tabel tidak muncul seperti yang diharapkan.
+Artikel ini merinci cara kerja berbagai properti penghitungan lebar tabel dan cara mendapatkan kontrol penuh atas penghitungan lebar tabel. Ini adalah
+sangat berguna untuk diketahui dalam kasus di mana tata letak tabel tidak muncul seperti yang diharapkan.
 
 {{% alert color="primary" %}}
 
-Dalam kebanyakan kasus, sel yang disukai direkomendasikan dari lebar meja. Lebar sel yang disukai lebih sejalan dengan spesifikasi format DOCX serta Aspose.Words Login
+Dalam kebanyakan kasus, sel yang disukai direkomendasikan daripada lebar tabel. Lebar sel yang disukai lebih sesuai dengan spesifikasi format DOCX serta model Aspose.Words.
 
-Lebar sel sebenarnya merupakan nilai yang dihitung untuk format DOCX. Lebar sel yang sebenarnya dapat tergantung pada banyak hal. Misalnya, mengubah margin halaman atau lebar meja yang disukai dapat mempengaruhi lebar sel yang sebenarnya.
+Lebar sel sebenarnya adalah nilai yang dihitung untuk format DOCX. Lebar sel yang sebenarnya dapat bergantung pada banyak hal. Misalnya, mengubah margin halaman atau lebar tabel yang disukai dapat memengaruhi lebar sel yang sebenarnya.
 
-Lebar sel yang disukai adalah properti sel yang disimpan dalam dokumen. Tidak tergantung pada apa pun dan tidak berubah ketika Anda mengubah tabel atau sifat sel lainnya.
+Lebar sel yang disukai adalah properti sel yang disimpan dalam dokumen. Itu tidak bergantung pada apa pun dan tidak berubah saat Anda mengubah tabel atau properti sel lainnya.
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-Semua properti dan metode yang dijelaskan dalam artikel ini terkait dengan bagaimana tabel bekerja di Microsoft WordSitemap Jadi dalam kebanyakan kasus, jika Anda membangun program meja Anda secara tematik tetapi mencarinya sulit untuk membuat meja yang diinginkan, Anda tidak dapat mencoba secara visual menciptakannya secara visual Microsoft Word pertama dan kemudian hanya menyalin nilai format ke aplikasi Anda.
+Semua properti dan metode yang dijelaskan dalam artikel ini terkait dengan cara kerja tabel di Microsoft Word. Jadi dalam banyak kasus, jika Anda membuat tabel secara terprogram tetapi merasa kesulitan untuk membuat tabel yang diinginkan, Anda dapat mencoba membuatnya secara visual di Microsoft Word terlebih dahulu, lalu cukup salin nilai pemformatan ke dalam aplikasi Anda.
 
 {{% /alert %}}
 
-### Cara Menggunakan Lebar Preferred
+### Cara Menggunakan Lebar yang Diinginkan
 
-Lebar yang diinginkan dari meja atau sel-sel individu didefinisikan melalui properti lebar yang disukai, yang merupakan ukuran bahwa elemen berusaha sesuai. Itu, lebar yang disukai dapat ditentukan untuk seluruh meja atau untuk sel-sel individu. Dalam beberapa situasi mungkin tidak mungkin untuk menyesuaikan lebar ini persis, tetapi lebar sebenarnya akan dekat dengan nilai ini dalam kebanyakan kasus.
+Lebar tabel atau sel individual yang diinginkan ditentukan melalui properti preferred width, yang merupakan ukuran yang ingin disesuaikan oleh elemen. Artinya, lebar yang disukai dapat ditentukan untuk seluruh tabel atau untuk sel individual. Dalam beberapa situasi, lebar ini mungkin tidak dapat disesuaikan dengan tepat, tetapi lebar sebenarnya akan mendekati nilai ini dalam banyak kasus.
 
-Jenis dan nilai lebar pilihan yang tepat diatur menggunakan metode [PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/) kelas:
+Jenis dan nilai lebar pilihan yang sesuai ditetapkan menggunakan metode kelas [PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/):
 
-- Login [Auto](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#AUTO) lapangan untuk menentukan auto atau "tidak ada lebar pilihan"
-- Login [FromPercent](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#fromPercent-double) metode untuk menentukan lebar persentase
-- Login [FromPoints](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#fromPoints-double) metode untuk menentukan lebar poin
+- bidang [Auto](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#AUTO) untuk menentukan otomatis atau "tidak ada lebar yang disukai"
+- metode [FromPercent](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#fromPercent-double) untuk menentukan lebar persentase
+- metode [FromPoints](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#fromPoints-double) untuk menentukan lebar dalam poin
 
-Gambar di bawah ini menunjukkan representasi dari fitur pengaturan lebar yang dipreferensikan * Microsoft Word dan sifatnya yang sesuai Aspose.WordsSitemap
+Gambar-gambar di bawah ini menunjukkan representasi dari *preferred width setting features* dalam Microsoft Word dan properti yang sesuai dalam Aspose.Words.
 
 ![formatting-table-properties-aspose-words-java](/words/java/applying-formatting/applying-formatting-8.png)
 
-Contoh bagaimana opsi ini diterapkan pada tabel nyata dalam dokumen dapat dilihat dalam gambar di bawah ini.
+Contoh bagaimana opsi ini diterapkan ke tabel nyata dalam dokumen dapat dilihat pada gambar di bawah ini.
 
 ![table-applied-options-java](/words/java/applying-formatting/applying-formatting-9.png)
 
 {{% alert color="primary" %}}
 
-Sebelum Anda dapat menggunakan lebar pilihan di meja, Anda harus memastikan bahwa tabel mengandung setidaknya satu baris. Ini karena format tabel seperti itu dalam Microsoft Word dokumen atau dalam dokumen yang dibuat dalam Aspose.Words disimpan di baris tabel.
+Sebelum Anda dapat menggunakan lebar yang diinginkan dalam tabel, Anda harus memastikan bahwa tabel berisi setidaknya satu baris. Ini karena pemformatan tabel seperti itu dalam dokumen Microsoft Word atau dalam dokumen yang dibuat di Aspose.Words disimpan di baris tabel.
 
 {{% /alert %}}
 
-#### Tentukan Tabel Preferred atau Lebar Sel
+#### Tentukan Tabel atau Lebar Sel yang Disukai
 
-Sitemap Aspose.Words, lebar meja dan sel diatur menggunakan [Table.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/table/#getPreferredWidth) properti dan [CellFormat.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getPreferredWidth) properti, dengan pilihan yang tersedia di [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/) Sitemap
+Dalam Aspose.Words, lebar tabel dan sel diatur menggunakan properti [Table.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/table/#getPreferredWidth) dan properti [CellFormat.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getPreferredWidth), dengan opsi yang tersedia dalam enumerasi [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/):
 
-- Login **Auto**, yang setara dengan tidak ada set lebar pilihan
-- Login **Percent**, yang sesuai dengan unsur yang relatif terhadap ruang yang tersedia di jendela atau ukuran wadah, dan merekalkan nilai ketika perubahan lebar yang tersedia
-- Login **Points**, yang sesuai dengan elemen lebar yang ditentukan dalam poin
+- **Auto**, yang setara dengan tidak ada set lebar yang disukai
+- **Percent**, yang sesuai dengan elemen relatif terhadap ruang yang tersedia di ukuran jendela atau wadah, dan menghitung ulang nilainya saat lebar yang tersedia berubah
+- **Points**, yang sesuai dengan elemen dengan lebar yang ditentukan dalam poin
 
 {{% alert color="primary" %}}
 
-Secara default, tabel dapat digambarkan sesuai dengan 100% ruang yang tersedia di halaman. Dalam hal ini, ini berarti tabel akan mencoba untuk mengambil ruang antara margin halaman kiri dan kanan.
+Secara default, tabel dapat digambarkan sebagai dipasang ke 100% ruang yang tersedia di halaman. Dalam hal ini, ini berarti tabel akan mencoba mengambil ruang antara margin halaman kiri dan kanan.
 
 {{% /alert %}}
 
-Menggunakan [Table.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/table/#getPreferredWidth) properti akan menyesuaikan lebar pilihan relatif ke wadahnya: halaman, kolom teks, atau sel meja luar jika itu adalah tabel bersarang.
+Menggunakan properti [Table.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/table/#getPreferredWidth) akan menyesuaikan lebar pilihannya relatif terhadap penampungnya: halaman, kolom teks, atau sel tabel luar jika itu adalah tabel bersarang.
 
-Contoh kode berikut menunjukkan cara mengatur tabel untuk auto-fit hingga 50% dari lebar halaman:
+Contoh kode berikut menunjukkan cara mengatur tabel agar pas secara otomatis hingga 50% dari lebar halaman:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "auto-fit-page-width.java" >}}
 
-Menggunakan [CellFormat.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getPreferredWidth) properti pada sel tertentu akan menyesuaikan lebar yang disukai.
+Menggunakan properti [CellFormat.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getPreferredWidth) pada sel tertentu akan menyesuaikan lebar pilihannya.
 
 Contoh kode berikut menunjukkan cara mengatur pengaturan lebar pilihan yang berbeda:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "preferred-width-settings.java" >}}
 
-#### Temukan Jenis dan Nilai Lebar yang Lebih disukai
+#### Temukan Jenis dan Nilai Lebar yang Disukai
 
-Anda dapat menggunakan [Type](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#getType) Login [Value](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#getValue) properti untuk menemukan rincian lebar yang disukai dari tabel atau sel yang diinginkan.
+Anda dapat menggunakan properti [Type](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#getType) dan [Value](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#getValue) untuk menemukan detail lebar yang diinginkan dari tabel atau sel yang diinginkan.
 
-Contoh kode berikut menunjukkan cara mengambil jenis lebar yang disukai dari sel meja:
+Contoh kode berikut menunjukkan cara mengambil tipe lebar yang disukai dari sel tabel:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "retrieve-preferred-width-type.java" >}}
 
 ### Cara Mengatur Autofit
 
-Login [AllowAutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowAutoFit) properti memungkinkan sel di meja untuk tumbuh dan menyusut sesuai dengan kriteria yang dipilih. Misalnya, Anda dapat menggunakan **AutoFit ke jendela** opsi untuk menyesuaikan tabel ke lebar halaman, dan **Otomatis untuk Konten** opsi untuk memungkinkan setiap sel untuk tumbuh atau menyusut sesuai dengan kontennya.
+Properti [AllowAutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowAutoFit) memungkinkan sel dalam tabel tumbuh dan menyusut sesuai dengan kriteria yang dipilih. Misalnya, Anda dapat menggunakan opsi **AutoFit to Window** untuk menyesuaikan tabel dengan lebar halaman, dan opsi **AutoFit to Content** untuk memungkinkan setiap sel membesar atau mengecil sesuai dengan isinya.
 
 {{% alert color="primary" %}}
 
-Sitemap **AllowAutoFit** properti dapat digunakan bersamaan dengan lebar sel yang disukai untuk memformat sel yang secara otomatis menyesuaikan kontennya, tetapi juga memiliki lebar awal. Jika perlu, lebar sel kemudian dapat tumbuh melewati lebar ini.
+Selain itu, properti **AllowAutoFit** dapat digunakan bersama dengan lebar sel yang disukai untuk memformat sel yang secara otomatis sesuai dengan kontennya, tetapi juga memiliki lebar awal. Jika perlu, lebar sel kemudian dapat tumbuh melewati lebar ini.
 
 {{% /alert %}}
 
-Login Aspose.Words masukkan meja baru menggunakan **AutoFit ke jendela**Sitemap Meja akan berukuran sesuai dengan lebar halaman yang tersedia. Untuk mengubah ukuran tabel, Anda dapat memanggil [AutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#autoFit-int) Login Metode ini menerima [AutoFitBehavior](https://reference.aspose.com/words/java/com.aspose.words/autofitbehavior/) enumerasi yang menentukan jenis autofit apa yang diterapkan pada tabel.
+Secara default, Aspose.Words menyisipkan tabel baru menggunakan **AutoFit to Window**. Tabel akan diberi ukuran sesuai dengan lebar halaman yang tersedia. Untuk mengubah ukuran tabel, Anda dapat memanggil metode [AutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#autoFit-int). Metode ini menerima enumerasi [AutoFitBehavior](https://reference.aspose.com/words/java/com.aspose.words/autofitbehavior/) yang menentukan jenis autofit yang diterapkan ke tabel.
 
-Penting untuk mengetahui bahwa metode autofit sebenarnya adalah shortcut yang menerapkan sifat yang berbeda pada tabel pada saat yang sama. Ini adalah sifat yang benar-benar memberikan tabel perilaku yang diamati. Kami akan membahas sifat ini untuk setiap opsi autofit.
+Penting untuk diketahui bahwa metode autofit sebenarnya adalah pintasan yang menerapkan properti berbeda ke tabel secara bersamaan. Ini adalah properti yang benar-benar memberikan tabel perilaku yang diamati. Kami akan membahas properti ini untuk setiap opsi autofit.
 
-Contoh kode berikut menunjukkan cara mengatur tabel untuk mengecilkan atau menumbuhkan setiap sel sesuai dengan kontennya:
+Contoh kode berikut menunjukkan cara mengatur tabel untuk mengecilkan atau menumbuhkan setiap sel sesuai dengan isinya:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "allow-auto-fit.java" >}}
 
-Kami akan menggunakan tabel berikut untuk menerapkan berbagai pengaturan pas otomatis sebagai demonstrasi.
+Kami akan menggunakan tabel berikut untuk menerapkan berbagai pengaturan auto fit sebagai demonstrasi.
 
 <img src="/words/java/applying-formatting/how-to-apply-different-autofit-settings-to-a-table-1.png" alt="apply-different-autofit-settings-to-a-table-aspose-words-java" style="width:500px"/>
 
-#### Meja AutoFit ke Window
+#### AutoFit Tabel ke Jendela
 
-Ketika autofitting ke jendela diterapkan ke meja, operasi berikut sebenarnya dilakukan di belakang adegan:
+Saat pemasangan otomatis ke jendela diterapkan ke tabel, operasi berikut sebenarnya dilakukan di belakang layar:
 
-Sitemap Login **Table.AllowAutoFit** properti diaktifkan untuk secara otomatis mengubah ukuran kolom agar sesuai dengan konten yang tersedia, menggunakan **Table.PreferredWidth** nilai 100%
-2. di **CellFormat.PreferredWidth** dihapus dari semua sel tabel
-      {{% alert color="primary" %}}
-   Perhatikan bahwa ini sedikit berbeda dari Meme it Microsoft Word perilaku, di mana lebar pilihan setiap sel diatur sesuai nilai berdasarkan ukuran dan konten saat ini. Aspose.Words tidak memperbarui lebar yang disukai sehingga mereka hanya mendapatkan jelas. Meme it
-      {{% /alert %}}
-3. Juni Lebar kolom dihitung untuk konten tabel saat ini - hasil akhir adalah tabel yang menempati seluruh lebar yang tersedia
-4. Oktober Lebar kolom dalam perubahan tabel secara otomatis sebagai pengguna mengedit teks
+1. Properti **Table.AllowAutoFit** diaktifkan untuk mengubah ukuran kolom secara otomatis agar sesuai dengan konten yang tersedia, menggunakan nilai **Table.PreferredWidth** sebesar 100%
+2. **CellFormat.PreferredWidth** dihapus dari semua sel tabel
+   {{% alert color="primary" %}}
+   Perhatikan bahwa ini sedikit berbeda dari perilaku Microsoft Word, di mana lebar pilihan setiap sel diatur ke nilai yang sesuai berdasarkan ukuran dan kontennya saat ini. Aspose.Words tidak memperbarui lebar yang disukai sehingga hanya dihapus saja.
+   {{% /alert %}}
+3. Lebar kolom dihitung ulang untuk konten tabel saat ini-hasil akhirnya adalah tabel yang menempati seluruh lebar yang tersedia
+4. Lebar kolom dalam tabel berubah secara otomatis saat pengguna mengedit teks
 
-Contoh kode berikut menunjukkan cara autofit tabel ke lebar halaman:
+Contoh kode berikut menunjukkan cara menyesuaikan tabel secara otomatis ke lebar halaman:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "auto-fit-table-to-page-width.java" >}}
 
-Contoh bagaimana opsi ini diterapkan pada tabel di atas dapat dilihat di gambar di bawah ini.
+Contoh bagaimana opsi ini diterapkan pada tabel di atas dapat dilihat pada gambar di bawah ini.
 
 <img src="/words/java/applying-formatting/how-to-apply-different-autofit-settings-to-a-table-2.png" alt="autofit-table-aspose-words-java" style="width:500px"/>
 
-#### Tabel AutoFit ke Konten
+#### AutoFit Tabel ke Konten
 
-Ketika tabel diotomatiskan konten, langkah-langkah berikut benar-benar dilakukan di belakang adegan:
+Saat tabel melengkapi konten secara otomatis, langkah-langkah berikut sebenarnya dilakukan di belakang layar:
 
-Sitemap Login **Table.AllowAutoFit** properti diaktifkan untuk mengubah ukuran secara otomatis setiap sel sesuai dengan kontennya
+1. Properti **Table.AllowAutoFit** diaktifkan untuk mengubah ukuran setiap sel secara otomatis sesuai dengan kontennya
 
-2. di Lebar meja yang disukai dihapus dari **Table.PreferredWidth**, **CellFormat.PreferredWidth** dihapus untuk setiap sel meja
-      {{% alert color="primary" %}}
+2. Lebar tabel yang disukai dihapus dari **Table.PreferredWidth**, **CellFormat.PreferredWidth** dihapus untuk setiap sel tabel
+   {{% alert color="primary" %}}
 
-   Perhatikan bahwa opsi autofit ini menghilangkan lebar yang disukai dari sel, seperti dalam Microsoft WordSitemap Jika Anda ingin menyimpan ukuran kolom dan meningkatkan atau menurunkan kolom agar sesuai konten, Anda harus mengatur **Table.AllowAutoFit** properti **True** sendiri daripada menggunakan shortcut autofit.{{% /alert %}}
+   Perhatikan bahwa opsi isiotomatis ini menghapus lebar yang diinginkan dari sel, seperti pada Microsoft Word. Jika Anda ingin mempertahankan ukuran kolom dan menambah atau mengurangi kolom agar sesuai dengan konten, Anda harus menyetel properti **Table.AllowAutoFit** ke **True** sendiri daripada menggunakan pintasan autofit.{{% /alert %}}
 
-3. Juni Lebar kolom dihitung ulang untuk konten tabel saat ini - hasil akhir adalah tabel di mana lebar kolom dan lebar seluruh tabel secara otomatis diubah menjadi yang terbaik sesuai dengan konten sebagai pengguna mengedit teks
+3. Lebar kolom dihitung ulang untuk konten tabel saat ini-hasil akhirnya adalah tabel dengan lebar kolom dan lebar seluruh tabel diubah ukurannya secara otomatis agar paling sesuai dengan konten saat pengguna mengedit teks
 
-Contoh kode berikut menunjukkan cara autofit tabel ke kontennya:
+Contoh kode berikut menunjukkan cara menambahkan tabel secara otomatis ke kontennya:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "auto-fit-table-to-contents.java" >}}
 
-Contoh bagaimana opsi ini diterapkan pada tabel di atas dapat dilihat di gambar di bawah ini.
+Contoh bagaimana opsi ini diterapkan pada tabel di atas dapat dilihat pada gambar di bawah ini.
 
 <img src="/words/java/applying-formatting/how-to-apply-different-autofit-settings-to-a-table-3.png" alt="resize-column-autofit-settings-aspose-words-java" style="width:500px"/>
 
-#### Disable AutoFit di Tabel dan Gunakan Lebar Kolom Tetap
+#### Nonaktifkan AutoFit dalam Tabel dan Gunakan Lebar Kolom Tetap
 
-Jika tabel memiliki lebar kolom yang dinonaktifkan dan tetap digunakan, langkah-langkah berikut dilakukan:
+Jika tabel menonaktifkan autofit dan lebar kolom tetap digunakan sebagai gantinya, langkah-langkah berikut akan dilakukan:
 
-Sitemap **Table.AllowAutoFit** properti dinonaktifkan sehingga kolom tidak tumbuh atau mengecilkan konten mereka
-2. di Lebar yang disukai dari seluruh meja dihapus dari **Table.PreferredWidth**, **CellFormat.PreferredWidth** dihapus dari semua sel tabel
-3. Juni Hasil akhir adalah tabel yang lebar kolom ditentukan oleh [CellFormat.Width](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getWidth) properti, dan kolomnya tidak otomatis diubah ketika pengguna memasukkan teks atau ketika halaman diubah
+1. properti **Table.AllowAutoFit** dinonaktifkan sehingga kolom tidak bertambah atau menyusut sesuai kontennya
+2. Lebar yang disukai dari seluruh tabel dihapus dari **Table.PreferredWidth**, **CellFormat.PreferredWidth** dihapus dari semua sel tabel
+3. Hasil akhirnya adalah tabel yang lebar kolomnya ditentukan oleh properti [CellFormat.Width](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getWidth), dan kolomnya tidak diubah ukurannya secara otomatis saat pengguna memasukkan teks atau saat halaman diubah ukurannya
 
 {{% alert color="primary" %}}
 
-Perhatikan bahwa jika tidak ada lebar ditentukan untuk **CellFormat.Width**, nilai default satu inci (72 poin) digunakan.
+Perhatikan bahwa jika tidak ada lebar yang ditentukan untuk **CellFormat.Width**, nilai default satu inci (72 poin) digunakan.
 
 {{% /alert %}}
 
-Contoh kode berikut menunjukkan cara menonaktifkan autofit dan memungkinkan lebar tetap untuk tabel yang ditentukan:
+Contoh kode berikut menunjukkan cara menonaktifkan autofit dan mengaktifkan lebar tetap untuk tabel yang ditentukan:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "auto-fit-table-to-fixed-column-widths.java" >}}
 
-Contoh bagaimana opsi ini diterapkan pada tabel di atas dapat dilihat di gambar di bawah ini.
+Contoh bagaimana opsi ini diterapkan pada tabel di atas dapat dilihat pada gambar di bawah ini.
 
 <img src="/words/java/applying-formatting/how-to-apply-different-autofit-settings-to-a-table-4.png" alt="disable-autofit-settings-to-a-table-aspose-words-java" style="width:500px"/>
 
-### Order of Precedence ketika Menghitung Lebar Sel
+### Urutan Prioritas saat Menghitung Lebar Sel
 
-Aspose.Words memungkinkan pengguna untuk menentukan lebar meja atau sel melalui beberapa objek, termasuk [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) Sitemap [Width](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getWidth) properti sebagian besar tersisa dari versi sebelumnya, namun, masih berguna untuk menyederhanakan pengaturan lebar sel.
+Aspose.Words memungkinkan pengguna untuk menentukan lebar tabel atau sel melalui beberapa objek, termasuk [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) - properti [Width](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getWidth) sebagian besar tersisa dari versi sebelumnya, namun tetap berguna untuk menyederhanakan pengaturan lebar sel.
 
-Penting untuk mengetahui bahwa **CellFormat.Width** properti bekerja berbeda tergantung pada yang sifat lebar lainnya sudah ada di meja.
+Penting untuk diketahui bahwa properti **CellFormat.Width** bekerja secara berbeda tergantung pada properti width mana yang sudah ada dalam tabel.
 
 Aspose.Words menggunakan urutan berikut untuk menghitung lebar sel:
 
-|  Sitemap |  Login |  Sitemap |
-|  -----  |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  1      |  [AllowAutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowAutoFit) ditentukan |  Sitemap **AutoFit** diaktifkan:<br/>- tabel dapat menumbuhkan lebar pilihan untuk mengakomodasi konten - biasanya tidak menyusut di bawah lebar pilihan<br/>- setiap perubahan pada **CellFormat.Width** nilai diabaikan dan sel akan sesuai dengan kontennya bukan Meme it |
-|  2      |  [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/) dengan nilai **Points** Sitemap **Percent** |  **CellFormat.Width** diabaikan |
-|  3      |  [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/) dengan nilai **Auto** |  Nilai dari **CellFormat.Width** disalin dan menjadi lebar sel yang disukai (dalam poin) |
+| Pesan | Properti | Deskripsi |
+| ----- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+|  | [AllowAutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowAutoFit) ditentukan | Jika **AutoFit** diaktifkan:<br>– tabel dapat bertambah melewati lebar yang diinginkan untuk mengakomodasi konten-biasanya tidak menyusut di bawah lebar yang diinginkan<br>- setiap perubahan pada nilai **CellFormat.Width** diabaikan dan sel akan sesuai dengan isinya sebagai gantinya |
+|  | [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/) dengan nilai **Points** atau **Percent** | **CellFormat.Width** diabaikan |
+|  | [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/) dengan nilai **Auto** | Nilai dari **CellFormat.Width** disalin dan menjadi lebar pilihan sel (dalam poin) |
 
 {{% alert color="primary" %}}
 
-Setiap perubahan pada properti lebar tidak diperbarui dalam lebar yang disukai dan tidak boleh diterapkan pada lebar yang disukai.
+Setiap perubahan pada properti width tidak diperbarui dalam lebar yang disukai dan sebagai gantinya harus diterapkan pada lebar yang disukai.
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-Sementara membuat tata letak meja tetap, tentukan lebar sel. Sel tanpa lebar tidak dapat disimpan ke format DOC. Format dokumen selain DOC, seperti DOCX, memungkinkan, pada prinsipnya, menyimpan sel tanpa lebar dalam tata letak meja tetap.
+Saat membuat tata letak tabel tetap, tentukan lebar sel. Sel tanpa lebar tidak dapat disimpan ke format DOC. Format dokumen selain DOC, seperti DOCX, memungkinkan, pada prinsipnya, menyimpan sel tanpa lebar dalam tata letak tabel tetap.
 
 {{% /alert %}}
 
-## Memungkinkan Spacing Antara Sel
+## Izinkan jarak antar sel
 
-Anda bisa mendapatkan atau mengatur ruang tambahan antara sel-sel meja yang mirip dengan opsi "perawatan" di Microsoft WordSitemap Ini dapat dilakukan dengan menggunakan [AllowCellSpacing](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowCellSpacing) Login
+Anda bisa mendapatkan atau mengatur ruang tambahan di antara sel tabel yang mirip dengan opsi" Spasi sel " di Microsoft Word. Ini dapat dilakukan dengan menggunakan properti [AllowCellSpacing](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowCellSpacing).
 
-Contoh bagaimana opsi ini diterapkan pada tabel nyata dalam dokumen dapat dilihat dalam gambar di bawah ini.
+Contoh bagaimana opsi ini diterapkan ke tabel nyata dalam dokumen dapat dilihat pada gambar di bawah ini.
 
 <img src="/words/java/applying-formatting/applying-formatting-10.png" alt="formatting-spacing-between-cells-aspose-words-java" style="width:500px"/>
 
-Contoh kode berikut menunjukkan cara mengatur jarak antara sel:
+Contoh kode berikut menunjukkan cara mengatur jarak antar sel:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "allow-cell-spacing.java" >}}
 
-## Menerapkan Perbatasan dan Shading
+## Terapkan Batas dan Bayangan
 
-Perbatasan dan pencukur dapat diterapkan baik ke seluruh meja menggunakan [Table.SetBorder](https://reference.aspose.com/words/java/com.aspose.words/table/#setBorder-int-int-double-java.awt.Color-boolean), [Table.SetBorders](https://reference.aspose.com/words/java/com.aspose.words/table/#setBorders-int-double-java.awt.Color) Login [Table.SetShading](https://reference.aspose.com/words/java/com.aspose.words/table/#setShading-int-java.awt.Color-java.awt.Color), atau hanya untuk sel tertentu menggunakan [CellFormat.Borders](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getBorders) Login [CellFormat.Shading](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getShading)Sitemap Selain itu, perbatasan baris dapat diatur menggunakan [RowFormat.Borders](https://reference.aspose.com/words/java/com.aspose.words/rowformat/#getBorders), namun tidak dapat diterapkan dengan cara ini.
+Batas dan bayangan dapat diterapkan ke seluruh tabel menggunakan [Table.SetBorder](https://reference.aspose.com/words/java/com.aspose.words/table/#setBorder-int-int-double-java.awt.Color-boolean), [Table.SetBorders](https://reference.aspose.com/words/java/com.aspose.words/table/#setBorders-int-double-java.awt.Color) dan [Table.SetShading](https://reference.aspose.com/words/java/com.aspose.words/table/#setShading-int-java.awt.Color-java.awt.Color), atau hanya ke sel tertentu menggunakan [CellFormat.Borders](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getBorders) dan [CellFormat.Shading](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getShading). Selain itu, batas baris dapat diatur menggunakan [RowFormat.Borders](https://reference.aspose.com/words/java/com.aspose.words/rowformat/#getBorders), namun bayangan tidak dapat diterapkan dengan cara ini.
 
-Gambar di bawah ini menunjukkan pengaturan perbatasan dan bayangan di Microsoft Word dan sifatnya yang sesuai Aspose.WordsSitemap
+Gambar-gambar di bawah ini menunjukkan pengaturan batas dan bayangan di Microsoft Word dan properti terkait di Aspose.Words.
 
 ![apply-borders-shading-aspose-words-java-1](/words/java/applying-formatting/applying-formatting-to-table-row-and-cell-6.png)
 
@@ -331,6 +331,6 @@ Gambar di bawah ini menunjukkan pengaturan perbatasan dan bayangan di Microsoft 
 ![apply-borders-shading-aspose-words-java-2](/words/java/applying-formatting/applying-formatting-to-table-row-and-cell-7.png)
 
 
-Contoh kode berikut menunjukkan cara memformat tabel dan sel dengan batas yang berbeda dan membentuk:
+Contoh kode berikut menunjukkan cara memformat tabel dan sel dengan batas dan bayangan yang berbeda:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "format-table-and-cell-with-different-borders.java" >}}

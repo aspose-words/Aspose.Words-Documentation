@@ -1,214 +1,214 @@
----
-title: 使用 `DocumentBuilder` 插入文档元素
-second_title: "Aspose.Words (单位:千美元) Java"
-articleTitle: 使用 `DocumentBuilder` 插入文档元素
-linktitle: 使用 `DocumentBuilder` 插入文档元素
+﻿---
+title: 使用DocumentBuilder插入文档元素
+second_title: Aspose.Words为Java
+articleTitle: 使用DocumentBuilder插入文档元素
+linktitle: 使用DocumentBuilder插入文档元素
 type: docs
-description: "使用文档构建器插入文档元素 Java。 。 。 。"
+description: "使用Java中的文档构建器插入文档元素。"
 weight: 10
 url: /zh/java/use-documentbuilder-to-insert-document-elements/
 timestamp: 2024-01-27-14-07-04
 ---
 
-那个 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) 用于修改文档。 本条解释并描述了如何完成一些任务.
+[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)用于修改文档。 本文解释并描述了如何执行许多任务。
 
-## 插入文本的字符串
+## 插入文本字符串
 
-只需将您需要插入文档的文本串传递到 [DocumentBuilder.write](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#write(java.lang.String))方法。 文本格式由 `Font` 属性。 此对象包含不同的字体属性(font名称,字体大小,颜色等). 一些重要的字体属性也由 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) 属性允许您直接访问它们。 这些是布尔属性 [Font.getBold](https://reference.aspose.com/words/java/com.aspose.words/font/#getBold), [Font.getItalic](https://reference.aspose.com/words/java/com.aspose.words/font/#getItalic), 和 [Font.getUnderline](https://reference.aspose.com/words/java/com.aspose.words/font/#getUnderline)。 。 。 。
+只需将需要插入到文档中的文本字符串传递给[DocumentBuilder.write](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#write(java.lang.String)）方法。 文本格式由`Font`属性决定。 此对象包含不同的字体属性（字体名称、字体大小、颜色等）。 一些重要的字体属性也由[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)属性表示，以允许您直接访问它们。 这些是布尔属性[Font.getBold](https://reference.aspose.com/words/java/com.aspose.words/font/#getBold)，[Font.getItalic](https://reference.aspose.com/words/java/com.aspose.words/font/#getItalic)和[Font.getUnderline](https://reference.aspose.com/words/java/com.aspose.words/font/#getUnderline)。
 
 {{% alert color="primary" %}}
 
-请注意,您设定的字符格式将适用于所有从文档当前位置插入的文本。
+请注意，您设置的字符格式将应用于从文档当前位置开始插入的所有文本。
 
 {{% /alert %}}
 
-以下代码示例 使用文档构建器插入格式化文本 。
+下面的代码示例使用DocumentBuilder插入格式化文本。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WriteAndFont-WriteAndFont.java" >}}
 
-## 插入一个段落
+## 插入段落
 
-文档Builder.writeln在文档中也插入一串文本,但除此之外,它还添加了一个段落间隔。 当前字体格式也由文档构建器指定. 起来 字体属性和当前段落格式由文档构建器.getFormat属性决定。
+DocumentBuilder.writeln也将一串文本插入到文档中，但此外，它还添加了一个段落中断。 当前字体格式也由DocumentBuilder指定。getFont属性和当前段落格式由DocumentBuilder确定。getParagraphFormat属性。
 
-以下代码示例显示如何在文档中插入一个段落。
+下面的代码示例演示如何将段落插入到文档中。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-DocumentBuilderInsertParagraph.java" >}}
 
-## 插入一个表格
+## 插入表
 
-使用 `DocumentBuilder` 简单:
+使用`DocumentBuilder`创建表的基本算法很简单:
 
-一、导 言 使用 [DocumentBuilder.startTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable)。 。 。 。
-一、导 言 使用 [DocumentBuilder.insertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell)。 。 。 。 此自动启动新行 。 如果需要,请使用 [DocumentBuilder.getCellFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCellFormat) 属性以指定单元格格式。
-一、导 言 使用单元格内容插入 `DocumentBuilder` 方法。 方法。 。
-一、导 言 重复第二步和第三步,直到行完成.
-一、导 言 调用 [DocumentBuilder.endRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) 以结束当前行。 必要时使用 [DocumentBuilder.RowFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getRowFormat) 属性以指定行格式。
-一、导 言 重复步骤2 - 5,直到表完成.
-一、导 言 调用 [DocumentBuilder.endTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) 完成桌楼。 下文介绍了适当的文档构建器表格创建方法。
+1. 使用[DocumentBuilder.startTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable)启动表。
+1. 使用[DocumentBuilder.insertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell)插入单元格。 这会自动启动一个新行。 如果需要，请使用[DocumentBuilder.getCellFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCellFormat)属性指定单元格格式。
+1. 使用`DocumentBuilder`方法插入单元格内容。
+1. 重复步骤2和3，直到行完成。
+1. 调用[DocumentBuilder.endRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow)结束当前行。 如果需要，请使用[DocumentBuilder.RowFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getRowFormat)属性指定行格式。
+1. 重复步骤2-5，直到表格完成。
+1. 调用[DocumentBuilder.endTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable)完成表构建。 下面描述了适当的DocumentBuilder表创建方法。
 
-### 开始表格
+### 开始一张桌子
 
-调用文档构建器. start 桌子是建造桌子的第一步。 也可以在一个细胞内叫,在这种情况下,它开始一个嵌入式的桌子. 下一个调用的方法是 DocumentBuilder. 插入Cell.
+调用DocumentBuilder。startTable是构建表的第一步。 它也可以在单元格内部调用，在这种情况下，它启动一个嵌套表。 下一个要调用的方法是DocumentBuilder。insertCell.
 
 ### 插入单元格
 
-拨打文档库后. 插入 单元格,创建一个新单元格,并使用其他方法添加任何内容 `DocumentBuilder` 类将被添加到当前单元格中。 要在同一行开始一个新的单元格,请拨打文档构建器。 插入 又来手机了 使用文档构建器。 getCell 格式属性以指定单元格格式。 它返回一个 [getCellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) 对象,它代表表格单元格的所有格式。
+调用DocumentBuilder后。insertCell，将创建一个新单元格，并且您使用`DocumentBuilder`类的其他方法添加的任何内容都将添加到当前单元格中。 要在同一行中启动新单元格，请调用DocumentBuilder。insertCell再次。 使用DocumentBuilder。getCellFormat属性用于指定单元格格式。 它返回一个[getCellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/)对象，表示表格单元格的所有格式。
 
-### 结束行
+### 结束一行
 
-调用文档构建器. end 要完成当前行的行 。 若唤作文档建设者. 插入 紧接着的单元格,然后表格在新的行上继续. 使用 `DocumentBuilder.RowFormat` 属性以指定行格式。 它返回一个 [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/) 对象表示表格行的所有格式。
+调用DocumentBuilder。endRow完成当前行。 如果调用DocumentBuilder。insertCell紧接着，然后表继续在新行上。 使用`DocumentBuilder.RowFormat`属性指定行格式。 它返回一个[RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/)对象，表示表行的所有格式。
 
-### 结束一个表格
+### 结束表
 
-调用文档构建器. end 要填写当前表格的表格 。 这种方法只应在DocumentBuilder之后调用一次. endRow被调用。 当调用时, DocumentBuilder.end 表格将光标从当前单元格中移动到表格之后的位置。 下面的例子说明如何构建一个包含2行和2列的格式表格.
+调用DocumentBuilder。endTable完成当前表。 此方法只应在DocumentBuilder之后调用一次。endRow被称为。 调用时，DocumentBuilder。endTable将光标移出当前单元格到表格后面的位置。 下面的示例演示如何构建包含2行和2列的格式化表。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderBuildTable-DocumentBuilderBuildTable.java" >}}
 
-## 插入换行符
+## 插入中断
 
-如果您想要明确启动新行, 段落, 列, 段落, 或页面, 请调用文档构建器 。 插入断层。 传递到此方法中您需要插入的换行类型为 `BreakType` 计数
-以下代码示例显示如何在文档中插入分页符。
+如果要显式开始新行、段落、列、节或页，请调用DocumentBuilder。insertBreak. 将需要插入的由`BreakType`枚举表示的中断类型传递给此方法。
+下面的代码示例演示如何在文档中插入分页符。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertBreak-DocumentBuilderInsertBreak.java" >}}
 
 ## 插入图像
 
-文件构建器提供了数个超载 [DocumentBuilder.insertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte) 使您能够插入内置或浮动图像的方法。 如果图像是EMF或WMF metafile,将以metafile格式插入文档. 所有其他图像将以PNG格式存储. 文档构建器。 插入 图像方法可以使用不同来源的图像:
+DocumentBuilder提供[DocumentBuilder.insertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte)方法的多个重载，允许您插入内联或浮动图像。 如果图像是EMF或WMF元文件，它将以元文件格式插入到文档中。 所有其他图像将以PNG格式存储。 的DocumentBuilder。insertImage方法可以使用来自不同来源的图像:
 
-- 从文件或 `URL` 通过字符串参数
-- 从溪流经过 `Stream` 参数
-- 从图像对象通过图像参数
-- 从字节数组通过字节数组参数
-- 怎么样? 还有其他人
+- 通过传递字符串参数从文件或`URL`
+- 通过传递`Stream`参数从流
+- 通过传递图像参数从图像对象
+- 通过传递字节数组参数从字节数组
+- 和其他人
 
-为各造文具. 插入 图像方法,还有更多的超载,允许您插入一个带有以下选项的图像:
+对于DocumentBuilder中的每一个。insertImage方法，还有更多的重载，允许您使用以下选项插入图像:
 
-- 内在或漂浮在特定位置
-- 比例或自定义规模
+- 在特定位置内联或浮动
+- 百分比比例或自定义大小
 
-此外,文件编制器。 图像方法返回 a [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) 对象刚刚创建并插入,以便您进一步修改形状的属性。
+此外，DocumentBuilder。insertImage方法返回刚刚创建并插入的[Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/)对象，以便您可以进一步修改形状的属性。
 
-### 插入内置图像
+### 插入内联图像
 
-将一个代表图像的文件的单一字符串传递到文档构建器 。 插入 将图像作为内置图形插入文档的图像。 以下代码示例显示如何将光标位置的内置图像插入文档。
+将表示包含图像的文件的单个字符串传递给DocumentBuilder。insertImage将图像作为内联图形插入到文档中。 下面的代码示例演示如何将光标位置的内联图像插入到文档中。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertInlineImage-DocumentBuilderInsertInlineImage.java" >}}
 
-### 插入浮动( 绝对定位) 图像
+### 插入浮动（绝对定位）图像
 
-此示例从文件中插入浮动图像或 `URL` 在指定的位置和大小。
+此示例在指定位置和大小处插入文件或`URL`中的浮动图像。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertFloatingImage-DocumentBuilderInsertFloatingImage.java" >}}
 
 ## 插入书签
 
-要在文档中插入书签,您应当做到以下几点:
+要在文档中插入书签，您应该执行以下操作:
 
-一、导 言 调用 [DocumentBuilder.startBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startBookmark-java.lang.String) 把它传到书签上
-一、导 言 使用 `DocumentBuilder` 方法。 方法。 。
-一、导 言 调用 [DocumentBuilder.endBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endBookmark-java.lang.String) 与文档Builder. startBookmark使用的名称相同。
+1. 调用[DocumentBuilder.startBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startBookmark-java.lang.String)，将所需的书签名称传递给它。
+1. 使用`DocumentBuilder`方法插入书签文本。
+1. 调用[DocumentBuilder.endBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endBookmark-java.lang.String)传递与DocumentBuilder相同的名称。startBookmark.
 
-书签可以重叠,跨越任意范围. 要创建有效的书签, 您需要调用相同的书签名称的 DocumentBuilder. startBookmark 和 DocumentBuilder. endBookmark 。
+书签可以重叠并跨越任何范围。 要创建一个有效的书签，您需要调用两个DocumentBuilder。startBookmark和DocumentBuilder。endBookmark具有相同的书签名称。
 
-不良形成的书签或带有重复名称的书签在保存文档时会被忽略.
+保存文档时，格式错误的书签或名称重复的书签将被忽略。
 
-以下代码示例显示如何使用文档构建器在文档中插入书签.
+下面的代码示例演示如何使用文档生成器将书签插入到文档中。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertBookmark-DocumentBuilderInsertBookmark.java" >}}
 
 ## 插入字段
 
-域数 Microsoft Word 文档包含一个字段代码和一个字段结果。 字段代码就像一个公式,字段结果就是公式产生的值. 字段代码也可能包含字段开关,这些开关是执行特定动作的补充指示. 您可以在文档中显示字段代码和结果之间切换到 Microsoft Word 使用键盘快捷键 Alt+F9. 字段代码出现在卷曲括号之间( { } 使用。 [DocumentBuilder.insertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) 在文档中创建字段。 您需要指定字段类型、字段代码和字段值。 如果您不确定特定字段代码语法,请在 Microsoft Word 首先切换到查看它的字段代码。
-以下代码示例使用文档构建器将合并字段插入文档中。
+Microsoft Word文档中的字段由字段代码和字段结果组成。 字段代码就像一个公式，字段结果是公式产生的值。 字段代码还可以包含字段开关，它们是执行特定动作的附加指令。 您可以使用键盘快捷键Alt+F9在Microsoft Word中的文档中显示字段代码和结果之间切换。 字段代码出现在花括号(`{ }`)之间。使用[DocumentBuilder.insertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean)在文档中创建字段。 您需要指定字段类型、字段代码和字段值。 如果您不确定特定的字段代码语法，请先在Microsoft Word中创建字段，然后切换以查看其字段代码。
+下面的代码示例使用DocumentBuilder将合并字段插入到文档中。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertField-DocumentBuilderInsertField.java" >}}
 
-## 插入a `Form` 外地
+## 插入`Form`字段
 
-窗体字段是Word字段的特例,允许与用户"交互". 格式字段在 Microsoft Word 包括文本框、Combox和复选框。 文档构建器提供了在文档中插入每一种窗体字段的特殊方法: [DocumentBuilder.insertTextInput](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertTextInput-java.lang.String-int-java.lang.String-java.lang.String-int) , (中文). [DocumentBuilder.insertCheckBox](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCheckBox-java.lang.String-boolean-boolean-int), 和 [DocumentBuilder.insertComboBox](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertComboBox-java.lang.String-java.lang.String---int)。 。 。 注意,如果指定窗体字段的名称,则自动创建同名书签.
+表单字段是允许与用户"交互"的Word字段的特定情况。 Microsoft Word中的表单字段包括textbox，Combobox和checkbox。DocumentBuilder提供了将每种类型的表单字段插入文档的特殊方法：[DocumentBuilder.insertTextInput](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertTextInput-java.lang.String-int-java.lang.String-java.lang.String-int)、[DocumentBuilder.insertCheckBox](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCheckBox-java.lang.String-boolean-boolean-int)和[DocumentBuilder.insertComboBox](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertComboBox-java.lang.String-java.lang.String---int)。 请注意，如果为表单字段指定名称，则会自动创建具有相同名称的书签。
 
 ### 插入文本输入
 
-文档构建器。插入文本输入以插入到文档中。 以下代码示例显示如何在文档中插入文本输入窗体字段。
+DocumentBuilder.insertTextInput在文档中插入文本框。 下面的代码示例演示如何将文本输入表单字段插入到文档中。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertTextInputFormField-DocumentBuilderInsertTextInputFormField.java" >}}
 
-### 插入a `CheckBox`
+### 插入`CheckBox`
 
-调用文档构建器。 插入 检查框将一个复选框插入到文档中。 以下代码示例显示如何在文档中插入一个复选框窗体字段。
+调用DocumentBuilder。insertCheckBox在文档中插入checkbox。 下面的代码示例演示如何将checkbox表单字段插入到文档中。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertCheckBoxFormField-DocumentBuilderInsertCheckBoxFormField.java" >}}
 
 ### 插入组合框
 
-调用文档构建器。 插入ComboBox 在文档中插入组合框。 以下代码示例显示如何在文档中插入组合框窗体字段。
+调用DocumentBuilder。insertComboBox在文档中插入组合框。 下面的代码示例演示如何将组合框表单字段插入到文档中。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertComboBoxFormField-DocumentBuilderInsertComboBoxFormField.java" >}}
 
-## 在外地一级插入语言
+## 在字段级别插入区域设置
 
-客户可以说明 地处外地,可以实现更好的控制。 语言 Ids可以和文档构建器中的每个字段关联. 下面的例子说明如何利用这一选择。
+客户现在可以在字段级别指定区域设置，并且可以实现更好的控制。 区域设置Id可以与DocumentBuilder内的每个字段相关联。 下面的示例说明了如何使用此选项。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-SpecifylocaleAtFieldlevel-SpecifylocaleAtFieldlevel.java" >}}
 
-## 插入 HTML
+## 插入HTML
 
-您可以在 Word 文档中轻松插入包含 HTML 片段或整个 HTML 文档的 HTML 字符串。 把这个字符串传递给文档构建器 。 插入 Html方法 (英语). 方法的有用执行之一是将 HTML 字符串存储在数据库中,并在文档中插入 Mail Merge 要添加格式化的内容,而不是使用文档构建器的各种方法来构建。 以下代码示例显示使用文档构建器将 HTML 插入到文档中.
+您可以轻松地将包含HTML片段或整个HTML文档的HTML字符串插入到Word文档中。 只需将此字符串传递给DocumentBuilder即可。insertHtml方法。 该方法的有用实现之一是将HTML字符串存储在数据库中，并在Mail Merge期间将其插入文档中，以获取添加的格式化内容，而不是使用文档构建器的各种方法构建 下面的代码示例显示使用DocumentBuilder将HTML插入到文档中。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHtml-DocumentBuilderInsertHtml.java" >}}
 
 ## 插入超链接
 
-使用文档Builder. 插入Hyperlink在文档中插入超链接. 这种方法接受三个参数:文档中要显示的链接文本,链接目的地(URL或文档中书签的名称),以及布尔参数,应当为 true 如果 `URL` 是文档中书签的名称。 文档构建器 插入Hyperlink内部呼叫文档构建器 插入字段 。 该方法总是在 URL 的始末添加aposrophes. 请注意,您需要明确使用超链接显示文本的字体格式 `Font` 属性。 以下代码示例使用文档构建器在文档中插入超链接。
+使用DocumentBuilder。insertHyperlink在文档中插入超链接。 此方法接受三个参数：要在文档中显示的链接的文本、链接目标（URL或文档内书签的名称）以及如果`URL`是文档内书签的名称，则应为true的布尔参数。DocumentBuilder.insertHyperlink内部调用DocumentBuilder。insertField. 该方法始终在URL的开头和结尾添加撇号。 请注意，您需要使用`Font`属性显式指定超链接显示文本的字体格式。 下面的代码示例使用DocumentBuilder将超链接插入到文档中。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHyperlink-DocumentBuilderInsertHyperlink.java" >}}
 
 ## 插入目录
 
-您可以插入一个 `TOC` (目录)按当前位置在文档中填入 [DocumentBuilder.insertTableOfContents](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertTableOfContents-java.lang.String) 方法。 文档构建器。 插入 TableOf Contents 方法将只插入一个 `TOC` 字段输入文档。 为了构建目录并按页码显示,两者 **Document.UpdateFields**方法必须在插入字段后调用。 以下代码示例显示如何在文档中插入目录字段。
+您可以通过调用[DocumentBuilder.insertTableOfContents](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertTableOfContents-java.lang.String)方法将`TOC`（目录）字段插入到当前位置的文档中。 的DocumentBuilder。insertTableOfContents方法只会在文档中插入`TOC`字段。 为了构建目录并根据页码显示它们，必须在插入字段后调用both**Document.UpdateFields**方法。 下面的代码示例演示如何将目录字段插入到文档中。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertTableOfContents-DocumentBuilderInsertTableOfContents.java" >}}
 
-## 插入 Ole 对象
+## 插入Ole对象
 
-如果您想要 Ole 对象调用 [DocumentBuilder.insertOleObjectAsIcon](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOleObjectAsIcon-java.lang.String-boolean-java.lang.String-java.lang.String)。 。 。 。
+如果你想Ole对象调用[DocumentBuilder.insertOleObjectAsIcon](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOleObjectAsIcon-java.lang.String-boolean-java.lang.String-java.lang.String)。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertOleObject-DocumentBuilderInsertOleObject.java" >}}
 
-## 插入 Ole 对象时设定文件名称和扩展名
+## 插入Ole对象时设置文件名和扩展名
 
-OLE包是一种遗产和"无文件"的方式,如果OLE处理器未知,可以存储嵌入式对象. 早点 Windows 例如, Windows 3.1、95和98有包商。 执行可用于将任何类型数据嵌入文档的应用程序。 现在,这个应用程序被排除在 Windows 但是,如果OLE处理器缺失或未知,MS Word和其他应用程序仍然使用它来嵌入数据. OlePackage类允许访问OLE包属性. 以下代码示例显示如何设置OLE套件的文件名称,扩展名和显示名称.
+如果OLE处理程序未知，OLE包是存储嵌入对象的传统和"未记录"方式。 早期的Windows版本，如Windows 3.1，95和98有Packager.exe应用程序，可用于将任何类型的数据嵌入到文档中。 现在，此应用程序从Windows中排除，但MSWord和其他应用程序仍然使用它来嵌入数据，如果OLE处理程序丢失或未知。 OlePackage类允许访问OLE Package属性。下面的代码示例演示如何设置OLE Package的文件名、扩展名和显示名称。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertElements-InsertOleObjectwithOlePackage.java" >}}
 
-## 获取 OLE 对象原始数据
+## 获取对OLE对象原始数据的访问
 
-以下代码示例演示如何获取 OLE 使用对象原始数据 `OleFormat.GetRawData`() 方法。
+下面的代码示例演示如何使用`OleFormat.GetRawData`()方法获取OLE对象原始数据。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertElements-GetAccessToOLEObjectRawData.java" >}}
 
-## 水平插入 规则为文档
+## 在文档中插入水平规则
 
-以下代码示例显示如何使用 `DocumentBuilder.InsertHorizontalRule` 方法。
+下面的代码示例演示如何使用`DocumentBuilder.InsertHorizontalRule`方法将水平规则形状插入到文档中。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHorizontalRule-DocumentBuilderInsertHorizontalRule.java" >}}
 
-## 与形状合作
+## 使用形状
 
-### 插入内线和自由浮动形状
+### 插入内联和自由浮动形状
 
-您可以在文档中插入带有指定类型和大小以及带有指定位置、大小和文本包类型的自由浮动形状的内置形状。 `DocumentBuilder.InsertShape` 方法。 那个 `DocumentBuilder.InsertShape` 方法允许在文档模型中插入 DML 形状。 文档必须保存在支持DML形状的格式中,否则这样的节点会被转换成VML形状,同时保存文档. 以下代码示例显示如何在文档中插入这些类型的形状.
+您可以使用`DocumentBuilder.InsertShape`方法将具有指定类型和大小的内联形状以及具有指定位置、大小和文本换行类型的自由浮动形状插入到文档中。 `DocumentBuilder.InsertShape`方法允许将DML形状插入到文档模型中。 文档必须以支持DML形状的格式保存，否则这样的节点将在文档保存时转换为VML形状。 下面的代码示例演示如何将这些类型的形状插入到文档中。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-InsertShapeUsingDocumentBuilder.java" >}}
 
-### 创建剪刀角矩形
+### 创建剪断角矩形
 
-您可以使用 Aspose.Words。 。 。 形状类型有:SingleCornerSnipt,TopCornersSnipt,diagonalCornersSnipt,TopCorners OneRounded 等. OneSnipt,SingleCornerRound,TopCornersRound,以及DiagonalCornersRound. 中国植物物种信息数据库. DML 形状是使用 `DocumentBuilder.InsertShape` 这些形状类型的方法。 这些类型不能用来创建VML形状. 试图通过使用"形状"类的公建器来创造形状,提出了"不支持的例外"例外. 以下代码示例显示如何在文档中插入这些类型的形状.
+您可以使用Aspose.Words创建剪断角矩形。 形状类型是SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped, TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, 和DiagonalCornersRounded。 使用具有这些形状类型的`DocumentBuilder.InsertShape`方法创建DML形状。 这些类型不能用于创建VML形状。 尝试使用"Shape"类的公共构造函数创建形状会引发"NotSupportedException"异常。 下面的代码示例演示如何将这些类型的形状插入到文档中。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-AddCornersSnipped.java" >}}
 
-### 导入带有数学 XML 的形状为形状 DOM
+### 将带有数学XML的形状作为形状导入DOM
 
-你可以用来 `LoadOptions.ConvertShapeToOfficeMath` 属性将带有方程式XML的形状转换为 Office Math 对象。 此属性的默认值对应 MS Word 行为,即带有方程式 XML 的形状不转换为 Office 数学对象.
+您可以使用`LoadOptions.ConvertShapeToOfficeMath`属性将带有EquationXML的形状转换为Office Math对象。 此属性的默认值对应于MS字行为，即具有公式XML的形状不会转换为Office math对象。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-ConvertShapeToOfficeMath.java" >}}

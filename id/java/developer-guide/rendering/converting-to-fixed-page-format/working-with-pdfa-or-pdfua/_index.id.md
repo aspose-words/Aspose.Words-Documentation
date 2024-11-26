@@ -1,70 +1,70 @@
----
-title: PDF/A
-second_title: Aspose.Words Sitemap Java
-articleTitle: PDF/A
-linktitle: PDF/A
-description: "Konversi ke PDF / A-1, PDF / A-2, PDF / A-4 dan PDF / U menggunakan JavaSitemap Ada beberapa masalah ketika mengkonversi ke dokumen PDF/A, dan Aspose.Words Sitemap Java menyelesaikannya."
+﻿---
+title: Bekerja dengan PDF/Aatau PDF/UA
+second_title: Aspose.Words untuk Java
+articleTitle: Bekerja dengan PDF/Aatau PDF/UA
+linktitle: Bekerja dengan PDF/Aatau PDF/UA
+description: "Konversikan ke PDF/A-1, PDF/A-2, PDF/A-4 dan PDF/UA menggunakan Java. Ada beberapa masalah saat mengonversi ke dokumen PDF/A, dan Aspose.Words untuk Java menyelesaikannya."
 type: docs
 weight: 28
 url: /id/java/working-with-pdfa-or-pdfua/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Format PDF / A dan PDF / U memaksakan beberapa persyaratan yang terkait dengan konten dokumen yang tidak dapat dipenuhi selama konversi otomatis dari dokumen dalam format Word ke PDF. Persyaratan ini harus diverifikasi dan dikoreksi baik dalam dokumen Word sebelum konversi atau dalam dokumen PDF setelah konversi untuk menghasilkan dokumen sesuai PDF / A dan PDF / U.
+Format PDF/A dan PDF/UA memberlakukan beberapa persyaratan terkait konten dokumen yang tidak dapat dipenuhi selama konversi otomatis dari dokumen dalam format Word menjadi PDF. Persyaratan ini harus diverifikasi dan dikoreksi baik dalam dokumen Word sebelum konversi atau dalam dokumen PDF setelah konversi untuk menghasilkan dokumen yang sepenuhnya sesuai dengan PDF/A dan PDF/UA.
 
-Persyaratan dasar untuk struktur atau font dokumen PDF/A dan PDF/UA, yang akan kami pertimbangkan di bagian berikut.
+Persyaratan dasar adalah untuk struktur atau font dokumen PDF/A dan PDF/UA, yang akan kita bahas di bagian berikut.
 
 {{% alert color="primary" %}}
 
-Harap dicatat bahwa output PDF/UA-1 juga akan sesuai dengan WCAG 2.0 dan Bagian 508.
+Harap perhatikan bahwa keluaran PDF/UA-1 juga akan sesuai dengan WCAG 2.0 dan Bagian 508.
 
 {{% /alert %}}
 
 ## Persyaratan Struktur Dokumen
 
-Persyaratan saat ini adalah untuk format PDF / A-1a, PDF / A-2a, PDF / A-4, dan PDF / U-1.
+Persyaratan saat ini adalah untuk PDF/A-1a, PDF/A-2a, PDF/A-4, dan format PDF/UA-1.
 
-Ada beberapa nuansa bagaimana Aspose.Words bekerja ketika mengkonversi ke berbagai standar format PDF. Mereka harus diperhitungkan jika Anda ingin mendapatkan hasil yang diharapkan.
+Ada beberapa nuansa tentang cara kerja Aspose.Words saat mengonversi ke berbagai standar format PDF. Mereka harus diperhitungkan jika Anda ingin mendapatkan hasil yang diharapkan.
 
 {{% alert color="primary" %}}
 
-Perhatikan bahwa tidak ada persyaratan struktur logis untuk PDF / A-4. Untuk alasan ini, kami tidak mempertimbangkan versi PDF / A-4 di bagian "Persyaratan Struktur Document".
+Perhatikan bahwa tidak ada persyaratan struktur logis untuk PDF/A-4. Untuk alasan ini, kami tidak mempertimbangkan versi PDF/A-4 di bagian "Persyaratan Struktur Dokumen" ini.
 
 {{% /alert %}}
 
 {{% alert color="secondary" %}}
 <details>
-    <summary>Spesifikasi memberi tahu kami rincian berikut:</summary>
+    <summary>Spesifikasi memberi tahu kami hal berikut (perluas untuk melihat detailnya):</summary>
     <p></p>
-    <p>Hal ini dapat diinformasikan untuk penulis untuk menghasilkan informasi struktural atau semantik menggunakan proses otomatis tanpa verifikasi yang tepat.</p>
-    <p>ISO JPY 108.08504 120.52496</p>
+    <p>Tidak disarankan bagi penulis untuk menghasilkan informasi struktural atau semantik menggunakan proses otomatis tanpa verifikasi yang sesuai.</p>
+    <p>ISO 19005-2, 6.7.1</p>
 </details>
 {{% /alert %}}
 
-Bagian bawah ini menjelaskan nuansa bagaimana Aspose.Words bekerja ketika mengkonversi ke berbagai standar dan opsi format PDF untuk solusi mereka.
+Subbagian di bawah ini menjelaskan nuansa cara kerja Aspose.Words saat mengonversi ke berbagai standar format PDF dan opsi untuk solusinya.
 
-### Jenis Struktur
+### Tipe Struktur
 
-|  Tingkat kepatuhan standar PDF dalam Aspose.Words |  Kehadiran persyaratan |
-|  --------------------------------------------------  |  -----------------------  |
-|  PDF/A-1a |   {{< emoticons/tick >}}   |
-|  Datasheet PDF |   {{< emoticons/tick >}}   |
-|  PDF/UA-1 |   {{< emoticons/tick >}}   |
+| PDF tingkat kepatuhan standar dalam Aspose.Words | Adanya persyaratan |
+| -------------------------------------------------- | ----------------------- |
+| PDF/A-1a | {{< emoticons/tick >}} |
+| PDF/A-2a | {{< emoticons/tick >}} |
+| PDF/UA-1 | {{< emoticons/tick >}} |
 
-Dokumen PDF adalah urutan blok seperti judul, paragraf, tabel, dan lain-lain. Blok ini membentuk struktur dokumen - sangat atau lemah.
+Dokumen PDF adalah urutan blok seperti judul, paragraf, tabel, dan lainnya. Blok-blok ini membentuk struktur dokumen-kuat atau lemah.
 
-Struktur yang kuat dan lemah berlaku untuk PDF / A. Microsoft Word dokumen memiliki struktur yang lemah dengan desain, dan Aspose.Words membuat PDF dengan struktur yang lemah masing-masing dan juga menghasilkan judul sesuai dengan tingkat garis besar paragraf dalam dokumen sumber.
+Struktur kuat dan lemah berlaku untuk PDF/A. dokumen Microsoft Word memiliki struktur yang lemah menurut desain, dan Aspose.Words membuat PDF dengan struktur yang lemah masing-masing dan juga menghasilkan judul sesuai dengan tingkat garis besar paragraf dalam dokumen sumber.
 
-Untuk dokumen PDF/UA-1 dengan struktur yang lemah, ini juga diperlukan bahwa nomor judul masuk tanpa celah.
+Untuk dokumen PDF/UA-1 dengan struktur yang lemah, nomor heading juga harus berurutan tanpa celah.
 
 {{% alert color="secondary" %}}
 <details>
-    <summary>Spesifikasi memberi tahu kami rincian berikut:</summary>
+    <summary>Spesifikasi memberi tahu kami hal berikut (perluas untuk melihat detailnya):</summary>
     <p></p>
     <p>Struktur tingkat blok dapat mengikuti salah satu dari dua paradigma utama:</p>
     </ol>
-      <li>Sangat terstruktur. Elemen kelompok bersarang untuk sebanyak mungkin tingkat yang diperlukan untuk mencerminkan organisasi materi menjadi artikel, bagian, penampang, dan sebagainya. Pada setiap tingkat, anak-anak elemen kelompok harus terdiri dari judul (H), satu atau lebih paragraf (P) untuk konten di tingkat itu, dan mungkin satu atau lebih elemen kelompok tambahan untuk subbagian bersarang.</li>
-      <li>Terstruktur Dokumen ini relatif datar, hanya memiliki satu atau dua tingkat elemen kelompok, dengan semua judul, paragraf, dan BLSE lainnya sebagai anak-anak segera mereka. Dalam hal ini, organisasi materi tidak tercermin dalam struktur logis; Namun, itu dapat diungkapkan oleh penggunaan judul dengan tingkat tertentu (H1-H6).</li>
+      <li>Sangat terstruktur. Elemen pengelompokan bersarang ke level sebanyak yang diperlukan untuk mencerminkan pengorganisasian materi menjadi artikel, bagian, subbagian, dan sebagainya. Pada setiap level, turunan dari elemen pengelompokan harus terdiri dari heading (H), satu atau lebih paragraf (P) untuk konten pada level tersebut, dan mungkin satu atau lebih elemen pengelompokan tambahan untuk subbagian bersarang.</li>
+      <li>Terstruktur dengan lemah. Dokumen ini relatif datar, mungkin hanya memiliki satu atau dua tingkat elemen pengelompokan, dengan semua judul, paragraf, dan BLSEs lainnya sebagai turunan langsungnya. Dalam hal ini, pengorganisasian materi tidak tercermin dalam struktur logisnya; namun, hal itu dapat diungkapkan dengan penggunaan judul dengan tingkatan tertentu(H1–H6).</li>
     </ol>
     <p></p>
     <p>ISO-32000-1, 14.8.4.3.5</p>
@@ -73,191 +73,191 @@ Untuk dokumen PDF/UA-1 dengan struktur yang lemah, ini juga diperlukan bahwa nom
 
 {{% alert color="secondary" %}}
 <details>
-    <summary>Untuk dokumen PDF/UA-1, spesifikasinya mengandung tambahan yang terkait dengan tingkat judul (expand to see details):</summary>
+    <summary>Untuk dokumen PDF/UA-1, spesifikasi berisi tambahan yang terkait dengan level heading (perluas untuk melihat detailnya):</summary>
     <p></p>
-    <p>Jika dokumen semantik membutuhkan urutan turunan header, urutan seperti itu akan diproses dalam urutan numerik yang ketat dan tidak akan melewatkan tingkat kepala yang intervensi. H1 H2 H3 tidak diizinkan, sementara H1 H3 tidak.</p>
-    <p>ISOArtikel-ID:#006400</p>
+    <p>Jika semantik dokumen memerlukan urutan header yang menurun, urutan tersebut harus dilanjutkan dalam urutan numerik yang ketat dan tidak boleh melewati level heading yang mengintervensi. H1 H2 H3 diperbolehkan, sedangkan H1 H3 tidak.</p>
+    <p>ISO-14289-1, 7.4.2</p>
 </details>
 {{% /alert %}}
 
-Untuk memastikan output yang benar, pengguna harus memastikan bahwa konten dokumen sumber diatur dengan benar dan tingkat garis ditentukan dengan benar untuk paragraf. Jika tidak, pengguna harus memverifikasi dan memperbaiki struktur dokumen PDF output.
+Untuk memastikan keluaran yang benar, pengguna harus memastikan bahwa konten dokumen sumber diatur dengan benar dan tingkat kerangka ditentukan dengan benar untuk paragraf. Jika tidak, pengguna harus memverifikasi dan memperbaiki struktur dokumen keluaran PDF.
 
 {{% alert color="secondary" %}}
 <details>
-    <summary>Dalam blok ini, Anda dapat melihat contoh: bagaimana mengatur tingkat garis dalam Microsoft Word atau periksa dan memperbaiki struktur dokumen PDF output (dan untuk melihat rincian).</summary>
+    <summary>Di blok ini, Anda dapat melihat contoh: cara mengatur level outline di Microsoft Word atau memeriksa dan memperbaiki struktur dokumen output PDF (perluas untuk melihat detailnya).</summary>
     <p></p>
-    <p>Sitemap Microsoft Word default "Kepala X" gaya dapat digunakan untuk mengatur tingkat garis besar:</p>
-        <img src="/words/java/working-with-pdfa-or-pdfua/m-w-heading1-2.png" alt="MWHeading1-2" style="width:800px"/>
-    <p>Selain itu, tingkat garis besar dapat diperiksa atau diubah di jendela "Paragraf":</p>
-        <img src="/words/java/working-with-pdfa-or-pdfua/m-w-outline-level.png" alt="MWOutlineLevel" style="width:800px"/>
-    <p>Dalam Acrobat struktur dokumen dapat diperiksa atau diubah dalam pane "Tags":</p>
-        <img src="/words/java/working-with-pdfa-or-pdfua/acrobat-tags-pane.png" alt="AcrobatTagsPane" style="width:800px"/>
+    <p>Dalam gaya Microsoft Word default "Heading X" dapat digunakan untuk mengatur level outline:</p>
+    <img src="/words/java/working-with-pdfa-or-pdfua/m-w-heading1-2.png" alt="MWHeading1-2" style="width:800px"/>
+    <p>Selain itu, level outline dapat dicentang atau diubah di jendela "Paragraph":</p>
+    <img src="/words/java/working-with-pdfa-or-pdfua/m-w-outline-level.png" alt="MWOutlineLevel" style="width:800px"/>
+    <p>Di Acrobat, struktur dokumen dapat dicentang atau diubah di panel "Tag":</p>
+    <img src="/words/java/working-with-pdfa-or-pdfua/acrobat-tags-pane.png" alt="AcrobatTagsPane" style="width:800px"/>
 </details>
 {{% /alert %}}
 
-### Menandai Konten sebagai Artief
+### Menandai Konten sebagai Artefak
 
-|  Tingkat kepatuhan standar PDF dalam Aspose.Words |  Kehadiran persyaratan |
-|  --------------------------------------------------  |  -----------------------  |
-|  PDF/A-1a |   {{< emoticons/tick >}}   |
-|  Datasheet PDF |   {{< emoticons/tick >}}   |
-|  PDF/UA-1 |   {{< emoticons/tick >}}   |
+| PDF tingkat kepatuhan standar dalam Aspose.Words | Adanya persyaratan |
+| -------------------------------------------------- | ----------------------- |
+| PDF/A-1a | {{< emoticons/tick >}} |
+| PDF/A-2a | {{< emoticons/tick >}} |
+| PDF/UA-1 | {{< emoticons/tick >}} |
 
-Saat ini, Aspose.Words menandai header halaman dan footer, pemisah catatan, sel header tabel berulang, dan gambar dekoratif sebagai artefak. Perhatikan bahwa daftar ini dapat diperbarui di masa depan.
+Saat ini, Aspose.Words menandai header dan footer halaman, pemisah catatan, sel header tabel berulang, dan gambar dekoratif sebagai artefak. Perhatikan bahwa daftar ini dapat diperbarui di masa mendatang.
 
 {{% alert color="secondary" %}}
 <details>
-    <summary>Spesifikasi memberi tahu kami rincian berikut:</summary>
+    <summary>Spesifikasi memberi tahu kami hal berikut (perluas untuk melihat detailnya):</summary>
     <p></p>
-    <p>Objek grafis dalam dokumen dapat dibagi menjadi dua kelas:</p>
+    <p>Objek grafik dalam dokumen dapat dibagi menjadi dua kelas:</p>
     </ol>
-      <li>Konten nyata dokumen terdiri dari benda-benda yang mewakili materi yang awalnya diperkenalkan oleh penulis dokumen.</li>
-      <li>Artifacts adalah objek grafis yang bukan bagian dari konten asli penulis tetapi lebih dihasilkan oleh penulis yang sesuai dalam perjalanan pagination, tata letak, atau proses mekanis lainnya secara ketat.</li>
+      <li>Isi sebenarnya dari sebuah dokumen terdiri dari objek yang mewakili materi yang awalnya diperkenalkan oleh pembuat dokumen.</li>
+      <li>Artefak adalah objek grafik yang bukan merupakan bagian dari konten asli penulis, melainkan dihasilkan oleh penulis yang sesuai selama pagination, tata letak, atau proses mekanis lainnya.</li>
     </ol>
     <p></p>
     <p>ISO-32000-1, 14.8.2.2.1</p>
 </details>
 {{% /alert %}}
 
-Jika dokumen berisi konten lain yang harus ditandai sebagai artefak, atau jika ada konten yang artefak adalah konten nyata, pelanggan harus memperbaiki bahwa dalam PDF output.
+Jika dokumen berisi konten lain yang harus ditandai sebagai artefak, atau jika salah satu konten artefak adalah konten asli, pelanggan harus memperbaikinya di output PDF.
 
 {{% alert color="secondary" %}}
 <details>
-    <summary>Dalam blok ini, Anda dapat melihat contoh: bagaimana menandai bentuk dekoratif Microsoft Word atau bentuk tanda sebagai artefak dalam dokumen PDF output (expand to see details).</summary>
+    <summary>Di blok ini, Anda dapat melihat contoh: cara menandai bentuk sebagai dekoratif di Microsoft Word atau menandai bentuk sebagai artefak di dokumen keluaran PDF (perluas untuk melihat detailnya).</summary>
     <p></p>
-    <p>Misalnya, bentuk bisa ditandai sebagai dekoratif dalam Microsoft Word, sehingga mereka akan diekspor ke PDF sebagai artefak:</p>
-        <img src="/words/java/working-with-pdfa-or-pdfua/m-w-decorative-shape.png" alt="MWDecorativeShape" style="width:800px"/>
-    <p>Anda dapat menandai bentuk sebagai artefak dalam PDF output:</p>
-      <img src="/words/java/working-with-pdfa-or-pdfua/acrobat-mark-as-artifact-delete-empty-tag.png" alt="PdfDeleteEmptyTag" style="width:800px"/>
-    <p>Juga, Anda dapat beralih teks di header dari artefak ke konten nyata dalam PDF output:</p>
-        <img src="/words/java/working-with-pdfa-or-pdfua/acrobat-switch-text-in-header.png" alt="AcrobatSwitchTextInHeader" style="width:800px"/>
+    <p>Misalnya, bentuk dapat ditandai sebagai dekoratif di Microsoft Word, sehingga akan diekspor ke PDF sebagai artefak:</p>
+    <img src="/words/java/working-with-pdfa-or-pdfua/m-w-decorative-shape.png" alt="MWDecorativeShape" style="width:800px"/>
+    <p>Anda dapat menandai bentuk sebagai artefak di output PDF:</p>
+   <img src="/words/java/working-with-pdfa-or-pdfua/acrobat-mark-as-artifact-delete-empty-tag.png" alt="PdfDeleteEmptyTag" style="width:800px"/>
+    <p>Selain itu, Anda dapat mengalihkan teks di header dari artefak ke konten nyata di output PDF:</p>
+    <img src="/words/java/working-with-pdfa-or-pdfua/acrobat-switch-text-in-header.png" alt="AcrobatSwitchTextInHeader" style="width:800px"/>
 </details>
 {{% /alert %}}
 
-### Spesifikasi Bahasa Alam
+### Spesifikasi Bahasa Alami
 
-|  Tingkat kepatuhan standar PDF dalam Aspose.Words |  Kehadiran persyaratan |
-|  --------------------------------------------------  |  -----------------------  |
-|  PDF/A-1a |   {{< emoticons/tick >}}   |
-|  Datasheet PDF |   {{< emoticons/tick >}}   |
-|  PDF/UA-1 |   {{< emoticons/tick >}}   |
+| PDF tingkat kepatuhan standar dalam Aspose.Words | Adanya persyaratan |
+| -------------------------------------------------- | ----------------------- |
+| PDF/A-1a | {{< emoticons/tick >}} |
+| PDF/A-2a | {{< emoticons/tick >}} |
+| PDF/UA-1 | {{< emoticons/tick >}} |
 
-Bahasa teks ditentukan dalam Microsoft Word dokumen. Aspose.Words ekspor bahasa yang ditentukan ke PDF output dengan *Lang* atribut yang melekat pada urutan yang ditandai atau tag Span - dikontrol oleh [ExportLanguageToSpanTag](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getExportLanguageToSpanTag) Login Umumnya tidak ada masalah bahasa ketika teks dimasukkan oleh pengguna melalui Microsoft WordSitemap Tapi ada kemungkinan bahwa bahasa mungkin tidak akurat jika teks dihasilkan secara otomatis.
+Bahasa teks ditentukan dalam dokumen Microsoft Word. Aspose.Words mengekspor bahasa yang ditentukan ke keluaran PDF dengan atribut *Lang* yang dilampirkan ke urutan konten yang ditandai atau tag Rentang-ini dikendalikan oleh properti [ExportLanguageToSpanTag](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getExportLanguageToSpanTag). Umumnya tidak ada masalah bahasa saat teks dimasukkan oleh pengguna melalui Microsoft Word. Namun ada kemungkinan bahasanya mungkin tidak akurat jika teks dibuat secara otomatis.
 
 {{% alert color="secondary" %}}
 <details>
-    <summary>Spesifikasi memberi tahu kami rincian berikut:</summary>
+    <summary>Spesifikasi memberi tahu kami hal berikut (perluas untuk melihat detailnya):</summary>
     <p></p>
     <p>Bahasa alami default untuk semua teks dalam file harus ditentukan oleh entri Lang di kamus Katalog dokumen.</p>
-    <p>Semua konten teks dalam file yang berbeda dari bahasa default harus ditunjukkan dengan menggunakan `Lang` properti yang melekat pada urutan konten yang ditandai, atau dengan entri Lang dalam elemen struktur kamus ...</p>
-    <p>ISODi. 08.00 - 12.00/13.30</p>
+    <p>Semua konten tekstual dalam file yang berbeda dari bahasa default harus ditunjukkan dengan menggunakan properti `Lang` yang dilampirkan ke urutan konten yang ditandai, atau dengan entri Lang dalam kamus elemen struktur ...</p>
+    <p>ISO-19005-2, 6.7.4</p>
 </details>
 {{% /alert %}}
 
 {{% alert color="secondary" %}}
 <details>
-    <summary>Selain PDF/UA-1, spesifikasi memberi tahu kami rincian berikut (kemahan untuk melihat rincian):</summary>
+    <summary>Selain itu untuk PDF/UA-1, spesifikasinya memberi tahu kita hal berikut (perluas untuk melihat detailnya):</summary>
     <p></p>
-    <p>Bahasa alami akan dideklarasikan... Perubahan dalam bahasa alami dinyatakan.</p>
+    <p>Bahasa alami harus dideklarasikan ... Perubahan dalam bahasa alami harus dideklarasikan.</p>
     <p>ISO-14289-1, 7.2</p>
 </details>
 {{% /alert %}}
 
 {{% alert color="secondary" %}}
 <details>
-    <summary>Dalam blok ini, Anda dapat melihat contoh: bagaimana memastikan bahwa bahasa ditentukan dengan benar (dan untuk melihat rincian).</summary>
+    <summary>Di blok ini, Anda dapat melihat contoh: cara memastikan bahwa bahasa ditentukan dengan benar (perluas untuk melihat detailnya).</summary>
     <p></p>
-    <p>Pengguna harus memastikan bahwa bahasa ditentukan dengan benar dalam dokumen Word sumber:</p>
-        <img src="/words/java/working-with-pdfa-or-pdfua/m-w-language.png" alt="MWLanguage" style="width:800px"/>
-    <p>Atau dokumen PDF output:</p>
-        <img src="/words/java/working-with-pdfa-or-pdfua/acrobat-check-change-language.png" alt="AcrobatCheckChangeLanguage" style="width:800px"/>
+    <p>Pengguna harus memastikan bahwa bahasa tersebut ditentukan dengan benar di salah satu dokumen sumber Word:</p>
+    <img src="/words/java/working-with-pdfa-or-pdfua/m-w-language.png" alt="MWLanguage" style="width:800px"/>
+    <p>Atau dokumen keluaran PDF:</p>
+    <img src="/words/java/working-with-pdfa-or-pdfua/acrobat-check-change-language.png" alt="AcrobatCheckChangeLanguage" style="width:800px"/>
 </details>
 {{% /alert %}}
 
-### Gambar Caption
+### Keterangan Gambar
 
-|  Tingkat kepatuhan standar PDF dalam Aspose.Words |  Kehadiran persyaratan |
-|  --------------------------------------------------  |  -----------------------  |
-|  PDF/A-1a |                           |
-|  Datasheet PDF |                           |
-|  PDF/UA-1 |   {{< emoticons/tick >}}   |
+| PDF tingkat kepatuhan standar dalam Aspose.Words | Adanya persyaratan |
+| -------------------------------------------------- | ----------------------- |
+| PDF/A-1a |  |
+| PDF/A-2a |  |
+| PDF/UA-1 | {{< emoticons/tick >}} |
 
 Microsoft Word dokumen memungkinkan pengguna untuk menambahkan keterangan gambar.
 
 {{% alert color="secondary" %}}
 <details>
-    <summary>Spesifikasi memberi tahu kami rincian berikut:</summary>
+    <summary>Spesifikasi memberi tahu kami hal berikut (perluas untuk melihat detailnya):</summary>
     <p></p>
-    <p>Sebuah caption menemani sebuah angka akan ditandai dengan tag Caption.</p>
+    <p>Keterangan yang menyertai gambar harus diberi tag dengan tag Keterangan.</p>
     <p>ISO-14289-1, 7.3</p>
 </details>
 {{% /alert %}}
 
-Sitemap Aspose.Words tidak dapat mengekspor caption dengan tag Caption, sehingga mereka harus ditandai di PDF output.
+Saat ini Aspose.Words tidak dapat mengekspor teks dengan tag Teks, jadi teks tersebut harus ditandai di output PDF.
 
 {{% alert color="secondary" %}}
 <details>
-    <summary>Dalam blok ini, Anda dapat melihat contoh: cara memasukkan caption (expand untuk melihat rincian).</summary>
+    <summary>Di blok ini, Anda dapat melihat contoh: cara menyisipkan teks (perluas untuk melihat detail).</summary>
     <p></p>
-    <p>Sitemap Microsoft Word, caption dapat dimasukkan melalui menu konteks:</p>
-        <img src="/words/java/working-with-pdfa-or-pdfua/figure-caption-mw.png" alt="figure-caption-mw" style="width:800px"/>
-    <p>Dalam Acrobat caption bisa ditambahkan atau diubah melalui `Object` dialog properti:</p>
-        <img src="/words/java/working-with-pdfa-or-pdfua/figure-caption-acrobat.png" alt="figure-caption-acrobat" style="width:800px"/>
+    <p>Dalam Microsoft Word, teks dapat disisipkan melalui menu konteks:</p>
+    <img src="/words/java/working-with-pdfa-or-pdfua/figure-caption-mw.png" alt="figure-caption-mw" style="width:800px"/>
+    <p>Di Acrobat, teks dapat ditambahkan atau diubah melalui dialog Properti `Object`:</p>
+    <img src="/words/java/working-with-pdfa-or-pdfua/figure-caption-acrobat.png" alt="figure-caption-acrobat" style="width:800px"/>
 </details>
 {{% /alert %}}
 
-### Alternate Deskripsi
+### Deskripsi Alternatif
 
-|  Tingkat kepatuhan standar PDF dalam Aspose.Words |  Kehadiran persyaratan |
-|  --------------------------------------------------  |  -----------------------  |
-|  PDF/A-1a |   {{< emoticons/tick >}}   |
-|  Datasheet PDF |   {{< emoticons/tick >}}   |
-|  PDF/UA-1 |   {{< emoticons/tick >}}   |
+| PDF tingkat kepatuhan standar dalam Aspose.Words | Adanya persyaratan |
+| -------------------------------------------------- | ----------------------- |
+| PDF/A-1a | {{< emoticons/tick >}} |
+| PDF/A-2a | {{< emoticons/tick >}} |
+| PDF/UA-1 | {{< emoticons/tick >}} |
 
-Microsoft Word dokumen memungkinkan pengguna untuk menambahkan teks alternatif ke gambar, bentuk, dan tabel. Aspose.Words ekspor teks alternatif ke PDF output.
+Microsoft Word dokumen memungkinkan pengguna menambahkan teks alternatif ke gambar, bentuk, dan tabel. Aspose.Words mengekspor teks alternatif tersebut ke keluaran PDF.
 
 {{% alert color="secondary" %}}
 <details>
-    <summary>Spesifikasi memberi tahu kami rincian berikut:</summary>
+    <summary>Spesifikasi memberi tahu kami hal berikut (perluas untuk melihat detailnya):</summary>
     <p></p>
-    <p>Semua elemen struktur yang kontennya tidak memiliki analog tekstual yang telah ditentukan alami, misalnya gambar, formula, dll., harus memasok deskripsi teks alternatif menggunakan Alt masuk dalam elemen struktur kamus...</p>
-    <p>Login Deskripsi Alternate memberikan deskripsi tekstual yang membantu dalam interpretasi yang tepat dari konten non-teksual yang tidak dapat diopaque.</p>
-    <p>ISODi. 08.00 - 12.00/13.30 - 17.30</p>
+    <p>Semua elemen struktur yang isinya tidak memiliki analogi tekstual alami yang telah ditentukan sebelumnya, mis. gambar, rumus, dll., harus memberikan deskripsi teks alternatif menggunakan entri Alt dalam kamus elemen struktur...</p>
+    <p>NOTE Deskripsi alternatif memberikan deskripsi tekstual yang membantu interpretasi yang tepat dari konten non-tekstual yang tidak jelas.</p>
+    <p>ISO-19005-2, 6.7.5</p>
 </details>
 {{% /alert %}}
 
 {{% alert color="secondary" %}}
 <details>
-    <summary>Dalam blok ini, Anda dapat melihat contoh: bagaimana untuk memastikan bahwa semua elemen memiliki teks alternatif (expand to see details).</summary>
+    <summary>Di blok ini, Anda dapat melihat contoh: cara memastikan bahwa semua elemen memiliki teks alternatif (perluas untuk melihat detail).</summary>
     <p></p>
-    <p>Pengguna harus memastikan bahwa semua elemen memiliki teks alternatif dalam dokumen Word sumber:</p>
-        <img src="/words/java/working-with-pdfa-or-pdfua/m-w-table-alt-text.png" alt="MWTableAltText" style="width:800px"/>
+    <p>Pengguna harus memastikan bahwa semua elemen memiliki teks alternatif di salah satu dokumen sumber Word:</p>
+    <img src="/words/java/working-with-pdfa-or-pdfua/m-w-table-alt-text.png" alt="MWTableAltText" style="width:800px"/>
     <p></p>
-        <img src="/words/java/working-with-pdfa-or-pdfua/m-w-shape-alt-text.png" alt="MWShapeAltText" style="width:800px"/>
-    <p>Atau dokumen PDF output:</p>
-        <img src="/words/java/working-with-pdfa-or-pdfua/acrobat-table-alt-text.png" alt="AcrobatTableAltText" style="width:800px"/>
+    <img src="/words/java/working-with-pdfa-or-pdfua/m-w-shape-alt-text.png" alt="MWShapeAltText" style="width:800px"/>
+    <p>Atau dokumen keluaran PDF:</p>
+    <img src="/words/java/working-with-pdfa-or-pdfua/acrobat-table-alt-text.png" alt="AcrobatTableAltText" style="width:800px"/>
     <p></p>
-        <img src="/words/java/working-with-pdfa-or-pdfua/acrobat-shape-alt-text.png" alt="AcrobatShapeAltText" style="width:800px"/>
+    <img src="/words/java/working-with-pdfa-or-pdfua/acrobat-shape-alt-text.png" alt="AcrobatShapeAltText" style="width:800px"/>
 </details>
 {{% /alert %}}
 
-### Deskripsi Alternate untuk Hyperlinks
+### Deskripsi Alternatif untuk Hyperlink
 
-|  Tingkat kepatuhan standar PDF dalam Aspose.Words |  Kehadiran persyaratan |
-|  --------------------------------------------------  |  -----------------------  |
-|  PDF/A-1a |                           |
-|  Datasheet PDF |                           |
-|  PDF/UA-1 |   {{< emoticons/tick >}}   |
+| PDF tingkat kepatuhan standar dalam Aspose.Words | Adanya persyaratan |
+| -------------------------------------------------- | ----------------------- |
+| PDF/A-1a |  |
+| PDF/A-2a |  |
+| PDF/UA-1 | {{< emoticons/tick >}} |
 
-Selain titik sebelumnya, Microsoft Word dokumen juga memungkinkan pengguna untuk menambahkan teks alternatif ke hyperlink. Aspose.Words ekspor teks alternatif ke PDF output.
+Selain poin sebelumnya, dokumen Microsoft Word juga memungkinkan pengguna menambahkan teks alternatif ke hyperlink. Aspose.Words mengekspor teks alternatif tersebut ke keluaran PDF.
 
-Sayangnya, tidak setiap aplikasi memungkinkan Anda untuk mengatur deskripsi alternatif. Sitemap Adobe Acrobat saat ini tidak memungkinkan untuk mengatur deskripsi tersebut untuk hyperlink. Login Microsoft Word, Anda dapat melakukan ini sebagai berikut:
+Sayangnya, tidak semua aplikasi memungkinkan Anda menyiapkan deskripsi alternatif. Misalnya, Adobe Acrobat saat ini tidak memungkinkan untuk menyiapkan deskripsi seperti itu untuk hyperlink. Tetapi dalam Microsoft Word, Anda dapat melakukannya sebagai berikut:
 
 <img src="/words/java/working-with-pdfa-or-pdfua/alternate-descriptions-hyperlinks-mw.png" alt="alternate-descriptions-hyperlinks-mw" style="width:800px"/>
 
-Kadang-kadang ada masalah yang tidak mungkin untuk mengatur teks alt untuk hyperlink autogenerasi di tabel konten (TOC) melalui Microsoft Word Login Aspose.Words dapat memperbarui bidang tersebut dan menghasilkan tautan sendiri.
+Terkadang ada masalah bahwa tidak mungkin menyetel teks alternatif untuk hyperlink yang dibuat secara otomatis dalam daftar isi (TOC) melalui Microsoft Word GUI. Aspose.Words dapat memperbarui bidang tersebut dan membuat tautannya sendiri.
 
-Ikuti contoh kode untuk memperbarui `TOC` kolom menggunakan Aspose.Words Document Object Model SitemapDOMSitemap
+Ikuti contoh kode untuk memperbarui bidang `TOC` menggunakan Model Objek Dokumen Aspose.Words (DOM):
 
 {{< highlight java >}}
 Document doc = new Document(fileName);
@@ -286,214 +286,214 @@ String outFile = fileName.substring(0,fileName.lastIndexOf('.')) + "_aw.pdf";
 doc.save(outFile, opt);
 {{< /highlight >}}
 
-### Kepala Meja
+### Header Tabel
 
-|  Tingkat kepatuhan standar PDF dalam Aspose.Words |  Kehadiran persyaratan |
-|  --------------------------------------------------  |  -----------------------  |
-|  PDF/A-1a |                           |
-|  Datasheet PDF |                           |
-|  PDF/UA-1 |   {{< emoticons/tick >}}   |
+| PDF tingkat kepatuhan standar dalam Aspose.Words | Adanya persyaratan |
+| -------------------------------------------------- | ----------------------- |
+| PDF/A-1a |  |
+| PDF/A-2a |  |
+| PDF/UA-1 | {{< emoticons/tick >}} |
 
-Tabel dalam dokumen PDF/UA-1 harus memiliki header – kolom, baris, atau keduanya. PDF / Satu-satunya memerlukan markup tabel standar, yang tidak memiliki batasan tambahan. Login Aspose.Words menghasilkan markup tabel standar secara otomatis.
+Tabel dalam dokumen PDF/UA-1 harus memiliki header-kolom, baris, atau keduanya. PDF/A hanya memerlukan markup tabel standar, yang tidak memiliki batasan tambahan. Perhatikan bahwa Aspose.Words menghasilkan markup tabel standar secara otomatis.
 
 {{% alert color="secondary" %}}
 <details>
-    <summary>Spesifikasi memberi tahu kami rincian berikut:</summary>
+    <summary>Spesifikasi memberi tahu kami hal berikut (perluas untuk melihat detailnya):</summary>
     <p></p>
-    <p>Tabel harus mencakup header ... Tabel dapat berisi header kolom, header baris atau keduanya.</p>
-    <p>ISO-14289-1, 7,5</p>
+    <p>Tabel harus menyertakan header... Tabel dapat berisi header kolom, header baris, atau keduanya.</p>
+    <p>ISO-14289-1, 7.5</p>
 </details>
 {{% /alert %}}
 
 {{% alert color="secondary" %}}
 <details>
-    <summary>Dalam blok ini, Anda dapat melihat contoh: bagaimana mengatur header tabel (ketika melihat rincian).</summary>
+    <summary>Di blok ini, Anda dapat melihat contoh: cara mengatur header tabel (perluas untuk melihat detail).</summary>
     <p></p>
-    <p>header tabel dapat diatur baik sumber Microsoft Word dokumen:</p>
-        <img src="/words/java/working-with-pdfa-or-pdfua/table-headers-mw.png" alt="table-headers-mw" style="width:800px"/>
-    <p>Atau PDF output:</p>
-        <img src="/words/java/working-with-pdfa-or-pdfua/table-headers-acrobat-header-cell.png" alt="table-headers-acrobat-header-cell" style="width:800px"/>
+    <p>Header tabel dapat diatur baik dokumen sumber Microsoft Word:</p>
+    <img src="/words/java/working-with-pdfa-or-pdfua/table-headers-mw.png" alt="table-headers-mw" style="width:800px"/>
+    <p>Atau outputnya PDF:</p>
+    <img src="/words/java/working-with-pdfa-or-pdfua/table-headers-acrobat-header-cell.png" alt="table-headers-acrobat-header-cell" style="width:800px"/>
     <p></p>
-        <img src="/words/java/working-with-pdfa-or-pdfua/table-headers-acrobat-scope1.png" alt="table-headers-acrobat-scope1" style="width:800px"/>
+    <img src="/words/java/working-with-pdfa-or-pdfua/table-headers-acrobat-scope1.png" alt="table-headers-acrobat-scope1" style="width:800px"/>
     <p></p>
-        <img src="/words/java/working-with-pdfa-or-pdfua/table-headers-acrobat-scope2.png" alt="table-headers-acrobat-scope2" style="width:800px"/>
+    <img src="/words/java/working-with-pdfa-or-pdfua/table-headers-acrobat-scope2.png" alt="table-headers-acrobat-scope2" style="width:800px"/>
 </details>
 {{% /alert %}}
 
-### Penggantian Teks
+### Teks Pengganti
 
-|  Tingkat kepatuhan standar PDF dalam Aspose.Words |  Kehadiran persyaratan |
-|  --------------------------------------------------  |  -----------------------  |
-|  PDF/A-1a |   {{< emoticons/tick >}}   |
-|  Datasheet PDF |   {{< emoticons/tick >}}   |
-|  PDF/UA-1 |                           |
+| PDF tingkat kepatuhan standar dalam Aspose.Words | Adanya persyaratan |
+| -------------------------------------------------- | ----------------------- |
+| PDF/A-1a | {{< emoticons/tick >}} |
+| PDF/A-2a | {{< emoticons/tick >}} |
+| PDF/UA-1 |  |
 
 {{% alert color="secondary" %}}
 <details>
-    <summary>Spesifikasi memberi tahu kami rincian berikut:</summary>
+    <summary>Spesifikasi memberi tahu kami hal berikut (perluas untuk melihat detailnya):</summary>
     <p></p>
-    <p>Spesifikasi memberitahu kami sebagai berikut:</p>
-    <p>Semua elemen struktur teksal yang diwakili dengan cara non-standar, misalnya, karakter kustom atau grafis inline, harus menyediakan teks pengganti menggunakan `ActualText` masuk dalam elemen struktur kamus...</p>
-    <p>ISODi. 08.00 - 12.00/13.30 - 17.30</p>
+    <p>Spesifikasi tersebut memberi tahu kita hal-hal berikut:</p>
+    <p>Semua elemen struktur tekstual yang direpresentasikan dengan cara yang tidak standar, mis., karakter khusus atau grafik sebaris, harus menyediakan teks pengganti menggunakan entri `ActualText` dalam kamus elemen struktur...</p>
+    <p>ISO-19005-2, 6.7.7</p>
 </details>
 {{% /alert %}}
 
-Microsoft Word dokumen tidak memungkinkan pengguna untuk mengatur teks pengganti. Jadi ini perlu diverifikasi dan tetap di PDF output:
+Microsoft Word dokumen tidak mengizinkan pengguna menyetel teks pengganti. Jadi ini perlu diverifikasi dan diperbaiki dalam output PDF:
 
 <img src="/words/java/working-with-pdfa-or-pdfua/acrobat-replacement-text.png" alt="AcrobatReplacementText" style="width:800px"/>
 
-### Akronim dan Akronisasi Ekspansi
+### Singkatan dan Akronim Ekspansi
 
-|  Tingkat kepatuhan standar PDF dalam Aspose.Words |  Kehadiran persyaratan |
-|  --------------------------------------------------  |  -----------------------  |
-|  PDF/A-1a |   {{< emoticons/tick >}}   |
-|  Datasheet PDF |   {{< emoticons/tick >}}   |
-|  PDF/UA-1 |                           |
+| PDF tingkat kepatuhan standar dalam Aspose.Words | Adanya persyaratan |
+| -------------------------------------------------- | ----------------------- |
+| PDF/A-1a | {{< emoticons/tick >}} |
+| PDF/A-2a | {{< emoticons/tick >}} |
+| PDF/UA-1 |  |
 
 {{% alert color="secondary" %}}
 <details>
-    <summary>Spesifikasi memberi tahu kami rincian berikut:</summary>
+    <summary>Spesifikasi memberi tahu kami hal berikut (perluas untuk melihat detailnya):</summary>
     <p></p>
-    <p>Semua kasus singkatan dan akronim dalam konten teks harus ditempatkan dalam urutan yang ditandai dengan tag Span yang properti E memberikan ekspansi tekstual dari singkatan atau akronim...</p>
-<p>ISODi. 08.00 - 12.00/13.30 - 17.30</p>
+    <p>Semua contoh singkatan dan akronim dalam konten tekstual harus ditempatkan dalam urutan konten yang ditandai dengan tag Rentang yang properti E-nya memberikan perluasan tekstual dari singkatan atau akronim tersebut...</p>
+<p>ISO-19005-2, 6.7.8</p>
 </details>
 {{% /alert %}}
 
-Microsoft Word dokumen tidak memungkinkan pengguna untuk mengatur singkatan dan ekspansi akronim. Jadi ini perlu diverifikasi dan tetap di PDF output:
+Microsoft Word dokumen tidak mengizinkan pengguna untuk mengatur perluasan singkatan dan akronim. Jadi ini perlu diverifikasi dan diperbaiki dalam output PDF:
 
 <img src="/words/java/working-with-pdfa-or-pdfua/acrobat-split-add-expansion-text.png" alt="AcrobatSplitAddExpansionText" style="width:800px"/>
 
 ## Judul Dokumen
 
-|  Tingkat kepatuhan standar PDF dalam Aspose.Words |  Kehadiran persyaratan |
-|  --------------------------------------------------  |  ------------------------------------------------------------  |
-|  PDF/A-1a |                                                                |
-|  Datasheet PDF |                                                                |
-|  Datasheet PDF |                                                                |
-|  PDF/UA-1 |  {{< emoticons/tick >}}<br/>Dokumen di PDF/UA-1 harus memiliki judul |
+| PDF tingkat kepatuhan standar dalam Aspose.Words | Adanya persyaratan |
+| -------------------------------------------------- | ------------------------------------------------------------ |
+| PDF/A-1a |  |
+| PDF/A-2a |  |
+| PDF/A-4 |  |
+| PDF/UA-1 | {{< emoticons/tick >}}<br />Dokumen dalam PDF/UA-1 harus memiliki judul. |
 
 {{% alert color="secondary" %}}
 <details>
-    <summary>Spesifikasi memberi tahu kami rincian berikut:</summary>
+    <summary>Spesifikasi memberi tahu kami hal berikut (perluas untuk melihat detailnya):</summary>
     <p></p>
-    <p>Spesifikasi memberitahu kami sebagai berikut:</p>
-    <p>Aliran Metadata dalam kamus katalog dc dokumen akan mengandung dc: entri judul, di mana prefiks yang disarankan untuk schema metadata Dublin Core ...</p>
+    <p>Spesifikasi tersebut memberi tahu kita hal-hal berikut:</p>
+    <p>Aliran metadata dalam kamus katalog dokumen harus berisi entri dc: title, di mana dc adalah awalan yang disarankan untuk skema metadata Dublin Core…</p>
     <p>ISO-14289-1, 7.1</p>
 </details>
 {{% /alert %}}
 
 {{% alert color="secondary" %}}
 <details>
-    <summary>Dalam blok ini, Anda dapat melihat contoh: bagaimana mengatur judul dokumen (kemahan untuk melihat rincian).</summary>
+    <summary>Di blok ini, Anda dapat melihat contoh: cara mengatur judul dokumen (perluas untuk melihat detail).</summary>
     <p></p>
-    <p>Judul dokumen dapat diatur baik sumber Microsoft Word dokumen:</p>
-        <img src="/words/java/working-with-pdfa-or-pdfua/document-title-mw.png" alt="document-title-mw" style="width:800px"/>
-    <p>Atau PDF output:</p>
-        <img src="/words/java/working-with-pdfa-or-pdfua/document-title-acrobat.png" alt="document-title-acrobat" style="width:800px"/>
+    <p>Judul dokumen dapat diatur baik dokumen sumber Microsoft Word:</p>
+    <img src="/words/java/working-with-pdfa-or-pdfua/document-title-mw.png" alt="document-title-mw" style="width:800px"/>
+    <p>Atau outputnya PDF:</p>
+    <img src="/words/java/working-with-pdfa-or-pdfua/document-title-acrobat.png" alt="document-title-acrobat" style="width:800px"/>
 </details>
 {{% /alert %}}
 
-## Persyaratan Font
+## Persyaratan Fonta
 
-|  Tingkat kepatuhan standar PDF dalam Aspose.Words |  Kehadiran persyaratan |
-|  --------------------------------------------------  |  -----------------------  |
-|  PDF/A-1a |   {{< emoticons/tick >}}   |
-|  Datasheet PDF |   {{< emoticons/tick >}}   |
-|  Datasheet PDF |   {{< emoticons/tick >}}   |
-|  Datasheet PDF |   {{< emoticons/tick >}}   |
-|  Datasheet PDF |   {{< emoticons/tick >}}   |
-|  PDF/UA-1 |   {{< emoticons/tick >}}   |
+| PDF tingkat kepatuhan standar dalam Aspose.Words | Adanya persyaratan |
+| -------------------------------------------------- | ----------------------- |
+| PDF/A-1a | {{< emoticons/tick >}} |
+| PDF/A-1b | {{< emoticons/tick >}} |
+| PDF/A-2a | {{< emoticons/tick >}} |
+| PDF/A-2b | {{< emoticons/tick >}} |
+| PDF/A-4 | {{< emoticons/tick >}} |
+| PDF/UA-1 | {{< emoticons/tick >}} |
 
-Ada juga sejumlah nuansa bekerja dengan font ketika mengkonversi ke PDF / A-1, PDF / A-2, format PDF / A-4 atau PDF / U-1 menggunakan Aspose.WordsSitemap Mereka harus diperhitungkan jika Anda ingin menghindari kemungkinan masalah dengan dokumen output.
+Ada juga sejumlah nuansa bekerja dengan font saat mengonversi ke PDF/A-1, PDF/A-2, PDF/A-4 atau format PDF/UA-1 menggunakan Aspose.Words. Mereka harus diperhitungkan jika Anda ingin menghindari kemungkinan masalah dengan dokumen keluaran.
 
-Bagian di bawah ini menjelaskan nuansa dan pilihan tersebut untuk solusi mereka.
+Bagian di bawah ini menjelaskan nuansa dan opsi seperti itu untuk solusinya.
 
 ### Persyaratan Hukum Font
 
-|  Tingkat kepatuhan standar PDF dalam Aspose.Words |  Kehadiran persyaratan |
-|  --------------------------------------------------  |  -----------------------  |
-|  PDF/A-1a |   {{< emoticons/tick >}}   |
-|  Datasheet PDF |   {{< emoticons/tick >}}   |
-|  Datasheet PDF |   {{< emoticons/tick >}}   |
-|  Datasheet PDF |   {{< emoticons/tick >}}   |
-|  Datasheet PDF |   {{< emoticons/tick >}}   |
-|  PDF/UA-1 |   {{< emoticons/tick >}}   |
+| PDF tingkat kepatuhan standar dalam Aspose.Words | Adanya persyaratan |
+| -------------------------------------------------- | ----------------------- |
+| PDF/A-1a | {{< emoticons/tick >}} |
+| PDF/A-1b | {{< emoticons/tick >}} |
+| PDF/A-2a | {{< emoticons/tick >}} |
+| PDF/A-2b | {{< emoticons/tick >}} |
+| PDF/A-4 | {{< emoticons/tick >}} |
+| PDF/UA-1 | {{< emoticons/tick >}} |
 
-Aspose.Words tidak memverifikasi pembatasan hukum dari font yang digunakan - itu hingga pengguna. Dengan kata lain, pengguna tidak boleh memberikan font yang tidak pantas untuk konversi PDF menggunakan Aspose.WordsSitemap
+Aspose.Words tidak memverifikasi batasan hukum dari font yang digunakan-terserah pengguna. Dengan kata lain, pengguna tidak boleh menyediakan font yang tidak sesuai untuk konversi PDF menggunakan Aspose.Words.
 
 {{% alert color="secondary" %}}
 <details>
-    <summary>Spesifikasi memberi tahu kami rincian berikut:</summary>
+    <summary>Spesifikasi memberi tahu kami hal berikut (perluas untuk melihat detailnya):</summary>
     <p></p>
-    <p>Hanya program font yang secara hukum dapat diatur dalam file untuk unlimited, rendering universal akan digunakan.</p>
-    <p>ISO-19005-2, 6.2.11.4.1; ISO-14289-1, 7.21.4.1 (hanya kutipan yang sama dalam dua spesifikasi)</p>
+    <p>Hanya program font yang dapat disematkan secara legal dalam file untuk rendering universal tanpa batas yang boleh digunakan.</p>
+    <p>ISO-19005-2, 6.2.11.4.1; ISO-14289-1, 7.21.4.1 (kutipan yang sama persis dalam dua spesifikasi)</p>
 </details>
 {{% /alert %}}
 
-### .Login Glyph
+### .notdef Glyph
 
-|  Tingkat kepatuhan standar PDF dalam Aspose.Words |  Kehadiran persyaratan |
-|  --------------------------------------------------  |  -----------------------  |
-|  PDF/A-1a |                           |
-|  Datasheet PDF |                           |
-|  Datasheet PDF |   {{< emoticons/tick >}}   |
-|  Datasheet PDF |   {{< emoticons/tick >}}   |
-|  Datasheet PDF |   {{< emoticons/tick >}}   |
-|  PDF/UA-1 |   {{< emoticons/tick >}}   |
+| PDF tingkat kepatuhan standar dalam Aspose.Words | Adanya persyaratan |
+| -------------------------------------------------- | ----------------------- |
+| PDF/A-1a |  |
+| PDF/A-1b |  |
+| PDF/A-2a | {{< emoticons/tick >}} |
+| PDF/A-2b | {{< emoticons/tick >}} |
+| PDF/A-4 | {{< emoticons/tick >}} |
+| PDF/UA-1 | {{< emoticons/tick >}} |
 
-Penggunaan `.notdef` glyph dilarang. Login `.notdef` glyph akan muncul jika dokumen berisi karakter yang tidak hadir dalam font yang dipilih dan yang juga tidak dapat diselesaikan melalui mekanisme Font Fallback.
+Penggunaan mesin terbang `.notdef` dilarang. Mesin terbang `.notdef` akan muncul jika dokumen berisi karakter yang tidak ada dalam font yang dipilih dan yang juga tidak dapat diselesaikan melalui mekanisme Fallback Font.
 
 {{% alert color="secondary" %}}
 <details>
-    <summary>Spesifikasi memberi tahu kami rincian berikut:</summary>
+    <summary>Spesifikasi memberi tahu kami hal berikut (perluas untuk melihat detailnya):</summary>
     <p></p>
-    <p>Dokumen yang sesuai tidak mengandung referensi ke .notdef glyph dari setiap operator yang menampilkan teks, terlepas dari mode rendering teks, dalam aliran konten apa pun.</p>
-    <p>ISO-19005-2, 6.2.11.8; ISO-14289-1, 7.21.8 (hanya kutipan yang sama dalam dua spesifikasi)</p>
+    <p>Dokumen yang sesuai tidak boleh berisi referensi ke .notdef glyph dari teks mana pun yang menampilkan operator, terlepas dari mode rendering teks, dalam aliran konten apa pun.</p>
+    <p>ISO-19005-2, 6.2.11.8; ISO-14289-1, 7.21.8 (kutipan yang sama persis dalam dua spesifikasi)</p>
 </details>
 {{% /alert %}}
 
 {{% alert color="secondary" %}}
 <details>
-    <summary>Dalam blok ini, Anda dapat melihat contoh: cara menghapus atau mengganti karakter ini (dan untuk melihat rincian).</summary>
+    <summary>Di blok ini, Anda dapat melihat contoh: cara menghapus atau mengganti karakter ini (perluas untuk melihat detailnya).</summary>
     <p></p>
-    <p>Pengguna harus menghapus atau mengganti karakter ini dalam dokumen Word sumber:</p>
-        <img src="/words/java/working-with-pdfa-or-pdfua/m-w-notdef-glyph.png" alt="MWNotdefGlyph" style="width:800px"/>
-    <p>Atau dokumen PDF output menggunakan alat "Edit PDF":</p>
-        <img src="/words/java/working-with-pdfa-or-pdfua/acrobat-remove-notdef-glyph-edit-pdf-tool.png" alt="AcrobatRemoveNotdefGlyph-EditPdfTool" style="width:800px"/>
+    <p>Pengguna harus menghapus atau mengganti karakter ini di salah satu dokumen sumber Word:</p>
+    <img src="/words/java/working-with-pdfa-or-pdfua/m-w-notdef-glyph.png" alt="MWNotdefGlyph" style="width:800px"/>
+    <p>Atau dokumen keluaran PDF menggunakan alat " Edit PDF":</p>
+    <img src="/words/java/working-with-pdfa-or-pdfua/acrobat-remove-notdef-glyph-edit-pdf-tool.png" alt="AcrobatRemoveNotdefGlyph-EditPdfTool" style="width:800px"/>
 </details>
 {{% /alert %}}
 
 ### Area Penggunaan Pribadi (PUA)
 
-|  Tingkat kepatuhan standar PDF dalam Aspose.Words |  Kehadiran persyaratan |
-|  --------------------------------------------------  |  -----------------------  |
-|  PDF/A-1a |                           |
-|  Datasheet PDF |                           |
-|  Datasheet PDF |   {{< emoticons/tick >}}   |
-|  Datasheet PDF |   {{< emoticons/tick >}}   |
-|  Datasheet PDF |   {{< emoticons/tick >}}   |
-|  PDF/UA-1 |                           |
+| PDF tingkat kepatuhan standar dalam Aspose.Words | Adanya persyaratan |
+| -------------------------------------------------- | ----------------------- |
+| PDF/A-1a |  |
+| PDF/A-1b |  |
+| PDF/A-2a | {{< emoticons/tick >}} |
+| PDF/A-2b | {{< emoticons/tick >}} |
+| PDF/A-4 | {{< emoticons/tick >}} |
+| PDF/UA-1 |  |
 
-Personal Use Area (PUA) karakter muncul sebagian besar untuk Windows font simbolik seperti "Symbol", "Wingdings", "Webdings", dan lain-lain. Microsoft Word format tidak memberikan pilihan untuk menyimpan teks aktual untuk karakter.
+Karakter Private Use Area (PUA) sebagian besar muncul untuk font simbolik Windows seperti "Symbol", "Wingdings", "Webdings", dan lainnya. Format Microsoft Word tidak menyediakan opsi untuk menyimpan teks aktual untuk karakter.
 
 {{% alert color="secondary" %}}
 <details>
-    <summary>Spesifikasi memberi tahu kami rincian berikut:</summary>
+    <summary>Spesifikasi memberi tahu kami hal berikut (perluas untuk melihat detailnya):</summary>
     <p></p>
-    <p>Untuk Tingkat Kesesuaian hanya, untuk karakter apa pun ... yang dipetakan ke kode atau kode di Unicode Private Use Area (PUA), entri ActualText ... akan hadir untuk karakter ini atau urutan karakter yang karakter tersebut adalah bagian.</p>
-    <p>ISODi. 08.00 - 12.00/13.30 - 17.30</p>
+    <p>Untuk kesesuaian Level A saja, untuk karakter apa pun ... itu dipetakan ke kode atau kode di Area Penggunaan Pribadi Unicode (PUA), entri ActualText... harus ada untuk karakter ini atau urutan karakter yang menjadi bagian dari karakter tersebut.</p>
+    <p>ISO-19005-2, 6.2.11.7.3</p>
 </details>
 {{% /alert %}}
 
-"Segoe UI Simbol" adalah Windows Unicode font yang bisa digunakan sebagai alternatif untuk font simbolik.
+"Segoe UI Symbol" adalah font Unicode Windows yang dapat digunakan sebagai alternatif font simbolik.
 
 {{% alert color="secondary" %}}
 <details>
-    <summary>Dalam blok ini, Anda dapat melihat contoh: apa yang harus dilakukan pengguna untuk memecahkan masalah dengan font simbolik (ketika melihat rincian).</summary>
+    <summary>Di blok ini, Anda dapat melihat contoh: apa yang harus dilakukan pengguna untuk menyelesaikan masalah dengan font simbolik (perluas untuk melihat detailnya).</summary>
     <p></p>
-    <p>Ganti font simbolik dengan Unicode satu dalam dokumen Word sumber:</p>
-        <img src="/words/java/working-with-pdfa-or-pdfua/m-w-insert-symbol.png" alt="MWInsertSymbol" style="width:800px"/>
-    <p>Atau tambahkan entri ActualText ke karakter bermasalah dalam dokumen PDF output:</p>
-        <img src="/words/java/working-with-pdfa-or-pdfua/acrobat-span-tag-actual-text.png" alt="AcrobatSpanTagActualText" style="width:800px"/>
+    <p>Ganti font simbolik dengan font Unicode di dokumen sumber Word:</p>
+    <img src="/words/java/working-with-pdfa-or-pdfua/m-w-insert-symbol.png" alt="MWInsertSymbol" style="width:800px"/>
+    <p>Atau tambahkan entri ActualText ke karakter bermasalah dalam dokumen PDF keluaran:</p>
+    <img src="/words/java/working-with-pdfa-or-pdfua/acrobat-span-tag-actual-text.png" alt="AcrobatSpanTagActualText" style="width:800px"/>
 </details>
 {{% /alert %}}

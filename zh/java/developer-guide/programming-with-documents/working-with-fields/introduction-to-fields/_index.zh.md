@@ -1,59 +1,59 @@
----
-title: 球场简介 Java
-second_title: "Aspose.Words (单位:千美元) Java"
-articleTitle: 球场简介
-linktitle: 球场简介
-description: "详细情况、实地代码和实地结果 Aspose.Words (单位:千美元) Java。 。 。 。"
+﻿---
+title: Java中的字段介绍
+second_title: Aspose.Words为Java
+articleTitle: 领域简介
+linktitle: 领域简介
+description: "字段功能在详细信息,字段代码和字段结果解释在Aspose.Words为Java."
 type: docs
 weight: 10
 url: /zh/java/introduction-to-fields/
 timestamp: 2024-09-25-11-08-55
 ---
 
-Aspose.Words 是一个类库,用于服务器侧处理 Microsoft Word 文档并通过以下方式支持字段:
+Aspose.Words是一个为服务器端处理Microsoft Word文档而设计的类库，支持以下方式的字段:
 
-- 文档中的所有字段在打开/保存和转换时保留
-- 有可能更新大多数领域的成果
+- 在打开/保存和转换期间，文档中的所有字段都将保留
+- 可以更新大多数字段的结果
 
-在本篇文章中,我们将更多地了解实地结构,即支持的实地结构。 Aspose.Words, 和与这些领域合作的细节。
+在本文中，我们将详细了解字段结构、Aspose.Words中支持的字段以及使用此类字段的详细信息。
 
-## 外地结构
+## 场结构
 
-一个领域包括:
+一个字段由:
 
-- 怎么样? 字段起始和分隔节点用于包含构成字段代码的内容(通常为纯文本).
-- 外地分隔符和外地端包含外地结果。 这可以由从文本到段落到表格的各种内容组成。
-- 有些字段可能没有分隔符,这意味着整个内容构成字段代码.
-- 怎么样? 字段代码定义了字段的行为,由字段标识符和往往由诸如字段名称和开关等其他参数组成.
-- 怎么样? 外地结果载有对外地的最新评价。 此值存储在字段结果中, 并且是显示给用户的内容 。 一些字段可能没有任何字段结果,因此不会在文档中显示任何东西。 同样,有些领域可能没有更新,因此也不会产生实地结果。
+- 字段开始和分隔符节点用于包含构成字段代码的内容（通常为纯文本）。
+- 字段分隔符和字段结束包含字段结果。 这可以由各种类型的内容组成，从文本到段落到表格。
+- 某些字段可能没有分隔符，这意味着整个内容构成字段代码。
+- 字段代码定义字段的行为，并由字段标识符和通常其他参数（如字段名称和开关）组成。
+- 字段结果包含字段的最新评估。 此值存储在字段结果中，并显示给用户。 某些字段可能没有任何字段结果，因此不会在文档中显示任何内容。 同样，某些字段可能尚未更新，因此也没有字段结果。
 
 ![fields-aspose-words-java](/words/java/introduction-to-fields/introduction-to-fields-1.png)
 
-构成字段代码的内容为 [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) 节点之间 [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/) 和 [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/)。 。 。 。 字段结果存储在 **FieldSeparator** 和 [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/) 节点和可以由各类内容组成. 通常,字段结果包含由Run节点构成的纯文本,然而,将字段结尾点定位在一个完全不同的段落中是可能的,从而使得字段结果包括: [文档中节点的逻辑级别](/words/zh/java/logical-levels-of-nodes-in-a-document/) 例如, **Table** 和 **Paragraph** 节点也一样。
+构成字段代码的内容存储为[FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/)和[FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/)之间的[Run](https://reference.aspose.com/words/java/com.aspose.words/run/)节点。 字段结果存储在**FieldSeparator**和[FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/)节点之间，可以由各种类型的内容组成。 通常，字段结果只包含由运行节点组成的文本，但是FieldEnd节点可能位于完全不同的段落中，从而使字段结果由 [块级节点](/words/java/logical-levels-of-nodes-in-a-document/) 如**Table**和**Paragraph**节点为好。
 
-以下是一个字段如何存储在 Aspose.Words 使用"*Documentexplorer" * 实例,可在 [吉图布](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/java/com/aspose/words/examples/viewers_visualizers/document_explorer)。 。 。 。
+下面是一个如何通过使用"*DocumentExplorer"*示例在Aspose.Words中存储字段的视图，该示例可以在 [Github](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/java/com/aspose/words/examples/viewers_visualizers/document_explorer).
 
 ![document-explorer-aspose-words-java](/words/java/introduction-to-fields/introduction-to-fields-2.png)
 
-## 域数 Aspose.Words Document Object Model (单位:千美元)DOM页:1
+## Aspose.Words文档对象模型中的字段(DOM)
 
-当文档装入时 Aspose.Words 文档的字段被装入 Aspose.Words Document Object Model 作为一组单独的组件(节点)。 单字段作为集合装入 **FieldStart**, **FieldSeparator** 和 **FieldEnd** 节点与这些节点之间的内容。 如果一个字段没有字段结果,则不会有 **FieldSeparator** 节点. 所有这些节点都是内在的(作为儿童) [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) 或 [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/)。 。 。 。
+当文档加载到Aspose.Words时，文档的字段作为一组单独的组件（节点）加载到Aspose.Words文档对象模型中。 单个字段作为**FieldStart**，**FieldSeparator**和**FieldEnd**节点的集合以及这些节点之间的内容加载。 如果字段没有字段结果，则不会有**FieldSeparator**节点。 所有这些节点总是内联找到（作为[Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/)或[SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/)的子节点。
 
-内 Aspose.Words 每一个 **FieldXXX** 节点来自 [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/)。 。 。 此类提供了属性, 用于通过 [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) 属性。 比如说 `FieldType.FieldMergeField` 代表文档中的合并字段。
+在Aspose.Words中，每个**FieldXXX**节点都来自[FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/)。 此类提供了一个属性，用于通过[FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/)属性检查指定节点表示的字段类型。 例如`FieldType.FieldMergeField`表示文档中的合并字段。
 
 {{% alert color="primary" %}}
 
-Word 文档中有一些特定的字段没有导入 Aspose.Words 作为集合 **FieldXXX** 节点。 比如说, `LINK` 字段和 `INCLUDEPICTURE` 字段导入到 Aspose.Words 作为 [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) 对象。 这个对象提供属性来与通常存储在这些字段的图像数据配合工作. 要导入 `INCLUDEPICTURE` 字段为 **FieldXXX** 节点 [PreserveIncludePictureField](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getPreserveIncludePictureField) 选项必须指定为 **true**。 。 。 。
+Word文档中存在一些特定字段，这些字段没有作为**FieldXXX**节点的集合导入到Aspose.Words中。 例如，`LINK`字段和`INCLUDEPICTURE`字段作为[Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/)对象导入到Aspose.Words中。 此对象提供用于处理通常存储在这些字段中的图像数据的属性。 要将`INCLUDEPICTURE`字段导入为**FieldXXX**节点，必须将[PreserveIncludePictureField](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getPreserveIncludePictureField)选项指定为**true**。
 
-窗体字段也被导入到 Aspose.Words 作为他们自己的特殊阶层。 那个 [FormField](https://reference.aspose.com/words/java/com.aspose.words/formfield/) 类代表 Word 文档中的窗体字段,并提供了窗体字段特有的其他方法。
+表单字段也作为它们自己的特殊类导入到Aspose.Words中。 [FormField](https://reference.aspose.com/words/java/com.aspose.words/formfield/)类表示Word文档中的表单字段，并提供特定于表单字段的其他方法。
 
 {{% /alert %}}
 
-## 支助领域
+## 支持的字段
 
-以下字段的计算支持在当前的版本中 Aspose.Words编号:
+当前版本的Aspose.Words支持计算以下字段:
 
-- = (公式) (单位:千美元)
+- =(公式)
 - `ADDRESSBLOCK`
 - `ASK`
 - `AUTHOR`
@@ -123,41 +123,41 @@ Word 文档中有一些特定的字段没有导入 Aspose.Words 作为集合 **F
 - `TIME`
 - `TITLE`
 - `TOA`
-- 怎么样? `TOC` (包括TOT和TOF)
+- `TOC` (including TOT and TOF)
 - `USERADDRESS`
 - `USERINITIALS`
 - `USERNAME`
 
-## 精密的字段解析
+## 复杂的字段解析
 
-Aspose.Words 跟着路走 Microsoft Word 处理字段,并因此正确处理:
+Aspose.Words遵循Microsoft Word处理字段的方式，因此它正确处理:
 
-- 筑巢田:
-  `IF { =OR({ `COM价调汇率` { =2.5 +PRODUCT(3,5 ,8.4) } > 4}, { =2/2 }) } = 1 "Credit not acceptable" "Credit acceptable"`
-- 田间争吵可能是筑巢田的结果
-- 田园可以在田园代码内以及田园结果中筑巢
-- 空格/无空格,引文/无引文,字段中的逃脱字符等:
+- 嵌套字段:
+  `IF { =OR({ `COMPARE` { =2.5 +PRODUCT(3,5 ,8.4) } > 4}, { =2/2 }) } = 1 "Credit not acceptable" "Credit acceptable"`
+- 字段参数可以是嵌套字段的结果
+- 字段可以嵌套在字段代码中，也可以嵌套在字段结果中
+- 空格/无空格，引号/无引号，字段中的转义字符等。:
   `MERGEFIELD \f"Text after""Field \n\ame with \" and \\\ and \\\*"\bTextBefor\e`
-- 跨越多个段落的字段
+- 跨多个段落的字段
 
 ### 公式字段
 
-Aspose.Words 使公式引擎得到非常认真的实施,并支持以下方面:
+Aspose.Words提供了公式引擎的非常严肃的实现，并支持以下内容:
 
 - 算术和逻辑运算符:
   `=(54+4*(6-77)-(5))+(-6-5)/4/5`
-- 函数:
+- 功能:
   `=ABS(-01.4)+2.645/(5.6^3.5)+776457 \\\# "#,##0"`
-- 参考书签:
+- 对书签的引用:
   `=IF(C>4, 5,ABS(A)*.76) +3.85`
 - 数字格式化开关:
   `=00000000 \\\# "$#,##0.00;($#,##0.00)"`
 
-支持表达式中的下列功能: `ABS`, `AND`, `AVERAGE`, `COUNT`, `DEFINED`, `FALSE`, `IF`, `INT`, `MAX`, `MIN`, `MOD`, `NOT`, `OR`, `PRODUCT`, `ROUND`, `SIGN`, `SUM`, TRUE。 。 。 。
+支持表达式中的以下函数: `ABS`, `AND`, `AVERAGE`, `COUNT`, `DEFINED`, `FALSE`, `IF`, `INT`, `MAX`, `MIN`, `MOD`, `NOT`, `OR`, `PRODUCT`, `ROUND`, `SIGN`, `SUM`, TRUE.
 
-### `IF` 和 `COMPARE` 字段
+### `IF` and `COMPARE` Fields
 
-只是一些东西 `IF` 表示 Aspose.Words 可以轻松计算,应该让你知道这个特性有多强大:
+只是Aspose.Words可以轻松计算的一些`IF`表达式应该让您了解此功能的强大程度:
 
 - `IF 3 > 5.7^4+MAX(4,3) True False`
 - `IF "abcd" > "abc" True False`
@@ -165,64 +165,64 @@ Aspose.Words 使公式引擎得到非常认真的实施,并支持以下方面:
 - `IF 4 = "2*2" True False`
 - `COMPARE 3+5/34 < 4.6/3/2`
 
-### `DATE` 和 `TIME` 字段
+### `DATE` and `TIME` Fields
 
-Aspose.Words 支持可用的所有日期和时间格式化开关 Microsoft Word, 例如:
+Aspose.Words支持Microsoft Word中可用的所有日期和时间格式化开关，一些示例如下:
 
 - `DATE @ "d-MMM-yy"`
 - `DATE @ "d/MM/yyyy h:mm am/pm`
 
-### Mail Merge 字段
+### Mail Merge字段
 
-Aspose.Words 不限制复杂程度 Mail Merge 字段,并支持嵌入 `IF` 和公式字段,甚至可以使用公式计算合并字段的名称。
+Aspose.Words不限制文档中Mail Merge字段的复杂性，并支持嵌套的`IF`和公式字段，甚至可以使用公式计算合并字段的名称。
 
-一些实例包括: Mail Merge 字段 Aspose.Words 支持:
+Aspose.Words支持的Mail Merge字段的一些示例:
 
-- 怎么样? Mail merge 字段开关:
+- Mail merge字段开关:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
-- 在公式中嵌入合并字段:
-  `IF { `比利时` Value1 } >= { `比利时` Value2 } True False`
+- 公式中的嵌套合并字段:
+  `IF { `MERGEFIELD` Value1 } >= { `MERGEFIELD` Value2 } True False`
 - 在运行时计算合并字段的名称:
-  `MERGEFIELD { `若为` { `比利时` Value1 } >= { `比利时` Value2 } FirstName"LastName" }`
-- 有条件移动到数据源的下一个记录:
-  `NEXTIF { `比利时` Value1 } <= { =IF(-2.45 >= 6*{ `比利时` Value2 }, 2, -.45) }`
+  `MERGEFIELD { `IF` { `MERGEFIELD` Value1 } >= { `MERGEFIELD` Value2 } FirstName"LastName" }`
+- 有条件移动到数据源中的下一个记录:
+  `NEXTIF { `MERGEFIELD` Value1 } <= { =IF(-2.45 >= 6*{ `MERGEFIELD` Value2 }, 2, -.45) }`
 
-### 格式化开关
+### 格式开关
 
-文档中的字段可以有格式化开关,指定如何格式化所产生的值。 Aspose.Words 支持下列格式开关:
+文档中的字段可以具有格式设置开关，用于指定应如何设置结果值的格式。 Aspose.Words支持以下格式切换:
 
-- @ 日期和时间格式
-- QQ - 数字格式化
-- \\\\\\\\* 标签
-- 第一队长
-- \\\\\\\\* 下调
-- \\\\\\\\* 上层
-- QQ CHARFORMAT - 根据字段代码的第一个字符的格式结果
-- - - - - 根据旧结果格式化的格式结果
+- @-日期和时间格式
+- \\\#-数字格式
+- \\\\\\\\* Caps
+- \\\\\\\\* FirstCap
+- \\\\\\\\* Lower
+- \\\\\\\\* Upper
+- \\\\\\\\* CHARFORMAT-根据字段代码的第一个字符格式化结果
+- \\\\\\\\* MERGEFORMAT-根据旧结果的格式化方式格式化结果
 
-### Date 和字段的数字格式
+### 字段中的日期和数字格式
 
-何时 Aspose.Words 计算一个字段结果,它往往需要将字符串分析成数字或日期值,并把它格式化为字符串。 默认 Aspose.Words 在计算字段值时,使用当前线程文化进行解析和格式化 mail merge。 。 。 。 还有一些备选办法,形式是: [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions/) 分类,允许在字段更新时进一步控制使用哪一种文化
+当Aspose.Words计算字段结果时，它通常需要将字符串解析为数字或日期值，并将其格式化为string.By 默认Aspose.Words在字段更新和mail merge期间计算字段值时使用当前线程区域性执行解析和格式化。 还有以[FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions/)类形式提供的选项，它允许进一步控制字段更新期间使用的区域性%
 
-* 默认情况 [FieldUpdateCultureSource](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions/#getFieldUpdateCultureSource) 属性设定为 [CurrentThread](https://reference.aspose.com/words/java/com.aspose.words/fieldupdateculturesource/#CURRENT-THREAD) 使用当前线程构造格式化字段
-* 此属性可设定为 [FieldCode](https://reference.aspose.com/words/java/com.aspose.words/fieldupdateculturesource/#FIELD-CODE) 因此,字段代码中的语言集用于格式化
+* 默认情况下，[FieldUpdateCultureSource](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions/#getFieldUpdateCultureSource)属性设置为[CurrentThread](https://reference.aspose.com/words/java/com.aspose.words/fieldupdateculturesource/#CURRENT-THREAD)，使用当前线程区域性格式化字段
+* 此属性可以设置为[FieldCode](https://reference.aspose.com/words/java/com.aspose.words/fieldupdateculturesource/#FIELD-CODE)，以便从字段的字段代码中设置的语言用于格式化
 
-### 使用当前线索的文化格式
+### 使用当前线程的区域性进行格式化
 
-要控制字段计算中使用的培养,只需设置 **CurrentCulture** 属性到您选择的文化,然后引用字段计算。
+要控制字段计算期间使用的区域性，只需在调用字段计算之前将**CurrentCulture**属性设置为您选择的区域性即可。
 
-以下代码示例显示在更新时如何改变格式化字段中使用的构造:
+下面的代码示例演示如何在更新期间更改格式化字段中使用的区域性:
 
-EXAMPLE( 使用公共包装器 CurseThreadSettings. get Locale () 并设置 Locale () 而非私有 `Thread.CurrentThread`. 近代文化 (中文(简体) )
+EXAMPLE（使用公共包装器CurrentThreadSettings。getLocale()和setLocale()而不是私有的`Thread.CurrentThread`。CurrentCulture)
 
-使用当前文库格式化字段,可以让一个系统轻松而一致地控制文档中的所有字段在字段更新时如何格式化.
+使用当前区域性设置字段格式允许系统轻松一致地控制字段更新期间文档中所有字段的格式设置。
 
-### 在文档中使用"文化"格式化
+### 使用文档中的区域性进行格式设置
 
-另一方面, Microsoft Word 格式化每个基于字段中文本语言的单个字段(具体地说,从字段代码中运行)。 有时在字段更新时,这可能是人们所希望的行为,例如,如果您有包含由许多不同语言组成的内容的全球化文件,并且希望每个字段都尊重文本中使用的语言。 Aspose.Words 也支持此功能.
+另一方面，Microsoft Word根据字段中找到的文本的语言（特别是从字段代码中运行的文本）对每个单独的字段进行格式化。 有时，在字段更新期间，这可能是所需的行为，例如，如果您有包含由许多不同语言组成的内容的全球化文档，并且希望每个字段都遵守文本中使用的区域 Aspose.Words也支持此功能。
 
-那个 [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) 类提供 a [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/document/#getFieldOptions) 属性,其中包含可用于控制文档中字段更新的元件。
+[Document](https://reference.aspose.com/words/java/com.aspose.words/document/)类提供了一个[FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/document/#getFieldOptions)属性，该属性包含可用于控制文档中字段的更新方式的成员。
 
-以下的代码示例显示, 如何指定在 字段更新和 Mail Merge 选自:
+下面的代码示例演示如何指定字段更新和Mail Merge期间用于日期格式设置的区域性的选择位置:
 
-实例
+EXAMPLE

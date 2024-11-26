@@ -1,80 +1,80 @@
----
-title: Bekerja dengan Dokumen Teks di Java
-second_title: Aspose.Words Sitemap Java
+﻿---
+title: Bekerja dengan Dokumen Teks dalam Java
+second_title: Aspose.Words untuk Java
 articleTitle: Bekerja dengan Dokumen Teks
 linktitle: Bekerja dengan Dokumen Teks
-description: "Pengolahan dokumen TXT canggih, daftar, BiDi, header / footer, menggunakan JavaSitemap"
+description: "Pemrosesan dokumen TXT lanjutan, daftar, BiDi, header/footer, menggunakan Java."
 type: docs
 weight: 430
 url: /id/java/working-with-text-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Dalam artikel ini, kami akan mempelajari opsi apa yang dapat berguna untuk bekerja dengan dokumen teks melalui Aspose.WordsSitemap Harap dicatat bahwa ini bukan daftar lengkap pilihan yang tersedia, tetapi hanya contoh bekerja dengan beberapa dari mereka.
+Pada artikel ini, kita akan mempelajari opsi apa yang dapat berguna untuk bekerja dengan dokumen teks melalui Aspose.Words. Harap dicatat bahwa ini bukan daftar lengkap opsi yang tersedia, tetapi hanya contoh bekerja dengan beberapa di antaranya.
 
-## Tambahkan Bi-Directional Login
+## Tambahkan Tanda Dua Arah
 
-Anda dapat menggunakan [AddBidiMarks](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getAddBidiMarks) properti untuk menentukan apakah untuk menambahkan tanda dua arah sebelum setiap BiDi lari ketika mengekspor dalam format teks biasa. Aspose.Words masukkan Unicode Karakter 'RIGHT-TO-LEFT MARK' (U + 200F) sebelum setiap Bi-directional Run dalam teks. Opsi ini sesuai dengan opsi "Tambahkan tanda dua arah" di dialog MS Word File Konversi ketika Anda mengekspor ke format Teks Biasa. Perhatikan bahwa itu muncul dalam dialog hanya jika ada bahasa pengeditan Arab atau Ibrani ditambahkan dalam MS Word.
+Anda dapat menggunakan properti [AddBidiMarks](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getAddBidiMarks) untuk menentukan apakah akan menambahkan tanda dua arah sebelum setiap BiDi dijalankan saat mengekspor dalam format teks biasa. Aspose.Words menyisipkan Karakter Unicode'RIGHT-TO-LEFT MARK' (U+200F) sebelum setiap Lari dua arah dalam teks. Opsi ini sesuai dengan opsi "Tambahkan tanda dua arah" di dialog Konversi File MS Word saat Anda mengekspor ke format Teks Biasa. Perhatikan bahwa ini hanya muncul dalam dialog jika salah satu bahasa penyuntingan bahasa Arab atau Ibrani ditambahkan dalam MS Word.
 
-Contoh kode berikut menunjukkan cara menggunakan `TxtSaveOptions.AddBidiMarks` Login Nilai default dari properti ini adalah *true* Sitemap
+Contoh kode berikut menunjukkan cara menggunakan properti `TxtSaveOptions.AddBidiMarks`. Nilai default properti ini adalah *true*:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-AddBidiMarks.java" >}}
 
-## Memperkuat Daftar Item Selama Memuat TXT
+## Mengenali item Daftar saat memuat TXT
 
-Aspose.Words dapat mengimpor item daftar file teks sebagai nomor daftar atau teks biasa dalam model objek dokumennya. Login [DetectNumberingWithWhitespaces](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getDetectNumberingWithWhitespaces) properti memungkinkan untuk menentukan bagaimana item daftar nomor diakui ketika dokumen diimpor dari format teks biasa:
+Aspose.Words dapat mengimpor item daftar dari file teks sebagai nomor daftar atau teks biasa dalam model objek dokumennya. Properti [DetectNumberingWithWhitespaces](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getDetectNumberingWithWhitespaces) memungkinkan untuk menentukan bagaimana item daftar bernomor dikenali saat dokumen diimpor dari format teks biasa:
 
-* Sitemap Jika opsi ini ditetapkan *true*, ruang putih juga digunakan sebagai nomor daftar delimiters: daftar algoritma pengenalan untuk gaya Arab menghitung (1., 1.1.2.) menggunakan kedua ruang putih dan titik (".") simbol.
-* Sitemap Jika opsi ini ditetapkan *false*, algoritma pengenalan daftar mendeteksi paragraf, ketika nomor daftar berakhir dengan baik titik, braket kanan atau simbol peluru (seperti "•", "*", "-" atau "o").
+* Jika opsi ini disetel ke *true*, spasi kosong juga digunakan sebagai pembatas nomor daftar: algoritme pengenalan daftar untuk penomoran gaya Arab (1., 1.1.2.) menggunakan simbol spasi putih dan titik (".").
+* Jika opsi ini disetel ke *false*, algoritme pengenalan daftar mendeteksi paragraf daftar, saat nomor daftar diakhiri dengan simbol titik, tanda kurung siku, atau peluru (seperti "•", "*", "-" atau "o").
 
 Contoh kode berikut menunjukkan cara menggunakan properti ini:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-DetectNumberingWithWhitespaces.java" >}}
 
-## Menangani Ruang Memimpin dan Trailing selama Memuat TXT
+## Menangani Spasi Awal dan Akhir selama Pemuatan TXT
 
-Anda dapat mengontrol cara menangani ruang terkemuka dan trailing selama memuat file TXT. Ruang terkemuka bisa dipangkas, dilestarikan atau dikonversi ke ruang indent dan trailing bisa dipangkas atau dipelihara.
+Anda dapat mengontrol cara menangani spasi awal dan akhir selama memuat file TXT. Ruang terdepan dapat dipangkas, dipertahankan, atau diubah menjadi indentasi dan ruang tambahan dapat dipangkas atau dipertahankan.
 
-Contoh kode yang diberikan di bawah ini menunjukkan cara memotong ruang terkemuka dan trailing sambil mengimpor file TXT:
+Contoh kode yang diberikan di bawah ini menunjukkan cara memangkas spasi awal dan akhir saat mengimpor file TXT:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-HandleSpacesOptions.java" >}}
 
-## Dokumen Deteksi Arah Teks
+## Mendeteksi Arah Teks Dokumen
 
-Aspose.Words Sitemap [DocumentDirection](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getDocumentDirection) properti [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) kelas untuk mendeteksi arah teks (RTL / LTR) dalam dokumen. Set properti ini atau mendapatkan petunjuk teks dokumen yang disediakan dalam [DocumentDirection](https://reference.aspose.com/words/java/com.aspose.words/documentdirection/) Sitemap Nilai default di sebelah kanan.
+Aspose.Words menyediakan properti [DocumentDirection](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getDocumentDirection) di kelas [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) untuk mendeteksi arah teks (RTL / LTR) dalam dokumen. Properti ini menetapkan atau mendapatkan petunjuk teks dokumen yang disediakan dalam pencacahan [DocumentDirection](https://reference.aspose.com/words/java/com.aspose.words/documentdirection/). Nilai default adalah kiri ke kanan.
 
 Contoh kode berikut menunjukkan cara mendeteksi arah teks dokumen saat mengimpor file TXT:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-DocumentTextDirection.java" >}}
 
-## Ekspor Header dan Footer dalam File TXT Output
+## Ekspor Header dan Footer dalam File Keluaran TXT
 
-Jika Anda ingin mengekspor header dan footer dalam dokumen TXT output, Anda dapat menggunakan [ExportHeadersFootersMode](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getExportHeadersFootersMode) Login Properti ini menentukan cara header dan footer diekspor ke format teks biasa.
+Jika Anda ingin mengekspor header dan footer dalam dokumen keluaran TXT, Anda dapat menggunakan properti [ExportHeadersFootersMode](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getExportHeadersFootersMode). Properti ini menentukan cara header dan footer diekspor ke format teks biasa.
 
 Contoh kode berikut menunjukkan cara mengekspor header dan footer ke format teks biasa:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-ExportHeadersFootersMode.java" >}}
 
-## Daftar Ekspor Indentasi dalam Output TXT
+## Indentasi Daftar Ekspor dalam Keluaran TXT
 
-Aspose.Words Sitemap [TxtListIndentation](https://reference.aspose.com/words/java/com.aspose.words/txtlistindentation/) kelas yang memungkinkan menentukan bagaimana tingkat daftar diperiksa sementara mengekspor ke format teks biasa. Saat bekerja [TxtSaveOption](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/), Login [ListIndentation](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getListIndentation) properti disediakan untuk menentukan karakter yang akan digunakan untuk memeriksa tingkat daftar dan menghitung berapa banyak karakter yang digunakan sebagai indentasi per satu tingkat daftar.
+Aspose.Words memperkenalkan kelas [TxtListIndentation](https://reference.aspose.com/words/java/com.aspose.words/txtlistindentation/) yang memungkinkan menentukan bagaimana level daftar diindentasi saat mengekspor ke format teks biasa. Saat bekerja dengan [TxtSaveOption](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/), properti [ListIndentation](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getListIndentation) disediakan untuk menentukan karakter yang akan digunakan untuk membuat indentasi level daftar dan menghitung menentukan berapa banyak karakter yang akan digunakan sebagai indentasi per satu level daftar.
 
-Nilai default untuk properti karakter adalah '\0' menunjukkan bahwa tidak ada indentasi. Untuk menghitung properti, nilai default adalah 0 yang berarti tidak ada indentasi.
+Nilai default untuk properti karakter adalah '\0' yang menunjukkan bahwa tidak ada lekukan. Untuk properti count, nilai defaultnya adalah 0 yang berarti tidak ada lekukan.
 
-### Menggunakan Tab Karakter
+### Menggunakan Karakter Tab
 
-Contoh kode berikut menunjukkan bagaimana mengekspor tingkat daftar menggunakan karakter tab:
+Contoh kode berikut menunjukkan cara mengekspor level daftar menggunakan karakter tab:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-useTabCharacterPerLevelForListIndentation.java" >}}
 
-### Menggunakan Karakter Ruang
+### Menggunakan Karakter Spasi
 
-Contoh kode berikut menunjukkan bagaimana mengekspor tingkat daftar menggunakan karakter ruang:
+Contoh kode berikut menunjukkan cara mengekspor level daftar menggunakan karakter spasi:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-useSpaceCharacterPerLevelForListIndentation.java" >}}
 
 ### Menggunakan Indentasi Default
 
-Contoh kode berikut menunjukkan bagaimana mengekspor tingkat daftar menggunakan indentasi default:
+Contoh kode berikut menunjukkan cara mengekspor level daftar menggunakan indentasi default:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-defaultLevelForListIndentation.java" >}}

@@ -1,89 +1,89 @@
----
+﻿---
 title: Lacak Perubahan dalam Dokumen dalam Java
-second_title: Aspose.Words Sitemap Java
-articleTitle: Perubahan Track dalam Dokumen
-linktitle: Perubahan Track dalam Dokumen
-description: "Melacak perubahan konten dan format yang dibuat oleh Anda atau orang lain. Akses revisi individu dalam dokumen dan menerapkan berbagai properti untuk mereka menggunakan JavaSitemap"
+second_title: Aspose.Words untuk Java
+articleTitle: Melacak Perubahan dalam Dokumen
+linktitle: Melacak Perubahan dalam Dokumen
+description: "Lacak perubahan pada konten dan pemformatan yang dibuat oleh Anda atau orang lain. Akses revisi individual dalam dokumen dan terapkan berbagai properti padanya menggunakan Java."
 type: docs
 weight: 270
 url: /id/java/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Fungsi dari perubahan trek, juga dikenal sebagai peninjauan, memungkinkan Anda untuk melacak perubahan konten dan format yang dibuat oleh Anda atau pengguna lain. Fitur perubahan trek ini dengan Aspose.Words mendukung perubahan trek Microsoft WordSitemap Dengan fungsi ini, Anda dapat mengakses revisi individu dalam dokumen Anda dan menerapkan sifat yang berbeda kepada mereka.
+Fungsionalitas lacak perubahan, juga dikenal sebagai meninjau, memungkinkan Anda melacak perubahan pada konten dan pemformatan yang dibuat oleh Anda atau pengguna lain. Fitur perubahan trek ini dengan Aspose.Words mendukung perubahan trek dalam Microsoft Word. Dengan fungsi ini, Anda dapat mengakses revisi individual dalam dokumen Anda dan menerapkan properti yang berbeda padanya.
 
-Ketika Anda mengaktifkan fitur perubahan track, semua elemen yang dimasukkan, dihapus, dan dimodifikasi dokumen akan disorot secara visual dengan informasi tentang siapa, ketika, dan apa yang diubah. Objek yang membawa informasi tentang apa yang diubah disebut "perubahan pelacakan". Misalnya, asumsikan bahwa Anda ingin meninjau dokumen dan membuat perubahan penting - ini mungkin berarti bahwa Anda perlu membuat revisi. Juga, Anda mungkin perlu memasukkan komentar untuk membahas beberapa perubahan. Itu di mana pelacakan perubahan dokumen datang. Meme it
+Saat Anda mengaktifkan fitur lacak perubahan, semua elemen dokumen yang disisipkan, dihapus, dan dimodifikasi akan disorot secara visual dengan informasi tentang oleh siapa, kapan, dan apa yang diubah. Objek yang membawa informasi tentang apa yang diubah disebut "melacak perubahan". Misalnya, asumsikan bahwa Anda ingin meninjau dokumen dan membuat perubahan penting-ini mungkin berarti Anda perlu membuat revisi. Selain itu, Anda mungkin perlu menyisipkan komentar untuk membahas beberapa perubahan. Di situlah pelacakan perubahan dokumen masuk.
 
-Artikel ini menjelaskan cara mengelola dan melacak perubahan yang dibuat oleh banyak peninjauan pada dokumen yang sama, serta sifat untuk melacak perubahan.
+Artikel ini menjelaskan cara mengelola dan melacak perubahan yang dibuat oleh banyak pengulas pada dokumen yang sama, serta properti untuk melacak perubahan.
 
 {{% alert color="primary" %}}
 
-Perhatikan bahwa fitur komentar di Aspose.Words, dan Microsoft Word, dapat dikaitkan dengan perubahan pelacakan. Namun, ingatlah bahwa komentar benar-benar independen dari perubahan pelacakan.
+Perhatikan bahwa fitur komentar di Aspose.Words, serta di Microsoft Word, dapat dikaitkan dengan perubahan pelacakan. Namun, ingatlah bahwa komentar sepenuhnya tidak bergantung pada pelacakan perubahan.
 
 {{% /alert %}}
 
 ## Apa itu Revisi
 
-Sebelum menyelam ke revisi, mari kita menjelaskan makna revisi. Login [revision](https://reference.aspose.com/words/java/com.aspose.words/revision/) adalah perubahan yang terjadi dalam satu node dokumen sementara kelompok revisi, diwakili oleh [RevisionGroup](https://reference.aspose.com/words/java/com.aspose.words/revisiongroup/) kelas, adalah kelompok revisi sequential yang terjadi pada banyak node dokumen. Revisi adalah alat untuk melacak perubahan.
+Sebelum menyelami revisi, mari kita jelaskan arti dari revisi. A [revision](https://reference.aspose.com/words/java/com.aspose.words/revision/) adalah perubahan yang terjadi di satu simpul dokumen sedangkan grup revisi, yang diwakili oleh kelas [RevisionGroup](https://reference.aspose.com/words/java/com.aspose.words/revisiongroup/), adalah grup revisi berurutan yang terjadi di banyak simpul dokumen. Revisi adalah alat untuk melacak perubahan.
 
-Revisi digunakan dalam fitur perubahan pelacakan dan dalam fitur dokumen membandingkan, di mana revisi muncul akibat perbandingan. Jadi, revisi dalam fitur perubahan pelacakan yang ditunjukkan oleh siapa dan apa yang berubah.
+Revisi digunakan dalam fitur pelacakan perubahan dan dalam fitur bandingkan dokumen, di mana revisi muncul sebagai hasil perbandingan. Jadi, revisi dalam fitur perubahan pelacakan menunjukkan oleh siapa dan apa yang diubah.
 
 {{% alert color="primary" %}}
 
-Login Microsoft Word tidak memungkinkan Anda untuk melihat revisi individu, hanya memungkinkan Anda untuk melihat revisi sequential sebagai satu entitas. Login Aspose.Words memecahkan batasan ini dengan **RevisionGroup** Sitemap
+Perhatikan bahwa Microsoft Word tidak memungkinkan Anda untuk melihat revisi individual, ini hanya memungkinkan Anda untuk melihat revisi berurutan sebagai satu kesatuan. Tetapi Aspose.Words menyelesaikan batasan ini dengan kelas **RevisionGroup**.
 
 {{% /alert %}}
 
-Aspose.Words mendukung berbagai jenis revisi, serta Microsoft Word, seperti Penyisipan, Penghapusan, Format Perubahan, StyleDefinition Perubahan, dan Pindahkan. Semua jenis revisi diwakili dengan [RevisionType](https://reference.aspose.com/words/java/com.aspose.words/revisiontype/) Sitemap
+Aspose.Words mendukung berbagai jenis revisi, serta dalam Microsoft Word, seperti Penyisipan, Penghapusan, FormatChange, StyleDefinitionChange, dan Pemindahan. Semua jenis revisi diwakili dengan pencacahan [RevisionType](https://reference.aspose.com/words/java/com.aspose.words/revisiontype/).
 
 {{% alert color="primary" %}}
 
-Perhatikan bahwa revisi memiliki hasil yang mirip dengan Microsoft Word Login Aspose.Words tidak mendeteksi format selama perubahan pelacakan.
+Perhatikan bahwa revisi memiliki hasil yang mirip dengan Microsoft Word tetapi Aspose.Words tidak mendeteksi pemformatan selama melacak perubahan.
 
 {{% /alert %}}
 
-## Mulai dan Berhenti Perubahan Pelacakan
+## Memulai dan Menghentikan Perubahan Pelacakan
 
-Mengedit dokumen biasanya tidak dihitung sebagai revisi sampai Anda mulai melacaknya. Aspose.Words memungkinkan Anda untuk secara otomatis melacak semua perubahan dalam dokumen Anda dengan langkah-langkah sederhana. Anda dapat dengan mudah memulai proses perubahan pelacakan dengan menggunakan [StartTrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#startTrackRevisions-java.lang.String) Login Jika Anda perlu menghentikan proses perubahan pelacakan sehingga setiap perubahan masa depan tidak dianggap revisi, Anda perlu menggunakan [StopTrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#stopTrackRevisions) Login
+Mengedit dokumen biasanya tidak dihitung sebagai revisi hingga Anda mulai melacaknya. Aspose.Words memungkinkan Anda melacak semua perubahan dalam dokumen Anda secara otomatis dengan langkah-langkah sederhana. Anda dapat dengan mudah memulai proses pelacakan perubahan dengan menggunakan metode [StartTrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#startTrackRevisions-java.lang.String). Jika Anda perlu menghentikan proses pelacakan perubahan sehingga pengeditan di masa mendatang tidak dianggap sebagai revisi, Anda harus menggunakan metode [StopTrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#stopTrackRevisions).
 
 {{% alert color="primary" %}}
 
-Login `StartTrackingRevisions` metode tidak mengubah status [TrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#getTrackRevisions) properti dan tidak menggunakan nilainya untuk tujuan pelacakan revisi. Selain itu, jika node dipindahkan dari satu lokasi ke dalam dokumen yang dilacak, kemudian memindahkan revisi akan dibuat, termasuk bergerak-dari dan bergerak-to range.
+Perhatikan bahwa metode `StartTrackingRevisions` tidak mengubah status properti [TrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#getTrackRevisions) dan tidak menggunakan nilainya untuk tujuan pelacakan revisi. Selain itu, jika sebuah simpul dipindahkan dari satu lokasi ke lokasi lain di dalam dokumen yang dilacak, maka revisi pemindahan akan dibuat, termasuk pemindahan dari dan pemindahan ke jangkauan.
 
 {{% /alert %}}
 
-Pada akhir proses perubahan pelacakan dalam dokumen Anda, Anda akan memiliki kemampuan untuk bahkan menerima semua revisi atau menolak mereka untuk mengalihkan dokumen ke bentuk aslinya. Ini dapat dicapai dengan menggunakan [AcceptAllRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#acceptAllRevisions) Sitemap [RejectAll](https://reference.aspose.com/words/java/com.aspose.words/revisioncollection/#rejectAll) Login Selain itu, Anda dapat menerima atau menolak setiap revisi secara terpisah dengan menggunakan [Accept](https://reference.aspose.com/words/java/com.aspose.words/revision/#accept) Sitemap [Reject](https://reference.aspose.com/words/java/com.aspose.words/revision/#reject) Login
+Di akhir proses pelacakan perubahan dalam dokumen Anda, Anda bahkan dapat menerima semua revisi atau menolaknya untuk mengembalikan dokumen ke bentuk aslinya. Ini dapat dicapai dengan menggunakan metode [AcceptAllRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#acceptAllRevisions) atau [RejectAll](https://reference.aspose.com/words/java/com.aspose.words/revisioncollection/#rejectAll). Selain itu, Anda dapat menerima atau menolak setiap revisi secara terpisah dengan menggunakan metode [Accept](https://reference.aspose.com/words/java/com.aspose.words/revision/#accept) atau [Reject](https://reference.aspose.com/words/java/com.aspose.words/revision/#reject).
 
-Semua perubahan akan dilacak untuk satu iterasi dari saat Anda memulai proses ke saat Anda menghentikannya. Koneksi antara iterasi yang berbeda diwakili sebagai skenario berikut: Anda menyelesaikan proses pelacakan, kemudian membuat beberapa perubahan, dan mulai melacak perubahan lagi. Dengan skenario ini, semua perubahan yang tidak Anda terima atau menolak akan ditampilkan lagi.
+Semua perubahan akan dilacak untuk satu iterasi dari saat Anda memulai proses hingga saat Anda menghentikannya. Hubungan antara iterasi yang berbeda direpresentasikan sebagai skenario berikut: Anda menyelesaikan proses pelacakan, lalu membuat beberapa perubahan, dan mulai melacak perubahan lagi. Dengan skenario ini, semua perubahan yang tidak Anda terima atau tolak akan ditampilkan lagi.
 
 {{% alert color="primary" %}}
 
-Login `AcceptAllRevisions` metode mirip dengan "Accept All Changes" di Microsoft WordSitemap
+Perhatikan bahwa metode `AcceptAllRevisions` mirip dengan "Terima Semua Perubahan" di Microsoft Word.
 
 {{% /alert %}}
 
 Contoh kode berikut menunjukkan cara bekerja dengan perubahan pelacakan:
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-TrackChanges-WorkWithTrackChanges.java" >}}
 
-Contoh kode berikut menunjukkan bagaimana revisi dihasilkan ketika node dipindahkan dalam dokumen yang dilacak:
+Contoh kode berikut menunjukkan bagaimana revisi dibuat saat sebuah simpul dipindahkan dalam dokumen yang dilacak:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-TrackChanges-GenerateRevisionsWhenMovingNode.java" >}}
 
-## Mengelola dan Simpan Perubahan sebagai Revisi
+## Kelola dan Simpan Perubahan sebagai Revisi
 
-Dengan fitur perubahan pelacakan sebelumnya, Anda dapat memahami perubahan yang dilakukan dalam dokumen Anda dan yang membuat perubahan tersebut. Sitemap [TrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#getTrackRevisions) fitur, Anda memaksa perubahan dalam dokumen Anda disimpan sebagai revisi.
+Dengan fitur perubahan pelacakan sebelumnya, Anda dapat memahami perubahan mana yang dibuat di dokumen Anda dan siapa yang membuat perubahan tersebut. Sementara dengan fitur [TrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#getTrackRevisions), Anda memaksa setiap perubahan dalam dokumen Anda untuk disimpan sebagai revisi.
 
-Aspose.Words memungkinkan Anda untuk memeriksa apakah dokumen memiliki revisi atau tidak dengan menggunakan [HasRevision](https://reference.aspose.com/words/java/com.aspose.words/document/#hasRevisions) Login Jika Anda tidak perlu secara otomatis melacak perubahan dokumen Anda melalui metode StartTrackRevisions dan StopTrackRevisions, maka Anda dapat menggunakan `TrackRevisions` properti untuk memeriksa apakah perubahan dilacak sementara mengedit dokumen dalam Microsoft Word dan disimpan sebagai revisi.
+Aspose.Words memungkinkan Anda memeriksa apakah dokumen memiliki revisi atau tidak dengan menggunakan properti [HasRevision](https://reference.aspose.com/words/java/com.aspose.words/document/#hasRevisions). Jika Anda tidak perlu melacak perubahan dalam dokumen Anda secara otomatis melalui metode StartTrackRevisions dan StopTrackRevisions, maka Anda dapat menggunakan properti `TrackRevisions` untuk memeriksa apakah perubahan dilacak saat mengedit dokumen di Microsoft Word dan disimpan sebagai revisi.
 
-Login `TrackRevisions` fitur membuat revisi bukan DOM Sitemap Tapi revisi itu sendiri terpisah. Meme it Sitemap Jika Anda menghapus paragraf, Aspose.Words membuatnya sebagai revisi, menandainya sebagai penghapusan, bukan menghapusnya.
+Fitur `TrackRevisions` membuat revisi, bukan perubahan DOM yang sebenarnya. Tetapi revisi itu sendiri terpisah. Misalnya, Jika Anda menghapus paragraf apa pun, Aspose.Words menjadikannya sebagai revisi, menandainya sebagai penghapusan, alih-alih menghapusnya.
 
-Selain itu, Aspose.Words memungkinkan Anda untuk memeriksa apakah objek dimasukkan, dihapus, atau mengubah format menggunakan [IsDeleteRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isDeleteRevision), [IsFormatRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isFormatRevision), [IsInsertRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isInsertRevision), [IsMoveFromRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isMoveFromRevision), Login [IsMoveToRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isMoveToRevision) Sitemap
+Selain itu, Aspose.Words memungkinkan Anda memeriksa apakah suatu objek telah disisipkan, dihapus, atau diubah formatnya menggunakan [IsDeleteRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isDeleteRevision), [IsFormatRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isFormatRevision), [IsInsertRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isInsertRevision), [IsMoveFromRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isMoveFromRevision), dan properti [IsMoveToRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isMoveToRevision).
 
 {{% alert color="primary" %}}
 
-Perhatikan bahwa tidak ada hubungan antara revisi itu sendiri dan `TrackRevisions` Login Selain itu, Anda dapat menerima/mengaktifkan revisi terlepas dari fitur perubahan pelacakan.
+Perhatikan bahwa tidak ada hubungan antara revisi itu sendiri dan properti `TrackRevisions`. Selain itu, Anda dapat menerima/menolak revisi terlepas dari fitur perubahan pelacakan.
 
 {{% /alert %}}
 
-Contoh kode berikut menunjukkan bagaimana menerapkan sifat yang berbeda dengan revisi:
+Contoh kode berikut menunjukkan cara menerapkan properti yang berbeda dengan revisi:
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-TrackChanges-ApplyDifferentPropertiesWithRevisions.java" >}}

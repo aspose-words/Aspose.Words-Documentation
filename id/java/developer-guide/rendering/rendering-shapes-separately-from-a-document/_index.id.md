@@ -1,93 +1,93 @@
----
-title: Bentuk rendering Secara terpisah dari Dokumen
-second_title: Aspose.Words Sitemap Java
-articleTitle: Bentuk rendering Secara terpisah dari Dokumen
-linktitle: Bentuk rendering Secara terpisah dari Dokumen
-description: "Ekstrak berbagai objek grafis, seperti gambar, kotak teks yang mengandung paragraf, atau bentuk panah, ketika memproses dokumen, dan mengekspornya ke lokasi eksternal menggunakan JavaSitemap"
+﻿---
+title: Merender Bentuk Secara Terpisah dari Dokumen
+second_title: Aspose.Words untuk Java
+articleTitle: Merender Bentuk Secara Terpisah dari Dokumen
+linktitle: Merender Bentuk Secara Terpisah dari Dokumen
+description: "Ekstrak berbagai objek grafik, seperti gambar, kotak teks yang berisi paragraf, atau bentuk panah, saat memproses dokumen, dan mengekspornya ke lokasi eksternal menggunakan Java."
 type: docs
 weight: 40
 url: /id/java/rendering-shapes-separately-from-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Ketika memproses dokumen, tugas umum adalah untuk mengekstrak semua gambar yang ditemukan dalam dokumen dan mengekspornya ke lokasi eksternal. Tugas ini menjadi sederhana dengan Meme it Aspose.Words API, yang sudah menyediakan fungsi untuk mengekstrak dan menyimpan data gambar. Namun, kadang-kadang Anda mungkin ingin mengekstrak jenis konten grafis lain yang diwakili oleh berbagai jenis objek gambar, misalnya, kotak teks yang mengandung paragraf, bentuk panah, dan gambar kecil. Tidak ada cara mudah rendering objek ini karena merupakan kombinasi dari elemen konten individu. Anda juga dapat menemukan kasus ketika konten telah dikelompokkan bersama ke dalam objek yang terlihat seperti gambar tunggal.
+Saat memproses dokumen, tugas umum adalah mengekstrak semua gambar yang ditemukan dalam dokumen dan mengekspornya ke lokasi eksternal. Tugas ini menjadi sederhana dengan Aspose.Words API, yang sudah menyediakan fungsionalitas untuk mengekstrak dan menyimpan data gambar. Namun, terkadang Anda mungkin ingin mengekstrak jenis konten grafik lain yang diwakili oleh jenis objek gambar yang berbeda, misalnya, kotak teks yang berisi paragraf, bentuk panah, dan gambar kecil. Tidak ada cara langsung untuk merender objek ini karena ini adalah kombinasi dari elemen konten individual. Anda juga dapat menemukan kasus ketika konten telah dikelompokkan bersama ke dalam objek yang terlihat seperti satu gambar.
 
-Aspose.Words menyediakan fungsi untuk mengekstrak jenis konten ini dengan cara yang sama Anda dapat mengekstrak gambar sederhana dari bentuk sebagai konten yang diberikan. Artikel ini menjelaskan bagaimana memanfaatkan fungsi ini untuk membuat bentuk secara independen dari dokumen.
+Aspose.Words menyediakan fungsionalitas untuk mengekstrak jenis konten ini dengan cara yang sama seperti Anda dapat mengekstrak gambar sederhana dari bentuk sebagai konten yang dirender. Artikel ini menjelaskan cara memanfaatkan fungsi ini untuk merender bentuk secara terpisah dari dokumen.
 
 ## Jenis Bentuk dalam Aspose.Words
 
-Semua konten dalam layer gambar dokumen diwakili oleh [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) Sitemap [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) Login Aspose.Words Modul Objek Dokumen (Modul)DOMSitemap Konten seperti itu dapat kotak teks, gambar, AutoShapes, OLE objek, dll. Beberapa bidang juga diimpor sebagai bentuk, misalnya, `INCLUDEPICTURE` Login
+Semua konten dalam lapisan gambar dokumen diwakili oleh simpul [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) atau [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) dalam Modul Objek Dokumen Aspose.Words (DOM). Konten tersebut dapat berupa kotak teks, gambar, objek AutoShapes, OLE, dll. Beberapa bidang juga diimpor sebagai bentuk, misalnya bidang `INCLUDEPICTURE`.
 
-Gambar sederhana diwakili oleh **Shape** Login [ShapeType.Image](https://reference.aspose.com/words/java/com.aspose.words/shapetype/#IMAGE)Sitemap Node bentuk ini tidak memiliki node anak tetapi data gambar yang terkandung dalam node bentuk ini dapat diakses oleh [Shape.ImageData](https://reference.aspose.com/words/java/com.aspose.words/shape/#getImageData) Login Di sisi lain, bentuk juga dapat dibuat dari banyak node anak. Misalnya, bentuk kotak teks, yang diwakili oleh [ShapeType.TextBox](https://reference.aspose.com/words/java/com.aspose.words/shapetype/#TEXT-BOX) properti, dapat terdiri dari banyak node, seperti [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) Login [Table](https://reference.aspose.com/words/java/com.aspose.words/table/)Sitemap Kebanyakan bentuk dapat mencakup **Paragraph** Login **Table** node level blok. Ini adalah node yang sama seperti yang muncul di tubuh utama. Bentuk selalu bagian dari beberapa paragraf, baik disertakan secara langsung inline atau berlabuh ke **Paragraf,** tetapi "mengambang" di mana saja di halaman dokumen.
+Sebuah gambar sederhana diwakili oleh simpul **Shape** dari [ShapeType.Image](https://reference.aspose.com/words/java/com.aspose.words/shapetype/#IMAGE). Simpul bentuk ini tidak memiliki simpul turunan tetapi data gambar yang terkandung di dalam simpul bentuk ini dapat diakses oleh properti [Shape.ImageData](https://reference.aspose.com/words/java/com.aspose.words/shape/#getImageData). Di sisi lain, sebuah bentuk juga dapat terdiri dari banyak simpul turunan. Misalnya, bentuk kotak teks, yang diwakili oleh properti [ShapeType.TextBox](https://reference.aspose.com/words/java/com.aspose.words/shapetype/#TEXT-BOX), dapat terdiri dari banyak simpul, seperti [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) dan [Table](https://reference.aspose.com/words/java/com.aspose.words/table/). Sebagian besar bentuk dapat menyertakan simpul tingkat blok **Paragraph** dan **Table**. Ini adalah simpul yang sama dengan yang muncul di badan utama. Bentuk selalu merupakan bagian dari beberapa paragraf, baik disertakan langsung sebaris atau ditambatkan ke **Paragraph,** tetapi "mengambang" di mana saja di halaman dokumen.
 
 ![rendering-shapes-separately-from-a-document-aspose-words-java-1](/words/java/rendering-shapes-separately-from-a-document/rendering-shapes-separately-from-a-document-1.png)
 
-Dokumen juga dapat mengandung bentuk yang dikelompokkan bersama. Groupbisa diaktifkan Microsoft Word dengan memilih beberapa objek dan mengklik "Group" di menu klik kanan.
+Dokumen juga dapat berisi bentuk yang dikelompokkan menjadi satu. Pengelompokan dapat diaktifkan di Microsoft Word dengan memilih beberapa objek dan mengklik "Grup" di menu klik kanan.
 
 ![rendering-shapes-separately-from-a-document-aspose-words-java-2](/words/java/rendering-shapes-separately-from-a-document/rendering-shapes-separately-from-a-document-2.png)
 
-Sitemap Aspose.Words, kelompok bentuk ini diwakili oleh [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) Login Ini juga dapat diinjak dengan cara yang sama untuk membuat seluruh kelompok ke gambar.
+Dalam Aspose.Words, kelompok bentuk ini diwakili oleh simpul [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/). Ini juga dapat dipanggil dengan cara yang sama untuk merender seluruh grup ke gambar.
 
 ![rendering-shapes-separately-from-a-document-aspose-words-java-3](/words/java/rendering-shapes-separately-from-a-document/rendering-shapes-separately-from-a-document-3.png)
 
-Format DOCX dapat berisi jenis gambar khusus, seperti diagram atau grafik. Bentuk-bentuk ini juga diwakili melalui **Shape** Login Aspose.Words, yang juga menyediakan metode serupa untuk rendering mereka sebagai gambar. Dengan desain, bentuk tidak dapat mengandung bentuk lain sebagai anak, kecuali bentuk itu adalah gambar (**ShapeType.Image**Sitemap Sitemap Microsoft Word tidak memungkinkan Anda untuk memasukkan kotak teks di dalam kotak teks lain.
+Format DOCX dapat berisi jenis gambar khusus, seperti diagram atau bagan. Bentuk-bentuk ini juga direpresentasikan melalui simpul **Shape** dalam Aspose.Words, yang juga menyediakan metode serupa untuk merendernya sebagai gambar. Secara desain, bentuk tidak dapat berisi bentuk lain sebagai anak, kecuali bentuk tersebut adalah gambar (**ShapeType.Image**). Misalnya, Microsoft Word tidak mengizinkan Anda menyisipkan kotak teks di dalam kotak teks lain.
 
-Jenis bentuk yang dijelaskan di atas memberikan metode khusus untuk membuat bentuk melalui [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/) Sitemap Contoh **ShapeRenderer** kelas diambil untuk **Shape** Sitemap **GroupShape** Sitemap **GetShapeRenderer** metode atau dengan melewati **Shape** ke konstruktor **ShapeRenderer** Sitemap Kelas ini memberikan akses kepada anggota, yang memungkinkan rendering bentuk berikut:
+Jenis bentuk yang dijelaskan di atas menyediakan metode khusus untuk merender bentuk melalui kelas [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/). Sebuah instance dari kelas **ShapeRenderer** diambil untuk **Shape** atau **GroupShape** melalui metode **GetShapeRenderer** atau dengan meneruskan **Shape** ke konstruktor kelas **ShapeRenderer**. Kelas ini menyediakan akses ke anggota, yang memungkinkan rendering bentuk sebagai berikut:
 
-- File pada disk menggunakan [Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.lang.String-com.aspose.words.ImageSaveOptions) metode kelebihan beban
-- Streaming menggunakan [Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.io.OutputStream-com.aspose.words.ImageSaveOptions) metode kelebihan beban
-- Grafik Objek dengan menggunakan [RenderToSize](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToSize-java.awt.Graphics2D-float-float-float-float) Login [RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float) Login
+- File pada disk menggunakan metode [Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.lang.String-com.aspose.words.ImageSaveOptions) kelebihan beban
+- Streaming menggunakan kelebihan metode [Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.io.OutputStream-com.aspose.words.ImageSaveOptions)
+- Objek Grafik dengan menggunakan metode [RenderToSize](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToSize-java.awt.Graphics2D-float-float-float-float) dan [RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float)
 
 {{% alert color="primary" %}}
 
-Saat membuat **Shape**Sitemap itu harus menjadi bagian dari hierarki dokumen. Sitemap **Shape** bukan bagian dari pohon dokumen maka output yang diberikan akan kosong setelah panggilan **ShapeRenderer** Login
+Saat merender **Shape**, itu harus menjadi bagian dari hierarki dokumen. Jika **Shape** bukan bagian dari pohon dokumen, maka keluaran yang dirender akan kosong setelah menjalankan metode **ShapeRenderer**.
 
 {{% /alert %}}
 
-## Mengirim ke File atau Streaming
+## Merender ke File atau Streaming
 
-Login [Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.lang.String-com.aspose.words.ImageSaveOptions) metode menyediakan kelebihan beban yang membuat bentuk langsung ke file atau aliran. Kedua kelebihan beban menerima contoh [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) kelas, yang memungkinkan menentukan pilihan untuk rendering bentuk. Ini bekerja dengan cara yang sama seperti Meme it [Document.Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-com.aspose.words.SaveOptions) Login Meskipun parameter ini diperlukan, Anda dapat lulus nilai null, menentukan bahwa tidak ada opsi kustom.
+Metode [Save](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#save-java.lang.String-com.aspose.words.ImageSaveOptions) menyediakan kelebihan beban yang merender bentuk langsung ke file atau aliran. Kedua kelebihan beban menerima instance dari kelas [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/), yang memungkinkan menentukan opsi untuk merender bentuk. Ini bekerja dengan cara yang sama seperti metode [Document.Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-com.aspose.words.SaveOptions). Meskipun parameter ini diperlukan, Anda dapat meneruskan nilai nol, dengan menetapkan bahwa tidak ada opsi khusus.
 
-Bentuknya dapat diekspor dalam format gambar yang ditentukan dalam format gambar [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) Sitemap Misalnya, gambar dapat diberikan sebagai gambar raster, seperti JPEG dengan menentukan [SaveFormat.Jpeg](https://reference.aspose.com/words/java/com.aspose.words/saveformat/#JPEG) enumerasi, atau sebagai gambar vektor, seperti EMF dengan menentukan [SaveFormat.Emf](https://reference.aspose.com/words/java/com.aspose.words/saveformat/#EMF)Sitemap
+Bentuk dapat diekspor dalam format gambar apa pun yang ditentukan dalam pencacahan [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/). Misalnya, gambar dapat dirender sebagai gambar raster, seperti JPEG dengan menentukan pencacahan [SaveFormat.Jpeg](https://reference.aspose.com/words/java/com.aspose.words/saveformat/#JPEG), atau sebagai gambar vektor, seperti EMF dengan menentukan [SaveFormat.Emf](https://reference.aspose.com/words/java/com.aspose.words/saveformat/#EMF).
 
-Contoh kode di bawah ini mengilustrasikan bentuk ke gambar EMF secara terpisah dari dokumen, dan menyimpan ke disk:
+Contoh kode di bawah ini mengilustrasikan rendering bentuk ke gambar EMF secara terpisah dari dokumen, dan menyimpannya ke disk:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-RenderShapeToDisk.java" >}}
 
-Contoh kode di bawah ini mengilustrasikan bentuk ke gambar JPEG secara terpisah dari dokumen, dan menyimpan ke aliran:
+Contoh kode di bawah ini mengilustrasikan rendering bentuk ke gambar JPEG secara terpisah dari dokumen, dan menyimpannya ke aliran:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-RenderShapeToStream.java" >}}
 
-Login **ImageSaveOptions** kelas memungkinkan Anda untuk menentukan berbagai pilihan yang mengontrol bagaimana gambar diberikan. Fungsi yang dijelaskan di atas dapat diterapkan dengan cara yang sama dengan **GroupShape** Login **Shape** Login
+Kelas **ImageSaveOptions** memungkinkan Anda menentukan berbagai opsi yang mengontrol bagaimana gambar dirender. Fungsionalitas yang dijelaskan di atas dapat diterapkan dengan cara yang sama pada simpul **GroupShape** dan **Shape**.
 
-## Pengirim ke `Graphics` Sitemap
+## Merender ke Objek `Graphics`
 
-Pengirim langsung ke **Graphics** objek memungkinkan Anda untuk menentukan pengaturan Anda sendiri dan keadaan untuk **Graphics** Sitemap skenario umum melibatkan rendering bentuk langsung ke dalam **Graphics** objek yang diambil dari Windows Form atau Bitmap. Sitemap **Shape** node diberikan, pengaturan akan mempengaruhi penampilan bentuk. Misalnya, Anda dapat memutar atau mengukur bentuk dengan menggunakan **RotateTransform** Sitemap **ScaleTransform** metode untuk **Graphics** Sitemap
+Merender langsung ke objek **Graphics** memungkinkan Anda menentukan pengaturan dan status Anda sendiri untuk objek **Graphics**. Skenario umum melibatkan rendering bentuk langsung ke objek **Graphics** yang diambil dari Bentuk Windows atau Bitmap. Saat simpul **Shape** dirender, pengaturan akan memengaruhi tampilan bentuk. Misalnya, Anda dapat memutar atau menskalakan bentuk dengan menggunakan metode **RotateTransform** atau **ScaleTransform** untuk objek **Graphics**.
 
-Contoh di bawah ini menunjukkan bagaimana untuk membuat bentuk menjadi **Graphics** objek secara terpisah dari dokumen dan menerapkan rotasi ke gambar yang diberikan:
+Contoh di bawah ini menunjukkan cara merender bentuk ke objek **Graphics** secara terpisah dari dokumen dan menerapkan rotasi ke gambar yang dirender:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-RenderShapeToGraphics.java" >}}
 
-Demikian pula, dengan [RenderToSize](https://reference.aspose.com/words/java/com.aspose.words/document/#renderToSize-int-java.awt.Graphics2D-float-float-float-float) metode, [Login](https://reference.aspose.com/words/java/com.aspose.words/document/#renderToSize-int-java.awt.Graphics2D-float-float-float-float)metode yang diwarisi dari [NodeRendererBase](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/) berguna untuk membuat thumbnails konten dokumen. Ukuran bentuk ditentukan melalui konstruktor. Login **RenderToSize** metode menerima **Graphics** objek, X dan Y mengkoordinasikan posisi gambar, dan ukuran gambar (lebar dan tinggi) yang akan ditarik ke **Graphics** Sitemap
+Demikian pula, untuk metode [RenderToSize](https://reference.aspose.com/words/java/com.aspose.words/document/#renderToSize-int-java.awt.Graphics2D-float-float-float-float), metode [RenderToSize](https://reference.aspose.com/words/java/com.aspose.words/document/#renderToSize-int-java.awt.Graphics2D-float-float-float-float)yang diwarisi dari [NodeRendererBase](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/) berguna untuk membuat gambar mini konten dokumen. Ukuran bentuk ditentukan melalui konstruktor. Metode **RenderToSize** menerima objek **Graphics**, koordinat X dan Y dari posisi gambar, dan ukuran gambar (lebar dan tinggi) yang akan digambar ke objek **Graphics**.
 
-Login **Shape** dapat diberikan ke skala tertentu menggunakan [ShapeRenderer.RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float) metode yang diwarisi dari [NodeRendererBase](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/) Sitemap Ini mirip dengan [Document.RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float) metode yang menerima parameter utama yang sama. Perbedaan antara kedua metode ini adalah bahwa dengan **ShapeRenderer.RenderToScale** metode, bukan ukuran literal, Anda memilih nilai float yang meningkatkan bentuk selama renderingnya. Jika nilai float sama 1.0 menyebabkan bentuk untuk diberikan pada 100% dari ukuran aslinya. Nilai float 0,5 akan mengurangi ukuran gambar sebesar setengah.
+**Shape** dapat dirender ke skala tertentu menggunakan metode [ShapeRenderer.RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float) yang diwarisi dari kelas [NodeRendererBase](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/). Ini mirip dengan metode [Document.RenderToScale](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/#renderToScale-java.awt.Graphics2D-float-float-float) yang menerima parameter utama yang sama. Perbedaan antara kedua metode ini adalah bahwa dengan metode **ShapeRenderer.RenderToScale**, alih-alih ukuran literal, Anda memilih nilai float yang menskalakan bentuk selama perenderannya. Jika nilai float sama dengan 1.0 menyebabkan bentuk dirender 100% dari ukuran aslinya. Nilai float 0.5 akan mengurangi ukuran gambar hingga setengahnya.
 
-## Mengirimkan Gambar Bentuk
+## Merender Gambar Bentuk
 
-Login [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) kelas mewakili benda dalam lapisan gambar, seperti AutoShape, kotak teks, bentuk bebas, objek OLE, kontrol ActiveX, atau gambar. Menggunakan **Shape** kelas, Anda dapat membuat atau memodifikasi bentuk dalam Microsoft Word Sitemap Sifat penting dari bentuk adalah [ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/)Sitemap Bentuk berbagai jenis dapat memiliki kemampuan yang berbeda dalam dokumen Word. Misalnya, hanya gambar dan bentuk OLE dapat memiliki gambar di dalamnya sementara sebagian besar bentuk dapat memiliki teks hanya.
+Kelas [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) merepresentasikan objek dalam lapisan gambar, seperti objek AutoShape, kotak teks, bentuk bebas, OLE, kontrol ActiveX, atau gambar. Dengan menggunakan kelas **Shape**, Anda dapat membuat atau memodifikasi bentuk dalam dokumen Microsoft Word. Properti penting dari suatu bentuk adalah [ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/). Bentuk dari tipe yang berbeda dapat memiliki kemampuan yang berbeda dalam dokumen Word. Misalnya, hanya gambar dan bentuk OLE yang dapat memiliki gambar di dalamnya sedangkan sebagian besar bentuk hanya dapat memiliki teks.
 
-Contoh berikut menunjukkan cara membuat gambar bentuk ke gambar JPEG secara terpisah dari dokumen dan menyimpannya ke disk:
+Contoh berikut menunjukkan cara merender gambar Bentuk ke gambar JPEG secara terpisah dari dokumen dan menyimpannya ke disk:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-RenderShapeImage.java" >}}
 
-## Meningkatkan Ukuran Bentuk
+## Mengambil Ukuran Bentuk
 
-Login [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/) kelas juga menyediakan fungsi untuk mengambil ukuran bentuk dalam pixel melalui [GetSizeInPixels](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#getSizeInPixels-float-float) Login Metode ini menerima dua parameter float (Single) - skala dan DPI, yang digunakan dalam perhitungan ukuran bentuk ketika bentuk diberikan. Metode mengembalikan [Size](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#getSizeInPixels-float-float) objek, yang mengandung lebar dan tinggi dari ukuran yang dihitung. Ini berguna ketika diperlukan untuk mengetahui ukuran bentuk yang diberikan sebelumnya, misalnya ketika membuat Bitmap baru dari output yang diberikan.
+Kelas [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/) juga menyediakan fungsionalitas untuk mengambil ukuran bentuk dalam piksel melalui metode [GetSizeInPixels](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#getSizeInPixels-float-float). Metode ini menerima dua parameter float (Tunggal) - skala dan DPI, yang digunakan dalam perhitungan ukuran bentuk saat bentuk dirender. Metode mengembalikan objek [Size](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#getSizeInPixels-float-float), yang berisi lebar dan tinggi ukuran yang dihitung. Ini berguna ketika diperlukan untuk mengetahui ukuran bentuk yang dirender sebelumnya, misalnya saat membuat Bitmap baru dari keluaran yang dirender.
 
-Contoh di bawah ini menunjukkan bagaimana menciptakan objek Bitmap dan Grafik baru dengan lebar dan tinggi bentuk yang akan diberikan:
+Contoh di bawah ini menunjukkan cara membuat objek Bitmap dan Grafik baru dengan lebar dan tinggi bentuk yang akan dirender:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-FindShapeSizes.java" >}}
 
-Saat menggunakan **RenderToSize** Sitemap **RenderToScale** metode, ukuran gambar yang diberikan juga dikembalikan dalam [SizeF](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#renderToScale-java.awt.Graphics2D-float-float-float) Sitemap Ini dapat ditugaskan ke variabel dan digunakan jika perlu.
+Saat menggunakan metode **RenderToSize** atau **RenderToScale**, ukuran gambar yang dirender juga dikembalikan dalam objek [SizeF](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#renderToScale-java.awt.Graphics2D-float-float-float). Ini dapat ditetapkan ke variabel dan digunakan jika perlu.
 
-Login **SizeInPoints** properti kembali ukuran bentuk yang diukur dalam poin (lihat [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/)Sitemap Hasilnya adalah `SizeF` objek yang mengandung lebar dan tinggi.
+Properti **SizeInPoints** mengembalikan ukuran Bentuk yang diukur dalam poin (lihat [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/)). Hasilnya adalah objek `SizeF` yang berisi lebar dan tinggi.

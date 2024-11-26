@@ -1,15 +1,15 @@
----
+﻿---
 title: Catatan Keamanan
-second_title: Aspose.Words Sitemap Java
+second_title: Aspose.Words untuk Java
 articleTitle: Catatan Keamanan
 linktitle: Catatan Keamanan
 type: docs
-description: "Aspose.Words Sitemap Java mengakui dan mematuhi standar keamanan umum untuk memastikan tingkat keamanan data yang tinggi. Lihat kemungkinan masalah keamanan dan rekomendasi tentang cara menghindarinya."
+description: "Aspose.Words untuk Java mengakui dan mematuhi standar keamanan umum untuk memastikan tingkat keamanan data yang tinggi. Lihatlah kemungkinan masalah keamanan dan rekomendasi tentang cara menghindarinya."
 weight: 120
 url: /id/java/security/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Keamanan membantu melindungi data dari akses yang tidak sah, serta perubahan berbahaya atau tidak disengaja. Aspose.Words sangat memperhatikan keamanan data pelanggan, oleh karena itu, mengenali dan mematuhi standar keamanan umum.
+Keamanan membantu melindungi data dari akses yang tidak sah, serta perubahan berbahaya atau tidak disengaja. Aspose.Words sangat memperhatikan keamanan data pelanggan, oleh karena itu, ia mengakui dan mematuhi standar keamanan umum.
 
-Di bagian ini, kita melihat beberapa masalah keamanan yang mungkin dan memberikan rekomendasi tentang cara menghindari mereka ketika bekerja dengan Aspose.WordsSitemap
+Di bagian ini, kami melihat beberapa kemungkinan masalah keamanan dan memberikan rekomendasi tentang cara menghindarinya saat bekerja dengan Aspose.Words.

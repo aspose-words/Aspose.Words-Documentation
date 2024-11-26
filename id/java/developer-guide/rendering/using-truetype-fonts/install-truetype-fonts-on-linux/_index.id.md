@@ -1,47 +1,47 @@
----
-title: Menginstal Benar Jenis Font pada Linux Sitemap Java
-second_title: Aspose.Words Sitemap Java
-articleTitle: Menginstal Benar Jenis Font pada Linux
-linktitle: Menginstal Benar Jenis Font pada Linux
-description: "Aspose.Words Sitemap Java memungkinkan rendering dokumen yang dibuat menggunakan Microsoft Word Sitemap Linux mesin dengan akurasi terbaik."
+﻿---
+title: Instal Font TrueType pada Linux dalam Java
+second_title: Aspose.Words untuk Java
+articleTitle: Instal Font TrueTypepada Linux
+linktitle: Instal Font TrueTypepada Linux
+description: "Aspose.Words untuk Java memungkinkan rendering dokumen yang dibuat menggunakan Microsoft Word pada mesin Linux dengan akurasi terbaik."
 type: docs
 weight: 20
 url: /id/java/install-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Paling sering, Anda akan menggunakan Aspose.Words untuk mengonversi dokumen DOC atau DOCX ke format PDF. Jika Anda perlu melakukan ini pada Meme it Linux mesin, topik ini akan membantu Anda untuk mempelajari cara memastikan Aspose.Words membuat dokumen Anda dengan akurasi terbaik.
+Paling sering, Anda akan menggunakan Aspose.Words untuk mengonversi dokumen DOC atau DOCX ke format PDF. Jika Anda perlu melakukan ini pada mesin Linux, topik ini akan membantu Anda mempelajari cara memastikan Aspose.Words merender dokumen Anda dengan akurasi terbaik.
 
-Paling sering, dokumen DOC dan DOCX, yang perlu dikonversi dibuat Microsoft Word, Sitemap Windows atau sistem operasi Mac OS. Oleh karena itu, sebagian besar font yang digunakan dalam dokumen DOC dan DOCX adalah "Windows fonts" atau "font Office", yang merupakan font yang dipasang dengan Microsoft Windows Sitemap Microsoft Login Font ini termasuk Arial, Kalibri, Cambria, Century Gothic, Kourier Baru, Garamond, Tahoma, Verdana, Wingdings, dan banyak lainnya.
+Paling sering, dokumen DOC dan DOCX, yang perlu dikonversi dibuat menggunakan Microsoft Word, pada sistem operasi Windows atau Mac OS. Oleh karena itu, sebagian besar font yang digunakan dalam dokumen DOC dan DOCX adalah "fontWindows "atau" Font Office", yaitu font yang diinstal dengan Microsoft Windows atau Microsoft Office. Font-font ini termasuk Arial, Calibri, Cambria, Century Gothic, Courier New, Garamond, Tahoma, Verdana, Wingdings, dan banyak lainnya.
 
-Masalahnya adalah bahwa `TrueType` font yang tercantum di atas tidak diinstal secara default Linux Sitemap Jika Anda mengambil dokumen DOCX khas yang diformat dengan font Cambria dan mencoba mengubahnya ke format PDF pada LinuxLogin Aspose.Words akan menggunakan font yang berbeda karena Cambria tidak tersedia. Sebagai hasilnya, dokumen PDF akan terlihat berbeda, dibandingkan dengan dokumen DOCX asli. Untuk memastikan bahwa dokumen yang dikonversi dengan Aspose.Words muncul sedekat mungkin dengan aslinya, Anda perlu menginstal "Windows fonts" pada Anda Linux sistem.
+Masalahnya adalah font `TrueType` yang tercantum di atas tidak diinstal secara default pada distribusi Linux. Jika Anda mengambil dokumen tipikal DOCX yang diformat dengan font Cambria dan mencoba mengonversinya ke format PDF pada Linux, Aspose.Words akan menggunakan font yang berbeda karena Cambria tidak tersedia. Hasilnya, dokumen PDF akan terlihat berbeda, dibandingkan dengan dokumen DOCX asli. Untuk memastikan bahwa dokumen yang dikonversi oleh Aspose.Words tampak sedekat mungkin dengan aslinya, Anda perlu menginstal "Windows fonts " pada sistem Linux Anda.
 
-Ada dua cara utama untuk mendapatkan font TrueType di sebuah Linux sistem:
+Ada dua cara utama untuk mendapatkan font TrueType pada sistem Linux:
 
-- Salin .TTF dan. TTC file dari Windows mesin ke Anda Linux mesin
-- Login `TrueType` paket font, seperti *msttcorefonts*
+- Dimengerti .TTF dan .TTC file dari mesin Windows ke mesin Linux Anda
+- Instal paket font `TrueType`, seperti *msttcorefonts*
 
-## Menyalin Font dari Windows Login
+## Menyalin Font dari Mesin Windows
 
-Cara mudah dan cepat untuk mendapatkan font TrueType di sebuah Linux sistem adalah untuk menyalin. Login TTC file dari `C:\Windows\Fonts` katalog Windows mesin ke beberapa direktori pada Anda Linux mesin. Anda tidak perlu menginstal atau mendaftarkan font ini di Meme it Linux dengan cara apapun; Anda hanya perlu menentukan lokasi font menggunakan [FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/) kelas Aspose.WordsSitemap
+Cara mudah dan cepat untuk mendapatkan TrueType font pada sistem Linux adalah dengan menyalin .TTF dan .TTC file dari direktori `C:\Windows\Fonts` di mesin Windows ke beberapa direktori di mesin Linux Anda. Anda tidak perlu menginstal atau mendaftarkan font ini di Linux dengan cara apa pun; Anda hanya perlu menentukan lokasi font menggunakan kelas [FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/) di Aspose.Words.
 
 {{% alert color="primary" %}}
 
-Verifikasi apakah lisensi font diperlukan, dan membaca EULA dengan hati-hati sebelum menginstal MS Fonts pada setiap Linux sistem operasi.
+Verifikasi apakah lisensi font diperlukan, dan baca EULA dengan cermat sebelum menginstal MS Font pada sistem operasi Linux apa pun.
 
 {{% /alert %}}
 
-## Login `TrueType` Paket Font
+## Instal Paket Font `TrueType`
 
-Ada sejumlah Linux paket, mengandung Microsoft Font TrueType, yang dapat Anda unduh dan instal ke Anda Linux mesin. Langkah yang tepat mungkin berbeda pada berbagai Linux Sitemap
+Ada sejumlah paket Linux, yang berisi font Microsoft TrueType, yang dapat Anda unduh dan instal ke mesin Linux Anda. Langkah-langkah yang tepat mungkin berbeda pada berbagai distribusi Linux.
 
-- Sitemap Ubuntu, menggunakan Synaptic Package Manager untuk menemukan dan menginstal *ttf-mscorefonts-installer * paket.
-- Pada openSUSE, gunakan Yast2 → Manajemen Perangkat Lunak untuk menemukan dan menginstal *fetchmsttfonts* Paket
-- Gunakan Font Liberation berlisensi di bawah OFL, sebagai alternatif untuk standar Windows fonts: Arial, Kali Roma Baru, dan Kururier Baru.
-- Untuk paket font yang cocok untuk lainnya Linux distribusi, mencari dokumentasi yang tersedia di internet.
+- Pada Ubuntu, gunakan Manajer Paket Synaptic untuk menemukan dan menginstal paket *ttf-mscorefonts-installer*.
+- Pada openSUSE, gunakan Manajemen Perangkat Lunak Yast2 → untuk menemukan dan menginstal paket *fetchmsttfonts*.
+- Gunakan Font Liberation yang dilisensikan di bawah OFL, sebagai alternatif font Windows standar: Arial, Times New Roman, dan Courier New.
+- Untuk paket font yang sesuai dengan distribusi Linux lainnya, cari dokumentasi yang tersedia di internet.
 
-Setelah menginstal paket, Aspose.Words akan menemukan font ini di folder pada sistem Anda dan menggunakannya ketika bekerja dengan dokumen.
+Setelah menginstal paket, Aspose.Words akan menemukan font ini di folder di sistem Anda dan menggunakannya saat bekerja dengan dokumen.
 
 ## Lihat Juga
 
-- Login [Login](https://github.com/liberationfonts) sebagai alternatif standar Windows Login
+- [Font Penyebasan](https://github.com/liberationfonts) sebagai alternatif dari font Windows standar

@@ -1,37 +1,37 @@
----
+﻿---
 title: Persyaratan Sistem
-second_title: Aspose.Words Sitemap Java
+second_title: Aspose.Words untuk Java
 articleTitle: Persyaratan Sistem
 linktitle: Persyaratan Sistem
-description: "Sebelum Anda mulai bekerja dengan Aspose.Words Sitemap Java, memastikan bahwa Anda memenuhi sistem operasi, platform, kerangka, dan persyaratan lingkungan sehingga aktivitas di perangkat Anda di akuntansi dengan benar."
+description: "Sebelum Anda mulai bekerja dengan Aspose.Words untuk Java, pastikan Anda memenuhi persyaratan sistem operasi, platform, kerangka kerja, dan lingkungan sehingga aktivitas di perangkat Anda diperhitungkan dengan benar."
 type: docs
 weight: 80
 url: /id/java/system-requirements/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words Sitemap Java tidak memerlukan produk pihak ketiga seperti Meme it Microsoft Word dipasang. Aspose.Words sendiri adalah mesin untuk membuat, memodifikasi, mengkonversi, dan rendering dokumen dalam berbagai format, termasuk Microsoft Word format dokumen.
+Aspose.Words untuk Java tidak memerlukan produk pihak ketiga seperti Microsoft Word untuk diinstal. Aspose.Words sendiri merupakan mesin untuk membuat, memodifikasi, mengonversi, dan merender dokumen dalam berbagai format, termasuk format dokumen Microsoft Word.
 
 ## Sistem Operasi yang Didukung
 
-Setiap Sistem Operasi yang dapat menjalankan Java Lingkungan Runtime (JRE) dapat berjalan Aspose.Words Sitemap JavaSitemap Daftar tabel berikut paling, tetapi tidak semua, didukung Sistem Operasi.
+Sistem Operasi apa pun yang dapat menjalankan Lingkungan Runtime Java (JRE) dapat menjalankan Aspose.Words untuk Java. Tabel berikut mencantumkan sebagian besar, tetapi tidak semua, Sistem Operasi yang didukung.
 
 <table>
 	<tr>
 			<td style="font-weight: bold; width:400px">Sistem Operasi</td>
-			<td style="font-weight: bold; width:400px">Sitemap</td>
+			<td style="font-weight: bold; width:400px">Versi</td>
 		</tr>
   <tr>
 			<td>Microsoft Windows</td>
-			<td><ul><li>Windows Sitemap Server (x64, x86)</li><li>Windows 2008 Server (x64, x86)</li><li>Windows Sitemap Server (x64, x86)</li><li>Windows Sitemap R2 Server (x64, x86)</li><li>Windows Sitemap Server (x64, x86)</li><li>Windows Sitemap Server (x64, x86)</li><li>Windows XP (x64, x86)</li><li>Windows Vista (x64, x86)</li><li>Windows 7 (x64, x86)</li><li>Windows 8, 8.1 (x64, x86)</li><li>Windows 10 (x64, x86)</li></ul></td>
+			<td><ul><li>Windows 2003 Server (x64, x86)</li><li>Windows 2008 Server (x64, x86)</li><li>Windows 2012 Server (x64, x86)</li><li>Windows 2012 R2 Server (x64, x86)</li><li>Windows 2016 Server (x64, x86)</li><li>Windows 2019 Server (x64, x86)</li><li>Windows XP (x64, x86)</li><li>Windows Vista (x64, x86)</li><li>Windows 7 (x64, x86)</li><li>Windows 8, 8.1 (x64, x86)</li><li>Windows 10 (x64, x86)</li></ul></td>
 		</tr>
   <tr>
 			<td>Linux</td>
-			<td><ul><li>Ubuntu</li><li>Login</li><li>CentOS</li><li>dan lain-lain</li></ul></td>
+			<td><ul><li>Ubuntu</li><li>OpenSUSE</li><li>CentOS</li><li>dan lainnya</li></ul></td>
 		</tr>
   <tr>
-			<td>Login</td>
-			<td><ul><li>versi macOS 10.9 (Mavericks) dan kemudian</li></ul></td>
+			<td>macOS</td>
+			<td><ul><li>macOS versi 10.9 (Mavericks) dan yang lebih baru</li></ul></td>
 		</tr>
   <tr>
 			<td>Mobil</td>
@@ -41,46 +41,46 @@ Setiap Sistem Operasi yang dapat menjalankan Java Lingkungan Runtime (JRE) dapat
 
 ## Platform Cloud yang Didukung
 
-Aspose.Words Sitemap Java mendukung platform cloud yang dapat dijalankan Java Sitemap
+Aspose.Words untuk Java mendukung platform cloud apa pun yang dapat menjalankan aplikasi Java.
 
-## Sitemap Java Sitemap
+## Versi Java yang Didukung
 
-Aspose.Words Sitemap Java Login Java 7 dan lebih baru. Jika Anda dipaksa untuk digunakan Java 6, kita masih melepaskan terpisah JAR Sitemap Java 6. Juni
+Aspose.Words untuk Java mendukung Java 7 dan yang lebih baru. Jika Anda terpaksa menggunakan Java 6, kami masih merilis JAR terpisah untuk Java 6.
 
 
-## Ketergantungan opsional
+## Dependensi Opsional
 
-Seperti yang disebutkan di atas, Aspose.Words Sitemap Java Login *only* Login Java Lingkungan Runtime, dan Anda tidak perlu menginstal perpustakaan tambahan.
+Seperti yang kami nyatakan di atas, Aspose.Words untuk Java memerlukan *only* Lingkungan Runtime Java, dan Anda tidak perlu menginstal pustaka tambahan apa pun.
 
-Namun, kadang-kadang ada situasi di mana Anda mungkin perlu menambahkan perpustakaan pihak ketiga:
+Namun, terkadang ada situasi di mana Anda mungkin perlu menambahkan pustaka pihak ketiga:
 
-- Login JogAmp JOGL perpustakaan untuk perangkat keras mempercepat rendering OpenGL. Perpustakaan disertakan dalam pedang POM file sebagai ketergantungan eksternal. Anda dapat mengedit POM file untuk melestarikan jar JOGL yang diperlukan untuk platform Anda saja. Atau Anda dapat menghapus ketergantungan jika Anda tidak perlu hardware mempercepat rendering OpenGL.
-- Login HarfBuzz mesin font. Sudah dimasukkan ke dalam JRE 9 dan lebih baru. Jika Anda menggunakan JRE 8 atau lebih tua, Anda dapat menggunakan ketergantungan shaping-harfbuzz-plugin di kami POM Login Jika tidak, Anda dapat menghapus ketergantungan.
-- Login Java Advanced Imaging (JAI) untuk mendukung gambar TIFF. Gambar TIFF tidak didukung oleh Java 8 dan lebih tua. Untuk dukungan TIFF lama Java lingkungan, Aspose.Words Sitemap Java tergantung pada [Java Advanced Imaging (JAI) Login](https://www.oracle.com/java/technologies/java-archive-downloads-java-client-downloads.html) Sitemap OracleSitemap Kami akan menjelaskan cara menginstal JAI di bawah ini.
+- Pustaka JogAmp JOGL untuk rendering OpenGL yang dipercepat perangkat keras. Pustaka disertakan dalam file aspose-words POM sebagai ketergantungan eksternal. Anda dapat mengedit file POM untuk menyimpan stoples JOGL yang hanya diperlukan untuk platform Anda. Atau Anda dapat menghapus ketergantungan jika Anda tidak memerlukan rendering OpenGL yang dipercepat perangkat keras.
+- HarfBuzz mesin fonta. Ini sudah termasuk dalam JRE 9 dan yang lebih baru. Jika Anda menggunakan JRE 8 atau lebih lama, Anda dapat menggunakan ketergantungan shaping-harfbuzz-plugin di file POM kami. Jika tidak, Anda dapat menghapus ketergantungan.
+- Java Pencitraan Lanjutan (JAI) untuk mendukung gambar TIFF. TIFF gambar tidak didukung oleh Java 8 dan yang lebih lama. Untuk dukungan TIFF di lingkungan Java lama, Aspose.Words untuk Java bergantung pada [Java Paket Pencitraan Lanjutan (JAI)](https://www.oracle.com/java/technologies/java-archive-downloads-java-client-downloads.html) dari Oracle. Kami akan menjelaskan cara menginstal JAI di bawah ini.
 
-### Cara Menginstal JAI di Windows
+### Cara Memasang JAI di Windows
 
-Ikuti langkah-langkah ini untuk menginstal JAI asli dan ImageIO Sitemap WindowsSitemap
+Ikuti langkah-langkah berikut untuk menginstal JAI dan ImageIO asli di Windows:
 
-1. Unduh **JAI 1.1.3**Sitemap
-   Pada saat penulisan, hanya versi 32-bit dari installer tersedia, jadi jika Anda menggunakan JDK Anda perlu mengunduh [WordPress.org](https://download.java.net/media/jai/builds/release/1_1_3/jai-1_1_3-lib-windows-i586-jdk.exe) dan jika Anda menggunakan JRE Anda perlu mengunduh [WordPress.org](https://download.java.net/media/jai/builds/release/1_1_3/jai-1_1_3-lib-windows-i586-jre.exe)Sitemap
-Sitemap Jalankan installer dan arahkan ke direktori di mana JDK/JRE dipasang.
-1. Unduh **Gambar JAI I / O 1.1**Sitemap
-   Pada saat penulisan, hanya versi 32-bit dari installer tersedia, jadi jika Anda menggunakan JDK Anda perlu mengunduh [WordPress.org](https://download.java.net/media/jai-imageio/builds/release/1.1/jai_imageio-1_1-lib-windows-i586-jdk.exe) dan jika Anda menggunakan JRE Anda perlu mengunduh [jai_imageio-1_1-lib-windows-i586-jre.exe](https://download.java.net/media/jai-imageio/builds/release/1.1/jai_imageio-1_1-lib-windows-i586-jre.exe)
-Sitemap Jalankan installer dan arahkan ke direktori di mana JDK/JRE dipasang.
+1. Unduh **JAI 1.1.3**.
+   Pada saat penulisan, hanya penginstal versi 32-bit yang tersedia, jadi jika Anda menggunakan JDK, Anda perlu mengunduh [Jai-1_1_3-lib-windows-i586-jdk.exe](https://download.java.net/media/jai/builds/release/1_1_3/jai-1_1_3-lib-windows-i586-jdk.exe) dan jika Anda menggunakan JRE, Anda perlu mengunduh [Jai-1_1_3-lib-windows-i586-jre.exe](https://download.java.net/media/jai/builds/release/1_1_3/jai-1_1_3-lib-windows-i586-jre.exe).
+1. Jalankan penginstal dan arahkan ke direktori tempatJDK/JRE diinstal.
+1. Unduh **JAI Image I/O 1.1**.
+   Pada saat penulisan, hanya penginstal versi 32-bit yang tersedia, jadi jika Anda menggunakan JDK, Anda perlu mengunduh [jai_imageio-1_1-lib-windows-i586-jdk.exe](https://download.java.net/media/jai-imageio/builds/release/1.1/jai_imageio-1_1-lib-windows-i586-jdk.exe) dan jika Anda menggunakan JRE, Anda perlu mengunduh [jai_imageio-1_1-lib-windows-i586-jre.exe](https://download.java.net/media/jai-imageio/builds/release/1.1/jai_imageio-1_1-lib-windows-i586-jre.exe)
+1. Jalankan penginstal dan arahkan ke direktori tempatJDK/JRE diinstal.
 
-### Cara Menginstal JAI di Linux
+### Cara Memasang JAI di Linux
 
-Ikuti langkah-langkah ini untuk menginstal JAI asli dan ImageIO Sitemap LinuxSitemap
+Ikuti langkah-langkah berikut untuk menginstal JAI dan ImageIO asli di Linux:
 
-1. Unduh **JAI 1.1.3** memilih arsitektur yang tepat:
-   Sitemap [g](https://download.java.net/media/jai/builds/release/1_1_3/jai-1_1_3-lib-linux-i586.tar.gz) untuk sistem 32-bit
-   Sitemap [Login](https://download.java.net/media/jai/builds/release/1_1_3/jai-1_1_3-lib-linux-amd64.tar.gz) untuk prosesor Intel 64-bit (bahkan jika menggunakan prosesor Intel)
-Sitemap Ekstrak file ke direktori sementara.
-Sitemap Login JAR file ke JDK/JRE **lib/ext** folder.
-Sitemap Pindahkan file SO ke JDK / JRE **lib/amd64** folder.<br/>
+1. Unduh **JAI 1.1.3** memilih arsitektur yang sesuai:
+   1. [i586](https://download.java.net/media/jai/builds/release/1_1_3/jai-1_1_3-lib-linux-i586.tar.gz) untuk sistem 32-bit
+   1. [amd64](https://download.java.net/media/jai/builds/release/1_1_3/jai-1_1_3-lib-linux-amd64.tar.gz) untuk yang 64-bit (meskipun menggunakan prosesor Intel)
+1. Ekstrak file ke direktori sementara.
+1. Pindahkan berkas JAR ke JDK/JRE **lib/ext** map.
+1. Pindahkan berkas SO ke JDK/JRE **lib/amd64** map.<br>
 
-   Misalnya, pada 64-bit Ubuntu sistem, langkah 1-4 akan terlihat seperti ini:<br/>
+   Misalnya, pada sistem Ubuntu 64-bit, langkah 1-4 akan terlihat seperti ini:<br>
    {{< highlight csharp >}}
    $ cd /tmp
    $ wget https://download.java.net/media/jai/builds/release/1_1_3/jai-1_1_3-lib-linux-amd64.tar.gz && \
@@ -90,14 +90,14 @@ Sitemap Pindahkan file SO ke JDK / JRE **lib/amd64** folder.<br/>
    rm /tmp/jai-1_1_3-lib-linux-amd64.tar.gz && \
    rm -r /tmp/jai-1_1_3
    {{< /highlight >}}
-1. Unduh **Gambar JAI I / O 1.1**, memilih arsitektur yang tepat:
-   Sitemap [g](https://download.java.net/media/jai-imageio/builds/release/1.1/jai_imageio-1_1-lib-linux-i586.tar.gz) untuk sistem 32-bit
-   Sitemap [Login](https://download.java.net/media/jai-imageio/builds/release/1.1/jai_imageio-1_1-lib-linux-amd64.tar.gz) untuk yang 64-bit (bahkan jika menggunakan prosesor Intel)
-Sitemap Ekstrak file ke direktori sementara.
-Sitemap Login JAR file ke JDK/JRE **lib/ext** folder.
-Sitemap Pindahkan file SO ke JDK / JRE **lib/amd64** folder.<br/>
+1. Unduh **JAI Image I/O 1.1**, pilih arsitektur yang sesuai:
+   1. [i586](https://download.java.net/media/jai-imageio/builds/release/1.1/jai_imageio-1_1-lib-linux-i586.tar.gz) untuk sistem 32-bit
+   1. [amd64](https://download.java.net/media/jai-imageio/builds/release/1.1/jai_imageio-1_1-lib-linux-amd64.tar.gz) untuk yang 64-bit (meskipun menggunakan prosesor Intel)
+1. Ekstrak file ke direktori sementara.
+1. Pindahkan berkas JAR ke JDK/JRE **lib/ext** map.
+1. Pindahkan berkas SO ke JDK/JRE **lib/amd64** map.<br>
 
-   Misalnya, pada 64-bit Ubuntu sistem, langkah 5-8 akan terlihat seperti ini:<br/>
+   Misalnya, pada sistem Ubuntu 64-bit, langkah 5-8 akan terlihat seperti ini:<br>
    {{< highlight csharp >}}
    $ cd /tmp
    $ wget https://download.java.net/media/jai-imageio/builds/release/1.1/jai_imageio-1_1-lib-linux-amd64.tar.gz && \
@@ -110,6 +110,6 @@ Sitemap Pindahkan file SO ke JDK / JRE **lib/amd64** folder.<br/>
 
 ## Folder untuk File Sementara
 
-Aspose.Words Sitemap Java menggunakan direktori sementara di komputer Anda, yang ditentukan melalui `java.io.tmpdir` properti sistem. Aspose.Words Sitemap Java menulis file sementara dan kemudian menghapus file ini segera setelah rendering selesai.
+Aspose.Words untuk Java menggunakan direktori sementara di komputer Anda, yang ditentukan melalui properti sistem `java.io.tmpdir`. Aspose.Words untuk Java menulis file sementara dan kemudian menghapus file tersebut segera setelah rendering selesai.
 
-`java.io.tmpdir` adalah standar Java properti sistem yang juga digunakan oleh kebijakan penyimpanan berbasis disk. Itu menentukan di mana JVM menulis file sementara.
+`java.io.tmpdir` adalah properti sistem Java standar yang juga digunakan oleh kebijakan penyimpanan berbasis disk. Ini menentukan di mana JVM menulis file sementara.

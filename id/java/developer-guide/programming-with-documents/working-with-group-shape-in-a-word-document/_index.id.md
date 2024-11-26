@@ -1,38 +1,38 @@
----
-title: Cara Menambahkan Group Bentuk ke dalam Dokumen Word
-second_title: Aspose.Words Sitemap Java
-articleTitle: Sitemap Group Bentuk dalam Dokumen Word
-linktitle: Sitemap Group Bentuk dalam Dokumen Word
-description: "Groupbentuk ing dan tidak memkelompokkan menggunakan JavaSitemap"
+﻿---
+title: Cara Menambahkan Group Shape ke dalam Dokumen Word
+second_title: Aspose.Words untuk Java
+articleTitle: Bekerja dengan Group Shapes dalam Dokumen Word
+linktitle: Bekerja dengan Group Shapes dalam Dokumen Word
+description: "Pengelompokan dan pengelompokan bentuk menggunakan Java."
 type: docs
 weight: 290
 url: /id/java/how-to-add-group-shape-into-a-word-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Kadang-kadang Anda perlu menambahkan group shape ke dalam dokumen Word. Sitemap group shape terdiri dari beberapa bentuk
+Terkadang Anda perlu menambahkan group shape ke dalam dokumen Word. group shape seperti itu terdiri dari banyak bentuk.
 
-Sitemap Microsoft Word, Anda dapat dengan cepat menambahkan group shape menggunakan Group perintah/button. Bentuk individu dalam kelompok dapat dipindahkan secara terpisah.
+Di Microsoft Word, Anda dapat menambahkan group shape dengan cepat menggunakan perintah/tombol Grup. Bentuk individu dalam grup dapat dipindahkan secara terpisah.
 
-Sitemap Aspose.Words sangat mudah untuk menambahkan group shape Login [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) Sitemap **Shape** dibuat secara terpisah menggunakan [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) kelas dan kemudian ditambahkan [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) Sitemap [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/groupshape/#appendChild-com.aspose.words.Node) Login
+Dalam Aspose.Words sangat mudah untuk menambahkan group shape menggunakan kelas [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/). **Shape** dibuat secara terpisah menggunakan kelas [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) dan kemudian ditambahkan dalam objek [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) menggunakan metode [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/groupshape/#appendChild-com.aspose.words.Node).
 
-Di bawah ini adalah beberapa `Shape` jenis yang didukung Aspose.WordsSitemap Untuk daftar lengkap, silakan kunjungi [ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/)Sitemap
+Di bawah ini adalah beberapa tipe `Shape` yang didukung di Aspose.Words. Untuk daftar lengkap, silakan kunjungi [ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/):
 
-- Login
-- Login
-- Login
-- Login
-- Login
-- Sitemap
-- Login
-- Login
-- Login
-- Sitemap
-- Login
+- Persegi panjang
+- RoundRectangle
+- RoundRectangle
+- Ellipse
+- Berlian
+- Segitiga
+- RightTriangle
+- Jajaran genjang
+- Trapesium
+- Hexagon
+- Octagon
 
-**Example**
+**Contoh**
 
-*Sitemap group shape ke dalam dokumen Word. Sitemap
+*Add a group shape into a Word document.*
 
 
 {{< highlight csharp >}}
