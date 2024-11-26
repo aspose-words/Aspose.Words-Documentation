@@ -1,8 +1,8 @@
 ---
-title: ทำงานกับเอกสารที่เก็บไว้ใน `SharePoint` Online
+title: ทำงานกับเอกสารที่เก็บไว้ใน SharePoint Online
 second_title: Aspose.Words สำหรับ .NET
-articleTitle: ทำงานกับเอกสารที่เก็บไว้ใน `SharePoint` Online
-linktitle: ทำงานกับเอกสารที่เก็บไว้ใน `SharePoint` Online
+articleTitle: ทำงานกับเอกสารที่เก็บไว้ใน SharePoint Online
+linktitle: ทำงานกับเอกสารที่เก็บไว้ใน SharePoint Online
 description: "แปลง Word ที่แชร์ใน SharePoint เป็น PDF โดยใช้ C# ทำงานกับเอกสารที่จัดเก็บไว้ใน SharePoint – รูปแบบอินพุตที่หลากหลาย รวมถึง Word, OpenOffice, Image และ eBook"
 type: docs
 weight: 20

@@ -1,42 +1,42 @@
----
-title: ปรับใช้รูปแบบเองกับช่องข้อมูล
-second_title: Aspose.Words สําหรับ Java
-articleTitle: ปรับใช้รูปแบบเองกับช่องข้อมูล
-linktitle: ปรับใช้รูปแบบเองกับช่องข้อมูล
-description: "รูปแบบและค่าผลลัพธ์ของช่องข้อมูลโดยใช้ Java."
+﻿---
+title: ใช้การจัดรูปแบบที่กำหนดเองไปยังฟิลด์
+second_title: Aspose.WordsสำหรับJava
+articleTitle: ใช้การจัดรูปแบบที่กำหนดเองไปยังฟิลด์
+linktitle: ใช้การจัดรูปแบบที่กำหนดเองไปยังฟิลด์
+description: "จัดรูปแบบและประเมินผลฟิลด์โดยใช้Java."
 type: docs
 weight: 40
 url: /th/java/applying-custom-formatting-to-fields/
 timestamp: 2024-01-27-14-07-04
 ---
 
-บางครั้งผู้ใช้จําเป็นต้องปรับใช้รูปแบบเองกับช่องข้อมูล ใน บทความ นี้ เรา จะ พิจารณา บาง ตัว อย่าง ที่ แสดง ว่า เรา จะ ทํา อย่าง นี้ ได้ อย่าง ไร.
+บางครั้งผู้ใช้ต้องใช้การจัดรูปแบบที่กำหนดเองกับฟิลด์ ในบทความนี้เราจะดูที่คู่ของตัวอย่างของวิธีการนี้สามารถทำได้.
 
-เพื่อ จะ เรียน รู้ วิธี เลือก มาก ขึ้น โปรด ดู ราย ชื่อ คุณสมบัติ ทั้ง หมด ของ แต่ ละ ชนิด ใน ชั้น ที่ ตรง กัน.
+เมื่อต้องการเรียนรู้ตัวเลือกเพิ่มเติม,ดูรายการของคุณสมบัติทั้งหมดสำหรับแต่ละฟิลด์ชนิด.
 
-## วิธี ใช้ รูป แบบ ตาม อําเภอ ใจ
+## วิธีการใช้การจัดรูปแบบที่กำหนดเองเพื่อผลลัพธ์ฟิลด์
 
-Aspose.Words ให้ API เพื่อปรับแต่งผลลัพธ์ของสนาม คุณสามารถทําได้ [IFieldResultFormatter](https://reference.aspose.com/words/java/com.aspose.words/ifieldresultformatter/) ส่วนติดต่อเพื่อควบคุมวิธีการจัดรูปแบบการทํางาน คุณสามารถปรับใช้รูปแบบตัวเลข สลับ, i. e. /# "#", "วันที่/เวลา สลับกัน", i. e/@ "dd.m.yyy", และรูปแบบตัวเลขสลับที่, i. e\*orinal
+Aspose.Wordsให้APIสำหรับการจัดรูปแบบที่กำหนดเองของผลลัพธ์ของฟิลด์ คุณสามารถใช้อินเตอร์เฟซ[IFieldResultFormatter](https://reference.aspose.com/words/java/com.aspose.words/ifieldresultformatter/)เพื่อควบคุมวิธีการจัดรูปแบบผลลัพธ์ของฟิลด์ คุณสามารถใช้สวิตช์รูปแบบตัวเลขได้เช่น\# "#.##",สวิตช์รูปแบบวันที่/เวลา,กล่าวคือ\@ "dd.MM.yyyy"และสวิตช์รูปแบบตัวเลข,กล่าวคือ\* Ordinal.
 
-ตัว อย่าง รหัส ต่อ ไป นี้ แสดง ให้ เห็น วิธี นํา เอา แบบ แปลน ที่ กําหนด ไว้ มา ใช้ เพื่อ ให้ เกิด ผล.
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการใช้การจัดรูปแบบที่กำหนดเองสำหรับผลลัพธ์ฟิลด์.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormatFieldResult-FormatFieldResult.java" >}}
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FieldResultFormatter-FieldResultFormatter.java" >}}
 
-## วิธี ประเมิน ค่า `IF` เงื่อนไข
+## วิธีการประเมินเงื่อนไข`IF`
 
-ถ้าคุณอยากหาค่า `IF` เงื่อนไขหลังจาก mail merge, คุณสามารถใช้ [EvaluateCondition](https://reference.aspose.com/words/java/com.aspose.words/fieldif/#evaluateCondition) วิธีการที่จะให้ผลทันทีจากการประเมินนิพจน์
+ถ้าคุณต้องการประเมิน`IF`เงื่อนไขหลังจากmail mergeคุณสามารถใช้วิธีการ[EvaluateCondition](https://reference.aspose.com/words/java/com.aspose.words/fieldif/#evaluateCondition)ที่ส่งกลับผลลัพธ์ของการประ.
 
-ตัว อย่าง รหัส ต่อ ไป นี้ แสดง วิธี ใช้ วิธี นี้:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการใช้วิธีการนี้:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-EvaluateIFCondition-EvaluateIFCondition.java" >}}
 
-## จะ นํา เอา แบบ จําลอง ไป ใช้ ใน เขต เวลา เอง ได้ อย่าง ไร?
+## วิธีการใช้การจัดรูปแบบที่กำหนดเองไปยังเขตเวลา
 
-ค่าปริยาย Aspose.Words ปรับปรุง `TIME` ใช้รูปแบบเวลาแบบย่อของวัฒนธรรมในปัจจุบัน หากคุณต้องการฟอร์แมต `TIME` คุณ สามารถ ทํา งาน นี้ ได้ ตาม ข้อ เรียก ร้อง ของ คุณ. [IFieldUpdateCultureProvider](https://reference.aspose.com/words/java/com.aspose.words/ifieldupdatecultureprovider/) อินเตอร์เฟส
+โดยค่าเริ่มต้นAspose.Wordsอัพเดต`TIME`ฟิลด์ที่มีรูปแบบเวลาสั้นๆวัฒนธรรมปัจจุบัน หากคุณต้องการจัดรูปแบบฟิลด์`TIME`ตามความต้องการของคุณ,คุณสามารถบรรลุนี้โดยการใช้อินเตอร์เฟซ[IFieldUpdateCultureProvider](https://reference.aspose.com/words/java/com.aspose.words/ifieldupdatecultureprovider/).
 
-ตัวอย่างโค้ดต่อไปนี้แสดงวิธีการปรับใช้การฟอร์แมตเองกับ `TIME` ช่องข้อมูล:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีใช้การจัดรูปแบบแบบกำหนดเองกับฟิลด์`TIME`:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FieldUpdateCulture-FieldUpdateCulture.java" >}}
 

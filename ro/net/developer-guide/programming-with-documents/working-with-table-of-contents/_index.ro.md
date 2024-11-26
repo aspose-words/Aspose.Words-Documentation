@@ -1,5 +1,5 @@
 ---
-title: Lucrul cu `Table of Contents` în C#
+title: Lucrul cu Table of Contents în C#
 second_title: Aspose.Words pentru .NET
 articleTitle: Lucrul cu `Table of Contents
 linktitle: Lucrul cu `Table of Contents

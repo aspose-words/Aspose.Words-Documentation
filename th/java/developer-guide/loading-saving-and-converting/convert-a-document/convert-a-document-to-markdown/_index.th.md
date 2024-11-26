@@ -1,63 +1,63 @@
----
-title: แปลงเอกสารเป็น Markdown ใน Java
-second_title: Aspose.Words สําหรับ Java
-articleTitle: แปลงเอกสารเป็น Markdown
-linktitle: แปลงเอกสารเป็น Markdown
+﻿---
+title: แปลงเอกสารเป็นMarkdownในJava
+second_title: Aspose.WordsสำหรับJava
+articleTitle: แปลงเอกสารเป็นMarkdown
+linktitle: แปลงเอกสารเป็นMarkdown
 type: docs
-description: "แปลงเอกสารในรูปแบบการโหลดใด ๆ ที่รองรับ Markdown และในทางกลับกัน โดยใช้ Java."
+description: "แปลงเอกสารในรูปแบบโหลดที่รองรับเป็นMarkdownและในทางกลับกันโดยใช้Java."
 keywords: how to convert a document to markdown Java, save as MD, DOCX to MD
 weight: 33
 url: /th/java/convert-a-document-to-markdown/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Markdown เป็นรูปแบบที่นิยมใช้สําหรับการทําเครื่องหมายข้อความ และจะถูกเปลี่ยนเป็น HTML, PDF, DOCX หรือรูปแบบอื่น ๆ ผู้พัฒนาหลายคนเลือกรูปแบบนี้สําหรับการเขียนเอกสาร เตรียมบทความสําหรับตีพิมพ์บนบล็อก อธิบายโครงการ และอื่น ๆ
+Markdownเป็นรูปแบบที่นิยมใช้ในการมาร์กอัปข้อความและจะมีการแปลงต่อไปHTML, PDF, DOCX, หรือรูปแบบอื่นๆ นักพัฒนาหลายคนเลือกรูปแบบนี้สำหรับการเขียนเอกสารเตรียมบทความสำหรับการตีพิมพ์.
 
-Markdown เป็นที่ได้รับความนิยมมาก เนื่องจากง่ายต่อการทํางานกับรูปแบบนี้ เช่นเดียวกับที่อาจถูกเปลี่ยนเป็นรูปแบบอื่น ๆ ด้วยเหตุผลนี้ Aspose.Words ให้ความสามารถในการแปลงเอกสารเป็น [รูปแบบการโหลดที่สนับสนุน](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) ถึง Markdown และในทางกลับกัน Aspose.Words ยังสนับสนุนคนที่ได้รับความนิยมมากที่สุด [บันทึกรูปแบบ](https://reference.aspose.com/words/java/com.aspose.words/saveformat/).
+Markdownเป็นที่นิยมมากเพราะมันเป็นเรื่องง่ายที่จะทำงานกับรูปแบบนี้เช่นเดียวกับที่จะสามารถแ ด้วยเหตุนี้Aspose.Wordsจึงให้ความสามารถในการแปลงเอกสารใน[รูปแบบการโหลดที่สนับสนุนใดๆ](https://reference.aspose.com/words/java/com.aspose.words/loadformat/)เป็นMarkdownและในทางกลับกัน–Aspose.Wordsยังรองรับความนิยมมากที่สุด[บันทึกรูปแบบ](https://reference.aspose.com/words/java/com.aspose.words/saveformat/).
 
-ตอนนี้ ความสามารถในการทํางานกับ Markdown มี การ พัฒนา รูป แบบ ต่าง ๆ อย่าง กระตือรือร้น เพื่อ ทํา ให้ คุณ มี โอกาส มาก ขึ้น ที่ จะ ทํา งาน ที่ สะดวก สบาย ด้วย เอกสาร ต่าง ๆ.
+ตอนนี้ฟังก์ชันการทำงานสำหรับการทำงานกับรูปแบบMarkdownกำลังได้รับการพัฒนาอย่างแข็งขันเพื่อให้คุณมีโอกาสมากขึ้นสำหรับการทำงานที่สะดวกและสะดวกสบายกับเอกสาร.
 
-## แปลงเอกสารเป็น Markdown
+## แปลงเอกสารเป็นMarkdown
 
-แปลงเอกสารเป็น Markdown'"> คุณแค่ต้องโหลดเอกสารในรูปแบบที่รองรับ หรือสร้างโปรแกรมใหม่ งั้นคุณก็ต้องบันทึกเอกสาร Markdown รูปแบบ
+ในการแปลงเอกสารเป็นMarkdownคุณเพียงแค่ต้องโหลดเอกสารในรูปแบบใดก็ได้ที่สนับสนุนหรือส จากนั้นคุณจำเป็นต้องบันทึกเอกสารลงในรูปแบบMarkdown.
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแปลง DOCX เป็น Markdown
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแปลงDOCXเป็นMarkdown:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SaveAsMD.java" >}}
 
 
-## กําหนดตัวเลือกบันทึกเมื่อแปลงเป็น Markdown
+## ระบุตัวเลือกการบันทึกเมื่อแปลงเป็นMarkdown
 
-Aspose.Words ให้ความสามารถในการใช้ [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) คลาสที่จะทํางานกับตัวเลือกขั้นสูง เมื่อมีการบันทึกเอกสาร Markdown รูปแบบ นอกจากการสืบทอดหรือการโอเวอร์โหลดคุณสมบัติอื่น ๆ คุณสมบัติหลายอย่างที่เจาะจงสําหรับ Markdown ได้มีการเพิ่มรูปแบบด้วย ยกตัวอย่างเช่น [TableContentAlignment](https://reference.aspose.com/words/java/com.aspose.words/tablecontentalignment/) คุณสมบัติที่จะใช้ควบคุมการจัดตําแหน่งเนื้อหาในตาราง หรือ [ImageSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageSavingCallback) ถึง [ImagesFolder](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImagesFolder) เพื่อควบคุมวิธีบันทึกภาพเมื่อมีการแปลงเอกสารเป็น Markdown รูปแบบ
+Aspose.Wordsให้ความสามารถในการใช้ชั้นเรียน[MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/)ในการทำงานกับตัวเลือกขั้นสูงเมื่อบันทึกเอกสารในรูปแบบMarkdown นอกจากคุณสมบัติการสืบทอดหรือการบรรทุกเกินพิกัดอื่นๆยังมีการเพิ่มคุณสมบัติที่เฉพาะเจาะจงสำหรับรูปแบบMarkdownด้วย ตัวอย่างเช่น[TableContentAlignment](https://reference.aspose.com/words/java/com.aspose.words/tablecontentalignment/)คุณสมบัติเพื่อควบคุมการจัดตำแหน่งของเนื้อหาในตารางหรือ[ImageSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImageSavingCallback)และ[ImagesFolder](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImagesFolder)เพื่อควบคุมวิธีการบันทึกภาพเมื่อแปลงเอกสารเป็นรูปแบบMarkdown.
 
-## รับการรองรับ Markdown คุณสมบัติต่าง ๆ
+## รองรับคุณสมบัติMarkdown
 
-Aspose.Words รองรับต่อไปนี้ Markdown คุณสมบัติ ซึ่ง ส่วน ใหญ่ ตาม มา `CommonMark` ข้อกําหนดใน Aspose.Words API และเป็นตัวแทนของรูปแบบที่เหมาะสม หรือรูปแบบโดยตรง:
+Aspose.Wordsขณะนี้รองรับคุณสมบัติดังต่อไปนี้Markdownซึ่งส่วนใหญ่เป็นไปตามข้อกำหนด`CommonMark`ในAspose.WordsAPIและจะแสดงเป็นรูปแบบที่เหมาะสมหรือการจัดรูปแบบโดยตรง:
 
-* การ มุ่ง หน้า เป็น วรรค ที่ มี หัว เรื่อง 1 – มุ่ง หน้า ไป ทาง 6 แบบ
-* บล็อกตัวย่อคือ วรรคที่มี "ฟ้า" ในชื่อสไตล์
-* SteadedCode is paragraph with "indedCode" ในชื่อสไตล์
-* (เพลง) รหัสคือ paragraph with "FourcedCode" ในชื่อสไตล์
-* InlineCode ดําเนินการด้วย "InlineCode" ใน `Font` ชื่อรูปแบบ
-* กฎในแนวนอนคือ วรรคกับ `HorizontalRule` รูปร่าง
-* เน้น หนัก
-* เน้น ตัว เอน
-*
-* รายการ ต่าง ๆ นับ หรือ วรรค ที่ ออก เสียง ออก มา
-* โต๊ะนี้แสดงด้วย `Table` ชั้น
-* ลิ้งค์แสดงเป็น `FieldHyperlink` ชั้น
+* ส่วนหัวเป็นย่อหน้าที่มีHeading 1–Heading 6รูปแบบ
+* คำคมบล็อกเป็นย่อหน้าที่มี"อ้าง"ในชื่อสไตล์
+* IndentedCodeเป็นย่อหน้าที่มี"IndentedCode"ในชื่อสไตล์
+* FencedCodeเป็นย่อหน้าที่มี"FencedCode"ในชื่อสไตล์
+* InlineCodeจะรันด้วย"InlineCode"ในชื่อสไตล์`Font`
+* กฎแนวนอนเป็นย่อหน้าที่มีรูปร่าง`HorizontalRule`
+* เน้นตัวหนา
+* เน้นตัวเอียง
+* StrikeThroughการจัดรูปแบบ
+* รายการเป็นย่อหน้าที่มีหมายเลขหรือสัญลักษณ์
+* ตารางจะแสดงด้วยคลาสของ`Table`
+* ลิงก์ถูกแสดงเป็นคลาสของ`FieldHyperlink`
 
-ตัว อย่าง ต่อ ไป นี้ แสดง วิธี สร้าง เอกสาร ด้วย แบบ บาง อย่าง และ เก็บ ไว้ Markdown
+ตัวอย่างต่อไปนี้แสดงวิธีการสร้างเอกสารที่มีลักษณะบางอย่างและบันทึกไว้ที่Markdown:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToMarkdown-SupportedMarkdownFeatures.java" >}}
 
-ผล ของ ตัว อย่าง รหัส นี้ ปรากฏ ข้าง ล่าง.
+ผลลัพธ์ของตัวอย่างรหัสนี้แสดงด้านล่าง.
 
 ![markdown-example-aspose-words-java](/words/java/convert-a-document-to-markdown/markdown-example.png)
 
-## ข้อ แนะ ที่ มี ประโยชน์
+## เคล็ดลับที่เป็นประโยชน์
 
-มีหลายความแตกต่างและกรณีที่น่าสนใจ มีการเรียนรู้ที่คุณสามารถทํางานกับ Markdown แฟ้มที่ยืดหยุ่นกว่าและง่าย ตัว อย่าง เช่น มี ความ สามารถ ที่ จะ ใช้:
+มีหลายความแตกต่างและกรณีที่น่าสนใจที่มีการเรียนรู้ซึ่งคุณสามารถทำงานกับMarkdownไฟล์ที่มีความยืดหยุ่นมากขึ้นและสะดวกสบาย ตัวอย่างเช่นมีความสามารถในการใช้:
 
-* setext haading ที่ช่วยให้คุณสามารถสร้างหัวหลายบรรทัดใน Markdown'"> ในขณะที่กําลังมุ่งไป Markdown สามารถเป็นสายเดียว September Hading เป็นพื้นฐานจากรูปแบบ "Hading N" และระดับของมันคือ 1 หรือ 2 ถ้า N ใน "Hading N" มากกว่าหรือเท่ากับ 2 แล้ว Setext Hading ก็มาจาก "Hading 2" ไม่เช่นนั้น บน "Hading 1"
-* เครื่องหมายต่าง ๆ สําหรับอันดับแรกของรายการปล่อยข่าว ("-", "+" หรือ "*", เครื่องหมายปริยายคือ "-") และชนิดต่าง ๆ ของจํานวนรายการลําดับ (" หรือ ""). เครื่องหมายปริยายคือ ".".
+* SetextHeadingที่ช่วยให้คุณสร้างส่วนหัวหลายบรรทัดในMarkdownในขณะที่ส่วนหัวปกติในMarkdownสามารถเป็นบรรทัดเดียว SetextHeadingขึ้นอยู่กับ"หัวข้อไม่มีข้อความ"รูปแบบและระดับของมันสามารถเป็น 1 หรือ 2 ถ้าไม่มีข้อความใน"หัวข้อไม่มีข้อความ"มากกว่าหรือเท่ากับ 2 แล้วSetextHeadingที่ตรงกันจะขึ้นอยู่กับ"Heading 2"มิฉะนั้นใน"Heading 1".
+* เครื่องหมายที่แตกต่างกันสำหรับรายการที่มีสัญลักษณ์แสดงหัวข้อย่อยระดับแรก("-","+"หรือ"*"เครื่องหมายเริ่มต้นคือ"-")และประเภทที่แตกต่างกันของหมายเลขสำหรับรายการสั่งซื้อ("."หรือ")"เครื่องหมายเริ่มต้นคือ".").

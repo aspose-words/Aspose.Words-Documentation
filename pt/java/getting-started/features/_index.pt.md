@@ -1,38 +1,38 @@
----
+﻿---
 title: Características
 second_title: Aspose.Words para Java
-articleTitle: Características suportadas
-linktitle: Características suportadas
-description: "Aspose.Words para Java fornece aos usuários uma ampla gama de recursos de simplesmente converter e modificar documentos para criar documentos estruturados e visualmente atraentes ou automatizar relatórios."
+articleTitle: Recursos Suportados
+linktitle: Recursos Suportados
+description: "Aspose.Words para Java fornece aos usuários uma ampla gama de recursos, desde a simples conversão e modificação de documentos até a criação de documentos estruturados e visualmente atraentes ou a automação de relatórios."
 type: docs
 weight: 40
 url: /pt/java/features/
 timestamp: 2024-10-21-11-17-44
 ---
 
-Aspose.Words fornece aos usuários uma ampla gama de recursos. Os usuários podem executar uma enorme quantidade de tarefas relacionadas a documentos – de simplesmente converter documentos de um formato suportado para outro e modificar esses documentos durante o processo de conversão para tarefas de negócios, como criar documentos estruturados e visualmente atraentes ou automatizar relatórios.
+Aspose.Words fornece aos usuários uma ampla gama de recursos. Os utilizadores podem realizar uma enorme quantidade de tarefas relacionadas com documentos-desde a simples conversão de documentos de um formato suportado para outro e a modificação desses documentos durante o processo de conversão para tarefas empresariais, como a criação de documentos estruturados e visualmente apelativos ou a automatização de relatórios.
 
-Formatos e padrões de documentos modernos são complexos, e quando você precisa de conversão de documentos ou outros recursos de processamento de documentos em seu projeto, a única solução prática é muitas vezes confiar em um componente de terceiros que implementa a funcionalidade desejada. Mas usar um componente de terceiros sempre carrega algum risco. Um dos riscos únicos no processamento de documentos é a questão de como completamente e corretamente a biblioteca implementa um formato ou padrão de documento específico.
+Os formatos e padrões de documentos modernos são complexos e, quando você precisa de conversão de documentos ou outros recursos de processamento de documentos em seu projeto, a única solução prática geralmente é contar com um componente de terceiros que implementa a funcionalidade desejada. Mas usar um componente de terceiros sempre acarreta algum risco. Um dos riscos únicos no processamento de documentos é a questão de como a biblioteca implementa completa e corretamente um determinado formato ou padrão de Documento.
 
-A Aspose está empenhada em fornecer as implementações mais completas e precisas de formatos e padrões de documentos. O Aspose.Words A equipe demonstra seu compromisso com a interoperabilidade, fornecendo notas detalhadas de implementação para formatos de documentos suportados em várias plataformas.
+A Aspose está empenhada em fornecer as implementações mais completas e precisas de formatos e normas de documentos. A equipa Aspose.Words demonstra o seu compromisso com a interoperabilidade, fornecendo notas de implementação detalhadas para os formatos de documentos suportados em várias plataformas.
 
-As tabelas abaixo resumem Aspose.Words para Java recursos e fornecer links para descrições de recursos detalhadas.
+As tabelas abaixo resumem Aspose.Words para Java recursos e fornecem links para descrições detalhadas de recursos.
 
 {{% alert color="primary" %}}
 
-A maioria das capturas de tela nesta seção demonstram documentos gerados por Aspose.Words e então aberto para visualização em Microsoft Word e outras aplicações.
+A maioria das capturas de tela nesta seção demonstra documentos gerados por Aspose.Words e depois abertos para visualização em Microsoft Word e outros aplicativos.
 
 {{% /alert %}}
 
-## Plataformas suportadas
+## Plataformas Suportadas
 
-As plataformas Aspose.Words para Java pode ser usado com estão listados abaixo. Se você precisar de suporte para mais plataformas, procure o produto "twin brother" Aspose.Words para .NET.
+As plataformas Aspose.Words para Java podem ser usadas estão listadas abaixo. Se precisar de suporte para mais plataformas, procure o produto" irmão gêmeo " Aspose.Words para .NET.
 
-|  Característica|Descrição |
-|  :-  |  :-  |
-| [Java](/words/java/supported-platforms/) | Aspose.Words para Java está disponível para Java 1.6, 1.7 e 1.8 e será executado em qualquer lugar onde Java está instalado. |
+| Recurso | Descrição |
+| :- | :- |
+| [Java](/words/java/supported-platforms/) | Aspose.Words para Java está disponível para Java 1.6, 1.7 e 1.8 e será executado em qualquer lugar onde Java esteja instalado. |
 
-## Formatos de arquivo e conversões
+## Formatos de ficheiros e conversões
 
 {{% alert color="primary" %}}
 
@@ -40,111 +40,111 @@ Muitos clientes em todo o mundo confiam nos recursos completos de importação e
 
 {{% /alert %}}
 
-|  Característica|Descrição |
-|  :-  |  :-  |
-| Microsoft Word (DOC)[carga](/words/java/load-in-ms-word-97-2003-formats/) e [- Sim](/words/java/save-in-ms-word-97-2003-formats/)) | A implementação mais rápida e completa do formato DOC que você pode encontrar. |
-| WordprocessingML (DOCX, XML) ([carga](/words/java/load-in-the-open-office-xml-2007-and-2010-formats/) e [- Sim](/words/java/save-in-the-open-office-xml-docx-dotx-docm-dotm-format/)) | Aspose.Words fornece suporte exaustivo OOXML, Flat OPC, e também Word 2003 XML. |
-| Formato de texto rico (RTF) ([carga](/words/java/load-in-the-rich-text-format-1-9-rtf-format/) e [- Sim](/words/java/save-in-the-rich-text-format-1-9-rtf-format/)) | Suporte abrangente do formato RTF para interagir com uma variedade de aplicações. |
-| HTML, XHTML e MHTML | [Carga](/words/java/load-in-the-html-html-xhtml-mhtml-format/) e [- Sim](/words/java/save-in-the-html-html-xhtml-mhtml-format/) HTML/XHTML para interoperabilidade ainda maior. Salvar como MHTML também está disponível. |
-| OpenDocument (ODT) | Aspose.Words pode ser [carga](/words/java/load-in-the-opendocument-text-odt-ott-format/) e [- Sim](/words/java/save-in-the-opendocument-text-odt-ott-format/) documentos em `OpenDocument` Formato de texto (.odt). |
-| [Formato de documento Adobe (PDF)](/words/java/save-in-the-adobe-portable-document-pdf-format/) | Converta qualquer documento em PDF com alta fidelidade. PDF/A é suportado. |
-| Especificação de papel XML (XPS)[carga](/words/java/load-in-ms-word-2003-formats/) e [- Sim](/words/java/save-in-the-flatopc-ooxml-document-xml-format/)) | Converter qualquer documento para XPS com alta fidelidade. |
-| Texto simples (TXT) ([carga](/words/java/load-in-the-plain-text-txt-format/) e [- Sim](/words/java/save-in-the-plain-text-txt-format/)) | Extrair facilmente texto salvando em formato de texto simples. |
-| [Publicação Digital (EPUB)](/words/java/save-in-the-idpf-epub-document-epub-format/) | EPUB é um formato popular para eBooks. Você pode converter qualquer documento de Aspose.Words para o formato IDPF EPUB. |
+| Recurso | Descrição |
+| :- | :- |
+| Microsoft Word (DOC) ([carga](/words/java/load-in-ms-word-97-2003-formats/) e [salvar](/words/java/save-in-ms-word-97-2003-formats/)) | A implementação de formato DOC mais rápida e completa que você pode encontrar. |
+| WordprocessingML (DOCX, XML) ([carga](/words/java/load-in-the-open-office-xml-2007-and-2010-formats/) e [salvar](/words/java/save-in-the-open-office-xml-docx-dotx-docm-dotm-format/)) | Aspose.Words fornece suporte exaustivo OOXML, Flat OPC e também Word 2003 XML. |
+| Formato Rich Text (RTF) ([carga](/words/java/load-in-the-rich-text-format-1-9-rtf-format/) e [salvar](/words/java/save-in-the-rich-text-format-1-9-rtf-format/)) | Suporte abrangente do formato RTF para interagir com uma variedade de aplicações. |
+| HTML, XHTML e MHTML | [Carga](/words/java/load-in-the-html-html-xhtml-mhtml-format/) e [salvar](/words/java/save-in-the-html-html-xhtml-mhtml-format/) HTML / XHTML para uma interoperabilidade ainda maior. Salvar como MHTML também está disponível. |
+| OpenDocument (ODT) | Aspose.Words pode [carga](/words/java/load-in-the-opendocument-text-odt-ott-format/) e [salvar](/words/java/save-in-the-opendocument-text-odt-ott-format/) documentos no texto `OpenDocument` (.formato odt). |
+| [Formato De Documento Porto Extraterritorial (PDF)](/words/java/save-in-the-adobe-portable-document-pdf-format/) | Converta qualquer documento para PDF com alta fidelidade. PDF/A é suportado. |
+| XML Especificação Do Papel (XPS) ([carga](/words/java/load-in-ms-word-2003-formats/) e [salvar](/words/java/save-in-the-flatopc-ooxml-document-xml-format/)) | Converta qualquer documento para XPS com alta fidelidade. |
+| Texto Simples (TXT) ([carga](/words/java/load-in-the-plain-text-txt-format/) e [salvar](/words/java/save-in-the-plain-text-txt-format/)) | Extraia facilmente o texto salvando em formato de texto simples. |
+| [Publica7o Digital (EPUB)](/words/java/save-in-the-idpf-epub-document-epub-format/) | EPUB é um formato popular para eBooks. Pode converter qualquer documento de Aspose.Words para o formato IDPF EPUB. |
 
 ## Renderização e impressão
 
 Aspose.Words agora fornece renderização de alta fidelidade de páginas de documentos.
 
-|  Característica |
-|  :-  |
+| Recurso |
+| :- |
 | Documento de Layout em páginas com alta fidelidade (exatamente como Microsoft Word® faria isso) para todos os formatos abaixo. |
-| Render páginas individuais ou documentos completos para PDF ou XPS. |
-| Render páginas de documentos para imagens raster (Multipage TIFF, PNG, JPEG, BMP). |
-| Render páginas para um Java Os gráficos se opõem a um tamanho específico. |
-| Imprimir páginas de documentos usando o Java infraestrutura de impressão. |
-| Atualização `TOC`, números de página e outros campos antes de renderizar ou imprimir. |
-| Efeitos 3D Rendering através do OpenGL |
+| Renderizar páginas individuais ou documentos completos para PDF ou XPS. |
+| Renderizar páginas de documentos em imagens rasterizadas (multipáginas TIFF, PNG, JPEG, BMP). |
+| Renderizar páginas para um objeto gráfico Java com um tamanho específico. |
+| Imprima páginas de documentos utilizando a infra-estrutura de Impressão Java. |
+| Atualize `TOC`, números de página e outros campos antes de renderizar ou imprimir. |
+| Renderização de efeitos 3D através do OpenGL |
 
-## Características do conteúdo do documento
+## Características Do Conteúdo Do Documento
 
 {{% alert color="primary" %}}
 
-Aspose.Words fornece um modelo de objeto rico que consiste em mais de 100 classes públicas, que permitem gerar, combinar, modificar, analisar ou examinar documentos carregados.
+Aspose.Words fornece um modelo de objeto rico que consiste em mais de 100 classes públicas, que permitem gerar, combinar, modificar, analisar ou examinar programaticamente documentos carregados.
 
 {{% /alert %}}
 
-|  Característica |
-|  :-  |
-| Acesse, crie e modifique parágrafos e texto. |
+| Recurso |
+| :- |
+| Aceder, criar e modificar parágrafos e textos. |
 | Acesse, crie e modifique imagens, caixas de texto e formas. |
 | Acesse, crie e modifique tabelas, linhas e células. |
-| Acesso, criar e modificar campos, campos de formulário, hiperlinks e marcadores. |
-| Acesse, crie e modifique seções de documentos, cabeçalhos e rodapés. |
-| Acesse, crie e modifique notas de rodapé, notas finais e comentários. |
-| Acesse, crie e modifique XML personalizado, SmartTags e Tags de documentos estruturados (Controles de conteúdo). |
-| Acesse e modifique todos os elementos do documento usando **XmlDocument** - como classes e métodos. |
-| Atualizar resultados de campo `IF`, fórmula, e outros tipos de campo populares. |
-| Reconstruir e atualizar a tabela de conteúdo (TOC) campos exatamente como Microsoft Word Sim. |
-| Copie e mova elementos de documentos entre documentos. |
-| Junte-se e dividir documentos. |
-| Obter e definir built-in e propriedades de documento personalizado. |
-| Especifique a proteção do documento, abra documentos protegidos e criptografados. |
-| Encontre e substitua texto, enumerar sobre o conteúdo do documento. |
-| Aceite todas as revisões em um documento. |
-| Preserva ou extraia objetos OLE e controles ActiveX do documento. |
-| Preserva ou remova macros VBA do documento. Preserve as macros VBA assinatura digital. |
-| Detecte assinaturas digitais em documentos. |
-| Insira texto HTML. |
-| Extrair VBA Macros do Word Document. |
+| Aceder, criar e modificar Campos, Campos de formulário, hiperligações e marcadores. |
+| Acesse, crie e modifique seções, cabeçalhos e rodapés de documentos. |
+| Acesse, crie e modifique notas de rodapé, notas de fim e comentários. |
+| Aceda, crie e modifique etiquetas de documentos personalizadas XML, SmartTags e estruturadas (controlos de conteúdo). |
+| Acesse e modifique todos os elementos do documento usando classes e métodos semelhantes a **XmlDocument**. |
+| Atualizar resultados de campo `IF`, fórmula e outros tipos de campo populares. |
+| Reconstrua e atualize os campos do Índice (TOC) exatamente como Microsoft Word faz. |
+| Copiar e mover elementos do documento entre documentos. |
+| Juntar e dividir documentos. |
+| Obter e definir propriedades de Documento integradas e personalizadas. |
+| Especifique a proteção de Documentos, abra documentos protegidos e encriptados. |
+| Encontre e substitua o texto, enumere sobre o conteúdo do documento. |
+| Aceitar todas as revisões de um documento. |
+| Preservar ou extrair objectos OLE e controlos ActiveX do documento. |
+| Preservar ou remover VBA macros do documento. Preservar VBA macros assinatura digital. |
+| Detectar assinaturas digitais em documentos. |
+| Inserir HTML texto. |
+| Extrair VBA Macros do documento do Word. |
 
-## Características de formatação de documentos
+## Funcionalidades De Formatação De Documentos
 
 Aspose.Words fornece acesso programático detalhado às propriedades de formatação de todos os elementos do documento.
 
-|  Característica |
-|  :-  |
-| Acesse e modifique toda a formatação de caracteres, incluindo fontes, cores, efeitos, fronteiras e sombreamento. |
-| Acesse e modifique toda formatação de parágrafos, incluindo recuos, espaçamento, fronteiras e sombreamento, tab stops. |
-| Acesse e modifique toda a formatação de listas com marcadores e numeradas, incluindo numeração e níveis. |
-| Acesse e modifique a formatação da tabela, incluindo alinhamento, orientação, fronteiras e sombreamento. |
-| Acesse e modifique todas as propriedades de seção, incluindo tamanho de papel, margens e orientação. |
-| Acesse, crie e modifique estilos de documentos. |
-| Acesse e modifique objetos de desenho, incluindo posição, tamanho, linha e propriedades de preenchimento, bytes de imagem. |
+| Recurso |
+| :- |
+| Acesse e modifique toda a formatação de caracteres, incluindo fontes, cores, efeitos, bordas e sombreamento. |
+| Acesse e modifique toda a formatação de parágrafos, incluindo recuos, espaçamento, bordas e sombreamento, paradas de tabulação. |
+| Aceder e modificar todas as formatações de listas com marcadores e numeradas, incluindo numeração e níveis. |
+| Acesse e modifique a formatação da tabela, incluindo alinhamento, orientação, bordas e sombreamento. |
+| Acesse e modifique todas as propriedades da seção, incluindo tamanho do papel, margens e orientação. |
+| Aceder, criar e modificar estilos de documentos. |
+| Acesse e modifique objetos de desenho, incluindo posição, tamanho, propriedades de linha e preenchimento, bytes de imagem. |
 
 ## Mail Merge Características
 
 {{% alert color="primary" %}}
 
-Você pode usar Aspose.Words como uma solução de relatórios por conta própria. Projete seus relatórios em Microsoft Word e depois Aspose.Words preencher documentos com dados de várias fontes de dados.
+Você pode usar Aspose.Words como uma solução de relatório por conta própria. Crie seus relatórios em Microsoft Word e, em seguida, faça com que Aspose.Words preencha documentos com dados de várias fontes de dados.
 
 {{% /alert %}}
 
-|  Característica |
-|  :-  |
-| Use todos os padrões Microsoft Word Mail Merge campos em seus relatórios, incluindo `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. |
-| Executar Mail Merge para documentos que contêm até o mais complexo e aninhado `IF` campos e fórmulas. |
-| Popular e dinamicamente crescer tabelas ou fragmentos no documento de sua fonte de dados usando Mail Merge regiões. |
-| Gerencie facilmente relatórios que contêm dados de detalhe mestre (parent-child), como Order/OrderDetails. |
-| Popular documentos com dados de qualquer Java fonte de dados que implementa o `ResultSet` interface. |
-| Popule documentos de qualquer fonte de dados, como um arquivo XML ou objetos de negócios, implementando **IMailMergeDataSource** interface. |
-| Assuma controle preciso, como formatação de números, sobre como seus dados são mesclados usando eventos. |
-| Insira imagens durante um mail merge. |
-| Criar ou modificar programaticamente um Microsoft Word Mail Merge fonte de dados para um documento. Preserve Mail Merge configurações e fontes de dados. |
+| Recurso |
+| :- |
+| Use todos os campos padrão Microsoft Word Mail Merge em seus relatórios, incluindo `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. |
+| Execute Mail Merge para documentos que contenham até os campos e fórmulas `IF` mais complexos e aninhados. |
+| Preencha e aumente dinamicamente tabelas ou fragmentos no documento a partir da sua fonte de dados utilizando regiões Mail Merge. |
+| Gere facilmente relatórios que contenham dados de detalhe mestre (pai-filho), como Ordem/OrderDetails. |
+| Preencher documentos com dados de qualquer fonte de dados Java que implemente a interface `ResultSet`. |
+| Preencha documentos de qualquer fonte de dados, como um arquivo XML ou objetos de negócios, implementando a interface **IMailMergeDataSource**. |
+| Assuma um controle preciso, como formatação de números, sobre como seus dados são mesclados usando eventos. |
+| Inserir imagens durante a mail merge. |
+| Criar ou modificar programaticamente uma fonte de dados Microsoft Word Mail Merge para um documento. Preservar Mail Merge definições e fontes de dados. |
 | Recuperar Mail Merge nomes de campo. |
 
-## Recursos de relatórios
+## Recursos De Relatório
 
-LINQ O Reporting Engine é uma ferramenta de relatórios avançada que lhe permite gerar documentos baseados em documentos de modelo e dados obtidos de várias fontes, incluindo bancos de dados, XML, JSON, OData, objetos de tipos CLR personalizados, documentos externos e muito mais fora da caixa
+LINQ Reporting Engine é uma ferramenta avançada de relatórios que lhe permite gerar documentos com base em documentos Modelo e dados obtidos a partir de várias fontes, incluindo bases de dados, XML, JSON, OData, objetos de tipos personalizados CLR, documentos externos e muito mais prontos para uso.
 
-| Características principais |
-|  :-  |
-| Apoio ao C# métodos de extensão sintaxe e LINQ diretamente em modelos (mesmo para `ADO.NET` fontes de dados) |
-| Suporte de blocos de documentos replicáveis e condicionais (loops e condições) para tabelas, listas e conteúdo comum |
-| Suporte de gráficos e imagens dinamicamente gerados |
-| Suporte de inserção de documentos externos e blocos HTML em um documento |
-| Suporte de múltiplas fontes de dados (incluindo diferentes tipos) para a geração de um único documento |
-| Suporte integrado de relações de dados (detalhe mestre) |
+| Principais Características |
+| :- |
+| Suporte de C# sintaxe e LINQ Métodos de extensão diretamente em modelos (mesmo para `ADO.NET` fontes de dados) |
+| Suporte de blocos de documentos repetíveis e condicionais (loops e condições) para tabelas, listas e conteúdo comum |
+| Suporte de gráficos e imagens gerados dinamicamente |
+| Apoio à inserção de documentos externos e blocos HTML num documento |
+| Apoio a múltiplas fontes de dados (incluindo tipos diferentes) para a geração de um único documento |
+| Suporte integrado às relações de dados (master-detail) |
 | Suporte abrangente de várias manipulações de dados, como agrupamento, classificação, filtragem e outros diretamente em modelos |
-| WYSIWYG: Um documento gerado mantém a mesma formatação de seus elementos como um modelo correspondente |
+| WYSIWYG: um documento gerado mantém a mesma formatação dos seus elementos que um modelo correspondente |
 

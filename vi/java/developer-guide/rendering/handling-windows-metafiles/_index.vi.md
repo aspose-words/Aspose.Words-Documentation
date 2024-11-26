@@ -1,8 +1,8 @@
 ---
 title: Xử lý Windows MetaFile trong Java
 second_title: Aspose.Words cho Java
-articleTitle: Xử lý ` Windows ` metafiles
-linktitle: Xử lý ` Windows ` metafiles
+articleTitle: Xử lý  Windows  metafiles
+linktitle: Xử lý  Windows  metafiles
 description: "Aspose.Words cho Java thực hiện người chơi Windows của riêng nó để chơi định dạng Metafile trên tất cả các nền tảng và hỗ trợ xử lý các tính năng cơ bản của metafile và có thể thực hiện chuyển đổi đến một loại khác của người chơi metafile."
 type: docs
 weight: 30

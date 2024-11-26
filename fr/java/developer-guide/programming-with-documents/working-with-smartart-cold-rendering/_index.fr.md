@@ -1,54 +1,54 @@
----
-title: Travailler avec Smart Art froid rendu dans Java
+﻿---
+title: Travailler avec SmartArt Rendu à froid dans Java
 second_title: Aspose.Words pour Java
-articleTitle: Travailler avec Smart Rendre l'art froid
-linktitle: Travailler avec Smart Rendre l'art froid
+articleTitle: Travailler avec SmartArt Rendu à froid
+linktitle: Travailler avec SmartArt Rendu à froid
 type: docs
-description: "Aspose.Words pour Java exécute Smart Art Cold Rendering, ce qui signifie qu'il établit et rend des objets SmartArt si le dessin SmartArt pré-rendu est manquant ou incorrect."
+description: "Aspose.Words pour Java effectue SmartArt Rendu à froid, ce qui signifie qu'il dispose et rend SmartArt objets si le dessin SmartArt pré-rendu est manquant ou incorrect."
 weight: 330
 url: /fr/java/working-with-smartart-cold-rendering/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Les graphiques SmartArt sont utilisés pour créer rapidement et facilement une représentation visuelle de l'information. Vous choisissez simplement parmi un grand nombre de mises en page qui conviennent le mieux à votre situation. Cette facilité d'utilisation rend les graphiques SmartArt très populaires pour certains usages.
+SmartArt les graphiques sont utilisés pour créer rapidement et facilement une représentation visuelle de l'information. Vous choisissez simplement parmi un grand nombre de mises en page qui conviennent le mieux à votre situation. Cette facilité d'utilisation rend les graphiques SmartArt très populaires à certaines fins.
 
-Microsoft Word génère et enregistre le dessin pré-rendu avec le `SmartArt` objet. Dans la plupart des cas, le dessin pré-rendu est bien rendu par Aspose.Words et aucune autre mesure n'est nécessaire. Cependant, si le document est sauvegardé par d'autres applications, le dessin SmartArt pré-rendu peut être manquant ou incorrect. Dans ce cas, `SmartArt` objet lui-même devrait être mis en place et rendu en utilisant Aspose.Words. Nous appelons ce processus le `SmartArt` Rendu froid.
+Microsoft Word génère et enregistre le dessin pré-rendu avec l'objet `SmartArt`. Dans la plupart des cas, le dessin pré-rendu est bien rendu par Aspose.Words et aucune action supplémentaire n'est requise. Cependant, si le document est enregistré par d'autres applications, le dessin SmartArt pré-rendu peut être manquant ou incorrect. Dans ce cas, l'objet `SmartArt` lui-même doit être mis en page et rendu à l'aide de Aspose.Words. Nous appelons ce processus le `SmartArt` Rendu à froid.
 
-## Utilisation de Smart Rendre l'art froid
+## Utilisation de SmartArt Rendu à froid
 
 Aspose.Words vous permet d'utiliser un dessin pré-rendu ou d'effectuer un rendu à froid:
 
-* Si un dessin pré-rendu est disponible, Aspose.Words l'utilise pour rendre la `SmartArt` objet.
-* Si le dessin pré-rendu est manquant, Aspose.Words effectue implicitement le rendu à froid pour rendre le `SmartArt` objet.
-* Si un dessin pré-rendu est présent mais est incorrect, il est nécessaire d'effectuer le rendu à froid SmartArt explicitement en appelant [UpdateSmartArtDrawing](https://reference.aspose.com/words/java/com.aspose.words/shape/#updateSmartArtDrawing) méthode.
+* Si un dessin pré-rendu est disponible, Aspose.Words l'utilise pour rendre l'objet `SmartArt`.
+* Si le dessin pré-rendu est manquant, Aspose.Words effectue implicitement un rendu à froid pour rendre l'objet `SmartArt`.
+* Si un dessin pré-rendu est présent mais est incorrect, il est nécessaire d'effectuer SmartArt rendu à froid explicitement en appelant la méthode [UpdateSmartArtDrawing](https://reference.aspose.com/words/java/com.aspose.words/shape/#updateSmartArtDrawing).
 
 L'exemple de code suivant montre comment mettre à jour les dessins pour tous les diagrammes du document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-UpdateSmartArtDrawing.java" >}}
 
-## Prise en charge des mises en page SmartArt standard
+## Prise en charge des dispositions standard SmartArt
 
-Actuellement, seul un nombre limité de normes Microsoft Word Les mises en page SmartArt sont prises en charge. En outre, certaines de ces mises en page sont partiellement supportées, ce qui signifie que des nœuds et des formes significatifs du diagramme sont rendus, mais il peut y avoir des différences entre Microsoft Word et Aspose.Words schéma.
+Actuellement, seul un nombre limité de dispositions Microsoft Word SmartArt standard sont prises en charge. De plus, certaines de ces dispositions sont partiellement prises en charge, ce qui signifie que des nœuds et des formes significatifs du diagramme sont rendus, mais il peut y avoir des différences entre la disposition du diagramme Microsoft Word et Aspose.Words.
 
-Le tableau ci-dessous énumère les mises en page entièrement et partiellement supportées:
+Le tableau ci-dessous répertorie les mises en page entièrement et partiellement prises en charge:
 
-|  Intelligent Art Layouts Group |  Aménagements entièrement pris en charge |  Mises en page partiellement prises en charge |
-|  ----------------------  |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  `List`  |  <ul><li>Liste des blocs de base</li><li>Hexagones alternés</li><li>Liste des balles verticales</li><li>Liste des boîtes verticales</li><li>Liste des largeurs variables</li><li>Liste horizontale des balles</li><li>GroupListe</li><li>Liste des blocs verticaux</li><li>Liste verticale de Chevron</li><li>Liste des flèches verticales</li><li>Liste des trapézoïdes</li><li>Liste des tableaux</li><li>Liste des pyramides</li><li>Liste des cibles</li></ul> |  <ul><li>Liste linéaire</li><li>Liste verticale des supports</li><li>Liste des onglets</li><li>Liste empilée</li><li>Liste d'entrée verticale</li><li>Liste des cercles verticaux</li></ul> |
-|  `Process`  |  <ul><li>Processus de base</li><li>Processus accéléré</li><li>Processus de bloc continu</li><li>Augmentation du processus Arrow</li><li>Texte de conversation</li><li>Calendrier de base</li><li>Processus de base Chevron</li><li>Processus accéléré de Chevron</li><li>Processus Chevron fermé</li><li>Liste de Chevron</li><li>Processus vertical</li><li>Processus échelonné</li><li>Liste des processus</li><li>Processus de financement de base</li><li>Répéter le processus de pliage</li><li>Processus détaillé</li><li>Flèche vers le haut</li><li>Processus descendant</li><li>Processus de pliage circulaire</li></ul> |  <ul><li>Étapes du processus</li><li>Étape vers le bas</li><li>Flux alternatif</li><li>Augmentation du processus du cercle</li><li>Processus de tarte</li><li>Processus de bloc interconnecté</li><li>Flèches du processus</li><li>Chronologie du cercle Accent</li><li>Processus du cercle</li><li>Processus de sous-étape</li><li>Processus échelonné</li><li>Processus aléatoire au résultat</li><li>Processus de flèche circulaire</li></ul> |
-|  `Cycle`  |  –                                                             |  <ul><li>Cycle segmenté</li><li>Hexagone Radial</li></ul> |
-|  `Hierarchy`  |  –                                                             |  <ul><li>Hiérarchie des tableaux</li><li>Structure de l'architecture</li></ul> |
-|  `Relationship`  |  <ul><li>Solde</li><li>Entonnoir</li><li>Équipement</li><li>Plus et moins</li><li>Ruban fléché</li><li>Flèches de contrepoids</li><li>Flèches opposées</li><li>Cible imbriquée</li><li>Objectif de base</li><li>Pie de base</li><li>Venne de base</li><li>Venn piquée</li><li>Anneau interconnecté</li></ul> |  <ul><li>Relations de cercle</li><li>Les idées opposées</li><li>Équation</li><li>Équation verticale</li><li>Venn linéaire</li></ul> |
-|  `Matrix`  |  <ul><li>Matrice de base</li><li>Matrice titrée</li><li>Matrice de grille</li><li>Matrice du cycle</li></ul> |  –                                                             |
-|  `Pyramid`  |  –                                                             |  <ul><li>Pyramide segmentée</li></ul> |
+| SmartArt Groupe de mises en page | Mises en page entièrement prises en charge | Dispositions partiellement prises en charge |
+| ---------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| `List` | <ul><li>Liste de Blocage de Base</li><li>Hexagones Alternés</li><li>Liste à Puces Verticale</li><li>Liste des Boîtes Verticales</li><li>Liste de Largeur Variable</li><li>Liste à Puces Horizontale</li><li>Liste Groupée</li><li>Liste de Blocage Verticale</li><li>Liste Verticale de Chevrons</li><li>Liste des Flèches Verticales</li><li>Liste des Trapèzes</li><li>Liste des Tableaux</li><li>Liste des Pyramides</li><li>Liste des Cibles</li></ul> | <ul><li>Liste Doublée</li><li>Liste des Parenthèses Verticales</li><li>Liste des Onglets</li><li>Liste Empilée</li><li>Liste des Accents Verticaux</li><li>Liste des Cercles Verticaux</li></ul> |
+| `Process` | <ul><li>Processus de Base</li><li>Processus d'Accentuation</li><li>Processus de Bloc Continu</li><li>Augmentation du Processus de Flèche</li><li>Texte Convergent</li><li>Chronologie de Base</li><li>Processus de Chevron de Base</li><li>Procédé d'Accentuation des Chevrons</li><li>Procédé à Chevrons Fermés</li><li>Liste de Chevrons</li><li>Processus Vertical</li><li>Processus Échelonné</li><li>Liste des Processus</li><li>Processus de Pliage de Base</li><li>Processus de Pliage Répété</li><li>Processus Détaillé</li><li>Flèche Vers Le Haut</li><li>Processus Descendant</li><li>Processus de Pliage Circulaire</li></ul> | <ul><li>Processus d'Intensification</li><li>Processus d'abandon</li><li>Débit Alternatif</li><li>Processus de Cercle Croissant</li><li>Pie Processus</li><li>Processus de Bloc Interconnecté</li><li>Flèches de Processus</li><li>Chronologie de l'Accent Circulaire</li><li>Processus de Cercle</li><li>Processus de Sous-Étape</li><li>Processus Par Étapes</li><li>Aléatoire au processus de résultat</li><li>Processus de Flèche Circulaire</li></ul> |
+| `Cycle` |  | <ul><li>Cycle Segmenté</li><li>Hexagone Radial</li></ul> |
+| `Hierarchy` |  | <ul><li>Hiérarchie des Tables</li><li>Mise en Page de l'Architecture</li></ul> |
+| `Relationship` | <ul><li>Solde</li><li>Entonnoir</li><li>Équipement</li><li>Plus Et Moins</li><li>Ruban Flèche</li><li>Flèches de Contrepoids</li><li>Flèches Opposées</li><li>Cible imbriquée</li><li>Cible de Base</li><li>Basique Pie</li><li>Venn de Base</li><li>Venn Empilé</li><li>Anneau Interconnecté</li></ul> | <ul><li>Relation de Cercle</li><li>Idées Opposées</li><li>Équation</li><li>Équation Verticale</li><li>Venn Linéaire</li></ul> |
+| `Matrix` | <ul><li>Matrice de Base</li><li>Intitulé Matrice</li><li>Matrice de Grille</li><li>Matrice de Cycle</li></ul> |  |
+| `Pyramid` |  | <ul><li>Pyramide Segmentée</li></ul> |
 
 ## Comparaison du rendu SmartArt dans Aspose.Words et Microsoft
 
-Le tableau ci-dessous montre des exemples Aspose.Words Froid Rendu de certains schémas standard par rapport à Microsoft Word sortie & #160;:
+Le tableau ci-dessous montre des exemples d'images de Aspose.Words Rendu à froid de certaines dispositions standard par rapport à la sortie Microsoft Word:
 
-|                                 |   **Aspose.Words**                                              |   **Microsoft Word**                                            |
-|  -----------------------------  |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|   **Basic Process**              |   <img src="/words/java/working-with-smartart-cold-rendering/basic-process-aspose.png" alt="basic_process_aspose"/>  |   <img src="/words/java/working-with-smartart-cold-rendering/basic-process-word.png" alt="basic_process_word"/>  |
-|   **Circular Bending Process**   |   <img src="/words/java/working-with-smartart-cold-rendering/circular-bending-process-aspose.png" alt="circular_bending_process_aspose"/>  |   <img src="/words/java/working-with-smartart-cold-rendering/circular-bending-process-word.png" alt="circular_bending_process_word"/>  |
-|   **Repeating Bending Process**  |   <img src="/words/java/working-with-smartart-cold-rendering/repearing-bending-process-aspose.png" alt="repearing_bending_process_aspose"/>  |   <img src="/words/java/working-with-smartart-cold-rendering/repearing-bending-process-word.png" alt="repearing_bending_process_word"/>  |
-|   **Trapezoid List**             |   <img src="/words/java/working-with-smartart-cold-rendering/trapezoid-list-aspose.png" alt="trapezoid_list_aspose"/>  |   <img src="/words/java/working-with-smartart-cold-rendering/trapezoid-list-word.png" alt="trapezoid_list_word"/>  |
+|  | **Aspose.Words** | **Microsoft Word** |
+| ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Basic Process** | <img src="/words/java/working-with-smartart-cold-rendering/basic-process-aspose.png" alt="basic_process_aspose"/> | <img src="/words/java/working-with-smartart-cold-rendering/basic-process-word.png" alt="basic_process_word"/> |
+| **Circular Bending Process** | <img src="/words/java/working-with-smartart-cold-rendering/circular-bending-process-aspose.png" alt="circular_bending_process_aspose"/> | <img src="/words/java/working-with-smartart-cold-rendering/circular-bending-process-word.png" alt="circular_bending_process_word"/> |
+| **Repeating Bending Process** | <img src="/words/java/working-with-smartart-cold-rendering/repearing-bending-process-aspose.png" alt="repearing_bending_process_aspose"/> | <img src="/words/java/working-with-smartart-cold-rendering/repearing-bending-process-word.png" alt="repearing_bending_process_word"/> |
+| **Trapezoid List** | <img src="/words/java/working-with-smartart-cold-rendering/trapezoid-list-aspose.png" alt="trapezoid_list_aspose"/> | <img src="/words/java/working-with-smartart-cold-rendering/trapezoid-list-word.png" alt="trapezoid_list_word"/> |

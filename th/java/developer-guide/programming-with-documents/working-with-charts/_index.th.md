@@ -1,75 +1,75 @@
----
-title: ทํางานกับชาร์ตใน Java
-second_title: Aspose.Words สําหรับ Java
-articleTitle: ทํางานร่วมกับแผนภูมิ
-linktitle: ทํางานร่วมกับแผนภูมิ
-description: "แนะนําคุณสมบัติของแผนภูมิ วิธีสร้างและจัดการแผนภูมิโดยใช้ Java."
+﻿---
+title: การทำงานกับแผนภูมิในJava
+second_title: Aspose.WordsสำหรับJava
+articleTitle: การทำงานกับแผนภูมิ
+linktitle: การทำงานกับแผนภูมิ
+description: "บทนำเกี่ยวกับคุณลักษณะแผนภูมิวิธีการสร้างและจัดการแผนภูมิโดยใช้Java."
 type: docs
 weight: 310
 url: /th/java/working-with-charts/
 timestamp: 2024-01-27-14-07-04
 ---
 
-ของใหม่ [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) วิธีการถูกเพิ่มเข้าไปใน [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) ชั้นเรียน. ลองดูวิธีใส่แผนภาพคอลัมน์ง่ายๆ ลงในเอกสารโดยใช้ **แทรก แผนภูมิ** วิธี
+วิธีการใหม่[insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double)ถูกเพิ่มเข้าไปในชั้นเรียน[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) ดังนั้น,เรามาดูวิธีการแทรกแผนภูมิคอลัมน์ง่ายๆลงในเอกสารโดยใช้วิธีการ**insertChart**.
 
 
-## จะแทรกแผนภูมิออกจากขีดเขียนอย่างไร Aspose.Words
+## วิธีการแทรกแผนภูมิจากรอยขีดข่วนโดยใช้Aspose.Words
 
-ในส่วนนี้เราจะเรียนรู้วิธีการใส่ชาร์ตเป็นเอกสาร
+ในส่วนนี้เราจะเรียนรู้วิธีการแทรกแผนภูมิลงในเอกสาร.
 
-###  แทรกแผนภูมิ
+###  แทรกแผนภูมิคอลัมน์
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีแทรกแผนภูมิคอลัมน์:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกแผนภูมิคอลัมน์:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertColumnChart1.java" >}}
 
-รหัส ก่อ ให้ เกิด ผล ดัง ต่อ ไป นี้:
+รหัสสร้างผลลัพธ์ต่อไปนี้:
 
 ![column-chart-aspose-words-java-1](/words/java/working-with-charts/working-with-charts-7.png)
 
-มี การ ทํา งาน มาก เกิน ไป สี่ อย่าง สําหรับ ชุด บทความ นี้ เพิ่มวิธีการต่าง ๆ ที่ได้สัมผัสเพื่อครอบคลุมองค์ประกอบข้อมูลทั้งหมดที่เป็นไปได้ของแหล่งข้อมูลสําหรับทุกประเภทแผนภูมิ:
+มีสี่โอเวอร์โหลดที่แตกต่างกันสำหรับวิธีการเพิ่มชุดซึ่งได้สัมผัสกับครอบคลุมทุกสายพันธุ์ที่เ:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertColumnChart2.java" >}}
 
-รหัส ก่อ ให้ เกิด ผล ดัง ต่อ ไป นี้:
+รหัสสร้างผลลัพธ์ต่อไปนี้:
 
 ![column-chart-aspose-words-java-2](/words/java/working-with-charts/working-with-charts-8.png)
 
-### แทรกการแทรก แผนภูมิ
+### แทรกแผนภูมิกระจาย
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกแผนภูมิที่กระจัดกระจาย:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกแผนภูมิกระจาย:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertScatterChart.java" >}}
 
-รหัส ก่อ ให้ เกิด ผล ดัง ต่อ ไป นี้:
+รหัสสร้างผลลัพธ์ต่อไปนี้:
 
 ![scutter-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-9.png)
 
-### แทรกพื้นที่ แผนภูมิ
+### แทรกแผนภูมิพื้นที่
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีแทรกตารางพื้นที่:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกแผนภูมิพื้นที่:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertAreaChart.java" >}}
 
-รหัส ก่อ ให้ เกิด ผล ดัง ต่อ ไป นี้:
+รหัสสร้างผลลัพธ์ต่อไปนี้:
 
 ![area-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-10.png)
 
-### แทรกแผนภูมิ
+### แทรกแผนภูมิฟอง
 
 ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกแผนภูมิฟอง:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertBubbleChart.java" >}}
 
-รหัส ก่อ ให้ เกิด ผล ดัง ต่อ ไป นี้:
+รหัสสร้างผลลัพธ์ต่อไปนี้:
 
 ![bubble-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-11.png)
 
-## ทํางานกับแผนภูมิผ่าน `Shape.Chart` วัตถุ
+## การทำงานกับแผนภูมิผ่าน`Shape.Chart`วัตถุ
 
-เมื่อ มี การ แทรก แผนภูมิ และ บรรจุ ข้อมูล คุณ ก็ สามารถ เปลี่ยน รูป ทรง ได้. [Shape.Chart](https://reference.aspose.com/words/java/com.aspose.words/shape/#getChart) อสังหาริมทรัพย์บรรจุตัวเลือกที่เกี่ยวข้องทั้งหมดผ่านสาธารณะ API.
+เมื่อแผนภูมิถูกแทรกและเต็มไปด้วยข้อมูลที่คุณสามารถที่จะเปลี่ยนรูปลักษณ์ของมัน [Shape.Chart](https://reference.aspose.com/words/java/com.aspose.words/shape/#getChart)สถานที่ให้บริการประกอบด้วยตัวเลือกทั้งหมดที่เกี่ยวข้องกับแผนภูมิที่มีอยู่ผ่านสาธารณะAPI.
 
-ตัวอย่างเช่น, ลองเปลี่ยน พฤติกรรมของแผนภูมิ
+ตัวอย่างเช่นลองเปลี่ยนชื่อแผนภูมิหรือพฤติกรรมตำนาน:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-changeChartAppearanceUsingShapeChartObject.java" >}}
 
@@ -77,129 +77,129 @@ timestamp: 2024-01-27-14-07-04
 
 ![line-chart-aspose-words-java-1](/words/java/working-with-charts/working-with-charts-1.png)
 
-## วิธี ทํา งาน กับ กฎบัตร
+## วิธีการทำงานกับChartSeriesCollectionของแผนภูมิ
 
-ให้ เรา มา พิจารณา กัน [ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/) คอลเลคชั่น ชุดแผนภูมิทั้งหมดมีผ่าน [chart.getSeries()](https://reference.aspose.com/words/java/com.aspose.words/chart/#getSeries) คอลเลกชัน ซึ่งเป็น **Iterable**
+ลองดูใน[ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/)คอลเลกชัน ชุดแผนภูมิทั้งหมดสามารถใช้ได้ผ่านคอลเลกชัน[chart.getSeries()](https://reference.aspose.com/words/java/com.aspose.words/chart/#getSeries)ซึ่งเป็น**Iterable**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithChartSeriesCollectionOfChart-WorkWithChartSeriesCollectionOfChart.java" >}}
 
-คุณ สามารถ ลบ ชุด หนึ่ง ออก ที ละ ชุด หรือ ลบ หมด ทั้ง หมด และ เพิ่ม ชุด ใหม่ ถ้า จําเป็น. แผนภูมิที่ป้อนใหม่มีชุดอนุกรมปริยายที่เพิ่มเข้ามาในคลังภาพนี้ เพื่อลบมัน คุณต้องเรียกว่า **แผนภูมิ. getseries (). ictures** วิธี
+คุณสามารถลบชุดหนึ่งโดยหนึ่งหรือล้างทั้งหมดของพวกเขาเช่นเดียวกับการเพิ่มใหม่ถ้าจ แผนภูมิที่แทรกใหม่มีชุดค่าเริ่มต้นบางส่วนเพิ่มในคอลเล็กชันนี้ ในการลบออกคุณจะต้องเรียกวิธีการ**chart.getSeries().clear()**.
 
-## การ ทํา งาน ร่วม กับ นัก เรียน ใน ชั้น เรียน ที่ มี แผนภูมิ เดี่ยว
+## การทำงานกับชั้นเดียวChartSeries
 
-นี่คือวิธีทํางานกับชุดเฉพาะ
+นี่คือวิธีการทำงานกับชุดโดยเฉพาะอย่างยิ่ง.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-workingWithSingleChartSeries.java" >}}
 
-โปรดดูผลด้านล่างนี้
+โปรดดูผลลัพธ์ด้านล่าง:
 
 ![line-chart-aspose-words-java-2](/words/java/working-with-charts/working-with-charts-2.png)
 
-ซิงเกิลทั้งหมด [ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/) มีค่าปริยาย [ChartDataPoint](https://reference.aspose.com/words/java/com.aspose.words/chartdatapoint/) ตัวเลือก โปรดลองใช้รหัสต่อไปนี้เพื่อเปลี่ยนแปลงมัน:
+ทั้งหมดเดียว[ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/)มีค่าเริ่มต้น[ChartDataPoint](https://reference.aspose.com/words/java/com.aspose.words/chartdatapoint/)ตัวเลือก,โปรดลองใช้รหัสต่อไปนี้เพื่อเปลี่ยนพวกเขา:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-changeDefaultChartDataPointOptions.java" >}}
 
 ![line-chart-aspose-words-java3](/words/java/working-with-charts/working-with-charts-3.png)
 
-## วิธี ทํา งาน กับ กฎ ข้อ บังคับ `ChartSeries`
+## วิธีการทำงานกับเดียวChartDataPointของ`ChartSeries`
 
-ใช้ [ChartDataPoint](https://reference.aspose.com/words/java/com.aspose.words/chartdatapoint/) คุณสามารถกําหนดรูปแบบของจุดข้อมูลเดียวของชุดแผนภูมิ:
+โดยใช้[ChartDataPoint](https://reference.aspose.com/words/java/com.aspose.words/chartdatapoint/)คุณสามารถปรับแต่งการจัดรูปแบบของจุดข้อมูลเดียวของชุดแผนภูมิ:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithSingleChartDataPointOfAChartSeries-WorkWithSingleChartDataPointOfAChartSeries.java" >}}
 
-โปรดดูผลด้านล่างนี้
+โปรดดูผลลัพธ์ด้านล่าง:
 
 ![line-chart-aspose-words-java-4](/words/java/working-with-charts/working-with-charts-4.png)
 
-## วิธี ทํา งาน กับ กฎบัตร
+## วิธีการทำงานกับChartDataLabelของเดียวChartSeries
 
-ใช้ [ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/) คุณสามารถกําหนดการฟอร์แมตป้ายข้อมูลเดียวของชุดตารางได้ เช่น Show/ High MaxKey, หมวดหมู่Name ค่าต่าง ๆ:
+โดยใช้[ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/)คุณสามารถระบุการจัดรูปแบบของฉลากข้อมูลเดียวของชุดแผนภูมิเช่นแสดง/ซ่อนLegendKey, CategoryName, SeriesName, ค่าฯลฯ:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithChartDataLabelOfASingleChartSeries-WorkWithChartDataLabelOfASingleChartSeries.java" >}}
 
-โปรดดูผลด้านล่างนี้
+โปรดดูผลลัพธ์ด้านล่าง:
 
 ![bar-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-5.png)
 
-## จะกําหนดตัวเลือกปริยายสําหรับแผนภูมิ Datatabels of TruarySeries อย่างไร
+## วิธีการกำหนดตัวเลือกเริ่มต้นสำหรับChartDataLabelsของChartSeries
 
-เดอะ [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/) คุณสมบัติของคลาสที่จะใช้ในการตั้งตัวเลือกปริยายสําหรับ **ChartDataLabels** สร้างแผนภูมิ K **Series**. คุณสมบัติเหล่านี้รวมการตั้งค่าของ showCategoryName, ตั้ง SweekBabblesize, ตั้งแสดง Percentage, ตั้งเครื่องหมาย ShowSeriesName, ตั้งค่าการแสดงผล ค่าต่าง ๆ:
+คลาส[ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/)กำหนดคุณสมบัติที่สามารถใช้เพื่อตั้งค่าตัวเลือกเริ่มต้นสำหรับ**ChartDataLabels**สำหรับแผนภูมิ**Series** คุณสมบัติเหล่านี้รวมถึงsetShowCategoryName, setShowBubbleSize, setShowPercentage, setShowSeriesName, setShowValue ฯลฯ:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-DefaultOptionsForDataLabels-DefaultOptionsForDataLabels.java" >}}
 
-โปรดดูผลด้านล่างนี้
+โปรดดูผลลัพธ์ด้านล่าง:
 
 ![pie-chart-aspose-words-java](/words/java/working-with-charts/working-with-charts-6.png)
 
-## วิธีฟอร์แมตป้ายข้อมูลแผนภูมิ
+## วิธีการจัดรูปแบบจำนวนของฉลากข้อมูลแผนภูมิ
 
-ใช้ [NumberFormat](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/#getNumberFormat) คุณสมบัติ, คุณสามารถกําหนดจํานวนการฟอร์แมตของป้ายข้อมูลเดียวของแผนภูมิได้
+การใช้คุณสมบัติ[NumberFormat](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/#getNumberFormat)คุณสามารถระบุการจัดรูปแบบหมายเลขของฉลากข้อมูลเดียวของแผนภูมิ.
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการฟอร์แมตป้ายข้อมูลจํานวนหนึ่ง:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการจัดรูปแบบหมายเลขของป้ายข้อมูล:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartNumberFormat-ChartNumberFormat.java" >}}
 
-## ตั้งค่าคุณสมบัติของแผนภูมิ
+## วิธีการตั้งค่าคุณสมบัติแกนแผนภูมิ
 
-หากคุณต้องการทํางานกับแกนแผนภูมิ การปรับขนาด และหน่วยแสดงสําหรับแกนค่า โปรดใช้ [ChartAxis](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/), [AxisDisplayUnit](https://reference.aspose.com/words/java/com.aspose.words/axisdisplayunit/), ถึง [AxisScaling](https://reference.aspose.com/words/java/com.aspose.words/axisscaling/) ชั้นเรียน
+หากคุณต้องการทำงานกับแกนแผนภูมิการปรับขนาดและหน่วยแสดงผลสำหรับแกนค่าโปรดใช้[ChartAxis](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/),[AxisDisplayUnit](https://reference.aspose.com/words/java/com.aspose.words/axisdisplayunit/)และ[AxisScaling](https://reference.aspose.com/words/java/com.aspose.words/axisscaling/)คลาส.
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีนิยามคุณสมบัติ X และ Y-axis:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการกำหนดคุณสมบัติของแกน:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-DefineXYAxisProperties.java" >}}
 
-### วิธี ตั้ง Dateค่าเวลาของ Axis
+### วิธีการตั้งค่าDateTimeค่าของแกน
 
-ตัวอย่างโค้ดต่อไปนี้ จะแสดงวิธีตั้งค่าวันที่/ เวลา ให้เป็นคุณสมบัติแกน:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการตั้งค่าวันที่/เวลาเป็นคุณสมบัติของแกน:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetDateTimeValuesToAxis.java" >}}
 
-### วิธีฟอร์แมตค่าของ Axis
+### วิธีการจัดรูปแบบจำนวนค่าของแกน
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการเปลี่ยนรูปแบบของตัวเลข บนแกนค่า:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการเปลี่ยนรูปแบบของตัวเลขบนแกนค่า:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetNumberFormatForAxis.java" >}}
 
-### วิธี กําหนด เส้น แบ่ง เขต
+### วิธีการกำหนดขอบเขตของแกน
 
-เดอะ `AxisBound` คลาสแทนค่าแกนที่น้อยที่สุดหรือสูงสุด ขอบเขตสามารถกําหนดเป็นตัวเลข, เวลา, หรือค่าพิเศษ "auto"
+คลาส`AxisBound`แสดงค่าต่ำสุดหรือสูงสุดของค่าแกน ผูกพันสามารถระบุเป็นตัวเลขวันที่เวลาหรือพิเศษ"อัตโนมัติ"ค่า.
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการกําหนดขอบเขตของแกน:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการตั้งค่าขอบเขตของแกน:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetboundsOfAxis.java" >}}
 
-### วิธี ตั้ง หน่วย ระหว่าง เส้น ทาง
+### วิธีการตั้งค่าหน่วยช่วงเวลาระหว่างฉลาก
 
-ตัวอย่างรหัสต่อไปนี้แสดงถึงวิธีการตั้งค่าหน่วยช่วงระหว่างป้ายบนแกน:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการตั้งค่าหน่วยช่วงเวลาระหว่างป้ายชื่อบนแกน:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetIntervalUnitBetweenLabelsOnAxis.java" >}}
 
-### วิธี ซ่อน แผนภูมิ
+### วิธีการซ่อนแกนแผนภูมิ
 
-หากคุณต้องการแสดงหรือซ่อนแกนแผนภูมิ คุณสามารถทําได้โดยตั้งค่าของ `ChartAxis.Hidden` ทรัพย์สิน
+หากคุณต้องการแสดงหรือซ่อนแกนแผนภูมิคุณสามารถทำได้โดยการตั้งค่าของคุณสมบัติ`ChartAxis.Hidden`.
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการซ่อนแกน Y ของแผนภูมิ:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการซ่อนแกนของแผนภูมิ:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-HideChartAxis.java" >}}
 
-### วิธี จัด แถบ แผนภูมิ
+### วิธีการจัดแนวป้ายชื่อแผนภูมิ
 
-หากคุณต้องการตั้งค่าการจัดวางข้อความสําหรับป้ายหลายบรรทัด คุณสามารถทําได้โดยตั้งค่าค่าของ [setTickLabelAlignment()](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/#setTickLabelAlignment-int) ทรัพย์สิน
+หากคุณต้องการตั้งค่าการจัดตำแหน่งข้อความสำหรับป้ายชื่อหลายบรรทัด คุณสามารถทำได้ง่ายๆ โดยตั้งค่าคุณสมบัติ [setTickLabelAlignment()](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/#setTickLabelAlignment-int).
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีการจัดตําแหน่งป้าย:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการติ๊กการจัดตำแหน่งป้ายกำกับ:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.java" >}}
 
 {{% alert color="primary" %}}
 
-Microsoft Word จัดลําดับ แถบกํากับแผนภูมิไปยังศูนย์กลางโดยปริยาย
+Microsoft Wordจัดแนวป้ายกำกับแผนภูมิให้ตรงกลางตามค่าเริ่มต้น.
 
 {{% /alert %}}
 
-## วิธีตั้งรูปแบบการเติมและปรับขนาดภาพ
+## วิธีการตั้งค่าการกรอกข้อมูลและการจัดรูปแบบจังหวะ
 
-การ แต่ง ตัว ให้ เข้า กับ รูป แบบ เส้น เลือด ในการทําสิ่งนี้, คุณต้องใช้สมบัติ `ChartFormat` พิมพ์ในชาร์ตเซรีส์, แผนภูมิ Datata Point, และคลาสเขียนแผนภูมิ, รวมไปถึงชื่อสําหรับคุณสมบัติบางอย่าง เช่น Fore Color, back Color, seign, and cluper in `Stroke` ชั้นเรียน.
+กรอกข้อมูลและการจัดรูปแบบจังหวะสามารถตั้งค่าสำหรับชุดแผนภูมิจุดข้อมูลและเครื่องห ในการทำเช่นนี้คุณต้องใช้คุณสมบัติของ`ChartFormat`ชนิดในชั้นเรียนChartSeries,ChartDataPointและChartMarkerรวมทั้งนามแฝงสำหรับคุณสมบัติบางอย่างเช่นForeColor,BackColor,ที่มองเห็นได้และความโปร่งใสในชั้นเรียน`Stroke`.
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีตั้งค่าลําดับสี:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการตั้งค่าสีชุด:
 
 {{< highlight csharp >}}
 Document doc = new Document();
@@ -229,7 +229,7 @@ series3.Format.Fill.ForeColor = Color.Blue;
 doc.Save("ColumnColor.docx");
 {{< /highlight >}}
 
-ตัวอย่างรหัสต่อไปนี้แสดงถึงวิธีการตั้งค่าสีเส้นและน้ําหนัก:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการตั้งค่าสีและน้ำหนัก:
 
 {{< highlight csharp >}}
 Document doc = new Document();

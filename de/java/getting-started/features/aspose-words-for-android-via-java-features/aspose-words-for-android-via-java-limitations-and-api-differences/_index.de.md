@@ -1,89 +1,89 @@
----
+﻿---
 title: Android über Java Unterschiede
 second_title: Aspose.Words
 articleTitle: Aspose.Words für Android über Java Einschränkungen und API Unterschiede
 linktitle: Aspose.Words für Android über Java Einschränkungen und API Unterschiede
-description: "Aspose.Words für Android über Java Merkmale und API Unterschiede im Vergleich zu regulären Aspose.Words für Java Version."
+description: "Aspose.Words für Android über Java Funktionen und API Unterschiede im Vergleich zur regulären Aspose.Words für Java Version."
 type: docs
 weight: 50
 url: /de/java/aspose-words-for-android-via-java-limitations-and-api-differences/
 timestamp: 2024-01-27-14-07-04
 ---
 
-## Einschränkungen Aspose.Words für Android über Java API im Vergleich zu Aspose.Words für Java API
+## Einschränkungen von Aspose.Words für Android über Java API im Vergleich zu Aspose.Words für Java API
 
-ANHANG *Document.print *Methoden sind nicht verfügbar.
-ANHANG Sparen in **TIFF** und **BMP** Formate werden nicht unterstützt, obwohl *SaveFormat.TIFF* und *SaveFormat.BMP* sind öffentlich zugänglich Aspose.Words für Android über Java API, aber *UnsupportedOperationException* wird geworfen, wenn diese Speicherformate verwendet werden.
-ANHANG Lesung **TIFF** Bilder werden nicht unterstützt.
-ANHANG Unterzeichnung **ODT** Dokumente werden noch nicht unterstützt.
-ANHANG Barcodes werden nicht unterstützt.
-ANHANG Gradienten entlang einer Kurve werden nicht unterstützt
-ANHANG Drucken wird nicht unterstützt
+1. *Document.print *Methoden sind nicht verfügbar.
+1. Das Speichern in den Formaten **TIFF** und **BMP** wird nicht unterstützt, obwohl *SaveFormat.TIFF* und *SaveFormat.BMP* in public Aspose.Words für Android über Java API verfügbar sind, aber *UnsupportedOperationException* wird ausgelöst, wenn diese Speicherformate werden verwendet.
+1. Das Lesen von **TIFF**-Bildern wird nicht unterstützt.
+1. Das Signieren von **ODT**-Dokumenten wird noch nicht unterstützt.
+1. Barcodes werden nicht unterstützt.
+1. Verläufe entlang einer Kurve werden nicht unterstützt
+1. Drucken wird nicht unterstützt
 
 ## Öffentliche API Unterschiede
 
-- android.graphics. Bitmap wird anstelle von java.awt.image verwendet.Buffered Bild;
-- android.graphics. Leinwand wird anstelle von java.awt.image.Graphics2D verwendet;
-- android.graphics. Einnahmen F wird anstelle von java.awt.geom.Rectangle2D verwendet. Float;
-- android.graphics.Point F wird anstelle von java.awt.geom.Point2D verwendet. Float;
-- android.graphics. Rect wird anstelle von java.awt verwendet. Rechteck;
-- android.graphics. Point wird anstelle von java.awt verwendet. Punkt.
+- Android.Grafik.Bitmap wird anstelle von Java verwendet.ahhh.Bild.BufferedImage;
+- Android.Grafik.Canvas wird anstelle von Java verwendet.ahhh.Bild.GRAFIK2D;
+- Android.Grafik.RectF wird anstelle von Java verwendet.ahhh.geom.RECHTECK2D.Float;
+- Android.Grafik.PointF wird anstelle von Java verwendet.ahhh.geom.Punkt2D.Float;
+- Android.Grafik.Rect wird anstelle von Java verwendet.ahhh.Rechteck;
+- Android.Grafik.Point wird anstelle von Java verwendet.ahhh.Punkt.
 
-Siehe die folgende Veröffentlichung API Methoden:
+Siehe die folgenden öffentlichen API -Methoden:
 
-ANHANG com.aspose.words.DocumentBuilder:
-   1. InsertImage(Bitmap)
-   1. InsertImage(Bitmap, doppelt, doppelt)
-   1. insertImage(Bitmap, int, doppel, int, doppel, doppel, doppel, int)
-   1. InsertOleImage(Bitmap)
-   1. InsertOleObject(InputStream, String, boolean, Bitmap)
-   1. InsertOleObject(String, boolean, boolean, Bitmap)
-   1. InsertOleObject(String, String, boolean, boolean, Bitmap)
-ANHANG com.aspose.words.IBarcodeGenerator:
-   1. Bitmap getBarcode Bild (BarcodeParameter)
-   1. Bitmap getOldBarcode Bild (BarcodeParameter)
-ANHANG com.aspose.words.ImageData:
+1. kom.posieren.Wort.DocumentBuilder:
+   1. insertImage(Bitmap)
+   1. insertImage (Bitmap, doppelt, doppelt)
+   1. insertImage(Bitmap, int, doppelt, int, doppelt, doppelt, doppelt, int)
+   1. insertOleImage(Bitmap)
+   1. insertOleObject(InputStream, Zeichenfolge, boolescher Wert, Bitmap)
+   1. insertOleObject (Zeichenfolge, boolescher Wert, Boolescher Wert, Bitmap)
+   1. insertOleObject(Zeichenfolge, Zeichenfolge, boolescher Wert, boolescher Wert, Bitmap)
+1. kom.posieren.Wort.IBarcodeGenerator:
+   1. Bitmap getBarcodeImage(BarcodeParameters)
+   1. Bitmap getOldBarcodeImage(BarcodeParameters)
+1. kom.posieren.Wort.ImageData:
    1. setImage(Bitmap)
    1. Bitmap toImage()
-ANHANG com.aspose.words.ImageFieldMergingArgs:
+1. kom.posieren.Wort.ImageFieldMergingArgs:
    1. Bitmap getImage()
    1. setImage(Bitmap)
-1. com.aspose.words.Document:
-   1. android.graphics.Point F renderToScale(int, Leinwand, Schwimmer, Schwimmer) wirft Ausnahme
-   1. Float RenderToSize(int, Leinwand, Schwimmer, Schwimmer, Schwimmer) wirft Ausnahme
-ANHANG com.aspose.words.LayoutEnumerator:
-   1. android.graphics. RectF getRectangle() wirft Ausnahme
-ANHANG com.aspose.words.NodeRendererBase:
-   1. android.graphics.PointF getSizeInPoints()
-   1. android.graphics. RectF getOpaqueBoundsInPoints()
-   1. public android.graphics.PointF getSizeInPixels(float, float)
-   1. android.graphics. Rect getBoundsInPixels(float, float)
-   1. android.graphics. Rect getOpaqueBoundsInPixels(float, float)
-   1. android.graphics.Point F renderToScale(Kanvas, Schwimmer, Schwimmer)
-   1. Float RenderToSize(Kanvas, Schwimmer, Schwimmer, Schwimmer)
-ANHANG com.aspose.words.PageInfo:
-   1. android.graphics.PointF getSizeInPixels(float, float)
-   1. android.graphics.PointF getSizeInPoints()
-1. com.aspose.words. Form Basis:
-   1. android.graphics. RectF-Anpassung mitEffekten(android.graphics.RectF)
-   1. android.graphics. RectF getBounds()
-   1. android.graphics. RectF getBoundsInPoints()
-   1. android.graphics. RectF getBoundsWithEffekte()
-   1. android.graphics. Point getCoordOrigin()
-   1. android.graphics.PointF getCoordSize()
-   1. android.graphics.PointF getSizeInPoints()
-   1. android.graphics.PointF localToParent(android.graphics.PointF)
-   1. setBounds(android.graphics.RectF)
-   1. setCoordOrigin(android.graphics.Point)
-   1. setCoordSize(android.graphics.PointF)
-ANHANG com.aspose.words.ThumbnailGeneratingOptionen:
-   1. android.graphics.PointF getThumbnailSize()
-   1. setThumbnailSize(android.graphics.PointF)
+1. kom.posieren.Wort.Dokument:
+   1. Android.Grafik.PointF renderToScale (int, Canvas, float, float, float) löst eine Ausnahme aus
+   1. float renderToSize (int, Leinwand, float, float, float, float) löst eine Ausnahme aus
+1. kom.posieren.Wort.LayoutEnumerator:
+   1. Android.Grafik.RectF getRectangle () löst eine Ausnahme aus
+1. kom.posieren.Wort.NodeRendererBase:
+   1. Android.Grafik.PointF getSizeInPoints()
+   1. Android.Grafik.RectF getOpaqueBoundsInPoints()
+   1. öffentliches Android.Grafik.PointF getSizeInPixels(schweben, schweben)
+   1. Android.Grafik.Rect getBoundsInPixels (schweben, schweben)
+   1. Android.Grafik.Rect getOpaqueBoundsInPixels (schweben, schweben)
+   1. Android.Grafik.PointF renderToScale (Leinwand, schweben, schweben, schweben)
+   1. float renderToSize (Leinwand, schweben, schweben, schweben, schweben)
+1. kom.posieren.Wort.PageInfo:
+   1. Android.Grafik.PointF getSizeInPixels(schweben, schweben)
+   1. Android.Grafik.PointF getSizeInPoints()
+1. kom.posieren.Wort.ShapeBase:
+   1. Android.Grafik.RectF adjustWithEffects(android.Grafik.RectF)
+   1. Android.Grafik.RectF getBounds()
+   1. Android.Grafik.RectF getBoundsInPoints()
+   1. Android.Grafik.RectF getBoundsWithEffects()
+   1. Android.Grafik.Punkt getCoordOrigin()
+   1. Android.Grafik.PointF getCoordSize()
+   1. Android.Grafik.PointF getSizeInPoints()
+   1. Android.Grafik.PointF localToParent(android.Grafik.PunktF)
+   1. setBounds(android.Grafik.RectF)
+   1. setCoordOrigin(android.Grafik.Punkt)
+   1. setCoordSize(android.Grafik.PunktF)
+1. kom.posieren.Wort.ThumbnailGeneratingOptions:
+   1. Android.Grafik.PointF getThumbnailSize()
+   1. setThumbnailSize(android.Grafik.PunktF)
 
 ## Aspose.Words für Android über Java zusätzliche Anforderungen
 
-Um die dosierte Lizenzierungsfunktion zu nutzen und Dokumente oder Bilder von http/ftp-Protokollen zu laden, sollten die Benutzer die folgende Berechtigung zu ihren Anwendungen hinzufügen
-*<uses-permission android:name="android.permission.INTERNET" />*
+Um die Funktion für die dosierte Lizenzierung zu verwenden und Dokumente oder Bilder über http / FTP-Protokolle zu laden, sollten Benutzer ihren Anwendungen die folgende Berechtigung hinzufügen
+`<uses-permission android:name="android.permission.INTERNET" />`
 
 ## Öffentliche API Beispiele
 

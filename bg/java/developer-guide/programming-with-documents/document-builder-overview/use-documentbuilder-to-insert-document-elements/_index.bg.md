@@ -1,8 +1,8 @@
 ---
-title: Използване `DocumentBuilder` Вмъкване на елементи на документа
+title: Използване DocumentBuilder Вмъкване на елементи на документа
 second_title: Aspose.Words вместо Java
-articleTitle: Използване `DocumentBuilder` Вмъкване на елементи на документа
-linktitle: Използване `DocumentBuilder` Вмъкване на елементи на документа
+articleTitle: Използване DocumentBuilder Вмъкване на елементи на документа
+linktitle: Използване DocumentBuilder Вмъкване на елементи на документа
 type: docs
 description: "Вмъкване на елементи на документа с помощта на създателя на документа в Java."
 weight: 10

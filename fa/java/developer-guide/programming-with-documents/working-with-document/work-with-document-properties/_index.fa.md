@@ -1,81 +1,81 @@
----
-title: کار با Document Properties در Java
+﻿---
+title: کار با ویژگی های سند در Java
 second_title: Aspose.Words برای Java
-articleTitle: کار با Document Properties
-linktitle: کار با Document Properties
-description: "Aspose.Words برای Java اجازه می دهد تا برخی از اطلاعات مفید را در مورد سند خود ذخیره کنید، مانند API نسخه شماره یا مجاز Date, در خواص سند داخلی یا سفارشی"
+articleTitle: کار با ویژگی های سند
+linktitle: کار با ویژگی های سند
+description: "Aspose.Words برای Java اجازه می دهد تا برخی از اطلاعات مفید در مورد سند شما، مانند API و شماره نسخه یا تاریخ مجاز، در ویژگی های سند داخلی یا سفارشی ذخیره شود."
 type: docs
 weight: 10
 url: /fa/java/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---
 
-ویژگی های سند اجازه می دهد تا برخی از اطلاعات مفید را در مورد سند خود ذخیره کنید. این خواص را می توان به دو گروه تقسیم کرد:
+ویژگی های سند اجازه ذخیره اطلاعات مفید در مورد سند شما را می دهد. این خواص را می توان به دو گروه تقسیم کرد:
 
-* • سیستم یا داخلی که حاوی مقادیری مانند عنوان سند، نام نویسنده، آمار سند و دیگران است.
-* تعریف کاربر یا سفارشی، به عنوان جفت ارزش نام ارائه شده است که کاربر می تواند هر دو نام و ارزش را تعریف کند.
+* سیستم یا داخلی که شامل مقادیر مانند عنوان سند، نام نویسنده، آمار سند و دیگران است.
+* تعریف شده توسط کاربر یا سفارشی، به عنوان جفت نام و ارزش ارائه شده است که در آن کاربر می تواند نام و ارزش را تعریف کند.
 
-مفید است بدانید که اطلاعات در مورد API نسخه شماره به طور مستقیم به اسناد خروجی نوشته شده است. به عنوان مثال، پس از تبدیل یک سند به PDF، Aspose.Words پر کردن در زمینه "درخواست" با "Aspose.Words" و زمینه "تولید کننده" با "Aspose.Words برای Java YY.M.N، جایی که *YY.M.N* نسخه ای از Aspose.Words برای تبدیل استفاده می شود. برای جزئیات بیشتر، ببینید [ژنراتور یا نام تولید کننده شامل اسناد خروجی](/words/fa/java/generator-or-producer-name-included-in-output-documents/)...
+مفید است بدانید که اطلاعات مربوط به API و شماره نسخه به طور مستقیم به اسناد خروجی نوشته شده است. به عنوان مثال، پس از تبدیل یک سند به PDF، Aspose.Words فیلد "Application" را با "Aspose.Words" و فیلد "PDF Producer" را با "Aspose.Words برای Java YY پر می کند.M. N "، که در آن *YY.M.N* نسخه Aspose.Words برای تبدیل استفاده می شود. برای جزئیات بیشتر، به [نام ژنراتور یا تولید کننده در اسناد خروجی گنجانده شده است](/words/java/generator-or-producer-name-included-in-output-documents/).
 
 {{% alert color="primary" %}}
 
-توجه داشته باشید که **نمی تواند مستقیم** Aspose.Words تغییر یا حذف این اطلاعات از اسناد خروجی
+توجه داشته باشید که شما **cannot direct** Aspose.Words برای تغییر یا حذف این اطلاعات از اسناد خروجی.
 
 {{% /alert %}}
 
-## Access Document Properties
+## ویژگی های سند دسترسی
 
-برای دسترسی به خواص سند در Aspose.Words استفاده:
+برای دسترسی به ویژگی های سند در Aspose.Words استفاده کنید:
 
-* [BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/document/#getBuiltInDocumentProperties) برای به دست آوردن خواص داخلی
+* [BuiltInDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/document/#getBuiltInDocumentProperties) برای بدست آوردن املاک داخلی.
 
-* [CustomDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/document/#getCustomDocumentProperties) برای به دست آوردن خواص سفارشی.
+* [CustomDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/document/#getCustomDocumentProperties) برای بدست آوردن ویژگی های سفارشی.
 
-**BuiltInDocumentProperties** و **CustomDocumentProperties** مجموعه هایی از [DocumentProperty](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/) اشیاء این اشیاء را می توان از طریق مالکیت شاخص توسط نام یا با شاخص به دست آورد.
+**BuiltInDocumentProperties**
 
-**BuiltInDocumentProperties** همچنین دسترسی به ویژگی های سند را از طریق مجموعه ای از املاک وارد شده که ارزش های بازگشت نوع مناسب را فراهم می کند. **CustomDocumentProperties** شما را قادر می سازد تا ویژگی های سند را از یک سند اضافه یا حذف کنید.
+**BuiltInDocumentProperties**
 
-The The The The The The [DocumentProperty](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/) کلاس به شما اجازه می دهد تا نام، ارزش و نوع یک ملک سند را دریافت کنید. [MPEG)https://reference.aspose.com/word/java/com.aspose.word/documentproperty# دانلود موسیقی متن فیلم Punch Punch Punch Punch Punch Punch Punch Punch Punch Punch Punch Punch Punch Punch Punch Punch Punch Punch Punch Punch Punch GTS Punch Punch Punch Punch، Ricoh Punch GTS {0} دانلود موسیقی متن بازی The Punch بازی Punch Punch {1}دانلود موسیقی متن فیلم Punch Punch Punch Punch Punch Punch Punch The Punch](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toString) و **DocumentProperty.**[ToInt](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toInt), برای به دست آوردن ارزش نوع مناسب.
+کلاس [DocumentProperty](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/) به شما اجازه می دهد تا نام، ارزش و نوع یک ویژگی سند را بدست آورید. [ارزش]https://reference.aspose.com/words/java/com.aspose.words/documentproperty#Value) یک شی را باز می گرداند، اما مجموعه ای از روش ها وجود دارد که به شما اجازه می دهد ارزش خاصیت را به یک نوع خاص تبدیل کنید. پس از اینکه با نوع خاصیت آشنا شدید، می توانید از یکی از روش های **DocumentProperty.ToXXX** مانند **DocumentProperty.**[ToStringاستفاده کنید](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toString) و **DocumentProperty.** [ToInt](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toInt)، برای به دست آوردن ارزش نوع مناسب.
 
-مثال کد زیر نشان می دهد که چگونه تمام خواص ساخته شده و سفارشی را در یک سند خلاصه کنیم:
+مثال کد زیر نشان می دهد که چگونه تمام ویژگی های داخلی و سفارشی را در یک سند فهرست کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocProperties-EnumerateProperties.java" >}}
 
 {{% alert color="primary" %}}
 
-شما می توانید فایل قالب این مثال را دانلود کنید. [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Properties.docx)...
+شما می توانید فایل قالب این مثال را از [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Properties.docx).
 
 {{% /alert %}}
 
-In In In Microsoft Word, شما می توانید با استفاده از منوی "File → Properties" به خواص سند دسترسی پیدا کنید.
+در Microsoft Word، می توانید با استفاده از منوی "File → Properties" به ویژگی های سند دسترسی پیدا کنید.
 
 <img src="/words/java/work-with-document-properties/work-with-document-properties-1.png" alt="work-with-document-properties-aspose-words-java.png" style="width:400px"/>
 
-## Add or Remove Document Properties
+## اضافه کردن یا حذف ویژگی های سند
 
-شما نمی توانید خواص سند داخلی را با استفاده از آن اضافه یا حذف کنید. Aspose.Words... شما فقط می توانید ارزش های خود را تغییر دهید یا به روز کنید.
+شما نمی توانید ویژگی های سند داخلی را با استفاده از Aspose.Words اضافه یا حذف کنید. شما فقط می توانید ارزش های خود را تغییر دهید یا به روز کنید.
 
-اضافه کردن ویژگی های سند سفارشی با Aspose.Words, استفاده از [Add](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#add-java.lang.String-boolean) روش، انتقال نام ملک جدید و ارزش نوع مناسب. این روش جدید را باز می گرداند **DocumentProperty** جسم
+برای اضافه کردن ویژگی های سند سفارشی با Aspose.Words، از روش [Add](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#add-java.lang.String-boolean) استفاده کنید، نام خاصیت جدید و ارزش نوع مناسب را منتقل کنید. روش شیء **DocumentProperty** تازه ایجاد شده را باز می گرداند.
 
-برای حذف خواص سفارشی، استفاده از [Remove](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#remove-java.lang.String) روش، عبور از آن نام ملک برای حذف یا [RemoveAt](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#removeAt-int) روش حذف ملک توسط index شما همچنین می توانید تمام خواص را با استفاده از [Clear](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#clear) روش
+برای حذف ویژگی های سفارشی، از روش [Remove](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#remove-java.lang.String) استفاده کنید، نام ویژگی را برای حذف به آن منتقل کنید، یا روش [RemoveAt](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#removeAt-int) برای حذف ویژگی با شاخص. شما همچنین می توانید تمام ویژگی ها را با استفاده از روش [Clear](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#clear) حذف کنید.
 
-مثال کد زیر بررسی می کند که آیا یک ملک سفارشی با یک نام خاص در یک سند وجود دارد و چند ویژگی سند سفارشی دیگر اضافه می کند:
+مثال کد زیر بررسی می کند که آیا یک ویژگی سفارشی با نام داده شده در یک سند وجود دارد و چند ویژگی سند سفارشی دیگر را اضافه می کند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocProperties-CustomAdd.java" >}}
 
 {{% alert color="primary" %}}
 
-شما می توانید فایل قالب این مثال را دانلود کنید. [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Properties.docx)...
+شما می توانید فایل قالب این مثال را از [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Properties.docx).
 
 {{% /alert %}}
 
-مثال کد زیر نشان می دهد که چگونه یک ملک سند سفارشی را حذف کنیم:
+مثال کد زیر نشان می دهد که چگونه یک ویژگی سند سفارشی را حذف کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocProperties-CustomRemove.java" >}}
 
-## به روز رسانی Built-In Document Properties
+## ویژگی های سند داخلی را به روز کنید
 
-Aspose.Words به طور خودکار اسناد را به روز نمی کند، همانطور که Microsoft Word با برخی از خواص، اما یک روش برای به روز رسانی برخی از ویژگی های سند ساخت و ساز آماری فراهم می کند. Call The Call [UpdateWordCount](https://reference.aspose.com/words/java/com.aspose.words/document/#updateWordCount) روش محاسبه مجدد و به روز رسانی خواص زیر:
+Aspose.Words به طور خودکار ویژگی های سند را به روز نمی کند، همانطور که Microsoft Word با برخی از ویژگی ها انجام می دهد، اما روشی را برای به روز رسانی برخی از ویژگی های سند داخلی آماری فراهم می کند. برای محاسبه مجدد و به روز رسانی ویژگی های زیر، روش [UpdateWordCount](https://reference.aspose.com/words/java/com.aspose.words/document/#updateWordCount) را فراخوانی کنید:
 
 * [Characters](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties#Characters)
 * [CharactersWithSpaces](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties#CharactersWithSpaces)
@@ -83,34 +83,34 @@ Aspose.Words به طور خودکار اسناد را به روز نمی کند�
 * [Paragraphs](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties#Paragraphs)
 * [Lines](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties#Lines)
 
-## ایجاد یک مالکیت سفارشی جدید متصل به محتوا
+## ایجاد یک ویژگی سفارشی جدید مرتبط با محتوا
 
-Aspose.Words فراهم می کند [AddLinkToContent](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#addLinkToContent-java.lang.String-java.lang.String) روش ایجاد یک ویژگی سند سفارشی جدید مرتبط با محتوا این اموال به جسم تازه ایجاد شده و یا باطل بازمی گردد اگر [LinkSource](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#isLinkToContent) بی اعتبار است.
+Aspose.Words روش [AddLinkToContent](https://reference.aspose.com/words/java/com.aspose.words/customdocumentproperties/#addLinkToContent-java.lang.String-java.lang.String) را برای ایجاد یک ویژگی سند سفارشی جدید مرتبط با محتوا فراهم می کند. این خاصیت اگر [LinkSource](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#isLinkToContent) نامعتبر باشد، شیء خاصیت جدید ایجاد شده یا null را باز می گرداند.
 
-مثال کد زیر نشان می دهد که چگونه یک لینک را به یک ملک سفارشی پیکربندی کنید:
+مثال کد زیر نشان می دهد که چگونه یک لینک به یک ویژگی سفارشی را پیکربندی کنید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocProperties-ConfiguringLinkToContent.java" >}}
 
-## دانلود بازی Get Document Variables
+## متغیرهای سند را دریافت کنید
 
-شما می توانید مجموعه ای از متغیرهای سند را با استفاده از [Variables](https://reference.aspose.com/words/java/com.aspose.words/document/#getVariables) مالکیت نام ها و ارزش های متغیر رشته هستند.
+شما می توانید مجموعه ای از متغیرهای سند را با استفاده از ویژگی [Variables](https://reference.aspose.com/words/java/com.aspose.words/document/#getVariables) دریافت کنید. نام ها و مقادیر متغیر رشته ها هستند.
 
-مثال کد زیر نشان می دهد که چگونه متغیرهای سند را تنظیم کنیم:
+مثال کد زیر نشان می دهد که چگونه متغیرهای سند را شمارش کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-GetDocumentVariables-GetDocumentVariables.java" >}}
 
 {{% alert color="primary" %}}
 
-شما می توانید فایل قالب این مثال را دانلود کنید. [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Properties.docx)...
+شما می توانید فایل قالب این مثال را از [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Properties.docx).
 
 {{% /alert %}}
 
 ## حذف اطلاعات شخصی از سند
 
-اگر می خواهید یک سند Word را با دیگران به اشتراک بگذارید، ممکن است بخواهید اطلاعات شخصی مانند نام نویسنده و شرکت را حذف کنید. برای انجام این کار، [RemovePersonalInformation](https://reference.aspose.com/words/java/com.aspose.words/document/#getRemovePersonalInformation) اموال برای تعیین پرچم نشان می دهد که Microsoft Word تمام اطلاعات کاربر را از نظرات، تجدید نظر و ویژگی های سند پس از صرفه جویی در سند حذف خواهد کرد.
+اگر می خواهید یک سند Word را با افراد دیگر به اشتراک بگذارید، ممکن است بخواهید اطلاعات شخصی مانند نام نویسنده و شرکت را حذف کنید. برای انجام این کار از ویژگی [RemovePersonalInformation](https://reference.aspose.com/words/java/com.aspose.words/document/#getRemovePersonalInformation) برای تنظیم پرچم استفاده کنید که نشان می دهد Microsoft Word تمام اطلاعات کاربر را از نظرات، بازبینی ها و ویژگی های سند پس از ذخیره سند حذف می کند.
 
 {{% alert color="primary" %}}
 
-تنظیم این گزینه در واقع اطلاعات شخصی را حذف نمی کند در حالی که پردازش یک سند در Aspose.Words و تنها بر Microsoft Word رفتار
+تنظیم این گزینه در واقع اطلاعات شخصی را هنگام پردازش یک سند در Aspose.Words حذف نمی کند و فقط بر رفتار Microsoft Word تأثیر می گذارد.
 
 {{% /alert %}}

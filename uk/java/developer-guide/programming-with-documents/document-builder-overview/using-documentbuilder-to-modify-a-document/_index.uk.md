@@ -1,8 +1,8 @@
 ---
-title: Використання `DocumentBuilder` Модифікувати документ
+title: Використання DocumentBuilder Модифікувати документ
 second_title: Aspose.Words для Java
-articleTitle: Використання `DocumentBuilder` Модифікувати документ
-linktitle: Використання `DocumentBuilder` Модифікувати документ
+articleTitle: Використання DocumentBuilder Модифікувати документ
+linktitle: Використання DocumentBuilder Модифікувати документ
 type: docs
 description: "Використовуйте конструктор документів, щоб легко змінювати документ у Javaй"
 weight: 20

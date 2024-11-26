@@ -1,126 +1,126 @@
----
-title: ドキュメントを分割する Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: ドキュメントを分割する
-linktitle: ドキュメントを分割する
-description: "Aspose.Words お問い合わせ Java 見出しやセクション、ページやページ範囲で複数の文書に1つの文書を分割する効率的な方法を提供します。"
+﻿---
+title: Javaで文書を分割する
+second_title: Aspose.WordsのためのJava
+articleTitle: 文書を分割する
+linktitle: 文書を分割する
+description: "Aspose.WordsforJavaは、見出しやセクション、ページやページ範囲によって、一つの文書を複数の文書に分割する効率的な方法を提供します。"
 type: docs
 weight: 90
 url: /ja/java/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-*Splitting* または *split ドキュメント* は、大きなドキュメントをより小さなファイル数に分割するプロセスです。 ファイルの分割には様々な理由があります。 たとえば、特定のドキュメントから特定のページしか必要ありません。 またはプライバシーの理由から、他の人と文書の一部だけを共有したいです。 スプリット機能を使用すると、ドキュメントの必要な部分だけを取得し、マークアップ、保存、または送信するために必要なアクションを行うことができます。
+*Splitting*または*split a document*は、大きな文書をより多くの小さなファイルに分割するプロセスです。 ファイルを分割するにはさまざまな理由があります。 たとえば、特定の文書の一部のページのみが必要であり、全体のページは必要ありません。 または、プライバシー上の理由から、ドキュメントの一部のみを他の人と共有したいと考えています。 分割機能を使用すると、ドキュメントの必要な部分のみを取得し、マークアップ、保存、送信などの必要なアクションを実行できます。
 
-Aspose.Words 見出しやセクションで複数の文書に1つの文書を分割するための効率的な方法を提供します。 ページやページ範囲でドキュメントを分割することもできます。 この記事では、両方の分割オプションについて説明します。
+Aspose.Wordsは、見出しまたはセクションによって一つの文書を複数の文書に分割する効率的な方法を提供します。 文書をページまたはページ範囲で分割することもできます。 両方の分割オプションについては、この記事で説明します。
 
-ドキュメントを小さなファイルへ分割する Aspose.Words, これらの手順に従う必要があります。
+Aspose.Wordsを使用して文書を小さなファイルに分割するには、次の手順を実行する必要があります:
 
-1。 サポートされている形式で文書をロードします。
-1。 ドキュメントを分割します。
-1。 出力文書を保存します。
+1. サポートされている任意の形式で文書をロードします。
+1. 文書を分割します。
+1. 出力文書を保存します。
 
-ドキュメントを分割した後、必要なページ、テキストなどから始まるすべての出力文書を開くことができます。
+文書を分割した後、必要なページ、テキストなどで始まるすべての出力文書を開くことができます。
 
 {{% alert color="primary" %}}
 
 **オンラインで試す**
 
-この機能を試してみる [無料のオンライン文書スプリッタ](https://products.aspose.app/words/splitter)お問い合わせ
+あなたは私たちのこの機能を試すことができます [無料オンラインドキュメントスプリッタ](https://products.aspose.app/words/splitter).
 
 {{% /alert %}}
 
-## 異なる基準を使用して文書を分割する {#split-a-document-using-different-criteria}
+## 異なる条件 {#split-a-document-using-different-criteria}を使用して文書を分割する
 
-Aspose.Words EPUBやHTML文書を様々な条件に応じて分割することができます。 プロセスでは、ソース文書のスタイルとレイアウトは、出力文書に保存されます。
+Aspose.Wordsを使用すると、さまざまな基準に従ってEPUBまたはHTML文書をチャプターに分割できます。 このプロセスでは、ソース文書のスタイルとレイアウトが出力文書のために保持されます。
 
-条件を指定して指定できます。 [DocumentSplitCriteria](https://reference.aspose.com/words/java/com.aspose.words/documentsplitcriteria/) パンフレット そのため、次の基準のいずれかを使用して、文書を章に分割するか、複数の基準を組み合わせることができます。
+[DocumentSplitCriteria](https://reference.aspose.com/words/java/com.aspose.words/documentsplitcriteria/)列挙体を使用して条件を指定できます。 したがって、次のいずれかの基準を使用してドキュメントを章に分割したり、複数の基準を組み合わせたりすることができます:
 
 - 見出し段落,
--セクション壊れ目、
-- コラムの壊れ目,
-- ページ分割。
+- セクションブレーク,
+- コラムブレーク,
+- 改ページ。
 
-出力をHTMLに保存するとき、 Aspose.Words 個々の章を別のHTMLファイルとして保存します。 その結果、ドキュメントは複数のHTMLファイルに分割されます。 出力をEPUBに保存するとき、 Aspose.Words 結果を単一のEPUBファイルに保存します。 `DocumentSplitCriteria` 使用する値。 そのため、EPUB ドキュメントの DocumentSplitCriteria を使用して、読者アプリケーション内のコンテンツの外観にのみ影響します。コンテンツは章に分割され、ドキュメントは連続表示されません。
+出力をHTMLに保存する場合、Aspose.Wordsは個々のチャプターを個別のHTMLファイルとして保存します。 その結果、文書は複数のHTMLファイルに分割されます。 出力をEPUBに保存する場合、Aspose.Wordsは、使用した`DocumentSplitCriteria`値に関係なく、単一のEPUBファイルに結果を保存します。 したがって、EPUBドキュメントにDocumentSplitCriteriaを使用すると、リーダーアプリケーションでのコンテンツの外観にのみ影響します。
 
 {{% alert color="primary" %}}
 
-ドキュメントを分割することはできません。 [DocumentSplitCriteria](https://reference.aspose.com/words/java/com.aspose.words/documentsplitcriteria/) MHTMLフォーマットに保存する際のプロパティ。
+MHTML形式で保存する場合、[DocumentSplitCriteria](https://reference.aspose.com/words/java/com.aspose.words/documentsplitcriteria/)プロパティを使用して文書を分割することはできません。
 
 {{% /alert %}}
 
-このセクションでは、可能な分割条件の一部だけを検討しています。
+このセクションでは、可能な分割基準の一部のみを検討します。
 
-### 見出しで文書を分割 {#split-a-document-by-headings}
+### 見出し {#split-a-document-by-headings}で文書を分割する
 
-見出しで文書をチャプターに分割するには、 **HeadingParagraph** 値の **DocumentSplitCriteria** プロパティ.
+見出しで文書を章に分割するには、**DocumentSplitCriteria**プロパティの**HeadingParagraph**値を使用します。
 
-見出し1、2、3などの特定のレベルの見出し段落で文書を分割する必要がある場合は、また使用してください [DocumentSplitHeadingLevel](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getDocumentSplitHeadingLevel) 宿泊施設 出力は、指定された見出しレベルでフォーマットされた段落によって分割されます。
+見出し1、2、3など、特定のレベルの見出し段落でドキュメントを分割する必要がある場合は、[DocumentSplitHeadingLevel](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getDocumentSplitHeadingLevel)プロパティも使用します。 出力は、指定された見出しレベルで書式設定された段落で分割されます。
 
-次のコードの例では、見出しでドキュメントを小さく分割する方法を示します。
+次のコード例は、見出しを使用してドキュメントを小さな部分に分割する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-SplitDocumentByHeadingsHTML.java" >}}
 
-この基準については、 Aspose.Words 分割時に HTML 形式への保存のみをサポートしています。
+この基準では、Aspose.Wordsは分割時にHTML形式への保存のみをサポートしていることに注意してください。
 
-EPUBに保存すると、ドキュメントは複数のファイルに分割されず、1つの出力ファイルしかありません。
+EPUBに保存すると、文書は複数のファイルに分割されず、出力ファイルは1つだけになります。
 
-### セクションで文書を分割する {#split-a-document-by-sections}
+### セクション {#split-a-document-by-sections}で文書を分割する
 
-Aspose.Words セクションを分割して文書を分割してHTMLに保存することもできます。 この目的のために、使用 **SectionBreak** として、 **DocumentSplitCriteria**:::
+Aspose.Wordsでは、セクション区切りを使用して文書を分割し、HTMLに保存することもできます。 この目的のために、**SectionBreak**を**DocumentSplitCriteria**として使用します:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-SplitDocumentBySectionsHTML.java" >}}
 
-ソース文書を複数の出力文書に分割する別の方法があり、サポートされている出力フォーマットを選択できます。 Aspose.Wordsお問い合わせ
+ソース文書を複数の出力文書に分割する別の方法があり、Aspose.Wordsでサポートされている任意の出力形式を選択できます。
 
-次のコードの例では、セクションブレイクでドキュメントを小さく分割する方法を示します(使用せずに) `DocumentSplitCriteria` プロパティ:
+次のコード例は、(`DocumentSplitCriteria`プロパティを使用せずに)セクション区切りによってドキュメントを小さな部分に分割する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SplitDocument-SplitDocumentBySections.java" >}}
 
-## ページ分割 {#splitting-by-pages}
+## ページで分割 {#splitting-by-pages}
 
-ドキュメントページをページ単位で分割したり、指定したページ番号から始まることもできます。 そのような場合 [ExtractPages](https://reference.aspose.com/words/java/com.aspose.words/document/#extractPages-int-int) メソッドはジョブを実行できます。
+また、ドキュメントページをページごと、ページ範囲ごと、または指定したページ番号で開始することもできます。 このような場合、[ExtractPages](https://reference.aspose.com/words/java/com.aspose.words/document/#extractPages-int-int)メソッドはジョブを実行できます。
 
-このセクションでは、ページ単位でドキュメントを分割するいくつかのユースケースについて説明します。 [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) クラスとクラス **ExtractPages** メソッド。
+このセクションでは、[Document](https://reference.aspose.com/words/java/com.aspose.words/document/)クラスと**ExtractPages**メソッドを使用して、ドキュメントをページ単位で分割するいくつかのユースケースについて説明します。
 
 {{% alert color="primary" %}}
 
-どんな用途でも使えます [サポートされているドキュメントフォーマット](/words/ja/java/supported-document-formats/)お問い合わせ
+あなたは任意のものを使うことができます [Aspose.Wordsでサポートされている出力形式](/words/java/supported-document-formats/).
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-ページの数を減らしながら、多くのニュアンスが現れているため、 Microsoft Word レイアウトはかなり複雑な作業です。 そのため、文書の複雑性に応じて、元の文書から得られた文書レイアウトに若干の違いがあります。
+ページ数を減らしている間に多くのニュアンスが現れるため、Microsoft Wordレイアウトとの完全な一致は非常に複雑な作業です。 そのため、ドキュメントの複雑さによっては、元のドキュメントと結果のドキュメントのレイアウトにわずかな違いがある場合があります。
 
 {{% /alert %}}
 
-### ページごとにドキュメントページを分割 {#split-a-document-page-by-page}
+### 文書ページをページ {#split-a-document-page-by-page}で分割する
 
-Aspose.Words 複数ページのドキュメントページをページごとに分割できます。
+Aspose.Words複数ページのドキュメントをページごとに分割できます。
 
-次のコードの例では、ドキュメントを分割し、各ページを別のドキュメントとして保存する方法を示します。
+次のコード例は、ドキュメントを分割し、各ページを個別のドキュメントとして保存する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SplitDocument-SplitDocumentPageByPage.java" >}}
 
-### ページ範囲でドキュメントを分割 {#split-a-document-by-page-ranges}
+### ページ範囲 {#split-a-document-by-page-ranges}で文書を分割する
 
-Aspose.Words ページ範囲で複数ページのドキュメントを分割できます。 さまざまなページ範囲で複数のファイルに1つのファイルを分割したり、1つの範囲を選択してソース文書のこの部分だけを保存することができます。 ドキュメントの最大ページ数と最小ページ数に応じてページ範囲を選択できます。
+Aspose.Words複数ページのドキュメントをページ範囲で分割できます。 1つのファイルをさまざまなページ範囲で複数のファイルに分割することも、1つの範囲を選択してソースドキュメントのこの部分のみを保存することもできます。 ドキュメントの最大ページ番号と最小ページ番号に応じて、ページ範囲を選択できることに注意してください。
 
-次のコードの例では、特定のスタートとエンドインデックスを使用して、ページ範囲でドキュメントを小さく分割する方法を示します。
+次のコード例は、特定の開始インデックスと終了インデックスを使用して、ページ範囲ごとに文書を小さな部分に分割する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SplitDocument-SplitDocumentByPageRange.java" >}}
 
-## ドキュメントを保存するためのコールバックオプション {#callback-option-for-saving-a-document}
+## ドキュメント {#callback-option-for-saving-a-document}を保存するコールバックオプション
 
-使うことができます。 [DocumentPartSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getDocumentPartSavingCallback) プロパティはどのように制御するか Aspose.Words このドキュメントが HTML 形式にエクスポートされると、ドキュメント部分を保存します。 このプロパティを使用すると、出力ファイルの名前を変更したり、カスタムストリームにリダイレクトすることもできます。
+[DocumentPartSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getDocumentPartSavingCallback)プロパティを使用して、このドキュメントをHTML形式にエクスポートするときにAspose.Wordsがドキュメントパーツを保存する方法を制御できます。 このプロパティを使用すると、出力ファイルの名前を変更したり、カスタムストリームにリダイレク
 
-全ての出力部分が単一のコンテナに保存される必要があるため、EPUBに保存する際には、このコールバックは役に立ちません。.epubファイル。 そのため、リダイレクトのストリームはサポートされていないため、コンテナ内のファイルの名前を変更しているため、リダイレクトの効果は表示されません。
+このコールバックは、すべての出力部分を単一のコンテナに保存する必要があるため、EPUBに保存するときには有用ではないことに注意してください。epubファイル。 そのため、ストリームのリダイレクトはサポートされておらず、ファイルはコンテナ内で名前が変更されるため、名前の変更の効果は表示されません。
 
-## 別の文書で分割文書をマージ {#merge-the-split-document-with-another-file}
+## 分割された文書を別の文書 {#merge-the-split-document-with-another-file}とマージする
 
-Aspose.Words 出力された分割された文書を別の文書と結合して新しい文書を形成することができます。 これは、ドキュメントのマージと呼ぶことができます。
+Aspose.Wordsを使用すると、出力分割文書を別の文書とマージして新しい文書を作成できます。 これはドキュメントマージと呼ぶことができます。
 
-次のコードの例では、分割された文書を別の文書と統合する方法を示します。
+次のコード例は、分割された文書を別の文書とマージする方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SplitDocument-MergeDocuments.java" >}}

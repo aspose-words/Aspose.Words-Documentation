@@ -1,18 +1,18 @@
----
-title: Wahre Angabe Typ Fonts Standort in Java
+﻿---
+title: Geben Sie die Position der TrueType-Schriftarten in Java an
 second_title: Aspose.Words für Java
-articleTitle: Wahre Angabe Typ Fonts Standort
-linktitle: Wahre Angabe Typ Fonts Standort
-description: "Geben Sie verschiedene Wahr Geben Sie Schriftquellen ein: Systemordner, Benutzerquellen, Laden von Schriftarten aus einem Stream, einem Dateisystem oder Speicher mit Java."
+articleTitle: Geben Sie den Speicherort für TrueType-Schriftarten an
+linktitle: Geben Sie den Speicherort für TrueType-Schriftarten an
+description: "Geben Sie verschiedene TrueType-Schriftquellen an: Systemordner, Benutzerquellen, Laden von Schriftarten aus einem Stream, einem Dateisystem oder Speicher mit Java."
 type: docs
 weight: 30
 url: /de/java/specify-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---
 
-Dieses Thema beschreibt das Standardverhalten von Aspose.Words wenn es nach TrueType-Schriften sucht, einschließlich Betriebssystem-spezifische Unterschiede, und zeigt, wie man Benutzer-Schriftquellen angibt.
+In diesem Thema wird das Standardverhalten von Aspose.Words beschrieben, wenn nach TrueType-Schriftarten gesucht wird, einschließlich betriebssystemspezifischer Unterschiede, und veranschaulicht, wie Benutzerschriftquellen angegeben werden.
 
-Die [FontSourceBase](https://reference.aspose.com/words/java/com.aspose.words/fontsourcebase/) Klasse wird verwendet, um verschiedene Schriftquellen anzugeben. Es gibt mehrere Implementierungen der **FontSourceBase** Klasse:
+Die Klasse [FontSourceBase](https://reference.aspose.com/words/java/com.aspose.words/fontsourcebase/) wird verwendet, um verschiedene Schriftquellen anzugeben. Es gibt verschiedene Implementierungen der Klasse **FontSourceBase**:
 
 - [SystemFontSource](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/)
 - [FolderFontSource](https://reference.aspose.com/words/java/com.aspose.words/folderfontsource/)
@@ -20,47 +20,47 @@ Die [FontSourceBase](https://reference.aspose.com/words/java/com.aspose.words/fo
 - [FileFontSource](https://reference.aspose.com/words/java/com.aspose.words/filefontsource/)
 - [MemoryFontSource](https://reference.aspose.com/words/java/com.aspose.words/memoryfontsource/)
 
-Im Folgenden werden Ausführungsdetails für einige Klassen erläutert.
+Implementierungsdetails für einige Klassen werden unten erläutert.
 
-## Schriftarten aus dem System laden {#loading-fonts-from-system}
+## Schriftarten aus System {#loading-fonts-from-system} laden
 
-Es gibt ein besonderes [SystemFontSource](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/) Klasse, die immer standardmäßig verwendet wird. Es stellt alle auf dem System installierten TrueType-Schriften dar. Daher ist es möglich, eine Quellliste mit **SystemFontSource** und alle anderen erforderlichen Quellen:
+Es gibt eine spezielle [SystemFontSource](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/) -Klasse, die standardmäßig immer verwendet wird. Es repräsentiert alle TrueType Schriftarten, die auf dem System installiert sind. Daher ist es möglich, eine Quellenliste mit **SystemFontSource** und anderen erforderlichen Quellen zu erstellen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetFontsFolder.java" >}}
 
-Eine einzige Instanz der **SystemFontSource** Klasse wird standardmäßig definiert [FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/). Auf verschiedenen Betriebssystemen können Schriftarten an verschiedenen Orten liegen. jedoch mit einer **FontSettings** Ein Beispiel für jedes Dokument ist keine optimale Lösung. In den meisten Fällen unter Verwendung [DefaultInstance](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/#getDefaultInstance) sollte genug sein.
+Eine einzelne Instanz der Klasse **SystemFontSource** ist standardmäßig in [FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/) definiert. Auf verschiedenen Betriebssystemen können sich Schriftarten an verschiedenen Orten befinden. Die Verwendung einer **FontSettings** -Instanz für jedes Dokument ist jedoch keine optimale Lösung. In den meisten Fällen sollte die Verwendung von [DefaultInstance](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/#getDefaultInstance) ausreichen.
 
-Per-Dokumentationsinstanzen werden nur benötigt, wenn für verschiedene Dokumente unterschiedliche Schriftquellen verwendet werden müssen, was ein seltener Fall ist. Verwenden Sie mehrere **FontSettings** Instanzen verringert die Leistung, weil sie den Cache nicht teilen.
+Instanzen pro Dokument werden nur benötigt, wenn für verschiedene Dokumente unterschiedliche Schriftquellen verwendet werden müssen, was ein seltener Fall ist. Die Verwendung mehrerer **FontSettings**-Instanzen verringert die Leistung, da sie den Cache nicht gemeinsam nutzen.
 
-### Ort Aspose.Words Sieht nach TrueType Fonts auf Windows
+### Wobei Aspose.Words auf Windows nach TrueType Schriftarten sucht
 
-In den meisten Fällen Windows Benutzer haben keine erheblichen Probleme mit verpassten Schriften oder falschen Layouts. Typischerweise, Aspose.Words geht durch ein Dokument, und wenn es auf den Link einer Schrift, es erfolgreich holt die Schriftdaten aus dem Systemordner.
+In den meisten Fällen haben Windows Benutzer keine nennenswerten Probleme mit fehlenden Schriftarten oder falschen Layouts. Normalerweise durchläuft Aspose.Words ein Dokument, und wenn es auf den Link einer Schriftart stößt, werden die Schriftartdaten erfolgreich aus dem Systemordner abgerufen.
 
-Auf Windows Aspose.Words zuerst alle verfügbaren Schriftarten aus dem _%windir%\Fonts Ordner. Diese Einstellung wird für Sie die meiste Zeit arbeiten. Sie geben nur Ihre eigenen Fonts-Ordner an, wenn Sie müssen. Aspose.Words sucht auch nach zusätzlichen Schriftarten, die in der HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts Registrierungsschlüssel. Außerdem, Windows 10 ermöglicht die Installation von Schriftarten für den aktuellen Benutzer. Schriften werden in die %userprofile%\AppData\Local\Microsoft\Windows\Fonts Ordner und auch in der HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts Registrierung, wo Aspose.Words wird nach diesen Schriften suchen.
+Bei Windows entnimmt Aspose.Words zuerst alle verfügbaren Schriftarten aus dem Ordner _%windir%\Fonts. Diese Einstellung wird für Sie die meiste Zeit funktionieren. Sie geben nur bei Bedarf Ihre eigenen Schriftartenordner an. Aspose.Words sucht auch nach zusätzlichen Schriftarten, die im Registrierungsschlüssel HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts registriert sind. Außerdem ermöglicht Windows 10 die Installation von Schriftarten für den aktuellen Benutzer. Schriftarten werden im Ordner %userprofile%\AppData\Local\Microsoft\Windows\Fonts abgelegt und auch in der Registrierung HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts angegeben, wo Aspose.Words nach diesen Schriftarten sucht.
 
-Wenn ein Dokument eingebettete Schriften enthält, Aspose.Words kann relevante Schriftdaten aus dem Dokument lesen und verwenden, um das Layout des Dokuments zu erstellen. Dokumente können auch Links zu Schriften enthalten, die sich nicht in den Systemordnern befinden, wobei folgende Szenarien funktionieren:
+Wenn ein Dokument eingebettete Schriftarten enthält, kann Aspose.Words relevante Schriftdaten aus dem Dokument lesen und zum Erstellen des Layouts des Dokuments verwenden. Dokumente können auch Links zu Schriftarten enthalten, die sich nicht in den Systemordnern befinden. In diesem Fall kommen die folgenden Szenarien zum Tragen:
 
-- Benutzer können durch die **FontSettings** Klasse
-- Ja. Aspose.Words kann versuchen, die verpasste Schrift durch eine ähnliche zu ersetzen
+- Benutzer können neue Schriftquellen über die Klasse **FontSettings** einrichten
+- Aspose.Words kann versuchen, die fehlende Schriftart durch eine ähnliche zu ersetzen
 
-### Schriftarten auf Non-Windows Systeme
+### Schriftarten auf Nicht-Windows-Systemen
 
-Aspose.Words wird nach den Schriften in den System-Font-Ordnern suchen. Eine Liste dieser Ordner kann von der [GetSystemFontFolders](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/#getSystemFontFolders) Methode. Wenn keine unterstützten Schriftarten gefunden werden, Aspose.Words wird die eingebaute Standardschrift Fanwood.tf verwenden.
+Aspose.Words sucht nach den Schriftarten in den Systemschriftartenordnern. Eine Liste dieser Ordner kann mit der Methode [GetSystemFontFolders](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/#getSystemFontFolders) angezeigt werden. Wenn keine unterstützten Schriftarten gefunden werden, verwendet Aspose.Words die integrierte Standardschrift Fanwood.ttf.
 
-Da die Schriftmetriken Windows und nichtWindows Betriebssysteme sind anders, Aspose.Words macht alles möglich, um eine ähnliche Schrift zu finden und ein Layout ähnlich dem Original zu erstellen. Dies ist jedoch nicht immer möglich. In diesen Fällen **FontSettings** class sollte verwendet werden, um benutzerdefinierte Schriftarten oder Substitutionsregeln hinzuzufügen.
+Da die Schriftmetriken von Windows und Nicht- Windows OS unterschiedlich sind, unternimmt Aspose.Words alles, um eine ähnliche Schriftart zu finden und ein Layout zu erstellen, das dem Original ähnelt. Dies ist jedoch nicht immer möglich. In diesen Fällen sollte die Klasse **FontSettings** verwendet werden, um benutzerdefinierte Schriftarten oder Ersetzungsregeln hinzuzufügen.
 
-#### Ort Aspose.Words Sieht nach TrueType Fonts auf Linux
+#### Wobei Aspose.Words auf Linux nach TrueType Schriftarten sucht
 
-Verschiedene Linux Distributionen können Schriftarten in verschiedenen Ordnern speichern. Aspose.Words sucht nach Schriftarten an mehreren Orten. Standardmäßig, Aspose.Words sucht nach den Schriften in allen folgenden Orten: `/usr/share/fonts` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts` Dieses Standardverhalten wird für die meisten Linux Distributionen, aber es ist nicht garantiert, die ganze Zeit zu arbeiten, in diesem Fall müssen Sie den Standort der true Schriftarten explizit eingeben. Um dies zu tun, müssen Sie wissen, wo TrueType Fonts auf Ihrem installiert sind Linux Verteilung.
+Verschiedene Linux-Distributionen können Schriftarten in verschiedenen Ordnern speichern. Aspose.Words sucht an mehreren Stellen nach Schriftarten. Standardmäßig sucht Aspose.Words an allen folgenden Speicherorten nach den Schriftarten: `/usr/share/fonts`, `/usr/local/share/fonts`, `/usr/X11R6/lib/X11/fonts`. Dieses Standardverhalten funktioniert für die meisten Linux-Distributionen, es ist jedoch nicht garantiert, dass es immer funktioniert. In diesem Fall müssen Sie möglicherweise den Speicherort von True Type-Schriftarten explizit angeben. Dazu müssen Sie wissen, wo TrueType -Schriftarten auf Ihrer Linux -Distribution installiert sind.
 
-#### Ort Aspose.Words Sucht nach TrueType Fonts auf Mac OS X
+#### Wobei Aspose.Words auf Mac OS X nach TrueType Schriftarten sucht
 
-Aspose.Words sucht nach Schriftarten im /Library/Fonts-Ordner, der der Standard-Standort für TrueType Schriftarten auf Mac OS X ist. Während diese Einstellung für Sie die meiste Zeit funktioniert, müssen Sie ggf. Ihre eigenen Fonts Ordner in dem Fall angeben, wenn Sie müssen.
+Aspose.Words sucht nach Schriftarten im Ordner `/Library/Fonts`, dem Standardspeicherort für TrueType-Schriftarten auf Mac OS X. Während diese Einstellung die meiste Zeit für Sie funktioniert, müssen Sie möglicherweise bei Bedarf Ihre eigenen Schriftartenordner angeben.
 
-#### TrueType Fonts auf Android
+#### TrueType Schriftarten auf Android
 
-Auf Android, Schriftarten Workflow wird in der Typeface Klasse verkapselt.
-Es gibt fünf Arten von Schriftarten, jede Schriftart stellt eine Gruppe ähnlicher Schriftfamilien dar:
+Bei Android ist der Schriftarten-Workflow in der Schriftklasse gekapselt.
+Es gibt fünf Arten von Schriften, jede Schrift repräsentiert eine Gruppe ähnlicher Schriftfamilien:
 
 - DEFAULT
 - DEFAULT_BOLD
@@ -68,9 +68,9 @@ Es gibt fünf Arten von Schriftarten, jede Schriftart stellt eine Gruppe ähnlic
 - SANS_SERIF
 - SERIF
 
-Zum Beispiel, nach Android" [Schriften.xml](https://androidxref.com/9.0.0_r3/xref/frameworks/base/data/fonts/fonts.xml) config-Datei, "Zeiten" gehört zu "serif" Familie, so NotoSerif-Regular.tf wird verwendet, wenn "Zeiten" angefordert wird:
+Zum Beispiel nach Android's [fonts.xml](https://androidxref.com/9.0.0_r3/xref/frameworks/base/data/fonts/fonts.xml) konfigurationsdatei, "times" gehört zur "Serif" -Familie, also NotoSerif -Regulär.ttf wird verwendet, wenn "Zeiten" angefordert werden:
 
-**Schriften.xml**
+**Fonts.xml**
 
 {{< highlight html >}}
 <family name="serif">
@@ -83,19 +83,19 @@ Zum Beispiel, nach Android" [Schriften.xml](https://androidxref.com/9.0.0_r3/xre
 <alias name="times new roman" to="serif" />
 {{< /highlight >}}
 
-Zur Suche nach ähnlichen Schriftarten werden die zuvor beschriebenen Strategien verwendet
+Um nach ähnlichen Schriftarten zu suchen, werden die zuvor beschriebenen Strategien verwendet.
 
-Zusätzlich zu ihnen, Aspose.Words hat eine eigene Liste von Ersatz für die Android Plattform.
+Zusätzlich zu ihnen hat Aspose.Words eine eigene Liste von Ersetzungen für die Android -Plattform.
 
-Sagen wir, das Dokument enthält zuerst die PMingLiU-ExtB Schriftart, Aspose.Words sucht nach der gewünschten Schrift innerhalb der Systemquellen.
+Angenommen, das Dokument enthält die Schriftart PMingLiU -ExTB. Zunächst sucht Aspose.Words nach der erforderlichen Schriftart in den Systemquellen.
 
-Die Standardliste Android Die Ordner der Schriftart sind:
+Die Standardliste der Ordner für Android-Schriftarten lautet:
 
-- /system/fonts
-- /system/font
-- /data/fonts
+- /Systemschriften
+- / system / schriftart
+- / daten / Schriftarten
 
-Die Aspose.Words durch benutzerdefinierte Quellen, die mit der Methode eingestellt wurden:
+Die Aspose.Words durchsucht benutzerdefinierte Quellen, die mit der Methode festgelegt wurden:
 
 **Java**
 
@@ -103,7 +103,7 @@ Die Aspose.Words durch benutzerdefinierte Quellen, die mit der Methode eingestel
 fontSettings.setFontsFolder("/home/user/MyFonts", true);
 {{< /highlight >}}
 
-Falls ein ausdrücklicher Ersatz angegeben wurde, Aspose.Words ersetzt die fehlende Schrift durch den Vorschlag des Benutzers:
+Falls eine explizite Ersetzung angegeben wurde, ersetzt Aspose.Words die fehlende Schriftart durch den Vorschlag des Benutzers:
 
 **Java**
 
@@ -111,12 +111,12 @@ Falls ein ausdrücklicher Ersatz angegeben wurde, Aspose.Words ersetzt die fehle
 fontSettings.getSubstitutionSettings().getTableSubstitution().setSubstitutes("PMingLiU-ExtB", "Liberation Serif");
 {{< /highlight >}}
 
-Wenn keine der Regeln funktionieren, Aspose.Words Überprüfen Sie die interne Ersatztabelle. Wenn die Tabelle Informationen über eine gute Passform enthält, dann wird die Schrift ersetzt. In unserem Fall Aspose.Words wird ausgewählt `Typeface.SERIF`. Aber wenn die Tabelle nichts über die angeforderte Schrift weiß, dann Aspose.Words nimmt eine Schriftart auf Basis spezieller MS Word-Regeln oder der engsten Distanz in Panose Raum.
+Wenn keine der Regeln funktioniert hat, Aspose.Words überprüfen Sie die interne Ersetzungstabelle. Wenn die Tabelle Informationen über eine gute Passform enthält, wird die Schriftart ersetzt. In unserem Fall wählt Aspose.Words `Typeface.SERIF`. Wenn die Tabelle jedoch nichts über die angeforderte Schriftart weiß, nimmt Aspose.Words eine Schriftart auf, die auf speziellen MS -Wortregeln oder der nächstgelegenen Entfernung im Bereich basiert.
 
-#### TrueType Fonts auf .NET Core und Xamarin
+#### TrueType Schriftarten auf .NET Core und Xamarin
 
-Für .NET Core und Xamarin die gleiche Regel gilt wie Aspose.Words für Java Version. Standardmäßig sind alle Systemarten der Plattform, auf der die Anwendung läuft, verfügbar.
-Die Liste der Ordner, in denen die Suche durchgeführt wird, finden Sie unter dem Aufruf der Methode:
+Für .NET Core und Xamarin gilt die gleiche Regel wie für Aspose.Words für Java Version. Standardmäßig sind alle Systemschriftarten der Plattform verfügbar, auf der die Anwendung ausgeführt wird.
+Die Liste der Ordner, in denen die Suche durchgeführt wird, kann durch Aufrufen der Methode gefunden werden:
 
 **Java**
 
@@ -124,37 +124,37 @@ Die Liste der Ordner, in denen die Suche durchgeführt wird, finden Sie unter de
 SystemFontSource().getAvailableFonts()
 {{< /highlight >}}
 
-## Schriftarten aus dem Ordner laden {#loading-fonts-from-folder}
+## Schriftarten aus Ordner {#loading-fonts-from-folder} laden
 
-Wenn das zu bearbeitende Dokument Links zu Schriften enthält, die nicht auf dem System sind, oder Sie wollen sie nicht in den Systemordner hinzufügen, oder Sie haben keine Berechtigungen, dann wäre die beste Lösung, einen Ordner mit Ihren eigenen Schriften mit der `SetFontsSources` Methode. Dadurch kann die Systemquelle durch eine Benutzerquelle ersetzt werden. Aspose.Words in der Registrierung keine Schriftarten mehr suchen oder Windows\Font Ordner und stattdessen nur für Schriftarten innerhalb des angegebenen Ordners scannen. Die `GetFontSources` Das Verfahren wird die entsprechenden Werte zurückgeben.
+Wenn das zu verarbeitende Dokument Links zu Schriftarten enthält, die sich nicht auf dem System befinden, oder Sie sie nicht zum Systemordner hinzufügen möchten oder Ihnen die Berechtigungen fehlen, besteht die beste Lösung darin, einen Ordner mit hinzuzufügen Ihre eigenen Schriftarten mit der Methode `SetFontsSources`. Dies ermöglicht das Ersetzen der Systemquelle durch eine Benutzerquelle. Aspose.Words sucht nicht mehr nach Schriftarten in der Registrierung oder im Ordner Windows\Font, sondern sucht stattdessen nur nach Schriftarten innerhalb der angegebenen Ordner. Die Methode `GetFontSources` gibt die entsprechenden Werte zurück.
 
-### Geben Sie ein oder mehrere Schriftordner an
+### Geben Sie einen oder mehrere Schriftartordner an
 
-Die [SetFontsFolder](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/#setFontsFolder-java.lang.String-boolean) und SetFontsFolders Methoden sind Verknüpfungen zu den **SetFontSources** Verfahren mit einem oder mehreren [FolderFontSource](https://reference.aspose.com/words/java/com.aspose.words/folderfontsource/) Fälle. Diese Methoden werden verwendet, um anzugeben, wo Aspose.Words sollte nach Schriftarten suchen. Wenn ein Ordner nicht existiert oder nicht zugänglich ist, Aspose.Words ignoriert diesen Ordner. Wenn alle Ordner, einschließlich Quellen für die Schriftsubstitution, ignoriert wurden, Aspose.Words wird Fanwood-Schrift als Standard verwenden.
+Die Methoden [SetFontsFolder](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/#setFontsFolder-java.lang.String-boolean) und SetFontsFolders sind Verknüpfungen zur Methode **SetFontSources** mit einer oder mehreren Instanzen von [FolderFontSource](https://reference.aspose.com/words/java/com.aspose.words/folderfontsource/). Diese Methoden werden verwendet, um anzugeben, wo Aspose.Words nach Schriftarten suchen soll. Wenn ein Ordner nicht existiert oder nicht zugänglich ist, ignoriert Aspose.Words diesen Ordner einfach. Wenn alle Ordner, einschließlich der Quellen für die Schriftartenersetzung, ignoriert wurden, verwendet Aspose.Words standardmäßig die Schriftart Fanwood.
 
-Das folgende Beispiel zeigt, wie man den Ordner oder die Quelle einstellt, die Aspose.Words wird dann verwenden, um TrueType Schriftarten beim Rendern oder Einbetten von Schriftarten zu suchen:
+Das folgende Beispiel zeigt, wie Sie den Ordner oder die Quelle festlegen, die Aspose.Words anschließend verwendet, um beim Rendern oder Einbetten von Schriftarten nach TrueType Schriftarten zu suchen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetTrueTypeFontsFolder.java" >}}
 
 {{% alert color="primary" %}}
 
-Sie können die Vorlagendatei dieses Beispiels herunterladen [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
+Sie können die Vorlagendatei dieses Beispiels herunterladen von [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-Ein extra Boolean-Parameter steuert, ob Schriften rekursiv durch alle Ordner gescannt werden und scannt daher alle Kinderordner eines bestimmten Ordners. Das folgende Beispiel zeigt, wie man Aspose.Words in mehreren Ordnern für TrueType Schriftarten beim Rendern oder Einbetten von Schriftarten zu suchen:
+Ein zusätzlicher boolescher Parameter steuert, ob Schriftarten rekursiv durch alle Ordner gescannt werden, also alle untergeordneten Ordner eines bestimmten Ordners. Das folgende Beispiel zeigt, wie Sie Aspose.Words so einstellen, dass beim Rendern oder Einbetten von Schriftarten in mehreren Ordnern nach TrueType-Schriftarten gesucht wird:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetMultipleFontsFolder.java" >}}
 
-Sie können die Vorlagendatei dieses Beispiels herunterladen [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
+Sie können die Vorlagendatei dieses Beispiels herunterladen von [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{% alert color="primary" %}}
 
-Beachten Sie die Prioritäten. Wenn es Schriftarten mit dem gleichen Familiennamen und Stil in verschiedenen Schriftquellen gibt, dann Aspose.Words wird die Schrift aus der Quelle mit einer höheren Priorität auswählen. Siehe unten die Beschreibung des Feldes "Priority".
+Beachten Sie die Prioritäten. Wenn Schriftarten mit demselben Familiennamen und Stil in verschiedenen Schriftquellen vorhanden sind, wählt Aspose.Words die Schriftart aus der Quelle mit einer höheren Priorität aus. Siehe die Beschreibung des Felds "Priorität" unten.
 
 {{% /alert %}}
 
-Wenn Sie überhaupt keine Systemfonts verwenden möchten, Aspose.Words Sie können sie ignorieren und Ihre eigenen Schriftarten nur verwenden:
+Wenn Sie Systemschriftarten überhaupt nicht verwenden möchten, können Sie sie mit Aspose.Words ignorieren und nur Ihre eigenen Schriftarten verwenden:
 
 **Java**
 
@@ -165,39 +165,39 @@ FontSettings.getDefaultInstance().setFontsFolder("C:\\MyFonts\\", true);
 
 ### Vorrangiges Eigentum
 
-Die [Priority](https://reference.aspose.com/words/net/aspose.words.fonts/fontsourcebase/priority/) Eigenschaft wird verwendet, wenn es Schriftarten mit dem gleichen Familiennamen und Stil in verschiedenen Schriftquellen. In diesem Fall Aspose.Words wählt die Schrift aus der Quelle mit dem höheren Prioritätswert. Zum Beispiel gibt es eine alte Version der Schrift auf dem Systemordner und der Kunde hat eine neue Version derselben Schrift in einem benutzerdefinierten Ordner hinzugefügt.
+Die Eigenschaft [Priority](https://reference.aspose.com/words/net/aspose.words.fonts/fontsourcebase/priority/) wird verwendet, wenn Schriftarten mit demselben Familiennamen und Stil in verschiedenen Schriftquellen vorhanden sind. In diesem Fall wählt Aspose.Words die Schriftart aus der Quelle mit dem höheren Prioritätswert aus. Beispielsweise befindet sich eine alte Version der Schriftart im Systemordner, und der Kunde hat eine neue Version derselben Schriftart in einem benutzerdefinierten Ordner hinzugefügt.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetFontsFolderWithPriority.java" >}}
 
-## Fonts aus Stream laden {#loading-fonts-from-stream}
+## Schriftarten aus Stream laden {#loading-fonts-from-stream}
 
-Aspose.Words bietet [StreamFontSource](https://reference.aspose.com/words/java/com.aspose.words/streamfontsource/) Klasse, die das Laden von Schriftarten aus dem Stream erlaubt. Um die Stream-Schriftenquelle zu verwenden, muss ein Benutzer eine abgeleitete Klasse von **StreamFontSource** und eine Umsetzung der [OpenFontDataStream](https://reference.aspose.com/words/java/com.aspose.words/streamfontsource/#openFontDataStream) Methode. Die **OpenFontDataStream** Methode könnte mehrmals aufgerufen werden. Zum ersten Mal wird es aufgerufen, wenn Aspose.Words scannt die bereitgestellten Schriftquellen, um eine Liste der verfügbaren Schriftarten zu erhalten. Später kann es aufgerufen werden, wenn die Schrift im Dokument verwendet wird, um die Schriftdaten zu parsieren und die Schriftdaten in einige Ausgabeformate einzubetten. **StreamFontSource** kann nützlich sein, weil es erlaubt, die Schriftdaten nur dann zu laden, wenn es erforderlich ist, und nicht in den Speicher für die `FontSettings` Leben.
+Aspose.Words stellt die Klasse [StreamFontSource](https://reference.aspose.com/words/java/com.aspose.words/streamfontsource/) bereit, mit der Schriftarten aus dem Stream geladen werden können. Um die Stream-Schriftartquelle zu verwenden, muss ein Benutzer eine abgeleitete Klasse aus **StreamFontSource** erstellen und eine Implementierung der [OpenFontDataStream](https://reference.aspose.com/words/java/com.aspose.words/streamfontsource/#openFontDataStream) -Methode bereitstellen. Die **OpenFontDataStream** -Methode könnte mehrmals aufgerufen werden. Zum ersten Mal wird es aufgerufen, wenn Aspose.Words die bereitgestellten Schriftquellen durchsucht, um eine Liste der verfügbaren Schriftarten zu erhalten. Später kann es aufgerufen werden, wenn die Schriftart im Dokument verwendet wird, um die Schriftdaten zu analysieren und die Schriftdaten in einige Ausgabeformate einzubetten. **StreamFontSource** kann nützlich sein, da die Schriftdaten nur dann geladen werden können, wenn sie benötigt werden, und nicht für die Lebensdauer von `FontSettings` im Speicher gespeichert werden.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-SpecifyTrueTypeFontsLocation-loadingFontsStream.java" >}}
 
-**StreamFontSource** eine Alternative zu [MemoryFontSource](https://reference.aspose.com/words/java/com.aspose.words/memoryfontsource/) da es immer möglich ist, einen Strom zum Speicher zu laden und an **MemoryFontSource**. Der Unterschied ist, dass **MemoryFontSource** in dem Speicher die ganze Zeit gespeichert ist, und **StreamFontSource** wird nach Bedarf geladen und sofort entsorgt. Es kann aber mehrmals geladen werden, wie oben beschrieben. In einigen Fällen **MemoryFontSource** ist bevorzugt, und in anderen, **StreamFontSource**.
+**StreamFontSource**
 
-## Speichern und laden Sie eine Font-Suche Cache
+## Speichern und Laden eines Schriftsuchcaches
 
-Bei der Suche nach einer Schrift zum ersten Mal, Aspose.Words iteriert über die vom Benutzer angegebenen Schriftquellen und bildet einen Schriftsuchecache basierend auf Daten aus diesen Quellen. So sammelt der Cache Informationen über die verfügbaren Schriftarten: Schriftfamilie, Stil, voller Schriftname und andere. Bei nachfolgenden Anrufen, Aspose.Words sucht nach Informationen über die gewünschte Schrift mit ihrem Namen im Font-Suche-Cache, wonach es die angegebenen Dateien zur Verwendung der Schrift speichert.
+Bei der erstmaligen Suche nach einer Schriftart iteriert Aspose.Words über die vom Benutzer angegebenen Schriftquellen und bildet einen Schriftsuchcache basierend auf Daten aus diesen Quellen. Daher sammelt der Cache Informationen zu den verfügbaren Schriftarten: Schriftfamilie, Stil, vollständiger Schriftname und andere. Bei nachfolgenden Aufrufen sucht Aspose.Words nach Informationen über die gewünschte Schriftart anhand ihres Namens im Schriftsuchcache und analysiert anschließend die angegebenen Dateien, um die Schriftart zu verwenden.
 
-Das Verfahren zum Parsing aller verfügbaren Schriftdateien zur Initialisierung des Caches ist sehr zeitaufwendig. Aspose.Words ermöglicht es Ihnen, den Cache mit dem **FontSettings.SaveSearchCache** Verfahren zur Lösung des Leistungsproblems. Das heißt, der Benutzer kann einen zuvor gespeicherten Cache aus einer Datei laden und den Schritt der Parsierung aller verfügbaren Schriftdateien überspringen.
+Das Verfahren zum Parsen aller verfügbaren Schriftdateien zum Initialisieren des Caches ist ziemlich zeitaufwändig. Mit Aspose.Words können Sie den Cache mit der **FontSettings.SaveSearchCache** -Methode speichern und laden, um das Leistungsproblem zu lösen. Das heißt, der Benutzer kann einen zuvor gespeicherten Cache aus einer Datei laden und den Schritt des Parsens aller verfügbaren Schriftdateien überspringen.
 
 {{% alert color="primary" %}}
 
-Verwenden Sie die gleiche **SaveSearchCache** Methode, um den Cache zu aktualisieren.
+Verwenden Sie dieselbe **SaveSearchCache**-Methode, um den Cache zu aktualisieren.
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-Der Cache ist auch für andere Szenarien geeignet, wenn Schriftarten über das Netzwerk geladen werden. Oder für Szenarien, wenn es keine Möglichkeit gibt, eine `FontSettings` Beispiel mit einem geladenen Cache.
+Der Cache eignet sich auch für andere Szenarien, wenn Schriftarten über das Netzwerk geladen werden. Oder für Szenarien, in denen es keine Möglichkeit gibt, eine `FontSettings` -Instanz mit einem geladenen Cache zu speichern.
 
 {{% /alert %}}
 
 
-## Erhalten Sie eine Liste der verfügbaren Schriftarten {#get-a-list-of-available-fonts}
+## Liste der verfügbaren Schriftarten anzeigen {#get-a-list-of-available-fonts}
 
-Wenn Sie die Liste der verfügbaren Schriften erhalten möchten, die zum Beispiel verwendet werden können, um ein PDF-Dokument zu machen, können Sie das [GetAvailableFonts](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/#getAvailableFonts) Verfahren, wie im folgenden Codebeispiel gezeigt. Die [PhysicalFontInfo](https://reference.aspose.com/words/java/com.aspose.words/physicalfontinfo/) class gibt Informationen über die verfügbare physikalische Schriftart an Aspose.Words schriftart engine:
+Wenn Sie die Liste der verfügbaren Schriftarten abrufen möchten, mit denen beispielsweise ein PDF -Dokument gerendert werden kann, können Sie die [GetAvailableFonts](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/#getAvailableFonts) -Methode verwenden, wie im folgenden Codebeispiel gezeigt. Die Klasse [PhysicalFontInfo](https://reference.aspose.com/words/java/com.aspose.words/physicalfontinfo/) gibt Informationen über die physische Schriftart an, die für die Schriftartengine Aspose.Words verfügbar ist:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-GetAllAvailableFonts.java" >}}

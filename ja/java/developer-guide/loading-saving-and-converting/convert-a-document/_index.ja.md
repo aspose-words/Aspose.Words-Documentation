@@ -1,101 +1,101 @@
----
-title: ドキュメントを変換する Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: ドキュメントを変換する
-linktitle: ドキュメントを変換する
+﻿---
+title: Javaで文書を変換する
+second_title: Aspose.WordsのためのJava
+articleTitle: 文書を変換する
+linktitle: 文書を変換する
 type: docs
 weight: 30
 url: /ja/java/convert-a-document/
-description: "1つのフォーマットから別のフォーマットに文書を簡単に変換できます。 最も人気のあるフォーマットをすべて使用できます Microsoft Word DOCX や DOC などのフォーマット, ODT や OTT などの OpenDocument フォーマット, HTML や XHTML などの Web フォーマット, MarkDown や TXT などのテキスト フォーマット, などの他の使用 Javaお問い合わせ"
+description: "文書をある形式から別の形式に簡単に変換できます。 DOCXやDOCなどのMicrosoft Word形式、ODTやOTTなどのOpenDocument形式、HTMLやXHTMLなどのweb形式、MarkDownやTXTなどのテキスト形式、Javaを使用したその他の最も一般的な形式で作業できます。"
 timestamp: 2024-09-25-11-08-55
 ---
 
-1つのフォーマットから別のフォーマットへの文書を容易にそして確実に変える能力は主要な特徴区域の1つです Aspose.Wordsお問い合わせ このような変換は、ローディングと節約の操作の組み合わせよりも何もありません。
+文書をある形式から別の形式に簡単かつ確実に変換する機能は、Aspose.Wordsの主な機能領域の1つです。 このような変換は、読み込み操作と保存操作の組み合わせにすぎません。
 
-## 文書変換とは {#what-is-document-conversion}
+## ドキュメント変換 {#what-is-document-conversion}とは何ですか
 
-あなたが実行したいほとんどすべてのタスク Aspose.Words 文書の読み込みや保存をいくつかの形式に含めます。 前のセクションで述べたように、 [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) enumeration はすべて指定します *load* または *import* 支えられるフォーマット Aspose.Wordsと、 [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) enumeration はすべて指定します *save* または *export* 支えられるフォーマット Aspose.Wordsお問い合わせ つまり、 Aspose.Words サポートされているロードフォーマットからサポートされている任意の保存形式にドキュメントを変換できます。 原則として、そのような変換は計算のいくつかの段階を必要とします。 しかし、ドキュメントフォーマットから別のものへのユーザー視点変換は、非常に単純であり、2つのステップで達成することができます。
+Aspose.Wordsを使用して実行するほとんどのタスクには、文書を何らかの形式で読み込んだり保存したりすることが含まれます。 前のセクションで説明したように、[LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/)列挙体はAspose.Wordsでサポートされるすべての*load*または*import*形式を指定し、[SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)列挙体はAspose.Wordsでサポートされるすべての*save*または*export* したがって、Aspose.Wordsは、サポートされている任意の読み込み形式からサポートされている任意の保存形式に文書を変換できます。 原則として、このような変換にはいくつかの計算段階が必要です。 ただし、ユーザーの観点からは、ドキュメント形式から別の形式への変換自体は非常に簡単で、2つの手順で実行できます:
 
-1。 ドキュメントをドキュメントにロードする [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) コンストラクタの1つを使用してオブジェクト。
-1。 の 1 つを呼び出します。 [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String-int) メソッド **Document** オブジェクトと目的の出力形式を指定します。
+1. コンストラクタのいずれかを使用して、ドキュメントを[Document](https://reference.aspose.com/words/java/com.aspose.words/document/)オブジェクトにロードします。
+1. **Document**オブジェクトで[Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String-int)メソッドのいずれかを呼び出し、目的の出力形式を指定します。
 
 {{% alert color="primary" %}}
 
 **オンラインで試す**
 
-この機能を試してみる [無料オンラインコンバータ](https://products.aspose.app/words/conversion)お問い合わせ
+あなたは私たちのこの機能を試すことができます [無料オンラインコンバータ](https://products.aspose.app/words/conversion).
 
 {{% /alert %}}
 
 ## 人気のコンバージョン {#popular-conversions}
 
-現在のセクションでは、読み込みと保存時のフォーマットのいくつかの組み合わせと作業するための一般的な変換だけでなく、アイデアについて説明します。 このセクションの例を使うと、変換プロセス自体が非常に普遍的であることを理解し、できるだけ多くのオプションを記述するところはありません。 [サポートされているドキュメントフォーマット](/words/ja/java/supported-document-formats/)お問い合わせ
+現在のセクションでは、一般的な変換と、読み込みと保存時にフォーマットのいくつかの組み合わせを操作するためのアイデアについて説明します。 このセクションの例を使用すると、変換プロセス自体が非常に普遍的であり、可能なオプションの数が多いために数百のオプションがあるため、す [JavaのAspose.Wordsでサポートされている形式](/words/java/supported-document-formats/).
 
 {{% alert color="primary" %}}
 
-以下は、最も人気のある変換の組み合わせであり、すべての組み合わせが明確なページにリンクされていないことに注意してください。 私たちの記事は、変換のすべてのペアの例を持っていないので、これはケースです。ほとんどすべての変換はかなり似ています。 現在のセクションで記事を勉強することによって、このことを確認してください。
+以下は最も一般的な変換の組み合わせであり、すべての組み合わせが明確なページにリンクされているわけではないことに注意してください。 私たちの記事は、変換のすべてのペアのための例を持っていないので、これは事実である–ほとんどすべての変換はかなり似ています。 現在のセクションの記事を調べて、これを確認してください。
 
 {{% /alert %}}
 
 <div class="row">
 	<div class="col-md-6">
-		<h2>WordをPDFに変換</h2>
+		<h2>単語をPDFに変換する</h2>
 			<ul>
-				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">PDFファイル</a></li>
-				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">DOCXをPDFに変換</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">DOCをPDFに変換する</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">DOCXをPDFに変換する</a></li>
 				<li>その他</li>
 			</ul>
-		<h2>画像をPDFに変換</h2>
+		<h2>画像をPDFに変換する</h2>
 			<ul>
-				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">JPGをPDFに変換</a></li>
-				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">PDFファイル</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">JPGをPDFに変換する</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">TIFFをPDFに変換する</a></li>
 				<li>その他</li>
 			</ul>
-		<h2>Web形式をPDFに変換</h2>
+		<h2>Web形式をPDFに変換する</h2>
 			<ul>
-				<li>コンバーター Markdown PDFファイル</li>
+				<li>MarkdownをPDFに変換する</li>
 				<li>HTMLをPDFに変換する</li>
-				<li>MHT(MHTML)をPDFに変換</li>
+				<li>MHT(MHTML)をPDFに変換します</li>
 				<li>その他</li>
 			</ul>
-		<h2>他のフォーマットをPDFに変換</h2>
+		<h2>他の形式をPDFに変換する</h2>
 			<ul>
 				<li>RTFをPDFに変換する</li>
 				<li>ODTをPDFに変換する</li>
-				<li>TXTをPDFに変換</li>
-				<li>モビをPDFに変換する</li>
+				<li>TXTをPDFに変換する</li>
+				<li>MobiをPDFに変換する</li>
 				<li>その他</li>
 			</ul>
 	</div>
 	<div class="col-md-6">
-		<h2>ドキュメントをイメージに変換する</h2>
+		<h2>文書を画像に変換する</h2>
 			<ul>
-				<li><a href="/words/ja/java/convert-a-document-to-an-image/">ドキュメントをイメージに変換する</a></li>
-				<li>DOCをPNGに変換</li>
+				<li><a href="/words/java/convert-a-document-to-an-image/">DOCXをJPGに変換する</a></li>
+				<li>DOCをPNGに変換する</li>
 				<li>その他</li>
 			</ul>
-		<h2>ドキュメントを変換する Markdown</h2>
+		<h2>文書をMarkdownに変換する</h2>
 			<ul>
-				<li><a href="/words/ja/java/convert-a-document-to-markdown/">ドキュメントを変換する Markdown</a></li>
-				<li>HTMLを変換する Markdown</li>
+				<li><a href="/words/java/convert-a-document-to-markdown/">文書をMarkdownに変換する</a></li>
+				<li>HTMLをMarkdownに変換する</li>
 				<li>その他</li>
 			</ul>
-		<h2>ドキュメントを HTML に変換</h2>
+		<h2>文書をHTMLに変換する</h2>
 			<ul>
-				<li><a href="/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">用語集</a></li>
-				<li>コンバーター Markdown HTMLから</li>
+				<li><a href="/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">単語をHTMLに変換する</a></li>
+				<li>MarkdownをHTMLに変換する</li>
 				<li>MobiをEPUBに変換する</li>
 				<li>その他</li>
 			</ul>
-		<h2>データベースでドキュメントを操作する</h2>
+		<h2>データベースで文書を作業する</h2>
 			<ul>
-				<li><a href="/words/ja/java/serialize-and-work-with-a-document-in-a-database/">データベースでドキュメントをシリアライズし、作業</a></li>
+				<li><a href="/words/java/serialize-and-work-with-a-document-in-a-database/">データベース内のドキュメントをシリアル化して操作する</a></li>
 			</ul>
-		<h2>その他の事例</h2>
+		<h2>その他の例</h2>
 			<ul>
-				<li><a href="/words/ja/java/convert-a-document-to-mhtml-and-send-it-by-email/">メールでのお問い合わせ</a></li>
-				<li>DOCXをDOCXに変換する</li>
-				<li>HTMLをWordに変換する</li>
+				<li><a href="/words/java/convert-a-document-to-mhtml-and-send-it-by-email/">文書をMHTMLに変換し、電子メールで送信します</a></li>
+				<li>DOCXをDOCに変換する</li>
+				<li>HTMLを単語に変換する</li>
 				<li>その他</li>
 			</ul>
 	</div>

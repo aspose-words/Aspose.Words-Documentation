@@ -1,8 +1,8 @@
 ---
-title: استخدم `DocumentBuilder` لإدراج عناصر المستند
+title: استخدم DocumentBuilder لإدراج عناصر المستند
 second_title: Aspose.Words ل C++
-articleTitle: استخدم `DocumentBuilder` لإدراج عناصر المستند
-linktitle: استخدم `DocumentBuilder` لإدراج عناصر المستند
+articleTitle: استخدم DocumentBuilder لإدراج عناصر المستند
+linktitle: استخدم DocumentBuilder لإدراج عناصر المستند
 type: docs
 description: "أدخل عناصر المستند باستخدام منشئ المستندات في C++."
 weight: 80

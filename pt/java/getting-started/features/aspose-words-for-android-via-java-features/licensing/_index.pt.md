@@ -1,44 +1,44 @@
----
+﻿---
 title: Licenciamento
 second_title: Aspose.Words para Java
 articleTitle: Licenciamento
 linktitle: Licenciamento
-description: "Licenciamento Aspose.Words para Android via via via via Java."
+description: "Licenciamento Aspose.Words para Android via Java."
 type: docs
 weight: 60
 url: /pt/java/licensing-android/
 timestamp: 2024-02-02-12-07-36
 ---
 
-Às vezes, para estudar melhor o sistema, você quer mergulhar no código o mais rápido possível. Tornar isto mais fácil, Aspose.Words fornece diferentes planos para compra ou oferece uma avaliação gratuita e uma licença temporária de 30 dias para avaliação.
+Às vezes, para estudar melhor o sistema, você deseja mergulhar no código o mais rápido possível. Para tornar isso mais fácil, Aspose.Words fornece planos diferentes para compra ou oferece uma avaliação gratuita e uma licença temporária de 30 dias para avaliação.
 
 {{% alert color="primary" %}}
 
-Note que existem várias políticas e práticas gerais que orientam você sobre como avaliar, licenciar corretamente e comprar nossos produtos. Você pode encontrá-los no [Políticas de compra e FAQ](https://purchase.aspose.com/policies/) Secção.
+Observe que há uma série de políticas e práticas gerais que orientam você sobre como avaliar, licenciar e comprar adequadamente nossos produtos. Você pode encontrá-los no [Polofensivas de compra e FAQ](https://purchase.aspose.com/policies/) secção.
 
 {{% /alert %}}
 
-## Avaliação gratuita ou Licença Temporária
+## Avaliação gratuita ou licença temporária
 
-Aspose.Words é um software incrível que os desenvolvedores podem tentar antes de comprar. Você pode facilmente baixar / instalar Aspose.Words para Java e Aspose.Words para Android via via via via Java [da página de download](https://releases.aspose.com/words/androidjava/) para avaliação.
+Aspose.Words é um software incrível que os desenvolvedores podem experimentar antes de comprar. Você pode facilmente baixar / instalar Aspose.Words para Java e Aspose.Words para Android via Java [a partir da p@gina de download](https://releases.aspose.com/words/androidjava/) para avaliação.
 
-A versão de avaliação é a mesma que a comprada – a versão Trial simplesmente fica licenciada quando você adiciona algumas linhas de código para aplicar a licença.
+A versão de avaliação é a mesma que a adquirida – a versão de Avaliação simplesmente se torna licenciada quando você adiciona algumas linhas de código para aplicar a licença.
 
 {{% alert color="primary" %}}
 
-Saiba mais detalhes sobre a Licença de Avaliação Gratuita ou Temporária Aspose.Words para Android via via via via Java sobre [Licenciamento e Subscrição](/words/pt/java/licensing/).
+Saiba mais detalhes sobre a Licença de avaliação gratuita ou temporária para Aspose.Words para Android via Java em [a p3gina Licenciatura e subscri](/words/java/licensing/).
 
 {{% /alert %}}
 
-## Licença comprada
+## Licença Adquirida
 
-Após a compra, você precisa aplicar o arquivo de licença ou incluir o arquivo de licença como um recurso incorporado. Esta seção descreve opções de como isso pode ser feito, e também comentários sobre algumas perguntas comuns.
+Após a compra, você precisa aplicar o arquivo de licença ou incluir o arquivo de licença como um recurso incorporado. Esta secção descreve as opções de como isso pode ser feito e também comenta algumas questões comuns.
 
 {{% alert color="primary" %}}
 
-Uma licença é um arquivo XML texto simples que contém detalhes como nome do produto, número de desenvolvedores licenciados, data de validade da assinatura, e assim por diante.
+Uma licença é um arquivo de texto simples XML que contém detalhes como nome do produto, Número de desenvolvedores licenciados, data de expiração da assinatura e assim por diante.
 
-O arquivo é assinado digitalmente, então não modifique o arquivo. Mesmo a adição inadvertida de uma quebra de linha extra no arquivo irá invalidá-lo.
+O ficheiro é assinado digitalmente, por isso não modifique o ficheiro. Mesmo a adição inadvertida de uma quebra de linha extra no arquivo irá invalidá-lo.
 
 {{% /alert %}}
 
@@ -46,36 +46,36 @@ O arquivo é assinado digitalmente, então não modifique o arquivo. Mesmo a adi
 
 Você precisa definir a licença:
 
-* somente uma vez por domínio de aplicação
-* antes de usar qualquer outro Aspose.Words aulas
+* apenas uma vez por domínio de Aplicação
+* antes de usar qualquer outra classe Aspose.Words
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-Você pode encontrar informações de preços sobre o [InformaÃ§Ãμes sobre Pricing](https://purchase.aspose.com/pricing/words/family/) página.
+Você pode encontrar informações sobre preços no [Informa Sobre Pré](https://purchase.aspose.com/pricing/words/family/) página.
 
 {{% /alert %}}
 
-### Protegendo sua licença adquirida
+### Protegendo Sua Licença Adquirida
 
-Depois de comprar uma licença, você precisa ler cuidadosamente as informações na página [Protegendo sua licença adquirida](https://purchase.aspose.com/orders/protecting-your-license-file) para proteger seu arquivo de licença. Por favor, note que esta página está disponível apenas para visualização se tiver uma licença paga.
+Depois de adquirir uma licença, você precisa ler atentamente as informações na página [Protegendo A Sua Licença](https://purchase.aspose.com/orders/protecting-your-license-file) para proteger o seu ficheiro de licença. Observe que esta página está disponível para visualização apenas se você tiver uma licença paga.
 
-### Opções de aplicação de licença
+### Opções De Aplicação De Licença
 
 As licenças podem ser aplicadas a partir de vários locais:
 
 * Caminho explícito
 * Um recurso incorporado
-* Como uma Licença Medida – um novo mecanismo de licenciamento
+* Como uma licença medida – um novo mecanismo de licenciamento
 
-#### Carregando o arquivo Licença
+#### Carregando o arquivo de licença
 
-Em Aspose.Words para Android via via via via Java, a licença pode ser [Licenciamento e Subscrição](/words/pt/java/licensing/), ou carregado de um fluxo:
+Em Aspose.Words Para Android via Java, a licença pode ser [incorporado como recurso](/words/java/licensing/), ou carregado de um fluxo:
 
-1. Coloque o arquivo de licença em qualquer local **/mnt/sdcard/**.
-1. Criar um fluxo que refere o arquivo.
-1. Passe o fluxo (contendo o arquivo de licença) para o `SetLicense` método.
+1. Coloque o arquivo de licença em qualquer local em **/mnt/sdcard/**.
+1. Crie um fluxo que faça referência ao arquivo.
+1. Passe o fluxo (contendo o arquivo de licença) para o método `SetLicense`.
 
 **Java**
 
@@ -91,11 +91,11 @@ License license = new License();
 license.setLicense(fstream);
 {{< /highlight >}}
 
-Aplicando uma licença de um recurso incorporado. Para acessar a licença como um recurso por nome de um Android arquivo de pacote:
+Aplicar uma licença de um recurso incorporado. Para acessar a licença como um recurso pelo nome de um arquivo de pacote Android:
 
-1. Adicione o arquivo de licença como um recurso ao aplicativo **res/raw** pasta.
-   O arquivo de licença deve ser visível no **res/raw** pasta.
-1. Acesse/carregue a licença do recurso com a seguinte amostra de código.
+1. Adicione o arquivo de licença como um recurso à pasta **res/raw** do seu aplicativo.
+   O arquivo de licença deve estar visível na pasta **res/raw**.
+1. Acesse / carregue a licença do recurso com o seguinte exemplo de código.
 
 **Java**
 
@@ -107,7 +107,7 @@ license.setLicense(inputStream);
 
 #### Aplicar Licença Medida
 
-Aspose.Words permite que os desenvolvedores para aplicar a chave de medição. É um novo mecanismo de licenciamento. O novo mecanismo de licenciamento será usado juntamente com o método de licenciamento existente. Aqueles clientes que querem ser cobrados com base no uso do API recursos podem usar o licenciamento de medição.
+Aspose.Words permite que os desenvolvedores apliquem a chave medida. Trata-se de um novo mecanismo de licenciamento. O novo mecanismo de licenciamento será utilizado juntamente com o método de licenciamento existente. Os clientes que desejam ser cobrados com base no uso dos recursos API podem usar o licenciamento medido.
 
 **Java**
 
@@ -126,23 +126,23 @@ catch (Exception ex)
 }
 {{< /highlight >}}
 
-### Alterar o nome do arquivo de licença
+### Alterar o nome do ficheiro de licença
 
-O nome do arquivo de licença não precisa ser 'Aspose.Words.Android.Java.lic'. Você pode renomeá-lo para qualquer coisa que você gosta e usar esse nome ao chamar `License.SetLicense`.
+O nome do ficheiro de licença não tem de ser 'Aspose.Words.Android.Java.lic'. Você pode renomeá-lo para o que quiser e usar esse nome ao chamar `License.SetLicense`.
 
-### Exceção - Não é possível encontrar nome de arquivo de licença
+### Exception-não é possível encontrar o nome do arquivo da licença
 
-Quando você baixar uma licença que você comprou, o arquivo de licença é nomeado **Aspose.Words.Android.Java** por padrão. O arquivo de licença é baixado através do seu navegador e alguns navegadores reconhecem o arquivo de licença como XML e anexam uma extensão .xml ao nome. O arquivo baixado torna-se **Aspose.Words.Android.Java.lic.XML**.
+Quando você baixa uma licença que comprou, o arquivo de licença é denominado **Aspose.Words.Android.Java.lic** por padrão. O ficheiro de licença é descarregado através do seu navegador e alguns navegadores reconhecem o ficheiro de licença como XML e acrescentam um.extensão xml para o nome. O ficheiro transferido torna-se **Aspose.Words.Android.Java.lic.XML**.
 
-Quando Microsoft Windows está configurado para ocultar extensões de tipos de arquivos conhecidos (infelizmente, isso é padrão na maioria dos Windows instalações), o arquivo de licença está listado como **Aspose.Words.Android.Java** em Windows Explorador. Parece o nome de arquivo esperado. Se ligares `License.SetLicense` e passarAspose.Words.Android.Java.lic', você verá e exceção porque não há tal arquivo
+Quando Microsoft Windows está configurado para Ocultar extensões de tipos de ficheiros conhecidos (infelizmente isto é predefinido na maioria das instalações Windows), o ficheiro de licença é listado como **Aspose.Words.Android.Java.lic** em Windows Explorer. Parece o nome do arquivo esperado. Se você chamar `License.SetLicense` e passar ' Aspose.Words.Android.Java.lic', você verá e exceção porque não existe tal arquivo.
 
-Para resolver o problema, renomeie o arquivo para remover a extensão .xml invisível. Recomendamos que você desative a opção "hide extensions" em Microsoft Windows.
+Para resolver o problema, renomeie o arquivo para remover o invisível .extensão xml. Recomendamos que desative a opção" Ocultar extensões " em Microsoft Windows.
 
-## Usando vários produtos de aspose
+## Utilização De Vários Produtos Aspose
 
-Se você usar vários produtos Aspose em uma aplicação, por exemplo Aspose.Words e `Aspose.Cells`, aqui estão algumas dicas úteis.
+Se utilizar vários produtos Aspose numa aplicação, por exemplo Aspose.Words e `Aspose.Cells`, seguem-se algumas dicas úteis.
 
 - Defina a licença para cada produto Aspose separadamente.
-  Mesmo que você tenha um único arquivo de licença para todos os componentes, por exemplo 'Aspose. Total.Android.Java.lic', você ainda precisa ligar para o `License.SetLicense` método separadamente para cada produto Aspose.
-- Use o nome de classe de licença totalmente qualificado.
-  Cada um Aspose product has a `License` classe em seu namespace. Por exemplo, Aspose.Words tem com.aspose.words. Licença e `Aspose.Cells` tem com.aspose.cells. Classe de licença. Usar o nome de classe totalmente qualificado permite evitar qualquer confusão sobre qual licença é aplicada a qual produto.
+  Mesmo se você tiver um único arquivo de licença para todos os componentes, por exemplo 'Aspose.Total.Android.Java.lic', você ainda precisa chamar o método `License.SetLicense` separadamente para cada produto Aspose.
+- Use um nome de classe de licença totalmente qualificado.
+  Cada produto Aspose tem uma classe `License` no seu namespace. Por exemplo, Aspose.Words tem com.aspose.palavras.Licença e `Aspose.Cells` tem com.aspose.células.Classe de licença. O uso do nome da classe fullyqualified permite evitar qualquer confusão sobre qual licença é aplicada a qual produto.

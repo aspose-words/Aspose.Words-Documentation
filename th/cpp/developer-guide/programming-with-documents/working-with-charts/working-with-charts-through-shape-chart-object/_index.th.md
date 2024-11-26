@@ -1,8 +1,8 @@
 ---
-title: การทำงานกับแผนภูมิผ่าน`Shape.Chart`วัตถุ
+title: การทำงานกับแผนภูมิผ่านShape.Chartวัตถุ
 second_title: Aspose.WordsสำหรับC++
-articleTitle: การทำงานกับแผนภูมิผ่าน`Shape.Chart`วัตถุ
-linktitle: การทำงานกับแผนภูมิผ่าน`Shape.Chart`วัตถุ
+articleTitle: การทำงานกับแผนภูมิผ่านShape.Chartวัตถุ
+linktitle: การทำงานกับแผนภูมิผ่านShape.Chartวัตถุ
 description: "แผนภูมิในรายละเอียดวิธีการเชื่อมโยงกับแผนภูมิโหนดรูปร่างใน Aspose.WordsสำหรับC++."
 type: docs
 weight: 10

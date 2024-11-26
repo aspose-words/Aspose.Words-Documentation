@@ -1,8 +1,8 @@
 ---
-title: עבודה עם מסמך בחנות `SharePoint` באינטרנט
+title: עבודה עם מסמך בחנות SharePoint באינטרנט
 second_title: Aspose.Words עבור .NET
-articleTitle: עבודה עם מסמך בחנות `SharePoint` באינטרנט
-linktitle: עבודה עם מסמך בחנות `SharePoint` באינטרנט
+articleTitle: עבודה עם מסמך בחנות SharePoint באינטרנט
+linktitle: עבודה עם מסמך בחנות SharePoint באינטרנט
 description: "המרת Word משותף SharePoint PDF באמצעות C#. עבודה עם מסמכים מאוחסנים SharePoint - פורמטי קלט שונים, כולל Word, OpenOffice, Image ו- eBook."
 type: docs
 weight: 20

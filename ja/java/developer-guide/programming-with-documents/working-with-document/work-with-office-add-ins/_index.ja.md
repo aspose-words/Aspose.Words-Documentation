@@ -1,41 +1,41 @@
----
-title: Office Add-ins と連携 Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: Office Add-ins と連携
-linktitle: Office Add-ins と連携
-description: "Aspose.Words お問い合わせ Java Office Add-ins と連携するためのさまざまなクラスを提供しています。 Web拡張機能でTask Paneを追加し、ペインとエクステンションプロパティをカスタマイズできます。"
+﻿---
+title: JavaでOfficeアドインを操作する
+second_title: Aspose.WordsのためのJava
+articleTitle: Officeアドインの操作
+linktitle: Officeアドインの操作
+description: "Aspose.WordsforJavaは、Officeアドインを操作するためのさまざまなクラスを提供します。 Web拡張機能を使用して作業ウィンドウを追加し、ペインと拡張機能のプロパティをカスタマイズできます。"
 type: docs
 weight: 50
 url: /ja/java/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---
 
-場合によっては、コードを実行して文書を変更するためのインタフェースコントロールへのアクセス権を与える場合があります。 Aspose.Words API 提供して下さい `WebExtensions` namespace は、Office Add-ins を表すために、XML 語彙を拡張する要素と属性をカスタマイズするために、さまざまなクラスを付与します。
+場合によっては、ドキュメントを変更するコードを実行するインターフェイスコントロールへのアクセスを許可することができます。 Aspose.WordsAPIは`WebExtensions`名前空間を提供し、Officeアドインを表すためのXMLボキャブラリを拡張する要素と属性をカスタマイズするためのさまざまなクラスを付与します。Aspose.WordsAPIは`WebExtensions`名前空間を提供します。
 
-WebExtensions の名前空間は、条件付きに分けられます。
+WebExtensions名前空間は条件付きで次のように分割できます:
 
-* タスクペインを扱うオブジェクト
-* Web拡張機能で動作するオブジェクト
+* 作業ウィンドウを操作するためのオブジェクト
+* Web拡張機能を操作するためのオブジェクト
 
-## タスクパンを使用する
+## タスクペインの使用
 
-タスクペインは、ウィンドウの右側に表示されているインタフェース面です Microsoft Wordお問い合わせ タスクペインを使用すると、ユーザーは、コードを実行して文書を変更することができますインターフェイス制御にアクセスすることができます。
+タスクペインは、ウィンドウの右側にMicrosoft Wordで表示されるインターフェイスサーフェスです。 作業ウィンドウでは、コードを実行してドキュメントを変更できるインターフェイスコントロールにアクセスできます。
 
-例えば、 Aspose.Words API, タスクペインアドオンを追加して外観をカスタマイズできます。
+たとえば、Aspose.WordsAPIを使用すると、作業ウィンドウアドインを追加し、その外観をカスタマイズできます。
 
-## Webエクステンションの使用
+## Web拡張機能の使用
 
-Webエクステンションは、Officeアプリケーションの機能を拡大し、Officeドキュメントコンテンツとやり取りするツールです。 Webエクステンションは、Officeクライアントにユーザーエクスペリエンスを改善するための追加機能を提供します。
+Web拡張機能は、Officeアプリケーションの機能を拡張し、Officeドキュメントコンテンツと対話するツールです。 Web拡張機能は、ユーザー体験を向上させるためのOfficeクライアントに追加の機能を提供します。
 
-Aspose.Words タスクペインタイプのWebエクステンションを追加する機能を提供します。 [WebExtension](https://reference.aspose.com/words/java/com.aspose.words/webextension/) そして、 [TaskPane](https://reference.aspose.com/words/java/com.aspose.words/taskpane/) クラスは、ペインとエクステンションプロパティをカスタマイズすることもできます。
+Aspose.Wordsは、[WebExtension](https://reference.aspose.com/words/java/com.aspose.words/webextension/)クラスと[TaskPane](https://reference.aspose.com/words/java/com.aspose.words/taskpane/)クラスを使用して作業ウィンドウタイプのWeb拡張機能を追加する機能を提供し、ペインと拡張機能のプロパティをカスタマイズす
 
-次のコードの例では、タスクペインを作成し、基本的なプロパティでWeb拡張タスクペインに追加する方法を示します。
+次のコード例は、タスクペインを作成し、基本的なプロパティを使用してweb extensionタスクペインに追加する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-WebExtension-WorkingWithWebExtension-UsingWebExtensionTaskPanes.java" >}}
 
-タスクペインアドインのリストを表示するには、 [WebExtensionTaskPanes](https://reference.aspose.com/words/java/com.aspose.words/document/#getWebExtensionTaskPanes) プロパティ.
+作業ウィンドウアドインの一覧を表示するには、[WebExtensionTaskPanes](https://reference.aspose.com/words/java/com.aspose.words/document/#getWebExtensionTaskPanes)プロパティを使用します。
 
-次のコードの例では、このようなアドインのリストを取得する方法を示します。
+次のコード例は、このようなアドインの一覧を取得する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-WebExtension-WorkingWithWebExtension-GetListOfAddins.java" >}}
 

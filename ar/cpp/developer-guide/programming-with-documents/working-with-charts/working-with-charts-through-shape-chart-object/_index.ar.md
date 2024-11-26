@@ -1,8 +1,8 @@
 ---
-title: العمل مع المخططات من خلال `Shape.Chart` كائن
+title: العمل مع المخططات من خلال Shape.Chart كائن
 second_title: Aspose.Words ل C++
-articleTitle: العمل مع المخططات من خلال `Shape.Chart` كائن
-linktitle: العمل مع المخططات من خلال `Shape.Chart` كائن
+articleTitle: العمل مع المخططات من خلال Shape.Chart كائن
+linktitle: العمل مع المخططات من خلال Shape.Chart كائن
 description: "الرسوم البيانية في التفاصيل، كيف يرتبط الرسم البياني مع عقدة الشكل في Aspose.Words ل C++."
 type: docs
 weight: 10

@@ -1,42 +1,42 @@
----
-title: Trabajando con Watermark en Java
-second_title: Aspose.Words para Java
-articleTitle: Trabajar con Watermark
-linktitle: Trabajar con Watermark
+﻿---
+title: Trabajar con marca de agua en Java
+second_title: Aspose.Words por Java
+articleTitle: Trabajar con Marca de Agua
+linktitle: Trabajar con Marca de Agua
 type: docs
-description: "Manipulación de marca de agua mediante Java."
+description: "Manipulación de marcas de agua de documentos usando Java."
 weight: 70
 url: /es/java/working-with-watermark/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Este tema discute cómo trabajar programáticamente con una marca de agua utilizando Aspose.Words. Una marca de agua es una imagen de fondo que se muestra detrás del texto en un documento. Una marca de agua puede contener un texto o una imagen representada por el [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) clase.
+En este tema se analiza cómo trabajar mediante programación con una marca de agua utilizando Aspose.Words. Una marca de agua es una imagen de fondo que se muestra detrás del texto de un documento. Una marca de agua puede contener un texto o una imagen representada por la clase [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/).
 
 {{% alert color="primary" %}}
 
-**Pruebe en línea**
+**Pruébalo en línea**
 
-Puede probar esta funcionalidad con nuestra [Documento de agua gratis en línea](https://products.aspose.app/words/watermark).
+Puede probar esta funcionalidad con nuestro [Marca de agua gratuita para documentos en línea](https://products.aspose.app/words/watermark).
 
 {{% /alert %}}
 
-## Añadir un Watermark a un documento
+## Agregar una marca de agua a un Documento
 
-In Microsoft Word, una marca de agua se puede insertar fácilmente en un documento utilizando el comando Insert Watermark. Aspose.Words proporciona el [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) clase para añadir o eliminar marca de agua en documentos. Aspose.Words proporciona el [Watermark Tipo](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)enumeración que define tres posibles tipos de marcas de agua (Texto, Imagen y Ninguno) para trabajar con
+En Microsoft Word, se puede insertar fácilmente una marca de agua en un documento mediante el comando Insertar marca de agua. Aspose.Words proporciona la clase [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) para agregar o eliminar marcas de agua en documentos. Aspose.Words proporciona la enumeración [WatermarkType](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)que define tres tipos posibles de marcas de agua (Texto, Imagen y Ninguna) con las que trabajar.
 
-### Agregar texto Watermark
+### Agregar Marca de Agua de Texto
 
-El siguiente ejemplo de código muestra cómo insertar una marca de agua de texto en un documento definiendo [TextWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/textwatermarkoptions/) usando el [SetText](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setText-java.lang.String) método:
+El siguiente ejemplo de código demuestra cómo insertar una marca de agua de texto en un documento definiendo [TextWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/textwatermarkoptions/) con el método [SetText](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setText-java.lang.String):
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddTextWatermarkWithSpecificOptions.java" >}}
 
-### Agregar imagen Watermark
+### Agregar Marca de Agua de Imagen
 
-El siguiente ejemplo de código muestra cómo insertar una marca de imagen en un documento definiendo [ImageWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/imagewatermarkoptions/) usando el [SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.awt.image.BufferedImage) método:
+El siguiente ejemplo de código demuestra cómo insertar una marca de agua de imagen en un documento definiendo [ImageWatermarkOptions](https://reference.aspose.com/words/java/com.aspose.words/imagewatermarkoptions/) con el método [SetImage](https://reference.aspose.com/words/java/com.aspose.words/watermark/#setImage-java.awt.image.BufferedImage):
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-AddImageWatermarkWithSpecificOptions.java" >}}
 
-La marca de agua también se puede insertar usando la clase de forma. Es muy fácil insertar cualquier forma o imagen en un encabezado o un pie de página y crear así una marca de agua de cualquier tipo imaginable.
+La marca de agua también se puede insertar usando la clase shape. Es muy fácil insertar cualquier forma o imagen en un encabezado o pie de página y así crear una marca de agua de cualquier tipo imaginable.
 
 El siguiente ejemplo de código inserta una marca de agua en un documento de Word:
 
@@ -49,17 +49,17 @@ Puede descargar el archivo de muestra de este ejemplo desde [Aspose.Words GitHub
 {{% /alert %}}
 
 
-## Eliminar Watermark de un documento
+## Eliminar marca de agua de un Documento
 
-El [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) la clase proporciona `Remove` método para eliminar la marca de agua de un documento.
+La clase [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) proporciona el método `Remove` para eliminar la marca de agua de un documento.
 
 Los siguientes ejemplos de código muestran cómo eliminar una marca de agua de los documentos:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkWithWatermark-RemoveWatermarkFromDocument.java" >}}
 
-Para eliminar la marca de agua de un documento hay que establecer sólo el nombre de la forma de marca de agua durante la inserción y luego eliminar la forma de marca de agua por un nombre asignado.
+Para eliminar la marca de agua de un documento, debe establecer solo el nombre de la forma de la marca de agua durante la inserción y luego eliminar la forma de la marca de agua con un nombre asignado.
 
-El siguiente ejemplo de código le muestra cómo establecer el nombre de la forma de marca de agua y eliminarlo del documento:
+El siguiente ejemplo de código le muestra cómo establecer el nombre de la forma de la marca de agua y eliminarla del documento:
 
 {{< highlight csharp >}}
 
@@ -69,10 +69,10 @@ watermark.Name("WaterMark");
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-RemoveWatermark-RemoveWatermark.java" >}}
 
-## Añadir una marca de agua en una celda de mesa
+## Agregar una Marca de Agua a una Celda de la tabla
 
-A veces necesitas insertar una marca de agua/imagen en la celda de una mesa y mostrarla fuera de la mesa, puedes usar [IsLayoutInCell](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#isLayoutInCell-boolean) propiedad. Esta propiedad obtiene o establece una bandera indicando si la forma se muestra dentro de una tabla o fuera de ella. Tenga en cuenta que esta propiedad funciona sólo cuando optimiza el documento para Microsoft Word 2010 utilizando el [OptimizeFor](https://reference.aspose.com/words/java/com.aspose.words/compatibilityoptions/#optimizeFor-int) método
+A veces necesita insertar una marca de agua/imagen en la celda de una tabla y mostrarla fuera de la tabla, puede usar la propiedad [IsLayoutInCell](https://reference.aspose.com/words/java/com.aspose.words/shapebase/#isLayoutInCell-boolean). Esta propiedad obtiene o establece un indicador que indica si la forma se muestra dentro de una tabla o fuera de ella. Tenga en cuenta que esta propiedad solo funciona cuando optimiza el documento para Microsoft Word 2010 utilizando el método [OptimizeFor](https://reference.aspose.com/words/java/com.aspose.words/compatibilityoptions/#optimizeFor-int).
 
-El siguiente ejemplo de código muestra cómo utilizar esta propiedad:
+El siguiente ejemplo de código muestra cómo usar esta propiedad:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-SetShapeLayoutInCell.java" >}}

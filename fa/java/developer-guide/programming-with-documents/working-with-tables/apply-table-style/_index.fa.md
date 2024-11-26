@@ -1,75 +1,75 @@
----
-title: کار با Table Styles در Java
+﻿---
+title: کار با استایل های جدول در Java
 second_title: Aspose.Words برای Java
-articleTitle: گزینه Table Style
-linktitle: گزینه Table Style
-description: "Advanced Table Format Java... ایجاد یک سبک جدول با استفاده از Java... مقدمه ای بر فرمت جدول پیشرفته، سبک های جدول با استفاده از Java..."
+articleTitle: اعمال سبک جدول
+linktitle: اعمال سبک جدول
+description: "فرمت جدول پیشرفته Java. با استفاده از Java یک سبک جدول ایجاد کنید. مقدمه ای بر قالب بندی پیشرفته جدول، سبک های جدول با استفاده از Java."
 type: docs
 weight: 80
 url: /fa/java/working-with-tablestyle/
 timestamp: 2024-01-27-14-07-04
 ---
 
-یک سبک جدول مجموعه ای از قالب بندی را تعریف می کند که به راحتی می تواند به یک میز اعمال شود. فرمت کردن مانند مرزها، سایه، تراز و فونت را می توان در یک سبک جدول تنظیم کرد و برای بسیاری از جداول برای ظاهر ثابت اعمال می شود.
+یک سبک جدول مجموعه ای از قالب بندی را تعریف می کند که به راحتی می تواند به یک جدول اعمال شود. قالب بندی مانند مرزها، سایه، تراز و فونت را می توان در یک سبک جدول تنظیم کرد و برای ظاهر سازگار به بسیاری از جداول اعمال کرد.
 
-Aspose.Words از استفاده از یک سبک جدول به یک میز و همچنین خواندن ویژگی های هر سبک جدول پشتیبانی می کند. سبک های جدول در هنگام بارگذاری و صرفه جویی در روش های زیر حفظ می شوند:
+Aspose.Words از اعمال یک سبک جدول به یک جدول و همچنین خواص خواندن هر سبک جدول پشتیبانی می کند. سبک های جدول در هنگام بارگذاری و صرفه جویی به روش های زیر حفظ می شوند:
 
-- سبک های جدول در فرمت های DOCX و WordML در هنگام بارگیری و صرفه جویی در این فرمت ها حفظ می شوند
-- سبک های جدول هنگام بارگیری و صرفه جویی در فرمت DOC (اما نه به هر فرمت دیگر) حفظ می شوند
-- هنگام صادرات به فرمت های دیگر، رندر یا چاپ، سبک های جدول به فرمت مستقیم در جدول گسترش می یابد، بنابراین همه قالب بندی حفظ شده است
+- سبک های جدول در فرمت های DOCX و WordML هنگام بارگذاری و ذخیره به این فرمت ها حفظ می شوند
+- سبک های جدول هنگام بارگذاری و ذخیره در فرمت DOC حفظ می شوند (اما نه به هر فرمت دیگر)
+- هنگام صادرات به فرمت های دیگر، رندر یا چاپ، سبک های جدول به قالب بندی مستقیم در جدول گسترش می یابد، بنابراین تمام قالب بندی حفظ می شود
 
-## ایجاد یک Table Style
+## ایجاد یک سبک جدول
 
-کاربر می تواند یک سبک جدید ایجاد کند و آن را به مجموعه سبک اضافه کند. The The The The The The [Add](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) روش برای ایجاد یک سبک جدول جدید استفاده می شود.
+کاربر می تواند یک سبک جدید ایجاد کند و آن را به مجموعه سبک اضافه کند. روش [Add](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) برای ایجاد یک سبک جدول جدید استفاده می شود.
 
-مثال کد زیر نشان می دهد که چگونه یک سبک جدول تعریف شده جدید ایجاد کنیم:
+مثال کد زیر نشان می دهد که چگونه یک سبک جدول تعریف شده توسط کاربر جدید ایجاد کنیم:
 
 {{< gist "aspose-words-gists" "f1d06175603c48e6dabf5a2eea01207c" "create-table-style.java" >}}
 
-## کپی از Table Style
+## یک سبک جدول موجود را کپی کنید
 
-در صورت لزوم، شما می توانید یک سبک جدول که در حال حاضر در یک سند خاص در مجموعه سبک خود با استفاده از مجموعه سبک خود وجود دارد را کپی کنید. `AddCopy` روش
+در صورت لزوم، می توانید یک سبک جدول که قبلا در یک سند خاص وجود دارد را با استفاده از روش `AddCopy` در مجموعه سبک خود کپی کنید.
 
 مهم است بدانید که با این کپی، سبک های مرتبط نیز کپی می شوند.
 
-مثال کد زیر نشان می دهد که چگونه یک سبک را از یک سند به یک سند دیگر وارد کنید:
+مثال کد زیر نشان می دهد که چگونه یک سبک را از یک سند به سند دیگر وارد کنید:
 
 {{< gist "aspose-words-gists" "f1d06175603c48e6dabf5a2eea01207c" "copy-style-different-document.java" >}}
 
-## استفاده از Table Style
+## یک سبک جدول موجود را اعمال کنید
 
-Aspose.Words فراهم می کند [TableStyle](https://reference.aspose.com/words/java/com.aspose.words/tablestyle/) به ارث برده شده از [Style](https://reference.aspose.com/words/java/com.aspose.words/style/) کلاس **TableStyle** کاربر را تسهیل می کند تا گزینه های مختلف سبک مانند سایه، padding، indentation، [CellSpacing](https://reference.aspose.com/words/java/com.aspose.words/tablestyle/#getCellSpacing) و [Font](https://reference.aspose.com/words/java/com.aspose.words/tablestyle/#getFont), و غیره
+Aspose.Words یک [TableStyle](https://reference.aspose.com/words/java/com.aspose.words/tablestyle/) را از کلاس [Style](https://reference.aspose.com/words/java/com.aspose.words/style/) به ارث می برد. **TableStyle** کاربر را تسهیل می کند تا گزینه های سبک مختلف مانند سایه، پودینگ، تورفتگی، [CellSpacing](https://reference.aspose.com/words/java/com.aspose.words/tablestyle/#getCellSpacing) و [Font](https://reference.aspose.com/words/java/com.aspose.words/tablestyle/#getFont) و غیره را اعمال کند.
 
-علاوه بر این، Aspose.Words فراهم می کند [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) کلاس و چند ویژگی از `Table` کلاس برای مشخص کردن سبک جدول ما با: [Style](https://reference.aspose.com/words/java/com.aspose.words/table/#getStyle), [StyleIdentifier](https://reference.aspose.com/words/java/com.aspose.words/table/#setStyleIdentifier-int), [StyleName](https://reference.aspose.com/words/java/com.aspose.words/table/#getStyleName), و [StyleOptions](https://reference.aspose.com/words/java/com.aspose.words/table/#setStyleOptions-int)...
+علاوه بر این، Aspose.Words کلاس [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) و چند ویژگی از کلاس `Table` را برای مشخص کردن سبک جدول که با آن کار خواهیم کرد، فراهم می کند: [Style](https://reference.aspose.com/words/java/com.aspose.words/table/#getStyle), [StyleIdentifier](https://reference.aspose.com/words/java/com.aspose.words/table/#setStyleIdentifier-int), [StyleName](https://reference.aspose.com/words/java/com.aspose.words/table/#getStyleName), و [StyleOptions](https://reference.aspose.com/words/java/com.aspose.words/table/#setStyleOptions-int).
 
-Aspose.Words همچنین [ConditionalStyle](https://reference.aspose.com/words/java/com.aspose.words/conditionalstyle/) کلاس که نشان دهنده قالب بندی خاص اعمال شده در برخی از زمینه های یک میز با سبک جدول اختصاص داده شده، و [ConditionalStyleCollection](https://reference.aspose.com/words/java/com.aspose.words/conditionalstylecollection/) این نشان دهنده مجموعه ای از **ConditionalStyle** اشیاء این مجموعه شامل مجموعه ای دائمی از اقلام است که یک مورد را برای هر مقدار از ارزش نمایندگی می کند. [ConditionalStyleType](https://reference.aspose.com/words/java/com.aspose.words/conditionalstyletype/) نوع تزریق The The The The The The **ConditionalStyleType** enumeration تمام زمینه های جدول ممکن را تعریف می کند که ممکن است قالب بندی مشروط در یک سبک جدول تعریف شود.
+Aspose.Words همچنین کلاس [ConditionalStyle](https://reference.aspose.com/words/java/com.aspose.words/conditionalstyle/) را ارائه می دهد که نشان دهنده قالب بندی ویژه ای است که به برخی از مناطق یک جدول با یک سبک جدول اختصاص داده شده اعمال می شود و [ConditionalStyleCollection](https://reference.aspose.com/words/java/com.aspose.words/conditionalstylecollection/) که نشان دهنده مجموعه ای از **ConditionalStyle** اشیاء است. این مجموعه شامل مجموعه ای دائمی از آیتم ها است که یک آیتم را برای هر مقدار از نوع شمارش [ConditionalStyleType](https://reference.aspose.com/words/java/com.aspose.words/conditionalstyletype/) نشان می دهد. **ConditionalStyleType** شمارش تمام مناطق جدول ممکن را تعریف می کند که قالب بندی مشروط را می توان در یک سبک جدول تعریف کرد.
 
-در این مورد، قالب بندی مشروط می تواند برای تمام منطقه جدول ممکن تعریف شده تحت نوع تزریق ConditionalStyleType تعریف شود.
+در این مورد، قالب بندی مشروط را می توان برای تمام مساحت جدول ممکن تعریف شده در نوع ConditionalStyleType شمارش تعریف کرد.
 
-مثال کد زیر نشان می دهد که چگونه قالب بندی مشروط را برای ردیف سر میز تعریف کنیم:
+مثال کد زیر نشان می دهد که چگونه قالب بندی مشروط برای ردیف سر جدول را تعریف کنیم:
 
 {{< gist "aspose-words-gists" "f1d06175603c48e6dabf5a2eea01207c" "define-conditional-formatting.java" >}}
 
-شما همچنین می توانید انتخاب کنید که کدام قسمت های جدول برای اعمال سبک هایی مانند ستون اول، ستون آخر، ردیف های دسته بندی شده است. آنها در فهرست ذکر شده اند. [TableStyleOptions](https://reference.aspose.com/words/java/com.aspose.words/tablestyleoptions/) و از طریق [StyleOptions](https://reference.aspose.com/words/java/com.aspose.words/table/#getStyleOptions) مالکیت The The The The The The **TableStyleOptions** تزریق اجازه می دهد تا یک ترکیب کمی عاقلانه از این ویژگی ها.
+همچنین می توانید انتخاب کنید که کدام قسمت های جدول را به سبک ها اعمال کنید، مانند ستون اول، ستون آخر، ردیف های نوار دار. آنها در فهرست [TableStyleOptions](https://reference.aspose.com/words/java/com.aspose.words/tablestyleoptions/) ذکر شده اند و از طریق ویژگی [StyleOptions](https://reference.aspose.com/words/java/com.aspose.words/table/#getStyleOptions) اعمال می شوند. شمارش **TableStyleOptions** اجازه می دهد تا ترکیبی بیت به بیت از این ویژگی ها باشد.
 
-مثال کد زیر نشان می دهد که چگونه یک میز جدید را با یک سبک جدول ایجاد کنیم:
+مثال کد زیر نشان می دهد که چگونه یک جدول جدید با یک سبک جدول اعمال شده ایجاد کنید:
 
 {{< gist "aspose-words-gists" "f1d06175603c48e6dabf5a2eea01207c" "build-table-with-style.java" >}}
 
-تصاویر زیر نشان دهنده یک نمایندگی از **Table Styles** در Microsoft Word و خواص آن در Aspose.Words...
+تصاویر زیر نمایانگر **Table Styles** در Microsoft Word و خواص مربوطه آنها در Aspose.Words است.
 
 ![table-style-aspose-words-java](/words/java/working-with-tablestyle/working-with-table-styles-1.png)
 
-## از Table Style فرمت کنید و آن را به عنوان فرمت مستقیم اعمال کنید
+## قالب بندی را از سبک جدول بگیرید و آن را به عنوان قالب بندی مستقیم اعمال کنید
 
-Aspose.Words همچنین فراهم می کند [ExpandTableStylesToDirectFormatting](https://reference.aspose.com/words/java/com.aspose.words/document/#expandTableStylesToDirectFormatting) روش برای گرفتن قالب بندی موجود در سبک جدول و گسترش آن بر روی ردیف ها و سلول های جدول به عنوان قالب بندی مستقیم. سعی کنید قالب بندی را با سبک جدول و سبک سلول ترکیب کنید.
+Aspose.Words همچنین روش [ExpandTableStylesToDirectFormatting](https://reference.aspose.com/words/java/com.aspose.words/document/#expandTableStylesToDirectFormatting) را برای قالب بندی در یک سبک جدول فراهم می کند و آن را به ردیف ها و سلول های جدول به عنوان قالب بندی مستقیم گسترش می دهد. سعی کنید قالب بندی را با سبک جدول و سبک سلول ترکیب کنید.
 
 {{% alert color="primary" %}}
 
-این روش هیچ قالب بندی دیگری را که قبلا در جدول از طریق یک فرمت ردیف یا سلول اعمال می شود، نادیده نمی گیرد.
+این روش هیچ فرمت دیگری را که قبلا از طریق یک ردیف یا فرمت سلولی به جدول اعمال شده است، نادیده نمی گیرد.
 
 {{% /alert %}}
 
-مثال کد زیر نشان می دهد که چگونه قالب بندی را از سبک های روی ردیف های جدول و سلول ها به عنوان قالب بندی مستقیم گسترش دهید:
+مثال کد زیر نشان می دهد که چگونه قالب بندی را از سبک ها به ردیف های جدول و سلول ها به عنوان قالب بندی مستقیم گسترش دهیم:
 
 {{< gist "aspose-words-gists" "f1d06175603c48e6dabf5a2eea01207c" "expand-formatting-on-cells-and-row-from-style.java" >}}

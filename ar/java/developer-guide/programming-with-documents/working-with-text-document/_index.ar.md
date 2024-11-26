@@ -1,80 +1,80 @@
----
-title: العمل مع الوثيقة النصية Java
-second_title: Aspose.Words for Java
-articleTitle: العمل مع وثيقة النص
-linktitle: العمل مع وثيقة النص
-description: "Advanced TXT document processing, lists, BiDi, headers/ footer, using Java."
+﻿---
+title: العمل مع مستند نصي في Java
+second_title: Aspose.Words ل Java
+articleTitle: العمل مع مستند نصي
+linktitle: العمل مع مستند نصي
+description: "متقدم TXT معالجة المستندات، القوائم، BiDi، الرؤوس / التذييل، باستخدام Java."
 type: docs
 weight: 430
 url: /ar/java/working-with-text-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-وسنتعلم في هذه المادة الخيارات التي يمكن أن تكون مفيدة للعمل مع وثيقة نصية عن طريق Aspose.Words. ويرجى ملاحظة أن هذه ليست قائمة كاملة بالخيارات المتاحة، بل مجرد مثال على العمل مع بعضها.
+في هذه المقالة، سنتعرف على الخيارات التي يمكن أن تكون مفيدة للعمل مع مستند نصي عبر Aspose.Words. يرجى ملاحظة أن هذه ليست قائمة كاملة بالخيارات المتاحة، ولكنها مجرد مثال على العمل مع بعضها.
 
-## مضافا إليه العلامات
+## أضف علامات ثنائية الاتجاه
 
-يمكنك استخدام [AddBidiMarks](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getAddBidiMarks) (ب) أن تحدد الممتلكات ما إذا كان ينبغي إضافة علامات ذات اتجاهين قبل أن يبدأ كل قرص بي دي عند التصدير في شكل نص عادي. Aspose.Words يُدخلُ Unicode Character 'Right-to-LEFT MARK' (U+200F) قبل كُلّ ركض ذي اتجاهين في النصِ. هذا الخيار مطابق لخيار "العلامات ذات الاتجاهين" في "إم إس وورد فايل" Note that it appears in dialog only if any of the Arabic or Hebrew editing languages are added in MS Word.
+يمكنك استخدام الخاصية [AddBidiMarks](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getAddBidiMarks) لتحديد ما إذا كنت تريد إضافة علامات ثنائية الاتجاه قبل تشغيل كل BiDi عند التصدير بتنسيق نص عادي. Aspose.Words إدراج حرف يونيكود 'RIGHT-TO-LEFT MARK' (ش + 200 فهرنهايت) قبل كل تشغيل ثنائي الاتجاه في النص. يتوافق هذا الخيار مع خيار" إضافة علامات ثنائية الاتجاه " في مربع حوار تحويل ملف كلمة MS عند التصدير إلى تنسيق نص عادي. لاحظ أنه يظهر في مربع الحوار فقط إذا تمت إضافة أي من لغات التحرير العربية أو العبرية في MS كلمة.
 
-The following code example shows how to use `TxtSaveOptions.AddBidiMarks` ملكية القيمة الافتراضية لهذه الممتلكات هي *true*:
+يوضح مثال الكود التالي كيفية استخدام خاصية `TxtSaveOptions.AddBidiMarks`. القيمة الافتراضية لهذه الخاصية هي *true*:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-AddBidiMarks.java" >}}
 
-## Recognize List Items During Loading TXT
+## التعرف على عناصر القائمة أثناء التحميل TXT
 
-Aspose.Words يمكن أن تستورد قائمة ببند من ملف نصي كأرقام قائمة أو نص واضح في نموذج الجسم المستندي. The [DetectNumberingWithWhitespaces](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getDetectNumberingWithWhitespaces) وتسمح الممتلكات بتحديد الكيفية التي يتم بها الاعتراف بالبنود المدرجة في القائمة عندما يتم استيراد وثيقة من صيغة النص المبسط:
+Aspose.Words يمكن استيراد عنصر قائمة ملف نصي كأرقام قائمة أو نص عادي في نموذج كائن المستند الخاص به. تسمح الخاصية [DetectNumberingWithWhitespaces](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getDetectNumberingWithWhitespaces) بتحديد كيفية التعرف على عناصر القائمة المرقمة عند استيراد مستند من تنسيق نص عادي:
 
-* ♪ إذا كان هذا الخيار جاهزاً *true*, وتُستخدم الأماكن البيضاء أيضاً كمعينين للقائمة: خوارزميات للتعرف على القائمة من أجل الترقيم باللغة العربية (1، 1-1-2) تستخدم كلاً من الأماكن البيضاء والرموز ().
-* ♪ إذا كان هذا الخيار جاهزاً *false*, تكتشف القائمة جوز الهند فقرات قائمة، عندما تنتهي أرقام القائمة إما بالنقاط أو الأقواس اليمنى أو رموز الرصاصات (مثل "
+* إذا تم تعيين هذا الخيار على *true*، يتم استخدام المسافات البيضاء أيضا كمحددات لأرقام القائمة: خوارزمية التعرف على القائمة لترقيم النمط العربي (1., 1.1.2.) يستخدم كل من المسافات البيضاء والرموز النقطية (".").
+* إذا تم تعيين هذا الخيار على *false*، تكتشف خوارزمية التعرف على القوائم فقرات القائمة، عندما تنتهي أرقام القائمة إما برموز نقطية أو قوس يمين أو رمز نقطي (مثل "•", "*", "-" أو "o").
 
-The following code example shows how to use this property:
+يوضح مثال التعليمات البرمجية التالية كيفية استخدام هذه الخاصية:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-DetectNumberingWithWhitespaces.java" >}}
 
-## Handle Leading and Trailing Spaces during Loading TXT
+## التعامل مع المساحات الرائدة والزائدة أثناء التحميل TXT
 
-يمكنك التحكم في طريقة التعامل مع أماكن القيادة وتتبعها أثناء تحميل ملفات TXT. ويمكن تثبيط المساحات القيادية أو حفظها أو تحويلها إلى أماكن للاقتحام والتعقب أو الحفاظ عليها.
+يمكنك التحكم في طريقة التعامل مع المسافات البادئة والزائدة أثناء تحميل TXT الملفات. يمكن قطع المساحات الرائدة أو حفظها أو تحويلها إلى مسافة بادئة ويمكن قطع المساحات الخلفية أو حفظها.
 
-ويبيّن المثال الرمزي الوارد أدناه كيفية تذليل المساحات القيادية والمخلفة مع استيراد ملف TXT:
+يوضح مثال الكود الموضح أدناه كيفية تقليم المسافات البادئة والزائدة أثناء استيراد ملف TXT:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-HandleSpacesOptions.java" >}}
 
-## الوثيقة المحددة النص
+## كشف اتجاه نص المستند
 
-Aspose.Words توفير [DocumentDirection](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getDocumentDirection) الممتلكات [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) درجة لكشف اتجاه النص (RTL/LTR) في الوثيقة. تحدد هذه الممتلكات أو تحصل على توجيهات نصوص الوثائق المقدمة في [DocumentDirection](https://reference.aspose.com/words/java/com.aspose.words/documentdirection/) العد القيمة الافتراضية تترك لليمين
+Aspose.Words يوفر [DocumentDirection](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/#getDocumentDirection) خاصية في [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) فئة للكشف عن اتجاه النص (RTL / LTR) في المستند. تقوم هذه الخاصية بتعيين أو الحصول على توجيهات نص المستند الواردة في [DocumentDirection](https://reference.aspose.com/words/java/com.aspose.words/documentdirection/) التعداد. يتم ترك القيمة الافتراضية إلى اليمين.
 
-The following code example shows how to detect the text direction of the document while importing the TXT file:
+يوضح مثال التعليمات البرمجية التالية كيفية اكتشاف اتجاه نص المستند أثناء استيراد ملف TXT:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-DocumentTextDirection.java" >}}
 
-## الجهة المصدرة الرئيسية وشركة Footer in Output TXT File
+## تصدير رأس وتذييل الصفحة في الإخراج TXT ملف
 
-إذا كنت تريد أن تُصدّر رأس وأقدام في وثيقة الإنتاج TXT، يمكنك استخدام [ExportHeadersFootersMode](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getExportHeadersFootersMode) ملكية وتحدد هذه الممتلكات الطريقة التي يُصدَّر بها الرعاة والقدمان إلى شكل النص العادي.
+إذا كنت تريد تصدير الرأس والتذييل في مستند الإخراج TXT، فيمكنك استخدام الخاصية [ExportHeadersFootersMode](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getExportHeadersFootersMode). تحدد هذه الخاصية طريقة تصدير الرؤوس والتذييلات إلى تنسيق النص العادي.
 
-ويبيّن المثال الرمزي التالي كيف يُصدّر رأسا وأقدام على شكل نص مبسط:
+يوضح مثال الكود التالي كيفية تصدير الرؤوس والتذييلات إلى تنسيق نص عادي:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-ExportHeadersFootersMode.java" >}}
 
-## قائمة الصادرات
+## قائمة التصدير المسافة البادئة في الإخراج TXT
 
-Aspose.Words مقدمة [TxtListIndentation](https://reference.aspose.com/words/java/com.aspose.words/txtlistindentation/) الدرجة التي تسمح بتحديد كيفية تحديد مستويات القائمة عند تصديرها إلى صيغة نصية واضحة. أثناء العمل [TxtSaveOption](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/), the [ListIndentation](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getListIndentation) وتُقدَّم الممتلكات لتحديد الطابع الذي ينبغي استخدامه في تحديد مستويات قوائم الدخول، مع تحديد عدد الشخصيات التي تستخدم كموقع للقائمة الواحدة.
+Aspose.Words قدم [TxtListIndentation](https://reference.aspose.com/words/java/com.aspose.words/txtlistindentation/) فئة تسمح بتحديد كيفية وضع مسافة بادئة لمستويات القائمة أثناء التصدير إلى تنسيق نص عادي. أثناء العمل مع [TxtSaveOption](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/)، يتم توفير الخاصية [ListIndentation](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getListIndentation) لتحديد الحرف الذي سيتم استخدامه لمستويات القائمة البادئة والعد الذي يحدد عدد الأحرف التي يجب استخدامها كمسافة بادئة لكل مستوى قائمة واحد.
 
-القيمة الافتراضية لممتلكات الشخصية تشير إلى أنه لا يوجد أي حادث بالنسبة للممتلكات المحسوبة، القيمة الافتراضية هي صفر مما يعني عدم التعرض.
+القيمة الافتراضية لخاصية الحرف هي '\0' تشير إلى عدم وجود مسافة بادئة. لخاصية العد، القيمة الافتراضية هي 0 مما يعني عدم وجود مسافة بادئة.
 
-### مستخدما علامة تاب
+### باستخدام حرف علامة التبويب
 
-The following code example shows how to export list levels using tab characters:
+يوضح مثال الكود التالي كيفية تصدير مستويات القائمة باستخدام أحرف علامة التبويب:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-useTabCharacterPerLevelForListIndentation.java" >}}
 
-### استخدام المفاعل الفضائي
+### استخدام حرف الفضاء
 
-ويبيّن المثال الرمزي التالي كيف تُصدّر مستويات القائمة باستخدام السمات الفضائية:
+يوضح مثال الكود التالي كيفية تصدير مستويات القائمة باستخدام أحرف المسافة:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-useSpaceCharacterPerLevelForListIndentation.java" >}}
 
-### استخدام تحديد الهوية
+### استخدام المسافة البادئة الافتراضية
 
-The following code example shows how to export list levels using default indentation:
+يوضح مثال الكود التالي كيفية تصدير مستويات القائمة باستخدام المسافة البادئة الافتراضية:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-defaultLevelForListIndentation.java" >}}

@@ -1,42 +1,42 @@
----
-title: استفاده از فرمت سفارشی به فیلد ها
+﻿---
+title: اعمال قالب بندی سفارشی به زمینه ها
 second_title: Aspose.Words برای Java
-articleTitle: استفاده از فرمت سفارشی به فیلد ها
-linktitle: استفاده از فرمت سفارشی به فیلد ها
-description: "فرمت و ارزیابی زمینه ها با استفاده از Java..."
+articleTitle: اعمال قالب بندی سفارشی به زمینه ها
+linktitle: اعمال قالب بندی سفارشی به زمینه ها
+description: "نتیجه فیلد ها را با استفاده از Java فرمت و ارزیابی کنید."
 type: docs
 weight: 40
 url: /fa/java/applying-custom-formatting-to-fields/
 timestamp: 2024-01-27-14-07-04
 ---
 
-گاهی اوقات کاربران باید قالب بندی سفارشی را به زمینه ها اعمال کنند. در این مقاله نگاهی به چند نمونه از چگونگی انجام این کار خواهیم کرد.
+گاهی اوقات کاربران باید قالب بندی سفارشی را به زمینه ها اعمال کنند. در این مقاله، ما به چند نمونه از چگونگی انجام این کار نگاه خواهیم کرد.
 
-برای یادگیری گزینه های بیشتر، لیست کامل خواص برای هر نوع زمینه در کلاس مربوطه را ببینید.
+برای کسب اطلاعات بیشتر در مورد گزینه ها، لیست کامل ویژگی های هر نوع فیلد در کلاس مربوطه را ببینید.
 
-## چگونگی استفاده از فرمت سفارشی به نتیجه فیلد
+## چگونه قالب بندی سفارشی را به نتیجه فیلد اعمال کنیم
 
-Aspose.Words فراهم می کند API برای قالب بندی سفارشی نتیجه زمینه می توانید پیاده سازی کنید [IFieldResultFormatter](https://reference.aspose.com/words/java/com.aspose.words/ifieldresultformatter/) رابط برای کنترل اینکه چگونه نتیجه زمینه فرمت شده است. شما می توانید تغییر فرمت عددی را اعمال کنید، به عنوان مثال، ###، تاریخ / سوئیچ فرمت زمان، به عنوان مثال، "d.MM.yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy" و سوئیچ فرمت فرمت number، و سوئیچ فرمت فرمت فرمت فرمت number، و سوئیچ فرمت number، و سوئیچ فرمت فرمت number، به عنوان مثال، i. \. \. \، به عنوان مثال \. \. \.
+Aspose.Words API را برای قالب بندی سفارشی نتیجه فیلد فراهم می کند. شما می توانید رابط [IFieldResultFormatter](https://reference.aspose.com/words/java/com.aspose.words/ifieldresultformatter/) را برای کنترل نحوه قالب بندی نتیجه فیلد پیاده سازی کنید. شما می توانید سوئیچ فرمت عددی، یعنی \# "#.##"، سوئیچ فرمت تاریخ/زمان، یعنی \@ "dd.MM.yyyy" و سوئیچ فرمت عدد، یعنی \* Ordinal را اعمال کنید.
 
-مثال کد زیر نشان می دهد که چگونه قالب بندی سفارشی را برای نتیجه زمینه اعمال کنید.
+مثال کد زیر نشان می دهد که چگونه قالب بندی سفارشی را برای نتیجه فیلد اعمال کنید.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormatFieldResult-FormatFieldResult.java" >}}
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FieldResultFormatter-FieldResultFormatter.java" >}}
 
-## چگونه ارزیابی کنیم `IF` شرایط
+## چگونه وضعیت `IF` را ارزیابی کنیم
 
-اگر می خواهید ارزیابی کنید `IF` وضعیت بعد از mail merge, می توانید از آن استفاده کنید [EvaluateCondition](https://reference.aspose.com/words/java/com.aspose.words/fieldif/#evaluateCondition) این روش بلافاصله نتیجه ارزیابی بیان را برگرداند.
+اگر می خواهید شرایط `IF` را پس از mail merge ارزیابی کنید، می توانید از روش [EvaluateCondition](https://reference.aspose.com/words/java/com.aspose.words/fieldif/#evaluateCondition) استفاده کنید که بلافاصله نتیجه ارزیابی عبارت را باز می گرداند.
 
 مثال کد زیر نشان می دهد که چگونه از این روش استفاده کنید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-EvaluateIFCondition-EvaluateIFCondition.java" >}}
 
-## چگونگی استفاده از قالب بندی سفارشی به Time Field
+## چگونه قالب بندی سفارشی را به فیلد زمان اعمال کنیم
 
-به طور پیش فرض Aspose.Words به روز رسانی `TIME` زمینه با فرمت زمان کوتاه فرهنگ فعلی اگر می خواهید فرمت کنید `TIME` با توجه به نیاز شما، شما می توانید با اجرای این کار را انجام دهید [IFieldUpdateCultureProvider](https://reference.aspose.com/words/java/com.aspose.words/ifieldupdatecultureprovider/) رابط
+به طور پیش فرض Aspose.Words به روز رسانی `TIME` زمینه با فرهنگ فعلی فرمت کوتاه مدت. اگر می خواهید فیلد `TIME` را با توجه به نیاز خود فرمت کنید، می توانید با پیاده سازی رابط [IFieldUpdateCultureProvider](https://reference.aspose.com/words/java/com.aspose.words/ifieldupdatecultureprovider/) به این هدف برسید.
 
-مثال های کد زیر نشان می دهد که چگونه قالب بندی سفارشی را به قالب بندی سفارشی اعمال کنیم. `TIME` فیلد:
+نمونه های کد زیر نشان می دهد که چگونه قالب بندی سفارشی را به فیلد `TIME` اعمال کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FieldUpdateCulture-FieldUpdateCulture.java" >}}
 

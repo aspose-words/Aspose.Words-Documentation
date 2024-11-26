@@ -1,8 +1,8 @@
----
-title: Trabalho com assinaturas digitais em Java
+﻿---
+title: Trabalhar com assinaturas digitais em Java
 second_title: Aspose.Words para Java
-articleTitle: Trabalho com assinaturas digitais
-linktitle: Trabalho com assinaturas digitais
+articleTitle: Trabalhar com assinaturas digitais
+linktitle: Trabalhar com assinaturas digitais
 description: "Assine documentos digitalmente e detecte, conte, verifique e remova assinaturas digitais existentes usando Java."
 type: docs
 weight: 30
@@ -10,15 +10,15 @@ url: /pt/java/working-with-digital-signatures/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Uma assinatura digital é uma implementação tecnológica de assinaturas eletrônicas para assinar documentos e autenticar o assinante para garantir que um documento não foi modificado desde que foi assinado. Cada assinatura digital é única para cada assinante por seguir o protocolo PKI para gerar chaves públicas e privadas. Assinar um documento digitalmente significa criar uma assinatura usando a chave privada do signer, onde um algoritmo matemático é usado para criptografar o hash gerado.
+Uma assinatura digital é uma implementação tecnológica de assinaturas eletrónicas para assinar documentos e autenticar o signatário para garantir que um documento não foi modificado desde a sua assinatura. Cada assinatura digital é única para cada signatário, pois segue o protocolo PKI para gerar chaves públicas e privadas. Assinar um documento digitalmente significa criar uma assinatura usando a chave privada do signatário, onde um algoritmo matemático é usado para criptografar o hash gerado.
 
-Aspose.Words permite detectar, contar ou verificar as assinaturas digitais existentes, e também adicionar uma nova assinatura ao seu documento para descobrir qualquer adulteração nele. Você também pode remover todas as assinaturas digitais de um documento. Use o [DigitalSignatureUtil](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/) classe para trabalhar com assinaturas digitais.
+Aspose.Words permite detectar, contar ou verificar assinaturas digitais existentes e também adicionar uma nova assinatura ao seu documento para descobrir qualquer adulteração nele. Também é possível remover todas as assinaturas digitais de um documento. Use a classe [DigitalSignatureUtil](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/) para trabalhar com assinaturas digitais.
 
-Este artigo explica como fazer todos os acima para validar a autenticidade e integridade de um documento digital.
+Este artigo explica como fazer tudo o que precede para validar a autenticidade e integridade de um documento digital.
 
 {{% alert color="primary" %}}
 
-Note que você pode acessar assinaturas digitais do seu documento somente quando estiver executando o Java 6 versão e acima.
+Observe que você pode acessar assinaturas digitais de seu documento somente ao executar a versão Java 6 e superior.
 
 {{% /alert %}}
 
@@ -26,90 +26,90 @@ Note que você pode acessar assinaturas digitais do seu documento somente quando
 
 **Experimente online**
 
-Você pode tentar esta funcionalidade com a nossa [Assinatura gratuita online](https://products.aspose.app/words/signature).
+Pode experimentar esta funcionalidade com o nosso [Assinatura online gratuita](https://products.aspose.app/words/signature).
 
 {{% /alert %}}
 
-## Formatos suportados
+## Formatos Suportados
 
-Aspose.Words permite trabalhar com assinaturas digitais em documentos DOC, OOXML e ODT e assinar o documento gerado em PDF ou XPS formato.
+Aspose.Words permite trabalhar com assinaturas digitais em documentos DOC, OOXML e ODT e assinar o documento gerado no formato PDF ou XPS.
 
-## Limitações de assinaturas digitais
+## Limitações das Assinaturas Digitais
 
-A tabela abaixo descreve algumas limitações que você pode enfrentar ao trabalhar com assinaturas digitais através Aspose.Words, bem como algumas opções alternativas.
+A tabela abaixo descreve algumas limitações que você pode enfrentar ao trabalhar com assinaturas digitais através de Aspose.Words, bem como algumas opções alternativas.
 
-|  Limitação |  Opção alternativa |
-|  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  Perda de assinaturas digitais em um documento após carregar e salvá-lo. Portanto, processar um documento para um servidor pode causar a perda de todas as assinaturas digitais sem aviso prévio |  Verifique se um documento tem assinaturas digitais e tome a ação apropriada se algum for encontrado. Por exemplo, envie um alerta para os clientes informando que o documento que eles estão carregando contém assinaturas digitais que serão perdidas se for processado |
-|  Aspose.Words suporta trabalhar com macros em um documento. Mas... Aspose.Words ainda não suporta assinaturas digitais em macros |  Exportar o documento de volta para qualquer formato do Word e usar Microsoft Word para adicionar uma assinatura digital a macros |
+| Limitação | Opção alternativa |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Perda de assinaturas digitais num documento depois de O carregar e guardar. Portanto, o processamento de um documento para um servidor pode causar a perda de todas as assinaturas digitais sem aviso prévio. | Verifique se um documento tem assinaturas digitais e tome as medidas adequadas, se forem encontradas. Por exemplo, enviar um alerta aos clientes informando-os de que o documento que estão a enviar contém assinaturas digitais que serão perdidas se forem processadas. |
+| Aspose.Words suporta trabalhar com macros num documento. Mas Aspose.Words ainda não suporta assinaturas digitais em macros. | Exporte o documento de volta para qualquer formato do Word e utilize Microsoft Word para adicionar uma assinatura digital às macros. |
 
-## Detectar, Contar e Verificar assinaturas digitais
+## Detectar, contar e verificar assinaturas digitais
 
-Aspose.Words permite detectar assinatura digital em um documento usando o [DetectFileFormat](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/#detectFileFormat-java.io.InputStream) método e [HasDigitalSignature](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasDigitalSignature) propriedade. Vale a pena notar que tal verificação só irá detectar o fato da assinatura, mas não sua validade.
+Aspose.Words permite detectar a assinatura digital num documento utilizando o método [DetectFileFormat](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/#detectFileFormat-java.io.InputStream) e a propriedade [HasDigitalSignature](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasDigitalSignature). Vale a pena notar que tal verificação detectará apenas o fato da assinatura, mas não sua validade.
 
-Um documento pode ser assinado mais de uma vez, e isso pode ser feito por diferentes usuários. Para verificar a validade das assinaturas digitais, você precisa carregá-las do documento usando o [LoadSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#loadSignatures-java.io.InputStream) método e usar o [IsValid](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection/#isValid) propriedade. Também Aspose.Words permite que você conte um conjunto de todas as assinaturas digitais dentro de um documento usando o [Count](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection/#getCount) propriedade.
+Um documento pode ser assinado mais de uma vez, e isso pode ser feito por diferentes utilizadores. Para verificar a validade das assinaturas digitais, você precisa carregá-las do documento usando o método [LoadSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#loadSignatures-java.io.InputStream) e usar a propriedade [IsValid](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection/#isValid). Além disso, Aspose.Words permite contar um conjunto de todas as assinaturas digitais dentro de um documento usando a propriedade [Count](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection/#getCount).
 
-Tudo isso fornece uma maneira eficiente e segura de verificar um documento para assinaturas antes de processá-lo.
+Tudo isto proporciona uma forma eficiente e segura de verificar a existência de assinaturas num documento antes de o processar.
 
-O exemplo de código a seguir mostra como detectar a presença de assinaturas digitais e verificar:
+O exemplo de código a seguir mostra como detectar a presença de assinaturas digitais e verificá-las:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "detect-document-signatures.java" >}}
 
 ## Criar uma assinatura digital {#create-a-digital-signature}
 
-Para criar uma assinatura digital, você precisará carregar um certificado de assinatura que confirme a identidade. Quando você envia um documento assinado digitalmente, você também envia seu certificado e chave pública.
+Para criar uma assinatura digital, você precisará carregar um certificado de assinatura que confirme a identidade. Ao enviar um documento assinado digitalmente, você também envia seu certificado e chave pública.
 
-Aspose.Words permite que você crie o certificado X.509, um certificado digital que usa o padrão internacionalmente aceito X.509 PKI para verificar se uma chave pública pertence ao signer incluído dentro do certificado. Para fazer isso, use o [Create](https://reference.aspose.com/words/java/com.aspose.words/certificateholder/#create-byte---java.lang.String) método dentro do [CertificateHolder](https://reference.aspose.com/words/java/com.aspose.words/certificateholder/) classe.
+Aspose.Words permite criar o certificado X. 509, um certificado digital que utiliza a norma X. 509 PKI internacionalmente aceite para verificar se uma chave pública pertence ao signatário incluído no certificado. Para fazer isso, use o método [Create](https://reference.aspose.com/words/java/com.aspose.words/certificateholder/#create-byte---java.lang.String) dentro da classe [CertificateHolder](https://reference.aspose.com/words/java/com.aspose.words/certificateholder/).
 
-As próximas seções explicam como adicionar uma assinatura digital, linha de assinatura e como assinar um documento PDF gerado.
+As próximas secções explicam como adicionar uma assinatura digital, uma linha de assinatura e como assinar um documento PDF gerado.
 
-### Assine um documento
+### Assinar um documento
 
-Aspose.Words permite que você assine um documento DOC, DOCX ou ODT digitalmente usando o [Sign](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#sign-java.io.InputStream-java.io.OutputStream-com.aspose.words.CertificateHolder) método e [SignOptions](https://reference.aspose.com/words/java/com.aspose.words/signoptions/) propriedades.
+Aspose.Words permite assinar um documento DOC, DOCX ou ODT digitalmente utilizando o método [Sign](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#sign-java.io.InputStream-java.io.OutputStream-com.aspose.words.CertificateHolder) e as propriedades [SignOptions](https://reference.aspose.com/words/java/com.aspose.words/signoptions/).
 
-O exemplo de código a seguir mostra como assinar documentos usando um titular de certificado e as opções de sinal:
+O exemplo de código a seguir mostra como assinar documentos usando um detentor de certificado e opções de assinatura:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "sign-document.java" >}}
 
 ### Adicionar uma linha de assinatura
 
-Uma linha de assinatura é uma representação visual de uma assinatura digital em um documento. Aspose.Words permite inserir uma linha de assinatura usando o [DocumentBuilder.InsertSignatureLine](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertSignatureLine-com.aspose.words.SignatureLineOptions) método. Você também pode definir os parâmetros para esta representação usando o [SignatureLineOptions](https://reference.aspose.com/words/java/com.aspose.words/signaturelineoptions/) classe.
+Uma linha de assinatura é uma representação visual de uma assinatura digital num documento. Aspose.Words permite inserir uma linha de assinatura usando o método [DocumentBuilder.InsertSignatureLine](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertSignatureLine-com.aspose.words.SignatureLineOptions). Você também pode definir os parâmetros para esta representação usando a classe [SignatureLineOptions](https://reference.aspose.com/words/java/com.aspose.words/signaturelineoptions/).
 
-Por exemplo, a imagem abaixo mostra como as assinaturas válidas e inválidas podem ser exibidas.
+Por exemplo, a figura abaixo mostra como assinaturas válidas e inválidas podem ser exibidas.
 
 <img src="/words/java/working-with-digital-signatures/valid.png" alt="valid-digital-signature" style="width:300px"/>
 
 <img src="/words/java/working-with-digital-signatures/invalid.png" alt="invalid-digital-signature" style="width:300px"/>
 
-Além disso, se um documento contém uma linha de assinatura e nenhuma assinatura digital, há um recurso para pedir ao usuário para adicionar uma assinatura.
+Além disso, se um documento contiver uma linha de assinatura e nenhuma assinatura digital, existe um recurso para solicitar ao usuário que adicione uma assinatura.
 
 O exemplo de código a seguir mostra como assinar um documento com um certificado pessoal e uma linha de assinatura específica:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "create-new-signature-line-and-set-provider-id.java" >}}
 
-### Assine um Documento PDF Gerado {#sign-a-generated-pdf-document}
+### Assinar um documento PDF gerado {#sign-a-generated-pdf-document}
 
-Aspose.Words permite assinar e obter todos os detalhes de um documento PDF usando o [PdfDigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/pdfdigitalsignaturedetails/) propriedades.
+Aspose.Words permite assinar e obter todos os detalhes de um documento PDF usando as propriedades [PdfDigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/pdfdigitalsignaturedetails/).
 
-O exemplo a seguir mostra como assinar um PDF gerado:
+O exemplo de código a seguir mostra como assinar um PDFgerado:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "digitally-signed-pdf-using-certificate-holder.java" >}}
 
-A imagem abaixo mostra que o documento PDF gerado é aberto em Adobe Acrobat e a assinatura digital é verificada como presente e válida.
+A figura abaixo demonstra que o documento PDF gerado é aberto em Adobe Acrobat e a assinatura digital é verificada como presente e válida.
 
 ![create-digital-signed-pdf-aspose-words-java](/words/java/working-with-digital-signatures/signed-pdf-aspose-words-java.png)
 
-## Recupere o valor de assinatura digital
+## Recuperar o valor da Assinatura Digital
 
-Aspose.Words também fornece a capacidade de recuperar o valor de assinatura digital de um documento digitalmente assinado como um array byte usando o [SignatureValue](https://reference.aspose.com/words/java/com.aspose.words/digitalsignature/#getSignatureValue) propriedade.
+Aspose.Words também fornece a capacidade de recuperar o valor da assinatura digital de um documento assinado digitalmente como uma matriz de bytes usando a propriedade [SignatureValue](https://reference.aspose.com/words/java/com.aspose.words/digitalsignature/#getSignatureValue).
 
-O exemplo a seguir mostra como obter o valor de assinatura digital como um array byte de um documento:
+O exemplo de código a seguir mostra como obter o valor da assinatura digital como uma matriz de bytes de um documento:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "signature-value.java" >}}
 
-## Remover assinaturas digitais
+## Remover Assinaturas Digitais
 
-Aspose.Words permite remover todas as assinaturas digitais de um documento assinado usando o [RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream) método.
+Aspose.Words permite remover todas as assinaturas digitais de um documento assinado utilizando o método [RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream).
 
 O exemplo de código a seguir mostra como carregar e remover assinaturas digitais de um documento:
 
@@ -117,6 +117,6 @@ O exemplo de código a seguir mostra como carregar e remover assinaturas digitai
 
 {{% alert color="primary" %}}
 
-Note que você não pode remover apenas uma assinatura digital dentro de seu documento.
+Observe que você não pode remover apenas uma assinatura digital em seu documento.
 
 {{% /alert %}}

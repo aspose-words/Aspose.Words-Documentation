@@ -1,8 +1,8 @@
 ---
-title: Lucraţi cu un document stocat într-un `SharePoint` online
+title: Lucraţi cu un document stocat într-un SharePoint online
 second_title: Aspose.Words pentru .NET
-articleTitle: Lucraţi cu un document stocat într-un `SharePoint` online
-linktitle: Lucraţi cu un document stocat într-un `SharePoint` online
+articleTitle: Lucraţi cu un document stocat într-un SharePoint online
+linktitle: Lucraţi cu un document stocat într-un SharePoint online
 description: "Conversia documentelor Word partajate în SharePoint la PDF folosind C#. Lucraţi cu documente stocate în SharePoint – diferite formate de intrare, inclusiv Word, OpenOffice, imagine şi e-book."
 type: docs
 weight: 20

@@ -1,17 +1,17 @@
----
+﻿---
 title: كيفية استخدام الأمثلة
-second_title: Aspose.Words for Java
+second_title: Aspose.Words ل Java
 articleTitle: كيفية استخدام الأمثلة
 linktitle: كيفية استخدام الأمثلة
-description: "كيف يهرب Aspose.Words for Android عبر Java أمثلة."
+description: "كيفية تشغيل Aspose.Words ل Android عبر Java أمثلة."
 type: docs
 weight: 70
 url: /ar/java/how-to-use-the-examples/
 timestamp: 2024-01-27-14-07-04
 ---
 
-أولاً تأكدي من تركيب حزمة الـ (إي دي تي) وأنكِ قمتِ بتحميل واستخلاص آخر نسخة [Aspose.Words for Android عبر Java](https://releases.aspose.com/words/androidjava/).
+تأكد أولا من تثبيت حزمة ADT وأنك قمت بتنزيل واستخراج أحدث إصدار من [Aspose.Words ل Android عبر Java](https://releases.aspose.com/words/androidjava/).
 
-- Install Aspose.Words for Android عبر Java بناء على التعليمات [التركيب](/words/ar/java/installation/)
--افتح المشروع في مكان عملك Eclipse مع (أ.دي.تي)
-- كليك **Run** ليبدأ ويختار المرشد المناسب لتشغيل الطرد
+- قم بتثبيت Aspose.Words لـ Android عبر Java باتباع الإرشادات الموجودة على [هنا](/words/java/installation/)
+- افتح المشروع في مساحة العمل الخاصة بك باستخدام Eclipse مع ADT.
+- انقر **Run** لبدء واختيار المحاكي المناسب لتشغيل الحزمة على.

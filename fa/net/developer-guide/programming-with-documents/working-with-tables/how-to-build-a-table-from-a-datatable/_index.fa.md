@@ -1,8 +1,8 @@
 ---
-title: چگونه یک جدول از یک `DataTable` در C# بسازیم
+title: چگونه یک جدول از یک DataTable در C# بسازیم
 second_title: Aspose.Words برای .NET
-articleTitle: یک جدول از یک `DataTable` بسازید
-linktitle: یک جدول از یک `DataTable` بسازید
+articleTitle: یک جدول از یک DataTable بسازید
+linktitle: یک جدول از یک DataTable بسازید
 description: "نمونه ای از پر کردن جدول سند از پایگاه داده خارجی با استفاده از C#."
 type: docs
 weight: 120

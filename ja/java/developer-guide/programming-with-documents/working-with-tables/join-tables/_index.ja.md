@@ -1,19 +1,19 @@
----
-title: テーブルに参加する Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: テーブルに参加する
-linktitle: テーブルに参加する
-description: "テーブルに参加する Javaお問い合わせ 上級テーブル操作、参加、分割 Javaお問い合わせ"
+﻿---
+title: Javaのテーブルの結合
+second_title: Aspose.WordsのためのJava
+articleTitle: テーブルの結合
+linktitle: テーブルの結合
+description: "Java内のテーブルを結合します。 高度なテーブル操作、Javaを使用した結合と分割。"
 type: docs
 weight: 90
 url: /ja/java/join-tables/
 timestamp: 2024-01-27-14-07-04
 ---
 
-表は、 Aspose.Words Document Object Model, 独立した行とセルで構成され、テーブルに簡単に参加できます。
+Aspose.Wordsドキュメントオブジェクトモデルで表されるテーブルは、独立した行とセルで構成されているため、テーブルを簡単に結合できます。
 
-別のテーブルと結合するテーブルを操作するには、最初のテーブルの最後に2番目のテーブルから2番目のテーブルに移動し、2番目のテーブルのコンテナを削除します。
+テーブルを操作して別のテーブルと結合するには、2番目のテーブルから最初のテーブルの最後に行を移動し、2番目のテーブルのコンテナを削除するだけ
 
-次のコードの例では、2つのテーブルから1つのテーブルに行をマージする方法を示します。
+次のコード例は、2つのテーブルの行を1つにマージする方法を示しています:
 
 {{< gist "aspose-words-gists" "89807559333317718ba2e6084fdcb3e2" "combine-rows.java" >}}

@@ -1,22 +1,22 @@
----
-title: Convertir Word en Excel Java
+﻿---
+title: Convertir Word en Excel en Java
 second_title: Aspose.Words pour Java
 articleTitle: Convertir un document en Excel
 linktitle: Convertir un document en Excel
-description: "Convertir PDF en Excel, XML en Excel, DOCX en Excel Java. Enregistrer un document dans différents formats vers XLSX en utilisant Java."
+description: "Convertissez PDF en Excel, XML en Excel, DOCX en Excel Java. Enregistrez un document dans différents formats dans XLSX en utilisant Java."
 type: docs
 weight: 15
 url: /fr/java/convert-a-document-to-excel/
 timestamp: 2024-01-31-14-23-37
 ---
 
-La conversion de documents d'un format à un autre est la caractéristique phare de Aspose.Words. Vous pouvez convertir des documents dans n'importe quel disponible [format de charge](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) également au format XLSX.
+La conversion de documents d'un format à un autre est la fonctionnalité phare de Aspose.Words. Vous pouvez convertir des documents dans n'importe quel format disponible [format de chargement](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) également au format XLSX.
 
 ## Convertir un document en XLSX
 
-Convertir un document en XLSX est un processus assez compliqué. Pour enregistrer votre document au format XLSX en utilisant Aspose.Words"> utiliser les [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) et la nouvelle `Xlsx` élément de [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) Énumération. Comme mentionné ci-dessus, vous pouvez enregistrer le document dans n'importe quel format de charge supporté par Aspose.Words à XLSX.
+La conversion d'un document en XLSX est un processus assez compliqué. Pour enregistrer votre document au format XLSX à l'aide de Aspose.Words, utilisez la classe [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) et le nouvel élément `Xlsx` dans l'énumération [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/). Comme mentionné ci-dessus, vous pouvez enregistrer le document dans n'importe quel format de chargement pris en charge par Aspose.Words à XLSX.
 
-L'exemple de code suivant montre comment enregistrer PDF sur XLSX:
+L'exemple de code suivant montre comment enregistrer PDF en XLSX:
 
 {{< highlight java >}}
 Document doc = new Document(getMyDir() + "Pdf Document.pdf");
@@ -25,15 +25,15 @@ doc.save(getArtifactsDir() + "BaseConversions.PdfToXlsx.xlsx");
 
 {{% alert color="primary" %}}
 
-Parfois, il est nécessaire de spécifier des options supplémentaires, qui peuvent affecter le résultat de l'enregistrement d'un document en tant que XLSX. Ces options peuvent être spécifiées par l'utilisation de [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/) classe, contenant des propriétés qui déterminent comment la sortie XLSX sera affichée.
+Parfois, il est nécessaire de spécifier des options supplémentaires, ce qui peut affecter le résultat de l'enregistrement d'un document en tant que XLSX. Ces options peuvent être spécifiées en utilisant la classe [XlsxSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/), contenant des propriétés qui déterminent comment la sortie XLSX sera affichée.
 
 {{% /alert %}}
 
-## Trouver et remplacer lors de l'enregistrement sur XLSX
+## Rechercher et remplacer Lors de l'enregistrement sur XLSX
 
-Utilisation Aspose.Words, vous pouvez trouver une chaîne spécifique ou une expression régulière dans votre document et le remplacer par la chaîne correspondante dont vous avez besoin. Ensuite, vous pouvez également enregistrer le résultat au format XLSX.
+En utilisant également Aspose.Words, vous pouvez trouver une chaîne ou une expression régulière spécifique dans votre document et la remplacer par celle dont vous avez besoin. Ensuite, vous pouvez également enregistrer le résultat au format XLSX.
 
-L'exemple de code suivant montre comment effectuer la recherche et le remplacement de l'opération et enregistrer le résultat sur XLSX:
+L'exemple de code suivant montre comment effectuer une opération de recherche et de remplacement et enregistrer le résultat dans XLSX:
 
 {{< highlight java >}}
 Document doc = new Document();
@@ -51,9 +51,9 @@ doc.getRange().replace("Ruby", "Jade", options);
 doc.save(getArtifactsDir() + "BaseConversions.FindReplaceXlsx.xlsx");
 {{< /highlight >}}
 
-## Spécifier le niveau de compression lors de l'enregistrement sur XLSX
+## Spécifiez le niveau de compression Lors de l'enregistrement sur XLSX
 
-Vous pouvez également spécifier le niveau de compression lors de l'enregistrement [CompressionLevel](https://reference.aspose.com/words/java/com.aspose.words/compressionlevel/) propriété.
+Vous pouvez également spécifier le niveau de compression lors de l'enregistrement à l'aide de la propriété [CompressionLevel](https://reference.aspose.com/words/java/com.aspose.words/compressionlevel/).
 
 L'exemple de code suivant montre comment spécifier le niveau de compression lors de l'enregistrement au format XLSX:
 
@@ -65,7 +65,7 @@ saveOptions.setCompressionLevel(CompressionLevel.MAXIMUM);
 doc.save(getArtifactsDir() + "BaseConversions.CompressXlsx.xlsx", saveOptions);
 {{< /highlight >}}
 
-## Voir aussi
+## Voir Aussi
 
-- Section documentation [Protégez ou chiffrer un document](/words/fr/java/protect-or-encrypt-a-document/) pour plus d'informations sur la protection et le chiffrement d'un document
-- L'article [Trouver et remplacer](/words/fr/java/find-and-replace/) pour plus d'informations sur la recherche et le remplacement du contenu souhaité
+- Section de documentation [Protéger ou chiffrer un document](/words/java/protect-or-encrypt-a-document/) pour plus d'informations sur la protection et le chiffrement d'un document
+- L'article [Trouver et Remplacer](/words/java/find-and-replace/) pour plus d'informations sur la recherche et le remplacement du contenu souhaité

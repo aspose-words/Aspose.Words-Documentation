@@ -1,8 +1,8 @@
 ---
-title: العمل مع مستند مخزّن في `SharePoint` Online
+title: العمل مع مستند مخزّن في SharePoint Online
 second_title: Aspose.Words لـ .NET
-articleTitle: العمل مع مستند مخزّن في `SharePoint` Online
-linktitle: العمل مع مستند مخزّن في `SharePoint` Online
+articleTitle: العمل مع مستند مخزّن في SharePoint Online
+linktitle: العمل مع مستند مخزّن في SharePoint Online
 description: "تحويل Word المشترك في SharePoint إلى PDF باستخدام C#. العمل مع المستندات المخزنة في SharePoint – تنسيقات إدخال مختلفة، بما في ذلك Word وOpenOffice وImage وeBook."
 type: docs
 weight: 20

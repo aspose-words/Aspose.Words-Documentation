@@ -1,8 +1,8 @@
 ---
-title: Cách tạo bảng từ `DataTable` trong C#
+title: Cách tạo bảng từ DataTable trong C#
 second_title: Aspose.Words cho .NET
-articleTitle: Xây dựng bảng từ `DataTable`
-linktitle: Xây dựng bảng từ `DataTable`
+articleTitle: Xây dựng bảng từ DataTable
+linktitle: Xây dựng bảng từ DataTable
 description: "Ví dụ về điền bảng tài liệu từ cơ sở dữ liệu bên ngoài bằng C#."
 type: docs
 weight: 120

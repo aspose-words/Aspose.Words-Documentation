@@ -1,81 +1,81 @@
----
-title: Работа с документами собственности
+﻿---
+title: Работа со свойствами документа
 second_title: Aspose.Words для Python via .NET
-articleTitle: Работа с документами собственности
-linktitle: Работа с документами собственности
-description: "Aspose.Words для Python позволяет хранить полезную информацию о вашем документе, например, API номер версии или авторизованный Date, Встроенные или пользовательские свойства документов."
+articleTitle: Работа со свойствами документа
+linktitle: Работа со свойствами документа
+description: "Aspose.Words для Python позволяет сохранять некоторую полезную информацию о вашем документе, такую как API и номер версии или дата авторизации, во встроенных или пользовательских свойствах документа."
 type: docs
 weight: 10
 url: /ru/python-net/work-with-document-properties/
 timestamp: 2024-01-31-14-23-37
 ---
 
-Свойства документов позволяют хранить полезную информацию о вашем документе. Эти свойства можно разделить на две группы:
+Свойства документа позволяют сохранить некоторую полезную информацию о вашем документе. Эти свойства можно разделить на две группы:
 
-* Система или встроенная система, которая содержит такие значения, как название документа, имя автора, статистика документов и другие.
-* Пользователь-определяемый или пользовательский, предоставляемый в виде пар имён-значений, где пользователь может определить как имя, так и значение.
+* Системные или встроенные, содержащие такие значения, как название документа, имя автора, статистика документа и другие.
+* Определяемые пользователем или пользовательские, предоставляемые в виде пар имя-значение, где пользователь может определить как имя, так и значение.
 
-Полезно знать, что информация о API Номер версии пишется непосредственно для вывода документов. Например, при конвертации документа в PDF, Aspose.Words заполняет поле "Приложение" на "Aspose.Words", а поле "PDF Producer" с "Aspose.Words для .NET YY.M.N", где *YY.M.N* является версия Aspose.Words Используется для конверсии. Более подробно см. [Имя генератора или производителя, включенное в исходные документы](/words/ru/python-net/generator-or-producer-name-included-in-output-documents/).
+Полезно знать, что информация о API и номере версии записывается непосредственно в выходные документы. Например, при преобразовании документа в PDF, Aspose.Words заполняет поле "Приложение" значением "Aspose.Words", а поле "Производитель PDF" - значением "Aspose.Words для .NET YY.M.N", где *YY.M.N* это версия Aspose.Words, используемая для преобразования. Дополнительные сведения см. в разделе [Название генератора или производителя, указанное в выходных документах](/words/python-net/generator-or-producer-name-included-in-output-documents/).
 
 {{% alert color="primary" %}}
 
-Заметьте, что вы **не может быть прямым** Aspose.Words изменить или удалить эту информацию из выходных документов.
+Обратите внимание, что вы можете **cannot direct** Aspose.Words изменить или удалить эту информацию из выходных документов.
 
 {{% /alert %}}
 
-## Свойства документов Access
+## Доступ к свойствам документа
 
-Доступ к свойствам документов в Aspose.Words использовать:
+Чтобы получить доступ к свойствам документа в Aspose.Words, используйте:
 
 * [built_in_document_properties](https://reference.aspose.com/words/python-net/aspose.words/document/built_in_document_properties/) для получения встроенных свойств.
 
-* [custom_document_properties](https://reference.aspose.com/words/python-net/aspose.words/document/custom_document_properties/) Чтобы получить пользовательские свойства.
+* [custom_document_properties](https://reference.aspose.com/words/python-net/aspose.words/document/custom_document_properties/) для получения пользовательских свойств.
 
-[built_in_document_properties](https://reference.aspose.com/words/python-net/aspose.words/document/built_in_document_properties/) и [custom_document_properties](https://reference.aspose.com/words/python-net/aspose.words/document/custom_document_properties/) являются коллекциями [DocumentProperty](https://reference.aspose.com/words/python-net/aspose.words.properties/documentproperty/) объекты. Эти объекты могут быть получены через свойство индексатора по имени или по индексу.
+[built_in_document_properties](https://reference.aspose.com/words/python-net/aspose.words/document/built_in_document_properties/) и [custom_document_properties](https://reference.aspose.com/words/python-net/aspose.words/document/custom_document_properties/) представляют собой коллекции объектов [DocumentProperty](https://reference.aspose.com/words/python-net/aspose.words.properties/documentproperty/). Эти объекты могут быть получены с помощью свойства indexer по имени или по индексу.
 
-[built_in_document_properties](https://reference.aspose.com/words/python-net/aspose.words/document/built_in_document_properties/) дополнительно обеспечивает доступ к свойствам документа через набор введенных свойств, возвращающих значения соответствующего типа. [custom_document_properties](https://reference.aspose.com/words/python-net/aspose.words/document/custom_document_properties/) Возможность добавлять или удалять свойства документа из документа.
+[built_in_document_properties](https://reference.aspose.com/words/python-net/aspose.words/document/built_in_document_properties/) дополнительно предоставляет доступ к свойствам документа с помощью набора введенных свойств, которые возвращают значения соответствующего типа. [custom_document_properties](https://reference.aspose.com/words/python-net/aspose.words/document/custom_document_properties/) позволяет добавлять или удалять свойства документа из документа.
 
-The [DocumentProperty](https://reference.aspose.com/words/python-net/aspose.words.properties/documentproperty/) Класс позволяет получить имя, стоимость и тип документа собственности. [value](https://reference.aspose.com/words/python-net/aspose.words.properties/documentproperty/value/) возвращает объект, но существует набор методов, позволяющих получить значение свойства, преобразованное в определенный тип. После того, как вы узнаете, какой тип собственности, вы можете использовать один из **DocumentProperty.to_XXX** методов, таких как **Собственность. ________** и [DocumentProperty.to_int](https://reference.aspose.com/words/python-net/aspose.words.properties/documentproperty/to_int/), Чтобы получить значение соответствующего типа.
+Класс [DocumentProperty](https://reference.aspose.com/words/python-net/aspose.words.properties/documentproperty/) позволяет получить имя, значение и тип свойства документа. [value](https://reference.aspose.com/words/python-net/aspose.words.properties/documentproperty/value/) возвращает объект, но существует набор методов, позволяющих преобразовать значение свойства в определенный тип. После того, как вы узнаете, к какому типу относится свойство, вы можете использовать один из методов **DocumentProperty.to_XXX**, таких как **DocumentProperty.\_\_str\_\_** и [DocumentProperty.to_int](https://reference.aspose.com/words/python-net/aspose.words.properties/documentproperty/to_int/), чтобы получить значение соответствующего типа.
 
-Следующий пример кода показывает, как перечислить все встроенные и пользовательские свойства в документе:
+В следующем примере кода показано, как перечислить все встроенные и пользовательские свойства в документе:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_properties-EnumerateProperties.py" >}}
 
 {{% alert color="primary" %}}
 
-Вы можете скачать файл шаблона этого примера из [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Properties.docx).
+Вы можете скачать файл шаблона для этого примера с сайта [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Properties.docx).
 
 {{% /alert %}}
 
-В Microsoft Word, Вы можете получить доступ к свойствам документов, используя меню "Файл → Свойства".
+В Microsoft Word вы можете получить доступ к свойствам документа, используя меню "Файл → Свойства".
 
-<img src="/words/python-net/work-with-document-properties/work-with-document-properties-1.png" alt="/words/python-net/work-with-document-properties/work-with-document-properties-1.png" style="width:400px"/>
+<img src="work-with-document-properties-1.png" alt="work-with-document-properties-1.png" style="width:400px"/>
 
-## Добавить или удалить свойства документа
+## Добавление или удаление свойств документа
 
-Вы не можете добавлять или удалять встроенные свойства документа Aspose.Words. Вы можете изменить или обновить их ценности.
+Вы не можете добавлять или удалять встроенные свойства документа, используя Aspose.Words. Вы можете только изменять или обновлять их значения.
 
-Добавление свойств пользовательского документа с Aspose.Words, использовать [add](https://reference.aspose.com/words/python-net/aspose.words.properties/customdocumentproperties/add/) метод, проходящий новое наименование имущества и значение соответствующего типа. Метод возвращает вновь созданный [DocumentProperty](https://reference.aspose.com/words/python-net/aspose.words.properties/documentproperty/) объект.
+Чтобы добавить пользовательские свойства документа с помощью Aspose.Words, используйте метод [add](https://reference.aspose.com/words/python-net/aspose.words.properties/customdocumentproperties/add/), передав имя нового свойства и значение соответствующего типа. Метод возвращает только что созданный объект [DocumentProperty](https://reference.aspose.com/words/python-net/aspose.words.properties/documentproperty/).
 
-Чтобы удалить пользовательские свойства, используйте [remove](https://reference.aspose.com/words/python-net/aspose.words.properties/documentpropertycollection/remove/) способ, передавая ему название собственности для удаления, или [remove_at](https://reference.aspose.com/words/python-net/aspose.words.properties/documentpropertycollection/remove_at/) Способ удаления имущества по индексу. Вы также можете удалить все свойства, используя [clear](https://reference.aspose.com/words/python-net/aspose.words.properties/documentpropertycollection/clear/) метод.
+Чтобы удалить пользовательские свойства, используйте метод [remove](https://reference.aspose.com/words/python-net/aspose.words.properties/documentpropertycollection/remove/), передав ему имя свойства для удаления, или метод [remove_at](https://reference.aspose.com/words/python-net/aspose.words.properties/documentpropertycollection/remove_at/), чтобы удалить свойство по индексу. Вы также можете удалить все свойства, используя метод [clear](https://reference.aspose.com/words/python-net/aspose.words.properties/documentpropertycollection/clear/).
 
-Следующий пример кода проверяет, существует ли в документе пользовательское свойство с заданным именем, и добавляет еще несколько свойств пользовательского документа:
+Следующий пример кода проверяет, существует ли в документе пользовательское свойство с заданным именем, и добавляет еще несколько пользовательских свойств документа:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_properties-AddCustomDocumentProperties.py" >}}
 
 {{% alert color="primary" %}}
 
-Вы можете скачать файл шаблона этого примера из [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Properties.docx).
+Вы можете скачать файл шаблона для этого примера с сайта [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Properties.docx).
 
 {{% /alert %}}
 
-Следующий пример кода показывает, как удалить свойство пользовательского документа:
+В следующем примере кода показано, как удалить пользовательское свойство документа:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_properties-CustomRemove.py" >}}
 
-## Обновление встроенных свойств документов
+## Обновление встроенных свойств документа
 
-Aspose.Words не обновляет автоматически свойства документов, поскольку Microsoft Word Он делает это с некоторыми свойствами, но предоставляет метод обновления некоторых свойств статистического встроенного документа. Звони. [update_word_count](https://reference.aspose.com/words/python-net/aspose.words/document/update_word_count/) Способ пересчета и обновления следующих свойств:
+Aspose.Words не обновляет свойства документа автоматически, как это происходит с некоторыми свойствами Microsoft Word, но предоставляет метод для обновления некоторых статистических встроенных свойств документа. Вызовите метод [update_word_count](https://reference.aspose.com/words/python-net/aspose.words/document/update_word_count/) для пересчета и обновления следующих свойств:
 
 * [characters](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/characters/)
 * [characters_with_spaces](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/characters_with_spaces/)
@@ -83,38 +83,38 @@ Aspose.Words не обновляет автоматически свойства
 * [paragraphs](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/paragraphs/)
 * [lines](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/lines/)
 
-## Создайте новую пользовательскую собственность, связанную с контентом
+## Создайте новое пользовательское свойство, связанное с контентом
 
-Aspose.Words обеспечивает [add_link_to_content](https://reference.aspose.com/words/python-net/aspose.words.properties/customdocumentproperties/add_link_to_content/) Способ создания нового пользовательского свойства документа, связанного с контентом. Это свойство возвращает вновь созданный объект недвижимости или аннулирует, если **link_source** Это недействительно.
+Aspose.Words предоставляет метод [add_link_to_content](https://reference.aspose.com/words/python-net/aspose.words.properties/customdocumentproperties/add_link_to_content/) для создания нового пользовательского свойства документа, связанного с содержимым. Это свойство возвращает только что созданный объект свойств или значение null, если значение **link_source** недопустимо.
 
-Следующий пример кода показывает, как настроить ссылку на пользовательское свойство:
+В следующем примере кода показано, как настроить ссылку на пользовательское свойство:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_properties-ConfiguringLinkToContent.py" >}}
 
-## Получить переменные документы
+## Получение переменных документа
 
-Вы можете получить набор переменных документов, используя [variables](https://reference.aspose.com/words/python-net/aspose.words/document/variables/) собственность. Переменные имена и значения - это строки.
+Вы можете получить набор переменных документа, используя свойство [variables](https://reference.aspose.com/words/python-net/aspose.words/document/variables/). Имена и значения переменных являются строками.
 
-Следующий пример кода показывает, как добавить и получить доступ к переменным документа:
+В следующем примере кода показано, как добавлять переменные документа и получать к ним доступ:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_properties-GetVariables.py" >}}
 
 {{% alert color="primary" %}}
 
-Вы можете скачать файл шаблона этого примера из [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Properties.docx).
+Вы можете скачать файл шаблона для этого примера с сайта [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Properties.docx).
 
 {{% /alert %}}
 
 ## Удалить личную информацию из документа
 
-Если вы хотите поделиться документом Word с другими людьми, вы можете удалить личную информацию, такую как имя автора и компания. Для этого используют [remove_personal_information](https://reference.aspose.com/words/python-net/aspose.words/document/remove_personal_information/) право устанавливать флаг, указывающий, что Microsoft Word Удалит всю информацию о пользователе из комментариев, изменений и свойств документа при сохранении документа.
+Если вы хотите поделиться документом Word с другими пользователями, вы можете удалить личную информацию, такую как имя автора и компания. Для этого используйте свойство [remove_personal_information](https://reference.aspose.com/words/python-net/aspose.words/document/remove_personal_information/), чтобы установить флаг, указывающий на то, что Microsoft Word удалит всю пользовательскую информацию из комментариев, правок и свойств документа при сохранении документа.
 
-Следующий пример кода показывает, как удалить личную информацию:
+В следующем примере кода показано, как удалить личную информацию:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_properties-RemovePersonalInformation.py" >}}
 
 {{% alert color="primary" %}}
 
-Установка этой опции фактически не удаляет личную информацию при обработке документа. Aspose.Words и затрагивает только Microsoft Word поведение.
+Установка этого параметра фактически не приводит к удалению личной информации при обработке документа в Aspose.Words и влияет только на поведение Microsoft Word.
 
 {{% /alert %}}

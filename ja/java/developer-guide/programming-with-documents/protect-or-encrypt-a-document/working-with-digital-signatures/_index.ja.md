@@ -1,24 +1,24 @@
----
-title: デジタル署名と連携 Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: デジタル署名と連携
-linktitle: デジタル署名と連携
-description: "デジタル署名文書に署名し、既存のデジタル署名を検知、カウント、検証、削除します。 Javaお問い合わせ"
+﻿---
+title: Javaでのデジタル署名の操作
+second_title: Aspose.WordsのためのJava
+articleTitle: デジタル署名の操作
+linktitle: デジタル署名の操作
+description: "文書にデジタル署名し、Javaを使用して既存のデジタル署名を検出、カウント、検証、および削除します。"
 type: docs
 weight: 30
 url: /ja/java/working-with-digital-signatures/
 timestamp: 2024-01-27-14-07-04
 ---
 
-デジタル署名は、文書に署名し、署名されたので文書が変更されていないことを保証するために署名者を認証する電子署名の技術実装です。 各デジタル署名は、PKIプロトコルに従って公開鍵と秘密鍵の両方を生成するため、各署名者にとってユニークです。 文書をデジタルで署名すると、生成されたハッシュを暗号化するために数学アルゴリズムが使用される、署名者のプライベートキーを使用して署名を作成することを意味します。
+デジタル署名は、文書に署名し、署名者を認証して、文書が署名されてから変更されていないことを保証するための電子署名の技術的実装です。 公開鍵と秘密鍵の両方を生成するPKIプロトコルに従うため、各デジタル署名は署名者ごとに一意です。 文書にデジタル署名するとは、生成されたハッシュを暗号化するために数学的アルゴリズムが使用される署名者の秘密鍵を使用して署名を作成す
 
-Aspose.Words 既存のデジタル署名を検知、カウント、または検証し、ドキュメントに新しい署名を追加して、改ざんを調べることができます。 ドキュメントからすべてのデジタル署名を削除することもできます。 利用する [DigitalSignatureUtil](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/) デジタル署名を扱うクラス。
+Aspose.Wordsは、既存のデジタル署名を検出、カウント、または検証し、文書に新しい署名を追加して、文書の改ざんを見つけることができます。 文書からすべてのデジタル署名を削除することもできます。 デジタル署名を操作するには、[DigitalSignatureUtil](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/)クラスを使用します。
 
-この記事では、上記のすべてをデジタル文書の信頼性と完全性を検証する方法について説明します。
+この記事では、デジタル文書の信頼性と整合性を検証するために上記のすべてを行う方法について説明します。
 
 {{% alert color="primary" %}}
 
-実行時にのみ、ドキュメントのデジタル署名にアクセスできることに注意してください。 Java 6バージョン以上
+文書のデジタル署名にアクセスできるのは、Java6バージョン以上を実行している場合のみであることに注意してください。
 
 {{% /alert %}}
 
@@ -26,97 +26,97 @@ Aspose.Words 既存のデジタル署名を検知、カウント、または検�
 
 **オンラインで試す**
 
-この機能を試してみる [無料のオンライン署名](https://products.aspose.app/words/signature)お問い合わせ
+あなたは私たちのこの機能を試すことができます [無料のオンライン署名](https://products.aspose.app/words/signature).
 
 {{% /alert %}}
 
 ## サポートされている形式
 
-Aspose.Words DOC、OOXML、およびODT文書でデジタル署名を操作し、PDFで生成された文書に署名したり、 XPS フォーマット。
+Aspose.Wordsを使用すると、DOC、OOXML、ODT文書のデジタル署名を操作し、生成された文書にPDFまたはXPS形式で署名することができます。
 
 ## デジタル署名の制限
 
-以下の表は、デジタル署名を操作しながら直面する可能性のあるいくつかの制限について説明します Aspose.Words, 代替オプションとして。
+次の表は、Aspose.Wordsを使用してデジタル署名を操作する際に直面する可能性のあるいくつかの制限と、いくつかの代替オプションについて説明しています。
 
-|  制限事項 |  代替オプション |
-|  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  ローディングおよび保存の後で文書のデジタル署名の損失。 そのため、ドキュメントをサーバーに処理すると、通知なしですべてのデジタル署名の損失を引き起こす可能性があります。 |  文書がデジタル署名を持っているかどうかを確認し、見つけられたら適切な行動を取る。 たとえば、クライアントにアラートを送信して、アップロードするドキュメントには、処理されると失われたデジタル署名が含まれています。 |
-|  Aspose.Words ドキュメント内でマクロを扱うサポート しかし、 Aspose.Words マクロではデジタル署名をサポートしていません。 |  文書を任意のWord形式にエクスポートし、使用 Microsoft Word マクロにデジタル署名を追加する。 |
+| 制限 | 代替オプション |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| それをロードして保存した後、文書上のデジタル署名の損失。 したがって、文書をサーバーに処理すると、予告なしにすべてのデジタル署名が失われる可能性があります。 | 文書にデジタル署名があるかどうかを確認し、見つかった場合は適切なアクションを実行します。 例えば、クライアントに、アップロードしているドキュメントに処理されると失われるデジタル署名が含まれていることを知らせるアラートを送信します。 |
+| Aspose.Wordsドキュメント内のマクロの操作をサポートします。 ただし、Aspose.Wordsはマクロのデジタル署名をまだサポートしていません。 | ドキュメントを任意のWord形式にエクスポートし、Microsoft Wordを使用してマクロにデジタル署名を追加します。 |
 
-## デジタル署名の検出、カウント、検証
+## デジタル署名の検出、カウント、および検証
 
-Aspose.Words デジタル署名をドキュメントで検出できる [DetectFileFormat](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/#detectFileFormat-java.io.InputStream) メソッドとメソッド [HasDigitalSignature](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasDigitalSignature) 宿泊施設 このようなチェックが署名の事実を検知するだけでなく、その妥当性を検知する価値があります。
+Aspose.Wordsは、[DetectFileFormat](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/#detectFileFormat-java.io.InputStream)メソッドと[HasDigitalSignature](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasDigitalSignature)プロパティを使用して、文書内のデジタル署名を検出できます。 そのようなチェックは署名の事実のみを検出し、その有効性は検出しないことに注意する価値があります。
 
-ドキュメントは複数回署名できます。これは異なるユーザーによって行うことができます。 デジタル署名の有効性を確認するには、ドキュメントからドキュメントを読み込む必要があります。 [LoadSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#loadSignatures-java.io.InputStream) 方法および使用 [IsValid](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection/#isValid) プロパティ. その他 Aspose.Words ドキュメント内のすべてのデジタル署名のセットをドキュメント内でカウントできます。 [Count](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection/#getCount) プロパティ.
+文書は複数回署名することができ、これは異なるユーザーが行うことができます。 電子署名の有効性を確認するには、[LoadSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#loadSignatures-java.io.InputStream)メソッドを使用して文書から電子署名をロードし、[IsValid](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection/#isValid)プロパティを使用する必要があります。 またAspose.Wordsでは、[Count](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection/#getCount)プロパティを使用して、文書内のすべてのデジタル署名のセットを数えることができます。
 
-これにより、処理する前に署名の文書を効率的かつ安全な方法で確認することができます。
+これらすべてが、文書を処理する前に文書の署名をチェックする効率的で安全な方法を提供します。
 
-次のコードの例では、デジタル署名の存在を検知し、それらを検証する方法を示します。
+次のコード例は、デジタル署名の存在を検出して検証する方法を示しています:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "detect-document-signatures.java" >}}
 
-## デジタル署名を作成する {#create-a-digital-signature}
+## デジタル署名 {#create-a-digital-signature}を作成する
 
-デジタル署名を作成するには、本人確認の署名証明書をロードする必要があります。 デジタル署名の文書を送付する場合、証明書と公開鍵をお送りします。
+デジタル署名を作成するには、idを確認する署名証明書をロードする必要があります。 デジタル署名された文書を送信すると、証明書と公開鍵も送信されます。
 
-Aspose.Words 国際的に受け入れられているX.509 PKI規格を使用するデジタル証明書であるX.509証明書を作成して、公開鍵が証明書に含まれる署名者に所属していることを確認することができます。 これを行うには、 [Create](https://reference.aspose.com/words/java/com.aspose.words/certificateholder/#create-byte---java.lang.String) 内のメソッド [CertificateHolder](https://reference.aspose.com/words/java/com.aspose.words/certificateholder/) クラス。
+Aspose.Wordsは、国際的に認められているX.509PKI標準を使用して、公開鍵が証明書に含まれている署名者に属していることを確認するデジタル証明書であるX.509証明書を作成することができます。 これを行うには、[CertificateHolder](https://reference.aspose.com/words/java/com.aspose.words/certificateholder/)クラス内で[Create](https://reference.aspose.com/words/java/com.aspose.words/certificateholder/#create-byte---java.lang.String)メソッドを使用します。
 
-次のセクションでは、生成されたPDF文書に署名、署名線、署名線を追加する方法について説明します。
+次のセクションでは、デジタル署名、署名行を追加する方法、および生成されたPDF文書に署名する方法について説明します。
 
-### ドキュメントの署名
+### 文書に署名する
 
-Aspose.Words DOC、DOCX、またはODT文書をデジタルで署名することができます [Sign](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#sign-java.io.InputStream-java.io.OutputStream-com.aspose.words.CertificateHolder) メソッドとメソッド [SignOptions](https://reference.aspose.com/words/java/com.aspose.words/signoptions/) プロパティ。
+Aspose.Wordsを使用すると、[Sign](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#sign-java.io.InputStream-java.io.OutputStream-com.aspose.words.CertificateHolder)メソッドと[SignOptions](https://reference.aspose.com/words/java/com.aspose.words/signoptions/)プロパティを使用して、DOC、DOCX、またはODT文書にデジタル署名できます。
 
-以下のコードの例では、証明書保持者を使用して文書に署名し、オプションを署名する方法を示します。
+証明書所有者と署名オプションを使用して文書に署名する方法を次のコード例に示します:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "sign-document.java" >}}
 
-### シグネチャーラインを追加
+### 署名行を追加する
 
-署名線は、ドキュメント内のデジタル署名の視覚的表現です。 Aspose.Words 署名線を入力できる [DocumentBuilder.InsertSignatureLine](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertSignatureLine-com.aspose.words.SignatureLineOptions) メソッド。 また、この表現のパラメータをこの表現で設定することもできます。 [SignatureLineOptions](https://reference.aspose.com/words/java/com.aspose.words/signaturelineoptions/) クラス。
+署名行は、文書内のデジタル署名を視覚的に表現したものです。 Aspose.Words[DocumentBuilder.InsertSignatureLine](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertSignatureLine-com.aspose.words.SignatureLineOptions)メソッドを使用して署名行を挿入できます。 [SignatureLineOptions](https://reference.aspose.com/words/java/com.aspose.words/signaturelineoptions/)クラスを使用して、この表現のパラメータを設定することもできます。
 
-たとえば、以下の画像は有効で無効なシグネチャの表示方法を示します。
+たとえば、次の図は、有効な署名と無効な署名を表示する方法を示しています。
 
 <img src="/words/java/working-with-digital-signatures/valid.png" alt="valid-digital-signature" style="width:300px"/>
 
 <img src="/words/java/working-with-digital-signatures/invalid.png" alt="invalid-digital-signature" style="width:300px"/>
 
-また、ドキュメントに署名された行とデジタル署名がない場合、署名を追加する機能があります。
+また、文書に署名行が含まれていてデジタル署名がない場合は、ユーザーに署名を追加するように依頼する機能があります。
 
-以下のコードの例では、個人証明書と特定の署名線で文書に署名する方法を示します。
+次のコード例は、個人証明書と特定の署名行を使用してドキュメントに署名する方法を示しています:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "create-new-signature-line-and-set-provider-id.java" >}}
 
-### 生成されたPDF文書の署名 {#sign-a-generated-pdf-document}
+### 生成されたPDF文書 {#sign-a-generated-pdf-document}に署名する
 
-Aspose.Words PDF文書のすべての詳細を署名し、取得することができます [PdfDigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/pdfdigitalsignaturedetails/) プロパティ。
+Aspose.Wordsでは、[PdfDigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/pdfdigitalsignaturedetails/)プロパティを使用して、PDF文書のすべての詳細に署名して取得できます。
 
-次のコードの例では、生成されたPDFに署名する方法を示します。
+次のコード例は、生成されたPDFに署名する方法を示しています:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "digitally-signed-pdf-using-certificate-holder.java" >}}
 
-下の写真は、生成されたPDF文書がで開くことを示しています Adobe Acrobat デジタル署名は、現在および有効と検証されています。
+下の図は、生成されたPDFドキュメントがAdobe Acrobatで開かれ、デジタル署名が存在し有効であることを確認していることを示しています。
 
 ![create-digital-signed-pdf-aspose-words-java](/words/java/working-with-digital-signatures/signed-pdf-aspose-words-java.png)
 
-## デジタル署名価値の取得
+## デジタル署名値の取得
 
-Aspose.Words また、デジタル署名されたドキュメントからデジタル署名されたドキュメントをバイト配列として取得する機能を提供します。 [SignatureValue](https://reference.aspose.com/words/java/com.aspose.words/digitalsignature/#getSignatureValue) プロパティ.
+Aspose.Wordsは、[SignatureValue](https://reference.aspose.com/words/java/com.aspose.words/digitalsignature/#getSignatureValue)プロパティを使用して、デジタル署名されたドキュメントからデジタル署名値をバイト配列として取得する機能も提供します。
 
-次のコードの例では、ドキュメントからバイト配列としてデジタル署名値を取得する方法を示します。
+次のコード例は、ドキュメントからデジタル署名値をバイト配列として取得する方法を示しています:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "signature-value.java" >}}
 
-## デジタル署名を削除
+## デジタル署名の削除
 
-Aspose.Words 署名された文書からすべてのデジタル署名を削除することができます [RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream) メソッド。
+Aspose.Wordsは、[RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream)メソッドを使用して、署名された文書からすべてのデジタル署名を削除できます。
 
-次のコードの例では、ドキュメントからデジタル署名を読み、削除する方法を示します。
+次のコード例は、ドキュメントからデジタル署名を読み込んで削除する方法を示しています:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "remove-signatures.java" >}}
 
 {{% alert color="primary" %}}
 
-ドキュメント内の1つのデジタル署名のみを削除することはできません。
+ドキュメント内のデジタル署名は1つだけ削除できないことに注意してください。
 
 {{% /alert %}}

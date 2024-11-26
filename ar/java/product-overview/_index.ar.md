@@ -1,9 +1,9 @@
----
-title: استعراض عام للمنتجات
-second_title: Aspose.Words for Java
-articleTitle: استعراض عام للمنتجات
-linktitle: استعراض عام للمنتجات
-description: "Aspose.Words for Java هي مكتبة برمجيات مصممة لإنشاء، وتعديل، وتحويل، وإصدار، وطباعة الوثائق دون الاعتماد على أي برمجيات أخرى."
+﻿---
+title: نظرة عامة على المنتج
+second_title: Aspose.Words ل Java
+articleTitle: نظرة عامة على المنتج
+linktitle: نظرة عامة على المنتج
+description: "Aspose.Words إلى عن على Java هي مكتبة برامج مصممة لإنشاء المستندات وتعديلها وتحويلها وعرضها وطباعتها دون الاعتماد على أي برنامج آخر."
 type: docs
 weight: 5
 url: /ar/java/product-overview/
@@ -12,100 +12,100 @@ timestamp: 2024-01-31-14-23-37
 
 <img src="/words/java/product-overview/home_1" alt="aspose-words-product" align="left" style="width:64px; margin: 0 30px 30px 0"/>
 
-مرحبا بكم في Aspose.Words for Java!
+مرحبا بكم في Aspose.Words ل Java!
 
-Aspose.Words هي مكتبة راقية تُمكّن طلبكم من أداء مجموعة واسعة من مهام تجهيز الوثائق. نسميها محررة الوثائق البرنامجية
+Aspose.Words هي مكتبة فئة عبر الأنظمة الأساسية تمكن تطبيقك من أداء مجموعة متنوعة من مهام معالجة المستندات. نسميها محرر المستندات القابل للبرمجة.
 
-استخدام Aspose.Words, يمكنك أن تخلق، تعدّل، تحوّل، تصدر، وتطبع الوثائق دون الاعتماد على تطبيقات طرف ثالث، مثل Microsoft Word, أو Office Automation.
+باستخدام Aspose.Words، يمكنك إنشاء المستندات وتعديلها وتحويلها وعرضها وطباعتها دون الاعتماد على تطبيقات الطرف الثالث، مثل Microsoft Word أو Office Automation.
 
-وتجدر الإشارة إلى أنه يمكنك تحويل وثيقة من أي شكل من أشكال الحمولة المدعومة إلى أي شكل من أشكال الدعم، على سبيل المثال، Microsoft Word صيغ لـ PDF أو HTML أو Markdown, HTML to DOCX, and so on. اقرأ المزيد عن تحويل الوثائق في [Convert a Document](/words/ar/java/convert-a-document/) القسم
+تجدر الإشارة إلى أنه يمكنك تحويل مستند من أي تنسيق تحميل مدعوم إلى أي تنسيق حفظ مدعوم، على سبيل المثال، Microsoft Word تنسيقات إلى PDF، HTML، أو Markdown، HTML إلى DOCX، وهكذا. اقرأ المزيد حول تحويل المستندات في [تحويل مستند](/words/java/convert-a-document/) القسم.
 
-خيار شعبي آخر لمكتبتنا هو * التقارير والمايلز*. مستعملونا يولدون قدرا كبيرا من التعقيدات المالية والطبية وغيرها *Reports*. وعند القيام بذلك، يبدو أن الوثيقة المولدة قد أعدت التقرير يدويا باستخدام محرر نص منتظم. خيار آخر *Mail*, وتوفر القدرة على توليد الآلاف والملايين من الوثائق البسيطة التي لا تزال قائمة على نماذج شخصية.
+خيار شائع آخر لمكتبتنا هو *Reports and Mails*. مستخدمينا توليد معقدة للغاية تعديل فردي المالية والطبية، وغيرها *Reports*. عند القيام بذلك، يبدو المستند الذي تم إنشاؤه وكأنك أنشأت التقرير يدويا باستخدام محرر نصوص عادي. خيار آخر، *Mail*، يوفر القدرة على إنشاء الآلاف والملايين من المستندات البسيطة ولكن لا تزال شخصية قائمة على القوالب بسرعة كبيرة.
 
-في محاولة لجعل API وبأكبر قدر ممكن من الوضوح والوضوح، قررنا أن نعترف ونحترم Java ممارسات وضع البرامج. وهكذا، Aspose.Words for Java المبادئ التوجيهية للتدوين التي حظيت بقبول واسع النطاق Java مطورون
+في محاولة لجعل API واضحا وواضحا قدر الإمكان، قررنا الاعتراف بممارسات تطوير النظام الأساسي Java الشائعة وتكريمها. وهكذا، Aspose.Words إلى عن على Java يتبع إرشادات الترميز المقبولة على نطاق واسع من قبل Java المطورين.
 
-## فوائد الاستخدام Aspose.Words
+## فوائد استخدام Aspose.Words
 
-استخدام Aspose.Words for Java في مشروعك يمنحك الفوائد التالية:
+يمنحك استخدام Aspose.Words لـ Java في مشروعك الفوائد التالية:
 
-* الأداء والقابلية للتقدير
-* مجموعة سمات غنية
-* استقلالية المنبر
-* الاستقلال عن تطبيقات الأطراف الثالثة
-* منحنى التعلم في مجال الألغام
+* الأداء وقابلية التوسع
+* مجموعة الميزات الغنية
+* منصة الاستقلال
+* الاستقلال عن تطبيقات الطرف الثالث
+* منحنى التعلم الأدنى
 
-ويبين الرسم البياني التالي الملامح الرئيسية Aspose.Words for Java وكيف يرتبطون ببعضهم البعض
+يوضح الرسم البياني التالي السمات الرئيسية لـ Aspose.Words لـ Java وكيف ترتبط ببعضها البعض.
 
 <img src="/words/java/product-overview/aspose-words-product-features-overview.png" alt="aspose_words-java-product-features-overview" style="width:800px"/>
 
-### مجموعة الأثرياء
+### مجموعة غنية من الميزات
 
-Aspose.Words for Java ويمكن تقسيم السمات إلى أربعة مجالات رئيسية.
+Aspose.Words ل Java يمكن تقسيم الميزات إلى أربعة مجالات رئيسية.
 
 #### التحويل
 
-إن القدرة على تحويل الوثائق بسهولة وبصورة موثوقة هي أحد السمات الرئيسية Aspose.Words.
+تعد القدرة على تحويل المستندات بسهولة وموثوقية إحدى الميزات الرئيسية لـ Aspose.Words.
 
-شامل [النقل والإنقاذ والتحويل](/words/ar/java/loading-saving-and-converting/) مع [الوثائق الداعمة](/words/ar/java/supported-document-formats/) السماح للمستعملين بتحويل الوثائق من [شكل شعبي واحد](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) إلى [another](https://reference.aspose.com/words/java/com.aspose.words/saveformat/), For example, from DOCX to PDF, JPEG, or Markdown.
+شامل [استيراد وتصدير المستندات](/words/java/loading-saving-and-converting/) مع [أكثر من 35 تنسيقات الملفات المدعومة](/words/java/supported-document-formats/) يسمح للمستخدمين بتحويل المستندات من [تنسيق شائع واحد](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) إلى [another](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)، على سبيل المثال، من DOCX إلى PDF أو JPEG أو Markdown.
 
-#### Document Object Model (DOM)
+#### نموذج كائن المستند (DOM)
 
-الوصول إلى البرامج من خلال الثراء API وتسمح جميع عناصر وشكل الوثائق بخلق وتعديل واستخلاص ونسخة وتجزئة وانضمام واستبدال محتوى الوثائق. إكتشف المزيد في [Aspose.Words Document Object Model (DOM)](/words/ar/java/aspose-words-document-object-model/) القسم
+يسمح الوصول البرمجي من خلال API غني إلى جميع عناصر المستند والتنسيق بإنشاء محتوى المستند وتعديله واستخراجه ونسخه وتقسيمه والانضمام إليه واستبداله. اكتشف المزيد في [Aspose.Words نموذج كائن المستند (DOM)](/words/java/aspose-words-document-object-model/) القسم.
 
-#### Rendering
+#### تقديم
 
-نستخدم المصطلح [Rendering](/words/ar/java/rendering/) (ب) وصف عملية تحويل الوثيقة إلى شكل ملف أو متوسط أو مهرج أو مفهوم الصفحات.
+نحن نستخدم المصطلح [التقديم في Aspose.Words](/words/java/rendering/) لوصف عملية تحويل مستند إلى تنسيق ملف أو وسيط، مرقم صفحات أو يحتوي على مفهوم الصفحات.
 
-يمكنك تحويل جميع الوثائق أو الصفحات الخاصة إلى PDF أو XPS لتوليد وثائق جانب الخادم، طباعتها، أو إصدار الصفحات. و كل هذا مع اخلاص كبير Microsoft Word كان ليفعلها
+يمكنك تحويل مستندات كاملة أو صفحات معينة إلى PDF أو XPS لإنشاء مستندات من جانب الخادم أو طباعتها أو عرض الصفحات. وكل هذا بدقة عالية – تماما مثل Microsoft Word كان سيفعل ذلك.
 
 #### الإبلاغ
 
-إعداد الوثائق أو التقارير من الصفر أو عن طريق ملء النماذج ببيانات من مصادر البيانات أو من الأجسام التجارية. للاطلاع على مزيد من المعلومات عن الإبلاغ وجلب البيانات من قواعد البيانات، انظر [Mail Merge and Reporting](/words/java/mail-merge-and-reporting/) و [LINQ FOR](/words/java/linq-reporting-engine/) الأقسام.
+إنشاء مستندات أو تقارير من البداية أو عن طريق ملء القوالب ببيانات من مصادر البيانات أو كائنات الأعمال. لمزيد من المعلومات حول إعداد التقارير وجلب البيانات من قواعد البيانات، راجع [Mail Merge والإبلاغ](/words/java/mail-merge-and-reporting/) و [LINQ محرك التقارير](/words/java/linq-reporting-engine/) الأقسام.
 
-### المنبر
+### منصة الاستقلال
 
-Aspose.Words for Java جميع الأغطية Java البيئات الإنمائية ومنابر النشر. لنا API يمكن استخدامه لتطوير تطبيقات لمجموعة واسعة من نظم التشغيل، مثل Windows, Linux, Mac OS, Android, ومنابر مختلفة
+Aspose.Words ل Java يغطي جميع Java بيئات التطوير ومنصات النشر. لدينا API يمكن استخدامها لتطوير تطبيقات لمجموعة واسعة من أنظمة التشغيل، مثل Windows, Linux, Mac OS, Android, ومنصات مختلفة.
 
-لنضعه ببساطة، إذا كان منصك أن يُدير نظاماً قياسياً Java يمكن تشغيله Aspose.Words for Java. إذا كان تطبيقك يمكن أن يسمي المعيار Java API لن يكون لديك مشاكل في الاتصال Aspose.Words for Java API من طلبك
+ببساطة، إذا كان النظام الأساسي الخاص بك يمكن تشغيل معيار Java، فإنه يمكن تشغيل Aspose.Words ل Java. إذا كان التطبيق الخاص بك يمكن استدعاء معيار Java API، سيكون لديك أي مشاكل للاتصال Aspose.Words ل Java API من التطبيق الخاص بك.
 
-في الوقت الحالي خط الأساس لدينا هو JDK1.7 والأحدث. لكننا ما زلنا ندعم (جي دي كي 1.6)
+في الوقت الحالي، خط الأساس لدينا هو JDK1.7 وأحدث. لكننا ما زلنا ندعم JDK1.6.
 
-لدينا ثلاثة إطلاقات مختلفة على نفس قاعدة الشفرة
+لدينا ثلاثة إصدارات مختلفة بناء على نفس قاعدة الكود:
 
-* ♪ Aspose.Words for Java
-* ♪ Aspose.Words for Android عبر Java
-* ♪ Aspose.Words for JasperReports
+* Aspose.Words ل Java
+* Aspose.Words ل Android عبر Java
+* Aspose.Words ل JasperReports
 
-بينما Java و Android وتُجمَّع الإطلاقات للمنبر المقابل، Aspose.Words for JasperReports مجرد غلاف سميك حول " القواعد " Aspose.Words for Java. إنه فقط للراحة يمكنك أيضاً دمجك يدوياً JasperReports مع عرض الكلمات بطريقة محددة تناسب احتياجاتك بشكل أفضل
+بينما يتم تجميع إصدارات Java و Android للمنصة المقابلة، فإن Aspose.Words لـ JasperReports هو مجرد غلاف سميك حول" ترتيبي " Aspose.Words لـ Java. انها فقط للراحة. يمكنك أيضا دمج JasperReports يدويا مع كلمات أسبوس – بطريقة محددة تناسب احتياجاتك بشكل أفضل.
 
 ### الاستقلال عن التطبيقات الأخرى
 
-Aspose.Words لا يتطلب تطبيقات من طرف ثالث، على سبيل المثال Microsoft سيتم تركيب المكتب على الآلة من أجل العمل جميع المكونات المفترضة مستقلة تماما. هذا يجعل Aspose.Words بديل كبير للتشغيل الآلي من حيث الأمن والاستقرار والقابلية للتقسيم/السرعة والسعر والسمات اللازمة للعمل مع الوثائق والمهام ذات الصلة.
+Aspose.Words لا يتطلب تطبيقات الطرف الثالث، على سبيل المثال، Microsoft مكتب، ليتم تثبيتها على الجهاز من أجل العمل. جميع مكونات الأسبوز مستقلة تماما. هذا يجعل Aspose.Words بديلا رائعا للأتمتة من حيث الأمان والاستقرار وقابلية التوسع/السرعة والسعر وميزات العمل مع المستندات والمهام ذات الصلة.
 
-### الأداء والقابلية للقياس
+### الأداء وقابلية التوسع
 
-Aspose.Words مصممة لتأديتها بشكل كبير على خادم أو زبون Aspose.Words هو واحد Java جرة يمكن نشرها مع أي Java طلب بنسخه ببساطة يمكنك أيضا إضافة `HarfBuzz` مبتدئ ملامح فونتية إذا كنت في حاجة إليها (مشحنة في جرة منفصلة). المعيار Java ImageIO كما يمكن إضافة التمديد إلى منبركم لدعم المزيد ImageIO الشفرة (لا حاجة إليها في العصر الحديث) Java البيئات).
+تم تصميم Aspose.Words لأداء كبير على كل من الخادم أو العميل. Aspose.Words هو واحد Java جرة التي يمكن نشرها مع أي تطبيق Java ببساطة عن طريق نسخها. يمكنك أيضا إضافة `HarfBuzz` المساعد لميزات الخط المتقدمة إذا كنت في حاجة إليها (شحنها في جرة منفصلة). يمكن أيضا إضافة ملحق قياسي Java ImageIO JAI إلى النظام الأساسي الخاص بك لدعم برامج الترميز ImageIO الإضافية (لا حاجة في بيئات Java الحديثة).
 
-مع Aspose.Words, يمكنك حرفيا توليد الآلاف من الوثائق في دقائق، التي تتضمن فتح وثيقة، وتعديل المحتوى والتشكيل أو التعبئة مع البيانات، وإنقاذها. وحتى أكثر الوثائق تعقيداً تُفتح وتُحفظ على جهاز P4-4Ghz 1Gb RAM على أجزاء من ثانية.
+باستخدام Aspose.Words، يمكنك إنشاء آلاف المستندات حرفيا في دقائق، والتي تتضمن فتح مستند وتعديل المحتوى والتنسيق أو ملئه بالبيانات وحفظه. يتم فتح حتى الوثائق الأكثر تعقيدا وحفظها على P4 2.4Ghz 1Gb RAM آلة في كسور من الثانية.
 
-Aspose.Words هو آمن متعدد الخيوط طالما فقط خيط واحد يعمل على وثيقة في وقت واحد. This is a typical scenario to have one thread working on one document. ويمكن أن تعمل الخيوط المختلفة بأمان على مختلف الوثائق في الوقت نفسه.
+Aspose.Words آمن متعدد الخيوط طالما أن مؤشر ترابط واحد فقط يعمل على مستند في كل مرة. هذا سيناريو نموذجي أن يكون لديك مؤشر ترابط واحد يعمل على مستند واحد. يمكن أن تعمل مؤشرات الترابط المختلفة بأمان على مستندات مختلفة في نفس الوقت.
 
-### موكب التعلم عن طريق الألغام
+### منحنى التعلم الأدنى
 
-على الرغم من وجود أكثر من 150 فصلاً عاماً وإحصاءات في Aspose.Words منحنى التعلم هو الحد الأدنى لأن Aspose.Words API وقد صمم بعناية مع مراعاة الأهداف التالية:
+على الرغم من وجود أكثر من 150 فصلا عاما وتعدادا في Aspose.Words، إلا أن منحنى التعلم ضئيل للغاية لأن Aspose.Words API قد تم تصميمه بعناية مع وضع الأهداف التالية في الاعتبار:
 
-* استنكار أفضل الممارسات من ممارسات أخرى معروفة جيدا APIS such as Microsoft Word التلقائية
-* استنكار أفضل الممارسات من Java المبادئ التوجيهية للتصميم الإطاري
-* توفير توازن في سهولة استخدام عناصر الوثائق والتلاعب المفصل بها
+* استعارة أفضل الممارسات من غيرها المعروفة APIs مثل Microsoft Word أتمتة
+* استعارة أفضل الممارسات من Java إرشادات تصميم إطار العمل
+* توفير توازن بين سهولة الاستخدام والتلاعب التفصيلي لعناصر المستند
 
-المطورون الذين سبق أن استخدموا Microsoft Word وسيجد التلقائية في مشاريعهم أسماء وسلوك العديد من الفئات والأساليب والممتلكات مألوفة.
+سيجد المطورون الذين استخدموا سابقا Microsoft Word الأتمتة في مشاريعهم أسماء وسلوك العديد من الفئات والأساليب والخصائص المألوفة.
 
-[Document](https://reference.aspose.com/words/java/com.aspose.words/document/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), [Bookmark](https://reference.aspose.com/words/java/com.aspose.words/bookmark/), [Range](https://reference.aspose.com/words/java/com.aspose.words/range/), [Section.PageSetup](https://reference.aspose.com/words/java/com.aspose.words/section/#getPageSetup) و [Paragraph.ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/paragraph/#ParagraphFormat) بعض من Aspose.Words الصفوف في نفس الوقت Aspose.Words مختلف تماما عن Microsoft Word يعترض على أنّه يمثّل مستنداً كشجرة من الأشياء، أشبه بـ "إكس إم إل" DOM شجرة إذا كنت تعمل مع أي XML DOM المكتبة، ستجد من السهل فهمها والعمل معها Aspose.Words.
+[Document](https://reference.aspose.com/words/java/com.aspose.words/document/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), [Bookmark](https://reference.aspose.com/words/java/com.aspose.words/bookmark/), [Range](https://reference.aspose.com/words/java/com.aspose.words/range/), [Section.PageSetup](https://reference.aspose.com/words/java/com.aspose.words/section/#getPageSetup) و [Paragraph.ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/paragraph/#ParagraphFormat) هي بعض من Aspose.Words الطبقات. في الوقت نفسه، يختلف Aspose.Words تماما عن نموذج الكائن Microsoft Word من حيث أنه يمثل مستندا كشجرة كائنات، مثل شجرة XML DOM. إذا كنت قد عملت مع أي XML DOM مكتبة، وسوف تجد أنه من السهل أن نفهم والعمل مع Aspose.Words.
 
-## الخصخصة والسياسات
+## التسعير والسياسات
 
-يرجى زيارة [الترخيص والاشتراك](/words/ar/java/licensing/) صفحة للحصول على معلومات عن التراخيص واستعراض [المعلومات الخاصة](https://purchase.aspose.com/pricing/words/family/) صفحة للتفاصيل عن التسعير
+يرجى زيارة [الترخيص](/words/java/licensing/) صفحة للحصول على معلومات حول التراخيص ومراجعة [معلومات التسعير](https://purchase.aspose.com/pricing/words/family/) صفحة للحصول على تفاصيل حول التسعير.
 
-## الدعم التقني
+## الدعم الفني
 
-للحصول على مزيد من المعلومات Aspose.Words الدعم التقني، ألقي نظرة على [الدعم التقني](/words/ar/java/technical-support/).
+لمزيد من المعلومات حول Aspose.Words الدعم الفني، نلقي نظرة على [صفحة الدعم](/words/java/technical-support/).

@@ -1,22 +1,22 @@
----
-title: Преобразование Word в Excel Python
+﻿---
+title: Преобразовать Word в Excel за Python
 second_title: Aspose.Words для Python via .NET
-articleTitle: Преобразовать документ в Excel
-linktitle: Преобразовать документ в Excel
-description: "Преобразование PDF в Excel, XML в Excel, DOCX в Excel Python. Сохранить документ в различных форматах для XLSX Python."
+articleTitle: Преобразование документа в Excel
+linktitle: Преобразование документа в Excel
+description: "Преобразуйте PDF в Excel, XML в Excel, DOCX в Excel Python. Сохраните документ в различных форматах в XLSX, используя Python."
 type: docs
 weight: 15
 url: /ru/python-net/convert-a-document-to-excel/
 timestamp: 2024-01-31-14-23-37
 ---
 
-Преобразование документов из одного формата в другой является флагманской особенностью Aspose.Words. Вы можете конвертировать документы в любой доступный [формат загрузки](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) Также в формате XLSX.
+Преобразование документов из одного формата в другой является основной функцией Aspose.Words. Вы также можете конвертировать документы из любого доступного формата [load format](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) в формат XLSX.
 
-## Преобразование документа в XLSX
+## Преобразовать документ в XLSX
 
-Преобразование документа в XLSX является довольно сложным процессом. Сохранить документ в формате XLSX Aspose.Words использовать [XlsxSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/) Класс и новый `Xlsx` элемент в [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/) перечисление. Как упоминалось выше, вы можете сохранить документ в любом формате загрузки, поддерживаемом Aspose.Words для XLSX.
+Преобразование документа в формат XLSX - довольно сложный процесс. Чтобы сохранить документ в формате XLSX с помощью Aspose.Words, используйте класс [XlsxSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/) и новый элемент `Xlsx` в перечислении [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/). Как упоминалось выше, вы можете сохранить документ в любом формате загрузки, поддерживаемом параметрами от Aspose.Words до XLSX.
 
-Следующий пример кода показывает, как сохранить PDF в XLSX:
+В следующем примере кода показано, как сохранить значение PDF в значение XLSX:
 
 {{< highlight python >}}
 doc = aw.Document(docs_base.my_dir + "Pdf Document.pdf")
@@ -26,15 +26,15 @@ doc.save(docs_base.artifacts_dir + "BaseConversions.PdfToXlsx.xlsx")
 
 {{% alert color="primary" %}}
 
-Иногда необходимо указать дополнительные опции, которые могут повлиять на результат сохранения документа в виде XLSX. Эти варианты могут быть определены с помощью [XlsxSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/) класс, содержащий свойства, определяющие, как будет отображаться выход XLSX.
+Иногда необходимо указать дополнительные параметры, которые могут повлиять на результат сохранения документа в виде XLSX. Эти параметры можно задать с помощью класса [XlsxSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/), содержащего свойства, которые определяют, как будет отображаться результат XLSX.
 
 {{% /alert %}}
 
-## Найти и заменить при экономии на XLSX
+## Поиск и замена при сохранении в XLSX
 
-Также использовать Aspose.Words, Вы можете найти определенную строку или регулярное выражение в вашем документе и заменить его соответствующей строкой. Вы также можете сохранить результат в формате XLSX.
+Также, используя Aspose.Words, вы можете найти определенную строку или регулярное выражение в вашем документе и заменить их на подходящее вам. Затем вы также можете сохранить результат в формате XLSX.
 
-Следующий пример кода показывает, как выполнить поиск и замену операции и сохранить результат в XLSX:
+В следующем примере кода показано, как выполнить операцию поиска и замены и сохранить результат в XLSX:
 
 {{< highlight python >}}
 from aspose.words import Document, DocumentBuilder
@@ -56,11 +56,11 @@ doc.range.replace("Ruby", "Jade", options)
 doc.save(ARTIFACTS_DIR + "BaseConversions.FindReplaceXlsx.xlsx")
 {{< /highlight >}}
 
-## Укажите уровень сжатия при экономии на XLSX
+## Укажите уровень сжатия при сохранении в XLSX
 
-Вы также можете указать уровень сжатия при сохранении с помощью [CompressionLevel](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/compression_level/) собственность.
+Вы также можете указать уровень сжатия при сохранении, используя свойство [CompressionLevel](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/compression_level/).
 
-Следующий пример кода показывает, как указать уровень сжатия при сохранении в формате XLSX:
+В следующем примере кода показано, как указать уровень сжатия при сохранении в формате XLSX:
 
 {{< highlight python >}}
 from aspose.words import Document
@@ -76,5 +76,5 @@ doc.save(ARTIFACTS_DIR + "BaseConversions.CompressXlsx.xlsx", saveOptions)
 
 ## Смотрите также
 
-- Раздел документации [Защитить или зашифровать документ](/words/ru/python-net/protect-or-encrypt-a-document/) для получения дополнительной информации о защите и шифровании документа
-- Статья [Найти и заменить](/words/ru/python-net/find-and-replace/) для получения дополнительной информации о поиске и замене контента, который вы хотите
+- Раздел документации [Защита или шифрование документа](/words/python-net/protect-or-encrypt-a-document/) для получения дополнительной информации о защите и шифровании документа
+- Статья [Найдите и замените](/words/python-net/find-and-replace/) для получения дополнительной информации о поиске и замене нужного вам контента

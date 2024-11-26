@@ -1,68 +1,68 @@
----
-title: 문서 읽기 전용 Java
-second_title: Aspose.Words 제품정보 Java
-articleTitle: 문서 읽기 전용
-linktitle: 문서 읽기 전용
-description: "문서 읽기 전용 만들기 그래서 컨텐츠를 복사하거나 읽을 수 있지만, 사용하지 않는 Java·"
+﻿---
+title: Java에서 읽기 전용 문서 열기
+second_title: Aspose.WordsJava
+articleTitle: 읽기 전용 문서 열기
+linktitle: 읽기 전용 문서 열기
+description: "내용을 복사하거나 읽을 수 있지만Java을 사용하여 수정할 수는 없도록 문서를 읽기 전용으로 만듭니다."
 type: docs
 weight: 10
 url: /ko/java/open-a-document-read-only/
 timestamp: 2024-01-27-14-07-04
 ---
 
-때로는 리뷰가 필요한 문서가있을 수 있지만, 리뷰가 무작위로 콘텐츠를 수정할 수 없습니다. Aspose.Words 문서 읽기 전용의 권한을 만들 수 있도록 콘텐츠를 복사하거나 읽을 수 있지만 수정되지 않습니다. 이 문서에 삭제되거나 추가된 내용이 방지됩니다.
+때때로 검토가 필요한 문서가 있을 수 있지만 검토자가 콘텐츠를 임의로 수정하지 않도록 합니다. Aspose.Words을 사용하면 내용을 복사하거나 읽을 수 있지만 수정할 수는 없도록 문서의 권한을 읽기 전용으로 만들 수 있습니다. 이렇게 하면 콘텐츠가 제거되거나 문서에 추가되는 것을 방지할 수 있습니다.
 
 {{% alert color="primary" %}}
 
-문서에 읽기 전용 옵션을 적용하면 새 사본을 만들고 다른 이름으로 저장하지 않고 누군가를 방지하지 않습니다.
+문서에 읽기 전용 옵션을 적용해도 새 복사본을 만들고 다른 이름으로 저장할 수 없습니다.
 
 {{% /alert %}}
 
-이 문서는 문서 읽기 전용을 만드는 방법을 설명합니다.
+이 문서에서는 문서를 읽기 전용으로 만드는 방법을 설명합니다.
 
-## 문서 읽기 전용 만들기
+## 문서를 읽기 전용으로 만들기
 
-Aspose.Words 공공 클래스 [WriteProtection](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/) 문서에 대한 보호 설정을 지정합니다. 이 클래스의 인스턴스를 직접 만들 수 없습니다.
+Aspose.Words에는 문서에 대한 쓰기 방지 설정을 지정하는 공용 클래스[WriteProtection](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/)이 있습니다. 이 클래스의 인스턴스는 직접 만들지 않습니다.
 
-읽기 전용 및/또는 문서를 수정하기 위해 암호를 필요로 하는 문서를 열어 놓는 것이 좋습니다.
+쓰기 보호는 작성자가 문서를 읽기 전용으로 열거나 문서를 수정하기 위해 암호를 요구하도록 권장했는지 여부를 보여줍니다.
 
-Aspose.Words 문서 읽기 전용을 만들 수 있습니다. [ReadOnlyRecommended](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/#getReadOnlyRecommended) 시설 및 시설 [SetPassword](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/#setPassword-java.lang.String) 방법.
+Aspose.Words를 사용하면[ReadOnlyRecommended](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/#getReadOnlyRecommended)속성과[SetPassword](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/#setPassword-java.lang.String)메서드를 사용하여 편집을 제한하기 위해 문서를 읽기 전용으로 만들 수 있습니다.
 
 {{% alert color="primary" %}}
 
-내 계정 Microsoft Word, 다음과 같은 방법으로 읽기 전용 문서를 만들 수 있습니다:
+Microsoft Word에서 둘 다 사용하여 비슷한 방식으로 읽기 전용 문서를 만들 수 있습니다:
 
-* "Always Open Read-Only" (파일 → 정보 → 문서 보호)
-* "암호 수정" (Save as → Tools → 일반 옵션 → 암호)
+* "항상 읽기 전용으로 열기"(파일,정보,문서 보호)
+* "수정할 암호"(다른 이름으로 저장 도구,일반 옵션,암호)
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-사용자는 선택하여 문서 편집을 제한할 수 있습니다. [ProtectionType](https://reference.aspose.com/words/java/com.aspose.words/protectiontype/) 이름 * **ReadOnly**, 그러나 이것은 더 진보된 보호 기능을 제공하는 또 다른 특징입니다. 그런 함수는 Microsoft Word, 각각, 그것은에서 실행됩니다 Aspose.Words·
+또한 사용자는[ProtectionType](https://reference.aspose.com/words/java/com.aspose.words/protectiontype/)을**ReadOnly**로 선택하여 문서 편집을 제한할 수 있지만 이는 고급 보호 기능을 제공하는 또 다른 기능입니다. Microsoft Word에 그런 함수가 있고,각각Aspose.Words에 구현되어 있습니다.
 
-**ProtectionType** 다음 기사 중 하나에서 자세히 설명 될 것 – "Restrict Document Editing".
+**ProtectionType**
 
 {{% /alert %}}
 
-더 보기 **ReadOnlyRecommended** 해당 이용 후기에 달린 코멘트가 없습니다. **ReadOnlyRecommended** 속성, 그런 다음 다른 사용자는 단순히 문서를 공개 할 수 있습니다. 문서 보호 설정에 액세스하고 쓰기 보호 암호를 설정 **SetPassword** 방법.
+**ReadOnlyRecommended**속성은 암호로 보호되므로**ReadOnlyRecommended**속성을 적용하기 전에 암호를 설정하지 않으면 다른 사용자가 보호되지 않은 것처럼 문서를 간단히 열 수 있습니다. 문서 보호 설정에 액세스하고**SetPassword**방법을 통해 쓰기 보호 암호를 설정합니다.
 
 {{% alert color="primary" %}}
 
-설정된 비밀번호는 문서 속성이 액세스되는 경우 삭제할 수 있는 문서에 있는 속성입니다. 따라서 이러한 암호는 문서 보안의 보증이 아닙니다.
+설정되는 암호는 문서 속성에 액세스할 경우 제거할 수 있는 문서의 속성일 뿐입니다. 따라서 이러한 암호는 문서 보안을 보장하지 않습니다.
 
 {{% /alert %}}
 
-문서가 편집에서 제한되는 쓰기 보호 암호가 있는지 확인해야 할 경우, 당신은 사용할 수 있습니다 [IsWriteProtected](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/#isWriteProtected) 호텔 위치
+문서에 편집을 제한하는 쓰기 보호 암호가 있는지 확인해야 하는 경우[IsWriteProtected](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/#isWriteProtected)속성을 사용할 수 있습니다.
 
-다음 코드 예제는 문서 읽기 전용을 만드는 방법을 보여줍니다:
+다음 코드 예제에서는 문서를 읽기 전용으로 만드는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-ReadOnlyProtection.java" >}}
 
 ## 읽기 전용 제한 제거
 
-읽기 전용으로 문서를 열려면 사용자를 원하지 않는다면 간단히 설정할 수 있습니다. **ReadOnlyRecommened** 뚱 베어 *false* 또는 선택 **ProtectionType** 이름 * **NoProtection**·
+사용자가 문서를 읽기 전용으로 열지 않으려면**ReadOnlyRecommened**속성을*false*로 설정하거나**ProtectionType**을**NoProtection**로 선택할 수 있습니다.
 
-다음 코드 예제는 문서의 읽기 전용 액세스를 제거하는 방법을 보여줍니다:
+다음 코드 예제에서는 문서에 대한 읽기 전용 액세스를 제거하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-RemoveReadOnlyRestriction.java" >}}

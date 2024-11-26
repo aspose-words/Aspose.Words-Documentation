@@ -1,42 +1,42 @@
----
-title: Appliquer le formatage personnalisé aux champs
+﻿---
+title: Appliquer une mise en forme personnalisée aux champs
 second_title: Aspose.Words pour Java
-articleTitle: Appliquer le formatage personnalisé aux champs
-linktitle: Appliquer le formatage personnalisé aux champs
-description: "Formater et évaluer le résultat des champs en utilisant Java."
+articleTitle: Appliquer une mise en forme personnalisée aux champs
+linktitle: Appliquer une mise en forme personnalisée aux champs
+description: "Formatez et évaluez le résultat des champs en utilisant Java."
 type: docs
 weight: 40
 url: /fr/java/applying-custom-formatting-to-fields/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Parfois, les utilisateurs doivent appliquer un formatage personnalisé aux champs. Dans cet article, nous allons examiner quelques exemples de la façon dont cela peut être fait.
+Parfois, les utilisateurs doivent appliquer une mise en forme personnalisée aux champs. Dans cet article, nous examinerons quelques exemples de la façon dont cela peut être fait.
 
-Pour en savoir plus, consultez la liste complète des propriétés pour chaque type de champ dans la classe correspondante.
+Pour en savoir plus sur les options, consultez la liste complète des propriétés pour chaque type de champ dans la classe correspondante.
 
-## Comment appliquer le formatage personnalisé au résultat du champ
+## Comment appliquer une Mise en forme personnalisée au Résultat du Champ
 
-Aspose.Words fournit API pour le formatage personnalisé du résultat du champ. Vous pouvez mettre en œuvre [IFieldResultFormatter](https://reference.aspose.com/words/java/com.aspose.words/ifieldresultformatter/) interface pour contrôler comment le résultat du champ est formaté. Vous pouvez appliquer le commutateur de format numérique, c'est-à-dire \# "#.##", le commutateur de format date/heure, c'est-à-dire \@ "dd.MM.aaayy", et le commutateur de format de nombre, c'est-à-dire \* Ordinal.
+Aspose.Words fournit API pour la mise en forme personnalisée du résultat du champ. Vous pouvez implémenter l'interface [IFieldResultFormatter](https://reference.aspose.com/words/java/com.aspose.words/ifieldresultformatter/) pour contrôler la mise en forme du résultat du champ. Vous pouvez appliquer un commutateur de format numérique, c'est-à-dire \# "#.##", un commutateur de format date/heure, c'est-à-dire \@ "dd.MM.yyyy", et un commutateur de format numérique, c'est-à-dire \* Ordinal.
 
-L'exemple de code suivant montre comment appliquer le formatage personnalisé pour le résultat du champ.
+L'exemple de code suivant montre comment appliquer une mise en forme personnalisée pour le résultat du champ.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormatFieldResult-FormatFieldResult.java" >}}
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FieldResultFormatter-FieldResultFormatter.java" >}}
 
-## Comment évaluer `IF` état
+## Comment évaluer la condition `IF`
 
-Si vous voulez évaluer `IF` condition après mail merge, vous pouvez utiliser [EvaluateCondition](https://reference.aspose.com/words/java/com.aspose.words/fieldif/#evaluateCondition) méthode qui renvoie immédiatement le résultat de l'évaluation de l'expression.
+Si vous souhaitez évaluer la condition `IF` après mail merge, vous pouvez utiliser la méthode [EvaluateCondition](https://reference.aspose.com/words/java/com.aspose.words/fieldif/#evaluateCondition) qui renvoie immédiatement le résultat de l'évaluation de l'expression.
 
 L'exemple de code suivant montre comment utiliser cette méthode:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-EvaluateIFCondition-EvaluateIFCondition.java" >}}
 
-## Comment appliquer le formatage personnalisé au champ temporel
+## Comment appliquer une mise en forme personnalisée au Champ Horaire
 
-Par défaut Aspose.Words mises à jour `TIME` champ avec culture actuelle court format de temps. Si vous voulez formater la `TIME` champ selon votre exigence, vous pouvez atteindre ceci en mettant en œuvre [IFieldUpdateCultureProvider](https://reference.aspose.com/words/java/com.aspose.words/ifieldupdatecultureprovider/) interface.
+Par défaut, Aspose.Words met à jour le champ `TIME` avec le format de temps court de la culture actuelle. Si vous souhaitez formater le champ `TIME` en fonction de vos besoins, vous pouvez y parvenir en implémentant l'interface [IFieldUpdateCultureProvider](https://reference.aspose.com/words/java/com.aspose.words/ifieldupdatecultureprovider/).
 
-Les exemples de code suivants montrent comment appliquer le formatage personnalisé au `TIME` champ & #160;:
+Les exemples de code suivants montrent comment appliquer une mise en forme personnalisée au champ `TIME`:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FieldUpdateCulture-FieldUpdateCulture.java" >}}
 

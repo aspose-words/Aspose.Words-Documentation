@@ -1,8 +1,8 @@
 ---
-title: Work with a Document Stored in a `SharePoint` Online
+title: Work with a Document Stored in a SharePoint Online
 second_title: Aspose.Words for .NET
-articleTitle: Work with a Document Stored in a `SharePoint` Online
-linktitle: Work with a Document Stored in a `SharePoint` Online
+articleTitle: Work with a Document Stored in a SharePoint Online
+linktitle: Work with a Document Stored in a SharePoint Online
 description: "Convert Word shared in SharePoint to PDF using C#. Work with documents stored in SharePoint – various input formats, including Word, OpenOffice, Image and eBook."
 type: docs
 weight: 20

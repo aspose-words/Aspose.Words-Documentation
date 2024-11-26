@@ -1,74 +1,74 @@
----
-title: العمل مع علامات الكتاب في Java
-second_title: Aspose.Words for Java
-articleTitle: العمل مع العلامات الكتابية
-linktitle: العمل مع العلامات الكتابية
-description: "فهم المفاهيم المميزة للكتاب وكيف يمكن استخدام علامة الكتاب في برنامجك باستخدام Java."
+﻿---
+title: العمل مع الإشارات المرجعية في Java
+second_title: Aspose.Words ل Java
+articleTitle: العمل مع الإشارات المرجعية
+linktitle: العمل مع الإشارات المرجعية
+description: "فهم المفاهيم المرجعية وكيف المرجعية يمكن استخدامها في البرنامج باستخدام Java."
 type: docs
 weight: 180
 url: /ar/java/working-with-bookmarks/
 timestamp: 2024-01-27-14-07-04
 ---
 
-الدفاتر تحدد في Microsoft Word قم بتوثيق المواقع أو الشظايا التي تسميها وتحديدها للمراجع المستقبلية على سبيل المثال، قد تستخدم علامة كتاب لتحديد النص الذي تريد تنقيحه لاحقا. بدلاً من التسلل عبر الوثيقة لتحديد مكان النص يمكنك الذهاب إليه باستخدام صندوق الهاتف
+تحدد الإشارات المرجعية في مستند Microsoft Word المواقع أو الأجزاء التي تسميها وتحديدها للرجوع إليها في المستقبل. على سبيل المثال، يمكنك استخدام إشارة مرجعية لتحديد النص الذي تريد مراجعته لاحقا. بدلا من التمرير عبر المستند لتحديد موقع النص، يمكنك الانتقال إليه باستخدام مربع حوار الإشارة المرجعية.
 
-مع Aspose.Words, يمكنك استخدام علامات الكتاب في التقارير أو الوثائق لإدراج بعض البيانات في العلامة الكتابية أو تطبيق أشكال خاصة على محتواها. يمكنك أيضاً استخدام علامات الكتاب لاستعادة النص من موقع معين في وثيقتك
+باستخدام Aspose.Words، يمكنك استخدام الإشارات المرجعية في التقارير أو المستندات لإدراج بعض البيانات في الإشارة المرجعية أو تطبيق تنسيق خاص على محتواها. يمكنك أيضا استخدام الإشارات المرجعية لاسترداد النص من موقع معين في المستند.
 
-الإجراءات التي يمكن القيام بها باستخدام علامات الكتاب Aspose.Words هي نفس التي يمكنك القيام بها باستخدام Microsoft Word. يمكنك إدخال علامة كتاب جديدة، حذف، والانتقال إلى علامة كتاب، الحصول على أو وضع اسم علامة كتاب، الحصول على أو وضع نص مرفق بها.
+الإجراءات التي يمكن تنفيذها باستخدام الإشارات المرجعية باستخدام Aspose.Words هي نفس الإجراءات التي يمكنك تنفيذها باستخدام Microsoft Word. يمكنك إدراج إشارة مرجعية جديدة أو حذفها أو الانتقال إلى إشارة مرجعية أو الحصول على اسم إشارة مرجعية أو تعيينه أو الحصول على نص مرفق به أو تعيينه.
 
-## يدرج علامة كتاب
+## أدخل إشارة مرجعية
 
-الاستخدام [startBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startBookmark-java.lang.String) و [endBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endBookmark-java.lang.String) لخلق علامة كتابية من خلال وضع بدايتها ونهايةها، على التوالي. لا تنسي أن تمرر نفس الاسم الكتابي لكلا الأسلوبين ويمكن للعلامات الكتابية الواردة في وثيقة ما أن تتداخل وتمتد على أي نطاق. وسوف يتم تجاهل العلامات الكتابية البشعة أو العلامات الدفترية ذات الأسماء المزدوجة عندما يتم حفظ الوثيقة.
+استخدم [startBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startBookmark-java.lang.String) و [endBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endBookmark-java.lang.String) لإنشاء إشارة مرجعية عن طريق تحديد بدايتها ونهايتها، على التوالي. لا تنس تمرير نفس اسم الإشارة المرجعية إلى كلتا الطريقتين. يمكن أن تتداخل الإشارات المرجعية في المستند وتمتد إلى أي نطاق. سيتم تجاهل الإشارات المرجعية أو الإشارات المرجعية ذات الأسماء المكررة عند حفظ المستند.
 
 {{% alert color="primary" %}}
 
-واستبدلت جميع الأماكن البيضاء في العلامات الكتابية بأبرز. This restriction came from MS Word formats, since bookmarks in MS Word formats, like DOCX or DOC, cannot have white spaces. However, PDF allows such bookmarks. لذا الآن، إذا كنت بحاجة إلى استخدام علامات الكتاب في PDF، XPS أو مخططات SWF، يمكنك استخدامها مع الأماكن البيضاء.
+تم استبدال جميع المسافات البيضاء في الإشارات المرجعية بشرطات سفلية. جاء هذا التقييد من MS تنسيقات الكلمات، نظرا لأن الإشارات المرجعية في MS تنسيقات الكلمات، مثل DOCX أو DOC، لا يمكن أن تحتوي على مسافات بيضاء. ومع ذلك، PDF يسمح بمثل هذه الإشارات المرجعية. حتى الآن، إذا كنت بحاجة إلى استخدام الإشارات المرجعية في PDF، XPS أو SWF الخطوط العريضة، يمكنك استخدامها مع مسافات بيضاء.
 
 {{% /alert %}}
 
-ويبين المثال الرمزي التالي كيفية وضع علامة كتاب جديدة:
+يوضح مثال الكود التالي كيفية إنشاء إشارة مرجعية جديدة:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-bookmarks-CreateBookmark-CreateBookmark.java" >}}
 
-## ملاحظات كتابية
+## الحصول على الإشارات المرجعية
 
-وفي بعض الأحيان يكون من الضروري الحصول على مجموعة من العلامات الدفترية من خلال العلامات الكتابية أو لأغراض أخرى. استخدام **Node.getRange** الممتلكات التي تعرضها أي سند من وثائقها والتي تعيد **Range** غرض يمثل الجزء من الوثيقة الوارد في هذا العقد. استخدام هذا الجسم لاسترجاع **BookmarkCollection** وبعد ذلك استخدام مؤشر التحصيل للحصول على علامة كتاب محددة.
+في بعض الأحيان يكون من الضروري الحصول على مجموعة إشارات مرجعية للتكرار من خلال الإشارات المرجعية أو لأغراض أخرى. استخدم الخاصية **Node.getRange** المكشوفة بواسطة أي عقدة مستند تقوم بإرجاع كائن **Range** يمثل جزء المستند الموجود في هذه العقدة. استخدم هذا الكائن لاسترداد **BookmarkCollection** ثم استخدم مفهرس المجموعة للحصول على إشارة مرجعية محددة.
 
 {{% alert color="primary" %}}
 
-يمكنك تحميل ملف العينة من الأمثلة التالية [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Bookmarks.docx).
+يمكنك تحميل ملف عينة من الأمثلة التالية من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Bookmarks.docx).
 
 {{% /alert %}}
 
-ويبين المثال الرمزي التالي كيفية الحصول على علامات كتاب من مجموعة كتب:
+يوضح مثال الكود التالي كيفية الحصول على إشارات مرجعية من مجموعة إشارات مرجعية:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-bookmarks-AccessBookmarks-AccessBookmarks.java" >}}
 
-ويبيّن المثال الرمزي التالي كيفية الحصول على اسم ورسالة كتابية أو وضعهما:
+يوضح مثال الكود التالي كيفية الحصول على اسم إشارة مرجعية ونص أو تعيينهما:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-bookmarks-BookmarkNameAndText-BookmarkNameAndText.java" >}}
 
-ويبين المثال الرمزي التالي كيفية وضع علامة على طاولة:
+يوضح مثال الكود التالي كيفية وضع إشارة مرجعية على جدول:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-bookmarks-BookmarkTable-BookmarkTable.java" >}}
 
-إذا غيّرتِ اسم علامة كتاب إلى اسم موجود بالفعل في الوثيقة لن يُحدث أي خطأ ولن تُخزّن العلامة الأولى فقط عندما تُنقذين الوثيقة
+إذا قمت بتغيير اسم إشارة مرجعية إلى اسم موجود بالفعل في المستند، فلن يتم إنشاء أي خطأ وسيتم تخزين الإشارة المرجعية الأولى فقط عند حفظ المستند.
 
-Note that some bookmarks in the document are assigned to form fields. والانتقال إلى هذه العلامة الكتابية وإدراج النص فيها يُدرج النص في شكل مدونة ميدانية. وعلى الرغم من أن هذا لن يبطل مجال الشكل، فإن النص المضاف لن يكون مرئيا لأنه يصبح جزءا من القانون الميداني.
+لاحظ أنه يتم تعيين بعض الإشارات المرجعية في المستند إلى حقول النموذج. الانتقال إلى مثل هذه الإشارة المرجعية وإدراج النص هناك إدراج النص في رمز حقل النموذج. على الرغم من أن هذا لن يبطل حقل النموذج، إلا أن النص المدرج لن يكون مرئيا لأنه يصبح جزءا من رمز الحقل.
 
-ويبين المثال الرمزي التالي كيفية الوصول إلى الأعمدة من الجدول المحسوب:
+يوضح مثال الكود التالي كيفية الوصول إلى أعمدة الجدول الذي تم وضع إشارة مرجعية عليه:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-bookmarks-BookmarkTable-BookmarkTableColumns.java" >}}
 
-## انتقل إلى علامة الكتاب
+## الانتقال إلى إشارة مرجعية
 
-إذا كنت بحاجة إلى إدراج محتوى غني (ليس مجرد نص عادي) في علامة الكتاب، يجب أن تستخدم [moveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToBookmark-java.lang.String) لنقل الستار إلى علامة الكتاب ثم استخدام **DocumentBuilder** أساليب وممتلكات لإدراج المحتوى.
+إذا كنت بحاجة إلى إدراج محتوى غني (وليس مجرد نص عادي) في إشارة مرجعية، فيجب عليك استخدام [moveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToBookmark-java.lang.String) لتحريك المؤشر إلى الإشارة المرجعية ثم استخدام **DocumentBuilder** الأساليب والخصائص لإدراج المحتوى.
 
-## عرض كتاب مخفي
+## إظهار إخفاء محتوى الإشارة المرجعية
 
-يمكن حصر العلامة الكتابية بأكملها (بما في ذلك المحتوى المميز*) في الجزء الحقيقي من `IF` استخدام الحقل Aspose.Words. يمكن أن يكون بطريقة ما `IF` الحقل يحتوي على حقل مركّب في التعبير (*فوائد المشغل*) ورهناً بقيمة الميدان الكبير `IF` الميدان يظهر أو يخفي محتوى العلامة الكتابية في الوثيقة الوردية
+يمكن تغليف الإشارة المرجعية بأكملها (*including the bookmarked content*) داخل الجزء الحقيقي من حقل `IF` باستخدام Aspose.Words. يمكن أن يكون بطريقة تحتوي على حقل `IF` حقل دمج متداخل في التعبير (*Left of Operator*) واعتمادا على قيمة حقل الدمج، يعرض حقل `IF` أو يخفي محتوى الإشارة المرجعية في مستند ورد.
 
-The following code example shows how to show/ hide bookmarks.
+يوضح مثال الكود التالي كيفية إظهار / إخفاء الإشارات المرجعية.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-bookmarks-ShowHideBookmarks-ShowHideBookmarks_call.java" >}}
 

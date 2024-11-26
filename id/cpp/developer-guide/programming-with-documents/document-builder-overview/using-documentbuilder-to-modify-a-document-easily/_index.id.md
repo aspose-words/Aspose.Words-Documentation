@@ -1,8 +1,8 @@
 ---
-title: Menggunakan `DocumentBuilder` untuk Memodifikasi Dokumen dengan Mudah
+title: Menggunakan DocumentBuilder untuk Memodifikasi Dokumen dengan Mudah
 second_title: Aspose.Words untuk C++
-articleTitle: Menggunakan `DocumentBuilder` untuk Memodifikasi Dokumen dengan Mudah
-linktitle: Menggunakan `DocumentBuilder` untuk Memodifikasi Dokumen dengan Mudah
+articleTitle: Menggunakan DocumentBuilder untuk Memodifikasi Dokumen dengan Mudah
+linktitle: Menggunakan DocumentBuilder untuk Memodifikasi Dokumen dengan Mudah
 type: docs
 description: "Gunakan pembuat dokumen untuk memodifikasi dokumen dengan mudah di C++."
 weight: 190

@@ -1,24 +1,24 @@
----
+﻿---
 title: การติดตั้ง
-second_title: Aspose.Words สําหรับ Java
+second_title: Aspose.WordsสำหรับJava
 articleTitle: การติดตั้ง
 linktitle: การติดตั้ง
-description: "ติดตั้ง Aspose.Words สําหรับ Java จาก Maven ห้องเก็บของ นิยาม Aspose.Words สําหรับ Java เชื่อมโยงใน pom.xml ของคุณ"
+description: "ติดตั้งAspose.WordsสำหรับJavaจากMavenที่เก็บข้อมูล กำหนดAspose.WordsสำหรับJavaการพึ่งพาในpom.xmlของคุณ"
 type: docs
 weight: 10
 url: /th/java/installation/
 timestamp: 2024-01-27-14-07-04
 ---
 
-ให้แน่ใจว่าเครื่องของคุณพบกับ [เงื่อนไขของระบบ](/words/th/java/system-requirements/) ก่อนที่คุณจะเริ่มต้น
+ให้แน่ใจว่าเครื่องของคุณตรงตาม [ความต้องการของระบบ](/words/java/system-requirements/) ก่อนที่คุณจะเริ่ม.
 
-บทความ นี้ อธิบาย วิธี ติด ตั้ง Aspose.Words สําหรับ Java ในคอมพิวเตอร์ของคุณ
+บทความนี้อธิบายวิธีการติดตั้งAspose.WordsสำหรับJavaบนคอมพิวเตอร์ของคุณ.
 
-## ติดตั้ง Aspose.Words สําหรับ Java จาก Maven เรียกคืน {#install-aspose-words-for-java-from-maven-repository}
+## ติดตั้งAspose.WordsสำหรับJavaจากMavenที่เก็บ {#install-aspose-words-for-java-from-maven-repository}
 
-ต้นแบบทั้งหมด Java APIแสดง [Maven คลังสื่อ](https://releases.aspose.com/words/java/). คุณใช้ง่ายนะ Aspose.Words สําหรับ Java API โดยตรงในของคุณ Maven โครงการที่มีการปรับแต่งง่าย ๆ:
+แอสโพสโฮสต์ทั้งหมดJavaAPIsใน [Mavenที่เก็บ](https://releases.aspose.com/words/java/). คุณสามารถใช้Aspose.WordsสำหรับJavaAPIโดยตรงในโครงการของคุณMavenด้วยการกำหนดค่าที่เรียบง่าย:
 
-1 อย่างแรก คุณต้องระบุสถานะก่อน Maven การปรับแต่ง/ การจัดวางในของคุณ Maven pom.xml ที่แสดงด้านล่างนี้:
+1. ขั้นแรก คุณต้องระบุการกำหนดค่า/ตำแหน่งที่เก็บ Aspose Maven ใน Maven pom.xml ของคุณดังแสดงด้านล่าง:
 	{{< highlight html >}}
 	<repositories>
 		<repository>
@@ -28,7 +28,7 @@ timestamp: 2024-01-27-14-07-04
 		</repository>
 	</repositories>
 	{{< /highlight >}}
-2 แล้วให้นิยาม Aspose.Words สําหรับ Java API เชื่อมโยงใน pom.xml ของคุณดังต่อไปนี้:
+2. จากนั้นกำหนดAspose.WordsสำหรับJavaAPIการพึ่งพาในpom.xmlของคุณดังนี้:
 	{{< highlight html >}}
 	<dependencies>
 		<dependency>
@@ -45,8 +45,8 @@ timestamp: 2024-01-27-14-07-04
 		</dependency>
 	</dependencies>
 	{{< /highlight >}}
-3 ยินดีด้วย! คุณกําหนดค่าสําเร็จ Aspose.Words สําหรับ Java การเข้าไปพัวพัน Maven โครงการ
+3. ยินดีด้วย! คุณได้กำหนดAspose.WordsสำหรับJavaการพึ่งพาในโครงการMavenของคุณเรียบร้อยแล้ว.
 
-## ดูด้วย
+## ดูเพิ่มเติม
 
-* [ดาวน์โหลด Aspose.Words จาก Maven](https://releases.aspose.com/words/java/)
+* [ดาวน์โหลดAspose.WordsจากMaven](https://releases.aspose.com/words/java/)

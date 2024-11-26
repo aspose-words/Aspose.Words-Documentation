@@ -1,37 +1,37 @@
----
-title: Trabajando con TextBoxes Enlaces en Java
-second_title: Aspose.Words para Java
-articleTitle: Trabajando con Boxes de Texto Relacionados
-linktitle: Trabajando con Boxes de Texto Relacionados
-description: "Introducción a los cuadros de texto enlazados Aspose.Words para Java."
+﻿---
+title: Trabajando con TextBoxes vinculado en Java
+second_title: Aspose.Words por Java
+articleTitle: Trabajando con TextBoxes vinculado
+linktitle: Trabajando con TextBoxes vinculado
+description: "Introducción a la función de cuadros de texto vinculados en Aspose.Words para Java."
 type: docs
 weight: 250
 url: /es/java/working-with-linked-textboxes/
 timestamp: 2024-01-27-14-07-04
 ---
 
-In Aspose.Words, el [TextBox](https://reference.aspose.com/words/java/com.aspose.words/textbox/) clase se utiliza para especificar cómo se muestra un texto dentro de una forma. Proporciona una propiedad pública llamada Parent para obtener la forma padre para el cuadro de texto para permitir que el cliente encuentre vinculado [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) de enlace **TextBox**.
+En Aspose.Words, la clase [TextBox](https://reference.aspose.com/words/java/com.aspose.words/textbox/) se usa para especificar cómo se muestra un texto dentro de una forma. Proporciona una propiedad pública denominada Padre para obtener la forma principal del cuadro de texto y permitir al cliente encontrar [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) vinculado desde **TextBox** vinculado.
 
-## Crear un enlace
+## Crear Un Enlace
 
-El **TextBox** la clase proporciona [IsValidLinkTarget](https://reference.aspose.com/words/java/com.aspose.words/textbox/#isValidLinkTarget-com.aspose.words.TextBox) método para comprobar si el **TextBox** se puede vincular con el objetivo **Textbox**.
+La clase **TextBox** proporciona el método [IsValidLinkTarget](https://reference.aspose.com/words/java/com.aspose.words/textbox/#isValidLinkTarget-com.aspose.words.TextBox) para comprobar si el **TextBox** se puede vincular al **Textbox** de destino.
 
-El siguiente ejemplo de código muestra cómo comprobar si el `TextBox` se puede vincular con el cuadro de texto objetivo:
+El siguiente ejemplo de código muestra cómo verificar si `TextBox` se puede vincular al cuadro de texto de destino:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-LinkedTextboxes-WorkingWithLinkedTextboxes-CreateALink.java" >}}
 
 
-## Texto de verificación Box Sequence
+## Comprobar Secuencia TextBox
 
-Hay varias maneras de mostrar texto en forma. El [TextBox](https://reference.aspose.com/words/java/com.aspose.words/shape/#getTextBox) puede ser la Cabeza, Medio o Tail de una secuencia.
+Hay varias formas de mostrar texto en una forma. El [TextBox](https://reference.aspose.com/words/java/com.aspose.words/shape/#getTextBox) puede ser la Cabecera, el Centro o la Cola de una secuencia.
 
-El siguiente ejemplo de código muestra cómo comprobar si **TextBox** es una Cabeza, Tail o Media de la secuencia:
+El siguiente ejemplo de código muestra cómo verificar si **TextBox** es una Cabecera, Cola o Mitad de la secuencia:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-LinkedTextboxes-WorkingWithLinkedTextboxes-CheckSequence.java" >}}
 
-## Romper un enlace
+## Romper un Enlace
 
-Usando el [BreakForwardLink](https://reference.aspose.com/words/java/com.aspose.words/textbox/#breakForwardLink) método que puede romper el enlace al siguiente **TextBox**.
+Usando el método [BreakForwardLink](https://reference.aspose.com/words/java/com.aspose.words/textbox/#breakForwardLink) puede romper el enlace al siguiente **TextBox**.
 
 El siguiente ejemplo de código muestra cómo romper un enlace para un **TextBox**:
 

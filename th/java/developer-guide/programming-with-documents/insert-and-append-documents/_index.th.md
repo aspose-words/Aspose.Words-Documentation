@@ -1,125 +1,125 @@
----
-title: แทรกและเพิ่มเอกสารใน Java
-second_title: Aspose.Words สําหรับ Java
-articleTitle: แทรกและเพิ่มเอกสาร
-linktitle: แทรกและเพิ่มเอกสาร
-description: "รวมเอกสารเข้าเป็นหนึ่ง ๆ: แทรกหรือเพิ่มเอกสารเข้าในเอกสารใหม่หรือที่มีอยู่ โดยใช้และแทนที่, รวมช่องข้อมูล, คั่นหน้า, หรือแค่สิ้นสุดเอกสารเท่านั้น Java."
+﻿---
+title: แทรกและต่อท้ายเอกสารในJava
+second_title: Aspose.WordsสำหรับJava
+articleTitle: แทรกและผนวกเอกสาร
+linktitle: แทรกและผนวกเอกสาร
+description: "รวมเอกสารเข้าด้วยกัน:แทรกหรือต่อท้ายเอกสารลงในใหม่หรือที่มีอยู่โดยใช้การค้นหาและแทนที่,ผสาน,บุ๊กมาร์ก,หรือเพียงแค่ที่สิ้นสุดของเอกสารในJava."
 type: docs
 weight: 80
 url: /th/java/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---
 
-บาง ครั้ง จําเป็น ต้อง รวม เอกสาร หลาย ฉบับ เข้า เป็น หนึ่ง เดียว. คุณสามารถทําเช่นนี้ด้วยตนเองหรือคุณสามารถใช้ Aspose.Words แทรกหรือเพิ่มคุณสมบัติ
+บางครั้งก็จะต้องรวมเอกสารหลายเป็นหนึ่ง คุณสามารถทำเช่นนี้ด้วยตนเองหรือคุณสามารถใช้คุณลักษณะแทรกAspose.Wordsหรือต่อท้าย.
 
-การแทรกปฏิบัติการนี้ ให้คุณได้แทรกเนื้อหาของเอกสารที่ถูกสร้างขึ้นก่อนหน้านี้ ไปยังเอกสารใหม่หรือที่มีอยู่แล้ว
+การดำเนินการแทรกช่วยให้คุณสามารถแทรกเนื้อหาของเอกสารที่สร้างไว้ก่อนหน้านี้ลงใ.
 
-คุณสมบัติเพิ่มเติมนี้ จะอนุญาตให้คุณทําการเพิ่มเอกสารได้ เมื่อเอกสารอื่นจบการทํางานเท่านั้น
+ในทางกลับกันคุณลักษณะภาคผนวกช่วยให้คุณสามารถเพิ่มเอกสารเฉพาะที่ส่วนท้ายของเอ.
 
-บทความ นี้ อธิบาย วิธี ใส่ หรือ เพิ่ม เอกสาร ให้ อีก เอกสาร หนึ่ง ใน วิธี ต่าง ๆ กัน และ อธิบาย คุณสมบัติ ทั่ว ไป ที่ คุณ สามารถ นํา มา ใช้ ได้ ขณะ ที่ ใส่ หรือ เพิ่ม เอกสาร.
+บทความนี้อธิบายวิธีการแทรกหรือต่อท้ายเอกสารไปยังอีกหนึ่งวิธีอื่นและอธิบายถึงคุณสมบั.
 
 ## แทรกเอกสาร
 
-ดัง ที่ กล่าว ข้าง ต้น ใน Aspose.Words เอกสาร นี้ ถูก แทน ที่ ด้วย ต้น โหนด และ การ สอด เอกสาร หนึ่ง เข้า ไป ใน อีก เอกสาร หนึ่ง ก็ คือ การ เลียน แบบ โหนด จาก ต้น ฉบับ แรก ไป ยัง ต้น ที่ สอง.
+ดังกล่าวข้างต้นในAspose.Wordsเอกสารจะแสดงเป็นต้นไม้ของโหนดและการดำเนินงานของการแทรก.
 
-คุณ สามารถ ใส่ เอกสาร ลง ใน ที่ ต่าง ๆ ได้ หลาย แห่ง. ตัวอย่างเช่น คุณสามารถแทรกเอกสารผ่านปฏิบัติการที่แทนที่ได้ สนามรวมระหว่างปฏิบัติการรวม หรือผ่านทางที่คั่นหน้า
+คุณสามารถแทรกเอกสารในสถานที่ต่างๆได้หลายรูปแบบ ตัวอย่างเช่นคุณสามารถแทรกเอกสารผ่านการดำเนินการแทนที่ฟิลด์ผสานระหว่างการ.
 
-คุณสามารถใช้ [InsertDocument](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocument-com.aspose.words.Document-int) หรือ [InsertDocumentInline](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocumentInline-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions) วิธีการ, ซึ่งคล้ายกับการใส่เอกสารใน Microsoft Word, ให้ใส่เอกสารทั้งเอกสารในตําแหน่งเคอร์เซอร์ปัจจุบันโดยไม่มีการนําเข้าก่อนหน้า
+นอกจากนี้คุณยังสามารถใช้วิธีการ[InsertDocument](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocument-com.aspose.words.Document-int)หรือ[InsertDocumentInline](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocumentInline-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions)ซึ่งคล้ายกับการแทรกเอกสารในMicrosoft Wordเพื่อแทรกเอกสารทั้งหมดที่ตำแหน่งเคอร์เซอร์ปัจจุบันโดยไม่ต้องนำเข้าก่อนหน้านี้.
 
-ตัวอย่างรหัสต่อไปนี้แสดงถึงวิธีการใส่เอกสารโดยใช้ **InsertDocument** วิธีการ:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกเอกสารโดยใช้วิธีการ**InsertDocument**:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-with-builder.java" >}}
 
-ตัวอย่างรหัสต่อไปนี้แสดงถึงวิธีการใส่เอกสารโดยใช้ **InsertDocumentInline** วิธีการ:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกเอกสารโดยใช้วิธีการ**InsertDocumentInline**:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-inline-with-builder.java" >}}
 
-รายการย่อยต่อไปนี้ จะอธิบายตัวเลือกต่าง ๆ ระหว่างที่คุณสามารถแทรกเอกสารหนึ่งไปยังอีกเอกสารหนึ่งได้
+ย่อยต่อไปนี้อธิบายตัวเลือกในระหว่างที่คุณสามารถแทรกเอกสารหนึ่งไปยังอีก.
 
-### แทรกเอกสารระหว่างการค้นหาและแทนที่ปฏิบัติการ {#insert-a-document-during-find-and-replace-operation}
+### แทรกเอกสารระหว่างการค้นหาและแทนที่การทำงาน {#insert-a-document-during-find-and-replace-operation}
 
-คุณสามารถแทรกเอกสารได้ขณะทําการค้นหาและทําการแทนที่ ตัว อย่าง เช่น เอกสาร อาจ มี วรรค ต่าง ๆ ที่ มี ข้อ ความ [ภาษา อังกฤษ] และ [ภาษา อังกฤษ]. แต่ ใน เอกสาร สุด ท้าย คุณ ต้อง เปลี่ยน ข้อ ความ ที่ ได้ มา จาก เอกสาร ภาย นอก อีก ฉบับ หนึ่ง. เพื่อบรรลุเป้าหมายนั้น คุณจะต้องสร้างผู้ดูแลสําหรับเหตุการณ์ที่แทนที่
+คุณสามารถแทรกเอกสารขณะดำเนินการค้นหาและแทนที่การดำเนินงาน ตัวอย่างเช่นเอกสารสามารถประกอบด้วยย่อหน้าที่มีข้อความ[INTRODUCTION]และ[CONCLUSION] แต่ในเอกสารสุดท้ายคุณจะต้องเปลี่ยนย่อหน้าเหล่านั้นด้วยเนื้อหาที่ได้รับจากเอกสารภายนอกอื่น เพื่อให้บรรลุว่า,คุณจะต้องสร้างตัวจัดการสำหรับเหตุการณ์แทนที่.
 
-ตัวอย่างโค้ดต่อไปนี้ จะแสดงวิธีสร้างตัวจัดการสําหรับแทนที่เหตุการณ์ที่จะใช้มันในภายหลังในกระบวนการแทรก:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการสร้างตัวจัดการสำหรับเหตุการณ์แทนที่จะใช้ในภายหลังใ:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-replace-handler.java" >}}
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีการแทรกเนื้อหาของเอกสารหนึ่งไปยังอีกเอกสารหนึ่งระหว่างการค้นหาและแทนที่ปฏิบัติการ:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกเนื้อหาของเอกสารหนึ่งไปยังอีกในระหว่างการค้น:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-replace.java" >}}
 
-### แทรกเอกสารระหว่าง Mail Merge ปฏิบัติการ {#insert-a-document-during-mail-merge-operation}
+### แทรกเอกสารระหว่างการทำงานMail Merge {#insert-a-document-during-mail-merge-operation}
 
-คุณสามารถแทรกเอกสารลงในช่องข้อมูลรวมระหว่าง Mail Merge ปฏิบัติการ ยกตัวอย่างเช่น Mail Merge แม่แบบสามารถรวมสนามได้ เช่น [ซูเมรี่] แต่ในเอกสารสุดท้าย คุณจะต้องแทรกเนื้อหาที่ได้รับจากเอกสารภายนอกอื่น ๆ ในสนามรวมนี้ เพื่อบรรลุเป้าหมายนั้น คุณจะต้องสร้างผู้ดูแลสําหรับการรวมเหตุการณ์เข้าด้วยกัน
+คุณสามารถแทรกเอกสารลงในฟิลด์ผสานระหว่างการดำเนินการMail Merge ตัวอย่างเช่นเทมเพลตMail Mergeสามารถมีฟิลด์ผสานเช่น[สรุป] แต่ในเอกสารสุดท้ายคุณต้องแทรกเนื้อหาที่ได้รับจากเอกสารภายนอกอื่นลงในฟิลด์นี้ผสาน เพื่อให้บรรลุที่,คุณจะต้องสร้างตัวจัดการสำหรับเหตุการณ์ผสาน.
 
-ตัวอย่างโค้ดต่อไปนี้ จะแสดงวิธีสร้างตัวจัดการสําหรับเหตุการณ์คอมไพล์ที่จะใช้ภายหลังในกระบวนการแทรก:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการสร้างตัวจัดการสำหรับเหตุการณ์การรวมการใช้ในภายห:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-mail-merge-handler.java" >}}
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีแทรกเอกสารเข้าไปในช่องข้อมูลรวมโดยใช้ตัวจัดการที่ถูกสร้าง:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกเอกสารลงในฟิลด์ผสานโดยใช้ตัวจัดการที่สร้างขึ้น:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-mail-merge.java" >}}
 
-### แทรกเอกสารที่ที่คั่นหน้า
+### แทรกเอกสารที่บุ๊กมาร์ก
 
-คุณสามารถนําเข้าแฟ้มข้อความ มาเป็นเอกสาร และแทรกมันเข้าไป หลังจากคั่นหน้าที่คุณกําหนดไว้ในเอกสารแล้ว เพื่อสร้างย่อหน้าที่คั่นหน้าที่คุณต้องการให้ใส่เอกสาร
+คุณสามารถนำเข้าแฟ้มข้อความลงในเอกสารและแทรกทันทีหลังจากที่บุ๊กมาร์กที่คุณได้กำหน เมื่อต้องการทำเช่นนี้สร้างย่อหน้าที่คั่นหน้าที่คุณต้องการแทรกเอกสาร.
 
-ตัวอย่างการเข้ารหัสต่อไปนี้ แสดงวิธีแทรกเนื้อหาของเอกสารหนึ่งไปยังที่คั่นหน้าในเอกสารอื่น ๆ:
+ตัวอย่างการเข้ารหัสต่อไปนี้แสดงวิธีการแทรกเนื้อหาของเอกสารหนึ่งไปยังคั่นหน้าในเอก:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-bookmark.java" >}}
 
 {{% alert color="primary" %}}
 
-โปรดสังเกตว่า คั่นหน้าไม่ควรจะรวมหลาย ๆ ย่อหน้าหรือข้อความที่คุณต้องการให้ปรากฎในเอกสารผลสุดท้ายของคุณ
+โปรดทราบว่าบุ๊กมาร์กไม่ควรใส่หลายย่อหน้าหรือข้อความที่คุณต้องการให้ปรากฏในเอกสา.
 
 {{% /alert %}}
 
-## เพิ่มเอกสาร
+## ต่อท้ายเอกสาร
 
-คุณ อาจ มี กรณี ที่ จําเป็น ต้อง มี หน้า ที่ เพิ่ม จาก เอกสาร ไป จน ถึง ท้าย เอกสาร ที่ มี อยู่ แล้ว. เพื่อทําสิ่งนี้ คุณต้องเรียกว่า [AppendDocument](https://reference.aspose.com/words/java/com.aspose.words/document/#appendDocument-com.aspose.words.Document-int) วิธีการเพิ่มเอกสารไปยังท้ายเอกสารอื่น ๆ
+คุณอาจมีกรณีการใช้งานที่คุณต้องการรวมหน้าเพิ่มเติมจากเอกสารไปยังจุดสิ้นสุดของเอก การทำเช่นนี้,คุณเพียงแค่ต้องเรียกวิธีการ[AppendDocument](https://reference.aspose.com/words/java/com.aspose.words/document/#appendDocument-com.aspose.words.Document-int)เพื่อเพิ่มเอกสารไปยังจุดสิ้นสุดของอีกคนหนึ่ง.
 
 {{% alert color="primary" %}}
 
-สังเกตว่า [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/document/#appendChild-com.aspose.words.Node) เป็นวิธีการระดับโหนดภายในเอกสาร ยกตัวอย่างเช่น คุณสามารถสร้างวรรคได้ วางคุณสมบัติการตกแต่ง และต่อเติมมันให้เป็นเด็กให้ร่างกายใช้ **AppendChild** วิธี
+โปรดทราบว่า [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/document/#appendChild-com.aspose.words.Node) เป็นวิธีระดับโหนดภายในเอกสาร ตัวอย่างเช่น คุณสามารถสร้างย่อหน้า ตั้งค่าคุณสมบัติการจัดรูปแบบ จากนั้นผนวกย่อหน้าดังกล่าวเป็นย่อหน้าย่อยในเนื้อหาโดยใช้วิธี **AppendChild**.
 
 {{% /alert %}}
 
-ตัวอย่างรหัสต่อไปนี้แสดงถึงวิธีการต่อเอกสาร ไปยังส่วนท้ายของเอกสารอื่น ๆ:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการต่อท้ายเอกสารไปยังจุดสิ้นสุดของเอกสารอื่น:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "keep-source-formatting.java" >}}
 
-## นําเข้าและแทรกโหนดด้วยตนเอง {#import-and-insert-nodes-manually}
+## นำเข้าและแทรกโหนดด้วยตนเอง {#import-and-insert-nodes-manually}
 
-Aspose.Words ให้คุณได้แทรกและเพิ่มเอกสารต่อท้ายโดยอัตโนมัติ โดยไม่ต้องมีการนําเข้าข้อมูลก่อนหน้า อย่าง ไร ก็ ตาม หาก คุณ จําเป็น ต้อง สอด หรือ เติม โหนด เฉพาะ ของ เอกสาร ของ คุณ เช่น ส่วน หนึ่ง หรือ วรรค ก่อน ก่อน อื่น คุณ ต้อง นํา โหนด นี้ เข้า มา ด้วย ตัว เอง.
+Aspose.Wordsช่วยให้คุณสามารถแทรกและผนวกเอกสารโดยอัตโนมัติโดยไม่มีข้อกำหนดการนำเข้าก่อนหน้านี้ อย่างไรก็ตามถ้าคุณต้องการแทรกหรือต่อท้ายโหนดเฉพาะของเอกสารของคุณเช่นส่วนหรื.
 
-เมื่อคุณจําเป็นต้องแทรกหรือเพิ่มส่วนใดส่วนหนึ่งหรือย่อหน้าหนึ่งไปยังอีกส่วนหนึ่ง คุณต้องนําเข้าโหนดของต้นโหนดเอกสารแรก ไปเป็นต้นที่สองโดยใช้ [ImportNode](https://reference.aspose.com/words/java/com.aspose.words/document/#importNode-com.aspose.words.Node-boolean) วิธี หลังจากนําเข้าโหนดของคุณ คุณจะต้องใช้ [InsertAfter](https://reference.aspose.com/words/java/com.aspose.words/document/#insertBefore-com.aspose.words.Node-com.aspose.words.Node) วิธีการใส่โหนดใหม่หลัง/ ก่อนโหนดอ้างอิง ให้คุณได้ปรับแต่งโพรเซสการแทรก ด้วยการนําเข้าโหนดจากเอกสาร และแทรกมันไปยังตําแหน่งที่กําหนด
+เมื่อคุณต้องการแทรกหรือต่อท้ายส่วนหรือย่อหน้าหนึ่งไปยังอีกส่วนหนึ่งคุณจะต้องอิมพอร์ตโหนดของแผนผังโหนดเอกสารแรกเป็นโหนดที่สองโดยใช้วิธีการ[ImportNode](https://reference.aspose.com/words/java/com.aspose.words/document/#importNode-com.aspose.words.Node-boolean) หลังจากอิมพอร์ตโหนดของคุณคุณต้องใช้วิธีการ[InsertAfter](https://reference.aspose.com/words/java/com.aspose.words/document/#insertBefore-com.aspose.words.Node-com.aspose.words.Node)เพื่อแทรกโหนดใหม่หลัง/ก่อนโหนดอ้างอิง นี้ช่วยให้คุณสามารถกำหนดกระบวนการแทรกโดยการอิมพอร์ตโหนดจากเอกสารและแทรก.
 
-คุณสามารถใช้ [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/document/#appendChild-com.aspose.words.Node) วิธีการเพิ่มโหนดที่ระบุไว้ใหม่ไปยังส่วนท้ายของโหนดลูก ตัวอย่างเช่น หากคุณต้องการเพิ่มข้อมูลในเพิ่มเติมที่ระดับ parts แทนการอยู่ที่ระดับส่วน
+นอกจากนี้คุณยังสามารถใช้วิธีการ[AppendChild](https://reference.aspose.com/words/java/com.aspose.words/document/#appendChild-com.aspose.words.Node)เพื่อเพิ่มโหนดที่ระบุใหม่ในตอนท้ายของรายการของโหนด.
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการนําเข้าโหนดด้วยตนเองและแทรกมัน หลังจากโหนดเฉพาะโดยใช้ **InsertAfter** วิธีการ:
+ตัวอย่างโค้ดต่อไปนี้แสดงวิธีอิมพอร์ตโหนดด้วยตนเองและแทรกโหนดเหล่านี้หลังจากโหนดที่เฉพาะเจาะจงโดยใช้วิธีการ**InsertAfter**:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-as-nodes.java" >}}
 
 {{% alert color="primary" %}}
 
-การนําเข้านี้จะสร้างโหนดใหม่ ที่เป็นสําเนาของโหนดต้นฉบับ และเหมาะกับการแทรกข้อมูลไปยังเอกสารปลายทาง
+การอิมพอร์ตสร้างโหนดใหม่ที่เป็นสำเนาของโหนดต้นฉบับและเหมาะสำหรับการแทรกลงใ.
 
 {{% /alert %}}
 
-เนื้อหาจะถูกนําเข้ามายังส่วนเอกสารปลายทาง ทีละส่วนของเอกสาร ซึ่งหมายความว่า การตั้งค่าหน้า หรือส่วนหัวจดหมาย จะถูกเก็บไว้ระหว่างการนําเข้า เป็น ประโยชน์ ด้วย ที่ จะ สังเกต ว่า คุณ สามารถ กําหนด ค่า การ ฟอร์แมต ได้ เมื่อ คุณ สอด หรือ เพิ่ม เติม เอกสาร เพื่อ ระบุ ว่า มี การ เชื่อม โยง เอกสาร สอง เอกสาร เข้า ด้วย กัน อย่าง ไร.
+เนื้อหาจะถูกนำเข้าในส่วนเอกสารปลายทางตามส่วนซึ่งหมายความว่าการตั้งค่าเช่นการ นอกจากนี้ยังมีประโยชน์ที่จะทราบว่าคุณสามารถกำหนดการตั้งค่าการจัดรูปแบบเมื่อคุณแท.
 
-## คุณสมบัติทั่วไปสําหรับแทรกและเพิ่มเอกสาร {#common-properties-for-insert-and-append-documents}
+## คุณสมบัติทั่วไปสำหรับแทรกและผนวกเอกสาร {#common-properties-for-insert-and-append-documents}
 
-ทั้งคู่ [InsertDocument](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocument-com.aspose.words.Document-int) ถึง [AppendDocument](https://reference.aspose.com/words/java/com.aspose.words/document/#appendDocument-com.aspose.words.Document-int) ยอมรับวิธีการ [ImportFormatMode](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/) ถึง [ImportFormatOptions](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/) เป็นพารามิเตอร์การนําเข้า เดอะ **ImportFormatMode** ให้คุณได้ควบคุมการรวมการแปลงเอกสารเข้าด้วยกัน เมื่อคุณนําเข้าเนื้อหาจากเอกสารหนึ่งมายังอีกเอกสารหนึ่ง โดยการเลือกโหมดรูปแบบต่าง ๆ เช่น [UseDestinationStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#USE-DESTINATION-STYLES), [KeepSourceFormatting](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#KEEP-SOURCE-FORMATTING), ถึง [KeepDifferentStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#KEEP-DIFFERENT-STYLES). เดอะ **ImportFormatOptions** ให้คุณได้เลือกตัวเลือกการนําเข้าอื่น ๆ เช่น [IgnoreHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getIgnoreHeaderFooter), [IgnoreTextBoxes](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getIgnoreTextBoxes), [KeepSourceNumbering](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getKeepSourceNumbering), [MergePastedLists](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getMergePastedLists), ถึง [SmartStyleBehavior](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getSmartStyleBehavior).
+ทั้งวิธีการ[InsertDocument](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocument-com.aspose.words.Document-int)และ[AppendDocument](https://reference.aspose.com/words/java/com.aspose.words/document/#appendDocument-com.aspose.words.Document-int)ยอมรับ[ImportFormatMode](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/)และ[ImportFormatOptions](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/)เป็นพารามิเตอร์อินพุต **ImportFormatMode**ช่วยให้คุณสามารถควบคุมวิธีการรวมการจัดรูปแบบเอกสารเมื่อคุณนำเข้าเนื้อหาจากเอกสารหนึ่งไปยังอีกเอกสารหนึ่งโดยเลือกโหมดรูปแบบต่างๆเช่น[UseDestinationStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#USE-DESTINATION-STYLES),[KeepSourceFormatting](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#KEEP-SOURCE-FORMATTING)และ[KeepDifferentStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#KEEP-DIFFERENT-STYLES) **ImportFormatOptions**ช่วยให้คุณสามารถเลือกตัวเลือกการนำเข้าที่แตกต่างกันเช่น[IgnoreHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getIgnoreHeaderFooter), [IgnoreTextBoxes](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getIgnoreTextBoxes), [KeepSourceNumbering](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getKeepSourceNumbering), [MergePastedLists](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getMergePastedLists), และ[SmartStyleBehavior](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getSmartStyleBehavior).
 
-Aspose.Words ให้คุณได้ปรับค่าภาพของภาพผลลัพธ์ของเอกสาร เมื่อมีการเพิ่มเอกสาร 2 เอกสารเข้าในปฏิบัติการแทรกหรือเพิ่มต่อท้ายโดยใช้ [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) ถึง [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/) คุณสมบัติ เดอะ **PageSetup** คุณสมบัติต่าง ๆ ของส่วนต่าง ๆ เช่น [SectionStart](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getSectionStart), [RestartPageNumbering](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getRestartPageNumbering), [PageStartingNumber](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getPageStartingNumber), [Orientation](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getOrientation), และคนอื่นๆ กรณีที่ใช้บ่อยที่สุดคือการตั้งค่า **SectionStart** คุณสมบัติที่จะใช้กําหนดว่าจะให้เนื้อหาที่เพิ่มเข้าไปปรากฏบนหน้าเดียวกัน หรือแยกเป็นหน้าใหม่
+Aspose.Wordsช่วยให้คุณสามารถปรับการแสดงภาพของเอกสารที่เกิดขึ้นเมื่อเอกสารสองฉบับถูกเพิ่มเข้าด้วยกันในการแทรกหรือต่อท้ายการทำงานโดยใช้คุณสมบัติ[Section](https://reference.aspose.com/words/java/com.aspose.words/section/)และ[PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/) คุณสมบัติ**PageSetup**มีคุณลักษณะทั้งหมดของส่วนเช่น[SectionStart](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getSectionStart), [RestartPageNumbering](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getRestartPageNumbering), [PageStartingNumber](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getPageStartingNumber), [Orientation](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getOrientation), และอื่นๆ กรณีการใช้งานที่พบบ่อยที่สุดคือการตั้งค่าคุณสมบัติ**SectionStart**เพื่อกำหนดว่าเนื้อหาที่เพิ่มจะปรากฏใน.
 
 {{% alert color="primary" %}}
 
-สังเกตว่า **Section** ถึง **PageSetup** คุณสมบัติ ไม่ รู้ ว่า มี การ ใส่ หรือ ยัด เอกสาร สอง เอกสาร เข้า ด้วย กัน อย่าง ไร. เอกสาร เหล่า นี้ เพียง แต่ ทํา ให้ คุณ เปลี่ยน รูป แบบ การ ปรากฏ ของ เอกสาร ผล งาน.
+โปรดทราบว่าคุณสมบัติ**Section**และ**PageSetup**ไม่สามารถควบคุมวิธีการแทรกเอกสารสอง/ต่อท้ายเข้าด้วยกัน ยนรูปลักษณ์ของเอกสารผลลัพธ์ของคุณเท่านั้น.
 
 {{% /alert %}}
 
-ตัว อย่าง รหัส ต่อ ไป นี้ แสดง ให้ เห็น วิธี ที่ จะ เพิ่ม เอกสาร หนึ่ง เข้า ไป ใน อีก เอกสาร หนึ่ง ขณะ เดียว กัน ก็ เก็บ เนื้อหา ไว้ จาก การ แยก สอง หน้า:
+ตัวอย่างโค้ดต่อไปนี้แสดงวิธีการต่อท้ายเอกสารหนึ่งไปยังอีกในขณะที่รักษาเนื้อหาจากกา:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "different-page-setup.java" >}}

@@ -1,68 +1,68 @@
----
-title: フィールドをテキストに置き換える Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: 静的テキストでフィールドを置換する
-linktitle: 静的テキストでフィールドを置換する
-description: "フィールドをテキストに置き換える方法を学ぶ Javaお問い合わせ 静的データをフィールドに置換する Java APIお問い合わせ"
+﻿---
+title: フィールドをテキストJavaに置き換えます
+second_title: Aspose.WordsのためのJava
+articleTitle: フィールドを静的テキストに置き換える
+linktitle: フィールドを静的テキストに置き換える
+description: "Javaのフィールドをテキストに置き換える方法について説明します。 JavaAPIを使用してフィールドを静的データに置き換えます。"
 type: docs
 weight: 37
 url: /ja/java/replace-fields/
 timestamp: 2024-01-27-14-07-04
 ---
 
-文書を静的コピーとして保存したい場合、フィールドの交換はしばしば必要です。 たとえば、メールに添付ファイルとして送信する場合。 などのフィールドの変換 `DATE` または `TIME` 静的なテキストに、文書が送信されたときと同じ日付を表示できるようにします。 また、いくつかの状況では、条件を除去する必要があります `IF` ドキュメントからフィールドを置換し、代わりに最新のテキスト結果に置き換えます。 例えば、結果の変換 `IF` フィールドを静的なテキストにするため、ドキュメントのフィールドが更新されると、その値が動的に変更されることはありません。
+ドキュメントを静的コピーとして保存する場合は、フィールドの置換が必要になることがよくあります。 たとえば、電子メールで添付ファイルとして送信する場合などです。 `DATE`や`TIME`などのフィールドを静的テキストに変換すると、文書は送信されたときと同じ日付を表示できます。 また、状況によっては、文書から条件付き`IF`フィールドを削除し、代わりに最新のテキスト結果に置き換える必要がある場合があります。 たとえば、`IF`フィールドの結果を静的テキストに変換して、ドキュメント内のフィールドが更新されたときに動的に値が変更されないようにします。
 
-下の図は、どのように表示するかを示しています `IF` フィールドはドキュメントに保存されます。
+次の図は、`IF`フィールドがドキュメントにどのように格納されているかを示しています:
 
-* テキストは特別なフィールドノードに囲まれています。 [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/) そして、 [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/)
-* お問い合わせ [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/) ノードはフィールド内のテキストをフィールドコードとフィールド結果に分離します
-*フィールドコードはフィールドの一般的な動作を定義しますが、フィールド結果はこのフィールドが更新されると最新の結果を保持します Microsoft Word または Aspose.Words
-*フィールド結果はフィールドに格納され、表示されたときに文書に表示されているものです
+* テキストは特別なフィールドノード[FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/)と[FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/)で囲まれています
+* [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/)ノードは、フィールド内のテキストをフィールドコードとフィールド結果に分離します
+* フィールドコードはフィールドの一般的な動作を定義しますが、このフィールドがMicrosoft WordまたはAspose.Wordsを使用して更新された場合、フィールドの結果は最新の結果を保
+* フィールドの結果は、フィールドに格納され、表示されたときにドキュメントに表示されるものです
 
 ![update-remove-a-field-aspose-words](/words/java/replace-fields/updating-and-removing-a-field-1.png)
 
-デモプロジェクトを使用して階層形状のフォームでも構造を見ることができます。 **“DocumentExplorer”**, どの船を運ぶか **Aspose.Words** インストーラ。
+この構造は、**Aspose.Words**インストーラに同梱されているデモプロジェクト**"DocumentExplorer"**を使用して階層的な形式で以下に見ることもできます。
 
 ![update-remove-a-field-aspose-words-2](/words/java/replace-fields/updating-and-removing-a-field-2.png)
 
-## テキストで置換できないフィールド
+## テキストで置き換えることができないフィールド
 
-静的テキストでフィールドを置き換えることは、ヘッダまたはフッター内のフィールドに正しく機能しません。
+フィールドを静的テキストに置き換えることは、ヘッダーまたはフッターの一部のフィールドでは正常に機能しません。
 
-例えば、変換しようとする `PAGE` ヘッダーまたはフッターで静的テキストにフィールドすると、すべてのページで同じ値が表示されます。 これは、複数のページでヘッダーとフッターが繰り返されるため、フィールドとして残っているとき、それらは特に処理されるため、各ページの正しい結果が表示されます。
+たとえば、ヘッダーまたはフッターの`PAGE`フィールドを静的テキストに変換しようとすると、すべてのページに同じ値が表示されます。 これは、ヘッダーとフッターが複数のページで繰り返され、フィールドとして残っている場合は、特に処理されて各ページに正しい結果が表示されるためです。
 
-しかし、ヘッダでは、 `PAGE` フィールドはテキストの静的実行によく翻訳します。 このテキストの実行は、セクションの最後のページだったかのように評価されます。 `PAGE` すべてのページ上の最後のページを表示するヘッダーのフィールド。
+ただし、ヘッダーでは、`PAGE`フィールドは静的なテキストの実行にうまく変換されます。 このテキストの実行は、セクションの最後のページであるかのように評価され、ヘッダー内の`PAGE`フィールドにすべてのページの最後のページが表示されます。
 
-次のコードの例では、フィールドを最新の結果に置き換える方法を示します。
+次のコード例は、フィールドを最新の結果に置き換える方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UnlinkFields-UnlinkFields.java" >}}
 
-## 特定のフィールドタイプを特定のドキュメント部品に変換
+## 特定のドキュメントパーツ内の特定のフィールドタイプの変換
 
-以来、 **ConvertFieldsToStaticText** メソッドは2つのパラメータを受け入れます。 [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) プロパティとプロパティ [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) 列挙、このメソッドにコンポジットノードを渡すことができます。 これにより、フィールドは、ドキュメントの特定の部分でのみ静的テキストに変換できます。
+**ConvertFieldsToStaticText**メソッドは、[CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/)プロパティと[FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/)列挙型の2つのパラメータを受け入れるため、このメソッドに任意の複合ノードを渡すことができます。 これにより、フィールドをドキュメントの特定の部分でのみ静的テキストに変換できます。
 
-例えば、 [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) オブジェクトは、指定されたタイプのフィールドをドキュメント全体から静的なテキストに変換したり、 [Body](https://reference.aspose.com/words/java/com.aspose.words/body/) セクションのオブジェクトと、その本文にあるフィールドのみを変換します。
+たとえば、[Document](https://reference.aspose.com/words/java/com.aspose.words/document/)オブジェクトを渡して指定された型のフィールドを文書全体から静的テキストに変換したり、セクションの[Body](https://reference.aspose.com/words/java/com.aspose.words/body/)オブジェクトを渡して、その本文にあるフィールドのみを変換したりすることができます。
 
 {{% alert color="primary" %}}
 
-ブロックレベルのノードを渡すとき [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), 場合によっては、フィールドは複数の段落に及ぶことがあります。 これが起こると、これを回避する代わりに、コンポジットの親を渡すことをお勧めします。
+[Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/)のようなブロックレベルのノードを渡すときは、フィールドが複数の段落にまたがる場合があることに注意してください。 これが発生した場合は、これを回避するために、代わりにコンポジットの親を渡すことをお勧めします。
 
 {{% /alert %}}
 
-ザ・オブ・ザ・ [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) 通達する列挙 **ConvertFieldsToStaticText** メソッドは、フィールドの種類を静的テキストに変換すべきかを指定します。 文書に含まれる他のフィールドタイプは変更されません。
+**ConvertFieldsToStaticText**メソッドに渡される[FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/)列挙体は、どのタイプのフィールドを静的テキストに変換するかを指定します。 ドキュメント内で見つかった他のフィールドタイプは変更されません。
 
-次のコードの例では、特定のタイプのフィールドを選択する方法を示します。 *targetFieldType* 特定のノードで *compositeNode* そして、それらを静的なテキストに変換します。
+次のコード例は、特定のノード*compositeNode*の特定の型*targetFieldType*のフィールドを選択し、それらを静的テキストに変換する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FieldHelper-FieldsHelper.java" >}}
 
-次のコードの例では、すべてのコードを変換する方法を示します。 `IF` 文書内のフィールドを静的テキストへ:
+次のコード例は、ドキュメント内のすべての`IF`フィールドを静的テキストに変換する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-ConvertFieldsInDocument-ConvertFieldsInDocument.java" >}}
 
-次のコードの例では、すべてのコードを変換する方法を示します。 `PAGE` 静的テキストへの文書の本文のフィールド:
+次のコード例は、ドキュメントの本文内のすべての`PAGE`フィールドを静的テキストに変換する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-ConvertFieldsInBody-ConvertFieldsInBody.java" >}}
 
-次のコードの例では、すべてのコードを変換する方法を示します。 `IF` 最後の段落のフィールドを静的テキストに:
+次のコード例は、最後の段落のすべての`IF`フィールドを静的テキストに変換する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-ConvertFieldsInParagraph-ConvertFieldsInParagraph.java" >}}

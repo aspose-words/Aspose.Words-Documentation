@@ -1,58 +1,58 @@
----
-title: สร้างหรือโหลดเอกสารใน Java
-second_title: Aspose.Words สําหรับ Java
-articleTitle: สร้างหรือโหลดเอกสาร
-linktitle: สร้างหรือโหลดเอกสาร
+﻿---
+title: สร้างหรือโหลดเอกสารในJava
+second_title: Aspose.WordsสำหรับJava
+articleTitle: การสร้างหรือโหลดเอกสาร
+linktitle: การสร้างหรือโหลดเอกสาร
 type: docs
 weight: 10
 url: /th/java/create-or-load-a-document/
-description: "Aspose.Words ให้คุณได้สร้างเอกสารว่าง หรือโหลดมาจากแฟ้มหรือสายข้อมูลได้ Java."
+description: "Aspose.Wordsช่วยให้คุณสามารถสร้างเอกสารว่างหรือโหลดจากแฟ้มหรือสตรีมโดยใช้Java."
 timestamp: 2024-01-27-14-07-04
 ---
 
-เกือบทุกทาสก์ที่คุณต้องการจะทํา Aspose.Words การโหลดเอกสาร เดอะ `Document` คลาสแสดงเอกสารที่ถูกโหลดเข้าหน่วยความจํา เอกสารนี้มีการสร้างเอกสารที่มากเกินไป ให้คุณได้สร้างเอกสารว่าง ๆ หรือโหลดมาจากแฟ้มหรือสายข้อมูล คุณสามารถโหลดเอกสารในรูปแบบการโหลดใด ๆ ที่รองรับ Aspose.Words. สําหรับรายการรูปแบบการโหลดทั้งหมดที่รองรับ ดูที่ [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) การเผาศพ
+เกือบทุกงานที่คุณต้องการดำเนินการด้วยAspose.Wordsเกี่ยวข้องกับการโหลดเอกสาร คลาส`Document`แทนเอกสารที่โหลดลงในหน่วยความจำ เอกสารมีหลายตัวสร้างมากเกินไปช่วยให้คุณสามารถสร้างเอกสารที่ว่างเปล่าหรือการโ เอกสารสามารถโหลดในรูปแบบโหลดใดๆที่สนับสนุนโดยAspose.Words สำหรับรายการของรูปแบบการโหลดที่รองรับทั้งหมดโปรดดูที่การแจงนับ[LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/).
 
 ## สร้างเอกสารใหม่ {#create-a-new-document}
 
-เราจะเรียก [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) ผู้สร้างโดยไม่มีพารามิเตอร์ที่จะสร้างเอกสารว่างใหม่ หากคุณต้องการสร้างเอกสารแบบโปรแกรม วิธีที่ง่ายที่สุดคือใช้ [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder) คลาสที่จะเพิ่มเนื้อหาในเอกสาร
+เราจะเรียกตัวสร้าง[Document](https://reference.aspose.com/words/java/com.aspose.words/document/)โดยไม่มีพารามิเตอร์ในการสร้างเอกสารที่ว่างเปล่าใหม่. ถ้าคุณต้องการสร้างเอกสารแบบโปรแกรมวิธีที่ง่ายที่สุดคือใช้คลาส[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder)เพื่อเพิ่มเนื้อหาของเ.
 
-ตัวอย่างรหัสต่อไปนี้แสดงถึงวิธีสร้างเอกสารโดยใช้ตัวสร้างเอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการสร้างเอกสารโดยใช้ตัวสร้างเอกสาร:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-CreateDocument-CreateDocument.java" >}}
 
 {{% alert color="primary" %}}
 
-บันทึกค่าปริยาย:
+หมายเหตุค่าดีฟอลต์:
 
-- เอกสารว่างบรรจุทั้ง 1 ส่วนด้วยพารามิเตอร์ปริยาย, ย่อหน้าว่างหนึ่งตัว, รูปแบบเอกสารบางส่วน ความจริงเอกสารนี้ก็เหมือนกับผลของการสร้าง "เอกสารใหม่" ใน Microsoft Word.
-- ขนาดกระดาษเอกสาร [PaperSize](https://reference.aspose.com/words/java/com.aspose.words/papersize/).**Letter**.
+- เอกสารที่ว่างเปล่าประกอบด้วยส่วนหนึ่งกับพารามิเตอร์ดีฟอลต์วรรคหนึ่งว่างลักษณะเอกส ที่จริงเอกสารนี้เป็นเช่นเดียวกับผลของการสร้าง"เอกสารใหม่"ในMicrosoft Word.
+- ขนาดกระดาษเอกสารคือ[PaperSize](https://reference.aspose.com/words/java/com.aspose.words/papersize/)**Letter**.
 
 {{% /alert %}}
 
-## โหลดเอกสาร
+## ป้อนเอกสาร
 
-ให้โหลดเอกสารที่มีอยู่ในเอกสารใด ๆ [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) รูปแบบต่าง ๆ, ผ่านชื่อแฟ้มหรือสายข้อมูลไปยังตัวสร้างเอกสารตัวหนึ่ง รูปแบบของเอกสารที่ถูกโหลด ถูกกําหนดโดยอัตโนมัติโดยส่วนขยายของเอกสาร
+เมื่อต้องการโหลดเอกสารที่มีอยู่ในรูปแบบใดๆของ[LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/)ให้ส่งชื่อไฟล์หรือสตรีมไปยังตัวสร้างเอ รูปแบบของเอกสารที่โหลดจะถูกกำหนดโดยอัตโนมัติโดยส่วนขยาย.
 
 ### โหลดจากแฟ้ม {#load-from-a-file}
 
-ส่งชื่อแฟ้มเป็นข้อความไปยังตัวสร้างเอกสาร เพื่อเปิดเอกสารที่มีอยู่ก่อนแล้วจากแฟ้ม
+ผ่านชื่อแฟ้มเป็นสตริงไปยังตัวสร้างเอกสารเพื่อเปิดเอกสารที่มีอยู่จากแฟ้ม.
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีการเปิดเอกสารจากแฟ้ม:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการเปิดเอกสารจากแฟ้ม:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-OpenDocument-OpenFromFile.java" >}}
 
-คุณสามารถดาวน์โหลดแฟ้มต้นแบบของตัวอย่างนี้ได้ [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
+คุณสามารถดาวน์โหลดไฟล์แม่แบบของตัวอย่างนี้ได้จาก [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
 
-### โหลดมาจากสายข้อมูล {#load-from-a-stream}
+### โหลดจากสตรีม {#load-from-a-stream}
 
-เพื่อเปิดเอกสารจากลําธาร ให้ส่งออบเจกต์ที่บรรจุเอกสารไปยังตัวสร้างเอกสาร
+เมื่อต้องการเปิดเอกสารจากสตรีมเพียงผ่านวัตถุสตรีมที่ประกอบด้วยเอกสารลงในตัวสร้.
 
-ตัวอย่างรหัสต่อไปนี้แสดงถึงวิธีการเปิดเอกสารจากสายข้อมูล:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการเปิดเอกสารจากสตรีม:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-OpenDocument-OpenFromStream.java" >}}
 
 {{% alert color="primary" %}}
 
-คุณสามารถดาวน์โหลดแฟ้มต้นแบบของตัวอย่างนี้ได้ [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
+คุณสามารถดาวน์โหลดไฟล์แม่แบบของตัวอย่างนี้ได้จาก [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
 
 {{% /alert %}}

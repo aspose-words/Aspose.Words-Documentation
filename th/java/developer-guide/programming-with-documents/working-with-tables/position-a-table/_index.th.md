@@ -1,79 +1,79 @@
----
-title: ตําแหน่งตารางใน Java
-second_title: Aspose.Words สําหรับ Java
-articleTitle: ตําแหน่งของตาราง
-linktitle: ตําแหน่งของตาราง
-description: "ระบุตําแหน่งของตารางใน Java. ได้รับการจัดตําแหน่งตาราง รับและตั้งค่าตําแหน่งตารางลอยโดยใช้ Java."
+﻿---
+title: ตำแหน่งตารางในJava
+second_title: Aspose.WordsสำหรับJava
+articleTitle: ตำแหน่งตาราง
+linktitle: ตำแหน่งตาราง
+description: "ระบุตำแหน่งตารางในJava รับการจัดตำแหน่งตารางรับและตั้งค่าตำแหน่งตารางลอยโดยใช้Java."
 type: docs
 weight: 50
 url: /th/java/position-a-table/
 timestamp: 2024-01-27-14-07-04
 ---
 
-มีตารางลอยน้ําและตารางบรรทัด:
+มีตารางลอยและตารางแบบอินไลน์:
 
-* **ตารางบรรทัด** จะ วาง บน ชั้น เดียว กัน กับ ข้อ ความ และ จะ ถูก นํา ไป เรียง เป็น แถว ๆ โต๊ะ ข้าง บน และ ข้าง ล่าง. Inline Table จะปรากฏเสมอระหว่างย่อหน้าที่คุณวางมัน
-* **เลื่อนตาราง** มี การ เขียน ทับ ข้อ ความ และ ตําแหน่ง ของ โต๊ะ เมื่อ เทียบ กับ วรรค จะ ถูก กําหนด โดย สมอ โต๊ะ. เนื่อง จาก เหตุ นี้ ตําแหน่ง ของ ตาราง ลอย ใน เอกสาร จึง ได้ รับ ผล กระทบ จาก การ ตั้ง ตําแหน่ง ใน แนว ตั้ง ทั้ง ใน แนว ตั้ง และ แนว นอน.
+* **Inline tables**ถูกวางไว้บนชั้นเดียวกับข้อความและถูกวางไว้ในโฟลว์ของข้อความที่ล้อมรอบตารางด้านบนและด้านล่างเท่านั้น ตารางแบบอินไลน์จะปรากฏระหว่างย่อหน้าที่คุณวางไว้เสมอ.
+* **Floating tables**จะถูกเลเยอร์เหนือข้อความและตำแหน่งของตารางสัมพันธ์กับย่อหน้าจะถูกกำหนดโดยสมอต ด้วยเหตุนี้ตำแหน่งของตารางลอยในเอกสารจึงได้รับผลกระทบจากการตั้งค่าการวางตำ.
 
-บางครั้งคุณก็ต้องจัดโต๊ะ ในเอกสารในบางรูปแบบ เพื่อ จะ ทํา เช่น นี้ ได้ คุณ ต้อง ใช้ เครื่อง มือ จัด ระเบียบ และ วาง ช่อง ระหว่าง โต๊ะ กับ ข้อ ความ รอบ ๆ.
+บางครั้งคุณจำเป็นต้องวางตำแหน่งตารางในเอกสารในลักษณะบางอย่าง การทำเช่นนี้คุณจะต้องใช้เครื่องมือการจัดตำแหน่งและการตั้งค่าการเยื้องระหว่างตาร.
 
-ใน บทความ นี้ เรา จะ พิจารณา ทาง เลือก อะไร บ้าง Aspose.Words จัดหาตําแหน่ง
+ในบทความนี้,เราจะหารือเกี่ยวกับสิ่งที่ตัวเลือกAspose.Wordsให้สำหรับการวางตำแหน่ง.
 
-## ระบุตําแหน่งตารางในบรรทัด
+## ระบุตำแหน่งตารางแบบอินไลน์
 
-คุณสามารถกําหนดตําแหน่งของตารางในบรรทัดโดยใช้ Aspose.Words API และ [Alignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getAlignment) ทรัพย์สิน ด้วย เหตุ นี้ คุณ สามารถ ปรับ การ จัด โต๊ะ ให้ เข้า กับ หน้า เอกสาร ได้.
+คุณสามารถตั้งค่าตำแหน่งของตารางอินไลน์โดยใช้คุณสมบัติAspose.WordsAPIและ[Alignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getAlignment) ดังนั้นคุณสามารถปรับการจัดตำแหน่งของตารางเมื่อเทียบกับหน้าเอกสาร.
 
-ตัวอย่างรหัสต่อไปนี้แสดงถึงวิธีการตั้งค่าตําแหน่งของตารางข้อความ:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการตั้งค่าตำแหน่งของตารางแบบอินไลน์:
 
 {{< gist "aspose-words-gists" "0f235c484e5edae70a542ebdaae40fd8" "inline-table-position.java" >}}
 
-## ได้รับการจัดวางตารางการลอย
+## รับการจัดตำแหน่งตารางลอย
 
-หากตั้งค่าการห่อข้อความของตาราง **Around**, คุณสามารถหาแนวราบของตารางได้ โดยใช้ [RelativeHorizontalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeHorizontalAlignment) ถึง [RelativeVerticalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeVerticalAlignment) คุณสมบัติ
+ถ้าการกำหนดการห่อข้อความในตารางถูกตั้งค่าเป็น **Around** คุณสามารถจัดตำแหน่งแนวนอนและแนวตั้งของตารางได้โดยใช้คุณสมบัติ [RelativeHorizontalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeHorizontalAlignment) และ [RelativeVerticalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeVerticalAlignment).
 
-ด้วย **การห่อข้อความชนิดอื่น ๆ**, คุณสามารถหาตําแหน่งตารางบรรทัดได้โดยใช้ **Alignment** ทรัพย์สิน
+ด้วย**other types of text wrapping**คุณจะได้รับการจัดตำแหน่งตารางแบบอินไลน์โดยใช้คุณสมบัติ**Alignment**.
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการจัดตําแหน่งตาราง:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการจัดตำแหน่งของตาราง:
 
 {{< gist "aspose-words-gists" "0f235c484e5edae70a542ebdaae40fd8" "get-table-position.java" >}}
 
-## รับตําแหน่งตารางการลอย
+## รับตำแหน่งตารางลอย
 
- ตําแหน่งของตารางลอยได้ถูกกําหนดโดยใช้คุณสมบัติต่อไปนี้:
+ ตำแหน่งของตารางลอยจะถูกกำหนดโดยใช้คุณสมบัติต่อไปนี้:
 
-* [HorizontalAnchor](https://reference.aspose.com/words/java/com.aspose.words/table/#getHorizontalAnchor) - วัตถุสําหรับการคํานวณตําแหน่งแนวนอนของตารางลอย
-* [VerticalAnchor](https://reference.aspose.com/words/java/com.aspose.words/table/#getVerticalAnchor) - วัตถุสําหรับคํานวณตําแหน่งแนวตั้งของตารางลอย
-* [AbsoluteHorizontalDistance](https://reference.aspose.com/words/java/com.aspose.words/table/#getAbsoluteHorizontalDistance) - ตําแหน่งตารางลอยตัวพอดี
-* [AbsoluteVerticalDistance](https://reference.aspose.com/words/java/com.aspose.words/table/#getAbsoluteVerticalDistance) - ตําแหน่งโต๊ะลอยตัวพอดี
-* [AllowOverlap](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowOverlap) ตัวเลือกต่าง ๆ เพื่อเปิดใช้/ แยกแยะความทับซ้อนกันได้กับวัตถุอื่น ๆ ที่ลอยได้
-* [RelativeHorizontalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeHorizontalAlignment) - ตารางลอยสัมพันธ์การจัดเรียงแนวนอน
-* [RelativeVerticalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeVerticalAlignment) - ตารางลอยสัมพัทธ์
+* [HorizontalAnchor](https://reference.aspose.com/words/java/com.aspose.words/table/#getHorizontalAnchor)–วัตถุสำหรับการคำนวณตำแหน่งแนวนอนของตารางลอย
+* [VerticalAnchor](https://reference.aspose.com/words/java/com.aspose.words/table/#getVerticalAnchor)–วัตถุสำหรับการคำนวณตำแหน่งในแนวตั้งของตารางลอย
+* [AbsoluteHorizontalDistance](https://reference.aspose.com/words/java/com.aspose.words/table/#getAbsoluteHorizontalDistance)–ตำแหน่งตารางลอยแนวนอนสัมบูรณ์
+* [AbsoluteVerticalDistance](https://reference.aspose.com/words/java/com.aspose.words/table/#getAbsoluteVerticalDistance)–ตำแหน่งตารางลอยแนวตั้งสัมบูรณ์
+* [AllowOverlap](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowOverlap)-ตัวเลือกเพื่อเปิด/ปิดการทับซ้อนกับวัตถุอื่นๆลอย
+* [RelativeHorizontalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeHorizontalAlignment)–ตารางลอยสัมพันธ์แนวนอน.
+* [RelativeVerticalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeVerticalAlignment)–ตารางลอยแนวตั้งญาติ.
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการได้รับตําแหน่งของตารางลอย:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการรับตำแหน่งของตารางลอย:
 
 {{< gist "aspose-words-gists" "0f235c484e5edae70a542ebdaae40fd8" "get-floating-table-position.java" >}}
 
-## ตั้งตําแหน่งตารางการลอย
+## ตั้งตำแหน่งตารางลอยตัว
 
-เช่นเดียวกับได้รับคุณสามารถตั้งตําแหน่งของตารางลอยโดยใช้เดียวกัน Aspose.Words API.
+เช่นเดียวกับการได้รับ,คุณสามารถตั้งค่าตำแหน่งของตารางลอยโดยใช้เดียวกันAspose.WordsAPI.
 
-สิ่งสําคัญคือต้องรู้ว่า การจัดตําแหน่งและแนวนอน และระยะแนวดิ่งนั้น เป็นคุณสมบัติรวม และหนึ่งสามารถรีเซ็ตอีกตัวได้ ยกตัวอย่างเช่น การตั้ง **RelativeHorizontalAlignment** จะรีเซ็ต **AbsoluteHorizontalDistance** ไปยังค่าปริยายของมัน และในทางกลับกัน เหมือนกัน true สําหรับทําแนวตั้ง
+มันเป็นสิ่งสำคัญที่จะรู้ว่าการจัดตำแหน่งและระยะทางแนวนอนและแนวตั้งจะรวมกันคุณสมบั ตัวอย่างเช่นการตั้งค่า**RelativeHorizontalAlignment**จะรีเซ็ต**AbsoluteHorizontalDistance**เป็นค่าเริ่มต้นและในทางกลับกัน ก็เหมือนกันสำหรับการจัดเรียงแนวดิ่ง.
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการตั้งตําแหน่งของตารางลอย:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการตั้งค่าตำแหน่งของตารางลอย:
 
 {{< gist "aspose-words-gists" "0f235c484e5edae70a542ebdaae40fd8" "floating-table-position.java" >}}
 
 {{< gist "aspose-words-gists" "0f235c484e5edae70a542ebdaae40fd8" "relative-horizontal-or-vertical-position.java" >}}
 
-## หาระยะห่างระหว่างตารางกับข้อความล้อมรอบ
+## รับระยะห่างระหว่างตารางและข้อความโดยรอบ
 
-Aspose.Words นอก จาก นี้ ยัง เปิด โอกาส ให้ รู้ ระยะ ทาง ระหว่าง โต๊ะ กับ ข้อ ความ โดย รอบ:
+Aspose.Wordsนอกจากนี้ยังมีโอกาสที่จะหาระยะห่างระหว่างตารางและข้อความโดยรอบ:
 
-- [DistanceTop](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceTop) - ค่าของระยะห่างจากด้านบน
-- [DistanceBottom](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceBottom) - ค่าของระยะห่างของการรับรู้
-- [DistanceRight](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceRight) - ระยะทางจากทางขวา
-- [DistanceLeft](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceLeft) - ค่าระยะทางทางซ้าย
+- [DistanceTop](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceTop)–ค่าของระยะทางจากด้านบน
+- [DistanceBottom](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceBottom)-ค่าของระยะทางของการรับรู้
+- [DistanceRight](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceRight)–ค่าระยะทางทางด้านขวา
+- [DistanceLeft](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceLeft)–ค่าระยะทางทางซ้าย
 
-ตัว อย่าง รหัส ต่อ ไป นี้ แสดง ให้ เห็น วิธี ที่ จะ แยก ระยะ ระหว่าง ตาราง กับ ข้อ ความ ที่ อยู่ รอบ ๆ:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการรับระยะห่างระหว่างตารางและข้อความโดยรอบ:
 
 {{< gist "aspose-words-gists" "0f235c484e5edae70a542ebdaae40fd8" "distance-between-table-surrounding-text.java" >}}

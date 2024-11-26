@@ -1,28 +1,28 @@
----
-title: 文書の負荷の支えられた特徴
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: 文書の負荷の支えられた特徴
-linktitle: 文書の負荷の支えられた特徴
-description: "ほとんどの一般的なフォーマットで文書をロードし、変換し、たくさんのをサポートしています Microsoft Word 機能。"
+﻿---
+title: ドキュメントの読み込み時にサポートされる機能
+second_title: Aspose.WordsのためのJava
+articleTitle: ドキュメントの読み込み時にサポートされる機能
+linktitle: ドキュメントの読み込み時にサポートされる機能
+description: "ほとんどの一般的な形式で文書を読み込んで変換し、多くのMicrosoft Word機能をサポートします。"
 type: docs
 weight: 20
 url: /ja/java/supported-features-on-document-load/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words さまざまなフォーマットで文書を操作し、幅広い選択肢を提供できます。 例えば、ユーザーはスクラッチからドキュメントを作成したり、既存のファイルを任意の場所に読み込むことができます。 [サポートされているドキュメントフォーマット](/words/ja/java/supported-document-formats/), その文書を変更し、結果を保存します。 選択した形式でドキュメントをインポートすると、ユーザーはさまざまなロードオプションを適用できます。
+Aspose.Wordsを使用すると、ユーザーはさまざまな形式の文書を操作でき、このための幅広いオプションを提供します。 たとえば、ユーザーは最初から文書を作成したり、既存のファイルを任意の場所にロードしたりできます [サポートされているインポート形式](/words/java/supported-document-formats/)、その文書にいくつかの変更を加えてから、結果を保存します。 選択した形式で文書をインポートするとき、ユーザーはさまざまな読み込みオプションを適用できます。
 
 {{% alert color="primary" %}}
 
-サポートされているすべてのフォーマットに多くのロードオプションが共通であることを知っておくことが重要です。また、PDF、HTML、RTFなどのフォーマット固有のオプションもあります。
+多くのロードオプションがサポートされているすべての形式に共通であり、次のような形式固有のオプションの一部のみがあることを知っておくPDF, HTML, RTF, と他の人。
 
 {{% /alert %}}
 
-機能の完全なリストについては、 API 参考:
+関数の完全なリストについては、API referenceを参照してください:
 
-- [すべてのフォーマットのロードオプション](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/)
-- - - [CHMロードオプション](https://reference.aspose.com/words/java/com.aspose.words/chmloadoptions/) CHMフォーマット
-- - - [HTMLロードオプション](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/) HTML形式の場合
-- - - [PDFロードオプション](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) PDF形式
-- - - [RTF負荷オプション](https://reference.aspose.com/words/java/com.aspose.words/rtfloadoptions/) RTF フォーマット用
-- - - [ロードオプション](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) TXTフォーマット用
+- [すべての形式の読み込みオプション](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/)
+- CHM形式の[CHMロードオプション](https://reference.aspose.com/words/java/com.aspose.words/chmloadoptions/)
+- HTML形式の[HTMLロードオプション](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/)
+- PDF形式の[PDFロードオプション](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/)
+- RTF形式の[RTFロードオプション](https://reference.aspose.com/words/java/com.aspose.words/rtfloadoptions/)
+- TXT形式の[TXTロードオプション](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/)

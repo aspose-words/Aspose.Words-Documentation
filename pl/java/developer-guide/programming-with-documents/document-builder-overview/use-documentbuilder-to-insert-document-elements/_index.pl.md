@@ -1,8 +1,8 @@
 ---
-title: Stosowanie `DocumentBuilder` wstawić elementy dokumentu
+title: Stosowanie DocumentBuilder wstawić elementy dokumentu
 second_title: Aspose.Words zamiast Java
-articleTitle: Stosowanie `DocumentBuilder` wstawić elementy dokumentu
-linktitle: Stosowanie `DocumentBuilder` wstawić elementy dokumentu
+articleTitle: Stosowanie DocumentBuilder wstawić elementy dokumentu
+linktitle: Stosowanie DocumentBuilder wstawić elementy dokumentu
 type: docs
 description: "Wstaw elementy dokumentu przy użyciu konstruktora dokumentu w Java."
 weight: 10

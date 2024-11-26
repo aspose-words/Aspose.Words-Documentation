@@ -1,59 +1,59 @@
----
-title: مقدمه ای بر زمینه ها در Java
+﻿---
+title: معرفی رشته ها در Java
 second_title: Aspose.Words برای Java
-articleTitle: مقدمه ای بر Fields
-linktitle: مقدمه ای بر Fields
-description: "ویژگی فیلد ها در جزئیات، کدهای زمینه و نتایج زمینه توضیح داده شده در Aspose.Words برای Java..."
+articleTitle: معرفی رشته ها
+linktitle: معرفی رشته ها
+description: "فیلد ها در جزئیات، کدهای فیلد و نتایج فیلد توضیح داده شده در Aspose.Words برای Java."
 type: docs
 weight: 10
 url: /fa/java/introduction-to-fields/
 timestamp: 2024-09-25-11-08-55
 ---
 
-Aspose.Words یک کتابخانه کلاس برای پردازش سمت سرور طراحی شده است Microsoft Word اسناد و پشتیبانی از زمینه ها به روش های زیر:
+Aspose.Words یک کتابخانه کلاس است که برای پردازش سمت سرور اسناد Microsoft Word طراحی شده است و از زمینه ها به روش های زیر پشتیبانی می کند:
 
-- تمام زمینه های موجود در یک سند در طول باز/save و تبدیل حفظ می شوند
-- امکان به روز رسانی نتایج بیشتر زمینه ها
+- تمام فیلد های یک سند در طول باز/ذخیره و تبدیل حفظ می شوند
+- امکان به روز رسانی نتایج بیشتر زمینه ها وجود دارد
 
-در این مقاله، ما بیشتر در مورد ساختار زمینه، زمینه های پشتیبانی شده در Aspose.Words, جزئیات کار با این زمینه ها
+در این مقاله، ما در مورد ساختار میدان، زمینه های پشتیبانی شده در Aspose.Words و جزئیات کار با چنین زمینه هایی بیشتر خواهیم آموخت.
 
-## ساختار Field Structure
+## ساختار میدان
 
-یک زمینه شامل:
+یک میدان شامل:
 
-- از شروع زمینه و گره های جداکننده برای پوشش محتوایی که کد فیلد را تشکیل می دهد (معمولا به عنوان متن ساده) استفاده می شود.
-- جداکننده میدان و پایان زمینه شامل نتیجه زمینه است. این می تواند از انواع مختلف محتوا اعم از اجرای متن به پاراگراف ها تا جداول ساخته شده است.
-- برخی از زمینه ها ممکن است جداکننده ای نداشته باشند که به این معنی است که کل محتوا کد زمینه را تشکیل می دهد.
-- کد زمینه رفتار این زمینه را تعریف می کند و از شناسه فیلد و اغلب پارامترهای دیگر مانند نام و سوئیچ های فیلد تشکیل شده است.
-- نتیجه زمینه شامل آخرین ارزیابی این زمینه است. این ارزش در نتیجه زمینه ذخیره می شود و چیزی است که به کاربر نشان داده می شود. برخی از زمینه ها ممکن است هیچ نتیجه زمینه ای نداشته باشند بنابراین هیچ چیز را در سند نشان نمی دهند. به همین ترتیب، برخی از زمینه ها ممکن است به روز نشوند، بنابراین هیچ نتیجه زمینه ای نیز نخواهد داشت.
+- گره های شروع و جدا کننده میدان برای شامل محتوای تشکیل دهنده کد میدان (معمولا به عنوان متن ساده) استفاده می شود.
+- جدا کننده میدان و پایان میدان شامل نتیجه میدان است. این می تواند از انواع مختلف محتوا از متن گرفته تا پاراگراف ها و جداول تشکیل شود.
+- بعضی از فیلد ها ممکن است جداکننده نداشته باشند که به این معنی است که کل محتوا کد فیلد را تشکیل می دهد.
+- کد فیلد رفتار فیلد را تعریف می کند و شامل شناسه فیلد و اغلب پارامترهای دیگر مانند نام فیلد و سوئیچ ها است.
+- نتیجه میدان شامل آخرین ارزیابی میدان است. این مقدار در نتیجه فیلد ذخیره می شود و همان چیزی است که به کاربر نمایش داده می شود. برخی از فیلد ها ممکن است هیچ نتیجه ای از فیلد نداشته باشند بنابراین هیچ چیز را در سند نمایش نمی دهند. به همین ترتیب، برخی از زمینه ها ممکن است هنوز به روز نشده باشند، بنابراین هیچ نتیجه ای در زمینه نخواهند داشت.
 
 ![fields-aspose-words-java](/words/java/introduction-to-fields/introduction-to-fields-1.png)
 
-محتوایی که کد فیلد را تشکیل می دهد به عنوان ذخیره می شود [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) گره های بین [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/) و [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/)... نتیجه میدان بین **FieldSeparator** و [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/) گره ها و می توانند از انواع مختلف محتوا تشکیل شوند. به طور معمول نتیجه زمینه شامل فقط متن ساخته شده از گره های Run است، با این حال ممکن است برای گره Field End در یک پاراگراف کاملا متفاوت قرار گیرد و در نتیجه نتیجه زمینه شامل می شود. [سطح منطقی گره ها در یک سند](/words/fa/java/logical-levels-of-nodes-in-a-document/) مانند **Table** و **Paragraph** همچنین گره ها
+محتوایی که کد فیلد را تشکیل می دهد به عنوان گره های [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) بین [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/) و [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/) ذخیره می شود. نتیجه فیلد بین گره های **FieldSeparator** و [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/) ذخیره می شود و می تواند از انواع مختلف محتوا تشکیل شود. به طور معمول نتیجه فیلد فقط شامل متن ساخته شده از گره های اجرا است، با این حال ممکن است که گره FieldEnd در یک پاراگراف کاملا متفاوت قرار گیرد و بنابراین نتیجه فیلد شامل [گره های سطح بلوک](/words/java/logical-levels-of-nodes-in-a-document/) مانند **Table** و **Paragraph** گره ها نیز.
 
-در اینجا یک دیدگاه از اینکه چگونه یک زمینه در Aspose.Words با استفاده از "DocumentExplorer" مثالی که می تواند در آن یافت شود [Github](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/java/com/aspose/words/examples/viewers_visualizers/document_explorer)...
+در اینجا یک نمای از چگونگی ذخیره یک فیلد در Aspose.Words با استفاده از مثال "*DocumentExplorer"* که می تواند در [Github](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/java/com/aspose/words/examples/viewers_visualizers/document_explorer).
 
 ![document-explorer-aspose-words-java](/words/java/introduction-to-fields/introduction-to-fields-2.png)
 
-## فیلد ها در Aspose.Words Document Object Model ()DOM))
+## فیلد های موجود در Aspose.Words مدل شیء سند (DOM)
 
-هنگامی که یک سند وارد می شود Aspose.Words> رشته های سند به داخل بارگذاری می شوند Aspose.Words Document Object Model به عنوان مجموعه ای از اجزای جداگانه (nodes) یک فیلد واحد به عنوان یک مجموعه از **FieldStart**, **FieldSeparator** و **FieldEnd** گره ها همراه با محتوای بین این گره ها اگر یک فیلد نتیجه ی زمینه ای نداشته باشد، هیچ چیز وجود نخواهد داشت. **FieldSeparator** گره همه این گره ها همیشه در خط (به عنوان کودکان) یافت می شوند. [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) یا [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/)...
+هنگامی که یک سند در Aspose.Words بارگذاری می شود، فیلد های سند به عنوان مجموعه ای از اجزای جداگانه (گره ها) به مدل شیء سند Aspose.Words بارگذاری می شوند. یک فیلد واحد به عنوان مجموعه ای از گره های **FieldStart**، **FieldSeparator** و **FieldEnd** همراه با محتوای بین این گره ها بارگذاری می شود. اگر یک فیلد نتیجه فیلد نداشته باشد، هیچ گره **FieldSeparator** وجود نخواهد داشت. همه این گره ها همیشه در خط یافت می شوند (به عنوان کودکان [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) یا [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/).
 
-In In In Aspose.Words هر یک از **FieldXXX** گره ها از [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/)... این کلاس فراهم می کند یک ملک برای بررسی نوع زمینه نمایندگی شده توسط گره مشخص شده از طریق گره مشخص از طریق گره مشخص از طریق [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) مالکیت برای مثال `FieldType.FieldMergeField` نشان دهنده یک زمینه ادغام در سند است.
+در Aspose.Words هر یک از گره های **FieldXXX** از [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/) مشتق شده است. این کلاس یک ویژگی برای بررسی نوع فیلد نشان داده شده توسط گره مشخص شده از طریق ویژگی [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) فراهم می کند. به عنوان مثال `FieldType.FieldMergeField` نشان دهنده یک فیلد ادغام در سند است.
 
 {{% alert color="primary" %}}
 
-برخی از زمینه های خاص وجود دارد که در یک سند Word وجود دارد که به آن وارد نمی شوند. Aspose.Words به عنوان یک مجموعه **FieldXXX** گره ها برای مثال، `LINK` زمینه و `INCLUDEPICTURE` فیلد وارد می شود Aspose.Words به عنوان یک [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) جسم این شی ویژگی هایی را برای کار با داده های تصویری که به طور معمول در این زمینه ها ذخیره می شوند، فراهم می کند. واردات `INCLUDEPICTURE` میدان **FieldXXX** گره ها [PreserveIncludePictureField](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getPreserveIncludePictureField) گزینه باید مشخص شود **true**...
+برخی از زمینه های خاص وجود دارد که در یک سند ورد وجود دارد که به عنوان مجموعه ای از گره های **FieldXXX** وارد Aspose.Words نمی شوند. برای مثال، `LINK` فیلد و `INCLUDEPICTURE` فیلد به Aspose.Words به عنوان یک [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) شی وارد می شوند. این شی ویژگی هایی را برای کار با داده های تصویر که به طور معمول در این زمینه ها ذخیره می شوند، فراهم می کند. برای وارد کردن فیلد `INCLUDEPICTURE` به عنوان **FieldXXX** گره ها گزینه [PreserveIncludePictureField](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getPreserveIncludePictureField) باید به عنوان **true** مشخص شود.
 
-فیلدهای فرم نیز وارد می شوند Aspose.Words به عنوان کلاس خاص خود. The The The The The The [FormField](https://reference.aspose.com/words/java/com.aspose.words/formfield/) کلاس نشان دهنده یک فیلد فرم در یک سند Word است و روش های اضافی را فراهم می کند که به یک فیلد فرم خاص هستند.
+فیلد های فرم نیز به عنوان کلاس ویژه خود به Aspose.Words وارد می شوند. کلاس [FormField](https://reference.aspose.com/words/java/com.aspose.words/formfield/) یک فیلد فرم را در یک سند ورد نشان می دهد و روش های اضافی را که به یک فیلد فرم خاص است، ارائه می دهد.
 
 {{% /alert %}}
 
-## زمینه های پشتیبانی
+## زمینه های پشتیبانی شده
 
-محاسبه زمینه های زیر در نسخه فعلی پشتیبانی می شود Aspose.Words:
+محاسبه فیلد های زیر در نسخه فعلی Aspose.Wordsپشتیبانی می شود:
 
-- = (فرم)
+- = (فرمول)
 - `ADDRESSBLOCK`
 - `ASK`
 - `AUTHOR`
@@ -123,41 +123,41 @@ In In In Aspose.Words هر یک از **FieldXXX** گره ها از [FieldChar](h
 - `TIME`
 - `TITLE`
 - `TOA`
-- `TOC` (از جمله TOT و TOF)
+- `TOC` (including TOT and TOF)
 - `USERADDRESS`
 - `USERINITIALS`
 - `USERNAME`
 
-## دانلود بازی Sophisticed Field
+## تجزیه و تحلیل میدان پیچیده
 
-Aspose.Words پس از راه Microsoft Word زمینه ها را پردازش می کند و در نتیجه به درستی مدیریت می شود:
+Aspose.Words از روش Microsoft Word پردازش فیلد ها پیروی می کند و در نتیجه به درستی مدیریت می کند:
 
-- زمینه های کاشته شده:
-  `IF { =OR({ `COMپاریس` { =2.5 +PRODUCT(3,5 ,8.4) } > 4}, { =2/2 }) } = 1 "Credit not acceptable" "Credit acceptable"`
-- استدلال زمینه می تواند نتیجه یک زمینه لانه دار باشد
-- زمینه ها را می توان در یک کد زمینه و همچنین در نتیجه زمینه قرار داد
-- فضاهای / نه فضا، نقل قول و نقل قول، شخصیت های فرار در زمینه ها و غیره:
+- زمین های آشیانه ای:
+  `IF { =OR({ `COMPARE` { =2.5 +PRODUCT(3,5 ,8.4) } > 4}, { =2/2 }) } = 1 "Credit not acceptable" "Credit acceptable"`
+- استدلال میدان می تواند نتیجه یک میدان آشیانه ای باشد
+- فیلد ها می توانند در یک کد فیلد و همچنین در نتیجه فیلد قرار بگیرند
+- فضاها / بدون فضاها، نقل قول ها / بدون نقل قول ها، شخصیت های فرار در زمینه ها و غیره:
   `MERGEFIELD \f"Text after""Field \n\ame with \" and \\\ and \\\*"\bTextBefor\e`
-- زمینه هایی که در چندین پاراگراف قرار دارند
+- زمینه هایی که در پاراگراف های مختلف قرار دارند
 
-### فرمول زمین
+### زمینه های فرمول
 
-Aspose.Words پیاده سازی بسیار جدی از موتور فرمول را فراهم می کند و از موارد زیر پشتیبانی می کند:
+Aspose.Words یک پیاده سازی بسیار جدی از موتور فرمول را فراهم می کند و از موارد زیر پشتیبانی می کند:
 
-- اپراتورهای منطقی و ریاضی:
+- عملگرهای ریاضی و منطقی:
   `=(54+4*(6-77)-(5))+(-6-5)/4/5`
 - توابع:
   `=ABS(-01.4)+2.645/(5.6^3.5)+776457 \\\# "#,##0"`
-- ارجاع به نشانه ها:
+- مرجع به نشانه ها:
   `=IF(C>4, 5,ABS(A)*.76) +3.85`
-- سوئیچ های قالب بندی عددی:
+- سوئیچ های قالب بندی شماره:
   `=00000000 \\\# "$#,##0.00;($#,##0.00)"`
 
-توابع زیر در عبارات پشتیبانی می شوند: `ABS`, `AND`, `AVERAGE`, `COUNT`, `DEFINED`, `FALSE`, `IF`, `INT`, `MAX`, `MIN`, `MOD`, `NOT`, `OR`, `PRODUCT`, `ROUND`, `SIGN`, `SUM`, TRUE...
+توابع زیر در عبارات پشتیبانی می شوند: `ABS`, `AND`, `AVERAGE`, `COUNT`, `DEFINED`, `FALSE`, `IF`, `INT`, `MAX`, `MIN`, `MOD`, `NOT`, `OR`, `PRODUCT`, `ROUND`, `SIGN`, `SUM`, TRUE.
 
-### `IF` و `COMPARE` فیلد های Field
+### `IF` and `COMPARE` Fields
 
-برخی از `IF` عباراتی که Aspose.Words به راحتی می توانید محاسبه کنید باید ایده ای از اینکه این ویژگی چقدر قدرتمند است به شما بدهد:
+فقط برخی از عبارات `IF` که Aspose.Words به راحتی می تواند محاسبه کند باید به شما ایده ای از قدرت این ویژگی را بدهد:
 
 - `IF 3 > 5.7^4+MAX(4,3) True False`
 - `IF "abcd" > "abc" True False`
@@ -165,64 +165,64 @@ Aspose.Words پیاده سازی بسیار جدی از موتور فرمول ر
 - `IF 4 = "2*2" True False`
 - `COMPARE 3+5/34 < 4.6/3/2`
 
-### `DATE` و `TIME` فیلد های Field
+### `DATE` and `TIME` Fields
 
-Aspose.Words پشتیبانی از تمام تاریخ و سوئیچ های قالب بندی زمان موجود در Microsoft Word, برخی مثال ها عبارتند از:
+Aspose.Words از تمام سوئیچ های قالب بندی تاریخ و زمان موجود در Microsoft Word پشتیبانی می کند، برخی از نمونه ها عبارتند از:
 
 - `DATE @ "d-MMM-yy"`
 - `DATE @ "d/MM/yyyy h:mm am/pm`
 
-### Mail Merge فیلد های Field
+### Mail Merge فیلدها
 
-Aspose.Words هیچ محدودیتی در پیچیدگی Mail Merge زمینه ها در اسناد شما و پشتیبانی از لانه دار `IF` و زمینه های فرمول و حتی می تواند نام میدان ادغام را با استفاده از یک فرمول محاسبه کند.
+Aspose.Words هیچ محدودیتی برای پیچیدگی فیلد های Mail Merge در اسناد شما اعمال نمی کند و از فیلد های `IF` و formula nested پشتیبانی می کند و حتی می تواند نام فیلد ادغام را با استفاده از یک فرمول محاسبه کند.
 
-برخی از نمونه ها Mail Merge زمینه هایی که Aspose.Words پشتیبانی:
+چند نمونه از فیلد های Mail Merge که Aspose.Words پشتیبانی می کنند:
 
-- Mail merge سوئیچ های فیلد:
+- Mail merge سوئیچ های میدان:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
-- فیلدهای ادغام شده در فرمول:
+- زمینه های ادغام آشیانه ای در یک فرمول:
   `IF { `MERGEFIELD` Value1 } >= { `MERGEFIELD` Value2 } True False`
-- محاسبه نام میدان ادغام در زمان اجرا:
-  `MERGEFIELD { `اگر` { `MERGEFIELD` Value1 } >= { `MERGEFIELD` Value2 } FirstName"LastName" }`
+- نام فیلد ادغام را در زمان اجرا محاسبه کنید:
+  `MERGEFIELD { `IF` { `MERGEFIELD` Value1 } >= { `MERGEFIELD` Value2 } FirstName"LastName" }`
 - حرکت مشروط به رکورد بعدی در منبع داده:
   `NEXTIF { `MERGEFIELD` Value1 } <= { =IF(-2.45 >= 6*{ `MERGEFIELD` Value2 }, 2, -.45) }`
 
-### سوئیچ های Format Switches
+### سوئیچ های فرمت
 
-یک زمینه در یک سند می تواند دارای سوئیچ های قالب بندی باشد که مشخص می کند که چگونه ارزش حاصل باید فرمت شود. Aspose.Words پشتیبانی از سوئیچ های فرمت زیر:
+یک فیلد در یک سند می تواند دارای سوئیچ های قالب بندی باشد که مشخص می کند که چگونه مقدار حاصل باید قالب بندی شود. Aspose.Words از سوئیچ های فرمت زیر پشتیبانی می کند:
 
-- @ - تاریخ و قالب بندی زمان
-- ## - قالب بندی عددی
+- @ - قالب بندی تاریخ و زمان
+- \\\# - قالب بندی اعداد
 - \\\\\\\\* Caps
-- * FirstCap
-- \\\\\\\\* پایین تر
-- \\\\\\\\* بالا
-- * CHARFORMAT - نتیجه فرمت با توجه به شخصیت اول کد زمینه
-- * MERGEFORMAT - نتیجه فرمت با توجه به اینکه چگونه نتیجه قدیمی فرمت شده است
+- \\\\\\\\* FirstCap
+- \\\\\\\\* Lower
+- \\\\\\\\* Upper
+- \\\\\ \\\* CHARFORMAT – نتیجه را با توجه به اولین کاراکتر کد فیلد فرمت کنید
+- \\\\\ \\\* MERGEFORMAT – نتیجه را با توجه به نحوه قالب بندی نتیجه قدیمی فرمت کنید
 
-### Date تعداد فرمت در زمینه ها
+### قالب بندی تاریخ و شماره در فیلد ها
 
-وقتی Aspose.Words نتیجه زمینه را محاسبه می کند، اغلب باید یک رشته را به یک عدد یا مقدار تاریخ تقسیم کند و همچنین آن را به یک رشته تبدیل کند. به طور پیش فرض Aspose.Words استفاده از فرهنگ فعلی رشته برای انجام تجزیه و تحلیل و قالب بندی در هنگام محاسبه ارزش های زمینه در طول به روز رسانی زمینه و mail merge... همچنین گزینه های ارائه شده در قالب [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions/) کلاس که اجازه می دهد تا کنترل بیشتری بر اینکه کدام فرهنگ در طول به روز رسانی زمینه استفاده می شود
+وقتی Aspose.Words یک نتیجه فیلد را محاسبه می کند، اغلب باید یک رشته را به یک عدد یا مقدار تاریخ تجزیه کند و همچنین آن را به یک فرمت کند string.By پیش فرض Aspose.Words از فرهنگ موضوع فعلی برای انجام تجزیه و قالب بندی هنگام محاسبه مقادیر فیلد در هنگام به روز رسانی فیلد و mail merge استفاده می کند. همچنین گزینه هایی در قالب کلاس [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions/) وجود دارد که اجازه کنترل بیشتر بر روی فرهنگ مورد استفاده در هنگام به روز رسانی میدان را می دهد%
 
-* به طور پیش فرض [FieldUpdateCultureSource](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions/#getFieldUpdateCultureSource) اموال برای [CurrentThread](https://reference.aspose.com/words/java/com.aspose.words/fieldupdateculturesource/#CURRENT-THREAD) کدام قالب ها با استفاده از فرهنگ موضوعی فعلی
-* این ملک را می توان تنظیم کرد [FieldCode](https://reference.aspose.com/words/java/com.aspose.words/fieldupdateculturesource/#FIELD-CODE) بنابراین زبان تنظیم شده از کد زمینه این زمینه برای قالب بندی به جای آن استفاده می شود
+* به طور پیش فرض، ویژگی [FieldUpdateCultureSource](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions/#getFieldUpdateCultureSource) به [CurrentThread](https://reference.aspose.com/words/java/com.aspose.words/fieldupdateculturesource/#CURRENT-THREAD) تنظیم شده است که فیلد ها را با استفاده از فرهنگ موضوع فعلی فرمت می کند
+* این ویژگی را می توان به [FieldCode](https://reference.aspose.com/words/java/com.aspose.words/fieldupdateculturesource/#FIELD-CODE) تنظیم کرد بنابراین مجموعه زبان از کد فیلد فیلد برای قالب بندی استفاده می شود
 
-### قالب بندی با استفاده از فرهنگ فعلی Thread
+### قالب بندی با استفاده از فرهنگ موضوع فعلی
 
-برای کنترل فرهنگ مورد استفاده در محاسبات میدانی، فقط تنظیم کنید **CurrentCulture** مالکیت به یک فرهنگ از انتخاب خود را قبل از انجام محاسبات میدانی.
+برای کنترل فرهنگ مورد استفاده در هنگام محاسبه فیلد، فقط قبل از فراخوانی محاسبه فیلد، ویژگی **CurrentCulture** را به فرهنگ مورد نظر خود تنظیم کنید.
 
-مثال کد زیر نشان می دهد که چگونه فرهنگ مورد استفاده در زمینه های قالب بندی در طول به روز رسانی را تغییر دهید:
+مثال کد زیر نشان می دهد که چگونه فرهنگ مورد استفاده در زمینه های قالب بندی را در هنگام به روز رسانی تغییر دهید:
 
-(استفاده از بسته بندی عمومی فعلی تنظیمات.getLocale() و setLocale() به جای خصوصی `Thread.CurrentThread` | CurrentCulture
+EXAMPLE (از بسته بندی عمومی CurrentThreadSettings استفاده کنید.getLocale() و setLocale() به جای خصوصی `Thread.CurrentThread`.CurrentCulture)
 
-استفاده از فرهنگ فعلی به زمینه های فرمت اجازه می دهد تا یک سیستم به راحتی و به طور مداوم کنترل چگونه تمام زمینه های موجود در سند در طول به روز رسانی زمینه فرمت شده است.
+استفاده از فرهنگ فعلی برای فرمت کردن فیلد ها به یک سیستم اجازه می دهد تا به راحتی و به طور مداوم کنترل کند که چگونه تمام فیلد های سند در طول به روز رسانی فیلد فرمت می شوند.
 
-### استفاده از فرهنگ در سند
+### قالب بندی با استفاده از فرهنگ در سند
 
-از سوی دیگر، Microsoft Word هر زمینه فردی را بر اساس زبان متن موجود در این زمینه (به طور خاص، اجرا از کد زمینه). گاهی اوقات در طول به روز رسانی این ممکن است رفتار مورد نظر باشد، به عنوان مثال اگر شما اسناد جهانی شده حاوی محتوا از بسیاری از زبان های مختلف ساخته شده و مایل به احترام به محلی که از متن استفاده می شود. Aspose.Words همچنین از این قابلیت ها پشتیبانی می کند.
+از سوی دیگر، Microsoft Word هر فیلد جداگانه را بر اساس زبان متن موجود در فیلد فرمت می کند (به طور خاص، از کد فیلد اجرا می شود). گاهی اوقات در طول به روز رسانی فیلد این ممکن است رفتار مورد نظر باشد، به عنوان مثال اگر شما اسناد جهانی شده ای دارید که حاوی محتوای بسیاری از زبان های مختلف است و می خواهید هر فیلد به محلی که از متن استفاده می شود احترام بگذارد. Aspose.Words همچنین از این قابلیت پشتیبانی می کند.
 
-The The The The The The [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) کلاس یک [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/document/#getFieldOptions) اموالی که شامل اعضایی است که می توانند برای کنترل چگونگی به روز رسانی میدان ها در داخل سند استفاده شوند.
+کلاس [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) یک ویژگی [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/document/#getFieldOptions) را فراهم می کند که شامل اعضای است که می تواند برای کنترل نحوه به روز رسانی فیلد ها در سند استفاده شود.
 
-مثال کد زیر نشان می دهد که چگونه فرهنگ مورد استفاده برای قالب بندی تاریخ در طول به روز رسانی زمینه و Mail Merge انتخاب شده از:
+مثال کد زیر نشان می دهد که چگونه مشخص کنیم که فرهنگ مورد استفاده برای قالب بندی تاریخ در طول به روز رسانی فیلد و Mail Merge از کجا انتخاب شده است:
 
-*
+EXAMPLE

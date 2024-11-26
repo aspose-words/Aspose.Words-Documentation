@@ -1,72 +1,72 @@
----
-title: بارکد در Java ایجاد کنید
+﻿---
+title: BarCode را در Javaایجاد کنید
 second_title: Aspose.Words برای Java
-articleTitle: یک تصویر بارکد سفارشی تولید کنید
-linktitle: یک تصویر بارکد سفارشی تولید کنید
-description: "مثال از تولید شکل بارکد با استفاده از Java."
+articleTitle: یک تصویر سفارشی BarCode ایجاد کنید
+linktitle: یک تصویر سفارشی BarCode ایجاد کنید
+description: "نمونه ای از تولید شکل بارکد با استفاده از Java."
 type: docs
 weight: 350
 url: /fa/java/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/
 timestamp: 2024-09-05-11-07-10
 ---
 
-بارکد نمایش بصری داده‌ها در قالب خطوط موازی یا الگوها است. بارکدها کاربرد وسیعی در صنایع مختلفی مانند خرده فروشی، لجستیک، بهداشت و درمان، بانکداری و بسیاری دیگر دارند.
+بارکد یک نمایش بصری از داده ها به شکل خطوط موازی یا الگوها است. بارکد به طور گسترده ای در صنایع مختلف مانند خرده فروشی، تدارکات، مراقبت های بهداشتی، بانکداری و بسیاری دیگر استفاده می شود.
 
-Microsoft Word به کاربران اجازه می دهد تا بارکد ها را مستقیماً در اسناد با استفاده از فیلدها قرار دهند. کاربران می توانند یک نوع خاص از بارکد، مانند یک کد QR یا یک بارکد خطی، با استفاده از [BARCODE](https://learn.microsoft.com/en-us/openspecs/office_standards/ms-oi29500/cbc893c0-9683-416d-84c6-407a92451c19) فیلد وارد کنند.
+Microsoft Word به کاربران اجازه می دهد تا بارکد ها را مستقیما در اسناد با استفاده از فیلد ها جاسازی کنند. کاربران می توانند یک نوع بارکد خاص مانند یک کد QR یا یک بارکد خطی را با استفاده از [BARCODE](https://learn.microsoft.com/en-us/openspecs/office_standards/ms-oi29500/cbc893c0-9683-416d-84c6-407a92451c19) میدان.
 
-در این مقاله، نحوه پیاده سازی فیلد بارکد در Aspose.Words و اینکه چگونه Aspose.Words به کاربران اجازه کار با مستندهای ورد که قبلا بارکد اضافه شده است را بررسی خواهیم کرد.
+در این مقاله، ما به چگونگی اجرای فیلد BARCODE در Aspose.Words و چگونگی Aspose.Words اجازه می دهد تا کاربران با اسناد ورد که بارکد به آن اضافه شده است کار کنند.
 
-## نمونه های بارکد که توسط Aspose.Words پشتیبانی می شود
+## انواع بارکد پشتیبانی شده توسط Aspose.Words
 
-Aspose.Words از انواع مختلف بارکد پشتیبانی می کند. نوع بارکد به عنوان یک مقدار رشته ای در خاصیت [BarcodeType](https://reference.aspose.com/words/java/com.aspose.words/barcodeparameters/#getBarcodeType) منتقل می شود.
+Aspose.Words از انواع مختلف بارکد پشتیبانی می کند. نوع بارکد به عنوان یک مقدار رشته در ویژگی [BarcodeType](https://reference.aspose.com/words/java/com.aspose.words/barcodeparameters/#getBarcodeType) منتقل می شود.
 
 {{% alert color="primary" %}}
 
-از آنجا که کار با بارکد در داخل عملکرد Aspose.Words محدود است، کاربر می تواند از هر کتابخانه ای، از جمله Aspose.Barcode، استفاده کند یا خود او را بنویسد تا با بارکدها کار کند. شما می توانید بیشتر درباره انواع بارکد ها [supported by Aspose.BarCode](https://docs.aspose.com/barcode/java/barcode-types/) بدانید.
+از آنجا که کار با بارکد در قابلیت Aspose.Words محدود است، کاربر می تواند از هر کتابخانه، از جمله Aspose استفاده کند.بارکد، یا رندر خود را برای کار با بارکد بنویسید. شما می توانید در مورد انواع بارکد ها بیشتر بدانید [پشتيباني "توست آسپوس"BarCode](https://docs.aspose.com/barcode/java/barcode-types/).
 
 {{% /alert %}}
 
-هنگامی که به فرمت‌های وردی که از بارکد پشتیبانی می‌کنند ذخیره می‌کنید، می‌توانید هر نوع بارکد را که [supported by Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3) است استفاده کنید. اگر نوع اشتباهی از بارکد ارسال شده بود، ورد خطا را نشان خواهد داد.
+هنگام ذخیره کردن به فرمت های Word که از بارکد پشتیبانی می کنند، می توانید از هر نوع بارکد که [پشتیبانی شده توسط Microsoft Word](https://support.microsoft.com/en-us/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3). اگر یک نوع بارکد نادرست منتقل شده باشد، Word یک خطا را نمایش می دهد.
 
-هنگام ذخیره سازی به فرمت های دیگر، مانند پی دی اف، Aspose.Words تفویض رندر کردن بارکد را به کد کاربر می کند، بنابراین کاربر محدود به انواع بارکد پیاده سازی یا کتابخانه ای که استفاده می کند، است.
+هنگام ذخیره به فرمت های دیگر، مانند PDF، Aspose.Words ارائه بارکد را به کد کاربر واگذار می کند، بنابراین کاربر به انواع بارکد پیاده سازی یا کتابخانه مورد استفاده خود محدود می شود.
 
-## یک بارکد را به یک سند وارد کنید یا یک سند با یک بارکد اضافه شده را بارگذاری کنید
+## یک بارکد را در یک سند قرار دهید یا یک سند را با یک بارکد اضافه شده بارگذاری کنید
 
-Aspose.Words توانایی این است که:
+Aspose.Words توانایی:
 
-۱. به صورت برنامه‌ای یک بارکد را در یک سند با استفاده از کدهای [DisplayBarcode](https://support.microsoft.com/en-au/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3) و [MergeBarcode](https://support.microsoft.com/en-au/office/field-codes-mergebarcode-812fc43f-cb53-4782-8f9f-290ed08d34f3) وارد کنید
-۲. یا یک سند ورد با بارکدهای قبلاً در آن وارد شده برای کار بیشتر بارگذاری کنید
+1. به صورت برنامه ریزی شده یک بارکد را با استفاده از [DisplayBarcode](https://support.microsoft.com/en-au/office/field-codes-displaybarcode-6d81eade-762d-4b44-ae81-f9d3d9e07be3) و [MergeBarcode](https://support.microsoft.com/en-au/office/field-codes-mergebarcode-812fc43f-cb53-4782-8f9f-290ed08d34f3) کد های فیلد
+2. یا یک سند ورد را با بارکد هایی که قبلا در آن قرار داده شده است برای کار بیشتر بارگذاری کنید
 
-Aspose.Words دارای یک واسط برای تولید بارکدهای سفارشی است که استفاده از [Aspose.Words](https://products.aspose.com/words/java/) و [Aspose.BarCode](https://products.aspose.com/barcode/java/) را در کنار هم آسان می‌کند تا تصویر بارکد را در اسناد خروجی ایجاد کند. به عنوان مثال، شما می‌توانید یک سند DOC، OOXML یا RTF ایجاد کنید و فیلد DISPLAYBARCODE را به آن اضافه کنید که توسط Aspose.Words پشتیبانی می‌شود. یا می‌توانید یک سند DOC، OOXML یا RTF با فیلد نمایش بارکد موجود در آن بارگیری کنید و پیاده‌سازی سفارشی خود را برای تولید کننده بارکد ارائه دهید.
+Aspose.Words دارای رابط کاربری برای تولید بارکد های سفارشی است که استفاده از آن را آسان می کند [Aspose.Words](https://products.aspose.com/words/java/) و [اسپوزBarCode](https://products.aspose.com/barcode/java/) با هم برای ارائه تصاویر بارکد در اسناد خروجی. به عنوان مثال، شما می توانید یک سند DOC، OOXML یا RTF ایجاد کنید و با استفاده از Aspose.Words فیلد DISPLAYBARCODE را به آن اضافه کنید. یا می توانید یک سند DOC، OOXML یا RTF را با DISPLAYBARCODE فیلد موجود در آن بارگذاری کنید و پیاده سازی خود را از ژنراتور بارکد سفارشی ارائه دهید.
 
-یک فیلد معمولی DISPLAYBARCODE دارای نحوهٔ زیر است:
+یک فیلد معمولی DISPLAYBARCODE دارای نحو زیر است:
 
 `{ DISPLAYBARCODE "SomeData" QR \h 720 }`
 
-در زیر یک نمونه کد ژنراتور که از برچسب‌های Aspose.Words و Aspose.BarCode API استفاده می‌کند، ارائه شده است. این مثال نشان می‌دهد که چگونه می‌توان تصاویر بارکد را در موقعیت DISPLAYBARCODE فیلد یک سند ورد قرار داد:
+در زیر یک ژنراتور کد نمونه با استفاده از Aspose.Words و Aspose است.BarCode APIs. این مثال نشان می دهد که چگونه تصاویر بارکد را در DISPLAYBARCODE موقعیت میدان در یک سند ورد قرار دهید:
 
 {{< gist "aspose-words-gists" "689e63b98de2dcbb12dffc37afbe9067" "barcode-generator.java" >}}
 
 {{< gist "aspose-words-gists" "689e63b98de2dcbb12dffc37afbe9067" "custom-barcode-generator.java" >}}
 
-شما همچنین می‌توانید سند را با بارگذاری یا درج نوارهای بارکد جدید در قالب‌های صفحه ثابت مانند PDF، XPS و غیره ذخیره کنید. مثال کد زیر نشان می‌دهد که چگونه یک سند ورد را به فرمت PDF ذخیره کنید:
+همچنین می توانید سند را با بارکد بارگذاری شده یا تازه وارد شده در فرمت های صفحه ثابت مانند PDF، XPS و غیره ذخیره کنید. مثال کد زیر نشان می دهد که چگونه یک سند ورد را به فرمت PDF ذخیره کنیم:
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "docx-to-pdf.java" >}}
 
 {{% alert color="primary" %}}
 
-برای اطلاعات بیشتر درباره تبدیل سندها از یک فرمت به فرمت دیگر، بخش مستندات را ببینید. [Convert a Document](/words/java/convert-a-document/)
+برای اطلاعات بیشتر در مورد تبدیل اسناد از یک فرمت به فرمت دیگر، به [تبدیل یک سند](/words/java/convert-a-document/) بخش اسناد.
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-شما همچنین می‌توانید از رابط کاربری [IBarcodeGenerator](https://reference.aspose.com/words/java/com.aspose.words/ibarcodegenerator/) برای تبدیل بارکدهای موجود در سند ورد به تصاویر استفاده کنید. تصاویر حاصل را می‌توان از سند استخراج کرد – مقاله "با تصاویر کار کردن" را بخوانید تا اطلاعات بیشتری کسب کنید.
+همچنین می توانید از رابط [IBarcodeGenerator](https://reference.aspose.com/words/java/com.aspose.words/ibarcodegenerator/) برای تبدیل بارکد های جاسازی شده در اسناد Word به تصاویر استفاده کنید. تصاویر حاصل را می توان از سند استخراج کرد – برای جزئیات به مقاله کار با تصاویر مراجعه کنید.
 
 {{% /alert %}}
 
 ## گزینه های بارکد را مشخص کنید
 
-هنگامی که با بارکد کار می کنید، می توانید برخی از ویژگی های اضافی را تنظیم کنید. Aspose.Words به شما کلاس [BarcodeParameters](https://reference.aspose.com/words/java/com.aspose.words/barcodeparameters/) را - کلاس پارامترهای بارکد برای عبور دادن به BarcodeGenerator" ارائه می دهد.
+هنگام کار با بارکد، می توانید برخی از ویژگی های اضافی را تنظیم کنید. Aspose.Words کلاس کلاس [BarcodeParameters](https://reference.aspose.com/words/java/com.aspose.words/barcodeparameters/) را برای پارامترهای بارکد فراهم می کند تا به BarcodeGenerator منتقل شوند.
 
-Aspose.Words پشتیبانی از تصویر با رزولوشن 96 ppi را برای تصاویری که با [IBarcodeGenerator](https://reference.aspose.com/words/java/com.aspose.words/ibarcodegenerator/) ایجاد شده‌اند، پشتیبانی می‌کند، که اندازه حداقل یک تصویر بارکد را محدود می‌کند. برای حل این مشکل، توسعه دهندگان می‌توانند تصاویر بارکد با وضوح هدف را به صورت دستی در سند ورد وارد کنند و آنها را با فرمت مورد نیاز ذخیره کنند. برای جزئیات بیشتر و مثال‌هایی در مورد کار با بارکدها، مقاله [Read Barcodes from Word Documents](https://docs.aspose.com/barcode/java/read-barcode-from-word-document/) را بخوانید.
+Aspose.Words از وضوح 96 ppi جاسازی شده برای تصاویر تولید شده با [IBarcodeGenerator](https://reference.aspose.com/words/java/com.aspose.words/ibarcodegenerator/) پشتیبانی می کند که حداقل اندازه یک تصویر بارکد را محدود می کند. برای رفع این مشکل، توسعه دهندگان می توانند تصاویر بارکد با وضوح هدف را به صورت دستی در یک سند Word قرار دهند و آنها را در قالب مورد نیاز ذخیره کنند. برای جزئیات بیشتر و نمونه هایی از کار با بارکد، به مقاله مراجعه کنید [خواندن بارکد از اسناد ورد](https://docs.aspose.com/barcode/java/read-barcode-from-word-document/).

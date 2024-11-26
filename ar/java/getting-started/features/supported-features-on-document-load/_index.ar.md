@@ -1,28 +1,28 @@
----
-title: المعالم المدعومة في الوثيقة
-second_title: Aspose.Words for Java
-articleTitle: المعالم المدعومة في الوثيقة
-linktitle: المعالم المدعومة في الوثيقة
-description: "تحميل الوثائق وتحويلها في معظم الأشكال الشعبية، ودعم الكثير من الوثائق Microsoft Word سمات"
+﻿---
+title: الميزات المدعومة عند تحميل المستند
+second_title: Aspose.Words ل Java
+articleTitle: الميزات المدعومة عند تحميل المستند
+linktitle: الميزات المدعومة عند تحميل المستند
+description: "قم بتحميل وتحويل مستند في معظم التنسيقات الشائعة ويدعم الكثير من ميزات Microsoft Word."
 type: docs
 weight: 20
 url: /ar/java/supported-features-on-document-load/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words ويسمح للمستعملين بالعمل مع الوثائق في أشكال مختلفة ويوفرون مجموعة واسعة من الخيارات لهذا الغرض. فعلى سبيل المثال، يمكن للمستعملين أن يُنشئوا وثيقة من الصفر أو تحميل ملف قائم في أي مكان [الوثائق الداعمة](/words/ar/java/supported-document-formats/), إدخال بعض التغييرات على تلك الوثيقة ومن ثم توفير النتيجة. وعند استيراد وثيقة في شكل مختار، يمكن للمستعمل أن يطبق مختلف خيارات التحميل.
+Aspose.Words يسمح للمستخدمين بالعمل مع المستندات بتنسيقات مختلفة ويوفر مجموعة واسعة من الخيارات لذلك. على سبيل المثال، يمكن للمستخدمين إنشاء مستند من البداية أو تحميل ملف موجود في أي [تنسيق الاستيراد المدعوم](/words/java/supported-document-formats/)، قم بإجراء بعض التغييرات على هذا المستند ثم احفظ النتيجة. عند استيراد مستند بالتنسيق المحدد، يمكن للمستخدم تطبيق خيارات تحميل مختلفة.
 
 {{% alert color="primary" %}}
 
-It is important to know that many load options are common to all supported formats, and only some of the options are format-specific, such as PDF, HTML, RTF, and others.
+من المهم معرفة أن العديد من خيارات التحميل شائعة في جميع التنسيقات المدعومة، وأن بعض الخيارات فقط خاصة بالتنسيق، مثل PDF, HTML, RTF, وغيرها.
 
 {{% /alert %}}
 
-للاطلاع على قائمة كاملة بالمهام، انظر API المرجع:
+للحصول على قائمة كاملة من الوظائف، راجع API reference:
 
-- [خيارات الحمولة لجميع الأشكال](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/)
-- [خيارات تحميل المادة الكيميائية](https://reference.aspose.com/words/java/com.aspose.words/chmloadoptions/) استمارة آلية الرصد المشتركة
-- [HTML load options](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/) استمارة HTML
-- [خيارات التحميل لدى قوات الدفاع الشعبي](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) استمارة PDF
-- [خيارات تحميل الصناديق الاستئمانية الإقليمية](https://reference.aspose.com/words/java/com.aspose.words/rtfloadoptions/) استمارة فرقة العمل الإقليمية
-- [TXT load options](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) استمارة TXT
+- [خيارات التحميل لجميع التنسيقات](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/)
+- [CHM خيارات التحميل](https://reference.aspose.com/words/java/com.aspose.words/chmloadoptions/) ل CHM شكل
+- [HTML خيارات التحميل](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/) ل HTML شكل
+- [PDF خيارات التحميل](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) ل PDF شكل
+- [RTF خيارات التحميل](https://reference.aspose.com/words/java/com.aspose.words/rtfloadoptions/) ل RTF شكل
+- [TXT خيارات التحميل](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) ل TXT شكل

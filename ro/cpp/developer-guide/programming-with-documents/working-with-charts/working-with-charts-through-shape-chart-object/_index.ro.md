@@ -1,8 +1,8 @@
 ---
-title: Lucrul cu diagrame prin `Shape.Chart` obiect
+title: Lucrul cu diagrame prin Shape.Chart obiect
 second_title: Aspose.Words pentru C++
-articleTitle: Lucrul cu diagrame prin `Shape.Chart` obiect
-linktitle: Lucrul cu diagrame prin `Shape.Chart` obiect
+articleTitle: Lucrul cu diagrame prin Shape.Chart obiect
+linktitle: Lucrul cu diagrame prin Shape.Chart obiect
 description: "Diagrame în detalii, modul în care graficul legat cu nodul de formă în Aspose.Words pentru C++."
 type: docs
 weight: 10

@@ -1,61 +1,61 @@
----
-title: 事例の実行方法
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: 事例の実行方法
-linktitle: 事例の実行方法
+﻿---
+title: 例を実行する方法
+second_title: Aspose.WordsのためのJava
+articleTitle: 例を実行する方法
+linktitle: 例を実行する方法
 type: docs
-description: "ダウンロード Aspose.Words お問い合わせ Java 私たちの例 GitHub リポジトリとそれらを実行する方法を学び、より精通する Aspose.Words 可能性と機能。"
+description: "GitHubリポジトリからAspose.WordsforJavaの例をダウンロードし、Aspose.Wordsの可能性と機能をよりよく理解するためにそれらを実行する方法を学びます。"
 weight: 130
 url: /ja/java/how-to-run-the-examples/
 timestamp: 2024-01-27-14-07-04
 ---
 
-## ダウンロード GitHub
+## GitHubからダウンロード
 
-すべての例 Aspose.Words お問い合わせ Java ホストされている [ギトハブ](https://github.com/aspose-words/Aspose.Words-for-Java)お問い合わせ 好きな Github クライアントを使用してリポジトリをクローンするか、ZIP ファイルをダウンロードできます。 [詳しくはこちら](https://github.com/aspose-words/Aspose.Words-for-Java/archive/master.zip)お問い合わせ
+JavaのAspose.Wordsのすべての例は、次の場所でホストされています [Github](https://github.com/aspose-words/Aspose.Words-for-Java). お気に入りのGithubクライアントを使用してリポジトリを複製するか、ZIPファイルを次の場所からダウンロードできます [ここに](https://github.com/aspose-words/Aspose.Words-for-Java/archive/master.zip).
 
-ZIPファイルの内容をコンピュータ上の任意のフォルダに抽出します。 すべての例は、 **Examples** フォルダ。
+コンピュータ上の任意のフォルダにZIPファイルの内容を抽出します。 すべての例は**Examples**フォルダにあります。
 
 ![how-to-run-examples-aspose-words-java-1](/words/java/how-to-run-the-examples/how-to-run-examples-aspose-words-java-1.png)
 
-プロジェクトの使用 Maven ビルドシステム。 現代のIDEは、プロジェクトと依存関係を簡単に開くか、インポートすることができます。 以下では、一般的なIDEを使用して例をビルドして実行する方法を紹介します。
+プロジェクトはMavenビルドシステムを使用します。 最新のIDEであれば、プロジェクトとその依存関係を簡単に開いたりインポートしたりできます。 以下では、popularIDEsを使用して例をビルドして実行する方法を示します。
 
 ## IntelliJ IDEA
 
-クリックしてください。 **File** メニューと選択 **Open**お問い合わせ プロジェクトフォルダにブラウズし、プロジェクトフォルダを選択します。 **ポム.xml** ファイル。
+**File**メニューをクリックし、**Open**を選択します。 プロジェクトフォルダを参照し、**pom.xml**ファイルを選択します。
 
 ![how-to-run-examples-aspose-words-java-2](/words/java/how-to-run-the-examples/how-to-run-examples-aspose-words-java-2.png)
 
-プロジェクトを開き、依存関係を自動的にダウンロードします。 プロジェクトタブから、例を参照 **src/main/javaの** フォルダ。 例を実行するには、ファイルを右クリックし、「Run ...」を選択します。この例は実行され、出力はコンソール出力ウィンドウでビルドされます。
+プロジェクトを開き、依存関係を自動的にダウンロードします。 [プロジェクト]タブから、**src/main/java**フォルダー内の例を参照します。 例を実行するには、ファイルを右クリックして「実行」を選択します。."、例が実行され、出力は組み込みのコンソール出力ウィンドウに表示されます。
 
 ![how-to-run-examples-aspose-words-java-3](/words/java/how-to-run-the-examples/how-to-run-examples-aspose-words-java-3.png)
 
 ## Eclipse
 
-詳しくはこちら **File** メニューと選択 **Import**お問い合わせ 選択する **Maven** - 既存 Maven プロジェクト
+**File**メニューをクリックし、**Import**を選択します。 **Maven**-既存のMavenプロジェクトを選択します。
 
 ![how-to-run-examples-aspose-words-java-4](/words/java/how-to-run-the-examples/how-to-run-examples-aspose-words-java-4.png)
 
-クローンまたはダウンロードしたフォルダにブラウズ GitHub 選択する **ポム.xml** ファイル。
+GitHubから複製またはダウンロードしたフォルダを参照し、**pom.xml**ファイルを選択します。
 
 ![how-to-run-examples-aspose-words-java-5](/words/java/how-to-run-the-examples/how-to-run-examples-aspose-words-java-5.png)
 
-プロジェクトを開き、依存関係を自動的にダウンロードします。 パッケージエクスプローラのタブから、例を閲覧 **src/main/javaの** フォルダ。 例を実行するには、ファイルを右クリックして選択します **Run As** - - - **Java Application**, この例は実行され、出力はコンソール出力ウィンドウでビルドされます。
+プロジェクトを開き、依存関係を自動的にダウンロードします。 パッケージエクスプローラタブから、**src/main/java**フォルダ内の例を参照します。 例を実行するには、ファイルを右クリックして**Run As**-**Java Application**を選択するだけで、例が実行され、出力が組み込みコンソール出力ウィンドウに表示されます。
 
 ![how-to-run-examples-aspose-words-java-6](/words/java/how-to-run-the-examples/how-to-run-examples-aspose-words-java-6.png)
 
 ## NetBeans
 
-クリックしてください。 **File** メニューと選択 **Open Project**お問い合わせ クローンまたはダウンロードしたフォルダにブラウズ GitHubお問い合わせ アイコンのアイコン **Examples** フォルダーは、そのフォルダーがそのフォルダーが Maven プロジェクト サンプルを選択して開きます。
+**File**メニューをクリックし、**Open Project**を選択します。 GitHubから複製またはダウンロードしたフォルダを参照します。 **Examples**フォルダのアイコンには、そのMavenプロジェクトが表示されます。 例を選択して開きます。
 
 ![how-to-run-examples-aspose-words-java-7](/words/java/how-to-run-the-examples/how-to-run-examples-aspose-words-java-7.png)
 
-プロジェクトを開き、依存関係を自動的にダウンロードします。 プロジェクトタブから、例を閲覧 **ソースパッケージ**お問い合わせ 例を実行するには、ファイルを右クリックして選択します **Run File**, この例は実行され、出力はコンソール出力ウィンドウでビルドされます。
+プロジェクトを開き、依存関係を自動的にダウンロードします。 [プロジェクト]タブから、**source packages**の例を参照します。 例を実行するには、ファイルを右クリックして**Run File**を選択するだけで、例が実行され、出力が組み込みコンソール出力ウィンドウに表示されます。
 
 ![how-to-run-examples-aspose-words-java-8](/words/java/how-to-run-the-examples/how-to-run-examples-aspose-words-java-8.png)
 
 ## 貢献する
 
-たとえば追加や改善をしたいなら、プロジェクトへの貢献をおすすめします。 このリポジトリ内のすべての例とショーケースプロジェクトはオープンソースであり、独自のアプリケーションで自由に使用できます。
+例を追加または改善したい場合は、プロジェクトに貢献することをお勧めします。 このリポジトリ内のすべての例とショーケースプロジェクトはオープンソースであり、独自のアプリケーションで自由に使用できます。
 
-リポジトリをフォークしたり、ソースコードを編集したり、プルリクエストを作成したりできます。 変更を見直し、参考になればリポジトリに含めます。
+貢献するには、リポジトリをフォークし、ソースコードを編集し、プルリクエストを作成することができます。 変更を確認し、有用であると判明した場合はリポジトリに含めます。

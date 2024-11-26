@@ -1,79 +1,79 @@
----
-title: Restringir documento Editar Java
+﻿---
+title: Restringir a edição de documentos em Java
 second_title: Aspose.Words para Java
-articleTitle: Restringir a edição de documentos
-linktitle: Restringir a edição de documentos
-description: "Restringir a edição de um documento definindo um tipo de restrição. Você também pode remover a proteção e fazer regiões editáveis sem restrições usando Java."
+articleTitle: Restringir A Edição De Documentos
+linktitle: Restringir A Edição De Documentos
+description: "Restrinja a edição de um documento definindo um tipo de restrição. Você também pode remover a proteção e tornar regiões editáveis irrestritas usando Java."
 type: docs
 weight: 30
 url: /pt/java/restrict-document-editing/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Às vezes você pode precisar limitar a capacidade de editar um documento e apenas permitir certas ações com ele. Isso pode ser útil para evitar que outras pessoas editem informações confidenciais e sensíveis em seu documento.
+Às vezes, pode ser necessário limitar a capacidade de editar um documento e permitir apenas certas ações com ele. Isto pode ser útil para impedir que outras pessoas editem informações sensíveis e confidenciais no seu documento.
 
-Aspose.Words permite restringir a edição de um documento definindo um tipo de restrição. Além disso, Aspose.Words também permite especificar configurações de proteção de gravação para um documento.
+Aspose.Words permite restringir a edição de um documento definindo um tipo de restrição. Além disso, Aspose.Words também permite especificar configurações de proteção contra gravação para um documento.
 
-Este artigo explica como usar Aspose.Words para selecionar um tipo de restrição, como adicionar ou remover a proteção e como fazer regiões editáveis sem restrições.
+Este artigo explica como usar Aspose.Words para selecionar um tipo de restrição, como adicionar ou remover proteção e como criar regiões editáveis irrestritas.
 
-## Selecione Editar Tipo de Restrição
+## Selecionar O Tipo De Restrição De Edição
 
-Aspose.Words permite controlar a forma como você restringe o conteúdo usando o [ProtectionType](https://reference.aspose.com/words/java/com.aspose.words/protectiontype/) Parâmetro de enumeração. Isso permitirá que você selecione um tipo exato de proteção, como o seguinte:
+Aspose.Words permite controlar a forma como restringe o conteúdo utilizando o parâmetro de enumeração [ProtectionType](https://reference.aspose.com/words/java/com.aspose.words/protectiontype/). Isso permitirá que você selecione um tipo exato de proteção, como o seguinte:
 
-* Permitir apenas Compartimentos
-* Permitindo apenas parafusos
-* Permitir apenas revisões
+* AllowOnlyComments
+* AllowOnlyFormFields
+* AllowOnlyRevisions
 * ReadOnly
-* NoProtecção
+* NoProtection
 
-Todos os tipos são protegidos por senha, e se essa senha não for inserida corretamente, um usuário não será capaz de alterar legalmente o conteúdo do seu documento. Assim, se o seu documento é devolvido a você sem um requisito para fornecer a senha necessária, este é um sinal de que algo está errado.
+Todos os tipos são protegidos por senha e, se essa senha não for inserida corretamente, o Usuário não poderá alterar legalmente o conteúdo do seu documento. Assim, se o seu documento lhe for devolvido sem a necessidade de fornecer a senha necessária, isso é um sinal de que algo está errado.
 
 Se você não definiu uma senha ao escolher o tipo de segurança, outros usuários podem simplesmente ignorar a proteção do seu documento.
 
 {{% alert color="primary" %}}
 
-Note que a senha que está sendo definida é apenas uma propriedade em um documento que pode ser removido se as propriedades do documento forem acessadas. Assim, tal senha não é uma garantia da segurança do documento. O [Unprotect](https://reference.aspose.com/words/java/com.aspose.words/document/#unprotect) método mostra apenas isso.
+Observe que a senha que está sendo definida é apenas uma propriedade em um documento que pode ser removida se as propriedades do documento forem acessadas. Por conseguinte, essa palavra-passe não constitui uma garantia da segurança do documento. O método [Unprotect](https://reference.aspose.com/words/java/com.aspose.words/document/#unprotect) mostra exatamente isso.
 
 {{% /alert %}}
 
-## Adicionar proteção de documentos
+## Adicionar Proteção De Documentos
 
-Adicionar proteção ao seu documento é um processo simples, pois tudo que você precisa fazer é aplicar um dos métodos de proteção detalhados nesta seção.
+Adicionar proteção ao seu documento é um processo simples, pois tudo o que você precisa fazer é aplicar um dos métodos de proteção detalhados nesta seção.
 
-Aspose.Words permite proteger seus documentos de alterações usando o [Protect](https://reference.aspose.com/words/java/com.aspose.words/document/#protect-int) método. Este método não é um recurso de segurança e não criptografa um documento.
+Aspose.Words permite-lhe proteger os seus documentos contra alterações utilizando o método [Protect](https://reference.aspose.com/words/java/com.aspose.words/document/#protect-int). Este método não é um recurso de segurança e não criptografa um documento.
 
 {{% alert color="primary" %}}
 
-Em Microsoft Word, você pode restringir a edição de uma forma semelhante usando ambos:
+Em Microsoft Word, você pode restringir a edição de maneira semelhante usando ambos:
 
-* Restrict Editing (File → Info → Proteger Documento)
-* Característica alternativa – "Restrict Editing" (Review → Protect → Restrict Editing)
+* Restrinja A Edição (Ficheiro (Ficheiro)
+* Recurso alternativo – " Restringir edição "(reveja a protecção da edição restrita)
 
 {{% /alert %}}
 
-O exemplo de código a seguir mostra como adicionar proteção de senha ao seu documento:
+O exemplo de código a seguir mostra como adicionar proteção por senha ao documento:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-PasswordProtection.java" >}}
 
-O exemplo de código a seguir mostra como restringir a edição em um documento para que somente a edição em campos de formulário seja possível:
+O exemplo de código a seguir mostra como restringir a edição em um documento para que apenas a edição em campos de formulário seja possível:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-AllowOnlyFormFieldsProtect.java" >}}
 
-## Remover a proteção do documento
+## Remover A Protecção De Documentos
 
-Aspose.Words permite remover a proteção de um documento com modificação simples e direta do documento. Você pode remover a proteção do documento sem saber a senha real ou fornecer a senha correta para desbloquear o documento usando o [Unprotect](https://reference.aspose.com/words/java/com.aspose.words/document/#unprotect) método. Ambos removendo maneiras não têm diferença.
+Aspose.Words permite remover a protecção de um documento com uma modificação simples e directa do documento. Você pode remover a proteção do documento sem saber a senha real ou fornecer a senha correta para desbloquear o documento usando o método [Unprotect](https://reference.aspose.com/words/java/com.aspose.words/document/#unprotect). Ambas as formas de remoção não têm diferença.
 
-O exemplo de código a seguir mostra como remover a proteção do seu documento:
+O exemplo de código a seguir mostra como remover a proteção do documento:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-RemoveDocumentProtection.java" >}}
 
-## Especificar Regiões Editáveis sem restrições
+## Especificar Regiões Editáveis Irrestritas
 
-Você pode restringir a edição do seu documento e, ao mesmo tempo, permitir alterações em partes selecionadas dele. Assim, qualquer pessoa que abra seu documento será capaz de acessar essas partes irrestritas e fazer alterações no conteúdo.
+Você pode restringir a edição do seu documento e, ao mesmo tempo, permitir alterações em partes selecionadas dele. Assim, qualquer pessoa que abrir seu documento poderá acessar essas partes irrestritas e fazer alterações no conteúdo.
 
-Aspose.Words permite que você marque as peças que podem ser alteradas em seu documento usando o [StartEditableRange](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startEditableRange) e [EndEditableRange](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endEditableRange) métodos.
+Aspose.Words permite marcar as partes que podem ser alteradas no seu documento utilizando os métodos [StartEditableRange](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startEditableRange) e [EndEditableRange](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endEditableRange).
 
-O exemplo de código a seguir mostra como marcar todo o documento como somente leitura e especificar regiões editáveis nele:
+O exemplo de código a seguir mostra como marcar o documento inteiro como somente leitura e especificar regiões editáveis nele:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ProtectDocument-UnrestrictedEditableRegions.java" >}}
 

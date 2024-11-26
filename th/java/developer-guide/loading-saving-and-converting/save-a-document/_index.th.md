@@ -1,45 +1,45 @@
----
-title: บันทึกเอกสารเป็น Java
-second_title: Aspose.Words สําหรับ Java
-articleTitle: บันทึกเอกสาร
-linktitle: บันทึกเอกสาร
+﻿---
+title: บันทึกเอกสารในJava
+second_title: Aspose.WordsสำหรับJava
+articleTitle: การบันทึกเอกสาร
+linktitle: การบันทึกเอกสาร
 type: docs
-description: "บันทึกเอกสารในรูปแบบใด ๆ ที่รองรับ Java."
+description: "บันทึกเอกสารในรูปแบบใดก็ได้ที่สนับสนุนโดยใช้Java."
 weight: 20
 url: /th/java/save-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-งานส่วนใหญ่ที่คุณต้องใช้ Aspose.Words เกี่ยวกับการบันทึกเอกสาร เพื่อบันทึกเอกสาร Aspose.Words ให้ [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save(java.lang.String)วิธีของ [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) ชั้นเรียน. เอกสารสามารถบันทึกในรูปแบบใด ๆ ก็ได้ที่รองรับการบันทึก Aspose.Words. สําหรับรายการของรูปแบบการบันทึกทั้งหมดที่รองรับ ดูที่ [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) การเผาศพ
+งานส่วนใหญ่ที่คุณจำเป็นต้องดำเนินการด้วยAspose.Wordsเกี่ยวข้องกับการบันทึกเอกสาร เมื่อต้องการบันทึกเอกสารAspose.Wordsให้[Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save(java.lang.String))วิธีการของ[Document](https://reference.aspose.com/words/java/com.aspose.words/document/)ชั้น เอกสารสามารถบันทึกในรูปแบบบันทึกใดๆที่สนับสนุนโดยAspose.Words สำหรับรายการของรูปแบบการบันทึกที่สนับสนุนทั้งหมดโปรดดูที่[SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)การแจงนับ.
 
-## บันทึกเป็นแฟ้ม {#save-a-document-to-a-file}
+## บันทึกไปยังแฟ้ม {#save-a-document-to-a-file}
 
-ใช้ง่าย ๆ [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String) วิธีการที่มีชื่อแฟ้ม Aspose.Words จะพิจารณารูปแบบการบันทึกจากนามสกุลแฟ้มที่คุณกําหนด
+เพียงใช้วิธีการ[Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String)ด้วยชื่อแฟ้ม Aspose.Wordsจะกำหนดรูปแบบการบันทึกจากนามสกุลไฟล์ที่คุณระบุ.
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีการโหลดและบันทึกเอกสารไปยังเอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการโหลดและบันทึกเอกสารไปยังแฟ้ม:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadAndSave-LoadAndSave.java" >}}
 
 {{% alert color="primary" %}}
 
-คุณสามารถดาวน์โหลดแฟ้มต้นแบบของตัวอย่างนี้ได้ [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
+คุณสามารถดาวน์โหลดไฟล์แม่แบบของตัวอย่างนี้ได้จาก [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
 
 {{% /alert %}}
 
-## บันทึกไปยังสายข้อมูล {#save-a-document-to-a-stream}
+## บันทึกลงในสตรีม {#save-a-document-to-a-stream}
 
-ส่งวัตถุกระแสไปยัง [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-com.aspose.words.SaveOptions) วิธี มันจําเป็นต้องกําหนดรูปแบบการบันทึกโดยตรง เมื่อมีการบันทึกไปยังสายข้อมูล
+ส่งผ่านวัตถุสตรีมไปยังวิธีการ[Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-com.aspose.words.SaveOptions) จำเป็นต้องระบุรูปแบบการบันทึกอย่างชัดเจนเมื่อบันทึกลงในสตรีม.
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีการโหลดและบันทึกเอกสารไปยังกระแส:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการโหลดและบันทึกเอกสารไปยังสตรีม:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadAndSaveToStream-LoadAndSaveToStream.java" >}}
 
-คุณสามารถดาวน์โหลดแฟ้มต้นแบบของตัวอย่างนี้ได้ [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
+คุณสามารถดาวน์โหลดไฟล์แม่แบบของตัวอย่างนี้ได้จาก [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
 
-## บันทึกไปยัง PCL {#save-a-document-to-pcl}
+## ประหยัดถึงPCL {#save-a-document-to-pcl}
 
-Aspose.Words รองรับการบันทึกเอกสารเป็นเอกสารไปยังภาษา PCL (ภาษาของคําสั่งเครื่องพิมพ์) Aspose.Words สามารถบันทึกเอกสารลงในรูปแบบ PCL 6 (PCL 6 เสริมหรือ PCL XL) เดอะ `PclSaveOptions` ใช้คลาสเพื่อกําหนดตัวเลือกเพิ่มเติม เมื่อมีการจัดเก็บเอกสารในรูปแบบ PCL
+Aspose.Wordsรองรับการบันทึกเอกสารเป็นPCL(ภาษาคำสั่งเครื่องพิมพ์) Aspose.WordsสามารถบันทึกเอกสารลงในรูปแบบPCL6(PCL6 ปรับปรุงหรือPCLXL) คลาส`PclSaveOptions`สามารถใช้เพื่อระบุตัวเลือกเพิ่มเติมเมื่อบันทึกเอกสารลงในรูปแบบPCL.
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีการบันทึกเอกสารไปยัง PCL โดยใช้ตัวเลือกการบันทึก:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการบันทึกเอกสารเป็นPCLโดยใช้ตัวเลือกการบันทึก:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertDocumentToPCL-ConvertDocumentToPCL.java" >}}

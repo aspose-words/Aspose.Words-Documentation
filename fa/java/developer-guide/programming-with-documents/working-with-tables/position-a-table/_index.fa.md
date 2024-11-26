@@ -1,79 +1,79 @@
----
+﻿---
 title: موقعیت جدول در Java
 second_title: Aspose.Words برای Java
-articleTitle: موقعیت یک جدول
-linktitle: موقعیت یک جدول
-description: "موقعیت جدول در Java... یک تراز جدول، دریافت و تنظیم موقعیت جدول شناور با استفاده از Java..."
+articleTitle: یک جدول را قرار دهید
+linktitle: یک جدول را قرار دهید
+description: "موقعیت جدول را در Java مشخص کنید. با استفاده از Java یک تراز جدول بدست آورید، موقعیت جدول شناور را بدست آورید و تنظیم کنید."
 type: docs
 weight: 50
 url: /fa/java/position-a-table/
 timestamp: 2024-01-27-14-07-04
 ---
 
-جداول شناور و جداول خط وجود دارد:
+جداول شناور و جداول خطی وجود دارد:
 
-* **جدول های خط** در همان لایه به عنوان متن قرار داده می شود و در جریان متن قرار می گیرد که فقط جدول بالا و پایین را احاطه می کند. جداول خط همیشه بین پاراگراف هایی که در آن قرار داده اید ظاهر می شوند.
-* **جدول های شناور** بر روی متن لایه بندی شده اند و موقعیت جدول نسبت به پاراگراف توسط لنگر جدول مشخص می شود. به همین دلیل، موقعیت جدول شناور در سند تحت تاثیر تنظیمات موقعیت عمودی و افقی قرار می گیرد.
+* **Inline tables** در همان لایه متن قرار می گیرند و در جریان متن قرار می گیرند که فقط جدول بالا و پایین را احاطه می کند. جداول خطی همیشه بین پاراگراف هایی که در آن قرار داده اید ظاهر می شوند.
+* **Floating tables** روی متن لایه بندی شده اند و موقعیت جدول نسبت به پاراگراف توسط لنگر جدول تعیین می شود. به همین دلیل، موقعیت جدول شناور در سند تحت تأثیر تنظیمات موقعیت عمودی و افقی قرار می گیرد.
 
-گاهی اوقات شما باید یک میز را در یک سند قرار دهید. برای انجام این کار، شما باید از ابزار تراز استفاده کنید و بین جدول و متن اطراف آن را تنظیم کنید.
+گاهی اوقات شما باید یک جدول را در یک سند به روشی خاص قرار دهید. برای انجام این کار، باید از ابزارهای تراز استفاده کنید و فرورفتگی ها را بین جدول و متن اطراف تنظیم کنید.
 
-در این مقاله، در مورد گزینه ها بحث خواهیم کرد. Aspose.Words برای موقعیت یابی فراهم می کند.
+در این مقاله، ما در مورد گزینه های Aspose.Words برای موقعیت یابی بحث خواهیم کرد.
 
-## ویژگی های Inline Table Position
+## موقعیت جدول خطی را مشخص کنید
 
-شما می توانید موقعیت یک میز خط را با استفاده از Aspose.Words API و [Alignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getAlignment) مالکیت بنابراین، شما می توانید تراز جدول را نسبت به صفحه سند تنظیم کنید.
+شما می توانید موقعیت یک جدول خطی را با استفاده از ویژگی Aspose.Words API و [Alignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getAlignment) تنظیم کنید. بنابراین، می توانید تراز جدول را نسبت به صفحه سند تنظیم کنید.
 
-مثال کد زیر نشان می دهد که چگونه موقعیت یک جدول زیر را تنظیم کنیم:
+مثال کد زیر نشان می دهد که چگونه موقعیت یک جدول خطی را تنظیم کنید:
 
 {{< gist "aspose-words-gists" "0f235c484e5edae70a542ebdaae40fd8" "inline-table-position.java" >}}
 
-## جدول شناور Alignment
+## دریافت تراز جدول شناور
 
-اگر بسته بندی متن جدول تنظیم شود **Around**, شما می توانید تراز افقی و عمودی جدول را با استفاده از [RelativeHorizontalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeHorizontalAlignment) و [RelativeVerticalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeVerticalAlignment) خواص
+اگر بسته بندی متن جدول به **Around** تنظیم شده باشد، می توانید تراز افقی و عمودی جدول را با استفاده از ویژگی های [RelativeHorizontalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeHorizontalAlignment) و [RelativeVerticalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeVerticalAlignment) بدست آورید.
 
-با **انواع دیگر بسته بندی متن**, شما می توانید تراز جدول را با استفاده از **Alignment** مالکیت
+با **other types of text wrapping** می توانید تراز جدول خطی را با استفاده از ویژگی **Alignment** بدست آورید.
 
-مثال کد زیر نشان می دهد که چگونه تراز جدول را دریافت کنید:
+مثال کد زیر نشان می دهد که چگونه تراز جدول را بدست آوریم:
 
 {{< gist "aspose-words-gists" "0f235c484e5edae70a542ebdaae40fd8" "get-table-position.java" >}}
 
-## صندلی جدول شناور
+## دریافت موقعیت جدول شناور
 
- موقعیت یک میز شناور با استفاده از خواص زیر مشخص می شود:
+ موقعیت یک جدول شناور با استفاده از ویژگی های زیر تعیین می شود:
 
-* [HorizontalAnchor](https://reference.aspose.com/words/java/com.aspose.words/table/#getHorizontalAnchor) یک شی برای محاسبه موقعیت افقی یک میز شناور
-* [VerticalAnchor](https://reference.aspose.com/words/java/com.aspose.words/table/#getVerticalAnchor) - یک شی برای محاسبه موقعیت عمودی یک میز شناور
-* [AbsoluteHorizontalDistance](https://reference.aspose.com/words/java/com.aspose.words/table/#getAbsoluteHorizontalDistance) موقعیت جدول شناور افقی
-* [AbsoluteVerticalDistance](https://reference.aspose.com/words/java/com.aspose.words/table/#getAbsoluteVerticalDistance) موقعیت جدول شناور عمودی
-* [AllowOverlap](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowOverlap) - گزینه ای برای فعال کردن / همپوشانی با دیگر اشیاء شناور
-* [RelativeHorizontalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeHorizontalAlignment) جدول شناور در تراز افقی نسبی
-* [RelativeVerticalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeVerticalAlignment) جدول شناور تراز عمودی نسبی
+* [HorizontalAnchor](https://reference.aspose.com/words/java/com.aspose.words/table/#getHorizontalAnchor) - یک شی برای محاسبه موقعیت افقی یک جدول شناور
+* [VerticalAnchor](https://reference.aspose.com/words/java/com.aspose.words/table/#getVerticalAnchor) - یک شی برای محاسبه موقعیت عمودی یک جدول شناور
+* [AbsoluteHorizontalDistance](https://reference.aspose.com/words/java/com.aspose.words/table/#getAbsoluteHorizontalDistance) – موقعیت جدول شناور افقی مطلق
+* [AbsoluteVerticalDistance](https://reference.aspose.com/words/java/com.aspose.words/table/#getAbsoluteVerticalDistance) – موقعیت جدول شناور عمودی مطلق
+* [AllowOverlap](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowOverlap) – گزینه فعال/غیرفعال کردن همپوشانی با سایر اشیاء شناور
+* [RelativeHorizontalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeHorizontalAlignment) – جدول شناور تراز افقی نسبی.
+* [RelativeVerticalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table/#getRelativeVerticalAlignment) – جدول شناور تراز عمودی نسبی.
 
-مثال کد زیر نشان می دهد که چگونه موقعیت یک جدول شناور را بدست آورید:
+مثال کد زیر نشان می دهد که چگونه موقعیت یک جدول شناور را بدست آوریم:
 
 {{< gist "aspose-words-gists" "0f235c484e5edae70a542ebdaae40fd8" "get-floating-table-position.java" >}}
 
-## موقعیت جدول جدول شناور
+## موقعیت میز شناور را تنظیم کنید
 
-درست مانند گرفتن، شما می توانید موقعیت یک میز شناور را با استفاده از همان حالت تنظیم کنید. Aspose.Words API...
+درست مثل گرفتن، شما می توانید موقعیت یک جدول شناور را با استفاده از همان Aspose.Words API تنظیم کنید.
 
-مهم است که بدانیم که تراز و فاصله افقی و عمودی خواص ترکیبی هستند و می توان دیگری را مجدداً تنظیم کرد. به عنوان مثال، تنظیم **RelativeHorizontalAlignment** پس از آن، **AbsoluteHorizontalDistance** به ارزش پیش فرض و برعکس. همان true برای آرایش عمودی
+مهم است بدانید که تراز و فاصله افقی و عمودی خواص ترکیبی هستند و یکی می تواند دیگری را بازنشانی کند. برای مثال، تنظیم **RelativeHorizontalAlignment** **AbsoluteHorizontalDistance** را به مقدار پیش فرض خود تنظیم می کند و برعکس. همین امر در مورد ترتیب عمودی نیز صدق می کند.
 
-مثال کد زیر نشان می دهد که چگونه موقعیت یک جدول شناور را تنظیم کنیم:
+مثال کد زیر نشان می دهد که چگونه موقعیت یک جدول شناور را تنظیم کنید:
 
 {{< gist "aspose-words-gists" "0f235c484e5edae70a542ebdaae40fd8" "floating-table-position.java" >}}
 
 {{< gist "aspose-words-gists" "0f235c484e5edae70a542ebdaae40fd8" "relative-horizontal-or-vertical-position.java" >}}
 
-## فاصله بین جدول و متن فراگیر
+## فاصله بین جدول و متن اطراف را بدست آورید
 
 Aspose.Words همچنین فرصتی برای پیدا کردن فاصله بین جداول و متون اطراف فراهم می کند:
 
-- [DistanceTop](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceTop) ارزش فاصله از بالا
-- [DistanceBottom](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceBottom) ارزش فاصله ادراک
-- [DistanceRight](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceRight) ارزش فاصله در سمت راست
-- [DistanceLeft](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceLeft) ارزش فاصله در سمت چپ
+- [DistanceTop](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceTop) - مقدار فاصله از بالا
+- [DistanceBottom](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceBottom) - ارزش فاصله ادراک
+- [DistanceRight](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceRight) – مقدار فاصله در سمت راست
+- [DistanceLeft](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceLeft) - مقدار فاصله در سمت چپ
 
-مثال کد زیر نشان می دهد که چگونه فاصله بین یک میز و متن اطراف آن را دریافت کنید:
+مثال کد زیر نشان می دهد که چگونه فاصله بین یک جدول و متن اطراف آن را بدست آوریم:
 
 {{< gist "aspose-words-gists" "0f235c484e5edae70a542ebdaae40fd8" "distance-between-table-surrounding-text.java" >}}

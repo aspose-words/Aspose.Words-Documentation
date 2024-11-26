@@ -1,8 +1,8 @@
 ---
-title: Trabalhe com um documento armazenado em `SharePoint` online
+title: Trabalhe com um documento armazenado em SharePoint online
 second_title: Aspose.Words para .NET
-articleTitle: Trabalhe com um documento armazenado em `SharePoint` online
-linktitle: Trabalhe com um documento armazenado em `SharePoint` online
+articleTitle: Trabalhe com um documento armazenado em SharePoint online
+linktitle: Trabalhe com um documento armazenado em SharePoint online
 description: "Converta Word compartilhado em SharePoint para PDF usando C#. Trabalhe com documentos armazenados em SharePoint – vários formatos de entrada, incluindo Word, OpenOffice, Imagem e e-book."
 type: docs
 weight: 20

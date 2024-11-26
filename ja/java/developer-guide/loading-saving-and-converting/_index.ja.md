@@ -1,15 +1,15 @@
----
-title: ローディング、保存および変換 Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: ローディング、保存および変換
-linktitle: ローディング、保存および変換
-description: "お問い合わせ Aspose.Words お問い合わせ Java 1つの形式から別の形式に文書をロード、保存、または変換するときの機能。"
+﻿---
+title: Javaでの読み込み、保存、変換
+second_title: Aspose.WordsのためのJava
+articleTitle: 読み込み、保存、変換
+linktitle: 読み込み、保存、変換
+description: "ドキュメントをある形式から別の形式に読み込んだり、保存したり、変換したりするときのAspose.WordsforJava機能について説明します。"
 type: docs
 weight: 20
 url: /ja/java/loading-saving-and-converting/
 timestamp: 2024-01-27-14-07-04
 ---
 
-このセクションでは、ドキュメントの読み込みと保存、およびドキュメントを1つの形式から別の形式に変換する際の可能性に関するデータに関する情報を提供します。
+このセクションでは、ドキュメントの読み込みと保存時の機能に関する情報と、ドキュメントをある形式から別の形式に変換するときの可能性に関
 
-詳しくはこちら Aspose.Words 文書の読み込み、保存、または変換、対応する記事を選択します。 クラス、メソッド、プロパティの詳細な説明については、 Aspose.Words お問い合わせ Java API Reference セクション。
+ドキュメントの読み込み、保存、または変換時のAspose.Words機能の詳細については、対応する記事を選択します。 クラス、メソッド、およびプロパティの詳細な説明については、Aspose.WordsforJavaAPI Referenceセクションを参照してください。

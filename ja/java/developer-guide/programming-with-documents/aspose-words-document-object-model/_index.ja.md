@@ -1,154 +1,154 @@
----
-title: Aspose.Words Document Object Model (DOM)
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: Aspose.Words Document Object Model (DOM)
-linktitle: Aspose.Words Document Object Model (DOM)
+﻿---
+title: Aspose.Wordsドキュメントオブジェクトモデル(DOM)
+second_title: Aspose.WordsのためのJava
+articleTitle: Aspose.Wordsドキュメントオブジェクトモデル(DOM)
+linktitle: Aspose.Wordsドキュメントオブジェクトモデル(DOM)
 type: docs
-description: "Document Object Model ( )DOM) は、Word文書の非記憶表現です。 読み、操作し、Word文書のコンテンツとフォーマットを変更して使用 Javaお問い合わせ"
+description: "ドキュメントオブジェクトモデル(DOM)は、Word文書のメモリ内表現です。 Javaを使用してWord文書の内容と書式を読み取り、操作し、変更します。"
 weight: 10
 url: /ja/java/aspose-words-document-object-model/
 timestamp: 2024-01-27-14-07-04
 ---
 
-ザ・オブ・ザ・ Aspose.Words Document Object Model ( )DOM) は、Word文書の非記憶表現です。 ザ・オブ・ザ・ Aspose.Words DOM Word文書のコンテンツやフォーマットをプログラム的に読み、操作、変更することができます。
+Aspose.Wordsドキュメントオブジェクトモデル(DOM)は、Word文書のメモリ内表現です。 Aspose.WordsDOMを使用すると、プログラムでWord文書の内容と書式を読み取り、操作、および変更できます。
 
-このセクションでは、メインクラスを説明します Aspose.Words DOM そして、その関係。 ご利用にあたって Aspose.Words DOM クラスは、ドキュメント要素と書式へのプログラム的なアクセスを取得できます。
+このセクションでは、Aspose.WordsDOMの主なクラスとその関係について説明します。 Aspose.WordsDOMクラスを使用すると、文書要素と書式設定へのプログラムによるアクセスを取得できます。
 
-## ドキュメントの作成 オブジェクトツリー {#create-a-document-objects-tree}
+## ドキュメントオブジェクトツリー {#create-a-document-objects-tree}の作成
 
-ドキュメントが読み込まれるとき Aspose.Words DOM????? その後、オブジェクトツリーが構築され、ソース文書の異なる種類の要素が独自のものを持っています DOM さまざまなプロパティを持つツリーオブジェクト。
+文書がAspose.WordsDOMに読み込まれると、オブジェクトツリーが構築され、ソース文書の異なるタイプの要素には、さまざまなプロパティを持つ独自のDOMtreeオブジェク
 
-### ドキュメントノードツリーの構築 {#build-document-nodes-tree}
+### ビルドドキュメントノードツリー {#build-document-nodes-tree}
 
-いつか Aspose.Words Word 文書をメモリに読み込み、さまざまなドキュメント要素を表すさまざまなタイプのオブジェクトを作成します。 テキスト、段落、テーブル、セクションの各実行はノードであり、ドキュメント自体もノードです。 Aspose.Words すべてのドキュメントノードタイプのクラスを定義します。
+Aspose.WordsがWord文書をメモリに読み込むと、さまざまな文書要素を表すさまざまな型のオブジェクトが作成されます。 テキスト、段落、表、またはセクションのすべての実行はノードであり、ドキュメント自体もノードです。 Aspose.Wordsは、すべてのドキュメントノード型のクラスを定義します。
 
-ドキュメントツリー Aspose.Words 合成の設計パターンに続いて下さい:
+Aspose.Wordsのドキュメントツリーは、複合デザインパターンに従います:
 
-- 究極のすべてのノードクラスは、 [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) ベースクラスであるクラス Aspose.Words Document Object Modelお問い合わせ
-- 他のノードを含むノード(例えば、 **Section** または **Paragraph**, 由来の由来 [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) から派生する順番にあるクラス **Node** クラス。
+- すべてのノードクラスは、最終的にAspose.Wordsドキュメントオブジェクトモデルの基本クラスである[Node](https://reference.aspose.com/words/java/com.aspose.words/node/)クラスから派生します。
+- **Section**や**Paragraph**などの他のノードを含むことができるノードは、[CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/)クラスから派生し、**Node**クラスから派生します。
 
-以下の図は、ノードクラスの継承を示しています Aspose.Words Document Object Model ( )DOM)。 抽象クラスの名前は Italics です。
+下の図は、Aspose.Wordsドキュメントオブジェクトモデル(DOM)のノードクラス間の継承を示しています。 抽象クラスの名前は斜体で表示されます。
 
 <img src="/words/java/aspose-words-document-object-model/aspose-words-dom.png" alt="aspose-words-dom" style="width:700px"/>
 
 {{% alert color="primary" %}}
 
-ザ・オブ・ザ・ Aspose.Words DOM 非ノードクラスも含んでいます。 [Style](https://reference.aspose.com/words/java/com.aspose.words/style/) または [Font](https://reference.aspose.com/words/java/com.aspose.words/font/), 文書内の外観やスタイルをカスタマイズするために使用されます。 これらのクラスは、継承されていないため、この図では表示されません。 `Node` クラス。
+Aspose.WordsDOMには、ドキュメント内の外観とスタイルをカスタマイズするために使用される[Style](https://reference.aspose.com/words/java/com.aspose.words/style/)や[Font](https://reference.aspose.com/words/java/com.aspose.words/font/)などの非ノードクラスも含まれています。Aspose.WordsDOMには、[Style](https://reference.aspose.com/words/java/com.aspose.words/style/)や[Font](https://reference.aspose.com/words/java/com.aspose.words/font/)などの非ノードクラスも含まれています。 これらのクラスは、`Node`クラスから継承されていないため、この図には示されていません。
 
 {{% /alert %}}
 
-例を見てみましょう。 次の画像は、 Microsoft Word 異なる種類のコンテンツの文書。
+例を見てみましょう。 次の画像は、さまざまな種類のコンテンツを含むMicrosoft Wordドキュメントを示しています。
 
 <img src="/words/java/aspose-words-document-object-model/document-example.png" alt="document-example" style="width:700px"/>
 
-上記の文書を読んでいるとき Aspose.Words DOM, 下の図のようにオブジェクトのツリーが作成されます。
+上記の文書をAspose.WordsDOMに読み込むと、以下のスキーマに示すように、オブジェクトのツリーが作成されます。
 
 <img src="/words/java/aspose-words-document-object-model/document-example-dom.png" alt="document-example-dom" style="width:700px"/>
 
-[Document](https://reference.aspose.com/words/java/com.aspose.words/document/), [Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/), [Run](https://reference.aspose.com/words/java/com.aspose.words/run/), そして、図上の他のすべての楕円は、 Aspose.Words Word文書の要素を表すオブジェクト。
+[Document](https://reference.aspose.com/words/java/com.aspose.words/document/), [Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/), [Run](https://reference.aspose.com/words/java/com.aspose.words/run/), また、図上の他のすべての楕円は、Word文書の要素を表すAspose.Wordsオブジェクトです。
 
-### お問い合わせ `Node` タイプ: {#get-a-node-type}
+### `Node`タイプ {#get-a-node-type}を取得します
 
-しかし、 [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) 各ノードを区別するのに十分なクラスです。 Aspose.Words 提供して下さい [NodeType](https://reference.aspose.com/words/java/com.aspose.words/nodetype/) 一部を簡素化する列挙 API 特定のタイプのノードを選択します。
+[Node](https://reference.aspose.com/words/java/com.aspose.words/node/)クラスは異なるノードを区別するのに十分ですが、Aspose.Wordsは特定のタイプのノードの選択など、いくつかのAPIタスクを簡素化するために[NodeType](https://reference.aspose.com/words/java/com.aspose.words/nodetype/)列挙を提供します。
 
-各ノードの種類は、各ノードで取得できます。 [NodeType](https://reference.aspose.com/words/java/com.aspose.words/node/#getNodeType) プロパティ. このプロパティは、 **NodeType** 列挙値。 例えば、並列ノードは、 **Paragraph** クラスリターン **NodeType**お問い合わせ**Paragraph**と表ノードは、 **Table** クラスリターン **NodeType**お問い合わせ**Table**お問い合わせ
+各ノードのタイプは、[NodeType](https://reference.aspose.com/words/java/com.aspose.words/node/#getNodeType)プロパティを使用して取得できます。 このプロパティは**NodeType**列挙値を返します。 たとえば、**Paragraph**クラスで表される段落ノードは**NodeType**.**Paragraph**を返し、**Table**クラスで表されるテーブルノードは**NodeType**.**Table**を返します。
 
-次の例では、ノードタイプを取得する方法を示します。 **NodeType** 列挙:
+次の例は、**NodeType**列挙体を使用してノード型を取得する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-GetNodeType-.java" >}}
 
 ## ドキュメントツリーナビゲーション {#document-tree-navigation}
 
-Aspose.Words ノードツリーとしてドキュメントを表現し、ノード間を移動することができます。 このセクションでは、ドキュメントツリーを探索およびナビゲートする方法について説明します Aspose.Wordsお問い合わせ
+Aspose.Wordsはドキュメントをノードツリーとして表し、ノード間を移動できます。 このセクションでは、Aspose.Words内のドキュメントツリーを探索してナビゲートする方法について説明します。
 
-サンプル文書を開くと、先に提示されたドキュメントエクスプローラでは、ノードツリーはそのままに表現されます。 Aspose.Wordsお問い合わせ
+前に示したサンプルドキュメントをドキュメントエクスプローラーで開くと、ノードツリーはAspose.Wordsで表されているとおりに表示されます。
 
 <img src="/words/java/aspose-words-document-object-model/document-in-document-explorer.png" alt="document-in-document-explorer" style="width:680px"/>
 
 {{% alert color="primary" %}}
 
-サンプルプロジェクト「ドキュメントエクスプローラ」を学習できます。 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/DocsExamples/Java/src/main/java/DocsExamples/Document_explorer)お問い合わせ
+サンプルプロジェクト"Document Explorer"を学ぶことができます [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/DocsExamples/Java/src/main/java/DocsExamples/Document_explorer).
 
 {{% /alert %}}
 
-### ドキュメントノードの関係 {#document-nodes-relationships}
+### ドキュメントノード関係 {#document-nodes-relationships}
 
-ツリー内のノードは、それらの間に関係があります。
+ツリー内のノードは、それらの間の関係を持っています:
 
-- 他のノードを含むノードは、 *parent.*
-- - - 親ノードに含まれるノードは、 *child.* 同じ親の子ノードは *sibling* ノード。
-- ザ・ *root* ノードは常に [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) ノード。
+- 別のノードを含むノードは*parent.*です
+- 親ノードに含まれるノードは、同じ親の*child.*子ノードであり、*sibling*ノードである。
+- *root*ノードは常に[Document](https://reference.aspose.com/words/java/com.aspose.words/document/)ノードです。
 
-他のノードを derive から含むことができるノード [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) クラス、およびすべてのノードは、最終的に由来する [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) クラス。 これらの2つのベースクラスは、ツリー構造のナビゲーションと変更のための一般的な方法と特性を提供します。
+他のノードを含むことができるノードは[CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/)クラスから派生し、すべてのノードは最終的に[Node](https://reference.aspose.com/words/java/com.aspose.words/node/)クラスから派生します。 これらの2つの基本クラスは、ツリー構造のナビゲーションと変更のための一般的なメソッドとプロパティを提供します。
 
-次の UML オブジェクト図は、サンプル文書の複数のノードと、親、子、および兄弟のプロパティを介して互いに関係を示しています。
+次のUMLオブジェクト図は、サンプルドキュメントのいくつかのノードと、parent、child、およびsiblingプロパティを介した相互の関係を示しています:
 
 <img src="/words/java/aspose-words-document-object-model/document-nodes-relationships.png" alt="document-nodes-relationships" style="width:370px"/>
 
-#### ドキュメントはNodeの所有者です
+#### ドキュメントはノード所有者です
 
-ノードは、スタイルやリストなどの重要な文書全体の構造が保存されているため、ツリーから作成または削除された場合でも、常に特定の文書に属しています。 **Document** ノード。 たとえば、持てることができない **Paragraph** なし **Document** 各段落には、文書のグローバルに定義されている割り当てられたスタイルがあります。 このルールは、新しいノードを作成するときに使用されます。 新規追加 **Paragraph** 直接に DOM コンストラクタに渡されるドキュメントオブジェクトが必要です。
+スタイルやリストなどの重要な文書全体の構造が**Document**ノードに格納されるため、ノードはツリーから作成または削除されたばかりであっても、常に特定のドキ たとえば、各段落にはドキュメントに対してグローバルに定義されたスタイルが割り当てられているため、**Document**なしで**Paragraph**を持つことはできません。 このルールは、新しいノードを作成するときに使用されます。 新しい**Paragraph**をDOMに直接追加するには、コンストラクタに渡されるdocumentオブジェクトが必要です。
 
 {{% alert color="primary" %}}
 
-ザ・オブ・ザ・ [Node.Document](https://reference.aspose.com/words/java/com.aspose.words/node/#getDocument) プロパティは、ノードが属するドキュメントを返します。
+[Node.Document](https://reference.aspose.com/words/java/com.aspose.words/node/#getDocument)プロパティは、ノードが属するドキュメントを返します。
 
 {{% /alert %}}
 
-新しい段落を作成するとき [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/), ビルダーは常にビルダーを持っています **Document** それをリンクしたクラス [DocumentBuilder.Document](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#Document) プロパティ.
+[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)を使用して新しい段落を作成する場合、ビルダーには常に[DocumentBuilder.Document](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#Document)プロパティを介してリンクされた**Document**クラスがあります。
 
-次のコードの例では、ノードを作成するときに、ノードを所有するドキュメントが常に定義されていることを示します。
+次のコード例は、ノードを作成するときに、そのノードを所有するドキュメントが常に定義されることを示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-OwnerDocument-.java" >}}
 
 #### 親ノード
 
-各ノードは、指定した親を持っています [ParentNode](https://reference.aspose.com/words/java/com.aspose.words/node/#getParentNode) プロパティ. ノードには、親ノードがない、つまり、 **ParentNode** 次の例では null です。
+各ノードには[ParentNode](https://reference.aspose.com/words/java/com.aspose.words/node/#getParentNode)プロパティで指定された親があります。 次の場合、ノードには親ノードがありません。**ParentNode**はnullです。:
 
-- - - ノードが作成され、まだツリーに追加されていない。
-- - - ノードはツリーから削除されました。
-- - - これは根本です **Document** 常に null の親ノードを持つノード。
+- ノードは作成されたばかりで、まだツリーに追加されていません。
+- ノードがツリーから削除されました。
+- これは、常にnullの親ノードを持つルート**Document**ノードです。
 
-親からノードを呼び出して削除できます。 [Remove](https://reference.aspose.com/words/java/com.aspose.words/node/#remove) メソッド。 以下のコードの例では、親ノードへのアクセス方法を示します。
+ノードを親から削除するには、[Remove](https://reference.aspose.com/words/java/com.aspose.words/node/#remove)メソッドを呼び出します。次のコード例は、親ノードにアクセスする方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-AccessParentNode-.java" >}}
 
-#### 子供のノード
+#### 子ノード
 
-子供のノードにアクセスするための最も効率的な方法 [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) お問い合わせ [FirstChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#FirstChild) そして、 [LastChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#LastChild) それぞれ最初の子ノードと最後の子ノードを返すプロパティ。 子ノードがない場合、これらのプロパティは戻ります *null*お問い合わせ
+[CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/)の子ノードにアクセスする最も効率的な方法は、それぞれ最初と最後の子ノードを返す[FirstChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#FirstChild)プロパティと[LastChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#LastChild)プロパティを使用することです。[CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/)の子ノードにアクセスする最も効率的な方法は、[FirstChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#FirstChild)プロパティと[LastChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#LastChild)プロパティを使用することです。 子ノードがない場合、これらのプロパティは*null*を返します。
 
-**CompositeNode** また提供します [ChildNodes](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChildNodes) コレクションは、子ノードへのアクセスをインデックス化または列挙することを可能にします。 ザ・オブ・ザ・ **ChildNodes** プロパティはノードのライブコレクションです。つまり、ノードが削除または追加されるなど、ドキュメントが変更されるたびに、 **ChildNodes** 収集は自動的に更新されます。
+**CompositeNode**
 
-ノードが子を持たない場合、 **ChildNodes** プロパティは空のコレクションを返します。 かどうか確認できます **CompositeNode** どの子ノードも、 [HasChildNodes](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#hasChildNodes) プロパティ.
+ノードに子がない場合、**ChildNodes**プロパティは空のコレクションを返します。 [HasChildNodes](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#hasChildNodes)プロパティを使用して、**CompositeNode**に子ノードが含まれているかどうかを確認できます。
 
-次のコードの例では、即時の子ノードを列挙する方法を示します。 `CompositeNode` 提供の列挙器を使用して `ChildNodes` コレクション:
+次のコード例は、`ChildNodes`コレクションによって提供される列挙子を使用して、`CompositeNode`の直接の子ノードを列挙する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-ChildNodes-enumerateChildrenOfACompositeNodeUsingEnumeratorProvidedByChildNodesCollection.java" >}}
 
-次のコードの例では、即時の子ノードを列挙する方法を示します。 `CompositeNode` インデックスアクセスを使用する:
+次のコード例は、インデックス付きアクセスを使用して`CompositeNode`の直接の子ノードを列挙する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-ChildNodes-enumerateChildrenOfACompositeNodeUsingIndexedAccess.java" >}}
 
 #### 兄弟ノード
 
-特定のノードをすぐに優先またはフォローするノードをすぐに取得できます。 [PreviousSibling](https://reference.aspose.com/words/java/com.aspose.words/node/#getPreviousSibling) そして、 [NextSibling](https://reference.aspose.com/words/java/com.aspose.words/node/#getNextSibling) それぞれプロパティ。 ノードが親の最後の子である場合、 **NextSibling** プロパティは *null*お問い合わせ 逆に、ノードがその親の最初の子である場合、 **PreviousSibling** プロパティは *null*お問い合わせ
+それぞれ[PreviousSibling](https://reference.aspose.com/words/java/com.aspose.words/node/#getPreviousSibling)プロパティと[NextSibling](https://reference.aspose.com/words/java/com.aspose.words/node/#getNextSibling)プロパティを使用して、特定のノードの直前または後続のノードを取得できます。 ノードがその親の最後の子である場合、**NextSibling**プロパティは*null*です。 逆に、ノードがその親の最初の子である場合、**PreviousSibling**プロパティは*null*です。
 
-次のコードの例では、コンポジットノードの直接および間接的な子ノードを効率的に訪問する方法を示します。
+次のコード例は、複合ノードのすべての直接および間接の子ノードを効率的に訪問する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-SiblingNodes-.java" >}}
 
-### 子どもと両親のノードへのアクセス
+### 子ノードと親ノードへの型指定されたアクセス
 
-これまでのところ、ベースタイプの1つを返すプロパティについて議論しました。 **Node** または **CompositeNode**お問い合わせ しかし、例えば、特定のノードクラスに値を投げる必要がある場合があります。 **Run** または **Paragraph**お問い合わせ つまり、キャスティングから仕事をするときは、完全にキャスティングから離れることはできません。 Aspose.Words DOM, コンポジットです。
+これまでは、基本型の1つである**Node**または**CompositeNode**を返すプロパティについて説明しました。 ただし、**Run**や**Paragraph**などの特定のノードクラスに値をキャストする必要がある場合があります。 つまり、合成であるAspose.WordsDOMで作業するときは、キャストから完全に逃げることはできません。
 
-鋳造の必要性を減らすため、最も Aspose.Words クラスは、強力なタイプのアクセスを提供するプロパティとコレクションを提供します。 型アクセスの3つの基本パターンがあります。
+キャストの必要性を減らすために、ほとんどのAspose.Wordsクラスは厳密に型指定されたアクセスを提供するプロパティとコレクションを提供します。 型指定されたアクセスには3つの基本的なパターンがあります:
 
-- 親ノードがtypedを公開 **FirstXXX** そして、 **LastXXX** プロパティ。 例えば、 **Document** お問い合わせ [FirstSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getFirstSection) そして、 [LastSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getLastSection) プロパティ。 同様に、 **Table** のような特性があります [FirstRow](https://reference.aspose.com/words/java/com.aspose.words/table/#getFirstRow), [LastRow](https://reference.aspose.com/words/java/com.aspose.words/table/#getLastRow), その他。
-- 親ノードは、以下のような子ノードの種別コレクションを公開します。 [Document.Sections](https://reference.aspose.com/words/java/com.aspose.words/document/#getSections), [Body.Paragraphs](https://reference.aspose.com/words/java/com.aspose.words/story/#getParagraphs), その他。
-- 子ノードは、その親にタイプされたアクセスを提供します。 [Run.ParentParagraph](https://reference.aspose.com/words/java/com.aspose.words/inline/#getParentParagraph), [Paragraph.ParentSection](https://reference.aspose.com/words/java/com.aspose.words/paragraph/#getParentSection), その他。
+- 親ノードは、型指定された**FirstXXX**および**LastXXX**プロパティを公開します。 たとえば、**Document**には[FirstSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getFirstSection)と[LastSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getLastSection)のプロパティがあります。 同様に、**Table**には[FirstRow](https://reference.aspose.com/words/java/com.aspose.words/table/#getFirstRow)、[LastRow](https://reference.aspose.com/words/java/com.aspose.words/table/#getLastRow)などのプロパティがあります。
+- 親ノードは、[Document.Sections](https://reference.aspose.com/words/java/com.aspose.words/document/#getSections)、[Body.Paragraphs](https://reference.aspose.com/words/java/com.aspose.words/story/#getParagraphs)などの型指定された子ノードのコレクションを公開します。
+- 子ノードは、[Run.ParentParagraph](https://reference.aspose.com/words/java/com.aspose.words/inline/#getParentParagraph)、[Paragraph.ParentSection](https://reference.aspose.com/words/java/com.aspose.words/paragraph/#getParentSection)などの親への型指定されたアクセスを提供します。
 
-タイプされたプロパティは、単に便利なショートカットで、時々から継承された一般的なプロパティよりも簡単にアクセスできます。 [Node.ParentNode](https://reference.aspose.com/words/java/com.aspose.words/node/#getParentNode) そして、 [CompositeNode.FirstChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getFirstChild)お問い合わせ
+型指定されたプロパティは、[Node.ParentNode](https://reference.aspose.com/words/java/com.aspose.words/node/#getParentNode)と[CompositeNode.FirstChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getFirstChild)から継承された汎用プロパティよりも簡単にアクセスできる便利なショートカットにすぎません。
 
-次のコードの例では、typed プロパティを使用してドキュメントツリーのノードにアクセスする方法を示します。
+次のコード例は、型指定されたプロパティを使用してドキュメントツリーのノードにアクセスする方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-TypedAccessToChildrenAndParent-.java" >}}

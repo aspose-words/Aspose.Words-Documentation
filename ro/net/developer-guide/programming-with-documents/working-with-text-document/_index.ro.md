@@ -1,5 +1,5 @@
 ---
-title: Lucrul cu `Text Document` în C#
+title: Lucrul cu Text Document în C#
 second_title: Aspose.Words pentru .NET
 articleTitle: Lucrul cu documentul text
 linktitle: Lucrul cu documentul text

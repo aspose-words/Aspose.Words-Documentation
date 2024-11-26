@@ -1,8 +1,8 @@
 ---
-title: Utilisez `DocumentBuilder` pour insérer des éléments de Document
+title: Utilisez DocumentBuilder pour insérer des éléments de Document
 second_title: Aspose.Words pour C++
-articleTitle: Utilisez `DocumentBuilder` pour insérer des éléments de Document
-linktitle: Utilisez `DocumentBuilder` pour insérer des éléments de Document
+articleTitle: Utilisez DocumentBuilder pour insérer des éléments de Document
+linktitle: Utilisez DocumentBuilder pour insérer des éléments de Document
 type: docs
 description: "Insérez des éléments de document à l'aide du générateur de documents en C++."
 weight: 80

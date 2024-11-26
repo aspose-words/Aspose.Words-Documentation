@@ -1,115 +1,115 @@
----
-title: Trabalhando com o controle de conteúdo SDT em Java
+﻿---
+title: Trabalhando com controle de Conteúdo SDT em Java
 second_title: Aspose.Words para Java
-articleTitle: Trabalhando com o controle de conteúdo SDT
-linktitle: Trabalhando com o controle de conteúdo SDT
+articleTitle: Trabalhando com controle de Conteúdo SDT
+linktitle: Trabalhando com controle de Conteúdo SDT
 type: docs
-description: "Gerenciamento avançado de conteúdo de documentos, como criar e manipular controles de conteúdo (Texto de documento) usando Java."
+description: "Gerenciamento avançado de conteúdo de documentos, como criar e manipular controles de conteúdo (Tags de documentos estruturados) usando Java."
 weight: 390
 url: /pt/java/working-with-content-control-sdt/
 timestamp: 2024-01-31-14-23-37
 ---
 
-Em Microsoft Word, você pode criar um formulário iniciando com um modelo e adicionando controles de conteúdo, incluindo caixas de seleção, caixas de texto, data pickers e listas suspensas. Em Aspose.Words, um documento estruturado Tag ou controle de conteúdo de qualquer documento carregado em Aspose.Words é importado como um nó StructuredDocumentTag. As tags de documentos estruturadas (SDT ou controle de conteúdo) permitem incorporar semântica definida pelo cliente, bem como seu comportamento e aparência em um documento.
+Em Microsoft Word, você pode criar um formulário começando com um modelo e adicionando controles de conteúdo, incluindo checkboxes, caixas de texto, selecionadores de data e listas suspensas. Em Aspose.Words, uma Tag de documento estruturado ou controle de conteúdo de qualquer documento carregado em Aspose.Words é importado como um nó StructuredDocumentTag. As etiquetas de documentos estruturados (SDT ou controlo de conteúdos) permitem incorporar a semântica definida pelo cliente, bem como o seu comportamento e aparência num documento.
 
-Documento estruturado Tag pode ocorrer em um documento nos seguintes lugares:
+StructuredDocumentTag pode ocorrer num documento nos seguintes locais:
 
-- Nível do bloco - Entre parágrafos e tabelas, como uma criança de um corpo, HeaderFooter, Comentário, Nota de rodapé ou um nó de forma.
-- Nível de linha - Entre linhas em uma tabela, como uma criança de um nó de tabela.
-- Nível celular - Entre células em uma linha de tabela, como uma criança de um nó de linha.
-- Nível inline - Entre conteúdo inline dentro, como uma criança de um Parágrafo.
-- Aninhado dentro de outra estruturadaDocumentTag.
+- Nível de bloco - entre parágrafos e tabelas, como filho de um corpo, HeaderFooter, comentário, nota de rodapé ou um nó de forma.
+- Nível de linha-entre linhas em uma tabela, como filho de um nó de tabela.
+- Cell-level-entre células em uma linha de tabela, como filho de um nó de linha.
+- Inline-level-entre o conteúdo inline dentro, como filho de um parágrafo.
+- Aninhado dentro de outro StructuredDocumentTag.
 
-## Inserindo controles de conteúdo em um documento
+## Inserir controlos de conteúdo num documento
 
 Nesta versão de Aspose.Words, os seguintes tipos de SDT ou controle de conteúdo podem ser criados:
 
 - Checkbox
 - DropDownList
 - ComboBox
-- Date
+- Data
 - BuildingBlockGallery
-- Group
+- Grupo
 - `Picture`
 - RichText
 - PlainText
 
-O exemplo a seguir mostra como criar o controle de conteúdo da caixa de seleção do tipo:
+O exemplo de código a seguir mostra como criar o controle de conteúdo do tipo checkbox:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-CheckBoxTypeContentControl-CheckBoxTypeContentControl.java" >}}
 
-O exemplo a seguir mostra como criar o controle de conteúdo da caixa de texto rica do tipo:
+O exemplo de código a seguir mostra como criar Controle de conteúdo do tipo rich text box:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-RichTextBoxContentControl-RichTextBoxContentControl.java" >}}
 
-O exemplo a seguir mostra como criar o controle de conteúdo da caixa de combinação tipo:
+O exemplo de código a seguir mostra como criar o controle de conteúdo do tipo caixa de combinação:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ComboBoxContentControl-ComboBoxContentControl.java" >}}
 
-## Como Atualizar Controles de Conteúdo
+## Como atualizar os controlos de conteúdo
 
-Esta seção explica como atualizar os valores do SDT ou controle de conteúdo programaticamente.
+Esta seção explica como atualizar os valores de SDT ou controle de conteúdo programaticamente.
 
-O exemplo de código a seguir mostra como definir o estado atual da caixa de seleção:
+O exemplo de código a seguir mostra como definir o estado atual do checkbox:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SetCurrentStateOfCheckBox-SetCurrentStateOfCheckBox.java" >}}
 
-O exemplo de código a seguir mostra como modificar controles de conteúdo de tipo caixa de texto simples, lista suspensa e imagem:
+O exemplo de código a seguir mostra como modificar os controles de conteúdo do tipo caixa de texto simples, lista suspensa e imagem:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ModifyContentControls-ModifyContentControls.java" >}}
 
 {{% alert color="primary" %}}
 
-Você pode baixar o arquivo de amostra desses exemplos de [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Structured%20document%20tags.docx).
+Pode transferir o ficheiro de exemplo destes exemplos a partir de [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Structured%20document%20tags.docx).
 
 {{% /alert %}}
 
-## Controle de conteúdo de vinculação para peças XML personalizadas
+## Vinculando o Controle de conteúdo a partes personalizadas XML
 
-Você pode vincular controles de conteúdo com dados XML (* parte XML personalizada*) em documentos do Word
+Você pode vincular controles de conteúdo com dados XML (*custom XML part*) em documentos do Word.
 
-O exemplo de código a seguir mostra como vincular o controle de conteúdo a peças XML personalizadas:
+O exemplo de código a seguir mostra como vincular o controle de conteúdo a partes personalizadas XML:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-BindingContentControlwithXML-BindingContentControlwithXML.java" >}}
 
-## Limpar conteúdo de um controle de conteúdo
+## Limpar conteúdo de um controlo de conteúdo
 
-Você pode limpar o conteúdo de um controle de conteúdo com a exibição de um placeholder. **Documento estruturadoTag.clear()** método limpa o conteúdo desta tag de documento estruturado e exibe um placeholder se for definido. No entanto, Não é possível limpar o conteúdo de um controle de conteúdo se tiver revisões. Se um controle de conteúdo não tiver placeholder, cinco espaços são inseridos como no MS Word (exceto seções repetidas, itens de seção repetindo, grupos, caixas de seleção, citações). Se um controle de conteúdo for mapeado para XML personalizado, o nó XML referenciado é limpo.
+Você pode limpar o conteúdo de um controle de conteúdo exibindo um espaço reservado. **StructuredDocumentTag.clear()** método limpa o conteúdo desta etiqueta de documento estruturado e exibe um espaço reservado se estiver definido. No entanto, não é possível limpar o conteúdo de um controlo de conteúdo se este tiver revisões. Se um controlo de conteúdo não tiver espaço reservado, são inseridos cinco espaços como em MS Word (excepto secções repetidas, itens de secção repetidos, Grupos, Caixas de verificação, citações). Se um controle de conteúdo for mapeado para custom XML, o nó XML referenciado será limpo.
 
 O exemplo de código a seguir mostra como limpar o conteúdo do controle de conteúdo:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ClearContentsControl-ClearContentsControl.java" >}}
 
-## Alterar o fundo de controle de conteúdo e cores de fronteira
+## Alterar cores de fundo e borda do controle de conteúdo
 
-O `StructuredDocumentTag.Color` propriedade permite que você obtenha ou defina a cor do controle de conteúdo. A cor afeta o controle de conteúdo em duas situações:
+A propriedade `StructuredDocumentTag.Color` permite obter ou definir a cor do controlo de conteúdo. A cor afeta o controle de conteúdo em duas situações:
 
-1. MS Word destaca o fundo do controle de conteúdo quando o mouse se move sobre o controle de conteúdo. Isso ajuda a identificar o controle de conteúdo. A cor do destaque é um pouco "mais suave" do que a *Color*. Por exemplo, o MS Word destaca o fundo com a cor rosa, quando *Color* É o Red.
-2. Quando você interage (edição, escolha etc) com o controle de conteúdo, a borda do controle de conteúdo é colorida com o *Color*.
+1. MS o Word realça o fundo do controlo de conteúdo quando o rato se move sobre o controlo de conteúdo. Isso ajuda a identificar o controle de conteúdo. A cor do realce é um pouco" mais suave " do que o *Color*. Por exemplo, MS Word realça o fundo com a cor Rosa, quando *Color* é vermelho.
+2. Quando você interage (editando, escolhendo etc.) com o controle de conteúdo, a borda do controle de conteúdo é colorida com o *Color*.
 
 O exemplo de código a seguir mostra como alterar a cor do controle de conteúdo:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-StructuredDocumentTag-WorkingWithStructuredDocumentTag-SetContentControlColor.java" >}}
 
-## Como definir estilo para formatar texto digitado no controle de conteúdo
+## Como definir o estilo para formatar o texto digitado no controle de conteúdo
 
-Se você quiser definir o estilo de controle de conteúdo, você pode usar `StructuredDocumentTag.Style` ou `StructuredDocumentTag.StyleName` propriedades. Quando você digita o texto no controle de conteúdo no documento de saída, o texto digitado terá o estilo "Quote".
+Se pretender definir o estilo de controlo de conteúdo, pode utilizar as Propriedades `StructuredDocumentTag.Style` ou `StructuredDocumentTag.StyleName`. Quando você digita o texto no controle de conteúdo no documento de saída, o texto digitado terá o estilo "citação".
 
 {{% alert color="primary" %}}
 
-Note que apenas estilos Linked e Character podem ser aplicados ao controle de conteúdo. Um InvalidOperationException ("Não é possível aplicar este estilo ao SDT") é jogado quando um estilo que existe, mas não é Linked ou estilo de personagem está sendo aplicado.
+Observe que apenas estilos de Link e caracteres podem ser aplicados ao controle de conteúdo. Um InvalidOperationException ("não é possível aplicar este estilo ao SDT") é lançado quando um estilo que existe, mas não está vinculado ou o estilo de caractere está sendo aplicado.
 
 {{% /alert %}}
 
-O exemplo de código a seguir mostra como definir o estilo de controle de conteúdo:
+O exemplo de código a seguir mostra como definir o estilo do controle de conteúdo:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-StructuredDocumentTag-WorkingWithStructuredDocumentTag-setContentControlStyle.java" >}}
 
-## Trabalhando com controle de conteúdo de seção de repetição
+## Trabalhando com controle de conteúdo de seção repetida
 
-O controle de conteúdo da seção de repetição permite repetir o conteúdo contido dentro dele. Usando Aspose.Words, os nós de etiqueta de documentos estruturados da seção de repetição e tipos de itens de seção de repetição podem ser criados e com esta finalidade, [Tipo de enumeração SdtType](https://reference.aspose.com/words/java/com.aspose.words/sdttype/) fornece membro REPEATING_SECTION_ITEM.
+O controlo de conteúdo da secção de repetição permite repetir o conteúdo nele contido. Usando Aspose.Words, os nós de tag de documento estruturado da seção de repetição e os tipos de item de seção de repetição podem ser criados e, para esse fim, [SdtType Tipo de enumeração](https://reference.aspose.com/words/java/com.aspose.words/sdttype/) fornece REPEATING_SECTION_ITEM membro.
 
-O exemplo a seguir mostra como vincular um controle de conteúdo de seção repetindo a uma tabela:
+O exemplo de código a seguir mostra como vincular um controle de conteúdo de seção repetida a uma tabela:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-StructuredDocumentTag-WorkingWithStructuredDocumentTag-CreatingTableRepeatingSectionMappedToCustomXmlPart.java" >}}
 

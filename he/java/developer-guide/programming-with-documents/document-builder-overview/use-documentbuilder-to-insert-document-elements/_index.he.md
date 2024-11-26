@@ -1,8 +1,8 @@
 ---
-title: "שימוש בשימוש `DocumentBuilder` תגית: Document Elements"
+title: "שימוש בשימוש DocumentBuilder תגית: Document Elements"
 second_title: Aspose.Words עבור Java
-articleTitle: "שימוש בשימוש `DocumentBuilder` תגית: Document Elements"
-linktitle: "שימוש בשימוש `DocumentBuilder` תגית: Document Elements"
+articleTitle: "שימוש בשימוש DocumentBuilder תגית: Document Elements"
+linktitle: "שימוש בשימוש DocumentBuilder תגית: Document Elements"
 type: docs
 description: "הכנס רכיבי מסמך באמצעות בונה המסמך ב Java."
 weight: 10

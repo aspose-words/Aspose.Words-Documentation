@@ -1,89 +1,89 @@
----
-title: تغییرات در یک سند Java
+﻿---
+title: پیگیری تغییرات در یک سند در Java
 second_title: Aspose.Words برای Java
-articleTitle: تغییرات در یک سند
-linktitle: تغییرات در یک سند
-description: "پیگیری تغییرات در محتوا و قالب بندی ساخته شده توسط شما یا دیگران. دسترسی به تجدید نظر فردی در یک سند و اعمال خواص مختلف برای آنها با استفاده از Java..."
+articleTitle: پیگیری تغییرات در یک سند
+linktitle: پیگیری تغییرات در یک سند
+description: "تغییرات محتوا و قالب بندی شما یا دیگران را ردیابی کنید. دسترسی به بازنگری های فردی در یک سند و اعمال ویژگی های مختلف به آنها با استفاده از Java."
 type: docs
 weight: 270
 url: /fa/java/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-عملکرد تغییرات مسیر، که به عنوان بررسی نیز شناخته می شود، به شما اجازه می دهد تا تغییرات در محتوا و قالب بندی ایجاد شده توسط شما یا سایر کاربران را پیگیری کنید. این تغییر مسیر با Aspose.Words پشتیبانی از تغییرات Microsoft Word... با این قابلیت، شما می توانید به بازنگری های فردی در سند خود دسترسی داشته باشید و خواص مختلفی را برای آنها اعمال کنید.
+قابلیت تغییرات مسیر، که به عنوان بررسی نیز شناخته می شود، به شما امکان می دهد تغییرات محتوا و قالب بندی انجام شده توسط خود یا سایر کاربران را ردیابی کنید. این ویژگی تغییر مسیر با Aspose.Words از تغییرات مسیر در Microsoft Word پشتیبانی می کند. با استفاده از این قابلیت، می توانید به بازنگری های فردی در سند خود دسترسی پیدا کنید و ویژگی های مختلفی را برای آنها اعمال کنید.
 
-هنگامی که شما ویژگی تغییر مسیر را فعال می کنید، تمام عناصر وارد شده، حذف شده و اصلاح شده سند به صورت بصری با اطلاعات در مورد چه کسی، چه زمانی و چه چیزی تغییر کرد برجسته خواهد شد. اشیایی که اطلاعات مربوط به آنچه تغییر کرده اند را حمل می کنند، "تغییرات ردیابی" نامیده می شوند. به عنوان مثال فرض کنید که می خواهید یک سند را بررسی کنید و تغییرات مهمی ایجاد کنید – این ممکن است به این معنی باشد که شما نیاز به بازبینی دارید. همچنین ممکن است لازم باشد نظرات را برای بحث در مورد برخی از تغییرات وارد کنید. این جایی است که تغییرات ردیابی در اسناد وارد می شود.
+هنگامی که ویژگی track changes را فعال می کنید، تمام عناصر وارد شده، حذف شده و اصلاح شده سند با اطلاعات مربوط به چه کسی، چه زمانی و چه چیزی تغییر کرده است، به صورت بصری برجسته می شوند. اشیایی که اطلاعات مربوط به آنچه تغییر کرده است را حمل می کنند "تغییرات ردیابی"نامیده می شوند. به عنوان مثال، فرض کنید که می خواهید یک سند را مرور کنید و تغییرات مهمی ایجاد کنید – این ممکن است به این معنی باشد که شما باید تجدید نظر کنید. همچنین، ممکن است لازم باشد که برای بحث در مورد برخی از تغییرات، نظرات را وارد کنید. اینجاست که تغییرات ردیابی در اسناد وارد می شود.
 
-این مقاله توضیح می دهد که چگونه برای مدیریت و پیگیری تغییرات ایجاد شده توسط بسیاری از بررسی کنندگان در همان سند، و همچنین خواص برای ردیابی تغییرات.
+این مقاله توضیح می دهد که چگونه تغییرات ایجاد شده توسط بسیاری از بازبینی کنندگان در یک سند و همچنین ویژگی های ردیابی تغییرات را مدیریت و ردیابی کنید.
 
 {{% alert color="primary" %}}
 
-توجه داشته باشید که ویژگی نظر در Aspose.Words, و همچنین در Microsoft Word, می تواند با تغییرات ردیابی همراه باشد. با این حال، به یاد داشته باشید که نظرات کاملا مستقل از پیگیری تغییرات است.
+توجه داشته باشید که ویژگی نظر در Aspose.Words و همچنین در Microsoft Word می تواند با تغییرات ردیابی همراه باشد. با این حال، به یاد داشته باشید که نظرات کاملا مستقل از تغییرات ردیابی هستند.
 
 {{% /alert %}}
 
-## Revision چیست
+## بازنگری چیست ؟
 
-قبل از غواصی در تجدید نظر، بیایید معنای تجدید نظر را توضیح دهیم. A A A A A [revision](https://reference.aspose.com/words/java/com.aspose.words/revision/) یک تغییر است که در یک گره از یک سند رخ می دهد در حالی که یک گروه تجدید نظر نشان داده شده توسط [RevisionGroup](https://reference.aspose.com/words/java/com.aspose.words/revisiongroup/) کلاس، گروهی از بازنگری های متوالی است که در بسیاری از گره های یک سند رخ می دهد. Revision ابزاری برای ردیابی تغییرات است.
+قبل از اینکه به بازنگری ها بپردازیم، بیایید معنای بازنگری ها را توضیح دهیم. A [revision](https://reference.aspose.com/words/java/com.aspose.words/revision/) تغییری است که در یک گره از یک سند رخ می دهد در حالی که یک گروه بازبینی، که توسط کلاس [RevisionGroup](https://reference.aspose.com/words/java/com.aspose.words/revisiongroup/) نشان داده می شود، گروهی از بازبینی های متوالی است که در بسیاری از گره های یک سند رخ می دهد. بازنگری ابزاری برای ردیابی تغییرات است.
 
-Revisions در ویژگی تغییرات ردیابی و در ویژگی اسناد مقایسه استفاده می شود، جایی که اصلاحات در نتیجه مقایسه ظاهر می شوند. بنابراین، تجدید نظر در ویژگی تغییرات ردیابی نشان می دهد که توسط چه کسی و چه چیزی تغییر کرده است.
+اصلاحات در ویژگی تغییرات ردیابی و در ویژگی مقایسه اسناد استفاده می شود، جایی که اصلاحات در نتیجه مقایسه ظاهر می شود. بنابراین، اصلاحات در تغییرات ردیابی نشان می دهد که چه کسی و چه چیزی تغییر کرده است.
 
 {{% alert color="primary" %}}
 
-توجه داشته باشید که Microsoft Word به شما اجازه نمی دهد که اصلاحات فردی را مشاهده کنید، تنها به شما اجازه می دهد تا اصلاحات متوالی را به عنوان یک نهاد واحد مشاهده کنید. اما اما Aspose.Words این محدودیت را با **RevisionGroup** کلاس
+توجه داشته باشید که Microsoft Word به شما اجازه نمی دهد تا اصلاحات فردی را مشاهده کنید، فقط به شما اجازه می دهد تا اصلاحات متوالی را به عنوان یک موجودیت واحد مشاهده کنید. اما Aspose.Words این محدودیت را با کلاس **RevisionGroup** حل می کند.
 
 {{% /alert %}}
 
-Aspose.Words از انواع مختلف تجدید نظر و همچنین در Microsoft Word, مانند بازی، Deletion، Format تغییر، سبک تغییر و حرکت همه انواع تجدید نظر با [RevisionType](https://reference.aspose.com/words/java/com.aspose.words/revisiontype/) تکرار
+Aspose.Words از انواع مختلف بازبینی و همچنین در Microsoft Word مانند قرار دادن، حذف، FormatChange، StyleDefinitionChange و حرکت پشتیبانی می کند. تمام انواع بازنگری با شمارش [RevisionType](https://reference.aspose.com/words/java/com.aspose.words/revisiontype/) نشان داده شده است.
 
 {{% alert color="primary" %}}
 
-توجه داشته باشید که اصلاحات نتیجه ای مشابه با Microsoft Word اما اما اما Aspose.Words قالب بندی را در هنگام ردیابی تغییرات تشخیص نمی دهد.
+توجه داشته باشید که بازنگری ها نتیجه ای مشابه Microsoft Word دارند اما Aspose.Words در هنگام ردیابی تغییرات قالب بندی را تشخیص نمی دهد.
 
 {{% /alert %}}
 
 ## شروع و توقف تغییرات ردیابی
 
-ویرایش یک سند معمولا به عنوان یک تجدید نظر شمارش نمی شود تا زمانی که شروع به ردیابی آن کنید. Aspose.Words به شما اجازه می دهد به طور خودکار تمام تغییرات در سند خود را با مراحل ساده ردیابی کنید. شما به راحتی می توانید فرآیند ردیابی تغییرات را با استفاده از [StartTrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#startTrackRevisions-java.lang.String) روش اگر شما نیاز به متوقف کردن روند پیگیری تغییرات به طوری که هر گونه ویرایش های آینده در نظر گرفته نمی شود، شما نیاز به استفاده از. [StopTrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#stopTrackRevisions) روش
+ویرایش یک سند معمولا به عنوان یک بازبینی حساب نمی شود تا زمانی که شما شروع به ردیابی آن کنید. Aspose.Words به شما اجازه می دهد تا به طور خودکار تمام تغییرات را در سند خود با مراحل ساده ردیابی کنید. با استفاده از روش [StartTrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#startTrackRevisions-java.lang.String) می توانید به راحتی روند ردیابی تغییرات را شروع کنید. اگر شما نیاز به متوقف کردن روند ردیابی تغییرات به طوری که هر گونه ویرایش آینده تجدید نظر در نظر گرفته نمی شود، شما نیاز به استفاده از روش [StopTrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#stopTrackRevisions).
 
 {{% alert color="primary" %}}
 
-توجه داشته باشید که `StartTrackingRevisions` روش وضعیت تغییر نمی کند [TrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#getTrackRevisions) اموال و ارزش خود را برای هدف ردیابی تجدید نظر استفاده نمی کند. علاوه بر این، اگر یک گره از یک مکان به مکان دیگر در داخل سند ردیابی شده منتقل شود، پس از آن اصلاحات ایجاد خواهد شد، از جمله حرکت و حرکت به محدوده.
+توجه داشته باشید که روش `StartTrackingRevisions` وضعیت ویژگی [TrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#getTrackRevisions) را تغییر نمی دهد و از ارزش آن برای هدف ردیابی تجدید نظر استفاده نمی کند. علاوه بر این، اگر یک گره از یک مکان به مکان دیگر در داخل سند ردیابی شده منتقل شود، بازنگری های حرکت ایجاد می شود، از جمله حرکت از و حرکت به محدوده.
 
 {{% /alert %}}
 
-در پایان فرآیند پیگیری تغییرات در سند خود، شما قادر خواهید بود که حتی تمام اصلاحات را بپذیرید یا آنها را رد کنید تا سند را به فرم اصلی خود بازگردانید. این را می توان با استفاده از [AcceptAllRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#acceptAllRevisions) یا [RejectAll](https://reference.aspose.com/words/java/com.aspose.words/revisioncollection/#rejectAll) روش علاوه بر این، شما می توانید هر تجدید نظر را به طور جداگانه با استفاده از استفاده از [Accept](https://reference.aspose.com/words/java/com.aspose.words/revision/#accept) یا [Reject](https://reference.aspose.com/words/java/com.aspose.words/revision/#reject) روش
+در پایان روند تغییرات ردیابی در سند شما، شما حتی می توانید تمام بازنگری ها را بپذیرید یا آنها را رد کنید تا سند را به شکل اصلی خود برگردانید. این کار را می توان با استفاده از روش [AcceptAllRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#acceptAllRevisions) یا [RejectAll](https://reference.aspose.com/words/java/com.aspose.words/revisioncollection/#rejectAll) انجام داد. علاوه بر این، شما می توانید هر بازبینی را به طور جداگانه با استفاده از روش [Accept](https://reference.aspose.com/words/java/com.aspose.words/revision/#accept) یا [Reject](https://reference.aspose.com/words/java/com.aspose.words/revision/#reject) بپذیرید یا رد کنید.
 
-تمام تغییرات برای یک تکرار از لحظه ای که فرآیند را به لحظه ای که آن را متوقف می کنید، ردیابی خواهد شد. ارتباط بین پویایی های مختلف به عنوان سناریوی زیر نشان داده شده است: شما فرآیند پیگیری را تکمیل می کنید، سپس برخی تغییرات را ایجاد می کنید و دوباره شروع به ردیابی تغییرات می کنید. با این سناریو، تمام تغییراتی که قبول نکرده اید یا رد می کنید دوباره نمایش داده می شود.
+تمام تغییرات برای یک تکرار از لحظه ای که فرآیند را شروع می کنید تا لحظه ای که آن را متوقف می کنید، ردیابی می شوند. ارتباط بین تکرار های مختلف به صورت سناریوی زیر نشان داده می شود: شما فرآیند ردیابی را تکمیل می کنید، سپس برخی تغییرات را انجام می دهید، و دوباره شروع به ردیابی تغییرات می کنید. با این سناریو، تمام تغییراتی که قبول یا رد نکردید دوباره نمایش داده می شوند.
 
 {{% alert color="primary" %}}
 
-توجه داشته باشید که `AcceptAllRevisions` روش مشابه با "همه تغییرات" در Microsoft Word...
+توجه داشته باشید که روش `AcceptAllRevisions` شبیه به "قبول همه تغییرات" در Microsoft Word است.
 
 {{% /alert %}}
 
 مثال کد زیر نشان می دهد که چگونه با تغییرات ردیابی کار کنیم:
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-TrackChanges-WorkWithTrackChanges.java" >}}
 
-مثال کد زیر نشان می دهد که چگونه اصلاحات زمانی ایجاد می شود که یک گره در یک سند ردیابی شده حرکت می کند:
+مثال کد زیر نشان می دهد که چگونه بازنگری ها هنگام انتقال یک گره در یک سند ردیابی ایجاد می شوند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-TrackChanges-GenerateRevisionsWhenMovingNode.java" >}}
 
-## مدیریت و ذخیره تغییرات به عنوان Revisions
+## مدیریت و ذخیره تغییرات به عنوان بازنگری
 
-با ویژگی های ردیابی قبلی، می توانید درک کنید که چه تغییراتی در سند شما ایجاد شده و چه کسی این تغییرات را ایجاد کرده است. در حالی که با [TrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#getTrackRevisions) ویژگی، شما هر گونه تغییر در سند خود را به عنوان تجدید نظر ذخیره کنید.
+با ویژگی قبلی تغییرات ردیابی، می توانید بفهمید که چه تغییراتی در سند شما ایجاد شده و چه کسی این تغییرات را انجام داده است. در حالی که با ویژگی [TrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#getTrackRevisions)، شما هر گونه تغییر در سند خود را مجبور می کنید که به عنوان بازبینی ذخیره شود.
 
-Aspose.Words به شما اجازه می دهد تا بررسی کنید که آیا یک سند دارای بازبینی است یا نه با استفاده از [HasRevision](https://reference.aspose.com/words/java/com.aspose.words/document/#hasRevisions) مالکیت اگر لازم نیست به طور خودکار تغییرات موجود در سند خود را از طریق روش های StartTrackRevisions و StopTrackRevisions پیگیری کنید، می توانید از آن استفاده کنید. `TrackRevisions` اموال برای بررسی اینکه آیا تغییرات در هنگام ویرایش یک سند در Microsoft Word ذخیره شده به عنوان تجدید نظر
+Aspose.Words به شما اجازه می دهد تا با استفاده از ویژگی [HasRevision](https://reference.aspose.com/words/java/com.aspose.words/document/#hasRevisions) بررسی کنید که آیا یک سند دارای تجدید نظر است یا نه. اگر شما نیازی به ردیابی خودکار تغییرات در سند خود از طریق روش های StartTrackRevisions و StopTrackRevisions ندارید، می توانید از ویژگی `TrackRevisions` برای بررسی اینکه آیا تغییرات در هنگام ویرایش یک سند در Microsoft Word ردیابی شده و به عنوان بازبینی ذخیره شده است، استفاده کنید.
 
-The The The The The The `TrackRevisions` ویژگی باعث می شود اصلاحات به جای واقعی DOM تغییرات اما خود اصلاحات جدا هستند. برای مثال، اگر هر پاراگراف را حذف کنید، Aspose.Words آن را به عنوان یک تجدید نظر، آن را به عنوان حذف، به جای حذف آن.
+ویژگی `TrackRevisions` به جای تغییرات واقعی DOM بازبینی می کند. اما خود بازنگری ها جدا هستند. برای مثال، اگر شما هر پاراگراف را حذف کنید، Aspose.Words آن را به عنوان یک بازبینی، علامت گذاری آن به عنوان حذف، به جای حذف آن.
 
-علاوه بر این، Aspose.Words به شما اجازه می دهد تا بررسی کنید که آیا یک شی وارد شده، حذف شده یا تغییر قالب بندی شده با استفاده از [IsDeleteRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isDeleteRevision), [IsFormatRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isFormatRevision), [IsInsertRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isInsertRevision), [IsMoveFromRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isMoveFromRevision), و [IsMoveToRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isMoveToRevision) خواص
+علاوه بر این، Aspose.Words به شما اجازه می دهد تا با استفاده از [IsDeleteRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isDeleteRevision), [IsFormatRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isFormatRevision), [IsInsertRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isInsertRevision), [IsMoveFromRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isMoveFromRevision), و [IsMoveToRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isMoveToRevision) خواص.
 
 {{% alert color="primary" %}}
 
-توجه داشته باشید که هیچ ارتباطی بین خود اصلاحات و خود اصلاحات وجود ندارد. `TrackRevisions` مالکیت علاوه بر این، شما می توانید بدون در نظر گرفتن ویژگی های ردیابی تغییرات، تجدید نظر / قضاوت را بپذیرید.
+توجه داشته باشید که هیچ ارتباطی بین خود اصلاحات و ویژگی `TrackRevisions` وجود ندارد. علاوه بر این، شما می توانید بدون در نظر گرفتن ویژگی تغییرات ردیابی، اصلاحات را بپذیرید/رد کنید.
 
 {{% /alert %}}
 
-مثال کد زیر نشان می دهد که چگونه خواص مختلف را با تجدید نظر اعمال کنید:
+مثال کد زیر نشان می دهد که چگونه ویژگی های مختلف را با بازبینی اعمال کنیم:
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-TrackChanges-ApplyDifferentPropertiesWithRevisions.java" >}}

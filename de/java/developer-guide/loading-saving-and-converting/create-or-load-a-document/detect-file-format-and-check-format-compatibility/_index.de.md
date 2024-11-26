@@ -1,68 +1,68 @@
----
+﻿---
 title: Dateiformat erkennen
 second_title: Aspose.Words für Java
-articleTitle: Erkennen Sie Dateiformat und überprüfen Sie Format Kompatibilität
-linktitle: Erkennen Sie Dateiformat und überprüfen Sie Format Kompatibilität
-description: "Erhalten Sie Informationen über das Dokumentformat, bevor Sie es öffnen, um eine Ausnahme zu vermeiden, wenn Sie nicht sicher sind, was der eigentliche Inhalt der Datei verwendet Java."
+articleTitle: Dateiformat erkennen und Formatkompatibilität prüfen
+linktitle: Dateiformat erkennen und Formatkompatibilität prüfen
+description: "Informieren Sie sich vor dem Öffnen über das Dokumentformat, um eine Ausnahme zu vermeiden, wenn Sie nicht sicher sind, was der tatsächliche Inhalt der Datei mit Java ist."
 type: docs
 weight: 20
 url: /de/java/detect-file-format-and-check-format-compatibility/
 timestamp: 2024-10-21-11-17-44
 ---
 
-Manchmal ist es notwendig, das Format eines Dokuments vor dem Öffnen zu bestimmen, weil die Dateierweiterung nicht garantiert, dass der Inhalt der Datei angemessen ist. Beispielsweise ist bekannt, dass Crystal Reports oft Dokumente im RTF-Format ausgibt, aber ihnen die .doc-Erweiterung gibt.
+Manchmal ist es notwendig, das Format eines Dokuments vor dem Öffnen zu bestimmen, da die Dateierweiterung nicht garantiert, dass der Inhalt der Datei angemessen ist. Beispielsweise ist bekannt, dass Crystal Reports Dokumente häufig im Format RTF ausgibt, ihnen jedoch die .doc-Erweiterung.
 
-Aspose.Words bietet die Möglichkeit, Informationen über den Dateityp zu erhalten, um eine Ausnahme zu vermeiden, wenn Sie nicht sicher sind, was der eigentliche Inhalt der Datei ist.
+Aspose.Words bietet die Möglichkeit, Informationen über den Dateityp abzurufen, um eine Ausnahme zu vermeiden, wenn Sie nicht sicher sind, was der tatsächliche Inhalt der Datei ist.
 
 ## Dateiformat ohne Ausnahme erkennen
 
-Wenn Sie mit mehreren Dokumenten in verschiedenen Dateiformaten zu tun haben, müssen Sie diese Dateien, die von Aspose.Words von denen, die es nicht können. Sie können auch wissen, warum einige der Dokumente nicht bearbeitet werden können.
+Wenn Sie mit mehreren Dokumenten in verschiedenen Dateiformaten arbeiten, müssen Sie möglicherweise die Dateien, die von Aspose.Words verarbeitet werden können, von denen trennen, die nicht verarbeitet werden können. Vielleicht möchten Sie auch wissen, warum einige der Dokumente nicht verarbeitet werden können.
 
-Wenn Sie versuchen, eine Datei in eine [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) Objekt und Aspose.Words das Dateiformat nicht erkennen kann oder das Format nicht unterstützt wird, Aspose.Words wird eine Ausnahme werfen. Sie können diese Ausnahmen fangen und sie analysieren, aber Aspose.Words stellt auch die [DetectFileFormat](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/#detectFileFormat-java.lang.String) eine Methode, die es uns ermöglicht, das Dateiformat schnell zu bestimmen, ohne ein Dokument mit möglichen Ausnahmen zu laden. Diese Methode gibt eine [FileFormatInfo](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/) ein Objekt, das die erfassten Informationen über den Dateityp enthält.
+Wenn Sie versuchen, eine Datei in ein [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) -Objekt zu laden, und Aspose.Words das Dateiformat nicht erkennt oder das Format nicht unterstützt wird, löst Aspose.Words eine Ausnahme aus. Sie können diese Ausnahmen abfangen und analysieren, aber Aspose.Words bietet auch die [DetectFileFormat](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/#detectFileFormat-java.lang.String) -Methode, mit der wir das Dateiformat schnell bestimmen können, ohne ein Dokument mit möglichen Ausnahmen zu laden. Diese Methode gibt ein [FileFormatInfo](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/)-Objekt zurück, das die erkannten Informationen zum Dateityp enthält.
 
 {{% alert color="primary" %}}
 
-Detektieren Format prüft nur das Dateiformat, validiert aber das Dateiformat nicht. Es gibt keine Garantie, dass die Datei erfolgreich geöffnet wird, auch wenn **DetectFileFormat** gibt zurück, dass es eines der unterstützten Formate ist. Das ist wegen **DetectFileFormat** Die Methode liest nur Teildateiformatdaten, die zur Überprüfung des Dateiformats ausreichend sind, aber nicht genug für die vollständige Validierung.
+DetectFileFormat überprüft nur das Dateiformat, validiert es jedoch nicht. Es gibt keine Garantie dafür, dass die Datei erfolgreich geöffnet wird, auch wenn **DetectFileFormat** zurückgibt, dass es sich um eines der unterstützten Formate handelt. Dies liegt daran, dass die **DetectFileFormat** -Methode nur partielle Dateiformatdaten liest, die zum Überprüfen des Dateiformats ausreichen, aber nicht für eine vollständige Validierung ausreichen.
 
 {{% /alert %}}
 
-## Überprüfen Sie Dateien Format Kompatibilität
+## Überprüfen Sie die Kompatibilität des Dateiformats
 
-Wir können die Formatkompatibilität aller Dateien im ausgewählten Ordner überprüfen und nach Format in entsprechende Unterordner sortieren.
+Wir können die Formatkompatibilität aller Dateien im ausgewählten Ordner überprüfen und sie nach Format in entsprechende Unterordner sortieren.
 
-Da wir mit Inhalten in einem Ordner zu tun haben, müssen wir zuerst eine Sammlung aller Dateien in diesem Ordner mit dem **GetFiles** Verfahren der `Directory` Klasse (aus der `System.IO` Namespace).
+Da es sich um Inhalte in einem Ordner handelt, müssen wir zunächst eine Sammlung aller Dateien in diesem Ordner mit der **GetFiles** -Methode der `Directory` -Klasse (aus dem `System.IO` -Namespace) abrufen.
 
-Das folgende Codebeispiel zeigt, wie man eine Liste aller Dateien im Ordner erhält:
+Das folgende Codebeispiel zeigt, wie Sie eine Liste aller Dateien im Ordner abrufen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-CheckFormatCompatibility-GetListOfFilesInFolder.java" >}}
 
-Wenn alle Dateien gesammelt werden, wird der Rest der Arbeit durch die **DetectFileFormat** Methode, die das Dateiformat überprüft.
+Wenn alle Dateien gesammelt sind, wird der Rest der Arbeit mit der **DetectFileFormat** -Methode erledigt, die das Dateiformat überprüft.
 
-Das folgende Codebeispiel zeigt, wie man über die gesammelte Liste von Dateien iteriert, das Format jeder Datei überprüft und jede Datei in den entsprechenden Ordner bewegt:
+Das folgende Codebeispiel zeigt, wie Sie die gesammelte Dateiliste durchlaufen, das Format jeder Datei überprüfen und jede Datei in den entsprechenden Ordner verschieben:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-CheckFormatCompatibility-CheckFormatCompatibility.java" >}}
 
-Die Dateien werden mit Hilfe der `Move` Verfahren der `File` Klasse, von der gleichen `System.IO` Namespace.
+Die Dateien werden mit der `Move` -Methode der `File` -Klasse aus demselben `System.IO` -Namespace in entsprechende Unterordner verschoben.
 
-Im obigen Beispiel werden die folgenden Dateien verwendet. Der Dateiname ist links und seine Beschreibung rechts:
+Die folgenden Dateien werden im obigen Beispiel verwendet. Der Dateiname befindet sich links und die Beschreibung rechts:
 
-| Group von Dateien | Eingangsdokument | Typ |
-|  :-  |  :-  |  :-  |
-| Unterstützte Dateiformate | Testdatei (Doc).doc | Microsoft Word 95/6.0 oder Microsoft Word 97 – 2003 Dokument. |
-|  | Testdatei (Dot).dot | Microsoft Word 95/6.0 oder Microsoft Word 97 – 2003 Vorlage. |
-|  | Testdatei (Docx).docx | Office Open XML Wordprocessing ML-Dokument ohne Makros. |
-|  | Testdatei (Docm).docm | Office Open XML Wordprocessing ML-Dokument mit Makros. |
-|  | Testdatei (Dotx).dotx | Office Open XML Wordprocessing ML Vorlage. |
-|  | Testdatei (Dotm).dotm | Office Open XML Wordprocessing ML Vorlage mit Makros. |
-|  | Testdatei (XML).xml | FlatOPC OOXML Dokument. |
-|  | Testdatei (RTF).rtf | Rich Text Format Dokument. |
-|  | Testdatei (WordML).xml | Microsoft Word 2003 Textverarbeitung ML-Dokument. |
-|  | Testdatei (HTML).html | HTML-Dokument. |
-|  | Testdatei (MHTML).mhtml | MHTML (Webarchiv) Dokument. |
-|  | Testdatei (Odt).odt | OpenDocument Text (OpenOffice Writer). |
-|  | Testdatei (Ott).ott | Dokumentvorlage öffnen. |
-|  | Testdatei (DocPreWord60).doc | Microsoft Word 2.0 Dokument. |
-| Verschlüsselte Dokumente | Testdatei (Enc).doc | Verschlüsselt Microsoft Word 95/6.0 oder Microsoft Word 97 – 2003 Dokument. |
-|  | Testdatei (Enc).docx | Verschlüsseltes Office Open XML Wordprocessing ML-Dokument. |
-| Nicht unterstützte Dateiformate | Testdatei (JPG). Jpg | JPEG-Bilddatei. |
+| Gruppe von Dateien | Eingabedokument | Art |
+| :- | :- | :- |
+| Unterstützte Dateiformate | Test File (Doc).doc | Microsoft Word 95/6.0 oder Microsoft Word 97 – 2003 Dokument. |
+|  | Test File (Dot).dot | Vorlage Microsoft Word 95/6.0 oder Microsoft Word 97 – 2003. |
+|  | Test File (Docx).docx | Office Öffnet XML WordprocessingML Dokument ohne Makros. |
+|  | Test File (Docm).docm | Office Öffnet XML WordprocessingML Dokument mit Makros. |
+|  | Test File (Dotx).dotx | Öffnen Sie die XML WordprocessingML -Vorlage von Office. |
+|  | Test File (Dotm).dotm | Office öffnet XML WordprocessingML Vorlage mit Makros. |
+|  | Test File (XML).xml | FlatOPC OOXML Dokument. |
+|  | Test File (RTF).rtf | Dokument im Rich-Text-Format. |
+|  | Test File (WordML).xml | Microsoft Word Dokument von 2003 WordprocessingML. |
+|  | Test File (HTML).html | HTML Dokument. |
+|  | Test File (MHTML).mhtml | MHTML (Webarchiv) Dokument. |
+|  | Test File (Odt).odt | OpenDocument Text (OpenOffice Verfasser). |
+|  | Test File (Ott).ott | OpenDocument Dokumentvorlage. |
+|  | Test File (DocPreWord60).doc | Microsoft Word 2.0 Dokument. |
+| Verschlüsselte Dokumente | Test File (Enc).doc | Verschlüsseltes Microsoft Word 95 /6.0 oder Microsoft Word 97 – 2003 Dokument. |
+|  | Test File (Enc).docx | Verschlüsseltes Office Öffnet XML WordprocessingML Dokument. |
+| Nicht unterstützte Dateiformate | Test File (JPG).jpg | JPEG Bilddatei. |
 

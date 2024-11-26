@@ -1,18 +1,18 @@
----
-title: 진정한 Type 글꼴 위치 Java
-second_title: Aspose.Words 제품정보 Java
-articleTitle: 진정한 본문 바로가기
-linktitle: 진정한 본문 바로가기
-description: "다양한 한국어 유형 글꼴 소스: 시스템 폴더, 사용자 소스, 스트림에서 글꼴로드, 파일 시스템, 또는 메모리 사용 Java·"
+﻿---
+title: Java에서TrueType글꼴 위치 지정
+second_title: Aspose.WordsJava
+articleTitle: TrueType글꼴 위치 지정
+linktitle: TrueType글꼴 위치 지정
+description: "시스템 폴더,사용자 소스,스트림에서 글꼴 로드,파일 시스템 또는Java을 사용하는 메모리와 같은 다양한TrueType글꼴 소스를 지정합니다."
 type: docs
 weight: 30
 url: /ko/java/specify-truetype-fonts-location/
 timestamp: 2024-10-24-11-44-28
 ---
 
-이 항목은 기본 행동을 설명합니다. Aspose.Words TrueType 글꼴을 볼 때, 운영 체제 특정 차이를 포함하여, 사용자 글꼴 소스를 지정하는 방법을 보여줍니다.
+이 항목에서는 운영 체제별 차이점을 포함하여TrueType글꼴을 찾을 때Aspose.Words의 기본 동작에 대해 설명하고 사용자 글꼴 원본을 지정하는 방법을 보여줍니다.
 
-더 보기 [FontSourceBase](https://reference.aspose.com/words/java/com.aspose.words/fontsourcebase/) 클래스는 다양한 글꼴 소스를 지정하는 데 사용됩니다. 몇 가지 구현이 있습니다. **FontSourceBase** 종류:
+[FontSourceBase](https://reference.aspose.com/words/java/com.aspose.words/fontsourcebase/)클래스는 다양한 글꼴 소스를 지정하는 데 사용됩니다. **FontSourceBase**클래스의 여러 구현이 있습니다.:
 
 - [SystemFontSource](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/)
 - [FolderFontSource](https://reference.aspose.com/words/java/com.aspose.words/folderfontsource/)
@@ -20,57 +20,57 @@ timestamp: 2024-10-24-11-44-28
 - [FileFontSource](https://reference.aspose.com/words/java/com.aspose.words/filefontsource/)
 - [MemoryFontSource](https://reference.aspose.com/words/java/com.aspose.words/memoryfontsource/)
 
-일부 클래스의 구현 세부 사항은 아래 설명되어 있습니다.
+일부 클래스의 구현 세부 사항은 아래에 설명되어 있습니다.
 
-## 시스템의 Load Fonts {#loading-fonts-from-system}
+## 시스템 {#loading-fonts-from-system}에서 글꼴 로드
 
-특별한 [SystemFontSource](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/) 기본적으로 항상 사용하는 클래스. 시스템에 설치된 모든 TrueType 글꼴을 나타냅니다. 따라서 소스 목록을 만들 수 있습니다. **SystemFontSource** 다른 어떤 소스:
+기본적으로 항상 사용되는 특수[SystemFontSource](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/)클래스가 있습니다. 시스템에 설치된 모든TrueType글꼴을 나타냅니다. 따라서**SystemFontSource**및 기타 필요한 소스를 사용하여 소스 목록을 만들 수 있습니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetFontsFolder.java" >}}
 
-단일 인스턴스 **SystemFontSource** class는 기본적으로 정의됩니다. [FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/)· 다른 운영 체계에, 글꼴은 다른 장소에서 있을지도 모릅니다. 그러나, 사용 **FontSettings** 각 문서의 경우 최적의 솔루션이 아닙니다. 대부분의 경우, 사용 [DefaultInstance](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/#getDefaultInstance) 충분히.
+**SystemFontSource**클래스의 단일 인스턴스는[FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/)에서 기본적으로 정의됩니다. 다른 운영 체제에서 글꼴은 다른 위치에 있을 수 있습니다. 그러나 각 문서에**FontSettings**인스턴스를 사용하는 것은 최적의 솔루션이 아닙니다. 대부분의 경우[DefaultInstance](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/#getDefaultInstance)을 사용하면 충분합니다.
 
-Per-document 인스턴스는 다른 문서의 다른 글꼴 소스를 사용하는 데 필요한 경우에만 필요합니다. 몇 가지 **FontSettings** 인스턴스는 캐시를 공유하지 않기 때문에 성능이 감소합니다.
+문서별 인스턴스는 다른 문서에 대해 다른 글꼴 소스를 사용해야 하는 경우에만 필요합니다. 여러**FontSettings**인스턴스를 사용하면 캐시를 공유하지 않으므로 성능이 저하됩니다.
 
-### 이름 * Aspose.Words TrueType 글꼴을 찾습니다. Windows
+### 여기서Aspose.Words은Windows에서TrueType글꼴을 찾습니다.
 
-대부분의 경우, Windows 사용자는 놓은 글꼴 또는 잘못된 레이아웃과 중요한 문제를 직면하지 않습니다. 일반적으로, Aspose.Words 문서를 통해 이동하고 글꼴의 링크를 만날 때, 시스템 폴더에서 글꼴 데이터를 성공적으로 fetches.
+대부분의 경우Windows사용자는 누락된 글꼴 또는 잘못된 레이아웃으로 인해 심각한 문제에 직면하지 않습니다. 일반적으로Aspose.Words은 문서를 통과하고 글꼴의 링크를 발견하면 시스템 폴더에서 글꼴 데이터를 성공적으로 가져옵니다.
 
-에 의해 Windows· Aspose.Words 첫번째는 모두에서 사용할 수 있는 글꼴을 가지고 갑니다 _%windir%\Fonts 폴더. 이 설정은 대부분의 시간 동안 작동합니다. 필요한 경우 자체 글꼴 폴더만 지정합니다. Aspose.Words 또한 추가 글꼴을 찾습니다 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts 등록 키. 또한, Windows 10는 현재 사용자를 위한 글꼴의 임명을 가능하게 합니다. 본문 바로가기 %userprofile%\AppData\Local\Microsoft\Windows\Fonts 폴더도 지정 HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts 레지스트리, 어디에 Aspose.Words 이 글꼴을 찾습니다.
+Windows에서Aspose.Words은 먼저_%windir%\Fonts폴더에서 사용 가능한 모든 글꼴을 사용합니다. 이 설정은 대부분의 시간 동안 작동합니다. 당신이 필요로하는 경우에 당신은 당신의 자신의 글꼴 폴더를 지정합니다. Aspose.Words또한HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts레지스트리 키에 등록된 추가 글꼴을 찾습니다. 또한Windows 10현재 사용자에 대한 글꼴을 설치할 수 있습니다. 글꼴은%userprofile%\AppData\Local\Microsoft\Windows\Fonts폴더에 배치되고HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts레지스트리에서도 지정되며,여기서Aspose.Words이 글꼴을 찾습니다.
 
-문서가 임베디드 글꼴을 포함하면, Aspose.Words 문서의 관련 글꼴 데이터를 읽고 문서의 레이아웃을 만들 수 있습니다. 문서는 시스템 폴더에 있지 않은 글꼴에 대한 링크도 포함 할 수 있습니다, 다음 시나리오가 작동에 올 경우:
+문서에 포함된 글꼴이 있는 경우Aspose.Words은 문서에서 관련 글꼴 데이터를 읽고 이를 사용하여 문서의 레이아웃을 만들 수 있습니다. 문서에는 시스템 폴더에 없는 글꼴에 대한 링크가 포함될 수도 있습니다.:
 
-- 사용자는 새로운 글꼴 소스를 통해 설정할 수 있습니다. **FontSettings** 수업시간
-- - - Aspose.Words 비슷한 글꼴을 대체 할 수 있습니다
+- 사용자는**FontSettings**클래스를 통해 새 글꼴 소스를 설정할 수 있습니다
+- Aspose.Words누락된 글꼴을 비슷한 글꼴로 바꿀 수 있습니다
 
-### 본문 바로가기Windows 시스템
+### Windows이 아닌 시스템의 글꼴
 
-Aspose.Words 시스템 글꼴 폴더에 글꼴을 찾습니다. 이 폴더의 목록은 [GetSystemFontFolders](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/#getSystemFontFolders) 방법. 지원된 글꼴이 없는 경우, Aspose.Words 내장 기본 글꼴 Fanwood.ttf를 사용합니다.
+Aspose.Words은 시스템 글꼴 폴더에서 글꼴을 찾습니다. 이 폴더의 목록은[GetSystemFontFolders](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/#getSystemFontFolders)방법으로 볼 수 있습니다. 지원되는 글꼴을 찾을 수 없는 경우Aspose.Words기본 제공 기본 글꼴 팬우드를 사용합니다.-네
 
-글꼴 미터 이후 Windows 그리고 비-Windows OS는 다릅니다, Aspose.Words 비슷한 글꼴을 찾을 수 있으며 원래와 비슷한 레이아웃을 구축 할 수 있습니다. 그러나 항상 불가능합니다. 이 경우, **FontSettings** 클래스는 사용자 정의 글꼴 또는 대체 규칙을 추가하는 데 사용되어야한다.
+Windows와WindowsOS이 아닌 글꼴 메트릭이 다르기 때문에Aspose.Words은 유사한 글꼴을 찾고 원본과 유사한 레이아웃을 구축하기 위해 가능한 모든 작업을 수행합니다. 그러나 이것이 항상 가능한 것은 아닙니다. 이러한 경우**FontSettings**클래스를 사용하여 사용자 지정 글꼴 또는 대체 규칙을 추가해야 합니다.
 
-#### 이름 * Aspose.Words TrueType 글꼴을 찾습니다. Linux
+#### 여기서Aspose.Words은Linux에서TrueType글꼴을 찾습니다.
 
-기타 Linux 배포는 다른 폴더에 글꼴을 저장할 수 있습니다. Aspose.Words 몇몇 위치에 있는 글꼴을 찾습니다. 기본적으로, Aspose.Words 뒤에 오는 위치 전부에 있는 글꼴을 찾습니다: `/usr/share/fonts` `/usr/local/share/fonts` `/usr/X11R6/lib/X11/fonts` 이 기본 동작은 대부분의 작업 Linux 배포, 하지만 그것은 보장 되지 않습니다 모든 시간, 어느 경우 당신이의 위치를 지정할 필요가 있는 경우 true 명시적으로 글꼴을 입력합니다. 이렇게하려면 TrueType 글꼴이 설치된 곳을 알아야 합니다. Linux 관련 상품
+다른Linux분포는 다른 폴더에 글꼴을 저장할 수 있습니다. Aspose.Words여러 위치에서 글꼴을 찾습니다. 기본적으로Aspose.Words은 다음 모든 위치에서 글꼴을 찾습니다: `/usr/share/fonts`, `/usr/local/share/fonts`, `/usr/X11R6/lib/X11/fonts`. 이 기본 동작은 대부분의Linux분포에서 작동하지만 항상 작동하도록 보장되지는 않습니다. 이렇게 하려면Linux분포에TrueType글꼴이 어디에 설치되어 있는지 알아야 합니다.
 
-#### 이름 * Aspose.Words Mac OS X에서 TrueType 글꼴을 찾습니다
+#### 여기서Aspose.Words은Mac OS X에서TrueType글꼴을 찾습니다.
 
-Aspose.Words /Library/Fonts 폴더에 있는 글꼴을 찾습니다. 이 설정은 대부분의 시간 동안 작동하지만, 필요한 경우 자신의 글꼴 폴더를 지정해야합니다.
+Aspose.Words은Mac OS X의TrueType글꼴의 표준 위치인`/Library/Fonts`폴더에서 글꼴을 찾습니다. 이 설정은 대부분의 시간을 당신을 위해 작동하지만,당신은 당신이 필요로 할 때 경우에 자신의 글꼴 폴더를 지정해야 할 수도 있습니다.
 
-#### TrueType 글꼴에 Android
+#### TrueType글꼴Android
 
-에 의해 Android, 글꼴 작업 흐름은 Typeface 클래스에 캡슐화됩니다.
-Typefaces의 5가지 종류가 있으며, 각 typeface는 비슷한 폰트 제품군의 그룹을 나타냅니다
+Android에서 글꼴 워크플로는 서체 클래스에 캡슐화됩니다.
+다섯 가지 유형의 글꼴이 있는데,각 글꼴은 비슷한 글꼴 계열의 그룹을 나타냅니다.:
 
-- 데모
-- DEFAULT_본
-- 모노스픽
-- SANS_SERIF의 특징
-- SERIF의
+- DEFAULT
+- DEFAULT_BOLD
+- MONOSPACE
+- SANS_SERIF
+- SERIF
 
-예를 들면, 에 따라 Android· [파일 형식](https://androidxref.com/9.0.0_r3/xref/frameworks/base/data/fonts/fonts.xml) config 파일, "times"는 "serif"가족에 속합니다. NotoSerif-Regular.ttf는 "times"가 요청될 때 사용됩니다
+예를 들어,Android의 [fonts.xml](https://androidxref.com/9.0.0_r3/xref/frameworks/base/data/fonts/fonts.xml) 구성 파일,"시간"은"세리프"가족에 속하므로NotoSerif-일반."시간"이 요청될 때 사용됩니다:
 
-**사이트맵**
+**Fonts.xml**
 
 {{< highlight html >}}
 <family name="serif">
@@ -83,19 +83,19 @@ Typefaces의 5가지 종류가 있으며, 각 typeface는 비슷한 폰트 제�
 <alias name="times new roman" to="serif" />
 {{< /highlight >}}
 
-비슷한 글꼴을 검색하려면 먼저 설명 된 전략이 사용됩니다
+유사한 글꼴을 검색하기 위해 앞서 설명한 전략이 사용됩니다.
 
-그들 외에는 Aspose.Words 대체의 자체 목록 Android 플랫폼.
+그 외에도Aspose.Words에는Android플랫폼을 대체하는 자체 목록이 있습니다.
 
-문서는 PMingLiU-ExtB 글꼴, 우선, 포함 Aspose.Words 시스템 소스 내에서 필요한 글꼴을 찾고 있습니다.
+예를 들어 문서에 PMingLiU-ExtB 글꼴이 포함되어 있다고 가정하면, 먼저 Aspose.Words은 시스템 소스 내에서 필요한 글꼴을 찾습니다.
 
-기본 목록 Android 글꼴의 폴더는:
+Android글꼴 폴더의 기본 목록은 다음과 같습니다:
 
-- /시스템/폰트
-- /시스템/폰트
-- /데이터/폰트
+- /시스템/글꼴
+- /시스템/글꼴
+- /데이터/글꼴
 
-더 보기 Aspose.Words 메소드로 설정된 사용자 정의 소스를 통해 봅시다:
+Aspose.Words은 메서드로 설정된 사용자 정의 소스를 살펴본다:
 
 **Java**
 
@@ -103,7 +103,7 @@ Typefaces의 5가지 종류가 있으며, 각 typeface는 비슷한 폰트 제�
 fontSettings.setFontsFolder("/home/user/MyFonts", true);
 {{< /highlight >}}
 
-명시된 교체가 지정된 경우, Aspose.Words 사용자의 제안을 가진 누락된 글꼴을 대체하십시오:
+명시적 대체가 지정된 경우Aspose.Words은 누락된 글꼴을 사용자의 제안으로 대체합니다:
 
 **Java**
 
@@ -111,12 +111,12 @@ fontSettings.setFontsFolder("/home/user/MyFonts", true);
 fontSettings.getSubstitutionSettings().getTableSubstitution().setSubstitutes("PMingLiU-ExtB", "Liberation Serif");
 {{< /highlight >}}
 
-규칙이 작동하지 않는 경우, Aspose.Words 내부 교체 테이블을 확인합니다. 테이블에는 좋은 적합에 대한 정보가 포함되면 글꼴이 교체됩니다. 우리의 경우 Aspose.Words 공지사항 `Typeface.SERIF`· 그러나 테이블이 요청 된 글꼴에 대해 아무것도 모른다면 Aspose.Words 특수 MS Word 규칙을 기반으로 글꼴을 선택하거나 Panose 공간에서 가장 가까운 거리에 있습니다.
+규칙 중 어느 것도 작동하지 않으면Aspose.Words내부 교체 테이블을 확인하십시오. 테이블에 적합성에 대한 정보가 포함되어 있으면 글꼴이 대체됩니다. 우리의 경우Aspose.Words은`Typeface.SERIF`을 선택합니다. 그러나 테이블이 요청 된 글꼴에 대해 아무것도 모르는 경우Aspose.Words는 특수MS단어 규칙 또는 파노스 공간에서 가장 가까운 거리를 기반으로 글꼴을 선택합니다.
 
-#### TrueType 글꼴에 .NET Core · Xamarin
+#### .NET Core 및 Xamarin의 TrueType 글꼴
 
-제품 정보 .NET Core · Xamarin 같은 규칙은 다음과 같이 적용됩니다. Aspose.Words 제품정보 Java 버전. 기본적으로, 모든 시스템 글꼴의 플랫폼에서 응용 프로그램이 사용할 수 있습니다.
-검색이 수행 될 폴더 목록은 메소드를 호출하여 찾을 수 있습니다
+.NET Core과Xamarin의 경우Java버전의Aspose.Words과 동일한 규칙이 적용됩니다. 기본적으로 응용 프로그램이 실행되는 플랫폼의 모든 시스템 글꼴을 사용할 수 있습니다.
+검색이 수행 될 폴더 목록은 메서드를 호출하여 찾을 수 있습니다:
 
 **Java**
 
@@ -124,37 +124,37 @@ fontSettings.getSubstitutionSettings().getTableSubstitution().setSubstitutes("PM
 SystemFontSource().getAvailableFonts()
 {{< /highlight >}}
 
-## Folder의 로드 글꼴 {#loading-fonts-from-folder}
+## 폴더 {#loading-fonts-from-folder}에서 글꼴 로드
 
-처리 된 문서가 시스템에없는 글꼴에 대한 링크가 포함 된 경우, 또는 시스템 폴더에 추가하고 싶지 않거나 권한이 부족한 경우, 최고의 솔루션은 자신의 글꼴을 사용하여 폴더를 추가 할 것입니다 `SetFontsSources` 방법. 시스템 소스를 사용자 소스로 교체 할 수 있습니다. Aspose.Words 더 이상 레지스트리의 폰트를 볼 수 없거나 Windows\Font 폴더와 대신 지정된 폴더(s) 내에서 글꼴만 스캔합니다. 더 보기 `GetFontSources` 방법은 해당 값을 반환합니다.
+처리 중인 문서에 시스템에 없는 글꼴에 대한 링크가 포함되어 있거나 시스템 폴더에 추가하고 싶지 않거나 사용 권한이 없는 경우`SetFontsSources`방법을 사용하여 고유한 글꼴이 있는 폴더를 추가하는 것이 가장 좋습니다. 이렇게 하면 시스템 소스를 사용자 소스로 바꿀 수 있습니다. Aspose.Words는 더 이상 레지스트리나Windows\글꼴 폴더에서 글꼴을 찾지 않고 대신 지정된 폴더 내의 글꼴만 검색합니다. `GetFontSources`메서드는 해당 값을 반환합니다.
 
-### 1개 또는 다중 글꼴 폴더 지정
+### 하나 또는 여러 개의 글꼴 폴더 지정
 
-더 보기 [SetFontsFolder](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/#setFontsFolder-java.lang.String-boolean) 그리고 SetFontsFolders 방법은 단축키입니다. **SetFontSources** 하나 또는 몇몇을 가진 방법 [FolderFontSource](https://reference.aspose.com/words/java/com.aspose.words/folderfontsource/) 예제. 이 방법은 어디를 나타내는 데 사용됩니다. Aspose.Words 글꼴을 찾습니다. 폴더가 존재하지 않거나 접근하지 않는 경우, Aspose.Words 이 폴더를 무시합니다. 글꼴 대용 소스를 포함한 모든 폴더가 무시된 경우, Aspose.Words 기본적으로 Fanwood 글꼴을 사용합니다.
+[SetFontsFolder](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/#setFontsFolder-java.lang.String-boolean)및SetFontsFolders메서드는 하나 또는 여러[FolderFontSource](https://reference.aspose.com/words/java/com.aspose.words/folderfontsource/)인스턴스가 있는**SetFontSources**메서드에 대한 바로 가기입니다. 이러한 메서드는Aspose.Words에서 글꼴을 찾을 위치를 나타내는 데 사용됩니다. 폴더가 없거나 액세스할 수 없는 경우Aspose.Words는 이 폴더를 무시합니다. 글꼴 대체 소스를 포함한 모든 폴더가 무시된 경우Aspose.Words는 팬우드 글꼴을 기본값으로 사용합니다.
 
-다음 예제는 폴더 또는 소스를 설정하는 방법을 설명합니다. Aspose.Words TrueType 글꼴을 사용하거나 글꼴의 삽입 또는 embedding 동안:
+다음 예제는 Aspose.Words가 글꼴을 렌더링하거나 포함하는 동안 TrueType 글꼴을 찾는 데 사용할 폴더 또는 소스를 설정하는 방법을 보여줍니다.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetTrueTypeFontsFolder.java" >}}
 
 {{% alert color="primary" %}}
 
-이 예제의 템플릿 파일을 다운로드 할 수 있습니다 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx)·
+이 예제의 템플릿 파일은 다음에서 다운로드할 수 있습니다 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-추가 Boolean 매개 변수는 글꼴이 모든 폴더를 통해 반복적으로 스캔되는지 여부를 제어하므로 지정된 폴더의 모든 아이 폴더를 스캔합니다. 다음 예제는 설정하는 방법을 보여줍니다. Aspose.Words TrueType 글꼴에 대한 여러 폴더를 살펴보려면:
+추가 부울 매개 변수는 글꼴이 모든 폴더를 통해 재귀적으로 스캔되는지 여부를 제어하므로 지정된 폴더의 모든 자식 폴더를 스캔합니다. 다음 예제에서는 글꼴을 렌더링하거나 포함할 때Aspose.Words이 여러 폴더에서TrueType글꼴을 찾도록 설정하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetMultipleFontsFolder.java" >}}
 
-이 예제의 템플릿 파일을 다운로드 할 수 있습니다 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx)·
+이 예제의 템플릿 파일은 다음에서 다운로드할 수 있습니다 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{% alert color="primary" %}}
 
-주의사항 다른 폰트 소스에서 동일한 가족 이름과 스타일로 글꼴이 있다면, Aspose.Words 더 높은 우선 순위로 소스에서 글꼴을 선택합니다. 아래의 "Priority" 필드의 설명을 참조하십시오.
+우선 순위를 기록하십시오. 다른 글꼴 소스에 동일한 가족 이름과 스타일을 가진 글꼴이 있는 경우Aspose.Words우선 순위가 높은 원본에서 글꼴을 선택합니다. 아래의"우선 순위"필드에 대한 설명을 참조하십시오.
 
 {{% /alert %}}
 
-시스템 글꼴을 전혀 사용하지 않는 경우, Aspose.Words 당신은 그들을 무시하고 자신의 글꼴을 사용 할 수 있습니다:
+시스템 글꼴을 전혀 사용하지 않으려면Aspose.Words을 사용하면 시스템 글꼴을 무시하고 사용자 고유의 글꼴만 사용할 수 있습니다:
 
 **Java**
 
@@ -163,41 +163,41 @@ FontSettings.getDefaultInstance().setFontsFolder("C:\\MyFonts\\", true);
 {{< /highlight >}}
 
 
-### 우선 순위
+### 우선 순위 속성
 
-더 보기 [Priority](https://reference.aspose.com/words/net/aspose.words.fonts/fontsourcebase/priority/) 다른 폰트 소스에서 같은 가족 이름과 스타일로 글꼴이있을 때 속성이 사용됩니다. 이 경우 Aspose.Words 더 높은 우선 순위 값으로 소스에서 글꼴을 선택합니다. 예를 들어, 시스템 폴더에 글꼴의 오래된 버전이 있고 고객은 사용자 정의 폴더에 동일한 글꼴의 새로운 버전을 추가했습니다.
+[Priority](https://reference.aspose.com/words/net/aspose.words.fonts/fontsourcebase/priority/)속성은 서로 다른 글꼴 원본에 동일한 패밀리 이름 및 스타일을 가진 글꼴이 있는 경우에 사용됩니다. 이 경우Aspose.Words는 우선 순위가 높은 원본에서 글꼴을 선택합니다. 예를 들어 시스템 폴더에 이전 버전의 글꼴이 있고 고객이 사용자 지정 폴더에 동일한 글꼴의 새 버전을 추가했습니다.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetFontsFolderWithPriority.java" >}}
 
-## Stream의 로드 글꼴 {#loading-fonts-from-stream}
+## 스트림 {#loading-fonts-from-stream}에서 글꼴 로드
 
-Aspose.Words 제품정보 [StreamFontSource](https://reference.aspose.com/words/java/com.aspose.words/streamfontsource/) 스트림에서 글꼴을로드 할 수있는 클래스. 스트림 글꼴 소스를 사용하려면 사용자가 파생 된 클래스를 만들 필요가 **StreamFontSource** 그리고 구현을 제공합니다 [OpenFontDataStream](https://reference.aspose.com/words/java/com.aspose.words/streamfontsource/#openFontDataStream) 방법. 더 보기 **OpenFontDataStream** 방법은 몇 번 호출 될 수 있습니다. 처음으로, 그것은 때 호출됩니다 Aspose.Words 제공되는 글꼴 소스를 스캔하여 사용 가능한 글꼴 목록을 얻을 수 있습니다. 나중에 폰트가 문서에 사용되는 경우 폰트 데이터를 파싱하고 일부 출력 형식에 글꼴 데이터를 삽입 할 수 있습니다. **StreamFontSource** 필요한 경우 글꼴 데이터를로드 할 수 있으므로 유용 할 수 있으며 메모리에 저장하지 않습니다. `FontSettings` 일생.
+Aspose.Words는 스트림에서 글꼴을 로드할 수 있는[StreamFontSource](https://reference.aspose.com/words/java/com.aspose.words/streamfontsource/)클래스를 제공합니다. 스트림 글꼴 소스를 사용하려면 사용자가**StreamFontSource**에서 파생 클래스를 만들고[OpenFontDataStream](https://reference.aspose.com/words/java/com.aspose.words/streamfontsource/#openFontDataStream)메서드의 구현을 제공해야 합니다. **OpenFontDataStream**메서드는 여러 번 호출할 수 있습니다. 처음으로Aspose.Words가 제공된 글꼴 소스를 스캔하여 사용 가능한 글꼴 목록을 가져올 때 호출됩니다. 나중에 글꼴이 문서에서 글꼴 데이터를 분석하고 글꼴 데이터를 일부 출력 형식에 포함시키는 데 사용되면 호출 될 수 있습니다. **StreamFontSource**은 필요한 경우에만 글꼴 데이터를 로드할 수 있고`FontSettings`수명 동안 메모리에 저장하지 않기 때문에 유용할 수 있습니다.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-SpecifyTrueTypeFontsLocation-loadingFontsStream.java" >}}
 
-**StreamFontSource** 관련 상품 [MemoryFontSource](https://reference.aspose.com/words/java/com.aspose.words/memoryfontsource/) 항상 메모리에 스트림을로드하고 그것을 전달하기 때문에 **MemoryFontSource**· 차이점은 **MemoryFontSource** 기억에 저장되어 항상, 그리고 **StreamFontSource** 수요에 적재되고 오른쪽으로 분해됩니다. 그러나 위에 설명 된대로 몇 번로드 될 수 있습니다. 어떤 경우 **MemoryFontSource** 선호하고, 다른 사람에서, **StreamFontSource**·
+**StreamFontSource**
 
-## 저장하고 글꼴 검색 캐시를로드
+## 글꼴 검색 캐시 저장 및 로드
 
-처음에 폰트를 검색 할 때, Aspose.Words 사용자에 의해 지정된 글꼴 소스를 통해이 소스에서 데이터를 기반으로 글꼴 검색 캐시를 형성합니다. 따라서, 캐시는 사용할 수있는 글꼴에 대한 정보를 수집합니다: 글꼴 가족, 스타일, 전체 글꼴 이름 및 기타. 다음 호출에서, Aspose.Words 글꼴 검색 캐시의 이름으로 원하는 글꼴에 대한 정보를 검색합니다. 지정된 파일을 복사 한 후 글꼴을 사용합니다.
+처음으로 글꼴을 검색할 때Aspose.Words은 사용자가 지정한 글꼴 소스를 반복하고 이러한 소스의 데이터를 기반으로 글꼴 검색 캐시를 형성합니다. 따라서 캐시는 글꼴 패밀리,스타일,전체 글꼴 이름 등 사용 가능한 글꼴에 대한 정보를 수집합니다. 후속 호출에서Aspose.Words은 글꼴 검색 캐시의 이름으로 원하는 글꼴에 대한 정보를 검색한 후 글꼴을 사용하기 위해 지정된 파일을 구문 분석합니다.
 
-모든 사용 가능한 글꼴 파일을 파싱하는 절차는 캐시를 초기화하는 것은 꽤 시간이 걸리는 것입니다. Aspose.Words 캐시를 저장하고로드 할 수 있습니다. **FontSettings.SaveSearchCache** 성능 문제를 해결하는 방법. 즉, 사용자는 파일에서 이전에 저장된 캐시를로드하고 모든 사용 가능한 글꼴 파일을 파싱 단계를 건너 뛸 수 있습니다.
+사용 가능한 모든 글꼴 파일을 구문 분석하여 캐시를 초기화하는 절차는 시간이 많이 걸립니다. Aspose.Words를 사용하면**FontSettings.SaveSearchCache**방법을 사용하여 캐시를 저장하고 로드하여 성능 문제를 해결할 수 있습니다. 즉,사용자는 파일에서 이전에 저장된 캐시를 로드하고 사용 가능한 모든 글꼴 파일을 구문 분석하는 단계를 건너뛸 수 있습니다.
 
 {{% alert color="primary" %}}
 
-같은 사용 **SaveSearchCache** 캐시를 업데이트하는 방법.
+동일한**SaveSearchCache**방법을 사용하여 캐시를 업데이트합니다.
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-캐시는 글꼴이 네트워크에로드 될 때 다른 시나리오에 적합합니다. 또는 시나리오에는 어떤 방법이 없을 때 `FontSettings` 로드된 캐시를 가진 인스턴스.
+이 캐시는 글꼴을 네트워크를 통해 로드할 때 다른 시나리오에도 적합합니다. 또는 로드된 캐시와 함께`FontSettings`인스턴스를 저장할 방법이 없는 시나리오의 경우.
 
 {{% /alert %}}
 
 
-## 본문 바로가기 {#get-a-list-of-available-fonts}
+## 사용 가능한 글꼴 목록 가져오기 {#get-a-list-of-available-fonts}
 
-사용 가능한 글꼴 목록을 얻으려면 예를 들어 PDF 문서를 렌더링하는 데 사용할 수 있습니다. [GetAvailableFonts](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/#getAvailableFonts) 메소드는 다음과 같은 코드 예에서 표시됩니다. 더 보기 [PhysicalFontInfo](https://reference.aspose.com/words/java/com.aspose.words/physicalfontinfo/) 본문내용 바로가기 주메뉴 바로가기 Aspose.Words 글꼴 엔진:
+예를 들어PDF문서를 렌더링하는 데 사용할 수 있는 사용 가능한 글꼴 목록을 가져오려면 다음 코드 예제와 같이[GetAvailableFonts](https://reference.aspose.com/words/java/com.aspose.words/systemfontsource/#getAvailableFonts)방법을 사용할 수 있습니다. [PhysicalFontInfo](https://reference.aspose.com/words/java/com.aspose.words/physicalfontinfo/)클래스는Aspose.Words글꼴 엔진에 사용할 수 있는 실제 글꼴에 대한 정보를 지정합니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-GetAllAvailableFonts.java" >}}

@@ -1,9 +1,9 @@
----
+﻿---
 title: ファイル形式と変換
-second_title: Aspose.Words お問い合わせ Java
+second_title: Aspose.WordsのためのJava
 articleTitle: ファイル形式と変換
 linktitle: ファイル形式と変換
-description: "サポートされている負荷からドキュメントを変換し、フォーマットを2行だけ保存 Java コード。 高品質なコンバージョンを提供 Javaお問い合わせ"
+description: "サポートされている任意のロードからドキュメントをJavaコードのわずか二行で保存形式に変換します。 Javaを使用して高品質の変換を提供します。"
 type: docs
 weight: 40
 url: /ja/java/file-formats-and-conversions/
@@ -14,52 +14,52 @@ timestamp: 2024-01-31-14-23-37
 
 **オンラインで試す**
 
-弊社のコンバージョン機能を使ってコンバージョン機能を試すことができます。 [無料オンラインコンバータ](https://products.aspose.app/words/conversion) ツール。
+あなたは私たちのを使用して変換機能を試すことができます [無料オンラインコンバータ](https://products.aspose.app/words/conversion) ツール。
 
 {{% /alert %}}
 
-さまざまなドキュメントフォーマットを素早く確実に変換する能力は、高度の精度で Aspose.Words's フラグシップ機能。 これは、選択するのに十分な理由がよくあります Aspose.Words お問い合わせ Javaお問い合わせ
+迅速かつ確実に精度の高い様々な文書フォーマットを変換する機能は、Aspose.Wordsの主力機能です。 多くの場合、これはJavaに対してAspose.Wordsを選択するのに十分な理由です。
 
-と Aspose.Words サポートされているロードフォーマットからサポートされている2行のコードを使用して保存形式に変換できます。
+Aspose.Wordsを使用すると、サポートされている任意のロード形式からサポートされている任意の保存形式にドキュメントを変換できます。:
 
-1。 ファイルからドキュメントをロードするか、ストリームをストリーム
-2。 サポートされているフォーマットに保存する
+1. ファイルまたはストリームからドキュメントを読み込む
+2. サポートされている任意の形式に保存します
 
-次のコードの例では、ドキュメントを変換する方法を示します。
+次のコード例は、ドキュメントを変換する方法を示しています:
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "docx-to-pdf.java" >}}
 
-文書の読み込み、変換、保存に関する詳細は、 [ローディング、保存および変換](/words/ja/java/loading-saving-and-converting/) セクション。
+ドキュメントの読み込み、変換、および保存の詳細については、次を参照してください [読み込み、保存、変換](/words/java/loading-saving-and-converting/) セクション。
 
-## ハイファイ
+## 高忠実度
 
-主な目的の一つ Aspose.Words 文書のフォーマット間の高忠実度変換を提供することです。 出力文書が元のすべてのコンテンツとフォーマットを保持する変換を記述するために「ハイファイ」という言葉を使用します。
+Aspose.Wordsの主な目的の1つは、ドキュメント形式間で高忠実度の変換を提供することです。 私たちは、出力文書が元のすべてのコンテンツと書式を保持する変換を記述するために、"高忠実度"という言葉を使用します。
 
-現代的な単語処理の文書のフォーマットは複雑で、何百もの特徴を含んでいます。 ベンダーがソリューションが特定のドキュメントフォーマットをサポートすると主張する時には、フォーマットの基本機能のみがサポートされています。 例えば、 Microsoft Word 文書は、フットノート、テキストボックス、自動形状、OLEオブジェクト、フィールド、および高度なフォーマット属性などの高度な機能を備えています。 これらの要素の多くは、多くの場合、ライブラリを処理するドキュメントでは無視されますが、 Aspose.Wordsお問い合わせ
+現代のワープロ文書フォーマットは複雑で、何百もの機能が含まれています。 ベンダーがソリューションが特定のドキュメント形式をサポートしていると主張する場合、その形式の基本的な機能のみがサポートされていることを意味することがあります。 たとえば、Microsoft Wordドキュメントには、脚注、テキストボックス、自動図形、OLEオブジェクト、フィールド、高度な書式設定属性などの高度な機能があります。 これらの要素の多くは、ドキュメント処理ライブラリでは無視されることがよくありますが、Aspose.Wordsでは無視されます。
 
-### フォーマットサポートの大きな目的
+### フォーマットのサポートのより大きい範囲
 
-顕著な利点の Aspose.Words よく知られているフォーマットのほとんどのためのサポートの大きい範囲です。 他の多くの重要な機能に対して同じレベルのサポートを見つけるのは難しいか不可能です。
+Aspose.Wordsの議論の余地のない利点は、よく知られている形式のほとんどのサポートの範囲が広いことです。 他の場所で多くの重要な機能に対して同じレベルのサポートを見つけることは困難または不可能です。
 
-特定のフォーマットをサポートするソリューションを購入する場合、このフォーマットの機能がサポートされています。 テストするには、複雑なファイルを作成し、提案されたソリューションを介して実行します。 多くの場合、多くの文書要素と書式が失われることがわかります。 たとえば、DOC形式、図形、テキストボックス、フィールド、列、OLEオブジェクト、修正、右から左のテキストは通常苦しむ。
+特定の形式をサポートするソリューションを購入するときは、この形式の機能がサポートされているレベルについて確認してください。 テストするには、複雑なファイルを作成し、提案されたソリューションを実行します。 多くの場合、多くのドキュメント要素と書式設定が失われることがあります。 たとえば、DOC形式では、図形、テキストボックス、フィールド、列、OLEオブジェクト、リビジョン、右から左へのテキストが通常使用されます。
 
-Aspose.Words Document Object Model ( )DOM) と設計されました Microsoft Word ドキュメントフォーマットを念頭に置いてください。 したがって、DOC、DOCX、RTF、WordprocessingMLなどのフォーマットのサポートレベルは、非推奨です。 これらのフォーマット間の任意の方向での変換は、高忠実度です.
+Aspose.Wordsドキュメントオブジェクトモデル(DOM)はMicrosoft Wordドキュメント形式を念頭に置いて設計されました。 したがって、次のようなこれらの形式のサポートのレベルは、次のようになります。DOC, DOCX, RTF, またはWordprocessingMLは前例のないものです。 これらのフォーマット間の任意の方向への変換は、忠実度が高いです。
 
-複雑な文書を実行する際に Aspose.Words, フォーマット実装の比類のない完全性をお楽しみください。
+Aspose.Wordsを介して複雑な文書を実行する場合は、書式の実装の比類のない完全性をお楽しみください。
 
-### 一般的なフォーマット間の変換例
+### 一般的な形式間の変換例
 
-以下は、いくつかの一般的なフォーマット間の変換の例です。 どのように正確に評価することができます Aspose.Words タスクに対処する。
+以下は、いくつかの一般的な形式間の変換の例です。 Aspose.Wordsがタスクにどれだけ正確に対応しているかを評価できます。
 
 ---
 
-* DOC から RTF - 高忠実度変換: * 必須
+*DOC to RTF – high-fidelity conversion:*
 
 <img src="/words/java/file-formats-and-conversions/high-quality-conversions-1.png" alt="doc-to-rtf-aspose-words-java-1" style="width:500px; vertical-align: top"/> <img src="/words/java/file-formats-and-conversions/high-quality-conversions-2.png" alt="doc-to-rtf-aspose-words-java-2" style="width:500px; vertical-align: top"/>
 
 ---
 
-*DOCからPDFへの変換: * 必須
+*DOC to PDF – high-fidelity conversion:*
 
 <img src="/words/java/file-formats-and-conversions/high-quality-conversions-1.png" alt="doc-to-pdf-aspose-words-java-1" style="width:500px; vertical-align: top"/> <img src="/words/java/file-formats-and-conversions/high-quality-conversions-3.png" alt="doc-to-pdf-aspose-words-java-2" style="width:500px; vertical-align: top"/>
 
@@ -67,45 +67,45 @@ Aspose.Words Document Object Model ( )DOM) と設計されました Microsoft Wo
 
 ---
 
-*DOC から ODT - 高忠実度変換: * 必須
+*DOC to ODT – high-fidelity conversion:*
 
 <img src="/words/java/file-formats-and-conversions/high-quality-conversions-1.png" alt="doc-to-odt-aspose-words-java-1" style="width:500px; vertical-align: top"/> <img src="/words/java/file-formats-and-conversions/high-quality-conversions-4.png" alt="doc-to-odt-aspose-words-java-2" style="width:500px; vertical-align: top"/>
 
 ---
 
-*DOCから XPS – 高忠実度変換: * 必須
+*DOC to XPS – high-fidelity conversion:*
 
 <img src="/words/java/file-formats-and-conversions/xml-paper-specification-xps-2.png" alt="doc-to-xps-aspose-words-java-1" style="width:500px; vertical-align: top"/> <img src="/words/java/file-formats-and-conversions/xml-paper-specification-xps-3.png" alt="doc-to-xps-aspose-words-java-2" style="width:500px; vertical-align: top"/>
 
 ---
 
-*DOC-JPEG-高忠実度変換: * 必須
+*DOC to JPEG – high-fidelity conversion:*
 
 <img src="/words/java/file-formats-and-conversions/image-formats-tiff-png-bmp-emf-jpeg-gif-9.png" alt="doc-to-jpg-aspose-words-java-1" style="width:1000px; vertical-align: top"/>
 
 ---
 
-*RTF から TXT - 高忠実度変換: * 必須
+*RTF to TXT – high-fidelity conversion:*
 
 <img src="/words/java/file-formats-and-conversions/plain-text-txt-2.png" alt="rtf-to-txt-aspose-words-java-1" style="width:500px; vertical-align: top"/> <img src="/words/java/file-formats-and-conversions/plain-text-txt-3.png" alt="rtf-to-txt-aspose-words-java-2" style="width:500px; vertical-align: top"/>
 
 ---
 
-コンバーターのすべて Aspose.Words 素晴らしいです, 時々、あなたは異なるフォーマットで文書の同じ外観を得ることができません.
+Aspose.Wordsのすべてのコンバーターは優れていますが、異なる形式のドキュメントで同じ外観を得ることができない場合があります。
 
 {{% alert color="primary" %}}
 
-そのような状況では、 Aspose.Words 変換は「ハイファイ」とマークされ、出力文書は経由して変換した後と同じになります Microsoft Wordお問い合わせ
+このような状況では、Aspose.Wordsには"high-fidelity"とマークされた変換があり、出力ドキュメントはMicrosoft Wordを介して変換した後と同じになります。
 
 {{% /alert %}}
 
-たとえば、HTMLのすべての機能とHTMLのすべての機能との間の単純な1対1のマッチはありません。 Microsoft Word ドキュメント。 HTMLにヘッダー/フッター、セクション、フィールド、タブはありません。 逆に、すべてのCSS属性やルールがマップされるわけではありません。 Microsoft Word ドキュメント。
+たとえば、HTMLドキュメントとMicrosoft Wordドキュメントのすべての機能の間には、単純な一対一の一致はありません。 HTMLにはヘッダー/フッター、セクション、フィールド、タブはありません。 逆に、すべてのCSS属性とルールをMicrosoft Wordドキュメントにマップできるわけではありません。
 
-以下はDOCからHTMLへの変換の例です。
+以下は、DOCからHTMLへの変換の例です。
 
 ---
 
-HTMLへのDOC - 高忠実度変換:
+DOCからHTML–忠実度の高い変換:
 
 <img src="/words/java/file-formats-and-conversions/high-quality-conversions-1.png" alt="doc-to-html-aspose-words-java-1" style="width:500px; vertical-align: top"/> <img src="/words/java/file-formats-and-conversions/high-quality-conversions-5.png" alt="doc-to-html-aspose-words-java-2" style="width:500px; vertical-align: top"/>
 
@@ -115,10 +115,10 @@ HTMLへのDOC - 高忠実度変換:
 
 ## 高いスケーラビリティ
 
-スケーラブルなサーバー・サイドのシナリオを使う Aspose.Words シンプルで清潔なデザインのために主に – Aspose.Words マルチスレッド対応 [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) オブジェクトは互いに独立しており、1つのスレッドが一度に文書を変更できる限り(任意のコレクションクラスの典型的な要件)、複数のスレッドは、同時に任意の数の文書を処理することができます。
+スケーラブルなサーバー側のシナリオでは、Aspose.Wordsは主にシンプルでクリーンな設計のために使用されます。Aspose.Wordsはマルチスレッドをサポートしています。 [Document](https://reference.aspose.com/words/java/com.aspose.words/document/)オブジェクトは互いに独立しており、一度に1つのスレッドだけがドキュメントを変更できる限り(コレクションクラスの一般的な要件)、複数のス
 
-## 高性能
+## ハイパフォーマンス
 
-Aspose.Words 文書の読み込みと保存時に高い性能を発揮します。 テストでは、5Mb以上のDOCファイルが1秒未満で読み込まれ、P4 3GHzマシンで1秒以内に保存されました。 より小さいファイルは、数分の速度で処理することができます。
+Aspose.Wordsドキュメントの読み込みと保存時に高いパフォーマンスを示します。 テストでは、サイズが5Mbを超えるDOCファイルが1秒未満でロードされ、P43GHzマシンに1秒未満で保存されました。 小さいファイルは、数千分の速度で処理できます。
 
-いくつかの機会に、私達の顧客はそれらが速度を信じることができなかった私達に報告しました Aspose.Wordsお問い合わせ 大量のドキュメントをデバッガにロードしていたコードの行を踏んで、ファイルがロードされたと信じられないほどインスタンス化した **Document** オブジェクト。
+いくつかの場面で、お客様はAspose.Wordsの速度を信じることができなかったと私たちに報告しています。 彼らは巨大なドキュメントをデバッガーにロードしていたコード行を踏み越え、ファイルが**Document**オブジェクトにロードされたとは信じられないほど瞬間的

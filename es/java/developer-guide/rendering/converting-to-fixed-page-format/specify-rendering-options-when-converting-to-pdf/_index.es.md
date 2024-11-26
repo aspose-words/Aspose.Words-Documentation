@@ -1,62 +1,62 @@
----
-title: Especificar Opciones de Rendering Al Convertirse en PDF
-second_title: Aspose.Words para Java
-articleTitle: Especificar Opciones de Rendering Al Convertirse en PDF
-linktitle: Especificar Opciones de Rendering Al Convertirse en PDF
-description: "Convertir un documento en PDF con opciones avanzadas. Utilice PdfSaveOptions para cambiar el resultado de guardar un documento en formato PDF utilizando Java."
+﻿---
+title: Especifique las Opciones de representación Al Convertir a PDF
+second_title: Aspose.Words por Java
+articleTitle: Especifique las Opciones de representación Al Convertir a PDF
+linktitle: Especifique las Opciones de representación Al Convertir a PDF
+description: "Convierta un documento a PDF con opciones avanzadas. Use PdfSaveOptions para cambiar el resultado de guardar un documento en formato PDF usando Java."
 type: docs
 weight: 20
 url: /es/java/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---
 
-El formato PDF es un formato de página fija muy popular entre los usuarios y ampliamente soportado por varias aplicaciones porque un documento PDF se ve igual en cualquier dispositivo. Por esa razón, convertir a PDF es una característica importante de Aspose.Words.
+El formato PDF es un formato de página fija que es muy popular entre los usuarios y ampliamente compatible con varias aplicaciones porque un documento PDF tiene el mismo aspecto en cualquier dispositivo. Por esa razón, convertir a PDF es una característica importante de Aspose.Words.
 
-PDF es un formato complejo. Se requieren varias etapas de cálculos en el proceso de conversión de un documento a PDF, incluyendo el cálculo de diseño. Dado que estas etapas incluyen computaciones complejas, consumen mucho tiempo. Además, el formato PDF es bastante complejo por sí mismo. Tiene una estructura de archivos específica, modelo gráfico y embedding de fuentes. Además, cuenta con una funcionalidad de salida compleja, como etiquetas de estructura de documentos, cifrado, firmas digitales y formas editables.
+PDF es un formato complejo. Se requieren varias etapas de cálculos en el proceso de conversión de un documento a PDF, incluido el cálculo del diseño. Dado que estas etapas incluyen cálculos complejos, requieren mucho tiempo. Además, el formato PDF es bastante complejo por sí mismo. Tiene una estructura de archivos específica, modelo de gráficos e incrustación de fuentes. Además, presenta algunas funcionalidades de salida complejas, como etiquetas de estructura de documentos, cifrado, firmas digitales y formularios editables.
 
-Aspose.Words el motor de diseño imita la manera Microsoft Word’s página de diseño del motor funciona. Por lo tanto, Aspose.Words hace que los documentos de salida PDF se vean lo más cerca posible de lo que se puede ver Microsoft Word. A veces es necesario especificar opciones adicionales, que pueden afectar el resultado de guardar un documento en el formato PDF. Estas opciones se pueden especificar mediante el uso del [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) clase, que contiene las propiedades que determinan cómo se mostrará la salida PDF.
+El motor de diseño de Aspose.Words imita la forma en que funciona el motor de diseño de página de Microsoft Word. Por lo tanto, Aspose.Words hace que los documentos de salida de PDF se parezcan lo más posible a lo que puede ver en Microsoft Word. A veces es necesario especificar opciones adicionales, que pueden afectar el resultado de guardar un documento en el formato PDF. Estas opciones se pueden especificar mediante el uso de la clase [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/), que contiene las propiedades que determinan cómo se mostrará la salida PDF.
 
-Algunos ejemplos de uso **PdfSaveOptions** se proporcionan a continuación.
+A continuación se proporcionan algunos ejemplos del uso de **PdfSaveOptions**.
 
 {{% alert color="primary" %}}
 
-Actualmente, puede guardar en formato PDF 1.7, PDF 2.0, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2u y PDF/UA-1. Usar el [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) enumeración para establecer el nivel de cumplimiento de las normas PDF. Tenga en cuenta que con el formato PDF/A, un tamaño de archivo de salida es mayor que un tamaño de archivo PDF regular.
+Actualmente, puede guardar en PDF 1.7, PDF 2.0, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2u, y PDF/UA-1 formatos. Utilice la enumeración [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) para establecer el nivel de cumplimiento de los estándares PDF. Tenga en cuenta que con el formato PDF/A, el tamaño del archivo de salida es mayor que el tamaño normal del archivo PDF.
 
 [PdfCompliance.PdfA1a](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/#PDF-17) y [PdfCompliance.PdfA1b](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/#PDF-17) están marcados como obsoletos.
 
-Para obtener más información sobre PDF/A, consulte el siguiente artículo, "Aprenda características de conversión a PDF/A".
+Para obtener más información sobre PDF/A, consulte el siguiente artículo, " Aprenda las características de la conversión a PDF/A".
 
 {{% /alert %}}
 
-## Crear un PDF Documento con Formas Fillables
+## Creación de un Documento PDF con Formularios rellenables
 
-También es posible exportar formas rellenables de un Microsoft Word documento en PDF de salida, que tiene formas rellenables en lugar de un texto llano. Usar el [PreserveFormFields](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getPreserveFormFields) propiedad para guardar un documento como PDF con formularios rellenables.
+También es posible exportar formularios rellenables de un documento Microsoft Word a la salida PDF, que tiene formularios rellenables en lugar de texto sin formato. Use la propiedad [PreserveFormFields](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getPreserveFormFields) para guardar un documento como PDF con formularios rellenables.
 
-Note que en contraste con Microsoft Word," el formato PDF tiene un número limitado de opciones para formularios editables, como la caja de texto, el cuadro combinado y la casilla de verificación. Microsoft Word tiene más tipos de formas, por ejemplo, el selector de fecha calendario. Generalmente, no es posible imitar completamente Microsoft Word comportamiento en PDF. Por lo tanto, en algunos casos complejos, la salida PDF puede diferir de lo que usted ve en Microsoft Word.
+Tenga en cuenta que, a diferencia de Microsoft Word, el formato PDF tiene un número limitado de opciones para formularios editables, como cuadro de texto, cuadro combinado y checkbox. Microsoft Word tiene más tipos de formularios, por ejemplo, selector de fecha de calendario. Generalmente, no es posible imitar completamente el comportamiento de Microsoft Word en PDF. Por lo tanto, en algunos casos complejos, la salida PDF puede diferir de lo que ve en Microsoft Word.
 
-El ejemplo de código a continuación muestra cómo guardar un documento como PDF con formularios rellenables con compresión y calidad Jpeg especificados:
+El siguiente ejemplo de código muestra cómo guardar un documento como PDF con formularios rellenables con compresión y calidad Jpeg especificadas:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-PdfImageCompression.java" >}}
 
-## Exportar estructura de documentos y propiedades personalizadas
+## Exportación de Estructura de Documentos y Propiedades Personalizadas
 
-El [ExportDocumentStructure](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getExportDocumentStructure) propiedad le permite exportar la estructura de documentos a la salida PDF.
+La propiedad [ExportDocumentStructure](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getExportDocumentStructure) le permite exportar la estructura del documento a la salida PDF.
 
-Las instalaciones de estructura lógica PDF proporcionan un mecanismo para incorporar la información, en relación con la estructura del contenido de documentos, en un archivo PDF. Aspose.Words conserva información sobre la estructura de un Microsoft Word documento, como párrafos, listas, cuadros, notas de pie de página o notas, etc.
+Las instalaciones de estructura lógica PDF proporcionan un mecanismo para incorporar información, con respecto a la estructura del contenido del documento, en un archivo PDF. Aspose.Words conserva información sobre la estructura de un documento Microsoft Word, como párrafos, listas, tablas, notas al pie/notas al final, etc.
 
-El siguiente ejemplo demuestra cómo guardar un documento en formato PDF, preservando la estructura del documento:
+El siguiente ejemplo muestra cómo guardar un documento en formato PDF, conservando la estructura del documento:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-ExportDocumentStructure.java" >}}
 
-Aspose.Words también le permite exportar propiedades personalizadas de documentos a PDF, que se demuestra por el siguiente ejemplo:
+Aspose.Words también le permite exportar propiedades personalizadas del documento a PDF, lo que se demuestra en el siguiente ejemplo:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-CustomPropertiesExport.java" >}}
 
-## Exportar líneas de interés de marcadores y encabezados en PDF de salida
+## Exportación de Contornos desde Marcadores y Encabezados en el Resultado PDF
 
-Si desea exportar marcadores como esquemas en PDF de salida, puede utilizar el [DefaultBookmarksOutlineLevel](https://reference.aspose.com/words/java/com.aspose.words/outlineoptions/#getDefaultBookmarksOutlineLevel) propiedad. Esta propiedad especifica el nivel por defecto en el esquema de documento, en el que Microsoft Word Los marcadores se muestran. Si el documento contiene marcadores en la cabecera/pieza del documento, puede establecer el [HeaderFooterBookmarksExportMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getHeaderFooterBookmarksExportMode) propiedad a [First](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#FIRST) o [All](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#ALL) para especificar cómo se exportan en PDF de salida. Los marcadores en los encabezados/pieros no se exportan cuando el valor de **HeaderFooterBookmarksExportMode** es [None](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#NONE).
+Si desea exportar marcadores como contornos en el resultado PDF, puede usar la propiedad [DefaultBookmarksOutlineLevel](https://reference.aspose.com/words/java/com.aspose.words/outlineoptions/#getDefaultBookmarksOutlineLevel). Esta propiedad especifica el nivel predeterminado en el esquema del documento, en el que se muestran los marcadores Microsoft Word. Si el documento contiene marcadores en el encabezado/pie de página del documento, puede establecer la propiedad [HeaderFooterBookmarksExportMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getHeaderFooterBookmarksExportMode) en [First](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#FIRST) o [All](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#ALL) para especificar cómo se exportan en la salida PDF. Los marcadores en encabezados/pies de página no se exportan cuando el valor de **HeaderFooterBookmarksExportMode** es [None](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#NONE).
 
-El ejemplo de código a continuación muestra cómo exportar marcadores desde el primer encabezado / Pie de una sección:
+El siguiente ejemplo de código muestra cómo exportar marcadores desde el primer encabezado/pie de página de una sección:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-ExportHeaderFooterBookmarks.java" >}}
 
@@ -64,94 +64,91 @@ La salida PDF de este ejemplo se muestra a continuación:
 
 ![rendering-options-when-converting-to-pdf-aspose-words-java-1](/words/java/specify-rendering-options-when-converting-to-pdf/specify-rendering-options-when-converting-to-pdf-1.png)
 
-Cuando **HeaderFooterBookmarksExportMode** se establece [First](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#FIRST) y el documento tiene cabeceras/pies iguales y extraños o un encabezado/pieza de primera página diferente, los marcadores se exportan para los primeros encabezados/pieros únicos en una sección.
+Cuando **HeaderFooterBookmarksExportMode** se establece en [First](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#FIRST) y el documento tiene encabezados/pies de página pares e impares o un encabezado/pie de página de primera página diferente, los marcadores se exportan para los primeros encabezados/pies de página únicos en una sección.
 
-También puede exportar encabezados en el PDF de salida, utilizando el [HeadingsOutlineLevels](https://reference.aspose.com/words/java/com.aspose.words/outlineoptions/#getHeadingsOutlineLevels) propiedad. Esta propiedad especifica cuántos niveles de partidas se incluyen en el esbozo del documento.
+También puede exportar encabezados en la salida PDF, utilizando la propiedad [HeadingsOutlineLevels](https://reference.aspose.com/words/java/com.aspose.words/outlineoptions/#getHeadingsOutlineLevels). Esta propiedad especifica cuántos niveles de encabezados se incluyen en el esquema del documento.
 
-El ejemplo de código a continuación muestra cómo exportar partidas con tres niveles:
+El siguiente ejemplo de código muestra cómo exportar encabezados con tres niveles:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-SaveToPdfWithOutline.java" >}}
 
-El PDF de salida de este ejemplo se describe a continuación:
+La salida PDF de este ejemplo se muestra a continuación:
 
 ![rendering-options-when-converting-to-pdf-aspose-words-java-2](/words/java/specify-rendering-options-when-converting-to-pdf/specify-rendering-options-when-converting-to-pdf-2.png)
 
 {{% alert color="primary" %}}
 
-Un marcador o la navegación por encabezado puede tener diferentes apariencias en varios visores PDF. Además, en algunas aplicaciones, marcadores y navegación encabezada no están disponibles en la interfaz de usuario.
+Un marcador o navegación de encabezado puede tener diferentes apariencias en varios visores PDF. Además, en algunas aplicaciones, los marcadores y la navegación de encabezados no están disponibles en UI.
 
 {{% /alert %}}
 
-## Imágenes para reducir el tamaño del documento
+## Reducción de resolución de Imágenes para Reducir el Tamaño del Documento
 
-Aspose.Words proporciona una capacidad para reducir las imágenes para reducir el tamaño PDF de la salida, utilizando [DownsampleOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getDownsampleOptions) propiedad. El muestreo está habilitado por defecto en el [DownsampleImages](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getDownsampleImages) propiedad.
+Aspose.Words proporciona la capacidad de reducir la resolución de las imágenes para reducir el tamaño de salida PDF, utilizando la propiedad [DownsampleOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getDownsampleOptions). La reducción de resolución está habilitada de forma predeterminada en la propiedad [DownsampleImages](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getDownsampleImages).
 
-Tenga en cuenta que también es posible establecer una resolución específica en la [Resolution](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getResolution) o un umbral de resolución en el [ResolutionThreshold](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getResolutionThreshold) propiedad. En el segundo caso, si la resolución de la imagen es menor que el valor del umbral, entonces no se aplicará el muestreo.
+Tenga en cuenta que también es posible establecer una resolución específica en la propiedad [Resolution](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getResolution) o un umbral de resolución en la propiedad [ResolutionThreshold](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getResolutionThreshold). En el segundo caso, si la resolución de la imagen es inferior al valor umbral, no se aplicará la reducción de resolución.
 
-El ejemplo de código a continuación muestra cómo cambiar la resolución de las imágenes en un documento PDF de salida:
+El siguiente ejemplo de código muestra cómo cambiar la resolución de las imágenes en un documento PDF de salida:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-DownsamplingImages.java" >}}
 
-La resolución se calcula según el tamaño real de la imagen en la página.
+La resolución se calcula de acuerdo con el tamaño real de la imagen en la página.
 
-## Insertar fuentes en Adobe PDF Formato
+## Incrustación de fuentes en formato Adobe PDF
 
-Aspose.Words También le permite controlar cómo las fuentes están incrustadas en los documentos PDF resultantes. Las fuentes deben estar incrustadas en cualquier documento PDF de Adobe para asegurar que el documento pueda ser correcto en cualquier máquina (ver más detalles sobre la reproducción de fuentes en la sección [Usando True Tipo Fuentes](/words/es/java/using-truetype-fonts/)). Por defecto, Aspose.Words incorpora un subconjunto de fuentes utilizadas en el documento en el PDF generado. En este caso, sólo el glyphs (caracters) utilizados en el documento se guardan en PDF.
+Aspose.Words también le permite controlar cómo se incrustan las fuentes en los documentos PDF resultantes. Las fuentes deben incrustarse en cualquier documento de Adobe PDF para garantizar que el documento se pueda representar correctamente en cualquier máquina (consulte más detalles sobre la representación de fuentes en la sección [Uso de fuentes TrueType](/words/java/using-truetype-fonts/)). De forma predeterminada, Aspose.Words incrusta un subconjunto de fuentes utilizadas en el documento en el PDF generado. En este caso, solo los glifos (caracteres) utilizados en el documento se guardan en PDF.
 
-### Cuándo utilizar fuentes completas y cuándo subconfigurar
+### Cuándo Usar Fuentes Completas y Cuándo Subconjuntar
 
-Hay una manera de especificar una opción para Aspose.Words para insertar fuentes completas. En el cuadro que figura a continuación se describen más detalles, junto con algunas ventajas y desventajas de cada entorno.
+Hay una forma de especificar una opción para que Aspose.Words incruste fuentes completas. En la tabla a continuación se describen más detalles, junto con algunas ventajas y desventajas de cada configuración.
 
-| Modo de fuentes insertadas |  Ventajas | Desventajas |
-|  :-  |  :-  |  :-  |
-|  `Full`  | Útil cuando desea editar el PDF resultante más adelante añadiendo o modificando el texto. Todas las fuentes están incluidas, por lo tanto todas glyphs están presentes. | Dado que algunas fuentes son grandes (varios megabytes), incrustarlas sin subsetting puede resultar en grandes archivos de salida. |
-|  `Subset`  | Subsetting es útil si desea mantener el tamaño de archivo de salida más pequeño. | <p>El usuario no puede agregar o editar completamente el texto usando la fuente subsetted en el documento PDF de salida. Esto es porque no todo glyphs de la fuente están presentes.</p>
+| Modo de Incrustación de Fuentes | Ventajas | Desventajas |
+| :- | :- | :- |
+| `Full` | Útil cuando desea editar el PDF resultante más tarde agregando o modificando el texto. Todas las fuentes están incluidas, por lo tanto, todos los glifos están presentes. | Dado que algunas fuentes son grandes (varios megabytes), incrustarlas sin subconjuntos puede generar archivos de salida grandes. |
+| `Subset` | La subconfiguración es útil si desea mantener el tamaño del archivo de salida más pequeño. | <p>El usuario no puede agregar o editar completamente el texto utilizando la fuente subconjuntada en el documento PDF de salida. Esto se debe a que no todos los glifos de la fuente están presentes.</p><p>Si se guardan varios PDFs con fuentes subconjuntadas y se ensamblan juntos, entonces el documento PDF combinado puede tener una fuente que contenga muchos subconjuntos innecesarios.</p> |
 
-<p>Si se guardan múltiples PDFs con fuentes subconfiguradas y se reúnen, el documento PDF combinado puede tener una fuente que contenga muchos subconjuntos innecesarios.</p>
- |
+### Incrustar fuentes completas en PDF
 
-### Insertar fuentes completas en PDF
+La propiedad [EmbedFullFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getEmbedFullFonts) le permite especificar cómo Aspose.Words incrusta fuentes en un documento PDF de salida.
 
-El [EmbedFullFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getEmbedFullFonts) propiedad le permite especificar cómo Aspose.Words incorpora fuentes en un documento PDF de salida.
+- Para incrustar fuentes completas en el documento PDF de salida, establezca **EmbedFullFonts** en verdadero
+- Para subconjuntar fuentes al guardar en PDF, establezca **EmbedFullFonts** en falso
 
-- Para insertar fuentes completas en el documento PDF de salida, conjunto **EmbedFullFonts** a true
-- Para subconfigurar las fuentes cuando se guardan en PDF, se establece **EmbedFullFonts** a false
-
-El siguiente ejemplo muestra cómo insertar fuentes completas en el documento PDF de salida:
+El siguiente ejemplo muestra cómo incrustar fuentes completas en el documento PDF de salida:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-EmbeddedFontsInPDF-EmbeddAllFonts.java" >}}
 
-El siguiente ejemplo demuestra cómo establecer Aspose.Words to subset fonts in the output PDF:
+El siguiente ejemplo demuestra cómo establecer Aspose.Words en subconjuntos de fuentes en la salida PDF:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-EmbeddedFontsInPDF-EmbeddSubsetFonts.java" >}}
 
 {{% alert color="primary" %}}
 
-Puede descargar el archivo de plantilla para estos ejemplos desde [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
+Puede descargar el archivo de plantilla para estos ejemplos en [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-## Cómo controlar las fuentes de núcleo embedding y Windows Fuentes estándar
+## Cómo Controlar la Incrustación de Fuentes Principales y Fuentes Estándar Windows
 
-Fuentes principales y Windows Las fuentes estándar son los conjuntos "estándar" de fuentes, que generalmente están presentes en la máquina de destino o proporcionados por el lector de documentos, por lo tanto no necesitan ser incrustados en el PDF de salida. Al no incrustar estas fuentes, puede disminuir el tamaño de documentos PDF renderizados y mantener la portabilidad.
+Las fuentes principales y las fuentes estándar Windows son los conjuntos de fuentes "estándar", que generalmente están presentes en la máquina de destino o proporcionados por el lector de documentos, por lo que no es necesario incrustarlos en la salida PDF. Al no incrustar estas fuentes, puede disminuir el tamaño de los documentos PDF renderizados y, sin embargo, mantener la portabilidad.
 
-Aspose.Words ofrece opciones para elegir cómo se exportan fuentes a PDF. Puede optar por incrustar fuentes básicas y estándar en el PDF de salida o por omitir incrustarlos y utilizar fuentes estándar de código PDF o fuentes de sistema en la máquina de destino. Utilizando cualquiera de estas opciones normalmente resulta en una reducción significativa del tamaño de archivo para documentos PDF generados por Aspose.Words.
+Aspose.Words proporciona opciones para elegir cómo se exportan las fuentes a PDF. Puede optar por incrustar fuentes básicas y estándar en la salida PDF o omitir incrustarlas y utilizar fuentes básicas estándar PDF o fuentes del sistema en el equipo de destino. El uso de cualquiera de estas opciones normalmente da como resultado una reducción significativa del tamaño de archivo para PDF documentos generados por Aspose.Words.
 
-- Dado que estas opciones son mutuamente excluyentes, debe elegir sólo una a la vez.
-- Al guardar con el cumplimiento PDF/A-1, todas las fuentes usadas deben estar incrustadas en el documento PDF. Al guardar este cumplimiento, el [UseCoreFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getUseCoreFonts) propiedad debe establecerse false y el [FontEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getFontEmbeddingMode) propiedad debe establecerse [EmbedAll](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode#EMBED_ALL)[.](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usecorefonts/)
+- Dado que estas opciones son mutuamente excluyentes, debe elegir solo una a la vez.
+- Al guardar con el cumplimiento de PDF/A-1, todas las fuentes utilizadas deben estar incrustadas en el documento PDF. Al guardar con este cumplimiento, la propiedad [UseCoreFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getUseCoreFonts) debe establecerse en false y la propiedad [FontEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getFontEmbeddingMode) debe establecerse en [EmbedAll](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode#EMBED_ALL) [.](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usecorefonts/)
 
-### Insertar fuentes básicas
+### Incrustación de Fuentes Principales
 
-La opción de insertar fuentes Core puede ser habilitada o deshabilitada utilizando la [UseCoreFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getUseCoreFonts) propiedad. Cuando se establece true, las siguientes fuentes más populares "True Type" (Base 14 fuentes) no están incrustadas en el documento PDF de salida:
+La opción de incrustar fuentes principales se puede habilitar o deshabilitar utilizando la propiedad [UseCoreFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getUseCoreFonts). Cuando se establece en true, las siguientes fuentes más populares de "Tipo verdadero" (fuentes Base 14) no se incrustan en el documento PDF de salida:
 
 - `Arial`
 - `Times New Roman`
 - `Courier New`
 - `Symbol`
 
-Estas fuentes son reemplazadas por las fuentes correspondientes tipo 1 que son proporcionadas por un lector cuando se abre el PDF.
+Estas fuentes se reemplazan con las fuentes core Type 1 correspondientes, que proporciona un lector cuando se abre PDF.
 
-El ejemplo que figura a continuación muestra cómo establecer Aspose.Words para evitar insertar fuentes de núcleo y dejar que el lector las sustituya con PDF Tipo 1 fuentes:
+El ejemplo que se proporciona a continuación muestra cómo configurar Aspose.Words para evitar incrustar fuentes principales y permitir que el lector las sustituya por fuentes PDF Tipo 1:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-EmbeddedFontsInPDF-AvoidEmbeddingCoreFonts.java" >}}
 
@@ -161,26 +158,26 @@ Puede descargar el archivo de plantilla para este ejemplo desde [Aspose.Words Gi
 
 {{% /alert %}}
 
-Dado que los visores PDF proporcionan fuentes básicas en cualquier plataforma soportada, esta opción también es útil cuando se requiere mayor portabilidad de documentos. Sin embargo, las fuentes de núcleo pueden parecer diferentes de las fuentes del sistema.
+Dado que los visores PDF proporcionan fuentes principales en cualquier plataforma compatible, esta opción también es útil cuando se requiere una mayor portabilidad de documentos. Sin embargo, las fuentes principales pueden tener un aspecto diferente al de las fuentes del sistema.
 
 {{% alert color="primary" %}}
 
-Este ajuste funciona sólo para ANSI (Windows-1252) texto de codificación. Escribir un texto no-ANSI a PDF siempre requerirá que las fuentes correspondientes sean incrustadas.
+Esta configuración solo funciona para texto de codificación ANSI (Windows-1252). Escribir un texto que no seaANSI en PDF siempre requerirá que se incrusten las fuentes correspondientes.
 
 {{% /alert %}}
 
-### Fuentes del sistema de integración
+### Incrustación de Fuentes del Sistema
 
-Esta opción puede ser habilitada o desactivada utilizando [FontEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getFontEmbeddingMode) propiedad. Cuando esta propiedad se establece [EmbedNonstandard](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode/#EMBED-NONSTANDARD), el "Arial" y "Times New Roman" true Tipo de fuentes no están incrustadas en un documento PDF. En este caso, el cliente se basa en las fuentes que se instalan en el sistema operativo cliente. Cuando el **FontEmbeddingMode** propiedad se establece [EmbedNone](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode/#EMBED-NONE), Aspose.Words no incrustar ninguna fuente.
+Esta opción se puede habilitar o deshabilitar usando la propiedad [FontEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getFontEmbeddingMode). Cuando esta propiedad se establece en [EmbedNonstandard](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode/#EMBED-NONSTANDARD), las fuentes true type" Arial "y" Times New Roman " no se incrustan en un documento PDF. En este caso, el visor del cliente se basa en las fuentes que están instaladas en el sistema operativo del cliente. Cuando la propiedad **FontEmbeddingMode** se establece en [EmbedNone](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode/#EMBED-NONE), Aspose.Words no incruste ninguna fuente.
 
-El ejemplo a continuación muestra cómo establecer Aspose.Words para saltar incrustando fuentes Arial y Times New Roman en un documento PDF:
+El siguiente ejemplo muestra cómo configurar Aspose.Words para omitir la incrustación de fuentes Arial y Times New Roman en un documento PDF:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-EmbeddedFontsInPDF-SetFontEmbeddingMode.java" >}}
 
-Este modo es muy útil cuando desea ver sus documentos en la misma plataforma, preservando la apariencia exacta de las fuentes en el PDF de salida.
+Este modo es más útil cuando desea ver sus documentos en la misma plataforma, conservando la apariencia exacta de las fuentes en la salida PDF.
 
 {{% alert color="primary" %}}
 
-Este ajuste funciona sólo para ANSI (Windows-1252) texto de codificación. Escribir un texto no-ANSI a PDF requiere que la fuente correspondiente sea incrustada.
+Esta configuración solo funciona para texto de codificación ANSI (Windows-1252). Escribir un texto que no seaANSI en PDF requiere que se incruste la fuente correspondiente.
 
 {{% /alert %}}

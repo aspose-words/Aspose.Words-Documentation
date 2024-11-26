@@ -1,8 +1,8 @@
 ---
-title: Hoe bouw je een tabel van een `DataTable` in C#
+title: Hoe bouw je een tabel van een DataTable in C#
 second_title: Aspose.Words voor .NET
-articleTitle: Bouw een tabel van een `DataTable`
-linktitle: Bouw een tabel van een `DataTable`
+articleTitle: Bouw een tabel van een DataTable
+linktitle: Bouw een tabel van een DataTable
 description: "Voorbeeld van het invullen van documenttabel uit externe database met behulp van C#."
 type: docs
 weight: 120

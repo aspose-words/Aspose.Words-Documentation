@@ -1,8 +1,8 @@
 ---
-title: Работа с документ, съхраняван в `SharePoint` Онлайн
+title: Работа с документ, съхраняван в SharePoint Онлайн
 second_title: Aspose.Words вместо .NET
-articleTitle: Работа с документ, съхраняван в `SharePoint` Онлайн
-linktitle: Работа с документ, съхраняван в `SharePoint` Онлайн
+articleTitle: Работа с документ, съхраняван в SharePoint Онлайн
+linktitle: Работа с документ, съхраняван в SharePoint Онлайн
 description: "Convert Word shared in SharePoint за PDF използване C#. Работа с документи, съхранявани в SharePoint ... различни входни формати, включително Word, OpenOffice, Image и eBook."
 type: docs
 weight: 20

@@ -1,86 +1,86 @@
----
-title: Verschmelzungstabellenzellen in Java
+﻿---
+title: Tabellenzellen in Java zusammenführen
 second_title: Aspose.Words für Java
-articleTitle: Stammtische Zellen
-linktitle: Stammtische Zellen
-description: "Wie man Tabellenzellen in Java. Prüfen Sie, ob Zellen in einer Tabelle mit Java."
+articleTitle: Tabellenzellen zusammenführen
+linktitle: Tabellenzellen zusammenführen
+description: "So führen Sie Tabellenzellen in Java zusammen. Überprüfen Sie, ob Zellen in einer Tabelle mit Java zusammengeführt werden."
 type: docs
 weight: 40
 url: /de/java/working-with-merged-cells/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Manchmal benötigen bestimmte Zeilen in einer Tabelle eine Überschrift oder große Textblöcke, die die volle Breite der Tabelle einnehmen. Zur richtigen Gestaltung der Tabelle kann der Benutzer mehrere Tabellenzellen in eine zusammenführen. Aspose.Words unterstützt fusionierte Zellen bei der Arbeit mit allen Eingabeformaten, einschließlich Importieren von HTML-Inhalte.
+Manchmal erfordern bestimmte Zeilen in einer Tabelle eine Überschrift oder große Textblöcke, die die gesamte Breite der Tabelle einnehmen. Für die ordnungsgemäße Gestaltung der Tabelle kann der Benutzer mehrere Tabellenzellen zu einer zusammenführen. Aspose.Words unterstützt verbundene Zellen bei der Arbeit mit allen Eingabeformaten, einschließlich des Imports von HTML-Inhalten.
 
-## Wie man Tabellenzellen vereinigt
+## Wie man Tabellenzellen zusammenführt
 
-In Aspose.Words, fusionierte Zellen werden durch folgende Eigenschaften der [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) Klasse:
+In Aspose.Words werden zusammengeführte Zellen durch die folgenden Eigenschaften der Klasse [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) dargestellt:
 
-- Ja. [HorizontalMerge](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getHorizontalMerge) die beschreibt, ob die Zelle Teil einer horizontalen Zusammenführung von Zellen ist
-- Ja. [VerticalMerge](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getVerticalMerge) die beschreibt, ob die Zelle Teil einer vertikalen Zusammenführung von Zellen ist
+- [HorizontalMerge](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getHorizontalMerge) beschreibt, ob die Zelle Teil einer horizontalen Zusammenführung von Zellen ist
+- [VerticalMerge](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getVerticalMerge) beschreibt, ob die Zelle Teil einer vertikalen Zusammenführung von Zellen ist
 
 Die Werte dieser Eigenschaften bestimmen das Zusammenführungsverhalten von Zellen:
 
-- Ja. Die erste Zelle in einer Sequenz von zusammengeführten Zellen wird [CellMerge.First](https://reference.aspose.com/words/java/com.aspose.words/cellmerge/#FIRST)
-- Ja. Alle später zusammengeführten Zellen werden [CellMerge.Previous](https://reference.aspose.com/words/java/com.aspose.words/cellmerge/#PREVIOUS)
-- Eine Zelle, die nicht zusammengeführt wird, wird [CellMerge.None](https://reference.aspose.com/words/java/com.aspose.words/cellmerge/#NONE)
+- Die erste Zelle in einer Folge zusammengeführter Zellen hat [CellMerge.First](https://reference.aspose.com/words/java/com.aspose.words/cellmerge/#FIRST)
+- Alle anschließend zusammengeführten Zellen haben [CellMerge.Previous](https://reference.aspose.com/words/java/com.aspose.words/cellmerge/#PREVIOUS)
+- Eine Zelle, die nicht zusammengeführt wird, hat [CellMerge.None](https://reference.aspose.com/words/java/com.aspose.words/cellmerge/#NONE)
 
 ![work-with-merged-cells-aspose-words-java](/words/java/working-with-merged-cells/working-with-merged-cells-1.png)
 
 {{% alert color="primary" %}}
 
-Manchmal, wenn Sie vorhandene Dokumentzellen in einer Tabelle laden, erscheinen sie zusammengeführt. Es kann aber tatsächlich eine lange Zelle sein – manchmal Microsoft Word Exporte fusionierten Zellen auf diese Weise. Dies kann verwirrend sein, wenn man versucht, mit einzelnen Zellen zu arbeiten, aber es scheint kein bestimmtes Muster zu sein, als wenn dies geschieht.
+Manchmal werden beim Laden vorhandener Dokumentzellen in eine Tabelle diese zusammengeführt angezeigt. Es kann sich jedoch tatsächlich um eine lange Zelle handeln - manchmal exportiert Microsoft Word zusammengeführte Zellen auf diese Weise. Dies kann verwirrend sein, wenn versucht wird, mit einzelnen Zellen zu arbeiten, aber es scheint kein bestimmtes Muster zu geben, wann dies geschieht.
 
 {{% /alert %}}
 
-## Überprüfen, ob eine Zelle vereinigt ist
+## Überprüfen, ob eine Zelle zusammengeführt ist
 
-Um zu überprüfen, ob eine Zelle Teil einer Sequenz von zusammengeführten Zellen ist, überprüfen wir einfach die **HorizontalMerge** und **VerticalMerge** Eigenschaften.
+Um zu überprüfen, ob eine Zelle Teil einer Sequenz zusammengeführter Zellen ist, überprüfen wir einfach die Eigenschaften **HorizontalMerge** und **VerticalMerge**.
 
-Das folgende Codebeispiel zeigt, wie man die horizontale und vertikale Zellfusionsart druckt:
+Das folgende Codebeispiel zeigt, wie der horizontale und vertikale Zellzusammenführungstyp gedruckt wird:
 
 {{< gist "aspose-words-gists" "4fe6fda3615c0c441401e2131533d93b" "check-cells-merged.java" >}}
 
-## Verschmelzungstabellenzellen bei Verwendung von DocumentBuilder
+## Tabellenzellen zusammenführen, wenn DocumentBuilder verwendet wird
 
-Zusammenführen von Zellen in einer Tabelle, die mit der [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/), Sie müssen für jede Zelle, wo die Zusammenführung erwartet wird, den entsprechenden Zusammenschlusstyp festlegen – zuerst **CellMerge.First** und dann **CellMerge.Previous**.
+Um Zellen in einer Tabelle zusammenzuführen, die mit [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) erstellt wurde, müssen Sie für jede Zelle, in der die Zusammenführung erwartet wird, den entsprechenden Zusammenführungstyp festlegen – zuerst **CellMerge.First** und dann **CellMerge.Previous**.
 
-Sie müssen sich auch daran erinnern, die Merge-Einstellung für die Zellen zu löschen, in denen keine Zusammenführung erforderlich ist – dies kann durch die Einstellung der ersten Nicht-Mergezelle an **CellMerge.None**. Wenn dies nicht geschieht, werden alle Zellen in der Tabelle zusammengeführt.
+Außerdem müssen Sie daran denken, die Zusammenführungseinstellung für die Zellen zu löschen, für die keine Zusammenführung erforderlich ist. Dies kann erfolgen, indem Sie die erste Zelle ohne Zusammenführung auf **CellMerge.None** setzen. Geschieht dies nicht, werden alle Zellen in der Tabelle zusammengeführt.
 
-Das folgende Codebeispiel zeigt, wie eine Tabelle mit zwei Zeilen erstellt werden kann, in denen die Zellen in der ersten Zeile horizontal zusammengefasst werden:
+Das folgende Codebeispiel zeigt, wie Sie eine Tabelle mit zwei Zeilen erstellen, in der die Zellen in der ersten Zeile horizontal zusammengeführt werden:
 
 {{< gist "aspose-words-gists" "4fe6fda3615c0c441401e2131533d93b" "horizontal-merge.java" >}}
 
-Das folgende Codebeispiel zeigt, wie man eine Zweisäulentabelle erstellt, in der die Zellen in der ersten Spalte vertikal zusammengefasst sind:
+Das folgende Codebeispiel zeigt, wie Sie eine zweispaltige Tabelle erstellen, in der die Zellen in der ersten Spalte vertikal zusammengeführt werden:
 
 {{< gist "aspose-words-gists" "4fe6fda3615c0c441401e2131533d93b" "vertical-merge.java" >}}
 
-## Verschmelzungstabellenzellen in anderen Fällen
+## Tabellenzellen in anderen Fällen zusammenführen
 
-In anderen Fällen, in denen **DocumentBuilder** nicht verwendet wird, wie in einer bestehenden Tabelle, kann das Verschmelzen von Zellen in der vorherigen Weise nicht so einfach sein. Stattdessen können wir die grundlegenden Operationen, die an der Anwendung von Merge-Eigenschaften an Zellen beteiligt sind, in einer Methode einpacken, die die Aufgabe viel einfacher macht. Dieses Verfahren ist ähnlich der Merge Automation Methode, die aufgerufen wird, eine Reihe von Zellen in einer Tabelle zu verschmelzen.
+In anderen Situationen, in denen **DocumentBuilder** nicht verwendet wird, z. B. in einer vorhandenen Tabelle, ist das Zusammenführen von Zellen auf die vorherige Weise möglicherweise nicht so einfach. Stattdessen können wir die grundlegenden Vorgänge zum Anwenden von Zusammenführungseigenschaften auf Zellen in einer Methode zusammenfassen, die die Aufgabe erheblich vereinfacht. Diese Methode ähnelt der Merge-Automatisierungsmethode, die zum Zusammenführen eines Zellbereichs in einer Tabelle aufgerufen wird.
 
-Der folgende Code wird die Tabellenzellen im angegebenen Bereich zusammenführen, beginnend an der angegebenen Zelle und enden an der Endzelle. Dabei kann der Bereich mehrere Zeilen oder Spalten überspannen:
+Der folgende Code führt die Tabellenzellen im angegebenen Bereich zusammen, beginnend mit der angegebenen Zelle und endend mit der Endzelle. In diesem Fall kann sich der Bereich über mehrere Zeilen oder Spalten erstrecken:
 
 {{< gist "aspose-words-gists" "4fe6fda3615c0c441401e2131533d93b" "merge-cells.java" >}}
 
-Das folgende Codebeispiel zeigt, wie man einen Bereich von Zellen zwischen zwei angegebenen Zellen zusammenführt:
+Das folgende Codebeispiel zeigt, wie ein Zellbereich zwischen zwei angegebenen Zellen zusammengeführt wird:
 
 {{< gist "aspose-words-gists" "4fe6fda3615c0c441401e2131533d93b" "merge-cell-range.java" >}}
 
-## Vertikale und horizontale Verschmelzungszellen in HTML-Tabelle
+## Vertikale und horizontale verbundene Zellen in HTML-Tabelle
 
-Wie wir in früheren Artikeln gesagt haben, eine Tabelle in Microsoft Word ist eine Reihe unabhängiger Zeilen. Jede Zeile hat eine Reihe von Zellen, die unabhängig von den Zellen anderer Zeilen sind. So, in der Microsoft Word Tabelle gibt es kein solches Objekt wie eine "Säule", und "1. Spalte" ist etwas wie "die Menge der 1. Zellen jeder Zeile in der Tabelle". Dies ermöglicht es Benutzern, eine Tabelle zu haben, in der zum Beispiel die 1. Reihe aus zwei Zellen besteht – 2cm und 1cm, und die 2. Reihe besteht aus zwei verschiedenen Zellen – 1cm und 2cm breit. Und Aspose.Words unterstützt dieses Konzept der Tabellen.
+Wie wir in früheren Artikeln gesagt haben, ist eine Tabelle in Microsoft Word eine Menge unabhängiger Zeilen. Jede Zeile enthält eine Reihe von Zellen, die von den Zellen anderer Zeilen unabhängig sind. Daher gibt es in der Microsoft Word -Tabelle kein Objekt wie eine "Spalte", und "1. Spalte" ist so etwas wie "die Menge der 1. Zellen jeder Zeile in der Tabelle". Auf diese Weise können Benutzer eine Tabelle erstellen, in der beispielsweise die 1. Zeile aus zwei Zellen besteht – 2 cm und 1 cm, und die 2. Zeile aus zwei verschiedenen Zellen besteht – 1 cm und 2 cm breit. Und Aspose.Words unterstützt dieses Konzept von Tabellen.
 
-Eine Tabelle in HTML hat eine im Wesentlichen andere Struktur: jede Zeile hat die gleiche Anzahl von Zellen und (es ist für die Aufgabe wichtig) jede Zelle hat die Breite der entsprechenden Spalte, die gleiche für alle Zellen in einer Spalte. Wenn **HorizontalMerge** und **VerticalMerge** einen falschen Wert zurückgeben, das folgende Codebeispiel verwenden:
+Eine Tabelle in HTML hat eine wesentlich andere Struktur: Jede Zeile hat die gleiche Anzahl von Zellen und (es ist wichtig für die Aufgabe) Jede Zelle hat die Breite der entsprechenden Spalte, die für alle Zellen in einer Spalte gleich ist. Wenn also **HorizontalMerge** und **VerticalMerge** einen falschen Wert zurückgeben, verwenden Sie das folgende Codebeispiel:
 
 {{< gist "aspose-words-gists" "4fe6fda3615c0c441401e2131533d93b" "print-horizontal-and-vertical-merged.java" >}}
 
 {{< gist "aspose-words-gists" "4fe6fda3615c0c441401e2131533d93b" "horizontal-and-vertical-merge-helper-classes.java" >}}
 
-## Horizontal umrechnen Verschmelzte Zellen
+## In horizontal verbundene Zellen konvertieren
 
-Manchmal ist es nicht möglich zu erkennen, welche Zellen zusammengeführt werden, weil einige neuere Versionen Microsoft Word bei horizontaler Zusammenführung der Zellen die zusammenführenden Fahnen nicht mehr verwenden. Aber für Situationen, in denen Zellen horizontal durch ihre Breite in eine Zelle zusammengeführt werden, indem sie Fahnen zusammenführen, Aspose.Words bietet `ConvertToHorizontallyMergedCells` Verfahren zur Umwandlung von Zellen. Diese Methode transformiert einfach die Tabelle und fügt neue Zellen nach Bedarf hinzu.
+Manchmal ist es nicht möglich zu erkennen, welche Zellen zusammengeführt werden, da einige neuere Versionen von Microsoft Word die Zusammenführungsflags nicht mehr verwenden, wenn Zellen horizontal zusammengeführt werden. Für Situationen, in denen Zellen mithilfe von Zusammenführungsflags horizontal nach ihrer Breite zu einer Zelle zusammengeführt werden, bietet Aspose.Words die `ConvertToHorizontallyMergedCells` -Methode zum Konvertieren von Zellen. Diese Methode transformiert einfach die Tabelle und fügt nach Bedarf neue Zellen hinzu.
 
-Das folgende Codebeispiel zeigt das obige Verfahren im Betrieb:
+Das folgende Codebeispiel zeigt die obige Methode in Betrieb:
 
 {{< gist "aspose-words-gists" "4fe6fda3615c0c441401e2131533d93b" "convert-to-horizontally-merged-cells.java" >}}

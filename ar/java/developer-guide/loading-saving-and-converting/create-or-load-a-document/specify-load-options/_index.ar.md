@@ -1,89 +1,89 @@
----
-title: تحديد الخيارات المتاحة Java
-second_title: Aspose.Words for Java
-articleTitle: تحديد خيارات القروض
-linktitle: تحديد خيارات القروض
-description: "وضع خصائص متقدمة عند تحميل وثيقة باستخدام Java للحصول على مراقبة أكثر دقة للعملية."
+﻿---
+title: حدد خيارات التحميل في Java
+second_title: Aspose.Words ل Java
+articleTitle: حدد خيارات التحميل
+linktitle: حدد خيارات التحميل
+description: "قم بتعيين الخصائص المتقدمة عند تحميل مستند باستخدام Java للحصول على تحكم أكثر دقة في العملية."
 type: docs
 weight: 10
 url: /ar/java/specify-load-options/
 timestamp: 2024-01-27-14-07-04
 ---
 
-عند تحميل وثيقة، يمكنك وضع بعض الممتلكات المتقدمة. Aspose.Words يزودك بـ [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) الدرجة التي تسمح بمراقبة أكثر دقة لعملية التحميل بعض أشكال التحميل لها طبقة مناظرة تحتوي على خيارات تحميل لشكل الحمولة هذا، على سبيل المثال، هناك [PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) من أجل تحميلها على شكل قوات الدفاع الشعبي أو [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) لتحميل (تي إكس تي) تقدم هذه المادة أمثلة على العمل مع خيارات **LoadOptions** الصف
+عند تحميل مستند، يمكنك تعيين بعض الخصائص المتقدمة. Aspose.Words يوفر لك فئة [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/)، والتي تتيح تحكما أكثر دقة في عملية التحميل. تحتوي بعض تنسيقات التحميل على فئة مقابلة تحتوي على خيارات التحميل لتنسيق التحميل هذا، على سبيل المثال، يوجد [PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) للتحميل إلى PDF تنسيق أو [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) للتحميل إلى TXT. تقدم هذه المقالة أمثلة للعمل مع خيارات فئة **LoadOptions**.
 
-## المجموعة Microsoft Word ترجمة
+## تعيين Microsoft Word نسخة لتغيير المظهر
 
-نسخ مختلفة من Microsoft Word ويمكن أن يعرض الطلب الوثائق بطريقة مختلفة. فعلى سبيل المثال، توجد مشكلة معروفة جيداً في وثائق OOXML مثل DOCX أو DOTX produced using WPS Office. وفي مثل هذه الحالات، قد تكون عناصر علامات الوثائق الأساسية في عداد المفقودين أو قد تفسر بطريقة مختلفة مما يسبب Microsoft Word 2019 لعرض مثل هذه الوثيقة بشكل مختلف مقارنة بـ Microsoft Word 2010.
+إصدارات مختلفة من تطبيق Microsoft Word يمكن عرض المستندات بشكل مختلف. على سبيل المثال، هناك مشكلة معروفة مع OOXML وثائق مثل DOCX أو DOTX أنتجت باستخدام WPS مكتب. في مثل هذه الحالات، قد تكون عناصر ترميز المستند الأساسية مفقودة أو قد يتم تفسيرها بشكل مختلف مما يتسبب في Microsoft Word 2019 لإظهار مثل هذا المستند بشكل مختلف مقارنة بـ Microsoft Word 2010.
 
-بالخطأ Aspose.Words فتح الوثائق باستخدام Microsoft Word 2019 قاعدة إذا كنت بحاجة لجعل تحميل الوثائق تظهر كما سيحدث في واحد من السابق Microsoft Word نسخ الطلبات، ينبغي أن تحددوا صراحة الصيغة المنشودة باستخدام [MswVersion](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getMswVersion) ممتلكات **LoadOptions** الصف
+افتراضيا Aspose.Words يفتح المستندات باستخدام Microsoft Word 2019 قواعد. إذا كنت بحاجة إلى جعل تحميل المستند يظهر كما سيحدث في أحد إصدارات التطبيق Microsoft Word السابقة، فيجب عليك تحديد الإصدار المطلوب صراحة باستخدام خاصية [MswVersion](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getMswVersion) لفئة **LoadOptions**.
 
-The following code example shows how to set the Microsoft Word نسخة مع خيارات التحميل:
+يوضح مثال التعليمات البرمجية التالية كيفية تعيين الإصدار Microsoft Word مع خيارات التحميل:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-SetMSWordVersion.java" >}}
 
-## تحديد الأفضليات اللغوية لتغيير الظهور
+## تعيين تفضيلات اللغة لتغيير المظهر
 
-تفاصيل عرض وثيقة في Microsoft Word لا يعتمد فقط على نسخة الطلب وعلى **MswVersion** القيمة العقارية، ولكن أيضاً في أطر اللغات. Microsoft Word يمكن أن تظهر الوثائق بشكل مختلف تبعاً لـ "أفضليات اللغة المكتبية" وباستخدام هذا الهاتف يمكن للمستعمل أن يختار، على سبيل المثال، اللغة الأولية، لغات الإثبات، لغات العرض، وما إلى ذلك. Aspose.Words يوفر [LanguagePreferences](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getLanguagePreferences) -ممتلكات معادلة لهجة إذا Aspose.Words يختلف الناتج عن Microsoft Word الناتج، يحدد القيمة المناسبة **EditingLanguage** - يمكن أن يؤدي ذلك إلى تحسين وثيقة الناتج.
+لا تعتمد تفاصيل عرض مستند في Microsoft Word على إصدار التطبيق وقيمة الخاصية **MswVersion** فحسب، بل تعتمد أيضا على إعدادات اللغة. Microsoft Word قد تظهر المستندات بشكل مختلف اعتمادا على إعدادات مربع الحوار" تفضيلات لغة المكتب "، والتي يمكن العثور عليها في"ملف Options خيارات Language لغة". باستخدام مربع الحوار هذا، يمكن للمستخدم تحديد، على سبيل المثال، اللغة الأساسية ولغات التدقيق ولغات العرض وما إلى ذلك. Aspose.Words يوفر خاصية [LanguagePreferences](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getLanguagePreferences) كمكافئ لمربع الحوار هذا. إذا كان الإخراج Aspose.Words يختلف عن الإخراج Microsoft Word، فقم بتعيين القيمة المناسبة لـ **EditingLanguage** - يمكن أن يؤدي ذلك إلى تحسين مستند الإخراج.
 
-المثال الرمزي التالي يُظهر كيفية وضع اليابانيين **EditingLanguage**:
+يوضح مثال الكود التالي كيفية تعيين اليابانية على أنها **EditingLanguage**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SetupLanguagePreferences-AddJapaneseAsEditinglanguages.java" >}}
 
-## الاستخدام WarningCallback to Control Problems بينما تحمل وثيقة
+## استخدم WarningCallback للتحكم في المشكلات أثناء تحميل مستند
 
-وقد تفسد بعض الوثائق، أو تتضمن قيودا غير صحيحة، أو تكون لها سمات لا تدعمها حاليا Aspose.Words. إذا كنت تريد أن تعرف عن المشاكل التي حدثت أثناء تحميل وثيقة، Aspose.Words يوفر [IWarningCallback](https://reference.aspose.com/words/java/com.aspose.words/iwarningcallback/) واجهة
+قد تكون بعض المستندات تالفة أو تحتوي على إدخالات غير صالحة أو تحتوي على ميزات غير مدعومة حاليا بواسطة Aspose.Words. إذا كنت تريد معرفة المشكلات التي حدثت أثناء تحميل مستند، Aspose.Words يوفر [IWarningCallback](https://reference.aspose.com/words/java/com.aspose.words/iwarningcallback/) واجهة.
 
-ويبين المثال الرمزي التالي تنفيذ **IWarningCallback** واجهة:
+يوضح مثال التعليمات البرمجية التالية تنفيذ واجهة **IWarningCallback**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadOptionsCallbacks-DocumentLoadingWarningCallback.java" >}}
 
-للحصول على معلومات عن جميع المشاكل طوال فترة الحمل، استخدام [WarningCallback](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getWarningCallback) ملكية
+للحصول على معلومات حول جميع المشاكل طوال وقت التحميل، استخدم خاصية [WarningCallback](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getWarningCallback).
 
-The following code example shows how to use this property:
+يوضح مثال التعليمات البرمجية التالية كيفية استخدام هذه الخاصية:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadOptionsCallbacks-LoadOptionsWarningCallback.java" >}}
 
-## استخدام الموارد نداء لمكافحة تحميل الموارد الخارجية
+## استخدم ResourceLoadingCallback للتحكم في تحميل الموارد الخارجية
 
-ويمكن أن تتضمن الوثيقة وصلات خارجية بالصور الموجودة في مكان ما على قرص محلي أو شبكة أو شبكة محلية. Aspose.Words وتحمّل هذه الصور تلقائياً في وثيقة ما، ولكن هناك حالات يتعين فيها السيطرة على هذه العملية. على سبيل المثال، أن نقرر ما إذا كنا حقا بحاجة إلى تحميل صورة معينة أو ربما تخطيها. The [ResourceLoadingCallback](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getResourceLoadingCallback) خيار التحميل يسمح لك بالتحكم في هذا
+قد يحتوي المستند على روابط خارجية لصور موجودة في مكان ما على قرص محلي أو شبكة أو إنترنت. Aspose.Words يقوم تلقائيا بتحميل هذه الصور في مستند، ولكن هناك حالات تحتاج فيها هذه العملية إلى التحكم. على سبيل المثال، لتحديد ما إذا كنا نحتاج حقا إلى تحميل صورة معينة أو ربما تخطيها. يسمح لك خيار التحميل [ResourceLoadingCallback](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getResourceLoadingCallback) بالتحكم في ذلك.
 
-ويبين المثال الرمزي التالي تنفيذ [IResourceLoadingCallback](https://reference.aspose.com/words/java/com.aspose.words/iresourceloadingcallback/) واجهة:
+يوضح مثال التعليمات البرمجية التالية تنفيذ واجهة [IResourceLoadingCallback](https://reference.aspose.com/words/java/com.aspose.words/iresourceloadingcallback/):
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadOptionsCallbacks-HtmlLinkedResourceLoadingCallback.java" >}}
 
-The following code example shows how to use the **ResourceLoadingCallback** الممتلكات:
+يوضح مثال التعليمات البرمجية التالية كيفية استخدام الخاصية **ResourceLoadingCallback**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadOptionsCallbacks-LoadOptionsResourceLoadingCallback.java" >}}
 
-## إستخدم (تيمبندر) لتجنب إستثناء الذاكرة
+## استخدم TempFolder لتجنب استثناء الذاكرة
 
-Aspose.Words تؤيد الوثائق الكبيرة جدا التي تحتوي على آلاف الصفحات المليئة بالمحتوى الغني. وقد يتطلب وضع هذه الوثائق الكثير من إجراءات إدارة السجلات والمحفوظات. في عملية التحميل Aspose.Words ويحتاج الأمر إلى مزيد من الذاكرة لإقامة هياكل مؤقتة تستخدم في صياغة وثيقة.
+Aspose.Words يدعم المستندات الكبيرة للغاية التي تحتوي على آلاف الصفحات المليئة بالمحتوى الغني. قد يتطلب تحميل هذه المستندات الكثير RAM. في عملية التحميل، Aspose.Words يحتاج المزيد من الذاكرة لعقد الهياكل المؤقتة المستخدمة لتحليل وثيقة.
 
-إذا كان لديك مشكلة مع استثناء خارج الذاكرة بينما تحميل وثيقة، محاولة استخدام [TempFolder](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getTempFolder) ملكية في هذه الحالة Aspose.Words وسوف تخزن بعض البيانات في الملفات المؤقتة بدلا من الذاكرة، وهذا يمكن أن يساعد على تجنب هذا الاستثناء.
+إذا كانت لديك مشكلة في استثناء نفاد الذاكرة أثناء تحميل مستند، فحاول استخدام الخاصية [TempFolder](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getTempFolder). في هذه الحالة، سيقوم Aspose.Words بتخزين بعض البيانات في ملفات مؤقتة بدلا من الذاكرة، وهذا يمكن أن يساعد في تجنب مثل هذا الاستثناء.
 
-ويبين المثال الرمزي التالي كيفية وضعه **TempFolder**:
+يوضح مثال الكود التالي كيفية تعيين **TempFolder**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-SetTempFolder.java" >}}
 
-## جهز الترميز بشكل واضح
+## تعيين الترميز صراحة
 
-ومعظم أشكال الوثائق الحديثة تخزن محتواها في أونيكود ولا تتطلب مناولة خاصة. ومن جهة أخرى، لا تزال هناك العديد من الوثائق التي تستخدم بعض التزيينات السابقة للتوحيد، وأحياناً إما تفوت المعلومات أو لا تدعم حتى المعلومات المزينة حسب الطبيعة. Aspose.Words يحاول أن يكتشف تلقائياً التشفير المناسب عن طريق التقصير لكن في حالة نادرة قد تحتاج إلى استخدام تشفير مختلف عن الذي اكتشفه خوارزمياتنا In this case, use the [Encoding](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getEncoding) ملكية للحصول على أو وضع الزينة.
+تخزن معظم تنسيقات المستندات الحديثة محتواها في يونيكود ولا تتطلب معالجة خاصة. من ناحية أخرى، لا يزال هناك العديد من المستندات التي تستخدم بعض ترميز ما قبل يونيكود وأحيانا إما تفوت معلومات الترميز أو لا تدعم حتى معلومات الترميز بطبيعتها. Aspose.Words يحاول اكتشاف الترميز المناسب تلقائيا بشكل افتراضي، ولكن في حالة نادرة قد تحتاج إلى استخدام ترميز مختلف عن الترميز الذي تم اكتشافه بواسطة خوارزمية التعرف على الترميز الخاصة بنا. في هذه الحالة، استخدم الخاصية [Encoding](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getEncoding) للحصول على الترميز أو تعيينه.
 
-The following code example shows how to set the encoding to override the automatically chosen encoding:
+يوضح مثال التعليمات البرمجية التالية كيفية تعيين الترميز لتجاوز الترميز الذي تم اختياره تلقائيا:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-LoadOptionsEncoding.java" >}}
 
-## وثائق مشفرة
+## تحميل المستندات المشفرة
 
-يمكنك تحميل وثائق الكلمات مشفرة بكلمة سر للقيام بذلك، استخدام تحميل خاص للتشييد، الذي يقبل [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) هدف هذا الجسم يحتوي على [Password](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getPassword) الممتلكات التي تحدد خط كلمة السر
+يمكنك تحميل مستندات كلمة مشفرة بكلمة مرور. للقيام بذلك، استخدم الزائد منشئ خاص، الذي يقبل كائن [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/). يحتوي هذا الكائن على خاصية [Password](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getPassword)، والتي تحدد سلسلة كلمة المرور.
 
-ويبين المثال الرمزي التالي كيفية تحميل وثيقة مشفرة بكلمة سر:
+يوضح مثال الكود التالي كيفية تحميل مستند مشفر بكلمة مرور:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-OpenDocument-OpenEncryptedDocument.java" >}}
 
-إذا كنت لا تعرف مسبقا ما إذا كان الملف مشفرة، يمكنك استخدام [FileFormatUtil](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/) الدرجة التي توفر أساليب مفيدة للعمل في شكل ملفات، مثل الكشف عن شكل الملفات أو تحويل تمديدات الملفات إلى/من قوائم الاستمارة. للكشف عما إذا كانت الوثيقة مشفرة وتتطلب كلمة سر لفتحها، واستخدام [IsEncrypted](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#isEncrypted) ملكية
+إذا كنت لا تعرف مسبقا ما إذا كان الملف مشفرا، فيمكنك استخدام فئة [FileFormatUtil](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/)، والتي توفر طرقا مفيدة للعمل مع تنسيقات الملفات، مثل اكتشاف تنسيق الملف أو تحويل امتدادات الملفات إلى/من تعدادات تنسيق الملف. لاكتشاف ما إذا كان المستند مشفرا ويتطلب كلمة مرور لفتحه، استخدم خاصية [IsEncrypted](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#isEncrypted).
 
-ويبين المثال الرمزي التالي كيفية التحقق من الوثائق المفتوحة إما أنها مشفرة أو لا:
+يوضح مثال الكود التالي كيفية التحقق من OpenDocument إما أنه مشفر أم لا:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-VerifyODTdocument.java" >}}

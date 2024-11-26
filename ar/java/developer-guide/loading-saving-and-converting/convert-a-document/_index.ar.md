@@ -1,102 +1,102 @@
----
-title: تحويل وثيقة في Java
-second_title: Aspose.Words for Java
-articleTitle: Convert a Document
-linktitle: Convert a Document
+﻿---
+title: تحويل مستند في Java
+second_title: Aspose.Words ل Java
+articleTitle: تحويل مستند
+linktitle: تحويل مستند
 type: docs
 weight: 30
 url: /ar/java/convert-a-document/
-description: "تحويل الوثائق بسهولة من شكل إلى آخر. يمكنك العمل مع أكثر الأشكال شعبية مثل Microsoft Word صيغ من قبيل DOCX أو DOC, OpenDocument formats such as ODT or OTT, web formats such as HTML or XHTML, text formats such as MarkDown or TXT, and others using Java."
+description: "تحويل المستندات بسهولة من تنسيق إلى آخر. يمكنك العمل مع جميع التنسيقات الأكثر شيوعا مثل Microsoft Word التنسيقات مثل DOCX أو DOC، OpenDocument التنسيقات مثل ODT أو OTT، وتنسيقات الويب مثل HTML أو XHTML، وتنسيقات النص مثل MarkDown أو TXT، وغيرها باستخدام Java."
 timestamp: 2024-09-25-11-08-55
 ---
 
-إن القدرة على تحويل الوثائق بسهولة وبطريقة موثوق بها من شكل إلى آخر هي أحد المجالات الرئيسية Aspose.Words. وهذا التحويل ليس سوى مزيج من عمليات التحميل والادخار.
+تعد القدرة على تحويل المستندات بسهولة وموثوقية من تنسيق إلى آخر أحد مجالات الميزات الرئيسية في Aspose.Words. مثل هذا التحويل ليس أكثر من مزيج من عمليات التحميل والحفظ.
 
-## ما هي الوثيقة {#what-is-document-conversion}
+## ما هو تحويل المستند {#what-is-document-conversion}
 
-تقريباً أي مهمة تريد أن تؤديها Aspose.Words ينطوي على تحميل أو توفير وثيقة في شكل ما. كما ذكر في الفروع السابقة، [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) يُحدِّد العدّ جميع *load* أو *import* الأشكال التي تدعمها Aspose.Wordsو [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) يُحدِّد العدّ جميع *save* أو *export* الأشكال التي تدعمها Aspose.Words. وهكذا، Aspose.Words ويمكن تحويل وثيقة من أي شكل من أشكال الحمولة المدعومة إلى أي شكل من أشكال الادخار المدعومة. وكقاعدة عامة، يتطلب هذا التحويل عدة مراحل من الحساب. غير أنه من منظور المستعملين، فإن التحول من شكل وثائق إلى آخر هو في حد ذاته بسيط جدا، ويمكن تحقيقه بخطوتين فقط هما:
+تتضمن أي مهمة تريد تنفيذها باستخدام Aspose.Words تقريبا تحميل مستند أو حفظه بتنسيق ما. كما هو مذكور في الأقسام السابقة، يحدد التعداد [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) جميع التنسيقات *load* أو *import* التي يدعمها Aspose.Words، ويحدد التعداد [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) جميع التنسيقات *save* أو *export* التي يدعمها Aspose.Words. وبالتالي، يمكن Aspose.Words تحويل مستند من أي تنسيق تحميل مدعوم إلى أي تنسيق حفظ مدعوم. كقاعدة عامة، يتطلب هذا التحويل عدة مراحل من الحساب. ومع ذلك، من منظور المستخدم، فإن التحويل من تنسيق مستند إلى تنسيق آخر هو في حد ذاته بسيط للغاية، ويمكن تحقيقه بخطوتين فقط:
 
-1 ضع وثيقتك في [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) استعمل أحد بنائه
-1 استفزاز واحد من [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String-int) الأساليب المتعلقة **Document** الهدف وتحديد الشكل المنشود للنواتج.
+1. قم بتحميل المستند الخاص بك في كائن [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) باستخدام أحد منشئيه.
+1. استدعاء إحدى طرق [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String-int) على الكائن **Document** وحدد تنسيق الإخراج المطلوب.
 
 {{% alert color="primary" %}}
 
-**حاول على الإنترنت**
+**جرب عبر الإنترنت**
 
-يمكنك أن تجرب هذه الوظيفة معنا [محول إلكتروني مجاني](https://products.aspose.app/words/conversion).
+يمكنك تجربة هذه الوظيفة من خلال [محول مجاني على الإنترنت](https://products.aspose.app/words/conversion).
 
 {{% /alert %}}
 
-## التحويل الشعبي {#popular-conversions}
+## التحويلات الشعبية {#popular-conversions}
 
-ويصف الفرع الحالي التحولات الشعبية، فضلا عن الأفكار المتعلقة بالعمل مع بعض التركيبات عند التحميل والادخار. وباستخدام أمثلة هذا الفرع، يمكنكم أن تفهموا أن عملية التحويل ذاتها عالمية تماما، وليس هناك ما يدعو إلى وصف جميع الخيارات الممكنة، حيث أن هناك عدة مئات منها بسبب العدد الكبير من هذه الخيارات [الوثائق الداعمة](/words/ar/java/supported-document-formats/).
+يصف القسم الحالي التحويلات الشائعة، بالإضافة إلى أفكار للعمل مع بعض مجموعات التنسيقات عند التحميل والحفظ. باستخدام أمثلة هذا القسم، يمكنك أن تفهم أن عملية التحويل نفسها عالمية تماما، ولا فائدة من وصف جميع الخيارات الممكنة، نظرا لوجود عدة مئات منها بسبب العدد الكبير من [التنسيقات التي يدعمها Aspose.Words لـ Java](/words/java/supported-document-formats/).
 
 {{% alert color="primary" %}}
 
-ويُرجى ملاحظة أن ما يلي هو أكثر مجموعات التحويل شعبية، وليس كل مزيج مرتبط بالصفحة المحددة. وهذا هو الحال لأن مقالاتنا لا تتضمن أمثلة على كل زوج من التحويلات - وجميع التحويلات تقريبا متشابهة جدا. تأكد من ذلك بدراسة المواد في القسم الحالي
+يرجى ملاحظة أنه فيما يلي مجموعات التحويل الأكثر شيوعا، وليس كل مجموعة مرتبطة بالصفحة المحددة. هذا هو الحال لأن مقالاتنا لا تحتوي على أمثلة لكل زوج من التحويلات – جميع التحويلات تقريبا متشابهة جدا. تأكد من ذلك من خلال دراسة المقالات في القسم الحالي.
 
 {{% /alert %}}
 
 <div class="row">
 	<div class="col-md-6">
-		<h2>Convert Word to PDF</h2>
+		<h2>تحويل كلمة إلى PDF</h2>
 			<ul>
-				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convert DOC to PDF</a></li>
-				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convert DOCX to PDF</a></li>
-				<li>and others</li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">تحويل DOC إلى PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">تحويل DOCX إلى PDF</a></li>
+				<li>وغيرها</li>
 			</ul>
-		<h2>Convert Image to PDF</h2>
+		<h2>تحويل الصورة إلى PDF</h2>
 			<ul>
-				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convert JPG to PDF</a></li>
-				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convert TIFF to PDF</a></li>
-				<li>and others</li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">تحويل JPG إلى PDF</a></li>
+				<li><a href="/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">تحويل TIFF إلى PDF</a></li>
+				<li>وغيرها</li>
 			</ul>
-		<h2>Convert web Formats to PDF</h2>
+		<h2>تحويل تنسيقات الويب إلى PDF</h2>
 			<ul>
-				<li>منحرف Markdown to PDF</li>
-				<li>Convert HTML to PDF</li>
-				<li>Convert MHT (MHTML) to PDF</li>
-				<li>and others</li>
+				<li>تحويل Markdown إلى PDF</li>
+				<li>تحويل HTML إلى PDF</li>
+				<li>تحويل MHT (MHTML) إلى PDF</li>
+				<li>وغيرها</li>
 			</ul>
-		<h2>Convert Other Formats to PDF</h2>
+		<h2>تحويل تنسيقات أخرى إلى PDF</h2>
 			<ul>
-				<li>Convert RTF to PDF</li>
-				<li>Convert ODT to PDF</li>
-				<li>Convert TXT to PDF</li>
-				<li>Convert Mobi to PDF</li>
-				<li>and others</li>
+				<li>تحويل RTF إلى PDF</li>
+				<li>تحويل ODT إلى PDF</li>
+				<li>تحويل TXT إلى PDF</li>
+				<li>تحويل موبي إلى PDF</li>
+				<li>وغيرها</li>
 			</ul>
 	</div>
 	<div class="col-md-6">
-		<h2>تحويل وثيقة إلى صورة</h2>
+		<h2>تحويل مستند إلى صورة</h2>
 			<ul>
-				<li><a href="/words/ar/java/convert-a-document-to-an-image/">تحويل وثيقة إلى صورة</a></li>
-				<li>Convert DOC to PNG</li>
-				<li>and others</li>
+				<li><a href="/words/java/convert-a-document-to-an-image/">تحويل DOCX إلى JPG</a></li>
+				<li>تحويل DOC إلى PNG</li>
+				<li>وغيرها</li>
 			</ul>
-		<h2>تحويل وثيقة إلى Markdown</h2>
+		<h2>تحويل مستند إلى Markdown</h2>
 			<ul>
-				<li><a href="/words/ar/java/convert-a-document-to-markdown/">تحويل وثيقة إلى Markdown</a></li>
-				<li>Convert HTML to Markdown</li>
-				<li>and others</li>
+				<li><a href="/words/java/convert-a-document-to-markdown/">تحويل مستند إلى Markdown</a></li>
+				<li>تحويل HTML إلى Markdown</li>
+				<li>وغيرها</li>
 			</ul>
-		<h2>Convert a Document to HTML</h2>
+		<h2>تحويل مستند إلى HTML</h2>
 			<ul>
-				<li><a href="/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">ترجمة</a></li>
-				<li>منحرف Markdown to HTML</li>
-				<li>Convert Mobi to EPUB</li>
-				<li>and others</li>
+				<li><a href="/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">تحويل كلمة إلى HTML</a></li>
+				<li>تحويل Markdown إلى HTML</li>
+				<li>تحويل موبي إلى EPUB</li>
+				<li>وغيرها</li>
 			</ul>
-		<h2>العمل بوثيقة في قاعدة بيانات</h2>
+		<h2>عمل مستند في قاعدة بيانات</h2>
 			<ul>
-				<li><a href="/words/ar/java/serialize-and-work-with-a-document-in-a-database/">تشغيل الوثائق والعمل بها في قاعدة بيانات</a></li>
+				<li><a href="/words/java/serialize-and-work-with-a-document-in-a-database/">تسلسل والعمل مع وثيقة في قاعدة بيانات</a></li>
 			</ul>
 		<h2>أمثلة أخرى</h2>
 			<ul>
-				<li><a href="/words/ar/java/convert-a-document-to-mhtml-and-send-it-by-email/">ترجمة:</a></li>
-				<li>Convert DOCX to DOC</li>
-				<li>ترجمة</li>
-				<li>and others</li>
+				<li><a href="/words/java/convert-a-document-to-mhtml-and-send-it-by-email/">تحويل مستند إلى MHTML وإرساله عبر البريد الإلكتروني</a></li>
+				<li>تحويل DOCX إلى DOC</li>
+				<li>تحويل HTML إلى كلمة</li>
+				<li>وغيرها</li>
 			</ul>
 	</div>
 </div>

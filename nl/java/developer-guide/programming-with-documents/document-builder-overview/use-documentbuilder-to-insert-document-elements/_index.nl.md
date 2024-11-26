@@ -1,8 +1,8 @@
 ---
-title: Gebruik `DocumentBuilder` Documentelementen invoegen
+title: Gebruik DocumentBuilder Documentelementen invoegen
 second_title: Aspose.Words voor Java
-articleTitle: Gebruik `DocumentBuilder` Documentelementen invoegen
-linktitle: Gebruik `DocumentBuilder` Documentelementen invoegen
+articleTitle: Gebruik DocumentBuilder Documentelementen invoegen
+linktitle: Gebruik DocumentBuilder Documentelementen invoegen
 type: docs
 description: "Documentelementen invoegen met de documentbuilder in Java."
 weight: 10

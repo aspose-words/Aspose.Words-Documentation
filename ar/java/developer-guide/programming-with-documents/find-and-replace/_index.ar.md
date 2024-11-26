@@ -1,99 +1,99 @@
----
-title: البحث والاستبدال Java
-second_title: Aspose.Words for Java
+﻿---
+title: البحث والاستبدال في Java
+second_title: Aspose.Words ل Java
 articleTitle: البحث والاستبدال
 linktitle: البحث والاستبدال
 type: docs
-description: "ابحثي عن نمط أو تعبير منتظم في وثيقتك وإستبدليه بالنص الذي تريدينه Java."
+description: "ابحث عن سلسلة أو نمط تعبير عادي في المستند واستبدله بالنص الذي تريده باستخدام Java."
 weight: 100
 url: /ar/java/find-and-replace/
 timestamp: 2024-01-27-14-07-04
 ---
 
-يمكنك بسهولة أن تبحر داخل وثيقتك باستخدام لوحة مفاتيح وفأر، ولكن إذا كان لديك العديد من الصفحات لتخترق، سوف يستغرق الأمر وقتاً طويلاً لإيجاد نص محدد في وثيقة طويلة. سيكون وقتاً أطول عندما تريد استبدال بعض الشخصيات أو الكلمات التي استخدمتها في وثيقتك إن وظيفة " التمويل والاستعاضة عنها " تمكنكم من العثور على تسلسل من الشخصيات في وثيقة ما والاستعاضة عنها بتسلسل آخر من الشخصيات.
+يمكنك التنقل بسهولة داخل المستند باستخدام لوحة المفاتيح والماوس، ولكن إذا كان لديك العديد من الصفحات للتمرير خلالها، فسوف يستغرق الأمر بعض الوقت للعثور على نص معين في مستند طويل. سيكون الأمر أكثر استهلاكا للوقت عندما تريد استبدال أحرف أو كلمات معينة استخدمتها في المستند الخاص بك. تتيح لك وظيفة" البحث والاستبدال " العثور على سلسلة من الأحرف في مستند واستبدالها بتسلسل آخر من الأحرف.
 
-Aspose.Words يُمكِنُك أَنْ تَجِدَ a سلسلة محددة أَو نمط تعبير منتظم في وثيقتِكَ ويَستبدلُه بa بديل بدون تركيب واستخدام تطبيقات إضافية مثل Microsoft Word. وسيؤدي ذلك إلى التعجيل بالعديد من مهام الطباعة والتشكيل، مما قد يوفر لك ساعات من العمل.
+Aspose.Words يسمح لك بالعثور على سلسلة معينة أو نمط تعبير عادي في المستند واستبداله ببديل دون تثبيت واستخدام تطبيقات إضافية مثل Microsoft Word. سيؤدي ذلك إلى تسريع العديد من مهام الكتابة والتنسيق، مما قد يوفر لك ساعات من العمل.
 
-وتوضح هذه المادة كيفية تطبيق عمليات استبدال الخيوط والعبارات المنتظمة بدعم من المصانع.
+تشرح هذه المقالة كيفية تطبيق استبدال السلسلة والتعبيرات العادية بدعم من الأحرف الأولية.
 
-## سبل البحث والاستبدال {#ways-to-find-and-replace}
+## طرق لإيجاد واستبدال {#ways-to-find-and-replace}
 
-Aspose.Words يوفر طريقتين لتطبيق البحث والاستعاضة عن العملية باستخدام ما يلي:
+Aspose.Words يوفر طريقتين لتطبيق عملية البحث والاستبدال باستخدام ما يلي:
 
-1 * الاستعاضة عن الخيط المبسط* - للعثور على خيط محدد والاستعاضة عنه بسلسلة أخرى، تحتاج إلى تحديد سلسلة بحث (الخصائص الزمانية) ستستبدل وفقاً لجميع الأحداث مع سلسلة استبدال محددة أخرى. كلا الخيوط يجب ألا تحتوي على رموز خذ في الحسبان أن مقارنة الخيوط يمكن أن تكون حساسة، أو قد تكون غير متأكد من التهجئة أو لديك عدة تعاويذ مماثلة.
-2 - * تعابير نظامية* - تحديد تعبير منتظم للعثور على تطابق السلاسل بدقة والاستعاضة عنها وفقا لتعبيركم المعتاد. ملاحظة أن كلمة واحدة تُعرَّف بأنها تتألف من شخصيات ألفية فقط. إذا أعدم بديل مع تطابق الكلمات كاملة فقط و خيط المدخلات يحتوي على رموز، ثم لا توجد عبارات.
+1. *Simple string replacement* - للعثور على سلسلة معينة واستبدالها بسلسلة أخرى، تحتاج إلى تحديد سلسلة بحث (أحرف أبجدية رقمية) سيتم استبدالها وفقا لجميع التكرارات بسلسلة استبدال أخرى محددة. يجب ألا تحتوي كلتا السلسلتين على رموز. ضع في اعتبارك أن مقارنة السلسلة يمكن أن تكون حساسة لحالة الأحرف، أو قد تكون غير متأكد من التهجئة أو لديك عدة تهجئات متشابهة.
+2. *Regular expressions* - لتحديد تعبير عادي للعثور على تطابقات السلسلة الدقيقة واستبدالها وفقا لتعبيرك العادي. لاحظ أنه يتم تعريف الكلمة على أنها تتكون من أحرف أبجدية رقمية فقط. إذا تم تنفيذ بديل مع مطابقة كلمات كاملة فقط وكانت سلسلة الإدخال تحتوي على رموز، فلن يتم العثور على عبارات.
 
-أيضا، يمكنك استخدام المفاعلات المميزة الخاصة مع استبدال الخيوط البسيطة والتعبيرات المنتظمة لتحديد الكسرات داخل البحث واستبدال العملية.
+أيضا، يمكنك استخدام الأحرف الأولية الخاصة مع استبدال سلسلة بسيطة والتعبيرات العادية لتحديد فواصل داخل عملية البحث والاستبدال.
 
-Aspose.Words يعرض العثور ويحل محل الوظيفة [IReplacingCallBack](https://reference.aspose.com/words/java/com.aspose.words/ireplacingcallback/). يمكنك العمل مع العديد من الخيارات خلال البحث والاستعاضة عن العملية باستخدام [FindReplaceOptions](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/) الصف
+Aspose.Words يعرض وظيفة البحث والاستبدال بـ [IReplacingCallBack](https://reference.aspose.com/words/java/com.aspose.words/ireplacingcallback/). يمكنك العمل مع العديد من الخيارات أثناء عملية البحث والاستبدال باستخدام فئة [FindReplaceOptions](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/).
 
-### البحث والاستعاضة عن النص باستخدام استبدال بسيط {#find-and-replace-text-using-simple-string-replacement}
+### البحث عن النص واستبداله باستخدام استبدال سلسلة بسيطة {#find-and-replace-text-using-simple-string-replacement}
 
-يمكنك استخدام واحد من [Replace](https://reference.aspose.com/words/java/com.aspose.words/range/#replace-java.lang.String-java.lang.String):: طرق العثور على سلسلة معينة أو استبدالها وإعادة عدد البدائل التي تم استبدالها. In this case, you can specify a string to be replaced, a string that will replace all its occurrences, whether the replacement is case-sensitive, and whether only stand-alone words will be affected.
+يمكنك استخدام إحدى طرق [Replace](https://reference.aspose.com/words/java/com.aspose.words/range/#replace-java.lang.String-java.lang.String) للعثور على سلسلة معينة أو استبدالها وإرجاع عدد عمليات الاستبدال التي تم إجراؤها. في هذه الحالة، يمكنك تحديد سلسلة ليتم استبدالها، سلسلة من شأنها أن تحل محل جميع تكرارها، ما إذا كان الاستبدال حساس لحالة الأحرف، وما إذا كانت الكلمات المستقلة فقط ستتأثر.
 
-ويبين المثال الرمزي التالي كيفية العثور على الخيط " __CustomerName_ " والاستعاضة عنه بالخيط * " James Bond " *:
+يوضح مثال الكود التالي كيفية العثور على السلسلة" _CustomerName_ " واستبدالها بالسلسلة *"James Bond"*:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-SimpleStringReplacement.java" >}}
 
-يمكنك أن تلاحظ الفرق بين الوثيقة قبل تطبيق الاستبدال البسيط للسلسلة:
+يمكنك ملاحظة الفرق بين المستند قبل تطبيق استبدال سلسلة بسيطة:
 
 <img src="/words/java/find-and-replace/before-simple-string-replacement.png" alt="before-simple-string-replacement-aspose-words-java" style="width:600px"/>
 
-وبعد تطبيق الاستبدال البسيط
+وبعد تطبيق استبدال سلسلة بسيطة:
 
 <img src="/words/java/find-and-replace/after-simple-string-replacement.png" alt="after-simple-string-replacement-aspose-words-java" style="width:600px"/>
 
-### البحث والاستبدال {#find-and-replace-text-using-regular-expressions}
+### ابحث عن النص واستبدله باستخدام التعبيرات العادية {#find-and-replace-text-using-regular-expressions}
 
-A regular expression (regex) is a pattern that describes a certain sequence of text. افترض انك تريد ان تحل محل كل الاحداث المزدوجة للكلمة ثم يمكنك تطبيق التعبير العادي التالي لتحديد نمط الكلمات المزدوجة: `([a-zA-Z]+) \1`.
+التعبير العادي (التعبير العادي) هو نمط يصف تسلسلا معينا من النص. لنفترض أنك تريد استبدال جميع التكرارات المزدوجة للكلمة بحدوث كلمة واحدة. ثم يمكنك تطبيق التعبير العادي التالي لتحديد نمط الكلمة المزدوجة: `([a-zA-Z]+) \1`.
 
-استخدام الآخرين [Replace](https://reference.aspose.com/words/java/com.aspose.words/range/#replace-java.util.regex.Pattern-java.lang.String) طريقة البحث والاستعاضة عن تركيبات شخصية معينة عن طريق تحديد `Regex` البارامترات كالنمط العادي للتعبير عن المباريات
+استخدم طريقة [Replace](https://reference.aspose.com/words/java/com.aspose.words/range/#replace-java.util.regex.Pattern-java.lang.String) الأخرى للبحث عن مجموعات أحرف معينة واستبدالها عن طريق تعيين المعلمة `Regex` كنمط تعبير عادي للعثور على التطابقات.
 
-ويبيّن المثال الرمزي التالي كيفية استبدال الخيوط التي تتطابق مع نمط التعبير المنتظم مع سلسلة استبدال محددة:
+يوضح مثال التعليمات البرمجية التالية كيفية استبدال السلاسل التي تطابق نمط تعبير عادي مع سلسلة استبدال محددة:
 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-UsingRegularExpression.java" >}}
 
 
-يمكنك أن تلاحظ الفرق بين الوثيقة قبل تطبيق السلاسل البديلة مع التعبيرات المنتظمة:
+يمكنك ملاحظة الفرق بين المستند قبل تطبيق استبدال السلسلة بالتعبيرات العادية:
 
 <img src="/words/java/find-and-replace/before-replacement-with-regular-expressions.png" alt="before-replacement-with-regular-expressions-aspose-words-java" style="width:600px"/>
 
-وبعد تطبيق نظام استبدال الخيوط بتعبيرات منتظمة:
+وبعد تطبيق استبدال السلسلة بالتعبيرات العادية:
 
 <img src="/words/java/find-and-replace/after-replacement-with-regular-expressions.png" alt="after-replacement-with-regular-expressions-aspose-words-java" style="width:600px"/>
 
-### البحث والاستبدال {#find-and-replace-text-using-metacharacters}
+### ابحث عن السلسلة واستبدلها باستخدام الأحرف الأولية {#find-and-replace-text-using-metacharacters}
 
-يمكنك استخدام المفاعلات في سلسلة البحث أو خيط الاستبدال إذا كان نص معين أو عبارة معينة يتألف من فقرات أو فروع أو صفحات متعددة. بعض المصانع تشمل **&p** لاستراحة فقرة **&b** لإستراحة جزئية **&m** لإستراحة الصفحة **&l** لإستراحة
+يمكنك استخدام الأحرف الأولية في سلسلة البحث أو سلسلة الاستبدال إذا كان نص أو عبارة معينة تتكون من فقرات أو أقسام أو صفحات متعددة. تتضمن بعض الأحرف الأولية **&p** لكسر فقرة، **&b** لكسر مقطع، **&m** لكسر صفحة، و **&l** لكسر سطر.
 
 {{% alert color="primary" %}}
 
-ملاحظة: **&&** على قدم المساواة **&**. على سبيل المثال، إذا أردت أن تجد النص **&p** هذه ليست استراحة من الفقرة، ثم يمكنك استخدام **&&p**.
+لاحظ أن الحرف الأولي **&&** يساوي **&**. على سبيل المثال، إذا كنت بحاجة إلى العثور على نص **&p** الذي ليس فاصل فقرة، فيمكنك استخدام **&&p**.
 
 {{% /alert %}}
 
-ويبيّن المثال الرمزي التالي كيفية الاستعاضة عن النص بفترة استراحة وصفحة:
+يوضح مثال التعليمات البرمجية التالية كيفية استبدال النص بالفقرة وفاصل الصفحة:
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-ReplaceTextContaingMetaCharacters.java" >}}
 
-## البحث عن الوثيقة والاستعاضة عنها {#find-and-replace-string-in-header-or-footer-of-a-document}
+## ابحث عن السلسلة واستبدلها في رأس / تذييل المستند {#find-and-replace-string-in-header-or-footer-of-a-document}
 
-يمكنك العثور على النص والاستعاضة عنه في الجزء الرئيسي/القدم من وثيقة الكلمات باستخدام [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/) الصف
+يمكنك العثور على النص واستبداله في قسم الرأس / التذييل في مستند ورد باستخدام فئة [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/).
 
-ويبين المثال الرمزي التالي كيفية الاستعاضة عن نص الجزء الرئيسي في وثيقتكم بما يلي:
+يوضح مثال الكود التالي كيفية استبدال نص قسم الرأس في المستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-ReplaceTextInHeader.java" >}}
 
 
-يمكنك أن تلاحظ الفرق بين الوثيقة قبل أن تتقدم باستبدال خيط الرأس
+يمكنك ملاحظة الفرق بين المستند قبل تطبيق استبدال سلسلة الرأس:
 
 <img src="/words/java/find-and-replace/before-applying-header-string-replacement.png" alt="before-applying-header-string-replacement-aspose-words-java" style="width:600px"/>
 
-و بعد تطبيق خط الرأس
+وبعد تطبيق استبدال سلسلة الرأس:
 
 <img src="/words/java/find-and-replace/after-applying-header-string-replacement.png" alt="after-applying-header-string-replacement-aspose-words-java" style="width:600px"/>
 
-والمثال الرمزي على الاستعاضة عن نص قسم الأقدام في وثيقتكم مشابه جدا للمثال السابق لرمز الرأس. كل ما عليك فعله هو استبدال الخطين التاليين:
+مثال التعليمات البرمجية لاستبدال نص قسم التذييل في المستند مشابه جدا لمثال رمز الرأس السابق. كل ما عليك فعله هو استبدال الخطين التاليين:
 
 {{< highlight java >}}
 HeaderFooter header = headersFooters.get(HeaderFooterType.HEADER_PRIMARY);
@@ -105,46 +105,46 @@ header.getRange().replace("Aspose.Words", "Remove", options);
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-ReplaceTextInFooter.java" >}}
 
 
-يمكنك أن تلاحظ الفرق بين الوثيقة قبل أن تتقدم باستبدال الخيوط
+يمكنك ملاحظة الفرق بين المستند قبل تطبيق استبدال سلسلة التذييل:
 
 <img src="/words/java/find-and-replace/before-applying-footer-string-replacement.png" alt="before-applying-footer-string-replacement-aspose-words-java" style="width:600px"/>
 
-وبعد تطبيق خيوط الخيوط
+وبعد تطبيق استبدال سلسلة تذييل الصفحة:
 
 <img src="/words/java/find-and-replace/after-applying-footer-string-replacement.png" alt="after-applying-footer-string-replacement-aspose-words-java" style="width:600px"/>
 
-## Ignore text During Find and replace {#ignore-text-during-find-and-replace}
+## تجاهل النص أثناء البحث والاستبدال {#ignore-text-during-find-and-replace}
 
-عند تطبيق عملية البحث والاستعاضة عنها، يمكنك تجاهل بعض أجزاء النص. وبالتالي، يمكن استبعاد بعض أجزاء النص من البحث، ولا يمكن تطبيق البحث والاستعاضة عنه إلا على الأجزاء المتبقية.
+أثناء تطبيق عملية البحث والاستبدال، يمكنك تجاهل أجزاء معينة من النص. لذلك، يمكن استبعاد أجزاء معينة من النص من البحث، ويمكن تطبيق البحث والاستبدال فقط على الأجزاء المتبقية.
 
-Aspose.Words يوفر الكثير من الممتلكات التي يعثر عليها ويحل محلها من أجل تجاهل النص مثل [IgnoreDeleted](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreDeleted), [IgnoreFieldCodes](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFieldCodes), [IgnoreFields](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFields), [IgnoreFootnotes](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFootnotes), و [IgnoreInserted](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreInserted).
+Aspose.Words يوفر العديد من خصائص البحث والاستبدال لتجاهل النص مثل [IgnoreDeleted](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreDeleted), [IgnoreFieldCodes](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFieldCodes), [IgnoreFields](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFields), [IgnoreFootnotes](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreFootnotes), و [IgnoreInserted](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreInserted).
 
-ويبيّن المثال الرمزي التالي كيف يتجاهل النص في إطار التنقيحات الحذفية:
+يوضح مثال الكود التالي كيفية تجاهل النص داخل حذف المراجعات:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-IgnoreText-IgnoreTextInsideDeleteRevisions.java" >}}
 
-## تجميع البحث والاستبدال {#customize-find-and-replace-operation}
+## تخصيص البحث واستبدال العملية {#customize-find-and-replace-operation}
 
-Aspose.Words توفير العديد من الخدمات المختلفة [properties](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/) البحث عن النص والاستعاضة عنه مثل تطبيق شكل محدد [ApplyFont](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getApplyFont) و [ApplyParagraphFormats](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getApplyParagraphFormat) الممتلكات، باستخدام بدائل في أنماط الاستبدال مع [UseSubstitutions](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getUseSubstitutions) الممتلكات وغيرها
+Aspose.Words يوفر العديد من [properties](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/) مختلفة لإيجاد واستبدال النص مثل تطبيق شكل معين مع [ApplyFont](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getApplyFont) و [ApplyParagraphFormats](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getApplyParagraphFormat) الخصائص، وذلك باستخدام بدائل في أنماط استبدال مع [UseSubstitutions](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getUseSubstitutions) الملكية، وغيرها.
 
-ويبين المثال الرمزي التالي كيفية تسليط الضوء على كلمة محددة في وثيقتكم:
+يوضح مثال الكود التالي كيفية تمييز كلمة معينة في المستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-CustomizeFindAndReplaceOperation.java" >}}
 
 
-Aspose.Words يسمح لك باستخدام [IReplacingCallback](https://reference.aspose.com/words/java/com.aspose.words/ireplacingcallback/) وصلة بينية لخلق واتصال طريقة تقليدية أثناء عملية بديلة قد يكون لديك بعض الحالات التي تحتاج فيها لتكييف البحث والاستعاضة عن العملية مثل استبدال النص المحدد بتعبير منتظم مع البطاقات HTML، لذلك في الأساس سوف تطبق بدلا من إدخال HTML.
+Aspose.Words يسمح لك باستخدام [IReplacingCallback](https://reference.aspose.com/words/java/com.aspose.words/ireplacingcallback/) واجهة لإنشاء واستدعاء طريقة مخصصة أثناء عملية استبدال. قد يكون لديك بعض حالات الاستخدام حيث تحتاج إلى تخصيص عملية البحث والاستبدال مثل استبدال النص المحدد بتعبير عادي بعلامات HTML، لذلك ستطبق بشكل أساسي استبدال بإدراج HTML.
 
-إذا كنت بحاجة إلى استبدال الخيط مع علامة HTML، وتطبيق **IReplacingCallback** الواجهة لتكييف عملية البحث والاستعاضة عنها حتى تبدأ المباراة في بداية تشغيل مع عقدة مطابقة من وثيقتك. دعونا نقدم عدة أمثلة لاستخدامها **IReplacingCallback**.
+إذا كنت بحاجة إلى استبدال سلسلة بعلامة HTML، فقم بتطبيق واجهة **IReplacingCallback** لتخصيص عملية البحث والاستبدال بحيث تبدأ المطابقة في بداية التشغيل باستخدام عقدة المطابقة في المستند. دعونا نقدم عدة أمثلة على استخدام **IReplacingCallback**.
 
-ويبين المثال الرمزي التالي كيفية الاستعاضة عن النص المحدد برقم HTML:
+يوضح مثال الكود التالي كيفية استبدال النص المحدد بـ HTML:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-ReplaceWithHtml.java" >}}
 
 
-The following code example shows how to highlight positive numbers with green color and negative numbers with red color:
+يوضح مثال الكود التالي كيفية تمييز الأرقام الموجبة باللون الأخضر والأرقام السالبة باللون الأحمر:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-NumberHighlightCallback.java" >}}
 
-ويوضح المثال الرمزي التالي كيف يعتمد رقم خط لكل خط:
+يوضح مثال التعليمات البرمجية التالية كيفية إضافة رقم سطر إلى كل سطر:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-find_replace-FindAndReplace-TestLineCounter.java" >}}

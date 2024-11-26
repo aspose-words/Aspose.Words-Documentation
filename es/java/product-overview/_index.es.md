@@ -1,9 +1,9 @@
----
-title: Resumen de productos
-second_title: Aspose.Words para Java
-articleTitle: Resumen de productos
-linktitle: Resumen de productos
-description: "Aspose.Words para Java es una biblioteca de software diseñada para crear, modificar, convertir, renderizar y imprimir documentos sin depender de ningún otro software."
+﻿---
+title: Descripción General del Producto
+second_title: Aspose.Words por Java
+articleTitle: Descripción General del Producto
+linktitle: Descripción General del Producto
+description: "Aspose.Words for Java es una biblioteca de software diseñada para crear, modificar, convertir, renderizar e imprimir documentos sin depender de ningún otro software."
 type: docs
 weight: 5
 url: /es/java/product-overview/
@@ -12,100 +12,100 @@ timestamp: 2024-01-31-14-23-37
 
 <img src="/words/java/product-overview/home_1" alt="aspose-words-product" align="left" style="width:64px; margin: 0 30px 30px 0"/>
 
-Bienvenido a Aspose.Words para Java!
+¡Bienvenido a Aspose.Words por Java!
 
-Aspose.Words es una biblioteca de clase multiplataforma que permite a su aplicación realizar una amplia variedad de tareas de procesamiento de documentos. Lo llamamos editor de documentos programables.
+Aspose.Words es una biblioteca de clases multiplataforma que permite a su aplicación realizar una amplia variedad de tareas de procesamiento de documentos. Lo llamamos el Editor de Documentos Programable.
 
-Uso Aspose.Words, puede crear, modificar, convertir, renderizar e imprimir documentos sin depender de aplicaciones de terceros, como Microsoft Word, o Office Automation.
+Con Aspose.Words, puede crear, modificar, convertir, procesar e imprimir documentos sin depender de aplicaciones de terceros, como Microsoft Word o Office Automation.
 
-Vale la pena señalar que puede convertir un documento de cualquier formato de carga soportado a cualquier formato de ahorro compatible, por ejemplo, Microsoft Word formatos PDF, HTML o Markdown, HTML a DOCX, y así sucesivamente. Leer más sobre la conversión de documentos en el [Convertir un documento](/words/es/java/convert-a-document/) sección.
+Vale la pena señalar que puede convertir un documento de cualquier formato de carga compatible a cualquier formato de guardado compatible, por ejemplo, formatos Microsoft Word a PDF, HTML o Markdown, HTML a DOCX, y así sucesivamente. Obtenga más información sobre la conversión de documentos en el [Convertir un Documento](/words/java/convert-a-document/) sección.
 
-Otra opción popular de nuestra biblioteca es *Informes y Correos*. Nuestros usuarios generan altamente complejos ajustados individualmente financieros, médicos y otros *Reports*. Al hacerlo, el documento generado parece que usted creó el informe manualmente utilizando un editor de texto regular. Otra opción, *Mail*, proporciona la capacidad de generar rápidamente miles y millones de documentos simples pero todavía personales basados en plantillas.
+Otra opción popular de nuestra biblioteca es *Reports and Mails*. Nuestros usuarios generan *Reports* financieros, médicos y de otro tipo altamente complejos y ajustados individualmente. Al hacerlo, el documento generado parece que creó el informe manualmente utilizando un editor de texto normal. Otra opción, *Mail*, brinda la capacidad de generar rápidamente miles y millones de documentos basados en plantillas simples pero personales.
 
-En un esfuerzo por hacer API lo más claro y obvio posible, decidimos reconocer y honrar al común Java prácticas de desarrollo de plataformas. Así, Aspose.Words para Java sigue las directrices de codificación ampliamente aceptadas Java desarrolladores.
+En un esfuerzo por hacer que API sea lo más claro y obvio posible, decidimos reconocer y honrar las prácticas comunes de desarrollo de la plataforma Java. Por lo tanto, Aspose.Words para Java sigue las pautas de codificación ampliamente aceptadas por los desarrolladores de Java.
 
-## Beneficios del uso Aspose.Words
+## Beneficios de usar Aspose.Words
 
-Uso Aspose.Words para Java en su proyecto le da los siguientes beneficios:
+Usar Aspose.Words para Java en su proyecto le brinda los siguientes beneficios:
 
 * Rendimiento y escalabilidad
-* Conjunto de características ricas
+* Rico conjunto de funciones
 * Independencia de la plataforma
 * Independencia de aplicaciones de terceros
-* Curva de aprendizaje mínimo
+* Curva de aprendizaje mínima
 
-El siguiente diagrama muestra las principales características de Aspose.Words para Java y cómo se relacionan entre sí.
+El siguiente diagrama muestra las características principales de Aspose.Words para Java y cómo se relacionan entre sí.
 
 <img src="/words/java/product-overview/aspose-words-product-features-overview.png" alt="aspose_words-java-product-features-overview" style="width:800px"/>
 
-### Conjunto rico de características
+### Rico Conjunto de Características
 
-Aspose.Words para Java las características se pueden dividir en cuatro áreas principales.
+Las características Aspose.Words para Java se pueden dividir en cuatro áreas principales.
 
 #### Conversión
 
-La capacidad de convertir documentos de forma fácil y fiable es una de las principales características de Aspose.Words.
+La capacidad de convertir documentos de manera fácil y confiable es una de las características principales de Aspose.Words.
 
-Integral [Cargando, Ahorro y Conversión](/words/es/java/loading-saving-and-converting/) con [Formatos de documentos compatibles](/words/es/java/supported-document-formats/) permite a los usuarios convertir documentos desde [un formato popular](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) a [another](https://reference.aspose.com/words/java/com.aspose.words/saveformat/), por ejemplo, de DOCX a PDF, JPEG o Markdown.
+Integral [importación y exportación de documentos](/words/java/loading-saving-and-converting/) con [más de 35 formatos de archivo compatibles](/words/java/supported-document-formats/) permite a los usuarios convertir documentos de [un formato popular](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) a [another](https://reference.aspose.com/words/java/com.aspose.words/saveformat/), por ejemplo, de DOCX a PDF, JPEG o Markdown.
 
-#### Document Object Model (DOM)
+#### Modelo de Objetos de documento (DOM)
 
-Acceso programático a través de un rico API a todos los elementos de documento y formato permite crear, modificar, extraer, copiar, dividir, unirse y reemplazar el contenido de documento. Más información en el [Aspose.Words Document Object Model (DOM)](/words/es/java/aspose-words-document-object-model/) sección.
+El acceso programático a través de un API enriquecido a todos los elementos del documento y el formato permite crear, modificar, extraer, copiar, dividir, unir y reemplazar el contenido del documento. Obtenga más información en el [Aspose.Words Modelo de objetos de documento (DOM)](/words/java/aspose-words-document-object-model/) sección.
 
-#### Rendering
+#### Renderizado
 
-Utilizamos el término [Rendering](/words/es/java/rendering/) para describir el proceso de conversión de un documento en un formato de archivo o un medio, paginado o que tiene el concepto de páginas.
+Usamos el término [Renderizado en Aspose.Words](/words/java/rendering/) describir el proceso de conversión de un documento a un formato de archivo o medio, paginado o que tiene el concepto de páginas.
 
-Puede convertir documentos completos o páginas particulares en PDF o XPS para generar documentos del lado del servidor, imprimirlos o renderizar páginas. Y todo esto con alta fidelidad - exactamente como Microsoft Word lo habría hecho.
+Puede convertir documentos completos o páginas particulares a PDF o XPS para generar documentos del lado del servidor, imprimirlos o renderizar páginas. Y todo esto con alta fidelidad, exactamente como lo habría hecho Microsoft Word.
 
-#### Reporting
+#### Informes
 
-Generar documentos o informes desde cero o rellenando plantillas con datos de fuentes de datos o objetos comerciales. Para obtener más información sobre la presentación de informes y la obtención de datos de bases de datos, consulte el [Mail Merge and Reporting](/words/java/mail-merge-and-reporting/) y [LINQ Reporting Engine](/words/java/linq-reporting-engine/) secciones.
+Genere documentos o informes desde cero o rellenando plantillas con datos de fuentes de datos u objetos de negocio. Para obtener más información sobre la generación de informes y la obtención de datos de bases de datos, consulte [Mail Merge y Presentación de Informes](/words/java/mail-merge-and-reporting/) y [LINQ Motor de Informes](/words/java/linq-reporting-engine/) secciones.
 
-### Plataforma de independencia
+### Independencia de la Plataforma
 
-Aspose.Words para Java cubre todas las Java entornos de desarrollo y plataformas de despliegue. Nuestra API se puede utilizar para desarrollar aplicaciones para una amplia gama de sistemas operativos, como Windows, Linux, Mac OS, Android, y varias plataformas.
+Aspose.Words para Java cubre todos los entornos de desarrollo y plataformas de implementación de Java. Nuestro API se puede utilizar para desarrollar aplicaciones para una amplia gama de sistemas operativos, comoWindows, Linux, Mac OS, Android, y varias plataformas.
 
-Para decirlo simplemente, si su plataforma puede ejecutar estándar Java," puede funcionar. Aspose.Words para Java. Si su aplicación puede llamar estándar Java API," no tendrás problemas para llamar Aspose.Words para Java API de tu solicitud.
+En pocas palabras, si su plataforma puede ejecutar Java estándar, puede ejecutarse Aspose.Words para Java. Si su aplicación puede llamar al estándar Java API, no tendrá problemas para llamar a Aspose.Words para Java API desde su aplicación.
 
-En este momento nuestra base es JDK1.7 y más nueva. Pero seguimos apoyando a JDK1.6.
+Por el momento, nuestra línea de base es JDK1.7 y más reciente. Pero aún admitimos JDK1.6.
 
 Tenemos tres versiones diferentes basadas en la misma base de código:
 
-* Aspose.Words para Java
-* Aspose.Words para Android via Java
-* Aspose.Words para JasperReports
+* Aspose.Words por Java
+* Aspose.Words para Android a través de Java
+* Aspose.Words por JasperReports
 
-Mientras que Java y Android se compilan las versiones para la plataforma correspondiente, Aspose.Words para JasperReports es sólo un envoltorio grueso alrededor de ordinal Aspose.Words para Java. Es sólo por conveniencia. También puede integrar manualmente su JasperReports con las palabras de Aspose – de una manera específica que mejor se adapte a sus necesidades.
+Mientras que las versiones Java y Android se compilan para la plataforma correspondiente, Aspose.Words para JasperReports es solo una envoltura gruesa alrededor del" ordinal " Aspose.Words para Java. Es solo por conveniencia. También puede integrar manualmente su JasperReports con Aspose Words, de una manera específica que se adapte mejor a sus necesidades.
 
-### Independence from Other Applications
+### Independencia de Otras Aplicaciones
 
-Aspose.Words no requiere aplicaciones de terceros, por ejemplo, Microsoft Oficina, que se instalará en la máquina para trabajar. Todos los componentes Aspose son completamente independientes. Esto hace Aspose.Words una gran alternativa a la automatización en términos de seguridad, estabilidad, escalabilidad/ velocidad, precio y características para trabajar con documentos y tareas conexas.
+Aspose.Words no requiere que se instalen aplicaciones de terceros, por ejemplo, Microsoft Office, en la máquina para que funcione. Todos los componentes de Aspose son completamente independientes. Esto convierte a Aspose.Words en una excelente alternativa a la automatización en términos de seguridad, estabilidad, escalabilidad/velocidad, precio y funciones para trabajar con documentos y tareas relacionadas.
 
-### Rendimiento y escalabilidad
+### Rendimiento y Escalabilidad
 
-Aspose.Words está diseñado para realizar mucho en un servidor o cliente. Aspose.Words es un solo Java frasco que se puede desplegar con cualquier Java aplicación simplemente copiando. También puede agregar el `HarfBuzz` plugin para avanzado Características de la fuente si la necesita (se entrega en un frasco separado). Estándar Java ImageIO La extensión JAI también se puede agregar a su plataforma para apoyar adicional ImageIO codecs (no es necesario en moderno Java entornos).
+Aspose.Words está diseñado para tener un gran rendimiento tanto en un servidor como en un cliente. Aspose.Words es un único contenedor Java que se puede implementar con cualquier aplicación Java simplemente copiándolo. También puede agregar el complemento `HarfBuzz` para funciones avanzadas de fuentes si lo necesita (enviado en un frasco separado). La extensión estándar Java ImageIO JAI también se puede agregar a su plataforma para admitir códecs ImageIO adicionales (no es necesario en entornos Java modernos).
 
-Con Aspose.Words, puede generar literalmente miles de documentos en minutos, lo que implica abrir un documento, modificar el contenido y formatear o popularlo con datos, y guardarlo. Incluso los documentos más complejos se abren y guardan en una máquina RAM P4 2.4Ghz 1Gb en fracciones de un segundo.
+Con Aspose.Words, literalmente puede generar miles de documentos en minutos, lo que implica abrir un documento, modificar el contenido y formatearlo o rellenarlo con datos y guardarlo. Incluso los documentos más complejos se abren y guardan en un P4 2.4Ghz 1Gb RAM máquina en fracciones de segundo.
 
-Aspose.Words es seguro multitele mientras sólo un hilo funcione en un documento a la vez. Este es un escenario típico para tener un hilo trabajando en un documento. Diferentes hilos pueden trabajar con seguridad en diferentes documentos al mismo tiempo.
+Aspose.Words es seguro para subprocesos múltiples siempre que solo un subproceso funcione en un documento a la vez. Este es un escenario típico para tener un hilo trabajando en un documento. Diferentes hilos pueden trabajar de forma segura en diferentes documentos al mismo tiempo.
 
-### Curva de aprendizaje mínimo
+### Curva de Aprendizaje Mínima
 
-Aunque hay más de 150 clases públicas y enumeraciones en Aspose.Words," la curva de aprendizaje es mínima porque Aspose.Words API ha sido cuidadosamente diseñado con los siguientes objetivos en mente:
+Aunque hay más de 150 clases y enumeraciones públicas en Aspose.Words, la curva de aprendizaje es mínima porque Aspose.Words API ha sido cuidadosamente diseñada con los siguientes objetivos en mente:
 
-* Mejores prácticas aburridas de otras conocidas APIs tales como Microsoft Word Automatización
-* Mejores prácticas de los préstamos Java Directrices de diseño marco
-* Proporcionar un equilibrio de facilidad de uso y manipulación detallada de elementos de documentos
+* Tome prestadas las mejores prácticas de otros APIs conocidos, como Microsoft Word Automatización
+* Tome prestadas las mejores prácticas de las Pautas de Diseño del Marco Java
+* Proporcione un equilibrio entre la facilidad de uso y la manipulación detallada de los elementos del documento
 
-Desarrolladores que han utilizado anteriormente Microsoft Word La automatización en sus proyectos encontrará los nombres y el comportamiento de muchas clases, métodos y propiedades familiares.
+Los desarrolladores que hayan utilizado previamente la automatización Microsoft Word en sus proyectos encontrarán familiares los nombres y el comportamiento de muchas clases, métodos y propiedades.
 
-[Document](https://reference.aspose.com/words/java/com.aspose.words/document/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), [Bookmark](https://reference.aspose.com/words/java/com.aspose.words/bookmark/), [Range](https://reference.aspose.com/words/java/com.aspose.words/range/), [Section.PageSetup](https://reference.aspose.com/words/java/com.aspose.words/section/#getPageSetup) y [Paragraph.ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/paragraph/#ParagraphFormat) son algunos de los Aspose.Words clases. Al mismo tiempo, Aspose.Words es bastante diferente de la Microsoft Word Modelo de Objeto en que representa un documento como árbol de objetos, más como un XML DOM árbol. Si ha trabajado con cualquier XML DOM biblioteca, usted encontrará que es fácil de entender y trabajar con Aspose.Words.
+[Document](https://reference.aspose.com/words/java/com.aspose.words/document/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), [Bookmark](https://reference.aspose.com/words/java/com.aspose.words/bookmark/), [Range](https://reference.aspose.com/words/java/com.aspose.words/range/), [Section.PageSetup](https://reference.aspose.com/words/java/com.aspose.words/section/#getPageSetup) y [Paragraph.ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/paragraph/#ParagraphFormat) son algunas de las Aspose.Words clases. Al mismo tiempo, Aspose.Words es bastante diferente del Modelo de Objetos Microsoft Word en que representa un documento como un árbol de objetos, más como un árbol XML DOM. Si ha trabajado con alguna biblioteca XML DOM, encontrará que es fácil de entender y trabajar con Aspose.Words.
 
-## Precios y políticas
+## Precios y Políticas
 
-Por favor visite [Licencias y Suscripción](/words/es/java/licensing/) página para información sobre licencias y revisar [Información sobre precios](https://purchase.aspose.com/pricing/words/family/) página para detalles sobre precios.
+Por favor visite el [Licencias](/words/java/licensing/) página para obtener información sobre licencias y revisar el [Información de Precios](https://purchase.aspose.com/pricing/words/family/) página para detalles sobre precios.
 
-## Technical Support
+## Soporte Técnico
 
-Para más información sobre Aspose.Words soporte técnico, echar un vistazo a [Technical Support](/words/es/java/technical-support/).
+Para obtener más información sobre el soporte técnico de Aspose.Words, consulte el [Página de soporte](/words/java/technical-support/).

@@ -1,135 +1,135 @@
----
-title: ノード間の選択されたコンテンツの抽出 Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: ドキュメント内のノード間のコンテンツの抽出
-linktitle: ノード間コンテンツの抽出
+﻿---
+title: Java内のノード間で選択したコンテンツを抽出する
+second_title: Aspose.WordsのためのJava
+articleTitle: ドキュメント内のノード間でコンテンツを抽出する
+linktitle: ノード間でコンテンツを抽出する
 type: docs
-description: "異なる方法でドキュメントコンテンツを抽出する Javaお問い合わせ"
+description: "Javaを使用して異なるドキュメントコンテンツを抽出します。"
 weight: 140
 url: /ja/java/extract-selected-content-between-nodes/
 timestamp: 2024-01-27-14-07-04
 ---
 
-文書を扱う場合、文書内の特定の範囲からコンテンツを簡単に抽出できることが重要です。 ただし、段落、表、画像などの複雑な要素で構成される場合があります。
+ドキュメントを操作するときは、ドキュメント内の特定の範囲からコンテンツを簡単に抽出できることが重要です。 ただし、コンテンツは、段落、表、画像などの複雑な要素で構成されている場合があります。
 
-どのコンテンツが抽出する必要があるかに関係なく、コンテンツを抽出する方法は、どのノードがコンテンツ間でコンテンツを抽出するために選択したかによって常に決定されます。 これらは、テキストの本文全体または単純なテキストが実行できます。
+どのコンテンツを抽出する必要があるかにかかわらず、そのコンテンツを抽出する方法は、コンテンツを抽出するために選択されたノードによって常に決定されます。 これらは、テキスト本文全体または単純なテキスト実行にすることができます。
 
-コンテンツの抽出時に考慮すべきさまざまなノードタイプが多々あります。 例えば、以下の間にコンテンツを抽出したい場合があります。
+多くの可能な状況があるため、コンテンツを抽出する際に考慮すべき多くの異なるノードタイプがあります。 たとえば、次の間でコンテンツを抽出することができます:
 
-- 2つの特定の段落
+- 二つの特定の段落
 - テキストの特定の実行
-- ・マージフィールドなど、様々なタイプのフィールド
-- ブックマークまたはコメントの開始と終了範囲
-- 別のセクションに含まれているテキストのさまざまな体
+- 差し込み項目など、さまざまなタイプの項目
+- ブックマークまたはコメントの開始範囲と終了範囲
+- 別のセクションに含まれるテキストのさまざまなボディ
 
-いくつかの状況では、段落とフィールド間のコンテンツを抽出したり、実行とブックマークの間など、さまざまなノードタイプを組み合わせる必要があります。
+状況によっては、段落とフィールドの間、または実行とブックマークの間のコンテンツの抽出など、異なるノードタイプを組み合わせる必要がある場合もあ
 
-この記事では、異なるノード間でテキストを抽出するためのコードの実装、および一般的なシナリオの例を提供します。
+この記事では、異なるノード間でテキストを抽出するためのコード実装と、一般的なシナリオの例について説明します。
 
 {{% alert color="primary" %}}
 
-これらの例は、多くの可能性のいくつかのデモです。 パブリックの一部となるテキスト抽出機能の計画 API 将来的には、コードが不要になります。 その間に、この機能に関するリクエストを自由に投稿してください [Aspose.Words フォーラム](https://forum.aspose.com/c/words/8)お問い合わせ
+これらの例は、多くの可能性のほんの一部のデモンストレーションです。 将来的にはテキスト抽出機能をパブリックAPIの一部にする予定であり、余分なコードは必要ありません。 それまでの間、この機能に関するあなたの要求を自由に投稿してください [Aspose.Wordsフォーラム](https://forum.aspose.com/c/words/8).
 
 {{% /alert %}}
 
-## なぜ抽出コンテンツ
+## なぜコンテンツを抽出するのか
 
-多くの場合、コンテンツの抽出の目的は、新しい文書に別々に複製または保存することです。 たとえば、コンテンツを抽出したり、
+多くの場合、コンテンツを抽出する目的は、コンテンツを複製または新しいドキュメントに個別に保存することです。 たとえば、コンテンツを抽出することができます。:
 
-- 別の文書にコピーする
-- ドキュメントの特定の部分をPDFまたはイメージに変換する
-- 何度も文書内のコンテンツを複製する
-- 文書の残りの部分とは別に抽出された内容を扱う
+- 別の文書にコピーします
+- 文書の特定の部分をPDFまたは画像に変換する
+- ドキュメント内のコンテンツを何度も複製します
+- ドキュメントの残りの部分とは別に抽出されたコンテンツを操作します
 
-簡単に実現できます。 Aspose.Words 下のコード実装。
+これは、Aspose.Wordsと以下のコード実装を使用して簡単に実現できます。
 
-## 抽出コンテンツアルゴリズム
+## コンテンツの抽出アルゴリズム
 
-このセクションのコードは、上記の可能な状況の全てを、一般化および再利用可能な方法とします。 このテクニックの一般的な輪郭は以下を含みます。
+このセクションのコードは、1つの一般化された再利用可能な方法で、上記のすべての状況に対処します。 この手法の一般的な概要には、次のものが含まれます:
 
-1。 ドキュメントから抽出されるコンテンツの領域を予測するノードを収集します。 これらのノードの取得は、抽出したいものに基づいて、コード内のユーザーによって処理されます。
-1。 これらのノードを渡す **ExtractContent** 以下に示す方法。 また、これらのノードがマーカーとして機能するか、抽出物に含まれているか否かを条件とするブールパラメータを渡す必要があります。
-1。 抽出されるために指定されたクローンされたコンテンツ(コピノード)のリストを取得します。 選択したコンテンツのみを含む新しいドキュメントを作成するなど、ノードのこのリストを任意の方法で使用できます。
+1. ドキュメントから抽出されるコンテンツの領域を指示するノードを収集します。 これらのノードの取得は、抽出したいものに基づいて、コード内のユーザーによって処理されます。
+1. これらのノードを以下に示す**ExtractContent**メソッドに渡します。 また、マーカーとして機能するこれらのノードを抽出に含めるかどうかを示すbooleanパラメータを渡す必要があります。
+1. 抽出されるように指定された複製されたコンテンツ（コピーされたノード）のリストを取得します。 このノードのリストは、選択したコンテンツのみを含む新しいドキュメントを作成するなど、任意の適用可能な方法で使用できます。
 
-## コンテンツの抽出方法
+## コンテンツを抽出する方法
 
-本記事では、以下の書類を作業いたします。 様々なコンテンツが含まれているので、 また、ドキュメントには最初のページの中央にある2番目のセクションが含まれています。 ブックマークやコメントもドキュメントに表示されていますが、下のスクリーンショットでは表示されません。
+この記事では、以下の文書で作業します。 ご覧のとおり、さまざまなコンテンツが含まれています。 また、ドキュメントには最初のページの中央から始まる2番目のセクションが含まれていることに注意してください。 ブックマークとコメントはドキュメント内にも存在しますが、下のスクリーンショットには表示されません。
 
 ![extract-content-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-1.png)
 
-ドキュメントからコンテンツを抽出するには、 `ExtractContent` 以下の方法と、適切なパラメータを渡します。
+ドキュメントからコンテンツを抽出するには、以下の`ExtractContent`メソッドを呼び出し、適切なパラメータを渡す必要があります。
 
-この方法の根本的な基礎は、ブロックレベルのノード(パラグラフとテーブル)を見つけ、同じコピーを作成するためにそれらをクローニングすることを含みます。 マーカーノードが渡されたらブロックレベルで、このメソッドは単にそのレベルにコンテンツをコピーして配列に追加することができます。
+この方法の基礎となる基礎には、ブロックレベルのノード(段落と表)を見つけて、それらを複製して同一のコピーを作成することが含まれます。 渡されたマーカーノードがブロックレベルの場合、メソッドはそのレベルのコンテンツを単純にコピーして配列に追加することができます。
 
-ただし、マーカーノードがインライン(段落の子)の場合、インラインノードで段落を分割する必要がある場合は、ラン、ブックマークフィールドなどが必要になります。 マーカー間で存在しないクローンされた親ノードのコンテンツが削除されます。 このプロセスは、インラインノードがまだ親段の書式を保持することを確認するために使用されます。
+ただし、マーカーノードがインライン（段落の子）の場合、インラインノードで段落を分割する必要があるため、状況はより複雑になります。 マーカーの間に存在しない複製された親ノード内のコンテンツは削除されます。 このプロセスは、インラインノードが親段落の書式設定を保持することを保証するために使用されます。
 
-このメソッドは、パラメータとして渡されたノードのチェックを実行し、ノードが無効な場合には例外をスローします。 このメソッドに渡されるパラメータは次のとおりです。
+このメソッドは、パラメーターとして渡されたノードでもチェックを実行し、いずれかのノードが無効な場合は例外をスローします。 このメソッドに渡されるパラメータは次のとおりです:
 
-1。 **StartNode** そして、 **EndNode**お問い合わせ 最初の2つのパラメータは、コンテンツの抽出が開始し、それぞれ終了するノードです。 これらのノードは、ブロックレベル(ブロックレベル)の両方で使用できます。[Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) , [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) )またはインラインレベル(例えば [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) , [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/) , [BookmarkStart](https://reference.aspose.com/words/java/com.aspose.words/bookmarkstart/) 等。:
-   1. フィールドを渡すには、対応するフィールドを渡す必要があります **FieldStart** オブジェクト。
-   1. ブックマークを渡すため、 **BookmarkStart** そして、 [BookmarkEnd](https://reference.aspose.com/words/java/com.aspose.words/bookmarkend/) ノードを渡す必要があります。
-   1.コメントを渡すため、 [CommentRangeStart](https://reference.aspose.com/words/java/com.aspose.words/commentrangestart/) そして、 [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/) ノードを使用する必要があります。
-1。 **IsInclusive**お問い合わせ マーカーが抽出物に含まれているかどうかを定義します。 このオプションが設定されている場合 false 同じノードまたは連続ノードが渡され、空のリストが返されます。
+1. **StartNode**と**EndNode**。 最初の2つのパラメータは、コンテンツの抽出を開始する場所と終了する場所をそれぞれ定義するノードです。 これらのノードは、ブロックレベル（[Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/)、[Table](https://reference.aspose.com/words/java/com.aspose.words/table/)）またはインラインレベル（例：[Run](https://reference.aspose.com/words/java/com.aspose.words/run/), [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/), [BookmarkStart](https://reference.aspose.com/words/java/com.aspose.words/bookmarkstart/) など。):
+   1. フィールドを渡すには、対応する**FieldStart**オブジェクトを渡す必要があります。
+   1. ブックマークを渡すには、**BookmarkStart**ノードと[BookmarkEnd](https://reference.aspose.com/words/java/com.aspose.words/bookmarkend/)ノードを渡す必要があります。
+   1. コメントを渡すには、[CommentRangeStart](https://reference.aspose.com/words/java/com.aspose.words/commentrangestart/)ノードと[CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/)ノードを使用する必要があります。
+1. **IsInclusive**. マーカーが抽出に含まれるかどうかを定義します。 このオプションがfalseに設定されていて、同じノードまたは連続したノードが渡された場合、空のリストが返されます:
 
-      1. もし **FieldStart** ノードが渡されると、このオプションは、フィールド全体が含まれているか、除外されるかを定義します。
-      1. もし **BookmarkStart** または **BookmarkEnd** ノードが渡されます。このオプションは、ブックマークが含まれているか、ブックマーク範囲間のコンテンツだけを定義します。
-      1. もし **CommentRangeStart** または **CommentRangeEnd** ノードが渡されると、コメント自体が含まれているか、コメント範囲内のコンテンツだけであるかを定義します。
+      1. **FieldStart**ノードが渡された場合、このオプションはフィールド全体を含めるか除外するかを定義します。
+      1. **BookmarkStart**または**BookmarkEnd**ノードが渡された場合、このオプションはブックマークが含まれているか、ブックマーク範囲の間のコンテンツのみを定義します。
+      1. **CommentRangeStart**または**CommentRangeEnd**ノードが渡された場合、このオプションはコメント自体を含めるか、コメント範囲内のコンテンツのみを定義します。
 
-導入事例 **ExtractContent** あなたが見つけることができる方法 [詳しくはこちら](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/DocsExamples/Java/src/main/java/DocsExamples/Programming_with_documents/Contents_management/ExtractContentHelper.java)お問い合わせ この方法は、この記事のシナリオで参照されます。
+あなたが見つけることができる**ExtractContent**メソッドの実装 [ここに](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/DocsExamples/Java/src/main/java/DocsExamples/Programming_with_documents/Contents_management/ExtractContentHelper.java). この方法については、この記事のシナリオで説明します。
 
-また、抽出ノードから簡単にドキュメントを生成するためのカスタムメソッドを定義します。 この方法は、以下の多くのシナリオで使用され、単に新しい文書を作成し、抽出されたコンテンツをそれにインポートします。
+また、抽出されたノードからドキュメントを簡単に生成するためのカスタムメソッドも定義します。 このメソッドは、以下のシナリオの多くで使用され、単純に新しいドキュメントを作成し、抽出されたコンテンツをインポートします。
 
-次のコードの例では、ノードのリストを取り、それらを新しいドキュメントに差し込む方法を示します。
+次のコード例は、ノードのリストを取得して新しいドキュメントに挿入する方法を示しています:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "generate-document.java" >}}
 
-## パラグラフ間の抽出内容
+## 段落間のコンテンツの抽出
 
-上記の方法で特定の段落間のコンテンツを抽出する方法を示します。 この場合、ドキュメントの後半にある文字の体を抽出します。 第7項と第11項の間にあることをお伝えします。
+これは、上記の方法を使用して特定の段落間のコンテンツを抽出する方法を示しています。 この場合、文書の前半に見つかった文字の本文を抽出します。 これは7番目と11番目の段落の間にあることがわかります。
 
-以下のコードは、このタスクを実行します。 適切な段落は、使用して抽出されます [getChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChild-int-int-boolean) ドキュメントのメソッドと指定されたインデックスを渡します。 これらのノードを渡す **ExtractContent** これらは抽出に含まれているべき方法そして状態。 このメソッドは、これらのノード間でコピーしたコンテンツを新しいドキュメントに差し込みます。
+以下のコードは、このタスクを実行します。 適切な段落は、文書の[getChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChild-int-int-boolean)メソッドを使用して抽出され、指定されたインデックスを渡します。 次に、これらのノードを**ExtractContent**メソッドに渡し、これらが抽出に含まれることを示します。 このメソッドは、これらのノード間でコピーされたコンテンツを返し、新しいドキュメントに挿入します。
 
-次のコード例では、特定の段落間でコンテンツを抽出する方法を示します。 `ExtractContent` 上記の方法:
+次のコード例は、上記の`ExtractContent`メソッドを使用して特定の段落間のコンテンツを抽出する方法を示しています:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-paragraphs.java" >}}
 
 {{% alert color="primary" %}}
 
-この例のサンプルファイルをダウンロードできます。 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx)お問い合わせ
+この例のサンプルファイルは、次の場所からダウンロードできます [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
-出力文書には抽出された2つの段落が含まれています。
+出力文書には、抽出された2つの段落が含まれています。
 
 ![extract-content-result-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-2.png)
 
-## ノードの異なる種類間の抽出コンテンツ
+## 異なるタイプのノード間でコンテンツを抽出する
 
-ブロックレベルまたはインラインノードの組み合わせ間でコンテンツを抽出できます。 以下のこのシナリオでは、最初の段落と2番目のセクションの表の間にコンテンツを包括的に抽出します。 マーカーノードを呼び出して取得します [getFirstParagraph](https://reference.aspose.com/words/java/com.aspose.words/body/#getFirstParagraph) そして、 [getChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChild-int-int-boolean) ドキュメントの2番目のセクションで、適切な取得方法 **Paragraph** そして、 **Table** ノード。 わずかなバリエーションのために、代わりにコンテンツを複製し、元の下にインサートしてみましょう。
+ブロックレベルノードまたはインラインノードの任意の組み合わせの間でコンテンツを抽出できます。 以下のこのシナリオでは、最初の段落と2番目のセクションのテーブルの間のコンテンツを包括的に抽出します。 適切な**Paragraph**と**Table**ノードを取得するために、文書の第二のセクションで[getFirstParagraph](https://reference.aspose.com/words/java/com.aspose.words/body/#getFirstParagraph)と[getChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChild-int-int-boolean)メソッドを呼び出すことによってマーカーノードを取得します。 わずかな変化のために、代わりにコンテンツを複製し、元の下に挿入してみましょう。
 
-次のコード例では、段落とテーブルの間にコンテンツを抽出する方法を示します。 **ExtractContent** メソッド:
+次のコード例は、**ExtractContent**メソッドを使用して段落とテーブルの間のコンテンツを抽出する方法を示しています:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-block-level-nodes.java" >}}
 
 {{% alert color="primary" %}}
 
-この例のサンプルファイルをダウンロードできます。 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx)お問い合わせ
+この例のサンプルファイルは、次の場所からダウンロードできます [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
-段落とテーブルの内容を以下に複製しました。
+段落と表の間の内容が以下に複製された結果です。
 
 ![extract-content-between-paragraphs-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-3.png)
 
-## パラグラフ間の抽出内容 スタイルに基づく
+## スタイルに基づいて段落間のコンテンツを抽出する
 
-見出しのスタイルでマークされた段落の間など、同じまたは異なるスタイルの段落の間にコンテンツを抽出する必要があります。
+見出しスタイルでマークされた段落間など、同じスタイルまたは異なるスタイルの段落間のコンテンツを抽出する必要がある場合があります。
 
-以下は、この達成方法を示しています。 見出しを抽出することなく、「見出し1」と「ヘッダー3」のスタイルの最初のインスタンス間でコンテンツを抽出する簡単な例です。 これを行うには、最後のパラメータを最後に設定します。 false, マーカーノードが含まないことを指定します。
+以下のコードは、これを達成する方法を示しています。 これは、見出しも抽出せずに、"Heading 1"スタイルと"Header3"スタイルの最初のインスタンスの間のコンテンツを抽出する簡単な例です。 これを行うには、最後のパラメータをfalseに設定し、マーカーノードを含めるべきではないことを指定します。
 
-適切な実装では、これは、ドキュメントからこれらのスタイルのすべての段落間でコンテンツを抽出するためにループで実行する必要があります。 抽出されたコンテンツを新しい文書にコピーします。
+適切な実装では、これをループで実行して、ドキュメントからこれらのスタイルのすべての段落の間のコンテンツを抽出する必要があります。 抽出されたコンテンツが新しいドキュメントにコピーされます。
 
-次のコード例では、パラグラフ間でコンテンツを特定のスタイルで抽出する方法を示します。 **ExtractContent** メソッド:
+次のコード例は、**ExtractContent**メソッドを使用して特定のスタイルを持つ段落間のコンテンツを抽出する方法を示しています:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-paragraph-styles.java" >}}
 
@@ -137,169 +137,169 @@ timestamp: 2024-01-27-14-07-04
 
 {{% alert color="primary" %}}
 
-この例のサンプルファイルをダウンロードできます。 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx)お問い合わせ
+この例のサンプルファイルは、次の場所からダウンロードできます [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
-以下は、以前の操作の結果です。
+以下は、前の操作の結果です。
 
 ![extract-content-between-paragraph-style-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-4.png)
 
-## 特定の実行間コンテンツの抽出
+## 特定の実行間でコンテンツを抽出する
 
-インラインノード間でコンテンツを抽出できます。 **Run** お問い合わせ **Runs** 異なる段落からマーカーとして渡すことができます。 以下のコードは、特定のテキストを同じ間に抽出する方法を示しています **Paragraph** ノード。
+**Run**などのインラインノード間でコンテンツを抽出することもできます。 異なる段落の**Runs**をマーカーとして渡すことができます。 以下のコードは、同じ**Paragraph**ノードの間にある特定のテキストを抽出する方法を示しています。
 
-次のコード例では、同じ段落の特定の実行間でコンテンツを抽出する方法を示します。 **ExtractContent** メソッド:
+次のコード例は、**ExtractContent**メソッドを使用して、同じ段落の特定の実行間でコンテンツを抽出する方法を示しています:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-runs.java" >}}
 
 {{% alert color="primary" %}}
 
-この例のサンプルファイルをダウンロードできます。 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx)お問い合わせ
+この例のサンプルファイルは、次の場所からダウンロードできます [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
-抽出されたテキストはコンソールに表示されます。
+抽出されたテキストがコンソールに表示されます。
 
 ![extract-content-between-runs-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-5.png)
 
-## フィールドを使用してコンテンツを抽出する
+## フィールドを使用したコンテンツの抽出
 
-マーカーとしてフィールドを使用するには、 `FieldStart` ノードを渡す必要があります。 最後のパラメータを `ExtractContent` フィールド全体が含まれているか否かを定義します。 「FullName」のマージフィールドとドキュメントの段落の間にコンテンツを抽出してみましょう。 ご利用にあたって [moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField(java.lang.String))方法の [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) クラス。 これは戻ります **FieldStart** merge フィールドの名前から渡されるノード。
+フィールドをマーカーとして使用するには、`FieldStart`ノードを渡す必要があります。 `ExtractContent`メソッドの最後のパラメータは、フィールド全体を含めるかどうかを定義します。 "FullName"差し込み項目と文書内の段落の間の内容を抽出してみましょう。 私たちは[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)クラスの[moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField(java.lang.String))メソッドを使用します。 これにより、渡された差し込み項目の名前から**FieldStart**ノードが返されます。
 
-ケースでは、最後に渡されたパラメータをセットしてみましょう。 **ExtractContent** メソッドへ false 抽出からフィールドを除外する。 抽出したコンテンツをPDFにレンダリングします。
+この例では、**ExtractContent**メソッドに渡された最後のパラメータをfalseに設定して、フィールドを抽出から除外しましょう。 抽出されたコンテンツをPDFにレンダリングします。
 
-次のコードの例では、ドキュメント内の特定のフィールドと段落の間にコンテンツを抽出する方法を示します。 **ExtractContent** メソッド:
+次のコード例は、**ExtractContent**メソッドを使用して、ドキュメント内の特定のフィールドと段落の間のコンテンツを抽出する方法を示しています:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-using-field.java" >}}
 
 {{% alert color="primary" %}}
 
-この例のサンプルファイルをダウンロードできます。 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx)お問い合わせ
+この例のサンプルファイルは、次の場所からダウンロードできます [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
-フィールドと段落の間の抽出されたコンテンツ、フィールドと段落マーカーノードがPDFにレンダリングされていない。
+フィールドと段落のマーカーノードをPDFにレンダリングせずに、フィールドと段落の間に抽出されたコンテンツ。
 
 ![extract-content-using-field-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-6.png)
 
 ## ブックマークからコンテンツを抽出する
 
-ドキュメントでは、ブックマーク内で定義されるコンテンツは、 `BookmarkStart` および BookmarkEnd ノード。 これらの2つのノード間で見つかったコンテンツはブックマークを構成する。 これらのノードのいずれかをマーカーとして渡すことができます。, 別のブックマークからさえ, 限り、開始マーカーがドキュメントの終了マーカーの前に表示されます。.
+ドキュメントでは、ブックマーク内で定義されているコンテンツは、`BookmarkStart`ノードとBookmarkEndノードによってカプセル化されます。 これらの2つのノードの間にあるコンテンツがブックマークを構成します。 開始マーカーがドキュメント内の終了マーカーの前に表示されている限り、これらのノードのいずれかを任意のマーカーとして渡すことができます。
 
-サンプル文書では「Bookmark1」という1つのブックマークがあります。 このブックマークの内容は、ドキュメントの内容を強調しています。
+サンプルドキュメントには、"Bookmark1"という名前のブックマークが1つあります。 このブックマークの内容は、ドキュメント内のコンテンツを強調表示しています:
 
 ![extract-content-from-bookmark-aspose-words-java-1](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-7.png)
 
-このコンテンツを以下のコードで新しいドキュメントに抽出します。 ザ・オブ・ザ・ **IsInclusive** パラメータオプションは、ブックマークを保持または廃棄する方法を示します。
+以下のコードを使用して、このコンテンツを新しいドキュメントに抽出します。 **IsInclusive**パラメータオプションは、ブックマークを保持または破棄する方法を示します。
 
-次のコード例では、ブックマークを参照したコンテンツを抽出する方法を示します。 **ExtractContent** メソッド:
+次のコード例は、**ExtractContent**メソッドを使用してブックマークを参照しているコンテンツを抽出する方法を示しています:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-bookmark.java" >}}
 
 {{% alert color="primary" %}}
 
-この例のサンプルファイルをダウンロードできます。 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx)お問い合わせ
+この例のサンプルファイルは、次の場所からダウンロードできます [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
-抽出された出力と `IsInclusive` パラメータセット trueお問い合わせ コピーはブックマークを保持します。
+`IsInclusive`パラメータがtrueに設定された抽出された出力。 コピーはブックマークも保持します。
 
 ![extract-content-from-bookmark-aspose-words-java-2](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-8.png)
 
-抽出された出力と **IsInclusive** パラメータセット falseお問い合わせ コピーには、ブックマークなしでコンテンツが含まれています。
+**IsInclusive**パラメータがfalseに設定された抽出された出力。 コピーにはコンテンツが含まれていますが、ブックマークは含まれていません。
 
 ![extract-content-from-bookmark-aspose-words-java-3](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-9.png)
 
 ## コメントからコンテンツを抽出する
 
-コメントはCommentRangeStart、CommentRangeEnd、コメントノードで構成されています。 これらのノードはすべてインラインです。 最初の2つのノードは、以下のスクリーンショットで見られるように、コメントによって参照されるドキュメントの内容をカプセル化します。
+コメントは、CommentRangeStart、CommentRangeEnd、およびコメントノードで構成されます。 これらのノードはすべてインラインです。 最初の2つのノードは、下のスクリーンショットに示されているように、コメントによって参照されるドキュメント内のコンテンツをカプセル化します。
 
-ザ・オブ・ザ・ **Comment** ノード自体は [InlineStory](https://reference.aspose.com/words/java/com.aspose.words/inlinestory/) 段落を含んだり実行したりできます。 コメントバブルとして見られたコメントのメッセージは、レビューペインで表します。 このノードはインラインで、ボディの子孫として、このメッセージの中からコンテンツを抽出することもできます。
+**Comment**ノード自体は、段落と実行を含めることができる[InlineStory](https://reference.aspose.com/words/java/com.aspose.words/inlinestory/)です。 これは、レビューペインでコメントバブルとして表示されるコメントのメッセージを表します。 このノードはインラインであり、本文の子孫であるため、このメッセージ内からコンテンツを抽出することもできます。
 
-ドキュメントにはコメントがあります。 レビュータブのマークアップを表示してみましょう:
+私たちの文書には1つのコメントがあります。 レビュータブにマークアップを表示して表示しましょう:
 
 ![extract-content-from-comment-aspose-words-java-1](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-10.png)
 
-コメントは、見出し、第1段落、第2節の表をカプセル化します。 このコメントを新しいドキュメントに抽出してみましょう。 ザ・オブ・ザ・ **IsInclusive** オプションは、コメント自体が保存されているか、捨てられたかを判断します。
+コメントは、見出し、最初の段落、および2番目のセクションのテーブルをカプセル化します。 このコメントを新しい文書に抽出しましょう。 **IsInclusive**オプションは、コメント自体が保持されるか破棄されるかを指定します。
 
-以下のコードの例では、以下の方法を示します。
+次のコード例は、これを行う方法を以下に示しています:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-comment-range.java" >}}
 
 {{% alert color="primary" %}}
 
-この例のサンプルファイルをダウンロードできます。 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx)お問い合わせ
+この例のサンプルファイルは、次の場所からダウンロードできます [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
-最初に抽出された出力と `IsInclusive` パラメータセット trueお問い合わせ コピーにはコメントも含まれます。
+まず、`IsInclusive`パラメータをtrueに設定して抽出された出力。 コピーにはコメントも含まれます。
 
 ![extract-content-from-comment-aspose-words-java-2](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-11.png)
 
-第二に抽出された出力と **お問い合わせ** 設定する falseお問い合わせ コピーにはコメントがないコンテンツが含まれています。
+次に、**isInclusive**がfalseに設定された抽出された出力。 コピーにはコンテンツが含まれていますが、コメントは含まれていません。
 
 ![extract-content-from-comment-aspose-words-java-12](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-12.png)
 
 ## DocumentVisitorを使用してコンテンツを抽出する
 
-Aspose.Words 作成だけでなく、 Microsoft Word それらを動的に構築したり、データをテンプレートをマージしたりすることで文書を解析したり、ヘッダ、フッター、段落、テーブル、画像などの別の文書要素を抽出したりします。 別の可能なタスクは、特定のフォーマットやスタイルのすべてのテキストを見つけることです。
+Aspose.Wordsは、Microsoft Wordドキュメントを動的に構築したり、テンプレートをデータとマージしたりすることによって作成するだけでなく、ヘッダー、フッター、段落、表、画像などの別々のドキュメント要素を抽出するためにドキュメントを解析するためにも使用できます。 別の可能なタスクは、特定の書式設定またはスタイルのすべてのテキストを見つけることです。
 
-利用する [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) この利用シナリオを実装するクラスです。 よく知られているビジターデザインパターンに対応したクラスです。 と [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/)ドキュメントツリー上で列挙を必要とするカスタム操作を定義して実行できます。
+この使用シナリオを実装するには、[DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/)クラスを使用します。 このクラスは、よく知られている訪問者のデザインパターンに対応しています。 [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/)を使用すると、ドキュメントツリー上で列挙を必要とするカスタム操作を定義して実行できます。
 
-[DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) セットを提供して下さい **VisitXXX** 特定の文書要素(ノード)が遭遇したときに呼び出されるメソッド。 例えば、 [VisitParagraphStart](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphStart-com.aspose.words.Paragraph) テキスト段落の先頭が見つかり、 [VisitParagraphEnd](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphEnd-com.aspose.words.Paragraph) テキスト段落の終端が見つかったとき呼び出されます。 詳しくはこちら **DocumentVisitor.VisitXXX** メソッドは、必要に応じて(書式の取得)、例えば両方として使うことができるので、対応するオブジェクトを受け入れます。 [VisitParagraphStart](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphStart-com.aspose.words.Paragraph) そして、 [VisitParagraphEnd](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphEnd-com.aspose.words.Paragraph) お問い合わせ [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) オブジェクト。
+[DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/)は、特定のドキュメント要素(ノード)が検出されたときに呼び出される**VisitXXX**メソッドのセットを提供します。 たとえば、テキスト段落の先頭が見つかったときに[VisitParagraphStart](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphStart-com.aspose.words.Paragraph)が呼び出され、テキスト段落の末尾が見つかったときに[VisitParagraphEnd](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphEnd-com.aspose.words.Paragraph)が呼び出されます。 各**DocumentVisitor.VisitXXX**メソッドは遭遇する対応するオブジェクトを受け入れるので、必要に応じて使用できます（たとえば、書式設定を取得します）。[VisitParagraphStart](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphStart-com.aspose.words.Paragraph)と[VisitParagraphEnd](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphEnd-com.aspose.words.Paragraph)の両方が[Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/)
 
-詳しくはこちら **DocumentVisitor.VisitXXX** メソッドは、 **VisitorAction** ノードの列挙を制御する値。 列挙を続行するか、現在のノードをスキップするか、ノードの列挙を停止するかをリクエストできます。
+各**DocumentVisitor.VisitXXX**メソッドは、ノードの列挙を制御する**VisitorAction**値を返します。 列挙を続行するか、現在のノードをスキップする(ただし列挙を続行する)か、またはノードの列挙を停止するように要求できます。
 
-これらは、プログラム的にドキュメントのさまざまな部分を決定し、抽出するために従うべき手順です。
+次の手順は、ドキュメントのさまざまな部分をプログラムで決定して抽出するために実行する必要があります:
 
-- から派生したクラスを作成する [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/)お問い合わせ
-- 一部またはすべての実装をオーバーライドし、提供 **DocumentVisitor.VisitXXX** カスタム操作を実行する方法。
-- コール [Node.accept](https://reference.aspose.com/words/java/com.aspose.words/node/#accept-com.aspose.words.DocumentVisitor) ノード上で、列挙を開始する場所から。 たとえば、ドキュメント全体を列挙したい場合は、 [accept(DocumentVisitor)](https://reference.aspose.com/words/java/com.aspose.words/document/#accept-com.aspose.words.DocumentVisitor)お問い合わせ
+- [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/)から派生したクラスを作成します。
+- いくつかのカスタム操作を実行するために、**DocumentVisitor.VisitXXX**メソッドの一部またはすべての実装をオーバーライドして提供します。
+- 列挙を開始するノードで[Node.accept](https://reference.aspose.com/words/java/com.aspose.words/node/#accept-com.aspose.words.DocumentVisitor)を呼び出します。 たとえば、文書全体を列挙する場合は、[accept(DocumentVisitor)](https://reference.aspose.com/words/java/com.aspose.words/document/#accept-com.aspose.words.DocumentVisitor)を使用します。
 
-[DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) すべての既定の実装を提供 **DocumentVisitor.VisitXXX** メソッド。 これは、特定の訪問者が過度にする必要がある方法として、新しいドキュメント訪問者を簡単に作成できます。 すべてのビジターメソッドをオーバーライドする必要はありません。
+[DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/)はすべての**DocumentVisitor.VisitXXX**メソッドの既定の実装を提供します。 これにより、特定の訪問者に必要なメソッドのみをオーバーライドする必要があるため、新しいドキュメント訪問者を簡単に作成できます。 すべてのビジターメソッドをオーバーライドする必要はありません。
 
-次の例では、ビジターパターンを使用して新しい操作を追加する方法を示します。 Aspose.Words オブジェクトモデル。 この場合、単純なドキュメントコンバーターをテキスト形式に作成します。
+次の例は、ビジターパターンを使用してAspose.Wordsオブジェクトモデルに新しい操作を追加する方法を示しています。 この場合、単純なドキュメントコンバータをテキスト形式に作成します:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-using-document-visitor.java" >}}
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "convert-doc-to-txt.java" >}}
 
-## 抽出テキスト 詳しくはこちら
+## テキストのみを抽出する
 
-ドキュメントからテキストを取得する方法は:
+文書からテキストを取得する方法は次のとおりです:
 
-- 使用 [Document.save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-com.aspose.words.SaveOptions) お問い合わせ [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) テキストをファイルに保存するか、ストリームとして保存する
-- 使用 [Node.toString](https://reference.aspose.com/words/java/com.aspose.words/node/#toString-com.aspose.words.SaveOptions) そして渡して下さい `SaveFormat.Text` パラメータ。 内部的に、この呼び出しはテキストをメモリストリームに保存し、結果の文字列を返します。
-- 使用 [Node.getText](https://reference.aspose.com/words/java/com.aspose.words/node/#getText) テキストを全て取得する Microsoft Word フィールドコードを含む制御文字
-- カスタムの実装 [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) カスタマイズされた抽出を実行するために
+- プレーンテキストとしてファイルまたはストリームに保存するには、[Document.save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-com.aspose.words.SaveOptions)と[SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/)を使用します
+- [Node.toString](https://reference.aspose.com/words/java/com.aspose.words/node/#toString-com.aspose.words.SaveOptions)を使用して、`SaveFormat.Text`パラメータを渡します。 内部的には、これはsave as textをメモリストリームに呼び出し、結果の文字列を返します
+- [Node.getText](https://reference.aspose.com/words/java/com.aspose.words/node/#getText)を使用して、フィールドコードを含むすべてのMicrosoft Word制御文字を含むテキストを取得します
+- カスタム[DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/)を実装して、カスタマイズされた抽出を実行します
 
-### 使用方法 `Node.GetText` そして、 `Node.ToString`
+### `Node.GetText`と`Node.ToString`を使用する
 
-ツイート ワード文書には、フィールド、末尾、セクションの末尾など、特殊な要素を設計する制御文字を含むことができます。 可能な単語制御文字の完全なリストは、 **ControlChar** クラス。 ザ・オブ・ザ・ [GetText](https://reference.aspose.com/words/java/com.aspose.words/node/#getText) メソッドは、ノードに存在するすべての制御文字でテキストを返します。
+Word文書には、フィールド、セルの終わり、セクションの終わりなどの特別な要素を指定する制御文字を含めることができます。 使用可能な単語制御文字の完全なリストは、**ControlChar**クラスで定義されています。 [GetText](https://reference.aspose.com/words/java/com.aspose.words/node/#getText)メソッドは、ノード内に存在するすべての制御文字を含むテキストを返します。
 
-ToString を呼び出すと、制御文字なしでのみドキュメントのプレーンテキスト表現を返します。 プレーンテキストとしてエクスポートの詳細については、 **Using SaveFormat.Text**お問い合わせ
+ToStringを呼び出すと、制御文字を含まない文書のプレーンテキスト表現のみが返されます。 プレーンテキストとしてエクスポートする方法の詳細については、**Using SaveFormat.Text**を参照してください。
 
-次のコードの例では、呼び出しとの違いを示します。 **GetText** そして、 [ToString](https://reference.aspose.com/words/java/com.aspose.words/node/#toString) ノードのメソッド:
+次のコード例は、ノードで**GetText**メソッドと[ToString](https://reference.aspose.com/words/java/com.aspose.words/node/#toString)メソッドを呼び出す際の違いを示しています:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "simple-extract-text.java" >}}
 
-### 使用方法 `SaveFormat.Text`
+### `SaveFormat.Text`を使用する
 
-この例では、ドキュメントを以下のように保存します。
+この例では、次のようにドキュメントを保存します:
 
-- フィールド文字とフィールドコード、形状、フットノート、エンドノート、コメント参照をフィルタアウト
-- 段落の終端を置き換える [ControlChar.Cr](https://reference.aspose.com/words/java/com.aspose.words/controlchar/) キャラクター [ControlChar.CrLf](https://reference.aspose.com/words/java/com.aspose.words/controlchar/) コンビネーション
-- UTF8エンコーディングを使用する
+- フィールド文字とフィールドコード、図形、脚注、文末脚注、およびコメント参照を除外します
+- 段落[ControlChar.Cr](https://reference.aspose.com/words/java/com.aspose.words/controlchar/)の末尾の文字を[ControlChar.CrLf](https://reference.aspose.com/words/java/com.aspose.words/controlchar/)の組み合わせに置き換えます
+- UTF8エンコーディングを使用します
 
-次のコードの例では、TXT 形式のドキュメントを保存する方法を示します。
+次のコード例は、ドキュメントをTXT形式で保存する方法を示しています:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "docx-to-txt.java" >}}
 
-## 形状から画像を抽出する
+## 図形から画像を抽出する
 
-ドキュメント画像を抽出してタスクを実行する必要があります。 Aspose.Words これもできる。
+いくつかのタスクを実行するには、ドキュメントイメージを抽出する必要がある場合があります。 Aspose.Wordsを使用すると、これも行うことができます。
 
-次のコードの例では、ドキュメントから画像を抽出する方法を示します。
+次のコード例は、ドキュメントから画像を抽出する方法を示しています:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-images.java" >}}

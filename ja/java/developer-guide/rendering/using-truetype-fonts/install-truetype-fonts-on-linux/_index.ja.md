@@ -1,47 +1,47 @@
----
-title: True をインストール フォントの種類 Linux お問い合わせ Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: True をインストール フォントの種類 Linux
-linktitle: True をインストール フォントの種類 Linux
-description: "Aspose.Words お問い合わせ Java 作成したドキュメントをレンダリングすることを可能にします。 Microsoft Word お問い合わせ Linux 最高の正確さの機械。"
+﻿---
+title: JavaのLinuxにTrueTypeフォントをインストールする
+second_title: Aspose.WordsのためのJava
+articleTitle: TrueTypeフォントをLinuxにインストールする
+linktitle: TrueTypeフォントをLinuxにインストールする
+description: "Aspose.WordsforJavaMicrosoft Wordを使用して作成されたドキュメントをLinuxマシン上で最高の精度でレンダリングできます。"
 type: docs
 weight: 20
 url: /ja/java/install-truetype-fonts-on-linux/
 timestamp: 2024-01-27-14-07-04
 ---
 
-ほとんどの場合、使用する Aspose.Words DOCまたはDOCX文書をPDF形式に変換します。 あなたがこれを行う必要がある場合 Linux 機械、このトピックは保障する方法を学ぶのを助けます Aspose.Words ドキュメントを最高の精度でレンダリングします。
+ほとんどの場合、Aspose.Wordsを使用してDOCまたはDOCX文書をPDF形式に変換します。 Linuxマシン上でこれを行う必要がある場合、このトピックはAspose.Wordsが最高の精度でドキュメントをレンダリングする方法を学ぶのに役立ちます。
 
-ほとんどの場合、DOC と DOCX の文書が作成されなければならない。 Microsoft Word, お問い合わせ Windows または Mac OS オペレーティングシステム。 そのため、DOCやDOCXのドキュメントで使用されるほとんどのフォントは「Windows フォント" または "Office フォント" でインストールされているフォントです。 Microsoft Windows または Microsoft オフィス。 これらのフォントには、Arrial、Calibri、Cambria、Century Gothic、Courier New、Galamond、Tahoma、Verdana、Wingdings、その他多数が含まれます。
+ほとんどの場合、変換が必要なDOCおよびDOCX文書は、WindowsまたはMac OS オペレーティングシステム上でMicrosoft Wordを使用して作成されました。 したがって、DOCおよびDOCXドキュメントで使用されるフォントのほとんどは"Windowsフォント"または"Officeフォント"であり、Microsoft WindowsまたはMicrosoftOfficeとともにインストールされてい これらのフォントには、Arial、Calibri、Cambria、Century Gothic、Courier New、Garamond、Tahoma、Verdana、Wingdingsなどが含まれます。
 
-問題は、 `TrueType` 上記のフォントはデフォルトでインストールされていない Linux 分布。 典型的なDOCXドキュメントをCambriaフォントでフォーマットし、それをPDF形式に変換しようとすると Linux, Aspose.Words Cambria が利用できないので、異なるフォントを使用します。 その結果、PDF文書は、元のDOCX文書と比較して異なるようになります。 文書が変換されたことを確認する Aspose.Words 原本にできるだけ近いように見えます。"Windows フォント" Linux システム。
+問題は、上記の`TrueType`フォントがLinuxディストリビューションにデフォルトでインストールされていないことです。 Cambriaフォントでフォーマットされた典型的なDOCX文書をLinuxでPDF形式に変換しようとすると、Cambriaが利用できないためAspose.Wordsは別のフォントを使用します。 その結果、PDF文書は元のDOCX文書と比較して異なった外観になります。 Aspose.Wordsで変換された文書ができるだけ元の文書に近いように表示されるようにするには、Linuxシステムに"Windowsフォント"をインストールする必要があります。
 
-TrueType フォントを取得するには、2つの主要な方法があります。 Linux システム:
+LinuxシステムでTrueTypeフォントを取得するには、主に二つの方法があります:
 
-- .TTF と .TTF をコピーします。 TTCファイルから Windows あなたの上の機械 Linux マシン
-- インストール `TrueType` のような壷のパッケージ、 *msttcorefonts*
+- 了解TTFと.WindowsマシンからLinuxマシンへのTTCファイル
+- *msttcorefonts*などの`TrueType`フォントパッケージをインストールします
 
-## フォントをコピーする Windows マシン
+## Windowsマシンからフォントをコピーする
 
-TrueType フォントをオンにするための簡単で簡単な方法 Linux システムはコピーすることです。 TTFと. TTCファイルから `C:\Windows\Fonts` ディレクトリ Windows お使いのディレクトリにマシン Linux マシン。 これらのフォントをインストールまたは登録する必要はありません。 Linux いずれにしても、フォントの場所を指定する必要があります。 [FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/) クラス Aspose.Wordsお問い合わせ
+LinuxシステムでTrueTypeフォントを簡単かつ迅速に取得する方法は、コピーすることです。TTFと.Windowsマシン上の`C:\Windows\Fonts`ディレクトリからLinuxマシン上のあるディレクトリへのTTCファイル。 これらのフォントをLinuxにインストールしたり登録したりする必要はありません。Aspose.Wordsの[FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/)クラスを使用してフォントの場所を指定するだけです。
 
 {{% alert color="primary" %}}
 
-フォントのライセンスが必要かどうかを確認し、MSフォントをインストールする前にEULAを慎重に読みます Linux オペレーティング システム。
+フォントライセンスが必要かどうかを確認し、LinuxオペレーティングシステムにMSフォントをインストールする前にEULAをよく読んでください。
 
 {{% /alert %}}
 
-## インストール `TrueType` フォントパッケージ
+## `TrueType`フォントパッケージをインストールする
 
-数が多い Linux パッケージ、を含む Microsoft TrueType フォントは、ダウンロードしてインストールすることができます。 Linux マシン。 厳密なステップはさまざまです Linux 分布。
+LinuxパッケージにはMicrosoftTrueTypeフォントが含まれており、Linuxマシンにダウンロードしてインストールできます。 正確なステップは、さまざまなLinux分布で異なる場合があります。
 
-- オン Ubuntu, *ttf-mscorefonts-installer*パッケージを見つけてインストールするためにSynaptic Package Managerを使用します。
-- openSUSE では、Yast2 → Software Management を使用してインストールします。 *fetchmsttfonts* パッケージ。
--標準の代替としてOFLの下でライセンスされた解放フォントを使用する Windows フォント: Arial、Times New Roman、Courier New。
-- フォントパッケージの他に適した Linux 配布、インターネット上で利用可能なドキュメントを検索します。
+- Ubuntuで、Synaptic Package Managerを使用して*ttf-mscorefonts-installer*パッケージを見つけてインストールします。
+- OpenSUSEで、Yast2→ソフトウェア管理を使用して*fetchmsttfonts*パッケージを見つけてインストールします。
+- 標準のWindowsフォントの代替として、OFLの下でライセンスされた解放フォントを使用します:Arial、Times New Roman、およびCourier New。
+- 他のLinuxディストリビューションに適したフォントパッケージについては、インターネット上で入手可能なドキュメンテーションを検索してください。
 
-パッケージをインストールした後、 Aspose.Words これらのフォントは、システム上のフォルダに表示され、文書を扱うときに使用します。
+パッケージをインストールすると、Aspose.Wordsはシステム上のフォルダ内でこれらのフォントを見つけ、文書を操作するときに使用します。
 
-## お問い合わせ
+## また見て下さい
 
-- - - [自由フォント](https://github.com/liberationfonts) 標準の代替として Windows フォント
+- [解放フォント](https://github.com/liberationfonts) 標準のWindowsフォントに代わるものとして

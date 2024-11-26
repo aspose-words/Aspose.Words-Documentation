@@ -1,59 +1,59 @@
----
-title: Arbeiten mit Stilen und Themen
+﻿---
+title: Arbeiten mit Stilen und Designs
 second_title: Aspose.Words für Java
-articleTitle: Arbeiten mit Stilen und Themen
-linktitle: Arbeiten mit Stilen und Themen
-description: "Verbessert Microsoft Word Formatierungs-Funktionen, mit Stilen und Themen mit Java."
+articleTitle: Arbeiten mit Stilen und Designs
+linktitle: Arbeiten mit Stilen und Designs
+description: "Erweiterte Microsoft Word Formatierungsfunktionen, Arbeiten mit Stilen und Designs mit Java."
 type: docs
 weight: 110
 url: /de/java/working-with-styles-and-themes/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Die [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) class wird verwendet, um integrierte Einstellungen zu verwalten und benutzerdefinierte Einstellungen auf Stile anzuwenden.
+Die Klasse [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) wird verwendet, um integrierte Einstellungen zu verwalten und benutzerdefinierte Einstellungen auf Stile anzuwenden.
 
-## Wie Sie Inhalte basierend auf Stilen extrahieren
+## So extrahieren Sie Inhalte basierend auf Stilen
 
-Auf einer einfachen Ebene kann das Abrufen des Inhalts basierend auf Stilen aus einem Word-Dokument nützlich sein, um Absätze und Textläufe zu identifizieren, aufzulisten und zu zählen, die mit einem bestimmten Stil formatiert sind. Beispielsweise müssen Sie bestimmte Arten von Inhalten im Dokument identifizieren, wie Beispiele, Titel, Referenzen, Keywords, Figurennamen und Fallstudien.
+Auf einer einfachen Ebene kann das Abrufen des Inhalts basierend auf Stilen aus einem Word-Dokument nützlich sein, um Absätze und Textläufe zu identifizieren, aufzulisten und zu zählen, die mit einem bestimmten Stil formatiert sind. Beispielsweise müssen Sie möglicherweise bestimmte Arten von Inhalten im Dokument identifizieren, z. B. Beispiele, Titel, Referenzen, Schlüsselwörter, Abbildungsnamen und Fallstudien.
 
-Um dies ein paar Schritte weiter zu unternehmen, kann dies auch dazu genutzt werden, die Struktur des Dokuments, definiert durch die verwendeten Stile, zu nutzen, um das Dokument für eine andere Ausgabe, wie HTML, neu zu verwenden. In der Tat, wie die Aspose-Dokumentation gebaut wird, Aspose.Words auf den Test. Ein Werkzeug mit Aspose.Words nimmt die Quelltextdokumente und teilt sie in Themen auf bestimmten Überschriften. Eine XML-Datei wird mit Aspose.Words die verwendet wird, um den Navigationsbaum zu bauen, den Sie auf der linken Seite sehen können. Und dann Aspose.Words wandelt jedes Thema in HTML um. Die Lösung zum Abrufen von Texten, die mit bestimmten Stilen in einem Word-Dokument formatiert sind, ist in der Regel wirtschaftlich und unkompliziert mit Aspose.Words.
+Um dies noch ein paar Schritte weiter zu gehen, kann dies auch verwendet werden, um die Struktur des Dokuments, die durch die verwendeten Stile definiert ist, zu nutzen, um das Dokument für eine andere Ausgabe, z. B. HTML, wiederzuverwenden. Auf diese Weise wird die Aspose-Dokumentation erstellt, wobei Aspose.Words auf die Probe gestellt wird. Ein mit Aspose.Words erstelltes Tool nimmt die Word-Quelldokumente und teilt sie auf bestimmten Überschriftenebenen in Themen auf. Mit Aspose.Words wird eine XML -Datei erstellt, die zum Erstellen des Navigationsbaums verwendet wird, den Sie links sehen. Und dann konvertiert Aspose.Words jedes Thema in HTML. Die Lösung zum Abrufen von Text, der mit bestimmten Stilen in einem Word-Dokument formatiert ist, ist in der Regel mit Aspose.Words wirtschaftlich und unkompliziert.
 
-Wie leicht zu illustrieren Aspose.Words griffe abrufen Inhalte basierend auf Stilen, lassen Sie uns ein Beispiel betrachten. In diesem Beispiel werden wir Text abrufen, der mit einem bestimmten Absatzstil und einem Charakterstil aus einem Muster Word-Dokument formatiert ist.
+Um zu veranschaulichen, wie einfach Aspose.Words das Abrufen von Inhalten basierend auf Stilen handhabt, schauen wir uns ein Beispiel an. In diesem Beispiel werden wir Text abrufen, der mit einem bestimmten Absatzformat und einem Zeichenformat aus einem Word-Beispieldokument formatiert ist.
 
 Auf hohem Niveau wird dies beinhalten:
 
-ANHANG Öffnen eines Word-Dokuments mit [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) Klasse.
-ANHANG Sammlungen aller Absätze und alle läuft im Dokument.
-ANHANG Wählen Sie nur die erforderlichen Absätze und Auflagen.
+1. Öffnen eines Word-Dokuments mit der Klasse [Document](https://reference.aspose.com/words/java/com.aspose.words/document/).
+1. Abrufen von Sammlungen aller Absätze und aller Läufe im Dokument.
+1. Auswahl nur der erforderlichen Absätze und Läufe.
 
-Konkret werden wir Text abrufen, der mit dem Stil "Heading 1" Absatz und dem Charakterstil "Intense Emphasis" aus diesem Muster Word-Dokument formatiert ist
+Insbesondere rufen wir Text ab, der mit dem Absatzstil 'Heading 1' und dem Zeichenstil 'Intensive Hervorhebung' formatiert ist, aus diesem Word-Beispieldokument.
 
 ![working-with-styles-aspose-words-java-1](/words/java/working-with-styles-and-themes/working-with-styles-1.png)
 
-In diesem Musterdokument ist der Text, der mit dem Absatzstil "Heading 1" formatiert wird, "Insert Tab", "Quick Styles" und "Theme" und der Text, der mit dem Charakterstil "Intense Schwerpunkt" formatiert ist, die verschiedenen Fälle von blauem, italiziertem, kühnem Text wie "Gallerien" und "Überall Look".
+In diesem Beispieldokument ist der mit dem Absatzstil 'Heading 1' formatierte Text 'Tab einfügen', 'Schnellstile' und 'Design', und der mit dem Zeichenstil 'Intensive Hervorhebung' formatierte Text sind die verschiedenen Instanzen von blauem, kursivem, fettem Text wie 'Galerien' und 'Gesamtbild'.
 
-Die Umsetzung einer stilbasierten Abfrage ist in der Aspose.Words Dokument Objektmodell, da es einfach Werkzeuge verwendet, die bereits vorhanden sind. Für diese Lösung werden zwei Klassenmethoden implementiert:
+Die Implementierung einer stilbasierten Abfrage ist im Aspose.Words -Dokumentobjektmodell recht einfach, da lediglich bereits vorhandene Tools verwendet werden. Für diese Lösung sind zwei Klassenmethoden implementiert:
 
-ANHANG **ParagraphsByStyleName** – Diese Methode ruft eine Reihe dieser Absätze in dem Dokument, die einen bestimmten Stil Namen haben.
-ANHANG **RunsByStyleName** – Diese Methode ruft eine Reihe von diesen läuft in dem Dokument, die einen bestimmten Stil Namen haben.
+1. **ParagraphsByStyleName** - Diese Methode ruft ein Array der Absätze im Dokument ab, die einen bestimmten Stilnamen haben.
+1. **RunsByStyleName** - Diese Methode ruft ein Array der Ausführungen im Dokument ab, die einen bestimmten Stilnamen haben.
 
-Beide Verfahren sind sehr ähnlich, die einzigen Unterschiede sind die Knotentypen und die Darstellung der Stilinformationen innerhalb des Absatzes und laufende Knoten. Hier ist eine Implementierung von ParagraphsByStyleName in dem unten angegebenen Codebeispiel gezeigt, um alle Absätze zu finden, die mit dem angegebenen Stil formatiert sind.
+Beide Methoden sind sehr ähnlich, die einzigen Unterschiede bestehen in den Knotentypen und der Darstellung der Stilinformationen innerhalb der Absatz- und Laufknoten. Hier ist eine Implementierung von ParagraphsByStyleName, die im folgenden Codebeispiel gezeigt wird, um alle Absätze zu finden, die mit dem angegebenen Stil formatiert sind.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-ExtractContentBasedOnStyles-paragraphsByStyleName.java" >}}
 
-Diese Umsetzung nutzt auch die [Document.getChildNodes()](https://reference.aspose.com/words/java/com.aspose.words/document/#getChildNodes) Verfahren der `Document` Klasse, die eine Sammlung aller unmittelbaren Kinderknoten zurückgibt.
+Diese Implementierung verwendet auch die [Document.getChildNodes()](https://reference.aspose.com/words/java/com.aspose.words/document/#getChildNodes) -Methode der `Document` -Klasse, die eine Auflistung aller unmittelbaren untergeordneten Knoten zurückgibt.
 
-Es lohnt sich auch darauf hinzuweisen, dass die Paragraphen-Sammlung keinen unmittelbaren Overhead schafft, weil Absätze nur dann in diese Sammlung geladen werden, wenn Sie auf die Elemente in ihnen zugreifen. Dann, alles, was Sie tun müssen, ist, durch die Sammlung zu gehen, mit dem Standard-Foreach-Operator und hinzufügen Absätze, die den angegebenen Stil zu den Absätzen haben MitStyle-Array. Die `Paragraph` Stilname kann in der [Style.getName()](https://reference.aspose.com/words/java/com.aspose.words/style/#getName) Eigentum der [Paragraph.getParagraphFormat()](https://reference.aspose.com/words/java/com.aspose.words/style/#getParagraphFormat) Objekt.
+Es ist auch erwähnenswert, dass die Paragraphs-Auflistung keinen unmittelbaren Overhead verursacht, da Absätze nur dann in diese Auflistung geladen werden, wenn Sie auf Elemente in ihnen zugreifen.Dann müssen Sie nur noch die Auflistung mit dem Standardoperator foreach durchgehen und dem Array paragraphsWithStyle Absätze mit dem angegebenen Stil hinzufügen. Der `Paragraph` -Stilname befindet sich in der [Style.getName()](https://reference.aspose.com/words/java/com.aspose.words/style/#getName)-Eigenschaft des [Paragraph.getParagraphFormat()](https://reference.aspose.com/words/java/com.aspose.words/style/#getParagraphFormat)-Objekts.
 
-Die Implementierung von RunsByStyleName ist fast gleich, obwohl wir offensichtlich verwenden `NodeType.Run` um Run-Knoten abzurufen. Die [Font.getStyle()](https://reference.aspose.com/words/java/com.aspose.words/font/#getStyle) Eigentum eines [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) Objekt wird verwendet, um Stilinformationen in der **Run** Knoten
+Die Implementierung von RunsByStyleName ist fast dieselbe, obwohl wir offensichtlich `NodeType.Run` verwenden, um Laufknoten abzurufen. Die [Font.getStyle()](https://reference.aspose.com/words/java/com.aspose.words/font/#getStyle)-Eigenschaft eines [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) -Objekts wird verwendet, um auf Stilinformationen in den **Run** -Knoten zuzugreifen.
 
-Das folgende Codebeispiel findet alle mit dem angegebenen Stil formatierten Auflagen.
+Im folgenden Codebeispiel werden alle Ausführungen gefunden, die mit dem angegebenen Stil formatiert sind.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-ExtractContentBasedOnStyles-runsByStyleName.java" >}}
 
 {{% alert color="primary" %}}
 
-Wenn beide Abfragen durchgeführt werden, müssen Sie nur ein Dokumentobjekt übergeben und die Stilnamen der Inhalte festlegen, die Sie abrufen möchten:
+Wenn beide Abfragen implementiert sind, müssen Sie lediglich ein Dokumentobjekt übergeben und die Stilnamen des Inhalts angeben, den Sie abrufen möchten:
 
 {{% /alert %}}
 
@@ -61,40 +61,40 @@ Das folgende Codebeispiel führt Abfragen aus und zeigt Ergebnisse an.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-ExtractContentBasedOnStyles-ExtractContentBasedOnStyles.java" >}}
 
-Wenn alles erledigt ist, wird die Ausführung der Probe die folgende Ausgabe anzeigen:
+Wenn alles erledigt ist, wird beim Ausführen des Beispiels die folgende Ausgabe angezeigt:
 
 ![working-with-styles-aspose-words-java-2](/words/java/working-with-styles-and-themes/working-with-styles-2.png)
 
-Wie Sie sehen können, ist dies ein sehr einfaches Beispiel, das die Anzahl und den Text der gesammelten Absätze zeigt und im Muster Word-Dokument läuft.
+Wie Sie sehen, ist dies ein sehr einfaches Beispiel, das die Anzahl und den Text der gesammelten Absätze und Läufe im Word-Beispieldokument zeigt.
 
-## Fügen Sie Stil Separator verschiedene Absatz-Stile zu setzen
+## Stiltrennzeichen einfügen, um verschiedene Absatzstile einzufügen
 
-Der Stiltrenner kann am Ende eines Absatzes mit dem Ctrl + Alt + Keyboard Shortcut in MS Word hinzugefügt werden. Diese Funktion ermöglicht zwei verschiedene Absatz-Stile in einem logischen gedruckten Absatz verwendet. Wenn Sie möchten, dass einige Texte von Anfang an einer bestimmten Rubrik in einer Tabelle der Inhalte erscheinen, aber nicht die gesamte Rubrik in der Tabelle der Inhalte wollen, können Sie diese Funktion verwenden
+Das Stiltrennzeichen kann am Ende eines Absatzes mit der Tastenkombination Strg + Alt + Eingabetaste in das Wort MS eingefügt werden. Diese Funktion ermöglicht zwei verschiedene Absatzformate, die in einem logisch gedruckten Absatz verwendet werden. Wenn Sie möchten, dass Text vom Anfang einer bestimmten Überschrift in einem Inhaltsverzeichnis angezeigt wird, aber nicht die gesamte Überschrift im Inhaltsverzeichnis, können Sie diese Funktion verwenden.
 
-Das folgende Codebeispiel zeigt, wie man einen Style Separator einfügen kann, um verschiedene Paragraph-Stile zu setzen
+Das folgende Codebeispiel zeigt, wie Sie ein Stiltrennzeichen einfügen, um verschiedene Absatzstile einzufügen.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-ParagraphInsertStyleSeparator.java" >}}
 
-## Kopieren Sie alle Stile von Template
+## Kopieren Sie alle Stile aus der Vorlage
 
-Es gibt Fälle, in denen Sie alle Stile von einem Dokument in ein anderes kopieren möchten. Sie können die `Document.CopyStylesFromTemplate` Methode, um Stile von der angegebenen Vorlage zu einem Dokument zu kopieren. Wenn Stile von einer Vorlage zu einem Dokument kopiert werden, werden gleichnamige Stile im Dokument neu definiert, um die Stilbeschreibungen in der Vorlage anzupassen. Einzigartige Stile aus der Vorlage werden in das Dokument kopiert. Einzigartige Stile im Dokument bleiben intakt
+Es gibt Fälle, in denen Sie alle Stile von einem Dokument in ein anderes kopieren möchten. Sie können die Methode `Document.CopyStylesFromTemplate` verwenden, um Stile aus der angegebenen Vorlage in ein Dokument zu kopieren. Wenn Stile aus einer Vorlage in ein Dokument kopiert werden, werden gleichnamige Stile im Dokument neu definiert, damit sie mit den Stilbeschreibungen in der Vorlage übereinstimmen. Eindeutige Stile aus der Vorlage werden in das Dokument kopiert. Eindeutige Stile im Dokument bleiben erhalten.
 
-Das folgende Codebeispiel zeigt, wie Stile aus einem Dokument in ein anderes kopiert werden können.
+Das folgende Codebeispiel zeigt, wie Stile von einem Dokument in ein anderes kopiert werden.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithStyle-CopyStylesFromDocument.java" >}}
 
-## Wie manipuliert Themenschwerpunkte
+## Wie man Theme-Eigenschaften manipuliert
 
-Wir haben grundlegende hinzugefügt API in Aspose.Words Zugriff auf das Thema Eigenschaften. Für jetzt, dies API umfasst die folgenden öffentlichen Objekte:
+Wir haben basic API in Aspose.Words hinzugefügt, um auf die Eigenschaften des Dokumententhemas zuzugreifen. Im Moment enthält dieses API die folgenden öffentlichen Objekte:
 
-- Ja. Thema
-- Themenspiele
-- ThemaFarben
+- Thema
+- ThemeFonts
+- ThemeColors
 
-Hier ist, wie Sie Themeneigenschaften erhalten können:
+Hier ist, wie Sie Theme-Eigenschaften erhalten können:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Theme-GetThemeProperties-GetThemeProperties.java" >}}
 
-Und hier ist, wie Sie Themeneigenschaften festlegen können:
+Und so können Sie Designeigenschaften festlegen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Theme-SetThemeProperties-SetThemeProperties.java" >}}

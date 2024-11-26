@@ -1,139 +1,139 @@
----
-title: วิธี สร้าง โต๊ะ ใน Java
-second_title: Aspose.Words สําหรับ Java
+﻿---
+title: วิธีการสร้างตารางในJava
+second_title: Aspose.WordsสำหรับJava
 articleTitle: สร้างตาราง
 linktitle: สร้างตาราง
-description: "วิธีการสร้างตารางในเอกสารที่แตกต่างกันโดยใช้ Java."
+description: "วิธีต่างๆในการสร้างตารางในเอกสารของคุณโดยใช้Java."
 type: docs
 weight: 20
 url: /th/java/create-a-table/
 timestamp: 2024-10-21-11-17-44
 ---
 
-Aspose.Words อนุญาตให้ผู้ใช้สร้างตารางในเอกสารจากรอยขีดข่วน และให้วิธีการต่างๆ มากมายในการทําเช่นนั้น บทความ นี้ ให้ ราย ละเอียด เกี่ยว กับ วิธี เพิ่ม ตาราง ให้ กับ เอกสาร ของ คุณ โดย ใช้ แต่ ละ วิธี รวม ทั้ง การ เปรียบ เทียบ วิธี การ ต่าง ๆ ใน ตอน ท้าย บทความ.
+Aspose.Wordsอนุญาตให้ผู้ใช้สร้างตารางในเอกสารจากรอยขีดข่วนและมีวิธีการที่แตกต่างกันหลายอย่า บทความนี้แสดงรายละเอียดเกี่ยวกับวิธีการเพิ่มตารางที่จัดรูปแบบเอกสารของคุณโดยใช้.
 
-## รูปแบบตารางปริยาย
+## รูปแบบตารางเริ่มต้น
 
-ตารางที่ถูกสร้างใหม่ ได้รับการกําหนดค่าปริยายที่คล้ายกับที่ถูกใช้ใน Microsoft Word
+ตารางที่สร้างขึ้นใหม่จะได้รับค่าดีฟอลต์คล้ายกับที่ใช้ในMicrosoft Word:
 
-| คุณสมบัติของตาราง | ค่าปริยายใน Aspose.Words |
-|  :-  |  :-  |
-| `Border Style` |  `Single`  |
+| คุณสมบัติตาราง | ค่าปริยายในAspose.Words |
+| :- | :- |
+| `Border Style` | `Single` |
 | `Border Width` | `1/2 pt` |
-| สีกรอบ |  `Black`  |
+| สีเส้นขอบ | `Black` |
 | `Left and Right Padding` | `5.4 pts` |
 | `AutoFit Mode` | `AutoFit to Window` |
-| `Allow AutoFit` |  `True`  |
+| `Allow AutoFit` | `True` |
 {{% alert color="primary" %}}
 
-ตาราง อาจ เข้า ไป เกี่ยว ข้อง ได้ หาก อยู่ ใน ตําแหน่ง ที่ แน่น หนา หรือ ลอย อยู่ ถ้า สามารถ ตั้ง ตําแหน่ง ได้ ไม่ ว่า ที่ ใด ใน หน้า. โดยปริยายแล้ว Aspose.Words มักจะสร้างตารางบรรทัด
+ตารางสามารถเป็นแบบอินไลน์ถ้ามันอยู่ในตำแหน่งแน่น,หรือลอยถ้ามันสามารถวางตำแหน่งที่ใดก็ได้บนหน้าเว็บ. โดยค่าเริ่มต้นAspose.Wordsจะสร้างตารางแบบอินไลน์เสมอ.
 
 {{% /alert %}}
 
-## สร้างตารางด้วยตัวสร้างเอกสาร
+## สร้างตารางด้วยDocumentBuilder
 
-ใน Aspose.Words, ผู้ใช้สามารถสร้างตารางในเอกสารโดยใช้ [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/). อัลกอริทึมพื้นฐานในการสร้างตารางเป็นดังต่อไปนี้:
+ในAspose.Wordsผู้ใช้สามารถสร้างตารางในเอกสารโดยใช้[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) ขั้นตอนวิธีการพื้นฐานสำหรับการสร้างตารางมีดังนี้:
 
-1 เริ่มตารางด้วย [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable)
-2 เพิ่มเซลล์ไปยังตาราง [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell) - นี่จะเริ่มใหม่โดยอัตโนมัติ
-3 ทาง เลือก ใช้ [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCellFormat) คุณสมบัติที่จะกําหนดการฟอร์แมตเซลล์
-4 แทรกเนื้อหาเซลล์โดยใช้ค่าที่เหมาะสม **DocumentBuilder** วิธีการต่าง ๆ เช่น [Writeln](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#writeln), [InsertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte), และคนอื่นๆ
-5 ทําซ้ําขั้นตอนที่ 2-4 จนกว่าแถวจะสมบูรณ์
-6 เรียก [EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) เพื่อจบแถวปัจจุบัน
-7 ทาง เลือก ใช้ [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getRowFormat) คุณสมบัติที่จะใช้ระบุการฟอร์แมตแถว
-8 ทําซ้ําขั้นตอนที่ 2-7 จนกว่าตารางจะเสร็จสมบูรณ์
-9 เรียก [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) เพื่อสร้างโต๊ะให้เสร็จ
+1. เริ่มต้นตารางด้วย[StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable)
+2. เพิ่มเซลล์ลงในตารางโดยใช้[InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell)ซึ่งจะเริ่มแถวใหม่โดยอัตโนมัติ
+3. คุณสามารถเลือกใช้คุณสมบัติ[CellFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCellFormat)เพื่อระบุการจัดรูปแบบเซลล์
+4. แทรกเนื้อหาของเซลล์โดยใช้วิธีการที่เหมาะสม**DocumentBuilder**เช่น[Writeln](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#writeln),[InsertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte)และอื่นๆ
+5. ทำซ้ำขั้นตอนที่ 2-4 จนกว่าแถวจะเสร็จสมบูรณ์
+6. โทร[EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow)เพื่อสิ้นสุดแถวปัจจุบัน
+7. คุณสามารถเลือกใช้คุณสมบัติ[RowFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getRowFormat)เพื่อระบุการจัดรูปแบบแถว
+8. ทำซ้ำขั้นตอนที่ 2-7 จนกว่าตารางจะเสร็จสมบูรณ์
+9. โทร[EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable)เพื่อเสร็จสิ้นการสร้างตาราง
 
 {{% alert color="primary" %}}
 
-รายละเอียดสําคัญ:
+รายละเอียดที่สำคัญ:
 
-- [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) อาจ เรียก ได้ ด้วย ว่า เป็น ภาย ใน เซลล์ ซึ่ง หาก เป็น เช่น นั้น ก็ จะ เริ่ม สร้าง โต๊ะ วาง รัง ภาย ใน เซลล์.
-- หลังจากโทร [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell), สร้างเซลล์ใหม่ และเนื้อหาใดๆ ที่คุณเพิ่มโดยใช้วิธีการอื่น ๆ [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) คลาสจะถูกเพิ่มไปยังเซลล์ปัจจุบัน เพื่อสร้างเซลล์ใหม่ในแถวเดียวกัน โทร **InsertCell** อีกครั้ง
-- ถ้า **InsertCell** จะเรียกทันทีหลังจาก [EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) และตอนจบของแถว ตารางจะต่อเนื่องในแถวใหม่
-- [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) วิธีการสิ้นสุดตารางควรจะเรียกครั้งเดียวหลังจากเรียกเท่านั้น **EndRow**. เรียก **EndTable** ย้ายเคอร์เซอร์จากช่องปัจจุบันไปยังตําแหน่งทันทีหลังจากตาราง
+- [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable)ยังสามารถเรียกภายในเซลล์,ซึ่งในกรณีนี้จะเริ่มต้นการสร้างตารางที่ซ้อนกันภายในเซลล์.
+- หลังจากโทร[InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell)เซลล์ใหม่จะถูกสร้างขึ้นและเนื้อหาใดๆที่คุณเพิ่มโดยใช้วิธีการอื่นๆของชั้นเรียน[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)จะถูกเพิ่มเข้าไปในเซลล์ปัจจุบัน เมื่อต้องการสร้างเซลล์ใหม่ในแถวเดียวกันให้โทร**InsertCell**อีกครั้ง.
+- ถ้า**InsertCell**ถูกเรียกทันทีหลังจาก[EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow)และจุดสิ้นสุดของแถวตารางจะดำเนินการต่อในแถวใหม่.
+- วิธีการ[EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable)เพื่อสิ้นสุดตารางควรจะเรียกเพียงครั้งเดียวหลังจากโทร**EndRow** การโทร**EndTable**ย้ายเคอร์เซอร์จากเซลล์ปัจจุบันไปยังตำแหน่งหลังจากตาราง.
 
 {{% /alert %}}
 
-กระบวนการ สร้าง โต๊ะ สามารถ เห็น ได้ ชัดเจน ใน ภาพ ต่อ ไป นี้:
+กระบวนการของการสร้างตารางสามารถมองเห็นได้อย่างชัดเจนในภาพต่อไปนี้:
 
 ![creating-table-process](/words/java/create-a-table/creating-table-process.jpg)
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีสร้างตารางง่าย ๆ โดยใช้ **DocumentBuilder** การฟอร์แมตปริยาย:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการสร้างตารางอย่างง่ายโดยใช้**DocumentBuilder**ด้วยการจัดรูปแบบเริ่มต้น:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "create-simple-table.java" >}}
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีการสร้างตารางแบบมีระเบียบ โดยใช้ตัวสร้างเอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีสร้างตารางที่จัดรูปแบบโดยใช้DocumentBuilder:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "formatted-table.java" >}}
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีการแทรกตารางทํารังโดยใช้ตัวสร้างเอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกตารางที่ซ้อนกันโดยใช้DocumentBuilder:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "nested-table.java" >}}
 
-## สร้างตารางผ่านทาง DOM (Document Object Model)
+## สร้างตารางผ่านDOM(รูปแบบวัตถุเอกสาร)
 
-คุณสามารถใส่ตารางโดยตรงลงใน DOM โดยเพิ่มใหม่ [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) โหนดในตําแหน่งที่แน่นอน
+คุณสามารถแทรกตารางลงในDOMโดยตรงโดยการเพิ่มโหนดใหม่[Table](https://reference.aspose.com/words/java/com.aspose.words/table/)ในตำแหน่งที่เฉพาะเจาะจง.
 
-โปรดสังเกตว่า ทันทีหลังจากการสร้างโหนดตาราง, ตารางตัวเองจะว่างเปล่าอย่างสมบูรณ์, การแทรกแถวและเซลล์ลงในตาราง เพิ่มที่เหมาะสม [Row](https://reference.aspose.com/words/java/com.aspose.words/run/) ถึง [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) โหนดเด็ก DOM.
+โปรดทราบว่าทันทีหลังจากการสร้างโหนดตารางตารางตัวเองจะว่างเปล่าอย่างสมบูรณ์ เมื่อต้องการแทรกแถวและเซลล์ลงในตารางให้เพิ่มโหนดลูกที่เหมาะสม[Row](https://reference.aspose.com/words/java/com.aspose.words/run/)และ[Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/)ลงในDOM.
 
 {{% alert color="primary" %}}
 
-วิธีการสร้างตารางนี้จะใช้ค่าปริยายของตารางเช่นเดียวกับเมื่อใช้ **DocumentBuilder**.
+วิธีการสร้างตารางนี้ใช้ค่าดีฟอลต์ตารางเดียวกับเมื่อใช้**DocumentBuilder**.
 
 {{% /alert %}}
 
-ตัว อย่าง รหัส ต่อ ไป นี้ แสดง ให้ เห็น วิธี สร้าง โต๊ะ ใหม่ จาก รอย ขีด โดย เพิ่ม โหนด เด็ก ที่ เหมาะ สม เข้า กับ ต้น เอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการสร้างตารางใหม่จากรอยขีดข่วนโดยการเพิ่มโหนดลูกที่เ:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "insert-table-directly.java" >}}
 
-## สร้างตารางจาก HTML
+## สร้างตารางจากHTML
 
-Aspose.Words รองรับการแทรกเนื้อหาเข้าไปในเอกสารจากแหล่ง HTML โดยใช้ [InsertHtml](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHtml-java.lang.String) วิธี ค่าที่ป้อนเข้าไปอาจเป็นหน้า HTML เต็ม หรือแค่ชิ้นส่วนบางส่วน
+Aspose.Wordsรองรับการแทรกเนื้อหาลงในเอกสารจากแหล่งที่มาHTMLโดยใช้วิธีการ[InsertHtml](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHtml-java.lang.String) การป้อนข้อมูลอาจเป็นหน้าเต็มHTMLหรือเพียงแค่ตัวอย่างบางส่วน.
 
-ใช้นี่ **InsertHtml** วิธีการ, ผู้ใช้สามารถแทรกตารางเข้าไปในเอกสารผ่านทางป้ายกํากับของตารางได้ เช่น `<table>`, `<tr>`, `<td>`.
+โดยใช้วิธีการนี้**InsertHtml**ผู้ใช้สามารถแทรกตารางลงในเอกสารผ่านแท็กตารางเช่น`<table>`, `<tr>`, `<td>`.
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีการแทรกตารางเข้าไปในเอกสารจากข้อความที่มีป้ายกํากับ HTML:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกตารางลงในเอกสารจากสตริงที่มีแท็กHTML:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "insert-table-from-html.java" >}}
 
-## แทรกสําเนาของตารางที่มีอยู่
+## แทรกสำเนาของตารางที่มีอยู่
 
-บ่อย ครั้ง มี เวลา ที่ คุณ จําเป็น ต้อง สร้าง ตาราง ซึ่ง อาศัย ตาราง ที่ มี อยู่ แล้ว ใน เอกสาร. วิธีที่ง่ายที่สุดที่จะทําซ้ําตารางในขณะที่การฟอร์แมตทั้งหมดคือการโคลนโหนดตารางโดยใช้ [deepClone](https://reference.aspose.com/words/java/com.aspose.words/node/#deepClone-boolean) วิธี
+บ่อยครั้งที่คุณจำเป็นต้องสร้างตารางตามตารางที่มีอยู่แล้วในเอกสาร วิธีที่ง่ายที่สุดในการทำซ้ำตารางขณะที่ยังคงการจัดรูปแบบทั้งหมดคือการโคลนโหนดตารางโดยใช้วิธีการ[deepClone](https://reference.aspose.com/words/java/com.aspose.words/node/#deepClone-boolean).
 
-เทคนิค เดียว กัน นี้ อาจ ใช้ เพื่อ เพิ่ม สําเนา แถว หรือ เซลล์ ที่ มี อยู่ เข้า ไป ใน โต๊ะ.
+เทคนิคเดียวกันสามารถใช้ในการเพิ่มสำเนาของแถวที่มีอยู่หรือเซลล์ในตาราง.
 
-ตัวอย่างโค้ดต่อไปนี้ จะแสดงวิธีการจําลองตารางโดยใช้ตัวสร้างโหนด:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการทำซ้ำตารางโดยใช้ตัวสร้างโหนด:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "clone-complete-table.java" >}}
 
 {{% alert color="primary" %}}
 
-คุณสามารถดาวน์โหลดแฟ้มตัวอย่างของตัวอย่างนี้ได้ [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
+คุณสามารถดาวน์โหลดไฟล์ตัวอย่างของตัวอย่างนี้ได้จาก [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
 
 {{% /alert %}}
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการโคลนแถวสุดท้ายของตารางและเพิ่มเข้าไปในตาราง:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการโคลนแถวสุดท้ายของตารางและผนวกเข้ากับตาราง:
 
 {{< gist "aspose-words-gists" "68616fbf7f092a743b66d4491578d18c" "clone-last-row.java" >}}
 
 {{% alert color="primary" %}}
 
-คุณสามารถดาวน์โหลดแฟ้มตัวอย่างของตัวอย่างนี้ได้ [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
+คุณสามารถดาวน์โหลดไฟล์ตัวอย่างของตัวอย่างนี้ได้จาก [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
 
 {{% /alert %}}
 
-ถ้า คุณ กําลัง ดู เรื่อง การ สร้าง โต๊ะ ใน เอกสาร ซึ่ง มี ประวัติ บันทึก แต่ ละ แผ่น จาก แหล่ง ข้อมูล ของ คุณ อย่าง ไม่ มี การ ควบคุม ก็ จะ ไม่ มี การ แนะ นํา วิธี การ ดัง กล่าว. แทน ที่ จะ เป็น เช่น นั้น การ ส่ง ออก ที่ ต้องการ นั้น ง่าย กว่า โดย การ ใช้ Mail merge กับภูมิภาค คุณสามารถเรียนรู้เกี่ยวกับเทคนิคนี้มากขึ้นใน [Mail Merge ขอสาบานต่อมะลาอิกะฮฺที่จําแนกระหว่างความจริงกับความเท็จ](/words/java/types-of-mail-merge-operations/) ส่วน
+หากคุณกำลังมองที่การสร้างตารางในเอกสารที่เติบโตแบบไดนามิกกับแต่ละระเบียนจาก แต่ผลลัพธ์ที่ต้องการทำได้ง่ายขึ้นโดยใช้Mail mergeกับภูมิภาค คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับเทคนิคนี้ใน [Mail Mergeกับภูมิภาค](/words/java/types-of-mail-merge-operations/) มาตรา.
 
-## เทียบ วิธี สร้าง โต๊ะ
+## เปรียบเทียบวิธีการสร้างตาราง
 
-Aspose.Words ให้หลายวิธีในการสร้างตารางใหม่ในเอกสาร วิธี การ แต่ ละ อย่าง มี ข้อ ดี และ ข้อ เสีย ของ ตน เอง ดัง นั้น การ เลือก วิธี ที่ จะ ใช้ มัก ขึ้น อยู่ กับ สภาพ การณ์ เฉพาะ อย่าง.
+Aspose.Wordsมีหลายวิธีในการสร้างตารางใหม่ในเอกสาร แต่ละวิธีมีข้อดีของตัวเองและข้อเสียดังนั้นทางเลือกของการที่จะใช้มักจะขึ้นอยู่กับสถานกา.
 
-ลองมาดูวิธีการสร้างตาราง และเปรียบเทียบข้อดีข้อเสียของพวกเขา
+ลองมาดูที่วิธีการเหล่านี้ในการสร้างตารางและเปรียบเทียบข้อดีและข้อเสียของพวกเขา:
 
-|  วิธีการ | ข้อ ดี |  ข้อ เสีย |
-|  :-  |  :-  |  :-  |
-| ผ่าน `DocumentBuilder` | วิธีการมาตรฐานในการใส่ตารางและเนื้อหาเอกสารอื่น ๆ | บางครั้งยากที่จะสร้างหลายชนิดของตารางในเวลาเดียวกันกับตัวอย่างก่อสร้างเดียวกัน |
-| ผ่าน DOM |  มันเข้ากับรหัสรอบๆ ที่สร้างและแทรกโหนดเข้าไป DOM โดยไม่ต้องใช้ **DocumentBuilder** | ตารางถูกสร้าง "ว่าง": ก่อนที่จะดําเนินการส่วนใหญ่ คุณต้องโทร [EnsureMinimum](https://reference.aspose.com/words/java/com.aspose.words/table/#ensureMinimum) เพื่อสร้างโหนดเด็กที่หายไป |
-| จาก HTML | สร้างตารางใหม่จากแหล่ง HTML โดยใช้ป้ายกํากับเช่น `<table>`, `<tr>`, `<td>` | ไม่ทั้งหมดหรอก Microsoft Word ฟอร์แมตตารางสามารถใช้กับ HTML ได้ |
-| กําลังโคลนตารางที่มีอยู่ | คุณสามารถสร้างสําเนาของตารางที่มีอยู่ได้ ในขณะที่ยังเก็บการฟอร์แมตทั้งแถวและเซลล์ได้ | ต้อง เอา โหนด เด็ก ที่ เหมาะ สม ออก ก่อน จะ ใช้ โต๊ะ |
+| วิธีการ | ข้อดี | ข้อเสีย |
+| :- | :- | :- |
+| ผ่าน`DocumentBuilder` | วิธีการมาตรฐานสำหรับการแทรกตารางและเนื้อหาเอกสารอื่นๆ | บางครั้งยากที่จะสร้างหลายพันธุ์ของตารางในเวลาเดียวกันกับอินสแตนซ์สร้างเดียวกัน |
+| ผ่านDOM | เหมาะกับโค้ดโดยรอบที่สร้างและแทรกโหนดลงในDOMโดยไม่ต้องใช้**DocumentBuilder** | ตารางถูกสร้างขึ้น"ว่างเปล่า":ก่อนดำเนินการส่วนใหญ่คุณต้องโทร[EnsureMinimum](https://reference.aspose.com/words/java/com.aspose.words/table/#ensureMinimum)เพื่อสร้างโหนดเด็กที่ขาด |
+| จากHTML | สามารถสร้างตารางใหม่จากHTMLแหล่งที่มาโดยใช้แท็กเช่น`<table>`, `<tr>`, `<td>` | ไม่สามารถใช้รูปแบบตารางMicrosoft Wordได้กับHTML |
+| การโคลนตารางที่มีอยู่ | คุณสามารถสร้างสำเนาของตารางที่มีอยู่ขณะที่ยังคงจัดรูปแบบแถวและเซลล์ทั้งหมด | โหนดลูกที่เหมาะสมต้องถูกลบออกก่อนที่ตารางจะพร้อมสำหรับการใช้งาน |

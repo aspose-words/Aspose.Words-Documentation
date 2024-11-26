@@ -1,8 +1,8 @@
 ---
-title: Použití `DocumentBuilder` Změnit dokument
+title: Použití DocumentBuilder Změnit dokument
 second_title: Aspose.Words místo Java
-articleTitle: Použití `DocumentBuilder` Změnit dokument
-linktitle: Použití `DocumentBuilder` Změnit dokument
+articleTitle: Použití DocumentBuilder Změnit dokument
+linktitle: Použití DocumentBuilder Změnit dokument
 type: docs
 description: "Pomocí stavitele dokumentů lze dokument snadno upravit v Java."
 weight: 20

@@ -1,28 +1,28 @@
----
-title: Caratteristiche supportate sul carico del documento
+﻿---
+title: Funzionalità supportate sul caricamento del documento
 second_title: Aspose.Words per Java
-articleTitle: Caratteristiche supportate sul carico del documento
-linktitle: Caratteristiche supportate sul carico del documento
-description: "Caricare e convertire un documento nella maggior parte dei formati popolari e supporta un sacco di Microsoft Word caratteristiche."
+articleTitle: Funzionalità supportate sul caricamento del documento
+linktitle: Funzionalità supportate sul caricamento del documento
+description: "Carica e converti un documento nella maggior parte dei formati più diffusi e supporta molte funzioni Microsoft Word."
 type: docs
 weight: 20
 url: /it/java/supported-features-on-document-load/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words consente agli utenti di lavorare con documenti in vari formati e fornisce una vasta gamma di opzioni per questo. Ad esempio, gli utenti possono creare un documento da zero o caricare un file esistente in qualsiasi [Formati di documento supportati](/words/it/java/supported-document-formats/), fare alcune modifiche a quel documento e quindi salvare il risultato. Quando si importa un documento nel formato selezionato, l'utente può applicare varie opzioni di carico.
+Aspose.Words consente agli utenti di lavorare con documenti in vari formati e fornisce una vasta gamma di opzioni per questo. Ad esempio, gli utenti possono creare un documento da zero o caricare un file esistente in qualsiasi [formato di importazione supportato](/words/java/supported-document-formats/), apporti alcune modifiche a quel documento e poi salvi il risultato. Quando si importa un documento nel formato selezionato, l'utente può applicare varie opzioni di caricamento.
 
 {{% alert color="primary" %}}
 
-È importante sapere che molte opzioni di carico sono comuni a tutti i formati supportati, e solo alcune delle opzioni sono specifiche di formato, come PDF, HTML, RTF e altri.
+È importante sapere che molte opzioni di caricamento sono comuni a tutti i formati supportati e solo alcune delle opzioni sono specifiche del formato, ad esempio PDF, HTML, RTF, e altri.
 
 {{% /alert %}}
 
-Per un elenco completo delle funzioni, vedere API riferimento:
+Per un elenco completo delle funzioni, vedere API reference:
 
-- [Prodotti di carico per tutti i formati](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/)
-- No. [Opzioni di carico CHM](https://reference.aspose.com/words/java/com.aspose.words/chmloadoptions/) per il formato CHM
-- No. [Opzioni di carico HTML](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/) per il formato HTML
-- No. [Informazioni su PDF](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) per formato PDF
-- No. [Prodotti di carico RTF](https://reference.aspose.com/words/java/com.aspose.words/rtfloadoptions/) per formato RTF
-- No. [Opzioni di carico TXT](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) per il formato TXT
+- [opzioni di caricamento per tutti i formati](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/)
+- [CHM opzioni di caricamento](https://reference.aspose.com/words/java/com.aspose.words/chmloadoptions/) per il formato CHM
+- [HTML opzioni di caricamento](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/) per il formato HTML
+- [PDF opzioni di caricamento](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) per il formato PDF
+- [RTF opzioni di caricamento](https://reference.aspose.com/words/java/com.aspose.words/rtfloadoptions/) per il formato RTF
+- [TXT opzioni di caricamento](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) per il formato TXT

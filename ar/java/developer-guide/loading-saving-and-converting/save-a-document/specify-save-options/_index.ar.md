@@ -1,74 +1,74 @@
----
-title: تحديد خيارات الإنقاذ في Java
-second_title: Aspose.Words for Java
-articleTitle: تحديد خيارات الإنقاذ
-linktitle: تحديد خيارات الإنقاذ
-description: "وضع خصائص متقدمة عند توفير وثيقة باستخدام Java توفير رقابة أكثر دقة على العملية."
+﻿---
+title: حدد خيارات الحفظ في Java
+second_title: Aspose.Words ل Java
+articleTitle: حدد خيارات الحفظ
+linktitle: حدد خيارات الحفظ
+description: "قم بتعيين الخصائص المتقدمة عند حفظ مستند باستخدام Java لتوفير تحكم أكثر دقة في العملية."
 type: docs
 weight: 20
 url: /ar/java/specify-save-options/
 timestamp: 2024-01-27-14-07-04
 ---
 
-عندما تنقذ وثيقة، يمكنك وضع بعض الممتلكات المتقدمة. Aspose.Words يزودك بـ [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) الطبقة التي تسمح بمراقبة أكثر دقة لعملية الإنقاذ هناك تحميلات زائدة **Save** طريقة تقبل **SaveOptions** الجسم - ينبغي أن يكون هدفا لفئة مستمدة من **SaveOptions** صف لكل شكل من أشكال الادخار طبقة مناظرة تحتفظ بخيارات لشكل الادخار هذا، على سبيل المثال، هناك [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) للادخار في شكل PDF، [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) للادخار Markdown الشكل أو [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) لإنقاذ صورة تقدم هذه المادة أمثلة على العمل مع بعض فئات الخيارات المستمدة من **SaveOptions**.
+عند حفظ مستند، يمكنك تعيين بعض الخصائص المتقدمة. Aspose.Words يوفر لك فئة [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/)، والتي تتيح تحكما أكثر دقة في عملية الحفظ. هناك حمولات زائدة لطريقة **Save** تقبل كائن **SaveOptions** - يجب أن يكون كائنا لفئة مشتقة من فئة **SaveOptions**. يحتوي كل تنسيق حفظ على فئة مقابلة تحتوي على خيارات حفظ لتنسيق الحفظ هذا، على سبيل المثال، يوجد [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) للحفظ إلى PDF تنسيق، [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) للحفظ إلى Markdown تنسيق، أو [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) للحفظ إلى صورة. تقدم هذه المقالة أمثلة للعمل مع بعض فئات الخيارات المشتقة من **SaveOptions**.
 
-The following code example shows how to set the save the document into HTML:
+يوضح مثال الكود التالي كيفية تعيين خيارات الحفظ قبل حفظ المستند في HTML:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifySaveOption-SpecifySaveOption.java" >}}
 
 
 {{% alert color="primary" %}}
 
-يمكنك تحميل ملف النموذج من هذا المثال [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
+يمكنك تنزيل ملف القالب لهذا المثال من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-المقالة تصف بعض الممتلكات التي يمكنك التحكم بها عندما تنقذ وثيقة
+توضح المقالة بعض الخصائص التي يمكنك التحكم فيها عند حفظ مستند.
 
-## Encrypt a Document مع كلمة سر
+## تشفير مستند بكلمة مرور
 
-استخدام **Password** ملكية للحصول على أو وضع كلمة سر لوثيقة مشفرة استخدام **Password** ممتلكات الفئة المقابلة للعمل في شكل وثيقة مختارة.
+استخدم خاصية **Password** للحصول على كلمة مرور لمستند مشفر أو تعيينها. استخدم خاصية **Password** للفئة المقابلة للعمل مع تنسيق المستند المحدد.
 
-على سبيل المثال، عند توفير وثيقة إلى لجنة التنسيق الإدارية أو DOT الشكل، استخدام [Password](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/#Password) ممتلكات [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) الصف
+على سبيل المثال، عند حفظ مستند بتنسيق DOC أو DOT، استخدم خاصية [Password](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/#Password) لفئة [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/).
 
-The following code example shows how to set a password to encrypt a document using the RC4 encryption method:
+يوضح مثال التعليمات البرمجية التالية كيفية تعيين كلمة مرور لتشفير مستند باستخدام طريقة تشفير RC4:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithDocSaveOptions-EncryptDocumentWithPassword.java" >}}
 
-عند توفير وثيقة إلى شكل الـ دي. [Password](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/#Password) ممتلكات [OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/) الصف
+عند حفظ مستند بتنسيق ODT، استخدم خاصية [Password](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/#Password) لفئة [OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/).
 
-The following code example shows how to load and save OpenDocument encrypted with a password:
+يوضح مثال الكود التالي كيفية تحميل وحفظ OpenDocument مشفر بكلمة مرور:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-LoadAndSaveEncryptedODT.java" >}}
 
-ليس جميع أشكال دعم التشفير واستخدام **Password** ملكية
+لا تدعم جميع التنسيقات التشفير واستخدام خاصية **Password**.
 
-## بيان الوثيقة
+## إظهار إشعارات تقدم حفظ المستندات
 
-Aspose.Words توفير القدرة على استخدام [ProgressCallback](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getProgressCallback) الممتلكات للحصول على إخطارات عن التقدم المحرز في توفير الوثائق.
+Aspose.Words يوفر القدرة على استخدام خاصية [ProgressCallback](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getProgressCallback) للحصول على إشعارات حول تقدم حفظ المستندات.
 
-وهي متاحة الآن عند توفيرها لدو سيكس، فلاتوبك، دو سي. DOTM، DOTX, HTML, MHTML, EPUB, XamlFlow, XamlFlowPack, or TXT formats.
+وهي متاحة الآن عند الحفظ إلى DOCX, FlatOpc, DOCM, DOTM, DOTX, HTML, MHTML, EPUB, XamlFlow, XamlFlowPack, أو TXT التنسيقات.
 
-## Update the Document Creation Time
+## تحديث وقت إنشاء المستند
 
-Aspose.Words توفر القدرة على استخدام [CreatedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getCreatedTime) ممتلكات للحصول على أو تحديد تاريخ إعداد الوثائق في مركز التجارة الدولية. يمكنك أيضا تحديث هذه القيمة قبل الادخار باستخدام [UpdateCreatedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateCreatedTimeProperty) الخيار
+Aspose.Words يوفر القدرة على استخدام الخاصية [CreatedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getCreatedTime) للحصول على أو تعيين تاريخ إنشاء المستند في UTC. يمكنك أيضا تحديث هذه القيمة قبل الحفظ باستخدام [UpdateCreatedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateCreatedTimeProperty) اختيار.
 
-ويبين المثال الرمزي التالي كيفية تحديث وقت إعداد الوثائق:
+يوضح مثال التعليمات البرمجية التالية كيفية تحديث وقت إنشاء المستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-UpdateIfLastPrinted.java" >}}
 
-## آخر الممتلكات المحتفظ بها
+## تحديث آخر خاصية محفوظة
 
-Aspose.Words توفر القدرة على استخدام [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateLastSavedTimeProperty) الممتلكات للحصول على قيمة أو تحديدها [LastSavedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getLastSavedTime) ويتم تحديث الممتلكات قبل الادخار.
+Aspose.Words يوفر القدرة على استخدام الخاصية [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateLastSavedTimeProperty) للحصول على أو تعيين قيمة تحديد ما إذا كان يتم تحديث الخاصية [LastSavedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getLastSavedTime) قبل الحفظ.
 
-ويبين المثال الرمزي التالي كيفية وضع هذه الممتلكات وإنقاذ الوثيقة:
+يوضح مثال التعليمات البرمجية التالية كيفية تعيين هذه الخاصية وحفظ المستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithOoXML-updateLastSavedTimeProperty.java" >}}
 
-## انقذوا الصورة السوداء والبيض مع مفرد واحد
+## حفظ الصورة بالأبيض والأسود بت واحد لكل تنسيق بكسل
 
-للسيطرة على خيارات إنقاذ الصور، **ImageSaveOptions** الفصل مستعمل على سبيل المثال، يمكنك استخدام [PixelFormat](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getPixelFormat) ممتلكات لوضع شكل بيكسل للصور المولدة ويرجى الانتباه إلى أن الشكل القاطع لصورة النواتج قد يختلف عن القيمة المحددة بسبب عمل المبادرة العالمية المعززة.
+للتحكم في خيارات حفظ الصورة، يتم استخدام فئة **ImageSaveOptions**. على سبيل المثال، يمكنك استخدام الخاصية [PixelFormat](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getPixelFormat) لتعيين تنسيق البكسل للصور التي تم إنشاؤها. يرجى ملاحظة أن تنسيق البكسل لصورة الإخراج قد يختلف عن القيمة المحددة بسبب عمل GDI+.
 
-The following code example shows how to save a black and white image with one bit per pixel format:
+يوضح مثال الكود التالي كيفية حفظ صورة بالأبيض والأسود بت واحد لكل تنسيق بكسل:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-ImageColorFilters-SaveImageToOnebitPerPixel.java" >}}

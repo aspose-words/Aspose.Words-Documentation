@@ -1,8 +1,8 @@
 ---
-title: Jak vytvořit stůl z `DataTable` tro C#
+title: Jak vytvořit stůl z DataTable tro C#
 second_title: Aspose.Words místo .NET
-articleTitle: Postavit stůl z `DataTable`
-linktitle: Postavit stůl z `DataTable`
+articleTitle: Postavit stůl z DataTable
+linktitle: Postavit stůl z DataTable
 description: "Příklad vyplnění tabulky dokumentů z externí databáze pomocí C#."
 type: docs
 weight: 120

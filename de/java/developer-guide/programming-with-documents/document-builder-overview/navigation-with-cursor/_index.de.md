@@ -1,83 +1,83 @@
----
+﻿---
 title: Navigation mit Cursor in Java
 second_title: Aspose.Words für Java
 articleTitle: Navigation mit Cursor
 linktitle: Navigation mit Cursor
-description: "Navigieren Sie zwischen verschiedenen Knoten innerhalb eines Dokuments, wie z.B. einem Absatz, einem Lesezeichen oder einem bestimmten Zeichen unter Verwendung Java."
+description: "Navigieren Sie mit Java zwischen verschiedenen Knoten innerhalb eines Dokuments, z. B. einem Absatz, einem Lesezeichen oder einem bestimmten Zeichen."
 type: docs
 weight: 5
 url: /de/java/navigation-with-cursor/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Während der Arbeit mit einem Dokument, auch wenn es ein kurzer oder langer ist, müssen Sie durch Ihr Dokument navigieren. Navigation mit einem virtuellen Cursor stellt die Möglichkeit dar, zwischen verschiedenen Knoten in einem Dokument zu navigieren.
+Während Sie mit einem Dokument arbeiten, auch wenn es sich um ein kurzes oder langes Dokument handelt, müssen Sie durch Ihr Dokument navigieren. Die Navigation mit einem virtuellen Cursor stellt die Möglichkeit dar, zwischen verschiedenen Knoten in einem Dokument zu navigieren.
 
-Innerhalb eines kurzen Dokuments ist das Umfahren in einem Dokument einfach, da Sie den Eingabepunkt auch mit den Pfeiltasten der Tastatur bewegen können oder indem Sie auf die Maus klicken, um den Eingabepunkt zu finden, wo immer Sie wollen. Aber wenn Sie ein großes Dokument haben, das viele Seiten hat, werden diese grundlegenden Techniken nicht ausreichen.
+Innerhalb eines kurzen Dokuments ist das Verschieben in einem Dokument einfach, da Sie die Einfügemarke sogar mithilfe der Pfeiltasten der Tastatur oder durch Klicken mit der Maus verschieben können, um die Einfügemarke an einer beliebigen Stelle zu finden. Sobald Sie jedoch ein großes Dokument mit vielen Seiten haben, reichen diese grundlegenden Techniken nicht mehr aus.
 
-Dieser Artikel erklärt, wie man sich in einem Dokument herumbewegt und mit einem virtuellen Cursor zu verschiedenen Teilen davon navigiert.
+In diesem Artikel wird erläutert, wie Sie sich in einem Dokument bewegen und mit einem virtuellen Cursor zu verschiedenen Teilen des Dokuments navigieren.
 
-## Erfassung der aktuellen Cursorposition
+## Aktuelle Cursorposition erkennen
 
-Bevor Sie den Prozess des Navigierens durch Ihr Dokument starten, müssen Sie den aktuell ausgewählten Knoten erhalten. Sie können die genaue Position des Cursors an einem ausgewählten Knoten erhalten, indem Sie die [CurrentNode](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentNode) Eigentum. Zusätzlich, anstatt den aktuellen Knoten zu bekommen, können Sie den aktuell ausgewählten Absatz oder den aktuell ausgewählten Abschnitt erhalten, indem Sie die [CurrentParagraph](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentParagraph) und [CurrentSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentSection) Eigenschaften.
+Bevor Sie mit dem Navigieren durch Ihr Dokument beginnen, müssen Sie den aktuell ausgewählten Knoten abrufen. Sie können die genaue Position des Cursors an einem ausgewählten Knoten mithilfe der Eigenschaft [CurrentNode](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentNode) ermitteln. Außerdem können Sie anstelle des aktuellen Knotens den aktuell ausgewählten Absatz oder den aktuell ausgewählten Abschnitt mithilfe der Eigenschaften [CurrentParagraph](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentParagraph) und [CurrentSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentSection) abrufen.
 
-Alle Einlegevorgänge, die Sie mit Hilfe der [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) wird vor dem [CurrentNode](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#CurrentNode). Wenn der aktuelle Absatz leer ist oder der Cursor kurz vor dem Ende des Absatzes positioniert ist, **CurrentNode** gibt null zurück.
+Alle Einfügevorgänge, die Sie mit [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) ausführen, werden vor [CurrentNode](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#CurrentNode) eingefügt. Wenn der aktuelle Absatz leer ist oder der Cursor kurz vor dem Ende des Absatzes positioniert ist, gibt **CurrentNode** null zurück.
 
 ## Navigationsmethoden in einem Dokument
 
-Wenn Sie Text bearbeiten, ist es wichtig zu wissen, wie Sie Ihr Dokument navigieren und wo genau in es zu bewegen. Aspose.Words ermöglicht es Ihnen, sich in einem Dokument zu bewegen und zu seinen verschiedenen Abschnitten und Teilen zu navigieren – das ist ähnlich wie die Funktionalität des Navigationsbereichs in Microsoft Word auf eine Seite zu gehen oder in einem Word-Dokument ohne Scrollen zu gehen.
+Wenn Sie Text bearbeiten, ist es wichtig zu wissen, wie Sie in Ihrem Dokument navigieren und wo genau Sie sich darin bewegen müssen. Aspose.Words ermöglicht es Ihnen, sich in einem Dokument zu bewegen und zu seinen verschiedenen Abschnitten und Teilen zu navigieren – dies ähnelt der Funktionalität des Navigationsbereichs in Microsoft Word, um zu einer Seite oder Überschrift in einem Word-Dokument zu gelangen, ohne zu scrollen.
 
-Die Hauptmethode ist, die Cursorposition in einem bestimmten Knoten in Ihrem Dokument bewegen zu können, können Sie dies durch die Verwendung der [MoveTo](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveTo-com.aspose.words.Node) Methode.
+Die Hauptmethode besteht darin, die Cursorposition auf einen bestimmten Knoten in Ihrem Dokument verschieben zu können. Dies können Sie mit der Methode [MoveTo](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveTo-com.aspose.words.Node) erreichen.
 
-Das folgende Codebeispiel zeigt, wie man die **DocumentBuilder** zu verschiedenen Knoten in einem Dokument:
+Das folgende Codebeispiel zeigt, wie Sie die **DocumentBuilder** zu verschiedenen Knoten in einem Dokument verschieben:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToNode-DocumentBuilderMoveToNode.java" >}}
 
-Aber neben dem Grund **MoveTo** Verfahren, es gibt mehr spezifische.
+Neben der grundlegenden **MoveTo** -Methode gibt es jedoch spezifischere.
 
-### Navigieren Sie zu Beginn oder Ende eines Dokuments
+### Zum Anfang oder Ende eines Dokuments navigieren
 
-Sie können zu Beginn oder Ende Ihres Dokuments mit dem [MoveToDocumentStart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToDocumentStart) und [MoveToDocumentEnd](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToDocumentEnd) Methoden.
+Sie können mit den Methoden [MoveToDocumentStart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToDocumentStart) und [MoveToDocumentEnd](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToDocumentEnd) zum Anfang oder zum Ende Ihres Dokuments wechseln.
 
-Das folgende Codebeispiel zeigt, wie man die Cursorposition zum Anfang oder zum Ende eines Dokuments bewegt:
+Das folgende Codebeispiel zeigt, wie Sie die Cursorposition an den Anfang oder das Ende eines Dokuments verschieben:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToDocumentStartEnd-DocumentBuilderMoveToDocumentStartEnd.java" >}}
 
-### Navigieren Sie mit Lesezeichen
+### Navigieren mit Lesezeichen
 
-Sie können einen Ort markieren, den Sie finden und sich wieder leicht bewegen möchten. Sie können so viele Lesezeichen in Ihr Dokument einfügen, wie Sie wollen, und dann durch sie navigieren, indem Sie die Lesezeichen mit einzigartigen Namen identifizieren. Sie können mit Hilfe der [MoveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToBookmark-java.lang.String-boolean-boolean) Methode.
+Sie können einen Ort markieren, den Sie finden möchten, und ihn einfach wieder aufrufen. Sie können beliebig viele Lesezeichen in Ihr Dokument einfügen und dann durch sie navigieren, indem Sie die Lesezeichen mit eindeutigen Namen identifizieren. Sie können zu einem Lesezeichen wechseln, indem Sie die [MoveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToBookmark-java.lang.String-boolean-boolean) -Methode verwenden.
 
-Die folgenden Codebeispiele zeigen, wie man eine Cursorposition zu einem Lesezeichen bewegt:
+Die folgenden Codebeispiele zeigen, wie Sie eine Cursorposition auf ein Lesezeichen verschieben:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToBookmark-DocumentBuilderMoveToBookmark.java" >}}
 
-### Navigieren Sie zu Tabellenzellen
+### Zu Tabellenzellen navigieren
 
-Sie können mit Hilfe der [MoveToCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToCell-int-int-int-int) Methode. Diese Methode ermöglicht es Ihnen, Ihren Cursor in jede Zelle in einer bestimmten Tabelle zu navigieren. Zusätzlich können Sie einen Index angeben, um den Cursor in eine Zelle innerhalb der Zelle zu einer beliebigen Position oder bestimmten Zeichen zu bewegen. **MoveToCell** Methode.
+Sie können zu einer Tabellenzelle wechseln, indem Sie die [MoveToCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToCell-int-int-int-int)-Methode verwenden. Mit dieser Methode können Sie mit dem Cursor in eine beliebige Zelle in einer bestimmten Tabelle navigieren. Darüber hinaus können Sie einen Index angeben, um den Cursor an eine beliebige Position oder ein bestimmtes Zeichen in einer Zelle innerhalb der **MoveToCell**-Methode zu bewegen.
 
-Das folgende Codebeispiel zeigt, wie man eine Cursorposition in eine vorgegebene Tabellenzelle bewegt:
+Das folgende Codebeispiel zeigt, wie eine Cursorposition in eine angegebene Tabellenzelle verschoben wird:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToTableCell-DocumentBuilderMoveToTableCell.java" >}}
 
-### Navigation auf ein Feld
+### Zu einem Feld navigieren
 
-Sie können zu einem bestimmten Feld in Ihrem Dokument bewegen, indem Sie die [MoveToField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToField-com.aspose.words.Field-boolean) Methode. Darüber hinaus können Sie zu einem bestimmten Zusammenführungsfeld bewegen, indem Sie das [MoveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) Methode.
+Sie können zu einem bestimmten Feld in Ihrem Dokument wechseln, indem Sie die [MoveToField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToField-com.aspose.words.Field-boolean) -Methode verwenden. Außerdem können Sie mit der Methode [MoveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) zu einem bestimmten Seriendruckfeld wechseln.
 
-Das folgende Codebeispiel zeigt, wie der Dokument-Builder-Cursor auf ein bestimmtes Feld verschoben werden kann:
+Das folgende Codebeispiel zeigt, wie Sie den Cursor des Dokumentgenerators auf ein bestimmtes Feld bewegen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 
-### Navigieren Sie zu einem Header oder Footer
+### Navigieren zu einer Kopf- oder Fußzeile
 
-Sie können zu Beginn eines Headers oder Footer bewegen, indem Sie die [MoveToHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToHeaderFooter-int) Methode
+Sie können zum Anfang einer Kopf- oder Fußzeile wechseln, indem Sie die [MoveToHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToHeaderFooter-int)-Methode verwenden.
 
-Das folgende Codebeispiel zeigt, wie man Dokument Builder Cursor zu einem Dokument Header oder Footer bewegt:
+Das folgende Codebeispiel zeigt, wie Sie den Cursor des Dokumentgenerators auf eine Kopf- oder Fußzeile eines Dokuments bewegen:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderHeadersAndFooters-DocumentBuilderHeaderAndFooters.java" >}}
 
-### Navigieren Sie zu einem Abschnitt oder Absatz
+### Navigieren zu einem Abschnitt oder Absatz
 
-Sie können zu einem bestimmten Abschnitt oder Absatz bewegen, indem Sie die [MoveToParagraph](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToParagraph-int-int) oder [MoveToSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToSection-int) Methoden. Zusätzlich können Sie einen Index angeben, um den Cursor an jede Position oder ein bestimmtes Zeichen in einem Absatz innerhalb des **MoveToParagraph** Methode.
+Sie können zu einem bestimmten Abschnitt oder Absatz wechseln, indem Sie die Methoden [MoveToParagraph](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToParagraph-int-int) oder [MoveToSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToSection-int) verwenden. Darüber hinaus können Sie einen Index angeben, um den Cursor an eine beliebige Position oder ein bestimmtes Zeichen in einem Absatz innerhalb der **MoveToParagraph**-Methode zu bewegen.
 
-Das folgende Codebeispiel zeigt, wie man sich in einem Dokument zu einem bestimmten Abschnitt und einem bestimmten Absatz bewegen kann:
+Das folgende Codebeispiel zeigt, wie Sie zu einem bestimmten Abschnitt und einem bestimmten Absatz in einem Dokument wechseln:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToSectionParagraph-DocumentBuilderMoveToSectionParagraph.java" >}}

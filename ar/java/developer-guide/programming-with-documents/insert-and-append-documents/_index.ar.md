@@ -1,125 +1,125 @@
----
-title: Insert and Append Documents in Java
-second_title: Aspose.Words for Java
-articleTitle: الوثائق المرفوعة والمقدمة
-linktitle: الوثائق المرفوعة والمقدمة
-description: "وثائق التجميع في وثيقة واحدة: إدراج أو تذييل وثيقة في وثيقة جديدة أو قائمة باستخدام الاكتشاف والاستعاضة عنها، أو الدمج في الميدان، أو علامة الكتاب، أو ببساطة في نهاية الوثيقة Java."
+﻿---
+title: إدراج وإلحاق المستندات في Java
+second_title: Aspose.Words ل Java
+articleTitle: إدراج المستندات وإلحاقها
+linktitle: إدراج المستندات وإلحاقها
+description: "دمج المستندات في مستند واحد: أدخل أو ألحق مستندا في مستند جديد أو موجود باستخدام البحث والاستبدال أو حقل الدمج أو الإشارة المرجعية أو ببساطة في نهاية المستند بـ Java."
 type: docs
 weight: 80
 url: /ar/java/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---
 
-وفي بعض الأحيان يلزم الجمع بين عدة وثائق في وثيقة واحدة. يمكنك أن تفعل هذا يدويا أو يمكنك استخدام Aspose.Words تدرج أو تذييل خاصية.
+في بعض الأحيان يكون مطلوبا دمج عدة مستندات في مستند واحد. يمكنك القيام بذلك يدويا أو يمكنك استخدام Aspose.Words إدراج أو إلحاق الميزة.
 
-عملية الإدخال تسمح لك بإضافة محتوى الوثائق التي سبق إنشاؤها إلى وثيقة جديدة أو قائمة.
+تتيح لك عملية الإدراج إدراج محتوى المستندات التي تم إنشاؤها مسبقا في مستند جديد أو موجود.
 
-وبالمقابل، فإن سمة التذييل تسمح لك بإضافة وثيقة فقط في نهاية وثيقة أخرى.
+في المقابل، تتيح لك ميزة الإلحاق إضافة مستند فقط في نهاية مستند آخر.
 
-وتشرح هذه المادة كيفية إدراج أو تذييل وثيقة إلى وثيقة أخرى بطرق مختلفة، وتصف الممتلكات المشتركة التي يمكن أن تطبقها أثناء إدراج أو تذييل الوثائق.
+تشرح هذه المقالة كيفية إدراج مستند أو إلحاقه بمستند آخر بطرق مختلفة وتصف الخصائص الشائعة التي يمكنك تطبيقها أثناء إدراج المستندات أو إلحاقها.
 
-## تدرج الوثيقة
+## أدخل وثيقة
 
-كما ذُكر أعلاه، في Aspose.Words وتُمثَّل الوثيقة كشجرة من الأنهار، وتُعدُّ عملية إدراج وثيقة في وثيقة أخرى نسخاً من شجرة الوثائق الأولى إلى الثانية.
+كما ذكر أعلاه، في Aspose.Words يتم تمثيل المستند كشجرة من العقد، وعملية إدراج مستند في آخر هي نسخ العقد من شجرة المستند الأولى إلى الثانية.
 
-يمكنك إدخال الوثائق في مختلف المواقع بطرق مختلفة على سبيل المثال، يمكنك إدخال وثيقة من خلال عملية بديلة، حقل مدمج خلال عملية دمج، أو عن طريق علامة كتاب.
+يمكنك إدراج المستندات في مجموعة متنوعة من المواقع بطرق مختلفة. على سبيل المثال، يمكنك إدراج مستند من خلال عملية استبدال أو حقل دمج أثناء عملية دمج أو عبر إشارة مرجعية.
 
-يمكنك أيضا استخدام [InsertDocument](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocument-com.aspose.words.Document-int) أو [InsertDocumentInline](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocumentInline-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions) طريقة مماثلة لإدراج وثيقة في Microsoft Word, إدراج وثيقة كاملة في موقف الضمائر الحالي دون أي استيراد سابق.
+يمكنك أيضا استخدام طريقة [InsertDocument](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocument-com.aspose.words.Document-int) أو [InsertDocumentInline](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocumentInline-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions)، والتي تشبه إدراج مستند في Microsoft Word، لإدراج مستند كامل في موضع المؤشر الحالي دون أي استيراد سابق.
 
-ويبين المثال الرمزي التالي كيفية إدراج وثيقة باستخدام **InsertDocument** الطريقة:
+يوضح مثال التعليمات البرمجية التالية كيفية إدراج مستند باستخدام طريقة **InsertDocument**:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-with-builder.java" >}}
 
-ويبين المثال الرمزي التالي كيفية إدراج وثيقة باستخدام **InsertDocumentInline** الطريقة:
+يوضح مثال التعليمات البرمجية التالية كيفية إدراج مستند باستخدام طريقة **InsertDocumentInline**:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-inline-with-builder.java" >}}
 
-وتصف الأقسام الفرعية التالية الخيارات التي يمكن خلالها إدراج وثيقة واحدة في وثيقة أخرى.
+تصف الأقسام الفرعية التالية الخيارات التي يمكنك خلالها إدراج مستند في مستند آخر.
 
-### تدرج الوثيقة أثناء البحث والاستبدال {#insert-a-document-during-find-and-replace-operation}
+### أدخل مستندا أثناء عملية البحث والاستبدال {#insert-a-document-during-find-and-replace-operation}
 
-يمكنك إدخال الوثائق أثناء القيام بالعثور واستبدال العمليات فعلى سبيل المثال، يمكن أن تتضمن الوثيقة فقرات مع النص [الإجراء] و[التعليق]. ولكن في الوثيقة الختامية، تحتاج إلى الاستعاضة عن هذه الفقرات بالمحتوى الذي يتم الحصول عليه من وثيقة خارجية أخرى. لتحقيق ذلك، سوف تحتاج إلى إنشاء معالج للحدث البديل.
+يمكنك إدراج المستندات أثناء إجراء عمليات البحث والاستبدال. على سبيل المثال، يمكن أن يحتوي المستند على فقرات بالنص [INTRODUCTION] و [CONCLUSION]. لكن في المستند النهائي، تحتاج إلى استبدال تلك الفقرات بالمحتوى الذي تم الحصول عليه من مستند خارجي آخر. لتحقيق ذلك، سوف تحتاج إلى إنشاء معالج للحدث استبدال.
 
-ويبين المثال الرمزي التالي كيفية إنشاء معالج للحدث البديل لاستخدامه في وقت لاحق في عملية الإدراج:
+يوضح مثال التعليمات البرمجية التالية كيفية إنشاء معالج للحدث استبدال لاستخدامه لاحقا في عملية الإدراج:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-replace-handler.java" >}}
 
-ويبيّن المثال الرمزي التالي كيف تُدرَج محتويات إحدى الوثائق في وثيقة أخرى خلال عملية البحث والاستبدال:
+يوضح مثال الكود التالي كيفية إدراج محتوى مستند إلى آخر أثناء عملية البحث والاستبدال:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-replace.java" >}}
 
-### تدرج الوثيقة خلال الفترة Mail Merge العملية {#insert-a-document-during-mail-merge-operation}
+### أدخل مستندا أثناء عملية Mail Merge {#insert-a-document-during-mail-merge-operation}
 
-يمكنك أن تضيف وثيقة إلى حقل مدمج خلال Mail Merge العملية على سبيل المثال(أ) Mail Merge ويمكن أن يحتوي النموذج على حقل مدمج مثل [الموجز]. ولكن في الوثيقة الختامية، يجب أن تُدرَج المحتويات التي تم الحصول عليها من وثيقة خارجية أخرى في هذا المجال المدمج. لتحقيق ذلك، سوف تحتاج إلى إنشاء معالج لحدث الدمج.
+يمكنك إدراج مستند في حقل دمج أثناء عملية Mail Merge. على سبيل المثال، يمكن أن يحتوي قالب Mail Merge على حقل دمج مثل [ملخص]. ولكن في المستند النهائي، تحتاج إلى إدراج محتوى تم الحصول عليه من مستند خارجي آخر في حقل الدمج هذا. لتحقيق ذلك، سوف تحتاج إلى إنشاء معالج لحدث الدمج.
 
-ويبين المثال الرمزي التالي كيفية إنشاء معالج للحدث المختلط ليستخدمه في وقت لاحق في عملية الإدراج:
+يوضح مثال التعليمات البرمجية التالية كيفية إنشاء معالج لحدث الدمج لاستخدامه لاحقا في عملية الإدراج:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-mail-merge-handler.java" >}}
 
-ويبيّن المثال الرمزي التالي كيفية إدراج وثيقة في مجال الاندماج باستخدام المعالج المُنشأ:
+يوضح مثال التعليمات البرمجية التالية كيفية إدراج مستند في حقل الدمج باستخدام المعالج الذي تم إنشاؤه:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-mail-merge.java" >}}
 
-### Insert a Document at Bookmark
+### أدخل مستندا في إشارة مرجعية
 
-ويمكنك أن تستورد ملفاً نصياً في وثيقة وتدرجه مباشرة بعد علامة كتاب عرّفتها في الوثيقة. وللقيام بذلك، وضع فقرة مكتوبة حيث تريد إدراج الوثيقة.
+يمكنك استيراد ملف نصي إلى مستند وإدراجه مباشرة بعد الإشارة المرجعية التي حددتها في المستند. للقيام بذلك، قم بإنشاء فقرة مرجعية حيث تريد إدراج المستند.
 
-ويبيّن مثال الترميز التالي كيفية إدراج محتويات وثيقة إلى علامة كتاب في وثيقة أخرى:
+يوضح مثال الترميز التالي كيفية إدراج محتويات مستند إلى إشارة مرجعية في مستند آخر:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-bookmark.java" >}}
 
 {{% alert color="primary" %}}
 
-Note that the bookmark should not attach multiple paragraphs or text that you want them to appear in your final resulting document.
+لاحظ أن الإشارة المرجعية يجب ألا تحتوي على عدة فقرات أو نص تريده أن يظهر في المستند النهائي الناتج.
 
 {{% /alert %}}
 
-## تذييل الوثيقة
+## إلحاق مستند
 
-قد يكون لديك حالة استخدام حيث تحتاج إلى إدراج صفحات إضافية من وثيقة إلى نهاية وثيقة قائمة. لفعل هذا، عليك أن تتصل [AppendDocument](https://reference.aspose.com/words/java/com.aspose.words/document/#appendDocument-com.aspose.words.Document-int) طريقة لإضافة وثيقة إلى نهاية وثيقة أخرى.
+قد يكون لديك حالة استخدام حيث تحتاج إلى تضمين صفحات إضافية من مستند إلى نهاية مستند موجود. للقيام بذلك، تحتاج فقط إلى استدعاء طريقة [AppendDocument](https://reference.aspose.com/words/java/com.aspose.words/document/#appendDocument-com.aspose.words.Document-int) لإضافة مستند إلى نهاية مستند آخر.
 
 {{% alert color="primary" %}}
 
-ملاحظة [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/document/#appendChild-com.aspose.words.Node) هو طريقة لمستوى العقد في وثيقة ما. على سبيل المثال، يمكنك أن تخلق فقرة، وترسم شكل الممتلكات، ومن ثم تذييلها كطفل على الجسم باستخدام **AppendChild** طريقة
+لاحظ أن [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/document/#appendChild-com.aspose.words.Node) هي طريقة مستوى العقدة داخل مستند. على سبيل المثال، يمكنك إنشاء فقرة وتعيين خصائص التنسيق ثم إلحاقها كطفل بالجسم باستخدام طريقة **AppendChild**.
 
 {{% /alert %}}
 
-ويبين المثال الرمزي التالي كيفية تذييل وثيقة إلى نهاية وثيقة أخرى:
+يوضح مثال التعليمات البرمجية التالية كيفية إلحاق مستند إلى نهاية مستند آخر:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "keep-source-formatting.java" >}}
 
-## رموز الواردات والإضافات {#import-and-insert-nodes-manually}
+## استيراد وإدراج العقد يدويا {#import-and-insert-nodes-manually}
 
-Aspose.Words يُمكِنُك أَنْ تُدخلَ وتُرفقَ الوثائقَ تلقائياً بدون أيّ متطلبات استيراد سابقة. على أي حال، إذا كنت بحاجة إلى إدخال أو تذييل رمز محدد من وثيقتكم، مثل قسم أو فقرة، ثم أولا تحتاج إلى استيراد هذا العقد يدويا.
+Aspose.Words يسمح لك بإدراج وإلحاق المستندات تلقائيا دون أي متطلبات استيراد سابقة. ومع ذلك، إذا كنت بحاجة إلى إدراج أو إلحاق عقدة معينة من المستند، مثل قسم أو فقرة، فأنت بحاجة أولا إلى استيراد هذه العقدة يدويا.
 
-عندما تحتاج إلى إدخال أو تذييل جزء أو فقرة إلى أخرى، تحتاج أساسا إلى استيراد عقدة من شجرة العقد الأولى في الوثيقة الثانية باستخدام [ImportNode](https://reference.aspose.com/words/java/com.aspose.words/document/#importNode-com.aspose.words.Node-boolean) طريقة بعد إستيراد عقدك يجب أن تستخدم [InsertAfter](https://reference.aspose.com/words/java/com.aspose.words/document/#insertBefore-com.aspose.words.Node-com.aspose.words.Node) طريقة إدخال عقد جديد بعد/قبل العقد المرجعي. وهذا يسمح لكم بتكييف عملية الإدراج باستيراد رموز من وثيقة وإدخالها في مواقع معينة.
+عندما تحتاج إلى إدراج أو إلحاق قسم أو فقرة إلى أخرى، تحتاج أساسا إلى استيراد العقد من شجرة عقدة الوثيقة الأولى في الثانية باستخدام طريقة [ImportNode](https://reference.aspose.com/words/java/com.aspose.words/document/#importNode-com.aspose.words.Node-boolean). بعد استيراد العقد الخاصة بك، تحتاج إلى استخدام طريقة [InsertAfter](https://reference.aspose.com/words/java/com.aspose.words/document/#insertBefore-com.aspose.words.Node-com.aspose.words.Node) لإدراج عقدة جديدة بعد/قبل العقدة المرجعية. يتيح لك ذلك تخصيص عملية الإدراج عن طريق استيراد العقد من مستند وإدخالها في مواضع معينة.
 
-يمكنك أيضا استخدام [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/document/#appendChild-com.aspose.words.Node) طريقة لإضافة عقد جديد محدد إلى نهاية قائمة أسماء الأطفال، على سبيل المثال، إذا كنت ترغب في تذييل المحتوى على مستوى الفقرة بدلا من مستوى الأقسام.
+يمكنك أيضا استخدام طريقة [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/document/#appendChild-com.aspose.words.Node) لإضافة عقدة محددة جديدة إلى نهاية قائمة العقد الفرعية، على سبيل المثال، إذا كنت تريد إلحاق المحتوى على مستوى الفقرة بدلا من مستوى القسم.
 
-The following code example shows how to manually import nodes and insert them after a specific node using the **InsertAfter** الطريقة:
+يوضح مثال الكود التالي كيفية استيراد العقد يدويا وإدراجها بعد عقدة معينة باستخدام طريقة **InsertAfter**:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-as-nodes.java" >}}
 
 {{% alert color="primary" %}}
 
-The import creates a new node that is a copy of the original node and suitable for insertion into the destination document.
+يقوم الاستيراد بإنشاء عقدة جديدة هي نسخة من العقدة الأصلية ومناسبة للإدراج في المستند الوجهة.
 
 {{% /alert %}}
 
-ويتم استيراد المحتوى إلى قسم وثائق المقصد حسب الفرع، مما يعني أن البيئات، مثل تجهيز الصفحات والرعاة أو الأقدام، تُحفظ أثناء الاستيراد. ومن المفيد أيضا الإشارة إلى أنه يمكن أن تُحدِّد الأطر الشكلية عندما تُدرَج وثيقة أو تذييلها لتحديد كيفية الجمع بين وثيقتين.
+يتم استيراد المحتوى إلى قسم المستند الوجهة حسب القسم، مما يعني أنه يتم الاحتفاظ بالإعدادات، مثل إعداد الصفحة والرؤوس أو التذييلات، أثناء الاستيراد. من المفيد أيضا ملاحظة أنه يمكنك تحديد إعدادات التنسيق عند إدراج مستند أو إلحاقه لتحديد كيفية ربط وثيقتين معا.
 
-## Properties for Insert and Append Documents {#common-properties-for-insert-and-append-documents}
+## الخصائص الشائعة لإدراج وإلحاق المستندات {#common-properties-for-insert-and-append-documents}
 
-كلاهما [InsertDocument](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocument-com.aspose.words.Document-int) و [AppendDocument](https://reference.aspose.com/words/java/com.aspose.words/document/#appendDocument-com.aspose.words.Document-int) الأساليب المقبولة [ImportFormatMode](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/) و [ImportFormatOptions](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/) كمقياس للمدخلات The **ImportFormatMode** يُمكِنُك أَنْ تُراقبَ كَمْ يُدمجُ شكلَ الوثائقَ عندما تُستوردُ محتوى مِنْ وثيقةِ إلى أخرى باختيار الأشكالِ المختلفةِ مثل [UseDestinationStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#USE-DESTINATION-STYLES), [KeepSourceFormatting](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#KEEP-SOURCE-FORMATTING), و [KeepDifferentStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#KEEP-DIFFERENT-STYLES). The **ImportFormatOptions** يسمح لك باختيار خيارات استيراد مختلفة مثل [IgnoreHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getIgnoreHeaderFooter), [IgnoreTextBoxes](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getIgnoreTextBoxes), [KeepSourceNumbering](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getKeepSourceNumbering), [MergePastedLists](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getMergePastedLists), و [SmartStyleBehavior](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getSmartStyleBehavior).
+تقبل كل من الطريقتين [InsertDocument](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocument-com.aspose.words.Document-int) و [AppendDocument](https://reference.aspose.com/words/java/com.aspose.words/document/#appendDocument-com.aspose.words.Document-int) [ImportFormatMode](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/) و [ImportFormatOptions](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/) كمعلمات إدخال. يسمح لك **ImportFormatMode** بالتحكم في كيفية دمج تنسيق المستند عند استيراد محتوى من مستند إلى آخر عن طريق تحديد أوضاع تنسيق مختلفة مثل [UseDestinationStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#USE-DESTINATION-STYLES) و [KeepSourceFormatting](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#KEEP-SOURCE-FORMATTING) و [KeepDifferentStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#KEEP-DIFFERENT-STYLES). ال **ImportFormatOptions** يسمح لك بتحديد خيارات استيراد مختلفة مثل [IgnoreHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getIgnoreHeaderFooter), [IgnoreTextBoxes](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getIgnoreTextBoxes), [KeepSourceNumbering](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getKeepSourceNumbering), [MergePastedLists](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getMergePastedLists), و [SmartStyleBehavior](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getSmartStyleBehavior).
 
-Aspose.Words يُمكِنُك أَنْ تُكيّفَ صورة a وثيقة تُنتجُ عندما وثيقتان مُضافتان معاً في a تَدْفعُ أَو تذييل بإستخدام [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) و [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/) الممتلكات. The **PageSetup** تتضمن الممتلكات جميع خصائص قسم مثل [SectionStart](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getSectionStart), [RestartPageNumbering](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getRestartPageNumbering), [PageStartingNumber](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getPageStartingNumber), [Orientation](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getOrientation), والآخرون أكثر حالات الاستخدام شيوعاً هي تحديد **SectionStart** الممتلكات التي يتعين عليها تحديد ما إذا كان المحتوى الإضافي سيظهر في الصفحة نفسها أو يقسم إلى مادة جديدة.
+Aspose.Words يسمح لك بضبط التصور للمستند الناتج عند إضافة وثيقتين معا في عملية إدراج أو إلحاق باستخدام خصائص [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) و [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/). تحتوي الخاصية **PageSetup** على جميع سمات قسم مثل [SectionStart](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getSectionStart), [RestartPageNumbering](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getRestartPageNumbering), [PageStartingNumber](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getPageStartingNumber), [Orientation](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getOrientation), وغيرها. حالة الاستخدام الأكثر شيوعا هي تعيين خاصية **SectionStart** لتحديد ما إذا كان المحتوى المضاف سيظهر على نفس الصفحة أو ينقسم إلى صفحة جديدة.
 
 {{% alert color="primary" %}}
 
-ملاحظة: **Section** و **PageSetup** ولا تتحكم الممتلكات في كيفية إدراج وثيقتين أو تطبيقهما معا. هم فقط يسمحون لك لتغيير مظهر وثيقة النتائج الخاصة بك.
+لاحظ أن الخصائص **Section** و **PageSetup** لا تتحكم في كيفية إدراج/إلحاق مستندين معا. إنها تسمح لك فقط بتغيير مظهر مستند النتائج الخاص بك.
 
 {{% /alert %}}
 
-ويبيّن المثال الرمزي التالي كيفية تذييل وثيقة إلى أخرى مع الحفاظ على المحتوى من التقسيم عبر صفحتين:
+يوضح مثال الكود التالي كيفية إلحاق مستند بآخر مع الحفاظ على المحتوى من الانقسام عبر صفحتين:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "different-page-setup.java" >}}

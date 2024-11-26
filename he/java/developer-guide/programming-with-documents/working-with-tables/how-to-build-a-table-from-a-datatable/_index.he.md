@@ -1,8 +1,8 @@
 ---
-title: איך לבנות שולחן משולחן `DataTable` פנימה Java
+title: איך לבנות שולחן משולחן DataTable פנימה Java
 second_title: Aspose.Words עבור Java
-articleTitle: לבנות שולחן מ `DataTable`
-linktitle: לבנות שולחן מ `DataTable`
+articleTitle: לבנות שולחן מ DataTable
+linktitle: לבנות שולחן מ DataTable
 description: "דוגמה לטבלת מסמכים מילוי ממסד נתונים חיצוני Java."
 type: docs
 weight: 130

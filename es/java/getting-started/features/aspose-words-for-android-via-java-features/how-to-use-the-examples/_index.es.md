@@ -1,17 +1,17 @@
----
-title: Cómo utilizar los Ejemplos
-second_title: Aspose.Words para Java
-articleTitle: Cómo utilizar los Ejemplos
-linktitle: Cómo utilizar los Ejemplos
-description: "Cómo correr Aspose.Words para Android via Java ejemplos."
+﻿---
+title: Cómo usar los Ejemplos
+second_title: Aspose.Words por Java
+articleTitle: Cómo usar los Ejemplos
+linktitle: Cómo usar los Ejemplos
+description: "Cómo ejecutar Aspose.Words para Android a través de Java ejemplos."
 type: docs
 weight: 70
 url: /es/java/how-to-use-the-examples/
 timestamp: 2024-01-27-14-07-04
 ---
 
-En primer lugar, asegúrese de que tiene instalado el paquete ADT y que ha descargado y extraído la última versión de [Aspose.Words para Android via Java](https://releases.aspose.com/words/androidjava/).
+En primer lugar, asegúrese de tener instalado el paquete ADT y de haber descargado y extraído la última versión de [Aspose.Words para Android a través de Java](https://releases.aspose.com/words/androidjava/).
 
-- Instalar Aspose.Words para Android via Java siguiendo las instrucciones [Instalación](/words/es/java/installation/)
-- Abra el proyecto en su espacio de trabajo Eclipse con ADT.
-- Haga clic **Run** para comenzar y elegir el emulador adecuado para ejecutar el paquete encendido.
+- Instale Aspose.Words para Android a través de Java siguiendo las instrucciones en [aquí](/words/java/installation/)
+- Abra el proyecto en su espacio de trabajo usando Eclipse con ADT.
+- Haga clic en **Run** para iniciar y elija el emulador apropiado para ejecutar el paquete.

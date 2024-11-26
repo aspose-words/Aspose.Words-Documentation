@@ -1,83 +1,83 @@
----
-title: Cursorのナビゲーション Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: Cursorによるナビゲーション
-linktitle: Cursorによるナビゲーション
-description: "段落、ブックマーク、または特定の文字などのドキュメント内の異なるノード間でナビゲート Javaお問い合わせ"
+﻿---
+title: Java内のカーソルを使用したナビゲーション
+second_title: Aspose.WordsのためのJava
+articleTitle: カーソルを使ったナビゲーション
+linktitle: カーソルを使ったナビゲーション
+description: "段落、ブックマーク、またはJavaを使用して特定の文字など、ドキュメント内の異なるノード間を移動します。"
 type: docs
 weight: 5
 url: /ja/java/navigation-with-cursor/
 timestamp: 2024-01-27-14-07-04
 ---
 
-文書を扱う間、短くても長いものであっても、ドキュメントをナビゲートする必要があります。 仮想カーソルを持つナビゲーションは、ドキュメント内の異なるノード間でナビゲートする機能を表します。
+文書を操作している間、それが短いものであっても長いものであっても、文書をナビゲートする必要があります。 仮想カーソルを使用したナビゲーションは、ドキュメント内の異なるノード間を移動する機能を表します。
 
-短い文書では、キーボードの矢印キーを使用しても、マウスをクリックして必要な場所にあるインサートポイントを見つけるだけで、ドキュメントを移動するのは簡単です。 しかし、多くのページを持っている大きな文書を持っていると、これらの基本技術は不十分です。
+短いドキュメント内では、キーボードの矢印キーを使用したり、マウスをクリックして任意の場所に挿入ポイントを移動したりすることで、ドキュメント内を移動するのは簡単です。 しかし、多くのページを持つ大規模な文書を作成すると、これらの基本的な手法は不十分になります。
 
-この記事では、ドキュメントを移動する方法を説明し、仮想カーソルを別の部分に移動します。
+この記事では、ドキュメント内を移動し、仮想カーソルを使用してドキュメントのさまざまな部分に移動する方法について説明します。
 
 ## 現在のカーソル位置の検出
 
-ドキュメントをナビゲートするプロセスを開始する前に、現在選択したノードを取得する必要があります。 選択したノードでカーソルの位置を正確に取得できます。 [CurrentNode](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentNode) 宿泊施設 また、現在のノードを取得する代わりに、現在選択されているパラグラフまたは現在選択されているセクションを使用できます。 [CurrentParagraph](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentParagraph) そして、 [CurrentSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentSection) プロパティ。
+ドキュメント内を移動するプロセスを開始する前に、現在選択されているノードを取得する必要があります。 [CurrentNode](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentNode)プロパティを使用すると、選択したノードでのカーソルの正確な位置を取得できます。 さらに、現在のノードを取得する代わりに、[CurrentParagraph](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentParagraph)および[CurrentSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentSection)プロパティを使用して、現在選択されている段落または現在選択されているセクションを取得
 
-実行するインサート操作 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) 事前に差し込みます [CurrentNode](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#CurrentNode)お問い合わせ 現在の段落が空かカーソルが段落の直前に置かれるとき、 **CurrentNode** null を返します。
+[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)を使用して実行する挿入操作は、[CurrentNode](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#CurrentNode)の前に挿入されます。 現在の段落が空の場合、またはカーソルが段落の終わりの直前に配置されている場合、**CurrentNode**はnullを返します。
 
-## ドキュメントでメソッドをナビゲートする
+## ドキュメント内のメソッドの移動
 
-テキストを編集するときは、ドキュメントをナビゲートする方法と、その中に正確に移動する方法を知ることが重要です。 Aspose.Words ドキュメントを移動し、さまざまなセクションと部分に移動することができます。これはナビゲーションペインの機能に似ています Microsoft Word ページに移動するか、スクロールせずにWord文書で見出します。
+テキストを編集するときは、ドキュメントをナビゲートする方法と、ドキュメント内を正確に移動する場所を知っておくことが重要です。 これは、スクロールせずにWord文書内のページまたは見出しに移動するMicrosoft Wordのナビゲーションペインの機能に似ています。Aspose.Wordsは、ドキュメント内を移動して、その別のセクションやパーツに移動することができます。
 
-main メソッドは、ドキュメント内の特定のノードにカーソル位置を移動させることができるので、これを実現できます。 [MoveTo](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveTo-com.aspose.words.Node) メソッド。
+主な方法は、カーソル位置をドキュメント内の特定のノードに移動できるようにすることです。[MoveTo](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveTo-com.aspose.words.Node)メソッドを使用してこれを実現できます。
 
-次のコードの例では、移動する方法を示します。 **DocumentBuilder** ドキュメント内の異なるノードへ:
+次のコード例は、**DocumentBuilder**をドキュメント内の別のノードに移動する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToNode-DocumentBuilderMoveToNode.java" >}}
 
-しかし、基本に加えて **MoveTo** メソッドは、より特定のものがあります。
+しかし、基本的な**MoveTo**メソッドのほかに、より具体的なものがあります。
 
-### ドキュメントの開始または終了にナビゲート
+### ドキュメントの先頭または末尾に移動する
 
-ドキュメントの先頭または末尾に移動できます。 [MoveToDocumentStart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToDocumentStart) そして、 [MoveToDocumentEnd](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToDocumentEnd) メソッド。
+[MoveToDocumentStart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToDocumentStart)メソッドと[MoveToDocumentEnd](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToDocumentEnd)メソッドを使用して、文書の先頭または末尾に移動できます。
 
-次のコードの例では、カーソルの位置を先頭またはドキュメントの末尾に移動する方法を示します。
+次のコード例は、カーソル位置をドキュメントの先頭または末尾に移動する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToDocumentStartEnd-DocumentBuilderMoveToDocumentStartEnd.java" >}}
 
 ### ブックマークでナビゲート
 
-あなたが見つけたい場所をマークし、簡単にそれを移動することができます。 必要に応じて多くのブックマークをドキュメントに差し込み、ブックマークを一意の名前で特定することでそれらをナビゲートできます。 ブックマークに移動して、 [MoveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToBookmark-java.lang.String-boolean-boolean) メソッド。
+見つけたい場所に印を付けて、簡単に移動することができます。 必要な数のブックマークをドキュメントに挿入し、一意の名前でブックマークを識別することでそれらをナビゲートできます。 ブックマークに移動するには、[MoveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToBookmark-java.lang.String-boolean-boolean)メソッドを使用します。
 
-次のコードの例では、カーソル位置をブックマークに移動する方法を示します。
+次のコード例は、カーソル位置をブックマークに移動する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToBookmark-DocumentBuilderMoveToBookmark.java" >}}
 
-### テーブルセルに移動
+### テーブルセルに移動する
 
-使用するとテーブルセルに移動できます。 [MoveToCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToCell-int-int-int-int) メソッド。 このメソッドは、特定のテーブルでカーソルを任意のセルに移動することができます。 また、カーソルをセル内の任意の位置または指定された文字に移動するインデックスを指定できます。 **MoveToCell** メソッド。
+テーブルセルに移動するには、[MoveToCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToCell-int-int-int-int)メソッドを使用します。 このメソッドを使用すると、特定のテーブル内の任意のセルにカーソルを移動できます。 さらに、**MoveToCell**メソッド内のセル内の任意の位置または指定された文字にカーソルを移動するインデックスを指定することもできます。
 
-次のコードの例では、カーソル位置を指定されたテーブルセルに移動する方法を示します。
+次のコード例は、カーソル位置を指定したテーブルセルに移動する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToTableCell-DocumentBuilderMoveToTableCell.java" >}}
 
-### フィールドに移動
+### フィールドに移動する
 
-ドキュメント内の特定のフィールドに使用することで移動できます。 [MoveToField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToField-com.aspose.words.Field-boolean) メソッド。 また、特定のマージフィールドに使用することで移動することができます。 [MoveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) メソッド。
+ドキュメント内の特定のフィールドに移動するには、[MoveToField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToField-com.aspose.words.Field-boolean)メソッドを使用します。 また、[MoveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String)メソッドを使用して特定の差し込み項目に移動することもできます。
 
-次のコードの例では、ドキュメントビルダーカーソルを特定のフィールドに移動する方法を示します。
+次のコード例は、document builderカーソルを特定のフィールドに移動する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 
-### ヘッダーまたはフッターに移動
+### ヘッダーまたはフッターに移動する
 
-ヘッダーまたはフッターの先頭に移動して、 [MoveToHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToHeaderFooter-int) メソッド。
+ヘッダーまたはフッターの先頭に移動するには、[MoveToHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToHeaderFooter-int)メソッドを使用します。
 
-次のコードの例では、ドキュメントビルダーカーソルをドキュメントヘッダーまたはフッターに移動する方法を示します。
+次のコード例は、ドキュメントビルダーのカーソルをドキュメントヘッダーまたはフッタに移動する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderHeadersAndFooters-DocumentBuilderHeaderAndFooters.java" >}}
 
-### セクションまたはパラグラフに移動
+### セクションまたは段落に移動する
 
-特定のセクションまたは段落に使用することで移動することができます [MoveToParagraph](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToParagraph-int-int) または [MoveToSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToSection-int) メソッド。 また、カーソルを任意の位置またはパラグラフ内の指定された文字に移動させるインデックスを指定できます。 **MoveToParagraph** メソッド。
+特定のセクションまたは段落に移動するには、[MoveToParagraph](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToParagraph-int-int)または[MoveToSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToSection-int)メソッドを使用します。 また、**MoveToParagraph**メソッド内の段落内の任意の位置または指定された文字にカーソルを移動するインデックスを指定することもできます。
 
-次のコードの例では、特定のセクションとドキュメント内の特定の段落に移動する方法を示します。
+次のコード例は、ドキュメント内の特定のセクションと特定の段落に移動する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToSectionParagraph-DocumentBuilderMoveToSectionParagraph.java" >}}

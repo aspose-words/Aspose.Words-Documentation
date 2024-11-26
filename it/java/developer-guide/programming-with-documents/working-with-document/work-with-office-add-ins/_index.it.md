@@ -1,41 +1,41 @@
----
-title: Lavorare con Office Add-in Java
+﻿---
+title: Utilizzo dei componenti aggiuntivi di Office in Java
 second_title: Aspose.Words per Java
-articleTitle: Lavorare con Office Add-ins
-linktitle: Lavorare con Office Add-ins
-description: "Aspose.Words per Java fornisce varie classi per lavorare con Office Add-ins. È possibile aggiungere Task Pane tramite estensione web e personalizzare le proprietà di pannello e estensione."
+articleTitle: Lavorare con i componenti aggiuntivi di Office
+linktitle: Lavorare con i componenti aggiuntivi di Office
+description: "Aspose.Words per Java fornisce varie classi per lavorare con i componenti aggiuntivi di Office. È possibile aggiungere Riquadro attività tramite estensione Web e personalizzare le proprietà del riquadro e dell'estensione."
 type: docs
 weight: 50
 url: /it/java/work-with-office-add-ins/
 timestamp: 2024-01-27-14-07-04
 ---
 
-A volte si potrebbe desiderare di dare accesso ai controlli di interfaccia che eseguono il codice per modificare i documenti. Aspose.Words API fornisce `WebExtensions` namespace, che garantisce diverse classi per personalizzare elementi e attributi che estendono il vocabolario XML per rappresentare Office Add-ins.
+A volte potresti voler dare accesso ai controlli dell'interfaccia che eseguono codice per modificare i documenti. Aspose.Words API fornisce lo spazio dei nomi `WebExtensions`, che consente a varie classi di personalizzare elementi e attributi estendendo il vocabolario XML per rappresentare i componenti aggiuntivi di Office.
 
-WebExtensions namespace può essere condizionatamente diviso in:
+WebExtensions lo spazio dei nomi può essere suddiviso condizionatamente in:
 
-* Oggetti per lavorare con il riquadro delle attività
-* Oggetti per lavorare con estensioni web
+* Oggetti per lavorare con il riquadro attività
+* Oggetti per lavorare con le estensioni Web
 
-## Utilizzo di Task Panes
+## Utilizzo dei riquadri attività
 
-I riquadri delle attività sono superfici di interfaccia visualizzate sul lato destro della finestra Microsoft Word. Il pannello delle attività consente agli utenti di accedere ai controlli dell'interfaccia che possono eseguire il codice per modificare i documenti.
+I riquadri attività sono superfici di interfaccia visualizzate sul lato destro della finestra in Microsoft Word. Riquadro attività consente agli utenti di accedere ai controlli dell'interfaccia che possono eseguire il codice per modificare i documenti.
 
-Ad esempio, usando Aspose.Words API, è possibile aggiungere un componente aggiuntivo del pannello di attività e personalizzare il suo aspetto.
+Ad esempio, utilizzando Aspose.Words API, è possibile aggiungere un componente aggiuntivo del riquadro attività e personalizzarne l'aspetto.
 
-## Utilizzo di estensioni web
+## Utilizzo delle estensioni Web
 
-Le estensioni Web sono strumenti che espandono le funzionalità delle applicazioni Office e interagiscono con il contenuto dei documenti di Office. Le estensioni Web forniscono funzionalità aggiuntive ai clienti di Office per migliorare l'esperienza degli utenti.
+Le estensioni Web sono strumenti che ampliano le funzionalità delle applicazioni di Office e interagiscono con il contenuto dei documenti di Office. Le estensioni Web forniscono funzionalità aggiuntive ai client Office per migliorare l'esperienza utente.
 
-Aspose.Words fornisce la possibilità di aggiungere estensioni Web del tipo Task Pane utilizzando il [WebExtension](https://reference.aspose.com/words/java/com.aspose.words/webextension/) e [TaskPane](https://reference.aspose.com/words/java/com.aspose.words/taskpane/) classi, e consente anche di personalizzare il pannello e le proprietà di estensione.
+Aspose.Words offre la possibilità di aggiungere estensioni Web del tipo di riquadro attività utilizzando le classi [WebExtension](https://reference.aspose.com/words/java/com.aspose.words/webextension/) e [TaskPane](https://reference.aspose.com/words/java/com.aspose.words/taskpane/) e consente inoltre di personalizzare le proprietà del riquadro e dell'estensione.
 
-Il seguente esempio di codice mostra come creare riquadri di attività e aggiungere ai riquadri di attività di estensione web con proprietà di base:
+Nell'esempio di codice seguente viene illustrato come creare riquadri attività e aggiungere riquadri attività estensione Web con proprietà di base:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-WebExtension-WorkingWithWebExtension-UsingWebExtensionTaskPanes.java" >}}
 
-Per visualizzare un elenco di componenti aggiuntivi del pannello di attività, utilizzare [WebExtensionTaskPanes](https://reference.aspose.com/words/java/com.aspose.words/document/#getWebExtensionTaskPanes) proprieta'.
+Per visualizzare un elenco di componenti aggiuntivi del riquadro attività, utilizzare la proprietà [WebExtensionTaskPanes](https://reference.aspose.com/words/java/com.aspose.words/document/#getWebExtensionTaskPanes).
 
-Il seguente esempio di codice mostra come ottenere una tale lista di componenti aggiuntivi:
+Il seguente esempio di codice mostra come ottenere un tale elenco di componenti aggiuntivi:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-WebExtension-WorkingWithWebExtension-GetListOfAddins.java" >}}
 
