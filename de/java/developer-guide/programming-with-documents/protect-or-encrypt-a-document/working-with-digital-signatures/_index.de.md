@@ -1,79 +1,79 @@
----
+﻿---
 title: Arbeiten mit digitalen Signaturen in Java
 second_title: Aspose.Words für Java
 articleTitle: Arbeiten mit digitalen Signaturen
 linktitle: Arbeiten mit digitalen Signaturen
-description: "Digital signieren Sie Dokumente und erkennen, zählen, überprüfen und entfernen Sie bestehende digitale Signaturen mithilfe Java."
+description: "Signieren Sie Dokumente digital und erkennen, zählen, verifizieren und entfernen Sie vorhandene digitale Signaturen mit Java."
 type: docs
 weight: 30
 url: /de/java/working-with-digital-signatures/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Eine digitale Signatur ist eine technologische Umsetzung elektronischer Signaturen, um Dokumente zu unterzeichnen und den Unterzeichner zu authentifizieren, um sicherzustellen, dass ein Dokument seit seiner Unterzeichnung nicht geändert wurde. Jede digitale Signatur ist für jeden Unterzeichner einzigartig, weil sie dem PKI-Protokoll folgen, um sowohl öffentliche als auch private Schlüssel zu erzeugen. Ein Dokument digital zu signieren bedeutet, eine Signatur mit dem privaten Schlüssel des Signers zu erstellen, wo ein mathematischer Algorithmus verwendet wird, um die generierte Hash zu verschlüsseln.
+Eine digitale Signatur ist eine technologische Implementierung elektronischer Signaturen zum Signieren von Dokumenten und zur Authentifizierung des Unterzeichners, um sicherzustellen, dass ein Dokument seit seiner Unterzeichnung nicht geändert wurde. Jede digitale Signatur ist für jeden Unterzeichner eindeutig, da das PKI -Protokoll befolgt wird, um sowohl öffentliche als auch private Schlüssel zu generieren. Ein Dokument digital signieren bedeutet, eine Signatur mit dem privaten Schlüssel des Unterzeichners zu erstellen, wobei ein mathematischer Algorithmus verwendet wird, um den generierten Hash zu verschlüsseln.
 
-Aspose.Words ermöglicht es Ihnen, bestehende digitale Signaturen zu erkennen, zu zählen oder zu überprüfen, und auch eine neue Signatur zu Ihrem Dokument hinzufügen, um herauszufinden, welche Manipulation darin besteht. Sie können auch alle digitalen Signaturen aus einem Dokument entfernen. Verwenden Sie die [DigitalSignatureUtil](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/) mit digitalen Signaturen zu arbeiten.
+Aspose.Words ermöglicht es Ihnen, vorhandene digitale Signaturen zu erkennen, zu zählen oder zu verifizieren sowie Ihrem Dokument eine neue Signatur hinzuzufügen, um Manipulationen festzustellen. Sie können auch alle digitalen Signaturen aus einem Dokument entfernen. Verwenden Sie die Klasse [DigitalSignatureUtil](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/), um mit digitalen Signaturen zu arbeiten.
 
-Dieser Artikel erklärt, wie Sie alle oben genannten Schritte unternehmen, um die Authentizität und Integrität eines digitalen Dokuments zu validieren.
+In diesem Artikel wird erläutert, wie Sie alle oben genannten Schritte ausführen, um die Authentizität und Integrität eines digitalen Dokuments zu überprüfen.
 
 {{% alert color="primary" %}}
 
-Beachten Sie, dass Sie nur bei der Ausführung des Dokuments auf digitale Signaturen zugreifen können Java 6 Version und oben.
+Beachten Sie, dass Sie nur auf digitale Signaturen Ihres Dokuments zugreifen können, wenn Sie die Version Java 6 und höher ausführen.
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-**Online testen**
+**Online ausprobieren**
 
-Sie können diese Funktionalität mit unserer [Online Signatur](https://products.aspose.app/words/signature).
+Sie können diese Funktionalität mit unserem ausprobieren [Kostenlose Online Signatur](https://products.aspose.app/words/signature).
 
 {{% /alert %}}
 
 ## Unterstützte Formate
 
-Aspose.Words Sie können mit digitalen Signaturen auf DOC, OOXML und ODT-Dokumenten arbeiten und das generierte Dokument in PDF unterzeichnen oder XPS Format.
+Mit Aspose.Words können Sie mit digitalen Signaturen für DOC-, OOXML- und ODT-Dokumente arbeiten und das generierte Dokument im Format PDF oder XPS signieren.
 
-## Einschränkungen von digitalen Signaturen
+## Einschränkungen digitaler Signaturen
 
-Die folgende Tabelle beschreibt einige Einschränkungen, die Sie während der Arbeit mit digitalen Signaturen durch Aspose.Words, sowie einige alternative Optionen.
+In der folgenden Tabelle werden einige Einschränkungen beschrieben, die bei der Arbeit mit digitalen Signaturen über Aspose.Words auftreten können, sowie einige alternative Optionen.
 
-|  Begrenzung |  Alternative |
-|  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  Verlust digitaler Signaturen auf einem Dokument nach dem Laden und Speichern. Daher kann die Verarbeitung eines Dokuments an einen Server den Verlust aller digitalen Signaturen ohne Ankündigung verursachen |  Überprüfen Sie, ob ein Dokument digitale Signaturen hat und nehmen Sie die entsprechende Aktion, wenn eine gefunden wird. Senden Sie zum Beispiel eine Warnung an die Kunden, die sie informieren, dass das Dokument, das sie hochladen, digitale Signaturen enthält, die verloren gehen, wenn es verarbeitet wird |
-|  Aspose.Words unterstützt die Zusammenarbeit mit Makros in einem Dokument. Aber... Aspose.Words unterstützt noch keine digitalen Signaturen auf Makros |  Exportieren Sie das Dokument zurück in jedes Word-Format und verwenden Sie Microsoft Word eine digitale Signatur zu Makros hinzufügen |
+| Einschränkung | Alternative Option |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Verlust von digitalen Signaturen auf einem Dokument nach dem Laden und Speichern. Daher kann die Verarbeitung eines Dokuments auf einem Server zum Verlust aller digitalen Signaturen ohne Vorankündigung führen. | Überprüfen Sie, ob ein Dokument über digitale Signaturen verfügt, und ergreifen Sie gegebenenfalls die entsprechenden Maßnahmen. Senden Sie beispielsweise eine Warnung an die Kunden, in der sie darüber informiert werden, dass das hochgeladene Dokument digitale Signaturen enthält, die bei der Verarbeitung verloren gehen. |
+| Aspose.Words unterstützt die Arbeit mit Makros in einem Dokument. Aspose.Words unterstützt jedoch noch keine digitalen Signaturen auf Makros. | Exportieren Sie das Dokument zurück in ein beliebiges Word-Format und fügen Sie Makros mit Microsoft Word eine digitale Signatur hinzu. |
 
 ## Digitale Signaturen erkennen, zählen und verifizieren
 
-Aspose.Words ermöglicht es Ihnen, die digitale Signatur in einem Dokument mit dem [DetectFileFormat](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/#detectFileFormat-java.io.InputStream) Verfahren und [HasDigitalSignature](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasDigitalSignature) Eigentum. Es ist erwähnenswert, dass eine solche Überprüfung nur die Tatsache der Unterschrift, aber nicht ihre Gültigkeit erkennen wird.
+Aspose.Words ermöglicht es Ihnen, digitale Signaturen in einem Dokument mithilfe der [DetectFileFormat](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/#detectFileFormat-java.io.InputStream)-Methode und der [HasDigitalSignature](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasDigitalSignature)-Eigenschaft zu erkennen. Es ist anzumerken, dass eine solche Überprüfung nur die Tatsache der Unterschrift, nicht aber ihre Gültigkeit erkennt.
 
-Ein Dokument kann mehr als einmal unterzeichnet werden, und dies kann von verschiedenen Benutzern geschehen. Um die Gültigkeit von digitalen Signaturen zu überprüfen, müssen Sie sie aus dem Dokument mit dem [LoadSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#loadSignatures-java.io.InputStream) Methode und Verwendung der [IsValid](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection/#isValid) Eigentum. Auch Aspose.Words ermöglicht es Ihnen, einen Satz von allen digitalen Signaturen innerhalb eines Dokuments mit dem [Count](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection/#getCount) Eigentum.
+Ein Dokument kann mehrmals signiert werden, und dies kann von verschiedenen Benutzern durchgeführt werden. Um die Gültigkeit digitaler Signaturen zu überprüfen, müssen Sie sie mit der Methode [LoadSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#loadSignatures-java.io.InputStream) aus dem Dokument laden und die Eigenschaft [IsValid](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection/#isValid) verwenden. Außerdem können Sie mit Aspose.Words einen Satz aller digitalen Signaturen in einem Dokument mithilfe der Eigenschaft [Count](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection/#getCount) zählen.
 
-All dies bietet eine effiziente und sichere Möglichkeit, ein Dokument für Unterschriften vor der Verarbeitung zu überprüfen.
+All dies bietet eine effiziente und sichere Möglichkeit, ein Dokument vor der Verarbeitung auf Signaturen zu überprüfen.
 
-Das folgende Codebeispiel zeigt, wie man das Vorhandensein digitaler Signaturen erkennt und verifiziert:
+Das folgende Codebeispiel zeigt, wie Sie das Vorhandensein digitaler Signaturen erkennen und überprüfen können:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "detect-document-signatures.java" >}}
 
-## Digitale Signatur erstellen {#create-a-digital-signature}
+## Erstellen einer digitalen Signatur {#create-a-digital-signature}
 
-Um eine digitale Signatur zu erstellen, müssen Sie ein Signierzertifikat laden, das die Identität bestätigt. Wenn Sie ein digital signiertes Dokument senden, senden Sie auch Ihr Zertifikat und den öffentlichen Schlüssel.
+Um eine digitale Signatur zu erstellen, müssen Sie ein Signaturzertifikat laden, das die Identität bestätigt. Wenn Sie ein digital signiertes Dokument senden, senden Sie auch Ihr Zertifikat und Ihren öffentlichen Schlüssel.
 
-Aspose.Words Sie können X.509-Zertifikat erstellen, ein digitales Zertifikat, das den international anerkannten X.509 PKI-Standard verwendet, um zu überprüfen, ob ein öffentlicher Schlüssel zum Signer gehört, der im Zertifikat enthalten ist. Um dies zu tun, verwenden Sie die [Create](https://reference.aspose.com/words/java/com.aspose.words/certificateholder/#create-byte---java.lang.String) Verfahren innerhalb der [CertificateHolder](https://reference.aspose.com/words/java/com.aspose.words/certificateholder/) Klasse.
+Mit Aspose.Words können Sie ein X.509-Zertifikat erstellen, ein digitales Zertifikat, das den international anerkannten X.509 PKI -Standard verwendet, um zu überprüfen, ob ein öffentlicher Schlüssel dem im Zertifikat enthaltenen Unterzeichner gehört. Verwenden Sie dazu die Methode [Create](https://reference.aspose.com/words/java/com.aspose.words/certificateholder/#create-byte---java.lang.String) innerhalb der Klasse [CertificateHolder](https://reference.aspose.com/words/java/com.aspose.words/certificateholder/).
 
-Die nächsten Abschnitte erklären, wie man eine digitale Signatur, Signaturzeile und wie man ein generiertes PDF-Dokument signiert.
+In den nächsten Abschnitten wird erläutert, wie Sie eine digitale Signatur, eine Signaturzeile und ein generiertes PDF-Dokument signieren.
 
-### Dokument eintragen
+### Ein Dokument signieren
 
-Aspose.Words Sie können ein DOC, DOCX oder ODT-Dokument digital unterschreiben, indem Sie [Sign](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#sign-java.io.InputStream-java.io.OutputStream-com.aspose.words.CertificateHolder) Verfahren und [SignOptions](https://reference.aspose.com/words/java/com.aspose.words/signoptions/) Eigenschaften.
+Mit Aspose.Words können Sie ein DOC-, DOCX- oder ODT-Dokument digital mit der [Sign](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#sign-java.io.InputStream-java.io.OutputStream-com.aspose.words.CertificateHolder)-Methode und den [SignOptions](https://reference.aspose.com/words/java/com.aspose.words/signoptions/)-Eigenschaften signieren.
 
-Das folgende Codebeispiel zeigt, wie Dokumente mit einem Zertifikatsinhaber und Zeichenoptionen signiert werden können:
+Das folgende Codebeispiel zeigt, wie Dokumente mit einem Zertifikatsinhaber und Signaturoptionen signiert werden:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "sign-document.java" >}}
 
-### Eine Signature Line hinzufügen
+### Fügen Sie eine Signaturzeile hinzu
 
-Eine Signaturzeile ist eine visuelle Darstellung einer digitalen Signatur in einem Dokument. Aspose.Words Sie können eine Signaturzeile mit der [DocumentBuilder.InsertSignatureLine](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertSignatureLine-com.aspose.words.SignatureLineOptions) Methode. Sie können auch die Parameter für diese Darstellung mit der [SignatureLineOptions](https://reference.aspose.com/words/java/com.aspose.words/signaturelineoptions/) Klasse.
+Eine Signaturzeile ist eine visuelle Darstellung einer digitalen Signatur in einem Dokument. Mit Aspose.Words können Sie eine Signaturzeile mit der Methode [DocumentBuilder.InsertSignatureLine](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertSignatureLine-com.aspose.words.SignatureLineOptions) einfügen. Sie können die Parameter für diese Darstellung auch mit der Klasse [SignatureLineOptions](https://reference.aspose.com/words/java/com.aspose.words/signaturelineoptions/) festlegen.
 
 Das folgende Bild zeigt beispielsweise, wie gültige und ungültige Signaturen angezeigt werden können.
 
@@ -81,37 +81,37 @@ Das folgende Bild zeigt beispielsweise, wie gültige und ungültige Signaturen a
 
 <img src="/words/java/working-with-digital-signatures/invalid.png" alt="invalid-digital-signature" style="width:300px"/>
 
-Auch wenn ein Dokument eine Signaturzeile und keine digitale Signatur enthält, gibt es ein Feature, um den Benutzer zu bitten, eine Signatur hinzuzufügen.
+Wenn ein Dokument eine Signaturzeile und keine digitale Signatur enthält, gibt es auch eine Funktion, mit der der Benutzer aufgefordert wird, eine Signatur hinzuzufügen.
 
-Das folgende Codebeispiel zeigt, wie man ein Dokument mit einem persönlichen Zertifikat und einer bestimmten Signaturzeile unterschreibt:
+Das folgende Codebeispiel zeigt, wie Sie ein Dokument mit einem persönlichen Zertifikat und einer bestimmten Signaturzeile signieren:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "create-new-signature-line-and-set-provider-id.java" >}}
 
-### Ein generiertes PDF-Dokument {#sign-a-generated-pdf-document}
+### Signieren eines generierten PDF Dokuments {#sign-a-generated-pdf-document}
 
-Aspose.Words können Sie unterschreiben und alle Details eines PDF-Dokuments mit dem [PdfDigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/pdfdigitalsignaturedetails/) Eigenschaften.
+Aspose.Words ermöglicht das Signieren und Abrufen aller Details eines PDF-Dokuments mithilfe der [PdfDigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/pdfdigitalsignaturedetails/)-Eigenschaften.
 
-Das folgende Codebeispiel zeigt, wie man ein generiertes PDF signiert:
+Das folgende Codebeispiel zeigt, wie eine generierte PDF signiert wird:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "digitally-signed-pdf-using-certificate-holder.java" >}}
 
-Das folgende Bild zeigt, dass das generierte PDF-Dokument geöffnet wird Adobe Acrobat und die digitale Signatur wird als vorhanden und gültig überprüft.
+Das folgende Bild zeigt, dass das generierte PDF -Dokument in Adobe Acrobat geöffnet und die digitale Signatur als vorhanden und gültig verifiziert wird.
 
 ![create-digital-signed-pdf-aspose-words-java](/words/java/working-with-digital-signatures/signed-pdf-aspose-words-java.png)
 
-## Digitaler Signaturwert abrufen
+## Abrufen des Werts der digitalen Signatur
 
-Aspose.Words auch die Möglichkeit, den digitalen Signaturwert aus einem digital signierten Dokument als Byte-Array mit der [SignatureValue](https://reference.aspose.com/words/java/com.aspose.words/digitalsignature/#getSignatureValue) Eigentum.
+Aspose.Words bietet auch die Möglichkeit, den digitalen Signaturwert aus einem digital signierten Dokument als Byte-Array mit der Eigenschaft [SignatureValue](https://reference.aspose.com/words/java/com.aspose.words/digitalsignature/#getSignatureValue) abzurufen.
 
-Das folgende Codebeispiel zeigt, wie man den digitalen Signaturwert als Byte-Array aus einem Dokument erhält:
+Das folgende Codebeispiel zeigt, wie Sie den Wert der digitalen Signatur als Byte-Array aus einem Dokument abrufen:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "signature-value.java" >}}
 
 ## Digitale Signaturen entfernen
 
-Aspose.Words Sie können alle digitalen Signaturen aus einem signierten Dokument mit dem [RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream) Methode.
+Mit Aspose.Words können Sie alle digitalen Signaturen mit der [RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream)-Methode aus einem signierten Dokument entfernen.
 
-Das folgende Codebeispiel zeigt, wie digitale Signaturen aus einem Dokument geladen und entfernt werden können:
+Das folgende Codebeispiel zeigt, wie Sie digitale Signaturen aus einem Dokument laden und entfernen:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "remove-signatures.java" >}}
 

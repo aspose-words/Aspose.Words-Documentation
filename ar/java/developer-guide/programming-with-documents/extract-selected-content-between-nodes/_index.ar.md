@@ -1,135 +1,135 @@
----
-title: Extract Selected Content Between Nodes in Java
-second_title: Aspose.Words for Java
-articleTitle: Extract Content Between Nodes in a Document
-linktitle: Extract Content Between Nodes
+﻿---
+title: استخراج المحتوى المحدد بين العقد في Java
+second_title: Aspose.Words ل Java
+articleTitle: استخراج المحتوى بين العقد في مستند
+linktitle: استخراج المحتوى بين العقد
 type: docs
-description: "Extracting document content in different using Java."
+description: "استخراج محتوى المستند في مختلف باستخدام Java."
 weight: 140
 url: /ar/java/extract-selected-content-between-nodes/
 timestamp: 2024-01-27-14-07-04
 ---
 
-وعند العمل مع الوثائق، من المهم أن يكون بالإمكان بسهولة استخراج المحتوى من نطاق محدد في وثيقة ما. غير أن المحتوى قد يتألف من عناصر معقدة مثل الفقرات والجداول والصور وما إلى ذلك.
+عند العمل مع المستندات، من المهم أن تكون قادرا على استخراج المحتوى بسهولة من نطاق معين داخل المستند. ومع ذلك، قد يتكون المحتوى من عناصر معقدة مثل الفقرات والجداول والصور وما إلى ذلك.
 
-وبغض النظر عن ما يلزم استخلاصه من المحتوى، فإن طريقة استخراج ذلك المحتوى ستحدد دائماً باختيار العقدات لاستخراج المحتوى فيما بينها. هذه يمكن أن تكون كل الهيئات النصية أو الرسائل البسيطة
+بغض النظر عن المحتوى الذي يجب استخراجه، سيتم دائما تحديد طريقة استخراج هذا المحتوى من خلال العقد التي يتم اختيارها لاستخراج المحتوى بينها. يمكن أن تكون هذه هيئات نصية كاملة أو عمليات تشغيل نصية بسيطة.
 
-وهناك العديد من الحالات الممكنة، ومن ثم العديد من أنواع العقيدات المختلفة التي ينبغي النظر فيها عند استخراج المحتوى. على سبيل المثال، قد ترغب في استخراج المحتوى بين:
+هناك العديد من المواقف المحتملة وبالتالي العديد من أنواع العقدة المختلفة التي يجب مراعاتها عند استخراج المحتوى. على سبيل المثال، قد ترغب في استخراج المحتوى بين:
 
 - فقرتان محددتان
-- عدد محدد من النصوص
-- حقول من مختلف الأنواع، مثل الحقول الدمجية
-- بدء ونطاقات نهاية كتاب أو تعليق
-- مختلف هيئات النص الواردة في فروع منفصلة
+- أشواط محددة من النص
+- حقول من أنواع مختلفة، مثل حقول الدمج
+- بداية ونهاية نطاقات إشارة مرجعية أو تعليق
+- الهيئات المختلفة للنصوص الواردة في أقسام منفصلة
 
-وفي بعض الحالات، قد تحتاجون حتى إلى الجمع بين مختلف أنواع العقيدات، مثل استخراج المحتوى بين فقرة والحقل، أو بين الركض وعلامة الكتاب.
+في بعض الحالات، قد تحتاج حتى إلى الجمع بين أنواع عقدة مختلفة، مثل استخراج المحتوى بين فقرة وحقل، أو بين تشغيل وإشارة مرجعية.
 
-وتنص هذه المادة على تنفيذ المدونة لاستخراج النص بين مختلف العُدد، وكذلك أمثلة للسيناريوهات المشتركة.
+توفر هذه المقالة تنفيذ التعليمات البرمجية لاستخراج النص بين العقد المختلفة، بالإضافة إلى أمثلة للسيناريوهات الشائعة.
 
 {{% alert color="primary" %}}
 
-These examples are just a few demonstrations of the many possibilities. نخطط لعملية استخراج النص لتكون جزءا من الجمهور API في المستقبل، وليس هناك حاجة لرمز إضافي. في هذه الأثناء، يَشْعرُ بحرية لبَعْد طلباتِكَ حول هذه الوظيفةِ على [Aspose.Words منتدى](https://forum.aspose.com/c/words/8).
+هذه الأمثلة ليست سوى عدد قليل من المظاهرات من العديد من الاحتمالات. نحن نخطط لوظيفة استخراج النص لتكون جزءا من الجمهور API في المستقبل، ولن تكون هناك حاجة إلى رمز إضافي. في غضون ذلك، لا تتردد في نشر طلباتك المتعلقة بهذه الوظيفة على [Aspose.Words المنتدى](https://forum.aspose.com/c/words/8).
 
 {{% /alert %}}
 
-## لماذا الخلاص
+## لماذا استخراج المحتوى
 
-وغالبا ما يكون الهدف من استخراج المحتوى هو تكراره أو إنقاذه بصورة منفصلة في وثيقة جديدة. على سبيل المثال، يمكنك استخراج المحتوى و:
+غالبا ما يكون الهدف من استخراج المحتوى هو تكراره أو حفظه بشكل منفصل في مستند جديد. على سبيل المثال، يمكنك استخراج المحتوى و:
 
-- نسخه في وثيقة منفصلة
-- تحويل جزء محدد من وثيقة إلى PDF أو صورة
-- تكرار محتوى الوثيقة مرات عديدة
-- العمل بمحتوى مستخرج منفصل عن بقية الوثيقة
+- انسخه في مستند منفصل
+- تحويل جزء معين من المستند إلى PDF أو صورة
+- تكرار المحتوى في المستند عدة مرات
+- العمل مع المحتوى المستخرج بشكل منفصل عن بقية المستند
 
-ويمكن تحقيق ذلك بسهولة باستخدام Aspose.Words وتنفيذ المدونة أدناه.
+يمكن تحقيق ذلك بسهولة باستخدام Aspose.Words وتنفيذ التعليمات البرمجية أدناه.
 
-## Extractent Algorithm
+## استخراج خوارزمية المحتوى
 
-ويعالج الرمز الوارد في هذا الفرع جميع الحالات الممكنة الموصوفة أعلاه بطريقة عامة وقابلة لإعادة الاستخدام. ويشمل المخطط العام لهذه التقنية ما يلي:
+يتناول الرمز في هذا القسم جميع المواقف المحتملة الموضحة أعلاه بطريقة واحدة معممة وقابلة لإعادة الاستخدام. يتضمن المخطط العام لهذه التقنية:
 
-1 جمع العقد الذي يملي مجال المحتوى الذي سيستخرج من وثيقتك إسترجاع هذه العقدة يُعالج بواسطة المُستخدم في شفرتها، بناءً على ما يُريدون استخراجه.
-1 تمرير هذه العقد إلى **ExtractContent** الطريقة الواردة أدناه. يجب عليك أيضاً أن تمر بمسبار بوليان الذي ينص على ما إذا كان يجب أن تُدرَج هذه العقدة، كعلامات، في الإستخراج أم لا
-1 Retrieving a list of cloned content (copied nodes) specified to be extracted. ويمكنك استخدام هذه القائمة من العقيدات بأي شكل من الأشكال، على سبيل المثال، إنشاء وثيقة جديدة تتضمن المحتوى المختار فقط.
+1. جمع العقد التي تملي مجال المحتوى الذي سيتم استخراجه من المستند. يتم التعامل مع استرداد هذه العقد من قبل المستخدم في التعليمات البرمجية الخاصة بهم، بناء على ما يريدون استخراجه.
+1. تمرير هذه العقد إلى طريقة **ExtractContent** الواردة أدناه. يجب عليك أيضا تمرير معلمة منطقية تنص على ما إذا كان يجب تضمين هذه العقد، التي تعمل كعلامات، في الاستخراج أم لا.
+1. استرجاع قائمة المحتوى المستنسخ (العقد المنسوخة) المحددة ليتم استخراجها. يمكنك استخدام قائمة العقد هذه بأي طريقة قابلة للتطبيق، على سبيل المثال، إنشاء مستند جديد يحتوي على المحتوى المحدد فقط.
 
 ## كيفية استخراج المحتوى
 
-وسنعمل مع الوثيقة الواردة أدناه في هذه المادة. كما تراه يحتوي على مجموعة متنوعة من المحتوى كما أن الوثيقة تتضمن فرعا ثانيا يبدأ في منتصف الصفحة الأولى. وترد أيضا في الوثيقة علامة كتابية وتعليقات غير مرئية في الشاشة الواردة أدناه.
+سنعمل مع المستند أدناه في هذه المقالة. كما ترون أنه يحتوي على مجموعة متنوعة من المحتوى. لاحظ أيضا أن المستند يحتوي على قسم ثان يبدأ في منتصف الصفحة الأولى. توجد إشارة مرجعية وتعليق أيضا في المستند ولكنهما غير مرئيين في لقطة الشاشة أدناه.
 
 ![extract-content-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-1.png)
 
-لاستخراج المحتوى من وثيقتك يجب أن تتصلي `ExtractContent` طريقة أسفل وتجاوز المعايير المناسبة.
+لاستخراج المحتوى من المستند الخاص بك، تحتاج إلى استدعاء طريقة `ExtractContent` أدناه وتمرير المعلمات المناسبة.
 
-The underlying basis of this method involves finding block-level nodes (paragraphs and tables) and cloning them to create similar copies. وإذا ما انقضت عقدة العلامات على مستوى الكتل، فإن الطريقة قادرة على مجرد نسخ المحتوى على ذلك المستوى وإضافته إلى الصفيفة.
+يتضمن الأساس الأساسي لهذه الطريقة العثور على عقد على مستوى الكتلة (فقرات وجداول) واستنساخها لإنشاء نسخ متطابقة. إذا كانت عقد العلامة التي تم تمريرها على مستوى الكتلة، فإن الطريقة قادرة ببساطة على نسخ المحتوى على هذا المستوى وإضافته إلى المصفوفة.
 
-غير أنه إذا كانت شواهد العلامة مثبتة (طفل فقرة) فإن الحالة تصبح أكثر تعقيداً، إذ من الضروري تقسيم الفقرة في العقدة الداخلية، سواء كانت كذلك، أو في حقول علامة الكتاب، وما إلى ذلك. وقد أُزيلت محتويات العقد المستنسخ للوالدين غير الحاضرين بين العلامات. وتُستخدم هذه العملية لضمان أن تظل المعاهد الخطية تحتفظ بصيغة الفقرة الأصلية.
+ومع ذلك، إذا كانت العقد علامة مضمنة (طفل من فقرة) ثم يصبح الوضع أكثر تعقيدا، كما أنه من الضروري تقسيم الفقرة في عقدة مضمنة، سواء كان ذلك تشغيل، حقول المرجعية الخ. تتم إزالة المحتوى الموجود في العقد الأصلية المستنسخة غير الموجودة بين العلامات. يتم استخدام هذه العملية للتأكد من أن العقد المضمنة ستظل تحتفظ بتنسيق الفقرة الأصل.
 
-وستجري هذه الطريقة أيضاً فحصاً على العقد الذي تم إقراره كبارامترات، وتستثنى من ذلك إذا كان العقد غير صحيح. أما البارامترات التي يتعين نقلها إلى هذه الطريقة فهي:
+ستعمل الطريقة أيضا على إجراء فحوصات على العقد التي تم تمريرها كمعلمات وتلقي استثناء إذا كانت أي عقدة غير صالحة. المعلمات التي سيتم تمريرها إلى هذه الطريقة هي:
 
-1 **StartNode** و **EndNode**. والبارامترات الأولى هي العقد الذي يحدد أين يبدأ استخراج المحتوى وينتهي على التوالي. يمكن أن تكون هذه الأنهار على مستوى الكتل[Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) .. [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) أو المستوى الداخلي (مثلاً) [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) .. [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/) .. [BookmarkStart](https://reference.aspose.com/words/java/com.aspose.words/bookmarkstart/) وما إلى ذلك:
-   1. To pass a field you should pass the corresponding **FieldStart** هدف
-   1. To pass bookmarks, the **BookmarkStart** و [BookmarkEnd](https://reference.aspose.com/words/java/com.aspose.words/bookmarkend/) لا بدّ أن تُغمّر العقد.
-   1 - إبداء التعليقات، [CommentRangeStart](https://reference.aspose.com/words/java/com.aspose.words/commentrangestart/) و [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/) وينبغي استخدام العقد.
-1 **IsInclusive**. يحدد ما إذا كانت العلامات مشمولة في الاستخراج أم لا. إذا كان هذا الخيار جاهزاً false ونفس العقد أو العقد المتتالي، ثم تعاد قائمة فارغة:
+1. **StartNode** و **EndNode**. المعلمات الأولين هي العقد التي تحدد حيث استخراج المحتوى هو أن تبدأ وتنتهي في على التوالي. يمكن أن تكون هذه العقد على حد سواء مستوى الكتلة ([Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/)، [Table](https://reference.aspose.com/words/java/com.aspose.words/table/)) أو المستوى المضمن (على سبيل المثال [Run](https://reference.aspose.com/words/java/com.aspose.words/run/), [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/), [BookmarkStart](https://reference.aspose.com/words/java/com.aspose.words/bookmarkstart/) الخ.):
+   1. لتمرير حقل، يجب عليك تمرير الكائن **FieldStart** المقابل.
+   1. لتمرير الإشارات المرجعية، يجب تمرير العقدتين **BookmarkStart** و [BookmarkEnd](https://reference.aspose.com/words/java/com.aspose.words/bookmarkend/).
+   1. لتمرير التعليقات، يجب استخدام العقدتين [CommentRangeStart](https://reference.aspose.com/words/java/com.aspose.words/commentrangestart/) و [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/).
+1. **IsInclusive**. يحدد ما إذا كانت العلامات مدرجة في الاستخراج أم لا. إذا تم تعيين هذا الخيار على خطأ وتم تمرير نفس العقدة أو العقد المتتالية، فسيتم إرجاع قائمة فارغة:
 
-      1. If a **FieldStart** وبعد ذلك يحدد هذا الخيار ما إذا كان ينبغي إدراج الحقل بأكمله أو استبعاده.
-      1. If a **BookmarkStart** أو **BookmarkEnd** وقد تم إقرار العقد، وهذا الخيار يحدد ما إذا كانت العلامة الكتابية مشمولة أو مجرد المحتوى بين نطاق العلامات الكتابية.
-      1. If a **CommentRangeStart** أو **CommentRangeEnd** ويُرفض هذا الخيار إذا كان ينبغي إدراج التعليق نفسه أو مجرد مضمونه في نطاق التعليق.
+      1. إذا تم تمرير عقدة **FieldStart**، فإن هذا الخيار يحدد ما إذا كان سيتم تضمين الحقل بأكمله أو استبعاده.
+      1. إذا تم تمرير عقدة **BookmarkStart** أو **BookmarkEnd**، فإن هذا الخيار يحدد ما إذا كانت الإشارة المرجعية مضمنة أو المحتوى فقط بين نطاق الإشارة المرجعية.
+      1. إذا تم تمرير عقدة **CommentRangeStart** أو **CommentRangeEnd**، فإن هذا الخيار يحدد ما إذا كان سيتم تضمين التعليق نفسه أو المحتوى فقط في نطاق التعليقات.
 
-تنفيذ **ExtractContent** الطريقة التي يمكن أن تجد [هنا](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/DocsExamples/Java/src/main/java/DocsExamples/Programming_with_documents/Contents_management/ExtractContentHelper.java). وسيشار إلى هذه الطريقة في السيناريوهات الواردة في هذه المادة.
+تنفيذ طريقة **ExtractContent** يمكنك أن تجد [هنا](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/DocsExamples/Java/src/main/java/DocsExamples/Programming_with_documents/Contents_management/ExtractContentHelper.java). ستتم الإشارة إلى هذه الطريقة في السيناريوهات الواردة في هذه المقالة.
 
-وسوف نحدد أيضا طريقة عرفية لتوليد وثيقة بسهولة من العهود المستخرجة. وتُستخدم هذه الطريقة في العديد من السيناريوهات الواردة أدناه وتُنشئ ببساطة وثيقة جديدة وتستورد المحتوى المستخرج منها.
+سنحدد أيضا طريقة مخصصة لإنشاء مستند بسهولة من العقد المستخرجة. تستخدم هذه الطريقة في العديد من السيناريوهات أدناه وتقوم ببساطة بإنشاء مستند جديد واستيراد المحتوى المستخرج إليه.
 
-ويبين المثال الرمزي التالي كيفية أخذ قائمة بالمرشحين وإدراجها في وثيقة جديدة:
+يوضح مثال الكود التالي كيفية أخذ قائمة بالعقد وإدراجها في مستند جديد:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "generate-document.java" >}}
 
-## Extract Content Between Paragraphs
+## استخراج المحتوى بين الفقرات
 
-ويبين ذلك كيفية استخدام الطريقة المذكورة أعلاه لاستخراج المحتوى بين فقرات محددة. وفي هذه الحالة، نود أن نستخلص من الرسالة التي عثر عليها في النصف الأول من الوثيقة. ويمكننا أن نقول إن هذا بين الفقرتين السابعة والحادية عشرة.
+يوضح هذا كيفية استخدام الطريقة أعلاه لاستخراج المحتوى بين فقرات محددة. في هذه الحالة، نريد استخراج نص الرسالة الموجودة في النصف الأول من المستند. يمكننا القول أن هذا يقع بين الفقرتين 7 و 11.
 
-الرمز الوارد أدناه ينجز هذه المهمة تستخرج الفقرات المناسبة باستخدام [getChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChild-int-int-boolean) أسلوب الوثيقة وإصدار الأرقام القياسية المحددة. ثمّ نَمْرُّ هذه العقدِ إلى **ExtractContent** الطريقة والقول بأن هذه يجب أن تدرج في عملية الاستخراج. وستعيد هذه الطريقة المحتوى المنسخ بين هذه العقدات التي تدرج بعد ذلك في وثيقة جديدة.
+الرمز أدناه ينجز هذه المهمة. يتم استخراج الفقرات المناسبة باستخدام طريقة [getChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChild-int-int-boolean) في المستند وتمرير المؤشرات المحددة. ثم نقوم بتمرير هذه العقد إلى طريقة **ExtractContent** ونذكر أنه سيتم تضمينها في الاستخراج. ستعيد هذه الطريقة المحتوى المنسوخ بين هذه العقد والتي يتم إدراجها بعد ذلك في مستند جديد.
 
-ويبين المثال الرمزي التالي كيفية استخراج المحتوى بين فقرات محددة باستخدام `ExtractContent` الطريقة الواردة أعلاه:
+يوضح مثال الكود التالي كيفية استخراج المحتوى بين فقرات معينة باستخدام طريقة `ExtractContent` أعلاه:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-paragraphs.java" >}}
 
 {{% alert color="primary" %}}
 
-يمكنك تحميل ملف العينة من هذا المثال [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
+يمكنك تنزيل نموذج ملف هذا المثال من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
-وتتضمن وثيقة الناتج الفقرتين اللتين استخرجتا.
+يحتوي مستند الإخراج على الفقرتين اللتين تم استخلاصهما.
 
 ![extract-content-result-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-2.png)
 
-## Extract Content Between Different Types of Nodes
+## استخراج المحتوى بين أنواع مختلفة من العقد
 
-يمكننا أن نستخرج المحتوى بين أي تركيبات من مستوى الكتل أو الأنهار الداخلية وفي هذا السيناريو الوارد أدناه، سنستخلص المضمون بين الفقرة الأولى والجدول في الفرع الثاني بصورة شاملة. نحن نحصل على علامات ملصقات عن طريق الاتصال [getFirstParagraph](https://reference.aspose.com/words/java/com.aspose.words/body/#getFirstParagraph) و [getChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChild-int-int-boolean) طريقة استرجاع الجزء الثاني من الوثيقة **Paragraph** و **Table** المشنقة وبدلا من ذلك، فإن هناك تغييرا طفيفا في هذا الصدد، مما يسمح بتكرار المحتوى وإدراجه تحت الأصل.
+يمكننا استخراج المحتوى بين أي مجموعات من العقد على مستوى الكتلة أو العقد المضمنة. في هذا السيناريو أدناه، سنستخرج المحتوى بين الفقرة الأولى والجدول في القسم الثاني بشكل شامل. نحصل على عقد العلامات عن طريق استدعاء طريقة [getFirstParagraph](https://reference.aspose.com/words/java/com.aspose.words/body/#getFirstParagraph) و [getChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChild-int-int-boolean) في القسم الثاني من المستند لاسترداد العقد **Paragraph** و **Table** المناسبة. للحصول على اختلاف طفيف، دعنا نكرر المحتوى بدلا من ذلك وأدخله أسفل النص الأصلي.
 
-ويبين المثال الرمزي التالي كيفية استخلاص المحتوى بين فقرة وجدول باستخدام **ExtractContent** الطريقة:
+يوضح مثال الكود التالي كيفية استخراج المحتوى بين فقرة وجدول باستخدام طريقة **ExtractContent**:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-block-level-nodes.java" >}}
 
 {{% alert color="primary" %}}
 
-يمكنك تحميل ملف العينة من هذا المثال [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
+يمكنك تنزيل نموذج ملف هذا المثال من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
-والمضمون بين الفقرة والجدول مكرر أدناه هو النتيجة.
+تم تكرار المحتوى بين الفقرة والجدول أدناه هو النتيجة.
 
 ![extract-content-between-paragraphs-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-3.png)
 
-## Extract Content Between Paragraphs استنادا إلى نمط
+## استخراج المحتوى بين الفقرات على أساس النمط
 
-قد تحتاج إلى استخلاص المحتوى بين فقرات من نفس الطريقة أو مختلفة، مثل ما بين الفقرات المميزة بأساليب العناوين.
+قد تحتاج إلى استخراج المحتوى بين فقرات من نفس النمط أو نمط مختلف، مثل بين الفقرات المميزة بأنماط العناوين.
 
-والرمز الوارد أدناه يبين كيفية تحقيق ذلك. وهو مثال بسيط يستخرج المحتوى بين أول درجة من أسلوبي " القيادة ١ " و " الرأس ٣ " دون انتزاع العناوين أيضا. لنفعل هذا لقد وضعنا آخر بارامتر false, التي تنص على أنه لا ينبغي إدراج العقد.
+يوضح الرمز أدناه كيفية تحقيق ذلك. إنه مثال بسيط سيستخرج المحتوى بين المثيل الأول لأنماط" Heading 1 "و" الرأس 3 " دون استخراج العناوين أيضا. للقيام بذلك، قمنا بتعيين المعلمة الأخيرة على خطأ، والتي تحدد أنه لا ينبغي تضمين عقد العلامة.
 
-In a proper implementation, this should be run in a cycle to extract content between all paragraphs of these fashions from the document. المحتوى المستخرج مستنسخ في وثيقة جديدة
+في التنفيذ السليم، يجب تشغيل هذا في حلقة لاستخراج المحتوى بين جميع فقرات هذه الأنماط من المستند. يتم نسخ المحتوى المستخرج في مستند جديد.
 
-ويبيّن المثال الرمزي التالي كيفية استخراج المحتوى بين الفقرات ذات الأنماط المحددة باستخدام **ExtractContent** الطريقة:
+يوضح مثال الكود التالي كيفية استخراج المحتوى بين الفقرات بأنماط محددة باستخدام طريقة **ExtractContent**:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-paragraph-styles.java" >}}
 
@@ -137,169 +137,169 @@ In a proper implementation, this should be run in a cycle to extract content bet
 
 {{% alert color="primary" %}}
 
-يمكنك تحميل ملف العينة من هذا المثال [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
+يمكنك تنزيل نموذج ملف هذا المثال من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
-وفيما يلي نتيجة العملية السابقة.
+أدناه هو نتيجة العملية السابقة.
 
 ![extract-content-between-paragraph-style-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-4.png)
 
-## Extract Content Between Specific Runs
+## استخراج المحتوى بين أشواط محددة
 
-يمكنك الحصول على المحتوى بين العواميد الداخلية مثل **Run** كذلك **Runs** ويمكن اعتماد الفقرات المختلفة كعلامات. ويبيّن الرمز الوارد أدناه كيفية استخلاص نص محدد في الموقع نفسه. **Paragraph** موكب
+يمكنك استخراج المحتوى بين العقد المضمنة مثل **Run** كذلك. **Runs** من فقرات مختلفة يمكن تمريرها كعلامات. يوضح الرمز أدناه كيفية استخراج نص معين بين نفس العقدة **Paragraph**.
 
-ويبيّن المثال الرمزي التالي كيفية استخراج المحتوى بين مسارات محددة من نفس الفقرة باستخدام **ExtractContent** الطريقة:
+يوضح مثال الكود التالي كيفية استخراج المحتوى بين عمليات تشغيل محددة لنفس الفقرة باستخدام طريقة **ExtractContent**:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-runs.java" >}}
 
 {{% alert color="primary" %}}
 
-يمكنك تحميل ملف العينة من هذا المثال [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
+يمكنك تنزيل نموذج ملف هذا المثال من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
-النص المستخرج معروض على الكولونيل
+يتم عرض النص المستخرج على وحدة التحكم.
 
 ![extract-content-between-runs-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-5.png)
 
-## معارضة باستخدام حقل
+## استخراج المحتوى باستخدام حقل
 
-لإستخدام الحقل كعلامة `FieldStart` لا بد من أن يُغمى عليها آخر بارامتر إلى `ExtractContent` وسوف تحدد الطريقة ما إذا كان ينبغي إدراج الحقل بأكمله أم لا. دعونا نستخلص المضمون بين ميدان " فلينام " ونبذة في الوثيقة. نحن نستخدم [moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField(java.lang.String)طريقة [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) الصف هذا سيعيد **FieldStart** موكب من اسم الميدان المدمج مر به
+لاستخدام حقل كعلامة، يجب تمرير العقدة `FieldStart`. ستحدد المعلمة الأخيرة لطريقة `ExtractContent` ما إذا كان سيتم تضمين الحقل بأكمله أم لا. دعنا نستخرج المحتوى بين حقل الدمج "FullName " وفقرة في المستند. نستخدم طريقة [moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField(java.lang.String)) لفئة [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/). سيؤدي هذا إلى إرجاع العقدة **FieldStart** من اسم حقل الدمج الذي تم تمريره إليه.
 
-وفي حالتنا دعونا نحدد آخر البارامترات التي انتقلت إلى **ExtractContent** طريقة false لاستبعاد الحقل من الاستخراج سوف نرسل المحتوى المستخرج لـ PDF
+في حالتنا، دعنا نضبط المعلمة الأخيرة التي تم تمريرها إلى طريقة **ExtractContent** إلى خطأ لاستبعاد الحقل من الاستخراج. سنقدم المحتوى المستخرج إلى PDF.
 
-ويبيّن المثال الرمزي التالي كيفية استخلاص المحتوى بين ميدان محدد والفقرة الواردة في الوثيقة باستخدام **ExtractContent** الطريقة:
+يوضح مثال الكود التالي كيفية استخراج المحتوى بين حقل معين وفقرة في المستند باستخدام طريقة **ExtractContent**:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-using-field.java" >}}
 
 {{% alert color="primary" %}}
 
-يمكنك تحميل ملف العينة من هذا المثال [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
+يمكنك تنزيل نموذج ملف هذا المثال من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
-The extracted content between the field and paragraph, without the field and paragraph marker nodes rendered to PDF.
+المحتوى المستخرج بين الحقل والفقرة، بدون عقد علامة الحقل والفقرة المقدمة إلى PDF.
 
 ![extract-content-using-field-aspose-words-java](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-6.png)
 
-## مقتطف من علامة كتاب
+## استخراج المحتوى من إشارة مرجعية
 
-وفي وثيقة ما، يلخص المحتوى الذي يُعرَّف في علامة كتابية ما `BookmarkStart` "و "بوكماركيند المحتوى الذي وجد بين هذين العقدين هو علامة الكتاب يمكنك أن تعبر أياً من هذه العقدات كأي علامة، حتى تلك من علامات كتاب مختلفة، طالما أن علامة البداية تظهر قبل علامة النهاية في الوثيقة.
+في المستند، يتم تغليف المحتوى المحدد داخل إشارة مرجعية بواسطة العقدتين `BookmarkStart` و BookmarkEnd. يشكل المحتوى الموجود بين هاتين العقدتين الإشارة المرجعية. يمكنك تمرير أي من هذه العقد كأي علامة، حتى تلك من إشارات مرجعية مختلفة، طالما تظهر علامة البداية قبل علامة النهاية في المستند.
 
-وفي وثيقة العينة لدينا علامة كتاب واحدة، تسمى " بوكمارك 1 ". ويرد في وثيقتنا ما يلي:
+في نموذج المستند الخاص بنا، لدينا إشارة مرجعية واحدة، تسمى"إشارة مرجعية 1". يتم تمييز محتوى هذه الإشارة المرجعية المحتوى في وثيقتنا:
 
 ![extract-content-from-bookmark-aspose-words-java-1](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-7.png)
 
-وسوف نستخرج هذا المحتوى في وثيقة جديدة تستخدم الرمز أدناه. The **IsInclusive** ويبين خيار البارامترات كيفية الاحتفاظ بعلامة الكتاب أو التخلص منها.
+سنقوم باستخراج هذا المحتوى في مستند جديد باستخدام الرمز أدناه. يوضح خيار المعلمة **IsInclusive** كيفية الاحتفاظ بالإشارة المرجعية أو تجاهلها.
 
-ويبيّن المثال الرمزي التالي كيفية استخراج المحتوى المشار إليه علامة كتاب باستخدام **ExtractContent** الطريقة:
+يوضح مثال التعليمات البرمجية التالية كيفية استخراج المحتوى المشار إليه إشارة مرجعية باستخدام طريقة **ExtractContent**:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-bookmark.java" >}}
 
 {{% alert color="primary" %}}
 
-يمكنك تحميل ملف العينة من هذا المثال [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
+يمكنك تنزيل نموذج ملف هذا المثال من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
-الناتج المستخرج مع `IsInclusive` مجموعة البارامترات true. وستحتفظ النسخة بعلامة الكتاب أيضا.
+الإخراج المستخرج مع المعلمة `IsInclusive` تعيين إلى صحيح. ستحتفظ النسخة بالإشارة المرجعية أيضا.
 
 ![extract-content-from-bookmark-aspose-words-java-2](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-8.png)
 
-الناتج المستخرج مع **IsInclusive** مجموعة البارامترات false. النسخة تحتوي على المحتوى لكن بدون علامة الكتاب
+الإخراج المستخرج مع تعيين المعلمة **IsInclusive** إلى خطأ. تحتوي النسخة على المحتوى ولكن بدون الإشارة المرجعية.
 
 ![extract-content-from-bookmark-aspose-words-java-3](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-9.png)
 
-## مقتطف من التعليق
+## استخراج المحتوى من تعليق
 
-ويرد في التعليق على التعليق، والتعليق، والتعليق. كل هذه الأكواد مصممة ويلخص العقدان الأولان المضمون الوارد في الوثيقة المشار إليه في التعليق، على النحو المبين في التصويب أدناه.
+يتكون التعليق من CommentRangeStart، CommentRangeEnd وعقد التعليق. كل هذه العقد مضمنة. تقوم العقدتان الأوليان بتغليف المحتوى في المستند المشار إليه بواسطة التعليق، كما هو موضح في لقطة الشاشة أدناه.
 
-The **Comment** الشعار نفسه هو [InlineStory](https://reference.aspose.com/words/java/com.aspose.words/inlinestory/) التي يمكن أن تحتوي على فقرات وركضات. وهو يمثل رسالة التعليق التي يُنظر إليها على أنها فقاعة تعليق في مقصورة الاستعراض. بما أن هذا العقد مُخطّط و سفاح لجسد يمكنك أيضاً استخراج المحتوى من داخل هذه الرسالة أيضاً
+العقدة **Comment** نفسها هي [InlineStory](https://reference.aspose.com/words/java/com.aspose.words/inlinestory/) التي يمكن أن تحتوي على فقرات وتشغيل. إنه يمثل رسالة التعليق كما ينظر إليه على أنه فقاعة تعليق في جزء المراجعة. نظرا لأن هذه العقدة مضمنة وسليل الجسم، يمكنك أيضا استخراج المحتوى من داخل هذه الرسالة أيضا.
 
-وفي وثيقتنا، لدينا تعليق واحد. فلنعرضه بالظهور في جدول الاستعراض:
+في وثيقتنا لدينا تعليق واحد. دعنا نعرضه من خلال إظهار الترميز في علامة التبويب مراجعة:
 
 ![extract-content-from-comment-aspose-words-java-1](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-10.png)
 
-ويلخص التعليق العنوان والفقرة الأولى والجدول في الفرع الثاني. ولنستخلص هذا التعليق في وثيقة جديدة. The **IsInclusive** ويقضي الخيار بالاحتفاظ بالتعليق نفسه أو التخلي عنه.
+يلخص التعليق العنوان والفقرة الأولى والجدول في القسم الثاني. دعنا نستخرج هذا التعليق في مستند جديد. يحدد الخيار **IsInclusive** إذا تم الاحتفاظ بالتعليق نفسه أو تجاهله.
 
-ويبين المثال الرمزي التالي ما يلي:
+يوضح مثال التعليمات البرمجية التالية كيفية القيام بذلك أدناه:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-comment-range.java" >}}
 
 {{% alert color="primary" %}}
 
-يمكنك تحميل ملف العينة من هذا المثال [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
+يمكنك تنزيل نموذج ملف هذا المثال من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{% /alert %}}
 
-أولا، الناتج المستخرج مع `IsInclusive` مجموعة البارامترات true. وستتضمن النسخة التعليق أيضا.
+أولا الإخراج المستخرج مع المعلمة `IsInclusive` تعيين إلى صحيح. ستحتوي النسخة على التعليق أيضا.
 
 ![extract-content-from-comment-aspose-words-java-2](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-11.png)
 
-ثانيا، الناتج المستخرج مع **غير شامل** المجموعة false. The copy contains the content but without the comment.
+ثانيا الإخراج المستخرج مع **isInclusive** تعيين إلى كاذبة. تحتوي النسخة على المحتوى ولكن بدون تعليق.
 
 ![extract-content-from-comment-aspose-words-java-12](/words/java/extract-selected-content-between-nodes/extract-content-from-comment-aspose-words-java-12.png)
 
-## Extract Content using DocumentVisitor
+## استخراج المحتوى باستخدام DocumentVisitor
 
-Aspose.Words لا يمكن استخدامها فقط لخلق Microsoft Word (ب) الوثائق عن طريق بناء نماذج دينامية أو دمجها مع البيانات، ولكن أيضاً من أجل فرز الوثائق من أجل استخلاص عناصر وثيقة منفصلة مثل المرشدين والقدماء والفقرات والجداول والصور وغيرها. وتتمثل مهمة ممكنة أخرى في إيجاد جميع نصوص أشكال أو أسلوب محدد.
+يمكن استخدام Aspose.Words ليس فقط لإنشاء Microsoft Word المستندات عن طريق بنائها ديناميكيا أو دمج القوالب مع البيانات، ولكن أيضا لتحليل المستندات من أجل استخراج عناصر مستند منفصلة مثل الرؤوس والتذييلات والفقرات والجداول والصور وغيرها. مهمة أخرى محتملة هي العثور على كل نص بتنسيق أو نمط معين.
 
-استخدام [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) درجة لتنفيذ سيناريو الاستخدام هذا هذا الفصل يطابق نمط تصميم الزائرين المعروف جيداً مع [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/)يمكنك تحديد وتنفيذ العمليات العرفية التي تتطلب عدلاً على شجرة الوثائق
+استخدم فئة [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) لتنفيذ سيناريو الاستخدام هذا. يتوافق هذا الفصل مع نمط تصميم الزائر المعروف. باستخدام [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/)، يمكنك تحديد وتنفيذ العمليات المخصصة التي تتطلب التعداد عبر شجرة المستندات.
 
-[DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) يوفر مجموعة من **VisitXXX** الطرائق التي يُحتج بها عندما يُصادف عنصر معين من عناصر الوثائق (المعيار). على سبيل المثال، [VisitParagraphStart](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphStart-com.aspose.words.Paragraph) يُستدعى عندما يُعثر على بداية فقرة نصية، [VisitParagraphEnd](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphEnd-com.aspose.words.Paragraph) يُستدعى عندما يُعثر على نهاية النص. كل واحد **DocumentVisitor.VisitXXX** الطريقة تقبل الجسم المقابل الذي تصادفه حتى تتمكن من استخدامه حسب الحاجة (يقال استرجاع الشكل) [VisitParagraphStart](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphStart-com.aspose.words.Paragraph) و [VisitParagraphEnd](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphEnd-com.aspose.words.Paragraph) قبول [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) هدف
+[DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) يوفر مجموعة من **VisitXXX** الطرق التي يتم استدعاؤها عند مواجهة عنصر مستند معين (عقدة). على سبيل المثال، يتم استدعاء [VisitParagraphStart](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphStart-com.aspose.words.Paragraph) عند العثور على بداية فقرة نصية و [VisitParagraphEnd](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphEnd-com.aspose.words.Paragraph) عند العثور على نهاية فقرة نصية. تقبل كل طريقة **DocumentVisitor.VisitXXX** الكائن المقابل الذي تصادفه حتى تتمكن من استخدامه حسب الحاجة (على سبيل المثال استرداد التنسيق)، على سبيل المثال، يقبل كل من [VisitParagraphStart](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphStart-com.aspose.words.Paragraph) و [VisitParagraphEnd](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/#visitParagraphEnd-com.aspose.words.Paragraph) كائن [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/).
 
-كل واحد **DocumentVisitor.VisitXXX** طريقة العودة(أ) **VisitorAction** القيمة التي تتحكم في عد الأنهار يمكنك أن تطلب إما أن تستمر في العد أو أن تتخطى العقد الحالي (ولكن أن تستمر في العد) أو أن تتوقف عن عد العقد
+ترجع كل طريقة **DocumentVisitor.VisitXXX** قيمة **VisitorAction** تتحكم في تعداد العقد. يمكنك طلب إما متابعة التعداد، أو تخطي العقدة الحالية (ولكن متابعة التعداد)، أو إيقاف تعداد العقد.
 
-وهذه هي الخطوات التي ينبغي أن تتبعها لتحديد واستخراج مختلف أجزاء الوثيقة من الناحية البرنامجية:
+هذه هي الخطوات التي يجب عليك اتباعها لتحديد واستخراج أجزاء مختلفة من المستند برمجيا:
 
-- إنشاء طبقة مستمدة من [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/).
-- تجاوز وتنفيذ بعض أو كل **DocumentVisitor.VisitXXX** أساليب للقيام ببعض العمليات المعتادة
--اتصل [Node.accept](https://reference.aspose.com/words/java/com.aspose.words/node/#accept-com.aspose.words.DocumentVisitor) على العقد من حيث تريد أن تبدأ العد على سبيل المثال، إذا كنت ترغب في تعداد كامل الوثيقة، استخدام [accept(DocumentVisitor)](https://reference.aspose.com/words/java/com.aspose.words/document/#accept-com.aspose.words.DocumentVisitor).
+- إنشاء فئة مشتقة من [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/).
+- تجاوز وتوفير تطبيقات لبعض أو كل طرق **DocumentVisitor.VisitXXX** لتنفيذ بعض العمليات المخصصة.
+- استدعاء [Node.accept](https://reference.aspose.com/words/java/com.aspose.words/node/#accept-com.aspose.words.DocumentVisitor) على العقدة من حيث تريد بدء التعداد. على سبيل المثال، إذا كنت تريد تعداد المستند بأكمله، فاستخدم [accept(DocumentVisitor)](https://reference.aspose.com/words/java/com.aspose.words/document/#accept-com.aspose.words.DocumentVisitor).
 
-[DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) توفير عمليات التنفيذ الافتراضي لجميع **DocumentVisitor.VisitXXX** طرق This makes it easier to create new document visitors as only the methods required for the particular visitor need to be overridden. وليس من الضروري تجاوز جميع أساليب الزوار.
+[DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) يوفر تطبيقات افتراضية لجميع طرق **DocumentVisitor.VisitXXX**. هذا يجعل من السهل إنشاء زوار مستندات جدد حيث يجب تجاوز الطرق المطلوبة للزائر المعين فقط. ليس من الضروري تجاوز جميع طرق الزائر.
 
-ويبين المثال التالي كيفية استخدام نمط الزوار لإضافة عمليات جديدة إلى Aspose.Words نموذج الجسم. وفي هذه الحالة، ننشئ محولا بسيطا للوثائق في شكل نص:
+يوضح المثال التالي كيفية استخدام نمط الزائر لإضافة عمليات جديدة إلى نموذج الكائن Aspose.Words. في هذه الحالة، نقوم بإنشاء محول مستند بسيط إلى تنسيق نصي:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-using-document-visitor.java" >}}
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "convert-doc-to-txt.java" >}}
 
-## نص مقتطف فقط
+## استخراج النص فقط
 
-وفيما يلي طرق استرجاع النص من الوثيقة:
+طرق استرداد النص من المستند هي:
 
-- استخدام [Document.save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-com.aspose.words.SaveOptions) مع [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) ليحفظ كنص عادي في ملف أو تيار
-- استخدام [Node.toString](https://reference.aspose.com/words/java/com.aspose.words/node/#toString-com.aspose.words.SaveOptions) ويمرر `SaveFormat.Text` البارامترات وداخلياً، يُحتج بهذا الأمر إلا نصاً في مجرى الذاكرة ويعيد الخيط الناتج
-- استخدام [Node.getText](https://reference.aspose.com/words/java/com.aspose.words/node/#getText) لاسترجاع النص مع الجميع Microsoft Word سمات الرقابة بما في ذلك الرموز الميدانية
-- تنفيذ العرف [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) القيام بعمليات استخراج مصممة حسب الطلب
+- استخدم [Document.save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-com.aspose.words.SaveOptions) مع [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) للحفظ كنص عادي في ملف أو دفق
+- استخدم [Node.toString](https://reference.aspose.com/words/java/com.aspose.words/node/#toString-com.aspose.words.SaveOptions) وتمرير المعلمة `SaveFormat.Text`. داخليا، يستدعي هذا حفظ كنص في دفق ذاكرة وإرجاع السلسلة الناتجة
+- استخدم [Node.getText](https://reference.aspose.com/words/java/com.aspose.words/node/#getText) لاسترداد النص مع جميع أحرف التحكم Microsoft Word بما في ذلك رموز الحقول
+- تنفيذ مخصص [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) لإجراء استخراج مخصص
 
-### استخدام `Node.GetText` و `Node.ToString`
+### باستخدام `Node.GetText` و `Node.ToString`
 
-ألف ويمكن أن تتضمن الوثيقة الوردية سمات تحكم تحدد عناصر خاصة مثل الميدان، ونهاية الخلية، ونهاية الفرع، وما إلى ذلك. The full list of possible Word control characters is defined in the **ControlChar** الصف The [GetText](https://reference.aspose.com/words/java/com.aspose.words/node/#getText) الطريقة تعيد النص مع كل شخصيات التحكم الموجودة في العقد
+يمكن أن يحتوي مستند الكلمة على أحرف تحكم تحدد عناصر خاصة مثل الحقل ونهاية الخلية ونهاية القسم وما إلى ذلك. يتم تعريف القائمة الكاملة لأحرف التحكم في الكلمات المحتملة في فئة **ControlChar**. تقوم طريقة [GetText](https://reference.aspose.com/words/java/com.aspose.words/node/#getText) بإرجاع النص مع جميع أحرف حرف التحكم الموجودة في العقدة.
 
-ودعوة " توسترينغ " إلى إعادة النص الواضح للوثيقة دون أن يكون لها طابع السيطرة. وللاطلاع على مزيد من المعلومات بشأن التصدير بوصفه نصاً سهلاً، انظر **Using SaveFormat.Text**.
+يؤدي الاتصال ToString إلى إرجاع تمثيل النص العادي للمستند فقط بدون أحرف تحكم. لمزيد من المعلومات حول التصدير كنص عادي انظر **Using SaveFormat.Text**.
 
-المثال الرمزي التالي يبين الفرق بين تسمية **GetText** و [ToString](https://reference.aspose.com/words/java/com.aspose.words/node/#toString) الأساليب على العقد:
+يوضح مثال الكود التالي الفرق بين استدعاء طرق **GetText** و [ToString](https://reference.aspose.com/words/java/com.aspose.words/node/#toString) على عقدة:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "simple-extract-text.java" >}}
 
-### استخدام `SaveFormat.Text`
+### باستخدام `SaveFormat.Text`
 
-ويحتفظ هذا المثال بالوثيقة على النحو التالي:
+يحفظ هذا المثال المستند كما يلي:
 
-- فرز الشخصيات الميدانية والرموز الميدانية والشكل والحاشية والملاحظة
-- يستعاض عن نهاية الفقرة [ControlChar.Cr](https://reference.aspose.com/words/java/com.aspose.words/controlchar/) الشخصيات مع [ControlChar.CrLf](https://reference.aspose.com/words/java/com.aspose.words/controlchar/) التركيبات
-- استخدام زينة يو تي 8
+- يقوم بتصفية أحرف الحقول ورموز الحقول والشكل والحاشية السفلية والحاشية الختامية ومراجع التعليقات
+- يستبدل نهاية الفقرة [ControlChar.Cr](https://reference.aspose.com/words/java/com.aspose.words/controlchar/) الأحرف بمجموعات [ControlChar.CrLf](https://reference.aspose.com/words/java/com.aspose.words/controlchar/)
+- يستخدم UTF8 ترميز
 
-The following code example shows how to save a document in TXT format:
+يوضح مثال الكود التالي كيفية حفظ مستند بتنسيق TXT:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "docx-to-txt.java" >}}
 
-## مقتطفات من أشبال
+## استخراج الصور من الأشكال
 
-قد تحتاج إلى استخراج صور وثائقية لأداء بعض المهام. Aspose.Words يسمح لك بفعل هذا أيضاً
+قد تحتاج إلى استخراج صور المستندات لأداء بعض المهام. Aspose.Words يسمح لك أن تفعل هذا أيضا.
 
-ويبين المثال الرمزي التالي كيفية استخراج الصور من الوثيقة:
+يوضح مثال الكود التالي كيفية استخراج الصور من مستند:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-images.java" >}}

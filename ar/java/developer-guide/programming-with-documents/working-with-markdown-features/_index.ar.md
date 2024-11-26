@@ -1,40 +1,40 @@
----
-title: العمل مع Markdown المعالم Java
-second_title: Aspose.Words for Java
-articleTitle: العمل مع Markdown المعالم
-linktitle: العمل مع Markdown المعالم
-description: "كيفية التنفيذ Markdown المعالم Java. وتُمثَّل جميع السمات على أنها أساليب مقابلة أو شكل مباشر."
+﻿---
+title: العمل مع Markdown الميزات في Java
+second_title: Aspose.Words ل Java
+articleTitle: العمل مع Markdown الميزات
+linktitle: العمل مع Markdown الميزات
+description: "كيفية تنفيذ Markdown الميزات باستخدام Java. يتم تمثيل جميع الميزات كأنماط مقابلة أو تنسيق مباشر."
 type: docs
 weight: 420
 url: /ar/java/working-with-markdown-features/
 timestamp: 2024-01-31-14-23-37
 ---
 
-يناقش هذا الموضوع كيفية تنفيذ Markdown المعالم Aspose.Words. Markdown هي طريقة بسيطة لتشكيل نص سهل يمكن تحويله بسهولة إلى HTML. Aspose.Words تؤيد ما يلي: Markdown السمات:
+يناقش هذا الموضوع كيفية تنفيذ ميزات Markdown باستخدام Aspose.Words. Markdown هي طريقة بسيطة لتنسيق نص عادي يمكن تحويله بسهولة إلى HTML. Aspose.Words يدعم الميزات التالية Markdown:
 
 - العناوين
--المقتطفات
+- بلوككوتس
 - القواعد الأفقية
-- التركيز الكبير
-- التركيز الايطالي
+- التركيز الجريء
+- التركيز المائل
 
-The Markdown التنفيذ الرئيسي يتبع في معظمه `CommonMark` المواصفات Aspose.Words API وجميع الملامح مُمثَّلة على أنها أساليب مقابلة أو شكل مباشر. مما يعني
+يتبع تنفيذ ميزة Markdown في الغالب مواصفات `CommonMark` في Aspose.Words API ويتم تمثيل جميع الميزات كأنماط مقابلة أو تنسيق مباشر. مما يعني أن
 
-- Bold and Italic are represented as `Font.Bold` و `Font.Italic`
--العناوين هي فقرات مع العنوان 1
--الذئبة هي فقرات مع "الكوت" في اسم الموضة
-- هوريزونتال رول هو فقرة مع `HorizontalRule` شكل
+- يتم تمثيل الغامق والمائل على أنهما `Font.Bold` و `Font.Italic`.
+- العناوين هي فقرات ذات أنماط Heading 1 - Heading 6.
+- الاقتباسات هي فقرات تحتوي على "اقتباس" في اسم النمط.
+- HorizontalRule هي فقرة ذات شكل `HorizontalRule`.
 
 {{% alert color="primary" %}}
 
-هناك نقص في الترجمة Markdown إلى Aspose.Words Document Object Model )أ(DOM)، الوارد وصفه في المادة [التحويل Markdown إلى Document Object Model )أ(DOM)](/words/ar/java/translate-markdown-to-document-object-model/).
+هناك فروق دقيقة في ترجمة Markdown إلى نموذج كائن المستند Aspose.Words (DOM)، الموضح في المقالة [ترجمة Markdown لتوثيق نموذج الكائن (DOM)](/words/java/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 
 
-## Markdown الوثائق مع التركيزات
+## Markdown وثيقة مع التركيز
 
-هذا القسم يُظهر لك كيف تُنتج markdown الوثيقة مع التركيزات على النحو المبين أدناه:
+يوضح لك هذا القسم كيفية إنتاج مستند markdown مع تأكيدات كما هو موضح أدناه:
 
 {{< highlight csharp >}}
 Markdown treats asterisks (*) and underscores (_) as indicators of emphasis.
@@ -42,14 +42,14 @@ You can write **bold** or *italic* text.
 You can also write ***BoldItalic***text.
 {{< /highlight >}}
 
-يمكن استخدام الدمية الرمزية التالية لإنتاج الجاذبية المذكورة أعلاه markdown الوثيقة.
+يمكن استخدام مقتطف الشفرة التالي لإنتاج المستند markdown المذكور أعلاه.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-MarkdownDocumentWithEmphases.java" >}}
 
 
-## Markdown الوثيقة مع العناوين
+## Markdown وثيقة مع العناوين
 
-هذا القسم يُظهر لك كيف تُنتج markdown الوثيقة مع العناوين على النحو المبين أدناه:
+يوضح لك هذا القسم كيفية إنتاج مستند markdown بعناوين كما هو موضح أدناه:
 
 {{< highlight csharp >}}
 The following produces headings:
@@ -62,13 +62,13 @@ The following produces headings:
 # **Bold Heading1**
 {{< /highlight >}}
 
-يمكن استخدام الدمية الرمزية التالية لإنتاج ما سبق ذكره markdown الوثيقة.
+يمكن استخدام مقتطف الشفرة التالي لإنتاج المستند markdown المذكور أعلاه.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-MarkdownDocumentWithHeadings.java" >}}
 
-## Markdown Document with Block Quotes
+## Markdown وثيقة مع اقتباسات كتلة
 
-هذا القسم يُظهر لك كيف تُنتج markdown الوثيقة ذات الاقتباسات المجمدة على النحو المبين أدناه:
+يوضح لك هذا القسم كيفية إنتاج مستند markdown مع علامات اقتباس كتلة كما هو موضح أدناه:
 
 {{< highlight csharp >}}
 We support blockquotes in Markdown:
@@ -83,13 +83,13 @@ We support blockquotes in Markdown:
 >### Headings are allowed inside Quotes
 >{{< /highlight >}}
 
-يمكن استخدام الدمية الرمزية التالية لإنتاج ما سبق ذكره markdown الوثيقة.
+يمكن استخدام مقتطف الشفرة التالي لإنتاج المستند markdown المذكور أعلاه.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-MarkdownDocumentWithBlockQuotes.java" >}}
 
-## Markdown Document with Horizontal Rule
+## Markdown وثيقة مع القاعدة الأفقية
 
-هذا القسم يُظهر لك كيف تُنتج markdown وثيقة مع هوريزونتال القاعدة على النحو المبين أدناه:
+يوضح لك هذا القسم كيفية إنتاج مستند markdown بقاعدة أفقية كما هو موضح أدناه:
 
 {{< highlight csharp >}}
 We support Horizontal rules (Thematic breaks) in Markdown:
@@ -97,26 +97,26 @@ We support Horizontal rules (Thematic breaks) in Markdown:
 
 {{< /highlight >}}
 
-يمكن استخدام الدمية الرمزية التالية لإنتاج الجاذبية المذكورة أعلاه markdown الوثيقة.
+يمكن استخدام مقتطف الشفرة التالي لإنتاج المستند markdown المذكور أعلاه.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-MarkdownDocumentWithHorizontalRule.java" >}}
 
-## قراءة Markdown الوثيقة
+## قراءة Markdown وثيقة
 
-قناصة الشفرة التالية تظهر لك كيف تقرأ markdown الوثيقة.
+يوضح لك مقتطف الشفرة التالي كيفية قراءة مستند markdown.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-ReadMarkdownDocument.java" >}}
 
-## التحديد Markdown الخيارات المتاحة
+## حدد Markdown حفظ الخيارات
 
-Aspose.Words API توفير [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) درجة لتحديد خيارات إضافية مع توفير وثيقة في الوقت نفسه Markdown شكل
+Aspose.Words API يوفر [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) فئة لتحديد خيارات إضافية أثناء حفظ مستند في تنسيق Markdown.
 
-وأظهر المثال الرمزي التالي كيفية تحديد مختلف Markdown وفر الخيارات
+يوضح مثال الكود التالي كيفية تحديد خيارات حفظ Markdown المختلفة.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-SaveAsMD.java" >}}
 
-## How to Align Content Inside the Table while Exporting into Markdown
+## كيفية محاذاة المحتوى داخل الجدول أثناء التصدير إلى Markdown
 
-Aspose.Words API توفير [TableContentAlignment](https://reference.aspose.com/words/java/com.aspose.words/tablecontentalignment/) العد الذي يحدد اتجاهات المواءمة لمواءمة المحتويات في الجداول مع التصدير في الوقت نفسه Markdown الوثيقة. ويبين المثال الرمزي التالي كيفية مواءمة المحتوى داخل الجدول.
+Aspose.Words API يوفر [TableContentAlignment](https://reference.aspose.com/words/java/com.aspose.words/tablecontentalignment/) التعداد الذي يحدد اتجاهات المحاذاة لمحاذاة المحتويات في الجداول أثناء التصدير إلى المستند Markdown. يوضح مثال التعليمات البرمجية التالية كيفية محاذاة المحتوى داخل الجدول.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-ExportIntoMarkdownWithTableContentAlignment.java" >}}

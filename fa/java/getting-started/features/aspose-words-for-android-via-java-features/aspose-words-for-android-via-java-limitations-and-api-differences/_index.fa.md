@@ -1,91 +1,91 @@
----
+﻿---
 title: Android از طریق Java تفاوت ها
 second_title: Aspose.Words
 articleTitle: Aspose.Words برای Android از طریق Java محدودیت ها و API تفاوت ها
 linktitle: Aspose.Words برای Android از طریق Java محدودیت ها و API تفاوت ها
-description: "Aspose.Words برای Android از طریق Java ویژگی ها و API تفاوت در مقایسه با منظم Aspose.Words برای Java نسخه"
+description: "Aspose.Words برای Android از طریق Java ویژگی ها و API تفاوت در مقایسه با Aspose.Words معمولی برای Java نسخه."
 type: docs
 weight: 50
 url: /fa/java/aspose-words-for-android-via-java-limitations-and-api-differences/
 timestamp: 2024-01-27-14-07-04
 ---
 
-## محدودیت های Aspose.Words برای Android از طریق Java API مقایسه Aspose.Words برای Java API
+## محدودیت های Aspose.Words برای Android از طریق Java API در مقایسه با Aspose.Words برای Java API
 
-1. * document.print *methods در دسترس نیست.
-1. نجات در **TIFF** و **BMP** فرمت ها پشتیبانی نمی شوند، اگرچه *SaveFormat.TIFF* و *SaveFormat.BMP* در دسترس عموم Aspose.Words برای Android از طریق Java API, اما اما اما *UnsupportedOperationException* هنگامی که این فرمت های ذخیره استفاده می شود، پرتاب می شود.
-1. خواندن **TIFF** تصاویر پشتیبانی نمی شوند.
-1. ثبت نام **ODT** اسناد هنوز پشتیبانی نمی شوند.
-1. بارکد ها پشتیبانی نمی شوند.
-1. راهنمایی در امتداد یک منحنی پشتیبانی نمی شود
+1. *Document.print * روش ها در دسترس نیستند.
+1. پس انداز در فرمت های **TIFF** و **BMP** پشتیبانی نمی شود، اگرچه *SaveFormat.TIFF* و *SaveFormat.BMP* در Aspose.Words برای Android از طریق Java API در دسترس هستند، اما *UnsupportedOperationException* زمانی که از این فرمت های ذخیره استفاده می شود، پرتاب می شود.
+1. خواندن **TIFF** تصاویر پشتیبانی نمی شود.
+1. امضای **ODT** اسناد هنوز پشتیبانی نمی شود.
+1. بارکد پشتیبانی نمی شود.
+1. شیب ها در امتداد منحنی پشتیبانی نمی شوند
 1. چاپ پشتیبانی نمی شود
 
-## عمومی عمومی عمومی عمومی API تفاوت ها
+## عمومی API تفاوت ها
 
-- Android.graphics Bitmap به جای java.awt.image استفاده می شود. تصویر؛
-- Android.graphics بوم به جای java.awt.image.Graphics2D استفاده می شود
-- Android.graphics مقدماتی F به جای جاوا.awt.geom.Rectangle2D استفاده می شود. فلورت؛
-- Android.graphics.Point F به جای جاوا.awt.geom.Point2D استفاده می شود. فلورت؛
-- Android.graphics به جای جاوا استفاده می شود. اختلاف؛
-- Android.graphics نقطه به جای جاوا استفاده می شود. نقطه
+- اندروید.گرافیک.Bitmap به جای جاوا استفاده می شود.آوتتصویر.BufferedImage;
+- اندروید.گرافیک.بوم به جای جاوا استفاده می شود.آوتتصویر.گرافیک2d;
+- اندروید.گرافیک.RectF به جای جاوا استفاده می شود.آوتژئوممستطیل2d. شناور;
+- اندروید.گرافیک.PointF به جای جاوا استفاده می شود.آوتژئومPoint2D. شناور;
+- اندروید.گرافیک.Rect به جای جاوا استفاده می شود.آوتمستطیل;
+- اندروید.گرافیک.نقطه به جای جاوا استفاده می شود.آوتنکته
 
-مشاهده عمومی زیر API روش ها:
+روش های عمومی API زیر را ببینید:
 
-1. com.aspose.words.DocumentBuilder:
-   1- وارد کردن Image (Bitmap)
-   1- وارد کردن Image (Bitmap، دوگانه، دوگانه)
-   1- قرار دادن Image (Bitmap، int، دو، دو، دو، دو، دو، دو، دو،، int)
-   1- وارد کردن OleImage (Bitmap)
-   1- قرار دادن Olebject (InputStream، String، boolean، Bitmap)
-   1- قرار دادن Olebject (String، boolean، boolean، Bitmap)
-   1- قرار دادن Olebject (String، String، boolean، boolean، Bitmap)
-1. سازنده: I BarcodeGenerator:
-   Bitmap Get Barcode تصویر (BarcodeParameters)
-   Bitmap Get Old Barcode تصویر (BarcodeParameters)
-1. com.aspose.word
-   1- تنظیم (Bitmap)
-   Bitmap to Image()
-1. com.aspose.word
-   Bitmap GetImage()
-   1- تنظیم (Bitmap)
-1.Com.aspose.words.Document:
-   Android.graphics F رندر ToScale (int، Canvas، شناور، شناور، شناور) پرتاب استثنا
-   ۱- شناور سازی (int، Canvas، شناور، شناور، شناور، شناور، شناور) پرتاب استثنا
-1. com.aspose.word
-   1 Android.graphics استفاده از ()
-1. com.aspose.words.NodeRendererBase:
-   ۱- Android.graphics.PointF getsizeInPoints()
-   1 Android.graphics RectF GetOpaqueBoundsInPoints
-   ۱- Android.graphics.PointF GetsizeInPixels ( فلورات، شناور)
-   1- Android.graphics دریافت کننده:BoundsInPixels ( فلورات، شناور)
-   1- Android.graphics دانلود آهنگ های OpaqueBoundsInPixels ( فلورات، شناور)
-   Android.graphics F رندر ToScale (Canvas، شناور، شناور، شناور)
-   1- شناور سازی (Canvas، شناور، شناور، شناور، شناور، شناور)
-1. com.aspose.words.Pageinfo:
-   ۱- Android.graphics.PointF در Pixels ( فلورات، شناور)
-   ۱- Android.graphics.PointF getsizeInPoints()
-۱- کلمات شکل Shape پایگاه:
-   1- Android.graphics RectF تنظیم شده با (android.graphics.RectF)
-   1 Android.graphics RectF GetBounds()
-   1 Android.graphics RectF GetBoundsInPoints()
-   1 Android.graphics RectF GetBounds withEffects()
-   1 Android.graphics گزینه GetCoordOrigin()
-   Android.graphics.PointF GetCoordSize()
-   ۱- Android.graphics.PointF getsizeInPoints()
-   Android.graphics.PointF LocalToParent (android.graphics.PointF)
-   1 مجموعه (android.graphics.RectF)
-   1- SetCoordOrigin (android.graphics.Point)
-   ۱- تنظیم CoordSize (android.graphics.PointF)
-1. com.aspose.words.ThumbnailGeneratingاختیاری:
-   Android.graphics.PointF GetThumbnailsize()
-   1- تنظیمThumbnailize (android.graphics.PointF)
+1. com.اسپوزکلمات.DocumentBuilder:
+   1. insertImage(نقشه بیت)
+   1. insertImage (Bitmap, double, double)
+   1. insertImage (Bitmap, int, double, int, double, double, int)
+   1. insertOleImage(نقشه بیت)
+   1. insertOleObject (InputStream, String, boolean, Bitmap)
+   1. insertOleObject (رشته، بولی، بولی، بیت مپ)
+   1. insertOleObject (رشته، رشته، بولی، بولی، بیت مپ)
+1. com.اسپوزکلمات.IBarcodeGenerator:
+   1. Bitmap getBarcodeImage(BarcodeParameters)
+   1. Bitmap getOldBarcodeImage (BarcodeParameters)
+1. com.اسپوزکلمات.ImageData:
+   1. setImage(نقشه بیت)
+   1. Bitmap toImage()
+1. com.اسپوزکلمات.ImageFieldMergingArgs:
+   1. Bitmap getImage()
+   1. setImage(نقشه بیت)
+1. com.اسپوزکلمات.سند:
+   1. اندروید.گرافیک.PointF renderToScale(int, Canvas, float, float, float) استثنا می اندازد
+   1. شناور renderToSize(int, Canvas, float, float, float, float) استثنا می اندازد
+1. com.اسپوزکلمات.LayoutEnumerator:
+   1. اندروید.گرافیک.RectF getRectangle () استثنا می اندازد
+1. com.اسپوزکلمات.NodeRendererBase:
+   1. اندروید.گرافیک.PointF getSizeInPoints()
+   1. اندروید.گرافیک.RectF getOpaqueBoundsInPoints()
+   1. عمومی آندروید.گرافیک.PointF getSizeInPixels (شناور، شناور)
+   1. اندروید.گرافیک.Rect getBoundsInPixels(شناور، شناور)
+   1. اندروید.گرافیک.Rect getOpaqueBoundsInPixels(شناور، شناور)
+   1. اندروید.گرافیک.PointF renderToScale (بوم، شناور، شناور، شناور)
+   1. شناور renderToSize (بوم، شناور، شناور، شناور، شناور)
+1. com.اسپوزکلمات.PageInfo:
+   1. اندروید.گرافیک.PointF getSizeInPixels (شناور، شناور)
+   1. اندروید.گرافیک.PointF getSizeInPoints()
+1. com.اسپوزکلمات.ShapeBase:
+   1. اندروید.گرافیک.RectF adjustWithEffects (اندروید.گرافیک.RectF)
+   1. اندروید.گرافیک.RectF getBounds()
+   1. اندروید.گرافیک.RectF getBoundsInPoints()
+   1. اندروید.گرافیک.RectF getBoundsWithEffects()
+   1. اندروید.گرافیک.نقطه getCoordOrigin()
+   1. اندروید.گرافیک.PointF getCoordSize()
+   1. اندروید.گرافیک.PointF getSizeInPoints()
+   1. اندروید.گرافیک.PointF localToParent (اندروید.گرافیک.PointF)
+   1. setBounds(اندروید.گرافیک.RectF)
+   1. setCoordOrigin(اندروید.گرافیک.نکته)
+   1. setCoordSize(اندروید.گرافیک.PointF)
+1. com.اسپوزکلمات.ThumbnailGeneratingOptions:
+   1. اندروید.گرافیک.PointF getThumbnailSize()
+   1. setThumbnailSize(اندروید.گرافیک.PointF)
 
 ## Aspose.Words برای Android از طریق Java الزامات اضافی
 
-به منظور استفاده از ویژگی های مجوز متر و اسناد بار یا تصاویر توسط پروتکل های http/ftp کاربران باید مجوز را به برنامه های خود اضافه کنند
-*<uses-permission Android:name="android.permission.INTERNET>
+برای استفاده از ویژگی مجوز اندازه گیری شده و بارگذاری اسناد یا تصاویر توسط پروتکل های http/ftp کاربران باید مجوز زیر را به برنامه های خود اضافه کنند
+`<uses-permission android:name="android.permission.INTERNET" />`
 
-## عمومی عمومی عمومی عمومی API مثال ها
+## نمونه های عمومی API
 
 {{< highlight csharp >}}
 public void testPublicAPI1() throws Exception

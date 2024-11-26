@@ -1,8 +1,8 @@
 ---
-title: Trabajar con un documento almacenado en un `SharePoint` en línea
+title: Trabajar con un documento almacenado en un SharePoint en línea
 second_title: Aspose.Words para .NET
-articleTitle: Trabajar con un documento almacenado en un `SharePoint` en línea
-linktitle: Trabajar con un documento almacenado en un `SharePoint` en línea
+articleTitle: Trabajar con un documento almacenado en un SharePoint en línea
+linktitle: Trabajar con un documento almacenado en un SharePoint en línea
 description: "Convierta Word compartido en SharePoint a PDF usando C#. Trabaje con documentos almacenados en SharePoint: varios formatos de entrada, incluidos Word, OpenOffice, Image y eBook."
 type: docs
 weight: 20

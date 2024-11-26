@@ -1,17 +1,17 @@
----
-title: 文書を扱う Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: 文書を扱う
-linktitle: 文書を扱う
+﻿---
+title: Javaでのドキュメントの操作
+second_title: Aspose.WordsのためのJava
+articleTitle: ドキュメントの操作
+linktitle: ドキュメントの操作
 type: docs
-description: "ザ・オブ・ザ・ `Document` クラスはさまざまなドキュメントプロパティとメソッドを提供します。 利用する `Document` あなたが実行したいもののための開始点としてクラス Aspose.Words お問い合わせ Javaお問い合わせ ザ・オブ・ザ・ `Document` オブジェクトはファイルに保存したり、ストリームしたり、ブラウザに送信することもできます。"
+description: "`Document`クラスには、さまざまなドキュメントプロパティとメソッドが用意されています。 Javaに対してAspose.Wordsで実行したいものの出発点として`Document`クラスを使用します。 `Document`オブジェクトはファイルまたはストリームに保存し、ブラウザに送信することもできます。"
 weight: 40
 url: /ja/java/working-with-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-ザ・オブ・ザ・ [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) クラスは中央 Aspose.Wordsお問い合わせ 文書を表し、文書の保存や保護など、さまざまな文書のプロパティやメソッドを提供します。 利用する **Document** あなたが実行したいもののための開始点としてクラス Aspose.Words: 新しいドキュメントをゼロから作成し、テンプレートを開く mail merge, ドキュメントから異なる部品を取得する
+[Document](https://reference.aspose.com/words/java/com.aspose.words/document/)クラスはAspose.Wordsの中心です。 ドキュメントを表し、ドキュメントの保存や保護など、さまざまなドキュメントのプロパティとメソッドを提供します。 最初から新しい文書を作成するか、mail mergeのテンプレートを開くか、文書から別の部分を取得します。Aspose.Wordsで実行する場合は、**Document**クラスを開始点として使用します。Aspose.Wordsで実行する場合は、**Document**クラスを開始点として使用します。Aspose.Wordsで実行する場合は、**Document**クラスを開始点として使用します。
 
-ザ・オブ・ザ・ **Document** オブジェクトには、すべてのコンテンツとフォーマット、スタイル、組み込みおよびカスタムプロパティ、および [MailMerge](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/) 使用するオブジェクト mail mergeお問い合わせ **Document** テキスト、ブックマーク、フィールドをドキュメント全体または個別のセクションで取得できます。
+**Document**オブジェクトには、すべてのコンテンツと書式設定、スタイル、組み込みおよびカスタムプロパティ、およびmail mergeに使用される[MailMerge](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/)オブジェクトが含まれ **Document**ドキュメント全体または個別のセクションのテキスト、ブックマーク、およびフォームフィールドを取得できます。
 
-**Document** コレクションを含んだ [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) 特定のセクションを取得したり、コピーやセクションの移動などの操作を実行したりすることができます。 ザ・オブ・ザ・ **Document** オブジェクトはファイルやストリームにいつでも保存でき、クライアントブラウザに送信することもできます。
+**文書**

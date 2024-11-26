@@ -1,8 +1,8 @@
 ---
-title: Sử dụng `DocumentBuilder` Để Chèn Các Phần Tử Tài liệu
+title: Sử dụng DocumentBuilder Để Chèn Các Phần Tử Tài liệu
 second_title: Aspose.Words cho C++
-articleTitle: Sử dụng `DocumentBuilder` Để Chèn Các Phần Tử Tài liệu
-linktitle: Sử dụng `DocumentBuilder` Để Chèn Các Phần Tử Tài liệu
+articleTitle: Sử dụng DocumentBuilder Để Chèn Các Phần Tử Tài liệu
+linktitle: Sử dụng DocumentBuilder Để Chèn Các Phần Tử Tài liệu
 type: docs
 description: "Chèn các phần tử tài liệu bằng trình tạo tài liệu trong C++."
 weight: 80

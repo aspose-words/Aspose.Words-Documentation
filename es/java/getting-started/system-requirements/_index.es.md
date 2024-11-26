@@ -1,24 +1,24 @@
----
-title: Requisitos del sistema
-second_title: Aspose.Words para Java
-articleTitle: Requisitos del sistema
-linktitle: Requisitos del sistema
-description: "Antes de empezar a trabajar con Aspose.Words para Java, asegúrese de cumplir con el sistema operativo, la plataforma, los marcos y los requisitos ambientales para que las actividades en sus dispositivos sean debidamente contabilizadas."
+﻿---
+title: Requisitos del Sistema
+second_title: Aspose.Words por Java
+articleTitle: Requisitos del Sistema
+linktitle: Requisitos del Sistema
+description: "Antes de comenzar a trabajar con Aspose.Words para Java, asegúrese de cumplir con los requisitos del sistema operativo, la plataforma, los marcos y el entorno para que las actividades en sus dispositivos se contabilicen correctamente."
 type: docs
 weight: 80
 url: /es/java/system-requirements/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words para Java no requiere productos de terceros como Microsoft Word para ser instalado. Aspose.Words es un motor para crear, modificar, convertir y renderizar documentos en diversos formatos, incluyendo Microsoft Word formatos de documentos.
+Aspose.Words para Java no requiere que se instale un producto de terceros como Microsoft Word. Aspose.Words en sí mismo es un motor para crear, modificar, convertir y renderizar documentos en varios formatos, incluidos los formatos de documentos Microsoft Word.
 
-## Sistemas operativos compatibles
+## Sistemas Operativos Compatibles
 
-Cualquier sistema operativo que pueda ejecutar Java Runtime Environment (JRE) puede funcionar Aspose.Words para Java. Las siguientes tablas enumeran la mayoría, pero no todas, soportan Sistemas Operativos.
+Cualquier sistema operativo que pueda ejecutar el entorno de ejecución Java (JRE) puede ejecutarse Aspose.Words para Java. La siguiente tabla enumera la mayoría de los sistemas operativos compatibles, pero no todos.
 
 <table>
 	<tr>
-			<td style="font-weight: bold; width:400px">Sistema operativo</td>
+			<td style="font-weight: bold; width:400px">Sistema Operativo</td>
 			<td style="font-weight: bold; width:400px">Versiones</td>
 		</tr>
   <tr>
@@ -31,7 +31,7 @@ Cualquier sistema operativo que pueda ejecutar Java Runtime Environment (JRE) pu
 		</tr>
   <tr>
 			<td>macOS</td>
-			<td><ul><li>macOS versión 10.9Mavericks) y más tarde</li></ul></td>
+			<td><ul><li>macOS versión 10.9 (Mavericks) y posteriores</li></ul></td>
 		</tr>
   <tr>
 			<td>Móvil</td>
@@ -39,48 +39,48 @@ Cualquier sistema operativo que pueda ejecutar Java Runtime Environment (JRE) pu
 		</tr>
 </table>
 
-## Plataformas de cloud compatibles
+## Plataformas en la Nube Compatibles
 
-Aspose.Words para Java soporta cualquier plataforma de nube que pueda funcionar Java aplicaciones
+Aspose.Words para Java admite cualquier plataforma en la nube que pueda ejecutar Java aplicaciones.
 
-## Apoyo Java Versiones
+## Versiones Java compatibles
 
-Aspose.Words para Java soportes Java 7 y más nuevo. Si te obligan a usar Java 6, todavía liberamos un separado JAR para Java 6.
+Aspose.Words para Java admite Java 7 y versiones posteriores. Si se ve obligado a usar Java 6, aún publicamos un JAR separado para Java 6.
 
 
-## Dependencias optativas
+## Dependencias Opcionales
 
-Como hemos dicho anteriormente, Aspose.Words para Java Requisitos *only* el Java Runtime Environment, y usted no necesita instalar ninguna biblioteca adicional.
+Como dijimos anteriormente, Aspose.Words para Java requiere *only* el Entorno de ejecución Java, y no necesita instalar ninguna biblioteca adicional.
 
-Sin embargo, a veces hay situaciones donde es posible que necesite añadir bibliotecas de terceros:
+Sin embargo, a veces hay situaciones en las que es posible que deba agregar bibliotecas de terceros:
 
-- JogAmp JOGL biblioteca para la renderización OpenGL acelerada del hardware. La biblioteca está incluida en las palabras de la aspose POM archivo como dependencia externa. Puedes editar POM archivo para preservar los frascos JOGL requeridos para su plataforma solamente. O puede eliminar la dependencia si no necesita hardware de renderizado OpenGL acelerado.
-- HarfBuzz motor de fuentes. Ya está incluido en JRE 9 y más reciente. Si está usando JRE 8 o más, puede utilizar la dependencia de configuración-harfbuzz-plugin en nuestra POM archivo. De lo contrario, puede eliminar la dependencia.
-- Java Advanced Imaging (JAI) para apoyar las imágenes TIFF. Las imágenes TIFF no son soportadas por Java 8 años y más. Para soporte TIFF en viejo Java entornos, Aspose.Words para Java depende de [Java Advanced Imaging (JAI) paquete](https://www.oracle.com/java/technologies/java-archive-downloads-java-client-downloads.html) desde Oracle. Describiremos cómo instalar JAI a continuación.
+- JogAmp JOGL biblioteca para renderizado acelerado por hardware OpenGL. La biblioteca se incluye en el archivo aspose-words POM como una dependencia externa. Puede editar el archivo POM para conservar JOGL frascos necesarios solo para su plataforma. O puede eliminar la dependencia si no necesita procesamiento OpenGL acelerado por hardware.
+- Motor de fuentes HarfBuzz. Ya está incluido en JRE 9 y posteriores. Si está utilizando JRE 8 o una versión anterior, puede usar la dependencia shaping-harfbuzz-plugin en nuestro archivo POM. De lo contrario, puede eliminar la dependencia.
+- Java Imágenes avanzadas (JAI) para admitir TIFF imágenes. TIFF las imágenes no son compatibles con Java 8 y versiones anteriores. Para la compatibilidad con TIFF en entornos Java antiguos, Aspose.Words para Java depende de la [Paquete de Java Imágenes avanzadas (JAI)](https://www.oracle.com/java/technologies/java-archive-downloads-java-client-downloads.html) de Oracle. Describiremos cómo instalar JAI a continuación.
 
 ### Cómo instalar JAI en Windows
 
-Siga estos pasos para instalar JAI nativo y ImageIO on Windows:
+Siga estos pasos para instalar JAI y ImageIO nativos en Windows:
 
-1. Descarga **JAI 1.1.3**.
-   En el momento de escribir, sólo está disponible la versión de 32 bits del instalador, por lo que si utiliza un JDK necesita descargar [Jai-1_1_3-lib-windows-i586-jdk.exe](https://download.java.net/media/jai/builds/release/1_1_3/jai-1_1_3-lib-windows-i586-jdk.exe) y si utiliza un JRE necesita descargar [Jai-1_1_3-lib-windows-i586-jre.exe](https://download.java.net/media/jai/builds/release/1_1_3/jai-1_1_3-lib-windows-i586-jre.exe).
-1. Ejecute el instalador y apunte al directorio donde se instala JDK/JRE.
-1. Descarga **JAI Image I/O 1.1**.
-   En el momento de escribir, sólo está disponible la versión de 32 bits del instalador, por lo que si utiliza un JDK necesita descargar [jai_imageio-1_1-lib-windows-i586-jdk.exe](https://download.java.net/media/jai-imageio/builds/release/1.1/jai_imageio-1_1-lib-windows-i586-jdk.exe) y si utiliza un JRE necesita descargar [jai_imageio-1_1-lib-windows-i586-jre.exe](https://download.java.net/media/jai-imageio/builds/release/1.1/jai_imageio-1_1-lib-windows-i586-jre.exe)
-1. Ejecute el instalador y apunte al directorio donde se instala JDK/JRE.
+1. Descargar **JAI 1.1.3**.
+   En el momento de escribir este artículo, solo está disponible la versión de 32 bits del instalador, por lo que si usa un JDK, debe descargarlo [Jai-1_1_3-lib-windows-i586-jdk.exe](https://download.java.net/media/jai/builds/release/1_1_3/jai-1_1_3-lib-windows-i586-jdk.exe) y si usas un JRE necesitas descargar [Jai-1_1_3-lib-windows-i586-jre.exe](https://download.java.net/media/jai/builds/release/1_1_3/jai-1_1_3-lib-windows-i586-jre.exe).
+1. Ejecute el instalador y apúntelo al directorio donde está instalado JDK / JRE.
+1. Descargar **JAI Image I/O 1.1**.
+   En el momento de escribir este artículo, solo está disponible la versión de 32 bits del instalador, por lo que si usa un JDK, debe descargarlo [jai_imageio-1_1-lib-windows-i586-jdk.exe](https://download.java.net/media/jai-imageio/builds/release/1.1/jai_imageio-1_1-lib-windows-i586-jdk.exe) y si usas un JRE necesitas descargar [jai_imageio-1_1-lib-windows-i586-jre.exe](https://download.java.net/media/jai-imageio/builds/release/1.1/jai_imageio-1_1-lib-windows-i586-jre.exe)
+1. Ejecute el instalador y apúntelo al directorio donde está instalado JDK / JRE.
 
 ### Cómo instalar JAI en Linux
 
-Siga estos pasos para instalar JAI nativo y ImageIO on Linux:
+Siga estos pasos para instalar JAI y ImageIO nativos en Linux:
 
-1. Descarga **JAI 1.1.3** elegir la arquitectura apropiada:
+1. Descargar **JAI 1.1.3** elegir la arquitectura adecuada:
    1. [i586](https://download.java.net/media/jai/builds/release/1_1_3/jai-1_1_3-lib-linux-i586.tar.gz) para sistemas de 32 bits
-   1. [amd64](https://download.java.net/media/jai/builds/release/1_1_3/jai-1_1_3-lib-linux-amd64.tar.gz) para los de 64 bits (incluso si utiliza procesadores Intel)
+   1. [amd64](https://download.java.net/media/jai/builds/release/1_1_3/jai-1_1_3-lib-linux-amd64.tar.gz) para los de 64 bits (incluso si usa procesadores Intel)
 1. Extraiga el archivo en un directorio temporal.
-1. Moveos JAR archivos al JDK/JRE **lib/ext** carpeta.
-1. Mover archivos SO al JDK/JRE **lib/amd64** carpeta.<br/>
+1. Mueva JAR archivos al JDK/JRE **lib/ext** carpeta.
+1. Mueva SO archivos al JDK/JRE **lib/amd64** carpeta.<br>
 
-   Por ejemplo, en un 64-bit Ubuntu sistema, pasos 1-4 se verá así:<br/>
+   Por ejemplo, en un sistema Ubuntu de 64 bits, los pasos 1 a 4 se verán así:<br>
    {{< highlight csharp >}}
    $ cd /tmp
    $ wget https://download.java.net/media/jai/builds/release/1_1_3/jai-1_1_3-lib-linux-amd64.tar.gz && \
@@ -90,14 +90,14 @@ Siga estos pasos para instalar JAI nativo y ImageIO on Linux:
    rm /tmp/jai-1_1_3-lib-linux-amd64.tar.gz && \
    rm -r /tmp/jai-1_1_3
    {{< /highlight >}}
-1. Descarga **JAI Image I/O 1.1**, elegir la arquitectura apropiada:
+1. Descargue **JAI Image I/O 1.1**, eligiendo la arquitectura adecuada:
    1. [i586](https://download.java.net/media/jai-imageio/builds/release/1.1/jai_imageio-1_1-lib-linux-i586.tar.gz) para los sistemas de 32 bits
-   1. [amd64](https://download.java.net/media/jai-imageio/builds/release/1.1/jai_imageio-1_1-lib-linux-amd64.tar.gz) para los 64 bits (incluso si utiliza procesadores Intel)
+   1. [amd64](https://download.java.net/media/jai-imageio/builds/release/1.1/jai_imageio-1_1-lib-linux-amd64.tar.gz) para los de 64 bits (incluso si usa procesadores Intel)
 1. Extraiga el archivo en un directorio temporal.
-1. Moveos JAR archivos al JDK/JRE **lib/ext** carpeta.
-1. Mover archivos SO al JDK/JRE **lib/amd64** carpeta.<br/>
+1. Mueva JAR archivos al JDK/JRE **lib/ext** carpeta.
+1. Mueva SO archivos al JDK/JRE **lib/amd64** carpeta.<br>
 
-   Por ejemplo, en un 64-bit Ubuntu sistema, pasos 5-8 se verá así:<br/>
+   Por ejemplo, en un sistema Ubuntu de 64 bits, los pasos 5 a 8 se verán así:<br>
    {{< highlight csharp >}}
    $ cd /tmp
    $ wget https://download.java.net/media/jai-imageio/builds/release/1.1/jai_imageio-1_1-lib-linux-amd64.tar.gz && \
@@ -108,8 +108,8 @@ Siga estos pasos para instalar JAI nativo y ImageIO on Linux:
    rm -r /tmp/jai_imageio-1_1
    {{< /highlight >}}
 
-## Carpeta para archivos temporales
+## Carpeta para Archivos Temporales
 
-Aspose.Words para Java utiliza un directorio temporal en su computadora, que se especifica a través de `java.io.tmpdir` propiedad del sistema. Aspose.Words para Java escribe archivos temporales y luego elimina estos archivos tan pronto como se complete el renderizado.
+Aspose.Words para Java usa un directorio temporal en su computadora, que se especifica a través de la propiedad del sistema `java.io.tmpdir`. Aspose.Words para Java escribe archivos temporales y luego elimina estos archivos tan pronto como se completa el procesamiento.
 
-`java.io.tmpdir` es un estándar Java propiedad del sistema que también se utiliza por políticas de almacenamiento basadas en disco. Determina dónde el JVM escribe archivos temporales.
+`java.io.tmpdir` es una propiedad estándar del sistema Java que también utilizan las directivas de almacenamiento basadas en disco. Determina dónde escribe JVM los archivos temporales.

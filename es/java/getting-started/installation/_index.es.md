@@ -1,24 +1,24 @@
----
+﻿---
 title: Instalación
-second_title: Aspose.Words para Java
+second_title: Aspose.Words por Java
 articleTitle: Instalación
 linktitle: Instalación
-description: "Instala Aspose.Words para Java desde Maven repositorio. Define el Aspose.Words para Java dependencia en su pom.xml"
+description: "Instale Aspose.Words para Java desde el repositorio Maven. Defina la dependencia Aspose.Words para Java en su pom.xml"
 type: docs
 weight: 10
 url: /es/java/installation/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Asegúrate de que tu máquina conozca a la [Requisitos del sistema](/words/es/java/system-requirements/) antes de empezar.
+Asegúrese de que su máquina cumpla con los [requisitos del sistema](/words/java/system-requirements/) antes de que empieces.
 
-Este artículo explica cómo instalar Aspose.Words para Java en tu computadora.
+Este artículo explica cómo instalar Aspose.Words para Java en su computadora.
 
-## Instala Aspose.Words para Java desde Maven Repositorio {#install-aspose-words-for-java-from-maven-repository}
+## Instalar Aspose.Words para Java desde Maven Repositorio {#install-aspose-words-for-java-from-maven-repository}
 
-Aspose acoge a todos Java APIS in [Maven repositorio](https://releases.aspose.com/words/java/). Usted puede utilizar fácilmente Aspose.Words para Java API directamente en su Maven Proyectos con configuraciones sencillas:
+Aspose aloja todos Java APIs en [Maven repositorio](https://releases.aspose.com/words/java/). Puede usar fácilmente Aspose.Words para Java API directamente en sus Maven Proyectos con configuraciones simples:
 
-1. Primero, necesita especificar la hipótesis Maven Configuración/ubicación del repositorio en su Maven pom.xml como se muestra a continuación:
+1. Primero, debe especificar la configuración/ubicación del repositorio Aspose Maven en su Maven pom.xml como se muestra a continuación:
 	{{< highlight html >}}
 	<repositories>
 		<repository>
@@ -28,7 +28,7 @@ Aspose acoge a todos Java APIS in [Maven repositorio](https://releases.aspose.co
 		</repository>
 	</repositories>
 	{{< /highlight >}}
-2. Entonces, definir el Aspose.Words para Java API dependencia en su pom.xml como sigue:
+2. Luego, defina la dependencia Aspose.Words para Java API en su pom.xml de la siguiente manera:
 	{{< highlight html >}}
 	<dependencies>
 		<dependency>
@@ -45,8 +45,8 @@ Aspose acoge a todos Java APIS in [Maven repositorio](https://releases.aspose.co
 		</dependency>
 	</dependencies>
 	{{< /highlight >}}
-3. ¡Enhorabuena! Usted ha definido con éxito Aspose.Words para Java dependencia en su Maven proyecto.
+3. ¡Felicitaciones! Ha definido correctamente la dependencia Aspose.Words para Java en su proyecto Maven.
 
-## Vea también
+## Véase También
 
-* [Descargar Aspose.Words desde Maven](https://releases.aspose.com/words/java/)
+* [Descargar Aspose.Words de Maven](https://releases.aspose.com/words/java/)

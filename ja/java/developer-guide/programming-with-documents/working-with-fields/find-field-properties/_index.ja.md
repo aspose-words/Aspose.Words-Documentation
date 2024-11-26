@@ -1,23 +1,23 @@
----
-title: フィールドプロパティの検索方法
-second_title: Aspose.Words お問い合わせ Java
+﻿---
+title: フィールドのプロパティを見つける方法
+second_title: Aspose.WordsのためのJava
 articleTitle: フィールドプロパティの検索
 linktitle: フィールドプロパティの検索
-description: "フィールドコードやフィールド結果などのフィールドプロパティを見つける方法 Java"
+description: "フィールドコードやフィールド結果のようないくつかのフィールドプロパティをJavaで見つけるにはどうすればよいですか"
 type: docs
 weight: 25
 url: /ja/java/find-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---
 
-インサートするフィールド [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)お問い合わせ[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) 戻る [Field](https://reference.aspose.com/words/java/com.aspose.words/field/) オブジェクト。 これは、フィールドのそのような特性をすばやく見つけるための有用な方法を提供するファサードクラスです。
+[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)を使用して挿入されるフィールド。[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean)は[Field](https://reference.aspose.com/words/java/com.aspose.words/field/)オブジェクトを返します。 これは、フィールドのそのようなプロパティをすばやく見つけるための便利なメソッドを提供するファサードクラスです。
 
-次のコードの例では、フィールドコードとフィールド結果の検索方法を示します。
+次のコード例は、フィールドコードとフィールド結果を検索する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-GetFieldNames-GetFieldCode.java" >}}
 
-ドキュメント内のマージフィールドの名前だけを探しているなら、組み込みメソッドを使うことができます。 [GetFieldNames](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldNames)お問い合わせ
+メモ文書内の差し込み項目の名前のみを探している場合は、代わりに組み込みメソッド[GetFieldNames](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldNames)を使用できます。
 
-次のコードの例では、ドキュメント内のすべてのマージフィールドの名前を取得する方法を示します。
+次のコード例は、ドキュメント内のすべての差し込み項目の名前を取得する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-GetFieldNames-GetFieldNames.java" >}}

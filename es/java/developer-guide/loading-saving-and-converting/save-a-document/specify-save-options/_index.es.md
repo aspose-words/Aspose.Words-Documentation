@@ -1,18 +1,18 @@
----
-title: Especifique las opciones de ahorro en Java
-second_title: Aspose.Words para Java
-articleTitle: Especifique las opciones de ahorro
-linktitle: Especifique las opciones de ahorro
-description: "Establecer propiedades avanzadas al guardar un documento utilizando Java para proporcionar un control más preciso sobre el proceso."
+﻿---
+title: Especifique las opciones de guardado en Java
+second_title: Aspose.Words por Java
+articleTitle: Especificar Opciones de Guardado
+linktitle: Especificar Opciones de Guardado
+description: "Establezca propiedades avanzadas al guardar un documento utilizando Java para proporcionar un control más preciso sobre el proceso."
 type: docs
 weight: 20
 url: /es/java/specify-save-options/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Al guardar un documento, puede establecer algunas propiedades avanzadas. Aspose.Words le proporciona el [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) clase, que permite un control más preciso del proceso de ahorro. Hay sobrecargas de los **Save** método que acepta un **SaveOptions** objeto – debe ser un objeto de una clase derivada del **SaveOptions** clase. Cada formato de ahorro tiene una clase correspondiente que tiene opciones de ahorro para este formato de ahorro, por ejemplo, hay [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) para guardar en formato PDF, [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) para ahorrar Markdown formato, o [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) para guardar una imagen. Este artículo ofrece ejemplos de trabajo con algunas clases de opciones derivadas de **SaveOptions**.
+Al guardar un documento, puede establecer algunas propiedades avanzadas. Aspose.Words le proporciona la clase [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/), que permite un control más preciso del proceso de guardado. Hay sobrecargas del método **Save** que aceptan un objeto **SaveOptions**; debe ser un objeto de una clase derivada de la clase **SaveOptions**. Cada formato de guardado tiene una clase correspondiente que contiene opciones de guardado para este formato de guardado; por ejemplo, hay [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) para guardar en formato PDF, [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) para guardar en formato Markdown o [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) para guardar en una imagen. Este artículo proporciona ejemplos de cómo trabajar con algunas clases de opciones derivadas de **SaveOptions**.
 
-El siguiente ejemplo de código muestra cómo configurar las opciones de ahorro antes de guardar el documento en HTML:
+El siguiente ejemplo de código muestra cómo configurar las opciones de guardado antes de guardar el documento en HTML:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifySaveOption-SpecifySaveOption.java" >}}
 
@@ -25,50 +25,50 @@ Puede descargar el archivo de plantilla de este ejemplo desde [Aspose.Words GitH
 
 El artículo describe algunas propiedades que puede controlar al guardar un documento.
 
-## Encriptar un documento Con una contraseña
+## Cifrar un Documento Con una Contraseña
 
-Usar el **Password** propiedad para obtener o establecer una contraseña para un documento cifrado. Usar el **Password** propiedad de la clase correspondiente para trabajar con el formato de documento seleccionado.
+Utilice la propiedad **Password** para obtener o establecer una contraseña para un documento cifrado. Utilice la propiedad **Password** de la clase correspondiente para trabajar con el formato de documento seleccionado.
 
-Por ejemplo, al guardar un documento a DOC o DOT formato, utilizar el [Password](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/#Password) propiedad de la [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) clase.
+Por ejemplo, al guardar un documento en formato DOC o DOT, use la propiedad [Password](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/#Password) de la clase [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/).
 
-El siguiente ejemplo de código muestra cómo configurar una contraseña para cifrar un documento usando el método de cifrado RC4:
+El siguiente ejemplo de código muestra cómo establecer una contraseña para cifrar un documento utilizando el método de cifrado RC4:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithDocSaveOptions-EncryptDocumentWithPassword.java" >}}
 
-Al guardar un documento en formato ODT, utilice el [Password](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/#Password) propiedad de la [OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/) clase.
+Al guardar un documento en formato ODT, use la propiedad [Password](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/#Password) de la clase [OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/).
 
 El siguiente ejemplo de código muestra cómo cargar y guardar OpenDocument cifrado con una contraseña:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-LoadAndSaveEncryptedODT.java" >}}
 
-No todos los formatos soportan el cifrado y el uso de **Password** propiedad.
+No todos los formatos admiten el cifrado y el uso de la propiedad **Password**.
 
-## Mostrar las notificaciones de progreso de ahorro de documentos
+## Mostrar Notificaciones de Progreso de Guardado de Documentos
 
-Aspose.Words proporciona la capacidad de utilizar el [ProgressCallback](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getProgressCallback) propiedad para obtener notificaciones sobre el progreso del ahorro de documentos.
+Aspose.Words ofrece la posibilidad de utilizar la propiedad [ProgressCallback](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getProgressCallback) para recibir notificaciones sobre el progreso del guardado de documentos.
 
-Ahora está disponible al guardar a DOCX, FlatOpc, DOCM, DOTM, DOTX, HTML, MHTML, EPUB, XamlFlow, XamlFlowPack o formatos TXT.
+Ahora está disponible al guardar en DOCX, FlatOpc, DOCM, DOTM, DOTX, HTML, MHTML, EPUB, XamlFlow, XamlFlowPack, o formatos TXT.
 
-## Actualizar el tiempo de creación de documentos
+## Actualizar la Hora de Creación del Documento
 
-Aspose.Words proporciona una capacidad de utilizar el [CreatedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getCreatedTime) propiedad para obtener o establecer la fecha de creación de documentos en UTC. También puede actualizar este valor antes de ahorrar usando el [UpdateCreatedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateCreatedTimeProperty) Opción.
+Aspose.Words proporciona la capacidad de usar la propiedad [CreatedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getCreatedTime) para obtener o establecer la fecha de creación del documento en UTC. También puede actualizar este valor antes de guardarlo utilizando la opción [UpdateCreatedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateCreatedTimeProperty).
 
-El siguiente ejemplo de código muestra cómo actualizar el tiempo de creación de documentos:
+El siguiente ejemplo de código muestra cómo actualizar la hora de creación del documento:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-UpdateIfLastPrinted.java" >}}
 
-## Actualización Última propiedad guardada
+## Actualizar La Última Propiedad Guardada
 
-Aspose.Words proporciona una capacidad de utilizar el [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateLastSavedTimeProperty) propiedad para obtener o establecer un valor determinando si [LastSavedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getLastSavedTime) propiedad se actualiza antes de guardar.
+Aspose.Words proporciona la capacidad de usar la propiedad [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateLastSavedTimeProperty) para obtener o establecer un valor que determine si la propiedad [LastSavedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getLastSavedTime) se actualiza antes de guardarla.
 
 El siguiente ejemplo de código muestra cómo establecer esta propiedad y guardar el documento:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithOoXML-updateLastSavedTimeProperty.java" >}}
 
-## Guardar imagen negra y blanca con un poco de formato de píxel
+## Guarde la Imagen en Blanco y Negro con un Formato de Bit Por Píxel
 
-Para controlar las opciones de ahorro de imágenes, **ImageSaveOptions** La clase se utiliza. Por ejemplo, puede utilizar el [PixelFormat](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getPixelFormat) propiedad para establecer el formato pixel para las imágenes generadas. Tenga en cuenta que el formato pixel de la imagen de salida puede diferir del valor de conjunto debido al trabajo de GDI+.
+Para controlar las opciones de guardado de imágenes, se utiliza la clase **ImageSaveOptions**. Por ejemplo, puede usar la propiedad [PixelFormat](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getPixelFormat) para establecer el formato de píxeles de las imágenes generadas. Tenga en cuenta que el formato de píxeles de la imagen de salida puede diferir del valor establecido debido al trabajo de GDI+.
 
-El siguiente ejemplo de código muestra cómo guardar una imagen en blanco y negro con un bit por formato pixel:
+El siguiente ejemplo de código muestra cómo guardar una imagen en blanco y negro con un formato de bit por píxel:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-ImageColorFilters-SaveImageToOnebitPerPixel.java" >}}

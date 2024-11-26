@@ -1,100 +1,100 @@
----
-title: スタイルとテーマで働く
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: スタイルとテーマで働く
-linktitle: スタイルとテーマで働く
-description: "強化された Microsoft Word 機能のフォーマット、スタイルとテーマを使用して作業 Javaお問い合わせ"
+﻿---
+title: スタイルとテーマの操作
+second_title: Aspose.WordsのためのJava
+articleTitle: スタイルとテーマの操作
+linktitle: スタイルとテーマの操作
+description: "Microsoft Word書式設定機能を強化し、Javaを使用してスタイルとテーマを操作します。"
 type: docs
 weight: 110
 url: /ja/java/working-with-styles-and-themes/
 timestamp: 2024-01-27-14-07-04
 ---
 
-ザ・オブ・ザ・ [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) クラスは組み込みの管理とユーザー定義の設定をスタイルに適用するために使われます。
+[StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/)クラスは、組み込みを管理し、ユーザー定義の設定をスタイルに適用するために使用されます。
 
 ## スタイルに基づいてコンテンツを抽出する方法
 
-シンプルなレベルでは、Word文書からスタイルに基づいてコンテンツを取得することは、特定のスタイルでフォーマットされたテキストの段落を特定、リスト、カウントするのに便利です。 たとえば、例、タイトル、参照、キーワード、図名、ケーススタディなど、ドキュメント内の特定の種類のコンテンツを識別する必要があるかもしれません。
+単純なレベルでは、Word文書からスタイルに基づいてコンテンツを取得することは、特定のスタイルでフォーマットされた段落やテキストの実行を識別、リスト、カウントするのに役立ちます。 たとえば、例、タイトル、参照、キーワード、図の名前、ケーススタディなど、ドキュメント内の特定の種類のコンテンツを特定する必要がある場合があります。
 
-この手順をさらに進めるには、使用するスタイルで定義されたドキュメントの構造を活用し、HTMLなどの別の出力のドキュメントを再特定することもできます。 これは、Aspose のドキュメントが構築されているという事実です。 Aspose.Words テストに。 使用するツール Aspose.Words ソースのWord文書を取り、特定の見出しレベルでトピックに分割します。 XMLファイルの作成 Aspose.Words 左側のナビゲーションツリーをビルドするために使用されます。 そしてそれから Aspose.Words 各トピックをHTMLに変換します。 ワード文書の特定のスタイルでフォーマットされたテキストを取得するためのソリューションは、典型的に経済的で簡単です。 Aspose.Wordsお問い合わせ
+これをさらに数ステップ実行するために、これを使用して、使用するスタイルによって定義された文書の構造を活用して、HTMLなどの別の出力のために文書を再利用することもできます。 これは実際にAsposeのドキュメントがどのように構築されているかであり、Aspose.Wordsをテストに入れます。 Aspose.Wordsを使用して構築されたツールは、ソースWord文書を取得し、特定の見出しレベルでトピックに分割します。 XMLファイルは、左側に表示されるナビゲーションツリーを構築するために使用されるAspose.Wordsを使用して生成されます。 そしてAspose.Wordsは各トピックをHTMLに変換します。 Word文書内の特定のスタイルでフォーマットされたテキストを取得するための解決策は、通常、Aspose.Wordsを使用して経済的で簡単です。
 
-簡単に説明する方法 Aspose.Words スタイルに基づいてコンテンツの取得を処理します。例を見てみましょう。 この例では、特定の段落スタイルとサンプルワード文書からの文字スタイルでフォーマットされたテキストを取得しています。
+スタイルに基づいてコンテンツを取得するAspose.Wordsがどのように簡単に処理されるかを説明するために、例を見てみましょう。 この例では、サンプルWord文書から特定の段落スタイルと文字スタイルで書式設定されたテキストを取得します。
 
-高いレベルでは、以下が含まれます。
+高レベルでは、これには次のものが含まれます:
 
-1。 ワード文書の開設 [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) クラス。
-1。 すべての段落のコレクションを取得し、すべての文書で実行します。
-1。 必要な段落だけを選択し、実行します。
+1. [Document](https://reference.aspose.com/words/java/com.aspose.words/document/)クラスを使用してWord文書を開く。
+1. ドキュメント内のすべての段落とすべての実行のコレクションを取得します。
+1. 必要な段落と実行のみを選択します。
 
-具体的には、このサンプルワード文書から「見出し1」の段落スタイルと「インテンスエンファシス」の文字スタイルでフォーマットされたテキストを取得します。
+具体的には、このサンプルWord文書から、'Heading 1'段落スタイルと'Intense Emphasis'文字スタイルで書式設定されたテキストを取得します。
 
 ![working-with-styles-aspose-words-java-1](/words/java/working-with-styles-and-themes/working-with-styles-1.png)
 
-このサンプル文書では、「見出し1」の段落スタイルでフォーマットされたテキストは「インサートタブ」、「クイックスタイル」と「テーマ」です。そして「インテンス強調」の文字スタイルでフォーマットされたテキストは、ブルー、イタリゼーション、大胆なテキスト(「ギャラリー」や「オーバーオール」など)のいくつかの例です。
+このサンプル文書では、'Heading 1'段落スタイルで書式設定されたテキストは'タブの挿入'、'クイックスタイル'、'テーマ'であり、'強烈な強調'文字スタイルで書式設定されたテキストは、'ギャラリー'や'全体的な外観'などの青、斜体、太字のテキストのいくつかのインスタンスです。
 
-スタイルベースのクエリの実装は非常に簡単です Aspose.Words 既に配置されているツールを使用するため、ドキュメントオブジェクトモデル。 このソリューションでは、2つのクラスメソッドが実装されています。
+スタイルベースのクエリの実装は、Aspose.Wordsドキュメントオブジェクトモデルでは、すでに配置されているツールを使用するだけなので、非常に簡単です。 このソリューションには、2つのクラスメソッドが実装されています:
 
-1。 **ParagraphsByStyleName** – – このメソッドは、特定のスタイル名を持つドキュメント内のそれらの段落の配列を取得します。
-1。 **RunsByStyleName** – – このメソッドは、特定のスタイル名を持つドキュメントで実行するそれらの配列を取得します。
+1. **ParagraphsByStyleName**–このメソッドは、特定のスタイル名を持つ文書内の段落の配列を取得します。
+1. **RunsByStyleName**–このメソッドは、特定のスタイル名を持つドキュメント内の実行の配列を取得します。
 
-これらのメソッドは、ノードタイプと段落内のスタイル情報の表現とノードの実行だけの違いが非常に似ています。 以下に示すコード例に示す ParagraphsByStyleName の実装で、指定されたスタイルでフォーマットされたすべての段落を見つけます。
+これらのメソッドはどちらも非常に似ていますが、唯一の違いは、ノードタイプと、段落ノードと実行ノード内のスタイル情報の表現です。 指定したスタイルで書式設定されたすべての段落を見つけるために、以下のコード例に示すParagraphsByStyleNameの実装を次に示します。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-ExtractContentBasedOnStyles-paragraphsByStyleName.java" >}}
 
-この実装では、 [Document.getChildNodes()](https://reference.aspose.com/words/java/com.aspose.words/document/#getChildNodes) のメソッド `Document` クラスは、すべての即時の子ノードのコレクションを返す。
+この実装では、`Document`クラスの[Document.getChildNodes()](https://reference.aspose.com/words/java/com.aspose.words/document/#getChildNodes)メソッドも使用され、すべての直接の子ノードのコレクションが返されます。
 
-また、段落のコレクションは、段落がそれらに項目にアクセスしたときにのみ、このコレクションにロードされるので、すぐにオーバーヘッドを作成しないことを指摘する価値もあります。 それから、あなたがする必要があるのは、標準のforeach演算子を使用してコレクションを通過し、段落に指定されたスタイルを持っている段落を追加することです withStyle 配列。 ザ・オブ・ザ・ `Paragraph` スタイル名は、 [Style.getName()](https://reference.aspose.com/words/java/com.aspose.words/style/#getName) のプロパティ [Paragraph.getParagraphFormat()](https://reference.aspose.com/words/java/com.aspose.words/style/#getParagraphFormat) オブジェクト。
+また、段落内の項目にアクセスするときにのみ段落がこのコレクションに読み込まれるため、paragraphコレクションは即時のオーバーヘッドを作成しないこ次に、標準のforeach演算子を使用してコレクションを調べ、指定されたスタイルを持つ段落をparagraphsWithStyle配列に追加するだけです。 `Paragraph`スタイル名は[Paragraph.getParagraphFormat()](https://reference.aspose.com/words/java/com.aspose.words/style/#getParagraphFormat)オブジェクトの[Style.getName()](https://reference.aspose.com/words/java/com.aspose.words/style/#getName)プロパティにあります。
 
-RunsByStyleName の実装はほぼ同じですが、明らかに使用しています `NodeType.Run` 実行ノードを取得する。 ザ・オブ・ザ・ [Font.getStyle()](https://reference.aspose.com/words/java/com.aspose.words/font/#getStyle) プロパティ [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) オブジェクトはスタイル情報にアクセスするために使われます **Run** ノード。
+RunsByStyleNameの実装はほぼ同じですが、明らかに`NodeType.Run`を使用して実行ノードを取得しています。 [Run](https://reference.aspose.com/words/java/com.aspose.words/run/)オブジェクトの[Font.getStyle()](https://reference.aspose.com/words/java/com.aspose.words/font/#getStyle)プロパティは、**Run**ノードのスタイル情報にアクセスするために使用されます。
 
-以下のコードの例では、指定されたスタイルでフォーマットされたすべての実行がわかります。
+次のコード例では、指定したスタイルで書式設定されたすべての実行を検索します。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-ExtractContentBasedOnStyles-runsByStyleName.java" >}}
 
 {{% alert color="primary" %}}
 
-クエリの両方が実装されると、ドキュメントオブジェクトを渡すと、取得したいコンテンツのスタイル名を指定します。
+両方のクエリが実装されている場合は、documentオブジェクトを渡し、取得するコンテンツのスタイル名を指定するだけです:
 
 {{% /alert %}}
 
-以下のコード例ではクエリを実行し、結果を表示します。
+次のコード例では、クエリを実行して結果を表示します。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-ExtractContentBasedOnStyles-ExtractContentBasedOnStyles.java" >}}
 
-すべてが行われると、サンプルを実行すると、次の出力が表示されます。
+すべてが完了すると、サンプルを実行すると、次の出力が表示されます:
 
 ![working-with-styles-aspose-words-java-2](/words/java/working-with-styles-and-themes/working-with-styles-2.png)
 
-あなたが見ることができるように、これは非常に単純な例で、収集された段落の番号とテキストを表示し、サンプルWord文書で実行します。
+ご覧のとおり、これは非常に簡単な例であり、収集された段落の数とテキストを示し、サンプルWord文書で実行されます。
 
-## 異なるパラグラフスタイルを置くインサートスタイルの分離器
+## 別の段落スタイルを配置するには、スタイル区切り文字を挿入します
 
-スタイルセパレータは、Ctrl + Alt + キーボードショートカットをMS Wordに入力することで、段落の最後に追加できます。 この機能は、1つの論理的な印刷された段落で使用される2つの異なる段落のスタイルを可能にします。 特定の見出しの先頭からテキストを表示したいが、コンテンツの表に見出し全体が望まない場合は、この機能を使うことができます。
+スタイルセパレータは、Ctrl+Alt+EnterキーボードショートカットをMSWordに使用して段落の最後に追加できます。 この機能を使用すると、1つの論理的に印刷された段落で使用される2つの異なる段落スタイルを使用できます。 特定の見出しの先頭からのテキストを目次に表示したいが、見出し全体を目次に表示したくない場合は、この機能を使用できます。
 
-次のコード例では、異なる段落スタイルを置くスタイルセパレータをインサートする方法を示します。
+次のコード例は、異なる段落スタイルを配置するためにスタイル区切り文字を挿入する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-ParagraphInsertStyleSeparator.java" >}}
 
-## テンプレートからのすべてのスタイルをコピーする
+## テンプレートからすべてのスタイルをコピーする
 
-1つの文書から別の文書にすべてのスタイルをコピーしたい場合があります。 使うことができます。 `Document.CopyStylesFromTemplate` 指定されたテンプレートからドキュメントにスタイルをコピーする方法。 スタイルがテンプレートからドキュメントにコピーされると、ドキュメントのスタイルが変更され、テンプレートのスタイルの説明と一致します。 テンプレートのユニークなスタイルはドキュメントにコピーされます。 文書のユニークなスタイルはそのまま残っています。
+ある文書から別の文書にすべてのスタイルをコピーする場合があります。 `Document.CopyStylesFromTemplate`メソッドを使用すると、指定したテンプレートからドキュメントにスタイルをコピーできます。 スタイルがテンプレートからドキュメントにコピーされると、ドキュメント内の同様の名前のスタイルがテンプレート内のスタイルの説明と一致するよ テンプレートの一意のスタイルがドキュメントにコピーされます。 ドキュメント内の一意のスタイルはそのまま残ります。
 
-次のコードの例では、一つの文書からスタイルを別の文書にコピーする方法を示します。
+次のコード例は、あるドキュメントから別のドキュメントにスタイルをコピーする方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithStyle-CopyStylesFromDocument.java" >}}
 
-## 操作方法 テーマのプロパティ
+## テーマのプロパティを操作する方法
 
-基本追加 API お問い合わせ Aspose.Words ドキュメントテーマのプロパティへのアクセス 今のところ、 API 以下のパブリックオブジェクトを含みます。
+ドキュメントテーマプロパティにアクセスするために、Aspose.Wordsに基本的なAPIを追加しました。 今のところ、このAPIには次のパブリックオブジェクトが含まれています:
 
-- - - テーマ
-- テーマフォント
-- テーマカラー
+- テーマ
+- ThemeFonts
+- ThemeColors
 
-テーマのプロパティを取得する方法は次のとおりです。
+テーマプロパティを取得する方法は次のとおりです:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Theme-GetThemeProperties-GetThemeProperties.java" >}}
 
-テーマのプロパティを設定する方法は次のとおりです。
+そして、ここでは、テーマのプロパティを設定する方法です:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Theme-SetThemeProperties-SetThemeProperties.java" >}}

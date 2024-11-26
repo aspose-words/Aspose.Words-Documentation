@@ -1,57 +1,57 @@
----
-title: العمل مع VBA Macros في Java
-second_title: Aspose.Words for Java
-articleTitle: العمل مع شركة VBA Macros
-linktitle: العمل مع شركة VBA Macros
-description: ":: العمل مع مشاريع في مجال استخدام الوثائق Java."
+﻿---
+title: العمل مع VBA وحدات الماكرو في Java
+second_title: Aspose.Words ل Java
+articleTitle: العمل مع VBA وحدات الماكرو
+linktitle: العمل مع VBA وحدات الماكرو
+description: "العمل مع وثيقة VBA مشاريع باستخدام Java."
 type: docs
 weight: 410
 url: /ar/java/working-with-vba-macros/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Visual Basic الطلبات المقدمة Microsoft Word هي لغة برمجة بسيطة ولكنها قوية يمكن استخدامها لتوسيع نطاق العمل. Aspose.Words API:: توفير ثلاثة صفوف للوصول إلى رمز مصدر مشروع VBA:
+Visual Basic للتطبيقات (VBA) ل Microsoft Word هي لغة برمجة بسيطة ولكنها قوية يمكن استخدامها لتوسيع الوظائف. Aspose.Words API يوفر ثلاث فئات للوصول إلى VBA شفرة مصدر المشروع:
 
-- [VBAProject](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/) توفر الفئة إمكانية الحصول على المعلومات المتعلقة بمشروع " VBA "
-- [VBAModulesCollection](https://reference.aspose.com/words/java/com.aspose.words/vbamodulecollection/) تُعيد الصفات مجموعة نمائط مشاريع VBA
-- [VbaModule](https://reference.aspose.com/words/java/com.aspose.words/vbamodule/) توفر الفئة إمكانية الوصول إلى نموذج مشروع نظام تقييم الأداء
+- توفر فئة [VBAProject](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/) الوصول إلى معلومات المشروع VBA
+- تقوم فئة [VBAModulesCollection](https://reference.aspose.com/words/java/com.aspose.words/vbamodulecollection/) بإرجاع مجموعة وحدات المشروع VBA
+- توفر فئة [VbaModule](https://reference.aspose.com/words/java/com.aspose.words/vbamodule/) الوصول إلى وحدة المشروع VBA
 
-## Create a VBA Project
+## إنشاء مشروع VBA
 
-Aspose.Words API يوفر [VbaProject](https://reference.aspose.com/words/java/com.aspose.words/document/#getVbaProject) ملكية للحصول على مشروع فيبا أو وضعه في الوثيقة.
+Aspose.Words API يوفر خاصية [VbaProject](https://reference.aspose.com/words/java/com.aspose.words/document/#getVbaProject) للحصول على أو تعيين VbaProject في المستند.
 
-The following code example demonstrates how to create a VBA project and VBA Module along with basic properties e.g. الاسم والنوع:
+يوضح مثال الكود التالي كيفية إنشاء مشروع VBA و VBA وحدة نمطية مع الخصائص الأساسية مثل الاسم والنوع:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithVbaMacros-CreateVbaProject.java" >}}
 
-## اقرأ ماكرو
+## قراءة وحدات الماكرو
 
-Aspose.Words كما أنه يوفر للمستعملين القدرة على قراءته.
+Aspose.Words كما يوفر للمستخدمين القدرة على قراءة VBA وحدات الماكرو.
 
-ويبين المثال الرمزي التالي كيفية قراءة VBA Macros من الوثيقة:
+يوضح مثال التعليمات البرمجية التالية كيفية قراءة VBA وحدات الماكرو من المستند:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithVbaMacros-ReadVbaMacros.java" >}}
 
-## Modify Macros
+## تعديل وحدات الماكرو
 
-استخدام Aspose.Words, ويمكن للمستعملين أن يعدّلوا ف.
+باستخدام Aspose.Words، يمكن للمستخدمين تعديل VBA وحدات الماكرو.
 
-The following code example shows how to modify VBA Macros using the [SourceCode](https://reference.aspose.com/words/java/com.aspose.words/vbamodule/#getSourceCode) الممتلكات:
+يوضح مثال التعليمات البرمجية التالية كيفية تعديل وحدات الماكرو VBA باستخدام الخاصية [SourceCode](https://reference.aspose.com/words/java/com.aspose.words/vbamodule/#getSourceCode):
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithVbaMacros-ModifyVbaMacros.java" >}}
 
-## Clone VBA المشروع
+## استنساخ VBA مشروع
 
-مع Aspose.Words It is also possible to clone VBA projects.
+مع Aspose.Words من الممكن أيضا استنساخ VBA المشاريع.
 
-The following code example demonstrates how to clone the VBA Project using the [Clone](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/#deepClone) الممتلكات التي تخلق نسخة من المشروع القائم:
+يوضح مثال التعليمات البرمجية التالية كيفية استنساخ المشروع VBA باستخدام الخاصية [Clone](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/#deepClone) الذي ينشئ نسخة من المشروع الحالي:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithVbaMacros-CloneVbaProject.java" >}}
 
-## Clone VBA الوحدة
+## استنساخ VBA وحدة
 
-يمكنك أيضاً إستنساخ وحدات (في بي أي) إذا لزم الأمر
+يمكنك أيضا استنساخ VBA وحدات إذا لزم الأمر.
 
-The following code example demonstrates how to clone the VBA Module using the [Clone](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/#deepClone) الممتلكات التي تخلق نسخة من المشروع القائم
+يوضح مثال التعليمات البرمجية التالية كيفية استنساخ وحدة VBA باستخدام الخاصية [Clone](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/#deepClone) الذي ينشئ نسخة من المشروع الحالي.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithVbaMacros-CloneVbaModule.java" >}}

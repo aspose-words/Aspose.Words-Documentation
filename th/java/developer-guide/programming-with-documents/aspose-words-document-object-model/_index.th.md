@@ -1,154 +1,154 @@
----
-title: Aspose.Words Document Object Model (DOM)
-second_title: Aspose.Words สําหรับ Java
-articleTitle: Aspose.Words Document Object Model (DOM)
-linktitle: Aspose.Words Document Object Model (DOM)
+﻿---
+title: Aspose.Wordsรูปแบบวัตถุเอกสาร(DOM)
+second_title: Aspose.WordsสำหรับJava
+articleTitle: Aspose.Wordsรูปแบบวัตถุเอกสาร(DOM)
+linktitle: Aspose.Wordsรูปแบบวัตถุเอกสาร(DOM)
 type: docs
-description: "Document Object Model (DOM) เป็นการแสดงในความทรงจํา ของเอกสารคํา อ่าน, จัดการ, และแก้ไขเนื้อหาและรูปแบบเอกสารคําโดยใช้ Java."
+description: "รูปแบบวัตถุเอกสาร(DOM)เป็นตัวแทนในหน่วยความจำของเอกสารคำ อ่านจัดการและแก้ไขเนื้อหาและการฟอร์แมตของเอกสารคำด้วยJava."
 weight: 10
 url: /th/java/aspose-words-document-object-model/
 timestamp: 2024-01-27-14-07-04
 ---
 
-เดอะ Aspose.Words Document Object Model (DOM) เป็นการแสดงในความทรงจํา ของเอกสารคํา เดอะ Aspose.Words DOM เปิด โอกาส ให้ คุณ อ่าน, จัด การ, และ ปรับ เนื้อหา และ ปรับ ปรุง เอกสาร คํา.
+รูปแบบวัตถุเอกสารAspose.Words(DOM)เป็นตัวแทนในหน่วยความจำของเอกสารคำ Aspose.WordsDOMช่วยให้คุณสามารถอ่านจัดการและปรับเปลี่ยนเนื้อหาและการจัดรูปแบบของเอกสารคำ.
 
-ส่วนนี้อธิบายชนชั้นหลักของ Aspose.Words DOM และความสัมพันธ์ของพวกเขา โดยการใช้ Aspose.Words DOM คลาสนี้ คุณสามารถเข้าถึงองค์ประกอบของเอกสารและรูปแบบได้
+ส่วนนี้อธิบายชั้นเรียนหลักของAspose.WordsDOMและความสัมพันธ์ของชั้นเรียน โดยใช้ชั้นเรียนAspose.WordsDOMคุณสามารถขอรับการเข้าถึงแบบโปรแกรมไปยังองค์ประกอบของเอกสา.
 
-## สร้างเอกสาร วัตถุต้นไม้ {#create-a-document-objects-tree}
+## สร้างต้นไม้วัตถุเอกสาร {#create-a-document-objects-tree}
 
-เมื่อเอกสารถูกอ่าน Aspose.Words DOM'"> แล้วต้นไม้วัตถุที่ถูกสร้างขึ้น และชนิดที่แตกต่างกันขององค์ประกอบ จากเอกสารแหล่งที่มีของตัวเอง DOM วัตถุต้นไม้ที่มีคุณสมบัติหลากหลาย
+เมื่ออ่านเอกสารใน Aspose.Words DOM จะมีการสร้างออบเจ็กต์ทรี และองค์ประกอบประเภทต่างๆ ของเอกสารต้นฉบับจะมีออบเจ็กต์ทรี DOM ของตัวเองซึ่งมีคุณสมบัติต่างกัน.
 
-### สร้างต้นไม้โหนดของเอกสาร {#build-document-nodes-tree}
+### สร้างต้นไม้โหนดเอกสาร {#build-document-nodes-tree}
 
-เมื่อ Aspose.Words มันสร้างวัตถุของชนิดต่างๆ ที่แสดงถึงองค์ประกอบต่าง ๆ ของเอกสาร ทุก ๆ ข้อ, วรรค, ตาราง, หรือ ตอน เป็น โหนด และ แม้ แต่ ตัว เอกสาร เอง ก็ เป็น โหนด. Aspose.Words กําหนดคลาสสําหรับทุกชนิดของโหนดของเอกสาร
+เมื่อAspose.Wordsอ่านเอกสารคำลงในหน่วยความจำจะสร้างวัตถุชนิดต่างๆที่แสดงถึงองค์ประกอบของเ รันของข้อความย่อหน้าตารางหรือส่วนทุกโหนดและแม้แต่เอกสารเองเป็นโหนด Aspose.Wordsกำหนดคลาสสำหรับทุกชนิดโหนดเอกสาร.
 
-เอกสารต้นไม้ใน Aspose.Words ต่อไปนี้รูปแบบการออกแบบ Composite:
+โครงสร้างเอกสารในAspose.Wordsตามรูปแบบการออกแบบคอมโพสิต:
 
-- คลาสโหนดทั้งหมดมาจาก [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) ห้องเรียน ซึ่งเป็นวิชาพื้นฐาน Aspose.Words Document Object Model.
-- โหนดที่สามารถบรรจุโหนดอื่น ๆ เช่น **Section** หรือ **Paragraph**, ได้มาจาก [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) ห้องเรียนซึ่งต่อมามาจาก **Node** ชั้นเรียน.
+- คลาสโหนดทั้งหมดในที่สุดได้มาจากคลาสของ[Node](https://reference.aspose.com/words/java/com.aspose.words/node/)ซึ่งเป็นคลาสฐานในโมเดลอ็อบเจ็กต์เอกสารAspose.Words.
+- โหนดที่สามารถประกอบด้วยโหนดอื่นเช่น**Section**หรือ**Paragraph**ได้มาจากคลาสของ[CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/)ซึ่งจะมาจากคลาสของ**Node**.
 
-แผนภูมิที่ให้ด้านล่างนี้แสดงถึงมรดกระหว่างคลาสของโหนด Aspose.Words Document Object Model (DOM) ชื่อ ของ ชน ชั้น นามธรรม อยู่ ใน ตัว เอน.
+แผนภาพที่ให้ไว้ด้านล่างแสดงการสืบทอดระหว่างคลาสโหนดของโมเดลออบเจกต์เอกสารAspose.Words(DOM) ชื่อของชั้นเรียนนามธรรมอยู่ในตัวเอียง.
 
 <img src="/words/java/aspose-words-document-object-model/aspose-words-dom.png" alt="aspose-words-dom" style="width:700px"/>
 
 {{% alert color="primary" %}}
 
-เดอะ Aspose.Words DOM นอกจากนี้ยังมีคลาสที่ไม่ใช่มาตรฐาน เช่น [Style](https://reference.aspose.com/words/java/com.aspose.words/style/) หรือ [Font](https://reference.aspose.com/words/java/com.aspose.words/font/), ซึ่งใช้สําหรับปรับแต่งรูปลักษณ์และรูปแบบภายในเอกสาร คลาสเหล่านี้ไม่ได้แสดงในแผนภาพนี้ ว่าไม่มีการสืบทอดจาก `Node` ชั้นเรียน.
+Aspose.WordsDOMนอกจากนี้ยังมีคลาสที่ไม่ใช่โหนดเช่น[Style](https://reference.aspose.com/words/java/com.aspose.words/style/)หรือ[Font](https://reference.aspose.com/words/java/com.aspose.words/font/)ซึ่งใช้ในการกำหนดลักษณะและลักษณะภายในเอกสาร ชั้นเรียนเหล่านี้จะไม่แสดงในไดอะแกรมนี้เนื่องจากไม่ได้สืบทอดมาจากคลาสของ`Node`.
 
 {{% /alert %}}
 
-ลองดูตัวอย่างกัน ภาพต่อไปนี้แสดง Microsoft Word เอกสารที่มีเนื้อหาที่แตกต่างกัน
+ลองดูตัวอย่าง รูปภาพต่อไปนี้แสดงเอกสารMicrosoft Wordที่มีเนื้อหาประเภทต่างๆ.
 
 <img src="/words/java/aspose-words-document-object-model/document-example.png" alt="document-example" style="width:700px"/>
 
-เมื่ออ่านเอกสารด้านบนลงใน Aspose.Words DOM, มี การ สร้าง ต้น ไม้ แห่ง วัตถุ ขึ้น มา ดัง ที่ แสดง ไว้ ข้าง ล่าง.
+เมื่ออ่านเอกสารข้างต้นในAspose.WordsDOMต้นไม้ของออบเจกต์จะถูกสร้างขึ้นตามที่แสดงในสคีมาข้างล่าง.
 
 <img src="/words/java/aspose-words-document-object-model/document-example-dom.png" alt="document-example-dom" style="width:700px"/>
 
-[Document](https://reference.aspose.com/words/java/com.aspose.words/document/), [Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/), [Run](https://reference.aspose.com/words/java/com.aspose.words/run/), และวงรีอื่น ๆ บนแผนภาพคือ Aspose.Words วัตถุที่แสดงถึงองค์ประกอบในเอกสารคํา
+[Document](https://reference.aspose.com/words/java/com.aspose.words/document/), [Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/), [Run](https://reference.aspose.com/words/java/com.aspose.words/run/), และวงรีอื่นๆทั้งหมดในแผนภาพเป็นAspose.Wordsวัตถุที่แสดงถึงองค์ประกอบของเอกสารคำ.
 
-### รับ `Node` ชนิด {#get-a-node-type}
+### รับ`Node`ประเภท {#get-a-node-type}
 
-ถึงแม้ว่า [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) ห้องเรียนก็เพียงพอ ที่จะแยกแยะ โหนดต่างๆออกจากกัน Aspose.Words ให้ [NodeType](https://reference.aspose.com/words/java/com.aspose.words/nodetype/) เพื่อลดทอนจํานวน API งาน เช่น การ เลือก โหนด ชนิด ใด ชนิด หนึ่ง.
+แม้ว่าคลาส [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) จะเพียงพอที่จะแยกแยะโหนดต่างๆ ออกจากกัน แต่ Aspose.Words ก็มีการแจงนับ [NodeType](https://reference.aspose.com/words/java/com.aspose.words/nodetype/) เพื่อลดความซับซ้อนของงาน API บางอย่าง เช่น การเลือกโหนดประเภทเฉพาะ.
 
-ชนิดของแต่ละโหนดสามารถใช้ได้โดยใช้ [NodeType](https://reference.aspose.com/words/java/com.aspose.words/node/#getNodeType) ทรัพย์สิน คุณสมบัตินี้จะได้ค่า **NodeType** ราคาที่เพิ่มขึ้น ตัว อย่าง เช่น ปม วรรค ที่ แสดง โดย **Paragraph** จํานวนครั้งที่เล่น **NodeType**.**Paragraph**และโหนดโต๊ะแสดงโดย **Table** จํานวนครั้งที่เล่น **NodeType**.**Table**.
+ชนิดของแต่ละโหนดสามารถรับได้โดยใช้คุณสมบัติ[NodeType](https://reference.aspose.com/words/java/com.aspose.words/node/#getNodeType) คุณสมบัตินี้ส่งคืนค่าการแจงนับ**NodeType** ตัวอย่างเช่นโหนดย่อหน้าแสดงโดย**Paragraph**คลาสส่งคืน**NodeType**.**Paragraph**และโหนดตารางที่แสดงโดย**Table**คลาสส่งคืน**NodeType**.**Table**.
 
-ตัวอย่างต่อไปนี้แสดงถึงวิธีการได้รับชนิดของโหนดโดยใช้ **NodeType** การเผาผลาญ:
+ตัวอย่างต่อไปนี้แสดงวิธีรับชนิดโหนดโดยใช้การแจงนับ**NodeType**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-GetNodeType-.java" >}}
 
-## การนําทางผังต้นไม้ของเอกสาร {#document-tree-navigation}
+## เอกสารต้นไม้นำทาง {#document-tree-navigation}
 
-Aspose.Words แสดงถึงเอกสารที่เป็นต้นไม้โหนด ซึ่งทําให้คุณสามารถนําทางระหว่างโหนดได้ ส่วนนี้อธิบายวิธีการสํารวจและนําทางต้นไม้เอกสารใน Aspose.Words.
+Aspose.Wordsแทนเอกสารเป็นโหนดทรีซึ่งช่วยให้คุณสามารถนำทางระหว่างโหนด ส่วนนี้อธิบายวิธีสำรวจและนำทางแผนผังเอกสารในAspose.Words.
 
-เมื่อคุณเปิดเอกสารตัวอย่างที่แสดงก่อนหน้านี้ในเอกสาร เอ็กซ์พลอเรอร์, ต้นโหนดปรากฏตรงตามที่มันแสดงใน Aspose.Words.
+กสารแผนผังโหนดจะปรากฏตรงตามที่แสดงในAspose.Words.
 
 <img src="/words/java/aspose-words-document-object-model/document-in-document-explorer.png" alt="document-in-document-explorer" style="width:680px"/>
 
 {{% alert color="primary" %}}
 
-คุณสามารถเรียนรู้โครงการตัวอย่าง "Document Expression" ใน [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/DocsExamples/Java/src/main/java/DocsExamples/Document_explorer).
+คุณสามารถเรียนรู้โครงการตัวอย่าง"สำรวจเอกสาร"ใน [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/DocsExamples/Java/src/main/java/DocsExamples/Document_explorer).
 
 {{% /alert %}}
 
-### ความสัมพันธ์แบบโหนดของเอกสาร {#document-nodes-relationships}
+### ความสัมพันธ์ของโหนดเอกสาร {#document-nodes-relationships}
 
-ปมบนต้นไม้มีความสัมพันธ์กัน
+โหนดในต้นไม้มีความสัมพันธ์ระหว่างพวกเขา:
 
-- โหนดที่บรรจุอีกโหนดคือ *parent.*
-- โหนดที่อยู่ในโหนดแม่คือ *child.* โหนดเด็กของผู้ปกครองคนเดียวกัน *sibling* โหนด
-- *root* โหนดมักจะเป็น [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) โหนด
+- โหนดที่มีโหนดอื่นคือ*parent.*
+- โหนดที่มีอยู่ในโหนดพาเรนต์คือโหนดลูก*child.*ของพาเรนต์เดียวกันคือโหนด*sibling*.
+- โหนด*root*คือโหนด[Document](https://reference.aspose.com/words/java/com.aspose.words/document/)เสมอ.
 
-โหนดที่สามารถบรรจุโหนดอื่น ๆ ที่ได้มาจาก [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) คลาส และโหนดทั้งหมด ก็มาจาก [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) ชั้นเรียน. สอง คลาส หลัก ๆ นี้ ให้ วิธี การ และ คุณสมบัติ ทั่ว ไป สําหรับ การ นํา ทาง และ ปรับ ปรุง โครง สร้าง ของ ต้น ไม้.
+โหนดที่ประกอบด้วยโหนดอื่นได้มาจากคลาสของ[CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/)และโหนดทั้งหมดได้มาจากคลาสของ[Node](https://reference.aspose.com/words/java/com.aspose.words/node/) สองคลาสฐานมีวิธีการทั่วไปและคุณสมบัติสำหรับการนำทางโครงสร้างต้นไม้และการปรับ.
 
-แผนภาพวัตถุ UML ต่อจากนี้แสดงโหนดหลายจุด ของเอกสารตัวอย่างและความสัมพันธ์ของพวกเขา
+ไดอะแกรมออบเจกต์UMLต่อไปนี้แสดงโหนดหลายโหนดของเอกสารตัวอย่างและความสัมพันธ์:
 
 <img src="/words/java/aspose-words-document-object-model/document-nodes-relationships.png" alt="document-nodes-relationships" style="width:370px"/>
 
-#### เอกสารคือ Nodeown
+#### เอกสารเป็นเจ้าของโหนด
 
-โหนดมักจะเป็นของเอกสารเฉพาะบางตัว แม้ว่ามันจะถูกสร้างหรือถูกถอดออกจากต้นไม้ก็ตาม เพราะโครงสร้างหลัก ๆ ของเอกสารทั่วไป เช่น รูปแบบและรายการ ถูกเก็บอยู่ใน **Document** โหนด ยกตัวอย่างเช่น มันเป็นไปไม่ได้ที่จะมี **Paragraph** ไม่มี **Document** เพราะแต่ละย่อหน้ามีรูปแบบที่กําหนดให้ใช้ทั่วโลกสําหรับเอกสาร กฎนี้ถูกใช้เมื่อสร้างโหนดใหม่ เพิ่มรายการใหม่ **Paragraph** ตรงไป DOM ต้องการเอกสารที่ออบเจ็กต์ไปยังตัวสร้าง
+กโครงสร้างทั้งเอกสารสำคัญเช่นลักษณะและรายการจะถูกเก็บไว้ในโหนด**Document** ตัวอย่างเช่นเป็นไปไม่ได้ที่จะมี**Paragraph**โดยไม่มี**Document**เนื่องจากแต่ละย่อหน้ามีสไตล์ที่กำหนดซึ่งถูกกำหน กฏนี้ใช้เมื่อสร้างโหนดใหม่ การเพิ่ม**Paragraph**ใหม่โดยตรงไปยังDOMต้องใช้วัตถุเอกสารที่ส่งผ่านไปยังคอนสตรัคเตอร์.
 
 {{% alert color="primary" %}}
 
-เดอะ [Node.Document](https://reference.aspose.com/words/java/com.aspose.words/node/#getDocument) คุณสมบัติที่จะคืนค่าเป็นเอกสารที่เป็นโหนด
+คุณสมบัติ[Node.Document](https://reference.aspose.com/words/java/com.aspose.words/node/#getDocument)จะส่งคืนเอกสารที่โหนดเป็นของ.
 
 {{% /alert %}}
 
-เมื่อสร้างย่อหน้าใหม่โดยใช้ [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/), ผู้สร้างมักจะมี **Document** คลาสที่เชื่อมโยงกับมันผ่าน [DocumentBuilder.Document](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#Document) ทรัพย์สิน
+เมื่อสร้างย่อหน้าใหม่โดยใช้[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)ตัวสร้างจะมีคลาสของ**Document**ที่เชื่อมโยงกับมันผ่านคุณสมบัติ[DocumentBuilder.Document](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#Document)เสมอ.
 
-ตัวอย่างรหัสต่อไปนี้แสดงให้เห็นว่า เมื่อสร้างโหนดใด ๆ เอกสารที่จะเป็นเจ้าของโหนด จะนิยามเสมอ:
+ตัวอย่างรหัสต่อไปนี้แสดงให้เห็นว่าเมื่อมีการสร้างโหนดใดๆเอกสารที่จะเป็นเจ้าของโห:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-OwnerDocument-.java" >}}
 
-#### โหนดของผู้ปกครอง
+#### โหนดแม่
 
-แต่ละโหนดมีตัวแม่กําหนดโดย [ParentNode](https://reference.aspose.com/words/java/com.aspose.words/node/#getParentNode) ทรัพย์สิน โหนดไม่มีโหนดพ่อแม่ นั่นคือ **ParentNode** มันว่าง, ในกรณีต่อไปนี้:
+แต่ละโหนดมีพาเรนต์ที่ระบุโดยคุณสมบัติ[ParentNode](https://reference.aspose.com/words/java/com.aspose.words/node/#getParentNode) โหนดไม่มีโหนดพาเรนต์นั่นคือ**ParentNode**เป็นโมฆะในกรณีต่อไปนี้:
 
-- มี การ สร้าง โหนด นี้ ขึ้น มา และ ยัง ไม่ ได้ เพิ่ม เข้า กับ ต้น ไม้.
-- โหนดถูกถอดออกจากต้นไม้แล้ว
-- นี่คือราก **Document** โหนดที่มีโหนดศูนย์ตลอดเวลา
+- โหนดเพิ่งถูกสร้างขึ้นและยังไม่ได้ถูกเพิ่มไปยังแผนผัง.
+- โหนดถูกเอาออกจากต้นไม้.
+- นี่คือโหนดราก**Document**ซึ่งมักจะมีโหนดพาเรนต์โมฆะ.
 
-คุณสามารถลบโหนดจากผู้ปกครองได้ โดยการเรียก [Remove](https://reference.aspose.com/words/java/com.aspose.words/node/#remove) วิธี ตัวอย่างรหัสต่อไปนี้ แสดงวิธีเข้าถึงโหนดแม่:
+คุณสามารถลบโหนดออกจากพาเรนต์ได้โดยเรียกวิธีการ[Remove](https://reference.aspose.com/words/java/com.aspose.words/node/#remove)ตัวอย่างรหัสต่อไปนี้แสดงวิธีการเข้าถึงโหนดพาเรนต์:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-AccessParentNode-.java" >}}
 
-#### โหนดลูก
+#### โหนดเด็ก
 
-วิธีที่มีประสิทธิภาพมากที่สุดในการเข้าถึงโหนดเด็กของ [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) ผ่าน [FirstChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#FirstChild) ถึง [LastChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#LastChild) คุณสมบัติที่จะคืนโหนดลูกชิ้นแรกและชิ้นสุดท้าย ตามขั้นตอน ถ้าไม่มีโหนดเด็ก การกลับมาของคุณสมบัติเหล่านี้ *null*.
+วิธีที่มีประสิทธิภาพมากที่สุดในการเข้าถึงโหนดลูกของ[CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/)คือผ่านคุณสมบัติ[FirstChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#FirstChild)และ[LastChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#LastChild)ที่ส่งคืนโหนดลูก หากไม่มีโหนดย่อยคุณสมบัติเหล่านี้จะกลับ*null*.
 
-**CompositeNode** ยังให้ [ChildNodes](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChildNodes) คลังภาพ เปิดใช้งานสิทธิ์ในการเข้าใช้โหนดของเด็กหรือดัชนี เดอะ **ChildNodes** คุณสมบัติเป็นคลังของโหนดสด ซึ่งหมายความว่า เมื่อไรก็ตามที่มีการเปลี่ยนแปลงเอกสาร เช่น เมื่อถอดโหนดหรือเพิ่ม **ChildNodes** คลังภาพถูกปรับปรุงให้อัตโนมัติ
+**CompositeNode**
 
-ถ้าโหนดไม่มีลูก **ChildNodes** คุณสมบัติที่จะคืนค่าเป็นคลังภาพที่ว่างอยู่ คุณสามารถตรวจสอบว่า **CompositeNode** มีโหนดเด็กใช้ [HasChildNodes](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#hasChildNodes) ทรัพย์สิน
+ถ้าโหนดไม่มีลูกน้อยคุณสมบัติ**ChildNodes**จะส่งคืนคอลเล็กชันที่ว่างเปล่า คุณสามารถตรวจสอบว่า**CompositeNode**มีโหนดย่อยใดๆโดยใช้คุณสมบัติ[HasChildNodes](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#hasChildNodes).
 
-ตัว อย่าง รหัส ต่อ ไป นี้ แสดง ให้ เห็น วิธี ที่ จะ ระบุ ปม ของ เด็ก ใน ทันที `CompositeNode` ใช้เครื่องขยายเสียงที่จัดให้ `ChildNodes` คลังภาพ:
+ตัวอย่างโค้ดต่อไปนี้แสดงวิธีการระบุโหนดย่อยทันทีของ `CompositeNode` โดยใช้ตัวระบุที่ให้มาโดยคอลเลกชัน `ChildNodes`:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-ChildNodes-enumerateChildrenOfACompositeNodeUsingEnumeratorProvidedByChildNodesCollection.java" >}}
 
-ตัว อย่าง รหัส ต่อ ไป นี้ แสดง ให้ เห็น วิธี ที่ จะ ระบุ ปม ของ เด็ก ใน ทันที `CompositeNode` โดยใช้สิทธิ์ในการทําดัชนี:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการระบุโหนดย่อยในทันทีของ`CompositeNode`โดยใช้การเข้าถึงการทำดัชนี:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-ChildNodes-enumerateChildrenOfACompositeNodeUsingIndexedAccess.java" >}}
 
-#### ตําแหน่ง
+#### โหนดพี่น้อง
 
-คุณสามารถหาโหนดที่ล่วงหน้าหรือตามหลังโหนดเฉพาะโดยใช้ [PreviousSibling](https://reference.aspose.com/words/java/com.aspose.words/node/#getPreviousSibling) ถึง [NextSibling](https://reference.aspose.com/words/java/com.aspose.words/node/#getNextSibling) ทรัพย์สิน ตามลําดับ ถ้าโหนดเป็นลูกคนสุดท้ายของผู้ปกครอง **NextSibling** ทรัพย์สินคือ *null*. ในทางกลับกัน ถ้าโหนดเป็นลูกคนแรกของผู้ปกครอง **PreviousSibling** ทรัพย์สินคือ *null*.
+คุณสามารถขอรับโหนดที่นำหน้าหรือติดตามโหนดเฉพาะโดยใช้คุณสมบัติ[PreviousSibling](https://reference.aspose.com/words/java/com.aspose.words/node/#getPreviousSibling)และ[NextSibling](https://reference.aspose.com/words/java/com.aspose.words/node/#getNextSibling)ตามลำดับ ถ้าโหนดเป็นลูกคนสุดท้ายของพาเรนต์คุณสมบัติ**NextSibling**คือ*null* ในทางกลับกันถ้าโหนดเป็นลูกคนแรกของแม่คุณสมบัติ**PreviousSibling**คือ*null*.
 
-ตัว อย่าง รหัส ต่อ ไป นี้ แสดง ให้ เห็น วิธี ที่ จะ ไป เยี่ยม ข้อมูล เกี่ยว กับ เด็ก โดย ตรง และ ทาง อ้อม ทั้ง หมด:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการเยี่ยมชมโหนดลูกโดยตรงและโดยอ้อมทั้งหมดของโหนดค:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-SiblingNodes-.java" >}}
 
-### พิมพ์ การ เข้า หา ลูก และ พ่อ แม่
+### การเข้าถึงที่พิมพ์ไปยังโหนดเด็กและแม่
 
-จนถึงตอนนี้ เราได้พูดถึงคุณสมบัติที่นํากลับมาใช้เป็นพื้นฐาน **Node** หรือ **CompositeNode**. แต่บางครั้งมันก็มีสถานการณ์ ที่คุณอาจจําเป็นต้องแสดงคุณค่า ให้แก่คลาสที่เฉพาะ เช่น **Run** หรือ **Paragraph**. นั่นคือคุณไม่สามารถได้รับอย่างสมบูรณ์จากการหล่อเมื่อทํางานกับ Aspose.Words DOM, ซึ่งมีองค์ประกอบอยู่
+จนถึงขณะนี้เราได้กล่าวถึงคุณสมบัติที่ส่งคืนหนึ่งในชนิดฐาน-**Node**หรือ**CompositeNode** แต่บางครั้งมีสถานการณ์ที่คุณอาจต้องโยนค่าไปยังคลาสโหนดที่เฉพาะเจาะจงเช่น**Run**หรือ**Paragraph** นั่นคือคุณไม่สามารถหนีจากการหล่อเมื่อทำงานกับAspose.WordsDOMซึ่งเป็นคอมโพสิต.
 
-เพื่อลดความต้องการที่จะหล่อมากที่สุด Aspose.Words คลาสต่าง ๆ ให้คุณสมบัติและชุดสะสมซึ่งจะให้การเข้าถึงได้อย่างกว้างขวาง มีรูปแบบพื้นฐาน 3 แบบ ของการเข้าถึงชนิด:
+เพื่อลดความจำเป็นในการแคสต์คลาสAspose.Wordsส่วนใหญ่มีคุณสมบัติและคอลเล็กชันที่ให้การเข้าถึงที่ มีสามรูปแบบพื้นฐานของการเข้าถึงที่พิมพ์เป็น:
 
-- โหนดของผู้ปกครองถูกพิมพ์ **FirstXXX** ถึง **LastXXX** คุณสมบัติ ยกตัวอย่างเช่น **Document** มี [FirstSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getFirstSection) ถึง [LastSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getLastSection) คุณสมบัติ เช่นเดียวกัน **Table** มีคุณสมบัติเช่น [FirstRow](https://reference.aspose.com/words/java/com.aspose.words/table/#getFirstRow), [LastRow](https://reference.aspose.com/words/java/com.aspose.words/table/#getLastRow), และคนอื่นๆ
-- โหนดของผู้ปกครองจะเปิดเผย ชนิดของโหนดเด็ก เช่น [Document.Sections](https://reference.aspose.com/words/java/com.aspose.words/document/#getSections), [Body.Paragraphs](https://reference.aspose.com/words/java/com.aspose.words/story/#getParagraphs), และคนอื่นๆ
-- โหนดเด็กทําให้เข้าถึงตัวพ่อแม่ได้ เช่น [Run.ParentParagraph](https://reference.aspose.com/words/java/com.aspose.words/inline/#getParentParagraph), [Paragraph.ParentSection](https://reference.aspose.com/words/java/com.aspose.words/paragraph/#getParentSection), และคนอื่นๆ
+- โหนดพาเรนต์แสดงคุณสมบัติที่พิมพ์**FirstXXX**และ**LastXXX** ตัวอย่างเช่น**Document**มี[FirstSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getFirstSection)และ[LastSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getLastSection)คุณสมบัติ ในทำนองเดียวกัน**Table**มีคุณสมบัติเช่น[FirstRow](https://reference.aspose.com/words/java/com.aspose.words/table/#getFirstRow),[LastRow](https://reference.aspose.com/words/java/com.aspose.words/table/#getLastRow)และอื่นๆ.
+- โหนดพาเรนต์แสดงคอลเล็กชันที่พิมพ์ของโหนดย่อยเช่น[Document.Sections](https://reference.aspose.com/words/java/com.aspose.words/document/#getSections),[Body.Paragraphs](https://reference.aspose.com/words/java/com.aspose.words/story/#getParagraphs)และโหนดอื่นๆ.
+- โหนดย่อยให้สิทธิ์การเข้าถึงที่พิมพ์ไปยังพาเรนต์เช่น[Run.ParentParagraph](https://reference.aspose.com/words/java/com.aspose.words/inline/#getParentParagraph),[Paragraph.ParentSection](https://reference.aspose.com/words/java/com.aspose.words/paragraph/#getParentSection)และอื่นๆ.
 
-คุณสมบัติแบบพิมพ์เป็นเพียงทางลัดที่มีประโยชน์ ซึ่งบางครั้งให้การเข้าถึงง่ายกว่าคุณสมบัติทั่วไปที่ได้รับเป็นมรดกจาก [Node.ParentNode](https://reference.aspose.com/words/java/com.aspose.words/node/#getParentNode) ถึง [CompositeNode.FirstChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getFirstChild).
+มบัติทั่วไปที่สืบทอดมาจาก[Node.ParentNode](https://reference.aspose.com/words/java/com.aspose.words/node/#getParentNode)และ[CompositeNode.FirstChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getFirstChild).
 
-ตัวอย่างรหัสต่อไปนี้ แสดงให้เห็นว่าจะใช้คุณสมบัติที่พิมพ์ออกไปอย่างไร เพื่อเข้าถึงโหนดของต้นไม้เอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการใช้คุณสมบัติที่พิมพ์เพื่อเข้าถึงโหนดของแผนผังเอกสาร:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-TypedAccessToChildrenAndParent-.java" >}}

@@ -1,8 +1,8 @@
 ---
-title: Belge Öğeleri Eklemek için `DocumentBuilder` kullanın
+title: Belge Öğeleri Eklemek için DocumentBuilder kullanın
 second_title: Aspose.Words için C++
-articleTitle: Belge Öğeleri Eklemek için `DocumentBuilder` kullanın
-linktitle: Belge Öğeleri Eklemek için `DocumentBuilder` kullanın
+articleTitle: Belge Öğeleri Eklemek için DocumentBuilder kullanın
+linktitle: Belge Öğeleri Eklemek için DocumentBuilder kullanın
 type: docs
 description: "Belge oluşturucuyu kullanarak belge öğelerini C++ içine ekleyin."
 weight: 80

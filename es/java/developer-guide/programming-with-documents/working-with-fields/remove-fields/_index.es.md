@@ -1,18 +1,18 @@
----
+﻿---
 title: Eliminar campos en Java
-second_title: Aspose.Words para Java
-articleTitle: Quitar campos
-linktitle: Quitar campos
-description: "Aprender a eliminar campos en Java. Quitar los campos programáticamente utilizando Java API."
+second_title: Aspose.Words por Java
+articleTitle: Eliminar Campos
+linktitle: Eliminar Campos
+description: "Aprenda a eliminar campos en Java. Elimine campos mediante programación con Java API."
 type: docs
 weight: 35
 url: /es/java/remove-fields/
 timestamp: 2024-01-27-14-07-04
 ---
 
-A veces es necesario eliminar un campo del documento. Esto puede ocurrir cuando debe ser reemplazado por un tipo de campo diferente o cuando el campo ya no es necesario en el documento. Por ejemplo a `TOC` campo cuando se guarda en HTML.
+A veces es necesario eliminar un campo del documento. Esto puede ocurrir cuando se va a reemplazar con un tipo de campo diferente o cuando el campo ya no es necesario en el documento. Por ejemplo, un campo `TOC` al guardar en HTML.
 
-Para eliminar un campo insertado en un documento [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean), use the returned [Field](https://reference.aspose.com/words/java/com.aspose.words/field/) objeto, que proporciona un conveniente [Remove](https://reference.aspose.com/words/java/com.aspose.words/field/#remove) método para eliminar fácilmente el campo del documento.
+Para eliminar un campo insertado en un documento usando [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean), use el objeto [Field](https://reference.aspose.com/words/java/com.aspose.words/field/) devuelto, que proporciona un método [Remove](https://reference.aspose.com/words/java/com.aspose.words/field/#remove) conveniente para eliminar fácilmente el campo del documento.
 
 El siguiente ejemplo de código muestra cómo eliminar un campo del documento:
 

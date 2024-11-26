@@ -1,125 +1,125 @@
----
-title: ドキュメントのインサートと添付 Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: 文書のインサートと添付
-linktitle: 文書のインサートと添付
-description: "ドキュメントを 1 つにまとめる: フィールド、ブックマークをマージしたり、ドキュメントの最後に単に置換したり、新しいものや既存のものにドキュメントを追加したり、 Javaお問い合わせ"
+﻿---
+title: Javaに文書を挿入および追加する
+second_title: Aspose.WordsのためのJava
+articleTitle: 文書の挿入と追加
+linktitle: 文書の挿入と追加
+description: "ドキュメントを1つに結合する:検索と置換、差し込み項目、ブックマークを使用して、または単にJavaのドキュメントの末尾に、新規または既存のドキュメントにドキュメントを挿入または追加します。"
 type: docs
 weight: 80
 url: /ja/java/insert-and-append-documents/
 timestamp: 2024-01-27-14-07-04
 ---
 
-複数の文書を1つにまとめる必要があります。 手動でこれを行うことができます。 Aspose.Words インサートまたは追加機能。
+複数のドキュメントを1つに結合する必要がある場合があります。 これは手動で行うことも、Aspose.Words挿入または追加機能を使用することもできます。
 
-インサート操作により、以前に作成した文書の内容を新規または既存のものに差し込むことができます。
+挿入操作を使用すると、以前に作成されたドキュメントの内容を新規または既存のドキュメントに挿入できます。
 
-順番に、追加機能を使用すると、別のドキュメントの最後にのみドキュメントを追加できます。
+次に、追加機能を使用すると、別の文書の最後にのみ文書を追加できます。
 
-この記事では、文書を別の方法で別のものに差し込むか、追加するか、または文書を承認するときに適用することができる一般的なプロパティについて説明します。
+この記事では、さまざまな方法でドキュメントを別のドキュメントに挿入または追加する方法と、ドキュメントの挿入または追加時に適用できる共通のプロパティについて説明します。
 
-## ドキュメントの入力
+## 文書を挿入する
 
-上記のように、 Aspose.Words ドキュメントはノードのツリーとして表され、一つのドキュメントを別のドキュメントに差し込む操作は、最初のドキュメントツリーから2番目のドキュメントへノードをコピーします。
+上述したように、Aspose.Wordsでは、文書はノードのツリーとして表され、ある文書を別の文書に挿入する操作は、第一の文書ツリーから第二の文書ツリーにノードをコピーす
 
-さまざまな場所で文書を差し込むことができます。 たとえば、置換操作、マージ操作中のマージフィールド、またはブックマークを介してドキュメントを入力できます。
+ドキュメントは、さまざまな場所にさまざまな方法で挿入できます。 たとえば、置換操作、マージ操作中の差し込み項目、またはブックマークを使用してドキュメントを挿入できます。
 
-また、 [InsertDocument](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocument-com.aspose.words.Document-int) または [InsertDocumentInline](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocumentInline-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions) ドキュメントの読み込みに似ているメソッド Microsoft Word, 以前のインポートなしで現在のカーソル位置で文書全体をインサートします。
+また、[InsertDocument](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocument-com.aspose.words.Document-int)または[InsertDocumentInline](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocumentInline-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions)メソッドを使用して、Microsoft Wordに文書を挿入するのと同様に、以前のインポートなしで現在のカーソル位置に文書全体を挿入することもできます。
 
-次のコードの例では、ドキュメントをドキュメントを使ってインサートする方法を示します。 **InsertDocument** メソッド:
+次のコード例は、**InsertDocument**メソッドを使用してドキュメントを挿入する方法を示しています:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-with-builder.java" >}}
 
-次のコードの例では、ドキュメントをドキュメントを使ってインサートする方法を示します。 **InsertDocumentInline** メソッド:
+次のコード例は、**InsertDocumentInline**メソッドを使用してドキュメントを挿入する方法を示しています:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-inline-with-builder.java" >}}
 
-次のサブセクションでは、ドキュメントを別のドキュメントに差し込むことができます。
+次のサブセクションでは、あるドキュメントを別のドキュメントに挿入するためのオプションについて説明します。
 
-### 業務の検索と置換中にドキュメントをインサートする {#insert-a-document-during-find-and-replace-operation}
+### 検索および置換操作 {#insert-a-document-during-find-and-replace-operation}中に文書を挿入する
 
-業務を探し出し、交換しながら文書を差し込むことができます。 たとえば、文書はテキスト[INTRODUCTION]と[CONCLUSION]で段落を含むことができます。 しかし、最終的な文書では、これらの段落を別の外部文書から得られるコンテンツに置き換える必要があります。 そのためには、置換イベントのハンドラを作成する必要があります。
+検索および置換操作の実行中にドキュメントを挿入できます。 たとえば、文書には[INTRODUCTION]と[CONCLUSION]というテキストを含む段落を含めることができます。 しかし、最終的な文書では、それらの段落を別の外部文書から取得した内容に置き換える必要があります。 これを実現するには、replaceイベントのハンドラーを作成する必要があります。
 
-次のコードの例では、置換イベントのハンドラを作成して、インサートプロセスで後で使用する方法を示します。
+次のコード例は、replacingイベントのハンドラーを作成して、挿入プロセスの後半で使用する方法を示しています:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-replace-handler.java" >}}
 
-次のコードの例では、あるドキュメントの内容を別のドキュメントに表示し、操作を置き換えます。
+次のコード例は、検索および置換操作中にあるドキュメントのコンテンツを別のドキュメントに挿入する方法を示しています:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-replace.java" >}}
 
-### ドキュメントの入力 Mail Merge オペレーション {#insert-a-document-during-mail-merge-operation}
+### Mail Merge操作 {#insert-a-document-during-mail-merge-operation}中に文書を挿入する
 
-ドキュメントをマージフィールドに差し込むことができます。 Mail Merge 操作。 例えば、 Mail Merge [Summary] のような merge フィールドを含むことができます。 しかし、最終文書では、別の外部文書から得られるコンテンツをこのマージフィールドに差し込む必要があります。 そのためには、マージイベントのハンドラを作成する必要があります。
+Mail Merge操作中に差し込み項目に文書を挿入できます。 たとえば、Mail Mergeテンプレートには[Summary]などの差し込み項目を含めることができます。 ただし、最終文書では、別の外部文書から取得したコンテンツをこの差し込み項目に挿入する必要があります。 これを実現するには、mergeイベントのハンドラーを作成する必要があります。
 
-次のコードの例では、インサートプロセスで後で使用するために、マージイベントのハンドラを作成する方法を示します。
+次のコード例は、mergingイベントのハンドラーを作成して、挿入プロセスの後半で使用する方法を示しています:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-mail-merge-handler.java" >}}
 
-次のコードの例では、作成したハンドラを使用してマージフィールドにドキュメントをインサートする方法を示します。
+次のコード例は、createdハンドラーを使用して差し込み項目にドキュメントを挿入する方法を示しています:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-mail-merge.java" >}}
 
-### ブックマークでドキュメントを発行する
+### ブックマークに文書を挿入する
 
-テキストファイルをドキュメントにインポートし、ドキュメントで定義したブックマークの直後に入力できます。 これを行うには、文書を挿したいブックマークされた段落を作成します。
+テキストファイルをドキュメントにインポートして、ドキュメントで定義したブックマークの直後に挿入することができます。 これを行うには、ドキュメントを挿入するブックマークされた段落を作成します。
 
-次のコード例では、別のドキュメントのブックマークに 1 つのドキュメントの内容を渡す方法を示します。
+次のコーディング例は、ある文書の内容を別の文書のブックマークに挿入する方法を示しています:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-bookmark.java" >}}
 
 {{% alert color="primary" %}}
 
-ブックマークは、最終結果の文書に表示したい複数の段落やテキストを閉じてはいけません。
+ブックマークは、最終的な結果の文書に表示する複数の段落またはテキストを囲むべきではないことに注意してください。
 
 {{% /alert %}}
 
-## 書類を提出する
+## 文書を追加する
 
-ドキュメントから既存のドキュメントの最後に追加のページを含める必要があるユースケースがあります。 これを行うには、単に電話する必要があります [AppendDocument](https://reference.aspose.com/words/java/com.aspose.words/document/#appendDocument-com.aspose.words.Document-int) 別のものの最後にドキュメントを追加する方法。
+ドキュメントから既存のドキュメントの最後まで追加のページを含める必要があるユースケースがある場合があります。 これを行うには、[AppendDocument](https://reference.aspose.com/words/java/com.aspose.words/document/#appendDocument-com.aspose.words.Document-int)メソッドを呼び出してドキュメントを別のドキュメントの最後に追加するだけです。
 
 {{% alert color="primary" %}}
 
-注意: [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/document/#appendChild-com.aspose.words.Node) ドキュメント内のノードレベルのメソッドです。 たとえば、段落を作成したり、プロパティを書式設定したり、子供を身体に与えたりすることができます。 **AppendChild** メソッド。
+[AppendChild](https://reference.aspose.com/words/java/com.aspose.words/document/#appendChild-com.aspose.words.Node)はドキュメント内のノードレベルメソッドであることに注意してください。 たとえば、段落を作成し、書式設定プロパティを設定し、**AppendChild**メソッドを使用してそれを子として本文に追加できます。
 
 {{% /alert %}}
 
-次のコードの例では、ドキュメントを別のドキュメントの末尾に追加する方法を示します。
+次のコード例は、ドキュメントを別のドキュメントの末尾に追加する方法を示しています:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "keep-source-formatting.java" >}}
 
-## インポートとインサートノーズ手動で {#import-and-insert-nodes-manually}
+## ノードの手動でのインポートと挿入 {#import-and-insert-nodes-manually}
 
-Aspose.Words 以前のインポート要件なしで自動的に文書を差し込み、追加することができます。 しかし、セクションや段落など、ドキュメントの特定のノードをインサートまたは追加する必要がある場合は、最初にこのノードを手動でインポートする必要があります。
+Aspose.Words以前のインポート要件を使用せずに、ドキュメントを自動的に挿入および追加できます。 ただし、セクションや段落など、文書の特定のノードを挿入または追加する必要がある場合は、まずこのノードを手動でインポートする必要があります。
 
-1つのセクションまたは段落を別のセクションに差し込むか、または追加する必要がある場合は、基本的に最初のドキュメントノードツリーのノードを2番目のセクションにインポートする必要があります。 [ImportNode](https://reference.aspose.com/words/java/com.aspose.words/document/#importNode-com.aspose.words.Node-boolean) メソッド。 ノードをインポートした後、ノードを使用する必要があります。 [InsertAfter](https://reference.aspose.com/words/java/com.aspose.words/document/#insertBefore-com.aspose.words.Node-com.aspose.words.Node) リファレンスノードの後に/before ノードを新規ノードに差し込む方法。 これにより、ノードをドキュメントからインポートし、指定した位置でインサートすることで、インサートプロセスをカスタマイズできます。
+あるセクションや段落を別のセクションや段落に挿入または追加する必要がある場合は、基本的に[ImportNode](https://reference.aspose.com/words/java/com.aspose.words/document/#importNode-com.aspose.words.Node-boolean)メソッドを使用して最初のドキュメントノードツリーノードツリーのノードを2番目のノードにインポートする必要があります。 ノードをインポートした後、[InsertAfter](https://reference.aspose.com/words/java/com.aspose.words/document/#insertBefore-com.aspose.words.Node-com.aspose.words.Node)メソッドを使用して、参照ノードの前後に新しいノードを挿入する必要があります。 これにより、ドキュメントからノードをインポートし、指定された位置に挿入することで、挿入プロセスをカスタマイズできます。
 
-また、 [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/document/#appendChild-com.aspose.words.Node) セクションレベルではなく段落レベルでコンテンツを追加したい場合など、子ノードのリストの最後に、指定したノードを新規に追加する方法。
+また、セクションレベルではなく段落レベルでコンテンツを追加する場合など、[AppendChild](https://reference.aspose.com/words/java/com.aspose.words/document/#appendChild-com.aspose.words.Node)メソッドを使用して、子ノードのリストの最後に新しい指定されたノードを追加することもできます。
 
-次のコードの例では、ノードを手動でインポートし、特定のノードを特定のノードを使用してインサートする方法を示します。 **InsertAfter** メソッド:
+次のコード例は、ノードを手動でインポートし、**InsertAfter**メソッドを使用して特定のノードの後に挿入する方法を示しています:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-as-nodes.java" >}}
 
 {{% alert color="primary" %}}
 
-インポートは、元のノードのコピーであり、宛先文書へのインサートに適した新しいノードを作成します。
+インポートでは、元のノードのコピーであり、コピー先ドキュメントへの挿入に適した新しいノードが作成されます。
 
 {{% /alert %}}
 
-コンテンツはセクションによって宛先文書セクションにインポートされます。つまり、ページの設定やヘッダーやフッターなどの設定は、インポート中に保存されます。 2つの文書が一緒に結合する方法を指定するために文書をインサートまたは追加するときにフォーマット設定を定義することもできます。
+これは、ページ設定やヘッダーやフッターなどの設定がインポート中に保持されることを意味します。 また、文書を挿入または追加するときに書式設定を定義して、2つの文書を結合する方法を指定できることにも注意してください。
 
-## インサートおよび添付文書の一般的なプロパティ {#common-properties-for-insert-and-append-documents}
+## 挿入文書と追加文書の共通プロパティ {#common-properties-for-insert-and-append-documents}
 
-両方とも [InsertDocument](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocument-com.aspose.words.Document-int) そして、 [AppendDocument](https://reference.aspose.com/words/java/com.aspose.words/document/#appendDocument-com.aspose.words.Document-int) 方法 受け入れて下さい [ImportFormatMode](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/) そして、 [ImportFormatOptions](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/) 入力パラメータとして。 ザ・オブ・ザ・ **ImportFormatMode** さまざまなフォーマットモードを選択することで、複数のドキュメントから別のドキュメントにコンテンツをインポートするときに、ドキュメントのフォーマットが統合される方法を制御することができます。 [UseDestinationStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#USE-DESTINATION-STYLES), [KeepSourceFormatting](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#KEEP-SOURCE-FORMATTING), そして、 [KeepDifferentStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#KEEP-DIFFERENT-STYLES)お問い合わせ ザ・オブ・ザ・ **ImportFormatOptions** 次のような異なるインポートオプションを選択することができます [IgnoreHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getIgnoreHeaderFooter), [IgnoreTextBoxes](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getIgnoreTextBoxes), [KeepSourceNumbering](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getKeepSourceNumbering), [MergePastedLists](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getMergePastedLists), そして、 [SmartStyleBehavior](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getSmartStyleBehavior)お問い合わせ
+[InsertDocument](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocument-com.aspose.words.Document-int)と[AppendDocument](https://reference.aspose.com/words/java/com.aspose.words/document/#appendDocument-com.aspose.words.Document-int)の両方のメソッドは、入力パラメータとして[ImportFormatMode](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/)と[ImportFormatOptions](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/)を受け入れます。 **ImportFormatMode**を使用すると、[UseDestinationStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#USE-DESTINATION-STYLES)、[KeepSourceFormatting](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#KEEP-SOURCE-FORMATTING)、[KeepDifferentStyles](https://reference.aspose.com/words/java/com.aspose.words/importformatmode/#KEEP-DIFFERENT-STYLES)などの異なる書式モードを選択して、ある文書から別の文書にコンテンツをインポートするときに文書の書式をマージする方法を制 **ImportFormatOptions**を使用すると、次のようなさまざまなインポートオプションを選択できます[IgnoreHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getIgnoreHeaderFooter), [IgnoreTextBoxes](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getIgnoreTextBoxes), [KeepSourceNumbering](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getKeepSourceNumbering), [MergePastedLists](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getMergePastedLists), と[SmartStyleBehavior](https://reference.aspose.com/words/java/com.aspose.words/importformatoptions/#getSmartStyleBehavior)。
 
-Aspose.Words 2つの文書がインサートで一緒に追加されるか、操作を追加したときに結果の文書の視覚化を調整することができます [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) そして、 [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/) プロパティ。 ザ・オブ・ザ・ **PageSetup** プロパティには、次のようなセクションのすべての属性が含まれています。 [SectionStart](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getSectionStart), [RestartPageNumbering](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getRestartPageNumbering), [PageStartingNumber](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getPageStartingNumber), [Orientation](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getOrientation), その他。 最も一般的なユースケースは、 **SectionStart** 追加したコンテンツが同じページに表示されるか、新しいコンテンツに分割するかを定義するプロパティ。
+Aspose.Wordsでは、[Section](https://reference.aspose.com/words/java/com.aspose.words/section/)および[PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/)プロパティを使用して、挿入または追加操作で二つの文書が一緒に追加されたときに、結果の文書の視覚化を調整できます。Aspose.Wordsは、[Section](https://reference.aspose.com/words/java/com.aspose.words/section/)と[PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/) **PageSetup**プロパティには、次のようなセクションのすべての属性が含まれています[SectionStart](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getSectionStart), [RestartPageNumbering](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getRestartPageNumbering), [PageStartingNumber](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getPageStartingNumber), [Orientation](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getOrientation), と他の人。 最も一般的な使用例は、**SectionStart**プロパティを設定して、追加されたコンテンツが同じページに表示されるか、新しいページに分割されるかを定義することです。
 
 {{% alert color="primary" %}}
 
-注意: **Section** そして、 **PageSetup** プロパティは2つの文書を一緒に入/追加する方法を制御しません。 結果文書の外観を変更するだけを許可します。
+**Section**と**PageSetup**プロパティは、二つの文書を一緒に挿入/追加する方法を制御しないことに注意してください。 結果ドキュメントの外観のみを変更できます。
 
 {{% /alert %}}
 
-次のコードの例では、コンテンツを2つのページ間で分割しないように、別のドキュメントを1つのドキュメントに追加する方法を示します。
+次のコード例は、コンテンツが2つのページに分割されないようにしながら、あるドキュメントを別のドキュメントに追加する方法を示しています:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "different-page-setup.java" >}}

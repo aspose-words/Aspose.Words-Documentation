@@ -1,54 +1,54 @@
----
+﻿---
 title: Trabajar con listas en Java
-second_title: Aspose.Words para Java
-articleTitle: Trabajando con listas
-linktitle: Trabajando con listas
-description: "Introducción a la función de formato de numeración Aspose.Words para Java."
+second_title: Aspose.Words por Java
+articleTitle: Trabajar con Listas
+linktitle: Trabajar con Listas
+description: "Introducción a la función de formato de numeración en Aspose.Words para Java."
 type: docs
 weight: 200
 url: /es/java/working-with-lists/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Una lista en una Microsoft Word documento es un conjunto de propiedades de formato de lista. Las listas se pueden utilizar en sus documentos para formatear, organizar y enfatizar el texto. Las listas son una gran manera de organizar datos en documentos, y facilitan que los lectores comprendan puntos clave.
+Una lista en un documento Microsoft Word es un conjunto de propiedades de formato de lista. Las listas se pueden usar en sus documentos para formatear, organizar y enfatizar el texto. Las listas son una excelente manera de organizar los datos en los documentos y facilitan a los lectores la comprensión de los puntos clave.
 
-Cada lista puede tener hasta 9 niveles y propiedades de formato, como el estilo de número, el valor de inicio, la posición de entrada, y otros se definen por separado para cada nivel.
+Cada lista puede tener hasta 9 niveles y las propiedades de formato, como el estilo del número, el valor inicial, la sangría, la posición de la pestaña y otras, se definen por separado para cada nivel.
 
-Este artículo describe programáticamente trabajar con listas usando Aspose.Words.
+Este artículo describe el trabajo programático con listas usando Aspose.Words.
 
-## Creación de listas mediante el formato de lista de aplicaciones
+## Creación de Listas aplicando Formato de Lista
 
-Aspose.Words permite la fácil creación de listas aplicando formato de lista. [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) proporciona el [ListFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getListFormat) propiedad que devuelve un **ListFormat** objeto. Este objeto tiene varios métodos para iniciar y terminar una lista y aumentar/disminuir el indent. Hay dos tipos generales de listas en Microsoft Word: balada y numerada:
+Aspose.Words permite la creación sencilla de listas aplicando formato de lista. [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) proporciona la propiedad [ListFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getListFormat) que devuelve un objeto **ListFormat**. Este objeto tiene varios métodos para iniciar y finalizar una lista y para aumentar/disminuir la sangría. Hay dos tipos generales de listas en Microsoft Word: con viñetas y numeradas:
 
-- Para empezar una lista de balas, llama [ListFormat.ApplyBulletDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat/#applyBulletDefault)
-- Para empezar una lista numerada, llame [ListFormat.ApplyNumberDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat/#applyNumberDefault)
+- Para iniciar una lista con viñetas, llame a [ListFormat.ApplyBulletDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat/#applyBulletDefault)
+- Para iniciar una lista numerada, llame a [ListFormat.ApplyNumberDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat/#applyNumberDefault)
 
-La bala o el número y el formato se añaden al párrafo actual y todos los párrafos adicionales creados utilizando **DocumentBuilder** hasta [RemoveNumbers](https://reference.aspose.com/words/java/com.aspose.words/listformat/#removeNumbers) se llama para detener el formato de lista de balas.
+La viñeta o el número y el formato se agregan al párrafo actual y a todos los párrafos adicionales creados con **DocumentBuilder** hasta que se llame a [RemoveNumbers](https://reference.aspose.com/words/java/com.aspose.words/listformat/#removeNumbers) para detener el formato de la lista con viñetas.
 
-En documentos de Word, las listas pueden consistir en hasta nueve niveles. El formato de lista para cada nivel especifica qué bala o número se utiliza, indent izquierdo, espacio entre la bala y el texto, etc. Los siguientes métodos cambian el nivel de lista y aplican las propiedades de formato del nuevo nivel:
+En los documentos de Word, las listas pueden constar de hasta nueve niveles. El formato de lista para cada nivel especifica qué viñeta o número se usa, sangría izquierda, espacio entre la viñeta y el texto, etc. Los siguientes métodos cambian el nivel de la lista y aplican las propiedades de formato del nuevo nivel:
 
-- To increase the list level of the current paragraph by one level, call [ListFormat.ListIndent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listIndent)
-- Para reducir el nivel de lista del párrafo actual por un nivel, llame [ListFormat.ListOutdent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listOutdent)
+- Para aumentar el nivel de lista del párrafo actual en un nivel, llame a [ListFormat.ListIndent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listIndent)
+- Para disminuir el nivel de lista del párrafo actual en un nivel, llame a [ListFormat.ListOutdent](https://reference.aspose.com/words/java/com.aspose.words/listformat/#listOutdent)
 
-Los métodos cambian el nivel de lista y aplican las propiedades de formato del nuevo nivel.
+Los métodos cambian el nivel de la lista y aplican las propiedades de formato del nuevo nivel.
 
 {{% alert color="primary" %}}
 
-También puede utilizar el [ListLevelNumber](https://reference.aspose.com/words/java/com.aspose.words/listformat/#getListLevelNumber) propiedad para obtener o establecer el nivel de lista para el párrafo. Los niveles de lista son de 0 a 8.
+También puede usar la propiedad [ListLevelNumber](https://reference.aspose.com/words/java/com.aspose.words/listformat/#getListLevelNumber) para obtener o establecer el nivel de lista del párrafo. Los niveles de la lista están numerados del 0 al 8.
 
 {{% /alert %}}
 
-El siguiente ejemplo de código muestra cómo construir una lista multinivel:
+El siguiente ejemplo de código muestra cómo crear una lista multinivel:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetMultilevelListFormatting-DocumentBuilderSetMultilevelListFormatting.java" >}}
 
-## Especifique el formato para un nivel de lista
+## Especificar formato para un Nivel de lista
 
-Los objetos de nivel de lista se crean automáticamente cuando se crea una lista. Utilice las propiedades y métodos de los [ListLevel](https://reference.aspose.com/words/java/com.aspose.words/listlevel/) clase para controlar el formato de los niveles individuales de una lista.
+Los objetos de nivel de lista se crean automáticamente cuando se crea una lista. Utilice las propiedades y los métodos de la clase [ListLevel](https://reference.aspose.com/words/java/com.aspose.words/listlevel/) para controlar el formato de los niveles individuales de una lista.
 
-## Lista de reinicio para cada sección
+## Lista de reinicio para cada Sección
 
-Puede reiniciar una lista para cada sección usando la [IsRestartAtEachSection](https://reference.aspose.com/words/java/com.aspose.words/list/#isRestartAtEachSection) propiedad. Tenga en cuenta que esta opción sólo se admite en formatos de documentos RTF, DOC y DOCX. Esta opción se escribirá a DOCX sólo si OoxmlCompliance es mayor entonces Ecma376.
+Puede reiniciar una lista para cada sección utilizando la propiedad [IsRestartAtEachSection](https://reference.aspose.com/words/java/com.aspose.words/list/#isRestartAtEachSection). Tenga en cuenta que esta opción solo es compatible con los formatos de documento RTF, DOC y DOCX. Esta opción se escribirá en DOCX solo si OoxmlCompliance es mayor que Ecma376.
 
 El siguiente ejemplo de código muestra cómo crear una lista y reiniciarla para cada sección:
 

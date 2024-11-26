@@ -1,9 +1,9 @@
----
-title: فرمت های فایل و تبدیل
+﻿---
+title: فرمت فایل ها و تبدیل ها
 second_title: Aspose.Words برای Java
-articleTitle: فرمت های فایل و تبدیل
-linktitle: فرمت های فایل و تبدیل
-description: "تبدیل اسناد از هر بار پشتیبانی شده برای ذخیره فرمت با دو خط Java کد این باعث می شود تبدیل های با کیفیت بالا با استفاده از Java..."
+articleTitle: فرمت فایل ها و تبدیل ها
+linktitle: فرمت فایل ها و تبدیل ها
+description: "تبدیل اسناد از هر بار پشتیبانی شده برای ذخیره فرمت با تنها دو خط از کد Java. با استفاده از Java تبدیل با کیفیت بالا را فراهم می کند."
 type: docs
 weight: 40
 url: /fa/java/file-formats-and-conversions/
@@ -14,52 +14,52 @@ timestamp: 2024-01-31-14-23-37
 
 **سعی کنید آنلاین**
 
-شما می توانید عملکرد تبدیل را با استفاده از ما امتحان کنید [آنلاین رایگان آنلاین](https://products.aspose.app/words/conversion) ابزار
+شما می توانید قابلیت تبدیل را با استفاده از ما امتحان کنید [مبدل آنلاین رایگان](https://products.aspose.app/words/conversion) ابزار.
 
 {{% /alert %}}
 
-توانایی تبدیل سریع و قابل اعتماد فرمت های مختلف سند با دقت بالا است. Aspose.Wordsویژگی پرچمدار این اغلب دلیل خوبی برای انتخاب است. Aspose.Words برای Java...
+توانایی تبدیل سریع و قابل اعتماد فرمت های مختلف سند با درجه دقت بالا ویژگی پرچمدار Aspose.Words است. این اغلب یک دلیل خوب برای انتخاب Aspose.Words برای Java است.
 
-با Aspose.Words شما می توانید اسناد را از هر فرمت بار پشتیبانی شده به هر فرمت ذخیره پشتیبانی شده با استفاده از دو خط کد تبدیل کنید:
+با Aspose.Words می توانید اسناد را از هر فرمت بارگذاری پشتیبانی شده به هر فرمت ذخیره پشتیبانی شده با استفاده از فقط دو خط کد تبدیل کنید:
 
-1. یک سند را از یک فایل یا جریان بارگیری کنید
-2. ذخیره آن به هر فرمت پشتیبانی شده
+1. یک سند را از یک فایل یا جریان بارگذاری کنید
+2. آن را در هر فرمت پشتیبانی شده ذخیره کنید
 
-مثال کد زیر نشان می دهد که چگونه یک سند را تبدیل کنید:
+مثال کد زیر نشان می دهد که چگونه یک سند را تبدیل کنیم:
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "docx-to-pdf.java" >}}
 
-برای جزئیات بیشتر در بارگیری، تبدیل و صرفه جویی در اسناد، ببینید [بارگذاری، پس انداز و تبدیل](/words/fa/java/loading-saving-and-converting/) بخش
+برای جزئیات بیشتر در مورد بارگذاری، تبدیل و ذخیره اسناد، به [بارگیری، ذخیره و تبدیل](/words/java/loading-saving-and-converting/) بخش.
 
-## High Fidelity
+## وفاداری بالا
 
-یکی از اهداف اصلی Aspose.Words این است که تبدیل به تعادل بالا بین فرمت های سند. ما از کلمه "بالا-fidelity" برای توصیف تبدیل هایی استفاده می کنیم که در آن سند خروجی تمام محتوا و قالب بندی اصلی را حفظ می کند.
+یکی از اهداف اصلی Aspose.Words ارائه تبدیل با دقت بالا بین فرمت های سند است. ما از کلمه "وفاداری بالا" برای توصیف تبدیل هایی استفاده می کنیم که در آن سند خروجی تمام محتوا و قالب بندی اصلی را حفظ می کند.
 
-فرمت های پردازش کلمه مدرن پیچیده هستند و شامل صدها ویژگی هستند. گاهی اوقات، هنگامی که یک فروشنده ادعا می کند که راه حل آنها از یک فرمت سند خاص پشتیبانی می کند، به این معنی است که تنها ویژگی های اساسی فرمت پشتیبانی می شود. برای مثال، Microsoft Word اسناد دارای ویژگی های پیشرفته مانند Footnotes، جعبه های متنی، شکل های خودکار، اشیاء OLE، زمینه ها و ویژگی های فرمت پیشرفته هستند. بسیاری از این عناصر اغلب در کتابخانه های پردازش اسناد نادیده گرفته می شوند، اما نه در کتابخانه های پردازش اسناد. Aspose.Words...
+فرمت های مدرن سند پردازش متن پیچیده هستند و شامل صدها ویژگی هستند. گاهی اوقات، وقتی یک فروشنده ادعا می کند که راه حل آنها از یک فرمت سند خاص پشتیبانی می کند، به این معنی است که فقط ویژگی های اساسی فرمت پشتیبانی می شود. به عنوان مثال، اسناد Microsoft Word دارای ویژگی های پیشرفته ای مانند حاشیه ها، جعبه های متنی، اشکال خودکار، اشیاء OLE، زمینه ها و ویژگی های قالب بندی پیشرفته هستند. بسیاری از این عناصر اغلب در کتابخانه های پردازش اسناد نادیده گرفته می شوند، اما نه در Aspose.Words.
 
-### پشتیبانی بیشتر از Format Support
+### میزان بیشتری از پشتیبانی از فرمت
 
-مزیت غیر قابل انکار Aspose.Words پشتیبانی عالی برای اکثر فرمت های شناخته شده است. پیدا کردن همان سطح حمایت از بسیاری از ویژگی های مهم دیگر دشوار یا غیرممکن است.
+مزیت غیرقابل انکار Aspose.Words میزان پشتیبانی از اکثر فرمت های شناخته شده است. یافتن همان سطح پشتیبانی برای بسیاری از ویژگی های مهم در جاهای دیگر دشوار یا غیرممکن است.
 
-هنگام خرید یک راه حل برای حمایت از یک فرمت خاص، در مورد سطح که در آن ویژگی های این فرمت پشتیبانی می شود، پیدا کنید. برای تست، یک فایل پیچیده ایجاد کنید و آن را از طریق راه حل پیشنهادی اجرا کنید. شما اغلب متوجه خواهید شد که بسیاری از عناصر سند و قالب بندی از دست خواهند رفت. به عنوان مثال، برای فرمت DOC، شکل، Textboxes، زمینه ها، ستون ها، اشیاء OLE، تجدید نظر، متن راست به چپ معمولا رنج می برند.
+هنگام خرید یک راه حل پشتیبانی از یک فرمت خاص، در مورد سطح پشتیبانی از ویژگی های این فرمت مطلع شوید. برای تست، یک فایل پیچیده ایجاد کنید و آن را از طریق راه حل پیشنهادی اجرا کنید. شما اغلب متوجه خواهید شد که بسیاری از عناصر سند و قالب بندی از دست خواهد رفت. به عنوان مثال، برای فرمت DOC، اشکال، جعبه های متن، زمینه ها، ستون ها، OLE اشیاء، اصلاحات، متن راست به چپ معمولا رنج می برند.
 
-Aspose.Words Document Object Model ()DOMطراحی شده با Microsoft Word فرمت های سند در ذهن بنابراین، سطح حمایت ما از این فرمت ها، مانند DOC، DOCX، RTF یا Word ProcessingML، بی سابقه است. تبدیل در هر جهت بین این فرمت ها، کمال بالایی است.
+Aspose.Words مدل شیء سند (DOM) با توجه به فرمت های سند Microsoft Word طراحی شده است. بنابراین، سطح پشتیبانی ما از این فرمت ها، مانند DOC, DOCX, RTF, یا WordprocessingML، بی سابقه است. تبدیل در هر جهت بین این فرمت ها با وفاداری بالا است.
 
-هنگام اجرای یک سند پیچیده از طریق Aspose.Words, لذت بردن از تکمیل بی نظیر پیاده سازی فرمت.
+هنگام اجرای یک سند پیچیده از طریق Aspose.Words، از کامل بودن بی نظیر پیاده سازی فرمت لذت ببرید.
 
-### نمونه های تبدیل بین قالب های محبوب
+### نمونه های تبدیل بین فرمت های محبوب
 
-در زیر نمونه هایی از تبدیل بین برخی از فرمت های محبوب وجود دارد. شما می توانید ارزیابی کنید که چگونه دقیق Aspose.Words با کار کنار بیایید.
+در زیر نمونه هایی از تبدیل بین برخی از فرمت های محبوب است. شما می توانید ارزیابی کنید که چگونه با دقت Aspose.Words با این کار کنار می آید.
 
 ---
 
-*· DOC به RTF - تبدیل رضایت بالا: *
+*DOC to RTF – high-fidelity conversion:*
 
 <img src="/words/java/file-formats-and-conversions/high-quality-conversions-1.png" alt="doc-to-rtf-aspose-words-java-1" style="width:500px; vertical-align: top"/> <img src="/words/java/file-formats-and-conversions/high-quality-conversions-2.png" alt="doc-to-rtf-aspose-words-java-2" style="width:500px; vertical-align: top"/>
 
 ---
 
-*DOC به PDF - تبدیل رضایت بالا: *
+*DOC to PDF – high-fidelity conversion:*
 
 <img src="/words/java/file-formats-and-conversions/high-quality-conversions-1.png" alt="doc-to-pdf-aspose-words-java-1" style="width:500px; vertical-align: top"/> <img src="/words/java/file-formats-and-conversions/high-quality-conversions-3.png" alt="doc-to-pdf-aspose-words-java-2" style="width:500px; vertical-align: top"/>
 
@@ -67,45 +67,45 @@ Aspose.Words Document Object Model ()DOMطراحی شده با Microsoft Word ف
 
 ---
 
-*DOC به ODT - تبدیل با رضایت بالا: *
+*DOC to ODT – high-fidelity conversion:*
 
 <img src="/words/java/file-formats-and-conversions/high-quality-conversions-1.png" alt="doc-to-odt-aspose-words-java-1" style="width:500px; vertical-align: top"/> <img src="/words/java/file-formats-and-conversions/high-quality-conversions-4.png" alt="doc-to-odt-aspose-words-java-2" style="width:500px; vertical-align: top"/>
 
 ---
 
-*DOC XPS – تبدیل به تعادل بالا: *
+*DOC to XPS – high-fidelity conversion:*
 
 <img src="/words/java/file-formats-and-conversions/xml-paper-specification-xps-2.png" alt="doc-to-xps-aspose-words-java-1" style="width:500px; vertical-align: top"/> <img src="/words/java/file-formats-and-conversions/xml-paper-specification-xps-3.png" alt="doc-to-xps-aspose-words-java-2" style="width:500px; vertical-align: top"/>
 
 ---
 
-*· DOC به JPEG – تبدیل رضایت بالا: *
+*DOC to JPEG – high-fidelity conversion:*
 
 <img src="/words/java/file-formats-and-conversions/image-formats-tiff-png-bmp-emf-jpeg-gif-9.png" alt="doc-to-jpg-aspose-words-java-1" style="width:1000px; vertical-align: top"/>
 
 ---
 
-*RTF به TXT - تبدیل رضایت بالا: *
+*RTF to TXT – high-fidelity conversion:*
 
 <img src="/words/java/file-formats-and-conversions/plain-text-txt-2.png" alt="rtf-to-txt-aspose-words-java-1" style="width:500px; vertical-align: top"/> <img src="/words/java/file-formats-and-conversions/plain-text-txt-3.png" alt="rtf-to-txt-aspose-words-java-2" style="width:500px; vertical-align: top"/>
 
 ---
 
-اگر چه تمام مبدل ها در Aspose.Words عالی هستند، گاهی اوقات شما قادر به دریافت همان ظاهر برای اسناد در فرمت های مختلف نخواهید بود.
+اگرچه همه مبدل ها در Aspose.Words عالی هستند، اما گاهی اوقات نمی توانید همان ظاهر را برای اسناد در فرمت های مختلف بدست آورید.
 
 {{% alert color="primary" %}}
 
-توجه داشته باشید که در چنین شرایطی، Aspose.Words این تبدیل نشان داده شده "بالا-fidelity" و سند خروجی همان پس از تبدیل از طریق از طریق Microsoft Word...
+توجه داشته باشید که در چنین شرایطی، Aspose.Words دارای تبدیل با علامت "وفاداری بالا" است و سند خروجی همان پس از تبدیل از طریق Microsoft Word خواهد بود.
 
 {{% /alert %}}
 
-به عنوان مثال، هیچ بازی ساده ای بین تمام ویژگی های HTML و HTML وجود ندارد. Microsoft Word اسناد هیچ هدر / پا، بخش ها، زمینه ها و زبانه ها در HTML وجود ندارد. در مقابل، تمام ویژگی ها و قوانین CSS را نمی توان به یک نقشه برداری کرد. Microsoft Word سند
+به عنوان مثال، هیچ تطابق ساده ای بین تمام ویژگی های اسناد HTML و Microsoft Word وجود ندارد. هیچ عنوان/پای صفحه، بخش، فیلد و تب در HTML وجود ندارد. برعکس، همه ویژگی ها و قوانین CSS را نمی توان به یک سند Microsoft Word نقشه برداری کرد.
 
-در زیر یک مثال از تبدیل از DOC به HTML است.
+در زیر نمونه ای از تبدیل از DOC به HTML است.
 
 ---
 
-DOC به HTML - تبدیل با رضایت بالا:
+DOC به HTML – تبدیل با کیفیت بالا:
 
 <img src="/words/java/file-formats-and-conversions/high-quality-conversions-1.png" alt="doc-to-html-aspose-words-java-1" style="width:500px; vertical-align: top"/> <img src="/words/java/file-formats-and-conversions/high-quality-conversions-5.png" alt="doc-to-html-aspose-words-java-2" style="width:500px; vertical-align: top"/>
 
@@ -115,10 +115,10 @@ DOC به HTML - تبدیل با رضایت بالا:
 
 ## مقیاس پذیری بالا
 
-سناریوهای سرور مقیاس پذیر استفاده می کنند Aspose.Words به طور عمده به دلیل طراحی ساده و تمیز آن Aspose.Words از Multithreading پشتیبانی کنید. [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) اشیاء مستقل از یکدیگر هستند و تا زمانی که تنها یک رشته می تواند یک سند را در یک زمان تغییر دهد (یک نیاز معمولی برای هر کلاس جمع آوری)، چندین رشته می توانند هر تعداد از اسناد را در همان زمان پردازش کنند.
+سناریوهای سمت سرور مقیاس پذیر از Aspose.Words عمدتا به دلیل طراحی ساده و تمیز آن استفاده می کنند – Aspose.Words از چند رشته ای پشتیبانی می کند. [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) اشیاء مستقل از یکدیگر هستند و تا زمانی که تنها یک موضوع می تواند یک سند را در یک زمان تغییر دهد (یک نیاز معمول برای هر کلاس جمع آوری)، چندین موضوع می توانند هر تعداد سند را در همان زمان پردازش کنند.
 
 ## عملکرد بالا
 
-Aspose.Words عملکرد بالا را هنگام بارگیری و صرفه جویی در اسناد نشان می دهد. در تست، یک فایل DOC بیش از 5Mb در اندازه کمتر از 1 ثانیه بارگذاری شد و سپس در کمتر از 1 ثانیه در یک دستگاه P4 3GHz ذخیره شد. فایل های کوچکتر را می توان با سرعت هزاران دقیقه پردازش کرد.
+Aspose.Words عملکرد بالا را هنگام بارگذاری و ذخیره اسناد نشان می دهد. در تست، یک فایل DOC بیش از 5Mb در اندازه در کمتر از 1 ثانیه بارگذاری شد و سپس در کمتر از 1 ثانیه در یک دستگاه P4 3GHz ذخیره شد. فایل های کوچکتر را می توان با سرعت هزاران در دقیقه پردازش کرد.
 
-در موارد مختلف، مشتریان ما به ما گزارش داده اند که نمی توانند سرعت سرعت آن را باور کنند. Aspose.Words... آنها بر روی خط کدی که یک سند بزرگ را به دیژگر بارگذاری می کرد، قدم زدند و آنقدر فوری بود که نمی توانستند باور کنند که فایل به فایل بارگذاری شده است. **Document** جسم
+در چند مورد، مشتریان ما به ما گزارش داده اند که نمی توانند سرعت Aspose.Words را باور کنند. آنها از خط کد عبور کردند که یک سند بزرگ را به اشکال زدایی بارگذاری می کرد، و آنقدر فوری بود که آنها نمی توانستند باور کنند که فایل به شیء **Document** بارگذاری شده است.

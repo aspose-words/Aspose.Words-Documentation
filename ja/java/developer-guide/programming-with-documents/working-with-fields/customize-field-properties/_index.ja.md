@@ -1,29 +1,29 @@
----
-title: フィールドプロパティをカスタマイズ
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: フィールドプロパティをカスタマイズ
-linktitle: フィールドプロパティをカスタマイズ
-description: "フィールドプロパティをカスタマイズする方法を学ぶ Javaお問い合わせ フィールドをマージするか、セパレータノードなしでフィールドに結果を得る Javaお問い合わせ"
+﻿---
+title: フィールドプロパティのカスタマイズ
+second_title: Aspose.WordsのためのJava
+articleTitle: フィールドプロパティのカスタマイズ
+linktitle: フィールドプロパティのカスタマイズ
+description: "Javaでフィールドプロパティをカスタマイズする方法を学習します。 差し込み項目の名前を変更するか、Javaに区切りノードがない項目の結果を取得します。"
 type: docs
 weight: 27
 url: /ja/java/customize-field-properties/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words さまざまなフィールドプロパティとプログラム的に相互作用する機能を提供します。 この記事では、フィールドプロパティで作業する基本原則を理解するために、いくつかの例を見てみましょう。 各フィールドタイプのプロパティの一覧を該当するクラスで確認できます。
+Aspose.Wordsは、さまざまなフィールドプロパティとプログラムで対話する機能を提供します。 この記事では、フィールドプロパティの操作の基本原則を理解できるように、いくつかの例を見ていきます。 対応するクラスの各フィールドタイプのプロパティの完全なリストを表示できます。
 
 ## フィールドプロパティの更新
 
-場合によっては、フィールドプロパティの値を変更する必要があります。 例えば、更新 [AuthorName](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/#getAuthorName) のプロパティ `AUTHOR` フィールドまたは変更 [FieldName](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/#getFieldName) のプロパティ `MERGEFIELD` フィールド。
+ユーザーがフィールドプロパティの値を変更する必要がある場合があります。 たとえば、`AUTHOR`フィールドの[AuthorName](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/#getAuthorName)プロパティを更新したり、`MERGEFIELD`フィールドの[FieldName](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/#getFieldName)プロパティを変更したりします。
 
-以下のコードの例では、Word ドキュメントでフィールドをマージする方法を示します。
+Word文書の差し込み項目の名前を変更する方法を次のコード例に示します:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-RenameMergeFields-RenameMergeFields.java" >}}
 
 ## フィールド表示結果
 
-Aspose.Words フィールドセパレータノードを持たないフィールドのフィールドの結果を取得するプロパティを提供します。 この "fake result" を呼び出したり、結果を表示します。MS Word は、フィールドの値をフライで計算することでドキュメントに表示しますが、ドキュメントモデルにはそのような値はありません。
+Aspose.Wordsは、フィールドセパレータノードを持たないフィールドのフィールドの結果を取得するプロパティを提供します。 MSWordは、フィールドの値をオンザフライで計算することによってドキュメントに表示しますが、ドキュメントモデルにはそのような値はありません。
 
-以下のコード例では、使用方法を示します。 [DisplayResult](https://reference.aspose.com/words/java/com.aspose.words/field/#getDisplayResult) プロパティ:
+次のコード例は、[DisplayResult](https://reference.aspose.com/words/java/com.aspose.words/field/#getDisplayResult)プロパティの使用法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FieldDisplayResult-FieldDisplayResult.java" >}}

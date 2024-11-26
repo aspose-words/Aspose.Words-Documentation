@@ -1,8 +1,8 @@
 ---
-title: Используйте `DocumentBuilder` для вставки элементов документа
+title: Используйте DocumentBuilder для вставки элементов документа
 second_title: Aspose.Words для C++
-articleTitle: Используйте `DocumentBuilder` для вставки элементов документа
-linktitle: Используйте `DocumentBuilder` для вставки элементов документа
+articleTitle: Используйте DocumentBuilder для вставки элементов документа
+linktitle: Используйте DocumentBuilder для вставки элементов документа
 type: docs
 description: "Вставляйте элементы документа с помощью конструктора документов на C++."
 weight: 80

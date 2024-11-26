@@ -1,91 +1,91 @@
----
-title: Android via Java Diferencias
+﻿---
+title: Android a través de Java Diferencias
 second_title: Aspose.Words
-articleTitle: Aspose.Words para Android via Java Limitaciones y limitaciones API Diferencias
-linktitle: Aspose.Words para Android via Java Limitaciones y limitaciones API Diferencias
-description: "Aspose.Words para Android via Java características y API diferencias comparadas con Aspose.Words para Java versión."
+articleTitle: Aspose.Words para Android a través de Java Limitaciones y API Diferencias
+linktitle: Aspose.Words para Android a través de Java Limitaciones y API Diferencias
+description: "Aspose.Words para Android a través de Java características y API diferencias en comparación con la versión normal de Aspose.Words para Java."
 type: docs
 weight: 50
 url: /es/java/aspose-words-for-android-via-java-limitations-and-api-differences/
 timestamp: 2024-01-27-14-07-04
 ---
 
-## Limitaciones Aspose.Words para Android via Java API en comparación con Aspose.Words para Java API
+## Limitaciones de Aspose.Words para Android a través de Java API en comparación con Aspose.Words para Java API
 
-1. *Document.print *Metodos no están disponibles.
-1. Ahorro **TIFF** y **BMP** formatos no es compatible, aunque *SaveFormat.TIFF* y *SaveFormat.BMP* están disponibles en público Aspose.Words para Android via Java API, pero *UnsupportedOperationException* se lanza cuando estos formatos de ahorro se utilizan.
-1. Lectura **TIFF** las imágenes no son compatibles.
-1. Firma **ODT** los documentos todavía no están respaldados.
+1. Los métodos *Document.print *no están disponibles.
+1. No se admite guardar en formatos **TIFF** y **BMP**, aunque *SaveFormat.TIFF* y *SaveFormat.BMP* están disponibles en público Aspose.Words para Android a través de Java API, pero *UnsupportedOperationException* se genera cuando se usan estos formatos de guardado.
+1. No se admite la lectura de **TIFF** imágenes.
+1. La firma de documentos **ODT** aún no es compatible.
 1. Los códigos de barras no son compatibles.
-1. Los gradientes a lo largo de una curva no son compatibles
-1. La impresión no es compatible
+1. No se admiten degradados a lo largo de una curva
+1. No se admite la impresión
 
-## Público API diferencias
+## Diferencias públicas API
 
-- android.graphics. Bitmap se utiliza en lugar de java.awt.image.Buffered Imagen;
-- android.graphics. El lienzo se utiliza en lugar de java.awt.image.Graphics2D;
-- android.graphics. Rect F se utiliza en lugar de java.awt.geom.Rectangle2D. Float;
-- android.graphics.Point F se utiliza en lugar de java.awt.geom.Point2D. Float;
-- android.graphics. Rect se utiliza en lugar de java.awt. Rectángulo;
-- android.graphics. El punto se utiliza en lugar de java.awt. Punto.
+- android.gráficos.Se usa mapa de bits en lugar de java.awt.imagen.BufferedImage;
+- android.gráficos.Se usa Canvas en lugar de java.awt.imagen.Gráficos2D;
+- android.gráficos.Se usa RectF en lugar de java.awt.geom.Rectángulo2d. Flotante;
+- android.gráficos.Se usa PointF en lugar de java.awt.geom.Punto2D. Flotante;
+- android.gráficos.Se usa Rect en lugar de java.awt.Rectángulo;
+- android.gráficos.Se usa Point en lugar de java.awt.Punto.
 
-Véase la siguiente opinión pública API métodos:
+Consulte los siguientes métodos públicos API:
 
-1. documentBuilder:
-   1. insertarImage(Bitmap)
-   1. insertarImage(Bitmap, double, double)
-   1. insertarImage(Bitmap, int, double, int, double, double, double, int)
-   1. insertOleImage(Bitmap)
-   1. insertOleObject(InputStream, String, boolean, Bitmap)
-   1. insertOleObject(String, boolean, boolean, Bitmap)
-   1. insertOleObject(String, String, boolean, boolean, Bitmap)
-1. com.aspose.words.IBarcodeGenerator:
-   1. Bitmap getBarcode Imagen(Parametros de código de barras)
-   1. Bitmap getOldBarcode Imagen(Parametros de código de barras)
-1. com.aspose.words.ImageData:
-   1. setImage(Bitmap)
-   1. Bitmap toImage()
-1. com.aspose.words.ImagenFieldMergingArgs:
-   1. Bitmap getImage()
-   1. setImage(Bitmap)
-1. com.aspose.words
-   1. android.graphics.Point F renderToScale(int, Canvas, flotador, flotador) lanza Excepción
-   1. flotadorToSize(int, Canvas, flotador, flotador, flotador, flotador) tira Excepción
-1. com.aspose.words.LayoutEnumerator:
-   1. android.graphics. RectF getRectangle() lanza Excepción
-1. com.aspose.words.NodeRendererBase:
-   1. android.graphics.PointF getSizeInPoints()
-   1. android.graphics. RectF getOpaqueBoundsInPoints()
-   1. public android.graphics.PointF getSizeInPixels(float, flotador)
-   1. android.graphics. Rect getBoundsInPixels(float, flotador)
-   1. android.graphics. Rect getOpaqueBoundsInPixels(float, flotador)
-   1. android.graphics.Point F renderToScale(Canvas, flotar, flotar, flotar)
-   1. flotador de renderizadoToSize(Canvas, flotador, flotador, flotador)
-1. com.aspose.words.PageInfo:
-   1. android.graphics.PointF getSizeInPixels(float, flotador)
-   1. android.graphics.PointF getSizeInPoints()
-1. com.aspose.words. Forma Base:
-   1. android.graphics. Ajuste de RectFConEfectos(android.graphics.RectF)
-   1. android.graphics. RectF getBounds()
-   1. android.graphics. RectF getBoundsInPoints()
-   1. android.graphics. RectF getBoundsWithEffects()
-   1. android.graphics. Punto getCoordOrigin()
-   1. android.graphics.PointF getCoordSize()
-   1. android.graphics.PointF getSizeInPoints()
-   1. android.graphics.PointF localToParent(android.graphics.PointF)
-   1. setBounds(android.graphics.RectF)
-   1. setCoordOrigin(android.graphics.Point)
-   1. setCoordSize(android.graphics.PointF)
-1. com.aspose.words.ThumbnailGeneratingOptions:
-   1. android.graphics.PointF getThumbnailSize()
-   1. setThumbnailSize(android.graphics.PointF)
+1. com.aspose.palabras.DocumentBuilder:
+   1. insertImage(Mapa de bits)
+   1. insertImage(Mapa de bits, doble, doble)
+   1. insertImage (Mapa de bits, int, doble, int, doble, doble, doble, int)
+   1. insertOleImage(Mapa de bits)
+   1. insertOleObject (InputStream, Cadena, booleano, Mapa de bits)
+   1. insertOleObject (Cadena, booleano, booleano, Mapa de bits)
+   1. insertOleObject (Cadena, Cadena, booleano, booleano, Mapa de bits)
+1. com.aspose.palabras.IBarcodeGenerator:
+   1. Mapa de bits getBarcodeImage (BarcodeParameters)
+   1. Mapa de bits getOldBarcodeImage (BarcodeParameters)
+1. com.aspose.palabras.ImageData:
+   1. setImage(Mapa de bits)
+   1. Mapa de bits toImage()
+1. com.aspose.palabras.ImageFieldMergingArgs:
+   1. Mapa de bits getImage()
+   1. setImage(Mapa de bits)
+1. com.aspose.palabras.Documento:
+   1. android.gráficos.PointF renderToScale (int, Canvas, float, float, float) arroja una excepción
+   1. float renderToSize (int, Canvas, float, float, float, float) arroja una excepción
+1. com.aspose.palabras.LayoutEnumerator:
+   1. android.gráficos.RectF getRectangle () lanza una excepción
+1. com.aspose.palabras.NodeRendererBase:
+   1. android.gráficos.Punto F getSizeInPoints ()
+   1. android.gráficos.RectF getOpaqueBoundsInPoints()
+   1. android público.gráficos.PointF getSizeInPixels(flotante, flotante)
+   1. android.gráficos.Rect getBoundsInPixels(flotante, flotante)
+   1. android.gráficos.Rect getOpaqueBoundsInPixels(flotante, flotante)
+   1. android.gráficos.PointF renderToScale (Lienzo, flotar, flotar, flotar)
+   1. float renderToSize (Lienzo, flotar, flotar, flotar, flotar)
+1. com.aspose.palabras.PageInfo:
+   1. android.gráficos.PointF getSizeInPixels(flotante, flotante)
+   1. android.gráficos.Punto F getSizeInPoints ()
+1. com.aspose.palabras.ShapeBase:
+   1. android.gráficos.RectF adjustWithEffects(android.gráficos.RectF)
+   1. android.gráficos.RectF getBounds()
+   1. android.gráficos.RectF getBoundsInPoints()
+   1. android.gráficos.RectF getBoundsWithEffects()
+   1. android.gráficos.Punto getCoordOrigin()
+   1. android.gráficos.Punto F getCoordSize ()
+   1. android.gráficos.Punto F getSizeInPoints ()
+   1. android.gráficos.PointF localToParent(android.gráficos.Punto F)
+   1. setBounds (android.gráficos.RectF)
+   1. setCoordOrigin (android.gráficos.Punto)
+   1. setCoordSize (android.gráficos.Punto F)
+1. com.aspose.palabras.ThumbnailGeneratingOptions:
+   1. android.gráficos.Punto F getThumbnailSize ()
+   1. setThumbnailSize (android.gráficos.Punto F)
 
-## Aspose.Words para Android via Java necesidades adicionales
+## Aspose.Words para Android a través de Java requisitos adicionales
 
-Con el fin de utilizar las características de licencias medidos y cargar documentos o imágenes por protocolos http/ftp, los usuarios deben agregar el siguiente permiso a sus aplicaciones
-*Escritor de permiso de usos:nombre="android.permission.INTERNET" / Conf*
+Para utilizar la función de licencia medida y cargar documentos o imágenes mediante protocolos http / ftp, los usuarios deben agregar el siguiente permiso a sus aplicaciones
+`<uses-permission android:name="android.permission.INTERNET" />`
 
-## Público API Ejemplos
+## API Ejemplos públicos
 
 {{< highlight csharp >}}
 public void testPublicAPI1() throws Exception

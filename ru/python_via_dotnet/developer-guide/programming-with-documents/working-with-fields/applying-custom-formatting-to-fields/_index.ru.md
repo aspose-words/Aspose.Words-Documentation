@@ -1,23 +1,23 @@
----
-title: Применять пользовательский формат для полей
+﻿---
+title: Применение пользовательского форматирования к полям
 second_title: Aspose.Words для Python via .NET
-articleTitle: Применять пользовательский формат для полей
-linktitle: Применять пользовательский формат для полей
-description: "Формат и оценка результатов полей с использованием Python."
+articleTitle: Применение пользовательского форматирования к полям
+linktitle: Применение пользовательского форматирования к полям
+description: "Отформатируйте и оцените результат работы полей, используя Python."
 type: docs
 weight: 40
 url: /ru/python-net/applying-custom-formatting-to-fields/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Иногда пользователям приходится применять настраиваемое форматирование полей. В этой статье мы рассмотрим несколько примеров того, как это можно сделать.
+Иногда пользователям требуется применить пользовательское форматирование к полям. В этой статье мы рассмотрим несколько примеров того, как это можно сделать.
 
-Чтобы узнать больше вариантов, см. полный список свойств для каждого типа поля в соответствующем классе. [Модуль поля](https://reference.aspose.com/words/python-net/aspose.words.fields/).
+Чтобы узнать больше о параметрах, ознакомьтесь с полным списком свойств для каждого типа поля в соответствующем классе в разделе [Fields module](https://reference.aspose.com/words/python-net/aspose.words.fields/).
 
-## Как оценить `IF` состояние
+## Как оценить состояние `IF`
 
-Если вы хотите оценить `IF` состояние после mail merge, Вы можете использовать [EvaluateCondition](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldif/evaluate_condition/) метод, который немедленно возвращает результат оценки выражения.
+Если вы хотите вычислить условие `IF` после mail merge, вы можете использовать метод [EvaluateCondition](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldif/evaluate_condition/), который немедленно возвращает результат вычисления выражения.
 
-Следующий пример кода показывает, как использовать этот метод:
+В следующем примере кода показано, как использовать этот метод:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-EvaluateIFCondition.py" >}}

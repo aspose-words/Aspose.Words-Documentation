@@ -1,8 +1,8 @@
 ---
-title: Verwenden von `DocumentBuilder` zum einfachen Ändern eines Dokuments
+title: Verwenden von DocumentBuilder zum einfachen Ändern eines Dokuments
 second_title: Aspose.Words für C++
-articleTitle: Verwenden von `DocumentBuilder` zum einfachen Ändern eines Dokuments
-linktitle: Verwenden von `DocumentBuilder` zum einfachen Ändern eines Dokuments
+articleTitle: Verwenden von DocumentBuilder zum einfachen Ändern eines Dokuments
+linktitle: Verwenden von DocumentBuilder zum einfachen Ändern eines Dokuments
 type: docs
 description: "Verwenden Sie den Dokumentgenerator, um ein Dokument einfach in C++ zu ändern."
 weight: 190

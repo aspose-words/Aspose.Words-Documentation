@@ -1,36 +1,36 @@
----
-title: Formatage du tableau Java
+﻿---
+title: Formatage du tableau en Java
 second_title: Aspose.Words pour Java
-articleTitle: Appliquer le formatage de la table
-linktitle: Appliquer le formatage de la table
-description: "Formatage du tableau en détail. Utilisation Java pour formater chaque partie du tableau."
+articleTitle: Appliquer La Mise En Forme Du Tableau
+linktitle: Appliquer La Mise En Forme Du Tableau
+description: "Mise en forme des tableaux en détails. Utiliser Java pour formater chaque partie du tableau."
 type: docs
 weight: 70
 url: /fr/java/applying-formatting/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Chaque élément d'un tableau peut être appliqué avec un formatage différent. Par exemple, le formatage de table sera appliqué à l'ensemble de la table, le formatage de ligne à seulement des lignes particulières, le formatage de cellule à seulement certaines cellules.
+Chaque élément d'un tableau peut être appliqué avec une mise en forme différente. Par exemple, la mise en forme du tableau sera appliquée à l'ensemble du tableau, la mise en forme des lignes uniquement à des lignes particulières, la mise en forme des cellules uniquement à certaines cellules.
 
-Aspose.Words fournit une riche API pour récupérer et appliquer le formatage sur une table. Vous pouvez utiliser le [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/), et [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) noeuds pour définir le formatage.
+Aspose.Words fournit un API riche pour récupérer et appliquer la mise en forme à une table. Vous pouvez utiliser les nœuds [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/) et [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) pour définir le formatage.
 
-Dans cet article, nous allons parler de la façon d'appliquer le formatage à différents nœuds de table et quels paramètres de formatage de table Aspose.Words soutien.
+Dans cet article, nous expliquerons comment appliquer la mise en forme à différents nœuds de table et quels paramètres de mise en forme de table Aspose.Words prend en charge.
 
-## Appliquer le formatage à différents nœuds
+## Appliquer la mise en forme à différents nœuds
 
-Dans cette section, nous examinerons l'application du formatage à divers nœuds de table.
+Dans cette section, nous examinerons l'application de la mise en forme à divers nœuds de table.
 
-### Formatage du niveau du tableau
+### Formatage Au Niveau du Tableau
 
-Pour appliquer le formatage à une table, vous pouvez utiliser les propriétés disponibles sur le **Table** noeud utilisant le [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/), et [TableCollection](https://reference.aspose.com/words/java/com.aspose.words/tablecollection/) les cours.
+Pour appliquer une mise en forme à une table, vous pouvez utiliser les propriétés disponibles sur le nœud **Table** correspondant à l'aide des classes [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/) et [TableCollection](https://reference.aspose.com/words/java/com.aspose.words/tablecollection/).
 
 {{% alert color="primary" %}}
 
-Notez que la table doit avoir au moins une ligne avant que les propriétés de la table puissent être appliquées. Cela signifie que lors de la construction d'une table [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/), ce formatage doit être fait après le premier appel à [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell()), ou après l'ajout de la première ligne à la table, ou lorsque des nœuds sont insérés directement dans la table DOM.
+Notez que la table doit avoir au moins une ligne avant que les propriétés de la table puissent être appliquées. Cela signifie que lors de la construction d'une table avec le [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/), cette mise en forme doit être effectuée après le premier appel à [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell()), ou après l'ajout de la première ligne à la table, ou lorsque des nœuds sont insérés directement dans le DOM.
 
 {{% /alert %}}
 
-Les images ci-dessous montrent une représentation de la **Table** fonctions de formatage dans Microsoft Word et leurs propriétés correspondantes dans Aspose.Words.
+Les images ci-dessous montrent une représentation des entités de formatage **Table** dans Microsoft Word et leurs propriétés correspondantes dans Aspose.Words.
 
 ![apply-formatting-to-table-level-aspose-words-java](/words/java/applying-formatting/applying-formatting-to-table-row-and-cell-1.png)
 
@@ -40,115 +40,115 @@ L'exemple de code suivant montre comment appliquer une bordure de contour à un 
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "apply-outline-border.java" >}}
 
-L'exemple de code suivant montre comment construire une table avec toutes les bordures activées (grid):
+L'exemple de code suivant montre comment créer un tableau avec toutes les bordures activées (grille):
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "build-table-with-borders.java" >}}
 
-### Formatage du niveau de ligne
+### Formatage Au Niveau des Lignes
 
-Le formatage au niveau de la ligne** peut être contrôlé en utilisant le [Row](https://reference.aspose.com/words/java/com.aspose.words/row/), [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/), et [RowCollection](https://reference.aspose.com/words/java/com.aspose.words/rowcollection/) les cours.
+Le formatage au niveau des lignes* * peut être contrôlé à l'aide des classes [Row](https://reference.aspose.com/words/java/com.aspose.words/row/), [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/) et [RowCollection](https://reference.aspose.com/words/java/com.aspose.words/rowcollection/).
 
 {{% alert color="primary" %}}
 
-Remarque: **Row** ne peut être qu'un nœud d'enfant d'un **Table**. Dans le même temps, il doit y avoir au moins une **Cell** dans le **Row** afin que le formatage puisse lui être appliqué.
+Notez que a **Row** ne peut être qu'un nœud enfant de a **Table**. En même temps, il doit y avoir au moins un **Cell** dans le **Row** pour que le formatage puisse lui être appliqué.
 
 {{% /alert %}}
 
-Les images ci-dessous montrent une représentation de la **Row** fonctions de formatage dans Microsoft Word et leurs propriétés correspondantes dans Aspose.Words.
+Les images ci-dessous montrent une représentation des entités de formatage **Row** dans Microsoft Word et leurs propriétés correspondantes dans Aspose.Words.
 
 ![apply-formatting-to-row-level-aspose-words-java](/words/java/applying-formatting/applying-formatting-to-table-row-and-cell-3.png)
 
-L'exemple de code suivant montre comment modifier le formatage de la ligne de tableau:
+L'exemple de code suivant montre comment modifier le formatage des lignes du tableau:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "modify-row-formatting.java" >}}
 
-### Formatage du niveau de cellule
+### Formatage Au Niveau des Cellules
 
-Le formatage au niveau des cellules est contrôlé par [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/), [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/), et [CellCollection](https://reference.aspose.com/words/java/com.aspose.words/cellcollection/) les cours.
+Le formatage au niveau de la cellule est contrôlé par les classes [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/), [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) et [CellCollection](https://reference.aspose.com/words/java/com.aspose.words/cellcollection/).
 
 {{% alert color="primary" %}}
 
-Remarque: **Cell** ne peut être qu'un nœud d'enfant d'un **Row**. Dans le même temps, il doit y avoir au moins une [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) dans le **Cell** afin que le formatage puisse lui être appliqué.
+Notez que a **Cell** ne peut être qu'un nœud enfant de a **Row**. En même temps, il doit y avoir au moins un [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) dans le **Cell** pour que le formatage puisse lui être appliqué.
 
-En plus de **Paragraph**, vous pouvez également insérer un **Table** dans une **Cell**.
+En plus du **Paragraph**, vous pouvez également insérer un **Table** dans un **Cell**.
 
 {{% /alert %}}
 
-Les images ci-dessous montrent une représentation de la **Cell** fonctions de formatage dans Microsoft Word et leurs propriétés correspondantes dans Aspose.Words.
+Les images ci-dessous montrent une représentation des entités de formatage **Cell** dans Microsoft Word et leurs propriétés correspondantes dans Aspose.Words.
 
 ![apply-formatting-to-cell-level-aspose-words-java](/words/java/applying-formatting/applying-formatting-to-table-row-and-cell-4.png)
 
 ![apply-auto-formatting-to-row-level-aspose-words-java](/words/java/applying-formatting/applying-formatting-to-table-row-and-cell-5.png)
 
-L'exemple de code suivant montre comment modifier le formatage d'une cellule de table:
+L'exemple de code suivant montre comment modifier la mise en forme d'une cellule de tableau:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "modify-cell-formatting.java" >}}
 
-L'exemple de code suivant montre comment définir la quantité d'espace (en points) à ajouter à la gauche/en haut/à droite/en bas du contenu de la cellule:
+L'exemple de code suivant montre comment définir la quantité d'espace (en points) à ajouter à gauche / haut / droite / bas du contenu de la cellule:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "cell-padding.java" >}}
 
-## Spécifier les hauteurs de ligne
+## Spécification Des Hauteurs de Rangée
 
-La façon la plus simple de régler la hauteur de ligne est d'utiliser le **DocumentBuilder**. Utilisation de la méthode appropriée **RowFormat** propriétés, vous pouvez définir la hauteur par défaut ou appliquer une hauteur différente pour chaque ligne de la table.
+Le moyen le plus simple de définir la hauteur de la ligne est d'utiliser le **DocumentBuilder**. À l'aide des propriétés **RowFormat** appropriées, vous pouvez définir le paramètre de hauteur par défaut ou appliquer une hauteur différente pour chaque ligne du tableau.
 
-En Aspose.Words, la hauteur de la rangée de table est contrôlée par:
+Dans Aspose.Words, la hauteur des lignes du tableau est contrôlée par:
 
-- la propriété hauteur de rangée – [Height](https://reference.aspose.com/words/java/com.aspose.words/row/format#Height)
-- la propriété de règle de hauteur pour la ligne donnée – [HeightRule](https://reference.aspose.com/words/java/com.aspose.words/row/format#HeightRule)
+- la propriété hauteur de ligne - [Height](https://reference.aspose.com/words/java/com.aspose.words/row/format#Height)
+- la propriété de règle de hauteur pour la ligne donnée - [HeightRule](https://reference.aspose.com/words/java/com.aspose.words/row/format#HeightRule)
 
-En même temps, une hauteur différente peut être définie pour chaque ligne, ce qui vous permet de contrôler largement les paramètres de la table.
+En même temps, une hauteur différente peut être définie pour chaque rangée – cela vous permet de contrôler largement les paramètres de la table.
 
 {{% alert color="primary" %}}
 
-Les options de règle pour spécifier la hauteur d'un objet peuvent être définies en utilisant le [HeightRule](https://reference.aspose.com/words/java/com.aspose.words/heightrule/) champs.
+Les options de règle pour spécifier la hauteur d'un objet peuvent être définies à l'aide des champs [HeightRule](https://reference.aspose.com/words/java/com.aspose.words/heightrule/).
 
 {{% /alert %}}
 
-L'exemple de code suivant montre comment créer une table contenant une seule cellule et appliquer le formatage de ligne:
+L'exemple de code suivant montre comment créer un tableau contenant une seule cellule et appliquer une mise en forme de ligne:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "apply-row-formatting.java" >}}
 
-## Spécifier les largeurs de tableau et de cellule
+## Spécifiez les largeurs de Tableau et de cellule
 
-Une table dans une Microsoft Word document fournit plusieurs façons différentes de redimensionner le tableau et les cellules individuelles. Ces propriétés permettent un contrôle considérable sur l'apparence et le comportement de la table, de sorte que Aspose.Words prend en charge le comportement des tables, comme dans Microsoft Word.
+Un tableau dans un document Microsoft Word fournit plusieurs façons différentes de redimensionner le tableau et les cellules individuelles. Ces propriétés permettent un contrôle considérable sur l'apparence et le comportement de la table, de sorte que Aspose.Words prend en charge le comportement des tables, comme dans Microsoft Word.
 
-Il est important de savoir que les éléments du tableau présentent plusieurs propriétés différentes qui peuvent influer sur la façon dont les largeurs du tableau global, ainsi que les cellules individuelles, sont calculées:
+Il est important de savoir que les éléments de tableau présentent plusieurs propriétés différentes qui peuvent affecter la façon dont les largeurs du tableau global, ainsi que des cellules individuelles, sont calculées:
 
 - Largeur préférée sur la table
 - Largeur préférée sur les cellules individuelles
-- Automatisation sur la table
+- Autoriser l'ajustement automatique sur la table
 
-Cet article détaille comment les différentes propriétés de calcul de la largeur de la table fonctionnent et comment obtenir un contrôle complet sur le calcul de la largeur de la table. Voici
-Il est particulièrement utile de savoir dans les cas où la présentation du tableau n'apparaît pas comme prévu.
+Cet article détaille le fonctionnement des différentes propriétés de calcul de la largeur de la table et comment obtenir un contrôle total sur le calcul de la largeur de la table. C'est
+particulièrement utile à savoir dans les cas où la disposition du tableau n'apparaît pas comme prévu.
 
 {{% alert color="primary" %}}
 
-Dans la plupart des cas, la cellule préférée est recommandée par rapport à la largeur de la table. La largeur de cellule préférée est plus en ligne avec la spécification de format DOCX ainsi que la Aspose.Words modèle.
+Dans la plupart des cas, la cellule préférée est recommandée par rapport à la largeur du tableau. La largeur de cellule préférée est plus conforme à la spécification du format DOCX ainsi qu'au modèle Aspose.Words.
 
-La largeur des cellules est en fait une valeur calculée pour le format DOCX. La largeur réelle des cellules peut dépendre de beaucoup de choses. Par exemple, modifier les marges de la page ou la largeur de la table préférée peut affecter la largeur réelle de la cellule.
+La largeur de la cellule est en fait une valeur calculée pour le format DOCX. La largeur réelle de la cellule peut dépendre de beaucoup de choses. Par exemple, la modification des marges de la page ou de la largeur préférée du tableau peut affecter la largeur réelle de la cellule.
 
-La largeur de cellule préférée est une propriété de cellule qui est stockée dans le document. Il ne dépend de rien et ne change pas lorsque vous changez la table ou d'autres propriétés de la cellule.
+La largeur de cellule préférée est une propriété de cellule stockée dans le document. Cela ne dépend de rien et ne change pas lorsque vous modifiez le tableau ou d'autres propriétés de la cellule.
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-Toutes les propriétés et méthodes décrites dans cet article sont liées à la façon dont les tableaux fonctionnent dans Microsoft Word. Donc, dans la plupart des cas, si vous construisez votre table programmatiquement mais trouvez difficile de créer la table souhaitée, vous pouvez plutôt essayer de la créer visuellement dans Microsoft Word d'abord, puis copiez simplement les valeurs de formatage dans votre application.
+Toutes les propriétés et méthodes décrites dans cet article sont liées au fonctionnement des tables dans Microsoft Word. Ainsi, dans la plupart des cas, si vous construisez votre table par programme mais que vous avez du mal à créer la table souhaitée, vous pouvez plutôt essayer de la créer visuellement dans Microsoft Word d'abord, puis simplement copier les valeurs de formatage dans votre application.
 
 {{% /alert %}}
 
-### Comment utiliser la largeur préférée
+### Comment utiliser la Largeur Préférée
 
-La largeur souhaitée d'une table ou de cellules individuelles est définie par la propriété de largeur préférée, qui est la taille qu'un élément s'efforce d'adapter. Autrement dit, la largeur préférée peut être spécifiée pour toute la table ou pour chaque cellule. Dans certains cas, il peut ne pas être possible d'adapter cette largeur exactement, mais la largeur réelle sera proche de cette valeur dans la plupart des cas.
+La largeur souhaitée d'un tableau ou de cellules individuelles est définie par la propriété largeur préférée, qui est la taille à laquelle un élément s'efforce de s'adapter. C'est-à-dire que la largeur préférée peut être spécifiée pour l'ensemble du tableau ou pour des cellules individuelles. Dans certaines situations, il peut ne pas être possible d'ajuster exactement cette largeur, mais la largeur réelle sera proche de cette valeur dans la plupart des cas.
 
-Le type de largeur et la valeur de préférence appropriés sont définis en utilisant les méthodes de la [PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/) classe:
+Le type et la valeur de largeur préférés appropriés sont définis à l'aide des méthodes de la classe [PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/):
 
-- les [Auto](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#AUTO) champ pour spécifier la largeur préférée
-- les [FromPercent](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#fromPercent-double) méthode pour spécifier un pourcentage de largeur
-- les [FromPoints](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#fromPoints-double) méthode pour spécifier la largeur en points
+- le champ [Auto](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#AUTO) pour spécifier auto ou "aucune largeur préférée"
+- la méthode [FromPercent](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#fromPercent-double) pour spécifier une largeur en pourcentage
+- la méthode [FromPoints](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#fromPoints-double) pour spécifier la largeur en points
 
-Les images ci-dessous montrent une représentation des caractéristiques de réglage de largeur *préféré* dans Microsoft Word et leurs propriétés correspondantes dans Aspose.Words.
+Les images ci-dessous montrent une représentation des *preferred width setting features* dans Microsoft Word et leurs propriétés correspondantes dans Aspose.Words.
 
 ![formatting-table-properties-aspose-words-java](/words/java/applying-formatting/applying-formatting-8.png)
 
@@ -158,79 +158,79 @@ Un exemple de la façon dont ces options sont appliquées à un tableau réel da
 
 {{% alert color="primary" %}}
 
-Avant de pouvoir utiliser la largeur préférée dans une table, vous devez vous assurer que la table contient au moins une rangée. C'est parce que ce formatage de table dans un Microsoft Word ou dans un document créé dans Aspose.Words est stocké dans les lignes de la table.
+Avant de pouvoir utiliser la largeur préférée dans un tableau, vous devez vous assurer que le tableau contient au moins une ligne. En effet, une telle mise en forme de tableau dans un document Microsoft Word ou dans un document créé dans Aspose.Words est stockée dans les lignes du tableau.
 
 {{% /alert %}}
 
-#### Spécifiez la table ou la largeur de cellule préférée
+#### Spécifiez la largeur préférée du tableau ou de la cellule
 
-En Aspose.Words, les largeurs de la table et de la cellule sont définies en utilisant les [Table.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/table/#getPreferredWidth) propriété et [CellFormat.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getPreferredWidth) propriété, avec options disponibles dans la [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/) énumération:
+Dans Aspose.Words, les largeurs de tableau et de cellule sont définies à l'aide de la propriété [Table.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/table/#getPreferredWidth) et de la propriété [CellFormat.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getPreferredWidth), avec des options disponibles dans l'énumération [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/):
 
-- Oui. **Auto**, qui est équivalent à aucun ensemble de largeur préféré
-- Oui. **Percent**, qui correspond à l'élément par rapport à l'espace disponible dans la fenêtre ou la taille du conteneur, et recalcule la valeur lorsque la largeur disponible change
-- Oui. **Points**, qui correspond à un élément de la largeur spécifiée en points
+- **Auto**, ce qui équivaut à aucun jeu de largeur préféré
+- **Percent**, qui adapte l'élément par rapport à l'espace disponible dans la taille de la fenêtre ou du conteneur, et recalcule la valeur lorsque la largeur disponible change
+- **Points**, qui correspond à un élément de la largeur spécifiée en points
 
 {{% alert color="primary" %}}
 
-Par défaut, une table peut être décrite comme étant installée à 100% de l'espace disponible sur la page. Dans ce cas, cela signifie que la table va essayer de prendre l'espace entre les marges de gauche et de droite.
+Par défaut, un tableau peut être décrit comme étant ajusté à 100% de l'espace disponible sur la page. Dans ce cas, cela signifie que le tableau essaiera de prendre l'espace entre les marges de page gauche et droite.
 
 {{% /alert %}}
 
-Utilisation [Table.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/table/#getPreferredWidth) propriété ajustera sa largeur préférée par rapport à son conteneur: page, colonne de texte, ou cellule de table externe si c'est une table imbriquée.
+L'utilisation de la propriété [Table.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/table/#getPreferredWidth) ajustera sa largeur préférée par rapport à son conteneur: page, colonne de texte ou cellule de tableau externe s'il s'agit d'un tableau imbriqué.
 
-L'exemple de code suivant montre comment régler automatiquement la table à 50 % de la largeur de la page:
+L'exemple de code suivant montre comment définir l'ajustement automatique du tableau à 50% de la largeur de la page:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "auto-fit-page-width.java" >}}
 
-Utilisation [CellFormat.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getPreferredWidth) propriété sur une cellule donnée ajustera sa largeur préférée.
+L'utilisation de la propriété [CellFormat.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getPreferredWidth) sur une cellule donnée ajustera sa largeur préférée.
 
 L'exemple de code suivant montre comment définir les différents paramètres de largeur préférés:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "preferred-width-settings.java" >}}
 
-#### Trouver le type et la valeur de largeur préféré
+#### Trouver le Type et la Valeur de Largeur préférés
 
-Vous pouvez utiliser le [Type](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#getType) et [Value](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#getValue) propriétés pour trouver les détails de largeur préférés de la table ou de la cellule souhaitée.
+Vous pouvez utiliser les propriétés [Type](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#getType) et [Value](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#getValue) pour trouver les détails de largeur préférés de la table ou de la cellule souhaitée.
 
-L'exemple de code suivant montre comment récupérer le type de largeur préféré d'une cellule de table:
+L'exemple de code suivant montre comment récupérer le type de largeur préféré d'une cellule de tableau:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "retrieve-preferred-width-type.java" >}}
 
-### Comment définir Autofit
+### Comment régler l'ajustement automatique
 
-Les [AllowAutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowAutoFit) propriété permet aux cellules d'une table de croître et de rétrécir selon un critère sélectionné. Par exemple, vous pouvez utiliser **Installation automatique à la fenêtre** option pour adapter la table à la largeur de la page, et la **Installation automatique au contenu** possibilité de permettre à chaque cellule de grandir ou de rétrécir selon son contenu.
+La propriété [AllowAutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowAutoFit) permet aux cellules d'un tableau de croître et de rétrécir selon un critère sélectionné. Par exemple, vous pouvez utiliser l'option **AutoFit to Window** pour adapter le tableau à la largeur de la page et l'option **AutoFit to Content** pour permettre à chaque cellule de croître ou de rétrécir en fonction de son contenu.
 
 {{% alert color="primary" %}}
 
-En outre, **AllowAutoFit** propriété peut être utilisé en conjonction avec une largeur de cellule préférée pour formater une cellule qui correspond automatiquement à son contenu, mais a également une largeur initiale. Si nécessaire, la largeur de la cellule peut alors dépasser cette largeur.
+De plus, la propriété **AllowAutoFit** peut être utilisée conjointement avec une largeur de cellule préférée pour formater une cellule qui s'adapte automatiquement à son contenu, mais qui a également une largeur initiale. Si nécessaire, la largeur de la cellule peut alors dépasser cette largeur.
 
 {{% /alert %}}
 
-Par défaut, Aspose.Words insère un nouveau tableau en utilisant **Installation automatique à la fenêtre**. Le tableau sera dimensionné en fonction de la largeur de page disponible. Pour redimensionner une table, vous pouvez appeler le [AutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#autoFit-int) méthode. Cette méthode accepte [AutoFitBehavior](https://reference.aspose.com/words/java/com.aspose.words/autofitbehavior/) énumération qui spécifie quel type d'autofit est appliqué au tableau.
+Par défaut, Aspose.Words insère une nouvelle table en utilisant **AutoFit to Window**. Le tableau sera dimensionné en fonction de la largeur de page disponible. Pour redimensionner une table, vous pouvez appeler la méthode [AutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#autoFit-int). Cette méthode accepte une énumération [AutoFitBehavior](https://reference.aspose.com/words/java/com.aspose.words/autofitbehavior/) qui spécifie quel type d'ajustement automatique est appliqué à la table.
 
-Il est important de savoir que la méthode autofit est en fait un raccourci qui applique différentes propriétés à la table en même temps. Ce sont des propriétés qui donnent à la table le comportement observé. Nous allons discuter de ces propriétés pour chaque option d'autofit.
+Il est important de savoir que la méthode d'ajustement automatique est en fait un raccourci qui applique différentes propriétés à la table en même temps. Ce sont des propriétés qui donnent réellement à la table le comportement observé. Nous discuterons de ces propriétés pour chaque option d'ajustement automatique.
 
-L'exemple de code suivant montre comment définir une table pour rétrécir ou faire croître chaque cellule selon son contenu:
+L'exemple de code suivant montre comment définir un tableau pour réduire ou agrandir chaque cellule en fonction de son contenu:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "allow-auto-fit.java" >}}
 
-Nous utiliserons le tableau suivant pour appliquer les différents réglages d'ajustement automatique comme démonstration.
+Nous utiliserons le tableau suivant pour appliquer les différents paramètres d'ajustement automatique à titre de démonstration.
 
 <img src="/words/java/applying-formatting/how-to-apply-different-autofit-settings-to-a-table-1.png" alt="apply-different-autofit-settings-to-a-table-aspose-words-java" style="width:500px"/>
 
-#### Installation automatique de la table dans la fenêtre
+#### AutoFit Table à fenêtre
 
-Lorsque l'auto-ajustement à une fenêtre est appliqué à une table, les opérations suivantes sont effectivement effectuées dans les coulisses:
+Lorsque l'ajustement automatique à une fenêtre est appliqué à une table, les opérations suivantes sont réellement effectuées en arrière-plan:
 
-1. Les **Table.AllowAutoFit** la propriété est activée pour redimensionner automatiquement les colonnes en fonction du contenu disponible, en utilisant un **Table.PreferredWidth** Valeur de 100 %
-2. **CellFormat.PreferredWidth** est retiré de toutes les cellules de table
-      {{% alert color="primary" %}}
-   Notez que cela est légèrement différent de la Microsoft Word comportement, où la largeur préférée de chaque cellule est définie à des valeurs appropriées en fonction de leur taille actuelle et de leur contenu. Aspose.Words ne met pas à jour la largeur préférée pour qu'ils soient juste nettoyés à la place.
-      {{% /alert %}}
-3. Les largeurs des colonnes sont recalculées pour le contenu actuel de la table – le résultat final est une table qui occupe toute la largeur disponible
-4. La largeur des colonnes du tableau change automatiquement à mesure que l'utilisateur modifie le texte
+1. La propriété **Table.AllowAutoFit** est activée pour redimensionner automatiquement les colonnes en fonction du contenu disponible, en utilisant une valeur **Table.PreferredWidth** de 100%
+2. **CellFormat.PreferredWidth** est supprimé de toutes les cellules du tableau
+   {{% alert color="primary" %}}
+   Notez que ceci est légèrement différent du comportement Microsoft Word, où la largeur préférée de chaque cellule est définie sur des valeurs appropriées en fonction de leur taille et de leur contenu actuels. Aspose.Words ne met pas à jour la largeur préférée, ils sont donc simplement effacés à la place.
+   {{% /alert %}}
+3. Les largeurs de colonne sont recalculées pour le contenu actuel de la table – le résultat final est une table qui occupe toute la largeur disponible
+4. La largeur des colonnes du tableau change automatiquement lorsque l'utilisateur modifie le texte
 
-L'exemple de code suivant montre comment auto-adapter une table à la largeur de la page:
+L'exemple de code suivant montre comment ajuster automatiquement un tableau à la largeur de la page:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "auto-fit-table-to-page-width.java" >}}
 
@@ -238,20 +238,20 @@ Un exemple de la façon dont ces options sont appliquées au tableau ci-dessus p
 
 <img src="/words/java/applying-formatting/how-to-apply-different-autofit-settings-to-a-table-2.png" alt="autofit-table-aspose-words-java" style="width:500px"/>
 
-#### AutoFit Table au contenu
+#### AutoFit Table des matières
 
-Lorsque la table est adaptée automatiquement au contenu, les étapes suivantes sont en fait exécutées dans les coulisses:
+Lorsque la table est automatiquement mise en place du contenu, les étapes suivantes sont réellement effectuées en coulisses:
 
-1. Les **Table.AllowAutoFit** propriété est activé pour redimensionner automatiquement chaque cellule selon son contenu
+1. La propriété **Table.AllowAutoFit** est activée pour redimensionner automatiquement chaque cellule en fonction de son contenu
 
-2. La largeur de la table préférée est retirée de **Table.PreferredWidth**, **CellFormat.PreferredWidth** est enlevé pour chaque cellule de table
-      {{% alert color="primary" %}}
+2. La largeur préférée du tableau est supprimée de **Table.PreferredWidth**, **CellFormat.PreferredWidth** est supprimée pour chaque cellule du tableau
+   {{% alert color="primary" %}}
 
-   Notez que cette option autofit supprime la largeur préférée des cellules, tout comme dans Microsoft Word. Si vous voulez garder les tailles de colonne et augmenter ou diminuer les colonnes pour correspondre au contenu, vous devez définir le **Table.AllowAutoFit** propriété **True** par lui-même plutôt que d'utiliser le raccourci autofit.{{% /alert %}}
+   Notez que cette option d'ajustement automatique supprime la largeur préférée des cellules, tout comme dans Microsoft Word. Si vous souhaitez conserver la taille des colonnes et augmenter ou diminuer les colonnes pour les adapter au contenu, vous devez définir la propriété **Table.AllowAutoFit** sur **True** seule plutôt que d'utiliser le raccourci d'ajustement automatique.{{% /alert %}}
 
-3. Les largeurs de colonnes sont recalculées pour le contenu courant de la table – le résultat final est une table où les largeurs de colonnes et la largeur de la table entière sont automatiquement redimensionnées pour s'adapter le mieux au contenu lorsque l'utilisateur modifie le texte
+3. Les largeurs de colonne sont recalculées pour le contenu du tableau actuel – le résultat final est un tableau où les largeurs de colonne et la largeur du tableau entier sont automatiquement redimensionnées pour s'adapter au mieux au contenu lorsque l'utilisateur modifie le texte
 
-L'exemple de code suivant montre comment auto-adapter une table à son contenu:
+L'exemple de code suivant montre comment ajuster automatiquement une table à son contenu:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "auto-fit-table-to-contents.java" >}}
 
@@ -259,13 +259,13 @@ Un exemple de la façon dont ces options sont appliquées au tableau ci-dessus p
 
 <img src="/words/java/applying-formatting/how-to-apply-different-autofit-settings-to-a-table-3.png" alt="resize-column-autofit-settings-aspose-words-java" style="width:500px"/>
 
-#### Désactiver l'autofit dans la table et utiliser les largeurs de colonnes fixes
+#### Désactivez AutoFit dans le Tableau et Utilisez des Largeurs de colonne fixes
 
-Si une table a désactivé automatiquement et que les largeurs de colonnes fixes sont utilisées à la place, les étapes suivantes sont effectuées:
+Si l'ajustement automatique d'une table est désactivé et que des largeurs de colonne fixes sont utilisées à la place, les étapes suivantes sont effectuées:
 
-1. **Table.AllowAutoFit** la propriété est désactivée de sorte que les colonnes ne croissent pas ou ne rétrécissent pas à leur contenu
-2. La largeur préférée de la table entière est retirée de **Table.PreferredWidth**, **CellFormat.PreferredWidth** est retiré de toutes les cellules de table
-3. Le résultat final est une table dont la largeur des colonnes est déterminée par la [CellFormat.Width](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getWidth) propriété, et dont les colonnes ne sont pas automatiquement redimensionnées lorsque l'utilisateur entre le texte ou lorsque la page est redimensionnée
+1. la propriété **Table.AllowAutoFit** est désactivée afin que les colonnes ne s'agrandissent pas ou ne rétrécissent pas à leur contenu
+2. La largeur préférée de l'ensemble du tableau est supprimée de **Table.PreferredWidth**, **CellFormat.PreferredWidth** est supprimée de toutes les cellules du tableau
+3. Le résultat final est un tableau dont la largeur des colonnes est déterminée par la propriété [CellFormat.Width](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getWidth) et dont les colonnes ne sont pas automatiquement redimensionnées lorsque l'utilisateur entre du texte ou lorsque la page est redimensionnée
 
 {{% alert color="primary" %}}
 
@@ -273,7 +273,7 @@ Notez que si aucune largeur n'est spécifiée pour **CellFormat.Width**, la vale
 
 {{% /alert %}}
 
-L'exemple de code suivant montre comment désactiver l'autofit et activer la largeur fixe pour le tableau spécifié:
+L'exemple de code suivant montre comment désactiver l'ajustement automatique et activer la largeur fixe pour la table spécifiée:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "auto-fit-table-to-fixed-column-widths.java" >}}
 
@@ -281,47 +281,47 @@ Un exemple de la façon dont ces options sont appliquées au tableau ci-dessus p
 
 <img src="/words/java/applying-formatting/how-to-apply-different-autofit-settings-to-a-table-4.png" alt="disable-autofit-settings-to-a-table-aspose-words-java" style="width:500px"/>
 
-### Ordre de priorité lors du calcul de la largeur des cellules
+### Ordre de priorité lors du Calcul de la Largeur de Cellule
 
-Aspose.Words permet aux utilisateurs de définir la largeur d'une table ou d'une cellule à travers plusieurs objets, y compris [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) – ses [Width](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getWidth) propriété est la plupart du temps laissée de versions précédentes, cependant, il est toujours utile pour simplifier le réglage de la largeur de cellule.
+Aspose.Words permet aux utilisateurs de définir la largeur d'un tableau ou d'une cellule à travers plusieurs objets, y compris [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) – sa propriété [Width](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getWidth) est principalement laissée par les versions précédentes, cependant, elle est toujours utile pour simplifier le réglage de la largeur de la cellule.
 
-Il est important de savoir que **CellFormat.Width** propriété fonctionne différemment en fonction de laquelle des autres propriétés de largeur existent déjà dans le tableau.
+Il est important de savoir que la propriété **CellFormat.Width** fonctionne différemment selon laquelle des autres propriétés de largeur existe déjà dans la table.
 
-Aspose.Words utilise l'ordre suivant pour calculer la largeur des cellules:
+Aspose.Words utilise l'ordre suivant pour calculer les largeurs de cellule:
 
-|  Ordre |  Biens |  Désignation des marchandises |
-|  -----  |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  1      |  [AllowAutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowAutoFit) est déterminé |  Si **AutoFit** est activé:<br/>- la table peut dépasser la largeur préférée pour accommoder le contenu – elle ne se rétrécit généralement pas sous la largeur préférée<br/>- tout changement **CellFormat.Width** valeur est ignorée et la cellule s'adaptera à son contenu |
-|  2      |  [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/) d'une valeur **Points** ou **Percent** |  **CellFormat.Width** est ignoré |
-|  3      |  [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/) d'une valeur **Auto** |  La valeur de **CellFormat.Width** est copié et devient la largeur préférée de la cellule (en points) |
+| Commande | Propriété | Descriptif |
+| ----- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+|  | [AllowAutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowAutoFit) est déterminé | Si **AutoFit** est activé:<br>- le tableau peut dépasser la largeur préférée pour s'adapter au contenu – il ne rétrécit généralement pas en dessous de la largeur préférée<br>- toute modification de la valeur **CellFormat.Width** est ignorée et la cellule s'adaptera à son contenu à la place |
+|  | [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/) avec une valeur de **Points** ou **Percent** | **CellFormat.Width** est ignoré |
+|  | [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/) avec une valeur de **Auto** | La valeur de **CellFormat.Width** est copiée et devient la largeur préférée de la cellule (en points) |
 
 {{% alert color="primary" %}}
 
-Les modifications apportées à la propriété de largeur ne sont pas mises à jour dans la largeur préférée et doivent plutôt être appliquées à la largeur préférée.
+Toutes les modifications apportées à la propriété width ne sont pas mises à jour dans la largeur préférée et doivent plutôt être appliquées à la largeur préférée.
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-Lors de la création d'une mise en page fixe, spécifiez la largeur de la cellule. Une cellule sans largeur ne peut pas être enregistrée au format DOC. Les formats de documents autres que DOC, tels que DOCX, permettent, en principe, de sauvegarder des cellules sans largeur dans une présentation fixe de table.
+Lors de la création d'une disposition de tableau fixe, spécifiez la largeur de la cellule. Une cellule sans largeur ne peut pas être enregistrée au format DOC. Les formats de document autres que DOC, tels que DOCX, permettent, en principe, d'enregistrer des cellules sans largeur dans une disposition de tableau fixe.
 
 {{% /alert %}}
 
-## Permettre l'espacement entre les cellules
+## Autoriser L'Espacement Entre Les Cellules
 
-Vous pouvez obtenir ou définir n'importe quel espace supplémentaire entre les cellules de la table similaire à l'option "l'espacementell" dans Microsoft Word. Ceci peut être fait en utilisant le [AllowCellSpacing](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowCellSpacing) propriété.
+Vous pouvez obtenir ou définir tout espace supplémentaire entre les cellules du tableau similaire à l'option "Espacement des cellules" dans Microsoft Word. Cela peut être fait en utilisant la propriété [AllowCellSpacing](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowCellSpacing).
 
 Un exemple de la façon dont ces options sont appliquées à un tableau réel dans un document peut être vu dans l'image ci-dessous.
 
 <img src="/words/java/applying-formatting/applying-formatting-10.png" alt="formatting-spacing-between-cells-aspose-words-java" style="width:500px"/>
 
-L'exemple de code suivant montre comment régler l'espacement entre les cellules:
+L'exemple de code suivant montre comment définir l'espacement entre les cellules:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "allow-cell-spacing.java" >}}
 
-## Appliquer les frontières et l'ombrage
+## Appliquer des Bordures et des Ombrages
 
-Les bordures et l'ombrage peuvent être appliqués soit à l'ensemble du tableau en utilisant [Table.SetBorder](https://reference.aspose.com/words/java/com.aspose.words/table/#setBorder-int-int-double-java.awt.Color-boolean), [Table.SetBorders](https://reference.aspose.com/words/java/com.aspose.words/table/#setBorders-int-double-java.awt.Color) et [Table.SetShading](https://reference.aspose.com/words/java/com.aspose.words/table/#setShading-int-java.awt.Color-java.awt.Color), ou uniquement à des cellules spécifiques utilisant [CellFormat.Borders](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getBorders) et [CellFormat.Shading](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getShading). En outre, les bordures de ligne peuvent être définies en utilisant [RowFormat.Borders](https://reference.aspose.com/words/java/com.aspose.words/rowformat/#getBorders), Toutefois, l'ombrage ne peut pas être appliqué de cette manière.
+Les bordures et l'ombrage peuvent être appliqués soit à l'ensemble du tableau en utilisant [Table.SetBorder](https://reference.aspose.com/words/java/com.aspose.words/table/#setBorder-int-int-double-java.awt.Color-boolean), [Table.SetBorders](https://reference.aspose.com/words/java/com.aspose.words/table/#setBorders-int-double-java.awt.Color) et [Table.SetShading](https://reference.aspose.com/words/java/com.aspose.words/table/#setShading-int-java.awt.Color-java.awt.Color), soit uniquement à des cellules spécifiques en utilisant [CellFormat.Borders](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getBorders) et [CellFormat.Shading](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getShading). De plus, les bordures de ligne peuvent être définies à l'aide de [RowFormat.Borders](https://reference.aspose.com/words/java/com.aspose.words/rowformat/#getBorders), mais l'ombrage ne peut pas être appliqué de cette manière.
 
 Les images ci-dessous montrent les paramètres de bordure et d'ombre dans Microsoft Word et leurs propriétés correspondantes dans Aspose.Words.
 
@@ -331,6 +331,6 @@ Les images ci-dessous montrent les paramètres de bordure et d'ombre dans Micros
 ![apply-borders-shading-aspose-words-java-2](/words/java/applying-formatting/applying-formatting-to-table-row-and-cell-7.png)
 
 
-L'exemple de code suivant montre comment formater une table et une cellule avec différentes bordures et ombres:
+L'exemple de code suivant montre comment formater un tableau et une cellule avec différentes bordures et ombrages:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "format-table-and-cell-with-different-borders.java" >}}

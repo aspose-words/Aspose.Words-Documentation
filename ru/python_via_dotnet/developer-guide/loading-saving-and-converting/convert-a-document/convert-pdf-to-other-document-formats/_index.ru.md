@@ -1,65 +1,65 @@
----
-title: Преобразование PDF в другие форматы документов
+﻿---
+title: Конвертировать PDF в другие форматы документов
 second_title: Aspose.Words для Python via .NET
-articleTitle: Преобразование PDF в другие форматы документов
-linktitle: Преобразование PDF в другие форматы документов
+articleTitle: Конвертировать PDF в другие форматы документов
+linktitle: Конвертировать PDF в другие форматы документов
 type: docs
-description: "Преобразование PDF в форматы Word, такие как DOCX, DOC, форматы изображений, такие как JPG или PNG, или любые другие форматы, поддерживаемые Aspose с использованием `Python.Words`."
+description: "Преобразуйте PDF в форматы Word, такие как DOCX, DOC, графические форматы, такие как JPG или PNG, или в любые другие форматы, поддерживаемые Aspose, используя `Python.Words`."
 keywords: convert pdf to other formats python
 weight: 45
 url: /ru/python-net/convert-pdf-to-other-document-formats/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words Можно загрузить даже такой сложный формат, как PDF. Это открывает новые возможности: можно конвертировать PDF в Word или другие форматы, которые значительно опережают пользователей в решении многих прикладных задач.
+Aspose.Words может загружать даже такой сложный формат, как PDF. Это открывает новые возможности: можно конвертировать PDF в Word или другие форматы, что значительно продвинет пользователей в решении многих прикладных задач.
 
-## Преобразование PDF в другие форматы {#convert-pdf-to-other-formats}
+## Конвертировать PDF в другие форматы {#convert-pdf-to-other-formats}
 
-Наиболее популярным преобразованием из PDF является преобразование в Microsoft Word форматы, такие как DOCX, DOC, а также форматы изображений, такие как JPG или PNG. При этом преобразование документа из одного формата в другой выполняется знакомым образом.
+Наиболее популярным преобразованием из PDF является преобразование в форматы Microsoft Word, такие как DOCX, DOC, а также в графические форматы, такие как JPG или PNG. При этом преобразование документа из одного формата в другой выполняется привычным способом.
 
-Следующий пример кода показывает, как конвертировать документ из PDF в DOCX:
+В следующем примере кода показано, как преобразовать документ из PDF в DOCX:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-base_conversions-PdfToDocx.py" >}}
 
 ## Укажите параметры загрузки при импорте PDF {#specify-load-options-when-importing-pdf}
 
-Aspose.Words Предоставляет вам [PdfLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/pdfloadoptions/) Класс, который позволяет более точно контролировать загрузку PDF-документов.
+Aspose.Words предоставляет вам класс [PdfLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/pdfloadoptions/), который позволяет более точно контролировать процесс загрузки документов PDF.
 
-Большинство свойств наследуют или перегружают свойства, которые уже существуют. [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/) класс. Помимо них, для формата PDF указан ряд свойств. Например, вы можете использовать [page_count](https://reference.aspose.com/words/python-net/aspose.words.loading/pdfloadoptions/page_count/) и [page_index](https://reference.aspose.com/words/python-net/aspose.words.loading/pdfloadoptions/page_index/) свойства для определения диапазона страниц, загружаемых из документа PDF, и [skip_pdf_images](https://reference.aspose.com/words/python-net/aspose.words.loading/pdfloadoptions/skip_pdf_images/) Свойства для контроля того, следует ли пропускать изображения при загрузке PDF. Другим поддерживаемым параметром является [password](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/password/), которые должны быть предоставлены для защищенных паролем документов.
+Большинство свойств наследуют или перегружают свойства, которые уже существуют в классе [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/). В дополнение к ним для формата PDF задан ряд свойств. Например, вы можете использовать свойства [page_count](https://reference.aspose.com/words/python-net/aspose.words.loading/pdfloadoptions/page_count/) и [page_index](https://reference.aspose.com/words/python-net/aspose.words.loading/pdfloadoptions/page_index/) для определения диапазона страниц, которые будут загружены из документа PDF, а свойства [skip_pdf_images](https://reference.aspose.com/words/python-net/aspose.words.loading/pdfloadoptions/skip_pdf_images/) - для управления тем, следует ли пропускать изображения при загрузке PDF. Другим поддерживаемым параметром является [password](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/password/), который должен быть указан для документов, защищенных паролем.
 
-## Поддерживаемый PDF Контент {#supported-pdf-content}
+## Поддерживаемый PDF контент {#supported-pdf-content}
 
-Плагин PDF2Word поддерживает следующие типы данных:
+PDF2Word в настоящее время плагин поддерживает следующие типы данных:
 
 * Текстовые абзацы
 * Изображения
 * Таблицы
 * Списки
-* Заголовки и футеры
+* Верхние и нижние колонтитулы
 * Сноски
-* Номер страницы
-* Право-левый текст (с некоторыми ограничениями)
-* Поисковые PDF-файлы (передние изображения будут удалены в пользу фонового текста)
+* Номера страниц
+* Текст справа налево (с некоторыми ограничениями)
+* Доступно для поиска PDFs (передние изображения будут удалены в пользу фонового текста)
 
-## Планируемые особенности {#planned-features}
+## Планируемые объекты {#planned-features}
 
-Некоторые функции все еще находятся на ранней стадии разработки или включены в дорожную карту развития:
+Некоторые функции все еще находятся на ранней стадии разработки или включены в дорожную карту разработки:
 
-* Таблица содержимого
-* OCR для поисковых и непоисковых PDF-файлов
-* Доклад о ходе работы
-* Многоколонный текст
+* Содержание
+* OCR для объектов с возможностью поиска и без нее PDFs
+* Отчет о ходе работы
+* Текст с несколькими столбцами
 * Математические формулы
-* Больше автоматических полей (кроме) `PAGE` и цифры
+* Дополнительные автоматические поля (помимо `PAGE` и NUMPAGES)
 
-## PDF Исключения из нагрузки
+## PDF Загружать исключения
 
-Во время конвертации PDF-документа может произойти одно из следующих исключений:
+Во время преобразования документа PDF может произойти одно из следующих исключений:
 
-|  Исключение |  Описание |
-|  --------------------------------  |  ------------------------------------------------------------  |
-|   *FileLoadException*               |  PDF-файл не может быть обработан по какой-либо причине.<br/>{{% alert color="primary" %}}Вы можете сообщить об этом команде разработчиков для детального расследования, используя [Техническая поддержка](/words/ru/python-net/technical-support/).{{% /alert %}} |
-|   *DrmProtectedFileException*       |  PDF-файл защищен Adobe DRM и не может быть декодирован Pdf2Word |
-|   *PasswordProtectedFileException*  |  Правильный пароль должен быть предоставлен для защищенного паролем PDF |
+| Исключение | Описание |
+| -------------------------------- | ------------------------------------------------------------ |
+| *FileLoadException* | По какой-то причине файл PDF не может быть обработан.<br />{{% alert color="primary" %}}Вы можете сообщить о проблеме группе разработчиков для детального изучения, используя [техническая поддержка](/words/python-net/technical-support/).{{% /alert %}} |
+| *DrmProtectedFileException* | Файл PDF защищен Adobe DRM и не может быть декодирован с помощью Pdf2Word. |
+| *PasswordProtectedFileException* | Для защищенного паролем PDF веб-сайта необходимо ввести правильный пароль. |
 
 

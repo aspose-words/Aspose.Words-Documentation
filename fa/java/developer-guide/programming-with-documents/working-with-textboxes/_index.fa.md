@@ -1,38 +1,38 @@
----
-title: کار با Linked TextBoxs Java
+﻿---
+title: کار با لینک TextBoxes در Java
 second_title: Aspose.Words برای Java
-articleTitle: کار با Linked TextBoxs
-linktitle: کار با Linked TextBoxs
-description: "معرفی ویژگی های textboxes مرتبط در Aspose.Words برای Java..."
+articleTitle: کار با لینک TextBoxes
+linktitle: کار با لینک TextBoxes
+description: "معرفی ویژگی جعبه های متن مرتبط در Aspose.Words برای Java."
 type: docs
 weight: 250
 url: /fa/java/working-with-linked-textboxes/
 timestamp: 2024-01-27-14-07-04
 ---
 
-In In In Aspose.Words, The the the [TextBox](https://reference.aspose.com/words/java/com.aspose.words/textbox/) کلاس استفاده می شود تا مشخص کند که چگونه یک متن در داخل یک شکل نمایش داده می شود. این یک ملک عمومی به نام پدر و مادر را برای به دست آوردن شکل والدین برای جعبه متن فراهم می کند تا به مشتری اجازه دهد تا ارتباط خود را پیدا کند. [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) مرتبط با **TextBox**...
+در Aspose.Words، کلاس [TextBox](https://reference.aspose.com/words/java/com.aspose.words/textbox/) برای مشخص کردن نحوه نمایش یک متن در داخل یک شکل استفاده می شود. این یک ملک عمومی به نام والدین را فراهم می کند تا شکل والدین را برای جعبه متن بدست آورد تا مشتری بتواند لینک [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) را از لینک **TextBox** پیدا کند.
 
-## ایجاد یک لینک
+## ایجاد لینک
 
-The The The The The The **TextBox** کلاس فراهم می کند [IsValidLinkTarget](https://reference.aspose.com/words/java/com.aspose.words/textbox/#isValidLinkTarget-com.aspose.words.TextBox) روش برای بررسی اینکه آیا **TextBox** می تواند با هدف مرتبط باشد **Textbox**...
+کلاس **TextBox** روش [IsValidLinkTarget](https://reference.aspose.com/words/java/com.aspose.words/textbox/#isValidLinkTarget-com.aspose.words.TextBox) را برای بررسی اینکه آیا **TextBox** می تواند به هدف **Textbox** مرتبط باشد، فراهم می کند.
 
-مثال کد زیر نشان می دهد که چگونه بررسی کنیم `TextBox` می تواند با Textbox هدف مرتبط باشد:
+مثال کد زیر نشان می دهد که چگونه می توان بررسی کرد که آیا `TextBox` می تواند به جعبه متن هدف پیوند داده شود:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-LinkedTextboxes-WorkingWithLinkedTextboxes-CreateALink.java" >}}
 
 
-## چک کردن Text Box Sequence
+## توالی TextBox را بررسی کنید
 
-چندین راه برای نمایش متن در یک شکل وجود دارد. The The The The The The [TextBox](https://reference.aspose.com/words/java/com.aspose.words/shape/#getTextBox) می تواند سر، خاورمیانه یا یک دنباله باشد.
+روش های مختلفی برای نمایش متن به شکل وجود دارد. [TextBox](https://reference.aspose.com/words/java/com.aspose.words/shape/#getTextBox) می تواند سر، وسط یا دم یک دنباله باشد.
 
-مثال زیر نشان می دهد که چگونه بررسی کنیم **TextBox** یک سر، تی و یا وسط این سکانس است:
+مثال کد زیر نشان می دهد که چگونه **TextBox** یک سر، دم یا وسط توالی است:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-LinkedTextboxes-WorkingWithLinkedTextboxes-CheckSequence.java" >}}
 
 ## شکستن یک لینک
 
-استفاده از [BreakForwardLink](https://reference.aspose.com/words/java/com.aspose.words/textbox/#breakForwardLink) روش هایی که می توانید لینک را به بعدی تقسیم کنید **TextBox**...
+با استفاده از روش [BreakForwardLink](https://reference.aspose.com/words/java/com.aspose.words/textbox/#breakForwardLink) می توانید لینک **TextBox** بعدی را بشکنید.
 
-مثال کد زیر نشان می دهد که چگونه یک لینک را برای یک لینک بشکنیم **TextBox**:
+مثال کد زیر نشان می دهد که چگونه یک لینک را برای **TextBox**بشکنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-LinkedTextboxes-WorkingWithLinkedTextboxes-BreakALink.java" >}}

@@ -1,44 +1,44 @@
----
-title: Schützen oder Verschlüsseln eines Dokuments Java
+﻿---
+title: Schützen oder verschlüsseln Sie ein Dokument in Java
 second_title: Aspose.Words für Java
 articleTitle: Schützen oder Verschlüsseln eines Dokuments
 linktitle: Schützen oder Verschlüsseln eines Dokuments
-description: "Verschlüsseln Sie ein Dokument, beschränken Sie die Bearbeitung, verwenden Sie digitale Signaturen für den Dokumentenschutz. Aspose.Words unterstützt die meisten Word-Schutzoptionen mit Java."
+description: "Verschlüsseln Sie ein Dokument, beschränken Sie die Bearbeitung, verwenden Sie digitale Signaturen zum Schutz von Dokumenten. Aspose.Words unterstützt die meisten Wortschutzoptionen mit Java."
 type: docs
 weight: 50
 url: /de/java/protect-or-encrypt-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Der Hauptgrund, ein Dokument zu schützen oder zu verschlüsseln, besteht darin, mehr Kontrolle darüber anzuwenden, wer auf das Dokument zugreifen kann oder wer es bearbeiten kann. Schutz auf Ihre Dokumente anwenden, vermeiden Sie gemeinsame Risiken wie Kopieren oder Ändern von Dokumenten ohne Erlaubnis, sowie Datenleckage.
+Der Hauptgrund für den Schutz oder die Verschlüsselung eines Dokuments besteht darin, mehr Kontrolle darüber zu haben, wer auf das Dokument zugreifen oder es bearbeiten kann. Wenn Sie Ihre Dokumente schützen, vermeiden Sie häufige Risiken wie das unerlaubte Kopieren oder Ändern von Dokumenten sowie Datenlecks.
 
-Einige der beliebtesten Formate bei der Arbeit mit Dokumenten sind Microsoft Word Formate oder Formate, die aus Word exportiert werden können. Deshalb sind viele Nutzer an den gleichen Dokumentenschutzoptionen interessiert, die Microsoft Word bietet. Trotz der Komplexität dieser Optionen, Aspose.Words unterstützt die meisten von ihnen, so macht es eine ausgezeichnete Lösung für die Arbeit mit Dokumenten.
+Einige der beliebtesten Formate bei der Arbeit mit Dokumenten sind Microsoft Word -Formate oder Formate, die aus Word exportiert werden können. Aus diesem Grund sind viele Benutzer an denselben Dokumentenschutzoptionen interessiert, die Microsoft Word bietet. Trotz der Komplexität dieser Optionen unterstützt Aspose.Words die meisten von ihnen und ist daher eine hervorragende Lösung für die Arbeit mit Dokumenten.
 
-Dieser Artikel beschreibt, welche Optionen Aspose.Words bietet Dokumentenschutz und wie diese Optionen in den vertrauten Microsoft Word Benutzeroberfläche. In den Kinderartikeln des aktuellen Abschnitts erfahren Sie mehr über die aufgeführten Schutzfunktionen mit allen notwendigen Eigenschaften und Methoden.
+In diesem Artikel wird beschrieben, welche Optionen Aspose.Words für den Dokumentenschutz bereitstellt und wie diese Optionen in der vertrauten Microsoft Word-Benutzeroberfläche dargestellt werden. In den untergeordneten Artikeln des aktuellen Abschnitts erfahren Sie mehr über die aufgelisteten Schutzfunktionen mit allen notwendigen Eigenschaften und Methoden.
 
-## Optionen zum Dokumentenschutz
+## Optionen für den Dokumentenschutz
 
-Aspose.Words aktuell die in der nachstehenden Tabelle aufgeführten Dokumentmerkmale. Im aktuellen Abschnitt finden Sie die Details zu jedem der Merkmale im entsprechenden Kinderartikel.
+Aspose.Words stellt derzeit die in der folgenden Tabelle aufgeführten Dokumentfunktionen bereit. Die Details zu den einzelnen Funktionen finden Sie im entsprechenden untergeordneten Artikel im aktuellen Abschnitt.
 
-|  Aspose.Words Schutzfunktion |  Entsprechender Kinderartikel |  Entsprechende MS Wortfunktion |
-|  -------------------------------  |  ------------------------------  |  ------------------------------------------------------------  |
-|  Nur lesen |  "Ein Dokument nur öffnen" |  Immer Open Read-Only (Datei → Info → Dokument schützen)<br/>Alternative Funktion: "Passwort zu ändern" (Save As → Tools → Allgemeine Optionen → Passwort) |
-|  Verschlüsseln eines Dokuments |  "Ein Dokument verschlüsseln" |  Verschlüsseln mit Passwort (Datei → Info → Dokument schützen)<br/>Alternative Funktion: "Passwort zu öffnen" (Save As → Tools → Allgemeine Optionen → Passwort) |
-|  Einschränkung der Bearbeitung |  "Bearbeiten von Dokumenten beschränken" |  Einschränkungsbearbeitung (Datei – Info – Schutzdokument)<br/>Alternative Funktion: "Restrict Editing" (Review → Protect → Restrict Editing) |
-|  Digitale Signaturen |  "Arbeit mit digitalen Signaturen" |  Hinzufügen einer digitalen Signatur (Datei → Info → Dokument schützen) |
+| Aspose.Words Schutzfunktion | Entsprechender untergeordneter Artikel | Entsprechendes MS Wortmerkmal |
+| ------------------------------- | ------------------------------ | ------------------------------------------------------------ |
+| Schreibgesch | "Ein Dokument schreibgeschützt öffnen" | Immer schreibgeschützt öffnen (Datei → Info → Dokument schützen)<br />Alternative Funktion: "Zu änderndes Passwort" (Speichern unter → Extras → Allgemeine Optionen → Passwort) |
+| Ein Dokument verschlüsseln | "Ein Dokument verschlüsseln" | Mit Passwort verschlüsseln (Datei → Info → Dokument schützen)<br />Alternative Funktion: "Passwort zum Öffnen" (Speichern unter → Extras → Allgemeine Optionen → Passwort) |
+| Bearbeitung einschränken | "Dokumentbearbeitung einschränken" | Bearbeitung einschränken (Datei - Info - Dokument schützen)<br />Alternative Funktion: "Bearbeitung einschränken" (Überprüfen → Schützen → Bearbeitung einschränken) |
+| Digitale Signaturen | "Mit digitalen Signaturen arbeiten" | Fügen Sie eine digitale Signatur hinzu (Datei → Info → Dokument schützen) |
 
 {{% alert color="primary" %}}
 
-Anmerkung: Aspose.Words nicht unterstützt beide Microsoft Word "Mark as Final" und "Restrict Access".
+Beachten Sie, dass Aspose.Words nicht beide Microsoft Word -Funktionen "Als endgültig markieren" und "Zugriff einschränken" unterstützt.
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-Beachten Sie, dass die genauen Namen der Funktionen und die Pfade zu ihnen in Microsoft Word kann sich je nach Version unterscheiden, wir versuchen, den Benutzern die neuesten Daten zu liefern.
+Beachten Sie, dass die genauen Namen der Features und die Pfade zu ihnen in Microsoft Word je nach Version unterschiedlich sein können.Wir versuchen, den Benutzern die neuesten Daten zur Verfügung zu stellen.
 
 {{% /alert %}}
 
 ## Siehe auch
 
-* Probieren Sie unsere [Online Dokumente freischalten](https://products.aspose.app/words/unlock)
+* Probieren Sie unsere [Kostenlose Online Dokumente-Entsorger](https://products.aspose.app/words/unlock)

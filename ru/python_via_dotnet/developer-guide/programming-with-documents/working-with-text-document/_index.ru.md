@@ -1,57 +1,57 @@
----
+﻿---
 title: Работа с текстовым документом
 second_title: Aspose.Words для Python via .NET
 articleTitle: Работа с текстовым документом
 linktitle: Работа с текстовым документом
-description: "Работа с текстовым документом и изменение его объектов с помощью Python."
+description: "Работайте с текстовым документом и изменяйте его объекты, используя Python."
 type: docs
 weight: 430
 url: /ru/python-net/working-with-text-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-В этой статье мы узнаем, какие варианты могут быть полезны для работы с текстовым документом. Aspose.Words. Обратите внимание, что это не полный список доступных вариантов, а лишь пример работы с некоторыми из них.
+В этой статье мы узнаем, какие опции могут быть полезны для работы с текстовым документом через Aspose.Words. Пожалуйста, обратите внимание, что это не полный список доступных опций, а лишь пример работы с некоторыми из них.
 
-## Добавить би-направление знаки
+## Добавление двунаправленных меток
 
-Вы можете использовать [add_bidi_marks](https://reference.aspose.com/words/python-net/aspose.words.saving/txtsaveoptions/add_bidi_marks/) свойство указывать, следует ли добавлять двунаправленные знаки перед каждым запуском BiDi при экспорте в формате простого текста. Aspose.Words Вставка символа Unicode "Справа налево" (U+200F) перед каждым двунаправленным [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) в тексте. Эта опция соответствует опции "Добавить двунаправленные отметки" в диалоге преобразования файлов MS Word при экспорте в формат простого текста. Обратите внимание, что он появляется в диалоге только в том случае, если в MS Word добавлен какой-либо из языков редактирования на арабском или иврите.
+Вы можете использовать свойство [add_bidi_marks](https://reference.aspose.com/words/python-net/aspose.words.saving/txtsaveoptions/add_bidi_marks/), чтобы указать, следует ли добавлять двунаправленные метки перед каждым запуском BiDi при экспорте в обычный текстовый формат. Aspose.Words вставляет символ Юникода 'RIGHT-TO-LEFT MARK' (U+200F) перед каждым двунаправленным символом [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) в тексте. Эта опция соответствует опции "Добавить двунаправленные метки" в диалоге преобразования файлов MS Word при экспорте в обычный текстовый формат. Обратите внимание, что она отображается в диалоге только в том случае, если в MS Word добавлен какой-либо из языков редактирования - арабский или иврит.
 
-Следующий пример показывает, как использовать [add_bidi_marks](https://reference.aspose.com/words/python-net/aspose.words.saving/txtsaveoptions/add_bidi_marks/) собственность. По умолчанию стоимость этого имущества является `False`:
+В следующем примере кода показано, как использовать свойство [add_bidi_marks](https://reference.aspose.com/words/python-net/aspose.words.saving/txtsaveoptions/add_bidi_marks/). Значение этого свойства по умолчанию равно `False`:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_txt_save_options-AddBidiMarks.py" >}}
 
-## Распознайте элементы списка во время загрузки TXT
+## Распознавать элементы Списка Во время Загрузки TXT
 
-Aspose.Words может импортировать элемент списка текстового файла в виде номеров списка или простого текста в своей модели объекта документа. The [detect_numbering_with_whitespaces](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/detect_numbering_with_whitespaces/) свойство позволяет указать, насколько пронумерованы пункты списка при импорте документа из простого текстового формата:
+Aspose.Words может импортировать элементы списка из текстового файла в виде списковых номеров или обычного текста в свою объектную модель документа. Свойство [detect_numbering_with_whitespaces](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/detect_numbering_with_whitespaces/) позволяет указать способ распознавания элементов нумерованного списка при импорте документа из обычного текстового формата:
 
-* Если эта опция установлена `True`, Белые пробелы также используются в качестве ограничителей номеров списков: алгоритм распознавания списков для нумерации арабского стиля (1., 1.1.2.) использует как белые пробелы, так и символы точки (.).
-* Если эта опция установлена `False`, Алгоритм распознавания списков обнаруживает абзацы списков, когда номера списков заканчиваются либо точкой, правой кронштейном, либо символами пули (такими как "•", "*", "-" или "o").
+* Если для этого параметра установлено значение `True`, пробелы также используются в качестве разделителей номеров списков: алгоритм распознавания списков для нумерации в арабском стиле (1., 1.1.2.) использует как пробелы, так и точки (".").
+* Если для этой опции установлено значение `False`, алгоритм распознавания списков распознает абзацы списка, когда номера списка заканчиваются точкой, правой скобкой или маркером (например, "•", "*", "-" или "o").
 
-Следующий пример кода показывает, как использовать это свойство:
+В следующем примере кода показано, как использовать это свойство:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Load Options-working_with_txt_load_options-DetectNumberingWithWhitespaces.py" >}}
 
-## Обработка ведущих и прицепных пространств во время загрузки TXT
+## Обрабатывать начальные и конечные пробелы во время загрузки TXT
 
-Вы можете контролировать способ обработки ведущих и отслеживающих пространств при загрузке файла TXT. Ведущие пространства могут быть обрезаны, сохранены или преобразованы в углубления, а задние пространства могут быть обрезаны или сохранены.
+Вы можете управлять способом обработки начальных и конечных пробелов во время загрузки файла TXT. Начальные пробелы могут быть обрезаны, сохранены или преобразованы в отступ, а конечные пробелы могут быть обрезаны или сохранены.
 
-Следующий пример кода показывает, как обрезать ведущие и отслеживающие пространства при импорте файла TXT:
+В следующем примере кода показано, как обрезать начальные и конечные пробелы при импорте файла TXT:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Load Options-working_with_txt_load_options-HandleSpacesOptions.py" >}}
 
-## Обнаружить документ Направление текста
+## Определение направления текста документа
 
-Aspose.Words обеспечивает [document_direction](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/document_direction/) собственность в [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/) класс для определения направления текста (RTL/LTR) в документе. Это свойство устанавливает или получает текстовые инструкции документа, указанные в [DocumentDirection](https://reference.aspose.com/words/python-net/aspose.words.loading/documentdirection/) перечисление. Значение по умолчанию слева направо.
+Aspose.Words предоставляет свойство [document_direction](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/document_direction/) в классе [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/) для определения направления текста (RTL / LTR) в документе. Это свойство задает или возвращает направление текста документа, указанное в перечислении [DocumentDirection](https://reference.aspose.com/words/python-net/aspose.words.loading/documentdirection/). Значение по умолчанию - слева направо.
 
-Следующий пример кода показывает, как определить текстовое направление документа при импорте файла TXT:
+В следующем примере кода показано, как определить направление текста документа при импорте файла TXT:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Load Options-working_with_txt_load_options-DocumentTextDirection.py" >}}
 
-## Экспортный заголовок и фотер на выходе TXT
+## Экспортируйте верхний и нижний колонтитулы в выходные данные TXT
 
-Если вы хотите экспортировать заголовок и футер в выходном документе TXT, вы можете использовать [export_headers_footers_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/txtsaveoptionsbase/export_headers_footers_mode/) собственность. Это свойство определяет, как заголовки и нижние колонтитулы экспортируются в простой текстовый формат.
+Если вы хотите экспортировать верхний и нижний колонтитулы в выходной документ TXT, вы можете использовать свойство [export_headers_footers_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/txtsaveoptionsbase/export_headers_footers_mode/). Это свойство определяет способ экспорта верхних и нижних колонтитулов в обычный текстовый формат.
 
-Следующий пример кода показывает, как экспортировать заголовки и нижние колонтитулы в простой текстовый формат:
+В следующем примере кода показано, как экспортировать верхние и нижние колонтитулы в обычный текстовый формат:
 
 {{< highlight python >}}
 doc = aw.Document(docs_base.my_dir + "Document.docx")
@@ -72,19 +72,19 @@ options.export_headers_footers_mode = aw.saving.TxtExportHeadersFootersMode.NONE
 doc.save(docs_base.artifacts_dir + "WorkingWithTxtSaveOptions.export_headers_footers_mode_C.txt", options)
 {{< /highlight >}}
 
-## Экспортный список в Output TXT
+## Отступ для списка экспорта в выходных данных TXT
 
-Aspose.Words введенный [TxtListIndentation](https://reference.aspose.com/words/python-net/aspose.words.saving/txtlistindentation/) Класс, который позволяет указать, как уровни списка изгибаются при экспорте в простой текстовый формат. Во время работы с [TxtSaveOption](https://reference.aspose.com/words/python-net/aspose.words.saving/txtsaveoptions/), тот [list_indentation](https://reference.aspose.com/words/python-net/aspose.words.saving/txtsaveoptions/list_indentation/) Предоставляется свойство для указания символа, который будет использоваться для индентирования уровней списка, и подсчета, определяющего, сколько символов использовать в качестве отступов на один уровень списка. Значение по умолчанию для свойства символа "0", что указывает на отсутствие отступов. Для подсчета свойств значение по умолчанию составляет 0, что означает отсутствие отступов.
+Aspose.Words введен класс [TxtListIndentation](https://reference.aspose.com/words/python-net/aspose.words.saving/txtlistindentation/), который позволяет указывать отступы для уровней списка при экспорте в обычный текстовый формат. При работе с [TxtSaveOption](https://reference.aspose.com/words/python-net/aspose.words.saving/txtsaveoptions/) свойство [list_indentation](https://reference.aspose.com/words/python-net/aspose.words.saving/txtsaveoptions/list_indentation/) используется для указания символа, который будет использоваться для отступов на уровнях списка, и для определения количества символов, которые будут использоваться в качестве отступа на одном уровне списка. Значение свойства character по умолчанию равно '\0', что указывает на отсутствие отступа. Для свойства count значение по умолчанию равно 0, что означает отсутствие отступов.
 
-### Использование Tab Character
+### Использование символа табуляции
 
-Следующий пример кода показывает, как экспортировать уровни списка с использованием символов вкладки:
+В следующем примере кода показано, как экспортировать уровни списка с использованием символов табуляции:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_txt_save_options-UseTabCharacterPerLevelForListIndentation.py" >}}
 
-### Использование Space Character
+### Использование символа пробела
 
-Следующий пример кода показывает, как экспортировать уровни списка с использованием символов пространства:
+В следующем примере кода показано, как экспортировать уровни списка с использованием пробелов:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_txt_save_options-UseSpaceCharacterPerLevelForListIndentation.py" >}}
 

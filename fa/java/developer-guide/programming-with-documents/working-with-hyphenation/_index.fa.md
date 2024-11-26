@@ -1,92 +1,92 @@
----
-title: همکاری با Hyphenation Java
+﻿---
+title: کار با خط کش در Java
 second_title: Aspose.Words برای Java
-articleTitle: کار با Hyphenation
-linktitle: کار با Hyphenation
-description: "استفاده از هیپنوتیزم برای یک آرایش فشرده تر از متن. این الگوریتم های پیشرفته را برای کار با دیپورتیشن های هیپنوتیزم فراهم می کند، با استفاده از OpenOffice Dictionaries استفاده می کند. Java..."
+articleTitle: کار با خط کش
+linktitle: کار با خط کش
+description: "از خط کش برای ترتیب متن جمع و جورتر استفاده کنید. این الگوریتم های پیشرفته ای را برای کار با دیکشنری های هیفناسیون فراهم می کند، از دیکشنری های OpenOffice با استفاده از Java استفاده می کند."
 type: docs
 weight: 220
 url: /fa/java/working-with-hyphenation/
 timestamp: 2024-01-27-14-07-04
 ---
 
-گاهی اوقات لازم است برای استفاده از هیپنوتیزم برای یک آرایش فشرده تر از متن در یک سند. در عین حال، مهم است که درک کنیم که ویژگی های کلمه ای برای هر زبان متفاوت است.
+گاهی اوقات لازم است از خط کش برای ترتیب فشرده تر متن در یک سند استفاده شود. در عین حال، مهم است که درک کنیم که ویژگی های خط کش کلمه ممکن است برای هر زبان متفاوت باشد.
 
-در حال حاضر، به عنوان اغلب به عنوان آن استفاده نمی شود، به ویژه در متون انگلیسی. با این وجود، استفاده از این ویژگی می تواند تاثیر جدی بر اسناد کاربر داشته باشد – به عنوان یک نتیجه، ظاهر فایل های خروجی، به عنوان مثال، در فرمت PDF.
+در حال حاضر، خط کش به همان اندازه که قبلا استفاده می شد، به ویژه در متون انگلیسی استفاده نمی شود. با این وجود، استفاده از این ویژگی می تواند تأثیر جدی بر اسناد کاربر داشته باشد – خط کش بر طرح و در نتیجه ظاهر فایل های خروجی، به عنوان مثال، در فرمت PDF تأثیر می گذارد.
 
-برای تقسیم صحیح کلمات، از واژه های خاص زبان استفاده می شود. Aspose.Words از الگوریتم های پیشرفته برای کار با چنین اشتباهاتی استفاده می کند و به شما اجازه می دهد تا همان تکرار را به عنوان در داخل دریافت کنید. Microsoft Word...
+برای تقسیم صحیح کلمات، از فرهنگ لغت های خاص زبان استفاده می شود. Aspose.Words از الگوریتم های پیشرفته برای کار با چنین دیکشنری هایی استفاده می کند و به شما اجازه می دهد همان خط کش را که در Microsoft Word وجود دارد، بدست آورید.
 
-## Hyphenation Dictionaries
+## فرهنگ لغت های خط کش
 
-از آنجا که زبان های مختلف از هنجارهای و قوانین مختلف برای واژه های واژه استفاده می کنند، راه حل بهینه برای تکرار صحیح، استفاده از اصطلاحات خاص است. Aspose.Words استفاده از OpenOffice Dictionaries
+از آنجا که زبانهای مختلف از هنجارها و قواعد مختلف برای خط کش کلمات استفاده می کنند، راه حل بهینه برای خط کش صحیح استفاده از دیکشنری های خاص است. Aspose.Words از فرهنگ لغت های OpenOffice استفاده می کند.
 
-برای چک کردن طلسم، OpenOffice استفاده از [Hunspell کتابخانه کتابخانه کتابخانه](https://hunspell.github.io/), که یک تعمیم از الگوریتم هیپنوتیزم TeX است. این الگوریتم اجازه می دهد تا برای تحریک غیر استاندارد خودکار با استفاده از الگوهای استاندارد رقابت و تقلید سفارشی. Hunspell استفاده از [Hyperhen](https://github.com/hunspell/hyphen) برای هیپنوتیزم
+برای بررسی املا، OpenOffice از [Hunspell کتابخانه](https://hunspell.github.io/)، که یک تعمیم الگوریتم خط کش TeX است. این الگوریتم اجازه می دهد تا برای خط کش غیر استاندارد خودکار با استفاده از الگوهای خط کش استاندارد و سفارشی رقابت. Hunspell از [خط کش](https://github.com/hunspell/hyphen) برای خط کش.
 
 {{% alert color="primary" %}}
 
-اخراج های Hyphenation را می توان از [LibreOffice مطالبات GitHub](https://github.com/LibreOffice/dictionaries)... برای مثال، [دانلود موسیقی متن فیلم Punch-US Hyphenation Dictionary](https://github.com/LibreOffice/dictionaries/blob/master/en/hyph_en_US.dic)...
+دیکشنری های خط کش را می توان از [LibreOffice لغت نامه GitHub](https://github.com/LibreOffice/dictionaries). به عنوان مثال, [en - US hyphenation dictionary](https://github.com/LibreOffice/dictionaries/blob/master/en/hyph_en_US.dic).
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-همانطور که Microsoft Word استفاده از دیماتیک به غیر از پرونده های OpenOffice برای انجام سوء استفاده، تکرار برخی از کلمات تعریف شده توسط OpenOffice dictionaries ممکن است متفاوت از Microsoft Word استفراغ به همین دلیل، گاهی اوقات ما باید به مشتریان توصیه کنیم که الگوهای لازم را به دیماتیک خود اضافه کنند تا کلمات خاصی را اصلاح کنند.
+از آنجا که Microsoft Word از دیکشنری های غیر از OpenOffice دیکشنری برای انجام خط کش استفاده می کند، خط کش برخی از کلمات تعریف شده توسط OpenOffice دیکشنری ها ممکن است با خط کش Microsoft Word متفاوت باشد. به همین دلیل، گاهی اوقات ما باید به مشتریان توصیه کنیم که الگوهای لازم را به دیکشنری های خود اضافه کنند تا خط کش کلمات خاص را اصلاح کنند.
 
 {{% /alert %}}
 
-## الگوریتم Hyphenation Algorithm
+## الگوریتم خط کش
 
-Aspose.Words پیاده سازی [دانلود موسیقی متن بازی The Punch بازی Punch-X](https://github.com/hunspell/hyphen/blob/master/README.hyphen) و می تواند از دیپورتیشن های OpenOffice استفاده کند.
+Aspose.Words اجرا می کند [الگوریتمخط کش تکس](https://github.com/hunspell/hyphen/blob/master/README.hyphen) و می تواند از OpenOffice فرهنگ لغت های خط کش استفاده کند.
 
-ویژگی های زیر Aspose.Words الگوریتم ها باید در نظر گرفته شوند:
+ویژگی های زیر الگوریتم های Aspose.Words باید در نظر گرفته شود:
 
-* • پارامترهای فاصله زمانی (LEFTHYP WhenMIN، RightHYP WhenMIN) COMهنگامی که من COMهنگامی که MIN مشخص شده در فرهنگ لغت. Aspose.Words استفاده از مجموعه ای از پارامترهای فاصله بسته به حالت سازگاری سند.
-* الگوریتم هیپنوتیزم در Aspose.Words پشتیبانی [دانلود بازی Hyphenation](https://github.com/hunspell/hyphen/blob/master/README.compound)... با این حال، Aspose.Words تقسیم توالی های شخصیتی شامل حروف الفبائی و غیر آلفا به قطعات الفبائی (کلمات) و آنها را به طور جداگانه.
-  توجه داشته باشید که Microsoft Word منطق تحریف کلمات ترکیبی بستگی به حالت سازگاری سند دارد.
-* الگوریتم هیپنوتیزم در Aspose.Words پیاده سازی نمی کند [غیر استاندارد هیپنوتیزم](https://github.com/hunspell/hyphen/blob/master/doc/tb87nemeth.pdf)... الگوهای غیر استاندارد نادیده گرفته می شوند.
+* پارامترهای فاصله خط کش(LEFTHYPHENMIN, RIGHTHYPHENMIN, COMPOUNDLEFTHYPHENMIN, COMPOUNDRIGHTHYPHENMIN) مشخص شده در فرهنگ لغت hyphenation نادیده گرفته می شود. Aspose.Words از مجموعه پارامترهای فاصله خود بسته به حالت سازگاری سند استفاده می کند.
+* الگوریتم خط کش در Aspose.Words پشتیبانی می کند [خط کش کامپوزیت](https://github.com/hunspell/hyphen/blob/master/README.compound). با این حال، Aspose.Words توالی های کاراکتر حاوی حروف الفبا مخلوط و غیر الفبا را به بخش های الفبا (کلمات) تقسیم می کند و آنها را به طور جداگانه خط کش می کند.
+  توجه داشته باشید که Microsoft Word منطق خط کش کلمات ترکیبی به حالت سازگاری سند بستگی دارد.
+* الگوریتم خط کش در Aspose.Words پیاده سازی نمی کند [خط کش غیر استاندارد](https://github.com/hunspell/hyphen/blob/master/doc/tb87nemeth.pdf). الگوهای غیر استاندارد نادیده گرفته می شوند.
 
-## دانلود بازی Hyphenation Dictionaries
+## بارگذاری دیکشنری های هیفن
 
-برای استفاده از ویژگی های تکراری، ابتدا یک فرهنگ لغت را ثبت کنید. مثال کد زیر نشان می دهد که چگونه می توان دیپورتیشن های تکراری را برای زبان های مشخص شده از یک فایل بارگیری کرد:
+برای استفاده از ویژگی hyphenation، ابتدا یک فرهنگ لغت hyphenation را ثبت کنید.مثال کد زیر نشان می دهد که چگونه دیکشنری های خط کش را برای زبان های مشخص شده از یک فایل بارگذاری کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HyphenateWords-LoadHyphenationDictionaryFromFile.java" >}}
 
 {{% alert color="primary" %}}
 
-شما می توانید فایل قالب این مثال را دانلود کنید. [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx)...
+شما می توانید فایل قالب این مثال را از [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-مثال کد زیر نشان می دهد که چگونه می توان دیپورتیشن های تکراری را برای زبان مشخص شده از یک جریان بارگیری کرد:
+مثال کد زیر نشان می دهد که چگونه دیکشنری های خط کش را برای زبان مشخص شده از یک جریان بارگذاری کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HyphenateWords-LoadHyphenationDictionaryFromStream.java" >}}
 
 {{% alert color="primary" %}}
 
-شما می توانید فایل قالب این مثال را دانلود کنید. [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx)...
+شما می توانید فایل قالب این مثال را از [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-به عنوان یک جایگزین برای پیشگیری از افسردگی های تحریک آمیز، ممکن است ثبت نام تنها نیاز به سوء استفاده از هیپنوتیزم "به درخواست". برای رسیدن به آن، پیاده سازی [IHyphenationCallback](https://reference.aspose.com/words/java/com.aspose.words/ihyphenationcallback/) رابط کاربری و استفاده از callback استاتیک [Callback](https://reference.aspose.com/words/java/com.aspose.words/hyphenation/#getCallback)...
+به عنوان یک جایگزین برای پیش ثبت دیکشنری های خط کش، امکان ثبت تنها دیکشنری های خط کش مورد نیاز "به درخواست"وجود دارد. برای رسیدن به این هدف، رابط [IHyphenationCallback](https://reference.aspose.com/words/java/com.aspose.words/ihyphenationcallback/) را پیاده سازی کنید و از فراخوان استاتیک [Callback](https://reference.aspose.com/words/java/com.aspose.words/hyphenation/#getCallback) استفاده کنید.
 
-مثال کد زیر نشان می دهد که چگونه برای پیاده سازی **IHyphenationCallback** رابط:
+مثال کد زیر نشان می دهد که چگونه رابط **IHyphenationCallback** را پیاده سازی کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HyphenateWords-HyphenationCallback.java" >}}
 
-## تاثیر Hyphenation در Set
+## تاثیر خط کش روی طرح بندی
 
-هنگام شکستن متن به خطوط، Aspose.Words هر کلمه را بررسی کنید که آیا به طور کامل در خط فعلی قرار دارد. اگر یک کلمه دیگر بیش از حد طولانی باشد تا در پایان خط قرار گیرد، به طور پیش فرض Aspose.Words آن را به آغاز خط بعدی به جای تحریک آن حرکت دهید.
+هنگام شکستن متن به خطوط، Aspose.Words هر کلمه را بررسی می کند که آیا کاملا با خط فعلی مطابقت دارد یا خیر. اگر کلمه دیگری برای قرار دادن در انتهای خط خیلی طولانی باشد، به طور پیش فرض Aspose.Words آن را به جای خط خط بعدی به ابتدای خط بعدی منتقل می کند.
 
-با این حال، ویژگی تحریک کننده را می توان در Aspose.Words برای قرار دادن هیپنوتیزم به کلمات برای از بین بردن شکاف در متن توجیه شده یا حفظ طول خط حتی در ستون های باریک. این می تواند بر تعداد خطوط و در نتیجه تعداد صفحات تاثیر بگذارد. به عبارت دیگر، استفاده از تابع اختلال شنوایی بر طرح سند تأثیر می گذارد.
+با این حال، ویژگی hyphenation می تواند در Aspose.Words برای وارد کردن hyphens به کلمات برای از بین بردن شکاف در متن توجیه شده یا برای حفظ طول خط مساوی در ستون های باریک استفاده شود. این به وضوح می تواند بر تعداد خطوط و در نتیجه تعداد صفحات تاثیر بگذارد. به عبارت دیگر، استفاده از تابع خط کش بر طرح سند تأثیر می گذارد.
 
-## Hyphenation و Justification (H&J)
+## خط کش و توجیه (H & J)
 
-Microsoft Word دارای منطق پیچیده برای انتخاب یک نقطه شکستن است اگر متن توجیه شده باشد و تحریف امکان پذیر باشد. به طور خلاصه، Microsoft Word ممکن است ترجیح دهید فضاهای را کوچک یا کشش کنید تا از تکرار خط جلوگیری شود. احتمالا این منطق بر اساس [دانلود بازی Knuth](https://www.eprg.org/G53DOC/pdfs/knuth-plass-breaking.pdf)...
+Microsoft Word منطق پیچیده ای برای انتخاب نقطه توقف دارد اگر متن توجیه شده و خط کش فعال باشد. به طور خلاصه ،Microsoft Word ممکن است ترجیح دهد فضاها را کوچک یا کشش دهد تا از خط خط خط جلوگیری شود. احتمالا این منطق بر اساس [مقاله ی "نوت"](https://www.eprg.org/G53DOC/pdfs/knuth-plass-breaking.pdf).
 
-Aspose.Words اجرای الگوریتم H&J خود را که همان نتیجه را می دهد Microsoft Word و شکستن خط یکسان در سند خروجی را فراهم می کند.
+Aspose.Words الگوریتم H&J خود را پیاده سازی می کند که همان نتیجه را به عنوان Microsoft Word می دهد و شکستن خط یکسان را در سند خروجی فراهم می کند.
 
-## همچنین ببینید
+## بایگانی برچسب برای:
 
-* [Hyperhen - Hyphenation](https://github.com/hunspell/hyphen/blob/master/README)
-* [غیر استاندارد هیپنوتیزم](https://github.com/hunspell/hyphen/blob/master/README.nonstandard)
-* [دانلود موسیقی متن بازی The Punch دانلود بازی Punch](https://github.com/hunspell/hyphen/blob/master/doc/tb87nemeth.pdf)
+* [کتابخانه خط کش](https://github.com/hunspell/hyphen/blob/master/README)
+* [خط کش غیر استاندارد](https://github.com/hunspell/hyphen/blob/master/README.nonstandard)
+* [خط کش غیر استاندارد خودکار در دفتر باز](https://github.com/hunspell/hyphen/blob/master/doc/tb87nemeth.pdf)

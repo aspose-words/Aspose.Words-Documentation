@@ -1,8 +1,8 @@
 ---
-title: Cum se construiește un tabel dintr-un `DataTable` în Java
+title: Cum se construiește un tabel dintr-un DataTable în Java
 second_title: Aspose.Words pentru Java
-articleTitle: Construiți un tabel dintr-un `DataTable`
-linktitle: Construiți un tabel dintr-un `DataTable`
+articleTitle: Construiți un tabel dintr-un DataTable
+linktitle: Construiți un tabel dintr-un DataTable
 description: "Exemplu de completare a tabelului de documente din Baza de date externă folosind Java."
 type: docs
 weight: 130

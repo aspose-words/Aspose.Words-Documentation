@@ -1,38 +1,38 @@
----
-title: 追加する方法 Group 単語の文書の形
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: 協力して Group 単語文書の形
-linktitle: 協力して Group 単語文書の形
-description: "Grouping と ungrouping 形状を使用して Javaお問い合わせ"
+﻿---
+title: Word文書にGroup Shapeを追加する方法
+second_title: Aspose.WordsのためのJava
+articleTitle: Word文書でのGroup Shapesの操作
+linktitle: Word文書でのGroup Shapesの操作
+description: "Javaを使用して図形をグループ化およびグループ化解除します。"
 type: docs
 weight: 290
 url: /ja/java/how-to-add-group-shape-into-a-word-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-時々あなたが追加する必要があります group shape ワード文書に。 こんな感じ group shape 複数の形状で構成されます。
+場合によっては、Word文書にgroup shapeを追加する必要があります。 このようなgroup shapeは複数の図形で構成されます。
 
-インスタグラム Microsoft Word, あなたはすぐに追加することができます group shape 利用する Group コマンド/ボタン。 グループ内の個々の形状を個別に動かすことができます。
+Microsoft Wordでは、グループコマンド/ボタンを使用してgroup shapeをすばやく追加できます。 グループ内の個々の図形は別々に移動できます。
 
-インスタグラム Aspose.Words 簡単に追加できます group shape 使用方法 [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) クラス。 **Shape** 個別に作成 [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) それから加えられた [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) オブジェクトの使用 [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/groupshape/#appendChild-com.aspose.words.Node) メソッド。
+Aspose.Wordsでは、[GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/)クラスを使用してgroup shapeを追加するのは非常に簡単です。 **Shape**は[Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/)クラスを使用して個別に作成され、[AppendChild](https://reference.aspose.com/words/java/com.aspose.words/groupshape/#appendChild-com.aspose.words.Node)メソッドを使用して[GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/)オブジェクトに追加されます。
 
-以下は、 `Shape` 支えられるタイプ Aspose.Wordsお問い合わせ 詳しくはこちらをご覧ください。 [ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/):::
+以下は、Aspose.Wordsでサポートされている`Shape`型の一部です。 完全なリストについては、[ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/)をご覧ください:
 
 - 長方形
-- ラウンド長方形
-- ラウンド長方形
-- エリス
+- RoundRectangle
+- RoundRectangle
+- 楕円
 - ダイヤモンド
 - トライアングル
-- 右三角形
-- パラレルグラム
-- 治療
-- 六角形
+- RightTriangle
+- 平行四辺形
+- 台形
+- ヘキサゴン
 - オクタゴン
 
-**Example**
+**例を示します。**
 
-*追加 group shape ワード文書に。 * 必須
+*Add a group shape into a Word document.*
 
 
 {{< highlight csharp >}}

@@ -1,24 +1,24 @@
----
+﻿---
 title: Печать документа
 second_title: Aspose.Words для Java
-articleTitle: Печать документа Программно или с помощью диалогов
-linktitle: Печать документа Программно или с помощью диалогов
-description: "Печать документа с использованием Java С помощью диалогов Settings, Print Preview и Print Progress."
+articleTitle: Печать документа программным способом или с помощью диалоговых окон
+linktitle: Печать документа программным способом или с помощью диалоговых окон
+description: "Распечатайте документ с помощью Java в диалоговых окнах Настройки, предварительного просмотра и выполнения печати."
 type: docs
 weight: 55
 url: /ru/java/print-a-document-programmatically-or-using-dialogs/
 timestamp: 2024-01-27-14-07-04
 ---
 
-В этой статье описано, как распечатать документ для обработки текстов с помощью Aspose.Words API. Он также демонстрирует методы печати документа с настройками, предварительным просмотром печати и диалогами прогресса печати.
+В этой статье описывается, как напечатать документ в текстовом редакторе с помощью Aspose.Words API. Также демонстрируются методы печати документа с диалоговыми окнами настроек, предварительного просмотра и выполнения печати.
 
-## Печать документа с настройками и диалоги предварительного просмотра печати
+## Печать документа с диалоговыми окнами настроек и предварительного просмотра
 
-При работе с документами часто требуется распечатать их на выбранный принтер. Полезно использовать диалог предварительного просмотра печати, чтобы визуально проверить, как будет отображаться печатный документ, и выбрать соответствующие варианты печати.
+При работе с документами часто требуется распечатать их на выбранном принтере. Полезно использовать диалог предварительного просмотра, чтобы визуально оценить, как будет выглядеть напечатанный документ, и выбрать соответствующие параметры печати.
 
-The Aspose.Words не имеет встроенных диалогов или форм, но реализует [AsposeWordsPrintDocument](https://reference.aspose.com/words/java/com.aspose.words/asposewordsprintdocument/) Класс перекрывает оба java.awt.print. Печатный и java.awt.print. Пейджбл.
+Класс Aspose.Words не имеет встроенных диалоговых окон или форм, но реализует класс [AsposeWordsPrintDocument](https://reference.aspose.com/words/java/com.aspose.words/asposewordsprintdocument/), который переопределяет как java.awt.print.Доступный для печати, так и java.awt.print.Доступный для просмотра страницами.
 
-Следующий пример показывает, как использовать эти классы для печати документа из Aspose.Words С помощью диалогов Print Preview и Settings:
+В следующем примере показано, как использовать эти классы для печати документа из Aspose.Words с помощью диалоговых окон предварительного просмотра и настроек:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-DocumentPreviewAndPrint-PrintDialog.java" >}}
 
@@ -26,12 +26,12 @@ The Aspose.Words не имеет встроенных диалогов или ф
 
 ## Печать нескольких страниц на одном листе
 
-Aspose.Words осуществляет **MultipagePrintDocument** класс, чтобы точно настроить операцию печати для реализации вашей пользовательской логики, определяя, как документ будет отображаться на печатной странице. The **MultipagePrintDocument** Класс обеспечивает возможность печати нескольких страниц на одном листе бумаги.
+Aspose.Words реализует класс **MultipagePrintDocument**, позволяющий точно настроить операцию печати для реализации пользовательской логики путем определения способа отображения документа на печатаемой странице. Класс **MultipagePrintDocument** предоставляет возможность печатать несколько страниц на одном листе бумаги.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-MultiplePagesOnSheet-MultiplePagesOnSheet.java" >}}
 
-Вы можете скачать пример использования **MultipagePrintDocument** класс из [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/c693ec7a8957051c206edc69612094a4169f6def/Examples/DocsExamples/Java/src/main/java/DocsExamples/Rendering_and_printing/PrintDocuments.java#L46)
+Вы можете скачать пример использования класса **MultipagePrintDocument** с сайта [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/c693ec7a8957051c206edc69612094a4169f6def/Examples/DocsExamples/Java/src/main/java/DocsExamples/Rendering_and_printing/PrintDocuments.java#L46).
 
-Результат этого примера кода показан ниже:
+Результат выполнения этого примера кода показан ниже:
 
 ![print_several_pages_on_one_sheet_aspose_words_java](/words/java/print-a-document-programmatically-or-using-dialogs/print-several-pages-on-one-sheet.png)/

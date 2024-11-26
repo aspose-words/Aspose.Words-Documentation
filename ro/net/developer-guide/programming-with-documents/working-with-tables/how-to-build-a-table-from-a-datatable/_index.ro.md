@@ -1,8 +1,8 @@
 ---
-title: Cum să construiești o masă dintr-un `DataTable` în C#?
+title: Cum să construiești o masă dintr-un DataTable în C#?
 second_title: Aspose.Words pentru .NET
-articleTitle: Construiește o masă dintr-o `DataTable`
-linktitle: Construiește o masă dintr-o `DataTable`
+articleTitle: Construiește o masă dintr-o DataTable
+linktitle: Construiește o masă dintr-o DataTable
 description: "Exemplu de completare a unei tabele de documente din baza externă folosind C#."
 type: docs
 weight: 120

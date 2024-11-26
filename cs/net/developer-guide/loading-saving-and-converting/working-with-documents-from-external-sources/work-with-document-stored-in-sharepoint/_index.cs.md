@@ -1,8 +1,8 @@
 ---
-title: Práce s dokumentem uloženým v `SharePoint` Online
+title: Práce s dokumentem uloženým v SharePoint Online
 second_title: Aspose.Words místo .NET
-articleTitle: Práce s dokumentem uloženým v `SharePoint` Online
-linktitle: Práce s dokumentem uloženým v `SharePoint` Online
+articleTitle: Práce s dokumentem uloženým v SharePoint Online
+linktitle: Práce s dokumentem uloženým v SharePoint Online
 description: "Převést Slovo sdílené v SharePoint do PDF pomocí C#. Práce s dokumenty uloženými v SharePoint Různé vstupní formáty, včetně Word, OpenOffice, Image a eBook."
 type: docs
 weight: 20

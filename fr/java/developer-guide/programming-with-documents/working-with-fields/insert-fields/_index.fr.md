@@ -1,8 +1,8 @@
----
+﻿---
 title: Insérer des champs dans Java
 second_title: Aspose.Words pour Java
-articleTitle: Insérer des champs
-linktitle: Insérer des champs
+articleTitle: Insérer des Champs
+linktitle: Insérer des Champs
 description: "Différentes façons d'insérer des champs dans votre document en utilisant Java."
 type: docs
 weight: 20
@@ -12,198 +12,198 @@ timestamp: 2024-01-27-14-07-04
 
 Il existe plusieurs façons d'insérer des champs dans un document:
 
-- utilisant [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)
-- utilisant [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/)
-- utilisant [Aspose.Words Document Object Model (DOM)](/words/fr/java/aspose-words-document-object-model/)
+- en utilisant [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)
+- en utilisant [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/)
+- en utilisant [Aspose.Words Modèle d'objet de document (DOM)](/words/java/aspose-words-document-object-model/)
 
-Dans cet article, nous examinerons chaque manière plus en détail et analyserons comment insérer certains champs en utilisant ces options.
+Dans cet article, nous examinerons chaque méthode plus en détail et analyserons comment insérer certains champs à l'aide de ces options.
 
-## Insérer des champs dans un document en utilisant DocumentBuilder
+## Insertion de champs dans un document à l'aide de DocumentBuilder
 
-En Aspose.Words des [InsertField](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertField(int,boolean)) la méthode est utilisée pour insérer de nouveaux champs dans un document. Le premier paramètre accepte le code plein du champ à insérer. Le second paramètre est optionnel et permet de régler manuellement le résultat du champ. Si cela n'est pas fourni, le champ est mis à jour automatiquement. Vous pouvez passer null ou vide à ce paramètre pour insérer un champ avec une valeur de champ vide. Si vous n'êtes pas sûr de la syntaxe particulière du code de champ, créez le champ dans Microsoft Word d'abord et passer pour voir son code de champ.
+Dans Aspose.Words, la méthode [InsertField](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertField(int,boolean)) est utilisée pour insérer de nouveaux champs dans un document. Le premier paramètre accepte le code de champ complet du champ à insérer. Le deuxième paramètre est facultatif et permet de définir manuellement le résultat du champ. Si ce n'est pas le cas, le champ est mis à jour automatiquement. Vous pouvez passer null ou empty à ce paramètre pour insérer un champ avec une valeur de champ vide. Si vous n'êtes pas sûr de la syntaxe du code de champ particulier, créez d'abord le champ dans Microsoft Word et basculez pour voir son code de champ.
 
 {{% alert color="primary" %}}
 
-Si votre code de champ a un paramètre contenant un espace, alors il doit être enfermé dans les marques vocales. Sinon le champ dans les deux Microsoft Word et Aspose.Words peut ne pas fonctionner aussi bien que prévu que le paramètre est traité par les deux comme étant tronqué.
+Si votre code de champ a un paramètre contenant un espace, il doit être entouré de marques vocales. Sinon, le champ dans Microsoft Word et Aspose.Words peut ne pas fonctionner comme prévu car le paramètre est traité par les deux comme étant tronqué.
 
 {{% /alert %}}
 
-L'exemple de code suivant montre comment insérer un champ de fusion dans un document en utilisant **DocumentBuilder**:
+L'exemple de code suivant montre comment insérer un champ de fusion dans un document à l'aide de **DocumentBuilder**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-InsertField.java" >}}
 
-La même technique est utilisée pour insérer des champs nichés dans d'autres champs.
+La même technique est utilisée pour insérer des champs imbriqués dans d'autres champs.
 
-L'exemple de code suivant montre comment insérer des champs imbriqués dans un autre champ en utilisant **DocumentBuilder**:
+L'exemple de code suivant montre comment insérer des champs imbriqués dans un autre champ à l'aide de **DocumentBuilder**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertNestedFields-InsertNestedFields.java" >}}
 
-### Spécifier la zone au niveau du champ
+### Spécifiez les paramètres régionaux au niveau du champ
 
-Un identificateur de langue est une abréviation numérique internationale standard pour la langue d'un pays ou d'une région géographique. Avec Aspose.Words, vous pouvez spécifier la Locale au niveau du champ en utilisant [LocaleId](https://reference.aspose.com/words/java/com.aspose.words/field/#getLocaleId) propriété, qui obtient ou définit l'identifiant local du champ.
+Un identifiant de langue est une abréviation numérique internationale standard pour la langue d'un pays ou d'une région géographique. Avec Aspose.Words, vous pouvez spécifier les paramètres régionaux au niveau du champ à l'aide de la propriété [LocaleId](https://reference.aspose.com/words/java/com.aspose.words/field/#getLocaleId), qui obtient ou définit les paramètres régionaux du champ ID.
 
 L'exemple de code suivant montre comment utiliser cette option:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-SpecifylocaleAtFieldlevel-SpecifylocaleAtFieldlevel.java" >}}
 
-### Insérer un champ non typé ou vide
+### Insérer un Champ Non Typé / Vide
 
-Si vous voulez insérer des champs non tapés/vides ({}) comme Microsoft Word permet, vous pouvez utiliser [InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) méthode avec [FieldType.FieldNone](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) paramètre. Pour insérer un champ dans un document Word, vous pouvez appuyer sur la combinaison de touches -Ctrl + F9.
+Si vous souhaitez insérer des champs non typés/vides ({}) comme le permet Microsoft Word, vous pouvez utiliser la méthode [InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) avec le paramètre [FieldType.FieldNone](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/). Pour insérer un champ dans un document Word, vous pouvez appuyer sur la combinaison de touches" Ctrl + F9".
 
 L'exemple de code suivant montre comment insérer un champ vide dans le document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertFieldNone-InsertFieldNone.java" >}}
 
-### Insérer `COMPARE` Champ
+### Insérer un champ `COMPARE`
 
-Les `COMPARE` champ compare deux valeurs et retourne la valeur numérique 1 si la comparaison est true ou 0 si la comparaison est false.
+Le champ `COMPARE` compare deux valeurs et renvoie la valeur numérique 1 si la comparaison est vraie ou 0 si la comparaison est fausse.
 
-L'exemple de code suivant montre comment ajouter `COMPARE` champs utilisant DocumentBuilder:
+L'exemple de code suivant montre comment ajouter des champs `COMPARE` à l'aide de DocumentBuilder:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldCompare.java" >}}
 
-### Insérer `IF` Champ
+### Insérer un champ `IF`
 
-Les `IF` champ peut être utilisé pour évaluer les arguments conditionnellement.
+Le champ `IF` peut être utilisé pour évaluer les arguments de manière conditionnelle.
 
-L'exemple de code suivant montre comment ajouter `IF` champs utilisant DocumentBuilder:
+L'exemple de code suivant montre comment ajouter des champs `IF` à l'aide de DocumentBuilder:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldIf.java" >}}
 
-## Insérer des champs dans un document en utilisant FieldBuilder
+## Insertion de champs dans un document à l'aide de FieldBuilder
 
-La façon alternative d'insérer des champs dans Aspose.Words est la [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/) En cours. Il fournit une interface fluide pour spécifier les interrupteurs de champ et les valeurs d'argument comme des champs texte, nœuds ou même imbriqués.
+L'autre façon d'insérer des champs dans Aspose.Words est la classe [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/). Il fournit une interface fluide pour spécifier les commutateurs de champ et les valeurs d'argument sous forme de texte, de nœuds ou même de champs imbriqués.
 
-L'exemple de code suivant montre comment insérer un champ dans un document en utilisant **FieldBuilder**:
+L'exemple de code suivant montre comment insérer un champ dans un document à l'aide de **FieldBuilder**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-FieldBuilder.java" >}}
 
-## Insérer des champs en utilisant DOM
+## Insertion de champs à l'aide de DOM
 
-Vous pouvez également insérer différents types de champs en utilisant [Aspose.Words Document Object Model (DOM)](/words/fr/java/aspose-words-document-object-model/). Dans cette section, nous examinerons quelques exemples.
+Vous pouvez également insérer différents types de champs en utilisant [Aspose.Words Modèle d'objet de document (DOM)](/words/java/aspose-words-document-object-model/). Dans cette section, nous examinerons quelques exemples.
 
-### Insérer la fusion Champ dans un document en utilisant DOM
+### Insertion d'un champ de fusion dans un document à l'aide de DOM
 
-`MERGEFIELD` champ dans le document Word peut être représenté par [FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/) En cours. Vous pouvez utiliser **FieldMergeField** classe pour effectuer les opérations suivantes:
+`MERGEFIELD` field in Word document can be represented by the [FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/) class. You can use **FieldMergeField** class to perform the following operations:
 
-- spécifier le nom du champ de fusion
-- spécifier le formatage du champ de fusion
-- spécifier le texte qui est entre le séparateur de champ et la fin du champ de fusion
-- spécifier le texte à insérer après le champ de fusion si le champ n'est pas vide
-- spécifier le texte à insérer avant le champ de fusion si le champ n'est pas vide
+- spécifiez le nom du champ de fusion
+- spécifiez la mise en forme du champ de fusion
+- spécifiez le texte qui se trouve entre le séparateur de champ et la fin de champ du champ de fusion
+- spécifiez le texte à insérer après le champ de fusion si le champ n'est pas vide
+- spécifiez le texte à insérer avant le champ de fusion si le champ n'est pas vide
 
 {{% alert color="primary" %}}
 
-Pour plus de détails, voir [FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/) classe API.
+Pour plus de détails, voir la classe [FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/) API.
 
 {{% /alert %}}
 
-L'exemple de code suivant montre comment ajouter le `MERGE` champ en utilisant DOM au paragraphe d'un document:
+L'exemple de code suivant montre comment ajouter le champ `MERGE` à l'aide de DOM à un paragraphe d'un document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertMergeFieldUsingDOM-InsertMergeFieldUsingDOM.java" >}}
 
-### Insérer Mail Merge `ADDRESSBLOCK` champ dans un document en utilisant DOM
+### Insertion d'un champ Mail Merge `ADDRESSBLOCK` dans un document à l'aide de DOM
 
-Les `ADDRESSBLOCK` champ est utilisé pour insérer un Mail Merge bloc d'adresse dans un document Word. `ADDRESSBLOCK` champ dans le document Word peut être représenté par [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) En cours. Vous pouvez utiliser **FieldAddressBlock** classe pour effectuer les opérations suivantes:
+Le champ `ADDRESSBLOCK` est utilisé pour insérer un bloc d'adresse Mail Merge dans un document Word. le champ `ADDRESSBLOCK` dans un document Word peut être représenté par la classe [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/). Vous pouvez utiliser la classe **FieldAddressBlock** pour effectuer les opérations suivantes:
 
-- indiquer si le nom du pays ou de la région doit figurer dans le champ
-- indiquer s'il convient de formater l'adresse selon le pays/région du destinataire tel que défini par POST*CODE (Union postale universelle 2006)
-- préciser le nom du pays ou de la région exclu
-- préciser le nom et le format de l'adresse
-- spécifier l'identifiant de langue utilisé pour formater l'adresse
+- indiquez s'il faut inclure le nom du pays/de la région dans le champ
+- indiquez s'il faut formater l'adresse en fonction du pays/de la région du destinataire tel que défini par POST*CODE (Union postale universelle 2006)
+- spécifiez le nom du pays/de la région exclu
+- spécifiez le format du nom et de l'adresse
+- spécifiez la langue ID utilisée pour formater l'adresse
 
 {{% alert color="primary" %}}
 
-Pour plus de détails, voir [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) classe API.
+Pour plus de détails, voir la classe [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) API.
 
 {{% /alert %}}
 
-L'exemple de code suivant montre comment ajouter le Mail Merge `ADDRESSBLOCK` Champ utilisé DOM au paragraphe d'un document:
+L'exemple de code suivant montre comment ajouter le champ Mail Merge `ADDRESSBLOCK` à l'aide de DOM à un paragraphe d'un document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertMailMergeAddressBlockFieldUsingDOM-InsertMailMergeAddressBlockFieldUsingDOM.java" >}}
 
-### Insérer `ADVANCE` champ dans un document sans utiliser DocumentBuilder
+### Insertion d'un champ `ADVANCE` dans un document sans utiliser DocumentBuilder
 
-Les `ADVANCE` champ est utilisé pour compenser le texte suivant dans une ligne vers la gauche, droite, haut ou bas. `ADVANCE` champ dans le document Word peut être représenté par [FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/fieldadvance/) En cours. Vous pouvez utiliser le **FieldAdvance** classe pour effectuer les opérations suivantes:
+Le champ `ADVANCE` est utilisé pour décaler le texte suivant d'une ligne vers la gauche, la droite, le haut ou le bas. le champ `ADVANCE` dans un document Word peut être représenté par la classe [FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/fieldadvance/). Vous pouvez utiliser la classe **FieldAdvance** pour effectuer les opérations suivantes:
 
-- préciser le nombre de points par lesquels le texte qui suit le champ doit être déplacé verticalement depuis le bord supérieur de la page
-- indiquer le nombre de points par lesquels le texte qui suit le champ doit être déplacé horizontalement du bord gauche de la colonne, du cadre ou de la zone de texte
-- indiquer le nombre de points par lesquels le texte qui suit le champ doit être déplacé à gauche, à droite, en haut ou en bas
+- spécifiez le nombre de points par lesquels le texte qui suit le champ doit être déplacé verticalement à partir du bord supérieur de la page
+- spécifiez le nombre de points par lesquels le texte qui suit le champ doit être déplacé horizontalement à partir du bord gauche de la colonne, du bloc ou de la zone de texte
+- spécifiez le nombre de points par lesquels le texte qui suit le champ doit être déplacé vers la gauche, la droite, le haut ou le bas
 
 {{% alert color="primary" %}}
 
-Pour plus de détails, voir [FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/fieldadvance/) classe API.
+Pour plus de détails, voir la classe [FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/fieldadvance/) API.
 
 {{% /alert %}}
 
-L'exemple de code suivant montre comment ajouter le `ADVANCE` Champ utilisé DOM au paragraphe d'un document:
+L'exemple de code suivant montre comment ajouter le champ `ADVANCE` à l'aide de DOM à un paragraphe d'un document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldAdvance.java" >}}
 
-### Insérer `ASK` champ dans un document sans utiliser DocumentBuilder
+### Insertion d'un champ `ASK` dans un document sans utiliser DocumentBuilder
 
-Les `ASK` champ est utilisé pour inciter l'utilisateur à attribuer du texte à un signet dans le document Word. `ASK` champ dans le document Word peut être représenté par [FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/fieldask/) En cours. Vous pouvez utiliser **FieldAsk** classe pour effectuer les opérations suivantes:
+Le champ `ASK` est utilisé pour inviter l'utilisateur à attribuer du texte à un signet dans un document Word. le champ `ASK` dans un document Word peut être représenté par la classe [FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/fieldask/). Vous pouvez utiliser la classe **FieldAsk** pour effectuer les opérations suivantes:
 
-- indiquer le nom du signet
-- spécifier la réponse par défaut de l'utilisateur (valeur initiale contenue dans la fenêtre d'invite)
-- préciser si la réponse de l'utilisateur doit être reçue une fois par Mail Merge fonctionnement
-- spécifiez le texte de l'invite (le titre de la fenêtre de l'invite)
+- spécifiez le nom du signet
+- spécifiez la réponse utilisateur par défaut (valeur initiale contenue dans la fenêtre d'invite)
+- spécifiez si la réponse de l'utilisateur doit être reçue une fois par opération Mail Merge
+- spécifiez le texte de l'invite (le titre de la fenêtre d'invite)
 
 {{% alert color="primary" %}}
 
-Pour plus de détails, voir [FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/fieldask/) classe API.
+Pour plus de détails, voir la classe [FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/fieldask/) API.
 
 {{% /alert %}}
 
-L'exemple de code suivant montre comment ajouter le `ASK` Champ utilisé DOM au paragraphe d'un document:
+L'exemple de code suivant montre comment ajouter le champ `ASK` à l'aide de DOM à un paragraphe d'un document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldAsk.java" >}}
 
-### Insérer `AUTHOR` champ dans un document sans utiliser DocumentBuilder
+### Insertion d'un champ `AUTHOR` dans un document sans utiliser DocumentBuilder
 
-Les `AUTHOR` le champ est utilisé pour spécifier le nom de l'auteur du document `Document` propriétés. `AUTHOR` champ dans le document Word peut être représenté par [FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/) En cours. Vous pouvez utiliser **FieldAuthor** classe pour effectuer les opérations suivantes:
+Le champ `AUTHOR` est utilisé pour spécifier le nom de l'auteur du document à partir des propriétés `Document`. le champ `AUTHOR` dans un document Word peut être représenté par la classe [FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/). Vous pouvez utiliser la classe **FieldAuthor** pour effectuer les opérations suivantes:
 
-- indiquer le nom de l'auteur du document
+- spécifiez le nom de l'auteur du document
 
 {{% alert color="primary" %}}
 
-Pour plus de détails, voir [FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/) classe API.
+Pour plus de détails, voir la classe [FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/) API.
 
 {{% /alert %}}
 
-L'exemple de code suivant montre comment ajouter le `AUTHOR` Champ utilisé DOM au paragraphe d'un document:
+L'exemple de code suivant montre comment ajouter le champ `AUTHOR` à l'aide de DOM à un paragraphe d'un document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertAuthorField-InsertAuthorField.java" >}}
 
-### Insérer `INCLUDETEXT` champ dans un document sans utiliser DocumentBuilder
+### Insertion d'un champ `INCLUDETEXT` dans un document sans utiliser DocumentBuilder
 
-Les `INCLUDETEXT` champ insère le texte et les graphiques contenus dans le document nommé dans le code de champ. Vous pouvez insérer le document entier ou une partie du document mentionné par un signet. Ce champ dans le document Word est représenté par INCLUDETEXT. Vous pouvez utiliser [FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/) classe pour effectuer les opérations suivantes:
+Le champ `INCLUDETEXT` insère le texte et les graphiques contenus dans le document nommé dans le code du champ. Vous pouvez insérer le document entier ou une partie du document référencé par un signet. Ce champ dans le document Word est représenté par INCLUDETEXT. Vous pouvez utiliser la classe [FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/) pour effectuer les opérations suivantes:
 
-- indiquer le nom du signet du document inclus
-- indiquer l'emplacement du document
+- spécifiez le nom du signet du document inclus
+- spécifiez l'emplacement du document
 
 {{% alert color="primary" %}}
 
-Pour plus de détails, voir [FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/) classe API.
+Pour plus de détails, voir la classe [FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/) API.
 
 {{% /alert %}}
 
-L'exemple de code suivant montre comment ajouter le `INCLUDETEXT` champ en utilisant DOM au paragraphe d'un document:
+L'exemple de code suivant montre comment ajouter le champ `INCLUDETEXT` à l'aide de DOM à un paragraphe d'un document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldIncludeText.java" >}}
 
-### Insérer `TOA` champ dans un document sans utiliser DocumentBuilder
+### Insertion d'un champ `TOA` dans un document sans utiliser DocumentBuilder
 
-Les `TOA` (*Table des autorisations*) construit et insère un tableau des autorisations. Les `TOA` champ collecte les entrées marquées par `TA` (*Table des champs Autorisations Entrée*). Microsoft Bureau Word insère le `TOA` champ lorsque vous cliquez sur *Insérer le tableau des autorisations* dans le **Tableau des autorités** sur le **References** onglet. Lorsque vous voyez le `TOA` champ dans votre document, la syntaxe ressemble à ceci:
+Le champ `TOA` (*Table of Authorities*) construit et insère une table d'autorités. Le champ `TOA` collecte les entrées marquées par des champs `TA` (*Table of Authorities Entry*). Microsoft Office Word insère le champ `TOA` lorsque vous cliquez sur *Insert Table of Authorities* dans le groupe **Table of Authorities** de l'onglet **References**. Lorsque vous affichez le champ `TOA` dans votre document, la syntaxe ressemble à ceci:
 
 { `TOA` [Switches ] }
 
 {{% alert color="primary" %}}
 
-Pour plus de détails, voir [FieldToa](https://reference.aspose.com/words/java/com.aspose.words/fieldtoa/) classe API.
+Pour plus de détails, voir la classe [FieldToa](https://reference.aspose.com/words/java/com.aspose.words/fieldtoa/) API.
 
 {{% /alert %}}
 
-L'exemple de code suivant montre comment ajouter le `TOA` champ en utilisant DOM au paragraphe d'un document.
+L'exemple de code suivant montre comment ajouter le champ `TOA` à l'aide de DOM à un paragraphe d'un document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertTOAField-InsertTOAField.java" >}}

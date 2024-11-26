@@ -1,20 +1,20 @@
----
-title: Convertir Entre unidades de medición en Java
-second_title: Aspose.Words para Java
-articleTitle: Convertir Entre unidades de medición
-linktitle: Convertir Entre unidades de medición
-description: "Aspose.Words para Java puede ayudarle con cómo convertir entre unidades de medición, por ejemplo, pulgadas a puntos y puntos a pulgadas, píxeles a puntos, puntos a píxeles."
+﻿---
+title: Convertir entre Unidades de Medida en Java
+second_title: Aspose.Words por Java
+articleTitle: Convertir Entre Unidades De Medida
+linktitle: Convertir Entre Unidades De Medida
+description: "Aspose.Words para Java puede ayudarlo a convertir entre unidades de medida, por ejemplo, pulgadas a puntos y puntos a pulgadas, píxeles a puntos, puntos a píxeles."
 type: docs
 weight: 20
 url: /es/java/convert-between-measurement-units/
 timestamp: 2024-01-27-14-07-04
 ---
 
-La mayoría de las propiedades del objeto proporcionadas en Aspose.Words API que representan alguna medida, como ancho o altura, márgenes y varias distancias, aceptan valores en puntos, donde 1 pulgada equivale a 72 puntos. A veces esto no es conveniente y los puntos necesitan ser convertidos a otras unidades.
+La mayoría de las propiedades de objeto proporcionadas en Aspose.Words API que representan alguna medida, como ancho o alto, márgenes y varias distancias, aceptan valores en puntos, donde 1 pulgada equivale a 72 puntos. A veces, esto no es conveniente y los puntos deben convertirse en otras unidades.
 
-Aspose.Words proporciona el [ConvertUtil](https://reference.aspose.com/words/java/com.aspose.words/convertutil/) clase que proporciona funciones de ayuda para convertir entre varias unidades de medición. Permite convertir pulgadas, píxeles y milímetros a puntos, puntos a pulgadas y píxeles, y convertir píxeles de una resolución a otra. Convertir píxeles en puntos y viceversa se puede realizar en 96 dpi (puntos por pulgada) resoluciones o resolución dpi especificada.
+Aspose.Words proporciona la clase [ConvertUtil](https://reference.aspose.com/words/java/com.aspose.words/convertutil/) que proporciona funciones auxiliares para convertir entre varias unidades de medida. Permite convertir pulgadas, píxeles y milímetros en puntos, puntos en pulgadas y píxeles, y convertir píxeles de una resolución a otra.La conversión de píxeles a puntos y viceversa se puede realizar con resoluciones de 96 ppp (puntos por pulgada) o con una resolución de ppp especificada.
 
-El **ConvertUtil** clase es especialmente útil cuando se establecen varias propiedades de página porque, por ejemplo, las pulgadas son unidades de medición más comunes que los puntos.
+La clase **ConvertUtil** es especialmente útil al establecer varias propiedades de página porque, por ejemplo, las pulgadas son unidades de medida más comunes que los puntos.
 
 El siguiente ejemplo de código muestra cómo especificar las propiedades de la página en pulgadas:
 

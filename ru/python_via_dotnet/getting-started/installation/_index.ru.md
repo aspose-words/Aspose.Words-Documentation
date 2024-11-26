@@ -1,24 +1,24 @@
----
+﻿---
 title: Установка
 second_title: Aspose.Words для Python via .NET
 articleTitle: Установка
 linktitle: Установка
-description: "Устанавливать Aspose.Words для Python использовать Visual Studio Такие инструменты, как Manage NuGet Packages или Package Manager Console Установщик MSI. Используйте Full Trust Разрешение установлено."
+description: "Установите Aspose.Words для Python, используя Visual Studio инструменты, такие как Управление пакетами NuGet или Package Manager Console, и программу установки MSI. Используйте набор разрешений Full Trust."
 type: docs
 weight: 10
 url: /ru/python-net/installation/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Убедитесь, что ваша машина соответствует [Системные требования](/words/ru/python-net/system-requirements/) Прежде чем начать.
+Перед началом работы убедитесь, что ваш компьютер соответствует требованиям к системе [системные требования ](/words/python-net/system-requirements/).
 
-В этой статье объясняется, как установить Aspose.Words для Python via .NET на вашем компьютере.
+В этой статье объясняется, как установить Aspose.Words для Python via .NET на ваш компьютер.
 
-`pip` Самый простой способ скачать и установить [Aspose.Words для Python via .NET](https://pypi.org/project/aspose-words/) APIС. Для этого выполняется следующая команда:
+`pip` - это самый простой способ загрузки и установки [Aspose.Words для Python via .NET](https://pypi.org/project/aspose-words/) APIs. Для этого выполните следующую команду:
 
 `pip install aspose-words`
 
-Как только модуль установлен, вы можете использовать его для своего Python код:
+Как только модуль будет установлен, вы сможете использовать его в качестве своего кода Python:
 
 {{< highlight python >}}
 # Import Aspose.Words for Python via .NET module

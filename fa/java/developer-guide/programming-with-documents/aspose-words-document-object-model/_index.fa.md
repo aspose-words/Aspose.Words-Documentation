@@ -1,154 +1,154 @@
----
-title: Aspose.Words Document Object Model (DOM)
+﻿---
+title: Aspose.Words مدل شیء سند (DOM)
 second_title: Aspose.Words برای Java
-articleTitle: Aspose.Words Document Object Model (DOM)
-linktitle: Aspose.Words Document Object Model (DOM)
+articleTitle: Aspose.Words مدل شیء سند (DOM)
+linktitle: Aspose.Words مدل شیء سند (DOM)
 type: docs
-description: "Document Object Model ()DOM• نمایندگی درونی یک سند Word است. خواندن، دستکاری و اصلاح محتوا و قالب بندی یک سند Word با استفاده از استفاده از Java..."
+description: "مدل شیء سند (DOM) یک نمایش در حافظه یک سند ورد است. خواندن، دستکاری و تغییر محتوا و قالب بندی یک سند ورد با استفاده از Java."
 weight: 10
 url: /fa/java/aspose-words-document-object-model/
 timestamp: 2024-01-27-14-07-04
 ---
 
-The The The The The The Aspose.Words Document Object Model ()DOM• نمایندگی درونی یک سند Word است. The The The The The The Aspose.Words DOM اجازه می دهد تا شما را به برنامه ریزی، دستکاری، و اصلاح محتوا و قالب بندی یک سند Word.
+مدل Aspose.Words Document Object (DOM) یک نمایش در حافظه یک سند ورد است. Aspose.Words DOM به شما اجازه می دهد تا محتوای و قالب بندی یک سند ورد را به صورت برنامه ریزی شده بخوانید، دستکاری کنید و تغییر دهید.
 
-این بخش کلاس های اصلی را توصیف می کند. Aspose.Words DOM و روابط آنها. با استفاده از Aspose.Words DOM کلاس ها، شما می توانید دسترسی برنامه ای به عناصر سند و قالب بندی به دست آورید.
+این بخش کلاس های اصلی Aspose.Words DOM و روابط آنها را توصیف می کند. با استفاده از کلاس های Aspose.Words DOM، می توانید دسترسی برنامه ریزی شده به عناصر سند و قالب بندی را بدست آورید.
 
-## ایجاد سند Object Tree {#create-a-document-objects-tree}
+## ایجاد سند شی درخت {#create-a-document-objects-tree}
 
-هنگامی که یک سند در داخل خوانده می شود Aspose.Words DOM> سپس یک درخت شی ساخته شده و انواع مختلف عناصر سند منبع خود را دارند. DOM اشیاء درخت با خواص مختلف
+وقتی یک سند در Aspose.Words DOM خوانده می شود، یک درخت شی ساخته می شود و انواع مختلف عناصر سند منبع اشیاء درخت DOM خود را با خواص مختلف دارند.
 
-### ساخت گره های سند درخت {#build-document-nodes-tree}
+### درخت گره های سند را بسازید {#build-document-nodes-tree}
 
-وقتی Aspose.Words یک سند کلمه را در حافظه بخوانید، اشیاء انواع مختلف را ایجاد می کند که عناصر سند مختلف را نمایندگی می کنند. هر اجرای یک متن، پاراگراف، جدول یا بخش یک گره است و حتی خود سند یک گره است. Aspose.Words تعریف یک کلاس برای هر نوع گره سند.
+وقتی Aspose.Words یک سند ورد را به حافظه می خواند، اشیاء مختلفی را ایجاد می کند که عناصر مختلف سند را نشان می دهند. هر اجرا از یک متن، پاراگراف، جدول یا بخش یک گره است، و حتی خود سند یک گره است. Aspose.Words برای هر نوع گره سند یک کلاس تعریف می کند.
 
-درخت سند در Aspose.Words الگوی طراحی کامپوزیت:
+درخت سند در Aspose.Words از الگوی طراحی کامپوزیت پیروی می کند:
 
-- تمام کلاس های گره در نهایت از [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) کلاس، که کلاس پایه در Aspose.Words Document Object Model...
-- به عنوان مثال، گره هایی که می توانند حاوی گره های دیگر باشند. **Section** یا **Paragraph**, برگرفته از [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) طبقه، که به نوبه خود از **Node** کلاس
+- تمام کلاس های گره در نهایت از کلاس [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) مشتق می شوند که کلاس پایه در مدل شیء سند Aspose.Words است.
+- گره هایی که می توانند شامل گره های دیگر باشند، به عنوان مثال، **Section** یا **Paragraph**، از کلاس [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) مشتق می شوند، که به نوبه خود از کلاس **Node** مشتق می شوند.
 
-نمودار ارائه شده در زیر نشان می دهد ارث بین کلاس های گره Aspose.Words Document Object Model ()DOM) نام کلاس های انتزاعی در Italics است.
+نمودار زیر ارث بین کلاس های گره ای مدل شیء سند Aspose.Words (DOM) را نشان می دهد. نام کلاس های انتزاعی با خط کش است.
 
 <img src="/words/java/aspose-words-document-object-model/aspose-words-dom.png" alt="aspose-words-dom" style="width:700px"/>
 
 {{% alert color="primary" %}}
 
-The The The The The The Aspose.Words DOM همچنین شامل کلاس های غیر گره ای مانند [Style](https://reference.aspose.com/words/java/com.aspose.words/style/) یا [Font](https://reference.aspose.com/words/java/com.aspose.words/font/), که برای سفارشی کردن ظاهر و سبک در یک سند استفاده می شود. این کلاس ها در این نمودار نشان داده نمی شوند زیرا از آن به ارث برده نمی شوند. `Node` کلاس
+Aspose.Words DOM همچنین شامل کلاس های غیر گره ای مانند [Style](https://reference.aspose.com/words/java/com.aspose.words/style/) یا [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) است که برای سفارشی کردن ظاهر و سبک های درون یک سند استفاده می شود. این کلاس ها در این نمودار نشان داده نشده اند زیرا از کلاس `Node` به ارث نرسیده اند.
 
 {{% /alert %}}
 
-بیایید به یک مثال نگاه کنیم. تصویر زیر نشان می دهد Microsoft Word سند با انواع مختلف محتوا
+بیایید به یک مثال نگاه کنیم. تصویر زیر یک سند Microsoft Word با انواع مختلف محتوا را نشان می دهد.
 
 <img src="/words/java/aspose-words-document-object-model/document-example.png" alt="document-example" style="width:700px"/>
 
-هنگام خواندن سند بالا در Aspose.Words DOM, درخت اشیاء ایجاد شده است، همانطور که در طرح زیر نشان داده شده است.
+هنگام خواندن سند بالا به Aspose.Words DOM، درخت اشیاء ایجاد می شود، همانطور که در طرح زیر نشان داده شده است.
 
 <img src="/words/java/aspose-words-document-object-model/document-example-dom.png" alt="document-example-dom" style="width:700px"/>
 
-[Document](https://reference.aspose.com/words/java/com.aspose.words/document/), [Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/), [Run](https://reference.aspose.com/words/java/com.aspose.words/run/), و تمام بیضی های دیگر در نمودار هستند. Aspose.Words اشیایی که عناصر سند Word را نشان می دهند.
+[Document](https://reference.aspose.com/words/java/com.aspose.words/document/), [Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/), [Run](https://reference.aspose.com/words/java/com.aspose.words/run/), و تمام بیضوی های دیگر در نمودار اشیاء Aspose.Words هستند که عناصر سند ورد را نشان می دهند.
 
-### دریافت یک `Node` نوع {#get-a-node-type}
+### یک نوع `Node` {#get-a-node-type}دریافت کنید
 
-اگر چه [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) کلاس برای تشخیص گره های مختلف از یکدیگر کافی است. Aspose.Words فراهم می کند [NodeType](https://reference.aspose.com/words/java/com.aspose.words/nodetype/) تکرار برای ساده کردن برخی API وظایف، مانند انتخاب گره های یک نوع خاص.
+اگرچه کلاس [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) به اندازه کافی برای تمایز گره های مختلف از یکدیگر کافی است، Aspose.Words برای ساده سازی برخی از وظایف API، مانند انتخاب گره های یک نوع خاص، شمارش [NodeType](https://reference.aspose.com/words/java/com.aspose.words/nodetype/) را فراهم می کند.
 
-نوع هر گره را می توان با استفاده از [NodeType](https://reference.aspose.com/words/java/com.aspose.words/node/#getNodeType) مالکیت این ملک بازگشت **NodeType** افزایش ارزش به عنوان مثال، یک گره پاراگراف نشان داده شده توسط **Paragraph** کلاس بازگشت **NodeType**...**Paragraph**و یک گره جدول نمایندگی شده توسط **Table** کلاس بازگشت **NodeType**...**Table**...
+نوع هر گره را می توان با استفاده از ویژگی [NodeType](https://reference.aspose.com/words/java/com.aspose.words/node/#getNodeType) بدست آورد. این ویژگی یک مقدار **NodeType** شمارش را باز می گرداند. به عنوان مثال، یک گره پاراگراف که توسط کلاس **Paragraph** نشان داده شده است **NodeType**.**Paragraph** را باز می گرداند و یک گره جدول که توسط کلاس **Table** نشان داده شده است **NodeType**.**Table** را باز می گرداند.
 
-مثال زیر نشان می دهد که چگونه یک نوع گره را با استفاده از **NodeType** تکرار:
+مثال زیر نشان می دهد که چگونه یک نوع گره را با استفاده از شمارش **NodeType** بدست آوریم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-GetNodeType-.java" >}}
 
-## مستند Tree Navigation {#document-tree-navigation}
+## ناوبری درخت سند {#document-tree-navigation}
 
-Aspose.Words نشان دهنده یک سند به عنوان یک درخت گره است که شما را قادر می سازد بین گره ها حرکت کنید. این بخش توضیح می دهد که چگونه درخت سند را بررسی و هدایت کنیم. Aspose.Words...
+Aspose.Words یک سند را به عنوان یک درخت گره نشان می دهد که شما را قادر می سازد بین گره ها حرکت کنید. این بخش نحوه کشف و حرکت درخت سند را در Aspose.Words توصیف می کند.
 
-هنگامی که سند نمونه را باز می کنید، که قبلاً در سند اکسپلورر ارائه شده است، درخت گره دقیقاً به نظر می رسد که در آن نشان داده شده است. Aspose.Words...
+وقتی نمونه سند را که قبلا در Document Explorer ارائه شده است باز می کنید، درخت گره دقیقا همان طور که در Aspose.Words نشان داده شده است ظاهر می شود.
 
 <img src="/words/java/aspose-words-document-object-model/document-in-document-explorer.png" alt="document-in-document-explorer" style="width:680px"/>
 
 {{% alert color="primary" %}}
 
-شما می توانید پروژه نمونه "Document Explorer" را در مورد [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/DocsExamples/Java/src/main/java/DocsExamples/Document_explorer)...
+شما می توانید نمونه پروژه "Document Explorer" را در [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/DocsExamples/Java/src/main/java/DocsExamples/Document_explorer).
 
 {{% /alert %}}
 
-### ارتباطات Node {#document-nodes-relationships}
+### روابط گره سند {#document-nodes-relationships}
 
-گره های درخت بین آنها روابط دارند:
+گره های درخت رابطه ای بین آنها دارند:
 
-- یک گره حاوی گره دیگر یک گره است *parent.*
-- گره موجود در گره والدین یک گره است. *child.* گره های کودک همان والدین *sibling* گره ها
-- The *root* گره همیشه [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) گره
+- یک گره حاوی گره دیگر یک *parent.*است
+- گره ای که در گره اصلی وجود دارد یک گره فرزند *child.* از همان پدر و مادر *sibling* گره است.
+- گره *root* همیشه گره [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) است.
 
-گره هایی که می توانند از گره های دیگر مشتق شوند [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) کلاس و تمام گره ها در نهایت از [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) کلاس این دو کلاس پایه روش ها و خواص مشترک برای ناوبری و اصلاح ساختار درخت را فراهم می کنند.
+گره هایی که می توانند شامل گره های دیگر باشند از کلاس [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) مشتق می شوند و در نهایت همه گره ها از کلاس [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) مشتق می شوند. این دو کلاس پایه روش ها و خواص مشترک برای ناوبری و اصلاح ساختار درخت را فراهم می کنند.
 
-نمودار شی UML نشان می دهد چندین گره از سند نمونه و روابط آنها با یکدیگر از طریق والدین، کودک و خواص برادر:
+نمودار شیء UML زیر چندین گره از سند نمونه و روابط آنها با یکدیگر را از طریق ویژگی های والدین، کودک و خواهر و برادر نشان می دهد:
 
 <img src="/words/java/aspose-words-document-object-model/document-nodes-relationships.png" alt="document-nodes-relationships" style="width:370px"/>
 
-#### برچسب ها: Node Owner
+#### سند مالک گره است
 
-یک گره همیشه به یک سند خاص تعلق دارد، حتی اگر فقط از درخت ساخته شده یا حذف شده باشد، زیرا ساختارهای حیاتی در سراسر سند مانند سبک ها و لیست ها در آن ذخیره می شوند. **Document** گره به عنوان مثال، ممکن نیست که یک **Paragraph** بدون هیچ **Document** از آنجا که هر پاراگراف دارای سبک اختصاص داده شده است که در سطح جهانی برای سند تعریف شده است. این قانون در هنگام ایجاد گره های جدید استفاده می شود. اضافه کردن یک جدید **Paragraph** مستقیم به DOM نیاز به یک شیء سند به سازنده دارد.
+یک گره همیشه متعلق به یک سند خاص است، حتی اگر تازه ایجاد شده یا از درخت حذف شده باشد، زیرا ساختارهای حیاتی در سراسر سند مانند سبک ها و لیست ها در گره **Document** ذخیره می شوند. به عنوان مثال، داشتن **Paragraph** بدون **Document** امکان پذیر نیست زیرا هر پاراگراف دارای یک سبک اختصاص داده شده است که در سطح جهانی برای سند تعریف شده است. این قانون هنگام ایجاد هر گره جدید استفاده می شود. اضافه کردن یک **Paragraph** جدید به طور مستقیم به DOM نیاز به یک شی سند به سازنده دارد.
 
 {{% alert color="primary" %}}
 
-The The The The The The [Node.Document](https://reference.aspose.com/words/java/com.aspose.words/node/#getDocument) اموال اسنادی را که گره به آن تعلق دارد، برمی گرداند.
+ویژگی [Node.Document](https://reference.aspose.com/words/java/com.aspose.words/node/#getDocument) سندی را که گره به آن تعلق دارد باز می گرداند.
 
 {{% /alert %}}
 
-هنگام ایجاد یک پاراگراف جدید با استفاده از [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/), سازنده همیشه یک **Document** کلاس مرتبط با آن از طریق [DocumentBuilder.Document](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#Document) مالکیت
+هنگام ایجاد یک پاراگراف جدید با استفاده از [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)، سازنده همیشه یک کلاس **Document** دارد که از طریق ویژگی [DocumentBuilder.Document](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#Document) به آن متصل است.
 
-مثال کد زیر نشان می دهد که هنگام ایجاد هر گره، سندی که دارای گره باشد همیشه تعریف می شود:
+مثال کد زیر نشان می دهد که هنگام ایجاد هر گره، یک سند که مالک گره خواهد بود همیشه تعریف شده است:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-OwnerDocument-.java" >}}
 
-#### گره پدر و مادر
+#### گره اصلی
 
-هر گره دارای یک والد مشخص شده توسط [ParentNode](https://reference.aspose.com/words/java/com.aspose.words/node/#getParentNode) مالکیت یک گره هیچ گره پدر و مادر ندارد، یعنی **ParentNode** در موارد زیر null است:
+هر گره دارای یک والد است که توسط ویژگی [ParentNode](https://reference.aspose.com/words/java/com.aspose.words/node/#getParentNode) مشخص شده است. یک گره هیچ گره اصلی ندارد، یعنی **ParentNode** در موارد زیر null است:
 
-- این گره ساخته شده و هنوز به درخت اضافه نشده است.
-- این گره از درخت برداشته شده است.
-- این ریشه است **Document** گره ای که همیشه دارای یک گره پدر و مادر خالص است.
+- گره تازه ایجاد شده و هنوز به درخت اضافه نشده است.
+- گره از درخت برداشته شده
+- این گره ریشه **Document** است که همیشه یک گره اصلی null دارد.
 
-شما می توانید یک گره از پدر و مادر خود را با تماس با [Remove](https://reference.aspose.com/words/java/com.aspose.words/node/#remove) روش مثال کد زیر نشان می دهد که چگونه به گره والدین دسترسی داشته باشید:
+شما می توانید یک گره را از والد خود با فراخوانی روش [Remove](https://reference.aspose.com/words/java/com.aspose.words/node/#remove) حذف کنید.مثال کد زیر نشان می دهد که چگونه به گره اصلی دسترسی پیدا کنید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-AccessParentNode-.java" >}}
 
 #### گره های کودک
 
-کارآمدترین راه برای دسترسی به گره های کودک [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) از طریق [FirstChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#FirstChild) و [LastChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#LastChild) خواصی که به ترتیب اولین و آخرین گره های کودک را برمی گردانند. اگر گره های کودک وجود نداشته باشد، این خواص بازمی گردند *null*...
+کارآمدترین راه برای دسترسی به گره های فرزند یک [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) از طریق ویژگی های [FirstChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#FirstChild) و [LastChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#LastChild) است که به ترتیب گره های فرزند اول و آخر را باز می گرداند. اگر گره های کودک وجود نداشته باشد، این ویژگی ها *null* باز می گردند.
 
-**CompositeNode** همچنین فراهم می کند [ChildNodes](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChildNodes) مجموعه ای که امکان دسترسی به گره های کودک را می دهد و یا به آن متصل می شود. The The The The The The **ChildNodes** مالکیت یک مجموعه زنده از گره ها است، به این معنی که هر زمان که سند تغییر می کند، مانند زمانی که گره ها برداشته یا اضافه می شوند، **ChildNodes** جمع آوری به طور خودکار به روز می شود.
+**CompositeNode**
 
-اگر فرزندی نداشته باشد، **ChildNodes** اموال یک مجموعه خالی را باز می گرداند. می توانید بررسی کنید که آیا **CompositeNode** شامل هر گره کودک با استفاده از [HasChildNodes](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#hasChildNodes) مالکیت
+اگر یک گره فرزند نداشته باشد، پس ویژگی **ChildNodes** مجموعه خالی را باز می گرداند. شما می توانید با استفاده از ویژگی [HasChildNodes](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#hasChildNodes) بررسی کنید که آیا **CompositeNode** شامل هر گره کودک است یا خیر.
 
-مثال کد زیر نشان می دهد که چگونه گره های کودک فوری را از یک کودک پر کنیم `CompositeNode` استفاده از enumerator ارائه شده توسط `ChildNodes` مجموعه:
+مثال کد زیر نشان می دهد که چگونه گره های کودک فوری یک `CompositeNode` را با استفاده از شمارنده ارائه شده توسط مجموعه `ChildNodes` شمارش کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-ChildNodes-enumerateChildrenOfACompositeNodeUsingEnumeratorProvidedByChildNodesCollection.java" >}}
 
-مثال کد زیر نشان می دهد که چگونه گره های کودک فوری را از یک کودک پر کنیم `CompositeNode` استفاده از دسترسی فهرست شده:
+مثال کد زیر نشان می دهد که چگونه گره های کودک فوری یک `CompositeNode` را با استفاده از دسترسی فهرست شده شمارش کنیم:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-ChildNodes-enumerateChildrenOfACompositeNodeUsingIndexedAccess.java" >}}
 
-#### Sibling Nodes
+#### گره های خواهر و برادر
 
-شما می توانید گره را که بلافاصله قبل یا دنبال یک گره خاص با استفاده از گره خاص [PreviousSibling](https://reference.aspose.com/words/java/com.aspose.words/node/#getPreviousSibling) و [NextSibling](https://reference.aspose.com/words/java/com.aspose.words/node/#getNextSibling) به ترتیب خواص اگر یک گره آخرین فرزند پدر و مادر خود باشد، **NextSibling** مالکیت *null*... در مقابل، اگر گره اولین فرزند پدر و مادر خود باشد، **PreviousSibling** مالکیت *null*...
+شما می توانید گره ای را که بلافاصله قبل یا بعد از یک گره خاص است با استفاده از ویژگی های [PreviousSibling](https://reference.aspose.com/words/java/com.aspose.words/node/#getPreviousSibling) و [NextSibling](https://reference.aspose.com/words/java/com.aspose.words/node/#getNextSibling) به ترتیب بدست آورید. اگر یک گره آخرین فرزند والدینش باشد، پس ویژگی **NextSibling** *null* است. برعکس، اگر گره اولین فرزند والدینش باشد، ویژگی **PreviousSibling** *null* است.
 
-مثال کد زیر نشان می دهد که چگونه به طور موثر از تمام گره های مستقیم و غیر مستقیم کودک از یک گره کامپوزیت بازدید کنید:
+مثال کد زیر نشان می دهد که چگونه به طور موثر از تمام گره های مستقیم و غیرمستقیم کودک یک گره ترکیبی بازدید کنید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-SiblingNodes-.java" >}}
 
-### نوع دسترسی به گره های کودک و والدین
+### دسترسی تایپ شده به گره های کودک و والدین
 
-تا کنون، ما درباره خواصی که یکی از انواع پایه را برگردانده اند، بحث کرده ایم. **Node** یا **CompositeNode**... اما گاهی اوقات شرایطی وجود دارد که شما ممکن است نیاز به ایجاد ارزش به یک کلاس گره خاص، مانند **Run** یا **Paragraph**... این است که شما نمی توانید به طور کامل از ریخته گری در هنگام کار با Aspose.Words DOM, که کامپوزیت است.
+تا کنون، ما در مورد ویژگی هایی که یکی از انواع پایه را باز می گرداند بحث کرده ایم – **Node** یا **CompositeNode**. اما گاهی اوقات شرایطی وجود دارد که ممکن است شما نیاز به انداختن مقادیر به یک کلاس گره خاص داشته باشید، مانند **Run** یا **Paragraph**. یعنی هنگام کار با Aspose.Words DOM که ترکیبی است، نمی توانید کاملا از ریخته گری دور شوید.
 
-برای کاهش نیاز به ریخته گری، بیشتر Aspose.Words کلاس ها ویژگی ها و مجموعه هایی را ارائه می دهند که دسترسی به شدت تایپ شده را فراهم می کنند. سه الگوی اساسی از نوع دسترسی وجود دارد:
+برای کاهش نیاز به ریخته گری، اکثر کلاس های Aspose.Words ویژگی ها و مجموعه هایی را فراهم می کنند که دسترسی به نوع قوی را فراهم می کنند. سه الگوی اساسی دسترسی تایپ شده وجود دارد:
 
-- یک گره پدر و مادر نشان می دهد **FirstXXX** و **LastXXX** خواص برای مثال، **Document** دارای [FirstSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getFirstSection) و [LastSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getLastSection) خواص به طور مشابه، **Table** خواصی مانند [FirstRow](https://reference.aspose.com/words/java/com.aspose.words/table/#getFirstRow), [LastRow](https://reference.aspose.com/words/java/com.aspose.words/table/#getLastRow), و دیگران.
-- یک گره والدین مجموعه ای از گره های کودک مانند [Document.Sections](https://reference.aspose.com/words/java/com.aspose.words/document/#getSections), [Body.Paragraphs](https://reference.aspose.com/words/java/com.aspose.words/story/#getParagraphs), و دیگران.
-- یک گره کودک دسترسی به پدر و مادر خود را، مانند [Run.ParentParagraph](https://reference.aspose.com/words/java/com.aspose.words/inline/#getParentParagraph), [Paragraph.ParentSection](https://reference.aspose.com/words/java/com.aspose.words/paragraph/#getParentSection), و دیگران.
+- یک گره اصلی ویژگی های تایپ شده **FirstXXX** و **LastXXX** را نشان می دهد. به عنوان مثال، **Document** دارای ویژگی های [FirstSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getFirstSection) و [LastSection](https://reference.aspose.com/words/java/com.aspose.words/document/#getLastSection) است. به طور مشابه، **Table** دارای ویژگی هایی مانند [FirstRow](https://reference.aspose.com/words/java/com.aspose.words/table/#getFirstRow)، [LastRow](https://reference.aspose.com/words/java/com.aspose.words/table/#getLastRow) و دیگران است.
+- یک گره والدین مجموعه ای تایپ شده از گره های کودک مانند [Document.Sections](https://reference.aspose.com/words/java/com.aspose.words/document/#getSections)، [Body.Paragraphs](https://reference.aspose.com/words/java/com.aspose.words/story/#getParagraphs) و دیگران را نشان می دهد.
+- یک گره کودک دسترسی تایپ شده به والدین خود را فراهم می کند، مانند [Run.ParentParagraph](https://reference.aspose.com/words/java/com.aspose.words/inline/#getParentParagraph)، [Paragraph.ParentSection](https://reference.aspose.com/words/java/com.aspose.words/paragraph/#getParentSection) و دیگران.
 
-ویژگی های تایپ شده صرفاً میانبرهای مفید هستند که گاهی اوقات دسترسی آسان تری نسبت به خواص عمومی به ارث می رسد. [Node.ParentNode](https://reference.aspose.com/words/java/com.aspose.words/node/#getParentNode) و [CompositeNode.FirstChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getFirstChild)...
+ویژگی های تایپ شده فقط میانبر های مفیدی هستند که گاهی اوقات دسترسی آسان تری نسبت به ویژگی های عمومی که از [Node.ParentNode](https://reference.aspose.com/words/java/com.aspose.words/node/#getParentNode) و [CompositeNode.FirstChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getFirstChild) به ارث رسیده اند، فراهم می کنند.
 
-مثال کد زیر نشان می دهد که چگونه از خواص تایپ شده برای دسترسی به گره های درخت سند استفاده کنید:
+مثال کد زیر نشان می دهد که چگونه از ویژگی های تایپ شده برای دسترسی به گره های درخت سند استفاده کنید:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-TypedAccessToChildrenAndParent-.java" >}}

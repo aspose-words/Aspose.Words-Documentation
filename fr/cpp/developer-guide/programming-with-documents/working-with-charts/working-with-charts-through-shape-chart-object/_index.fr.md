@@ -1,8 +1,8 @@
 ---
-title: Utilisation de graphiques via `Shape.Chart` Objet
+title: Utilisation de graphiques via Shape.Chart Objet
 second_title: Aspose.Words pour C++
-articleTitle: Utilisation de graphiques via `Shape.Chart` Objet
-linktitle: Utilisation de graphiques via `Shape.Chart` Objet
+articleTitle: Utilisation de graphiques via Shape.Chart Objet
+linktitle: Utilisation de graphiques via Shape.Chart Objet
 description: "Graphiques en détail, comment le graphique est lié au nœud de forme dans Aspose.Words pour C++."
 type: docs
 weight: 10

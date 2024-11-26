@@ -1,8 +1,8 @@
 ---
-title: Jak zbudować stół z `DataTable` w Java
+title: Jak zbudować stół z DataTable w Java
 second_title: Aspose.Words zamiast Java
-articleTitle: Zbuduj stół z `DataTable`
-linktitle: Zbuduj stół z `DataTable`
+articleTitle: Zbuduj stół z DataTable
+linktitle: Zbuduj stół z DataTable
 description: "Przykład wypełnienia tabeli dokumentów z zewnętrznej bazy danych Java."
 type: docs
 weight: 130

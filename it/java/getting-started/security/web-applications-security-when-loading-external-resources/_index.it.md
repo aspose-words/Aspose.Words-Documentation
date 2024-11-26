@@ -1,59 +1,59 @@
----
-title: Sicurezza delle applicazioni Web Caricamento delle risorse
+﻿---
+title: Sicurezza delle app Web durante il caricamento delle risorse
 second_title: Aspose.Words per Java
-articleTitle: Applicazioni Web Sicurezza durante il caricamento delle risorse esterne
-linktitle: Applicazioni Web Sicurezza durante il caricamento delle risorse esterne
+articleTitle: Sicurezza delle applicazioni Web durante il caricamento di risorse esterne
+linktitle: Sicurezza delle applicazioni Web durante il caricamento di risorse esterne
 type: docs
-description: "Caricare risorse remote, che può essere un motivo di rischi di sicurezza. Date un'occhiata a problemi di sicurezza comuni e le loro soluzioni in Java."
+description: "Caricare risorse remote, che può essere un motivo di rischi per la sicurezza. Dai un'occhiata ai problemi di sicurezza comuni e alle loro soluzioni in Java."
 weight: 120
 url: /it/java/web-applications-security-when-loading-external-resources/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Per impostazione predefinita, Aspose.Words per Java può caricare risorse remote come immagini, stili CSS o documenti HTML esterni all'importazione di documenti o all'inserimento di immagini tramite DocumentBuilder. Questo comportamento consente di elaborare i documenti in dettaglio, ma può essere un motivo di alcuni rischi di sicurezza se la libreria fa parte di un'applicazione web.
+Per impostazione predefinita, Aspose.Words per Java può caricare risorse remote come immagini, stili CSS o documenti esterni HTML durante l'importazione di documenti o l'inserimento di immagini utilizzando DocumentBuilder. Questo comportamento consente di elaborare i documenti in modo completo, ma può essere un motivo di alcuni rischi per la sicurezza se la libreria fa parte di un'applicazione Web.
 
-In questo articolo, diamo un'occhiata a problemi di sicurezza comuni che possono sorgere quando si caricano le risorse esterne e fornire raccomandazioni su come evitare tali problemi.
+In questo articolo, diamo un'occhiata ai problemi di sicurezza comuni che possono sorgere durante il caricamento di risorse esterne e forniamo consigli su come evitare tali problemi.
 
 {{% alert color="primary" %}}
 
-Aspose.Words non funziona come software antivirus. Pertanto, non fornisce informazioni sulla presenza di componenti maligni nel documento. Per garantire la sicurezza dei tuoi dati, controlla i documenti ottenuti da una fonte esterna. A sua volta, Aspose.Words fornisce raccomandazioni su come affrontare i problemi che possono sorgere quando si caricano le risorse esterne.
+Aspose.Words non funziona come software antivirus. Pertanto, non fornisce informazioni sulla presenza di componenti dannosi nel documento. Per garantire la sicurezza dei tuoi dati, controlla tu stesso i documenti ottenuti da una fonte esterna. A sua volta, Aspose.Words fornisce consigli su come affrontare i problemi che possono sorgere durante il caricamento di risorse esterne.
 
 {{% /alert %}}
 
-## Questioni di sicurezza
+## Problemi di sicurezza
 
-Ci sono un certo numero di problemi di sicurezza tipici quando si caricano le risorse esterne.
+Ci sono una serie di problemi di sicurezza tipici durante il caricamento di risorse esterne.
 
-### Divulgazione Credenziale Via Linked Immagini
+### Divulgazione delle credenziali tramite immagini collegate
 
-Su Windows- host basati, i documenti contenenti riferimenti alle risorse che utilizzano percorsi UNC come *‘\example.com\a\b*’ saranno elaborati per impostazione predefinita. In un ambiente di dominio, questo causerà l'host di inviare le sue credenziali di dominio in un formato hashed al server specificato.
+Negli host basati su Windows, i documenti contenenti riferimenti a risorse che utilizzano percorsi UNC come *‘\\example.com\a\b*’ verranno elaborati per impostazione predefinita. In un ambiente di dominio, questo farà sì che l'host per inviare le credenziali di dominio in un formato hash al server specificato.
 
-Se un aggressore è in grado di convincere un utente o un server a elaborare un documento con un tale collegamento di risorse che indica un host che controlla, l'aggressore riceverà le credenziali dell'account utente o del servizio in formato hash NTLM. Tali dati possono essere riutilizzati in un classico attacco pass-the-hash, permettendo all'attaccante di accedere a qualsiasi risorsa come utente della vittima o account di servizio.
+Se un utente malintenzionato è in grado di convincere un utente o un server a elaborare un documento con tale collegamento di risorsa che punta a un host controllato, l'utente malintenzionato riceverà le credenziali dell'account utente o del servizio in formato hash NTLM. Tali dati possono quindi essere riutilizzati in un classico attacco pass-the-hash, consentendo all'attaccante di accedere a qualsiasi risorsa come utente o account di servizio della vittima.
 
-Se l'account in questione utilizza una password debole o indovinabile, l'attaccante potrebbe inoltre eseguire un attacco di password di cracking per recuperare la password dell'account per un ulteriore uso dannoso.
+Se l'account in questione utilizza una password debole o indovinabile, l'attaccante potrebbe inoltre eseguire un attacco di cracking della password per recuperare la password dell'account per un ulteriore uso dannoso.
 
-### Divulgazione dell'immagine locale Via Linked Immagini
+### Divulgazione di immagini locali tramite immagini collegate
 
-Analogamente al caso precedente, l'elaborazione di un documento con riferimento a un file di immagine locale comporterà l'inserimento del file nel documento finale. Questo può portare alla divulgazione di informazioni sensibili.
+Analogamente al caso precedente, l'elaborazione di un documento con un riferimento a un file immagine locale comporterà l'inclusione di tale file nel documento finale. Questo può portare alla divulgazione di informazioni sensibili.
 
-### La negazione del servizio
+### Negazione del servizio
 
-Un aggressore potrebbe caricare un documento che sia citato o incluso immagini estremamente grandi – le cosiddette "bombe di decompressione". Quando si elaborano queste immagini, la libreria consumerà enormi quantità di memoria e tempo della CPU.
+Un utente malintenzionato potrebbe caricare un documento che fa riferimento o include immagini estremamente grandi - le cosiddette "bombe di decompressione". Durante l'elaborazione di queste immagini, la libreria consumerà enormi quantità di memoria e CPU tempo.
 
-### Server-Side Request Forgery Via Link Contenuto
+### Richiesta lato server di falsificazione tramite contenuto collegato
 
-Un aggressore potrebbe creare una serie di documenti contenenti link incorporati a combinazioni comuni di indirizzo IP interno e porta, quindi inviarli a un servizio web utilizzando il Aspose.Words biblioteca per elaborare i documenti.
+Un utente malintenzionato potrebbe creare una serie di documenti contenenti collegamenti incorporati a combinazioni comuni di indirizzo e porta interni IP, quindi inviarli a un servizio Web utilizzando la libreria Aspose.Words per elaborare i documenti.
 
-In base alla durata del tempo utilizzato dal servizio per elaborare il documento, l'attaccante potrebbe determinare se una data combinazione IP/Port è filtrata da un firewall:
+In base al periodo di tempo utilizzato dal servizio per elaborare il documento, l'utente malintenzionato potrebbe determinare se una determinata combinazione IP / Porta viene filtrata da un firewall:
 
-- il tempo di elaborazione più lungo indica che il pacchetto TCP SYN inviato dal server è stato abbandonato da un firewall
-- tempi di lavorazione rapidi indicano che è stata effettuata una connessione di successo
+- il tempo di elaborazione più lungo indica che il pacchetto TCP SYN inviato dal server è stato eliminato da un firewall
+- il tempo di elaborazione rapido indica che è stata effettuata una connessione riuscita
 
 ## Soluzioni di problemi di sicurezza
 
-Per risolvere i problemi sopra descritti e per migliorare la sicurezza delle applicazioni web, è possibile controllare o disabilitare il caricamento delle risorse esterne utilizzando [IResourceLoadingCallback](https://reference.aspose.com/words/java/com.aspose.words/iresourceloadingcallback/).
+Per risolvere i problemi sopra descritti e migliorare la sicurezza delle applicazioni Web, è possibile controllare o disabilitare il caricamento delle risorse esterne utilizzando [IResourceLoadingCallback](https://reference.aspose.com/words/java/com.aspose.words/iresourceloadingcallback/).
 
-Il seguente esempio di codice mostra come disabilitare il caricamento delle immagini esterne:
+Il seguente esempio di codice mostra come disabilitare il caricamento di immagini esterne:
 
 **Java**
 {{< highlight csharp >}}
@@ -121,7 +121,7 @@ private static class DisableRemoteResourcesHandler implements IResourceLoadingCa
 
 {{% alert color="primary" %}}
 
-Questo articolo si basa sulla società di consulenza [relazione](/words/java/web-applications-security-when-loading-external-resources/ise-aspose-report.pdf).
+Questo articolo si basa sulla società di consulenza Independent Security Evaluators [relazione](/words/java/web-applications-security-when-loading-external-resources/ise-aspose-report.pdf).
 
 {{% /alert %}}
 

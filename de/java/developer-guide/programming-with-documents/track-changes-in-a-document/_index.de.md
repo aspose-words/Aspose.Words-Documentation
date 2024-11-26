@@ -1,89 +1,89 @@
----
-title: Änderungen in einem Dokument verfolgen Java
+﻿---
+title: Verfolgen Sie Änderungen in einem Dokument in Java
 second_title: Aspose.Words für Java
-articleTitle: Änderungen in einem Dokument verfolgen
-linktitle: Änderungen in einem Dokument verfolgen
-description: "Verfolgen Sie Änderungen der von Ihnen oder anderen erstellten Inhalte und Formatierungen. Zugriff auf einzelne Revisionen in einem Dokument und Anwendung verschiedener Eigenschaften auf sie Java."
+articleTitle: Verfolgen von Änderungen in einem Dokument
+linktitle: Verfolgen von Änderungen in einem Dokument
+description: "Verfolgen Sie Änderungen an Inhalten und Formatierungen, die von Ihnen oder anderen vorgenommen wurden. Greifen Sie auf einzelne Revisionen in einem Dokument zu und wenden Sie mit Java verschiedene Eigenschaften auf sie an."
 type: docs
 weight: 270
 url: /de/java/track-changes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Die Funktionalität von Track-Änderungen, auch als Überprüfung bekannt, ermöglicht es Ihnen, Änderungen an Inhalten und Formatierungen von Ihnen oder anderen Benutzern zu verfolgen. Diese Track-Änderungen Funktion mit Aspose.Words unterstützt Spuränderungen Microsoft Word. Mit dieser Funktionalität können Sie auf einzelne Revisionen in Ihrem Dokument zugreifen und unterschiedliche Eigenschaften auf sie anwenden.
+Die Funktionalität von Änderungen nachverfolgen, auch als Überprüfen bezeichnet, ermöglicht es Ihnen, Änderungen an Inhalten und Formatierungen zu verfolgen, die von Ihnen oder anderen Benutzern vorgenommen wurden. Diese Funktion zum Nachverfolgen von Änderungen mit Aspose.Words unterstützt das Nachverfolgen von Änderungen in Microsoft Word. Mit dieser Funktionalität können Sie auf einzelne Revisionen in Ihrem Dokument zugreifen und ihnen verschiedene Eigenschaften zuweisen.
 
-Wenn Sie die Track-Änderungen aktivieren, werden alle eingefügten, gelöschten und geänderten Elemente des Dokuments visuell mit Informationen hervorgehoben, von denen, wann und was geändert wurde. Objekte, die Informationen über das, was geändert wurde, tragen, werden als "Tracking-Änderungen" bezeichnet. Nehmen Sie zum Beispiel an, dass Sie ein Dokument überprüfen und wichtige Änderungen vornehmen möchten – das kann bedeuten, dass Sie Revisionen vornehmen müssen. Auch müssen Sie Kommentare einfügen, um einige der Änderungen zu diskutieren. Dort kommen Tracking-Änderungen in Dokumenten ein.
+Wenn Sie die Funktion Änderungen Nachverfolgen aktivieren, werden alle eingefügten, gelöschten und geänderten Elemente des Dokuments mit Informationen darüber, von wem, wann und was geändert wurde, visuell hervorgehoben. Objekte, die Informationen darüber enthalten, was geändert wurde, werden als "Änderungen verfolgen" bezeichnet. Angenommen, Sie möchten ein Dokument überprüfen und wichtige Änderungen vornehmen – dies kann bedeuten, dass Sie Änderungen vornehmen müssen. Möglicherweise müssen Sie auch Kommentare einfügen, um einige der Änderungen zu besprechen. Hier kommt die Nachverfolgung von Änderungen in Dokumenten ins Spiel.
 
-Dieser Artikel erklärt, wie man Änderungen, die von vielen Bewertern auf demselben Dokument erstellt wurden, verwalten und verfolgen kann, sowie die Eigenschaften für Tracking-Änderungen.
-
-{{% alert color="primary" %}}
-
-Beachten Sie, dass die Kommentarfunktion in Aspose.Words, sowie in Microsoft Word, kann mit Tracking-Änderungen verbunden werden. Denken Sie jedoch daran, dass Kommentare völlig unabhängig von Tracking-Änderungen sind.
-
-{{% /alert %}}
-
-## Was ist eine Revision?
-
-Vor dem Tauchen in Revisionen, erklären wir die Bedeutung von Revisionen. A [revision](https://reference.aspose.com/words/java/com.aspose.words/revision/) eine Änderung, die in einem Knoten eines Dokuments auftritt, während eine Revisionsgruppe, die durch die [RevisionGroup](https://reference.aspose.com/words/java/com.aspose.words/revisiongroup/) class, ist eine Gruppe von sequentiellen Revisionen, die in vielen Knoten eines Dokuments auftreten. Revision ist ein Werkzeug für die Verfolgung von Änderungen.
-
-Überarbeitungen werden in der Funktion Tracking-Änderungen und in der Funktion der vergleichenden Dokumente verwendet, in der Änderungen infolge des Vergleichs auftreten. So zeigen Revisionen innerhalb der Tracking-Änderungen, von wem und was geändert wurde.
+In diesem Artikel wird erläutert, wie Sie Änderungen verwalten und nachverfolgen, die von vielen Prüfern am selben Dokument erstellt wurden, sowie die Eigenschaften zum Nachverfolgen von Änderungen.
 
 {{% alert color="primary" %}}
 
-Anmerkung: Microsoft Word erlaubt es Ihnen nicht, einzelne Revisionen anzuzeigen, es erlaubt Ihnen nur sequentielle Revisionen als eine Einheit anzusehen. Aber... Aspose.Words löst diese Einschränkung mit dem **RevisionGroup** Klasse.
+Beachten Sie, dass die Kommentarfunktion in Aspose.Words sowie in Microsoft Word mit der Nachverfolgung von Änderungen verknüpft werden kann. Denken Sie jedoch daran, dass Kommentare völlig unabhängig von der Nachverfolgung von Änderungen sind.
 
 {{% /alert %}}
 
-Aspose.Words unterstützt verschiedene Revisionstypen sowie Microsoft Word, wie Insertion, Deletion, Format Änderung, StyleDefinition Wechseln und Bewegen. Alle Revisionstypen sind mit [RevisionType](https://reference.aspose.com/words/java/com.aspose.words/revisiontype/) Aufzählung.
+## Was ist eine Revision
+
+Bevor wir in Revisionen eintauchen, wollen wir die Bedeutung von Revisionen erklären. Eine [revision](https://reference.aspose.com/words/java/com.aspose.words/revision/) ist eine Änderung, die in einem Knoten eines Dokuments auftritt, während eine Revisionsgruppe, dargestellt durch die [RevisionGroup](https://reference.aspose.com/words/java/com.aspose.words/revisiongroup/) -Klasse, eine Gruppe aufeinanderfolgender Revisionen ist, die in vielen Knoten eines Dokuments auftreten. Revision ist ein Werkzeug zum Nachverfolgen von Änderungen.
+
+Revisionen werden in der Funktion Änderungen Nachverfolgen und in der Funktion Dokumente vergleichen verwendet, wo Revisionen als Ergebnis des Vergleichs angezeigt werden. Revisionen innerhalb der Funktion zum Nachverfolgen von Änderungen zeigen also an, von wem und was geändert wurde.
 
 {{% alert color="primary" %}}
 
-Beachten Sie, dass Revisionen ein ähnliches Ergebnis haben wie Microsoft Word aber Aspose.Words die Formatierung während der Tracking-Änderungen nicht erkennt.
+Beachten Sie, dass Sie mit Microsoft Word keine einzelnen Revisionen anzeigen können, sondern nur aufeinanderfolgende Revisionen als eine einzelne Entität. Aber Aspose.Words löst diese Einschränkung mit der Klasse **RevisionGroup**.
 
 {{% /alert %}}
 
-## Starten und stoppen Tracking-Änderungen
-
-Das Bearbeiten eines Dokuments zählt in der Regel nicht als Revision, bis Sie beginnen, es zu verfolgen. Aspose.Words Sie können automatisch alle Änderungen in Ihrem Dokument mit einfachen Schritten verfolgen. Sie können den Prozess der Verfolgung von Änderungen einfach starten, indem Sie die [StartTrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#startTrackRevisions-java.lang.String) Methode. Wenn Sie den Prozess der Verfolgung von Änderungen stoppen müssen, so dass zukünftige Änderungen nicht als Revisionen betrachtet werden, müssen Sie die [StopTrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#stopTrackRevisions) Methode.
+Aspose.Words unterstützt verschiedene Revisionstypen sowie in Microsoft Word, z. B. Einfügen, Löschen, FormatChange, StyleDefinitionChange und Verschieben. Alle Revisionstypen werden mit der [RevisionType](https://reference.aspose.com/words/java/com.aspose.words/revisiontype/)-Aufzählung dargestellt.
 
 {{% alert color="primary" %}}
 
-Anmerkung: `StartTrackingRevisions` Verfahren ändert den Status des [TrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#getTrackRevisions) Eigentum und verwendet seinen Wert nicht für das Ziel der Revisionsverfolgung. Darüber hinaus, wenn ein Knoten von einem Ort zu einem anderen innerhalb des Tracked-Dokuments verschoben wurde, dann bewegen Sie Revisionen erstellt werden, einschließlich move-from und move-to-Bereich.
+Beachten Sie, dass Revisionen ein ähnliches Ergebnis wie Microsoft Word haben, aber Aspose.Words die Formatierung während der Nachverfolgung von Änderungen nicht erkennt.
 
 {{% /alert %}}
 
-Am Ende des Tracking-Änderungsprozesses in Ihrem Dokument haben Sie die Möglichkeit, sogar alle Revisionen zu akzeptieren oder sie abzulehnen, um das Dokument in seine ursprüngliche Form umzuwandeln. Dies kann durch die Verwendung der [AcceptAllRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#acceptAllRevisions) oder [RejectAll](https://reference.aspose.com/words/java/com.aspose.words/revisioncollection/#rejectAll) Methode. Darüber hinaus können Sie jede Revision durch die Verwendung der [Accept](https://reference.aspose.com/words/java/com.aspose.words/revision/#accept) oder [Reject](https://reference.aspose.com/words/java/com.aspose.words/revision/#reject) Methode.
+## Nachverfolgung von Änderungen starten und stoppen
 
-Alle Änderungen werden für eine Iteration von dem Moment verfolgt, in dem Sie den Prozess starten, bis zu dem Moment, in dem Sie ihn stoppen. Die Verbindung zwischen verschiedenen Iterationen wird als folgendes Szenario dargestellt: Sie vervollständigen den Tracking-Prozess, machen dann einige Änderungen und starten Tracking-Änderungen wieder. Mit diesem Szenario werden alle Änderungen angezeigt, die Sie nicht akzeptiert oder abgelehnt haben.
+Das Bearbeiten eines Dokuments zählt normalerweise erst dann als Überarbeitung, wenn Sie mit der Nachverfolgung beginnen. Aspose.Words ermöglicht es Ihnen, alle Änderungen in Ihrem Dokument mit einfachen Schritten automatisch zu verfolgen. Sie können den Prozess der Nachverfolgung von Änderungen einfach mit der [StartTrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#startTrackRevisions-java.lang.String) -Methode starten. Wenn Sie den Prozess der Nachverfolgung von Änderungen stoppen müssen, damit zukünftige Änderungen nicht als Revisionen betrachtet werden, müssen Sie die Methode [StopTrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#stopTrackRevisions) verwenden.
 
 {{% alert color="primary" %}}
 
-Anmerkung: `AcceptAllRevisions` Die Methode ist ähnlich wie die "Aktion aller Veränderungen" in Microsoft Word.
+Beachten Sie, dass die Methode `StartTrackingRevisions` den Status der Eigenschaft [TrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#getTrackRevisions) nicht ändert und ihren Wert nicht für das Ziel der Revisionsverfolgung verwendet. Wenn ein Knoten innerhalb des verfolgten Dokuments von einer Position an eine andere verschoben wurde, werden außerdem Verschiebungsrevisionen erstellt, einschließlich Verschiebungsbereich von und Verschiebungsbereich.
 
 {{% /alert %}}
 
-Das folgende Codebeispiel zeigt, wie man mit Tracking-Änderungen arbeitet:
+Am Ende des Änderungsverfolgungsprozesses in Ihrem Dokument haben Sie die Möglichkeit, sogar alle Überarbeitungen zu akzeptieren oder abzulehnen, um das Dokument in seine ursprüngliche Form zurückzusetzen. Dies kann entweder mit der Methode [AcceptAllRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#acceptAllRevisions) oder [RejectAll](https://reference.aspose.com/words/java/com.aspose.words/revisioncollection/#rejectAll) erreicht werden. Darüber hinaus können Sie jede Revision separat akzeptieren oder ablehnen, indem Sie die [Accept](https://reference.aspose.com/words/java/com.aspose.words/revision/#accept)- oder [Reject](https://reference.aspose.com/words/java/com.aspose.words/revision/#reject)-Methode verwenden.
+
+Alle Änderungen werden für eine Iteration von dem Moment an, in dem Sie den Prozess starten, bis zu dem Moment, in dem Sie ihn stoppen, nachverfolgt. Die Verbindung zwischen verschiedenen Iterationen wird als das folgende Szenario dargestellt: Sie schließen den Verfolgungsprozess ab, nehmen dann einige Änderungen vor und beginnen erneut mit der Verfolgung von Änderungen. In diesem Szenario werden alle Änderungen, die Sie nicht akzeptiert oder abgelehnt haben, erneut angezeigt.
+
+{{% alert color="primary" %}}
+
+Beachten Sie, dass die Methode `AcceptAllRevisions` der Methode "Alle Änderungen akzeptieren" in Microsoft Word ähnelt.
+
+{{% /alert %}}
+
+Das folgende Codebeispiel zeigt, wie Sie mit der Nachverfolgung von Änderungen arbeiten:
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-TrackChanges-WorkWithTrackChanges.java" >}}
 
-Das folgende Codebeispiel zeigt, wie Revisionen generiert werden, wenn ein Knoten innerhalb eines Tracked-Dokuments bewegt wird:
+Das folgende Codebeispiel zeigt, wie Revisionen generiert werden, wenn ein Knoten in einem nachverfolgten Dokument verschoben wird:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-TrackChanges-GenerateRevisionsWhenMovingNode.java" >}}
 
-## Veränderungen als Revisionen verwalten und speichern
+## Änderungen als Revisionen verwalten und speichern
 
-Mit der vorherigen Tracking-Änderungen können Sie verstehen, welche Änderungen in Ihrem Dokument vorgenommen wurden und welche diese Änderungen vorgenommen haben. Während mit dem [TrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#getTrackRevisions) Funktion, Sie zwingen alle Änderungen in Ihrem Dokument als Revisionen gespeichert werden.
+Mit der vorherigen Funktion zum Nachverfolgen von Änderungen können Sie nachvollziehen, welche Änderungen an Ihrem Dokument vorgenommen wurden und wer diese Änderungen vorgenommen hat. Mit der Funktion [TrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#getTrackRevisions) erzwingen Sie, dass alle Änderungen in Ihrem Dokument als Überarbeitungen gespeichert werden.
 
-Aspose.Words Sie können überprüfen, ob ein Dokument eine Überarbeitung hat oder nicht, indem Sie die [HasRevision](https://reference.aspose.com/words/java/com.aspose.words/document/#hasRevisions) Eigentum. Wenn Sie die Änderungen in Ihrem Dokument nicht automatisch über die Methoden StartTrackRevisions und StopTrackRevisions nachverfolgen müssen, können Sie das `TrackRevisions` Eigenschaft zu überprüfen, ob die Änderungen beim Bearbeiten eines Dokuments verfolgt werden Microsoft Word und als Revisionen gespeichert.
+Mit Aspose.Words können Sie überprüfen, ob ein Dokument eine Revision hat oder nicht, indem Sie die Eigenschaft [HasRevision](https://reference.aspose.com/words/java/com.aspose.words/document/#hasRevisions) verwenden. Wenn Sie die Änderungen in Ihrem Dokument nicht automatisch mit den Methoden StartTrackRevisions und StopTrackRevisions nachverfolgen müssen, können Sie mit der Eigenschaft `TrackRevisions` überprüfen, ob die Änderungen beim Bearbeiten eines Dokuments in Microsoft Word nachverfolgt und gespeichert werden als Revisionen.
 
-Die `TrackRevisions` Feature macht Revisionen statt real DOM Änderungen. Aber die Revisionen selbst sind getrennt. Zum Beispiel Wenn Sie einen Absatz löschen, Aspose.Words machen es als Revision, markieren es als Löschen, anstatt es zu löschen.
+Die `TrackRevisions` -Funktion nimmt Revisionen anstelle von echten DOM -Änderungen vor. Aber die Revisionen selbst sind getrennt. Wenn Sie beispielsweise einen Absatz löschen, Aspose.Words Erstellen Sie ihn als Überarbeitung und markieren Sie ihn als Löschung, anstatt ihn zu löschen.
 
-Außerdem, Aspose.Words Sie können überprüfen, ob ein Objekt eingefügt, gelöscht oder geänderte Formatierung mithilfe der [IsDeleteRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isDeleteRevision), [IsFormatRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isFormatRevision), [IsInsertRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isInsertRevision), [IsMoveFromRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isMoveFromRevision), und [IsMoveToRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isMoveToRevision) Eigenschaften.
+Außerdem können Sie mit Aspose.Words überprüfen, ob ein Objekt eingefügt, gelöscht oder formatiert wurde, indem Sie die [IsDeleteRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isDeleteRevision), [IsFormatRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isFormatRevision), [IsInsertRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isInsertRevision), [IsMoveFromRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isMoveFromRevision), und [IsMoveToRevision](https://reference.aspose.com/words/java/com.aspose.words/inline/#isMoveToRevision) Eigenschaften.
 
 {{% alert color="primary" %}}
 
-Beachten Sie, dass es keine Verbindung zwischen den Revisionen selbst und der `TrackRevisions` Eigentum. Darüber hinaus können Sie Revisionen akzeptieren/abwerfen, unabhängig von der Funktion Tracking-Änderungen.
+Beachten Sie, dass zwischen den Revisionen selbst und der Eigenschaft `TrackRevisions` keine Verbindung besteht. Darüber hinaus können Sie Revisionen unabhängig von der Funktion zum Nachverfolgen von Änderungen annehmen / ablehnen.
 
 {{% /alert %}}
 
-Das folgende Codebeispiel zeigt, wie man verschiedene Eigenschaften mit Revisionen anwendet:
+Das folgende Codebeispiel zeigt, wie verschiedene Eigenschaften mit Revisionen angewendet werden:
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-TrackChanges-ApplyDifferentPropertiesWithRevisions.java" >}}

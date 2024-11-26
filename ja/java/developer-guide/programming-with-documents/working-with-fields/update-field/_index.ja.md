@@ -1,56 +1,56 @@
----
-title: フィールドの更新 Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: 更新フィールド
-linktitle: 更新フィールド
-description: "フィールドを更新する方法を学ぶ Javaお問い合わせ フィールドをプログラム的に更新するか、自動フィールド更新を使用する Java API"
+﻿---
+title: Javaのフィールドを更新する
+second_title: Aspose.WordsのためのJava
+articleTitle: フィールドの更新
+linktitle: フィールドの更新
+description: "Javaのフィールドを更新する方法を学習します。 プログラムでフィールドを更新するか、JavaAPIを使用して自動フィールド更新を使用します"
 type: docs
 weight: 30
 url: /ja/java/update-field/
 timestamp: 2024-01-27-14-07-04
 ---
 
-典型的には、フィールドを入力 Microsoft Word すでに最新の値を含む。 例えば、フィールドが式やページ番号の場合、指定されたバージョンのドキュメントの正しい計算値が格納されます。 しかし、2つの文書をマージしたり、データをポップアップしたりするなどのフィールドでドキュメントを生成したり変更したりするアプリケーションがある場合は、理想的にはすべてのフィールドがドキュメントに有用なものでなければなりません。
+通常、Microsoft Wordに挿入されたフィールドには、すでに最新の値が含まれています。 たとえば、フィールドが数式またはページ番号の場合、ドキュメントの指定されたバージョンの正しい計算値が含まれます。 しかし、2つのドキュメントをマージしたり、データを入力したりするようなフィールドを持つドキュメントを生成または変更するアプリケーションがある場合、理想的には、ドキュメントが有用であるためにはすべてのフィールドを更新する必要があります。
 
-## フィールドの更新方法
+## フィールドを更新する方法
 
-文書が読み込まれるとき、 Aspose.Words 行動を模倣する Microsoft Word フィールドを自動的に更新するオプションがオフになります。 挙動は以下のようにまとめられます。
+ドキュメントが読み込まれると、Aspose.WordsはMicrosoft Wordの動作を模倣し、フィールドを自動的に更新するオプションがオフになります。 動作は次のように要約できます:
 
-- フィールドがそのまま残っている文書を開く/保存するとき
-- ドキュメントのすべてのフィールドを明示的に更新することができます。例えば、再構築 `TOC` 必要なとき
-- 印刷/レンダリングをPDFにするか、 XPS ヘッダー/フッター内のページ番号に関するフィールドを更新
-- 実行時に Mail Merge すべてのフィールドが自動的に更新されます
+- ドキュメントを開いたり保存したりすると、フィールドはそのまま残ります
+- 文書内のすべてのフィールドを明示的に更新することができます(たとえば、必要に応じて`TOC`を再構築するなど)。
+- PDFまたはXPSに印刷/レンダリングすると、ヘッダー/フッターのページ番号付けに関連するフィールドが更新されます
+- Mail Mergeを実行すると、すべてのフィールドが自動的に更新されます
 
-### フィールドの更新プログラム
+### プログラムによるフィールドの更新
 
-ドキュメント全体でフィールドを明示的に更新するには、単に呼び出します [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) メソッド。 文書の一部に含まれているフィールドを更新するには、 [Range](https://reference.aspose.com/words/java/com.aspose.words/range/) オブジェクトと呼び出し [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/range/#updateFields) メソッド。 インスタグラム Aspose.Words, あなたが得ることができる **Range** ドキュメントツリー内のどのノードでも、 [Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), 等。使用して [GetRange](https://reference.aspose.com/words/java/com.aspose.words/node/#getRange) プロパティ. 単一のフィールドの結果を呼び出して更新することができます [Update](https://reference.aspose.com/words/java/com.aspose.words/field/#update) メソッド。
+文書全体のフィールドを明示的に更新するには、[UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields)メソッドを呼び出すだけです。 文書の一部に含まれるフィールドを更新するには、[Range](https://reference.aspose.com/words/java/com.aspose.words/range/)オブジェクトを取得し、[UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/range/#updateFields)メソッドを呼び出します。 Aspose.Wordsでは、次のようなドキュメントツリー内の任意のノードに対して**Range**を取得できます[Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), など。 [GetRange](https://reference.aspose.com/words/java/com.aspose.words/node/#getRange)プロパティを使用します。 [Update](https://reference.aspose.com/words/java/com.aspose.words/field/#update)メソッドを呼び出すことで、単一のフィールドの結果を更新できます。
 
 ### レンダリング中のページ関連フィールドの自動更新
 
-ドキュメントの変換を PDF や PDF などの固定ページ形式に実行する場合 XPS, それから Aspose.Words ページレイアウト関連フィールドを自動的に更新します `PAGE`, `PAGEREF` ドキュメントのヘッダ/フッターで見つかった。 この振る舞いは行動を模倣します Microsoft Word 文書を印刷するとき。
+文書をPDFやXPSなどの固定ページ形式に変換すると、Aspose.Wordsは文書のヘッダー/フッターにあるページレイアウト関連フィールド`PAGE`、`PAGEREF`を自動的に更新します。 この動作は、文書を印刷するときのMicrosoft Wordの動作を模倣しています。
 
-ドキュメント内の他のすべてのフィールドを更新したい場合は、呼び出しする必要があります [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) ドキュメントをレンダリングする前に。
+ドキュメント内の他のすべてのフィールドを更新する場合は、ドキュメントをレンダリングする前に[UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields)を呼び出す必要があります。
 
-次の例では、ドキュメントをレンダリングする前に、すべてのフィールドを更新する方法を示します。
+次の例は、ドキュメントを表示する前にすべてのフィールドを更新する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UpdateFields-UpdateFields.java" >}}
 
-### 自動フィールドの更新 Mail Merge
+### Mail Merge中の自動フィールド更新
 
-実行時に mail merge????? ドキュメント内のすべてのフィールドが自動的に更新されます。 これは、 Mail Merge フィールドの更新の場合です。 プログラムが遭遇する Mail Merge フィールドと結果を更新する必要があります。これは、データソースから値をつかみ、フィールドに投入することを含みます。 ロジックは、もちろん複雑で、例えば文書の終端時/mail merge 地域は到達していますが、まだ合併するデータがまだあります。この領域は重複し、更新されたフィールドの新しいセットである必要があります。
+Mail mergeを実行すると、文書内のすべてのフィールドが自動的に更新されます。 これは、Mail Mergeがフィールド更新の場合であるためです。 プログラムはMail Mergeフィールドに遭遇し、データソースから値を取得してフィールドに挿入することを含む結果を更新する必要があります。 論理は、もちろん、例えば、文書/mail merge領域の終わりに達したが、マージされるデータがまだある場合、領域を複製し、新しいフィールドのセットを更新する必要があ
 
-## 汚い属性を持つフィールドを更新する
+## Dirty属性を持つフィールドを更新する
 
-w:dirty は、ドキュメントが開いたときに指定したフィールドだけをリフレッシュするフィールドレベルの属性です。 ドキュメントが開いたら、このフィールドだけをリフレッシュするために、MS Word を指示します。 LoadOptions.setUpdateDirtyFields() プロパティを使用して、汚れた属性でフィールドを更新するかどうかを指定できます。 LoadOptions.setUpdateDirtyFields() の値がセットされるとき *true*????? すべてのフィールド *true* バリュー `Field.IsDirty` または `FieldChar.IsDirty` ドキュメントの読み込みにプロパティが更新されます。
+W:dirtyは、ドキュメントを開いたときに指定したフィールドのみを更新するフィールドレベルの属性です。 次に文書を開いたときにのみこのフィールドを更新するようにMSWordに指示します。 LoadOptionsを使用できます。setUpdateDirtyFields()プロパティは、dirty属性でフィールドを更新するかどうかを指定します。 ときにLoadOptionsの値。setUpdateDirtyFields()は*true*に設定され、`Field.IsDirty`または`FieldChar.IsDirty`プロパティの*true*値を持つすべてのフィールドは、ドキュメントのロード時に更新されます。
 
-次のコードの例では、汚れた属性を持つフィールドを更新する方法を示します。
+Dirty属性を持つフィールドを更新する方法を次のコード例に示します:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-LoadOptionsUpdateDirtyFields-LoadOptionsUpdateDirtyFields.java" >}}
 
-## 保存する前にLastSavedTimeプロパティを更新する
+## 保存する前にLastSavedTimeプロパティを更新します
 
-使うことができます。 [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateLastSavedTimeProperty) 組み込みのドキュメントプロパティを更新するかどうか [LastSavedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getLastSavedTime) 文書を保存するとき。
+ドキュメントを保存するときに、対応する組み込みドキュメントプロパティ[LastSavedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getLastSavedTime)を更新するかどうかを[UpdateLastSavedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateLastSavedTimeProperty)プロパティを使用できます。
 
-次のコードの例では、このプロパティを更新する方法を示します。
+次のコード例は、このプロパティを更新する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UpdateLastSavedTimeProperty-UpdateLastSavedTimeProperty.java" >}}

@@ -1,24 +1,24 @@
----
+﻿---
 title: Lavorare con i caratteri di controllo
 second_title: Aspose.Words per Java
 articleTitle: Lavorare con i caratteri di controllo
 linktitle: Lavorare con i caratteri di controllo
-description: "Introduzione al lavoro con i caratteri di controllo in Aspose.Words per Java."
+description: "Introduzione all'utilizzo dei caratteri di controllo in Aspose.Words per Java."
 type: docs
 weight: 400
 url: /it/java/working-with-control-characters/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Microsoft Word i documenti possono contenere vari caratteri che hanno un significato speciale. Normalmente vengono utilizzati per la formattazione e non vengono disegnati nella modalità normale. È possibile renderli visibili se si fa clic sul pulsante Show/Hide Formatting Marks situato nella barra degli strumenti standard.
+I documenti Microsoft Word possono contenere vari caratteri che hanno un significato speciale. Normalmente vengono utilizzati per scopi di formattazione e non vengono disegnati in modalità normale. È possibile renderli visibili se si fa clic sul pulsante Mostra / Nascondi segni di formattazione situato sulla barra degli strumenti standard.
 
-A volte è necessario aggiungere o rimuovere i caratteri da / dal testo. Per esempio, quando si ottiene il testo programmaticamente dal documento, Aspose.Words conserva la maggior parte dei caratteri di controllo, quindi se è necessario lavorare con questo testo si dovrebbe probabilmente rimuovere o sostituire i caratteri.
+A volte potrebbe essere necessario aggiungere o rimuovere caratteri da/verso il testo. Ad esempio, quando si ottiene il testo a livello di codice dal documento, Aspose.Words conserva la maggior parte dei caratteri di controllo, quindi se è necessario lavorare con questo testo è probabilmente necessario rimuovere o sostituire i caratteri.
 
-The [ControlChar](https://reference.aspose.com/words/java/com.aspose.words/controlchar/) classe è un repository per le costanti che rappresentano i caratteri di controllo spesso incontrati nei documenti. Fornisce sia char che string versioni delle stesse costanti. Ad esempio, stringa [LineBreak](https://reference.aspose.com/words/java/com.aspose.words/controlchar/#LINE-BREAK) e beneficenza [LineBreakChar](https://reference.aspose.com/words/java/com.aspose.words/controlchar/#LINE-BREAK_CHAR) ha lo stesso valore.
+La classe [ControlChar](https://reference.aspose.com/words/java/com.aspose.words/controlchar/) è un repository per le costanti che rappresentano i caratteri di controllo spesso riscontrati nei documenti. Fornisce entrambe le versioni char e string delle stesse costanti. Ad esempio, string [LineBreak](https://reference.aspose.com/words/java/com.aspose.words/controlchar/#LINE-BREAK) e char [LineBreakChar](https://reference.aspose.com/words/java/com.aspose.words/controlchar/#LINE-BREAK_CHAR) hanno lo stesso valore.
 
 {{% alert color="primary" %}}
 
-Utilizzare questa classe ogni volta che si desidera affrontare i caratteri di controllo.
+Usa questa classe ogni volta che vuoi gestire i caratteri di controllo.
 
 {{% /alert %}}
 

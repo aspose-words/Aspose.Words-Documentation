@@ -1,122 +1,122 @@
----
-title: ทํางานกับลายเซ็นดิจิทัลใน Java
-second_title: Aspose.Words สําหรับ Java
-articleTitle: ทํางานกับลายเซ็นดิจิทัล
-linktitle: ทํางานกับลายเซ็นดิจิทัล
-description: "ลายเซ็นดิจิทัลและตรวจสอบ, จํานวน, ตรวจสอบ และเอาลายเซ็นดิจิทัลที่มีอยู่ออกไปโดยใช้ Java."
+﻿---
+title: ทำงานกับลายเซ็นดิจิทัลในJava
+second_title: Aspose.WordsสำหรับJava
+articleTitle: ทำงานกับลายเซ็นดิจิทัล
+linktitle: ทำงานกับลายเซ็นดิจิทัล
+description: "เซ็นชื่อเอกสารแบบดิจิทัลและตรวจจับนับตรวจสอบและลบลายเซ็นดิจิทัลที่มีอยู่ด้วยJava."
 type: docs
 weight: 30
 url: /th/java/working-with-digital-signatures/
 timestamp: 2024-01-27-14-07-04
 ---
 
-ลายเซ็นดิจิตัลเป็นเครื่องมือทางเทคโนโลยีของลายเซ็นอิเล็กทรอนิก เพื่อเซ็นเอกสารและยืนยันผู้เซ็นเพื่อรับประกันว่าเอกสารไม่ได้ถูกแก้ไข ตั้งแต่มีการลงนาม ลายเซ็นดิจิตัลแต่ละตัว ไม่ซ้ํากันสําหรับตัวเซ็นแต่ละตัว เนื่องจากทําตามโพรโทคอล PKI เพื่อสร้างทั้งกุญแจสาธารณะและกุญแจส่วนตัว การเซ็นเอกสารแบบดิจิตอล หมายถึงการสร้างลายเซ็นโดยใช้กุญแจส่วนตัวของผู้เซ็น ซึ่งอัลกอริทึมทางคณิตศาสตร์ถูกใช้ในการเข้ารหัส แฮช
+ลายเซ็นดิจิทัลคือการดำเนินการทางเทคโนโลยีของลายเซ็นอิเล็กทรอนิกส์ที่จะลงนามในเอกสารและรับรองความถูกต้องของผู้ลงนามเพื่อรับประกันว่าเอกสารที่ยังไม่ได้รับการแก้ไขเนื่องจากมีการลงนาม ลายเซ็นดิจิทัลแต่ละตัวมีเอกลักษณ์เฉพาะสำหรับผู้ลงนามแต่ละรายเนื่องจากการทำตามโพรโทคอลPKIเพื่อสร้างกุญแจสาธารณะและกุญแจส่วนตัว การลงนามในเอกสารแบบดิจิทัลหมายถึงการสร้างลายเซ็นโดยใช้คีย์ส่วนตัวของผู้ลงนามที่.
 
-Aspose.Words ให้คุณได้ตรวจสอบ, นับจํานวน หรือตรวจสอบลายเซ็นดิจิทัลที่มีอยู่ และยังได้เพิ่มลายเซ็นใหม่เข้าไปในเอกสารของคุณ เพื่อค้นหาการปรับเปลี่ยนระบบ คุณสามารถลบลายเซ็นดิจิตัลทั้งหมด ออกจากเอกสารได้ ใช้ [DigitalSignatureUtil](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/) คลาสการทํางานด้วยลายเซ็นดิจิตอล
+Aspose.Wordsช่วยให้คุณสามารถตรวจจับนับหรือตรวจสอบลายเซ็นดิจิทัลที่มีอยู่และยังเพิ่มลายเซ็นใหม่ลงในเอกสารของคุณเพื่อค้นหาการปลอมแปลงใดๆในนั้น คุณยังสามารถลบลายเซ็นดิจิทัลทั้งหมดออกจากเอกสาร ใช้คลาส[DigitalSignatureUtil](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/)เพื่อทำงานกับลายเซ็นดิจิทัล.
 
-บทความ นี้ อธิบาย วิธี ทํา ทุก อย่าง ที่ กล่าว ข้าง ต้น เพื่อ ยืน ยัน ความ น่า เชื่อ ถือ และ ความ ซื่อ สัตย์ มั่นคง ของ เอกสาร ดิจิตอล.
+บทความนี้อธิบายวิธีการทำทั้งหมดข้างต้นเพื่อตรวจสอบความถูกต้องและความสมบูรณ์ของ.
 
 {{% alert color="primary" %}}
 
-ควรจําไว้ว่า คุณสามารถเข้าถึงลายเซ็นดิจิตัลของเอกสารของคุณได้ เมื่อมีการประมวลผล Java 6 รุ่น และข้างบน
+โปรดทราบว่าคุณสามารถเข้าถึงลายเซ็นดิจิทัลของเอกสารได้ก็ต่อเมื่อเรียกใช้เวอร์ชันJava6 ขึ้นไปเท่านั้น.
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-**ลองออนไลน์ดูสิ**
+**ลองออนไลน์**
 
-คุณสามารถลองใช้ฟังก์ชันนี้กับ [ลายเซ็นออนไลน์ว่าง](https://products.aspose.app/words/signature).
+คุณสามารถลองฟังก์ชั่นนี้กับเรา [ฟรีลายเซ็นออนไลน์](https://products.aspose.app/words/signature).
 
 {{% /alert %}}
 
 ## รูปแบบที่รองรับ
 
-Aspose.Words ให้คุณได้ทํางานกับลายเซ็นดิจิทัลบน DOC, OOXML และเอกสาร ODT และเซ็นเอกสารที่สร้างใน PDF หรือ XPS รูปแบบ
+Aspose.Wordsช่วยให้คุณสามารถทำงานกับลายเซ็นดิจิทัลบนDOC,OOXMLและODTเอกสารและลงนามในเอกสารที่สร้างขึ้นในรูปแบบPDFหรือXPS.
 
-## จํากัดลายเซ็นดิจิทัล
+## ข้อจำกัดของลายเซ็นดิจิทัล
 
-ตาราง ข้าง ล่าง นี้ พรรณนา ข้อ จํากัด บาง อย่าง ที่ คุณ อาจ เผชิญ ขณะ ทํา งาน ด้วย ลายเซ็น ดิจิตอล ผ่าน มา Aspose.Words, รวมทั้งทางเลือกอื่นด้วย
+ตารางด้านล่างอธิบายถึงข้อจำกัดบางประการที่คุณอาจเผชิญขณะทำงานกับลายเซ็นดิจิทัลผ่านAspose.Wordsและตัวเลือกอื่น.
 
-|  จํากัด |  ตัวเลือกต่าง ๆ |
-|  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  สูญเสียลายเซ็นดิจิทัลบนเอกสาร หลังจากโหลดและบันทึกลงแฟ้มแล้ว ดังนั้น การประมวลผลเอกสารไปยังเครื่องแม่ข่าย อาจจะก่อให้เกิดการสูญเสียลายเซ็นดิจิตัลทั้งหมด โดยไม่แจ้งให้ทราบล่วงหน้า |  ตรวจสอบว่าเอกสารมีลายเซ็นดิจิทัลหรือไม่ และทําการกระทําที่เหมาะสมหากพบเอกสารใด ๆ ตัว อย่าง เช่น ให้ ส่ง ข้อ เตือน ใจ ไป ยัง ลูก ค้า โดย แจ้ง ว่า เอกสาร ที่ พวก เขา กําลัง อัปโหลด นั้น มี ลายเซ็น ดิจิตอล ซึ่ง จะ สูญ หาย หาก มี การ ดําเนิน การ |
-|  Aspose.Words รองรับการทํางานของแมโครในเอกสาร แต่ Aspose.Words ยังไม่รองรับลายเซ็นดิจิทัลบนแมโคร |  ส่งออกเอกสารกลับไปยังรูปแบบคําใด ๆ และใช้ Microsoft Word เพื่อเพิ่มลายเซ็นดิจิทัลไปยังแมโคร |
+| ข้อจำกัด | ตัวเลือกทางเลือก |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| การสูญเสียลายเซ็นดิจิทัลบนเอกสารหลังจากโหลดและบันทึก นั้นการประมวลผลเอกสารไปยังเซิร์ฟเวอร์อาจทำให้เกิดการสูญเสียของลายเซ็นดิจิทัลทั้. | ตรวจสอบว่าเอกสารมีลายเซ็นดิจิทัลและดำเนินการที่เหมาะสมหากพบว่ามี ตัวอย่างเช่นส่งการแจ้งเตือนไปยังไคลเอนต์แจ้งให้ทราบว่าเอกสารที่พวกเขาจะอัปโหลดมีลายเซ็นดิจิทัลที่จะสูญหายหากมีการประมวลผล. |
+| Aspose.Wordsรองรับการทำงานกับแมโครในเอกสาร แต่Aspose.Wordsยังไม่รองรับลายเซ็นดิจิทัลบนแมโคร. | ส่งออกเอกสารกลับไปยังรูปแบบคำใดๆและใช้Microsoft Wordเพื่อเพิ่มลายเซ็นดิจิทัลไปยังแมโคร. |
 
-## ตรวจสอบ, เคานต์, และตรวจสอบลายเซ็นดิจิทัล
+## ตรวจจับนับและตรวจสอบลายเซ็นดิจิทัล
 
-Aspose.Words ให้คุณได้ตรวจสอบลายเซ็นดิจิทัลในเอกสารโดยใช้ [DetectFileFormat](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/#detectFileFormat-java.io.InputStream) วิธีการและ [HasDigitalSignature](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasDigitalSignature) ทรัพย์สิน ควร จะ สังเกต ว่า เช็ค ดัง กล่าว จะ ตรวจ สอบ เฉพาะ ข้อ เท็จ จริง ของ ลายเซ็น เท่า นั้น แต่ ไม่ ถูก ต้อง แม่นยํา.
+Aspose.Wordsช่วยให้คุณสามารถตรวจจับลายเซ็นดิจิทัลในเอกสารโดยใช้วิธีการ[DetectFileFormat](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/#detectFileFormat-java.io.InputStream)และคุณสมบัติ[HasDigitalSignature](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo/#hasDigitalSignature) มันเป็นที่น่าสังเกตว่าการตรวจสอบดังกล่าวจะตรวจสอบความเป็นจริงของลายเซ็นแต่ไม่.
 
-เอกสารสามารถลงนามได้มากกว่าหนึ่งครั้ง ซึ่งทําได้โดยผู้ใช้ที่แตกต่างกัน เพื่อตรวจสอบความถูกต้องของลายเซ็นดิจิทัล คุณต้องโหลดมันจากเอกสารโดยใช้ [LoadSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#loadSignatures-java.io.InputStream) วิธีการและการใช้ [IsValid](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection/#isValid) ทรัพย์สิน นอกจากนี้ Aspose.Words ให้คุณได้นับจํานวนลายเซ็นดิจิตัลทั้งหมดในเอกสารโดยใช้ [Count](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection/#getCount) ทรัพย์สิน
+เอกสารสามารถลงนามได้มากกว่าหนึ่งครั้งและสามารถทำได้โดยผู้ใช้ที่แตกต่างกัน เมื่อต้องการตรวจสอบความถูกต้องของลายเซ็นดิจิทัลคุณต้องโหลดจากเอกสารโดยใช้วิธีการ[LoadSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#loadSignatures-java.io.InputStream)และใช้คุณสมบัติ[IsValid](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection/#isValid) นอกจากนี้Aspose.Wordsช่วยให้คุณสามารถนับชุดของลายเซ็นดิจิทัลทั้งหมดภายในเอกสารโดยใช้คุณสมบัติ[Count](https://reference.aspose.com/words/java/com.aspose.words/digitalsignaturecollection/#getCount).
 
-ทั้ง หมด นี้ ทํา ให้ มี วิธี ที่ มี ประสิทธิภาพ และ ปลอด ภัย ใน การ ตรวจ สอบ เอกสาร สําหรับ ลายเซ็น ก่อน จะ นํา มา ใช้.
+ทั้งหมดนี้มีวิธีที่มีประสิทธิภาพและปลอดภัยในการตรวจสอบเอกสารสำหรับลายเซ็นก่อนที่จ.
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีการตรวจจับลายเซ็นดิจิทัลและตรวจสอบ
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการตรวจสอบสถานะของลายเซ็นดิจิทัลและตรวจสอบ:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "detect-document-signatures.java" >}}
 
 ## สร้างลายเซ็นดิจิทัล {#create-a-digital-signature}
 
-เพื่อสร้างลายเซ็นดิจิทัล คุณจะต้องโหลดใบรับรองที่ใช้ยืนยันลายเซ็น เมื่อคุณส่งเอกสารที่ลงนามด้วยดิจิตอล คุณยังส่งใบรับรองและกุญแจสาธารณะของคุณด้วย
+ในการสร้างลายเซ็นดิจิทัลคุณจะต้องโหลดใบรับรองการเซ็นชื่อที่ยืนยันตัวตน เมื่อคุณส่งเอกสารที่เซ็นชื่อแบบดิจิทัลคุณยังส่งใบรับรองและคีย์สาธารณะของคุณ.
 
-Aspose.Words ให้คุณได้สร้างใบรับรอง X.509 ซึ่งเป็นใบรับรองดิจิทัลที่ใช้มาตรฐาน X.509 PKI ที่ยอมรับได้ระหว่างประเทศ เพื่อตรวจสอบว่ากุญแจสาธารณะเป็นของตัวเซ็นที่รวมอยู่ในใบรับรอง เพื่อทําสิ่งนี้ ใช้ [Create](https://reference.aspose.com/words/java/com.aspose.words/certificateholder/#create-byte---java.lang.String) วิธีการภายใน [CertificateHolder](https://reference.aspose.com/words/java/com.aspose.words/certificateholder/) ชั้นเรียน.
+Aspose.Wordsอนุญาตให้คุณสร้างใบรับรองเอ็กซ์ 509 ใบรับรองดิจิทัลที่ใช้มาตรฐาน 509PKIที่ยอมรับในระดับสากลเพื่ เมื่อต้องการทำเช่นนี้ให้ใช้วิธีการ[Create](https://reference.aspose.com/words/java/com.aspose.words/certificateholder/#create-byte---java.lang.String)ภายในชั้นเรียน[CertificateHolder](https://reference.aspose.com/words/java/com.aspose.words/certificateholder/).
 
-ส่วนถัดไปอธิบายวิธีการเพิ่มลายเซ็นดิจิทัล เส้นลายเซ็น และวิธีการเซ็นเอกสาร PDF
+ส่วนถัดไปอธิบายวิธีการเพิ่มลายเซ็นดิจิทัลบรรทัดลายเซ็นและวิธีการลงชื่อเอกสารที่สร้างPDF.
 
-### เซ็นกํากับเอกสาร
+### ลงชื่อเข้าใช้เอกสาร
 
-Aspose.Words ให้คุณได้เซ็นเอกสารแบบ DOC, DOCX หรือ ODT ด้วยระบบดิจิทัล [Sign](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#sign-java.io.InputStream-java.io.OutputStream-com.aspose.words.CertificateHolder) วิธีการและ [SignOptions](https://reference.aspose.com/words/java/com.aspose.words/signoptions/) คุณสมบัติ
+Aspose.Wordsอนุญาตให้คุณลงนามในDOC,DOCXหรือODTเอกสารแบบดิจิทัลโดยใช้วิธีการ[Sign](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#sign-java.io.InputStream-java.io.OutputStream-com.aspose.words.CertificateHolder)และคุณสมบัติ[SignOptions](https://reference.aspose.com/words/java/com.aspose.words/signoptions/).
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีเซ็นเอกสารโดยใช้ผู้ถือใบรับรอง และตัวเลือกการเซ็น:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการลงนามในเอกสารโดยใช้ผู้ถือใบรับรองและเครื่องหมาย:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "sign-document.java" >}}
 
 ### เพิ่มบรรทัดลายเซ็น
 
-บรรทัดลายเซ็นคือการแสดงลายเซ็นภาพ ในเอกสาร Aspose.Words ให้คุณได้แทรกบรรทัดลายเซ็นโดยใช้ [DocumentBuilder.InsertSignatureLine](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertSignatureLine-com.aspose.words.SignatureLineOptions) วิธี คุณสามารถตั้งพารามิเตอร์สําหรับตัวแทนนี้โดยใช้ [SignatureLineOptions](https://reference.aspose.com/words/java/com.aspose.words/signaturelineoptions/) ชั้นเรียน.
+บรรทัดลายเซ็นคือการแสดงภาพของลายเซ็นดิจิทัลในเอกสาร Aspose.Wordsช่วยให้คุณสามารถแทรกบรรทัดลายเซ็นโดยใช้วิธีการ[DocumentBuilder.InsertSignatureLine](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertSignatureLine-com.aspose.words.SignatureLineOptions) คุณยังสามารถตั้งค่าพารามิเตอร์สำหรับการแสดงนี้โดยใช้คลาส[SignatureLineOptions](https://reference.aspose.com/words/java/com.aspose.words/signaturelineoptions/).
 
-ตัว อย่าง เช่น ภาพ ข้าง ล่าง แสดง ว่า สามารถ แสดง ลายเซ็น ที่ ใช้ ได้ ผล และ ไม่ ได้.
+ตัวอย่างเช่นรูปภาพด้านล่างแสดงวิธีการแสดงลายเซ็นที่ถูกต้องและไม่ถูกต้อง.
 
 <img src="/words/java/working-with-digital-signatures/valid.png" alt="valid-digital-signature" style="width:300px"/>
 
 <img src="/words/java/working-with-digital-signatures/invalid.png" alt="invalid-digital-signature" style="width:300px"/>
 
-นอกจากนี้ หากเอกสารมีบรรทัดลายเซ็น และไม่มีลายเซ็นดิจิทัล มีคุณสมบัติที่จะขอให้ผู้ใช้ทําการเพิ่มลายเซ็น
+กสารประกอบด้วยบรรทัดลายเซ็นและไม่มีลายเซ็นดิจิทัลมีคุณลักษณะการขอให้ผู้ใช้เพิ่มลาย.
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีเซ็นเอกสารโดยใช้ใบรับรองส่วนบุคคล และบรรทัดลายเซ็นเฉพาะ:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการลงชื่อเอกสารที่มีใบรับรองส่วนบุคคลและบรรทัดลายเซ็น:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "create-new-signature-line-and-set-provider-id.java" >}}
 
-### ลายเซ็นเอกสาร PDF ที่ถูกสร้าง {#sign-a-generated-pdf-document}
+### ลงชื่อในเอกสารที่สร้างขึ้นPDF {#sign-a-generated-pdf-document}
 
-Aspose.Words ให้คุณได้เซ็นและรับรายละเอียดทั้งหมดของเอกสาร PDF โดยใช้ [PdfDigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/pdfdigitalsignaturedetails/) คุณสมบัติ
+Aspose.Wordsช่วยให้คุณสามารถลงนามและรับรายละเอียดทั้งหมดของเอกสารPDFโดยใช้คุณสมบัติ[PdfDigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/pdfdigitalsignaturedetails/).
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีเซ็น PDF ที่สร้างขึ้น:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการเซ็นชื่อที่สร้างขึ้นPDF:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "digitally-signed-pdf-using-certificate-holder.java" >}}
 
-ภาพด้านล่างนี้แสดงให้เห็นว่าเอกสาร PDF ที่ถูกสร้างถูกเปิดใช้ Adobe Acrobat และลายเซ็นดิจิทัลได้ถูกตรวจสอบแล้วว่าใช้ได้ในปัจจุบัน
+ภาพด้านล่างแสดงให้เห็นว่าเอกสารที่สร้างขึ้นPDFถูกเปิดในAdobe Acrobatและลายเซ็นดิจิทัลได้รับการยืนยั.
 
 ![create-digital-signed-pdf-aspose-words-java](/words/java/working-with-digital-signatures/signed-pdf-aspose-words-java.png)
 
-## รับค่าลายเซ็นดิจิทัล
+## ดึงค่าลายเซ็นดิจิทัล
 
-Aspose.Words ยังให้ความสามารถในการดึงข้อมูลลายเซ็นดิจิตัลจากเอกสารที่มีลายเซ็นดิจิตัลเป็นลําดับโดยการใช้ [SignatureValue](https://reference.aspose.com/words/java/com.aspose.words/digitalsignature/#getSignatureValue) ทรัพย์สิน
+Aspose.Wordsนอกจากนี้ยังมีความสามารถในการดึงค่าลายเซ็นดิจิทัลจากเอกสารที่ลงนามแบบดิจิทัลเป็นอาร์เรย์ไบต์โดยใช้คุณสมบัติ[SignatureValue](https://reference.aspose.com/words/java/com.aspose.words/digitalsignature/#getSignatureValue).
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีการรับค่าลายเซ็นดิจิทัล เป็นแฟ้มแบบไบต์จากเอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการขอรับค่าลายเซ็นดิจิทัลเป็นอาร์เรย์ไบต์จากเอกสาร:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "signature-value.java" >}}
 
 ## ลบลายเซ็นดิจิทัล
 
-Aspose.Words ให้คุณได้เอาลายเซ็นดิจิตัลทั้งหมด ออกจากเอกสารที่มีลายเซ็นใช้ [RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream) วิธี
+Aspose.Wordsช่วยให้คุณลบลายเซ็นดิจิทัลทั้งหมดออกจากเอกสารที่ลงนามโดยใช้วิธีการ[RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream).
 
-ตัวอย่างรหัสต่อไปนี้ แสดงวิธีโหลดและลบลายเซ็นดิจิทัลออกจากเอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการโหลดและเอาลายเซ็นดิจิทัลออกจากเอกสาร:
 
 {{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "remove-signatures.java" >}}
 
 {{% alert color="primary" %}}
 
-โปรดสังเกตว่า คุณไม่สามารถเอาลายเซ็นดิจิทัลออกเพียงตัวเดียวภายในเอกสารของคุณได้
+โปรดทราบว่าคุณไม่สามารถลบลายเซ็นดิจิทัลเพียงตัวเดียวภายในเอกสารของคุณ.
 
 {{% /alert %}}

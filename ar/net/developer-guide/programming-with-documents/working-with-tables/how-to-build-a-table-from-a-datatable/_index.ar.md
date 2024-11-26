@@ -1,8 +1,8 @@
 ---
-title: كيفية بناء جدول من `DataTable` في C#
+title: كيفية بناء جدول من DataTable في C#
 second_title: Aspose.Words لـ .NET
-articleTitle: إنشاء جدول من `DataTable`
-linktitle: إنشاء جدول من `DataTable`
+articleTitle: إنشاء جدول من DataTable
+linktitle: إنشاء جدول من DataTable
 description: "مثال لملء جدول المستندات من قاعدة بيانات خارجية باستخدام C#."
 type: docs
 weight: 120

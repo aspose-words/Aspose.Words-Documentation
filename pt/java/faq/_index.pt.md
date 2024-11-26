@@ -1,185 +1,185 @@
----
-title: Perguntas frequentes
+﻿---
+title: FAQ
 second_title: Aspose.Words para Java
-articleTitle: Perguntas frequentes
-linktitle: Perguntas frequentes
+articleTitle: FAQ
+linktitle: FAQ
 type: docs
-description: "Aspose.Words para Java responde às perguntas mais frequentes. Aprenda esta página para resolver rapidamente seu problema em questões gerais ou tópicos específicos."
+description: "Aspose.Words para Java responde às perguntas mais frequentes. Aprenda esta página para resolver rapidamente o seu problema em questões gerais ou tópicos específicos."
 weight: 75
 url: /pt/java/faq/
 timestamp: 2024-01-31-14-23-37
 ---
 
-Esta página contém respostas para as perguntas mais frequentes. Por favor, aprenda a página atual – talvez isso permita que você resolva seu problema rapidamente.
+Esta página contém respostas às perguntas mais frequentes. Por favor, Aprenda a página atual – talvez isso permita que você resolva seu problema rapidamente.
 
-Se você não encontrou a resposta para sua pergunta, você pode fazer no fórum de suporte. Para obter informações sobre como relatar corretamente sua pergunta ou problema, consulte a [Suporte para suporte técnico técnico](/words/pt/java/technical-support/) página.
+Se você não encontrou a resposta para sua pergunta, pode perguntar no fórum de suporte. Para obter informações sobre como comunicar adequadamente a sua pergunta ou problema, consulte o [Suporte T7cnico](/words/java/technical-support/) página.
 
 {{% alert color="primary" %}}
 
-Perguntas frequentes são agrupadas por tópico para sua conveniência.
+As perguntas frequentes são agrupadas por tópico para sua conveniência.
 
 {{% /alert %}}
 
 ## Geral
 
-**Q: O que é? Aspose.Words?**
+**P: o que é Aspose.Words?**
 
-Aspose.Words para Java é uma biblioteca de classe que permite que seus aplicativos realizem uma ampla variedade de tarefas de processamento de documentos. Com Aspose.Words para Java, você pode gerar, modificar, converter, renderizar e imprimir documentos sem aplicativos de terceiros.
+Aspose.Words for Java é uma biblioteca de classes que permite que seus aplicativos executem uma ampla variedade de tarefas de processamento de documentos. Com Aspose.Words para Java, você pode gerar, modificar, converter, renderizar e imprimir documentos sem aplicativos de terceiros.
 
 Os detalhes podem ser encontrados em nossa documentação.
 
 ------
 
-**Q: O que significa "Aspose.Words não requer aplicações de terceiros"?**
+**P: O que significa "Aspose.Words não requer aplicações de terceiros"?**
 
-Aspose.Words para Java não precisa instalar quaisquer aplicativos de terceiros ou pacotes de software adicionais para trabalhar. Basta baixar e instalar Aspose.Words como descrito no [Instalação](/words/pt/java/installation/) artigo e começar.
-
-------
-
-**Q: O que as plataformas fazem Aspose.Words apoio?**
-
-Aspose.Words para Java abrange a maioria dos ambientes de desenvolvimento populares e plataformas de implantação. A sua API pode ser usado para desenvolver aplicações para uma ampla gama de sistemas operacionais, como Windows, Linux, e Mac OS, e várias plataformas.
-
-Para obter detalhes, consulte o [Visão geral do produto](/words/pt/java/product-overview/) página e a [Plataformas e Interop- Sim](/words/java/platforms-and-interoperability/) Secção.
+Aspose.Words para Java não é necessário instalar quaisquer aplicações de terceiros ou pacotes de software adicionais para funcionar. Basta baixar e instalar Aspose.Words conforme descrito no [Instalaa](/words/java/installation/) artigo e começar.
 
 ------
 
-**Q: Que formatos de documento faz Aspose.Words apoio?**
+**P: Quais plataformas Aspose.Words suportam?**
 
-Aspose.Words para Java suporta a maioria dos formatos de documentos populares, como DOC, DOCX, HTML, Markdown, PDF, XML e outros.
+Aspose.Words para Java abrange a maioria dos ambientes de desenvolvimento populares e plataformas de implantação. Its API pode ser usado para desenvolver aplicativos para uma ampla gama de sistemas operacionais, como Windows, Linux e Mac OS, e várias plataformas.
 
-Você pode ver a lista completa de formatos suportados no [Formatos de suporte](/words/pt/java/supported-document-formats/) página.
+Para mais informações, ver o [Vis Zhejo Geral Do Produto](/words/java/product-overview/) page e o [Plataformas e InteropCapacidade de execução](/words/java/platforms-and-interoperability/) secção.
 
 ------
 
-**Q: Como posso tentar Aspose.Words livre?**
+**P: Que formatos de Documento Aspose.Words suporta?**
 
-Você pode fazer isso de duas maneiras – usando a versão Trial ou uma Licença Temporária de 30 dias. A versão Trial é a mesma que a comprada, fornece funcionalidade completa do produto, mas adiciona uma marca de água avaliativa na parte superior do documento ao carregar e salvar e limita o tamanho máximo do documento a algumas centenas de parágrafos. Uma Licença Temporária permite que você teste Aspose.Words sem restrições de julgamento por 30 dias.
+Aspose.Words para Java suporta a maioria dos formatos de documentos populares, tais como DOC, DOCX, HTML, Markdown, PDF, XML, e outros.
 
-Ver [Licenciamento e Subscrição](/words/pt/java/licensing/) página para mais informações.
+Você pode ver a lista completa de formatos suportados no [Formatos De Documentos Suportados](/words/java/supported-document-formats/) página.
+
+------
+
+**P: Como posso experimentar Aspose.Words grátis?**
+
+Você pode fazer isso de duas maneiras – usando a versão de avaliação ou uma licença temporária de 30 dias. A versão de teste é a mesma que a adquirida, fornece funcionalidade completa do produto, mas adiciona uma marca d'água avaliativa na parte superior do documento ao carregar e salvar e limita o tamanho máximo do documento a algumas centenas de parágrafos. Uma licença temporária permite que você teste Aspose.Words sem restrições de Avaliação por 30 dias.
+
+Ver o [Licenciamento e subscri](/words/java/licensing/) página para mais informações.
 
 {{% alert color="primary" %}}
 
-Você também pode tentar alguns dos mais populares Aspose.Words recursos através do [Aspose.Words Aplicações online](https://products.aspose.app/words).
+Você também pode experimentar alguns dos recursos Aspose.Words mais populares por meio do [Aspose.Words aplicação grátis online](https://products.aspose.app/words).
 
 {{% /alert %}}
 
 ------
 
-**Q: Como posso comprar Aspose.Words?**
+**P: Como posso comprar Aspose.Words?**
 
-Para comprar um Aspose.Words licença, você precisa ir para a [Compra](https://purchase.aspose.com/buy) página, selecione o "Aspose.Words" produto e o tipo de licença que lhe convier. Em seguida, adicione a licença ao seu carrinho e siga as instruções do Carrinho de Compras.
+Para comprar uma licença Aspose.Words, você precisa ir ao [Compra](https://purchase.aspose.com/buy) página, selecione o produto "Aspose.Words " e o tipo de licença que mais lhe convier. Em seguida, adicione a licença ao seu carrinho e siga as instruções do carrinho de compras.
 
-Após a compra, aplique a licença como descrito na [Licença de compra](/words/java/licensing/#purchased-license) Secção.
+Após a compra, solicite a licença conforme descrito no [Licen3a Adquirida](/words/java/licensing/#purchased-license) secção.
 
-Detalhes sobre como instalar Aspose.Words pode ser lido no [Instalação](/words/pt/java/installation/) página.
+Detalhes sobre como instalar Aspose.Words podem ser lidos no [Instalaa](/words/java/installation/) página.
 
 ------
 
-**Q: Como posso obter apoio?**
+**P: Como posso obter suporte?**
 
-Use o fórum de suporte técnico gratuito. Para obter detalhes sobre como relatar corretamente um problema e o que precisa ser feito antes de entrar em contato com o fórum, consulte o [Suporte para suporte técnico técnico](/words/pt/java/technical-support/) página.
+Use o Fórum de suporte técnico gratuito. Para obter detalhes sobre como relatar adequadamente um problema e o que precisa ser feito antes de entrar em contato com o fórum, consulte o [Suporte T7cnico](/words/java/technical-support/) página.
 
-## Renderização de um documento
+## Renderizar um documento
 
 {{% alert color="primary" %}}
 
-Você pode encontrar informações mais detalhadas sobre a renderização no [Renderização](/words/pt/java/rendering/) seção de documentação.
+Você pode encontrar informações mais detalhadas sobre a renderização no [Renderiza3](/words/java/rendering/) secção de documentação.
 
 {{% /alert %}}
 
-**Q: Por que o layout e as fontes no documento de saída são diferentes do original?**
+**P: Por que o layout e as fontes no documento de saída são diferentes do original?**
 
-A fonte pode não estar disponível, ou o formato de fonte é suportado por Microsoft Word mas não suportado por Aspose.Words. Aspose.Words será executado [Manipulador e Substituir Fontes True Tipo](/words/pt/java/manipulate-and-substitute-truetype-fonts/).
+A fonte pode não estar disponível ou o formato da fonte é suportado por Microsoft Word mas não por Aspose.Words. Aspose.Words irá realizar [substituição de fonte](/words/java/manipulate-and-substitute-truetype-fonts/).
 
 Para verificar se a fonte está faltando:
 
-- Em Aspose.Words use os avisos de substituição da fonte (para detalhes, veja a seção "Como reconhecer que a fonte foi substituída" da [Manipulador e Substituir Fontes True Tipo](/words/pt/java/manipulate-and-substitute-truetype-fonts/) artigo).
-- Em Microsoft Word abrir a caixa de diálogo "Substituição de alimentação" (File → Opções → Advanced → Substituição da fonte).
+- Em Aspose.Words use os avisos de substituição de fonte (para obter detalhes, consulte a seção " Como reconhecer que a fonte foi substituída [Manipular e substituir Fontes TrueType](/words/java/manipulate-and-substitute-truetype-fonts/) artigo).
+- Em Microsoft Word abra a caixa de diálogo" substituição de fonte " (ficheiro de Opções de substituição de fonte avançada de Opções de substituição de fonte avançada).
 
 ------
 
-**Q: Por que não a fonte fallback trabalhar em non-Windows plataformas e caracteres Unicode são substituídos pelo .notdef glyph?**
+**P: Por que o fallback da fonte não funciona em plataformas NãoWindows e os caracteres Unicode são substituídos pelo .notdef glifo?**
 
-Muitas vezes podemos ver o `.notdef` glyph em vez de algum personagem Unicode. Esta é geralmente uma caixa ou uma pergunta glyph.
+Muitas vezes podemos ver o glifo `.notdef` em vez de algum caractere Unicode. Geralmente é uma caixa ou um glifo de pergunta.
 
-Isso é porque Microsoft As configurações de retorno do escritório são selecionadas por padrão e Microsoft Fontes de escritório não estão disponíveis. Os usuários têm que instalar Microsoft Fontes de escritório ou alterar configurações de retorno.
-
-------
-
-**Q: Por que o texto de script complexo, como tailandês ou hebraico, pode ser exibido inexatamente por alguma razão, como a posição errada para diacríticos ou ligaduras imprecisas?**
-
-Algumas fontes de script complexas exigem que os recursos de tipografia avançada sejam processados para exibi-los corretamente. A tipografia avançada está desativada em Aspose.Words por padrão. Os usuários têm que habilitar a tipografia avançada com [TextShaperFactory](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getTextShaperFactory).
+Isso ocorre porque as configurações de fallback Microsoft do Office são selecionadas por padrão e as fontes Microsoft do Office não estão disponíveis. Os utilizadores têm de instalar Microsoft tipos de letra do Office ou alterar as definições de reserva.
 
 ------
 
-**Q: Eu preciso de arquivos de licença para as fontes que eu uso?**
+**P: Por que o texto complexo da escrita, como o tailandês ou o hebraico, pode ser exibido incorretamente por algum motivo, como a posição errada para diacríticos ou ligaduras imprecisas?**
 
-Sim, tens. Portanto, ao copiar fontes, tenha em mente que a maioria das fontes está protegida por direitos autorais. Localize as licenças de fonte de antemão e verifique se elas podem ser transferidas livremente para outra máquina.
+Algumas fontes de script complexas exigem que os recursos avançados de tipografia sejam processados para exibi-los corretamente. A tipografia avançada está desactivada em Aspose.Words por predefinição. Os utilizadores têm de activar a tipografia avançada com [TextShaperFactory](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getTextShaperFactory).
+
+------
+
+**P: preciso de arquivos de licença para as fontes que uso?**
+
+Sim, tens. Portanto, ao copiar fontes, lembre-se de que a maioria das fontes é protegida por direitos autorais. Localize as licenças de fonte com antecedência e verifique se elas podem ser transferidas livremente para outra máquina.
 
 ## Aninhado Mail Merge
 
 {{% alert color="primary" %}}
 
-Você pode encontrar informações mais detalhadas sobre Mail Merge no [Mail Merge e Relatórios](/words/java/mail-merge-and-reporting/) seção de documentação.
+Você pode encontrar informações mais detalhadas sobre Mail Merge no [Mail Merge e relações](/words/java/mail-merge-and-reporting/) secção de documentação.
 
 {{% /alert %}}
 
-**Q: Por que não há campos mesclados na saída gerada?**
+**P: Por que não há campos mesclados na saída gerada?**
 
-O nome original do campo de mesclagem permanece o mesmo sem ser substituído pelos dados necessários da fonte de dados, então:
+O nome original do campo de mesclagem permanece o mesmo sem ser substituído pelos dados necessários da fonte de dados:
 
-- Verifique se os dados estão sendo carregados corretamente em tabelas: definir o [TableName](https://reference.aspose.com/words/java/com.aspose.words/imailmergedatasource/#getTableName) corretamente com todas as chaves primárias e relacionamentos necessários.
-- Verifique se os campos de mesclagem são nomeados corretamente. Use o [GetFieldNames](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldNames) método para obter todos os nomes de campos de mesclagem e garantir que o nome de campos de mesclagem em seu modelo corresponda ao que em sua fonte de dados.
-
-------
-
-**Q: Por que a saída da fusão aninhada não exibe dados da tabela da criança para a primeira entrada na tabela pai, mas exibe todos os itens para a última entrada na tabela pai, mesmo aqueles que não estão realmente ligados a ela?**
-
-Isso porque as regiões de mesclagem no modelo não são corretamente formadas, o que pode fazer todos aninhados Mail Merge regiões para parar de exibir qualquer coisa. O [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) tag de abertura e a [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) tag de fechamento deve corresponder e estar na mesma linha ou célula. Por exemplo, se você começar a aninhar regiões de mesclagem em uma célula de uma tabela, você deve terminar a região de mesclagem na mesma linha que a primeira célula.
+- Verifique se os dados estão sendo carregados corretamente nas tabelas: defina o [TableName](https://reference.aspose.com/words/java/com.aspose.words/imailmergedatasource/#getTableName) corretamente com todas as chaves primárias e relacionamentos necessários.
+- Verifique se os campos de mesclagem estão nomeados corretamente. Use o método [GetFieldNames](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldNames) para obter todos os nomes de campos de mesclagem e garantir que o nome dos campos de mesclagem em seu modelo corresponda ao da sua fonte de dados.
 
 ------
 
-**Q: Por que cada entrada da tabela pai exibe cada item na tabela da criança, mesmo aqueles que não estão realmente ligados a ela?**
+**P: Por que a saída da mesclagem aninhada não exibe dados da tabela filho para a primeira entrada na tabela pai, mas exibe todos os itens da última entrada na tabela pai, mesmo aqueles que não estão realmente vinculados a ela?**
 
-Isso ocorre porque a relação entre os pais e as tabelas infantis não são configuradas ou estão incorretamente configuradas. É necessário:
-
-- Garantir a integridade dos dados dentro do seu **DataSet** e usar o **DataRelation** objeto para representar a relação entre tabelas de dados relacionadas.
-- Verifique a seção "Como configurar as relações de dados em aninhado Mail Merge com Regiões" no artigo [Aninhado Mail Merge com regiões](/words/java/nested-mail-merge-with-regions/).
+Isso ocorre porque as regiões de mesclagem no modelo não estão formadas corretamente, o que pode fazer com que todas as regiões Mail Merge aninhadas parem de exibir qualquer coisa. A tag de abertura [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) e a tag de fechamento [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) devem corresponder e estar na mesma linha ou célula. Por exemplo, se você começar a aninhar regiões de mesclagem em uma célula de uma tabela, deverá encerrar a região de mesclagem na mesma linha da primeira célula.
 
 ------
 
-**Q: Por que é uma exceção: "Sistema. Revisão de Argument: Esta restrição não pode ser habilitada, pois nem todos os valores têm valores pais correspondentes" ao executar aninhado mail merge?**
+**P: Por que cada entrada da tabela pai exibe todos os itens da tabela filho, mesmo aqueles que não estão realmente vinculados a ela?**
 
-Isso acontece porque nem todo registro pai tem um registro de criança para que sua fonte de dados não corresponda aos seguintes critérios: *cada linha na tabela-mãe deve ter um relacionamento one-to-one com as linhas da tabela de crianças com base nas chaves primárias e estrangeiras*.
+Isso ocorre porque a relação entre as tabelas pai e filho não está configurada ou está configurada incorretamente. É necessário:
 
-Desativar restrições de chave estrangeira quando você criar um **DataRelation**.
+- Assegure a integridade dos dados em seu **DataSet** e use o objeto **DataRelation** para representar a relação pai-filho entre tabelas de dados relacionadas.
+- Verifique a seção "Como configurar relações de dados em Mail Merge aninhado com regiões" no artigo [Aninhado Mail Merge com regi](/words/java/nested-mail-merge-with-regions/).
 
-## Anexar ou inserir um documento
+------
+
+**Q: Por que é uma exceção: "sistema.ArgumentException: Esta restrição não pode ser habilitada, pois nem todos os valores têm valores pai correspondentes " durante a execução aninhada mail merge?**
+
+Isso acontece porque nem todo registro pai tem um registro filho, portanto, sua fonte de dados não corresponde aos seguintes critérios: *every row in the parent table should have a one-to-one relationship with the rows of the child table based on the primary and foreign keys*.
+
+Desative as restrições de chave estrangeira ao criar um **DataRelation**.
+
+## Acrescentar ou inserir um documento
 
 {{% alert color="primary" %}}
 
-Você pode encontrar informações mais detalhadas sobre a programação com documentos no [Programação com Documentos](/words/pt/java/programming-with-documents/) seção de documentação.
+Pode encontrar informações mais detalhadas sobre a programação com documentos no [Programa antidepressivo com documentos](/words/java/programming-with-documents/) secção de documentação.
 
 {{% /alert %}}
 
-**Q: Por que não o conteúdo anexado a um documento aparece na mesma página?**
+**P: Por que o conteúdo anexado a um documento não aparece na mesma página?**
 
-O resultado do apêndice aparece em uma página separada por causa de uma diferença em [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/) configurações para as seções em que os documentos são anexados juntos. Faça idêntico **PageSetup** configurações para as seções em que os documentos são anexados juntos.
+O resultado do anexo aparece numa página separada devido a uma diferença nas definições [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/) para as secções em que os documentos são anexados em conjunto. Faça configurações idênticas de **PageSetup** para as seções em que os documentos são anexados.
 
 ## Converter um documento
 
 {{% alert color="primary" %}}
 
-Você pode encontrar informações mais detalhadas sobre a conversão de um documento no [Converter um documento](/words/pt/java/convert-a-document/) seção de documentação.
+Pode encontrar informações mais detalhadas sobre a conversão de um documento no [Conversor um documento](/words/java/convert-a-document/) secção de documentação.
 
 {{% /alert %}}
 
-**Q: Como converter DOCX para PDF?**
+**P: Como converter DOCX para PDF?**
 
-É muito fácil também, basta carregar um documento para o modelo e salvá-lo em qualquer formato suportado.
+Também é muito fácil, basta carregar um documento no modelo e guardá-lo em qualquer formato suportado.
 
-O exemplo a seguir mostra o processo de conversão de um arquivo DOCX para PDF:
+O exemplo de código a seguir mostra o processo de conversão de um arquivo DOCX em PDF:
 
 {{< highlight java >}}
 // Open the source DOCX document.
@@ -193,13 +193,13 @@ doc.save(dataDir + "output.pdf", SaveFormat.Pdf);
 
 {{% alert color="primary" %}}
 
-Você pode encontrar informações mais detalhadas sobre a programação com documentos no [Programação com Documentos](/words/pt/java/programming-with-documents/) seção de documentação.
+Pode encontrar informações mais detalhadas sobre a programação com documentos no [Programa antidepressivo com documentos](/words/java/programming-with-documents/) secção de documentação.
 
 {{% /alert %}}
 
-**Q: Como dividir uma página de documento por página?**
+**P: Como dividir um documento página por página?**
 
-Aspose.Words permite dividir uma página de documento multi-página por página.
+Aspose.Words permite dividir um documento de várias páginas, página por página.
 
 O exemplo de código a seguir mostra como dividir um documento e salvar cada página como um documento separado:
 
@@ -218,7 +218,7 @@ for (int page = 0; page <= pageCount; page++)
 
 ------
 
-**Q: Como abrir um encriptado** **documento?**
+**Q: Como abrir um criptografado**
 
 Você pode tentar abrir um documento criptografado sem uma senha, o que deve levar a uma exceção.
 
@@ -251,6 +251,6 @@ catch (Exception e)
 
 ------
 
-**Q: Como imprimir um documento?**
+**P: Como imprimir um documento?**
 
-Para uma resposta detalhada, aprenda o artigo [Imprimir um documento Programaticamente ou usando diálogos](/words/pt/java/print-a-document-programmatically-or-using-dialogs/).
+Para uma resposta detalhada, aprenda o artigo [Imprimir um documento programaticamente ou utilizar caixas de](/words/java/print-a-document-programmatically-or-using-dialogs/).

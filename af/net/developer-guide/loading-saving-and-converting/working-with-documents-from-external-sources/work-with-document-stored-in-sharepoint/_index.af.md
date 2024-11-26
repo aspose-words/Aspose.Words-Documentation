@@ -1,8 +1,8 @@
 ---
-title: Werk Met'n Dokument Gestoor In'n `SharePoint` Aanlyn
+title: Werk Met'n Dokument Gestoor In'n SharePoint Aanlyn
 second_title: Aspose.Words vir .NET
-articleTitle: Werk Met'n Dokument Gestoor In'n `SharePoint` Aanlyn
-linktitle: Werk Met'n Dokument Gestoor In'n `SharePoint` Aanlyn
+articleTitle: Werk Met'n Dokument Gestoor In'n SharePoint Aanlyn
+linktitle: Werk Met'n Dokument Gestoor In'n SharePoint Aanlyn
 description: "Skakel woord gedeel in SharePoint om na PDF met behulp van C#. Werk met dokumente gestoor in SharePoint - verskeie insette formate, insluitend Word, OpenOffice, Beeld en eBook."
 type: docs
 weight: 20

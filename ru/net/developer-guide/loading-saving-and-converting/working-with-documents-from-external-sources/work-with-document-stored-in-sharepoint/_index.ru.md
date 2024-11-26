@@ -1,8 +1,8 @@
 ---
-title: Работа с документом, хранящимся в `SharePoint` Онлайн
+title: Работа с документом, хранящимся в SharePoint Онлайн
 second_title: Aspose.Words для .NET
-articleTitle: Работа с документом, хранящимся в `SharePoint` Онлайн
-linktitle: Работа с документом, хранящимся в `SharePoint` Онлайн
+articleTitle: Работа с документом, хранящимся в SharePoint Онлайн
+linktitle: Работа с документом, хранящимся в SharePoint Онлайн
 description: "Конвертировать Word Shared in SharePoint Использование PDF C#. Работа с документами, хранящимися в SharePoint - различные форматы ввода, включая Word, OpenOffice, Image и eBook."
 type: docs
 weight: 20

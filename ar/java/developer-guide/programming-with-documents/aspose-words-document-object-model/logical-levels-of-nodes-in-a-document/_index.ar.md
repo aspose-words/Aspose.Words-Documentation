@@ -1,105 +1,105 @@
----
-title: المستويات المنطقية للنويدات في الوثيقة الواردة في الوثيقة Java
-second_title: Aspose.Words for Java
-articleTitle: المستويات المنطقية للنويدات في الوثيقة
-linktitle: المستويات المنطقية للنويدات في الوثيقة
+﻿---
+title: المستويات المنطقية للعقد في مستند في Java
+second_title: Aspose.Words ل Java
+articleTitle: المستويات المنطقية للعقد في المستند
+linktitle: المستويات المنطقية للعقد في المستند
 type: docs
-description: "In Aspose.Words for Java وتشير الوثائق إلى المستويات المنطقية للعقد - أي مستوى الكتل، أو المستوى المباشر، أو مستوى الصفوف. The node level is used to describe the location in the document tree where the node is typically occur."
+description: "في Aspose.Words ل Java ذكرت الوثائق المستويات المنطقية للعقد-مستوى الكتلة أو المستوى المضمن أو مستوى الصف. يتم استخدام مستوى العقدة لوصف الموقع في شجرة المستندات حيث تحدث العقدة عادة."
 weight: 10
 url: /ar/java/logical-levels-of-nodes-in-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-وتشير هذه الوثائق أحيانا إلى مجموعة من فصول العقيدة على أنها تنتمي إلى " المستوى " في وثيقة، مثل " المستوى غير الرسمي "، أو " المستوى غير المباشر " (المعروف أيضا باسم " الخط المباشر " )، أو " مستوى النمو ". وتتباين هذه المستويات في وثيقة ما منطقياً بحتاً ولا يعبر عنها صراحة الميراث أو غيره Aspose.Words DOM يعني. The node level is used to describe the place in the document tree where the node would typically occur.
+تشير هذه الوثائق أحيانا إلى مجموعة من فئات العقدة على أنها تنتمي إلى "مستوى" في مستند، مثل "مستوى الكتلة" أو "المستوى المضمن" (المعروف أيضا باسم "مضمن") أو العقد "على مستوى الصف". يتم تمييز هذه المستويات في المستند منطقيا بحتا ولا يتم التعبير عنها صراحة بالميراث أو وسائل Aspose.Words DOM الأخرى. يتم استخدام مستوى العقدة لوصف المكان في شجرة المستندات حيث تحدث العقدة عادة.
 
-وفي المادة السابقة، تحدثنا بالفعل عن العلاقة بين العقد والحقيقة القائلة بأنه لا يُسمح لكل عقدة أن تكون طفلا لأي عقد. على سبيل المثال، (سيل) لا يمكن أن تكون سوى طفلة راو، و(رو) لا يمكن أن تكون سوى طفلة من الطاولات، وهكذا. وتنطبق هذه العلاقات أيضا على التقسيم المنطقي للعقد إلى مستويات في الوثيقة.
+في المقالة السابقة، تحدثنا بالفعل عن العلاقة بين العقد وحقيقة أنه لا يسمح لجميع العقد أن تكون طفلا في أي عقد. على سبيل المثال، يمكن أن تكون الخلية فقط طفل صف، ويمكن أن يكون الصف فقط طفل جدول، وهكذا. تنطبق هذه العلاقات أيضا على التقسيم المنطقي للعقد إلى مستويات في المستند.
 
-وتصف الفروع التالية المستويات المنطقية للتعيينات في الأماكن Aspose.Words والفصول التي تنتمي إلى كل مستوى.
+تصف الأقسام التالية المستويات المنطقية للعقد في Aspose.Words والفئات التي تنتمي إلى كل مستوى.
 
-## مستوى الوثائق والقسم
+## المستند والقسم المستوى المنطقي
 
-ألف تتألف الوثيقة الكلمات من فرع واحد أو أكثر، يمثلها [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) الطبقة وفصلت عن بعضها A section can define its own page size, margins, orientation, number of text columns, and headers and footers.
+يتكون مستند الكلمة من قسم واحد أو أكثر، يمثله فئة [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) ويفصل بينها فواصل مقطعية. يمكن للقسم تحديد حجم الصفحة والهوامش والاتجاه وعدد أعمدة النص والرؤوس والتذييلات الخاصة به.
 
-[Document](https://reference.aspose.com/words/java/com.aspose.words/document/) و [الباب](https://www.aspose.com/api/words/java/com.aspose.words/section) وتوجد في الجدول البياني التالي مواصفات المستوى.
+[Document](https://reference.aspose.com/words/java/com.aspose.words/document/) و [الباب](https://www.aspose.com/api/words/java/com.aspose.words/section) تحتوي عقد المستوى على الهيكل كما هو موضح في الرسم البياني التالي.
 
 <img src="/words/java/logical-levels-of-nodes-in-a-document/document-and-section-level.png" alt="document-and-section-level-aspose-words-java" style="width:700px"/>
 
-ويتضمن الفرع النص الرئيسي، فضلاً عن المرشدين والأقدام للصفحات الأولى، حتى وإن كانت غريبة. هذه " تدفقات " مختلفة من النص *stories*.
+يحتوي القسم على النص الرئيسي، بالإضافة إلى الرؤوس والتذييلات للصفحات الأولى والزوجية والغريبة. تسمى هذه "التدفقات" المختلفة للنص *stories*.
 
-In Aspose.Words, the **Section** العقد يحتوي على [Body](https://reference.aspose.com/words/java/com.aspose.words/body/) و [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/) قصّة. The **Body** الجسم يخزن النص الرئيسي. The **HeaderFooter** الأشياء تخزن النص لكل رأس و قدم يتألف نص أي قصة من فقرات وجداول، على التوالي، ممثلة بـ **Paragraph** و **Table** أشياء من مستوى البلوك
+في Aspose.Words، تحتوي العقدة **Section** على عقدي القصة [Body](https://reference.aspose.com/words/java/com.aspose.words/body/) و [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/). الكائن **Body** يخزن النص الرئيسي. الكائنات **HeaderFooter** تخزين النص لكل رأس وتذييل الصفحة. يتكون نص أي قصة من فقرات وجداول، ممثلة على التوالي بالكائنات **Paragraph** و **Table** من مستوى الكتلة.
 
-إضافة إلى ذلك، لكل منها يمكن أن تتضمن الوثيقة المسرد الذي يمثله [GlossaryDocument](https://reference.aspose.com/words/java/com.aspose.words/glossarydocument/) عقيدة Aspose.Words. تتضمن الوثيقة المسردة [BuildingBlocks](https://reference.aspose.com/words/java/com.aspose.words/buildingblock/), [AutoText](https://reference.aspose.com/words/java/com.aspose.words/buildingblocktype/#AUTO-TEXT), و [AutoCorrect](https://reference.aspose.com/words/java/com.aspose.words/buildingblocktype/#AUTO-CORRECT) الدخول
+بالإضافة إلى ذلك، يمكن أن تحتوي كل وثيقة كلمة على مسرد، والذي يمثله عقدة [GlossaryDocument](https://reference.aspose.com/words/java/com.aspose.words/glossarydocument/) في Aspose.Words. تحتوي وثيقة المسرد على إدخالات [BuildingBlocks](https://reference.aspose.com/words/java/com.aspose.words/buildingblock/) و [AutoText](https://reference.aspose.com/words/java/com.aspose.words/buildingblocktype/#AUTO-TEXT) و [AutoCorrect](https://reference.aspose.com/words/java/com.aspose.words/buildingblocktype/#AUTO-CORRECT).
 
-**GlossaryDocument** تشمل [BuildingBlock](https://reference.aspose.com/words/java/com.aspose.words/buildingblock/) عُدد تمثل أنواعاً مختلفة من بنود الوثائق المسردة. كل واحد **BuildingBlock** تحتوي على أجزاء يمكن إدخالها وإزالتها وتنسخها في الوثائق.
+**GlossaryDocument**
 
-## الرتبة المحلية
+## كتلة المستوى المنطقي
 
-وتمثِّل العُمدات على مستوى البلوك حاويات لضبط المحتوى والمحتوى، ويمكن أن تُحَدَّم في العقدين التاليين في الوثيقة:
+تمثل العقد على مستوى الكتلة حاويات لعناصر تحكم المحتوى والمحتوى، ويمكن أن تحدث في العقد الفرعية لشجرة المستندات في العقد التالية:
 
--الجسد
-- رئيس
-- فوتر
+- الجسم
+- رأس
+- تذييل الصفحة
 - حاشية
-- تعليق
-- Shape
+- التعليق
+- الشكل
 - GroupShape
-- Cell
+- الخلية
 - StructuredDocumentTag
 
-وتمثّل الصفوف التالية عقداً على مستوى العمق:
+يتم تمثيل العقد على مستوى الكتلة بالفئات التالية:
 
-- [Tables](https://reference.aspose.com/words/java/com.aspose.words/table/) و [Paragraphs](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), وهي أهم عقد على مستوى الكتل
-- العلامات الكتابية، التي تحدث على مستوى الكتل وعلى المستوى الداخلي
-- [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/), التي تمثل علامات العرف ويمكن أن تحتوي على كل من المحتوى وضوابط المحتوى
+- [Tables](https://reference.aspose.com/words/java/com.aspose.words/table/) و [Paragraphs](https://reference.aspose.com/words/java/com.aspose.words/paragraph/)، وهما أهم عقد على مستوى الكتلة
+- الإشارات المرجعية، والتي تحدث على مستوى الكتلة وعلى المستوى المضمن
+- [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/)، والتي تمثل ترميزا مخصصا ويمكن أن تحتوي على عناصر تحكم في المحتوى والمحتوى
 
-ويبين الرسم البياني التالي العناصر على مستوى الكتلة.
+يوضح الرسم البياني التالي عناصر مستوى الكتلة.
 
 <img src="/words/java/logical-levels-of-nodes-in-a-document/block-level.png" alt="block-level-aspose-words-java" style="width:550px"/>
 
-## المستوى المحلي
+## المستوى المنطقي المضمن
 
-وتمثِّل العُدد على المستوى المباشر المحتوى الفعلي للوثيقة ويمكن أن ترد في الحاويات التالية:
+تمثل العقد ذات المستوى المضمن المحتوى الفعلي للمستند ويمكن احتواؤها في الحاويات التالية:
 
-- الفقرة - الحاوية الأكثر شيوعا
+- الفقرة-الحاوية الأكثر شيوعا
 - [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/)
 - StructuredDocumentTag
 
-وتُمثَّل العناصر التالية على المستوى المباشر:
+يتم تمثيل عناصر المستوى المضمن بالفئات التالية:
 
-- [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) - نسق النصوص بشكل مختلف
-- [BookmarkStart](https://reference.aspose.com/words/java/com.aspose.words/bookmarkstart/) و [BookmarkEnd](https://reference.aspose.com/words/java/com.aspose.words/bookmarkend/) تمثل علامات الكتاب
-- [CommentRangeStart]https://reference.aspose.com/words/java/com.aspose.words/comment/RangeStart, [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/), [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/) و [Footnote](https://reference.aspose.com/words/java/com.aspose.words/footnote/) تمثل الشروح
-- [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/), [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/), [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/) و [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/) التي تمثل الشخصيات الميدانية [FormField](https://reference.aspose.com/words/java/com.aspose.words/formfield/) تمثيل حقول الكلمات
-- [SpecialChar](https://reference.aspose.com/words/java/com.aspose.words/specialchar/) تمثل خصائص خاصة في الوثيقة
+- [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) - تشغيل النص المنسق بشكل مختلف
+- [BookmarkStart](https://reference.aspose.com/words/java/com.aspose.words/bookmarkstart/) و [BookmarkEnd](https://reference.aspose.com/words/java/com.aspose.words/bookmarkend/) تمثل الإشارات المرجعية
+- [CommentRangeStart]https://reference.aspose.com/words/java/com.aspose.words/comment/RangeStart), [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/) و [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/) و [Footnote](https://reference.aspose.com/words/java/com.aspose.words/footnote/) تمثل الشروح
+- [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/), [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/), [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/) و [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/) التي تمثل أحرف الحقل، و [FormField](https://reference.aspose.com/words/java/com.aspose.words/formfield/) تمثل حقول الكلمات
+- [SpecialChar](https://reference.aspose.com/words/java/com.aspose.words/specialchar/) يمثل الأحرف الخاصة في المستند
 - [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) و [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) تمثل الأشكال والرسومات والصور وما إلى ذلك.
-- SmartTag and StructuredDocument تمثّل علامة العرف
+- SmartTag و StructuredDocumentTag تمثل الترميز المخصص
 
-ويبين الرسم البياني التالي هيكل العقد على المستوى الداخلي.
+يوضح الرسم البياني التالي بنية العقد ذات المستوى المضمن.
 
 <img src="/words/java/logical-levels-of-nodes-in-a-document/inline-level.png" alt="inline-level-aspose-words-java" style="width:785px"/>
 
 {{% alert color="primary" %}}
 
-يَشْربُ في Microsoft Word تشمل أجهزة التشغيل الآلي للمكاتب، والصناديق النصية، والصور، والأشياء من طراز OLE، والضوابط المتعلقة بالنشاط X، وجميعها ممثَّلة باستخدام `Shape` الصف بعض الأشكال يمكن أن تحتوي أيضا على النص، لذلك شب عقد في Aspose.Words يمكن أن تحتوي على عقد من مستوى الكتل.
+تتضمن الأشكال في Microsoft Word فن المكتب AutoShapes ومربعات النص والصور وكائنات OLE وعناصر تحكم أكتيفكس، وكلها ممثلة باستخدام فئة `Shape`. يمكن أن تحتوي بعض الأشكال أيضا على نص، لذلك يمكن أن تحتوي عقد الشكل في Aspose.Words على عقد على مستوى الكتلة.
 
-الشيكات يمكن تجميعها داخل بعضها البعض باستخدام Groupشظايا
+يمكن تجميع الأشكال داخل بعضها البعض باستخدام GroupShape العقد.
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-ويمكن أن تتضمن حواشي وتعليقات نصاً، ومن ثم تُدرج فيه ملاحظات وتعليقات Aspose.Words يمكن أن تحتوي على عقد من مستوى الكتل.
+يمكن أن تحتوي الحواشي السفلية والتعليقات على نص، وبالتالي يمكن أن تحتوي عقد الحاشية السفلية والتعليق في Aspose.Words على عقد على مستوى الكتلة.
 
 {{% /alert %}}
 
-## Table, Row, and Cell Node Level
+## مستوى عقدة الجدول والصف والخلية
 
-The table consists of nodes of rows and cells. وترد عناصر الجدول في الفئات التالية:
+يتكون الجدول من عقد الصفوف والخلايا. يتم تمثيل عناصر الجدول بالفئات التالية:
 
-- [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) يمثل صف طاولة
-- [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) يمثل خلية طاولة
-- الوثائق الهيكلية تمثّل علامة العرف
+- [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) يمثل صف جدول
+- [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) يمثل خلية جدول
+- StructuredDocumentTag تمثل الترميز المخصص
 
-ويبين الرسم البياني التالي الهياكل العقدية لمستويات الجدول والرو والخلية.
+يوضح الرسم البياني التالي هياكل العقدة لمستويات الجدول والصف والخلية.
 
 <img src="/words/java/logical-levels-of-nodes-in-a-document/table-row-cell.png" alt="table-row-cell-aspose-words-java" style="width:910px"/>

@@ -1,48 +1,48 @@
----
-title: からテーブルを作成する方法 `DataTable` お問い合わせ Java
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: からテーブルを作る `DataTable`
-linktitle: からテーブルを作る `DataTable`
-description: "外部データベースからドキュメントテーブルを埋め込む例 Javaお問い合わせ"
+﻿---
+title: JavaのDataTableからテーブルを構築する方法
+second_title: Aspose.WordsのためのJava
+articleTitle: ADataTableからテーブルを作成する
+linktitle: ADataTableからテーブルを作成する
+description: "Javaを使用して外部データベースからドキュメントテーブルを入力する例。"
 type: docs
 weight: 130
 url: /ja/java/how-to-build-a-table-from-a-datatable/
 timestamp: 2024-01-27-14-07-04
 ---
 
-多くの場合、アプリケーションはデータベースからデータをプルし、そのフォームに格納します **DataTable**お問い合わせ このデータを新しいテーブルに簡単に追加し、テーブル全体に素早く書式を適用することができます。
+多くの場合、アプリケーションはデータベースからデータを取得し、**DataTable**の形式で格納します。 このデータを新しいテーブルとして文書に簡単に挿入し、テーブル全体に書式設定をすばやく適用することができます。
 
 {{% alert color="primary" %}}
 
-データの入力の優先方法は、 **DataTable** ドキュメントテーブルに [Mail Merge 地域別](/words/java/mail-merge-and-reporting/#aboutmailmerge-mailmergewithregionsexplained)お問い合わせ この記事で提示された技術は、事前に適切なテンプレートを作成することができない場合にのみ提案され、他の言葉では、すべてがプログラム的に起こることを必要とする場合。
+**DataTable**からドキュメントテーブルにデータを挿入する好ましい方法は、以下を使用することです [地域を持つMail Merge](/words/java/mail-merge-and-reporting/#aboutmailmerge-mailmergewithregionsexplained). この記事で紹介する手法は、データをマージするための適切なテンプレートを事前に作成できない場合、つまり、すべてをプログラムで実行する必要がある場合にのみ推奨されます。
 
 {{% /alert %}}
 
-使用方法 Aspose.Words, データベースからデータを簡単に取得し、テーブルとして保存することができます。
+Aspose.Wordsを使用すると、データベースからデータを簡単に取得してテーブルとして格納できます:
 
-1。 新規作成 [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) あなたの上のオブジェクト [Document](https://reference.aspose.com/words/java/com.aspose.words/document/)お問い合わせ
-1。 新しいテーブルを使い始める [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)お問い合わせ
-1。 それぞれの列の名前を入力したい場合 **DataTable** ヘッダー行として、各データ列を繰り返し、列名をテーブルの行に書きます。
-1。 一人ひとりを応援する **DataRow** お問い合わせ **DataTable**:::
-   1.各オブジェクトを各オブジェクトで反復する **DataRow**お問い合わせ
-   1. オブジェクトをドキュメントにインサートする [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)お問い合わせ 使用されるメソッドは、オブジェクトの型をインサートするなどに依存します。 [DocumentBuilder.writeln()](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#writeln()) テキストとテキスト [DocumentBuilder.insertImage()](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage(byte[])) バイト配列のイメージを表す。
-   1. データ行の処理の終了時も作成される行を終了します [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder) ご利用にあたって [DocumentBuilder.endRow()](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow)お問い合わせ
-1。 からすべての行を一度 **DataTable** 呼ばれることによってテーブルを終えました [DocumentBuilder.endTable()](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable)お問い合わせ
-1。 最後に、希望するテーブルスタイルを、次のような適切なテーブルプロパティのいずれかで設定できます。 [Table.getStyleIdentifier()](https://reference.aspose.com/words/java/com.aspose.words/tablestyle/#getStyleIdentifier) テーブル全体にフォーマットを自動的に適用する。
-   当社の次のデータ **DataTable** この例で使用されます。
+1. [Document](https://reference.aspose.com/words/java/com.aspose.words/document/)に新しい[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)オブジェクトを作成します。
+1. [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)を使用して新しいテーブルを開始します。
+1. **DataTable**の各列の名前をヘッダー行として挿入する場合は、各データ列を反復処理し、列名をテーブルの行に書き込みます。
+1. **DataTable**内の各**DataRow**を反復処理します:
+   1. **DataRow**内の各オブジェクトを反復処理します。
+   1. [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)を使用してオブジェクトを文書に挿入します。 使用されるメソッドは、挿入されるオブジェクトのタイプに依存します（例：テキストの場合は[DocumentBuilder.writeln()](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#writeln()）、画像を表すバイト配列の場合は[DocumentBuilder.insertImage()](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage(byte[])）。
+   1. データ行の処理の終了時には、[DocumentBuilder.endRow()](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow)を使用して[DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder)によって作成される行も終了します。
+1. **DataTable**のすべての行が処理されたら、[DocumentBuilder.endTable()](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable)を呼び出してテーブルを終了します。
+1. 最後に、[Table.getStyleIdentifier()](https://reference.aspose.com/words/java/com.aspose.words/tablestyle/#getStyleIdentifier)などの適切なテーブルプロパティのいずれかを使用して目的のテーブルスタイルを設定し、テーブル全体に書式設定を自動的に適用できます。
+   この例では、**DataTable**の次のデータが使用されています:
 
 ![build-a-table-from-a-datatable-aspose-words-java-1](/words/java/how-to-build-a-table-from-a-datatable/how-to-build-a-table-from-a-datatable-1.png)
 
-以下のコード例では、上記のアルゴリズムを実行する方法を示します。 Aspose.Words:::
+次のコード例は、Aspose.Wordsで上記のアルゴリズムを実行する方法を示しています:
 
 {{< gist "aspose-words-gists" "b5330afb035e842063be7ce93cefe219" "import-table-from-data-table.java" >}}
 
-メソッドは簡単にあなたの使用を呼び出すことができます **DocumentBuilder** データ。
+このメソッドは、**DocumentBuilder**とdataを使用して簡単に呼び出すことができます。
 
-次のコードの例では、データからデータをインポートする方法を示します。 `DataTable` ドキュメントに新しいテーブルに差し込みます。
+次のコード例は、`DataTable`からデータをインポートし、ドキュメント内の新しいテーブルに挿入する方法を示しています:
 
 {{< gist "aspose-words-gists" "b5330afb035e842063be7ce93cefe219" "build-table-from-data-table.java" >}}
 
-下図の表は、上記のコードを実行することで生成されます。
+下の図に示す表は、上記のコードを実行することによって生成されます。
 
 ![build-a-table-from-a-datatable-aspose-words-java-2](/words/java/how-to-build-a-table-from-a-datatable/how-to-build-a-table-from-a-datatable-2.png)

@@ -1,41 +1,41 @@
----
+﻿---
 title: Manipuler et remplacer les polices TrueType
 second_title: Aspose.Words pour Java
 articleTitle: Manipuler et remplacer les polices TrueType
 linktitle: Manipuler et remplacer les polices TrueType
-description: "Aspose.Words pour Java peut intégrer les polices TrueType correctes dans le document résultant pour s'assurer qu'il s'affiche avec précision, ou rechercher un remplacement de police approprié, ou utilise le mécanisme de retour de police."
+description: "Aspose.Words pour Java peut incorporer les polices TrueType correctes dans le document résultant pour s'assurer qu'il s'affiche avec précision, ou rechercher un remplacement de police approprié, ou utiliser le mécanisme de secours de police."
 type: docs
 weight: 10
 url: /fr/java/manipulate-and-substitute-truetype-fonts/
 timestamp: 2024-10-21-11-17-44
 ---
 
-Aspose.Words demande Vrai Tapez les polices pour une variété de tâches, y compris le rendu des documents dans des formats de page fixe, par exemple, PDF ou XPS. Quand Aspose.Words rend un document, il doit effectuer l'intégration et l'intégration sous-ensemble des polices TrueType dans le document résultant, qui est une pratique normale pendant une génération de document, y compris le PDF populaire ou XPS les formats. Cela garantit que le document apparaîtra de la même façon à tout spectateur. En outre, XPS spécification exige que les polices soient toujours intégrées dans le document.
+Aspose.Words nécessite des polices TrueType pour diverses tâches, y compris le rendu de documents dans des formats de page fixe, par exemple PDF ou XPS. Lorsque Aspose.Words rend un document, il doit effectuer l'incorporation et l'incorporation de sous-ensembles de polices TrueType dans le document résultant, ce qui est une pratique normale lors d'une génération de document, y compris les formats populaires PDF ou XPS. Cela garantit que le document apparaîtra de la même manière à n'importe quel visualiseur. De plus, la spécification XPS exige que les polices soient toujours incorporées dans le document.
 
-Assurer Aspose.Words mesure avec précision les caractères et intègre avec succès les polices pertinentes, les conditions suivantes doivent être remplies:
+Pour garantir que Aspose.Words mesure avec précision les caractères et intègre avec succès les polices pertinentes, les conditions suivantes doivent être remplies:
 
-1. Aspose.Words devrait pouvoir trouver et accéder aux fichiers de police TrueType sur le système.
-1. Il doit y avoir suffisamment de polices TrueType disponibles pour Aspose.Words, de préférence avec les mêmes noms de famille que ceux utilisés dans le document.
+1. Aspose.Words devrait pouvoir trouver et accéder aux fichiers de polices TrueType sur le système.
+1. Il doit y avoir suffisamment de polices TrueType disponibles pour Aspose.Words, de préférence avec les mêmes noms de famille de polices que ceux utilisés dans le document.
 
-Notez que la police dans le document représente une entité, comme le nom de famille, le style, la taille, la couleur, qui est différente de la `TrueType` entité de police (de police physique). Aspose.Words résout la police du document à une police physique à un stade quelconque du traitement. Cela permet certaines tâches, le plus souvent la tâche de calculer la taille du texte lors de la construction de la mise en page et l'intégration/sous-réglage aux formats de page fixe. Un certain nombre d'autres tâches moins populaires, comme la résolution et la substitution de polices lors du chargement de HTML ou de l'intégration/sous-réglage dans certains formats de flux, sont également activées.
+Notez que la police dans le document représente une entité, telle que le nom de famille, le style, la taille, la couleur, qui est différente de l'entité `TrueType` font (police physique). Aspose.Words résout la police du document en une police physique à un certain stade du traitement. Cela permet certaines tâches, le plus souvent la tâche de calculer la taille du texte lors de la construction de la mise en page et de l'incorporation/sous-ensemble dans des formats de page fixes. Un certain nombre d'autres tâches moins courantes, telles que la résolution et la substitution de polices lors du chargement de HTML ou l'incorporation/sous-définition dans certains formats de flux, sont également activées.
 
-## Manipulation des polices et problèmes de performance
+## Problèmes de Manipulation et de Performances des Polices
 
-Tous les mécanismes de manipulation de police disponibles sont contenus dans le [FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/) En cours. Cette classe est responsable de la récupération des polices dans les sources de police définies ainsi que pour le processus de substitution des polices, comme décrit ci-dessous.
+Tous les mécanismes de manipulation de polices disponibles sont contenus dans la classe [FontSettings](https://reference.aspose.com/words/java/com.aspose.words/fontsettings/). Cette classe est responsable de la récupération des polices dans les sources de polices définies ainsi que du processus de substitution de polices, comme décrit ci-dessous.
 
 Les polices sont analysées en plusieurs étapes:
 
-1. Obtenir des informations pour la police, résoudre à partir de toutes les polices disponibles.
-1. Parsing les polices résolues pour être disponible glyphs et métriques (horizontale et verticale).
-1. Analyse des polices résolues pour l'intégration et le sous-réglage.
+1. Obtention d'informations pour la police, résolution à partir de toutes les polices disponibles.
+1. Analyse des polices résolues pour obtenir les glyphes et métriques disponibles (horizontaux et verticaux).
+1. Analyse des polices résolues pour l'incorporation et le sous-ensemble.
 
-Quand Aspose.Words rencontre une police dans le document pour la première fois, il tente d'obtenir des informations de base sur la police, comme le nom complet de la police, le nom de famille, la version, le style, à partir des fichiers de police situés dans chaque source de police. Après toutes les polices sont récupérées, Aspose.Words utilise ces détails pour trouver les données de police requises ou un remplacement approprié de la police demandée.
+Lorsque Aspose.Words rencontre une police dans le document pour la première fois, il tente d'obtenir des informations de police de base, telles que le nom complet de la police, le nom de famille, la version, le style, à partir des fichiers de polices situés dans chaque source de police. Une fois toutes les polices récupérées, Aspose.Words utilise ces détails pour trouver les données de police requises ou un remplacement approprié pour la police demandée.
 
-Étant donné que la procédure décrite ci-dessus prend du temps, elle peut avoir une incidence négative sur les performances de l'application lors de son premier lancement. Cependant, chaque cas de **FontSettings** a son propre cache, ce qui pourrait réduire le temps de traitement des documents ultérieurs. Par exemple, vous pouvez partager une **FontSettings** classe entre différents documents, ce qui vous permet d'accélérer le chargement des documents. L'exemple suivant en témoigne:
+Étant donné que la procédure décrite ci-dessus prend du temps, elle peut affecter négativement les performances de l'application lors de son premier lancement. Cependant, chaque instance de **FontSettings** possède son propre cache, ce qui pourrait réduire le temps de traitement des documents suivants. Par exemple, vous pouvez partager une instance de la classe **FontSettings** entre différents documents, ce qui vous permet d'accélérer le chargement des documents. L'exemple suivant le démontre:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSettings-FontSettingsWithLoadOptions.java" >}}
 
-Dans le cas où **FontSettings** n'est pas défini explicitement, Aspose.Words utilise la valeur par défaut **FontSettings** - Oui. Cette instance est également automatiquement partagée entre les documents et peut être extraite comme suit:
+Dans le cas où **FontSettings** n'est pas défini explicitement, Aspose.Words utilise l'instance **FontSettings** par défaut. Cette instance est également automatiquement partagée entre les documents et peut être extraite comme suit:
 
 **Java**
 
@@ -43,34 +43,34 @@ Dans le cas où **FontSettings** n'est pas défini explicitement, Aspose.Words u
 FontSettings fontSettings = FontSettings.getDefaultInstance();
 {{< /highlight >}}
 
-Si vous êtes sûr que tous les documents de traitement nécessitent les mêmes paramètres de police, il est recommandé de configurer et d'utiliser la police par défaut **FontSettings** - Oui. Supposez que vous devez utiliser les mêmes sources de police pour tous vos documents. Dans ce cas, vous pouvez simplement modifier l'instance par défaut comme suit:
+Si vous êtes sûr que tous les documents de traitement nécessitent les mêmes paramètres de police, il est recommandé de configurer et d'utiliser l'instance **FontSettings** par défaut. Supposons que vous deviez utiliser les mêmes sources de polices pour tous vos documents. Dans ce cas, vous pouvez simplement modifier l'instance par défaut comme suit:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSettings-FontSettingsFontSource.java" >}}
 
 {{% alert color="primary" %}}
 
-La coutume **FontSettings** ont une priorité supérieure à l'instance par défaut.
+La coutume **FontSettings** a une priorité plus élevée que l'instance par défaut.
 
 {{% /alert %}}
 
-## Disponibilité et remplacement des polices
+## Disponibilité et Substitution des Polices
 
-Un texte dans un document peut être formaté avec différentes polices, telles que Arial, Times New Roman, Verdana, etc. Quand Aspose.Words rend un document, il tente de sélectionner les polices qui sont spécifiées dans le document.
+Un texte dans un document peut être formaté avec différentes polices, telles que Arial, Times New Roman, Verdana et autres. Lorsque Aspose.Words affiche un document, il tente de sélectionner les polices spécifiées dans le document.
 
-Cependant, il y a des situations où la police exacte ne peut pas être trouvée et Aspose.Words doit remplacer une police similaire. Aspose.Words sélectionne la police selon le processus suivant:
+Cependant, il y a des situations où la police exacte ne peut pas être trouvée et Aspose.Words doit la remplacer par une police similaire à la place. Aspose.Words sélectionne la police selon le processus suivant:
 
-1. Aspose.Words essaie de trouver une police parmi les sources de police disponibles avec un nom de police exact.
-1. Aspose.Words essaie de trouver la police requise parmi les polices intégrées dans le document original. Certains formats de documents tels que DOCX peuvent contenir des polices intégrées.
-1. Si Aspose.Words est incapable de localiser la police requise avec la correspondance de nom exacte, et le [AltName](https://reference.aspose.com/words/java/com.aspose.words/fontinfo/#getAltName) propriété définie pour cette police, alors Aspose.Words trouvera la police définie avec **AltName** des [FontInfo](https://reference.aspose.com/words/java/com.aspose.words/fontinfo/) classe, qui spécifie les informations de police.
-1. Si Aspose.Words est incapable de localiser la police définie, et **AltName** n'est pas aussi défini, alors les règles de substitution de police sont appliquées un par un, comme décrit ci-dessous (lorsque le remplacement approprié est trouvé, le processus de substitution de police s'arrête et l'étape suivante n'est pas exécutée):
-   1. Aspose.Words tentera d'appliquer les paramètres de police OS, s'ils sont disponibles, en utilisant le `FontConfig` utilitaire. Ce non--Windows fonctionnalité doit être utilisée avec un OS compatible FontConfig. Presque n'importe quel système d'exploitation Unix a déjà `FontConfig` bibliothèque qui est conçue pour fournir la configuration de polices à l'échelle du système, la personnalisation et l'accès aux applications. Sinon, cette bibliothèque peut être facilement installée par l'utilisateur.<br/>
-      Aspose.Words sait comment interroger les données et interpréter les résultats de FontConfig à ses propres fins. Par défaut, `FontConfig` l'utilité est désactivée. Vous pouvez l'activer comme suit:<br/>
-      **Java**<br/>
+1. Aspose.Words essaie de trouver une police parmi les sources de polices disponibles avec un nom de police exact.
+1. Aspose.Words essaie de trouver la police requise parmi les polices incorporées dans le document d'origine. Certains formats de document tels que DOCX peuvent contenir des polices incorporées.
+1. Si Aspose.Words ne parvient pas à localiser la police requise avec la correspondance de nom exacte et que la propriété [AltName](https://reference.aspose.com/words/java/com.aspose.words/fontinfo/#getAltName) est définie pour cette police, alors Aspose.Words trouvera la police définie avec **AltName** à partir de la classe [FontInfo](https://reference.aspose.com/words/java/com.aspose.words/fontinfo/), qui spécifie les informations de police.
+1. Si Aspose.Words ne parvient pas à localiser la police définie et que **AltName** n'est pas également défini, les règles de substitution de police sont appliquées une par une, comme décrit ci-dessous (lorsque le remplacement approprié est trouvé, le processus de substitution de police s'arrête et l'étape suivante n'est pas exécutée):
+   1. Aspose.Words tentera d'appliquer les paramètres de police OS, s'ils sont disponibles, à l'aide de l'utilitaire `FontConfig`. Cette fonctionnalité nonWindows doit être utilisée avec un FontConfig compatible OS. Presque tous les OS basés sur Unix disposent déjà d'une bibliothèque `FontConfig` conçue pour fournir une configuration de polices, une personnalisation et un accès aux applications à l'échelle du système. Sinon, cette bibliothèque peut être facilement installée par l'utilisateur.<br>
+      Aspose.Words sait interroger les données et interpréter les résultats FontConfig à ses propres fins. Par défaut, l'utilitaire `FontConfig` est désactivé. Vous pouvez l'activer comme suit:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getFontConfigSubstitution()().setEnabled(true);
       {{< /highlight >}}
-   1. La prochaine étape est un mécanisme simple, mais incroyablement puissant appelé [TableSubstitutionRule](https://reference.aspose.com/words/java/com.aspose.words/tablesubstitutionrule/). Par défaut, cette fonctionnalité est active et disponible pour tout OS. Aspose.Words utilise des tables XML qui définissent les règles de substitution de base pour différents OS. Conformément à la règle de substitution de table, la liste des noms de polices de remplacement sera utilisée.<br/>
-      **XML**<br/>
+   1. L'étape suivante est un mécanisme simple, mais incroyablement puissant appelé [TableSubstitutionRule](https://reference.aspose.com/words/java/com.aspose.words/tablesubstitutionrule/). Par défaut, cette fonctionnalité est active et disponible pour tout OS. Aspose.Words utilise des tables XML qui définissent des règles de substitution de base pour différents OS. Selon la règle de substitution de table, la liste des noms de polices de substitution sera utilisée.<br>
+**XML**
       {{< highlight html >}}
       <TableSubstitutionSettings xmlns="Aspose.Words"> 
 	<SubstitutesTable> 
@@ -79,73 +79,73 @@ Cependant, il y a des situations où la police exacte ne peut pas être trouvée
 	</SubstitutesTable> 
       </TableSubstitutionSettings>
       {{< /highlight >}}
-      OriginalFont - une police à remplacer, SubstituteFonts - liste des variantes de substitution, séparée par une virgule. La première police disponible est utilisée pour le remplacement.<br/>
-      La principale caractéristique de cette règle est la capacité de charger vos propres tables de substitution, comme il est montré dans l'exemple suivant:<br/>
-      **Java**<br/>
+      OriginalFont - une police à remplacer, SubstituteFonts - liste des variantes de substitution, séparées par une virgule. La première police disponible est utilisée pour le remplacement.<br>
+      La principale caractéristique de cette règle est la possibilité de charger vos propres tables de substitution, comme le montre l'exemple suivant:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getTableSubstitution().load("Table.xml");
       {{< /highlight >}}
-      Vous pouvez prendre comme base le tableau existant du pot ou le sauvegarder programmatiquement de la manière suivante:<br/>
-      **Java**<br/>
+      Vous pouvez prendre comme base la table existante du fichier jar ou l'enregistrer par programme de la manière suivante:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getTableSubstitution().save("MyTable.xml");
       {{< /highlight >}}
-      Malgré la souplesse de ce mécanisme, il y a certains cas où il est préférable de le désactiver, comme le montre ci-dessous:<br/>
-      **Java**<br/>
+      Malgré la flexibilité de ce mécanisme, il existe certains cas où il est préférable de le désactiver, comme indiqué ci-dessous:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getTableSubstitution().setEnabled(false);
       {{< /highlight >}}
-   1. Les **FontInfo** la règle de substitution sera appliquée si la règle de substitution de table ne trouve pas la police. Ce mécanisme est activé par défaut. Aspose.Words trouve la police la plus appropriée selon les informations de police contenues dans un document particulier. Ces informations peuvent être obtenues auprès de l'adresse suivante: **FontInfo** classe comme suit:<br/>
-      **Java**<br/>
+   1. La règle de substitution **FontInfo** sera appliquée si la règle de substitution de table ne trouve pas la police. Ce mécanisme est activé par défaut. Aspose.Words recherche la police la plus appropriée en fonction des informations de police contenues dans un document particulier. Ces informations peuvent être obtenues à partir de la classe **FontInfo** comme indiqué ci-dessous:<br>
+**Java**
       {{< highlight csharp >}}
       FontInfoCollection fontInfos = doc.getFontInfos();
       {{< /highlight >}}
-      Les utilisateurs ne peuvent interférer dans le flux de travail de cette fonctionnalité à moins qu'ils ne décident de la désactiver en cas de résultats insatisfaisants:<br/>
-      **Java**<br/>
+      Les utilisateurs ne peuvent pas interférer dans le flux de travail de cette fonctionnalité à moins qu'ils ne décident de la désactiver en cas de résultats insatisfaisants:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getFontInfoSubstitution().setEnabled(false);
       {{< /highlight >}}
-      Si **FontInfo** n'est pas disponible pour la police manquante, puis le processus s'arrête.
-   1. **DefaultFont** la règle de substitution sera appliquée dans le cas où `FontInfo` La substitution a également échoué. Cette règle est également activée par défaut. Selon cette règle, Aspose.Words tentera d'utiliser la police par défaut spécifiée dans la [DefaultFontName](https://reference.aspose.com/words/java/com.aspose.words/defaultfontsubstitutionrule/#getDefaultFontName) propriété. Si l'utilisateur n'a pas choisi sa propre police par défaut, alors "Times New Roman" sera utilisé comme police par défaut. Cette règle peut être désactivée comme suit:<br/>
-      **Java**<br/>
+      Si **FontInfo** n'est pas disponible pour la police manquante, le processus s'arrête.
+   1. la règle de substitution **DefaultFont** sera appliquée dans le cas où la substitution `FontInfo` a également échoué. Cette règle est également activée par défaut. Selon cette règle, Aspose.Words tentera d'utiliser la police par défaut spécifiée dans la propriété [DefaultFontName](https://reference.aspose.com/words/java/com.aspose.words/defaultfontsubstitutionrule/#getDefaultFontName). Si l'utilisateur n'a pas choisi sa propre police par défaut, "Times New Roman" sera utilisé comme police par défaut. Cette règle peut être désactivée comme indiqué ci-dessous:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setEnabled(false);
       {{< /highlight >}}
-      Pour vérifier la police par défaut actuelle, utilisez:<br/>
-      **Java**<br/>
+      Pour vérifier la police par défaut actuelle, utilisez:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().getDefaultFontName();
       {{< /highlight >}}
-      Pour configurer votre propre option de remplacement, appliquez:<br/>
-      **Java**<br/>
+      Pour configurer votre propre option de remplacement, appliquez:<br>
+**Java**
       {{< highlight csharp >}}
       fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Arial");
       {{< /highlight >}}
-1. Si Aspose.Words est incapable d'effectuer la substitution de police, il essaie d'obtenir la première police disponible à partir des sources de police disponibles.
-1. Enfin, si Aspose.Words ne peut trouver aucune police parmi les sources de police disponibles, il rend le document en utilisant la police Free Fanwood qui est intégrée dans le Aspose.Words l'assemblage.
+1. Si Aspose.Words ne parvient pas à effectuer la substitution de police, il essaie d'obtenir la première police disponible à partir des sources de polices disponibles.
+1. Enfin, si Aspose.Words ne trouve aucune police parmi les sources de polices disponibles, il affiche le document à l'aide de la police Fanwood gratuite intégrée à l'assembly Aspose.Words.
 
 {{% alert color="primary" %}}
 
-Si **FontInfo** est disponible, la règle de substitution *FontInfo* résoudra toujours la police et remplacera la règle de police par défaut. Si vous voulez utiliser la règle de police par défaut, vous devez désactiver la règle de substitution *FontInfo*. Notez que la règle de substitution *FontConfig* va résoudre la police dans la plupart des cas, ce qui l'emporte sur toutes les autres règles.
+Si **FontInfo** est disponible, *FontInfo substitution rule* résoudra toujours la police et remplacera la règle de police par défaut. Si vous souhaitez utiliser la règle de police par défaut, vous devez désactiver le *FontInfo substitution rule*. Notez que le *FontConfig substitution rule* résoudra la police dans la plupart des cas et remplacera donc toutes les autres règles.
 
 {{% /alert %}}
 
-## Comment reconnaître Que la police a été remplacée
+## Comment Reconnaître Que la Police A Été Remplacée
 
-Parfois, on peut ne pas comprendre pourquoi la mise en page du document a changé, ou pourquoi une police ne semble pas comme prévu. Dans de tels cas, les messages d'avertissement de substitution de police mis en place par le [IWarningCallback](https://reference.aspose.com/words/java/com.aspose.words/iwarningcallback/) l'interface vient pour sauver. Ils ont les [FontSubstitution](https://reference.aspose.com/words/java/com.aspose.words/warningtype/#FONT-SUBSTITUTION) type d'avertissement et format de texte de la description standard, "Font"<originalfont>' n'a pas été trouvé. Utilisation '<substitutionfont>' police à la place. Raison: <reason>" pour les raisons suivantes:</reason></substitutionfont></originalfont>
+Parfois, il peut être difficile de comprendre pourquoi la mise en page du document a changé ou pourquoi certaines polices ne ressemblent pas à ce qui était attendu. Dans de tels cas, les messages d'avertissement de substitution de police implémentés par l'interface [IWarningCallback](https://reference.aspose.com/words/java/com.aspose.words/iwarningcallback/) viennent à la rescousse. Ils ont le type d'avertissement [FontSubstitution](https://reference.aspose.com/words/java/com.aspose.words/warningtype/#FONT-SUBSTITUTION) et le format de texte de description standard, "La police' <OriginalFont> ' n'a pas été trouvée. En utilisant la police' <SubstitutionFont> ' à la place. Raison: <Reason>", avec les raisons suivantes:
 
-- "nom alternatif du document" – pour substitution par [AltName](https://reference.aspose.com/words/java/com.aspose.words/Fontinfo#AltName)
-- "substitution Fontconfig" – pour substitution par la règle de configuration de police
-- "substitution de table" – pour substitution par règle de table
-- "font info substitution" – pour substitution par police info règle
-- "substitution de police par défaut" – pour substitution par la règle de police par défaut
-- "première police disponible" – pour la substitution avec la première police disponible
+- " nom alternatif du document " – pour substitution par [AltName](https://reference.aspose.com/words/java/com.aspose.words/Fontinfo#AltName)
+- "fontconfig substitution" - pour la substitution par la règle de configuration de la police
+- " substitution de table " – pour la substitution par règle de table
+- "substitution d'informations sur la police" – pour la substitution par la règle d'informations sur la police
+- " Substitution de police par défaut " – pour la substitution par règle de police par défaut
+- " première police disponible " – pour la substitution avec la première police disponible
 
-## Paramètres de retour de police depuis XML
+## Paramètres de police FallBack à partir de XML
 
-Il existe deux mécanismes différents Aspose.Words - la substitution des polices et le repli des polices. La substitution de polices est utilisée lorsque la police spécifiée dans le document n'a pas pu être trouvée parmi les sources de polices telles qu'elles ont été décrites dans les sections ci-dessus. Le mécanisme de retour de police est utilisé lorsque la police est résolue, mais il ne contient pas de caractère spécifique. Dans ce cas, Aspose.Words essaie d'utiliser l'une des polices fallback pour le personnage.
+Il existe deux mécanismes différents utilisés dans Aspose.Words - la substitution de police et le repli de police. La substitution de police est utilisée lorsque la police spécifiée dans le document n'a pas pu être trouvée parmi les sources de police telles qu'elles ont été décrites dans les sections ci-dessus. Le mécanisme de secours de la police est utilisé lorsque la police est résolue, mais elle ne contient pas de caractère spécifique. Dans ce cas, Aspose.Words essaie d'utiliser l'une des polices de secours pour le caractère.
 
-Il y a une [BuildAutomatic](https://reference.aspose.com/words/java/com.aspose.words/fontfallbacksettings/#buildAutomatic) méthode qui construit automatiquement les paramètres de repli en scannant les polices disponibles. Puisque cette méthode peut produire un paramètre de repli non optimal, vous pouvez contrôler le comportement de repli de police en utilisant les propriétés de la [FontFallbackSettings](https://reference.aspose.com/words/java/com.aspose.words/fontfallbacksettings/) En cours. Cette classe spécifie les paramètres du mécanisme de retour de police. Vous pouvez obtenir une instance de la **FontFallbackSettings** classe comme suit:
+Il existe une méthode [BuildAutomatic](https://reference.aspose.com/words/java/com.aspose.words/fontfallbacksettings/#buildAutomatic) qui construit automatiquement les paramètres de secours en analysant les polices disponibles. Étant donné que cette méthode peut produire un paramètre de secours non optimal, vous pouvez contrôler le comportement de secours de la police en utilisant les propriétés de la classe [FontFallbackSettings](https://reference.aspose.com/words/java/com.aspose.words/fontfallbacksettings/). Cette classe spécifie les paramètres du mécanisme de repli des polices. Vous pouvez obtenir une instance de la classe **FontFallbackSettings** comme suit:
 
 **Java**
 
@@ -153,7 +153,7 @@ Il y a une [BuildAutomatic](https://reference.aspose.com/words/java/com.aspose.w
 FontFallbackSettings settings = fontSettings.getFallbackSettings();
 {{< /highlight >}}
 
-De même que la règle de substitution *Table*, ce mécanisme utilise des tables XML pour la configuration. Ces tables XML peuvent être chargées et sauvegardées avec les méthodes suivantes:
+De la même manière que *Table substitution rule*, ce mécanisme utilise des tables XML pour la configuration. Ces tables XML peuvent être chargées et enregistrées avec les méthodes suivantes:
 
 **Java**
 
@@ -162,9 +162,9 @@ fontSettings.getFallbackSettings().load("MyNewFallbackTable.xml");
 fontSettings.getFallbackSettings().save("Current_FallbackTable.xml");
 {{< /highlight >}}
 
-Les Aspose.Words version comprend deux tableaux: *MsOfficeFallbackSetting.xml* et *NotoFallbackSetting.xml*.
+La version Aspose.Words comprend deux tables: *MsOfficeFallbackSetting.xml* et *NotoFallbackSetting.xml*.
 
-Les *MsOfficeFallbackSetting* tableau définit une stratégie de remplacement pour une gamme de caractères, qui est similaire à la stratégie utilisée par Microsoft Word. Ainsi, la stratégie nécessite l'installation de Microsoft Polices de bureau. *MsOfficeFallbackSetting* peut être activé en utilisant la méthode suivante:
+La table *MsOfficeFallbackSetting* définit une stratégie de remplacement pour une plage de caractères, similaire à la stratégie utilisée par Microsoft Word. Ainsi, la stratégie nécessite l'installation de Microsoft polices Office. *MsOfficeFallbackSetting* peut être activé en utilisant la méthode suivante:
 
 **.Java**
 
@@ -172,7 +172,7 @@ Les *MsOfficeFallbackSetting* tableau définit une stratégie de remplacement po
 fontSettings.getFallbackSettings().loadMsOfficeFallbackSettings();
 {{< /highlight >}}
 
-Les *NotoFallbackSetting* table est créé spécialement pour l'utilisation avec Google Noto polices (voir plus sur Google Noto Paramètres de police dans la section suivante) et peut être activé comme suit:
+La table *NotoFallbackSetting* est créée spécialement pour être utilisée avec les polices Google Noto (voir plus d'informations sur les paramètres de police Google Noto dans la section suivante) et peut être activée comme suit:
 
 **Java**
 
@@ -180,7 +180,7 @@ Les *NotoFallbackSetting* table est créé spécialement pour l'utilisation avec
 fontSettings.getFallbackSettings().loadNotoFallbackSettings();
 {{< /highlight >}}
 
-L'exemple de code suivant montre comment charger les paramètres de repli de police à partir d'un fichier XML:
+L'exemple de code suivant montre comment charger les paramètres de secours de police à partir d'un fichier XML:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-SetFontSettings-SetFontFallbackSettings.java" >}}
 
@@ -205,35 +205,35 @@ Dans l'exemple de code ci-dessus, le fichier XML suivant est utilisé:
 </FontFallbackSettings>
 {{< /highlight >}}
 
-## Paramètres prédéfinis d'automne de police pour Google Noto Polices
+## Paramètres de police prédéfinis FallBack pour les polices Google Noto
 
-Aspose.Words fournit des paramètres de retour de police prédéfinis pour Google Noto polices. Ce sont des polices gratuites sous licence SIL Open Font, qui peuvent être téléchargées depuis Google Noto Polices. Les **FontFallbackSettings** classe fournit une [LoadNotoFallbackSettings](https://reference.aspose.com/words/java/com.aspose.words/fontfallbacksettings/#loadNotoFallbackSettings) méthode. Il charge les paramètres de repli prédéfinis, qui utilisent Google Noto polices comme indiqué dans l'exemple de code ci-dessous:
+Aspose.Words fournit des paramètres de remplacement de police prédéfinis pour les polices Google Noto. Ce sont des polices gratuites sous licence SIL Open Font License, qui peuvent être téléchargées à partir de Google Noto Fonts. La classe **FontFallbackSettings** fournit une méthode [LoadNotoFallbackSettings](https://reference.aspose.com/words/java/com.aspose.words/fontfallbacksettings/#loadNotoFallbackSettings). Il charge des paramètres de secours prédéfinis, qui utilisent des polices Google Noto comme indiqué dans l'exemple de code ci-dessous:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-SetFontSettings-setPredefinedFontFallbackSettings.java" >}}
 
 {{% alert color="primary" %}}
 
-Seules les polices Sans style Noto avec poids régulier sont utilisées dans les paramètres prédéfinis.
+Seules les polices Noto de style Sans avec un poids régulier sont utilisées dans des paramètres prédéfinis.
 
 {{% /alert %}}
 
-## Où Aspose.Words Recherche de polices
+## Où Aspose.Words Recherche les polices
 
-Aspose.Words tente de trouver automatiquement les polices TrueType sur le système de fichiers. Habituellement, vous pouvez compter sur le comportement par défaut de Aspose.Words pour trouver le `TrueType` polices, mais parfois vous devez spécifier vos propres dossiers contenant des polices TrueType. Les [Préciser Vrai Type de police Déplacement](/words/fr/java/specify-truetype-fonts-location/) le sujet décrit comment et où Aspose.Words recherche des polices, ainsi que la façon de spécifier vos propres emplacements de police.
+Aspose.Words tente de trouver automatiquement TrueType polices sur le système de fichiers. Habituellement, vous pouvez compter sur le comportement par défaut de Aspose.Words pour trouver les polices `TrueType`, mais parfois vous devez spécifier vos propres dossiers contenant les polices TrueType. Les [Spécifiez l'emplacement des polices TrueType](/words/java/specify-truetype-fonts-location/) la rubrique décrit comment et où Aspose.Words recherche les polices, ainsi que comment spécifier vos propres emplacements de police.
 
-## Différences dans le traitement des formats de police Aspose.Words et Microsoft Word
+## Différences dans le traitement des formats de police dans Aspose.Words et Microsoft Word
 
-Il existe certaines différences dans le traitement des formats de police Aspose.Words et Microsoft Word comme indiqué dans le tableau ci-dessous:
+Il existe quelques différences dans le traitement des formats de police dans Aspose.Words et Microsoft Word, comme indiqué dans le tableau ci-dessous:
 
 |  | Microsoft Word | Aspose.Words |
-|  :-  |  :-  |  :-  |
-| Polices TrueType et polices OpenType avec contours TrueType | Soutenu. | Soutenu. |
-| Polices OpenType avec contours PostScript | Prise en charge pour la plupart des scénarios. Intégration aux formats de pages fixes tels que PDF et XPS ne sont pas supportés. Le texte est remplacé par des images bitmap. | Prise en charge pour la plupart des scénarios, y compris l'intégration aux formats de page fixe. |
-| Variations des polices OpenType | Seules les instances nommées sont prises en charge. Les variations continues ne sont pas prises en charge. | Prise en charge pour la seule instance par défaut. Les instances nommées et les variations continues ne sont pas prises en charge. |
-| Polices Type1 | Appui Windows versions antérieures à 2013 et sur MacOS versions. Le soutien est abandonné Windows versions à partir de 2013. | Pas pris en charge. |
+| :- | :- | :- |
+| TrueType polices et OpenType polices avec TrueType contours | Soutenu. | Soutenu. |
+| OpenType polices avec PostScript contours | Pris en charge pour la plupart des scénarios. L'incorporation dans des formats de page fixe tels que PDF et XPS n'est pas prise en charge. Le texte est remplacé par des images bitmap. | Pris en charge pour la plupart des scénarios, y compris l'incorporation dans des formats de pages fixes. |
+| OpenType Variations de polices | Seules les instances nommées sont prises en charge. Variations continues non prises en charge. | Pris en charge pour la seule instance par défaut. Les instances nommées et les variations continues ne sont pas prises en charge. |
+| Polices de Type1 | Pris en charge sur les versions Windows antérieures à 2013 et sur les versions MacOS. Le support est supprimé sur les versions Windows à partir de 2013. | Non pris en charge. |
 
-## Voir aussi
+## Voir Aussi
 
-- Oui. [Google Noto Polices](https://fonts.google.com/noto) pour télécharger des polices gratuites
+- [Google Noto Politiques](https://fonts.google.com/noto) pour télécharger des polices gratuites
 
 

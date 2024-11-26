@@ -1,8 +1,8 @@
 ---
-title: 를 통해 차트 작업 `Shape.Chart` 개체
+title: 를 통해 차트 작업 Shape.Chart 개체
 second_title: Aspose.Words 에 대한 C++
-articleTitle: 를 통해 차트 작업 `Shape.Chart` 개체
-linktitle: 를 통해 차트 작업 `Shape.Chart` 개체
+articleTitle: 를 통해 차트 작업 Shape.Chart 개체
+linktitle: 를 통해 차트 작업 Shape.Chart 개체
 description: "세부 차트,차트가 모양 노드와 연결된 방법 Aspose.Words 에 대한 C++."
 type: docs
 weight: 10

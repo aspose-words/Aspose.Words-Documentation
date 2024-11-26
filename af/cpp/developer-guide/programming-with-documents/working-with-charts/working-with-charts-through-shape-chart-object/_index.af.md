@@ -1,8 +1,8 @@
 ---
-title: Werk Met Kaarte deur `Shape.Chart` Voorwerp
+title: Werk Met Kaarte deur Shape.Chart Voorwerp
 second_title: Aspose.Words vir C++
-articleTitle: Werk Met Kaarte deur `Shape.Chart` Voorwerp
-linktitle: Werk Met Kaarte deur `Shape.Chart` Voorwerp
+articleTitle: Werk Met Kaarte deur Shape.Chart Voorwerp
+linktitle: Werk Met Kaarte deur Shape.Chart Voorwerp
 description: "Kaarte in besonderhede, hoe grafiek gekoppel met Vorm node in Aspose.Words vir C++."
 type: docs
 weight: 10

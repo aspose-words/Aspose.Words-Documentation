@@ -1,76 +1,76 @@
----
-title: Варианты и внешний вид текстовых документов
+﻿---
+title: Параметры и внешний вид документов Word
 second_title: Aspose.Words для Java
-articleTitle: Работа с вариантами и появлением текстовых документов
-linktitle: Работа с вариантами и появлением текстовых документов
-description: "Контроль внешнего вида документов Word с учетом разницы между различными Microsoft Word версии, использующие Java."
+articleTitle: Работа с параметрами и внешним видом документов Word
+linktitle: Работа с параметрами и внешним видом документов Word
+description: "Управляйте внешним видом документов Word с учетом различий между различными версиями Microsoft Word с помощью Java."
 type: docs
 weight: 40
 url: /ru/java/work-with-word-document-options-and-appearance/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Иногда может потребоваться изменить внешний вид документа, например, установить языковые предпочтения или количество строк на странице.Aspose.Words Предоставляет возможность контролировать, как будет отображаться документ, а также некоторые дополнительные опции. В этой статье описаны такие возможности.
+Иногда вам может потребоваться изменить внешний вид документа, например, задать языковые настройки или количество строк на странице. Aspose.Words предоставляет возможность управлять тем, как будет отображаться документ, а также некоторые дополнительные опции. В этой статье описываются такие возможности.
 
-## Установите опции отображения документов
+## Установите параметры отображения документа
 
-Вы можете контролировать, как документ будет отображаться в Microsoft Word используя [ViewOptions](https://reference.aspose.com/words/java/com.aspose.words/viewoptions/) класс. Например, вы можете установить значение зума документа, используя [ZoomPercent](https://reference.aspose.com/words/java/com.aspose.words/viewoptions/#getZoomPercent) собственность или режим просмотра с использованием [ViewType](https://reference.aspose.com/words/java/com.aspose.words/viewoptions/#getViewType) собственность.
+Вы можете управлять отображением документа в Microsoft Word с помощью класса [ViewOptions](https://reference.aspose.com/words/java/com.aspose.words/viewoptions/). Например, вы можете задать величину масштабирования документа, используя свойство [ZoomPercent](https://reference.aspose.com/words/java/com.aspose.words/viewoptions/#getZoomPercent), или режим просмотра, используя свойство [ViewType](https://reference.aspose.com/words/java/com.aspose.words/viewoptions/#getViewType).
 
-Следующий пример кода показывает, как убедиться, что документ отображается на 50% при открытии в Microsoft Word:
+В следующем примере кода показано, как обеспечить отображение документа на 50% при открытии в Microsoft Word:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SetViewOptions-SetViewOptions.java" >}}
 
 {{% alert color="primary" %}}
 
-Вы можете скачать файл шаблона для этого примера из [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/Document/TestFile.doc).
+Вы можете скачать файл шаблона для этого примера с сайта [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/Document/TestFile.doc).
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-Microsoft Word 2013 не записывает какой-либо фактор масштабирования в документ и больше не устанавливает зум по умолчанию от значения, записанного в документ, вместо этого, похоже, используется фактор масштабирования последнего открытого документа.
+Microsoft Word 2013 не записывает в документ никакого коэффициента масштабирования и больше не устанавливает масштаб по умолчанию на основе значения, записанного в документе, вместо этого, похоже, используется коэффициент масштабирования последнего открытого документа.
 
 {{% /alert %}}
 
-## Настройка опций Page Display
+## Установите параметры отображения страницы
 
-Если вы хотите установить количество символов в строке, используйте [CharactersPerLine](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getCharactersPerLine) собственность. Вы также можете установить количество строк на странице для документа Word. [LinesPerPage](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getLinesPerPage) свойство получать или устанавливать количество строк на странице в сетке документа.
+Если вы хотите задать количество символов в строке, используйте свойство [CharactersPerLine](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getCharactersPerLine). Вы также можете задать количество строк на странице для документа Word – используйте свойство [LinesPerPage](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/#getLinesPerPage), чтобы получить или задать количество строк на странице в таблице документа.
 
 {{% alert color="primary" %}}
 
-В Microsoft Word, Вы можете установить те же параметры, используя вкладку "Сетка документов" в диалоговом окне "Настройка страницы" только при установке поддержки азиатского языка.
+В Microsoft Word вы можете задать те же параметры, используя вкладку "Таблица документов" в диалоговом окне "Настройка страницы", только если установлена поддержка азиатского языка.
 
 {{% /alert %}}
 
-Следующий пример кода показывает, как установить количество символов на строку и количество строк на странице для Microsoft Word документ:
+В следующем примере кода показано, как задать количество символов в строке и количество строк на странице для документа Microsoft Word:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentPageSetup-DocumentPageSetup.java" >}}
 
-## Установите языковые предпочтения
+## Установите языковые настройки
 
-Отображение документа в Microsoft Word Это зависит от того, какие языки установлены по умолчанию для этого документа. Если языки не установлены по умолчанию, Microsoft Word берет информацию из диалогового окна "Настройки языка Office", которое, например, можно найти в разделе "Файл → Варианты → Язык" Microsoft Word 2019.
+Отображение документа на Microsoft Word зависит от того, какие языки установлены по умолчанию для этого документа. Если по умолчанию не заданы языки, Microsoft Word использует информацию из диалогового окна "Настройка языковых настроек Office", которое, например, можно найти в разделе "Файл → Параметры → язык" в Microsoft Word 2019 году.
 
-С Aspose.Words, Вы также можете настроить языковые предпочтения, используя [LanguagePreferences](https://reference.aspose.com/words/java/com.aspose.words/languagepreferences/) класс. Также обратите внимание, что для правильного отображения вашего документа необходимо установить Microsoft Word версия о том, что процесс загрузки документа должен совпадать – это можно сделать с помощью [MswVersion](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getMswVersion) собственность.
+С помощью Aspose.Words вы также можете настроить языковые настройки, используя класс [LanguagePreferences](https://reference.aspose.com/words/java/com.aspose.words/languagepreferences/). Также обратите внимание, что для корректного отображения вашего документа необходимо установить версию Microsoft Word, которой должен соответствовать процесс загрузки документа – это можно сделать с помощью свойства [MswVersion](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/#getMswVersion).
 
 {{% alert color="primary" %}}
 
-Если вы Aspose.Words Созданный документ выглядит не так, как ожидалось, проверьте **LanguagePreferences** и **MswVersion** Значения и настройте их, если это необходимо, чтобы соответствовать настройкам для вашего Microsoft Word Версия.
+Если созданный вами документ Aspose.Words выглядит не так, как ожидалось, проверьте значения **LanguagePreferences** и **MswVersion** и при необходимости скорректируйте их в соответствии с настройками для вашей версии Microsoft Word.
 
 {{% /alert %}}
 
-Следующий пример кода показывает, как добавить японский в языки редактирования:
+В следующем примере кода показано, как добавить японский язык в список языков редактирования:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SetupLanguagePreferences-AddJapaneseAsEditinglanguages.java" >}}
 
-Следующий пример кода показывает, как установить русский язык редактирования по умолчанию:
+В следующем примере кода показано, как установить русский язык редактирования по умолчанию:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SetupLanguagePreferences-SetRussianAsDefaultEditingLanguage.java" >}}
 
-## Оптимизируйте документ для конкретного Версия Word
+## Оптимизируйте документ для конкретной версии Word
 
-The [OptimizeFor](https://reference.aspose.com/words/java/com.aspose.words/compatibilityoptions/#optimizeFor-int) Способ позволяет оптимизировать содержание документа, а также по умолчанию Aspose.Words Поведение для конкретной версии Microsoft Word. Вы можете использовать этот метод для предотвращения Microsoft Word от отображения ленты "Режим совместимости" при загрузке документа. Обратите внимание, что вам также может потребоваться установить `Compliance` Iso29500_2008_Переходный или выше.
+Метод [OptimizeFor](https://reference.aspose.com/words/java/com.aspose.words/compatibilityoptions/#optimizeFor-int) позволяет оптимизировать содержимое документа, а также поведение Aspose.Words по умолчанию для конкретной версии Microsoft Word. Вы можете использовать этот метод, чтобы предотвратить отображение Microsoft Word ленты "Режим совместимости" при загрузке документа. Обратите внимание, что вам также может потребоваться установить для свойства `Compliance` значение Iso29500_2008_Transitional или выше.
 
-Следующий пример кода показывает, как оптимизировать содержание документа для: Microsoft Word 2016:
+В следующем примере кода показано, как оптимизировать содержимое документа для Microsoft Word 2016 года:
 
 {{< highlight csharp >}}
 Document doc = new Document(dataDir + "Document.docx");

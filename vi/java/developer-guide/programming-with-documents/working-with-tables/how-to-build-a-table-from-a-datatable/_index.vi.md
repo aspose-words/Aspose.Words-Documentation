@@ -1,8 +1,8 @@
 ---
-title: Làm sao để dựng một bàn từ một `DataTable` trong Java
+title: Làm sao để dựng một bàn từ một DataTable trong Java
 second_title: Aspose.Words cho Java
-articleTitle: Xây dựng một Bảng từ `DataTable`
-linktitle: Xây dựng một Bảng từ `DataTable`
+articleTitle: Xây dựng một Bảng từ DataTable
+linktitle: Xây dựng một Bảng từ DataTable
 description: "Ví dụ về việc điền vào bảng tài liệu từ cơ sở dữ liệu bên ngoài bằng Java."
 type: docs
 weight: 130

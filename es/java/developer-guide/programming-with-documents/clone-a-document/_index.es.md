@@ -1,34 +1,34 @@
----
-title: Cerrar un documento en Java
-second_title: Aspose.Words para Java
-articleTitle: Clausura de un documento
-linktitle: Clausura de un documento
+﻿---
+title: Clonar un documento en Java
+second_title: Aspose.Words por Java
+articleTitle: Clonar un Documento
+linktitle: Clonar un Documento
 type: docs
-description: "Cierra un documento para obtener su copia idéntica. Al crear una copia, nodos y propiedades del documento original se clonan utilizando Java."
+description: "Clone un documento para obtener su copia idéntica. Al crear una copia, los nodos y las propiedades del documento original se clonan usando Java."
 weight: 70
 url: /es/java/clone-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Cerrar un documento es el proceso de crear una copia idéntica de un documento original, que puede mejorar el rendimiento y ahorrarle de posibles fugas de memoria.
+La clonación de un documento es el proceso de crear una copia idéntica de un documento original, lo que puede mejorar el rendimiento y salvarlo de posibles pérdidas de memoria.
 
-Este artículo explicará los principales casos de uso de la clonación de un documento y cómo crear un clon de documento utilizando Aspose.Words.
+Este artículo explicará los principales casos de uso de la clonación de un documento y cómo crear un clon de documento usando Aspose.Words.
 
-## Operaciones con documentos de cierre
+## Operaciones con Clonación de Documentos
 
-La operación clone le permite hacer el proceso de creación de documentos más rápido ya que no necesitará cargar y analizar un documento de un archivo cada vez.
+La operación de clonación le permite acelerar el proceso de creación de documentos, ya que no necesitará cargar y analizar un documento desde un archivo cada vez.
 
-Después de crear un clon de su documento, usted será capaz de editarlo y realizar diferentes operaciones en él, por ejemplo, compararlo con el documento original, apéndice o insertarlo en otro documento. También puede modificar elementos clonados o su contenido antes de insertarlos en otro documento.
+Después de crear un clon de su documento, podrá editarlo y realizar diferentes operaciones en él, por ejemplo, compararlo con el documento original, agregarlo o insertarlo en otro documento. También puede modificar los elementos clonados o su contenido antes de insertarlos en otro documento.
 
-## Creación de un clon de documentos
+## Creación de un Clon de Documento
 
-Aspose.Words permite clonar un documento usando el [Clone](https://reference.aspose.com/words/java/com.aspose.words/document/#deepClone) método que realiza una copia profunda del documento y lo devuelve. En otras palabras, obtendrá una copia completa de la DOM. El `Clone` método acelera la generación de documentos, y sólo necesita una línea de código para obtener una copia de su documento.
+Aspose.Words le permite clonar un documento utilizando el método [Clone](https://reference.aspose.com/words/java/com.aspose.words/document/#deepClone) que realiza una copia profunda del documento y lo devuelve. En otras palabras, obtendrá una copia completa del DOM. El método `Clone` acelera la generación de documentos y solo necesita una línea de código para obtener una copia de su documento.
 
-Cloning produce un nuevo documento con el mismo contenido que el original, pero con una copia única de cada uno de los documentos originales [nodes](https://reference.aspose.com/words/java/com.aspose.words/node/). También puede aplicar la operación de clones a un nodo de documento utilizando el nodo [Clone](https://reference.aspose.com/words/java/com.aspose.words/node/#deepClone-boolean) método, que permite duplicar los nodos de documento composite con y sin sus nodos infantiles.
+La clonación produce un nuevo documento con el mismo contenido que el original, pero con una copia única de cada [nodes](https://reference.aspose.com/words/java/com.aspose.words/node/) del documento original. También puede aplicar la operación de clonación a un nodo de documento mediante el método node [Clone](https://reference.aspose.com/words/java/com.aspose.words/node/#deepClone-boolean), que le permite duplicar nodos de documentos compuestos con y sin sus nodos secundarios.
 
 {{% alert color="primary" %}}
 
-Tenga en cuenta que al aplicar el método de clonación todas las propiedades del documento serán clonadas.
+Tenga en cuenta que al aplicar el método de clonación, se clonarán todas las propiedades del documento.
 
 {{% /alert %}}
 

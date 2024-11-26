@@ -1,42 +1,42 @@
----
-title: フィールドにカスタムフォーマットを適用
-second_title: Aspose.Words お問い合わせ Java
-articleTitle: フィールドにカスタムフォーマットを適用
-linktitle: フィールドにカスタムフォーマットを適用
-description: "フィールド結果のフォーマットと評価 Javaお問い合わせ"
+﻿---
+title: カスタム書式設定をフィールドに適用する
+second_title: Aspose.WordsのためのJava
+articleTitle: カスタム書式設定をフィールドに適用する
+linktitle: カスタム書式設定をフィールドに適用する
+description: "Javaを使用してフィールドの結果を書式設定し、評価します。"
 type: docs
 weight: 40
 url: /ja/java/applying-custom-formatting-to-fields/
 timestamp: 2024-01-27-14-07-04
 ---
 
-時々、ユーザーはフィールドにカスタム書式を適用する必要があります。 この記事では、この方法のいくつかの例を見てみましょう。
+ユーザーがフィールドにカスタム書式を適用する必要がある場合があります。 この記事では、これをどのように行うことができるかの例をいくつか見ていきます。
 
-より多くのオプションを学ぶには、対応するクラスの各フィールドタイプのプロパティの完全なリストを参照してください。
+詳細なオプションについては、対応するクラスの各フィールドタイプのプロパティの完全なリストを参照してください。
 
-## フィールド結果にカスタムフォーマットを適用する方法
+## フィールドの結果にカスタム書式を適用する方法
 
-Aspose.Words オファー API フィールドの結果のカスタムフォーマットのために。 実装できます [IFieldResultFormatter](https://reference.aspose.com/words/java/com.aspose.words/ifieldresultformatter/) フィールド結果がフォーマットされるかを制御するインターフェイス。 数値形式スイッチ、すなわち\#「#.##」、日付/時刻形式スイッチ、すなわち\@「dd.MM.yyyy」、および番号形式スイッチ、すなわち\* Ordinalを適用できます。
+Aspose.Wordsは、フィールドの結果のカスタム書式設定のためのAPIを提供します。 [IFieldResultFormatter](https://reference.aspose.com/words/java/com.aspose.words/ifieldresultformatter/)インターフェイスを実装して、フィールドの結果の書式設定方法を制御できます。 数値書式スイッチ、すなわち\# "#.##"、日付/時刻書式スイッチ、すなわち\@ "dd.MM.yyyy"、および数値書式スイッチ、すなわち\* Ordinalを適用することができます。
 
-次のコードの例では、フィールド結果のカスタム書式を適用する方法を示します。
+次のコード例は、フィールドの結果にカスタム書式を適用する方法を示しています。
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormatFieldResult-FormatFieldResult.java" >}}
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FieldResultFormatter-FieldResultFormatter.java" >}}
 
-## 評価方法 `IF` 条件:
+## `IF`条件を評価する方法
 
-評価したい方 `IF` 条件 の後で mail merge, あなたが使用することができます [EvaluateCondition](https://reference.aspose.com/words/java/com.aspose.words/fieldif/#evaluateCondition) 式評価の結果を即座に返す方法。
+Mail mergeの後に`IF`条件を評価する場合は、式の評価の結果をすぐに返す[EvaluateCondition](https://reference.aspose.com/words/java/com.aspose.words/fieldif/#evaluateCondition)メソッドを使用できます。
 
-次のコードの例では、このメソッドを使用する方法を示します。
+次のコード例は、このメソッドを使用する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-EvaluateIFCondition-EvaluateIFCondition.java" >}}
 
-## タイムフィールドにカスタムフォーマットを適用する方法
+## 時間フィールドにカスタム書式を適用する方法
 
-デフォルトで Aspose.Words ニュース `TIME` 現在の文化の短い時間フォーマットが付いている分野。 フォーマットしたい場合 `TIME` あなたの条件に従う分野は、それを実装することによって達成できます [IFieldUpdateCultureProvider](https://reference.aspose.com/words/java/com.aspose.words/ifieldupdatecultureprovider/) インターフェイス。
+デフォルトでAspose.Wordsは、現在のカルチャ短い時間形式で`TIME`フィールドを更新します。 要件に応じて`TIME`フィールドを書式設定する場合は、[IFieldUpdateCultureProvider](https://reference.aspose.com/words/java/com.aspose.words/ifieldupdatecultureprovider/)インターフェイスを実装することでこれを実現できます。
 
-以下のコード例では、カスタム書式を適用する方法を示します。 `TIME` フィールド:
+次のコード例は、`TIME`フィールドにカスタム書式を適用する方法を示しています:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FieldUpdateCulture-FieldUpdateCulture.java" >}}
 

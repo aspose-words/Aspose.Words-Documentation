@@ -1,8 +1,8 @@
 ---
-title: วิธีสร้างตารางจาก `DataTable` ในรูปแบบ C#
+title: วิธีสร้างตารางจาก DataTable ในรูปแบบ C#
 second_title: Aspose.Words สำหรับ .NET
-articleTitle: สร้างตารางจาก `DataTable`
-linktitle: สร้างตารางจาก `DataTable`
+articleTitle: สร้างตารางจาก DataTable
+linktitle: สร้างตารางจาก DataTable
 description: "ตัวอย่างการกรอกตารางเอกสารจากฐานข้อมูลภายนอกโดยใช้ C#"
 type: docs
 weight: 120

@@ -1,69 +1,69 @@
----
-title: ทํางานกับภาพใน Java
-second_title: Aspose.Words สําหรับ Java
-articleTitle: ทํางานกับภาพต่าง ๆ
-linktitle: ทํางานกับภาพต่าง ๆ
+﻿---
+title: การทำงานกับภาพในJava
+second_title: Aspose.WordsสำหรับJava
+articleTitle: การทำงานกับภาพ
+linktitle: การทำงานกับภาพ
 type: docs
-description: "รูปทรงภาพในรายละเอียดและคุณสมบัติขั้นสูงที่จัดให้ Aspose.Words สําหรับ Java."
+description: "รูปร่างรูปภาพในรายละเอียดและคุณลักษณะขั้นสูงที่มีให้โดยAspose.WordsสำหรับJava."
 weight: 300
 url: /th/java/working-with-images/
 timestamp: 2024-01-27-14-07-04
 ---
 
-Aspose.Words ทําให้ผู้ใช้สามารถทํางานกับภาพได้อย่างยืดหยุ่น ใน บทความ นี้ คุณ สามารถ สํารวจ ได้ เพียง บาง ส่วน เท่า นั้น จาก การ ทํา งาน ร่วม กับ รูป ปั้น.
+Aspose.Wordsช่วยให้ผู้ใช้สามารถทำงานกับภาพในทางที่ยืดหยุ่นมาก ในบทความนี้คุณสามารถสำรวจเพียงบางส่วนของความเป็นไปได้ของการทำงานกับภาพ.
 
-## วิธี แยก รูป ภาพ ออก จาก เอกสาร {#how-to-extract-images-from-a-document}
+## วิธีการแยกภาพจากเอกสาร {#how-to-extract-images-from-a-document}
 
-ภาพทั้งหมดถูกเก็บไว้ภายใน **Shape** โหนดในเอกสาร เพื่อดึงภาพหรือภาพทั้งหมดที่มีชนิดเฉพาะจากเอกสาร โปรดตามขั้นตอนเหล่านี้:
+รูปภาพทั้งหมดจะถูกเก็บไว้ภายใน**Shape**โหนดในเอกสาร เมื่อต้องการแยกภาพหรือรูปภาพทั้งหมดที่มีชนิดเฉพาะจากเอกสารให้ทำตามขั้นตอนเหล่านี้:
 
-- ใช้ [getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/shape/#getChildNodes) วิธีการเลือกโหนดทรงทั้งหมด
-- ประมวลผลผ่านการสะสมโหนด
-- ตรวจสอบ [hasImage](https://reference.aspose.com/words/java/com.aspose.words/shape/#hasImage) ทรัพย์สินของบูเลอัน
-- คลายข้อมูลภาพโดยใช้ [ImageData](https://reference.aspose.com/words/java/com.aspose.words/shape/#getImageData) ทรัพย์สิน
-- บันทึกภาพเป็นแฟ้ม
+- ใช้วิธีการ[getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/shape/#getChildNodes)เพื่อเลือกโหนดรูปร่างทั้งหมด.
+- ย้ำผ่านคอลเลกชันโหนดที่เกิด.
+- ตรวจสอบคุณสมบัติบูลีน[hasImage](https://reference.aspose.com/words/java/com.aspose.words/shape/#hasImage).
+- แยกข้อมูลภาพโดยใช้คุณสมบัติ[ImageData](https://reference.aspose.com/words/java/com.aspose.words/shape/#getImageData).
+- บันทึกข้อมูลภาพไปยังแฟ้ม.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-ExtractImagesToFiles-ExtractImagesToFiles.java" >}}
 
-## จะใส่บาร์โค้ดบนเอกสารแต่ละหน้าอย่างไร {#how-to-insert-barcode-on-each-documen-page}
+## วิธีการแทรกบาร์โค้ดในแต่ละหน้าเอกสาร {#how-to-insert-barcode-on-each-documen-page}
 
-ตัวอย่างนี้ ให้คุณเพิ่มบาร์โค้ดเดียวกันหรืออื่น ๆ ในทุก ๆ หน้า หรือหน้าเฉพาะของเอกสารคํา ไม่มีวิธีโดยตรงในการเพิ่มบาร์โค้ดในหน้าทั้งหมด แต่คุณสามารถใช้ได้ [moveToSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToSection-int), [moveToHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToHeaderFooter-int) ถึง [insertImage](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertImage(byte[])* วิธีการในการย้ายไปยังส่วนใด ๆ หรือหัวจดหมายหรือฟุตเกอร์ และแทรกภาพบาร์โค้ด ตามที่คุณเห็นในโค้ดต่อไปนี้
+ตัวอย่างนี้ช่วยให้คุณสามารถเพิ่มบาร์โค้ดเดียวกันหรือต่างกันในหน้าทั้งหมดหรือเฉพาะขอ ไม่มีวิธีโดยตรงในการเพิ่มบาร์โค้ดในทุกหน้าของเอกสารแต่คุณสามารถใช้วิธีการ[moveToSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToSection-int),[moveToHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToHeaderFooter-int)และ[insertImage](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertImage(byte[]))เพื่
 
-ตัวอย่างรหัสต่อไปนี้ จะแสดงวิธีการใส่ภาพ barcode ในแต่ละหน้าของเอกสาร:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการแทรกรูปภาพบาร์โค้ดในแต่ละหน้าของเอกสาร:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-InsertBarcodeImage-InsertBarcodeImage.java" >}}
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-InsertBarcodeImage-InsertBarcodeIntoFooter.java" >}}
 
-## ล็อคสัดส่วนของภาพ {#lock-aspect-ratio-of-image}
+## ล็อคอัตราส่วนภาพของภาพ {#lock-aspect-ratio-of-image}
 
-สัดส่วนของรูปทรงเรขาคณิต คืออัตราส่วนของขนาดของมัน ในมิติที่แตกต่างกัน คุณสามารถล็อคสัดส่วนของภาพได้ โดยใช้ [AspectRatioLocked](https://reference.aspose.com/words/java/com.aspose.words/shape/#getAspectRatioLocked). ค่าปริยายของสัดส่วนภาพ ขึ้นอยู่กับ [ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/). ใช่ true สําหรับ `ShapeType.Image` ถึง false สําหรับรูปร่างอื่น ๆ
+อัตราส่วนของรูปทรงเรขาคณิตเป็นอัตราส่วนของขนาดของมันในมิติที่แตกต่างกัน ท่านสามารถล็อกอัตราส่วนของภาพได้ด้วย[AspectRatioLocked](https://reference.aspose.com/words/java/com.aspose.words/shape/#getAspectRatioLocked) ค่าดีฟอลต์ของอัตราส่วนของรูปร่างจะขึ้นอยู่กับ[ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/) มันเป็นความจริงสำหรับ`ShapeType.Image`และเท็จสำหรับประเภทรูปร่างอื่นๆ.
 
-ตัวอย่างรหัสต่อไปนี้ แสดงวิธีทํางานกับสัดส่วนสัดส่วน:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการทำงานกับอัตราส่วน:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetImageAspectRatioLocked-DocumentBuilderSetImageAspectRatioLocked.java" >}}
 
-## วิธี ทํา ให้ รูป ร่าง หน้า ตา ดี {#how-to-get-actual-bounds-of-shape-in-points}
+## วิธีการได้รับขอบเขตที่แท้จริงของรูปร่างในจุด {#how-to-get-actual-bounds-of-shape-in-points}
 
-ถ้าคุณต้องการให้กล่องผูกรูปจริง ที่ถูกแก้ไขในหน้านี้ คุณสามารถทําได้โดยการใช้ [BoundsInPoints](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#getBoundsInPoints) ทรัพย์สิน
+หากคุณต้องการให้กล่องขอบที่แท้จริงของรูปร่างที่แสดงผลบนหน้าเว็บคุณสามารถบรรลุสิ่งนี้ได้โดยใช้คุณสมบัติ[BoundsInPoints](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#getBoundsInPoints).
 
-ตัวอย่างรหัสต่อไปนี้แสดงวิธีการใช้คุณสมบัตินี้:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีใช้คุณสมบัตินี้:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-GetActualShapeBoundsPoints.java" >}}
 
-## ภาพสะสม
+## ภาพพืช
 
-การ เก็บ ภาพ ตาม ปกติ จะ หมาย ถึง การ ขจัด ส่วน นอก ที่ ไม่ พึง ประสงค์ ของ รูป ปั้น เพื่อ ช่วย ปรับ ปรุง รูป ปั้น. นอก จาก นี้ ยัง ใช้ เพื่อ ขจัด บาง ส่วน ของ ภาพ ออก ไป เพื่อ เพิ่ม ความ สนใจ ใน พื้น ที่ บาง แห่ง.
+การครอบตัดของรูปภาพมักจะหมายถึงการเอาออกของส่วนภายนอกที่ไม่พึงประสงค์ของรูป นอกจากนี้ยังใช้สำหรับการลบบางส่วนของภาพเพื่อเพิ่มโฟกัสในพื้นที่เฉพาะ.
 
-ตัว อย่าง รหัส ต่อ ไป นี้ แสดง ให้ เห็น วิธี บรรลุ ผล สําเร็จ ใน การ ใช้ Aspose.Words API
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการบรรลุนี้โดยใช้Aspose.WordsAPI:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-CropImages-CropImageCall.java" >}}
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-CropImages-CropImage.java" >}}
 
-## บันทึกภาพเป็น WMF
+## บันทึกภาพเป็นWMF
 
-Aspose.Words ให้คุณสมบัติในการบันทึกภาพทั้งหมดที่มีอยู่ในเอกสาร [สืบค้นเมื่อ 20 พฤษภาคม 2555. สืบค้นเมื่อ 28 พฤษภาคม 2560](https://docs.fileformat.com/image/wmf/)ฟอร์แมตขณะแปลง DOCX เป็น RTF
+Aspose.Wordsให้ฟังก์ชั่นเพื่อบันทึกรูปภาพทั้งหมดที่มีอยู่ในเอกสารไปที่ [WMF](https://docs.fileformat.com/image/wmf/)รูปแบบขณะแปลงDOCXเป็นRTF.
 
-ตัวอย่างโค้ดต่อไปนี้ จะแสดงวิธีการบันทึกภาพเป็น WMF ด้วยตัวเลือก RTF:
+ตัวอย่างรหัสต่อไปนี้แสดงวิธีการบันทึกภาพเป็นWMFด้วยRTFตัวเลือกการบันทึก:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithRtfSaveOptions-SavingImagesAsWmf.java" >}}

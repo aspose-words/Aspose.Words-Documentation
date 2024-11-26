@@ -1,8 +1,8 @@
 ---
-title: کار با نمودارها از طریق `Shape.Chart` Object
+title: کار با نمودارها از طریق Shape.Chart Object
 second_title: Aspose.Words برای C++
-articleTitle: کار با نمودارها از طریق `Shape.Chart` Object
-linktitle: کار با نمودارها از طریق `Shape.Chart` Object
+articleTitle: کار با نمودارها از طریق Shape.Chart Object
+linktitle: کار با نمودارها از طریق Shape.Chart Object
 description: "نمودارها در جزئیات، چگونه نمودار با گره شکل در Aspose.Words برای C++."
 type: docs
 weight: 10

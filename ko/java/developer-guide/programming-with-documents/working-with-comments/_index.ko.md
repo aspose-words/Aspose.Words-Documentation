@@ -1,9 +1,9 @@
----
-title: 댓글 작업 Java
-second_title: Aspose.Words 제품정보 Java
-articleTitle: 자주 묻는 질문
-linktitle: 자주 묻는 질문
-description: "자주 묻는 질문 Java·"
+﻿---
+title: Java의 댓글 작업
+second_title: Aspose.WordsJava
+articleTitle: 댓글 작업
+linktitle: 댓글 작업
+description: "Java을 사용하여 주석 작업."
 type: docs
 weight: 260
 url: /ko/java/working-with-comments/
@@ -12,135 +12,135 @@ timestamp: 2024-01-27-14-07-04
 
 {{% alert color="primary" %}}
 
-**온라인 채팅**
+**온라인 시도**
 
-이 기능을 사용해 보세요. [무료 온라인 익명](https://products.aspose.app/words/annotation)·
+당신은 우리의 이 기능을 시도할 수 있습니다 [무료 온라인 주석 제거](https://products.aspose.app/words/annotation).
 
 {{% /alert %}}
 
-Aspose.Words 사용자가 코멘트와 함께 작동 할 수 있습니다 – 문서의 의견 Aspose.Words 본문 바로가기 [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/) 수업. 또한 사용 [CommentRangeStart](https://reference.aspose.com/words/java/com.aspose.words/commentrangestart/) · [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/) 코멘트와 관련된 텍스트의 영역을 지정하는 클래스.
+Aspose.Words사용자가 주석으로 작업할 수 있도록 허용–Aspose.Words문서의 주석은[Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/)클래스로 표시됩니다. 또한[CommentRangeStart](https://reference.aspose.com/words/java/com.aspose.words/commentrangestart/)및[CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/)클래스를 사용하여 주석과 연결해야 하는 텍스트 영역을 지정합니다.
 
-## 자주 묻는 질문
+## 댓글 추가
 
-Aspose.Words 몇 가지 방법으로 의견을 추가 할 수 있습니다:
+Aspose.Words여러 가지 방법으로 주석을 추가할 수 있습니다:
 
-1. 명세 사용 방법 [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/) 수업시간
-2. 명세 사용 방법 [CommentRangeStart](https://reference.aspose.com/words/java/com.aspose.words/commentrangestart/) · [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/) 한국어
+1. [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/)클래스 사용
+2. [CommentRangeStart](https://reference.aspose.com/words/java/com.aspose.words/commentrangestart/)및[CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/)클래스 사용
 
-다음 코드 예제는 단락에 대한 의견을 추가하는 방법을 보여줍니다 **Comment** 종류:
+다음 코드 예제에서는**Comment**클래스를 사용하여 단락에 주석을 추가하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-AddComments-AddComments.java" >}}
 
-다음 코드 예제는 텍스트와 단락에 대한 의견을 추가하는 방법을 보여줍니다 **CommentRangeStart** · **CommentRangeEnd** 수업:
+다음 코드 예제에서는 텍스트 영역과**CommentRangeStart**및**CommentRangeEnd**클래스를 사용하여 단락에 주석을 추가하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-AnchorComment-AnchorComment.java" >}}
 
-## 추출 또는 제거 코멘트
+## 댓글 추출 또는 제거
 
-Word 문서에서 코멘트를 사용하여 (변경을 추적하는 것 외에도)는 여러 리뷰어가있을 때 문서를 검토 할 때 일반적인 연습입니다. 문서에서 필요한 유일한 것은 의견이 될 수 있습니다. 리뷰 결과의 목록을 생성하고 싶거나 문서에서 모든 유용한 정보를 수집하고 불필요한 의견을 제거하는 것이 좋습니다. 특정 리뷰 작성자의 의견을 보거나 제거 할 수 있습니다.
+워드 문서에서 주석을 사용하는 것은(변경 사항 추적 외에도)문서를 검토할 때,특히 검토자가 여러 명인 경우 일반적인 관행입니다. 당신이 문서에서 필요로하는 유일한 것은 주석입니다 상황이있을 수 있습니다. 당신이 검토 결과의 목록을 생성 할 말,또는 아마도 당신은 문서에서 모든 유용한 정보를 수집하고 당신은 단순히 불필요한 의견을 제거 할 수 있습니다. 특정 검토자의 주석을 보거나 제거할 수 있습니다.
 
-이 샘플에서, 우리는 문서 내의 의견에서 정보를 수집하고 문서에서 의견을 제거하기위한 간단한 방법을 살펴 봅니다. 구체적으로, 우리는 방법을 커버할 것입니다:
+이 샘플에서는 문서 내의 주석에서 정보를 수집하고 문서에서 주석을 제거하는 몇 가지 간단한 방법을 살펴볼 것입니다. 특히,우리는 방법을 다룰 것입니다:
 
-- 문서의 모든 의견을 추출하거나 특정 저자에 의해 한 것들.
-- 문서의 모든 의견이나 특정 저자에서만 제거하십시오.
+- 문서 또는 특정 저자에 의해 만들어진 사람에서 모든 의견을 추출합니다.
+- 문서 또는 특정 작성자의 모든 주석을 제거합니다.
 
-### 추출 또는 제거 하는 방법
+### 댓글 추출 또는 제거 방법
 
-이 샘플의 코드는 매우 간단합니다 모든 방법은 동일한 접근법을 기반으로합니다. Word 문서의 의견은 다음과 같습니다. `Comment` 객체의 Aspose.Words 문서 객체 모델. 문서의 모든 의견 수집하기 [getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/document/#getChildNodes) 첫번째 모수 세트를 가진 방법 `NodeType.Comment`· 두 번째 매개 변수가 있는지 확인합니다. **도착ChildNodes** 방법 설정 true: 이 힘 **도착ChildNodes** 모든 아이 노드에서 반복적으로 선택하기 위해, 단지 즉각적인 자녀를 수집하는 것보다.
+이 샘플의 코드는 매우 간단하며 모든 메서드는 동일한 접근 방식을 기반으로 합니다. Word 문서의 주석은 Aspose.Words 문서 개체 모델의 `Comment` 개체로 표현됩니다. 문서의 모든 주석을 수집하려면 첫 번째 매개변수를 `NodeType.Comment`로 설정한 [getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/document/#getChildNodes) 메서드를 사용합니다. **getChildNodes** 메서드의 두 번째 매개변수가 true로 설정되어 있는지 확인합니다. 이렇게 하면 **getChildNodes**가 즉각적인 자식만 수집하는 것이 아니라 모든 자식 노드에서 재귀적으로 선택하도록 강제합니다.
 
-문서에서 의견을 추출하고 제거하는 방법을 설명하려면 다음 단계를 통해 이동합니다
+문서에서 주석을 추출하고 제거하는 방법을 설명하기 위해 다음 단계를 수행합니다:
 
-1. 명세 Word 문서 열기 [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) 수업시간
-1. 명세 문서에서 모든 의견 받기
-1. 명세 코멘트를 추출:
-   1. 연산자를 사용하여 수집을 통해 이동
-   1. 모든 의견의 저자 이름, 날짜 및 시간 및 텍스트를 추출하고 목록
-   1. 특정 저자에 의해 작성된 의견의 저자 이름, 날짜 및 시간 및 텍스트를 추출하고 목록, 이 경우, 저자 '크'
-1. 명세 댓글을 제거:
-   1. 수집을 통해 이동 연산자
-   1. 코멘트 제거
-1. 명세 자주 묻는 질문
+1. [Document](https://reference.aspose.com/words/java/com.aspose.words/document/)클래스를 사용하여 단어 문서 열기
+1. 문서의 모든 주석을 컬렉션으로 가져오기
+1. 댓글을 추출하려면:
+   1. 연산자를 사용하여 컬렉션을 통해 이동
+   1. 모든 댓글의 저자 이름,날짜 및 시간 및 텍스트를 추출하고 나열합니다.
+   1. 특정 저자가 작성한 저자 이름,날짜 및 시간 및 주석 텍스트를 추출하고 나열합니다.
+1. 댓글을 제거하려면:
+   1. 연산자를 사용하여 컬렉션을 뒤로 이동합니다
+   1. 댓글 제거
+1. 변경 사항을 저장합니다.
 
-우리는이 운동에 대한 다음 단어 문서를 사용하려고:
+우리는 이 운동을 위해 뒤에 오는 낱말 문서를 사용하기 위하여 려고 하고 있다:
 
 ![extract-remove-comments-aspose-words-java-1](/words/java/working-with-comments/extract-remove-comments-aspose-words-java-1.png)
 
-볼 수 있듯이, 그것은 초기 "pm"및 "ks"와 함께 두 개의 저자에서 여러 개의 댓글을 포함합니다.
+당신이 볼 수 있듯이,그것은 이니셜"오후"와"케이"와 두 저자의 몇 가지 의견이 포함되어 있습니다.
 
-### 모든 코멘트를 추출하는 방법
+### 모든 주석을 추출하는 방법
 
-더 보기 [getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/document/#getChildNodes) 메소드는 매우 유용하며 모든 유형의 문서 노드 목록을 얻을 필요가 있습니다. 결과 수집은 노드가 이 컬렉션으로 선정되기 때문에 즉시 오버 헤드를 만들지 않습니다.
+[getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/document/#getChildNodes)방법은 매우 유용하며 모든 유형의 문서 노드 목록을 가져올 때마다 사용할 수 있습니다. 노드는 항목을 열거하거나 액세스하는 경우에만 이 컬렉션에 선택되므로 결과 컬렉션에서는 즉각적인 오버헤드가 발생하지 않습니다.
 
-다음 코드 예제는 문서의 모든 의견의 저자 이름, date&time 및 텍스트를 추출하는 방법을 보여줍니다:
+다음 코드 예제에서는 문서의 모든 주석의 작성자 이름,날짜 및 시간 및 텍스트를 추출하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-ProcessComments-extractComments.java" >}}
 
-### 지정된 저자의 코멘트를 추출하는 방법
+### 지정된 저자의 주석을 추출하는 방법
 
-선택한 코멘트 노드가 수집한 후, 필요한 정보를 추출해야 합니다. 이 샘플에서 저자의 초기, 날짜, 시간 및 주석의 일반 텍스트는 하나의 문자열로 결합됩니다. 대신 다른 방법으로 저장할 수 있습니다.
+컬렉션에 주석 노드를 선택한 후에는 필요한 정보를 추출하기만 하면 됩니다. 이 샘플에서는 저자의 이니셜,날짜,시간 및 주석의 일반 텍스트가 하나의 문자열로 결합되어 대신 다른 방법으로 저장할 수 있습니다.
 
-특정 저자의 코멘트를 추출하는 과부하 된 방법은 거의 동일합니다., 그것은 단지 정보를 배열에 추가하기 전에 저자의 이름을 확인합니다.
+특정 작성자의 주석을 추출하는 오버로드된 방법은 거의 동일합니다.그것은 단지 배열에 정보를 추가하기 전에 작성자의 이름을 확인합니다.
 
-다음 코드 예제는 지정된 저자에 의해 댓글의 저자 이름, date&time 및 텍스트를 추출하는 방법을 보여줍니다:
+다음 코드 예제에서는 지정된 작성자가 작성자 이름,날짜 및 시간 및 주석 텍스트를 추출하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-ProcessComments-extractComments_Author.java" >}}
 
-### 자주 묻는 질문
+### 댓글을 제거하는 방법
 
-당신이 모든 의견 제거 하는 경우, 수집 deleting 코멘트를 통해 이동할 필요가 없습니다 하나; 당신은 호출하여 제거할 수 있습니다 [clear](https://reference.aspose.com/words/java/com.aspose.words/nodecollection/#clear) 댓글 수집에.
+모든 주석을 제거하는 경우 컬렉션을 하나하나 삭제하면서 주석을 제거할 필요가 없습니다. 주석 컬렉션에서 [clear](https://reference.aspose.com/words/java/com.aspose.words/nodecollection/#clear)을 호출하여 주석을 제거할 수 있습니다.
 
-다음 코드 예제는 문서의 모든 의견을 제거하는 방법을 보여줍니다:
+다음 코드 예제에서는 문서의 모든 주석을 제거하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-ProcessComments-removeComments.java" >}}
 
-선택적으로 코멘트를 제거 할 필요가있을 때, 프로세스는 우리가 댓글 추출에 사용 된 코드와 더 유사합니다.
+주석을 선택적으로 제거해야 할 때 프로세스는 주석 추출에 사용한 코드와 더 유사해집니다.
 
-다음 코드 예제는 지정된 저자에 의해 의견을 제거하는 방법을 보여줍니다:
+다음 코드 예제에서는 지정된 작성자의 주석을 제거하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-ProcessComments-removeComments_Author.java" >}}
 
-여기 강조하는 주요 점은 연산자의 사용입니다. 간단한 추출과 달리, 여기에 당신은 코멘트를 삭제하고 싶습니다. 적당한 트릭은 마지막 Comment에서 첫 번째 것까지 컬렉션을 뒤로 결정하는 것입니다. 결국부터 시작하면 이전 항목의 인덱스가 변경되지 않고 컬렉션의 첫 번째 항목으로 다시 작업을 할 수 있습니다.
+여기서 강조해야 할 주요 포인트는 연산자를 사용하는 것입니다. 간단한 추출과는 달리,여기에 당신은 코멘트를 삭제하려면. 적절한 트릭은 컬렉션을 마지막 댓글에서 첫 번째 댓글로 거꾸로 반복하는 것입니다. 그 이유는 끝에서 시작하여 뒤로 이동하면 이전 항목의 인덱스가 변경되지 않고 컬렉션의 첫 번째 항목으로 돌아갈 수 있습니다.
 
-다음 코드 예제는 주석 추출 및 제거를위한 방법을 보여줍니다:
+다음 코드 예제에서는 주석 추출 및 제거 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-ProcessComments-ProcessComments.java" >}}
 
 {{% alert color="primary" %}}
 
-이 예제의 샘플 파일을 다운로드 할 수 있습니다. [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/comments/ProcessComments/TestFile.doc)·
+이 예제의 샘플 파일은 다음에서 다운로드할 수 있습니다 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/comments/ProcessComments/TestFile.doc).
 
 {{% /alert %}}
 
-시작될 때, 표본은 뒤에 오는 결과를 표시합니다. 첫째, 그것은 모든 저자에 의해 모든 코멘트를 나열, 다음 선택된 저자에 의해 댓글을 나열합니다. 마지막으로, 모든 의견 제거 코드.
+시작할 때 샘플은 다음 결과를 표시합니다. 먼저 모든 작성자의 모든 주석을 나열한 다음 선택한 작성자의 주석만 나열합니다. 마지막으로 코드는 모든 주석을 제거합니다.
 
 ![extract-remove-comments-aspose-words-java-2](/words/java/working-with-comments/extract-remove-comments-aspose-words-java-2.png)
 
-출력 워드 문서는 이제 주석에서 제거:
+출력 워드 문서는 이제 그것에서 제거 주석이있다:
 
 ![extract-remove-comments-aspose-words-java-3](/words/java/working-with-comments/extract-remove-comments-aspose-words-java-3.png)
 
-### CommentRangeStart와 CommentRangeEnd 사이 텍스트를 제거하는 방법
+### CommentRangeStart과CommentRangeEnd사이의 텍스트를 제거하는 방법
 
-사용 방법 Aspose.Words CommentRangeStart 및 CommentRangeEnd 노드간에 의견을 제거할 수 있습니다.
+Aspose.Words를 사용하면CommentRangeStart과CommentRangeEnd노드 사이의 주석을 제거할 수도 있습니다.
 
-다음 코드 예제는 CommentRangeStart와 CommentRangeEnd 사이의 텍스트를 제거하는 방법을 보여줍니다
+다음 코드 예제에서는CommentRangeStart과CommentRangeEnd사이의 텍스트를 제거하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-RemoveCommentRegionText-RemoveCommentRegionText.java" >}}
 
-## 코멘트 추가 또는 제거
+## 댓글의 답장 추가 또는 제거
 
-더 보기 [addReply](https://reference.aspose.com/words/java/com.aspose.words/comment/#addReply-java.lang.String-java.lang.String-java.util.Date-java.lang.String) 메소드는 이 댓글에 대한 답변을 추가합니다. 기존의 MS Office 제한으로 인해 문서에 1 레벨의 응답이 허용됩니다. InvalidOperationException 유형의 예외는 이 메소드가 기존의 댓글에 호출되는 경우 제기됩니다.
+[addReply](https://reference.aspose.com/words/java/com.aspose.words/comment/#addReply-java.lang.String-java.lang.String-java.util.Date-java.lang.String)메서드는 이 주석에 응답을 추가합니다. 기존MS사무실 제한으로 인해 문서에 하나의(1)수준의 응답 만 허용됩니다. 기존 회신 주석에서 이 메서드를 호출하면InvalidOperationException유형의 예외가 발생합니다.
 
-당신은 사용할 수 있습니다 [removeReply](https://reference.aspose.com/words/java/com.aspose.words/comment/#removeReply-com.aspose.words.Comment) 이 댓글에 지정된 답변을 제거하는 방법.
+[removeReply](https://reference.aspose.com/words/java/com.aspose.words/comment/#removeReply-com.aspose.words.Comment)메서드를 사용하여 이 주석에 대한 지정된 응답을 제거할 수 있습니다.
 
-다음 코드 예제는 코멘트에 대한 답변을 추가하고 댓글의 답변을 제거하는 방법을 보여줍니다:
+다음 코드 예제에서는 주석에 회신을 추가하고 주석의 회신을 제거하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-AddRemoveCommentReply-AddRemoveCommentReply.java" >}}
 
-## 댓글을 읽으십시오
+## 댓글의 답장 읽기
 
-Aspose.Words 댓글의 답장을 읽는 지원. 더 보기 [Replies](https://reference.aspose.com/words/java/com.aspose.words/comment/#getReplies) 속성은 컬렉션을 반환 [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/) 지정된 코멘트의 즉각적인 어린이가있는 개체.
+Aspose.Words지원 댓글의 응답을 읽을 수 있습니다. [Replies](https://reference.aspose.com/words/java/com.aspose.words/comment/#getReplies)속성은 지정된 주석의 직계 자식인[Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/)개체의 컬렉션을 반환합니다.
 
-다음과 같은 코드 예제는 주석의 응답을 통해 결정하는 방법을 보여줍니다
+다음 코드 예제에서는 주석의 응답을 반복하여 해결하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-ProcessComments-CommentResolvedandReplies.java" >}}

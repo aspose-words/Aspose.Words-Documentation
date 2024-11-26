@@ -1,8 +1,8 @@
 ---
-title: Folosind `DocumentBuilder` pentru a modifica un Document
+title: Folosind DocumentBuilder pentru a modifica un Document
 second_title: Aspose.Words pentru Java
-articleTitle: Folosind `DocumentBuilder` pentru a modifica un Document
-linktitle: Folosind `DocumentBuilder` pentru a modifica un Document
+articleTitle: Folosind DocumentBuilder pentru a modifica un Document
+linktitle: Folosind DocumentBuilder pentru a modifica un Document
 type: docs
 description: "Utilizați document builder pentru a modifica un document cu ușurință în Java."
 weight: 20

@@ -1,8 +1,8 @@
 ---
-title: Použití `DocumentBuilder` Vložit prvky dokumentu
+title: Použití DocumentBuilder Vložit prvky dokumentu
 second_title: Aspose.Words místo Java
-articleTitle: Použití `DocumentBuilder` Vložit prvky dokumentu
-linktitle: Použití `DocumentBuilder` Vložit prvky dokumentu
+articleTitle: Použití DocumentBuilder Vložit prvky dokumentu
+linktitle: Použití DocumentBuilder Vložit prvky dokumentu
 type: docs
 description: "Vložit prvky dokumentu pomocí stavitele dokumentů do Java."
 weight: 10

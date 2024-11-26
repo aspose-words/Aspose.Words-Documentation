@@ -1,49 +1,49 @@
----
-title: Programmation avec les documents Java
+﻿---
+title: Programmation avec des documents dans Java
 second_title: Aspose.Words pour Java
-articleTitle: Programmation avec documents
-linktitle: Programmation avec documents
+articleTitle: Programmation avec des Documents
+linktitle: Programmation avec des Documents
 type: docs
-description: "Utiliser Aspose.Words Document Object Model des cours pour créer, modifier et gérer des documents avec Java. Travailler avec les propriétés, les paramètres et le contenu du document, ainsi qu'avec l'apparence du document à travers la gestion des couleurs, formes, polices et autres graphiques."
+description: "Utilisez les classes de modèle d'objet de document Aspose.Words pour créer, modifier et gérer par programmation des documents avec Java. Travaillez avec les propriétés, les paramètres et le contenu du document, ainsi qu'avec l'apparence du document grâce à la gestion des couleurs, des formes, des polices et d'autres graphiques."
 weight: 340
 url: /fr/java/programming-with-documents/
 timestamp: 2024-09-25-11-08-55
 ---
 
-Cette section fournit des informations sur la façon de créer, de modifier et de gérer des documents avec les Aspose.Words Document Object Model cours. Les articles de cette section décrivent un large éventail de tâches de manipulation de document vous permettant de travailler avec les propriétés de document, les paramètres, le contenu et ses éléments.
+Cette section fournit des informations sur la création, la modification et la gestion programmatiques de documents avec les classes de modèle d'objet de document Aspose.Words. Les articles de cette section décrivent un large éventail de tâches de manipulation de documents vous permettant de travailler avec les propriétés, les paramètres, le contenu et ses éléments du document.
 
-L'apparence visuelle des documents est un autre sujet important abordé dans cette section qui comprend des articles sur le travail avec les couleurs, les formes, les polices et d'autres éléments graphiques.
+L'apparence visuelle des documents est un autre sujet important abordé dans cette section qui comprend des articles sur l'utilisation des couleurs, des formes, des polices et d'autres éléments graphiques.
 
-Pour en savoir plus sur Aspose.Words caractéristiques lors de la programmation avec des documents, sélectionnez l'article ou le groupe d'articles correspondant:
+Pour en savoir plus sur les fonctionnalités Aspose.Words lors de la programmation avec des documents, sélectionnez l'article ou le groupe d'articles correspondant:
 
-- [Aspose.Words Document Object Model (DOM)](/words/fr/java/aspose-words-document-object-model/)
-- [Traduire Markdown à Document Object Model (DOM)](/words/fr/java/translate-markdown-to-document-object-model/)
-- [Aperçu du constructeur de documents](/words/fr/java/document-builder-overview/)
-- [Travailleur avec Document](/words/fr/java/working-with-document/)
-- [Protégez ou chiffrer un document](/words/fr/java/protect-or-encrypt-a-document/)
-- [Travailler avec les styles et les thèmes](/words/java/working-with-styles/)
-- [Travailleur avec les sections](/words/fr/java/working-with-sections/)
-- [Travailleur avec des jeux](/words/fr/java/working-with-ranges/)
-- [Travailleur avec En-têtes et Pieds de page](/words/fr/java/working-with-headers-and-footers/)
-- [Travailleur avec la note de bas de page et la note de fin de page](/words/fr/java/working-with-footnote-and-endnote/)
-- [Travailleur avec la Table des matières](/words/fr/java/working-with-table-of-contents/)
-- [Travailleur avec les signes](/words/fr/java/working-with-bookmarks/)
-- [Travailler avec les tableaux](/words/fr/java/working-with-tables/)
-- [Travailler avec les listes](/words/fr/java/working-with-lists/)
-- [Travail avec les paragraphes](/words/fr/java/working-with-paragraphs/)
-- [Travailleur avec l'Hyphénation](/words/fr/java/working-with-hyphenation/)
-- [Travailler avec Fonts](/words/fr/java/working-with-fonts/)
-- [Travailler avec les chambres de texte liées](/words/fr/java/working-with-linked-textboxes/)
-- [Travailler avec les commentaires](/words/fr/java/working-with-comments/)
-- [Travailler avec la typographie asiatique](/words/fr/java/working-with-asian-typography/)
-- [Travailler avec des éléments graphiques](/words/java/working-with-graphic-elements/)
-- [Travailleur avec des objets Ole](/words/fr/java/working-with-ole-objects/)
-- [Travailleur avec Champs](/words/fr/java/working-with-fields/)
-- [Travailleur avec les champs de forme](/words/fr/java/working-with-form-fields/)
-- [Gestion des contenus](/words/java/contents-management/)
-- [Travailler avec les personnes de contrôle](/words/fr/java/working-with-control-characters/)
-- [Travailler avec VBA Macros](/words/fr/java/working-with-vba-macros/)
-- [Travailleur avec Markdown Caractéristiques](/words/fr/java/working-with-markdown-features/)
-- [Travailleur avec le document texte](/words/fr/java/working-with-text-document/)
+- [Aspose.Words Modèle d'objet de document](/words/java/aspose-words-document-object-model/)
+- [Traduire Markdown en Modèle d'objet de document (DOM)](/words/java/translate-markdown-to-document-object-model/)
+- [Présentation du Générateur de Documents](/words/java/document-builder-overview/)
+- [Travailler avec un document](/words/java/working-with-document/)
+- [Protéger ou chiffrer un document](/words/java/protect-or-encrypt-a-document/)
+- [Travailler avec des Styles et des Thèmes](/words/java/working-with-styles/)
+- [Travailler avec des Sections](/words/java/working-with-sections/)
+- [Travailler avec des gammes](/words/java/working-with-ranges/)
+- [Utilisation des en-têtes et des pieds de page](/words/java/working-with-headers-and-footers/)
+- [Travailler avec la note de bas de page et la note de fin](/words/java/working-with-footnote-and-endnote/)
+- [Utilisation de la Table des matières](/words/java/working-with-table-of-contents/)
+- [Travailler avec des signets](/words/java/working-with-bookmarks/)
+- [Travailler avec des Tables](/words/java/working-with-tables/)
+- [Travailler avec des Listes](/words/java/working-with-lists/)
+- [Travailler avec des paragraphes](/words/java/working-with-paragraphs/)
+- [Travailler avec la césure](/words/java/working-with-hyphenation/)
+- [Travailler avec des polices](/words/java/working-with-fonts/)
+- [Travailler avec TextBoxes lié](/words/java/working-with-linked-textboxes/)
+- [Travailler avec des commentaires](/words/java/working-with-comments/)
+- [Travailler avec la Typographie Asiatique](/words/java/working-with-asian-typography/)
+- [Travailler avec des Éléments Graphiques](/words/java/working-with-graphic-elements/)
+- [Travailler avec Ole objets](/words/java/working-with-ole-objects/)
+- [Travailler avec des Champs](/words/java/working-with-fields/)
+- [Utilisation des champs de formulaire](/words/java/working-with-form-fields/)
+- [Gestion des Contenus](/words/java/contents-management/)
+- [Utilisation Des Caractères De Contrôle](/words/java/working-with-control-characters/)
+- [Travailler avec VBA macros](/words/java/working-with-vba-macros/)
+- [Travailler avec Markdown Fonctionnalités](/words/java/working-with-markdown-features/)
+- [Travailler avec un Document Texte](/words/java/working-with-text-document/)
 
-Pour une description détaillée des classes, des méthodes et des propriétés se référer à la Aspose.Words pour Java API Reference Chapitre.
+Pour une description détaillée des classes, méthodes et propriétés, reportez-vous à la section Aspose.Words pour Java API Reference.

@@ -1,126 +1,126 @@
----
-title: 문서 분할 Java
-second_title: Aspose.Words 제품정보 Java
+﻿---
+title: 문서 분할Java
+second_title: Aspose.WordsJava
 articleTitle: 문서 분할
 linktitle: 문서 분할
-description: "Aspose.Words 제품정보 Java 하나의 문서를 머리글이나 섹션으로 여러 문서로 나누는 효율적인 방법을 제공합니다."
+description: "Aspose.WordsJava의 경우 하나의 문서를 제목 또는 섹션,페이지 또는 페이지 범위별로 여러 문서로 분할하는 효율적인 방법을 제공합니다."
 type: docs
 weight: 90
 url: /ko/java/split-a-document/
 timestamp: 2024-01-27-14-07-04
 ---
 
-*Splitting* 또는 *split a document*는 큰 문서를 더 큰 파일로 끊는 과정입니다. 파일을 분할하는 다양한 이유가 있습니다. 예를 들어, 특정 문서에서 일부 페이지를 필요로하고 전체가 아닙니다. 또는 개인 정보 보호상의 이유로, 당신은 다른 사람들과 문서의 일부 부분을 공유하고 싶습니다. 분할 기능으로 문서의 필수 부품만 얻을 수 있으며, 예를 들어, 저장하거나 보내려면 필요한 작업을 수행 할 수 있습니다.
+*Splitting*또는*split a document*은 큰 문서를 더 많은 수의 작은 파일로 나누는 프로세스입니다. 파일을 분할하는 데는 여러 가지 이유가 있습니다. 예를 들어 전체 문서가 아닌 특정 문서의 일부 페이지 만 필요합니다. 또는 개인 정보 보호를 위해 문서의 일부만 다른 사용자와 공유하려는 경우 분할 기능을 사용하면 문서의 필요한 부분 만 가져 와서 필요한 작업을 수행 할 수 있습니다(예:마크 업,저장 또는 보내기).
 
-Aspose.Words 하나의 문서를 headings 또는 섹션으로 여러 문서로 나누는 효율적인 방법을 제공합니다. 페이지 또는 페이지 범위로 문서를 분할할 수도 있습니다. 분할 옵션 모두이 문서에 설명됩니다.
+Aspose.Words제목 또는 섹션에 의해 여러 문서로 하나의 문서를 분할하는 효율적인 방법을 제공합니다. 페이지 또는 페이지 범위별로 문서를 분할할 수도 있습니다. 이 기사에서는 두 가지 분할 옵션에 대해 설명합니다.
 
-더 작은 파일로 문서를 분할하기 Aspose.Words, 당신은이 단계를 따르는 필요:
+Aspose.Words을 사용하여 문서를 더 작은 파일로 분할하려면 다음 단계를 수행해야 합니다:
 
-1. 명세 지원되는 형식의 문서를 로드합니다.
-1. 명세 문서 분할.
-1. 명세 출력 문서를 저장합니다.
+1. 지원되는 형식으로 문서를 로드합니다.
+1. 문서를 분할합니다.
+1. 출력 문서를 저장하십시오.
 
-문서를 분할 한 후 필요한 페이지, 텍스트 등을 시작하는 모든 출력 문서를 열 수 있습니다.
-
-{{% alert color="primary" %}}
-
-**온라인 채팅**
-
-이 기능을 사용해 보세요. [무료 온라인 문서 분배기](https://products.aspose.app/words/splitter)·
-
-{{% /alert %}}
-
-## 다른 Criteria를 사용하여 문서 분할 {#split-a-document-using-different-criteria}
-
-Aspose.Words 다양한 기준에 따라 EPUB 또는 HTML 문서를 분할 할 수 있습니다. 프로세스에서 소스 문서의 스타일과 레이아웃은 출력 문서에 보존됩니다.
-
-표준을 지정할 수 있습니다. [DocumentSplitCriteria](https://reference.aspose.com/words/java/com.aspose.words/documentsplitcriteria/) 관련 기사 따라서 다음 표준 중 하나를 사용하여 문서에 문서를 나눌 수 있으며, 한 가지 기준을 함께 결합 할 수 있습니다
-
-- 결선,
-- 단면도 틈,
-- 열 휴식,
-- 페이지 휴식.
-
-출력을 HTML로 저장할 때, Aspose.Words 각 개별 장을 별도의 HTML 파일로 저장합니다. 결과적으로 문서는 여러 HTML 파일로 나뉩니다. EPUB에 출력을 저장할 때, Aspose.Words 단일 EPUB 파일에서 결과 저장 `DocumentSplitCriteria` 사용 된 값. 그래서, EPUB 문서를 위한 DocumentSplitCriteria를 사용하여 독자 신청에 있는 그들의 내용의 외관에 영향을 미칩니다: 내용은 장으로 분할되고 문서는 더 이상 지속되지 않을 것입니다.
+문서를 분할 한 후에는 필요한 페이지,텍스트 등으로 시작하는 모든 출력 문서를 열 수 있습니다.
 
 {{% alert color="primary" %}}
 
-문서를 분할할 수 없습니다. [DocumentSplitCriteria](https://reference.aspose.com/words/java/com.aspose.words/documentsplitcriteria/) MHTML 형식으로 저장할 때 속성.
+**온라인 시도**
+
+당신은 우리의 이 기능을 시도할 수 있습니다 [무료 온라인 문서 분배기](https://products.aspose.app/words/splitter).
 
 {{% /alert %}}
 
-이 섹션에서는 가능한 분할 표준의 일부만 고려합니다.
+## 다른 기준을 사용하여 문서 분할 {#split-a-document-using-different-criteria}
 
-### Headings에 의해 문서 분할 {#split-a-document-by-headings}
+Aspose.Words을 사용하면 다양한 기준에 따라EPUB또는HTML문서를 장으로 분할할 수 있습니다. 이 과정에서 소스 문서의 스타일과 레이아웃은 출력 문서에 대해 보존됩니다.
 
-headings에 의해 문서를 분할하려면, 사용 **HeadingParagraph** 가치의 **DocumentSplitCriteria** 호텔 위치
+[DocumentSplitCriteria](https://reference.aspose.com/words/java/com.aspose.words/documentsplitcriteria/)열거형을 사용하여 조건을 지정할 수 있습니다. 따라서 다음 기준 중 하나를 사용하여 문서를 장으로 나누거나 둘 이상의 기준을 함께 결합할 수 있습니다:
 
-headings 1, 2 및 3과 같은 Heading 단락의 특정 수준에 의해 문서를 분할해야하는 경우, 또한 사용 [DocumentSplitHeadingLevel](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getDocumentSplitHeadingLevel) 호텔 위치 출력은 지정된 헤드링 레벨로 포맷된 단락에 의해 나뉩니다.
+- 제목 단락,
+- 섹션 휴식,
+- 열 나누기,
+- 페이지 나누기.
 
-다음 코드 예제는 heading에 의해 문서를 더 작은 부분으로 분할하는 방법을 보여줍니다:
+출력을HTML에 저장할 때Aspose.Words각 개별 장을 별도의HTML파일로 저장합니다. 결과적으로 문서는 여러HTML파일로 분할됩니다. 출력을EPUB로 저장할 때Aspose.Words사용한`DocumentSplitCriteria`값에 관계없이 결과를 단일EPUB파일에 저장합니다. 따라서EPUB문서에DocumentSplitCriteria을 사용하는 것은 독자 응용 프로그램에서 콘텐츠의 모양에만 영향을 미칩니다.콘텐츠는 장으로 나뉘어지고 문서는 더 이상 연속으로 나타나지 않습니다.
+
+{{% alert color="primary" %}}
+
+MHTML형식으로 저장할 때[DocumentSplitCriteria](https://reference.aspose.com/words/java/com.aspose.words/documentsplitcriteria/)속성을 사용하여 문서를 분할할 수 없습니다.
+
+{{% /alert %}}
+
+이 섹션에서는 가능한 분할 기준 중 일부만 고려합니다.
+
+### 제목 {#split-a-document-by-headings}으로 문서 분할
+
+제목별로 문서를 장으로 분할하려면**DocumentSplitCriteria**속성의**HeadingParagraph**값을 사용합니다.
+
+제목 1,2 및 3 과 같은 특정 수준의 제목 단락으로 문서를 분할해야 하는 경우[DocumentSplitHeadingLevel](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getDocumentSplitHeadingLevel)속성도 사용합니다. 출력은 지정된 제목 수준으로 서식이 지정된 단락으로 나뉩니다.
+
+다음 코드 예제에서는 제목별로 문서를 더 작은 부분으로 분할하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-SplitDocumentByHeadingsHTML.java" >}}
 
-이 기준은 다음과 같습니다. Aspose.Words 분할 할 때 HTML 형식으로 저장 만 지원합니다.
+이 기준에 대해Aspose.Words은 분할할 때HTML형식으로만 저장을 지원합니다.
 
-EPUB에 저장할 때, 문서는 여러 파일로 분할되지 않으며 하나의 출력 파일 만있을 것입니다.
+EPUB에 저장할 때 문서는 여러 파일로 분할되지 않으며 출력 파일이 하나만 있습니다.
 
-### 본문 바로가기 {#split-a-document-by-sections}
+### {#split-a-document-by-sections}섹션으로 문서 분할
 
-Aspose.Words 문서를 분할하고 HTML로 저장하기 위해 섹션을 사용합니다. 이 목적을 위해, 사용 **SectionBreak** 으로 **DocumentSplitCriteria**::
+Aspose.Words또한 섹션 나누기를 사용하여 문서를 분할하고HTML에 저장할 수 있습니다. 이를 위해**SectionBreak**을**DocumentSplitCriteria**으로 사용합니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-SplitDocumentBySectionsHTML.java" >}}
 
-소스 문서를 여러 출력 문서로 분할하는 또 다른 방법이 있으며, 지원되는 출력 형식을 선택할 수 있습니다. Aspose.Words·
+소스 문서를 여러 출력 문서로 분할하는 또 다른 방법이 있으며Aspose.Words에서 지원하는 출력 형식을 선택할 수 있습니다.
 
-다음과 같은 코드 예제는 섹션의 작은 부분으로 문서를 분할하는 방법을 보여줍니다 (사용 없이 `DocumentSplitCriteria` 재산):
+다음 코드 예제에서는`DocumentSplitCriteria`속성을 사용하지 않고 섹션 나누기를 통해 문서를 더 작은 부분으로 분할하는 방법을 보여 줍니다.:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SplitDocument-SplitDocumentBySections.java" >}}
 
-## 페이지 분할 {#splitting-by-pages}
+## 페이지 나누기 {#splitting-by-pages}
 
-페이지에 의해 문서 페이지를 분할 할 수도 있습니다, 페이지 범위, 또는 지정된 페이지 번호로 시작. 그런 경우 [ExtractPages](https://reference.aspose.com/words/java/com.aspose.words/document/#extractPages-int-int) 방법은 일을 할 수 있습니다.
+문서 페이지를 페이지,페이지 범위 또는 지정된 페이지 번호로 시작하여 분할할 수도 있습니다. 이 경우[ExtractPages](https://reference.aspose.com/words/java/com.aspose.words/document/#extractPages-int-int)메서드가 작업을 수행 할 수 있습니다.
 
-이 섹션은 페이지를 사용하여 문서의 여러 사용 사례를 설명 [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) 클래스와 **ExtractPages** 방법.
+이 섹션에서는[Document](https://reference.aspose.com/words/java/com.aspose.words/document/)클래스와**ExtractPages**메서드를 사용하여 페이지별로 문서를 나누는 몇 가지 사용 사례를 설명합니다.
 
 {{% alert color="primary" %}}
 
-모든 것을 사용할 수 있습니다. [지원된 문서 체재](/words/ko/java/supported-document-formats/)·
+당신은 어떤 것을 사용할 수 있습니다 [Aspose.Words에서 지원하는 출력 형식](/words/java/supported-document-formats/).
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-페이지 수를 줄이면서 나타나는 많은 nuances로 인해 전체 일치는 Microsoft Word 레이아웃은 매우 복잡한 작업입니다. 따라서 문서 복잡성에 따라 원본 문서의 결과 문서 레이아웃에 약간 차이가 있을 수 있습니다.
+페이지 수를 줄이는 동안 나타나는 많은 뉘앙스로 인해Microsoft Word레이아웃과 완전히 일치하는 것은 매우 복잡한 작업입니다. 따라서 문서의 복잡성에 따라 원본 문서와 결과 문서 레이아웃에 약간의 차이가 있을 수 있습니다.
 
 {{% /alert %}}
 
-### 문서 페이지 분할 {#split-a-document-page-by-page}
+### 문서 페이지를 {#split-a-document-page-by-page}페이지로 분할
 
-Aspose.Words 페이지별로 멀티 페이지 문서 페이지를 분할할 수 있습니다.
+Aspose.Words여러 페이지 문서 페이지를 페이지별로 분할할 수 있습니다.
 
-다음 코드 예제는 문서를 분할하고 각 페이지를 별도의 문서로 저장하는 방법을 보여줍니다
+다음 코드 예제에서는 문서를 분할하고 각 페이지를 별도의 문서로 저장하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SplitDocument-SplitDocumentPageByPage.java" >}}
 
-### 페이지 범위로 문서 분할 {#split-a-document-by-page-ranges}
+### 페이지 범위 {#split-a-document-by-page-ranges}로 문서 분할
 
-Aspose.Words 페이지 범위에 의해 다중 페이지 문서를 분할 할 수 있습니다. 다양한 페이지 범위와 여러 파일로 하나의 파일을 분할하거나 하나의 범위를 선택하고 소스 문서의이 부분을 저장 할 수 있습니다. 문서의 최대 및 최소 페이지 수에 따라 페이지 범위를 선택할 수 있습니다.
+Aspose.Words여러 페이지 문서를 페이지 범위별로 분할할 수 있습니다. 하나의 파일을 다양한 페이지 범위의 여러 파일로 분할하거나 하나의 범위를 선택하고 소스 문서의이 부분 만 저장할 수 있습니다. 문서의 최대 및 최소 페이지 번호에 따라 페이지 범위를 선택할 수 있습니다.
 
-다음 코드 예제는 특정 시작과 끝 인덱스를 가진 페이지 범위에 의해 더 작은 부분으로 문서를 분할하는 방법을 보여줍니다:
+다음 코드 예제에서는 특정 시작 및 끝 인덱스가 있는 페이지 범위별로 문서를 더 작은 부분으로 분할하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SplitDocument-SplitDocumentByPageRange.java" >}}
 
-## Callback Option 문서 저장 {#callback-option-for-saving-a-document}
+## {#callback-option-for-saving-a-document}문서를 저장하는 콜백 옵션
 
-당신은 사용할 수 있습니다 [DocumentPartSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getDocumentPartSavingCallback) 관련 기사 Aspose.Words 이 문서가 HTML 형식으로 내보낼 때 문서를 저장합니다. 이 속성은 출력 파일 또는 사용자 정의 스트림으로 리디렉션 할 수 있습니다.
+[DocumentPartSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getDocumentPartSavingCallback)속성을 사용하여 이 문서를HTML형식으로 내보낼 때Aspose.Words이 문서 파트를 저장하는 방법을 제어할 수 있습니다. 이 속성을 사용하면 출력 파일의 이름을 바꾸거나 사용자 정의 스트림으로 리디렉션 할 수도 있습니다.
 
-이 콜백은 모든 출력 부품이 단일 컨테이너로 저장되어야하기 때문에 EPUB에 저장할 때 유용합니다. .epub 파일. 그래서, 스트림 리디렉션은 지원되지 않으며, 파일이 컨테이너 내부에 이름을 붙여 넣기 때문에 이름이 표시되지 않습니다.
+이 콜백은EPUB에 저장할 때 유용하지 않습니다.왜냐하면 모든 출력 부분은 하나의 컨테이너에 저장되어야 하기 때문입니다.에퍼브 파일 따라서 스트림 리디렉션은 지원되지 않으며 컨테이너 내부의 파일 이름이 변경되기 때문에 이름 변경 효과가 표시되지 않습니다.
 
-## 다른 문서로 Split Document 를 씁니다. {#merge-the-split-document-with-another-file}
+## 분할 문서를 다른 문서 {#merge-the-split-document-with-another-file}와 병합
 
-Aspose.Words 새 문서를 작성하기 위해 다른 문서로 출력 분할 문서를 병합 할 수 있습니다. 이것은 문서 merging 라고 할 수 있습니다.
+Aspose.Words출력 분할 문서를 다른 문서와 병합하여 새 문서를 만들 수 있습니다. 이를 문서 병합이라고 할 수 있습니다.
 
-다음 코드 예제는 다른 문서와 분할 문서를 병합하는 방법을 보여줍니다:
+다음 코드 예제에서는 분할된 문서를 다른 문서와 병합하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SplitDocument-MergeDocuments.java" >}}

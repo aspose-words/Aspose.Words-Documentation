@@ -1,186 +1,183 @@
----
-title: Rendering 옵션을 지정할 때 PDF로 변환
-second_title: Aspose.Words 제품정보 Java
-articleTitle: Rendering 옵션을 지정할 때 PDF로 변환
-linktitle: Rendering 옵션을 지정할 때 PDF로 변환
-description: "고급 옵션으로 문서를 PDF로 변환합니다. PdfSaveOptions를 사용하여 문서를 PDF 형식으로 저장하는 결과를 변경합니다. Java·"
+﻿---
+title: PDF로 변환할 때 렌더링 옵션 지정
+second_title: Aspose.WordsJava
+articleTitle: PDF로 변환할 때 렌더링 옵션 지정
+linktitle: PDF로 변환할 때 렌더링 옵션 지정
+description: "고급 옵션을 사용하여 문서를PDF로 변환합니다. PdfSaveOptions을 사용하여Java을 사용하여 문서를PDF형식으로 저장한 결과를 변경합니다."
 type: docs
 weight: 20
 url: /ko/java/specify-rendering-options-when-converting-to-pdf/
 timestamp: 2024-10-21-11-17-44
 ---
 
-PDF 형식은 사용자 중 매우 인기있는 고정 페이지 형식이며 PDF 문서가 모든 장치와 동일하게 보입니다. 그 이유는 PDF로 변환하는 것은 중요한 특징입니다. Aspose.Words·
+PDF형식은PDF문서가 모든 장치에서 동일하게 보이기 때문에 사용자들 사이에서 매우 인기가 있고 다양한 응용 프로그램에서 널리 지원되는 고정 페이지 형식입니다. 따라서PDF로 변환하는 것은Aspose.Words의 중요한 기능입니다.
 
-PDF는 복잡한 형식입니다. 여러 단계의 계산은 레이아웃 계산을 포함하여 문서를 PDF로 변환하는 과정에서 필요합니다. 이 단계는 복잡한 계산을 포함했기 때문에, 그들은 시간 소모입니다. 또한 PDF 형식은 오히려 복잡합니다. 특정 파일 구조, 그래픽 모델 및 글꼴 embedding. 또한 문서 구조 태그, 암호화, 디지털 서명 및 편집 가능한 형태와 같은 복잡한 출력 기능을 갖추고 있습니다.
+PDF은 복잡한 형식입니다. 레이아웃 계산을 포함하여 문서를PDF으로 변환하는 과정에서 여러 단계의 계산이 필요합니다. 이 단계들은 복잡한 계산을 포함하기 때문에 시간이 많이 걸립니다. 또한PDF형식은 그 자체로 다소 복잡합니다. 특정 파일 구조,그래픽 모델 및 글꼴 임베딩이 있습니다. 또한 문서 구조 태그,암호화,디지털 서명 및 편집 가능한 양식과 같은 복잡한 출력 기능을 갖추고 있습니다.
 
-Aspose.Words 레이아웃 엔진은 방법을 imitates Microsoft Word’ s 페이지 레이아웃 엔진 작동. 견적 요청 Aspose.Words PDF 출력 문서는 당신이 볼 수있는 것만큼 가까이 봐 Microsoft Word· 때로는 PDF 형식으로 문서를 저장하는 결과에 영향을 줄 수있는 추가 옵션을 지정해야합니다. 이 옵션은 사용할 수 있습니다. [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) PDF 출력이 어떻게 표시되는지 결정하는 속성을 포함하는 클래스.
+Aspose.Words레이아웃 엔진은Microsoft Word의 페이지 레이아웃 엔진이 작동하는 방식을 모방합니다. 따라서Aspose.Words는PDF출력 문서를Microsoft Word에서 볼 수 있는 것과 최대한 가깝게 보이게 합니다. 때로는 문서를PDF형식으로 저장 한 결과에 영향을 줄 수있는 추가 옵션을 지정해야합니다. 이러한 옵션은PDF출력을 표시하는 방법을 결정하는 속성을 포함하는[PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/)클래스를 사용하여 지정할 수 있습니다.
 
-사용 예제 **PdfSaveOptions** 아래에 제공 됩니다.
+**PdfSaveOptions**을 사용하는 몇 가지 예가 아래에 나와 있습니다.
 
 {{% alert color="primary" %}}
 
-현재 PDF 1.7, PDF 2.0, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2u 및 PDF/UA-1 형식으로 저장할 수 있습니다. 사용 방법 [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) PDF 표준 준수 수준을 설정하는 열렬한. PDF/A 형식과 함께, 출력 파일 크기는 일반 PDF 파일 크기보다 크다.
+현재 다음을 저장할 수 있습니다PDF 1.7, PDF 2.0, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2u, 그리고PDF/UA-1형식. [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)열거를 사용하여PDF표준 준수 수준을 설정합니다. PDF/A형식을 사용하면 출력 파일 크기가 일반PDF파일 크기보다 큽니다.
 
-[PdfCompliance.PdfA1a](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/#PDF-17) · [PdfCompliance.PdfA1b](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/#PDF-17) 사용되지 않음
+[PdfCompliance.PdfA1a](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/#PDF-17)및[PdfCompliance.PdfA1b](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/#PDF-17)는 구식으로 표시됩니다.
 
-PDF/A에 대한 자세한 내용은 다음 문서를 참조하십시오. "PDF/A로 변환의 특징".
+PDF/A에 대한 자세한 내용은 다음 문서인"PDF/A으로의 변환 기능 알아보기"를 참조하십시오.
 
 {{% /alert %}}
 
-## PDF 만들기 Fillable Form 문서
+## 작성 가능한 양식을 사용하여PDF문서 만들기
 
-그것은 또한에서 채울 수있는 형태로 수출 가능 Microsoft Word 문서 출력 PDF로 일반 텍스트 대신 양식을 작성할 수 있습니다. 사용 방법 [PreserveFormFields](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getPreserveFormFields) 문서를 PDF로 작성할 수 있습니다.
+또한Microsoft Word문서에서 일반 텍스트 대신 채울 수 있는 양식을 가진 출력PDF로 채울 수 있는 양식을 내보낼 수도 있습니다. [PreserveFormFields](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getPreserveFormFields)속성을 사용하여 문서를 채울 수 있는 양식을 사용하여PDF로 저장합니다.
 
-관심에 관심 Microsoft Word· PDF 형식은 textbox, combo 상자 및 checkbox와 같은 편집 가능한 형태를 위한 한정된 수의 선택권이 있습니다. Microsoft Word 더 많은 유형의 형태를 가지고, 예를 들면, 달력 날짜 피커. 일반적으로, 그것은 완전히 imitate 할 수 없습니다 Microsoft Word PDF의 동작. 따라서, 일부 복잡한 경우, PDF 출력은 당신이 보는 것과 다를 수 있습니다 Microsoft Word·
+Microsoft Word과 달리PDF형식에는 텍스트 상자,콤보 상자 및checkbox과 같이 편집 가능한 양식에 대한 옵션이 제한되어 있습니다. Microsoft Word에는 더 많은 유형의 양식(예:달력 날짜 선택기)이 있습니다. 일반적으로PDF에서Microsoft Word동작을 완전히 모방하는 것은 불가능합니다. 따라서 일부 복잡한 경우PDF출력은Microsoft Word에서 보는 것과 다를 수 있습니다.
 
-아래의 코드 예제는 지정된 Jpeg 압축 및 품질로 작성 가능한 양식을 PDF로 문서를 저장하는 방법을 보여줍니다
+아래 코드 예제에서는 문서를PDF으로 저장하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-PdfImageCompression.java" >}}
 
-## 문서 구조 및 사용자 정의 속성 수출
+## 문서 구조 및 사용자 지정 속성 내보내기
 
-더 보기 [ExportDocumentStructure](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getExportDocumentStructure) 속성을 사용하면 문서 구조를 PDF 출력에 수출 할 수 있습니다.
+[ExportDocumentStructure](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getExportDocumentStructure)속성을 사용하면 문서 구조를PDF출력으로 내보낼 수 있습니다.
 
-PDF 논리 구조 설비는 문서 내용 구조와 관련하여 정보를 통합하기위한 메커니즘을 PDF 파일로 제공합니다. Aspose.Words 구조에 대한 정보를 보존 Microsoft Word 단락, 명부, 테이블, footnotes/endnotes, 등과 같은 문서.
+PDF논리 구조 시설은 문서 내용 구조에 관한 정보를PDF파일에 통합하는 메커니즘을 제공합니다. Aspose.Words단락,목록,표,각주/미주 등과 같은Microsoft Word문서의 구조에 대한 정보를 보존합니다.
 
-다음 예제는 문서를 PDF 형식으로 저장하는 방법을 설명하고 문서 구조를 보존:
+다음 예제에서는 문서 구조를 유지하면서PDF형식으로 문서를 저장하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-ExportDocumentStructure.java" >}}
 
-Aspose.Words 또한 문서 사용자 정의 속성을 PDF로 내보내기 할 수 있습니다. 다음과 같은 예로 입증됩니다
+Aspose.Words또한 문서 사용자 지정 속성을PDF로 내보낼 수 있습니다.:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-CustomPropertiesExport.java" >}}
 
-## 책갈피 및 출력 PDF의 제목 수출
+## 출력PDF의 책갈피 및 제목에서 윤곽선 내보내기
 
-출력 PDF의 개요로 책갈피를 내보내려면 사용할 수 있습니다. [DefaultBookmarksOutlineLevel](https://reference.aspose.com/words/java/com.aspose.words/outlineoptions/#getDefaultBookmarksOutlineLevel) 호텔 위치 이 속성은 문서 개요의 기본 레벨을 지정합니다. Microsoft Word 책갈피가 표시됩니다. 문서가 문서의 헤더/footer에 책갈피를 포함하면 설정할 수 있습니다. [HeaderFooterBookmarksExportMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getHeaderFooterBookmarksExportMode) 뚱 베어 [First](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#FIRST) 또는 [All](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#ALL) 출력 PDF로 내보내는 방법을 지정하려면. headers/footers에 있는 책갈피는 가치가 때 수출되지 않습니다 **HeaderFooterBookmarksExportMode** 이름 * [None](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#NONE)·
+출력PDF에서 책갈피를 윤곽선으로 내보내려면[DefaultBookmarksOutlineLevel](https://reference.aspose.com/words/java/com.aspose.words/outlineoptions/#getDefaultBookmarksOutlineLevel)속성을 사용할 수 있습니다. 이 속성은Microsoft Word책갈피가 표시되는 문서 개요의 기본 수준을 지정합니다. 문서의 머리글/바닥글에 책갈피가 있는 경우[HeaderFooterBookmarksExportMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getHeaderFooterBookmarksExportMode)속성을[First](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#FIRST)또는[All](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#ALL)로 설정하여 출력PDF에서 책갈피를 내보내는 방법을 지정할 수 있습니다. **HeaderFooterBookmarksExportMode**값이[None](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#NONE)이면 머리글/바닥글의 책갈피가 내보내지지 않습니다.
 
-아래 코드는 섹션의 첫 번째 헤더 / 발러에서 책갈피를 내보내는 방법을 보여줍니다
+아래 코드 예제에서는 섹션의 첫 번째 머리글/바닥글에서 책갈피를 내보내는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-ExportHeaderFooterBookmarks.java" >}}
 
-이 예의 출력 PDF는 다음과 같습니다
+이 예제의 출력PDF은 다음과 같습니다:
 
 ![rendering-options-when-converting-to-pdf-aspose-words-java-1](/words/java/specify-rendering-options-when-converting-to-pdf/specify-rendering-options-when-converting-to-pdf-1.png)
 
-시간: **HeaderFooterBookmarksExportMode** 설정 [First](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#FIRST) 그리고 문서에는 심지어 이상한 우두머리/footers 또는 다른 첫번째 페이지 우두머리/footer가 있고, 책갈피는 단면도에 있는 첫번째 유일한 우두머리/footers를 위해 수출됩니다.
+**HeaderFooterBookmarksExportMode**이[First](https://reference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode/#FIRST)으로 설정되어 있고 문서에 짝수 및 홀수 머리글/바닥글 또는 다른 첫 페이지 머리글/바닥글이 있는 경우 섹션의 첫 번째 고유한 머리글/바닥글에 대해 책갈피가 내보내집니다.
 
-출력 PDF에서 headings를 수출할 수 있습니다. [HeadingsOutlineLevels](https://reference.aspose.com/words/java/com.aspose.words/outlineoptions/#getHeadingsOutlineLevels) 호텔 위치 이 속성은 문서 개요에 몇 가지 수준의 헤드링이 포함되어 있는지 확인합니다.
+[HeadingsOutlineLevels](https://reference.aspose.com/words/java/com.aspose.words/outlineoptions/#getHeadingsOutlineLevels)속성을 사용하여 출력PDF에서 제목을 내보낼 수도 있습니다. 이 속성은 문서 개요에 포함되는 머리글 수준의 수를 지정합니다.
 
-아래 코드는 세 가지 수준의 헤드링을 내보내는 방법을 보여줍니다
+아래 코드 예제에서는 세 가지 수준의 제목을 내보내는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-SaveToPdfWithOutline.java" >}}
 
-이 예의 출력 PDF는 아래에 묘사됩니다:
+이 예제의 출력PDF은 아래에 나와 있습니다:
 
 ![rendering-options-when-converting-to-pdf-aspose-words-java-2](/words/java/specify-rendering-options-when-converting-to-pdf/specify-rendering-options-when-converting-to-pdf-2.png)
 
 {{% alert color="primary" %}}
 
-책갈피 또는 머리 제거는 각종 PDF 구경꾼에 있는 다른 외관이 있을지도 모릅니다. 또한, 몇몇 신청에서, 책갈피 및 두는 항법은 UI에서 유효하지 않습니다.
+책갈피 또는 제목 탐색은 다양한PDF뷰어에서 다른 모양을 가질 수 있습니다. 또한 일부 응용 프로그램에서는UI에서 책갈피 및 제목 탐색을 사용할 수 없습니다.
 
 {{% /alert %}}
 
-## 문서 크기를 줄이기 위해 Downsampling Images
+## 문서 크기를 줄이기 위한 이미지 다운샘플링
 
-Aspose.Words 출력 PDF 크기를 줄이기 위해 downsample 이미지에 대한 기능을 제공합니다. [DownsampleOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getDownsampleOptions) 호텔 위치 Downsampling은 기본적으로 활성화됩니다. [DownsampleImages](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getDownsampleImages) 호텔 위치
+Aspose.Words는[DownsampleOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getDownsampleOptions)속성을 사용하여 출력PDF크기를 줄이기 위해 이미지를 다운샘플하는 기능을 제공합니다. 다운샘플링은[DownsampleImages](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getDownsampleImages)속성에서 기본적으로 활성화되어 있습니다.
 
-특정 해상도를 설정할 수 있음 [Resolution](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getResolution) 속성, 또는 해상도 임계 값 [ResolutionThreshold](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getResolutionThreshold) 호텔 위치 두 번째 경우, 이미지 해상도가 임계 값보다 적은 경우, downsampling은 적용되지 않습니다.
+[Resolution](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getResolution)속성에서 특정 해상도를 설정하거나[ResolutionThreshold](https://reference.aspose.com/words/java/com.aspose.words/downsampleoptions/#getResolutionThreshold)속성에서 해상도 임계값을 설정할 수도 있습니다. 두 번째 경우,이미지 해상도가 임계값보다 작다면,다운샘플링은 적용되지 않습니다.
 
-아래 코드는 출력 PDF 문서의 이미지의 해상도를 변경하는 방법을 보여줍니다
+아래 코드 예제에서는 출력PDF문서에서 이미지의 해상도를 변경하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-DownsamplingImages.java" >}}
 
-해결책은 페이지에 진짜 이미지 크기에 따라 산출됩니다.
+해상도는 페이지의 실제 이미지 크기에 따라 계산됩니다.
 
-## Adobe PDF 형식으로 글꼴을 삽입
+## 어도비PDF형식으로 글꼴 포함
 
-Aspose.Words 또한 글꼴이 결과 PDF 문서에 삽입되는 방법을 제어 할 수 있습니다. 폰트는 Adobe PDF 문서에 임베디드가 필요하며 문서가 모든 기계에서 올바르게 렌더링 될 수 있음을 보장하기 위해 Adobe PDF 문서에 임베디드가 필요합니다. [파일 형식](/words/ko/java/using-truetype-fonts/)). 기본적으로, Aspose.Words 생성된 PDF로 문서에 사용되는 글꼴의 하위 세트를 포함. 이 경우 만 glyph문서에 사용되는 s (문자)는 PDF로 저장됩니다.
+Aspose.Words을 사용하면 결과 PDF 문서에 글꼴을 임베드하는 방법을 제어할 수도 있습니다. 글꼴은 모든 Adobe PDF 문서에 임베드되어야 문서가 모든 컴퓨터에서 올바르게 렌더링될 수 있습니다(글꼴 렌더링에 대한 자세한 내용은 섹션 참조).[ TrueType 글꼴 사용](/words/java/using-truetype-fonts/) ). 기본적으로 Aspose.Words은 문서에서 사용된 글꼴의 하위 집합을 생성된 PDF에 포함합니다. 이 경우 문서에서 사용된 글리프(문자)만 PDF에 저장됩니다.
 
-### 전체 글꼴을 사용할 때 및 Subset에
+### 전체 글꼴 사용 시기 및 하위 집합 사용 시기
 
-옵션을 지정하는 방법이 있습니다. Aspose.Words 전체 글꼴을 embed. 각 조정의 몇몇 이점 그리고 불리와 더불어 세부사항은 아래에 테이블에서 설명됩니다.
+전체 글꼴을 포함하는Aspose.Words에 대한 옵션을 지정하는 방법이 있습니다. 각 설정의 몇 가지 장단점과 함께 더 자세한 내용은 아래 표에 설명되어 있습니다.
 
-| Embed 글꼴 형태 |  제품 정보 | 관련 상품 |
-|  :-  |  :-  |  :-  |
-|  `Full`  | 텍스트를 추가하거나 수정하여 PDF를 나중에 편집 할 때 유용합니다. 모든 글꼴이 포함되어 있습니다, 그러므로 모두 glyphs는 현재입니다. | 일부 글꼴이 크기 때문에 (several megabytes), 하위 설정 없이 그들을 포함 하 여 큰 출력 파일에서 발생할 수 있습니다. |
-|  `Subset`  | Subsetting은 출력 파일 크기를 작게 유지하려는 경우 유용합니다. | <p>사용자는 출력 PDF 문서의 하위 설정 글꼴을 사용하여 텍스트를 완전히 추가하거나 편집 할 수 없습니다. 이것은 모든 것이 아닙니다. glyph글꼴의 s는 현재입니다.</p>
+| 글꼴 모드 포함 | 장점 | 단점 |
+| :- | :- | :- |
+| `Full` | 나중에 텍스트를 추가하거나 수정하여 결과PDF을 편집할 때 유용합니다. 모든 글꼴이 포함되어 있으므로 모든 글리프가 있습니다. | 일부 글꼴은 크기가 크기 때문에(몇 메가바이트)하위 설정 없이 삽입하면 큰 출력 파일이 발생할 수 있습니다. |
+| `Subset` | 하위 설정은 출력 파일 크기를 작게 유지하려는 경우에 유용합니다. | <p>사용자는 출력PDF문서의 하위 집합 글꼴을 사용하여 텍스트를 완전히 추가하거나 편집할 수 없습니다. 글꼴의 모든 글리프가 존재하지 않기 때문입니다.</p><p>여러PDFs이 하위 집합 글꼴로 저장되고 함께 조립되면 결합된PDF문서에는 불필요한 하위 집합이 많이 포함된 글꼴이 있을 수 있습니다.</p> |
 
-<p>여러 개의 PDF가 하위 설정된 글꼴로 저장되고 함께 조립되면, 결합된 PDF 문서에는 많은 불필요한 하위 세트가 포함 된 글꼴이있을 수 있습니다.</p>
- |
+### PDF에 전체 글꼴 포함
 
-### 전체 글꼴을 PDF로
+[EmbedFullFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getEmbedFullFonts)속성을 사용하면Aspose.Words이 출력PDF문서에 글꼴을 포함하는 방법을 지정할 수 있습니다.
 
-더 보기 [EmbedFullFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getEmbedFullFonts) 속성을 지정할 수 있습니다. Aspose.Words 출력 PDF 문서에 글꼴을 포함.
+- 출력PDF문서에 전체 글꼴을 포함하려면**EmbedFullFonts**을 참으로 설정합니다
+- PDF에 저장할 때 글꼴을 하위 집합하려면**EmbedFullFonts**을 거짓으로 설정합니다
 
-- - - 출력 PDF 문서로 전체 글꼴을 삽입하려면 설정 **EmbedFullFonts** 이름 * true
-- - - PDF로 저장할 때 글꼴을 설정하려면, 설정 **EmbedFullFonts** 이름 * false
-
-다음 예제는 출력 PDF 문서의 전체 글꼴을 embed하는 방법을 보여줍니다
+다음 예제에서는 출력PDF문서에 전체 글꼴을 포함하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-EmbeddedFontsInPDF-EmbeddAllFonts.java" >}}
 
-다음 예제는 설정하는 방법을 보여줍니다. Aspose.Words 출력 PDF의 서브셋 글꼴:
+다음 예제에서는Aspose.Words을 출력PDF의 하위 집합 글꼴로 설정하는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-EmbeddedFontsInPDF-EmbeddSubsetFonts.java" >}}
 
 {{% alert color="primary" %}}
 
-이 예제의 템플릿 파일을 다운로드 할 수 있습니다. [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx)·
+다음에서 이러한 예제에 대한 템플릿 파일을 다운로드할 수 있습니다 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-## Embedding 핵심 글꼴을 통제하는 방법 Windows 표준 글꼴
+## 코어 글꼴 및Windows표준 글꼴 임베딩을 제어하는 방법
 
-핵심 글꼴 및 Windows 표준 글꼴은 대상 기계에 일반적으로 존재하는 글꼴의 "표준"세트이며 문서 리더에 의해 제공되므로 출력 PDF에 내장 할 필요가 없습니다. 이 폰트를 삽입하지 않고 렌더링 된 PDF 문서의 크기를 줄일 수 있으며, 패시성을 유지합니다.
+코어 폰트와Windows표준 폰트는 일반적으로 타겟 머신에 존재하거나 문서 리더에 의해 제공되는"표준"폰트 세트입니다.따라서 출력PDF에 내장 할 필요가 없습니다. 이러한 글꼴을 포함하지 않으면 렌더링된PDF문서의 크기를 줄이고 이식성을 유지할 수 있습니다.
 
-Aspose.Words 글꼴이 PDF로 내보내는 방법을 선택하는 옵션을 제공합니다. 출력 PDF로 코어 및 표준 글꼴을 삽입하거나 대신 대상 기계에 표준 코어 PDF 글꼴 또는 시스템 글꼴을 사용하도록 선택할 수 있습니다. 이러한 옵션 중 하나를 사용하여 일반적으로 PDF 문서의 상당한 파일 크기 감소에 결과 Aspose.Words·
+Aspose.Words은 글꼴을PDF로 내보내는 방법을 선택할 수 있는 옵션을 제공합니다. 출력PDF에 코어 및 표준 글꼴을 포함 시키거나 임베딩을 건너 뛰고 대신 대상 컴퓨터에서 표준 코어PDF글꼴 또는 시스템 글꼴을 사용하도록 선택할 수 있습니다. 이러한 옵션 중 하나를 사용하면 일반적으로Aspose.Words에 의해 생성된PDF문서의 파일 크기가 크게 줄어듭니다.
 
-- 이러한 옵션이 상호적으로 독점적이므로 한 번만 선택할 수 있습니다.
-- PDF/A-1 준수를 저장할 때, 모든 사용 된 글꼴은 PDF 문서에 포함해야합니다. 이 준수를 절약 할 때, [UseCoreFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getUseCoreFonts) 의 속성은 false 그리고 [FontEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getFontEmbeddingMode) 의 속성은 [EmbedAll](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode#EMBED_ALL)[.](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usecorefonts/)
+- 이러한 옵션은 상호 배타적이기 때문에 한 번에 하나만 선택해야 합니다.
+- PDF/A-1준수로 저장할 때 사용된 모든 글꼴은PDF문서에 포함되어야 합니다. 이 규정을 준수하여 저장할 때는[UseCoreFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getUseCoreFonts)속성을 거짓으로 설정하고[FontEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getFontEmbeddingMode)속성을[EmbedAll](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode#EMBED_ALL)[.](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usecorefonts/)로 설정해야 합니다
 
-### Embedding 핵심 글꼴
+### 코어 글꼴 포함
 
-Core 글꼴을 embed 할 수있는 옵션은 사용하거나 사용함으로써 비활성화 할 수 있습니다. [UseCoreFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getUseCoreFonts) 호텔 위치 설정할 때 true, 다음과 같은 가장 인기있는 "True Type" 글꼴 (기본 14 글꼴)은 출력 PDF 문서에 포함되지 않습니다
+[UseCoreFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getUseCoreFonts)속성을 사용하여 코어 글꼴을 포함하는 옵션을 사용하거나 사용하지 않도록 설정할 수 있습니다. 이 글꼴이 참으로 설정되면 다음과 같이 가장 많이 사용되는"참 유형"글꼴(기본 14 글꼴)이 출력PDF문서에 포함되지 않습니다:
 
 - `Arial`
 - `Times New Roman`
 - `Courier New`
 - `Symbol`
 
-이 글꼴은 PDF가 열릴 때 독자가 제공 한 해당 코어 유형 1 글꼴로 대체됩니다.
+이러한 글꼴은PDF을 열 때 리더가 제공하는 해당 코어 타입 1 글꼴로 대체됩니다.
 
-아래 예제는 설정 방법을 보여줍니다 Aspose.Words 코어 글꼴을 삽입하고 독자가 PDF로 대체하도록하십시오. 유형 1개의 글꼴:
+아래 제공된 예제는 핵심 글꼴을 포함하지 않도록Aspose.Words을 설정하고 독자가PDF유형 1 글꼴로 대체하도록 하는 방법을 보여줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-EmbeddedFontsInPDF-AvoidEmbeddingCoreFonts.java" >}}
 
 {{% alert color="primary" %}}
 
-이 예제의 템플릿 파일을 다운로드 할 수 있습니다. [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx)·
+이 예제의 템플릿 파일은 다음에서 다운로드할 수 있습니다 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-PDF 뷰어는 지원되는 플랫폼에 핵심 글꼴을 제공하므로 문서의 포트가 필요할 때도 유용합니다. 그러나 핵심 글꼴은 시스템 글꼴과 다른 것을 볼 수 있습니다.
+PDF뷰어는 지원되는 모든 플랫폼에서 핵심 글꼴을 제공하기 때문에 이 옵션은 문서 이식성이 더 필요한 경우에도 유용합니다. 그러나 핵심 글꼴은 시스템 글꼴과 다를 수 있습니다.
 
 {{% alert color="primary" %}}
 
-이 설정은 ANSI에서만 작동합니다 (Windows-1252) 인코딩 텍스트. PDF에 비 ANSI 텍스트를 작성하면 항상 해당 글꼴이 임베디드되어야합니다.
+이 설정은ANSI(Windows-1252)인코딩 텍스트에만 적용됩니다. ANSI이 아닌 텍스트를PDF에 쓰면 항상 해당 글꼴을 포함해야 합니다.
 
 {{% /alert %}}
 
-### 시스템 글꼴
+### 시스템 글꼴 포함
 
-이 옵션을 사용할 수 있습니다 또는 사용 하 여 비활성화 [FontEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getFontEmbeddingMode) 호텔 위치 이 속성은 [EmbedNonstandard](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode/#EMBED-NONSTANDARD), "Arial"과 "Times New Roman" true 글꼴 유형은 PDF 문서에 포함되지 않습니다. 이 경우 클라이언트 뷰어는 클라이언트 운영 체제에 설치되는 글꼴에 의존합니다. 시간: **FontEmbeddingMode** 숙박 시설 [EmbedNone](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode/#EMBED-NONE), Aspose.Words 어떤 글꼴을 포함하지 마십시오.
+이 옵션은[FontEmbeddingMode](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getFontEmbeddingMode)속성을 사용하여 사용하거나 사용하지 않도록 설정할 수 있습니다. 이 속성을[EmbedNonstandard](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode/#EMBED-NONSTANDARD)으로 설정하면"굴림"및"타임스 뉴 로만"참 유형 글꼴은PDF문서에 포함되지 않습니다. 이 경우 클라이언트 뷰어는 클라이언트 운영 체제에 설치된 글꼴을 사용합니다. **FontEmbeddingMode**속성을[EmbedNone](https://reference.aspose.com/words/java/com.aspose.words/pdffontembeddingmode/#EMBED-NONE)로 설정하면Aspose.Words글꼴을 포함하지 않습니다.
 
-아래 예제는 설정하는 방법을 보여줍니다. Aspose.Words Arial과 Times New Roman 글꼴을 PDF 문서로 복사하려면:
+아래 예제에서는Aspose.Words을 설정하여PDF문서에 굴림 및 번 새 로마 글꼴 임베딩을 건너뛰는 방법을 보여 줍니다:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-EmbeddedFontsInPDF-SetFontEmbeddingMode.java" >}}
 
-이 모드는 동일한 플랫폼에서 문서를 볼 때 가장 유용합니다. 출력 PDF의 글꼴의 정확한 외관을 보존합니다.
+이 모드는 출력PDF에서 글꼴의 정확한 모양을 유지하면서 동일한 플랫폼에서 문서를 보고 싶을 때 가장 유용합니다.
 
 {{% alert color="primary" %}}
 
-이 설정은 ANSI에서만 작동합니다 (Windows-1252) 인코딩 텍스트. non-ANSI 텍스트를 PDF로 작성하면 해당 글꼴이 임베디드되어야 합니다.
+이 설정은ANSI(Windows-1252)인코딩 텍스트에만 적용됩니다. ANSI이 아닌 텍스트를PDF에 작성하려면 해당 글꼴을 포함해야 합니다.
 
 {{% /alert %}}

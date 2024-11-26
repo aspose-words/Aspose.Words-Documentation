@@ -1,158 +1,158 @@
----
+﻿---
 title: Licencias y Suscripción
-second_title: Aspose.Words para Java
+second_title: Aspose.Words por Java
 articleTitle: Licencias y Suscripción
 linktitle: Licencias y Suscripción
-description: "Aspose.Words para Java proporciona diferentes planes para la compra o ofrece una prueba gratuita y una licencia temporal de 30 días para la evaluación mediante políticas de licencia y suscripción."
+description: "Aspose.Words para Java ofrece diferentes planes de compra u ofrece una prueba gratuita y una Licencia Temporal de 30 días para su evaluación mediante Políticas de licencias y suscripción."
 type: docs
 weight: 60
 url: /es/java/licensing/
 timestamp: 2024-01-31-14-23-37
 ---
 
-A veces, para estudiar mejor el sistema, desea bucear en el código lo más rápido posible. Para facilitarlo, Aspose.Words proporciona diferentes planes para la compra o ofrece una prueba gratuita y una licencia temporal de 30 días para la evaluación.
+A veces, para estudiar mejor el sistema, desea sumergirse en el código lo más rápido posible. Para facilitar esto, Aspose.Words ofrece diferentes planes de compra u ofrece una prueba gratuita y una Licencia Temporal de 30 días para su evaluación.
 
 {{% alert color="primary" %}}
 
-Tenga en cuenta que hay una serie de políticas y prácticas generales que le guían sobre cómo evaluar, licenciar correctamente y comprar nuestros productos. Puedes encontrarlos en el [Políticas de compra y preguntas frecuentes](https://purchase.aspose.com/policies/) sección.
+Tenga en cuenta que hay una serie de políticas y prácticas generales que lo guían sobre cómo evaluar, licenciar adecuadamente y comprar nuestros productos. Puedes encontrarlos en el [Políticas de compra y FAQ](https://purchase.aspose.com/policies/) sección.
 
 {{% /alert %}}
 
-## Prueba gratuita o licencia temporal
+## Prueba Gratuita o Licencia Temporal
 
-Aspose.Words es un software increíble que los desarrolladores pueden intentar antes de comprar. Puede descargar/instalar fácilmente Aspose.Words para Java y Aspose.Words para Android via Java [desde Maven](https://releases.aspose.com/words/java/) para la evaluación.
+Aspose.Words es un software increíble que los desarrolladores pueden probar antes de comprarlo. Puede descargar/instalar Aspose.Words para Java y Aspose.Words para Android fácilmente a través de Java [desde Maven](https://releases.aspose.com/words/java/) para evaluación.
 
-### Juicio libre
+### Prueba Gratuita
 
-La versión de evaluación es la misma que la comprada – la versión de prueba simplemente se convierte en licencia cuando se agregan algunas líneas de código para aplicar la licencia.
+La versión de evaluación es la misma que la comprada: la versión de prueba simplemente adquiere una licencia cuando agrega algunas líneas de código para aplicar la licencia.
 
-La versión de prueba Aspose.Words para Java y Aspose.Words para Android via Java sin la licencia especificada proporciona plena funcionalidad de producto, pero inserta una marca de agua evaluativa en la parte superior del documento al cargar y guardar y limita el tamaño máximo del documento a unos pocos cientos párrafos.
+La versión de prueba de Aspose.Words para Java y Aspose.Words para Android a través de Java sin la licencia especificada proporciona la funcionalidad completa del producto, pero inserta una marca de agua evaluativa en la parte superior del documento al cargarlo y guardarlo, y limita el tamaño máximo del documento a unos pocos cientos de párrafos.
 
-### Licencia temporal
+### Licencia Temporal
 
-Si desea probar Aspose.Words para Java y Aspose.Words para Android via Java sin las limitaciones de la versión de prueba, también puede solicitar una licencia temporal de 30 días. Para más detalles, vea el [Obtenga una licencia temporal](https://purchase.aspose.com/temporary-license/) página.
+Si desea probar Aspose.Words para Java y Aspose.Words para Android a través de Java sin las limitaciones de la versión de prueba, también puede solicitar una Licencia Temporal de 30 días. Para obtener más detalles, consulte el [Obtenga una Licencia Temporal](https://purchase.aspose.com/temporary-license/) página.
 
-## Licencia adquirida
+## Licencia Adquirida
 
-Después de la compra, debe aplicar el archivo de licencia o incluir el archivo de licencia como recurso incrustado. Esta sección describe opciones de cómo se puede hacer esto, y también comentarios sobre algunas preguntas comunes.
-
-{{% alert color="primary" %}}
-
-Una licencia es un archivo XML de texto claro que contiene detalles tales como nombre de producto, número de desarrolladores autorizados, fecha de expiración de suscripción, etc.
-
-El archivo está firmado digitalmente, así que no modifique el archivo. Incluso la adición inadvertida de una ruptura de línea extra en el archivo lo invalidará.
-
-{{% /alert %}}
+Después de la compra, debe aplicar el archivo de licencia o incluirlo como recurso incrustado. Esta sección describe las opciones de cómo se puede hacer esto y también comenta algunas preguntas comunes.
 
 {{% alert color="primary" %}}
 
-Necesita establecer la licencia:
+Una licencia es un archivo de texto sin formato XML que contiene detalles como el nombre del producto, el número de desarrolladores con licencia, la fecha de vencimiento de la suscripción, etc.
 
-* sólo una vez por dominio de aplicación
-* antes de usar cualquier otro Aspose.Words clases
+El archivo está firmado digitalmente, así que no lo modifique. Incluso la adición inadvertida de un salto de línea adicional en el archivo lo invalidará.
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-Usted puede encontrar información de precios en [Información sobre precios](https://purchase.aspose.com/pricing/words/family/) página.
+Necesita configurar la licencia:
+
+* solo una vez por dominio de aplicación
+* antes de usar cualquier otra clase Aspose.Words
 
 {{% /alert %}}
-
-### Protección de su licencia comprada
-
-Después de comprar una licencia, necesita leer cuidadosamente la información en la página [Protección de su licencia comprada](https://purchase.aspose.com/orders/protecting-your-license-file) para proteger su archivo de licencia. Tenga en cuenta que esta página está disponible para ver sólo si tiene una licencia pagada.
-
-### Opciones de aplicación de licencias
-
-Las licencias se pueden aplicar desde diferentes lugares:
-
-* Camino explícito
-* La carpeta que contiene el *Aspose.Words JAR* file
-* Un recurso integrado en el JAR se llama *Aspose.Words JAR*
-* Como Licencia Medida – un nuevo mecanismo de licencias
-
-A menudo la forma más fácil de establecer una licencia es colocar el archivo de licencia en la misma carpeta que *Aspose.Words JAR* y especificar sólo el nombre de archivo sin la ruta.
 
 {{% alert color="primary" %}}
 
-Usar el [SetLicense](https://reference.aspose.com/words/java/com.aspose.words/license/#setLicense-java.io.InputStream) método para licenciar un componente.
-
-Llamada **SetLicense** múltiples veces no es dañino, sólo desperdicia el tiempo del procesador.
-
-Llamada [SetMeteredKey](https://reference.aspose.com/words/java/com.aspose.words/metered/#setMeteredKey-java.lang.String-java.lang.String) múltiples veces tampoco es dañino, pero sólo desperdicia tiempo del procesador y puede acumular el consumo inadecuadamente.
+Puede encontrar información sobre precios en el [Información de Precios](https://purchase.aspose.com/pricing/words/family/) página.
 
 {{% /alert %}}
 
-#### Solicitar Licencia Usando un Objeto de Archivo o Stream
+### Protección De Su Licencia Adquirida
+
+Después de comprar una licencia, debe leer detenidamente la información en página [Protección De Su Licencia Adquirida](https://purchase.aspose.com/orders/protecting-your-license-file) para proteger su archivo de licencia. Tenga en cuenta que esta página solo está disponible para verla si tiene una licencia paga.
+
+### Opciones de Solicitud de Licencia
+
+Las licencias se pueden aplicar desde varias ubicaciones:
+
+* Ruta explícita
+* La carpeta que contiene el archivo *Aspose.Words JAR*
+* Un recurso incrustado en JAR se llama *Aspose.Words JAR*
+* Como Licencia medida: un nuevo mecanismo de licencias
+
+A menudo, la forma más sencilla de establecer una licencia es colocar el archivo de licencia en la misma carpeta que *Aspose.Words JAR* y especificar solo el nombre del archivo sin la ruta.
 
 {{% alert color="primary" %}}
 
-Call **SetLicense** en su código de inicio antes de usar Aspose.Words clases.
+Utilice el método [SetLicense](https://reference.aspose.com/words/java/com.aspose.words/license/#setLicense-java.io.InputStream) para licenciar un componente.
+
+Llamar a **SetLicense** varias veces no es dañino, solo desperdicia tiempo del procesador.
+
+Llamar a [SetMeteredKey](https://reference.aspose.com/words/java/com.aspose.words/metered/#setMeteredKey-java.lang.String-java.lang.String) varias veces tampoco es dañino, pero solo desperdicia tiempo del procesador y puede acumular el consumo de manera inadecuada.
 
 {{% /alert %}}
 
-Al desarrollar una biblioteca de clases, puedes llamar **SetLicense** del constructor estático de su clase que utiliza Aspose.Words. El constructor estático será ejecutado antes de instantánear su clase para asegurar que el Aspose.Words La licencia está instalada correctamente.
+#### Aplicar Licencia Mediante un Objeto de Archivo o Secuencia
 
-##### Cargar una licencia de un archivo
+{{% alert color="primary" %}}
 
-Usando el [SetLicense](https://reference.aspose.com/words/java/com.aspose.words/license/#setLicense-java.lang.String) método, puede intentar encontrar el archivo de licencia en los recursos o carpeta incrustados que contienen el JARs de su solicitud para su uso posterior.
+Llame a **SetLicense** en su código de inicio antes de usar las clases Aspose.Words.
 
-El siguiente ejemplo de código muestra cómo inicializar una licencia de una carpeta:
+{{% /alert %}}
+
+Al desarrollar una biblioteca de clases, puede llamar a **SetLicense** desde el constructor estático de su clase que usa Aspose.Words. El constructor estático se ejecutará antes de crear una instancia de su clase para garantizar que la licencia Aspose.Words esté instalada correctamente.
+
+##### Cargar una licencia desde un archivo
+
+Con el método [SetLicense](https://reference.aspose.com/words/java/com.aspose.words/license/#setLicense-java.lang.String), puede intentar encontrar el archivo de licencia en los recursos incrustados o en la carpeta que contiene el JARs de su aplicación para usarlo más adelante.
+
+El siguiente ejemplo de código muestra cómo inicializar una licencia desde una carpeta:
 
 {{< gist "aspose-words-gists" "aae6b7a56c4792497614b4ee8f6f8eec" "apply-license-from-file.java" >}}
 
-##### Cargar una Licencia de una `Stream` Objeto
+##### Cargar una licencia desde un objeto `Stream`
 
-El siguiente ejemplo de código muestra cómo inicializar una licencia de un flujo usando otro [SetLicense](https://reference.aspose.com/words/java/com.aspose.words/license/#setLicense-java.io.InputStream) método:
+El siguiente ejemplo de código muestra cómo inicializar una licencia desde una secuencia utilizando otro método [SetLicense](https://reference.aspose.com/words/java/com.aspose.words/license/#setLicense-java.io.InputStream):
 
 {{< gist "aspose-words-gists" "aae6b7a56c4792497614b4ee8f6f8eec" "apply-license-from-stream.java" >}}
 
-#### Incluya el archivo de licencia como recurso incorporado
+#### Incluya el Archivo de licencia como Recurso Incrustado
 
-Una manera correcta de empaquetar una licencia con su aplicación y asegurarse de que no se perderá es incluirla como un recurso incrustado. Simplemente puede copiar el archivo LIC a la carpeta de recursos de su proyecto.
+Una forma ordenada de empaquetar una licencia con su aplicación y asegurarse de que no se pierda es incluirla como un recurso incrustado. Simplemente puede copiar el archivo LIC en la carpeta de recursos de su proyecto.
 
-Reconstruir el proyecto debe incrustar el archivo .lic en aplicación .jar archivo. Después de eso, puede solicitar una licencia usando el siguiente código:
+Reconstruir el proyecto debería incrustar el .archivo lic en la aplicación .archivo jar. Después de eso, puede solicitar una licencia usando el siguiente código:
 
 {{< gist "aspose-words-gists" "aae6b7a56c4792497614b4ee8f6f8eec" "apply-license-from-resources.java" >}}
 
-#### Apply Metered License
+#### Aplicar Licencia Medida
 
-Aspose.Words permite a los desarrolladores aplicar una clave medidora. Este es un nuevo mecanismo de licencias.
+Aspose.Words permite a los desarrolladores aplicar una clave medida. Este es un nuevo mecanismo de concesión de licencias.
 
-El nuevo mecanismo de concesión de licencias se utilizará junto con el método existente de concesión de licencias. Los clientes que quieren ser facturados basado en el uso de API Las características pueden usar la Licencia Meterizada.
+El nuevo mecanismo de concesión de licencias se utilizará junto con el método de concesión de licencias existente. Aquellos clientes que deseen que se les facture en función del uso de las funciones API pueden utilizar la Licencia medida.
 
-Después de completar todos los pasos necesarios para obtener este tipo de licencia, recibirá las claves, no el archivo de licencia. Esta llave medidora se puede aplicar utilizando [Metered](https://reference.aspose.com/words/java/com.aspose.words/metered/) clase especialmente introducida para este propósito.
+Después de completar todos los pasos necesarios para obtener este tipo de licencia, recibirá las claves, no el archivo de licencia. Esta clave medida se puede aplicar utilizando la clase [Metered](https://reference.aspose.com/words/java/com.aspose.words/metered/) especialmente introducida para este propósito.
 
-No llames a la **SetMeteredKey** método frecuentemente para que este método de licencia acumula adecuadamente el consumo y nos lo reporte. Sólo instantáneamente el Aspose.Words biblioteca, llama **SetMeteredKey** una vez, luego dejar la biblioteca instantánea y reutilizarla.
+No llame al método **SetMeteredKey** con frecuencia para que este método de licencia acumule correctamente el consumo y nos lo informe. Simplemente cree una instancia de la biblioteca Aspose.Words, llame a **SetMeteredKey** una vez, luego deje la biblioteca instanciada y reutilícela.
 
-El siguiente ejemplo de código muestra cómo establecer claves públicas y privadas medidoras:
+El siguiente ejemplo de código muestra cómo establecer claves públicas y privadas medidas:
 
 {{< gist "aspose-words-gists" "aae6b7a56c4792497614b4ee8f6f8eec" "apply-metered-license.java" >}}
 
 {{% alert color="primary" %}}
 
-Tenga en cuenta que debe tener una conexión estable a Internet para el uso correcto de la licencia Metered, ya que el mecanismo Metered requiere la interacción constante con nuestros servicios para los cálculos correctos
+Tenga en cuenta que debe tener una conexión a Internet estable para el uso correcto de la licencia Medida, ya que el mecanismo Medido requiere la interacción constante con nuestros servicios para los cálculos correctos.
 
-Para más detalles, consulte el [Preguntas frecuentes sobre Licencias Medidas](https://purchase.aspose.com/faqs/licensing/metered/) sección.
+Para obtener más detalles, consulte el [Licencias con Contador FAQ](https://purchase.aspose.com/faqs/licensing/metered/) sección.
 
 {{% /alert %}}
 
-### Cambiar el nombre del archivo de licencia
+### Cambiar el Nombre del Archivo de Licencia
 
-El nombre de archivo de licencia no tiene que ser "Aspose.Words.LIC". Puede renombrarlo a su gusto y utilizar ese nombre al establecer una licencia en su aplicación.
+El nombre de archivo de la licencia no tiene que ser " Aspose.Words.LIC". Puede cambiarle el nombre a su gusto y usar ese nombre al configurar una licencia en su aplicación.
 
-### "No se puede encontrar el nombre de archivo de licencia" Excepciones
+### Excepción" No se puede encontrar el nombre de archivo de la licencia"
 
-Cuando compra y descarga una licencia, el sitio web de Aspose indica el archivo de licencia *"Aspose.Words.LIC"*. Usted descarga el archivo de licencia usando su navegador. En este caso, algunos navegadores reconocen el archivo de licencia como XML y anexan la extensión .xml a él, por lo que el nombre completo de archivo en su computadora se convierte en *"Aspose.Words.lic.XML"*.
+Cuando compra y descarga una licencia, el sitio web de Aspose nombra el archivo de licencia *"Aspose.Words.LIC"*. Descargue el archivo de licencia usando su navegador. En este caso, algunos navegadores reconocen el archivo de licencia como XML y lo anexan .extensión xml, por lo que el nombre completo del archivo en su computadora se convierte en *"Aspose.Words.lic.XML"*.
 
-Cuando Microsoft Windows está configurado para ocultar extensiones para tipos de archivos conocidos (desafortunadamente, este es el predeterminado en la mayoría Windows instalaciones), el archivo de licencia aparecerá como *"Aspose.Words. LIC"* en Windows Explorador. Usted probablemente pensará que este es el nombre de archivo real y la llamada **SetLicense** pasarlo *Aspose.Words.LIC"*, pero no hay tal archivo, por lo tanto la excepción.
+Cuando Microsoft Windows está configurado para ocultar extensiones para tipos de archivo conocidos (desafortunadamente, este es el valor predeterminado en la mayoría de las Windows instalaciones), el archivo de licencia aparecerá como *"Aspose.Words. LIC"* en Windows Explorer. Probablemente pensará que este es el nombre real del archivo y llamará a **SetLicense** pasándolo *"Aspose.Words.LIC"*, pero no existe tal archivo, de ahí la excepción.
 
-Para solucionar el problema, renombra el archivo para eliminar la extensión invisible .xml. También te recomendamos deshabilitar la opción "extensiones de tráfico" en Microsoft Windows.
+Para resolver el problema, cambie el nombre del archivo para eliminar lo invisible .extensión xml. También le recomendamos que desactive la opción" ocultar extensiones " en Microsoft Windows.
 
-## Utilizando Múltiples Productos de Aspose
+## Uso de Varios Productos Aspose
 
-Si utiliza varios productos de Aspose en su aplicación, como Aspose.Words y `Aspose.Cells`, aquí son algunos consejos útiles:
+Si usa varios productos Aspose en su aplicación, como Aspose.Words y `Aspose.Cells`, estos son algunos consejos útiles:
 
-* Establezca la Licencia para cada producto Aspose por separado. Incluso si usted tiene un único archivo de licencia para todos los componentes, por ejemplo, "Aspose.Total.lic", todavía necesita llamar **SetLicense** por separado para cada producto Aspose que utiliza en su aplicación.
-* Utilice el nombre completo de clase de licencia calificada. Cada uno El producto de la forma tiene un `License` clase en su propio espacio de nombres. Por ejemplo, Aspose.Words tiene **com.aspose.words.Licencia** y `Aspose.Cells` tiene com.aspose.cells. Clase de licencia. Utilizar el nombre de clase plenamente calificado le permite evitar confusión en cuanto a qué licencia se aplica a qué producto.
+* Establezca la licencia para cada producto Aspose por separado. Incluso si tiene un único archivo de licencia para todos los componentes, por ejemplo, " Aspose.Total.lic", aún debe llamar a **SetLicense** por separado para cada producto Aspose que use en su aplicación.
+* Utilice el Nombre de la Clase de Licencia Completa. Cada producto Aspose tiene una clase `License` en su propio espacio de nombres. Por ejemplo, Aspose.Words tiene **com.aspose.words.License** y `Aspose.Cells` tiene com.aspose.células.Clase de licencia. El uso del nombre de clase completo le permite evitar confusiones sobre qué licencia se aplica a qué producto.

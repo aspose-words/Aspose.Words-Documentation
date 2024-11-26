@@ -1,8 +1,8 @@
 ---
-title: Werk met een document opgeslagen in een `SharePoint` Online
+title: Werk met een document opgeslagen in een SharePoint Online
 second_title: Aspose.Words voor .NET
-articleTitle: Werk met een document opgeslagen in een `SharePoint` Online
-linktitle: Werk met een document opgeslagen in een `SharePoint` Online
+articleTitle: Werk met een document opgeslagen in een SharePoint Online
+linktitle: Werk met een document opgeslagen in een SharePoint Online
 description: "Word gedeeld in omzetten SharePoint PDF gebruiken C#. Werken met opgeslagen documenten SharePoint Verschillende invoerformaten, waaronder Word, OpenOffice, Image en eBook."
 type: docs
 weight: 20

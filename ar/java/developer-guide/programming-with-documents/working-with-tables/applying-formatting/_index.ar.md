@@ -1,329 +1,329 @@
----
-title: الجدول Java
-second_title: Aspose.Words for Java
-articleTitle: الجدول التطبيقي
-linktitle: الجدول التطبيقي
-description: "نسق الجدول بالتفاصيل استخدام Java لتشكيل كل جزء من الجدول"
+﻿---
+title: تنسيق الجدول في Java
+second_title: Aspose.Words ل Java
+articleTitle: تطبيق تنسيق الجدول
+linktitle: تطبيق تنسيق الجدول
+description: "تنسيق الجدول في التفاصيل. باستخدام Java لتنسيق كل جزء من الجدول."
 type: docs
 weight: 70
 url: /ar/java/applying-formatting/
 timestamp: 2024-01-27-14-07-04
 ---
 
-ويمكن تطبيق كل عنصر من عناصر الجدول بصيغة مختلفة. For example, table formatting will be applied to the entire table, row formatting to only particular rows, cell formatting to only certain cells.
+يمكن تطبيق كل عنصر من عناصر الجدول بتنسيق مختلف. على سبيل المثال، سيتم تطبيق تنسيق الجدول على الجدول بأكمله، وتنسيق الصف على صفوف معينة فقط، وتنسيق الخلية على خلايا معينة فقط.
 
-Aspose.Words يوفر ثريا API لاسترجاع وتطبيق الشكل على طاولة يمكنك استخدام [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/), و [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) عقد لرسم الشكل.
+Aspose.Words يوفر الغنية API لاسترداد وتطبيق التنسيق إلى جدول. يمكنك استخدام العقد [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) و [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/) و [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) لتعيين التنسيق.
 
-وفي هذه المادة، سنتحدث عن كيفية تطبيق الصيغ على مختلف جداول الجداول، وما هي أطر إعداد الجداول Aspose.Words الدعم
+في هذه المقالة، سنتحدث عن كيفية تطبيق التنسيق على عقد جدول مختلفة وما هي إعدادات تنسيق الجدول Aspose.Words التي تدعمها.
 
-## Apply Formatting to Different Nodes
+## تطبيق التنسيق على عقد مختلفة
 
-وفي هذا الفرع، سننظر في تطبيق الشكل على مختلف الجداول.
+في هذا القسم، سننظر في تطبيق التنسيق على عقد الجدول المختلفة.
 
-### الجدول المستوى
+### تنسيق مستوى الجدول
 
-تطبيق الشكل على طاولة يمكنك استخدام الممتلكات المتاحة على المقابل **Table** العقد باستخدام [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/), و [TableCollection](https://reference.aspose.com/words/java/com.aspose.words/tablecollection/) الصفوف
+لتطبيق التنسيق على جدول، يمكنك استخدام الخصائص المتوفرة في العقدة **Table** المقابلة باستخدام فئات [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) و [PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/) و [TableCollection](https://reference.aspose.com/words/java/com.aspose.words/tablecollection/).
 
 {{% alert color="primary" %}}
 
-Note that the table must have at least one row before the table properties can be applied. هذا يعني أنه عند بناء طاولة مع [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/), يجب القيام بهذا الشكل بعد النداء الأول [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell())، أو بعد أن يضاف الصف الأول إلى الجدول، أو عندما تُدرج المعايدة مباشرة في DOM.
+لاحظ أنه يجب أن يحتوي الجدول على صف واحد على الأقل قبل تطبيق خصائص الجدول. هذا يعني أنه عند إنشاء جدول باستخدام [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)، يجب إجراء هذا التنسيق بعد المكالمة الأولى إلى [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell())، أو بعد إضافة الصف الأول إلى الجدول، أو عند إدراج العقد مباشرة في DOM.
 
 {{% /alert %}}
 
-الصور الواردة أدناه تظهر تمثيلاً **Table** السمات الشكلية Microsoft Word وما يقابلها من ممتلكات Aspose.Words.
+تظهر الصور أدناه تمثيلا لميزات التنسيق **Table** في Microsoft Word وخصائصها المقابلة في Aspose.Words.
 
 ![apply-formatting-to-table-level-aspose-words-java](/words/java/applying-formatting/applying-formatting-to-table-row-and-cell-1.png)
 
 ![apply-formatting-to-table-level-aspose-words-java](/words/java/applying-formatting/applying-formatting-to-table-row-and-cell-2.png)
 
-ويبين المثال الرمزي التالي كيفية تطبيق الخطوط العريضة للحدود على طاولة:
+يوضح مثال التعليمات البرمجية التالية كيفية تطبيق حد مخطط تفصيلي على جدول:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "apply-outline-border.java" >}}
 
-ويبيّن المثال الرمزي التالي كيفية بناء طاولة مع تمكين جميع الحدود (الحزن):
+يوضح مثال الكود التالي كيفية إنشاء جدول مع تمكين جميع الحدود (الشبكة):
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "build-table-with-borders.java" >}}
 
-### مستوى سطحي
+### تنسيق مستوى الصف
 
-يمكن التحكم في الصيغ على مستوى سطح الأرض** باستخدام [Row](https://reference.aspose.com/words/java/com.aspose.words/row/), [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/), و [RowCollection](https://reference.aspose.com/words/java/com.aspose.words/rowcollection/) الصفوف
+يمكن التحكم في التنسيق على مستوى الصف** باستخدام فئات [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) و [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/) و [RowCollection](https://reference.aspose.com/words/java/com.aspose.words/rowcollection/).
 
 {{% alert color="primary" %}}
 
-ملاحظة: أ **Row** لا يمكن أن يكون سوى طفل **Table**. وفي الوقت نفسه، يجب أن يكون هناك على الأقل واحد **Cell** في **Row** حتى يمكن تطبيق هذا الشكل عليه.
+لاحظ أن **Row** يمكن أن يكون فقط عقدة فرعية من **Table**. في الوقت نفسه، يجب أن يكون هناك واحد على الأقل **Cell** في **Row** بحيث يمكن تطبيق التنسيق عليه.
 
 {{% /alert %}}
 
-الصور الواردة أدناه تظهر تمثيلاً **Row** السمات الشكلية Microsoft Word وما يقابلها من ممتلكات Aspose.Words.
+تظهر الصور أدناه تمثيلا لميزات التنسيق **Row** في Microsoft Word وخصائصها المقابلة في Aspose.Words.
 
 ![apply-formatting-to-row-level-aspose-words-java](/words/java/applying-formatting/applying-formatting-to-table-row-and-cell-3.png)
 
-The following code example shows how to modify the table row formatting:
+يوضح مثال التعليمات البرمجية التالية كيفية تعديل تنسيق صف الجدول:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "modify-row-formatting.java" >}}
 
-### النموذج على مستوى الخلية
+### تنسيق مستوى الخلية
 
-التكوين على مستوى الخلية يتحكم فيه [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/), [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/), و [CellCollection](https://reference.aspose.com/words/java/com.aspose.words/cellcollection/) الصفوف
+يتم التحكم في التنسيق على مستوى الخلية بواسطة فئات [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) و [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) و [CellCollection](https://reference.aspose.com/words/java/com.aspose.words/cellcollection/).
 
 {{% alert color="primary" %}}
 
-ملاحظة: أ **Cell** لا يمكن أن يكون سوى طفل **Row**. وفي الوقت نفسه، يجب أن يكون هناك على الأقل واحد [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) في **Cell** حتى يمكن تطبيق هذا الشكل عليه.
+لاحظ أن **Cell** يمكن أن يكون فقط عقدة فرعية من **Row**. في الوقت نفسه، يجب أن يكون هناك [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) واحد على الأقل في **Cell** بحيث يمكن تطبيق التنسيق عليه.
 
-بالإضافة إلى **Paragraph**, يمكنك أيضا إدخال **Table** في **Cell**.
+بالإضافة إلى **Paragraph**، يمكنك أيضا إدراج **Table** في **Cell**.
 
 {{% /alert %}}
 
-الصور الواردة أدناه تظهر تمثيلاً **Cell** السمات الشكلية Microsoft Word وما يقابلها من ممتلكات Aspose.Words.
+تظهر الصور أدناه تمثيلا لميزات التنسيق **Cell** في Microsoft Word وخصائصها المقابلة في Aspose.Words.
 
 ![apply-formatting-to-cell-level-aspose-words-java](/words/java/applying-formatting/applying-formatting-to-table-row-and-cell-4.png)
 
 ![apply-auto-formatting-to-row-level-aspose-words-java](/words/java/applying-formatting/applying-formatting-to-table-row-and-cell-5.png)
 
-The following code example shows how to modify the formatting of a table cell:
+يوضح مثال التعليمات البرمجية التالية كيفية تعديل تنسيق خلية جدول:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "modify-cell-formatting.java" >}}
 
-The following code example shows how to set the amount of space (in points) to add to the left/top/right/bottom of the contents of the cell:
+يوضح مثال الكود التالي كيفية تعيين مقدار المساحة (بالنقاط) لإضافتها إلى يسار/أعلى/يمين / أسفل محتويات الخلية:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "cell-padding.java" >}}
 
-## تحديد مرتفعات Row
+## تحديد ارتفاعات الصف
 
-أبسط طريقة لتحديد طول الصف هي استخدام **DocumentBuilder**. استخدام المناسب **RowFormat** العقارات، يمكنك وضع خط الطول الافتراضي أو تطبيق ارتفاع مختلف لكل صف على الطاولة
+إن أبسط طريقة لتعيين ارتفاع الصف هي استخدام **DocumentBuilder**. باستخدام خصائص **RowFormat** المناسبة، يمكنك تعيين إعداد الارتفاع الافتراضي أو تطبيق ارتفاع مختلف لكل صف في الجدول.
 
-In Aspose.Words, ويسيطر على طول الطاولات ما يلي:
+في Aspose.Words، يتم التحكم في ارتفاع صف الجدول بواسطة:
 
--ممتلكات الطول [Height](https://reference.aspose.com/words/java/com.aspose.words/row/format#Height)
--ممتلكات قاعدة الطول للصف [HeightRule](https://reference.aspose.com/words/java/com.aspose.words/row/format#HeightRule)
+- خاصية ارتفاع الصف - [Height](https://reference.aspose.com/words/java/com.aspose.words/row/format#Height)
+- خاصية قاعدة الارتفاع للصف المحدد - [HeightRule](https://reference.aspose.com/words/java/com.aspose.words/row/format#HeightRule)
 
-وفي الوقت نفسه، يمكن تحديد ارتفاع مختلف لكل صف، وهذا يتيح لك التحكم على نطاق واسع في الجداول.
+في الوقت نفسه، يمكن تعيين ارتفاع مختلف لكل صف – وهذا يسمح لك بالتحكم على نطاق واسع في إعدادات الجدول.
 
 {{% alert color="primary" %}}
 
-يمكن تحديد خيارات القواعد لتحديد طول الجسم باستخدام [HeightRule](https://reference.aspose.com/words/java/com.aspose.words/heightrule/) الحقول
+يمكن تعيين خيارات القاعدة لتحديد ارتفاع كائن باستخدام [HeightRule](https://reference.aspose.com/words/java/com.aspose.words/heightrule/) الحقول.
 
 {{% /alert %}}
 
-The following code example shows how to create a table that contains a single cell and apply row formatting:
+يوضح مثال التعليمات البرمجية التالية كيفية إنشاء جدول يحتوي على خلية واحدة وتطبيق تنسيق الصف:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "apply-row-formatting.java" >}}
 
-## يرجى تحديد الجدول والزوجات
+## حدد عرض الجدول والخلية
 
-طاولة في Microsoft Word وتوفر الوثيقة عدة طرق مختلفة لإلغاء الجدول والزنزانات الفردية. هذه الخواص تسمح بتحكم كبير في مظهر و سلوك الطاولة Aspose.Words دعم سلوك الطاولات، كما في Microsoft Word.
+يوفر الجدول في مستند Microsoft Word عدة طرق مختلفة لتغيير حجم الجدول والخلايا الفردية. تسمح هذه الخصائص بتحكم كبير في مظهر وسلوك الجدول، بحيث يدعم Aspose.Words سلوك الجداول، كما في Microsoft Word.
 
-It is important to know that table elements present several different properties that can affect how the widths of the overall table, as well as individual cells, is calculated:
+من المهم معرفة أن عناصر الجدول تقدم العديد من الخصائص المختلفة التي يمكن أن تؤثر على كيفية حساب عرض الجدول الكلي، وكذلك الخلايا الفردية:
 
--الاستعراض المفضّل على الطاولة
-- الاستعارة المفضّلة على الخلايا الفردية
-- السماح بالتشغيل الآلي على الطاولة
+- العرض المفضل على الطاولة
+- العرض المفضل على الخلايا الفردية
+- السماح بالاحتواء التلقائي على الطاولة
 
-وتفاصيل هذه المادة عن كيفية عمل مختلف خصائص حساب الجدول وطريقة السيطرة الكاملة على حساب الأسلاك هذا
-ومن المفيد بصفة خاصة معرفة الحالات التي لا يظهر فيها مخطط الجدول كما هو متوقع.
+توضح هذه المقالة كيفية عمل خصائص حساب عرض الجدول المختلفة وكيفية التحكم الكامل في حساب عرض الجدول. هذا هو
+مفيدة بشكل خاص لمعرفة في مثل هذه الحالات حيث لا يظهر تخطيط الجدول كما هو متوقع.
 
 {{% alert color="primary" %}}
 
-In most cases, the preferred cell is recommended than the table width. The preferred cell width is more in line with the DOCX format specification as well as the Aspose.Words نموذج
+في معظم الحالات، يوصى بالخلية المفضلة من عرض الجدول. يكون عرض الخلية المفضل أكثر انسجاما مع مواصفات تنسيق DOCX بالإضافة إلى نموذج Aspose.Words.
 
-في الواقع، إنّ الاستعارة الخلوية قيمة مُحتسبة لشكل (دي سي إكس). إستعراض الخلايا الفعلي يمكن أن يعتمد على العديد من الأشياء فعلى سبيل المثال، يمكن أن يؤثر تغيير هوامش الصفحات أو عرض الطاولة المفضل على عرض الخلايا الفعلي.
+عرض الخلية هو في الواقع قيمة محسوبة لتنسيق DOCX. يمكن أن يعتمد عرض الخلية الفعلي على أشياء كثيرة. على سبيل المثال، يمكن أن يؤثر تغيير هوامش الصفحة أو عرض الجدول المفضل على عرض الخلية الفعلي.
 
-The preferred cell width is a cell property that is stored in the document. لا يعتمد على أي شيء ولا يتغير عندما تغير الطاولة أو غيرها من خصائص الخلية
+عرض الخلية المفضل هو خاصية خلية يتم تخزينها في المستند. لا يعتمد على أي شيء ولا يتغير عند تغيير الجدول أو الخصائص الأخرى للخلية.
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-تتصل جميع الممتلكات والأساليب المبينة في هذه المادة بكيفية عمل الجداول Microsoft Word. لذا في معظم الحالات، إذا كنت تقوم ببناء جدولك برنامجياً لكن تجد صعوبة في إنشاء الطاولة المرغوبة، Microsoft Word أولا وبعد ذلك ببساطة نسخ القيم الشكلية في تطبيقك.
+ترتبط جميع الخصائص والأساليب الموضحة في هذه المقالة بكيفية عمل الجداول في Microsoft Word. حتى في معظم الحالات، إذا كنت بناء الجدول الخاص بك برمجيا ولكن تجد صعوبة في إنشاء الجدول المطلوب، يمكنك بدلا من ذلك محاولة بصريا إنشائه في Microsoft Word أولا ثم ببساطة نسخ قيم التنسيق في التطبيق الخاص بك.
 
 {{% /alert %}}
 
-### How to Use Preferred Width
+### كيفية استخدام العرض المفضل
 
-وتُعرَّف المستعارة المرغوبة لطاولة أو خلايا فردية من خلال الممتلكات المستعارة المفضلة، وهي الحجم الذي يسعى عنصر إلى تحقيق صلاحيته. أي أن الباروكات المفضلة يمكن تحديدها على الطاولة بأكملها أو على كل خلايا. In some situations it may not be possible to fit this width exactly, but the actual width will be close to this value in most cases.
+يتم تعريف العرض المطلوب لجدول أو خلايا فردية من خلال خاصية العرض المفضلة، وهو الحجم الذي يسعى العنصر إلى ملاءمته. بمعنى، يمكن تحديد العرض المفضل للجدول بأكمله أو للخلايا الفردية. في بعض الحالات، قد لا يكون من الممكن ملاءمة هذا العرض تماما، ولكن العرض الفعلي سيكون قريبا من هذه القيمة في معظم الحالات.
 
-يُحدَّد النوع المفضَّل والقيمة المفضَّلين المناسبين باستخدام أساليب [PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/) الفصل:
+يتم تعيين نوع العرض المفضل المناسب والقيمة باستخدام أساليب فئة [PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/):
 
-- [Auto](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#AUTO) حقل لتحديد " الأسلاك غير المفضلة "
-- [FromPercent](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#fromPercent-double) طريقة تحديد النسبة المئوية للمستعارة
-- [FromPoints](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#fromPoints-double) طريقة تحديد استخدامات النقاط
+- الحقل [Auto](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#AUTO) لتحديد تلقائي أو "لا يوجد عرض مفضل"
+- طريقة [FromPercent](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#fromPercent-double) لتحديد عرض النسبة المئوية
+- طريقة [FromPoints](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#fromPoints-double) لتحديد العرض بالنقاط
 
-وتظهر الصور الواردة أدناه تمثيلاً لـ " ملامح العرض المستعار "* Microsoft Word وما يقابلها من ممتلكات Aspose.Words.
+تظهر الصور أدناه تمثيلا لـ *preferred width setting features* في Microsoft Word وخصائصها المقابلة في Aspose.Words.
 
 ![formatting-table-properties-aspose-words-java](/words/java/applying-formatting/applying-formatting-8.png)
 
-ويمكن الاطلاع على مثال على كيفية تطبيق هذه الخيارات على جدول حقيقي في الوثيقة في الصورة أدناه.
+يمكن رؤية مثال على كيفية تطبيق هذه الخيارات على جدول حقيقي في مستند في الصورة أدناه.
 
 ![table-applied-options-java](/words/java/applying-formatting/applying-formatting-9.png)
 
 {{% alert color="primary" %}}
 
-قبل أن تستخدمي البارود المفضّل في طاولة يجب أن تتأكدي أن الطاولة تحتوي على صف واحد على الأقل وهذا هو السبب في أن هذه الجداول ترسم في شكل Microsoft Word أو في وثيقة أنشئت في Aspose.Words مخزنة في طابور الطاولة
+قبل أن تتمكن من استخدام العرض المفضل في جدول، يجب عليك التأكد من أن الجدول يحتوي على صف واحد على الأقل. وذلك لأن تنسيق الجدول هذا في مستند Microsoft Word أو في مستند تم إنشاؤه في Aspose.Words يتم تخزينه في صفوف الجدول.
 
 {{% /alert %}}
 
-#### يحدد الجدول المؤجل أو الأرملة
+#### حدد الجدول المفضل أو عرض الخلية
 
-In Aspose.Words, طاولات وزوابق خلوية مجهزة باستخدام [Table.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/table/#getPreferredWidth) الممتلكات والممتلكات [CellFormat.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getPreferredWidth) الممتلكات، مع توافر الخيارات في [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/) العد:
+في Aspose.Words، يتم تعيين عرض الجدول والخلية باستخدام خاصية [Table.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/table/#getPreferredWidth) وخاصية [CellFormat.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getPreferredWidth)، مع توفر الخيارات في تعداد [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/):
 
-- **Auto**, وهو ما يعادل عدم وجود مجموعة فضفاضة
-- **Percent**, التي تناسب العنصر المتعلق بالحيز المتاح في النوافذ أو حجم الحاويات، وتعيد حساب القيمة عندما تتغير الباروكات المتاحة
-- **Points**, التي تتطابق مع عنصر من عناصر الاستعارة المحددة في النقاط
+- **Auto**، وهو ما يعادل عدم وجود مجموعة عرض مفضلة
+- **Percent**، الذي يناسب العنصر بالنسبة للمساحة المتاحة في النافذة أو حجم الحاوية، ويعيد حساب القيمة عندما يتغير العرض المتاح
+- **Points**، والذي يتوافق مع عنصر العرض المحدد بالنقاط
 
 {{% alert color="primary" %}}
 
-وفي حالة التقصير، يمكن وصف الجدول بأنه مجهز بنسبة 100 في المائة من المساحة المتاحة في الصفحة. وفي هذه الحالة، يعني هذا أن الجدول سيحاول أن يأخذ المساحة بين هامش الصفحات اليسرى واليمين.
+بشكل افتراضي، يمكن وصف الجدول بأنه يتم تركيبه على 100 ٪ من المساحة المتوفرة على الصفحة. في هذه الحالة، هذا يعني أن الجدول سيحاول شغل المسافة بين هوامش الصفحة اليمنى واليسرى.
 
 {{% /alert %}}
 
-استخدام [Table.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/table/#getPreferredWidth) وسوف تُعدِّل الممتلكات عرضها المفضَّل فيما يتعلق بحاويتها: صفحة، عمود نصي، أو خلية طاولة خارجية إذا كانت طاولة محجوزة.
+سيؤدي استخدام الخاصية [Table.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/table/#getPreferredWidth) إلى ضبط العرض المفضل بالنسبة للحاوية الخاصة به: الصفحة أو عمود النص أو خلية الجدول الخارجي إذا كان جدولا متداخلا.
 
-The following code example shows how to set the table to auto-fit to 50% of the page width:
+يوضح مثال التعليمات البرمجية التالية كيفية تعيين الجدول إلى الملاءمة التلقائية إلى 50 ٪ من عرض الصفحة:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "auto-fit-page-width.java" >}}
 
-استخدام [CellFormat.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getPreferredWidth) الممتلكات في زنزانة معينة سوف تعدل أسلوبها المفضل
+سيؤدي استخدام خاصية [CellFormat.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getPreferredWidth) في خلية معينة إلى ضبط عرضها المفضل.
 
-The following code example shows how to set the different preferred width settings:
+يوضح مثال الكود التالي كيفية تعيين إعدادات العرض المفضلة المختلفة:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "preferred-width-settings.java" >}}
 
-#### ابحثوا عن نوع الأرملة المفضّلة وقيمتها
+#### البحث عن نوع العرض المفضل والقيمة
 
-يمكنك استخدام [Type](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#getType) و [Value](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#getValue) (ب) الممتلكات التي يمكن أن تُعثر على التفاصيل المفضلة للمنضدة أو الخلية المرغوبة.
+يمكنك استخدام الخصائص [Type](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#getType) و [Value](https://reference.aspose.com/words/java/com.aspose.words/preferredwidth/#getValue) للعثور على تفاصيل العرض المفضلة للجدول أو الخلية المطلوبة.
 
-ويبيّن المثال الرمزي التالي كيفية استرجاع نوع الاستعارة المفضل من خلية طاولة:
+يوضح مثال التعليمات البرمجية التالية كيفية استرداد نوع العرض المفضل لخلية جدول:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "retrieve-preferred-width-type.java" >}}
 
-### How to Set Autofit
+### كيفية ضبط الاحتواء التلقائي
 
-The [AllowAutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowAutoFit) فالملكية تتيح للزنزانات في طاولة النمو والتقلص وفقاً لمعيار مختار. على سبيل المثال، يمكنك استخدام **AutoFit to Window** خيار تأقلم الطاولة مع عرض الصفحة **AutoFit to Content** خيار السماح لكل خلية بأن تنمو أو تتقلص وفقاً لمحتواها.
+تسمح خاصية [AllowAutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowAutoFit) للخلايا الموجودة في الجدول بالنمو والانكماش وفقا لمعيار محدد. على سبيل المثال، يمكنك استخدام خيار **AutoFit to Window** لملاءمة الجدول مع عرض الصفحة، وخيار **AutoFit to Content** للسماح لكل خلية بالنمو أو الانكماش وفقا لمحتواها.
 
 {{% alert color="primary" %}}
 
-Additionally, the **AllowAutoFit** ويمكن استخدام الممتلكات بالاقتران مع عرض خليوي مفضّل لتشكيل خلية تناسب محتواها تلقائياً، ولكن لها أيضاً استعارة أولية. إذا كان ذلك ضرورياً، فإنّ إستعراض الزنزانة يمكن أن ينمو من خلال هذا البارود.
+بالإضافة إلى ذلك، يمكن استخدام الخاصية **AllowAutoFit** بالاقتران مع عرض خلية مفضل لتنسيق خلية تناسب محتواها تلقائيا، ولكن لها أيضا عرض أولي. إذا لزم الأمر، يمكن أن ينمو عرض الخلية بعد هذا العرض.
 
 {{% /alert %}}
 
-بالخطأ Aspose.Words تدرج طاولة جديدة باستخدام **AutoFit to Window**. سيتم توزيع الجدول وفقاً لاستعراض الصفحات المتاح لإستعادة طاولة يمكنك الاتصال [AutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#autoFit-int) طريقة هذه الطريقة تقبل [AutoFitBehavior](https://reference.aspose.com/words/java/com.aspose.words/autofitbehavior/) يُعدّدُ الذي يُحدّدُ أيّ نوع من التلقّي يُطبّق على الجدول.
+افتراضيا، Aspose.Words إدراج جدول جديد باستخدام **AutoFit to Window**. سيتم تحديد حجم الجدول وفقا لعرض الصفحة المتاح. لتغيير حجم جدول، يمكنك استدعاء طريقة [AutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#autoFit-int). تقبل هذه الطريقة تعداد [AutoFitBehavior](https://reference.aspose.com/words/java/com.aspose.words/autofitbehavior/) الذي يحدد نوع الاحتواء التلقائي المطبق على الجدول.
 
-It is important to know that the autofit method is actually a shortcut that applies different properties to the table at the same time. هذه خصائص تعطي الطاولة السلوك الملاحظ سنناقش هذه الممتلكات لكل خيار آلي
+من المهم معرفة أن طريقة الاحتواء التلقائي هي في الواقع اختصار يطبق خصائص مختلفة على الجدول في نفس الوقت. هذه هي الخصائص التي تعطي الجدول في الواقع السلوك المرصود. سنناقش هذه الخصائص لكل خيار احتواء تلقائي.
 
-ويبين المثال الرمزي التالي كيفية وضع جدول لتقلص أو نمو كل خلية وفقا لمحتوياتها:
+يوضح مثال الكود التالي كيفية تعيين جدول لتقليص أو نمو كل خلية وفقا لمحتوياتها:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "allow-auto-fit.java" >}}
 
-سوف نستخدم الطاولة التالية لنطبق مختلف مواقع السيارات كعرض
+سوف نستخدم الجدول التالي لتطبيق مختلف إعدادات تناسب السيارات كما مظاهرة.
 
 <img src="/words/java/applying-formatting/how-to-apply-different-autofit-settings-to-a-table-1.png" alt="apply-different-autofit-settings-to-a-table-aspose-words-java" style="width:500px"/>
 
-#### AutoFit Table to Window
+#### AutoFit الجدول إلى النافذة
 
-وعندما يُطبَّق التلقّي على النافذة، تُنفَّذ العمليات التالية في الواقع خلف المشاهد:
+عند تطبيق التهيئة التلقائية على نافذة على جدول، يتم تنفيذ العمليات التالية فعليا خلف الكواليس:
 
-1 The **Table.AllowAutoFit** تُمكَّن الممتلكات من إعادة إحياء الأعمدة آلياً لتناسب المحتوى المتاح، باستخدام **Table.PreferredWidth** قيمة 100 في المائة
-2. **CellFormat.PreferredWidth** أزيلت من جميع خلايا المائدة
-      {{% alert color="primary" %}}
-   Note that this is slightly different from the Microsoft Word السلوك، حيث يُفضّلُ كلّ خلية إستعراض مُحدّد إلى القيمِ المناسبةِ استناداً إلى حجمِها الحالي ومضمونها. Aspose.Words لا يستكمل العرض المفضّل حتى يتم تبرئته
-      {{% /alert %}}
-3 ويعاد حساب المستعارات العمودية للمحتوى الحالي من الجدول - النتيجة النهائية هي جدول يحتل كامل الاستعارة المتاحة
-4 يتغيّر عرض الأعمدة في الجدول تلقائياً نظراً لأن المستخدم يحرر النص
+1. يتم تمكين الخاصية **Table.AllowAutoFit** لتغيير حجم الأعمدة تلقائيا لتناسب المحتوى المتاح، باستخدام قيمة **Table.PreferredWidth** 100%
+2. تتم إزالة **CellFormat.PreferredWidth** من جميع خلايا الجدول
+   {{% alert color="primary" %}}
+   لاحظ أن هذا يختلف قليلا عن سلوك Microsoft Word، حيث يتم تعيين العرض المفضل لكل خلية على القيم المناسبة بناء على حجمها ومحتواها الحاليين. Aspose.Words لا يقوم بتحديث العرض المفضل حتى يتم مسحه بدلا من ذلك.
+   {{% /alert %}}
+3. يتم إعادة حساب عرض الأعمدة لمحتوى الجدول الحالي-والنتيجة النهائية هي جدول يشغل العرض المتاح بالكامل
+4. يتغير عرض الأعمدة في الجدول تلقائيا حيث يقوم المستخدم بتحرير النص
 
-The following code example shows how to autofit a table to the page width:
+يوضح مثال التعليمات البرمجية التالية كيفية احتواء جدول تلقائيا على عرض الصفحة:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "auto-fit-table-to-page-width.java" >}}
 
-ويمكن الاطلاع على مثال على كيفية تطبيق هذه الخيارات على الجدول أعلاه في الصورة الواردة أدناه.
+يمكن رؤية مثال على كيفية تطبيق هذه الخيارات على الجدول أعلاه في الصورة أدناه.
 
 <img src="/words/java/applying-formatting/how-to-apply-different-autofit-settings-to-a-table-2.png" alt="autofit-table-aspose-words-java" style="width:500px"/>
 
-#### AutoFit Table to Content
+#### AutoFit الجدول إلى المحتوى
 
-وعندما يوضع الجدول آلياً للمحتوى، تُتخذ الخطوات التالية فعلاً خلف المشاهد:
+عندما يتم تجهيز الجدول تلقائيا بالمحتوى، يتم تنفيذ الخطوات التالية فعليا خلف الكواليس:
 
-1 The **Table.AllowAutoFit** تُمكّن الممتلكات من إعادة إحياء كل خلية تلقائيا وفقا لمحتواها
+1. يتم تمكين الخاصية **Table.AllowAutoFit** لتغيير حجم كل خلية تلقائيا وفقا لمحتواها
 
-2. مسحة الطاولة المفضلة تم إزالتها **Table.PreferredWidth**, **CellFormat.PreferredWidth** تُزال لكل خلية من الطاولات
-      {{% alert color="primary" %}}
+2. تتم إزالة عرض الجدول المفضل من **Table.PreferredWidth**، تتم إزالة **CellFormat.PreferredWidth** لكل خلية جدول
+   {{% alert color="primary" %}}
 
-   ملاحظة أن هذا الخيار الآلي يزيل الشعر المستعار المفضل من الخلايا، كما هو الحال في Microsoft Word. إذا كنت تريد الاحتفاظ بحجم العمود وزيادة أو تخفيض الأعمدة لتناسب المحتوى، يجب أن تحدد **Table.AllowAutoFit** الممتلكات إلى **True** من تلقاء نفسها بدلاً من استخدام الطريق المختصر{{% /alert %}}
+   لاحظ أن خيار الاحتواء التلقائي هذا يزيل العرض المفضل من الخلايا، تماما كما هو الحال في Microsoft Word. إذا كنت تريد الاحتفاظ بأحجام الأعمدة وزيادة الأعمدة أو تقليلها لتناسب المحتوى، فيجب عليك تعيين الخاصية **Table.AllowAutoFit** إلى **True** بمفردها بدلا من استخدام اختصار الاحتواء التلقائي.{{% /alert %}}
 
-3 ويعاد حساب المستعارات العمودية لمحتوى الجدول الحالي - والنتيجة النهائية هي الجدول الذي يعاد فيه بصورة تلقائية تصنيف المستعارات العمودية واستعراض الجدول بأكمله بحيث يلائم المحتوى على أفضل وجه مع قيام المستخدم بتعديل النص
+3. يتم إعادة حساب عرض الأعمدة لمحتوى الجدول الحالي-والنتيجة النهائية هي جدول حيث يتم تغيير حجم عرض الأعمدة وعرض الجدول بأكمله تلقائيا لتناسب المحتوى بشكل أفضل حيث يقوم المستخدم بتحرير النص
 
-The following code example shows how to autofit a table to its content:
+يوضح مثال الكود التالي كيفية ضبط جدول تلقائيا على محتواه:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "auto-fit-table-to-contents.java" >}}
 
-ويمكن الاطلاع على مثال على كيفية تطبيق هذه الخيارات على الجدول أعلاه في الصورة الواردة أدناه.
+يمكن رؤية مثال على كيفية تطبيق هذه الخيارات على الجدول أعلاه في الصورة أدناه.
 
 <img src="/words/java/applying-formatting/how-to-apply-different-autofit-settings-to-a-table-3.png" alt="resize-column-autofit-settings-aspose-words-java" style="width:500px"/>
 
-#### Disable AutoFit in Table and Use Fixed Column Widths
+#### تعطيل AutoFit في الجدول واستخدام عرض الأعمدة الثابتة
 
-وإذا كان الجدول معوقاً آلياً، وبدلاً من ذلك، تُتخذ الخطوات التالية:
+إذا كان الجدول يحتوي على تعطيل تلقائي ويتم استخدام عرض الأعمدة الثابتة بدلا من ذلك، يتم تنفيذ الخطوات التالية:
 
-1 **Table.AllowAutoFit** الممتلكات معوقة بحيث لا تنمو الأعمدة أو تتقلص إلى محتواها
-2. تم سحب العرض المفضّل للطاولة بأكملها **Table.PreferredWidth**, **CellFormat.PreferredWidth** أزيلت من جميع خلايا المائدة
-3 النتيجة النهائية هي الجدول الذي تحدد أسلاكه [CellFormat.Width](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getWidth) الممتلكات التي لا تعاد صياغتها تلقائيا عندما يدخل المستخدم نصها أو عندما يعاد ترقيم الصفحة
+1. **Table.AllowAutoFit** تم تعطيل الخاصية بحيث لا تنمو الأعمدة أو تتقلص إلى محتواها
+2. تتم إزالة العرض المفضل للجدول بأكمله من **Table.PreferredWidth**، تتم إزالة **CellFormat.PreferredWidth** من جميع خلايا الجدول
+3. والنتيجة النهائية هي جدول يتم تحديد عرض عموده بواسطة الخاصية [CellFormat.Width](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getWidth)، ولا يتم تغيير حجم أعمدته تلقائيا عندما يقوم المستخدم بإدخال نص أو عند تغيير حجم الصفحة
 
 {{% alert color="primary" %}}
 
-Note that if no width is specified for **CellFormat.Width**, وتستخدم القيمة الافتراضية لبوصة واحدة (72 نقطة).
+لاحظ أنه إذا لم يتم تحديد عرض لـ **CellFormat.Width**، فسيتم استخدام القيمة الافتراضية لبوصة واحدة (72 نقطة).
 
 {{% /alert %}}
 
-ويبيّن المثال الرمزي التالي كيفية تعطيل أوتوماتيكيته وتمكينه من الحصول على عرض ثابت للجدول المحدد:
+يوضح مثال الكود التالي كيفية تعطيل الاحتواء التلقائي وتمكين العرض الثابت للجدول المحدد:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "auto-fit-table-to-fixed-column-widths.java" >}}
 
-ويمكن الاطلاع على مثال على كيفية تطبيق هذه الخيارات على الجدول أعلاه في الصورة الواردة أدناه.
+يمكن رؤية مثال على كيفية تطبيق هذه الخيارات على الجدول أعلاه في الصورة أدناه.
 
 <img src="/words/java/applying-formatting/how-to-apply-different-autofit-settings-to-a-table-4.png" alt="disable-autofit-settings-to-a-table-aspose-words-java" style="width:500px"/>
 
-### ترتيب الأسبقية عند حساب الخلية
+### ترتيب الأسبقية عند حساب عرض الخلية
 
-Aspose.Words السماح للمستعملين بتعريف استخدام طاولة أو خلية عبر أجسام متعددة، بما في ذلك [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) - [Width](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getWidth) غير أن معظم الممتلكات تُترك من نسخ سابقة، إلا أنه لا يزال من المفيد تبسيط وضع الباروكات الخلوية.
+Aspose.Words يسمح للمستخدمين بتحديد عرض جدول أو خلية من خلال كائنات متعددة، بما في ذلك [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) – يتم ترك خاصية [Width](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getWidth) الخاصة بها في الغالب من الإصدارات السابقة، ومع ذلك، فإنها لا تزال مفيدة لتبسيط إعداد عرض الخلية.
 
-من المهم معرفة أن **CellFormat.Width** وتختلف أعمال الملكية تبعاً لممتلكات المستعارات الأخرى الموجودة بالفعل في الجدول.
+من المهم معرفة أن الخاصية **CellFormat.Width** تعمل بشكل مختلف اعتمادا على خصائص العرض الأخرى الموجودة بالفعل في الجدول.
 
-Aspose.Words يستعمل الترتيب التالي لحساب أسلاك الخلايا:
+Aspose.Words يستخدم الترتيب التالي لحساب عرض الخلية:
 
-|  الأمر |  الممتلكات |  الوصف |
-|  -----  |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  1      |  [AllowAutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowAutoFit) تحدد |  إذا **AutoFit** مكنت من:<br/>- قد ينمو الجدول بعد العرض المفضّل لاستيعاب المحتوى - وهو عادة لا ينكمش تحت العرض المفضل<br/>- أي تغيير إلى **CellFormat.Width** يتم تجاهل القيمة وستلائم الخلية محتوياتها بدلا من ذلك |
-|  2      |  [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/) ذات قيمة **Points** أو **Percent** |  **CellFormat.Width** تم تجاهله |
-|  3      |  [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/) ذات قيمة **Auto** |  القيمة من **CellFormat.Width** يتم نسخه ويصبح البارود المفضل للخلية |
+| النظام | الممتلكات | الوصف |
+| ----- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+|  | [AllowAutoFit](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowAutoFit) يتم تحديد | إذا تم تمكين **AutoFit**:<br>- قد ينمو الجدول بعد العرض المفضل لاستيعاب المحتوى-عادة لا يتقلص أقل من العرض المفضل<br>- يتم تجاهل أي تغيير في قيمة **CellFormat.Width** وسوف تتناسب الخلية مع محتوياتها بدلا من ذلك |
+|  | [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/) بقيمة **Points** أو **Percent** | **CellFormat.Width** يتم تجاهلها |
+|  | [PreferredWidthType](https://reference.aspose.com/words/java/com.aspose.words/preferredwidthtype/) بقيمة **Auto** | يتم نسخ القيمة من **CellFormat.Width** وتصبح العرض المفضل للخلية (بالنقاط) |
 
 {{% alert color="primary" %}}
 
-ولا تُحدَّث أي تغييرات في ممتلكات المستعارات في المستعارات المفضلة، بل يجب أن تُطبَّق بدلاً من ذلك على الأسلاك المفضلة.
+لا يتم تحديث أي تغييرات على خاصية العرض في العرض المفضل ويجب بدلا من ذلك تطبيقها على العرض المفضل بدلا من ذلك.
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-وفي الوقت الذي يُنشئ فيه مخططاً محدداً للمائدة، يُحدّد عرض الخلايا. لا يمكن إنقاذ زنزانة بدون شعر مستعار في شكل دو سي وتسمح صيغ الوثائق الأخرى غير الوثيقة DOC، مثل DOCX، من حيث المبدأ، بإنقاذ الخلايا دون استخدام البارود في مخطط جدول ثابت.
+أثناء إنشاء تخطيط جدول ثابت، حدد عرض الخلية. لا يمكن حفظ خلية بدون عرض بتنسيق DOC. تسمح تنسيقات المستندات بخلاف DOC، مثل DOCX، من حيث المبدأ، بحفظ الخلايا بدون عرض في تخطيط جدول ثابت.
 
 {{% /alert %}}
 
-## السماح بالمباعدة بين الخلايا
+## السماح بالتباعد بين الخلايا
 
-يمكنك الحصول على أو تحديد أي مساحة إضافية بين خلايا طاولة مشابهة لخيار "المباعدة" في Microsoft Word. يمكن القيام بذلك باستخدام [AllowCellSpacing](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowCellSpacing) ملكية
+يمكنك الحصول على أو تعيين أي مساحة إضافية بين خلايا الجدول مماثلة لخيار "تباعد الخلايا" في Microsoft Word. يمكن القيام بذلك باستخدام خاصية [AllowCellSpacing](https://reference.aspose.com/words/java/com.aspose.words/table/#getAllowCellSpacing).
 
-ويمكن الاطلاع على مثال على كيفية تطبيق هذه الخيارات على جدول حقيقي في الوثيقة في الصورة أدناه.
+يمكن رؤية مثال على كيفية تطبيق هذه الخيارات على جدول حقيقي في مستند في الصورة أدناه.
 
 <img src="/words/java/applying-formatting/applying-formatting-10.png" alt="formatting-spacing-between-cells-aspose-words-java" style="width:500px"/>
 
-The following code example shows how to set the spacing between cells:
+يوضح مثال التعليمات البرمجية التالية كيفية تعيين التباعد بين الخلايا:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "allow-cell-spacing.java" >}}
 
-## الحدود التطبيقية والتشريد
+## تطبيق الحدود والتظليل
 
-يمكن تطبيق الحدود والظل على الطاولة بأكملها باستخدام [Table.SetBorder](https://reference.aspose.com/words/java/com.aspose.words/table/#setBorder-int-int-double-java.awt.Color-boolean), [Table.SetBorders](https://reference.aspose.com/words/java/com.aspose.words/table/#setBorders-int-double-java.awt.Color) و [Table.SetShading](https://reference.aspose.com/words/java/com.aspose.words/table/#setShading-int-java.awt.Color-java.awt.Color), أو فقط إلى خلايا محددة تستخدم [CellFormat.Borders](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getBorders) و [CellFormat.Shading](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getShading). وبالإضافة إلى ذلك، يمكن تحديد حدود الصف باستخدام [RowFormat.Borders](https://reference.aspose.com/words/java/com.aspose.words/rowformat/#getBorders), غير أنه لا يمكن تطبيق الظل بهذه الطريقة.
+يمكن تطبيق الحدود والتظليل إما على الجدول بأكمله باستخدام [Table.SetBorder](https://reference.aspose.com/words/java/com.aspose.words/table/#setBorder-int-int-double-java.awt.Color-boolean) و [Table.SetBorders](https://reference.aspose.com/words/java/com.aspose.words/table/#setBorders-int-double-java.awt.Color) و [Table.SetShading](https://reference.aspose.com/words/java/com.aspose.words/table/#setShading-int-java.awt.Color-java.awt.Color)، أو فقط على خلايا محددة باستخدام [CellFormat.Borders](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getBorders) و [CellFormat.Shading](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getShading). بالإضافة إلى ذلك، يمكن تعيين حدود الصف باستخدام [RowFormat.Borders](https://reference.aspose.com/words/java/com.aspose.words/rowformat/#getBorders)، ولكن لا يمكن تطبيق التظليل بهذه الطريقة.
 
-الصور الواردة أدناه تظهر الحدود والظل Microsoft Word وما يقابلها من ممتلكات Aspose.Words.
+تظهر الصور أدناه إعدادات الحدود والظل في Microsoft Word وخصائصها المقابلة في Aspose.Words.
 
 ![apply-borders-shading-aspose-words-java-1](/words/java/applying-formatting/applying-formatting-to-table-row-and-cell-6.png)
 
@@ -331,6 +331,6 @@ The following code example shows how to set the spacing between cells:
 ![apply-borders-shading-aspose-words-java-2](/words/java/applying-formatting/applying-formatting-to-table-row-and-cell-7.png)
 
 
-ويبين المثال الرمزي التالي كيفية تشكيل طاولة وخلية ذات حدود وظلالات مختلفة:
+يوضح مثال الكود التالي كيفية تنسيق جدول وخلية بحدود وظلال مختلفة:
 
 {{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "format-table-and-cell-with-different-borders.java" >}}

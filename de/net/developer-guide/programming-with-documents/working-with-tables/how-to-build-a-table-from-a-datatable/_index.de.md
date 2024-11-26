@@ -1,8 +1,8 @@
 ---
-title: So erstellen Sie eine Tabelle aus einem `DataTable` in C#
+title: So erstellen Sie eine Tabelle aus einem DataTable in C#
 second_title: Aspose.Words für .NET
-articleTitle: Erstellen Sie eine Tabelle aus einem `DataTable`
-linktitle: Erstellen Sie eine Tabelle aus einem `DataTable`
+articleTitle: Erstellen Sie eine Tabelle aus einem DataTable
+linktitle: Erstellen Sie eine Tabelle aus einem DataTable
 description: "Beispiel für das Füllen einer Dokumenttabelle aus einer externen Datenbank mit C#."
 type: docs
 weight: 120
