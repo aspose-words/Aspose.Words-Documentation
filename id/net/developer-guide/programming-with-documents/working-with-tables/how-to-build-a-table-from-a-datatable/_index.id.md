@@ -1,8 +1,8 @@
 ---
-title: Cara Membuat Tabel dari `DataTable` di C#
+title: Cara Membuat Tabel dari DataTable di C#
 second_title: Aspose.Words untuk .NET
-articleTitle: Buat Tabel dari `DataTable`
-linktitle: Buat Tabel dari `DataTable`
+articleTitle: Buat Tabel dari DataTable
+linktitle: Buat Tabel dari DataTable
 description: "Contoh pengisian tabel dokumen dari database eksternal menggunakan C#."
 type: docs
 weight: 120

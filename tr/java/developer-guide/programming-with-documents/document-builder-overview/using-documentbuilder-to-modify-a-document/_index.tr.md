@@ -1,8 +1,8 @@
 ---
-title: Bir Dokümanı Değiştirmek için `DocumentBuilder`'u Kullanmak
+title: Bir Dokümanı Değiştirmek için DocumentBuilder'u Kullanmak
 second_title: Aspose.Words için Java
-articleTitle: Bir Dokümanı Değiştirmek için `DocumentBuilder`'u Kullanmak
-linktitle: Bir Dokümanı Değiştirmek için `DocumentBuilder`'u Kullanmak
+articleTitle: Bir Dokümanı Değiştirmek için DocumentBuilder'u Kullanmak
+linktitle: Bir Dokümanı Değiştirmek için DocumentBuilder'u Kullanmak
 type: docs
 description: "Bir belgeyi kolayca değiştirmek için belge oluşturucu kullanın Java."
 weight: 20

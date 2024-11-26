@@ -1,8 +1,8 @@
 ---
-title: Робота з документом `SharePoint` Інтернет
+title: Робота з документом SharePoint Інтернет
 second_title: Aspose.Words для .NET
-articleTitle: Робота з документом `SharePoint` Інтернет
-linktitle: Робота з документом `SharePoint` Інтернет
+articleTitle: Робота з документом SharePoint Інтернет
+linktitle: Робота з документом SharePoint Інтернет
 description: "Перетворення Word спільного в SharePoint до PDF C#й Робота з документами, що зберігаються в SharePoint – різні формати введення, включаючи Word, OpenOffice, Image та eBook."
 type: docs
 weight: 20

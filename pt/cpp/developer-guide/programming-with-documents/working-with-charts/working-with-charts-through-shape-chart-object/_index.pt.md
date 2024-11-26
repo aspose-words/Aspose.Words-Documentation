@@ -1,8 +1,8 @@
 ---
-title: Trabalhando com gráficos através do objeto `Shape.Chart`
+title: Trabalhando com gráficos através do objeto Shape.Chart
 second_title: Aspose.Words para C++
-articleTitle: Trabalhando com gráficos através do objeto `Shape.Chart`
-linktitle: Trabalhando com gráficos através do objeto `Shape.Chart`
+articleTitle: Trabalhando com gráficos através do objeto Shape.Chart
+linktitle: Trabalhando com gráficos através do objeto Shape.Chart
 description: "Gráficos em detalhes, como gráfico ligado com nó de forma em Aspose.Words para C++."
 type: docs
 weight: 10

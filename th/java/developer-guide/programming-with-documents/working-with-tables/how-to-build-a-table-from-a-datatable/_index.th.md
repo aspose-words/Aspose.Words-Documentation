@@ -1,8 +1,8 @@
 ﻿---
-title: วิธีการสร้างตารางจาก`DataTable`ในJava
+title: วิธีการสร้างตารางจากDataTableในJava
 second_title: Aspose.WordsสำหรับJava
-articleTitle: สร้างตารางจาก`DataTable`
-linktitle: สร้างตารางจาก`DataTable`
+articleTitle: สร้างตารางจากDataTable
+linktitle: สร้างตารางจากDataTable
 description: "ตัวอย่างการกรอกตารางเอกสารจากฐานข้อมูลภายนอกโดยใช้Java."
 type: docs
 weight: 130

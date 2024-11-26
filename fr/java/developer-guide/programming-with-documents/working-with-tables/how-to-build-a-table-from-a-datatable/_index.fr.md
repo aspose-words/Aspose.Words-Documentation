@@ -1,8 +1,8 @@
 ﻿---
-title: Comment construire une table à partir d'un `DataTable` dans Java
+title: Comment construire une table à partir d'un DataTable dans Java
 second_title: Aspose.Words pour Java
-articleTitle: Construire une table à partir d'un `DataTable`
-linktitle: Construire une table à partir d'un `DataTable`
+articleTitle: Construire une table à partir d'un DataTable
+linktitle: Construire une table à partir d'un DataTable
 description: "Exemple de remplissage d'un tableau de documents à partir d'une base de données externe à l'aide de Java."
 type: docs
 weight: 130

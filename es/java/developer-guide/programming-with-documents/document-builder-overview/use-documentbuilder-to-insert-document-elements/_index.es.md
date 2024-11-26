@@ -1,8 +1,8 @@
 ﻿---
-title: Utilice `DocumentBuilder` para Insertar Elementos de Documento
+title: Utilice DocumentBuilder para Insertar Elementos de Documento
 second_title: Aspose.Words por Java
-articleTitle: Utilice `DocumentBuilder` para Insertar Elementos de Documento
-linktitle: Utilice `DocumentBuilder` para Insertar Elementos de Documento
+articleTitle: Utilice DocumentBuilder para Insertar Elementos de Documento
+linktitle: Utilice DocumentBuilder para Insertar Elementos de Documento
 type: docs
 description: "Inserte elementos de documento utilizando el generador de documentos en Java."
 weight: 10

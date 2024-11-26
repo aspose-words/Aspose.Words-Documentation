@@ -1,8 +1,8 @@
 ﻿---
-title: كيفية بناء جدول من `DataTable` في Java
+title: كيفية بناء جدول من DataTable في Java
 second_title: Aspose.Words ل Java
-articleTitle: بناء جدول من `DataTable`
-linktitle: بناء جدول من `DataTable`
+articleTitle: بناء جدول من DataTable
+linktitle: بناء جدول من DataTable
 description: "مثال على ملء جدول المستندات من قاعدة بيانات خارجية باستخدام Java."
 type: docs
 weight: 130

@@ -1,8 +1,8 @@
 ---
-title: Using `DocumentBuilder` to Modify a Document
+title: Using DocumentBuilder to Modify a Document
 second_title: Aspose.Words for Java
-articleTitle: Using `DocumentBuilder` to Modify a Document
-linktitle: Using `DocumentBuilder` to Modify a Document
+articleTitle: Using DocumentBuilder to Modify a Document
+linktitle: Using DocumentBuilder to Modify a Document
 type: docs
 description: "Use the document builder to modify a document easily in Java."
 weight: 20

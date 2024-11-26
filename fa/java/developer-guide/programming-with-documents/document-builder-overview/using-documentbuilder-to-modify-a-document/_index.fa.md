@@ -1,8 +1,8 @@
 ﻿---
-title: استفاده از `DocumentBuilder` برای تغییر یک سند
+title: استفاده از DocumentBuilder برای تغییر یک سند
 second_title: Aspose.Words برای Java
-articleTitle: استفاده از `DocumentBuilder` برای تغییر یک سند
-linktitle: استفاده از `DocumentBuilder` برای تغییر یک سند
+articleTitle: استفاده از DocumentBuilder برای تغییر یک سند
+linktitle: استفاده از DocumentBuilder برای تغییر یک سند
 type: docs
 description: "از سازنده سند برای تغییر یک سند به راحتی در Java استفاده کنید."
 weight: 20

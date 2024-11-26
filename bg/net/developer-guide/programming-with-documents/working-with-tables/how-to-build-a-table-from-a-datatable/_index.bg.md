@@ -1,8 +1,8 @@
 ---
-title: Как да се изгради таблица от `DataTable` в C#
+title: Как да се изгради таблица от DataTable в C#
 second_title: Aspose.Words вместо .NET
-articleTitle: Изграждане на таблица от `DataTable`
-linktitle: Изграждане на таблица от `DataTable`
+articleTitle: Изграждане на таблица от DataTable
+linktitle: Изграждане на таблица от DataTable
 description: "Пример за попълване на таблица с документи от външна база данни, като се използва C#."
 type: docs
 weight: 120

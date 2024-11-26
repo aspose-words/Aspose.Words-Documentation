@@ -1,8 +1,8 @@
 ---
-title: Bekerja dengan Dokumen yang Disimpan di `SharePoint` Online
+title: Bekerja dengan Dokumen yang Disimpan di SharePoint Online
 second_title: Aspose.Words untuk .NET
-articleTitle: Bekerja dengan Dokumen yang Disimpan di `SharePoint` Online
-linktitle: Bekerja dengan Dokumen yang Disimpan di `SharePoint` Online
+articleTitle: Bekerja dengan Dokumen yang Disimpan di SharePoint Online
+linktitle: Bekerja dengan Dokumen yang Disimpan di SharePoint Online
 description: "Konversikan Word yang dibagikan di SharePoint ke PDF menggunakan C#. Bekerja dengan dokumen yang disimpan di SharePoint – berbagai format input, termasuk Word, OpenOffice, Image, dan eBook."
 type: docs
 weight: 20

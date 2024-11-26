@@ -1,8 +1,8 @@
 ---
-title: 사용 `DocumentBuilder` 문서 요소를 삽입하려면
+title: 사용 DocumentBuilder 문서 요소를 삽입하려면
 second_title: Aspose.Words 에 대한 C++
-articleTitle: 사용 `DocumentBuilder` 문서 요소를 삽입하려면
-linktitle: 사용 `DocumentBuilder` 문서 요소를 삽입하려면
+articleTitle: 사용 DocumentBuilder 문서 요소를 삽입하려면
+linktitle: 사용 DocumentBuilder 문서 요소를 삽입하려면
 type: docs
 description: "문서 작성기를 사용하여 문서 요소 삽입 C++."
 weight: 80

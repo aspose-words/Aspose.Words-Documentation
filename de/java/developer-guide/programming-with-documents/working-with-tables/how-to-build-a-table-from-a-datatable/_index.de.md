@@ -1,8 +1,8 @@
 ﻿---
-title: So erstellen Sie eine Tabelle aus einer `DataTable` in Java
+title: So erstellen Sie eine Tabelle aus einer DataTable in Java
 second_title: Aspose.Words für Java
-articleTitle: Erstellen Sie eine Tabelle aus einer `DataTable`
-linktitle: Erstellen Sie eine Tabelle aus einer `DataTable`
+articleTitle: Erstellen Sie eine Tabelle aus einer DataTable
+linktitle: Erstellen Sie eine Tabelle aus einer DataTable
 description: "Beispiel für das Ausfüllen einer Dokumententabelle aus einer externen Datenbank mit Java."
 type: docs
 weight: 130

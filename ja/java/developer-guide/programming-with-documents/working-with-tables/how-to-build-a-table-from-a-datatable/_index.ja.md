@@ -1,8 +1,8 @@
 ﻿---
-title: Javaの`DataTable`からテーブルを構築する方法
+title: JavaのDataTableからテーブルを構築する方法
 second_title: Aspose.WordsのためのJava
-articleTitle: A`DataTable`からテーブルを作成する
-linktitle: A`DataTable`からテーブルを作成する
+articleTitle: ADataTableからテーブルを作成する
+linktitle: ADataTableからテーブルを作成する
 description: "Javaを使用して外部データベースからドキュメントテーブルを入力する例。"
 type: docs
 weight: 130

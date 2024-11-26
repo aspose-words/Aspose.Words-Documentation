@@ -1,8 +1,8 @@
 ﻿---
-title: Utilizar `DocumentBuilder` para modificar um documento
+title: Utilizar DocumentBuilder para modificar um documento
 second_title: Aspose.Words para Java
-articleTitle: Utilizar `DocumentBuilder` para modificar um documento
-linktitle: Utilizar `DocumentBuilder` para modificar um documento
+articleTitle: Utilizar DocumentBuilder para modificar um documento
+linktitle: Utilizar DocumentBuilder para modificar um documento
 type: docs
 description: "Use o construtor de documentos para modificar facilmente um documento em Java."
 weight: 20

@@ -1,8 +1,8 @@
 ---
-title: Utilizați `DocumentBuilder` pentru a insera elemente de Document
+title: Utilizați DocumentBuilder pentru a insera elemente de Document
 second_title: Aspose.Words pentru Java
-articleTitle: Utilizați `DocumentBuilder` pentru a insera elemente de Document
-linktitle: Utilizați `DocumentBuilder` pentru a insera elemente de Document
+articleTitle: Utilizați DocumentBuilder pentru a insera elemente de Document
+linktitle: Utilizați DocumentBuilder pentru a insera elemente de Document
 type: docs
 description: "Introduceți elemente de document utilizând constructorul de documente în Java."
 weight: 10

@@ -1,8 +1,8 @@
 ﻿---
-title: Как построить таблицу из `DataTable` в Java
+title: Как построить таблицу из DataTable в Java
 second_title: Aspose.Words для Java
-articleTitle: Создайте таблицу из `DataTable`
-linktitle: Создайте таблицу из `DataTable`
+articleTitle: Создайте таблицу из DataTable
+linktitle: Создайте таблицу из DataTable
 description: "Пример заполнения таблицы документов из внешней базы данных с помощью Java."
 type: docs
 weight: 130

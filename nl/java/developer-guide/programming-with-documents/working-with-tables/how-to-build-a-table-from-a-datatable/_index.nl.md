@@ -1,8 +1,8 @@
 ---
-title: Hoe bouw je een tabel van een `DataTable` in Java
+title: Hoe bouw je een tabel van een DataTable in Java
 second_title: Aspose.Words voor Java
-articleTitle: Bouw een tabel van een `DataTable`
-linktitle: Bouw een tabel van een `DataTable`
+articleTitle: Bouw een tabel van een DataTable
+linktitle: Bouw een tabel van een DataTable
 description: "Voorbeeld van het invullen van documenttabel uit externe database met behulp van Java."
 type: docs
 weight: 130

@@ -1,8 +1,8 @@
 ---
-title: Dokument Öğelerini Ekle için `DocumentBuilder`'ı Kullanın
+title: Dokument Öğelerini Ekle için DocumentBuilder'ı Kullanın
 second_title: Aspose.Words için Java
-articleTitle: Dokument Öğelerini Ekle için `DocumentBuilder`'ı Kullanın
-linktitle: Dokument Öğelerini Ekle için `DocumentBuilder`'ı Kullanın
+articleTitle: Dokument Öğelerini Ekle için DocumentBuilder'ı Kullanın
+linktitle: Dokument Öğelerini Ekle için DocumentBuilder'ı Kullanın
 type: docs
 description: "Belge öğelerini Java'deki belge oluşturucuya ekleyin."
 weight: 10

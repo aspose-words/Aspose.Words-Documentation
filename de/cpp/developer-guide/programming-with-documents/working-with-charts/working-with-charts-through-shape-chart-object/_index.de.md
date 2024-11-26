@@ -1,8 +1,8 @@
 ---
-title: Arbeiten mit Diagrammen über das `Shape.Chart` -Objekt
+title: Arbeiten mit Diagrammen über das Shape.Chart -Objekt
 second_title: Aspose.Words für C++
-articleTitle: Arbeiten mit Diagrammen über das `Shape.Chart` -Objekt
-linktitle: Arbeiten mit Diagrammen über das `Shape.Chart` -Objekt
+articleTitle: Arbeiten mit Diagrammen über das Shape.Chart -Objekt
+linktitle: Arbeiten mit Diagrammen über das Shape.Chart -Objekt
 description: "Diagramme im Detail, wie Diagramm mit Formknoten in verknüpft ist Aspose.Words für C++."
 type: docs
 weight: 10

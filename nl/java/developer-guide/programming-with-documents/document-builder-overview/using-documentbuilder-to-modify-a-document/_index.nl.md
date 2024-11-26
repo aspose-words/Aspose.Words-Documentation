@@ -1,8 +1,8 @@
 ---
-title: Gebruik `DocumentBuilder` Een document wijzigen
+title: Gebruik DocumentBuilder Een document wijzigen
 second_title: Aspose.Words voor Java
-articleTitle: Gebruik `DocumentBuilder` Een document wijzigen
-linktitle: Gebruik `DocumentBuilder` Een document wijzigen
+articleTitle: Gebruik DocumentBuilder Een document wijzigen
+linktitle: Gebruik DocumentBuilder Een document wijzigen
 type: docs
 description: "Gebruik de documentbouwer om een document eenvoudig te wijzigen in Java."
 weight: 20

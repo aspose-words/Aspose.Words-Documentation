@@ -1,8 +1,8 @@
 ﻿---
-title: چگونه یک جدول از یک `DataTable` در Javaبسازیم
+title: چگونه یک جدول از یک DataTable در Javaبسازیم
 second_title: Aspose.Words برای Java
-articleTitle: یک جدول از یک `DataTable`بسازید
-linktitle: یک جدول از یک `DataTable`بسازید
+articleTitle: یک جدول از یک DataTableبسازید
+linktitle: یک جدول از یک DataTableبسازید
 description: "مثال پر کردن جدول اسناد از پایگاه داده خارجی با استفاده از Java."
 type: docs
 weight: 130

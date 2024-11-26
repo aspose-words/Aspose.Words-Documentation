@@ -1,8 +1,8 @@
 ---
-title: Working with Charts through `Shape.Chart` Object
+title: Working with Charts through Shape.Chart Object
 second_title: Aspose.Words for C++
-articleTitle: Working with Charts through `Shape.Chart` Object
-linktitle: Working with Charts through `Shape.Chart` Object
+articleTitle: Working with Charts through Shape.Chart Object
+linktitle: Working with Charts through Shape.Chart Object
 description: "Charts in details, how chart linked with Shape node in Aspose.Words for C++."
 type: docs
 weight: 10

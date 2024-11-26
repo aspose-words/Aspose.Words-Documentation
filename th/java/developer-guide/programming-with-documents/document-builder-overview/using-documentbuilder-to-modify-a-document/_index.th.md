@@ -1,8 +1,8 @@
 ﻿---
-title: ใช้`DocumentBuilder`เพื่อแก้ไขเอกสาร
+title: ใช้DocumentBuilderเพื่อแก้ไขเอกสาร
 second_title: Aspose.WordsสำหรับJava
-articleTitle: ใช้`DocumentBuilder`เพื่อแก้ไขเอกสาร
-linktitle: ใช้`DocumentBuilder`เพื่อแก้ไขเอกสาร
+articleTitle: ใช้DocumentBuilderเพื่อแก้ไขเอกสาร
+linktitle: ใช้DocumentBuilderเพื่อแก้ไขเอกสาร
 type: docs
 description: "ใช้ตัวสร้างเอกสารเพื่อแก้ไขเอกสารได้อย่างง่ายดายในJava."
 weight: 20

@@ -1,8 +1,8 @@
 ---
-title: Как построить стол из `DataTable` в C#
+title: Как построить стол из DataTable в C#
 second_title: Aspose.Words для .NET
-articleTitle: Постройте стол из `DataTable`
-linktitle: Постройте стол из `DataTable`
+articleTitle: Постройте стол из DataTable
+linktitle: Постройте стол из DataTable
 description: "Пример заполнения таблицы документов из внешней базы данных с использованием C#."
 type: docs
 weight: 120

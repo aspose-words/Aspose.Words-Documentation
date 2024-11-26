@@ -1,8 +1,8 @@
 ---
-title: Работа с графиками через объект `Shape.Chart`
+title: Работа с графиками через объект Shape.Chart
 second_title: Aspose.Words для C++
-articleTitle: Работа с графиками через объект `Shape.Chart`
-linktitle: Работа с графиками через объект `Shape.Chart`
+articleTitle: Работа с графиками через объект Shape.Chart
+linktitle: Работа с графиками через объект Shape.Chart
 description: "Диаграммы в деталях, как диаграмма связана с узлом формы в Aspose.Words для C++."
 type: docs
 weight: 10

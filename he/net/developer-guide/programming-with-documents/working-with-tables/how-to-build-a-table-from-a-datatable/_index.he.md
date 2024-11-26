@@ -1,8 +1,8 @@
 ---
-title: איך לבנות שולחן משולחן `DataTable` פנימה C#
+title: איך לבנות שולחן משולחן DataTable פנימה C#
 second_title: Aspose.Words עבור .NET
-articleTitle: לבנות שולחן מ `DataTable`
-linktitle: לבנות שולחן מ `DataTable`
+articleTitle: לבנות שולחן מ DataTable
+linktitle: לבנות שולחן מ DataTable
 description: "דוגמה לטבלת מסמכים מילוי ממסד נתונים חיצוני C#."
 type: docs
 weight: 120

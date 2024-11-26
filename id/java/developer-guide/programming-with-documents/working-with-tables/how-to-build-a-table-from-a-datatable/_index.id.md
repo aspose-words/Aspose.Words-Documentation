@@ -1,8 +1,8 @@
 ---
-title: Cara Membangun Tabel dari `DataTable` Sitemap Java
+title: Cara Membangun Tabel dari DataTable Sitemap Java
 second_title: Aspose.Words Sitemap Java
-articleTitle: Bangun Tabel dari `DataTable`
-linktitle: Bangun Tabel dari `DataTable`
+articleTitle: Bangun Tabel dari DataTable
+linktitle: Bangun Tabel dari DataTable
 description: "Contoh mengisi tabel dokumen dari database eksternal menggunakan JavaSitemap"
 type: docs
 weight: 130

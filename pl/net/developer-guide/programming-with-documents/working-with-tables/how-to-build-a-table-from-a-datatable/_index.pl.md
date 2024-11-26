@@ -1,8 +1,8 @@
 ---
-title: Jak zbudować tabelę z `DataTable` w C#
+title: Jak zbudować tabelę z DataTable w C#
 second_title: Aspose.Words dla .NET
-articleTitle: Zbuduj tabelę z pliku `DataTable`
-linktitle: Zbuduj tabelę z pliku `DataTable`
+articleTitle: Zbuduj tabelę z pliku DataTable
+linktitle: Zbuduj tabelę z pliku DataTable
 description: "Przykład wypełnienia tabeli dokumentów z zewnętrznej bazy danych przy pomocy C#."
 type: docs
 weight: 120

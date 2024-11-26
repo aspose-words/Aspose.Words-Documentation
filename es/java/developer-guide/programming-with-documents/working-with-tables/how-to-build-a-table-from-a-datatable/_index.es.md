@@ -1,8 +1,8 @@
 ﻿---
-title: Cómo construir una tabla a partir de `DataTable` en Java
+title: Cómo construir una tabla a partir de DataTable en Java
 second_title: Aspose.Words por Java
-articleTitle: Construye una tabla a partir de `DataTable`
-linktitle: Construye una tabla a partir de `DataTable`
+articleTitle: Construye una tabla a partir de DataTable
+linktitle: Construye una tabla a partir de DataTable
 description: "Ejemplo de completar una tabla de documentos desde una base de datos externa usando Java."
 type: docs
 weight: 130

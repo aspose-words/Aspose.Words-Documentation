@@ -1,8 +1,8 @@
 ﻿---
-title: Используйте `DocumentBuilder` для вставки элементов документа
+title: Используйте DocumentBuilder для вставки элементов документа
 second_title: Aspose.Words для Java
-articleTitle: Используйте `DocumentBuilder` для вставки элементов документа
-linktitle: Используйте `DocumentBuilder` для вставки элементов документа
+articleTitle: Используйте DocumentBuilder для вставки элементов документа
+linktitle: Используйте DocumentBuilder для вставки элементов документа
 type: docs
 description: "Вставьте элементы документа с помощью конструктора документов в Java."
 weight: 10

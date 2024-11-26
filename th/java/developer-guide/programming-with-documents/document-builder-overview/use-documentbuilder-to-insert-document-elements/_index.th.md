@@ -1,8 +1,8 @@
 ﻿---
-title: ใช้`DocumentBuilder`เพื่อแทรกองค์ประกอบของเอกสาร
+title: ใช้DocumentBuilderเพื่อแทรกองค์ประกอบของเอกสาร
 second_title: Aspose.WordsสำหรับJava
-articleTitle: ใช้`DocumentBuilder`เพื่อแทรกองค์ประกอบของเอกสาร
-linktitle: ใช้`DocumentBuilder`เพื่อแทรกองค์ประกอบของเอกสาร
+articleTitle: ใช้DocumentBuilderเพื่อแทรกองค์ประกอบของเอกสาร
+linktitle: ใช้DocumentBuilderเพื่อแทรกองค์ประกอบของเอกสาร
 type: docs
 description: "แทรกอิลิเมนต์เอกสารโดยใช้ตัวสร้างเอกสารในJava."
 weight: 10

@@ -1,8 +1,8 @@
 ---
-title: Sử dụng `DocumentBuilder` để Sửa đổi Tài liệu
+title: Sử dụng DocumentBuilder để Sửa đổi Tài liệu
 second_title: Aspose.Words cho Java
-articleTitle: Sử dụng `DocumentBuilder` để Sửa đổi Tài liệu
-linktitle: Sử dụng `DocumentBuilder` để Sửa đổi Tài liệu
+articleTitle: Sử dụng DocumentBuilder để Sửa đổi Tài liệu
+linktitle: Sử dụng DocumentBuilder để Sửa đổi Tài liệu
 type: docs
 description: "Sử dụng trình xây dựng tài liệu để sửa đổi một tài liệu dễ dàng trong Java."
 weight: 20

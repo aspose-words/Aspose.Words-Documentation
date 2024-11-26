@@ -1,8 +1,8 @@
 ﻿---
-title: استخدام `DocumentBuilder` لتعديل مستند
+title: استخدام DocumentBuilder لتعديل مستند
 second_title: Aspose.Words ل Java
-articleTitle: استخدام `DocumentBuilder` لتعديل مستند
-linktitle: استخدام `DocumentBuilder` لتعديل مستند
+articleTitle: استخدام DocumentBuilder لتعديل مستند
+linktitle: استخدام DocumentBuilder لتعديل مستند
 type: docs
 description: "استخدم منشئ المستندات لتعديل مستند بسهولة في Java."
 weight: 20

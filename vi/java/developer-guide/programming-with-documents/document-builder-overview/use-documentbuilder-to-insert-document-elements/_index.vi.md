@@ -1,8 +1,8 @@
 ---
-title: Hãy dùng `DocumentBuilder` để chèn các phần tử tài liệu
+title: Hãy dùng DocumentBuilder để chèn các phần tử tài liệu
 second_title: Aspose.Words cho Java
-articleTitle: Hãy dùng `DocumentBuilder` để chèn các phần tử tài liệu
-linktitle: Hãy dùng `DocumentBuilder` để chèn các phần tử tài liệu
+articleTitle: Hãy dùng DocumentBuilder để chèn các phần tử tài liệu
+linktitle: Hãy dùng DocumentBuilder để chèn các phần tử tài liệu
 type: docs
 description: "Chèn các thành phần tài liệu bằng trình tạo tài liệu trong Java."
 weight: 10

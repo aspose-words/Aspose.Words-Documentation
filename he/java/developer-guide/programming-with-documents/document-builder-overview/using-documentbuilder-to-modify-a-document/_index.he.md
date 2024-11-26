@@ -1,8 +1,8 @@
 ---
-title: שימוש `DocumentBuilder` לשנות מסמך
+title: שימוש DocumentBuilder לשנות מסמך
 second_title: Aspose.Words עבור Java
-articleTitle: שימוש `DocumentBuilder` לשנות מסמך
-linktitle: שימוש `DocumentBuilder` לשנות מסמך
+articleTitle: שימוש DocumentBuilder לשנות מסמך
+linktitle: שימוש DocumentBuilder לשנות מסמך
 type: docs
 description: "השתמש במבנה המסמך כדי לשנות מסמך בקלות Java."
 weight: 20

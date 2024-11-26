@@ -1,8 +1,8 @@
 ---
-title: Зареєструватися `DocumentBuilder` Вставити елементи документа
+title: Зареєструватися DocumentBuilder Вставити елементи документа
 second_title: Aspose.Words для Java
-articleTitle: Зареєструватися `DocumentBuilder` Вставити елементи документа
-linktitle: Зареєструватися `DocumentBuilder` Вставити елементи документа
+articleTitle: Зареєструватися DocumentBuilder Вставити елементи документа
+linktitle: Зареєструватися DocumentBuilder Вставити елементи документа
 type: docs
 description: "Вставте елементи документа, використовуючи конструктор документів Javaй"
 weight: 10

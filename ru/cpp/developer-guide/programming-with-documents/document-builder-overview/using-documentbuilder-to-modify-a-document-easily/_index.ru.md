@@ -1,8 +1,8 @@
 ---
-title: Использование `DocumentBuilder` для простого изменения документа
+title: Использование DocumentBuilder для простого изменения документа
 second_title: Aspose.Words для C++
-articleTitle: Использование `DocumentBuilder` для простого изменения документа
-linktitle: Использование `DocumentBuilder` для простого изменения документа
+articleTitle: Использование DocumentBuilder для простого изменения документа
+linktitle: Использование DocumentBuilder для простого изменения документа
 type: docs
 description: "Используйте конструктор документов, чтобы легко изменять документ на C++."
 weight: 190

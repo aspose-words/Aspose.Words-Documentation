@@ -1,8 +1,8 @@
 ---
-title: Bir `DataTable` Java'den nasıl bir masa inşa edilir?
+title: Bir DataTable Java'den nasıl bir masa inşa edilir?
 second_title: Aspose.Words için Java
-articleTitle: Bir tablo `DataTable` inşa et
-linktitle: Bir tablo `DataTable` inşa et
+articleTitle: Bir tablo DataTable inşa et
+linktitle: Bir tablo DataTable inşa et
 description: "Dış veritabanından belge tablosunu doldurmanın bir örneği Java kullanarak."
 type: docs
 weight: 130

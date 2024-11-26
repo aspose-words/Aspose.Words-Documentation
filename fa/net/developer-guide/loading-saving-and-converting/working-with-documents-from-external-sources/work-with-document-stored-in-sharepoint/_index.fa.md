@@ -1,8 +1,8 @@
 ---
-title: با یک سند ذخیره شده در `SharePoint` Online کار کنید
+title: با یک سند ذخیره شده در SharePoint Online کار کنید
 second_title: Aspose.Words برای .NET
-articleTitle: با یک سند ذخیره شده در `SharePoint` Online کار کنید
-linktitle: با یک سند ذخیره شده در `SharePoint` Online کار کنید
+articleTitle: با یک سند ذخیره شده در SharePoint Online کار کنید
+linktitle: با یک سند ذخیره شده در SharePoint Online کار کنید
 description: "تبدیل Word به اشتراک گذاشته شده در SharePoint به PDF با استفاده از C#. کار با اسناد ذخیره شده در SharePoint - فرمت های ورودی مختلف، از جمله Word، OpenOffice، Image و eBook."
 type: docs
 weight: 20

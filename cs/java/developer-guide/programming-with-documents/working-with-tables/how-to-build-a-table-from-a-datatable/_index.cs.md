@@ -1,8 +1,8 @@
 ---
-title: Jak vytvořit stůl z `DataTable` v Java
+title: Jak vytvořit stůl z DataTable v Java
 second_title: Aspose.Words místo Java
-articleTitle: Postavit stůl z `DataTable`
-linktitle: Postavit stůl z `DataTable`
+articleTitle: Postavit stůl z DataTable
+linktitle: Postavit stůl z DataTable
 description: "Příklad vyplnění tabulky dokumentů z externí databáze pomocí Java."
 type: docs
 weight: 130

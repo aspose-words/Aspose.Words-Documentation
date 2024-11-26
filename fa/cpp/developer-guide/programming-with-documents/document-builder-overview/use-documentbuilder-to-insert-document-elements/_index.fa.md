@@ -1,8 +1,8 @@
 ---
-title: برای وارد کردن عناصر سند از `DocumentBuilder` استفاده کنید
+title: برای وارد کردن عناصر سند از DocumentBuilder استفاده کنید
 second_title: Aspose.Words برای C++
-articleTitle: برای وارد کردن عناصر سند از `DocumentBuilder` استفاده کنید
-linktitle: برای وارد کردن عناصر سند از `DocumentBuilder` استفاده کنید
+articleTitle: برای وارد کردن عناصر سند از DocumentBuilder استفاده کنید
+linktitle: برای وارد کردن عناصر سند از DocumentBuilder استفاده کنید
 type: docs
 description: "عناصر سند را با استفاده از سازنده سند در C++ وارد کنید."
 weight: 80

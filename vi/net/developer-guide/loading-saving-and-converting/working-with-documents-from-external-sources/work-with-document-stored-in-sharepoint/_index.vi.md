@@ -1,8 +1,8 @@
 ---
-title: Làm việc với tài liệu được lưu trữ trong `SharePoint` trực tuyến
+title: Làm việc với tài liệu được lưu trữ trong SharePoint trực tuyến
 second_title: Aspose.Words cho .NET
-articleTitle: Làm việc với tài liệu được lưu trữ trong `SharePoint` trực tuyến
-linktitle: Làm việc với tài liệu được lưu trữ trong `SharePoint` trực tuyến
+articleTitle: Làm việc với tài liệu được lưu trữ trong SharePoint trực tuyến
+linktitle: Làm việc với tài liệu được lưu trữ trong SharePoint trực tuyến
 description: "Chuyển đổi Word được chia sẻ trong SharePoint sang PDF bằng C#. Làm việc với các tài liệu được lưu trữ trong SharePoint – nhiều định dạng đầu vào khác nhau, bao gồm Word, OpenOffice, Hình ảnh và Sách điện tử."
 type: docs
 weight: 20
