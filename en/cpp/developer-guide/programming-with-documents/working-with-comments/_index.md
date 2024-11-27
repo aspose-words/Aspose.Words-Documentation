@@ -55,7 +55,7 @@ To illustrate how to extract and remove comments from a document, we will go thr
 1. To extract comments:
    1. Go through the collection using the foreach operator
    1. Extract and list the author name, date & time and text of all comments
-   1. Extract and list the author name, date & time and text of comments written by a specific author, in this case, the author ‘ks’
+   1. Extract and list the author name, date & time and text of comments written by a specific author, in this case, the author `ks`
 1. To remove comments:
    1. Go backwards through the collection using the for the operator
    1. Remove comments
