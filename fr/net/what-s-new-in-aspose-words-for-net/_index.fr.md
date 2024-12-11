@@ -7,12 +7,12 @@ type: docs
 description: "Aspose.Words pour .NET se développe et s'améliore quotidiennement. Sur cette page, vous pouvez découvrir les fonctionnalités les plus importantes et les plus intéressantes du produit."
 weight: 10
 url: /fr/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2024-11-18-12-56-02
+timestamp: 2024-12-11-13-48-02
 ---
 
 Cette page décrit les nouvelles fonctionnalités Aspose.Words les plus intéressantes introduites dans les versions récentes.
 
-## Aspose.Words pour .NET 24.9, 24.10, 24.11
+## Aspose.Words pour .NET 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 introduit l'insertion de formes de groupe et l'insertion de StructuredDocumentTag via DocumentBuilder, améliore le rendu des graphiques radiaux avec des graduations, améliore les signatures numériques avec la prise en charge de XAdES-EPES, ajoute la reconnaissance du soulignement Markdown et donne accès aux séparateurs de notes de bas de page/de fin.
 
@@ -20,9 +20,21 @@ Aspose.Words 24.10 introduit une prise en charge améliorée des contrôles Acti
 
 Aspose.Words 24.11 introduit la synthèse de documents alimentée par AI, des options de rendu améliorées, un accès amélioré aux propriétés du document et un sous-titrage de contrôle ActiveX.
 
-### AI - Fonctionnalités alimentées <sup>24.11</sup>
+Aspose.Words 24.8 introduit le placement personnalisable des étiquettes de données, la traduction de texte optimisée par l'IA de Google, des options de nettoyage de publipostage améliorées et de nouvelles classes de traitement LowCode.
+
+### AI - Fonctionnalités alimentées
+
+#### Résumé de documents à l'aide d'OpenAI et de Google <sup>24.11</sup>
 
 La prise en charge de la synthèse de documents à l'aide des modèles de langage génératif **OpenAI** et **Google** a été intégrée en ajoutant l'espace de noms [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) à ses membres publics.
+
+#### Traduction de texte à l'aide des modèles de langage génératif de Google <sup>24.12</sup>
+
+La possibilité de traduire du texte à l'aide des modèles de langage génératif de Google a été implémentée dans Aspose.Words en ajoutant la méthode [Translate](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/translate/) et l'énumération [Language](https://reference.aspose.com/words/net/aspose.words.ai/language/) à l'espace de noms [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/).
+
+### Low Code <sup>24.12</sup>
+
+De nouvelles classes LowCode comme [Comparer](https://reference.aspose.com/words/net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/net/aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/net/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/net/aspose.words.lowcode/splitter/) etc. ont été introduites, offrant un ensemble de méthodes qui trouvent l'équilibre parfait entre simplicité et flexibilité pour le traitement des documents.
 
 ### Rendu et impression
 
@@ -54,6 +66,10 @@ La possibilité d'obtenir et de définir des codes de format pour les données d
 
 Le rendu de l'histogramme a été amélioré en autorisant un nombre spécifié de bacs et d'étiquettes.
 
+#### Personnaliser le placement des étiquettes de données <sup>24.12</sup>
+
+La possibilité de personnaliser le placement des étiquettes de données a été ajoutée en introduisant de nouvelles propriétés dans les classes [ChartDataLabel](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/) et [ChartDataLabelCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/).
+
 ### Conversion, chargement et enregistrement de documents
 
 #### Formatage du soulignement lors du chargement de fichiers Markdown <sup>24.9</sup>
@@ -67,6 +83,12 @@ Une option permettant d'exporter des tableaux au format HTML lors de l'enregistr
 #### Exporter PDF avec une Structure logique mise à jour <sup>24.11</sup>
 
 L'exportation PDF a été améliorée en incluant les propriétés de titre de table en tant que titres d'élément de structure logique PDF.
+
+### Publipostage et création de rapports
+
+#### Supprimer les tables vides pendant le publipostage <sup>24.12</sup>
+
+Une nouvelle option **RemoveEmptyTables** a été ajoutée à l'énumération [MailMergeCleanupOptions](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmergecleanupoptions/) pour affiner la sortie du publipostage.
 
 ### Signatures numériques
 
@@ -92,6 +114,8 @@ En savoir plus sur [Notes de version Aspose.Words pour .NET 24.9](https://releas
 En savoir plus sur [Notes de version Aspose.Words pour .NET 24.10](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
 
 En savoir plus sur [Aspose.Words pour .NET 24.11 Notes de version](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-11-release-notes/).
+
+En savoir plus sur [Aspose.Words pour .NET 24.12 Notes de version](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-12-release-notes/).
 
 {{% /alert %}}
 

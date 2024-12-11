@@ -7,12 +7,12 @@ type: docs
 description: ".NET için Aspose.Words her gün genişler ve gelişir. Bu sayfada ürünün büyük ve en ilginç özellikleri hakkında bilgi edinebilirsiniz."
 weight: 10
 url: /tr/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2024-11-18-12-56-02
+timestamp: 2024-12-11-13-48-02
 ---
 
 Bu sayfada son sürümlerde tanıtılan en ilginç yeni Aspose.Words özellikleri açıklanmaktadır.
 
-## Aspose.Words için .NET 24.9, 24.10, 24.11
+## Aspose.Words için .NET 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9, DocumentBuilder aracılığıyla grup şekli ekleme ve StructuredDocumentTag eklemeyi sunar, derecelendirmelerle radyal grafik oluşturmayı geliştirir, XAdES-EPES desteğiyle dijital imzaları iyileştirir, Markdown alt çizgi tanıma ekler ve dipnot/sonnot ayırıcılarına erişim sağlar.
 
@@ -20,9 +20,21 @@ Aspose.Words 24.10, CommandButton oluşturma, yeni şekil görünürlük denetim
 
 Aspose.Words 24.11, AI destekli belge özetleme, gelişmiş oluşturma seçenekleri, belge özelliklerine geliştirilmiş erişim ve ActiveX denetimi altyazısını sunar.
 
-### AI-güçlendirilmiş Özellikler <sup>24.11</sup>
+Aspose.Words 24.8, özelleştirilebilir veri etiketi yerleşimini, Google AI destekli metin çevirisini, gelişmiş Posta Birleştirme temizleme seçeneklerini ve yeni LowCode işleme sınıflarını sunar.
+
+### AI-güçlendirilmiş Özellikler
+
+#### OpenAI ve Google <sup>24.11</sup> Kullanarak Belge Özetleme
 
 **OpenAI** ve **Google** üretici dil modellerini kullanarak belge özetleme desteği, genel üyeleriyle [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) ad alanı eklenerek entegre edilmiştir.
+
+#### Google'ın üretken dil modellerini kullanarak metin çevirisi <sup>24.12</sup>
+
+Google'ın üretken dil modellerini kullanarak metin çevirme yeteneği, [Translate](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/translate/) yöntemi ve [Language](https://reference.aspose.com/words/net/aspose.words.ai/language/) numaralandırmasının [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) ad alanına eklenmesiyle Aspose.Words'e uygulanmıştır.
+
+### Low Code <sup>24.12</sup>
+
+Yeni LowCode sınıfları gibi [Comparer](https://reference.aspose.com/words/net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/net/aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/net/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/net/aspose.words.lowcode/splitter/) vb. tanıtıldı ve belge işleme için basitlik ve esneklik arasında mükemmel dengeyi sağlayan bir dizi yöntem sunuldu.
 
 ### Oluşturma ve Yazdırma
 
@@ -54,6 +66,10 @@ Grafik verileri için biçim kodları alma ve ayarlama yeteneği, [ChartXValueCo
 
 Histogram grafik oluşturma, belirli sayıda kutu ve etikete izin verilerek geliştirilmiştir.
 
+#### Veri Etiketlerinin Yerleşimini Özelleştirme <sup>24.12</sup>
+
+Veri etiketlerinin yerleşimini özelleştirme yeteneği, [ChartDataLabel](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/) ve [ChartDataLabelCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/) sınıflarına yeni özellikler eklenerek eklendi.
+
 ### Belgeleri Dönüştürme, Yükleme ve Kaydetme
 
 #### Markdown Dosyaları Yüklenirken Alt Çizgi Biçimlendirme <sup>24.9</sup>
@@ -67,6 +83,12 @@ Belgeleri Markdown biçimine kaydederken tabloları HTML olarak dışa aktarma s
 #### Güncellenmiş Mantıksal Yapı <sup>24.11 ile PDF dışa Aktar</sup>
 
 PDF dışa aktarma, tablo başlığı özelliklerini PDF mantıksal yapı öğesi başlıkları olarak ekleyerek geliştirilmiştir.
+
+### Posta Birleştirme ve Raporlama
+
+#### Posta Birleştirme Sırasında Boş Tabloları Kaldır <sup>24.12</sup>
+
+Posta Birleştirme çıktısını iyileştirmek için [MailMergeCleanupOptions](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmergecleanupoptions/) sayımına yeni bir **RemoveEmptyTables** seçeneği eklendi.
 
 ### Dijital İmzalar
 
@@ -92,6 +114,8 @@ Belgeleri XAdES-EPES düzeyinde XML-DSig imzalarıyla imzalama yeteneği, yeni b
 [.NET 24.10 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/) hakkında daha fazla bilgi edinin.
 
 Hakkında daha fazla bilgi edinin [Aspose.Words .NET 24.11 Sürüm Notları için](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-11-release-notes/).
+
+Hakkında daha fazla bilgi edinin [Aspose.Words .NET 24.12 Sürüm Notları için](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-12-release-notes/).
 
 {{% /alert %}}
 

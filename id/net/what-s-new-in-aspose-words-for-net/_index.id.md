@@ -7,12 +7,12 @@ type: docs
 description: "Aspose.Words untuk .NET berkembang dan ditingkatkan setiap hari. Di halaman ini, Anda dapat mempelajari tentang fitur-fitur produk yang besar dan paling menarik."
 weight: 10
 url: /id/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2024-11-18-12-56-02
+timestamp: 2024-12-11-13-48-02
 ---
 
 Halaman ini menjelaskan fitur-fitur Aspose.Words baru yang paling menarik yang diperkenalkan dalam rilis terbaru.
 
-## Aspose.Words untuk .NET 24.9, 24.10, 24.11
+## Aspose.Words untuk .NET 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 memperkenalkan penyisipan bentuk grup dan penyisipan StructuredDocumentTag melalui DocumentBuilder, menyempurnakan perenderan bagan radial dengan gradasi, menyempurnakan tanda tangan digital dengan dukungan XAdES-EPES, menambahkan pengenalan garis bawah Markdown, dan menyediakan akses ke pemisah catatan kaki/catatan akhir.
 
@@ -20,9 +20,21 @@ Aspose.Words 24.10 memperkenalkan dukungan kontrol ActiveX yang disempurnakan de
 
 Aspose.Words 24.11 memperkenalkan peringkasan dokumen bertenaga AI, opsi rendering yang ditingkatkan, peningkatan akses ke properti dokumen, dan teks kontrol ActiveX.
 
-### AI-Fitur bertenaga <sup>24.11</sup>
+Aspose.Words 24.8 memperkenalkan penempatan label data yang dapat disesuaikan, penerjemahan teks yang didukung Google AI, opsi pembersihan Mail Merge yang disempurnakan, dan kelas pemrosesan LowCode baru. 
+
+### AI-Fitur bertenaga
+
+#### Ringkasan Dokumen Menggunakan OpenAI dan Google <sup>24.11</sup>
 
 Dukungan untuk peringkasan dokumen menggunakan model bahasa generatif **OpenAI** dan **Google** telah diintegrasikan dengan menambahkan namespace [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) dengan anggota publiknya.
+
+#### Penerjemahan teks menggunakan model bahasa generatif Google <sup>24.12</sup>
+
+Kemampuan menerjemahkan teks menggunakan model bahasa generatif Google telah diimplementasikan di Aspose.Words dengan menambahkan metode [Translate](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/translate/) dan enumerasi [Language](https://reference.aspose.com/words/net/aspose.words.ai/language/) ke namespace [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/).
+
+### Low Code <sup>24.12</sup>
+
+Kelas LowCode baru seperti [Comparer](https://reference.aspose.com/words/net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/net/aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/net/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/net/aspose.words.lowcode/splitter/) dll. telah diperkenalkan, menawarkan serangkaian metode yang menghasilkan keseimbangan sempurna antara kesederhanaan dan fleksibilitas untuk pemrosesan dokumen.
 
 ### Perenderan dan Pencetakan
 
@@ -54,6 +66,10 @@ Kemampuan untuk mendapatkan dan mengatur kode format untuk data bagan telah dita
 
 Rendering grafik histogram telah ditingkatkan dengan memungkinkan sejumlah tempat sampah dan label tertentu.
 
+#### Menyesuaikan Penempatan Label Data <sup>24.12</sup>
+
+Kemampuan untuk menyesuaikan penempatan label data telah ditambahkan dengan memperkenalkan properti baru ke kelas [ChartDataLabel](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/) dan [ChartDataLabelCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/).
+
 ### Mengonversi, Memuat, dan Menyimpan Dokumen
 
 #### Pemformatan Garis Bawah saat Memuat File Markdown <sup>24.9</sup>
@@ -67,6 +83,12 @@ Opsi untuk mengekspor tabel sebagai HTML saat menyimpan dokumen ke format Markdo
 #### Ekspor PDF dengan Struktur Logika yang Diperbarui <sup>24.11</sup>
 
 Ekspor PDF telah ditingkatkan dengan menyertakan properti judul tabel sebagai judul elemen struktur logis PDF.
+
+### Gabungan Surat dan Pelaporan
+
+#### Hapus Tabel Kosong selama Gabungan Surat <sup>24.12</sup>
+
+Opsi **RemoveEmptyTables** baru telah ditambahkan ke enumerasi [MailMergeCleanupOptions](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmergecleanupoptions/) untuk menyempurnakan keluaran Gabungan Surat.
 
 ### Tanda Tangan Digital
 
@@ -92,6 +114,8 @@ Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 24.9](https
 Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 24.10](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
 
 Pelajari lebih lanjut tentang [Aspose.Words untuk .NET 24.11 Catatan Rilis](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-11-release-notes/).
+
+Pelajari lebih lanjut tentang [Aspose.Words untuk .NET 24.12 Catatan Rilis](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-12-release-notes/).
 
 {{% /alert %}}
 

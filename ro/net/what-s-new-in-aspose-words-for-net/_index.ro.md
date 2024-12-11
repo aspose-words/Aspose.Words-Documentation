@@ -7,12 +7,12 @@ type: docs
 description: "Aspose.Words pentru .NET se extinde și îmbunătățește zilnic. Pe această pagină, puteți afla despre caracteristicile uriașe și cele mai interesante ale produsului."
 weight: 10
 url: /ro/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2024-11-18-12-56-02
+timestamp: 2024-12-11-13-48-02
 ---
 
 Această pagină descrie cele mai interesante caracteristici noi Aspose.Words introduse în versiunile recente.
 
-## Aspose.Words pentru .NET 24.9, 24.10, 24.11
+## Aspose.Words pentru .NET 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 introduce group shape Inserare și StructuredDocumentTag Inserare prin DocumentBuilder, îmbunătățește randarea diagramelor radiale cu gradații, îmbunătățește semnăturile digitale cu suport XAdES-EPES, adaugă Markdown recunoașterea sublinierii și oferă acces la separatoarele de notă de subsol/notă finală.
 
@@ -20,9 +20,21 @@ Aspose.Words 24.10 introduce suport îmbunătățit pentru controlul ActiveX cu 
 
 Aspose.Words 24.11 introduce rezumatul documentelor alimentat de AI, opțiuni de redare îmbunătățite, acces îmbunătățit la proprietățile documentului și subtitrarea ActiveX control.
 
-### AI - funcții alimentate <sup>24.11</sup>
+Aspose.Words 24.8 introduce plasarea personalizabilă a etichetelor de date, traducerea textului bazată pe Google AI, opțiuni îmbunătățite de curățare a îmbinării corespondenței și noi clase de procesare LowCode.
+
+### AI - funcții alimentate
+
+#### Rezumatul documentelor folosind OpenAI și Google <sup>24.11</sup>
 
 Suportul pentru rezumarea documentelor folosind **OpenAI** și **Google** modele de limbaj generativ a fost integrat prin adăugarea spațiului de nume [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) cu membrii săi publici.
+
+#### Traducerea textului folosind modelele Google de limbaj generativ <sup>24.12</sup>
+
+Capacitatea de a traduce text folosind modelele de limbaj generativ Google a fost implementată în Aspose.Words prin adăugarea metodei [Translate](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/translate/) și enumerarea [Language](https://reference.aspose.com/words/net/aspose.words.ai/language/) la [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) spațiu de nume.
+
+### Low Code <sup>24.12</sup>
+
+Noi clase LowCode, cum ar fi [Comparer](https://reference.aspose.com/words/net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/net/ aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/net/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/net/aspose.words.lowcode/splitter/) etc. a fost introdus, oferind un set de metode care realizează echilibrul perfect între simplitate și flexibilitate pentru procesarea documentelor.
 
 ### Redare și imprimare
 
@@ -54,6 +66,10 @@ Abilitatea de a obține și seta coduri de format pentru datele grafice a fost a
 
 Histograma diagramă De redare a fost îmbunătățită prin a permite un anumit număr de containere și etichete.
 
+#### Personalizați plasarea etichetelor de date <sup>24.12</sup>
+
+Capacitatea de a personaliza plasarea etichetelor de date a fost adăugată prin introducerea de noi proprietăți în [ChartDataLabel](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/) și [ChartDataLabelCollection ](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/) clasele.
+
 ### Conversia, încărcarea și salvarea documentelor
 
 #### Subliniați formatarea la încărcarea fișierelor Markdown <sup>24.9</sup>
@@ -67,6 +83,12 @@ O opțiune de a exporta tabele ca HTML la salvarea documentelor în format Markd
 #### Export PDF cu structură logică actualizată <sup>24.11</sup>
 
 PDF exportul a fost îmbunătățit prin includerea proprietăților titlului tabelului ca PDF titluri de elemente de structură logică.
+
+### Îmbinare corespondență și raportare
+
+#### Eliminați tabelele goale în timpul îmbinării corespondenței <sup>24.12</sup>
+
+O nouă opțiune **RemoveEmptyTables** a fost adăugată la enumerarea [MailMergeCleanupOptions](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmergecleanupoptions/) pentru a rafina ieșirea Mail Merge.
 
 ### Semnături Digitale
 
@@ -92,6 +114,8 @@ Aflați mai multe despre [Aspose.Words pentru .NET 24.9 Note de lansare](https:/
 Aflați mai multe despre [Aspose.Words pentru .NET 24.10 Note de lansare](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
 
 Aflați mai multe despre [Aspose.Words pentru .NET 24.11 Note de lansare](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-11-release-notes/).
+
+Aflați mai multe despre [Aspose.Words pentru .NET 24.12 Note de lansare](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-12-release-notes/).
 
 {{% /alert %}}
 

@@ -7,12 +7,12 @@ type: docs
 description: "Aspose.Words voor .NET breidt uit en verbetert dagelijks. Op deze pagina, kunt u leren over de enorme en meest interessante kenmerken van het product."
 weight: 10
 url: /nl/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2024-11-18-12-56-02
+timestamp: 2024-12-11-13-48-02
 ---
 
 Deze pagina beschrijft de meest interessante nieuwe Aspose.Words features geïntroduceerd in recente releases.
 
-## Aspose.Words voor .NET 24.9, 24.10, 24.11
+## Aspose.Words voor .NET 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 introduceert groepsvorminvoeging en StructuredDocumentTag-invoeging via DocumentBuilder, verbetert radiale grafiekweergave met gradaties, verbetert digitale handtekeningen met XAdES-EPES-ondersteuning, voegt Markdown-onderstrepingsherkenning toe en biedt toegang tot voetnoot-/eindnootscheidingstekens.
 
@@ -20,9 +20,21 @@ Aspose.Words 24.10 introduceert verbeterde ActiveX-besturingselementondersteunin
 
 Aspose.Words 24.11 introduceert AI-aangedreven document samenvatting, verbeterde rendering opties, verbeterde toegang tot document eigenschappen en ActiveX control Ondertiteling.
 
-### AI - aangedreven functies <sup>24.11</sup>
+Aspose.Words 24.8 introduceert aanpasbare plaatsing van gegevenslabels, door Google AI aangestuurde tekstvertaling, verbeterde opties voor het opschonen van Mail Merge en nieuwe LowCode-verwerkingsklassen.
+
+### AI-aangedreven functies
+
+#### Documentsamenvatting met OpenAI en Google <sup>24.11</sup>
 
 Ondersteuning voor documentsamenvatting met behulp van **OpenAI** en **Google** generatieve taalmodellen is geïntegreerd door de [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) naamruimte toe te voegen aan zijn openbare leden.
+
+#### Tekstvertaling met behulp van Google's generatieve taalmodellen <sup>24.12</sup>
+
+De mogelijkheid om tekst te vertalen met behulp van Google's generatieve taalmodellen is geïmplementeerd in Aspose.Words door de methode [Translate](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/translate/) en de [Language](https://reference.aspose.com/words/net/aspose.words.ai/language/) en de opsomming toe te voegen aan de [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/)-naamruimte.
+
+### Low Code <sup>24.12</sup>
+
+Nieuwe LowCode-klassen zoals [Comparer](https://reference.aspose.com/words/net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/net/aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/net/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/net/aspose.words.lowcode/splitter/) etc. zijn geïntroduceerd en bieden een reeks methoden die de perfecte balans vormen tussen eenvoud en flexibiliteit voor documentverwerking.
 
 ### Renderen en afdrukken
 
@@ -54,6 +66,10 @@ De mogelijkheid om formaatcodes voor grafiekgegevens te verkrijgen en in te stel
 
 De weergave van histogrammen is verbeterd door een bepaald aantal bakken en labels toe te staan.
 
+#### Pas de plaatsing van gegevenslabels aan <sup>24.12</sup>
+
+De mogelijkheid om de plaatsing van gegevenslabels aan te passen is toegevoegd door nieuwe eigenschappen te introduceren in de klassen [ChartDataLabel](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/) en [ChartDataLabelCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/).
+
 ### Documenten converteren, laden en opslaan
 
 #### Onderstrepingsopmaak bij het laden van Markdown-bestanden <sup>24.9/sup>
@@ -67,6 +83,12 @@ Een optie om tabellen te exporteren als HTML bij het opslaan van documenten in M
 #### PDF exporteren met bijgewerkte logische structuur <sup>24.11</sup>
 
 De export van PDF is verbeterd door eigenschappen van tabeltitels op te nemen als titels van logische structuurelementen van PDF.
+
+### Mail Merge en rapportage
+
+#### Lege tabellen verwijderen tijdens Mail Merge <sup>24.12</sup>
+
+Er is een nieuwe optie **RemoveEmptyTables** toegevoegd aan de [MailMergeCleanupOptions](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmergecleanupoptions/)-enumeratie om de Mail Merge-uitvoer te verfijnen.
 
 ### Digitale handtekeningen
 
@@ -92,6 +114,8 @@ Meer informatie over [Aspose.Words voor .NET 24.9 Release-opmerkingen](https://r
 Meer informatie over [Aspose.Words voor .NET 24.10 Release-opmerkingen](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
 
 Lees meer over [Aspose.Words voor .NET 24.11 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-11-release-notes/).
+
+Lees meer over [Aspose.Words voor .NET 24.12 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-12-release-notes/).
 
 {{% /alert %}}
 
