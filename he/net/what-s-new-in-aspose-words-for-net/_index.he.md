@@ -7,12 +7,12 @@ type: docs
 description: "Aspose.Words עבור .NET מתרחב ומשפר מדי יום. בדף זה, אתה יכול ללמוד על התכונות הענקיות והמעניינות ביותר של המוצר."
 weight: 10
 url: /he/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2024-11-18-12-56-02
+timestamp: 2024-12-11-13-48-02
 ---
 
 דף זה מתאר את החדש המעניין ביותר Aspose.Words תכונות שהוצגו במהדורות האחרונות.
 
-## Aspose.Words עבור .NET 24.9, 24.10, 24.11
+## Aspose.Words עבור .NET 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 מציגה הכנסת צורות קבוצתיות והכנסת StructuredDocumentTag באמצעות DocumentBuilder, משפרת את עיבוד התרשים הרדיאלי עם דרגות, משפרת חתימות דיגיטליות עם תמיכה ב-XAdES-EPES, מוסיפה זיהוי קו תחתון של Markdown, ומספקת גישה למפרידי הערות שוליים/הערות סיום.
 
@@ -20,9 +20,21 @@ Aspose.Words 24.10 מציג תמיכה משופרת בבקרת ActiveX עם יצ
 
 Aspose.Words 24.11 מציג סיכום מסמכים המופעל על AI, אפשרויות עיבוד משופרות, גישה משופרת למאפייני המסמך וכיתוב בקרת אקטיבקס.
 
-### AI - מופעל תכונות <sup>24.11</sup>
+Aspose.Words 24.8 מציג מיקום תווית נתונים הניתנים להתאמה אישית, תרגום טקסט מבוסס בינה מלאכותית של Google, אפשרויות משופרות לניקוי מיזוג דואר ושיעורי עיבוד LowCode חדשים.
+
+### AI - מופעל תכונות 
+
+#### סיכום מסמכים באמצעות OpenAI ו-Google <sup>24.11</sup>
 
 תמיכה בסיכום מסמכים באמצעות מודלים של שפות גנרטיביות **OpenAI** ו - **Google** הושלבה על ידי הוספת מרחב השמות [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) עם חבריו הציבוריים.
+
+#### תרגום טקסט באמצעות מודלים של שפה מחוללת של Google <sup>24.12</sup>
+
+היכולת לתרגם טקסט באמצעות מודלים של שפה גנרטיבית של גוגל הוטמעה ב-Aspose.Words על ידי הוספת שיטת [Translate](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/translate/) ואת הספירה [Language](https://reference.aspose.com/words/net/aspose.words.ai/language/) ל- מרחב השמות [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/).
+
+### קוד נמוך <sup>24.12</sup>
+
+מחלקות LowCode חדשות כמו [Comparer](https://reference.aspose.com/words/net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/net/ aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/net/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/net/aspose.words.lowcode/splitter/) וכו' הוצג, ומציע אוסף של שיטות המייצרות את האיזון המושלם בין פשטות וגמישות לעיבוד מסמכים .
 
 ### עיבוד והדפסה
 
@@ -54,6 +66,10 @@ Aspose.Words 24.11 מציג סיכום מסמכים המופעל על AI, אפש
 
 עיבוד תרשים היסטוגרמה שופר על ידי מתן אפשרות למספר מוגדר של פחים ותוויות.
 
+#### התאם אישית את המיקום של תוויות נתונים <sup>24.12</sup>
+
+היכולת להתאים אישית את מיקום תוויות הנתונים נוספה על ידי הצגת מאפיינים חדשים ל-[ChartDataLabel](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/) ו-[ChartDataLabelCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/) שיעורים.
+
 ### המרה, טעינה ושמירה של מסמכים
 
 #### עיצוב קו תחתון בעת ​​טעינת קבצי Markdown <sup>24.9</sup>
@@ -67,6 +83,12 @@ Aspose.Words 24.11 מציג סיכום מסמכים המופעל על AI, אפש
 #### ייצוא PDF עם מבנה לוגי מעודכן <sup>24.11</sup>
 
 PDF הייצוא שופר על ידי הכללת מאפייני כותרת הטבלה כ PDF כותרות אלמנטים של מבנה לוגי.
+
+### מיזוג דואר ודיווח
+
+#### הסר טבלאות ריקות במהלך מיזוג דואר <sup>24.12</sup>
+
+אפשרות חדשה **RemoveEmptyTables** נוספה לספירת [MailMergeCleanupOptions](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmergecleanupoptions/) כדי לחדד את פלט מיזוג הדואר.
 
 ### חתימות דיגיטליות
 
@@ -92,6 +114,8 @@ PDF הייצוא שופר על ידי הכללת מאפייני כותרת הט�
 למידע נוסף על [Aspose.Words for .NET 24.10 Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
 
 למידע נוסף על [Aspose.Words עבור .NET 24.11 הערות שחרור](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-11-release-notes/).
+
+למידע נוסף על [Aspose.Words עבור .NET 24.12 הערות שחרור](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-12-release-notes/).
 
 {{% /alert %}}
 

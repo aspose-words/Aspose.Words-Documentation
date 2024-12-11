@@ -7,12 +7,12 @@ type: docs
 description: "Aspose.Words místo .NET denně rozšiřuje a zvyšuje. Na této stránce se můžete dozvědět o obrovských a nejzajímavějších rysech produktu."
 weight: 10
 url: /cs/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2024-11-18-12-56-02
+timestamp: 2024-12-11-13-48-02
 ---
 
 Tato stránka popisuje nejzajímavější nový Aspose.Words funkce zavedené v nedávných vydáních.
 
-## Aspose.Words Pro .NET 24.9, 24.10, 24.11
+## Aspose.Words Pro .NET 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 zavádí vkládání tvarů skupiny a vkládání StructuredDocumentTag prostřednictvím DocumentBuilderu, vylepšuje vykreslování radiálních grafů pomocí gradací, zlepšuje digitální podpisy s podporou XAdES-EPES, přidává rozpoznávání podtržení Markdown a poskytuje přístup k oddělovačům poznámek pod čarou/vysvětlivky.
 
@@ -20,9 +20,21 @@ Aspose.Words 24.10 zavádí vylepšenou podporu ovládacích prvků ActiveX s vy
 
 Aspose.Words 24.11 představuje souhrn dokumentů poháněný AI, vylepšené možnosti Vykreslování, vylepšený přístup k vlastnostem dokumentu a titulky ovládacích prvků ActiveX.
 
-### AI - poháněné funkce <sup>24.11</sup>
+Aspose.Words 24.8 zavádí přizpůsobitelné umístění štítků dat, překlad textu s podporou Google AI, vylepšené možnosti čištění hromadné korespondence a nové třídy zpracování LowCode.
+
+### AI - poháněné funkce
+
+#### Sumarizace dokumentů pomocí OpenAI a Google <sup>24.11</sup>
 
 Podpora sumarizace dokumentů pomocí generativních jazykových modelů **OpenAI** a **Google** byla integrována přidáním jmenného prostoru [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) s jeho veřejnými členy.
+
+#### Překlad textu pomocí generativních jazykových modelů Google <sup>24.12</sup>
+
+Možnost překládat text pomocí generativních jazykových modelů Google byla implementována do Aspose.Words přidáním metody [Translate](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/translate/) a [Language](https://reference.aspose.com/words/net/aspose.words.ai/language/) výčet Jmenný prostor [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/).
+
+### Nízký kód <sup>24.12</sup>
+
+Nové třídy LowCode jako [Comparer](https://reference.aspose.com/words/net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/net/ aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/net/aspose.words.lowcode/replacer/), Byl představen [Splitter](https://reference.aspose.com/words/net/aspose.words.lowcode/splitter/) atd., který nabízí sadu metod, které vytvářejí dokonalou rovnováhu mezi jednoduchostí a flexibilitou pro zpracování dokumentů.
 
 ### Vykreslování a tisk
 
@@ -54,6 +66,10 @@ Schopnost získat a nastavit kódy formátu pro data grafu byla přidána implem
 
 Vykreslování grafu histogramu bylo vylepšeno umožněním zadaného počtu přihrádek a štítků.
 
+#### Přizpůsobte umístění štítků dat <sup>24.12</sup>
+
+Možnost přizpůsobit umístění štítků dat byla přidána zavedením nových vlastností do [ChartDataLabel](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/) a [ChartDataLabelCollection ](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/) třídy.
+
 ### Konverze, načítání a ukládání dokumentů
 
 #### Při načítání souborů Markdown podtrhněte formátování <sup>24.9</sup>
@@ -67,6 +83,12 @@ Možnost exportovat tabulky jako HTML při ukládání dokumentů do formátu Ma
 #### Export PDF s aktualizovanou logickou strukturou <sup>24.11</sup>
 
 Export PDF byl vylepšen zahrnutím vlastností názvu tabulky jako názvů prvků logické struktury PDF.
+
+### Hromadná korespondence a hlášení
+
+#### Odstraňte prázdné tabulky během hromadné korespondence <sup>24.12</sup>
+
+Do výčtu [MailMergeCleanupOptions](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmergecleanupoptions/) byla přidána nová možnost **RemoveEmptyTables**, která zpřesňuje výstup hromadné korespondence.
 
 ### Digitální podpisy
 
@@ -92,6 +114,8 @@ Další informace o [Aspose.Words for .NET 24.9 Release Notes](https://releases.
 Další informace o [Aspose.Words for .NET 24.10 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
 
 Další informace o [Aspose.Words pro .NET 24.11 Poznámky k vydání](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-11-release-notes/).
+
+Další informace o [Aspose.Words pro .NET 24.12 Poznámky k vydání](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-12-release-notes/).
 
 {{% /alert %}}
 

@@ -7,12 +7,12 @@ type: docs
 description: "Aspose.Words for .NET expands and enhances daily. On this page, you can learn about the huge and most interesting features of the product."
 weight: 10
 url: /net/what-s-new-in-aspose-words-for-net/
-timestamp: 2024-11-18-12-56-02
+timestamp: 2024-12-11-13-48-02
 ---
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for .NET 24.9, 24.10, 24.11
+## Aspose.Words for .NET 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 introduces group shape insertion and StructuredDocumentTag insertion via DocumentBuilder, enhances radial chart rendering with graduations, improves digital signatures with XAdES-EPES support, adds Markdown underline recognition, and provides access to footnote/endnote separators.
 
@@ -20,9 +20,21 @@ Aspose.Words 24.10 introduces enhanced ActiveX control support with CommandButto
 
 Aspose.Words 24.11 introduces AI-powered document summarization, enhanced rendering options, improved access to document properties and ActiveX control captioning.
 
-### AI-powered Features <sup>24.11</sup>
+Aspose.Words 24.8 introduces customizable data label placement, Google AI-powered text translation, enhanced Mail Merge cleanup options, and new LowCode processing classes.
+
+### AI-powered Features
+
+#### Document Summarization Using OpenAI and Google <sup>24.11</sup>
 
 Support for document summarization using **OpenAI** and **Google** generative language models has been integrated by adding the [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) namespace with its public members.
+
+#### Text translation using Google's generative language models <sup>24.12</sup>
+
+The ability to translate text using Google's generative language models has been implemented in Aspose.Words by adding the [Translate](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/translate/) method and the [Language](https://reference.aspose.com/words/net/aspose.words.ai/language/) enumeration to the [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) namespace.
+
+### Low Code <sup>24.12</sup>
+
+New LowCode classes like [Comparer](https://reference.aspose.com/words/net/aspose.words.lowcode/comparer/), [MailMerger](https://reference.aspose.com/words/net/aspose.words.lowcode/mailmerger/), [Replacer](https://reference.aspose.com/words/net/aspose.words.lowcode/replacer/), [Splitter](https://reference.aspose.com/words/net/aspose.words.lowcode/splitter/) etc. has been introduced, offering a set of methods that strike the perfect balance between simplicity and flexibility for document processing.
 
 ### Rendering and Printing
 
@@ -54,6 +66,10 @@ The ability to get and set format codes for chart data has been added by impleme
 
 Histogram chart rendering has been improved by allowing for a specified number of bins and labels.
 
+#### Customize the Placement of Data Labels <sup>24.12</sup>
+
+The ability to customize the placement of data labels has been added by introducing new properties to the [ChartDataLabel](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/) and [ChartDataLabelCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/) classes.
+
 ### Converting, Loading and Saving Documents
 
 #### Underline Formatting when Loading Markdown Files <sup>24.9</sup>
@@ -67,6 +83,12 @@ An option to export tables as HTML when saving documents to Markdown format has 
 #### Export PDF with Updated Logical Structure <sup>24.11</sup>
 
 PDF export has been enhanced by including table title properties as PDF logical structure element titles.
+
+### Mail Merge and Reporting
+
+#### Remove Empty Tables during Mail Merge <sup>24.12</sup>
+
+A new **RemoveEmptyTables** option has been added to the [MailMergeCleanupOptions](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmergecleanupoptions/) enumeration to refine Mail Merge output.
 
 ### Digital Signatures
 
@@ -92,6 +114,8 @@ Learn more about [Aspose.Words for .NET 24.9 Release Notes](https://releases.asp
 Learn more about [Aspose.Words for .NET 24.10 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
 
 Learn more about [Aspose.Words for .NET 24.11 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-11-release-notes/).
+
+Learn more about [Aspose.Words for .NET 24.12 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-12-release-notes/).
 
 {{% /alert %}}
 

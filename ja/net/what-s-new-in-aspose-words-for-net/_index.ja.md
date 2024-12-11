@@ -7,12 +7,12 @@ type: docs
 description: "Aspose.Wordsは.NETのために毎日拡大し、強化します。 このページでは、製品の巨大で最も興味深い機能について学ぶことができます。"
 weight: 10
 url: /ja/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2024-11-18-12-56-02
+timestamp: 2024-12-11-13-48-02
 ---
 
 このページでは、最近のリリースで導入された最も興味深い新しいAspose.Words機能について説明します。
 
-## Aspose.Wordsのための.NET 24.9, 24.10, 24.11
+## Aspose.Wordsのための.NET 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words24.9はDocumentBuilderを介してgroup shape挿入とStructuredDocumentTag挿入を導入し、目盛りによる放射状チャートレンダリングを強化し、XAdES-EPESサポートによるデジタル署名を改善し、Markdown下線認識を追加し、脚注/文末脚注セパレータへのアクセスを提供します。
 
@@ -20,9 +20,21 @@ Aspose.Words24.10は、CommandButtonの作成、新しい形状の可視性コ�
 
 Aspose.Words24.11では、AIを使用したドキュメントの要約、強化されたレンダリングオプション、ドキュメントプロパティへのアクセスの改善、ActiveXコントロー
 
-### AI搭載の機能 <sup>24.11</sup>
+Aspose.Words 24.8 では、カスタマイズ可能なデータ ラベルの配置、Google AI を活用したテキスト翻訳、強化された差し込み印刷のクリーンアップ オプション、新しい LowCode 処理クラスが導入されています。
+
+### AI を活用した機能
+
+#### OpenAI と Google を使用したドキュメント要約 <sup>24.11</sup>
 
 **OpenAI**および**Google**生成言語モデルを使用した文書要約のサポートは、[Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/)名前空間とそのパブリックメンバーを追加することによって統合されています。
+
+#### Google の生成言語モデルを使用したテキスト翻訳 <sup>24.12</sup>
+
+Google の生成言語モデルを使用してテキストを翻訳する機能は、[Translate](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/translate/) メソッドと [Language](https://reference.aspose.com/words/net/aspose.words.ai/language/) 列挙を [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) 名前空間に追加することで、Aspose.Words に実装されました。
+
+### ローコード <sup>24.12</sup>
+
+[Comparer](https://reference.aspose.com/words/net/aspose.words.lowcode/comparer/)、[MailMerger](https://reference.aspose.com/words/net/aspose.words.lowcode/mailmerger/)、[Replacer](https://reference.aspose.com/words/net/aspose.words.lowcode/replacer/)、[Splitter](https://reference.aspose.com/words/net/aspose.words.lowcode/splitter/) などの新しいローコード クラスが導入され、ドキュメント処理のシンプルさと柔軟性の完璧なバランスを実現する一連のメソッドが提供されます。
 
 ### レンダリングと印刷
 
@@ -54,6 +66,10 @@ Aspose.Words24.11では、AIを使用したドキュメントの要約、強化�
 
 ヒストグラムチャートレンダリングは、指定された数のビンとラベルを使用できるようにすることで改善されました。
 
+#### データ ラベルの配置をカスタマイズする <sup>24.12</sup>
+
+[ChartDataLabel](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/) クラスと [ChartDataLabelCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/) クラスに新しいプロパティを導入することで、データ ラベルの配置をカスタマイズする機能が追加されました。
+
 ### 文書の変換、読み込み、保存
 
 #### Markdownファイルを読み込むときの書式設定に下線を引きます <sup>24.9</sup>
@@ -67,6 +83,12 @@ Aspose.Words24.11では、AIを使用したドキュメントの要約、強化�
 #### 更新された論理構造を使用してPDFをエクスポートする <sup>24.11</sup>
 
 PDFエクスポートは、テーブルタイトルプロパティをPDF論理構造要素のタイトルとして含めることで拡張されました。
+
+### 差し込み印刷とレポート
+
+#### 差し込み印刷中に空のテーブルを削除 <sup>24.12</sup>
+
+差し込み印刷の出力を改良するために、[MailMergeCleanupOptions](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmergecleanupoptions/) 列挙に新しい **RemoveEmptyTables** オプションが追加されました。
 
 ### デジタル署名
 
@@ -92,6 +114,8 @@ PDFエクスポートは、テーブルタイトルプロパティをPDF論理�
 詳細については、こちらをご覧ください [Aspose.WordsFor.NET 24.10リリースノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/).
 
 詳細については、こちらをご覧ください [Aspose.WordsFor.NET 24.11リリースノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-11-release-notes/).
+
+詳細については、こちらをご覧ください [Aspose.WordsFor.NET 24.12リリースノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-12-release-notes/).
 
 {{% /alert %}}
 

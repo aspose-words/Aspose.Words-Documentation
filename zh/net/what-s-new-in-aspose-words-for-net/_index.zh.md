@@ -7,12 +7,12 @@ type: docs
 description: "Aspose.Words for .NET 每天都在扩展和增强。在此页面上，您可以了解该产品的巨大且最有趣的功能。"
 weight: 10
 url: /zh/net/what-s-new-in-aspose-words-for-net/
-timestamp: 2024-11-18-12-56-02
+timestamp: 2024-12-11-13-48-02
 ---
 
 本页描述了最近版本中引入的最有趣的新 Aspose.Words 功能。
 
-## Aspose.Words为.NET 24.9, 24.10, 24.11
+## Aspose.Words为.NET 24.9, 24.10, 24.11, 24.12
 
 Aspose.Words 24.9 通过 DocumentBuilder 引入了组形状插入和 StructuredDocumentTag 插入，通过刻度增强了径向图表渲染，通过 XAdES-EPES 支持改进了数字签名，添加了 Markdown 下划线识别，并提供了对脚注/尾注分隔符的访问。
 
@@ -20,9 +20,21 @@ Aspose.Words 24.10 引入了增强的 ActiveX 控件支持，包括 CommandButto
 
 Aspose.Words24.11引入了AI支持的文档摘要、增强的呈现选项、改进的文档属性访问和ActiveX控件字幕。
 
-### AI功能 <sup>24.11</sup>
+Aspose.Words 24.8 引入了可自定义的数据标签放置、Google AI 支持的文本翻译、增强的邮件合并清理选项以及新的 LowCode 处理类。
+
+### AI 支持的功能
+
+#### 使用 OpenAI 和 Google 进行文档摘要 <sup>24.11</sup>
 
 通过添加[Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/)命名空间及其公共成员，集成了对使用**OpenAI**和**Google**生成语言模型的文档摘要的支持。
+
+#### 使用 Google 的生成语言模型进行文本翻译 <sup>24.12</sup>
+
+通过将 [Translate](https://reference.aspose.com/words/net/aspose.words.ai/iaimodeltext/translate/) 方法和 [Language](https://reference.aspose.com/words/net/aspose.words.ai/language/) 枚举添加到 [Aspose.Words.AI](https://reference.aspose.com/words/net/aspose.words.ai/) 命名空间，Aspose.Words 中实现了使用 Google 的生成语言模型翻译文本的功能。
+
+### Low Code <sup>24.12</sup>
+
+引入了新的 LowCode 类，如 [Comparer](https://reference.aspose.com/words/net/aspose.words.lowcode/comparer/)、[MailMerger](https://reference.aspose.com/words/net/aspose.words.lowcode/mailmerger/)、[Replacer](https://reference.aspose.com/words/net/aspose.words.lowcode/replacer/)、[Splitter](https://reference.aspose.com/words/net/aspose.words.lowcode/splitter/) 等，提供了一套在文档处理的简单性和灵活性之间取得完美平衡的方法。
 
 ### 渲染和打印
 
@@ -54,6 +66,10 @@ Aspose.Words24.11引入了AI支持的文档摘要、增强的呈现选项、改�
 
 通过允许指定数量的容器和标签，直方图图表的呈现得到了改进。
 
+#### 自定义数据标签的位置 <sup>24.12</sup>
+
+通过向 [ChartDataLabel](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/) 和 [ChartDataLabelCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/) 类引入新属性，添加了自定义数据标签位置的功能。
+
 ### 转换、加载和保存文档
 
 #### 加载 Markdown 文件时的下划线格式 <sup>24.9</sup>
@@ -67,6 +83,12 @@ Aspose.Words24.11引入了AI支持的文档摘要、增强的呈现选项、改�
 #### 使用更新的逻辑结构导出PDF <sup>24.11</sup>
 
 通过将表标题属性包含为PDF逻辑结构元素标题，已增强了PDF导出。
+
+### 邮件合并和报告
+
+#### 在邮件合并期间删除空表 <sup>24.12</sup>
+
+[MailMergeCleanupOptions](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmergecleanupoptions/) 枚举中添加了新的 **RemoveEmptyTables** 选项，以优化邮件合并输出。
 
 ### 数字签名
 
@@ -92,6 +114,8 @@ Aspose.Words24.11引入了AI支持的文档摘要、增强的呈现选项、改�
 了解有关 [Aspose.Words for .NET 24.10 发行说明](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-10-release-notes/) 的更多信息。
 
 了解更多关于 [Aspose.Words为.NET 24.11发行说明](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-11-release-notes/).
+
+了解更多关于 [Aspose.Words为.NET 24.12发行说明](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-12-release-notes/).
 
 {{% /alert %}}
 
